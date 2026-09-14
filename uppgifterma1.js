@@ -1,7 +1,6 @@
-/* Pedagogiskt kvalitetsreviderad t.o.m. omgång 40, 2026-09-14
- * E/C/A och poäng avser bedömning i Uppgiftslabbet.
- * traningsniva 1–5 avser svårighetsprogression i Kunskapsgymmet; arbetsinsats 1–3 avser omfattning/XP.
- */
+/* Pedagogiskt kvalitetsreviderad t.o.m. omgång 45, 2026-09-14
+   E/C/A används för Uppgiftslabbet. traningsniva 1–5 används separat i Kunskapsgymmet.
+*/
 window.BANKMA1 = [
   {
     "id": "0.01",
@@ -26157,7 +26156,7 @@ window.BANKMA1 = [
       "funktion"
     ],
     "familjTidigare": "Bestämma en linjär funktion",
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Punkten \\((0,3)\\) ger startvärdet direkt. Jämför sedan hur y ändras från 3 till 9 när x går från 0 till 2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -26201,7 +26200,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Arean av en cirkel kan skrivas \\(A=\\pi r^2\\). Förklara varför detta är en potensfunktion av \\(r\\).</p>",
-    "s": "<p>Formeln har formen \\(A=C r^a\\) med konstanten \\(C=\\pi\\) och den fasta exponenten \\(a=2\\). Variabeln \\(r\\) står alltså i basen och upphöjs till ett bestämt tal. Därför är \\(A=\\pi r^2\\) en potensfunktion av \\(r\\).</p>",
+    "s": "<p>En potensfunktion kan skrivas \\(y=Cx^a\\), där exponenten \\(a\\) är konstant. Här är \\(C=\\pi\\), variabeln är \\(r\\) och exponenten är 2.</p><p><strong>Svar:</strong> \\(A=\\pi r^2\\) är en potensfunktion av \\(r\\).</p>",
     "familj": "Använda potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -26212,7 +26211,7 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
+    "ledtrad": "<p>I uttrycket \\(A=\\pi r^2\\) är \\(r\\) basen medan exponenten 2 är konstant. Jämför med formen \\(y=Cx^a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -27166,7 +27165,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Tabellen tillhör en linjär funktion.</p><table class='data'><tr><th>x</th><td>0</td><td>2</td><td>4</td></tr><tr><th>y</th><td>5</td><td>11</td><td>17</td></tr></table><p>Bestäm funktionen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p>y ökar 6 när x ökar 2, alltså \\(k=3\\). När \\(x=0\\) är \\(y=5\\).</p><p><strong>Svar:</strong> <strong>\\(y=3x+5\\)</strong></p>",
+    "s": "<p>När x ökar från 0 till 2 ökar y med 6, så \\(k=6/2=3\\). Tabellen ger \\(m=5\\) eftersom \\(y=5\\) när \\(x=0\\).</p><p><strong>Svar:</strong> \\(y=3x+5\\).</p>",
     "familj": "Läsa och använda funktioner från tabell",
     "geogebra": false,
     "miniräknare": false,
@@ -27177,7 +27176,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>När x går från 0 till 2 ökar y från 5 till 11. Använd den förändringen för \\(k\\); tabellen visar också \\(m\\) direkt vid x=0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -27356,7 +27355,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken är en potensfunktion?<br>A: \\(y=4x^2\\)<br>B: \\(y=4\\cdot2^x\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p><strong>Svar:</strong> <strong>A.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>I A, \\(y=4x^2\\), står \\(x\\) i basen och exponenten 2 är konstant. I B, \\(y=4\\cdot2^x\\), står \\(x\\) i exponenten.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Använda potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -27367,7 +27366,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
+    "ledtrad": "<p>I en potensfunktion står variabeln i basen och exponenten är ett bestämt tal. I en exponentialfunktion står variabeln i exponenten.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -27393,7 +27392,11 @@ window.BANKMA1 = [
       "7.98",
       "4"
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.05,
+      0.005,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -27404,32 +27407,37 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Arean av en cirkel ges av potensfunktionen \\(A=\\pi r^2\\).</p><div class=\"spel-en-del\">Beräkna arean när \\(r=5\\) cm. Svara med en decimal.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(A=\\pi\\cdot5^2\\approx\\)<strong>78,5 cm²</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
+        "s": "<p>\\(A=\\pi\\cdot5^2=25\\pi\\approx78{,}5\\).</p><p><strong>Svar:</strong> 78,5 cm².</p>",
+        "ledtrad": "<p>Sätt \\(r=5\\) i \\(A=\\pi r^2\\) och avrunda först i slutet.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Arean av en cirkel ges av potensfunktionen \\(A=\\pi r^2\\).</p><div class=\"spel-en-del\">Bestäm radien när arean är 200 cm². Svara med två decimaler.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\pi r^2=200\\Rightarrow r=\\sqrt{\\frac{200}{\\pi}}\\approx\\)<strong>7,98 cm</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "s": "<p>\\(\\pi r^2=200\\Rightarrow r^2=200/\\pi\\Rightarrow r=\\sqrt{200/\\pi}\\approx7{,}98\\).</p><p><strong>Svar:</strong> 7,98 cm.</p>",
+        "ledtrad": "<p>Sätt \\(A=200\\) och lös ekvationen \\(\\pi r^2=200\\) för den positiva radien.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Arean av en cirkel ges av potensfunktionen \\(A=\\pi r^2\\).</p><div class=\"spel-en-del\">Hur många gånger större blir arean om radien fördubblas?</div>",
-        "s": "<p><strong>Metod:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\pi(2r)^2=4\\pi r^2\\), alltså <strong>4 gånger större</strong></div></p>",
-        "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "s": "<p>\\(A(2r)=\\pi(2r)^2=4\\pi r^2\\). Den nya arean är alltså fyra gånger den ursprungliga.</p><p><strong>Svar:</strong> 4 gånger.</p>",
+        "ledtrad": "<p>Ersätt \\(r\\) med \\(2r\\) i areaformeln och förenkla.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Använd \\(A=\\pi r^2\\). I b behöver du lösa ut \\(r\\); i c kan du jämföra \\(\\pi(2r)^2\\) med \\(\\pi r^2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.42",
@@ -27442,7 +27450,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>En potensfunktion ges av \\(y=2x^3\\).</p><p>a) Beräkna \\(y\\) när \\(x=2\\).<br>b) Beräkna \\(y\\) när \\(x=3\\).<br>c) Bestäm \\(x\\) när \\(y=250\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>a) \\(2\\cdot2^3=2\\cdot8=\\)<strong>16</strong></p><p>b) \\(2\\cdot3^3=2\\cdot27=\\)<strong>54</strong></p><p>c) \\(2x^3=250\\Rightarrow x^3=125\\Rightarrow\\)<strong>\\(x=5\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>a) \\(y=2\\cdot2^3=16\\).</p><p>b) \\(y=2\\cdot3^3=54\\).</p><p>c) \\(2x^3=250\\Rightarrow x^3=125\\Rightarrow x=5\\). Kontroll: \\(2\\cdot5^3=250\\).</p><p><strong>Svar:</strong> a) 16 &nbsp; b) 54 &nbsp; c) \\(x=5\\).</p>",
     "familj": "Använda potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -27459,8 +27467,8 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "svarFormat": [
-      null,
-      null,
+      "numeriskt",
+      "numeriskt",
       "numeriskt"
     ],
     "spelDelning": "deluppgifter",
@@ -27468,29 +27476,29 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>En potensfunktion ges av \\(y=2x^3\\).</p><div class=\"spel-en-del\">Beräkna \\(y\\) när \\(x=2\\).</div>",
-        "s": "<p><strong>Metod:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(2\\cdot2^3=2\\cdot8=\\)<strong>16</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
+        "s": "<p>\\(2\\cdot2^3=2\\cdot8=16\\).</p><p><strong>Svar:</strong> 16.</p>",
+        "ledtrad": "<p>Beräkna potensen \\(2^3\\) innan du multiplicerar med 2.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>En potensfunktion ges av \\(y=2x^3\\).</p><div class=\"spel-en-del\">Beräkna \\(y\\) när \\(x=3\\).</div>",
-        "s": "<p><strong>Metod:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(2\\cdot3^3=2\\cdot27=\\)<strong>54</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
+        "s": "<p>\\(2\\cdot3^3=2\\cdot27=54\\).</p><p><strong>Svar:</strong> 54.</p>",
+        "ledtrad": "<p>Beräkna potensen \\(3^3\\) innan du multiplicerar med 2.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>En potensfunktion ges av \\(y=2x^3\\).</p><div class=\"spel-en-del\">Bestäm \\(x\\) när \\(y=250\\).</div>",
-        "s": "<p><strong>Metod:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(2x^3=250\\Rightarrow x^3=125\\Rightarrow\\)<strong>\\(x=5\\)</strong></div></p>",
-        "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "s": "<p>\\(2x^3=250\\Rightarrow x^3=125\\Rightarrow x=5\\).</p><p><strong>Svar:</strong> \\(x=5\\).</p>",
+        "ledtrad": "<p>Dividera först \\(2x^3=250\\) med 2. Vilket tal har kuben 125?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>I a och b sätter du in x-värdet i \\(2x^3\\). I c sätter du \\(2x^3=250\\) och löser kubikekvationen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -27687,7 +27695,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Punkten \\((0,2)\\) ger \\(m\\). Bestäm sedan hur mycket y ökar när x går från −1 till 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -27782,7 +27790,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Börja med linjen genom de två givna funktionsvärdena. När formeln är klar kan både \\(f(0)\\) och skärningen med \\(y=x+7\\) bestämmas direkt.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -30466,7 +30474,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>På y-axeln är \\(x=0\\). Sätt därför \\(x=0\\) i varje ekvation och skriv skärningspunkten som \\((0,y)\\).</p>",
     "traningsniva": 1,
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -30771,7 +30779,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rät linje går genom punkterna \\((0,-2)\\) och \\((4,6)\\). Bestäm linjens ekvation.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Tänk så här:</strong> Kontrollera den färdiga linjen genom att sätta in en av de givna punkterna eller läsa av en tydlig punkt i grafen.</p><p>\\(k=(6-(-2))/4=2\\) och \\(m=-2\\).</p><p><strong>\\(y=2x-2\\)</strong>.</p></div></div>",
+    "s": "<p>\\(m=-2\\) eftersom linjen går genom \\((0,-2)\\). Vidare är \\(k=(6-(-2))/(4-0)=2\\).</p><p><strong>Svar:</strong> \\(y=2x-2\\).</p>",
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -30782,7 +30790,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Punkten \\((0,-2)\\) ger \\(m=-2\\). Bestäm \\(k\\) från förändringen mellan de två punkterna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -30849,7 +30857,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Bestäm funktionen först. Nollstället fås genom \\(y=0\\); skärningen med den andra linjen fås genom att sätta linjernas y-uttryck lika.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -30933,7 +30941,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Funktionsvärdet ökar med 3 när x ökar med 1. Använd sedan exempelvis punkten \\((1,5)\\) för att hitta konstanttermen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -31860,7 +31868,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Varje del använder samma mall: sätt det givna \\(k\\)- och \\(m\\)-värdet i \\(y=kx+m\\).</p>",
     "traningsniva": 1,
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -32042,7 +32050,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En linjär funktion går genom \\((0,-4)\\) och \\((5,6)\\). Bestäm funktionen.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Tänk så här:</strong> Kontrollera den färdiga linjen genom att sätta in en av de givna punkterna eller läsa av en tydlig punkt i grafen.</p><p>\\(k=(6-(-4))/5=2\\), \\(m=-4\\).</p><p><strong>Svar:</strong> <strong>\\(y=2x-4\\)</strong></p></div></div>",
+    "s": "<p>\\(m=-4\\) och \\(k=(6-(-4))/(5-0)=2\\).</p><p><strong>Svar:</strong> \\(y=2x-4\\).</p>",
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -32054,7 +32062,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "familjTidigare": "Bestämma en linjär funktion",
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Punkten \\((0,-4)\\) ger startvärdet. Från x=0 till x=5 ökar funktionsvärdet med 10.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -32125,7 +32133,7 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Bestämma en linjär funktion",
     "ledtrad": "<p>Bestäm först linjen genom punkterna \\((-2,7)\\) och \\((3,-3)\\). Lös sedan ekvationen \\(f(x)=11\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -32197,7 +32205,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm ekvationen för linjen genom punkterna \\((1,7)\\) och \\((6,22)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p>\\(k=(22-7)/(6-1)=3\\). \\(7=3\\cdot1+m\\Rightarrow m=4\\).</p><p><strong>\\(y=3x+4\\)</strong>.</p>",
+    "s": "<p>\\(k=(22-7)/(6-1)=3\\). Med punkten \\((1,7)\\): \\(7=3\\cdot1+m\\), alltså \\(m=4\\).</p><p><strong>Svar:</strong> \\(y=3x+4\\).</p>",
     "familj": "Bestämma linjär funktion från två punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -32208,7 +32216,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Börja med \\(k=(22-7)/(6-1)\\). Sätt därefter in någon av punkterna i \\(y=kx+m\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -32282,7 +32290,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En linjär funktion har \\(f(1)=8\\) och \\(f(2)=12\\). Bestäm funktionen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p>\\(k=(12-8)/(2-1)=4\\). \\(8=4\\cdot1+m\\Rightarrow m=4\\).</p><p><strong>Svar:</strong> <strong>\\(f(x)=4x+4\\)</strong></p>",
+    "s": "<p>\\(k=(12-8)/(2-1)=4\\). Med \\((1,8)\\): \\(8=4+m\\), alltså \\(m=4\\).</p><p><strong>Svar:</strong> \\(f(x)=4x+4\\).</p>",
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -32294,7 +32302,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "familjTidigare": "Bestämma en linjär funktion",
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Se \\(f(1)=8\\) och \\(f(2)=12\\) som punkterna \\((1,8)\\) och \\((2,12)\\). Skillnaden mellan dem ger först lutningen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -32468,7 +32476,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Skriv varje ekvation i formen \\(y=kx+m\\). Talet framför \\(x\\) är \\(k\\) och konstanttermen är \\(m\\).</p>",
     "traningsniva": 1,
-    "arbetsinsats": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -32529,7 +32537,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Skriv först om den givna linjen som \\(y=kx+m\\). För c) ska \\(k\\) vara samma som för originallinjen medan \\(m\\) får variera — men ett värde måste uteslutas.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -32989,7 +32997,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Volymen av en kub med kantlängden \\(s\\) ges av \\(V=s^3\\).</p><p>a) Beräkna volymen när \\(s=4\\) cm.<br>b) Bestäm kantlängden när volymen är 343 cm³.<br>c) Hur många gånger större blir volymen om kantlängden fördubblas? Motivera.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>a) \\(V=4^3=\\)<strong>64 cm³</strong></p><p>b) \\(s^3=343\\Rightarrow\\)<strong>\\(s=7\\) cm</strong></p><p>c) Den nya volymen är \\((2s)^3=2^3\\cdot s^3=8s^3\\). Volymen blir alltså <strong>8 gånger större</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>a) \\(V=4^3=64\\) cm³.</p><p>b) \\(s^3=343\\Rightarrow s=7\\) cm.</p><p>c) \\((2s)^3=8s^3\\), så en fördubblad kantlängd ger åtta gånger så stor volym.</p><p><strong>Svar:</strong> a) 64 cm³ &nbsp; b) 7 cm &nbsp; c) 8 gånger.</p>",
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -33021,7 +33029,7 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt"
     ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Använd \\(V=s^3\\). I b söker du den positiva kantlängden vars kub är 343. I c jämför du \\((2s)^3\\) med \\(s^3\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -33069,7 +33077,7 @@ window.BANKMA1 = [
       "b) funktionstyp",
       "c) funktionstyp"
     ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Titta på var variabeln \\(x\\) står: i basen med konstant exponent, i exponenten eller bara i första graden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -33085,7 +33093,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En storhet beskrivs av potensfunktionen \\(y=4x^2\\).</p><p>Hur många gånger större blir \\(y\\) om \\(x\\) tredubblas? Motivera utan att välja ett bestämt värde på \\(x\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ersätt \\(x\\) med \\(3x\\):</p><p>\\[4(3x)^2=4\\cdot9x^2=9\\cdot4x^2.\\]</p><p>Uttrycket är alltså 9 gånger det ursprungliga \\(4x^2\\), oavsett vilket värde \\(x\\) har.</p><p><strong>Svar:</strong> <strong>\\(y\\) blir 9 gånger större.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>När \\(x\\) tredubblas blir funktionsvärdet \\(4(3x)^2=4\\cdot9x^2=9\\cdot4x^2\\).</p><p><strong>Svar:</strong> \\(y\\) blir 9 gånger så stort.</p>",
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -33097,7 +33105,7 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Jämför \\(4(3x)^2\\) med det ursprungliga uttrycket \\(4x^2\\). Du behöver inte välja något särskilt x-värde.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
@@ -33127,7 +33135,7 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
+    "ledtrad": "<p>I \\(2{,}5x^3\\) står variabeln i basen och exponenten 3 är konstant. Jämför med de tre modelltypernas kännetecken.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -33143,7 +33151,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En storhet beskrivs av \\(y=5x^{1,5}\\). Hur många gånger större blir \\(y\\) om \\(x\\) fördubblas?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p><p>Faktorn blir \\(2^{1,5}=2\\sqrt2\\approx2,83\\).</p><p><strong>Svar:</strong> <strong>Cirka 2,83 gånger.</strong></p>",
+    "s": "<p>\\(5(2x)^{1{,}5}=2^{1{,}5}\\cdot5x^{1{,}5}\\). Faktorn är \\(2^{1{,}5}=\\sqrt{8}\\approx2{,}83\\).</p><p><strong>Svar:</strong> cirka 2,83 gånger.</p>",
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -33155,7 +33163,7 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Jämför med formen för en potensfunktion på formelbladet, \\(y=Cx^a\\). Variabeln står i basen och exponenten är ett bestämt tal.</p>",
+    "ledtrad": "<p>Om \\(x\\) ersätts av \\(2x\\), vilken faktor kan du bryta ut ur \\((2x)^{1{,}5}\\)?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -33194,7 +33202,7 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt"
     ],
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Dividera ekvationen för punkten \\((4,96)\\) med ekvationen för \\((2,24)\\). Då försvinner \\(C\\) och du kan bestämma exponenten först.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true
@@ -33787,7 +33795,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>En linjär modell ger värdet 34 när \\(x=2\\) och 58 när \\(x=8\\). Bestäm modellen och beräkna värdet när \\(x=20\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Om två punkter är kända kan du använda formelbladets \\(k=\\frac{y_2-y_1}{x_2-x_1}\\). Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p><p>\\(k=(58-34)/(8-2)=4\\). \\(34=4\\cdot2+m\\Rightarrow m=26\\).</p><p>Modell: \\(y=4x+26\\). Vid 20: <strong>106</strong>.</p>",
+    "s": "<p>De givna värdena motsvarar punkterna \\((2,34)\\) och \\((8,58)\\). Då</p><p>\\(k=(58-34)/(8-2)=4\\) och \\(34=4\\cdot2+m\\Rightarrow m=26\\).</p><p>Modellen är \\(y=4x+26\\). Vid \\(x=20\\) blir värdet \\(4\\cdot20+26=106\\).</p><p><strong>Svar:</strong> \\(y=4x+26\\), och värdet är 106.</p>",
     "familj": "Bestämma linjär funktion från villkor",
     "geogebra": false,
     "miniräknare": false,
@@ -33882,7 +33890,7 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Bestämma en linjär funktion",
     "ledtrad": "<p>Tolka 3 timmar/1850 kr och 7 timmar/3850 kr som två punkter i ett kostnadsdiagram. Lutningen blir timpriset och konstanttermen framkörningsavgiften.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -33909,7 +33917,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Punkten \\((0,5)\\) ger konstanttermen direkt. Bestäm sedan lutningen från punkterna \\((0,5)\\) och \\((3,11)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -34013,7 +34021,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Tabellen visar \\(f(0)=4\\), alltså känner du redan \\(m\\). Bestäm \\(k\\) från någon av de andra kolumnerna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -34055,7 +34063,7 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Bestämma en linjär funktion",
     "ledtrad": "<p>Beräkna först hur mycket spänningen ändras per grad. Använd sedan en av mätpunkterna för konstanttermen. I b sätter du \\(U=2{,}4\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -35335,7 +35343,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Punkten \\((0,-6)\\) ger \\(m=-6\\). Använd sedan att linjen också går genom \\((2,0)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -37307,7 +37315,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f(x)=2x+1\\) används för \\(0\\le x\\le 4\\). Skriv värdemängden som ett intervall.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[1,9]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<p>Ändpunkterna ger \\(f(0)=1\\) och \\(f(4)=9\\). Eftersom linjen är växande antar den alla värden däremellan.</p><p><strong>Svar:</strong> \\([1,9]\\).</p>",
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -37336,7 +37344,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f(x)=3x-2\\) används för \\(-1\\le x\\le 3\\). Skriv värdemängden som ett intervall.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[-5,7]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<p>\\(f(-1)=-5\\) och \\(f(3)=7\\). Funktionen är växande på hela intervallet.</p><p><strong>Svar:</strong> \\([-5,7]\\).</p>",
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -37365,7 +37373,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f(x)=-2x+8\\) används för \\(1\\le x\\le 5\\). Skriv värdemängden som ett intervall.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Beräkna funktionsvärdet i intervallets båda ändpunkter. Eftersom funktionen är linjär ligger alla mellanliggande värden mellan dessa.</p><p><strong>Svar:</strong> <strong>[-2,6]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<p>\\(f(1)=6\\) och \\(f(5)=-2\\). Eftersom funktionen är avtagande skrivs värdemängden från det minsta till det största värdet.</p><p><strong>Svar:</strong> \\([-2,6]\\).</p>",
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -37482,7 +37490,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett samband ges av punkterna (-2,5), (0,1), (3,7). Vilket är det största värdet i värdemängden?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Värdemängden består av punktarnas y-värden. Välj det största av dem.</p><p><strong>Svar:</strong> <strong>7</strong></p></div></div>",
+    "s": "<p>Värdemängden består av y-värdena 5, 1 och 7. Det största av dem är 7.</p><p><strong>Svar:</strong> 7.</p>",
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -37566,7 +37574,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En behållare innehåller 120 liter och töms med 8 liter per minut. Modellen är \\(V(t)=120-8t\\). Vilket är det största rimliga värdet på \\(t\\)?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Modellen är rimlig tills behållaren är tom. Sätt därför V(t)=0 och lös ekvationen.</p><p><strong>Svar:</strong> <strong>15 min</strong></p></div></div>",
+    "s": "<p>Modellen är rimlig tills behållaren är tom: \\(120-8t=0\\Rightarrow t=15\\).</p><p><strong>Svar:</strong> 15 minuter.</p>",
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
     "miniräknare": false,
@@ -38283,24 +38291,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Två modeller beskriver mängden verksam substans, i mg, efter \\(x\\) timmar: \\(A(x)=120-5x\\) och \\(B(x)=100\\cdot0{,}96^x\\). Vilken modell ger störst mängd efter 5 timmar?</p><p>A: Modell A &nbsp;&nbsp; B: Modell B</p>",
-    "s": "<div class=\"facit-v2\"><p>Sätt in det angivna värdet på \\(x\\) i båda modellerna. Då får man \\(A=95\\) och \\(B=cirka 81,54\\). Jämförelsen visar vilken modell som är störst just vid denna tidpunkt.</p><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två modeller beskriver mängden verksam substans, i mg, efter \\(x\\) timmar:</p><p>\\(A(x)=120-5x\\) och \\(B(x)=100\\cdot0{,}96^x\\).</p><p>En elev säger: ”Eftersom \\(A(0)>B(0)\\) måste modell A ge störst värde för alla \\(x\\ge0\\).” Vilket påstående bedömer elevens slutsats bäst?</p><p>A: Slutsatsen är säker, eftersom den modell som börjar högst alltid ligger högst.<br>B: Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.<br>C: Slutsatsen är fel, eftersom en exponentiell modell alltid ligger över en linjär när \\(x>0\\).<br>D: Modellerna går inte att jämföra alls om de har olika startvärden.</p>",
+    "s": "<p>Startvärdena visar bara ordningen vid \\(x=0\\). Modell A minskar med ett fast antal per timme, medan B minskar med en fast procentandel. Därför räcker inte startvärdena för att avgöra ordningen för alla framtida tider.</p><p><strong>Svar:</strong> B.</p>",
     "familj": "Välja och jämföra matematiska modeller",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Sätt in det angivna \\(x\\)-värdet i båda modellerna och jämför resultaten. Räkna modellerna var för sig innan du väljer.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Fråga dig vad startvärdena faktiskt berättar: gäller jämförelsen bara vid \\(x=0\\), eller säger den något om hur modellerna förändras senare?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -38313,25 +38321,25 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Två modeller används för antalet deltagare, i hundratal, efter \\(x\\) dagar: \\(A(x)=20+12x\\) och \\(B(x)=30\\cdot1{,}2^x\\). Vilken modell ger störst värde efter 3 dagar?</p><p>A: Modell A &nbsp;&nbsp; B: Modell B</p>",
-    "s": "<div class=\"facit-v2\"><p>Sätt in det angivna värdet på \\(x\\) i båda modellerna. Då får man \\(A=56\\) och \\(B=cirka 51,84\\). Jämförelsen visar vilken modell som är störst just vid denna tidpunkt.</p><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två modeller beskriver antalet deltagare, i hundratal, efter \\(x\\) dagar:</p><p>\\(A(x)=20+12x\\) och \\(B(x)=30\\cdot1{,}2^x\\).</p><p>Från och med dag 2 är A till en början större än B. Vilken är den första hela dagen \\(x\\ge2\\) då B åter är större än A?</p>",
+    "s": "<p>Jämför modellerna vid heltalsdagar. Vid \\(x=6\\): \\(A(6)=92\\) och \\(B(6)\\approx89{,}58\\), så A är fortfarande störst. Vid \\(x=7\\): \\(A(7)=104\\) och \\(B(7)\\approx107{,}50\\).</p><p><strong>Svar:</strong> dag 7.</p>",
     "familj": "Välja och jämföra matematiska modeller",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "problemlosning",
+      "modellering"
     ],
-    "svarFormat": "kort_text",
-    "ledtrad": "<p>Sätt in det angivna \\(x\\)-värdet i båda modellerna och jämför resultaten. Räkna modellerna var för sig innan du väljer.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
+    "svarFormat": "heltal",
+    "ledtrad": "<p>Du söker den minsta hela dagen. Jämför modellerna kring den tidpunkt där den exponentiella modellen börjar komma ikapp.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -38343,24 +38351,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Två modeller beskriver återstående energi i ett batterisystem, i Wh, efter \\(x\\) timmar: \\(A(x)=200-15x\\) och \\(B(x)=180\\cdot0{,}9^x\\). Vilken modell ger störst värde efter 4 timmar?</p><p>A: Modell A &nbsp;&nbsp; B: Modell B</p>",
-    "s": "<div class=\"facit-v2\"><p>Sätt in det angivna värdet på \\(x\\) i båda modellerna. Då får man \\(A=140\\) och \\(B=cirka 118,1\\). Jämförelsen visar vilken modell som är störst just vid denna tidpunkt.</p><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två modeller beskriver återstående energi i ett batterisystem, i Wh:</p><p>\\(A(x)=200-15x\\) och \\(B(x)=180\\cdot0{,}9^x\\), där \\(x\\ge0\\) är tiden i timmar.</p><p>Energi kan inte vara negativ. Vilken modell kan, utifrån just detta villkor, användas för alla \\(x\\ge0\\)?</p><p>A: Endast A, eftersom en linjär modell alltid är positiv.<br>B: Endast B, eftersom \\(180\\cdot0{,}9^x\\) förblir positiv medan A till slut blir negativ.<br>C: Båda, eftersom båda modellerna minskar när tiden ökar.<br>D: Ingen, eftersom alla avtagande modeller till slut blir negativa.</p>",
+    "s": "<p>För A blir \\(200-15x<0\\) när \\(x>200/15\\approx13{,}3\\). Modell B är däremot positiv för varje \\(x\\ge0\\), eftersom både 180 och \\(0{,}9^x\\) är positiva.</p><p><strong>Svar:</strong> B.</p>",
     "familj": "Välja och jämföra matematiska modeller",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "modellering",
+      "resonemang"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Sätt in det angivna \\(x\\)-värdet i båda modellerna och jämför resultaten. Räkna modellerna var för sig innan du väljer.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Undersök tecknet för respektive modell när \\(x\\) blir stort. Kan någon av dem passera 0?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -38373,25 +38381,25 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Två modeller beskriver antalet bakterier, i tusental, efter \\(x\\) timmar: \\(A(x)=10+5x\\) och \\(B(x)=8\\cdot1{,}4^x\\). Vilken modell ger störst antal efter 5 timmar?</p><p>A: Modell A &nbsp;&nbsp; B: Modell B</p>",
-    "s": "<div class=\"facit-v2\"><p>Sätt in det angivna värdet på \\(x\\) i båda modellerna. Då får man \\(A=35\\) och \\(B=cirka 43,03\\). Jämförelsen visar vilken modell som är störst just vid denna tidpunkt.</p><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två modeller beskriver antalet bakterier, i tusental, efter \\(x\\) timmar:</p><p>\\(A(x)=10+5x\\) och \\(B(x)=8\\cdot1{,}4^x\\).</p><p>Vilken är den första hela timmen då modell B ger ett större värde än modell A?</p>",
+    "s": "<p>Vid \\(x=3\\) är \\(A(3)=25\\) och \\(B(3)=8\\cdot1{,}4^3\\approx21{,}95\\), så A är fortfarande större. Vid \\(x=4\\) är \\(A(4)=30\\) och \\(B(4)\\approx30{,}73\\).</p><p><strong>Svar:</strong> 4 timmar.</p>",
     "familj": "Välja och jämföra matematiska modeller",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "problemlosning",
+      "modellering"
     ],
-    "svarFormat": "kort_text",
-    "ledtrad": "<p>Sätt in det angivna \\(x\\)-värdet i båda modellerna och jämför resultaten. Räkna modellerna var för sig innan du väljer.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
+    "svarFormat": "heltal",
+    "ledtrad": "<p>Jämför modellerna för heltalsvärden nära där de verkar bli lika. Kontrollera även heltimmen precis före ditt svar.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -38963,7 +38971,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38992,7 +39000,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -39925,7 +39933,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Arean av likformiga figurer är proportionell mot längdskalan i kvadrat. Längderna tredubblas. Hur många gånger större blir arean?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Skalningsidé:</strong> Om alla längder multipliceras med \\(k\\), multipliceras arean med \\(k^2\\) eftersom två längdriktningar skalas.</p><p>Areafaktorn är \\(3^2=9\\).</p><p><strong>Svar:</strong> 9 gånger.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Areaskalan är kvadraten på längdskalan: \\(3^2=9\\).</p><p><strong>Svar:</strong> 9 gånger.</p>",
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -39938,7 +39946,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>När alla längder multipliceras med 3 multipliceras arean med \\(3^2\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -39954,7 +39962,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Volymen av likformiga kroppar är proportionell mot längdskalan i kubik. Alla längder halveras. Hur stor andel av den ursprungliga volymen återstår?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Skalningsidé:</strong> Om alla längder multipliceras med \\(k\\), multipliceras volymen med \\(k^3\\) eftersom tre längdriktningar skalas.</p><p>Volymfaktorn är \\(0{,}5^3=0{,}125\\).</p><p><strong>Svar:</strong> 0,125.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Volymfaktorn är \\((1/2)^3=1/8=0{,}125\\).</p><p><strong>Svar:</strong> \\(1/8\\) av volymen, alltså 12,5 %.</p>",
     "familj": "Skalning med potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -39967,7 +39975,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Volymen följer längdskalan i kubik. Sätt längdfaktorn till \\(1/2\\) och beräkna \\((1/2)^3\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -40137,7 +40145,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40214,14 +40222,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En exponentialfunktion ges av \\(f(x)=3\\cdot 1,2^x\\).</p><p>Bestäm \\(f(4)\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Sätt in \\(x=4\\) i funktionsuttrycket.</p><p>\\(f(4)=3\\cdot1.2^4=6.221\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "t": "<p>En exponentialfunktion ges av \\(f(x)=3\\cdot1{,}2^x\\).</p><p>Bestäm \\(f(4)\\). Svara med tre decimaler.</p>",
+    "s": "<p>\\(f(4)=3\\cdot1{,}2^4=6{,}2208\\).</p><p><strong>Svar:</strong> \\(f(4)\\approx6{,}221\\).</p>",
     "familj": "Bestämma och använda exponentialfunktion",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 6.2208,
-    "tolerans": 0.09331199999999999,
+    "rättSvar": 6.221,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40242,14 +40250,14 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En exponentialfunktion ges av \\(f(x)=80\\cdot 0,85^x\\).</p><p>Bestäm \\(f(3)\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Sätt in \\(x=3\\) i funktionsuttrycket.</p><p>\\(f(3)=80\\cdot0.85^3=49.130\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "t": "<p>En exponentialfunktion ges av \\(f(x)=80\\cdot0{,}85^x\\).</p><p>Bestäm \\(f(3)\\). Svara med tre decimaler.</p>",
+    "s": "<p>\\(f(3)=80\\cdot0{,}85^3=49{,}13\\).</p><p><strong>Svar:</strong> \\(49{,}130\\).</p>",
     "familj": "Bestämma och använda exponentialfunktion",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 49.129999999999995,
-    "tolerans": 0.7369499999999999,
+    "rättSvar": 49.13,
+    "tolerans": 0.0005,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40268,10 +40276,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En exponentialfunktion har formen \\(f(x)=5\\cdot b^x\\) och \\(f(2)=20\\).</p><p>Bestäm förändringsfaktorn \\(b\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Sätt in den givna punkten och lös potensekvationen.</p><p>\\(5b^2=20\\Rightarrow b^{2}=4\\Rightarrow b=2.0000\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Sätt in \\(x=2\\): \\(5b^2=20\\). Då \\(b^2=4\\). En förändringsfaktor är positiv, så \\(b=2\\).</p><p><strong>Svar:</strong> \\(b=2\\).</p>",
     "familj": "Bestämma och använda exponentialfunktion",
     "geogebra": false,
     "miniräknare": true,
@@ -40284,7 +40292,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt in x=2 och f(2)=20. Dividera först bort startfaktorn 5 och ta sedan den positiva kvadratroten.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -40398,7 +40406,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Linjen \\(l\\) har riktningskoefficienten \\(k=3\\). En annan linje ska vara parallell mot \\(l\\).</p><p>Bestäm den andra linjens riktningskoefficient.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Parallella linjer har samma riktningskoefficient. För vinkelräta linjer gäller \\(k_1k_2=-1\\).</p><p><strong>Svar:</strong> \\(k=3\\).</p></div></div>",
+    "s": "<p>Parallella linjer har samma riktningskoefficient.</p><p><strong>Svar:</strong> \\(k=3\\).</p>",
     "familj": "Parallella och vinkelräta linjer",
     "geogebra": false,
     "miniräknare": false,
@@ -40585,7 +40593,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Läs först om någon punkt har \\(x=0\\); då får du startvärdet direkt. Bestäm annars lutningen från två punkter och använd en punkt för att hitta konstanttermen.</p>",
+    "ledtrad": "<p>Punkten \\((0,4)\\) ger \\(m=4\\). Mellan de två punkterna ökar y med 15 när x ökar med 5.</p>",
     "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -40647,7 +40655,7 @@ window.BANKMA1 = [
     "ledtrad": "<p>Skriv riktningskoefficienten med de två punkterna. Förenkla täljaren \\((a+10)-a\\) och fundera på vad en gemensam lodrät förskjutning gör med lutningen.</p>",
     "svarFormat": "numeriskt",
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -40755,7 +40763,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En simbassäng fylls med vatten. Volymen beskrivs av \\(V(t)=300+250t\\), där \\(V\\) mäts i liter och \\(t\\) i minuter.</p><p>Hur mycket vatten fanns i bassängen när fyllningen började?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Startvärdet är funktionsvärdet vid \\(t=0\\).</p><p><strong>Steg 1:</strong> \\(V(0)=300+250\\cdot0=300\\).</p><p><strong>Svar:</strong> 300 liter.</p></div></div>",
+    "s": "<p>När fyllningen börjar är \\(t=0\\): \\(V(0)=300+250\\cdot0=300\\).</p><p><strong>Svar:</strong> 300 liter.</p>",
     "familj": "Tolka linjära modeller i en situation",
     "geogebra": false,
     "miniräknare": false,
@@ -40852,7 +40860,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En modell ges av \\(y=4x-1\\).</p><p>Vilket värde saknas i tabellen?</p><table class='data'><tr><th>x</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>y</th><td>−1</td><td>3</td><td>?</td><td>11</td></tr></table>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Sätt in det \\(x\\)-värde som saknar sitt \\(y\\) i formeln.</p><p><strong>Steg 1:</strong> \\(y=4\\cdot2-1\\).</p><p><strong>Steg 2:</strong> \\(y=8-1=7\\).</p><p><strong>Svar:</strong> 7</p></div></div>",
+    "s": "<p>För \\(x=2\\) ger modellen \\(y=4\\cdot2-1=7\\).</p><p><strong>Svar:</strong> 7.</p>",
     "familj": "Växla mellan tabell och formel",
     "geogebra": false,
     "miniräknare": false,
@@ -41137,8 +41145,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett värde ökar först med 30 % och minskar därefter med 30 %.</p><p>Bestäm den sammanlagda förändringsfaktorn och den totala procentuella förändringen.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Förändringar som sker efter varandra multipliceras — de adderas inte. Därför tar +30 % och −30 % inte ut varandra.</p><p><strong>Steg 1:</strong> Faktorerna är \\(1{,}30\\) och \\(0{,}70\\).</p><p><strong>Steg 2:</strong> \\(1{,}30\\cdot0{,}70=0{,}91\\).</p><p><strong>Steg 3:</strong> \\(0{,}91-1=-0{,}09\\), alltså en minskning med 9 %.</p><p><strong>Förklaring:</strong> Ökningen räknas på det ursprungliga värdet, men minskningen på det förhöjda. Minskningen blir därför större i absoluta tal, och resultatet hamnar under utgångsläget.</p><p><strong>Svar:</strong> Faktorn är 0,91, alltså en minskning med 9 %.</p>",
     "familj": "Tolka förändringsfaktor i exponentialfunktion",
@@ -41155,8 +41163,8 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "ledtrad": "<p>Omvandlas varje procentförändring till en faktor och multiplicera faktorerna. Jämför produkten med 1 — procenttalen ska inte adderas.</p>",
     "svarFormat": [
@@ -41168,7 +41176,7 @@ window.BANKMA1 = [
       "förändringsfaktor",
       "total förändring (%)"
     ],
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -41462,7 +41470,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett prisindex har basåret 100. Ett senare år är index 124. Hur stor är prisökningen jämfört med basåret?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Läs först av vad indexets basår eller jämförelsevärde representerar. Använd sedan kvoten mellan värdena för att tolka förändringen.</p><p>Index har ökat från 100 till 124.</p><p><strong>Svar:</strong> <strong>24 %</strong></p>",
+    "s": "<p>Index har ökat från 100 till 124.</p><p><strong>Svar:</strong> <strong>24 %</strong></p>",
     "familj": "Beräkna och tolka index",
     "geogebra": false,
     "miniräknare": false,
@@ -41474,7 +41482,7 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
+    "ledtrad": "<p>Basåret är 100. Hur många indexenheter över 100 ligger index 124?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -41502,7 +41510,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>Efter en minskning med 14 % återstår mindre än 100 %. Skriv den kvarvarande andelen som decimal.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -41549,7 +41557,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bil köps för 260 000 kr och säljs 5 år senare för 178 000 kr. Anta samma procentuella värdeminskning varje år.</p><p>Bestäm den genomsnittliga årliga minskningen i procent.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(260000q^5=178000\\Rightarrow q=(\\frac{178}{260})^{\\frac{1}{5}}\\approx0,92702\\).</p><p>Årlig minskning är därför <strong>7,3 %</strong>.</p>",
+    "s": "<p>\\(260000q^5=178000\\Rightarrow q=(\\frac{178}{260})^{\\frac{1}{5}}\\approx0,92702\\).</p><p>Årlig minskning är därför <strong>7,3 %</strong>.</p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": true,
     "miniräknare": true,
@@ -41560,7 +41568,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Jämför 178 000 med 260 000. Den kvoten är den totala faktorn efter fem lika stora års-faktorer.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -41576,7 +41584,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett kapital på 10 000 kr har vuxit till 10 500 kr efter ett år. Vilken var årsräntan?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>Ökningen är 500 kr. \\(\\frac{500}{10}\\,000=0,05\\).</p><p><strong>Svar:</strong> <strong>5 %</strong></p>",
+    "s": "<p>Kapitalet har ökat med \\(10\\,500-10\\,000=500\\) kr. Räntesatsen är därför \\(500/10\\,000=0,05=5\\%\\).</p><p><strong>Svar:</strong> 5 %.</p>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
@@ -41588,7 +41596,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Bestäm först ökningen i kronor och jämför den sedan med startkapitalet 10 000 kr.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -41604,7 +41612,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett lån på 120 000 kr har månadsräntan 0,5 % och amorteras med 5 000 kr per månad. Hur stor är den första månadsbetalningen?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>Ränta 600 kr. Betalning <strong>5 600 kr</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ränta 600 kr. Betalning <strong>5 600 kr</strong>.</p></div></div>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -41615,7 +41623,7 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Beräkna först 0,5 % av 120 000 kr. Lägg sedan räntan till amorteringen 5 000 kr.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -42168,7 +42176,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
+    "ledtrad": "<p>Använd index 150 som faktorn 1,50 i a. I b ska den verkliga skillnaden jämföras med det indexjusterade priset, inte med ursprungspriset.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
@@ -42200,7 +42208,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
+    "ledtrad": "<p>Tolka 143 som 143 % av basnivån. I c behöver du arbeta baklänges från faktor 1,60.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -42338,7 +42346,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>Efter en minskning med 18 % återstår 100 % minus 18 % av ursprungsvärdet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -42418,21 +42426,21 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>En vara kostar 840 kr.</p><div class=\"spel-en-del\">Vad blir priset efter en ökning med förändringsfaktorn 1,15?</div>",
-        "s": "<p><strong>Metod:</strong> Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p><p><strong>Tänk så här:</strong> Skriv gärna förändringsfaktorn explicit innan du räknar vidare; då blir det tydligt om förändringen är en ökning eller minskning.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(840\\cdot1,15=\\)<strong>966 kr</strong>.</div></p><p></p>",
-        "ledtrad": "<p>Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p>",
+        "s": "<p>\\(840\\cdot1,15=966\\).</p><p><strong>Svar:</strong> 966 kr.</p>",
+        "ledtrad": "<p>Multiplicera ursprungspriset med faktorn 1,15.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>En vara kostar 840 kr.</p><div class=\"spel-en-del\">Vad blir priset om faktorn i stället är 0,90?</div>",
-        "s": "<p><strong>Metod:</strong> Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p><p><strong>Tänk så här:</strong> Skriv gärna förändringsfaktorn explicit innan du räknar vidare; då blir det tydligt om förändringen är en ökning eller minskning.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(840\\cdot0,90=\\)<strong>756 kr</strong>.</div></p>",
-        "ledtrad": "<p>Översätt först procentförändringen till en förändringsfaktor: vid ökning \\(1+p\\) och vid minskning \\(1-p\\), där \\(p\\) skrivs i decimalform.</p>",
+        "s": "<p>\\(840\\cdot0,90=756\\).</p><p><strong>Svar:</strong> 756 kr.</p>",
+        "ledtrad": "<p>Multiplicera ursprungspriset med faktorn 0,90.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>En förändringsfaktor multipliceras direkt med ursprungspriset. Jämför vad faktorer över respektive under 1 gör med priset.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -42459,7 +42467,7 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>Skriv p procent som ett decimaltal x. Undersök produkten av faktorerna (1+x) och (1−x).</p>",
     "traningsniva": 5,
     "arbetsinsats": 1,
     "spel": false
@@ -42487,7 +42495,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>Bestäm hur stor andel av ursprungsvärdet som finns kvar efter en minskning med 6 %.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -42599,7 +42607,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett värde fördubblas på fyra år med samma procentuella ökning varje år. Skriv en ekvation som kan användas för att bestämma den årliga förändringsfaktorn \\(q\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p><strong>Svar:</strong> <strong>\\(q^4=2\\)</strong></p>",
+    "s": "<p><strong>Svar:</strong> <strong>\\(q^4=2\\)</strong></p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": false,
     "miniräknare": false,
@@ -42611,7 +42619,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Om samma faktor q används fyra år i rad blir den totala faktorn q upphöjt till 4. Vad betyder ”fördubblas” som total faktor?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -42647,19 +42655,20 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Vid köp av en bostad betalar Noor 99 000 kr i kontantinsats. Det motsvarar 18 % av priset.</p><div class=\"spel-en-del\">Vad kostar bostaden?</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{99000}{0,18}=\\)<strong>550 000 kr</strong>.</div></p><p></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
-        "niva": "C"
+        "s": "<p>99 000 kr är 18 % av priset, så hela priset är \\(99\\,000/0,18=550\\,000\\) kr.</p><p><strong>Svar:</strong> 550 000 kr.</p>",
+        "ledtrad": "<p>99 000 kr motsvarar 18 %. Vilken operation tar dig tillbaka till 100 %?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Vid köp av en bostad betalar Noor 99 000 kr i kontantinsats. Det motsvarar 18 % av priset.</p><div class=\"spel-en-del\">Fyra år senare säljs den för 680 000 kr. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(550000q^4=680000\\Rightarrow q\\approx1,05448\\).</div></p><p><strong>Cirka 5,45 % per år.</strong></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
+        "s": "<p>\\(550\\,000q^4=680\\,000\\), alltså \\(q\\approx1,05448\\).</p><p><strong>Svar:</strong> cirka 5,45 % per år.</p>",
+        "ledtrad": "<p>Fyra lika års-faktorer ska tillsammans ta värdet från 550 000 kr till 680 000 kr.</p>",
         "niva": "C"
       }
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>I a är 99 000 kr 18 % av hela priset. I b ska fyra lika års-faktorer ta priset från 550 000 kr till 680 000 kr.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
@@ -42672,25 +42681,26 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Efter tre år med 5,5 % årlig ränta finns 16 439,38 kr på ett konto. Inga insättningar eller uttag har gjorts. Hur stort var startkapitalet?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(K\\cdot1,055^3=16 439,38\\).</p><p><strong>\\(K=14\\,000\\) kr</strong>.</p>",
+    "s": "<p>Tre års ränta ger faktorn \\(1,055^3\\). Om startkapitalet är \\(K\\) gäller \\(K\\cdot1,055^3=16\\,439,38\\).</p><p>\\(K=16\\,439,38/1,055^3=14\\,000\\).</p><p><strong>Svar:</strong> 14 000 kr.</p>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
-    "svarstyp": "ekvation",
-    "rättSvar": "K=14000",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14000,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "modellering"
+      "procedur"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true
+    "ledtrad": "<p>Arbeta baklänges: slutkapitalet har multiplicerats med 1,055 tre gånger.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.40",
@@ -42703,7 +42713,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Ett sparkonto har räntan 2,4 % per år. Räntan läggs till kapitalet varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Skriv ett uttryck för kapitalet efter 5 år om insättningen är 12 000 kr.<br>c) Beräkna kapitalet efter 5 år. Svara med två decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vid samma procentuella förändring varje period multipliceras värdet med samma förändringsfaktor varje gång. Efter n perioder används därför faktorn upphöjd till n.</p><p>a) <strong>1,024</strong></p><p>b) <strong>\\(12\\,000\\cdot1{,}024^5\\)</strong></p><p>c) \\(12\\,000\\cdot1{,}024^5\\approx\\)<strong>13 510,80 kr</strong></p>",
+    "s": "<p>a) <strong>1,024</strong></p><p>b) <strong>\\(12\\,000\\cdot1{,}024^5\\)</strong></p><p>c) \\(12\\,000\\cdot1{,}024^5\\approx\\)<strong>13 510,80 kr</strong></p>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": true,
@@ -42726,7 +42736,7 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>2,4 % ränta motsvarar en faktor strax över 1. Samma faktor används en gång per år under fem år.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -42769,7 +42779,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>72 000 kr amorteras med 3 000 kr per månad. Hur många amorteringar krävs för att betala av lånet helt?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p><strong>24 månader</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>24 månader</strong>.</p></div></div>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -42781,7 +42791,7 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Här behövs ingen ränta. Hur många amorteringar på 3 000 kr ryms i 72 000 kr?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -43418,7 +43428,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>En rabatt på 15 % betyder att 85 % av priset återstår.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -43521,8 +43531,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Antalet medlemmar i en schackklubb ökade från 100 till 121 på två år, med samma procentuella ökning båda åren.</p><p>a) Bestäm den totala förändringsfaktorn för de två åren.<br>b) Bestäm den årliga förändringsfaktorn.<br>c) Hur många procent ökade medlemsantalet per år?</p>",
     "s": "<p><strong>Steg 1:</strong> Den årliga faktorn \\(a\\) uppfyller \\(a^2=\\) den totala faktorn.</p><p>a) \\(\\frac{121}{100}=\\)<strong>1,21</strong></p><p>b) \\(a=\\sqrt{1{,}21}=\\)<strong>1,10</strong></p><p>c) <strong>10 % per år</strong>. Kontroll: \\(100\\cdot1{,}1=110\\) och \\(110\\cdot1{,}1=121\\)</p>",
     "familj": "Genomsnittlig årlig förändring",
@@ -43546,30 +43556,30 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Antalet medlemmar i en schackklubb ökade från 100 till 121 på två år, med samma procentuella ökning båda åren.</p><div class=\"spel-en-del\">Bestäm den totala förändringsfaktorn för de två åren.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>Den årliga faktorn \\(a\\) uppfyller \\(a^2=\\) den totala faktorn.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(\\frac{121}{100}=\\)<strong>1,21</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
+        "s": "<p>Den totala faktorn är \\(121/100=1,21\\).</p><p><strong>Svar:</strong> 1,21.</p>",
+        "ledtrad": "<p>Total förändringsfaktor är slutvärde delat med startvärde.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Antalet medlemmar i en schackklubb ökade från 100 till 121 på två år, med samma procentuella ökning båda åren.</p><div class=\"spel-en-del\">Bestäm den årliga förändringsfaktorn.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>Den årliga faktorn \\(a\\) uppfyller \\(a^2=\\) den totala faktorn.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(a=\\sqrt{1{,}21}=\\)<strong>1,10</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
+        "s": "<p>Den årliga faktorn \\(a\\) uppfyller \\(a^2=1,21\\), så \\(a=1,10\\).</p><p><strong>Svar:</strong> 1,10.</p>",
+        "ledtrad": "<p>Den årliga faktorn används två gånger och ska tillsammans ge 1,21.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Antalet medlemmar i en schackklubb ökade från 100 till 121 på två år, med samma procentuella ökning båda åren.</p><div class=\"spel-en-del\">Hur många procent ökade medlemsantalet per år?</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>Den årliga faktorn \\(a\\) uppfyller \\(a^2=\\) den totala faktorn.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> <strong>10 % per år</strong>. Kontroll: \\(100\\cdot1{,}1=110\\) och \\(110\\cdot1{,}1=121\\)</div></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "s": "<p>Faktorn 1,10 betyder en ökning med 10 % per år.</p><p><strong>Svar:</strong> 10 %.</p>",
+        "ledtrad": "<p>Hur stor procentuell ökning motsvarar faktorn 1,10?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Börja med den totala faktorn 121/100. Den årliga faktorn används två gånger och är därför kvadratroten ur den totala.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -43625,7 +43635,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>En höjning med 3 % innebär att den nya lönen är 103 % av den gamla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -43641,7 +43651,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ett värde ökar med totalt 50 % på fem år. Anta samma procentuella ökning varje år. Bestäm den genomsnittliga årliga procentuella ökningen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^5=1,50\\Rightarrow q=1,50^{\\frac{1}{5}}\\approx1,08447\\),</p><p><strong>Svar:</strong> <strong>Cirka 8,45 % per år,</strong></p>",
+    "s": "<p>\\(q^5=1,50\\Rightarrow q=1,50^{\\frac{1}{5}}\\approx1,08447\\),</p><p><strong>Svar:</strong> <strong>Cirka 8,45 % per år,</strong></p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": true,
     "miniräknare": true,
@@ -43652,7 +43662,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>En total ökning med 50 % ger totalfaktorn 1,50. Vilken faktor använd fem gånger ger 1,50?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -43954,7 +43964,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett index är 100 år 2020 och 115 år 2025. Hur många procent högre är nivån 2025 än basåret?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Läs först av vad indexets basår eller jämförelsevärde representerar. Använd sedan kvoten mellan värdena för att tolka förändringen.</p><p><strong>Svar:</strong> <strong>15 %</strong></p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Svar:</strong> <strong>15 %</strong></p></div></div>",
     "familj": "Beräkna och tolka index",
     "geogebra": false,
     "miniräknare": false,
@@ -43965,7 +43975,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
+    "ledtrad": "<p>När basåret är 100 visar skillnaden mellan 115 och 100 direkt förändringen i procent.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44009,7 +44019,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En vara kostade 240 kr när index var 100. Vad motsvarar priset vid index 128 om priset följer index?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Läs först av vad indexets basår eller jämförelsevärde representerar. Använd sedan kvoten mellan värdena för att tolka förändringen.</p><p>\\(240\\cdot1,28=\\)<strong>307,20 kr</strong></p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(240\\cdot1,28=\\)<strong>307,20 kr</strong></p></div></div>",
     "familj": "Beräkna och tolka index",
     "geogebra": false,
     "miniräknare": false,
@@ -44020,7 +44030,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
+    "ledtrad": "<p>Index 128 betyder 128 % av basårets pris, alltså en faktor 1,28.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -44157,7 +44167,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>Efter 15 % rabatt betalar du 85 % av 2 400 kr.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44186,9 +44196,9 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Följ tidslinjen: år 1-ränta, därefter insättningen 5 000 kr, sedan den okända faktorn och sist faktorn 1,04.</p>",
     "traningsniva": 4,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -44202,7 +44212,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du sätter in 5 000 kr på ett konto med 4 % ränta. Hur stor blir räntan första året?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p><strong>Svar:</strong> <strong>200 kr</strong></p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Svar:</strong> <strong>200 kr</strong></p></div></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
@@ -44214,7 +44224,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Första årets ränta är 4 % av de 5 000 kr som står på kontot.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44259,7 +44269,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket konto ger störst ränta första året på 8 000 kr?<br>A: 2,4 % ränta<br>B: 2,1 % ränta</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>A ger 192 kr och B ger 168 kr.</p><p><strong>Svar:</strong> <strong>Konto A</strong></p>",
+    "s": "<p>A ger 192 kr och B ger 168 kr.</p><p><strong>Svar:</strong> <strong>Konto A</strong></p>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
@@ -44272,7 +44282,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Startbeloppet är samma på båda kontona och inga avgifter finns. Jämför därför räntesatserna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44316,7 +44326,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett sparkapital på 18 000 kr får 3 % ränta under ett år. Hur stor är räntan i kronor?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p><strong>540 kr</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>540 kr</strong>.</p></div></div>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
@@ -44328,7 +44338,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Beräkna 3 % av 18 000 kr.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44373,7 +44383,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>20 000 kr står på ett konto med 2 % ränta. Hur stor är räntan under det andra året om inga pengar sätts in eller tas ut?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>Efter år 1 finns 20 400 kr. Räntan år 2 är \\(20\\,400\\cdot0,02=\\)<strong>408 kr</strong>.</p>",
+    "s": "<p>Efter år 1 finns 20 400 kr. Räntan år 2 är \\(20\\,400\\cdot0,02=\\)<strong>408 kr</strong>.</p>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
@@ -44385,7 +44395,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Efter första året finns 20 400 kr. Det är det beloppet som ger ränta under år två.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -44398,32 +44408,40 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Vad blir hyran efter 3 år? Svara med två decimaler.<br>c) Hur mycket mer betalar man per månad efter 3 år jämfört med i dag?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vid samma procentuella förändring varje period multipliceras värdet med samma förändringsfaktor varje gång. Efter n perioder används därför faktorn upphöjd till n.</p><p>a) <strong>1,028</strong></p><p>b) \\(8\\,200\\cdot1{,}028^3\\approx\\)<strong>8 908,27 kr</strong></p><p>c) \\(8\\,908{,}27-8\\,200=\\)<strong>ungefär 708 kr mer per månad</strong></p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>En hyra är 8 200 kr i månaden. Hyran höjs med 2,8 % varje år.</p><p>a) Skriv förändringsfaktorn för ett år.<br>b) Vad blir hyran efter 3 år?<br>c) Hur mycket mer betalar man per månad efter 3 år jämfört med i dag?</p><p>Svara b och c med två decimaler.</p>",
+    "s": "<p>a) En höjning med 2,8 % ger förändringsfaktorn <strong>1,028</strong>.</p><p>b) Efter tre år är hyran \\(8\\,200\\cdot1,028^3\\approx8\\,908,27\\) kr.</p><p>c) Skillnaden är \\(8\\,908,27-8\\,200=708,27\\) kr.</p><p><strong>Svar:</strong> a) 1,028 &nbsp; b) 8 908,27 kr &nbsp; c) 708,27 kr.</p>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "1.028",
-      "8908.27",
-      "708"
+      1.028,
+      8908.27,
+      708.27
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.0001,
+      0.01,
+      0.01
+    ],
     "självrättning": true,
     "formaga": [
-      "begrepp",
-      "modellering",
-      "resonemang"
+      "procedur",
+      "modellering"
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Samma höjning sker tre gånger. Använd därför faktorn 1,028 tre gånger och jämför sedan slutvärdet med 8 200 kr.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "3.89",
@@ -44464,7 +44482,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett lån är 50 000 kr. Månadsräntan är 1 % och amorteringen är 2 500 kr. Hur stor är första månadsbetalningen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>Ränta: 500 kr. Amortering: 2 500 kr.</p><p><strong>Svar:</strong> <strong>3 000 kr</strong></p>",
+    "s": "<p>Ränta: 500 kr. Amortering: 2 500 kr.</p><p><strong>Svar:</strong> <strong>3 000 kr</strong></p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -44475,7 +44493,7 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Första månadens ränta beräknas på hela skulden 50 000 kr. Lägg den till amorteringen 2 500 kr.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -44520,7 +44538,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett lån på 24 000 kr amorteras med 2 000 kr per månad. Hur många månader tar det att amortera hela lånet om ränta bortses från?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p><strong>Svar:</strong> <strong>12 månader</strong></p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Svar:</strong> <strong>12 månader</strong></p></div></div>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -44532,7 +44550,7 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Dela lånebeloppet 24 000 kr med amorteringen 2 000 kr per månad.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44545,10 +44563,10 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett lån på 90 000 kr amorteras med 7 500 kr per månad. Månadsräntan är 0,6 %. Beräkna den sammanlagda betalningen under de tre första månaderna.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>Månad 1: 8 040 kr. Månad 2: 7 995 kr. Månad 3: 7 950 kr.</p><p><strong>Svar:</strong> <strong>Totalt 23 985 kr.</strong></p>",
+    "s": "<p>Månad 1: 8 040 kr. Månad 2: 7 995 kr. Månad 3: 7 950 kr.</p><p><strong>Svar:</strong> <strong>Totalt 23 985 kr.</strong></p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -44560,9 +44578,9 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna månad för månad. Efter varje amortering minskar skulden innan nästa månads ränta beräknas.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -44576,7 +44594,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett lån är 60 000 kr och amorteras med 2 500 kr per månad. Hur stor är skulden direkt efter den sjätte amorteringen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>Totalt amorterat: \\(6\\cdot2500=15000\\) kr.</p><p>\\(60000-15000=\\)<strong>45 000 kr</strong></p>",
+    "s": "<p>Totalt amorterat: \\(6\\cdot2500=15000\\) kr.</p><p>\\(60000-15000=\\)<strong>45 000 kr</strong></p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -44587,7 +44605,7 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Efter sex amorteringar har skulden minskat med sex gånger 2 500 kr.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44631,7 +44649,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett lån på 96 000 kr amorteras med 4 000 kr varje månad. Hur stor är skulden direkt efter den sjunde amorteringen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>\\(96\\,000-7\\cdot4\\,000=\\)<strong>68 000 kr</strong>.</p>",
+    "s": "<p>\\(96\\,000-7\\cdot4\\,000=\\)<strong>68 000 kr</strong>.</p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -44642,7 +44660,7 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Beräkna hur mycket som totalt har amorterats under sju månader och dra det från 96 000 kr.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44655,10 +44673,10 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "1/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En dator kostar 7 200 kr kontant. Vid avbetalning betalas 229 kr i 36 månader, 35 kr i månadsavgift och 450 kr i startavgift.</p><p>Hur mycket dyrare blir avbetalningen än kontantköpet?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>Total avbetalning \\(36(229+35)+450=9954\\) kr.</p><p>Merkostnad <strong>2754 kr</strong>.</p>",
+    "s": "<p>Total avbetalning \\(36(229+35)+450=9954\\) kr.</p><p>Merkostnad <strong>2754 kr</strong>.</p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -44667,11 +44685,12 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna först hela avbetalningskostnaden: alla månadsbelopp, alla månadsavgifter och startavgiften. Jämför sedan med 7 200 kr.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -44685,7 +44704,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vad händer med räntekostnaden från månad till månad vid rak amortering, om räntesatsen är oförändrad?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p><strong>Den minskar</strong>, eftersom skulden minskar.</p>",
+    "s": "<p><strong>Den minskar</strong>, eftersom skulden minskar.</p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -44697,7 +44716,7 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Vid rak amortering blir skulden mindre varje månad. Vad gör det med räntan när räntesatsen är oförändrad?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -44931,7 +44950,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En investering växer från 10 000 kr till 12 100 kr på två år. Anta samma procentuella ökning varje år. Hur stor är den årliga ökningen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^2=1,21\\Rightarrow q=1,10\\).</p><p><strong>Svar:</strong> <strong>10 % per år.</strong></p>",
+    "s": "<p>\\(q^2=1,21\\Rightarrow q=1,10\\).</p><p><strong>Svar:</strong> <strong>10 % per år.</strong></p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": false,
     "miniräknare": false,
@@ -44942,7 +44961,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Totala faktorn är 12 100/10 000 = 1,21. Den årliga faktorn används två gånger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -44958,7 +44977,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Värdet på en fond ökar totalt med 30 % på sex år. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^6=1,30\\Rightarrow q=1,30^{\\frac{1}{6}}\\approx1,0447\\).</p><p><strong>Svar:</strong> <strong>Cirka 4,47 % per år.</strong></p>",
+    "s": "<p>\\(q^6=1,30\\Rightarrow q=1,30^{\\frac{1}{6}}\\approx1,0447\\).</p><p><strong>Svar:</strong> <strong>Cirka 4,47 % per år.</strong></p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": true,
     "miniräknare": true,
@@ -44969,7 +44988,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>En total ökning med 30 % ger faktorn 1,30 efter sex år. Bestäm den faktor som upprepad sex gånger ger 1,30.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -44985,7 +45004,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett värde ökar från 200 till 242 på två år med samma procentuella förändring varje år. Bestäm den årliga förändringsfaktorn.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^2=\\frac{242}{200}=1,21\\Rightarrow q=\\sqrt{1,21}=\\)<strong>1,10</strong>.</p>",
+    "s": "<p>\\(q^2=\\frac{242}{200}=1,21\\Rightarrow q=\\sqrt{1,21}=\\)<strong>1,10</strong>.</p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": false,
     "miniräknare": false,
@@ -44997,7 +45016,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Beräkna först den totala faktorn 242/200. Den är kvadraten av den årliga faktorn.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -45098,10 +45117,10 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett pris är 540 kr när index är 120. Vad skulle priset vara vid index 100 om priset följer index exakt?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Läs först av vad indexets basår eller jämförelsevärde representerar. Använd sedan kvoten mellan värdena för att tolka förändringen.</p><p>\\(\\frac{540}{1,20}=\\)<strong>450 kr</strong></p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(\\frac{540}{1,20}=\\)<strong>450 kr</strong></p></div></div>",
     "familj": "Beräkna och tolka index",
     "geogebra": false,
     "miniräknare": false,
@@ -45112,8 +45131,8 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>540 kr motsvarar 120 % av baspriset. Vilket pris motsvarar då 100 %?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -45168,7 +45187,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett amorteringsfritt lån är 900 000 kr och årsräntan 4,0 %. Hur mycket betalas i ränta per månad?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>Årsränta = 36 000 kr. Per månad: <strong>3 000 kr</strong>.</p>",
+    "s": "<p>Årsränta = 36 000 kr. Per månad: <strong>3 000 kr</strong>.</p>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
@@ -45180,7 +45199,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Beräkna först 4 % av 900 000 kr för ett helt år och fördela sedan årsräntan på tolv månader.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -45634,7 +45653,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>10 000 kr växer till 11 255,09 kr på fyra år med samma ränta varje år. Bestäm årsräntan.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(10\\,000q^4=11\\,255,09\\). Då \\(q\\approx1,03\\).</p><p><strong>Svar:</strong> <strong>3,0 %</strong></p>",
+    "s": "<p>\\(10\\,000q^4=11\\,255,09\\). Då \\(q\\approx1,03\\).</p><p><strong>Svar:</strong> <strong>3,0 %</strong></p>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
@@ -45647,7 +45666,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Låt den årliga faktorn vara q. Fyra lika ränteår ger q upphöjt till 4 gånger startkapitalet.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -45783,10 +45802,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Värdet på en tillgång ökar från 50 000 kr till 60 500 kr på två år. Anta samma procentuella ökning varje år.</p><p>Bestäm den årliga ökningen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(50\\,000q^2=60\\,500\\Rightarrow q^2=1,21\\Rightarrow q=1,10\\).</p><p><strong>Svar:</strong> <strong>10 % per år.</strong></p>",
+    "s": "<p>\\(50\\,000q^2=60\\,500\\Rightarrow q^2=1,21\\Rightarrow q=1,10\\).</p><p><strong>Svar:</strong> <strong>10 % per år.</strong></p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": false,
     "miniräknare": false,
@@ -45797,8 +45816,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Jämför 60 500 med 50 000. Eftersom perioden är två år är den årliga faktorn kvadratroten ur totalfaktorn.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -45813,7 +45832,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett värde minskar från 500 till 405 på två år med samma procentuella minskning varje år. Bestäm den årliga förändringsfaktorn.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^2=\\frac{405}{500}=0,81\\Rightarrow q=\\)<strong>0,90</strong>.</p>",
+    "s": "<p>\\(q^2=\\frac{405}{500}=0,81\\Rightarrow q=\\)<strong>0,90</strong>.</p>",
     "familj": "Genomsnittlig årlig minskning",
     "geogebra": false,
     "miniräknare": false,
@@ -45825,7 +45844,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Totala faktorn är 405/500. Två lika stora årliga faktorer multipliceras till detta värde.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -45838,10 +45857,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett värde ökar från 500 till 605 på två år med samma procentuella ökning varje år. Bestäm den årliga ökningen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(500q^2=605\\Rightarrow q^2=1,21\\Rightarrow q=1,10\\).</p><p><strong>Svar:</strong> <strong>10 %</strong></p>",
+    "s": "<p>\\(500q^2=605\\Rightarrow q^2=1,21\\Rightarrow q=1,10\\).</p><p><strong>Svar:</strong> <strong>10 %</strong></p>",
     "familj": "Genomsnittlig årlig förändring",
     "geogebra": false,
     "miniräknare": false,
@@ -45852,8 +45871,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Totala faktorn är 605/500. Bestäm den faktor som multiplicerad med sig själv ger denna kvot.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -45896,7 +45915,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bils värde minskar från 250 000 kr till 170 000 kr på sex år. Anta samma procentuella minskning varje år. Bestäm den genomsnittliga årliga minskningen i procent.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^6=\\frac{170000}{250000}=0,68\\), \\(q\\approx0,93775\\),</p><p><strong>Svar:</strong> <strong>Minskningen är cirka 6,23 % per år,</strong></p>",
+    "s": "<p>\\(q^6=\\frac{170000}{250000}=0,68\\), \\(q\\approx0,93775\\),</p><p><strong>Svar:</strong> <strong>Minskningen är cirka 6,23 % per år,</strong></p>",
     "familj": "Genomsnittlig årlig minskning",
     "geogebra": true,
     "miniräknare": true,
@@ -45907,7 +45926,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Jämför 170 000 med 250 000 och bestäm den faktor som upprepad sex gånger ger samma totalförändring.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -45944,29 +45963,29 @@ window.BANKMA1 = [
       {
         "etikett": "a",
         "t": "<p>Bestäm den genomsnittliga procentuella förändringen per år.</p><div class=\"spel-en-del\">En surdegsodling i en bageributik växer från 1 000 g till 1 440 g på två år.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>Sök faktorn \\(a\\) så att \\(a^n\\) blir den totala förändringsfaktorn.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(a=\\sqrt{\\frac{1\\,440}{1\\,000}}=\\sqrt{1{,}44}=1{,}20\\), alltså en <strong>ökning med 20 % per år</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
+        "s": "<p>\\(\\sqrt{1440/1000}=\\sqrt{1,44}=1,20\\), alltså 20 % ökning per år.</p>",
+        "ledtrad": "<p>Två år innebär att den årliga faktorn är kvadratroten ur 1440/1000.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Bestäm den genomsnittliga procentuella förändringen per år.</p><div class=\"spel-en-del\">Antalet sålda dvd-skivor i en butik minskar från 200 till 128 på två år.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>Sök faktorn \\(a\\) så att \\(a^n\\) blir den totala förändringsfaktorn.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(a=\\sqrt{\\frac{128}{200}}=\\sqrt{0{,}64}=0{,}80\\), alltså en <strong>minskning med 20 % per år</strong></div></p><p></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
+        "s": "<p>\\(\\sqrt{128/200}=\\sqrt{0,64}=0,80\\), alltså 20 % minskning per år.</p>",
+        "ledtrad": "<p>Två år innebär att den årliga faktorn är kvadratroten ur 128/200.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Bestäm den genomsnittliga procentuella förändringen per år.</p><div class=\"spel-en-del\">Antalet gäster på en musikfestival växer från 50 till 400 på tre år.</div>",
-        "s": "<p><strong>Metod:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>Sök faktorn \\(a\\) så att \\(a^n\\) blir den totala förändringsfaktorn.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(a=\\sqrt[3]{\\frac{400}{50}}=\\sqrt[3]{8}=2\\), alltså en <strong>ökning med 100 % per år</strong>, det vill säga en fördubbling varje år</div></p>",
-        "ledtrad": "<p>Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p>",
+        "s": "<p>\\(\\sqrt[3]{400/50}=\\sqrt[3]{8}=2\\), alltså 100 % ökning per år.</p>",
+        "ledtrad": "<p>Tre år innebär att den årliga faktorn är kubikroten ur 400/50.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>För varje del: bilda slutvärde/startvärde och ta den rot som motsvarar antalet år.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -45979,8 +45998,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En vara ökar i pris från 800 kr till 968 kr på två år med samma procentuella ökning varje år. Bestäm den årliga procentuella ökningen.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Låt förändringsfaktorn vara \\(q\\).</p><p>\\(800q^2=968\\Rightarrow q^2=1,21\\Rightarrow q=1,10\\).</p><p><strong>Svar:</strong> <strong>10 % per år.</strong></p></div></div>",
     "familj": "Genomsnittlig årlig förändring",
@@ -45993,8 +46012,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Totala faktorn är 968/800. Eftersom ökningen sker över två år är den årliga faktorn dess kvadratrot.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -46060,7 +46079,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bil minskar i värde från 300 000 kr till 192 000 kr på fyra år. Anta samma procentuella minskning varje år. Bestäm den årliga minskningen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^4=\\frac{192000}{300000}=0,64\\). \\(q\\approx0,894\\).</p><p><strong>Svar:</strong> <strong>Cirka 10,6 % per år.</strong></p>",
+    "s": "<p>\\(q^4=\\frac{192000}{300000}=0,64\\). \\(q\\approx0,894\\).</p><p><strong>Svar:</strong> <strong>Cirka 10,6 % per år.</strong></p>",
     "familj": "Genomsnittlig årlig minskning",
     "geogebra": true,
     "miniräknare": true,
@@ -46071,7 +46090,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Totala faktorn är 192 000/300 000. Den årliga faktorn upprepad fyra gånger ska ge den kvoten.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -46225,7 +46244,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2e-06,
+      0.000002,
       0.01,
       1
     ],
@@ -46572,7 +46591,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt procentförändringen till en faktor: ökning med \\(p\\%\\) ger \\(1+p/100\\), minskning ger \\(1-p/100\\).</p>",
+    "ledtrad": "<p>En ökning med 12 % betyder att det nya värdet är 112 % av det gamla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -46704,7 +46723,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>En ökning med \\(p\\)% innebär att 100 % blir \\(100+p\\)% av ursprungsvärdet.</p>",
+    "ledtrad": "<p>En ökning med 25 % innebär att 125 % av ursprungsvärdet återstår som nytt värde.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -46732,7 +46751,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>En ökning med \\(p\\)% innebär att 100 % blir \\(100+p\\)% av ursprungsvärdet.</p>",
+    "ledtrad": "<p>En ökning med 7 % innebär att det nya värdet är 107 % av det gamla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -46760,7 +46779,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>En ökning med \\(p\\)% innebär att 100 % blir \\(100+p\\)% av ursprungsvärdet.</p>",
+    "ledtrad": "<p>En prishöjning med 35 % gör det nya priset till 135 % av det gamla.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -47845,7 +47864,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett lån på 50 000 kr amorteras med 2 500 kr per månad. Månadsräntan är 0,8 %. Hur stor är räntekostnaden den andra månaden?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>Efter första amorteringen är skulden 47 500 kr. \\(47\\,500\\cdot0,008=\\)<strong>380 kr</strong>.</p>",
+    "s": "<p>Efter första amorteringen är skulden 47 500 kr. \\(47\\,500\\cdot0,008=\\)<strong>380 kr</strong>.</p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -47856,7 +47875,7 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Efter den första amorteringen återstår 47 500 kr. Det är den skulden som den andra månadens ränta beräknas på.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -48391,8 +48410,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett lån på 96 000 kr amorteras med samma belopp varje månad under 4 år. Månadsräntan är 0,5 % på kvarvarande skuld.</p><p>Bestäm den första månadsbetalningen.</p>",
     "s": "<p>Fyra år är 48 månader, så amorteringen är \\(96\\,000/48=2\\,000\\) kr. Första månadens ränta är \\(0,005\\cdot96\\,000=480\\) kr.</p><p><strong>Svar: 2 480 kr.</strong></p>",
     "familj": "Amortering, ränta och lånekostnad",
@@ -48406,9 +48425,9 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "ledtrad": "<p>Gör om fyra år till antal månader. Bestäm först amorteringen per månad och lägg sedan till första månadens ränta.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -48422,7 +48441,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>10 000 kr växer med 2,5 % ränta per år. Hur mycket finns efter 5 år?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(10000\\cdot1,025^5\\approx\\)<strong>11 314 kr</strong>.</p>",
+    "s": "<p>\\(10000\\cdot1,025^5\\approx\\)<strong>11 314 kr</strong>.</p>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
@@ -48434,7 +48453,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>2,5 % ränta motsvarar faktorn 1,025. Hur många gånger ska den faktorn användas på fem år?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -48857,7 +48876,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>8 000 kr sätts in på ett konto med 3 % årlig ränta. Hur mycket finns på kontot efter två år om inga uttag görs?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(8000\\cdot1,03^2=8487,2\\).</p><p><strong>Svar:</strong> <strong>8 487,20 kr</strong></p>",
+    "s": "<p>\\(8000\\cdot1,03^2=8487,2\\).</p><p><strong>Svar:</strong> <strong>8 487,20 kr</strong></p>",
     "familj": "Ränta på ränta",
     "geogebra": false,
     "miniräknare": false,
@@ -48869,7 +48888,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Efter två år har faktorn 1,03 använts två gånger.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -48943,7 +48962,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En mängd minskar från 800 till 583,2 på tre år med samma procentuella minskning varje år. Bestäm den årliga förändringsfaktorn.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Jämför start- och slutvärde över hela intervallet. För genomsnittlig förändring per steg behöver den totala förändringen fördelas på antalet steg på det sätt som modellen kräver.</p><p>\\(q^3=\\frac{583,2}{800}=0,729\\Rightarrow q=\\)<strong>0,90</strong>.</p>",
+    "s": "<p>\\(q^3=\\frac{583,2}{800}=0,729\\Rightarrow q=\\)<strong>0,90</strong>.</p>",
     "familj": "Genomsnittlig årlig minskning",
     "geogebra": false,
     "miniräknare": false,
@@ -48955,7 +48974,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Totala faktorn är 583,2/800 = 0,729. Vilken faktor använd tre gånger ger 0,729?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -49047,7 +49066,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>7 500 kr står på ett konto med 1,8 % årlig ränta. Hur mycket finns efter två år om räntan läggs till kapitalet varje år?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv räntesatsen som en förändringsfaktor. Vid flera år läggs räntan till kapitalet, så nästa års ränta beräknas på det nya beloppet.</p><p>\\(7500\\cdot1,018^2\\approx\\)<strong>7772,43 kr</strong>,</p>",
+    "s": "<p>\\(7500\\cdot1,018^2\\approx\\)<strong>7772,43 kr</strong>,</p>",
     "familj": "Ränta på ränta",
     "geogebra": true,
     "miniräknare": true,
@@ -49059,7 +49078,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>1,8 % ränta motsvarar faktorn 1,018. Använd den för båda åren.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -49075,7 +49094,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett lån på 72 000 kr ska amorteras med samma belopp varje månad under 8 år. Hur stor blir amorteringen per månad?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på amortering och ränta. Amorteringen minskar skulden, medan räntan beräknas på den skuld som gäller för den aktuella perioden.</p><p>8 år = 96 månader. \\(\\frac{72000}{96}=\\)<strong>750 kr</strong>.</p>",
+    "s": "<p>8 år = 96 månader. \\(\\frac{72000}{96}=\\)<strong>750 kr</strong>.</p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -49086,7 +49105,7 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Åtta år är 96 månader. Fördela 72 000 kr jämnt över dessa amorteringar.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -49114,7 +49133,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
+    "ledtrad": "<p>Index jämför årets värde med basvärdet. Bilda kvoten 230/200 och skala den till basindex 100.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -49142,7 +49161,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför indextalen som en kvot. Om basåret har index 100 kan indexet också läsas som procent av basnivån.</p>",
+    "ledtrad": "<p>Bilda kvoten mellan årets värde 360 och basvärdet 400 och uttryck den med basindex 100.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -49445,7 +49464,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49505,7 +49524,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49625,7 +49644,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49691,7 +49710,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Första månaden beräknas räntan på hela skulden 120 000 kr. Lägg den till 2 000 kr i amortering.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -49720,7 +49739,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Beräkna 0,4 % av den kvarvarande skulden 80 000 kr och lägg till amorteringen 2 500 kr.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -49778,7 +49797,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Betalningen består av amortering och ränta. Vilken del återstår när 3 500 kr tas bort från 4 250 kr?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -49791,8 +49810,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett lån på 96 000 kr amorteras med 2 000 kr per månad. Månadsräntan är 0,5 %. Hur stor blir den <strong>andra</strong> betalningen?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Efter första amorteringen återstår \\(96000-2000=94000\\) kr. Andra månadens ränta är \\(94000\\cdot0,005=470\\) kr. Betalningen blir \\(2000+470=2470\\) kr.</p><p><strong>Svar:</strong> <strong>2 470 kr</strong>.</p></div></div>",
     "familj": "Amortering, ränta och lånekostnad",
@@ -49807,8 +49826,8 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Efter första amorteringen är skulden 94 000 kr. Andra månadens ränta beräknas på den skulden.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -49820,8 +49839,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lån A har 4 % årsränta och ingen avgift. Lån B har 3,6 % årsränta men en årsavgift på 600 kr. För ett lån på 20 000 kr under ett år, vilket alternativ ger lägst kostnad om vi bortser från amortering under året?</p><p>A: Lån A<br>B: Lån B<br>C: Samma kostnad</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Lån A kostar \\(20000\\cdot0,04=800\\) kr. Lån B kostar \\(20000\\cdot0,036+600=1320\\) kr. A är billigare.</p><p><strong>Svar:</strong> <strong>A</strong>.</p></div></div>",
     "familj": "Amortering, ränta och lånekostnad",
@@ -49835,8 +49854,8 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Jämför 4 % av 20 000 kr med 3,6 % av 20 000 kr plus årsavgiften 600 kr.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -49862,7 +49881,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Samma skuld ska fördelas på olika många månader. Färre månader innebär hur stor amortering per månad?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -49889,7 +49908,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Jämför hur mycket som totalt har amorterats efter tio månader i de två alternativen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -49902,8 +49921,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lån A: 100 000 kr med 5 % årsränta. Lån B: 100 000 kr med 4,5 % årsränta och 700 kr årsavgift. Jämför första årets ränte- och avgiftskostnad, utan hänsyn till amortering. Vilket är billigast?</p><p>A: A<br>B: B<br>C: Lika</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>A kostar \\(5000\\) kr. B kostar \\(4500+700=5200\\) kr. A är därför 200 kr billigare.</p><p><strong>Svar:</strong> <strong>A</strong>.</p></div></div>",
     "familj": "Amortering, ränta och lånekostnad",
@@ -49917,8 +49936,8 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Räkna första årets räntekostnad för båda lånen och kom ihåg att lägga 700 kr till kostnaden för lån B.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -49932,8 +49951,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två lån har samma ränta och samma startskuld. Det ena har större rak amortering per månad. Vilket lån ger normalt lägre total räntekostnad om övriga villkor är lika?</p><p>A: Lånet med större amortering<br>B: Lånet med mindre amortering<br>C: De ger alltid samma ränta totalt</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Större amortering minskar skulden snabbare. Då beräknas framtida ränta på en lägre skuld under fler månader.</p><p><strong>Svar:</strong> <strong>A</strong>.</p></div></div>",
+    "t": "<p>Två lån har samma räntesats och samma startskuld. Lån A har större rak amortering per månad än lån B. Vilket resonemang om den totala räntekostnaden är bäst?</p><p>A. A ger normalt lägre total ränta, eftersom skulden minskar snabbare och framtida ränta beräknas på en lägre skuld.<br>B. B ger normalt lägre total ränta, eftersom en mindre amortering gör att en större del av varje betalning kan användas till ränta.<br>C. De ger alltid samma totala ränta, eftersom både räntesatsen och startskulden är samma.<br>D. Det går inte att jämföra, eftersom den första månadens ränta är lika stor för båda lånen.</p>",
+    "s": "<p>Den större amorteringen i lån A gör att skulden sjunker snabbare. Eftersom räntan varje period beräknas på kvarvarande skuld blir ränteunderlaget lägre under fler perioder.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Amortering, ränta och lånekostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -49945,10 +49964,11 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Vid rak amortering gäller betalning = amortering + ränta, och räntan beräknas på skulden före den aktuella betalningen.</p>",
+    "ledtrad": "<p>Fokusera på vad som händer med den skuld som nästa periods ränta beräknas på.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": "kort_text"
   },
   {
     "id": "3.255",
@@ -49973,7 +49993,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Beloppet och villkoren är annars samma. Vilken räntesats ger störst ökning på ett år?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -49986,8 +50006,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Du sparar 10 000 kr i ett år. Konto A ger 3 % ränta utan avgift. Konto B ger 3,5 % ränta men har en årsavgift på 100 kr. Vilket ger högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Konto A ger \\(10000\\cdot1,03=10300\\) kr. Konto B ger \\(10000\\cdot1,035-100=10250\\) kr.</p><p><strong>Svar:</strong> <strong>A</strong> ger högst saldo.</p></div></div>",
     "familj": "Ränta på ränta",
@@ -50002,8 +50022,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna saldot efter ränta för båda kontona och dra sedan av 100 kr från konto B.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50031,7 +50051,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Jämför faktorn 1,04 med två halvårsfaktorer: 1,02 gånger 1,02.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -50044,8 +50064,8 @@ window.BANKMA1 = [
       "1a",
       "1b"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Konto A har 1,8 % ränta och konto B har 1,6 % ränta. Konto A tar dessutom 50 kr i årsavgift. Vilket konto är bäst för 2 000 kr under ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>A ger \\(2000\\cdot1,018-50=1986\\) kr. B ger \\(2000\\cdot1,016=2032\\) kr. B ger högre saldo.</p><p><strong>Svar:</strong> <strong>B</strong>.</p></div></div>",
     "familj": "Ränta på ränta",
@@ -50060,8 +50080,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Räkna ett års saldo för båda kontona. Glöm inte att konto A också belastas med 50 kr.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50088,7 +50108,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Skriv räntan som en förändringsfaktor för varje period och var noga med när insättningar, uttag eller avgifter sker.</p>",
+    "ledtrad": "<p>Jämför hur många hela år de två insättningarna hinner få ränta fram till samma slutdatum.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -50116,7 +50136,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Efter tre år återstår 729/1000 av värdet. Bestäm den årliga faktorn och översätt sedan faktorn till procentuell minskning.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -50144,7 +50164,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Efter två år återstår 320/500 = 0,64. Den årliga faktorn är kvadratroten ur 0,64.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -50403,7 +50423,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "ledtrad": "<p>Bilda totalfaktorn 1680/2400 och bestäm sedan den fjärderot som motsvarar fyra lika stora årliga förändringar.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -50418,20 +50438,21 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En storhet minskar från 500 till 320 på 5 år. Anta samma procentuella minskning varje år.</p><p>Bestäm den genomsnittliga årliga minskningen i procent. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Om förändringsfaktorn per år är \\(q\\), så gäller \\(500q^5=320\\). Därför \\(q=(320/500)^{1/5}=0.9146\\).</p><p>Minskningen är \\((1-q)\\cdot100\\approx 8.54\\,\\%\\).</p></div></div>",
+    "t": "<p>Ett värde minskar från 500 till 320 på fem år med samma procentuella minskning varje år.</p><p>En elev säger: ”Den totala minskningen är 36 %, så den årliga minskningen är \\(36/5=7,2\\%\\).” Vilken analys är bäst?</p><p>A. Metoden är fel: samma procentuella minskning upprepas multiplikativt; \\(q^5=0,64\\), vilket ger cirka 8,54 % minskning per år.<br>B. Metoden är rätt: lika stora procentuella minskningar kan fördelas additivt; \\(36/5=7,2\\%\\) per år.<br>C. Metoden är fel: den kvarvarande andelen 64 % ska delas med fem; det ger 12,8 % minskning per år.<br>D. Metoden är fel: fem år innebär fyra förändringar; \\(36/4=9,0\\%\\) per år.</p>",
+    "s": "<p>Procentuella förändringar över flera år multipliceras. Här är den totala förändringsfaktorn \\(320/500=0,64\\), så den årliga faktorn uppfyller \\(q^5=0,64\\). Det ger \\(q\\approx0,9146\\), alltså cirka 8,54 % minskning per år.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Genomsnittlig årlig minskning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8.54,
-    "tolerans": 0.02,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "svarFormat": "kort_text",
+    "ledtrad": "<p>Fråga dig om fem lika procentuella förändringar ska adderas eller multipliceras.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -50446,20 +50467,21 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En storhet minskar från 12000 till 7800 på 6 år. Anta samma procentuella minskning varje år.</p><p>Bestäm den genomsnittliga årliga minskningen i procent. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Metod:</strong> Om förändringsfaktorn per år är \\(q\\), så gäller \\(12000q^6=7800\\). Därför \\(q=(7800/12000)^{1/6}=0.9307\\).</p><p>Minskningen är \\((1-q)\\cdot100\\approx 6.93\\,\\%\\).</p></div></div>",
+    "t": "<p>Två modeller beskriver en minskning under sex år.</p><p>Modell A minskar med 7 % per år. Modell B minskar med totalt 35 % under hela sexårsperioden.</p><p>Vilket påstående jämför modellerna korrekt?</p><p>A. A lämnar cirka 64,7 % av startvärdet och B lämnar 65 %, så B ger ett något högre slutvärde.<br>B. A lämnar 65 % av startvärdet och B cirka 64,7 %, så A ger ett något högre slutvärde.<br>C. A lämnar 58 % av startvärdet och B lämnar 65 %, så B ger ett mycket högre slutvärde.<br>D. Båda lämnar 65 % av startvärdet, eftersom 7 % per år under sex år motsvarar 35 % totalt.</p>",
+    "s": "<p>Modell A behåller faktorn \\(0,93^6\\approx0,647\\), alltså cirka 64,7 % av startvärdet. Modell B behåller 65 %.</p><p>Eftersom 65 % är något större än 64,7 % ger modell B ett något högre slutvärde.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Genomsnittlig årlig minskning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6.93,
-    "tolerans": 0.02,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Låt den årliga förändringsfaktorn vara \\(q\\). Om förändringen pågår i \\(n\\) år gäller \\(q^n=\\text{slutvärde}/\\text{startvärde}\\).</p>",
+    "svarFormat": "kort_text",
+    "ledtrad": "<p>Jämför den kvarvarande andelen efter sex år: \\(0,93^6\\) för A och \\(0,65\\) för B.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -50502,7 +50524,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En 11 m lång stege lutar 41° mot marken. Hur långt från väggen står stegens fot?</p><span class=\"fig\"><svg width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M60 180 L198.0 180 L198.0 60.0 Z\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"183.0\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"129.0\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x</text><text x=\"209.0\" y=\"120.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">?</text><text x=\"112.5\" y=\"98.2\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">11 m</text><polyline points=\"87.0,180.0 87.0,178.9 86.9,177.9 86.8,176.8 86.7,175.7 86.5,174.7 86.2,173.6 86.0,172.6 85.6,171.6 85.3,170.5 84.9,169.5 84.5,168.6 84.0,167.6 83.5,166.7 82.9,165.7 82.3,164.8 81.7,164.0 81.1,163.1 80.4,162.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"101.2\" y=\"168.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">41°</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>\\(x=11\\cos41^\\circ\\approx\\)<strong>8,3 m</strong>,</p>",
+    "s": "<p>\\(x=11\\cos41^\\circ\\approx\\)<strong>8,3 m</strong>,</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -50514,7 +50536,7 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p>",
+    "ledtrad": "<p>11 m är hypotenusan. Vilket trigonometriskt samband använder hypotenusan och sidan intill 41°?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -50529,7 +50551,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En ramp stiger 3 m på 4 m horisontellt. Bestäm vinkeln \\(v\\) till en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(v=tan^{-1}(0,75)\\approx36,9^\\circ\\)</strong></p>",
+    "s": "<p>Stigningen är motstående katet och 4 m är närliggande, alltså \\(\\tan v=3/4=0,75\\).</p><p>\\(v=\\tan^{-1}(0,75)\\approx36,9^\\circ\\).</p><p><strong>Svar:</strong> \\(36,9^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -50541,7 +50563,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>3 m och 4 m är motstående respektive närliggande katet. Börja med \\(\\tan v=3/4\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50582,7 +50604,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkterna är \\(P=(-2,4)\\) och \\(Q=(5,1)\\). Bestäm vektorn \\(\\overrightarrow{PQ}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p><strong>\\((7,-3)\\)</strong>.</p>",
+    "s": "<p>Från P till Q ändras x-koordinaten med \\(5-(-2)=7\\) och y-koordinaten med \\(1-4=-3\\).</p><p><strong>Svar:</strong> \\(\\overrightarrow{PQ}=(7,-3)\\).</p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -50621,7 +50643,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv vektorn från \\(A=(2,1)\\) till \\(B=(7,4)\\) i koordinatform.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p>\\((7-2,4-1)=\\)<strong>\\((5,3)\\)</strong></p>",
+    "s": "<p>\\((7-2,4-1)=\\)<strong>\\((5,3)\\)</strong></p>",
     "familj": "Bestämma vektor från start- och slutpunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -50659,7 +50681,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>\\(\\vec u=(4,1)\\) och \\(\\vec v=(-1,3)\\). Bestäm \\(\\vec u-\\vec v\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p>\\((4-(-1),1-3)=\\)<strong>\\((5,-2)\\)</strong></p>",
+    "s": "<p>\\((4-(-1),1-3)=\\)<strong>\\((5,-2)\\)</strong></p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -50697,7 +50719,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm längden av \\((5,12)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p><strong>13</strong>.</p>",
+    "s": "<p>Vektorns längd fås med Pythagoras:</p><p>\\(|(5,12)|=\\sqrt{5^2+12^2}=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> 13.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -50709,7 +50731,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Vektorns komponenter är kateter. Längden är \\(\\sqrt{x^2+y^2}\\).</p>",
+    "ledtrad": "<p>Komponenterna 5 och 12 kan ses som kateter i en rätvinklig triangel.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -50724,7 +50746,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(\\vec v=(3,-2)\\). Bestäm \\(2\\vec v\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p><strong>Svar:</strong> <strong>\\((6,-4)\\)</strong></p>",
+    "s": "<p>Multiplicera båda komponenterna med 2:</p><p>\\(2(3,-2)=(6,-4)\\).</p><p><strong>Svar:</strong> \\((6,-4)\\).</p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -50763,7 +50785,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En likbent triangel har sidlängderna 13 cm, 13 cm och 10 cm. Bestäm arean.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p><p>Höjden delar basen i två delar på 5 cm. \\(h=\\sqrt{13^2-5^2}=12\\) cm.</p><p><strong>Svar:</strong> <strong>Arean är 60 cm².</strong></p>",
+    "s": "<p>Höjden delar basen i två delar på 5 cm. \\(h=\\sqrt{13^2-5^2}=12\\) cm.</p><p><strong>Svar:</strong> <strong>Arean är 60 cm².</strong></p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -50777,7 +50799,7 @@ window.BANKMA1 = [
     ],
     "ledtrad": "<p>Höjden från topphörnet delar basen 10 cm i två lika delar. Börja med att bestämma höjden i en av de rätvinkliga trianglarna.</p>",
     "traningsniva": 3,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -50791,7 +50813,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har hypotenusan 13 cm och ena kateten 5 cm. Bestäm den andra kateten.</p><span class=\"fig\"><svg width=\"370\" height=\"230\" viewBox=\"0 0 370 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel\"><rect x=\"1\" y=\"1\" width=\"368\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M65.0 185.0 L285.0 185.0 L285.0 93.3 Z\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"270.0\" y=\"170.0\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\"/><text x=\"175.0\" y=\"207.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">x</text><text x=\"297.0\" y=\"139.2\" font-family=\"monospace\" font-size=\"12\">5 cm</text><text x=\"162.0\" y=\"115.2\" font-family=\"monospace\" font-size=\"12\">13 cm</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p><p>\\(x=\\sqrt{13^2-5^2}=\\)<strong>12 cm</strong>.</p>",
+    "s": "<p>\\(x=\\sqrt{13^2-5^2}=\\)<strong>12 cm</strong>.</p>",
     "familj": "Bestämma en katet med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -50802,7 +50824,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p>",
+    "ledtrad": "<p>13 cm är hypotenusan. Skriv \\(x^2+5^2=13^2\\) innan du löser ut \\(x\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -50881,7 +50903,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I en rätvinklig triangel är hypotenusan 10 cm och en vinkel 40°. Bestäm den motstående kateten. Avrunda till två decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>\\(x=10\\sin40^\\circ\\approx\\)<strong>6,43 cm</strong>.</p>",
+    "s": "<p>\\(x=10\\sin40^\\circ\\approx\\)<strong>6,43 cm</strong>.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -50907,7 +50929,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett symmetriskt tak är 14 m brett och stiger 2,6 m från takfot till nock. Bestäm takets lutningsvinkel.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p>Halva bredden är 7 m, \\(\\tan v=\\frac{2,6}{7}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx20,4^\\circ\\)</strong></p>",
+    "s": "<p>Halva bredden är 7 m, \\(\\tan v=\\frac{2,6}{7}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx20,4^\\circ\\)</strong></p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -50933,7 +50955,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm en spetsig vinkel \\(v\\) om \\(\\cos v=0,642\\). Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p>\\(v=\\cos^{-1}(0,642)\\approx\\)<strong>50,1°</strong>.</p>",
+    "s": "<p>Använd invers cosinus eftersom cosinusvärdet är givet:</p><p>\\(v=\\cos^{-1}(0,642)\\approx50,1^\\circ\\).</p><p><strong>Svar:</strong> \\(50,1^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -50956,10 +50978,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>I halvcirkeln är den vågräta sträckan 6,2 cm och vinkeln 24°.</p><span class=\"fig\"><svg width=\"400\" height=\"263\" viewBox=\"0 0 400 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"cirkel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"261\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"170\" cy=\"129.2\" r=\"125.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"129.2\" r=\"4\" fill=\"#2B2527\"/><line x1=\"170\" y1=\"129.2\" x2=\"284.2\" y2=\"180\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"129.2\" x2=\"170\" y2=\"180\" stroke=\"#777\"/><line x1=\"170\" y1=\"180\" x2=\"284.2\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"170\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\"/><text x=\"227.1\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">6,2 cm</text><text x=\"232.1\" y=\"145.6\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">r</text><text x=\"178\" y=\"121.2\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">O</text><polyline points=\"260.2,180.0 260.2,179.4 260.2,178.9 260.3,178.3 260.3,177.8 260.4,177.2 260.4,176.7 260.5,176.1 260.6,175.6 260.7,175.0 260.8,174.5 261.0,173.9 261.1,173.4 261.3,172.8 261.5,172.3 261.6,171.8 261.8,171.3 262.0,170.8 262.3,170.2\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"245.1\" y=\"175.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">24°</text></svg></span><p>Bestäm radien \\(r\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\cos24^\\circ=6,2/r\\), Alltså <strong>\\(r\\approx6,79\\) cm</strong>,</p>",
+    "s": "<p>\\(\\cos24^\\circ=6,2/r\\), Alltså <strong>\\(r\\approx6,79\\) cm</strong>,</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -50972,7 +50994,7 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Radien är hypotenusan i den markerade rätvinkliga triangeln. Den kända 6,2-sträckan ligger intill 24°.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -50986,7 +51008,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Från en punkt 14 m från en flaggstång är elevationsvinkeln 27°. Hur hög är stången? Ögonhöjd försummas.</p><span class=\"fig\"><svg width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M60 180 L295.5 180 L295.5 60.0 Z\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"280.5\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"177.8\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">14 m</text><text x=\"306.5\" y=\"120.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">h</text><polyline points=\"87.0,180.0 87.0,179.3 87.0,178.6 86.9,177.9 86.9,177.2 86.8,176.5 86.7,175.8 86.5,175.1 86.4,174.4 86.3,173.7 86.1,173.0 85.9,172.3 85.7,171.7 85.5,171.0 85.2,170.3 84.9,169.7 84.7,169.0 84.4,168.4 84.1,167.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"102.8\" y=\"173.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">27°</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(h=14\\tan27^\\circ\\approx7,1 m\\)</strong></p>",
+    "s": "<p>14 m är närliggande katet och höjden är motstående, så \\(\\tan27^\\circ=h/14\\).</p><p>\\(h=14\\tan27^\\circ\\approx7,1\\) m.</p><p><strong>Svar:</strong> cirka 7,1 m.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -51013,7 +51035,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Punkten \\(P=(x,0)\\) ligger på x-axeln och ska ligga lika långt från \\(A=(-2,5)\\) som från \\(B=(6,1)\\). Bestäm \\(x\\).</p><span class=\"fig\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"48.0\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-4</text><line x1=\"77.8\" y1=\"22\" x2=\"77.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"77.8\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"107.7\" y1=\"22\" x2=\"107.7\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"107.7\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"137.5\" y1=\"22\" x2=\"137.5\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"137.5\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"167.3\" y1=\"22\" x2=\"167.3\" y2=\"288\" stroke=\"#E8E7EA\"/><line x1=\"197.2\" y1=\"22\" x2=\"197.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"197.2\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"227.0\" y1=\"22\" x2=\"227.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"227.0\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"256.8\" y1=\"22\" x2=\"256.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"256.8\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"286.7\" y1=\"22\" x2=\"286.7\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"286.7\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"316.5\" y1=\"22\" x2=\"316.5\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"316.5\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"346.3\" y1=\"22\" x2=\"346.3\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"346.3\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"376.2\" y1=\"22\" x2=\"376.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"376.2\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"406.0\" y1=\"22\" x2=\"406.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"406.0\" y=\"246.9\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"48\" y1=\"288.0\" x2=\"406\" y2=\"288.0\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"291.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"48\" y1=\"258.4\" x2=\"406\" y2=\"258.4\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"261.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48\" y1=\"228.9\" x2=\"406\" y2=\"228.9\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"199.3\" x2=\"406\" y2=\"199.3\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"202.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48\" y1=\"169.8\" x2=\"406\" y2=\"169.8\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"172.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48\" y1=\"140.2\" x2=\"406\" y2=\"140.2\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"143.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48\" y1=\"110.7\" x2=\"406\" y2=\"110.7\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"113.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48\" y1=\"81.1\" x2=\"406\" y2=\"81.1\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"84.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48\" y1=\"51.6\" x2=\"406\" y2=\"51.6\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"54.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48\" y1=\"22.0\" x2=\"406\" y2=\"22.0\" stroke=\"#E8E7EA\"/><text x=\"159.3\" y=\"25.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"228.9\" x2=\"406\" y2=\"228.9\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"167.3\" y1=\"288\" x2=\"167.3\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"107.7\" cy=\"81.1\" r=\"4.2\" fill=\"#B43123\"/><text x=\"114.7\" y=\"74.1\" font-family=\"monospace\" font-size=\"11\">A</text><circle cx=\"346.3\" cy=\"199.3\" r=\"4.2\" fill=\"#B43123\"/><text x=\"353.3\" y=\"192.3\" font-family=\"monospace\" font-size=\"11\">B</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>\\((x+2)^2+25=(x-6)^2+1\\). Efter förenkling fås \\(16x=8\\).</p><p><strong>\\(x=0,5\\)</strong>.</p>",
+    "s": "<p>\\((x+2)^2+25=(x-6)^2+1\\). Efter förenkling fås \\(16x=8\\).</p><p><strong>\\(x=0,5\\)</strong>.</p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -51067,7 +51089,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>\\(A=(0,0)\\) och \\(B=(8,0)\\). Punkten \\(C=(4,y)\\) ska ligga 5 längdenheter från både A och B. Bestäm alla möjliga \\(y\\).</p><span class=\"fig\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"48.0\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"77.8\" y1=\"22\" x2=\"77.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"77.8\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"107.7\" y1=\"22\" x2=\"107.7\" y2=\"288\" stroke=\"#E8E7EA\"/><line x1=\"137.5\" y1=\"22\" x2=\"137.5\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"137.5\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"167.3\" y1=\"22\" x2=\"167.3\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"167.3\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"197.2\" y1=\"22\" x2=\"197.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"197.2\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"227.0\" y1=\"22\" x2=\"227.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"227.0\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"256.8\" y1=\"22\" x2=\"256.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"256.8\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"286.7\" y1=\"22\" x2=\"286.7\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"286.7\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"316.5\" y1=\"22\" x2=\"316.5\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"316.5\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"346.3\" y1=\"22\" x2=\"346.3\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"346.3\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"376.2\" y1=\"22\" x2=\"376.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"376.2\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">9</text><line x1=\"406.0\" y1=\"22\" x2=\"406.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"406.0\" y=\"173.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"48\" y1=\"288.0\" x2=\"406\" y2=\"288.0\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"291.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-5</text><line x1=\"48\" y1=\"261.4\" x2=\"406\" y2=\"261.4\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"264.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-4</text><line x1=\"48\" y1=\"234.8\" x2=\"406\" y2=\"234.8\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"237.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"48\" y1=\"208.2\" x2=\"406\" y2=\"208.2\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"211.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"48\" y1=\"181.6\" x2=\"406\" y2=\"181.6\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"184.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48\" y1=\"155.0\" x2=\"406\" y2=\"155.0\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"128.4\" x2=\"406\" y2=\"128.4\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"131.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48\" y1=\"101.8\" x2=\"406\" y2=\"101.8\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"104.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48\" y1=\"75.2\" x2=\"406\" y2=\"75.2\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"78.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48\" y1=\"48.6\" x2=\"406\" y2=\"48.6\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"51.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48\" y1=\"22.0\" x2=\"406\" y2=\"22.0\" stroke=\"#E8E7EA\"/><text x=\"99.7\" y=\"25.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48\" y1=\"155.0\" x2=\"406\" y2=\"155.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"107.7\" y1=\"288\" x2=\"107.7\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"107.7\" y1=\"155.0\" x2=\"227.0\" y2=\"75.2\" stroke=\"#315F91\" stroke-width=\"2.4\"/><line x1=\"346.3\" y1=\"155.0\" x2=\"227.0\" y2=\"75.2\" stroke=\"#315F91\" stroke-width=\"2.4\"/><line x1=\"107.7\" y1=\"155.0\" x2=\"227.0\" y2=\"234.8\" stroke=\"#315F91\" stroke-width=\"2.4\"/><line x1=\"346.3\" y1=\"155.0\" x2=\"227.0\" y2=\"234.8\" stroke=\"#315F91\" stroke-width=\"2.4\"/><circle cx=\"107.7\" cy=\"155.0\" r=\"4.2\" fill=\"#B43123\"/><text x=\"114.7\" y=\"148.0\" font-family=\"monospace\" font-size=\"11\">A</text><circle cx=\"346.3\" cy=\"155.0\" r=\"4.2\" fill=\"#B43123\"/><text x=\"353.3\" y=\"148.0\" font-family=\"monospace\" font-size=\"11\">B</text><circle cx=\"227.0\" cy=\"75.2\" r=\"4.2\" fill=\"#B43123\"/><text x=\"234.0\" y=\"68.2\" font-family=\"monospace\" font-size=\"11\">C₁</text><circle cx=\"227.0\" cy=\"234.8\" r=\"4.2\" fill=\"#B43123\"/><text x=\"234.0\" y=\"227.8\" font-family=\"monospace\" font-size=\"11\">C₂</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>\\(4^2+y^2=5^2\\Rightarrow y^2=9\\).</p><p><strong>\\(y=3\\) eller \\(y=-3\\)</strong>.</p>",
+    "s": "<p>\\(4^2+y^2=5^2\\Rightarrow y^2=9\\).</p><p><strong>\\(y=3\\) eller \\(y=-3\\)</strong>.</p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -51132,7 +51154,7 @@ window.BANKMA1 = [
     ],
     "manuellKomplettering": true,
     "ledtrad": "<p>Rita \\(\\vec u\\) och \\(\\vec v\\) som vinkelräta sidor. Vad händer med längden när \\(\\vec v\\) byter riktning?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -51146,7 +51168,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vektorn \\((x,6)\\) ska ha samma riktning som \\((4,3)\\). Bestäm \\(x\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p>Skalfaktorn är 2. <strong>\\(x=8\\)</strong>.</p>",
+    "s": "<p>Skalfaktorn är 2. <strong>\\(x=8\\)</strong>.</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -51160,7 +51182,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Samma riktning betyder att vektorerna är positiva skalära multiplar. Vilken faktor gör 3 till 6?</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -51171,8 +51193,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "1/2/0",
     "t": "<p>\\(\\vec u=(a,2)\\) och \\(\\vec v=(3,a)\\). Summavektorn \\(\\vec u+\\vec v\\) har längden 5.</p><p>a) Bestäm alla möjliga värden på \\(a\\).<br>b) Vilket av värdena ger en summavektor som pekar åt höger och uppåt?</p>",
     "s": "<p><strong>Steg 1:</strong> \\(\\vec u+\\vec v=(a+3,a+2)\\). Längdvillkoret ger</p><p>\\((a+3)^2+(a+2)^2=25\\).</p><p>\\(2a^2+10a+13=25\\Rightarrow a^2+5a-6=0\\Rightarrow(a-1)(a+6)=0\\).</p><p>Alltså <strong>\\(a=1\\) eller \\(a=-6\\)</strong>.</p><p>För \\(a=1\\) är summavektorn \\((4,3)\\), som pekar åt höger och uppåt. För \\(a=-6\\) blir den \\((-3,-4)\\). <strong>Det sökta värdet i b) är \\(a=1\\).</strong></p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
@@ -51180,13 +51202,17 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -6,
-      1,
+      [
+        -6,
+        1
+      ],
       1
     ],
     "tolerans": [
-      0,
-      0,
+      [
+        0,
+        0
+      ],
       0
     ],
     "självrättning": true,
@@ -51196,8 +51222,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": [
-      "numeriskt",
-      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
       "numeriskt"
     ],
     "svarsstruktur": "ordnad",
@@ -51246,7 +51274,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "vektor"
   },
   {
     "id": "4.26",
@@ -51255,8 +51284,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En vektor har koordinatformen \\((a,4)\\) och längden 5. Bestäm alla möjliga värden på \\(a\\).</p>",
     "s": "<p>\\(a^2+4^2=5^2\\Rightarrow a^2=9\\). Därför \\(a=-3\\) eller \\(a=3\\).</p><p>Geometriskt motsvarar det två lika långa vektorer som är spegelbilder i y-axeln.</p>",
     "familj": "Beräkna en vektors längd",
@@ -51264,22 +51293,27 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -3,
-      3
+      [
+        -3,
+        3
+      ]
     ],
     "tolerans": [
-      0,
-      0
+      [
+        0,
+        0
+      ]
     ],
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "svarFormat": [
-      "numeriskt",
-      "numeriskt"
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -51288,7 +51322,7 @@ window.BANKMA1 = [
     ],
     "manuellKomplettering": true,
     "ledtrad": "<p>Sätt vektorns kvadrerade längd \\(a^2+16\\) lika med 25. Glöm inte båda tecknen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -51302,7 +51336,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm absolutbeloppet av \\((3,4)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p><strong>Svar:</strong> <strong>5</strong></p>",
+    "s": "<p>\\(|(3,4)|=\\sqrt{3^2+4^2}=\\sqrt{25}=5\\).</p><p><strong>Svar:</strong> 5.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -51326,8 +51360,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>\\(\\vec u=(3,-2)\\) och \\(\\vec w=(-12,8)\\).</p><p>Bestäm talet \\(k\\) så att \\(\\vec w=k\\vec u\\), och beskriv riktningen hos \\(\\vec w\\) jämfört med \\(\\vec u\\).</p>",
     "s": "<p>\\((-12,8)=-4(3,-2)\\), alltså \\(k=-4\\). En negativ skalär gör att vektorn får motsatt riktning.</p>",
     "familj": "Skalärmultiplikation av vektorer",
@@ -51344,17 +51378,21 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "resonemang"
+      "begrepp",
+      "procedur"
     ],
     "ledtrad": "<p>Jämför samma komponent i de två vektorerna. Tecknet på k avgör om riktningen bevaras eller vänds.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "k",
       "riktning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "kort_text"
     ]
   },
   {
@@ -51367,7 +51405,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(\\vec v=(5,-2)\\). Vilken vektor har samma riktning och dubbla längden?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p><strong>\\((10,-4)\\)</strong>.</p>",
+    "s": "<p>Multiplicera båda komponenterna med 2:</p><p>\\(2(5,-2)=(10,-4)\\).</p><p><strong>Svar:</strong> \\((10,-4)\\).</p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -51432,7 +51470,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Från strandkanten ser du toppen av en mast på andra sidan en kanal med elevationsvinkeln 52°. Du går 18 m rakt bakåt och vinkeln blir 33°. Marken är plan.</p><p>Bestäm kanalens bredd och mastens höjd.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(h=w\\tan52^\\circ=(w+18)\\tan33^\\circ\\),</p><p><strong>Svar:</strong> <strong>\\(w\\approx18,5 m\\), \\(h\\approx23,7 m\\)</strong></p>",
+    "s": "<p>\\(h=w\\tan52^\\circ=(w+18)\\tan33^\\circ\\),</p><p><strong>Svar:</strong> <strong>\\(w\\approx18,5 m\\), \\(h\\approx23,7 m\\)</strong></p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -51452,7 +51490,7 @@ window.BANKMA1 = [
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Låt kanalbredden vara \\(w\\). Samma masthöjd kan då skrivas både \\(w\\tan52^\\circ\\) och \\((w+18)\\tan33^\\circ\\).</p>",
     "traningsniva": 4,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -51496,7 +51534,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Den horisontella sträckan under en lutande väg är 40 m och lutar 12°. Hur lång är vägsträckan?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(L=40/\\cos12^\\circ\\approx40,9 m\\)</strong></p>",
+    "s": "<p>40 m är närliggande katet och ledningen är hypotenusan, alltså \\(\\cos12^\\circ=40/L\\).</p><p>\\(L=40/\\cos12^\\circ\\approx40,9\\) m.</p><p><strong>Svar:</strong> cirka 40,9 m.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -51523,7 +51561,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En 5,0 m lång stege står mot en vägg. Foten står 1,4 m från väggen.</p><p>Bestäm vinkeln mellan stegen och marken.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\cos v=\\frac{1,4}{5,0}=0,28\\).</p><p><strong>\\(v\\approx73,7^\\circ\\)</strong>.</p>",
+    "s": "<p>\\(\\cos v=\\frac{1,4}{5,0}=0,28\\).</p><p><strong>\\(v\\approx73,7^\\circ\\)</strong>.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -51550,7 +51588,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En 8,0 m hög stolpe kastar en skugga. Solens höjdvinkel är 38°. Hur lång är skuggan?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(x=8,0/\\tan38^\\circ\\approx10,2 m\\)</strong></p>",
+    "s": "<p>Skuggan är närliggande katet och 8,0 m är motstående, så \\(\\tan38^\\circ=8,0/x\\).</p><p>\\(x=8,0/\\tan38^\\circ\\approx10,2\\) m.</p><p><strong>Svar:</strong> cirka 10,2 m.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -51595,7 +51633,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "ledtrad": "<p>De 3,2 cm är en mycket liten sidoförskjutning över höjden 230 cm. Bestäm först den lilla avvikelsevinkeln.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
@@ -51664,7 +51702,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm avståndet mellan \\((-2,1)\\) och \\((4,9)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>Skillnaderna är 6 och 8.</p><p>\\(d=\\sqrt{36+64}=\\)<strong>10</strong></p>",
+    "s": "<p>Skillnaderna är 6 och 8.</p><p>\\(d=\\sqrt{36+64}=\\)<strong>10</strong></p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -51690,7 +51728,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Två observationspunkter ligger 25 m från varandra. Elevationsvinkeln till ett torn är 31° från den bortre punkten och 47° från den närmare.</p><span class=\"fig\"><svg width=\"410\" height=\"245\" viewBox=\"0 0 410 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"torn med två korrekt markerade elevationsvinklar\"><rect x=\"1\" y=\"1\" width=\"408\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45\" y1=\"185\" x2=\"380\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"350\" y1=\"185\" x2=\"350\" y2=\"75.0\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"166.9\" y1=\"185\" x2=\"350\" y2=\"75.0\" stroke=\"#315F91\" stroke-width=\"2.2\"/><line x1=\"247.4\" y1=\"185\" x2=\"350\" y2=\"75.0\" stroke=\"#B43123\" stroke-width=\"2.2\"/><line x1=\"166.9\" y1=\"208\" x2=\"247.4\" y2=\"208\" stroke=\"#777\"/><path d=\"M166.9 203 v10 M247.4 203 v10\" stroke=\"#777\"/><text x=\"207.2\" y=\"226\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">25 m</text><text x=\"360\" y=\"130.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">h</text><polyline points=\"188.9,185.0 188.9,184.3 188.9,183.7 188.8,183.0 188.8,182.4 188.7,181.7 188.6,181.1 188.4,180.4 188.3,179.8 188.1,179.1 187.9,178.5 187.7,177.9 187.5,177.2 187.3,176.6 187.0,176.0 186.7,175.4 186.4,174.8 186.1,174.2 185.8,173.7\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"204.5\" y=\"178.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">31°</text><polyline points=\"269.4,185.0 269.4,184.0 269.3,183.0 269.2,182.0 269.1,181.0 268.9,180.0 268.6,179.1 268.3,178.1 268.0,177.2 267.6,176.2 267.2,175.3 266.7,174.4 266.2,173.6 265.7,172.7 265.1,171.9 264.5,171.1 263.8,170.3 263.1,169.6 262.4,168.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"283.2\" y=\"173.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">47°</text></svg></span><p>Bestäm tornets höjd.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(h=x\\tan47^\\circ=(x+25)\\tan31^\\circ\\),</p><p><strong>Svar:</strong> <strong>\\(h\\approx34,2 m\\)</strong></p>",
+    "s": "<p>\\(h=x\\tan47^\\circ=(x+25)\\tan31^\\circ\\),</p><p><strong>Svar:</strong> <strong>\\(h\\approx34,2 m\\)</strong></p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -51704,7 +51742,7 @@ window.BANKMA1 = [
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Låt avståndet från den närmare punkten till tornet vara \\(x\\). Skriv tornets höjd på två sätt med tangens.</p>",
     "traningsniva": 4,
-    "arbetsinsats": 1,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -51770,7 +51808,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I en rätvinklig triangel är motstående katet 7 cm och hypotenusan 25 cm. Bestäm \\(\\sin v\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p><strong>\\(\\sin v=\\frac{7}{25}=0,28\\)</strong>.</p>",
+    "s": "<p><strong>\\(\\sin v=\\frac{7}{25}=0,28\\)</strong>.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": false,
@@ -51781,7 +51819,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p>",
+    "ledtrad": "<p>Sinus är kvoten mellan motstående katet och hypotenusan. Här är de 7 respektive 25.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -51802,12 +51840,16 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      53.1,
-      36.9
+      [
+        53.1,
+        36.9
+      ]
     ],
     "tolerans": [
-      0.1,
-      0.1
+      [
+        0.1,
+        0.1
+      ]
     ],
     "självrättning": true,
     "formaga": [
@@ -51822,7 +51864,13 @@ window.BANKMA1 = [
     "ledtrad": "<p>Översätt först ”40 % kortare än hypotenusan” till en längd. Därefter har du en katet och hypotenusan.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      [
+        "grader",
+        "grader"
+      ]
+    ]
   },
   {
     "id": "4.45",
@@ -51877,14 +51925,18 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      12,
-      16,
-      20
+      [
+        12,
+        16,
+        20
+      ]
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      [
+        0,
+        0,
+        0
+      ]
     ],
     "självrättning": true,
     "formaga": [
@@ -51900,6 +51952,13 @@ window.BANKMA1 = [
       "kortare katet",
       "längre katet",
       "hypotenusa"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ]
     ]
   },
   {
@@ -51939,7 +51998,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är hypotenusan 3,0 och en vinkel är 35°.</p><span class=\"fig\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med mått\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"65\" y1=\"205\" x2=\"286.6860465116279\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"286.6860465116279\" y1=\"205\" x2=\"286.6860465116279\" y2=\"50.0\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"65\" y1=\"205\" x2=\"286.6860465116279\" y2=\"50.0\" stroke=\"#2B2527\" stroke-width=\"3\"/><rect x=\"266.6860465116279\" y=\"185\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"#777\" stroke-width=\"2\"/><text x=\"170.84302325581396\" y=\"114.5\" font-family=\"monospace\" font-size=\"12\">3,0</text><path d=\"M 99.0 205.0 A 34 34 0 0 0 92.9 185.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\"/><text x=\"113\" y=\"190\" font-family=\"monospace\" font-size=\"12\">35°</text></svg></span><p>Bestäm längden på den katet som ligger mitt emot 35°. Avrunda till två decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>\\(\\sin35^\\circ=a/3,0\\Rightarrow a=3,0\\sin35^\\circ\\approx\\)<strong>1,72</strong>.</p>",
+    "s": "<p>\\(\\sin35^\\circ=a/3,0\\Rightarrow a=3,0\\sin35^\\circ\\approx\\)<strong>1,72</strong>.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -51966,7 +52025,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm \\(\\tan v\\) exakt om \\(\\sin v=\\frac{5}{13}\\) och \\(v\\) är spetsig.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>Rita en rätvinklig triangel med motstående katet 5 och hypotenusa 13. Den andra kateten blir \\(\\sqrt{13^2-5^2}=12\\).</p><p><strong>Svar:</strong> <strong>\\(\\tan v=\\frac{5}{12}\\)</strong></p>",
+    "s": "<p>Rita en rätvinklig triangel med motstående katet 5 och hypotenusa 13. Den andra kateten blir \\(\\sqrt{13^2-5^2}=12\\).</p><p><strong>Svar:</strong> <strong>\\(\\tan v=\\frac{5}{12}\\)</strong></p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": false,
@@ -51979,7 +52038,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Tolka \\(\\sin v=5/13\\) som motstående/hypotenusa. Vilken längd får den närliggande kateten?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -51993,7 +52052,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En 9,0 m lång lina bildar vinkeln 32° med marken. Hur stor är höjdskillnaden mellan linans ändar?</p><span class=\"fig\"><svg width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M60 180 L252.0 180 L252.0 60.0 Z\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"237.0\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"156.0\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">?</text><text x=\"263.0\" y=\"120.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">h</text><text x=\"141.1\" y=\"97.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">9,0 m</text><polyline points=\"87.0,180.0 87.0,179.2 86.9,178.3 86.9,177.5 86.8,176.7 86.7,175.8 86.5,175.0 86.4,174.2 86.2,173.4 86.0,172.6 85.7,171.8 85.4,171.0 85.1,170.2 84.8,169.4 84.5,168.6 84.1,167.9 83.7,167.1 83.3,166.4 82.9,165.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"102.3\" y=\"171.9\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">32°</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>\\(h=9,0\\sin32^\\circ\\approx\\)<strong>4,8 m</strong>,</p>",
+    "s": "<p>\\(h=9,0\\sin32^\\circ\\approx\\)<strong>4,8 m</strong>,</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -52019,7 +52078,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Motstående katet är 6 och hypotenusan 10. Bestäm vinkeln \\(v\\) till en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(v=sin^{-1}(0,60)\\approx36,9^\\circ\\)</strong></p>",
+    "s": "<p>Här gäller \\(\\sin v=6/10=0,60\\).</p><p>\\(v=\\sin^{-1}(0,60)\\approx36,9^\\circ\\).</p><p><strong>Svar:</strong> \\(36,9^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52030,7 +52089,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p>",
+    "ledtrad": "<p>Du känner motstående katet och hypotenusan. Börja med \\(\\sin v=6/10\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -52045,7 +52104,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär skiva är 2,8 m lång och 1,9 m hög. Bestäm vinkeln mellan diagonalen och den långa sidan.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p>\\(\\tan v=\\frac{1,9}{2,8}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx34,2^\\circ\\)</strong></p>",
+    "s": "<p>\\(\\tan v=\\frac{1,9}{2,8}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx34,2^\\circ\\)</strong></p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52071,7 +52130,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm en spetsig vinkel \\(v\\) då \\(\\cos v=0,615\\). Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>\\(v\\approx52,0^\\circ\\)</strong>.</p>",
+    "s": "<p>Använd invers cosinus:</p><p>\\(v=\\cos^{-1}(0,615)\\approx52,0^\\circ\\).</p><p><strong>Svar:</strong> \\(52,0^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52082,7 +52141,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p>",
+    "ledtrad": "<p>När \\(\\cos v\\) är känt får du vinkeln med invers cosinus.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -52097,7 +52156,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En vägskylt anger 8,5 % lutning. Hur många grader motsvarar det?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först kvoten mellan motstående och närliggande katet. Vinkeln fås sedan med invers tangens.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p>\\(\\tan v=0,085\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx4,9^\\circ\\)</strong></p>",
+    "s": "<p>8,5 % lutning betyder \\(\\tan v=0,085\\).</p><p>\\(v=\\tan^{-1}(0,085)\\approx4,9^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(4,9^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52123,7 +52182,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En 7,5 m lång vajer ger en höjdskillnad på 4,2 m. Bestäm vinkeln mot marken.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p>\\(\\sin v=\\frac{4,2}{7,5}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx34,1^\\circ\\)</strong></p>",
+    "s": "<p>\\(\\sin v=\\frac{4,2}{7,5}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx34,1^\\circ\\)</strong></p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52134,7 +52193,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p>",
+    "ledtrad": "<p>4,2 m är motstående katet och 7,5 m hypotenusan. Vilket samband använder just dessa?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -52149,7 +52208,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En väg lutar 6 %, alltså 6 m i höjd per 100 m horisontellt. Hur många grader är lutningen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först kvoten mellan motstående och närliggande katet. Vinkeln fås sedan med invers tangens.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p>\\(\\tan v=0,06\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx3,43^\\circ\\)</strong></p>",
+    "s": "<p>6 % lutning betyder \\(\\tan v=6/100=0,06\\).</p><p>\\(v=\\tan^{-1}(0,06)\\approx3,43^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(3,43^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52175,7 +52234,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel gäller \\(\\sin v=0,60\\). Bestäm \\(v\\) i grader.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p>\\(v=\\sin^{-1}(0,60)\\approx\\)<strong>\\(36,9^\\circ\\)</strong></p>",
+    "s": "<p>\\(v=\\sin^{-1}(0,60)\\approx\\)<strong>\\(36,9^\\circ\\)</strong></p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52186,7 +52245,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p>",
+    "ledtrad": "<p>Vinkeln fås genom att använda invers sinus på 0,60.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -52294,7 +52353,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>I en rätvinklig triangel är hypotenusan 1,4 gånger så lång som en av kateterna. Bestäm triangelns två spetsiga vinklar.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p>För vinkeln intill kateten gäller \\(\\cos v=\\frac{1}{1,4}\\), alltså \\(v\\approx44,4°\\). Den andra spetsiga vinkeln är <strong>45,6°</strong>.</p>",
+    "s": "<p>För vinkeln intill kateten gäller \\(\\cos v=\\frac{1}{1,4}\\), alltså \\(v\\approx44,4°\\). Den andra spetsiga vinkeln är <strong>45,6°</strong>.</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52331,7 +52390,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En staglina bildar vinkeln 52° med marken och fästs 6,0 m upp på en mast. Hur lång är linan?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(L=6,0/\\sin52^\\circ\\approx7,6 m\\)</strong></p>",
+    "s": "<p>6,0 m är motstående katet och linan är hypotenusan, så \\(\\sin52^\\circ=6,0/L\\).</p><p>\\(L=6,0/\\sin52^\\circ\\approx7,6\\) m.</p><p><strong>Svar:</strong> cirka 7,6 m.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52355,8 +52414,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En fiskare använder två spön från samma plats. På det ena har 12 m mer lina släppts ut. Vinklarna mellan vattenytan och linorna är 38° och 24°. Båda betena går på samma djup. Spöspetsen är 1,0 m över vattnet.</p><span class=\"fig\"><svg width=\"460\" height=\"245\" viewBox=\"0 0 460 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två fiskelinor med korrekt markerade vinklar\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"95\" x2=\"430\" y2=\"95\" stroke=\"#2A8EBB\" stroke-width=\"2.5\"/><circle cx=\"70\" cy=\"65\" r=\"4\" fill=\"#2B2527\"/><line x1=\"70\" y1=\"65\" x2=\"236.4\" y2=\"195\" stroke=\"#B43123\" stroke-width=\"2.3\"/><line x1=\"70\" y1=\"65\" x2=\"362.0\" y2=\"195\" stroke=\"#315F91\" stroke-width=\"2.3\"/><line x1=\"70\" y1=\"65\" x2=\"70\" y2=\"195\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><line x1=\"70\" y1=\"195\" x2=\"377.0\" y2=\"195\" stroke=\"#777\" stroke-dasharray=\"5 4\"/><text x=\"131.2\" y=\"145.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x</text><text x=\"220.0\" y=\"115.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x + 12</text><text x=\"94.0\" y=\"66.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">1,0 m</text><text x=\"78\" y=\"145\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">d</text><text x=\"35\" y=\"87\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">vattenyta</text><polyline points=\"214.4,195.0 214.4,194.2 214.5,193.4 214.5,192.6 214.6,191.8 214.8,191.0 214.9,190.2 215.1,189.4 215.3,188.6 215.6,187.8 215.9,187.1 216.2,186.3 216.5,185.6 216.9,184.9 217.3,184.1 217.7,183.5 218.1,182.8 218.6,182.1 219.1,181.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"200.5\" y=\"186.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">38°</text><polyline points=\"340.0,195.0 340.0,194.5 340.0,194.0 340.0,193.5 340.1,193.0 340.1,192.4 340.2,191.9 340.3,191.4 340.4,190.9 340.5,190.4 340.6,189.9 340.7,189.4 340.8,188.9 341.0,188.4 341.1,188.0 341.3,187.5 341.5,187.0 341.7,186.5 341.9,186.1\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"324.8\" y=\"191.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">24°</text></svg></span><p>Bestäm betenas djup.</p>",
     "s": "<p><strong>Steg 1:</strong> \\(x\\sin38^\\circ=(x+12)\\sin24^\\circ\\),</p><p>\\(x\\approx23,4\\) m och höjdskillnaden från spöspetsen blir \\(H\\approx14,4\\) m,</p><p><strong>Djupet är \\(d\\approx13,4 m\\)</strong>,</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
@@ -52367,12 +52426,14 @@ window.BANKMA1 = [
     "tolerans": 0.15,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning",
+      "modellering"
     ],
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Låt den kortare linan vara \\(x\\). Båda betena ligger lika långt lodrätt under spöspetsen, så de två vertikalkomponenterna ska vara lika.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 1,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -52385,7 +52446,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En takkant ligger 5,5 m över marken. Elevationsvinkeln från en punkt är 34°. Hur långt från väggen ligger punkten?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(x=5,5/\\tan34^\\circ\\approx8,2 m\\)</strong></p>",
+    "s": "<p>5,5 m är motstående katet och avståndet är närliggande, så \\(\\tan34^\\circ=5,5/x\\).</p><p>\\(x=5,5/\\tan34^\\circ\\approx8,2\\) m.</p><p><strong>Svar:</strong> cirka 8,2 m.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52480,6 +52541,10 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "a) kan resas?",
       "b) vinkel vägg–golv"
+    ],
+    "manuellKomplettering": [
+      true,
+      false
     ]
   },
   {
@@ -52492,7 +52557,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En 3,6 m lång stege står med vinkeln 74° mot marken. Hur högt upp på väggen når den?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>Höjden är \\(3,6\\sin74^\\circ\\approx\\)<strong>3,5 m</strong>.</p>",
+    "s": "<p>Höjden är \\(3,6\\sin74^\\circ\\approx\\)<strong>3,5 m</strong>.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52504,7 +52569,7 @@ window.BANKMA1 = [
       "modellering"
     ],
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
-    "ledtrad": "<p>Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p>",
+    "ledtrad": "<p>Stegen är hypotenusan och höjden är sidan mitt emot 74°.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -52596,7 +52661,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En flaggstång står på plan mark. Från en punkt 24 m från stångens fot mäts vinkeln upp till toppen till 31°. Mätinstrumentet hålls 1,6 m över marken.</p><p>Bestäm flaggstångens höjd.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>Höjden över instrumentet är \\(24\\tan31^\\circ\\approx14,42\\) m. Lägg till 1,6 m.</p><p><strong>Svar:</strong> <strong>Cirka 16,0 m.</strong></p>",
+    "s": "<p>Höjden över instrumentet är \\(24\\tan31^\\circ\\approx14,42\\) m. Lägg till 1,6 m.</p><p><strong>Svar:</strong> <strong>Cirka 16,0 m.</strong></p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -52624,7 +52689,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har kateterna 8 cm och 15 cm. Bestäm hypotenusan.</p><span class=\"fig\"><svg width=\"370\" height=\"230\" viewBox=\"0 0 370 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel\"><rect x=\"1\" y=\"1\" width=\"368\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M65.0 185.0 L129.0 185.0 L129.0 65.0 Z\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"114.0\" y=\"170.0\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\"/><text x=\"97.0\" y=\"207.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">8 cm</text><text x=\"141.0\" y=\"125.0\" font-family=\"monospace\" font-size=\"12\">15 cm</text><text x=\"89.0\" y=\"113.0\" font-family=\"monospace\" font-size=\"12\">c</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p><p>\\(c=\\sqrt{8^2+15^2}=\\)<strong>17 cm</strong>.</p>",
+    "s": "<p>Kateterna är 8 cm och 15 cm:</p><p>\\(c=\\sqrt{8^2+15^2}=\\sqrt{289}=17\\) cm.</p><p><strong>Svar:</strong> 17 cm.</p>",
     "familj": "Bestämma en katet med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -52635,7 +52700,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p>",
+    "ledtrad": "<p>Här är båda kateterna kända. Skriv \\(c^2=8^2+15^2\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -52664,8 +52729,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Bestäm först diagonalen i rektangeln 30×40. Den blir sedan en katet i en ny rätvinklig triangel.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -52679,7 +52744,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har kateterna 5 cm och 12 cm. Bestäm hypotenusan.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p><p>\\(c=\\sqrt{25+144}=\\)<strong>13 cm</strong></p>",
+    "s": "<p>Kateterna är 5 cm och 12 cm:</p><p>\\(c=\\sqrt{5^2+12^2}=\\sqrt{169}=13\\) cm.</p><p><strong>Svar:</strong> 13 cm.</p>",
     "familj": "Bestämma en katet med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -52690,7 +52755,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p>",
+    "ledtrad": "<p>Här är båda kateterna kända. Skriv \\(c^2=5^2+12^2\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -52855,8 +52920,8 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Bestäm först diagonalen i en kvadratisk sidoyta. Använd sedan den diagonalen och en kubkant i en ny rätvinklig triangel.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -52911,7 +52976,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Vilken är den längsta möjliga raka sträckan mellan två punkter i den rektangulära öppningen?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -52922,10 +52987,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Punkterna är \\(P=(-2,5)\\) och \\(Q=(4,1)\\). Bestäm koordinaterna för vektorn \\(\\overrightarrow{PQ}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>\\(Q-P=(4-(-2),1-5)=\\)<strong>\\((6,-4)\\)</strong>.</p>",
+    "s": "<p>\\(Q-P=(4-(-2),1-5)=\\)<strong>\\((6,-4)\\)</strong>.</p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -52940,13 +53005,12 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur",
       "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "svarFormat": "vektor",
     "ledtrad": "<p>Beräkna Q−P komponent för komponent.</p>",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
@@ -53010,14 +53074,15 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Motstående sidor i en parallellogram motsvarar samma vektor.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "x",
       "y"
-    ]
+    ],
+    "svarFormat": "punkt"
   },
   {
     "id": "4.84",
@@ -53029,7 +53094,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkterna \\(A=(1,2)\\), \\(B=(5,2)\\) och \\(C=(5,7)\\) bildar en rätvinklig triangel. Bestäm arean.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>Kateterna är 4 och 5.</p><p><strong>Svar:</strong> <strong>\\(A=4\\cdot5/2=10\\)</strong></p>",
+    "s": "<p>Kateterna är 4 och 5.</p><p><strong>Svar:</strong> <strong>\\(A=4\\cdot5/2=10\\)</strong></p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -53068,7 +53133,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför de kvadrerade sidlängderna; då behöver du inte ta några kvadratrötter.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -53082,7 +53147,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm avståndet mellan \\(A=(3,-2)\\) och \\(B=(3,5)\\).</p><span class=\"fig\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"48.0\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"87.8\" y1=\"22\" x2=\"87.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"87.8\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"127.6\" y1=\"22\" x2=\"127.6\" y2=\"288\" stroke=\"#E8E7EA\"/><line x1=\"167.3\" y1=\"22\" x2=\"167.3\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"167.3\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"207.1\" y1=\"22\" x2=\"207.1\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"207.1\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"246.9\" y1=\"22\" x2=\"246.9\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"246.9\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"286.7\" y1=\"22\" x2=\"286.7\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"286.7\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"326.4\" y1=\"22\" x2=\"326.4\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"326.4\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"366.2\" y1=\"22\" x2=\"366.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"366.2\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"406.0\" y1=\"22\" x2=\"406.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"406.0\" y=\"209.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"288.0\" x2=\"406\" y2=\"288.0\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"291.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-4</text><line x1=\"48\" y1=\"263.8\" x2=\"406\" y2=\"263.8\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"266.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"48\" y1=\"239.6\" x2=\"406\" y2=\"239.6\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"242.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"48\" y1=\"215.5\" x2=\"406\" y2=\"215.5\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"218.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48\" y1=\"191.3\" x2=\"406\" y2=\"191.3\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"167.1\" x2=\"406\" y2=\"167.1\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"170.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48\" y1=\"142.9\" x2=\"406\" y2=\"142.9\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"145.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48\" y1=\"118.7\" x2=\"406\" y2=\"118.7\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"121.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48\" y1=\"94.5\" x2=\"406\" y2=\"94.5\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"97.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48\" y1=\"70.4\" x2=\"406\" y2=\"70.4\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"73.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48\" y1=\"46.2\" x2=\"406\" y2=\"46.2\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"49.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48\" y1=\"22.0\" x2=\"406\" y2=\"22.0\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"25.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"191.3\" x2=\"406\" y2=\"191.3\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"127.6\" y1=\"288\" x2=\"127.6\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"246.9\" cy=\"239.6\" r=\"4.2\" fill=\"#B43123\"/><text x=\"253.9\" y=\"232.6\" font-family=\"monospace\" font-size=\"11\">A</text><circle cx=\"246.9\" cy=\"70.4\" r=\"4.2\" fill=\"#B43123\"/><text x=\"253.9\" y=\"63.4\" font-family=\"monospace\" font-size=\"11\">B</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p><strong>7</strong>.</p>",
+    "s": "<p>Punkterna har samma x-koordinat. Avståndet är därför bara skillnaden i y-led:</p><p>\\(|5-(-2)|=7\\).</p><p><strong>Svar:</strong> 7.</p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -53135,7 +53200,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm avståndet mellan \\((0,0)\\) och \\((3,4)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p><strong>Svar:</strong> <strong>5</strong></p>",
+    "s": "<p>Skillnaderna i koordinater är 3 och 4:</p><p>\\(d=\\sqrt{3^2+4^2}=5\\).</p><p><strong>Svar:</strong> 5.</p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -53161,7 +53226,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm avståndet mellan \\(A=(1,1)\\) och \\(B=(5,4)\\).</p><span class=\"fig\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"48.0\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"92.8\" y1=\"22\" x2=\"92.8\" y2=\"288\" stroke=\"#E8E7EA\"/><line x1=\"137.5\" y1=\"22\" x2=\"137.5\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"137.5\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"182.2\" y1=\"22\" x2=\"182.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"182.2\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"227.0\" y1=\"22\" x2=\"227.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"227.0\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"271.8\" y1=\"22\" x2=\"271.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"271.8\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"316.5\" y1=\"22\" x2=\"316.5\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"316.5\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"361.2\" y1=\"22\" x2=\"361.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"361.2\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"406.0\" y1=\"22\" x2=\"406.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"406.0\" y=\"268.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"288.0\" x2=\"406\" y2=\"288.0\" stroke=\"#E8E7EA\"/><text x=\"84.8\" y=\"291.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48\" y1=\"250.0\" x2=\"406\" y2=\"250.0\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"212.0\" x2=\"406\" y2=\"212.0\" stroke=\"#E8E7EA\"/><text x=\"84.8\" y=\"215.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48\" y1=\"174.0\" x2=\"406\" y2=\"174.0\" stroke=\"#E8E7EA\"/><text x=\"84.8\" y=\"177.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48\" y1=\"136.0\" x2=\"406\" y2=\"136.0\" stroke=\"#E8E7EA\"/><text x=\"84.8\" y=\"139.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48\" y1=\"98.0\" x2=\"406\" y2=\"98.0\" stroke=\"#E8E7EA\"/><text x=\"84.8\" y=\"101.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48\" y1=\"60.0\" x2=\"406\" y2=\"60.0\" stroke=\"#E8E7EA\"/><text x=\"84.8\" y=\"63.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48\" y1=\"22.0\" x2=\"406\" y2=\"22.0\" stroke=\"#E8E7EA\"/><text x=\"84.8\" y=\"25.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48\" y1=\"250.0\" x2=\"406\" y2=\"250.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"92.8\" y1=\"288\" x2=\"92.8\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"137.5\" y1=\"212.0\" x2=\"316.5\" y2=\"98.0\" stroke=\"#315F91\" stroke-width=\"2.4\"/><circle cx=\"137.5\" cy=\"212.0\" r=\"4.2\" fill=\"#B43123\"/><text x=\"144.5\" y=\"205.0\" font-family=\"monospace\" font-size=\"11\">A</text><circle cx=\"316.5\" cy=\"98.0\" r=\"4.2\" fill=\"#B43123\"/><text x=\"323.5\" y=\"91.0\" font-family=\"monospace\" font-size=\"11\">B</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>Skillnaderna är 4 och 3. <strong>Avståndet är 5.</strong></p>",
+    "s": "<p>Skillnaderna är 4 och 3. <strong>Avståndet är 5.</strong></p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -53212,7 +53277,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x",
       "y"
-    ]
+    ],
+    "svarFormat": "punkt"
   },
   {
     "id": "4.91",
@@ -53260,7 +53326,7 @@ window.BANKMA1 = [
       "grader"
     ],
     "ledtrad": "<p>Läs först av spetsarnas koordinater. Längden av \\((3,3)\\) fås med Pythagoras och dess riktning mot x-axeln med tangens.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -53274,7 +53340,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En robot går 7 m österut och 2 m söderut. Skriv förflyttningen som en vektor.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p><strong>\\((7,-2)\\)</strong>.</p>",
+    "s": "<p>Öster ger positiv x-komponent och söder negativ y-komponent.</p><p><strong>Svar:</strong> \\((7,-2)\\).</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -53384,7 +53450,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "vektor"
   },
   {
     "id": "4.95",
@@ -53393,8 +53460,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En orienterare går enligt vektorerna \\((5,2)\\), \\((-1,4)\\) och \\((-6,-3)\\). Vilken fjärde vektor krävs för att komma tillbaka till start?</p>",
     "s": "<p>De tre första förflyttningarna summerar till \\((5,2)+(-1,4)+(-6,-3)=(-2,3)\\). För att komma tillbaka krävs motsatt vektor: \\((2,-3)\\).</p>",
     "familj": "Bestämma vektor från start- och slutpunkt",
@@ -53411,11 +53478,12 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "formaga": [
+      "procedur",
       "begrepp"
     ],
     "svarFormat": "vektor",
     "ledtrad": "<p>Summera först de tre givna vektorerna. Returvektorn är summans motsats.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
@@ -53524,7 +53592,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En förflyttning går 5 steg åt höger och 2 steg nedåt. Skriv förflyttningen som en vektor.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p><strong>Svar:</strong> <strong>\\((5,-2)\\)</strong></p>",
+    "s": "<p>Fem steg åt höger ger x-komponenten 5 och två steg nedåt ger y-komponenten −2.</p><p><strong>Svar:</strong> \\((5,-2)\\).</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -53559,10 +53627,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Figuren visar tre vektorer.</p><span class=\"fig\"><svg width=\"420\" height=\"330\" viewBox=\"0 0 420 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem med numrerat rutnät och vektorer\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"282.0\" x2=\"48.0\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><line x1=\"94.3\" y1=\"282.0\" x2=\"94.3\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"94.3\" y=\"300.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"140.6\" y1=\"282.0\" x2=\"140.6\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"140.6\" y=\"300.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"186.9\" y1=\"282.0\" x2=\"186.9\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"186.9\" y=\"300.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"233.1\" y1=\"282.0\" x2=\"233.1\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"233.1\" y=\"300.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"279.4\" y1=\"282.0\" x2=\"279.4\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"279.4\" y=\"300.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"325.7\" y1=\"282.0\" x2=\"325.7\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"325.7\" y=\"300.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"372.0\" y1=\"282.0\" x2=\"372.0\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"372.0\" y=\"300.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48.0\" y1=\"282.0\" x2=\"372.0\" y2=\"282.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><line x1=\"48.0\" y1=\"248.6\" x2=\"372.0\" y2=\"248.6\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"38.0\" y=\"252.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48.0\" y1=\"215.1\" x2=\"372.0\" y2=\"215.1\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"38.0\" y=\"219.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48.0\" y1=\"181.7\" x2=\"372.0\" y2=\"181.7\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"38.0\" y=\"185.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48.0\" y1=\"148.3\" x2=\"372.0\" y2=\"148.3\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"38.0\" y=\"152.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48.0\" y1=\"114.9\" x2=\"372.0\" y2=\"114.9\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"38.0\" y=\"118.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48.0\" y1=\"81.4\" x2=\"372.0\" y2=\"81.4\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"38.0\" y=\"85.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48.0\" y1=\"48.0\" x2=\"372.0\" y2=\"48.0\" stroke=\"#DFE6EC\" stroke-width=\"1\"/><text x=\"38.0\" y=\"52.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48.0\" y1=\"282.0\" x2=\"372.0\" y2=\"282.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48.0\" y1=\"282.0\" x2=\"48.0\" y2=\"48.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"40.0\" y=\"299.0\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"94.3\" y1=\"248.6\" x2=\"233.1\" y2=\"215.1\" stroke=\"#B43123\" stroke-width=\"3\"/><polygon points=\"233.1,215.1 225.9,222.0 223.6,212.3\" fill=\"#B43123\"/><text x=\"169.7\" y=\"224.9\" font-family=\"monospace\" font-size=\"12\">a</text><line x1=\"94.3\" y1=\"148.3\" x2=\"279.4\" y2=\"81.4\" stroke=\"#B43123\" stroke-width=\"3\"/><polygon points=\"279.4,81.4 273.0,89.1 269.6,79.7\" fill=\"#B43123\"/><text x=\"192.9\" y=\"107.9\" font-family=\"monospace\" font-size=\"12\">b</text><line x1=\"325.7\" y1=\"114.9\" x2=\"233.1\" y2=\"181.7\" stroke=\"#B43123\" stroke-width=\"3\"/><polygon points=\"233.1,181.7 237.2,172.6 243.1,180.7\" fill=\"#B43123\"/><text x=\"285.4\" y=\"141.3\" font-family=\"monospace\" font-size=\"12\">c</text></svg></span><p>a) Bestäm koordinaterna för \\(\\vec a\\).<br>b) Bestäm koordinaterna för \\(\\vec c\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p>a) \\(\\vec a=(3,1)\\).<br>b) \\(\\vec c=(-2,-2)\\).</p>",
+    "s": "<p>Läs från varje vektors startpunkt till spets.</p><p>a) \\(\\vec a=(3,1)\\).<br>b) \\(\\vec c=(-2,-2)\\).</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -53574,8 +53642,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "procedur"
     ],
     "svarsstruktur": "ordnad",
     "svarFormat": [
@@ -53602,7 +53670,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Läs varje vektors horisontella och vertikala förflyttning från svans till spets.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -53616,7 +53684,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Figuren visar vektorn \\(\\vec v\\). Skriv den i koordinatform.</p><span class=\"fig smal\"><svg width=\"360\" height=\"240\" viewBox=\"0 0 360 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"35\" y1=\"185\" x2=\"330\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"1.7\"/>\n<line x1=\"70\" y1=\"210\" x2=\"70\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"1.7\"/>\n<line x1=\"42\" y1=\"182\" x2=\"42\" y2=\"188\" stroke=\"#8A858E\"/>\n<line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"70\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">0</text>\n<line x1=\"98\" y1=\"182\" x2=\"98\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"98\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">1</text>\n<line x1=\"126\" y1=\"182\" x2=\"126\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"126\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">2</text>\n<line x1=\"154\" y1=\"182\" x2=\"154\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"154\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">3</text>\n<line x1=\"182\" y1=\"182\" x2=\"182\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"182\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">4</text>\n<line x1=\"210\" y1=\"182\" x2=\"210\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"210\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">5</text>\n<line x1=\"238\" y1=\"182\" x2=\"238\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"238\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">6</text>\n<line x1=\"266\" y1=\"182\" x2=\"266\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"266\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">7</text>\n<line x1=\"294\" y1=\"182\" x2=\"294\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"294\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">8</text>\n<line x1=\"67\" y1=\"185\" x2=\"73\" y2=\"185\" stroke=\"#8A858E\"/>\n<line x1=\"67\" y1=\"157\" x2=\"73\" y2=\"157\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"160\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">1</text>\n<line x1=\"67\" y1=\"129\" x2=\"73\" y2=\"129\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"132\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">2</text>\n<line x1=\"67\" y1=\"101\" x2=\"73\" y2=\"101\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"104\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">3</text>\n<line x1=\"67\" y1=\"73\" x2=\"73\" y2=\"73\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"76\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">4</text>\n<line x1=\"67\" y1=\"45\" x2=\"73\" y2=\"45\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"48\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">5</text>\n<line x1=\"70\" y1=\"185\" x2=\"182\" y2=\"101\" stroke=\"#B43123\" stroke-width=\"2.6\"/>\n<polygon points=\"182.0,101.0 174.7,113.0 168.5,104.6\" fill=\"#B43123\"/>\n<text x=\"123.2\" y=\"124.6\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">v</text>\n</svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p><strong>Svar:</strong> <strong>\\(\\vec v=(4,3)\\)</strong></p>",
+    "s": "<p>Från start till spets går vektorn 4 steg åt höger och 3 steg upp.</p><p><strong>Svar:</strong> \\(\\vec v=(4,3)\\).</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -53651,10 +53719,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>I figuren visas vektorerna \\(\\vec u\\), \\(\\vec v\\) och \\(\\vec w\\).</p><span class=\"fig\"><svg width=\"450\" height=\"320\" viewBox=\"0 0 450 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"vektorer i koordinatsystem med numrerat rutnät\"><rect x=\"1\" y=\"1\" width=\"448\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"50.0\" y1=\"25\" x2=\"50.0\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"50.0\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">-2</text><line x1=\"87.5\" y1=\"25\" x2=\"87.5\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"87.5\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">-1</text><line x1=\"125.0\" y1=\"25\" x2=\"125.0\" y2=\"275\" stroke=\"#E3E8ED\"/><line x1=\"162.5\" y1=\"25\" x2=\"162.5\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"162.5\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">1</text><line x1=\"200.0\" y1=\"25\" x2=\"200.0\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"200.0\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">2</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"237.5\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">3</text><line x1=\"275.0\" y1=\"25\" x2=\"275.0\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"275.0\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">4</text><line x1=\"312.5\" y1=\"25\" x2=\"312.5\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"312.5\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">5</text><line x1=\"350.0\" y1=\"25\" x2=\"350.0\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"350.0\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">6</text><line x1=\"387.5\" y1=\"25\" x2=\"387.5\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"387.5\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">7</text><line x1=\"425.0\" y1=\"25\" x2=\"425.0\" y2=\"275\" stroke=\"#E3E8ED\"/><text x=\"425.0\" y=\"222.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">8</text><line x1=\"50\" y1=\"275.0\" x2=\"425\" y2=\"275.0\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"278.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">-3</text><line x1=\"50\" y1=\"252.3\" x2=\"425\" y2=\"252.3\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"255.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">-2</text><line x1=\"50\" y1=\"229.5\" x2=\"425\" y2=\"229.5\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"232.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">-1</text><line x1=\"50\" y1=\"206.8\" x2=\"425\" y2=\"206.8\" stroke=\"#E3E8ED\"/><line x1=\"50\" y1=\"184.1\" x2=\"425\" y2=\"184.1\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"187.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">1</text><line x1=\"50\" y1=\"161.4\" x2=\"425\" y2=\"161.4\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"164.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">2</text><line x1=\"50\" y1=\"138.6\" x2=\"425\" y2=\"138.6\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"141.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">3</text><line x1=\"50\" y1=\"115.9\" x2=\"425\" y2=\"115.9\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"118.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">4</text><line x1=\"50\" y1=\"93.2\" x2=\"425\" y2=\"93.2\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"96.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">5</text><line x1=\"50\" y1=\"70.5\" x2=\"425\" y2=\"70.5\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"73.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">6</text><line x1=\"50\" y1=\"47.7\" x2=\"425\" y2=\"47.7\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"50.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">7</text><line x1=\"50\" y1=\"25.0\" x2=\"425\" y2=\"25.0\" stroke=\"#E3E8ED\"/><text x=\"118.0\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"8\">8</text><line x1=\"50\" y1=\"206.8\" x2=\"425\" y2=\"206.8\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"125.0\" y1=\"25\" x2=\"125.0\" y2=\"275\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"421\" y=\"198.8\" font-family=\"monospace\" font-size=\"10\">x</text><text x=\"132.0\" y=\"37\" font-family=\"monospace\" font-size=\"10\">y</text><line x1=\"125.0\" y1=\"206.8\" x2=\"237.5\" y2=\"161.4\" stroke=\"#B43123\" stroke-width=\"3\"/><polygon points=\"237.5,161.4 231.3,169.2 227.6,160.0\" fill=\"#B43123\"/><text x=\"187.2\" y=\"177.1\" font-family=\"monospace\" font-size=\"11\">u</text><line x1=\"312.5\" y1=\"184.1\" x2=\"200.0\" y2=\"93.2\" stroke=\"#315F91\" stroke-width=\"3\"/><polygon points=\"200.0,93.2 209.9,94.7 203.6,102.5\" fill=\"#315F91\"/><text x=\"262.2\" y=\"131.6\" font-family=\"monospace\" font-size=\"11\">v</text><line x1=\"162.5\" y1=\"70.5\" x2=\"312.5\" y2=\"70.5\" stroke=\"#377A48\" stroke-width=\"3\"/><polygon points=\"312.5,70.5 303.8,75.5 303.8,65.5\" fill=\"#377A48\"/><text x=\"243.5\" y=\"63.5\" font-family=\"monospace\" font-size=\"11\">w</text></svg></span><p>Bestäm deras koordinater.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p><strong>\\(\\vec u=(3,2)\\), \\(\\vec v=(-3,4)\\), \\(\\vec w=(4,0)\\)</strong>.</p>",
+    "s": "<p>Läs horisontell och vertikal förflyttning från svans till spets:</p><p>\\(\\vec u=(3,2)\\), \\(\\vec v=(-3,4)\\), \\(\\vec w=(4,0)\\).</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -53667,8 +53735,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "procedur"
     ],
     "svarEtiketter": [
       "u",
@@ -53682,8 +53750,8 @@ window.BANKMA1 = [
       "vektor"
     ],
     "ledtrad": "<p>Läs varje vektor från startpunkt till spets. Tecknet avgörs av om förflyttningen går höger/vänster respektive upp/ned.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -53696,7 +53764,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(\\overrightarrow{AB}\\) när \\(A=(-1,3)\\) och \\(B=(4,-1)\\).</p><span class=\"fig\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"48.0\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"83.8\" y1=\"22\" x2=\"83.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"83.8\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"119.6\" y1=\"22\" x2=\"119.6\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"155.4\" y1=\"22\" x2=\"155.4\" y2=\"288\" stroke=\"#E8E7EA\"/><line x1=\"191.2\" y1=\"22\" x2=\"191.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"191.2\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"227.0\" y1=\"22\" x2=\"227.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"227.0\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"262.8\" y1=\"22\" x2=\"262.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"262.8\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"298.6\" y1=\"22\" x2=\"298.6\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"298.6\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"334.4\" y1=\"22\" x2=\"334.4\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"334.4\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"370.2\" y1=\"22\" x2=\"370.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"370.2\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"406.0\" y1=\"22\" x2=\"406.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"406.0\" y=\"217.3\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"288.0\" x2=\"406\" y2=\"288.0\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"291.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"48\" y1=\"258.4\" x2=\"406\" y2=\"258.4\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"261.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"48\" y1=\"228.9\" x2=\"406\" y2=\"228.9\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48\" y1=\"199.3\" x2=\"406\" y2=\"199.3\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"169.8\" x2=\"406\" y2=\"169.8\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"172.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48\" y1=\"140.2\" x2=\"406\" y2=\"140.2\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"143.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48\" y1=\"110.7\" x2=\"406\" y2=\"110.7\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"113.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48\" y1=\"81.1\" x2=\"406\" y2=\"81.1\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"84.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48\" y1=\"51.6\" x2=\"406\" y2=\"51.6\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"54.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48\" y1=\"22.0\" x2=\"406\" y2=\"22.0\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"25.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48\" y1=\"199.3\" x2=\"406\" y2=\"199.3\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"155.4\" y1=\"288\" x2=\"155.4\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"119.6\" y1=\"110.7\" x2=\"298.6\" y2=\"228.9\" stroke=\"#B43123\" stroke-width=\"2.8\"/><polygon points=\"298.6,228.9 284.9,226.1 290.6,217.4\" fill=\"#B43123\"/><text x=\"217.1\" y=\"161.8\" font-family=\"monospace\" font-size=\"12\" fill=\"#B43123\">AB</text><circle cx=\"119.6\" cy=\"110.7\" r=\"4.2\" fill=\"#B43123\"/><text x=\"126.6\" y=\"103.7\" font-family=\"monospace\" font-size=\"11\">A</text><circle cx=\"298.6\" cy=\"228.9\" r=\"4.2\" fill=\"#B43123\"/><text x=\"305.6\" y=\"221.9\" font-family=\"monospace\" font-size=\"11\">B</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p><strong>\\((5,-4)\\)</strong>.</p>",
+    "s": "<p>\\(\\overrightarrow{AB}=B-A=(4-(-1),-1-3)=(5,-4)\\).</p><p><strong>Svar:</strong> \\((5,-4)\\).</p>",
     "familj": "Tolka och beskriva vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -53732,10 +53800,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "1/2/0",
     "t": "<p>En drönare flyger först enligt \\(\\vec u=(4,1)\\) och sedan enligt \\(\\vec v=(k,3)\\). Efter båda förflyttningarna är drönaren exakt 10 längdenheter från start och ligger till höger om startpunkten. Bestäm \\(k\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv vektorn i koordinatform och använd vektorreglerna på formelbladet. Arbeta med \\(x\\)-komponenten och \\(y\\)-komponenten var för sig.</p><p>Summavektorn är \\((4+k,4)\\), \\((4+k)^2+16=100\\), Eftersom x-komponenten ska vara positiv fås <strong>\\(k=\\sqrt{84}-4\\approx5,17\\)</strong>,</p>",
+    "s": "<p>Den sammanlagda förflyttningen är \\((4+k,4)\\). Längden ska vara 10, alltså</p><p>\\((4+k)^2+4^2=10^2\\Rightarrow(4+k)^2=84\\).</p><p>Därför är \\(4+k=\\pm\\sqrt{84}\\). Villkoret att drönaren ligger till höger om start betyder att x-komponenten \\(4+k\\) ska vara positiv.</p><p>\\(k=\\sqrt{84}-4\\approx5,17\\).</p><p><strong>Svar:</strong> \\(k\\approx5,17\\).</p>",
     "familj": "Bestämma vektor från start- och slutpunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -53744,12 +53812,12 @@ window.BANKMA1 = [
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "problemlösning",
+      "resonemang"
     ],
     "ledtrad": "<p>Summavektorn är \\((4+k,4)\\). Kravet på längden 10 ger en ekvation med två möjliga tecken; villkoret ”till höger” avgör vilket.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 1,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -53788,7 +53856,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "punkt"
   },
   {
     "id": "4.105",
@@ -53797,10 +53866,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>\\(\\vec u=(2,5)\\), \\(\\vec v=(-3,1)\\) och \\(\\vec w=2\\vec u-\\vec v\\).</p><p>Bestäm \\(\\vec w\\) och \\(|\\vec w|\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p>\\(\\vec w=(4,10)-(-3,1)=(7,9)\\).</p><p>\\(|\\vec w|=\\sqrt{49+81}=\\)<strong>\\(\\sqrt{130}\\approx11,4\\)</strong>.</p>",
+    "s": "<p>\\(\\vec w=(4,10)-(-3,1)=(7,9)\\).</p><p>\\(|\\vec w|=\\sqrt{49+81}=\\)<strong>\\(\\sqrt{130}\\approx11,4\\)</strong>.</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -53824,8 +53893,8 @@ window.BANKMA1 = [
       "uttryck"
     ],
     "ledtrad": "<p>Beräkna först \\(2\\vec u\\), sedan subtraktionen. Längden tas först när den färdiga vektorn är känd.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -53838,7 +53907,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Addera vektorerna \\(\\vec u=(4,-2)\\) och \\(\\vec v=(-1,5)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p><strong>\\(\\vec u+\\vec v=(3,3)\\)</strong>.</p>",
+    "s": "<p>Addera motsvarande komponenter:</p><p>\\((4,-2)+(-1,5)=(4-1,-2+5)=(3,3)\\).</p><p><strong>Svar:</strong> \\((3,3)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -53883,16 +53952,16 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1,
-      1,
-      "17/13",
-      "7/13"
+      [
+        "(1,1)",
+        "(17/13,7/13)"
+      ]
     ],
     "tolerans": [
-      0,
-      0,
-      null,
-      null
+      [
+        null,
+        null
+      ]
     ],
     "självrättning": true,
     "formaga": [
@@ -53910,6 +53979,12 @@ window.BANKMA1 = [
       "b₁",
       "a₂",
       "b₂"
+    ],
+    "svarFormat": [
+      [
+        "punkt",
+        "punkt"
+      ]
     ]
   },
   {
@@ -53922,7 +53997,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>\\(\\vec u=(3,5)\\) och \\(\\vec v=(2,-1)\\). Bestäm</p><p>a) \\(\\vec u+\\vec v\\)<br>b) \\(\\vec u-\\vec v\\)<br>c) \\(\\vec v-\\vec u\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p>a) <strong>\\((5,4)\\)</strong><br>b) <strong>\\((1,6)\\)</strong><br>c) <strong>\\((-1,-6)\\)</strong></p>",
+    "s": "<p>a) <strong>\\((5,4)\\)</strong><br>b) <strong>\\((1,6)\\)</strong><br>c) <strong>\\((-1,-6)\\)</strong></p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -53982,10 +54057,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>\\(\\vec u=(3,2)\\), \\(\\vec v=(-1,4)\\) och \\(\\vec w=\\vec u+\\vec v\\).</p><p>a) Skriv \\(\\vec w\\) i koordinatform.<br>b) Bestäm \\(|\\vec w|\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p>a) \\(\\vec w=(2,6)\\).</p><p>b) \\(|\\vec w|=\\sqrt{2^2+6^2}=\\)<strong>\\(2\\sqrt{10}\\)</strong>.</p>",
+    "s": "<p>a) \\(\\vec w=(2,6)\\).</p><p>b) \\(|\\vec w|=\\sqrt{2^2+6^2}=\\)<strong>\\(2\\sqrt{10}\\)</strong>.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -54025,7 +54100,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Bestäm summavektorn innan du beräknar dess längd.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -54112,8 +54187,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Vektorn \\(\\vec v=(a,6)\\) är en positiv skalär multipel av \\((4,3)\\) och har absolutbelopp 10.</p>\n<p>Bestäm \\(a\\) och skalärfaktorn.</p>",
     "s": "<p><strong>Steg 1:</strong> Om \\(\\vec v=k(4,3)\\) ger y-komponenten \\(3k=6\\Rightarrow k=2\\).</p>\n<p>Då \\(a=4k=8\\). Kontroll: \\(\\sqrt{8^2+6^2}=10\\).</p>\n<p><strong>Svar:</strong> <strong>\\(a=8\\), \\(k=2\\).</strong></p>",
     "familj": "Skalärmultiplikation av vektorer",
@@ -54136,7 +54211,7 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Positiv parallellitet med \\((4,3)\\) betyder \\((a,6)=k(4,3)\\). Börja med y-komponenten.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -54150,7 +54225,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(\\vec u=(-2,5)\\). Bestäm \\(-3\\vec u\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p><strong>\\((6,-15)\\)</strong>.</p>",
+    "s": "<p>Multiplicera varje komponent med −3:</p><p>\\(-3(-2,5)=(6,-15)\\).</p><p><strong>Svar:</strong> \\((6,-15)\\).</p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -54185,8 +54260,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Vektorerna är \\(\\vec u=(4,-2)\\) och \\(\\vec v=(-1,3)\\).</p><p>a) Bestäm \\(2\\vec u\\).<br>b) Bestäm \\(2\\vec u+3\\vec v\\).<br>c) Bestäm talet \\(k\\) så att \\(k\\vec u=(10,-5)\\).</p>",
     "s": "<p>a) <strong>\\((8,-4)\\)</strong></p><p>b) \\(3\\vec v=(-3,9)\\), alltså \\((8-3,\\ -4+9)=\\)<strong>\\((5,5)\\)</strong></p><p>c) Från x-koordinaten: \\(4k=10\\Rightarrow k=2{,}5\\). Kontroll med y-koordinaten: \\(2{,}5\\cdot(-2)=-5\\) ✓. Alltså <strong>\\(k=2{,}5\\)</strong></p>",
     "familj": "Skalärmultiplikation av vektorer",
@@ -54238,7 +54313,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>I c räcker det att jämföra en komponent för att hitta k, men kontrollera sedan den andra.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -54252,7 +54327,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En gångväg stiger 1,4 m på 9,0 m horisontellt. Bestäm lutningsvinkeln.</p><span class=\"fig smal\"><svg width=\"430\" height=\"136\" viewBox=\"0 0 430 136\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rätvinklig triangel med utsatta mått\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"134\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><polygon points=\"46.0,90.5 332.0,90.5 332.0,46.0\" fill=\"#F7F5F3\" stroke=\"#315F91\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"319.0,90.5 319.0,77.5 332.0,77.5\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"189.0\" y=\"111.5\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">9,0 m</text><text x=\"342.0\" y=\"73.2\" font-family=\"sans-serif\" font-size=\"13\">1,4 m</text><path d=\"M 72.0 90.5 A 26 26 0 0 0 71.7 86.5\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"79.0\" y=\"69.7\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">v</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p>\\(\\tan v=\\frac{1,4}{9,0}\\),</p><p><strong>Svar:</strong> <strong>\\(v\\approx8,8^\\circ\\)</strong></p>",
+    "s": "<p>1,4 m är höjdskillnaden och 9,0 m den horisontella sträckan:</p><p>\\(\\tan v=1,4/9,0\\Rightarrow v=\\tan^{-1}(1,4/9,0)\\approx8,8^\\circ\\).</p><p><strong>Svar:</strong> cirka \\(8,8^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -54263,8 +54338,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Jämför höjdökningen 1,4 m med den horisontella sträckan 9,0 m. Den kvoten är \\(\\tan v\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -54290,7 +54365,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Identifiera först motstående = 6, närliggande = 8 och hypotenusa = 10. Varje korrekt uttryck måste både ha rätt kvot och en invers trigonometrisk funktion.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "alternativ": [
@@ -54336,7 +54411,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>I en rätvinklig triangel är motstående katet 7 cm och närliggande katet 11 cm. Bestäm vinkeln mellan den närliggande kateten och hypotenusan.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p>\\(v=\\tan^{-1}(\\frac{7}{11})\\approx\\)<strong>32,5°</strong>.</p>",
+    "s": "<p>För vinkeln mellan den närliggande kateten och hypotenusan gäller \\(\\tan v=7/11\\).</p><p>\\(v=\\tan^{-1}(7/11)\\approx32,5^\\circ\\).</p><p><strong>Svar:</strong> \\(32,5^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -54347,7 +54422,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p>",
+    "ledtrad": "<p>För den sökta vinkeln är 7 cm motstående och 11 cm närliggande katet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -54363,7 +54438,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En skärm är 48 cm bred och 27 cm hög. Hur lång är diagonalen? Avrunda till en decimal.</p><span class=\"fig\"><svg width=\"380\" height=\"235\" viewBox=\"0 0 380 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rektangel med diagonal\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"65\" y=\"55\" width=\"235\" height=\"125\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"65\" y1=\"180\" x2=\"300\" y2=\"55\" stroke=\"#B43123\" stroke-width=\"2.5\"/><text x=\"182\" y=\"202\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">48 cm</text><text x=\"315\" y=\"120\" font-family=\"monospace\" font-size=\"12\">27 cm</text><text x=\"173\" y=\"108\" font-family=\"monospace\" font-size=\"12\" fill=\"#B43123\">d</text></svg></span>",
-    "s": "<p><strong>Val av metod:</strong> Sidan mittemot den räta vinkeln är hypotenusan. När båda kateterna är kända används \\(c^2=a^2+b^2\\); till sist tas den positiva kvadratroten.</p><p><strong>Steg 1:</strong> \\[d^2=48^2+27^2=3033\\]</p><p>\\[d=\\sqrt{3033}\\approx55{,}1\\]</p><p><strong>Svar: diagonalen är cirka 55,1 cm.</strong></p>",
+    "s": "<p>Skärmens bredd och höjd är kateter i en rätvinklig triangel. Diagonalen är hypotenusan:</p><p>\\(d=\\sqrt{48^2+27^2}=\\sqrt{3033}\\approx55,1\\) cm.</p><p><strong>Svar:</strong> cirka 55,1 cm.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
@@ -54417,7 +54492,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangel är 9 m lång och 12 m bred. Hur lång är diagonalen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p><p><strong>Svar:</strong> <strong>15 m</strong></p>",
+    "s": "<p>Rektangelns sidor är kateter i en rätvinklig triangel:</p><p>\\(d=\\sqrt{9^2+12^2}=\\sqrt{225}=15\\) m.</p><p><strong>Svar:</strong> 15 m.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -54428,8 +54503,8 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Rektangelns sidor 9 m och 12 m är kateter och diagonalen är hypotenusan.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -54443,7 +54518,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En liksidig triangel har sidan 6. En höjd dras från ett hörn till motstående sida. Bestäm \\(\\cos60^\\circ\\) exakt med hjälp av den rätvinkliga triangel som bildas.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>Höjden delar basen i två lika delar, alltså blir den närliggande kateten 3 och hypotenusan 6.</p><p>\\(\\cos60^\\circ=\\frac{3}{6}=\\)<strong>\\(\\frac{1}{2}\\)</strong>.</p>",
+    "s": "<p>Höjden delar basen i två lika delar, alltså blir den närliggande kateten 3 och hypotenusan 6.</p><p>\\(\\cos60^\\circ=\\frac{3}{6}=\\)<strong>\\(\\frac{1}{2}\\)</strong>.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": false,
@@ -54456,7 +54531,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Höjden delar basen 6 i två lika delar. Vilka blir närliggande katet och hypotenusa till 60°?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -54467,8 +54542,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Bestäm för triangeln. Svara exakt i bråkform.</p><p>a) \\(\\tan v\\)<br>b) \\(\\sin v\\)<br>c) \\(\\cos u\\)</p><span class=\"fig smal\"><svg width=\"430\" height=\"262\" viewBox=\"0 0 430 262\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rätvinklig triangel med utsatta mått\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><polygon points=\"46.0,216.0 272.7,216.0 272.7,46.0\" fill=\"#F7F5F3\" stroke=\"#315F91\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><polyline points=\"259.7,216.0 259.7,203.0 272.7,203.0\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"159.3\" y=\"237.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">8,0 cm</text><text x=\"282.7\" y=\"136.0\" font-family=\"sans-serif\" font-size=\"13\">6,0 cm</text><text x=\"135.5\" y=\"114.6\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">10,0 cm</text><path d=\"M 72.0 216.0 A 26 26 0 0 0 66.8 200.4\" fill=\"none\" stroke=\"#50494B\" stroke-width=\"1.6\"/><text x=\"81.0\" y=\"208.0\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">v</text><text x=\"222.9\" y=\"61.6\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">u</text></svg></span>",
     "s": "<p><strong>Steg 1:</strong> Sett från \\(v\\): motstående katet 6,0, närliggande katet 8,0 och hypotenusa 10,0.</p><p>a) \\(\\tan v=\\frac{6{,}0}{8{,}0}=\\)<strong>\\(\\frac34\\)</strong></p><p>b) \\(\\sin v=\\frac{6{,}0}{10{,}0}=\\)<strong>\\(\\frac35\\)</strong></p><p>c) Sett från \\(u\\) är 6,0 den <em>närliggande</em> kateten, alltså \\(\\cos u=\\frac{6{,}0}{10{,}0}=\\)<strong>\\(\\frac35\\)</strong>.<br>Att \\(\\sin v=\\cos u\\) är ingen slump: \\(u\\) och \\(v\\) är varandras komplementvinklar</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
@@ -54514,7 +54589,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Relativt \\(v\\) är 6 motstående och 8 närliggande. Relativt \\(u\\) byter kateterna roller.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -54549,7 +54624,7 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>En horisontell vektor har y-komponenten 0. Sätt därför den färdiga y-komponenten lika med noll först.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
@@ -54569,7 +54644,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>\\(\\vec u=(4,-3)\\) och \\(\\vec v=(-1,5)\\). Bestäm \\(\\vec u+\\vec v\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p><strong>\\((3,2)\\)</strong>.</p>",
+    "s": "<p>Addera komponentvis:</p><p>\\((4,-3)+(-1,5)=(3,2)\\).</p><p><strong>Svar:</strong> \\((3,2)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -54594,7 +54669,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "vektor"
   },
   {
     "id": "4.125",
@@ -54658,8 +54734,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Vektorerna är \\(\\vec u=(-2,1)\\) och \\(\\vec v=(2,-3)\\).</p><p>a) Bestäm \\(\\vec u+\\vec v\\).<br>b) Bestäm \\(3\\vec u\\).<br>c) Bestäm \\(3\\vec u-2\\vec v\\).</p>",
     "s": "<p>a) \\((-2+2,\\ 1+(-3))=\\)<strong>\\((0,-2)\\)</strong></p><p>b) \\(3\\cdot(-2,1)=\\)<strong>\\((-6,3)\\)</strong></p><p>c) \\(2\\vec v=(4,-6)\\), alltså \\(3\\vec u-2\\vec v=(-6-4,\\ 3-(-6))=\\)<strong>\\((-10,9)\\)</strong></p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
@@ -54711,7 +54787,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Skalarmultiplicera innan du adderar eller subtraherar komponentvis.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -54742,7 +54818,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": [
       "numeriskt",
-      "punkt"
+      "vektor"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -54750,7 +54826,7 @@ window.BANKMA1 = [
       "resulterande vektor"
     ],
     "ledtrad": "<p>Parallell med x-axeln betyder y-komponent 0. Sätt \\(-2+2t=0\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -54764,7 +54840,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm summavektorn till vektorerna \\((0,5)\\), \\((6,0)\\) och \\((0,-3)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p>\\((0,5)+(6,0)+(0,-3)=\\)<strong>\\((6,2)\\)</strong>.</p>",
+    "s": "<p>Summera x- och y-komponenterna var för sig:</p><p>\\((0,5)+(6,0)+(0,-3)=(6,2)\\).</p><p><strong>Svar:</strong> \\((6,2)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -54790,7 +54866,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "vektor"
   },
   {
     "id": "4.129",
@@ -54843,7 +54920,11 @@ window.BANKMA1 = [
     "ledtrad": "<p>Den fjärde vektorn måste vara motsatsen till summan av de tre första. I b summeras <em>längderna</em> av de fyra förflyttningarna, inte komponenterna.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "vektor",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.130",
@@ -54855,7 +54936,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar \\(\\vec u=(2,4)\\) och \\(\\vec v=(4,1)\\). Bestäm \\(\\vec u+\\vec v\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"240\" viewBox=\"0 0 360 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"35\" y1=\"185\" x2=\"330\" y2=\"185\" stroke=\"#2B2527\" stroke-width=\"1.7\"/>\n<line x1=\"70\" y1=\"210\" x2=\"70\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"1.7\"/>\n<line x1=\"42\" y1=\"182\" x2=\"42\" y2=\"188\" stroke=\"#8A858E\"/>\n<line x1=\"70\" y1=\"182\" x2=\"70\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"70\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">0</text>\n<line x1=\"98\" y1=\"182\" x2=\"98\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"98\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">1</text>\n<line x1=\"126\" y1=\"182\" x2=\"126\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"126\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">2</text>\n<line x1=\"154\" y1=\"182\" x2=\"154\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"154\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">3</text>\n<line x1=\"182\" y1=\"182\" x2=\"182\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"182\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">4</text>\n<line x1=\"210\" y1=\"182\" x2=\"210\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"210\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">5</text>\n<line x1=\"238\" y1=\"182\" x2=\"238\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"238\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">6</text>\n<line x1=\"266\" y1=\"182\" x2=\"266\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"266\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">7</text>\n<line x1=\"294\" y1=\"182\" x2=\"294\" y2=\"188\" stroke=\"#8A858E\"/>\n<text x=\"294\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">8</text>\n<line x1=\"67\" y1=\"185\" x2=\"73\" y2=\"185\" stroke=\"#8A858E\"/>\n<line x1=\"67\" y1=\"157\" x2=\"73\" y2=\"157\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"160\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">1</text>\n<line x1=\"67\" y1=\"129\" x2=\"73\" y2=\"129\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"132\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">2</text>\n<line x1=\"67\" y1=\"101\" x2=\"73\" y2=\"101\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"104\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">3</text>\n<line x1=\"67\" y1=\"73\" x2=\"73\" y2=\"73\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"76\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">4</text>\n<line x1=\"67\" y1=\"45\" x2=\"73\" y2=\"45\" stroke=\"#8A858E\"/>\n<text x=\"62\" y=\"48\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\" fill=\"#5C575E\">5</text>\n<line x1=\"70\" y1=\"185\" x2=\"182\" y2=\"157\" stroke=\"#B43123\" stroke-width=\"2.6\"/>\n<polygon points=\"182.0,157.0 170.6,165.2 168.1,155.1\" fill=\"#B43123\"/>\n<text x=\"131.0\" y=\"163.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">v</text>\n<line x1=\"70\" y1=\"185\" x2=\"126\" y2=\"73\" stroke=\"#2A5D9E\" stroke-width=\"2.6\"/>\n<polygon points=\"126.0,73.0 124.8,87.0 115.5,82.3\" fill=\"#2A5D9E\"/>\n<text x=\"114.6\" y=\"116.8\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2A5D9E\">u</text>\n</svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p><strong>Svar:</strong> <strong>\\((6,5)\\)</strong></p>",
+    "s": "<p>\\((2,4)+(4,1)=(6,5)\\).</p><p><strong>Svar:</strong> \\((6,5)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -54880,7 +54961,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "vektor"
   },
   {
     "id": "4.131",
@@ -55000,7 +55082,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm absolutbeloppet av vektorn \\((6,8)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p>\\(\\sqrt{6^2+8^2}=\\sqrt{100}=\\)<strong>10</strong></p>",
+    "s": "<p>\\(|(6,8)|=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\).</p><p><strong>Svar:</strong> 10.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -55062,7 +55144,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm absolutbeloppet av:</p><p>a) \\((3,4)\\)<br>b) \\((-8,6)\\)<br>c) \\((0,-7)\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p>a) <strong>5</strong><br>b) <strong>10</strong><br>c) <strong>7</strong>.</p>",
+    "s": "<p>Använd \\(|(x,y)|=\\sqrt{x^2+y^2}\\) på varje vektor.</p><p>a) \\(\\sqrt{3^2+4^2}=5\\)<br>b) \\(\\sqrt{(-8)^2+6^2}=10\\)<br>c) \\(\\sqrt{0^2+(-7)^2}=7\\)</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -55106,8 +55188,8 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Beräkna \\(\\sqrt{x^2+y^2}\\) för var och en av de tre vektorerna.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -55173,7 +55255,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En vektor är \\((-5,12)\\). Bestäm dess absolutbelopp.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p>\\(\\sqrt{25+144}=\\)<strong>13</strong></p>",
+    "s": "<p>\\(|(-5,12)|=\\sqrt{(-5)^2+12^2}=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> 13.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -55219,7 +55301,7 @@ window.BANKMA1 = [
     "antalSvar": 2,
     "svarsstruktur": "mängd",
     "ledtrad": "<p>Kvadrera längdvillkoret: \\(a^2+(a+1)^2=85\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEtiketter": [
@@ -55237,7 +55319,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Figuren visar \\(\\vec v=(4,3)\\). Bestäm \\(|\\vec v|\\).</p><span class=\"fig\"><svg width=\"390\" height=\"290\" viewBox=\"0 0 390 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"vektorn fyra tre i koordinatsystem med rutnät\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40\" y1=\"30\" x2=\"40\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"65\" y1=\"30\" x2=\"65\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"90\" y1=\"30\" x2=\"90\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"115\" y1=\"30\" x2=\"115\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"140\" y1=\"30\" x2=\"140\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"165\" y1=\"30\" x2=\"165\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"190\" y1=\"30\" x2=\"190\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"215\" y1=\"30\" x2=\"215\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"240\" y1=\"30\" x2=\"240\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"265\" y1=\"30\" x2=\"265\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"290\" y1=\"30\" x2=\"290\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"315\" y1=\"30\" x2=\"315\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"340\" y1=\"30\" x2=\"340\" y2=\"245\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"255\" x2=\"360\" y2=\"255\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"230\" x2=\"360\" y2=\"230\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"205\" x2=\"360\" y2=\"205\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"180\" x2=\"360\" y2=\"180\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"155\" x2=\"360\" y2=\"155\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"130\" x2=\"360\" y2=\"130\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"105\" x2=\"360\" y2=\"105\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"80\" x2=\"360\" y2=\"80\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#E8E7EA\"/><line x1=\"35\" y1=\"230\" x2=\"360\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"165\" y1=\"35\" x2=\"165\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"165\" y1=\"230\" x2=\"265\" y2=\"155\" stroke=\"#B43123\" stroke-width=\"3\"/><polygon points=\"265,155 260.7,165.1 254.1,156.3\" fill=\"#B43123\"/><text x=\"223.0\" y=\"184.5\" font-family=\"monospace\" font-size=\"12\">v=(4,3)</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> När \\(\\vec v=(4,3)\\) kan vektorn ses som hypotenusan i en rätvinklig triangel med kateterna 4 och 3. Använd formelbladets formel för vektorns absolutbelopp eller Pythagoras sats.</p><span class=\"fig\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 360 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Vektor med komponenterna 4 och 3, samt en hjälptriangel\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"70\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"#777\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"170\" x2=\"70\" y2=\"40\" stroke=\"#777\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"170\" x2=\"230\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"230\" y1=\"170\" x2=\"230\" y2=\"80\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-dasharray=\"5 4\"/><line x1=\"70\" y1=\"170\" x2=\"230\" y2=\"80\" stroke=\"#2B6CB0\" stroke-width=\"4\"/><polygon points=\"230,80 222,83 226,89\" fill=\"#2B6CB0\"/><rect x=\"214\" y=\"154\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"#777\" stroke-width=\"1.5\"/><text x=\"150\" y=\"190\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">4</text><text x=\"245\" y=\"129\" font-family=\"monospace\" font-size=\"13\">3</text><text x=\"158\" y=\"112\" font-family=\"monospace\" font-size=\"13\" fill=\"#2B6CB0\">|v|</text><text x=\"234\" y=\"74\" font-family=\"monospace\" font-size=\"13\">(4,3)</text></svg></span><p>\\[|\\vec v|=\\sqrt{4^2+3^2}=\\sqrt{16+9}=\\sqrt{25}=5\\]</p><p><strong>Svar: \\(|\\vec v|=5\\).</strong></p>",
+    "s": "<p>Vektorn \\((4,3)\\) har längden</p><p>\\(|\\vec v|=\\sqrt{4^2+3^2}=\\sqrt{25}=5\\).</p><p><strong>Svar:</strong> \\(|\\vec v|=5\\).</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -55249,7 +55331,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Vektorns komponenter är kateter. Längden är \\(\\sqrt{x^2+y^2}\\).</p>",
+    "ledtrad": "<p>Komponenterna 4 och 3 kan ses som kateter i en rätvinklig triangel.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -55292,7 +55374,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm absolutbeloppet av \\((-7,-24)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p><strong>25</strong>.</p>",
+    "s": "<p>\\(|(-7,-24)|=\\sqrt{(-7)^2+(-24)^2}=\\sqrt{625}=25\\).</p><p><strong>Svar:</strong> 25.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -55370,7 +55452,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>\\(\\vec v=(3,-4)\\). Bestäm:</p><p>a) \\(2\\vec v\\)<br>b) \\(-\\vec v\\)<br>c) \\(\\frac12\\vec v\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p>a) <strong>\\((6,-8)\\)</strong><br>b) <strong>\\((-3,4)\\)</strong><br>c) <strong>\\((\\frac32,-2)\\)</strong>.</p>",
+    "s": "<p>Multiplicera båda komponenterna med skalären i varje del.</p><p>a) \\(2(3,-4)=(6,-8)\\)<br>b) \\(-(3,-4)=(-3,4)\\)<br>c) \\(\\frac12(3,-4)=(\\frac32,-2)\\)</p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -55418,8 +55500,8 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Multiplicera båda komponenterna med 2, −1 respektive \\(1/2\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -55453,7 +55535,7 @@ window.BANKMA1 = [
       "b) a"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
+    "ledtrad": "<p>I a jämför du samma komponent i \\(\\vec u\\) och \\(\\vec v\\). I b ska \\(\\vec w\\) ha samma riktning som \\(\\vec u\\), eftersom \\(\\vec v\\) pekar åt motsatt håll.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
@@ -55468,7 +55550,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(a=(8,6)\\). Bestäm \\(0,25a\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p><strong>\\((2,\\frac32)\\)</strong>.</p>",
+    "s": "<p>Eftersom \\(0,25=1/4\\) tas en fjärdedel av varje komponent:</p><p>\\(0,25(8,6)=(2,\\frac32)\\).</p><p><strong>Svar:</strong> \\((2,\\frac32)\\).</p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -55582,8 +55664,8 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Multiplicera båda komponenterna med 4, −2 respektive \\(1/2\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -55650,7 +55732,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>\\(\\vec u=(2,-3)\\). Från punkten \\(A=(5,1)\\) görs en förflyttning som är motsatt riktad mot \\(\\vec u\\) och har tre gånger så stort absolutbelopp.</p>\n<p>a) Bestäm vektor som beskriver förflyttningenn.<br>b) Bestäm slutpunkten \\(B\\).<br>c) Bestäm avståndet \\(AB\\).</p>",
+    "t": "<p>\\(\\vec u=(2,-3)\\). Från punkten \\(A=(5,1)\\) görs en förflyttning som är motsatt riktad mot \\(\\vec u\\) och har tre gånger så stort absolutbelopp.</p>\n<p>a) Bestäm vektor som beskriver förflyttningen.<br>b) Bestäm slutpunkten \\(B\\).<br>c) Bestäm avståndet \\(AB\\).</p>",
     "s": "<p><strong>Steg 1:</strong> Förflyttningen är \\(-3\\vec u=(-6,9)\\).</p>\n<p>\\(B=(5,1)+(-6,9)=(-1,10)\\).</p>\n<p>Avståndet är \\(|-3\\vec u|=3|\\vec u|=3\\sqrt{13}\\).</p>\n<p><strong>Svar:</strong> <strong>Förflyttning \\((-6,9)\\), \\(B=(-1,10)\\), \\(AB=3\\sqrt{13}\\).</strong></p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
@@ -55680,6 +55762,11 @@ window.BANKMA1 = [
       "a) förflyttning",
       "b) B",
       "c) AB"
+    ],
+    "svarFormat": [
+      "vektor",
+      "punkt",
+      "uttryck"
     ]
   },
   {
@@ -55692,7 +55779,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>\\(\\vec v=(2,-3)\\). Bestäm \\(4\\vec v\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p><strong>Svar:</strong> <strong>\\((8,-12)\\)</strong></p>",
+    "s": "<p>\\(4(2,-3)=(8,-12)\\).</p><p><strong>Svar:</strong> \\((8,-12)\\).</p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -55770,7 +55857,7 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Välj tre konkreta vektorer och addera komponentvis. Räkna först \\((\u000bec u+\u000bec v)+\u000bec w\\) och sedan \\(\u000bec u+(\u000bec v+\u000bec w)\\) med samma tre vektorer.</p>",
+    "ledtrad": "<p>Välj tre konkreta vektorer och addera komponentvis. Räkna först \\((\\vec u+\\vec v)+\\vec w\\) och sedan \\(\\vec u+(\\vec v+\\vec w)\\) med samma tre vektorer.</p>",
     "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false
@@ -55785,7 +55872,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm den saknade vektorn.</p><p>a) \\((2,3)+\\vec x=(7,1)\\)<br>b) \\(\\vec x+(-4,2)=(1,9)\\)<br>c) \\((5,-2)-\\vec x=(3,4)\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p>a) <strong>\\((5,-2)\\)</strong><br>b) <strong>\\((5,7)\\)</strong><br>c) <strong>\\((2,-6)\\)</strong></p>",
+    "s": "<p>Lös varje vektorekvation komponentvis.</p><p>a) \\(\\vec x=(7,1)-(2,3)=(5,-2)\\)<br>b) \\(\\vec x=(1,9)-(-4,2)=(5,7)\\)<br>c) \\(\\vec x=(5,-2)-(3,4)=(2,-6)\\)</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -55834,7 +55921,7 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p>",
+    "ledtrad": "<p>Isolera \\(\\vec x\\) i varje vektorekvation på samma sätt som i en vanlig ekvation.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -55885,8 +55972,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Bestäm vektorernas absolutbelopp. Svara exakt.</p><p>a) \\((9,12)\\)<br>b) \\((-8,15)\\)<br>c) \\((-2,1)\\)</p>",
     "s": "<p><strong>Steg 1:</strong> Absolutbeloppet ges av \\(|\\vec v|=\\sqrt{x^2+y^2}\\).</p><p>a) \\(\\sqrt{81+144}=\\sqrt{225}=\\)<strong>15</strong></p><p>b) \\(\\sqrt{64+225}=\\sqrt{289}=\\)<strong>17</strong></p><p>c) \\(\\sqrt{4+1}=\\)<strong>\\(\\sqrt5\\)</strong></p>",
     "familj": "Beräkna en vektors längd",
@@ -55932,8 +56019,8 @@ window.BANKMA1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna \\(\\sqrt{x^2+y^2}\\) för varje vektor. Var noga med att även negativa komponenter kvadreras.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -55947,7 +56034,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkten \\(A=(2,1)\\). Punkten \\(B=(x,1)\\) ligger till höger om A och avståndet AB är 6. Bestäm \\(x\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>\\(x-2=6\\). <strong>\\(x=8\\)</strong>.</p>",
+    "s": "<p>\\(x-2=6\\). <strong>\\(x=8\\)</strong>.</p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -56036,8 +56123,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>I en rätvinklig triangel är den ena spetsiga vinkeln \\(v\\). Det gäller att \\(\\sin v=2\\cos v\\).</p><p>Bestäm \\(\\sin v\\) exakt utan att först bestämma vinkeln.</p>",
     "s": "<p><strong>Steg 1:</strong> Dividera med \\(\\cos v\\): \\(\\tan v=2\\). Välj kateterförhållandet motstående:närliggande = 2:1. Hypotenusan blir \\(\\sqrt5\\).</p><p><strong>\\(\\sin v=2/\\sqrt5=2\\sqrt5/5\\)</strong>.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
@@ -56052,7 +56139,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Dividera relationen med \\(\\cos v\\). Då får du ett katetförhållande utan att behöva bestämma vinkeln.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -56093,7 +56180,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>\\(\\vec a=(-4,2)\\) och \\(\\vec b=(1,6)\\). Bestäm</p><p>a) \\(\\vec a+\\vec b\\)<br>b) \\(\\vec a-\\vec b\\)<br>c) \\(-\\vec a\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p>a) <strong>\\((-3,8)\\)</strong><br>b) <strong>\\((-5,-4)\\)</strong><br>c) <strong>\\((4,-2)\\)</strong></p>",
+    "s": "<p>Beräkna komponentvis:</p><p>a) \\((-4,2)+(1,6)=(-3,8)\\)<br>b) \\((-4,2)-(1,6)=(-5,-4)\\)<br>c) \\(-(-4,2)=(4,-2)\\)</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -56141,7 +56228,7 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p>",
+    "ledtrad": "<p>Beräkna en del i taget. Vid subtraktion ska båda komponenterna i den andra vektorn subtraheras.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -56175,7 +56262,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "vektor",
     "ledtrad": "<p>Beräkna först \\(3\\vec u\\) och isolera sedan \\(-2\\vec v\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarsstruktur": "ordnad",
@@ -56187,7 +56274,7 @@ window.BANKMA1 = [
   {
     "id": "4.165",
     "kap": 4,
-    "omr": "arcusfunktioner",
+    "omr": "pythagoras",
     "kurs": [
       "1c"
     ],
@@ -56195,7 +56282,7 @@ window.BANKMA1 = [
     "poang": "0/3/0",
     "t": "<p>En garderob är 232 cm hög och 60 cm djup. Takhöjden är 240 cm. Garderoben monteras liggande och ska vinklas upp. Bestäm garderobens diagonal och avgör om uppresningen är geometriskt möjlig utan att ta i taket. Svara diagonalen med en decimal.</p>",
     "s": "<p>Den största höjd som ett hörn behöver nå under uppresningen motsvarar garderobens diagonal:</p><p>\\(d=\\sqrt{232^2+60^2}\\approx239,6\\) cm.</p><p>Eftersom 239,6 cm är mindre än takhöjden 240 cm är uppresningen geometriskt möjlig, med mycket liten marginal.</p>",
-    "familj": "Bestämma vinklar med invers trigonometri",
+    "familj": "Pythagoras sats i praktiska problem",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
@@ -56212,7 +56299,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Under vridningen är det garderobens diagonal som avgör den största höjden.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "svarsstruktur": "ordnad",
@@ -56231,7 +56318,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Varje steg i en rak trappa är 29 cm djupt och 17 cm högt. Bestäm trappans vinkel mot horisontalplanet.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\tan v=\\frac{17}{29}\\Rightarrow v\\approx\\)<strong>30,4°</strong>.</p>",
+    "s": "<p>\\(\\tan v=\\frac{17}{29}\\Rightarrow v\\approx\\)<strong>30,4°</strong>.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -56258,7 +56345,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Från en punkt på marken ser man toppen av ett torn med elevationsvinkeln 28°. Man går 30 m närmare tornet och vinkeln blir 41°. Bestäm a) avståndet från den närmare punkten till tornets fot och b) tornets höjd. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>Låt avståndet efter förflyttningen vara \\(x\\). Då \\(h=x\\tan41^\\circ=(x+30)\\tan28^\\circ\\).</p><p>\\(x\\approx47,2\\) m och <strong>\\(h\\approx41,0\\) m</strong>.</p>",
+    "s": "<p>Låt avståndet efter förflyttningen vara \\(x\\). Då \\(h=x\\tan41^\\circ=(x+30)\\tan28^\\circ\\).</p><p>\\(x\\approx47,2\\) m och <strong>\\(h\\approx41,0\\) m</strong>.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -56318,7 +56405,7 @@ window.BANKMA1 = [
     "svarsstruktur": "ordnad",
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Vinkeln 12° mäts från lodlinjen. Djupet 140 m är därför närliggande katet, inte motstående.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -56332,7 +56419,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Solens höjdvinkel är 11,5°. En flaggstång kastar en 24 m lång skugga. Hur hög är flaggstången?</p><span class=\"fig\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med mått\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"65\" y1=\"205\" x2=\"345.0\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"345.0\" y1=\"205\" x2=\"345.0\" y2=\"148.03335616136417\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"65\" y1=\"205\" x2=\"345.0\" y2=\"148.03335616136417\" stroke=\"#2B2527\" stroke-width=\"3\"/><rect x=\"325.0\" y=\"185\" width=\"20\" height=\"20\" fill=\"none\" stroke=\"#777\" stroke-width=\"2\"/><text x=\"205.0\" y=\"233\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">24 m</text><text x=\"365.0\" y=\"176.51667808068208\" font-family=\"monospace\" font-size=\"12\">h</text><path d=\"M 99.0 205.0 A 34 34 0 0 0 98.3 198.2\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\"/><text x=\"113\" y=\"190\" font-family=\"monospace\" font-size=\"12\">11.5°</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p>\\(\\tan11,5^\\circ=h/24\\Rightarrow h=24\\tan11,5^\\circ\\approx\\)<strong>4,9 m</strong>.</p>",
+    "s": "<p>\\(\\tan11,5^\\circ=h/24\\Rightarrow h=24\\tan11,5^\\circ\\approx\\)<strong>4,9 m</strong>.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -56372,7 +56459,7 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Vilken trigonometrisk komponent av linan beskriver dess lodräta sträcka?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -56409,8 +56496,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Bestäm den spetsiga vinkeln \\(v\\) i grader. Svara med en decimal.</p><p>a) \\(\\sin v=0{,}60\\)<br>b) \\(\\cos v=0{,}80\\)<br>c) \\(\\tan v=1{,}5\\)</p>",
     "s": "<p><strong>Steg 1:</strong> Använd arcusfunktionerna, på räknaren ofta märkta sin⁻¹, cos⁻¹ och tan⁻¹.</p><p>a) \\(v=\\sin^{-1}(0{,}60)\\approx\\)<strong>\\(36{,}9^\\circ\\)</strong></p><p>b) \\(v=\\cos^{-1}(0{,}80)\\approx\\)<strong>\\(36{,}9^\\circ\\)</strong></p><p>c) \\(v=\\tan^{-1}(1{,}5)\\approx\\)<strong>\\(56{,}3^\\circ\\)</strong></p>",
     "familj": "Bestämma vinklar med invers trigonometri",
@@ -56460,7 +56547,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>Använd den inversa funktion som motsvarar sambandet i varje del: sin⁻¹, cos⁻¹ eller tan⁻¹.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -56579,7 +56666,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rektangulär gräsmatta är 18 m × 24 m. Hur lång är diagonalen?</p><span class=\"fig\"><svg width=\"380\" height=\"235\" viewBox=\"0 0 380 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rektangel med diagonal\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"65\" y=\"55\" width=\"235\" height=\"125\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"65\" y1=\"180\" x2=\"300\" y2=\"55\" stroke=\"#B43123\" stroke-width=\"2.5\"/><text x=\"182\" y=\"202\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">24 m</text><text x=\"315\" y=\"120\" font-family=\"monospace\" font-size=\"12\">18 m</text><text x=\"173\" y=\"108\" font-family=\"monospace\" font-size=\"12\" fill=\"#B43123\">d</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p><p><strong>30 m</strong>.</p>",
+    "s": "<p>Rektangelns sidor är kateter:</p><p>\\(d=\\sqrt{18^2+24^2}=\\sqrt{900}=30\\) m.</p><p><strong>Svar:</strong> 30 m.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -56590,7 +56677,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>På formelbladet finns Pythagoras sats \\(a^2+b^2=c^2\\). Identifiera först hypotenusan och de två kateterna och lös sedan ut den okända längden.</p>",
+    "ledtrad": "<p>Rektangelns 18 m och 24 m är kateter i triangeln där diagonalen är hypotenusan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -56605,7 +56692,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En ramp går 7,5 m horisontellt och lutar 18°. Hur stor är höjdskillnaden? Avrunda till en decimal.</p><span class=\"fig\"><svg width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rätvinklig triangel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M60 180 L305.0 180 L305.0 100.4 Z\" fill=\"#F7F5F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"290.0\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"182.5\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">7,5 m</text><text x=\"316.0\" y=\"140.2\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">h</text><polyline points=\"87.0,180.0 87.0,179.5 87.0,179.1 87.0,178.6 86.9,178.1 86.9,177.6 86.9,177.2 86.8,176.7 86.7,176.2 86.7,175.8 86.6,175.3 86.5,174.8 86.4,174.4 86.3,173.9 86.2,173.5 86.1,173.0 86.0,172.6 85.8,172.1 85.7,171.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"103.5\" y=\"177.1\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">18°</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>\\(h=7,5\\tan18^\\circ\\approx\\)<strong>2,4 m</strong>,</p>",
+    "s": "<p>\\(h=7,5\\tan18^\\circ\\approx\\)<strong>2,4 m</strong>,</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -56631,7 +56718,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Närliggande katet är 8 och hypotenusan 10. Bestäm vinkeln \\(v\\) till en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp rätt samband för sinus, cosinus eller tangens. När du ska bestämma vinkeln använder du motsvarande arcusfunktion; på räknaren skrivs den ofta \\(\\sin^{-1}\\), \\(\\cos^{-1}\\) eller \\(\\tan^{-1}\\).</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p><strong>Svar:</strong> <strong>\\(v=cos^{-1}(0,80)\\approx36,9^\\circ\\)</strong></p>",
+    "s": "<p>Här är 8 närliggande katet och 10 hypotenusan, alltså \\(\\cos v=8/10=0,80\\).</p><p>\\(v=\\cos^{-1}(0,80)\\approx36,9^\\circ\\).</p><p><strong>Svar:</strong> \\(36,9^\\circ\\).</p>",
     "familj": "Bestämma vinklar med invers trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -56681,8 +56768,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>I cirkeln är \\(O\\) centrum. Den lodräta linjen är vinkelrät mot den vågräta sträckan. Den vågräta sträckan är 5,4 cm och vinkeln vid cirkelpunkten är 21°.</p><span class=\"fig\"><svg width=\"400\" height=\"263\" viewBox=\"0 0 400 263\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"cirkel med korrekt markerad vinkel\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"261\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"170\" cy=\"138.5\" r=\"115.7\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"138.5\" r=\"4\" fill=\"#2B2527\"/><line x1=\"170\" y1=\"138.5\" x2=\"278.0\" y2=\"180\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"138.5\" x2=\"170\" y2=\"180\" stroke=\"#777\"/><line x1=\"170\" y1=\"180\" x2=\"278.0\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"170\" y=\"165\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#2B2527\"/><text x=\"224.0\" y=\"201\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">5,4 cm</text><text x=\"229.0\" y=\"150.3\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">r</text><text x=\"178\" y=\"130.5\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">O</text><polyline points=\"254.0,180.0 254.0,179.5 254.0,179.0 254.0,178.5 254.1,178.0 254.1,177.6 254.2,177.1 254.2,176.6 254.3,176.1 254.4,175.6 254.5,175.1 254.6,174.7 254.7,174.2 254.8,173.7 255.0,173.3 255.1,172.8 255.3,172.3 255.4,171.9 255.6,171.4\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"238.7\" y=\"176.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\">21°</text></svg></span><p>Bestäm radien.</p>",
     "s": "<p>Radien är hypotenusan och 5,4 cm är närliggande katet till 21°.</p><p>\\(\\cos21^\\circ=5,4/r\\Rightarrow r=5,4/\\cos21^\\circ\\approx5,8\\) cm.</p><p><strong>Svar: cirka 5,8 cm.</strong></p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
@@ -56697,7 +56784,7 @@ window.BANKMA1 = [
     ],
     "familjTidigare": "Trigonometri i rättvinkliga trianglar och problemlösning",
     "ledtrad": "<p>Identifiera radien som hypotenusa i den rätvinkliga triangeln. Den kända 5,4-sträckan ligger intill 21°.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -56737,7 +56824,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En 6,0 m lång stege lutar mot en vägg och bildar vinkeln \\(68^\\circ\\) med marken. Hur högt upp på väggen når den? Avrunda till två decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita eller identifiera en rätvinklig triangel. Använd sedan Pythagoras sats eller något av sambanden för sinus, cosinus och tangens på formelbladet, beroende på vilka längder och vinklar som är kända.</p><p><strong>Tänk så här:</strong> Sätt in de kända värdena i sambandet innan du löser ut den okända storheten.</p><p>\\(h=6,0\\sin68^\\circ\\approx\\)<strong>5,56 m</strong></p>",
+    "s": "<p>Stegen är hypotenusan och höjden motstående katet:</p><p>\\(h=6,0\\sin68^\\circ\\approx5,56\\) m.</p><p><strong>Svar:</strong> cirka 5,56 m.</p>",
     "familj": "Problemlösning med rätvinklig trigonometri",
     "geogebra": false,
     "miniräknare": true,
@@ -56810,7 +56897,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Vinkeln \\(v\\) är spetsig och \\(\\sin v=\\frac ab\\), där \\(0&lt;a&lt;b\\). Visa att \\(\\tan v=\\frac{a}{\\sqrt{b^2-a^2}}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd sambanden för sinus, cosinus och tangens på formelbladet. Markera först motstående katet, närliggande katet och hypotenusa i förhållande till vinkeln och välj sedan det samband som innehåller de storheter du känner till.</p><p>Den närliggande kateten är \\(\\sqrt{b^2-a^2}\\) enligt Pythagoras.</p><p><strong>\\(\\tan v=\\frac{a}{\\sqrt{b^2-a^2}}\\)</strong>.</p>",
+    "s": "<p>Eftersom \\(v\\) är spetsig kan \\(a/b\\) tolkas som motstående katet/hypotenusa i en rätvinklig triangel. Sätt därför den motstående kateten till \\(a\\) och hypotenusan till \\(b\\).</p><p>Pythagoras ger den närliggande kateten</p><p>\\(\\sqrt{b^2-a^2}\\),</p><p>där roten är positiv eftersom \\(0<a<b\\). Då blir</p><p>\\(\\tan v=\\frac{\\text{motstående}}{\\text{närliggande}}=\\frac{a}{\\sqrt{b^2-a^2}}\\).</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": false,
@@ -56905,7 +56992,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Figuren visar \\(\\vec u=(4,2)\\) och \\(\\vec v=(-1,5)\\).</p><span class=\"fig\"><svg width=\"420\" height=\"310\" viewBox=\"0 0 420 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två vektorer i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"52.0\" y1=\"22\" x2=\"52.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"76.5\" y1=\"22\" x2=\"76.5\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"101.0\" y1=\"22\" x2=\"101.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"125.5\" y1=\"22\" x2=\"125.5\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"150.0\" y1=\"22\" x2=\"150.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"174.5\" y1=\"22\" x2=\"174.5\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"199.0\" y1=\"22\" x2=\"199.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"223.5\" y1=\"22\" x2=\"223.5\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"248.0\" y1=\"22\" x2=\"248.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"272.5\" y1=\"22\" x2=\"272.5\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"297.0\" y1=\"22\" x2=\"297.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"321.5\" y1=\"22\" x2=\"321.5\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"346.0\" y1=\"22\" x2=\"346.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"370.5\" y1=\"22\" x2=\"370.5\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"395.0\" y1=\"22\" x2=\"395.0\" y2=\"272\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"272.0\" x2=\"395\" y2=\"272.0\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"254.1\" x2=\"395\" y2=\"254.1\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"236.3\" x2=\"395\" y2=\"236.3\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"218.4\" x2=\"395\" y2=\"218.4\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"200.6\" x2=\"395\" y2=\"200.6\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"182.7\" x2=\"395\" y2=\"182.7\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"164.9\" x2=\"395\" y2=\"164.9\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"147.0\" x2=\"395\" y2=\"147.0\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"129.1\" x2=\"395\" y2=\"129.1\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"111.3\" x2=\"395\" y2=\"111.3\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"93.4\" x2=\"395\" y2=\"93.4\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"75.6\" x2=\"395\" y2=\"75.6\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"57.7\" x2=\"395\" y2=\"57.7\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"39.9\" x2=\"395\" y2=\"39.9\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"22.0\" x2=\"395\" y2=\"22.0\" stroke=\"#E8E7EA\"/><line x1=\"52\" y1=\"164.9\" x2=\"395\" y2=\"164.9\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"199.0\" y1=\"272\" x2=\"199.0\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"199.0\" y1=\"164.9\" x2=\"297.0\" y2=\"129.1\" stroke=\"#B43123\" stroke-width=\"2.7\"/><polygon points=\"297.0,129.1 290.6,136.8 287.2,127.4\" fill=\"#B43123\"/><text x=\"304.0\" y=\"122.1\" font-family=\"monospace\" font-size=\"11\">u</text><line x1=\"199.0\" y1=\"164.9\" x2=\"174.5\" y2=\"75.6\" stroke=\"#315F91\" stroke-width=\"2.7\"/><polygon points=\"174.5,75.6 181.6,82.6 172.0,85.2\" fill=\"#315F91\"/><text x=\"181.5\" y=\"68.6\" font-family=\"monospace\" font-size=\"11\">v</text></svg></span><p>Bestäm \\(\\vec u+\\vec v\\) och \\(\\vec u-\\vec v\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p><strong>\\(\\vec u+\\vec v=(3,7)\\)</strong> och <strong>\\(\\vec u-\\vec v=(5,-3)\\)</strong>.</p>",
+    "s": "<p>Addera respektive subtrahera komponentvis:</p><p>\\(\\vec u+\\vec v=(4-1,2+5)=(3,7)\\)</p><p>\\(\\vec u-\\vec v=(4-(-1),2-5)=(5,-3)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -56943,7 +57030,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Punkterna \\(A=(-1,2)\\), \\(B=(5,2)\\) och \\(C=(5,6)\\) bildar en rätvinklig triangel. Bestäm arean.</p><span class=\"fig\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"48.0\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"83.8\" y1=\"22\" x2=\"83.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"83.8\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"119.6\" y1=\"22\" x2=\"119.6\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"119.6\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"155.4\" y1=\"22\" x2=\"155.4\" y2=\"288\" stroke=\"#E8E7EA\"/><line x1=\"191.2\" y1=\"22\" x2=\"191.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"191.2\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"227.0\" y1=\"22\" x2=\"227.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"227.0\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"262.8\" y1=\"22\" x2=\"262.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"262.8\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"298.6\" y1=\"22\" x2=\"298.6\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"298.6\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"334.4\" y1=\"22\" x2=\"334.4\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"334.4\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"370.2\" y1=\"22\" x2=\"370.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"370.2\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"406.0\" y1=\"22\" x2=\"406.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"406.0\" y=\"276.4\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"288.0\" x2=\"406\" y2=\"288.0\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"291.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48\" y1=\"258.4\" x2=\"406\" y2=\"258.4\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"228.9\" x2=\"406\" y2=\"228.9\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48\" y1=\"199.3\" x2=\"406\" y2=\"199.3\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"202.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48\" y1=\"169.8\" x2=\"406\" y2=\"169.8\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"172.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48\" y1=\"140.2\" x2=\"406\" y2=\"140.2\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"143.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48\" y1=\"110.7\" x2=\"406\" y2=\"110.7\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"113.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48\" y1=\"81.1\" x2=\"406\" y2=\"81.1\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"84.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48\" y1=\"51.6\" x2=\"406\" y2=\"51.6\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"54.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"22.0\" x2=\"406\" y2=\"22.0\" stroke=\"#E8E7EA\"/><text x=\"147.4\" y=\"25.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"48\" y1=\"258.4\" x2=\"406\" y2=\"258.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"155.4\" y1=\"288\" x2=\"155.4\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"119.6\" y1=\"199.3\" x2=\"334.4\" y2=\"199.3\" stroke=\"#315F91\" stroke-width=\"2.4\"/><line x1=\"334.4\" y1=\"199.3\" x2=\"334.4\" y2=\"81.1\" stroke=\"#315F91\" stroke-width=\"2.4\"/><line x1=\"119.6\" y1=\"199.3\" x2=\"334.4\" y2=\"81.1\" stroke=\"#315F91\" stroke-width=\"2.4\"/><circle cx=\"119.6\" cy=\"199.3\" r=\"4.2\" fill=\"#B43123\"/><text x=\"126.6\" y=\"192.3\" font-family=\"monospace\" font-size=\"11\">A</text><circle cx=\"334.4\" cy=\"199.3\" r=\"4.2\" fill=\"#B43123\"/><text x=\"341.4\" y=\"192.3\" font-family=\"monospace\" font-size=\"11\">B</text><circle cx=\"334.4\" cy=\"81.1\" r=\"4.2\" fill=\"#B43123\"/><text x=\"341.4\" y=\"74.1\" font-family=\"monospace\" font-size=\"11\">C</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>Kateterna är 6 och 4. <strong>Arean är 12 areaenheter.</strong></p>",
+    "s": "<p>Kateterna är 6 och 4. <strong>Arean är 12 areaenheter.</strong></p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -56969,7 +57056,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm absolutbeloppet av vektorn \\((-9,12)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p>\\(\\sqrt{81+144}=\\)<strong>15</strong>.</p>",
+    "s": "<p>\\(|(-9,12)|=\\sqrt{(-9)^2+12^2}=\\sqrt{225}=15\\).</p><p><strong>Svar:</strong> 15.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -57021,7 +57108,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "vektor"
   },
   {
     "id": "4.191",
@@ -57033,7 +57121,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En vektor har längden 7. Vad är längden av fyra gånger vektorn?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p><p><strong>28</strong>.</p>",
+    "s": "<p>När en vektor multipliceras med 4 multipliceras också dess längd med \\(|4|\\).</p><p>\\(|4\\vec v|=4|\\vec v|=4\\cdot7=28\\).</p><p><strong>Svar:</strong> 28.</p>",
     "familj": "Skalärmultiplikation av vektorer",
     "geogebra": false,
     "miniräknare": false,
@@ -57044,7 +57132,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>På formelbladet finns regeln för multiplikation med en skalär. Multiplicera båda komponenterna med talet. Om talet är negativt får vektorn motsatt riktning.</p>",
+    "ledtrad": "<p>Hur förändras en vektors längd när hela vektorn multipliceras med 4?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -57089,7 +57177,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm omkretsen av triangeln med \\(A=(0,0)\\), \\(B=(6,0)\\) och \\(C=(6,8)\\).</p><span class=\"fig\"><svg width=\"430\" height=\"330\" viewBox=\"0 0 430 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"48.0\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"83.8\" y1=\"22\" x2=\"83.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"83.8\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"119.6\" y1=\"22\" x2=\"119.6\" y2=\"288\" stroke=\"#E8E7EA\"/><line x1=\"155.4\" y1=\"22\" x2=\"155.4\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"155.4\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"191.2\" y1=\"22\" x2=\"191.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"191.2\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"227.0\" y1=\"22\" x2=\"227.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"227.0\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"262.8\" y1=\"22\" x2=\"262.8\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"262.8\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"298.6\" y1=\"22\" x2=\"298.6\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"298.6\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"334.4\" y1=\"22\" x2=\"334.4\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"334.4\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"370.2\" y1=\"22\" x2=\"370.2\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"370.2\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"406.0\" y1=\"22\" x2=\"406.0\" y2=\"288\" stroke=\"#E8E7EA\"/><text x=\"406.0\" y=\"261.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"48\" y1=\"288.0\" x2=\"406\" y2=\"288.0\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"291.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"48\" y1=\"265.8\" x2=\"406\" y2=\"265.8\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"268.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48\" y1=\"243.7\" x2=\"406\" y2=\"243.7\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"221.5\" x2=\"406\" y2=\"221.5\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"224.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48\" y1=\"199.3\" x2=\"406\" y2=\"199.3\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"202.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48\" y1=\"177.2\" x2=\"406\" y2=\"177.2\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"180.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48\" y1=\"155.0\" x2=\"406\" y2=\"155.0\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"158.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48\" y1=\"132.8\" x2=\"406\" y2=\"132.8\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"135.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48\" y1=\"110.7\" x2=\"406\" y2=\"110.7\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"113.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48\" y1=\"88.5\" x2=\"406\" y2=\"88.5\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"91.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48\" y1=\"66.3\" x2=\"406\" y2=\"66.3\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"69.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"48\" y1=\"44.2\" x2=\"406\" y2=\"44.2\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"47.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">9</text><line x1=\"48\" y1=\"22.0\" x2=\"406\" y2=\"22.0\" stroke=\"#E8E7EA\"/><text x=\"111.6\" y=\"25.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"48\" y1=\"243.7\" x2=\"406\" y2=\"243.7\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"119.6\" y1=\"288\" x2=\"119.6\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"119.6\" y1=\"243.7\" x2=\"334.4\" y2=\"243.7\" stroke=\"#315F91\" stroke-width=\"2.4\"/><line x1=\"334.4\" y1=\"243.7\" x2=\"334.4\" y2=\"66.3\" stroke=\"#315F91\" stroke-width=\"2.4\"/><line x1=\"119.6\" y1=\"243.7\" x2=\"334.4\" y2=\"66.3\" stroke=\"#315F91\" stroke-width=\"2.4\"/><circle cx=\"119.6\" cy=\"243.7\" r=\"4.2\" fill=\"#B43123\"/><text x=\"126.6\" y=\"236.7\" font-family=\"monospace\" font-size=\"11\">A</text><circle cx=\"334.4\" cy=\"243.7\" r=\"4.2\" fill=\"#B43123\"/><text x=\"341.4\" y=\"236.7\" font-family=\"monospace\" font-size=\"11\">B</text><circle cx=\"334.4\" cy=\"66.3\" r=\"4.2\" fill=\"#B43123\"/><text x=\"341.4\" y=\"59.3\" font-family=\"monospace\" font-size=\"11\">C</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm först skillnaden i x-led och y-led mellan punkterna. Använd sedan Pythagoras sats för avstånd, eller de horisontella och vertikala längderna för area och omkrets.</p><p>Sidorna är 6, 8 och 10. <strong>Omkretsen är 24.</strong></p>",
+    "s": "<p>Sidorna är 6, 8 och 10. <strong>Omkretsen är 24.</strong></p>",
     "familj": "Koordinatgeometri: avstånd och punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -57115,7 +57203,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En person går enligt vektorerna \\((6,1)\\) och sedan \\((-2,4)\\).</p><p>Vilken blir den sammanlagda förflyttningen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd vektorreglerna på formelbladet. Addera eller subtrahera \\(x\\)-komponenterna för sig och \\(y\\)-komponenterna för sig.</p><p>\\((6,1)+(-2,4)=\\)<strong>\\((4,5)\\)</strong>.</p>",
+    "s": "<p>Förflyttningarna adderas komponentvis:</p><p>\\((6,1)+(-2,4)=(4,5)\\).</p><p><strong>Svar:</strong> \\((4,5)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -57141,7 +57229,8 @@ window.BANKMA1 = [
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
-    ]
+    ],
+    "svarFormat": "vektor"
   },
   {
     "id": "4.195",
@@ -57153,7 +57242,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En vektor som beskriver förflyttningen är \\((9,-12)\\). Hur lång är den raka förflyttningen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Vektorns absolutbelopp är dess längd. På formelbladet finns \\(|\\vec u|=\\sqrt{a_x^2+a_y^2}\\) när \\(\\vec u=(a_x,a_y)\\).</p><p><strong>15</strong>.</p>",
+    "s": "<p>Den raka förflyttningen är vektorns längd:</p><p>\\(\\sqrt{9^2+(-12)^2}=\\sqrt{225}=15\\).</p><p><strong>Svar:</strong> 15.</p>",
     "familj": "Beräkna en vektors längd",
     "geogebra": false,
     "miniräknare": false,
@@ -57176,8 +57265,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Figuren visar vektorerna \\(\\vec u\\) och \\(\\vec v\\), båda med utgångspunkt i origo.</p><p>a) Skriv \\(\\vec u\\) i koordinatform.<br>b) Skriv \\(\\vec v\\) i koordinatform.<br>c) Skriv den vektor som går från \\(\\vec u\\):s spets till \\(\\vec v\\):s spets.</p><span class=\"fig\"><svg width=\"303\" height=\"260\" viewBox=\"0 0 303 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Vektor u från origo till punkten (6,2) och vektor v från origo till punkten (2,5)\"><rect x=\"1\" y=\"1\" width=\"301\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><marker id=\"pilv420\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7.5\" refY=\"3.2\" orient=\"auto\"><path d=\"M0,0 L8,3.2 L0,6.4 z\" fill=\"#315F91\"/></marker><marker id=\"pilv421\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7.5\" refY=\"3.2\" orient=\"auto\"><path d=\"M0,0 L8,3.2 L0,6.4 z\" fill=\"#A6432F\"/></marker><marker id=\"pilv422\" markerWidth=\"9\" markerHeight=\"9\" refX=\"7.5\" refY=\"3.2\" orient=\"auto\"><path d=\"M0,0 L8,3.2 L0,6.4 z\" fill=\"#3F7A55\"/></marker></defs><g stroke=\"#ECE9E5\" stroke-width=\"1\"><line x1=\"46.0\" y1=\"40.0\" x2=\"46.0\" y2=\"210\"/><line x1=\"74.3\" y1=\"40.0\" x2=\"74.3\" y2=\"210\"/><line x1=\"102.7\" y1=\"40.0\" x2=\"102.7\" y2=\"210\"/><line x1=\"131.0\" y1=\"40.0\" x2=\"131.0\" y2=\"210\"/><line x1=\"159.3\" y1=\"40.0\" x2=\"159.3\" y2=\"210\"/><line x1=\"187.7\" y1=\"40.0\" x2=\"187.7\" y2=\"210\"/><line x1=\"216.0\" y1=\"40.0\" x2=\"216.0\" y2=\"210\"/><line x1=\"244.3\" y1=\"40.0\" x2=\"244.3\" y2=\"210\"/><line x1=\"272.7\" y1=\"40.0\" x2=\"272.7\" y2=\"210\"/><line x1=\"46\" y1=\"210.0\" x2=\"272.7\" y2=\"210.0\"/><line x1=\"46\" y1=\"181.7\" x2=\"272.7\" y2=\"181.7\"/><line x1=\"46\" y1=\"153.3\" x2=\"272.7\" y2=\"153.3\"/><line x1=\"46\" y1=\"125.0\" x2=\"272.7\" y2=\"125.0\"/><line x1=\"46\" y1=\"96.7\" x2=\"272.7\" y2=\"96.7\"/><line x1=\"46\" y1=\"68.3\" x2=\"272.7\" y2=\"68.3\"/><line x1=\"46\" y1=\"40.0\" x2=\"272.7\" y2=\"40.0\"/></g><g stroke=\"#2B2527\" stroke-width=\"1.8\"><line x1=\"38\" y1=\"210\" x2=\"286.7\" y2=\"210\"/><line x1=\"46\" y1=\"218\" x2=\"46\" y2=\"30.0\"/></g><g fill=\"#50494B\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\"><text x=\"46.0\" y=\"230\" text-anchor=\"middle\">0</text><text x=\"74.3\" y=\"230\" text-anchor=\"middle\">1</text><text x=\"102.7\" y=\"230\" text-anchor=\"middle\">2</text><text x=\"131.0\" y=\"230\" text-anchor=\"middle\">3</text><text x=\"159.3\" y=\"230\" text-anchor=\"middle\">4</text><text x=\"187.7\" y=\"230\" text-anchor=\"middle\">5</text><text x=\"216.0\" y=\"230\" text-anchor=\"middle\">6</text><text x=\"244.3\" y=\"230\" text-anchor=\"middle\">7</text><text x=\"272.7\" y=\"230\" text-anchor=\"middle\">8</text><text x=\"37\" y=\"185.7\" text-anchor=\"end\">1</text><text x=\"37\" y=\"157.3\" text-anchor=\"end\">2</text><text x=\"37\" y=\"129.0\" text-anchor=\"end\">3</text><text x=\"37\" y=\"100.7\" text-anchor=\"end\">4</text><text x=\"37\" y=\"72.3\" text-anchor=\"end\">5</text><text x=\"37\" y=\"44.0\" text-anchor=\"end\">6</text></g><line x1=\"46.0\" y1=\"210.0\" x2=\"216.0\" y2=\"153.3\" stroke=\"#315F91\" stroke-width=\"3\" marker-end=\"url(#pilv420)\"/><text x=\"117.0\" y=\"172.7\" fill=\"#315F91\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"700\" font-style=\"italic\">u</text><line x1=\"46.0\" y1=\"210.0\" x2=\"102.7\" y2=\"68.3\" stroke=\"#A6432F\" stroke-width=\"3\" marker-end=\"url(#pilv421)\"/><text x=\"60.3\" y=\"130.2\" fill=\"#A6432F\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"700\" font-style=\"italic\">v</text></svg></span>",
     "s": "<p>a) <strong>\\(\\vec u=(6,2)\\)</strong></p><p>b) <strong>\\(\\vec v=(2,5)\\)</strong></p><p>c) Vektorn går från \\((6,2)\\) till \\((2,5)\\): \\((2-6,\\ 5-2)=\\)<strong>\\((-4,3)\\)</strong>. Det är samma sak som \\(\\vec v-\\vec u\\)</p>",
     "familj": "Bestämma vektor från start- och slutpunkt",
@@ -57192,7 +57281,8 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "begrepp",
+      "procedur"
     ],
     "svarsstruktur": "ordnad",
     "svarFormat": [
@@ -57228,7 +57318,7 @@ window.BANKMA1 = [
       }
     ],
     "ledtrad": "<p>I c går du från spetsen på \\(\\vec u\\) till spetsen på \\(\\vec v\\), alltså beräknar du \\(\\vec v-\\vec u\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -57243,7 +57333,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har kateterna 6 cm och 8 cm. Bestäm hypotenusan.</p>",
-    "s": "<p><strong>Val av metod:</strong> Sidan mittemot den räta vinkeln är hypotenusan. När båda kateterna är kända används \\(c^2=a^2+b^2\\); till sist tas den positiva kvadratroten.</p><p><strong>Steg 1:</strong> Pythagoras sats ger \\(c^2=6^2+8^2=36+64=100\\).</p><p><strong>Steg 2:</strong> \\(c=\\sqrt{100}=10\\).</p><p><strong>Svar:</strong> 10 cm.</p>",
+    "s": "<p>Pythagoras sats ger \\(c^2=6^2+8^2=36+64=100\\). Därför är \\(c=\\sqrt{100}=10\\).</p><p><strong>Svar:</strong> 10 cm.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -57256,7 +57346,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Identifiera hypotenusan – sidan mitt emot den räta vinkeln. Använd sedan \\(a^2+b^2=c^2\\) och lös ut den sida som saknas.</p>",
+    "ledtrad": "<p>6 cm och 8 cm är kateterna. Sätt in dem i \\(c^2=6^2+8^2\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -57272,7 +57362,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har kateterna 20 cm och 21 cm. Bestäm hypotenusan.</p>",
-    "s": "<p><strong>Val av metod:</strong> Sidan mittemot den räta vinkeln är hypotenusan. När båda kateterna är kända används \\(c^2=a^2+b^2\\); till sist tas den positiva kvadratroten.</p><p><strong>Steg 1:</strong> Pythagoras sats ger \\(c^2=20^2+21^2=400+441=841\\).</p><p><strong>Steg 2:</strong> \\(c=\\sqrt{841}=29\\).</p><p><strong>Svar:</strong> 29 cm.</p>",
+    "s": "<p>Pythagoras sats ger \\(c^2=20^2+21^2=400+441=841\\). Alltså \\(c=\\sqrt{841}=29\\).</p><p><strong>Svar:</strong> 29 cm.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -57285,7 +57375,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Identifiera hypotenusan – sidan mitt emot den räta vinkeln. Använd sedan \\(a^2+b^2=c^2\\) och lös ut den sida som saknas.</p>",
+    "ledtrad": "<p>20 cm och 21 cm är kateterna. Beräkna \\(\\sqrt{20^2+21^2}\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -57298,8 +57388,8 @@ window.BANKMA1 = [
       "1a",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Har en triangel med sidlängderna 8 cm, 15 cm och 17 cm en rät vinkel?</p><p>A. Ja, eftersom \\(8^2+15^2=17^2\\).<br>B. Ja, eftersom \\(8+15=17\\).<br>C. Nej, eftersom alla tre sidor är olika långa.<br>D. Nej, eftersom \\(8^2+15^2>17^2\\).</p>",
     "s": "<p>Den längsta sidan är 17. \\(8^2+15^2=64+225=289=17^2\\), så omvändningen av Pythagoras sats visar att triangeln är rätvinklig.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
@@ -57311,12 +57401,12 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "begrepp",
-      "resonemang"
+      "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "kort_text",
     "svarEnhet": "cm",
     "ledtrad": "<p>Testa den längsta sidan som hypotenusa.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -57357,8 +57447,8 @@ window.BANKMA1 = [
       "1a",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En rektangel har diagonal 13 cm och ena sidan 5 cm. Bestäm rektangelns area.</p>",
     "s": "<p>Den andra sidan är \\(\\sqrt{13^2-5^2}=12\\) cm. Arean blir \\(5\\cdot12=60\\) cm².</p><p><strong>Svar: 60 cm².</strong></p>",
     "familj": "Bestämma en katet med Pythagoras sats",
@@ -57369,13 +57459,14 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
     "ledtrad": "<p>Bestäm först den saknade sidan med Pythagoras sats. Arean kräver sedan ytterligare ett steg.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -57419,7 +57510,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har hypotenusan 25 cm och en katet 7 cm. Bestäm den andra kateten.</p>",
-    "s": "<p><strong>Steg 1:</strong> Låt den okända kateten vara \\(x\\). Då \\(x^2+7^2=25^2\\).</p><p>\\(x^2=625-49=576\\).</p><p><strong>Steg 2:</strong> \\(x=\\sqrt{576}=24\\).</p><p><strong>Svar:</strong> 24 cm.</p>",
+    "s": "<p>Låt den okända kateten vara \\(x\\). Då \\(x^2+7^2=25^2\\), så \\(x^2=625-49=576\\) och \\(x=24\\).</p><p><strong>Svar:</strong> 24 cm.</p>",
     "familj": "Bestämma en katet med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -57432,7 +57523,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Identifiera hypotenusan – sidan mitt emot den räta vinkeln. Använd sedan \\(a^2+b^2=c^2\\) och lös ut den sida som saknas.</p>",
+    "ledtrad": "<p>25 cm är hypotenusan. Börja med \\(x^2+7^2=25^2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57448,7 +57539,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har hypotenusan 10 cm och en katet 6 cm. Bestäm den andra kateten.</p>",
-    "s": "<p><strong>Steg 1:</strong> Låt den okända kateten vara \\(x\\). Då \\(x^2+6^2=10^2\\).</p><p>\\(x^2=100-36=64\\).</p><p><strong>Steg 2:</strong> \\(x=\\sqrt{64}=8\\).</p><p><strong>Svar:</strong> 8 cm.</p>",
+    "s": "<p>Låt den okända kateten vara \\(x\\). Då \\(x^2+6^2=10^2\\), så \\(x^2=64\\) och \\(x=8\\).</p><p><strong>Svar:</strong> 8 cm.</p>",
     "familj": "Bestämma en katet med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -57461,7 +57552,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Identifiera hypotenusan – sidan mitt emot den räta vinkeln. Använd sedan \\(a^2+b^2=c^2\\) och lös ut den sida som saknas.</p>",
+    "ledtrad": "<p>10 cm är hypotenusan. Börja med \\(x^2+6^2=10^2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57474,8 +57565,8 @@ window.BANKMA1 = [
       "1a",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En rektangel har diagonal 15 cm och ena sidan 9 cm. Bestäm rektangelns omkrets.</p>",
     "s": "<p>Den andra sidan är \\(\\sqrt{15^2-9^2}=12\\) cm. Omkretsen blir \\(2(9+12)=42\\) cm.</p><p><strong>Svar: 42 cm.</strong></p>",
     "familj": "Pythagoras sats i problemlösning",
@@ -57486,13 +57577,14 @@ window.BANKMA1 = [
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
     "ledtrad": "<p>Diagonalen och en sida ger den andra sidan med Pythagoras sats. Glöm sedan inte att en rektangel har två av varje sida.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -57506,7 +57598,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En stege står 2,4 m från en vägg och når 3,2 m upp. Hur lång är stegen?</p>",
-    "s": "<p><strong>Steg 1:</strong> Situationen bildar en rätvinklig triangel. Använd Pythagoras sats.</p><p>\\(d^2=2,4^2+3,2^2=16\\).</p><p><strong>Steg 2:</strong> Ta kvadratroten: \\(4\\).</p><p><strong>Svar:</strong> 4 m.</p>",
+    "s": "<p>Stegen är hypotenusan. Med Pythagoras sats:</p><p>\\(L=\\sqrt{2,4^2+3,2^2}=\\sqrt{16}=4\\).</p><p><strong>Svar:</strong> 4 m.</p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -57519,7 +57611,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Identifiera hypotenusan – sidan mitt emot den räta vinkeln. Använd sedan \\(a^2+b^2=c^2\\) och lös ut den sida som saknas.</p>",
+    "ledtrad": "<p>Avståndet från väggen och höjden är kateter; stegen är hypotenusan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57535,7 +57627,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En kvadrat har sidan 7 cm. Bestäm diagonalens längd. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Situationen bildar en rätvinklig triangel. Använd Pythagoras sats.</p><p>\\(d^2=7^2+7^2=98\\).</p><p><strong>Steg 2:</strong> Ta kvadratroten: \\(9,9\\).</p><p><strong>Svar:</strong> 9,9 cm.</p>",
+    "s": "<p>Kvadratens diagonal är hypotenusan i en rätvinklig triangel med kateter 7 cm:</p><p>\\(d=\\sqrt{7^2+7^2}=7\\sqrt2\\approx9,9\\).</p><p><strong>Svar:</strong> 9,9 cm.</p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -57549,7 +57641,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Identifiera hypotenusan – sidan mitt emot den räta vinkeln. Använd sedan \\(a^2+b^2=c^2\\) och lös ut den sida som saknas.</p>",
+    "ledtrad": "<p>Diagonalen delar kvadraten i två rätvinkliga trianglar med kateter 7 cm och 7 cm.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57565,7 +57657,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En rätvinklig triangel har hypotenusan 14 cm och en katet 9 cm. Bestäm den andra kateten. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Situationen bildar en rätvinklig triangel. Använd Pythagoras sats.</p><p>\\(x^2=14^2-9^2=115\\).</p><p><strong>Steg 2:</strong> Ta kvadratroten: \\(10,7\\).</p><p><strong>Svar:</strong> 10,7 cm.</p>",
+    "s": "<p>Den okända kateten \\(x\\) uppfyller \\(x^2+9^2=14^2\\). Därför \\(x=\\sqrt{196-81}=\\sqrt{115}\\approx10,7\\).</p><p><strong>Svar:</strong> 10,7 cm.</p>",
     "familj": "Pythagoras sats i problemlösning",
     "geogebra": false,
     "miniräknare": true,
@@ -57579,7 +57671,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Identifiera hypotenusan – sidan mitt emot den räta vinkeln. Använd sedan \\(a^2+b^2=c^2\\) och lös ut den sida som saknas.</p>",
+    "ledtrad": "<p>14 cm är hypotenusan. Subtrahera \\(9^2\\) från \\(14^2\\) innan du tar kvadratroten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57594,7 +57686,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 30° och hypotenusan 12 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\sin 30^\\circ=\\frac{x}{12}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 6\\).</p><p><strong>Svar:</strong> 6 cm.</p>",
+    "s": "<p>Den sökta sidan är motstående katet och 12 cm är hypotenusan. Därför används sinus:</p><p>\\(\\sin30^\\circ=x/12\\Rightarrow x=12\\sin30^\\circ=6\\).</p><p><strong>Svar:</strong> 6,0 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57607,7 +57699,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
+    "ledtrad": "<p>Du känner hypotenusan 12 cm och söker sidan mitt emot 30°.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -57622,7 +57714,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 45° och hypotenusan 10 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\sin 45^\\circ=\\frac{x}{10}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7,1\\).</p><p><strong>Svar:</strong> 7,1 cm.</p>",
+    "s": "<p>Den sökta sidan är motstående katet och 10 cm är hypotenusan:</p><p>\\(\\sin45^\\circ=x/10\\Rightarrow x=10\\sin45^\\circ\\approx7,1\\).</p><p><strong>Svar:</strong> 7,1 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57635,7 +57727,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
+    "ledtrad": "<p>Du känner hypotenusan 10 cm och söker sidan mitt emot 45°.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -57650,7 +57742,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 60° och hypotenusan 14 cm. Bestäm triangelns närliggande katet. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\cos 60^\\circ=\\frac{x}{14}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7\\).</p><p><strong>Svar:</strong> 7 cm.</p>",
+    "s": "<p>Den sökta sidan är närliggande katet och 14 cm är hypotenusan:</p><p>\\(\\cos60^\\circ=x/14\\Rightarrow x=14\\cos60^\\circ=7\\).</p><p><strong>Svar:</strong> 7,0 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57663,7 +57755,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
+    "ledtrad": "<p>Du känner hypotenusan 14 cm och söker sidan intill 60°.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -57678,7 +57770,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 35° och hypotenusan 18 cm. Bestäm triangelns närliggande katet. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\cos 35^\\circ=\\frac{x}{18}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 14,7\\).</p><p><strong>Svar:</strong> 14,7 cm.</p>",
+    "s": "<p>Den sökta sidan är närliggande katet och 18 cm är hypotenusan:</p><p>\\(\\cos35^\\circ=x/18\\Rightarrow x=18\\cos35^\\circ\\approx14,7\\).</p><p><strong>Svar:</strong> 14,7 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57691,8 +57783,8 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Du känner hypotenusan 18 cm och söker sidan intill 35°.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -57706,7 +57798,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 40° och närliggande katet 9 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\tan 40^\\circ=\\frac{x}{9}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7,6\\).</p><p><strong>Svar:</strong> 7,6 cm.</p>",
+    "s": "<p>Motstående och närliggande katet kopplas samman med tangens:</p><p>\\(\\tan40^\\circ=x/9\\Rightarrow x=9\\tan40^\\circ\\approx7,6\\).</p><p><strong>Svar:</strong> 7,6 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57719,8 +57811,8 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Du känner sidan intill 40° och söker sidan mitt emot vinkeln.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -57734,7 +57826,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 25° och närliggande katet 16 cm. Bestäm triangelns motstående katet. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\tan 25^\\circ=\\frac{x}{16}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 7,5\\).</p><p><strong>Svar:</strong> 7,5 cm.</p>",
+    "s": "<p>Motstående och närliggande katet kopplas samman med tangens:</p><p>\\(\\tan25^\\circ=x/16\\Rightarrow x=16\\tan25^\\circ\\approx7,5\\).</p><p><strong>Svar:</strong> 7,5 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57747,8 +57839,8 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Du känner sidan intill 25° och söker sidan mitt emot vinkeln.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -57762,7 +57854,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 52° och motstående katet 7 cm. Bestäm triangelns hypotenusa. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\sin 52^\\circ=\\frac{7}{x}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 8,9\\).</p><p><strong>Svar:</strong> 8,9 cm.</p>",
+    "s": "<p>7 cm är motstående katet och \\(x\\) är hypotenusan:</p><p>\\(\\sin52^\\circ=7/x\\Rightarrow x=7/\\sin52^\\circ\\approx8,9\\).</p><p><strong>Svar:</strong> 8,9 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57775,7 +57867,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
+    "ledtrad": "<p>Du känner sidan mitt emot 52° och söker hypotenusan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57790,7 +57882,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel är en spetsig vinkel 38° och närliggande katet 11 cm. Bestäm triangelns hypotenusa. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Välj det trigonometriska samband som innehåller de aktuella sidorna.</p><p>\\cos 38^\\circ=\\frac{11}{x}.</p><p><strong>Steg 2:</strong> Lös ut \\(x\\): \\(x\\approx 14\\).</p><p><strong>Svar:</strong> 14 cm.</p>",
+    "s": "<p>11 cm är närliggande katet och \\(x\\) är hypotenusan:</p><p>\\(\\cos38^\\circ=11/x\\Rightarrow x=11/\\cos38^\\circ\\approx14,0\\).</p><p><strong>Svar:</strong> 14,0 cm.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57803,7 +57895,7 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
+    "ledtrad": "<p>Du känner sidan intill 38° och söker hypotenusan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57818,7 +57910,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel gäller: motstående katet 8 cm och närliggande katet 12 cm. Bestäm vinkeln \\(v\\). Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Skriv sambandet \\tan v=\\frac{8}{12}.</p><p><strong>Steg 2:</strong> Använd inversen: \\(v=\\arctan(0,6667)\\approx 33,7^\\circ\\).</p><p><strong>Svar:</strong> 33,7°.</p>",
+    "s": "<p>De två kända sidorna är motstående och närliggande katet, så \\(\\tan v=8/12\\).</p><p>\\(v=\\arctan(8/12)\\approx33,7^\\circ\\).</p><p><strong>Svar:</strong> 33,7°.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57830,7 +57922,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "grader",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
+    "ledtrad": "<p>Du känner båda kateterna. Vilken trigonometrisk kvot använder motstående delat med närliggande?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57845,7 +57937,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel gäller: motstående katet 15 cm och närliggande katet 9 cm. Bestäm vinkeln \\(v\\). Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Skriv sambandet \\tan v=\\frac{15}{9}.</p><p><strong>Steg 2:</strong> Använd inversen: \\(v=\\arctan(1,6667)\\approx 59^\\circ\\).</p><p><strong>Svar:</strong> 59°.</p>",
+    "s": "<p>De två kända sidorna är motstående och närliggande katet, så \\(\\tan v=15/9\\).</p><p>\\(v=\\arctan(15/9)\\approx59,0^\\circ\\).</p><p><strong>Svar:</strong> 59,0°.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57857,7 +57949,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "grader",
-    "ledtrad": "<p>Markera motstående katet, närliggande katet och hypotenusa relativt den aktuella vinkeln. Välj sedan sinus, cosinus eller tangens så att sambandet innehåller det du vet och det du söker.</p>",
+    "ledtrad": "<p>Du känner båda kateterna. Sätt upp tangenskvoten och använd sedan \\(\\arctan\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57872,7 +57964,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En ramp är 12 m lång och höjdskillnaden mellan rampens ändpunkter är 7 m. Bestäm rampens vinkel mot marken. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Rita eller tänk ut den rätvinkliga triangeln och koppla den givna längden till vinkeln.</p><p>\\(\\sin v=\\frac{7}{12}\\).</p><p><strong>Steg 2:</strong> Använd invers trigonometrisk funktion: \\(v\\approx 35,7^\\circ\\).</p><p><strong>Svar:</strong> 35,7°.</p>",
+    "s": "<p>Rampens längd 12 m är hypotenusan och höjdskillnaden 7 m är motstående katet:</p><p>\\(\\sin v=7/12\\), alltså \\(v=\\arcsin(7/12)\\approx35,7^\\circ\\).</p><p><strong>Svar:</strong> 35,7°.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57900,7 +57992,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En 14 m lång vajer går från marken till en fästpunkt. Det horisontella avståndet till fästpunkten är 11 m. Bestäm vajerns vinkel mot marken. Avrunda till en decimal.</p>",
-    "s": "<p><strong>Steg 1:</strong> Rita eller tänk ut den rätvinkliga triangeln och koppla den givna längden till vinkeln.</p><p>\\(\\cos v=\\frac{11}{14}\\).</p><p><strong>Steg 2:</strong> Använd invers trigonometrisk funktion: \\(v\\approx 38,2^\\circ\\).</p><p><strong>Svar:</strong> 38,2°.</p>",
+    "s": "<p>Vajern 14 m är hypotenusan och 11 m är närliggande katet:</p><p>\\(\\cos v=11/14\\), alltså \\(v=\\arccos(11/14)\\approx38,2^\\circ\\).</p><p><strong>Svar:</strong> 38,2°.</p>",
     "familj": "Beräkna med sinus, cosinus och tangens",
     "geogebra": false,
     "miniräknare": true,
@@ -57928,7 +58020,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du känner hypotenusan och den motstående kateten till vinkeln v. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) cosinus &nbsp;&nbsp; C) tangens</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Utgå från vilka två sidor som ingår relativt vinkeln.</p><p>sinus = motstående/hypotenusa.</p><p><strong>Svar:</strong> A.</p>",
+    "s": "<p>Sinus använder motstående katet och hypotenusa: \\(\\sin v=\\text{motstående}/\\text{hypotenusa}\\).</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
     "miniräknare": false,
@@ -57955,7 +58047,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du känner de två kateterna och vill bestämma en spetsig vinkel. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) cosinus &nbsp;&nbsp; C) tangens</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Utgå från vilka två sidor som ingår relativt vinkeln.</p><p>tangens = motstående/närliggande.</p><p><strong>Svar:</strong> C.</p>",
+    "s": "<p>Tangens använder de två kateterna: \\(\\tan v=\\text{motstående}/\\text{närliggande}\\).</p><p><strong>Svar:</strong> C.</p>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
     "miniräknare": false,
@@ -57982,7 +58074,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du känner hypotenusan och den närliggande kateten till vinkeln v. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) cosinus &nbsp;&nbsp; C) tangens</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Utgå från vilka två sidor som ingår relativt vinkeln.</p><p>cosinus = närliggande/hypotenusa.</p><p><strong>Svar:</strong> B.</p>",
+    "s": "<p>Cosinus använder närliggande katet och hypotenusa: \\(\\cos v=\\text{närliggande}/\\text{hypotenusa}\\).</p><p><strong>Svar:</strong> B.</p>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
     "miniräknare": false,
@@ -58059,8 +58151,8 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>I en rätvinklig triangel gäller \\(\\cos v=0,80\\). Vilket påstående måste vara sant?</p><p>A. Närliggande katet är 80 % av hypotenusan.<br>B. Motstående katet är 80 % av hypotenusan.<br>C. Hypotenusan är 80 % av närliggande katet.<br>D. De två kateterna har förhållandet 4:5.</p>",
     "s": "<p>\\(\\cos v=\\frac{\\text{närliggande}}{\\text{hypotenusa}}=0,80\\). Alltså är den närliggande kateten 80 % av hypotenusan.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Välja rätt trigonometriskt samband",
@@ -58075,7 +58167,7 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Läs 0,80 som en kvot mellan två sidor.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -58313,7 +58405,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm resultanten \\(\\vec r\\) av vektorerna \\(\\vec a=(3,1)\\), \\(\\vec b=(-2,4)\\) och \\(\\vec c=(1,-3)\\).</p>",
-    "s": "<p><strong>Vektoridé:</strong> Addera x-komponenterna för sig och y-komponenterna för sig. På så sätt bevaras riktningen i resultantvektorn.</p><p>Addera komponentvis: \\(\\vec r=(3-2+1,\\,1+4-3)=(2,2)\\).</p><p><strong>Svar:</strong> \\((2,2)\\).</p>",
+    "s": "<p>Addera komponentvis:</p><p>\\(\\vec r=(3-2+1,\\,1+4-3)=(2,2)\\).</p><p><strong>Svar:</strong> \\((2,2)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -58333,10 +58425,14 @@ window.BANKMA1 = [
       "x-komponent",
       "y-komponent"
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Addera x-komponenterna för sig och y-komponenterna för sig.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.236",
@@ -58348,7 +58444,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En förflyttning består av \\((4,-1)\\), därefter \\((-3,5)\\) och sist \\((2,2)\\). Bestäm den sammanlagda förflyttningen.</p>",
-    "s": "<p>Addera x-komponenterna och y-komponenterna var för sig: \\((4-3+2,-1+5+2)=(3,6)\\).</p><p><strong>Svar:</strong> \\((3,6)\\).</p>",
+    "s": "<p>Den sammanlagda förflyttningen blir</p><p>\\((4-3+2,\\,-1+5+2)=(3,6)\\).</p><p><strong>Svar:</strong> \\((3,6)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -58368,10 +58464,14 @@ window.BANKMA1 = [
       "x-komponent",
       "y-komponent"
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Summera de tre x-komponenterna och de tre y-komponenterna var för sig.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.237",
@@ -58383,7 +58483,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Tre krafter i ett koordinatsystem representeras av \\((5,0)\\), \\((-2,3)\\) och \\((-1,-4)\\). Bestäm resultanten.</p>",
-    "s": "<p><strong>Vektoridé:</strong> Addera x-komponenterna för sig och y-komponenterna för sig. På så sätt bevaras riktningen i resultantvektorn.</p><p>\\((5-2-1,0+3-4)=(2,-1)\\).</p><p><strong>Svar:</strong> \\((2,-1)\\).</p>",
+    "s": "<p>Resultanten är</p><p>\\((5-2-1,\\,0+3-4)=(2,-1)\\).</p><p><strong>Svar:</strong> \\((2,-1)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -58403,10 +58503,14 @@ window.BANKMA1 = [
       "x-komponent",
       "y-komponent"
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>En resultant fås genom att addera krafternas komponenter.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.238",
@@ -58415,10 +58519,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Vektorerna \\(\\vec u=(2,3)\\), \\(\\vec v=(-5,1)\\) och \\(\\vec w=(4,-6)\\) verkar tillsammans. Bestäm \\(2\\vec u+\\vec v+\\vec w\\).</p>",
-    "s": "<p><strong>Vektoridé:</strong> Addera x-komponenterna för sig och y-komponenterna för sig. På så sätt bevaras riktningen i resultantvektorn.</p><p>\\(2\\vec u=(4,6)\\). Sedan \\((4,6)+(-5,1)+(4,-6)=(3,1)\\).</p><p><strong>Svar:</strong> \\((3,1)\\).</p>",
+    "s": "<p>Först \\(2\\vec u=(4,6)\\). Därefter</p><p>\\((4,6)+(-5,1)+(4,-6)=(3,1)\\).</p><p><strong>Svar:</strong> \\((3,1)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -58430,18 +58534,21 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "x-komponent",
       "y-komponent"
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Börja med att dubbla båda komponenterna i \\(\\vec u\\). Addera sedan komponentvis.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.239",
@@ -58450,10 +58557,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En vektor \\(\\vec a=(6,-2)\\) följs av \\(\\vec b=(-1,5)\\). Vilken tredje vektor \\(\\vec c\\) behövs för att den totala resultanten ska bli \\((0,0)\\)?</p>",
-    "s": "<p>Först \\(\\vec a+\\vec b=(5,3)\\). För att summan ska bli noll behövs motsatt vektor \\((-5,-3)\\).</p><p><strong>Svar:</strong> \\((-5,-3)\\).</p>",
+    "s": "<p>De två första vektorerna ger \\(\\vec a+\\vec b=(5,3)\\). För att totalsumman ska bli noll måste den tredje vektorn vara den motsatta:</p><p>\\(\\vec c=(-5,-3)\\).</p><p><strong>Svar:</strong> \\((-5,-3)\\).</p>",
     "familj": "Addera, subtrahera och lösa vektorekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -58473,10 +58580,14 @@ window.BANKMA1 = [
       "x-komponent",
       "y-komponent"
     ],
-    "ledtrad": "<p>Arbeta komponentvis. En vektor från A till B fås som \\(B-A\\), och längden fås med Pythagoras på komponenterna.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Beräkna först \\(\\vec a+\\vec b\\). Vilken vektor måste sedan adderas för att summan ska bli \\((0,0)\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.401",
@@ -58486,16 +58597,16 @@ window.BANKMA1 = [
       "1a",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Två rektangulära plåtar har måtten 9 dm × 12 dm respektive 10 dm × 11 dm. Vilken plåt har längst diagonal, och hur mycket längre är den? Avrunda skillnaden till en decimal.</p>",
-    "s": "<p>För 9×12 är diagonalen \\(\\sqrt{9^2+12^2}=15\\) dm. För 10×11 är den \\(\\sqrt{10^2+11^2}=\\sqrt{221}\\approx14,9\\) dm.</p><p><strong>Svar:</strong> plåten 9×12 dm har längst diagonal, med cirka 0,1 dm.</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Två rektangulära plåtar har måtten 9 dm × 12 dm respektive 10 dm × 11 dm.</p><p>a) Vilken plåt har längst diagonal? Svara A för 9×12-plåten eller B för 10×11-plåten.<br>b) Hur mycket längre är diagonalen? Avrunda skillnaden till en decimal.</p>",
+    "s": "<p>A-plåtens diagonal är \\(\\sqrt{9^2+12^2}=15\\) dm. B-plåtens diagonal är \\(\\sqrt{10^2+11^2}=\\sqrt{221}\\approx14,9\\) dm.</p><p>Skillnaden är cirka \\(15-14,866\\approx0,1\\) dm.</p><p><strong>Svar:</strong> a) A &nbsp; b) 0,1 dm.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "9x12",
+      "A",
       0.1
     ],
     "tolerans": [
@@ -58504,12 +58615,16 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ],
     "ledtrad": "<p>Beräkna båda diagonalerna med samma metod innan du jämför.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -58539,9 +58654,9 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Den längsta sidan 25 ska testas som hypotenusa.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -58553,10 +58668,10 @@ window.BANKMA1 = [
       "1a",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En rätvinklig triangel har hypotenusan 17 cm och en katet 8 cm. Bestäm triangelns area.</p>",
-    "s": "<p>Den andra kateten är \\(\\sqrt{17^2-8^2}=15\\) cm. Arean är \\(\\frac12\\cdot8\\cdot15=60\\) cm².</p><p><strong>Svar: 60 cm².</strong></p>",
+    "s": "<p>Den andra kateten är \\(\\sqrt{17^2-8^2}=15\\) cm. Arean blir</p><p>\\(A=\\frac12\\cdot8\\cdot15=60\\text{ cm}^2\\).</p><p><strong>Svar:</strong> 60 cm².</p>",
     "familj": "Bestämma en katet med Pythagoras sats",
     "geogebra": false,
     "miniräknare": false,
@@ -58565,12 +58680,13 @@ window.BANKMA1 = [
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Du behöver båda kateterna för arean. Bestäm den saknade först.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -58667,10 +58783,10 @@ window.BANKMA1 = [
       "1a",
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En 10,0 m lång stege når 8,0 m upp på en vägg. Säkerhetsregeln säger att stegens fot ska stå högst 5,0 m från väggen. Uppfylls regeln?</p><p>Svara med avståndet från väggen och ja/nej.</p>",
-    "s": "<p>Avståndet är \\(\\sqrt{10^2-8^2}=6,0\\) m. Det är större än tillåtna 5,0 m.</p><p><strong>Svar: 6,0 m; nej.</strong></p>",
+    "s": "<p>Fotens avstånd från väggen är \\(\\sqrt{10^2-8^2}=6,0\\) m. Säkerhetsgränsen är högst 5,0 m, så regeln är inte uppfylld.</p><p><strong>Svar:</strong> 6,0 m; nej.</p>",
     "familj": "Bestämma en katet med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
@@ -58686,12 +58802,15 @@ window.BANKMA1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "problemlösning"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": [
+      "numeriskt",
+      "kort_text"
+    ],
     "ledtrad": "<p>Bestäm först fotens avstånd från väggen med Pythagoras sats och jämför sedan med 5,0 m.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -58710,7 +58829,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En rektangulär gård är 24 m lång och 18 m bred.</p><p>Hur lång är den raka diagonala sträckan mellan två motsatta hörn?</p>",
-    "s": "<p><strong>Val av metod:</strong> Sidan mittemot den räta vinkeln är hypotenusan. När båda kateterna är kända används \\(c^2=a^2+b^2\\); till sist tas den positiva kvadratroten.</p><p><strong>Metod:</strong> Gårdens sidor är kateter i en rätvinklig triangel.</p><p>\\[d=\\sqrt{24^2+18^2}=30\\]</p><p><strong>Svar:</strong> 30 m.</p>",
+    "s": "<p>Gårdens sidor är kateter och diagonalen är hypotenusan:</p><p>\\(d=\\sqrt{24^2+18^2}=\\sqrt{900}=30\\).</p><p><strong>Svar:</strong> 30 m.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
@@ -58739,7 +58858,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En vajer går från marken till toppen av en 12 m hög mast. Vajerns markfäste ligger 5,0 m från mastens fot.</p><p>Hur lång är vajern?</p>",
-    "s": "<p><strong>Val av metod:</strong> Sidan mittemot den räta vinkeln är hypotenusan. När båda kateterna är kända används \\(c^2=a^2+b^2\\); till sist tas den positiva kvadratroten.</p><p><strong>Metod:</strong> Masten och marksträckan är kateter. Vajern är hypotenusan.</p><p>\\[l=\\sqrt{12^2+5^2}=13\\]</p><p><strong>Svar:</strong> 13 m.</p>",
+    "s": "<p>Masten och marksträckan är kateter och vajern är hypotenusan:</p><p>\\(L=\\sqrt{12^2+5^2}=\\sqrt{169}=13\\).</p><p><strong>Svar:</strong> 13 m.</p>",
     "familj": "Bestämma hypotenusan med Pythagoras sats",
     "geogebra": false,
     "miniräknare": true,
@@ -58779,7 +58898,7 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "text",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Du känner motstående och söker närliggande katet. Vilken kvot innehåller just de två kateterna?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -58807,7 +58926,7 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "text",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Du känner hypotenusan och söker motstående katet. Vilken kvot innehåller just dessa två sidor?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -58864,7 +58983,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkterna är \\(P(-4,5)\\) och \\(Q(1,-2)\\).</p><p>Bestäm komponenterna i vektorn \\(\\overrightarrow{PQ}\\).</p>",
-    "s": "<p><strong>Metod:</strong> Slutpunkt minus startpunkt komponent för komponent.</p><p>\\(\\overrightarrow{PQ}=(1--4,\\,-2-(5))=(5,-7)\\).</p>",
+    "s": "<p>Slutpunkt minus startpunkt ger</p><p>\\(\\overrightarrow{PQ}=(1-(-4),\\,-2-5)=(5,-7)\\).</p><p><strong>Svar:</strong> \\((5,-7)\\).</p>",
     "familj": "Bestämma vektor från start- och slutpunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -80155,7 +80274,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",

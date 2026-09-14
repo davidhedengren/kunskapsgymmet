@@ -1710,6 +1710,22 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .valruta.t-low{--tone:var(--warn)}
 .modal-fot{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap}
 .modal-fot .spacer{flex:1}
+/* Varningsvariant: samma kort, men rött genomgående så den känns som en
+   tillsägelse och inte som ännu en informationsruta. */
+.modal-kort.varning{
+  border-color:color-mix(in srgb,var(--bad) 45%,var(--hair));
+  box-shadow:var(--e2),0 0 0 4px var(--badSoft);
+}
+.modal-kort.varning .modal-topp .lbl{color:var(--bad)}
+.modal-kort.varning .modal-topp h2{color:var(--bad)}
+.modal-kort.varning .varningsmark{
+  width:34px;height:34px;flex:none;border-radius:50%;display:grid;place-items:center;
+  background:var(--badSoft);color:var(--bad);font-size:19px;font-weight:700;line-height:1;
+}
+.modal-kort.varning .btn.primary{
+  background:var(--bad);border-color:transparent;color:#fff;
+  box-shadow:0 8px 20px -9px color-mix(in srgb,var(--bad) 70%,transparent);
+}
 @media(max-width:520px){
   .modal-kort{padding:20px;border-radius:22px}
   .valgrid{grid-template-columns:1fr}
@@ -5358,7 +5374,6 @@ function beginSession(typ){
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
-  setTimeout(visaPapperspaminnelse,350);
 }
 
 function startPass(typ){
@@ -5569,6 +5584,9 @@ function nextTask(){
   if(state.lastIds.length>12) state.lastIds.shift();
   sparaPagaendePass();
   renderTraining();
+  /* Påminnelsen kommer när eleven har kommit in i passet, inte i vägen
+     för den första uppgiften. */
+  if(state.sessionDone>=PAPPER_EFTER) setTimeout(visaPapperspaminnelse,500);
 }
 
 function noteNewLevel(t){
@@ -7216,6 +7234,7 @@ const BETA_INFO_KEY="kunskapsgymmet-beta-info";
 const BETA_INFO_VERSION="1";
 const PAPPER_KEY="kunskapsgymmet-papper";
 const PAPPER_TAKT="dag";
+const PAPPER_EFTER=5;
 
 function kvitterat(nyckel,varde){
   try{ return localStorage.getItem(nyckel)===varde; }catch(_){ return true; }
@@ -7281,24 +7300,24 @@ function visaPapperspaminnelse(){
   kvittera(PAPPER_KEY,idag);
   const el=document.createElement("div");
   el.className="modal"; el.id="papperruta";
-  el.innerHTML=`<div class="modal-kort" style="width:min(460px,100%)" role="dialog"
+  el.innerHTML=`<div class="modal-kort varning" style="width:min(460px,100%)" role="dialog"
       aria-modal="true" aria-label="Skriv ner dina lösningar">
       <div class="modal-topp">
+        <div class="varningsmark" aria-hidden="true">!</div>
         <div>
-          <div class="lbl">Innan du börjar</div>
+          <div class="lbl">Påminnelse</div>
           <h2>Skriv ner dina lösningar</h2>
         </div>
         <button class="iconbtn" onclick="stangPapperspaminnelse()" aria-label="Stäng">✕</button>
       </div>
-      <p class="modal-text">Ha papper och penna framme och skriv ner hela lösningen
-        innan du fyller i svaret här.</p>
-      <p class="modal-text">På prov är den skriftliga kommunikationen – hur du
-        redovisar, motiverar och för fram ditt resonemang – en stor del av
-        bedömningen. Det är den du tränar när du räknar på papper, inte bara
-        när du får rätt svar i rutan.</p>
+      <p class="modal-text">Glöm inte att skriva ner dina lösningar på ett separat
+        papper.</p>
+      <p class="modal-text">På prov är den skriftliga kommunikationen en stor del
+        av bedömningen. Därför är det viktigt att du tränar på den även när du
+        räknar uppgifter här i Kunskapsgymmet.</p>
       <div class="modal-fot">
         <span class="spacer"></span>
-        <button class="btn primary" onclick="stangPapperspaminnelse()">Nu kör vi</button>
+        <button class="btn primary" onclick="stangPapperspaminnelse()">Jag har papper framme</button>
       </div>
     </div>`;
   document.body.appendChild(el);

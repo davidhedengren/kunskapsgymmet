@@ -7240,7 +7240,7 @@ window.KG_FELRAPPORTER=oppnaFelrapportLogg;
    "dag" (en gång per dag), "pass" (varje pass) eller "av".
    ===================================================================== */
 const BETA_INFO_KEY="kunskapsgymmet-beta-info";
-const BETA_INFO_VERSION="1";
+const BETA_INFO_VERSION="2";
 const PAPPER_KEY="kunskapsgymmet-papper";
 const PAPPER_TAKT="dag";
 const PAPPER_EFTER=5;
@@ -7265,20 +7265,16 @@ function visaBetaruta(){
         </div>
         <button class="iconbtn" onclick="stangBetaruta()" aria-label="Stäng">✕</button>
       </div>
-      <p class="modal-text">Kunskapsgymmet byggs fortfarande. Uppgifterna är skrivna
-        och kontrollerade för hand, men med tusentals uppgifter smyger sig fel in –
-        ett facit som inte stämmer, en figur som saknas, en fråga som är konstigt
-        formulerad.</p>
-      <p class="modal-text">Hittar du något sådant: tryck på
-        <b>Rapportera fel</b> uppe till höger i uppgiften. Du behöver inte
-        förklara vad som är fel – det räcker att uppgiften hamnar i listan.</p>
+      <p class="modal-text">Kunskapsgymmet är under uppbyggnad. Hittar du ett fel i en
+        uppgift, eller en fråga som är konstigt formulerad, tryck på
+        <b>Rapportera fel</b> uppe till höger i uppgiften.</p>
       <div class="notice">
         <b aria-hidden="true">✦</b>
         <span>${FEL_BONUS_XP>0
-          ? `När ett fel du har rapporterat blir åtgärdat får du
-             <b>${FEL_BONUS_XP} XP</b>. Du kan rapportera varje uppgift en gång.`
-          : `Varje rapport går direkt till din lärare. Du kan rapportera varje
-             uppgift en gång.`}</span>
+          ? `Blir felet åtgärdat får du <b>${FEL_BONUS_XP} XP</b> och kan samla
+             medaljer för det. Varje uppgift kan rapporteras en gång.`
+          : `Varje rapport går direkt till din lärare. Varje uppgift kan
+             rapporteras en gång.`}</span>
       </div>
       <div class="modal-fot">
         <span class="spacer"></span>

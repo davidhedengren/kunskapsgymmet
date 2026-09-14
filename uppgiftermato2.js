@@ -1,6 +1,7 @@
-/* Kvalitets- och nivåreviderad 2026-09-10.
- * Nivå följer högsta förekommande E/C/A-poäng; deluppgifter har egen nivå. */
-window.BANKMATO2 = [
+/* Kvalitetsreviderad Ma4 / Matematik – fortsättning nivå 2, omgång 3 (2026-09-14).
+ * Fokus: variation, korrekt trigonometrisk notation och robust självrättning. */
+window.BANKMATO2 =
+[
   {
     "id": "1.04",
     "kap": 1,
@@ -371,7 +372,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(\\alpha\\) ligger i andra kvadranten och \\(\\sin\\alpha=3/5\\).</p><p>a) Bestäm \\(\\cos\\alpha\\) och \\(\\tan\\alpha\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin(\\pi-\\alpha)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(\\cos(2\\pi-\\alpha)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>I andra kvadranten är cosinus negativ. Trigonometriska ettan ger \\(\\cos\\alpha=-4/5\\), och då \\(\\tan\\alpha=(3/5)/(-4/5)=-3/4\\).</p><p>b) \\(\\sin(\\pi-\\alpha)=\\sin\\alpha=\\boxed{3/5}\\).</p><p>c) \\(\\cos(2\\pi-\\alpha)=\\cos\\alpha=\\boxed{-4/5}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet. Använd därefter den trigonometriska relation som frågan kräver.</p><div class=\"facit-arbete\"><p>I andra kvadranten är cosinus negativ. Trigonometriska ettan ger \\(\\cos\\alpha=-4/5\\), och då \\(\\tan\\alpha=(3/5)/(-4/5)=-3/4\\).</p><p>b) \\(\\sin(\\pi-\\alpha)=\\sin\\alpha=\\boxed{3/5}\\).</p><p>c) \\(\\cos(2\\pi-\\alpha)=\\cos\\alpha=\\boxed{-4/5}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -484,7 +485,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln och motsvarar vinkeln \\(120^\\circ\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"265\" viewBox=\"0 0 390 265\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel med en radie till vinkeln 120 grader\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"263\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<circle cx=\"190\" cy=\"135\" r=\"82\" fill=\"#F4F8F9\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"60\" y1=\"135\" x2=\"330\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"190\" y1=\"35\" x2=\"190\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"190\" y1=\"135\" x2=\"149.0\" y2=\"64.0\" stroke=\"#268FA3\" stroke-width=\"2.5\"/>\n<line x1=\"149.0\" y1=\"64.0\" x2=\"149.0\" y2=\"135\" stroke=\"#268FA3\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"149.0\" y1=\"64.0\" x2=\"190\" y2=\"64.0\" stroke=\"#268FA3\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<circle cx=\"149.0\" cy=\"64.0\" r=\"5\" fill=\"#268FA3\"/>\n<path d=\"M 220 135 A 30 30 0 0 0 175.0 109.0\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.5\"/>\n<text x=\"202\" y=\"114\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">120°</text>\n<text x=\"141.0\" y=\"54.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">P</text>\n<text x=\"333\" y=\"128\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text>\n<text x=\"198\" y=\"42\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n<text x=\"279\" y=\"152\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#5C575E\">1</text>\n\n</svg></span><p>a) Bestäm punktens koordinater exakt.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin 120^\\circ\\) och \\(\\cos 120^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p>\n<p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten. Där är cosinus negativ och sinus positiv.</p>\n<p>\\[\n\\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad\n\\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}.\n\\]</p>\n<p><strong>a) \\(P=\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)\\)</strong><br>\n<strong>b) \\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\), \\(\\cos120^\\circ=-\\frac12\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> På enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\). Bestäm först rätt kvadrant och låt sedan tecknen avgöra vilket exakt värde som ska väljas.</p><div class=\"facit-arbete\"><p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p>\n<p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten. Där är cosinus negativ och sinus positiv.</p>\n<p>\\[\n\\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad\n\\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}.\n\\]</p>\n<p><strong>a) \\(P=\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)\\)</strong><br>\n<strong>b) \\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\), \\(\\cos120^\\circ=-\\frac12\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att koordinaterna ligger på enhetscirkeln, alltså att \\(x^2+y^2=1\\), och att tecknen stämmer med kvadranten.</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -976,7 +977,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln och har koordinaterna</p><p>\\[P=\\left(-\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"99.3\" y1=\"20.0\" x2=\"99.3\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"193.5\" y1=\"20.0\" x2=\"193.5\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"287.7\" y1=\"20.0\" x2=\"287.7\" y2=\"265.0\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"236.7\" x2=\"325.4\" y2=\"236.7\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"142.5\" x2=\"325.4\" y2=\"142.5\" stroke=\"#E8EEF0\"/>\n<line x1=\"61.6\" y1=\"48.3\" x2=\"325.4\" y2=\"48.3\" stroke=\"#E8EEF0\"/>\n<circle cx=\"193.5\" cy=\"142.5\" r=\"94.2\" fill=\"#F8FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"61.6\" y1=\"142.5\" x2=\"325.4\" y2=\"142.5\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"193.5\" y1=\"20.0\" x2=\"193.5\" y2=\"265.0\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<circle cx=\"111.9\" cy=\"95.4\" r=\"4.5\" fill=\"#B43123\"/>\n<text x=\"118.9\" y=\"88.4\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">P</text>\n<text x=\"322.4\" y=\"135.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text>\n<text x=\"200.5\" y=\"32.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n</svg></span><p>Låt \\(v\\) vara vinkeln från positiva x-axeln till \\(OP\\), där \\(0\\le v&lt;2\\pi\\).</p><p>a) Bestäm \\(v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin 2v\\) exakt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) Koordinaterna ger \\(\\cos v=-\\sqrt3/2\\) och \\(\\sin v=1/2\\). Punkten ligger i andra kvadranten, alltså</p><p>\\[\\boxed{v=\\frac{5\\pi}{6}}.\\]</p><p>b) Använd dubbla vinkeln:</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=\\boxed{-\\frac{\\sqrt3}{2}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet. Använd därefter den trigonometriska relation som frågan kräver.</p><div class=\"facit-arbete\"><p>a) Koordinaterna ger \\(\\cos v=-\\sqrt3/2\\) och \\(\\sin v=1/2\\). Punkten ligger i andra kvadranten, alltså</p><p>\\[\\boxed{v=\\frac{5\\pi}{6}}.\\]</p><p>b) Använd dubbla vinkeln:</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac12\\cdot\\left(-\\frac{\\sqrt3}{2}\\right)=\\boxed{-\\frac{\\sqrt3}{2}}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -1173,7 +1174,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>",
+    "ledtrad": "<p>Tänk geometriskt: vad händer med en punkts y-koordinat när den speglas i y-axeln?</p>",
     "svarFormat": "uttryck"
   },
   {
@@ -1299,7 +1300,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel indelad i fyra kvadranter\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"220\" cy=\"125\" r=\"82\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"125\" x2=\"395\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"285\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">I</text><text x=\"153\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">II</text><text x=\"150\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">III</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">IV</text><text x=\"402\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"228\" y=\"20\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm tecknet på</p><p>a) \\(\\sin140^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos220^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan310^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(-40^\\circ)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) 140° ligger i II: <strong>positivt</strong>.</p><p>b) 220° ligger i III: <strong>negativt</strong>.</p><p>c) 310° ligger i IV: sinus negativ och cosinus positiv, alltså <strong>negativt</strong>.</p><p>d) Sinus är udda: \\(\\sin(-40^\\circ)=-\\sin40^\\circ\\), alltså <strong>negativt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en referensvinkel med kända exakta värden och använd sedan kvadrant, symmetri eller periodicitet för rätt tecken.</p><div class=\"facit-arbete\"><p>a) 140° ligger i II: <strong>positivt</strong>.</p><p>b) 220° ligger i III: <strong>negativt</strong>.</p><p>c) 310° ligger i IV: sinus negativ och cosinus positiv, alltså <strong>negativt</strong>.</p><p>d) Sinus är udda: \\(\\sin(-40^\\circ)=-\\sin40^\\circ\\), alltså <strong>negativt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera värdets tecken mot kvadranten och att resultatet är ett exakt standardvärde.</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1464,8 +1465,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((-\\sqrt{3}/2,1/2)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p>",
@@ -1495,7 +1496,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt.</p>\n<p>a) \\(\\sin 30^\\circ\\)<br>\nb) \\(\\cos 150^\\circ\\)<br>\nc) \\(\\tan 225^\\circ\\)<br>\nd) \\(\\sin(-60^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) \\(\\sin30^\\circ=\\frac12\\).</p>\n<p>b) \\(150^\\circ=180^\\circ-30^\\circ\\), alltså \\(\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\).</p>\n<p>c) Tangens har perioden \\(180^\\circ\\): \\(\\tan225^\\circ=\\tan45^\\circ=1\\).</p>\n<p>d) Sinus är udda: \\(\\sin(-60^\\circ)=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en referensvinkel med kända exakta värden och använd sedan kvadrant, symmetri eller periodicitet för rätt tecken.</p><div class=\"facit-arbete\"><p>a) \\(\\sin30^\\circ=\\frac12\\).</p>\n<p>b) \\(150^\\circ=180^\\circ-30^\\circ\\), alltså \\(\\cos150^\\circ=-\\cos30^\\circ=-\\frac{\\sqrt3}{2}\\).</p>\n<p>c) Tangens har perioden \\(180^\\circ\\): \\(\\tan225^\\circ=\\tan45^\\circ=1\\).</p>\n<p>d) Sinus är udda: \\(\\sin(-60^\\circ)=-\\sin60^\\circ=-\\frac{\\sqrt3}{2}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera värdets tecken mot kvadranten och att resultatet är ett exakt standardvärde.</p></div>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1580,7 +1581,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm koordinaterna för punkten på enhetscirkeln som motsvarar vinkeln</p><p>a) \\(\\frac{2\\pi}{3}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\frac{7\\pi}{6}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\frac{11\\pi}{6}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> På enhetscirkeln har punkten koordinaterna \\((\\cos v,\\sin v)\\).</p><p>a) \\(\\cos\\frac{2\\pi}{3}=-\\frac12\\) och \\(\\sin\\frac{2\\pi}{3}=\\frac{\\sqrt3}{2}\\), alltså \\(\\boxed{\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)}\\).</p><p>b) \\(\\boxed{\\left(-\\frac{\\sqrt3}{2},-\\frac12\\right)}\\).</p><p>c) \\(\\boxed{\\left(\\frac{\\sqrt3}{2},-\\frac12\\right)}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> På enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\). Bestäm först rätt kvadrant och låt sedan tecknen avgöra vilket exakt värde som ska väljas.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> På enhetscirkeln har punkten koordinaterna \\((\\cos v,\\sin v)\\).</p><p>a) \\(\\cos\\frac{2\\pi}{3}=-\\frac12\\) och \\(\\sin\\frac{2\\pi}{3}=\\frac{\\sqrt3}{2}\\), alltså \\(\\boxed{\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)}\\).</p><p>b) \\(\\boxed{\\left(-\\frac{\\sqrt3}{2},-\\frac12\\right)}\\).</p><p>c) \\(\\boxed{\\left(\\frac{\\sqrt3}{2},-\\frac12\\right)}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att koordinaterna ligger på enhetscirkeln, alltså att \\(x^2+y^2=1\\), och att tecknen stämmer med kvadranten.</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -1648,8 +1649,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((-1/2,-\\sqrt{3}/2)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p>",
@@ -1678,19 +1679,55 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En punkt \\(P\\) på enhetscirkeln ligger i tredje kvadranten och har x-koordinaten \\(-3/5\\).</p><p>Bestäm punktens y-koordinat och \\(\\tan v\\), där \\(v\\) är motsvarande vinkel.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>På enhetscirkeln gäller \\(x^2+y^2=1\\). Alltså \\(9/25+y^2=1\\Rightarrow y^2=16/25\\). I tredje kvadranten är y negativ, så \\(y=-4/5\\).</p><p>\\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{-3/5}=\\boxed{4/3}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>En punkt \\(P\\) på enhetscirkeln ligger i tredje kvadranten och har x-koordinaten \\(-3/5\\).</p><p>a) Bestäm punktens y-koordinat.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\), där \\(v\\) är punktens vinkel.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet. Använd därefter den trigonometriska relation som frågan kräver.</p><div class=\"facit-arbete\"><p>På enhetscirkeln gäller \\(x^2+y^2=1\\). Alltså \\(9/25+y^2=1\\Rightarrow y^2=16/25\\). I tredje kvadranten är y negativ, så \\(y=-4/5\\).</p><p>\\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{-3/5}=\\boxed{4/3}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-4/5",
+      "4/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
+    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En punkt \\(P\\) på enhetscirkeln ligger i tredje kvadranten och har x-koordinaten \\(-3/5\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm punktens y-koordinat.</p>",
+        "s": "<p>På enhetscirkeln gäller \\(x^2+y^2=1\\). Med \\(x=-3/5\\) fås \\(y^2=16/25\\). I tredje kvadranten är y negativ, alltså \\(\\boxed{y=-4/5}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(\\tan v\\), där \\(v\\) är punktens vinkel.</p>",
+        "s": "<p>Nu är \\(x=-3/5\\) och \\(y=-4/5\\). Därför \\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{-3/5}=\\boxed{4/3}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.439",
@@ -1699,8 +1736,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((\\sqrt{2}/2,-\\sqrt{2}/2)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p>",
@@ -1725,23 +1762,59 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\sin v=3/5\\).</p><p>Bestäm exakt \\(\\sin(2v)\\) och \\(\\cos(2v)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>I andra kvadranten är cosinus negativ. Trigonometriska ettan ger \\(\\cos v=-4/5\\).</p><p>Dubbelvinkelformlerna ger</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25},\\]</p><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac9{25}=\\boxed{7/25}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\sin v=3/5\\).</p><p>a) Bestäm exakt \\(\\sin(2v)\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm exakt \\(\\cos(2v)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet. Använd därefter den trigonometriska relation som frågan kräver.</p><div class=\"facit-arbete\"><p>I andra kvadranten är cosinus negativ. Trigonometriska ettan ger \\(\\cos v=-4/5\\).</p><p>Dubbelvinkelformlerna ger</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25},\\]</p><p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac9{25}=\\boxed{7/25}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-24/25",
+      "7/25"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
+    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\sin v=3/5\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm exakt \\(\\sin(2v)\\).</p>",
+        "s": "<p>I andra kvadranten är \\(\\cos v<0\\). Trigonometriska ettan ger \\(\\cos v=-4/5\\). Då \\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm exakt \\(\\cos(2v)\\).</p>",
+        "s": "<p>I andra kvadranten är \\(\\cos v=-4/5\\). Därför \\[\\cos2v=\\cos^2v-\\sin^2v=\\frac{16}{25}-\\frac9{25}=\\boxed{7/25}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.281",
@@ -1754,20 +1827,55 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm exakt \\(\\sin(7\\pi/6)\\) och \\(\\cos(7\\pi/6)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p>Vinkeln ligger i tredje kvadranten med motsvarande vinkel i första kvadranten \\(\\pi/6\\). Båda koordinaterna är negativa: \\(\\boxed{\\sin=-1/2,\\cos=-\\sqrt3/2}\\).</p>",
+    "t": "<p>Bestäm exakt.</p><p>a) \\(\\sin(7\\pi/6)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(7\\pi/6)\\)</p>",
+    "s": "<p><strong>Nyckelidé:</strong> \\(7\\pi/6=\\pi+\\pi/6\\), alltså ligger vinkeln i tredje kvadranten med referensvinkeln \\(\\pi/6\\). Där är både sinus och cosinus negativa.</p><p>a) \\(\\sin(7\\pi/6)=-\\sin(\\pi/6)=\\boxed{-1/2}\\).</p><p>b) \\(\\cos(7\\pi/6)=-\\cos(\\pi/6)=\\boxed{-\\sqrt3/2}\\).</p>",
     "familj": "Exakta trigonometriska värden i enhetscirkeln",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "uttryck",
-    "rättSvar": "-sqrt(3)/2",
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "uttryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-1/2",
+      "-sqrt(3)/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
     "familjNyckel": "enhetscirkeln__exakta_trigonometriska_varden_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
+    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm exakt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>\\(\\sin(7\\pi/6)\\)</p>",
+        "s": "<p>\\(7\\pi/6\\) ligger i tredje kvadranten med referensvinkeln \\(\\pi/6\\). Därför \\(\\sin(7\\pi/6)=\\boxed{-1/2}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>\\(\\cos(7\\pi/6)\\)</p>",
+        "s": "<p>\\(7\\pi/6\\) ligger i tredje kvadranten med referensvinkeln \\(\\pi/6\\). Därför \\(\\cos(7\\pi/6)=\\boxed{-\\sqrt3/2}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.440",
@@ -1776,8 +1884,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har koordinaterna \\((0,-1)\\). Bestäm vinkeln \\(v\\) i intervallet \\(0^\\circ\\le v&lt;360^\\circ\\).</p>",
@@ -1887,23 +1995,59 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln i tredje kvadranten och har y-koordinaten \\(-3/5\\).</p><span class=\"fig smal\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel i ett koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"88.0\" y1=\"45\" x2=\"88.0\" y2=\"255\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"75\" y1=\"242.0\" x2=\"285\" y2=\"242.0\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"134.0\" y1=\"45\" x2=\"134.0\" y2=\"255\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"75\" y1=\"196.0\" x2=\"285\" y2=\"196.0\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"226.0\" y1=\"45\" x2=\"226.0\" y2=\"255\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"75\" y1=\"104.0\" x2=\"285\" y2=\"104.0\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"272.0\" y1=\"45\" x2=\"272.0\" y2=\"255\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"75\" y1=\"58.0\" x2=\"285\" y2=\"58.0\" stroke=\"#E6ECEF\" stroke-width=\"1\"/><line x1=\"55\" y1=\"150\" x2=\"305\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"180\" y1=\"270\" x2=\"180\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"180\" cy=\"150\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"309\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\">x</text><text x=\"188\" y=\"34\" font-family=\"sans-serif\" font-size=\"12\">y</text><line x1=\"180\" y1=\"150\" x2=\"106.4\" y2=\"205.2\" stroke=\"#268FA3\" stroke-width=\"2\"/><circle cx=\"106.4\" cy=\"205.2\" r=\"4\" fill=\"#B43123\"/><text x=\"115.4\" y=\"198.2\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">P</text><text x=\"115.4\" y=\"198.2\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">P</text></svg></span><p>Bestäm punktens x-koordinat och \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>På enhetscirkeln gäller \\(x^2+y^2=1\\), vilket motsvarar trigonometriska ettan.</p><p>\\[x^2+(-3/5)^2=1\\Rightarrow x^2=16/25.\\]</p><p>I tredje kvadranten är x-koordinaten negativ, alltså <strong>\\(x=-4/5\\)</strong>.</p><p>Vidare är \\(\\tan v=y/x=(-3/5)/(-4/5)=\\)<strong>\\(3/4\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln i tredje kvadranten och har y-koordinaten \\(-3/5\\).</p><p>a) Bestäm punktens x-koordinat.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet. Använd därefter den trigonometriska relation som frågan kräver.</p><div class=\"facit-arbete\"><p>På enhetscirkeln gäller \\(x^2+y^2=1\\), vilket motsvarar trigonometriska ettan.</p><p>\\[x^2+(-3/5)^2=1\\Rightarrow x^2=16/25.\\]</p><p>I tredje kvadranten är x-koordinaten negativ, alltså <strong>\\(x=-4/5\\)</strong>.</p><p>Vidare är \\(\\tan v=y/x=(-3/5)/(-4/5)=\\)<strong>\\(3/4\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-4/5",
+      "3/4"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
+    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Punkten \\(P\\) ligger på enhetscirkeln i tredje kvadranten och har y-koordinaten \\(-3/5\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm punktens x-koordinat.</p>",
+        "s": "<p>På enhetscirkeln gäller \\(x^2+y^2=1\\). Med \\(y=-3/5\\) fås \\(x^2=16/25\\). I tredje kvadranten är x negativ, alltså \\(\\boxed{x=-4/5}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
+        "s": "<p>Med \\(x=-4/5\\) och \\(y=-3/5\\) fås \\[\\tan v=\\frac{y}{x}=\\frac{-3/5}{-4/5}=\\boxed{3/4}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.441",
@@ -1912,8 +2056,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=3/5\\), och \\(v\\) ligger i kvadrant II. Bestäm \\(\\sin v\\) exakt.</p>",
@@ -2108,8 +2252,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=-5/13\\), och \\(v\\) ligger i kvadrant III. Bestäm \\(\\sin v\\) exakt.</p>",
@@ -2134,23 +2278,59 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En punkt \\(P=(3/5,y)\\) ligger på enhetscirkeln i fjärde kvadranten.</p><p>Bestäm \\(y\\) och \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
+    "t": "<p>En punkt \\(P=(3/5,y)\\) ligger på enhetscirkeln i fjärde kvadranten.</p><p>a) Bestäm \\(y\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p>På enhetscirkeln gäller \\(x^2+y^2=1\\):</p><p>\\[(3/5)^2+y^2=1\\Rightarrow y^2=16/25.\\]</p><p>I fjärde kvadranten är \\(y&lt;0\\), alltså <strong>\\(y=-4/5\\)</strong>.</p><p>\\(\\tan v=y/x=(-4/5)/(3/5)=\\)<strong>\\(-4/3\\)</strong>.</p>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-4/5",
+      "-4/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
-    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
+    "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En punkt \\(P=(3/5,y)\\) ligger på enhetscirkeln i fjärde kvadranten.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(y\\).</p>",
+        "s": "<p>På enhetscirkeln gäller \\(x^2+y^2=1\\). Med \\(x=3/5\\) fås \\(y^2=16/25\\). Punkten ligger i fjärde kvadranten, så \\(\\boxed{y=-4/5}\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
+        "s": "<p>Med \\(x=3/5\\) och \\(y=-4/5\\) fås \\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{3/5}=\\boxed{-4/3}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.323",
@@ -2244,8 +2424,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=8/17\\), och \\(v\\) ligger i kvadrant IV. Bestäm \\(\\sin v\\) exakt.</p>",
@@ -2270,8 +2450,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Vinkeln \\(\\alpha\\) ligger i första kvadranten och \\(\\sin\\alpha=5/13\\). Bestäm \\(\\tan\\alpha\\).</p>",
@@ -2321,8 +2501,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(v\\) gäller \\(\\cos v=-7/25\\), och \\(v\\) ligger i kvadrant II. Bestäm \\(\\sin v\\) exakt.</p>",
@@ -2351,17 +2531,17 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm värdet av \\(sin(-30^\\circ)\\) med hjälp av symmetri och periodicitet.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> Reducera vinkeln till en standardvinkel i ett varv och använd rätt tecken.</p><p><strong>Svar:</strong> \\(-0.500000\\).</p>",
+    "t": "<p>Bestäm exakt \\(\\sin(-30^\\circ)\\) med hjälp av symmetri.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sinus är en udda funktion: \\(\\sin(-v)=-\\sin v\\).</p><p>\\[\\sin(-30^\\circ)=-\\sin30^\\circ=\\boxed{-1/2}.\\]</p>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": -0.5,
-    "tolerans": 0.001,
+    "rättSvar": "-1/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2376,17 +2556,17 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm värdet av \\(cos(390^\\circ)\\) med hjälp av symmetri och periodicitet.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> Reducera vinkeln till en standardvinkel i ett varv och använd rätt tecken.</p><p><strong>Svar:</strong> \\(0.866025\\).</p>",
+    "t": "<p>Bestäm exakt \\(\\cos(390^\\circ)\\) med hjälp av periodicitet.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Cosinus har perioden \\(360^\\circ\\).</p><p>\\[390^\\circ=360^\\circ+30^\\circ\\Rightarrow \\cos390^\\circ=\\cos30^\\circ=\\boxed{\\sqrt3/2}.\\]</p>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.8660254037844386,
-    "tolerans": 0.001,
+    "rättSvar": "sqrt(3)/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2440,7 +2620,7 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
-    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>",
+    "ledtrad": "<p>Använd att cosinus är en jämn funktion: jämför \\(\\cos(-x)\\) med \\(\\cos x\\).</p>",
     "svarFormat": "numeriskt"
   },
   {
@@ -2450,21 +2630,21 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm värdet av \\(sin(750^\\circ)\\) med hjälp av symmetri och periodicitet.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> Reducera vinkeln till en standardvinkel i ett varv och använd rätt tecken.</p><p><strong>Svar:</strong> \\(0.500000\\).</p>",
+    "t": "<p>Bestäm exakt \\(\\sin(750^\\circ)\\) med hjälp av periodicitet.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Sinus har perioden \\(360^\\circ\\).</p><p>\\[750^\\circ=720^\\circ+30^\\circ\\Rightarrow \\sin750^\\circ=\\sin30^\\circ=\\boxed{1/2}.\\]</p>",
     "familj": "Symmetrier och periodicitet i enhetscirkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
-    "tolerans": 0.001,
+    "rättSvar": "1/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2479,17 +2659,17 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vinkeln \\(v\\) ligger i kvadrant I och \\(sinv=0.600000\\).</p><p>Bestäm \\(cosv\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj tecken från kvadranten. Därefter kan \\(\\tan v=\\sin v/\\cos v\\) användas vid behov.</p><p><strong>Svar:</strong> \\(0.800000\\).</p>",
+    "t": "<p>Vinkeln \\(v\\) ligger i första kvadranten och \\(\\sin v=3/5\\).</p><p>Bestäm \\(\\cos v\\) exakt.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Använd trigonometriska ettan och välj tecken från kvadranten.</p><p>\\[\\cos^2v=1-\\sin^2v=1-\\frac9{25}=\\frac{16}{25}.\\]</p><p>I första kvadranten är cosinus positiv, alltså \\(\\boxed{\\cos v=4/5}\\).</p>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.8,
-    "tolerans": 0.001,
+    "rättSvar": "4/5",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2526,21 +2706,21 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vinkeln \\(v\\) ligger i kvadrant II och \\(cosv=-0.384615\\).</p><p>Bestäm \\(sinv\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj tecken från kvadranten. Därefter kan \\(\\tan v=\\sin v/\\cos v\\) användas vid behov.</p><p><strong>Svar:</strong> \\(0.923077\\).</p>",
+    "t": "<p>Vinkeln \\(v\\) ligger i andra kvadranten och \\(\\cos v=-5/13\\).</p><p>Bestäm \\(\\sin v\\) exakt.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Trigonometriska ettan ger sinus belopp; kvadranten ger tecknet.</p><p>\\[\\sin^2v=1-\\cos^2v=1-\\frac{25}{169}=\\frac{144}{169}.\\]</p><p>I andra kvadranten är sinus positiv, alltså \\(\\boxed{\\sin v=12/13}\\).</p>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.9230769230769231,
-    "tolerans": 0.001,
+    "rättSvar": "12/13",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2551,21 +2731,21 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vinkeln \\(v\\) ligger i kvadrant IV och \\(sinv=-0.470588\\).</p><p>Bestäm \\(tanv\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> Använd \\(\\sin^2v+\\cos^2v=1\\) och välj tecken från kvadranten. Därefter kan \\(\\tan v=\\sin v/\\cos v\\) användas vid behov.</p><p><strong>Svar:</strong> \\(-0.533333\\).</p>",
+    "t": "<p>Vinkeln \\(v\\) ligger i fjärde kvadranten och \\(\\sin v=-8/17\\).</p><p>Bestäm \\(\\tan v\\) exakt.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Bestäm först cosinus med trigonometriska ettan.</p><p>\\[\\cos^2v=1-\\frac{64}{289}=\\frac{225}{289}.\\]</p><p>I fjärde kvadranten är cosinus positiv, så \\(\\cos v=15/17\\). Därför</p><p>\\[\\tan v=\\frac{-8/17}{15/17}=\\boxed{-8/15}.\\]</p>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": -0.5333333333333333,
-    "tolerans": 0.001,
+    "rättSvar": "-8/15",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2582,7 +2762,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En vinkel x ligger i fjärde kvadranten och \\(\\tan x=-3/4\\). Bestäm \\(\\cos x\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Tangens beskriver förhållandet mellan y- och x-koordinat. En 3–4–5-triangel ger beloppen \\(|\\sin x|=3/5\\) och \\(|\\cos x|=4/5\\). I fjärde kvadranten är cosinus positiv, alltså \\(\\cos x=4/5\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet. Använd därefter den trigonometriska relation som frågan kräver.</p><div class=\"facit-arbete\"><p>Tangens beskriver förhållandet mellan y- och x-koordinat. En 3–4–5-triangel ger beloppen \\(|\\sin x|=3/5\\) och \\(|\\cos x|=4/5\\). I fjärde kvadranten är cosinus positiv, alltså \\(\\cos x=4/5\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></div>",
     "familj": "Bestäm trigonometriska värden från ett givet värde",
     "formaga": [
       "procedur",
@@ -2635,16 +2815,16 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln 120°.</p><p>Bestäm punktens x-koordinat.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> På enhetscirkeln är koordinaterna \\((\\cos v,\\sin v)\\). Använd referensvinkeln och kvadrantens tecken.</p><p><strong>Svar:</strong> \\(-0.500000\\).</p>",
+    "s": "<p>På enhetscirkeln är x-koordinaten \\(\\cos v\\). Eftersom \\(120^\\circ=180^\\circ-60^\\circ\\) ligger vinkeln i andra kvadranten:</p><p>\\[x=\\cos120^\\circ=-\\cos60^\\circ=\\boxed{-1/2}.\\]</p>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": -0.5,
-    "tolerans": 0.001,
+    "rättSvar": "-1/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2660,16 +2840,16 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln 225°.</p><p>Bestäm punktens y-koordinat.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> På enhetscirkeln är koordinaterna \\((\\cos v,\\sin v)\\). Använd referensvinkeln och kvadrantens tecken.</p><p><strong>Svar:</strong> \\(-0.707107\\).</p>",
+    "s": "<p>På enhetscirkeln är y-koordinaten \\(\\sin v\\). Vinkeln \\(225^\\circ=180^\\circ+45^\\circ\\) ligger i tredje kvadranten:</p><p>\\[y=\\sin225^\\circ=-\\sin45^\\circ=\\boxed{-\\sqrt2/2}.\\]</p>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": -0.7071067811865476,
-    "tolerans": 0.001,
+    "rättSvar": "-sqrt(2)/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2680,8 +2860,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Anta att \\(\\sin v=3/5\\) och att \\(v\\) ligger i första kvadranten. Bestäm exakt \\(\\sin(2v)\\) och förklara varför tecknet kan avgöras utan att känna \\(v\\).</p>",
@@ -2706,9 +2886,9 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
+    "niva": "E",
     "typ": "periodicitet för tangens i exakt vinkel",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\tan(13\\pi/4)\\) exakt.</p>",
@@ -2734,21 +2914,21 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln 300°.</p><p>Bestäm punktens x-koordinat.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p><strong>Metod:</strong> På enhetscirkeln är koordinaterna \\((\\cos v,\\sin v)\\). Använd referensvinkeln och kvadrantens tecken.</p><p><strong>Svar:</strong> \\(0.500000\\).</p>",
+    "s": "<p>På enhetscirkeln är x-koordinaten \\(\\cos v\\). Vinkeln \\(300^\\circ=360^\\circ-60^\\circ\\) ligger i fjärde kvadranten:</p><p>\\[x=\\cos300^\\circ=\\cos60^\\circ=\\boxed{1/2}.\\]</p>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
-    "tolerans": 0.001,
+    "rättSvar": "1/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
@@ -2765,7 +2945,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt på enhetscirkeln har x-koordinaten \\(-\\sqrt3/2\\) och negativ y-koordinat. Bestäm vinkeln \\(\\theta\\) i intervallet \\(0\\le\\theta&lt;2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>x-koordinaten är cosinus. Beloppet \\(\\sqrt3/2\\) ger referensvinkeln \\(\\pi/6\\). Både x- och y-koordinaten är negativa, så punkten ligger i tredje kvadranten. Därför \\(\\theta=\\pi+\\pi/6=7\\pi/6\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> På enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\). Bestäm först rätt kvadrant och låt sedan tecknen avgöra vilket exakt värde som ska väljas.</p><div class=\"facit-arbete\"><p>x-koordinaten är cosinus. Beloppet \\(\\sqrt3/2\\) ger referensvinkeln \\(\\pi/6\\). Både x- och y-koordinaten är negativa, så punkten ligger i tredje kvadranten. Därför \\(\\theta=\\pi+\\pi/6=7\\pi/6\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att koordinaterna ligger på enhetscirkeln, alltså att \\(x^2+y^2=1\\), och att tecknen stämmer med kvadranten.</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "procedur",
@@ -2796,7 +2976,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa först att</p><p>\\[\\sin x+\\sin3x=2\\sin2x\\cos x.\\]</p><p>Använd sedan sambandet för att lösa</p><p>\\[\\sin x+\\sin2x+\\sin3x=0\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) Utgå från vänsterledet och skriv båda sinusuttrycken kring vinkeln \\(2x\\):</p>\n<p>\\[\\sin3x=\\sin(2x+x)=\\sin2x\\cos x+\\cos2x\\sin x,\\]</p>\n<p>\\[\\sin x=\\sin(2x-x)=\\sin2x\\cos x-\\cos2x\\sin x.\\]</p>\n<p>När uttrycken adderas tar termerna med \\(\\cos2x\\sin x\\) ut varandra:</p>\n<p>\\[\\sin x+\\sin3x=2\\sin2x\\cos x.\\]</p>\n<p>b) Använd nu sambandet i ekvationen:</p>\n<p>\\[\\sin x+\\sin2x+\\sin3x=\\sin2x(2\\cos x+1)=0.\\]</p>\n<p>Alltså måste minst en faktor vara noll.</p>\n<p>\\(\\sin2x=0\\Rightarrow2x=n\\pi\\Rightarrow x=n\\pi/2\\), vilket i intervallet ger \\(0,\\pi/2,\\pi,3\\pi/2\\).</p>\n<p>\\(2\\cos x+1=0\\Rightarrow\\cos x=-1/2\\Rightarrow x=2\\pi/3,4\\pi/3\\).</p>\n<p><strong>\\[\\boxed{x=0,\\frac\\pi2,\\frac{2\\pi}3,\\pi,\\frac{4\\pi}3,\\frac{3\\pi}2}.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Härled först det givna sambandet med additions- och subtraktionsformler. Faktorisera sedan ekvationen och lös varje faktor för sig.</p><div class=\"facit-arbete\"><p>a) Utgå från vänsterledet och skriv båda sinusuttrycken kring vinkeln \\(2x\\):</p>\n<p>\\[\\sin3x=\\sin(2x+x)=\\sin2x\\cos x+\\cos2x\\sin x,\\]</p>\n<p>\\[\\sin x=\\sin(2x-x)=\\sin2x\\cos x-\\cos2x\\sin x.\\]</p>\n<p>När uttrycken adderas tar termerna med \\(\\cos2x\\sin x\\) ut varandra:</p>\n<p>\\[\\sin x+\\sin3x=2\\sin2x\\cos x.\\]</p>\n<p>b) Använd nu sambandet i ekvationen:</p>\n<p>\\[\\sin x+\\sin2x+\\sin3x=\\sin2x(2\\cos x+1)=0.\\]</p>\n<p>Alltså måste minst en faktor vara noll.</p>\n<p>\\(\\sin2x=0\\Rightarrow2x=n\\pi\\Rightarrow x=n\\pi/2\\), vilket i intervallet ger \\(0,\\pi/2,\\pi,3\\pi/2\\).</p>\n<p>\\(2\\cos x+1=0\\Rightarrow\\cos x=-1/2\\Rightarrow x=2\\pi/3,4\\pi/3\\).</p>\n<p><strong>\\[\\boxed{x=0,\\frac\\pi2,\\frac{2\\pi}3,\\pi,\\frac{4\\pi}3,\\frac{3\\pi}2}.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt de erhållna lösningarna i ursprungsekvationen och kontrollera att bara lösningar i det angivna intervallet finns med.</p></div>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -2821,7 +3001,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Utveckla uttrycken.</p><p>a) \\(\\sin(x+30^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sin(x-45^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos(x+60^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(x-30^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>a) <strong>\\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv additions- eller subtraktionsformeln först och sätt därefter in de exakta standardvärdena.</p><div class=\"facit-arbete\"><p>a) <strong>\\(\\frac{\\sqrt3}{2}\\sin x+\\frac12\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac{\\sqrt2}{2}\\sin x-\\frac{\\sqrt2}{2}\\cos x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac12\\cos x-\\frac{\\sqrt3}{2}\\sin x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknen i formeln och jämför gärna resultatets tecken med den aktuella vinkeln.</p></div>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -2913,7 +3093,7 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "1+sin(x)^2",
-      "2cos^2x",
+      "2cos(x)^2",
       1,
       1
     ],
@@ -2989,7 +3169,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att</p><p>\\[\\frac{1-\\cos2x}{\\sin2x}=\\tan x\\]</p><p>för alla \\(x\\) där uttrycken är definierade.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[\\frac{1-\\cos2x}{\\sin2x}=\\frac{2\\sin^2x}{2\\sin x\\cos x}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p><strong>Identiteten är visad</strong> på den gemensamma definitionsmängden.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg. Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p><div class=\"facit-arbete\"><p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[\\frac{1-\\cos2x}{\\sin2x}=\\frac{2\\sin^2x}{2\\sin x\\cos x}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p><strong>Identiteten är visad</strong> på den gemensamma definitionsmängden.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></div>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -3314,7 +3494,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En punkt P på enhetscirkeln har x-koordinaten \\(8/17\\) och ligger under x-axeln. Bestäm P:s y-koordinat exakt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>På enhetscirkeln gäller \\(x^2+y^2=1\\), vilket är samma samband som trigonometriska ettan. Därför</p><p>\\[y^2=1-(8/17)^2=1-64/289=225/289.\\]</p><p>Alltså \\(|y|=15/17\\). Punkten ligger under x-axeln, så y måste vara negativ: \\(y=-15/17\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd trigonometriska ettan för att bestämma det saknade beloppet och låt kvadranten avgöra tecknet. Använd därefter den trigonometriska relation som frågan kräver.</p><div class=\"facit-arbete\"><p>På enhetscirkeln gäller \\(x^2+y^2=1\\), vilket är samma samband som trigonometriska ettan. Därför</p><p>\\[y^2=1-(8/17)^2=1-64/289=225/289.\\]</p><p>Alltså \\(|y|=15/17\\). Punkten ligger under x-axeln, så y måste vara negativ: \\(y=-15/17\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att \\(\\sin^2 v+\\cos^2 v=1\\) och att tecknen stämmer med den angivna kvadranten.</p></div>",
     "familj": "Använda trigonometriska ettan",
     "formaga": [
       "procedur",
@@ -3419,9 +3599,9 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
+    "niva": "E",
     "typ": "exakt sinus 75 grader",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm \\(\\sin75^\\circ\\) exakt med en additionsformel.</p>",
@@ -3437,7 +3617,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>",
+    "ledtrad": "<p>Skriv \\(75^\\circ\\) som summan av två standardvinklar vars sinus och cosinus du känner exakt.</p>",
     "svarFormat": "uttryck"
   },
   {
@@ -3536,7 +3716,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Beräkna exakt med additions- eller subtraktionsformler.</p><p>a) \\(\\sin 75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos 15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos 105^\\circ\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>a) \\(\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\).</p><p>b) \\(\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\).</p><p>c) \\(\\cos(60^\\circ+45^\\circ)=\\frac{\\sqrt2-\\sqrt6}{4}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Skriv varje vinkel som en summa eller differens av standardvinklar och använd additions- eller subtraktionsformeln.</p><p>a) \\(\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\).</p><p>b) \\(\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\).</p><p>c) \\(\\cos(60^\\circ+45^\\circ)=\\frac{\\sqrt2-\\sqrt6}{4}\\).</p>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -3608,7 +3788,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att</p><p>\\[\\frac{1-\\cos 2x}{\\sin 2x}=\\tan x\\]</p><p>för alla \\(x\\) där vänsterledet är definierat.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Skriv både täljaren och nämnaren med formler för dubbla vinkeln.</p><p>\\[1-\\cos 2x=1-(1-2\\sin^2x)=2\\sin^2x\\]</p><p>och</p><p>\\[\\sin 2x=2\\sin x\\cos x.\\]</p><p>Därför</p><p>\\[\\frac{1-\\cos 2x}{\\sin 2x}=\\frac{2\\sin^2x}{2\\sin x\\cos x}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p>Förenklingen är tillåten för de \\(x\\)-värden där ursprungsuttrycket är definierat.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg. Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Skriv både täljaren och nämnaren med formler för dubbla vinkeln.</p><p>\\[1-\\cos 2x=1-(1-2\\sin^2x)=2\\sin^2x\\]</p><p>och</p><p>\\[\\sin 2x=2\\sin x\\cos x.\\]</p><p>Därför</p><p>\\[\\frac{1-\\cos 2x}{\\sin 2x}=\\frac{2\\sin^2x}{2\\sin x\\cos x}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p>Förenklingen är tillåten för de \\(x\\)-värden där ursprungsuttrycket är definierat.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></div>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -3654,12 +3834,12 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt \\(\\cos15^\\circ\\) med en additions- eller subtraktionsformel.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Nyckelidé:</strong> Använd \\(15^\\circ=45^\\circ-30^\\circ\\) och formeln för cosinus av en differens.</p><p><strong>Svar:</strong> \\(\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Skriv \\(15^\\circ=45^\\circ-30^\\circ\\) och använd cosinus för en differens.</p><p><strong>Nyckelidé:</strong> Använd \\(15^\\circ=45^\\circ-30^\\circ\\) och formeln för cosinus av en differens.</p><p><strong>Svar:</strong> \\(\\boxed{\\frac{\\sqrt6+\\sqrt2}{4}}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -3685,7 +3865,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Utveckla.</p><p>a) \\(\\sin(x+\\frac{\\pi}{3})\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(x-\\frac{\\pi}{6})\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\sin(x-\\frac{\\pi}{4})\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(x+\\frac{\\pi}{4})\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>a) <strong>\\(\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\)</strong>.</p><p>b) <strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong>.</p><p>c) <strong>\\(\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\)</strong>.</p><p>d) <strong>\\(\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Skriv rätt additions- eller subtraktionsformel och ersätt standardvinklarna med deras exakta värden.</p><p>a) <strong>\\(\\frac12\\sin x+\\frac{\\sqrt3}{2}\\cos x\\)</strong>.</p><p>b) <strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong>.</p><p>c) <strong>\\(\\frac{\\sqrt2}{2}(\\sin x-\\cos x)\\)</strong>.</p><p>d) <strong>\\(\\frac{\\sqrt2}{2}(\\cos x-\\sin x)\\)</strong>.</p>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -3854,7 +4034,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Förenkla först båda leden. Kan en faktor sättas till noll, en variabel isoleras eller två ekvationer adderas så att en variabel försvinner?</p>",
+    "ledtrad": "<p>Skriv \\(15^\\circ\\) som skillnaden mellan två standardvinklar och välj rätt formel för cosinus.</p>",
     "svarFormat": "uttryck"
   },
   {
@@ -3979,7 +4159,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Det gäller att \\(\\sin x=\\frac{5}{13}\\) och \\(\\cos x=\\frac{12}{13}\\).</p><p>Bestäm exakt</p><p>a) \\(\\sin2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan2x\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Läs vad varje symbol betyder och skriv värdet direkt under rätt symbol innan du sätter in. Om en annan variabel söks isolerar du den med samma operation i båda leden.</p><div class=\"facit-arbete\"><p>a) \\(\\sin2x=2\\sin x\\cos x=2\\cdot\\frac5{13}\\cdot\\frac{12}{13}=\\boxed{\\frac{120}{169}}\\).</p><p>b) \\(\\cos2x=\\cos^2x-\\sin^2x=\\frac{144-25}{169}=\\boxed{\\frac{119}{169}}\\).</p><p>c) \\(\\tan2x=\\frac{\\sin2x}{\\cos2x}=\\boxed{\\frac{120}{119}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten och sätt tillbaka resultatet i ursprungsformeln om du har löst ut en variabel.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Sätt in de givna trigonometriska värdena direkt i formlerna för dubbla vinkeln och förenkla exakt.</p><div class=\"facit-arbete\"><p>a) \\(\\sin2x=2\\sin x\\cos x=2\\cdot\\frac5{13}\\cdot\\frac{12}{13}=\\boxed{\\frac{120}{169}}\\).</p><p>b) \\(\\cos2x=\\cos^2x-\\sin^2x=\\frac{144-25}{169}=\\boxed{\\frac{119}{169}}\\).</p><p>c) \\(\\tan2x=\\frac{\\sin2x}{\\cos2x}=\\boxed{\\frac{120}{119}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera gärna resultatet med \\(\\sin^2(2x)+\\cos^2(2x)=1\\) när både sinus och cosinus har bestämts.</p></div>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -4160,7 +4340,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa algebraiskt att</p>\n<p>\\[\n\\tan\\frac v2=\\frac{\\sin v}{1+\\cos v}\n\\]</p>\n<p>för alla \\(v\\) där båda leden är definierade.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Utgå från högerledet och använd formlerna för dubbla vinkeln:</p>\n<p>\\[\n\\sin v=2\\sin\\frac v2\\cos\\frac v2\n\\]</p>\n<p>och</p>\n<p>\\[\n1+\\cos v=1+\\left(2\\cos^2\\frac v2-1\\right)\n=2\\cos^2\\frac v2.\n\\]</p>\n<p>Då</p>\n<p>\\[\n\\frac{\\sin v}{1+\\cos v}\n=\n\\frac{2\\sin\\frac v2\\cos\\frac v2}{2\\cos^2\\frac v2}\n=\n\\frac{\\sin\\frac v2}{\\cos\\frac v2}\n=\n\\tan\\frac v2.\n\\]</p>\n<p><strong>Identiteten är visad.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg. Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p><div class=\"facit-arbete\"><p>Utgå från högerledet och använd formlerna för dubbla vinkeln:</p>\n<p>\\[\n\\sin v=2\\sin\\frac v2\\cos\\frac v2\n\\]</p>\n<p>och</p>\n<p>\\[\n1+\\cos v=1+\\left(2\\cos^2\\frac v2-1\\right)\n=2\\cos^2\\frac v2.\n\\]</p>\n<p>Då</p>\n<p>\\[\n\\frac{\\sin v}{1+\\cos v}\n=\n\\frac{2\\sin\\frac v2\\cos\\frac v2}{2\\cos^2\\frac v2}\n=\n\\frac{\\sin\\frac v2}{\\cos\\frac v2}\n=\n\\tan\\frac v2.\n\\]</p>\n<p><strong>Identiteten är visad.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></div>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -4297,7 +4477,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att</p>\n<p>\\[\n\\sin4x+2\\sin2x=8\\sin x\\cos^3x\n\\]</p>\n<p>för alla reella \\(x\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Utgå från vänsterledet:</p>\n<p>\\[\n\\sin4x+2\\sin2x\n=2\\sin2x\\cos2x+2\\sin2x\n\\]</p>\n<p>\\[\n=2\\sin2x(\\cos2x+1).\n\\]</p>\n<p>Använd \\(\\sin2x=2\\sin x\\cos x\\) och \\(1+\\cos2x=2\\cos^2x\\):</p>\n<p>\\[\n2(2\\sin x\\cos x)(2\\cos^2x)\n=8\\sin x\\cos^3x.\n\\]</p>\n<p><strong>VL = HL.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg. Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p><div class=\"facit-arbete\"><p>Utgå från vänsterledet:</p>\n<p>\\[\n\\sin4x+2\\sin2x\n=2\\sin2x\\cos2x+2\\sin2x\n\\]</p>\n<p>\\[\n=2\\sin2x(\\cos2x+1).\n\\]</p>\n<p>Använd \\(\\sin2x=2\\sin x\\cos x\\) och \\(1+\\cos2x=2\\cos^2x\\):</p>\n<p>\\[\n2(2\\sin x\\cos x)(2\\cos^2x)\n=8\\sin x\\cos^3x.\n\\]</p>\n<p><strong>VL = HL.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></div>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -4322,18 +4502,54 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>För vinkeln \\(v\\) gäller \\(\\tan v=2\\) och \\(0&lt;v&lt;\\pi/2\\).</p><p>Bestäm \\(\\sin2v\\) och \\(\\cos2v\\) exakt utan att först bestämma vinkeln \\(v\\).</p>",
+    "t": "<p>För vinkeln \\(v\\) gäller \\(\\tan v=2\\) och \\(0&lt;v&lt;\\pi/2\\). Bestäm värdena exakt utan att först bestämma \\(v\\).</p><p>a) \\(\\sin2v\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos2v\\)</p>",
     "s": "<p>Eftersom \\(\\tan v=2=2/1\\) kan en rätvinklig triangel väljas med kateterna 2 och 1. Hypotenusan blir \\(\\sqrt5\\), så</p><p>\\[\\sin v=\\frac2{\\sqrt5},\\qquad \\cos v=\\frac1{\\sqrt5}.\\]</p>\n<p>Då</p><p>\\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac2{\\sqrt5}\\cdot\\frac1{\\sqrt5}=\\boxed{\\frac45}.\\]</p>\n<p>\\[\\cos2v=\\cos^2v-\\sin^2v=\\frac15-\\frac45=\\boxed{-\\frac35}.\\]</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4/5",
+      "-3/5"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För vinkeln \\(v\\) gäller \\(\\tan v=2\\) och \\(0&lt;v&lt;\\pi/2\\). Bestäm värdena utan att först bestämma \\(v\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(\\sin2v\\) exakt.</p>",
+        "s": "<p>Välj en rätvinklig triangel med motstående katet 2 och närliggande katet 1. Då är \\(\\sin v=2/\\sqrt5\\) och \\(\\cos v=1/\\sqrt5\\). Alltså \\[\\sin2v=2\\sin v\\cos v=\\boxed{4/5}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(\\cos2v\\) exakt.</p>",
+        "s": "<p>Med samma triangel är \\(\\sin v=2/\\sqrt5\\) och \\(\\cos v=1/\\sqrt5\\). Då \\[\\cos2v=\\cos^2v-\\sin^2v=\\frac15-\\frac45=\\boxed{-3/5}.\\]</p>",
+        "niva": "C",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.82",
@@ -4347,7 +4563,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla uttrycket så långt som möjligt:</p><p>\\[\\frac{1-\\sin^2x}{\\cos x}.\\]</p><p>Ange också för vilka \\(x\\) omskrivningen gäller.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Trigonometriska ettan ger \\(1-\\sin^2x=\\cos^2x\\). Då</p><p>\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}=\\boxed{\\cos x}.\\]</p><p>Divisionen kräver \\(\\cos x\\ne0\\), alltså \\(x\\ne \\pi/2+n\\pi\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg. Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p><div class=\"facit-arbete\"><p>Trigonometriska ettan ger \\(1-\\sin^2x=\\cos^2x\\). Då</p><p>\\[\\frac{1-\\sin^2x}{\\cos x}=\\frac{\\cos^2x}{\\cos x}=\\boxed{\\cos x}.\\]</p><p>Divisionen kräver \\(\\cos x\\ne0\\), alltså \\(x\\ne \\pi/2+n\\pi\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></div>",
     "familj": "Använda trigonometriska ettan",
     "formaga": [
       "procedur"
@@ -4458,7 +4674,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att</p><p>\\[\\frac{1-\\cos 2x}{\\sin 2x}=\\tan x\\]</p><p>för alla \\(x\\) där båda leden är definierade.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[\\frac{2\\sin^2x}{2\\sin x\\cos x}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p>Alltså är identiteten visad där uttrycken är definierade.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om uttrycket med den trigonometriska formel som passar och förenkla steg för steg. Vid kvoter måste ursprungsuttryckets definitionsvillkor bevaras.</p><div class=\"facit-arbete\"><p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[\\frac{2\\sin^2x}{2\\sin x\\cos x}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p>Alltså är identiteten visad där uttrycken är definierade.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att varje omskrivning är en identitet och att inga förbjudna värden har införts eller tappats bort.</p></div>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -4509,7 +4725,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För en spetsig vinkel \\(v\\) gäller \\(\\tan v=2\\). Bestäm exakt \\(\\sin 2v\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>En användbar form av dubbla vinkeln är</p><p>\\[\\sin2v=\\frac{2\\tan v}{1+\\tan^2v}.\\]</p><p>Med \\(\\tan v=2\\) fås</p><p>\\[\\sin2v=\\frac{4}{1+4}=\\boxed{\\frac45}.\\]</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(\\tan v=2\\) och \\(v\\) är spetsig kan vi använda en rätvinklig triangel med motstående katet 2 och närliggande katet 1.</p>\n<p>Hypotenusan blir \\(\\sqrt{1^2+2^2}=\\sqrt5\\). Därför</p>\n<p>\\[\\sin v=\\frac{2}{\\sqrt5},\\qquad \\cos v=\\frac{1}{\\sqrt5}.\\]</p>\n<p>Med formeln för dubbla vinkeln:</p>\n<p>\\[\\sin2v=2\\sin v\\cos v\n=2\\cdot\\frac{2}{\\sqrt5}\\cdot\\frac{1}{\\sqrt5}\n=\\boxed{\\frac45}.\\]</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -4534,17 +4750,34 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x\\cos x=\\frac{\\sqrt3}{2},\\qquad0\\le x&lt;2\\pi.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Läs vad varje symbol betyder och skriv värdet direkt under rätt symbol innan du sätter in. Om en annan variabel söks isolerar du den med samma operation i båda leden.</p><div class=\"facit-arbete\"><p>Använd \\(2\\sin x\\cos x=\\sin2x\\). Då</p><p>\\[\\sin2x=\\frac{\\sqrt3}{2}.\\]</p><p>För \\(0\\le2x&lt;4\\pi\\) fås \\(2x=\\pi/3,2\\pi/3,7\\pi/3,8\\pi/3\\).</p><p><strong>\\(\\boxed{x=\\frac\\pi6,\\frac\\pi3,\\frac{7\\pi}6,\\frac{4\\pi}3}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten och sätt tillbaka resultatet i ursprungsformeln om du har löst ut en variabel.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> Känn igen vänsterledet som en dubbelvinkel.</p><p>Eftersom \\(2\\sin x\\cos x=\\sin2x\\) blir ekvationen</p><p>\\[\\sin2x=\\frac{\\sqrt3}{2}.\\]</p><p>När \\(0\\le x&lt;2\\pi\\) gäller \\(0\\le2x&lt;4\\pi\\), alltså två hela varv för vinkeln \\(2x\\). Därför</p><p>\\[2x=\\frac\\pi3,\\frac{2\\pi}3,\\frac{7\\pi}3,\\frac{8\\pi}3.\\]</p><p>Dividera med 2:</p><p>\\[\\boxed{x=\\frac\\pi6,\\frac\\pi3,\\frac{7\\pi}6,\\frac{4\\pi}3}.\\]</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "pi/3",
+      "7*pi/6",
+      "4*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Byt först ut \\(2\\sin x\\cos x\\) mot en sinus med dubbel vinkel. Tänk sedan på vilket intervall \\(2x\\) ligger i.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.120",
@@ -4558,7 +4791,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att</p>\n<p>\\[\n\\frac{\\sin2x}{2\\cos x}=\\sin x\n\\]</p>\n<p>för alla \\(x\\) där vänsterledet är definierat.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Använd formeln för dubbla vinkeln:</p>\n<p>\\[\n\\sin2x=2\\sin x\\cos x.\n\\]</p>\n<p>Då blir</p>\n<p>\\[\n\\frac{\\sin2x}{2\\cos x}\n=\n\\frac{2\\sin x\\cos x}{2\\cos x}\n=\\sin x.\n\\]</p>\n<p>Förkortningen är tillåten när \\(\\cos x\\ne0\\), vilket är precis det villkor som krävs för att vänsterledet ska vara definierat.</p>\n<p><strong>Identiteten är visad.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> Använd \\(\\sin2x=2\\sin x\\cos x\\).</p><p>För de \\(x\\) där vänsterledet är definierat gäller \\(\\cos x\\ne0\\). Då</p><p>\\[\\frac{\\sin2x}{2\\cos x}=\\frac{2\\sin x\\cos x}{2\\cos x}=\\sin x.\\]</p><p>Alltså är identiteten visad på vänsterledets definitionsmängd.</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -4569,7 +4802,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv om \\(\\sin2x\\) med dubbelvinkelformeln. Vilken faktor kan sedan förkortas, och när är det tillåtet?</p>",
     "spel": false
   },
   {
@@ -4584,7 +4817,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att</p><p>\\[\\frac{\\sin x+\\tan x}{1+\\cos x}=\\tan x\\]</p><p>för alla \\(x\\) där båda leden är definierade.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Utgå från vänsterledet och skriv \\(\\tan x=\\sin x/\\cos x\\):</p><p>\\[\\frac{\\sin x+\\sin x/\\cos x}{1+\\cos x}=\\frac{\\sin x(\\cos x+1)}{\\cos x(1+\\cos x)}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p>För alla \\(x\\) där ursprungsuttrycken är definierade är förkortningen tillåten. Identiteten är då visad.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> Skriv tangens som sinus genom cosinus och samla täljaren.</p><p>\\[\\frac{\\sin x+\\tan x}{1+\\cos x}=\\frac{\\sin x+\\sin x/\\cos x}{1+\\cos x}\\]</p><p>\\[=\\frac{\\sin x(1+\\cos x)}{\\cos x(1+\\cos x)}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p>Förkortningen görs bara där ursprungsuttrycken är definierade.</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -4595,7 +4828,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Ersätt \\(\\tan x\\) med \\(\\sin x/\\cos x\\) och faktorisera täljaren.</p>",
     "spel": false
   },
   {
@@ -4609,17 +4842,17 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>För en spetsig vinkel \\(v\\) gäller \\(\\sin v=5/13\\).</p><p>a) Bestäm \\(\\cos v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Kontrollera att \\(\\sin^2v+\\cos^2v=1\\).</p>",
-    "s": "<p><strong>Metod:</strong> Använd trigonometriska ettan. Eftersom vinkeln är spetsig väljs den positiva roten.</p><p>\\[\\cos^2v=1-(5/13)^2=144/169\\Rightarrow \\cos v=\\boxed{12/13}.\\]</p><p>Därför \\(\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\).</p><p>Kontroll: \\(25/169+144/169=169/169=1\\).</p>",
+    "t": "<p>För en spetsig vinkel \\(v\\) gäller \\(\\sin v=5/13\\).</p><p>a) Bestäm \\(\\cos v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\tan v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Beräkna \\(\\sin^2v+\\cos^2v\\) som kontroll.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Använd trigonometriska ettan och att en spetsig vinkel har positiv cosinus.</p><p>a) \\(\\cos^2v=1-(5/13)^2=144/169\\), alltså \\(\\boxed{\\cos v=12/13}\\).</p><p>b) \\(\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\).</p><p>c) \\(25/169+144/169=\\boxed{1}\\), vilket kontrollerar värdena.</p>",
     "familj": "Använda trigonometriska ettan",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null
+      "12/13",
+      "5/12",
+      1
     ],
     "tolerans": [
       null,
@@ -4627,41 +4860,41 @@ window.BANKMATO2 = [
       null
     ],
     "självrättning": [
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ],
     "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Börja med \\(\\sin^2v+\\cos^2v=1\\). Eftersom \\(v\\) är spetsig ska \\(\\cos v\\) vara positiv.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För en spetsig vinkel \\(v\\) gäller \\(\\sin v=5/13\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(\\cos v\\).</p>",
-        "s": "<p><strong>Metod:</strong> Använd trigonometriska ettan. Eftersom vinkeln är spetsig väljs den positiva roten.</p><p>\\[\\cos^2v=1-(5/13)^2=144/169\\Rightarrow \\cos v=\\boxed{12/13}.\\]</p><p>Därför \\(\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\).</p><p>Kontroll: \\(25/169+144/169=169/169=1\\).</p>",
+        "s": "<p>\\(\\cos^2v=1-25/169=144/169\\), och \\(v\\) är spetsig. Alltså \\(\\boxed{12/13}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\tan v\\).</p>",
-        "s": "<p><strong>Metod:</strong> Använd trigonometriska ettan. Eftersom vinkeln är spetsig väljs den positiva roten.</p><p>\\[\\cos^2v=1-(5/13)^2=144/169\\Rightarrow \\cos v=\\boxed{12/13}.\\]</p><p>Därför \\(\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\).</p><p>Kontroll: \\(25/169+144/169=169/169=1\\).</p>",
+        "s": "<p>\\(\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>Kontrollera att \\(\\sin^2v+\\cos^2v=1\\).</p>",
-        "s": "<p><strong>Metod:</strong> Använd trigonometriska ettan. Eftersom vinkeln är spetsig väljs den positiva roten.</p><p>\\[\\cos^2v=1-(5/13)^2=144/169\\Rightarrow \\cos v=\\boxed{12/13}.\\]</p><p>Därför \\(\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\).</p><p>Kontroll: \\(25/169+144/169=169/169=1\\).</p>",
+        "fraga": "<p>Beräkna \\(\\sin^2v+\\cos^2v\\).</p>",
+        "s": "<p>\\(25/169+144/169=\\boxed1\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null
+      "uttryck",
+      "uttryck",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -4710,7 +4943,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla.</p>\n<p>a) \\(\\sin^2x+\\cos^2x\\)<br>\nb) \\(1-\\cos^2x\\)<br>\nc) \\(\\dfrac{\\sin^2x+\\cos^2x}{\\cos x}\\)<br>\nd) \\(\\dfrac{1-\\sin^2x}{\\cos x}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Använd \\(\\sin^2x+\\cos^2x=1\\).</p>\n<p>a) <strong>\\(1\\)</strong></p>\n<p>b) \\(1-\\cos^2x=\\)<strong>\\(\\sin^2x\\)</strong></p>\n<p>c) \\(\\frac1{\\cos x}=\\)<strong>\\(\\frac1{\\cos x}\\)</strong>, där \\(\\cos x\\ne0\\).</p>\n<p>d) \\(\\frac{\\cos^2x}{\\cos x}=\\)<strong>\\(\\cos x\\)</strong>, där \\(\\cos x\\ne0\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<p><strong>Metod:</strong> Använd \\(\\sin^2x+\\cos^2x=1\\).</p><p>a) \\(\\boxed1\\).</p><p>b) \\(1-\\cos^2x=\\boxed{\\sin^2x}\\).</p><p>c) \\(\\dfrac{1}{\\cos x}\\), där \\(\\cos x\\ne0\\).</p><p>d) \\(\\dfrac{\\cos^2x}{\\cos x}=\\boxed{\\cos x}\\), där \\(\\cos x\\ne0\\).</p>",
     "familj": "Använda trigonometriska ettan",
     "formaga": [
       "procedur"
@@ -4779,7 +5012,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Byt \\(\\sin^2x+\\cos^2x\\) mot 1. Vid förkortning måste du kontrollera att nämnaren inte är noll.</p>",
     "spelIntro": "<p>Förenkla.</p>"
   },
   {
@@ -4794,17 +5027,35 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vinkeln \\(x\\) gäller \\(\\cos x=-12/13\\) och \\(90^\\circ&lt;x&lt;180^\\circ\\).</p><p>Bestäm exakt \\(\\sin x\\) och \\(\\tan x\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Trigonometriska ettan ger \\(\\sin^2x=1-144/169=25/169\\). I andra kvadranten är sinus positiv, så \\(\\sin x=\\boxed{5/13}\\).</p><p>\\[\\tan x=\\frac{5/13}{-12/13}=\\boxed{-5/12}.\\]</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Trigonometriska ettan ger storleken på sinus; kvadranten ger tecknet.</p><p>\\[\\sin^2x=1-\\left(-\\frac{12}{13}\\right)^2=\\frac{25}{169}.\\]</p><p>I andra kvadranten är sinus positiv, alltså \\(\\boxed{\\sin x=5/13}\\).</p><p>Därefter</p><p>\\[\\tan x=\\frac{5/13}{-12/13}=\\boxed{-5/12}.\\]</p>",
     "familj": "Använda trigonometriska ettan",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5/13",
+      "-5/12"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Använd trigonometriska ettan. I andra kvadranten är sinus positiv och cosinus negativ.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "sin x",
+      "tan x"
+    ]
   },
   {
     "id": "1.142",
@@ -5043,7 +5294,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm exakt med hjälp av additions- eller subtraktionsformler.</p><p>a) \\(\\sin75^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos15^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos105^\\circ\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>a) \\(\\sin(45^\\circ+30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\).</p><p>b) \\(\\cos(45^\\circ-30^\\circ)=\\frac{\\sqrt6+\\sqrt2}{4}\\).</p><p>c) \\(\\cos(60^\\circ+45^\\circ)=\\frac{\\sqrt2-\\sqrt6}{4}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Dela vinkeln i standardvinklar och använd additions- eller subtraktionsformeln.</p><p>a) \\(\\sin75^\\circ=\\sin(45^\\circ+30^\\circ)=\\boxed{(\\sqrt6+\\sqrt2)/4}\\).</p><p>b) \\(\\cos15^\\circ=\\cos(45^\\circ-30^\\circ)=\\boxed{(\\sqrt6+\\sqrt2)/4}\\).</p><p>c) \\(\\cos105^\\circ=\\cos(60^\\circ+45^\\circ)=\\boxed{(\\sqrt2-\\sqrt6)/4}\\).</p>",
     "familj": "Använda additionsformler för sinus och cosinus",
     "formaga": [
       "procedur"
@@ -5065,7 +5316,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv 75°, 15° och 105° som summor eller differenser av 30°, 45° och 60°.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm exakt med hjälp av additions- eller subtraktionsformler.</p>",
     "spelDelar": [
@@ -5115,7 +5366,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla så långt som möjligt.</p><p>a) \\(4\\sin x\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(3-6\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\cos^2x-2\\sin^2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac{\\sin 2x}{\\cos x}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Läs vad varje symbol betyder och skriv värdet direkt under rätt symbol innan du sätter in. Om en annan variabel söks isolerar du den med samma operation i båda leden.</p><div class=\"facit-arbete\"><p>a) \\(4\\sin x\\cos x=\\)<strong>\\(2\\sin2x\\)</strong>.</p><p>b) \\(3(1-2\\sin^2x)=\\)<strong>\\(3\\cos2x\\)</strong>.</p><p>c) \\(2(\\cos^2x-\\sin^2x)=\\)<strong>\\(2\\cos2x\\)</strong>.</p><p>d) \\(\\frac{2\\sin x\\cos x}{\\cos x}=\\)<strong>\\(2\\sin x\\)</strong>, där uttrycket är definierat.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten och sätt tillbaka resultatet i ursprungsformeln om du har löst ut en variabel.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> Matcha varje uttryck mot en dubbelvinkelformel.</p><p>a) \\(4\\sin x\\cos x=2(2\\sin x\\cos x)=\\boxed{2\\sin2x}\\).</p><p>b) \\(3-6\\sin^2x=3(1-2\\sin^2x)=\\boxed{3\\cos2x}\\).</p><p>c) \\(2(\\cos^2x-\\sin^2x)=\\boxed{2\\cos2x}\\).</p><p>d) \\(\\sin2x/\\cos x=2\\sin x\\) där \\(\\cos x\\ne0\\).</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5184,7 +5435,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Använd \\(\\sin2x=2\\sin x\\cos x\\) och de tre formerna av \\(\\cos2x\\).</p>",
     "spelIntro": "<p>Förenkla så långt som möjligt.</p>"
   },
   {
@@ -5200,7 +5451,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin^2x=\\cos^2x\\) för \\(0\\le x&lt;2\\pi\\) genom att använda en dubbelvinkelformel.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Läs vad varje symbol betyder och skriv värdet direkt under rätt symbol innan du sätter in. Om en annan variabel söks isolerar du den med samma operation i båda leden.</p><div class=\"facit-arbete\"><p>Flytta leden till samma sida: \\(\\cos^2x-\\sin^2x=0\\). Vänsterledet är \\(\\cos2x\\), så ekvationen blir \\(\\cos2x=0\\). Därför</p><p>\\[x=\\frac{\\pi}{4},\\frac{3\\pi}{4},\\frac{5\\pi}{4},\\frac{7\\pi}{4}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten och sätt tillbaka resultatet i ursprungsformeln om du har löst ut en variabel.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> Skriv skillnaden som en dubbelvinkel.</p><p>\\[\\sin^2x=\\cos^2x\\iff\\cos^2x-\\sin^2x=0\\iff\\cos2x=0.\\]</p><p>För \\(0\\le x&lt;2\\pi\\) gäller \\(0\\le2x&lt;4\\pi\\). Därför</p><p>\\[2x=\\pi/2,3\\pi/2,5\\pi/2,7\\pi/2,\\]</p><p>och alltså</p><p>\\[\\boxed{x=\\pi/4,3\\pi/4,5\\pi/4,7\\pi/4}.\\]</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur",
@@ -5217,7 +5468,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Skriv en liten lista med symbol, värde och enhet. Sätt sedan in ett värde i taget och kontrollera att det hamnar på rätt plats i formeln.</p>",
+    "ledtrad": "<p>Flytta leden till samma sida och känn igen \\(\\cos^2x-\\sin^2x=\\cos2x\\).</p>",
     "svarFormat": [
       "uttryck",
       "uttryck",
@@ -5265,7 +5516,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla med formler för dubbla vinkeln.</p><p>a) \\(2\\sin x\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2\\cos^2x-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(1-2\\sin^2x\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p><p>a) <strong>\\(\\sin2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\cos2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\cos2x\\)</strong></p>",
+    "s": "<p><strong>Metod:</strong> Matcha varje uttryck mot en av dubbelvinkelformlerna.</p><p><strong>Metod:</strong> Matcha uttrycket mot formlerna \\(\\sin2x=2\\sin x\\cos x\\) och \\(\\cos2x=\\cos^2x-\\sin^2x=1-2\\sin^2x=2\\cos^2x-1\\).</p><p>a) <strong>\\(\\sin2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\cos2x\\)</strong><br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\cos2x\\)</strong></p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
@@ -5332,22 +5583,40 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Skriv uttrycket</p><p>\\[3\\sin x+4\\cos x\\]</p><p>på formen \\(c\\sin(x+v)\\), där \\(c&gt;0\\) och \\(0&lt;v&lt;\\pi/2\\). Bestäm \\(c\\) och \\(v\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p><strong>Formel från formelbladet:</strong> \\(a\\sin x+b\\cos x=c\\sin(x+v)\\), där \\(c=\\sqrt{a^2+b^2}\\) och \\(\\tan v=b/a\\).</p><p>Här är \\(a=3\\) och \\(b=4\\). Därför</p><p>\\[c=\\sqrt{3^2+4^2}=5.\\]</p><p>Vidare</p><p>\\[\\tan v=\\frac43\\Rightarrow v=\\arctan\\frac43\\approx0,927\\text{ rad}.\\]</p><p>Alltså</p><p>\\[\\boxed{3\\sin x+4\\cos x=5\\sin(x+0,927)}\\]</p><p>eller exakt \\(v=\\arctan(4/3)\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "t": "<p>Skriv \\(3\\sin x+4\\cos x\\) på formen \\(c\\sin(x+v)\\), där \\(c&gt;0\\) och \\(0&lt;v&lt;\\pi/2\\).</p><p>Bestäm \\(c\\) exakt och \\(v\\) med tre decimaler.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> För \\(a\\sin x+b\\cos x=c\\sin(x+v)\\) gäller \\(c=\\sqrt{a^2+b^2}\\), \\(c\\cos v=a\\) och \\(c\\sin v=b\\).</p><p>Här blir \\(c=\\sqrt{3^2+4^2}=\\boxed5\\).</p><p>Då \\(\\tan v=4/3\\), så \\(v=\\arctan(4/3)\\approx\\boxed{0,927}\\) rad.</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      0.927
+    ],
+    "tolerans": [
+      null,
+      0.0005
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Bestäm först amplituden \\(c=\\sqrt{3^2+4^2}\\). Jämför sedan koefficienterna framför sinus och cosinus.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "c",
+      "v"
+    ]
   },
   {
     "id": "1.209",
@@ -5360,11 +5629,11 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att \\(\\frac{1-\\sin^2x}{\\cos x}=\\cos x\\) där uttrycken är definierade.</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Använd trigonometriska ettan: \\(1-\\sin^2x=\\cos^2x\\). Då blir vänsterledet \\(\\frac{\\cos^2x}{\\cos x}=\\cos x\\).</p>",
+    "t": "<p>En elev förenklar</p><p>\\[\\frac{1-\\sin^2x}{\\cos x}=\\cos x\\]</p><p>och skriver att likheten gäller för alla reella \\(x\\). Förklara vad som saknas i elevens resonemang och ange när förenklingen är giltig.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Trigonometriska ettan ger \\(1-\\sin^2x=\\cos^2x\\), men ursprungsuttrycket har en nämnare.</p><p>\\[\\frac{\\cos^2x}{\\cos x}=\\cos x\\]</p><p>får bara göras när \\(\\cos x\\ne0\\). Alltså gäller förenklingen för alla \\(x\\) utom</p><p>\\[x=\\frac\\pi2+k\\pi,\\qquad k\\in\\mathbb Z.\\]</p><p>Vid dessa värden är ursprungsuttrycket odefinierat.</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
-      "procedur",
+      "begrepp",
       "resonemang"
     ],
     "svarstyp": "resonemang",
@@ -5372,7 +5641,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Kontrollera först var ursprungsuttryckets nämnare är noll.</p>",
     "spel": false
   },
   {
@@ -5387,7 +5656,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att \\(1+\\tan^2x=\\frac{1}{\\cos^2x}\\) där uttrycken är definierade.</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Skriv \\(\\tan x=\\sin x/\\cos x\\): \\(1+\\tan^2x=1+\\frac{\\sin^2x}{\\cos^2x}=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}=\\frac1{\\cos^2x}\\).</p>",
+    "s": "<p>Utgå från \\(\\sin^2x+\\cos^2x=1\\). Där \\(\\cos x\\ne0\\) kan hela likheten divideras med \\(\\cos^2x\\):</p><p>\\[\\frac{\\sin^2x}{\\cos^2x}+1=\\frac1{\\cos^2x}.\\]</p><p>Eftersom \\(\\sin x/\\cos x=\\tan x\\) fås</p><p>\\[\\boxed{1+\\tan^2x=\\frac1{\\cos^2x}}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -5398,7 +5667,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Dela trigonometriska ettan med \\(\\cos^2x\\). Vad blir den första kvoten?</p>",
     "spel": false
   },
   {
@@ -5408,23 +5677,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa med additionsformeln att \\(\\sin(x+\\pi/2)=\\cos x\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Formel från formelbladet: \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\). Sätt \\(v=\\pi/2\\): \\(\\sin(x+\\pi/2)=\\sin x\\cdot0+\\cos x\\cdot1=\\cos x\\).</p>",
+    "t": "<p>Förenkla \\(\\cos(x+\\pi/2)\\) med en additionsformel.</p>",
+    "s": "<p>\\[\\cos(x+\\pi/2)=\\cos x\\cdot0-\\sin x\\cdot1=\\boxed{-\\sin x}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "-sin(x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Använd additionsformeln för cosinus och värdena \\(\\cos(\\pi/2)=0\\), \\(\\sin(\\pi/2)=1\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.212",
@@ -5433,23 +5703,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa med additionsformeln att \\(\\cos(x-\\pi)=-\\cos x\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Använd \\(\\cos(u-v)=\\cos u\\cos v+\\sin u\\sin v\\). Då \\(\\cos(x-\\pi)=\\cos x(-1)+\\sin x\\cdot0=-\\cos x\\).</p>",
+    "t": "<p>Det gäller att \\(\\cos x=-3/5\\). Bestäm \\(\\cos(x-\\pi)\\) exakt utan att bestämma \\(x\\).</p>",
+    "s": "<p>Med subtraktionsformeln:</p><p>\\[\\cos(x-\\pi)=\\cos x\\cos\\pi+\\sin x\\sin\\pi=-\\cos x.\\]</p><p>Alltså \\(\\boxed{3/5}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "3/5",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Utveckla \\(\\cos(x-\\pi)\\). Termen med \\(\\sin\\pi\\) försvinner.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.213",
@@ -5458,12 +5729,12 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att \\(\\frac{\\sin2x}{1+\\cos2x}=\\tan x\\) där uttrycken är definierade.</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Använd \\(\\sin2x=2\\sin x\\cos x\\) och \\(1+\\cos2x=2\\cos^2x\\). Vänsterledet blir \\(\\frac{2\\sin x\\cos x}{2\\cos^2x}=\\frac{\\sin x}{\\cos x}=\\tan x\\).</p>",
+    "s": "<p>Använd \\(\\sin2x=2\\sin x\\cos x\\) och \\(1+\\cos2x=2\\cos^2x\\):</p><p>\\[\\frac{\\sin2x}{1+\\cos2x}=\\frac{2\\sin x\\cos x}{2\\cos^2x}=\\frac{\\sin x}{\\cos x}=\\tan x.\\]</p><p>Omskrivningen gäller där vänsterledet är definierat.</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -5474,7 +5745,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Skriv både täljare och nämnare med \\(\\sin x\\) och \\(\\cos x\\).</p>",
     "spel": false
   },
   {
@@ -5484,24 +5755,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att \\(\\frac{1-\\cos2x}{\\sin2x}=\\tan x\\) där uttrycken är definierade.</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\). Då blir kvoten \\(\\frac{2\\sin^2x}{2\\sin x\\cos x}=\\tan x\\).</p>",
+    "t": "<p>Förenkla</p><p>\\[\\frac{1-\\cos2x}{1+\\cos2x}\\]</p><p>så långt som möjligt, där uttrycket är definierat.</p>",
+    "s": "<p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(1+\\cos2x=2\\cos^2x\\):</p><p>\\[\\frac{2\\sin^2x}{2\\cos^2x}=\\boxed{\\tan^2x}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "tan(x)^2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Använd två olika former av dubbelvinkelformeln för cosinus.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.215",
@@ -5511,23 +5782,23 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att \\((\\sin x+\\cos x)^2=1+\\sin2x\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Utveckla vänsterledet: \\(\\sin^2x+2\\sin x\\cos x+\\cos^2x\\). Trigonometriska ettan ger 1 och \\(2\\sin x\\cos x=\\sin2x\\). Alltså fås \\(1+\\sin2x\\).</p>",
+    "t": "<p>Förenkla \\((\\sin x+\\cos x)^2\\) så att svaret innehåller en trigonometrisk funktion.</p>",
+    "s": "<p>Utveckla kvadraten:</p><p>\\[(\\sin x+\\cos x)^2=\\sin^2x+2\\sin x\\cos x+\\cos^2x=1+\\sin2x.\\]</p><p><strong>Svar:</strong> \\(\\boxed{1+\\sin2x}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "1+sin(2x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Utveckla först kvadraten. Använd sedan trigonometriska ettan och \\(2\\sin x\\cos x=\\sin2x\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.216",
@@ -5536,24 +5807,23 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "1/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att \\(\\cos^2x-\\sin^2x=1-2\\sin^2x\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Ur trigonometriska ettan är \\(\\cos^2x=1-\\sin^2x\\). Sätt in detta i vänsterledet: \\(1-\\sin^2x-\\sin^2x=1-2\\sin^2x\\).</p>",
+    "t": "<p>Skriv \\(\\cos^2x-\\sin^2x\\) med en enda trigonometrisk funktion.</p>",
+    "s": "<p>Dubbelvinkelformeln ger direkt</p><p>\\[\\boxed{\\cos^2x-\\sin^2x=\\cos2x}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "cos(2x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Vilken av formlerna för \\(\\cos2x\\) har exakt detta vänsterled?</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.217",
@@ -5562,12 +5832,12 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att \\(\\sin(x+y)+\\sin(x-y)=2\\sin x\\cos y\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Utveckla båda termerna med additions- och subtraktionsformlerna: \\(\\sin(x+y)=\\sin x\\cos y+\\cos x\\sin y\\) och \\(\\sin(x-y)=\\sin x\\cos y-\\cos x\\sin y\\). När uttrycken adderas tar termerna med \\(\\cos x\\sin y\\) ut varandra. Kvar blir \\(2\\sin x\\cos y\\).</p>",
+    "s": "<p>Utveckla båda sinusuttrycken:</p><p>\\[\\sin(x+y)=\\sin x\\cos y+\\cos x\\sin y,\\]</p><p>\\[\\sin(x-y)=\\sin x\\cos y-\\cos x\\sin y.\\]</p><p>Vid addition försvinner termerna med \\(\\cos x\\sin y\\), och kvar blir \\(\\boxed{2\\sin x\\cos y}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -5578,7 +5848,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Utveckla de två sinusuttrycken var för sig och addera sedan.</p>",
     "spel": false
   },
   {
@@ -5588,12 +5858,12 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att \\(\\cos(x-y)-\\cos(x+y)=2\\sin x\\sin y\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Utveckla med additionsformlerna: \\(\\cos(x-y)=\\cos x\\cos y+\\sin x\\sin y\\) och \\(\\cos(x+y)=\\cos x\\cos y-\\sin x\\sin y\\). Subtraktion ger \\(2\\sin x\\sin y\\).</p>",
+    "s": "<p>Utveckla båda cosinusuttrycken:</p><p>\\[\\cos(x-y)=\\cos x\\cos y+\\sin x\\sin y,\\]</p><p>\\[\\cos(x+y)=\\cos x\\cos y-\\sin x\\sin y.\\]</p><p>Subtraktionen ger \\(\\boxed{2\\sin x\\sin y}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -5604,7 +5874,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Utveckla båda cosinusuttrycken. Vilka termer tar ut varandra?</p>",
     "spel": false
   },
   {
@@ -5614,24 +5884,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att \\(\\sin(x+\\pi)=-\\sin x\\).</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Med additionsformeln: \\(\\sin(x+\\pi)=\\sin x\\cos\\pi+\\cos x\\sin\\pi=-\\sin x+0=-\\sin x\\).</p>",
+    "t": "<p>Förenkla \\(\\sin(x+\\pi)\\) med additionsformeln.</p>",
+    "s": "<p>\\[\\sin(x+\\pi)=\\sin x\\cos\\pi+\\cos x\\sin\\pi=-\\sin x.\\]</p><p><strong>Svar:</strong> \\(\\boxed{-\\sin x}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "-sin(x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Använd \\(\\cos\\pi=-1\\) och \\(\\sin\\pi=0\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.511",
@@ -5667,24 +5937,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att \\(\\frac{1-\\cos2x}{1+\\cos2x}=\\tan^2x\\) där uttrycken är definierade.</p>",
-    "s": "<p><strong>Metod:</strong> Börja i vänsterledet och använd formler från formelbladet tills uttrycket har samma form som högerledet.</p><p>Använd formlerna \\(1-\\cos2x=2\\sin^2x\\) och \\(1+\\cos2x=2\\cos^2x\\). Då blir vänsterledet \\(\\frac{2\\sin^2x}{2\\cos^2x}=\\tan^2x\\).</p>",
+    "t": "<p>Förenkla</p><p>\\[\\frac{1-\\cos2x}{1+\\cos2x}\\]</p><p>där uttrycket är definierat.</p>",
+    "s": "<p>\\[1-\\cos2x=2\\sin^2x,\\qquad1+\\cos2x=2\\cos^2x.\\]</p><p>Därför</p><p>\\[\\frac{1-\\cos2x}{1+\\cos2x}=\\frac{2\\sin^2x}{2\\cos^2x}=\\boxed{\\tan^2x}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "tan(x)^2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Skriv täljaren med \\(\\sin^2x\\) och nämnaren med \\(\\cos^2x\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.249",
@@ -5694,23 +5964,23 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "1/1/0",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[1-\\sin^2x=\\cos^2x.\\]</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Trigonometriska ettan ger direkt \\(1-\\sin^2x=\\cos^2x\\).</p><p>Därmed har vänsterledet skrivits om till högerledet.</p>",
+    "t": "<p>Det gäller att \\(\\sin x=7/25\\) och att \\(x\\) ligger i andra kvadranten. Bestäm \\(\\cos2x\\) exakt.</p>",
+    "s": "<p>Trigonometriska ettan ger \\(\\cos x=-24/25\\), eftersom cosinus är negativ i andra kvadranten.</p><p>Använd \\(\\cos2x=\\cos^2x-\\sin^2x\\):</p><p>\\[\\cos2x=\\frac{576-49}{625}=\\boxed{\\frac{527}{625}}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "527/625",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Bestäm först \\(\\cos x\\) med trigonometriska ettan. Använd sedan en dubbelvinkelformel.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.250",
@@ -5720,23 +5990,23 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "1/1/0",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[1-\\cos^2x=\\sin^2x.\\]</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Trigonometriska ettan ger direkt \\(1-\\cos^2x=\\sin^2x\\).</p><p>Därmed har vänsterledet skrivits om till högerledet.</p>",
+    "t": "<p>Det gäller att \\(\\tan x=3/4\\). Bestäm \\(\\sin2x\\) exakt.</p>",
+    "s": "<p>Använd dubbelvinkelformeln uttryckt med tangens:</p><p>\\[\\sin2x=\\frac{2\\tan x}{1+\\tan^2x}=\\frac{2\\cdot3/4}{1+9/16}=\\frac{3/2}{25/16}=\\boxed{24/25}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "24/25",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Det går att använda \\(\\sin2x=2\\sin x\\cos x\\), men här är det snabbare att uttrycka dubbelvinkeln med \\(\\tan x\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.251",
@@ -5746,14 +6016,14 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "1/1/0",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[\\frac{1-\\sin^2x}{\\cos x}=\\cos x.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Byt ut täljaren mot \\(\\cos^2x\\) och förkorta med \\(\\cos x\\), där uttrycket är definierat.</p><p>Därmed har vänsterledet skrivits om till högerledet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>Uttrycket</p><p>\\[\\frac{1-\\sin^2x}{\\cos x}\\]</p><p>kan förenklas till \\(\\cos x\\). Ange vilka \\(x\\) som måste uteslutas och förklara varför.</p>",
+    "s": "<p>Ursprungsuttrycket kräver \\(\\cos x\\ne0\\). Alltså måste</p><p>\\[x=\\frac\\pi2+k\\pi,\\qquad k\\in\\mathbb Z\\]</p><p>uteslutas. På alla andra \\(x\\) gäller \\(1-\\sin^2x=\\cos^2x\\), och då kan en faktor \\(\\cos x\\) förkortas.</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
-      "procedur",
+      "begrepp",
       "resonemang"
     ],
     "svarstyp": "resonemang",
@@ -5761,7 +6031,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Börja med att fråga när nämnaren i ursprungsuttrycket är noll.</p>",
     "spel": false
   },
   {
@@ -5772,23 +6042,23 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[(\\sin x+\\cos x)^2=1+\\sin2x.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Utveckla kvadraten: \\(\\sin^2x+2\\sin x\\cos x+\\cos^2x=1+\\sin2x\\).</p><p>Därmed har vänsterledet skrivits om till högerledet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>Det gäller att \\(\\sin2x=-3/5\\). Bestäm värdet av \\((\\sin x+\\cos x)^2\\).</p>",
+    "s": "<p>Identiteten \\((\\sin x+\\cos x)^2=1+\\sin2x\\) ger</p><p>\\[1-\\frac35=\\boxed{\\frac25}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "begrepp",
+      "procedur"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "2/5",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Utveckla kvadraten eller använd identiteten \\((\\sin x+\\cos x)^2=1+\\sin2x\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.253",
@@ -5798,26 +6068,78 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[(\\cos x-\\sin x)^2=1-\\sin2x.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Utveckla kvadraten och använd \\(\\sin^2x+\\cos^2x=1\\) samt \\(2\\sin x\\cos x=\\sin2x\\).</p><p>Därmed har vänsterledet skrivits om till högerledet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>Förenkla \\((\\cos x-\\sin x)^2\\) så att svaret innehåller en trigonometrisk funktion.</p>",
+    "s": "<p>\\[(\\cos x-\\sin x)^2=\\cos^2x-2\\sin x\\cos x+\\sin^2x=1-\\sin2x.\\]</p><p><strong>Svar:</strong> \\(\\boxed{1-\\sin2x}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "1-sin(2x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Utveckla kvadraten och använd både trigonometriska ettan och dubbelvinkelformeln för sinus.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.254",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>Förenkla</p><p>\\[\\frac{\\sin2x}{2\\sin x}\\]</p><p>där uttrycket är definierat.</p>",
+    "s": "<p>Med \\(\\sin2x=2\\sin x\\cos x\\) får vi</p><p>\\[\\frac{2\\sin x\\cos x}{2\\sin x}=\\boxed{\\cos x},\\]</p><p>där \\(\\sin x\\ne0\\).</p>",
+    "familj": "Använda trigonometriska formler och identiteter",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "cos(x)",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
+    "ledtrad": "<p>Ersätt \\(\\sin2x\\) med \\(2\\sin x\\cos x\\) och förkorta.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.255",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": true,
+    "geogebra": false,
+    "t": "<p>Bestäm \\(\\sin^2 15^\\circ\\) exakt med hjälp av en dubbelvinkelformel.</p>",
+    "s": "<p>Använd \\(\\cos2v=1-2\\sin^2v\\) med \\(v=15^\\circ\\):</p><p>\\[\\frac{\\sqrt3}{2}=1-2\\sin^215^\\circ.\\]</p><p>Därför</p><p>\\[\\sin^215^\\circ=\\frac{1-\\sqrt3/2}{2}=\\boxed{\\frac{2-\\sqrt3}{4}}.\\]</p>",
+    "familj": "Använda trigonometriska formler och identiteter",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "(2-sqrt(3))/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
+    "ledtrad": "<p>Sätt \\(2v=30^\\circ\\) i \\(\\cos2v=1-2\\sin^2v\\).</p>",
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.256",
     "kap": 1,
     "omr": "trig_formler",
     "kurs": [
@@ -5827,60 +6149,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[\\frac{\\sin2x}{2\\cos x}=\\sin x.\\]</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Använd \\(\\sin2x=2\\sin x\\cos x\\) och förkorta.</p><p>Därmed har vänsterledet skrivits om till högerledet.</p>",
-    "familj": "Använda trigonometriska formler och identiteter",
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
-  },
-  {
-    "id": "1.255",
-    "kap": 1,
-    "omr": "trig_formler",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "A",
-    "poang": "0/2/1",
-    "miniräknare": true,
-    "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[\\frac{1-\\cos2x}{2}=\\sin^2x.\\]</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Från \\(\\cos2x=1-2\\sin^2x\\) fås \\(1-\\cos2x=2\\sin^2x\\).</p><p>Därmed har vänsterledet skrivits om till högerledet.</p>",
-    "familj": "Använda trigonometriska formler och identiteter",
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
-  },
-  {
-    "id": "1.256",
-    "kap": 1,
-    "omr": "trig_formler",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "miniräknare": true,
-    "geogebra": false,
     "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[\\frac{\\sin(x+y)+\\sin(x-y)}{2}=\\sin x\\cos y.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Använd additionsformlerna på båda sinusuttrycken. Termerna med \\(\\cos x\\sin y\\) tar ut varandra.</p><p>Därmed har vänsterledet skrivits om till högerledet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<p>Utveckla de två sinusuttrycken:</p><p>\\[\\sin(x+y)+\\sin(x-y)=2\\sin x\\cos y.\\]</p><p>Dividera båda leden med 2. Då fås exakt</p><p>\\[\\boxed{\\frac{\\sin(x+y)+\\sin(x-y)}2=\\sin x\\cos y}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -5891,7 +6161,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Utveckla \\(\\sin(x+y)\\) och \\(\\sin(x-y)\\) innan du dividerar med 2.</p>",
     "spel": false
   },
   {
@@ -5901,12 +6171,12 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[\\cos(x+y)+\\cos(x-y)=2\\cos x\\cos y.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Utveckla båda med additionsformeln för cosinus. Termerna med \\(\\sin x\\sin y\\) tar ut varandra.</p><p>Därmed har vänsterledet skrivits om till högerledet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<p>Utveckla:</p><p>\\[\\cos(x+y)=\\cos x\\cos y-\\sin x\\sin y,\\]</p><p>\\[\\cos(x-y)=\\cos x\\cos y+\\sin x\\sin y.\\]</p><p>Vid addition tar sinustermerna ut varandra och kvar blir \\(\\boxed{2\\cos x\\cos y}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -5917,7 +6187,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Utveckla båda cosinusuttrycken. Lägg sedan ihop och se vilka termer som försvinner.</p>",
     "spel": false
   },
   {
@@ -5927,24 +6197,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att identiteten gäller där båda leden är definierade:</p><p>\\[\\frac{1-\\cos2x}{\\sin2x}=\\tan x.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Idé:</strong> Utgå från vänsterledet och använd formler från formelbladet.</p><p>Använd \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\), och förkorta.</p><p>Därmed har vänsterledet skrivits om till högerledet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>Bestäm \\(\\tan15^\\circ\\) exakt med hjälp av en additions- eller subtraktionsformel.</p>",
+    "s": "<p>Skriv \\(15^\\circ=45^\\circ-30^\\circ\\). Då</p><p>\\[\\tan15^\\circ=\\frac{1-1/\\sqrt3}{1+1/\\sqrt3}=\\frac{\\sqrt3-1}{\\sqrt3+1}=\\boxed{2-\\sqrt3}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "2-sqrt(3)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Använd tangensformeln för \\(45^\\circ-30^\\circ\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.273",
@@ -6011,7 +6281,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att \\(\\cos^4x-\\sin^4x=\\cos2x\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Faktorisera vänsterledet:</p><p>\\[(\\cos^2x-\\sin^2x)(\\cos^2x+\\sin^2x).\\]</p><p>Andra faktorn är 1 och första är \\(\\cos2x\\). Därmed är identiteten visad.</p>",
+    "s": "<p>Faktorisera som en differens av två kvadrater:</p><p>\\[\\cos^4x-\\sin^4x=(\\cos^2x-\\sin^2x)(\\cos^2x+\\sin^2x).\\]</p><p>Den andra faktorn är 1 och den första är \\(\\cos2x\\). Alltså är identiteten visad.</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -6022,7 +6292,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Se uttrycket som \\(a^2-b^2\\) med \\(a=\\cos^2x\\) och \\(b=\\sin^2x\\).</p>",
     "spel": false
   },
   {
@@ -6037,7 +6307,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Anta att \\(\\tan x=2\\). Bestäm exakt \\(\\tan2x\\), om uttrycket är definierat.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Nyckelidé:</strong> Använd \\(\\tan2x=2\\tan x/(1-\\tan^2x)\\) och kontrollera att nämnaren inte är noll.</p><p><strong>Svar:</strong> \\(\\boxed{-4/3}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Här är \\(\\tan x\\) känt, så använd direkt formeln för \\(\\tan2x\\).</p><p><strong>Nyckelidé:</strong> Använd \\(\\tan2x=2\\tan x/(1-\\tan^2x)\\) och kontrollera att nämnaren inte är noll.</p><p><strong>Svar:</strong> \\(\\boxed{-4/3}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -6064,7 +6334,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Visa att</p><p>\\[\\sin(x+y)\\sin(x-y)=\\sin^2x-\\sin^2y.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Utveckla vänsterledet med additionsformlerna:</p><p>\\[(\\sin x\\cos y+\\cos x\\sin y)(\\sin x\\cos y-\\cos x\\sin y)\\]</p><p>\\[=\\sin^2x\\cos^2y-\\cos^2x\\sin^2y.\\]</p><p>Byt \\(\\cos^2y=1-\\sin^2y\\) och \\(\\cos^2x=1-\\sin^2x\\). Blandtermerna tar ut varandra och resultatet blir \\(\\sin^2x-\\sin^2y\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<p>Utveckla vänsterledet med additionsformlerna:</p><p>\\[(\\sin x\\cos y+\\cos x\\sin y)(\\sin x\\cos y-\\cos x\\sin y)\\]</p><p>\\[=\\sin^2x\\cos^2y-\\cos^2x\\sin^2y.\\]</p><p>Använd \\(\\cos^2y=1-\\sin^2y\\) och \\(\\cos^2x=1-\\sin^2x\\). Blandtermerna tar ut varandra och kvar blir</p><p>\\[\\boxed{\\sin^2x-\\sin^2y}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
@@ -6075,7 +6345,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Utveckla först båda faktorerna med additionsformlerna. Därefter kan du använda trigonometriska ettan.</p>",
     "spel": false
   },
   {
@@ -6085,15 +6355,15 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att</p><p>\\[\\frac{1-\\cos 2x}{2}=\\sin^2x.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p><strong>Formelbladet:</strong> En av formlerna för dubbla vinkeln är \\(\\cos 2x=1-2\\sin^2x\\).</p><p>Utgå från vänsterledet:</p><p>\\[\\frac{1-\\cos2x}{2}=\\frac{1-(1-2\\sin^2x)}{2}=\\frac{2\\sin^2x}{2}=\\sin^2x.\\]</p><p>Därmed är identiteten visad.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>En elev utgår från \\(\\cos2x=1-2\\sin^2x\\) och påstår att</p><p>\\[\\sin^2x=\\frac{1+\\cos2x}{2}.\\]</p><p>Identifiera felet och skriv den korrekta formeln.</p>",
+    "s": "<p>Flytta först \\(\\cos2x\\) till andra ledet:</p><p>\\[2\\sin^2x=1-\\cos2x.\\]</p><p>Därför</p><p>\\[\\boxed{\\sin^2x=\\frac{1-\\cos2x}{2}}.\\]</p><p>Elevens fel är tecknet framför \\(\\cos2x\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
-      "procedur",
+      "begrepp",
       "resonemang"
     ],
     "svarstyp": "resonemang",
@@ -6101,7 +6371,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+    "ledtrad": "<p>Isolera \\(\\sin^2x\\) steg för steg från \\(\\cos2x=1-2\\sin^2x\\).</p>",
     "spel": false
   },
   {
@@ -6195,24 +6465,23 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att</p><p>\\[\\sin(x+\\pi/2)=\\cos x.\\]</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Formelbladet:</strong> \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\).</p><p>Sätt \\(u=x\\) och \\(v=\\pi/2\\):</p><p>\\[\\sin(x+\\pi/2)=\\sin x\\cdot0+\\cos x\\cdot1=\\cos x.\\]</p><p>Därmed är identiteten visad.</p>",
+    "t": "<p>Förenkla \\(\\cos(x+\\pi/2)\\).</p>",
+    "s": "<p>\\[\\cos(x+\\pi/2)=\\cos x\\cdot0-\\sin x\\cdot1=\\boxed{-\\sin x}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "-sin(x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Använd additionsformeln för cosinus.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.304",
@@ -6221,24 +6490,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att</p><p>\\[\\cos^2x-\\sin^2x=1-2\\sin^2x.\\]</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Utgå från vänsterledet och använd \\(\\cos^2x=1-\\sin^2x\\):</p><p>\\[\\cos^2x-\\sin^2x=(1-\\sin^2x)-\\sin^2x=1-2\\sin^2x.\\]</p><p>Därmed är identiteten visad.</p>",
+    "t": "<p>Skriv \\(\\sin^2x\\) med hjälp av \\(\\cos2x\\).</p>",
+    "s": "<p>Från \\(\\cos2x=1-2\\sin^2x\\) får vi</p><p>\\[\\boxed{\\sin^2x=\\frac{1-\\cos2x}{2}}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "(1-cos(2x))/2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Isolera \\(\\sin^2x\\) i formeln \\(\\cos2x=1-2\\sin^2x\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.305",
@@ -6247,22 +6516,23 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För \\(0&lt;x&lt;\\pi/2\\) gäller \\(\\sin x+\\cos x=\\sqrt{3/2}\\).</p><p>Bestäm \\(\\sin2x\\) exakt.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Kvadrera båda leden:</p><p>\\[(\\sin x+\\cos x)^2=\\frac32.\\]</p><p>Vänsterledet blir</p><p>\\[\\sin^2x+2\\sin x\\cos x+\\cos^2x=1+\\sin2x.\\]</p><p>Alltså \\(1+\\sin2x=3/2\\), vilket ger <strong>\\(\\sin2x=1/2\\)</strong>.</p>",
+    "s": "<p>Kvadrera den givna likheten:</p><p>\\[(\\sin x+\\cos x)^2=\\frac32.\\]</p><p>Vänsterledet är \\(1+\\sin2x\\), alltså</p><p>\\[1+\\sin2x=\\frac32\\Rightarrow\\boxed{\\sin2x=\\frac12}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "1/2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Kvadrera båda leden och utveckla \\((\\sin x+\\cos x)^2\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.317",
@@ -6271,22 +6541,23 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Förenkla uttrycket</p><p>\\[\\frac{\\sin x}{\\cos x}+\\frac{\\cos x}{\\sin x}\\]</p><p>där uttrycket är definierat.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Skriv på gemensam nämnare:</p><p>\\[\\frac{\\sin^2x+\\cos^2x}{\\sin x\\cos x}.\\]</p><p>Trigonometriska ettan ger täljaren 1. Det förenklade uttrycket är alltså <strong>\\(1/(\\sin x\\cos x)\\)</strong>.</p>",
+    "s": "<p>Skriv på gemensam nämnare:</p><p>\\[\\frac{\\sin^2x+\\cos^2x}{\\sin x\\cos x}=\\boxed{\\frac1{\\sin x\\cos x}}.\\]</p><p>Uttrycket är definierat när både \\(\\sin x\\ne0\\) och \\(\\cos x\\ne0\\).</p>",
     "familj": "Använda trigonometriska ettan",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "1/(sin(x)*cos(x))",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
+    "ledtrad": "<p>Använd gemensam nämnare och trigonometriska ettan i täljaren.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.536",
@@ -6295,24 +6566,25 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
+    "niva": "C",
     "typ": "härled tangentidentitet från trigonometriska ettan",
-    "poang": "0/1/2",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Visa med utgångspunkt i trigonometriska ettan att</p><p>\\[1+\\tan^2x=\\frac{1}{\\cos^2x}\\]</p><p>för de x där uttrycken är definierade.</p>",
-    "s": "<p>Utgå från \\(\\sin^2x+\\cos^2x=1\\). Dividera hela likheten med \\(\\cos^2x\\), vilket är tillåtet när \\(\\cos x\\ne0\\):</p><p>\\[\\frac{\\sin^2x}{\\cos^2x}+1=\\frac1{\\cos^2x}.\\]</p><p>Eftersom \\(\\sin x/\\cos x=\\tan x\\) fås identiteten. Villkoret är viktigt eftersom division med 0 inte är tillåten.</p>",
+    "t": "<p>Identiteten \\(1+\\tan^2x=1/\\cos^2x\\) används ofta. För vilka reella \\(x\\) är båda leden definierade? Motivera.</p>",
+    "s": "<p>Både \\(\\tan x\\) och \\(1/\\cos^2x\\) kräver \\(\\cos x\\ne0\\). Därför måste</p><p>\\[x=\\frac\\pi2+k\\pi,\\qquad k\\in\\mathbb Z\\]</p><p>uteslutas. Identiteten gäller alltså för alla övriga reella \\(x\\).</p>",
     "familj": "Använda trigonometriska ettan",
     "formaga": [
-      "resonemang",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
-    "svarstyp": "manuell",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_ettan",
-    "ledtrad": "<p>Leta efter gemensam faktor, kvadreringsregel eller konjugatregel. Skriv även vilka värden som gör en ursprunglig nämnare noll.</p>"
+    "ledtrad": "<p>Fråga när \\(\\tan x\\) är odefinierad och när högerledets nämnare är noll.</p>",
+    "spel": false
   },
   {
     "id": "1.321",
@@ -6321,24 +6593,24 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/1/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att</p><p>\\[\\cos^4x-\\sin^4x=\\cos2x.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Vänsterledet är en differens av två kvadrater:</p><p>\\[\\cos^4x-\\sin^4x=(\\cos^2x-\\sin^2x)(\\cos^2x+\\sin^2x).\\]</p><p>Trigonometriska ettan ger den andra faktorn 1. Formelbladets formel för dubbla vinkeln ger \\(\\cos^2x-\\sin^2x=\\cos2x\\).</p><p>Alltså är vänsterledet \\(\\cos2x\\), vilket visar identiteten.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>Förenkla \\(\\sin^4x-\\cos^4x\\) så långt som möjligt.</p>",
+    "s": "<p>Faktorisera:</p><p>\\[\\sin^4x-\\cos^4x=(\\sin^2x-\\cos^2x)(\\sin^2x+\\cos^2x).\\]</p><p>Den andra faktorn är 1 och den första är \\(-\\cos2x\\). Alltså \\(\\boxed{-\\cos2x}\\).</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "-cos(2x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Använd skillnaden av två kvadrater och trigonometriska ettan.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.327",
@@ -6347,24 +6619,23 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Visa att</p><p>\\[1+\\cos2x=2\\cos^2x.\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p><p><strong>Formelbladet:</strong> \\(\\cos2x=2\\cos^2x-1\\).</p><p>Addera 1 till båda leden:</p><p>\\[1+\\cos2x=2\\cos^2x.\\]</p><p>Därmed är identiteten visad.</p>",
+    "t": "<p>Förenkla \\(1+\\cos2x\\) med en dubbelvinkelformel.</p>",
+    "s": "<p>Eftersom \\(\\cos2x=2\\cos^2x-1\\) fås</p><p>\\[1+\\cos2x=\\boxed{2\\cos^2x}.\\]</p>",
     "familj": "Använda trigonometriska formler och identiteter",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "2*cos(x)^2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_formler__anvanda_trigonometriska_formler_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spel": false
+    "ledtrad": "<p>Använd formen \\(\\cos2x=2\\cos^2x-1\\).</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.423",
@@ -6377,17 +6648,17 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vinkeln är \\(v=30^\\circ\\).</p><p>Bestäm \\(sin(2v)\\) med en formel för dubbla vinkeln.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Använd \\(\\sin2v=2\\sin v\\cos v\\) eller \\(\\cos2v=\\cos^2v-\\sin^2v\\).</p><p><strong>Svar:</strong> \\(0.866025\\).</p>",
+    "t": "<p>Vinkeln är \\(v=30^\\circ\\).</p><p>Bestäm exakt \\(\\sin(2v)\\).</p>",
+    "s": "<p>Eftersom \\(2v=60^\\circ\\) fås direkt</p><p>\\[\\sin(2v)=\\sin60^\\circ=\\boxed{\\sqrt3/2}.\\]</p><p>Samma resultat fås med \\(\\sin2v=2\\sin v\\cos v\\).</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.8660254037844386,
-    "tolerans": 0.001,
+    "rättSvar": "sqrt(3)/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
   },
@@ -6398,21 +6669,21 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vinkeln är \\(v=22.5^\\circ\\).</p><p>Bestäm \\(cos(2v)\\) med en formel för dubbla vinkeln.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Använd \\(\\sin2v=2\\sin v\\cos v\\) eller \\(\\cos2v=\\cos^2v-\\sin^2v\\).</p><p><strong>Svar:</strong> \\(0.707107\\).</p>",
+    "t": "<p>Vinkeln är \\(v=22,5^\\circ\\).</p><p>Bestäm exakt \\(\\cos(2v)\\).</p>",
+    "s": "<p>Här är \\(2v=45^\\circ\\). Alltså</p><p>\\[\\cos(2v)=\\cos45^\\circ=\\boxed{\\sqrt2/2}.\\]</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.7071067811865476,
-    "tolerans": 0.001,
+    "rättSvar": "sqrt(2)/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
   },
@@ -6423,21 +6694,21 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vinkeln är \\(v=75^\\circ\\).</p><p>Bestäm \\(sin(2v)\\) med en formel för dubbla vinkeln.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Använd \\(\\sin2v=2\\sin v\\cos v\\) eller \\(\\cos2v=\\cos^2v-\\sin^2v\\).</p><p><strong>Svar:</strong> \\(0.500000\\).</p>",
+    "t": "<p>Vinkeln är \\(v=75^\\circ\\).</p><p>Bestäm exakt \\(\\sin(2v)\\).</p>",
+    "s": "<p>Här är \\(2v=150^\\circ\\). Med referensvinkeln \\(30^\\circ\\) fås</p><p>\\[\\sin(2v)=\\sin150^\\circ=\\boxed{1/2}.\\]</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.49999999999999994,
-    "tolerans": 0.001,
+    "rättSvar": "1/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
   },
@@ -6448,13 +6719,13 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
+    "niva": "C",
     "typ": "härled halv-vinkelform från dubbelvinkelform",
-    "poang": "0/1/2",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En elev påstår att</p><p>\\[\\frac{1-\\cos2x}{\\sin x}=2\\sin x\\]</p><p>gäller för alla reella x. Undersök påståendet och ange exakt när likheten är giltig.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Läs vad varje symbol betyder och skriv värdet direkt under rätt symbol innan du sätter in. Om en annan variabel söks isolerar du den med samma operation i båda leden.</p><div class=\"facit-arbete\"><p>Dubbelvinkelformeln ger \\(1-\\cos2x=2\\sin^2x\\). När \\(\\sin x\\ne0\\) kan vi förkorta och får verkligen \\(2\\sin x\\). Men om \\(\\sin x=0\\), alltså \\(x=k\\pi\\), är ursprungsuttrycket odefinierat.</p><p>Påståendet ”för alla reella x” är därför fel. Likheten gäller för \\(x\\ne k\\pi\\), \\(k\\in\\mathbb Z\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten och sätt tillbaka resultatet i ursprungsformeln om du har löst ut en variabel.</p></div>",
+    "s": "<p>Dubbelvinkelformeln ger</p><p>\\[1-\\cos2x=2\\sin^2x.\\]</p><p>Om \\(\\sin x\\ne0\\) kan vi därför skriva</p><p>\\[\\frac{1-\\cos2x}{\\sin x}=2\\sin x.\\]</p><p>Men när \\(\\sin x=0\\), alltså \\(x=k\\pi\\), är vänsterledet odefinierat. Påståendet ”för alla reella \\(x\\)” är alltså fel. Likheten gäller exakt för \\(x\\ne k\\pi\\), \\(k\\in\\mathbb Z\\).</p>",
     "familj": "Använda formler för dubbla vinkeln",
     "formaga": [
       "resonemang",
@@ -6465,8 +6736,9 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
-    "ledtrad": "<p>Använd 1−cos 2x=2sin²x, men kontrollera nämnaren innan du förkortar.</p>",
-    "svarFormat": null
+    "ledtrad": "<p>Omskriv täljaren med en dubbelvinkelformel och kontrollera sedan när nämnaren är noll.</p>",
+    "svarFormat": null,
+    "spel": false
   },
   {
     "id": "1.03",
@@ -6475,12 +6747,12 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen algebraiskt:</p>\n<p>\\[\\frac1{\\cos^2x}=1-\\tan x.\\]</p>\n<p>Ange alla lösningar.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p><div class=\"facit-arbete\"><p>Utgå från identiteten</p>\n<p>\\[\n\\frac1{\\cos^2x}=1+\\tan^2x.\n\\]</p>\n<p>Ekvationen blir</p>\n<p>\\[\n1+\\tan^2x=1-\\tan x\n\\Rightarrow \\tan^2x+\\tan x=0.\n\\]</p>\n<p>Faktorisera:</p>\n<p>\\[\n\\tan x(\\tan x+1)=0.\n\\]</p>\n<p>Fall 1: \\(\\tan x=0\\Rightarrow x=n\\pi\\).</p>\n<p>Fall 2: \\(\\tan x=-1\\Rightarrow x=-\\frac{\\pi}{4}+n\\pi\\), vilket också kan skrivas \\(\\frac{3\\pi}{4}+n\\pi\\).</p>\n<p>Inga av dessa lösningar har \\(\\cos x=0\\), så de är tillåtna.</p>\n<p><strong>\\[\nx=n\\pi\\quad\\text{eller}\\quad x=\\frac{3\\pi}{4}+n\\pi,\\qquad n\\in\\mathbb Z.\n\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> Använd \\(1/\\cos^2x=1+\\tan^2x\\).</p><p>\\[1+\\tan^2x=1-\\tan x\\Rightarrow\\tan x(\\tan x+1)=0.\\]</p><p>Alltså \\(\\tan x=0\\) eller \\(\\tan x=-1\\). Därför</p><p>\\[\\boxed{x=n\\pi\\quad\\text{eller}\\quad x=3\\pi/4+n\\pi},\\qquad n\\in\\mathbb Z.\\]</p><p>Ingen av lösningarna ger \\(\\cos x=0\\), så alla är tillåtna.</p>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
@@ -6490,7 +6762,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv vänsterledet som \\(1+\\tan^2x\\). Då blir ekvationen en andragradsekvation i \\(\\tan x\\).</p>"
   },
   {
     "id": "1.06",
@@ -6504,17 +6776,31 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\cos2x=\\sin x\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Metod:</strong> Skriv först om ekvationen så att du får vanliga trigonometriska de enklare trigonometriska ekvationerna. Använd identiteter eller faktorisering innan du löser vinklarna.</p><p>Använd \\(\\cos2x=1-2\\sin^2x\\):</p><p>\\[1-2\\sin^2x=\\sin x.\\]</p><p>Sätt \\(u=\\sin x\\): \\(2u^2+u-1=0=(2u-1)(u+1)\\).</p><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=-1\\).</p><p><strong>\\(x=\\pi/6,\\ 5\\pi/6,\\ 3\\pi/2\\).</strong></p>",
+    "s": "<p>Använd \\(\\cos2x=1-2\\sin^2x\\):</p><p>\\[1-2\\sin^2x=\\sin x.\\]</p><p>Sätt \\(u=\\sin x\\): \\(2u^2+u-1=(2u-1)(u+1)=0\\).</p><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=-1\\), vilket ger</p><p>\\[\\boxed{x=\\pi/6,\\ 5\\pi/6,\\ 3\\pi/2}.\\]</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "5*pi/6",
+      "3*pi/2"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv \\(\\cos2x\\) med \\(\\sin x\\) så att ekvationen bara innehåller en trigonometrisk funktion.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.09",
@@ -6639,7 +6925,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För det reella talet \\(a\\) ges ekvationen</p><p>\\[a\\sin x-\\cos x=2,\\qquad 0\\le x&lt;2\\pi.\\]</p><p>Undersök hur antalet lösningar beror på \\(a\\). Förklara varför antalet blir som du anger i varje fall.</p>",
-    "s": "<p>Skriv vänsterledet som en enda sinusfunktion:</p>\n<p>\\[a\\sin x-\\cos x=R\\sin(x+v).\\]</p>\n<p>Amplituden blir</p><p>\\[R=\\sqrt{a^2+(-1)^2}=\\sqrt{a^2+1}.\\]</p>\n<p>Under intervallet \\(0\\le x&lt;2\\pi\\) går sinusfunktionen igenom exakt en hel period. Därför avgör amplituden hur många gånger nivån 2 kan träffas.</p>\n<p>För att någon lösning ska finnas krävs \\(R\\ge2\\):</p>\n<p>\\[\\sqrt{a^2+1}\\ge2\\iff a^2\\ge3\\iff |a|\\ge\\sqrt3.\\]</p>\n<p><strong>Alltså:</strong><br>\n\\(|a|&lt;\\sqrt3\\): 0 lösningar.<br>\n\\(|a|=\\sqrt3\\): 1 lösning, eftersom nivån 2 precis når sinuskurvans maximum.<br>\n\\(|a|&gt;\\sqrt3\\): 2 lösningar, eftersom nivån 2 skär kurvan två gånger under en period.</p>",
+    "s": "<p>Skriv vänsterledet som \\(R\\sin(x+v)\\). Amplituden är</p><p>\\[R=\\sqrt{a^2+1}.\\]</p><p>Under \\(0\\le x&lt;2\\pi\\) genomlöps en hel period. Nivån 2 kan träffas bara om \\(R\\ge2\\), alltså \\(|a|\\ge\\sqrt3\\).</p><p>Därför blir antalet lösningar:</p><p>\\[\\boxed{0\\text{ om }|a|&lt;\\sqrt3;\\quad1\\text{ om }|a|=\\sqrt3;\\quad2\\text{ om }|a|&gt;\\sqrt3}.\\]</p>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "procedur",
@@ -6652,7 +6938,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Vilken amplitud har uttrycket \\(a\\sin x-\\cos x\\)? Jämför amplituden med nivån 2.</p>",
     "spel": false
   },
   {
@@ -6667,7 +6953,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationerna. Ange alla lösningar.</p><p>a) \\(\\sin x=0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=\\sqrt3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin x=\\frac12\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>a) \\(\\boxed{x=n\\pi}\\).</p><p>b) \\(\\boxed{x=\\pi+2n\\pi}\\).</p><p>c) \\(\\boxed{x=\\pi/3+n\\pi}\\).</p><p>d) \\(\\boxed{x=\\pi/6+2n\\pi}\\) eller \\(\\boxed{x=5\\pi/6+2n\\pi}\\), där \\(n\\in\\mathbb Z\\).</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm först grundlösningarna i enhetscirkeln och lägg sedan till funktionens period.</p><p>a) \\(\\boxed{x=n\\pi}\\).</p><p>b) \\(\\boxed{x=\\pi+2n\\pi}\\).</p><p>c) \\(\\boxed{x=\\pi/3+n\\pi}\\).</p><p>d) \\(\\boxed{x=\\pi/6+2n\\pi}\\) eller \\(\\boxed{x=5\\pi/6+2n\\pi}\\), där \\(n\\in\\mathbb Z\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
@@ -6892,7 +7178,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För det reella talet \\(a\\) ges ekvationen</p><p>\\[\\sin x+a=2\\cos^2x,\\qquad0\\le x&lt;2\\pi.\\]</p><p>Undersök hur antalet lösningar beror på \\(a\\). Förklara varför antalet blir som du anger i varje fall.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Sätt \\(y=\\sin x\\). Då är \\(-1\\le y\\le1\\) och \\(\\cos^2x=1-y^2\\). Ekvationen blir</p>\n<p>\\[y+a=2(1-y^2)\\Rightarrow a=2-y-2y^2.\\]</p>\n<p>Studera därför parabeln \\(h(y)=2-y-2y^2\\) på intervallet \\([-1,1]\\).</p>\n<p>Parabelns topp ligger vid</p><p>\\[y=-\\frac{-1}{2\\cdot(-2)}=-\\frac14,\\qquad h(-1/4)=\\frac{17}{8}.\\]</p>\n<p>I ändpunkterna får vi \\(h(-1)=1\\) och \\(h(1)=-1\\).</p>\n<p><strong>Viktig insikt:</strong> Ett värde \\(-1&lt;y&lt;1\\) motsvarar två vinklar \\(x\\) under en hel sinusperiod, medan \\(y=1\\) och \\(y=-1\\) bara motsvarar en vinkel vardera.</p>\n<p>Därför blir antalet lösningar:</p>\n<p>\\(a&gt;17/8\\): 0<br>\n\\(a=17/8\\): 2<br>\n\\(1&lt;a&lt;17/8\\): 4<br>\n\\(a=1\\): 3<br>\n\\(-1&lt;a&lt;1\\): 2<br>\n\\(a=-1\\): 1<br>\n\\(a&lt;-1\\): 0.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Sätt \\(y=\\sin x\\), där \\(-1\\le y\\le1\\). Då \\(\\cos^2x=1-y^2\\) och</p><p>\\[a=2-y-2y^2=:h(y).\\]</p><p>På \\([-1,1]\\) har parabeln maximum \\(h(-1/4)=17/8\\), medan \\(h(-1)=1\\) och \\(h(1)=-1\\).</p><p>Ett inre värde \\(-1&lt;y&lt;1\\) motsvarar två vinklar, medan \\(y=\\pm1\\) motsvarar en.</p><p><strong>Antal lösningar:</strong><br>0 om \\(a&gt;17/8\\) eller \\(a&lt;-1\\);<br>2 om \\(a=17/8\\);<br>4 om \\(1&lt;a&lt;17/8\\);<br>3 om \\(a=1\\);<br>2 om \\(-1&lt;a&lt;1\\);<br>1 om \\(a=-1\\).</p>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "procedur",
@@ -6905,7 +7191,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Sätt \\(y=\\sin x\\). Studera sedan parabeln \\(a=2-y-2y^2\\) bara på intervallet \\([-1,1]\\).</p>",
     "spel": false
   },
   {
@@ -6920,7 +7206,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Ekvationen</p><p>\\[\\sin 2x=a\\sin x\\]</p><p>studeras i intervallet \\(0\\le x&lt;2\\pi\\), där \\(a\\) är ett reellt tal.</p><p>Bestäm alla värden på \\(a\\) som gör att ekvationen har exakt fyra olika lösningar i intervallet. Motivera.</p>",
-    "s": "<p><strong>Nyckelsteg:</strong> Använd formeln \\(\\sin 2x=2\\sin x\\cos x\\) och faktorisera.</p><p>\\[2\\sin x\\cos x=a\\sin x\\]</p><p>\\[\\sin x(2\\cos x-a)=0.\\]</p><p>Den första faktorn ger alltid</p><p>\\[x=0\\quad\\text{eller}\\quad x=\\pi,\\]</p><p>alltså två lösningar.</p><p>Den andra faktorn ger</p><p>\\[\\cos x=\\frac a2.\\]</p><p>Den ekvationen har två ytterligare lösningar i \\(0\\le x&lt;2\\pi\\) precis när</p><p>\\[\\left|\\frac a2\\right|&lt;1.\\]</p><p>Vid \\(a=2\\) blir den nya lösningen \\(x=0\\), som redan finns, och vid \\(a=-2\\) blir den \\(x=\\pi\\), som också redan finns. För \\(|a|&gt;2\\) saknas lösningar från den andra faktorn.</p><p><strong>Alltså fås exakt fyra olika lösningar när \\(\\boxed{-2&lt;a&lt;2}\\).</strong></p>",
+    "s": "<p>Använd \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[\\sin x(2\\cos x-a)=0.\\]</p><p>Faktorn \\(\\sin x=0\\) ger alltid \\(x=0,\\pi\\). Den andra ger \\(\\cos x=a/2\\), vilket ger två ytterligare, skilda lösningar precis när \\(|a/2|&lt;1\\).</p><p>Vid \\(a=\\pm2\\) sammanfaller den extra lösningen med \\(0\\) respektive \\(\\pi\\). Alltså fås exakt fyra lösningar när</p><p>\\[\\boxed{-2&lt;a&lt;2}.\\]</p>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "procedur",
@@ -6933,7 +7219,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Faktorisera efter att du skrivit om \\(\\sin2x\\). Räkna sedan hur många nya lösningar \\(\\cos x=a/2\\) ger.</p>",
     "spel": false
   },
   {
@@ -6948,17 +7234,34 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin2x+\\sin x=0\\]</p><p>för \\(0\\le x&lt;2\\pi\\). Lös algebraiskt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p><div class=\"facit-arbete\"><p>Använd \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[2\\sin x\\cos x+\\sin x=0.\\]</p><p>Faktorisera:</p><p>\\[\\sin x(2\\cos x+1)=0.\\]</p>\n<p>Alltså antingen \\(\\sin x=0\\), vilket ger \\(x=0,\\pi\\), eller \\(\\cos x=-1/2\\), vilket ger \\(x=2\\pi/3,4\\pi/3\\).</p>\n<p><strong>\\(x=0,\\;2\\pi/3,\\;\\pi,\\;4\\pi/3\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></div>",
+    "s": "<p>Använd \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[\\sin x(2\\cos x+1)=0.\\]</p><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=-1/2\\). I intervallet får vi</p><p>\\[\\boxed{x=0,\\ 2\\pi/3,\\ \\pi,\\ 4\\pi/3}.\\]</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "2*pi/3",
+      "pi",
+      "4*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv om \\(\\sin2x\\) och faktorisera. En produkt är noll när minst en faktor är noll.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.65",
@@ -7335,17 +7638,28 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin x=0,18x\\]</p><p>för \\(0\\le x\\le10\\). Svara med tre decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>Skärningarna mellan \\(y=\\sin x\\) och \\(y=0,18x\\) ger lösningarna.</p><p>\\[\\boxed{x=0\\quad\\text{och}\\quad x\\approx2,645}.\\]</p>",
+    "s": "<p>Bestäm skärningarna mellan \\(y=\\sin x\\) och \\(y=0,18x\\) på \\(0\\le x\\le10\\). De är</p><p>\\[\\boxed{x=0,000\\quad\\text{och}\\quad x\\approx2,645}.\\]</p><p>För \\(x&gt;1/0,18\\approx5,56\\) är högerledet större än 1, så där kan inga fler lösningar finnas.</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      2.645
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Rita båda leden som funktioner och bestäm alla skärningar på hela intervallet. Kontrollera även varför det inte kan finnas lösningar när \\(0,18x&gt;1\\).</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.78",
@@ -7529,21 +7843,35 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen \\(2\\sin^2x-3\\sin x+1=0\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Metod:</strong> Skriv först om ekvationen så att du får vanliga trigonometriska de enklare trigonometriska ekvationerna. Använd identiteter eller faktorisering innan du löser vinklarna.</p><p>Sätt \\(u=\\sin x\\). Då \\(2u^2-3u+1=(2u-1)(u-1)=0\\).</p><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=1\\).</p><p><strong>\\(x=\\pi/6,\\pi/2,5\\pi/6\\)</strong>.</p>",
+    "t": "<p>Lös ekvationen \\(2\\cos^2x+\\sin x=1\\) för \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p>Skriv \\(\\cos^2x=1-\\sin^2x\\):</p><p>\\[2(1-\\sin^2x)+\\sin x=1\\Rightarrow2\\sin^2x-\\sin x-1=0.\\]</p><p>Faktorisera:</p><p>\\[(2\\sin x+1)(\\sin x-1)=0.\\]</p><p>Alltså \\(\\sin x=-1/2\\) eller \\(\\sin x=1\\). I intervallet:</p><p>\\[\\boxed{x=\\pi/2,\\ 7\\pi/6,\\ 11\\pi/6}.\\]</p>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/2",
+      "7*pi/6",
+      "11*pi/6"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv först \\(\\cos^2x\\) med hjälp av \\(\\sin x\\), så får du en andragradsekvation.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.513",
@@ -7556,7 +7884,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(2\\sin x=1\\) i intervallet \\(0\\le x<2\\pi\\).</p>",
+    "t": "<p>Lös \\(2\\sin x=1\\) i intervallet \\(0\\le x&lt;2\\pi\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Isolera sinus först. Då blir ekvationen \\(\\sin x=1/2\\).</p><p>I enhetscirkeln är y-koordinaten \\(1/2\\) i första och andra kvadranten. Referensvinkeln är \\(\\pi/6\\).</p><p>På intervallet \\(0\\le x<2\\pi\\) får vi därför exakt två lösningar:</p><p>\\[x=\\frac{\\pi}{6}\\quad\\text{eller}\\quad x=\\frac{5\\pi}{6}.\\]</p><p><strong>Svar:</strong> \\(\\boxed{\\{\\pi/6,5\\pi/6\\}}\\).</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
@@ -7583,7 +7911,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Undersök hur antalet lösningar till ekvationen</p><p>\\[B\\sin2x=1\\]</p><p>i intervallet \\(0\\le x&lt;2\\pi\\) beror på det reella talet \\(B\\). Motivera alla fall.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Om \\(B=0\\) saknar ekvationen lösning. För \\(B\\ne0\\) kan den skrivas</p><p>\\[\\sin2x=\\frac1B.\\]</p>\n<p>En sinus kan bara anta värden mellan -1 och 1.</p>\n<p><strong>Fall 1: \\(|B|&lt;1\\).</strong> Då \\(|1/B|&gt;1\\), alltså finns <strong>0 lösningar</strong>.</p>\n<p><strong>Fall 2: \\(|B|=1\\).</strong> Då är högerledet \\(1\\) eller \\(-1\\). När \\(2x\\) löper över \\([0,4\\pi)\\) inträffar respektive extremvärde två gånger. Alltså finns <strong>2 lösningar</strong>.</p>\n<p><strong>Fall 3: \\(|B|&gt;1\\).</strong> Då ligger \\(1/B\\) strikt mellan -1 och 1. Under varje sinusperiod finns två lösningar. Intervallet för \\(2x\\) omfattar två hela perioder, så det finns <strong>4 lösningar</strong>.</p>\n<p>Sammanfattning: <strong>0 lösningar om \\(|B|&lt;1\\) (inklusive \\(B=0\\)), 2 lösningar om \\(|B|=1\\), och 4 lösningar om \\(|B|&gt;1\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>För \\(B\\ne0\\) blir ekvationen \\(\\sin2x=1/B\\). När \\(x\\) går från 0 till \\(2\\pi\\) går \\(2x\\) genom två hela sinusperioder.</p><p>Därför:</p><p>• \\(|B|&lt;1\\): inga lösningar, eftersom \\(|1/B|&gt;1\\).<br>• \\(|B|=1\\): ett extremvärde träffas en gång per period, alltså 2 lösningar.<br>• \\(|B|&gt;1\\): nivån ligger strikt mellan -1 och 1 och träffas två gånger per period, alltså 4 lösningar.</p><p>För \\(B=0\\) finns också 0 lösningar.</p>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "begrepp",
@@ -7595,7 +7923,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Studera först när \\(1/B\\) ligger i intervallet \\([-1,1]\\). Kom ihåg att \\(2x\\) genomlöper två perioder.</p>",
     "spel": false
   },
   {
@@ -7611,7 +7939,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vilka värden på a har ekvationen \\(\\sin x=a\\) exakt en lösning i intervallet \\(0\\le x&lt;2\\pi\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>För \\(-1&lt;a&lt;1\\) skär en horisontell linje sinuskurvan två gånger under ett varv. För \\(a=1\\) respektive \\(a=-1\\) tangerar linjen grafen i en extrempunkt och ger exakt en lösning. Utanför \\([-1,1]\\) finns inga lösningar.</p><p><strong>Svar:</strong> \\(a=-1\\) eller \\(a=1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Under en hel period skär en horisontell linje \\(y=a\\) sinuskurvan två gånger när \\(-1&lt;a&lt;1\\), en gång när \\(a=\\pm1\\), och inte alls när \\(|a|&gt;1\\).</p><p>Därför har \\(\\sin x=a\\) exakt en lösning i \\(0\\le x&lt;2\\pi\\) endast för</p><p>\\[\\boxed{a=-1\\quad\\text{eller}\\quad a=1}.\\]</p>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "resonemang",
@@ -7626,7 +7954,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Tänk på hur många gånger en horisontell linje y=a skär sinuskurvan.</p>",
+    "ledtrad": "<p>Tänk grafiskt: när tangerar den horisontella linjen \\(y=a\\) sinuskurvan i stället för att skära den två gånger?</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -7645,7 +7973,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös i intervallet \\(0^\\circ\\le x&lt;360^\\circ\\).</p><p>a) \\(\\sin x=-\\frac12\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=\\frac{\\sqrt2}{2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=\\sqrt3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2\\cos x+1=0\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>a) <strong>\\(x=210^\\circ,330^\\circ\\)</strong>.</p><p>b) <strong>\\(x=45^\\circ,315^\\circ\\)</strong>.</p><p>c) <strong>\\(x=60^\\circ,240^\\circ\\)</strong>.</p><p>d) \\(\\cos x=-1/2\\), alltså <strong>\\(x=120^\\circ,240^\\circ\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm referensvinkeln och välj de kvadranter där funktionen har rätt tecken.</p><p>a) <strong>\\(x=210^\\circ,330^\\circ\\)</strong>.</p><p>b) <strong>\\(x=45^\\circ,315^\\circ\\)</strong>.</p><p>c) <strong>\\(x=60^\\circ,240^\\circ\\)</strong>.</p><p>d) \\(\\cos x=-1/2\\), alltså <strong>\\(x=120^\\circ,240^\\circ\\)</strong>.</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -7765,7 +8093,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Undersök hur många lösningar ekvationen</p>\n<p>\\[\nB\\sin2x=5\n\\]</p>\n<p>har i intervallet \\(0\\le x&lt;2\\pi\\), beroende på det reella talet \\(B\\).</p>\n<p>Motivera alla fall.</p>",
-    "s": "<p>Om \\(B=0\\) saknas lösningar. För \\(B\\ne0\\) kan ekvationen skrivas</p>\n<p>\\[\n\\sin2x=\\frac5B.\n\\]</p>\n<p>Eftersom \\(-1\\le\\sin2x\\le1\\) krävs \\(\\left|\\frac5B\\right|\\le1\\), alltså \\(|B|\\ge5\\).</p>\n<p>När \\(0\\le x&lt;2\\pi\\) varierar \\(2x\\) över intervallet \\(0\\le2x&lt;4\\pi\\), alltså två hela sinusperioder.</p>\n<p>• Om \\(|B|&lt;5\\): högerledets absolutbelopp är större än 1 → <strong>0 lösningar</strong>.</p>\n<p>• Om \\(|B|=5\\): högerledet är \\(1\\) eller \\(-1\\). Varje sinusperiod ger en lösning → <strong>2 lösningar</strong>.</p>\n<p>• Om \\(|B|&gt;5\\): högerledet ligger strikt mellan \\(-1\\) och \\(1\\). Varje period ger två lösningar → <strong>4 lösningar</strong>.</p>",
+    "s": "<p>För \\(B\\ne0\\) blir ekvationen \\(\\sin2x=5/B\\). En lösning kräver \\(|5/B|\\le1\\), alltså \\(|B|\\ge5\\).</p><p>Eftersom \\(2x\\) genomlöper två hela sinusperioder får vi:</p><p>\\[\\boxed{0\\text{ lösningar om }|B|&lt;5;\\quad2\\text{ om }|B|=5;\\quad4\\text{ om }|B|&gt;5}.\\]</p>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "begrepp",
@@ -7777,7 +8105,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "ledtrad": "<p>Jämför \\(|5/B|\\) med 1 och räkna sedan hur många gånger nivån träffas under två sinusperioder.</p>",
     "spel": false
   },
   {
@@ -7890,12 +8218,23 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "5*pi/6"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv \\(\\cos^2x=1-\\sin^2x\\). Då får du en andragradsekvation i \\(\\sin x\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.108",
@@ -8011,17 +8350,31 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös algebraiskt</p><p>\\[2\\sin^2x-3\\sin x+1=0\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Metod:</strong> Skriv först om ekvationen så att du får vanliga trigonometriska de enklare trigonometriska ekvationerna. Använd identiteter eller faktorisering innan du löser vinklarna.</p><p>Sätt \\(u=\\sin x\\). Då</p><p>\\[2u^2-3u+1=(2u-1)(u-1)=0.\\]</p><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=1\\).</p><p>I intervallet fås <strong>\\(\\boxed{x=\\pi/6,\\ \\pi/2,\\ 5\\pi/6}\\)</strong>.</p>",
+    "s": "<p>Sätt \\(u=\\sin x\\):</p><p>\\[2u^2-3u+1=(2u-1)(u-1)=0.\\]</p><p>Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=1\\), vilket i intervallet ger</p><p>\\[\\boxed{x=\\pi/6,\\ \\pi/2,\\ 5\\pi/6}.\\]</p>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "pi/2",
+      "5*pi/6"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Behandla först ekvationen som en andragradsekvation i \\(u=\\sin x\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.122",
@@ -8104,7 +8457,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös i intervallet \\(0\\le x&lt;2\\pi\\).</p><p>a) \\(\\sin x=1/2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos x=-\\sqrt2/2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan x=-1\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Bestäm motsvarande vinkeln i första kvadranten och välj de kvadranter där funktionen har rätt tecken.</p><p>a) \\(x=\\pi/6,5\\pi/6\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x=3\\pi/4,5\\pi/4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(x=3\\pi/4,7\\pi/4\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd standardvinklarna i enhetscirkeln och rätt tecken i respektive kvadrant.</p><p><strong>Metod:</strong> Bestäm motsvarande vinkeln i första kvadranten och välj de kvadranter där funktionen har rätt tecken.</p><p>a) \\(x=\\pi/6,5\\pi/6\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x=3\\pi/4,5\\pi/4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(x=3\\pi/4,7\\pi/4\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -8206,17 +8559,31 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[\\cos(1,7x)=0,25x-0,4\\]</p><p>för \\(0\\le x\\le6\\). Svara med tre decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>En grafisk lösning ger tre skärningar:</p><p>\\[\\boxed{x\\approx1,011;\\ 2,979;\\ 4,203}.\\]</p>",
+    "s": "<p>En grafisk eller numerisk lösning av</p><p>\\[\\cos(1,7x)=0,25x-0,4\\]</p><p>på hela intervallet \\(0\\le x\\le6\\) ger tre skärningar:</p><p>\\[\\boxed{x\\approx1,011;\\ 2,979;\\ 4,203}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.011,
+      2.979,
+      4.203
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Rita båda leden som funktioner på hela intervallet 0 till 6 och läs av samtliga skärningspunkters x-koordinater.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.189",
@@ -8305,7 +8672,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\tan x=\\sqrt3\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>\\(x=\\pi/3\\) eller \\(x=4\\pi/3\\).</p>",
+    "s": "<p><strong>Metod:</strong> Sinus är \\(\\sqrt3/2\\) i första och andra kvadranten och har perioden \\(2\\pi\\).</p><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>\\(x=\\pi/3\\) eller \\(x=4\\pi/3\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -8334,12 +8701,23 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "4*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Referensvinkeln är \\(\\pi/3\\). Tangens är positiv i första och tredje kvadranten.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.514",
@@ -8352,7 +8730,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(\\cos(2x)=0\\) i intervallet \\(0\\le x<2\\pi\\).</p>",
+    "t": "<p>Lös \\(\\cos(2x)=0\\) i intervallet \\(0\\le x&lt;2\\pi\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Sätt \\(u=2x\\) så att vi först löser en vanlig cosinusekvation.</p><p>\\(\\cos u=0\\) när \\(u=\\pi/2+k\\pi\\). Eftersom \\(0\\le x<2\\pi\\) gäller \\(0\\le u<4\\pi\\).</p><p>Det ger \\(u=\\pi/2,3\\pi/2,5\\pi/2,7\\pi/2\\). Dividera sedan varje värde med 2:</p><p>\\[x=\\frac\\pi4,\\frac{3\\pi}4,\\frac{5\\pi}4,\\frac{7\\pi}4.\\]</p><p><strong>Svar:</strong> de fyra värdena ovan.</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
@@ -8384,12 +8762,29 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      45,
+      105,
+      225,
+      285
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Sätt först \\(u=2x-60^\\circ\\) och lös sinusekvationen för \\(u\\). Gå sedan tillbaka till \\(x\\).</p>",
+    "svarFormat": [
+      "grader",
+      "grader",
+      "grader",
+      "grader"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.194",
@@ -8402,18 +8797,29 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen \\(2\\cos x-1=0\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
+    "t": "<p>Lös \\(2\\cos x-1=0\\) för \\(0\\le x&lt;2\\pi\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>\\(\\cos x=1/2\\), alltså \\(\\boxed{x=\\pi/3,5\\pi/3}\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "5*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först \\(\\cos x\\) och använd enhetscirkeln.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.195",
@@ -8427,17 +8833,40 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\cos(3x)=\\frac12\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>\\(3x=\\pm\\pi/3+2\\pi n\\). Dividera med 3 och välj lösningarna i intervallet. Då fås \\(\\boxed{x=\\pi/9,5\\pi/9,7\\pi/9,11\\pi/9,13\\pi/9,17\\pi/9}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Sätt \\(u=3x\\). Då måste alla lösningar till \\(\\cos u=1/2\\) tas med för \\(0\\le u&lt;6\\pi\\).</p><p>\\(3x=\\pm\\pi/3+2\\pi n\\). Dividera med 3 och välj lösningarna i intervallet. Då fås \\(\\boxed{x=\\pi/9,5\\pi/9,7\\pi/9,11\\pi/9,13\\pi/9,17\\pi/9}\\).</p>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/9",
+      "5*pi/9",
+      "7*pi/9",
+      "11*pi/9",
+      "13*pi/9",
+      "17*pi/9"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Lös först \\(\\cos u=1/2\\) för \\(u=3x\\). Kom ihåg att \\(u\\) då går från 0 till \\(6\\pi\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.529",
@@ -8481,7 +8910,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Ange samtliga lösningar till \\(\\sin x\\cos x=0\\). Vinkeln \\(x\\) mäts i grader.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>En produkt är 0 om minst en faktor är 0. \\(\\sin x=0\\) ger \\(x=180^\\circ n\\). \\(\\cos x=0\\) ger \\(x=90^\\circ+180^\\circ n\\). Tillsammans: \\(\\boxed{x=90^\\circ n}\\), \\(n\\in\\mathbb Z\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd nollprodukt: minst en av faktorerna \\(\\sin x\\) och \\(\\cos x\\) måste vara noll.</p><p>En produkt är 0 om minst en faktor är 0. \\(\\sin x=0\\) ger \\(x=180^\\circ n\\). \\(\\cos x=0\\) ger \\(x=90^\\circ+180^\\circ n\\). Tillsammans: \\(\\boxed{x=90^\\circ n}\\), \\(n\\in\\mathbb Z\\).</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
@@ -8510,12 +8939,29 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "pi/2",
+      "5*pi/6",
+      "3*pi/2"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv \\(\\sin2x=2\\sin x\\cos x\\) och faktorisera utan att dividera bort någon möjlig nollfaktor.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.198",
@@ -8529,17 +8975,28 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\cos x-\\sin x=0\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>\\(\\cos x=\\sin x\\). Här kan vi dividera med \\(\\cos x\\), eftersom \\(\\cos x=0\\) inte löser ursprungsekvationen. Då fås \\(\\tan x=1\\). Alltså \\(\\boxed{x=\\pi/4,5\\pi/4}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Ekvationen ger \\(\\cos x=\\sin x\\). Kontrollera först att \\(\\cos x=0\\) inte kan vara en lösning innan du dividerar.</p><p>\\(\\cos x=\\sin x\\). Här kan vi dividera med \\(\\cos x\\), eftersom \\(\\cos x=0\\) inte löser ursprungsekvationen. Då fås \\(\\tan x=1\\). Alltså \\(\\boxed{x=\\pi/4,5\\pi/4}\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/4",
+      "5*pi/4"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Flytta om till \\(\\cos x=\\sin x\\). Kontrollera först att division med \\(\\cos x\\) inte förlorar någon lösning.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.199",
@@ -8552,18 +9009,29 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Lös ekvationen \\(3\\sin x=\\cos x\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p><div class=\"facit-arbete\"><p>Dividera med \\(\\cos x\\), som inte kan vara 0 i en lösning. Då fås \\(3\\tan x=1\\), alltså \\(\\tan x=1/3\\). Sätt \\(\\alpha=\\arctan(1/3)\\). Lösningarna är \\(\\boxed{x=\\alpha\\text{ eller }x=\\alpha+\\pi}\\), där \\(\\alpha\\approx0,322\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></div>",
+    "t": "<p>Lös ekvationen \\(3\\sin x=\\cos x\\) för \\(0\\le x&lt;2\\pi\\). Svara med tre decimaler.</p>",
+    "s": "<p>Ingen lösning har \\(\\cos x=0\\), så vi kan dividera med \\(\\cos x\\):</p><p>\\[3\\tan x=1\\Rightarrow\\tan x=1/3.\\]</p><p>Med \\(\\alpha=\\arctan(1/3)\\approx0,322\\) fås den andra lösningen en halv period senare:</p><p>\\[\\boxed{x\\approx0,322\\quad\\text{eller}\\quad x\\approx3,463}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.322,
+      3.463
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Dividera med \\(\\cos x\\) efter att du kontrollerat att \\(\\cos x=0\\) inte kan vara en lösning.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.200",
@@ -8577,17 +9045,31 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(2\\cos^2x-3\\cos x+1=0\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Sätt \\(u=\\cos x\\). Då \\(2u^2-3u+1=(2u-1)(u-1)=0\\). Alltså \\(\\cos x=1/2\\) eller \\(\\cos x=1\\). Lösningarna är \\(\\boxed{x=0,\\pi/3,5\\pi/3}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Sätt \\(u=\\cos x\\), lös andragradsekvationen och översätt sedan varje tillåtet \\(u\\)-värde till vinklar.</p><p>Sätt \\(u=\\cos x\\). Då \\(2u^2-3u+1=(2u-1)(u-1)=0\\). Alltså \\(\\cos x=1/2\\) eller \\(\\cos x=1\\). Lösningarna är \\(\\boxed{x=0,\\pi/3,5\\pi/3}\\).</p>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/3",
+      "5*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Sätt \\(u=\\cos x\\) och faktorisera andragradsekvationen i \\(u\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.343",
@@ -8601,7 +9083,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x+\\cos(2,3x)=0,7\\]</p><p>för \\(0\\le x&lt;2\\pi\\). Svara med tre decimaler.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Studera vänsterledet som en funktion och bestäm dess skärning med nivån \\(0,7\\).</p><p>I intervallet finns en lösning:</p><p>\\[\\boxed{x\\approx3,112}.\\]</p>",
+    "s": "<p><strong>Metod:</strong> Ekvationen saknar en enkel algebraisk lösning. Bestäm därför skärningarna numeriskt på hela intervallet.</p><p>Studera vänsterledet som en funktion och bestäm dess skärning med nivån \\(0,7\\).</p><p>I intervallet finns en lösning:</p><p>\\[\\boxed{x\\approx3,112}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
@@ -8625,17 +9107,31 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(2\\sin^2x+\\sin x-1=0\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Sätt \\(u=\\sin x\\). Då \\(2u^2+u-1=(2u-1)(u+1)=0\\). Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=-1\\). Lösningarna är \\(\\boxed{x=\\pi/6,5\\pi/6,3\\pi/2}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Sätt \\(u=\\sin x\\), faktorisera andragradsekvationen och välj sedan alla vinklar i intervallet.</p><p>Sätt \\(u=\\sin x\\). Då \\(2u^2+u-1=(2u-1)(u+1)=0\\). Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=-1\\). Lösningarna är \\(\\boxed{x=\\pi/6,5\\pi/6,3\\pi/2}\\).</p>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "5*pi/6",
+      "3*pi/2"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Sätt \\(u=\\sin x\\), lös andragradsekvationen och gå sedan tillbaka till vinklar i intervallet.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.202",
@@ -8654,12 +9150,29 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "2*pi/3",
+      "4*pi/3",
+      "5*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Ta först kvadratroten: \\(\\sin x=\\pm\\sqrt3/2\\). Vilka fyra vinklar ger dessa värden?</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.203",
@@ -8668,22 +9181,39 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin2x=-\\sin x\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Använd \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[2\\sin x\\cos x=-\\sin x\\Rightarrow \\sin x(2\\cos x+1)=0.\\]</p><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=-1/2\\).</p><p>Lösningarna är <strong>\\(x=0,2\\pi/3,\\pi,4\\pi/3\\)</strong>.</p>",
+    "s": "<p>Använd \\(\\sin2x=2\\sin x\\cos x\\):</p><p>\\[2\\sin x\\cos x=-\\sin x\\Rightarrow\\sin x(2\\cos x+1)=0.\\]</p><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=-1/2\\). Därför</p><p>\\[\\boxed{x=0,\\ 2\\pi/3,\\ \\pi,\\ 4\\pi/3}.\\]</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "2*pi/3",
+      "pi",
+      "4*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Flytta allt till ett led, skriv om \\(\\sin2x\\) och faktorisera.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.204",
@@ -8702,12 +9232,29 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/3",
+      "pi",
+      "5*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Flytta högerledet till vänster och faktorisera ut \\(\\sin x\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.205",
@@ -8716,8 +9263,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\tan x=2\\sin x\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -8726,12 +9273,29 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/3",
+      "pi",
+      "5*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv \\(\\tan x=\\sin x/\\cos x\\), men kom ihåg att tangens kräver \\(\\cos x\\ne0\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.206",
@@ -8740,8 +9304,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin x+\\cos x=1\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -8750,12 +9314,23 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Kvadrering kan skapa extralösningar. Kvadrera, lös kandidaterna och kontrollera dem sedan i ursprungsekvationen.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.207",
@@ -8769,17 +9344,34 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\frac{1}{\\cos^2x}=2\\)<br>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p>Ekvationen ger \\(\\cos^2x=1/2\\), alltså \\(\\cos x=\\pm\\sqrt2/2\\). Samtliga fyra standardvinklar fungerar och tangens är definierad där. \\(\\boxed{x=\\pi/4,3\\pi/4,5\\pi/4,7\\pi/4}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Multiplicera med \\(\\cos^2x\\) och lös sedan den exakta ekvationen \\(\\cos^2x=1/2\\).</p><p>Ekvationen ger \\(\\cos^2x=1/2\\), alltså \\(\\cos x=\\pm\\sqrt2/2\\). Samtliga fyra standardvinklar fungerar och tangens är definierad där. \\(\\boxed{x=\\pi/4,3\\pi/4,5\\pi/4,7\\pi/4}\\).</p>",
     "familj": "Trigonometriska ekvationer med andragradssubstitution",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/4",
+      "3*pi/4",
+      "5*pi/4",
+      "7*pi/4"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Multiplicera med \\(\\cos^2x\\) och lös sedan \\(\\cos^2x=1/2\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.515",
@@ -8788,24 +9380,37 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(2\\sin^2x-3\\sin x+1=0\\) i \\(0\\le x<2\\pi\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Behandla först ekvationen som en andragradsekvation i \\(\\sin x\\): \\((2\\sin x-1)(\\sin x-1)=0\\).</p><p>Faktorisering ger \\(\\sin x=1/2\\) eller \\(\\sin x=1\\). Därför \\(x=\\pi/6,5\\pi/6,\\pi/2\\).</p><p><strong>Svar:</strong> \\(\\boxed{x=\\pi/6,\\pi/2,5\\pi/6}\\).</p>",
+    "t": "<p>Lös \\(\\cos2x=\\cos x\\) i \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p>Skriv \\(\\cos2x=2\\cos^2x-1\\):</p><p>\\[2\\cos^2x-1=\\cos x.\\]</p><p>Sätt \\(u=\\cos x\\): \\(2u^2-u-1=(2u+1)(u-1)=0\\).</p><p>Alltså \\(\\cos x=-1/2\\) eller \\(\\cos x=1\\), vilket ger</p><p>\\[\\boxed{x=0,\\ 2\\pi/3,\\ 4\\pi/3}.\\]</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
-    "spel": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "2*pi/3",
+      "4*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Skriv \\(\\cos2x\\) med \\(\\cos x\\) och behandla sedan ekvationen som en andragradsekvation.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.208",
@@ -8819,7 +9424,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm hur många lösningar ekvationen \\(a\\sin x=1\\) har<br>för \\(0\\le x&lt;2\\pi\\), beroende på det reella talet \\(a\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Om \\(a=0\\) finns ingen lösning. För \\(a\\ne0\\) skrivs ekvationen \\(\\sin x=1/a\\). Om \\(|a|&lt;1\\) är \\(|1/a|&gt;1\\), så ingen lösning finns. Om \\(|a|=1\\) fås exakt en lösning i intervallet. Om \\(|a|&gt;1\\) ligger \\(1/a\\) strikt mellan -1 och 1 och då finns två lösningar. Alltså: \\(\\boxed{0\\text{ lösningar om }|a|&lt;1;\\ 1\\text{ om }|a|=1;\\ 2\\text{ om }|a|&gt;1}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Om \\(a=0\\) finns ingen lösning. För \\(a\\ne0\\) blir ekvationen \\(\\sin x=1/a\\).</p><p>• Om \\(|a|&lt;1\\) ligger \\(1/a\\) utanför intervallet \\([-1,1]\\): 0 lösningar.<br>• Om \\(|a|=1\\) fås ett extremvärde \\(\\pm1\\): 1 lösning.<br>• Om \\(|a|&gt;1\\) ligger \\(1/a\\) strikt mellan -1 och 1: 2 lösningar.</p><p>Alltså</p><p>\\[\\boxed{0,1,2\\text{ lösningar enligt fallen ovan}.\\]</p>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "procedur",
@@ -8832,7 +9437,8 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv \\(\\sin x=1/a\\) och jämför \\(|1/a|\\) med 1.</p>",
+    "spel": false
   },
   {
     "id": "1.233",
@@ -8845,18 +9451,29 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[\\sin x=\\frac12.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens. Använd sedan enhetscirkeln och intervallet.</p><p><strong>Svar:</strong> \\(x=\\pi/6,\\ 5\\pi/6\\).</p>",
+    "t": "<p>Lös \\(\\sin x=\\sqrt3/2\\) för \\(-\\pi\\le x&lt;\\pi\\).</p>",
+    "s": "<p>Sinus är \\(\\sqrt3/2\\) vid referensvinkeln \\(\\pi/3\\) i första och andra kvadranten. Båda ligger i det givna intervallet:</p><p>\\[\\boxed{x=\\pi/3,\\ 2\\pi/3}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "2*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Använd enhetscirkeln och välj bara de lösningar som ligger mellan \\(-\\pi\\) och \\(\\pi\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.234",
@@ -8869,18 +9486,29 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[\\cos x=-\\frac12.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens. Använd sedan enhetscirkeln och intervallet.</p><p><strong>Svar:</strong> \\(x=2\\pi/3,\\ 4\\pi/3\\).</p>",
+    "t": "<p>Lös \\(\\cos x=0\\) för \\(-\\pi\\le x&lt;\\pi\\).</p>",
+    "s": "<p>Cosinus är 0 på den lodräta axeln i enhetscirkeln. I intervallet fås</p><p>\\[\\boxed{x=-\\pi/2,\\ \\pi/2}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-pi/2",
+      "pi/2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Vilka två punkter på enhetscirkeln har x-koordinaten 0?</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.235",
@@ -8893,18 +9521,29 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[\\tan x=1.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens. Använd sedan enhetscirkeln och intervallet.</p><p><strong>Svar:</strong> \\(x=\\pi/4,\\ 5\\pi/4\\).</p>",
+    "t": "<p>Lös \\(\\tan x=-\\sqrt3\\) för \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p>Referensvinkeln är \\(\\pi/3\\). Tangens är negativ i andra och fjärde kvadranten:</p><p>\\[\\boxed{x=2\\pi/3,\\ 5\\pi/3}.\\]</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2*pi/3",
+      "5*pi/3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Referensvinkeln är \\(\\pi/3\\). I vilka kvadranter är tangens negativ?</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.236",
@@ -8917,18 +9556,29 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[\\sin(2x)=0.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens. Använd sedan enhetscirkeln och intervallet.</p><p><strong>Svar:</strong> \\(x=0,\\pi/2,\\pi,\\ 3\\pi/2\\).</p>",
+    "t": "<p>Lös \\(\\sin(x-\\pi/6)=1/2\\) för \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p>Sätt \\(u=x-\\pi/6\\). Då \\(\\sin u=1/2\\), så</p><p>\\[u=\\pi/6+2k\\pi\\quad\\text{eller}\\quad u=5\\pi/6+2k\\pi.\\]</p><p>Alltså \\(x=\\pi/3+2k\\pi\\) eller \\(x=\\pi+2k\\pi\\). I intervallet:</p><p>\\[\\boxed{x=\\pi/3,\\ \\pi}.\\]</p>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "pi"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Sätt \\(u=x-\\pi/6\\), lös den vanliga sinusekvationen och gå sedan tillbaka till \\(x\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.237",
@@ -8942,17 +9592,40 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\cos(3x)=0.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p>Förenkla ekvationen med de trigonometriska formler som behövs och bestäm först möjliga värden på sinus, cosinus eller tangens. Använd sedan enhetscirkeln och intervallet.</p><p><strong>Svar:</strong> \\(x=\\pi/6,\\pi/2,\\ 5\\pi/6,\\ 7\\pi/6,\\ 3\\pi/2,\\ 11\\pi/6\\).</p>",
+    "s": "<p>Sätt \\(u=3x\\). Då \\(0\\le u&lt;6\\pi\\). Cosinus är 0 när \\(u=\\pi/2+k\\pi\\).</p><p>Efter division med 3 och urval i intervallet fås</p><p>\\[\\boxed{x=\\pi/6,\\pi/2,5\\pi/6,7\\pi/6,3\\pi/2,11\\pi/6}.\\]</p>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "pi/2",
+      "5*pi/6",
+      "7*pi/6",
+      "3*pi/2",
+      "11*pi/6"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Sätt \\(u=3x\\). Hur långt intervall genomlöper \\(u\\), och hur ofta är cosinus 0 där?</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.530",
@@ -9004,19 +9677,30 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Lös ekvationen</p><p>\\[\\tan(0,8x)=0,3x\\]</p><p>för \\(0\\le x\\le8\\). Var uppmärksam på tangensfunktionens asymptoter.</p>",
+    "t": "<p>Lös ekvationen</p><p>\\[\\tan(0,8x)=0,3x\\]</p><p>för \\(0\\le x\\le8\\). Var uppmärksam på tangensfunktionens asymptoter. <strong>Svara med tre decimaler där svaret inte är exakt.</strong></p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p><div class=\"facit-arbete\"><p>Grafen till \\(\\tan(0,8x)\\) har asymptoter där \\(0,8x=\\pi/2+n\\pi\\). I intervallet ligger asymptoter vid ungefär \\(1,963\\) och \\(5,890\\).</p><p>Skärningarna med \\(y=0,3x\\) som verkligen ligger på kurvan är</p><p>\\[\\boxed{x=0\\quad\\text{och}\\quad x\\approx5,175}.\\]</p><p>Skärningar som bara uppstår över ett hopp vid en asymptot ska inte räknas.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></div>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      5.175
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.238",
@@ -9035,12 +9719,20 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "2*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.239",
@@ -9059,12 +9751,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/4",
+      "3*pi/4",
+      "5*pi/4",
+      "7*pi/4"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.240",
@@ -9083,12 +9787,22 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/2",
+      "7*pi/6",
+      "11*pi/6"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.241",
@@ -9107,12 +9821,22 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2*pi/3",
+      "pi",
+      "4*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.242",
@@ -9131,12 +9855,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/3",
+      "pi",
+      "5*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.243",
@@ -9155,12 +9891,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "pi/2",
+      "5*pi/6",
+      "3*pi/2"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.244",
@@ -9179,12 +9927,22 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "2*pi/3",
+      "4*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.245",
@@ -9193,8 +9951,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin x+\\cos x=0.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -9203,12 +9961,20 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3*pi/4",
+      "7*pi/4"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.246",
@@ -9217,8 +9983,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x\\cos x=\\frac12.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -9227,12 +9993,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/12",
+      "5*pi/12",
+      "13*pi/12",
+      "17*pi/12"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.247",
@@ -9241,8 +10019,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\sin^2x-\\cos^2x=\\frac12.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -9251,12 +10029,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "2*pi/3",
+      "4*pi/3",
+      "5*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.516",
@@ -9265,8 +10055,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm antalet lösningar till \\(\\sin x=0,4\\) i intervallet \\(-3\\pi\\le x\\le3\\pi\\) utan att approximera varje lösning.</p>",
@@ -9277,12 +10067,13 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "svarstyp": "manuell",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
-    "spel": false
+    "spel": false,
+    "svarFormat": "heltal"
   },
   {
     "id": "1.248",
@@ -9291,8 +10082,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[\\frac{1}{1+\\tan^2x}=\\frac34.\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -9301,12 +10092,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "5*pi/6",
+      "7*pi/6",
+      "11*pi/6"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.271",
@@ -9316,7 +10119,7 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(3\\sin x=3\\) för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -9325,12 +10128,13 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.272",
@@ -9349,12 +10153,20 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2*pi/3",
+      "4*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.345",
@@ -9368,7 +10180,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Linjen</p><p>\\[y=a(x-2)\\]</p><p>tangerar kurvan \\(y=\\sin x\\) i en punkt där \\(0&lt;x&lt;2\\pi\\).</p><p>Bestäm \\(a\\) och tangentpunktens x-koordinat. Svara med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>I tangentpunkten måste linjen och kurvan ha både samma y-värde och samma lutning.</p><p>Alltså</p><p>\\[\\sin x=a(x-2)\\qquad\\text{och}\\qquad a=\\cos x.\\]</p><p>Eliminera \\(a\\):</p><p>\\[\\sin x=(x-2)\\cos x.\\]</p><p>Den relevanta lösningen är \\(x\\approx4,303\\). Då</p><p>\\[a=\\cos(4,303)\\approx-0,398.\\]</p><p>\\[\\boxed{x\\approx4,303,\\qquad a\\approx-0,398}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> I tangentpunkten måste linjen och sinuskurvan ha både samma funktionsvärde och samma lutning. Använd de två villkoren samtidigt och lös sedan den återstående ekvationen numeriskt.</p><div class=\"facit-arbete\"><p>I tangentpunkten måste linjen och kurvan ha både samma y-värde och samma lutning.</p><p>Alltså</p><p>\\[\\sin x=a(x-2)\\qquad\\text{och}\\qquad a=\\cos x.\\]</p><p>Eliminera \\(a\\):</p><p>\\[\\sin x=(x-2)\\cos x.\\]</p><p>Den relevanta lösningen är \\(x\\approx4,303\\). Då</p><p>\\[a=\\cos(4,303)\\approx-0,398.\\]</p><p>\\[\\boxed{x\\approx4,303,\\qquad a\\approx-0,398}.\\]</p></div></div>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "procedur",
@@ -9376,12 +10188,27 @@ window.BANKMATO2 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.398,
+      4.303
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "x"
+    ]
   },
   {
     "id": "1.277",
@@ -9400,12 +10227,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/4",
+      "3*pi/4",
+      "5*pi/4",
+      "7*pi/4"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.278",
@@ -9419,7 +10258,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm alla \\(a\\) för vilka ekvationen \\(\\sin x=a\\) har exakt en lösning i intervallet \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>För \\(-1&lt;a&lt;1\\) och \\(a\\ne0\\) finns två lösningar. För \\(a=0\\) finns två lösningar i intervallet: 0 och \\(\\pi\\). För \\(a=1\\) respektive \\(a=-1\\) finns exakt en lösning. Utanför \\([-1,1]\\) finns ingen.</p><p>Alltså \\(\\boxed{a=\\pm1}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tolka parametern som en horisontell nivå och räkna hur många gånger den trigonometriska grafen träffar nivån på det angivna intervallet. Extremnivåerna måste behandlas separat.</p><div class=\"facit-arbete\"><p>För \\(-1&lt;a&lt;1\\) och \\(a\\ne0\\) finns två lösningar. För \\(a=0\\) finns två lösningar i intervallet: 0 och \\(\\pi\\). För \\(a=1\\) respektive \\(a=-1\\) finns exakt en lösning. Utanför \\([-1,1]\\) finns ingen.</p><p>Alltså \\(\\boxed{a=\\pm1}\\).</p></div></div>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "procedur",
@@ -9427,12 +10266,20 @@ window.BANKMATO2 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      1
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.547",
@@ -9447,7 +10294,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>För vilka k har \\(\\cos x=k\\) exakt två lösningar i \\(0\\le x&lt;2\\pi\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>En horisontell linje \\(y=k\\) skär cosinuskurvan två gånger för alla nivåer strikt mellan minimum och maximum. Vid \\(k=\\pm1\\) fås bara en träff och utanför intervallet inga.</p><p><strong>Svar:</strong> \\(-1&lt;k&lt;1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tolka parametern som en horisontell nivå och räkna hur många gånger den trigonometriska grafen träffar nivån på det angivna intervallet. Extremnivåerna måste behandlas separat.</p><div class=\"facit-arbete\"><p>En horisontell linje \\(y=k\\) skär cosinuskurvan två gånger för alla nivåer strikt mellan minimum och maximum. Vid \\(k=\\pm1\\) fås bara en träff och utanför intervallet inga.</p><p><strong>Svar:</strong> \\(-1&lt;k&lt;1\\).</p></div></div>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "resonemang",
@@ -9469,8 +10316,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/2/1",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(\\cos x+\\cos2x=0\\) för \\(0\\le x&lt;2\\pi\\).</p>",
@@ -9479,12 +10326,22 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "pi",
+      "5*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.289",
@@ -9641,12 +10498,22 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/3",
+      "pi",
+      "5*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.299",
@@ -9785,18 +10652,30 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[\\sin 2x=\\sin x\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p><div class=\"facit-arbete\"><p><strong>Formelbladet:</strong> \\(\\sin2x=2\\sin x\\cos x\\).</p><p>\\[2\\sin x\\cos x=\\sin x\\Rightarrow \\sin x(2\\cos x-1)=0.\\]</p><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=1/2\\).</p><p>På intervallet fås <strong>\\(x=0,\\pi/3,\\pi,5\\pi/3\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></div>",
+    "t": "<p>Lös ekvationen</p><p>\\[\\sin 2x=1-\\cos 2x\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Skriv båda leden med \\(\\sin x\\) och \\(\\cos x\\) och faktorisera. Dividera inte med \\(\\sin x\\), eftersom lösningar då kan försvinna.</p><p>\\[2\\sin x\\cos x=2\\sin^2x\\]</p><p>\\[2\\sin x(\\cos x-\\sin x)=0.\\]</p><p>Alltså \\(\\sin x=0\\) eller \\(\\cos x=\\sin x\\).</p><p>På intervallet fås</p><p>\\[\\boxed{x=0,\\;\\frac\\pi4,\\;\\pi,\\;\\frac{5\\pi}{4}}.\\]</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/4",
+      "pi",
+      "5*pi/4"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Skriv \\(1-\\cos2x=2\\sin^2x\\) och \\(\\sin2x=2\\sin x\\cos x\\). Försök sedan faktorisera utan att dividera bort en möjlig nollfaktor.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.301",
@@ -9815,12 +10694,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/6",
+      "5*pi/6",
+      "pi"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.312",
@@ -9839,12 +10730,24 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "pi/2",
+      "pi",
+      "3*pi/2"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.316",
@@ -9983,12 +10886,20 @@ window.BANKMATO2 = [
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      "2*pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.326",
@@ -10099,11 +11010,11 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(\\sin x=\\cos2x\\) i intervallet \\(0\\le x<2\\pi\\).</p>",
+    "t": "<p>Lös \\(\\sin x=\\cos2x\\) i intervallet \\(0\\le x&lt;2\\pi\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv \\(\\cos2x=1-2\\sin^2x\\). Då fås en andragradsekvation i \\(\\sin x\\), som sedan löses med enhetscirkeln.</p><p>Omskrivningen ger \\(2\\sin^2x+\\sin x-1=0=(2\\sin x-1)(\\sin x+1)\\). Alltså \\(\\sin x=1/2\\) eller \\(\\sin x=-1\\).</p><p><strong>Svar:</strong> \\(\\boxed{x=\\pi/6,5\\pi/6,3\\pi/2}\\).</p>",
     "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
@@ -10111,12 +11022,22 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "svarstyp": "manuell",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "5*pi/6",
+      "3*pi/2"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
-    "spel": false
+    "spel": false,
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.330",
@@ -10129,18 +11050,30 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös ekvationen</p><p>\\[\\cos2x=\\cos x\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Isolera den trigonometriska funktionen, hitta grundvinklarna i enhetscirkeln och använd sedan funktionens periodicitet för att få alla lösningar.</p><div class=\"facit-arbete\"><p>Använd \\(\\cos2x=2\\cos^2x-1\\):</p><p>\\[2\\cos^2x-1=\\cos x.\\]</p><p>Sätt \\(u=\\cos x\\): \\(2u^2-u-1=0=(2u+1)(u-1)\\).</p><p>Alltså \\(\\cos x=1\\) eller \\(\\cos x=-1/2\\). Lösningarna är <strong>\\(x=0,2\\pi/3,4\\pi/3\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in lösningarna i ursprungsekvationen och kontrollera att ingen lösningsfamilj saknas.</p></div>",
-    "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
+    "t": "<p>Lös ekvationen</p><p>\\[\\sin 2x=\\cos 2x\\]</p><p>för \\(0\\le x&lt;2\\pi\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Här kan man använda tangens eftersom \\(\\cos2x=0\\) inte kan uppfylla ursprungsekvationen.</p><p>\\[\\tan2x=1.\\]</p><p>Därför</p><p>\\[2x=\\frac\\pi4+n\\pi\\quad\\Rightarrow\\quad x=\\frac\\pi8+n\\frac\\pi2.\\]</p><p>I intervallet blir lösningarna</p><p>\\[\\boxed{x=\\frac\\pi8,\\;\\frac{5\\pi}{8},\\;\\frac{9\\pi}{8},\\;\\frac{13\\pi}{8}}.\\]</p>",
+    "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/8",
+      "5*pi/8",
+      "9*pi/8",
+      "13*pi/8"
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
-    "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
+    "självrättning": true,
+    "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
+    "ledtrad": "<p>Kontrollera först om \\(\\cos2x=0\\) kan vara en lösning. Om inte kan du dividera med \\(\\cos2x\\) och använda tangens.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
   },
   {
     "id": "1.401",
@@ -10258,7 +11191,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm alla a så att \\(\\sin(2x)=a\\) har exakt två lösningar i \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>När x går ett varv går 2x två varv. För \\(-1&lt;a&lt;1\\) träffas nivån två gånger per varv, alltså fyra gånger totalt. Vid \\(a=\\pm1\\) blir det en tangering per varv, alltså två lösningar totalt. Därför \\(a=\\pm1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tolka parametern som en horisontell nivå och räkna hur många gånger den trigonometriska grafen träffar nivån på det angivna intervallet. Extremnivåerna måste behandlas separat.</p><div class=\"facit-arbete\"><p>När x går ett varv går 2x två varv. För \\(-1&lt;a&lt;1\\) träffas nivån två gånger per varv, alltså fyra gånger totalt. Vid \\(a=\\pm1\\) blir det en tangering per varv, alltså två lösningar totalt. Därför \\(a=\\pm1\\).</p></div></div>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "resonemang",
@@ -10423,17 +11356,17 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(sin(2x)=1\\) och ange den minsta icke-negativa lösningen \\(x\\) i radianer.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Lös först ekvationen för hela vinkeluttrycket och isolera sedan \\(x\\). Den minsta icke-negativa lösningen är \\(0.785398\\).</p>",
+    "t": "<p>Lös \\(\\sin(2x)=1\\) och ange den minsta icke-negativa lösningen \\(x\\) i radianer.</p>",
+    "s": "<p>\\(\\sin u=1\\) när \\(u=\\pi/2+2n\\pi\\). Sätt \\(u=2x\\):</p><p>\\[2x=\\frac\\pi2+2n\\pi\\Rightarrow x=\\frac\\pi4+n\\pi.\\]</p><p>Den minsta icke-negativa lösningen är \\(\\boxed{\\pi/4}\\).</p>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.7853981633974483,
-    "tolerans": 0.001,
+    "rättSvar": "pi/4",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
@@ -10444,9 +11377,9 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
+    "niva": "C",
     "typ": "fyra gånger vinkeln",
-    "poang": "0/1/2",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Lös \\(\\sin(4x)=\\sqrt2/2\\) för \\(0\\le x&lt;\\pi\\).</p>",
@@ -10483,21 +11416,21 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(cos(3x)=0\\) och ange den minsta icke-negativa lösningen \\(x\\) i radianer.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Lös först ekvationen för hela vinkeluttrycket och isolera sedan \\(x\\). Den minsta icke-negativa lösningen är \\(0.523599\\).</p>",
+    "t": "<p>Lös \\(\\cos(3x)=0\\) och ange den minsta icke-negativa lösningen \\(x\\) i radianer.</p>",
+    "s": "<p>\\(\\cos u=0\\) när \\(u=\\pi/2+n\\pi\\). Med \\(u=3x\\) fås</p><p>\\[3x=\\frac\\pi2+n\\pi\\Rightarrow x=\\frac\\pi6+\\frac{n\\pi}{3}.\\]</p><p>Den minsta icke-negativa lösningen är \\(\\boxed{\\pi/6}\\).</p>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5235987755982988,
-    "tolerans": 0.001,
+    "rättSvar": "pi/6",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
@@ -10512,17 +11445,17 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(sin(2x+pi/6)=0\\) och ange den minsta icke-negativa lösningen \\(x\\) i radianer.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Lös först ekvationen för hela vinkeluttrycket och isolera sedan \\(x\\). Den minsta icke-negativa lösningen är \\(1.308997\\).</p>",
+    "t": "<p>Lös \\(\\sin(2x+\\pi/6)=0\\) och ange den minsta icke-negativa lösningen \\(x\\) i radianer.</p>",
+    "s": "<p>\\(\\sin u=0\\) när \\(u=n\\pi\\). Därför</p><p>\\[2x+\\frac\\pi6=n\\pi\\Rightarrow x=\\frac{n\\pi}{2}-\\frac\\pi{12}.\\]</p><p>För \\(n=0\\) blir lösningen negativ. För \\(n=1\\) fås den minsta icke-negativa lösningen \\(\\boxed{5\\pi/12}\\).</p>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 1.3089969389957472,
-    "tolerans": 0.001,
+    "rättSvar": "5*pi/12",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
@@ -10533,9 +11466,9 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
+    "niva": "C",
     "typ": "roterande ljusstråle som trigonometrisk ekvation",
-    "poang": "0/1/2",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En roterande ljusstråles riktning modelleras av \\(\\theta(t)=2t+\\pi/6\\) rad. En markör träffas när \\(\\sin\\theta=1/2\\). Bestäm de två första positiva tidpunkterna.</p>",
@@ -10576,17 +11509,17 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(sin x=1/2\\) generellt och ange här den minsta positiva lösningen.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Utgå från enhetscirkeln och ta därefter med funktionens periodicitet i den generella lösningen.</p><p>Den minsta positiva lösningen är \\(0.523599\\).</p>",
+    "t": "<p>Ekvationen \\(\\sin x=1/2\\) har flera lösningar. Ange den minsta positiva lösningen \\(x\\) i radianer.</p>",
+    "s": "<p>I enhetscirkeln är \\(\\sin x=1/2\\) vid \\(x=\\pi/6\\) och \\(x=5\\pi/6\\) under ett varv. Den minsta positiva lösningen är därför \\(\\boxed{\\pi/6}\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5235987755982988,
-    "tolerans": 0.001,
+    "rättSvar": "pi/6",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
@@ -10601,17 +11534,17 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(cos x=-1\\) generellt och ange här den minsta positiva lösningen.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Utgå från enhetscirkeln och ta därefter med funktionens periodicitet i den generella lösningen.</p><p>Den minsta positiva lösningen är \\(3.141593\\).</p>",
+    "t": "<p>Ekvationen \\(\\cos x=-1\\) har flera lösningar. Ange den minsta positiva lösningen \\(x\\) i radianer.</p>",
+    "s": "<p>I enhetscirkeln är x-koordinaten \\(-1\\) vid vinkeln \\(\\pi\\). Den minsta positiva lösningen är alltså \\(\\boxed{\\pi}\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 3.141592653589793,
-    "tolerans": 0.001,
+    "rättSvar": "pi",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
@@ -10626,17 +11559,17 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Lös \\(tan x=sqrt(3)\\) generellt och ange här den minsta positiva lösningen.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> De trigonometriska identiteterna ändrar uttryckets form utan att ändra dess värde. Efter omskrivningen måste alla lösningar från enhetscirkeln och periodiciteten fortfarande tas med.</p><p><strong>Metod:</strong> Utgå från enhetscirkeln och ta därefter med funktionens periodicitet i den generella lösningen.</p><p>Den minsta positiva lösningen är \\(1.047198\\).</p>",
+    "t": "<p>Ekvationen \\(\\tan x=\\sqrt3\\) har flera lösningar. Ange den minsta positiva lösningen \\(x\\) i radianer.</p>",
+    "s": "<p>Standardvärdet \\(\\tan(\\pi/3)=\\sqrt3\\). Den minsta positiva lösningen är därför \\(\\boxed{\\pi/3}\\).</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 1.0471975511965976,
-    "tolerans": 0.001,
+    "rättSvar": "pi/3",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
@@ -10902,23 +11835,41 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En trigonometrisk kurva har en maximipunkt i</p>\n<p>\\[\n\\left(\\frac{\\pi}{3},5\\right)\n\\]</p>\n<p>och nästa minimipunkt i</p>\n<p>\\[\n\\left(\\frac{5\\pi}{6},1\\right).\n\\]</p>\n<p>Det finns inga extrempunkter mellan dessa punkter.</p>\n<p>Bestäm en ekvation för kurvan på formen \\(y=A\\sin(kx+v)+B\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Största värdet är \\(5\\) och minsta \\(1\\). Därför</p>\n<p>\\[\nA=\\frac{5-1}{2}=2,\\qquad B=\\frac{5+1}{2}=3.\n\\]</p>\n<p>Avståndet från en maxpunkt till nästa minpunkt är en halv period:</p>\n<p>\\[\n\\frac{T}{2}=\\frac{5\\pi}{6}-\\frac{\\pi}{3}\n=\\frac{\\pi}{2}.\n\\]</p>\n<p>Alltså \\(T=\\pi\\) och</p>\n<p>\\[\nk=\\frac{2\\pi}{T}=2.\n\\]</p>\n<p>Vid \\(x=\\pi/3\\) ska vinkeln i sinusuttrycket vara \\(\\pi/2\\):</p>\n<p>\\[\n2\\cdot\\frac{\\pi}{3}+v=\\frac{\\pi}{2}\n\\Rightarrow v=-\\frac{\\pi}{6}.\n\\]</p>\n<p><strong>\\[\ny=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)+3.\n\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "t": "<p>En trigonometrisk kurva har en maximipunkt i</p>\n<p>\\[\n\\left(\\frac{\\pi}{3},5\\right)\n\\]</p>\n<p>och nästa minimipunkt i</p>\n<p>\\[\n\\left(\\frac{5\\pi}{6},1\\right).\n\\]</p>\n<p>Det finns inga extrempunkter mellan dessa punkter.</p>\n<p>Bestäm \\(A\\), \\(k\\), \\(v\\) och \\(B\\) i formen \\(y=A\\sin(kx+v)+B\\), där \\(A&gt;0\\), \\(k&gt;0\\) och \\(-\\pi&lt;v\\le\\pi\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Största värdet är \\(5\\) och minsta \\(1\\). Därför</p>\n<p>\\[\nA=\\frac{5-1}{2}=2,\\qquad B=\\frac{5+1}{2}=3.\n\\]</p>\n<p>Avståndet från en maxpunkt till nästa minpunkt är en halv period:</p>\n<p>\\[\n\\frac{T}{2}=\\frac{5\\pi}{6}-\\frac{\\pi}{3}\n=\\frac{\\pi}{2}.\n\\]</p>\n<p>Alltså \\(T=\\pi\\) och</p>\n<p>\\[\nk=\\frac{2\\pi}{T}=2.\n\\]</p>\n<p>Vid \\(x=\\pi/3\\) ska vinkeln i sinusuttrycket vara \\(\\pi/2\\):</p>\n<p>\\[\n2\\cdot\\frac{\\pi}{3}+v=\\frac{\\pi}{2}\n\\Rightarrow v=-\\frac{\\pi}{6}.\n\\]</p>\n<p><strong>\\[\ny=2\\sin\\left(2x-\\frac{\\pi}{6}\\right)+3.\n\\]</strong></p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2,
+      "-pi/6",
+      3
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "v",
+      "B"
+    ]
   },
   {
     "id": "1.14",
@@ -10931,20 +11882,38 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Grafen visar en funktion som kan skrivas</p>\n<p>\\[\nf(x)=A\\sin(kx+v)+B.\n\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"250\" viewBox=\"0 0 470 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till en sinusfunktion med period pi, maxvärde 3 och minvärde minus 1\">\n<rect x=\"1\" y=\"1\" width=\"468\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"215.0\" x2=\"445\" y2=\"215.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"219.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-2</text>\n<line x1=\"55\" y1=\"183.3\" x2=\"445\" y2=\"183.3\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"187.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text>\n<line x1=\"55\" y1=\"151.7\" x2=\"445\" y2=\"151.7\" stroke=\"#D9E6E9\"/>\n<line x1=\"55\" y1=\"120.0\" x2=\"445\" y2=\"120.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text>\n<line x1=\"55\" y1=\"88.3\" x2=\"445\" y2=\"88.3\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"92.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text>\n<line x1=\"55\" y1=\"56.7\" x2=\"445\" y2=\"56.7\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"60.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text>\n<line x1=\"55\" y1=\"25.0\" x2=\"445\" y2=\"25.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"29.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text>\n<line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"55.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-π/2</text>\n<line x1=\"152.5\" y1=\"25\" x2=\"152.5\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"152.5\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text>\n<line x1=\"250.0\" y1=\"25\" x2=\"250.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"250.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text>\n<line x1=\"347.5\" y1=\"25\" x2=\"347.5\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"347.5\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text>\n<line x1=\"445.0\" y1=\"25\" x2=\"445.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"445.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text>\n<line x1=\"55\" y1=\"151.7\" x2=\"445\" y2=\"151.7\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"152.5\" y1=\"25\" x2=\"152.5\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<polyline points=\"55.00,56.67 56.30,56.72 57.60,56.89 58.90,57.17 60.20,57.55 61.50,58.05 62.80,58.66 64.10,59.37 65.40,60.19 66.70,61.11 68.00,62.14 69.30,63.27 70.60,64.50 71.90,65.83 73.20,67.25 74.50,68.76 75.80,70.37 77.10,72.06 78.40,73.83 79.70,75.69 81.00,77.62 82.30,79.63 83.60,81.71 84.90,83.85 86.20,86.06 87.50,88.33 88.80,90.66 90.10,93.03 91.40,95.46 92.70,97.92 94.00,100.43 95.30,102.97 96.60,105.54 97.90,108.13 99.20,110.75 100.50,113.38 101.80,116.02 103.10,118.67 104.40,121.33 105.70,123.98 107.00,126.62 108.30,129.25 109.60,131.87 110.90,134.46 112.20,137.03 113.50,139.57 114.80,142.08 116.10,144.54 117.40,146.97 118.70,149.34 120.00,151.67 121.30,153.94 122.60,156.15 123.90,158.29 125.20,160.37 126.50,162.38 127.80,164.31 129.10,166.17 130.40,167.94 131.70,169.63 133.00,171.24 134.30,172.75 135.60,174.17 136.90,175.50 138.20,176.73 139.50,177.86 140.80,178.89 142.10,179.81 143.40,180.63 144.70,181.34 146.00,181.95 147.30,182.45 148.60,182.83 149.90,183.11 151.20,183.28 152.50,183.33 153.80,183.28 155.10,183.11 156.40,182.83 157.70,182.45 159.00,181.95 160.30,181.34 161.60,180.63 162.90,179.81 164.20,178.89 165.50,177.86 166.80,176.73 168.10,175.50 169.40,174.17 170.70,172.75 172.00,171.24 173.30,169.63 174.60,167.94 175.90,166.17 177.20,164.31 178.50,162.38 179.80,160.37 181.10,158.29 182.40,156.15 183.70,153.94 185.00,151.67 186.30,149.34 187.60,146.97 188.90,144.54 190.20,142.08 191.50,139.57 192.80,137.03 194.10,134.46 195.40,131.87 196.70,129.25 198.00,126.62 199.30,123.98 200.60,121.33 201.90,118.67 203.20,116.02 204.50,113.38 205.80,110.75 207.10,108.13 208.40,105.54 209.70,102.97 211.00,100.43 212.30,97.92 213.60,95.46 214.90,93.03 216.20,90.66 217.50,88.33 218.80,86.06 220.10,83.85 221.40,81.71 222.70,79.63 224.00,77.62 225.30,75.69 226.60,73.83 227.90,72.06 229.20,70.37 230.50,68.76 231.80,67.25 233.10,65.83 234.40,64.50 235.70,63.27 237.00,62.14 238.30,61.11 239.60,60.19 240.90,59.37 242.20,58.66 243.50,58.05 244.80,57.55 246.10,57.17 247.40,56.89 248.70,56.72 250.00,56.67 251.30,56.72 252.60,56.89 253.90,57.17 255.20,57.55 256.50,58.05 257.80,58.66 259.10,59.37 260.40,60.19 261.70,61.11 263.00,62.14 264.30,63.27 265.60,64.50 266.90,65.83 268.20,67.25 269.50,68.76 270.80,70.37 272.10,72.06 273.40,73.83 274.70,75.69 276.00,77.62 277.30,79.63 278.60,81.71 279.90,83.85 281.20,86.06 282.50,88.33 283.80,90.66 285.10,93.03 286.40,95.46 287.70,97.92 289.00,100.43 290.30,102.97 291.60,105.54 292.90,108.13 294.20,110.75 295.50,113.38 296.80,116.02 298.10,118.67 299.40,121.33 300.70,123.98 302.00,126.62 303.30,129.25 304.60,131.87 305.90,134.46 307.20,137.03 308.50,139.57 309.80,142.08 311.10,144.54 312.40,146.97 313.70,149.34 315.00,151.67 316.30,153.94 317.60,156.15 318.90,158.29 320.20,160.37 321.50,162.38 322.80,164.31 324.10,166.17 325.40,167.94 326.70,169.63 328.00,171.24 329.30,172.75 330.60,174.17 331.90,175.50 333.20,176.73 334.50,177.86 335.80,178.89 337.10,179.81 338.40,180.63 339.70,181.34 341.00,181.95 342.30,182.45 343.60,182.83 344.90,183.11 346.20,183.28 347.50,183.33 348.80,183.28 350.10,183.11 351.40,182.83 352.70,182.45 354.00,181.95 355.30,181.34 356.60,180.63 357.90,179.81 359.20,178.89 360.50,177.86 361.80,176.73 363.10,175.50 364.40,174.17 365.70,172.75 367.00,171.24 368.30,169.63 369.60,167.94 370.90,166.17 372.20,164.31 373.50,162.38 374.80,160.37 376.10,158.29 377.40,156.15 378.70,153.94 380.00,151.67 381.30,149.34 382.60,146.97 383.90,144.54 385.20,142.08 386.50,139.57 387.80,137.03 389.10,134.46 390.40,131.87 391.70,129.25 393.00,126.62 394.30,123.98 395.60,121.33 396.90,118.67 398.20,116.02 399.50,113.38 400.80,110.75 402.10,108.13 403.40,105.54 404.70,102.97 406.00,100.43 407.30,97.92 408.60,95.46 409.90,93.03 411.20,90.66 412.50,88.33 413.80,86.06 415.10,83.85 416.40,81.71 417.70,79.63 419.00,77.62 420.30,75.69 421.60,73.83 422.90,72.06 424.20,70.37 425.50,68.76 426.80,67.25 428.10,65.83 429.40,64.50 430.70,63.27 432.00,62.14 433.30,61.11 434.60,60.19 435.90,59.37 437.20,58.66 438.50,58.05 439.80,57.55 441.10,57.17 442.40,56.89 443.70,56.72 445.00,56.67\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n</svg></span><p>Bestäm \\(A\\), \\(k\\), \\(v\\) och \\(B\\). Ange en möjlig funktion.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Av grafen avläses största värdet \\(3\\) och minsta värdet \\(-1\\).</p>\n<p>Amplituden är därför</p>\n<p>\\[\nA=\\frac{3-(-1)}2=2\n\\]</p>\n<p>och medellinjen är</p>\n<p>\\[\nB=\\frac{3+(-1)}2=1.\n\\]</p>\n<p>Avståndet mellan två minimipunkter är \\(\\pi\\), alltså är perioden \\(T=\\pi\\). Därför</p>\n<p>\\[\nk=\\frac{2\\pi}{T}=2.\n\\]</p>\n<p>Grafen har en minimipunkt vid \\(x=0\\). För \\(A=2\\) ska vinkeln i sinusuttrycket då vara \\(-\\pi/2\\), så ett möjligt värde på \\(v\\) är \\(v=-\\pi/2\\).</p>\n<p><strong>\\[\nf(x)=2\\sin\\left(2x-\\frac{\\pi}{2}\\right)+1.\n\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>Grafen visar en funktion som kan skrivas</p>\n<p>\\[\nf(x)=A\\sin(kx+v)+B.\n\\]</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"250\" viewBox=\"0 0 470 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till en sinusfunktion med period pi, maxvärde 3 och minvärde minus 1\">\n<rect x=\"1\" y=\"1\" width=\"468\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"215.0\" x2=\"445\" y2=\"215.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"219.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-2</text>\n<line x1=\"55\" y1=\"183.3\" x2=\"445\" y2=\"183.3\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"187.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text>\n<line x1=\"55\" y1=\"151.7\" x2=\"445\" y2=\"151.7\" stroke=\"#D9E6E9\"/>\n<line x1=\"55\" y1=\"120.0\" x2=\"445\" y2=\"120.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text>\n<line x1=\"55\" y1=\"88.3\" x2=\"445\" y2=\"88.3\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"92.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text>\n<line x1=\"55\" y1=\"56.7\" x2=\"445\" y2=\"56.7\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"60.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text>\n<line x1=\"55\" y1=\"25.0\" x2=\"445\" y2=\"25.0\" stroke=\"#D9E6E9\"/>\n<text x=\"47\" y=\"29.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text>\n<line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"55.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-π/2</text>\n<line x1=\"152.5\" y1=\"25\" x2=\"152.5\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"152.5\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text>\n<line x1=\"250.0\" y1=\"25\" x2=\"250.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"250.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text>\n<line x1=\"347.5\" y1=\"25\" x2=\"347.5\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"347.5\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text>\n<line x1=\"445.0\" y1=\"25\" x2=\"445.0\" y2=\"215\" stroke=\"#D9E6E9\"/>\n<text x=\"445.0\" y=\"169.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text>\n<line x1=\"55\" y1=\"151.7\" x2=\"445\" y2=\"151.7\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"152.5\" y1=\"25\" x2=\"152.5\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<polyline points=\"55.00,56.67 56.30,56.72 57.60,56.89 58.90,57.17 60.20,57.55 61.50,58.05 62.80,58.66 64.10,59.37 65.40,60.19 66.70,61.11 68.00,62.14 69.30,63.27 70.60,64.50 71.90,65.83 73.20,67.25 74.50,68.76 75.80,70.37 77.10,72.06 78.40,73.83 79.70,75.69 81.00,77.62 82.30,79.63 83.60,81.71 84.90,83.85 86.20,86.06 87.50,88.33 88.80,90.66 90.10,93.03 91.40,95.46 92.70,97.92 94.00,100.43 95.30,102.97 96.60,105.54 97.90,108.13 99.20,110.75 100.50,113.38 101.80,116.02 103.10,118.67 104.40,121.33 105.70,123.98 107.00,126.62 108.30,129.25 109.60,131.87 110.90,134.46 112.20,137.03 113.50,139.57 114.80,142.08 116.10,144.54 117.40,146.97 118.70,149.34 120.00,151.67 121.30,153.94 122.60,156.15 123.90,158.29 125.20,160.37 126.50,162.38 127.80,164.31 129.10,166.17 130.40,167.94 131.70,169.63 133.00,171.24 134.30,172.75 135.60,174.17 136.90,175.50 138.20,176.73 139.50,177.86 140.80,178.89 142.10,179.81 143.40,180.63 144.70,181.34 146.00,181.95 147.30,182.45 148.60,182.83 149.90,183.11 151.20,183.28 152.50,183.33 153.80,183.28 155.10,183.11 156.40,182.83 157.70,182.45 159.00,181.95 160.30,181.34 161.60,180.63 162.90,179.81 164.20,178.89 165.50,177.86 166.80,176.73 168.10,175.50 169.40,174.17 170.70,172.75 172.00,171.24 173.30,169.63 174.60,167.94 175.90,166.17 177.20,164.31 178.50,162.38 179.80,160.37 181.10,158.29 182.40,156.15 183.70,153.94 185.00,151.67 186.30,149.34 187.60,146.97 188.90,144.54 190.20,142.08 191.50,139.57 192.80,137.03 194.10,134.46 195.40,131.87 196.70,129.25 198.00,126.62 199.30,123.98 200.60,121.33 201.90,118.67 203.20,116.02 204.50,113.38 205.80,110.75 207.10,108.13 208.40,105.54 209.70,102.97 211.00,100.43 212.30,97.92 213.60,95.46 214.90,93.03 216.20,90.66 217.50,88.33 218.80,86.06 220.10,83.85 221.40,81.71 222.70,79.63 224.00,77.62 225.30,75.69 226.60,73.83 227.90,72.06 229.20,70.37 230.50,68.76 231.80,67.25 233.10,65.83 234.40,64.50 235.70,63.27 237.00,62.14 238.30,61.11 239.60,60.19 240.90,59.37 242.20,58.66 243.50,58.05 244.80,57.55 246.10,57.17 247.40,56.89 248.70,56.72 250.00,56.67 251.30,56.72 252.60,56.89 253.90,57.17 255.20,57.55 256.50,58.05 257.80,58.66 259.10,59.37 260.40,60.19 261.70,61.11 263.00,62.14 264.30,63.27 265.60,64.50 266.90,65.83 268.20,67.25 269.50,68.76 270.80,70.37 272.10,72.06 273.40,73.83 274.70,75.69 276.00,77.62 277.30,79.63 278.60,81.71 279.90,83.85 281.20,86.06 282.50,88.33 283.80,90.66 285.10,93.03 286.40,95.46 287.70,97.92 289.00,100.43 290.30,102.97 291.60,105.54 292.90,108.13 294.20,110.75 295.50,113.38 296.80,116.02 298.10,118.67 299.40,121.33 300.70,123.98 302.00,126.62 303.30,129.25 304.60,131.87 305.90,134.46 307.20,137.03 308.50,139.57 309.80,142.08 311.10,144.54 312.40,146.97 313.70,149.34 315.00,151.67 316.30,153.94 317.60,156.15 318.90,158.29 320.20,160.37 321.50,162.38 322.80,164.31 324.10,166.17 325.40,167.94 326.70,169.63 328.00,171.24 329.30,172.75 330.60,174.17 331.90,175.50 333.20,176.73 334.50,177.86 335.80,178.89 337.10,179.81 338.40,180.63 339.70,181.34 341.00,181.95 342.30,182.45 343.60,182.83 344.90,183.11 346.20,183.28 347.50,183.33 348.80,183.28 350.10,183.11 351.40,182.83 352.70,182.45 354.00,181.95 355.30,181.34 356.60,180.63 357.90,179.81 359.20,178.89 360.50,177.86 361.80,176.73 363.10,175.50 364.40,174.17 365.70,172.75 367.00,171.24 368.30,169.63 369.60,167.94 370.90,166.17 372.20,164.31 373.50,162.38 374.80,160.37 376.10,158.29 377.40,156.15 378.70,153.94 380.00,151.67 381.30,149.34 382.60,146.97 383.90,144.54 385.20,142.08 386.50,139.57 387.80,137.03 389.10,134.46 390.40,131.87 391.70,129.25 393.00,126.62 394.30,123.98 395.60,121.33 396.90,118.67 398.20,116.02 399.50,113.38 400.80,110.75 402.10,108.13 403.40,105.54 404.70,102.97 406.00,100.43 407.30,97.92 408.60,95.46 409.90,93.03 411.20,90.66 412.50,88.33 413.80,86.06 415.10,83.85 416.40,81.71 417.70,79.63 419.00,77.62 420.30,75.69 421.60,73.83 422.90,72.06 424.20,70.37 425.50,68.76 426.80,67.25 428.10,65.83 429.40,64.50 430.70,63.27 432.00,62.14 433.30,61.11 434.60,60.19 435.90,59.37 437.20,58.66 438.50,58.05 439.80,57.55 441.10,57.17 442.40,56.89 443.70,56.72 445.00,56.67\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.6\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/>\n</svg></span><p>Bestäm \\(A\\), \\(k\\), \\(v\\) och \\(B\\), där \\(A&gt;0\\), \\(k&gt;0\\) och \\(-\\pi&lt;v\\le\\pi\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Av grafen avläses största värdet \\(3\\) och minsta värdet \\(-1\\).</p>\n<p>Amplituden är därför</p>\n<p>\\[\nA=\\frac{3-(-1)}2=2\n\\]</p>\n<p>och medellinjen är</p>\n<p>\\[\nB=\\frac{3+(-1)}2=1.\n\\]</p>\n<p>Avståndet mellan två minimipunkter är \\(\\pi\\), alltså är perioden \\(T=\\pi\\). Därför</p>\n<p>\\[\nk=\\frac{2\\pi}{T}=2.\n\\]</p>\n<p>Grafen har en minimipunkt vid \\(x=0\\). För \\(A=2\\) ska vinkeln i sinusuttrycket då vara \\(-\\pi/2\\), så ett möjligt värde på \\(v\\) är \\(v=-\\pi/2\\).</p>\n<p><strong>\\[\nf(x)=2\\sin\\left(2x-\\frac{\\pi}{2}\\right)+1.\n\\]</strong></p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2,
+      "-pi/2",
+      1
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "v",
+      "B"
+    ]
   },
   {
     "id": "1.17",
@@ -10958,7 +11927,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För funktionen \\(f(x)=2\\sin(3(x-\\pi/6))+1\\), bestäm</p><p>a) amplitud<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) period<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) fasförskjutning<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) medellinje.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) Amplituden är \\(\\boxed{2}\\).</p><p>b) Perioden är \\(2\\pi/3\\).</p><p>c) Formen \\(x-\\pi/6\\) betyder att grafen är förskjuten \\(\\boxed{\\pi/6}\\) åt höger.</p><p>d) Konstanten +1 ger medellinjen \\(\\boxed{y=1}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>a) Amplituden är \\(\\boxed{2}\\).</p><p>b) Perioden är \\(2\\pi/3\\).</p><p>c) Formen \\(x-\\pi/6\\) betyder att grafen är förskjuten \\(\\boxed{\\pi/6}\\) åt höger.</p><p>d) Konstanten +1 ger medellinjen \\(\\boxed{y=1}\\).</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -11043,7 +12012,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En strålkastare står 8 m från en rak vägg. När strålen har vridits vinkeln \\(v\\) från riktningen rakt mot väggen träffar ljuspunkten väggen \\(x\\) meter från mittpunkten.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålkastare 8 meter från en rak vägg, med vinkeln v från normalen och avståndet x längs väggen\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"60\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"72\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">vägg</text><line x1=\"235\" y1=\"215\" x2=\"235\" y2=\"60\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><line x1=\"235\" y1=\"215\" x2=\"365.1\" y2=\"60\" stroke=\"#B43123\" stroke-width=\"3\"/><circle cx=\"365.1\" cy=\"60\" r=\"5\" fill=\"#B43123\"/><circle cx=\"235\" cy=\"215\" r=\"6\" fill=\"#2B2527\"/><text x=\"235\" y=\"239\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">strålkastare</text><path d=\"M235 167 A48 48 0 0 1 265.9 178.2\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"256.2\" y=\"160.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">v</text><line x1=\"205\" y1=\"64\" x2=\"205\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"64\" x2=\"211\" y2=\"64\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"215\" x2=\"211\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"196\" y=\"141.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">8 m</text><line x1=\"235\" y1=\"82\" x2=\"365.1\" y2=\"82\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"235\" y1=\"76\" x2=\"235\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"365.1\" y1=\"76\" x2=\"365.1\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"300\" y=\"101\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">x</text></svg></span><p>a) Visa att \\(x=8\\tan v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Strålkastaren vrids så att vinkeln ökar med \\(\\pi/12\\) rad/s från \\(v=0\\). Hur lång tid tar det innan ljuspunkten för första gången är 12 m från mittpunkten?</p>",
-    "s": "<p>a) Figuren ger en rätvinklig triangel där den närliggande kateten är 8 och den motstående är \\(x\\). Därför</p><p>\\[\\tan v=\\frac{x}{8}\\Rightarrow \\boxed{x=8\\tan v}.\\]</p><p>b) Sätt \\(x=12\\):</p><p>\\[12=8\\tan v\\Rightarrow \\tan v=1,5.\\]</p><p>Första positiva vinkeln är</p><p>\\[v=\\arctan(1,5)\\approx0,9828.\\]</p><p>Vinkeln efter \\(t\\) sekunder är \\(v=(\\pi/12)t\\). Alltså</p><p>\\[t=\\frac{12v}{\\pi}\\approx\\frac{12\\cdot0,9828}{\\pi}\\approx3,75.\\]</p><p><strong>Det tar cirka 3,75 s.</strong></p>",
+    "s": "<p><strong>Metod:</strong> Översätt först modellens parametrar till amplitud, medellinje, period och fas. Använd sedan den storhet som frågan gäller.</p><p>a) Figuren ger en rätvinklig triangel där den närliggande kateten är 8 och den motstående är \\(x\\). Därför</p><p>\\[\\tan v=\\frac{x}{8}\\Rightarrow \\boxed{x=8\\tan v}.\\]</p><p>b) Sätt \\(x=12\\):</p><p>\\[12=8\\tan v\\Rightarrow \\tan v=1,5.\\]</p><p>Första positiva vinkeln är</p><p>\\[v=\\arctan(1,5)\\approx0,9828.\\]</p><p>Vinkeln efter \\(t\\) sekunder är \\(v=(\\pi/12)t\\). Alltså</p><p>\\[t=\\frac{12v}{\\pi}\\approx\\frac{12\\cdot0,9828}{\\pi}\\approx3,75.\\]</p><p><strong>Det tar cirka 3,75 s.</strong></p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -11272,23 +12241,25 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null,
-      null
+      [
+        10,
+        4
+      ],
+      [
+        7,
+        -3
+      ],
+      [
+        -2,
+        -6
+      ],
+      [
+        5,
+        -7
+      ]
     ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false,
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -11324,17 +12295,29 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null,
-      null
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "a: max, min",
+      "b: max, min",
+      "c: max, min",
+      "d: max, min"
     ]
   },
   {
@@ -11471,18 +12454,33 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Graf till en sinusfunktion med graderade axlar och markerad medellinje\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"52.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"30.0\" x2=\"119.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"186.0\" y1=\"30.0\" x2=\"186.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"253.0\" y1=\"30.0\" x2=\"253.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"30.0\" x2=\"320.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"387.0\" y1=\"30.0\" x2=\"387.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"30.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"260.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"221.7\" x2=\"454.0\" y2=\"221.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"145.0\" x2=\"454.0\" y2=\"145.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"106.7\" x2=\"454.0\" y2=\"106.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"68.3\" x2=\"454.0\" y2=\"68.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"454.0\" y2=\"30.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M454.0 183.3 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"119.0\" y1=\"260.0\" x2=\"119.0\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M119.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"458.0\" y=\"174.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"128.0\" y=\"41.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text><line x1=\"186.0\" y1=\"179.8\" x2=\"186.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"186.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π/2</text><text x=\"186.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"253.0\" y1=\"179.8\" x2=\"253.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π</text><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"320.0\" y1=\"179.8\" x2=\"320.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"320.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3π/2</text><text x=\"320.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"387.0\" y1=\"179.8\" x2=\"387.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"387.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2π</text><text x=\"387.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2π</text><line x1=\"454.0\" y1=\"179.8\" x2=\"454.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"115.5\" y1=\"260.0\" x2=\"122.5\" y2=\"260.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"111.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"115.5\" y1=\"221.7\" x2=\"122.5\" y2=\"221.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"111.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"115.5\" y1=\"145.0\" x2=\"122.5\" y2=\"145.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"111.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"115.5\" y1=\"106.7\" x2=\"122.5\" y2=\"106.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"111.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"115.5\" y1=\"68.3\" x2=\"122.5\" y2=\"68.3\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"111.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"115.5\" y1=\"30.0\" x2=\"122.5\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"111.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 52.00,183.33 L 53.01,184.89 L 54.01,186.42 L 55.02,187.93 L 56.02,189.41 L 57.02,190.87 L 58.03,192.31 L 59.03,193.71 L 60.04,195.10 L 61.04,196.45 L 62.05,197.77 L 63.06,199.07 L 64.06,200.33 L 65.06,201.57 L 66.07,202.77 L 67.08,203.94 L 68.08,205.08 L 69.08,206.19 L 70.09,207.26 L 71.09,208.30 L 72.10,209.30 L 73.11,210.26 L 74.11,211.19 L 75.12,212.09 L 76.12,212.94 L 77.12,213.76 L 78.13,214.54 L 79.13,215.28 L 80.14,215.98 L 81.14,216.65 L 82.15,217.27 L 83.16,217.85 L 84.16,218.39 L 85.16,218.90 L 86.17,219.36 L 87.17,219.78 L 88.18,220.15 L 89.19,220.49 L 90.19,220.78 L 91.19,221.04 L 92.20,221.25 L 93.20,221.41 L 94.21,221.54 L 95.22,221.62 L 96.22,221.66 L 97.22,221.66 L 98.23,221.62 L 99.23,221.53 L 100.24,221.40 L 101.25,221.23 L 102.25,221.01 L 103.25,220.75 L 104.26,220.45 L 105.27,220.11 L 106.27,219.73 L 107.27,219.31 L 108.28,218.84 L 109.28,218.34 L 110.29,217.79 L 111.30,217.20 L 112.30,216.57 L 113.30,215.91 L 114.31,215.20 L 115.31,214.46 L 116.32,213.67 L 117.33,212.85 L 118.33,211.99 L 119.33,211.09 L 120.34,210.16 L 121.34,209.19 L 122.35,208.18 L 123.36,207.14 L 124.36,206.07 L 125.36,204.96 L 126.37,203.82 L 127.38,202.64 L 128.38,201.43 L 129.38,200.20 L 130.39,198.93 L 131.39,197.63 L 132.40,196.30 L 133.41,194.94 L 134.41,193.56 L 135.41,192.15 L 136.42,190.71 L 137.43,189.25 L 138.43,187.76 L 139.44,186.25 L 140.44,184.72 L 141.44,183.16 L 142.45,181.58 L 143.46,179.98 L 144.46,178.37 L 145.47,176.73 L 146.47,175.08 L 147.48,173.41 L 148.48,171.72 L 149.49,170.02 L 150.49,168.31 L 151.50,166.58 L 152.50,164.84 L 153.50,163.09 L 154.51,161.33 L 155.51,159.56 L 156.52,157.79 L 157.53,156.00 L 158.53,154.21 L 159.53,152.41 L 160.54,150.61 L 161.55,148.81 L 162.55,147.01 L 163.56,145.20 L 164.56,143.39 L 165.56,141.59 L 166.57,139.79 L 167.57,137.98 L 168.58,136.19 L 169.58,134.40 L 170.59,132.61 L 171.59,130.83 L 172.60,129.06 L 173.61,127.30 L 174.61,125.55 L 175.62,123.80 L 176.62,122.07 L 177.62,120.36 L 178.63,118.65 L 179.63,116.96 L 180.64,115.29 L 181.65,113.63 L 182.65,111.99 L 183.66,110.37 L 184.66,108.77 L 185.66,107.19 L 186.67,105.63 L 187.67,104.09 L 188.68,102.57 L 189.69,101.08 L 190.69,99.61 L 191.69,98.17 L 192.70,96.75 L 193.70,95.36 L 194.71,94.00 L 195.72,92.66 L 196.72,91.36 L 197.73,90.08 L 198.73,88.84 L 199.73,87.62 L 200.74,86.44 L 201.74,85.29 L 202.75,84.18 L 203.76,83.09 L 204.76,82.05 L 205.77,81.03 L 206.77,80.05 L 207.77,79.11 L 208.78,78.21 L 209.79,77.34 L 210.79,76.51 L 211.80,75.72 L 212.80,74.96 L 213.81,74.25 L 214.81,73.57 L 215.81,72.93 L 216.82,72.34 L 217.83,71.78 L 218.83,71.27 L 219.84,70.79 L 220.84,70.36 L 221.84,69.97 L 222.85,69.62 L 223.85,69.31 L 224.86,69.04 L 225.87,68.82 L 226.87,68.64 L 227.88,68.50 L 228.88,68.40 L 229.88,68.35 L 230.89,68.33 L 231.90,68.37 L 232.90,68.44 L 233.91,68.55 L 234.91,68.71 L 235.91,68.91 L 236.92,69.16 L 237.93,69.44 L 238.93,69.77 L 239.94,70.14 L 240.94,70.55 L 241.94,71.00 L 242.95,71.49 L 243.95,72.02 L 244.96,72.60 L 245.97,73.21 L 246.97,73.87 L 247.98,74.56 L 248.98,75.29 L 249.98,76.06 L 250.99,76.87 L 251.99,77.72 L 253.00,78.60 L 254.01,79.53 L 255.01,80.48 L 256.01,81.48 L 257.02,82.51 L 258.02,83.57 L 259.03,84.67 L 260.04,85.80 L 261.04,86.96 L 262.05,88.16 L 263.05,89.39 L 264.06,90.65 L 265.06,91.94 L 266.06,93.25 L 267.07,94.60 L 268.08,95.98 L 269.08,97.38 L 270.09,98.81 L 271.09,100.26 L 272.10,101.74 L 273.10,103.24 L 274.10,104.77 L 275.11,106.32 L 276.12,107.89 L 277.12,109.48 L 278.12,111.09 L 279.13,112.72 L 280.13,114.37 L 281.14,116.03 L 282.14,117.71 L 283.15,119.41 L 284.15,121.12 L 285.16,122.84 L 286.16,124.58 L 287.17,126.32 L 288.18,128.08 L 289.18,129.85 L 290.19,131.62 L 291.19,133.40 L 292.19,135.19 L 293.20,136.99 L 294.21,138.78 L 295.21,140.59 L 296.22,142.39 L 297.22,144.20 L 298.23,146.00 L 299.23,147.81 L 300.24,149.61 L 301.24,151.42 L 302.25,153.21 L 303.25,155.01 L 304.25,156.80 L 305.26,158.58 L 306.26,160.35 L 307.27,162.12 L 308.28,163.87 L 309.28,165.62 L 310.29,167.35 L 311.29,169.07 L 312.29,170.78 L 313.30,172.47 L 314.31,174.15 L 315.31,175.82 L 316.31,177.46 L 317.32,179.09 L 318.32,180.70 L 319.33,182.29 L 320.34,183.85 L 321.34,185.40 L 322.35,186.92 L 323.35,188.42 L 324.36,189.90 L 325.36,191.35 L 326.37,192.78 L 327.37,194.18 L 328.38,195.55 L 329.38,196.89 L 330.38,198.21 L 331.39,199.49 L 332.40,200.75 L 333.40,201.97 L 334.41,203.17 L 335.41,204.33 L 336.42,205.46 L 337.42,206.55 L 338.43,207.61 L 339.43,208.63 L 340.44,209.62 L 341.44,210.58 L 342.44,211.50 L 343.45,212.38 L 344.46,213.22 L 345.46,214.02 L 346.46,214.79 L 347.47,215.52 L 348.48,216.21 L 349.48,216.86 L 350.49,217.47 L 351.49,218.04 L 352.50,218.57 L 353.50,219.05 L 354.50,219.50 L 355.51,219.91 L 356.52,220.27 L 357.52,220.59 L 358.52,220.87 L 359.53,221.11 L 360.54,221.31 L 361.54,221.46 L 362.54,221.57 L 363.55,221.64 L 364.56,221.67 L 365.56,221.65 L 366.56,221.59 L 367.57,221.49 L 368.57,221.35 L 369.58,221.16 L 370.58,220.93 L 371.59,220.66 L 372.60,220.35 L 373.60,219.99 L 374.60,219.59 L 375.61,219.16 L 376.62,218.68 L 377.62,218.16 L 378.62,217.60 L 379.63,217.00 L 380.63,216.36 L 381.64,215.68 L 382.64,214.96 L 383.65,214.20 L 384.66,213.40 L 385.66,212.57 L 386.66,211.69 L 387.67,210.78 L 388.68,209.84 L 389.68,208.86 L 390.68,207.84 L 391.69,206.79 L 392.69,205.70 L 393.70,204.58 L 394.71,203.43 L 395.71,202.24 L 396.71,201.02 L 397.72,199.78 L 398.72,198.50 L 399.73,197.19 L 400.74,195.85 L 401.74,194.49 L 402.74,193.09 L 403.75,191.67 L 404.75,190.23 L 405.76,188.75 L 406.77,187.26 L 407.77,185.74 L 408.77,184.20 L 409.78,182.64 L 410.79,181.05 L 411.79,179.45 L 412.79,177.82 L 413.80,176.18 L 414.80,174.52 L 415.81,172.85 L 416.81,171.16 L 417.82,169.45 L 418.82,167.73 L 419.83,166.00 L 420.83,164.26 L 421.84,162.51 L 422.85,160.74 L 423.85,158.97 L 424.85,157.19 L 425.86,155.40 L 426.87,153.61 L 427.87,151.82 L 428.88,150.01 L 429.88,148.21 L 430.88,146.40 L 431.89,144.60 L 432.89,142.79 L 433.90,140.99 L 434.91,139.18 L 435.91,137.39 L 436.91,135.59 L 437.92,133.80 L 438.93,132.02 L 439.93,130.24 L 440.93,128.47 L 441.94,126.71 L 442.94,124.96 L 443.95,123.23 L 444.95,121.50 L 445.96,119.79 L 446.96,118.09 L 447.97,116.40 L 448.97,114.74 L 449.98,113.09 L 450.99,111.45 L 451.99,109.84 L 452.99,108.24 L 454.00,106.67\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"413.8\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">y = f(x)</text><text x=\"413.8\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#C93A2B\">y = f(x)</text></svg></span><p>Bestäm amplitud, medellinje och en möjlig fasförskjutning om funktionen skrivs \\(f(x)=2\\sin(x-c)+1\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Grafen varierar mellan \\(-1\\) och 3, så amplituden är \\(2\\) och medellinjen \\(y=1\\).</p><p>En vanlig sinuskurva passerar medellinjen uppåt vid \\(x=0\\). Här sker samma passage vid \\(x=\\pi/3\\). Därför är en möjlig fasförskjutning \\(\\boxed{c=\\pi/3}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>Grafen varierar mellan \\(-1\\) och 3, så amplituden är \\(2\\) och medellinjen \\(y=1\\).</p><p>En vanlig sinuskurva passerar medellinjen uppåt vid \\(x=0\\). Här sker samma passage vid \\(x=\\pi/3\\). Därför är en möjlig fasförskjutning \\(\\boxed{c=\\pi/3}\\).</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      2,
+      1,
+      "pi/3"
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "amplitud",
+      "medellinje",
+      "c"
+    ]
   },
   {
     "id": "1.44",
@@ -11495,8 +12493,8 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Beskriv fasförskjutningen jämfört med \\(y=\\sin x\\).</p><p>a) \\(y=\\sin(x-\\frac\\pi3)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\sin(x+\\frac\\pi4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=2\\cos(x-\\frac\\pi6)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=3\\sin(2x-\\pi)\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) <strong>\\(\\frac\\pi3\\) åt höger</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(\\frac\\pi4\\) åt vänster</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac\\pi6\\) åt höger</strong> (för cosinuskurvan).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(2x-\\pi=2(x-\\frac\\pi2)\\), alltså <strong>\\(\\frac\\pi2\\) åt höger</strong>.</p>",
+    "t": "<p>Ange den horisontella fasförskjutningen jämfört med grundfunktionen. Ange höger som positivt och vänster som negativt.</p><p>a) \\(y=\\sin(x-\\frac\\pi3)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\sin(x+\\frac\\pi4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=2\\cos(x-\\frac\\pi6)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=3\\sin(2x-\\pi)\\)</p>",
+    "s": "<p><strong>Metod:</strong> Skriv argumentet som \\(b(x-c)\\). Då är \\(c\\) fasförskjutningen, med höger positivt.</p><p>a) \\(c=\\pi/3\\).</p><p>b) \\(c=-\\pi/4\\).</p><p>c) \\(c=\\pi/6\\).</p><p>d) \\(2x-\\pi=2(x-\\pi/2)\\), alltså \\(c=\\pi/2\\).</p>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -11504,23 +12502,13 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null,
-      null
+      "pi/3",
+      "-pi/4",
+      "pi/6",
+      "pi/2"
     ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false,
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -11556,10 +12544,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null,
-      null
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -11582,7 +12570,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Hur är grafen till \\(y=\\sin(x-\\pi/3)\\) förskjuten horisontellt jämfört med \\(y=\\sin x\\)? Ange förskjutningen med tecken: höger positivt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>En vanlig fallgrop är tecknet. I formen \\(f(x-c)\\) måste x bli <em>större</em> med c för att det inre argumentet ska få samma värde som tidigare. Därför flyttas grafen c steg åt höger.</p><p>Här är</p><p>\\[y=\\sin\\left(x-\\frac\\pi3\\right),\\]</p><p>så förskjutningen är \\(+\\pi/3\\) enligt uppgiftens teckenkonvention.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>En vanlig fallgrop är tecknet. I formen \\(f(x-c)\\) måste x bli <em>större</em> med c för att det inre argumentet ska få samma värde som tidigare. Därför flyttas grafen c steg åt höger.</p><p>Här är</p><p>\\[y=\\sin\\left(x-\\frac\\pi3\\right),\\]</p><p>så förskjutningen är \\(+\\pi/3\\) enligt uppgiftens teckenkonvention.</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -11607,19 +12595,51 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv uttrycket</p><p>\\[5\\sin x+12\\cos x\\]</p><p>på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\)<br>för \\(0&lt;v&lt;\\pi/2\\). Bestäm därefter uttryckets största och minsta värde.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Jämför koefficienterna i \\(a\\sin x+b\\cos x=R\\sin(x+v)\\). Då gäller \\(R\\cos v=a\\) och \\(R\\sin v=b\\), vilket bestämmer både amplitud och fas.</p><div class=\"facit-arbete\"><p>Jämför</p><p>\\[R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x.\\]</p><p>Därför \\(R\\cos v=5\\) och \\(R\\sin v=12\\). Då</p><p>\\[R=\\sqrt{5^2+12^2}=13,\\qquad \\tan v=12/5.\\]</p><p>Alltså <strong>\\(13\\sin(x+\\arctan(12/5))\\)</strong>. Största värdet är \\(\\boxed{13}\\) och minsta \\(\\boxed{-13}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Utveckla den erhållna formen tillbaka och kontrollera att båda ursprungliga koefficienterna återkommer.</p></div>",
+    "t": "<p>För uttrycket \\(5\\sin x+12\\cos x\\):</p><p>a) Bestäm amplituden \\(R\\) när uttrycket skrivs \\(R\\sin(x+v)\\), där \\(R&gt;0\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm ett \\(v\\) i intervallet \\(0&lt;v&lt;\\pi/2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm uttryckets största och minsta värde.</p>",
+    "s": "<p><strong>Metod:</strong> Jämför \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\) med ursprungsuttrycket.</p><p>Då gäller \\(R\\cos v=5\\) och \\(R\\sin v=12\\).</p><p>a) \\[R=\\sqrt{5^2+12^2}=\\boxed{13}.\\]</p><p>b) \\(\\tan v=12/5\\), och eftersom \\(0&lt;v&lt;\\pi/2\\) fås \\(\\boxed{v=\\arctan(12/5)}\\).</p><p>c) En sinusfunktion med amplitud 13 varierar mellan \\(\\boxed{-13}\\) och \\(\\boxed{13}\\).</p>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13,
+      "atan(12/5)",
+      [
+        13,
+        -13
+      ]
+    ],
+    "tolerans": [
+      null,
+      null,
+      [
+        null,
+        null
+      ]
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>"
+    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienterna framför \\(\\sin x\\) och \\(\\cos x\\).</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c: max, min"
+    ]
   },
   {
     "id": "1.331",
@@ -11628,8 +12648,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionerna ges av</p><p>\\[f(x)=2\\sin(1,4x)+1\\qquad\\text{och}\\qquad g(x)=0,35x+0,5.\\]</p><p>Bestäm alla skärningspunkters x-koordinater för \\(0\\le x\\le8\\). Svara med tre decimaler.</p>",
@@ -11639,12 +12659,26 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.153,
+      4.965,
+      6.058
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.53",
@@ -11666,15 +12700,23 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      [
+        3,
+        "1/2",
+        2
+      ],
       null
     ],
     "tolerans": [
-      null,
+      [
+        null,
+        null,
+        null
+      ],
       null
     ],
     "självrättning": [
-      false,
+      true,
       false
     ],
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
@@ -11696,13 +12738,21 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ],
       null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
+      "a: A, k, B",
       "b"
+    ],
+    "manuellKomplettering": [
+      false,
+      true
     ]
   },
   {
@@ -11716,7 +12766,7 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En periodisk rörelse varierar mellan 1,5 m och 5,5 m. Tiden mellan två på varandra följande maximipunkter är 8,0 s. Vid \\(t=0\\) passerar rörelsen medellinjen uppåt.</p><p>Bestäm en sinusmodell \\(h(t)=A\\sin(kt)+B\\).</p>",
+    "t": "<p>En periodisk rörelse varierar mellan 1,5 m och 5,5 m. Tiden mellan två på varandra följande maximipunkter är 8,0 s. Vid \\(t=0\\) passerar rörelsen medellinjen uppåt.</p><p>Modellen skrivs \\(h(t)=A\\sin(kt)+B\\), där \\(A&gt;0\\) och \\(k&gt;0\\). Bestäm \\(A\\), \\(k\\) och \\(B\\).</p>",
     "s": "<p><strong>Metod:</strong> Bestäm amplitud, medellinje och period först. Använd sedan en tydlig punkt i grafen för att bestämma fasen.</p><p>Amplituden är \\(A=(5,5-1,5)/2=2\\). Medellinjen är \\(B=(5,5+1,5)/2=3,5\\).</p><p>Perioden 8 ger \\(k=2\\pi/8=\\pi/4\\). Ingen fasförskjutning behövs.</p><p><strong>\\(h(t)=2\\sin(\\pi t/4)+3,5\\)</strong>.</p>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
@@ -11724,12 +12774,27 @@ window.BANKMATO2 = [
       "begrepp",
       "modellering"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      "pi/4",
+      3.5
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "B"
+    ]
   },
   {
     "id": "1.55",
@@ -11739,22 +12804,38 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv \\(3\\sin x+4\\cos x\\) på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\)<br>för \\(0&lt;v&lt;\\pi/2\\).</p>",
-    "s": "<p><strong>Metod:</strong> Jämför koefficienterna med utvecklingen av \\(R\\sin(x+v)\\) eller \\(R\\cos(x-v)\\). Då får du både amplitud och fas.</p><p>\\(R\\cos v=3\\) och \\(R\\sin v=4\\). Därför \\(R=5\\) och \\(\\tan v=4/3\\).</p><p><strong>\\(3\\sin x+4\\cos x=5\\sin(x+\\arctan(4/3))\\)</strong>.</p>",
-    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "t": "<p>Temperaturen i en förenklad dygnsmodell varierar mellan \\(12^\\circ\\text{C}\\) och \\(24^\\circ\\text{C}\\) med perioden 24 h. Vid \\(t=0\\) är temperaturen maximal.</p><p>Modellen skrivs \\(T(t)=A\\cos(kt)+B\\), där \\(A&gt;0\\) och \\(k&gt;0\\). Bestäm \\(A\\), \\(k\\) och \\(B\\).</p>",
+    "s": "<p><strong>Metod:</strong> Amplituden är halva skillnaden mellan max och min, medellinjen är deras medelvärde och \\(k=2\\pi/T\\).</p><p>\\[A=\\frac{24-12}{2}=6,\\qquad B=\\frac{24+12}{2}=18.\\]</p><p>Perioden är 24 h, så</p><p>\\[k=\\frac{2\\pi}{24}=\\frac\\pi{12}.\\]</p><p>Eftersom temperaturen är maximal vid \\(t=0\\) passar cosinus utan fasförskjutning.</p>",
+    "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
+      "modellering",
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      "pi/12",
+      18
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>"
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>Börja med amplitud och medellinje från största och minsta värdet. Använd sedan sambandet \\(k=2\\pi/T\\).</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "B"
+    ]
   },
   {
     "id": "1.518",
@@ -11778,17 +12859,17 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       3,
-      3.141592653589793
+      "pi"
     ],
     "tolerans": [
-      0,
-      0
+      null,
+      null
     ],
     "självrättning": true,
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "svarFormat": [
       "numeriskt",
-      "numeriskt"
+      "uttryck"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -11816,19 +12897,25 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null
+      "pi/2",
+      [
+        "-pi/4",
+        "pi/4"
+      ],
+      1
     ],
     "tolerans": [
       null,
-      null,
+      [
+        null,
+        null
+      ],
       null
     ],
     "självrättning": [
-      false,
-      false,
-      false
+      true,
+      true,
+      true
     ],
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
@@ -11858,9 +12945,12 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null
+      "uttryck",
+      [
+        "uttryck",
+        "uttryck"
+      ],
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -11882,7 +12972,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm den minsta positiva x-koordinaten för en lodrät asymptot till \\(f(x)=3\\tan(x-\\pi/4)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>En lodrät asymptot uppstår när tangens är odefinierad, alltså när cosinus av argumentet är 0. Därför ska</p><p>\\[x-\\frac\\pi4=\\frac\\pi2+k\\pi.\\]</p><p>Det ger \\(x=3\\pi/4+k\\pi\\). Värdet \\(k=-1\\) ger ett negativt x-värde, så den minsta positiva asymptoten fås för \\(k=0\\):</p><p><strong>\\(x=3\\pi/4\\).</strong></p><p>Faktorn 3 framför tangens ändrar höjden på grafen men inte asymptoternas lägen.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\). För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p><div class=\"facit-arbete\"><p>En lodrät asymptot uppstår när tangens är odefinierad, alltså när cosinus av argumentet är 0. Därför ska</p><p>\\[x-\\frac\\pi4=\\frac\\pi2+k\\pi.\\]</p><p>Det ger \\(x=3\\pi/4+k\\pi\\). Värdet \\(k=-1\\) ger ett negativt x-värde, så den minsta positiva asymptoten fås för \\(k=0\\):</p><p><strong>\\(x=3\\pi/4\\).</strong></p><p>Faktorn 3 framför tangens ändrar höjden på grafen men inte asymptoternas lägen.</p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -11909,7 +12999,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Periodisk graf\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#E8ECEF\"/><line x1=\"151.8\" y1=\"25\" x2=\"151.8\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"151.8\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"200.1\" y1=\"25\" x2=\"200.1\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"200.1\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"248.5\" y1=\"25\" x2=\"248.5\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"248.5\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"296.9\" y1=\"25\" x2=\"296.9\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"296.9\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"345.2\" y1=\"25\" x2=\"345.2\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"345.2\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"393.6\" y1=\"25\" x2=\"393.6\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"393.6\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"206.1\" x2=\"442\" y2=\"206.1\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"210.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#E8ECEF\"/><line x1=\"55\" y1=\"154.4\" x2=\"442\" y2=\"154.4\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"158.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"128.5\" x2=\"442\" y2=\"128.5\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"132.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"102.6\" x2=\"442\" y2=\"102.6\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"106.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"76.8\" x2=\"442\" y2=\"76.8\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"80.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"50.9\" x2=\"442\" y2=\"50.9\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"54.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><polyline points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"411.0\" y=\"55.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11.5\" fill=\"#B43123\">f</text><text x=\"440\" y=\"172.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"111.4\" y=\"37\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm funktionens a) amplitud, b) medellinje och c) period.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Maximivärdet är 5 och minimivärdet är −1.</p><p>a) Amplituden är \\((5-(-1))/2=\\boxed{3}\\).</p><p>b) Medellinjen är \\((5+(-1))/2=\\boxed{y=2}\\).</p><p>c) Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Maximivärdet är 5 och minimivärdet är −1.</p><p>a) Amplituden är \\((5-(-1))/2=\\boxed{3}\\).</p><p>b) Medellinjen är \\((5+(-1))/2=\\boxed{y=2}\\).</p><p>c) Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -12051,23 +13141,16 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null,
-      null
+      3,
+      "pi",
+      -4,
+      [
+        -1,
+        -7
+      ]
     ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false,
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -12103,17 +13186,20 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null,
-      null
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "amplitud",
+      "period",
+      "medellinje",
+      "max, min"
     ]
   },
   {
@@ -12128,7 +13214,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För funktionen \\(f(x)=\\tan(2x)\\), bestäm</p><p>a) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) två lodräta asymptoter närmast origo.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Tangens har period \\(\\pi\\). Faktorn 2 framför \\(x\\) halverar perioden, så \\(T=\\boxed{\\pi/2}\\).</p><p>Asymptoter fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\). De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\). För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p><div class=\"facit-arbete\"><p>Tangens har period \\(\\pi\\). Faktorn 2 framför \\(x\\) halverar perioden, så \\(T=\\boxed{\\pi/2}\\).</p><p>Asymptoter fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\). De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -12136,17 +13222,14 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null
+      "pi/2",
+      [
+        "-pi/4",
+        "pi/4"
+      ]
     ],
-    "tolerans": [
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -12166,13 +13249,16 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null
+      "uttryck",
+      [
+        "uttryck",
+        "uttryck"
+      ]
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
-      "b"
+      "period",
+      "asymptoter"
     ]
   },
   {
@@ -12187,7 +13273,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En funktion har formen</p><p>\\[f(x)=A\\sin(x+v)+B,\\qquad A&gt;0.\\]</p><p>Funktionens största värde är 7 och minsta värde är −1. Dessutom gäller \\(f(0)=3\\) och grafen är växande vid \\(x=0\\).</p><p>Bestäm en möjlig formel för \\(f\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Största och minsta värde ger amplitud och medellinje:</p><p>\\[A=\\frac{7-(-1)}2=4,\\qquad B=\\frac{7+(-1)}2=3.\\]</p><p>Alltså \\(f(x)=4\\sin(x+v)+3\\).</p><p>Villkoret \\(f(0)=3\\) ger</p><p>\\[4\\sin v+3=3\\Rightarrow \\sin v=0.\\]</p><p>Så \\(v=n\\pi\\). Men grafen är växande vid \\(x=0\\). Derivatan är</p><p>\\[f'(x)=4\\cos(x+v),\\]</p><p>så vi behöver \\(f'(0)=4\\cos v&gt;0\\). Det gäller när \\(v\\) är en multipel av \\(2\\pi\\).</p><p>En enklaste möjlig formel är därför</p><p>\\[\\boxed{f(x)=4\\sin x+3}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>Största och minsta värde ger amplitud och medellinje:</p><p>\\[A=\\frac{7-(-1)}2=4,\\qquad B=\\frac{7+(-1)}2=3.\\]</p><p>Alltså \\(f(x)=4\\sin(x+v)+3\\).</p><p>Villkoret \\(f(0)=3\\) ger</p><p>\\[4\\sin v+3=3\\Rightarrow \\sin v=0.\\]</p><p>Så \\(v=n\\pi\\). Men grafen är växande vid \\(x=0\\). Derivatan är</p><p>\\[f'(x)=4\\cos(x+v),\\]</p><p>så vi behöver \\(f'(0)=4\\cos v&gt;0\\). Det gäller när \\(v\\) är en multipel av \\(2\\pi\\).</p><p>En enklaste möjlig formel är därför</p><p>\\[\\boxed{f(x)=4\\sin x+3}.\\]</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -12211,19 +13297,37 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En trigonometrisk funktion har en maximipunkt \\((\\pi/3,5)\\) och nästa maximipunkt \\((7\\pi/3,5)\\). Mellan dessa ligger en minimipunkt med y-koordinaten 1.</p><p>Bestäm en möjlig funktion på formen \\(f(x)=A\\cos(k(x-c))+B\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Max 5 och min 1 ger amplitud \\(A=2\\) och medellinje \\(B=3\\). Avståndet mellan två maximipunkter är \\(2\\pi\\), alltså är perioden \\(2\\pi\\) och \\(k=1\\). Ett maximum ligger vid \\(x=\\pi/3\\), så vi kan välja \\(c=\\pi/3\\).</p><p><strong>\\(\\boxed{f(x)=2\\cos(x-\\pi/3)+3}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "t": "<p>En trigonometrisk funktion har en maximipunkt \\((\\pi/3,5)\\) och nästa maximipunkt \\((7\\pi/3,5)\\). Mellan dessa ligger en minimipunkt med y-koordinaten 1.</p><p>Bestäm \\(A\\), \\(k\\), \\(c\\) och \\(B\\) i formen \\(f(x)=A\\cos(k(x-c))+B\\), där \\(A&gt;0\\), \\(k&gt;0\\) och \\(0\\le c&lt;2\\pi\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Max 5 och min 1 ger amplitud \\(A=2\\) och medellinje \\(B=3\\). Avståndet mellan två maximipunkter är \\(2\\pi\\), alltså är perioden \\(2\\pi\\) och \\(k=1\\). Ett maximum ligger vid \\(x=\\pi/3\\), så vi kan välja \\(c=\\pi/3\\).</p><p><strong>\\(\\boxed{f(x)=2\\cos(x-\\pi/3)+3}\\)</strong>.</p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      2,
+      1,
+      "pi/3",
+      3
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "c",
+      "B"
+    ]
   },
   {
     "id": "1.81",
@@ -12322,7 +13426,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För varje funktion, ange amplitud, period och medellinje.</p><p>a) \\(y=6\\sin(3x)-2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=-2\\cos(\\frac{x}{4})+5\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=\\frac12\\sin(5x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=7-4\\cos(2x)\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) amplitud <strong>6</strong>, period <strong>\\(2\\pi/3\\)</strong>, medellinje <strong>\\(y=-2\\)</strong>.</p><p>b) amplitud <strong>2</strong>, period <strong>\\(8\\pi\\)</strong>, medellinje <strong>\\(y=5\\)</strong>.</p><p>c) amplitud <strong>1/2</strong>, period <strong>\\(2\\pi/5\\)</strong>, medellinje <strong>\\(y=0\\)</strong>.</p><p>d) amplitud <strong>4</strong>, period <strong>\\(\\pi\\)</strong>, medellinje <strong>\\(y=7\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> I \\(A\\sin(bx+c)+d\\) eller \\(A\\cos(bx+c)+d\\) är amplituden \\(|A|\\), medellinjen \\(y=d\\) och perioden \\(2\\pi/|b|\\).</p><div class=\"facit-arbete\"><p>a) amplitud <strong>6</strong>, period <strong>\\(2\\pi/3\\)</strong>, medellinje <strong>\\(y=-2\\)</strong>.</p><p>b) amplitud <strong>2</strong>, period <strong>\\(8\\pi\\)</strong>, medellinje <strong>\\(y=5\\)</strong>.</p><p>c) amplitud <strong>1/2</strong>, period <strong>\\(2\\pi/5\\)</strong>, medellinje <strong>\\(y=0\\)</strong>.</p><p>d) amplitud <strong>4</strong>, period <strong>\\(\\pi\\)</strong>, medellinje <strong>\\(y=7\\)</strong>.</p></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -12751,7 +13855,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För funktionen</p>\n<p>\\[\nf(x)=4\\sin(3x)-2\n\\]</p>\n<p>bestäm</p>\n<p>a) amplituden<br>\nb) perioden<br>\nc) största och minsta värde.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>a) Amplituden är absolutbeloppet av koefficienten framför sinus:</p>\n<p><strong>\\(4\\).</strong></p>\n<p>b)</p>\n<p>\\[\nT=\\frac{2\\pi}{3}.\n\\]</p>\n<p>c) Medellinjen är \\(y=-2\\). Därför</p>\n<p>\\[\nf_{\\max}=-2+4=2,\\qquad f_{\\min}=-2-4=-6.\n\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> I \\(A\\sin(bx+c)+d\\) eller \\(A\\cos(bx+c)+d\\) är amplituden \\(|A|\\), medellinjen \\(y=d\\) och perioden \\(2\\pi/|b|\\).</p><div class=\"facit-arbete\"><p>a) Amplituden är absolutbeloppet av koefficienten framför sinus:</p>\n<p><strong>\\(4\\).</strong></p>\n<p>b)</p>\n<p>\\[\nT=\\frac{2\\pi}{3}.\n\\]</p>\n<p>c) Medellinjen är \\(y=-2\\). Därför</p>\n<p>\\[\nf_{\\max}=-2+4=2,\\qquad f_{\\min}=-2-4=-6.\n\\]</p></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -12759,20 +13863,15 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null
+      4,
+      "2*pi/3",
+      [
+        2,
+        -6
+      ]
     ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -12801,15 +13900,18 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null
+      "numeriskt",
+      "uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
-      "b",
-      "c"
+      "amplitud",
+      "period",
+      "max, min"
     ]
   },
   {
@@ -12969,12 +14071,27 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2,
+      3
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "B"
+    ]
   },
   {
     "id": "1.102",
@@ -13053,7 +14170,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Skriv om så att fasförskjutningen syns i formen \\(A\\sin(k(x-x_0))+B\\) eller \\(A\\cos(k(x-x_0))+B\\).</p><p>a) \\(y=2\\sin(3x-\\pi)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=4\\cos(2x+\\frac{\\pi}{2})-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=\\sin(5x-\\frac{\\pi}{2})\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=3\\cos(4x-\\pi)+2\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) \\(3x-\\pi=3(x-\\pi/3)\\): <strong>\\(2\\sin(3(x-\\pi/3))\\)</strong>.</p><p>b) \\(2x+\\pi/2=2(x+\\pi/4)\\): <strong>\\(4\\cos(2(x+\\pi/4))-1\\)</strong>.</p><p>c) \\(5x-\\pi/2=5(x-\\pi/10)\\): <strong>\\(\\sin(5(x-\\pi/10))\\)</strong>.</p><p>d) \\(4x-\\pi=4(x-\\pi/4)\\): <strong>\\(3\\cos(4(x-\\pi/4))+2\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>a) \\(3x-\\pi=3(x-\\pi/3)\\): <strong>\\(2\\sin(3(x-\\pi/3))\\)</strong>.</p><p>b) \\(2x+\\pi/2=2(x+\\pi/4)\\): <strong>\\(4\\cos(2(x+\\pi/4))-1\\)</strong>.</p><p>c) \\(5x-\\pi/2=5(x-\\pi/10)\\): <strong>\\(\\sin(5(x-\\pi/10))\\)</strong>.</p><p>d) \\(4x-\\pi=4(x-\\pi/4)\\): <strong>\\(3\\cos(4(x-\\pi/4))+2\\)</strong>.</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -13137,19 +14254,37 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En trigonometrisk funktion har maximivärdet 7 och minimivärdet −1. Två på varandra följande maximipunkter har x-koordinaterna \\(\\pi/6\\) och \\(7\\pi/6\\).</p><p>Bestäm en funktion på formen \\(f(x)=A\\cos(k(x-c))+B\\) som uppfyller villkoren.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Amplitud \\(A=(7-(-1))/2=4\\) och medellinje \\(B=(7+(-1))/2=3\\).</p><p>Perioden är \\(7\\pi/6-\\pi/6=\\pi\\), så \\(k=2\\pi/T=2\\).</p><p>En maximipunkt fås vid \\(x=c\\), alltså kan \\(c=\\pi/6\\).</p><p><strong>\\[\\boxed{f(x)=4\\cos\\left(2\\left(x-\\frac\\pi6\\right)\\right)+3}.\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "t": "<p>En trigonometrisk funktion har maximivärdet 7 och minimivärdet −1. Två på varandra följande maximipunkter har x-koordinaterna \\(\\pi/6\\) och \\(7\\pi/6\\).</p><p>Bestäm \\(A\\), \\(k\\), \\(c\\) och \\(B\\) i formen \\(f(x)=A\\cos(k(x-c))+B\\), där \\(A&gt;0\\), \\(k&gt;0\\) och \\(0\\le c&lt;\\pi\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Amplitud \\(A=(7-(-1))/2=4\\) och medellinje \\(B=(7+(-1))/2=3\\).</p><p>Perioden är \\(7\\pi/6-\\pi/6=\\pi\\), så \\(k=2\\pi/T=2\\).</p><p>En maximipunkt fås vid \\(x=c\\), alltså kan \\(c=\\pi/6\\).</p><p><strong>\\[\\boxed{f(x)=4\\cos\\left(2\\left(x-\\frac\\pi6\\right)\\right)+3}.\\]</strong></p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      4,
+      2,
+      "pi/6",
+      3
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "c",
+      "B"
+    ]
   },
   {
     "id": "1.110",
@@ -13163,7 +14298,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen visar \\(y=\\tan x\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"245\" viewBox=\"0 0 470 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till tangensfunktionen med lodräta asymptoter\">\n<rect x=\"1\" y=\"1\" width=\"468\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"60\" y1=\"205.0\" x2=\"440\" y2=\"205.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"182.5\" x2=\"440\" y2=\"182.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"160.0\" x2=\"440\" y2=\"160.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"137.5\" x2=\"440\" y2=\"137.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"115.0\" x2=\"440\" y2=\"115.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"92.5\" x2=\"440\" y2=\"92.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"70.0\" x2=\"440\" y2=\"70.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"47.5\" x2=\"440\" y2=\"47.5\" stroke=\"#D9E6E9\"/>\n<line x1=\"60\" y1=\"25.0\" x2=\"440\" y2=\"25.0\" stroke=\"#D9E6E9\"/>\n<line x1=\"60.0\" y1=\"25\" x2=\"60.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"60.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-π</text>\n<line x1=\"155.0\" y1=\"25\" x2=\"155.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"155.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-π/2</text>\n<line x1=\"250.0\" y1=\"25\" x2=\"250.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"240.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text>\n<line x1=\"345.0\" y1=\"25\" x2=\"345.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"345.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text>\n<line x1=\"440.0\" y1=\"25\" x2=\"440.0\" y2=\"205\" stroke=\"#D9E6E9\"/>\n<text x=\"440.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text>\n<line x1=\"60\" y1=\"115.0\" x2=\"440\" y2=\"115.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"250.0\" y1=\"25\" x2=\"250.0\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"155.0\" y1=\"25\" x2=\"155.0\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/>\n<line x1=\"345.0\" y1=\"25\" x2=\"345.0\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"1.4\" stroke-dasharray=\"6 4\"/>\n<polyline points=\"60.00,115.00 60.72,114.73 61.43,114.47 62.15,114.20 62.87,113.93 63.58,113.67 64.30,113.40 65.02,113.13 65.73,112.86 66.45,112.59 67.17,112.32 67.88,112.05 68.60,111.78 69.32,111.51 70.04,111.23 70.75,110.96 71.47,110.68 72.19,110.40 72.90,110.13 73.62,109.85 74.34,109.56 75.05,109.28 75.77,109.00 76.49,108.71 77.20,108.42 77.92,108.13 78.64,107.84 79.35,107.54 80.07,107.25 80.79,106.95 81.50,106.64 82.22,106.34 82.94,106.03 83.65,105.72 84.37,105.41 85.09,105.09 85.81,104.77 86.52,104.45 87.24,104.12 87.96,103.79 88.67,103.45 89.39,103.12 90.11,102.77 90.82,102.42 91.54,102.07 92.26,101.72 92.97,101.35 93.69,100.99 94.41,100.61 95.12,100.23 95.84,99.85 96.56,99.46 97.27,99.06 97.99,98.66 98.71,98.25 99.42,97.83 100.14,97.40 100.86,96.97 101.58,96.53 102.29,96.08 103.01,95.62 103.73,95.15 104.44,94.67 105.16,94.18 105.88,93.68 106.59,93.17 107.31,92.64 108.03,92.10 108.74,91.56 109.46,90.99 110.18,90.41 110.89,89.82 111.61,89.21 112.33,88.59 113.04,87.94 113.76,87.28 114.48,86.60 115.19,85.90 115.91,85.18 116.63,84.43 117.35,83.66 118.06,82.86 118.78,82.03 119.50,81.18 120.21,80.30 120.93,79.38 121.65,78.42 122.36,77.43 123.08,76.40 123.80,75.33 124.51,74.21 125.23,73.04 125.95,71.82 126.66,70.54 127.38,69.21 128.10,67.80 128.81,66.32 129.53,64.77 130.25,63.13 130.96,61.40 131.68,59.57 132.40,57.62 133.11,55.56 133.83,53.36 134.55,51.02 135.27,48.51 135.98,45.82 136.70,42.93 137.42,39.81 138.13,36.43 138.85,32.76 139.57,28.75 140.28,24.37\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.4\"/>\n<polyline points=\"169.72,205.63 171.15,197.24 172.58,190.19 174.02,184.18 175.45,178.98 176.89,174.44 178.32,170.43 179.75,166.87 181.19,163.68 182.62,160.79 184.05,158.18 185.49,155.79 186.92,153.60 188.35,151.58 189.79,149.70 191.22,147.97 192.65,146.34 194.09,144.82 195.52,143.40 196.96,142.06 198.39,140.79 199.82,139.59 201.26,138.44 202.69,137.36 204.12,136.32 205.56,135.33 206.99,134.38 208.42,133.47 209.86,132.60 211.29,131.75 212.73,130.94 214.16,130.15 215.59,129.39 217.03,128.65 218.46,127.93 219.89,127.23 221.33,126.55 222.76,125.88 224.19,125.23 225.63,124.59 227.06,123.97 228.50,123.36 229.93,122.75 231.36,122.16 232.80,121.58 234.23,121.00 235.66,120.44 237.10,119.87 238.53,119.32 239.96,118.77 241.40,118.22 242.83,117.68 244.27,117.14 245.70,116.60 247.13,116.07 248.57,115.53 250.00,115.00 251.43,114.47 252.87,113.93 254.30,113.40 255.73,112.86 257.17,112.32 258.60,111.78 260.04,111.23 261.47,110.68 262.90,110.13 264.34,109.56 265.77,109.00 267.20,108.42 268.64,107.84 270.07,107.25 271.50,106.64 272.94,106.03 274.37,105.41 275.81,104.77 277.24,104.12 278.67,103.45 280.11,102.77 281.54,102.07 282.97,101.35 284.41,100.61 285.84,99.85 287.27,99.06 288.71,98.25 290.14,97.40 291.58,96.53 293.01,95.62 294.44,94.67 295.88,93.68 297.31,92.64 298.74,91.56 300.18,90.41 301.61,89.21 303.04,87.94 304.48,86.60 305.91,85.18 307.35,83.66 308.78,82.03 310.21,80.30 311.65,78.42 313.08,76.40 314.51,74.21 315.95,71.82 317.38,69.21 318.81,66.32 320.25,63.13 321.68,59.57 323.11,55.56 324.55,51.02 325.98,45.82 327.42,39.81 328.85,32.76 330.28,24.37\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.4\"/>\n<polyline points=\"359.72,205.63 360.43,201.25 361.15,197.24 361.87,193.57 362.58,190.19 363.30,187.07 364.02,184.18 364.73,181.49 365.45,178.98 366.17,176.64 366.89,174.44 367.60,172.38 368.32,170.43 369.04,168.60 369.75,166.87 370.47,165.23 371.19,163.68 371.90,162.20 372.62,160.79 373.34,159.46 374.05,158.18 374.77,156.96 375.49,155.79 376.20,154.67 376.92,153.60 377.64,152.57 378.35,151.58 379.07,150.62 379.79,149.70 380.50,148.82 381.22,147.97 381.94,147.14 382.65,146.34 383.37,145.57 384.09,144.82 384.81,144.10 385.52,143.40 386.24,142.72 386.96,142.06 387.67,141.41 388.39,140.79 389.11,140.18 389.82,139.59 390.54,139.01 391.26,138.44 391.97,137.90 392.69,137.36 393.41,136.83 394.12,136.32 394.84,135.82 395.56,135.33 396.27,134.85 396.99,134.38 397.71,133.92 398.42,133.47 399.14,133.03 399.86,132.60 400.58,132.17 401.29,131.75 402.01,131.34 402.73,130.94 403.44,130.54 404.16,130.15 404.88,129.77 405.59,129.39 406.31,129.01 407.03,128.65 407.74,128.28 408.46,127.93 409.18,127.58 409.89,127.23 410.61,126.88 411.33,126.55 412.04,126.21 412.76,125.88 413.48,125.55 414.19,125.23 414.91,124.91 415.63,124.59 416.35,124.28 417.06,123.97 417.78,123.66 418.50,123.36 419.21,123.05 419.93,122.75 420.65,122.46 421.36,122.16 422.08,121.87 422.80,121.58 423.51,121.29 424.23,121.00 424.95,120.72 425.66,120.44 426.38,120.15 427.10,119.87 427.81,119.60 428.53,119.32 429.25,119.04 429.96,118.77 430.68,118.49 431.40,118.22 432.12,117.95 432.83,117.68 433.55,117.41 434.27,117.14 434.98,116.87 435.70,116.60 436.42,116.33 437.13,116.07 437.85,115.80 438.57,115.53 439.28,115.27 440.00,115.00\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2.4\"/>\n</svg></span><p>a) Ange de två lodräta asymptoter som syns närmast origo.<br>\nb) Ange funktionens period.<br>\nc) Ange alla nollställen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) Tangens är inte definierad där \\(\\cos x=0\\). Närmast origo är därför</p>\n<p><strong>\\(x=-\\frac{\\pi}{2}\\) och \\(x=\\frac{\\pi}{2}\\).</strong></p>\n<p>b) <strong>Perioden är \\(\\pi\\).</strong></p>\n<p>c) \\(\\tan x=0\\) när \\(\\sin x=0\\), alltså</p>\n<p><strong>\\(x=n\\pi,\\;n\\in\\mathbb Z\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\). För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p><div class=\"facit-arbete\"><p>a) Tangens är inte definierad där \\(\\cos x=0\\). Närmast origo är därför</p>\n<p><strong>\\(x=-\\frac{\\pi}{2}\\) och \\(x=\\frac{\\pi}{2}\\).</strong></p>\n<p>b) <strong>Perioden är \\(\\pi\\).</strong></p>\n<p>c) \\(\\tan x=0\\) när \\(\\sin x=0\\), alltså</p>\n<p><strong>\\(x=n\\pi,\\;n\\in\\mathbb Z\\).</strong></p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -13246,7 +14381,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Funktionen \\(f(x)=\\tan(x/2)\\). Bestäm perioden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Tangens grundperiod är \\(\\pi\\). Här byts \\(x\\) mot \\(x/2\\), så argumentet förändras bara hälften så snabbt. Grafen sträcks därför ut horisontellt med faktor 2.</p><p>Algebraiskt:</p><p>\\[T=\\frac{\\pi}{1/2}=2\\pi.\\]</p><p><strong>Svar:</strong> \\(2\\pi\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\). För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p><div class=\"facit-arbete\"><p>Tangens grundperiod är \\(\\pi\\). Här byts \\(x\\) mot \\(x/2\\), så argumentet förändras bara hälften så snabbt. Grafen sträcks därför ut horisontellt med faktor 2.</p><p>Algebraiskt:</p><p>\\[T=\\frac{\\pi}{1/2}=2\\pi.\\]</p><p><strong>Svar:</strong> \\(2\\pi\\).</p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -13298,7 +14433,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Funktionen är \\(f(x)=-2\\tan(3x+\\pi/6)\\). Bestäm det största öppna intervallet som innehåller \\(x=0\\) och där funktionen är definierad och sammanhängande.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p>För att hitta intervallets gränser söker vi de två lodräta asymptoter som ligger närmast origo. Tangens är odefinierad när</p><p>\\[3x+\\frac\\pi6=\\frac\\pi2+k\\pi.\\]</p><p>Det ger</p><p>\\[x=\\frac\\pi9+\\frac{k\\pi}{3}.\\]</p><p>För \\(k=0\\) fås den närmaste asymptoten till höger, \\(x=\\pi/9\\). För \\(k=-1\\) fås den närmaste till vänster:</p><p>\\[x=\\frac\\pi9-\\frac\\pi3=-\\frac{2\\pi}{9}.\\]</p><p>Alltså är det största sammanhängande intervallet kring origo</p><p><strong>\\[\\left(-\\frac{2\\pi}{9},\\frac\\pi9\\right).\\]</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\). För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p><div class=\"facit-arbete\"><p>För att hitta intervallets gränser söker vi de två lodräta asymptoter som ligger närmast origo. Tangens är odefinierad när</p><p>\\[3x+\\frac\\pi6=\\frac\\pi2+k\\pi.\\]</p><p>Det ger</p><p>\\[x=\\frac\\pi9+\\frac{k\\pi}{3}.\\]</p><p>För \\(k=0\\) fås den närmaste asymptoten till höger, \\(x=\\pi/9\\). För \\(k=-1\\) fås den närmaste till vänster:</p><p>\\[x=\\frac\\pi9-\\frac\\pi3=-\\frac{2\\pi}{9}.\\]</p><p>Alltså är det största sammanhängande intervallet kring origo</p><p><strong>\\[\\left(-\\frac{2\\pi}{9},\\frac\\pi9\\right).\\]</strong></p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -13336,7 +14471,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För varje funktion, ange period och alla lodräta asymptoter.</p><p>a) \\(y=\\tan x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\tan(2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=\\tan(x-\\frac\\pi4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=2\\tan(3x)+1\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) period <strong>\\(\\pi\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi2+n\\pi\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) period <strong>\\(\\frac\\pi2\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi4+n\\frac\\pi2\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) period <strong>\\(\\pi\\)</strong>, asymptoter <strong>\\(x=\\frac{3\\pi}{4}+n\\pi\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) period <strong>\\(\\frac\\pi3\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi6+n\\frac\\pi3\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Tangens har grundperiod \\(\\pi\\). För \\(\\tan(bx+c)\\) är perioden \\(\\pi/|b|\\), och asymptoter fås när argumentet är \\(\\pi/2+n\\pi\\).</p><div class=\"facit-arbete\"><p>a) period <strong>\\(\\pi\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi2+n\\pi\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) period <strong>\\(\\frac\\pi2\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi4+n\\frac\\pi2\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) period <strong>\\(\\pi\\)</strong>, asymptoter <strong>\\(x=\\frac{3\\pi}{4}+n\\pi\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) period <strong>\\(\\frac\\pi3\\)</strong>, asymptoter <strong>\\(x=\\frac\\pi6+n\\frac\\pi3\\)</strong>.</p></div></div>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -13421,7 +14556,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen visar en funktion av formen \\(f(x)=A\\sin(kx+v)+B\\).</p><span class=\"fig\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Graf till en sinusfunktion med graderade axlar\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"52.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"30.0\" x2=\"119.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"186.0\" y1=\"30.0\" x2=\"186.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"253.0\" y1=\"30.0\" x2=\"253.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"30.0\" x2=\"320.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"387.0\" y1=\"30.0\" x2=\"387.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"30.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"260.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"221.7\" x2=\"454.0\" y2=\"221.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"145.0\" x2=\"454.0\" y2=\"145.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"106.7\" x2=\"454.0\" y2=\"106.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"68.3\" x2=\"454.0\" y2=\"68.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"30.0\" x2=\"454.0\" y2=\"30.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"52.0\" y1=\"183.3\" x2=\"454.0\" y2=\"183.3\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M454.0 183.3 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"119.0\" y1=\"260.0\" x2=\"119.0\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M119.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"458.0\" y=\"174.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"128.0\" y=\"41.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text><line x1=\"186.0\" y1=\"179.8\" x2=\"186.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"186.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π/2</text><text x=\"186.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"253.0\" y1=\"179.8\" x2=\"253.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π</text><text x=\"253.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"320.0\" y1=\"179.8\" x2=\"320.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"320.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3π/2</text><text x=\"320.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"387.0\" y1=\"179.8\" x2=\"387.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"387.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2π</text><text x=\"387.0\" y=\"198.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2π</text><line x1=\"454.0\" y1=\"179.8\" x2=\"454.0\" y2=\"186.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"115.5\" y1=\"260.0\" x2=\"122.5\" y2=\"260.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"111.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"115.5\" y1=\"221.7\" x2=\"122.5\" y2=\"221.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"111.0\" y=\"225.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"115.5\" y1=\"145.0\" x2=\"122.5\" y2=\"145.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"111.0\" y=\"148.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"115.5\" y1=\"106.7\" x2=\"122.5\" y2=\"106.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"111.0\" y=\"110.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"115.5\" y1=\"68.3\" x2=\"122.5\" y2=\"68.3\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"111.0\" y=\"71.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"115.5\" y1=\"30.0\" x2=\"122.5\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"111.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"111.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 52.00,183.33 L 53.01,184.89 L 54.01,186.42 L 55.02,187.93 L 56.02,189.41 L 57.02,190.87 L 58.03,192.31 L 59.03,193.71 L 60.04,195.10 L 61.04,196.45 L 62.05,197.77 L 63.06,199.07 L 64.06,200.33 L 65.06,201.57 L 66.07,202.77 L 67.08,203.94 L 68.08,205.08 L 69.08,206.19 L 70.09,207.26 L 71.09,208.30 L 72.10,209.30 L 73.11,210.26 L 74.11,211.19 L 75.12,212.09 L 76.12,212.94 L 77.12,213.76 L 78.13,214.54 L 79.13,215.28 L 80.14,215.98 L 81.14,216.65 L 82.15,217.27 L 83.16,217.85 L 84.16,218.39 L 85.16,218.90 L 86.17,219.36 L 87.17,219.78 L 88.18,220.15 L 89.19,220.49 L 90.19,220.78 L 91.19,221.04 L 92.20,221.25 L 93.20,221.41 L 94.21,221.54 L 95.22,221.62 L 96.22,221.66 L 97.22,221.66 L 98.23,221.62 L 99.23,221.53 L 100.24,221.40 L 101.25,221.23 L 102.25,221.01 L 103.25,220.75 L 104.26,220.45 L 105.27,220.11 L 106.27,219.73 L 107.27,219.31 L 108.28,218.84 L 109.28,218.34 L 110.29,217.79 L 111.30,217.20 L 112.30,216.57 L 113.30,215.91 L 114.31,215.20 L 115.31,214.46 L 116.32,213.67 L 117.33,212.85 L 118.33,211.99 L 119.33,211.09 L 120.34,210.16 L 121.34,209.19 L 122.35,208.18 L 123.36,207.14 L 124.36,206.07 L 125.36,204.96 L 126.37,203.82 L 127.38,202.64 L 128.38,201.43 L 129.38,200.20 L 130.39,198.93 L 131.39,197.63 L 132.40,196.30 L 133.41,194.94 L 134.41,193.56 L 135.41,192.15 L 136.42,190.71 L 137.43,189.25 L 138.43,187.76 L 139.44,186.25 L 140.44,184.72 L 141.44,183.16 L 142.45,181.58 L 143.46,179.98 L 144.46,178.37 L 145.47,176.73 L 146.47,175.08 L 147.48,173.41 L 148.48,171.72 L 149.49,170.02 L 150.49,168.31 L 151.50,166.58 L 152.50,164.84 L 153.50,163.09 L 154.51,161.33 L 155.51,159.56 L 156.52,157.79 L 157.53,156.00 L 158.53,154.21 L 159.53,152.41 L 160.54,150.61 L 161.55,148.81 L 162.55,147.01 L 163.56,145.20 L 164.56,143.39 L 165.56,141.59 L 166.57,139.79 L 167.57,137.98 L 168.58,136.19 L 169.58,134.40 L 170.59,132.61 L 171.59,130.83 L 172.60,129.06 L 173.61,127.30 L 174.61,125.55 L 175.62,123.80 L 176.62,122.07 L 177.62,120.36 L 178.63,118.65 L 179.63,116.96 L 180.64,115.29 L 181.65,113.63 L 182.65,111.99 L 183.66,110.37 L 184.66,108.77 L 185.66,107.19 L 186.67,105.63 L 187.67,104.09 L 188.68,102.57 L 189.69,101.08 L 190.69,99.61 L 191.69,98.17 L 192.70,96.75 L 193.70,95.36 L 194.71,94.00 L 195.72,92.66 L 196.72,91.36 L 197.73,90.08 L 198.73,88.84 L 199.73,87.62 L 200.74,86.44 L 201.74,85.29 L 202.75,84.18 L 203.76,83.09 L 204.76,82.05 L 205.77,81.03 L 206.77,80.05 L 207.77,79.11 L 208.78,78.21 L 209.79,77.34 L 210.79,76.51 L 211.80,75.72 L 212.80,74.96 L 213.81,74.25 L 214.81,73.57 L 215.81,72.93 L 216.82,72.34 L 217.83,71.78 L 218.83,71.27 L 219.84,70.79 L 220.84,70.36 L 221.84,69.97 L 222.85,69.62 L 223.85,69.31 L 224.86,69.04 L 225.87,68.82 L 226.87,68.64 L 227.88,68.50 L 228.88,68.40 L 229.88,68.35 L 230.89,68.33 L 231.90,68.37 L 232.90,68.44 L 233.91,68.55 L 234.91,68.71 L 235.91,68.91 L 236.92,69.16 L 237.93,69.44 L 238.93,69.77 L 239.94,70.14 L 240.94,70.55 L 241.94,71.00 L 242.95,71.49 L 243.95,72.02 L 244.96,72.60 L 245.97,73.21 L 246.97,73.87 L 247.98,74.56 L 248.98,75.29 L 249.98,76.06 L 250.99,76.87 L 251.99,77.72 L 253.00,78.60 L 254.01,79.53 L 255.01,80.48 L 256.01,81.48 L 257.02,82.51 L 258.02,83.57 L 259.03,84.67 L 260.04,85.80 L 261.04,86.96 L 262.05,88.16 L 263.05,89.39 L 264.06,90.65 L 265.06,91.94 L 266.06,93.25 L 267.07,94.60 L 268.08,95.98 L 269.08,97.38 L 270.09,98.81 L 271.09,100.26 L 272.10,101.74 L 273.10,103.24 L 274.10,104.77 L 275.11,106.32 L 276.12,107.89 L 277.12,109.48 L 278.12,111.09 L 279.13,112.72 L 280.13,114.37 L 281.14,116.03 L 282.14,117.71 L 283.15,119.41 L 284.15,121.12 L 285.16,122.84 L 286.16,124.58 L 287.17,126.32 L 288.18,128.08 L 289.18,129.85 L 290.19,131.62 L 291.19,133.40 L 292.19,135.19 L 293.20,136.99 L 294.21,138.78 L 295.21,140.59 L 296.22,142.39 L 297.22,144.20 L 298.23,146.00 L 299.23,147.81 L 300.24,149.61 L 301.24,151.42 L 302.25,153.21 L 303.25,155.01 L 304.25,156.80 L 305.26,158.58 L 306.26,160.35 L 307.27,162.12 L 308.28,163.87 L 309.28,165.62 L 310.29,167.35 L 311.29,169.07 L 312.29,170.78 L 313.30,172.47 L 314.31,174.15 L 315.31,175.82 L 316.31,177.46 L 317.32,179.09 L 318.32,180.70 L 319.33,182.29 L 320.34,183.85 L 321.34,185.40 L 322.35,186.92 L 323.35,188.42 L 324.36,189.90 L 325.36,191.35 L 326.37,192.78 L 327.37,194.18 L 328.38,195.55 L 329.38,196.89 L 330.38,198.21 L 331.39,199.49 L 332.40,200.75 L 333.40,201.97 L 334.41,203.17 L 335.41,204.33 L 336.42,205.46 L 337.42,206.55 L 338.43,207.61 L 339.43,208.63 L 340.44,209.62 L 341.44,210.58 L 342.44,211.50 L 343.45,212.38 L 344.46,213.22 L 345.46,214.02 L 346.46,214.79 L 347.47,215.52 L 348.48,216.21 L 349.48,216.86 L 350.49,217.47 L 351.49,218.04 L 352.50,218.57 L 353.50,219.05 L 354.50,219.50 L 355.51,219.91 L 356.52,220.27 L 357.52,220.59 L 358.52,220.87 L 359.53,221.11 L 360.54,221.31 L 361.54,221.46 L 362.54,221.57 L 363.55,221.64 L 364.56,221.67 L 365.56,221.65 L 366.56,221.59 L 367.57,221.49 L 368.57,221.35 L 369.58,221.16 L 370.58,220.93 L 371.59,220.66 L 372.60,220.35 L 373.60,219.99 L 374.60,219.59 L 375.61,219.16 L 376.62,218.68 L 377.62,218.16 L 378.62,217.60 L 379.63,217.00 L 380.63,216.36 L 381.64,215.68 L 382.64,214.96 L 383.65,214.20 L 384.66,213.40 L 385.66,212.57 L 386.66,211.69 L 387.67,210.78 L 388.68,209.84 L 389.68,208.86 L 390.68,207.84 L 391.69,206.79 L 392.69,205.70 L 393.70,204.58 L 394.71,203.43 L 395.71,202.24 L 396.71,201.02 L 397.72,199.78 L 398.72,198.50 L 399.73,197.19 L 400.74,195.85 L 401.74,194.49 L 402.74,193.09 L 403.75,191.67 L 404.75,190.23 L 405.76,188.75 L 406.77,187.26 L 407.77,185.74 L 408.77,184.20 L 409.78,182.64 L 410.79,181.05 L 411.79,179.45 L 412.79,177.82 L 413.80,176.18 L 414.80,174.52 L 415.81,172.85 L 416.81,171.16 L 417.82,169.45 L 418.82,167.73 L 419.83,166.00 L 420.83,164.26 L 421.84,162.51 L 422.85,160.74 L 423.85,158.97 L 424.85,157.19 L 425.86,155.40 L 426.87,153.61 L 427.87,151.82 L 428.88,150.01 L 429.88,148.21 L 430.88,146.40 L 431.89,144.60 L 432.89,142.79 L 433.90,140.99 L 434.91,139.18 L 435.91,137.39 L 436.91,135.59 L 437.92,133.80 L 438.93,132.02 L 439.93,130.24 L 440.93,128.47 L 441.94,126.71 L 442.94,124.96 L 443.95,123.23 L 444.95,121.50 L 445.96,119.79 L 446.96,118.09 L 447.97,116.40 L 448.97,114.74 L 449.98,113.09 L 450.99,111.45 L 451.99,109.84 L 452.99,108.24 L 454.00,106.67\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"413.8\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">y = f(x)</text><text x=\"413.8\" y=\"53.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#C93A2B\">y = f(x)</text></svg></span><p>Det är känt att \\(A&gt;0\\), \\(k&gt;0\\) och \\(-\\pi&lt;v\\le\\pi\\). Bestäm \\(A\\), \\(k\\), \\(v\\) och \\(B\\) och förklara varför villkoren gör att konstanten \\(v\\) kan bestämmas på bara ett sätt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>Maxvärdet är 3 och minvärdet −1, vilket ger \\(A=2\\) och \\(B=1\\). Avståndet mellan två likadana lägen i grafen är \\(2\\pi\\), alltså \\(k=1\\).</p><p>Grafen passerar medellinjen uppåt vid \\(x=\\pi/3\\). För en sinusfunktion sker detta när vinkeln i sinusuttrycket är \\(2\\pi n\\), där \\(n\\) är ett heltal:</p><p>\\[\\pi/3+v=2\\pi n.\\]</p><p>Med villkoret \\(-\\pi&lt;v\\le\\pi\\) fås bara ett värde inom intervallet: <strong>\\(v=-\\pi/3\\)</strong>.</p><p><strong>\\(f(x)=2\\sin(x-\\pi/3)+1\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Maxvärdet är 3 och minvärdet −1, vilket ger \\(A=2\\) och \\(B=1\\). Avståndet mellan två likadana lägen i grafen är \\(2\\pi\\), alltså \\(k=1\\).</p><p>Grafen passerar medellinjen uppåt vid \\(x=\\pi/3\\). För en sinusfunktion sker detta när vinkeln i sinusuttrycket är \\(2\\pi n\\), där \\(n\\) är ett heltal:</p><p>\\[\\pi/3+v=2\\pi n.\\]</p><p>Med villkoret \\(-\\pi&lt;v\\le\\pi\\) fås bara ett värde inom intervallet: <strong>\\(v=-\\pi/3\\)</strong>.</p><p><strong>\\(f(x)=2\\sin(x-\\pi/3)+1\\).</strong></p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -13444,22 +14579,34 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Bestäm största och minsta värdet av</p><p>\\[f(x)=5\\sin x-12\\cos x+7.\\]</p>",
+    "t": "<p>Bestäm största och minsta värdet av</p><p>\\[f(x)=5\\sin x-12\\cos x+7.\\]</p><p>Svara med största värdet först.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Jämför koefficienterna i \\(a\\sin x+b\\cos x=R\\sin(x+v)\\). Då gäller \\(R\\cos v=a\\) och \\(R\\sin v=b\\), vilket bestämmer både amplitud och fas.</p><div class=\"facit-arbete\"><p>Kombinationen \\(5\\sin x-12\\cos x\\) har amplituden</p><p>\\[R=\\sqrt{5^2+(-12)^2}=13.\\]</p><p>Den delen varierar alltså mellan \\(-13\\) och \\(13\\). När 7 läggs till förskjuts hela intervallet uppåt:</p><p>\\[f_{\\min}=7-13=\\boxed{-6},\\qquad f_{\\max}=7+13=\\boxed{20}.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Utveckla den erhållna formen tillbaka och kontrollera att båda ursprungliga koefficienterna återkommer.</p></div>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      -6
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>"
+    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "största",
+      "minsta"
+    ]
   },
   {
     "id": "1.128",
@@ -13468,23 +14615,39 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv \\(8\\sin x+15\\cos x\\) på formen \\(R\\sin(x+v)\\), där \\(R&gt;0\\)<br>för \\(0&lt;v&lt;\\pi/2\\).</p><p>Bestäm också uttryckets största värde.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Jämför koefficienterna i \\(a\\sin x+b\\cos x=R\\sin(x+v)\\). Då gäller \\(R\\cos v=a\\) och \\(R\\sin v=b\\), vilket bestämmer både amplitud och fas.</p><div class=\"facit-arbete\"><p>Utveckla \\(R\\sin(x+v)=R\\sin x\\cos v+R\\cos x\\sin v\\).</p><p>Jämför koefficienterna:</p><p>\\[R\\cos v=8,\\qquad R\\sin v=15.\\]</p><p>Därför \\(R=\\sqrt{8^2+15^2}=17\\), \\(\\cos v=8/17\\) och \\(\\sin v=15/17\\). Alltså kan \\(v\\) skrivas \\(\\arctan(15/8)\\).</p><p><strong>\\(8\\sin x+15\\cos x=17\\sin(x+v)\\)</strong> och största värdet är <strong>17</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Utveckla den erhållna formen tillbaka och kontrollera att båda ursprungliga koefficienterna återkommer.</p></div>",
-    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "t": "<p>Vattenståndet i en hamn modelleras under ett dygn av</p><p>\\[h(t)=3,2+1,1\\cos\\left(\\frac{\\pi}{6}(t-2)\\right),\\]</p><p>där \\(h\\) mäts i meter och \\(t\\) i timmar.</p><p>a) Bestäm största vattenståndet.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm modellens period.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) När inträffar den första maximipunkten för \\(t\\ge0\\)?</p>",
+    "s": "<p><strong>Metod:</strong> Läs av medellinje, amplitud, period och fas direkt ur modellen.</p><p>a) Största värdet är \\(3,2+1,1=\\boxed{4,3}\\) m.</p><p>b) Koefficienten framför \\(t-2\\) är \\(\\pi/6\\), så</p><p>\\[T=\\frac{2\\pi}{\\pi/6}=\\boxed{12\\text{ h}}.\\]</p><p>c) Cosinus är maximal när argumentet är 0. Första gången är därför \\(t-2=0\\), alltså \\(\\boxed{t=2\\text{ h}}\\).</p>",
+    "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
+      "modellering",
       "procedur",
-      "resonemang"
+      "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.3,
+      12,
+      2
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>"
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>För \\(a+b\\cos(c(t-d))\\) är största värdet \\(a+|b|\\), perioden \\(2\\pi/|c|\\) och en maxpunkt fås när cosinusargumentet är 0.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ]
   },
   {
     "id": "1.333",
@@ -13493,8 +14656,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "2/0/0",
+    "niva": "C",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För \\(f(x)=1,8\\sin(1,3x+0,4)+0,7\\), bestäm de två minsta positiva värdena på \\(x\\) som uppfyller \\(f(x)=2\\).</p><p>Svara med tre decimaler.</p>",
@@ -13504,12 +14667,23 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.313,
+      1.488
+    ],
+    "tolerans": [
+      0.0005,
+      0.0005
+    ],
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.131",
@@ -13641,7 +14815,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För varje funktion, ange amplitud, period och medellinje.</p><p>a) \\(y=4\\sin x+2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=3\\cos(2x)-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=-5\\sin(\\tfrac{x}{2})\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=2\\cos(3x)+4\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Markera motstående, närliggande och hypotenusa eller använd enhetscirkeln. Kontrollera alltid vilket vinkelintervall som gäller innan du väljer lösningar.</p><div class=\"facit-arbete\"><p>a) amplitud <strong>4</strong>, period <strong>\\(2\\pi\\)</strong>, medellinje <strong>\\(y=2\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) amplitud <strong>3</strong>, period <strong>\\(\\pi\\)</strong>, medellinje <strong>\\(y=-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) amplitud <strong>5</strong>, period <strong>\\(4\\pi\\)</strong>, medellinje <strong>\\(y=0\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) amplitud <strong>2</strong>, period <strong>\\(\\frac{2\\pi}{3}\\)</strong>, medellinje <strong>\\(y=4\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in vinkeln i ursprungssambandet och kontrollera att alla lösningar i det angivna intervallet finns med.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> I \\(A\\sin(bx+c)+d\\) eller \\(A\\cos(bx+c)+d\\) är amplituden \\(|A|\\), medellinjen \\(y=d\\) och perioden \\(2\\pi/|b|\\).</p><div class=\"facit-arbete\"><p>a) amplitud <strong>4</strong>, period <strong>\\(2\\pi\\)</strong>, medellinje <strong>\\(y=2\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) amplitud <strong>3</strong>, period <strong>\\(\\pi\\)</strong>, medellinje <strong>\\(y=-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) amplitud <strong>5</strong>, period <strong>\\(4\\pi\\)</strong>, medellinje <strong>\\(y=0\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) amplitud <strong>2</strong>, period <strong>\\(\\frac{2\\pi}{3}\\)</strong>, medellinje <strong>\\(y=4\\)</strong>.</p></div></div>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -13649,23 +14823,29 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null,
-      null
+      [
+        4,
+        "2*pi",
+        2
+      ],
+      [
+        3,
+        "pi",
+        -1
+      ],
+      [
+        5,
+        "4*pi",
+        0
+      ],
+      [
+        2,
+        "2*pi/3",
+        4
+      ]
     ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false,
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -13701,10 +14881,26 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null,
-      null
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "uttryck",
+        "numeriskt"
+      ]
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -13734,23 +14930,13 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null,
-      null
+      3,
+      "pi",
+      4,
+      -2
     ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false,
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -13786,17 +14972,17 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null,
-      null
+      "numeriskt",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
+      "amplitud",
+      "period",
+      "största värde",
+      "minsta värde"
     ]
   },
   {
@@ -13836,19 +15022,34 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Grafen visar en cosinusfunktion på intervallet \\(0\\le x\\le2\\pi\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"290\" viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"funktionsgraf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"55.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"160.0\" y1=\"25\" x2=\"160.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"160.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"265.0\" y1=\"25\" x2=\"265.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"265.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"370.0\" y1=\"25\" x2=\"370.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"370.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"475.0\" y1=\"25\" x2=\"475.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"475.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2π</text><line x1=\"55\" y1=\"225.7\" x2=\"475\" y2=\"225.7\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"228.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"181.1\" x2=\"475\" y2=\"181.1\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"184.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"136.5\" x2=\"475\" y2=\"136.5\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"139.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"91.9\" x2=\"475\" y2=\"91.9\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"94.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"47.3\" x2=\"475\" y2=\"47.3\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"50.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"181.1\" x2=\"480\" y2=\"181.1\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"55.0\" y1=\"20\" x2=\"55.0\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><polyline fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\" points=\"55.0,225.7 56.0,225.7 57.1,225.7 58.1,225.6 59.2,225.5 60.2,225.4 61.3,225.3 62.4,225.2 63.4,225.0 64.5,224.8 65.5,224.6 66.5,224.4 67.6,224.1 68.7,223.8 69.7,223.6 70.8,223.2 71.8,222.9 72.8,222.5 73.9,222.2 74.9,221.8 76.0,221.3 77.0,220.9 78.1,220.4 79.1,219.9 80.2,219.4 81.2,218.9 82.3,218.4 83.3,217.8 84.4,217.2 85.5,216.6 86.5,216.0 87.5,215.3 88.6,214.7 89.7,214.0 90.7,213.3 91.8,212.6 92.8,211.8 93.8,211.1 94.9,210.3 95.9,209.5 97.0,208.7 98.0,207.8 99.1,207.0 100.1,206.1 101.2,205.2 102.2,204.3 103.3,203.4 104.3,202.5 105.4,201.5 106.4,200.6 107.5,199.6 108.5,198.6 109.6,197.6 110.7,196.5 111.7,195.5 112.8,194.4 113.8,193.4 114.8,192.3 115.9,191.2 116.9,190.1 118.0,188.9 119.0,187.8 120.1,186.6 121.2,185.5 122.2,184.3 123.2,183.1 124.3,181.9 125.3,180.7 126.4,179.5 127.5,178.2 128.5,177.0 129.6,175.7 130.6,174.5 131.6,173.2 132.7,171.9 133.8,170.6 134.8,169.3 135.8,168.0 136.9,166.7 137.9,165.4 139.0,164.1 140.0,162.7 141.1,161.4 142.2,160.0 143.2,158.7 144.2,157.3 145.3,156.0 146.3,154.6 147.4,153.2 148.4,151.8 149.5,150.5 150.5,149.1 151.6,147.7 152.6,146.3 153.7,144.9 154.8,143.5 155.8,142.1 156.8,140.7 157.9,139.3 158.9,137.9 160.0,136.5 161.0,135.1 162.1,133.7 163.1,132.3 164.2,130.9 165.2,129.5 166.3,128.1 167.3,126.7 168.4,125.3 169.4,123.9 170.5,122.5 171.6,121.2 172.6,119.8 173.6,118.4 174.7,117.0 175.8,115.7 176.8,114.3 177.8,113.0 178.9,111.6 179.9,110.3 181.0,108.9 182.1,107.6 183.1,106.3 184.1,105.0 185.2,103.7 186.2,102.4 187.3,101.1 188.3,99.8 189.4,98.5 190.4,97.3 191.5,96.0 192.5,94.8 193.6,93.5 194.7,92.3 195.7,91.1 196.8,89.9 197.8,88.7 198.8,87.5 199.9,86.4 200.9,85.2 202.0,84.1 203.0,82.9 204.1,81.8 205.2,80.7 206.2,79.6 207.2,78.6 208.3,77.5 209.3,76.5 210.4,75.4 211.4,74.4 212.5,73.4 213.5,72.4 214.6,71.5 215.7,70.5 216.7,69.6 217.8,68.7 218.8,67.8 219.8,66.9 220.9,66.0 221.9,65.2 223.0,64.3 224.0,63.5 225.1,62.7 226.1,61.9 227.2,61.2 228.2,60.4 229.3,59.7 230.3,59.0 231.4,58.3 232.4,57.7 233.5,57.0 234.5,56.4 235.6,55.8 236.6,55.2 237.7,54.6 238.7,54.1 239.8,53.6 240.8,53.1 241.9,52.6 242.9,52.1 244.0,51.7 245.0,51.2 246.1,50.8 247.1,50.5 248.2,50.1 249.2,49.8 250.3,49.4 251.3,49.2 252.4,48.9 253.4,48.6 254.5,48.4 255.5,48.2 256.6,48.0 257.6,47.8 258.7,47.7 259.8,47.6 260.8,47.5 261.8,47.4 262.9,47.3 263.9,47.3 265.0,47.3 266.0,47.3 267.1,47.3 268.1,47.4 269.2,47.5 270.2,47.6 271.3,47.7 272.3,47.8 273.4,48.0 274.4,48.2 275.5,48.4 276.5,48.6 277.6,48.9 278.6,49.2 279.7,49.4 280.8,49.8 281.8,50.1 282.8,50.5 283.9,50.8 284.9,51.2 286.0,51.7 287.1,52.1 288.1,52.6 289.1,53.1 290.2,53.6 291.2,54.1 292.3,54.6 293.3,55.2 294.4,55.8 295.4,56.4 296.5,57.0 297.6,57.7 298.6,58.3 299.6,59.0 300.7,59.7 301.8,60.4 302.8,61.2 303.8,61.9 304.9,62.7 305.9,63.5 307.0,64.3 308.1,65.2 309.1,66.0 310.1,66.9 311.2,67.8 312.2,68.7 313.3,69.6 314.3,70.5 315.4,71.5 316.4,72.4 317.5,73.4 318.6,74.4 319.6,75.4 320.6,76.5 321.7,77.5 322.8,78.6 323.8,79.6 324.9,80.7 325.9,81.8 326.9,82.9 328.0,84.1 329.0,85.2 330.1,86.4 331.2,87.5 332.2,88.7 333.2,89.9 334.3,91.1 335.4,92.3 336.4,93.5 337.4,94.8 338.5,96.0 339.5,97.3 340.6,98.5 341.7,99.8 342.7,101.1 343.8,102.4 344.8,103.7 345.9,105.0 346.9,106.3 347.9,107.6 349.0,108.9 350.0,110.3 351.1,111.6 352.2,113.0 353.2,114.3 354.2,115.7 355.3,117.0 356.4,118.4 357.4,119.8 358.4,121.2 359.5,122.5 360.5,123.9 361.6,125.3 362.6,126.7 363.7,128.1 364.8,129.5 365.8,130.9 366.9,132.3 367.9,133.7 368.9,135.1 370.0,136.5 371.0,137.9 372.1,139.3 373.1,140.7 374.2,142.1 375.2,143.5 376.3,144.9 377.3,146.3 378.4,147.7 379.4,149.1 380.5,150.5 381.5,151.8 382.6,153.2 383.6,154.6 384.7,156.0 385.8,157.3 386.8,158.7 387.8,160.0 388.9,161.4 389.9,162.7 391.0,164.1 392.0,165.4 393.1,166.7 394.1,168.0 395.2,169.3 396.2,170.6 397.3,171.9 398.3,173.2 399.4,174.5 400.4,175.7 401.5,177.0 402.5,178.2 403.6,179.5 404.6,180.7 405.7,181.9 406.7,183.1 407.8,184.3 408.8,185.5 409.9,186.6 410.9,187.8 412.0,188.9 413.0,190.1 414.1,191.2 415.2,192.3 416.2,193.4 417.2,194.4 418.3,195.5 419.3,196.5 420.4,197.6 421.4,198.6 422.5,199.6 423.5,200.6 424.6,201.5 425.6,202.5 426.7,203.4 427.7,204.3 428.8,205.2 429.8,206.1 430.9,207.0 431.9,207.8 433.0,208.7 434.0,209.5 435.1,210.3 436.2,211.1 437.2,211.8 438.2,212.6 439.3,213.3 440.3,214.0 441.4,214.7 442.4,215.3 443.5,216.0 444.5,216.6 445.6,217.2 446.6,217.8 447.7,218.4 448.7,218.9 449.8,219.4 450.8,219.9 451.9,220.4 452.9,220.9 454.0,221.3 455.0,221.8 456.1,222.2 457.1,222.5 458.2,222.9 459.2,223.2 460.3,223.6 461.3,223.8 462.4,224.1 463.4,224.4 464.5,224.6 465.5,224.8 466.6,225.0 467.6,225.2 468.7,225.3 469.7,225.4 470.8,225.5 471.8,225.6 472.9,225.7 473.9,225.7 475.0,225.7\"/><text x=\"467\" y=\"43\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">y = f(x)</text></svg></span><p>Bestäm en ekvation för funktionen på formen \\(f(x)=A\\cos(kx)+B\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Grafens största värde är 3 och minsta värde −1. Därför är</p><p>\\[|A|=\\frac{3-(-1)}2=2,\\qquad B=\\frac{3+(-1)}2=1.\\]</p><p>Perioden är \\(2\\pi\\), alltså \\(k=1\\). Vid \\(x=0\\) antar funktionen sitt minimum, så \\(A=-2\\).</p><p><strong>\\(\\boxed{f(x)=-2\\cos x+1}\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "t": "<p>Grafen visar en cosinusfunktion på intervallet \\(0\\le x\\le2\\pi\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"290\" viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"funktionsgraf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"55.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"160.0\" y1=\"25\" x2=\"160.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"160.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"265.0\" y1=\"25\" x2=\"265.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"265.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"370.0\" y1=\"25\" x2=\"370.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"370.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"475.0\" y1=\"25\" x2=\"475.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"475.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2π</text><line x1=\"55\" y1=\"225.7\" x2=\"475\" y2=\"225.7\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"228.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"181.1\" x2=\"475\" y2=\"181.1\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"184.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"136.5\" x2=\"475\" y2=\"136.5\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"139.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"91.9\" x2=\"475\" y2=\"91.9\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"94.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"47.3\" x2=\"475\" y2=\"47.3\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"50.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"181.1\" x2=\"480\" y2=\"181.1\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"55.0\" y1=\"20\" x2=\"55.0\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><polyline fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\" points=\"55.0,225.7 56.0,225.7 57.1,225.7 58.1,225.6 59.2,225.5 60.2,225.4 61.3,225.3 62.4,225.2 63.4,225.0 64.5,224.8 65.5,224.6 66.5,224.4 67.6,224.1 68.7,223.8 69.7,223.6 70.8,223.2 71.8,222.9 72.8,222.5 73.9,222.2 74.9,221.8 76.0,221.3 77.0,220.9 78.1,220.4 79.1,219.9 80.2,219.4 81.2,218.9 82.3,218.4 83.3,217.8 84.4,217.2 85.5,216.6 86.5,216.0 87.5,215.3 88.6,214.7 89.7,214.0 90.7,213.3 91.8,212.6 92.8,211.8 93.8,211.1 94.9,210.3 95.9,209.5 97.0,208.7 98.0,207.8 99.1,207.0 100.1,206.1 101.2,205.2 102.2,204.3 103.3,203.4 104.3,202.5 105.4,201.5 106.4,200.6 107.5,199.6 108.5,198.6 109.6,197.6 110.7,196.5 111.7,195.5 112.8,194.4 113.8,193.4 114.8,192.3 115.9,191.2 116.9,190.1 118.0,188.9 119.0,187.8 120.1,186.6 121.2,185.5 122.2,184.3 123.2,183.1 124.3,181.9 125.3,180.7 126.4,179.5 127.5,178.2 128.5,177.0 129.6,175.7 130.6,174.5 131.6,173.2 132.7,171.9 133.8,170.6 134.8,169.3 135.8,168.0 136.9,166.7 137.9,165.4 139.0,164.1 140.0,162.7 141.1,161.4 142.2,160.0 143.2,158.7 144.2,157.3 145.3,156.0 146.3,154.6 147.4,153.2 148.4,151.8 149.5,150.5 150.5,149.1 151.6,147.7 152.6,146.3 153.7,144.9 154.8,143.5 155.8,142.1 156.8,140.7 157.9,139.3 158.9,137.9 160.0,136.5 161.0,135.1 162.1,133.7 163.1,132.3 164.2,130.9 165.2,129.5 166.3,128.1 167.3,126.7 168.4,125.3 169.4,123.9 170.5,122.5 171.6,121.2 172.6,119.8 173.6,118.4 174.7,117.0 175.8,115.7 176.8,114.3 177.8,113.0 178.9,111.6 179.9,110.3 181.0,108.9 182.1,107.6 183.1,106.3 184.1,105.0 185.2,103.7 186.2,102.4 187.3,101.1 188.3,99.8 189.4,98.5 190.4,97.3 191.5,96.0 192.5,94.8 193.6,93.5 194.7,92.3 195.7,91.1 196.8,89.9 197.8,88.7 198.8,87.5 199.9,86.4 200.9,85.2 202.0,84.1 203.0,82.9 204.1,81.8 205.2,80.7 206.2,79.6 207.2,78.6 208.3,77.5 209.3,76.5 210.4,75.4 211.4,74.4 212.5,73.4 213.5,72.4 214.6,71.5 215.7,70.5 216.7,69.6 217.8,68.7 218.8,67.8 219.8,66.9 220.9,66.0 221.9,65.2 223.0,64.3 224.0,63.5 225.1,62.7 226.1,61.9 227.2,61.2 228.2,60.4 229.3,59.7 230.3,59.0 231.4,58.3 232.4,57.7 233.5,57.0 234.5,56.4 235.6,55.8 236.6,55.2 237.7,54.6 238.7,54.1 239.8,53.6 240.8,53.1 241.9,52.6 242.9,52.1 244.0,51.7 245.0,51.2 246.1,50.8 247.1,50.5 248.2,50.1 249.2,49.8 250.3,49.4 251.3,49.2 252.4,48.9 253.4,48.6 254.5,48.4 255.5,48.2 256.6,48.0 257.6,47.8 258.7,47.7 259.8,47.6 260.8,47.5 261.8,47.4 262.9,47.3 263.9,47.3 265.0,47.3 266.0,47.3 267.1,47.3 268.1,47.4 269.2,47.5 270.2,47.6 271.3,47.7 272.3,47.8 273.4,48.0 274.4,48.2 275.5,48.4 276.5,48.6 277.6,48.9 278.6,49.2 279.7,49.4 280.8,49.8 281.8,50.1 282.8,50.5 283.9,50.8 284.9,51.2 286.0,51.7 287.1,52.1 288.1,52.6 289.1,53.1 290.2,53.6 291.2,54.1 292.3,54.6 293.3,55.2 294.4,55.8 295.4,56.4 296.5,57.0 297.6,57.7 298.6,58.3 299.6,59.0 300.7,59.7 301.8,60.4 302.8,61.2 303.8,61.9 304.9,62.7 305.9,63.5 307.0,64.3 308.1,65.2 309.1,66.0 310.1,66.9 311.2,67.8 312.2,68.7 313.3,69.6 314.3,70.5 315.4,71.5 316.4,72.4 317.5,73.4 318.6,74.4 319.6,75.4 320.6,76.5 321.7,77.5 322.8,78.6 323.8,79.6 324.9,80.7 325.9,81.8 326.9,82.9 328.0,84.1 329.0,85.2 330.1,86.4 331.2,87.5 332.2,88.7 333.2,89.9 334.3,91.1 335.4,92.3 336.4,93.5 337.4,94.8 338.5,96.0 339.5,97.3 340.6,98.5 341.7,99.8 342.7,101.1 343.8,102.4 344.8,103.7 345.9,105.0 346.9,106.3 347.9,107.6 349.0,108.9 350.0,110.3 351.1,111.6 352.2,113.0 353.2,114.3 354.2,115.7 355.3,117.0 356.4,118.4 357.4,119.8 358.4,121.2 359.5,122.5 360.5,123.9 361.6,125.3 362.6,126.7 363.7,128.1 364.8,129.5 365.8,130.9 366.9,132.3 367.9,133.7 368.9,135.1 370.0,136.5 371.0,137.9 372.1,139.3 373.1,140.7 374.2,142.1 375.2,143.5 376.3,144.9 377.3,146.3 378.4,147.7 379.4,149.1 380.5,150.5 381.5,151.8 382.6,153.2 383.6,154.6 384.7,156.0 385.8,157.3 386.8,158.7 387.8,160.0 388.9,161.4 389.9,162.7 391.0,164.1 392.0,165.4 393.1,166.7 394.1,168.0 395.2,169.3 396.2,170.6 397.3,171.9 398.3,173.2 399.4,174.5 400.4,175.7 401.5,177.0 402.5,178.2 403.6,179.5 404.6,180.7 405.7,181.9 406.7,183.1 407.8,184.3 408.8,185.5 409.9,186.6 410.9,187.8 412.0,188.9 413.0,190.1 414.1,191.2 415.2,192.3 416.2,193.4 417.2,194.4 418.3,195.5 419.3,196.5 420.4,197.6 421.4,198.6 422.5,199.6 423.5,200.6 424.6,201.5 425.6,202.5 426.7,203.4 427.7,204.3 428.8,205.2 429.8,206.1 430.9,207.0 431.9,207.8 433.0,208.7 434.0,209.5 435.1,210.3 436.2,211.1 437.2,211.8 438.2,212.6 439.3,213.3 440.3,214.0 441.4,214.7 442.4,215.3 443.5,216.0 444.5,216.6 445.6,217.2 446.6,217.8 447.7,218.4 448.7,218.9 449.8,219.4 450.8,219.9 451.9,220.4 452.9,220.9 454.0,221.3 455.0,221.8 456.1,222.2 457.1,222.5 458.2,222.9 459.2,223.2 460.3,223.6 461.3,223.8 462.4,224.1 463.4,224.4 464.5,224.6 465.5,224.8 466.6,225.0 467.6,225.2 468.7,225.3 469.7,225.4 470.8,225.5 471.8,225.6 472.9,225.7 473.9,225.7 475.0,225.7\"/><text x=\"467\" y=\"43\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">y = f(x)</text></svg></span><p>Bestäm konstanterna \\(A\\), \\(k\\) och \\(B\\) i \\(f(x)=A\\cos(kx)+B\\), där \\(k&gt;0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Grafens största värde är 3 och minsta värde −1. Därför är</p><p>\\[|A|=\\frac{3-(-1)}2=2,\\qquad B=\\frac{3+(-1)}2=1.\\]</p><p>Perioden är \\(2\\pi\\), alltså \\(k=1\\). Vid \\(x=0\\) antar funktionen sitt minimum, så \\(A=-2\\).</p><p><strong>\\(\\boxed{f(x)=-2\\cos x+1}\\)</strong>.</p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      1,
+      1
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "B"
+    ]
   },
   {
     "id": "1.148",
@@ -13858,22 +15059,23 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv uttrycket</p>\n<p>\\[\n3\\sin x+4\\cos x\n\\]</p>\n<p>på formen</p>\n<p>\\[\nR\\sin(x+v),\n\\]</p>\n<p>där \\(R&gt;0\\). Bestäm därefter uttryckets största möjliga värde.</p>",
-    "s": "<p>Utveckla</p>\n<p>\\[\nR\\sin(x+v)=R\\sin x\\cos v+R\\cos x\\sin v.\n\\]</p>\n<p>Jämför koefficienter:</p>\n<p>\\[\nR\\cos v=3,\\qquad R\\sin v=4.\n\\]</p>\n<p>Kvadrera och addera:</p>\n<p>\\[\nR^2(\\cos^2v+\\sin^2v)=3^2+4^2=25.\n\\]</p>\n<p>Alltså \\(R=5\\).</p>\n<p>Vidare</p>\n<p>\\[\n\\cos v=\\frac35,\\qquad \\sin v=\\frac45,\n\\]</p>\n<p>så exempelvis \\(v=\\arctan(4/3)\\).</p>\n<p><strong>\\[\n3\\sin x+4\\cos x=5\\sin\\left(x+\\arctan\\frac43\\right).\n\\]</strong></p>\n<p>Eftersom sinus högst kan bli 1 är uttryckets största värde <strong>5</strong>.</p>",
+    "t": "<p>Funktionen \\(f(x)=a\\sin x+12\\cos x\\) har amplituden 13 och \\(a&gt;0\\).</p><p>Bestäm \\(a\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Amplituden hos \\(a\\sin x+b\\cos x\\) är \\(\\sqrt{a^2+b^2}\\).</p><p>\\[\\sqrt{a^2+12^2}=13\\Rightarrow a^2=25.\\]</p><p>Eftersom \\(a&gt;0\\) fås \\(\\boxed{a=5}\\).</p>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "begrepp",
+      "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>"
+    "ledtrad": "<p>Använd att amplituden hos \\(a\\sin x+b\\cos x\\) är \\(\\sqrt{a^2+b^2}\\).</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.149",
@@ -13883,22 +15085,23 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Skriv uttrycket</p><p>\\[3\\sin x-4\\cos x\\]</p><p>på formen \\(R\\sin(x-v)\\), där \\(R&gt;0\\)<br>för \\(0&lt;v&lt;\\pi/2\\). Bestäm därefter uttryckets största och minsta värde.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Jämför koefficienterna i \\(a\\sin x+b\\cos x=R\\sin(x+v)\\). Då gäller \\(R\\cos v=a\\) och \\(R\\sin v=b\\), vilket bestämmer både amplitud och fas.</p><div class=\"facit-arbete\"><p>Jämför</p><p>\\[R\\sin(x-v)=R\\cos v\\sin x-R\\sin v\\cos x.\\]</p><p>Då krävs \\(R\\cos v=3\\) och \\(R\\sin v=4\\). Alltså \\(R=5\\) och \\(\\tan v=4/3\\).</p><p><strong>\\(3\\sin x-4\\cos x=5\\sin(x-\\arctan(4/3))\\)</strong>.</p><p>Största värde: <strong>5</strong>. Minsta värde: <strong>−5</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Utveckla den erhållna formen tillbaka och kontrollera att båda ursprungliga koefficienterna återkommer.</p></div>",
+    "t": "<p>Vilken omskrivning är korrekt?</p><p>\\[3\\sin x-4\\cos x\\]</p><p>A. \\(5\\sin(x-\\arctan(4/3))\\)<br>B. \\(5\\sin(x+\\arctan(4/3))\\)<br>C. \\(7\\sin(x-\\arctan(4/3))\\)<br>D. \\(5\\cos(x-\\arctan(4/3))\\)</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med \\(R\\sin(x-v)=R\\cos v\\sin x-R\\sin v\\cos x\\).</p><p>Här behövs \\(R\\cos v=3\\) och \\(R\\sin v=4\\). Då \\(R=5\\) och \\(\\tan v=4/3\\).</p><p><strong>Svar: A.</strong></p>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "begrepp",
+      "procedur"
     ],
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__skriva_om_kombinationer_av_sinus_och_cosinus",
-    "ledtrad": "<p>Utveckla \\(R\\sin(x+v)\\) med additionsformeln och jämför koefficienten framför sinus respektive cosinus.</p>"
+    "ledtrad": "<p>Utveckla \\(R\\sin(x-v)\\) och jämför tecknet framför cosinustermen.</p>",
+    "svarFormat": "val"
   },
   {
     "id": "1.150",
@@ -13994,7 +15197,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen</p>\n<p>\\[\nf(x)=3\\cos\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)+2\n\\]</p>\n<p>är given.</p>\n<p>a) Bestäm amplitud, medellinje och period.<br>\nb) Bestäm den minsta positiva \\(x\\)-koordinaten för en maximipunkt.<br>\nc) Bestäm funktionens värdemängd.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>a) Amplituden är \\(3\\), medellinjen är \\(y=2\\) och</p>\n<p>\\[\nT=\\frac{2\\pi}{1/2}=4\\pi.\n\\]</p>\n<p>b) En maximipunkt fås när vinkeln i cosinusuttrycket är \\(2\\pi n\\), där \\(n\\) är ett heltal. Minsta positiva lösningen:</p>\n<p>\\[\n\\frac{x}{2}-\\frac{\\pi}{3}=0\n\\Rightarrow x=\\frac{2\\pi}{3}.\n\\]</p>\n<p>c) \\(2-3\\le f(x)\\le2+3\\), alltså</p>\n<p><strong>\\(-1\\le f(x)\\le5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>a) Amplituden är \\(3\\), medellinjen är \\(y=2\\) och</p>\n<p>\\[\nT=\\frac{2\\pi}{1/2}=4\\pi.\n\\]</p>\n<p>b) En maximipunkt fås när vinkeln i cosinusuttrycket är \\(2\\pi n\\), där \\(n\\) är ett heltal. Minsta positiva lösningen:</p>\n<p>\\[\n\\frac{x}{2}-\\frac{\\pi}{3}=0\n\\Rightarrow x=\\frac{2\\pi}{3}.\n\\]</p>\n<p>c) \\(2-3\\le f(x)\\le2+3\\), alltså</p>\n<p><strong>\\(-1\\le f(x)\\le5\\).</strong></p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -14002,20 +15205,16 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      null
+      [
+        3,
+        2,
+        "4*pi"
+      ],
+      "2*pi/3",
+      "[-1,5]"
     ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      false,
-      false
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
@@ -14044,13 +15243,17 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      null,
-      null,
-      null
+      [
+        "numeriskt",
+        "numeriskt",
+        "uttryck"
+      ],
+      "uttryck",
+      "intervall"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a",
+      "a: amplitud, medellinje, period",
       "b",
       "c"
     ]
@@ -14068,7 +15271,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm fasförskjutningen för \\(y=\\cos(2x+\\pi/2)\\). Ange höger som positivt och vänster som negativt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Faktorisera innan du förkortar och samla bara termer av samma slag. I rationella uttryck ska förbjudna värden bestämmas från ursprungsuttrycket.</p><div class=\"facit-arbete\"><p>Faktorisera 2: \\(2x+\\pi/2=2(x+\\pi/4)=2(x-(-\\pi/4))\\). Alltså är grafen förskjuten \\(\\pi/4\\) åt vänster, dvs förskjutningen \\(-\\pi/4\\).</p><p><strong>Läs av i standardform:</strong> En cosinusfunktion skrivs gärna \\(\\cos(b(x-c))\\), där \\(c\\) är förskjutningen åt höger. Här är \\(c=-\\pi/4\\), och ett negativt \\(c\\) betyder därför förskjutning åt vänster.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>Faktorisera 2: \\(2x+\\pi/2=2(x+\\pi/4)=2(x-(-\\pi/4))\\). Alltså är grafen förskjuten \\(\\pi/4\\) åt vänster, dvs förskjutningen \\(-\\pi/4\\).</p><p><strong>Läs av i standardform:</strong> En cosinusfunktion skrivs gärna \\(\\cos(b(x-c))\\), där \\(c\\) är förskjutningen åt höger. Här är \\(c=-\\pi/4\\), och ett negativt \\(c\\) betyder därför förskjutning åt vänster.</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -14091,22 +15294,23 @@ window.BANKMATO2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En funktion har formen \\(f(x)=3\\cos(2x+c)-1\\). Grafen har en maximipunkt vid \\(x=\\pi/8\\).</p><p>Bestäm ett möjligt värde på \\(c\\) i intervallet \\(-\\pi&lt;c\\le\\pi\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p>Cosinus är maximal när vinkeln i cosinusuttrycket är \\(2n\\pi\\). Vid \\(x=\\pi/8\\) krävs därför</p><p>\\[2\\cdot\\frac{\\pi}{8}+c=2n\\pi.\\]</p><p>Alltså \\(c=-\\pi/4+2n\\pi\\). I det givna intervallet kan vi välja \\(\\boxed{c=-\\pi/4}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv argumentet på formen \\(b(x-c)\\). Då är \\(c\\) den horisontella förskjutningen; positivt \\(c\\) betyder åt höger.</p><div class=\"facit-arbete\"><p>Cosinus är maximal när vinkeln i cosinusuttrycket är \\(2n\\pi\\). Vid \\(x=\\pi/8\\) krävs därför</p><p>\\[2\\cdot\\frac{\\pi}{8}+c=2n\\pi.\\]</p><p>Alltså \\(c=-\\pi/4+2n\\pi\\). I det givna intervallet kan vi välja \\(\\boxed{c=-\\pi/4}\\).</p></div></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "svarstyp": "uttryck",
+    "rättSvar": "-pi/4",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.520",
@@ -14115,8 +15319,8 @@ window.BANKMATO2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En sinusfunktion har amplitud 5, medellinje 2, period \\(4\\pi\\) och passerar medellinjen uppåt vid \\(x=\\pi\\). Bestäm en möjlig formel.</p>",
@@ -21031,7 +22235,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "3\\sin^2x\\cos x",
+      "3\\sin(x)^2\\cos x",
       "e^{3x}(1+3x)",
       "\\frac{2x}{x^2+4}"
     ],
@@ -24243,8 +25447,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Funktionen är \\(f(x)=sin(x)*x^2\\).</p><p>Bestäm \\(f'(1.571)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd produktregeln. \\(f'(x)=cos(x)x^2+2x sin(x)\\).</p><p>Insättning ger \\(3.14159\\).</p>",
+    "t": "<p>Funktionen är \\(f(x)=\\sin x\\cdot x^2\\).</p><p>Bestäm \\(f'(1.571)\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Använd produktregeln. \\(f'(x)=\\cos x\\cdot x^2+2x\\sin x\\).</p><p>Insättning ger \\(3.14159\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur"
@@ -25461,7 +26665,7 @@ window.BANKMATO2 = [
     "rättSvar": [
       "4e^x(1+e^x)^3",
       "e^{\\sin x}\\cos x",
-      "3\\sin^2x\\cos x",
+      "3\\sin(x)^2\\cos x",
       "\\frac{5(\\ln x)^4}{x}"
     ],
     "tolerans": [
@@ -27953,7 +29157,7 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "4\\cos x+3\\sin x",
-      "1/\\cos^2x",
+      "1/\\cos(x)^2",
       "-10\\sin2x",
       "6\\cos3x+4\\sin4x"
     ],
@@ -28038,7 +29242,7 @@ window.BANKMATO2 = [
     "rättSvar": [
       "3\\cos3x",
       "-20\\sin5x",
-      "2/\\cos^2(2x)",
+      "2/\\cos(2x)^2",
       "2\\cos x+3\\sin x"
     ],
     "tolerans": [
@@ -28147,7 +29351,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "1/\\cos^2x",
+      "1/\\cos(x)^2",
       "-4\\sin4x",
       "\\frac12\\cos(x/2)",
       "2\\cos x+5\\sin x"
@@ -28740,7 +29944,7 @@ window.BANKMATO2 = [
     "rättSvar": [
       "5\\cos5x",
       "-4\\sin4x",
-      "\\frac{3}{\\cos^2(3x)}",
+      "\\frac{3}{\\cos(3x)^2}",
       "-2\\pi\\sin(\\pi x)"
     ],
     "tolerans": [
@@ -30207,8 +31411,8 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "1/\\cos^2x",
-      "4/\\cos^2(4x)",
+      "1/\\cos(x)^2",
+      "4/\\cos(4x)^2",
       "6\\cos2x+5\\sin x",
       "-3\\sin(3x+1)"
     ],
@@ -30346,7 +31550,7 @@ window.BANKMATO2 = [
     "rättSvar": [
       "4\\cos x",
       "-7\\sin x",
-      "\\frac{3}{\\cos^2x}",
+      "\\frac{3}{\\cos(x)^2}",
       "2\\cos x+5\\sin x"
     ],
     "tolerans": [
@@ -31346,7 +32550,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Funktionen är \\(f(x)=sin(3x)\\).</p><p>Bestäm \\(f'(0.00000)\\).</p>",
+    "t": "<p>Funktionen är \\(f(x)=\\sin(3x)\\).</p><p>Bestäm \\(f'(0.00000)\\).</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(3.00000\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
@@ -31424,7 +32628,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Funktionen är \\(f(x)=cos(x^2)\\).</p><p>Bestäm \\(f'(1.25331)\\).</p>",
+    "t": "<p>Funktionen är \\(f(x)=\\cos(x^2)\\).</p><p>Bestäm \\(f'(1.25331)\\).</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Metod:</strong> Derivera den yttre funktionen och multiplicera med den inre derivatan.</p><p><strong>Svar:</strong> \\(-2.50663\\).</p>",
     "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
@@ -33943,7 +35147,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En storhet beskrivs av \\(A(r)=pi*r^2\\).</p><p>Bestäm tangentens lutning när variabeln är 3.</p>",
+    "t": "<p>En storhet beskrivs av \\(A(r)=\\pi r^2\\).</p><p>Bestäm tangentens lutning när variabeln är 3.</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> Derivatan beskriver lokal förändring. I en tillämpning måste därför den fysikaliska eller geometriska storheten först skrivas som en funktion innan ett nollställe eller en förändringshastighet tolkas.</p><p><strong>Metod:</strong> Tangentens lutning ges av derivatan i den aktuella punkten.</p><p><strong>Svar:</strong> \\(18.849556\\).</p>",
     "familj": "Tangentproblem i tillämpningar",
     "formaga": [
@@ -42825,11 +44029,11 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "area_integraler__area_mellan_kurvor_med_integral",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.16666666666666666,
-    "tolerans": 0.001,
+    "rättSvar": "1/6",
+    "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.240",
@@ -43103,11 +44307,11 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "area_integraler__area_mellan_kurvor_med_integral",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.3333333333333333,
-    "tolerans": 0.001,
+    "rättSvar": "4/3",
+    "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.71",
@@ -43357,11 +44561,11 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "area_integraler__area_mellan_kurvor_med_integral",
     "svarstyp": "numeriskt",
-    "rättSvar": 10.666666666666666,
-    "tolerans": 0.001,
+    "rättSvar": "32/3",
+    "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck"
   },
   {
     "id": "3.92",
@@ -43433,7 +44637,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "A=\\int_0^4f(x)dx",
+      null,
       11.5,
       null
     ],
@@ -43443,7 +44647,7 @@ window.BANKMATO2 = [
       null
     ],
     "självrättning": [
-      true,
+      false,
       true,
       false
     ],
@@ -43454,7 +44658,7 @@ window.BANKMATO2 = [
       "c"
     ],
     "svarFormat": [
-      "uttryck",
+      null,
       "numeriskt",
       null
     ],
@@ -47222,7 +48426,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Täthetsfunktionen är \\(f(x)=2x\\) för 0≤x≤1. Bestäm \\(P(X<0,5)\\).</p>",
+    "t": "<p>Täthetsfunktionen är \\(f(x)=2x\\) för 0≤x≤1. Bestäm \\(P(X&lt;0,5)\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>P=\\int_0^{0,5}2x\\,dx=0,25</p><p><strong>Svar:</strong> \\(\\boxed{0,25}\\).</p>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
@@ -47687,7 +48891,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>För en symmetrisk täthetsfunktion kring 0 gäller \\(P(X<0)=?\\).</p>",
+    "t": "<p>För en symmetrisk täthetsfunktion kring 0 gäller \\(P(X&lt;0)=?\\).</p>",
     "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>Symmetrin delar arean i två lika delar.</p><p><strong>Svar:</strong> \\(\\boxed{0,5}\\).</p>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
@@ -49221,7 +50425,7 @@ window.BANKMATO2 = [
     "poang": "0/1/2",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>\\(f_a(x)=(a+1)x^a\\) på [0,1], a>-1. Bestäm a om \\(P(X<1/2)=1/4\\).</p>",
+    "t": "<p>\\(f_a(x)=(a+1)x^a\\) på [0,1], a>-1. Bestäm a om \\(P(X&lt;1/2)=1/4\\).</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> För en kontinuerlig slumpvariabel är sannolikhet en area under täthetskurvan. Hela arean ska vara 1, och sannolikheten för ett intervall fås genom att integrera just över det intervallet.</p><p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>P(X<1/2)=(1/2)^{a+1}=1/4=2^{-2}, alltså a+1=2</p><p><strong>Svar:</strong> \\(\\boxed{1}\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
@@ -49327,7 +50531,7 @@ window.BANKMATO2 = [
     "poang": "0/1/2",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En täthetsfunktion är symmetrisk kring 3 och \\(P(X<1)=0,10\\). Bestäm \\(P(X>5)\\) och motivera.</p>",
+    "t": "<p>En täthetsfunktion är symmetrisk kring 3 och \\(P(X&lt;1)=0,10\\). Bestäm \\(P(X>5)\\) och motivera.</p>",
     "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>Symmetri kring 3 speglar intervallet x<1 till x>5.</p><p><strong>Svar:</strong> \\(\\boxed{0,1}\\).</p>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
@@ -49382,7 +50586,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En täthetsfunktion ges av \\(f(x)=kx\\) på intervallet 0<=x<=2 och är 0 utanför.</p><p>Bestäm konstanten \\(k\\).</p>",
+    "t": "<p>En täthetsfunktion ges av \\(f(x)=kx\\) på intervallet 0&lt;=x&lt;=2 och är 0 utanför.</p><p>Bestäm konstanten \\(k\\).</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> För en kontinuerlig slumpvariabel är sannolikhet en area under täthetskurvan. Hela arean ska vara 1, och sannolikheten för ett intervall fås genom att integrera just över det intervallet.</p><p><strong>Metod:</strong> En täthetsfunktion ska ha total integral 1. Här ger \\(\\int_0^2 kx\\,dx=2k=1\\).</p><p><strong>Svar:</strong> \\(k=0.5\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
@@ -49435,7 +50639,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En täthetsfunktion ges av \\(f(x)=k(1-x)\\) på intervallet 0<=x<=1 och är 0 utanför.</p><p>Bestäm konstanten \\(k\\).</p>",
+    "t": "<p>En täthetsfunktion ges av \\(f(x)=k(1-x)\\) på intervallet 0&lt;=x&lt;=1 och är 0 utanför.</p><p>Bestäm konstanten \\(k\\).</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> För en kontinuerlig slumpvariabel är sannolikhet en area under täthetskurvan. Hela arean ska vara 1, och sannolikheten för ett intervall fås genom att integrera just över det intervallet.</p><p><strong>Metod:</strong> En täthetsfunktion ska ha total integral 1. Här ger \\(\\int_0^1 k(1-x)\\,dx=k/2=1\\).</p><p><strong>Svar:</strong> \\(k=2\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
@@ -49461,7 +50665,7 @@ window.BANKMATO2 = [
     "poang": "0/0/2",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En täthetsfunktion ges av \\(f(x)=kx(1-x)\\) på intervallet 0<=x<=1 och är 0 utanför.</p><p>Bestäm konstanten \\(k\\).</p>",
+    "t": "<p>En täthetsfunktion ges av \\(f(x)=kx(1-x)\\) på intervallet 0&lt;=x&lt;=1 och är 0 utanför.</p><p>Bestäm konstanten \\(k\\).</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> För en kontinuerlig slumpvariabel är sannolikhet en area under täthetskurvan. Hela arean ska vara 1, och sannolikheten för ett intervall fås genom att integrera just över det intervallet.</p><p><strong>Metod:</strong> En täthetsfunktion ska ha total integral 1. Här ger \\(\\int_0^1 kx(1-x)\\,dx=k/6=1\\).</p><p><strong>Svar:</strong> \\(k=6\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
@@ -53152,7 +54356,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "komplex_aritmetik__rakna_med_komplexa_tal",
     "svarstyp": "uttryck",
-    "rättSvar": 3.5355339059327373,
+    "rättSvar": "5/sqrt(2)",
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Skriv z=a+bi. Använd i²=-1 och håll isär realdel och imaginärdel genom hela beräkningen.</p>",
@@ -57202,11 +58406,11 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "komplexa_talplanet__geometri_och_ortslinjer_i_komplexa_talplanet",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.60555128,
-    "tolerans": 0.01,
+    "rättSvar": "sqrt(13)",
+    "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.29",
@@ -58471,7 +59675,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>I det komplexa talplanet motsvarar \\(z\\) punkten \\((-3,4)\\).</p><p>a) Skriv \\(z\\) på formen \\(a+bi\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(|z|\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Bestäm \\(\\overline z\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>a) Realdelen är \\(-3\\) och imaginärdelen är 4, alltså \\(\\boxed{z=-3+4i}\\).</p><p>b) <strong>Formel från formelbladet:</strong> \\(|z|=\\sqrt{a^2+b^2}\\).</p><p>Alltså \\(|z|=\\sqrt{(-3)^2+4^2}=\\boxed{5}\\).</p><p>c) Konjugatet fås genom att byta tecken på imaginärdelen: \\(\\boxed{\\overline z=-3-4i}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> Punkten \\((a,b)\\) motsvarar det komplexa talet \\(a+bi\\). Absolutbeloppet är avståndet till origo och konjugatet fås genom att byta tecken på imaginärdelen.</p><p>a) \\(z=\\boxed{-3+4i}\\).</p><p>b) \\[|z|=\\sqrt{(-3)^2+4^2}=\\boxed{5}.\\]</p><p>c) \\(\\overline z=\\boxed{-3-4i}\\).</p>",
     "familj": "Geometri och ortslinjer i komplexa talplanet",
     "formaga": [
       "procedur",
@@ -58479,9 +59683,9 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "z=-3+4i",
+      "-3+4i",
       5,
-      "\\overline z=-3-4i"
+      "-3-4i"
     ],
     "tolerans": [
       null,
@@ -63178,10 +64382,10 @@ window.BANKMATO2 = [
       "begrepp"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
-    "tolerans": 0,
+    "rättSvar": "1/2",
+    "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "uttryck",
     "familjNyckel": "polar_exponentiell__eulers_formel",
     "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>"
   },

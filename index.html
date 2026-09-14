@@ -5859,7 +5859,7 @@ function olikhetsDelar(x){
   const s=stadaSvar(x).replace(/≤/g,"<=").replace(/≥/g,">=");
 
   if(/\s(?:eller|och|samt)\s|;/i.test(s)) return null;
-  const arVar=t=>/^[a-zåäö]\w*$/i.test(t.trim());
+  const arVar=t=>/^[a-zåäö]\w*(?:\([a-zåäö]\w*\))?$/i.test(t.trim());
 
   const d=s.match(/^(.+?)(<=|<)(.+?)(<=|<)(.+)$/);
   if(d && arVar(d[3])){
@@ -6448,7 +6448,17 @@ function latexToPlain(s){
     x=x.replace(/\\dfrac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"(($1)/($2))");
     x=x.replace(/\\sqrt\s*\{([^{}]+)\}/g,"sqrt($1)");
   }
+
+  /* Vanliga kortformer som elever kan klistra in från LaTeX. */
+  x=x.replace(/\\(?:d?frac)\s*\{([^{}]+)\}\s*([+-]?\d)/g,"(($1)/($2))");
+  x=x.replace(/\\(?:d?frac)\s*([+-]?\d)\s*\{([^{}]+)\}/g,"(($1)/($2))");
+  x=x.replace(/\\(?:d?frac)\s*([+-]?\d)\s*([+-]?\d)/g,"(($1)/($2))");
+  x=x.replace(/\\sqrt\s*([0-9]+(?:\.[0-9]+)?|[a-z])/gi,"sqrt($1)");
+
   x=x.replace(/\\left|\\right/g,"");
+  /* LaTeX-funktionsnamn förekommer i bankens rättSvar. Gör dem till
+     samma plain-text-form som elever normalt skriver i svarsrutan. */
+  x=x.replace(/\\(arcsin|arccos|arctan|asin|acos|atan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp|abs)\b/g,"$1");
 
   for(let i=0;i<4;i++){
     x=x.replace(/\^\s*\{([^{}]*)\}/g,"^($1)");
@@ -6456,6 +6466,7 @@ function latexToPlain(s){
   }
   x=x.replace(/\\cdot|\\times/g,"*");
   x=x.replace(/\\pi/g,"pi");
+  x=x.replace(/\\(arcsin|arccos|arctan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp)\b/g," $1");
   x=x.replace(/\\,/g,"");
   x=x.replace(/\\text\s*\{([^{}]*)\}/g," $1 ");
 
@@ -6495,7 +6506,22 @@ function normalizeMathInput(s){
 
   x=x.replace(/(\d+(?:\.\d+)?)\s*%/g,"($1/100)");
 
+  /*
+   * I svensk notation betyder sin^2 x, cos^2 x och tan^2 x
+   * (sin x)^2, (cos x)^2 respektive (tan x)^2.
+   * Normalisera funktionspotensen innan vanlig funktionsnotation tolkas.
+   * Negativa exponenter tas inte här eftersom sin^-1 x kan avse arcsin.
+   */
+  const trigPow=/(?<![a-z_])(sin|cos|tan)\s*\^\s*([2-9]\d*)/g;
+  x=x.replace(new RegExp(trigPow.source+"\\s*\\(([^()]*)\\)","g"),
+    (_,f,p,arg)=>`${f}(${arg})^${p}`);
+  x=x.replace(new RegExp(trigPow.source+"\\s*((?:\\d+(?:\\.\\d+)?)?[a-z]|pi(?:\\/\\d+)?)\\b","g"),
+    (_,f,p,arg)=>`${f}(${arg})^${p}`);
+
   x=x.replace(/\b(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)\s+([a-z0-9.]+(?:\^[a-z0-9.]+)?)/g,"$1($2)");
+
+  /* Acceptera även vanliga kompaktformer som sin2x och cos3x. */
+  x=x.replace(/(?<![a-z_])(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sin|cos|tan)(\d+(?:\.\d+)?[a-z]?|pi)\b/g,"$1($2)");
 
   x=x.replace(/\b(arcsin|arccos|arctan|sinh|cosh|tanh|asin|acos|atan|sqrt|log10|log|sin|cos|tan|ln|lg|exp)([a-z])(?![a-z0-9])/g,"$1($2)");
 
@@ -6538,6 +6564,9 @@ function explicitMultiplikation(x){
 
 function tillNerdamer(x){
   return explicitMultiplikation(x)
+    .replace(/\barcsin\(/g,"asin(")
+    .replace(/\barccos\(/g,"acos(")
+    .replace(/\barctan\(/g,"atan(")
     .replace(/(?<![a-z0-9_])(log10|lg|log|ln)\s*\(/g,
       (m,f)=> (f==="ln"?"log":"log10")+"(");
 }
@@ -8618,6 +8647,19 @@ window.KG_TEST_ANSWER_CHECKER=function(){
     ["5y-y+2y","6y",true],
     ["(x+1)^2","x^2+2x+1",true],
     ["2(x+3)","2x+6",true],
+    ["sin(x)^2","sin^2x",true],
+    ["sin²x","sin^2 x",true],
+    ["2*cos(x)^2","2cos^2x",true],
+    ["cos(2*x)","cos2x",true],
+    ["\\sin^2 x","sin(x)^2",true],
+    ["sin(x)^2","sin(2x)",false],
+    ["(sin x)^2","sin^2x",true],
+    ["sin^2(2x)","sin(2x)^2",true],
+    ["2cos²x","2*cos(x)^2",true],
+    ["tan^2x","tan(x)^2",true],
+    ["5sin(x+atan(4/3))","5\\sin(x+\\arctan(4/3))",true],
+    ["cos(x)^2","\\cos^2 x",true],
+    ["ln(x)","\\ln x",true],
     ["1,5","1.5",true],
     ["3/4","0,75",true],
     ["x=2","2=x",true],
@@ -8631,6 +8673,25 @@ window.KG_TEST_ANSWER_CHECKER=function(){
   console.table(result);
   return result.every(x=>x.ok);
 };
+
+window.KG_TEST_MA4_SVAR=function(){
+  const cases=[
+    {namn:"sinuspotens", got:formatRatt("sin^2x","sin(x)^2",{format:"uttryck"}), want:true},
+    {namn:"sinuspotens parentes", got:formatRatt("(sin x)^2","sin^2 x",{format:"uttryck"}), want:true},
+    {namn:"cosinuspotens faktor", got:formatRatt("2cos²x","2*cos(x)^2",{format:"uttryck"}), want:true},
+    {namn:"dubbelvinkel", got:formatRatt("cos2x","cos(2x)",{format:"uttryck"}), want:true},
+    {namn:"skilj potens från dubbelvinkel", got:formatRatt("sin^2x","sin(2x)",{format:"uttryck"}), want:false},
+    {namn:"decimalkomma med tolerans", got:formatRatt("3,112","3.112",{format:"numeriskt",tolerans:0.0005}), want:true},
+    {namn:"pi-notation", got:formatRatt("π/6","pi/6",{format:"uttryck"}), want:true},
+    {namn:"latex-sinus", got:formatRatt("5sin(x+atan(4/3))","5\\sin(x+\\arctan(4/3))",{format:"uttryck"}), want:true},
+    {namn:"latex-logaritm", got:formatRatt("ln(x)","\\ln x",{format:"uttryck"}), want:true},
+    {namn:"värdemängd med f(x)", got:sammaIntervall(intervallAv("-1<=f(x)<=5"),intervallAv("[-1,5]"),null), want:true}
+  ];
+  cases.forEach(x=>x.ok=x.got===x.want);
+  console.table(cases);
+  return cases.every(x=>x.ok);
+};
+
 </script>
 </body>
 </html>

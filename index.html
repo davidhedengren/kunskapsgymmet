@@ -1358,6 +1358,38 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   border:1px solid var(--hair);background:var(--surface2);color:var(--ink);
   font-family:var(--read);font-size:14px;
 }
+.statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(118px,1fr));gap:8px;margin-top:14px}
+.statruta{display:flex;flex-direction:column;gap:2px;padding:12px 13px;border-radius:15px;
+  border:1px solid var(--hair);background:var(--surface2)}
+.stattal{font-size:23px;font-weight:700;letter-spacing:-.04em;color:var(--ink)}
+.statlbl{font-size:11.5px;font-weight:600;color:var(--ink2)}
+.statunder{font-size:10.5px;color:var(--ink3)}
+.statrubrik{margin:22px 0 8px;font-family:var(--mono);font-size:10px;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--ink3)}
+.statrubrik small{font-family:var(--sans,inherit);letter-spacing:0;text-transform:none;
+  font-size:10.5px;opacity:.75;margin-left:6px}
+.statstaplar{display:flex;align-items:flex-end;gap:3px;height:96px;padding:8px 2px 0;
+  border-bottom:1px solid var(--hair)}
+.statstapel{flex:1;min-width:0;height:100%;display:flex;flex-direction:column;
+  justify-content:flex-end;align-items:center;gap:4px}
+.statstapel i{width:100%;border-radius:4px 4px 2px 2px;background:var(--acc);opacity:.78;
+  transition:.2s var(--ease)}
+.statstapel:hover i{opacity:1}
+.statstapel span{font-size:9px;color:var(--ink3);white-space:nowrap;overflow:hidden}
+.statlista{display:flex;flex-direction:column;gap:5px}
+.statrad{display:flex;align-items:center;gap:10px;padding:9px 12px;border-radius:13px;
+  border:1px solid var(--hair);background:var(--surface2)}
+.statrad .namn{flex:1;min-width:0;font-size:13px;font-weight:650;color:var(--ink);
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.statrad .namn em{font-style:normal;font-weight:600;font-size:11px;color:var(--ink3);margin-left:7px}
+.statrad .val{font-size:11.5px;color:var(--ink2);white-space:nowrap;text-align:right}
+.statrad .val em{font-style:normal;color:var(--ink3);font-size:10.5px}
+.statrad.kursrad,.statrad.delningsrad{align-items:flex-start}
+.kursnamn{flex:1;min-width:0;display:flex;flex-direction:column;gap:3px}
+.statunderrad{font-size:10.5px;color:var(--ink3)}
+.delstapel{height:5px;border-radius:99px;background:var(--surface3,var(--hair));overflow:hidden;margin-top:3px}
+.delstapel i{display:block;height:100%;border-radius:99px;background:var(--acc)}
+
 .fellogg{display:flex;flex-direction:column;gap:7px;margin-top:14px}
 .fellogg .kursrad{font-family:var(--mono);font-size:10px;letter-spacing:.13em;
   text-transform:uppercase;color:var(--ink3);margin-top:10px}
@@ -3704,6 +3736,7 @@ function kontoMeny(ev){
       <div class="menyrubrik">Lärare</div>
       <button class="btn sm wide" onclick="oppnaFelrapportLogg()">Felrapporter${
         felOppnaAntal?" ("+felOppnaAntal+")":""}</button>
+      <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button>
     </div>`:""}
 
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
@@ -7080,6 +7113,182 @@ function laddaNerFellogg(){
 }
 window.KG_FELRAPPORTER=oppnaFelrapportLogg;
 
+/* =======================================================================
+   Händelselogg och lärarstatistik
+
+   Varje besvarad uppgift skickas som en rad till kg_handelse. Raden är
+   anonym: kurs, uppgift, resultat och en enhetsnyckel, ingen elevtext och
+   inga namn. Statistiken räknas fram server-side i rpc kg_statistik och
+   visas bara för konton som ligger i kg_larare.
+   ===================================================================== */
+function kgLoggaHandelse(t,{andel,correct,xp}){
+  if(!MOLN_PA() || !t) return;
+  const kropp={p_handelse:{
+    kurs:state.course, spar:state.track||null,
+    uppgift:felUppgiftsId(t), omrade:t.omr||null,
+    niva:(typeof levelNumber==="function"?levelNumber(t):null),
+    andel:Math.round(Math.max(0,Math.min(1,andel||0))*100)/100,
+    ratt:!!correct, ledtrad:!!state.hintUsed, facit:!!state.solutionShown,
+    xp:Math.max(0,Math.round(xp||0)), enhet:felEnhetsId()
+  }};
+  /* Statistiken får aldrig störa träningen: ingen väntan, inga fel. */
+  try{
+    fetch(SUPABASE_URL+"/rest/v1/rpc/kg_logga_handelse",{
+      method:"POST",headers:sbHeaders(!!session),body:JSON.stringify(kropp),keepalive:true
+    }).catch(()=>{});
+  }catch(_){}
+}
+
+let statistikData=null;
+async function hamtaStatistik(){
+  if(!MOLN_PA()) throw new Error("Molnet är avstängt i den här versionen.");
+  if(!session) throw new Error("Logga in med ditt lärarkonto först.");
+  const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_statistik",{
+    method:"POST",headers:sbHeaders(true),body:"{}"
+  });
+  if(r.status===404) throw new Error("Statistiken är inte installerad i Supabase ännu.");
+  if(!r.ok) throw new Error("Statistiken kunde inte hämtas. Är kontot upplagt som lärare?");
+  return r.json();
+}
+async function oppnaStatistik(){
+  document.getElementById("kontomeny")?.remove();
+  stangStatistik();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="statruta";
+  el.innerHTML=`<div class="modal-kort" style="width:min(760px,100%)" role="dialog" aria-modal="true"
+      aria-label="Statistik">
+      <div class="modal-topp">
+        <div><div class="lbl">Lärarvy</div><h2>Statistik</h2></div>
+        <button class="iconbtn" onclick="stangStatistik()" aria-label="Stäng">✕</button>
+      </div>
+      <div id="statkropp"><p class="modal-text">Räknar…</p></div>
+      <div class="modal-fot">
+        <span class="spacer"></span>
+        <button class="btn" onclick="laddaNerStatistik()">Ladda ner</button>
+        <button class="btn primary" onclick="stangStatistik()">Stäng</button>
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangStatistik(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  const host=document.getElementById("statkropp");
+  try{ statistikData=await hamtaStatistik(); }
+  catch(e){ if(host) host.innerHTML=`<p class="modal-text">${esc(e.message)}</p>`; return; }
+  ritaStatistik();
+}
+function stangStatistik(){
+  const el=document.getElementById("statruta");
+  if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa");
+  setTimeout(()=>el.remove(),250);
+}
+function statRuta(tal,etikett,under){
+  return `<div class="statruta"><span class="stattal">${esc(tal)}</span>
+    <span class="statlbl">${esc(etikett)}</span>
+    ${under?`<span class="statunder">${esc(under)}</span>`:""}</div>`;
+}
+function statStaplar(rader,etikett){
+  if(!rader.length) return "";
+  const max=Math.max(...rader.map(r=>r.v),1);
+  return `<div class="statstaplar" aria-label="${esc(etikett)}">${rader.map(r=>
+    `<div class="statstapel" title="${esc(r.namn)}: ${r.v}">
+      <i style="height:${Math.max(3,Math.round(r.v/max*100))}%"></i>
+      <span>${esc(r.kort??r.namn)}</span></div>`).join("")}</div>`;
+}
+function procent(x){ return x==null?"–":Math.round(x*100)+" %"; }
+function statDelning(inlogg){
+  const rader=[["Idag",inlogg.idag],["Senaste veckan",inlogg.vecka],["Totalt",inlogg.totalt]]
+    .filter(([,v])=>v);
+  if(!rader.length) return `<p class="modal-text">Ingen träning registrerad ännu.</p>`;
+  return `<div class="statlista">${rader.map(([namn,v])=>{
+    const inne=Number(v.uppg_inloggade||0), ute=Number(v.uppg_anonyma||0);
+    const summa=inne+ute;
+    const andel=summa?Math.round(inne/summa*100):0;
+    return `<div class="statrad delningsrad">
+      <div class="kursnamn">
+        <span class="namn">${esc(namn)}</span>
+        <span class="statunderrad">${v.inloggade||0} inloggade konton · ${v.anonyma||0} anonyma webbläsare</span>
+        <div class="delstapel" title="${andel} % av uppgifterna lösta inloggade">
+          <i style="width:${andel}%"></i></div>
+      </div>
+      <span class="val">${summa} uppgifter<br><em>${inne} inloggad · ${ute} anonym</em></span>
+    </div>`;
+  }).join("")}</div>`;
+}
+function ritaStatistik(){
+  const host=document.getElementById("statkropp");
+  const d=statistikData;
+  if(!host||!d) return;
+  const idag=d.idag||{}, vecka=d.vecka||{}, totalt=d.totalt||{};
+  const perElev=idag.elever?Math.round((idag.uppgifter||0)/idag.elever*10)/10:0;
+
+  const dagar=(d.dagar||[]).map(x=>({namn:String(x.dag).slice(5),kort:String(x.dag).slice(8),v:Number(x.uppgifter||0)}));
+  const timmar=(d.timmar||[]).map(x=>({namn:x.timme+":00",kort:String(x.timme),v:Number(x.antal||0)}));
+
+  host.innerHTML=`
+    <div class="statgrid">
+      ${statRuta(idag.elever||0,"elever idag")}
+      ${statRuta(idag.uppgifter||0,"uppgifter idag")}
+      ${statRuta(perElev,"uppgifter per elev","idag")}
+      ${statRuta(procent(idag.ratt_andel),"rätt idag")}
+      ${statRuta(vecka.elever||0,"elever senaste veckan")}
+      ${statRuta(vecka.uppgifter||0,"uppgifter senaste veckan")}
+      ${statRuta(totalt.elever||0,"elever totalt")}
+      ${statRuta(totalt.uppgifter||0,"uppgifter totalt")}
+    </div>
+
+    <div class="statrubrik">Uppgifter per dag · 30 dagar</div>
+    ${statStaplar(dagar,"Uppgifter per dag")}
+
+    <div class="statrubrik">Vilka timmar tränas det? · 14 dagar</div>
+    ${statStaplar(timmar,"Uppgifter per timme")}
+
+    <div class="statrubrik">Inloggade och anonyma</div>
+    ${statDelning(d.inlogg||{})}
+
+    <div class="statrubrik">Kurser <small>90 dagar</small></div>
+    <div class="statlista">${(d.per_kurs||[]).map(k=>
+      `<div class="statrad kursrad">
+        <div class="kursnamn">
+          <span class="namn">${esc(COURSES[k.kurs]?.name||k.kurs)}</span>
+          <span class="statunderrad">${k.inloggade||0} inloggade · ${k.anonyma||0} anonyma${
+            k.elever_vecka?" · "+k.elever_vecka+" senaste veckan":""}</span>
+        </div>
+        <span class="val">${k.elever} elever · ${k.uppgifter} uppgifter · ${procent(k.ratt_andel)} rätt${
+          k.elever_idag?`<br><em>idag: ${k.elever_idag} elever · ${k.uppgifter_idag} uppgifter</em>`:""}</span>
+      </div>`).join("")||`<p class="modal-text">Ingen träning registrerad ännu.</p>`}</div>
+
+    <div class="statrubrik">Svåraste uppgifterna <small>minst 8 försök</small></div>
+    <div class="statlista">${(d.svaraste||[]).map(u=>
+      `<div class="statrad"><span class="namn">#${esc(u.uppgift)}
+        <em>${esc(COURSES[u.kurs]?.code||u.kurs)}</em></span>
+        <span class="val">${procent(u.ratt_andel)} rätt · ${u.forsok} försök</span>
+      </div>`).join("")||`<p class="modal-text">För lite data ännu.</p>`}</div>
+
+    <div class="statrubrik">Mest tränade områden</div>
+    <div class="statlista">${(d.populara||[]).map(o=>
+      `<div class="statrad"><span class="namn">${esc(o.omrade||"–")}
+        <em>${esc(COURSES[o.kurs]?.code||o.kurs)}</em></span>
+        <span class="val">${o.antal} uppgifter</span></div>`).join("")
+      ||`<p class="modal-text">Ingen träning registrerad ännu.</p>`}</div>
+
+    <div class="statgrid" style="margin-top:18px">
+      ${statRuta(procent(d.ledtrad_andel),"tog ledtråd")}
+      ${statRuta(procent(d.facit_andel),"tittade på facit först")}
+      ${statRuta(d.nya_elever_vecka||0,"nya elever i veckan")}
+      ${statRuta(d.bastadagen?.uppgifter||0,"bästa dagen",d.bastadagen?.dag||"")}
+    </div>`;
+}
+function laddaNerStatistik(){
+  const blob=new Blob([JSON.stringify(statistikData,null,2)],{type:"application/json"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="kunskapsgymmet-statistik-"+new Date().toISOString().slice(0,10)+".json";
+  a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+}
+window.KG_STATISTIK=oppnaStatistik;
+
 function renderTraining(){
   state.view="training";
   const t=state.currentTask;
@@ -7796,6 +8005,7 @@ function finishAttempt(resultat){
   const levelAfter=levelFromXP(profile.xp);
   const rankBefore=rankFor(levelBefore), rankAfter=rankFor(levelAfter);
   saveProfile();
+  kgLoggaHandelse(t,{andel,correct,xp});
 
   animeraXp(xpBefore,profile.xp);
   const HYLLNING=1500;

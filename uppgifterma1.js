@@ -1,4 +1,4 @@
-/* Pedagogiskt kvalitetsreviderad t.o.m. omgång 21, 2026-09-14
+/* Pedagogiskt kvalitetsreviderad t.o.m. omgång 26, 2026-09-14
  * E/C/A och poäng avser bedömning i Uppgiftslabbet.
  * traningsniva 1–5 avser svårighetsprogression i Kunskapsgymmet; arbetsinsats 1–3 avser omfattning/XP.
  */
@@ -52,7 +52,7 @@ window.BANKMA1 = [
       1,
       2
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -117,7 +117,7 @@ window.BANKMA1 = [
       2,
       3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -174,7 +174,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -12,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -257,7 +257,7 @@ window.BANKMA1 = [
       -4,
       3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -319,7 +319,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "7/4",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -372,7 +372,7 @@ window.BANKMA1 = [
       4,
       3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -435,7 +435,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -488,7 +488,7 @@ window.BANKMA1 = [
       -7,
       2
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -550,7 +550,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/8",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -572,7 +572,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.36,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -602,7 +602,7 @@ window.BANKMA1 = [
       -11,
       -2
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -664,7 +664,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/6",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -686,7 +686,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.47,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -716,7 +716,7 @@ window.BANKMA1 = [
       -5,
       1
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -778,7 +778,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "3/4",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -800,7 +800,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1.2,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -830,7 +830,7 @@ window.BANKMA1 = [
       -11,
       27
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -892,7 +892,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "25/42",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -945,7 +945,7 @@ window.BANKMA1 = [
       -9,
       1
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1007,7 +1007,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -1033,7 +1033,7 @@ window.BANKMA1 = [
       0.47,
       0.5
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1073,7 +1073,7 @@ window.BANKMA1 = [
       -2,
       -4
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1139,7 +1139,7 @@ window.BANKMA1 = [
       1,
       8
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -1200,7 +1200,7 @@ window.BANKMA1 = [
       -0.2,
       0.4
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1262,7 +1262,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -1315,7 +1315,7 @@ window.BANKMA1 = [
       -0.8,
       -2.4
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1427,7 +1427,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1457,7 +1457,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "2/3",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -1479,7 +1479,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -0.245,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1509,7 +1509,7 @@ window.BANKMA1 = [
       -4,
       11
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1571,7 +1571,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/6",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -1625,7 +1625,7 @@ window.BANKMA1 = [
       -19,
       14
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1687,7 +1687,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/3",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -1713,7 +1713,7 @@ window.BANKMA1 = [
       0.7,
       0.07
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1749,7 +1749,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -1781,7 +1781,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/4",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -1807,7 +1807,7 @@ window.BANKMA1 = [
       0.06,
       0.009
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1865,7 +1865,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 14,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1921,7 +1921,7 @@ window.BANKMA1 = [
       0,
       4
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1983,7 +1983,7 @@ window.BANKMA1 = [
       7,
       3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2046,7 +2046,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -2094,7 +2094,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -2125,7 +2125,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/2",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -2147,7 +2147,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.148,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2173,7 +2173,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -2230,7 +2230,7 @@ window.BANKMA1 = [
       0.5,
       0.005
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2292,7 +2292,7 @@ window.BANKMA1 = [
       12,
       2
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2380,7 +2380,7 @@ window.BANKMA1 = [
       2.07,
       0.09
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2438,7 +2438,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 14,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2494,7 +2494,7 @@ window.BANKMA1 = [
       8.003,
       0.45
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2556,7 +2556,7 @@ window.BANKMA1 = [
       -5,
       -15
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2619,7 +2619,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "2/5",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -2668,7 +2668,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -15,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2699,7 +2699,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -2725,7 +2725,7 @@ window.BANKMA1 = [
       3.081,
       0.579
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2783,7 +2783,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2814,7 +2814,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "23/12",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -2894,7 +2894,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "17/8",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -2988,7 +2988,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "heltal"
   },
@@ -3081,7 +3081,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -3189,7 +3189,7 @@ window.BANKMA1 = [
       2.04,
       2.004
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -3229,7 +3229,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -3263,7 +3263,7 @@ window.BANKMA1 = [
       "11/18",
       "-2/5"
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "bråk",
@@ -3321,7 +3321,7 @@ window.BANKMA1 = [
       4.7,
       2.11
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -3383,7 +3383,7 @@ window.BANKMA1 = [
       2,
       3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -3446,7 +3446,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "11/2",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -3539,7 +3539,7 @@ window.BANKMA1 = [
       -2,
       -3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -3628,7 +3628,7 @@ window.BANKMA1 = [
       46,
       8
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -3722,7 +3722,7 @@ window.BANKMA1 = [
       "165",
       "126"
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "numeriskt",
@@ -3780,7 +3780,7 @@ window.BANKMA1 = [
       0.072,
       0.305
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -3875,7 +3875,7 @@ window.BANKMA1 = [
       "96",
       "160"
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "numeriskt",
@@ -3933,7 +3933,7 @@ window.BANKMA1 = [
       100,
       0.046
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -4026,7 +4026,7 @@ window.BANKMA1 = [
       "80",
       "16"
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "numeriskt",
@@ -4148,7 +4148,7 @@ window.BANKMA1 = [
       "13/30",
       "5/16"
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "bråk",
@@ -4275,7 +4275,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "liter"
@@ -4302,7 +4302,7 @@ window.BANKMA1 = [
       0,
       6
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -4369,7 +4369,7 @@ window.BANKMA1 = [
       7,
       -4
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -4432,7 +4432,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -4458,7 +4458,7 @@ window.BANKMA1 = [
       8,
       6
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -4572,7 +4572,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -4630,7 +4630,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/12",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -4652,7 +4652,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.349,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -4734,7 +4734,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -4761,7 +4761,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -4794,7 +4794,7 @@ window.BANKMA1 = [
       21,
       36
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -4855,7 +4855,7 @@ window.BANKMA1 = [
       12,
       9
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5023,7 +5023,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.472,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -5050,7 +5050,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -5137,7 +5137,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "2/5",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -5163,7 +5163,7 @@ window.BANKMA1 = [
       7,
       -3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5226,7 +5226,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null
@@ -5249,7 +5249,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -5280,7 +5280,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -5302,7 +5302,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -5333,7 +5333,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/2",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -5358,7 +5358,7 @@ window.BANKMA1 = [
       -4,
       0
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5404,7 +5404,7 @@ window.BANKMA1 = [
       5,
       3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -5470,7 +5470,7 @@ window.BANKMA1 = [
       2,
       5
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -5561,7 +5561,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "7/6",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -5588,7 +5588,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "heltal"
   },
@@ -5647,7 +5647,7 @@ window.BANKMA1 = [
       49,
       56
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -5684,7 +5684,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 72,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "liter"
@@ -5712,7 +5712,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 140,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "m"
@@ -5735,7 +5735,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5761,7 +5761,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5787,7 +5787,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5813,7 +5813,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5839,7 +5839,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5865,7 +5865,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5891,7 +5891,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5917,7 +5917,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5943,7 +5943,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 21,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5969,7 +5969,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6075,7 +6075,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6101,7 +6101,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6128,7 +6128,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6182,7 +6182,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6209,7 +6209,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6236,7 +6236,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6262,7 +6262,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 47,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6288,7 +6288,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 83,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6314,7 +6314,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.7,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6340,7 +6340,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6366,7 +6366,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.49,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6392,7 +6392,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.075,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6418,7 +6418,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3700,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6444,7 +6444,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6470,7 +6470,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6496,7 +6496,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6549,7 +6549,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 239.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -6575,7 +6575,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7449,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -6602,7 +6602,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.68,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6654,7 +6654,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.0001,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -6736,7 +6736,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6762,7 +6762,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6788,7 +6788,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6814,7 +6814,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -6842,7 +6842,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6868,7 +6868,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7163,7 +7163,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70000,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -7911,7 +7911,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 60200,
-    "tolerans": 6.02e-08,
+    "tolerans": 6.02e-8,
     "självrättning": true,
     "svarFormat": "decimalform"
   },
@@ -7963,7 +7963,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1200000,
-    "tolerans": 1.2e-06,
+    "tolerans": 0.0000012,
     "självrättning": true,
     "svarFormat": "decimalform"
   },
@@ -7988,7 +7988,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 8.4e-05,
+    "rättSvar": 0.000084,
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform"
@@ -8015,7 +8015,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3200,
-    "tolerans": 3.2e-09,
+    "tolerans": 3.2e-9,
     "självrättning": true,
     "svarFormat": "decimalform",
     "svarEnhet": "W"
@@ -8122,7 +8122,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 8.5e-06,
+    "rättSvar": 0.0000085,
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
@@ -8177,7 +8177,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 5200000,
-    "tolerans": 5.2e-06,
+    "tolerans": 0.0000052,
     "självrättning": true,
     "svarFormat": "decimalform",
     "svarEnhet": "Hz"
@@ -8258,7 +8258,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2800,
-    "tolerans": 2.8e-09,
+    "tolerans": 2.8e-9,
     "självrättning": true,
     "svarFormat": "decimalform",
     "svarEnhet": "MHz"
@@ -8328,7 +8328,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8354,7 +8354,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8380,7 +8380,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8406,7 +8406,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8485,7 +8485,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8537,7 +8537,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8563,7 +8563,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8589,7 +8589,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8615,7 +8615,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8667,7 +8667,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8693,7 +8693,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8824,7 +8824,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8851,7 +8851,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8878,7 +8878,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8960,7 +8960,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9118,7 +9118,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9144,7 +9144,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9170,7 +9170,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9334,7 +9334,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9399,7 +9399,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9425,7 +9425,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/2",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9451,7 +9451,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "2/5",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9477,7 +9477,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9503,7 +9503,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/2",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9529,7 +9529,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "11/12",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9555,7 +9555,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9581,7 +9581,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "bråk"
   },
@@ -9610,7 +9610,7 @@ window.BANKMA1 = [
       2,
       3
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -9671,7 +9671,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt"
   },
@@ -9700,7 +9700,7 @@ window.BANKMA1 = [
       3,
       5
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -9737,7 +9737,7 @@ window.BANKMA1 = [
       5,
       7
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -9855,7 +9855,7 @@ window.BANKMA1 = [
       "2/3",
       "3/4"
     ],
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": [
       "bråk",
@@ -10048,7 +10048,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10076,7 +10076,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -3,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10103,7 +10103,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10131,7 +10131,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10159,7 +10159,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -7,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10187,7 +10187,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10213,7 +10213,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -25,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10267,7 +10267,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10293,7 +10293,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10547,7 +10547,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 7.25e-05,
+    "rättSvar": 0.0000725,
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform"
@@ -10700,7 +10700,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10727,7 +10727,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -350,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -10755,7 +10755,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10781,7 +10781,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -3.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -10995,7 +10995,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 340000,
-    "tolerans": 3.4e-07,
+    "tolerans": 3.4e-7,
     "självrättning": true,
     "svarFormat": "decimalform"
   },
@@ -11070,7 +11070,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 32,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -11097,7 +11097,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -11123,7 +11123,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -11149,7 +11149,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -0.805,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -11175,7 +11175,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.081,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -11334,7 +11334,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm"
   },
@@ -14386,7 +14386,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 30.6,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "%"
   },
@@ -14504,7 +14504,7 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "tolerans": [
-      1e-06,
+      0.000001,
       1e-10
     ],
     "svarFormat": [
@@ -21020,7 +21020,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 22.2,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt"
   },
   {
@@ -21047,7 +21047,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 40.8,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm"
   },
@@ -21103,7 +21103,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 6.8,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "liter per 100 km"
   },
@@ -21920,7 +21920,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1.67,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "h"
   },
@@ -29657,7 +29657,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -20,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -34792,7 +34792,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -34866,7 +34866,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "punkt",
     "rättSvar": "(3,7)",
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -35224,7 +35224,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       null,
-      1e-09
+      1e-9
     ],
     "självrättning": [
       false,
@@ -35872,7 +35872,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -35902,7 +35902,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -10,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -35961,7 +35961,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -35991,7 +35991,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36020,7 +36020,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -36292,9 +36292,9 @@ window.BANKMA1 = [
       3
     ],
     "tolerans": [
-      1e-09,
-      1e-09,
-      1e-09
+      1e-9,
+      1e-9,
+      1e-9
     ],
     "självrättning": true,
     "formaga": [
@@ -36690,7 +36690,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36718,7 +36718,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36746,7 +36746,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36774,7 +36774,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36802,7 +36802,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36830,7 +36830,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36888,7 +36888,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36944,7 +36944,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -36972,7 +36972,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 108,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37001,7 +37001,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37030,7 +37030,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37059,7 +37059,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37088,7 +37088,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37117,7 +37117,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37348,7 +37348,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -37378,7 +37378,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "resonemang",
     "rättSvar": null,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": false,
     "formaga": [
       "modellering",
@@ -37409,7 +37409,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -38262,7 +38262,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38501,7 +38501,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -38556,7 +38556,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -39375,7 +39375,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -44329,7 +44329,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      2e-06,
+      0.000002,
       0.01,
       1
     ],
@@ -46738,7 +46738,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -47351,7 +47351,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 87.0,
+    "rättSvar": 87,
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
@@ -47489,7 +47489,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47519,7 +47519,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47549,7 +47549,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47579,7 +47579,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47609,7 +47609,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47639,7 +47639,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47669,7 +47669,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47699,7 +47699,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47729,7 +47729,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -47759,7 +47759,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.975,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -48390,7 +48390,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 4.6e-07,
+    "rättSvar": 4.6e-7,
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -54363,7 +54363,7 @@ window.BANKMA1 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       47.2,
-      41.0
+      41
     ],
     "tolerans": [
       0.2,
@@ -54814,7 +54814,7 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 27.0,
+    "rättSvar": 27,
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
@@ -57232,12 +57232,16 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "8",
+      8,
       "3/4"
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      null
+    ],
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "begrepp"
     ],
     "svarsstruktur": "ordnad",
@@ -57258,7 +57262,18 @@ window.BANKMA1 = [
         "niva": "C"
       }
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>I a) kan du ordna de 16 möjliga paren systematiskt. I b) är det enklare att räkna komplementet: att båda tärningarna visar udda tal.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "a) mest sannolika summa",
+      "b) sannolikhet"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "bråk"
+    ]
   },
   {
     "id": "5.06",
@@ -57300,19 +57315,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av punktdiagrammen visar den starkaste positiva korrelationen?</p><span class=\"fig\"><svg width=\"700\" height=\"300\" viewBox=\"0 0 700 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två punktdiagram\"><rect x=\"1\" y=\"1\" width=\"698\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"185.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram A</text><line x1=\"50.0\" y1=\"35\" x2=\"50.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245.0\" x2=\"320\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"104.0\" y1=\"35\" x2=\"104.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"203.0\" x2=\"320\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"158.0\" y1=\"35\" x2=\"158.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"161.0\" x2=\"320\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"212.0\" y1=\"35\" x2=\"212.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"119.0\" x2=\"320\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"266.0\" y1=\"35\" x2=\"266.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"77.0\" x2=\"320\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"320.0\" y1=\"35\" x2=\"320.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"35.0\" x2=\"320\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245\" x2=\"320\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"77.0\" cy=\"203.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"104.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"131.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"158.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"185.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"212.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"239.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"266.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><text x=\"515.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram B</text><line x1=\"380.0\" y1=\"35\" x2=\"380.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245.0\" x2=\"650\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"434.0\" y1=\"35\" x2=\"434.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"203.0\" x2=\"650\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"488.0\" y1=\"35\" x2=\"488.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"161.0\" x2=\"650\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"542.0\" y1=\"35\" x2=\"542.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"119.0\" x2=\"650\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"596.0\" y1=\"35\" x2=\"596.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"77.0\" x2=\"650\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"650.0\" y1=\"35\" x2=\"650.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"35.0\" x2=\"650\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245\" x2=\"650\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"380\" y1=\"245\" x2=\"380\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"407.0\" cy=\"224.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"434.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"461.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"488.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"515.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"542.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"569.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"596.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Diagram A.</strong> Punkterna ligger mycket tätare kring en stigande linje.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Vilket av punktdiagrammen visar den starkaste positiva korrelationen?</p><span class=\"fig\"><svg width=\"700\" height=\"300\" viewBox=\"0 0 700 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två punktdiagram\"><rect x=\"1\" y=\"1\" width=\"698\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"185.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram A</text><line x1=\"50.0\" y1=\"35\" x2=\"50.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245.0\" x2=\"320\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"104.0\" y1=\"35\" x2=\"104.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"203.0\" x2=\"320\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"158.0\" y1=\"35\" x2=\"158.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"161.0\" x2=\"320\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"212.0\" y1=\"35\" x2=\"212.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"119.0\" x2=\"320\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"266.0\" y1=\"35\" x2=\"266.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"77.0\" x2=\"320\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"320.0\" y1=\"35\" x2=\"320.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"35.0\" x2=\"320\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245\" x2=\"320\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"77.0\" cy=\"203.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"104.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"131.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"158.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"185.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"212.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"239.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"266.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><text x=\"515.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram B</text><line x1=\"380.0\" y1=\"35\" x2=\"380.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245.0\" x2=\"650\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"434.0\" y1=\"35\" x2=\"434.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"203.0\" x2=\"650\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"488.0\" y1=\"35\" x2=\"488.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"161.0\" x2=\"650\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"542.0\" y1=\"35\" x2=\"542.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"119.0\" x2=\"650\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"596.0\" y1=\"35\" x2=\"596.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"77.0\" x2=\"650\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"650.0\" y1=\"35\" x2=\"650.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"35.0\" x2=\"650\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245\" x2=\"650\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"380\" y1=\"245\" x2=\"380\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"407.0\" cy=\"224.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"434.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"461.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"488.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"515.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"542.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"569.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"596.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/></svg></span><p>A. Diagram A<br>B. Diagram B<br>C. Diagrammen visar lika stark positiv korrelation<br>D. Inget av diagrammen visar positiv korrelation</p>",
+    "s": "<p>Diagram A har en tydlig stigande riktning och punkterna ligger mycket tätt kring en rät linje. Diagram B har större spridning.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Jämför både riktningen och hur tätt punkterna ligger kring en tänkt stigande linje.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.08",
@@ -57338,7 +57356,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Nej, korrelation innebär inte orsakssamband. Att fler brandstationer och fler bränder förekommer tillsammans betyder inte att den ena orsakar den andra.</p>"
+    "ledtrad": "<p>Sök en tredje variabel som kan göra att en kommun både behöver fler brandstationer och samtidigt får fler bränder.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "5.09",
@@ -57351,19 +57372,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett företag frågar endast de första 30 kunderna som kommer in på morgonen. Är detta ett slumpmässigt urval av alla dagens kunder?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nej.</strong> Morgonkunder kan skilja sig från kunder som kommer senare.</p></div></div>",
+    "t": "<p>Ett företag vill uttala sig om alla dagens kunder men frågar endast de första 30 kunderna som kommer in på morgonen. Vilket problem är mest relevant?</p><p>A. Urvalet kan bli snedvridet eftersom morgonkunder kan skilja sig från kunder senare på dagen.<br>B. Urvalet blir automatiskt slumpmässigt eftersom exakt 30 personer frågas.<br>C. Urvalet är en totalundersökning eftersom alla 30 tillfrågade får svara.<br>D. Urvalet saknar felkällor eftersom kunderna väljs i ankomstordning.</p>",
+    "s": "<p>Morgontid är en systematisk avgränsning. Om morgonkunder skiljer sig från andra kunder riskerar urvalet att inte representera hela dagens kundgrupp.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": "Nej",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Jämför gruppen som faktiskt kan bli vald med hela gruppen företaget vill uttala sig om.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.10",
@@ -57388,7 +57412,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>a) Urvalet är inte representativt — hälsomedvetna personer är överrepresenterade, vilket snedvrider resultatet</p>"
+    "ledtrad": "<p>a) Vem får möjlighet att svara? b) Kan sättet att svara påverka ärligheten? c) Blir alla mätningar förskjutna åt samma håll?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.11",
@@ -57402,7 +57429,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två undersökningar jämför andelen som föredrar produkt A framför B.</p><table class='data'><tr><th></th><th>Grupp 1</th><th>Grupp 2</th><th>Antal personer per grupp</th></tr><tr><th>Studie X</th><td>55 %</td><td>50 %</td><td>20</td></tr><tr><th>Studie Y</th><td>55 %</td><td>50 %</td><td>2 000</td></tr></table><p>Skillnaden i procentenheter är densamma. Förklara varför studierna ändå inte ger lika starkt statistiskt underlag.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> I Studie X motsvarar några få personer en stor del av gruppen, så slumpvariation kan lätt ge en skillnad på fem procentenheter.</p><p>I Studie Y bygger samma skillnad på mycket fler observationer.</p><p><strong>Svar:</strong> <strong>Studie Y ger därför normalt starkare underlag för att skillnaden inte bara beror på slumpvariation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Båda studierna visar 5 procentenheters skillnad, men i studie X motsvarar några få personer en stor del av varje grupp. Slumpvariation får därför mycket större betydelse där. Med 2 000 personer per grupp blir andelarna normalt stabilare, så samma observerade skillnad ger starkare statistiskt underlag.</p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
@@ -57413,7 +57440,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Jämför hur mycket en enda person kan förändra procentandelen i en grupp på 20 respektive 2 000.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.12",
@@ -57699,22 +57729,25 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Tre oberoende hjul visar heltal. På hjul A är sannolikheten för udda tal 0,40, på B är resultatet alltid jämnt och på C alltid udda.</p><p>Hur stor är sannolikheten att summan av de tre resultaten blir udda? Motivera utifrån paritet.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p>B är alltid jämn och C alltid udda. Summan B+C är därför udda. Totalsumman blir udda när A är jämn.</p><p><strong>\\(P=0,60\\)</strong>.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Tre oberoende hjul visar heltal. På hjul A är sannolikheten för udda tal 0,40, på B är resultatet alltid jämnt och på C alltid udda.</p><p>Vilket påstående är korrekt om sannolikheten att summan av de tre resultaten blir udda?</p><p>A. 60 %, eftersom B+C alltid är udda och A därför måste vara jämn.<br>B. 40 %, eftersom B+C alltid är udda och A därför måste vara udda.<br>C. 60 %, eftersom B+C alltid är jämn och A därför måste vara udda.<br>D. 40 %, eftersom B+C alltid är jämn och A därför måste vara jämn.</p>",
+    "s": "<p>B är alltid jämn och C alltid udda, så B+C är alltid udda. För att totalsumman ska vara udda måste A då vara jämn. Det sker med sannolikheten (1-0,40=0,60).</p><p><strong>Svar: A.</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Bestäm först om summan B+C är jämn eller udda. Vilken paritet måste A då ha?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.21",
@@ -57725,8 +57758,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En spelare träffar ett mål med sannolikheten 0,30 per försök. Två försök antas oberoende.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två oberoende försök med sannolikheten 0,30\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,3</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,3</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,09</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><text x=\"198.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,21</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,3</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,21</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><text x=\"390.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,49</text></svg></span><p>Bestäm sannolikheten för exakt en träff.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p>Träff–miss eller miss–träff:</p><p>\\(0,30\\cdot0,70+0,70\\cdot0,30=\\)<strong>0,42</strong>.</p>",
     "familj": "Sannolikhet i flera steg",
@@ -57740,7 +57773,10 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Exakt en träff kan ske på två sätt: träff–miss eller miss–träff. Beräkna båda vägarna och addera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.22",
@@ -57833,7 +57869,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Tabellen beskriver skolornas medelvärden. Fråga dig om ett samband mellan fyra gruppmedelvärden automatiskt säger något om sambandet mellan individer inom varje grupp.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.25",
@@ -57846,19 +57885,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I ett punktdiagram ligger punkterna tätt kring en fallande rät linje. Beskriv korrelationen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Svar:</strong> <strong>Stark negativ korrelation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>I ett punktdiagram ligger punkterna tätt kring en fallande rät linje. Beskriv korrelationen.</p><p>A. Stark positiv korrelation<br>B. Stark negativ korrelation<br>C. Ingen tydlig korrelation<br>D. Svag negativ korrelation</p>",
+    "s": "<p>En fallande riktning betyder negativ korrelation och att punkterna ligger tätt innebär att den är stark.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Bestäm först riktningen. Bedöm sedan styrkan utifrån spridningen kring en tänkt rät linje.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.26",
@@ -57872,7 +57914,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En studie visar att personer med gymkort i genomsnitt tränar mer än personer utan gymkort. Kan man av detta ensam säga att gymkortet orsakar träningen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nej.</strong> Personer som redan är mer motiverade att träna kan också vara mer benägna att köpa gymkort.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Nej. Personer som redan är motiverade att träna kan både träna mer och oftare köpa gymkort. Sambandet visar därför inte i sig vad som orsakar vad.</p><p><strong>Svar: Nej.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -57883,7 +57925,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Fundera på om samma personliga egenskap kan påverka både sannolikheten att köpa gymkort och träningsmängden.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.27",
@@ -57908,7 +57953,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Signifikans handlar om stöd mot slumpvariation, inte om hur stor eller viktig effekten är.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.28",
@@ -57926,14 +57974,17 @@ window.BANKMA1 = [
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Separera två frågor: minskar ”var tionde person” intervjuarens egna val, och täcker en enda ingång under en enda timme verkligen alla typer av besökare?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.29",
@@ -57946,19 +57997,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kommun vill veta vad alla 16–19-åringar tycker om kollektivtrafiken. Vad är populationen?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Populationen är hela den grupp som undersökningen vill uttala sig om. Här är det inte bara de personer som faktiskt svarar, utan <strong>alla 16–19-åringar i kommunen</strong>.</p></div></div>",
+    "t": "<p>En kommun vill veta vad alla 16–19-åringar tycker om kollektivtrafiken. Vad är populationen?</p><p>A. Alla 16–19-åringar i kommunen<br>B. Bara de 16–19-åringar som svarar på enkäten<br>C. Alla som använder kollektivtrafik i kommunen<br>D. Bara de ungdomar som har busskort</p>",
+    "s": "<p>Populationen är hela den grupp undersökningen vill uttala sig om: alla 16–19-åringar i kommunen.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Populationen är inte bara de som råkar svara, utan hela målgruppen för slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.30",
@@ -57984,7 +58038,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>b) Frasen \"tycker du inte också\" antyder att det förväntade svaret är ja, vilket kan få fler att svara ja än vad de egentligen tycker — svaren blir snedvridna åt det håll frågan pekar</p>"
+    "ledtrad": "<p>Leta efter ord som antyder vilket svar frågeställaren förväntar sig. En neutral version bör inte värdera något svarsalternativ.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.31",
@@ -58052,8 +58109,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "1/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Två vanliga sexsidiga tärningar kastas. Givet att produkten av talen är jämn, hur stor är sannolikheten att summan också är jämn?</p>",
     "s": "<p><strong>Steg 1:</strong> Jämn produkt innebär att inte båda är udda: \\(36-9=27\\) möjliga ordnade utfall.</p><p>Jämn summa kräver samma paritet. Under villkoret jämn produkt återstår bara båda jämna: \\(3\\cdot3=9\\) utfall.</p><p><strong>\\(\\frac{9}{27}=\\frac{1}{3}\\)</strong>.</p>",
     "familj": "Sannolikhet i flera steg",
@@ -58064,9 +58121,13 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "problemlösning",
+      "resonemang"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>Villkoret ”produkten är jämn” tar bort alla utfall där båda tärningarna är udda. Räkna sedan hur många av de återstående utfallen som också har jämn summa.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.34",
@@ -58148,10 +58209,18 @@ window.BANKMA1 = [
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a) träddiagram",
-      "b)",
-      "c)"
+      "b) båda träff",
+      "c) exakt en träff"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>I trädet har varje skott grenarna träff 0,7 och miss 0,3. Multiplicera längs en väg och addera skilda vägar när det behövs.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "svarFormat": [
+      null,
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.36",
@@ -58203,10 +58272,13 @@ window.BANKMA1 = [
     "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "problemlösning",
+      "resonemang"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>Låt (p) vara sannolikheten att en pilkastare får högsta poäng. Skriv den totala sannolikheten för ”högsta poäng eller dam” som en summa av de två vägarna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "5.38",
@@ -58219,19 +58291,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Tre lyckohjul snurras en gång vardera.</p><span class=\"fig\"><svg width=\"430\" height=\"210\" viewBox=\"0 0 430 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"75\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"75\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">A</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"75\" y1=\"100\" x2=\"121.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text><line x1=\"75\" y1=\"100\" x2=\"29.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">4</text><circle cx=\"215\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">B</text><line x1=\"215\" y1=\"100\" x2=\"215.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"239.2\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"215\" y1=\"100\" x2=\"254.8\" y2=\"123.0\" stroke=\"#777\"/><text x=\"215.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">5</text><line x1=\"215\" y1=\"100\" x2=\"175.2\" y2=\"123.0\" stroke=\"#777\"/><text x=\"190.8\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">8</text><circle cx=\"350\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">C</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"378.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"322.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text></svg></span><p>Vad är sannolikheten att summan blir udda?</p>",
+    "t": "<p>Tre lyckohjul snurras en gång vardera.</p><span class=\"fig\"><svg width=\"430\" height=\"210\" viewBox=\"0 0 430 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"75\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"75\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">A</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"75\" y1=\"100\" x2=\"121.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"94.8\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"75\" y1=\"100\" x2=\"75.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"123.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text><line x1=\"75\" y1=\"100\" x2=\"29.0\" y2=\"100.0\" stroke=\"#777\"/><text x=\"55.2\" y=\"84.2\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">4</text><circle cx=\"215\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">B</text><line x1=\"215\" y1=\"100\" x2=\"215.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"239.2\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">2</text><line x1=\"215\" y1=\"100\" x2=\"254.8\" y2=\"123.0\" stroke=\"#777\"/><text x=\"215.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">5</text><line x1=\"215\" y1=\"100\" x2=\"175.2\" y2=\"123.0\" stroke=\"#777\"/><text x=\"190.8\" y=\"90.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">8</text><circle cx=\"350\" cy=\"100\" r=\"46\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"350\" y=\"32\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"13\">C</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"54.0\" stroke=\"#777\"/><text x=\"378.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">1</text><line x1=\"350\" y1=\"100\" x2=\"350.0\" y2=\"146.0\" stroke=\"#777\"/><text x=\"322.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">3</text></svg></span><p>Vad är sannolikheten att summan blir udda? Svara i procent.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p>C ger alltid udda. A och B måste därför ha samma paritet.</p><p>\\(\\frac12\\cdot\\frac13+\\frac12\\cdot\\frac23=\\)<strong>50 %</strong>.</p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": "50",
-    "tolerans": null,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
+      "problemlösning",
       "begrepp"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Hjul C ger alltid ett udda tal. Totalsumman blir därför udda när summan från A och B är jämn. När får två tal jämn summa?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.39",
@@ -58329,7 +58405,10 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Båda kasten måste bli sexa. Multiplicera sannolikheten (1/6) med sig själv.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.42",
@@ -58646,19 +58725,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En spelare har 20 % chans att vinna varje omgång. Omgångarna är oberoende. Hur stor är sannolikheten att vinna minst en gång på fyra omgångar?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p>Komplementet är ingen vinst: \\(0,8^4=0,4096\\).</p><p><strong>Svar:</strong> <strong>\\(1-0,4096=0,5904\\), alltså 59,04 %.</strong></p>",
+    "t": "<p>En spelare har 20 % chans att vinna varje omgång. Omgångarna är oberoende. Hur stor är sannolikheten att vinna minst en gång på fyra omgångar? Svara i procent.</p>",
+    "s": "<p>Det är enklare att ta komplementet. Sannolikheten att förlora alla fyra är (0,8^4=0,4096). Alltså</p><p>(P(\text{minst en vinst})=1-0,4096=0,5904).</p><p><strong>Svar: 59,04 %.</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 59.04,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
+      "problemlösning",
       "begrepp"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Räkna först sannolikheten att spelaren förlorar alla fyra omgångarna.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.53",
@@ -58669,13 +58752,13 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En spelare har träffsannolikheten 0,25 per oberoende kast. Spelet avslutas när spelaren träffar eller efter högst fyra kast.</p><p>Spelaren går med vinst endast om träffen kommer senast på tredje kastet. Bestäm sannolikheten för vinst och sannolikheten för att spelet går till fjärde kastet.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p>Vinst = träff inom tre kast = \\(1-0,75^3=\\)<strong>0,578125</strong>.</p><p>Spelet går till fjärde kastet om de tre första missas: <strong>\\(0,75^3=0,421875\\)</strong>.</p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.578125,
@@ -58684,15 +58767,18 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "problemlösning",
+      "resonemang"
     ],
     "svarEtiketter": [
       "Sannolikhet för vinst",
       "Sannolikhet för fjärde kast"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Vinst kräver en träff på kast 1, 2 eller 3. Spelet går till kast 4 precis när de tre första kasten har missats.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "5.54",
@@ -58803,11 +58889,11 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Diagrammet visar sambandet mellan två mätvariabler.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"punktdiagram med måttlig positiv trend\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"238.3\" x2=\"405\" y2=\"238.3\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"211.7\" x2=\"405\" y2=\"211.7\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"214.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"185.0\" x2=\"405\" y2=\"185.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"158.3\" x2=\"405\" y2=\"158.3\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"161.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"131.7\" x2=\"405\" y2=\"131.7\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"105.0\" x2=\"405\" y2=\"105.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"108.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"78.3\" x2=\"405\" y2=\"78.3\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"51.7\" x2=\"405\" y2=\"51.7\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"54.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">mätning 1</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">mätning 2</text><circle cx=\"93.9\" cy=\"185.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"179.7\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"155.7\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"147.7\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"129.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"110.3\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"102.3\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"81.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span><p>Formulera en försiktig slutsats som diagrammet stödjer och en slutsats som diagrammet <em>inte</em> stödjer.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Diagrammet stödjer exempelvis: <strong>högre värden på den ena variabeln tenderar att förekomma tillsammans med högre värden på den andra.</strong></p><p>Diagrammet stödjer inte på egen hand påståendet att <strong>den ena variabeln orsakar den andra</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Diagrammet visar en positiv samvariation: högre värden på mätning 1 tenderar att förekomma tillsammans med högre värden på mätning 2. Det stödjer däremot inte på egen hand att den ena mätvariabeln orsakar den andra.</p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
@@ -58815,7 +58901,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Skriv en slutsats om samvariation och en annan typ av slutsats som skulle kräva mer information än ett punktdiagram.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "5.58",
@@ -58829,11 +58918,11 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Du vill undersöka om en ny typ av växtnäring gör plantor högre. Beskriv ett upplägg som ger bättre möjlighet att undersöka orsak än att bara jämföra plantor som råkar få olika näring.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ett rimligt upplägg är att använda många liknande plantor och <strong>slumpa</strong> dem till två grupper. Den ena får den nya näringen och den andra får samma behandling i övrigt men inte näringen. Ljus, vatten, jord och mättid hålls så lika som möjligt.</p><p>Då minskar risken att andra faktorer förklarar skillnaden.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Ett bättre upplägg är att använda många liknande plantor och slumpa dem till två grupper. Den ena gruppen får den nya näringen, den andra fungerar som kontrollgrupp. Ljus, vatten, jord och mättid hålls så lika som möjligt.</p><p>Slumpningen och kontrollen gör det lättare att skilja näringens effekt från andra skillnader mellan plantorna.</p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
@@ -58841,7 +58930,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Hur kan du skapa två grupper som är jämförbara redan innan behandlingen börjar?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "5.59",
@@ -58865,10 +58957,7 @@ window.BANKMA1 = [
       null
     ],
     "tolerans": null,
-    "självrättning": [
-      true,
-      false
-    ],
+    "självrättning": false,
     "formaga": [
       "procedur"
     ],
@@ -58881,7 +58970,10 @@ window.BANKMA1 = [
       "kort_text",
       null
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Samvariation räcker inte för orsak. Tänk på om områden där många barnfamiljer bor också kan ha planerats med fler lekplatser.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "5.60",
@@ -58907,7 +58999,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>a) Nytt läkemedel: \\(\\frac{45}{60}=0{,}75=\\)75 %. Gammalt läkemedel: \\(\\frac{52}{80}=0{,}65=\\)65 %</p>"
+    "ledtrad": "<p>Räkna först 45/60 och 52/80. Den sista frågan kräver sedan att du skiljer på observerad skillnad och säker slutsats om behandlingarnas effekt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.61",
@@ -58920,19 +59015,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två studier visar samma skillnad mellan två grupper. Studie A har 20 deltagare och studie B har 2 000 deltagare. Vilken studie ger normalt bättre möjlighet att skilja en verklig skillnad från slumpvariation, allt annat lika?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Studie B.</strong> Det större antalet observationer minskar normalt den relativa betydelsen av slumpvariation.</p></div></div>",
+    "t": "<p>Två studier visar samma skillnad mellan två grupper. Studie A har 20 deltagare och studie B har 2 000 deltagare. Vilken studie ger normalt bättre möjlighet att skilja en verklig skillnad från slumpvariation, allt annat lika?</p><p>A. Studie A med 20 deltagare<br>B. Studie B med 2 000 deltagare<br>C. Båda ger alltid exakt lika starkt underlag<br>D. Det mindre stickprovet ger alltid mindre slumpvariation</p>",
+    "s": "<p>Större stickprov ger normalt mindre slumpmässig variation i skattade andelar, allt annat lika.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Hur mycket påverkar en enskild observation resultatet i ett litet respektive stort stickprov?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.62",
@@ -58945,20 +59043,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Deltagare får uppskatta hur många timmar de tränade varje vecka under förra året. Nämn en rimlig felkälla.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Minnesfel.</strong> Det är svårt att minnas träningsmängden exakt så långt tillbaka.</p></div></div>",
+    "t": "<p>Deltagare får uppskatta hur många timmar de tränade varje vecka under förra året. Nämn en rimlig felkälla.</p><p>A. Minnesfel<br>B. Kalibreringsfel<br>C. Urvalsfel<br>D. Avrundningsfel</p>",
+    "s": "<p>Att uppskatta träningsmängd ett helt år bakåt är känsligt för att deltagarna inte minns exakt.</p><p><strong>Svar: A – minnesfel.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Vilken del av datainsamlingen blir osäker när deltagarna ska återge detaljer långt tillbaka i tiden?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.63",
@@ -58983,7 +59084,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Felkälla 1 — tidsmässigt urval. Enkäten når bara de som reser med buss på morgonen, alltså troligen arbetspendlare.</p>"
+    "ledtrad": "<p>Tänk både på <strong>vilka</strong> resenärer som kan bli tillfrågade och <strong>när</strong> de tillfrågas. Föreslå sedan en ändring för respektive problem.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.64",
@@ -58996,19 +59100,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en enkät om privatekonomi svarar bara 35 % av de tillfrågade. Vilken felkälla kan uppstå?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Bortfallsfel.</strong> De som väljer att svara kan skilja sig från dem som inte svarar.</p></div></div>",
+    "t": "<p>I en enkät om privatekonomi svarar bara 35 % av de tillfrågade. Vilken felkälla kan uppstå?</p><p>A. Kalibreringsfel<br>B. Bortfallsfel<br>C. Avrundningsfel<br>D. Enhetsfel</p>",
+    "s": "<p>När många utvalda personer inte svarar kan de svarande skilja sig systematiskt från dem som inte svarar.</p><p><strong>Svar: B – bortfallsfel.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Felet uppstår efter att personer redan valts ut, eftersom en stor del av dem inte lämnar något svar.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.65",
@@ -59033,11 +59140,7 @@ window.BANKMA1 = [
       null
     ],
     "tolerans": null,
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
+    "självrättning": false,
     "formaga": [
       "resonemang"
     ],
@@ -59052,7 +59155,10 @@ window.BANKMA1 = [
       "kort_text",
       null
     ],
-    "ledtrad": "<p>Fråga: spelar ordningen roll, får samma objekt väljas igen och finns villkor? Rita gärna ett träddiagram eller räkna steg för steg.</p>"
+    "ledtrad": "<p>Skilj på målgruppen för slutsatsen och de personer som faktiskt mäts. Fundera sedan på kostnad och praktisk genomförbarhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.66",
@@ -59066,19 +59172,22 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En skola vill undersöka skolmaten. Vilket alternativ ger sannolikt ett mer representativt urval?</p><p>A: 80 elever som frivilligt svarar på skolans Instagramkonto.<br>B: 80 elever som slumpas från skolans elevregister.</p><p>Motivera kort.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>B.</strong> Det slumpade urvalet ger elever från hela skolan möjlighet att komma med. I alternativ A väljer eleverna själva om de vill svara, och elever som inte följer kontot nås inte.</p></div></div>",
+    "s": "<p>Det slumpade urvalet från elevregistret ger elever från hela skolan möjlighet att bli valda. Självurval på ett socialt konto kan både missa elever och gynna dem som själva vill svara.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>B. Det slumpade urvalet ger elever från hela skolan möjlighet att komma med.</p>"
+    "ledtrad": "<p>Vilken metod ger hela skolans elever en rimlig chans att komma med utan att de själva först måste anmäla intresse?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.67",
@@ -59155,19 +59264,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett spridningsdiagram visar punkter mycket nära en fallande rät linje. Hur beskrivs korrelationen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Svar:</strong> <strong>Stark negativ korrelation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Två punktdiagram visar båda en fallande trend. I diagram A ligger punkterna mycket tätt kring en fallande linje. I diagram B ligger de betydligt mer utspridda kring en fallande linje.</p><p>Vilket diagram har den starkaste negativa korrelationen?</p><p>A. Diagram A<br>B. Diagram B<br>C. De är lika starka<br>D. Det går inte att jämföra eftersom båda är negativa</p>",
+    "s": "<p>Styrkan avgörs av hur tätt punkterna följer trenden, inte bara av riktningen. Diagram A är därför starkare negativt korrelerat.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Negativ beskriver riktningen. Stark eller svag beskriver hur väl punkterna följer den fallande trenden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.70",
@@ -59185,14 +59297,18 @@ window.BANKMA1 = [
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
+      "resonemang",
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Jämför mönstret med och utan den avvikande punkten. En avvikare ska inte tas bort automatiskt – fundera först på varför den finns.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.71",
@@ -59205,19 +59321,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"punktdiagram utan tydlig korrelation\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"145.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"73.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"169.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"97.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"193.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"121.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"145.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p>Punkterna visar ingen tydlig stigande eller fallande trend.</p><p><strong>Svar:</strong> <strong>Ingen tydlig korrelation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"punktdiagram utan tydlig korrelation\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"145.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"73.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"169.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"97.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"193.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"121.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"145.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span><p>A. Stark positiv korrelation<br>B. Stark negativ korrelation<br>C. Ingen tydlig korrelation<br>D. Svag negativ korrelation</p>",
+    "s": "<p>Punkterna visar ingen stabil stigande eller fallande tendens.</p><p><strong>Svar: C – ingen tydlig korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Följ punktmolnet från vänster till höger: finns en konsekvent uppåt- eller nedåtriktning?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.72",
@@ -59243,7 +59362,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Granska två ord i påståendet var för sig: ”orsakar” och ”exakt samma höjning”. Vad krävs för att kunna säga respektive sak?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.73",
@@ -59256,19 +59378,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Spridningsdiagrammet visar ett samband mellan \\(x\\) och \\(y\\).</p><span class=\"fig\"><svg width=\"450\" height=\"270\" viewBox=\"0 0 450 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"spridningsdiagram med tydlig negativ korrelation\"><rect x=\"1\" y=\"1\" width=\"448\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"50\" y1=\"230\" x2=\"420\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"50\" y1=\"25\" x2=\"50\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"105.0\" cy=\"53.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"127.0\" cy=\"68.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"149.0\" cy=\"74.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"171.0\" cy=\"86.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"187.5\" cy=\"95.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"209.5\" cy=\"107.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"231.5\" cy=\"110.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"253.5\" cy=\"125.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"270.0\" cy=\"128.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"292.0\" cy=\"140.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"314.0\" cy=\"149.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"336.0\" cy=\"155.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"352.5\" cy=\"164.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"374.5\" cy=\"173.0\" r=\"3.5\" fill=\"#3F7FB8\"/><text x=\"405\" y=\"248\" font-family=\"monospace\" font-size=\"11\">x</text><text x=\"35\" y=\"38\" font-family=\"monospace\" font-size=\"11\">y</text></svg></span><p>Beskriv korrelationens riktning och ungefärliga styrka.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Svar:</strong> <strong>Stark negativ korrelation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Spridningsdiagrammet visar ett samband mellan \\(x\\) och \\(y\\).</p><span class=\"fig\"><svg width=\"450\" height=\"270\" viewBox=\"0 0 450 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"spridningsdiagram med tydlig negativ korrelation\"><rect x=\"1\" y=\"1\" width=\"448\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"50\" y1=\"230\" x2=\"420\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"50\" y1=\"25\" x2=\"50\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"105.0\" cy=\"53.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"127.0\" cy=\"68.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"149.0\" cy=\"74.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"171.0\" cy=\"86.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"187.5\" cy=\"95.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"209.5\" cy=\"107.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"231.5\" cy=\"110.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"253.5\" cy=\"125.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"270.0\" cy=\"128.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"292.0\" cy=\"140.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"314.0\" cy=\"149.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"336.0\" cy=\"155.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"352.5\" cy=\"164.0\" r=\"3.5\" fill=\"#3F7FB8\"/><circle cx=\"374.5\" cy=\"173.0\" r=\"3.5\" fill=\"#3F7FB8\"/><text x=\"405\" y=\"248\" font-family=\"monospace\" font-size=\"11\">x</text><text x=\"35\" y=\"38\" font-family=\"monospace\" font-size=\"11\">y</text></svg></span><p>Beskriv korrelationens riktning och ungefärliga styrka.</p><p>A. Stark positiv korrelation<br>B. Stark negativ korrelation<br>C. Ingen tydlig korrelation<br>D. Svag negativ korrelation</p>",
+    "s": "<p>Punktmolnet har tydlig fallande riktning och liten spridning kring den fallande trenden.</p><p><strong>Svar: B – stark negativ korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Bestäm riktningen när x ökar och bedöm sedan hur samlat punktmolnet är.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.74",
@@ -59293,7 +59418,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>a) Inom både grupp A och grupp B är trenden negativ: \\(y\\) minskar när \\(x\\) ökar.</p>"
+    "ledtrad": "<p>Beskriv först varje färggrupp för sig. Jämför sedan med riktningen du ser när alla punkter betraktas som en enda grupp.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.75",
@@ -59306,19 +59434,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"punktdiagram med tydlig negativ korrelation\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"49.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"73.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"85.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"116.2\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"123.4\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"157.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"197.8\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p>När \\(x\\) ökar tenderar \\(y\\) att minska.</p><p><strong>Svar:</strong> <strong>Negativ korrelation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"punktdiagram med tydlig negativ korrelation\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"49.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"73.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"85.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"116.2\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"123.4\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"157.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"197.8\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span><p>A. Positiv korrelation<br>B. Negativ korrelation<br>C. Ingen tydlig korrelation<br>D. U-format samband</p>",
+    "s": "<p>När x ökar tenderar y att minska. Det är negativ korrelation.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Se om punktmolnet överlag stiger eller faller när du går åt höger.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.76",
@@ -59331,19 +59462,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Punktdiagrammet visar ett tydligt mönster, men inte ett ungefär linjärt sådant.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"U-format punktdiagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"49.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"121.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"121.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"49.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span><p>En elev säger: ”Det finns inget samband eftersom punkterna inte följer en rät linje.” Bedöm påståendet.</p>",
-    "s": "<p><strong>Steg 1:</strong> Påståendet är för starkt. Punkterna visar ett tydligt U-format samband: \\(y\\) minskar först och ökar sedan.</p><p><strong>Svar:</strong> <strong>Det kan alltså finnas ett tydligt samband även om den linjära korrelationen är svag.</strong></p>",
+    "t": "<p>Punktdiagrammet visar ett tydligt mönster, men inte ett ungefär linjärt sådant.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"U-format punktdiagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"49.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"121.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"121.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"49.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span><p>En elev säger: ”Det finns inget samband eftersom punkterna inte följer en rät linje.” Vilken bedömning är bäst?</p><p>A. Påståendet är fel: ett tydligt icke-linjärt samband kan finnas även om den linjära korrelationen är svag.<br>B. Påståendet är rätt: alla matematiska samband måste synas som räta linjer i ett punktdiagram.<br>C. Påståendet är rätt: ett U-format mönster betyder att variablerna är oberoende.<br>D. Påståendet är fel: ett U-format mönster innebär alltid stark positiv linjär korrelation.</p>",
+    "s": "<p>Punkterna visar ett tydligt U-format mönster. Ett samband behöver alltså inte vara linjärt.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
+      "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Skilj på ”inget samband” och ”inget linjärt samband”.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.77",
@@ -59356,19 +59491,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"195.0\" x2=\"365\" y2=\"195.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"195\" x2=\"55.0\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"191.0\" x2=\"55.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"55.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">0</text>\n<line x1=\"93.8\" y1=\"191.0\" x2=\"93.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"93.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">1</text>\n<line x1=\"132.5\" y1=\"191.0\" x2=\"132.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"132.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"171.2\" y1=\"191.0\" x2=\"171.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"171.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">3</text>\n<line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"210.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"248.8\" y1=\"191.0\" x2=\"248.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"248.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">5</text>\n<line x1=\"287.5\" y1=\"191.0\" x2=\"287.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"287.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"326.2\" y1=\"191.0\" x2=\"326.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"326.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">7</text>\n<line x1=\"365.0\" y1=\"191.0\" x2=\"365.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"365.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"195.0\" x2=\"59.0\" y2=\"195.0\" stroke=\"#8A858E\"/>\n<line x1=\"51.0\" y1=\"170.7\" x2=\"59.0\" y2=\"170.7\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"173.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"51.0\" y1=\"146.4\" x2=\"59.0\" y2=\"146.4\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"149.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"51.0\" y1=\"122.1\" x2=\"59.0\" y2=\"122.1\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"125.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"51.0\" y1=\"97.9\" x2=\"59.0\" y2=\"97.9\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"100.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"73.6\" x2=\"59.0\" y2=\"73.6\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"76.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">10</text>\n<line x1=\"51.0\" y1=\"49.3\" x2=\"59.0\" y2=\"49.3\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"52.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">12</text>\n<line x1=\"51.0\" y1=\"25.0\" x2=\"59.0\" y2=\"25.0\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">14</text>\n<circle cx=\"93.8\" cy=\"110.0\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"132.5\" cy=\"49.3\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"171.2\" cy=\"146.4\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"210.0\" cy=\"73.6\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"248.8\" cy=\"122.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"287.5\" cy=\"37.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"326.2\" cy=\"134.3\" r=\"4.2\" fill=\"#3F7FB8\"/>\n</svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p>Punkterna visar ingen stabil uppåtgående eller nedåtgående trend. De ligger alltså inte samlade kring någon tydligt stigande eller fallande linje.</p><p><strong>Svar:</strong> ingen tydlig korrelation.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"195.0\" x2=\"365\" y2=\"195.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"195\" x2=\"55.0\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"191.0\" x2=\"55.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"55.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">0</text>\n<line x1=\"93.8\" y1=\"191.0\" x2=\"93.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"93.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">1</text>\n<line x1=\"132.5\" y1=\"191.0\" x2=\"132.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"132.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"171.2\" y1=\"191.0\" x2=\"171.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"171.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">3</text>\n<line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"210.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"248.8\" y1=\"191.0\" x2=\"248.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"248.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">5</text>\n<line x1=\"287.5\" y1=\"191.0\" x2=\"287.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"287.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"326.2\" y1=\"191.0\" x2=\"326.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"326.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">7</text>\n<line x1=\"365.0\" y1=\"191.0\" x2=\"365.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"365.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"195.0\" x2=\"59.0\" y2=\"195.0\" stroke=\"#8A858E\"/>\n<line x1=\"51.0\" y1=\"170.7\" x2=\"59.0\" y2=\"170.7\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"173.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"51.0\" y1=\"146.4\" x2=\"59.0\" y2=\"146.4\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"149.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"51.0\" y1=\"122.1\" x2=\"59.0\" y2=\"122.1\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"125.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"51.0\" y1=\"97.9\" x2=\"59.0\" y2=\"97.9\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"100.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"73.6\" x2=\"59.0\" y2=\"73.6\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"76.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">10</text>\n<line x1=\"51.0\" y1=\"49.3\" x2=\"59.0\" y2=\"49.3\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"52.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">12</text>\n<line x1=\"51.0\" y1=\"25.0\" x2=\"59.0\" y2=\"25.0\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">14</text>\n<circle cx=\"93.8\" cy=\"110.0\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"132.5\" cy=\"49.3\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"171.2\" cy=\"146.4\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"210.0\" cy=\"73.6\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"248.8\" cy=\"122.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"287.5\" cy=\"37.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"326.2\" cy=\"134.3\" r=\"4.2\" fill=\"#3F7FB8\"/>\n</svg></span><p>A. Stark positiv korrelation<br>B. Stark negativ korrelation<br>C. Ingen tydlig korrelation<br>D. Svag negativ korrelation</p>",
+    "s": "<p>Punkterna visar ingen stabil uppåt- eller nedåtriktning.</p><p><strong>Svar: C.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Försök lägga en stigande eller fallande linje genom punktmolnet. Finns en tydlig riktning?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.78",
@@ -59404,7 +59542,10 @@ window.BANKMA1 = [
       "kort_text",
       "kort_text"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Positiv betyder att variablerna tenderar att öka tillsammans, negativ att den ena minskar när den andra ökar. Om ingen riktning syns är korrelationen svag eller saknas.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.79",
@@ -59429,7 +59570,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Problemet är att ett samband mellan två variabler antas bero på att den ena orsakar den andra, utan belägg för det.</p>"
+    "ledtrad": "<p>Vilka samhällsfaktorer skulle kunna bidra både till hög internetanvändning och hög medellivslängd?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "5.80",
@@ -59442,19 +59586,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bland barn finns ett starkt samband mellan skostorlek och läsförmåga. Betyder det att större fötter gör barn bättre på att läsa?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nej.</strong> Ålder är en rimlig bakomliggande faktor: äldre barn har ofta både större fötter och bättre läsförmåga.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Bland barn finns ett starkt samband mellan skostorlek och läsförmåga. Vilken bakomliggande variabel är den mest rimliga förklaringen?</p><p>A. Barnets ålder<br>B. Färgen på skorna<br>C. Antalet bokstäver i barnets namn<br>D. Veckodagen då lästestet görs</p>",
+    "s": "<p>Äldre barn har i genomsnitt både större fötter och bättre utvecklad läsförmåga. Ålder kan därför skapa sambandet utan att skostorleken orsakar läsförmågan.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": "Nej",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Sök en variabel som naturligt förändras samtidigt med både kroppsstorlek och läsutveckling.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.81",
@@ -59465,21 +59612,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>På sommaren ökar både glassförsäljning och antal badolyckor. Betyder det att glass orsakar badolyckor? Förklara.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nej.</strong> En tredje faktor, till exempel varmt väder, kan påverka båda.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På sommaren ökar både glassförsäljning och antal badolyckor. Vilken beskrivning av sambandet är mest rimlig?</p><p>A. Glassförsäljning orsakar badolyckor.<br>B. Badolyckor orsakar ökad glassförsäljning.<br>C. Varmt väder kan öka både glassköp och badande och därmed påverka båda variablerna.<br>D. Eftersom variablerna ökar samtidigt finns ingen möjlig bakomliggande faktor.</p>",
+    "s": "<p>Varmt väder gör både glass och bad mer vanliga. Det är därför en rimlig gemensam bakomliggande faktor.</p><p><strong>Svar: C.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "resonemang"
+      "begrepp"
     ],
-    "ledtrad": "<p>Nej. En tredje faktor, till exempel varmt väder, kan påverka båda.</p>"
+    "ledtrad": "<p>Sök en sommarfaktor som kan påverka båda observationerna åt samma håll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.82",
@@ -59497,14 +59647,17 @@ window.BANKMA1 = [
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Jämför med vad som kunde ha hänt även utan kamerorna: naturlig variation, andra samtidiga förändringar och att platserna valdes just efter ett ovanligt olycksår.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.83",
@@ -59529,7 +59682,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Nej. Korrelation visar inte i sig kausalitet; andra variabler kan påverka båda.</p>"
+    "ledtrad": "<p>Nämn minst en annan faktor som kan påverka både hur många böcker ett hem har och skolresultat.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "5.84",
@@ -59542,20 +59698,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>På dagar då många använder paraply är gatorna oftare blöta. Ge en rimlig gemensam orsak till båda observationerna.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Regn.</strong> Regn gör både att fler använder paraply och att gatorna blir blöta.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>På dagar då många använder paraply är gatorna oftare blöta. Ge en rimlig gemensam orsak till båda observationerna.</p><p>A. Regn<br>B. Paraplyernas färg<br>C. Antalet bussar<br>D. Gatans längd</p>",
+    "s": "<p>Regn gör både att fler använder paraply och att gatorna blir blöta.</p><p><strong>Svar: A – regn.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Sök en händelse som direkt kan förklara både paraplyanvändningen och de blöta gatorna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.85",
@@ -59573,14 +59732,17 @@ window.BANKMA1 = [
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Försök hitta två olika typer av förklaringar, till exempel en bakomliggande faktor och en möjlig omvänd riktning i sambandet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.86",
@@ -59605,7 +59767,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Eleverna väljer själva hur mycket de använder appen. Hur kan det påverka jämförelsen? Fundera sedan på hur grupperna skulle kunna göras mer jämförbara från början.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.87",
@@ -59618,20 +59783,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ju fler brandmän som skickas till en brand, desto större blir ofta skadorna. Är det rimligt att säga att fler brandmän orsakar större skador?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nej.</strong> Större bränder kräver fler brandmän och ger samtidigt större skador. Brandens storlek är en bakomliggande faktor.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Ju fler brandmän som skickas till en brand, desto större blir ofta skadorna. Vilken förklaring är mest rimlig?</p><p>A. Fler brandmän gör i regel branden större.<br>B. Brandens allvarlighetsgrad kan både leda till större skador och till att fler brandmän skickas.<br>C. Skadornas storlek bestäms av brandmännens antal och inget annat.<br>D. Sambandet visar att färre brandmän alltid minskar skadorna.</p>",
+    "s": "<p>Allvarliga bränder leder både till större skador och större räddningsinsatser. Brandens allvarlighetsgrad är alltså en rimlig bakomliggande faktor.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": "Nej",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Vilken egenskap hos själva branden kan påverka båda variablerna?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.88",
@@ -59656,7 +59824,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Pröva båda riktningarna: kaffe → stress och stress → kaffe. Beskriv en rimlig mekanism för vardera.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.90",
@@ -59669,19 +59840,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Vad menas ungefär med att en skillnad är statistiskt signifikant?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Att skillnaden är så stor i förhållande till slumpvariationen att den inte rimligen förklaras av slumpen ensam, givet den använda metoden.</p></div></div>",
+    "t": "<p>Vilken beskrivning fångar bäst vad ”statistiskt signifikant” ungefär betyder?</p><p>A. Skillnaden är så stor att den måste vara viktig i praktiken.<br>B. Resultatet ger tillräckligt starkt stöd mot att den observerade skillnaden enbart beror på slumpvariation, enligt den valda testnivån.<br>C. De två grupperna är garanterat olika i varje tänkbar population.<br>D. Undersökningen är automatiskt representativ för hela befolkningen.</p>",
+    "s": "<p>Statistisk signifikans handlar om hur förenligt resultatet är med slumpvariation under en statistisk nollmodell. Det säger inte automatiskt att skillnaden är stor, praktiskt viktig eller att urvalet är representativt.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Fokusera på slumpvariation. Praktisk betydelse och representativitet är separata frågor.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.91",
@@ -59707,7 +59881,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>a) Sant. Med tillräckligt stora grupper kan även små skillnader vara systematiska snarare än slumpmässiga</p>"
+    "ledtrad": "<p>Pröva påståendena mot två idéer: stora stickprov gör små skillnader lättare att skilja från slump, medan små stickprov kan ge stor slumpvariation.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.92",
@@ -59721,7 +59898,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Två grupper får något olika medelvärden i en undersökning. Förklara varför en liten skillnad inte automatiskt betyder att det finns en verklig skillnad mellan grupperna.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera vilken statistisk storhet som frågan gäller och vad den betyder i sammanhanget. Beräkna först, men avsluta med en tolkning med ord.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skillnaden kan bero på slumpvariation i urvalet. Man behöver bedöma om resultatet är statistiskt signifikant och väga in urvalets storlek och osäkerhet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att sannolikheter ligger mellan 0 och 1 och att spridningsmått inte kan vara negativa.</p></div>",
+    "s": "<p>Två stickprov från samma population får sällan exakt samma medelvärde. En liten observerad skillnad kan därför uppstå genom slumpvariation även om gruppernas bakomliggande populationer inte skiljer sig.</p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
@@ -59732,7 +59909,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Tänk på hur två nya slumpmässiga stickprov från samma population kan få lite olika medelvärden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "5.93",
@@ -59746,7 +59926,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En webbenkät med 25 000 svar visar en skillnad på 2 procentenheter mellan två grupper, och analysen anger att skillnaden är statistiskt signifikant. Enkäten spreds endast via ett forum som främst används av personer med starkt intresse för ämnet.</p><p>Bedöm vad signifikansen säger och vad den inte säger om slutsatsen för hela befolkningen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Det stora antalet svar kan göra att en liten skillnad går att skilja från slumpvariation <em>bland de svarande</em>.</p><p>Men statistisk signifikans tar inte automatiskt bort <strong>snedvridning i urvalet</strong>. Om forumets användare skiljer sig systematiskt från befolkningen kan resultatet ändå vara missvisande för hela befolkningen.</p><p><strong>Svar:</strong> <strong>Många svar kan minska osäkerheten som beror på slumpen, men de gör inte ett snedvridet urval representativt.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Signifikansen kan säga att skillnaden på 2 procentenheter är svår att förklara med enbart slumpvariation <em>bland de svar som faktiskt samlats in</em>. Den tar däremot inte bort självurvalet. Om forumets användare inte representerar hela befolkningen kan resultatet fortfarande vara systematiskt snedvridet.</p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
@@ -59757,7 +59937,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Men statistisk signifikans tar inte automatiskt bort snedvridning i urvalet. Om forumets användare skiljer sig systematiskt från befolkningen kan resultatet ändå vara missvisande för hela befolkningen.</p>"
+    "ledtrad": "<p>Separera två felkällor: slumpmässig osäkerhet i ett stort stickprov och systematiskt urvalsfel i vilka som alls kunde svara.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.94",
@@ -59771,7 +59954,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>I en mycket stor undersökning skiljer sig två grupper med 0,4 procentenheter, och skillnaden rapporteras som statistiskt signifikant. En tidningsrubrik säger: ”Enorm skillnad mellan grupperna.”</p><p>Vad är problematiskt med rubriken?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Statistisk signifikans säger inte att skillnaden är stor. Med många observationer kan även en mycket liten skillnad bli statistiskt signifikant.</p><p><strong>Svar:</strong> <strong>Rubriken blandar ihop statistisk säkerhet med praktisk storlek.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>”Statistiskt signifikant” betyder inte ”stor”. Med ett mycket stort stickprov kan även 0,4 procentenheters skillnad bli statistiskt tydlig, men den praktiska betydelsen kan ändå vara liten.</p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
@@ -59782,7 +59965,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Jämför orden ”signifikant” och ”enorm”. Beskriver de samma sak?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.95",
@@ -59795,20 +59981,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två mycket små grupper får olika medelvärden. Varför bör man vara försiktig med att tolka skillnaden?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera vilken statistisk storhet som frågan gäller och vad den betyder i sammanhanget. Beräkna först, men avsluta med en tolkning med ord.</p><div class=\"facit-arbete\"><p><strong>Slumpvariation får större betydelse i små grupper.</strong> Ett fåtal ovanliga observationer kan påverka resultatet mycket.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att sannolikheter ligger mellan 0 och 1 och att spridningsmått inte kan vara negativa.</p></div>",
+    "t": "<p>Två mycket små grupper får olika medelvärden. Vilken är den viktigaste anledningen att vara försiktig med tolkningen?</p><p>A. Små grupper kan ha stor slumpvariation, så skillnaden kan ändras mycket om några observationer byts ut.<br>B. Små grupper gör att medelvärden aldrig kan beräknas.<br>C. Skillnader mellan små grupper är alltid statistiskt signifikanta.<br>D. Stickprovsstorleken påverkar bara enheter och avrundning.</p>",
+    "s": "<p>I små stickprov får enskilda observationer stor påverkan och slumpvariation blir större.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Slumpvariation får större betydelse i små grupper. Ett fåtal ovanliga observationer kan påverka resultatet mycket.</p>"
+    "ledtrad": "<p>Hur mycket kan en enda observation flytta medelvärdet när gruppen är liten?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.96",
@@ -59833,7 +60022,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>”Inte signifikant” betyder inte att den observerade skillnaden är falsk. Fundera på vilken roll liten gruppstorlek och variation spelar för osäkerheten.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.97",
@@ -59862,7 +60054,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>a) ”Inte signifikant” betyder otillräckligt stöd, inte exakt likhet. b) Signifikans och effektstorlek är olika begrepp.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.98",
@@ -59887,7 +60082,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Signifikans påverkas inte bara av gruppstorlek och skillnadens storlek utan också av variationen i resultaten och hur jämförelsen/testet är gjort.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.99",
@@ -59898,21 +60096,44 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>En gymnasieskola har 900 elever: 300 i årskurs 1, 330 i årskurs 2 och 270 i årskurs 3. Man vill göra ett urval på 90 elever som har samma årskursfördelning som hela skolan.</p><p>Hur många bör väljas från varje årskurs?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Urvalet är 10 % av skolan.</p><p>Åk 1: \\(300\\cdot0,10=30\\).<br>Åk 2: \\(330\\cdot0,10=33\\).<br>Åk 3: \\(270\\cdot0,10=27\\).</p><p><strong>Svar:</strong> <strong>30, 33 och 27 elever.</strong></p></div></div>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      33,
+      27
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
     "formaga": [
+      "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Urvalet 90 av 900 är 10 % av skolan. Använd samma andel inom varje årskurs.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "åk 1",
+      "åk 2",
+      "åk 3"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.100",
@@ -59925,20 +60146,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En skola vill veta vad alla elever tycker om lunchen. Vilket urval är bättre: fråga bara elevrådet eller slumpa elever från hela skolan?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett bra urval ska så långt som möjligt representera hela skolan. Elevrådet är en särskild grupp, medan ett slumpmässigt urval från hela skolan ger fler elever en chans att komma med.</p><p><strong>Svar:</strong> slumpa elever från hela skolan.</p></div></div>",
+    "t": "<p>En skola har tre program med mycket olika storlek. Man vill att ett urval säkert ska innehålla elever från alla tre program och samtidigt väljas slumpmässigt inom programmen. Vilken metod passar bäst?</p><p>A. Slumpa alla elever i en enda gemensam lista och hoppas att alla program kommer med.<br>B. Dela först eleverna efter program och slumpa sedan ett bestämt antal inom varje program.<br>C. Fråga de första eleverna som kommer till matsalen från varje program.<br>D. Låta elever från varje program själva anmäla sig tills platserna är fyllda.</p>",
+    "s": "<p>Genom att dela populationen i relevanta grupper och sedan slumpa inom varje grupp säkerställer man representation samtidigt som urvalet fortfarande bygger på slumpning.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Vilken metod kombinerar gruppindelning med slumpning?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.101",
@@ -59949,8 +60172,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En enkät skickas till ett slumpmässigt urval av 600 personer. Svarsfrekvensen blir 80 % bland personer under 40 år men bara 35 % bland personer över 65 år.</p><p>Kan man fortfarande utgå från att de inkomna svaren är representativa bara för att det ursprungliga urvalet var slumpmässigt? Resonera och föreslå en förbättring.</p>",
     "s": "<p><strong>Nej.</strong> Det ursprungliga urvalet kan vara bra, men olika svarsfrekvens skapar snedvridning på grund av bortfall. Äldre personer riskerar att bli underrepresenterade bland de faktiska svaren.</p><p>En förbättring är att följa upp grupper med lågt deltagande, använda flera svarssätt och kontrollera hur de svarande fördelar sig jämfört med hela gruppen som undersökningen ska uttala sig om.</p>",
     "familj": "Urval och urvalsmetoder",
@@ -59963,7 +60186,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Nej. Det ursprungliga urvalet kan vara bra, men olika svarsfrekvens skapar snedvridning på grund av bortfall.</p>"
+    "ledtrad": "<p>Det ursprungliga urvalet och de personer som faktiskt svarar är två olika saker. Jämför svarsfrekvensen mellan åldersgrupperna.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.102",
@@ -59977,18 +60203,40 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Avgör om urvalet är sannolikt representativt för hela populationen som undersöks. Motivera kort.</p><p>a) Ett företag vill veta vad alla anställda tycker om lönerna. Man skickar enkäten till samtliga anställda.<br>b) En skola vill veta vad eleverna tycker om skolmaten. Man frågar bara de elever som äter i matsalen just den dagen enkäten delas ut.<br>c) En kommun vill veta invånarnas åsikt om ett nytt bygge. Man drar ett slumpmässigt urval av 500 personer ur folkbokföringsregistret.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) <strong>Ja</strong>, hela populationen tillfrågas, så det är ingen urvalsfråga alls</p><p>b) <strong>Nej</strong>, elever som är sjuka, har annan sysselsättning eller tar med matsäck missas, och deras åsikter kan skilja sig systematiskt från de som äter i matsalen</p><p>c) <strong>Ja, sannolikt</strong>, ett slumpmässigt urval ur ett register som täcker hela befolkningen ger goda förutsättningar för ett representativt resultat</p></div></div>",
+    "s": "<p>a) <strong>Ja i den mening att hela populationen tillfrågas</strong>, förutsatt att bortfallet inte snedvrider svaren.</p><p>b) <strong>Nej.</strong> Elever som inte äter i matsalen den dagen kan skilja sig systematiskt från dem som gör det.</p><p>c) <strong>Ja, sannolikt.</strong> Ett slumpmässigt urval ur ett register som täcker populationen ger goda förutsättningar för representativitet.</p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "ja",
+      "nej",
+      "ja"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>a) Ja, hela populationen tillfrågas, så det är ingen urvalsfråga alls</p>"
+    "ledtrad": "<p>Fråga för varje fall om alla i målgruppen har rimlig möjlighet att ingå och om någon särskild grupp systematiskt missas.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) representativt?",
+      "b) representativt?",
+      "c) representativt?"
+    ],
+    "svarFormat": [
+      "text",
+      "text",
+      "text"
+    ]
   },
   {
     "id": "5.103",
@@ -60013,7 +60261,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Vad kan hända med en liten undergrupp vid en enda slumpning? Jämför det med att först dela populationen i åldersgrupper.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.104",
@@ -60026,19 +60277,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En skola vill undersöka elevers resvanor men frågar bara elever som cyklar till skolan. Vilket problem finns med urvalet?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Urvalet är inte representativt och är snedvridet mot cyklister.</p></div></div>",
+    "t": "<p>En skola vill undersöka alla elevers resvanor men frågar bara elever som cyklar till skolan. Vilken bedömning är bäst?</p><p>A. Urvalet är snedvridet eftersom elever med andra färdsätt inte kan bli valda.<br>B. Urvalet är representativt eftersom cyklister är lätta att hitta.<br>C. Urvalet är slumpmässigt eftersom cyklisterna kommer vid olika tider.<br>D. Urvalet är en totalundersökning eftersom alla tillfrågade cyklar.</p>",
+    "s": "<p>Urvalsmetoden utesluter elever som går, åker buss eller bil. Därför kan den inte representera hela skolans resvanor.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Urvalet är inte representativt och är snedvridet mot cyklister.</p>"
+    "ledtrad": "<p>Vilka elever har ingen möjlighet alls att hamna i urvalet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.105",
@@ -60056,7 +60310,7 @@ window.BANKMA1 = [
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
@@ -60064,7 +60318,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Räkna först ut det exakt proportionella urvalet. Jämför därefter antalet från program C med kravet på minst 25.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.106",
@@ -60075,22 +60332,25 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En förening skickar en enkät till alla sina 350 medlemmar. Är det ett urval av medlemmarna eller försöker man göra en totalundersökning?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Eftersom alla 350 medlemmar tillfrågas försöker man undersöka hela populationen, inte bara ett urval.</p><p><strong>Svar:</strong> en totalundersökning.</p></div></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En förening skickar en enkät till alla sina 350 medlemmar, men bara 210 svarar. Vilken beskrivning är mest korrekt?</p><p>A. Det är ett vanligt slumpmässigt stickprov, eftersom 210 personer svarade.<br>B. Man försökte göra en totalundersökning, men bortfallet gör att de inkomna svaren ändå kan bli snedvridna.<br>C. Det är en fullständig totalundersökning, eftersom enkäten skickades till alla.<br>D. Bortfall kan inte påverka representativiteten när alla först fick enkäten.</p>",
+    "s": "<p>Alla medlemmar tillfrågades, så avsikten var en totalundersökning. Men 140 personer svarade inte, och om deras åsikter skiljer sig från de svarandes kan resultatet bli snedvridet.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Eftersom alla 350 medlemmar tillfrågas försöker man undersöka hela populationen, inte bara ett urval.</p>"
+    "ledtrad": "<p>Skilj på vilka som får enkäten och vilka som faktiskt lämnar data.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.107",
@@ -60101,21 +60361,24 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En kommun frågar bara personer som besöker simhallen om hur ofta invånarna motionerar. Förklara varför urvalet kan ge ett missvisande resultat.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Personer i simhallen är sannolikt mer aktiva än genomsnittet. Urvalet är därför snedvridet och inte representativt.</p></div></div>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kommun vill uppskatta hur ofta invånarna motionerar men frågar bara personer som besöker simhallen. Vilken förklaring beskriver bäst problemet?</p><p>A. Simhallsbesökare kan vara mer fysiskt aktiva än invånare i genomsnitt, så motion riskerar att överskattas.<br>B. Simhallsbesökare är alltid exakt lika aktiva som övriga invånare, så urvalet blir slumpmässigt.<br>C. Problemet är bara att simhallen har för få omklädningsrum, inte vilka personer som väljs.<br>D. Urvalet blir automatiskt representativt så länge tillräckligt många personer i simhallen frågas.</p>",
+    "s": "<p>Platsen där urvalet görs gynnar personer som redan ägnar sig åt en fysisk aktivitet. Det kan ge en systematisk överskattning av motionsvanorna.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Personer i simhallen är sannolikt mer aktiva än genomsnittet. Urvalet är därför snedvridet och inte representativt.</p>"
+    "ledtrad": "<p>Fundera på om människor som befinner sig i en simhall kan skilja sig från hela befolkningen just i den egenskap som mäts.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.108",
@@ -60128,19 +60391,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En skola har 1 200 elever. Man lottar fram 100 elevnummer från hela elevregistret och frågar dessa elever. Vilken styrka har detta urval jämfört med att bara fråga elever i cafeterian?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Alla elever i registret får möjlighet att bli valda. Det <strong>minskar risken för ett systematiskt snedvridet urval</strong> jämfört med att bara fråga en viss grupp.</p></div></div>",
+    "t": "<p>En skola har 1 200 elever och lottar fram 100 elevnummer ur hela elevregistret. Vilket påstående är mest korrekt?</p><p>A. Slumpningen minskar risken för systematiskt urval, men urvalet kan ändå av slump avvika något från hela skolan.<br>B. Slumpningen garanterar att exakt 1/12 av varje program, kön och årskurs kommer med.<br>C. Slumpningen gör bortfall omöjligt eftersom de utvalda eleverna måste svara.<br>D. Slumpningen är sämre än att bara fråga elever i cafeterian eftersom den inte väljer de mest lättillgängliga.</p>",
+    "s": "<p>Ett slumpmässigt urval ger alla elever möjlighet att bli valda och minskar systematisk snedvridning. Det garanterar däremot inte att ett enskilt stickprov exakt speglar varje egenskap i populationen.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
+      "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från populationen som undersökningen vill säga något om. Bedöm sedan om urvalsmetoden ger ett representativt stickprov eller om vissa grupper riskerar att över- eller underrepresenteras.</p>"
+    "ledtrad": "<p>Slumpning minskar systematiska fel men tar inte bort slumpvariation.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.109",
@@ -60158,14 +60425,17 @@ window.BANKMA1 = [
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Fundera separat på vilka kunder som väljer att skanna QR-koden och hur belöningen kan påverka vilka som svarar eller hur noggrant de svarar.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.110",
@@ -60178,19 +60448,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En enkät frågar: ”Hur mycket uppskattar du vår utmärkta kundservice?” Vilken felkälla finns i frågan?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Frågan är <strong>ledande</strong> eftersom ordet ”utmärkta” antyder vilket svar som förväntas.</p></div></div>",
+    "t": "<p>En enkät frågar: ”Hur mycket uppskattar du vår utmärkta kundservice?” Vilken felkälla finns i frågan?</p><p>A. Frågan är ledande genom ordet ”utmärkta”.<br>B. Frågan har ett kalibreringsfel i en mätapparat.<br>C. Frågan skapar bortfall eftersom ingen får svara.<br>D. Frågan använder fel fysisk enhet.</p>",
+    "s": "<p>Ordet ”utmärkta” värderar kundservicen redan i frågan och kan påverka svaren.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Finns det ett ord i frågan som signalerar hur tjänsten förväntas bedömas?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.111",
@@ -60203,19 +60476,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En enkät frågar: ”Tycker du också att skolans fantastiska nya matsal bör behållas?” Beskriv en felkälla.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Frågan är ledande och kan påverka svaren.</p></div></div>",
+    "t": "<p>En enkät frågar: ”Tycker du också att skolans fantastiska nya matsal bör behållas?” Beskriv en felkälla.</p><p>A. Slumpmässigt mätfel<br>B. Ledande formulering<br>C. Enhetsfel<br>D. För stor stickprovsstorlek</p>",
+    "s": "<p>Orden ”också” och ”fantastiska” gör frågan ledande.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Vilka ord gör det svårare för respondenten att möta frågan neutralt?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.112",
@@ -60228,19 +60504,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en nätomröstning kan samma person rösta flera gånger. Beskriv en felkälla som detta skapar.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Resultatet kan överrepresentera personer som röstar upprepade gånger och därför inte spegla målgruppen.</p></div></div>",
+    "t": "<p>I en nätomröstning kan samma person rösta flera gånger. Vilket problem skapar detta främst?</p><p>A. Vissa personers åsikter kan räknas flera gånger och få för stor vikt.<br>B. Alla svar blir automatiskt slumpmässiga.<br>C. Mätinstrumentet visar alltid ett konstant fel.<br>D. Populationen blir större för varje röst.</p>",
+    "s": "<p>Om en person kan skicka in flera röster får deltagarna olika stor påverkan och resultatet speglar inte längre en röst per person.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Jämför hur mycket inflytande en person som röstar en gång respektive många gånger får.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.113",
@@ -60265,7 +60544,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Frågan gäller ”typisk bullernivå under veckan”. Hur representativ är just söndag morgon? Tänk på både tid på dygnet och veckodag.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.114",
@@ -60283,14 +60565,17 @@ window.BANKMA1 = [
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "figur",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Ett mycket stort stickprov hjälper mot slumpvariation men inte mot ett systematiskt urval som nästan bara når cyklister.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.115",
@@ -60315,7 +60600,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>a) Vad händer med principen ”en person – ett bidrag”? b) Tänk på tekniska sätt att göra varje deltagare unik.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.116",
@@ -60341,7 +60629,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>För att tolka en skillnad som en förändring behöver jämförelsen vara likvärdig. Här har både frågor och provformat ändrats.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.117",
@@ -60354,19 +60645,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En våg visar alltid 0,8 kg för mycket. Vilken typ av felkälla är detta?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett <strong>systematiskt mätfel</strong>: alla mätningar förskjuts åt samma håll.</p></div></div>",
+    "t": "<p>En våg visar alltid 0,8 kg för mycket. Vilken typ av felkälla är detta?</p><p>A. Slumpmässigt mätfel<br>B. Systematiskt mätfel<br>C. Urvalsfel<br>D. Bortfallsfel</p>",
+    "s": "<p>Vågen förskjuter alla mätningar åt samma håll med samma belopp.</p><p><strong>Svar: B – systematiskt mätfel.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Är felet olika från gång till gång eller pekar det konsekvent åt samma håll?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.118",
@@ -60392,7 +60686,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Vilka ärenden saknas systematiskt när bara avslutade ärenden tas med? Hur påverkar det genomsnittet om just de saknade ärendena tenderar att vara långsamma?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "5.119",
@@ -60790,7 +61087,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.443625",
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -61468,19 +61765,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Punktdiagrammet visar två variabler.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"punktdiagram med tydlig positiv korrelation\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"193.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"145.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"140.2\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"109.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"97.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"65.8\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span><p>Beskriv korrelationen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p>Punkterna ligger ungefär längs en stigande linje.</p><p><strong>Svar:</strong> <strong>Det finns en tydlig positiv korrelation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Punktdiagrammet visar två variabler.</p><span class=\"fig\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"punktdiagram med tydlig positiv korrelation\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"55.0\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"93.9\" y1=\"25\" x2=\"93.9\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"132.8\" y1=\"25\" x2=\"132.8\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"132.8\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"171.7\" y1=\"25\" x2=\"171.7\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"210.6\" y1=\"25\" x2=\"210.6\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"210.6\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"249.4\" y1=\"25\" x2=\"249.4\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"288.3\" y1=\"25\" x2=\"288.3\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"288.3\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"327.2\" y1=\"25\" x2=\"327.2\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"366.1\" y1=\"25\" x2=\"366.1\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"366.1\" y=\"285\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"405.0\" y1=\"25\" x2=\"405.0\" y2=\"265\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"265.0\" x2=\"405\" y2=\"265.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"268.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"241.0\" x2=\"405\" y2=\"241.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"217.0\" x2=\"405\" y2=\"217.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"220.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"193.0\" x2=\"405\" y2=\"193.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"169.0\" x2=\"405\" y2=\"169.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"172.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"145.0\" x2=\"405\" y2=\"145.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"121.0\" x2=\"405\" y2=\"121.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"124.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"97.0\" x2=\"405\" y2=\"97.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"73.0\" x2=\"405\" y2=\"73.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"405\" y2=\"49.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><line x1=\"55\" y1=\"25.0\" x2=\"405\" y2=\"25.0\" stroke=\"#ECE9E5\" stroke-width=\"1\"/><text x=\"47\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"55\" y1=\"265\" x2=\"405\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"265\" x2=\"55\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"405\" y=\"302\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"60\" y=\"17\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">y</text><circle cx=\"93.9\" cy=\"217.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"132.8\" cy=\"193.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"171.7\" cy=\"181.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"210.6\" cy=\"145.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"249.4\" cy=\"140.2\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"288.3\" cy=\"109.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"327.2\" cy=\"97.0\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/><circle cx=\"366.1\" cy=\"65.8\" r=\"5\" fill=\"#3F7FB8\" opacity=\"0.9\"/></svg></span><p>Beskriv korrelationen.</p><p>A. Positiv korrelation<br>B. Negativ korrelation<br>C. Ingen tydlig korrelation<br>D. Endast ett enstaka samband mellan två punkter</p>",
+    "s": "<p>Punktmolnet följer överlag en stigande trend.</p><p><strong>Svar: A – positiv korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Följ punktmolnet från vänster till höger och bedöm om det överlag stiger eller faller.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.151",
@@ -61658,8 +61958,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Två övergångsställen passeras. Vid det första är sannolikheten för rött 0,30 och vid det andra 0,40. Anta oberoende.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram i två steg med sannolikheterna 0,70 och 0,60\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#A6432F\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,6</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,42</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">0,4</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"198.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,28</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">0,3</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,6</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,18</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">0,4</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"390.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,12</text></svg></span><p>Hur stor är sannolikheten att få rött precis en gång?</p>",
     "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p>Rött-grönt: \\(0,30\\cdot0,60=0,18\\). Grönt-rött: \\(0,70\\cdot0,40=0,28\\).</p><p><strong>0,46 = 46 %</strong>.</p>",
     "familj": "Sannolikhet i flera steg",
@@ -61672,7 +61972,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>”Precis en gång” består av två skilda vägar: rött–grönt och grönt–rött.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.156",
@@ -61714,18 +62017,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><p>a) Fyll i de saknade sannolikheterna i diagrammet.<br>b) Bestäm sannolikheten för krona båda gångerna.<br>c) Bestäm sannolikheten för minst en krona.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,25</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text></svg></span>",
+    "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><p>a) Vilket värde ska stå vid båda frågetecknen i diagrammet?<br>b) Bestäm sannolikheten för krona båda gångerna.<br>c) Bestäm sannolikheten för minst en krona.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,25</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text></svg></span>",
     "s": "<p>a) Alla grenar från en punkt ska summera till 1. Den saknade sannolikheten vid \"krona\" i första kastet är \\(1-0{,}5=0{,}5\\), och vid andra grenens \"klave\" är den <strong>0,5</strong> i båda fallen</p><p>b) Multiplicera längs grenarna krona–krona: \\(0{,}5\\cdot0{,}5=\\)<strong>0,25</strong></p><p>c) De grenar som ger minst en krona är krona-krona, krona-klave och klave-krona: \\(0{,}25+0{,}25+0{,}25=\\)<strong>0,75</strong>. Enklare: \\(1-P(\\text{ingen krona})=1-0{,}25=0{,}75\\)</p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "0.5",
-      "0.25",
-      "0.75"
+      0.5,
+      0.25,
+      0.75
     ],
-    "tolerans": null,
+    "tolerans": [
+      1e-9,
+      1e-9,
+      1e-9
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -61759,7 +62066,15 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>Från varje förgrening ska sannolikheterna summera till 1. För ”minst en krona” kan du även använda komplementet ”ingen krona”.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.158",
@@ -61830,20 +62145,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>I en klass med 40 elever har 32 rätt på uppgift 1, 20 rätt på både 1 och 2 och 8 rätt på alla tre. Ingen har rätt på en senare uppgift utan att också ha rätt på de tidigare.</p><p>Hur stor är sannolikheten att en slumpmässigt vald elev har exakt ett eller exakt två rätt?</p>",
+    "t": "<p>I en klass med 40 elever har 32 rätt på uppgift 1, 20 rätt på både 1 och 2 och 8 rätt på alla tre. Ingen har rätt på en senare uppgift utan att också ha rätt på de tidigare.</p><p>Hur stor är sannolikheten att en slumpmässigt vald elev har exakt ett eller exakt två rätt? Svara i procent.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p>Exakt ett: 12. Exakt två: 12. Totalt 24 av 40.</p><p><strong>Svar:</strong> <strong>60 %</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": "60",
-    "tolerans": null,
+    "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Eftersom ingen kan ha rätt på en senare uppgift utan de tidigare kan grupperna räknas som nivåer: exakt ett = rätt på 1 minus rätt på 1 och 2; exakt två = rätt på 1 och 2 minus rätt på alla tre.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.161",
@@ -61855,7 +62173,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Ett rättvist mynt kastas tre gånger. Bestäm sannolikheten att få krona alla tre gångerna.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p><p><strong>Tänk så här:</strong> Skriv sannolikheten som bråk eller decimal i varje steg innan du kombinerar stegen.</p><p>\\((\\frac{1}{2})^3=\\)<strong>\\(\\frac{1}{8}=12,5\\%\\)</strong></p>",
     "familj": "Sannolikhet i flera steg",
@@ -61869,7 +62187,10 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>"
+    "ledtrad": "<p>Tre oberoende krona-resultat kräver tre faktorer (1/2).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.162",
@@ -61911,8 +62232,8 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "3/5/3",
-    "t": "<p>En spelare träffar ett mål med sannolikheten 0,12 per kast. En spelomgång fortsätter tills första träffen. Varje kast kostar 1 poäng och en träff ger 5 poäng.</p><p>a) Sannolikheten för träff på första kastet?<br>b) Sannolikheten att första träffen kommer på tredje kastet?<br>c) Vilka nettovinster är möjliga om träffen kommer inom de fyra första kasten?<br>d) Hur stor är sannolikheten att spelaren går plus?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) 0,12.</p><p>b) \\(0,88^2\\cdot0,12=0,092928\\).</p><p>c) Nettovinst: 4, 3, 2 eller 1 poäng.</p><p>d) Plus fås om träff sker inom fyra kast: \\(1-0,88^4\\approx\\)<strong>0,4003</strong>.</p></div></div>",
+    "t": "<p>En spelare träffar ett mål med sannolikheten 0,12 per kast. Kasten antas oberoende. En spelomgång fortsätter tills första träffen. Varje kast kostar 1 poäng och en träff ger 5 poäng.</p><p>a) Bestäm sannolikheten för träff på första kastet.<br>b) Bestäm sannolikheten att den första träffen kommer på tredje kastet.<br>c) Hur stor blir nettovinsten om den första träffen kommer på fjärde kastet?<br>d) Hur stor är sannolikheten att spelaren går med vinst?</p>",
+    "s": "<p>a) (0,12).</p><p>b) Två missar och sedan träff: (0,88^2cdot0,12=0,092928).</p><p>c) Fyra kast kostar 4 poäng och träffen ger 5, så nettovinsten är (5-4=1) poäng.</p><p>d) Spelaren går plus om första träffen kommer senast på kast 4. Komplementet är fyra missar: (1-0,88^4approx0,4003).</p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": true,
@@ -61920,35 +62241,31 @@ window.BANKMA1 = [
     "rättSvar": [
       0.12,
       0.092928,
-      [
-        4,
-        3,
-        2,
-        1
-      ],
+      1,
       0.4003
     ],
     "tolerans": [
-      0.0001,
-      1e-06,
-      null,
-      0.0001
+      1e-9,
+      0.000001,
+      0,
+      0.0002
     ],
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "problemlösning",
+      "modellering"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a)",
       "b)",
-      "c) möjliga nettovinster",
-      "d) P(plus)"
+      "c)",
+      "d)"
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      "mängd",
+      "numeriskt",
       "numeriskt"
     ],
     "spelDelning": "deluppgifter",
@@ -61982,7 +62299,10 @@ window.BANKMA1 = [
         "niva": "A"
       }
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>I b) behövs två missar före träffen. I d) är komplementet att de fyra första kasten alla missas.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "5.164",
@@ -62051,19 +62371,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"195.0\" x2=\"365\" y2=\"195.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"195\" x2=\"55.0\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"191.0\" x2=\"55.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"55.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">0</text>\n<line x1=\"93.8\" y1=\"191.0\" x2=\"93.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"93.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">1</text>\n<line x1=\"132.5\" y1=\"191.0\" x2=\"132.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"132.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"171.2\" y1=\"191.0\" x2=\"171.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"171.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">3</text>\n<line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"210.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"248.8\" y1=\"191.0\" x2=\"248.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"248.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">5</text>\n<line x1=\"287.5\" y1=\"191.0\" x2=\"287.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"287.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"326.2\" y1=\"191.0\" x2=\"326.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"326.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">7</text>\n<line x1=\"365.0\" y1=\"191.0\" x2=\"365.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"365.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"195.0\" x2=\"59.0\" y2=\"195.0\" stroke=\"#8A858E\"/>\n<line x1=\"51.0\" y1=\"170.7\" x2=\"59.0\" y2=\"170.7\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"173.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"51.0\" y1=\"146.4\" x2=\"59.0\" y2=\"146.4\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"149.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"51.0\" y1=\"122.1\" x2=\"59.0\" y2=\"122.1\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"125.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"51.0\" y1=\"97.9\" x2=\"59.0\" y2=\"97.9\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"100.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"73.6\" x2=\"59.0\" y2=\"73.6\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"76.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">10</text>\n<line x1=\"51.0\" y1=\"49.3\" x2=\"59.0\" y2=\"49.3\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"52.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">12</text>\n<line x1=\"51.0\" y1=\"25.0\" x2=\"59.0\" y2=\"25.0\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">14</text>\n<circle cx=\"93.8\" cy=\"158.6\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"132.5\" cy=\"146.4\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"171.2\" cy=\"122.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"210.0\" cy=\"110.0\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"248.8\" cy=\"85.7\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"287.5\" cy=\"73.6\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"326.2\" cy=\"37.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n</svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Svar:</strong> <strong>Stark positiv korrelation.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Beskriv korrelationen i punktdiagrammet.</p><span class=\"fig\"><svg width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"195.0\" x2=\"365\" y2=\"195.0\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"195\" x2=\"55.0\" y2=\"25\" stroke=\"#2B2527\" stroke-width=\"1.8\"/>\n<line x1=\"55.0\" y1=\"191.0\" x2=\"55.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"55.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">0</text>\n<line x1=\"93.8\" y1=\"191.0\" x2=\"93.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"93.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">1</text>\n<line x1=\"132.5\" y1=\"191.0\" x2=\"132.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"132.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"171.2\" y1=\"191.0\" x2=\"171.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"171.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">3</text>\n<line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"210.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"248.8\" y1=\"191.0\" x2=\"248.8\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"248.8\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">5</text>\n<line x1=\"287.5\" y1=\"191.0\" x2=\"287.5\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"287.5\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"326.2\" y1=\"191.0\" x2=\"326.2\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"326.2\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">7</text>\n<line x1=\"365.0\" y1=\"191.0\" x2=\"365.0\" y2=\"199.0\" stroke=\"#8A858E\"/>\n<text x=\"365.0\" y=\"213.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"195.0\" x2=\"59.0\" y2=\"195.0\" stroke=\"#8A858E\"/>\n<line x1=\"51.0\" y1=\"170.7\" x2=\"59.0\" y2=\"170.7\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"173.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">2</text>\n<line x1=\"51.0\" y1=\"146.4\" x2=\"59.0\" y2=\"146.4\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"149.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">4</text>\n<line x1=\"51.0\" y1=\"122.1\" x2=\"59.0\" y2=\"122.1\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"125.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">6</text>\n<line x1=\"51.0\" y1=\"97.9\" x2=\"59.0\" y2=\"97.9\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"100.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">8</text>\n<line x1=\"51.0\" y1=\"73.6\" x2=\"59.0\" y2=\"73.6\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"76.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">10</text>\n<line x1=\"51.0\" y1=\"49.3\" x2=\"59.0\" y2=\"49.3\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"52.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">12</text>\n<line x1=\"51.0\" y1=\"25.0\" x2=\"59.0\" y2=\"25.0\" stroke=\"#8A858E\"/>\n<text x=\"47.0\" y=\"28.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9.5\" fill=\"#5C575E\">14</text>\n<circle cx=\"93.8\" cy=\"158.6\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"132.5\" cy=\"146.4\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"171.2\" cy=\"122.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"210.0\" cy=\"110.0\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"248.8\" cy=\"85.7\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"287.5\" cy=\"73.6\" r=\"4.2\" fill=\"#3F7FB8\"/>\n<circle cx=\"326.2\" cy=\"37.1\" r=\"4.2\" fill=\"#3F7FB8\"/>\n</svg></span><p>A. Stark positiv korrelation<br>B. Stark negativ korrelation<br>C. Ingen tydlig korrelation<br>D. Svag negativ korrelation</p>",
+    "s": "<p>Punkterna ligger tätt kring en stigande linje, alltså är korrelationen stark och positiv.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Riktningen är stigande. Bedöm styrkan genom att titta på spridningen kring trenden.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.167",
@@ -62131,22 +62454,25 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "1/1/2",
-    "t": "<p>Ett lotteri har 400 lotter numrerade 1–400. En lott vinner om numret slutar på 7. Du köper fem olika lotter utan återläggning.</p><p>Bestäm sannolikheten att minst en av lotterna vinner.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett lotteri har 400 lotter numrerade 1–400. En lott vinner om numret slutar på 7. Du köper fem olika lotter utan återläggning.</p><p>Bestäm sannolikheten att minst en av lotterna vinner. Svara i procent med en decimal.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Det finns 40 vinstlotter och 360 nitlotter.</p><p>Komplementet är fem nitlotter:</p><p>\\(P(ingen\\ vinst)=\\frac{360}{400}\\cdot\\frac{359}{399}\\cdot\\frac{358}{398}\\cdot\\frac{357}{397}\\cdot\\frac{356}{396}\\approx0,58884\\).</p><p><strong>Svar:</strong> <strong>\\(P(minst\\ en)=1-0,58884\\approx41,1\\%\\)</strong></p></div></div>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": 0.411,
-    "tolerans": 0.001,
+    "svarstyp": "numeriskt",
+    "rättSvar": 41.1,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "procedur",
+      "problemlösning",
       "begrepp"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>Räkna komplementet: fem nitlotter i följd. Eftersom lotterna inte läggs tillbaka ändras både antalet nitlotter och det totala antalet efter varje dragning.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "5.171",
@@ -62169,9 +62495,13 @@ window.BANKMA1 = [
     "tolerans": 1,
     "självrättning": true,
     "formaga": [
+      "modellering",
       "begrepp"
     ],
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>För en elev: räkna först sannolikheten för minst ett rätt som komplement till sex fel. Multiplicera sedan med 25 och avrunda till ett helt antal elever.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "5.172",
@@ -62213,7 +62543,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Beskriv vilken typ av korrelation som är rimlig i situationerna. Dra ingen slutsats om orsak.</p><p>a) Utomhustemperatur och mängden fjärrvärme som används i ett hus.<br>b) Antalet arbetade timmar och inkomsten vid fast timlön.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p>a) När temperaturen ökar brukar värmeanvändningen minska: <strong>negativ korrelation</strong>.</p><p>b) Fler arbetade timmar hänger ihop med högre inkomst: <strong>positiv korrelation</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>a) Högre utomhustemperatur brukar hänga ihop med lägre värmeanvändning: <strong>negativ korrelation</strong>.</p><p>b) Vid fast timlön ger fler arbetade timmar högre lön: <strong>positiv korrelation</strong>.</p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62234,7 +62564,10 @@ window.BANKMA1 = [
       "kort_text",
       "kort_text"
     ],
-    "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>"
+    "ledtrad": "<p>Fråga i varje situation om den andra variabeln brukar öka eller minska när den första ökar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.174",
@@ -62260,7 +62593,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>De som väljer att svara kan skilja sig från resten, särskilt om starkt missnöjda är mer motiverade.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.175",
@@ -62286,7 +62622,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Felet är lika stort och åt samma håll varje gång.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.176",
@@ -62312,7 +62651,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Formuleringen antyder vilket svar frågeställaren vill ha.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.177",
@@ -62338,7 +62680,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Idrottsklasser kan skilja sig systematiskt från resten av skolan i just träningsvanor.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.178",
@@ -62352,7 +62697,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Deltagare ska minnas exakt vad de åt för sex månader sedan.</p><p>A: Minnesfel<br>B: Kalibreringsfel<br>C: Enhetsfel </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Minnesfel</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Att minnas exakt vad man åt för sex månader sedan är svårt och kan ge <strong>minnesfel</strong>.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Felkällor i undersökningar och mätningar",
     "geogebra": false,
     "miniräknare": false,
@@ -62364,7 +62709,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Problemet ligger i hur väl deltagarna kan återge något långt tillbaka i tiden.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.179",
@@ -62390,7 +62738,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Olika avläsare kan få lite olika resultat från samma skala.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.180",
@@ -62416,7 +62767,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Personerna är redan utvalda; problemet är att många av dem inte svarar.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.181",
@@ -62427,8 +62781,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En mätsticka har markeringar endast varje centimeter men resultatet anges med fyra decimaler.</p><p>A: Orimlig precision<br>B: Korrelation<br>C: Slumpmässigt urval </p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Orimlig precision</p></div></div>",
     "familj": "Felkällor i undersökningar och mätningar",
@@ -62442,7 +62796,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Mätinstrumentets upplösning sätter en gräns för hur många decimaler som är meningsfulla.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.182",
@@ -62453,8 +62810,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En studie om kollektivtrafik frågar bara personer som redan sitter på bussen.</p><p>A: Urvalsfel<br>B: Potensfel<br>C: Avrundningsfel </p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>A</strong>: Urvalsfel</p></div></div>",
     "familj": "Felkällor i undersökningar och mätningar",
@@ -62468,7 +62825,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>De som redan åker buss är inte nödvändigtvis representativa för alla som undersökningen vill säga något om.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.183",
@@ -62479,8 +62839,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Två grupper får olika instruktioner innan samma test.</p><p>A: Kontrollerad jämförelse<br>B: Påverkande felkälla<br>C: Totalundersökning </p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p><p><strong>Svar:</strong> <strong>B</strong>: Påverkande felkälla</p></div></div>",
     "familj": "Felkällor i undersökningar och mätningar",
@@ -62494,7 +62854,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken del av datainsamlingen som kan göra resultatet snedvridet eller osäkert.</p>"
+    "ledtrad": "<p>Om instruktionerna skiljer sig kan resultatet påverkas av mer än det man vill jämföra.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.184",
@@ -62507,8 +62870,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En studie visar att personer som äger löparskor springer mer. Kan man av detta ensamt säga att skorna orsakar löpningen?</p><p>A: Ja<br>B: Nej </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Nej</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Personer som äger löparskor springer i genomsnitt mer. Vilket exempel beskriver <strong>omvänd kausalitet</strong> som en möjlig förklaring?</p><p>A. Löparskorna tvingar alla ägare att springa lika mycket.<br>B. Personer som redan springer mycket är mer benägna att köpa löparskor.<br>C. Sambandet måste bero på slumpen eftersom två variabler aldrig kan påverka varandra.<br>D. Skornas färg bestämmer både köpbeslut och löpmängd.</p>",
+    "s": "<p>Om personer börjar med att springa mycket och därför köper löparskor går den möjliga orsaksriktningen från löpning till skoägande.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62520,7 +62883,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Omvänd kausalitet betyder att den variabel som ser ut som ”resultat” i stället kan påverka den andra.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.185",
@@ -62534,7 +62900,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Glassförsäljning och antal badolyckor ökar samtidigt på sommaren. Vilken bakomliggande faktor är rimligast?</p><p>A: Varmt väder<br>B: Glassens pris<br>C: Antal skolor </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Varmt väder</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Varmt väder gör både glassköp och badande vanligare.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62546,7 +62912,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Vilken faktor varierar tydligt med årstiden och kan påverka båda?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.186",
@@ -62560,7 +62929,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Områden med fler brandbilar har ofta fler bränder. Vilken bakomliggande faktor är rimlig?</p><p>A: Kommunens storlek<br>B: Färgen på brandbilarna<br>C: Veckodag </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Kommunens storlek</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Större kommuner har fler byggnader och invånare, vilket kan ge både fler bränder och behov av fler brandbilar.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62572,7 +62941,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Sök en egenskap som ökar både behovet av räddningsresurser och antalet möjliga brandtillfällen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.187",
@@ -62585,8 +62957,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Elever som sover mer har högre provresultat. Bevisar sambandet att mer sömn ensam orsakar högre resultat?</p><p>A: Ja<br>B: Nej </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Nej</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>En studie visar att elever som sover mer i genomsnitt har högre provresultat. Vilket påstående stöds direkt av observationen?</p><p>A. Mer sömn är bevisad som den enda orsaken till högre resultat.<br>B. Sömnmängd och provresultat samvarierar, men observationen ensam avgör inte orsaken.<br>C. Högre provresultat orsakar alltid längre sömn.<br>D. Det finns inget samband mellan sömn och provresultat.</p>",
+    "s": "<p>Studien visar ett observerat samband, men andra faktorer och orsaksriktningar kan finnas.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62598,7 +62970,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Skilj på vad en observation kan visa och vad som kräver ett starkare undersökningsupplägg.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.188",
@@ -62609,10 +62984,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
+    "niva": "C",
+    "poang": "0/1/0",
     "t": "<p>Länder med högre BNP har ofta längre medellivslängd. Vad är säkrast att säga?</p><p>A: BNP är den enda orsaken<br>B: Det finns ett samband men fler faktorer kan påverka<br>C: Det finns ingen korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Det finns ett samband men fler faktorer kan påverka</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Högre BNP och längre medellivslängd samvarierar i observationen, men flera andra samhällsfaktorer kan påverka båda.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62624,7 +62999,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Vilket alternativ skiljer tydligast mellan ett observerat samband och ett bevisat ensamt orsakssamband?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.189",
@@ -62638,7 +63016,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket upplägg ger bäst möjlighet att studera orsak av ett nytt gödningsmedel?</p><p>A: Slumpa liknande plantor till två grupper<br>B: Jämför två olika trädgårdar utan kontroll<br>C: Fråga odlare vad de tror </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Slumpa liknande plantor till två grupper</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Slumpning till jämförbara grupper gör det lättare att isolera gödningsmedlets effekt från andra skillnader.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62650,7 +63028,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Vilket upplägg ger bäst kontroll över andra faktorer än gödningsmedlet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.190",
@@ -62664,7 +63045,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En korrelation mellan skärmtid och sömn visar i sig att skärmtid orsakar sömnproblem.</p><p>A: Sant<br>B: Falskt </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Falskt</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>En korrelation kan uppstå av flera orsaker och visar inte ensam att den ena variabeln orsakar den andra.</p><p><strong>Svar: B – falskt.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62676,7 +63057,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Fråga om ett observerat samband i sig räcker för att utesluta bakomliggande faktorer och omvänd kausalitet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.191",
@@ -62687,10 +63071,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Fler poliser och fler brott observeras i större städer. Vilken tredje variabel kan påverka båda?</p><p>A: Befolkningsstorlek<br>B: Månfas<br>C: Stadens postnummer </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Befolkningsstorlek</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Större städer har både fler invånare, fler brottstillfällen och ofta fler poliser.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62702,7 +63086,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Sök en storleksvariabel som naturligt kan öka båda antalen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.192",
@@ -62713,10 +63100,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Vilket påstående är korrekt?</p><p>A: Korrelation bevisar alltid orsak<br>B: Orsak kan ibland undersökas bättre med kontrollerade experiment<br>C: Orsak och korrelation betyder samma sak </p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>B</strong>: Orsak kan ibland undersökas bättre med kontrollerade experiment</p>",
+    "s": "<p>Kontrollerade experiment kan, när de är möjliga och välgjorda, ge bättre stöd för kausala slutsatser än enbart observationer.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62728,7 +63115,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Vilken metod hjälper till att hålla andra faktorer jämförbara mellan grupper?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.193",
@@ -62739,10 +63129,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En app används mer av personer som redan tränar mycket. Detta kan göra sambandet mellan appanvändning och träning svårt att tolka som orsak.</p><p>A: Ja<br>B: Nej </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p><p><strong>Svar:</strong> <strong>A</strong>: Ja</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Om personer som redan tränar mycket också oftare väljer appen blir grupperna olika redan från början. Då är det svårt att tillskriva skillnaden appen.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Korrelation, kausalitet och bakomliggande variabler",
     "geogebra": false,
     "miniräknare": false,
@@ -62754,7 +63144,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skilj på samvariation och orsak. Tänk också på bakomliggande variabler och hur undersökningen är gjord.</p>"
+    "ledtrad": "<p>Fundera på om appanvändarna kan skilja sig från övriga redan innan appen används.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.194",
@@ -62768,7 +63161,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkterna ligger tätt kring en stigande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>När x och y ökar tillsammans är riktningen positiv.</p><p><strong>Svar: A – Positiv korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62780,7 +63173,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.195",
@@ -62794,7 +63190,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkterna ligger tätt kring en fallande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>När y minskar när x ökar är riktningen negativ.</p><p><strong>Svar: B – Negativ korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62806,7 +63202,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.196",
@@ -62820,7 +63219,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkterna ligger mycket utspridda utan tydlig stigande eller fallande tendens. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>C</strong>: Ingen tydlig korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Utan stabil stigande eller fallande tendens finns ingen tydlig linjär korrelation.</p><p><strong>Svar: C – Ingen tydlig korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62832,7 +63231,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.197",
@@ -62846,7 +63248,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkterna följer ungefär en stigande trend men med ganska stor spridning. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Spridningen påverkar styrkan, men den övergripande riktningen är fortfarande positiv.</p><p><strong>Svar: A – Positiv korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62858,7 +63260,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.198",
@@ -62872,7 +63277,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Punkterna följer ungefär en fallande trend men med ganska stor spridning. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Spridningen påverkar styrkan, men den övergripande riktningen är fortfarande negativ.</p><p><strong>Svar: B – Negativ korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62884,7 +63289,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.199",
@@ -62898,7 +63306,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>När x ökar tenderar y också att öka. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Att y tenderar att öka när x ökar beskriver positiv korrelation.</p><p><strong>Svar: A – Positiv korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62910,7 +63318,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.200",
@@ -62924,7 +63335,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>När x ökar tenderar y att minska. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Att y tenderar att minska när x ökar beskriver negativ korrelation.</p><p><strong>Svar: B – Negativ korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62936,7 +63347,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.201",
@@ -62949,8 +63363,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Alla punkter ligger exakt på en stigande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Alla punkter ligger exakt på en stigande rät linje. Vilken beskrivning är mest precis?</p><p>A. Perfekt positiv korrelation<br>B. Svag positiv korrelation<br>C. Perfekt negativ korrelation<br>D. Ingen korrelation</p>",
+    "s": "<p>Alla punkter följer exakt en stigande rät linje.</p><p><strong>Svar: A – perfekt positiv korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62962,7 +63376,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>”Exakt på en rät linje” säger något om styrkan, medan ”stigande” säger något om riktningen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.202",
@@ -62973,10 +63390,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Alla punkter ligger exakt på en fallande rät linje. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Alla punkter ligger exakt på en fallande rät linje. Vilken beskrivning är mest precis?</p><p>A. Perfekt positiv korrelation<br>B. Perfekt negativ korrelation<br>C. Svag negativ korrelation<br>D. Ingen korrelation</p>",
+    "s": "<p>Alla punkter följer exakt en fallande rät linje.</p><p><strong>Svar: B – perfekt negativ korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -62988,7 +63405,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>”Exakt på en rät linje” betyder maximal linjär styrka. Avgör sedan tecknet från riktningen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.203",
@@ -62999,10 +63419,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett punktmoln är nästan cirkelformat utan riktning. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>C</strong>: Ingen tydlig korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Ett nästan cirkelformat punktmoln saknar tydlig stigande eller fallande riktning.</p><p><strong>Svar: C – Ingen tydlig korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -63014,7 +63434,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.204",
@@ -63027,8 +63450,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En tydlig stigande trend finns, men en punkt ligger långt från resten. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>A</strong>: Positiv korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "t": "<p>Ett punktdiagram visar en tydlig stigande trend, men en punkt ligger långt från resten. Vilken slutsats är mest rimlig?</p><p>A. Den positiva trenden finns, men den avvikande punkten bör undersökas innan man sammanfattar sambandet.<br>B. En enda avvikande punkt bevisar att det inte finns något samband alls.<br>C. Den avvikande punkten ska alltid tas bort utan vidare kontroll.<br>D. Sambandet är perfekt positivt eftersom de flesta punkterna stiger.</p>",
+    "s": "<p>En avvikare kan påverka både den uppskattade styrkan och en anpassad modell. Den bör därför undersökas, inte automatiskt tas bort eller ignoreras.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -63037,10 +63460,14 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>En avvikande observation kan vara både ett verkligt specialfall och ett fel. Vad är därför ett rimligt första steg?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.205",
@@ -63051,10 +63478,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En tydlig fallande trend finns, men punkterna är inte särskilt täta. Vilken huvudtyp av korrelation beskrivs?</p><p>A: Positiv korrelation<br>B: Negativ korrelation<br>C: Ingen tydlig korrelation </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Beskriv både riktning och styrka i sambandet och tolka modellens koefficienter med variablernas enheter. Ett observerat samband räcker inte för att visa orsak.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p><p><strong>Svar:</strong> <strong>B</strong>: Negativ korrelation</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att du inte drar slutsatsen kausalitet enbart från korrelation och att eventuell prognos ligger nära det observerade intervallet.</p></div>",
+    "s": "<p>Trots spridningen finns en tydlig fallande riktning.</p><p><strong>Svar: B – Negativ korrelation.</strong></p>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": false,
@@ -63066,7 +63493,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Avgör om tendensen är stigande, fallande eller saknar tydlig riktning.</p>"
+    "ledtrad": "<p>Bestäm riktningen på punktmolnet när x ökar. Spridningen påverkar styrkan, inte tecknet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.206",
@@ -63080,7 +63510,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två studier visar samma procentuella skillnad. Vilken ger normalt starkare statistiskt underlag?</p><p>A: Studien med 20 deltagare<br>B: Studien med 2 000 deltagare </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: Studien med 2 000 deltagare</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Allt annat lika ger 2 000 deltagare mindre slumpmässig osäkerhet än 20.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
@@ -63092,7 +63522,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>Större stickprov ger normalt mindre slumpmässig osäkerhet när allt annat är lika.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.207",
@@ -63118,7 +63551,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>Skilj på statistiskt stöd och praktisk effektstorlek.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.208",
@@ -63144,7 +63580,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>När stickprovet är stort blir slumpfelet mindre, så även små skillnader kan upptäckas.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.209",
@@ -63170,7 +63609,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>Fler observationer gör normalt att slumpvariation får mindre relativ betydelse.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.210",
@@ -63184,7 +63626,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Om två små grupper skiljer sig med 1 procentenhet är det säkert att skillnaden är verklig.</p><p>A: Ja<br>B: Nej </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: Nej</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Med små grupper kan en skillnad på 1 procentenhet mycket väl bero på slumpvariation.</p><p><strong>Svar: B – nej.</strong></p>",
     "familj": "Statistisk osäkerhet och signifikans",
     "geogebra": false,
     "miniräknare": false,
@@ -63196,7 +63638,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>En liten observerad skillnad i små grupper kan lätt uppstå av slumpvariation.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.211",
@@ -63222,7 +63667,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>Signifikans handlar om hur väl resultatet kan förklaras av slump under en nollhypotes.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.212",
@@ -63248,7 +63696,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>En effekt kan vara statistiskt tydlig men ändå liten i praktiken.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.213",
@@ -63259,8 +63710,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Två lika stora grupper har mycket varierande resultat. Gör stor variation det normalt svårare att upptäcka en liten verklig skillnad?</p><p>A: Ja<br>B: Nej </p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>A</strong>: Ja</p></div></div>",
     "familj": "Statistisk osäkerhet och signifikans",
@@ -63274,7 +63725,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>Stor spridning inom grupperna gör en liten skillnad mellan gruppmedel svårare att skilja från variationen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.214",
@@ -63285,8 +63739,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett större stickprov gör automatiskt en dåligt vald urvalsmetod representativ.</p><p>A: Sant<br>B: Falskt </p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>B</strong>: Falskt</p></div></div>",
     "familj": "Statistisk osäkerhet och signifikans",
@@ -63300,7 +63754,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>Ett stort stickprov minskar slumpfel men rättar inte ett systematiskt snedvridet urval.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.215",
@@ -63311,8 +63768,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Vilken studie ger normalt minst statistisk osäkerhet, allt annat lika?</p><p>A: n=30<br>B: n=300<br>C: n=3000 </p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p><p><strong>Svar:</strong> <strong>C</strong>: n=3000</p></div></div>",
     "familj": "Statistisk osäkerhet och signifikans",
@@ -63326,7 +63783,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Bedöm hur stickprovsstorlek, variation och slumpvariation påverkar hur säkert resultatet kan tolkas.</p>"
+    "ledtrad": "<p>Allt annat lika minskar slumpmässig osäkerhet när n ökar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.216",
@@ -63352,7 +63812,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Hur valdes eleverna ur registret?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.217",
@@ -63378,7 +63841,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Om hela populationen faktiskt undersöks är det inte längre ett stickprov.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.218",
@@ -63404,7 +63870,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Vad heter hela målgruppen som slutsatsen ska gälla?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.219",
@@ -63430,7 +63899,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Vad heter den del av populationen som faktiskt undersöks?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.220",
@@ -63456,7 +63928,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Vilket alternativ ger elever från hela skolan möjlighet att väljas utan självselektion?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.221",
@@ -63470,7 +63945,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Att fråga endast personer på ett köpcentrum mitt på dagen riskerar främst vad?</p><p>A: Urvalsfel<br>B: Räknefel<br>C: Enhetsfel </p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Identifiera populationen, urvalet och hur deltagarna valdes ut.</p><p><strong>Svar:</strong> <strong>A</strong>: Urvalsfel</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Personer på ett köpcentrum mitt på dagen är inte ett slumpmässigt tvärsnitt av hela målgruppen. Det ger risk för <strong>urvalsfel</strong>.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Urval och urvalsmetoder",
     "geogebra": false,
     "miniräknare": false,
@@ -63482,7 +63957,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Personer som vistas på köpcentrum mitt på dagen kan skilja sig systematiskt från resten av populationen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.222",
@@ -63508,7 +63986,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Vilken metod bygger själva urvalet på slump?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.223",
@@ -63534,7 +64015,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>När deltagarna själva väljer om de vill gå in och svara uppstår en särskild urvalsform.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.224",
@@ -63560,7 +64044,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>Jämför resurserna som krävs för ett stickprov med att kontakta hela populationen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.225",
@@ -63586,7 +64073,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera populationen, urvalet och hur deltagarna valdes ut.</p>"
+    "ledtrad": "<p>400 är antalet personer som faktiskt ingår i undersökningen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.226",
@@ -64701,7 +65191,7 @@ window.BANKMA1 = [
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
+    "svarstyp": "bråk",
     "rättSvar": "1/6",
     "tolerans": null,
     "självrättning": true,
@@ -64709,7 +65199,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "ledtrad": "<p>Båda stegen måste lyckas, så följ samma väg genom försöket och multiplicera de två sannolikheterna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.263",
@@ -64722,20 +65215,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Sannolikheten att ett lag vinner första matchen är 3/5 och andra matchen 2/3. Anta oberoende matcher. Vad är sannolikheten att laget vinner båda?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=3/5\\cdot 2/3=2/5\\).</p><p><strong>Svar:</strong> \\(2/5\\).</p></div></div>",
+    "t": "<p>Ett lag vinner första matchen med sannolikheten (3/5) och den andra med sannolikheten (2/3). Matcherna antas oberoende.</p><p>Vilket uttryck ger sannolikheten att laget vinner båda matcherna?</p><p>A. (\frac35+\frac23)<br>B. (1-\frac35cdot\frac23)<br>C. (\frac35cdot\frac23)<br>D. (\frac35cdot\frac13+\frac25cdot\frac23)</p>",
+    "s": "<p>”Båda” betyder att vinsten i match 1 och vinsten i match 2 ska inträffa på samma väg. Vid oberoende matcher multipliceras sannolikheterna.</p><p><strong>Svar: C.</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "2/5",
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "ledtrad": "<p>Frågan gäller att två händelser ska inträffa samtidigt, inte ”minst en” eller ”exakt en”.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.264",
@@ -64746,22 +65242,26 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En kula är blå med sannolikheten 4/7. Därefter ger ett oberoende hjul vinst med sannolikheten 1/2. Vad är sannolikheten för både blå kula och vinst?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=4/7\\cdot 1/2=2/7\\).</p><p><strong>Svar:</strong> \\(2/7\\).</p></div></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två oberoende steg ska lyckas. Sannolikheten att det första lyckas är (4/7), och sannolikheten att båda lyckas är (2/7).</p><p>Bestäm sannolikheten att det andra steget lyckas.</p>",
+    "s": "<p>Låt sannolikheten i steg 2 vara (p). Då (\frac47p=\frac27), så (p=\frac12).</p><p><strong>Svar: (1/2).</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "2/7",
+    "svarstyp": "bråk",
+    "rättSvar": "1/2",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "ledtrad": "<p>Den givna sannolikheten för båda stegen är produkten av sannolikheterna för steg 1 och steg 2.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.265",
@@ -64774,20 +65274,24 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En maskin godkänner en detalj med sannolikheten 2/5. Om den godkänns klarar detaljen nästa test med sannolikheten 3/4. Vad är sannolikheten att båda stegen lyckas?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=2/5\\cdot 3/4=3/10\\).</p><p><strong>Svar:</strong> \\(3/10\\).</p></div></div>",
+    "t": "<p>En maskin godkänner en detalj med sannolikheten (2/5). Om den godkänns klarar detaljen nästa test med sannolikheten (3/4). En elev räknar (\frac25+\frac34).</p><p>Vilken bedömning är bäst?</p><p>A. Metoden är rätt, eftersom sannolikheter i flera steg alltid adderas.<br>B. Metoden är fel, eftersom båda stegen måste inträffa längs samma väg och sannolikheterna därför multipliceras.<br>C. Metoden är fel, eftersom sannolikheten i steg 2 ska subtraheras från sannolikheten i steg 1.<br>D. Metoden är rätt, eftersom ”om den godkänns” gör händelserna ömsesidigt uteslutande.</p>",
+    "s": "<p>För att detaljen ska klara båda stegen måste först godkännandet och sedan testet inträffa. Sannolikheten längs den vägen är (\frac25cdot\frac34=\frac3{10}).</p><p><strong>Svar: B.</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "3/10",
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "ledtrad": "<p>Fråga dig om de två händelserna är alternativa vägar eller två steg som båda måste ske.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.266",
@@ -64798,22 +65302,40 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Två oberoende kontroller klaras med sannolikheterna 5/6 respektive 4/5. Vad är sannolikheten att båda klaras?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=5/6\\cdot 4/5=2/3\\).</p><p><strong>Svar:</strong> \\(2/3\\).</p></div></div>",
+    "niva": "C",
+    "poang": "1/1/0",
+    "t": "<p>Två oberoende kontroller klaras med sannolikheterna (5/6) respektive (4/5).</p><p>a) Bestäm sannolikheten att båda kontrollerna klaras.<br>b) Bestäm sannolikheten att minst en av kontrollerna klaras.</p>",
+    "s": "<p>a) (\frac56cdot\frac45=\frac23).</p><p>b) Komplementet är att båda misslyckas: (\frac16cdot\frac15=\frac1{30}). Alltså (1-\frac1{30}=\frac{29}{30}).</p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "2/3",
-    "tolerans": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2/3",
+      "29/30"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "svarFormat": [
+      "bråk",
+      "bråk"
+    ],
+    "ledtrad": "<p>I a) följer du vägen där båda klaras. I b) är komplementet att ingen kontroll klaras.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) båda",
+      "b) minst en"
+    ]
   },
   {
     "id": "5.267",
@@ -64824,22 +65346,26 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Två oberoende händelser har sannolikheterna 3/8 och 2/5. Vad är sannolikheten att båda inträffar?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=3/8\\cdot 2/5=3/20\\).</p><p><strong>Svar:</strong> \\(3/20\\).</p></div></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två oberoende händelser A och B har sannolikheterna (P(A)=3/8) och (P(B)=2/5).</p><p>Bestäm sannolikheten att <strong>exakt en</strong> av händelserna inträffar.</p>",
+    "s": "<p>Exakt en kan ske på två sätt:</p><p>(P(Acap B^c)=\frac38cdot\frac35=\frac9{40})</p><p>(P(A^ccap B)=\frac58cdot\frac25=\frac{10}{40})</p><p>Summan är (\frac{19}{40}).</p><p><strong>Svar: (19/40).</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "3/20",
+    "svarstyp": "bråk",
+    "rättSvar": "19/40",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "ledtrad": "<p>Skriv de två skilda fallen A men inte B, respektive B men inte A.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.268",
@@ -64850,22 +65376,26 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En produkt klarar två oberoende tester med sannolikheterna 7/10 och 9/10. Vad är sannolikheten att den klarar båda?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=7/10\\cdot 9/10=63/100\\).</p><p><strong>Svar:</strong> \\(63/100\\).</p></div></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En produkt klarar två oberoende tester med sannolikheterna 0,70 respektive 0,90.</p><p>Bestäm sannolikheten att produkten klarar <strong>exakt ett</strong> av testerna.</p>",
+    "s": "<p>Det kan ske som klarar–missar eller missar–klarar:</p><p>(0,70cdot0,10+0,30cdot0,90=0,07+0,27=0,34).</p><p><strong>Svar: 0,34.</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "63/100",
-    "tolerans": null,
+    "rättSvar": 0.34,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "ledtrad": "<p>”Exakt ett” består av två olika vägar. Ta med båda.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.269",
@@ -64876,22 +65406,26 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En person väljer rätt alternativ med sannolikheten 1/4 och löser därefter en följdfråga med sannolikheten 2/3. Vad är sannolikheten att båda stegen blir rätt?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p><p>\\(P=1/4\\cdot 2/3=1/6\\).</p><p><strong>Svar:</strong> \\(1/6\\).</p></div></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>För två steg gäller att sannolikheten för att det första steget lyckas är (1/4). Sannolikheten att <strong>båda</strong> stegen lyckas är (1/6).</p><p>Om steg 2 bara utförs när steg 1 lyckats, hur stor är sannolikheten att steg 2 lyckas givet att steg 1 lyckats?</p>",
+    "s": "<p>Låt den sökta sannolikheten vara (p). Då (\frac14cdot p=\frac16), vilket ger (p=\frac{1/6}{1/4}=\frac23).</p><p><strong>Svar: (2/3).</strong></p>",
     "familj": "Sannolikhet i flera steg",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "1/6",
+    "svarstyp": "bråk",
+    "rättSvar": "2/3",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "begrepp"
     ],
     "svarFormat": "bråk",
-    "ledtrad": "<p>För att båda stegen ska inträffa multipliceras sannolikheterna längs samma gren.</p>"
+    "ledtrad": "<p>Produkten av sannolikheten för steg 1 och den villkorade sannolikheten för steg 2 är (1/6).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.270",
@@ -64940,7 +65474,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -64998,7 +65532,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -65063,7 +65597,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>För varje av myntets två utfall finns sex möjliga tärningsutfall.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.276",
@@ -65090,7 +65627,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>Räkna antalet val för varje position i koden och multiplicera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.277",
@@ -65117,7 +65657,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>En komplett meny innehåller ett val ur var och en av de tre kategorierna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.278",
@@ -65128,8 +65671,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Tre trafikljus kan oberoende visa rött, gult eller grönt. Hur många olika ordnade kombinationer av färger finns?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Varje ljus har 3 möjligheter. För tre ljus blir det \\(3^3=27\\).</p><p><strong>Svar:</strong> <strong>27</strong>.</p></div></div>",
     "familj": "Sannolikhet i flera steg",
@@ -65144,7 +65687,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>Varje trafikljus har tre möjliga färger och ordningen mellan de tre ljusen spelar roll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.279",
@@ -65155,8 +65701,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En tvåsiffrig kod byggs av siffrorna 1, 2, 3, 4 och 5 utan att samma siffra får användas två gånger. Hur många koder finns?</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>För första positionen finns 5 val och därefter 4 kvar: \\(5\\cdot4=20\\).</p><p><strong>Svar:</strong> <strong>20</strong>.</p></div></div>",
     "familj": "Sannolikhet i flera steg",
@@ -65171,7 +65717,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv försöket steg för steg. Multiplicera sannolikheter längs en kedja av oberoende/sekventiella händelser och addera sannolikheter för alternativa vägar.</p>"
+    "ledtrad": "<p>Efter att första siffran valts finns en siffra mindre kvar att välja till andra positionen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.280",
@@ -65197,7 +65746,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Ett större slumpmässigt stickprov ger normalt mindre slumpvariation och därmed säkrare skattningar.</p>"
+    "ledtrad": "<p>Jämför stickprovsstorlekarna när urvalsmetoden är densamma.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.281",
@@ -65223,7 +65775,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Större stickprov ger normalt mindre slumpmässig variation i en skattad andel.</p>"
+    "ledtrad": "<p>Större stickprov ger normalt stabilare skattningar från ett stickprov till nästa.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.282",
@@ -65250,7 +65805,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>För att \\(1/\\sqrt n\\) ska halveras måste \\(\\sqrt n\\) fördubblas. Då måste \\(n\\) bli fyra gånger så stort.</p>"
+    "ledtrad": "<p>Om osäkerheten är proportionell mot (1/sqrt n), måste (sqrt n) fördubblas för att osäkerheten ska halveras.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.283",
@@ -65276,7 +65834,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Representativitet beror på hur deltagarna valts, inte bara på hur många de är.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.284",
@@ -65302,7 +65863,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Att gå från 100 till 400 fyrdubblar n och halverar ungefär (1/sqrt n).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "5.401",
@@ -65522,19 +66086,34 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Föreningen vill beräkna den procentuella förändringen från 2025 till 2026.</p><span class=\"fig\"><svg width=\"379\" height=\"200\" viewBox=\"0 0 379 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"377\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"189.5\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">Medlemsantal</text><rect x=\"12\" y=\"42\" width=\"34\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><rect x=\"46\" y=\"42\" width=\"80\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"86.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">A</text><rect x=\"126\" y=\"42\" width=\"125\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"188.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">B</text><rect x=\"251\" y=\"42\" width=\"110\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"306.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">C</text><rect x=\"12\" y=\"72\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">1</text><rect x=\"46\" y=\"72\" width=\"80\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">År</text><rect x=\"126\" y=\"72\" width=\"125\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"132\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Antal medlemmar</text><rect x=\"251\" y=\"72\" width=\"110\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"257\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Förändring</text><rect x=\"12\" y=\"106\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">2</text><rect x=\"46\" y=\"106\" width=\"80\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">2025</text><rect x=\"126\" y=\"106\" width=\"125\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"132\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">240</text><rect x=\"251\" y=\"106\" width=\"110\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"257\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"140\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">3</text><rect x=\"46\" y=\"140\" width=\"80\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">2026</text><rect x=\"126\" y=\"140\" width=\"125\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"132\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">264</text><rect x=\"251\" y=\"140\" width=\"110\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"257\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text></svg></span><p>Skriv en formel i C3 som ger förändringen som decimal. Ange också förändringen i procent.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p><p>En lämplig formel är <strong>=(B3-B2)/B2</strong>.</p><p>\\((264-240)/240=0,10\\), alltså <strong>10 % ökning</strong>.</p>",
+    "s": "<p>Den relativa förändringen är ny förändring dividerad med det gamla värdet:</p><p><strong>= (B3-B2)/B2</strong> (utan mellanslag går lika bra i kalkylbladet). Med värdena blir det ((264-240)/240=0,10), alltså <strong>10 % ökning</strong>.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "=(B3-B2)/B2",
+      10
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Ta först skillnaden mellan det nya och gamla medlemsantalet. Dividera sedan med det gamla medlemsantalet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Formel i C3",
+      "Förändring (%)"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ]
   },
   {
     "id": "6.02",
@@ -65548,7 +66127,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En figurserie har 5 stickor i figur 1, 8 i figur 2 och 11 i figur 3. Antalet ökar enligt samma mönster. Skriv ett uttryck för antalet stickor i figur \\(n\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skillnaden mellan två figurer är hela tiden 3 stickor. Följden är därför aritmetisk med första termen 5 och differensen 3.</p><p>\\[a_n=5+3(n-1)=5+3n-3=3n+2.\\]</p><p><strong>Svar:</strong> \\(a_n=3n+2\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<p>Skillnaden är 3 varje gång. En aritmetisk följd med första termen 5 får</p><p>(a_n=5+3(n-1)=)<strong>3n+2</strong>.</p><p>Kontroll: för (n=1) fås 5 och för (n=2) fås 8.</p>",
     "familj": "Algebraiska samband och problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -65560,7 +66139,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Definiera den okända storheten och skriv ett algebraiskt samband direkt från villkoren i texten. Förenkla eller lös först när du kan förklara vad varje term i sambandet representerar.</p>"
+    "ledtrad": "<p>Jämför två intilliggande termer. Hur mycket ökar antalet stickor när figurnumret ökar med 1?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.03",
@@ -65574,7 +66156,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "2/1/1",
     "t": "<p>Positiva heltal \\(c\\) och \\(d\\) uppfyller \\(\\frac{c}{18}=\\frac{5}{d}\\).</p><p>a) Ge ett möjligt par \\((c,d)\\).<br>b) Beskriv alla möjliga positiva heltalspar.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med att skriva upp vad som är känt och vad som ska bestämmas. Välj sedan en matematisk modell eller ekvation och kontrollera slutligen att svaret uppfyller villkoren.</p><p>Villkoret är \\(cd=90\\). Alla positiva faktorpar till 90 fungerar: \\((1,90),(2,45),(3,30),(5,18),(6,15),(9,10)\\) och omvända ordningar.</p>",
+    "s": "<p>Korsmultiplicera: (cd=18·5=90).</p><p>a) Ett exempel är ((c,d)=(9,10)).</p><p>b) Alla positiva faktorpar till 90 fungerar. Med ordnade par blir de ((1,90),(2,45),(3,30),(5,18),(6,15),(9,10)) samt paren i omvänd ordning.</p>",
     "familj": "Algebraiska samband och problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -65585,7 +66167,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Börja med att skriva upp vad som är känt och vad som ska bestämmas. Välj sedan en matematisk modell eller ekvation och kontrollera slutligen att svaret uppfyller villkoren.</p>"
+    "ledtrad": "<p>Korsmultiplicera först. Vilket krav får du då på produkten (cd)?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.04",
@@ -65610,7 +66195,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör en tydlig tidslinje för inkomster, utgifter, ränta eller värdeförändring. Använd procentuell förändring som förändringsfaktor och jämför beloppen i samma tidsenhet.</p>"
+    "ledtrad": "<p>Räkna först ut beloppet som är kvar. Dividera sedan det beloppet med hela månadsbudgeten och omvandla till procent.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.05",
@@ -65637,7 +66225,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Testa med ett startpris, till exempel 100 kr. Den andra sänkningen räknas på det redan sänkta priset.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.06",
@@ -65649,7 +66240,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Ett badkar innehåller 30 liter och fylls med 12 liter per minut. Skriv en modell för mängden vatten efter \\(t\\) minuter.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Vid \\(t=0\\) finns 30 liter, vilket är startvärdet. Varje minut tillkommer 12 liter, så förändringen är \\(+12t\\).</p><p><strong>Svar:</strong> \\(V(t)=30+12t\\).</p></div></div>",
     "familj": "Skapa och använda matematiska modeller",
@@ -65662,7 +66253,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid \\(t=0\\) finns 30 liter, vilket är startvärdet. Varje minut tillkommer 12 liter, så förändringen är \\(+12t\\).</p>"
+    "ledtrad": "<p>Startvärdet är 30 liter och varje minut läggs 12 liter till.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.07",
@@ -65676,11 +66270,11 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En behållare innehåller 240 liter. Modellen \\(V(t)=240-12t\\) används bara tills 24 liter återstår. Bestäm en rimlig definitionsmängd och värdemängd.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(240-12t=24\\Rightarrow t=18\\).</p><p><strong>Svar:</strong> <strong>Definitionsmängd: \\(0\\le t\\le18\\). Värdemängd: \\(24\\le V\\le240\\).</strong></p></div></div>",
+    "s": "<p>Modellen används från start tills 24 liter återstår. (240-12t=24) ger (t=18).</p><p>En rimlig definitionsmängd är därför (0le tle18) minuter och värdemängden (24le Vle240) liter.</p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
@@ -65690,7 +66284,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Bestäm först när modellen når 24 liter. Tiden börjar vid 0 och volymen minskar hela tiden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.08",
@@ -65704,7 +66301,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Taxi A tar 55 kr i startavgift och 17 kr/km. Taxi B tar 95 kr i startavgift och 13 kr/km.</p><span class=\"fig\"><svg width=\"379\" height=\"268\" viewBox=\"0 0 379 268\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"377\" height=\"266\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"189.5\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">Taxipriser</text><rect x=\"12\" y=\"42\" width=\"34\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><rect x=\"46\" y=\"42\" width=\"105\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"98.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">A</text><rect x=\"151\" y=\"42\" width=\"105\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"203.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">B</text><rect x=\"256\" y=\"42\" width=\"105\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"308.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">C</text><rect x=\"12\" y=\"72\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">1</text><rect x=\"46\" y=\"72\" width=\"105\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Sträcka km</text><rect x=\"151\" y=\"72\" width=\"105\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Taxi A</text><rect x=\"256\" y=\"72\" width=\"105\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"262\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Taxi B</text><rect x=\"12\" y=\"106\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">2</text><rect x=\"46\" y=\"106\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0</text><rect x=\"151\" y=\"106\" width=\"105\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"157\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"256\" y=\"106\" width=\"105\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"262\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"140\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">3</text><rect x=\"46\" y=\"140\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">5</text><rect x=\"151\" y=\"140\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"256\" y=\"140\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"262\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"174\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"196\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">4</text><rect x=\"46\" y=\"174\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">10</text><rect x=\"151\" y=\"174\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"256\" y=\"174\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"262\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"208\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"230\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">5</text><rect x=\"46\" y=\"208\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">15</text><rect x=\"151\" y=\"208\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"256\" y=\"208\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"262\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text></svg></span><p>a) Skriv en formel i B2 och en i C2 som kan kopieras ned.<br>b) Vid vilken av de visade sträckorna kostar taxibolagen lika mycket?<br>c) För längre resor än denna sträcka, vilket bolag blir billigast?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) <strong>=55+17*A2</strong> och <strong>=95+13*A2</strong>.</p><p>b) Vid 10 km: A kostar \\(55+170=225\\) kr och B \\(95+130=225\\) kr. <strong>De kostar lika vid 10 km.</strong></p><p>c) Taxi B har lägre kilometerpris, så <strong>Taxi B</strong> blir billigast för längre resor.</p></div></div>",
+    "s": "<p>a) Taxi A: <strong>=55+17*A2</strong>. Taxi B: <strong>=95+13*A2</strong>.</p><p>b) Vid 10 km kostar båda (225) kr.</p><p>c) Taxi B har lägre kilometerpris, så efter skärningen är <strong>Taxi B</strong> billigare.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
@@ -65733,7 +66330,10 @@ window.BANKMA1 = [
       "numeriskt",
       "kort_text"
     ],
-    "ledtrad": "<p>Behandla formeln som en ekvation och isolera den efterfrågade variabeln steg för steg. Gör inversa operationer i omvänd ordning.</p>"
+    "ledtrad": "<p>Skriv varje pris som startavgift + kilometerpris · sträcka. Jämför sedan modellerna vid de sträckor som visas.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.09",
@@ -65744,10 +66344,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>I ett kalkylblad står lånebeloppet 24 000 i B2, månadsräntan 0,025 i C2 och amorteringen 1 200 i D2.</p><p>a) Beräkna första månadsbetalningen.<br>b) Skriv en formel för nästa månads lånebelopp i B3.<br>c) Skriv en formel för månadsbetalningen i E3.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>a) Ränta 600 kr, betalning <strong>1 800 kr</strong>.</p><p>b) <strong><code>=B2-D2</code></strong>.</p><p>c) <strong><code>=B3*C3+D3</code></strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>a) Räntan första månaden är 2,5 % av 24 000 kr: <strong>600 kr</strong>. Med amorteringen 1 200 kr blir betalningen <strong>1 800 kr</strong>.</p><p>b) Nästa skuld: <strong>=B2-D2</strong>.</p><p>c) Nästa betalning: <strong>=B3*C3+D3</strong>.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
@@ -65764,7 +66364,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Behandla formeln som en ekvation och isolera den efterfrågade variabeln steg för steg. Gör inversa operationer i omvänd ordning.</p>"
+    "ledtrad": "<p>Skulden minskar med amorteringen. Betalningen består av ränta på aktuell skuld plus amortering.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.10",
@@ -65778,7 +66381,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd grafen för att lösa \\(3x+2=14\\).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"115.8\" y1=\"25\" x2=\"115.8\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"115.8\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"176.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"298.3\" y1=\"25\" x2=\"298.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"298.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"359.2\" y1=\"25\" x2=\"359.2\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"359.2\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><line x1=\"55\" y1=\"234.7\" x2=\"420\" y2=\"234.7\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"237.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"55\" y1=\"211.4\" x2=\"420\" y2=\"211.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"214.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"55\" y1=\"188.1\" x2=\"420\" y2=\"188.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"191.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"55\" y1=\"164.8\" x2=\"420\" y2=\"164.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"167.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"55\" y1=\"118.2\" x2=\"420\" y2=\"118.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"121.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"55\" y1=\"94.9\" x2=\"420\" y2=\"94.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"97.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"55\" y1=\"71.6\" x2=\"420\" y2=\"71.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"74.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">16</text><line x1=\"55\" y1=\"48.3\" x2=\"420\" y2=\"48.3\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"51.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">18</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#333\" stroke-width=\"1.6\"/><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,234.7 56.5,233.8 58.0,233.0 59.6,232.1 61.1,231.2 62.6,230.3 64.1,229.5 65.6,228.6 67.2,227.7 68.7,226.8 70.2,226.0 71.7,225.1 73.2,224.2 74.8,223.3 76.3,222.5 77.8,221.6 79.3,220.7 80.9,219.8 82.4,219.0 83.9,218.1 85.4,217.2 86.9,216.4 88.5,215.5 90.0,214.6 91.5,213.7 93.0,212.9 94.5,212.0 96.1,211.1 97.6,210.2 99.1,209.4 100.6,208.5 102.1,207.6 103.7,206.7 105.2,205.9 106.7,205.0 108.2,204.1 109.8,203.2 111.3,202.4 112.8,201.5 114.3,200.6 115.8,199.8 117.4,198.9 118.9,198.0 120.4,197.1 121.9,196.3 123.4,195.4 125.0,194.5 126.5,193.6 128.0,192.8 129.5,191.9 131.0,191.0 132.6,190.1 134.1,189.3 135.6,188.4 137.1,187.5 138.6,186.6 140.2,185.8 141.7,184.9 143.2,184.0 144.7,183.1 146.2,182.3 147.8,181.4 149.3,180.5 150.8,179.7 152.3,178.8 153.9,177.9 155.4,177.0 156.9,176.2 158.4,175.3 159.9,174.4 161.5,173.5 163.0,172.7 164.5,171.8 166.0,170.9 167.5,170.0 169.1,169.2 170.6,168.3 172.1,167.4 173.6,166.5 175.1,165.7 176.7,164.8 178.2,163.9 179.7,163.1 181.2,162.2 182.8,161.3 184.3,160.4 185.8,159.6 187.3,158.7 188.8,157.8 190.4,156.9 191.9,156.1 193.4,155.2 194.9,154.3 196.4,153.4 198.0,152.6 199.5,151.7 201.0,150.8 202.5,149.9 204.0,149.1 205.6,148.2 207.1,147.3 208.6,146.5 210.1,145.6 211.6,144.7 213.2,143.8 214.7,143.0 216.2,142.1 217.7,141.2 219.2,140.3 220.8,139.5 222.3,138.6 223.8,137.7 225.3,136.8 226.9,136.0 228.4,135.1 229.9,134.2 231.4,133.3 232.9,132.5 234.5,131.6 236.0,130.7 237.5,129.9 239.0,129.0 240.5,128.1 242.1,127.2 243.6,126.4 245.1,125.5 246.6,124.6 248.1,123.7 249.7,122.9 251.2,122.0 252.7,121.1 254.2,120.2 255.7,119.4 257.3,118.5 258.8,117.6 260.3,116.7 261.8,115.9 263.4,115.0 264.9,114.1 266.4,113.2 267.9,112.4 269.4,111.5 271.0,110.6 272.5,109.8 274.0,108.9 275.5,108.0 277.0,107.1 278.6,106.3 280.1,105.4 281.6,104.5 283.1,103.6 284.6,102.8 286.2,101.9 287.7,101.0 289.2,100.1 290.7,99.3 292.2,98.4 293.8,97.5 295.3,96.6 296.8,95.8 298.3,94.9 299.9,94.0 301.4,93.2 302.9,92.3 304.4,91.4 305.9,90.5 307.5,89.7 309.0,88.8 310.5,87.9 312.0,87.0 313.5,86.2 315.1,85.3 316.6,84.4 318.1,83.5 319.6,82.7 321.1,81.8 322.7,80.9 324.2,80.0 325.7,79.2 327.2,78.3 328.8,77.4 330.3,76.6 331.8,75.7 333.3,74.8 334.8,73.9 336.4,73.1 337.9,72.2 339.4,71.3 340.9,70.4 342.4,69.6 344.0,68.7 345.5,67.8 347.0,66.9 348.5,66.1 350.0,65.2 351.6,64.3 353.1,63.4 354.6,62.6 356.1,61.7 357.6,60.8 359.2,59.9 360.7,59.1 362.2,58.2 363.7,57.3 365.2,56.5 366.8,55.6 368.3,54.7 369.8,53.8 371.3,53.0 372.9,52.1 374.4,51.2 375.9,50.3 377.4,49.5 378.9,48.6 380.5,47.7 382.0,46.8 383.5,46.0 385.0,45.1 386.5,44.2 388.1,43.3 389.6,42.5 391.1,41.6 392.6,40.7 394.1,39.9 395.7,39.0 397.2,38.1 398.7,37.2 400.2,36.4 401.8,35.5 403.3,34.6 404.8,33.7 406.3,32.9 407.8,32.0 409.4,31.1 410.9,30.2 412.4,29.4 413.9,28.5 415.4,27.6 417.0,26.7 418.5,25.9 420.0,25.0\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"86.1\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">f</text><polyline points=\"55.0,94.9 56.5,94.9 58.0,94.9 59.6,94.9 61.1,94.9 62.6,94.9 64.1,94.9 65.6,94.9 67.2,94.9 68.7,94.9 70.2,94.9 71.7,94.9 73.2,94.9 74.8,94.9 76.3,94.9 77.8,94.9 79.3,94.9 80.9,94.9 82.4,94.9 83.9,94.9 85.4,94.9 86.9,94.9 88.5,94.9 90.0,94.9 91.5,94.9 93.0,94.9 94.5,94.9 96.1,94.9 97.6,94.9 99.1,94.9 100.6,94.9 102.1,94.9 103.7,94.9 105.2,94.9 106.7,94.9 108.2,94.9 109.8,94.9 111.3,94.9 112.8,94.9 114.3,94.9 115.8,94.9 117.4,94.9 118.9,94.9 120.4,94.9 121.9,94.9 123.4,94.9 125.0,94.9 126.5,94.9 128.0,94.9 129.5,94.9 131.0,94.9 132.6,94.9 134.1,94.9 135.6,94.9 137.1,94.9 138.6,94.9 140.2,94.9 141.7,94.9 143.2,94.9 144.7,94.9 146.2,94.9 147.8,94.9 149.3,94.9 150.8,94.9 152.3,94.9 153.9,94.9 155.4,94.9 156.9,94.9 158.4,94.9 159.9,94.9 161.5,94.9 163.0,94.9 164.5,94.9 166.0,94.9 167.5,94.9 169.1,94.9 170.6,94.9 172.1,94.9 173.6,94.9 175.1,94.9 176.7,94.9 178.2,94.9 179.7,94.9 181.2,94.9 182.8,94.9 184.3,94.9 185.8,94.9 187.3,94.9 188.8,94.9 190.4,94.9 191.9,94.9 193.4,94.9 194.9,94.9 196.4,94.9 198.0,94.9 199.5,94.9 201.0,94.9 202.5,94.9 204.0,94.9 205.6,94.9 207.1,94.9 208.6,94.9 210.1,94.9 211.6,94.9 213.2,94.9 214.7,94.9 216.2,94.9 217.7,94.9 219.2,94.9 220.8,94.9 222.3,94.9 223.8,94.9 225.3,94.9 226.9,94.9 228.4,94.9 229.9,94.9 231.4,94.9 232.9,94.9 234.5,94.9 236.0,94.9 237.5,94.9 239.0,94.9 240.5,94.9 242.1,94.9 243.6,94.9 245.1,94.9 246.6,94.9 248.1,94.9 249.7,94.9 251.2,94.9 252.7,94.9 254.2,94.9 255.7,94.9 257.3,94.9 258.8,94.9 260.3,94.9 261.8,94.9 263.4,94.9 264.9,94.9 266.4,94.9 267.9,94.9 269.4,94.9 271.0,94.9 272.5,94.9 274.0,94.9 275.5,94.9 277.0,94.9 278.6,94.9 280.1,94.9 281.6,94.9 283.1,94.9 284.6,94.9 286.2,94.9 287.7,94.9 289.2,94.9 290.7,94.9 292.2,94.9 293.8,94.9 295.3,94.9 296.8,94.9 298.3,94.9 299.9,94.9 301.4,94.9 302.9,94.9 304.4,94.9 305.9,94.9 307.5,94.9 309.0,94.9 310.5,94.9 312.0,94.9 313.5,94.9 315.1,94.9 316.6,94.9 318.1,94.9 319.6,94.9 321.1,94.9 322.7,94.9 324.2,94.9 325.7,94.9 327.2,94.9 328.8,94.9 330.3,94.9 331.8,94.9 333.3,94.9 334.8,94.9 336.4,94.9 337.9,94.9 339.4,94.9 340.9,94.9 342.4,94.9 344.0,94.9 345.5,94.9 347.0,94.9 348.5,94.9 350.0,94.9 351.6,94.9 353.1,94.9 354.6,94.9 356.1,94.9 357.6,94.9 359.2,94.9 360.7,94.9 362.2,94.9 363.7,94.9 365.2,94.9 366.8,94.9 368.3,94.9 369.8,94.9 371.3,94.9 372.9,94.9 374.4,94.9 375.9,94.9 377.4,94.9 378.9,94.9 380.5,94.9 382.0,94.9 383.5,94.9 385.0,94.9 386.5,94.9 388.1,94.9 389.6,94.9 391.1,94.9 392.6,94.9 394.1,94.9 395.7,94.9 397.2,94.9 398.7,94.9 400.2,94.9 401.8,94.9 403.3,94.9 404.8,94.9 406.3,94.9 407.8,94.9 409.4,94.9 410.9,94.9 412.4,94.9 413.9,94.9 415.4,94.9 417.0,94.9 418.5,94.9 420.0,94.9\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"88.9\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">y=14</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p><p>Skärningen ligger vid <strong>\\(x=4\\)</strong>.</p>",
+    "s": "<p>Skärningen mellan grafen (y=3x+2) och den horisontella linjen (y=14) ligger vid <strong>x=4</strong>.</p>",
     "familj": "Digital grafanalys",
     "geogebra": false,
     "miniräknare": false,
@@ -65790,7 +66393,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>"
+    "ledtrad": "<p>Ekvationen är löst där de två y-värdena är lika. Läs av skärningspunktens x-koordinat.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.11",
@@ -65803,19 +66409,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Grafen visar \\(f(x)=300\\cdot0,93^x\\) och linjen \\(y=180\\).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"79.3\" y1=\"25\" x2=\"79.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"79.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"103.7\" y1=\"25\" x2=\"103.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"103.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"128.0\" y1=\"25\" x2=\"128.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"128.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"152.3\" y1=\"25\" x2=\"152.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"152.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"176.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"201.0\" y1=\"25\" x2=\"201.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"201.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"225.3\" y1=\"25\" x2=\"225.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"225.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"249.7\" y1=\"25\" x2=\"249.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"249.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"274.0\" y1=\"25\" x2=\"274.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"274.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">9</text><line x1=\"298.3\" y1=\"25\" x2=\"298.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"298.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"322.7\" y1=\"25\" x2=\"322.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"322.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">11</text><line x1=\"347.0\" y1=\"25\" x2=\"347.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"347.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"371.3\" y1=\"25\" x2=\"371.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"371.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">13</text><line x1=\"395.7\" y1=\"25\" x2=\"395.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"395.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">15</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"261.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"236.8\" x2=\"420\" y2=\"236.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"239.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"215.6\" x2=\"420\" y2=\"215.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"218.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"194.5\" x2=\"420\" y2=\"194.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"197.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"173.3\" x2=\"420\" y2=\"173.3\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"176.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">180</text><line x1=\"55\" y1=\"152.1\" x2=\"420\" y2=\"152.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"155.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"130.9\" x2=\"420\" y2=\"130.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"133.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">220</text><line x1=\"55\" y1=\"109.7\" x2=\"420\" y2=\"109.7\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"112.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">240</text><line x1=\"55\" y1=\"88.5\" x2=\"420\" y2=\"88.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"91.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">260</text><line x1=\"55\" y1=\"67.4\" x2=\"420\" y2=\"67.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"70.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">280</text><line x1=\"55\" y1=\"46.2\" x2=\"420\" y2=\"46.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"49.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">300</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">320</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,46.2 56.5,47.6 58.0,49.1 59.6,50.5 61.1,51.9 62.6,53.3 64.1,54.7 65.6,56.1 67.2,57.5 68.7,58.9 70.2,60.3 71.7,61.6 73.2,63.0 74.8,64.4 76.3,65.7 77.8,67.1 79.3,68.4 80.9,69.8 82.4,71.1 83.9,72.4 85.4,73.7 86.9,75.0 88.5,76.4 90.0,77.7 91.5,79.0 93.0,80.2 94.5,81.5 96.1,82.8 97.6,84.1 99.1,85.3 100.6,86.6 102.1,87.9 103.7,89.1 105.2,90.4 106.7,91.6 108.2,92.8 109.8,94.0 111.3,95.3 112.8,96.5 114.3,97.7 115.8,98.9 117.4,100.1 118.9,101.3 120.4,102.5 121.9,103.7 123.4,104.8 125.0,106.0 126.5,107.2 128.0,108.3 129.5,109.5 131.0,110.7 132.6,111.8 134.1,112.9 135.6,114.1 137.1,115.2 138.6,116.3 140.2,117.5 141.7,118.6 143.2,119.7 144.7,120.8 146.2,121.9 147.8,123.0 149.3,124.1 150.8,125.2 152.3,126.2 153.9,127.3 155.4,128.4 156.9,129.4 158.4,130.5 159.9,131.6 161.5,132.6 163.0,133.7 164.5,134.7 166.0,135.7 167.5,136.8 169.1,137.8 170.6,138.8 172.1,139.8 173.6,140.9 175.1,141.9 176.7,142.9 178.2,143.9 179.7,144.9 181.2,145.9 182.8,146.8 184.3,147.8 185.8,148.8 187.3,149.8 188.8,150.7 190.4,151.7 191.9,152.7 193.4,153.6 194.9,154.6 196.4,155.5 198.0,156.5 199.5,157.4 201.0,158.3 202.5,159.3 204.0,160.2 205.6,161.1 207.1,162.0 208.6,163.0 210.1,163.9 211.6,164.8 213.2,165.7 214.7,166.6 216.2,167.5 217.7,168.3 219.2,169.2 220.8,170.1 222.3,171.0 223.8,171.9 225.3,172.7 226.9,173.6 228.4,174.5 229.9,175.3 231.4,176.2 232.9,177.0 234.5,177.9 236.0,178.7 237.5,179.5 239.0,180.4 240.5,181.2 242.1,182.0 243.6,182.9 245.1,183.7 246.6,184.5 248.1,185.3 249.7,186.1 251.2,186.9 252.7,187.7 254.2,188.5 255.8,189.3 257.3,190.1 258.8,190.9 260.3,191.7 261.8,192.5 263.4,193.2 264.9,194.0 266.4,194.8 267.9,195.5 269.4,196.3 271.0,197.1 272.5,197.8 274.0,198.6 275.5,199.3 277.0,200.1 278.6,200.8 280.1,201.5 281.6,202.3 283.1,203.0 284.6,203.7 286.2,204.5 287.7,205.2 289.2,205.9 290.7,206.6 292.2,207.3 293.8,208.0 295.3,208.7 296.8,209.4 298.3,210.1 299.9,210.8 301.4,211.5 302.9,212.2 304.4,212.9 305.9,213.6 307.5,214.3 309.0,214.9 310.5,215.6 312.0,216.3 313.5,217.0 315.1,217.6 316.6,218.3 318.1,218.9 319.6,219.6 321.1,220.2 322.7,220.9 324.2,221.5 325.7,222.2 327.2,222.8 328.8,223.5 330.3,224.1 331.8,224.7 333.3,225.4 334.8,226.0 336.4,226.6 337.9,227.2 339.4,227.9 340.9,228.5 342.4,229.1 344.0,229.7 345.5,230.3 347.0,230.9 348.5,231.5 350.0,232.1 351.6,232.7 353.1,233.3 354.6,233.9 356.1,234.5 357.6,235.1 359.2,235.6 360.7,236.2 362.2,236.8 363.7,237.4 365.2,238.0 366.8,238.5 368.3,239.1 369.8,239.7 371.3,240.2 372.9,240.8 374.4,241.3 375.9,241.9 377.4,242.4 378.9,243.0 380.5,243.5 382.0,244.1 383.5,244.6 385.0,245.2 386.5,245.7 388.1,246.2 389.6,246.8 391.1,247.3 392.6,247.8 394.1,248.4 395.7,248.9 397.2,249.4 398.7,249.9 400.2,250.4 401.8,250.9 403.3,251.5 404.8,252.0 406.3,252.5 407.8,253.0 409.4,253.5 410.9,254.0 412.4,254.5 413.9,255.0 415.4,255.5 417.0,256.0 418.5,256.4 420.0,256.9\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"206.4\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">f</text><polyline points=\"55.0,173.3 56.5,173.3 58.0,173.3 59.6,173.3 61.1,173.3 62.6,173.3 64.1,173.3 65.6,173.3 67.2,173.3 68.7,173.3 70.2,173.3 71.7,173.3 73.2,173.3 74.8,173.3 76.3,173.3 77.8,173.3 79.3,173.3 80.9,173.3 82.4,173.3 83.9,173.3 85.4,173.3 86.9,173.3 88.5,173.3 90.0,173.3 91.5,173.3 93.0,173.3 94.5,173.3 96.1,173.3 97.6,173.3 99.1,173.3 100.6,173.3 102.1,173.3 103.7,173.3 105.2,173.3 106.7,173.3 108.2,173.3 109.8,173.3 111.3,173.3 112.8,173.3 114.3,173.3 115.8,173.3 117.4,173.3 118.9,173.3 120.4,173.3 121.9,173.3 123.4,173.3 125.0,173.3 126.5,173.3 128.0,173.3 129.5,173.3 131.0,173.3 132.6,173.3 134.1,173.3 135.6,173.3 137.1,173.3 138.6,173.3 140.2,173.3 141.7,173.3 143.2,173.3 144.7,173.3 146.2,173.3 147.8,173.3 149.3,173.3 150.8,173.3 152.3,173.3 153.9,173.3 155.4,173.3 156.9,173.3 158.4,173.3 159.9,173.3 161.5,173.3 163.0,173.3 164.5,173.3 166.0,173.3 167.5,173.3 169.1,173.3 170.6,173.3 172.1,173.3 173.6,173.3 175.1,173.3 176.7,173.3 178.2,173.3 179.7,173.3 181.2,173.3 182.8,173.3 184.3,173.3 185.8,173.3 187.3,173.3 188.8,173.3 190.4,173.3 191.9,173.3 193.4,173.3 194.9,173.3 196.4,173.3 198.0,173.3 199.5,173.3 201.0,173.3 202.5,173.3 204.0,173.3 205.6,173.3 207.1,173.3 208.6,173.3 210.1,173.3 211.6,173.3 213.2,173.3 214.7,173.3 216.2,173.3 217.7,173.3 219.2,173.3 220.8,173.3 222.3,173.3 223.8,173.3 225.3,173.3 226.9,173.3 228.4,173.3 229.9,173.3 231.4,173.3 232.9,173.3 234.5,173.3 236.0,173.3 237.5,173.3 239.0,173.3 240.5,173.3 242.1,173.3 243.6,173.3 245.1,173.3 246.6,173.3 248.1,173.3 249.7,173.3 251.2,173.3 252.7,173.3 254.2,173.3 255.8,173.3 257.3,173.3 258.8,173.3 260.3,173.3 261.8,173.3 263.4,173.3 264.9,173.3 266.4,173.3 267.9,173.3 269.4,173.3 271.0,173.3 272.5,173.3 274.0,173.3 275.5,173.3 277.0,173.3 278.6,173.3 280.1,173.3 281.6,173.3 283.1,173.3 284.6,173.3 286.2,173.3 287.7,173.3 289.2,173.3 290.7,173.3 292.2,173.3 293.8,173.3 295.3,173.3 296.8,173.3 298.3,173.3 299.9,173.3 301.4,173.3 302.9,173.3 304.4,173.3 305.9,173.3 307.5,173.3 309.0,173.3 310.5,173.3 312.0,173.3 313.5,173.3 315.1,173.3 316.6,173.3 318.1,173.3 319.6,173.3 321.1,173.3 322.7,173.3 324.2,173.3 325.7,173.3 327.2,173.3 328.8,173.3 330.3,173.3 331.8,173.3 333.3,173.3 334.8,173.3 336.4,173.3 337.9,173.3 339.4,173.3 340.9,173.3 342.4,173.3 344.0,173.3 345.5,173.3 347.0,173.3 348.5,173.3 350.0,173.3 351.6,173.3 353.1,173.3 354.6,173.3 356.1,173.3 357.6,173.3 359.2,173.3 360.7,173.3 362.2,173.3 363.7,173.3 365.2,173.3 366.8,173.3 368.3,173.3 369.8,173.3 371.3,173.3 372.9,173.3 374.4,173.3 375.9,173.3 377.4,173.3 378.9,173.3 380.5,173.3 382.0,173.3 383.5,173.3 385.0,173.3 386.5,173.3 388.1,173.3 389.6,173.3 391.1,173.3 392.6,173.3 394.1,173.3 395.7,173.3 397.2,173.3 398.7,173.3 400.2,173.3 401.8,173.3 403.3,173.3 404.8,173.3 406.3,173.3 407.8,173.3 409.4,173.3 410.9,173.3 412.4,173.3 413.9,173.3 415.4,173.3 417.0,173.3 418.5,173.3 420.0,173.3\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"167.3\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">180</text></svg></span><p>För vilka \\(x\\ge0\\) gäller \\(f(x)&lt;180\\)?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p><p>Skärningen ligger vid \\(x\\approx7,04\\). Eftersom funktionen minskar gäller <strong>\\(x&gt;7,04\\)</strong>.</p>",
+    "t": "<p>Grafen visar (f(x)=300·0,93^x) och linjen (y=180).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"79.3\" y1=\"25\" x2=\"79.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"79.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"103.7\" y1=\"25\" x2=\"103.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"103.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"128.0\" y1=\"25\" x2=\"128.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"128.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"152.3\" y1=\"25\" x2=\"152.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"152.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"176.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"201.0\" y1=\"25\" x2=\"201.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"201.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"225.3\" y1=\"25\" x2=\"225.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"225.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"249.7\" y1=\"25\" x2=\"249.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"249.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"274.0\" y1=\"25\" x2=\"274.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"274.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">9</text><line x1=\"298.3\" y1=\"25\" x2=\"298.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"298.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"322.7\" y1=\"25\" x2=\"322.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"322.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">11</text><line x1=\"347.0\" y1=\"25\" x2=\"347.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"347.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"371.3\" y1=\"25\" x2=\"371.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"371.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">13</text><line x1=\"395.7\" y1=\"25\" x2=\"395.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"395.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">15</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"261.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"236.8\" x2=\"420\" y2=\"236.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"239.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"215.6\" x2=\"420\" y2=\"215.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"218.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"194.5\" x2=\"420\" y2=\"194.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"197.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"173.3\" x2=\"420\" y2=\"173.3\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"176.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">180</text><line x1=\"55\" y1=\"152.1\" x2=\"420\" y2=\"152.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"155.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"130.9\" x2=\"420\" y2=\"130.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"133.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">220</text><line x1=\"55\" y1=\"109.7\" x2=\"420\" y2=\"109.7\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"112.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">240</text><line x1=\"55\" y1=\"88.5\" x2=\"420\" y2=\"88.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"91.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">260</text><line x1=\"55\" y1=\"67.4\" x2=\"420\" y2=\"67.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"70.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">280</text><line x1=\"55\" y1=\"46.2\" x2=\"420\" y2=\"46.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"49.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">300</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">320</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,46.2 56.5,47.6 58.0,49.1 59.6,50.5 61.1,51.9 62.6,53.3 64.1,54.7 65.6,56.1 67.2,57.5 68.7,58.9 70.2,60.3 71.7,61.6 73.2,63.0 74.8,64.4 76.3,65.7 77.8,67.1 79.3,68.4 80.9,69.8 82.4,71.1 83.9,72.4 85.4,73.7 86.9,75.0 88.5,76.4 90.0,77.7 91.5,79.0 93.0,80.2 94.5,81.5 96.1,82.8 97.6,84.1 99.1,85.3 100.6,86.6 102.1,87.9 103.7,89.1 105.2,90.4 106.7,91.6 108.2,92.8 109.8,94.0 111.3,95.3 112.8,96.5 114.3,97.7 115.8,98.9 117.4,100.1 118.9,101.3 120.4,102.5 121.9,103.7 123.4,104.8 125.0,106.0 126.5,107.2 128.0,108.3 129.5,109.5 131.0,110.7 132.6,111.8 134.1,112.9 135.6,114.1 137.1,115.2 138.6,116.3 140.2,117.5 141.7,118.6 143.2,119.7 144.7,120.8 146.2,121.9 147.8,123.0 149.3,124.1 150.8,125.2 152.3,126.2 153.9,127.3 155.4,128.4 156.9,129.4 158.4,130.5 159.9,131.6 161.5,132.6 163.0,133.7 164.5,134.7 166.0,135.7 167.5,136.8 169.1,137.8 170.6,138.8 172.1,139.8 173.6,140.9 175.1,141.9 176.7,142.9 178.2,143.9 179.7,144.9 181.2,145.9 182.8,146.8 184.3,147.8 185.8,148.8 187.3,149.8 188.8,150.7 190.4,151.7 191.9,152.7 193.4,153.6 194.9,154.6 196.4,155.5 198.0,156.5 199.5,157.4 201.0,158.3 202.5,159.3 204.0,160.2 205.6,161.1 207.1,162.0 208.6,163.0 210.1,163.9 211.6,164.8 213.2,165.7 214.7,166.6 216.2,167.5 217.7,168.3 219.2,169.2 220.8,170.1 222.3,171.0 223.8,171.9 225.3,172.7 226.9,173.6 228.4,174.5 229.9,175.3 231.4,176.2 232.9,177.0 234.5,177.9 236.0,178.7 237.5,179.5 239.0,180.4 240.5,181.2 242.1,182.0 243.6,182.9 245.1,183.7 246.6,184.5 248.1,185.3 249.7,186.1 251.2,186.9 252.7,187.7 254.2,188.5 255.8,189.3 257.3,190.1 258.8,190.9 260.3,191.7 261.8,192.5 263.4,193.2 264.9,194.0 266.4,194.8 267.9,195.5 269.4,196.3 271.0,197.1 272.5,197.8 274.0,198.6 275.5,199.3 277.0,200.1 278.6,200.8 280.1,201.5 281.6,202.3 283.1,203.0 284.6,203.7 286.2,204.5 287.7,205.2 289.2,205.9 290.7,206.6 292.2,207.3 293.8,208.0 295.3,208.7 296.8,209.4 298.3,210.1 299.9,210.8 301.4,211.5 302.9,212.2 304.4,212.9 305.9,213.6 307.5,214.3 309.0,214.9 310.5,215.6 312.0,216.3 313.5,217.0 315.1,217.6 316.6,218.3 318.1,218.9 319.6,219.6 321.1,220.2 322.7,220.9 324.2,221.5 325.7,222.2 327.2,222.8 328.8,223.5 330.3,224.1 331.8,224.7 333.3,225.4 334.8,226.0 336.4,226.6 337.9,227.2 339.4,227.9 340.9,228.5 342.4,229.1 344.0,229.7 345.5,230.3 347.0,230.9 348.5,231.5 350.0,232.1 351.6,232.7 353.1,233.3 354.6,233.9 356.1,234.5 357.6,235.1 359.2,235.6 360.7,236.2 362.2,236.8 363.7,237.4 365.2,238.0 366.8,238.5 368.3,239.1 369.8,239.7 371.3,240.2 372.9,240.8 374.4,241.3 375.9,241.9 377.4,242.4 378.9,243.0 380.5,243.5 382.0,244.1 383.5,244.6 385.0,245.2 386.5,245.7 388.1,246.2 389.6,246.8 391.1,247.3 392.6,247.8 394.1,248.4 395.7,248.9 397.2,249.4 398.7,249.9 400.2,250.4 401.8,250.9 403.3,251.5 404.8,252.0 406.3,252.5 407.8,253.0 409.4,253.5 410.9,254.0 412.4,254.5 413.9,255.0 415.4,255.5 417.0,256.0 418.5,256.4 420.0,256.9\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"206.4\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">f</text><polyline points=\"55.0,173.3 56.5,173.3 58.0,173.3 59.6,173.3 61.1,173.3 62.6,173.3 64.1,173.3 65.6,173.3 67.2,173.3 68.7,173.3 70.2,173.3 71.7,173.3 73.2,173.3 74.8,173.3 76.3,173.3 77.8,173.3 79.3,173.3 80.9,173.3 82.4,173.3 83.9,173.3 85.4,173.3 86.9,173.3 88.5,173.3 90.0,173.3 91.5,173.3 93.0,173.3 94.5,173.3 96.1,173.3 97.6,173.3 99.1,173.3 100.6,173.3 102.1,173.3 103.7,173.3 105.2,173.3 106.7,173.3 108.2,173.3 109.8,173.3 111.3,173.3 112.8,173.3 114.3,173.3 115.8,173.3 117.4,173.3 118.9,173.3 120.4,173.3 121.9,173.3 123.4,173.3 125.0,173.3 126.5,173.3 128.0,173.3 129.5,173.3 131.0,173.3 132.6,173.3 134.1,173.3 135.6,173.3 137.1,173.3 138.6,173.3 140.2,173.3 141.7,173.3 143.2,173.3 144.7,173.3 146.2,173.3 147.8,173.3 149.3,173.3 150.8,173.3 152.3,173.3 153.9,173.3 155.4,173.3 156.9,173.3 158.4,173.3 159.9,173.3 161.5,173.3 163.0,173.3 164.5,173.3 166.0,173.3 167.5,173.3 169.1,173.3 170.6,173.3 172.1,173.3 173.6,173.3 175.1,173.3 176.7,173.3 178.2,173.3 179.7,173.3 181.2,173.3 182.8,173.3 184.3,173.3 185.8,173.3 187.3,173.3 188.8,173.3 190.4,173.3 191.9,173.3 193.4,173.3 194.9,173.3 196.4,173.3 198.0,173.3 199.5,173.3 201.0,173.3 202.5,173.3 204.0,173.3 205.6,173.3 207.1,173.3 208.6,173.3 210.1,173.3 211.6,173.3 213.2,173.3 214.7,173.3 216.2,173.3 217.7,173.3 219.2,173.3 220.8,173.3 222.3,173.3 223.8,173.3 225.3,173.3 226.9,173.3 228.4,173.3 229.9,173.3 231.4,173.3 232.9,173.3 234.5,173.3 236.0,173.3 237.5,173.3 239.0,173.3 240.5,173.3 242.1,173.3 243.6,173.3 245.1,173.3 246.6,173.3 248.1,173.3 249.7,173.3 251.2,173.3 252.7,173.3 254.2,173.3 255.8,173.3 257.3,173.3 258.8,173.3 260.3,173.3 261.8,173.3 263.4,173.3 264.9,173.3 266.4,173.3 267.9,173.3 269.4,173.3 271.0,173.3 272.5,173.3 274.0,173.3 275.5,173.3 277.0,173.3 278.6,173.3 280.1,173.3 281.6,173.3 283.1,173.3 284.6,173.3 286.2,173.3 287.7,173.3 289.2,173.3 290.7,173.3 292.2,173.3 293.8,173.3 295.3,173.3 296.8,173.3 298.3,173.3 299.9,173.3 301.4,173.3 302.9,173.3 304.4,173.3 305.9,173.3 307.5,173.3 309.0,173.3 310.5,173.3 312.0,173.3 313.5,173.3 315.1,173.3 316.6,173.3 318.1,173.3 319.6,173.3 321.1,173.3 322.7,173.3 324.2,173.3 325.7,173.3 327.2,173.3 328.8,173.3 330.3,173.3 331.8,173.3 333.3,173.3 334.8,173.3 336.4,173.3 337.9,173.3 339.4,173.3 340.9,173.3 342.4,173.3 344.0,173.3 345.5,173.3 347.0,173.3 348.5,173.3 350.0,173.3 351.6,173.3 353.1,173.3 354.6,173.3 356.1,173.3 357.6,173.3 359.2,173.3 360.7,173.3 362.2,173.3 363.7,173.3 365.2,173.3 366.8,173.3 368.3,173.3 369.8,173.3 371.3,173.3 372.9,173.3 374.4,173.3 375.9,173.3 377.4,173.3 378.9,173.3 380.5,173.3 382.0,173.3 383.5,173.3 385.0,173.3 386.5,173.3 388.1,173.3 389.6,173.3 391.1,173.3 392.6,173.3 394.1,173.3 395.7,173.3 397.2,173.3 398.7,173.3 400.2,173.3 401.8,173.3 403.3,173.3 404.8,173.3 406.3,173.3 407.8,173.3 409.4,173.3 410.9,173.3 412.4,173.3 413.9,173.3 415.4,173.3 417.0,173.3 418.5,173.3 420.0,173.3\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"167.3\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">180</text></svg></span><p>Vilket alternativ beskriver lösningen till (f(x)&lt;180) för (x≥0) bäst?</p><p>A. (0le x&lt;7,04)<br>B. (x&gt;7,04)<br>C. (x&lt;180)<br>D. (x&gt;180)</p>",
+    "s": "<p>Graferna skär varandra vid ungefär (x=7,04). Eftersom exponentialfunktionen minskar ligger den under 180 <strong>efter</strong> skärningen.</p><p><strong>Svar: B, (x&gt;7,04).</strong></p>",
     "familj": "Digital grafanalys",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>"
+    "ledtrad": "<p>Bestäm först på vilken sida om skärningen den avtagande grafen ligger under den horisontella linjen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.12",
@@ -65840,7 +66449,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Använd grafisk skärning eller en digital ekvationslösare. Kontrollera att (2^{5,13}) ligger nära 35.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.13",
@@ -65851,8 +66463,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett värde multipliceras med 1,05 en gång per år.</p><p>Hur förändras värdet vid varje årsskifte?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Faktorn 1,05 betyder att 105 % av det gamla värdet behålls. Det är en ökning med <strong>5 % per år</strong>.</p></div></div>",
+    "t": "<p>Ett program upprepar instruktionen <code>värde = värde * 1.05</code> en gång per år. Vad betyder en sådan uppdatering för värdet vid varje steg?</p>",
+    "s": "<p>Multiplikation med 1,05 innebär att det nya värdet är 105 % av det gamla: <strong>en ökning med 5 % per steg</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -65864,7 +66476,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Tolka 1,05 som 100 % + något.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.14",
@@ -65875,14 +66490,14 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett kapital är från början 1 000 kr och ökar med 7 % per år under fyra år.</p><p>a) Beskriv förändringen med ord.<br>b) Skriv ett matematiskt uttryck för kapitalet efter fyra år.<br>c) Beräkna kapitalet efter fyra år. Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>a)</strong> Kapitalet multipliceras med förändringsfaktorn 1,07 fyra gånger.</p><p><strong>b)</strong> \\(1\\,000\\cdot1{,}07^4\\).</p><p><strong>c)</strong> \\(1\\,000\\cdot1{,}07^4\\approx1\\,310{,}80\\).</p><p><strong>Svar:</strong> 1 310,80 kr.</p></div></div>",
+    "t": "<p>Ett program ska beräkna ett kapital som börjar på 1 000 kr och ökar med 7 % per år i fyra år.</p><p>a) Vilken uppdatering ska upprepas varje år?<br>b) Skriv ett direkt uttryck för kapitalet efter fyra år.<br>c) Beräkna kapitalet efter fyra år. Svara med två decimaler.</p>",
+    "s": "<p>a) Varje år ska programmet multiplicera det aktuella kapitalet med 1,07: <strong>värde = värde * 1.07</strong>.</p><p>b) Fyra upprepningar motsvarar <strong>(1000·1,07^4)</strong>.</p><p>c) Det blir <strong>1 310,80 kr</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
+      "värde = värde * 1.07",
       "1000*1.07^4",
       1310.8
     ],
@@ -65892,7 +66507,7 @@ window.BANKMA1 = [
       0.01
     ],
     "självrättning": [
-      false,
+      true,
       true,
       true
     ],
@@ -65901,16 +66516,19 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a) beskrivning",
+      "a) uppdatering",
       "b) uttryck",
-      "c) slutvärde"
+      "c) kronor"
     ],
     "svarFormat": [
-      null,
+      "kort_text",
       "uttryck",
       "numeriskt"
     ],
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>En loop med samma procentuella förändring gör samma multiplikation vid varje varv.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.15",
@@ -65921,10 +66539,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "1/1/2",
+    "niva": "C",
+    "poang": "1/2/0",
     "t": "<p>Ett mönster byggs av tändstickor. Figur 1 består av en kvadrat och kräver 4 stickor. Varje ny kvadrat läggs till i rad och delar en sida med den föregående, så den kräver 3 nya stickor.</p><p>a) Hur många stickor krävs för figur 1, 2, 3 och 4?<br>b) Skriv ett förenklat uttryck för antalet stickor i figur \\(n\\).<br>c) Du har 3 000 stickor och vill bygga en så stor figur som möjligt enligt mönstret. Hur många stickor blir över?</p><span class=\"fig\"><svg width=\"358\" height=\"104\" viewBox=\"0 0 358 104\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mönster av tändstickor, figur 1 till 3, där varje ny kvadrat delar sida med den föregående\"><rect x=\"1\" y=\"1\" width=\"356\" height=\"102\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"28\" x2=\"60\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"58\" x2=\"60\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"28\" x2=\"30\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"45\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 1</text><line x1=\"116\" y1=\"28\" x2=\"146\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"58\" x2=\"146\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146\" y1=\"28\" x2=\"176\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146\" y1=\"58\" x2=\"176\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"28\" x2=\"116\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146\" y1=\"28\" x2=\"146\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"28\" x2=\"176\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"146\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 2</text><line x1=\"232\" y1=\"28\" x2=\"262\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"232\" y1=\"58\" x2=\"262\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"28\" x2=\"292\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"58\" x2=\"292\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"292\" y1=\"28\" x2=\"322\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"292\" y1=\"58\" x2=\"322\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"232\" y1=\"28\" x2=\"232\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"28\" x2=\"262\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"292\" y1=\"28\" x2=\"292\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"322\" y1=\"28\" x2=\"322\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"277\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 3</text></svg></span>",
-    "s": "<p>a) <strong>4, 7, 10 och 13 stickor</strong></p><p>b) Efter den första kvadraten återstår \\(n-1\\) kvadrater à 3 stickor: \\(4+3(n-1)=4+3n-3\\), alltså <strong>\\(3n+1\\)</strong></p><p>c) Vi söker största heltalet \\(n\\) med \\(3n+1\\le3\\,000\\), alltså \\(3n\\le2\\,999\\) och \\(n\\le999{,}67\\ldots\\)<br>Största figuren är \\(n=999\\), som kräver \\(3\\cdot999+1=2\\,998\\) stickor.<br><strong>Det blir 2 stickor över.</strong></p>",
+    "s": "<p>a) <strong>4, 7, 10, 13</strong>.</p><p>b) Figur 1 har 4 stickor och varje ytterligare kvadrat kräver 3 nya: (4+3(n-1)=)<strong>3n+1</strong>.</p><p>c) (3n+1≤3000) ger (n≤999,66…). Största heltalet är 999. Figuren använder 2 998 stickor, så <strong>2 stickor blir över</strong>.</p>",
     "familj": "Algebraiska samband och problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -65960,7 +66578,10 @@ window.BANKMA1 = [
       "uttryck",
       "heltal"
     ],
-    "ledtrad": "<p>Definiera den okända storheten och skriv ett algebraiskt samband direkt från villkoren i texten. Förenkla eller lös först när du kan förklara vad varje term i sambandet representerar.</p>"
+    "ledtrad": "<p>Formulera först antalet stickor i figur n. I sista delen söker du största heltalet n som inte kräver fler än 3 000 stickor.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "6.16",
@@ -65973,20 +66594,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En figurserie har 4, 7, 10, 13, ... stickor. Skriv ett uttryck för figur \\(n\\).</p><span class=\"fig\"><svg width=\"534\" height=\"104\" viewBox=\"0 0 534 104\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mönster av tändstickor, figur 1 till 4, där varje ny kvadrat delar sida med den föregående\"><rect x=\"1\" y=\"1\" width=\"532\" height=\"102\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"28\" x2=\"60\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"58\" x2=\"60\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"30\" y1=\"28\" x2=\"30\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"60\" y1=\"28\" x2=\"60\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"45\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 1</text><line x1=\"116\" y1=\"28\" x2=\"146\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"58\" x2=\"146\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146\" y1=\"28\" x2=\"176\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146\" y1=\"58\" x2=\"176\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"116\" y1=\"28\" x2=\"116\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146\" y1=\"28\" x2=\"146\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"176\" y1=\"28\" x2=\"176\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"146\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 2</text><line x1=\"232\" y1=\"28\" x2=\"262\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"232\" y1=\"58\" x2=\"262\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"28\" x2=\"292\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"58\" x2=\"292\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"292\" y1=\"28\" x2=\"322\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"292\" y1=\"58\" x2=\"322\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"232\" y1=\"28\" x2=\"232\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"28\" x2=\"262\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"292\" y1=\"28\" x2=\"292\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"322\" y1=\"28\" x2=\"322\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"277\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 3</text><line x1=\"378\" y1=\"28\" x2=\"408\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"378\" y1=\"58\" x2=\"408\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"408\" y1=\"28\" x2=\"438\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"408\" y1=\"58\" x2=\"438\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"438\" y1=\"28\" x2=\"468\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"438\" y1=\"58\" x2=\"468\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"468\" y1=\"28\" x2=\"498\" y2=\"28\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"468\" y1=\"58\" x2=\"498\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"378\" y1=\"28\" x2=\"378\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"408\" y1=\"28\" x2=\"408\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"438\" y1=\"28\" x2=\"438\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"468\" y1=\"28\" x2=\"468\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"498\" y1=\"28\" x2=\"498\" y2=\"58\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"438\" y=\"82\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 4</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Antalet ökar med 3 stickor för varje ny figur. En aritmetisk följd med första termen 4 och differensen 3 skrivs</p><p>\\[a_n=4+3(n-1)=3n+1.\\]</p><p><strong>Svar:</strong> \\(a_n=3n+1\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "t": "<p>En figurserie följer regeln (a_n=3n+1). En figur har 100 stickor. Vilket figurnummer är det?</p>",
+    "s": "<p>Sätt (3n+1=100). Då blir (3n=99) och <strong>n=33</strong>.</p><p>Kontroll: (3·33+1=100).</p>",
     "familj": "Algebraiska samband och problemlösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "3n+1",
+    "svarstyp": "numeriskt",
+    "rättSvar": 33,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Definiera den okända storheten och skriv ett algebraiskt samband direkt från villkoren i texten. Förenkla eller lös först när du kan förklara vad varje term i sambandet representerar.</p>"
+    "ledtrad": "<p>Nu känner du antalet stickor men inte n. Sätt därför uttrycket (3n+1) lika med 100.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.17",
@@ -65997,21 +66621,39 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Tre personer delar på 4 500 kr. Anna får dubbelt så mycket som Björn. Cecilia får 500 kr mer än Björn.</p><p>Hur mycket får var och en?</p>",
-    "s": "<p><strong>Steg 1:</strong> Låt Björn få \\(x\\) kr. Då får Anna \\(2x\\) kr och Cecilia \\(x+500\\) kr.</p><p>\\[x+2x+(x+500)=4\\,500\\]</p><p>\\(4x+500=4\\,500\\Rightarrow4x=4\\,000\\Rightarrow x=1\\,000\\).</p><p><strong>Björn får 1 000 kr, Anna 2 000 kr och Cecilia 1 500 kr.</strong></p><p>Kontroll: \\(1\\,000+2\\,000+1\\,500=4\\,500\\) kr.</p>",
+    "s": "<p>Låt Björn få (x) kr. Då får Anna (2x) och Cecilia (x+500).</p><p>(x+2x+(x+500)=4500 ⇒ 4x=4000 ⇒  x=1000).</p><p><strong>Anna 2 000 kr, Björn 1 000 kr, Cecilia 1 500 kr.</strong> Summan är 4 500 kr.</p>",
     "familj": "Algebraiska samband och problemlösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2000,
+      1000,
+      1500
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Definiera den okända storheten och skriv ett algebraiskt samband direkt från villkoren i texten. Förenkla eller lös först när du kan förklara vad varje term i sambandet representerar.</p>"
+    "ledtrad": "<p>Låt Björns andel vara x. Skriv då Annas och Cecilias andelar med hjälp av x och använd att summan är 4 500 kr.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Anna (kr)",
+      "Björn (kr)",
+      "Cecilia (kr)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "6.18",
@@ -66036,7 +66678,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Börja med att skriva upp vad som är känt och vad som ska bestämmas. Välj sedan en matematisk modell eller ekvation och kontrollera slutligen att svaret uppfyller villkoren.</p>"
+    "ledtrad": "<p>Håll först reda på hur många passagerare som är kvar efter avstigning och påstigning. Jämför sedan med 52 platser.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.19",
@@ -66050,7 +66695,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett lån på 120 000 kr har 4 % årlig ränta. Låntagaren amorterar 2 500 kr varje månad. Räntan beräknas varje månad på skulden vid månadens början.</p><p>a) Hur stor är skulden efter 12 amorteringar?<br>b) Hur stor blir räntan den allra första månaden?<br>c) Hur mycket betalas totalt in den första månaden, ränta och amortering tillsammans?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>a) \\(120\\,000-12\\cdot2\\,500=120\\,000-30\\,000=\\)<strong>90 000 kr</strong></p><p>b) Månadsräntan är \\(\\frac{4\\ \\%}{12}\\) av skulden: \\(120\\,000\\cdot\\frac{0{,}04}{12}=\\)<strong>400 kr</strong></p><p>c) \\(2\\,500+400=\\)<strong>2 900 kr</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>a) Tolv amorteringar minskar skulden med (12·2500=30000) kr, så skulden blir <strong>90 000 kr</strong>.</p><p>b) Första månadens ränta är (120000·0,04/12=)<strong>400 kr</strong>.</p><p>c) Första betalningen blir (2500+400=)<strong>2 900 kr</strong>.</p>",
     "familj": "Privatekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -66067,7 +66712,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Gör en tydlig tidslinje för inkomster, utgifter, ränta eller värdeförändring. Använd procentuell förändring som förändringsfaktor och jämför beloppen i samma tidsenhet.</p>"
+    "ledtrad": "<p>Skilj på amortering (som minskar skulden) och ränta (en kostnad). Gör om årsräntan 4 % till månadsränta innan du räknar första månaden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.20",
@@ -66092,7 +66740,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Beräkna 15 % av 1 200 kr.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.21",
@@ -66118,7 +66769,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>15 % betyder 0,15 av hela budgeten 240 miljoner.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.22",
@@ -66143,7 +66797,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Beräkna minskningen i kWh och dividera med ursprungsvärdet 9 600 kWh.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.23",
@@ -66156,20 +66813,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Diagrammet visar värdena 96 och 100 men y-axeln börjar vid 94.</p><span class=\"fig\"><svg width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"stapeldiagram med beskuren y-axel\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55\" y1=\"205.0\" x2=\"345\" y2=\"205.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"208.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">94</text><line x1=\"55\" y1=\"155.0\" x2=\"345\" y2=\"155.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"158.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">96</text><line x1=\"55\" y1=\"105.0\" x2=\"345\" y2=\"105.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"108.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">98</text><line x1=\"55\" y1=\"55.0\" x2=\"345\" y2=\"55.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"58.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><rect x=\"95\" y=\"155.0\" width=\"70\" height=\"50.0\" fill=\"#f5f5f5\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"130\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">A</text><text x=\"130\" y=\"148.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">96</text><rect x=\"225\" y=\"55.0\" width=\"70\" height=\"150.0\" fill=\"#f5f5f5\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"260\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">B</text><text x=\"260\" y=\"48.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">100</text><line x1=\"55\" y1=\"30\" x2=\"55\" y2=\"205\" stroke=\"#333\"/><line x1=\"55\" y1=\"205\" x2=\"345\" y2=\"205\" stroke=\"#333\"/></svg></span><p>Varför kan diagrammet uppfattas som missvisande?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skillnaden är bara 4 enheter, men den beskurna y-axeln gör staplarna visuellt mycket olika. <strong>Skalan förstorar intrycket av skillnaden.</strong></p></div></div>",
+    "t": "<p>Diagrammet visar värdena 96 och 100 men y-axeln börjar vid 94.</p><span class=\"fig\"><svg width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"stapeldiagram med beskuren y-axel\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55\" y1=\"205.0\" x2=\"345\" y2=\"205.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"208.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">94</text><line x1=\"55\" y1=\"155.0\" x2=\"345\" y2=\"155.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"158.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">96</text><line x1=\"55\" y1=\"105.0\" x2=\"345\" y2=\"105.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"108.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">98</text><line x1=\"55\" y1=\"55.0\" x2=\"345\" y2=\"55.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"58.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><rect x=\"95\" y=\"155.0\" width=\"70\" height=\"50.0\" fill=\"#f5f5f5\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"130\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">A</text><text x=\"130\" y=\"148.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">96</text><rect x=\"225\" y=\"55.0\" width=\"70\" height=\"150.0\" fill=\"#f5f5f5\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"260\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">B</text><text x=\"260\" y=\"48.0\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">100</text><line x1=\"55\" y1=\"30\" x2=\"55\" y2=\"205\" stroke=\"#333\"/><line x1=\"55\" y1=\"205\" x2=\"345\" y2=\"205\" stroke=\"#333\"/></svg></span><p>Varför kan diagrammet uppfattas som missvisande?</p><p>A. Diagrammet är fel eftersom 96 och 100 inte går att rita på samma axel.<br>B. Den avklippta y-axeln gör den relativa visuella skillnaden mycket större än den faktiska skillnaden 4 enheter.<br>C. Diagrammet är missvisande eftersom y-axlar alltid måste sluta vid 100.<br>D. Diagrammet visar ingen skillnad eftersom staplarna har samma bredd.</p>",
+    "s": "<p>När y-axeln börjar nära datavärdena fyller en liten absolut skillnad en stor del av den synliga axeln.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Jämför skillnaden 4 med hela den visade axelhöjden, inte bara med 100.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.24",
@@ -66183,7 +66843,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "2/2/0",
     "t": "<p>Ett diagram över ett pris visar y-axeln från 98 kr till 104 kr. Priset går från 100 kr till 102 kr och ser därför ut att ungefär tredubblas.</p><p>a) Hur stor är den verkliga procentuella ökningen?<br>b) Förklara varför diagrammet kan uppfattas som missvisande.<br>c) Hur skulle utseendet förändras om y-axeln började vid 0?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) <strong>2 %</strong>.</p><p>b) Den avklippta y-axeln förstorar den visuella skillnaden.</p><p>c) Skillnaden skulle se mycket mindre ut i förhållande till hela skalan.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>a) Ökningen är ((102-100)/100=0,02=)<strong>2 %</strong>.</p><p>b) När y-axeln bara visar 98–104 kr fyller två kronors ökning en stor del av diagrammets höjd, vilket förstorar intrycket.</p><p>c) Med y-axel från 0 skulle staplarna 100 och 102 ligga nästan lika högt och den visuella skillnaden motsvara den lilla relativa förändringen bättre.</p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
@@ -66194,11 +66854,7 @@ window.BANKMA1 = [
       null
     ],
     "tolerans": null,
-    "självrättning": [
-      true,
-      false,
-      false
-    ],
+    "självrättning": false,
     "formaga": [
       "begrepp",
       "resonemang"
@@ -66214,7 +66870,10 @@ window.BANKMA1 = [
       null,
       null
     ],
-    "ledtrad": "<p>b) Den avklippta y-axeln förstorar den visuella skillnaden.</p>"
+    "ledtrad": "<p>Beräkna först den faktiska relativa ökningen. Jämför sedan 2 kr med axelintervallet 98–104 respektive 0–104.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.25",
@@ -66225,8 +66884,8 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "1/2/0",
     "t": "<p>Ett kar innehåller 300 liter vatten. När proppen dras ur rinner det ut 25 liter per minut.</p><p>a) Skriv en modell \\(V(t)\\) för vattenmängden efter \\(t\\) minuter.<br>b) Bestäm modellens definitionsmängd och förklara varför den inte kan gälla för alla \\(t\\).<br>c) En elev använder modellen och får svaret \\(V(20)=-200\\) liter. Förklara vad som gått fel i tolkningen.</p>",
     "s": "<p>a) <strong>\\(V(t)=300-25t\\)</strong></p><p>b) Karet är tomt när \\(300-25t=0\\), alltså vid \\(t=12\\) minuter. Definitionsmängden är <strong>\\(0\\le t\\le12\\)</strong>. För större \\(t\\) ger modellen negativa volymer, vilket saknar fysikalisk mening – ett kar kan inte innehålla mindre än 0 liter</p><p>c) Eleven har räknat rätt i formeln men använt den utanför dess giltighetsområde. <strong>Efter 12 minuter är karet tomt, så \\(V(20)\\) borde tolkas som 0 liter, inte −200 liter.</strong> Modellen beskriver bara verkligheten så länge det finns vatten kvar att tömma</p>",
     "familj": "Skapa och använda matematiska modeller",
@@ -66239,11 +66898,7 @@ window.BANKMA1 = [
       null
     ],
     "tolerans": null,
-    "självrättning": [
-      true,
-      false,
-      false
-    ],
+    "självrättning": false,
     "formaga": [
       "procedur",
       "begrepp",
@@ -66261,7 +66916,10 @@ window.BANKMA1 = [
       null,
       null
     ],
-    "ledtrad": "<p>b) Karet är tomt när \\(300-25t=0\\), alltså vid \\(t=12\\) minuter. Definitionsmängden är \\(0\\le t\\le12\\).</p>"
+    "ledtrad": "<p>Modellen gäller bara så länge vattenmängden är fysisk möjlig. Bestäm när (300-25t) når 0 och tolka sedan det negativa värdet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.26",
@@ -66286,7 +66944,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>En värdeminskning med 7 % innebär att 93 % finns kvar varje år. Förändringsfaktorn är därför \\(0{,}93\\).</p>"
+    "ledtrad": "<p>Efter varje år finns 93 % av föregående års värde kvar. Använd startvärde 8 500 och förändringsfaktor 0,93.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.27",
@@ -66299,19 +66960,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett träd modelleras med \\(H(t)=1,2+0,35t\\), där \\(H\\) är höjden i meter och \\(t\\) antal år.</p><p>Ge en tydlig anledning till att modellen inte kan gälla för alla \\(t\\ge0\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Modellen säger att trädet fortsätter växa 0,35 m varje år utan gräns. <strong>Ett verkligt träd kan inte växa linjärt för alltid.</strong></p></div></div>",
+    "t": "<p>Ett träd modelleras med \\(H(t)=1,2+0,35t\\), där \\(H\\) är höjden i meter och \\(t\\) antal år.</p><p>Ge en tydlig anledning till att modellen inte kan gälla för alla \\(t\\ge0\\).</p><p>A. Trädet kan växa negativt efter tillräckligt lång tid.<br>B. Träd kan inte fortsätta öka exakt 0,35 m per år hur länge som helst; biologisk tillväxt förändras och begränsas.<br>C. Linjära modeller får aldrig användas för höjd.<br>D. Modellen är ogiltig redan vid (t=0) eftersom startvärdet är positivt.</p>",
+    "s": "<p>En linjär modell kan vara rimlig under en begränsad period men blir orimlig om den extrapoleras till obegränsad biologisk tillväxt.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Modellen säger att trädet fortsätter växa 0,35 m varje år utan gräns. Ett verkligt träd kan inte växa linjärt för alltid.</p>"
+    "ledtrad": "<p>Fundera på vad modellen förutsäger efter mycket lång tid.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.28",
@@ -66322,10 +66986,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/2/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>I ett alternativt tidsystem delas dygnet i 12 nya timmar, varje ny timme i 80 nya minuter.</p><p>a) Vad visar vanlig 24-timmarsklocka när den nya klockan visar 06:00?<br>b) Vad visar den nya klockan när vanlig tid är 18:00? Motivera med andel av dygnet.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Utgå från den information som ges och koppla den till den matematiska idén eller metoden som efterfrågas. Förklara sambandet med egna ord.</p><p>a) 06:00 är halva det nya dygnet, alltså <strong>12:00 vanlig tid</strong>.</p><p>b) 18:00 är 3/4 av dygnet. 3/4 av 12 nya timmar är <strong>09:00</strong>.</p>",
+    "s": "<p>a) 06:00 är halva det alternativa dygnet. Halva ett vanligt dygn är <strong>12:00</strong>.</p><p>b) 18:00 är (3/4) av ett vanligt dygn. (3/4) av 12 nya timmar är 9, alltså <strong>09:00</strong> i det nya systemet.</p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -66337,7 +67001,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från den information som ges och koppla den till den matematiska idén eller metoden som efterfrågas. Förklara sambandet med egna ord.</p>"
+    "ledtrad": "<p>Jämför inte antal minuter direkt. Uttryck i stället varje klockslag som en andel av ett helt dygn.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.29",
@@ -66351,7 +67018,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Ge ett exempel på hur ett matematiskt verktyg eller begrepp kan förändras när samhällets behov förändras.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Utgå från den information som ges och koppla den till den matematiska idén eller metoden som efterfrågas. Förklara sambandet med egna ord.</p><p>Exempel: standardiserade måttenheter blev viktiga för handel och vetenskap; digitala verktyg har förändrat hur beräkningar och grafer görs.</p>",
+    "s": "<p>Ett exempel är standardiserade måttenheter. Handel, byggande och naturvetenskap kräver att olika personer menar samma sak med en meter eller ett kilogram. Ett annat exempel är hur logaritmer och senare digitala verktyg utvecklats för att förenkla eller automatisera beräkningar.</p><p>Ett fullgott svar ska både ange ett matematiskt verktyg/begrepp och förklara vilket förändrat behov som gjorde det användbart.</p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -66362,7 +67029,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från den information som ges och koppla den till den matematiska idén eller metoden som efterfrågas. Förklara sambandet med egna ord.</p>"
+    "ledtrad": "<p>Välj exempelvis måttenheter, talrepresentation, logaritmer eller digitala verktyg. Koppla sedan förändringen till ett konkret samhällsbehov.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.30",
@@ -66376,7 +67046,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>I ett kalkylblad står startkapitalet 20 000 kr i cell B2 och räntesatsen 3 % som decimaltal i C2. I B3 ska kapitalet efter ett år beräknas.</p><span class=\"fig smal\"><svg width=\"365\" height=\"206\" viewBox=\"0 0 365 206\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"363\" height=\"204\" rx=\"8\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"38\" y=\"34\" width=\"325\" height=\"34\" fill=\"#EDEEF1\"/><rect x=\"0\" y=\"68\" width=\"38\" height=\"136\" fill=\"#EDEEF1\"/><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"113\" y1=\"34\" x2=\"113\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"243\" y1=\"34\" x2=\"243\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"363\" y1=\"34\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"34\" x2=\"363\" y2=\"34\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"68\" x2=\"363\" y2=\"68\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"102\" x2=\"363\" y2=\"102\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"136\" x2=\"363\" y2=\"136\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"170\" x2=\"363\" y2=\"170\" stroke=\"#B9BBC1\"/><line x1=\"0\" y1=\"204\" x2=\"363\" y2=\"204\" stroke=\"#B9BBC1\"/><text x=\"75.5\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"178.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">B</text><text x=\"303.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">C</text><text x=\"19.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"75.5\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">År</text><text x=\"178.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Kapital</text><text x=\"303.0\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">Räntesats</text><text x=\"19.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"75.5\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0</text><text x=\"178.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">20 000 kr</text><text x=\"303.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">3</text><text x=\"75.5\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">1</text><text x=\"178.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text><text x=\"19.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">4</text><text x=\"75.5\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">2</text><text x=\"178.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\"></text><text x=\"303.0\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">0,03</text></svg></span><p>a) Skriv en formel för cell B3.<br>b) Beräkna kapitalet efter 5 år. Svara med två decimaler.<br>c) Efter hur många hela år har kapitalet för första gången passerat 25 000 kr?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) <strong>=B2*(1+C2)</strong>, vilket ger \\(20\\,000\\cdot1{,}03\\)</p><p>b) \\(20\\,000\\cdot1{,}03^5\\approx\\)<strong>23 185,48 kr</strong></p><p>c) \\(20\\,000\\cdot1{,}03^7\\approx24\\,597\\) kr och \\(20\\,000\\cdot1{,}03^8\\approx25\\,335\\) kr. Alltså efter <strong>8 år</strong></p></div></div>",
+    "s": "<p>a) I B3: <strong>=B2*(1+C2)</strong>.</p><p>b) Efter fem år: (20000·1,03^5≈)<strong>23 185,48 kr</strong>.</p><p>c) Efter 7 år är kapitalet cirka 24 597 kr och efter 8 år cirka 25 335 kr. Gränsen passeras alltså första gången efter <strong>8 år</strong>.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
@@ -66393,7 +67063,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Behandla formeln som en ekvation och isolera den efterfrågade variabeln steg för steg. Gör inversa operationer i omvänd ordning.</p>"
+    "ledtrad": "<p>Kopiera en formel som multiplicerar föregående kapital med (1+) räntesatsen. För sista delen behöver du hitta det första heltalsåret över 25 000 kr.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.31",
@@ -66406,20 +67079,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du ritar graferna till \\(y=2x+1\\) och \\(y=7-x\\) i ett digitalt verktyg. Vad visar deras skärningspunkt?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p><p>Den visar det \\(x\\)-värde där funktionerna har samma värde, samt det gemensamma \\(y\\)-värdet.</p>",
+    "t": "<p>Du ritar graferna till (y=2x+1) och (y=7-x) i ett digitalt verktyg. Vad visar deras skärningspunkt?</p><p>A. Ett x-värde där funktionerna har samma y-värde, tillsammans med detta gemensamma y-värde.<br>B. De två funktionernas största möjliga y-värden.<br>C. Ett x-värde där båda funktionerna måste vara noll.<br>D. Funktionernas lutningar skrivna som en punkt.</p>",
+    "s": "<p>I en skärningspunkt har graferna samma x- och y-koordinat. Därför visar punkten ett x-värde där funktionerna har <strong>samma funktionsvärde</strong>, samt detta gemensamma y-värde.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Digital grafanalys",
     "geogebra": true,
     "miniräknare": false,
-    "svarstyp": "figur",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Bestäm först de egenskaper som styr skissen – till exempel nollställen, tecken, asymptoter, extrempunkter eller riktningar – och låt dem styra grafen/figuren.</p>"
+    "ledtrad": "<p>Vad måste vara lika för två grafer i exakt samma punkt?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.32",
@@ -66433,10 +67109,10 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två modeller är \\(A(t)=80\\cdot1,05^t\\) och \\(B(t)=140+2t\\). Använd ett digitalt verktyg för att bestämma när modellerna har samma värde. Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p><p>En digital lösning av \\(80\\cdot1,05^t=140+2t\\) ger <strong>\\(t\\approx15,6\\)</strong>.</p>",
+    "s": "<p>Lös digitalt (80·1,05^t=140+2t). Skärningen fås vid <strong>t≈15,6</strong>.</p>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "15.6",
     "tolerans": 0.1,
@@ -66446,7 +67122,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Rita båda modellerna i samma koordinatsystem eller använd en ekvationslösare och sök efter skärningen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.33",
@@ -66455,10 +67134,10 @@ window.BANKMA1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Ett kapital är 1 000 kr och ökar med 7 % per år.</p><p>Bestäm det minsta heltalet \\(n\\) som gör att kapitalet har blivit större än 2 000 kr. Ställ först upp en olikhet och motivera sedan varför ditt heltalsvärde är det första som fungerar.</p>",
-    "s": "<p>Efter \\(n\\) år är kapitalet \\(1\\,000\\cdot1{,}07^n\\). Vi söker därför minsta heltal som uppfyller</p><p>\\[1\\,000\\cdot1{,}07^n\\gt 2\\,000.\\]</p><p>Kontrollera heltalen runt gränsen:</p><p>\\[1\\,000\\cdot1{,}07^{10}\\approx1\\,967\\lt 2\\,000,\\]</p><p>\\[1\\,000\\cdot1{,}07^{11}\\approx2\\,105\\gt 2\\,000.\\]</p><p>Alltså är \\(n=11\\) det första heltalsvärdet som uppfyller villkoret.</p><p><strong>Svar:</strong> 11 år.</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Ett program startar med <code>kapital = 1000</code> och <code>n = 0</code>. Så länge kapitalet är högst 2 000 kr multipliceras kapitalet med 1,07 och n ökas med 1. Vilket värde har n när loopen avslutas? Motivera med värdena precis före och efter gränsen.</p>",
+    "s": "<p>Efter 10 uppdateringar är kapitalet (1000·1,07^{10}≈1967) kr, så loopen fortsätter. Efter 11 uppdateringar är det cirka 2 105 kr och villkoret är inte längre sant.</p><p><strong>n=11</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -66472,7 +67151,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Efter \\(n\\) år är kapitalet \\(1\\,000\\cdot1{,}07^n\\). Vi söker därför minsta heltal som uppfyller</p>"
+    "ledtrad": "<p>Du behöver hitta första heltalet n där (1000·1,07^n&gt;2000). Kontrollera två intilliggande heltal.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.34",
@@ -66483,8 +67165,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett värde är från början 100 och minskar med 10 % fem gånger i följd.</p><p>Skriv ett matematiskt uttryck för slutvärdet.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En minskning med 10 % motsvarar förändringsfaktorn 0,9. Fem lika förändringar ger därför</p><p><strong>\\(100\\cdot0,9^5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "t": "<p>Ett program startar med värdet 100 och upprepar <code>värde = värde * 0.9</code> fem gånger. Skriv ett direkt matematiskt uttryck för slutvärdet.</p>",
+    "s": "<p>Fem multiplikationer med 0,9 motsvarar <strong>(100·0,9^5)</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -66495,7 +67177,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Upprepad multiplikation med samma faktor kan skrivas som en potens.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.35",
@@ -66521,7 +67206,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att skriva upp vad som är känt och vad som ska bestämmas. Välj sedan en matematisk modell eller ekvation och kontrollera slutligen att svaret uppfyller villkoren.</p>"
+    "ledtrad": "<p>Kalla talet x. De två vägarna ger uttrycken (3x+4) och (5x-10). Vad måste gälla när resultaten är lika?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.36",
@@ -66535,7 +67223,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En serie börjar 2, 6, 12, 20, ... Upptäck ett samband och skriv ett uttryck för term \\(n\\).</p><span class=\"fig\"><svg width=\"448\" height=\"154\" viewBox=\"0 0 448 154\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Prickmönster där figur n bildar en rektangel med n rader och n plus en kolumn\"><rect x=\"1\" y=\"1\" width=\"446\" height=\"152\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"34\" cy=\"94\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"54\" cy=\"94\" r=\"7\" fill=\"#3F7A55\"/><text x=\"44\" y=\"126\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 1</text><circle cx=\"114\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"134\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"154\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"114\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><circle cx=\"134\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><circle cx=\"154\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><text x=\"134\" y=\"126\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 2</text><circle cx=\"214\" cy=\"94\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"234\" cy=\"94\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"254\" cy=\"94\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"274\" cy=\"94\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"214\" cy=\"74\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"234\" cy=\"74\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"254\" cy=\"74\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"274\" cy=\"74\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"214\" cy=\"54\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"234\" cy=\"54\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"254\" cy=\"54\" r=\"7\" fill=\"#3F7A55\"/><circle cx=\"274\" cy=\"54\" r=\"7\" fill=\"#3F7A55\"/><text x=\"244\" y=\"126\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 3</text><circle cx=\"334\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"354\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"374\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"394\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"414\" cy=\"94\" r=\"7\" fill=\"#315F91\"/><circle cx=\"334\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><circle cx=\"354\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><circle cx=\"374\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><circle cx=\"394\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><circle cx=\"414\" cy=\"74\" r=\"7\" fill=\"#315F91\"/><circle cx=\"334\" cy=\"54\" r=\"7\" fill=\"#315F91\"/><circle cx=\"354\" cy=\"54\" r=\"7\" fill=\"#315F91\"/><circle cx=\"374\" cy=\"54\" r=\"7\" fill=\"#315F91\"/><circle cx=\"394\" cy=\"54\" r=\"7\" fill=\"#315F91\"/><circle cx=\"414\" cy=\"54\" r=\"7\" fill=\"#315F91\"/><circle cx=\"334\" cy=\"34\" r=\"7\" fill=\"#315F91\"/><circle cx=\"354\" cy=\"34\" r=\"7\" fill=\"#315F91\"/><circle cx=\"374\" cy=\"34\" r=\"7\" fill=\"#315F91\"/><circle cx=\"394\" cy=\"34\" r=\"7\" fill=\"#315F91\"/><circle cx=\"414\" cy=\"34\" r=\"7\" fill=\"#315F91\"/><text x=\"374\" y=\"126\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">figur 4</text></svg></span>",
-    "s": "<p>Skriv de första termerna som produkter:</p><p>\\[2=1\\cdot2,\\quad6=2\\cdot3,\\quad12=3\\cdot4,\\quad20=4\\cdot5.\\]</p><p>I term nummer \\(n\\) multipliceras alltså \\(n\\) med nästa heltal, \\(n+1\\).</p><p><strong>Svar:</strong> \\(a_n=n(n+1)\\).</p>",
+    "s": "<p>Skriv termerna som produkter: (2=1·2), (6=2·3), (12=3·4), (20=4·5). Mönstret är därför <strong>(a_n=n(n+1))</strong>.</p>",
     "familj": "Algebraiska samband och problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -66547,7 +67235,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Definiera den okända storheten och skriv ett algebraiskt samband direkt från villkoren i texten. Förenkla eller lös först när du kan förklara vad varje term i sambandet representerar.</p>"
+    "ledtrad": "<p>Försök skriva varje term som produkten av två intilliggande heltal och jämför med termnumret.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.37",
@@ -66560,8 +67251,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En hushållsutgift är 4200 kr. Priset ökar 6 %, användningen minskar 8 %. Kostnaden är proportionell mot båda. Hur förändras kostnaden?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>Faktor \\(1,06\\cdot0,92=0,9752\\). <strong>Minskning 2,48 %.</strong></p>",
+    "t": "<p>En hushållsutgift är 4 200 kr. Priset ökar med 6 % samtidigt som användningen minskar med 8 %. Kostnaden är proportionell mot både pris och användning. Med hur många procent minskar den totala kostnaden?</p>",
+    "s": "<p>Total förändringsfaktor är (1,06·0,92=0,9752). Det betyder att 97,52 % återstår.</p><p>Kostnaden <strong>minskar alltså med 2,48 %</strong>.</p>",
     "familj": "Privatekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -66572,7 +67263,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Priset och användningen förändras samtidigt, så multiplicera deras förändringsfaktorer.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.38",
@@ -66586,7 +67280,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En kommun har 42 000 invånare. Befolkningen växer med 1,8 % per år.</p><p>Hur många invånare har kommunen efter 5 år enligt modellen? Diskutera också en anledning att vara försiktig med att lita på modellen på lång sikt.</p>",
-    "s": "<p><strong>Steg 1:</strong> Modellen är \\(y=42\\,000\\cdot1{,}018^x\\).</p><p>\\(y(5)=42\\,000\\cdot1{,}018^5\\approx45\\,919\\).</p><p><strong>Ungefär 45 900 invånare.</strong></p><p>Modellen antar att tillväxttakten är exakt densamma varje år. I verkligheten påverkas befolkningen av in- och utflyttning, bostadsbyggande, arbetstillfällen och åldersstruktur, som alla kan ändras. På lång sikt skulle modellen dessutom ge orimligt stora tal, eftersom exponentiell tillväxt fortsätter utan gräns medan en kommuns yta och bostäder är begränsade.</p>",
+    "s": "<p>Modellen är (P(t)=42000·1,018^t). Efter fem år ger den (P(5)≈)<strong>45 919 invånare</strong>.</p><p>På lång sikt måste man vara försiktig eftersom modellen antar samma procentuella ökning varje år. Flyttning, födelsetal, bostäder och arbetsmarknad kan ändras, så en kort trend behöver inte fortsätta.</p>",
     "familj": "Samhällsdata och samhällsekonomiska beräkningar",
     "geogebra": true,
     "miniräknare": true,
@@ -66598,7 +67292,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv befolkningsmodellen som startvärde gånger förändringsfaktorn upphöjd till antal år. När du har beräknat femårsprognosen, fundera på vilket antagande modellen gör om den årliga tillväxttakten.</p>"
+    "ledtrad": "<p>Beräkna först femårsprognosen. Identifiera sedan vilket antagande exponentmodellen gör om den årliga procentuella förändringen.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.39",
@@ -66612,7 +67309,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Ett hushålls koldioxidutsläpp var 5,2 ton per år. Efter några förändringar är utsläppen 3,9 ton per år.</p><p>a) Hur många procent har utsläppen minskat?<br>b) Hushållet vill fortsätta minska utsläppen med 25 % per år från 3,9 ton. Skriv en modell för utsläppen efter \\(n\\) år.<br>c) Efter hur många hela år är utsläppen enligt modellen under 2 ton?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) \\(\\frac{5{,}2-3{,}9}{5{,}2}=\\frac{1{,}3}{5{,}2}=0{,}25\\), alltså en minskning med <strong>25 %</strong></p><p>b) <strong>\\(U(n)=3{,}9\\cdot0{,}75^n\\)</strong></p><p>c) \\(U(2)=3{,}9\\cdot0{,}75^2\\approx2{,}19\\) ton och \\(U(3)=3{,}9\\cdot0{,}75^3\\approx1{,}65\\) ton. Alltså efter <strong>3 år</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>a) Minskningen är ((5,2-3,9)/5,2=)<strong>25 %</strong>.</p><p>b) Efter n år: <strong>(U(n)=3,9·0,75^n)</strong>.</p><p>c) (U(2)≈2,19) ton men (U(3)≈1,65) ton. Första hela året under 2 ton är därför <strong>3</strong>.</p>",
     "familj": "Hållbarhetsberäkningar",
     "geogebra": false,
     "miniräknare": true,
@@ -66628,7 +67325,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
+    "ledtrad": "<p>Efter startminskningen används samma faktor 0,75 varje år. För sista delen behöver du hitta första heltalet som ger mindre än 2.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.40",
@@ -66641,20 +67341,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En webbsida frågar sina besökare om de gillar sidan. 92 % svarar ja. Nämn en tydlig anledning att vara försiktig med att använda resultatet för hela befolkningen.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> De som svarar väljer själva att delta och är dessutom personer som redan besöker sidan. <strong>Urvalet behöver inte vara representativt för hela befolkningen.</strong></p></div></div>",
+    "t": "<p>En webbsida frågar sina besökare om de gillar sidan. 92 % svarar ja. Nämn en tydlig anledning att vara försiktig med att använda resultatet för hela befolkningen.</p><p>A. Besökarna på webbsidan är ett självselekterat urval och behöver inte representera hela befolkningen.<br>B. 92 % kan inte vara en andel eftersom procent bara får användas upp till 50 %.<br>C. Resultatet är säkert representativt eftersom fler än hälften svarade ja.<br>D. Problemet är enbart att 92 inte är ett heltal.</p>",
+    "s": "<p>Personer som besöker en viss webbplats – och dessutom väljer att svara – kan skilja sig mycket från hela befolkningen.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Vilka personer hade över huvud taget möjlighet och motivation att svara?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.41",
@@ -66667,20 +67370,38 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett batteri har 100 % laddning och tappar ungefär 8 procentenheter per timme. Skriv en linjär modell och ange när modellen förutsäger 0 %.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Startvärdet är 100 % och laddningen minskar med 8 procentenheter per timme:</p><p>\\[B(t)=100-8t.\\]</p><p>Modellen når 0 % när \\(100-8t=0\\), alltså \\(t=12{,}5\\).</p><p><strong>Svar:</strong> \\(B(t)=100-8t\\), och modellen förutsäger 0 % efter 12,5 h.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>Ett batteri har 100 % laddning och tappar ungefär 8 procentenheter per timme.</p><p>a) Skriv en linjär modell (B(t)) för laddningen efter (t) timmar.<br>b) När förutsäger modellen 0 % laddning?</p>",
+    "s": "<p>a) Startvärdet är 100 och förändringen −8 procentenheter per timme: (B(t)=100-8t).</p><p>b) (100-8t=0Rightarrow t=12,5).</p><p><strong>Svar:</strong> (B(t)=100-8t), och modellen når 0 % efter 12,5 timmar.</p>",
     "familj": "Skapa och använda matematiska modeller",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "B(t)=100-8t",
+      12.5
+    ],
+    "tolerans": [
+      null,
+      1e-9
+    ],
+    "självrättning": true,
     "formaga": [
       "modellering",
-      "resonemang"
+      "procedur"
     ],
-    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
+    "ledtrad": "<p>”8 procentenheter per timme” ger en konstant minskning, alltså en linjär modell.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "modell",
+      "tid"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "6.42",
@@ -66693,19 +67414,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Varför har människor historiskt utvecklat olika sätt att mäta längd, area och tid?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Utgå från den information som ges och koppla den till den matematiska idén eller metoden som efterfrågas. Förklara sambandet med egna ord.</p><p>För praktiska behov som handel, byggande, jordbruk och planering.</p>",
+    "t": "<p>Varför har människor historiskt utvecklat och standardiserat sätt att mäta längd, area och tid?</p><p>A. För att handel, byggande, jordbruk och planering kräver jämförbara mått.<br>B. För att alla geometriska figurer måste ha heltalsmått.<br>C. För att mätning gör positionssystem onödiga.<br>D. För att naturen alltid använder samma lokala måttenheter.</p>",
+    "s": "<p>Mätning utvecklades ur praktiska behov av att kunna <strong>jämföra och kommunicera storheter</strong>, till exempel i handel, byggande, jordbruk och tidsplanering.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Utgå från den information som ges och koppla den till den matematiska idén eller metoden som efterfrågas. Förklara sambandet med egna ord.</p>"
+    "ledtrad": "<p>Tänk på situationer där två personer behöver kunna jämföra samma längd, yta eller tidsintervall.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.43",
@@ -66735,7 +67459,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.44",
@@ -66746,10 +67473,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>En klass planerar en skolresa. Kalkylbladet ska användas för budgeten.</p><span class=\"fig\"><svg width=\"439\" height=\"268\" viewBox=\"0 0 439 268\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"437\" height=\"266\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"219.5\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">Skolresa</text><rect x=\"12\" y=\"42\" width=\"34\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><rect x=\"46\" y=\"42\" width=\"105\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"98.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">A</text><rect x=\"151\" y=\"42\" width=\"70\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"186.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">B</text><rect x=\"221\" y=\"42\" width=\"90\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"266.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">C</text><rect x=\"311\" y=\"42\" width=\"110\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"366.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">D</text><rect x=\"12\" y=\"72\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">1</text><rect x=\"46\" y=\"72\" width=\"105\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Kostnad</text><rect x=\"151\" y=\"72\" width=\"70\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Antal</text><rect x=\"221\" y=\"72\" width=\"90\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"227\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Pris/st</text><rect x=\"311\" y=\"72\" width=\"110\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"317\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Summa</text><rect x=\"12\" y=\"106\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">2</text><rect x=\"46\" y=\"106\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Buss</text><rect x=\"151\" y=\"106\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">1</text><rect x=\"221\" y=\"106\" width=\"90\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"227\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">6800</text><rect x=\"311\" y=\"106\" width=\"110\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"317\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"140\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">3</text><rect x=\"46\" y=\"140\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Entré</text><rect x=\"151\" y=\"140\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">28</text><rect x=\"221\" y=\"140\" width=\"90\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"227\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">95</text><rect x=\"311\" y=\"140\" width=\"110\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"317\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"174\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"196\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">4</text><rect x=\"46\" y=\"174\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Lunch</text><rect x=\"151\" y=\"174\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">28</text><rect x=\"221\" y=\"174\" width=\"90\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"227\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">85</text><rect x=\"311\" y=\"174\" width=\"110\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"317\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"208\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"230\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">5</text><rect x=\"46\" y=\"208\" width=\"105\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">TOTALT</text><rect x=\"151\" y=\"208\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"157\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"221\" y=\"208\" width=\"90\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"227\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"311\" y=\"208\" width=\"110\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"317\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text></svg></span><p>a) Skriv en formel i D2 som kan kopieras ned till D4.<br>b) Skriv en formel i D5 för totalkostnaden.<br>c) Klassen har 12 000 kr. Räcker pengarna?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) <strong>=B2*C2</strong>, som sedan kopieras ned.</p><p>b) <strong>=SUMMA(D2:D4)</strong>.</p><p>c) Buss: 6 800 kr, entré: \\(28\\cdot95=2\\,660\\) kr, lunch: \\(28\\cdot85=2\\,380\\) kr. Totalt <strong>11 840 kr</strong>, så pengarna räcker med <strong>160 kr</strong> marginal.</p></div></div>",
+    "s": "<p>a) <strong>=B2*C2</strong>, kopieras ned.</p><p>b) <strong>=SUMMA(D2:D4)</strong>.</p><p>c) Kostnaderna blir 6 800 kr, 2 660 kr och 2 380 kr, totalt <strong>11 840 kr</strong>. Budgeten 12 000 kr räcker med 160 kr marginal, alltså <strong>ja</strong>.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
@@ -66770,7 +67497,10 @@ window.BANKMA1 = [
       "kalkylbladsformel",
       "kort_text"
     ],
-    "ledtrad": "<p>Behandla formeln som en ekvation och isolera den efterfrågade variabeln steg för steg. Gör inversa operationer i omvänd ordning.</p>"
+    "ledtrad": "<p>Beräkna varje rad som antal · pris/st och summera sedan kolumnen med radkostnader.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.45",
@@ -66818,7 +67548,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.46",
@@ -66832,7 +67565,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En dator kostar 15 000 kr och minskar i värde med 18 % per år. Förändringsfaktorn står i kolumn C.</p><span class=\"fig\"><svg width=\"379\" height=\"268\" viewBox=\"0 0 379 268\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"377\" height=\"266\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"189.5\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">Värdeminskning</text><rect x=\"12\" y=\"42\" width=\"34\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><rect x=\"46\" y=\"42\" width=\"70\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"81.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">A</text><rect x=\"116\" y=\"42\" width=\"110\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"171.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">B</text><rect x=\"226\" y=\"42\" width=\"135\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"293.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">C</text><rect x=\"12\" y=\"72\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">1</text><rect x=\"46\" y=\"72\" width=\"70\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">År</text><rect x=\"116\" y=\"72\" width=\"110\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"122\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Värde</text><rect x=\"226\" y=\"72\" width=\"135\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"232\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Förändringsfaktor</text><rect x=\"12\" y=\"106\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">2</text><rect x=\"46\" y=\"106\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0</text><rect x=\"116\" y=\"106\" width=\"110\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"122\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">15 000</text><rect x=\"226\" y=\"106\" width=\"135\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"232\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0,82</text><rect x=\"12\" y=\"140\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">3</text><rect x=\"46\" y=\"140\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">1</text><rect x=\"116\" y=\"140\" width=\"110\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"122\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"226\" y=\"140\" width=\"135\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"232\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0,82</text><rect x=\"12\" y=\"174\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"196\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">4</text><rect x=\"46\" y=\"174\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">2</text><rect x=\"116\" y=\"174\" width=\"110\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"122\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"226\" y=\"174\" width=\"135\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"232\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0,82</text><rect x=\"12\" y=\"208\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"230\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">5</text><rect x=\"46\" y=\"208\" width=\"70\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">3</text><rect x=\"116\" y=\"208\" width=\"110\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"122\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"226\" y=\"208\" width=\"135\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"232\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0,82</text></svg></span><p>a) Skriv en formel i B3 som kan kopieras ned till B5.<br>b) Beräkna värdet efter tre år.<br>c) Förklara varför referensen till C2 inte bör användas som en vanlig relativ referens om förändringsfaktorn endast står i C2.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) Med faktorn på varje rad kan man använda <strong>=B2*C3</strong>. Om faktorn i stället bara står i C2 används exempelvis <strong>=B2*$C$2</strong>.</p><p>b) \\(15000\\cdot0,82^3=\\)<strong>8 270,52 kr</strong>, cirka 8 270 kr.</p><p>c) Vid kopiering flyttas en relativ referens. En absolut referens <strong>$C$2</strong> låser cellen.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>a) När faktorn 0,82 finns på varje rad kan B3 skrivas <strong>=B2*C3</strong> och kopieras ned.</p><p>b) (15000·0,82^3=)<strong>8 270,52 kr</strong>.</p><p>c) Om faktorn bara står i C2 måste den cellen låsas, exempelvis <strong>=B2*$C$2</strong>. Annars flyttas en relativ referens till C3, C4 osv. när formeln kopieras.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
@@ -66869,7 +67602,10 @@ window.BANKMA1 = [
       "numeriskt",
       null
     ],
-    "ledtrad": "<p>Behandla formeln som en ekvation och isolera den efterfrågade variabeln steg för steg. Gör inversa operationer i omvänd ordning.</p>"
+    "ledtrad": "<p>Fråga vilka celler som ska flyttas när formeln kopieras och vilken cell som i stället ska vara oförändrad.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.47",
@@ -66899,7 +67635,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.48",
@@ -66913,7 +67652,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Lea har 5 000 kr på ett konto. I början av varje månad sätter hon in 600 kr. Därefter läggs 0,4 % ränta på hela saldot.</p><span class=\"fig\"><svg width=\"514\" height=\"268\" viewBox=\"0 0 514 268\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"512\" height=\"266\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"257.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">Månadssparande</text><rect x=\"12\" y=\"42\" width=\"34\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><rect x=\"46\" y=\"42\" width=\"75\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"83.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">A</text><rect x=\"121\" y=\"42\" width=\"130\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"186.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">B</text><rect x=\"251\" y=\"42\" width=\"110\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"306.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">C</text><rect x=\"361\" y=\"42\" width=\"135\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"428.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">D</text><rect x=\"12\" y=\"72\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">1</text><rect x=\"46\" y=\"72\" width=\"75\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Månad</text><rect x=\"121\" y=\"72\" width=\"130\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"127\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Saldo före ränta</text><rect x=\"251\" y=\"72\" width=\"110\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"257\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Ränta 0,4 %</text><rect x=\"361\" y=\"72\" width=\"135\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"367\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Saldo efter ränta</text><rect x=\"12\" y=\"106\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">2</text><rect x=\"46\" y=\"106\" width=\"75\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0</text><rect x=\"121\" y=\"106\" width=\"130\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"127\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">5 000</text><rect x=\"251\" y=\"106\" width=\"110\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"257\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"361\" y=\"106\" width=\"135\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"367\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">5 000</text><rect x=\"12\" y=\"140\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">3</text><rect x=\"46\" y=\"140\" width=\"75\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">1</text><rect x=\"121\" y=\"140\" width=\"130\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"127\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"251\" y=\"140\" width=\"110\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"257\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"361\" y=\"140\" width=\"135\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"367\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"174\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"196\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">4</text><rect x=\"46\" y=\"174\" width=\"75\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">2</text><rect x=\"121\" y=\"174\" width=\"130\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"127\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"251\" y=\"174\" width=\"110\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"257\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"361\" y=\"174\" width=\"135\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"367\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"208\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"230\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">5</text><rect x=\"46\" y=\"208\" width=\"75\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">3</text><rect x=\"121\" y=\"208\" width=\"130\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"127\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"251\" y=\"208\" width=\"110\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"257\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"361\" y=\"208\" width=\"135\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"367\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text></svg></span><p>a) Beskriv med formler hur B3, C3 och D3 kan beräknas från föregående rad så att formlerna sedan kan kopieras ned.<br>b) Beräkna saldot efter tre månader.<br>c) En elev använder i stället modellen \\(5000\\cdot1,004^3+3\\cdot600\\). Förklara varför den modellen inte ger exakt samma resultat.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>a) Exempel: <strong>B3=D2+600</strong>, <strong>C3=B3*0,004</strong> och <strong>D3=B3+C3</strong>. Formlerna kan sedan kopieras ned.</p><p>b) Månad 1: \\((5000+600)\\cdot1,004=5\\,622,40\\). Månad 2: \\((5622,40+600)\\cdot1,004=6\\,247,2896\\). Månad 3: \\((6247,2896+600)\\cdot1,004=\\)<strong>6 874,68 kr</strong> avrundat till ören.</p><p>c) I elevens modell får de tre insättningarna <strong>ingen ränta alls</strong>. I verkligheten sätts pengarna in före månadens ränta och olika insättningar hinner därför få ränta olika många gånger.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>a) Ett möjligt upplägg är <strong>B3=D2+600</strong>, <strong>C3=B3*0,004</strong> och <strong>D3=B3+C3</strong>. Formlerna kopieras sedan ned.</p><p>b) Efter tre månader blir saldot (((((5000+600)·1,004+600)·1,004)+600)·1,004≈)<strong>6 874,68 kr</strong>.</p><p>c) Uttrycket (5000·1,004^3+3·600) ger ränta bara på startkapitalet. Insättningarna görs före räntan och ska därför också få ränta, olika många månader.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
@@ -66926,7 +67665,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>a) Exempel: B3=D2+600, C3=B3*0,004 och D3=B3+C3. Formlerna kan sedan kopieras ned.</p>"
+    "ledtrad": "<p>Följ ordningen i varje månad: insättning först, ränta sedan. Jämför därefter med elevens modell och se vilka pengar som aldrig multipliceras med 1,004 där.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.49",
@@ -66951,7 +67693,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.50",
@@ -66962,21 +67707,35 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/4/0",
-    "t": "<p>Ett kalkylblad innehåller år i kolumn A och pris i kolumn B. I cell C5 skrivs formeln <code>=(B5-B4)/B4</code>.</p><p>a) Vad beräknar formeln?<br>b) Om B4=24 och B5=27, vad blir resultatet i procent?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p><p>Formeln beräknar <strong>relativ förändring från föregående rad</strong>.</p><p>\\((27-24)/24=0,125=\\)<strong>12,5 %</strong>.</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett kalkylblad innehåller år i kolumn A och pris i kolumn B. I cell C5 skrivs formeln <code>=(B5-B4)/B4</code>.</p><p>a) Vad beräknar formeln?</p><p>A. Den absoluta prisökningen<br>B. Den relativa förändringen från rad 4 till rad 5<br>C. Medelvärdet av de två priserna<br>D. Det nya priset efter en fast rabatt</p><p>b) Om B4=24 och B5=27, hur stor är förändringen i procent?</p>",
+    "s": "<p>a) Formeln tar skillnaden (B5-B4) och dividerar med det gamla värdet B4. Den beräknar alltså <strong>relativ förändring</strong>: <strong>B</strong>.</p><p>b) ((27-24)/24=0,125=)<strong>12,5 %</strong>.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "B",
+      12.5
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Titta på nämnaren: vilket värde används som jämförelsebas?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "a) alternativ",
+      "b) procent"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ]
   },
   {
     "id": "6.51",
@@ -67010,7 +67769,10 @@ window.BANKMA1 = [
       "kalkylbladsformel",
       "numeriskt"
     ],
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.52",
@@ -67021,10 +67783,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Abonnemang A kostar 119 kr per månad plus 8 kr per GB. Abonnemang B kostar 199 kr per månad plus 3 kr per GB.</p><span class=\"fig\"><svg width=\"469\" height=\"302\" viewBox=\"0 0 469 302\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kalkylblad\"><rect x=\"1\" y=\"1\" width=\"467\" height=\"300\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"234.5\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\">Mobilabonnemang</text><rect x=\"12\" y=\"42\" width=\"34\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><rect x=\"46\" y=\"42\" width=\"65\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"78.5\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">A</text><rect x=\"111\" y=\"42\" width=\"120\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"171.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">B</text><rect x=\"231\" y=\"42\" width=\"120\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"291.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">C</text><rect x=\"351\" y=\"42\" width=\"100\" height=\"30\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"401.0\" y=\"62\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#50494B\">D</text><rect x=\"12\" y=\"72\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"94\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">1</text><rect x=\"46\" y=\"72\" width=\"65\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">GB</text><rect x=\"111\" y=\"72\" width=\"120\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"117\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Abonnemang A</text><rect x=\"231\" y=\"72\" width=\"120\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"237\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Abonnemang B</text><rect x=\"351\" y=\"72\" width=\"100\" height=\"34\" fill=\"#F7F7F9\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"357\" y=\"94\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">Billigast</text><rect x=\"12\" y=\"106\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"128\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">2</text><rect x=\"46\" y=\"106\" width=\"65\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">0</text><rect x=\"111\" y=\"106\" width=\"120\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"117\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"231\" y=\"106\" width=\"120\" height=\"34\" fill=\"#FFF4D6\" stroke=\"#B78116\" stroke-width=\"2\"/><text x=\"237\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"351\" y=\"106\" width=\"100\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"357\" y=\"128\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"140\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"162\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">3</text><rect x=\"46\" y=\"140\" width=\"65\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">5</text><rect x=\"111\" y=\"140\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"117\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"231\" y=\"140\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"237\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"351\" y=\"140\" width=\"100\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"357\" y=\"162\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"174\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"196\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">4</text><rect x=\"46\" y=\"174\" width=\"65\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">10</text><rect x=\"111\" y=\"174\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"117\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"231\" y=\"174\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"237\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"351\" y=\"174\" width=\"100\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"357\" y=\"196\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"208\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"230\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">5</text><rect x=\"46\" y=\"208\" width=\"65\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">15</text><rect x=\"111\" y=\"208\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"117\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"231\" y=\"208\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"237\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"351\" y=\"208\" width=\"100\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"357\" y=\"230\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"12\" y=\"242\" width=\"34\" height=\"34\" fill=\"#EEEFF2\" stroke=\"#C9C8CD\"/><text x=\"29\" y=\"264\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#50494B\">6</text><rect x=\"46\" y=\"242\" width=\"65\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"52\" y=\"264\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\">20</text><rect x=\"111\" y=\"242\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"117\" y=\"264\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"231\" y=\"242\" width=\"120\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"237\" y=\"264\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text><rect x=\"351\" y=\"242\" width=\"100\" height=\"34\" fill=\"#FFFFFF\" stroke=\"#C9C8CD\" stroke-width=\"1\"/><text x=\"357\" y=\"264\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#2B2527\"></text></svg></span><p>a) Skriv formler i B2 och C2 som kan kopieras ned.<br>b) Bestäm med algebra exakt vid hur många GB abonnemangen kostar lika mycket.<br>c) En kund använder ett helt antal GB. Från och med vilket helt antal GB är B billigare än A? Förklara hur kalkylbladet kan användas för att kontrollera svaret.</p>",
-    "s": "<p>a) <strong>=119+8*A2</strong> och <strong>=199+3*A2</strong>.</p><p>b) \\(119+8x=199+3x\\Rightarrow5x=80\\Rightarrow\\)<strong>\\(x=16\\) GB</strong>.</p><p>c) B är billigare när \\(199+3x&lt;119+8x\\Rightarrow80&lt;5x\\Rightarrow x&gt;16\\). För heltal blir det <strong>från 17 GB</strong>. Genom att lägga in 16 och 17 i kolumn A kan man kontrollera att priserna först är lika och sedan att B blir billigare.</p>",
+    "s": "<p>a) <strong>=119+8*A2</strong> och <strong>=199+3*A2</strong>.</p><p>b) (119+8x=199+3x ⇒ 5x=80 ⇒  x=)<strong>16 GB</strong>.</p><p>c) B är billigare när (x>16). För ett helt antal GB gäller det från <strong>17 GB</strong>. Kontrollera genom att lägga in 16 och 17 i kalkylbladet.</p>",
     "familj": "Kalkylprogram och formler",
     "geogebra": false,
     "miniräknare": false,
@@ -67065,7 +67827,10 @@ window.BANKMA1 = [
       false,
       true
     ],
-    "ledtrad": "<p>Behandla formeln som en ekvation och isolera den efterfrågade variabeln steg för steg. Gör inversa operationer i omvänd ordning.</p>"
+    "ledtrad": "<p>Sätt kostnadsmodellerna lika för brytpunkten. För heltalsfrågan behöver du sedan kontrollera vilket heltal som ligger direkt efter brytpunkten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.53",
@@ -67076,22 +67841,25 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>En linjär modell beskriver ett träds höjd som att det växer 40 cm varje år för all framtid. Ange en rimlig begränsning hos modellen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ett träd kan inte fortsätta växa med samma konstanta takt hur länge som helst; biologiska och miljömässiga begränsningar gör modellen orimlig på lång sikt.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linjär modell beskriver ett träds höjd som att det växer 40 cm varje år för all framtid. Ange en rimlig begränsning hos modellen.</p><p>A. Modellen förutsätter samma tillväxt varje år och blir orimlig när trädet mognar eller når biologiska gränser.<br>B. Modellen är orimlig därför att 40 cm inte kan skrivas i meter.<br>C. Alla linjära modeller måste ha negativ lutning.<br>D. Ett träd kan bara modelleras med en konstant funktion.</p>",
+    "s": "<p>Konstant årlig tillväxt kan fungera lokalt men inte rimligen för all framtid.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Vad händer om du fortsätter lägga till 40 cm år efter år under mycket lång tid?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.54",
@@ -67104,20 +67872,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tank modelleras med \\(V(t)=180-15t\\). Varför är modellen orimlig om den används för \\(t=20\\)?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(V(20)=-120\\). <strong>En tank kan inte innehålla negativ mängd vatten.</strong></p></div></div>",
+    "t": "<p>En tank modelleras med \\(V(t)=180-15t\\). Varför är modellen orimlig om den används för \\(t=20\\)?</p><p>A. Modellen ger för stor positiv volym.<br>B. Modellen går inte att beräkna när t är heltal.<br>C. Modellen ger (V(20)=180-300=-120) liter, vilket saknar fysisk mening eftersom tanken redan blivit tom.<br>D. Modellen är exponentiell och måste därför alltid vara positiv.</p>",
+    "s": "<p>Tanken når 0 liter efter 12 timmar i modellen. Därefter ska modellen inte användas.</p><p><strong>Svar: C.</strong></p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Beräkna V(20) och fråga om svaret är fysiskt möjligt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.55",
@@ -67131,10 +67902,10 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bils värde modelleras med \\(V(t)=320\\,000\\cdot0,80^t\\).</p><p>a) Beräkna värdet efter 5 år och efter 20 år.<br>b) Förklara varför samma procentuella värdeminskning inte självklart är rimlig under hela perioden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) Efter 5 år: <strong>104 858 kr</strong>. Efter 20 år: <strong>cirka 3 689 kr</strong>.</p><p>b) Marknadsvärdet påverkas av skick  efterfrågan  reparationer och restvärde. <strong>Konstant procentuell minskning är en förenkling.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>a) (V(5)=320000cdot0,8^5approx104,858) kr och (V(20)approx3,689) kr.</p><p>b) Modellen antar samma procentuella värdeminskning varje år. I verkligheten påverkas värdet av bland annat bilens ålder, skick, marknad och ett möjligt restvärde, så samma faktor behöver inte vara rimlig under 20 år.</p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       104858,
@@ -67146,11 +67917,7 @@ window.BANKMA1 = [
       5,
       null
     ],
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
+    "självrättning": false,
     "formaga": [
       "procedur",
       "modellering",
@@ -67162,7 +67929,10 @@ window.BANKMA1 = [
       "a) efter 20 år",
       "b) förklaring"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Beräkna först modellvärdena. Bedöm sedan det långsiktiga antagandet ”20 % av det aktuella värdet varje år”.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.56",
@@ -67175,20 +67945,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En taxikostnad modelleras med \\(K(x)=65+18x\\), där \\(x\\) är körsträckan i kilometer. Varför är negativa \\(x\\)-värden inte meningsfulla?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilka storheter som varierar och vilket samband som modellen beskriver. Kontrollera sedan både beräkningen och om resultatet är rimligt i den givna situationen.</p><p><strong>Svar:</strong> <strong>En körsträcka kan inte vara negativ.</strong></p>",
+    "t": "<p>En taxikostnad modelleras med \\(K(x)=65+18x\\), där \\(x\\) är körsträckan i kilometer. Varför är negativa \\(x\\)-värden inte meningsfulla?</p><p>A. x beskriver en körsträcka och kan därför inte vara negativ i den här modellen.<br>B. Negativa tal får aldrig användas i linjära funktioner.<br>C. Taxikostnader måste alltid modelleras exponentiellt.<br>D. Startavgiften gör att x måste vara större än 65.</p>",
+    "s": "<p>Variabelns matematiska domän begränsas av vad den representerar i verkligheten.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera först vilka storheter som varierar och vilket samband som modellen beskriver. Kontrollera sedan både beräkningen och om resultatet är rimligt i den givna situationen.</p>"
+    "ledtrad": "<p>Vad betyder x konkret?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.57",
@@ -67202,7 +67975,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Restiden för 180 km modelleras med \\(T(v)=\\frac{180}{v}\\), där \\(v\\) är medelhastigheten i km/h.</p><p>a) Beräkna restiden vid 60 km/h och 120 km/h.<br>b) Ange två begränsningar hos modellen.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(T(60)=3\\) h och \\(T(120)=1,5\\) h.</p><p>b) Modellen är inte definierad vid \\(v=0\\), och i verkligheten kan man inte välja hur stor hastighet som helst. Trafik och stopp påverkar också.</p></div></div>",
+    "s": "<p>a) (T(60)=3) h och (T(120)=1,5) h.</p><p>b) Modellen antar bland annat att en enda medelhastighet kan representera hela resan och att stopp, acceleration, trafik och pauser ryms i den. Dessutom kan mycket låga eller höga hastigheter vara praktiskt omöjliga.</p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
@@ -67215,7 +67988,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Efter beräkningarna: fråga vilka verkliga faktorer som saknas när all restid skrivs som sträcka delad med en enda hastighet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.58",
@@ -67229,7 +68005,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En stad med 100 000 invånare modelleras med \\(P(t)=100\\,000\\cdot1,035^t\\). Stadens planeringsmål är högst 3 500 invånare per km² och ytan är 45 km².</p><p>a) Efter hur många hela år överskrider modellen för första gången målet?<br>b) En politiker säger: ”Då måste modellen vara fel från och med det året.” Förklara varför slutsatsen är för stark.</p>",
-    "s": "<p><strong>Steg 1:</strong> Gränsen är 157 500 invånare. \\(P(13)\\approx156 396\\) och \\(P(14)\\approx161 869\\).</p><p><strong>Första hela året över gränsen är år 14.</strong></p><p>b) Modellen kolliderar med det nuvarande planeringsmålet  men yta  regler eller täthet kan förändras. <strong>Det visar främst att modellen inte kan användas okritiskt tillsammans med oförändrade villkor.</strong></p>",
+    "s": "<p>Planeringsmålet motsvarar (3500cdot45=157500) invånare. Modellen ger första gången mer än detta vid (t=14), eftersom (P(13)approx156396) och (P(14)approx161869).</p><p>Att målet överskrids betyder inte att den matematiska modellen plötsligt blir ”fel”. Det betyder att modellens prognos passerar en planeringsgräns. Modellens rimlighet måste bedömas mot faktiska data och antagandet om fortsatt 3,5 % tillväxt.</p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": true,
@@ -67241,7 +68017,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Översätt först täthetsgränsen till ett maximalt invånarantal. Skilj sedan på en politisk/planeringsmässig gräns och modellens empiriska giltighet.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.59",
@@ -67254,20 +68033,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Temperaturen under tre morgontimmar passar modellen \\(T(t)=8+2,5t\\). Förklara varför man bör vara försiktig med att använda modellen ett helt dygn framåt.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Modellen bygger bara på ett kort tidsintervall. <strong>Temperaturen behöver inte fortsätta öka med samma takt hela dygnet.</strong></p></div></div>",
+    "t": "<p>Temperaturen under tre morgontimmar passar modellen \\(T(t)=8+2,5t\\). Förklara varför man bör vara försiktig med att använda modellen ett helt dygn framåt.</p><p>A. En linjär modell som passar tre morgontimmar måste gälla exakt hela dygnet.<br>B. Temperaturen kan följa ett annat mönster senare på dagen, så extrapolation långt utanför mätintervallet är osäker.<br>C. Modellen är ogiltig eftersom temperatur aldrig får vara positiv.<br>D. Tre mätningar gör att modellen automatiskt blir exponentiell.</p>",
+    "s": "<p>En lokal trend under morgonen behöver inte fortsätta oförändrad genom eftermiddag och natt.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Modellen bygger bara på ett kort tidsintervall. Temperaturen behöver inte fortsätta öka med samma takt hela dygnet.</p>"
+    "ledtrad": "<p>Jämför intervallet där modellen stöds av data med intervallet där du vill använda den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.60",
@@ -67281,7 +68063,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En algmängd mäts under fyra veckor och resultaten är ungefär 100, 110, 120 och 130 enheter. Två elever föreslår</p><p>\\(L(t)=100+10t\\)<br>\\(E(t)=100\\cdot1,095^t\\).</p><p>a) Jämför modellerna vid \\(t=30\\).<br>b) Bestäm den första hela veckan då exponentialmodellen ger minst dubbelt så stort värde som den linjära modellen.<br>c) Bedöm påståendet: ”Den modell som passar de första fyra mätningarna bäst måste också vara bäst vid vecka 30.”</p>",
-    "s": "<p>a) \\(L(30)=\\)<strong>400</strong> och \\(E(30)\\approx\\)<strong>1522</strong>.</p><p>b) Vid vecka 19 är \\(E(19)\\approx561\\) och \\(2L(19)=580\\). Vid vecka 20 är \\(E(20)\\approx614\\) och \\(2L(20)=600\\). <strong>Första hela veckan är alltså vecka 20.</strong></p><p>c) Modellerna ger mycket olika långtidsprediktioner trots att båda ligger nära de tidiga värdena. <strong>Fyra tidiga mätningar räcker inte för att avgöra utvecklingsmekanismen 30 veckor framåt.</strong></p>",
+    "s": "<p>a) (L(30)=400), medan (E(30)=100cdot1,095^{30}approx1522).</p><p>b) Första hela veckan då (E(t)ge2L(t)) är <strong>vecka 20</strong>: (E(20)approx614) och (2L(20)=600).</p><p>c) De fyra första mätningarna ligger nära båda modellerna. Vilken modell som är bäst vid vecka 30 beror på den verkliga processen; en liten skillnad i anpassning nära start garanterar inte bättre långtidsextrapolation.</p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": true,
@@ -67294,7 +68076,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Jämför modellerna numeriskt utanför mätintervallet. Den sista delen handlar om extrapolation: god lokal anpassning är inte samma sak som säker långsiktig modell.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.61",
@@ -67307,20 +68092,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En modell säger att en bil alltid tappar 25 000 kr i värde per år. Ge en tydlig begränsning med modellen.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Efter tillräckligt många år skulle modellen ge negativt bilvärde, vilket inte är rimligt.</p></div></div>",
+    "t": "<p>En modell säger att en bil alltid tappar 25 000 kr i värde per år. Ge en tydlig begränsning med modellen.</p><p>A. Modellen är alltid rimlig eftersom kronor är en linjär enhet.<br>B. Bilen måste öka i värde efter ett visst antal år.<br>C. Konstant minskning med 25 000 kr per år leder till slut till noll och sedan negativa värden, och värdeminskningen är sällan konstant över hela livslängden.<br>D. Modellen är orimlig enbart därför att 25 000 inte är en procent.</p>",
+    "s": "<p>En linjär minskning kan fungera under en begränsad period men får orimliga långtidsegenskaper.</p><p><strong>Svar: C.</strong></p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Efter tillräckligt många år skulle modellen ge negativt bilvärde, vilket inte är rimligt.</p>"
+    "ledtrad": "<p>Fortsätt modellen många år framåt och fundera på både negativa värden och om samma kronor per år är realistiskt.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.62",
@@ -67333,20 +68121,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En befolkning modelleras med \\(P(t)=5000\\cdot1,04^t\\). Vilket viktigt antagande om utvecklingen gör modellen?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den antar att befolkningen <strong>ökar med 4 % varje tidsenhet</strong> under hela tiden modellen används.</p></div></div>",
+    "t": "<p>En befolkning modelleras med (P(t)=5000cdot1,04^t). Vilket viktigt antagande gör modellen?</p><p>A. Befolkningen ökar med exakt 200 personer varje tidsenhet.<br>B. Befolkningen förändras med samma relativa faktor 1,04, alltså 4 % per tidsenhet.<br>C. Befolkningen kan aldrig bli större än 5 000.<br>D. Befolkningen minskar med 4 % per tidsenhet.</p>",
+    "s": "<p>Exponentformen med faktorn 1,04 betyder att varje nytt värde antas vara 4 % större än föregående.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Modellers begränsningar och giltighetsområde",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Den antar att befolkningen ökar med 4 % varje tidsenhet under hela tiden modellen används.</p>"
+    "ledtrad": "<p>Tolka faktorn 1,04 mellan två på varandra följande tidssteg.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.63",
@@ -67371,7 +68162,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>En digital lösare ska ge samma svar som vanlig algebra. Kontrollera gärna genom att sätta tillbaka x-värdet i vänsterledet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.64",
@@ -67385,7 +68179,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En mängd modelleras med \\(M(t)=300\\cdot0,90^t\\).</p><p>a) Lös digitalt \\(M(t)=100\\).<br>b) Efter hur många hela tidsenheter är mängden för första gången mindre än 100?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p><p>a) <strong>\\(t\\approx10,43\\)</strong>.</p><p>b) Gränsen passeras efter ungefär 10,43 tidsenheter, alltså första gången efter <strong>11 hela tidsenheter</strong>.</p>",
+    "s": "<p>a) (300·0,90^t=100) ger digitalt <strong>t≈10,43</strong>.</p><p>b) Vid heltal är mängden fortfarande över 100 vid (t=10), men under 100 vid (t=11). Första hela tidsenheten under 100 är därför <strong>11</strong>.</p>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,
     "miniräknare": true,
@@ -67402,7 +68196,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Den digitala lösningen är en brytpunkt mellan två heltal. Kontrollera de två heltalen på var sin sida om brytpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.65",
@@ -67427,7 +68224,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.66",
@@ -67444,7 +68244,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) Modellerna är lika vid <strong>\\(t=0\\)</strong> och ungefär <strong>\\(t=10,07\\)</strong>.</p><p>b) <strong>A är störst för \\(0&lt;t&lt;10,07\\)</strong> och <strong>B är störst för \\(t&gt;10,07\\)</strong>. Vid skärningarna är de lika.</p></div></div>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       [
@@ -67459,7 +68259,7 @@ window.BANKMA1 = [
       null,
       null
     ],
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
       "begrepp",
@@ -67477,7 +68277,10 @@ window.BANKMA1 = [
       "intervall",
       "intervall"
     ],
-    "ledtrad": "<p>Skriv ekvationen korrekt i verktyget och använd en lösnings- eller grafmetod. Kontrollera den digitala lösningen genom att sätta in värdet i den ursprungliga ekvationen eller jämföra grafernas y-värden.</p>"
+    "ledtrad": "<p>Kom ihåg att modellerna redan är lika vid t=0. Sök sedan efter ytterligare skärningar och testa vilken graf som ligger högst mellan skärningspunkterna.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.67",
@@ -67503,7 +68306,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.68",
@@ -67520,7 +68326,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(L(8)=180\\), så \\((1+p)^8=1,8\\). Därför <strong>\\(p\\approx7,62\\%\\)</strong>.</p><p>b) Båda modellerna har startvärdet 100. Skärningarna är därför <strong>\\(t=0\\)</strong> och <strong>\\(t=8\\)</strong>.</p><p>c) Direkt efter \\(t=0\\) växer L snabbare. Mellan skärningarna är därför <strong>L störst för \\(0&lt;t&lt;8\\)</strong>. Efter den andra skärningen växer exponentialmodellen förbi, så <strong>E är störst för \\(t&gt;8\\)</strong>.</p></div></div>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       7.62,
@@ -67537,7 +68343,7 @@ window.BANKMA1 = [
       null,
       null
     ],
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
       "begrepp",
@@ -67557,7 +68363,10 @@ window.BANKMA1 = [
       "intervall",
       "intervall"
     ],
-    "ledtrad": "<p>Skriv ekvationen korrekt i verktyget och använd en lösnings- eller grafmetod. Kontrollera den digitala lösningen genom att sätta in värdet i den ursprungliga ekvationen eller jämföra grafernas y-värden.</p>"
+    "ledtrad": "<p>Villkoret vid t=8 ger en ekvation för förändringsfaktorn. När p är bestämt kan du jämföra graferna på intervallen mellan deras skärningar.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.69",
@@ -67571,7 +68380,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "2/1/0",
     "t": "<p>Använd ett digitalt verktyg för att lösa uppgifterna.</p><p>a) Lös ekvationen \\(4{,}5x-7{,}2=23{,}4\\).<br>b) Bestäm skärningspunkten mellan \\(y=2{,}4x+1{,}5\\) och \\(y=9-1{,}1x\\). Svara med två decimaler.<br>c) Förklara hur du kan kontrollera att svaret i a) är rimligt utan digitalt verktyg.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(4{,}5x=30{,}6\\Rightarrow\\)<strong>\\(x=6{,}8\\)</strong></p><p>b) \\(2{,}4x+1{,}5=9-1{,}1x\\Rightarrow3{,}5x=7{,}5\\Rightarrow x\\approx2{,}14\\) och \\(y\\approx6{,}64\\). Skärningspunkten är <strong>\\((2{,}14;\\ 6{,}64)\\)</strong></p><p>c) Sätt in svaret i ekvationen: \\(4{,}5\\cdot6{,}8-7{,}2=30{,}6-7{,}2=23{,}4\\). <strong>Vänsterledet blir lika med högerledet, så svaret stämmer.</strong></p></div></div>",
+    "s": "<p>a) (4,5x-7,2=23,4 ⇒ )<strong>x=6,8</strong>.</p><p>b) Skärningen fås ur (2,4x+1,5=9-1,1x): (x≈2,14), (y≈6,64). Punkten är <strong>(2,14; 6,64)</strong>.</p><p>c) Sätt tillbaka 6,8 i ursprungsekvationen: vänsterledet blir 23,4, samma som högerledet.</p>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,
     "miniräknare": false,
@@ -67586,11 +68395,7 @@ window.BANKMA1 = [
       null,
       null
     ],
-    "självrättning": [
-      true,
-      false,
-      false
-    ],
+    "självrättning": false,
     "formaga": [
       "procedur",
       "resonemang"
@@ -67632,7 +68437,10 @@ window.BANKMA1 = [
       null,
       null
     ],
-    "ledtrad": "<p>Skriv ekvationen korrekt i verktyget och använd en lösnings- eller grafmetod. Kontrollera den digitala lösningen genom att sätta in värdet i den ursprungliga ekvationen eller jämföra grafernas y-värden.</p>"
+    "ledtrad": "<p>I b) motsvarar skärningen ett x där de två uttrycken för y är lika. I c) är insättning i ursprungsekvationen den säkraste kontrollen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.70",
@@ -67645,20 +68453,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Lös digitalt ekvationen \\(100\\cdot1,10^x=50+25x\\) för \\(0\\le x\\le20\\). Hur många lösningar finns?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p><p>Det finns två lösningar: <strong>\\(x\\approx3,68\\) och \\(x\\approx15,46\\)</strong>.</p><p>Det är viktigt att inte sluta söka efter den första skärningen.</p>",
+    "t": "<p>Lös digitalt ekvationen (100·1,10^x=50+25x) för (0le x≤20). Hur många lösningar finns?</p><p>A. Ingen<br>B. En<br>C. Två<br>D. Tre</p>",
+    "s": "<p>Graferna skär varandra vid ungefär (x=3,68) och (x=15,46). Det finns alltså <strong>två lösningar</strong>.</p><p><strong>Svar: C.</strong></p>",
     "familj": "Lösa ekvationer med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Använd ett tillräckligt stort fönster för hela intervallet 0–20. Sluta inte söka efter den första skärningen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.71",
@@ -67683,7 +68494,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.72",
@@ -67708,7 +68522,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>"
+    "ledtrad": "<p>Skriv först upp vilken ekvation som ska lösas. Använd sedan ett digitalt verktyg och kontrollera att du undersöker ett tillräckligt stort \\(x\\)-intervall så att ingen lösning missas.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.73",
@@ -67734,7 +68551,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först de egenskaper som styr skissen – till exempel nollställen, tecken, asymptoter, extrempunkter eller riktningar – och låt dem styra grafen/figuren.</p>"
+    "ledtrad": "<p>Vilka två y-uttryck ska vara lika? Rita ett av dem som exponentialgraf och det andra som en horisontell linje; skärningens x-koordinat löser ekvationen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.74",
@@ -67761,7 +68581,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>"
+    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.75",
@@ -67787,7 +68610,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Jämför hur mycket funktionsvärdet faktiskt ändras på intervallet med hur stort y-intervall graf-fönstret visar. Om förändringen är liten i förhållande till hela y-skalan kommer linjen att se nästan vågrät ut.</p>"
+    "ledtrad": "<p>Jämför funktionens faktiska förändring, 20 y-enheter, med höjden på det valda y-fönstret, 2 000 y-enheter.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.76",
@@ -67799,21 +68625,24 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Förklara hur du kan använda ett grafritande verktyg för att lösa \\(3x+2=20\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p><p>Rita \\(y=3x+2\\) och \\(y=20\\), och läs av x-koordinaten i skärningspunkten. Den är <strong>6</strong>.</p>",
+    "poang": "1/0/0",
+    "t": "<p>Vilken grafisk metod löser (3x+2=20)?</p><p>A. Rita (y=3x+2) och (y=20) och läs av skärningens x-koordinat.<br>B. Rita (y=3x+2) och (y=x) och läs av skärningens y-koordinat.<br>C. Rita bara (y=20) och läs av dess lutning.<br>D. Rita (y=3x) och (y=2) och addera skärningens koordinater.</p>",
+    "s": "<p>Ekvationen frågar när uttrycket (3x+2) har värdet 20. Det syns där graferna (y=3x+2) och (y=20) skär varandra.</p><p><strong>Svar: A.</strong> Skärningens x-koordinat är 6.</p>",
     "familj": "Digital grafanalys",
     "geogebra": true,
     "miniräknare": false,
-    "svarstyp": "figur",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först de egenskaper som styr skissen – till exempel nollställen, tecken, asymptoter, extrempunkter eller riktningar – och låt dem styra grafen/figuren.</p>"
+    "ledtrad": "<p>Gör vänsterledet och högerledet till var sin y-funktion.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.77",
@@ -67840,7 +68669,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Bestäm först var modellerna skär varandra parvis. De x-värdena delar upp x-axeln i intervall; välj sedan en testpunkt i varje intervall och jämför vilken av de tre modellerna som ligger högst.</p>"
+    "ledtrad": "<p>Bestäm först alla relevanta parvisa skärningar. Testa sedan ett x-värde i varje intervall för att se vilken av de tre modellerna som faktiskt ligger högst.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.78",
@@ -67867,7 +68699,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "punkt",
-    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>"
+    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.79",
@@ -67880,20 +68715,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>De två modellerna är \\(L(x)=100+5x\\) och \\(E(x)=80\\cdot1,06^x\\).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"91.5\" y1=\"25\" x2=\"91.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"91.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"128.0\" y1=\"25\" x2=\"128.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"128.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"164.5\" y1=\"25\" x2=\"164.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"164.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"201.0\" y1=\"25\" x2=\"201.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"201.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"274.0\" y1=\"25\" x2=\"274.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"274.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"310.5\" y1=\"25\" x2=\"310.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"310.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"347.0\" y1=\"25\" x2=\"347.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"347.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">16</text><line x1=\"383.5\" y1=\"25\" x2=\"383.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"383.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">18</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"261.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">60</text><line x1=\"55\" y1=\"228.9\" x2=\"420\" y2=\"228.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">80</text><line x1=\"55\" y1=\"199.8\" x2=\"420\" y2=\"199.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"202.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"170.6\" x2=\"420\" y2=\"170.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"173.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"112.4\" x2=\"420\" y2=\"112.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"115.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"83.2\" x2=\"420\" y2=\"83.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"86.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">180</text><line x1=\"55\" y1=\"54.1\" x2=\"420\" y2=\"54.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"57.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">220</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,199.8 56.5,199.1 58.0,198.5 59.6,197.9 61.1,197.3 62.6,196.7 64.1,196.1 65.6,195.5 67.2,194.9 68.7,194.3 70.2,193.7 71.7,193.1 73.2,192.5 74.8,191.9 76.3,191.3 77.8,190.6 79.3,190.0 80.9,189.4 82.4,188.8 83.9,188.2 85.4,187.6 86.9,187.0 88.5,186.4 90.0,185.8 91.5,185.2 93.0,184.6 94.5,184.0 96.1,183.4 97.6,182.8 99.1,182.2 100.6,181.5 102.1,180.9 103.7,180.3 105.2,179.7 106.7,179.1 108.2,178.5 109.8,177.9 111.3,177.3 112.8,176.7 114.3,176.1 115.8,175.5 117.4,174.9 118.9,174.3 120.4,173.7 121.9,173.1 123.4,172.4 125.0,171.8 126.5,171.2 128.0,170.6 129.5,170.0 131.0,169.4 132.6,168.8 134.1,168.2 135.6,167.6 137.1,167.0 138.6,166.4 140.2,165.8 141.7,165.2 143.2,164.6 144.7,164.0 146.2,163.3 147.8,162.7 149.3,162.1 150.8,161.5 152.3,160.9 153.9,160.3 155.4,159.7 156.9,159.1 158.4,158.5 159.9,157.9 161.5,157.3 163.0,156.7 164.5,156.1 166.0,155.5 167.5,154.8 169.1,154.2 170.6,153.6 172.1,153.0 173.6,152.4 175.1,151.8 176.7,151.2 178.2,150.6 179.7,150.0 181.2,149.4 182.8,148.8 184.3,148.2 185.8,147.6 187.3,147.0 188.8,146.4 190.4,145.7 191.9,145.1 193.4,144.5 194.9,143.9 196.4,143.3 198.0,142.7 199.5,142.1 201.0,141.5 202.5,140.9 204.0,140.3 205.6,139.7 207.1,139.1 208.6,138.5 210.1,137.9 211.6,137.3 213.2,136.6 214.7,136.0 216.2,135.4 217.7,134.8 219.2,134.2 220.8,133.6 222.3,133.0 223.8,132.4 225.3,131.8 226.9,131.2 228.4,130.6 229.9,130.0 231.4,129.4 232.9,128.8 234.5,128.2 236.0,127.5 237.5,126.9 239.0,126.3 240.5,125.7 242.1,125.1 243.6,124.5 245.1,123.9 246.6,123.3 248.1,122.7 249.7,122.1 251.2,121.5 252.7,120.9 254.2,120.3 255.8,119.7 257.3,119.0 258.8,118.4 260.3,117.8 261.8,117.2 263.4,116.6 264.9,116.0 266.4,115.4 267.9,114.8 269.4,114.2 271.0,113.6 272.5,113.0 274.0,112.4 275.5,111.8 277.0,111.2 278.6,110.6 280.1,109.9 281.6,109.3 283.1,108.7 284.6,108.1 286.2,107.5 287.7,106.9 289.2,106.3 290.7,105.7 292.2,105.1 293.8,104.5 295.3,103.9 296.8,103.3 298.3,102.7 299.9,102.1 301.4,101.5 302.9,100.8 304.4,100.2 305.9,99.6 307.5,99.0 309.0,98.4 310.5,97.8 312.0,97.2 313.5,96.6 315.1,96.0 316.6,95.4 318.1,94.8 319.6,94.2 321.1,93.6 322.7,93.0 324.2,92.4 325.7,91.7 327.2,91.1 328.8,90.5 330.3,89.9 331.8,89.3 333.3,88.7 334.8,88.1 336.4,87.5 337.9,86.9 339.4,86.3 340.9,85.7 342.4,85.1 344.0,84.5 345.5,83.9 347.0,83.2 348.5,82.6 350.0,82.0 351.6,81.4 353.1,80.8 354.6,80.2 356.1,79.6 357.6,79.0 359.2,78.4 360.7,77.8 362.2,77.2 363.7,76.6 365.2,76.0 366.8,75.4 368.3,74.8 369.8,74.1 371.3,73.5 372.9,72.9 374.4,72.3 375.9,71.7 377.4,71.1 378.9,70.5 380.5,69.9 382.0,69.3 383.5,68.7 385.0,68.1 386.5,67.5 388.1,66.9 389.6,66.3 391.1,65.7 392.6,65.0 394.1,64.4 395.7,63.8 397.2,63.2 398.7,62.6 400.2,62.0 401.8,61.4 403.3,60.8 404.8,60.2 406.3,59.6 407.8,59.0 409.4,58.4 410.9,57.8 412.4,57.2 413.9,56.6 415.4,55.9 417.0,55.3 418.5,54.7 420.0,54.1\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"94.7\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">L</text><polyline points=\"55.0,228.9 56.5,228.3 58.0,227.7 59.6,227.2 61.1,226.6 62.6,226.0 64.1,225.4 65.6,224.8 67.2,224.3 68.7,223.7 70.2,223.1 71.7,222.5 73.2,221.9 74.8,221.3 76.3,220.7 77.8,220.1 79.3,219.5 80.9,218.9 82.4,218.2 83.9,217.6 85.4,217.0 86.9,216.4 88.5,215.7 90.0,215.1 91.5,214.5 93.0,213.8 94.5,213.2 96.1,212.6 97.6,211.9 99.1,211.3 100.6,210.6 102.1,209.9 103.7,209.3 105.2,208.6 106.7,208.0 108.2,207.3 109.8,206.6 111.3,205.9 112.8,205.3 114.3,204.6 115.8,203.9 117.4,203.2 118.9,202.5 120.4,201.8 121.9,201.1 123.4,200.4 125.0,199.7 126.5,199.0 128.0,198.3 129.5,197.6 131.0,196.9 132.6,196.1 134.1,195.4 135.6,194.7 137.1,193.9 138.6,193.2 140.2,192.5 141.7,191.7 143.2,191.0 144.7,190.2 146.2,189.5 147.8,188.7 149.3,188.0 150.8,187.2 152.3,186.4 153.9,185.6 155.4,184.9 156.9,184.1 158.4,183.3 159.9,182.5 161.5,181.7 163.0,180.9 164.5,180.1 166.0,179.3 167.5,178.5 169.1,177.7 170.6,176.9 172.1,176.1 173.6,175.2 175.1,174.4 176.7,173.6 178.2,172.7 179.7,171.9 181.2,171.1 182.8,170.2 184.3,169.3 185.8,168.5 187.3,167.6 188.8,166.8 190.4,165.9 191.9,165.0 193.4,164.1 194.9,163.3 196.4,162.4 198.0,161.5 199.5,160.6 201.0,159.7 202.5,158.8 204.0,157.9 205.6,157.0 207.1,156.0 208.6,155.1 210.1,154.2 211.6,153.3 213.2,152.3 214.7,151.4 216.2,150.5 217.7,149.5 219.2,148.6 220.8,147.6 222.3,146.6 223.8,145.7 225.3,144.7 226.9,143.7 228.4,142.7 229.9,141.7 231.4,140.8 232.9,139.8 234.5,138.8 236.0,137.8 237.5,136.7 239.0,135.7 240.5,134.7 242.1,133.7 243.6,132.6 245.1,131.6 246.6,130.6 248.1,129.5 249.7,128.5 251.2,127.4 252.7,126.4 254.2,125.3 255.8,124.2 257.3,123.1 258.8,122.1 260.3,121.0 261.8,119.9 263.4,118.8 264.9,117.7 266.4,116.6 267.9,115.5 269.4,114.3 271.0,113.2 272.5,112.1 274.0,111.0 275.5,109.8 277.0,108.7 278.6,107.5 280.1,106.4 281.6,105.2 283.1,104.0 284.6,102.8 286.2,101.7 287.7,100.5 289.2,99.3 290.7,98.1 292.2,96.9 293.8,95.7 295.3,94.5 296.8,93.2 298.3,92.0 299.9,90.8 301.4,89.5 302.9,88.3 304.4,87.0 305.9,85.8 307.5,84.5 309.0,83.3 310.5,82.0 312.0,80.7 313.5,79.4 315.1,78.1 316.6,76.8 318.1,75.5 319.6,74.2 321.1,72.9 322.7,71.5 324.2,70.2 325.7,68.9 327.2,67.5 328.8,66.2 330.3,64.8 331.8,63.5 333.3,62.1 334.8,60.7 336.4,59.3 337.9,57.9 339.4,56.5 340.9,55.1 342.4,53.7 344.0,52.3 345.5,50.9 347.0,49.4 348.5,48.0 350.0,46.5 351.6,45.1 353.1,43.6 354.6,42.2 356.1,40.7 357.6,39.2 359.2,37.7 360.7,36.2 362.2,34.7 363.7,33.2 365.2,31.7 366.8,30.1 368.3,28.6 369.8,27.1 371.3,25.5 372.9,24.0 374.4,22.4 375.9,20.8 377.4,19.2 378.9,17.7 380.5,16.1 382.0,14.5 383.5,12.8 385.0,11.2 386.5,9.6 388.1,8.0 389.6,6.3 391.1,4.7 392.6,3.0 394.1,1.3 395.7,-0.3 397.2,-2.0 398.7,-3.7 400.2,-5.4 401.8,-7.1 403.3,-8.8 404.8,-10.5 406.3,-12.3 407.8,-14.0 409.4,-15.8 410.9,-17.5 412.4,-19.3 413.9,-21.1 415.4,-22.9 417.0,-24.6 418.5,-26.4 420.0,-28.3\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"56.9\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">E</text></svg></span><p>Bestäm ungefär när de blir lika och vilken modell som är störst före respektive efter skärningen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p><p>Skärningen ligger vid ungefär <strong>\\(x=11,77\\)</strong>. Före skärningen är L större; efter skärningen är E större.</p>",
+    "t": "<p>De två modellerna är (L(x)=100+5x) och (E(x)=80·1,06^x).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"91.5\" y1=\"25\" x2=\"91.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"91.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"128.0\" y1=\"25\" x2=\"128.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"128.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"164.5\" y1=\"25\" x2=\"164.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"164.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"201.0\" y1=\"25\" x2=\"201.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"201.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"274.0\" y1=\"25\" x2=\"274.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"274.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"310.5\" y1=\"25\" x2=\"310.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"310.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"347.0\" y1=\"25\" x2=\"347.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"347.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">16</text><line x1=\"383.5\" y1=\"25\" x2=\"383.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"383.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">18</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"261.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">60</text><line x1=\"55\" y1=\"228.9\" x2=\"420\" y2=\"228.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">80</text><line x1=\"55\" y1=\"199.8\" x2=\"420\" y2=\"199.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"202.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"170.6\" x2=\"420\" y2=\"170.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"173.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"112.4\" x2=\"420\" y2=\"112.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"115.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"83.2\" x2=\"420\" y2=\"83.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"86.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">180</text><line x1=\"55\" y1=\"54.1\" x2=\"420\" y2=\"54.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"57.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">220</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,199.8 56.5,199.1 58.0,198.5 59.6,197.9 61.1,197.3 62.6,196.7 64.1,196.1 65.6,195.5 67.2,194.9 68.7,194.3 70.2,193.7 71.7,193.1 73.2,192.5 74.8,191.9 76.3,191.3 77.8,190.6 79.3,190.0 80.9,189.4 82.4,188.8 83.9,188.2 85.4,187.6 86.9,187.0 88.5,186.4 90.0,185.8 91.5,185.2 93.0,184.6 94.5,184.0 96.1,183.4 97.6,182.8 99.1,182.2 100.6,181.5 102.1,180.9 103.7,180.3 105.2,179.7 106.7,179.1 108.2,178.5 109.8,177.9 111.3,177.3 112.8,176.7 114.3,176.1 115.8,175.5 117.4,174.9 118.9,174.3 120.4,173.7 121.9,173.1 123.4,172.4 125.0,171.8 126.5,171.2 128.0,170.6 129.5,170.0 131.0,169.4 132.6,168.8 134.1,168.2 135.6,167.6 137.1,167.0 138.6,166.4 140.2,165.8 141.7,165.2 143.2,164.6 144.7,164.0 146.2,163.3 147.8,162.7 149.3,162.1 150.8,161.5 152.3,160.9 153.9,160.3 155.4,159.7 156.9,159.1 158.4,158.5 159.9,157.9 161.5,157.3 163.0,156.7 164.5,156.1 166.0,155.5 167.5,154.8 169.1,154.2 170.6,153.6 172.1,153.0 173.6,152.4 175.1,151.8 176.7,151.2 178.2,150.6 179.7,150.0 181.2,149.4 182.8,148.8 184.3,148.2 185.8,147.6 187.3,147.0 188.8,146.4 190.4,145.7 191.9,145.1 193.4,144.5 194.9,143.9 196.4,143.3 198.0,142.7 199.5,142.1 201.0,141.5 202.5,140.9 204.0,140.3 205.6,139.7 207.1,139.1 208.6,138.5 210.1,137.9 211.6,137.3 213.2,136.6 214.7,136.0 216.2,135.4 217.7,134.8 219.2,134.2 220.8,133.6 222.3,133.0 223.8,132.4 225.3,131.8 226.9,131.2 228.4,130.6 229.9,130.0 231.4,129.4 232.9,128.8 234.5,128.2 236.0,127.5 237.5,126.9 239.0,126.3 240.5,125.7 242.1,125.1 243.6,124.5 245.1,123.9 246.6,123.3 248.1,122.7 249.7,122.1 251.2,121.5 252.7,120.9 254.2,120.3 255.8,119.7 257.3,119.0 258.8,118.4 260.3,117.8 261.8,117.2 263.4,116.6 264.9,116.0 266.4,115.4 267.9,114.8 269.4,114.2 271.0,113.6 272.5,113.0 274.0,112.4 275.5,111.8 277.0,111.2 278.6,110.6 280.1,109.9 281.6,109.3 283.1,108.7 284.6,108.1 286.2,107.5 287.7,106.9 289.2,106.3 290.7,105.7 292.2,105.1 293.8,104.5 295.3,103.9 296.8,103.3 298.3,102.7 299.9,102.1 301.4,101.5 302.9,100.8 304.4,100.2 305.9,99.6 307.5,99.0 309.0,98.4 310.5,97.8 312.0,97.2 313.5,96.6 315.1,96.0 316.6,95.4 318.1,94.8 319.6,94.2 321.1,93.6 322.7,93.0 324.2,92.4 325.7,91.7 327.2,91.1 328.8,90.5 330.3,89.9 331.8,89.3 333.3,88.7 334.8,88.1 336.4,87.5 337.9,86.9 339.4,86.3 340.9,85.7 342.4,85.1 344.0,84.5 345.5,83.9 347.0,83.2 348.5,82.6 350.0,82.0 351.6,81.4 353.1,80.8 354.6,80.2 356.1,79.6 357.6,79.0 359.2,78.4 360.7,77.8 362.2,77.2 363.7,76.6 365.2,76.0 366.8,75.4 368.3,74.8 369.8,74.1 371.3,73.5 372.9,72.9 374.4,72.3 375.9,71.7 377.4,71.1 378.9,70.5 380.5,69.9 382.0,69.3 383.5,68.7 385.0,68.1 386.5,67.5 388.1,66.9 389.6,66.3 391.1,65.7 392.6,65.0 394.1,64.4 395.7,63.8 397.2,63.2 398.7,62.6 400.2,62.0 401.8,61.4 403.3,60.8 404.8,60.2 406.3,59.6 407.8,59.0 409.4,58.4 410.9,57.8 412.4,57.2 413.9,56.6 415.4,55.9 417.0,55.3 418.5,54.7 420.0,54.1\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"94.7\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">L</text><polyline points=\"55.0,228.9 56.5,228.3 58.0,227.7 59.6,227.2 61.1,226.6 62.6,226.0 64.1,225.4 65.6,224.8 67.2,224.3 68.7,223.7 70.2,223.1 71.7,222.5 73.2,221.9 74.8,221.3 76.3,220.7 77.8,220.1 79.3,219.5 80.9,218.9 82.4,218.2 83.9,217.6 85.4,217.0 86.9,216.4 88.5,215.7 90.0,215.1 91.5,214.5 93.0,213.8 94.5,213.2 96.1,212.6 97.6,211.9 99.1,211.3 100.6,210.6 102.1,209.9 103.7,209.3 105.2,208.6 106.7,208.0 108.2,207.3 109.8,206.6 111.3,205.9 112.8,205.3 114.3,204.6 115.8,203.9 117.4,203.2 118.9,202.5 120.4,201.8 121.9,201.1 123.4,200.4 125.0,199.7 126.5,199.0 128.0,198.3 129.5,197.6 131.0,196.9 132.6,196.1 134.1,195.4 135.6,194.7 137.1,193.9 138.6,193.2 140.2,192.5 141.7,191.7 143.2,191.0 144.7,190.2 146.2,189.5 147.8,188.7 149.3,188.0 150.8,187.2 152.3,186.4 153.9,185.6 155.4,184.9 156.9,184.1 158.4,183.3 159.9,182.5 161.5,181.7 163.0,180.9 164.5,180.1 166.0,179.3 167.5,178.5 169.1,177.7 170.6,176.9 172.1,176.1 173.6,175.2 175.1,174.4 176.7,173.6 178.2,172.7 179.7,171.9 181.2,171.1 182.8,170.2 184.3,169.3 185.8,168.5 187.3,167.6 188.8,166.8 190.4,165.9 191.9,165.0 193.4,164.1 194.9,163.3 196.4,162.4 198.0,161.5 199.5,160.6 201.0,159.7 202.5,158.8 204.0,157.9 205.6,157.0 207.1,156.0 208.6,155.1 210.1,154.2 211.6,153.3 213.2,152.3 214.7,151.4 216.2,150.5 217.7,149.5 219.2,148.6 220.8,147.6 222.3,146.6 223.8,145.7 225.3,144.7 226.9,143.7 228.4,142.7 229.9,141.7 231.4,140.8 232.9,139.8 234.5,138.8 236.0,137.8 237.5,136.7 239.0,135.7 240.5,134.7 242.1,133.7 243.6,132.6 245.1,131.6 246.6,130.6 248.1,129.5 249.7,128.5 251.2,127.4 252.7,126.4 254.2,125.3 255.8,124.2 257.3,123.1 258.8,122.1 260.3,121.0 261.8,119.9 263.4,118.8 264.9,117.7 266.4,116.6 267.9,115.5 269.4,114.3 271.0,113.2 272.5,112.1 274.0,111.0 275.5,109.8 277.0,108.7 278.6,107.5 280.1,106.4 281.6,105.2 283.1,104.0 284.6,102.8 286.2,101.7 287.7,100.5 289.2,99.3 290.7,98.1 292.2,96.9 293.8,95.7 295.3,94.5 296.8,93.2 298.3,92.0 299.9,90.8 301.4,89.5 302.9,88.3 304.4,87.0 305.9,85.8 307.5,84.5 309.0,83.3 310.5,82.0 312.0,80.7 313.5,79.4 315.1,78.1 316.6,76.8 318.1,75.5 319.6,74.2 321.1,72.9 322.7,71.5 324.2,70.2 325.7,68.9 327.2,67.5 328.8,66.2 330.3,64.8 331.8,63.5 333.3,62.1 334.8,60.7 336.4,59.3 337.9,57.9 339.4,56.5 340.9,55.1 342.4,53.7 344.0,52.3 345.5,50.9 347.0,49.4 348.5,48.0 350.0,46.5 351.6,45.1 353.1,43.6 354.6,42.2 356.1,40.7 357.6,39.2 359.2,37.7 360.7,36.2 362.2,34.7 363.7,33.2 365.2,31.7 366.8,30.1 368.3,28.6 369.8,27.1 371.3,25.5 372.9,24.0 374.4,22.4 375.9,20.8 377.4,19.2 378.9,17.7 380.5,16.1 382.0,14.5 383.5,12.8 385.0,11.2 386.5,9.6 388.1,8.0 389.6,6.3 391.1,4.7 392.6,3.0 394.1,1.3 395.7,-0.3 397.2,-2.0 398.7,-3.7 400.2,-5.4 401.8,-7.1 403.3,-8.8 404.8,-10.5 406.3,-12.3 407.8,-14.0 409.4,-15.8 410.9,-17.5 412.4,-19.3 413.9,-21.1 415.4,-22.9 417.0,-24.6 418.5,-26.4 420.0,-28.3\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"56.9\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">E</text></svg></span><p>Vilket alternativ beskriver deras skärning och ordning bäst?</p><p>A. De är lika vid ungefär x=11,77; L är störst före och E efter.<br>B. De är lika vid ungefär x=11,77; E är störst före och L efter.<br>C. De är lika vid ungefär x=6,00; L är störst före och E efter.<br>D. De skär inte varandra för x≥0.</p>",
+    "s": "<p>Digitalt fås skärningen vid <strong>x≈11,77</strong>. Före skärningen ligger L över E; efter skärningen växer exponentialmodellen förbi.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Digital grafanalys",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>"
+    "ledtrad": "<p>Hitta först skärningen. Jämför sedan modellerna vid ett x-värde före och ett efter den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.80",
@@ -67906,21 +68744,24 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Grafen visar en exponentialfunktion. Läs av startvärdet och avgör om funktionen ökar eller minskar.</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"115.8\" y1=\"25\" x2=\"115.8\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"115.8\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"176.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"298.3\" y1=\"25\" x2=\"298.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"298.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"359.2\" y1=\"25\" x2=\"359.2\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"359.2\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><line x1=\"55\" y1=\"228.9\" x2=\"420\" y2=\"228.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"55\" y1=\"199.8\" x2=\"420\" y2=\"199.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"202.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">40</text><line x1=\"55\" y1=\"170.6\" x2=\"420\" y2=\"170.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"173.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">60</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">80</text><line x1=\"55\" y1=\"112.4\" x2=\"420\" y2=\"112.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"115.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"83.2\" x2=\"420\" y2=\"83.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"86.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"54.1\" x2=\"420\" y2=\"54.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"57.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#333\" stroke-width=\"1.6\"/><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,185.2 56.5,184.9 58.0,184.5 59.6,184.2 61.1,183.8 62.6,183.5 64.1,183.2 65.6,182.8 67.2,182.5 68.7,182.1 70.2,181.8 71.7,181.4 73.2,181.1 74.8,180.7 76.3,180.4 77.8,180.0 79.3,179.7 80.9,179.3 82.4,179.0 83.9,178.6 85.4,178.2 86.9,177.9 88.5,177.5 90.0,177.1 91.5,176.8 93.0,176.4 94.5,176.0 96.1,175.7 97.6,175.3 99.1,174.9 100.6,174.5 102.1,174.1 103.7,173.8 105.2,173.4 106.7,173.0 108.2,172.6 109.8,172.2 111.3,171.8 112.8,171.4 114.3,171.0 115.8,170.6 117.4,170.2 118.9,169.8 120.4,169.4 121.9,169.0 123.4,168.6 125.0,168.2 126.5,167.8 128.0,167.4 129.5,167.0 131.0,166.6 132.6,166.1 134.1,165.7 135.6,165.3 137.1,164.9 138.6,164.4 140.2,164.0 141.7,163.6 143.2,163.2 144.7,162.7 146.2,162.3 147.8,161.8 149.3,161.4 150.8,161.0 152.3,160.5 153.9,160.1 155.4,159.6 156.9,159.2 158.4,158.7 159.9,158.3 161.5,157.8 163.0,157.4 164.5,156.9 166.0,156.4 167.5,156.0 169.1,155.5 170.6,155.0 172.1,154.6 173.6,154.1 175.1,153.6 176.7,153.2 178.2,152.7 179.7,152.2 181.2,151.7 182.8,151.2 184.3,150.7 185.8,150.2 187.3,149.8 188.8,149.3 190.4,148.8 191.9,148.3 193.4,147.8 194.9,147.3 196.4,146.7 198.0,146.2 199.5,145.7 201.0,145.2 202.5,144.7 204.0,144.2 205.6,143.7 207.1,143.1 208.6,142.6 210.1,142.1 211.6,141.6 213.2,141.0 214.7,140.5 216.2,140.0 217.7,139.4 219.2,138.9 220.8,138.3 222.3,137.8 223.8,137.2 225.3,136.7 226.9,136.1 228.4,135.6 229.9,135.0 231.4,134.5 232.9,133.9 234.5,133.3 236.0,132.8 237.5,132.2 239.0,131.6 240.5,131.0 242.1,130.4 243.6,129.9 245.1,129.3 246.6,128.7 248.1,128.1 249.7,127.5 251.2,126.9 252.7,126.3 254.2,125.7 255.7,125.1 257.3,124.5 258.8,123.9 260.3,123.3 261.8,122.7 263.4,122.0 264.9,121.4 266.4,120.8 267.9,120.2 269.4,119.5 271.0,118.9 272.5,118.3 274.0,117.6 275.5,117.0 277.0,116.3 278.6,115.7 280.1,115.1 281.6,114.4 283.1,113.7 284.6,113.1 286.2,112.4 287.7,111.8 289.2,111.1 290.7,110.4 292.2,109.7 293.8,109.1 295.3,108.4 296.8,107.7 298.3,107.0 299.9,106.3 301.4,105.6 302.9,104.9 304.4,104.2 305.9,103.5 307.5,102.8 309.0,102.1 310.5,101.4 312.0,100.7 313.5,100.0 315.1,99.3 316.6,98.5 318.1,97.8 319.6,97.1 321.1,96.3 322.7,95.6 324.2,94.9 325.7,94.1 327.2,93.4 328.8,92.6 330.3,91.8 331.8,91.1 333.3,90.3 334.8,89.6 336.4,88.8 337.9,88.0 339.4,87.2 340.9,86.5 342.4,85.7 344.0,84.9 345.5,84.1 347.0,83.3 348.5,82.5 350.0,81.7 351.6,80.9 353.1,80.1 354.6,79.3 356.1,78.5 357.6,77.6 359.2,76.8 360.7,76.0 362.2,75.2 363.7,74.3 365.2,73.5 366.8,72.6 368.3,71.8 369.8,70.9 371.3,70.1 372.9,69.2 374.4,68.4 375.9,67.5 377.4,66.6 378.9,65.8 380.5,64.9 382.0,64.0 383.5,63.1 385.0,62.2 386.5,61.3 388.1,60.4 389.6,59.5 391.1,58.6 392.6,57.7 394.1,56.8 395.7,55.9 397.2,55.0 398.7,54.0 400.2,53.1 401.8,52.2 403.3,51.2 404.8,50.3 406.3,49.3 407.8,48.4 409.4,47.4 410.9,46.4 412.4,45.5 413.9,44.5 415.4,43.5 417.0,42.6 418.5,41.6 420.0,40.6\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"98.8\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">f</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p><p><strong>Svar:</strong> <strong>Startvärdet är 50 och funktionen ökar.</strong></p>",
+    "t": "<p>Grafen visar en exponentialfunktion. Läs av startvärdet och avgör om funktionen ökar eller minskar.</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"115.8\" y1=\"25\" x2=\"115.8\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"115.8\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"176.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"298.3\" y1=\"25\" x2=\"298.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"298.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"359.2\" y1=\"25\" x2=\"359.2\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"359.2\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><line x1=\"55\" y1=\"228.9\" x2=\"420\" y2=\"228.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"55\" y1=\"199.8\" x2=\"420\" y2=\"199.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"202.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">40</text><line x1=\"55\" y1=\"170.6\" x2=\"420\" y2=\"170.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"173.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">60</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">80</text><line x1=\"55\" y1=\"112.4\" x2=\"420\" y2=\"112.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"115.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"83.2\" x2=\"420\" y2=\"83.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"86.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"54.1\" x2=\"420\" y2=\"54.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"57.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#333\" stroke-width=\"1.6\"/><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,185.2 56.5,184.9 58.0,184.5 59.6,184.2 61.1,183.8 62.6,183.5 64.1,183.2 65.6,182.8 67.2,182.5 68.7,182.1 70.2,181.8 71.7,181.4 73.2,181.1 74.8,180.7 76.3,180.4 77.8,180.0 79.3,179.7 80.9,179.3 82.4,179.0 83.9,178.6 85.4,178.2 86.9,177.9 88.5,177.5 90.0,177.1 91.5,176.8 93.0,176.4 94.5,176.0 96.1,175.7 97.6,175.3 99.1,174.9 100.6,174.5 102.1,174.1 103.7,173.8 105.2,173.4 106.7,173.0 108.2,172.6 109.8,172.2 111.3,171.8 112.8,171.4 114.3,171.0 115.8,170.6 117.4,170.2 118.9,169.8 120.4,169.4 121.9,169.0 123.4,168.6 125.0,168.2 126.5,167.8 128.0,167.4 129.5,167.0 131.0,166.6 132.6,166.1 134.1,165.7 135.6,165.3 137.1,164.9 138.6,164.4 140.2,164.0 141.7,163.6 143.2,163.2 144.7,162.7 146.2,162.3 147.8,161.8 149.3,161.4 150.8,161.0 152.3,160.5 153.9,160.1 155.4,159.6 156.9,159.2 158.4,158.7 159.9,158.3 161.5,157.8 163.0,157.4 164.5,156.9 166.0,156.4 167.5,156.0 169.1,155.5 170.6,155.0 172.1,154.6 173.6,154.1 175.1,153.6 176.7,153.2 178.2,152.7 179.7,152.2 181.2,151.7 182.8,151.2 184.3,150.7 185.8,150.2 187.3,149.8 188.8,149.3 190.4,148.8 191.9,148.3 193.4,147.8 194.9,147.3 196.4,146.7 198.0,146.2 199.5,145.7 201.0,145.2 202.5,144.7 204.0,144.2 205.6,143.7 207.1,143.1 208.6,142.6 210.1,142.1 211.6,141.6 213.2,141.0 214.7,140.5 216.2,140.0 217.7,139.4 219.2,138.9 220.8,138.3 222.3,137.8 223.8,137.2 225.3,136.7 226.9,136.1 228.4,135.6 229.9,135.0 231.4,134.5 232.9,133.9 234.5,133.3 236.0,132.8 237.5,132.2 239.0,131.6 240.5,131.0 242.1,130.4 243.6,129.9 245.1,129.3 246.6,128.7 248.1,128.1 249.7,127.5 251.2,126.9 252.7,126.3 254.2,125.7 255.7,125.1 257.3,124.5 258.8,123.9 260.3,123.3 261.8,122.7 263.4,122.0 264.9,121.4 266.4,120.8 267.9,120.2 269.4,119.5 271.0,118.9 272.5,118.3 274.0,117.6 275.5,117.0 277.0,116.3 278.6,115.7 280.1,115.1 281.6,114.4 283.1,113.7 284.6,113.1 286.2,112.4 287.7,111.8 289.2,111.1 290.7,110.4 292.2,109.7 293.8,109.1 295.3,108.4 296.8,107.7 298.3,107.0 299.9,106.3 301.4,105.6 302.9,104.9 304.4,104.2 305.9,103.5 307.5,102.8 309.0,102.1 310.5,101.4 312.0,100.7 313.5,100.0 315.1,99.3 316.6,98.5 318.1,97.8 319.6,97.1 321.1,96.3 322.7,95.6 324.2,94.9 325.7,94.1 327.2,93.4 328.8,92.6 330.3,91.8 331.8,91.1 333.3,90.3 334.8,89.6 336.4,88.8 337.9,88.0 339.4,87.2 340.9,86.5 342.4,85.7 344.0,84.9 345.5,84.1 347.0,83.3 348.5,82.5 350.0,81.7 351.6,80.9 353.1,80.1 354.6,79.3 356.1,78.5 357.6,77.6 359.2,76.8 360.7,76.0 362.2,75.2 363.7,74.3 365.2,73.5 366.8,72.6 368.3,71.8 369.8,70.9 371.3,70.1 372.9,69.2 374.4,68.4 375.9,67.5 377.4,66.6 378.9,65.8 380.5,64.9 382.0,64.0 383.5,63.1 385.0,62.2 386.5,61.3 388.1,60.4 389.6,59.5 391.1,58.6 392.6,57.7 394.1,56.8 395.7,55.9 397.2,55.0 398.7,54.0 400.2,53.1 401.8,52.2 403.3,51.2 404.8,50.3 406.3,49.3 407.8,48.4 409.4,47.4 410.9,46.4 412.4,45.5 413.9,44.5 415.4,43.5 417.0,42.6 418.5,41.6 420.0,40.6\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"98.8\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">f</text></svg></span><p>A. Startvärde 50 och funktionen ökar.<br>B. Startvärde 50 och funktionen minskar.<br>C. Startvärde 100 och funktionen ökar.<br>D. Startvärde 100 och funktionen minskar.</p>",
+    "s": "<p>Startvärdet läses av där (x=0): <strong>50</strong>. Grafen stiger när x ökar, så funktionen <strong>ökar</strong>.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Digital grafanalys",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>"
+    "ledtrad": "<p>Startvärdet är grafens y-värde vid x=0. Följ sedan grafen åt höger.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.81",
@@ -67937,7 +68778,7 @@ window.BANKMA1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skärningarna ligger vid ungefär <strong>\\(x=11,22\\)</strong> och <strong>\\(x=29,43\\)</strong>.</p><p>Det första fönstret visar bara den första. <strong>Ett olämpligt graffönster kan dölja lösningar.</strong></p></div></div>",
     "familj": "Digital grafanalys",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -67947,7 +68788,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vilka matematiska eller fysikaliska egenskaper som faktiskt skiljer alternativen åt. Motivera slutsatsen med ett relevant samband, en grafegenskap eller en beräkning.</p>"
+    "ledtrad": "<p>Ett graffönster kan dölja lösningar. Utvidga x-intervallet till 40 och sök efter alla skärningar, inte bara den första.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.82",
@@ -67961,18 +68805,21 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Läs av ungefär var graferna \\(y=10-2x\\) och \\(y=x+1\\) skär varandra.</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"115.8\" y1=\"25\" x2=\"115.8\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"115.8\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"176.7\" y1=\"25\" x2=\"176.7\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"176.7\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"298.3\" y1=\"25\" x2=\"298.3\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"298.3\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"359.2\" y1=\"25\" x2=\"359.2\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"359.2\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><line x1=\"55\" y1=\"219.2\" x2=\"420\" y2=\"219.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"222.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"55\" y1=\"180.3\" x2=\"420\" y2=\"180.3\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"183.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"55\" y1=\"102.7\" x2=\"420\" y2=\"102.7\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"105.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"55\" y1=\"63.8\" x2=\"420\" y2=\"63.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"66.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#333\" stroke-width=\"1.6\"/><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,63.8 56.5,64.8 58.0,65.8 59.6,66.7 61.1,67.7 62.6,68.7 64.1,69.7 65.6,70.6 67.2,71.6 68.7,72.6 70.2,73.5 71.7,74.5 73.2,75.5 74.8,76.5 76.3,77.4 77.8,78.4 79.3,79.4 80.9,80.3 82.4,81.3 83.9,82.3 85.4,83.2 86.9,84.2 88.5,85.2 90.0,86.2 91.5,87.1 93.0,88.1 94.5,89.1 96.1,90.0 97.6,91.0 99.1,92.0 100.6,93.0 102.1,93.9 103.7,94.9 105.2,95.9 106.7,96.8 108.2,97.8 109.8,98.8 111.3,99.8 112.8,100.7 114.3,101.7 115.8,102.7 117.4,103.6 118.9,104.6 120.4,105.6 121.9,106.6 123.4,107.5 125.0,108.5 126.5,109.5 128.0,110.4 129.5,111.4 131.0,112.4 132.6,113.3 134.1,114.3 135.6,115.3 137.1,116.3 138.6,117.2 140.2,118.2 141.7,119.2 143.2,120.1 144.7,121.1 146.2,122.1 147.8,123.1 149.3,124.0 150.8,125.0 152.3,126.0 153.9,126.9 155.4,127.9 156.9,128.9 158.4,129.9 159.9,130.8 161.5,131.8 163.0,132.8 164.5,133.7 166.0,134.7 167.5,135.7 169.1,136.6 170.6,137.6 172.1,138.6 173.6,139.6 175.1,140.5 176.7,141.5 178.2,142.5 179.7,143.4 181.2,144.4 182.8,145.4 184.3,146.4 185.8,147.3 187.3,148.3 188.8,149.3 190.4,150.2 191.9,151.2 193.4,152.2 194.9,153.1 196.4,154.1 198.0,155.1 199.5,156.1 201.0,157.0 202.5,158.0 204.0,159.0 205.6,159.9 207.1,160.9 208.6,161.9 210.1,162.9 211.6,163.8 213.2,164.8 214.7,165.8 216.2,166.7 217.7,167.7 219.2,168.7 220.8,169.7 222.3,170.6 223.8,171.6 225.3,172.6 226.9,173.5 228.4,174.5 229.9,175.5 231.4,176.5 232.9,177.4 234.5,178.4 236.0,179.4 237.5,180.3 239.0,181.3 240.5,182.3 242.1,183.2 243.6,184.2 245.1,185.2 246.6,186.2 248.1,187.1 249.7,188.1 251.2,189.1 252.7,190.0 254.2,191.0 255.7,192.0 257.3,193.0 258.8,193.9 260.3,194.9 261.8,195.9 263.4,196.8 264.9,197.8 266.4,198.8 267.9,199.8 269.4,200.7 271.0,201.7 272.5,202.7 274.0,203.6 275.5,204.6 277.0,205.6 278.6,206.5 280.1,207.5 281.6,208.5 283.1,209.5 284.6,210.4 286.2,211.4 287.7,212.4 289.2,213.3 290.7,214.3 292.2,215.3 293.8,216.3 295.3,217.2 296.8,218.2 298.3,219.2 299.9,220.1 301.4,221.1 302.9,222.1 304.4,223.0 305.9,224.0 307.5,225.0 309.0,226.0 310.5,226.9 312.0,227.9 313.5,228.9 315.1,229.8 316.6,230.8 318.1,231.8 319.6,232.8 321.1,233.7 322.7,234.7 324.2,235.7 325.7,236.6 327.2,237.6 328.8,238.6 330.3,239.6 331.8,240.5 333.3,241.5 334.8,242.5 336.4,243.4 337.9,244.4 339.4,245.4 340.9,246.4 342.4,247.3 344.0,248.3 345.5,249.3 347.0,250.2 348.5,251.2 350.0,252.2 351.6,253.1 353.1,254.1 354.6,255.1 356.1,256.1 357.6,257.0 359.2,258.0 360.7,259.0 362.2,259.9 363.7,260.9 365.2,261.9 366.8,262.9 368.3,263.8 369.8,264.8 371.3,265.8 372.9,266.7 374.4,267.7 375.9,268.7 377.4,269.6 378.9,270.6 380.5,271.6 382.0,272.6 383.5,273.5 385.0,274.5 386.5,275.5 388.1,276.4 389.6,277.4 391.1,278.4 392.6,279.4 394.1,280.3 395.7,281.3 397.2,282.3 398.7,283.2 400.2,284.2 401.8,285.2 403.3,286.2 404.8,287.1 406.3,288.1 407.8,289.1 409.4,290.0 410.9,291.0 412.4,292.0 413.9,293.0 415.4,293.9 417.0,294.9 418.5,295.9 420.0,296.8\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"216.3\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">f</text><polyline points=\"55.0,238.6 56.5,238.1 58.0,237.6 59.6,237.1 61.1,236.6 62.6,236.2 64.1,235.7 65.6,235.2 67.2,234.7 68.7,234.2 70.2,233.7 71.7,233.2 73.2,232.8 74.8,232.3 76.3,231.8 77.8,231.3 79.3,230.8 80.9,230.3 82.4,229.8 83.9,229.4 85.4,228.9 86.9,228.4 88.5,227.9 90.0,227.4 91.5,226.9 93.0,226.4 94.5,226.0 96.1,225.5 97.6,225.0 99.1,224.5 100.6,224.0 102.1,223.5 103.7,223.0 105.2,222.6 106.7,222.1 108.2,221.6 109.8,221.1 111.3,220.6 112.8,220.1 114.3,219.7 115.8,219.2 117.4,218.7 118.9,218.2 120.4,217.7 121.9,217.2 123.4,216.7 125.0,216.3 126.5,215.8 128.0,215.3 129.5,214.8 131.0,214.3 132.6,213.8 134.1,213.3 135.6,212.9 137.1,212.4 138.6,211.9 140.2,211.4 141.7,210.9 143.2,210.4 144.7,209.9 146.2,209.5 147.8,209.0 149.3,208.5 150.8,208.0 152.3,207.5 153.9,207.0 155.4,206.5 156.9,206.1 158.4,205.6 159.9,205.1 161.5,204.6 163.0,204.1 164.5,203.6 166.0,203.1 167.5,202.7 169.1,202.2 170.6,201.7 172.1,201.2 173.6,200.7 175.1,200.2 176.7,199.8 178.2,199.3 179.7,198.8 181.2,198.3 182.8,197.8 184.3,197.3 185.8,196.8 187.3,196.4 188.8,195.9 190.4,195.4 191.9,194.9 193.4,194.4 194.9,193.9 196.4,193.4 198.0,193.0 199.5,192.5 201.0,192.0 202.5,191.5 204.0,191.0 205.6,190.5 207.1,190.0 208.6,189.6 210.1,189.1 211.6,188.6 213.2,188.1 214.7,187.6 216.2,187.1 217.7,186.6 219.2,186.2 220.8,185.7 222.3,185.2 223.8,184.7 225.3,184.2 226.9,183.7 228.4,183.2 229.9,182.8 231.4,182.3 232.9,181.8 234.5,181.3 236.0,180.8 237.5,180.3 239.0,179.8 240.5,179.4 242.1,178.9 243.6,178.4 245.1,177.9 246.6,177.4 248.1,176.9 249.7,176.5 251.2,176.0 252.7,175.5 254.2,175.0 255.7,174.5 257.3,174.0 258.8,173.5 260.3,173.1 261.8,172.6 263.4,172.1 264.9,171.6 266.4,171.1 267.9,170.6 269.4,170.1 271.0,169.7 272.5,169.2 274.0,168.7 275.5,168.2 277.0,167.7 278.6,167.2 280.1,166.7 281.6,166.3 283.1,165.8 284.6,165.3 286.2,164.8 287.7,164.3 289.2,163.8 290.7,163.3 292.2,162.9 293.8,162.4 295.3,161.9 296.8,161.4 298.3,160.9 299.9,160.4 301.4,159.9 302.9,159.5 304.4,159.0 305.9,158.5 307.5,158.0 309.0,157.5 310.5,157.0 312.0,156.5 313.5,156.1 315.1,155.6 316.6,155.1 318.1,154.6 319.6,154.1 321.1,153.6 322.7,153.1 324.2,152.7 325.7,152.2 327.2,151.7 328.8,151.2 330.3,150.7 331.8,150.2 333.3,149.8 334.8,149.3 336.4,148.8 337.9,148.3 339.4,147.8 340.9,147.3 342.4,146.8 344.0,146.4 345.5,145.9 347.0,145.4 348.5,144.9 350.0,144.4 351.6,143.9 353.1,143.4 354.6,143.0 356.1,142.5 357.6,142.0 359.2,141.5 360.7,141.0 362.2,140.5 363.7,140.0 365.2,139.6 366.8,139.1 368.3,138.6 369.8,138.1 371.3,137.6 372.9,137.1 374.4,136.6 375.9,136.2 377.4,135.7 378.9,135.2 380.5,134.7 382.0,134.2 383.5,133.7 385.0,133.2 386.5,132.8 388.1,132.3 389.6,131.8 391.1,131.3 392.6,130.8 394.1,130.3 395.7,129.9 397.2,129.4 398.7,128.9 400.2,128.4 401.8,127.9 403.3,127.4 404.8,126.9 406.3,126.5 407.8,126.0 409.4,125.5 410.9,125.0 412.4,124.5 413.9,124.0 415.4,123.5 417.0,123.1 418.5,122.6 420.0,122.1\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"144.0\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">g</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p><p><strong>Svar:</strong> <strong>\\((3,4)\\)</strong></p></div></div>",
+    "s": "<p>Graferna skär varandra vid ungefär <strong>(3,4)</strong>. Algebraisk kontroll: (10-2·3=4) och (3+1=4).</p>",
     "familj": "Digital grafanalys",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(3.4)",
+    "svarstyp": "punkt",
+    "rättSvar": "(3,4)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Rita de aktuella graferna med ett digitalt verktyg. Välj ett \\(x\\)-intervall och en skala som gör att de delar av graferna som behövs syns tydligt.</p>"
+    "ledtrad": "<p>Läs både x- och y-koordinaten för punkten där linjerna möts.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.83",
@@ -67997,7 +68844,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>De 120 detaljerna finns redan vid \\(t=0\\), så de är startvärdet. Därefter tillkommer 35 detaljer per timme.</p>"
+    "ledtrad": "<p>120 är antalet vid (t=0), och 35 detaljer tillkommer för varje timme.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.84",
@@ -68011,7 +68861,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En maskins produktion under de fyra första dagarna är ungefär</p><table class='data'><tr><th>dag</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>antal</th><td>200</td><td>216</td><td>233</td><td>252</td></tr></table><p>En elev väljer en linjär modell genom första och sista punkten. En annan väljer \\(E(t)=200\\cdot1,08^t\\).</p><p>a) Bestäm den linjära modellen.<br>b) Jämför prognoserna för dag 10.<br>c) Bestäm den första hela dagen då modellerna skiljer sig med minst 100 enheter.<br>d) Vilken ytterligare information behövs innan man väljer modell för långsiktiga prognoser?</p>",
-    "s": "<p>a) \\(k=(252-200)/3\\approx17,33\\), alltså <strong>\\(L(t)\\approx200+17,33t\\)</strong>.</p><p>b) \\(L(10)\\approx373\\), medan \\(E(10)\\approx\\)<strong>432</strong>.</p><p>c) Vid dag 12 är skillnaden mindre än 100, men vid dag 13 är \\(L(13)\\approx425\\) och \\(E(13)\\approx544\\), en skillnad på cirka 119. <strong>Första hela dagen är dag 13.</strong></p><p>d) Man behöver längre tidsserie och kunskap om processen och kapacitetsgränser. <strong>De första fyra punkterna räcker inte för säker prognos långt utanför de fyra mätningarna.</strong></p>",
+    "s": "<p>a) Linjen genom ((0,200)) och ((3,252)) har lutning (52/3), så (L(t)=200+\frac{52}{3}t).</p><p>b) (L(10)approx373,3), medan (E(10)=200cdot1,08^{10}approx431,8).</p><p>c) Första hela dagen då skillnaden är minst 100 är <strong>dag 13</strong>: (L(13)approx425,3) och (E(13)approx543,9).</p><p>d) För långsiktigt modellval behövs fler mätningar över längre tid och kunskap om processen: finns kapacitetsgränser, råvarubegränsningar eller skift som gör konstant procentuell tillväxt orimlig?</p>",
     "familj": "Skapa och använda matematiska modeller",
     "geogebra": false,
     "miniräknare": true,
@@ -68024,7 +68874,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
+    "ledtrad": "<p>Bestäm först den linjära modellens lutning från dag 0 till 3. Jämför sedan modellerna numeriskt och var särskilt försiktig med extrapolation långt utanför mätintervallet.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.85",
@@ -68049,7 +68902,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
+    "ledtrad": "<p>18 % ökning per timme motsvarar förändringsfaktorn 1,18.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.86",
@@ -68062,21 +68918,38 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En population är 500 vid \\(t=0\\) och 605 vid \\(t=2\\). Anta en exponentiell modell med samma procentuella förändring varje tidsenhet. Bestäm modellen och populationen vid \\(t=5\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> På två steg är faktorn \\(\\frac{605}{500}=1,21\\). Per steg blir \\(\\sqrt{1,21}=1,10\\).</p><p><strong>\\(P(t)=500\\cdot1,10^t\\)</strong>.</p><p>\\(P(5)\\approx\\)<strong>805</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>En population är 500 vid (t=0) och 605 vid (t=2). Anta en exponentiell modell med samma procentuella förändring varje tidsenhet.</p><p>a) Bestäm modellen (P(t)).<br>b) Bestäm populationen vid (t=5), avrundat till närmaste heltal.</p>",
+    "s": "<p>På två tidssteg är faktorn (605/500=1,21), så faktorn per steg är (sqrt{1,21}=1,10).</p><p>Alltså (P(t)=500cdot1,10^t).</p><p>(P(5)=500cdot1,10^5approx805).</p>",
     "familj": "Skapa och använda matematiska modeller",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "modellering",
-      "resonemang"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "P(t)=500*1.1^t",
+      805
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "tolerans": [
+      null,
+      1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>605/500 är förändringsfaktorn över två steg. Vilken faktor multiplicerad med sig själv ger 1,21?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "modell",
+      "P(5)"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "6.87",
@@ -68101,7 +68974,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Startavgiften 75 kr betalas även när \\(x=0\\). Varje körd kilometer lägger sedan till 14 kr.</p>"
+    "ledtrad": "<p>Kostnaden består av en fast del på 75 kr och en rörlig del på 14 kr per kilometer.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.88",
@@ -68115,10 +68991,10 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>En rektangulär hage byggs mot en lång rak vägg. Endast tre sidor behöver stängsel och totalt finns 40 m stängsel. Låt de två korta sidorna vara \\(x\\) meter.</p><span class=\"fig\"><svg width=\"420\" height=\"235\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"rektangulär hage mot vägg\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#333\" stroke-width=\"4\"/><line x1=\"105\" y1=\"55\" x2=\"105\" y2=\"185\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"105\" y1=\"185\" x2=\"315\" y2=\"185\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"315\" y1=\"185\" x2=\"315\" y2=\"55\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"210\" y=\"210\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">40 - 2x</text><text x=\"88\" y=\"125\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"12\">x</text><text x=\"365\" y=\"48\" font-family=\"monospace\" font-size=\"11\">vägg</text></svg></span><p>a) Visa att arean kan modelleras med \\(A(x)=x(40-2x)\\) och ange en rimlig definitionsmängd.<br>b) Använd digital grafritning för att bestämma alla bredder som ger en area på minst 150 m².</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>a) Den tredje sidan blir \\(40-2x\\), så \\(A=x(40-2x)\\). För positiva sidlängder gäller <strong>\\(0&lt;x&lt;20\\)</strong>.</p><p>b) Gränserna fås när \\(x(40-2x)=150\\), vilket ger \\(x=5\\) och \\(x=15\\). Grafen ligger på eller över nivån 150 mellan de två gränsvärdena.</p><p><strong>Svar:</strong> <strong>\\(5\\le x\\le15\\) m.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p>a) Två sidor är (x), så den tredje stängselsidan är (40-2x). Arean blir (A(x)=x(40-2x)). För positiva sidlängder gäller (0&lt;x&lt;20).</p><p>b) Kravet (x(40-2x)ge150) har gränsvärden vid (x=5) och (x=15). Parabeln ligger över 150 mellan rötterna.</p><p><strong>Svar:</strong> (5le xle15) meter.</p>",
     "familj": "Skapa och använda matematiska modeller",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -68129,7 +69005,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>a) Den tredje sidan blir \\(40-2x\\), så \\(A=x(40-2x)\\). För positiva sidlängder gäller \\(0&lt;x&lt;20\\).</p>"
+    "ledtrad": "<p>Uttryck först den långa sidan med hjälp av de 40 meterna stängsel. I grafen söker du intervallet där areakurvan ligger på eller över 150.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.89",
@@ -68142,21 +69021,38 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En planta är 18 cm hög efter 2 dagar och 42 cm efter 8 dagar. Anta linjär tillväxt. Bestäm en modell och uppskatta höjden efter 15 dagar.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>\\(k=(42-18)/(8-2)=4\\). Med \\(18=4\\cdot2+m\\) fås \\(m=10\\).</p><p><strong>\\(H(t)=4t+10\\)</strong>. Efter 15 dagar: <strong>70 cm</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "t": "<p>En planta är 18 cm hög efter 2 dagar och 42 cm efter 8 dagar. Anta linjär tillväxt.</p><p>a) Bestäm en modell (H(t)).<br>b) Uppskatta höjden efter 15 dagar.</p>",
+    "s": "<p>Lutningen är ((42-18)/(8-2)=4) cm/dag. Sätt in (t=2): (18=4cdot2+m), så (m=10).</p><p>Alltså (H(t)=4t+10). Då (H(15)=70).</p>",
     "familj": "Skapa och använda matematiska modeller",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "modellering",
-      "resonemang"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "H(t)=4t+10",
+      70
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "tolerans": [
+      null,
+      1e-9
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först förändringen per dag från de två punkterna. Använd sedan en av punkterna för att hitta startvärdet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "modell",
+      "H(15)"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "6.90",
@@ -68181,7 +69077,10 @@ window.BANKMA1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>a) Följ ytterkanten: den totala horisontella längden är \\(4a\\) och den vertikala \\(4b\\), alltså \\(O=4a+4b\\).</p>"
+    "ledtrad": "<p>Om omkretsen är 32 gäller (4a+4b=32), alltså (a+b=8). Lista positiva heltalspar och jämför arean för L-figuren.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.91",
@@ -68193,7 +69092,7 @@ window.BANKMA1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Ett mobilabonnemang kostar 129 kr per månad plus 0,60 kr per extra minut. Skriv en matematisk modell för månadskostnaden \\(K(x)\\) när \\(x\\) extra minuter används.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>129 kr är den fasta månadsavgiften. De extra minuterna kostar \\(0{,}60x\\) kronor.</p><p><strong>Svar:</strong> \\(K(x)=129+0{,}60x\\).</p></div></div>",
     "familj": "Skapa och använda matematiska modeller",
@@ -68206,7 +69105,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>129 kr är den fasta månadsavgiften. De extra minuterna kostar \\(0{,}60x\\) kronor.</p>"
+    "ledtrad": "<p>129 kr är den fasta kostnaden. Den rörliga delen är 0,60 gånger antalet extra minuter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.92",
@@ -68232,7 +69134,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "ledtrad": "<p>Vita kuber följer kvadrattalen. Grå följer skillnaderna 1, 2, 3, … och kan beskrivas med ett triangeluttryck.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.93",
@@ -68258,7 +69163,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
+    "ledtrad": "<p>90 % är korrekt som andel, men fråga hur stabilt ett resultat från bara 20 personer är och vilken information om urvalet som saknas.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.94",
@@ -68271,20 +69179,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Andelen som svarar ja ökar från 20 % till 25 %. En rubrik säger: ”Ökning med 5 %.” Vad är problemet?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Andelen har ökat med <strong>5 procentenheter</strong>. Den relativa ökningen är \\((25-20)/20=25\\%\\).</p></div></div>",
+    "t": "<p>Andelen som svarar ja ökar från 20 % till 25 %. En rubrik säger: ”Ökning med 5 %.” Vilken formulering är mest korrekt?</p><p>A. Andelen ökade med 5 procentenheter, vilket motsvarar en relativ ökning på 25 %.<br>B. Andelen ökade med exakt 5 % relativt, eftersom 25−20=5.<br>C. Andelen ökade med 25 procentenheter och 5 % relativt.<br>D. Ingen ökning skedde eftersom båda talen är procenttal.</p>",
+    "s": "<p>Skillnaden är 25−20=5 <strong>procentenheter</strong>. Relativt utgångsvärdet 20 % är ökningen (5/20=25%).</p><p><strong>Svar: A.</strong></p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Skillnad mellan två procenttal mäts i procentenheter. Relativ procentuell ökning dividerar förändringen med startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.95",
@@ -68310,7 +69221,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Ökningen är bara 20 av 1 000, alltså 2 %. Den avklippta axeln visar däremot bara intervallet 980–1 030.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.96",
@@ -68336,7 +69250,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>a) Program 1: X 90 %, Y 85 %. Program 2: X 80 %, Y 70 %.</p>"
+    "ledtrad": "<p>Räkna först godkända andelar inom program 1 och program 2. Summera sedan godkända och antal elever per skola. Lägg märke till att skolorna har olika många elever i programmen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.97",
@@ -68350,7 +69267,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Sex elever får först poängen 5, 6, 6, 7, 7, 8. Vid nästa mätning är poängen 5, 6, 6, 7, 7, 20. En lärare säger: ”Gruppens typiska resultat har förbättrats tydligt eftersom medelvärdet har ökat.” Granska slutsatsen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera vilken statistisk storhet som frågan gäller och vad den betyder i sammanhanget. Beräkna först, men avsluta med en tolkning med ord.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Medelvärdet ökar kraftigt på grund av värdet 20. Medianen är däremot 6,5 i båda mätningarna.</p><p><strong>Svar:</strong> <strong>Det finns därför inte stöd för att säga att det typiska resultatet för hela gruppen tydligt har förbättrats.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att sannolikheter ligger mellan 0 och 1 och att spridningsmått inte kan vara negativa.</p></div>",
+    "s": "<p>Före: medelvärdet är (39/6=6,5), medianen (6,5). Efter: medelvärdet blir (51/6=8,5), men medianen är fortfarande (6,5). Ökningen i medelvärdet drivs helt av det avvikande värdet 20.</p><p><strong>Slutsats:</strong> Det är missvisande att säga att gruppens typiska resultat tydligt förbättrats utan att diskutera spridningen och avvikaren.</p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
@@ -68362,7 +69279,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Jämför både medelvärde och median före och efter. Vilka av de sex elevernas resultat ändrades egentligen?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.98",
@@ -68375,20 +69295,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett pris höjs med 50 % och sänks sedan med 50 %. En elev säger att priset då är tillbaka på ursprungspriset. Kontrollera.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Utgå från 100 kr: \\(100\\cdot1,5\\cdot0,5=75\\) kr.</p><p><strong>Svar:</strong> <strong>Påståendet är fel; priset är 25 % lägre.</strong></p></div></div>",
+    "t": "<p>Ett pris höjs med 50 % och sänks sedan med 50 %. Hur stort är slutpriset som andel av ursprungspriset?</p>",
+    "s": "<p>Förändringsfaktorerna är (1,5) och (0,5). Produkten är (1,5cdot0,5=0,75).</p><p><strong>Svar: 75 % av ursprungspriset.</strong></p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 0.01,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Använd ett startpris på 100 kr eller multiplicera förändringsfaktorerna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.99",
@@ -68401,20 +69324,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett områdes genomsnittliga elanvändning per hushåll minskar med 10 %. Samtidigt ökar antalet hushåll med 20 %. En politiker säger: ”Då har områdets totala elanvändning minskat.” Undersök påståendet.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Total faktor: \\(0,90\\cdot1,20=1,08\\).</p><p><strong>Svar:</strong> <strong>Den totala användningen ökar i stället med 8 %.</strong></p></div></div>",
+    "t": "<p>Ett områdes genomsnittliga elanvändning per hushåll minskar med 10 %, samtidigt som antalet hushåll ökar med 20 %. Hur förändras områdets totala elanvändning, om dessa är de enda förändringarna?</p><p>A. Den minskar med 10 %.<br>B. Den minskar med 8 %.<br>C. Den ökar med 8 %.<br>D. Den ökar med 10 %.</p>",
+    "s": "<p>Total användning är ”antal hushåll × användning per hushåll”. Förändringsfaktorn blir (1,20cdot0,90=1,08).</p><p><strong>Svar: C – totalen ökar med 8 %.</strong></p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "problemlösning",
+      "modellering"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Multiplicera förändringen i antal hushåll med förändringen per hushåll.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.100",
@@ -68440,7 +69366,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Ett medelvärde beskriver total summa delad med antal personer. Det säger inte hur tätt lönerna ligger kring medelvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.101",
@@ -68466,7 +69395,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>Räkna de två förändringarna i ordning från 200 kr. Den andra procenten räknas på 260 kr, inte på 200 kr.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.102",
@@ -68480,7 +69412,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/3",
     "t": "<p>I en kommun minskar den genomsnittliga energianvändningen per hushåll med 15 %, men antalet hushåll ökar med 25 %.</p><p>a) Hur förändras total energianvändning?<br>b) Kommunen vill att total användning ska vara 10 % lägre än från början trots 25 % fler hushåll. Hur stor minskning per hushåll krävs?<br>c) Förklara varför ett påstående om ”15 % lägre energianvändning” måste ange om det gäller per hushåll eller totalt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>a) \\(0,85\\cdot1,25=1,0625\\): <strong>totalen ökar med 6,25 %.</strong></p><p>b) \\(1,25q=0,90\\Rightarrow q=0,72\\). Det krävs <strong>28 % minskning per hushåll</strong>.</p><p>c) Per-hushållsmått och totalmått är olika när antalet hushåll förändras. Utan den informationen kan procentsiffran bli missvisande.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>a) Totalfaktorn är (0,85cdot1,25=1,0625), alltså <strong>6,25 % ökning</strong>.</p><p>b) Låt faktorn per hushåll vara (q). Kravet (1,25q=0,90) ger (q=0,72), alltså <strong>28 % minskning per hushåll</strong>.</p><p>c) Ett procenttal måste kopplas till rätt referensstorhet. ”15 % lägre per hushåll” kan samtidigt ge högre total användning om antalet hushåll ökar tillräckligt mycket.</p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
@@ -68495,11 +69427,7 @@ window.BANKMA1 = [
       0.1,
       null
     ],
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
+    "självrättning": false,
     "formaga": [
       "begrepp",
       "resonemang"
@@ -68515,7 +69443,10 @@ window.BANKMA1 = [
       "procent",
       null
     ],
-    "ledtrad": "<p>Kontrollera axlarnas skalor, startvärden och vad som faktiskt mäts innan du tolkar grafen. Skilj mellan en visuell effekt och en matematisk förändring, och dra inte en starkare slutsats än data stödjer.</p>"
+    "ledtrad": "<p>I a) multiplicerar du faktorn för antal hushåll med faktorn per hushåll. I b) ska deras produkt bli 0,90.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.103",
@@ -68541,7 +69472,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Skillnaden är 14 kg. Procenttalet ska beräknas i förhållande till det första alternativets 42 kg.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.104",
@@ -68552,10 +69486,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En arbetsplats jämför två pendlingsalternativ under 220 arbetsdagar.</p><p>A ger 2,4 kg utsläpp per dag.<br>B ger 0,9 kg per dag men kräver dessutom en engångsinsats som motsvarar 180 kg utsläpp.</p><p>Vilket alternativ ger minst utsläpp under det första året?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> A: \\(2,4\\cdot220=528\\) kg.</p><p>B: \\(0,9\\cdot220+180=378\\) kg.</p><p><strong>Svar:</strong> <strong>B ger 150 kg mindre utsläpp första året.</strong></p></div></div>",
+    "s": "<p>A: (2,4·220=528) kg.</p><p>B: (0,9·220+180=378) kg.</p><p><strong>Alternativ B</strong> ger minst utsläpp, 150 kg mindre det första året.</p>",
     "familj": "Hållbarhetsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -68567,7 +69501,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vilken resurs, energi- eller utsläppsmängd som jämförs och uttryck båda alternativen i samma enhet. Beräkna både absolut skillnad och relativ förändring om det hjälper tolkningen.</p>"
+    "ledtrad": "<p>För B måste du lägga ihop den löpande mängden och engångsinsatsen innan du jämför.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.105",
@@ -68593,7 +69530,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.106",
@@ -68607,7 +69547,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En region vill att de totala utsläppen om 8 år ska vara 25 % lägre än idag. Samtidigt väntas befolkningen öka med 1,5 % per år.</p><p>Anta att utsläppen per person minskar med samma procent varje år.</p><p>Hur stor årlig procentuell minskning per person krävs för att regionens totala mål ska nås? Använd digitalt verktyg.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Låt den årliga faktorn för utsläpp per person vara \\(q\\), Total faktor efter 8 år blir \\((1,015q)^8\\),</p><p>\\((1,015q)^8=0,75\\Rightarrow q=0,75^{\\frac{1}{8}}/1,015\\approx0,95042\\),</p><p>Det motsvarar en årlig minskning på <strong>cirka 4,96 % per person</strong>,</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Låt q vara den årliga faktorn för utsläpp per person. Befolkningen får faktor 1,015 per år, så total utsläppsfaktor per år blir (1,015q).</p><p>Målet ger ((1,015q)^8=0,75), alltså (q=0,75^{1/8}/1,015≈0,95042).</p><p>Per person krävs därför en årlig minskning på cirka <strong>4,96 %</strong>.</p>",
     "familj": "Hållbarhetsberäkningar",
     "geogebra": true,
     "miniräknare": true,
@@ -68618,7 +69558,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Identifiera vilken resurs, energi- eller utsläppsmängd som jämförs och uttryck båda alternativen i samma enhet. Beräkna både absolut skillnad och relativ förändring om det hjälper tolkningen.</p>"
+    "ledtrad": "<p>Totalutsläpp = befolkning · utsläpp per person. Bygg därför en gemensam årlig förändringsfaktor och låt dess åttonde potens bli 0,75.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "6.107",
@@ -68643,7 +69586,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.108",
@@ -68657,7 +69603,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Den genomsnittliga elanvändningen per hushåll minskar med 12 %, samtidigt som antalet hushåll ökar med 10 %.</p><p>Hur förändras den totala elanvändningen om inget annat ändras?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p><p>Total förändringsfaktor är \\(0,88\\cdot1,10=0,968\\),</p><p><strong>Svar:</strong> <strong>Den totala elanvändningen minskar med 3,2 %,</strong></p>",
+    "s": "<p>Total användning påverkas av båda förändringarna: (0,88·1,10=0,968). Det betyder att 96,8 % återstår.</p><p>Den totala elanvändningen <strong>minskar med 3,2 %</strong>.</p>",
     "familj": "Hållbarhetsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -68668,7 +69614,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Du kan inte lägga ihop −12 % och +10 %. Multiplicera i stället förändringsfaktorerna.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.109",
@@ -68693,7 +69642,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.110",
@@ -68707,7 +69659,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En verksamhet har 80 ton avfall per år och återvinner 45 % av det. Nästa år minskar den totala mängden avfall med 10 %, samtidigt som mängden återvunnet avfall ökar med 20 %.</p><p>Hur stor andel av avfallet återvinns då?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p><p>Först återvinns 36 ton, Nästa år återvinns 43,2 ton och total mängd är 72 ton,</p><p>\\(\\frac{43,2}{72}=\\)<strong>60,0 %</strong>,</p>",
+    "s": "<p>Först återvinns (0,45·80=36) ton. Nästa år blir den återvunna mängden (36·1,20=43,2) ton och total avfallsmängd (80·0,90=72) ton.</p><p>Andelen är (43,2/72=)<strong>60 %</strong>.</p>",
     "familj": "Hållbarhetsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -68718,7 +69670,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Här förändras både täljaren (återvunnen mängd) och nämnaren (total mängd). Beräkna dem var för sig först.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.111",
@@ -68743,7 +69698,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.112",
@@ -68757,18 +69715,36 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En verksamhets utsläpp är 1 200 ton per år och fördelas så här:</p><p>el 50 %, transporter 30 %, uppvärmning 20 %.</p><p>Planerade åtgärder minskar elutsläppen med 25 %, transportutsläppen med 40 % och uppvärmningsutsläppen med 10 %.</p><span class=\"fig\"><svg width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"stapeldiagram över utsläpp\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"80\" y=\"52.8\" width=\"65\" height=\"152.2\" fill=\"#F4F2EF\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"112.5\" y=\"45.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">600</text><text x=\"112.5\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">el</text><rect x=\"180\" y=\"113.7\" width=\"65\" height=\"91.3\" fill=\"#F4F2EF\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"212.5\" y=\"106.7\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">360</text><text x=\"212.5\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">transport</text><rect x=\"280\" y=\"144.1\" width=\"65\" height=\"60.9\" fill=\"#F4F2EF\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"312.5\" y=\"137.1\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">240</text><text x=\"312.5\" y=\"225\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"10\">värme</text><line x1=\"55\" y1=\"205\" x2=\"415\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"1.7\"/></svg></span><p>a) Når verksamheten målet att minska de totala utsläppen med 30 %?<br>b) Om bara uppvärmningen kan förbättras ytterligare, hur många procent av de <em>återstående</em> uppvärmningsutsläppen måste då tas bort för att precis nå målet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Efter åtgärder: el 450, transport 216 och uppvärmning 216 ton, Totalt <strong>882 ton</strong>, vilket är en minskning på <strong>26,5 %</strong>, Målet nås alltså inte,</p><p>30 % minskning betyder högst 840 ton, Det saknas 42 ton, Av återstående 216 ton uppvärmning är det \\(\\frac{42}{216}\\approx\\)<strong>19,4 %</strong>,</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Ursprungligen: el 600 ton, transporter 360 ton, uppvärmning 240 ton.</p><p>Efter åtgärder: 450 + 216 + 216 = <strong>882 ton</strong>. Det är 318 ton mindre, alltså <strong>26,5 %</strong>. Målet 30 % nås därför <strong>inte</strong>.</p><p>30 % minskning kräver högst 840 ton. Ytterligare 42 ton måste bort. Av kvarvarande 216 ton uppvärmningsutsläpp är (42/216≈)<strong>19,4 %</strong>.</p>",
     "familj": "Hållbarhetsberäkningar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      "nej",
+      19.4
+    ],
+    "tolerans": [
+      null,
+      0.1
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Identifiera vilken resurs, energi- eller utsläppsmängd som jämförs och uttryck båda alternativen i samma enhet. Beräkna både absolut skillnad och relativ förändring om det hjälper tolkningen.</p>"
+    "ledtrad": "<p>Översätt först varje procentandel till ton. Jämför sedan totalsumman med 70 % av 1 200 ton.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) når 30 %-målet?",
+      "b) ytterligare minskning av återstående uppvärmning (%)"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ]
   },
   {
     "id": "6.113",
@@ -68794,7 +69770,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.114",
@@ -68808,7 +69787,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>120 personer har i genomsnitt 18 minuters restid till en servicepunkt. 80 personer har i genomsnitt 32 minuter.</p><p>Bestäm den genomsnittliga restiden för alla 200 personer.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p><p>Viktat medelvärde: \\((120\\cdot18+80\\cdot32)/200=\\)<strong>23,6 minuter</strong>,</p>",
+    "s": "<p>Det är ett viktat medelvärde:</p><p>((120·18+80·32)/200=)<strong>23,6 minuter</strong>.</p>",
     "familj": "Samhällsdata och samhällsekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -68820,7 +69799,10 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Grupperna är olika stora. Summera därför deras totala restid innan du dividerar med alla 200 personer.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.115",
@@ -68845,7 +69827,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.116",
@@ -68859,7 +69844,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En kommun har 30 000 invånare och befolkningen modelleras med 1,8 % årlig ökning.</p><p>Efter hur många hela år är befolkningen enligt modellen för första gången större än 35 000? Använd digitalt verktyg.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p><p>\\(30\\,000\\cdot1,018^t=35\\,000\\) ger \\(t\\approx8,64\\),</p><p>Alltså är befolkningen första gången över gränsen efter <strong>9 hela år</strong>,</p>",
+    "s": "<p>Lös (30000·1,018^t=35000): (t≈8,64). Vid hela år passeras gränsen därför första gången efter <strong>9 år</strong>.</p>",
     "familj": "Samhällsdata och samhällsekonomiska beräkningar",
     "geogebra": true,
     "miniräknare": true,
@@ -68871,7 +69856,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Den digitala lösningen ligger mellan år 8 och 9. Frågan gäller första hela år då värdet är större än gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.117",
@@ -68897,7 +69885,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.118",
@@ -68923,7 +69914,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Bygg totalbefolkningen som summan av två separata exponentialmodeller, en för varje område. Sök sedan när summan passerar 45 000. Förklaringsdelen handlar om varför två olika förändringsfaktorer inte kan ersättas av en av dem för hela kommunen.</p>"
+    "ledtrad": "<p>Bygg totalen som summan av två exponentialmodeller. En enda procentsats kan bara användas på hela summan om båda delarna har samma relativa förändring.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.119",
@@ -68948,7 +69942,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.120",
@@ -68959,10 +69956,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Enkelbiljett kostar 32 kr. Ett månadskort kostar 690 kr.</p><p>Från hur många enkelresor under en månad blir månadskortet billigare?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p><p>Vi söker \\(32n&gt;690\\). \\(\\frac{690}{32}\\approx21,56\\).</p><p><strong>Från 22 resor</strong> är månadskortet billigare.</p>",
+    "s": "<p>Månadskortet är billigare när (32n>690). Eftersom (690/32≈21,56) måste n vara minst <strong>22 resor</strong>.</p>",
     "familj": "Samhällsdata och samhällsekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": true,
@@ -68974,7 +69971,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Jämför kostnaden (32n) med 690 kr. Eftersom antalet resor är ett heltal behöver du avrunda åt rätt håll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.121",
@@ -68988,7 +69988,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En kommun har 48 000 invånare. Av dem är 18 % minst 65 år. Gruppen 65+ väntas öka med 3,5 % per år medan övriga invånare ökar med 0,5 % per år.</p><p>Efter hur många hela år utgör gruppen 65+ för första gången mer än 22 % av kommunens befolkning? Använd digitalt verktyg och bygg modellen själv.</p>",
-    "s": "<p><strong>Steg 1:</strong> Start: 65+ är \\(0,18\\cdot48\\,000=8640\\), Övriga är 39 360,</p><p>Andelen efter \\(t\\) år är</p><p>\\(\\frac{8640\\cdot1,035^t}{8640\\cdot1,035^t+39360\\cdot1,005^t}\\),</p><p>När denna är 0,22 fås digitalt \\(t\\approx8,52\\),</p><p><strong>Efter 9 hela år</strong> är andelen för första gången över 22 %,</p>",
+    "s": "<p>65+-gruppen är från början 8 640 personer och övriga 39 360. Efter t år är andelen</p><p><strong>8640·1,035^t / (8640·1,035^t + 39360·1,005^t)</strong>.</p><p>Andelen passerar 22 % vid ungefär t=8,52, så första hela året över 22 % är <strong>9 år</strong>.</p>",
     "familj": "Samhällsdata och samhällsekonomiska beräkningar",
     "geogebra": true,
     "miniräknare": true,
@@ -69000,7 +70000,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Dela först startbefolkningen i gruppen 65+ och övriga. Låt grupperna växa med var sin förändringsfaktor och skriv andelen 65+ som \\(\\frac{\\text{65+}}{\\text{hela befolkningen}}\\). Sök sedan första hela året då andelen passerar 22 %.</p>"
+    "ledtrad": "<p>Modellera de två grupperna var för sig. Andelen 65+ är sedan gruppens modell dividerad med summan av båda modellerna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "6.122",
@@ -69026,7 +70029,10 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.123",
@@ -69040,7 +70046,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>En månadsbudget är 24 000 kr. Boende 9 000, mat 3 600, resor 1 800.</p><span class=\"fig\"><svg width=\"470\" height=\"260\" viewBox=\"0 0 470 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"månadsbudget uppdelad i fyra kategorier\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"45\" y=\"35\" font-family=\"monospace\" font-size=\"11\">månadsbudget: 24 000 kr</text><rect x=\"45.0\" y=\"60\" width=\"142.5\" height=\"60\" fill=\"#F5F3F0\" stroke=\"#2B2527\"/><text x=\"116.2\" y=\"96\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">1</text><rect x=\"187.5\" y=\"60\" width=\"57.0\" height=\"60\" fill=\"#F5F3F0\" stroke=\"#2B2527\"/><text x=\"216.0\" y=\"96\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">2</text><rect x=\"244.5\" y=\"60\" width=\"28.5\" height=\"60\" fill=\"#F5F3F0\" stroke=\"#2B2527\"/><text x=\"258.8\" y=\"96\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">3</text><rect x=\"273.0\" y=\"60\" width=\"152.0\" height=\"60\" fill=\"#F5F3F0\" stroke=\"#2B2527\"/><text x=\"349.0\" y=\"96\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">4</text><text x=\"65\" y=\"155\" font-family=\"monospace\" font-size=\"10\">1 = boende: 9 000 kr</text><text x=\"65\" y=\"177\" font-family=\"monospace\" font-size=\"10\">2 = mat: 3 600 kr</text><text x=\"65\" y=\"199\" font-family=\"monospace\" font-size=\"10\">3 = resor: 1 800 kr</text><text x=\"65\" y=\"221\" font-family=\"monospace\" font-size=\"10\">4 = övrigt: 9 600 kr</text></svg></span><p>a) Hur mycket återstår?<br>b) Andel till boende?<br>c) Andel som återstår?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>a) <strong>9600 kr</strong>.<br>b) <strong>37,5 %</strong>.<br>c) <strong>40 %</strong>.</p>",
+    "s": "<p>a) (24000-9000-3600-1800=)<strong>9 600 kr</strong>.</p><p>b) (9000/24000=)<strong>37,5 %</strong>.</p><p>c) (9600/24000=)<strong>40 %</strong>.</p>",
     "familj": "Privatekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -69083,7 +70089,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Först behöver du summan av utgifterna och beloppet som återstår. Andelar får du genom att dividera respektive belopp med hela budgeten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.124",
@@ -69094,10 +70103,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Två betalningsplaner gäller i högst 24 månader.</p><p>A: 690 kr/mån.<br>B: 2400 kr startavgift + 540 kr/mån.</p><p>a) Från vilken månad är B billigare?<br>b) En kund bedömer 60 % sannolikhet att använda tjänsten 12 månader och 40 % att använda den 24 månader. Vilken plan ger lägst förväntad kostnad?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>a) \\(m&gt;16\\): <strong>från 17 månader</strong>.</p><p>b) A: <strong>11 592 kr</strong>. B: <strong>11 472 kr</strong>. <strong>B är 120 kr lägre.</strong></p>",
+    "s": "<p>a) Sätt kostnaderna lika: (690m=2400+540m ⇒ 150m=2400 ⇒  m=16). Plan B blir billigare efter brytpunkten, alltså <strong>från månad 17</strong>.</p><p>b) A kostar 8 280 kr vid 12 månader och 16 560 kr vid 24 månader. Förväntad kostnad: (0,6·8280+0,4·16560=11592) kr.</p><p>B kostar 8 880 kr respektive 15 360 kr. Förväntad kostnad: (0,6·8880+0,4·15360=11472) kr. <strong>Plan B</strong> är lägst.</p>",
     "familj": "Privatekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -69121,7 +70130,10 @@ window.BANKMA1 = [
       "heltal",
       "kort_text"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Hitta först brytpunkten mellan planerna. I b) väger du varje möjlig kostnad med sannolikheten för att den inträffar.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.125",
@@ -69146,7 +70158,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.126",
@@ -69171,7 +70186,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.127",
@@ -69196,7 +70214,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.128",
@@ -69209,19 +70230,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Ett hushåll har nettolönen 32 000 kr, fasta utgifter 18 400 kr och övrig konsumtion 10 200 kr. Målet är att spara minst 15 % av nettolönen. Nästa månad ökar nettolönen 3 % och fasta utgifter 4 %. Den övriga konsumtionen förändras med \\(p\\) %.</p><p>Bestäm största möjliga \\(p\\) om sparmålet ska nås.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ny nettolön 32 960, sparmål 4944, fasta utgifter 19 136, Övrig konsumtion får vara högst 8880,</p><p>\\(10200(1+p/100)=8880\\),</p><p><strong>\\(p\\approx-12,94\\%\\)</strong>, dvs konsumtionen måste minska cirka 12,94 %,</p></div></div>",
+    "t": "<p>Ett hushåll har nettolönen 32 000 kr, fasta utgifter 18 400 kr och övrig konsumtion 10 200 kr. Målet är att spara minst 15 % av nettolönen. Nästa månad ökar nettolönen 3 % och fasta utgifter 4 %. Den övriga konsumtionen förändras med (p) %.</p><p>Hur mycket måste den övriga konsumtionen <strong>minska minst</strong>, i procent, för att sparmålet ska nås? Svara med två decimaler.</p>",
+    "s": "<p>Ny nettolön: 32 960 kr. Sparmålet är (0,15·32960=4944) kr. Nya fasta utgifter: (18400·1,04=19136) kr.</p><p>Övrig konsumtion får därför vara högst (32960-4944-19136=8880) kr.</p><p>Minskningen från 10 200 kr är ((10200-8880)/10200≈0,1294), alltså minst <strong>12,94 %</strong>.</p>",
     "familj": "Privatekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.94,
+    "tolerans": 0.02,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör en tydlig tidslinje för inkomster, utgifter, ränta eller värdeförändring. Använd procentuell förändring som förändringsfaktor och jämför beloppen i samma tidsenhet.</p>"
+    "ledtrad": "<p>Räkna först ut nästa månads inkomst, sparkrav och fasta utgifter. Det som blir kvar är högsta tillåtna övriga konsumtion.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.129",
@@ -69246,7 +70270,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.130",
@@ -69260,7 +70287,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En persons nettolön är 23 500 kr. Fasta utgifter är 13 200 kr. Personen vill spara minst 20 % av nettolönen.</p>\n<p>a) Hur mycket kan som mest gå till övrig konsumtion denna månad?<br>\nb) Nästa månad är nettolönen oförändrad, de fasta utgifterna ökar med 6 % och sparmålet höjs till 25 %. Hur mycket måste den maximala övriga konsumtionen då minska jämfört med denna månad?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) Sparmålet är \\(0,20\\cdot23500=4700\\) kr. Max övrig konsumtion: \\(23500-13200-4700=5600\\) kr.</p>\n<p>b) Nya fasta utgifter: \\(13200\\cdot1,06=13992\\) kr. Nytt sparmål: \\(0,25\\cdot23500=5875\\) kr.</p>\n<p>Ny maxkonsumtion: \\(23500-13992-5875=3633\\) kr.</p>\n<p>Minskning: \\(5600-3633=1967\\) kr.</p>\n<p><strong>Svar:</strong> <strong>5600 kr respektive 3633 kr; en minskning med 1967 kr.</strong></p></div></div>",
+    "s": "<p>a) Sparkravet är 4 700 kr. Högsta övriga konsumtion blir (23500-13200-4700=)<strong>5 600 kr</strong>.</p><p>b) Nya fasta utgifter är 13 992 kr och nytt sparkrav 5 875 kr. Då återstår 3 633 kr. Den maximala övriga konsumtionen måste alltså minska med (5600-3633=)<strong>1 967 kr</strong>.</p>",
     "familj": "Privatekonomiska beräkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -69279,7 +70306,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt"
     ],
-    "ledtrad": "<p>Gör en tydlig tidslinje för inkomster, utgifter, ränta eller värdeförändring. Använd procentuell förändring som förändringsfaktor och jämför beloppen i samma tidsenhet.</p>"
+    "ledtrad": "<p>Gör samma budgetberäkning för båda månaderna och jämför sedan hur mycket som maximalt kan gå till övrig konsumtion.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "6.131",
@@ -69304,7 +70334,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.132",
@@ -69329,7 +70362,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.133",
@@ -69354,7 +70390,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Vid \\(t=0\\) finns 300 liter. Eftersom tanken töms minskar volymen med 18 liter per minut, alltså är riktningskoefficienten \\(-18\\).</p>"
+    "ledtrad": "<p>Vid (t=0) finns 300 liter. Varje minut minskar volymen med 18 liter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.134",
@@ -69380,7 +70419,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Definiera den okända storheten och skriv ett algebraiskt samband direkt från villkoren i texten. Förenkla eller lös först när du kan förklara vad varje term i sambandet representerar.</p>"
+    "ledtrad": "<p>Skriv ett tvåsiffrigt tal som (10a+b) och dess siffersumma som (a+b). Förenkla differensen utan att välja särskilda siffror.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.135",
@@ -69405,7 +70447,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Börja med att skriva upp vad som är känt och vad som ska bestämmas. Välj sedan en matematisk modell eller ekvation och kontrollera slutligen att svaret uppfyller villkoren.</p>"
+    "ledtrad": "<p>Föreningens intäkt är (150x). För att både betala hyran och ha 1 200 kr kvar måste intäkten vara minst 4 800 kr.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.136",
@@ -69432,7 +70477,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Jämför systemen i själva räknandet: positionsvärde och noll gör det möjligt att använda systematiska uppställningar och att skriva stora tal kompakt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "6.137",
@@ -69445,20 +70493,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En reklam säger: ”Dubbelt så många väljer produkt A som produkt B.” I undersökningen valde 8 personer A och 4 personer B. Nämn en anledning att vara försiktig med slutsatsen.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Urvalet är mycket litet. Även om förhållandet är 2:1 kan resultatet vara osäkert och inte representativt.</p></div></div>",
+    "t": "<p>En reklam säger: ”Dubbelt så många väljer produkt A som produkt B.” I undersökningen valde 8 personer A och 4 personer B. Nämn en anledning att vara försiktig med slutsatsen.</p><p>A. Påståendet är tillförlitligt enbart därför att 8 är dubbelt så stort som 4.<br>B. Den relativa skillnaden är korrekt beskriven, men stickprovet är mycket litet och urvalsmetoden är okänd.<br>C. Påståendet är fel eftersom ”dubbelt” bara får användas när minst 100 personer deltar.<br>D. Slutsatsen är säker eftersom små stickprov alltid ger mindre slumpvariation.</p>",
+    "s": "<p>8 är verkligen dubbelt 4, men totalt deltog bara 12 personer. Resultatet kan därför vara mycket känsligt för slumpvariation, och representativiteten beror dessutom på hur personerna valdes.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Kritisk granskning av grafer och slutsatser",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
+    "ledtrad": "<p>Skilj på om kvoten 8/4 är matematisk korrekt och hur starkt underlag 12 personer ger för en större population.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.138",
@@ -69484,7 +70535,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.139",
@@ -69509,7 +70563,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Börja med att skriva upp vad som är känt och vad som ska bestämmas. Välj sedan en matematisk modell eller ekvation och kontrollera slutligen att svaret uppfyller villkoren.</p>"
+    "ledtrad": "<p>Om 35 % är tomma är hur stor andel upptagen?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.140",
@@ -69522,21 +70579,42 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två abonnemang modelleras med \\(A(x)=129+0,80x\\) och \\(B(x)=189+0,30x\\), där \\(x\\) är antal extra minuter. Bestäm när kostnaden är lika och vilken modell som är billigast före respektive efter.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(129+0,80x=189+0,30x\\Rightarrow0,50x=60\\Rightarrow x=120\\).</p><p><strong>Svar:</strong> <strong>A är billigast för \\(x&lt;120\\), lika vid 120 och B billigast för \\(x&gt;120\\).</strong></p></div></div>",
+    "t": "<p>Två abonnemang modelleras med (A(x)=129+0,80x) och (B(x)=189+0,30x), där (x) är antal extra minuter.</p><p>a) Bestäm vid vilket (x) kostnaden är lika.<br>b) Vilket abonnemang är billigast för (x) mindre än brytpunkten?<br>c) Vilket är billigast för (x) större än brytpunkten?</p>",
+    "s": "<p>Sätt modellerna lika: (129+0,80x=189+0,30x). Då (0,50x=60), så (x=120).</p><p>Vid små x har A lägre startavgift och är billigast före 120. Efter 120 växer A snabbare, så B blir billigast.</p>",
     "familj": "Skapa och använda matematiska modeller",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "modellering",
-      "resonemang"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      120,
+      "A",
+      "B"
     ],
-    "ledtrad": "<p>Skriv vad variablerna betyder och vilket intervall modellen rimligen gäller på. Jämför modellens antaganden med situationen innan du använder ett beräknat värde utanför mätdata.</p>"
+    "tolerans": [
+      0,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Sätt A(x)=B(x). Jämför sedan antingen lutningarna eller testa ett x-värde på vardera sidan om brytpunkten.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "brytpunkt",
+      "före",
+      "efter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text",
+      "text"
+    ]
   },
   {
     "id": "6.141",
@@ -69550,7 +70628,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "4/4/4",
     "t": "<p>En förenklad kalender har 360 dagar per år. En annan har 330 dagar. Samma historiska händelse motsvarar år 600 i den första kalendern och år 0 i den andra.</p><p>a) Förklara varför årtalen därefter växer snabbare i 330-dagarskalendern.<br>b) Skriv en linjär modell för dess årtal \\(H\\) som funktion av den första kalenderns årtal \\(M\\).<br>c) Bestäm när kalendrarna visar samma årtal enligt modellen.</p>",
-    "s": "<p><strong>Steg 1:</strong> För varje 360 dagar går det \\(\\frac{360}{330}=\\frac{12}{11}\\) år i den kortare kalendern.</p><p>Eftersom \\(H=0\\) när \\(M=600\\) blir modellen <strong>\\(H=\\frac{12}{11}(M-600)\\)</strong>.</p><p>Sätt \\(H=M\\): \\(12M-7200=11M\\Rightarrow\\)<strong>\\(M=7200\\)</strong>.</p>",
+    "s": "<p>a) Under 360 vanliga dagar hinner en 330-dagarskalender gå (360/330=12/11) år. Dess årtal ökar därför snabbare.</p><p>b) När (M=600) är (H=0), så <strong>(H=\frac{12}{11}(M-600))</strong>.</p><p>c) Sätt (H=M): (\frac{12}{11}(M-600)=M ⇒ 12M-7200=11M ⇒ )<strong>M=7200</strong>.</p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69563,7 +70641,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Bestäm först hur många 330-dagarsår som går på 360 dagar. Använd sedan punkten (M,H)=(600,0) för den linjära modellen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "6.142",
@@ -69588,7 +70669,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>"
+    "ledtrad": "<p>Identifiera först vilka celler som innehåller indata och vilken beräkning som ska göras. Skriv formeln med rätt relativa eller absoluta cellreferenser innan den kopieras.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.401",
@@ -69599,8 +70683,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde är 100 och ökar med 2 % vid tre tillfällen i följd. Vilket blir slutvärdet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p>Varje ökning med 2 % innebär multiplikation med 1,02. Efter tre ökningar blir värdet</p><p>\\[100\\cdot1{,}02^3=106{,}1208.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
+    "t": "<p>Följ algoritmen: starta med <code>värde = 100</code>. Upprepa tre gånger: <code>värde = värde * 1.02</code>. Vilket slutvärde får variabeln?</p>",
+    "s": "<p>Efter tre uppdateringar är värdet (100·1,02^3=)<strong>106,1208</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -69613,7 +70697,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Varje varv använder det nya värdet från föregående varv.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.402",
@@ -69624,8 +70711,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett tal är från början 3. Talet ökas med 4 fem gånger i följd. Vilket blir slutvärdet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p>Fem ökningar med 4 ger totalt ökningen \\(5\\cdot4=20\\). Därför blir slutvärdet \\(3+20=23\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
+    "t": "<p>En loop startar med <code>tal = 3</code> och kör instruktionen <code>tal = tal + 4</code> fem gånger. Vilket slutvärde får <code>tal</code>?</p>",
+    "s": "<p>Fem varv ger en total ökning med (5·4=20). Slutvärdet är <strong>23</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -69638,7 +70725,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Räkna hur många gånger instruktionen faktiskt körs, inte hur många värden som syns i följden.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.403",
@@ -69649,8 +70739,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Börja med värdet 0 och addera talen 1, 2, 3, 4 och 5 i tur och ordning. Vilket slutvärde får du?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Summera talen:</p><p>\\[1+2+3+4+5=15.\\]</p></div></div>",
+    "t": "<p>En variabel <code>summa</code> börjar på 0. I fem steg adderas först 1, sedan 2, 3, 4 och 5 till variabeln. Vilket värde har <code>summa</code> efter sista steget?</p>",
+    "s": "<p>Variabeln fungerar som en ackumulator: (1+2+3+4+5=)<strong>15</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -69663,7 +70753,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Skriv gärna värdet på summa efter varje steg.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.404",
@@ -69674,8 +70767,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde börjar på 3 och fördubblas så länge värdet är mindre än 20. Hur många fördubblingar hinner göras innan värdet är minst 20?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Följ värdena: \\(3\\to6\\to12\\to24\\). Efter den tredje fördubblingen har värdet passerat 20.</p><p><strong>Svar:</strong> 3.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "t": "<p>En whi≤-loop startar med <code>värde = 3</code>. Så länge värdet är mindre än 20 körs <code>värde = 2*värde</code>. Hur många varv körs loopen?</p>",
+    "s": "<p>Värdena blir (3\to6\to12\to24). Efter tredje varvet är värdet inte längre under 20. Loopen körs <strong>3 varv</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -69688,7 +70781,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Kontrollera loopvillkoret före varje nytt varv.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.405",
@@ -69699,13 +70795,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En beräkningsregel ska ge medelvärdet av talen 6, 10 och 14. Vilket värde ska regeln ge?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera vilken statistisk storhet som frågan gäller och vad den betyder i sammanhanget. Beräkna först, men avsluta med en tolkning med ord.</p><div class=\"facit-arbete\"><p>Medelvärdet är summan dividerad med antalet värden:</p><p>\\[(6+10+14)/3=10.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att sannolikheter ligger mellan 0 och 1 och att spridningsmått inte kan vara negativa.</p></div>",
+    "t": "<p>Ett program ska beräkna medelvärdet av 6, 10 och 14. Vilket av följande uttryck ger rätt värde?</p><p>A. <code>6+10+14/3</code><br>B. <code>(6+10+14)/3</code><br>C. <code>(6+10)*14/3</code><br>D. <code>6+(10+14)/3</code></p>",
+    "s": "<p>Hela summan ska divideras med antalet värden. Därför behövs parentesen: <strong>(6+10+14)/3 = 10</strong>.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": 0,
     "självrättning": true,
     "formaga": [
@@ -69713,7 +70809,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Operatorordningen gör att division utförs före addition om du inte använder parentes.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.406",
@@ -69724,8 +70823,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En regel kopplar varje indata \\(x\\) till utdata \\(y=2x+1\\). Bestäm \\(y\\) när \\(x=4\\).</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Sätt in \\(x=4\\):</p><p>\\[y=2\\cdot4+1=9.\\]</p></div></div>",
+    "t": "<p>En funktion i ett program returnerar <code>2*x+1</code>. Vad returneras när anropet görs med <code>x=4</code>?</p>",
+    "s": "<p>Sätt in 4 i regeln: (2·4+1=)<strong>9</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -69738,7 +70837,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Ersätt x med indata 4 innan uttrycket beräknas.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.407",
@@ -69749,8 +70851,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde multipliceras med 0,9 en gång per år. Vad innebär det?</p><p>A. Värdet ökar med 90 %<br>B. Värdet minskar med 10 %<br>C. Värdet minskar med 90 %<br>D. Värdet ökar med 10 %</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Faktorn 0,9 betyder att 90 % återstår. Minskningen är alltså 10 %.</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>Ett program uppdaterar ett värde med <code>värde = 0.9*värde</code>. Vilken beskrivning är korrekt?</p><p>A. Värdet ökar med 90 % per steg.<br>B. Värdet minskar med 10 % per steg.<br>C. Värdet minskar med 90 % per steg.<br>D. Värdet ökar med 10 % per steg.</p>",
+    "s": "<p>Efter uppdateringen återstår 90 % av det gamla värdet. Minskningen är alltså <strong>10 %</strong>.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -69763,7 +70865,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Skillnaden mellan 100 % och 90 % är minskningen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.408",
@@ -69774,8 +70879,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett heltal börjar på 1 och ökas med 1 i varje steg. Processen stoppas när talet blir 6. Hur många ökningar har då gjorts?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Följ stegen: \\(1\\to2\\to3\\to4\\to5\\to6\\). Det är fem ökningar.</p></div></div>",
+    "t": "<p>En loop startar med <code>tal = 1</code>. Så länge <code>tal &lt; 6</code> ökas tal med 1. Hur många gånger körs instruktionen?</p>",
+    "s": "<p>Instruktionen körs för startvärdena 1, 2, 3, 4 och 5. Därefter är tal=6 och villkoret falskt. Alltså <strong>5 gånger</strong>.</p>",
     "familj": "Matematik och enkla algoritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -69788,7 +70893,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beskriv lösningsprocessen som en tydlig följd av matematiska steg: vilken information används först, vilket villkor testas och hur avgörs nästa steg? Håll beskrivningen matematisk – ingen programmeringssyntax behövs.</p>"
+    "ledtrad": "<p>Det här är en vanlig ”ett-för-mycket/ett-för-lite”-situation. Lista vilka värden som uppfyller villkoret före ett varv.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.409",
@@ -69802,7 +70910,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket talsystem förknippas historiskt med babylonisk matematik?</p><p>A. Bas 2<br>B. Bas 10 utan positionsvärde<br>C. Bas 60<br>D. Bas 100</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Babylonierna använde ett positionssystem med bas 60.</p><p><strong>Svar:</strong> C.</p></div></div>",
+    "s": "<p>Babylonisk matematik använde ett positionssystem med <strong>bas 60</strong>. <strong>Svar: C.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69814,7 +70922,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Fokusera på vilken matematisk idé eller representation frågan handlar om, inte bara på ett årtal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.410",
@@ -69828,7 +70939,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken egenskap är central i det hindu-arabiska decimalsystemet?</p><p>A. Det saknar noll<br>B. Det är ett positionssystem med bas 10<br>C. Det använder bara bokstäver<br>D. Det har bas 60</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Det moderna decimalsystemet är ett positionssystem med bas 10 och använder noll som siffra och platshållare.</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "s": "<p>Det hindu-arabiska decimalsystemet är ett <strong>positionssystem med bas 10</strong> och använder noll. <strong>Svar: B.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69840,7 +70951,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Fokusera på vilken matematisk idé eller representation frågan handlar om, inte bara på ett årtal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.411",
@@ -69854,7 +70968,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken matematiker förknippas starkt med den axiomatiska framställningen av geometri i verket Elementa?</p><p>A. Euklides<br>B. Gauss<br>C. Euler<br>D. Pascal</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Euklides Elementa fick enorm betydelse för den axiomatiska geometrin.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p><strong>Euklides</strong> förknippas med den axiomatiska framställningen av geometrin i <em>Elementa</em>. <strong>Svar: A.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69866,7 +70980,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Fokusera på vilken matematisk idé eller representation frågan handlar om, inte bara på ett årtal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.412",
@@ -69880,7 +70997,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vem förknippas med införandet av koordinatgeometri och sambandet mellan algebra och geometri?</p><p>A. Descartes<br>B. Pythagoras ensam<br>C. Fibonacci<br>D. Cantor</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>René Descartes förknippas starkt med den kartesiska koordinatgeometrin.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<p><strong>René Descartes</strong> förknippas starkt med koordinatgeometri och kopplingen mellan algebra och geometri. <strong>Svar: A.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69892,7 +71009,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Fokusera på vilken matematisk idé eller representation frågan handlar om, inte bara på ett årtal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.413",
@@ -69906,7 +71026,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket hjälpmedel utvecklades på 1600-talet för att förenkla stora multiplikationer genom att omvandla dem till additioner?</p><p>A. Logaritmer<br>B. Venn-diagram<br>C. Primtal<br>D. Negativa tal</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Logaritmer gjorde omfattande beräkningar betydligt enklare före elektroniska räknare.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p><strong>Logaritmer</strong> utvecklades på 1600-talet och gjorde det möjligt att omvandla multiplikationer till enklare additionsberäkningar. <strong>Svar: A.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69918,7 +71038,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Fokusera på vilken matematisk idé eller representation frågan handlar om, inte bara på ett årtal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.414",
@@ -69932,7 +71055,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilka två namn förknippas oberoende med utvecklingen av differential- och integralkalkylen på 1600-talet?</p><p>A. Newton och Leibniz<br>B. Euklides och Ptolemaios<br>C. Gauss och Cantor<br>D. Pascal och Fermat endast</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area. Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p><div class=\"facit-arbete\"><p>Newton och Leibniz utvecklade kalkylen oberoende av varandra och med olika notation.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></div>",
+    "s": "<p><strong>Newton och Leibniz</strong> utvecklade differential- och integralkalkylen oberoende av varandra. <strong>Svar: A.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69944,7 +71067,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Fokusera på vilken matematisk idé eller representation frågan handlar om, inte bara på ett årtal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.415",
@@ -69958,7 +71084,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket påstående om romerska siffror är korrekt jämfört med vårt decimalsystem?</p><p>A. De bildar ett modernt positionssystem med noll<br>B. De saknar ett positionsvärdessystem av samma typ som decimalsystemet<br>C. De använder bas 2<br>D. De kan bara skriva tal under 100</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Romerska siffror är inte ett positionssystem på samma sätt som vårt decimalsystem, vilket gör många skriftliga beräkningar mer omständliga.</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "s": "<p>Romerska siffror saknar ett positionsvärdessystem av samma typ som decimalsystemet, vilket gör skriftliga beräkningsalgoritmer mer omständliga. <strong>Svar: B.</strong></p>",
     "familj": "Matematikens historia och utveckling",
     "geogebra": false,
     "miniräknare": false,
@@ -69970,7 +71096,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Identifiera vilken matematisk idé, metod eller tidsperiod frågan syftar på. Koppla sedan svaret till varför idén var viktig för matematikens utveckling, inte bara till ett namn eller årtal.</p>"
+    "ledtrad": "<p>Fokusera på vilken matematisk idé eller representation frågan handlar om, inte bara på ett årtal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "6.416",
@@ -69981,10 +71110,10 @@ window.BANKMA1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En figurserie har 4 stickor i figur 1, 7 i figur 2 och 10 i figur 3. Mönstret fortsätter på samma sätt. Hur många stickor har figur 13?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Antalet ökar med 3 varje gång, så en formel är \\(3n+1\\). För \\(n=13\\): \\(3\\cdot13+1=40\\).</p><p><strong>Svar:</strong> 40.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Multiplicera tillbaka faktorerna eller sätt in ett tillåtet provvärde för att kontrollera förenklingen.</p></div>",
+    "s": "<p>Följden ökar med 3. Regeln är (3n+1). För figur 13: (3·13+1=)<strong>40 stickor</strong>.</p>",
     "familj": "Algebraiska samband och problemlösning",
     "geogebra": false,
     "miniräknare": false,
@@ -69997,7 +71126,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definiera den okända storheten och skriv ett algebraiskt samband direkt från villkoren i texten. Förenkla eller lös först när du kan förklara vad varje term i sambandet representerar.</p>"
+    "ledtrad": "<p>Från figur 1 till figur 13 görs 12 ökningar med 3 stickor, eller använd regeln (3n+1).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.01",
@@ -70009,7 +71141,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett recept för 12 portioner kräver 1,8 kg råvara.</p><p>a) Per portion?<br>b) Till 30 portioner?</p>",
-    "s": "<p>a) Först bestäms mängden per portion:</p><p>\\[\\frac{1{,}8}{12}=0{,}15\\text{ kg per portion}.\\]</p><p>b) Till 30 portioner behövs därför</p><p>\\[30\\cdot0{,}15=4{,}5\\text{ kg}.\\]</p><p><strong>Svar:</strong> a) \\(0{,}15\\) kg per portion, b) \\(4{,}5\\) kg.</p>",
+    "s": "<p>a) Per portion: 1,8 / 12 = <strong>0,15 kg</strong>.</p><p>b) Till 30 portioner: 30 · 0,15 = <strong>4,5 kg</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": false,
@@ -70043,7 +71175,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>"
+    "ledtrad": "<p>Bestäm först mängden för en portion. Använd sedan samma mängd per portion för 30 portioner.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.02",
@@ -70054,19 +71189,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>På en ritning är en verklig sträcka på 2,0 m avbildad som 5,0 cm. Bestäm ritningens skala.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p><p>2,0 m = 200 cm. \\(\\frac{200}{5}=40\\).</p><p><strong>Skala 1:40</strong>.</p>",
+    "t": "<p>På en ritning är en verklig sträcka på 2,0 m avbildad som 5,0 cm. Vilken skala har ritningen?</p><p>A. 1:4<br>B. 1:40<br>C. 1:400<br>D. 40:1</p>",
+    "s": "<p>2,0 m = 200 cm. Förhållandet ritning:verklighet är 5:200 = 1:40.</p><p><strong>Svar: B, skala 1:40.</strong></p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Skriv båda längderna i centimeter innan du bildar förhållandet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.03",
@@ -70121,7 +71259,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv gärna en omvandlingsfaktor mellan enheterna först. Då blir det tydligt om talvärdet ska multipliceras eller divideras.</p>"
+    "ledtrad": "<p>m→cm: multiplicera med 100. mm→m: dividera med 1 000. mm→cm: dividera med 10.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.04",
@@ -70133,18 +71274,21 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Gör ett överslag för \\(\\frac{5980}{31}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p><p>\\(5980\\approx6000\\) och \\(31\\approx30\\).</p><p><strong>\\(\\frac{6000}{30}=200\\)</strong>.</p>",
+    "s": "<p>Runda till 6 000/30. Då blir överslaget <strong>200</strong>.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
+    "svarstyp": "numeriskt",
     "rättSvar": 200,
     "tolerans": 20,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>Välj tal nära 5 980 och 31 som är enkla att dividera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.05",
@@ -70155,19 +71299,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två mätningar är \\(10,0\\pm0,1\\) cm och \\(10,2\\pm0,1\\) cm. Överlappar intervallen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p>De möts vid 10,1 cm. <strong>Ja, i gränspunkten.</strong></p>",
+    "t": "<p>Två mätningar är 10,0 ± 0,1 cm och 10,2 ± 0,1 cm. Vilket påstående är korrekt?</p><p>A. Intervallen möts i 10,1 cm.<br>B. Intervallen har ett mellanrum på 0,1 cm.<br>C. Intervallen överlappar från 10,0 till 10,2 cm.<br>D. Det första intervallet ligger helt inuti det andra.</p>",
+    "s": "<p>Intervallen är 9,9–10,1 cm respektive 10,1–10,3 cm. De har exakt en gemensam gränspunkt: <strong>10,1 cm</strong>.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>Skriv först båda mätningarna som intervall och jämför ändpunkterna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.06",
@@ -70179,7 +71326,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett arbete kräver netto 36 m² material. Man räknar med 8 % spill. Hur mycket material bör beställas?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\(36\\cdot1,08=\\)<strong>38,88 m²</strong>, alltså minst cirka 38,9 m².</p>",
+    "s": "<p>8 % spill innebär förändringsfaktorn 1,08. 36·1,08 = <strong>38,88 m²</strong>, alltså cirka 38,9 m² om man avrundar till en decimal.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -70190,7 +71337,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Lägg på 8 % genom att multiplicera nettobehovet med 1,08.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.07",
@@ -70202,7 +71352,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Material kostar 780 kr och arbetet 1 250 kr. En administrationsavgift är 6 % av summan av material och arbete.</p>\n<p>a) Bestäm summan före avgiften.<br>b) Bestäm administrationsavgiften.<br>c) Bestäm totalkostnaden.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p>a) \\(780+1250=2030\\) kr.</p>\n<p>b) \\(2030\\cdot0,06=121,80\\) kr.</p>\n<p>c) \\(2030+121,80=\\)<strong>2151,80 kr</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
+    "s": "<p>a) 780+1 250 = <strong>2 030 kr</strong>.</p><p>b) 6 % av 2 030 är 0,06·2 030 = <strong>121,80 kr</strong>.</p><p>c) 2 030+121,80 = <strong>2 151,80 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -70219,7 +71369,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Dela upp kostnaden i fasta och rörliga delar om båda förekommer. Multiplicera pris per enhet med antal och kontrollera att moms, rabatt eller annan procentuell förändring appliceras på rätt belopp.</p>"
+    "ledtrad": "<p>Administrationsavgiften beräknas på summan av material och arbete, inte på bara en av delarna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.08",
@@ -70230,8 +71383,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En hylla är märkt max 120 kg. Du vill använda högst 75 % av maxlasten. Hur stor last tillåter du?</p><span class=\"fig\"><svg width=\"430\" height=\"175\" viewBox=\"0 0 430 175\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mätare där tillåten last 90 kg markeras av maxlasten 120 kg\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"62\" y=\"65\" width=\"326\" height=\"38\" rx=\"6\" fill=\"#F3EFEC\" stroke=\"#D9D3CE\"/><rect x=\"62\" y=\"65\" width=\"244.5\" height=\"38\" rx=\"6\" fill=\"#3F7A55\" opacity=\"0.28\"/><line x1=\"306.5\" y1=\"57\" x2=\"306.5\" y2=\"111\" stroke=\"#3F7A55\" stroke-width=\"3.5\"/><line x1=\"388\" y1=\"57\" x2=\"388\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3.5\"/><text x=\"306.5\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#3F7A55\" font-weight=\"700\">tillåten gräns</text><text x=\"388\" y=\"131\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"700\">max 120 kg</text><text x=\"62\" y=\"131\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">0</text><text x=\"215\" y=\"158\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">75 % av maxlasten</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p><p>\\(0,75\\cdot120=\\)<strong>90 kg</strong>.</p>",
+    "t": "<p>En hylla är märkt för högst 120 kg. Du vill använda högst 75 % av maxlasten. Hur stor last tillåter du?</p>",
+    "s": "<p>0,75·120 = <strong>90 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": false,
@@ -70242,7 +71395,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Beräkna 75 % av 120 kg.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.09",
@@ -70254,7 +71410,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Efter en process ska en färdig blandning vara 31,5 liter och ha förhållandet koncentrat : vatten = 2 : 7.</p>\n<p>Under processen försvinner 5 % av koncentratet och 10 % av vattnet.</p>\n<p>Hur många liter koncentrat och vatten måste vägas/mätas upp före processen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> I den färdiga blandningen är koncentratmängden \\(31,5\\cdot2/9=7,0\\) L och vattenmängden 24,5 L.</p>\n<p>Ursprungligt koncentrat: \\(\\frac{7,0}{0,95}\\approx\\)<strong>7,37 L</strong>.</p>\n<p>Ursprungligt vatten: \\(\\frac{24,5}{0,90}\\approx\\)<strong>27,22 L</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<p>I den färdiga blandningen ska 2/9 vara koncentrat och 7/9 vatten: 7,0 L respektive 24,5 L.</p><p>Före processen behövs därför 7,0 / 0,95 ≈ <strong>7,37 L koncentrat</strong> och 24,5 / 0,90 ≈ <strong>27,22 L vatten</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": true,
@@ -70276,7 +71432,10 @@ window.BANKMA1 = [
       "Vatten före processen (L)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>"
+    "ledtrad": "<p>Räkna baklänges från mängderna som ska finnas kvar efter processen. Om 95 % återstår delar du slutmängden med 0,95.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.10",
@@ -70299,7 +71458,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Beräkna först hur många liter som behövs per kilogram material.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.11",
@@ -70331,7 +71493,10 @@ window.BANKMA1 = [
       "skala",
       "numeriskt"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Bestäm först hur många verkliga centimeter som motsvarar 1 cm på kartan. Använd sedan samma skala för den andra vägen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.12",
@@ -70343,7 +71508,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett rektangulärt rum mäter 6,0 cm × 4,0 cm på en ritning i skala 1:100. Bestäm rummets verkliga area.</p><span class=\"fig\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"planritning med mått och skala\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<rect x=\"80\" y=\"55\" width=\"260\" height=\"150\" fill=\"#F8F7F5\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"80\" y1=\"227\" x2=\"340\" y2=\"227\" stroke=\"#777\"/>\n<line x1=\"80\" y1=\"221\" x2=\"80\" y2=\"233\" stroke=\"#777\"/>\n<line x1=\"340\" y1=\"221\" x2=\"340\" y2=\"233\" stroke=\"#777\"/>\n<text x=\"210.0\" y=\"247\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">6,0 cm på ritningen</text>\n<line x1=\"58\" y1=\"55\" x2=\"58\" y2=\"205\" stroke=\"#777\"/>\n<line x1=\"52\" y1=\"55\" x2=\"64\" y2=\"55\" stroke=\"#777\"/>\n<line x1=\"52\" y1=\"205\" x2=\"64\" y2=\"205\" stroke=\"#777\"/>\n<text x=\"34\" y=\"130.0\" transform=\"rotate(-90 34 130.0)\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"12\">4,0 cm</text>\n<text x=\"392\" y=\"28\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"11\">skala 1:100</text>\n</svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p><p>6,0 cm motsvarar 6,0 m och 4,0 cm motsvarar 4,0 m.</p><p><strong>Svar:</strong> <strong>Arean är 24 m².</strong></p>",
+    "s": "<p>I skala 1:100 motsvarar 1 cm på ritningen 1 m i verkligheten. Rummet är därför 6,0 m × 4,0 m.</p><p>Arean är <strong>24 m²</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
@@ -70354,7 +71519,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Skala längderna först. Beräkna sedan arean av det verkliga rummet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.13",
@@ -70366,7 +71534,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangulär plåt är 1,25 m lång och 84 cm bred. Till ett arbete behövs 18 sådana plåtar. Man vill dessutom beställa 6 % extra material för spill.</p>\n<p>Hur många kvadratmeter material motsvarar beställningen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> 84 cm = 0,84 m. En plåt har arean \\(1,25\\cdot0,84=1,05\\) m².</p>\n<p>18 plåtar motsvarar \\(18\\cdot1,05=18,9\\) m².</p>\n<p>Med 6 % extra: \\(18,9\\cdot1,06=\\)<strong>20,034 m²</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>84 cm = 0,84 m. En plåt har arean 1,25·0,84 = 1,05 m². 18 plåtar ger 18,9 m².</p><p>Med 6 % extra: 18,9·1,06 = <strong>20,034 m²</strong>.</p>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
     "miniräknare": false,
@@ -70378,7 +71546,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv först storheterna med samma enhet. Behandla prefix som tiopotenser; tänk på att omvandlingsfaktorn måste kvadreras för area och kuberas för volym.</p>"
+    "ledtrad": "<p>Gör först båda sidlängderna till meter. Lägg på spill först efter att totalarean för 18 plåtar är beräknad.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.14",
@@ -70433,7 +71604,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv gärna en omvandlingsfaktor mellan enheterna först. Då blir det tydligt om talvärdet ska multipliceras eller divideras.</p>"
+    "ledtrad": "<p>1 L = 1 000 ml och 1 kg = 1 000 g.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.15",
@@ -70444,20 +71618,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En vägg är 7,8 m bred och 2,4 m hög. Färgen räcker enligt burken till 9 m² per liter och säljs i 2,5-litersburkar.</p><p>Gör först ett överslag och avgör om en burk sannolikt räcker. Kontrollera sedan med exakt beräkning.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Överslag: \\(8\\cdot2,5\\approx20\\) m². En burk räcker till \\(2,5\\cdot9=22,5\\) m², så den bör räcka.</p><p>Exakt area: \\(7,8\\cdot2,4=18,72\\) m².</p><p><strong>Svar:</strong> <strong>En burk räcker enligt uppgiften.</strong></p></div></div>",
+    "t": "<p>En vägg är 7,8 m bred och 2,4 m hög. Färgen räcker till 9 m² per liter och säljs i 2,5-litersburkar. Vilket alternativ ger både ett rimligt överslag och korrekt kontroll?</p><p>A. Väggen är ungefär 20 m²; en burk täcker 22,5 m²; exakt area är 18,72 m², så en burk räcker.<br>B. Väggen är ungefär 2 m²; en burk täcker 9 m²; exakt area är 1,872 m², så en burk räcker.<br>C. Väggen är ungefär 20 m²; en burk täcker 2,5 m²; exakt area är 18,72 m², så en burk räcker inte.<br>D. Väggen är ungefär 80 m²; en burk täcker 22,5 m²; exakt area är 78,24 m², så en burk räcker inte.</p>",
+    "s": "<p>8·2,5 ≈ 20 m² är ett rimligt överslag. En burk täcker 2,5·9 = 22,5 m². Exakt väggarea är 7,8·2,4 = 18,72 m².</p><p><strong>Svar: A – en burk räcker enligt uppgiften.</strong></p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Jämför en grov uppskattning av väggarean med hur stor area en burk täcker. Kontrollera sedan med de exakta måtten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.16",
@@ -70469,20 +71646,23 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>47 delar kostar 198 kr styck. Gör ett rimligt överslag av totalkostnaden.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p><p>\\(47\\approx50\\) och \\(198\\approx200\\).</p><p><strong>Svar:</strong> <strong>Ungefär 10 000 kr.</strong></p>",
+    "s": "<p>47≈50 och 198≈200. Då blir 50·200 = <strong>10 000 kr</strong>.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10000,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>Runda båda faktorerna till närliggande tiotal/hundratal som är lätta att multiplicera.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.17",
@@ -70493,8 +71673,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>Ett golv mäts till 4,0 m gånger 3,0 m. Båda måtten har osäkerheten \\(\\pm0{,}05\\) m.</p><p>a) Beräkna arean med de uppmätta värdena.<br>b) Beräkna den minsta och den största area som måtten tillåter.<br>c) Hur stor blir osäkerheten i arean ungefär, och varför blir den relativt sett större än osäkerheten i varje enskild längd?</p><span class=\"fig\"><svg width=\"338\" height=\"258\" viewBox=\"0 0 338 258\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel med bredden 4,0 m och höjden 3,0 m\"><rect x=\"1\" y=\"1\" width=\"336\" height=\"256\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"78\" y=\"42\" width=\"200\" height=\"150\" fill=\"#F2F5F8\" stroke=\"#315F91\" stroke-width=\"2.5\"/><text x=\"178\" y=\"122\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">golv</text><g stroke=\"#50494B\" stroke-width=\"1.4\"><line x1=\"78\" y1=\"218\" x2=\"278\" y2=\"218\"/><line x1=\"78\" y1=\"212\" x2=\"78\" y2=\"224\"/><line x1=\"278\" y1=\"212\" x2=\"278\" y2=\"224\"/></g><text x=\"178\" y=\"238\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\">4,0 m</text><g stroke=\"#50494B\" stroke-width=\"1.4\"><line x1=\"52\" y1=\"42\" x2=\"52\" y2=\"192\"/><line x1=\"46\" y1=\"42\" x2=\"58\" y2=\"42\"/><line x1=\"46\" y1=\"192\" x2=\"58\" y2=\"192\"/></g><text x=\"43\" y=\"121\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12.5\">3,0 m</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>a) \\(4{,}0\\cdot3{,}0=\\)<strong>12,0 m²</strong></p><p>b) Minst: \\(3{,}95\\cdot2{,}95=\\)<strong>11,65 m²</strong><br>Störst: \\(4{,}05\\cdot3{,}05=\\)<strong>12,35 m²</strong></p><p>c) Osäkerheten är ungefär \\(\\pm0{,}35\\) m², alltså cirka 2,9 % av arean.<br><strong>Felen från de båda längderna slår igenom samtidigt när måtten multipliceras.</strong> Varje längd har en osäkerhet på drygt 1 %, och i en produkt adderas de ungefär, så arean får dubbelt så stor relativ osäkerhet</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>Ett golv mäts till 4,0 m × 3,0 m. Båda måtten har osäkerheten ±0,05 m.</p><p>a) Beräkna arean med de uppmätta värdena.<br>b) Bestäm minsta och största möjliga area.<br>c) Hur stor blir den ungefärliga absoluta areaosäkerheten och den relativa osäkerheten i procent, räknat från 12,0 m²?<br>d) Varför blir den relativa areaosäkerheten större än den relativa osäkerheten i ett enskilt längdmått?</p><p>d) Välj bäst förklaring:<br>A. I en produkt bidrar osäkerheten från båda längderna; små relativa fel adderas ungefär.<br>B. Area mäts i m², därför fördubblas alltid alla mätfel exakt.<br>C. Den längsta sidan bestämmer ensam osäkerheten i arean.<br>D. Osäkerheten beror bara på hur många decimaler som skrivs.</p>",
+    "s": "<p>a) 4,0·3,0 = <strong>12,0 m²</strong>.</p><p>b) Minst: 3,95·2,95 = 11,6525 ≈ <strong>11,65 m²</strong>. Störst: 4,05·3,05 = 12,3525 ≈ <strong>12,35 m²</strong>.</p><p>c) Det motsvarar ungefär ±0,35 m², eller 0,35/12·100 ≈ <strong>2,9 %</strong>.</p><p>d) <strong>A</strong>. När två osäkra längder multipliceras påverkar båda produkten; för små relativa fel blir den relativa osäkerheten ungefär summan av längdernas relativa osäkerheter.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
@@ -70504,22 +71684,18 @@ window.BANKMA1 = [
       11.65,
       12.35,
       0.35,
-      2.9
+      2.9,
+      "A"
     ],
     "tolerans": [
-      0.1,
       0.01,
       0.01,
       0.01,
-      0.1
+      0.02,
+      0.2,
+      null
     ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
@@ -70529,8 +71705,9 @@ window.BANKMA1 = [
       "a) area",
       "b) min area",
       "b) max area",
-      "c) ungefärlig ±area",
-      "c) relativ osäkerhet %"
+      "c) ungefär ± m²",
+      "c) ungefär %",
+      "d) alternativ"
     ],
     "manuellKomplettering": [
       false,
@@ -70539,7 +71716,18 @@ window.BANKMA1 = [
       true,
       true
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>För minsta area använder du båda minsta längderna; för största area båda största. Jämför sedan avvikelsen från 12,0 m².</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "spel": true
   },
   {
     "id": "7.18",
@@ -70550,18 +71738,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><p>a) Hur många m² material bör beställas? Svara med en decimal.<br>b) Materialet kostar 289 kr per m². Vad blir materialkostnaden?<br>c) Om spillet i stället kan hållas nere till 5 %, hur mycket sparar man i kronor?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(52\\cdot1{,}12=\\)<strong>58,2 m²</strong></p><p>b) \\(58{,}24\\cdot289\\approx\\)<strong>16 831 kr</strong></p><p>c) Vid 5 % spill: \\(52\\cdot1{,}05=54{,}6\\) m², vilket kostar \\(54{,}6\\cdot289=15\\,779\\) kr.<br>Besparingen blir \\(16\\,831-15\\,779=\\)<strong>ungefär 1 050 kr</strong></p></div></div>",
+    "t": "<p>Ett golv på 52 m² ska läggas. Materialåtgången ökas med 12 % för spill.</p><p>a) Hur många m² material behövs? Svara med en decimal.<br>b) Materialet kostar 289 kr per m². Beräkna materialkostnaden med den exakta mängden 58,24 m² och avrunda till hela kronor.<br>c) Om spillet i stället kan hållas nere till 5 %, hur mycket sparas jämfört med 12 % spill? Avrunda till hela kronor.</p>",
+    "s": "<p>a) 52·1,12 = 58,24 ≈ <strong>58,2 m²</strong>.</p><p>b) 58,24·289 = 16 831,36 ≈ <strong>16 831 kr</strong>.</p><p>c) Vid 5 % spill behövs 52·1,05 = 54,6 m² och kostnaden blir 15 779,40 kr. Besparingen är 16 831,36−15 779,40 = 1 051,96 ≈ <strong>1 052 kr</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "58.2",
-      "16831",
-      "1050"
+      58.2,
+      16831,
+      1052
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.1,
+      1,
+      1
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -70594,7 +71786,10 @@ window.BANKMA1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>Jämför kostnaderna för förändringsfaktorerna 1,12 och 1,05. Använd samma pris per m² i båda fallen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.19",
@@ -70606,7 +71801,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Företag A: 950 kr start + 410 kr/h. B: 520 kr/h utan start. När kostar de lika?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\(950+410t=520t\\Rightarrow\\)<strong>\\(t\\approx8,64\\) h</strong>.</p>",
+    "s": "<p>Sätt kostnaderna lika: 950+410t = 520t. Då är 950 = 110t och t = 950/110 ≈ <strong>8,64 h</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": true,
@@ -70618,7 +71813,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Skriv en kostnad för varje företag som funktion av tiden och sätt dem lika.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.20",
@@ -70630,7 +71828,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Material kostar 160 kr/m². Kostnad för 14,5 m²?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p><strong>2320 kr</strong>.</p></div></div>",
+    "s": "<p>14,5·160 = <strong>2 320 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -70641,7 +71839,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Multiplicera area med pris per kvadratmeter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.21",
@@ -70650,10 +71851,10 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Vatten utvidgas ungefär 2 % när det värms från 10 °C till 80 °C. Därför måste ett värmesystem ha ett expansionskärl som tar upp volymökningen.</p><p>Ett system innehåller 240 liter vatten.</p><p>a) Hur många liter utvidgas vattnet?<br>b) Kärlet ska enligt branschregeln rymma minst 1,5 gånger volymökningen. Hur stort kärl krävs som minst?<br>c) Kärl finns i storlekarna 8, 12 och 18 liter. Vilket ska väljas, och varför inte det minsta som råkar vara tillräckligt stort i teorin?</p>",
-    "s": "<p>a) \\(0{,}02\\cdot240=\\)<strong>4,8 liter</strong></p><p>b) \\(4{,}8\\cdot1{,}5=\\)<strong>7,2 liter</strong></p><p>c) Av de tillgängliga storlekarna är 8 liter det minsta som klarar kravet på 7,2 liter, eftersom \\(8&gt;7{,}2\\).</p><p><strong>Ett kärl på 8 liter väljs.</strong></p><p>Marginalen är dock knapp, bara \\(8-7{,}2=0{,}8\\) liter. Räknar man med att systemet kan komma att fyllas på, att temperaturen kan bli högre än 80 °C, eller att volymen 240 liter är uppskattad, är 12 liter ett tryggare val. Säkerhetsmarginalen 1,5 är ett minimikrav, inte ett mål att lägga sig precis på.</p>",
+    "niva": "C",
+    "poang": "1/2/0",
+    "t": "<p>Vatten utvidgas ungefär 2 % när det värms från 10 °C till 80 °C. Ett värmesystem innehåller 240 liter vatten.</p><p>a) Hur stor blir volymökningen?<br>b) Branschregeln säger att expansionskärlet ska rymma minst 1,5 gånger volymökningen. Hur stor minimivolym ger regeln?<br>c) Företaget vill dessutom ha minst 20 % extra reserv utöver denna minimivolym. Kärl finns på 8, 12 och 18 liter. Vilket är det minsta som uppfyller även företagets krav?</p>",
+    "s": "<p>a) 0,02·240 = <strong>4,8 L</strong>.</p><p>b) 4,8·1,5 = <strong>7,2 L</strong>.</p><p>c) Med 20 % extra reserv krävs 7,2·1,20 = 8,64 L. 8 L räcker inte; minsta tillgängliga storlek som klarar kravet är <strong>12 L</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": false,
@@ -70661,18 +71862,10 @@ window.BANKMA1 = [
     "rättSvar": [
       4.8,
       7.2,
-      8
+      12
     ],
-    "tolerans": [
-      0.1,
-      0.1,
-      0
-    ],
-    "självrättning": [
-      true,
-      true,
-      true
-    ],
+    "tolerans": null,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
@@ -70687,7 +71880,10 @@ window.BANKMA1 = [
       false,
       true
     ],
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>Skilj på volymökningen, branschregelns faktor 1,5 och företagets ytterligare 20 % reserv.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.22",
@@ -70751,8 +71947,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>På en färgburk står att åtgången är 7,5 m² per liter. Du har 18 liter färg.</p><p>a) Hur stor yta räcker färgen till enligt burken?<br>b) Ytan som ska målas är 160 m² och ska målas i två lager. Räcker färgen?<br>c) Förklara varför tillverkarens tabellvärde ändå kan behöva justeras i praktiken.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(18\\cdot7{,}5=\\)<strong>135 m²</strong></p><p>b) Två lager på 160 m² kräver \\(2\\cdot160=320\\) m² täckning. <strong>Nej, 135 m² räcker inte</strong> – det fattas 185 m², vilket motsvarar \\(\\frac{185}{7{,}5}\\approx24{,}7\\) liter till</p><p>c) Tabellvärdet gäller för ett jämnt, förbehandlat underlag. På ett sugande, ojämnt eller mörkt underlag går det åt mer färg, och en del färg går förlorad i pensel, roller och kärl. <strong>Tabellvärdet bör därför ses som ett bästa fall och kompletteras med en marginal.</strong></p></div></div>",
+    "t": "<p>På en färgburk står att åtgången är 7,5 m² per liter. Du har 18 liter färg.</p><p>a) Hur stor yta räcker färgen till enligt tabellvärdet?<br>b) En yta på 160 m² ska målas i två lager. Räcker färgen?<br>c) Vilket påstående beskriver bäst varför tabellvärdet ändå kan behöva justeras i praktiken?</p><p>A. Tabellvärdet gäller bara om färgen förvaras i exakt 20 °C; annars halveras täckningen alltid.<br>B. Sugande/ojämna underlag och förluster i roller, pensel och kärl kan öka åtgången, så en marginal kan behövas.<br>C. Tabellvärdet är alltid exakt så länge samma antal liter används, oavsett underlag och metod.<br>D. Färg åtgång påverkas bara av väggens höjd; underlag och antal lager saknar betydelse.</p>",
+    "s": "<p>a) 18·7,5 = <strong>135 m²</strong>.</p><p>b) Två lager på 160 m² kräver 320 m² täckning, så <strong>nej</strong>.</p><p>c) <strong>B</strong>. Verklig åtgång kan bli större än tabellvärdet på grund av underlag och praktiska förluster.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": true,
@@ -70760,29 +71956,28 @@ window.BANKMA1 = [
     "rättSvar": [
       135,
       "nej",
-      null
+      "B"
     ],
     "tolerans": null,
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a) yta m²",
-      "b) räcker?",
-      "c) förklaring"
+      "a) m²",
+      "b) ja/nej",
+      "c) alternativ"
     ],
     "svarFormat": [
       "numeriskt",
       "kort_text",
-      null
+      "kort_text"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Skilj mellan tabellens teoretiska täckning och faktisk materialåtgång i en verklig arbetsmiljö.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.25",
@@ -70794,7 +71989,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "2/1/0",
     "t": "<p>Ett arbete kräver netto 6,5 m² plattor. Man räknar med 8 % spill.</p><p>a) Hur många m² bör beställas? Svara med två decimaler.<br>b) Plattorna säljs i hela paket om 1,2 m². Hur många paket behövs?<br>c) Hur många m² blir över när paketen köpts?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(6{,}5\\cdot1{,}08=\\)<strong>7,02 m²</strong></p><p>b) \\(\\frac{7{,}02}{1{,}2}=5{,}85\\). Man kan bara köpa hela paket, alltså <strong>6 paket</strong></p><p>c) \\(6\\cdot1{,}2=7{,}2\\) m² köps in och 7,02 m² behövs: <strong>0,18 m² blir över</strong></p></div></div>",
+    "s": "<p>a) 6,5·1,08 = <strong>7,02 m²</strong>.</p><p>b) 7,02/1,2 = 5,85, så det krävs <strong>6 paket</strong>.</p><p>c) 6 paket innehåller 7,2 m²; 7,2−7,02 = <strong>0,18 m²</strong> blir över.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
@@ -70837,7 +72032,10 @@ window.BANKMA1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>Räkna först fram behovet inklusive spill. Paketantalet måste sedan avrundas uppåt.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.26",
@@ -70849,7 +72047,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En planritning är gjord i skala 1:50 men skrivs ut förminskad till 80 % av originalets längd och bredd.</p><span class=\"fig\"><svg width=\"405\" height=\"220\" viewBox=\"0 0 405 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"ritning som skrivs ut i 80 procent\"><rect x=\"1\" y=\"1\" width=\"403\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<rect x=\"35\" y=\"48\" width=\"145\" height=\"118\" fill=\"#F8F7F5\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<rect x=\"250\" y=\"68\" width=\"116\" height=\"94\" fill=\"#F8F7F5\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"190\" y1=\"105\" x2=\"235\" y2=\"105\" stroke=\"#777\" stroke-width=\"2\"/>\n<polygon points=\"235,105 224,99 224,111\" fill=\"#777\"/>\n<text x=\"107\" y=\"185\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">original 1:50</text>\n<text x=\"308\" y=\"185\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">utskrift 80 %</text>\n<text x=\"212\" y=\"92\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">förminskas</text>\n</svg></span><p>På den förminskade utskriften mäter ett rum 6,4 cm × 4,8 cm.</p><p>a) Bestäm utskriftens effektiva skala.<br>b) Bestäm rummets verkliga area.<br>c) Hur många procent för liten area får man om man av misstag fortfarande räknar med skala 1:50?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) När ritningen förminskas till 80 % måste varje centimeter på utskriften motsvara \\(\\frac{50}{0,80}=62,5\\) cm i verkligheten. <strong>Effektiv skala är 1:62,5.</strong></p><p>b) 6,4 cm motsvarar 4,0 m och 4,8 cm motsvarar 3,0 m. <strong>Arean är 12,0 m².</strong></p><p>c) Med felaktig skala 1:50 skulle man få \\(3,2\\cdot2,4=7,68\\) m². Det är \\((12-7,68)/12=0,36\\), alltså <strong>36 % för liten area</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>a) När utskriften förminskas till 80 % måste 1 cm på utskriften motsvara 50/0,80 = 62,5 cm i verkligheten. Effektiv skala: <strong>1:62,5</strong>.</p><p>b) 6,4 cm → 4,0 m och 4,8 cm → 3,0 m. Arean är <strong>12 m²</strong>.</p><p>c) Om man felaktigt använder 1:50 får man 3,2·2,4 = 7,68 m². Det är (12−7,68)/12 = <strong>36 % för litet</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
@@ -70874,7 +72072,10 @@ window.BANKMA1 = [
       "numeriskt",
       "procent"
     ],
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Förminskningen 80 % gäller längder. När längdskalan ändras påverkas arean med kvadraten av längdförändringen.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.27",
@@ -70883,13 +72084,13 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En yta på 180 m² ska beläggas med ett 25 µm tjockt skikt. Materialets densitet är 1,35 g/cm³.</p><p>a) Hur många kilogram material finns i skiktet?<br>b) Hur mycket bör beställas med 7 % spill?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p><p>25 µm = \\(25\\cdot10^{-6}\\) m, Volym = 0,0045 m³, Densitet = 1350 kg/m³,</p><p>Massan = <strong>6,075 kg</strong>, Med spill = <strong>6,500 kg</strong>,</p>",
+    "s": "<p>25 µm = 25·10⁻⁶ m. Skiktets volym är 180·25·10⁻⁶ = 0,0045 m³.</p><p>1,35 g/cm³ = 1 350 kg/m³. Massan blir 0,0045·1350 = <strong>6,075 kg</strong>.</p><p>Med 7 % spill: 6,075·1,07 ≈ <strong>6,50 kg</strong>.</p>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       6.075,
@@ -70901,7 +72102,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>Gör tjockleken till meter och densiteten till kg/m³ innan du multiplicerar area · tjocklek · densitet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.28",
@@ -70912,19 +72116,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Längden 12,4 m och bredden 6,8 m är avrundade till närmaste tiondels meter.</p><p>Bestäm det minsta och största möjliga värdet på rektangelns omkrets.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Längden 12,4 m betyder</p><p>\\[12{,}35\\le L&lt;12{,}45,\\]</p><p>och bredden 6,8 m betyder</p><p>\\[6{,}75\\le B&lt;6{,}85.\\]</p><p>Den minsta möjliga omkretsen fås av de minsta måtten:</p><p>\\[2(12{,}35+6{,}75)=38{,}2\\text{ m}.\\]</p><p>Den största möjliga omkretsen ligger precis under</p><p>\\[2(12{,}45+6{,}85)=38{,}6\\text{ m}.\\]</p><p><strong>Svar: omkretsen kan vara från 38,2 m upp till strax under 38,6 m.</strong></p></div></div>",
+    "t": "<p>Längden 12,4 m och bredden 6,8 m är avrundade till närmaste tiondels meter. Vilket intervall måste rektangelns verkliga omkrets ligga i?</p><p>A. 38,2 m ≤ P &lt; 38,6 m<br>B. 38,2 m &lt; P ≤ 38,6 m<br>C. 38,4 m ≤ P &lt; 38,8 m<br>D. 38,0 m ≤ P &lt; 38,4 m</p>",
+    "s": "<p>Verklig längd ligger i intervallet 12,35 ≤ L &lt; 12,45 och bredden i 6,75 ≤ B &lt; 6,85.</p><p>P=2(L+B), så <strong>38,2 ≤ P &lt; 38,6 m</strong>.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Ett värde avrundat till en tiondel kan avvika med upp till 0,05 från det visade värdet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.29",
@@ -70936,37 +72143,52 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Ange mellan vilka värden det verkliga måttet bedöms ligga.</p><p>a) 50,0 cm med osäkerheten \\(\\pm0{,}5\\) cm<br>b) 12,0 kg med osäkerheten \\(\\pm0{,}2\\) kg<br>c) 100 ml med osäkerheten \\(\\pm2\\) ml</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) <strong>49,5 cm till 50,5 cm</strong></p><p>b) <strong>11,8 kg till 12,2 kg</strong></p><p>c) <strong>98 ml till 102 ml</strong></p></div></div>",
+    "s": "<p>a) 50,0 ± 0,5 ger <strong>49,5–50,5 cm</strong>.</p><p>b) 12,0 ± 0,2 ger <strong>11,8–12,2 kg</strong>.</p><p>c) 100 ± 2 ger <strong>98–102 ml</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      [
-        49.5,
-        50.5
-      ],
-      [
-        11.8,
-        12.2
-      ],
-      [
-        98,
-        102
-      ]
+      49.5,
+      50.5,
+      11.8,
+      12.2,
+      98,
+      102
     ],
-    "tolerans": null,
+    "tolerans": [
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.1,
+      0.1
+    ],
     "självrättning": true,
     "formaga": [
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
     "svarFormat": [
-      "intervall_tal",
-      "intervall_tal",
-      "intervall_tal"
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Subtrahera felmarginalen för den nedre gränsen och addera den för den övre.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarEtiketter": [
+      "a) min",
+      "a) max",
+      "b) min",
+      "b) max",
+      "c) min",
+      "c) max"
+    ],
+    "spel": true
   },
   {
     "id": "7.30",
@@ -70978,7 +72200,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Hur mycket ska beställas när spillet räknas med?</p><p>a) 20 m² behövs, spill 10 %<br>b) 35 m behövs, spill 5 %<br>c) 60 st behövs, spill 15 %</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Multiplicera med förändringsfaktorn, till exempel \\(1{,}10\\) vid 10 % spill.</p><p>a) \\(20\\cdot1{,}10=\\)<strong>22 m²</strong></p><p>b) \\(35\\cdot1{,}05=\\)<strong>36,75 m</strong></p><p>c) \\(60\\cdot1{,}15=\\)<strong>69 st</strong></p></div></div>",
+    "s": "<p>a) 20·1,10 = <strong>22 m²</strong>.<br>b) 35·1,05 = <strong>36,75 m</strong>.<br>c) 60·1,15 = <strong>69 st</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -71021,7 +72243,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>Använd förändringsfaktorn 1 + spillandelen för varje del.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.31",
@@ -71030,10 +72255,10 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "1/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Ett arbete tar 4,5 timmar. Timpriset är 640 kr och materialet kostar 2 350 kr. Priserna är angivna utan moms.</p><p>a) Beräkna kostnaden utan moms.<br>b) Momsen är 25 %. Vad blir priset inklusive moms?<br>c) Kunden har fått en offert på 6 000 kr inklusive moms. Räcker offerten?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(4{,}5\\cdot640+2\\,350=2\\,880+2\\,350=\\)<strong>5 230 kr</strong></p><p>b) \\(5\\,230\\cdot1{,}25=\\)<strong>6 537,50 kr</strong></p><p>c) <strong>Nej.</strong> Det verkliga priset 6 537,50 kr överstiger offerten med \\(6\\,537{,}50-6\\,000=537{,}50\\) kr</p></div></div>",
+    "s": "<p>a) 4,5·640+2 350 = <strong>5 230 kr</strong>.</p><p>b) 5 230·1,25 = <strong>6 537,50 kr</strong>.</p><p>c) <strong>Nej</strong>. Priset överstiger 6 000 kr med 537,50 kr.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -71050,7 +72275,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Dela upp kostnaden i fasta och rörliga delar om båda förekommer. Multiplicera pris per enhet med antal och kontrollera att moms, rabatt eller annan procentuell förändring appliceras på rätt belopp.</p>"
+    "ledtrad": "<p>Räkna först arbetskostnad + material utan moms. Lägg därefter på 25 % moms på hela summan.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.32",
@@ -71062,7 +72290,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "2/1/0",
     "t": "<p>En lyftögla är märkt med brottgränsen 2 500 N. Enligt arbetsplatsens regler får man högst belasta den till 65 % av brottgränsen.</p><p>a) Hur stor last tillåter regeln?<br>b) En last väger 150 kg. Tyngdkraften beräknas med \\(F=mg\\), där \\(g=9{,}82\\) N/kg. Är lasten tillåten?<br>c) Vilken är den tyngsta last i kilogram som regeln tillåter? Svara i hela kilogram.</p><span class=\"fig\"><svg width=\"430\" height=\"175\" viewBox=\"0 0 430 175\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Mätare där tillåten last 1625 N markeras av maxlasten 2500 N\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"62\" y=\"65\" width=\"326\" height=\"38\" rx=\"6\" fill=\"#F3EFEC\" stroke=\"#D9D3CE\"/><rect x=\"62\" y=\"65\" width=\"211.9\" height=\"38\" rx=\"6\" fill=\"#3F7A55\" opacity=\"0.28\"/><line x1=\"273.9\" y1=\"57\" x2=\"273.9\" y2=\"111\" stroke=\"#3F7A55\" stroke-width=\"3.5\"/><line x1=\"388\" y1=\"57\" x2=\"388\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3.5\"/><text x=\"273.9\" y=\"48\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#3F7A55\" font-weight=\"700\">tillåten gräns</text><text x=\"388\" y=\"131\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"700\">max 2500 N</text><text x=\"62\" y=\"131\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">0</text><text x=\"215\" y=\"158\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">65 % av maxlasten</text></svg></span>",
-    "s": "<p>a) \\(2\\,500\\cdot0{,}65=\\)<strong>1 625 N</strong></p><p>b) \\(F=150\\cdot9{,}82=1\\,473\\) N, vilket är mindre än 1 625 N. <strong>Ja, lasten är tillåten.</strong></p><p>c) \\(m=\\frac{1\\,625}{9{,}82}\\approx165{,}5\\), alltså <strong>165 kg</strong> (avrundat nedåt, eftersom 166 kg skulle överskrida gränsen)</p>",
+    "s": "<p>a) 0,65·2 500 = <strong>1 625 N</strong>.</p><p>b) 150·9,82 = 1 473 N, vilket är under gränsen: <strong>ja</strong>.</p><p>c) 1 625/9,82 ≈ 165,48 kg. För att säkert ligga under gränsen avrundas nedåt: <strong>165 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
@@ -71110,7 +72338,10 @@ window.BANKMA1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>Räkna först fram tillåten kraft. Jämför sedan 150 kg-lastens tyngdkraft med den, och arbeta baklänges i c.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.33",
@@ -71148,7 +72379,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett mätinstrument visar 2,438 kg. I protokollet ska massan anges till närmaste 0,01 kg. Vad ska skrivas?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p><p><strong>Svar:</strong> <strong>2,44 kg</strong></p>",
+    "s": "<p>Till närmaste 0,01 kg blir 2,438 kg <strong>2,44 kg</strong>, eftersom tusendelen är 8.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
@@ -71159,7 +72390,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p>"
+    "ledtrad": "<p>Titta på tredje decimalen när du ska avrunda till två decimaler.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.35",
@@ -71228,7 +72462,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv först ordinerad mängd och tillgänglig styrka med samma enhet. Använd förhållandet mellan mängd aktiv substans och volym/tablett, och kontrollera att den beräknade dosen är rimlig.</p>"
+    "ledtrad": "<p>1 g = 1 000 mg och 1 mg = 1 000 µg.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.37",
@@ -71279,25 +72516,24 @@ window.BANKMA1 = [
       "1a"
     ],
     "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Gör om enheterna.</p><p>a) 2 g till mg<br>b) 0,75 g till mg<br>c) 500 µg till mg</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> \\(1\\) g \\(=1\\,000\\) mg och \\(1\\) mg \\(=1\\,000\\) µg.</p><p>a) <strong>2 000 mg</strong></p><p>b) <strong>750 mg</strong></p><p>c) <strong>0,5 mg</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "poang": "1/0/0",
+    "t": "<p>Vilken av följande massor är störst?</p><p>A. 750 mg<br>B. 0,80 g<br>C. 850 000 µg<br>D. De är lika stora</p>",
+    "s": "<p>I gram är mängderna 0,750 g, 0,80 g och 0,850 g. <strong>850 000 µg</strong> är störst.</p><p><strong>Svar: C.</strong></p>",
     "familj": "Läkemedelsberäkningar och dosering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      2000,
-      750,
-      0.5
-    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Skriv först ordinerad mängd och tillgänglig styrka med samma enhet. Använd förhållandet mellan mängd aktiv substans och volym/tablett, och kontrollera att den beräknade dosen är rimlig.</p>"
+    "ledtrad": "<p>Skriv alla tre massorna i samma enhet innan du jämför.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.39",
@@ -71405,8 +72641,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>200 ml koncentrat späds till totalt 1000 ml. Hur stor andel är koncentrat?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p><strong>20 %</strong>.</p>",
+    "t": "<p>200 ml koncentrat späds till totalt 1 000 ml. Hur många procent av den färdiga blandningen är koncentrat?</p>",
+    "s": "<p>Andelen är 200 / 1000 = 0,20 = <strong>20 %</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
@@ -71417,7 +72653,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Dividera koncentratets volym med blandningens totala volym.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.43",
@@ -71428,8 +72667,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En 10-procentig lösning har volymen 8 L. 2 L vatten avdunstar, men inget löst ämne. Ny koncentration?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p>Ämne 0,8 L, ny volym 6 L. <strong>Cirka 13,3 %</strong>.</p>",
+    "t": "<p>En lösning på 8,0 L innehåller 10 volymprocent löst ämne. 2,0 L vatten avdunstar, men inget av det lösta ämnet försvinner. Vilken blir den nya koncentrationen i volymprocent? Svara med en decimal.</p>",
+    "s": "<p>Från början finns 0,10 · 8,0 = 0,8 L löst ämne. Efter avdunstningen är totalvolymen 6,0 L.</p><p>0,8 / 6,0 ≈ 0,133, alltså <strong>13,3 %</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
@@ -71441,7 +72680,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Mängden löst ämne är oförändrad. Det är bara totalvolymen som minskar.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.44",
@@ -71496,7 +72738,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Koppla flöde, volym och tid med \\(Q=V/t\\). Om rörens dimensioner ingår, bestäm tvärsnittsarean från diametern och håll alla längdenheter konsekventa innan du räknar.</p>"
+    "ledtrad": "<p>1 minut = 60 sekunder och 1 m³ = 1 000 liter. Följ enheterna steg för steg.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.45",
@@ -71613,7 +72858,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 66.7,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt"
   },
   {
@@ -71638,7 +72883,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 108.7,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "g"
   },
@@ -71844,8 +73089,8 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "2/1/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>En procentlösning anger hur många gram som finns i 100 ml. Natriumklorid 0,9 % innehåller alltså 0,9 g per 100 ml.</p><p>a) Hur många gram natriumklorid finns i 500 ml av en 0,9-procentig lösning?<br>b) Hur många gram finns i 1 000 ml?<br>c) Hur många gram glukos finns i 250 ml av en 5-procentig lösning?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>a) \\(\\frac{500}{100}\\cdot0{,}9=5\\cdot0{,}9=\\)<strong>4,5 g</strong></p><p>b) \\(10\\cdot0{,}9=\\)<strong>9 g</strong></p><p>c) \\(\\frac{250}{100}\\cdot5=2{,}5\\cdot5=\\)<strong>12,5 g</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
     "familj": "Koncentration, spädning och blandningar",
@@ -71890,7 +73135,10 @@ window.BANKMA1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>p % (m/V) betyder p gram per 100 ml. Skala det förhållandet till den aktuella volymen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.58",
@@ -71902,7 +73150,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>2,0 L av en 30-procentig lösning späds med vatten till 12 %. Hur stor blir slutvolymen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p>Ämnesmängd 0,60 L. \\(0,60/V=0,12\\Rightarrow\\)<strong>5,0 L</strong>.</p>",
+    "s": "<p>Mängden löst ämne är oförändrad. Från början motsvarar den 0,30 · 2,0 = 0,60 L av lösningen. Vid 12 % ska 0,60 vara 12 % av slutvolymen V:</p><p>0,12V = 0,60 ⇒ V = <strong>5,0 L</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
@@ -71914,7 +73162,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Vid spädning med vatten ändras inte mängden löst ämne. Sätt därför mängden löst ämne före och efter lika.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.59",
@@ -71939,7 +73190,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 9.65,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "liter"
   },
@@ -71991,7 +73242,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1762,
     "självrättning": true,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "svarFormat": "numeriskt",
     "svarEnhet": "kr"
   },
@@ -72048,7 +73299,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv först storheterna med samma enhet. Behandla prefix som tiopotenser; tänk på att omvandlingsfaktorn måste kvadreras för area och kuberas för volym.</p>"
+    "ledtrad": "<p>1 m³ = 1 000 L och 1 L = 1 000 cm³.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.63",
@@ -72136,10 +73390,10 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>En maskin använder 14 kWh för 350 enheter. Vid samma specifika energianvändning ska 1200 enheter produceras. Elpris 1,35 kr/kWh. Beräkna energikostnaden.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p>0,04 kWh/enhet, alltså 48 kWh. <strong>64,80 kr.</strong></p>",
+    "s": "<p>Energianvändning per enhet: 14 / 350 = 0,04 kWh.</p><p>För 1 200 enheter behövs 48 kWh. Kostnaden blir 48 · 1,35 = <strong>64,80 kr</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": false,
@@ -72150,7 +73404,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Bestäm först kWh per producerad enhet och skala sedan upp till 1 200 enheter. Multiplicera sist med elpriset.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.67",
@@ -72173,7 +73430,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Bestäm hur många kvadratmeter en liter räcker till.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.68",
@@ -72219,7 +73479,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>1 L = 1 000 ml, men 1 m³ = 1 000 L. Var därför särskilt uppmärksam på riktningen i del b.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.69",
@@ -72231,18 +73494,40 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En tank rymmer 1,8 m³ och innehåller redan 0,35 m³. Den fylls med ett konstant flöde på 18 liter per minut.</p>\n<p>Hur lång tid tar det tills tanken är full? Svara i minuter och ungefär i timmar och minuter.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> 1,8 m³ = 1800 L och 0,35 m³ = 350 L.</p>\n<p>Det återstår \\(1800-350=1450\\) L.</p>\n<p>\\(\\frac{1450}{18}\\approx80,56\\) min.</p>\n<p><strong>Svar:</strong> <strong>Cirka 80,6 min, alltså ungefär 1 h 21 min.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Det återstår 1,8−0,35 = 1,45 m³ = 1 450 L. Med 18 L/min tar det 1450/18 ≈ <strong>80,6 min</strong>.</p><p>Det är ungefär <strong>1 h 21 min</strong>.</p>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      80.6,
+      1,
+      21
+    ],
+    "tolerans": [
+      0.2,
+      null,
+      1
+    ],
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv först storheterna med samma enhet. Behandla prefix som tiopotenser; tänk på att omvandlingsfaktorn måste kvadreras för area och kuberas för volym.</p>"
+    "ledtrad": "<p>Räkna först ut återstående volym och gör den till liter. Dividera sedan med liter per minut.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "minuter",
+      "hela timmar",
+      "ungefär resterande minuter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "heltal",
+      "heltal"
+    ]
   },
   {
     "id": "7.70",
@@ -72254,7 +73539,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>12 delar kostar 38 kr styck. Vad blir kostnaden?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p><strong>Svar:</strong> <strong>456 kr</strong></p></div></div>",
+    "s": "<p>12·38 = <strong>456 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -72265,7 +73550,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Pris per styck multipliceras med antal.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.71",
@@ -72274,22 +73562,25 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En sats har fast startkostnad 1800 kr och rörlig kostnad 72 kr per producerad enhet. I genomsnitt kasseras 6 %, så 94 % kan säljas. Den genomsnittliga kostnaden per säljbar enhet ska vara högst 90 kr.</p><p>Hur många enheter måste minst produceras?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\((1800+72n)/(0,94n)\\le90\\Rightarrow1800\\le12,6n\\Rightarrow n\\ge142,857...\\).</p><p><strong>Svar:</strong> <strong>Minst 143 enheter.</strong></p>",
+    "s": "<p>Produceras n enheter blir kostnaden 1 800+72n, men bara 0,94n enheter kan säljas.</p><p>Kravet blir (1800+72n)/(0,94n) ≤ 90.</p><p>1800+72n ≤ 84,6n ⇒ 1800 ≤ 12,6n ⇒ n ≥ 142,857...</p><p>Antalet måste vara helt, alltså minst <strong>143 enheter</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "143",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "begrepp",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Nämnaren i genomsnittskostnaden ska vara antalet säljbara enheter, alltså 94 % av det producerade antalet. Avrunda slutligen uppåt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.72",
@@ -72301,15 +73592,15 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Beräkna den tillåtna belastningen.</p><p>a) Maxvärde 1 600 N, får belastas till 80 %<br>b) Maxvärde 250 kg, får belastas till 70 %<br>c) Maxvärde 40 liter, får fyllas till 90 %</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(1\\,600\\cdot0{,}80=\\)<strong>1 280 N</strong></p><p>b) \\(250\\cdot0{,}70=\\)<strong>175 kg</strong></p><p>c) \\(40\\cdot0{,}90=\\)<strong>36 liter</strong></p></div></div>",
+    "s": "<p>a) 1 600·0,80 = <strong>1 280 N</strong>.<br>b) 250·0,70 = <strong>175 kg</strong>.<br>c) 40·0,90 = <strong>36 L</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "1280 N",
-      "175",
-      "36"
+      1280,
+      175,
+      36
     ],
     "tolerans": null,
     "självrättning": true,
@@ -72344,7 +73635,20 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>Multiplicera maxvärdet med den tillåtna andelen i varje del.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarEtiketter": [
+      "a) N",
+      "b) kg",
+      "c) liter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spel": true
   },
   {
     "id": "7.73",
@@ -72375,7 +73679,7 @@ window.BANKMA1 = [
     "tolerans": [
       1e-10,
       1e-10,
-      1e-06
+      0.000001
     ],
     "svarFormat": [
       "numeriskt",
@@ -72404,7 +73708,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett golv är 42 m². Man räknar med 7 % spill. Hur mycket material bör beställas?</p><span class=\"fig\"><svg width=\"313\" height=\"258\" viewBox=\"0 0 313 258\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel med bredden 7,0 m och höjden 6,0 m\"><rect x=\"1\" y=\"1\" width=\"311\" height=\"256\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"78\" y=\"42\" width=\"175\" height=\"150\" fill=\"#F2F5F8\" stroke=\"#315F91\" stroke-width=\"2.5\"/><text x=\"166\" y=\"122\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">golv 42 m²</text><g stroke=\"#50494B\" stroke-width=\"1.4\"><line x1=\"78\" y1=\"218\" x2=\"253\" y2=\"218\"/><line x1=\"78\" y1=\"212\" x2=\"78\" y2=\"224\"/><line x1=\"253\" y1=\"212\" x2=\"253\" y2=\"224\"/></g><text x=\"166\" y=\"238\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\">7,0 m</text><g stroke=\"#50494B\" stroke-width=\"1.4\"><line x1=\"52\" y1=\"42\" x2=\"52\" y2=\"192\"/><line x1=\"46\" y1=\"42\" x2=\"58\" y2=\"42\"/><line x1=\"46\" y1=\"192\" x2=\"58\" y2=\"192\"/></g><text x=\"43\" y=\"121\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12.5\">6,0 m</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\(42\\cdot1,07=\\)<strong>44,94 m²</strong>.</p>",
+    "s": "<p>7 % spill ger förändringsfaktorn 1,07. 42·1,07 = <strong>44,94 m²</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": false,
@@ -72415,7 +73719,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Utgå från nettobehovet 42 m² och multiplicera med 1,07.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.75",
@@ -72427,7 +73734,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två delar mäts till \\(42,0\\pm0,2\\) cm och \\(18,0\\pm0,1\\) cm och ska monteras efter varandra.</p>\n<p>a) Bestäm minsta och största möjliga totallängd.<br>\nb) Konstruktionen kräver att totallängden ligger inom \\(60,0\\pm0,2\\) cm. Kan kravet garanteras utifrån mätintervallen? Motivera.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p>a) Minsta totallängd är \\(41,8+17,9=59,7\\) cm. Största är \\(42,2+18,1=60,3\\) cm.</p>\n<p>b) Kravet tillåter intervallet 59,8–60,2 cm. Det möjliga intervallet 59,7–60,3 cm är bredare.</p>\n<p><strong>Svar:</strong> <strong>Nej, kravet kan inte garanteras.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<p>a) Första delen kan vara 41,8–42,2 cm och den andra 17,9–18,1 cm. Summan kan därför ligga mellan <strong>59,7 och 60,3 cm</strong>.</p><p>b) Kravet 60,0 ± 0,2 cm tillåter bara 59,8–60,2 cm. Eftersom det möjliga intervallet är bredare kan kravet <strong>inte garanteras</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
@@ -72463,7 +73770,10 @@ window.BANKMA1 = [
       false,
       true
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Vid en garanti måste även de ogynnsammaste ändpunkterna klara kravet. Lägg ihop minvärden respektive maxvärden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.76",
@@ -72555,10 +73865,10 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Från början blandas råvara A och B i massförhållandet 3:2. Under processen försvinner 8 % av A och \\(p\\) % av B.</p>\n<p>Efter processen väger produkten 456 kg och förhållandet mellan de kvarvarande mängderna A och B är 23:15.</p>\n<p>Bestäm \\(p\\) och hur många kilogram A respektive B som vägdes upp från början.</p>",
-    "s": "<p><strong>Steg 1:</strong> Låt en ursprunglig proportionsdel vara \\(x\\) kg. Då startar man med \\(3x\\) kg A och \\(2x\\) kg B.</p>\n<p>Efter processen återstår \\(2,76x\\) kg A och \\(2(1-p/100)x\\) kg B.</p>\n<p>Förhållandet ger</p><p>\\[\\frac{2,76}{2(1-p/100)}=\\frac{23}{15}.\\]</p>\n<p>Detta ger \\(1-p/100=0,90\\), alltså <strong>\\(p=10\\%\\)</strong>.</p>\n<p>Den färdiga totalmassan är då \\((2,76+1,80)x=4,56x=456\\), så \\(x=100\\).</p>\n<p><strong>Svar:</strong> <strong>Från början vägdes 300 kg A och 200 kg B upp.</strong></p>",
+    "s": "<p>Sätt startmängderna till 3k och 2k. Efter processen återstår 0,92·3k = 2,76k av A och (1−p/100)·2k av B.</p><p>Villkoren ger totalt 456 kg och kvarvarande förhållande 23:15. Lösningen blir k=100. Alltså vägdes <strong>300 kg A</strong> och <strong>200 kg B</strong> upp.</p><p>Av B återstår då 180 kg, alltså 90 % av 200 kg. Därför är <strong>p=10 %</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       10,
@@ -72581,7 +73891,10 @@ window.BANKMA1 = [
       "numeriskt",
       "numeriskt"
     ],
-    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>"
+    "ledtrad": "<p>Utnyttja startförhållandet 3:2 genom att skriva mängderna som 3k och 2k. Jämför sedan de kvarvarande mängderna med förhållandet 23:15.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.80",
@@ -72663,7 +73976,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>0,9 % (m/V) betyder 0,9 g per 100 ml. 5 % (m/V) betyder 5 g per 100 ml.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.82",
@@ -72675,10 +73991,10 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En behållare innehåller 10 L 20-procentig lösning. Man tappar ut \\(x\\) L av den väl blandade lösningen och fyller på \\(x\\) L vatten. Samma procedur upprepas en gång till. Efter två omgångar är koncentrationen 12,8 %. Bestäm \\(x\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Vid varje omgång återstår andelen \\(1-x/10\\) av ämnet.</p><p>\\(0,20(1-x/10)^2=0,128\\Rightarrow(1-x/10)^2=0,64\\).</p><p><strong>Svar:</strong> <strong>\\(x=2,0\\) L.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Efter att x liter tappats ur och ersatts med vatten återstår andelen (1−x/10) av det lösta ämnet. Samma procedur görs två gånger:</p><p>0,20 · (1−x/10)^2 = 0,128.</p><p>Då är (1−x/10)^2 = 0,64. Eftersom 0≤x≤10 väljs den positiva roten: 1−x/10 = 0,8. Alltså <strong>x=2 L</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": null,
@@ -72688,7 +74004,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>Efter varje avtappning försvinner samma andel av både lösning och löst ämne eftersom blandningen är väl blandad.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.83",
@@ -72726,7 +74045,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Pris 4200 kr före 8 % rabatt.</p><p>a) Rabatt i kr?<br>b) Pris efter rabatt?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>a) <strong>336 kr</strong><br>b) <strong>3864 kr</strong>.</p>",
+    "s": "<p>a) Rabatten är 0,08·4 200 = <strong>336 kr</strong>.</p><p>b) 4 200−336 = <strong>3 864 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -72741,7 +74060,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Beräkna först 8 % av ursprungspriset och subtrahera sedan rabatten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.85",
@@ -72872,18 +74194,21 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En komponent får belastas med högst 800 N. Man använder en säkerhetsmarginal på 20 % och vill därför inte belasta den över 80 % av maxvärdet. Bestäm den tillåtna arbetsbelastningen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p><p>\\(0,80\\cdot800=\\)<strong>640 N</strong></p>",
+    "s": "<p>20 % marginal betyder att högst 80 % får användas: 0,80·800 = <strong>640 N</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "640 N",
+    "svarstyp": "numeriskt",
+    "rättSvar": 640,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt situationen till de matematiska storheter som ska jämföras. Håll isär absoluta tal, andelar och procentuella förändringar innan du drar slutsatsen.</p>"
+    "ledtrad": "<p>Användningsandelen är 100 %−20 % = 80 %.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.90",
@@ -72894,19 +74219,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett instrument har osäkerheten ±0,5 mm. Ett värde visas som 83,2 mm. Vilket intervall bör anges?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p><strong>82,7–83,7 mm</strong>.</p>",
+    "t": "<p>Ett instrument har osäkerheten ±0,5 mm och visar 83,2 mm. Vilket intervall bör anges?</p><p>A. 82,7–83,7 mm<br>B. 82,5–83,5 mm<br>C. 83,0–83,4 mm<br>D. 83,2–83,7 mm</p>",
+    "s": "<p>83,2−0,5 = 82,7 och 83,2+0,5 = 83,7. Intervallet är <strong>82,7–83,7 mm</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>Felgränsen ligger lika långt under och över det visade värdet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.91",
@@ -72915,22 +74243,25 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Varför kan en tabell eller mall vara bättre än huvudräkning i ett arbete där samma typ av beräkning görs många gånger?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p><p>Den minskar risken för slarvfel, gör arbetet snabbare och ger en enhetlig metod.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Varför är en välgjord tabell eller mall ofta bättre än huvudräkning när samma typ av beräkning görs många gånger?</p><p>A. Den kan ge en enhetlig metod och minska risken för upprepade slarvfel.<br>B. Den gör att indata inte längre behöver kontrolleras eftersom alla svar automatiskt blir rätt.<br>C. Den ersätter behovet av enheter eftersom kolumner alltid betyder samma sak.<br>D. Den gör uppskattningar onödiga eftersom rimlighetskontroll aldrig behövs.</p>",
+    "s": "<p><strong>A</strong> är korrekt. En mall kan standardisera återkommande beräkningar och minska slarv, men indata, enheter och rimlighet måste fortfarande kontrolleras.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p>"
+    "ledtrad": "<p>Fundera på vad ett verktyg kan standardisera – och vad användaren fortfarande måste kontrollera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.92",
@@ -72940,7 +74271,7 @@ window.BANKMA1 = [
       "1a"
     ],
     "niva": "C",
-    "poang": "2/1/0",
+    "poang": "1/2/0",
     "t": "<p>En ritning är gjord i skala 1:25.</p><p>a) En vägg är 12,4 cm på ritningen. Hur lång är den i verkligheten? Svara i meter.<br>b) En dörr är 2,00 m bred i verkligheten. Hur bred blir den på ritningen? Svara i centimeter.<br>c) Vad betyder skalan 1:25 med egna ord?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>a) \\(12{,}4\\cdot25=310\\) cm, alltså <strong>3,10 m</strong></p><p>b) \\(\\frac{200\\text{ cm}}{25}=\\)<strong>8,0 cm</strong></p><p>c) <strong>1 cm på ritningen motsvarar 25 cm i verkligheten</strong>, alltså är ritningen 25 gånger mindre än verkligheten</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
     "familj": "Skala och likformighet",
@@ -72964,7 +74295,10 @@ window.BANKMA1 = [
       "c) Verklig cm per ritad cm"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Skala 1:25 betyder att varje längd på ritningen ska multipliceras med 25 för att få verklig längd i samma enhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.93",
@@ -72976,7 +74310,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två likformiga skyltar har areorna 80 cm² respektive 180 cm². En viss längd på den mindre skylten är 5,0 cm.</p><p>Hur lång är motsvarande sträcka på den större skylten?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p><p>Areafaktorn är \\(\\frac{180}{80}=2,25\\). Längdfaktorn är \\(\\sqrt{2,25}=1,5\\).</p><p>\\(5,0\\cdot1,5=\\)<strong>7,5 cm</strong>.</p>",
+    "s": "<p>Areaförhållandet är 180/80 = 2,25. Längdskalfaktorn är därför √2,25 = 1,5.</p><p>Motsvarande längd blir 5,0·1,5 = <strong>7,5 cm</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
@@ -72987,7 +74321,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Areor skalar med längdfaktorn i kvadrat. Ta därför kvadratroten ur areaförhållandet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.94",
@@ -72998,8 +74335,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En bil är 4,6 m lång i verkligheten. En modell byggs i skala 1:20. Hur lång blir modellen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p><p>4,6 m = 460 cm. \\(\\frac{460}{20}=\\)<strong>23 cm</strong>.</p>",
+    "t": "<p>En bil är 4,6 m lång i verkligheten. En modell byggs i skala 1:20. Hur lång blir modellen? Svara i centimeter.</p>",
+    "s": "<p>4,6 m = 460 cm. Modellen blir 460/20 = <strong>23 cm</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
@@ -73010,7 +74347,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Gör först verklig längd till centimeter och dividera sedan med 20.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.95",
@@ -73033,7 +74373,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Skala först rummets mått till meter. Subtrahera skåpets area, lägg på 8 % spill och avrunda sedan antalet paket uppåt.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.96",
@@ -73044,7 +74387,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>På en ritning i skala 1:40 är en detalj 7,5 cm lång. Hur lång är den i verkligheten?</p>",
+    "t": "<p>På en ritning i skala 1:40 är en detalj 7,5 cm lång. Hur lång är den i verkligheten? Svara i meter.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p><p>\\(7,5\\cdot40=300\\) cm.</p><p><strong>Svar:</strong> <strong>3,0 m</strong></p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
@@ -73056,7 +74399,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.97",
@@ -73068,10 +74414,10 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>På en karta är en väg som är 2,4 km i verkligheten 6,0 cm lång. En sjö täcker 18 cm² på samma karta.</p><p>Bestäm sjöns verkliga area i km². Motivera varför man inte kan använda samma skalfaktor direkt på area som på längd.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> 2,4 km = 240 000 cm, så skalan är \\(240\\,\\frac{000}{6}=40\\,000\\), alltså 1:40 000.</p><p>1 cm på kartan motsvarar 0,4 km i verkligheten. Därför motsvarar 1 cm² \\(0,4^2=0,16\\) km².</p><p>\\(18\\cdot0,16=\\)<strong>2,88 km²</strong>.</p><p>Area förändras med <strong>kvadraten</strong> på längdskalfaktorn.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p>2,4 km = 240 000 cm. Eftersom 6,0 cm på kartan motsvarar 240 000 cm i verkligheten är längdskalan 1:40 000.</p><p>Area skalar med kvadraten av längdfaktorn: 40 000² = 1,6·10⁹. Sjöns verkliga area är 18·1,6·10⁹ cm² = 2,88·10¹⁰ cm² = <strong>2,88 km²</strong>.</p><p>Man kan inte multiplicera kartarean med 40 000, eftersom både längd och bredd skalar med 40 000. Därför måste areafaktorn vara 40 000².</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -73081,7 +74427,10 @@ window.BANKMA1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Bestäm först längdskalan. För area påverkas två oberoende längdriktningar, så längdfaktorn måste användas två gånger.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "7.98",
@@ -73104,7 +74453,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.99",
@@ -73127,7 +74479,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.100",
@@ -73150,7 +74505,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.101",
@@ -73173,7 +74531,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>"
+    "ledtrad": "<p>Börja med längdskalan. På formelbladet finns att areaskalan är \\((\\text{längdskalan})^2\\) och volymskalan är \\((\\text{längdskalan})^3\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.102",
@@ -73184,19 +74545,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Uppskatta 19 % av 510 utan exakt beräkning.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p><p>19 % är ungefär 20 % och 510 är ungefär 500.</p><p>20 % av 500 är <strong>ungefär 100</strong>.</p>",
+    "t": "<p>Uppskatta 19 % av 510 utan exakt beräkning. Ange ett rimligt överslag.</p>",
+    "s": "<p>19 %≈20 % och 510≈500. 20 % av 500 är <strong>ungefär 100</strong>.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 10,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>Byt till en procent och ett tal som är enkla att kombinera, exempelvis 20 % och 500.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.103",
@@ -73208,18 +74572,21 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Ett rum uppmäts till 7,8 m × 4,6 m, där båda måtten är avrundade till närmaste 0,1 m. Golvplattor täcker 0,42 m² per paket. Du vill dessutom ha 5 % extra material för spill.</p><p>Hur många paket måste beställas för att vara säker på att materialet räcker, oavsett hur avrundningen av rummets mått slog?</p>",
-    "s": "<p><strong>Steg 1:</strong> Eftersom 7,8 m och 4,6 m är avrundade till närmaste 0,1 m kan de verkliga måtten vara strax under 7,85 m respektive 4,65 m.</p><p>Som säker övre gräns använder vi</p><p>\\[A=7{,}85\\cdot4{,}65=36{,}5025\\text{ m}^2.\\]</p><p>Med 5 % extra material:</p><p>\\[36{,}5025\\cdot1{,}05=38{,}327625\\text{ m}^2.\\]</p><p>Varje paket täcker 0,42 m²:</p><p>\\[\\frac{38{,}327625}{0{,}42}\\approx91{,}26.\\]</p><p>Man måste avrunda uppåt till helt paket.</p><p><strong>Svar: 92 paket.</strong></p>",
+    "s": "<p>För att vara säker måste de största möjliga måtten användas: L&lt;7,85 m och B&lt;4,65 m. En säker övre area är därför strax under 7,85·4,65 = 36,5025 m².</p><p>Med 5 % spill behövs strax under 38,328 m². 91 paket täcker bara 38,22 m², medan 92 paket täcker 38,64 m².</p><p>Man måste alltså beställa <strong>92 paket</strong>.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "val",
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
     "rättSvar": 92,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>”Vara säker” betyder att du måste räkna med det största rum som fortfarande kan avrundas till de angivna måtten.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.104",
@@ -73231,7 +74598,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "2/1/0",
     "t": "<p>Gör överslagsräkning genom att avrunda till lämpliga tal.</p><p>a) \\(612\\cdot0{,}48\\)<br>b) \\(1\\,970+3\\,120+4\\,050\\)<br>c) Jämför ditt överslag i a) med det exakta värdet. Blev överslaget för högt eller för lågt?</p>",
-    "s": "<p>a) \\(600\\cdot0{,}5=\\)<strong>ungefär 300</strong></p><p>b) \\(2\\,000+3\\,000+4\\,000=\\)<strong>ungefär 9 000</strong></p><p>c) Exakt värde är \\(612\\cdot0{,}48=293{,}76\\). Överslaget 300 blev alltså <strong>något för högt</strong>, eftersom 0,48 avrundades uppåt till 0,5</p>",
+    "s": "<p>Ett möjligt överslag är:</p><p>a) 600·0,5 ≈ <strong>300</strong>.</p><p>b) 2 000+3 000+4 000 ≈ <strong>9 000</strong>.</p><p>c) Det exakta värdet i a är 612·0,48 = 293,76, så överslaget 300 blev <strong>något för högt</strong>.</p><p>Andra välmotiverade avrundningar kan ge andra rimliga överslag.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
@@ -73243,7 +74610,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Välj avrundningar som gör huvudräkningen enkel men behåller rätt storleksordning. Det finns inte alltid ett enda godtagbart överslag.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "7.105",
@@ -73254,20 +74624,23 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Tre personer uppskattar \\(398\\cdot51\\):</p><p>A: \\(400\\cdot50=20\\,000\\)<br>B: \\(400\\cdot51=20\\,400\\)<br>C: \\(398\\cdot50=19\\,900\\)</p><p>Utan att först multiplicera exakt: vilket eller vilka överslag bör ligga närmast? Kontrollera sedan.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Det exakta talet ligger nära både 400 och 50/51. Exakt blir \\(398\\cdot51=20\\,298\\).</p><p>Fel: A 298, B 102, C 398.</p><p><strong>Svar:</strong> <strong>B ligger närmast.</strong></p></div></div>",
+    "t": "<p>Tre personer uppskattar \\(398\\cdot51\\):</p><p>A: \\(400\\cdot50=20\\,000\\)<br>B: \\(400\\cdot51=20\\,400\\)<br>C: \\(398\\cdot50=19\\,900\\)</p><p>Utan att först multiplicera exakt: vilket eller vilka överslag bör ligga närmast? Kontrollera sedan.</p><p>Välj det alternativ som bör ligga närmast.</p>",
+    "s": "<p>Det exakta värdet ligger lite under 400·51 = 20 400, eftersom 398 är 2 mindre än 400. Därför bör <strong>B</strong> ligga närmast.</p><p>Kontroll: 398·51 = 20 298. Felen blir 298 för A, 102 för B och 398 för C.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Utgå från hur varje approximation ändrar en eller båda faktorerna. Du behöver inte multiplicera exakt för att se vilket håll felet går åt.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.106",
@@ -73279,18 +74652,21 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Gör ett överslag för \\(398\\cdot21\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p><p>\\(400\\cdot20=\\)<strong>8 000</strong>.</p>",
+    "s": "<p>398≈400 och 21≈20. Då blir överslaget 400·20 = <strong>8 000</strong>.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 8000,
+    "tolerans": 500,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>Runda till 400 och 20.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.107",
@@ -73302,18 +74678,33 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En kartong är märkt 12,5 kg. Märkningen är avrundad till närmaste 0,1 kg. En pall får belastas med högst 1050 kg.</p><p>a) Kan man garantera att 84 sådana kartonger håller sig under gränsen?<br>b) Hur många kartonger kan man högst lasta om man vill vara säker enbart utifrån den avrundade märkningen?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>a)</strong></p><p>\\[84\\cdot12{,}55=1054{,}2\\text{ kg}\\]</p><p>Det är större än 1050 kg. Man kan därför <strong>inte garantera</strong> att 84 kartonger håller sig under gränsen.</p><p><strong>b)</strong></p><p>\\[\\frac{1050}{12{,}55}\\approx83{,}67.\\]</p><p>Antalet kartonger måste vara ett heltal och får inte överskrida gränsen.</p><p><strong>Svar: högst 83 kartonger.</strong></p></div></div>",
+    "s": "<p>12,5 kg avrundat till närmaste 0,1 kg innebär att varje kartong kan väga nästan 12,55 kg.</p><p>a) 84·12,55 = 1 054,2 kg, så <strong>nej</strong>, 84 kan inte garanteras ligga under 1 050 kg.</p><p>b) 83·12,55 = 1 041,65 kg. Därför är <strong>83 kartonger</strong> högsta antal som säkert håller sig under gränsen utifrån märkningen.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "nej",
+      83
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Använd den största verkliga massa som fortfarande kan avrundas till 12,5 kg. Säkerhetsfrågan kräver ett värsta-fall-resonemang.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) kan 84 garanteras?",
+      "b) högsta säkra antal"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "heltal"
+    ]
   },
   {
     "id": "7.108",
@@ -73336,7 +74727,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>9 847 ligger mycket närmare 10 000 än 9 000 eller 12 000.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.109",
@@ -73348,18 +74742,21 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Gör ett snabbt överslag för \\(203\\cdot49\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p><p>\\(203\\approx200\\) och \\(49\\approx50\\).</p><p><strong>\\(200\\cdot50=10\\,000\\)</strong>.</p>",
+    "s": "<p>203≈200 och 49≈50. Då blir 200·50 = <strong>10 000</strong>.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1000,
+    "tolerans": 500,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>Runda en faktor lite nedåt och den andra lite uppåt till enkla hundratal/tiotal.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.110",
@@ -73370,19 +74767,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett golv är ungefär 3,8 m × 2,1 m. En kalkylator visar arean 79,8 m². Förklara med ett överslag varför svaret inte kan stämma.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p><p>\\(3,8\\approx4\\) och \\(2,1\\approx2\\), så arean bör vara ungefär \\(4\\cdot2=8\\) m².</p><p><strong>Svar:</strong> <strong>79,8 m² är ungefär tio gånger för stort.</strong></p>",
+    "t": "<p>Ett golv är ungefär 3,8 m × 2,1 m. En kalkylator visar arean 79,8 m². Vilket resonemang avslöjar snabbast att svaret är orimligt?</p><p>A. 4·2≈8 m², så 79,8 m² är ungefär tio gånger för stort.<br>B. 4+2≈6 m², så 79,8 m² är ungefär tretton gånger för stort.<br>C. 4·20≈80 m², så 79,8 m² är rimligt.<br>D. 38·21≈800 m², så 79,8 m² är för litet.</p>",
+    "s": "<p>3,8≈4 och 2,1≈2, så arean bör ligga nära 4·2 = <strong>8 m²</strong>. 79,8 m² har fel storleksordning.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>Runda sidlängderna till enkla heltal och multiplicera.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.111",
@@ -73394,18 +74794,21 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Gör ett överslag för \\(198\\cdot49\\) genom att avrunda till lämpliga tal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p><p>\\(198\\approx200\\) och \\(49\\approx50\\).</p><p>\\(200\\cdot50=\\)<strong>10 000</strong></p>",
+    "s": "<p>198≈200 och 49≈50. Överslaget blir 200·50 = <strong>10 000</strong>.</p>",
     "familj": "Överslag och rimlighetsbedömning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": 10000,
+    "tolerans": 500,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Använd överslaget för att bedöma storleksordningen och kontrollera sedan om ett exakt svar är rimligt.</p>"
+    "ledtrad": "<p>Runda till 200 och 50.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.112",
@@ -73416,19 +74819,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du ska kontrollera ungefär \\(18,4\\cdot7,5\\). En kalkylator visar 1380. Varför bör du reagera innan du använder svaret?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p><p>Överslag: \\(18,4\\approx20\\) och \\(7,5\\approx8\\), vilket ger cirka 160. <strong>1380 är orimligt stort.</strong> Det korrekta värdet är 138.</p>",
+    "t": "<p>Du ska kontrollera ungefär 18,4·7,5. En kalkylator visar 1 380. Vilken kontroll visar snabbast att svaret är orimligt?</p><p>A. 18,4≈20 och 7,5≈8 ger ungefär 160, alltså är 1 380 för stort.<br>B. 18,4≈180 och 7,5≈8 ger ungefär 1 440, alltså är 1 380 rimligt.<br>C. 18,4+7,5≈26, alltså ska produkten också vara ungefär 26.<br>D. Eftersom båda talen är positiva kan alla positiva kalkylatorsvar vara rimliga.</p>",
+    "s": "<p>20·8≈160, så produkten bör ligga i storleksordningen hundratal, inte över tusen. Exakt värde är 138.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p>"
+    "ledtrad": "<p>Gör ett grovt överslag innan du litar på kalkylatorns decimalplacering.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.113",
@@ -73439,20 +74845,42 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Fem mätningar av samma detalj ger 24,9; 25,0; 25,1; 25,0 och 25,2 mm.</p><p>a) Beräkna medelvärdet.<br>b) Det önskade måttet är 25,0 mm. Vad visar mätserien om spridningen?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) Medelvärdet är <strong>25,04 mm</strong>,</p><p>b) Mätningarna ligger mellan 24,9 och 25,2 mm, Serien visar att en enda mätning inte beskriver variationen; flera mätningar ger bättre bild,</p></div></div>",
+    "t": "<p>Fem mätningar av samma detalj ger 24,9; 25,0; 25,1; 25,0 och 25,2 mm.</p><p>a) Beräkna medelvärdet.<br>b) Bestäm variationsbredden (max−min).<br>c) Vilken slutsats är bäst?</p><p>A. Alla detaljer är exakt 25,04 mm eftersom det är medelvärdet.<br>B. Spridningen är noll eftersom två mätningar är 25,0 mm.<br>C. Mätningarna ligger nära målvärdet men visar en spridning som en enda mätning inte skulle synliggöra.<br>D. Eftersom en mätning är 25,2 mm måste instrumentet alltid visa 0,2 mm för mycket.</p>",
+    "s": "<p>a) Summan är 125,2 mm; 125,2/5 = <strong>25,04 mm</strong>.</p><p>b) 25,2−24,9 = <strong>0,3 mm</strong>.</p><p>c) <strong>C</strong>. Serien visar både ett centrum nära 25,0 och en faktisk variation mellan mätningarna.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      25.04,
+      0.3,
+      "C"
+    ],
+    "tolerans": [
+      0.01,
+      0.01,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Medelvärde beskriver centrum. Variationsbredd beskriver hur långt det är mellan största och minsta observationen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) medel (mm)",
+      "b) variationsbredd (mm)",
+      "c) alternativ"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "spel": true
   },
   {
     "id": "7.114",
@@ -73463,19 +74891,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett mått anges som \\(25,0\\pm0,2\\) mm. Vilket intervall av mått är godkänt?</p><span class=\"fig\"><svg width=\"420\" height=\"195\" viewBox=\"0 0 420 195\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"måttintervall från 24,8 till 25,2 millimeter\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"193\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"120\" x2=\"365\" y2=\"120\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"120\" y1=\"108\" x2=\"120\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"104\" x2=\"210\" y2=\"136\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<line x1=\"300\" y1=\"108\" x2=\"300\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<text x=\"120\" y=\"151\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">24,8</text>\n<text x=\"210\" y=\"151\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">25,0</text>\n<text x=\"300\" y=\"151\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">25,2</text>\n<path d=\"M120 83 L300 83\" stroke=\"#315F91\" stroke-width=\"4\"/>\n<text x=\"210\" y=\"70\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">godkänt intervall</text>\n</svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p><p><strong>24,8 mm till 25,2 mm</strong>.</p>",
+    "t": "<p>Ett mått anges som 25,0 ± 0,2 mm. Vilket intervall är godkänt?</p><p>A. 24,8–25,2 mm<br>B. 24,9–25,1 mm<br>C. 25,0–25,2 mm<br>D. 24,8–25,0 mm</p>",
+    "s": "<p>25,0−0,2 = 24,8 och 25,0+0,2 = 25,2. <strong>Svar: A.</strong></p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": null,
+    "rättSvar": "A",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p>"
+    "ledtrad": "<p>Toleransen gäller åt båda håll från målvärdet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.115",
@@ -73486,20 +74917,38 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>På en arbetsplats används en snabbtabell för materialåtgång:</p><p><em>\"Räkna 1 liter färg per 8 m². Lägg på 10 % för spill.\"</em></p><p>En lärling ska måla 60 m² och räknar så här:</p><p>\\[\\frac{60}{8}=7{,}5\\quad\\text{och}\\quad7{,}5+10=17{,}5\\text{ liter}\\]</p><p>Förklara vad lärlingen gjort för fel och beräkna rätt svar.</p>",
-    "s": "<p><strong>Steg 1:</strong> Lärlingen har <strong>adderat 10 som om det vore 10 liter, i stället för att lägga på 10 procent</strong>.</p><p>Ett påslag på 10 % innebär att man multiplicerar med förändringsfaktorn 1,10:</p><p>\\[7{,}5\\cdot1{,}10=8{,}25\\text{ liter}\\]</p><p><strong>Det går åt ungefär 8,25 liter, inte 17,5 liter.</strong></p><p>Felet är stort: lärlingens svar är mer än dubbelt så mycket som det rätta, vilket skulle innebära att mer än 9 liter färg beställs i onödan. Ett snabbt överslag hade avslöjat det – ett spillpåslag ska ge en liten ökning, inte mer än en fördubbling.</p>",
+    "t": "<p>En snabbtabell säger: ”1 liter färg per 8 m². Lägg på 10 % för spill.” En lärling ska måla 60 m² och räknar 60/8 = 7,5 och sedan 7,5+10 = 17,5 liter.</p><p>a) Vilket beskriver felet bäst?</p><p>A. 10 % har behandlats som 10 liter i stället för som 10 % av 7,5 liter.<br>B. 60 m² borde ha multiplicerats med 8 i stället för dividerats med 8.<br>C. 10 % spill betyder att man ska subtrahera 10 % från 7,5 liter.<br>D. Det enda felet är att 7,5 borde ha avrundats till 8 före påslaget.</p><p>b) Hur många liter ger tabellens beräkning inklusive 10 % spill?</p>",
+    "s": "<p>a) <strong>A</strong>. 10 % är en andel, inte 10 liter.</p><p>b) 7,5·1,10 = <strong>8,25 liter</strong>.</p><p>Ett rimlighetsöverslag hjälper också: ett 10 %-påslag ska ge en liten ökning, inte mer än en fördubbling.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "A",
+      8.25
+    ],
+    "tolerans": [
+      null,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Översätt 10 % till förändringsfaktorn 1,10.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) alternativ",
+      "b) liter"
+    ],
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ],
+    "spel": true
   },
   {
     "id": "7.116",
@@ -73511,7 +74960,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En tabell anger att 4 enheter kräver 12 skruvar och 7 enheter kräver 21 skruvar. Hur många skruvar går det åt per enhet enligt tabellen?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p><p>\\(\\frac{12}{4}=3\\) och \\(\\frac{21}{7}=3\\).</p><p><strong>Svar:</strong> <strong>3 skruvar per enhet.</strong></p>",
+    "s": "<p>12/4 = 3 och 21/7 = 3. Tabellen motsvarar <strong>3 skruvar per enhet</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
@@ -73522,7 +74971,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p>"
+    "ledtrad": "<p>Dividera antal skruvar med antal enheter i någon av tabellraderna och kontrollera med den andra.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.117",
@@ -73533,19 +74985,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En detalj ska vara \\(25,0\\pm0,2\\) mm. Instrument A har mätosäkerheten ±1,0 mm och instrument B ±0,1 mm.</p><p>Vilket instrument är lämpligast för att kontrollera detaljen? Motivera.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Toleransen är bara ±0,2 mm. Instrument A:s osäkerhet är mycket större än toleransen och kan därför inte skilja godkända från underkända detaljer på ett tillförlitligt sätt.</p><p><strong>Svar:</strong> <strong>Instrument B är lämpligare.</strong></p></div></div>",
+    "t": "<p>En detalj ska ligga inom 25,0 ± 0,2 mm. Instrument A har mätosäkerheten ±1,0 mm och instrument B ±0,1 mm. Vilket alternativ är bäst?</p><p>A. A, eftersom en större mätosäkerhet gör det lättare att acceptera fler detaljer.<br>B. B, eftersom dess osäkerhet är mindre än toleransen och därför ger bättre möjlighet att skilja godkända från underkända detaljer.<br>C. Båda är lika lämpliga eftersom de mäter samma storhet och har samma enhet.<br>D. A, eftersom ±1,0 mm är ett helt tal och därför enklare att läsa av.</p>",
+    "s": "<p><strong>B</strong> är lämpligare. Toleransen är bara ±0,2 mm; ett instrument med ±1,0 mm osäkerhet är för grovt för att pålitligt avgöra om detaljen ligger inom gränserna.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Jämför instrumentets egen osäkerhet med den tolerans som ska kontrolleras.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.118",
@@ -73557,7 +75012,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Ett kalkylblad ska beräkna materialkostnad inklusive spill och 25 % moms. H1 innehåller spillfaktorn 0,08 och H2 innehåller momssatsen 0,25.</p><span class=\"fig\"><svg width=\"540\" height=\"270\" viewBox=\"0 0 540 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"kalkylblad med materialkostnad, spill och moms\"><rect x=\"1\" y=\"1\" width=\"538\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"20\" y=\"25\" width=\"45\" height=\"32\" fill=\"#EEECEF\" stroke=\"#B8B4BA\"/><text x=\"42.5\" y=\"46\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\"></text><rect x=\"65\" y=\"25\" width=\"80\" height=\"32\" fill=\"#EEECEF\" stroke=\"#B8B4BA\"/><text x=\"105.0\" y=\"46\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">B</text><rect x=\"145\" y=\"25\" width=\"80\" height=\"32\" fill=\"#EEECEF\" stroke=\"#B8B4BA\"/><text x=\"185.0\" y=\"46\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">C</text><rect x=\"225\" y=\"25\" width=\"105\" height=\"32\" fill=\"#EEECEF\" stroke=\"#B8B4BA\"/><text x=\"277.5\" y=\"46\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">D</text><rect x=\"330\" y=\"25\" width=\"185\" height=\"32\" fill=\"#EEECEF\" stroke=\"#B8B4BA\"/><text x=\"422.5\" y=\"46\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">E</text><rect x=\"20\" y=\"57\" width=\"45\" height=\"45\" fill=\"#F8F7F5\" stroke=\"#C7C4C9\"/><text x=\"42.5\" y=\"84\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><rect x=\"65\" y=\"57\" width=\"80\" height=\"45\" fill=\"#F8F7F5\" stroke=\"#C7C4C9\"/><text x=\"105.0\" y=\"84\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">antal</text><rect x=\"145\" y=\"57\" width=\"80\" height=\"45\" fill=\"#F8F7F5\" stroke=\"#C7C4C9\"/><text x=\"185.0\" y=\"84\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">pris/st</text><rect x=\"225\" y=\"57\" width=\"105\" height=\"45\" fill=\"#F8F7F5\" stroke=\"#C7C4C9\"/><text x=\"277.5\" y=\"84\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">delsumma</text><rect x=\"330\" y=\"57\" width=\"185\" height=\"45\" fill=\"#F8F7F5\" stroke=\"#C7C4C9\"/><text x=\"422.5\" y=\"84\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">slutkostnad</text><rect x=\"20\" y=\"102\" width=\"45\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"42.5\" y=\"129\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><rect x=\"65\" y=\"102\" width=\"80\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"105.0\" y=\"129\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><rect x=\"145\" y=\"102\" width=\"80\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"185.0\" y=\"129\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">85</text><rect x=\"225\" y=\"102\" width=\"105\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"277.5\" y=\"129\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">=B2*C2</text><rect x=\"330\" y=\"102\" width=\"185\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"422.5\" y=\"129\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">=D2*(1+$H$1)*(1+$H$2)</text><rect x=\"20\" y=\"147\" width=\"45\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"42.5\" y=\"174\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><rect x=\"65\" y=\"147\" width=\"80\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"105.0\" y=\"174\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><rect x=\"145\" y=\"147\" width=\"80\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"185.0\" y=\"174\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">120</text><rect x=\"225\" y=\"147\" width=\"105\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"277.5\" y=\"174\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">=B3*C3</text><rect x=\"330\" y=\"147\" width=\"185\" height=\"45\" fill=\"#fff\" stroke=\"#C7C4C9\"/><text x=\"422.5\" y=\"174\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"8\">=D3*(1+$H$2)*(1+$H$2)</text><rect x=\"65\" y=\"205\" width=\"180\" height=\"44\" fill=\"#F8F7F5\" stroke=\"#C7C4C9\"/><text x=\"78\" y=\"223\" font-family=\"monospace\" font-size=\"10\">H1 = 0,08  (spill)</text><text x=\"78\" y=\"241\" font-family=\"monospace\" font-size=\"10\">H2 = 0,25  (moms)</text></svg></span><p>a) Identifiera felet i rad 3 och skriv rätt formel.<br>b) Beräkna korrekt total slutkostnad för de två raderna.<br>c) Budgeten är 2 700 kr. Anta att samma spillprocent ska användas för båda raderna. Hur stor får spillprocenten högst vara om totalen inklusive moms inte får överstiga budgeten?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) Rad 3 använder momssatsen H2 två gånger och använder inte spillfaktorn H1. Rätt formel är <strong><code>=D3*(1+$H$1)*(1+$H$2)</code></strong>.</p><p>b) Delsummorna är 1 020 kr och 960 kr, totalt 1 980 kr före spill och moms. \\(1980\\cdot1,08\\cdot1,25=\\)<strong>2 673 kr</strong>.</p><p>c) Låt spillfaktorn vara \\(s\\). Villkoret är \\(1980(1+s)1,25\\le2700\\). Då \\(1+s\\le2700/2475\\approx1,09091\\). Alltså <strong>\\(s\\le0,09091\\)</strong>, dvs högst cirka <strong>9,1 % spill</strong>.</p></div></div>",
+    "s": "<p>a) Rad 3 använder H2 (moms) två gånger. Rätt formel är exempelvis <strong>=D3*(1+$H$1)*(1+$H$2)</strong>.</p><p>b) Delsummorna är 1 020 kr och 960 kr, totalt 1 980 kr. Med 8 % spill och 25 % moms: 1980·1,08·1,25 = <strong>2 673 kr</strong>.</p><p>c) Om spillandelen är s krävs 1980(1+s)·1,25 ≤ 2700. Det ger 1+s ≤ 2700/2475 ≈ 1,09091, alltså <strong>s ≤ cirka 9,1 %</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": true,
@@ -73570,7 +75025,10 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Gå igenom formeln faktor för faktor och jämför med texten: vilken cell håller spillet och vilken håller momsen? Kontrollera också att cellreferenser som ska stå still när formeln fylls ned är låsta med dollartecken.</p>"
+    "ledtrad": "<p>Kontrollera först vilken cell som innehåller spill respektive moms. I budgetdelen: skriv totalen som 1980·(1+s)·1,25 och lös olikheten.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "7.119",
@@ -73581,19 +75039,22 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett kalkylblad ska lägga på samma spillfaktor på alla rader. Spillfaktorn 8 % står i cell H1.</p><p>Vilken av formlerna är bäst att fylla ned från E2 till många rader, och varför?</p><p>A: <code>=D2*(1+H1)</code><br>B: <code>=D2*(1+$H$1)</code></p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p><p><strong>B</strong> är bäst. Referensen <code>$H$1</code> är absolut och ändras därför inte när formeln fylls ned. Referensen D2 ska däremot ändras till D3, D4 osv.</p>",
+    "t": "<p>Ett kalkylblad ska lägga på samma spillfaktor på alla rader. Spillfaktorn 8 % står i H1. Vilken formel är bäst att fylla ned från E2?</p><p>A. =D2*(1+H1), eftersom båda referenserna ska flyttas en rad varje gång.<br>B. =D2*(1+$H$1), eftersom D2 ska ändras radvis men H1 ska vara låst.<br>C. =$D$2*(1+H1), eftersom prisraden alltid ska vara densamma.<br>D. =D2+H1, eftersom 8 % kan adderas direkt som talet 0,08.</p>",
+    "s": "<p><strong>B</strong>. D2 ska bli D3, D4 osv., men spillfaktorn finns alltid i H1 och ska därför låsas som $H$1.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p>"
+    "ledtrad": "<p>Fråga vilken referens som ska ändras när formeln fylls ned och vilken som ska stå still.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.120",
@@ -73605,7 +75066,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I ett kalkylblad finns antal i cell B2 och pris per styck i C2. Vilken enkel formel ska stå i D2 för att beräkna totalpriset?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p><p><strong><code>=B2*C2</code></strong></p>",
+    "s": "<p>Antal gånger pris per styck ger totalpris. Formeln är <strong>=B2*C2</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
@@ -73616,7 +75077,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Identifiera först vilken information verktyget eller tabellen ger och vilken storhet som ska tas fram. Kontrollera därefter enheter, noggrannhet och att resultatet är rimligt.</p>"
+    "ledtrad": "<p>I kalkylblad börjar en formel med = och multiplikation skrivs med *.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.121",
@@ -73625,10 +75089,10 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Tre delar ska monteras på rad. Deras mållängder är 420 mm, 365 mm och 215 mm, alltså totalt 1000 mm. Varje del tillverkas inom samma tolerans \\(\\pm t\\) mm.</p><p>Den färdiga längden måste garanterat ligga inom \\(1000\\pm2\\) mm.</p><p>Hur stor får den gemensamma toleransen \\(t\\) högst vara för att kravet ska kunna garanteras i värsta fall?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> I värsta fall avviker alla tre delar åt samma håll. Den totala avvikelsen kan då bli \\(3t\\).</p><p>För garanti krävs \\(3t\\le2\\).</p><p><strong>Svar:</strong> <strong>\\(t\\le\\frac23\\approx0,67\\) mm.</strong></p></div></div>",
+    "s": "<p>I värsta fall avviker alla tre delarna åt samma håll, så totalavvikelsen kan bli 3t.</p><p>För garanti krävs 3t ≤ 2, alltså <strong>t ≤ 2/3 mm ≈ 0,67 mm</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
@@ -73637,9 +75101,13 @@ window.BANKMA1 = [
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "resonemang"
     ],
-    "ledtrad": "<p>Gör först ett överslag för storleksordningen. Avrunda först i slutet av beräkningen om uppgiften inte uttryckligen ber om mellanavrundning.</p>"
+    "ledtrad": "<p>Garantin måste klara fallet där alla tre delarnas avvikelser har samma tecken. Hur stor blir då den totala avvikelsen?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.122",
@@ -73662,7 +75130,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.123",
@@ -73671,13 +75142,13 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ett system körs i 3 h 40 min. När flödet är aktivt visar givaren 0,85 L/s. Efter processen har totalt 7,50 m³ passerat.</p><p>a) Hur stor andel av tiden måste flödet ha varit aktivt om givaren är korrekt?<br>b) En logg påstår i stället 72 % aktiv tid. Vilket aktivt flöde krävs då för att totalvolymen ska stämma?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p>Total tid = 13200 s,</p><p>a) <strong>66,8 %</strong>,</p><p>b) <strong>0,789 L/s</strong>,</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>3 h 40 min = 13 200 s och 7,50 m³ = 7 500 L.</p><p>a) Om flödet är 0,85 L/s måste aktiv tid vara 7500/0,85 ≈ 8 823,5 s. Andelen är 8823,5/13200 ≈ <strong>66,8 %</strong>.</p><p>b) 72 % aktiv tid är 0,72·13200 = 9 504 s. Flödet måste då vara 7500/9504 ≈ <strong>0,789 L/s</strong>.</p>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
       66.8,
@@ -73692,7 +75163,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Tänk så här: Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p>"
+    "ledtrad": "<p>Gör tid till sekunder och volym till liter. Använd sambandet volym = flöde · aktiv tid.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.124",
@@ -73704,7 +75178,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Omvandla:</p><p>a) 1,8 m² till cm²<br>b) 35 000 cm² till m²</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p>a) <strong>18 000 cm²</strong><br>b) <strong>3,5 m²</strong>.</p>",
+    "s": "<p>a) 1 m² = 10 000 cm², så 1,8 m² = <strong>18 000 cm²</strong>.</p><p>b) 35 000 cm² / 10 000 = <strong>3,5 m²</strong>.</p>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
     "miniräknare": false,
@@ -73738,7 +75212,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>Eftersom 1 m = 100 cm blir 1 m² = 100² = 10 000 cm².</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.125",
@@ -73750,10 +75227,10 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En maskin producerar 320 mm material per sekund. Hur många meter producerar den på 7,5 timmar om den kör hela tiden?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p>0,320 m/s och 27 000 s ger <strong>8640 m</strong>.</p>",
+    "s": "<p>7,5 h = 27 000 s. På den tiden produceras 320·27000 = 8 640 000 mm = <strong>8 640 m</strong>.</p>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 8640,
     "tolerans": null,
@@ -73761,7 +75238,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>Flödet anges per sekund. Gör därför tiden till sekunder innan du multiplicerar, och omvandla millimeter till meter sist.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.126",
@@ -73816,7 +75296,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>Håll isär tre steg: m↔cm, mm↔m och km↔m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.127",
@@ -73871,7 +75354,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv först storheterna med samma enhet. Behandla prefix som tiopotenser; tänk på att omvandlingsfaktorn måste kvadreras för area och kuberas för volym.</p>"
+    "ledtrad": "<p>1 m³ = 1 000 L, 1 L = 1 000 cm³ och 60 min = 1 h.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.128",
@@ -73883,7 +75369,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En yta är 2,4 m². Hur många cm² är det?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p>\\(1\\,m^2=10\\,000\\,cm^2\\).</p><p><strong>Svar:</strong> <strong>24 000 cm²</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>1 m² = 10 000 cm². Därför är 2,4 m² = <strong>24 000 cm²</strong>.</p>",
     "familj": "Mätning och enhetsomvandling",
     "geogebra": false,
     "miniräknare": false,
@@ -73894,7 +75380,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv först storheterna med samma enhet. Behandla prefix som tiopotenser; tänk på att omvandlingsfaktorn måste kvadreras för area och kuberas för volym.</p>"
+    "ledtrad": "<p>Areaenheten måste skalas i två dimensioner: 100 cm · 100 cm = 10 000 cm² per m².</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.129",
@@ -73917,7 +75406,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>1 liter = 1 000 milliliter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.130",
@@ -73972,7 +75464,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>1 kg = 1 000 g och 1 ton = 1 000 kg.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.131",
@@ -74027,7 +75522,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Gör enhetsomvandlingarna först så att enheterna passar ihop i beräkningen. Genomför sedan beräkningen och skriv enheten i slutsvaret.</p>"
+    "ledtrad": "<p>1 L = 1 000 ml och 1 m³ = 1 000 L.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.132",
@@ -74039,18 +75537,40 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två instrument ger mätvärdena \\(50,0\\pm0,2\\) mm respektive \\(8,0\\pm0,1\\) mm.</p>\n<p>a) Beräkna den relativa felmarginalen i procent för båda mätningarna.<br>b) Vilken mätning är relativt sett mer precis?</p>",
-    "s": "<p><strong>Steg 1:</strong> Första: \\(\\frac{0,2}{50,0}\\cdot100=0,4\\%\\).</p>\n<p>Andra: \\(\\frac{0,1}{8,0}\\cdot100=1,25\\%\\).</p>\n<p><strong>Den första mätningen är relativt mer precis</strong>, eftersom den relativa felmarginalen är mindre.</p>",
+    "s": "<p>Första: 0,2/50,0·100 = <strong>0,4 %</strong>.</p><p>Andra: 0,1/8,0·100 = <strong>1,25 %</strong>.</p><p>Den <strong>första</strong> mätningen är relativt mer precis eftersom den relativa felmarginalen är mindre.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      0.4,
+      1.25,
+      "första"
+    ],
+    "tolerans": [
+      0.02,
+      0.02,
+      null
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Jämför inte bara de absoluta felmarginalerna. Dividera varje felmarginal med sitt eget mätvärde.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "50,0 ± 0,2: %",
+      "8,0 ± 0,1: %",
+      "mer precis mätning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "spel": true
   },
   {
     "id": "7.133",
@@ -74062,19 +75582,37 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En längd mäts till 48,0 cm med en möjlig mätosäkerhet på ±0,2 cm. Ange intervallet där den verkliga längden bedöms ligga.</p><span class=\"fig\"><svg width=\"430\" height=\"165\" viewBox=\"0 0 430 165\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tallinje där intervallet 47,8 till 48,2 cm är markerat\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"163\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"140.5\" y=\"79\" width=\"178.9\" height=\"34\" fill=\"#315F91\" opacity=\"0.13\"/><line x1=\"50\" y1=\"96\" x2=\"410\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"140.5\" y1=\"81\" x2=\"140.5\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3\"/><line x1=\"319.5\" y1=\"81\" x2=\"319.5\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3\"/><line x1=\"230.0\" y1=\"81\" x2=\"230.0\" y2=\"111\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"140.5\" y=\"131\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"600\">47,8</text><text x=\"319.5\" y=\"131\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"600\">48,2</text><text x=\"230.0\" y=\"72\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#315F91\" font-weight=\"700\">48,0 cm</text><text x=\"215\" y=\"148\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">uppmätt värde med osäkerhet</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p><strong>Svar:</strong> <strong>47,8 cm till 48,2 cm.</strong></p>",
+    "s": "<p>48,0−0,2 = <strong>47,8 cm</strong> och 48,0+0,2 = <strong>48,2 cm</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      47.8,
+      48.2
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "begrepp",
-      "resonemang"
+      "procedur"
     ],
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>Utgå från 48,0 och gå 0,2 åt vardera hållet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "nedre gräns (cm)",
+      "övre gräns (cm)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spel": true
   },
   {
     "id": "7.134",
@@ -74086,7 +75624,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>En rektangulär platta ska ha måtten 12,4 cm × 8,6 cm. Båda längdmåtten får i verkligheten avvika högst \\(\\pm t\\) cm från sina målvärden.</p>\n<p>Plattans area måste garanterat ligga inom \\(106,64\\pm1,50\\) cm².</p>\n<p>Bestäm det största möjliga värdet på \\(t\\). Använd digitalt verktyg och motivera vilket extremfall som styr.</p>",
-    "s": "<p><strong>Steg 1:</strong> Största möjliga area är \\((12,4+t)(8,6+t)\\) och måste vara högst 108,14 cm²,</p>\n<p>Minsta möjliga area är \\((12,4-t)(8,6-t)\\) och måste vara minst 105,14 cm²,</p>\n<p>De två gränsekvationerna ger ungefär \\(t=0,07119\\) respektive \\(t=0,07167\\),</p>\n<p>Det första villkoret är alltså det strängare,</p>\n<p><strong>Svar:</strong> <strong>\\(t\\approx0,07119\\) cm, alltså cirka 0,71 mm,</strong></p>",
+    "s": "<p>Största area är (12,4+t)(8,6+t) och måste vara högst 108,14 cm². Minsta area är (12,4−t)(8,6−t) och måste vara minst 105,14 cm².</p><p>Gränsekvationerna ger ungefär t = 0,07119 cm respektive t = 0,07167 cm. Det första villkoret är strängare.</p><p><strong>Största möjliga t är cirka 0,0712 cm = 0,712 mm.</strong></p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": true,
     "miniräknare": true,
@@ -74098,7 +75636,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Skriv ett villkor för största möjliga area och ett för minsta. Det minsta av de två tillåtna t-värdena styr garantin.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "7.135",
@@ -74110,18 +75651,40 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En massa mäts till \\(2,40\\pm0,05\\) kg.</p><p>a) Ange intervallet.<br>b) Hur brett är hela intervallet?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p><strong>2,35–2,45 kg</strong>, bredd <strong>0,10 kg</strong>.</p>",
+    "s": "<p>Intervallet är 2,40−0,05 till 2,40+0,05, alltså <strong>2,35–2,45 kg</strong>. Hela bredden är <strong>0,10 kg</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      2.35,
+      2.45,
+      0.1
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>Hela intervallbredden är två felmarginaler, inte en.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "nedre gräns",
+      "övre gräns",
+      "intervallbredd"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spel": true
   },
   {
     "id": "7.136",
@@ -74132,8 +75695,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>En stålbalk mäts till 125,0 cm med mätosäkerheten \\(\\pm0{,}5\\) cm.</p><p>a) Ange intervallet där den verkliga längden bedöms ligga.<br>b) Två sådana balkar läggs i rad efter varandra. Mellan vilka värden kan den totala längden ligga?<br>c) Förklara varför osäkerheten i den totala längden blir större än 0,5 cm.</p><span class=\"fig\"><svg width=\"430\" height=\"165\" viewBox=\"0 0 430 165\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tallinje där intervallet 124,5 till 125,5 cm är markerat\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"163\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"140.5\" y=\"79\" width=\"178.9\" height=\"34\" fill=\"#315F91\" opacity=\"0.13\"/><line x1=\"50\" y1=\"96\" x2=\"410\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"140.5\" y1=\"81\" x2=\"140.5\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3\"/><line x1=\"319.5\" y1=\"81\" x2=\"319.5\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3\"/><line x1=\"230.0\" y1=\"81\" x2=\"230.0\" y2=\"111\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"140.5\" y=\"131\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"600\">124,5</text><text x=\"319.5\" y=\"131\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"600\">125,5</text><text x=\"230.0\" y=\"72\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#315F91\" font-weight=\"700\">125,0 cm</text><text x=\"215\" y=\"148\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">uppmätt värde med osäkerhet</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p>a) <strong>\\(124{,}5\\le L\\le125{,}5\\) cm</strong></p><p>b) Minst \\(124{,}5+124{,}5=249{,}0\\) cm och högst \\(125{,}5+125{,}5=251{,}0\\) cm, alltså <strong>\\(249{,}0\\le L_{\\text{tot}}\\le251{,}0\\) cm</strong></p><p>c) Varje balk bidrar med sin egen osäkerhet. I värsta fall är båda för korta eller båda för långa, så felen läggs ihop. <strong>Den totala osäkerheten blir \\(\\pm1{,}0\\) cm.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "t": "<p>En stålbalk mäts till 125,0 cm med mätosäkerheten ±0,5 cm.</p><p>a) Ange minsta och största möjliga längd.<br>b) Två sådana balkar läggs i rad. Ange minsta och största möjliga totallängd.<br>c) Hur stor blir den totala absoluta osäkerheten ± i värsta fall?</p>",
+    "s": "<p>a) <strong>124,5–125,5 cm</strong>.</p><p>b) Minst 124,5+124,5 = <strong>249,0 cm</strong>; högst 125,5+125,5 = <strong>251,0 cm</strong>.</p><p>c) I värsta fall avviker båda åt samma håll, så felmarginalerna adderas: <strong>±1,0 cm</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
@@ -74143,35 +75706,39 @@ window.BANKMA1 = [
       125.5,
       249,
       251,
-      null
+      1
     ],
     "tolerans": [
-      0.1,
-      0.1,
-      0.1,
-      0.1,
-      null
+      0.01,
+      0.01,
+      0.01,
+      0.01,
+      0.01
     ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true,
-      false
-    ],
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a) min cm",
-      "a) max cm",
-      "b) min total",
-      "b) max total",
-      "c) förklaring"
+      "a) min",
+      "a) max",
+      "b) min",
+      "b) max",
+      "c) ± cm"
     ],
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>För en garanterad gräns summerar du de två minvärdena respektive de två maxvärdena.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spel": true
   },
   {
     "id": "7.137",
@@ -74182,19 +75749,22 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En längd anges till 12,5 cm med felmarginal ±0,2 cm. Ligger 12,8 cm inom intervallet?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p>Intervallet är 12,3–12,7 cm. <strong>Nej.</strong></p>",
+    "t": "<p>En längd anges som 12,5 ± 0,2 cm. Ligger 12,8 cm inom intervallet?</p><p>A. Ja<br>B. Nej</p>",
+    "s": "<p>Intervallet är 12,3–12,7 cm. 12,8 cm ligger utanför.</p><p><strong>Svar: B, nej.</strong></p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": "Nej",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>Bestäm först intervallets övre gräns.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.138",
@@ -74203,10 +75773,10 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Tre delar ska tillsammans bli 500,0 mm. Del A är \\(180,0\\pm0,3\\) mm och del B \\(145,0\\pm0,2\\) mm. Del C ska väljas så att totalsumman garanterat ligger inom \\(500,0\\pm0,5\\) mm.</p><p>Vilket målvärde bör C ha och hur stor får dess felmarginal högst vara i värsta fall?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Avgör först om skillnaden eller kvoten mellan termerna är konstant. Det bestämmer om en aritmetisk eller geometrisk modell passar.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Målvärdet är <strong>175,0 mm</strong>. A och B kan tillsammans redan avvika 0,5 mm, alltså hela toleransbudgeten. <strong>C måste därför ha 0 mm felmarginal för en strikt garanti utifrån dessa intervall.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt in de första termnumren i formeln och kontrollera att de återskapar den givna följden.</p></div>",
+    "s": "<p>Målvärdet för C måste vara 500−180−145 = <strong>175,0 mm</strong>.</p><p>A och B kan tillsammans redan avvika 0,3+0,2 = 0,5 mm, alltså hela den tillåtna totalavvikelsen. För en strikt värsta-fall-garanti återstår därför <strong>0 mm tolerans</strong> för C.</p><p>Det visar att specifikationen inte lämnar någon realistisk tillverkningstolerans för C.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
@@ -74218,14 +75788,18 @@ window.BANKMA1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "begrepp"
+      "problemlösning",
+      "resonemang"
     ],
     "svarEtiketter": [
       "Målvärde C (mm)",
       "Maximal felmarginal (mm)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Fråga först vad undersökningen vill säga något om och om urval/mätmetod verkligen representerar det. Leta efter systematiska fel, bortfall och för små eller snedvridna urval.</p>"
+    "ledtrad": "<p>Tänk i en ”toleransbudget”: hur mycket av den tillåtna ±0,5 mm kan A och B tillsammans redan använda?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.139",
@@ -74237,18 +75811,36 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En diameter mäts till \\(50,0\\pm0,3\\) mm.</p><span class=\"fig\"><svg width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"mätvärde 50,0 millimeter med felmarginal 0,3 millimeter\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"95\" x2=\"365\" y2=\"95\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"120\" y1=\"83\" x2=\"120\" y2=\"107\" stroke=\"#315F91\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"79\" x2=\"210\" y2=\"111\" stroke=\"#B43123\" stroke-width=\"3\"/>\n<line x1=\"300\" y1=\"83\" x2=\"300\" y2=\"107\" stroke=\"#315F91\" stroke-width=\"2\"/>\n<path d=\"M120 64 L300 64\" stroke=\"#315F91\" stroke-width=\"4\"/>\n<text x=\"120\" y=\"132\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">49,7 mm</text>\n<text x=\"210\" y=\"132\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">50,0 mm</text>\n<text x=\"300\" y=\"132\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"11\">50,3 mm</text>\n</svg></span><p>a) Minsta möjliga värde?<br>b) Största möjliga?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p><strong>Svar:</strong> <strong>49,7 mm respektive 50,3 mm.</strong></p>",
+    "s": "<p>50,0−0,3 = <strong>49,7 mm</strong> och 50,0+0,3 = <strong>50,3 mm</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      49.7,
+      50.3
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>Gå 0,3 mm åt vardera hållet från 50,0 mm.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "min (mm)",
+      "max (mm)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spel": true
   },
   {
     "id": "7.140",
@@ -74260,7 +75852,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangel mäts till \\(8,0\\pm0,1\\) cm × \\(5,0\\pm0,1\\) cm. Bestäm minsta och största möjliga area.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p>Min: \\(7,9\\cdot4,9=\\)<strong>38,71 cm²</strong>. Max: \\(8,1\\cdot5,1=\\)<strong>41,31 cm²</strong>.</p>",
+    "s": "<p>Minsta area fås när båda sidorna är minst: 7,9·4,9 = <strong>38,71 cm²</strong>.</p><p>Största area fås när båda är störst: 8,1·5,1 = <strong>41,31 cm²</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
@@ -74282,7 +75874,10 @@ window.BANKMA1 = [
       "Största area (cm²)"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>För en rektangel med positiva sidlängder blir arean minst vid två minvärden och störst vid två maxvärden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.141",
@@ -74294,18 +75889,36 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En bräda mäts till 2,40 m med osäkerheten ±0,01 m. Mellan vilka värden kan längden ligga?</p><span class=\"fig\"><svg width=\"430\" height=\"165\" viewBox=\"0 0 430 165\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tallinje där intervallet 2,39 till 2,41 m är markerat\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"163\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"140.5\" y=\"79\" width=\"178.9\" height=\"34\" fill=\"#315F91\" opacity=\"0.13\"/><line x1=\"50\" y1=\"96\" x2=\"410\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"140.5\" y1=\"81\" x2=\"140.5\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3\"/><line x1=\"319.5\" y1=\"81\" x2=\"319.5\" y2=\"111\" stroke=\"#A6432F\" stroke-width=\"3\"/><line x1=\"230.0\" y1=\"81\" x2=\"230.0\" y2=\"111\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"140.5\" y=\"131\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"600\">2,39</text><text x=\"319.5\" y=\"131\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#A6432F\" font-weight=\"600\">2,41</text><text x=\"230.0\" y=\"72\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#315F91\" font-weight=\"700\">2,40 m</text><text x=\"215\" y=\"148\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"#50494B\">uppmätt värde med osäkerhet</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p><p><strong>Svar:</strong> <strong>2,39 m till 2,41 m</strong></p>",
+    "s": "<p>2,40−0,01 = <strong>2,39 m</strong> och 2,40+0,01 = <strong>2,41 m</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.39,
+      2.41
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Översätt först mätvärdet och felmarginalen till ett intervall med minsta och största möjliga värde. Använd intervallets yttergränser när en säker minimi- eller maximibedömning behövs.</p>"
+    "ledtrad": "<p>Subtrahera och addera 0,01 m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "min (m)",
+      "max (m)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spel": true
   },
   {
     "id": "7.142",
@@ -74360,7 +75973,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>"
+    "ledtrad": "<p>Börja med 900/6 gram per portion. Skala sedan till 15 respektive 10 portioner.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.143",
@@ -74369,10 +75985,10 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "1/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Ett äldreboende har 24 boende. Bemanningen följer normen 1 personal per 6 boende dagtid, 1 per 8 boende kvällstid och 1 per 12 boende nattetid.</p><p>a) Hur många personal behövs dagtid?<br>b) Hur många behövs kvällstid respektive nattetid?<br>c) Dygnet delas i tre pass om 8 timmar. Hur många personaltimmar går åt per dygn?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>a) \\(\\frac{24}{6}=\\)<strong>4 personal</strong></p><p>b) Kväll: \\(\\frac{24}{8}=\\)<strong>3 personal</strong>. Natt: \\(\\frac{24}{12}=\\)<strong>2 personal</strong></p><p>c) \\((4+3+2)\\cdot8=9\\cdot8=\\)<strong>72 personaltimmar</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<p>a) Dagtid: 24/6 = <strong>4 personer</strong>.</p><p>b) Kväll: 24/8 = <strong>3 personer</strong>. Natt: 24/12 = <strong>2 personer</strong>.</p><p>c) Tre 8-timmarspass ger (4+3+2)·8 = <strong>72 personaltimmar</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": false,
@@ -74395,7 +76011,10 @@ window.BANKMA1 = [
       "c) Personaltimmar/dygn"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>"
+    "ledtrad": "<p>Beräkna bemanningen för varje pass var för sig. Personaltimmar är antal personer multiplicerat med passets längd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.144",
@@ -74450,7 +76069,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Ta först reda på hur stor yta en liter räcker till.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.145",
@@ -74462,7 +76084,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Fyra likadana pumpar fyller 1800 L på 15 min. Hur lång tid tar sex pumpar att fylla 2700 L?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p>En pump ger 30 L/min, sex ger 180 L/min. <strong>15 min.</strong></p>",
+    "s": "<p>Fyra pumpar fyller 1 800 L på 15 min, alltså är totalflödet 120 L/min och en pump ger 30 L/min.</p><p>Sex pumpar ger 180 L/min. För 2 700 L behövs 2700/180 = <strong>15 min</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": false,
@@ -74473,7 +76095,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Här förändras både antalet pumpar och volymen. Bestäm gärna flödet för en pump först.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.146",
@@ -74496,7 +76121,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.147",
@@ -74508,7 +76136,7 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Fem maskiner producerar 2400 delar på 8 timmar vid 100 % aktiv tid. En ny körning ska ge 3150 delar. Sju maskiner startar och är i genomsnitt aktiva 85 % av schemalagd tid. Efter exakt 5 schemalagda timmar går en maskin sönder och resten görs med sex maskiner, fortfarande 85 % aktiv tid.</p><p>Hur lång schemalagd tid tar hela körningen?</p>",
-    "s": "<p><strong>Steg 1:</strong> Kapacitet = 60 delar per aktiv maskintimme. Första 5 h: \\(7\\cdot60\\cdot0,85\\cdot5=1785\\) delar. Kvar 1365.</p><p>Sex maskiner ger 306 delar/schemalagd timme. Kvarvarande tid \\(\\frac{1365}{306}\\approx4,46\\) h.</p><p><strong>Total tid ≈ 9,46 h</strong>.</p>",
+    "s": "<p>Grundtakten är 2400/(5·8) = 60 delar per maskin och aktiv timme.</p><p>Under de första 5 schemalagda timmarna produceras 7·0,85·60·5 = 1 785 delar. Kvar: 1 365 delar.</p><p>Sex maskiner vid 85 % aktivitet producerar 6·0,85·60 = 306 delar per schemalagd timme. Resten tar 1365/306 ≈ 4,46 h.</p><p>Total tid: 5 + 4,46 = <strong>9,46 h</strong>.</p>",
     "familj": "Proportionalitet i praktiska problem",
     "geogebra": false,
     "miniräknare": true,
@@ -74519,7 +76147,10 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>"
+    "ledtrad": "<p>Skilj på schemalagd tid och aktiv maskintid. Räkna först ut produktion per maskin och aktiv timme.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.148",
@@ -74574,7 +76205,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>"
+    "ledtrad": "<p>Kontrollera om kvoten mellan storheterna är konstant. Vid direkt proportionalitet kan du skriva \\(y=kx\\); bestäm \\(k\\) från ett känt par och använd samma förhållande i den nya situationen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.149",
@@ -74597,7 +76231,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.150",
@@ -74643,7 +76280,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.151",
@@ -74666,7 +76306,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.152",
@@ -74677,8 +76320,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En 12-procentig lösning har volymen 750 ml.</p><p>a) Ämnesmängd?<br>b) Övrig vätska?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p>a) <strong>90 ml</strong><br>b) <strong>660 ml</strong>.</p>",
+    "t": "<p>En lösning är 12 volymprocent av ett ämne och har totalvolymen 750 ml. a) Hur många milliliter av ämnet finns i lösningen? b) Hur många milliliter utgör resten?</p>",
+    "s": "<p>a) 0,12·750 = <strong>90 ml</strong>.</p><p>b) 750−90 = <strong>660 ml</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
@@ -74712,7 +76355,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>12 volymprocent betyder 12 ml av ämnet per 100 ml färdig lösning.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.153",
@@ -74723,8 +76369,8 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>Ett desinfektionsmedel ska blandas i förhållandet 1:20. Det betyder en del koncentrat på 20 delar färdig lösning.</p><p>a) Du häller upp 150 ml koncentrat. Hur mycket färdig lösning blir det?<br>b) Hur mycket vatten ska tillsättas?<br>c) Du behöver 5 liter färdig lösning. Hur mycket koncentrat behövs?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>a) \\(150\\cdot20=3\\,000\\) ml \\(=\\)<strong>3 liter</strong></p><p>b) \\(3\\,000-150=\\)<strong>2 850 ml</strong></p><p>c) 5 liter \\(=5\\,000\\) ml, alltså \\(\\frac{5\\,000}{20}=\\)<strong>250 ml koncentrat</strong> som fylls på med 4 750 ml vatten</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "t": "<p>En spädningsanvisning anger 1 del koncentrat per 20 delar färdig lösning.</p><p>a) Du använder 150 ml koncentrat. Hur mycket färdig lösning blir det?<br>b) Hur mycket vatten ska tillsättas?<br>c) Du behöver 5 liter färdig lösning. Hur mycket koncentrat behövs?</p>",
+    "s": "<p>a) 150 ml är 1/20 av slutvolymen: 150·20 = <strong>3 000 ml = 3 L</strong>.</p><p>b) Vatten: 3 000−150 = <strong>2 850 ml</strong>.</p><p>c) 5 000/20 = <strong>250 ml koncentrat</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
@@ -74767,7 +76413,10 @@ window.BANKMA1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>”1 del per 20 delar färdig lösning” betyder att koncentratet utgör 1/20 av slutvolymen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.154",
@@ -74778,8 +76427,8 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En lösning är 8 % och volymen 500 ml.</p><p>a) Hur mycket ämne?<br>b) Hur mycket övrig vätska?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p><strong>Tänk så här:</strong> Skriv om alla storheter till de enheter du tänker använda innan själva huvudberäkningen.</p><p>a) <strong>40 ml</strong><br>b) <strong>460 ml</strong>.</p>",
+    "t": "<p>En lösning är 8 volymprocent av ett ämne och har totalvolymen 500 ml. a) Hur många milliliter av ämnet finns i lösningen? b) Hur många milliliter utgör resten?</p>",
+    "s": "<p>a) 0,08·500 = <strong>40 ml</strong>.</p><p>b) 500−40 = <strong>460 ml</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
@@ -74813,7 +76462,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>8 volymprocent betyder att ämnet utgör 0,08 av totalvolymen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.155",
@@ -74822,21 +76474,24 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Ett värmesystem rymmer 300 liter och innehåller i dag en blandning med 25 % glykol. Halten ska höjas till 40 %.</p><p>Montören tappar ur ett antal liter av den befintliga blandningen och fyller på med exakt lika många liter <em>ren</em> glykol, så att systemet förblir fullt.</p><p>Hur många liter ska tappas ur?</p>",
-    "s": "<p><strong>Steg 1:</strong> Låt \\(x\\) vara antalet liter som tappas ur.</p><p><strong>Före:</strong> systemet innehåller \\(0{,}25\\cdot300=75\\) liter glykol.</p><p><strong>Efter urtappningen</strong> återstår \\(300-x\\) liter blandning, som fortfarande är 25-procentig. Glykolmängden är då \\(0{,}25(300-x)\\) liter.</p><p><strong>Efter påfyllningen</strong> tillkommer \\(x\\) liter ren glykol:</p><p>\\[0{,}25(300-x)+x=75-0{,}25x+x=75+0{,}75x\\]</p><p>Målet är \\(0{,}40\\cdot300=120\\) liter glykol:</p><p>\\[75+0{,}75x=120\\Rightarrow0{,}75x=45\\Rightarrow x=60\\]</p><p><strong>60 liter ska tappas ur och ersättas med ren glykol.</strong></p><p>Kontroll: efter urtappning finns \\(0{,}25\\cdot240=60\\) liter glykol. Med 60 liter ren glykol blir det \\(120\\) liter av totalt 300, alltså 40 % ✓</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Ett värmesystem rymmer 300 liter och innehåller 25 % glykol. Halten ska höjas till 40 %. Montören tappar ur x liter av den väl blandade vätskan och fyller på med lika många liter ren glykol. Hur många liter ska tappas ur?</p>",
+    "s": "<p>Från början finns 75 L glykol. När x liter av 25 %-blandningen tappas ur försvinner 0,25x L glykol. När x liter ren glykol fylls på blir glykolmängden 75−0,25x+x.</p><p>Målet är 0,40·300 = 120 L glykol:</p><p>75+0,75x=120 ⇒ x=<strong>60 L</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>När x liter av den gamla blandningen tappas ur försvinner bara 25 % av x som glykol. Påfyllningen är däremot ren glykol.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.156",
@@ -74859,7 +76514,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.157",
@@ -74914,7 +76572,10 @@ window.BANKMA1 = [
         "poang": "0/1/0"
       }
     ],
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.158",
@@ -74925,7 +76586,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett rengöringsmedel blandas i förhållandet 1:10, alltså en del koncentrat på 10 delar färdig lösning.</p><p>a) Du häller upp 100 ml koncentrat. Hur mycket färdig lösning blir det?<br>b) Hur mycket vatten ska tillsättas?<br>c) Du behöver 2 liter färdig lösning. Hur mycket koncentrat behövs?</p>",
+    "t": "<p>En spädningsanvisning anger 1 del koncentrat per 10 delar färdig lösning. a) Du använder 100 ml koncentrat. Hur mycket färdig lösning blir det? b) Hur mycket vatten ska tillsättas? c) Du behöver 2 liter färdig lösning. Hur mycket koncentrat behövs?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>a) \\(100\\cdot10=\\)<strong>1 000 ml</strong></p><p>b) \\(1\\,000-100=\\)<strong>900 ml</strong></p><p>c) 2 liter \\(=2\\,000\\) ml, alltså \\(\\frac{2\\,000}{10}=\\)<strong>200 ml</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
@@ -74969,7 +76630,10 @@ window.BANKMA1 = [
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>Koncentratet utgör 1/10 av den färdiga lösningen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.159",
@@ -74981,19 +76645,37 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Du har 30-procentig och 5-procentig lösning. Tillsammans blandar du 10,0 L. Därefter avdunstar exakt 2,0 L vatten, men inget löst ämne. Efter avdunstningen ska koncentrationen vara 18 %.</p><p>Hur mycket av varje lösning används från början?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Efter avdunstningen är volymen 8,0 L, så ämnesmängden måste vara 1,44 L.</p><p>\\(0,30x+0,05(10-x)=1,44\\Rightarrow x=3,76\\).</p><p><strong>Svar:</strong> <strong>3,76 L av 30 % och 6,24 L av 5 %.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Låt x liter vara 30 %-lösning. Då används 10−x liter av 5 %-lösningen.</p><p>Mängden löst ämne före avdunstningen är 0,30x+0,05(10−x)=0,25x+0,50.</p><p>Efter att 2,0 L vatten avdunstat är volymen 8,0 L. För 18 % behövs 0,18·8,0 = 1,44 L löst ämne.</p><p>0,25x+0,50=1,44 ⇒ x=<strong>3,76 L</strong>. Den andra lösningen blir <strong>6,24 L</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.76,
+      6.24
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": true,
     "formaga": [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Följ mängden löst ämne genom blandningen. Vid en enkel spädning är mängden löst ämne oförändrad, vilket ger \\(c_1V_1=c_2V_2\\).</p>"
+    "ledtrad": "<p>Avdunstningen ändrar totalvolymen men inte mängden löst ämne. Bestäm därför först hur mycket löst ämne som måste finnas efter avdunstningen.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "30 %-lösning (L)",
+      "5 %-lösning (L)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "7.160",
@@ -75016,7 +76698,10 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.161",
@@ -75028,7 +76713,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>3,0 L 20-procentig lösning blandas med 2,0 L 5-procentig. Bestäm koncentrationen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p><p>Ämne = 0,70 L av totalt 5,0 L. <strong>14 %</strong>.</p>",
+    "s": "<p>Mängden löst ämne är 3,0·0,20 + 2,0·0,05 = 0,70 L. Totalvolymen är 5,0 L.</p><p>0,70/5,0 = 0,14 = <strong>14 %</strong>.</p>",
     "familj": "Koncentration, spädning och blandningar",
     "geogebra": false,
     "miniräknare": false,
@@ -75040,7 +76725,10 @@ window.BANKMA1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv först upp sambandet mellan storheterna och håll enheterna konsekventa. Bestäm sedan den okända storheten genom proportionalitet eller genom att lösa den aktuella formeln.</p>"
+    "ledtrad": "<p>Addera mängden löst ämne från de båda lösningarna och dividera med den nya totalvolymen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.162",
@@ -75049,13 +76737,13 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Ett golv är 46 m². Material 285 kr/m². 7 % extra för spill. Frakt 650 kr. Total kostnad?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>49,22 m² material ger 14 027,70 kr. Med frakt <strong>14 677,70 kr</strong>.</p>",
+    "s": "<p>Med spill behövs 46·1,07 = 49,22 m². Materialet kostar 49,22·285 = 14 027,70 kr. Med frakt blir totalen <strong>14 677,70 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "14677.70",
     "tolerans": null,
@@ -75063,7 +76751,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Lägg på spill före du multiplicerar med priset per m². Frakten läggs på sist.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.163",
@@ -75075,7 +76766,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>18 enheter kostar 42 kr styck. Frakt 295 kr. Total?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p><strong>1051 kr</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>18·42+295 = 756+295 = <strong>1 051 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -75086,7 +76777,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Beräkna varukostnaden först och lägg till frakten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.164",
@@ -75098,10 +76792,10 @@ window.BANKMA1 = [
     "niva": "A",
     "poang": "0/1/2",
     "t": "<p>Två offerter gäller samma arbete. Materialets självkostnad \\(M\\) ligger mellan 5000 och 8000 kr.</p><p>A: 1200 kr start + 395 kr/h + M.<br>B: 480 kr/h + 12 % påslag på M.</p><p>a) Härled villkoret för att A ska vara billigare.<br>b) Hur lång arbetstid krävs för att A ska vara garanterat billigare oavsett M i intervallet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> A billigare när \\(1200+395t+M&lt;480t+1,12M\\), alltså \\(1200&lt;85t+0,12M\\).</p><p>För garanti används minsta M=5000: \\(1200&lt;85t+600\\Rightarrow t&gt;7,06\\).</p><p><strong>Svar:</strong> <strong>Över cirka 7,06 h.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
+    "s": "<p>A kostar 1200+395t+M och B kostar 480t+1,12M.</p><p>A är billigare när 1200+395t+M &lt; 480t+1,12M, alltså när <strong>1200 &lt; 85t+0,12M</strong>.</p><p>För att A ska vara garanterat billigare för alla M mellan 5 000 och 8 000 måste villkoret klara det minst gynnsamma M, här M=5 000:</p><p>1200 &lt; 85t+600 ⇒ t &gt; 600/85 ≈ <strong>7,06 h</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -75110,7 +76804,10 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "ledtrad": "<p>Dela upp kostnaden i fasta och rörliga delar om båda förekommer. Multiplicera pris per enhet med antal och kontrollera att moms, rabatt eller annan procentuell förändring appliceras på rätt belopp.</p>"
+    "ledtrad": "<p>Efter att du har härlett olikheten: fundera på vilket M i intervallet som gör högerledet minst och därför gör garantin svårast att uppfylla.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "7.165",
@@ -75122,7 +76819,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ett jobb kräver 6,5 arbetstimmar à 520 kr och material för 1 850 kr. Vad blir totalkostnaden?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\(6,5\\cdot520+1850=3380+1850=\\)<strong>5 230 kr</strong>.</p>",
+    "s": "<p>Arbetet kostar 6,5·520 = 3 380 kr. Med material blir totalen 3 380+1 850 = <strong>5 230 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -75133,7 +76830,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Multiplicera timmar med timpris och lägg sedan till materialkostnaden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.166",
@@ -75142,17 +76842,16 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>En fastighetsägare jämför två uppvärmningsalternativ.</p><p><strong>Alternativ A – behåll direktverkande el:</strong> ingen installationskostnad, driftkostnad 18 000 kr per år.<br><strong>Alternativ B – installera värmepump:</strong> installation 120 000 kr, driftkostnad 6 000 kr per år.</p><p>a) Ställ upp en modell för den totala kostnaden efter \\(x\\) år för vart och ett av alternativen.<br>b) Efter hur många år har alternativen kostat lika mycket?<br>c) Hur mycket har alternativ B sparat efter 15 år?</p><p><em>Räkna med oförändrade priser.</em></p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) <strong>\\(A(x)=18\\,000x\\)</strong> och <strong>\\(B(x)=120\\,000+6\\,000x\\)</strong></p><p>b) Sätt uttrycken lika:</p><p>\\[18\\,000x=120\\,000+6\\,000x\\]</p><p>\\[12\\,000x=120\\,000\\Rightarrow x=10\\]</p><p><strong>Efter 10 år kostar alternativen lika mycket</strong>, 180 000 kr vardera.</p><p>c) \\(A(15)=270\\,000\\) kr och \\(B(15)=120\\,000+90\\,000=210\\,000\\) kr.</p><p><strong>Alternativ B har sparat 60 000 kr efter 15 år.</strong></p><p>Modellen förutsätter fasta priser. Stiger elpriset blir återbetalningstiden kortare, och sjunker det blir den längre.</p><p>Grafiskt syns lösningen som grafernas skärningspunkt:</p><span class=\"fig\"><svg width=\"430\" height=\"290\" viewBox=\"0 0 430 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två räta linjer som skär varandra vid 10 år och 180 000 kr\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><clipPath id=\"clipg84\"><rect x=\"55\" y=\"30\" width=\"350\" height=\"210\"/></clipPath></defs><g stroke=\"#ECE9E5\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"30\" x2=\"55.0\" y2=\"240\"/><line x1=\"90.0\" y1=\"30\" x2=\"90.0\" y2=\"240\"/><line x1=\"125.0\" y1=\"30\" x2=\"125.0\" y2=\"240\"/><line x1=\"160.0\" y1=\"30\" x2=\"160.0\" y2=\"240\"/><line x1=\"195.0\" y1=\"30\" x2=\"195.0\" y2=\"240\"/><line x1=\"230.0\" y1=\"30\" x2=\"230.0\" y2=\"240\"/><line x1=\"265.0\" y1=\"30\" x2=\"265.0\" y2=\"240\"/><line x1=\"300.0\" y1=\"30\" x2=\"300.0\" y2=\"240\"/><line x1=\"335.0\" y1=\"30\" x2=\"335.0\" y2=\"240\"/><line x1=\"370.0\" y1=\"30\" x2=\"370.0\" y2=\"240\"/><line x1=\"405.0\" y1=\"30\" x2=\"405.0\" y2=\"240\"/><line x1=\"55\" y1=\"240.0\" x2=\"405\" y2=\"240.0\"/><line x1=\"55\" y1=\"212.4\" x2=\"405\" y2=\"212.4\"/><line x1=\"55\" y1=\"184.7\" x2=\"405\" y2=\"184.7\"/><line x1=\"55\" y1=\"157.1\" x2=\"405\" y2=\"157.1\"/><line x1=\"55\" y1=\"129.5\" x2=\"405\" y2=\"129.5\"/><line x1=\"55\" y1=\"101.8\" x2=\"405\" y2=\"101.8\"/><line x1=\"55\" y1=\"74.2\" x2=\"405\" y2=\"74.2\"/><line x1=\"55\" y1=\"46.6\" x2=\"405\" y2=\"46.6\"/></g><g stroke=\"#2B2527\" stroke-width=\"1.8\"><line x1=\"47\" y1=\"240\" x2=\"412\" y2=\"240\"/><line x1=\"55\" y1=\"248\" x2=\"55\" y2=\"22\"/></g><g fill=\"#50494B\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\"><text x=\"55.0\" y=\"262\" text-anchor=\"middle\">0</text><text x=\"90.0\" y=\"262\" text-anchor=\"middle\">2</text><text x=\"125.0\" y=\"262\" text-anchor=\"middle\">4</text><text x=\"160.0\" y=\"262\" text-anchor=\"middle\">6</text><text x=\"195.0\" y=\"262\" text-anchor=\"middle\">8</text><text x=\"230.0\" y=\"262\" text-anchor=\"middle\">10</text><text x=\"265.0\" y=\"262\" text-anchor=\"middle\">12</text><text x=\"300.0\" y=\"262\" text-anchor=\"middle\">14</text><text x=\"335.0\" y=\"262\" text-anchor=\"middle\">16</text><text x=\"370.0\" y=\"262\" text-anchor=\"middle\">18</text><text x=\"405.0\" y=\"262\" text-anchor=\"middle\">20</text><text x=\"46\" y=\"216.4\" text-anchor=\"end\">50000</text><text x=\"46\" y=\"188.7\" text-anchor=\"end\">100000</text><text x=\"46\" y=\"161.1\" text-anchor=\"end\">150000</text><text x=\"46\" y=\"133.5\" text-anchor=\"end\">200000</text><text x=\"46\" y=\"105.8\" text-anchor=\"end\">250000</text><text x=\"46\" y=\"78.2\" text-anchor=\"end\">300000</text><text x=\"46\" y=\"50.6\" text-anchor=\"end\">350000</text></g><g clip-path=\"url(#clipg84)\"><polyline points=\"55.0,240.0 56.8,239.0 58.5,238.0 60.2,237.0 62.0,236.0 63.8,235.0 65.5,234.0 67.2,233.0 69.0,232.0 70.8,231.0 72.5,230.1 74.2,229.1 76.0,228.1 77.8,227.1 79.5,226.1 81.2,225.1 83.0,224.1 84.8,223.1 86.5,222.1 88.2,221.1 90.0,220.1 91.8,219.1 93.5,218.1 95.2,217.1 97.0,216.1 98.8,215.1 100.5,214.1 102.2,213.1 104.0,212.1 105.8,211.2 107.5,210.2 109.2,209.2 111.0,208.2 112.8,207.2 114.5,206.2 116.2,205.2 118.0,204.2 119.8,203.2 121.5,202.2 123.2,201.2 125.0,200.2 126.8,199.2 128.5,198.2 130.2,197.2 132.0,196.2 133.8,195.2 135.5,194.2 137.2,193.2 139.0,192.3 140.8,191.3 142.5,190.3 144.2,189.3 146.0,188.3 147.8,187.3 149.5,186.3 151.2,185.3 153.0,184.3 154.8,183.3 156.5,182.3 158.2,181.3 160.0,180.3 161.8,179.3 163.5,178.3 165.2,177.3 167.0,176.3 168.8,175.3 170.5,174.3 172.2,173.4 174.0,172.4 175.8,171.4 177.5,170.4 179.2,169.4 181.0,168.4 182.8,167.4 184.5,166.4 186.2,165.4 188.0,164.4 189.8,163.4 191.5,162.4 193.2,161.4 195.0,160.4 196.8,159.4 198.5,158.4 200.2,157.4 202.0,156.4 203.8,155.4 205.5,154.5 207.2,153.5 209.0,152.5 210.8,151.5 212.5,150.5 214.2,149.5 216.0,148.5 217.8,147.5 219.5,146.5 221.2,145.5 223.0,144.5 224.8,143.5 226.5,142.5 228.2,141.5 230.0,140.5 231.8,139.5 233.5,138.5 235.2,137.5 237.0,136.5 238.8,135.6 240.5,134.6 242.2,133.6 244.0,132.6 245.8,131.6 247.5,130.6 249.2,129.6 251.0,128.6 252.8,127.6 254.5,126.6 256.2,125.6 258.0,124.6 259.8,123.6 261.5,122.6 263.2,121.6 265.0,120.6 266.8,119.6 268.5,118.6 270.2,117.6 272.0,116.7 273.8,115.7 275.5,114.7 277.2,113.7 279.0,112.7 280.8,111.7 282.5,110.7 284.2,109.7 286.0,108.7 287.8,107.7 289.5,106.7 291.2,105.7 293.0,104.7 294.8,103.7 296.5,102.7 298.2,101.7 300.0,100.7 301.8,99.7 303.5,98.7 305.2,97.8 307.0,96.8 308.8,95.8 310.5,94.8 312.2,93.8 314.0,92.8 315.8,91.8 317.5,90.8 319.2,89.8 321.0,88.8 322.8,87.8 324.5,86.8 326.2,85.8 328.0,84.8 329.8,83.8 331.5,82.8 333.2,81.8 335.0,80.8 336.8,79.8 338.5,78.9 340.2,77.9 342.0,76.9 343.8,75.9 345.5,74.9 347.2,73.9 349.0,72.9 350.8,71.9 352.5,70.9 354.2,69.9 356.0,68.9 357.8,67.9 359.5,66.9 361.2,65.9 363.0,64.9 364.8,63.9 366.5,62.9 368.2,61.9 370.0,60.9 371.8,60.0 373.5,59.0 375.2,58.0 377.0,57.0 378.8,56.0 380.5,55.0 382.2,54.0 384.0,53.0 385.8,52.0 387.5,51.0 389.2,50.0 391.0,49.0 392.8,48.0 394.5,47.0 396.2,46.0 398.0,45.0 399.8,44.0 401.5,43.0 403.2,42.0 405.0,41.1\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><text x=\"388.5\" y=\"49.0\" fill=\"#315F91\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">A</text><g clip-path=\"url(#clipg84)\"><polyline points=\"55.0,173.7 56.8,173.4 58.5,173.0 60.2,172.7 62.0,172.4 63.8,172.0 65.5,171.7 67.2,171.4 69.0,171.0 70.8,170.7 72.5,170.4 74.2,170.0 76.0,169.7 77.8,169.4 79.5,169.0 81.2,168.7 83.0,168.4 84.8,168.0 86.5,167.7 88.2,167.4 90.0,167.1 91.8,166.7 93.5,166.4 95.2,166.1 97.0,165.7 98.8,165.4 100.5,165.1 102.2,164.7 104.0,164.4 105.8,164.1 107.5,163.7 109.2,163.4 111.0,163.1 112.8,162.7 114.5,162.4 116.2,162.1 118.0,161.7 119.8,161.4 121.5,161.1 123.2,160.8 125.0,160.4 126.8,160.1 128.5,159.8 130.2,159.4 132.0,159.1 133.8,158.8 135.5,158.4 137.2,158.1 139.0,157.8 140.8,157.4 142.5,157.1 144.2,156.8 146.0,156.4 147.8,156.1 149.5,155.8 151.2,155.4 153.0,155.1 154.8,154.8 156.5,154.5 158.2,154.1 160.0,153.8 161.8,153.5 163.5,153.1 165.2,152.8 167.0,152.5 168.8,152.1 170.5,151.8 172.2,151.5 174.0,151.1 175.8,150.8 177.5,150.5 179.2,150.1 181.0,149.8 182.8,149.5 184.5,149.1 186.2,148.8 188.0,148.5 189.8,148.2 191.5,147.8 193.2,147.5 195.0,147.2 196.8,146.8 198.5,146.5 200.2,146.2 202.0,145.8 203.8,145.5 205.5,145.2 207.2,144.8 209.0,144.5 210.8,144.2 212.5,143.8 214.2,143.5 216.0,143.2 217.8,142.8 219.5,142.5 221.2,142.2 223.0,141.9 224.8,141.5 226.5,141.2 228.2,140.9 230.0,140.5 231.8,140.2 233.5,139.9 235.2,139.5 237.0,139.2 238.8,138.9 240.5,138.5 242.2,138.2 244.0,137.9 245.8,137.5 247.5,137.2 249.2,136.9 251.0,136.5 252.8,136.2 254.5,135.9 256.2,135.6 258.0,135.2 259.8,134.9 261.5,134.6 263.2,134.2 265.0,133.9 266.8,133.6 268.5,133.2 270.2,132.9 272.0,132.6 273.8,132.2 275.5,131.9 277.2,131.6 279.0,131.2 280.8,130.9 282.5,130.6 284.2,130.2 286.0,129.9 287.8,129.6 289.5,129.3 291.2,128.9 293.0,128.6 294.8,128.3 296.5,127.9 298.2,127.6 300.0,127.3 301.8,126.9 303.5,126.6 305.2,126.3 307.0,125.9 308.8,125.6 310.5,125.3 312.2,124.9 314.0,124.6 315.8,124.3 317.5,123.9 319.2,123.6 321.0,123.3 322.8,123.0 324.5,122.6 326.2,122.3 328.0,122.0 329.8,121.6 331.5,121.3 333.2,121.0 335.0,120.6 336.8,120.3 338.5,120.0 340.2,119.6 342.0,119.3 343.8,119.0 345.5,118.6 347.2,118.3 349.0,118.0 350.8,117.6 352.5,117.3 354.2,117.0 356.0,116.7 357.8,116.3 359.5,116.0 361.2,115.7 363.0,115.3 364.8,115.0 366.5,114.7 368.2,114.3 370.0,114.0 371.8,113.7 373.5,113.3 375.2,113.0 377.0,112.7 378.8,112.3 380.5,112.0 382.2,111.7 384.0,111.3 385.8,111.0 387.5,110.7 389.2,110.4 391.0,110.0 392.8,109.7 394.5,109.4 396.2,109.0 398.0,108.7 399.8,108.4 401.5,108.0 403.2,107.7 405.0,107.4\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></g><text x=\"388.5\" y=\"106.0\" fill=\"#A6432F\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"600\">B</text><circle cx=\"230.0\" cy=\"140.5\" r=\"4.5\" fill=\"#2B2527\"/><text x=\"417\" y=\"233\" font-family=\"sans-serif\" font-size=\"12\">år</text><text x=\"63\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\">kr</text></svg></span></div></div>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En fastighetsägare jämför två uppvärmningsalternativ.</p><p><strong>A:</strong> ingen installation, 18 000 kr/år i drift.<br><strong>B:</strong> installation 120 000 kr, 6 000 kr/år i drift.</p><p>a) Vilket modellpar är korrekt?<br>A. A(x)=18 000x och B(x)=120 000+6 000x<br>B. A(x)=18 000+ x och B(x)=120 000·6 000x<br>C. A(x)=120 000+18 000x och B(x)=6 000x<br>D. A(x)=18 000x och B(x)=120 000x+6 000</p><p>b) Efter hur många år är totalkostnaderna lika?<br>c) Hur mycket billigare är B efter 15 år? Räkna med oförändrade priser.</p>",
+    "s": "<p>a) <strong>A</strong>: A(x)=18 000x och B(x)=120 000+6 000x.</p><p>b) 18 000x = 120 000+6 000x ⇒ 12 000x=120 000 ⇒ <strong>x=10 år</strong>.</p><p>c) A(15)=270 000 och B(15)=210 000. B är <strong>60 000 kr billigare</strong>.</p><p>Modellen bygger på antagandet att årliga kostnader är oförändrade.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "A(x)=18000x",
-      "B(x)=120000+6000x",
+      "A",
       10,
       60000
     ],
@@ -75165,18 +76864,19 @@ window.BANKMA1 = [
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a) modell A",
-      "a) modell B",
+      "a) modellpar",
       "b) år",
-      "c) sparat kr"
+      "c) kronor"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
+      "kort_text",
       "numeriskt",
       "numeriskt"
     ],
-    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
+    "ledtrad": "<p>En fast installationskostnad är modellens startvärde. Den årliga driftkostnaden är lutningen.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "7.167",
@@ -75188,7 +76888,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Material kostar 245 kr per enhet och det behövs 14 enheter. Frakten är 390 kr. Bestäm totalkostnaden.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\(14\\cdot245+390=3430+390=\\)<strong>3820 kr</strong></p>",
+    "s": "<p>14·245+390 = 3 430+390 = <strong>3 820 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -75200,7 +76900,10 @@ window.BANKMA1 = [
       "procedur",
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Beräkna materialkostnaden och lägg till frakten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.168",
@@ -75209,13 +76912,13 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Material kostar 180 kr/enhet exkl. moms. 24 enheter, 12 % rabatt före 25 % moms. Pris inkl. moms?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>\\(24\\cdot180\\cdot0,88\\cdot1,25=\\)<strong>4752 kr</strong>.</p>",
+    "s": "<p>Grundpris: 24·180 = 4 320 kr. Efter 12 % rabatt: 4 320·0,88 = 3 801,60 kr. Med 25 % moms: 3 801,60·1,25 = <strong>4 752 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "4752",
     "tolerans": null,
@@ -75223,7 +76926,10 @@ window.BANKMA1 = [
     "formaga": [
       "modellering"
     ],
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>Rabatten sker före momsen: multiplicera därför i ordningen 24·180·0,88·1,25.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.169",
@@ -75235,7 +76941,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Ett VVS-arbete tar 3 timmar. Timpriset är 620 kr och materialet kostar 940 kr. Priserna är utan moms.</p><p>a) Vad kostar arbetstiden?<br>b) Vad blir totalkostnaden utan moms?<br>c) Vad blir priset med 25 % moms?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(3\\cdot620=\\)<strong>1 860 kr</strong></p><p>b) \\(1\\,860+940=\\)<strong>2 800 kr</strong></p><p>c) \\(2\\,800\\cdot1{,}25=\\)<strong>3 500 kr</strong></p></div></div>",
+    "s": "<p>a) 3·620 = <strong>1 860 kr</strong>.<br>b) 1 860+940 = <strong>2 800 kr</strong>.<br>c) 2 800·1,25 = <strong>3 500 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -75251,7 +76957,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Dela upp kostnaden i fasta och rörliga delar om båda förekommer. Multiplicera pris per enhet med antal och kontrollera att moms, rabatt eller annan procentuell förändring appliceras på rätt belopp.</p>"
+    "ledtrad": "<p>Arbetstid + material ger pris före moms. Momsen läggs på hela den summan.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.170",
@@ -75263,7 +76972,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>En förpackning förbrukningsmaterial kostar 189 kr.</p><p>a) Vad kostar 5 förpackningar?<br>b) Vad kostar 12 förpackningar?<br>c) Vid köp av 12 förpackningar ges 10 % rabatt. Vad blir priset då?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(5\\cdot189=\\)<strong>945 kr</strong></p><p>b) \\(12\\cdot189=\\)<strong>2 268 kr</strong></p><p>c) \\(2\\,268\\cdot0{,}90=\\)<strong>2 041,20 kr</strong></p></div></div>",
+    "s": "<p>a) 5·189 = <strong>945 kr</strong>.<br>b) 12·189 = <strong>2 268 kr</strong>.<br>c) 2 268·0,90 = <strong>2 041,20 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -75279,7 +76988,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Dela upp kostnaden i fasta och rörliga delar om båda förekommer. Multiplicera pris per enhet med antal och kontrollera att moms, rabatt eller annan procentuell förändring appliceras på rätt belopp.</p>"
+    "ledtrad": "<p>10 % rabatt innebär att 90 % av ordinarie pris betalas.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.171",
@@ -75291,7 +77003,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Ett jobb kräver 7 h à 480 kr och material 2350 kr.</p><p>a) Arbetskostnad?<br>b) Total?<br>c) Total om materialet får 10 % rabatt?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p><p>a) <strong>3360 kr</strong><br>b) <strong>5710 kr</strong><br>c) <strong>5475 kr</strong>.</p>",
+    "s": "<p>a) 7·480 = <strong>3 360 kr</strong>.<br>b) 3 360+2 350 = <strong>5 710 kr</strong>.<br>c) Material efter 10 % rabatt: 2 350·0,90 = 2 115 kr. Totalen blir 3 360+2 115 = <strong>5 475 kr</strong>.</p>",
     "familj": "Kostnadsberäkningar",
     "geogebra": false,
     "miniräknare": false,
@@ -75307,7 +77019,10 @@ window.BANKMA1 = [
       "modellering"
     ],
     "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Dela först upp kostnaden i sina delar. Beräkna fasta och rörliga delar samt eventuella procentpåslag eller rabatter i rätt ordning innan de summeras.</p>"
+    "ledtrad": "<p>I c gäller rabatten bara materialet, inte arbetskostnaden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.172",
@@ -75383,7 +77098,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>48≈50 och 197≈200.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.175",
@@ -75407,7 +77125,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>19,6≈20 och 31≈30.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.176",
@@ -75431,7 +77152,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>1 980≈2 000 och 49≈50.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.177",
@@ -75455,7 +77179,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>82≈80 och 24,5≈25.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.178",
@@ -75479,7 +77206,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>398 km≈40 mil och 0,61 L/mil≈0,6 L/mil.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.179",
@@ -75503,7 +77233,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>2 970≈3 000 och 9,8 %≈10 %.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.180",
@@ -75527,7 +77260,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>7,9≈8 och 5,1≈5.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.181",
@@ -75536,8 +77272,8 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En leverans består av 198 lådor med 51 produkter i varje. Gör ett rimligt överslag av antalet produkter. Välj själv lämpliga tal att avrunda till.</p>",
     "s": "<p><strong>Metod:</strong> Ett enkelt val är \\(198\\approx200\\) och \\(51\\approx50\\).</p><p>\\[198\\cdot51\\approx200\\cdot50=10\\,000\\]</p><p>Överslaget visar att det totala antalet produkter bör vara omkring tiotusen.</p><p><strong>Svar:</strong> cirka \\(10\\,000\\) produkter.</p>",
     "familj": "Överslag och rimlighetsbedömning",
@@ -75551,7 +77287,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>198≈200 och 51≈50.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.182",
@@ -75560,8 +77299,8 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En maskin producerar 149 delar per timme i 8,1 timmar. Gör ett rimligt överslag av hur många delar som produceras. Välj själv lämpliga tal att avrunda till.</p>",
     "s": "<p><strong>Metod:</strong> Avrunda till närliggande tal som är enkla att multiplicera. Ett möjligt val är \\(149\\approx150\\) och \\(8{,}1\\approx8\\).</p><p>\\[149\\cdot8{,}1\\approx150\\cdot8=1\\,200\\]</p><p>Andra genomtänkta avrundningar kan ge ett något annat men fortfarande rimligt överslag.</p><p><strong>Svar:</strong> cirka \\(1\\,200\\) delar.</p>",
     "familj": "Överslag och rimlighetsbedömning",
@@ -75575,7 +77314,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>149≈150 och 8,1≈8.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.183",
@@ -75584,8 +77326,8 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett företag har 4 980 kunder och 2,1 % väntas säga upp tjänsten. Gör ett rimligt överslag av antalet kunder. Välj själv lämpliga tal att avrunda till.</p>",
     "s": "<p><strong>Metod:</strong> \\(4\\,980\\) ligger nära \\(5\\,000\\) och \\(2{,}1\\,\\%\\) ligger nära \\(2\\,\\%\\).</p><p>\\[4\\,980\\cdot0{,}021\\approx5\\,000\\cdot0{,}02=100\\]</p><p>Det är rimligt eftersom 1 % av 5 000 är 50, så 2 % är 100.</p><p><strong>Svar:</strong> cirka \\(100\\) kunder.</p>",
     "familj": "Överslag och rimlighetsbedömning",
@@ -75599,7 +77341,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Runda talen till närliggande värden som är enkla att räkna med. Försök behålla samma storleksordning och räkna sedan med de avrundade talen.</p>"
+    "ledtrad": "<p>4 980≈5 000 och 2,1 %≈2 %.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.184",
@@ -75611,7 +77356,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett värde mäts till 50 med en absolut felmarginal på ±1. Hur stor är den relativa felmarginalen i procent?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>2 %</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Relativ felmarginal = 1/50·100 = <strong>2 %</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": true,
@@ -75623,7 +77368,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p>"
+    "ledtrad": "<p>Dividera den absoluta felmarginalen med mätvärdet och multiplicera med 100.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.185",
@@ -75634,20 +77382,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde mäts till 200 med en absolut felmarginal på ±4. Hur stor är den relativa felmarginalen i procent?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>2 %</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>Mätning A är 50 ± 1 och mätning B är 200 ± 4. Vilken har minst relativ felmarginal?</p><p>A. A, eftersom 1 &lt; 4.<br>B. B, eftersom 200 är större än 50.<br>C. De har samma relativa felmarginal, 2 %.<br>D. Det går inte att jämföra utan enhet.</p>",
+    "s": "<p>A: 1/50·100 = 2 %. B: 4/200·100 = 2 %. De är alltså <strong>lika precisa relativt sett</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p>"
+    "ledtrad": "<p>Jämför kvoten felmarginal/mätvärde för båda, inte bara felmarginalerna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.186",
@@ -75658,20 +77409,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde mäts till 80 med en absolut felmarginal på ±0,8. Hur stor är den relativa felmarginalen i procent?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>1 %</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>Ett värde är 80 och den relativa felmarginalen är 1 %. Hur stor är den absoluta felmarginalen?</p>",
+    "s": "<p>1 % av 80 är 0,01·80 = <strong>0,8</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
+    "rättSvar": 0.8,
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p>"
+    "ledtrad": "<p>Arbeta baklänges från procent till absolut avvikelse: 1 % av mätvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.187",
@@ -75682,20 +77436,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde mäts till 125 med en absolut felmarginal på ±2,5. Hur stor är den relativa felmarginalen i procent?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>2 %</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>Ett mätvärde är 125. Den relativa felmarginalen får vara högst 2 %. Hur stor får den absoluta felmarginalen högst vara?</p>",
+    "s": "<p>2 % av 125 är 0,02·125 = <strong>2,5</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "rättSvar": 2.5,
     "tolerans": 0.01,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p>"
+    "ledtrad": "<p>Beräkna 2 % av 125.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.188",
@@ -75706,20 +77463,37 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett värde mäts till 60 med en absolut felmarginal på ±0,3. Hur stor är den relativa felmarginalen i procent?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p><p><strong>Svar:</strong> <strong>0,5 %</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>Ett mätvärde är 60 och den relativa felmarginalen är 0,5 %. Ange intervallets nedre och övre gräns.</p>",
+    "s": "<p>0,5 % av 60 är 0,3. Mätningen kan alltså skrivas 60 ± 0,3, vilket ger intervallet <strong>59,7–60,3</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
-    "tolerans": 0.01,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      59.7,
+      60.3
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "procent",
-    "ledtrad": "<p>Relativ felmarginal = absolut felmarginal / mätvärde · 100 %.</p>"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Gör först om den relativa felmarginalen till en absolut felmarginal.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "min",
+      "max"
+    ],
+    "spel": true
   },
   {
     "id": "7.189",
@@ -75731,19 +77505,22 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett mätvärde anges som 12,4 ± 0,2. Vilket är det största möjliga värdet?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>12,6</strong></p></div></div>",
+    "s": "<p>Största värdet är 12,4+0,2 = <strong>12,6</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.6,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största möjliga värdet fås genom att addera felmarginalen.</p>"
+    "ledtrad": "<p>För maxvärdet adderas felmarginalen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.190",
@@ -75754,20 +77531,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett mätvärde anges som 8 ± 0,5. Vilket är det största möjliga värdet?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>8,5</strong></p></div></div>",
+    "t": "<p>Ett mätvärde anges som 8 ± 0,5. Vilket är det minsta möjliga värdet?</p>",
+    "s": "<p>Minsta värdet är 8−0,5 = <strong>7,5</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 8.5,
-    "tolerans": 1e-09,
+    "rättSvar": 7.5,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största möjliga värdet fås genom att addera felmarginalen.</p>"
+    "ledtrad": "<p>För minvärdet subtraheras felmarginalen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.191",
@@ -75778,20 +77558,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett mätvärde anges som 250 ± 5. Vilket är det största möjliga värdet?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>255</strong></p></div></div>",
+    "t": "<p>Ett mätvärde anges som 250 ± 5. Kan det verkliga värdet vara 256?</p><p>A. Ja<br>B. Nej</p>",
+    "s": "<p>Intervallet är 245–255. 256 ligger utanför.</p><p><strong>Svar: B.</strong></p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 255,
-    "tolerans": 1e-09,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största möjliga värdet fås genom att addera felmarginalen.</p>"
+    "ledtrad": "<p>Bestäm den övre gränsen och jämför med 256.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.192",
@@ -75802,20 +77585,37 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett mätvärde anges som 3,75 ± 0,05. Vilket är det största möjliga värdet?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>3,8</strong></p></div></div>",
+    "t": "<p>Ett mätvärde anges som 3,75 ± 0,05. Ange minsta och största möjliga värde.</p>",
+    "s": "<p>3,75−0,05 = <strong>3,70</strong> och 3,75+0,05 = <strong>3,80</strong>.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.8,
-    "tolerans": 1e-09,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.7,
+      3.8
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största möjliga värdet fås genom att addera felmarginalen.</p>"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Subtrahera och addera 0,05.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "min",
+      "max"
+    ],
+    "spel": true
   },
   {
     "id": "7.193",
@@ -75826,20 +77626,37 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett mätvärde anges som 48 ± 2. Vilket är det största möjliga värdet?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Det största möjliga värdet fås genom att addera felmarginalen.</p><p><strong>Svar:</strong> <strong>50</strong></p></div></div>",
+    "t": "<p>Ett mätintervall är 46–50. Skriv det som ett mittvärde med symmetrisk felmarginal: m ± d.</p>",
+    "s": "<p>Mittpunkten är (46+50)/2 = <strong>48</strong>. Avståndet till varje ändpunkt är <strong>2</strong>. Alltså 48 ± 2.</p>",
     "familj": "Mätfel och felmarginal",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 50,
-    "tolerans": 1e-09,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      48,
+      2
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det största möjliga värdet fås genom att addera felmarginalen.</p>"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Mittvärdet ligger mitt mellan intervallets ändpunkter; felmarginalen är halva intervallbredden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "m",
+      "d"
+    ],
+    "spel": true
   },
   {
     "id": "7.194",
@@ -75863,7 +77680,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Välj ett instrument vars mätområde och noggrannhet passar storheten.</p>"
+    "ledtrad": "<p>En tunn tråd kräver ett instrument för mycket små dimensioner med hög noggrannhet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.195",
@@ -75887,7 +77707,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Välj ett instrument vars mätområde och noggrannhet passar storheten.</p>"
+    "ledtrad": "<p>Ett rum är flera meter långt; välj ett verktyg med lämpligt mätområde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.196",
@@ -75911,7 +77734,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Välj ett instrument vars mätområde och noggrannhet passar storheten.</p>"
+    "ledtrad": "<p>Du ska mäta en temperatur, inte massa eller vinkel.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.197",
@@ -75935,7 +77761,10 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Välj ett instrument vars mätområde och noggrannhet passar storheten.</p>"
+    "ledtrad": "<p>För tiondels millimeter behövs finare upplösning än en tumstock normalt ger.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.198",
@@ -75947,19 +77776,22 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En tabell anger att en maskin producerar 18 enheter per timme. Hur många enheter producerar den på 7 timmar om takten är konstant?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>126</strong></p></div></div>",
+    "s": "<p>18 enheter per timme i 7 timmar ger 18·7 = <strong>126 enheter</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 126,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Multiplicera produktion per timme med antal timmar. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Takten är konstant, så multiplicera enheter per timme med antal timmar.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.199",
@@ -75970,20 +77802,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tabell anger att en maskin producerar 24 enheter per timme. Hur många enheter producerar den på 5 timmar om takten är konstant?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>120</strong></p></div></div>",
+    "t": "<p>En maskin producerar 24 enheter per timme. Hur lång tid tar det att producera 120 enheter om takten är konstant?</p>",
+    "s": "<p>120/24 = <strong>5 timmar</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 120,
-    "tolerans": 1e-09,
+    "rättSvar": 5,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Multiplicera produktion per timme med antal timmar. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>När total mängd och takt är kända får du tiden genom mängd/takt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.200",
@@ -75994,20 +77829,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tabell anger att en maskin producerar 12,5 enheter per timme. Hur många enheter producerar den på 8 timmar om takten är konstant?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>100</strong></p></div></div>",
+    "t": "<p>En tabell anger 12,5 enheter per timme. Under ett 8-timmarspass visar räknaren att 92 enheter faktiskt producerades. Hur många färre enheter blev det än tabellens teoretiska värde?</p>",
+    "s": "<p>Tabellvärdet ger 12,5·8 = 100 enheter. Faktiskt blev det 92, alltså <strong>8 färre</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 100,
-    "tolerans": 1e-09,
+    "rättSvar": 8,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Multiplicera produktion per timme med antal timmar. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Beräkna först den teoretiska produktionen och jämför sedan med räknarens faktiska värde.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.201",
@@ -76018,20 +77856,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En tabell anger att en maskin producerar 35 enheter per timme. Hur många enheter producerar den på 4 timmar om takten är konstant?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Multiplicera produktion per timme med antal timmar.</p><p><strong>Svar:</strong> <strong>140</strong></p></div></div>",
+    "t": "<p>En maskin producerar 36 enheter per timme när den går. Under ett 4-timmarspass står den stilla i 20 minuter. Hur många enheter hinner den teoretiskt producera under den aktiva tiden?</p>",
+    "s": "<p>20 min = 1/3 h, så aktiv tid är 4−1/3 = 11/3 h. Produktionen blir 36·11/3 = <strong>132 enheter</strong>.</p>",
     "familj": "Yrkesverktyg, mätinstrument och rimlighetskontroll",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 140,
-    "tolerans": 1e-09,
+    "rättSvar": 132,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Multiplicera produktion per timme med antal timmar. Gör först ett överslag för storleksordningen.</p>"
+    "ledtrad": "<p>Gör stopptiden till timmar och subtrahera den från 4 timmar innan du multiplicerar med takten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.202",
@@ -76043,20 +77884,23 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En ritning/karta har skalan 1:50000. En sträcka är 3,2 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:50000 betyder att 1 cm på bilden motsvarar 50000 cm i verkligheten.</p><p>\\(3,2\\cdot 50000=160000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 1,6 km.</p><p><strong>Svar:</strong> 1,6 km.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p>3,2 cm · 50 000 = 160 000 cm = <strong>1,6 km</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "km",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Räkna först verklig sträcka i centimeter och omvandla sedan till kilometer.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.203",
@@ -76067,21 +77911,24 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En ritning/karta har skalan 1:25000. En sträcka är 6 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:25000 betyder att 1 cm på bilden motsvarar 25000 cm i verkligheten.</p><p>\\(6\\cdot 25000=150000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 1,5 km.</p><p><strong>Svar:</strong> 1,5 km.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>En verklig sträcka är 1,5 km och mäter 6,0 cm på en karta. Bestäm kartans skala.</p>",
+    "s": "<p>1,5 km = 150 000 cm. 150 000/6 = 25 000, alltså <strong>skala 1:25 000</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.5,
-    "tolerans": 1e-06,
+    "svarstyp": "kort_text",
+    "rättSvar": "1:25000",
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "km",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Gör den verkliga sträckan till centimeter och bestäm hur många verkliga centimeter som motsvarar 1 cm på kartan.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.204",
@@ -76092,21 +77939,24 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En ritning/karta har skalan 1:100000. En sträcka är 4,5 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:100000 betyder att 1 cm på bilden motsvarar 100000 cm i verkligheten.</p><p>\\(4,5\\cdot 100000=450000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 4,5 km.</p><p><strong>Svar:</strong> 4,5 km.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>På en karta i skala 1:100 000 mäter en sträcka 4,5 cm. En elev räknar 4,5·100 000 = 450 000 och skriver ”450 000 meter”. Vilket är felet?</p><p>A. Produkten 450 000 är i centimeter, inte meter.<br>B. Man ska dividera med 100 000 i stället.<br>C. Skalan ska kvadreras eftersom det är en längd.<br>D. Inget är fel; 450 000 m är korrekt.</p>",
+    "s": "<p>Skalan jämför längder i samma enhet. Eftersom 4,5 anges i centimeter är 4,5·100 000 = 450 000 också <strong>centimeter</strong>, vilket är 4,5 km.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4.5,
-    "tolerans": 1e-06,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "km",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>En skala ändrar inte automatiskt centimeter till meter. Följ enheten genom multiplikationen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.205",
@@ -76117,21 +77967,34 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En ritning/karta har skalan 1:20000. En sträcka är 7,5 cm på bilden. Hur lång är sträckan i verkligheten? Svara i km.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:20000 betyder att 1 cm på bilden motsvarar 20000 cm i verkligheten.</p><p>\\(7,5\\cdot 20000=150000\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till km: 1,5 km.</p><p><strong>Svar:</strong> 1,5 km.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>Samma verkliga väg ritas på två kartor, en i skala 1:20 000 och en i skala 1:50 000. På vilken karta blir vägen längst och hur många gånger längre?</p>",
+    "s": "<p>Den mindre nämnaren ger större bild. För samma verkliga sträcka blir längdförhållandet 50 000/20 000 = <strong>2,5</strong>.</p><p>Vägen är alltså längst på kartan i <strong>skala 1:20 000</strong>, 2,5 gånger så lång som på 1:50 000-kartan.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.5,
-    "tolerans": 1e-06,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1:20000",
+      2.5
+    ],
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ],
     "svarEnhet": "km",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Jämför hur många verkliga centimeter som ryms i 1 cm på respektive karta.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEtiketter": [
+      "karta",
+      "längdfaktor"
+    ]
   },
   {
     "id": "7.206",
@@ -76143,20 +78006,23 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En ritning/karta har skalan 1:50. En sträcka är 8 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:50 betyder att 1 cm på bilden motsvarar 50 cm i verkligheten.</p><p>\\(8\\cdot 50=400\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 4 m.</p><p><strong>Svar:</strong> 4 m.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p>8 cm · 50 = 400 cm = <strong>4 m</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Skalan ger verklig längd i samma enhet som ritningslängden. Omvandla centimeter till meter sist.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.207",
@@ -76167,21 +78033,24 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En ritning/karta har skalan 1:100. En sträcka är 12 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:100 betyder att 1 cm på bilden motsvarar 100 cm i verkligheten.</p><p>\\(12\\cdot 100=1200\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 12 m.</p><p><strong>Svar:</strong> 12 m.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>En vägg är 12 m lång i verkligheten. Hur lång blir väggen på en ritning i skala 1:100? Svara i centimeter.</p>",
+    "s": "<p>12 m = 1 200 cm. På ritningen blir längden 1200/100 = <strong>12 cm</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>När du går från verklighet till ritning dividerar du den verkliga längden med skalans nämnare.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.208",
@@ -76192,21 +78061,24 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En ritning/karta har skalan 1:20. En sträcka är 15 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:20 betyder att 1 cm på bilden motsvarar 20 cm i verkligheten.</p><p>\\(15\\cdot 20=300\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 3 m.</p><p><strong>Svar:</strong> 3 m.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>En modell i skala 1:20 är 15 cm lång. En ny modell av samma föremål ska byggas i skala 1:10. Hur lång blir den nya modellen?</p>",
+    "s": "<p>Skala 1:10 ger dubbelt så stora modellängder som 1:20. Den nya modellen blir <strong>30 cm</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": 1e-06,
+    "rättSvar": 30,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Jämför skalornas nämnare. Den verkliga längden behöver inte räknas ut om du ser förhållandet mellan skalorna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.209",
@@ -76217,21 +78089,24 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En ritning/karta har skalan 1:25. En sträcka är 6 cm på bilden. Hur lång är sträckan i verkligheten? Svara i m.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Skalan 1:25 betyder att 1 cm på bilden motsvarar 25 cm i verkligheten.</p><p>\\(6\\cdot 25=150\\) cm.</p><p><strong>Steg 2:</strong> Omvandla till m: 1,5 m.</p><p><strong>Svar:</strong> 1,5 m.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>En sträcka som är 1,5 m i verkligheten är 6,0 cm på en ritning. Bestäm ritningens skala.</p>",
+    "s": "<p>1,5 m = 150 cm. 150/6 = 25, alltså <strong>skala 1:25</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.5,
-    "tolerans": 1e-06,
+    "svarstyp": "kort_text",
+    "rättSvar": "1:25",
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Sätt motsvarande längder i samma ordning och bilda en skalfaktor. Alla längder skalas med samma faktor, medan areor skalas med faktorns kvadrat.</p>"
+    "ledtrad": "<p>Skriv båda längderna i centimeter och förkorta förhållandet ritning:verklighet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.210",
@@ -76243,20 +78118,23 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två likformiga figurer har längdskalfaktorn 2 från den mindre till den större. Med vilken faktor förändras arean?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(2^2=4\\).</p><p><strong>Svar:</strong> arean multipliceras med 4.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p>Area skalar med kvadraten av längdfaktorn: 2² = <strong>4</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Arean förändras med kvadraten på längdskalfaktorn. Sätt motsvarande längder i samma ordning och bilda en skalfaktor.</p>"
+    "ledtrad": "<p>Två längdriktningar skalas med faktor 2.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.211",
@@ -76265,23 +78143,26 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Två likformiga figurer har längdskalfaktorn 3 från den mindre till den större. Med vilken faktor förändras arean?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(3^2=9\\).</p><p><strong>Svar:</strong> arean multipliceras med 9.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två likformiga figurer har areaskalfaktorn 9 från den mindre till den större. Vilken är längdskalfaktorn?</p>",
+    "s": "<p>Längdskalfaktorn är kvadratroten ur areaskalfaktorn: √9 = <strong>3</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": 1e-06,
+    "rättSvar": 3,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Arean förändras med kvadraten på längdskalfaktorn. Sätt motsvarande längder i samma ordning och bilda en skalfaktor.</p>"
+    "ledtrad": "<p>Areafaktorn är längdfaktorn i kvadrat.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.212",
@@ -76290,23 +78171,26 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Två likformiga figurer har längdskalfaktorn 0,5 från den mindre till den större. Med vilken faktor förändras arean?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(0,5^2=0,25\\).</p><p><strong>Svar:</strong> arean multipliceras med 0,25.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p>Areafaktorn är 0,5² = <strong>0,25</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Arean förändras med kvadraten på längdskalfaktorn. Sätt motsvarande längder i samma ordning och bilda en skalfaktor.</p>"
+    "ledtrad": "<p>Kvadrera längdskalfaktorn.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.213",
@@ -76317,21 +78201,24 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två likformiga figurer har längdskalfaktorn 1,5 från den mindre till den större. Med vilken faktor förändras arean?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Arean förändras med kvadraten på längdskalfaktorn.</p><p>\\(1,5^2=2,25\\).</p><p><strong>Svar:</strong> arean multipliceras med 2,25.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>Två likformiga figurer har areaskalfaktorn 2,25 från den mindre till den större. Vilken är längdskalfaktorn?</p>",
+    "s": "<p>Längdskalfaktorn är √2,25 = <strong>1,5</strong>.</p>",
     "familj": "Skala och likformighet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 2.25,
-    "tolerans": 1e-06,
+    "rättSvar": 1.5,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Arean förändras med kvadraten på längdskalfaktorn. Sätt motsvarande längder i samma ordning och bilda en skalfaktor.</p>"
+    "ledtrad": "<p>Ta den positiva kvadratroten ur areafaktorn.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.214",
@@ -76343,7 +78230,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En utrustning är godkänd för högst 1200 kg och belastas med 900 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ledig kapacitet är \\(1200-900=300\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{300}{1200}\\cdot100=25\\%\\).</p><p><strong>Svar:</strong> 25 %.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Ledig kapacitet är 1 200−900 = 300 kg. Som andel av maxkapaciteten: 300/1 200·100 = <strong>25 %</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
@@ -76355,7 +78242,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>Procentuell säkerhetsmarginal ska jämföras med maxkapaciteten, inte med den aktuella lasten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.215",
@@ -76364,22 +78254,25 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En utrustning är godkänd för högst 800 kg och belastas med 600 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ledig kapacitet är \\(800-600=200\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{200}{800}\\cdot100=25\\%\\).</p><p><strong>Svar:</strong> 25 %.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En last är 600 kg. Kravet är att 25 % av maxkapaciteten ska vara kvar som säkerhetsmarginal. Vilken minsta maxkapacitet måste utrustningen ha?</p>",
+    "s": "<p>Om 25 % ska vara kvar får lasten vara 75 % av maxkapaciteten K. 0,75K=600 ⇒ K=<strong>800 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 25,
+    "rättSvar": 800,
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>600 kg motsvarar 75 % av maxkapaciteten när 25 % ska vara kvar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.216",
@@ -76388,22 +78281,39 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En utrustning är godkänd för högst 2500 kg och belastas med 2000 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ledig kapacitet är \\(2500-2000=500\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{500}{2500}\\cdot100=20\\%\\).</p><p><strong>Svar:</strong> 20 %.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Utrustning A: max 2 500 kg, last 2 000 kg. Utrustning B: max 1 800 kg, last 1 350 kg.</p><p>a) Vilken har störst återstående säkerhetsmarginal i procent av maxkapaciteten?<br>b) Hur många procentenheter större är den?</p>",
+    "s": "<p>A har (2500−2000)/2500 = <strong>20 %</strong> kvar. B har (1800−1350)/1800 = <strong>25 %</strong> kvar.</p><p><strong>B</strong> har alltså <strong>5 procentenheter</strong> större marginal.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0.06,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "B",
+      5
+    ],
+    "tolerans": [
+      null,
+      0.1
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "procent",
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Beräkna ledig kapacitet som andel av respektive utrustnings egen maxkapacitet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) A eller B",
+      "b) procentenheter"
+    ],
+    "spel": true
   },
   {
     "id": "7.217",
@@ -76414,20 +78324,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En utrustning är godkänd för högst 500 kg och belastas med 425 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ledig kapacitet är \\(500-425=75\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{75}{500}\\cdot100=15\\%\\).</p><p><strong>Svar:</strong> 15 %.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>En utrustning är godkänd för högst 500 kg. Minst 15 % ska lämnas som säkerhetsmarginal. Hur stor belastning får högst användas?</p>",
+    "s": "<p>85 % får användas: 0,85·500 = <strong>425 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
+    "rättSvar": 425,
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>15 % ska vara kvar, alltså får 85 % användas.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.218",
@@ -76438,20 +78351,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En utrustning är godkänd för högst 1500 kg och belastas med 1050 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ledig kapacitet är \\(1500-1050=450\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{450}{1500}\\cdot100=30\\%\\).</p><p><strong>Svar:</strong> 30 %.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "t": "<p>En utrustning är godkänd för högst 1 500 kg och har 30 % av maxkapaciteten kvar som säkerhetsmarginal. Hur stor är den aktuella lasten?</p>",
+    "s": "<p>Om 30 % är kvar används 70 %: 0,70·1 500 = <strong>1 050 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 30,
+    "rättSvar": 1050,
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>Återstående 30 % betyder att 70 % av maxkapaciteten används.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.219",
@@ -76460,22 +78376,25 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En utrustning är godkänd för högst 3200 kg och belastas med 2560 kg. Hur stor är den återstående säkerhetsmarginalen i procent av maxkapaciteten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Ledig kapacitet är \\(3200-2560=640\\) kg.</p><p><strong>Steg 2:</strong> Jämför med maxkapaciteten: \\(\\frac{640}{3200}\\cdot100=20\\%\\).</p><p><strong>Svar:</strong> 20 %.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En utrustning är godkänd för 3 200 kg och belastas med 2 560 kg. En elev räknar 640/2 560 = 25 % och säger att säkerhetsmarginalen är 25 %. Vilken bedömning är korrekt?</p><p>A. Eleven använder fel nämnare; marginalen ska jämföras med maxkapaciteten och är 640/3 200 = 20 %.<br>B. Eleven har rätt; marginalen ska alltid jämföras med den aktuella lasten och är 25 %.<br>C. Eleven använder rätt nämnare men borde subtrahera 25 från 100 och få 75 %.<br>D. Marginalen kan inte beräknas eftersom maxkapaciteten och lasten har samma enhet.</p>",
+    "s": "<p>Ledig kapacitet är 640 kg, men frågan gäller andel av <em>maxkapaciteten</em>. 640/3 200·100 = <strong>20 %</strong>.</p><p><strong>Svar: A.</strong></p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": 0.06,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "procent",
-    "ledtrad": "<p>Bestäm först den teoretiska kapaciteten. Jämför sedan belastningen med kapaciteten och uttryck marginalen som skillnad eller andel, beroende på vad uppgiften frågar efter.</p>"
+    "ledtrad": "<p>Kontrollera vad procenten ska vara procent <em>av</em>.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.220",
@@ -76487,7 +78406,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>En konstruktion belastas med 960 kg. Kravet är att minst 20 % av maxkapaciteten ska vara kvar som säkerhetsmarginal. Vilken minsta maxkapacitet måste konstruktionen vara godkänd för?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Den del av maxkapaciteten som får användas är 100 % minus säkerhetsmarginalen.</p><p>\\(960=0,80\\cdot K\\Rightarrow K=\\frac{960}{0,80}=1200\\).</p><p><strong>Svar:</strong> 1200 kg.</p></div></div>",
+    "s": "<p>Med 20 % marginal får 80 % användas. 0,80K = 960 ⇒ K = 960/0,80 = <strong>1 200 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
@@ -76501,7 +78420,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
-    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
+    "ledtrad": "<p>Den givna lasten motsvarar 80 % av den minsta maxkapaciteten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.221",
@@ -76510,10 +78432,10 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En utrustning är godkänd för 1500 kg. Minst 15 % av maxkapaciteten ska lämnas som säkerhetsmarginal. Hur stor belastning får man högst använda?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Den del av maxkapaciteten som får användas är 100 % minus säkerhetsmarginalen.</p><p>\\(0,85\\cdot1500=1275\\).</p><p><strong>Svar:</strong> 1275 kg.</p></div></div>",
+    "s": "<p>15 % ska vara kvar, så 85 % får användas. 0,85·1 500 = <strong>1 275 kg</strong>.</p>",
     "familj": "Beräkna kapacitet och säkerhetsmarginal",
     "geogebra": false,
     "miniräknare": true,
@@ -76527,7 +78449,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "kg",
-    "ledtrad": "<p>Markera vad som är givet och vad som ska bestämmas. Vilket känt samband eller vilken regel passar direkt?</p>"
+    "ledtrad": "<p>Beräkna 85 % av maxkapaciteten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.222",
@@ -76539,7 +78464,7 @@ window.BANKMA1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Det behövs 40 m material. För att täcka spill lägger man till 5 %. Materialet kostar 120 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Material inklusive spill: \\(40\\cdot 1,05=42\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(42\\cdot 120=5040\\) kr.</p><p><strong>Svar:</strong> cirka 5040 kr.</p></div></div>",
+    "s": "<p>Med 5 % spill behövs 40·1,05 = 42 m. Kostnaden blir 42·120 = <strong>5 040 kr</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
@@ -76551,7 +78476,10 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>Beräkna först inköpsmängden inklusive spill och multiplicera sedan med priset per meter.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.223",
@@ -76560,22 +78488,25 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Det behövs 60 m material. För att täcka spill lägger man till 8 %. Materialet kostar 75 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Material inklusive spill: \\(60\\cdot 1,08=64,8\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(64,8\\cdot 75=4860\\) kr.</p><p><strong>Svar:</strong> cirka 4860 kr.</p></div></div>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett arbete behöver 60 m nettomaterial. Materialet kostar 75 kr/m. Den totala materialkostnaden blev 4 860 kr. Hur många procent spill hade man räknat med?</p>",
+    "s": "<p>4 860/75 = 64,8 m köpt material. Extra mängd är 64,8−60 = 4,8 m.</p><p>4,8/60·100 = <strong>8 %</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4860,
-    "tolerans": 0.51,
+    "rättSvar": 8,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>Arbeta baklänges: kostnad → köpt mängd → extra mängd → procent av nettobehovet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "7.224",
@@ -76584,22 +78515,39 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Det behövs 25 m material. För att täcka spill lägger man till 12 %. Materialet kostar 90 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Material inklusive spill: \\(25\\cdot 1,12=28\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(28\\cdot 90=2520\\) kr.</p><p><strong>Svar:</strong> cirka 2520 kr.</p></div></div>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Ett arbete behöver 25 m nettomaterial. Leverantör A tar 90 kr/m och du räknar med 12 % spill. Leverantör B tar 95 kr/m men spillet bedöms bli 8 %. Vilket alternativ ger lägst materialkostnad och hur stor är skillnaden?</p>",
+    "s": "<p>A: 25·1,12·90 = <strong>2 520 kr</strong>.</p><p>B: 25·1,08·95 = <strong>2 565 kr</strong>.</p><p><strong>A är 45 kr billigare.</strong></p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2520,
-    "tolerans": 0.51,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "A",
+      45
+    ],
+    "tolerans": [
+      null,
+      1
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "svarFormat": [
+      "kort_text",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Jämför totalkostnaden efter spillpåslaget, inte bara priset per meter.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "billigast alternativ",
+      "skillnad (kr)"
+    ],
+    "spel": true
   },
   {
     "id": "7.225",
@@ -76608,22 +78556,36 @@ window.BANKMA1 = [
     "kurs": [
       "1a"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Det behövs 80 m material. För att täcka spill lägger man till 4 %. Materialet kostar 55 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Material inklusive spill: \\(80\\cdot 1,04=83,2\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(83,2\\cdot 55=4576\\) kr.</p><p><strong>Svar:</strong> cirka 4576 kr.</p></div></div>",
+    "niva": "C",
+    "poang": "1/1/0",
+    "t": "<p>Ett arbete behöver 80 m nettomaterial. Med 4 % spill blir behovet 83,2 m. Materialet säljs endast i hela 5-metersrullar och kostar 55 kr/m. a) Hur många rullar måste köpas? b) Vad blir inköpskostnaden?</p>",
+    "s": "<p>83,2/5 = 16,64, så <strong>17 rullar</strong> krävs. Då köps 85 m.</p><p>Kostnaden är 85·55 = <strong>4 675 kr</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4576,
-    "tolerans": 0.51,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17,
+      4675
+    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "svarFormat": [
+      "heltal",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Rullantalet måste avrundas uppåt innan kostnaden beräknas.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "rullar",
+      "kostnad (kr)"
+    ],
+    "spel": true
   },
   {
     "id": "7.226",
@@ -76634,20 +78596,34 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Det behövs 50 m material. För att täcka spill lägger man till 10 %. Materialet kostar 64 kr per meter. Bestäm totalkostnaden. Avrunda till närmaste krona.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Material inklusive spill: \\(50\\cdot 1,1=55\\) m.</p><p><strong>Steg 2:</strong> Kostnaden blir \\(55\\cdot 64=3520\\) kr.</p><p><strong>Svar:</strong> cirka 3520 kr.</p></div></div>",
+    "t": "<p>Ett arbete behöver 50 m nettomaterial. Man lägger på 10 % spill och materialet kostar 64 kr/m. a) Hur många meter köps? b) Hur mycket av materialkostnaden motsvarar själva spillpåslaget?</p>",
+    "s": "<p>a) 50·1,10 = <strong>55 m</strong>.</p><p>b) Spillmängden är 5 m och kostar 5·64 = <strong>320 kr</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3520,
-    "tolerans": 0.51,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      55,
+      320
+    ],
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Spillkostnaden är kostnaden för den extra mängden, inte för hela inköpet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "inköpt mängd (m)",
+      "spillkostnad (kr)"
+    ],
+    "spel": true
   },
   {
     "id": "7.227",
@@ -76659,7 +78635,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Efter att 8 % spill har lagts till blir materialbeställningen 54 m. Hur stort var det planerade nettobehovet före spillpåslaget?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Översätt spillvillkoret till en förändringsfaktor och arbeta baklänges eller framåt beroende på vad som är känt.</p><p>\\(54/1,08=50\\).</p><p><strong>Svar:</strong> 50 m.</p></div></div>",
+    "s": "<p>54 m motsvarar 108 % av nettobehovet. Nettobehovet är 54/1,08 = <strong>50 m</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
@@ -76673,7 +78649,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>När slutmängden efter ett procentpåslag är känd arbetar du baklänges genom att dividera med förändringsfaktorn.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.228",
@@ -76685,7 +78664,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Ett material kostar 120 kr/m. Budgeten är 6600 kr och man behöver lägga på 10 % för spill. Hur många meter nettomaterial kan projektet högst kräva?</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Översätt spillvillkoret till en förändringsfaktor och arbeta baklänges eller framåt beroende på vad som är känt.</p><p>\\(6600/120=55\\text{ m inköpt},\\quad 55/1,10=50\\).</p><p><strong>Svar:</strong> 50 m.</p></div></div>",
+    "s": "<p>Budgeten räcker till 6 600/120 = 55 m inköpt material. Eftersom inköpsmängden är 110 % av nettot blir nettobehovet 55/1,10 = <strong>50 m</strong>.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
@@ -76699,7 +78678,10 @@ window.BANKMA1 = [
     ],
     "svarFormat": "numeriskt",
     "svarEnhet": "m",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>Gå baklänges i två steg: budget → inköpsmängd → nettobehov före 10 % spill.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.229",
@@ -76711,7 +78693,7 @@ window.BANKMA1 = [
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Ett arbete kräver 72 m användbart material. Man räknar med 5 % spill och materialet säljs i hela rullar om 10 m. Hur många rullar måste minst köpas?</p>",
-    "s": "<p><strong>Steg 1:</strong> Lägg först på spill: \\(72\\cdot1,05=75,6\\) m.</p><p><strong>Steg 2:</strong> Varje rulle innehåller 10 m, så \\(75,6/10=7,56\\) rullar. Eftersom man bara kan köpa hela rullar måste antalet avrundas uppåt.</p><p><strong>Svar:</strong> 8 rullar.</p>",
+    "s": "<p>Med 5 % spill behövs 72·1,05 = 75,6 m. Det är 7,56 rullar à 10 m, så minst <strong>8 rullar</strong> måste köpas.</p>",
     "familj": "Beräkna materialåtgång, spill och kostnad",
     "geogebra": false,
     "miniräknare": true,
@@ -76724,7 +78706,10 @@ window.BANKMA1 = [
       "problemlösning"
     ],
     "svarFormat": "heltal",
-    "ledtrad": "<p>Beräkna den geometriska materialmängden först och lägg därefter på spill som en förändringsfaktor. Kostnaden beräknas sist från den mängd som faktiskt behöver köpas.</p>"
+    "ledtrad": "<p>Räkna fram mängden inklusive spill och avrunda sedan antalet rullar uppåt.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "7.401",
@@ -78484,7 +80469,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 7.5e-05,
+    "rättSvar": 0.000075,
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",

@@ -1,7 +1,6 @@
-/* Ma2-bank. Pedagogiskt kvalitetsreviderad t.o.m. omgång 3 (2026-09-14).
- * Omgång 2: kapitel 1, ID 1.01–1.97. Omgång 3: nästa 100 kapitel-1-uppgifter, ID 1.102–1.236.
- * E/C/A används för Uppgiftslabbet. traningsniva 1–5 används separat i Kunskapsgymmet,
- * tillsammans med arbetsinsats 1–3 och spel (false = visas inte i Gymmet).
+/* Ma2-bank. Pedagogiskt kvalitetsreviderad t.o.m. omgång 5 (2026-09-14).
+ * E/C/A används för Uppgiftslabbet. traningsniva 1–5 används separat i Kunskapsgymmet.
+ * Omgång 5: logaritmbegreppet, logaritmlagar och jämförelse av potens-/exponentialmodeller.
  */
 window.BANKMA2 = [
   {
@@ -11607,7 +11606,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En följd av värden är 200, 240, 288, ... och beskrivs exponentiellt.</p><p>a) Bestäm förändringsfaktorn.<br>b) Bestäm nästa värde.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>\\(240/200=1,2\\) och \\(288/240=1,2\\).</p><p>Förändringsfaktorn är alltså 1,2.</p><p>Nästa värde blir \\(288\\cdot1,2=345,6\\).</p><p><strong>a) 1,2. b) 345,6.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>\\(240/200=1,2\\) och \\(288/240=1,2\\).</p><p>Förändringsfaktorn är alltså 1,2.</p><p>Nästa värde blir \\(288\\cdot1,2=345,6\\).</p><p><strong>a) 1,2. b) 345,6.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -11642,7 +11641,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.12",
@@ -11684,7 +11686,10 @@ window.BANKMA2 = [
       "c)"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.13",
@@ -11697,7 +11702,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg 0,0001\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(0,0001=10^{-4}\\). Därför är <strong>\\(\\lg0,0001=-4\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(0{,}0001=10^{-4}\\). Därför är</p><p><strong>\\(\\lg0{,}0001=-4\\).</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -11711,7 +11716,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>Skriv 0,0001 som en tiopotens.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.14",
@@ -11736,7 +11744,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Sätt först modellen lika med målvärdet. I ett digitalt verktyg löser du sedan ekvationen med den okända i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.15",
@@ -11766,7 +11777,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
+    "ledtrad": "<p>Sätt först modellen lika med målvärdet. I ett digitalt verktyg löser du sedan ekvationen med den okända i exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.16",
@@ -12117,10 +12131,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En exponentialfunktion har formen \\(f(x)=C\\cdot a^x\\). Det gäller att \\(f(0)=6\\) och \\(f(2)=24\\). Bestäm funktionen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Eftersom \\(f(0)=C\\) är \\(C=6\\).</p><p>Sedan ger \\(f(2)=24\\): \\(6a^2=24\\Rightarrow a^2=4\\). För en exponentialfunktion är \\(a&gt;0\\), alltså \\(a=2\\).</p><p><strong>\\(f(x)=6\\cdot2^x\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Eftersom \\(f(0)=C\\) är \\(C=6\\).</p><p>Sedan ger \\(f(2)=24\\): \\(6a^2=24\\Rightarrow a^2=4\\). För en exponentialfunktion är \\(a&gt;0\\), alltså \\(a=2\\).</p><p><strong>\\(f(x)=6\\cdot2^x\\).</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -12133,7 +12147,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.26",
@@ -12143,10 +12160,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Förenkla. Anta \\(x&gt;0\\).</p><p>\\(\\lg(2x)+\\lg(5x)-\\lg10\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Slå först ihop de två första logaritmerna:</p><p>\\(\\lg(2x)+\\lg(5x)=\\lg(10x^2)\\).</p><p>Subtraktionen av \\(\\lg10\\) ger med lagen \\(\\lg x-\\lg y=\\lg(x/y)\\)</p><p>\\(\\lg(10x^2/10)=\\lg(x^2)\\).</p><p><strong>\\(\\lg(x^2)\\).</strong></p>",
+    "s": "<p>Slå först ihop de två första logaritmerna:</p><p>\\(\\lg(2x)+\\lg(5x)=\\lg(10x^2)\\).</p><p>Subtraktionen av \\(\\lg10\\) ger med lagen \\(\\lg x-\\lg y=\\lg(x/y)\\)</p><p>\\(\\lg(10x^2/10)=\\lg(x^2)\\).</p><p><strong>\\(\\lg(x^2)\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -12159,7 +12176,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.27",
@@ -12185,7 +12205,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.28",
@@ -12444,7 +12468,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En odling innehåller från början 240 bakterier. Antalet ökar med 18 % per timme.</p><p>a) Skriv en exponentialfunktion \\(N(t)\\).<br>b) Hur många bakterier finns enligt modellen efter 6 timmar?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>förändringsfaktorn är 1,18.</p><p>\\(N(t)=240\\cdot1,18^t\\).</p><p>\\(N(6)\\approx648\\).</p><p><strong>\\(N(t)=240\\cdot1,18^t\\), cirka 648 bakterier efter 6 timmar.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>förändringsfaktorn är 1,18.</p><p>\\(N(t)=240\\cdot1,18^t\\).</p><p>\\(N(6)\\approx648\\).</p><p><strong>\\(N(t)=240\\cdot1,18^t\\), cirka 648 bakterier efter 6 timmar.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -12458,7 +12482,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.37",
@@ -13008,10 +13035,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En population är 12 500 efter 3 år och 15 125 efter 5 år. Anta exponentiell tillväxt.</p><p>Bestäm den årliga förändringsfaktorn.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Mellan mätningarna går det två år. Om den årliga förändringsfaktorn är \\(a\\), gäller därför</p><p>\\(12500a^2=15125\\).</p><p>Dividera med 12 500:</p><p>\\(a^2=1,21\\).</p><p>En förändringsfaktor är positiv, så \\(a=\\sqrt{1,21}=1,10\\).</p><p><strong>Den årliga förändringsfaktorn är 1,10, vilket motsvarar 10 % ökning per år.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Mellan mätningarna går det två år. Om den årliga förändringsfaktorn är \\(a\\), gäller därför</p><p>\\(12500a^2=15125\\).</p><p>Dividera med 12 500:</p><p>\\(a^2=1,21\\).</p><p>En förändringsfaktor är positiv, så \\(a=\\sqrt{1,21}=1,10\\).</p><p><strong>Den årliga förändringsfaktorn är 1,10, vilket motsvarar 10 % ökning per år.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -13025,7 +13052,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.52",
@@ -13039,7 +13069,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Grafen nedan närmar sig en horisontell linje när x minskar.</p><span class=\"fig smal\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"48.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"85.0\" y1=\"262.0\" x2=\"85.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"122.0\" y1=\"262.0\" x2=\"122.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"159.0\" y1=\"262.0\" x2=\"159.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"196.0\" y1=\"262.0\" x2=\"196.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"233.0\" y1=\"262.0\" x2=\"233.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"270.0\" y1=\"262.0\" x2=\"270.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"307.0\" y1=\"262.0\" x2=\"307.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"344.0\" y1=\"262.0\" x2=\"344.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"381.0\" y1=\"262.0\" x2=\"381.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"418.0\" y1=\"262.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"418.0\" y2=\"262.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"241.8\" x2=\"418.0\" y2=\"241.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"221.7\" x2=\"418.0\" y2=\"221.7\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"201.5\" x2=\"418.0\" y2=\"201.5\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"181.3\" x2=\"418.0\" y2=\"181.3\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"161.2\" x2=\"418.0\" y2=\"161.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"141.0\" x2=\"418.0\" y2=\"141.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"120.8\" x2=\"418.0\" y2=\"120.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"100.7\" x2=\"418.0\" y2=\"100.7\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"80.5\" x2=\"418.0\" y2=\"80.5\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"60.3\" x2=\"418.0\" y2=\"60.3\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"40.2\" x2=\"418.0\" y2=\"40.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"20.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"241.8\" x2=\"418.0\" y2=\"241.8\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"85.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"159.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"196.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"233.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"270.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"307.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"344.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"381.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"418.0\" y=\"256.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><line x1=\"122.0\" y1=\"262.0\" x2=\"122.0\" y2=\"20.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"115.0\" y=\"265.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"115.0\" y=\"224.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"115.0\" y=\"204.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"115.0\" y=\"184.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"115.0\" y=\"164.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"115.0\" y=\"144.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"115.0\" y=\"123.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"115.0\" y=\"103.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"115.0\" y=\"83.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"115.0\" y=\"63.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><text x=\"115.0\" y=\"43.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">10</text><text x=\"115.0\" y=\"23.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">11</text><path d=\"M 48.0 197.8 L 49.0 197.6 L 50.1 197.4 L 51.1 197.3 L 52.1 197.1 L 53.2 196.9 L 54.2 196.7 L 55.2 196.5 L 56.2 196.4 L 57.3 196.2 L 58.3 196.0 L 59.3 195.8 L 60.4 195.6 L 61.4 195.4 L 62.4 195.2 L 63.5 195.0 L 64.5 194.8 L 65.5 194.6 L 66.6 194.4 L 67.6 194.2 L 68.6 194.0 L 69.6 193.8 L 70.7 193.6 L 71.7 193.4 L 72.7 193.2 L 73.8 193.0 L 74.8 192.8 L 75.8 192.6 L 76.9 192.4 L 77.9 192.2 L 78.9 192.0 L 79.9 191.7 L 81.0 191.5 L 82.0 191.3 L 83.0 191.1 L 84.1 190.8 L 85.1 190.6 L 86.1 190.4 L 87.2 190.2 L 88.2 189.9 L 89.2 189.7 L 90.3 189.5 L 91.3 189.2 L 92.3 189.0 L 93.3 188.7 L 94.4 188.5 L 95.4 188.3 L 96.4 188.0 L 97.5 187.8 L 98.5 187.5 L 99.5 187.3 L 100.6 187.0 L 101.6 186.8 L 102.6 186.5 L 103.7 186.3 L 104.7 186.0 L 105.7 185.7 L 106.7 185.5 L 107.8 185.2 L 108.8 184.9 L 109.8 184.7 L 110.9 184.4 L 111.9 184.1 L 112.9 183.8 L 114.0 183.6 L 115.0 183.3 L 116.0 183.0 L 117.1 182.7 L 118.1 182.4 L 119.1 182.2 L 120.1 181.9 L 121.2 181.6 L 122.2 181.3 L 123.2 181.0 L 124.3 180.7 L 125.3 180.4 L 126.3 180.1 L 127.4 179.8 L 128.4 179.5 L 129.4 179.2 L 130.5 178.8 L 131.5 178.5 L 132.5 178.2 L 133.5 177.9 L 134.6 177.6 L 135.6 177.2 L 136.6 176.9 L 137.7 176.6 L 138.7 176.3 L 139.7 175.9 L 140.8 175.6 L 141.8 175.3 L 142.8 174.9 L 143.8 174.6 L 144.9 174.2 L 145.9 173.9 L 146.9 173.5 L 148.0 173.2 L 149.0 172.8 L 150.0 172.5 L 151.1 172.1 L 152.1 171.7 L 153.1 171.4 L 154.2 171.0 L 155.2 170.6 L 156.2 170.3 L 157.2 169.9 L 158.3 169.5 L 159.3 169.1 L 160.3 168.7 L 161.4 168.3 L 162.4 168.0 L 163.4 167.6 L 164.5 167.2 L 165.5 166.8 L 166.5 166.4 L 167.6 166.0 L 168.6 165.5 L 169.6 165.1 L 170.6 164.7 L 171.7 164.3 L 172.7 163.9 L 173.7 163.5 L 174.8 163.0 L 175.8 162.6 L 176.8 162.2 L 177.9 161.7 L 178.9 161.3 L 179.9 160.8 L 181.0 160.4 L 182.0 160.0 L 183.0 159.5 L 184.0 159.0 L 185.1 158.6 L 186.1 158.1 L 187.1 157.7 L 188.2 157.2 L 189.2 156.7 L 190.2 156.2 L 191.3 155.8 L 192.3 155.3 L 193.3 154.8 L 194.4 154.3 L 195.4 153.8 L 196.4 153.3 L 197.4 152.8 L 198.5 152.3 L 199.5 151.8 L 200.5 151.3 L 201.6 150.8 L 202.6 150.2 L 203.6 149.7 L 204.7 149.2 L 205.7 148.7 L 206.7 148.1 L 207.7 147.6 L 208.8 147.0 L 209.8 146.5 L 210.8 145.9 L 211.9 145.4 L 212.9 144.8 L 213.9 144.3 L 215.0 143.7 L 216.0 143.1 L 217.0 142.5 L 218.1 142.0 L 219.1 141.4 L 220.1 140.8 L 221.1 140.2 L 222.2 139.6 L 223.2 139.0 L 224.2 138.4 L 225.3 137.8 L 226.3 137.2 L 227.3 136.5 L 228.4 135.9 L 229.4 135.3 L 230.4 134.7 L 231.5 134.0 L 232.5 133.4 L 233.5 132.7 L 234.5 132.1 L 235.6 131.4 L 236.6 130.8 L 237.6 130.1 L 238.7 129.4 L 239.7 128.7 L 240.7 128.1 L 241.8 127.4 L 242.8 126.7 L 243.8 126.0 L 244.9 125.3 L 245.9 124.6 L 246.9 123.9 L 247.9 123.1 L 249.0 122.4 L 250.0 121.7 L 251.0 121.0 L 252.1 120.2 L 253.1 119.5 L 254.1 118.7 L 255.2 118.0 L 256.2 117.2 L 257.2 116.5 L 258.3 115.7 L 259.3 114.9 L 260.3 114.1 L 261.3 113.3 L 262.4 112.5 L 263.4 111.7 L 264.4 110.9 L 265.5 110.1 L 266.5 109.3 L 267.5 108.5 L 268.6 107.6 L 269.6 106.8 L 270.6 106.0 L 271.6 105.1 L 272.7 104.3 L 273.7 103.4 L 274.7 102.5 L 275.8 101.7 L 276.8 100.8 L 277.8 99.9 L 278.9 99.0 L 279.9 98.1 L 280.9 97.2 L 282.0 96.3 L 283.0 95.4 L 284.0 94.4 L 285.0 93.5 L 286.1 92.6 L 287.1 91.6 L 288.1 90.7 L 289.2 89.7 L 290.2 88.7 L 291.2 87.8 L 292.3 86.8 L 293.3 85.8 L 294.3 84.8 L 295.4 83.8 L 296.4 82.8 L 297.4 81.8 L 298.4 80.7 L 299.5 79.7 L 300.5 78.7 L 301.5 77.6 L 302.6 76.5 L 303.6 75.5 L 304.6 74.4 L 305.7 73.3 L 306.7 72.2 L 307.7 71.1 L 308.8 70.0 L 309.8 68.9 L 310.8 67.8 L 311.8 66.7 L 312.9 65.5 L 313.9 64.4 L 314.9 63.2 L 316.0 62.1 L 317.0 60.9 L 318.0 59.7 L 319.1 58.5 L 320.1 57.3 L 321.1 56.1 L 322.2 54.9 L 323.2 53.7 L 324.2 52.5 L 325.2 51.2 L 326.3 50.0 L 327.3 48.7 L 328.3 47.5 L 329.4 46.2 L 330.4 44.9 L 331.4 43.6 L 332.5 42.3 L 333.5 41.0 L 334.5 39.6 L 335.5 38.3 L 336.6 37.0 L 337.6 35.6 L 338.6 34.2 L 339.7 32.9 L 340.7 31.5 L 341.7 30.1 L 342.8 28.7 L 343.8 27.3 L 344.8 25.8 L 345.9 24.4 L 346.9 23.0 L 347.9 21.5 L 348.9 20.0 L 350.0 18.6 L 351.0 17.1 L 352.0 15.6 L 353.1 14.1 L 354.1 12.5 L 355.1 11.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><circle cx=\"122.0\" cy=\"181.3\" r=\"4.4\" fill=\"#222\"/></svg></span><p>En elev föreslår modellen \\(f(x)=3\\cdot1,3^x\\). Förklara varför modellen inte stämmer och ge en bättre modell.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Elevens modell \\(3\\cdot1,3^x\\) närmar sig 0 när x blir allt mindre. Grafen i figuren närmar sig i stället den horisontella linjen \\(y=1\\).</p><p>Dessutom visar grafen att \\(f(0)=3\\).</p><p>En modell som både har \\(f(0)=3\\) och närmar sig 1 åt vänster är</p><p><strong>\\(f(x)=2\\cdot1,3^x+1\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Elevens modell \\(3\\cdot1,3^x\\) närmar sig 0 när x blir allt mindre. Grafen i figuren närmar sig i stället den horisontella linjen \\(y=1\\).</p><p>Dessutom visar grafen att \\(f(0)=3\\).</p><p>En modell som både har \\(f(0)=3\\) och närmar sig 1 åt vänster är</p><p><strong>\\(f(x)=2\\cdot1,3^x+1\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -13054,7 +13084,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Elevens modell \\(3\\cdot1,3^x\\) närmar sig 0 när x blir allt mindre. Grafen i figuren närmar sig i stället den horisontella linjen \\(y=1\\).</p>"
+    "ledtrad": "<p>Elevens modell \\(3\\cdot1,3^x\\) närmar sig 0 när x blir allt mindre. Grafen i figuren närmar sig i stället den horisontella linjen \\(y=1\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.53",
@@ -13067,7 +13100,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg 0,01\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(0,01=10^{-2}\\). Därför är <strong>\\(\\lg0,01=-2\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(0{,}01=10^{-2}\\), alltså</p><p><strong>\\(\\lg0{,}01=-2\\).</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -13081,7 +13114,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>Vilken exponent på 10 ger 0,01?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.54",
@@ -13094,7 +13130,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\lg 2+\\lg 50\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd lagen \\(\\lg x+\\lg y=\\lg(xy)\\) \\(\\lg a+\\lg b=\\lg(ab)\\):</p><p>\\(\\lg2+\\lg50=\\lg(2\\cdot50)=\\lg100\\).</p><p><strong>\\(2\\).</strong></p>",
+    "s": "<p>Använd lagen \\(\\lg x+\\lg y=\\lg(xy)\\) \\(\\lg a+\\lg b=\\lg(ab)\\):</p><p>\\(\\lg2+\\lg50=\\lg(2\\cdot50)=\\lg100\\).</p><p><strong>\\(2\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -13107,7 +13143,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.55",
@@ -13134,7 +13173,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Sätt först modellen lika med målvärdet. I ett digitalt verktyg löser du sedan ekvationen med den okända i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.56",
@@ -13147,7 +13189,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(7\\cdot1,3^x=20\\) med logaritmer.</p><p>Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Dela med 7:</p><p>\\(1,3^x=\\frac{20}{7}\\).</p><p>Ta \\(\\lg\\) av båda leden: \\(x\\lg1,3=\\lg\\left(\\frac{20}{7}\\right)\\).</p><p>\\(x=\\frac{\\lg(20/7)}{\\lg1,3}\\approx4,0014\\).</p><p><strong>\\(x\\approx4,00\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Dela med 7:</p><p>\\(1,3^x=\\frac{20}{7}\\).</p><p>Ta \\(\\lg\\) av båda leden: \\(x\\lg1,3=\\lg\\left(\\frac{20}{7}\\right)\\).</p><p>\\(x=\\frac{\\lg(20/7)}{\\lg1,3}\\approx4,0014\\).</p><p><strong>\\(x\\approx4,00\\)</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -13160,7 +13202,10 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.57",
@@ -13477,7 +13522,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En summa på 5 000 kr ökar med 6 % per år.</p><p>a) Skriv en modell.<br>b) Bestäm värdet efter 4 år.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>En ökning med 6 % per år motsvarar förändringsfaktorn \\(1+0{,}06=1{,}06\\). Startvärdet är 5000 kr, alltså</p><p>\\[V(t)=5000\\cdot1{,}06^t.\\]</p><p>Efter fyra år:</p><p>\\[V(4)=5000\\cdot1{,}06^4\\approx6312{,}4.\\]</p><p><strong>Svar:</strong> modellen är \\(V(t)=5000\\cdot1{,}06^t\\), och efter 4 år är värdet cirka 6 312 kr.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<p>En ökning med 6 % innebär förändringsfaktorn (1{,}06). Med startvärdet 5 000 kr blir modellen</p><p>[V(t)=5000cdot1{,}06^t.]</p><p>Efter fyra år:</p><p>[V(4)=5000cdot1{,}06^4approx6312.]</p><p><strong>Efter 4 år är värdet cirka 6 312 kr.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -13491,7 +13536,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>"
+    "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.67",
@@ -13501,10 +13549,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Anta \\(a&gt;0\\). Förenkla \\(\\lg(100a^2)-2\\lg a\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> \\(\\lg(100a^2)=\\lg100+\\lg(a^2)=2+2\\lg a\\).</p><p>Uttrycket blir därför</p><p>\\(2+2\\lg a-2\\lg a=2\\).</p><p><strong>Svaret är 2.</strong></p>",
+    "s": "<p>\\(\\lg(100a^2)=\\lg100+\\lg(a^2)=2+2\\lg a\\).</p><p>Uttrycket blir därför</p><p>\\(2+2\\lg a-2\\lg a=2\\).</p><p><strong>Svaret är 2.</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -13517,7 +13565,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.68",
@@ -13544,7 +13595,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.69",
@@ -13756,10 +13810,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En mängd beskrivs av \\(N(t)=C\\cdot1,2^t\\). Det gäller att \\(N(3)=864\\).</p><p>Bestäm konstanten \\(C\\) och skriv hela modellen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Sätt in \\(t=3\\) i modellen:</p><p>\\[864=C\\cdot1,2^3=C\\cdot1,728.\\]</p><p>Därför</p><p>\\[C=\\frac{864}{1,728}=500.\\]</p><p><strong>\\(C=500\\) och \\(N(t)=500\\cdot1,2^t\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Sätt in \\(t=3\\) i modellen:</p><p>\\[864=C\\cdot1,2^3=C\\cdot1,728.\\]</p><p>Därför</p><p>\\[C=\\frac{864}{1,728}=500.\\]</p><p><strong>\\(C=500\\) och \\(N(t)=500\\cdot1,2^t\\).</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -13772,7 +13826,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.77",
@@ -13786,7 +13843,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(3\\cdot2^x=48\\).</p><p><em>Endast svar krävs.</em></p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först situationen som (Ccdot a^t=\text{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p><p>Dividera med 3: \\(2^x=16\\).</p><p>Eftersom \\(16=2^4\\) får vi <strong>\\(x=4\\)</strong>.</p>",
+    "s": "<p>Dividera med 3:</p><p>\\[2^x=16=2^4.\\]</p><p>Alltså <strong>\\(x=4\\)</strong>.</p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -13798,7 +13855,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först situationen som (Ccdot a^t= ext{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p>"
+    "ledtrad": "<p>Skriv först situationen som (Ccdot a^t= ext{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.78",
@@ -14263,7 +14323,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Grafen visar en exponentialfunktion som går genom de markerade punkterna.</p><span class=\"fig smal\"><svg width=\"520\" height=\"330\" viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till en exponentialfunktion med två markerade punkter\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"328\" rx=\"12\" fill=\"#fff\" stroke=\"#D1D5DB\"/><line x1=\"60.0\" y1=\"25\" x2=\"60.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"121.4\" y1=\"25\" x2=\"121.4\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"182.9\" y1=\"25\" x2=\"182.9\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"244.3\" y1=\"25\" x2=\"244.3\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"305.7\" y1=\"25\" x2=\"305.7\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"367.1\" y1=\"25\" x2=\"367.1\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"428.6\" y1=\"25\" x2=\"428.6\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"490.0\" y1=\"25\" x2=\"490.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"290\" x2=\"490\" y2=\"290\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"121.4\" y1=\"25\" x2=\"121.4\" y2=\"290\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"60.0\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">-1</text><text x=\"182.9\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><text x=\"244.3\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><text x=\"305.7\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><text x=\"367.1\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><text x=\"428.6\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><text x=\"490.0\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><path d=\"M 60.0 277.3 L 62.4 277.0 L 64.8 276.7 L 67.2 276.4 L 69.6 276.1 L 72.0 275.8 L 74.4 275.5 L 76.8 275.2 L 79.2 274.9 L 81.6 274.5 L 84.0 274.2 L 86.4 273.9 L 88.8 273.5 L 91.2 273.1 L 93.6 272.8 L 96.0 272.4 L 98.4 272.0 L 100.8 271.6 L 103.2 271.2 L 105.6 270.8 L 108.0 270.4 L 110.4 270.0 L 112.8 269.5 L 115.3 269.1 L 117.7 268.6 L 120.1 268.2 L 122.5 267.7 L 124.9 267.2 L 127.3 266.7 L 129.7 266.2 L 132.1 265.7 L 134.5 265.2 L 136.9 264.6 L 139.3 264.1 L 141.7 263.5 L 144.1 263.0 L 146.5 262.4 L 148.9 261.8 L 151.3 261.2 L 153.7 260.5 L 156.1 259.9 L 158.5 259.2 L 160.9 258.6 L 163.3 257.9 L 165.7 257.2 L 168.1 256.5 L 170.5 255.8 L 172.9 255.0 L 175.3 254.2 L 177.7 253.5 L 180.1 252.7 L 182.5 251.9 L 184.9 251.0 L 187.3 250.2 L 189.7 249.3 L 192.1 248.4 L 194.5 247.5 L 196.9 246.6 L 199.3 245.7 L 201.7 244.7 L 204.1 243.7 L 206.5 242.7 L 208.9 241.7 L 211.3 240.7 L 213.7 239.6 L 216.1 238.5 L 218.5 237.4 L 220.9 236.2 L 223.4 235.1 L 225.8 233.9 L 228.2 232.6 L 230.6 231.4 L 233.0 230.1 L 235.4 228.8 L 237.8 227.5 L 240.2 226.1 L 242.6 224.8 L 245.0 223.3 L 247.4 221.9 L 249.8 220.4 L 252.2 218.9 L 254.6 217.4 L 257.0 215.8 L 259.4 214.2 L 261.8 212.5 L 264.2 210.8 L 266.6 209.1 L 269.0 207.4 L 271.4 205.6 L 273.8 203.7 L 276.2 201.9 L 278.6 200.0 L 281.0 198.0 L 283.4 196.0 L 285.8 194.0 L 288.2 191.9 L 290.6 189.7 L 293.0 187.6 L 295.4 185.3 L 297.8 183.1 L 300.2 180.7 L 302.6 178.4 L 305.0 176.0 L 307.4 173.5 L 309.8 170.9 L 312.2 168.4 L 314.6 165.7 L 317.0 163.0 L 319.4 160.3 L 321.8 157.4 L 324.2 154.6 L 326.6 151.6 L 329.1 148.6 L 331.5 145.6 L 333.9 142.4 L 336.3 139.2 L 338.7 135.9 L 341.1 132.6 L 343.5 129.2 L 345.9 125.7 L 348.3 122.1 L 350.7 118.5 L 353.1 114.7 L 355.5 110.9 L 357.9 107.1 L 360.3 103.1 L 362.7 99.0 L 365.1 94.9 L 367.5 90.6 L 369.9 86.3 L 372.3 81.9 L 374.7 77.4 L 377.1 72.8 L 379.5 68.0 L 381.9 63.2 L 384.3 58.3 L 386.7 53.3 L 389.1 48.1 L 391.5 42.9 L 393.9 37.5 L 396.3 32.0 L 398.7 26.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3.2\"/><circle cx=\"244.3\" cy=\"223.8\" r=\"5\" fill=\"#2C62A8\"/><text x=\"254.3\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"15\">(2, 6)</text><circle cx=\"367.1\" cy=\"91.2\" r=\"5\" fill=\"#2C62A8\"/><text x=\"377.1\" y=\"82.2\" font-family=\"Arial,sans-serif\" font-size=\"15\">(4, 18)</text><text x=\"488\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x</text><text x=\"130.4\" y=\"38\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">y</text></svg></span><p>Bestäm exakt grafens skärning med y-axeln.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Skriv funktionen som \\(y=Ca^x\\).</p><p>Punkterna ger \\(6=Ca^2\\) och \\(18=Ca^4\\).</p><p>Dividera ekvationerna: \\(3=a^2\\).</p><p>Då är \\(Ca^2=6\\), alltså \\(C=6/3=2\\).</p><p><strong>Grafen skär y-axeln i \\((0,2)\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Skriv funktionen som \\(y=Ca^x\\).</p><p>Punkterna ger \\(6=Ca^2\\) och \\(18=Ca^4\\).</p><p>Dividera ekvationerna: \\(3=a^2\\).</p><p>Då är \\(Ca^2=6\\), alltså \\(C=6/3=2\\).</p><p><strong>Grafen skär y-axeln i \\((0,2)\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -14277,7 +14337,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.91",
@@ -14322,7 +14385,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "2.92",
@@ -14362,7 +14428,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(10^{\\lg 18}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> Om \\(u=\\lg18\\), så betyder det att \\(10^u=18\\).</p><p>Alltså <strong>\\(10^{\\lg18}=18\\)</strong>.</p>",
+    "s": "<p>Om \\(u=\\lg18\\), så betyder det att \\(10^u=18\\).</p><p>Alltså <strong>\\(10^{\\lg18}=18\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -14376,7 +14442,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.94",
@@ -14389,7 +14458,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Beräkna \\(\\lg20+\\lg5\\) utan miniräknare.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Enligt logaritmlagarna är \\(\\lg20+\\lg5=\\lg(20\\cdot5)=\\lg100\\).</p><p><strong>2</strong></p>",
+    "s": "<p>Enligt logaritmlagarna är \\(\\lg20+\\lg5=\\lg(20\\cdot5)=\\lg100\\).</p><p><strong>2</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -14403,7 +14472,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.95",
@@ -14430,7 +14502,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.96",
@@ -14655,7 +14730,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.102",
@@ -14914,10 +14992,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En bakteriekultur är 4 000 efter 2 timmar och 9 000 efter 5 timmar. Anta exponentiell tillväxt.</p><p>Bestäm förändringsfaktorn per timme.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Mellan 2 timmar och 5 timmar går det 3 timmar. Med förändringsfaktorn \\(a\\) får vi</p><p>\\(4000a^3=9000\\).</p><p>Dividera med 4000:</p><p>\\(a^3=2,25\\Rightarrow a=\\sqrt[3]{2,25}\\approx1,31\\).</p><p><strong>förändringsfaktorn är ungefär 1,31 per timme.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Mellan 2 timmar och 5 timmar går det 3 timmar. Med förändringsfaktorn \\(a\\) får vi</p><p>\\(4000a^3=9000\\).</p><p>Dividera med 4000:</p><p>\\(a^3=2,25\\Rightarrow a=\\sqrt[3]{2,25}\\approx1,31\\).</p><p><strong>förändringsfaktorn är ungefär 1,31 per timme.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -14930,7 +15008,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.109",
@@ -14940,10 +15021,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Förenkla. Anta \\(x&gt;0\\).</p><p>\\(2\\lg(3x)-\\lg9\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd först lagen \\(\\lg(x^p)=p\\lg x\\):</p><p>\\(2\\lg(3x)=\\lg((3x)^2)=\\lg(9x^2)\\).</p><p>Använd sedan lagen \\(\\lg x-\\lg y=\\lg(x/y)\\):</p><p>\\(\\lg(9x^2)-\\lg9=\\lg(x^2)\\).</p><p><strong>\\(\\lg(x^2)\\).</strong></p>",
+    "s": "<p>Använd först lagen \\(\\lg(x^p)=p\\lg x\\):</p><p>\\(2\\lg(3x)=\\lg((3x)^2)=\\lg(9x^2)\\).</p><p>Använd sedan lagen \\(\\lg x-\\lg y=\\lg(x/y)\\):</p><p>\\(\\lg(9x^2)-\\lg9=\\lg(x^2)\\).</p><p><strong>\\(\\lg(x^2)\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -14956,7 +15037,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.110",
@@ -14969,7 +15053,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Jämför \\(f(x)=x^2\\) och \\(g(x)=4^x\\). Ge ett heltalsvärde där \\(f(x)&gt;g(x)\\) och ett där \\(g(x)&gt;f(x)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Vi behöver bara hitta ett exempel av varje typ.</p><p>För \\(x=-2\\):</p><p>\\(f(-2)=(-2)^2=4\\) och \\(g(-2)=4^{-2}=\\frac1{16}\\).</p><p>Alltså är \\(f(-2)&gt;g(-2)\\).</p><p>För \\(x=3\\):</p><p>\\(f(3)=3^2=9\\) och \\(g(3)=4^3=64\\).</p><p>Alltså är \\(g(3)&gt;f(3)\\).</p><p><strong>Ett möjligt svar är \\(x=-2\\) för \\(f&gt;g\\) och \\(x=3\\) för \\(g&gt;f\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Vi behöver bara hitta ett exempel av varje typ.</p><p>För \\(x=-2\\):</p><p>\\(f(-2)=(-2)^2=4\\) och \\(g(-2)=4^{-2}=\\frac1{16}\\).</p><p>Alltså är \\(f(-2)&gt;g(-2)\\).</p><p>För \\(x=3\\):</p><p>\\(f(3)=3^2=9\\) och \\(g(3)=4^3=64\\).</p><p>Alltså är \\(g(3)&gt;f(3)\\).</p><p><strong>Ett möjligt svar är \\(x=-2\\) för \\(f&gt;g\\) och \\(x=3\\) för \\(g&gt;f\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -14982,7 +15066,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.111",
@@ -15173,7 +15261,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.117",
@@ -15186,7 +15277,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(4\\cdot3^x=108\\).</p><p>Endast svar krävs.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> Skriv först situationen som (Ccdot a^t=\text{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p><p>Dela med 4: \\(3^x=27=3^3\\).</p><p><strong>\\(x=3\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Dividera med 4:</p><p>[3^x=27.]</p><p>Eftersom (27=3^3) måste exponenterna vara lika.</p><p><strong>(x=3).</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -15198,7 +15289,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först situationen som (Ccdot a^t= ext{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p>"
+    "ledtrad": "<p>Kan du skriva 27 som en potens med basen 3?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.118",
@@ -17992,7 +18086,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg 1000\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(1000=10^3\\). Därför är <strong>\\(\\lg1000=3\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Eftersom \\(1000=10^3\\) är <strong>\\(\\lg1000=3\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -18006,7 +18100,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>Skriv 1000 som en tiopotens.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.182",
@@ -18019,7 +18116,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg 10000\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(10000=10^4\\). Därför är <strong>\\(\\lg10000=4\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Eftersom \\(10000=10^4\\) är <strong>\\(\\lg10000=4\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -18033,7 +18130,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>Vilken exponent på 10 ger 10 000?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.183",
@@ -18046,7 +18146,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm.</p><p>a) \\(\\lg 100\\)<br>b) \\(\\lg 0,001\\)<br>c) \\(10^{\\lg 7}\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>a) \\(100=10^2\\Rightarrow\\lg100=2\\).</p><p>b) \\(0,001=10^{-3}\\Rightarrow\\lg0,001=-3\\).</p><p>c) \\(10^{\\lg7}=7\\), eftersom \\(10^x\\) och \\(\\lg x\\) är inversa funktioner.</p>",
+    "s": "<p>a) \\(100=10^2\\Rightarrow\\lg100=2\\).</p><p>b) \\(0,001=10^{-3}\\Rightarrow\\lg0,001=-3\\).</p><p>c) \\(10^{\\lg7}=7\\), eftersom \\(10^x\\) och \\(\\lg x\\) är inversa funktioner.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -18105,7 +18205,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.184",
@@ -18118,7 +18221,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg 0,1\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(0,1=10^{-1}\\). Därför är <strong>\\(\\lg0,1=-1\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(0{,}1=10^{-1}\\), alltså <strong>\\(\\lg0{,}1=-1\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -18132,7 +18235,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>Skriv 0,1 som en tiopotens.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.185",
@@ -18145,7 +18251,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg(10^5)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> Eftersom \\(\\lg\\) och tiopotensen är inversa operationer gäller:</p><p><strong>\\(\\lg(10^5)=5\\).</strong></p>",
+    "s": "<p>Eftersom \\(\\lg\\) och tiopotensen är inversa operationer gäller:</p><p><strong>\\(\\lg(10^5)=5\\).</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -18159,7 +18265,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.186",
@@ -18172,7 +18281,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(x\\) om \\(\\lg x=3\\).</p><p><strong>Endast svar.</strong></p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(\\lg x=3\\) betyder per definition att \\(x=10^3\\).</p><p><strong>\\(x=1000\\).</strong></p>",
+    "s": "<p>\\(\\lg x=3\\) betyder per definition att \\(x=10^3\\).</p><p><strong>\\(x=1000\\).</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -18186,7 +18295,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.187",
@@ -18482,7 +18594,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bakteriekultur innehåller 900 bakterier. Efter 4 timmar finns 2 025 bakterier. Anta exponentiell tillväxt.</p><p>Efter hur lång tid finns 6 834 bakterier?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Låt förändringsfaktorn per timme vara \\(a\\). Mellan tidpunkterna skiljer det 4 timmar, så</p><p>\\(900a^4=2025\\Rightarrow a^4=2,25\\Rightarrow a\\approx1,2247\\).</p><p>Vi söker sedan \\(t\\) då \\(900a^t=6834\\). I GeoGebra kan ekvationen lösas med <code>NLös(900*1.2247^t=6834)</code>.</p><p>Det ger \\(t\\approx10,0\\).</p><p><strong>Efter ungefär 10,0 timmar.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Låt (a) vara förändringsfaktorn per timme. Mätningen efter fyra timmar ger</p><p>[900a^4=2025Rightarrow a^4=2{,}25.]</p><p>För att nå 6 834 bakterier löser vi sedan</p><p>[900a^t=6834.]</p><p>Med (a=2{,}25^{1/4}) fås (tapprox10{,}0).</p><p><strong>Det tar ungefär 10 timmar.</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": true,
     "miniräknare": true,
@@ -18495,7 +18607,10 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Bestäm först tillväxtfaktorn från de två första observationerna. Använd sedan samma modell för målantalet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.197",
@@ -18591,7 +18706,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "heltal",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.200",
@@ -18604,7 +18722,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En elev påstår att \\(x^5\\) alltid är större än \\(2^x\\) eftersom det stämmer för \\(x=10\\). Bedöm påståendet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Påståendet är <strong>fel</strong>. Att en olikhet gäller för ett enda x-värde visar inte att den gäller för alla x.</p><p>Vid \\(x=10\\) är</p><p>\\(10^5=100\\,000\\) och \\(2^{10}=1\\,024\\), så där är \\(x^5\\) mycket större.</p><p>Men vid exempelvis \\(x=23\\) får vi</p><p>\\(23^5=6\\,436\\,343\\) medan \\(2^{23}=8\\,388\\,608\\).</p><p>Där har alltså exponentialfunktionen gått om potensfunktionen.</p><p>Förklaringen är att \\(2^x\\) multipliceras med 2 varje gång x ökar med 1, medan den relativa ökningen hos \\(x^5\\) blir allt mindre när x blir stort.</p><p><strong>Ett enda exempel, som \\(x=10\\), räcker därför inte för att bevisa ett påstående om alla x.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Påståendet är <strong>fel</strong>. Att en olikhet gäller för ett enda x-värde visar inte att den gäller för alla x.</p><p>Vid \\(x=10\\) är</p><p>\\(10^5=100\\,000\\) och \\(2^{10}=1\\,024\\), så där är \\(x^5\\) mycket större.</p><p>Men vid exempelvis \\(x=23\\) får vi</p><p>\\(23^5=6\\,436\\,343\\) medan \\(2^{23}=8\\,388\\,608\\).</p><p>Där har alltså exponentialfunktionen gått om potensfunktionen.</p><p>Förklaringen är att \\(2^x\\) multipliceras med 2 varje gång x ökar med 1, medan den relativa ökningen hos \\(x^5\\) blir allt mindre när x blir stort.</p><p><strong>Ett enda exempel, som \\(x=10\\), räcker därför inte för att bevisa ett påstående om alla x.</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -18617,7 +18735,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.201",
@@ -18643,7 +18765,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Rita båda funktionerna i GeoGebra och bestäm deras skärningspunkter i intervallet.</p>"
+    "ledtrad": "<p>Rita båda funktionerna i GeoGebra och bestäm deras skärningspunkter i intervallet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.202",
@@ -18656,7 +18782,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två modeller är</p><p>\\[f(t)=40t^{1,5}\\qquad\\text{och}\\qquad g(t)=100\\cdot1,25^t.\\]</p><p>Vilken modell ger störst värde när \\(t=5\\) respektive \\(t=15\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Vid \\(t=5\\):</p><p>\\(f(5)=40\\cdot5^{1,5}\\approx447\\) och \\(g(5)=100\\cdot1,25^5\\approx305\\). Alltså är \\(f(5)&gt;g(5)\\).</p><p>Vid \\(t=15\\):</p><p>\\(f(15)=40\\cdot15^{1,5}\\approx2324\\) och \\(g(15)=100\\cdot1,25^{15}\\approx2842\\). Alltså är \\(g(15)&gt;f(15)\\).</p><p><strong>Potensmodellen är störst vid \\(t=5\\), exponentialmodellen vid \\(t=15\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Vid \\(t=5\\):</p><p>\\(f(5)=40\\cdot5^{1,5}\\approx447\\) och \\(g(5)=100\\cdot1,25^5\\approx305\\). Alltså är \\(f(5)&gt;g(5)\\).</p><p>Vid \\(t=15\\):</p><p>\\(f(15)=40\\cdot15^{1,5}\\approx2324\\) och \\(g(15)=100\\cdot1,25^{15}\\approx2842\\). Alltså är \\(g(15)&gt;f(15)\\).</p><p><strong>Potensmodellen är störst vid \\(t=5\\), exponentialmodellen vid \\(t=15\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -18681,7 +18807,10 @@ window.BANKMA2 = [
       "störst vid t=5",
       "störst vid t=15"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.203",
@@ -18707,7 +18836,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Rita båda funktionerna eller lös \\(10\\cdot1{,}3^n=15n^2\\) digitalt.</p>"
+    "ledtrad": "<p>Rita båda funktionerna eller lös \\(10\\cdot1{,}3^n=15n^2\\) digitalt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.204",
@@ -18734,7 +18867,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "heltal",
-    "ledtrad": "<p>Här jämförs en potensfunktion, \\(f(x)=4x^2\\), med en exponentialfunktion, \\(g(x)=3\\cdot1,5^x\\).</p>"
+    "ledtrad": "<p>Här jämförs en potensfunktion, \\(f(x)=4x^2\\), med en exponentialfunktion, \\(g(x)=3\\cdot1,5^x\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.205",
@@ -19072,7 +19208,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm.</p><p>a) \\(\\lg 1000\\)<br>b) \\(\\lg 0,01\\)<br>c) \\(10^{\\lg 12}\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>a) \\(1000=10^3\\), alltså \\(\\lg1000=3\\).</p><p>b) \\(0,01=10^{-2}\\), alltså \\(\\lg0,01=-2\\).</p><p>c) Av sambandet på formelbladet, \\(y=10^x\\Leftrightarrow x=\\lg y\\), följer att \\(10^{\\lg12}=12\\).</p>",
+    "s": "<p>a) \\(1000=10^3\\), alltså \\(\\lg1000=3\\).</p><p>b) \\(0,01=10^{-2}\\), alltså \\(\\lg0,01=-2\\).</p><p>c) Av sambandet på formelbladet, \\(y=10^x\\Leftrightarrow x=\\lg y\\), följer att \\(10^{\\lg12}=12\\).</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -19131,7 +19267,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.214",
@@ -19144,7 +19283,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(10^{\\lg 23}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(\\lg23\\) är det tal som 10 ska upphöjas till för att ge 23.</p><p>Därför är <strong>\\(10^{\\lg23}=23\\)</strong>.</p>",
+    "s": "<p>\\(\\lg23\\) är det tal som 10 ska upphöjas till för att ge 23.</p><p>Därför är <strong>\\(10^{\\lg23}=23\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -19158,7 +19297,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.215",
@@ -19169,23 +19311,19 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Bestäm utan räknare.</p><p>a) \\(\\lg 1000\\)<br>b) \\(\\lg 0,01\\)<br>c) \\(10^{\\lg 12}\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> Använd definitionen: \\(\\lg a=b\\) betyder att \\(10^b=a\\).</p><p>a) \\(1000=10^3\\), alltså <strong>3</strong>.</p><p>b) \\(0,01=10^{-2}\\), alltså <strong>−2</strong>.</p><p>c) Eftersom \\(10^x\\) och \\(\\lg x\\) är inversa funktioner blir <strong>12</strong>.</p>",
-    "familj": "Logaritmbegreppet och enkla logaritmer",
+    "poang": "2/0/0",
+    "t": "<p>Ordna talen \\(\\lg0{,}2\\), \\(\\lg2\\) och \\(\\lg20\\) från minst till störst utan att beräkna logaritmerna med räknare.</p>",
+    "s": "<p>Tiologaritmen är en växande funktion: större positivt tal ger större logaritm. Eftersom</p><p>\\[0{,}2<2<20\\]</p><p>får vi direkt</p><p>\\[\\boxed{\\lg0{,}2<\\lg2<\\lg20}.\\]</p>",
+    "familj": "Tolka logaritmens storlek",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      3,
-      -2,
-      12
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -19220,7 +19358,11 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>Du behöver inte känna logaritmernas decimalvärden. Är funktionen \\(y=\\lg x\\) växande eller avtagande?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.216",
@@ -19233,7 +19375,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg(0,001)\\).</p><p><strong>Endast svar.</strong></p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(0,001=10^{-3}\\). Därför är <strong>\\(\\lg(0,001)=-3\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(0{,}001=10^{-3}\\), alltså <strong>\\(\\lg0{,}001=-3\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -19247,7 +19389,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>Vilken exponent på 10 ger 0,001?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.217",
@@ -19260,7 +19405,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv som en logaritm.</p><p>\\(\\lg 5+\\lg 8\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Summan av två logaritmer kan skrivas som logaritmen av produkten:</p><p>\\(\\lg5+\\lg8=\\lg(5\\cdot8)\\).</p><p><strong>\\(\\lg40\\).</strong></p>",
+    "s": "<p>Summan av två logaritmer kan skrivas som logaritmen av produkten:</p><p>\\(\\lg5+\\lg8=\\lg(5\\cdot8)\\).</p><p><strong>\\(\\lg40\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -19272,7 +19417,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.218",
@@ -19282,10 +19430,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös \\(\\lg x+\\lg(x-6)=\\lg40\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Definitionsvillkoret är \\(x&gt;6\\).</p><p>Använd logaritmlagen på formelbladet:</p><p>\\(\\lg(x(x-6))=\\lg40\\).</p><p>Alltså \\(x(x-6)=40\\).</p><p>\\(x^2-6x-40=0=(x-10)(x+4)\\).</p><p>De möjliga lösningarna är 10 och −4, men bara 10 uppfyller \\(x&gt;6\\).</p><p><strong>\\(x=10\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Definitionsvillkoret är \\(x&gt;6\\).</p><p>Använd logaritmlagen på formelbladet:</p><p>\\(\\lg(x(x-6))=\\lg40\\).</p><p>Alltså \\(x(x-6)=40\\).</p><p>\\(x^2-6x-40=0=(x-10)(x+4)\\).</p><p>De möjliga lösningarna är 10 och −4, men bara 10 uppfyller \\(x&gt;6\\).</p><p><strong>\\(x=10\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -19298,7 +19446,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd att logaritmen är invers till exponentialfunktionen. Produkt blir summa av logaritmer, kvot blir differens och exponent kan flyttas framför.</p>"
+    "ledtrad": "<p>Använd att logaritmen är invers till exponentialfunktionen. Produkt blir summa av logaritmer, kvot blir differens och exponent kan flyttas framför.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.219",
@@ -19311,7 +19462,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv som en enda logaritm: \\(\\lg 4+\\lg 25\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd logaritmlagen på formelbladet:</p><p>\\(\\lg4+\\lg25=\\lg(4\\cdot25)=\\lg100\\).</p><p><strong>\\(\\lg100=2\\).</strong></p>",
+    "s": "<p>Använd logaritmlagen på formelbladet:</p><p>\\(\\lg4+\\lg25=\\lg(4\\cdot25)=\\lg100\\).</p><p><strong>\\(\\lg100=2\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -19324,7 +19475,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.220",
@@ -19334,10 +19488,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(2\\lg x=\\lg81\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> Eftersom \\(x&gt;0\\) när \\(\\lg x\\) är definierad kan vänsterledet skrivas \\(\\lg(x^2)\\).</p><p>\\(\\lg(x^2)=\\lg81\\Rightarrow x^2=81\\).</p><p>Den positiva lösningen är <strong>\\(x=9\\)</strong>.</p>",
+    "s": "<p>Eftersom \\(x&gt;0\\) när \\(\\lg x\\) är definierad kan vänsterledet skrivas \\(\\lg(x^2)\\).</p><p>\\(\\lg(x^2)=\\lg81\\Rightarrow x^2=81\\).</p><p>Den positiva lösningen är <strong>\\(x=9\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -19350,7 +19504,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.221",
@@ -19363,7 +19520,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(3\\cdot1,08^x=6\\). Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först situationen som (Ccdot a^t=\text{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p><p>Dividera först med 3:</p><p>\\(1,08^x=2\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(x\\lg1,08=\\lg2\\).</p><p>\\(x=\\frac{\\lg2}{\\lg1,08}\\approx9,01\\).</p><p><strong>\\(x\\approx9,0\\).</strong></p>",
+    "s": "<p>Dividera med 3:</p><p>\\[1{,}08^x=2.\\]</p><p>Logaritmera:</p><p>\\[x=\\frac{\\lg2}{\\lg1{,}08}\\approx9{,}01.\\]</p><p><strong>\\(x\\approx9{,}0\\)</strong>.</p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -19375,7 +19532,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först situationen som (Ccdot a^t= ext{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.222",
@@ -19402,7 +19562,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.223",
@@ -19415,7 +19578,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(2\\cdot1,15^x=5\\). Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först situationen som (Ccdot a^t=\text{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p><p>Dividera med 2:</p><p>\\(1,15^x=2,5\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(x\\lg1,15=\\lg2,5\\).</p><p>\\(x=\\frac{\\lg2,5}{\\lg1,15}\\approx6,56\\).</p><p><strong>\\(x\\approx6,6\\).</strong></p>",
+    "s": "<p>Dividera med 2:</p><p>\\[1{,}15^x=2{,}5.\\]</p><p>Logaritmera:</p><p>\\[x=\\frac{\\lg2{,}5}{\\lg1{,}15}\\approx6{,}56.\\]</p><p><strong>\\(x\\approx6{,}6\\)</strong>.</p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -19427,7 +19590,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först situationen som (Ccdot a^t= ext{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.224",
@@ -19572,7 +19738,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bakteriekultur beskrivs av modellen \\(N(t)=120\\cdot1,18^t\\), där \\(t\\) mäts i timmar.</p><p>Efter hur många timmar passerar antalet bakterier 300?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Vi sätter \\(N(t)=300\\):</p><p>\\(120\\cdot1,18^t=300\\).</p><p>Dividera med 120:</p><p>\\(1,18^t=2,5\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(t\\lg1,18=\\lg2,5\\).</p><p>\\(t=\\frac{\\lg2,5}{\\lg1,18}\\approx5,54\\).</p><p><strong>Antalet passerar 300 efter ungefär 5,5 timmar.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Vi sätter \\(N(t)=300\\):</p><p>\\(120\\cdot1,18^t=300\\).</p><p>Dividera med 120:</p><p>\\(1,18^t=2,5\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(t\\lg1,18=\\lg2,5\\).</p><p>\\(t=\\frac{\\lg2,5}{\\lg1,18}\\approx5,54\\).</p><p><strong>Antalet passerar 300 efter ungefär 5,5 timmar.</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -19586,7 +19752,10 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.230",
@@ -19599,7 +19768,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken av ekvationerna är en potensekvation och vilken är en exponentialekvation?</p><p>\\(x^4=80\\) &nbsp;&nbsp; och &nbsp;&nbsp; \\(4^x=80\\).</p><p>Skriv också vilken grundmetod som används för respektive ekvation.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>I \\(x^4=80\\) är \\(x\\) bas. Det är en <strong>potensekvation</strong> och löses genom att ta fjärderoten: \\(x=\\pm\\sqrt[4]{80}\\) om reella lösningar söks.</p><p>I \\(4^x=80\\) står \\(x\\) i exponenten. Det är en <strong>exponentialekvation</strong> och löses med logaritmer eller digitalt verktyg: \\(x=\\lg80/\\lg4\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>I \\(x^4=80\\) är \\(x\\) bas. Det är en <strong>potensekvation</strong> och löses genom att ta fjärderoten: \\(x=\\pm\\sqrt[4]{80}\\) om reella lösningar söks.</p><p>I \\(4^x=80\\) står \\(x\\) i exponenten. Det är en <strong>exponentialekvation</strong> och löses med logaritmer eller digitalt verktyg: \\(x=\\lg80/\\lg4\\).</p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": true,
     "miniräknare": true,
@@ -19612,7 +19781,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.231",
@@ -19652,7 +19825,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös båda ekvationerna och förklara kort varför de kräver olika metoder.</p><p>a) \\(x^4=81\\)</p><p>b) \\(3^x=81\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>a) Här är \\(x\\) basen. Det är alltså en potensekvation.</p><p>\\(x^4=81=3^4\\), så</p><p>\\(x=\\pm3\\).</p><p>b) Här står \\(x\\) i exponenten. Det är en exponentialekvation.</p><p>\\(81=3^4\\), alltså måste</p><p>\\(x=4\\).</p><p><strong>Potensekvationen löses genom att ta lämplig rot. Exponentialekvationen löses genom att jämföra potenser eller använda logaritmer.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>a) Här är \\(x\\) basen. Det är alltså en potensekvation.</p><p>\\(x^4=81=3^4\\), så</p><p>\\(x=\\pm3\\).</p><p>b) Här står \\(x\\) i exponenten. Det är en exponentialekvation.</p><p>\\(81=3^4\\), alltså måste</p><p>\\(x=4\\).</p><p><strong>Potensekvationen löses genom att ta lämplig rot. Exponentialekvationen löses genom att jämföra potenser eller använda logaritmer.</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -19696,7 +19869,10 @@ window.BANKMA2 = [
       true,
       true
     ],
-    "ledtrad": "<p>a) Här är \\(x\\) basen. Det är alltså en potensekvation.</p>"
+    "ledtrad": "<p>a) Här är \\(x\\) basen. Det är alltså en potensekvation.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.233",
@@ -19968,7 +20144,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(2\\lg 3\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd lagen \\(\\lg(x^p)=p\\lg x\\) \\(k\\lg a=\\lg(a^k)\\):</p><p>\\(2\\lg3=\\lg(3^2)\\).</p><p><strong>\\(\\lg9\\).</strong></p>",
+    "s": "<p>Använd lagen \\(\\lg(x^p)=p\\lg x\\) \\(k\\lg a=\\lg(a^k)\\):</p><p>\\(2\\lg3=\\lg(3^2)\\).</p><p><strong>\\(\\lg9\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -19981,7 +20157,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.242",
@@ -20254,7 +20433,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar \\(f(x)=2^x\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"99.14\" y1=\"330.00\" x2=\"99.14\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"150.29\" y1=\"330.00\" x2=\"150.29\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"201.43\" y1=\"330.00\" x2=\"201.43\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"252.57\" y1=\"330.00\" x2=\"252.57\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"303.71\" y1=\"330.00\" x2=\"303.71\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"354.86\" y1=\"330.00\" x2=\"354.86\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"299.00\" x2=\"406.00\" y2=\"299.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"268.00\" x2=\"406.00\" y2=\"268.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"237.00\" x2=\"406.00\" y2=\"237.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"206.00\" x2=\"406.00\" y2=\"206.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"144.00\" x2=\"406.00\" y2=\"144.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"113.00\" x2=\"406.00\" y2=\"113.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"82.00\" x2=\"406.00\" y2=\"82.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"51.00\" x2=\"406.00\" y2=\"51.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"299.00\" x2=\"416.00\" y2=\"299.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 416.00 299.00 l -8 -4 l 0 8 z\" fill=\"#2B2527\"/><text x=\"48.00\" y=\"316.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><text x=\"99.14\" y=\"316.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><text x=\"201.43\" y=\"316.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><text x=\"252.57\" y=\"316.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><text x=\"303.71\" y=\"316.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><text x=\"354.86\" y=\"316.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><text x=\"406.00\" y=\"316.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"150.29\" y1=\"330.00\" x2=\"150.29\" y2=\"10.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 150.29 10.00 l -4 8 l 8 0 z\" fill=\"#2B2527\"/><text x=\"141.29\" y=\"333.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><text x=\"141.29\" y=\"271.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><text x=\"141.29\" y=\"240.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><text x=\"141.29\" y=\"209.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><text x=\"141.29\" y=\"178.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><text x=\"141.29\" y=\"147.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><text x=\"141.29\" y=\"116.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">6</text><text x=\"141.29\" y=\"85.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">7</text><text x=\"141.29\" y=\"54.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">8</text><text x=\"141.29\" y=\"23.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">9</text><text x=\"142.29\" y=\"315.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><path d=\"M 48.00 291.25 L 49.65 291.08 L 51.29 290.90 L 52.94 290.71 L 54.58 290.53 L 56.23 290.34 L 57.88 290.14 L 59.52 289.94 L 61.17 289.74 L 62.82 289.53 L 64.46 289.31 L 66.11 289.09 L 67.75 288.87 L 69.40 288.64 L 71.05 288.41 L 72.69 288.17 L 74.34 287.93 L 75.98 287.68 L 77.63 287.42 L 79.28 287.16 L 80.92 286.89 L 82.57 286.62 L 84.22 286.34 L 85.86 286.05 L 87.51 285.76 L 89.15 285.46 L 90.80 285.16 L 92.45 284.84 L 94.09 284.53 L 95.74 284.20 L 97.38 283.86 L 99.03 283.52 L 100.68 283.17 L 102.32 282.82 L 103.97 282.45 L 105.62 282.08 L 107.26 281.70 L 108.91 281.31 L 110.55 280.91 L 112.20 280.50 L 113.85 280.08 L 115.49 279.66 L 117.14 279.22 L 118.78 278.77 L 120.43 278.32 L 122.08 277.85 L 123.72 277.37 L 125.37 276.88 L 127.02 276.39 L 128.66 275.87 L 130.31 275.35 L 131.95 274.82 L 133.60 274.27 L 135.25 273.72 L 136.89 273.15 L 138.54 272.56 L 140.19 271.97 L 141.83 271.36 L 143.48 270.73 L 145.12 270.09 L 146.77 269.44 L 148.42 268.78 L 150.06 268.09 L 151.71 267.40 L 153.35 266.68 L 155.00 265.95 L 156.65 265.21 L 158.29 264.45 L 159.94 263.67 L 161.59 262.87 L 163.23 262.05 L 164.88 261.22 L 166.52 260.37 L 168.17 259.50 L 169.82 258.61 L 171.46 257.69 L 173.11 256.76 L 174.75 255.81 L 176.40 254.84 L 178.05 253.84 L 179.69 252.82 L 181.34 251.78 L 182.99 250.71 L 184.63 249.62 L 186.28 248.51 L 187.92 247.37 L 189.57 246.21 L 191.22 245.01 L 192.86 243.80 L 194.51 242.55 L 196.15 241.28 L 197.80 239.97 L 199.45 238.64 L 201.09 237.28 L 202.74 235.89 L 204.39 234.47 L 206.03 233.01 L 207.68 231.52 L 209.32 230.00 L 210.97 228.44 L 212.62 226.85 L 214.26 225.22 L 215.91 223.56 L 217.55 221.85 L 219.20 220.11 L 220.85 218.33 L 222.49 216.51 L 224.14 214.65 L 225.79 212.75 L 227.43 210.80 L 229.08 208.81 L 230.72 206.78 L 232.37 204.70 L 234.02 202.57 L 235.66 200.40 L 237.31 198.17 L 238.95 195.90 L 240.60 193.57 L 242.25 191.19 L 243.89 188.76 L 245.54 186.27 L 247.19 183.73 L 248.83 181.13 L 250.48 178.47 L 252.12 175.75 L 253.77 172.97 L 255.42 170.13 L 257.06 167.22 L 258.71 164.24 L 260.35 161.20 L 262.00 158.10 L 263.65 154.92 L 265.29 151.67 L 266.94 148.34 L 268.59 144.94 L 270.23 141.47 L 271.88 137.91 L 273.52 134.28 L 275.17 130.56 L 276.82 126.76 L 278.46 122.88 L 280.11 118.90 L 281.75 114.84 L 283.40 110.68 L 285.05 106.44 L 286.69 102.09 L 288.34 97.65 L 289.99 93.11 L 291.63 88.46 L 293.28 83.71 L 294.92 78.85 L 296.57 73.89 L 298.22 68.81 L 299.86 63.61 L 301.51 58.30 L 303.15 52.87 L 304.80 47.32 L 306.45 41.64 L 308.09 35.84 L 309.74 29.90 L 311.39 23.83\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.7\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"419.00\" y=\"303.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">x</text><text x=\"157.29\" y=\"14.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">y</text></svg></span><p>a) Bestäm \\(f(0)\\).<br>b) Bestäm \\(f(3)\\).<br>c) Hur förändras funktionsvärdet när \\(x\\) ökar med 1?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>a) Vid \\(x=0\\) är \\(f(0)=2^0=1\\).</p><p>b) \\(f(3)=2^3=8\\).</p><p>c) När x ökar med 1 multipliceras värdet med basen 2, alltså fördubblas det.</p><p><strong>a) 1. b) 8. c) Värdet fördubblas.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<p>Eftersom (2^0=1) är (f(0)=1).</p><p>Vid (x=3) är (f(3)=2^3=8).</p><p>När (x) ökar med 1 multipliceras funktionsvärdet med 2. Grafens värde <strong>fördubblas alltså för varje steg åt höger</strong>.</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -20290,7 +20469,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Jämför (2^{x+1}) med (2^x). Vilken faktor skiljer dem åt?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.249",
@@ -20304,7 +20486,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(800\\cdot1,06^x=1000\\) med ett digitalt verktyg.</p><p>Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>I GeoGebra kan ekvationen lösas med kommandot Lös eller genom att rita leden och bestämma skärningspunkten.</p><p>Lösningen är \\(x\\approx3,8295\\).</p><p><strong>\\(x\\approx3,8\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>I ett digitalt ekvationsverktyg kan du lösa</p><p>[800cdot1{,}06^x=1000.]</p><p>Det ger (xapprox3{,}8295). Avrundat till en decimal:</p><p><strong>(xapprox3{,}8).</strong></p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -20317,7 +20499,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Sätt först modellen lika med målvärdet. I ett digitalt verktyg löser du sedan ekvationen med den okända i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.250",
@@ -20327,10 +20512,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Förenkla så långt som möjligt. Anta att \\(x&gt;0\\).</p><p>\\(3\\lg x+\\lg 4-\\lg(2x)\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd logaritmlagarna på formelbladet:</p><p>\\(3\\lg x=\\lg(x^3)\\).</p><p>Då blir</p><p>\\(3\\lg x+\\lg4-\\lg(2x)=\\lg\\left(\\frac{4x^3}{2x}\\right)=\\lg(2x^2)\\).</p><p><strong>\\(\\lg(2x^2)\\).</strong></p>",
+    "s": "<p>Använd logaritmlagarna på formelbladet:</p><p>\\(3\\lg x=\\lg(x^3)\\).</p><p>Då blir</p><p>\\(3\\lg x+\\lg4-\\lg(2x)=\\lg\\left(\\frac{4x^3}{2x}\\right)=\\lg(2x^2)\\).</p><p><strong>\\(\\lg(2x^2)\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -20343,7 +20528,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.251",
@@ -20694,7 +20882,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Grafen visar funktionen \\(p(x)=3\\cdot1,6^x\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"316.50\" y1=\"330.00\" x2=\"316.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"361.25\" y1=\"330.00\" x2=\"361.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"315.91\" x2=\"406.00\" y2=\"315.91\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"301.82\" x2=\"406.00\" y2=\"301.82\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"287.73\" x2=\"406.00\" y2=\"287.73\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"273.64\" x2=\"406.00\" y2=\"273.64\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"259.55\" x2=\"406.00\" y2=\"259.55\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"245.45\" x2=\"406.00\" y2=\"245.45\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"231.36\" x2=\"406.00\" y2=\"231.36\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"217.27\" x2=\"406.00\" y2=\"217.27\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"203.18\" x2=\"406.00\" y2=\"203.18\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"189.09\" x2=\"406.00\" y2=\"189.09\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"160.91\" x2=\"406.00\" y2=\"160.91\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"146.82\" x2=\"406.00\" y2=\"146.82\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"132.73\" x2=\"406.00\" y2=\"132.73\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"118.64\" x2=\"406.00\" y2=\"118.64\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"104.55\" x2=\"406.00\" y2=\"104.55\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"90.45\" x2=\"406.00\" y2=\"90.45\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"76.36\" x2=\"406.00\" y2=\"76.36\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"62.27\" x2=\"406.00\" y2=\"62.27\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"48.18\" x2=\"406.00\" y2=\"48.18\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"34.09\" x2=\"406.00\" y2=\"34.09\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"137.50\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"182.25\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"227.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"271.75\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"316.50\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"361.25\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"84.75\" y=\"318.91\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"84.75\" y=\"304.82\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"84.75\" y=\"290.73\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"84.75\" y=\"276.64\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"84.75\" y=\"262.55\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"84.75\" y=\"248.45\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"84.75\" y=\"234.36\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"84.75\" y=\"220.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"84.75\" y=\"206.18\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"84.75\" y=\"192.09\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"84.75\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">11</text><text x=\"84.75\" y=\"163.91\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><text x=\"84.75\" y=\"149.82\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">13</text><text x=\"84.75\" y=\"135.73\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><text x=\"84.75\" y=\"121.64\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">15</text><text x=\"84.75\" y=\"107.55\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">16</text><text x=\"84.75\" y=\"93.45\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">17</text><text x=\"84.75\" y=\"79.36\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">18</text><text x=\"84.75\" y=\"65.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">19</text><text x=\"84.75\" y=\"51.18\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">20</text><text x=\"84.75\" y=\"37.09\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">21</text><text x=\"84.75\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">22</text><path d=\"M 92.75 287.73 L 94.11 287.12 L 95.48 286.50 L 96.84 285.87 L 98.20 285.24 L 99.56 284.59 L 100.93 283.94 L 102.29 283.27 L 103.65 282.60 L 105.02 281.92 L 106.38 281.22 L 107.74 280.52 L 109.10 279.81 L 110.47 279.08 L 111.83 278.35 L 113.19 277.60 L 114.56 276.85 L 115.92 276.08 L 117.28 275.30 L 118.64 274.52 L 120.01 273.72 L 121.37 272.90 L 122.73 272.08 L 124.10 271.25 L 125.46 270.40 L 126.82 269.54 L 128.18 268.67 L 129.55 267.78 L 130.91 266.89 L 132.27 265.98 L 133.64 265.05 L 135.00 264.12 L 136.36 263.17 L 137.72 262.20 L 139.09 261.23 L 140.45 260.24 L 141.81 259.23 L 143.18 258.21 L 144.54 257.17 L 145.90 256.12 L 147.26 255.06 L 148.63 253.98 L 149.99 252.88 L 151.35 251.77 L 152.71 250.64 L 154.08 249.50 L 155.44 248.34 L 156.80 247.16 L 158.17 245.97 L 159.53 244.76 L 160.89 243.53 L 162.25 242.28 L 163.62 241.02 L 164.98 239.73 L 166.34 238.43 L 167.71 237.11 L 169.07 235.77 L 170.43 234.41 L 171.79 233.04 L 173.16 231.64 L 174.52 230.22 L 175.88 228.78 L 177.25 227.32 L 178.61 225.84 L 179.97 224.34 L 181.33 222.82 L 182.70 221.27 L 184.06 219.70 L 185.42 218.11 L 186.79 216.50 L 188.15 214.87 L 189.51 213.21 L 190.87 211.52 L 192.24 209.81 L 193.60 208.08 L 194.96 206.32 L 196.33 204.54 L 197.69 202.73 L 199.05 200.90 L 200.41 199.04 L 201.78 197.15 L 203.14 195.23 L 204.50 193.29 L 205.87 191.32 L 207.23 189.32 L 208.59 187.29 L 209.95 185.23 L 211.32 183.15 L 212.68 181.03 L 214.04 178.88 L 215.41 176.70 L 216.77 174.49 L 218.13 172.25 L 219.49 169.98 L 220.86 167.67 L 222.22 165.33 L 223.58 162.96 L 224.95 160.55 L 226.31 158.10 L 227.67 155.63 L 229.03 153.11 L 230.40 150.56 L 231.76 147.97 L 233.12 145.35 L 234.49 142.69 L 235.85 139.99 L 237.21 137.25 L 238.57 134.47 L 239.94 131.65 L 241.30 128.79 L 242.66 125.89 L 244.03 122.95 L 245.39 119.96 L 246.75 116.94 L 248.11 113.86 L 249.48 110.75 L 250.84 107.59 L 252.20 104.38 L 253.57 101.13 L 254.93 97.83 L 256.29 94.48 L 257.65 91.09 L 259.02 87.64 L 260.38 84.15 L 261.74 80.60 L 263.11 77.01 L 264.47 73.36 L 265.83 69.66 L 267.19 65.91 L 268.56 62.10 L 269.92 58.24 L 271.28 54.32 L 272.64 50.34 L 274.01 46.31 L 275.37 42.22 L 276.73 38.07 L 278.10 33.87 L 279.46 29.60 L 280.82 25.27 L 282.18 20.87 L 283.55 16.42 L 284.91 11.90 L 286.27 7.31\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\"/><text x=\"352.30\" y=\"72.14\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">p</text></svg></span><p>Bestäm ungefär för vilket \\(x\\)-värde som \\(p(x)=12\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>Grafiskt söker vi den punkt där exponentialkurvan har y-värdet 12.</p><p>I GeoGebra kan man lägga till den horisontella linjen \\(y=12\\) och läsa av skärningen med \\(p(x)=3\\cdot1,6^x\\).</p><p>Skärningen ligger vid ungefär \\(x=2,95\\).</p><p><strong>Alltså \\(x\\approx3,0\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<p>Grafiskt söker vi den punkt där exponentialkurvan har y-värdet 12.</p><p>I GeoGebra kan man lägga till den horisontella linjen \\(y=12\\) och läsa av skärningen med \\(p(x)=3\\cdot1,6^x\\).</p><p>Skärningen ligger vid ungefär \\(x=2,95\\).</p><p><strong>Alltså \\(x\\approx3,0\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": true,
     "miniräknare": true,
@@ -20707,7 +20895,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.261",
@@ -20720,7 +20911,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En mängd beskrivs av en exponentialfunktion \\(M(t)=C\\cdot a^t\\). Det gäller att \\(M(2)=45\\) och \\(M(5)=121{,}5\\).</p><p>Bestäm \\(C\\) och \\(a\\), och bestäm sedan när modellen når värdet 200.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p>Kvoten mellan värdena ger</p><p>\\[\\frac{M(5)}{M(2)}=a^3=\\frac{121{,}5}{45}=2{,}7.\\]</p><p>Därför är \\(a=\\sqrt[3]{2{,}7}\\approx1{,}3925\\).</p><p>Ur \\(45=C\\cdot a^2\\) fås \\(C\\approx45/a^2\\approx23{,}21\\).</p><p>Lös sedan \\(23{,}21\\cdot1{,}3925^t=200\\):</p><p>\\[t=\\frac{\\lg(200/23{,}21)}{\\lg1{,}3925}\\approx6{,}51.\\]</p><p><strong>\\(C\\approx23{,}2\\), \\(a\\approx1{,}393\\), och värdet 200 nås efter cirka 6,5 tidsenheter.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Kvoten mellan värdena ger</p><p>\\[\\frac{M(5)}{M(2)}=a^3=\\frac{121{,}5}{45}=2{,}7.\\]</p><p>Därför är \\(a=\\sqrt[3]{2{,}7}\\approx1{,}3925\\).</p><p>Ur \\(45=C\\cdot a^2\\) fås \\(C\\approx45/a^2\\approx23{,}21\\).</p><p>Lös sedan \\(23{,}21\\cdot1{,}3925^t=200\\):</p><p>\\[t=\\frac{\\lg(200/23{,}21)}{\\lg1{,}3925}\\approx6{,}51.\\]</p><p><strong>\\(C\\approx23{,}2\\), \\(a\\approx1{,}393\\), och värdet 200 nås efter cirka 6,5 tidsenheter.</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -20734,7 +20925,10 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.262",
@@ -20747,7 +20941,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg 10\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(10=10^1\\). Eftersom \\(\\lg a\\) är exponenten på 10 som ger \\(a\\), är <strong>\\(\\lg10=1\\)</strong>.</p>",
+    "s": "<p>\\(10=10^1\\). Eftersom \\(\\lg a\\) är exponenten på 10 som ger \\(a\\), är <strong>\\(\\lg10=1\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -20761,7 +20955,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.263",
@@ -20773,23 +20970,18 @@ window.BANKMA2 = [
     ],
     "niva": "A",
     "poang": "0/0/3",
-    "t": "<p>De positiva talen \\(a\\) och \\(b\\) uppfyller</p><p>\\[\\lg a+\\lg b=3\\]</p><p>och</p><p>\\[\\lg a-\\lg b=1.\\]</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Addera ekvationerna:</p><p>\\(2\\lg a=4\\Rightarrow\\lg a=2\\Rightarrow a=100\\).</p><p>Sätt in i den första ekvationen:</p><p>\\(2+\\lg b=3\\Rightarrow\\lg b=1\\Rightarrow b=10\\).</p><p><strong>\\(a=100\\) och \\(b=10\\)</strong></p>",
-    "familj": "Logaritmlagar",
+    "t": "<p>De positiva talen \\(a\\) och \\(b\\) uppfyller</p><p>\\[\\lg a+\\lg b=p,\\qquad \\lg a-\\lg b=q.\\]</p><p>Härled formler för \\(a\\) och \\(b\\) uttryckta med \\(p\\) och \\(q\\).</p>",
+    "s": "<p>Addera ekvationerna:</p><p>\\[2\\lg a=p+q\\Rightarrow \\lg a=\\frac{p+q}{2}.\\]</p><p>Därför</p><p>\\[\\boxed{a=10^{(p+q)/2}}.\\]</p><p>Subtrahera den andra ekvationen från den första:</p><p>\\[2\\lg b=p-q\\Rightarrow \\lg b=\\frac{p-q}{2},\\]</p><p>så</p><p>\\[\\boxed{b=10^{(p-q)/2}}.\\]</p><p>Formlerna ger positiva värden för alla reella \\(p,q\\), vilket stämmer med villkoret \\(a,b>0\\).</p>",
+    "familj": "Generalisera logaritmsamband",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      100,
-      10
-    ],
-    "tolerans": [
-      null,
-      null
-    ],
-    "självrättning": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
     "formaga": [
-      "procedur",
+      "resonemang",
+      "begrepp",
       "problemlösning"
     ],
     "svarFormat": [
@@ -20802,7 +20994,11 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Behandla \\(\\lg a\\) och \\(\\lg b\\) som två obekanta. Vad händer om du adderar respektive subtraherar ekvationerna?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.264",
@@ -21261,7 +21457,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En population är 300 från början och ökar med 7 % per år.</p><p>Skriv en exponentialfunktion \\(P(t)\\) som beskriver populationen efter \\(t\\) år.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Startvärdet är 300. En ökning med 7 % ger förändringsfaktorn \\(1,07\\).</p><p><strong>\\(P(t)=300\\cdot1,07^t\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Startvärdet är 300. En ökning med 7 % ger förändringsfaktorn \\(1,07\\).</p><p><strong>\\(P(t)=300\\cdot1,07^t\\)</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -21274,7 +21470,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.279",
@@ -21286,7 +21485,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(1200\\cdot0,92^x=700\\) med digitalt verktyg. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>x står i exponenten, så ekvationen löses med GeoGebra.</p><p><strong>GeoGebra:</strong> skriv <code>NLös(1200*0.92^x=700)</code> i CAS.</p><p>GeoGebra ger \\(x\\approx6,47\\).</p><p><strong>Avrundat till en decimal: \\(x\\approx6,5\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Lös ekvationen (1200cdot0{,}92^x=700) digitalt. Ett CAS-verktyg ger (xapprox6{,}47).</p><p><strong>Avrundat till en decimal: (xapprox6{,}5).</strong></p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -21299,7 +21498,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Sätt först modellen lika med målvärdet. I ett digitalt verktyg löser du sedan ekvationen med den okända i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.280",
@@ -21312,7 +21514,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg(10^6)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(\\lg(10^6)\\) frågar efter exponenten på 10.</p><p><strong>\\(\\lg(10^6)=6\\).</strong></p>",
+    "s": "<p>\\(\\lg(10^6)\\) frågar efter exponenten på 10.</p><p><strong>\\(\\lg(10^6)=6\\).</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -21326,7 +21528,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.281",
@@ -21339,7 +21544,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Förenkla \\(\\lg(5x)-\\lg x\\), där \\(x&gt;0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd logaritmlagen för en kvot:</p><p>\\[\\lg(5x)-\\lg x=\\lg\\left(\\frac{5x}{x}\\right).\\]</p><p>Eftersom \\(x&gt;0\\) kan \\(x\\) förkortas bort:</p><p><strong>\\(\\lg5\\).</strong></p>",
+    "s": "<p>Använd logaritmlagen för en kvot:</p><p>\\[\\lg(5x)-\\lg x=\\lg\\left(\\frac{5x}{x}\\right).\\]</p><p>Eftersom \\(x&gt;0\\) kan \\(x\\) förkortas bort:</p><p><strong>\\(\\lg5\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -21352,7 +21557,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.282",
@@ -24173,7 +24381,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen visar en exponentialfunktion.</p><span class=\"fig smal\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"48.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"94.2\" y1=\"262.0\" x2=\"94.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"186.8\" y1=\"262.0\" x2=\"186.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"233.0\" y1=\"262.0\" x2=\"233.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"279.2\" y1=\"262.0\" x2=\"279.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"325.5\" y1=\"262.0\" x2=\"325.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"371.8\" y1=\"262.0\" x2=\"371.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"418.0\" y1=\"262.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"418.0\" y2=\"262.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"237.8\" x2=\"418.0\" y2=\"237.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"213.6\" x2=\"418.0\" y2=\"213.6\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"189.4\" x2=\"418.0\" y2=\"189.4\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"165.2\" x2=\"418.0\" y2=\"165.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"141.0\" x2=\"418.0\" y2=\"141.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"116.8\" x2=\"418.0\" y2=\"116.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"92.6\" x2=\"418.0\" y2=\"92.6\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"68.4\" x2=\"418.0\" y2=\"68.4\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"44.2\" x2=\"418.0\" y2=\"44.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"20.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"237.8\" x2=\"418.0\" y2=\"237.8\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.0\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"140.5\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"186.8\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"233.0\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"279.2\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"325.5\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"371.8\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"418.0\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><line x1=\"94.2\" y1=\"262.0\" x2=\"94.2\" y2=\"20.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"87.2\" y=\"265.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"87.2\" y=\"216.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"87.2\" y=\"192.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"87.2\" y=\"168.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"87.2\" y=\"144.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"87.2\" y=\"119.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"87.2\" y=\"95.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"87.2\" y=\"71.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"87.2\" y=\"47.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"87.2\" y=\"23.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><path d=\"M 83.0 8.8 L 84.1 12.3 L 85.1 15.8 L 86.1 19.2 L 87.2 22.5 L 88.2 25.8 L 89.2 29.1 L 90.3 32.3 L 91.3 35.4 L 92.3 38.5 L 93.3 41.6 L 94.4 44.6 L 95.4 47.5 L 96.4 50.5 L 97.5 53.3 L 98.5 56.2 L 99.5 58.9 L 100.6 61.7 L 101.6 64.4 L 102.6 67.0 L 103.7 69.7 L 104.7 72.2 L 105.7 74.8 L 106.7 77.3 L 107.8 79.7 L 108.8 82.1 L 109.8 84.5 L 110.9 86.9 L 111.9 89.2 L 112.9 91.5 L 114.0 93.7 L 115.0 95.9 L 116.0 98.1 L 117.1 100.2 L 118.1 102.4 L 119.1 104.4 L 120.1 106.5 L 121.2 108.5 L 122.2 110.5 L 123.2 112.4 L 124.3 114.3 L 125.3 116.2 L 126.3 118.1 L 127.4 119.9 L 128.4 121.7 L 129.4 123.5 L 130.5 125.3 L 131.5 127.0 L 132.5 128.7 L 133.5 130.4 L 134.6 132.0 L 135.6 133.6 L 136.6 135.2 L 137.7 136.8 L 138.7 138.3 L 139.7 139.9 L 140.8 141.4 L 141.8 142.9 L 142.8 144.3 L 143.8 145.7 L 144.9 147.2 L 145.9 148.5 L 146.9 149.9 L 148.0 151.3 L 149.0 152.6 L 150.0 153.9 L 151.1 155.2 L 152.1 156.4 L 153.1 157.7 L 154.2 158.9 L 155.2 160.1 L 156.2 161.3 L 157.2 162.5 L 158.3 163.6 L 159.3 164.8 L 160.3 165.9 L 161.4 167.0 L 162.4 168.1 L 163.4 169.2 L 164.5 170.2 L 165.5 171.2 L 166.5 172.3 L 167.6 173.3 L 168.6 174.3 L 169.6 175.2 L 170.6 176.2 L 171.7 177.1 L 172.7 178.1 L 173.7 179.0 L 174.8 179.9 L 175.8 180.8 L 176.8 181.6 L 177.9 182.5 L 178.9 183.4 L 179.9 184.2 L 181.0 185.0 L 182.0 185.8 L 183.0 186.6 L 184.0 187.4 L 185.1 188.2 L 186.1 188.9 L 187.1 189.7 L 188.2 190.4 L 189.2 191.1 L 190.2 191.9 L 191.3 192.6 L 192.3 193.3 L 193.3 193.9 L 194.4 194.6 L 195.4 195.3 L 196.4 195.9 L 197.4 196.6 L 198.5 197.2 L 199.5 197.8 L 200.5 198.4 L 201.6 199.0 L 202.6 199.6 L 203.6 200.2 L 204.7 200.8 L 205.7 201.4 L 206.7 201.9 L 207.7 202.5 L 208.8 203.0 L 209.8 203.5 L 210.8 204.1 L 211.9 204.6 L 212.9 205.1 L 213.9 205.6 L 215.0 206.1 L 216.0 206.6 L 217.0 207.1 L 218.1 207.5 L 219.1 208.0 L 220.1 208.4 L 221.1 208.9 L 222.2 209.3 L 223.2 209.8 L 224.2 210.2 L 225.3 210.6 L 226.3 211.0 L 227.3 211.5 L 228.4 211.9 L 229.4 212.3 L 230.4 212.6 L 231.5 213.0 L 232.5 213.4 L 233.5 213.8 L 234.5 214.2 L 235.6 214.5 L 236.6 214.9 L 237.6 215.2 L 238.7 215.6 L 239.7 215.9 L 240.7 216.2 L 241.8 216.6 L 242.8 216.9 L 243.8 217.2 L 244.9 217.5 L 245.9 217.8 L 246.9 218.2 L 247.9 218.5 L 249.0 218.8 L 250.0 219.0 L 251.0 219.3 L 252.1 219.6 L 253.1 219.9 L 254.1 220.2 L 255.2 220.4 L 256.2 220.7 L 257.2 221.0 L 258.3 221.2 L 259.3 221.5 L 260.3 221.7 L 261.3 222.0 L 262.4 222.2 L 263.4 222.5 L 264.4 222.7 L 265.5 222.9 L 266.5 223.2 L 267.5 223.4 L 268.6 223.6 L 269.6 223.8 L 270.6 224.0 L 271.6 224.2 L 272.7 224.4 L 273.7 224.7 L 274.7 224.9 L 275.8 225.1 L 276.8 225.2 L 277.8 225.4 L 278.9 225.6 L 279.9 225.8 L 280.9 226.0 L 282.0 226.2 L 283.0 226.4 L 284.0 226.5 L 285.0 226.7 L 286.1 226.9 L 287.1 227.0 L 288.1 227.2 L 289.2 227.4 L 290.2 227.5 L 291.2 227.7 L 292.3 227.8 L 293.3 228.0 L 294.3 228.1 L 295.4 228.3 L 296.4 228.4 L 297.4 228.6 L 298.4 228.7 L 299.5 228.9 L 300.5 229.0 L 301.5 229.1 L 302.6 229.3 L 303.6 229.4 L 304.6 229.5 L 305.7 229.7 L 306.7 229.8 L 307.7 229.9 L 308.8 230.0 L 309.8 230.1 L 310.8 230.3 L 311.8 230.4 L 312.9 230.5 L 313.9 230.6 L 314.9 230.7 L 316.0 230.8 L 317.0 230.9 L 318.0 231.0 L 319.1 231.1 L 320.1 231.2 L 321.1 231.3 L 322.2 231.4 L 323.2 231.5 L 324.2 231.6 L 325.2 231.7 L 326.3 231.8 L 327.3 231.9 L 328.3 232.0 L 329.4 232.1 L 330.4 232.2 L 331.4 232.3 L 332.5 232.3 L 333.5 232.4 L 334.5 232.5 L 335.5 232.6 L 336.6 232.7 L 337.6 232.8 L 338.6 232.8 L 339.7 232.9 L 340.7 233.0 L 341.7 233.1 L 342.8 233.1 L 343.8 233.2 L 344.8 233.3 L 345.9 233.3 L 346.9 233.4 L 347.9 233.5 L 348.9 233.5 L 350.0 233.6 L 351.0 233.7 L 352.0 233.7 L 353.1 233.8 L 354.1 233.9 L 355.1 233.9 L 356.2 234.0 L 357.2 234.0 L 358.2 234.1 L 359.3 234.2 L 360.3 234.2 L 361.3 234.3 L 362.3 234.3 L 363.4 234.4 L 364.4 234.4 L 365.4 234.5 L 366.5 234.5 L 367.5 234.6 L 368.5 234.6 L 369.6 234.7 L 370.6 234.7 L 371.6 234.8 L 372.7 234.8 L 373.7 234.9 L 374.7 234.9 L 375.7 235.0 L 376.8 235.0 L 377.8 235.0 L 378.8 235.1 L 379.9 235.1 L 380.9 235.2 L 381.9 235.2 L 383.0 235.2 L 384.0 235.3 L 385.0 235.3 L 386.1 235.4 L 387.1 235.4 L 388.1 235.4 L 389.1 235.5 L 390.2 235.5 L 391.2 235.5 L 392.2 235.6 L 393.3 235.6 L 394.3 235.6 L 395.3 235.7 L 396.4 235.7 L 397.4 235.7 L 398.4 235.8 L 399.4 235.8 L 400.5 235.8 L 401.5 235.9 L 402.5 235.9 L 403.6 235.9 L 404.6 236.0 L 405.6 236.0 L 406.7 236.0 L 407.7 236.0 L 408.7 236.1 L 409.8 236.1 L 410.8 236.1 L 411.8 236.1 L 412.8 236.2 L 413.9 236.2 L 414.9 236.2 L 415.9 236.2 L 417.0 236.3 L 418.0 236.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><circle cx=\"94.2\" cy=\"44.2\" r=\"4.4\" fill=\"#222\"/><circle cx=\"140.5\" cy=\"141.0\" r=\"4.4\" fill=\"#222\"/><circle cx=\"186.8\" cy=\"189.4\" r=\"4.4\" fill=\"#222\"/></svg></span><p>Bestäm en möjlig formel för funktionen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Grafen går genom \\((0,8)\\), så startvärdet är 8.</p><p>När x ökar med 1 halveras y-värdet: 8, 4, 2, ...</p><p><strong>En möjlig formel är \\(f(x)=8\\cdot0,5^x\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Grafen går genom \\((0,8)\\), så startvärdet är 8.</p><p>När x ökar med 1 halveras y-värdet: 8, 4, 2, ...</p><p><strong>En möjlig formel är \\(f(x)=8\\cdot0,5^x\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -24186,7 +24394,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.360",
@@ -24214,7 +24425,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>En linjär funktion ökar med samma belopp för varje steg i \\(x\\).</p>"
+    "ledtrad": "<p>En linjär funktion ökar med samma belopp för varje steg i \\(x\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.361",
@@ -24228,7 +24442,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen visar en exponentialfunktion.</p><span class=\"fig smal\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"48.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"94.2\" y1=\"262.0\" x2=\"94.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"186.8\" y1=\"262.0\" x2=\"186.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"233.0\" y1=\"262.0\" x2=\"233.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"279.2\" y1=\"262.0\" x2=\"279.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"325.5\" y1=\"262.0\" x2=\"325.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"371.8\" y1=\"262.0\" x2=\"371.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"418.0\" y1=\"262.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"418.0\" y2=\"262.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"240.0\" x2=\"418.0\" y2=\"240.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"218.0\" x2=\"418.0\" y2=\"218.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"196.0\" x2=\"418.0\" y2=\"196.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"174.0\" x2=\"418.0\" y2=\"174.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"152.0\" x2=\"418.0\" y2=\"152.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"130.0\" x2=\"418.0\" y2=\"130.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"108.0\" x2=\"418.0\" y2=\"108.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"86.0\" x2=\"418.0\" y2=\"86.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"64.0\" x2=\"418.0\" y2=\"64.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"42.0\" x2=\"418.0\" y2=\"42.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"20.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"240.0\" x2=\"418.0\" y2=\"240.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.0\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"94.2\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"186.8\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"233.0\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"279.2\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"325.5\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"371.8\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"418.0\" y=\"255.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"133.5\" y=\"265.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"133.5\" y=\"221.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"133.5\" y=\"199.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"133.5\" y=\"177.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"133.5\" y=\"155.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"133.5\" y=\"133.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"133.5\" y=\"111.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"133.5\" y=\"89.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"133.5\" y=\"67.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"133.5\" y=\"45.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><text x=\"133.5\" y=\"23.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">10</text><path d=\"M 48.0 220.4 L 49.0 220.3 L 50.1 220.1 L 51.1 219.9 L 52.1 219.7 L 53.2 219.5 L 54.2 219.4 L 55.2 219.2 L 56.2 219.0 L 57.3 218.8 L 58.3 218.6 L 59.3 218.4 L 60.4 218.2 L 61.4 218.0 L 62.4 217.8 L 63.5 217.6 L 64.5 217.4 L 65.5 217.2 L 66.6 217.0 L 67.6 216.8 L 68.6 216.6 L 69.6 216.4 L 70.7 216.1 L 71.7 215.9 L 72.7 215.7 L 73.8 215.5 L 74.8 215.3 L 75.8 215.0 L 76.9 214.8 L 77.9 214.6 L 78.9 214.4 L 79.9 214.1 L 81.0 213.9 L 82.0 213.7 L 83.0 213.4 L 84.1 213.2 L 85.1 212.9 L 86.1 212.7 L 87.2 212.4 L 88.2 212.2 L 89.2 211.9 L 90.3 211.7 L 91.3 211.4 L 92.3 211.2 L 93.3 210.9 L 94.4 210.6 L 95.4 210.4 L 96.4 210.1 L 97.5 209.8 L 98.5 209.6 L 99.5 209.3 L 100.6 209.0 L 101.6 208.7 L 102.6 208.4 L 103.7 208.1 L 104.7 207.9 L 105.7 207.6 L 106.7 207.3 L 107.8 207.0 L 108.8 206.7 L 109.8 206.4 L 110.9 206.1 L 111.9 205.8 L 112.9 205.4 L 114.0 205.1 L 115.0 204.8 L 116.0 204.5 L 117.1 204.2 L 118.1 203.9 L 119.1 203.5 L 120.1 203.2 L 121.2 202.9 L 122.2 202.5 L 123.2 202.2 L 124.3 201.8 L 125.3 201.5 L 126.3 201.1 L 127.4 200.8 L 128.4 200.4 L 129.4 200.1 L 130.5 199.7 L 131.5 199.3 L 132.5 199.0 L 133.5 198.6 L 134.6 198.2 L 135.6 197.8 L 136.6 197.5 L 137.7 197.1 L 138.7 196.7 L 139.7 196.3 L 140.8 195.9 L 141.8 195.5 L 142.8 195.1 L 143.8 194.7 L 144.9 194.3 L 145.9 193.9 L 146.9 193.4 L 148.0 193.0 L 149.0 192.6 L 150.0 192.2 L 151.1 191.7 L 152.1 191.3 L 153.1 190.9 L 154.2 190.4 L 155.2 190.0 L 156.2 189.5 L 157.2 189.0 L 158.3 188.6 L 159.3 188.1 L 160.3 187.6 L 161.4 187.2 L 162.4 186.7 L 163.4 186.2 L 164.5 185.7 L 165.5 185.2 L 166.5 184.7 L 167.6 184.2 L 168.6 183.7 L 169.6 183.2 L 170.6 182.7 L 171.7 182.2 L 172.7 181.6 L 173.7 181.1 L 174.8 180.6 L 175.8 180.0 L 176.8 179.5 L 177.9 178.9 L 178.9 178.4 L 179.9 177.8 L 181.0 177.3 L 182.0 176.7 L 183.0 176.1 L 184.0 175.5 L 185.1 175.0 L 186.1 174.4 L 187.1 173.8 L 188.2 173.2 L 189.2 172.6 L 190.2 172.0 L 191.3 171.3 L 192.3 170.7 L 193.3 170.1 L 194.4 169.5 L 195.4 168.8 L 196.4 168.2 L 197.4 167.5 L 198.5 166.9 L 199.5 166.2 L 200.5 165.5 L 201.6 164.8 L 202.6 164.2 L 203.6 163.5 L 204.7 162.8 L 205.7 162.1 L 206.7 161.4 L 207.7 160.7 L 208.8 159.9 L 209.8 159.2 L 210.8 158.5 L 211.9 157.7 L 212.9 157.0 L 213.9 156.2 L 215.0 155.5 L 216.0 154.7 L 217.0 153.9 L 218.1 153.2 L 219.1 152.4 L 220.1 151.6 L 221.1 150.8 L 222.2 150.0 L 223.2 149.1 L 224.2 148.3 L 225.3 147.5 L 226.3 146.6 L 227.3 145.8 L 228.4 144.9 L 229.4 144.1 L 230.4 143.2 L 231.5 142.3 L 232.5 141.4 L 233.5 140.6 L 234.5 139.6 L 235.6 138.7 L 236.6 137.8 L 237.6 136.9 L 238.7 136.0 L 239.7 135.0 L 240.7 134.1 L 241.8 133.1 L 242.8 132.1 L 243.8 131.1 L 244.9 130.2 L 245.9 129.2 L 246.9 128.2 L 247.9 127.1 L 249.0 126.1 L 250.0 125.1 L 251.0 124.0 L 252.1 123.0 L 253.1 121.9 L 254.1 120.9 L 255.2 119.8 L 256.2 118.7 L 257.2 117.6 L 258.3 116.5 L 259.3 115.3 L 260.3 114.2 L 261.3 113.1 L 262.4 111.9 L 263.4 110.8 L 264.4 109.6 L 265.5 108.4 L 266.5 107.2 L 267.5 106.0 L 268.6 104.8 L 269.6 103.6 L 270.6 102.3 L 271.6 101.1 L 272.7 99.8 L 273.7 98.5 L 274.7 97.3 L 275.8 96.0 L 276.8 94.7 L 277.8 93.3 L 278.9 92.0 L 279.9 90.7 L 280.9 89.3 L 282.0 87.9 L 283.0 86.6 L 284.0 85.2 L 285.0 83.8 L 286.1 82.3 L 287.1 80.9 L 288.1 79.5 L 289.2 78.0 L 290.2 76.5 L 291.2 75.1 L 292.3 73.6 L 293.3 72.0 L 294.3 70.5 L 295.4 69.0 L 296.4 67.4 L 297.4 65.9 L 298.4 64.3 L 299.5 62.7 L 300.5 61.1 L 301.5 59.5 L 302.6 57.8 L 303.6 56.2 L 304.6 54.5 L 305.7 52.8 L 306.7 51.1 L 307.7 49.4 L 308.8 47.7 L 309.8 45.9 L 310.8 44.2 L 311.8 42.4 L 312.9 40.6 L 313.9 38.8 L 314.9 37.0 L 316.0 35.1 L 317.0 33.3 L 318.0 31.4 L 319.1 29.5 L 320.1 27.6 L 321.1 25.6 L 322.2 23.7 L 323.2 21.7 L 324.2 19.8 L 325.2 17.8 L 326.3 15.7 L 327.3 13.7 L 328.3 11.6 L 329.4 9.6\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><circle cx=\"140.5\" cy=\"196.0\" r=\"4.4\" fill=\"#222\"/><text x=\"147.5\" y=\"189.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">(0,2)</text><circle cx=\"233.0\" cy=\"141.0\" r=\"4.4\" fill=\"#222\"/></svg></span><p>a) Bestäm startvärdet.<br>b) Avgör om förändringsfaktorn är större eller mindre än 1.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Startvärdet är y-värdet när \\(x=0\\), vilket avläses till 2.</p><p>Grafen växer när x ökar, så förändringsfaktorn är större än 1.</p><p><strong>Startvärde 2; förändringsfaktor större än 1.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Startvärdet är y-värdet när \\(x=0\\), vilket avläses till 2.</p><p>Grafen växer när x ökar, så förändringsfaktorn är större än 1.</p><p><strong>Startvärde 2; förändringsfaktor större än 1.</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -24242,7 +24456,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.362",
@@ -24270,7 +24487,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.363",
@@ -24328,7 +24548,10 @@ window.BANKMA2 = [
       }
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.364",
@@ -24342,7 +24565,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Graferna till två exponentialfunktioner visas.</p><span class=\"fig smal\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"48.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"94.2\" y1=\"262.0\" x2=\"94.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"186.8\" y1=\"262.0\" x2=\"186.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"233.0\" y1=\"262.0\" x2=\"233.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"279.2\" y1=\"262.0\" x2=\"279.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"325.5\" y1=\"262.0\" x2=\"325.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"371.8\" y1=\"262.0\" x2=\"371.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"418.0\" y1=\"262.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"418.0\" y2=\"262.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"243.4\" x2=\"418.0\" y2=\"243.4\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"224.8\" x2=\"418.0\" y2=\"224.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"206.2\" x2=\"418.0\" y2=\"206.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"187.5\" x2=\"418.0\" y2=\"187.5\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"168.9\" x2=\"418.0\" y2=\"168.9\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"150.3\" x2=\"418.0\" y2=\"150.3\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"131.7\" x2=\"418.0\" y2=\"131.7\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"113.1\" x2=\"418.0\" y2=\"113.1\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"94.5\" x2=\"418.0\" y2=\"94.5\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"75.8\" x2=\"418.0\" y2=\"75.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"57.2\" x2=\"418.0\" y2=\"57.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"38.6\" x2=\"418.0\" y2=\"38.6\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"20.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"243.4\" x2=\"418.0\" y2=\"243.4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.0\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"94.2\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"186.8\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"233.0\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"279.2\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"325.5\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"371.8\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"418.0\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"133.5\" y=\"265.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"133.5\" y=\"227.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"133.5\" y=\"209.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"133.5\" y=\"190.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"133.5\" y=\"171.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"133.5\" y=\"153.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"133.5\" y=\"134.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"133.5\" y=\"116.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"133.5\" y=\"97.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"133.5\" y=\"78.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><text x=\"133.5\" y=\"60.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">10</text><text x=\"133.5\" y=\"41.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">11</text><text x=\"133.5\" y=\"23.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">12</text><path d=\"M 48.0 214.9 L 49.0 214.7 L 50.1 214.5 L 51.1 214.2 L 52.1 214.0 L 53.2 213.8 L 54.2 213.6 L 55.2 213.4 L 56.2 213.1 L 57.3 212.9 L 58.3 212.7 L 59.3 212.4 L 60.4 212.2 L 61.4 212.0 L 62.4 211.7 L 63.5 211.5 L 64.5 211.3 L 65.5 211.0 L 66.6 210.8 L 67.6 210.5 L 68.6 210.3 L 69.6 210.0 L 70.7 209.8 L 71.7 209.5 L 72.7 209.3 L 73.8 209.0 L 74.8 208.8 L 75.8 208.5 L 76.9 208.2 L 77.9 208.0 L 78.9 207.7 L 79.9 207.4 L 81.0 207.2 L 82.0 206.9 L 83.0 206.6 L 84.1 206.3 L 85.1 206.1 L 86.1 205.8 L 87.2 205.5 L 88.2 205.2 L 89.2 204.9 L 90.3 204.6 L 91.3 204.3 L 92.3 204.1 L 93.3 203.8 L 94.4 203.5 L 95.4 203.2 L 96.4 202.9 L 97.5 202.5 L 98.5 202.2 L 99.5 201.9 L 100.6 201.6 L 101.6 201.3 L 102.6 201.0 L 103.7 200.7 L 104.7 200.3 L 105.7 200.0 L 106.7 199.7 L 107.8 199.4 L 108.8 199.0 L 109.8 198.7 L 110.9 198.4 L 111.9 198.0 L 112.9 197.7 L 114.0 197.3 L 115.0 197.0 L 116.0 196.6 L 117.1 196.3 L 118.1 195.9 L 119.1 195.6 L 120.1 195.2 L 121.2 194.9 L 122.2 194.5 L 123.2 194.1 L 124.3 193.8 L 125.3 193.4 L 126.3 193.0 L 127.4 192.6 L 128.4 192.2 L 129.4 191.9 L 130.5 191.5 L 131.5 191.1 L 132.5 190.7 L 133.5 190.3 L 134.6 189.9 L 135.6 189.5 L 136.6 189.1 L 137.7 188.7 L 138.7 188.3 L 139.7 187.9 L 140.8 187.4 L 141.8 187.0 L 142.8 186.6 L 143.8 186.2 L 144.9 185.7 L 145.9 185.3 L 146.9 184.9 L 148.0 184.4 L 149.0 184.0 L 150.0 183.5 L 151.1 183.1 L 152.1 182.6 L 153.1 182.2 L 154.2 181.7 L 155.2 181.2 L 156.2 180.8 L 157.2 180.3 L 158.3 179.8 L 159.3 179.3 L 160.3 178.9 L 161.4 178.4 L 162.4 177.9 L 163.4 177.4 L 164.5 176.9 L 165.5 176.4 L 166.5 175.9 L 167.6 175.4 L 168.6 174.9 L 169.6 174.4 L 170.6 173.8 L 171.7 173.3 L 172.7 172.8 L 173.7 172.3 L 174.8 171.7 L 175.8 171.2 L 176.8 170.6 L 177.9 170.1 L 178.9 169.5 L 179.9 169.0 L 181.0 168.4 L 182.0 167.9 L 183.0 167.3 L 184.0 166.7 L 185.1 166.1 L 186.1 165.6 L 187.1 165.0 L 188.2 164.4 L 189.2 163.8 L 190.2 163.2 L 191.3 162.6 L 192.3 162.0 L 193.3 161.4 L 194.4 160.8 L 195.4 160.1 L 196.4 159.5 L 197.4 158.9 L 198.5 158.2 L 199.5 157.6 L 200.5 157.0 L 201.6 156.3 L 202.6 155.6 L 203.6 155.0 L 204.7 154.3 L 205.7 153.7 L 206.7 153.0 L 207.7 152.3 L 208.8 151.6 L 209.8 150.9 L 210.8 150.2 L 211.9 149.5 L 212.9 148.8 L 213.9 148.1 L 215.0 147.4 L 216.0 146.7 L 217.0 145.9 L 218.1 145.2 L 219.1 144.5 L 220.1 143.7 L 221.1 143.0 L 222.2 142.2 L 223.2 141.5 L 224.2 140.7 L 225.3 139.9 L 226.3 139.1 L 227.3 138.3 L 228.4 137.6 L 229.4 136.8 L 230.4 136.0 L 231.5 135.2 L 232.5 134.3 L 233.5 133.5 L 234.5 132.7 L 235.6 131.9 L 236.6 131.0 L 237.6 130.2 L 238.7 129.3 L 239.7 128.5 L 240.7 127.6 L 241.8 126.7 L 242.8 125.8 L 243.8 125.0 L 244.9 124.1 L 245.9 123.2 L 246.9 122.3 L 247.9 121.4 L 249.0 120.4 L 250.0 119.5 L 251.0 118.6 L 252.1 117.6 L 253.1 116.7 L 254.1 115.7 L 255.2 114.8 L 256.2 113.8 L 257.2 112.8 L 258.3 111.9 L 259.3 110.9 L 260.3 109.9 L 261.3 108.9 L 262.4 107.8 L 263.4 106.8 L 264.4 105.8 L 265.5 104.8 L 266.5 103.7 L 267.5 102.7 L 268.6 101.6 L 269.6 100.5 L 270.6 99.5 L 271.6 98.4 L 272.7 97.3 L 273.7 96.2 L 274.7 95.1 L 275.8 94.0 L 276.8 92.8 L 277.8 91.7 L 278.9 90.6 L 279.9 89.4 L 280.9 88.3 L 282.0 87.1 L 283.0 85.9 L 284.0 84.7 L 285.0 83.5 L 286.1 82.3 L 287.1 81.1 L 288.1 79.9 L 289.2 78.7 L 290.2 77.4 L 291.2 76.2 L 292.3 74.9 L 293.3 73.7 L 294.3 72.4 L 295.4 71.1 L 296.4 69.8 L 297.4 68.5 L 298.4 67.2 L 299.5 65.9 L 300.5 64.5 L 301.5 63.2 L 302.6 61.8 L 303.6 60.4 L 304.6 59.1 L 305.7 57.7 L 306.7 56.3 L 307.7 54.9 L 308.8 53.5 L 309.8 52.0 L 310.8 50.6 L 311.8 49.1 L 312.9 47.7 L 313.9 46.2 L 314.9 44.7 L 316.0 43.2 L 317.0 41.7 L 318.0 40.2 L 319.1 38.7 L 320.1 37.1 L 321.1 35.6 L 322.2 34.0 L 323.2 32.4 L 324.2 30.8 L 325.2 29.2 L 326.3 27.6 L 327.3 26.0 L 328.3 24.4 L 329.4 22.7 L 330.4 21.1 L 331.4 19.4 L 332.5 17.7 L 333.5 16.0 L 334.5 14.3 L 335.5 12.6 L 336.6 10.8\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><path d=\"M 48.0 68.9 L 49.0 69.7 L 50.1 70.6 L 51.1 71.4 L 52.1 72.3 L 53.2 73.2 L 54.2 74.0 L 55.2 74.8 L 56.2 75.7 L 57.3 76.5 L 58.3 77.3 L 59.3 78.2 L 60.4 79.0 L 61.4 79.8 L 62.4 80.6 L 63.5 81.4 L 64.5 82.2 L 65.5 83.0 L 66.6 83.8 L 67.6 84.6 L 68.6 85.4 L 69.6 86.2 L 70.7 86.9 L 71.7 87.7 L 72.7 88.5 L 73.8 89.3 L 74.8 90.0 L 75.8 90.8 L 76.9 91.5 L 77.9 92.3 L 78.9 93.1 L 79.9 93.8 L 81.0 94.5 L 82.0 95.3 L 83.0 96.0 L 84.1 96.7 L 85.1 97.5 L 86.1 98.2 L 87.2 98.9 L 88.2 99.6 L 89.2 100.3 L 90.3 101.1 L 91.3 101.8 L 92.3 102.5 L 93.3 103.2 L 94.4 103.9 L 95.4 104.5 L 96.4 105.2 L 97.5 105.9 L 98.5 106.6 L 99.5 107.3 L 100.6 108.0 L 101.6 108.6 L 102.6 109.3 L 103.7 110.0 L 104.7 110.6 L 105.7 111.3 L 106.7 111.9 L 107.8 112.6 L 108.8 113.2 L 109.8 113.9 L 110.9 114.5 L 111.9 115.2 L 112.9 115.8 L 114.0 116.4 L 115.0 117.1 L 116.0 117.7 L 117.1 118.3 L 118.1 118.9 L 119.1 119.6 L 120.1 120.2 L 121.2 120.8 L 122.2 121.4 L 123.2 122.0 L 124.3 122.6 L 125.3 123.2 L 126.3 123.8 L 127.4 124.4 L 128.4 125.0 L 129.4 125.6 L 130.5 126.1 L 131.5 126.7 L 132.5 127.3 L 133.5 127.9 L 134.6 128.5 L 135.6 129.0 L 136.6 129.6 L 137.7 130.2 L 138.7 130.7 L 139.7 131.3 L 140.8 131.8 L 141.8 132.4 L 142.8 132.9 L 143.8 133.5 L 144.9 134.0 L 145.9 134.6 L 146.9 135.1 L 148.0 135.6 L 149.0 136.2 L 150.0 136.7 L 151.1 137.2 L 152.1 137.8 L 153.1 138.3 L 154.2 138.8 L 155.2 139.3 L 156.2 139.8 L 157.2 140.4 L 158.3 140.9 L 159.3 141.4 L 160.3 141.9 L 161.4 142.4 L 162.4 142.9 L 163.4 143.4 L 164.5 143.9 L 165.5 144.4 L 166.5 144.9 L 167.6 145.4 L 168.6 145.8 L 169.6 146.3 L 170.6 146.8 L 171.7 147.3 L 172.7 147.8 L 173.7 148.2 L 174.8 148.7 L 175.8 149.2 L 176.8 149.7 L 177.9 150.1 L 178.9 150.6 L 179.9 151.0 L 181.0 151.5 L 182.0 152.0 L 183.0 152.4 L 184.0 152.9 L 185.1 153.3 L 186.1 153.8 L 187.1 154.2 L 188.2 154.6 L 189.2 155.1 L 190.2 155.5 L 191.3 156.0 L 192.3 156.4 L 193.3 156.8 L 194.4 157.2 L 195.4 157.7 L 196.4 158.1 L 197.4 158.5 L 198.5 158.9 L 199.5 159.4 L 200.5 159.8 L 201.6 160.2 L 202.6 160.6 L 203.6 161.0 L 204.7 161.4 L 205.7 161.8 L 206.7 162.2 L 207.7 162.6 L 208.8 163.0 L 209.8 163.4 L 210.8 163.8 L 211.9 164.2 L 212.9 164.6 L 213.9 165.0 L 215.0 165.4 L 216.0 165.8 L 217.0 166.2 L 218.1 166.6 L 219.1 166.9 L 220.1 167.3 L 221.1 167.7 L 222.2 168.1 L 223.2 168.4 L 224.2 168.8 L 225.3 169.2 L 226.3 169.6 L 227.3 169.9 L 228.4 170.3 L 229.4 170.6 L 230.4 171.0 L 231.5 171.4 L 232.5 171.7 L 233.5 172.1 L 234.5 172.4 L 235.6 172.8 L 236.6 173.1 L 237.6 173.5 L 238.7 173.8 L 239.7 174.2 L 240.7 174.5 L 241.8 174.9 L 242.8 175.2 L 243.8 175.5 L 244.9 175.9 L 245.9 176.2 L 246.9 176.5 L 247.9 176.9 L 249.0 177.2 L 250.0 177.5 L 251.0 177.9 L 252.1 178.2 L 253.1 178.5 L 254.1 178.8 L 255.2 179.1 L 256.2 179.5 L 257.2 179.8 L 258.3 180.1 L 259.3 180.4 L 260.3 180.7 L 261.3 181.0 L 262.4 181.3 L 263.4 181.7 L 264.4 182.0 L 265.5 182.3 L 266.5 182.6 L 267.5 182.9 L 268.6 183.2 L 269.6 183.5 L 270.6 183.8 L 271.6 184.1 L 272.7 184.4 L 273.7 184.6 L 274.7 184.9 L 275.8 185.2 L 276.8 185.5 L 277.8 185.8 L 278.9 186.1 L 279.9 186.4 L 280.9 186.7 L 282.0 186.9 L 283.0 187.2 L 284.0 187.5 L 285.0 187.8 L 286.1 188.1 L 287.1 188.3 L 288.1 188.6 L 289.2 188.9 L 290.2 189.1 L 291.2 189.4 L 292.3 189.7 L 293.3 189.9 L 294.3 190.2 L 295.4 190.5 L 296.4 190.7 L 297.4 191.0 L 298.4 191.3 L 299.5 191.5 L 300.5 191.8 L 301.5 192.0 L 302.6 192.3 L 303.6 192.5 L 304.6 192.8 L 305.7 193.0 L 306.7 193.3 L 307.7 193.5 L 308.8 193.8 L 309.8 194.0 L 310.8 194.3 L 311.8 194.5 L 312.9 194.8 L 313.9 195.0 L 314.9 195.2 L 316.0 195.5 L 317.0 195.7 L 318.0 196.0 L 319.1 196.2 L 320.1 196.4 L 321.1 196.7 L 322.2 196.9 L 323.2 197.1 L 324.2 197.4 L 325.2 197.6 L 326.3 197.8 L 327.3 198.0 L 328.3 198.3 L 329.4 198.5 L 330.4 198.7 L 331.4 198.9 L 332.5 199.1 L 333.5 199.4 L 334.5 199.6 L 335.5 199.8 L 336.6 200.0 L 337.6 200.2 L 338.6 200.4 L 339.7 200.7 L 340.7 200.9 L 341.7 201.1 L 342.8 201.3 L 343.8 201.5 L 344.8 201.7 L 345.9 201.9 L 346.9 202.1 L 347.9 202.3 L 348.9 202.5 L 350.0 202.7 L 351.0 202.9 L 352.0 203.1 L 353.1 203.3 L 354.1 203.5 L 355.1 203.7 L 356.2 203.9 L 357.2 204.1 L 358.2 204.3 L 359.3 204.5 L 360.3 204.7 L 361.3 204.9 L 362.3 205.1 L 363.4 205.3 L 364.4 205.5 L 365.4 205.7 L 366.5 205.8 L 367.5 206.0 L 368.5 206.2 L 369.6 206.4 L 370.6 206.6 L 371.6 206.8 L 372.7 206.9 L 373.7 207.1 L 374.7 207.3 L 375.7 207.5 L 376.8 207.7 L 377.8 207.8 L 378.8 208.0 L 379.9 208.2 L 380.9 208.4 L 381.9 208.5 L 383.0 208.7 L 384.0 208.9 L 385.0 209.1 L 386.1 209.2 L 387.1 209.4 L 388.1 209.6 L 389.1 209.7 L 390.2 209.9 L 391.2 210.1 L 392.2 210.2 L 393.3 210.4 L 394.3 210.6 L 395.3 210.7 L 396.4 210.9 L 397.4 211.0 L 398.4 211.2 L 399.4 211.4 L 400.5 211.5 L 401.5 211.7 L 402.5 211.8 L 403.6 212.0 L 404.6 212.1 L 405.6 212.3 L 406.7 212.5 L 407.7 212.6 L 408.7 212.8 L 409.8 212.9 L 410.8 213.1 L 411.8 213.2 L 412.8 213.4 L 413.9 213.5 L 414.9 213.7 L 415.9 213.8 L 417.0 214.0 L 418.0 214.1\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\"/><text x=\"348.6\" y=\"85.2\" fill=\"#B43123\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">f</text><text x=\"348.6\" y=\"193.1\" fill=\"#2A5D9E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">g</text></svg></span><p>Utan att bestämma exakta formler, förklara vilken graf som har störst startvärde och vilken som har förändringsfaktor större än 1.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Startvärdet avläses vid \\(x=0\\). Där ligger g högre än f, så g har störst startvärde.</p><p>f växer när x ökar och har därför förändringsfaktor större än 1. g avtar och har förändringsfaktor mellan 0 och 1.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Startvärdet avläses vid \\(x=0\\). Där ligger g högre än f, så g har störst startvärde.</p><p>f växer när x ökar och har därför förändringsfaktor större än 1. g avtar och har förändringsfaktor mellan 0 och 1.</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -24356,7 +24579,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Startvärdet avläses vid \\(x=0\\). Där ligger g högre än f, så g har störst startvärde.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.365",
@@ -24384,7 +24610,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.366",
@@ -24411,7 +24640,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.367",
@@ -24743,7 +24975,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(3\\cdot1{,}4^x=20\\) med logaritmer.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Dividera först med 3:</p><p>\\[1{,}4^x=\\frac{20}{3}.\\]</p><p>Ta lg i båda leden:</p><p>\\[x\\lg1{,}4=\\lg\\left(\\frac{20}{3}\\right).\\]</p><p>\\[x=\\frac{\\lg(20/3)}{\\lg1{,}4}\\approx5{,}64.\\]</p><p><strong>\\(x\\approx5{,}64\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Dividera först med 3:</p><p>\\[1{,}4^x=\\frac{20}{3}.\\]</p><p>Ta lg i båda leden:</p><p>\\[x\\lg1{,}4=\\lg\\left(\\frac{20}{3}\\right).\\]</p><p>\\[x=\\frac{\\lg(20/3)}{\\lg1{,}4}\\approx5{,}64.\\]</p><p><strong>\\(x\\approx5{,}64\\)</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -24756,7 +24988,10 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.379",
@@ -24770,7 +25005,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(250\\cdot1{,}08^x=400\\) med ett digitalt verktyg.</p>",
-    "s": "<p><strong>Metodval:</strong> Försök först skriva båda led med samma bas. Då kan exponenterna jämföras direkt.</p><p>Skriv ekvationen i GeoGebra och använd Lös eller NLös.</p><p>Det ger \\(x\\approx6{,}11\\).</p><p><strong>\\(x\\approx6{,}1\\)</strong></p>",
+    "s": "<p>Skriv ekvationen i GeoGebra och använd Lös eller NLös.</p><p>Det ger \\(x\\approx6{,}11\\).</p><p><strong>\\(x\\approx6{,}1\\)</strong></p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -24783,7 +25018,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Sätt först modellen lika med målvärdet. I ett digitalt verktyg löser du sedan ekvationen med den okända i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.380",
@@ -24796,7 +25034,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En elev jämför \\(f(x)=x^5\\) och \\(g(x)=2^x\\) och påstår att \\(f(x)&gt;g(x)\\) för alla positiva \\(x\\), eftersom det stämmer för \\(x=10\\).</p><p>Undersök påståendet med digitalt verktyg. Beskriv hur många positiva skärningspunkter graferna har och förklara varför ett enda testvärde inte räcker.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Rita \\(y=x^5\\) och \\(y=2^x\\) och använd skärningsverktyget eller <code>NLös(x^5=2^x)</code> i relevanta intervall.</p><p>Graferna skär varandra positivt ungefär vid \\(x\\approx1,18\\) och \\(x\\approx22,44\\).</p><p>Vid \\(x=10\\) är \\(10^5=100000&gt;1024=2^{10}\\), så eleven ser bara beteendet mellan skärningarna.</p><p>För mycket stora \\(x\\) växer \\(2^x\\) snabbare än varje fast potens \\(x^5\\), så efter den andra skärningen blir \\(g(x)&gt;f(x)\\).</p><p><strong>Påståendet är alltså fel. Ett testvärde kan inte avgöra en olikhet för alla \\(x\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Rita \\(y=x^5\\) och \\(y=2^x\\) och använd skärningsverktyget eller <code>NLös(x^5=2^x)</code> i relevanta intervall.</p><p>Graferna skär varandra positivt ungefär vid \\(x\\approx1,18\\) och \\(x\\approx22,44\\).</p><p>Vid \\(x=10\\) är \\(10^5=100000&gt;1024=2^{10}\\), så eleven ser bara beteendet mellan skärningarna.</p><p>För mycket stora \\(x\\) växer \\(2^x\\) snabbare än varje fast potens \\(x^5\\), så efter den andra skärningen blir \\(g(x)&gt;f(x)\\).</p><p><strong>Påståendet är alltså fel. Ett testvärde kan inte avgöra en olikhet för alla \\(x\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": true,
     "miniräknare": true,
@@ -24809,7 +25047,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>"
+    "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.381",
@@ -27191,7 +27433,10 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Skriv om vänsterledet: \\(5\\cdot2^{x-1}=\\frac52\\cdot2^x\\). Högerledet är \\(3\\cdot3^x\\).</p>"
+    "ledtrad": "<p>Skriv om vänsterledet: \\(5\\cdot2^{x-1}=\\frac52\\cdot2^x\\). Högerledet är \\(3\\cdot3^x\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.441",
@@ -27205,7 +27450,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(250\\cdot0,85^t=100\\) med ett digitalt verktyg.</p><p>Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Skriv ekvationen i GeoGebras CAS, till exempel som <code>NLös(250*0.85^t=100)</code>.</p><p>Det ger \\(t\\approx5,638\\). Avrundat till en decimal blir</p><p><strong>\\(t\\approx5,6\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Skriv ekvationen i GeoGebras CAS, till exempel som <code>NLös(250*0.85^t=100)</code>.</p><p>Det ger \\(t\\approx5,638\\). Avrundat till en decimal blir</p><p><strong>\\(t\\approx5,6\\).</strong></p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -27218,7 +27463,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Sätt först modellen lika med målvärdet. I ett digitalt verktyg löser du sedan ekvationen med den okända i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.442",
@@ -27245,7 +27493,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.443",
@@ -27258,7 +27509,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(3\\cdot1,2^x=9\\). Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv först situationen som (Ccdot a^t=\text{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p><p>Dividera med 3:</p><p>\\(1,2^x=3\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(x\\lg1,2=\\lg3\\).</p><p>\\(x=\\frac{\\lg3}{\\lg1,2}\\approx6,03\\).</p><p><strong>\\(x\\approx6,0\\).</strong></p>",
+    "s": "<p>Dividera med 3:</p><p>\\[1{,}2^x=3.\\]</p><p>Logaritmera:</p><p>\\[x=\\frac{\\lg3}{\\lg1{,}2}\\approx6{,}03.\\]</p><p><strong>\\(x\\approx6{,}0\\)</strong>.</p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -27270,7 +27521,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först situationen som (Ccdot a^t= ext{mål}). Isolera (a^t); om exponenten inte kan avläsas direkt använder du logaritmer.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.444",
@@ -27283,7 +27537,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationerna och svara med en decimal:</p><p>a) \\(x^3=50\\)</p><p>b) \\(3^x=50\\)</p><p>Förklara kort varför ekvationerna löses på olika sätt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>a) Detta är en potensekvation. Ta tredje roten: \\(x=\\sqrt[3]{50}\\approx3,7\\).</p><p>b) Här finns \\(x\\) i exponenten. Med logaritmer:</p><p>\\(x=\\frac{\\lg50}{\\lg3}\\approx3,6\\).</p><p><strong>a) \\(x\\approx3,7\\), b) \\(x\\approx3,6\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>a) Detta är en potensekvation. Ta tredje roten: \\(x=\\sqrt[3]{50}\\approx3,7\\).</p><p>b) Här finns \\(x\\) i exponenten. Med logaritmer:</p><p>\\(x=\\frac{\\lg50}{\\lg3}\\approx3,6\\).</p><p><strong>a) \\(x\\approx3,7\\), b) \\(x\\approx3,6\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -27296,7 +27550,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>"
+    "ledtrad": "<p>Markera platsen som ska behållas och titta på nästa siffra. Vid överslag väljer du närliggande tal som är lätta att räkna med.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.445",
@@ -27322,7 +27580,11 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>De två ekvationerna ser liknande ut, men x har olika roller och därför används olika metoder.</p>"
+    "ledtrad": "<p>De två ekvationerna ser liknande ut, men x har olika roller och därför används olika metoder.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.446",
@@ -27349,7 +27611,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "heltal",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.447",
@@ -27681,7 +27946,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Värdet på en maskin minskar exponentiellt. Efter 2 år är värdet 182 250 kr och efter 5 år är det 132 860 kr.</p><p>Bestäm den årliga förändringsfaktorn.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>Om faktorn är \\(a\\) gäller \\(182250\\,a^3=132860\\).</p><p>\\(a^3=132860/182250\\approx0,7290\\).</p><p>\\(a\\approx0,900\\).</p><p><strong>Den årliga förändringsfaktorn är ungefär 0,90, alltså en minskning med cirka 10 % per år.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>Om faktorn är \\(a\\) gäller \\(182250\\,a^3=132860\\).</p><p>\\(a^3=132860/182250\\approx0,7290\\).</p><p>\\(a\\approx0,900\\).</p><p><strong>Den årliga förändringsfaktorn är ungefär 0,90, alltså en minskning med cirka 10 % per år.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -27696,7 +27961,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.458",
@@ -27709,7 +27977,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/0/2",
     "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\) uppfyller \\(f(2)=18\\) och \\(f(5)=144\\).</p><p>Bestäm \\(f(-1)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>\\(a^3=144/18=8\\Rightarrow a=2\\). Då \\(C\\cdot4=18\\Rightarrow C=9/2\\).</p><p>\\(f(-1)=\\frac92\\cdot2^{-1}=\\frac94\\).</p><p><strong>\\(f(-1)=\\frac94\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>\\(a^3=144/18=8\\Rightarrow a=2\\). Då \\(C\\cdot4=18\\Rightarrow C=9/2\\).</p><p>\\(f(-1)=\\frac92\\cdot2^{-1}=\\frac94\\).</p><p><strong>\\(f(-1)=\\frac94\\).</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -27723,7 +27991,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "bråk",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "2.459",
@@ -27737,7 +28008,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En summa på 8 000 kr ökar med 4 % per år.</p><p>a) Skriv en modell.<br>b) Bestäm värdet efter 5 år.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Identifiera förändringen per steg och startvärdet. I \\(y=kx+m\\) beskriver \\(k\\) lutningen och \\(m\\) värdet när \\(x=0\\).</p><div class=\"facit-arbete\"><p>\\(V(t)=8000\\cdot1,04^t\\).</p><p>\\(V(5)\\approx9733\\).</p><p><strong>Modellen är \\(8000\\cdot1,04^t\\), värdet cirka 9 733 kr.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med en punkt eller ett tabellvärde att både lutning och startvärde stämmer.</p></div>",
+    "s": "<p>\\(V(t)=8000\\cdot1,04^t\\).</p><p>\\(V(5)\\approx9733\\).</p><p><strong>Modellen är \\(8000\\cdot1,04^t\\), värdet cirka 9 733 kr.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -27766,7 +28037,10 @@ window.BANKMA2 = [
       "b) värde efter 5 år"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.460",
@@ -27806,7 +28080,10 @@ window.BANKMA2 = [
       "modell"
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.461",
@@ -27820,7 +28097,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En mängd beskrivs av \\(P(t)=850\\cdot1,04^t\\).</p><p>Ange startvärdet och den procentuella ökningen per tidsenhet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv om enheten eller procenttalet som en faktor innan du räknar. En ökning och en minskning måste behandlas med var sin förändringsfaktor.</p><div class=\"facit-arbete\"><p>I en exponentialfunktion \\(P(t)=C\\cdot a^t\\) är \\(C\\) startvärdet och \\(a\\) förändringsfaktorn.</p><p>Här är \\(C=850\\) och \\(a=1,04\\), vilket motsvarar en ökning med 4 %.</p><p><strong>Startvärde 850 och ökning 4 % per tidsenhet.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att en ökning ger en faktor över 1 och en minskning en faktor mellan 0 och 1.</p></div>",
+    "s": "<p>I en exponentialfunktion \\(P(t)=C\\cdot a^t\\) är \\(C\\) startvärdet och \\(a\\) förändringsfaktorn.</p><p>Här är \\(C=850\\) och \\(a=1,04\\), vilket motsvarar en ökning med 4 %.</p><p><strong>Startvärde 850 och ökning 4 % per tidsenhet.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -27848,7 +28125,10 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.462",
@@ -28036,7 +28316,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\lg 80-\\lg 8\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd lagen \\(\\lg x-\\lg y=\\lg(x/y)\\) \\(\\lg a-\\lg b=\\lg(a/b)\\):</p><p>\\(\\lg80-\\lg8=\\lg(80/8)=\\lg10\\).</p><p><strong>\\(1\\).</strong></p>",
+    "s": "<p>Använd lagen \\(\\lg x-\\lg y=\\lg(x/y)\\) \\(\\lg a-\\lg b=\\lg(a/b)\\):</p><p>\\(\\lg80-\\lg8=\\lg(80/8)=\\lg10\\).</p><p><strong>\\(1\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -28049,7 +28329,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.468",
@@ -28059,10 +28342,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/1",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\lg 45+\\lg 20-\\lg 9\\) utan räknare.</p><p><strong>Endast svar.</strong></p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Kombinera logaritmerna stegvis:</p><p>\\(\\lg45+\\lg20-\\lg9=\\lg\\left(\\frac{45\\cdot20}{9}\\right)\\).</p><p>\\(\\frac{45\\cdot20}{9}=100\\).</p><p><strong>\\(\\lg100=2\\).</strong></p>",
+    "s": "<p>Kombinera logaritmerna stegvis:</p><p>\\(\\lg45+\\lg20-\\lg9=\\lg\\left(\\frac{45\\cdot20}{9}\\right)\\).</p><p>\\(\\frac{45\\cdot20}{9}=100\\).</p><p><strong>\\(\\lg100=2\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -28075,7 +28358,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "2.469",
@@ -28085,10 +28371,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Förenkla \\(\\lg(50x)-\\lg(2x)\\), där \\(x&gt;0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd lagen \\(\\lg x-\\lg y=\\lg(x/y)\\):</p><p>\\(\\lg(50x)-\\lg(2x)=\\lg\\left(\\frac{50x}{2x}\\right)\\).</p><p>Eftersom \\(x&gt;0\\) kan \\(x\\) förkortas bort.</p><p><strong>\\(\\lg25\\).</strong></p>",
+    "s": "<p>Använd lagen \\(\\lg x-\\lg y=\\lg(x/y)\\):</p><p>\\(\\lg(50x)-\\lg(2x)=\\lg\\left(\\frac{50x}{2x}\\right)\\).</p><p>Eftersom \\(x&gt;0\\) kan \\(x\\) förkortas bort.</p><p><strong>\\(\\lg25\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -28100,7 +28386,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.470",
@@ -28127,7 +28416,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Först krävs \\(x-1&gt;0\\) och \\(x+1&gt;0\\), alltså \\(x&gt;1\\).</p>"
+    "ledtrad": "<p>Först krävs \\(x-1&gt;0\\) och \\(x+1&gt;0\\), alltså \\(x&gt;1\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.471",
@@ -28137,24 +28429,28 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\lg80-\\lg8\\) utan miniräknare.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> \\(\\lg80-\\lg8=\\lg(80/8)=\\lg10\\).</p><p><strong>1</strong></p>",
-    "familj": "Logaritmlagar",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En elev skriver</p><p>\\[\\lg(80-8)=\\lg80-\\lg8.\\]</p><p>Förklara varför detta är fel. Skriv den logaritmlag som eleven verkar ha blandat ihop med uttrycket.</p>",
+    "s": "<p>Logaritmlagen för differens gäller <em>mellan logaritmer</em>:</p><p>\\[\\lg a-\\lg b=\\lg\\left(\\frac ab\\right),\\]</p><p>inte för en subtraktion inne i logaritmens argument.</p><p>Här är vänsterledet \\(\\lg72\\), medan högerledet är</p><p>\\[\\lg80-\\lg8=\\lg(80/8)=\\lg10=1.\\]</p><p>De är alltså inte lika.</p>",
+    "familj": "Felanalys logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Vilken operation inne i en logaritm motsvarar en subtraktion mellan två logaritmer?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.472",
@@ -28890,7 +29186,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Betrakta funktionen \\(f(x)=3\\cdot 1{,}5^x\\).</p><ol><li>Bestäm \\(f(0)\\).</li><li>Avgör om funktionen är växande eller avtagande.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>\\(f(0)=3\\cdot 1{,}5^0=3\\).</p><p>Eftersom förändringsfaktorn \\(1{,}5\\) är större än 1 är funktionen växande.</p><p><strong>\\(f(0)=3\\), och funktionen är växande.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>\\(f(0)=3\\cdot 1{,}5^0=3\\).</p><p>Eftersom förändringsfaktorn \\(1{,}5\\) är större än 1 är funktionen växande.</p><p><strong>\\(f(0)=3\\), och funktionen är växande.</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -28916,7 +29212,10 @@ window.BANKMA2 = [
       "monotoni"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.494",
@@ -28930,7 +29229,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Bestäm formeln för en exponentialfunktion \\(f(x)=C\\cdot a^x\\) som uppfyller tabellen.</p><table class=\"data\"><tr><th>x</th><th>0</th><th>1</th><th>2</th></tr><tr><td>f(x)</td><td>5</td><td>10</td><td>20</td></tr></table>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>När \\(x=0\\) är \\(f(0)=C=5\\).</p><p>Kvoten mellan två efterföljande värden är \\(10/5=2\\) och \\(20/10=2\\), så \\(a=2\\).</p><p><strong>\\(f(x)=5\\cdot 2^x\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>När \\(x=0\\) är \\(f(0)=C=5\\).</p><p>Kvoten mellan två efterföljande värden är \\(10/5=2\\) och \\(20/10=2\\), så \\(a=2\\).</p><p><strong>\\(f(x)=5\\cdot 2^x\\)</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -28943,7 +29242,10 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.495",
@@ -28990,7 +29292,10 @@ window.BANKMA2 = [
       "monotoni"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Förändringsfaktorn 0,75 betyder att värdet multipliceras med 0,75 för varje steg som \\(x\\) ökar med 1.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.496",
@@ -29018,7 +29323,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.497",
@@ -29031,7 +29339,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm \\(x\\) i varje fall.</p><p>a)&nbsp;\\(10^x=1000\\)<br>b)&nbsp;\\(10^x=0{,}001\\)<br>c)&nbsp;\\(10^x=1\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frågan ”vilken exponent ger talet?” är precis vad logaritmen svarar på.</p><div class=\"facit-arbete\"><p>a) \\(1000=10^3\\), alltså \\(x=3\\).</p><p>b) \\(0{,}001=10^{-3}\\), alltså \\(x=-3\\).</p><p>c) \\(1=10^0\\), alltså \\(x=0\\).</p><p><strong>a) \\(3\\) &nbsp; b) \\(-3\\) &nbsp; c) \\(0\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Varje svar kan skrivas som en logaritm: \\(x=\\lg 1000=3\\) och så vidare.</p></div>",
+    "s": "<p>a) \\(1000=10^3\\), alltså \\(x=3\\).</p><p>b) \\(0{,}001=10^{-3}\\), alltså \\(x=-3\\).</p><p>c) \\(1=10^0\\), alltså \\(x=0\\).</p><p><strong>a) \\(3\\) &nbsp; b) \\(-3\\) &nbsp; c) \\(0\\)</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -29069,7 +29377,10 @@ window.BANKMA2 = [
       "logaritmdefinitionen",
       "logaritmdefinitionen",
       "logaritmdefinitionen"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.498",
@@ -29082,7 +29393,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv om sambandet \\(\\lg x=2{,}7\\) på formen \\(x=10^a\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> På formelbladet står sambandet \\(10^a=x\\Leftrightarrow a=\\lg x\\).</p><p>Här är \\(a=2{,}7\\).</p><p><strong>\\(x=10^{2{,}7}\\)</strong></p>",
+    "s": "<p>På formelbladet står sambandet \\(10^a=x\\Leftrightarrow a=\\lg x\\).</p><p>Här är \\(a=2{,}7\\).</p><p><strong>\\(x=10^{2{,}7}\\)</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -29096,7 +29407,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.499",
@@ -29109,7 +29423,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[10^x=0{,}001.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(0{,}001=10^{-3}\\).</p><p>Alltså är</p><p><strong>\\(x=-3\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(0{,}001=10^{-3}\\).</p><p>Alltså är</p><p><strong>\\(x=-3\\)</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -29123,7 +29437,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.500",
@@ -29133,10 +29450,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[\\lg x=-0{,}3.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Använd sambandet på formelbladet \\(10^a=x\\Leftrightarrow a=\\lg x\\).</p><p>Av \\(\\lg x=-0{,}3\\) följer</p><p>\\[x=10^{-0{,}3}.\\]</p><p>Med räknare fås \\(x\\approx0{,}50\\).</p><p><strong>\\(x\\approx0{,}50\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Använd sambandet på formelbladet \\(10^a=x\\Leftrightarrow a=\\lg x\\).</p><p>Av \\(\\lg x=-0{,}3\\) följer</p><p>\\[x=10^{-0{,}3}.\\]</p><p>Med räknare fås \\(x\\approx0{,}50\\).</p><p><strong>\\(x\\approx0{,}50\\)</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -29150,7 +29467,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>Använd att logaritmen är invers till exponentialfunktionen. Produkt blir summa av logaritmer, kvot blir differens och exponent kan flyttas framför.</p>"
+    "ledtrad": "<p>Använd att logaritmen är invers till exponentialfunktionen. Produkt blir summa av logaritmer, kvot blir differens och exponent kan flyttas framför.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.501",
@@ -29444,7 +29764,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(5\\cdot1,4^x=12\\cdot1,1^x\\). Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p>Dividera båda leden med \\(5\\cdot1,1^x\\):</p><p>\\(\\left(\\frac{1,4}{1,1}\\right)^x=\\frac{12}{5}\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(x\\lg(1,4/1,1)=\\lg(12/5)\\).</p><p>\\(x=\\frac{\\lg(2,4)}{\\lg(14/11)}\\approx3,63\\).</p><p><strong>\\(x\\approx3,63\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Dividera båda leden med \\(5\\cdot1,1^x\\):</p><p>\\(\\left(\\frac{1,4}{1,1}\\right)^x=\\frac{12}{5}\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(x\\lg(1,4/1,1)=\\lg(12/5)\\).</p><p>\\(x=\\frac{\\lg(2,4)}{\\lg(14/11)}\\approx3,63\\).</p><p><strong>\\(x\\approx3,63\\).</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -29457,7 +29777,10 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.509",
@@ -29470,7 +29793,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(5\\cdot 2^x=40\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>Metodval:</strong> Försök först skriva båda led med samma bas. Då kan exponenterna jämföras direkt.</p><p>Dividera med 5:</p><p>\\(2^x=8\\).</p><p>Eftersom \\(8=2^3\\) följer att</p><p><strong>\\(x=3\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<p>Dividera med 5:</p><p>\\(2^x=8\\).</p><p>Eftersom \\(8=2^3\\) följer att</p><p><strong>\\(x=3\\).</strong></p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -29482,7 +29805,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.510",
@@ -29512,7 +29838,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.511",
@@ -30095,7 +30424,7 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/0/2",
     "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\) uppfyller \\(f(2)=18\\) och \\(f(5)=486\\).</p><p>Bestäm \\(f(0)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p>Dividera värdena:</p><p>\\(\\frac{f(5)}{f(2)}=a^3=\\frac{486}{18}=27\\), alltså \\(a=3\\).</p><p>\\(f(2)=C\\cdot3^2=18\\Rightarrow9C=18\\Rightarrow C=2\\).</p><p><strong>\\(f(0)=C=2\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Dividera värdena:</p><p>\\(\\frac{f(5)}{f(2)}=a^3=\\frac{486}{18}=27\\), alltså \\(a=3\\).</p><p>\\(f(2)=C\\cdot3^2=18\\Rightarrow9C=18\\Rightarrow C=2\\).</p><p><strong>\\(f(0)=C=2\\).</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -30109,7 +30438,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "2.529",
@@ -30122,7 +30454,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Förenkla till en enda logaritm. Anta att \\(x&gt;0\\) och \\(y&gt;0\\).</p><p>\\[\\lg(50x)-\\lg2+2\\lg y\\]</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Använd reglerna på formelbladet:</p><p>\\[\\lg(50x)-\\lg2=\\lg(25x)\\]</p><p>och \\(2\\lg y=\\lg(y^2)\\).</p><p>Därför blir uttrycket</p><p><strong>\\(\\lg(25xy^2)\\).</strong></p>",
+    "s": "<p>Använd reglerna på formelbladet:</p><p>\\[\\lg(50x)-\\lg2=\\lg(25x)\\]</p><p>och \\(2\\lg y=\\lg(y^2)\\).</p><p>Därför blir uttrycket</p><p><strong>\\(\\lg(25xy^2)\\).</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30135,7 +30467,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.530",
@@ -30148,7 +30483,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Förklara varför \\(\\lg 0\\) saknar värde, medan \\(\\lg 1=0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gå tillbaka till definitionen: \\(\\lg a\\) är den exponent som tiopotensen ska ha för att bli \\(a\\).</p><div class=\"facit-arbete\"><p>\\(\\lg 1=0\\) eftersom \\(10^0=1\\).</p><p>\\(\\lg 0\\) skulle betyda att \\(10^x=0\\) för något \\(x\\). Men en tiopotens är alltid positiv; den kan bli hur liten som helst utan att någonsin bli noll.</p><p>Därför är \\(\\lg 0\\) inte definierat.</p><p><strong>\\(\\lg 1=0\\) eftersom \\(10^0=1\\); \\(\\lg 0\\) saknar värde eftersom \\(10^x\\) aldrig blir 0.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Av samma skäl är logaritmer av negativa tal inte definierade i \\(\\mathbb{R}\\).</p></div>",
+    "s": "<p>\\(\\lg 1=0\\) eftersom \\(10^0=1\\).</p><p>\\(\\lg 0\\) skulle betyda att \\(10^x=0\\) för något \\(x\\). Men en tiopotens är alltid positiv; den kan bli hur liten som helst utan att någonsin bli noll.</p><p>Därför är \\(\\lg 0\\) inte definierat.</p><p><strong>\\(\\lg 1=0\\) eftersom \\(10^0=1\\); \\(\\lg 0\\) saknar värde eftersom \\(10^x\\) aldrig blir 0.</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30161,7 +30496,11 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>Vilka värden kan \\(10^x\\) anta?</p>"
+    "ledtrad": "<p>Vilka värden kan \\(10^x\\) anta?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.531",
@@ -30174,7 +30513,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Talet \\(N\\) uppfyller \\(\\lg N=3{,}5\\). Avgör mellan vilka två tiopotenser \\(N\\) ligger, utan att använda räknare.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Logaritmen ligger mellan två heltal, alltså ligger talet mellan motsvarande tiopotenser.</p><div class=\"facit-arbete\"><p>\\(3&lt;3{,}5&lt;4\\).</p><p>Eftersom \\(\\lg\\) är växande gäller \\(10^3&lt;N&lt;10^4\\).</p><p>Alltså ligger \\(N\\) mellan 1000 och 10000.</p><p><strong>\\(1000&lt;N&lt;10000\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Heltalsdelen av logaritmen visar hur många siffror talet har: \\(N\\) är ett fyrsiffrigt tal.</p></div>",
+    "s": "<p>\\(3&lt;3{,}5&lt;4\\).</p><p>Eftersom \\(\\lg\\) är växande gäller \\(10^3&lt;N&lt;10^4\\).</p><p>Alltså ligger \\(N\\) mellan 1000 och 10000.</p><p><strong>\\(1000&lt;N&lt;10000\\)</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30199,7 +30538,10 @@ window.BANKMA2 = [
       "undre gräns",
       "övre gräns"
     ],
-    "svarsstruktur": "ordnad"
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.532",
@@ -30212,7 +30554,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg(10^{-7})\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>Logaritmen anger exponenten på 10. <strong>Svaret är \\(-7\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Logaritmen anger exponenten på 10. <strong>Svaret är \\(-7\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30226,7 +30568,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.533",
@@ -30239,7 +30584,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(10^{\\lg 46}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>Tiopotens och tiologaritm är inversa operationer. <strong>Svaret är 46.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Tiopotens och tiologaritm är inversa operationer. <strong>Svaret är 46.</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30253,7 +30598,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.534",
@@ -30266,7 +30614,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(x\\) om \\(\\lg x=4\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>\\(\\lg x=4\\iff x=10^4\\). <strong>Svaret är 10000.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(\\lg x=4\\iff x=10^4\\). <strong>Svaret är 10000.</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30280,7 +30628,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.535",
@@ -30293,7 +30644,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(x\\) om \\(\\lg x=-2\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>\\(x=10^{-2}=0,01\\). <strong>Svaret är 0,01.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(x=10^{-2}=0,01\\). <strong>Svaret är 0,01.</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30307,7 +30658,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.536",
@@ -30320,7 +30674,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilket tal är \\(10^{\\lg 0,37}\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>Operationerna tar ut varandra. <strong>Svaret är 0,37.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Operationerna tar ut varandra. <strong>Svaret är 0,37.</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30334,7 +30688,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.537",
@@ -30347,7 +30704,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lg(100\\cdot1000)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>\\(100\\cdot1000=10^5\\). Därför är <strong>svaret 5</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(100\\cdot1000=10^5\\). Därför är <strong>svaret 5</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30361,7 +30718,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.538",
@@ -30374,7 +30734,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm.<br>a) \\(\\lg 10^3\\)<br>b) \\(\\lg 10^{-4}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>a) <strong>3</strong><br>b) <strong>-4</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>a) <strong>3</strong><br>b) <strong>-4</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30414,7 +30774,10 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.539",
@@ -30427,7 +30790,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm.<br>a) \\(10^{\\lg 12}\\)<br>b) \\(10^{\\lg 0,8}\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p>a) <strong>12</strong><br>b) <strong>0,8</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>a) <strong>12</strong><br>b) <strong>0,8</strong></p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30467,7 +30830,10 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.540",
@@ -30480,7 +30846,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv \\(10^6=1\\,000\\,000\\) som ett logaritmsamband.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> Exponenten 6 är tiologaritmen av 1 000 000: <strong>\\(\\lg(1\\,000\\,000)=6\\)</strong>.</p>",
+    "s": "<p>Exponenten 6 är tiologaritmen av 1 000 000: <strong>\\(\\lg(1\\,000\\,000)=6\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30493,7 +30859,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.541",
@@ -30506,7 +30875,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv sambandet \\(\\lg 0,001=-3\\) på exponentialform.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> Det motsvarande sambandet är <strong>\\(10^{-3}=0,001\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>Det motsvarande sambandet är <strong>\\(10^{-3}=0,001\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30519,7 +30888,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.542",
@@ -30529,10 +30901,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Bestäm \\(\\lg\\left(\\sqrt{1000}\\right)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(\\sqrt{1000}=(10^3)^{1/2}=10^{3/2}\\). Därför är <strong>\\(3/2\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(\\sqrt{1000}=(10^3)^{1/2}=10^{3/2}\\). Därför är <strong>\\(3/2\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30546,7 +30918,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "bråk",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.543",
@@ -30556,10 +30931,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Bestäm \\(x\\) om \\(10^{2x}=1000\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(1000=10^3\\), så \\(2x=3\\). <strong>\\(x=1,5\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(1000=10^3\\), så \\(2x=3\\). <strong>\\(x=1,5\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30573,7 +30948,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.544",
@@ -30583,10 +30961,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Bestäm \\(x\\) om \\(\\lg(x^2)=6\\) och \\(x&gt;0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p><p><strong>Steg 1:</strong> \\(x^2=10^6\\). Eftersom \\(x&gt;0\\) fås <strong>\\(x=1000\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt gärna tillbaka svaret. Vid en jämn rot måste du kontrollera både positiv och negativ möjlighet när du löser en ekvation.</p></div>",
+    "s": "<p>\\(x^2=10^6\\). Eftersom \\(x&gt;0\\) fås <strong>\\(x=1000\\)</strong>.</p>",
     "familj": "Logaritmbegreppet och enkla logaritmer",
     "geogebra": false,
     "miniräknare": false,
@@ -30600,7 +30978,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Logaritmer och enkla logaritmekvationer",
-    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>"
+    "ledtrad": "<p>lg a = b betyder att 10 upphöjt till b är a. Sök därför den exponent som ger talet inne i logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.545",
@@ -30610,23 +30991,28 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Förenkla \\(\\lg 4+\\lg25\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> \\(\\lg(4\\cdot25)=\\lg100=\\)<strong>2</strong>.</p>",
-    "familj": "Logaritmlagar",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En elev påstår att \\(\\lg(a+b)=\\lg a+\\lg b\\) för positiva \\(a,b\\).</p><p>Ge ett enkelt motexempel och formulera den korrekta produktlagen.</p>",
+    "s": "<p>Välj till exempel \\(a=b=1\\). Då är</p><p>\\[\\lg(a+b)=\\lg2,\\]</p><p>men</p><p>\\[\\lg a+\\lg b=\\lg1+\\lg1=0.\\]</p><p>Alltså kan påståendet inte gälla generellt.</p><p>Den korrekta lagen är</p><p>\\[\\boxed{\\lg(ab)=\\lg a+\\lg b},\\qquad a,b>0.\\]</p>",
+    "familj": "Felanalys logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Prova två mycket enkla positiva tal, till exempel \\(a=b=1\\).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "2.546",
@@ -30639,7 +31025,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\lg 250+\\lg 4\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Summan av två logaritmer är logaritmen av produkten.</p><div class=\"facit-arbete\"><p>\\(\\lg 250+\\lg 4=\\lg(250\\cdot4)=\\lg1000\\).</p><p>\\(1000=10^3\\), alltså är \\(\\lg1000=3\\).</p><p><strong>\\(3\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Leta efter faktorer som tillsammans ger en tiopotens. Här blir produkten precis 1000.</p></div>",
+    "s": "<p>\\(\\lg 250+\\lg 4=\\lg(250\\cdot4)=\\lg1000\\).</p><p>\\(1000=10^3\\), alltså är \\(\\lg1000=3\\).</p><p><strong>\\(3\\)</strong></p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30652,7 +31038,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Slå ihop till en enda logaritm först.</p>"
+    "ledtrad": "<p>Slå ihop till en enda logaritm först.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.547",
@@ -30665,7 +31054,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(2\\lg10+\\lg0,01\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> \\(2\\cdot1+(-2)=\\)<strong>0</strong>.</p>",
+    "s": "<p>\\(2\\cdot1+(-2)=\\)<strong>0</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30678,7 +31067,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.548",
@@ -30691,7 +31083,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv som en enda logaritm: \\(\\lg3+\\lg7\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Summalagen ger <strong>\\(\\lg21\\)</strong>.</p>",
+    "s": "<p>Summalagen ger <strong>\\(\\lg21\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30703,7 +31095,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.549",
@@ -30716,7 +31111,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv som en enda logaritm: \\(\\lg42-\\lg6\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Kvotlagen ger <strong>\\(\\lg7\\)</strong>.</p>",
+    "s": "<p>Kvotlagen ger <strong>\\(\\lg7\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30728,7 +31123,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.550",
@@ -30741,7 +31139,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv som en enda logaritm: \\(3\\lg x\\), där \\(x&gt;0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Potenslagen ger <strong>\\(\\lg(x^3)\\)</strong>.</p>",
+    "s": "<p>Potenslagen ger <strong>\\(\\lg(x^3)\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30753,7 +31151,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.551",
@@ -30766,7 +31167,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\lg(6x)-\\lg(2x)\\), där \\(x&gt;0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> \\(\\lg((6x)/(2x))=\\)<strong>\\(\\lg3\\)</strong>.</p>",
+    "s": "<p>\\(\\lg((6x)/(2x))=\\)<strong>\\(\\lg3\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30778,7 +31179,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.552",
@@ -30791,7 +31195,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\lg(5x)+\\lg(2/x)\\), där \\(x&gt;0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Produkten blir 10, så uttrycket är \\(\\lg10=\\)<strong>1</strong>.</p>",
+    "s": "<p>Produkten blir 10, så uttrycket är \\(\\lg10=\\)<strong>1</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30804,7 +31208,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.553",
@@ -30817,7 +31224,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(2\\lg5+\\lg4\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> \\(2\\lg5=\\lg25\\), så summan är \\(\\lg100=\\)<strong>2</strong>.</p>",
+    "s": "<p>\\(2\\lg5=\\lg25\\), så summan är \\(\\lg100=\\)<strong>2</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30830,7 +31237,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.554",
@@ -30843,7 +31253,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Förenkla \\(\\lg72-\\lg8\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Kvoten är 9. <strong>\\(\\lg9\\)</strong>.</p>",
+    "s": "<p>Kvoten är 9. <strong>\\(\\lg9\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30855,7 +31265,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.555",
@@ -30865,10 +31278,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Förenkla till en enda logaritm. Anta \\(x&gt;0\\).<br>\\(2\\lg(3x)-\\lg9\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> \\(2\\lg(3x)=\\lg(9x^2)\\). Efter subtraktionen fås <strong>\\(\\lg(x^2)\\)</strong>.</p>",
+    "s": "<p>\\(2\\lg(3x)=\\lg(9x^2)\\). Efter subtraktionen fås <strong>\\(\\lg(x^2)\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30881,7 +31294,10 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.556",
@@ -30891,10 +31307,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Förenkla till en enda logaritm. Anta \\(a&gt;0,b&gt;0\\).<br>\\(2\\lg a+\\lg b-\\lg5\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p><p><strong>Steg 1:</strong> Uttrycket blir <strong>\\(\\lg(a^2b/5)\\)</strong>.</p>",
+    "s": "<p>Uttrycket blir <strong>\\(\\lg(a^2b/5)\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30907,7 +31323,10 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>"
+    "ledtrad": "<p>Använd logaritmlagarna stegvis. Kontrollera om en produkt ska bli en summa, en kvot en differens eller en exponent en faktor framför logaritmen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.557",
@@ -30917,10 +31336,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(\\lg x+\\lg4=2\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> \\(\\lg(4x)=2\\Rightarrow4x=100\\). <strong>\\(x=25\\)</strong>.</p>",
+    "s": "<p>\\(\\lg(4x)=2\\Rightarrow4x=100\\). <strong>\\(x=25\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30934,7 +31353,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.558",
@@ -30944,10 +31366,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(\\lg(2x)-\\lg5=1\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> \\(\\lg(2x/5)=1\\Rightarrow2x/5=10\\). <strong>\\(x=25\\)</strong>.</p>",
+    "s": "<p>\\(\\lg(2x/5)=1\\Rightarrow2x/5=10\\). <strong>\\(x=25\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30961,7 +31383,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.559",
@@ -30971,10 +31396,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(2\\lg x=4\\), där \\(x&gt;0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> \\(\\lg(x^2)=4\\Rightarrow x^2=10000\\). Positivt \\(x\\) ger <strong>100</strong>.</p>",
+    "s": "<p>\\(\\lg(x^2)=4\\Rightarrow x^2=10000\\). Positivt \\(x\\) ger <strong>100</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -30988,7 +31413,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.560",
@@ -31001,7 +31429,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(\\lg x-\\lg(x-9)=1\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> Definitionsvillkor: \\(x&gt;9\\). Då \\(x/(x-9)=10\\), vilket ger <strong>\\(x=10\\)</strong>.</p>",
+    "s": "<p>Definitionsvillkor: \\(x&gt;9\\). Då \\(x/(x-9)=10\\), vilket ger <strong>\\(x=10\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -31016,7 +31444,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.561",
@@ -31029,7 +31460,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(\\lg x+\\lg(x-9)=1\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> \\(x(x-9)=10\\Rightarrow x^2-9x-10=0\\). Rötterna är 10 och -1, men definitionsvillkoret ger <strong>\\(x=10\\)</strong>.</p>",
+    "s": "<p>\\(x(x-9)=10\\Rightarrow x^2-9x-10=0\\). Rötterna är 10 och -1, men definitionsvillkoret ger <strong>\\(x=10\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -31044,7 +31475,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.562",
@@ -31054,10 +31488,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(\\lg(x+3)=2\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> \\(x+3=100\\). <strong>\\(x=97\\)</strong>.</p>",
+    "s": "<p>\\(x+3=100\\). <strong>\\(x=97\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -31071,7 +31505,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.563",
@@ -31081,10 +31518,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(\\lg(5x)+\\lg2=3\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> \\(\\lg(10x)=3\\Rightarrow10x=1000\\). <strong>\\(x=100\\)</strong>.</p>",
+    "s": "<p>\\(\\lg(10x)=3\\Rightarrow10x=1000\\). <strong>\\(x=100\\)</strong>.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -31098,7 +31535,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.564",
@@ -31108,10 +31548,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(\\lg(x-2)+\\lg(x+2)=\\lg21\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p><p><strong>Steg 1:</strong> Definitionsvillkoret är \\(x&gt;2\\). Då \\(x^2-4=21\\), alltså \\(x^2=25\\). Endast <strong>\\(x=5\\)</strong> är tillåtet.</p>",
+    "s": "<p>Definitionsvillkoret är \\(x&gt;2\\). Då \\(x^2-4=21\\), alltså \\(x^2=25\\). Endast <strong>\\(x=5\\)</strong> är tillåtet.</p>",
     "familj": "Logaritmlagar",
     "geogebra": false,
     "miniräknare": false,
@@ -31126,7 +31566,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda logaritmlagar",
-    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>"
+    "ledtrad": "<p>Samla först logaritmuttrycket så långt det går. Översätt sedan till exponentialform och kontrollera att lösningen ligger i logaritmernas definitionsmängd.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.565",
@@ -31139,7 +31582,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En bakteriekultur beskrivs av \\(N(t)=500\\cdot1,20^t\\). Efter hur många timmar är antalet 1000? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(500\\cdot1,20^t=1000\\Rightarrow t=\\lg2/\\lg1,20\\approx3,8\\).</p><p><strong>Svar:</strong> 3,8 (avrundat).</p>",
+    "s": "<p>\\(500\\cdot1,20^t=1000\\Rightarrow t=\\lg2/\\lg1,20\\approx3,8\\).</p><p><strong>Svar:</strong> 3,8 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31153,7 +31596,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.566",
@@ -31166,7 +31612,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Värdet på en maskin beskrivs av \\(V(t)=240000\\cdot0,85^t\\). Efter hur många år är värdet 120000 kr? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(0,85^t=0,5\\Rightarrow t=\\lg0,5/\\lg0,85\\approx4,3\\).</p><p><strong>Svar:</strong> 4,3 (avrundat).</p>",
+    "s": "<p>\\(0,85^t=0,5\\Rightarrow t=\\lg0,5/\\lg0,85\\approx4,3\\).</p><p><strong>Svar:</strong> 4,3 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31180,7 +31626,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.567",
@@ -31193,7 +31642,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett sparkapital beskrivs av \\(K(t)=20000\\cdot1,04^t\\). När når kapitalet 30000 kr? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(1,04^t=1,5\\Rightarrow t=\\lg1,5/\\lg1,04\\approx10,3\\).</p><p><strong>Svar:</strong> 10,3 (avrundat).</p>",
+    "s": "<p>\\(1,04^t=1,5\\Rightarrow t=\\lg1,5/\\lg1,04\\approx10,3\\).</p><p><strong>Svar:</strong> 10,3 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31207,7 +31656,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.568",
@@ -31217,24 +31669,27 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En mängd minskar enligt \\(M(t)=80\\cdot0,90^t\\). När är mängden 40? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(0,90^t=0,5\\Rightarrow t=\\lg0,5/\\lg0,90\\approx6,6\\).</p><p><strong>Svar:</strong> 6,6 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Efter 8 timmar återstår 35 % av ett läkemedel. Anta att mängden minskar exponentiellt.</p><p>Bestäm läkemedlets halveringstid. Svara med en decimal timme.</p>",
+    "s": "<p>Låt (T) vara halveringstiden. Då kan andelen som återstår efter (t) timmar skrivas (0{,}5^{t/T}).</p><p>Efter 8 timmar återstår 35 %:</p><p>[0{,}5^{8/T}=0{,}35.]</p><p>Logaritmering ger</p><p>[\frac{8}{T}=\frac{lg0{,}35}{lg0{,}5}Rightarrow T=8\frac{lg0{,}5}{lg0{,}35}approx5{,}3.]</p><p><strong>Halveringstiden är cirka 5,3 timmar.</strong></p>",
+    "familj": "Bestämma halveringstid",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 6.6,
+    "rättSvar": 5.3,
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
+      "modellering",
       "procedur",
-      "problemlösning",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Skriv den återstående andelen som (0{,}5^{t/T}), där (T) är halveringstiden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.569",
@@ -31244,24 +31699,28 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En population ökar enligt \\(P(t)=1200\\cdot1,06^t\\). När passerar modellen 2000? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(1,06^t=2000/1200\\Rightarrow t\\approx8,8\\).</p><p><strong>Svar:</strong> 8,8 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Kol-14 har halveringstiden 5 730 år. I ett arkeologiskt prov återstår 32 % av den ursprungliga mängden kol-14.</p><p>Hur gammalt är provet enligt modellen? Svara i hela hundratal år.</p>",
+    "s": "<p>Den återstående andelen efter (t) år är</p><p>[0{,}5^{t/5730}.]</p><p>Sätt den lika med 0,32:</p><p>[0{,}5^{t/5730}=0{,}32.]</p><p>Därför</p><p>[t=5730\frac{lg0{,}32}{lg0{,}5}approx9419.]</p><p><strong>Provet är ungefär 9 400 år gammalt.</strong></p>",
+    "familj": "Datering med halveringstid",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 8.8,
-    "tolerans": 0.1,
+    "rättSvar": 9400,
+    "tolerans": 50,
     "självrättning": true,
     "formaga": [
+      "modellering",
       "procedur",
-      "problemlösning",
-      "modellering"
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Modellera andelen som återstår med (0{,}5^{t/5730}).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "år"
   },
   {
     "id": "2.570",
@@ -31274,7 +31733,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Ett läkemedel minskar enligt \\(M(t)=75\\cdot0,82^t\\), där \\(t\\) är timmar. Efter hur lång tid är mängden mindre än 20 mg? Ange den första hela timmen.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Gränsen fås ur \\(75\\cdot0,82^t=20\\), vilket ger \\(t\\approx6,66\\). Första hela timmen därefter är 7.</p><p><strong>Svar:</strong> 7.</p>",
+    "s": "<p>Gränsen fås ur \\(75\\cdot0,82^t=20\\), vilket ger \\(t\\approx6,66\\). Första hela timmen därefter är 7.</p><p><strong>Svar:</strong> 7.</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31289,7 +31748,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.571",
@@ -31302,7 +31764,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En mobiltelefon kostar 9000 kr och värdet minskar med 18 % per år. Efter hur många hela år är värdet första gången under 4000 kr?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Modellen är \\(9000\\cdot0,82^t\\). Gränsen nås vid \\(t\\approx4,09\\), så första hela året är 5.</p><p><strong>Svar:</strong> 5.</p>",
+    "s": "<p>Modellen är \\(9000\\cdot0,82^t\\). Gränsen nås vid \\(t\\approx4,09\\), så första hela året är 5.</p><p><strong>Svar:</strong> 5.</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31316,7 +31778,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.572",
@@ -31329,7 +31794,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En bakteriekultur växer med 14 % per timme. Den börjar med 350 bakterier. Efter hur många hela timmar finns det första gången minst 1000 bakterier?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(350\\cdot1,14^t=1000\\) ger \\(t\\approx8,01\\).</p><p>Eftersom gränsen passeras strax efter 8 timmar är den första hela timmen då antalet är minst 1000 <strong>9 timmar</strong>.</p><p><strong>Svar: 9.</strong></p>",
+    "s": "<p>\\(350\\cdot1,14^t=1000\\) ger \\(t\\approx8,01\\).</p><p>Eftersom gränsen passeras strax efter 8 timmar är den första hela timmen då antalet är minst 1000 <strong>9 timmar</strong>.</p><p><strong>Svar: 9.</strong></p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31343,7 +31808,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.573",
@@ -31354,23 +31822,40 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Ett kapital på 15000 kr växer med 3,5 % per år. Efter hur många år har det ökat med 50 %? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(1,035^t=1,5\\Rightarrow t\\approx11,8\\).</p><p><strong>Svar:</strong> 11,8 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "poang": "0/3/0",
+    "t": "<p>Ett radioaktivt ämne minskar exponentiellt. Efter 2 timmar finns 120 mg kvar och efter 8 timmar finns 60 mg kvar.</p><p>a) Bestäm halveringstiden.<br>b) Bestäm hur stor mängden var vid (t=0). Svara i hela mg.</p>",
+    "s": "<p>Mängden halveras från 120 mg till 60 mg mellan (t=2) och (t=8). Det tar 6 timmar, så <strong>halveringstiden är 6 timmar</strong>.</p><p>Med modellen (M(t)=Ccdot0{,}5^{t/6}) och mätningen vid (t=2):</p><p>[120=Ccdot0{,}5^{2/6}.]</p><p>Alltså</p><p>[C=\frac{120}{0{,}5^{1/3}}approx151{,}2.]</p><p><strong>Startmängden var cirka 151 mg.</strong></p>",
+    "familj": "Bestämma halveringstid och startvärde",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 11.8,
-    "tolerans": 0.1,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      151
+    ],
+    "tolerans": [
+      0,
+      1
+    ],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning",
-      "modellering"
+      "modellering",
+      "begrepp",
+      "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Jämför först de två mätningarna: hur lång tid tar det för mängden att bli hälften?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "halveringstid (h)",
+      "startmängd (mg)"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.574",
@@ -31380,24 +31865,27 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Temperaturskillnaden mot omgivningen beskrivs av \\(D(t)=60\\cdot0,75^t\\), där \\(t\\) är timmar. När är temperaturskillnaden 10 grader? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(0,75^t=1/6\\Rightarrow t\\approx6,2\\).</p><p><strong>Svar:</strong> 6,2 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>En avtagande exponentialfunktion skrivs (M(t)=Ccdot a^t), där (C&gt;0) och (0&lt;a&lt;1).</p><p>Visa att halveringstiden inte beror på startvärdet (C), och härled en formel för halveringstiden (T) uttryckt med (a).</p>",
+    "s": "<p>Efter en halveringstid ska mängden vara hälften av startvärdet:</p><p>[Ccdot a^T=\frac C2.]</p><p>Eftersom (C&gt;0) kan båda leden divideras med (C):</p><p>[a^T=\frac12.]</p><p>Startvärdet har alltså försvunnit ur ekvationen. Logaritmera:</p><p>[Tlg a=lg(1/2)Rightarrow \boxed{T=\frac{lg(1/2)}{lg a}}.]</p><p>Både täljare och nämnare är negativa när (0&lt;a&lt;1), så (T&gt;0), som en halveringstid måste vara.</p>",
+    "familj": "Generalisera halveringstid",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6.2,
-    "tolerans": 0.1,
-    "självrättning": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
     "formaga": [
-      "procedur",
-      "problemlösning",
-      "modellering"
+      "resonemang",
+      "begrepp",
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Sätt (M(T)=C/2). Vad händer med (C) när du dividerar båda leden med startvärdet?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "2.575",
@@ -31410,7 +31898,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två abonnemang får antal användare enligt \\(A(t)=800\\cdot1,05^t\\) och \\(B(t)=500\\cdot1,10^t\\). När är modellerna lika stora? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Sätt modellerna lika: \\((1,10/1,05)^t=800/500\\). Då \\(t\\approx10,1\\).</p><p><strong>Svar:</strong> 10,1 (avrundat).</p>",
+    "s": "<p>Sätt modellerna lika: \\((1,10/1,05)^t=800/500\\). Då \\(t\\approx10,1\\).</p><p><strong>Svar:</strong> 10,1 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31425,7 +31913,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.576",
@@ -31436,23 +31927,27 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En population är 2400 år 0 och 3600 år 5. Anta exponentiell tillväxt. Bestäm den årliga förändringsfaktorn. Svara med tre decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(2400a^5=3600\\Rightarrow a=(1,5)^{1/5}\\approx1,084\\).</p><p><strong>Svar:</strong> 1,084 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "poang": "0/3/0",
+    "t": "<p>En patient får 200 mg av ett läkemedel vid (t=0). Läkemedlets halveringstid är 5 timmar. Efter 4 timmar ges ytterligare 120 mg av samma läkemedel.</p><p>Hur mycket av läkemedlet finns totalt i kroppen vid (t=10) timmar enligt modellen? Svara med en decimal mg.</p>",
+    "s": "<p>Den första dosen har verkat i 10 timmar:</p><p>[200cdot0{,}5^{10/5}=50\text{ mg}.]</p><p>Den andra dosen gavs vid (t=4), så den har verkat i 6 timmar:</p><p>[120cdot0{,}5^{6/5}approx52{,}2\text{ mg}.]</p><p>Totalt finns</p><p>[50+52{,}2approx102{,}2\text{ mg}.]</p><p><strong>Cirka 102,2 mg.</strong></p>",
+    "familj": "Sammansatta halveringstidsmodeller",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 1.084,
-    "tolerans": 0.001,
+    "rättSvar": 102.2,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "procedur",
+      "modellering",
       "problemlösning",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>De två doserna har inte brutits ned lika länge. Beräkna vad som återstår av varje dos för sig vid (t=10) och addera.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarEnhet": "mg"
   },
   {
     "id": "2.577",
@@ -31462,24 +31957,29 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En population är 2400 år 0 och 3600 år 5. Anta exponentiell tillväxt. Efter hur många år från start når modellen 5000? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Först \\(a=(1,5)^{1/5}\\). Lös sedan \\(2400a^t=5000\\), vilket ger \\(t\\approx9,1\\).</p><p><strong>Svar:</strong> 9,1 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "niva": "A",
+    "poang": "0/0/3",
+    "t": "<p>Fortsätt med samma situation: 200 mg ges vid (t=0), halveringstiden är 5 timmar och ytterligare 120 mg ges vid (t=4).</p><p>För (tge4), bestäm när den sammanlagda mängden första gången blir mindre än 60 mg. Svara med en decimal timme räknat från den första dosen.</p>",
+    "s": "<p>För (tge4) finns bidrag från båda doserna:</p><p>[M(t)=200cdot0{,}5^{t/5}+120cdot0{,}5^{(t-4)/5}.]</p><p>Faktorisera (0{,}5^{t/5}):</p><p>[M(t)=left(200+120cdot0{,}5^{-4/5}\right)0{,}5^{t/5}approx408{,}93cdot0{,}5^{t/5}.]</p><p>Gränsen 60 mg fås ur</p><p>[408{,}93cdot0{,}5^{t/5}=60,]</p><p>vilket ger (tapprox13{,}84).</p><p><strong>Mängden går under 60 mg strax efter 13,8 timmar.</strong></p>",
+    "familj": "Sammansatta halveringstidsmodeller",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 9.1,
+    "rättSvar": 13.8,
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "procedur",
+      "modellering",
       "problemlösning",
-      "modellering"
+      "resonemang",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>För (tge4) kan båda dosernas uttryck skrivas med samma faktor (0{,}5^{t/5}). Försök faktorisera den.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarEnhet": "h"
   },
   {
     "id": "2.578",
@@ -31492,7 +31992,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En vara sjunker från 18000 kr till 12000 kr på 3 år. Anta samma procentuella minskning varje år. Bestäm den årliga förändringsfaktorn. Svara med tre decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(18000a^3=12000\\Rightarrow a=(2/3)^{1/3}\\approx0,874\\).</p><p><strong>Svar:</strong> 0,874 (avrundat).</p>",
+    "s": "<p>\\(18000a^3=12000\\Rightarrow a=(2/3)^{1/3}\\approx0,874\\).</p><p><strong>Svar:</strong> 0,874 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31506,7 +32006,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.579",
@@ -31517,24 +32020,27 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En vara sjunker från 18000 kr till 12000 kr på 3 år och fortsätter med samma procentuella minskning. När går värdet under 7000 kr? Ange första hela året från start.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Med \\(a=(2/3)^{1/3}\\) fås gränstiden \\(t\\approx6,98\\). Första hela året är 7.</p><p><strong>Svar:</strong> 7.</p>",
-    "familj": "Problemlösning med logaritmer",
+    "poang": "0/3/0",
+    "t": "<p>Två radioaktiva ämnen finns i samma prov. Vid (t=0) finns 200 mg av ämne A med halveringstiden 4 dygn och 80 mg av ämne B med halveringstiden 10 dygn.</p><p>Efter hur många dygn finns lika mycket kvar av de två ämnena? Svara med en decimal.</p>",
+    "s": "<p>Modellerna är</p><p>[A(t)=200cdot0{,}5^{t/4},qquad B(t)=80cdot0{,}5^{t/10}.]</p><p>Sätt dem lika och dividera med (80cdot0{,}5^{t/4}):</p><p>[2{,}5=0{,}5^{t(1/10-1/4)}=0{,}5^{-0{,}15t}.]</p><p>Logaritmering ger (tapprox8{,}8).</p><p><strong>Efter cirka 8,8 dygn finns lika mycket av ämnena.</strong></p>",
+    "familj": "Jämföra halveringstidsmodeller",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": 0,
+    "rättSvar": 8.8,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning",
       "modellering",
-      "resonemang"
+      "problemlösning",
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Skriv en halveringstidsmodell för varje ämne och sätt modellerna lika.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarEnhet": "dygn"
   },
   {
     "id": "2.580",
@@ -31547,7 +32053,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En sjö har 9000 fiskar. Efter 4 år är antalet 10800. Anta exponentiell tillväxt. Hur stor är den årliga procentuella ökningen? Svara med en decimal procent.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(a^4=1,2\\Rightarrow a\\approx1,0466\\), alltså cirka 4,7 % per år.</p><p><strong>Svar:</strong> 4,7 (avrundat).</p>",
+    "s": "<p>\\(a^4=1,2\\Rightarrow a\\approx1,0466\\), alltså cirka 4,7 % per år.</p><p><strong>Svar:</strong> 4,7 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31561,7 +32067,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.581",
@@ -31572,23 +32081,27 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En sjö har 9000 fiskar och ökar exponentiellt. Efter 4 år är antalet 10800. När når modellen 15000 fiskar? Svara med en decimal år.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Med \\(a=1,2^{1/4}\\) löses \\(9000a^t=15000\\), vilket ger \\(t\\approx11,2\\).</p><p><strong>Svar:</strong> 11,2 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "poang": "0/3/0",
+    "t": "<p>Koncentrationen av ett ämne i en sjö var 500 µg/L vid (t=0). Efter 12 dygn var den 320 µg/L. Anta exponentiell minskning.</p><p>Vilket är det första hela dygnet då modellen ger en koncentration under 100 µg/L?</p>",
+    "s": "<p>På 12 dygn multipliceras koncentrationen med (320/500=0{,}64). En modell kan därför skrivas</p><p>[C(t)=500cdot0{,}64^{t/12}.]</p><p>Gränstiden fås ur</p><p>[500cdot0{,}64^{t/12}=100.]</p><p>Det ger</p><p>[t=12\frac{lg0{,}2}{lg0{,}64}approx43{,}3.]</p><p>Koncentrationen går alltså under gränsen efter 43,3 dygn. <strong>Det första hela dygnet är dygn 44.</strong></p>",
+    "familj": "Bestämma gränstid från mätdata",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 11.2,
-    "tolerans": 0.1,
+    "rättSvar": 44,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
+      "modellering",
       "problemlösning",
-      "modellering"
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Du behöver inte först räkna ut en dygnsfaktor. Skriv faktorn 0,64 med exponenten (t/12).</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": true,
+    "svarEnhet": "dygn"
   },
   {
     "id": "2.582",
@@ -31601,7 +32114,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En medicinsk markör halveras på 6 timmar. Startvärdet är 160. Efter hur många timmar är värdet 20? </p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Tre halveringar krävs: 160→80→40→20. Med logaritmer: \\(160\\cdot0,5^{t/6}=20\\Rightarrow t=18\\).</p><p><strong>Svar:</strong> 18.</p>",
+    "s": "<p>Tre halveringar krävs: 160→80→40→20. Med logaritmer: \\(160\\cdot0,5^{t/6}=20\\Rightarrow t=18\\).</p><p><strong>Svar:</strong> 18.</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31615,7 +32128,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.583",
@@ -31628,7 +32144,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En medicinsk markör halveras på 6 timmar. Startvärdet är 160. När går värdet under 30? Svara med en decimal timme.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(160\\cdot0,5^{t/6}=30\\Rightarrow t=6\\lg(30/160)/\\lg0,5\\approx14,5\\).</p><p><strong>Svar:</strong> 14,5 (avrundat).</p>",
+    "s": "<p>\\(160\\cdot0,5^{t/6}=30\\Rightarrow t=6\\lg(30/160)/\\lg0,5\\approx14,5\\).</p><p><strong>Svar:</strong> 14,5 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31642,7 +32158,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.584",
@@ -31655,7 +32174,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En investering växer från 50000 kr till 62000 kr på 4 år. Anta exponentiell tillväxt. Vilken årlig procentuell ökning motsvarar det? Svara med en decimal procent.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(a^4=62000/50000=1,24\\Rightarrow a\\approx1,0552\\), alltså 5,5 %.</p><p><strong>Svar:</strong> 5,5 (avrundat).</p>",
+    "s": "<p>\\(a^4=62000/50000=1,24\\Rightarrow a\\approx1,0552\\), alltså 5,5 %.</p><p><strong>Svar:</strong> 5,5 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31669,7 +32188,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.585",
@@ -31682,7 +32204,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En investering växer från 50000 kr till 62000 kr på 4 år med samma årliga procentuella ökning. När når den 80000 kr? Svara med en decimal år från start.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Med \\(a=(1,24)^{1/4}\\) löses \\(50000a^t=80000\\), vilket ger \\(t\\approx8,7\\).</p><p><strong>Svar:</strong> 8,7 (avrundat).</p>",
+    "s": "<p>Med \\(a=(1,24)^{1/4}\\) löses \\(50000a^t=80000\\), vilket ger \\(t\\approx8,7\\).</p><p><strong>Svar:</strong> 8,7 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31696,7 +32218,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.586",
@@ -31709,7 +32234,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Modellen \\(H(t)=25+70\\cdot0,80^t\\) beskriver en temperatur. Efter hur många timmar är temperaturen 35 grader? Svara med en decimal.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(25+70\\cdot0,80^t=35\\Rightarrow0,80^t=1/7\\Rightarrow t\\approx8,7\\).</p><p><strong>Svar:</strong> 8,7 (avrundat).</p>",
+    "s": "<p>\\(25+70\\cdot0,80^t=35\\Rightarrow0,80^t=1/7\\Rightarrow t\\approx8,7\\).</p><p><strong>Svar:</strong> 8,7 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31723,7 +32248,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.587",
@@ -31736,7 +32264,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En tjänst har 400 användare och växer med 9 % per månad. En annan har 650 användare och växer med 4 % per månad. När är modellerna lika stora? Svara med en decimal månad.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(400\\cdot1,09^t=650\\cdot1,04^t\\Rightarrow(1,09/1,04)^t=650/400\\), vilket ger \\(t\\approx10,3\\).</p><p><strong>Svar:</strong> 10,3 (avrundat).</p>",
+    "s": "<p>\\(400\\cdot1,09^t=650\\cdot1,04^t\\Rightarrow(1,09/1,04)^t=650/400\\), vilket ger \\(t\\approx10,3\\).</p><p><strong>Svar:</strong> 10,3 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31751,7 +32279,10 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.588",
@@ -31764,7 +32295,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En mängd minskar exponentiellt. Den är 120 vid start och 75 efter 5 timmar. När är den 30? Svara med en decimal timme.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> Först \\(a^5=75/120\\Rightarrow a\\approx0,9103\\). Sedan \\(120a^t=30\\), vilket ger \\(t\\approx14,8\\).</p><p><strong>Svar:</strong> 14,8 (avrundat).</p>",
+    "s": "<p>Först \\(a^5=75/120\\Rightarrow a\\approx0,9103\\). Sedan \\(120a^t=30\\), vilket ger \\(t\\approx14,8\\).</p><p><strong>Svar:</strong> 14,8 (avrundat).</p>",
     "familj": "Problemlösning med logaritmer",
     "geogebra": false,
     "miniräknare": true,
@@ -31778,7 +32309,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.589",
@@ -31790,22 +32324,25 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett företag har 2000 kunder. Efter 3 år har det 2700 kunder. Anta exponentiell tillväxt. När når modellen 5000 kunder? Svara med en decimal år.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p><p><strong>Steg 1:</strong> \\(a^3=2700/2000\\). Med denna faktor ger \\(2000a^t=5000\\) att \\(t\\approx9,2\\).</p><p><strong>Svar:</strong> 9,2 (avrundat).</p>",
-    "familj": "Problemlösning med logaritmer",
+    "t": "<p>En elev säger: ”Om en mängd minskar med 20 % per tidsenhet är halveringstiden (5) tidsenheter, eftersom (5cdot20%=100%).”</p><p>Förklara vad som är fel i resonemanget och bestäm den verkliga halveringstiden. Svara med två decimaler.</p>",
+    "s": "<p>Vid procentuell minskning räknas varje ny minskning på det <em>nya</em> värdet. Efter fem steg återstår därför inte 0 %, utan</p><p>[0{,}8^5approx0{,}328=32{,}8%.]</p><p>Halveringstiden (T) bestäms i stället av</p><p>[0{,}8^T=0{,}5.]</p><p>Alltså</p><p>[T=\frac{lg0{,}5}{lg0{,}8}approx3{,}11.]</p><p><strong>Halveringstiden är cirka 3,11 tidsenheter.</strong></p>",
+    "familj": "Felanalys om exponentiell minskning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9.2,
-    "tolerans": 0.1,
-    "självrättning": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
     "formaga": [
-      "procedur",
-      "problemlösning",
-      "modellering"
+      "begrepp",
+      "resonemang",
+      "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den okända storheten ligger i exponenten. Sätt först exponentialmodellen lika med det aktuella mål- eller gränsvärdet. Isolera sedan potensuttrycket och använd logaritmer för att få ner exponenten.</p>"
+    "ledtrad": "<p>Beräkna hur stor andel som faktiskt återstår efter fem minskningar med faktorn 0,8.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.590",
@@ -33397,7 +33934,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Grafen till \\(f(x)=3\\cdot 1,2^x\\) studeras. Är grafen växande eller avtagande?</p><p>A) växande &nbsp;&nbsp; B) avtagande</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p><p>Här är förändringsfaktorn 1,2, alltså är grafen <strong>växande</strong>.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p><p>Här är förändringsfaktorn 1,2, alltså är grafen <strong>växande</strong>.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -33410,7 +33947,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "kort_text",
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.633",
@@ -33424,7 +33964,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Grafen till \\(f(x)=5\\cdot 0,8^x\\) studeras. Är grafen växande eller avtagande?</p><p>A) växande &nbsp;&nbsp; B) avtagande</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p><p>Här är förändringsfaktorn 0,8, alltså är grafen <strong>avtagande</strong>.</p><p><strong>Svar:</strong> B.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p><p>Här är förändringsfaktorn 0,8, alltså är grafen <strong>avtagande</strong>.</p><p><strong>Svar:</strong> B.</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -33437,7 +33977,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "kort_text",
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.634",
@@ -33451,7 +33994,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Grafen till \\(f(x)=2\\cdot 1,5^x\\) studeras. Är grafen växande eller avtagande?</p><p>A) växande &nbsp;&nbsp; B) avtagande</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p><strong>Nyckelidé:</strong> För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p><p>Här är förändringsfaktorn 1,5, alltså är grafen <strong>växande</strong>.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p><strong>Nyckelidé:</strong> För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p><p>Här är förändringsfaktorn 1,5, alltså är grafen <strong>växande</strong>.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -33464,7 +34007,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "kort_text",
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>För \\(f(x)=C\\cdot a^x\\) är grafen växande när \\(a\\gt 1\\) och avtagande när \\(0&lt;a&lt;1\\).</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.635",
@@ -33478,7 +34024,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Funktionen \\(f(x)=8\\cdot0{,}5^x\\) studeras.</p><p>a)&nbsp;Bestäm \\(f(0)\\).<br>b)&nbsp;Är grafen växande eller avtagande? Motivera med hjälp av basen.<br>c)&nbsp;Bestäm \\(f(3)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> I \\(f(x)=C\\cdot a^x\\) är \\(C\\) startvärdet och \\(a\\) förändringsfaktorn per steg.</p><div class=\"facit-arbete\"><p>a) \\(f(0)=8\\cdot0{,}5^0=8\\cdot1=8\\).</p><p>b) Basen är \\(0{,}5&lt;1\\), så värdet halveras för varje steg. Grafen är avtagande.</p><p>c) \\(f(3)=8\\cdot0{,}5^3=8\\cdot0{,}125=1\\).</p><p><strong>a) \\(8\\) &nbsp; b) avtagande, eftersom \\(0&lt;0{,}5&lt;1\\) &nbsp; c) \\(1\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera c) genom att halvera tre gånger: 8 → 4 → 2 → 1.</p></div>",
+    "s": "<p>a) \\(f(0)=8\\cdot0{,}5^0=8\\cdot1=8\\).</p><p>b) Basen är \\(0{,}5&lt;1\\), så värdet halveras för varje steg. Grafen är avtagande.</p><p>c) \\(f(3)=8\\cdot0{,}5^3=8\\cdot0{,}125=1\\).</p><p><strong>a) \\(8\\) &nbsp; b) avtagande, eftersom \\(0&lt;0{,}5&lt;1\\) &nbsp; c) \\(1\\)</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -33501,7 +34047,7 @@ window.BANKMA2 = [
       "numeriskt"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Vad händer med värdet varje gång \\(x\\) ökar med 1?</p>",
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
     "svarEtiketter": [
       "a) f(0)",
       "b) växande/avtagande",
@@ -33513,7 +34059,10 @@ window.BANKMA2 = [
       "startvärde",
       "resonemang",
       "funktionsvärde"
-    ]
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.636",
@@ -33524,10 +34073,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Två funktioner är \\(f(x)=100\\cdot0{,}9^x\\) och \\(g(x)=100\\cdot1{,}1^x\\). Beskriv skillnaden mellan graferna och ange vad \\(0{,}9\\) respektive \\(1{,}1\\) betyder i procent per steg.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Förändringsfaktorn talar om både riktning och storlek på förändringen.</p><div class=\"facit-arbete\"><p>Båda graferna går genom \\((0,100)\\), eftersom startvärdet är detsamma.</p><p>\\(f\\) har basen \\(0{,}9&lt;1\\) och är avtagande: en minskning med 10 % per steg.</p><p>\\(g\\) har basen \\(1{,}1&gt;1\\) och är växande: en ökning med 10 % per steg.</p><p><strong>\\(f\\) minskar med 10 % per steg, \\(g\\) ökar med 10 % per steg; båda startar i 100.</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En minskning med 10 % och en ökning med 10 % tar inte ut varandra: \\(0{,}9\\cdot1{,}1=0{,}99\\).</p></div>",
+    "s": "<p>Båda graferna går genom \\((0,100)\\), eftersom startvärdet är detsamma.</p><p>\\(f\\) har basen \\(0{,}9&lt;1\\) och är avtagande: en minskning med 10 % per steg.</p><p>\\(g\\) har basen \\(1{,}1&gt;1\\) och är växande: en ökning med 10 % per steg.</p><p><strong>\\(f\\) minskar med 10 % per steg, \\(g\\) ökar med 10 % per steg; båda startar i 100.</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -33540,7 +34089,10 @@ window.BANKMA2 = [
       "kommunikation"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Förändringsfaktorn \\(1+p\\) svarar mot en procentuell förändring.</p>"
+    "ledtrad": "<p>Förändringsfaktorn \\(1+p\\) svarar mot en procentuell förändring.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false
   },
   {
     "id": "2.637",
@@ -33551,10 +34103,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Grafen till \\(f(x)=C\\cdot a^x\\) går genom \\((0,5)\\) och \\((2,45)\\).</p><p>a)&nbsp;Bestäm \\(C\\).<br>b)&nbsp;Bestäm \\(a\\).<br>c)&nbsp;Beräkna \\(f(4)\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Punkten med \\(x=0\\) ger startvärdet direkt. Sedan ger den andra punkten förändringsfaktorn.</p><div class=\"facit-arbete\"><p>a) \\(f(0)=C\\cdot a^0=C\\), alltså \\(C=5\\).</p><p>b) \\(5a^2=45\\) ger \\(a^2=9\\) och \\(a=3\\) (basen måste vara positiv).</p><p>c) \\(f(4)=5\\cdot3^4=5\\cdot81=405\\).</p><p><strong>a) \\(C=5\\) &nbsp; b) \\(a=3\\) &nbsp; c) \\(405\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontroll: \\(f(2)=5\\cdot9=45\\). Det stämmer med den givna punkten.</p></div>",
+    "s": "<p>a) \\(f(0)=C\\cdot a^0=C\\), alltså \\(C=5\\).</p><p>b) \\(5a^2=45\\) ger \\(a^2=9\\) och \\(a=3\\) (basen måste vara positiv).</p><p>c) \\(f(4)=5\\cdot3^4=5\\cdot81=405\\).</p><p><strong>a) \\(C=5\\) &nbsp; b) \\(a=3\\) &nbsp; c) \\(405\\)</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -33587,39 +34139,60 @@ window.BANKMA2 = [
       "startvärde",
       "bestämma bas",
       "funktionsvärde"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.638",
     "kap": 2,
-    "omr": "exponentialgraf",
+    "omr": "exponentialfunktioner",
     "kurs": [
       "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Grafen till \\(f(x)=3\\cdot 1,2^x\\) innehåller en punkt med \\(x=2\\). Bestäm punktens y-värde. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Sätt in \\(x=2\\): \\(f(2)=3\\cdot 1,2^2\\).</p><p><strong>Steg 2:</strong> \\(f(2)=4,32\\).</p><p><strong>Svar:</strong> y-värdet är 4,32.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
-    "familj": "Tolka exponentialfunktion från graf",
+    "poang": "2/0/0",
+    "t": "<p>Ett ämne beskrivs av (M(t)=160cdot0{,}5^{t/4}), där (t) mäts i timmar.</p><p>a) Vad betyder talet 4 i modellen?<br>b) Hur mycket återstår efter 10 timmar? Svara med en decimal.</p>",
+    "s": "<p>Exponentens nämnare 4 betyder att exponenten ökar med 1 på fyra timmar. Då multipliceras mängden med 0,5. <strong>Halveringstiden är alltså 4 timmar.</strong></p><p>Efter 10 timmar:</p><p>[M(10)=160cdot0{,}5^{10/4}approx28{,}3.]</p><p><strong>a) 4 timmar &nbsp; b) cirka 28,3.</strong></p>",
+    "familj": "Halveringstid i exponentialmodell",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4.32,
-    "tolerans": 0.011,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      28.3
+    ],
+    "tolerans": [
+      0,
+      0.1
+    ],
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Vad händer med exponenten när tiden ökar med 4 timmar?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "halveringstid (h)",
+      "mängd"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.639",
     "kap": 2,
-    "omr": "exponentialgraf",
+    "omr": "exponentialfunktioner",
     "kurs": [
       "2a",
       "2b",
@@ -33627,48 +34200,57 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Grafen till \\(f(x)=5\\cdot 0,8^x\\) innehåller en punkt med \\(x=3\\). Bestäm punktens y-värde. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Sätt in \\(x=3\\): \\(f(3)=5\\cdot 0,8^3\\).</p><p><strong>Steg 2:</strong> \\(f(3)=2,56\\).</p><p><strong>Svar:</strong> y-värdet är 2,56.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
-    "familj": "Tolka exponentialfunktion från graf",
+    "t": "<p>Ett prov innehåller från början 90 mg av ett ämne med halveringstiden 6 timmar.</p><p>Efter hur lång tid återstår 25 % av startmängden?</p>",
+    "s": "<p>Efter en halvering återstår 50 %. Efter två halveringar återstår (25%).</p><p>Två halveringstider är (2cdot6=12) timmar.</p><p><strong>12 timmar.</strong></p>",
+    "familj": "Halveringstid och andel",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 2.56,
-    "tolerans": 0.011,
+    "rättSvar": 12,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Hur stor andel återstår efter en halvering? Och efter två?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.640",
     "kap": 2,
-    "omr": "exponentialgraf",
+    "omr": "exponentialfunktioner",
     "kurs": [
       "2a",
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Grafen till \\(f(x)=2\\cdot 1,5^x\\) innehåller en punkt med \\(x=2\\). Bestäm punktens y-värde. Avrunda vid behov till två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Sätt in \\(x=2\\): \\(f(2)=2\\cdot 1,5^2\\).</p><p><strong>Steg 2:</strong> \\(f(2)=4,5\\).</p><p><strong>Svar:</strong> y-värdet är 4,5.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
-    "familj": "Tolka exponentialfunktion från graf",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Samma sönderfall kan skrivas på två sätt:</p><p>[M(t)=400cdot0{,}5^{t/3}=400cdot a^t.]</p><p>Bestäm förändringsfaktorn (a) per timme. Svara med tre decimaler och förklara varför (a) inte är 0,5.</p>",
+    "s": "<p>Modellen halveras på tre timmar. Därför måste tre timsteg tillsammans ge faktorn 0,5:</p><p>[a^3=0{,}5.]</p><p>Alltså</p><p>[a=0{,}5^{1/3}approx0{,}794.]</p><p>Faktorn 0,5 gäller <em>tre timmar</em>, inte en timme. Per timme är förändringsfaktorn därför cirka <strong>0,794</strong>.</p>",
+    "familj": "Översätta halveringstid till förändringsfaktor",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 4.5,
-    "tolerans": 0.011,
+    "rättSvar": 0.794,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "procedur",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Om den timvisa faktorn är (a), vilken faktor har verkat efter tre timmar?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.641",
@@ -33679,10 +34261,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>En bakteriekultur har 400 bakterier och antalet ökar med 25 % per timme.</p><p>a)&nbsp;Teckna en funktion \\(N(t)\\) för antalet bakterier efter \\(t\\) timmar.<br>b)&nbsp;Hur många bakterier finns efter 4 timmar? Avrunda till hela bakterier.<br>c)&nbsp;Beskriv vad basen i din funktion betyder.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> En procentuell ökning per tidsenhet ger en exponentialfunktion med förändringsfaktorn som bas.</p><div class=\"facit-arbete\"><p>a) \\(N(t)=400\\cdot1{,}25^t\\).</p><p>b) \\(N(4)=400\\cdot1{,}25^4=400\\cdot2{,}44140625\\approx977\\) bakterier.</p><p>c) Basen \\(1{,}25\\) är förändringsfaktorn: antalet blir 1,25 gånger så stort varje timme, alltså 25 % fler.</p><p><strong>a) \\(N(t)=400\\cdot1{,}25^t\\) &nbsp; b) ungefär 977 bakterier &nbsp; c) 25 % ökning per timme</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera med upprepad multiplikation: 400 → 500 → 625 → 781,25 → 976,5625.</p></div>",
+    "s": "<p>a) \\(N(t)=400\\cdot1{,}25^t\\).</p><p>b) \\(N(4)=400\\cdot1{,}25^4=400\\cdot2{,}44140625\\approx977\\) bakterier.</p><p>c) Basen \\(1{,}25\\) är förändringsfaktorn: antalet blir 1,25 gånger så stort varje timme, alltså 25 % fler.</p><p><strong>a) \\(N(t)=400\\cdot1{,}25^t\\) &nbsp; b) ungefär 977 bakterier &nbsp; c) 25 % ökning per timme</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": true,
@@ -33721,7 +34303,10 @@ window.BANKMA2 = [
       "modellering",
       "beräkning",
       "tolkning"
-    ]
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "2.642",
@@ -33732,10 +34317,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Grafen till en exponentialfunktion \\(f(x)=C\\cdot a^x\\) går genom punkterna \\((0,3)\\) och \\((1,6)\\). Bestäm \\(C\\) och \\(a\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p><strong>Steg 1:</strong> Vid \\(x=0\\) gäller \\(f(0)=C\\), alltså är \\(C=3\\).</p><p><strong>Steg 2:</strong> Vid \\(x=1\\) blir \\(6=3\\cdot a\\), så \\(a=2\\).</p><p><strong>Svar:</strong> \\(C=3\\) och \\(a=2\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<p>Vid \\(x=0\\) gäller \\(f(0)=C\\), alltså är \\(C=3\\).</p><p><strong>Steg 2:</strong> Vid \\(x=1\\) blir \\(6=3\\cdot a\\), så \\(a=2\\).</p><p><strong>Svar:</strong> \\(C=3\\) och \\(a=2\\).</p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": true,
@@ -33746,7 +34331,7 @@ window.BANKMA2 = [
     ],
     "tolerans": [
       0,
-      1e-9
+      1e-09
     ],
     "självrättning": true,
     "formaga": [
@@ -33764,7 +34349,10 @@ window.BANKMA2 = [
       "a"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>"
+    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.643",
@@ -33775,10 +34363,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Grafen till en exponentialfunktion \\(f(x)=C\\cdot a^x\\) går genom punkterna \\((0,8)\\) och \\((3,1)\\). Bestäm \\(a\\) och avgör om funktionen är växande eller avtagande.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Startvärdet ges av punkten med \\(x=0\\). Sedan löser du en potensekvation för basen.</p><div class=\"facit-arbete\"><p>\\(C=8\\).</p><p>\\(8a^3=1\\) ger \\(a^3=\\dfrac18\\), alltså \\(a=\\dfrac12\\).</p><p>Eftersom \\(0&lt;a&lt;1\\) är funktionen avtagande.</p><p><strong>\\(a=0{,}5\\), funktionen är avtagande</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontroll: \\(8\\cdot0{,}5^3=8\\cdot0{,}125=1\\).</p></div>",
+    "s": "<p>\\(C=8\\).</p><p>\\(8a^3=1\\) ger \\(a^3=\\dfrac18\\), alltså \\(a=\\dfrac12\\).</p><p>Eftersom \\(0&lt;a&lt;1\\) är funktionen avtagande.</p><p><strong>\\(a=0{,}5\\), funktionen är avtagande</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": true,
@@ -33803,7 +34391,10 @@ window.BANKMA2 = [
       "växande/avtagande"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Lös ekvationen \\(Ca^3=1\\) för basen.</p>"
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.644",
@@ -34161,7 +34752,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.705",
@@ -34173,7 +34767,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(1000\\cdot0{,}85^t=500\\). Svara med två decimaler.</p>",
-    "s": "<p><strong>Metodval:</strong> Isolera exponentialuttrycket. När båda led inte kan skrivas med samma bas används logaritm för att få ner exponenten.</p><p>\\[0{,}85^t=0{,}5\\Rightarrow t=\\frac{\\ln0{,}5}{\\ln0{,}85}\\approx4{,}27\\]</p>",
+    "s": "<p>\\[0{,}85^t=0{,}5\\Rightarrow t=\\frac{\\ln0{,}5}{\\ln0{,}85}\\approx4{,}27\\]</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -34185,7 +34779,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Isolera exponentialuttrycket. Om båda led inte kan skrivas med samma bas använder du logaritmer för att lösa ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.706",
@@ -34197,7 +34794,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(3^x=50\\). Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Metodval:</strong> Isolera exponentialuttrycket. När båda led inte kan skrivas med samma bas används logaritm för att få ner exponenten.</p><p>\\[x=\\frac{\\ln50}{\\ln3}\\approx3{,}56\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>\\[x=\\frac{\\ln50}{\\ln3}\\approx3{,}56\\]</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -34209,7 +34806,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>"
+    "ledtrad": "<p>Isolera exponentialuttrycket. Om båda led inte kan skrivas med samma bas använder du logaritmer för att lösa ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.707",
@@ -34246,10 +34846,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(3\\cdot1{,}25^x=7{,}5\\).</p><p>Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm först vilken position eller noggrannhet som styr svaret. Arbeta med det exakta talet och använd siffran direkt till höger när du avrundar.</p><div class=\"facit-arbete\"><p><strong>Metod:</strong> Isolera först exponentialuttrycket och använd sedan logaritmer.</p><p>\\[1{,}25^x=2{,}5\\]\\[x=\\frac{\\ln2{,}5}{\\ln1{,}25}\\approx4{,}11\\]</p><p><strong>Svar:</strong> \\(x\\approx4{,}11\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Jämför med ursprungstalet och kontrollera att avrundningen hamnade på rätt sida och i rätt storleksordning.</p></div>",
+    "s": "<p>Isolera först exponentialuttrycket och använd sedan logaritmer.</p><p>\\[1{,}25^x=2{,}5\\]\\[x=\\frac{\\ln2{,}5}{\\ln1{,}25}\\approx4{,}11\\]</p><p><strong>Svar:</strong> \\(x\\approx4{,}11\\).</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -34261,7 +34861,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Isolera först exponentialuttrycket och använd sedan logaritmer.</p>"
+    "ledtrad": "<p>Isolera exponentialuttrycket. Om båda led inte kan skrivas med samma bas använder du logaritmer för att lösa ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.709",
@@ -34272,10 +34875,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(500\\cdot0{,}84^t=200\\).</p><p>Svara med två decimaler.</p>",
-    "s": "<p><strong>Metodval:</strong> Isolera exponentialuttrycket. När båda led inte kan skrivas med samma bas används logaritm för att få ner exponenten.</p><p><strong>Metod:</strong> Dividera med 500 och ta logaritmen.</p><p>\\[0{,}84^t=0{,}4\\]\\[t=\\frac{\\ln0{,}4}{\\ln0{,}84}\\approx5{,}25\\]</p><p><strong>Svar:</strong> \\(t\\approx5{,}25\\).</p>",
+    "s": "<p>Dividera med 500 och ta logaritmen.</p><p>\\[0{,}84^t=0{,}4\\]\\[t=\\frac{\\ln0{,}4}{\\ln0{,}84}\\approx5{,}25\\]</p><p><strong>Svar:</strong> \\(t\\approx5{,}25\\).</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -34288,7 +34891,10 @@ window.BANKMA2 = [
       "modellering"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dividera med 500 och ta logaritmen. Försök först skriva båda leden med samma bas.</p>"
+    "ledtrad": "<p>Isolera exponentialuttrycket. Om båda led inte kan skrivas med samma bas använder du logaritmer för att lösa ut exponenten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.710",
@@ -34612,7 +35218,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(2^x=32\\).</p>",
-    "s": "<p><strong>Metodval:</strong> Isolera exponentialuttrycket. När båda led inte kan skrivas med samma bas används logaritm för att få ner exponenten.</p><p><strong>Metod:</strong> Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{2}32=5\\).</p>",
+    "s": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{2}32=5\\).</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -34624,7 +35230,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>"
+    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.723",
@@ -34636,7 +35245,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(3^x=81\\).</p>",
-    "s": "<p><strong>Metodval:</strong> Isolera exponentialuttrycket. När båda led inte kan skrivas med samma bas används logaritm för att få ner exponenten.</p><p><strong>Metod:</strong> Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{3}81=4\\).</p>",
+    "s": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{3}81=4\\).</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -34648,7 +35257,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>"
+    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.724",
@@ -34657,10 +35269,10 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(5^x=125\\).</p>",
-    "s": "<p><strong>Metodval:</strong> Isolera exponentialuttrycket. När båda led inte kan skrivas med samma bas används logaritm för att få ner exponenten.</p><p><strong>Metod:</strong> Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{5}125=3\\).</p>",
+    "s": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{5}125=3\\).</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -34672,7 +35284,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>"
+    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.725",
@@ -34681,10 +35296,10 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Lös ekvationen \\(4^x=8\\).</p>",
-    "s": "<p><strong>Metodval:</strong> Isolera exponentialuttrycket. När båda led inte kan skrivas med samma bas används logaritm för att få ner exponenten.</p><p><strong>Metod:</strong> Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{4}8=1.5\\).</p>",
+    "s": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p><p>\\(x=\\log_{4}8=1.5\\).</p>",
     "familj": "Lösa exponentialekvationer",
     "geogebra": true,
     "miniräknare": true,
@@ -34696,7 +35311,10 @@ window.BANKMA2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>"
+    "ledtrad": "<p>Skriv högerledet som en potens med samma bas om det går, annars använd logaritm.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "2.726",
@@ -50947,7 +51565,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -50972,7 +51590,7 @@ window.BANKMA2 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -56245,7 +56863,10 @@ window.BANKMA2 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>En exponentialfunktion har samma kvot mellan värden med lika långt mellanrum. Jämför \\(M(2)/M(0)\\) med \\(M(20)/M(18)\\).</p>"
+    "ledtrad": "<p>En exponentialfunktion har samma kvot mellan värden med lika långt mellanrum. Jämför \\(M(2)/M(0)\\) med \\(M(20)/M(18)\\).</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "3.296",
@@ -56477,7 +57098,10 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Skriv \\(f(x)=C\\cdot a^x\\) och sätt in i \\(f(x+2)=3f(x)\\). Vilken potens av \\(a\\) dyker upp?</p>"
+    "ledtrad": "<p>Skriv \\(f(x)=C\\cdot a^x\\) och sätt in i \\(f(x+2)=3f(x)\\). Vilken potens av \\(a\\) dyker upp?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   },
   {
     "id": "3.298",
@@ -56739,8 +57363,8 @@ window.BANKMA2 = [
     "id": "GY25-MA2-A-05",
     "kap": 2,
     "omr": "exponentialekvationer",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Två modeller beskriver en population: \\(A(t)=800\\cdot1{,}06^t\\) och \\(B(t)=1200\\cdot0{,}98^t\\). Bestäm när modellerna ger samma värde och förklara vilken modell som är störst före respektive efter tidpunkten.</p>",
     "s": "<p>Sätt modellerna lika och samla förändringsfaktorerna:</p><p>\\[800\\cdot1{,}06^t=1200\\cdot0{,}98^t\\]</p><p>\\[\\left(\\frac{1{,}06}{0{,}98}\\right)^t=1{,}5.\\]</p><p>\\[t=\\frac{\\ln1{,}5}{\\ln(1{,}06/0{,}98)}\\approx5{,}17.\\]</p><p>Vid \\(t=0\\) är B större. Kvoten \\(A/B\\) växer eftersom \\(1{,}06/0{,}98>1\\), så efter ungefär 5,17 tidsenheter är A större.</p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
@@ -56759,7 +57383,11 @@ window.BANKMA2 = [
       "2a",
       "2b",
       "2c"
-    ]
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "GY25-MA2-A-06",
@@ -56999,8 +57627,8 @@ window.BANKMA2 = [
     "id": "GY25-MA2-A-15",
     "kap": 2,
     "omr": "logaritmlagar",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Lös ekvationen \\(\\lg(x-1)+\\lg(x+1)=1\\) och kontrollera definitionsvillkoren.</p>",
     "s": "<p>Logaritmernas argument måste vara positiva. Villkoren ger \\(x-1>0\\) och \\(x+1>0\\), alltså \\(x>1\\).</p><p>Använd logaritmlagen:</p><p>\\[\\lg((x-1)(x+1))=1\\Rightarrow x^2-1=10.\\]</p><p>\\[x^2=11\\Rightarrow x=\\pm\\sqrt{11}.\\]</p><p>Endast \\(x=\\sqrt{11}\\) uppfyller \\(x>1\\). Värdet \\(x=-\\sqrt{11}\\) är därför en falsk rot till den ursprungliga ekvationen.</p>",
     "familj": "Logaritmlagar",
@@ -57019,7 +57647,11 @@ window.BANKMA2 = [
       "2a",
       "2b",
       "2c"
-    ]
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "GY25-MA2-A-16",
@@ -57282,7 +57914,10 @@ window.BANKMA2 = [
     "kurs": [
       "2b",
       "2c"
-    ]
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "MA2-AK-08",
@@ -57303,12 +57938,15 @@ window.BANKMA2 = [
     "självrättning": false,
     "miniräknare": false,
     "geogebra": false,
-    "ledtrad": "<p>Använd punkten vid x = 0 som startvärde. Den andra punkten visar den sammanlagda förändringen under tre steg.</p>",
+    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
     "kurs": [
       "2a",
       "2b",
       "2c"
-    ]
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "id": "MA2-AK-09",
@@ -57879,7 +58517,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Lös ekvationerna. Svara med två decimaler där svaret inte är exakt.</p><p>a)&nbsp;\\(2^x=64\\)<br>b)&nbsp;\\(5\\cdot3^x=45\\)<br>c)&nbsp;\\(1{,}05^x=2\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Försök först skriva båda leden med samma bas. Går inte det får du logaritmera.</p><div class=\"facit-arbete\"><p>a) \\(64=2^6\\), alltså \\(x=6\\).</p><p>b) Dividera med 5: \\(3^x=9=3^2\\), alltså \\(x=2\\).</p><p>c) Samma bas går inte att få. Logaritmera båda led: \\(x\\lg1{,}05=\\lg2\\), alltså \\(x=\\dfrac{\\lg2}{\\lg1{,}05}\\approx14{,}21\\).</p><p><strong>a) \\(x=6\\) &nbsp; b) \\(x=2\\) &nbsp; c) \\(x\\approx14{,}21\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Svaret i c) är den klassiska ”dubbleringstiden” vid 5 % ökning per period. Kontrollera med \\(1{,}05^{14{,}21}\\approx2\\).</p></div>",
+    "s": "<p>a) \\(64=2^6\\), alltså \\(x=6\\).</p><p>b) Dividera med 5: \\(3^x=9=3^2\\), alltså \\(x=2\\).</p><p>c) Samma bas går inte att få. Logaritmera båda led: \\(x\\lg1{,}05=\\lg2\\), alltså \\(x=\\dfrac{\\lg2}{\\lg1{,}05}\\approx14{,}21\\).</p><p><strong>a) \\(x=6\\) &nbsp; b) \\(x=2\\) &nbsp; c) \\(x\\approx14{,}21\\)</strong></p>",
     "geogebra": false,
     "miniräknare": true,
     "tolerans": [
@@ -57921,7 +58559,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "familj": "Problemlösning med logaritmer"
+    "familj": "Problemlösning med logaritmer",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.808",
@@ -57929,7 +58570,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Förenkla med hjälp av logaritmlagarna.</p><p>a)&nbsp;\\(\\lg4+\\lg25\\)<br>b)&nbsp;\\(\\lg2000-\\lg2\\)<br>c)&nbsp;\\(2\\lg5+\\lg4\\)</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Summa av logaritmer blir logaritmen av produkten, differens blir logaritmen av kvoten och en faktor framför blir en exponent.</p><div class=\"facit-arbete\"><p>a) \\(\\lg(4\\cdot25)=\\lg100=2\\).</p><p>b) \\(\\lg\\dfrac{2000}{2}=\\lg1000=3\\).</p><p>c) \\(2\\lg5=\\lg25\\), så uttrycket blir \\(\\lg(25\\cdot4)=\\lg100=2\\).</p><p><strong>a) \\(2\\) &nbsp; b) \\(3\\) &nbsp; c) \\(2\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Svaren blir hela tal eftersom talen inuti logaritmerna blir tiopotenser. Det är ingen slump i den här sortens uppgifter.</p></div>",
+    "s": "<p>a) \\(\\lg(4\\cdot25)=\\lg100=2\\).</p><p>b) \\(\\lg\\dfrac{2000}{2}=\\lg1000=3\\).</p><p>c) \\(2\\lg5=\\lg25\\), så uttrycket blir \\(\\lg(25\\cdot4)=\\lg100=2\\).</p><p><strong>a) \\(2\\) &nbsp; b) \\(3\\) &nbsp; c) \\(2\\)</strong></p>",
     "geogebra": false,
     "miniräknare": false,
     "tolerans": [
@@ -57971,7 +58612,10 @@ window.BANKMA2 = [
       "2c"
     ],
     "familj": "Logaritmlagar",
-    "familjTidigare": "Använda logaritmlagar"
+    "familjTidigare": "Använda logaritmlagar",
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "2.809",

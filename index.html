@@ -503,6 +503,20 @@ a{color:inherit}
 .topprad.jag .tnamn b:after{content:"du";
   margin-left:7px;padding:2px 6px;border-radius:6px;font-size:10px;font-weight:700;
   background:var(--acc);color:#fff;letter-spacing:0;vertical-align:2px}
+
+/* Misstänkt manipulation: visas längst ned men räknas inte i placeringen. */
+.topprad.fuskrad{
+  margin-top:7px;padding:12px 12px;border:1px solid color-mix(in srgb,var(--bad) 45%,var(--hair));
+  border-radius:14px;background:var(--badSoft);border-bottom-color:color-mix(in srgb,var(--bad) 45%,var(--hair));
+}
+.topprad.fuskrad .plats,.topprad.fuskrad .tnamn b{color:var(--bad)}
+.topprad.fuskrad .tnamn small{color:var(--bad);opacity:.9}
+.topprad.fuskrad.jag{background:var(--badSoft);border-color:color-mix(in srgb,var(--bad) 55%,var(--hair))}
+.topprad.fuskrad.jag .tnamn b:after{background:var(--bad);color:#fff}
+.toppnotis.fusk{border-color:color-mix(in srgb,var(--bad) 45%,var(--hair));background:var(--badSoft)}
+.toppnotis.fusk b{color:var(--bad)}
+.toppnotis.fusk span{color:var(--bad)}
+
 .toppladdar{padding:26px 6px;text-align:center;font-size:13.5px;color:var(--ink3)}
 .toppfot{margin:14px 0 0;font-size:12px;color:var(--ink3);
   font-family:var(--read);letter-spacing:0}
@@ -888,9 +902,10 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   display:flex;align-items:center;gap:12px;min-height:82px;
 }
 .area:before{
-  content:"";position:absolute;inset:0;pointer-events:none;opacity:.7;transition:opacity .35s ease;
+  content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:.7;transition:opacity .35s ease;
   background:radial-gradient(210px 150px at 112% -25%,var(--toneWash),transparent 74%);
 }
+.area:hover,.area:focus-within{overflow:visible}
 .area:hover{
   transform:translateY(-2px);
   box-shadow:
@@ -960,6 +975,14 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .area strong{font-size:14px;font-weight:600;line-height:1.25;letter-spacing:-.022em;
   hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
+.area .state.status-help{position:relative;width:max-content;max-width:100%;cursor:help;border-bottom:1px dotted currentColor}
+.area .state.status-help:after{
+  content:attr(data-tip);position:absolute;left:0;top:calc(100% + 8px);z-index:40;width:245px;max-width:min(245px,70vw);
+  padding:9px 10px;border:1px solid var(--hair2);border-radius:10px;background:var(--surface);color:var(--ink);
+  box-shadow:0 12px 28px rgba(0,0,0,.16);font-size:11px;font-weight:500;line-height:1.42;letter-spacing:0;
+  opacity:0;transform:translateY(-3px);pointer-events:none;transition:.16s var(--ease);white-space:normal
+}
+.area .state.status-help:hover:after,.omr-oppna:focus-visible .state.status-help:after{opacity:1;transform:translateY(0)}
 .meter{height:5px;border-radius:99px;background:var(--hair);overflow:hidden;flex:1;max-width:80px;
   box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
 .meter i{display:block;height:100%;border-radius:99px;width:0;transition:width 1.1s var(--ease);
@@ -2505,7 +2528,11 @@ async function hamtaTopplista(flik,gräns=50){
       return null;
     }
     const d=await r.json();
-    return {rader:Array.isArray(d?.rader)?d.rader:[],plats:d?.plats??null};
+    return {
+      rader:Array.isArray(d?.rader)?d.rader:[],
+      plats:d?.plats??null,
+      fuskare:Array.isArray(d?.fuskare)?d.fuskare:[]
+    };
   }catch(_){ return null; }
 }
 
@@ -4230,6 +4257,14 @@ function getCards(){
   return kort;
 }
 
+function statusHelp(s){
+  if(!s?.seen) return "Ny · Du har ännu inget registrerat resultat här. Ringen börjar visa ett träningsvärde efter ditt första försök.";
+  const pct=Math.round(Math.max(0,Math.min(1,s.m||0))*100);
+  if(s.m>=.78) return `Stark · träningsvärde ${pct} %. Stark betyder minst 78 %. Fortsatt repetition hjälper dig att behålla nivån.`;
+  if(s.m>=.55) return `På gång · träningsvärde ${pct} %. På gång betyder 55–77 %. Fler stabila rätta svar tar dig mot Stark.`;
+  return `Behöver träning · träningsvärde ${pct} %. Det betyder under 55 %. Området prioriteras för mer repetition.`;
+}
+
 function cardStatus(kort){
   const cp=ensureCourseProfile();
   const varden=kort.omr.map(k=>typeof cp.areas[k]==="number"?cp.areas[k]:null);
@@ -4777,6 +4812,7 @@ function renderDashboard(){
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
+          const statusTip=statusHelp(s);
 
           const harDelar=cardFamilies(a).length>0;
           return `<div class="area ${s.tone}">
@@ -4788,7 +4824,7 @@ function renderDashboard(){
               </span>
               <span class="area-txt">
                 <strong>${esc(a.name)}</strong>
-                <span class="state">${s.label}</span>
+                <span class="state status-help" data-tip="${esc(statusTip)}" title="${esc(statusTip)}">${s.label}</span>
               </span>
             </button>
             ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"
@@ -7722,7 +7758,7 @@ function ritaTopplista(laddar,svar){
         <span class="plats" aria-hidden="true">–</span>
         <span class="tnamn">
           <b>${esc(rad.namn||"")}</b>
-          <small>Användaren har försökt fuska sig till en högre plats på topplistan 🧐</small>
+          <small>Misstänkt manipulation av topplistan – användaren räknas inte i placeringen 🧐</small>
         </span>
       </li>`;
     }).join("")}</ol>

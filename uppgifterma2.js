@@ -1,6 +1,6 @@
-/* Ma2-bank. Pedagogiskt kvalitetsreviderad t.o.m. omgång 23 (2026-09-14).
+/* Ma2-bank. Pedagogiskt kvalitetsreviderad och kompletterad t.o.m. omgång 29 (2026-09-14).
  * E/C/A används för Uppgiftslabbet. traningsniva 1–5 används separat i Kunskapsgymmet.
- * Matematiktypografi/TeX samt miniräknare/GeoGebra är globalt QA-granskade.
+ * Matematiktypografi/TeX samt miniräknare/GeoGebra är fortlöpande QA-granskade.
  */
 window.BANKMA2 = [
   {
@@ -14694,8 +14694,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"316.50\" y1=\"330.00\" x2=\"316.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"361.25\" y1=\"330.00\" x2=\"361.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"92.75\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"137.50\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"182.25\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"227.00\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"316.50\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"361.25\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"406.00\" y=\"269.50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"263.75\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"263.75\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"263.75\" y=\"216.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"263.75\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"263.75\" y=\"139.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"263.75\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"263.75\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"263.75\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><path d=\"M 169.00 328.14 L 169.50 325.03 L 170.00 321.95 L 170.50 318.89 L 171.00 315.85 L 171.50 312.82 L 172.00 309.82 L 172.50 306.84 L 173.00 303.87 L 173.50 300.92 L 174.00 298.00 L 174.50 295.09 L 175.00 292.20 L 175.50 289.33 L 176.00 286.48 L 176.50 283.65 L 177.00 280.84 L 177.50 278.05 L 178.00 275.28 L 178.50 272.53 L 179.00 269.79 L 179.50 267.08 L 180.00 264.39 L 180.50 261.71 L 181.00 259.05 L 181.50 256.42 L 182.00 253.80 L 182.50 251.20 L 183.00 248.63 L 183.50 246.07 L 184.00 243.53 L 184.50 241.01 L 185.00 238.50 L 185.50 236.02 L 186.00 233.56 L 186.50 231.12 L 187.00 228.69 L 187.50 226.29 L 188.00 223.91 L 188.50 221.54 L 189.00 219.19 L 189.50 216.87 L 190.00 214.56 L 190.50 212.27 L 191.00 210.00 L 191.50 207.75 L 192.00 205.52 L 192.50 203.31 L 193.00 201.12 L 193.50 198.95 L 194.00 196.80 L 194.50 194.66 L 195.00 192.55 L 195.50 190.45 L 196.00 188.38 L 196.50 186.32 L 197.00 184.29 L 197.50 182.27 L 198.00 180.27 L 198.50 178.29 L 199.00 176.33 L 199.50 174.39 L 200.00 172.47 L 200.50 170.57 L 201.00 168.69 L 201.50 166.83 L 202.00 164.98 L 202.50 163.16 L 203.00 161.36 L 203.50 159.57 L 204.00 157.80 L 204.50 156.06 L 205.00 154.33 L 205.50 152.62 L 206.00 150.94 L 206.50 149.27 L 207.00 147.62 L 207.50 145.99 L 208.00 144.38 L 208.50 142.78 L 209.00 141.21 L 209.50 139.66 L 210.00 138.13 L 210.50 136.61 L 211.00 135.12 L 211.50 133.64 L 212.00 132.19 L 212.50 130.75 L 213.00 129.33 L 213.50 127.93 L 214.00 126.55 L 214.50 125.19 L 215.00 123.85 L 215.50 122.53 L 216.00 121.23 L 216.50 119.95 L 217.00 118.69 L 217.50 117.45 L 218.00 116.22 L 218.50 115.02 L 219.00 113.83 L 219.50 112.67 L 220.00 111.52 L 220.50 110.39 L 221.00 109.28 L 221.50 108.20 L 222.00 107.13 L 222.50 106.08 L 223.00 105.05 L 223.50 104.04 L 224.00 103.04 L 224.50 102.07 L 225.00 101.12 L 225.50 100.18 L 226.00 99.27 L 226.50 98.38 L 227.00 97.50 L 227.50 96.64 L 228.00 95.81 L 228.50 94.99 L 229.00 94.19 L 229.50 93.41 L 230.00 92.65 L 230.50 91.91 L 231.00 91.19 L 231.50 90.49 L 232.00 89.81 L 232.50 89.15 L 233.00 88.50 L 233.50 87.88 L 234.00 87.27 L 234.50 86.69 L 235.00 86.12 L 235.50 85.58 L 236.00 85.05 L 236.50 84.54 L 237.00 84.05 L 237.50 83.58 L 238.00 83.13 L 238.50 82.70 L 239.00 82.29 L 239.50 81.90 L 240.00 81.53 L 240.50 81.17 L 241.00 80.84 L 241.50 80.53 L 242.00 80.23 L 242.50 79.95 L 243.00 79.70 L 243.50 79.46 L 244.00 79.24 L 244.50 79.04 L 245.00 78.87 L 245.50 78.71 L 246.00 78.57 L 246.50 78.44 L 247.00 78.34 L 247.50 78.26 L 248.00 78.20 L 248.50 78.15 L 249.00 78.13 L 249.50 78.13 L 250.00 78.14 L 250.50 78.17 L 251.00 78.23 L 251.50 78.30 L 252.00 78.39 L 252.50 78.50 L 253.00 78.63 L 253.50 78.78 L 254.00 78.95 L 254.50 79.14 L 255.00 79.35 L 255.50 79.58 L 256.00 79.82 L 256.50 80.09 L 257.00 80.38 L 257.50 80.68 L 258.00 81.00 L 258.50 81.35 L 259.00 81.71 L 259.50 82.09 L 260.00 82.49 L 260.50 82.91 L 261.00 83.35 L 261.50 83.81 L 262.00 84.29 L 262.50 84.79 L 263.00 85.31 L 263.50 85.85 L 264.00 86.40 L 264.50 86.98 L 265.00 87.57 L 265.50 88.19 L 266.00 88.82 L 266.50 89.47 L 267.00 90.15 L 267.50 90.84 L 268.00 91.55 L 268.50 92.28 L 269.00 93.03 L 269.50 93.80 L 270.00 94.59 L 270.50 95.40 L 271.00 96.22 L 271.50 97.07 L 272.00 97.94 L 272.50 98.82 L 273.00 99.73 L 273.50 100.65 L 274.00 101.59 L 274.50 102.56 L 275.00 103.54 L 275.50 104.54 L 276.00 105.56 L 276.50 106.60 L 277.00 107.66 L 277.50 108.74 L 278.00 109.84 L 278.50 110.95 L 279.00 112.09 L 279.50 113.25 L 280.00 114.42 L 280.50 115.62 L 281.00 116.83 L 281.50 118.06 L 282.00 119.32 L 282.50 120.59 L 283.00 121.88 L 283.50 123.19 L 284.00 124.52 L 284.50 125.87 L 285.00 127.24 L 285.50 128.63 L 286.00 130.04 L 286.50 131.46 L 287.00 132.91 L 287.50 134.38 L 288.00 135.86 L 288.50 137.37 L 289.00 138.89 L 289.50 140.43 L 290.00 142.00 L 290.50 143.58 L 291.00 145.18 L 291.50 146.80 L 292.00 148.44 L 292.50 150.10 L 293.00 151.78 L 293.50 153.48 L 294.00 155.19 L 294.50 156.93 L 295.00 158.69 L 295.50 160.46 L 296.00 162.26 L 296.50 164.07 L 297.00 165.90 L 297.50 167.76 L 298.00 169.63 L 298.50 171.52 L 299.00 173.43 L 299.50 175.36 L 300.00 177.31 L 300.50 179.28 L 301.00 181.27 L 301.50 183.27 L 302.00 185.30 L 302.50 187.35 L 303.00 189.41 L 303.50 191.50 L 304.00 193.60 L 304.50 195.73 L 305.00 197.87 L 305.50 200.03 L 306.00 202.21 L 306.50 204.41 L 307.00 206.64 L 307.50 208.87 L 308.00 211.13 L 308.50 213.41 L 309.00 215.71 L 309.50 218.03 L 310.00 220.36 L 310.50 222.72 L 311.00 225.10 L 311.50 227.49 L 312.00 229.90 L 312.50 232.34 L 313.00 234.79 L 313.50 237.26 L 314.00 239.75 L 314.50 242.26 L 315.00 244.79 L 315.50 247.34 L 316.00 249.91 L 316.50 252.50 L 317.00 255.11 L 317.50 257.73 L 318.00 260.38 L 318.50 263.05 L 319.00 265.73 L 319.50 268.43 L 320.00 271.16 L 320.50 273.90 L 321.00 276.66 L 321.50 279.45 L 322.00 282.25 L 322.50 285.07 L 323.00 287.91 L 323.50 290.77 L 324.00 293.64 L 324.50 296.54 L 325.00 299.46 L 325.50 302.39 L 326.00 305.35 L 326.50 308.33 L 327.00 311.32 L 327.50 314.33 L 328.00 317.37 L 328.50 320.42 L 329.00 323.49 L 329.50 326.58 L 330.00 329.69\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm nollställena.<br>b)&nbsp;Skriv funktionen på faktoriserad form.<br>c)&nbsp;Bestäm symmetrilinjens ekvation.</p>",
     "s": "<p>a) Grafen skär x-axeln vid \\(x=-2\\) och \\(x=1\\).</p><p>b) Nollställena ger \\(f(x)=a(x+2)(x-1)\\). Av grafen är \\(f(0)=4\\), alltså \\(4=a\\cdot2\\cdot(-1)=-2a\\) och \\(a=-2\\).</p><p>c) Symmetrilinjen ligger mitt emellan nollställena: \\(x=\\dfrac{-2+1}{2}=-0{,}5\\).</p><p><strong>a) \\(-2\\) och \\(1\\) &nbsp; b) \\(f(x)=-2(x+2)(x-1)\\) &nbsp; c) \\(x=-0{,}5\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
@@ -14737,7 +14737,7 @@ window.BANKMA2 = [
       "faktorform",
       "symmetri"
     ],
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -14752,8 +14752,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En andragradsfunktion har minimipunkten \\((3,-2)\\) och går genom punkten \\((1{,}6)\\).</p><p>Bestäm funktionen.</p>",
-    "s": "<p>Minimipunkten \\((3,-2)\\) gör att funktionen kan skrivas \\(f(x)=a(x-3)^2-2\\).</p><p>Sätt in \\((1{,}6)\\): \\(6=4a-2\\Rightarrow a=2\\).</p><p><strong>\\(f(x)=2(x-3)^2-2\\).</strong></p>",
+    "t": "<p>En andragradsfunktion har minimipunkten \\((3,\\,-2)\\) och går genom punkten \\((1,\\,6)\\).</p><p>Bestäm funktionen.</p>",
+    "s": "<p>Minimipunkten \\((3,\\,-2)\\) gör att funktionen kan skrivas \\(f(x)=a(x-3)^2-2\\).</p><p>Sätt in \\((1,\\,6)\\): \\(6=4a-2\\Rightarrow a=2\\).</p><p><strong>\\(f(x)=2(x-3)^2-2\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -14798,7 +14798,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Tolka och bestämma andragradsfunktioner",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
@@ -14877,7 +14877,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Grafen visar en exponentialfunktion som går genom de markerade punkterna.</p><span class=\"fig smal\"><svg width=\"520\" height=\"330\" viewBox=\"0 0 520 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till en exponentialfunktion med två markerade punkter\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"328\" rx=\"12\" fill=\"#fff\" stroke=\"#D1D5DB\"/><line x1=\"60.0\" y1=\"25\" x2=\"60.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"121.4\" y1=\"25\" x2=\"121.4\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"182.9\" y1=\"25\" x2=\"182.9\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"244.3\" y1=\"25\" x2=\"244.3\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"305.7\" y1=\"25\" x2=\"305.7\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"367.1\" y1=\"25\" x2=\"367.1\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"428.6\" y1=\"25\" x2=\"428.6\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"490.0\" y1=\"25\" x2=\"490.0\" y2=\"290\" stroke=\"#D9DDE3\"/><line x1=\"60\" y1=\"290\" x2=\"490\" y2=\"290\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"121.4\" y1=\"25\" x2=\"121.4\" y2=\"290\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"60.0\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">-1</text><text x=\"182.9\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><text x=\"244.3\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><text x=\"305.7\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><text x=\"367.1\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><text x=\"428.6\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><text x=\"490.0\" y=\"308\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><path d=\"M 60.0 277.3 L 62.4 277.0 L 64.8 276.7 L 67.2 276.4 L 69.6 276.1 L 72.0 275.8 L 74.4 275.5 L 76.8 275.2 L 79.2 274.9 L 81.6 274.5 L 84.0 274.2 L 86.4 273.9 L 88.8 273.5 L 91.2 273.1 L 93.6 272.8 L 96.0 272.4 L 98.4 272.0 L 100.8 271.6 L 103.2 271.2 L 105.6 270.8 L 108.0 270.4 L 110.4 270.0 L 112.8 269.5 L 115.3 269.1 L 117.7 268.6 L 120.1 268.2 L 122.5 267.7 L 124.9 267.2 L 127.3 266.7 L 129.7 266.2 L 132.1 265.7 L 134.5 265.2 L 136.9 264.6 L 139.3 264.1 L 141.7 263.5 L 144.1 263.0 L 146.5 262.4 L 148.9 261.8 L 151.3 261.2 L 153.7 260.5 L 156.1 259.9 L 158.5 259.2 L 160.9 258.6 L 163.3 257.9 L 165.7 257.2 L 168.1 256.5 L 170.5 255.8 L 172.9 255.0 L 175.3 254.2 L 177.7 253.5 L 180.1 252.7 L 182.5 251.9 L 184.9 251.0 L 187.3 250.2 L 189.7 249.3 L 192.1 248.4 L 194.5 247.5 L 196.9 246.6 L 199.3 245.7 L 201.7 244.7 L 204.1 243.7 L 206.5 242.7 L 208.9 241.7 L 211.3 240.7 L 213.7 239.6 L 216.1 238.5 L 218.5 237.4 L 220.9 236.2 L 223.4 235.1 L 225.8 233.9 L 228.2 232.6 L 230.6 231.4 L 233.0 230.1 L 235.4 228.8 L 237.8 227.5 L 240.2 226.1 L 242.6 224.8 L 245.0 223.3 L 247.4 221.9 L 249.8 220.4 L 252.2 218.9 L 254.6 217.4 L 257.0 215.8 L 259.4 214.2 L 261.8 212.5 L 264.2 210.8 L 266.6 209.1 L 269.0 207.4 L 271.4 205.6 L 273.8 203.7 L 276.2 201.9 L 278.6 200.0 L 281.0 198.0 L 283.4 196.0 L 285.8 194.0 L 288.2 191.9 L 290.6 189.7 L 293.0 187.6 L 295.4 185.3 L 297.8 183.1 L 300.2 180.7 L 302.6 178.4 L 305.0 176.0 L 307.4 173.5 L 309.8 170.9 L 312.2 168.4 L 314.6 165.7 L 317.0 163.0 L 319.4 160.3 L 321.8 157.4 L 324.2 154.6 L 326.6 151.6 L 329.1 148.6 L 331.5 145.6 L 333.9 142.4 L 336.3 139.2 L 338.7 135.9 L 341.1 132.6 L 343.5 129.2 L 345.9 125.7 L 348.3 122.1 L 350.7 118.5 L 353.1 114.7 L 355.5 110.9 L 357.9 107.1 L 360.3 103.1 L 362.7 99.0 L 365.1 94.9 L 367.5 90.6 L 369.9 86.3 L 372.3 81.9 L 374.7 77.4 L 377.1 72.8 L 379.5 68.0 L 381.9 63.2 L 384.3 58.3 L 386.7 53.3 L 389.1 48.1 L 391.5 42.9 L 393.9 37.5 L 396.3 32.0 L 398.7 26.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3.2\"/><circle cx=\"244.3\" cy=\"223.8\" r=\"5\" fill=\"#2C62A8\"/><text x=\"254.3\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"15\">(2, 6)</text><circle cx=\"367.1\" cy=\"91.2\" r=\"5\" fill=\"#2C62A8\"/><text x=\"377.1\" y=\"82.2\" font-family=\"Arial,sans-serif\" font-size=\"15\">(4, 18)</text><text x=\"488\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x</text><text x=\"130.4\" y=\"38\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">y</text></svg></span><p>Bestäm exakt grafens skärning med y-axeln.</p>",
-    "s": "<p>Skriv funktionen som \\(y=Ca^x\\).</p><p>Punkterna ger \\(6=Ca^2\\) och \\(18=Ca^4\\).</p><p>Dividera ekvationerna: \\(3=a^2\\).</p><p>Då är \\(Ca^2=6\\), alltså \\(C=6/3=2\\).</p><p><strong>Grafen skär y-axeln i \\((0{,}2)\\).</strong></p>",
+    "s": "<p>Skriv funktionen som \\(y=Ca^x\\).</p><p>Punkterna ger \\(6=Ca^2\\) och \\(18=Ca^4\\).</p><p>Dividera ekvationerna: \\(3=a^2\\).</p><p>Då är \\(Ca^2=6\\), alltså \\(C=6/3=2\\).</p><p><strong>Grafen skär y-axeln i \\((0,\\,2)\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -14892,7 +14892,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
     "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false
   },
@@ -14957,7 +14957,7 @@ window.BANKMA2 = [
     "t": "<p>Tabellen visar hur en storhet förändras över tid.</p><table><tr><th>\\(x\\)</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>\\(y\\)</th><td>50</td><td>75</td><td>112</td><td>169</td></tr></table><p>a) Vilken modell passar bäst: linjär eller exponentiell? Motivera.</p><p>b) Bestäm en rimlig modell.</p><p>c) Uppskatta värdet när \\(x=5\\).</p>",
     "s": "<p>Skillnaderna är 25, 37 och 57, alltså inte ungefär konstanta. Kvoterna är däremot ungefär 1,50, 1,49 och 1,51.</p><p><strong>En exponentiell modell passar bäst.</strong></p><p>En rimlig modell är \\(y=50\\cdot1{,}5^x\\).</p><p>För \\(x=5\\) fås \\(y=50\\cdot1{,}5^5\\approx379{,}7\\).</p><p><strong>Uppskattningen blir cirka 380.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": null,
@@ -15047,9 +15047,9 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En mängd beskrivs av \\(N(t)=640\\cdot0{,}8^t\\).</p><p>Vilken är den första hela timmen då \\(N(t)&lt;100\\)?</p>",
-    "s": "<p>Gränsen fås ur ekvationen \\(640\\cdot0{,}8^t=100\\).</p><p>Använd ett digitalt verktyg. I GeoGebra CAS kan du skriva <code>NLös(640*0.8^t=100)</code>, vilket ger \\(t\\approx8{,}32\\).</p><p>Frågan gäller första hela timmen efter att värdet passerat gränsen. Efter 8 timmar är värdet fortfarande över 100, men efter 9 timmar är det under 100.</p><p><strong>Efter 9 timmar.</strong></p>",
+    "s": "<p>Gränsen fås ur ekvationen \\(640\\cdot0{,}8^t=100\\).</p><p>Dividera med 640: \\(0{,}8^t=0{,}15625\\). Med logaritmer får vi</p><p>\\[t=\\frac{\\lg(0{,}15625)}{\\lg(0{,}8)}\\approx8{,}32.\\]</p><p>Efter 8 timmar är mängden fortfarande över 100, medan den efter 9 timmar är under 100.</p><p><strong>Efter 9 timmar.</strong></p>",
     "familj": "Lösa exponentialekvationer",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
@@ -15060,7 +15060,7 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Försök först skriva båda leden med samma bas. Om det inte går, ta logaritm på båda sidor och lös den linjära ekvationen som uppstår i exponenten.</p>",
+    "ledtrad": "<p>Sätt först \\(N(t)=100\\). Isolera potensen och använd sedan logaritmer för att bestämma när gränsen passeras. Tänk på att frågan gäller den första <em>hela</em> timmen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
@@ -15237,7 +15237,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>Efter divisionen blir \\(q=1\\). Skriv talen under rottecknet med nämnaren 9.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -15287,7 +15287,7 @@ window.BANKMA2 = [
     "s": "<p><strong>GeoGebra:</strong> rita båda funktionerna och bestäm deras skärningspunkt.</p><p>Före skärningen ligger g högre; efter skärningen ligger f högre eftersom f växer och g avtar.</p><p>Med <code>NLös(4*1.25^x=10*0.9^x)</code> fås \\(x\\approx2{,}79\\).</p><p><strong>f är större än g för \\(x&gt;2{,}79\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -15344,7 +15344,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Skriv först ett geometriskt uttryck för längd eller area med en variabel. Använd villkoret i uppgiften för att få en andragradsekvation och förkasta lösningar som inte kan vara geometriska längder.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -15402,7 +15402,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Ekvationen \\(x^2-kx+24=0\\) har två positiva heltalsrötter som skiljer 5 från varandra.</p><p>Bestäm \\(k\\).</p>",
-    "s": "<p>Om rötterna är \\(r\\) och \\(s\\) kan vänsterledet skrivas \\((x-r)(x-s)\\). Konstanttermen visar då att \\(rs=24\\).</p><p>Positiva faktorpar till 24 är \\((1{,}24)\\), \\((2{,}12)\\), \\((3{,}8)\\) och \\((4{,}6)\\). Endast paret \\((3{,}8)\\) skiljer 5.</p><p>\\((x-3)(x-8)=x^2-11x+24\\), så \\(k=11\\).</p>",
+    "s": "<p>Om rötterna är \\(r\\) och \\(s\\) kan vänsterledet skrivas \\((x-r)(x-s)\\). Konstanttermen visar då att \\(rs=24\\).</p><p>Positiva faktorpar till 24 är \\((1,\\,24)\\), \\((2,\\,12)\\), \\((3,\\,8)\\) och \\((4,\\,6)\\). Endast paret \\((3,\\,8)\\) skiljer 5.</p><p>\\((x-3)(x-8)=x^2-11x+24\\), så \\(k=11\\).</p>",
     "familj": "Rötter och koefficienter",
     "geogebra": false,
     "miniräknare": false,
@@ -15490,7 +15490,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Öppningen i en symmetrisk båge är 12 m bred vid marken och 4,5 m hög i mitten. Formen modelleras med en andragradsfunktion. Ett rektangulärt fordon är 3,0 m högt och ska köras rakt genom mitten av öppningen.</p><p>Bestäm den största bredd fordonet kan ha enligt modellen.</p>",
+    "t": "<p>Öppningen i en symmetrisk båge är 12 m bred vid marken och 4,5 m hög i mitten. Formen modelleras med en andragradsfunktion. Ett rektangulärt fordon är 3,0 m högt och ska köras rakt genom mitten av öppningen.</p><p>Bestäm den största bredd fordonet kan ha enligt modellen. Svara med en decimal.</p>",
     "s": "<p>Låt marken vara x-axeln och placera öppningens kanter vid \\(x=0\\) och \\(x=12\\). Då kan modellen skrivas \\(h(x)=a x(x-12)\\).</p><p>I mitten, \\(x=6\\), är höjden 4,5 m:</p><p>\\[4{,}5=a\\cdot6\\cdot(-6)\\Rightarrow a=-0{,}125.\\]</p><p>Fordonets övre hörn måste ligga där höjden är minst 3 m. Lös därför</p><p>\\[-0{,}125x(x-12)=3.\\]</p><p>Det ger \\(x^2-12x+24=0\\), alltså \\(x=6\\pm2\\sqrt3\\).</p><p>Avståndet mellan dessa två x-värden är \\(4\\sqrt3\\approx6{,}93\\).</p><p><strong>Fordonet kan vara högst cirka 6,9 m brett.</strong></p>",
     "familj": "Tillämpa andragradsmodeller",
     "geogebra": false,
@@ -15695,7 +15695,7 @@ window.BANKMA2 = [
     ],
     "manuellKomplettering": true,
     "ledtrad": "<p>Isolera roten innan du kvadrerar. Kvadrering kan skapa falska lösningar, så varje kandidat måste sättas tillbaka i ursprungsekvationen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -15712,7 +15712,7 @@ window.BANKMA2 = [
     "t": "<p>Tabellen visar</p><table class=\"data\"><tr><th>\\(x\\)</th><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>\\(y\\)</th><td>3</td><td>12</td><td>27</td><td>48</td></tr></table><p>Visa att en potensfunktion på formen \\(y=Cx^a\\) beskriver värdena exakt och bestäm funktionen.</p>",
     "s": "<p>Beräkna \\(y/x^2\\):</p><p>\\(3/1^2=3\\), \\(12/2^2=3\\), \\(27/3^2=3\\), \\(48/4^2=3\\).</p><p>Kvoten är konstant, så \\(y=3x^2\\) beskriver alla punkterna.</p><p><strong>\\(y=3x^2\\)</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -15725,7 +15725,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skilj på vad diagrammet visar och vad du kan dra för slutsats. Ett samband kan beskrivas med korrelation/regression, men det visar inte i sig att den ena variabeln orsakar den andra.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
@@ -15937,8 +15937,8 @@ window.BANKMA2 = [
     "t": "<p>En population mäts under sex år. En linjär modell och en exponentialmodell ger nästan samma värden under mätperioden. Exponentialmodellen ligger något närmare datapunkterna.</p><p>En elev väljer därför exponentialmodellen för en prognos 40 år framåt.</p><p>Förklara varför valet behöver motiveras bättre. Nämn minst tre saker som bör vägas in.</p>",
     "s": "<p>Man bör undersöka hur väl modellerna följer punkterna, hur avvikelserna mellan mätvärden och modellvärden ser ut och hur långt prognosen ligger utanför mätperioden.</p><p>Dessutom måste man bedöma om det finns sakliga skäl att tro att en konstant procentuell tillväxt kan fortsätta i 40 år. Begränsade resurser eller ändrade villkor kan göra exponentialmodellen orimlig.</p><p><strong>För att välja modell behöver man både jämföra med data och bedöma om modellen är rimlig i situationen.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
-    "miniräknare": true,
+    "geogebra": false,
+    "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16059,7 +16059,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -16272,7 +16272,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
     "ledtrad": "<p>Nollproduktmetoden kräver att ena ledet är noll. Vad måste du göra först?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -16317,7 +16317,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
     "ledtrad": "<p>Dividera inte med \\((x-2)\\) – då tappar du en lösning. Bryt ut den i stället.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -16421,7 +16421,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -16615,7 +16615,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>Alla tre har en koefficient framför \\(x^2\\). Dividera bort den först.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -16735,7 +16735,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>Alla tre termerna är delbara med 2.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -16855,7 +16855,7 @@ window.BANKMA2 = [
       "b)"
     ],
     "svarsstruktur": "ordnad",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -17005,7 +17005,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>Efter divisionen blir \\(p\\) och \\(q\\) ofta bråk eller decimaltal. Välj den form du räknar säkrast med.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -17020,8 +17020,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En rektangel är 3 cm längre än den är bred. Arean är 40 cm². Bestäm rektangelns sidor.</p>",
-    "s": "<p>Låt bredden vara \\(x\\) cm. Då är längden \\(x+3\\) cm och \\(x(x+3)=40\\).</p><p>\\(x^2+3x-40=0\\), och \\((x+8)(x-5)=0\\) ger \\(x=-8\\) eller \\(x=5\\).</p><p>En bredd kan inte vara negativ, så \\(x=5\\) cm och längden är 8 cm.</p><p><strong>Svar:</strong> Sidorna är 5 cm och 8 cm</p>",
+    "t": "<p>En rektangel har arean 40 cm². Om båda sidlängderna ökas med 1 cm blir arean 54 cm².</p><p>Bestäm rektangelns ursprungliga sidlängder.</p>",
+    "s": "<p>Låt de ursprungliga sidlängderna vara \\(x\\) och \\(y\\). Då gäller \\(xy=40\\).</p><p>När båda sidorna ökas med 1 cm gäller \\((x+1)(y+1)=54\\). Utveckla:</p><p>\\(xy+x+y+1=54\\). Eftersom \\(xy=40\\) får vi \\(x+y=13\\).</p><p>Två tal med summa 13 och produkt 40 är 5 och 8. Alternativt kan man lösa \\(t^2-13t+40=0\\).</p><p><strong>Rektangelns sidlängder är 5 cm och 8 cm.</strong></p>",
     "familj": "Nollproduktmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -17030,23 +17030,26 @@ window.BANKMA2 = [
       5,
       8
     ],
-    "tolerans": null,
+    "tolerans": [
+      null,
+      null
+    ],
     "självrättning": true,
     "formaga": [
       "modellering",
       "problemlösning"
     ],
     "familjTidigare": "Nollproduktmetoden och faktorisering",
-    "ledtrad": "<p>Vilken storhet kan du kalla \\(x\\)? Uttryck den andra sidan med hjälp av \\(x\\).</p>",
+    "ledtrad": "<p>Jämför den ursprungliga arean med arean efter att båda sidorna har ökats med 1 cm. Då kan du få fram både sidornas produkt och deras summa.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
     "svarEtiketter": [
-      "bredd (cm)",
-      "längd (cm)"
+      "sida 1 (cm)",
+      "sida 2 (cm)"
     ],
-    "svarsstruktur": "ordnad",
+    "svarsstruktur": "oordnad",
     "svarEnhet": "cm",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -17113,7 +17116,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två olika andragradsfunktioner har båda nollställena \\(x=1\\) och \\(x=7\\). Den ena grafen går genom \\((0{,}14)\\) och den andra genom \\((0,-7)\\).</p><p>Bestäm funktionerna och förklara hur deras grafer är placerade i förhållande till x-axeln.</p>",
+    "t": "<p>Två olika andragradsfunktioner har båda nollställena \\(x=1\\) och \\(x=7\\). Den ena grafen går genom \\((0,\\,14)\\) och den andra genom \\((0,-7)\\).</p><p>Bestäm funktionerna och förklara hur deras grafer är placerade i förhållande till x-axeln.</p>",
     "s": "<p>Båda funktionerna kan skrivas \\(a(x-1)(x-7)\\).</p><p>För den första gäller \\(14=a(-1)(-7)=7a\\), alltså \\(a=2\\).</p><p>För den andra gäller \\(-7=7a\\), alltså \\(a=-1\\).</p><p>Funktionerna är därför \\(f(x)=2(x-1)(x-7)\\) och \\(g(x)=-(x-1)(x-7)\\).</p><p>De har samma nollställen men öppnar åt olika håll. Därför ligger de på motsatta sidor om x-axeln mellan nollställena.</p><p><strong>\\(f(x)=2(x-1)(x-7)\\) och \\(g(x)=-(x-1)(x-7)\\).</strong></p>",
     "familj": "Tolka andragradsfunktioner från graf",
     "geogebra": false,
@@ -17157,7 +17160,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"316.50\" y1=\"330.00\" x2=\"316.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"361.25\" y1=\"330.00\" x2=\"361.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"92.75\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"137.50\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"182.25\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"227.00\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"316.50\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"361.25\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"406.00\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"263.75\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"263.75\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"263.75\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"263.75\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"263.75\" y=\"139.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"263.75\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"263.75\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"263.75\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><path d=\"M 109.00 328.18 L 109.50 325.90 L 110.00 323.63 L 110.50 321.38 L 111.00 319.13 L 111.50 316.89 L 112.00 314.66 L 112.50 312.44 L 113.00 310.23 L 113.50 308.02 L 114.00 305.83 L 114.50 303.65 L 115.00 301.48 L 115.50 299.32 L 116.00 297.16 L 116.50 295.02 L 117.00 292.89 L 117.50 290.76 L 118.00 288.65 L 118.50 286.55 L 119.00 284.45 L 119.50 282.37 L 120.00 280.29 L 120.50 278.22 L 121.00 276.17 L 121.50 274.12 L 122.00 272.09 L 122.50 270.06 L 123.00 268.04 L 123.50 266.03 L 124.00 264.04 L 124.50 262.05 L 125.00 260.07 L 125.50 258.10 L 126.00 256.14 L 126.50 254.19 L 127.00 252.25 L 127.50 250.32 L 128.00 248.40 L 128.50 246.49 L 129.00 244.59 L 129.50 242.70 L 130.00 240.82 L 130.50 238.94 L 131.00 237.08 L 131.50 235.23 L 132.00 233.39 L 132.50 231.55 L 133.00 229.73 L 133.50 227.91 L 134.00 226.11 L 134.50 224.32 L 135.00 222.53 L 135.50 220.75 L 136.00 218.99 L 136.50 217.23 L 137.00 215.49 L 137.50 213.75 L 138.00 212.02 L 138.50 210.31 L 139.00 208.60 L 139.50 206.90 L 140.00 205.21 L 140.50 203.53 L 141.00 201.86 L 141.50 200.20 L 142.00 198.56 L 142.50 196.92 L 143.00 195.29 L 143.50 193.66 L 144.00 192.05 L 144.50 190.45 L 145.00 188.86 L 145.50 187.28 L 146.00 185.71 L 146.50 184.14 L 147.00 182.59 L 147.50 181.05 L 148.00 179.51 L 148.50 177.99 L 149.00 176.48 L 149.50 174.97 L 150.00 173.48 L 150.50 171.99 L 151.00 170.52 L 151.50 169.05 L 152.00 167.59 L 152.50 166.15 L 153.00 164.71 L 153.50 163.28 L 154.00 161.87 L 154.50 160.46 L 155.00 159.06 L 155.50 157.67 L 156.00 156.29 L 156.50 154.93 L 157.00 153.57 L 157.50 152.22 L 158.00 150.88 L 158.50 149.55 L 159.00 148.23 L 159.50 146.91 L 160.00 145.61 L 160.50 144.32 L 161.00 143.04 L 161.50 141.77 L 162.00 140.50 L 162.50 139.25 L 163.00 138.01 L 163.50 136.77 L 164.00 135.55 L 164.50 134.34 L 165.00 133.13 L 165.50 131.94 L 166.00 130.75 L 166.50 129.58 L 167.00 128.41 L 167.50 127.25 L 168.00 126.11 L 168.50 124.97 L 169.00 123.84 L 169.50 122.73 L 170.00 121.62 L 170.50 120.52 L 171.00 119.43 L 171.50 118.35 L 172.00 117.28 L 172.50 116.22 L 173.00 115.18 L 173.50 114.14 L 174.00 113.10 L 174.50 112.08 L 175.00 111.07 L 175.50 110.07 L 176.00 109.08 L 176.50 108.10 L 177.00 107.13 L 177.50 106.16 L 178.00 105.21 L 178.50 104.27 L 179.00 103.33 L 179.50 102.41 L 180.00 101.49 L 180.50 100.59 L 181.00 99.70 L 181.50 98.81 L 182.00 97.93 L 182.50 97.07 L 183.00 96.21 L 183.50 95.37 L 184.00 94.53 L 184.50 93.70 L 185.00 92.88 L 185.50 92.08 L 186.00 91.28 L 186.50 90.49 L 187.00 89.71 L 187.50 88.94 L 188.00 88.18 L 188.50 87.43 L 189.00 86.69 L 189.50 85.96 L 190.00 85.24 L 190.50 84.53 L 191.00 83.83 L 191.50 83.14 L 192.00 82.45 L 192.50 81.78 L 193.00 81.12 L 193.50 80.47 L 194.00 79.82 L 194.50 79.19 L 195.00 78.56 L 195.50 77.95 L 196.00 77.35 L 196.50 76.75 L 197.00 76.17 L 197.50 75.59 L 198.00 75.02 L 198.50 74.47 L 199.00 73.92 L 199.50 73.38 L 200.00 72.86 L 200.50 72.34 L 201.00 71.83 L 201.50 71.33 L 202.00 70.84 L 202.50 70.36 L 203.00 69.90 L 203.50 69.44 L 204.00 68.99 L 204.50 68.55 L 205.00 68.12 L 205.50 67.69 L 206.00 67.28 L 206.50 66.88 L 207.00 66.49 L 207.50 66.11 L 208.00 65.74 L 208.50 65.37 L 209.00 65.02 L 209.50 64.68 L 210.00 64.34 L 210.50 64.02 L 211.00 63.70 L 211.50 63.40 L 212.00 63.10 L 212.50 62.82 L 213.00 62.54 L 213.50 62.28 L 214.00 62.02 L 214.50 61.77 L 215.00 61.54 L 215.50 61.31 L 216.00 61.09 L 216.50 60.88 L 217.00 60.69 L 217.50 60.50 L 218.00 60.32 L 218.50 60.15 L 219.00 59.99 L 219.50 59.84 L 220.00 59.70 L 220.50 59.57 L 221.00 59.45 L 221.50 59.34 L 222.00 59.23 L 222.50 59.14 L 223.00 59.06 L 223.50 58.99 L 224.00 58.92 L 224.50 58.87 L 225.00 58.83 L 225.50 58.79 L 226.00 58.77 L 226.50 58.75 L 227.00 58.75 L 227.50 58.75 L 228.00 58.77 L 228.50 58.79 L 229.00 58.83 L 229.50 58.87 L 230.00 58.92 L 230.50 58.99 L 231.00 59.06 L 231.50 59.14 L 232.00 59.23 L 232.50 59.34 L 233.00 59.45 L 233.50 59.57 L 234.00 59.70 L 234.50 59.84 L 235.00 59.99 L 235.50 60.15 L 236.00 60.32 L 236.50 60.50 L 237.00 60.69 L 237.50 60.88 L 238.00 61.09 L 238.50 61.31 L 239.00 61.54 L 239.50 61.77 L 240.00 62.02 L 240.50 62.28 L 241.00 62.54 L 241.50 62.82 L 242.00 63.10 L 242.50 63.40 L 243.00 63.70 L 243.50 64.02 L 244.00 64.34 L 244.50 64.68 L 245.00 65.02 L 245.50 65.37 L 246.00 65.74 L 246.50 66.11 L 247.00 66.49 L 247.50 66.88 L 248.00 67.28 L 248.50 67.69 L 249.00 68.12 L 249.50 68.55 L 250.00 68.99 L 250.50 69.44 L 251.00 69.90 L 251.50 70.36 L 252.00 70.84 L 252.50 71.33 L 253.00 71.83 L 253.50 72.34 L 254.00 72.86 L 254.50 73.38 L 255.00 73.92 L 255.50 74.47 L 256.00 75.02 L 256.50 75.59 L 257.00 76.17 L 257.50 76.75 L 258.00 77.35 L 258.50 77.95 L 259.00 78.56 L 259.50 79.19 L 260.00 79.82 L 260.50 80.47 L 261.00 81.12 L 261.50 81.78 L 262.00 82.45 L 262.50 83.14 L 263.00 83.83 L 263.50 84.53 L 264.00 85.24 L 264.50 85.96 L 265.00 86.69 L 265.50 87.43 L 266.00 88.18 L 266.50 88.94 L 267.00 89.71 L 267.50 90.49 L 268.00 91.28 L 268.50 92.08 L 269.00 92.88 L 269.50 93.70 L 270.00 94.53 L 270.50 95.37 L 271.00 96.21 L 271.50 97.07 L 272.00 97.93 L 272.50 98.81 L 273.00 99.70 L 273.50 100.59 L 274.00 101.49 L 274.50 102.41 L 275.00 103.33 L 275.50 104.27 L 276.00 105.21 L 276.50 106.16 L 277.00 107.13 L 277.50 108.10 L 278.00 109.08 L 278.50 110.07 L 279.00 111.07 L 279.50 112.08 L 280.00 113.10 L 280.50 114.14 L 281.00 115.18 L 281.50 116.22 L 282.00 117.28 L 282.50 118.35 L 283.00 119.43 L 283.50 120.52 L 284.00 121.62 L 284.50 122.73 L 285.00 123.84 L 285.50 124.97 L 286.00 126.11 L 286.50 127.25 L 287.00 128.41 L 287.50 129.58 L 288.00 130.75 L 288.50 131.94 L 289.00 133.13 L 289.50 134.34 L 290.00 135.55 L 290.50 136.77 L 291.00 138.01 L 291.50 139.25 L 292.00 140.50 L 292.50 141.77 L 293.00 143.04 L 293.50 144.32 L 294.00 145.61 L 294.50 146.91 L 295.00 148.23 L 295.50 149.55 L 296.00 150.88 L 296.50 152.22 L 297.00 153.57 L 297.50 154.93 L 298.00 156.29 L 298.50 157.67 L 299.00 159.06 L 299.50 160.46 L 300.00 161.87 L 300.50 163.28 L 301.00 164.71 L 301.50 166.15 L 302.00 167.59 L 302.50 169.05 L 303.00 170.52 L 303.50 171.99 L 304.00 173.48 L 304.50 174.97 L 305.00 176.48 L 305.50 177.99 L 306.00 179.51 L 306.50 181.05 L 307.00 182.59 L 307.50 184.14 L 308.00 185.71 L 308.50 187.28 L 309.00 188.86 L 309.50 190.45 L 310.00 192.05 L 310.50 193.66 L 311.00 195.29 L 311.50 196.92 L 312.00 198.56 L 312.50 200.20 L 313.00 201.86 L 313.50 203.53 L 314.00 205.21 L 314.50 206.90 L 315.00 208.60 L 315.50 210.31 L 316.00 212.02 L 316.50 213.75 L 317.00 215.49 L 317.50 217.23 L 318.00 218.99 L 318.50 220.75 L 319.00 222.53 L 319.50 224.32 L 320.00 226.11 L 320.50 227.91 L 321.00 229.73 L 321.50 231.55 L 322.00 233.39 L 322.50 235.23 L 323.00 237.08 L 323.50 238.94 L 324.00 240.82 L 324.50 242.70 L 325.00 244.59 L 325.50 246.49 L 326.00 248.40 L 326.50 250.32 L 327.00 252.25 L 327.50 254.19 L 328.00 256.14 L 328.50 258.10 L 329.00 260.07 L 329.50 262.05 L 330.00 264.04 L 330.50 266.03 L 331.00 268.04 L 331.50 270.06 L 332.00 272.09 L 332.50 274.12 L 333.00 276.17 L 333.50 278.22 L 334.00 280.29 L 334.50 282.37 L 335.00 284.45 L 335.50 286.55 L 336.00 288.65 L 336.50 290.76 L 337.00 292.89 L 337.50 295.02 L 338.00 297.16 L 338.50 299.32 L 339.00 301.48 L 339.50 303.65 L 340.00 305.83 L 340.50 308.02 L 341.00 310.23 L 341.50 312.44 L 342.00 314.66 L 342.50 316.89 L 343.00 319.13 L 343.50 321.38 L 344.00 323.63 L 344.50 325.90 L 345.00 328.18\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm nollställena.<br>b)&nbsp;Bestäm funktionens största värde.<br>c)&nbsp;Bestäm symmetrilinjens ekvation.</p>",
-    "s": "<p>a) Grafen skär x-axeln vid \\(x=-3\\) och \\(x=1\\).</p><p>b) Maximipunkten avläses till \\((-1{,}4)\\), så största värdet är \\(4\\).</p><p>c) Symmetrilinjen går genom maximipunkten: \\(x=-1\\).</p><p><strong>a) \\(-3\\) och \\(1\\) &nbsp; b) \\(4\\) &nbsp; c) \\(x=-1\\)</strong></p>",
+    "s": "<p>a) Grafen skär x-axeln vid \\(x=-3\\) och \\(x=1\\).</p><p>b) Maximipunkten avläses till \\((-1,\\,4)\\), så största värdet är \\(4\\).</p><p>c) Symmetrilinjen går genom maximipunkten: \\(x=-1\\).</p><p><strong>a) \\(-3\\) och \\(1\\) &nbsp; b) \\(4\\) &nbsp; c) \\(x=-1\\)</strong></p>",
     "familj": "Tolka andragradsfunktioner från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -17214,8 +17217,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Grafen visar funktionen \\(q\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"87.78\" y1=\"330.00\" x2=\"87.78\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"127.56\" y1=\"330.00\" x2=\"127.56\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"167.33\" y1=\"330.00\" x2=\"167.33\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"207.11\" y1=\"330.00\" x2=\"207.11\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"246.89\" y1=\"330.00\" x2=\"246.89\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"286.67\" y1=\"330.00\" x2=\"286.67\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"326.44\" y1=\"330.00\" x2=\"326.44\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"366.22\" y1=\"330.00\" x2=\"366.22\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"299.00\" x2=\"406.00\" y2=\"299.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"268.00\" x2=\"406.00\" y2=\"268.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"237.00\" x2=\"406.00\" y2=\"237.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"206.00\" x2=\"406.00\" y2=\"206.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"144.00\" x2=\"406.00\" y2=\"144.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"113.00\" x2=\"406.00\" y2=\"113.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"82.00\" x2=\"406.00\" y2=\"82.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"51.00\" x2=\"406.00\" y2=\"51.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"82.00\" x2=\"406.00\" y2=\"82.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"167.33\" y1=\"330.00\" x2=\"167.33\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"87.78\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"127.56\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"207.11\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"246.89\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"286.67\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"326.44\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"366.22\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"406.00\" y=\"99.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"159.33\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-8</text><text x=\"159.33\" y=\"302.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-7</text><text x=\"159.33\" y=\"271.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"159.33\" y=\"240.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"159.33\" y=\"209.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"159.33\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"159.33\" y=\"147.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"159.33\" y=\"116.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"159.33\" y=\"54.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"159.33\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><path d=\"M 113.00 21.13 L 113.50 23.36 L 114.00 25.58 L 114.50 27.79 L 115.00 29.99 L 115.50 32.18 L 116.00 34.36 L 116.50 36.53 L 117.00 38.69 L 117.50 40.84 L 118.00 42.98 L 118.50 45.11 L 119.00 47.23 L 119.50 49.34 L 120.00 51.44 L 120.50 53.53 L 121.00 55.61 L 121.50 57.69 L 122.00 59.75 L 122.50 61.80 L 123.00 63.84 L 123.50 65.87 L 124.00 67.90 L 124.50 69.91 L 125.00 71.91 L 125.50 73.91 L 126.00 75.89 L 126.50 77.87 L 127.00 79.83 L 127.50 81.78 L 128.00 83.73 L 128.50 85.66 L 129.00 87.59 L 129.50 89.50 L 130.00 91.41 L 130.50 93.30 L 131.00 95.19 L 131.50 97.07 L 132.00 98.93 L 132.50 100.79 L 133.00 102.63 L 133.50 104.47 L 134.00 106.30 L 134.50 108.12 L 135.00 109.92 L 135.50 111.72 L 136.00 113.51 L 136.50 115.29 L 137.00 117.05 L 137.50 118.81 L 138.00 120.56 L 138.50 122.30 L 139.00 124.03 L 139.50 125.75 L 140.00 127.46 L 140.50 129.16 L 141.00 130.85 L 141.50 132.53 L 142.00 134.20 L 142.50 135.86 L 143.00 137.51 L 143.50 139.15 L 144.00 140.78 L 144.50 142.40 L 145.00 144.01 L 145.50 145.61 L 146.00 147.21 L 146.50 148.79 L 147.00 150.36 L 147.50 151.92 L 148.00 153.48 L 148.50 155.02 L 149.00 156.55 L 149.50 158.08 L 150.00 159.59 L 150.50 161.09 L 151.00 162.59 L 151.50 164.07 L 152.00 165.54 L 152.50 167.01 L 153.00 168.46 L 153.50 169.91 L 154.00 171.34 L 154.50 172.77 L 155.00 174.18 L 155.50 175.59 L 156.00 176.99 L 156.50 178.37 L 157.00 179.75 L 157.50 181.12 L 158.00 182.47 L 158.50 183.82 L 159.00 185.16 L 159.50 186.48 L 160.00 187.80 L 160.50 189.11 L 161.00 190.41 L 161.50 191.70 L 162.00 192.97 L 162.50 194.24 L 163.00 195.50 L 163.50 196.75 L 164.00 197.99 L 164.50 199.22 L 165.00 200.44 L 165.50 201.65 L 166.00 202.85 L 166.50 204.04 L 167.00 205.22 L 167.50 206.39 L 168.00 207.55 L 168.50 208.70 L 169.00 209.84 L 169.50 210.97 L 170.00 212.10 L 170.50 213.21 L 171.00 214.31 L 171.50 215.40 L 172.00 216.48 L 172.50 217.56 L 173.00 218.62 L 173.50 219.67 L 174.00 220.72 L 174.50 221.75 L 175.00 222.77 L 175.50 223.79 L 176.00 224.79 L 176.50 225.79 L 177.00 226.77 L 177.50 227.74 L 178.00 228.71 L 178.50 229.66 L 179.00 230.61 L 179.50 231.55 L 180.00 232.47 L 180.50 233.39 L 181.00 234.29 L 181.50 235.19 L 182.00 236.08 L 182.50 236.95 L 183.00 237.82 L 183.50 238.68 L 184.00 239.52 L 184.50 240.36 L 185.00 241.19 L 185.50 242.01 L 186.00 242.82 L 186.50 243.61 L 187.00 244.40 L 187.50 245.18 L 188.00 245.95 L 188.50 246.71 L 189.00 247.46 L 189.50 248.20 L 190.00 248.93 L 190.50 249.65 L 191.00 250.36 L 191.50 251.06 L 192.00 251.75 L 192.50 252.43 L 193.00 253.10 L 193.50 253.76 L 194.00 254.41 L 194.50 255.06 L 195.00 255.69 L 195.50 256.31 L 196.00 256.92 L 196.50 257.52 L 197.00 258.12 L 197.50 258.70 L 198.00 259.27 L 198.50 259.84 L 199.00 260.39 L 199.50 260.93 L 200.00 261.47 L 200.50 261.99 L 201.00 262.51 L 201.50 263.01 L 202.00 263.50 L 202.50 263.99 L 203.00 264.46 L 203.50 264.93 L 204.00 265.39 L 204.50 265.83 L 205.00 266.27 L 205.50 266.69 L 206.00 267.11 L 206.50 267.52 L 207.00 267.91 L 207.50 268.30 L 208.00 268.68 L 208.50 269.04 L 209.00 269.40 L 209.50 269.75 L 210.00 270.09 L 210.50 270.42 L 211.00 270.73 L 211.50 271.04 L 212.00 271.34 L 212.50 271.63 L 213.00 271.91 L 213.50 272.18 L 214.00 272.44 L 214.50 272.69 L 215.00 272.93 L 215.50 273.16 L 216.00 273.38 L 216.50 273.59 L 217.00 273.79 L 217.50 273.98 L 218.00 274.16 L 218.50 274.33 L 219.00 274.50 L 219.50 274.65 L 220.00 274.79 L 220.50 274.92 L 221.00 275.04 L 221.50 275.16 L 222.00 275.26 L 222.50 275.35 L 223.00 275.44 L 223.50 275.51 L 224.00 275.57 L 224.50 275.63 L 225.00 275.67 L 225.50 275.71 L 226.00 275.73 L 226.50 275.75 L 227.00 275.75 L 227.50 275.75 L 228.00 275.73 L 228.50 275.71 L 229.00 275.67 L 229.50 275.63 L 230.00 275.57 L 230.50 275.51 L 231.00 275.44 L 231.50 275.35 L 232.00 275.26 L 232.50 275.16 L 233.00 275.04 L 233.50 274.92 L 234.00 274.79 L 234.50 274.65 L 235.00 274.50 L 235.50 274.33 L 236.00 274.16 L 236.50 273.98 L 237.00 273.79 L 237.50 273.59 L 238.00 273.38 L 238.50 273.16 L 239.00 272.93 L 239.50 272.69 L 240.00 272.44 L 240.50 272.18 L 241.00 271.91 L 241.50 271.63 L 242.00 271.34 L 242.50 271.04 L 243.00 270.73 L 243.50 270.42 L 244.00 270.09 L 244.50 269.75 L 245.00 269.40 L 245.50 269.04 L 246.00 268.68 L 246.50 268.30 L 247.00 267.91 L 247.50 267.52 L 248.00 267.11 L 248.50 266.69 L 249.00 266.27 L 249.50 265.83 L 250.00 265.39 L 250.50 264.93 L 251.00 264.46 L 251.50 263.99 L 252.00 263.50 L 252.50 263.01 L 253.00 262.51 L 253.50 261.99 L 254.00 261.47 L 254.50 260.93 L 255.00 260.39 L 255.50 259.84 L 256.00 259.27 L 256.50 258.70 L 257.00 258.12 L 257.50 257.52 L 258.00 256.92 L 258.50 256.31 L 259.00 255.69 L 259.50 255.06 L 260.00 254.41 L 260.50 253.76 L 261.00 253.10 L 261.50 252.43 L 262.00 251.75 L 262.50 251.06 L 263.00 250.36 L 263.50 249.65 L 264.00 248.93 L 264.50 248.20 L 265.00 247.46 L 265.50 246.71 L 266.00 245.95 L 266.50 245.18 L 267.00 244.40 L 267.50 243.61 L 268.00 242.82 L 268.50 242.01 L 269.00 241.19 L 269.50 240.36 L 270.00 239.52 L 270.50 238.68 L 271.00 237.82 L 271.50 236.95 L 272.00 236.08 L 272.50 235.19 L 273.00 234.29 L 273.50 233.39 L 274.00 232.47 L 274.50 231.55 L 275.00 230.61 L 275.50 229.66 L 276.00 228.71 L 276.50 227.74 L 277.00 226.77 L 277.50 225.79 L 278.00 224.79 L 278.50 223.79 L 279.00 222.77 L 279.50 221.75 L 280.00 220.72 L 280.50 219.67 L 281.00 218.62 L 281.50 217.56 L 282.00 216.48 L 282.50 215.40 L 283.00 214.31 L 283.50 213.21 L 284.00 212.10 L 284.50 210.97 L 285.00 209.84 L 285.50 208.70 L 286.00 207.55 L 286.50 206.39 L 287.00 205.22 L 287.50 204.04 L 288.00 202.85 L 288.50 201.65 L 289.00 200.44 L 289.50 199.22 L 290.00 197.99 L 290.50 196.75 L 291.00 195.50 L 291.50 194.24 L 292.00 192.97 L 292.50 191.70 L 293.00 190.41 L 293.50 189.11 L 294.00 187.80 L 294.50 186.48 L 295.00 185.16 L 295.50 183.82 L 296.00 182.47 L 296.50 181.12 L 297.00 179.75 L 297.50 178.37 L 298.00 176.99 L 298.50 175.59 L 299.00 174.18 L 299.50 172.77 L 300.00 171.34 L 300.50 169.91 L 301.00 168.46 L 301.50 167.01 L 302.00 165.54 L 302.50 164.07 L 303.00 162.59 L 303.50 161.09 L 304.00 159.59 L 304.50 158.08 L 305.00 156.55 L 305.50 155.02 L 306.00 153.48 L 306.50 151.92 L 307.00 150.36 L 307.50 148.79 L 308.00 147.21 L 308.50 145.61 L 309.00 144.01 L 309.50 142.40 L 310.00 140.78 L 310.50 139.15 L 311.00 137.51 L 311.50 135.86 L 312.00 134.20 L 312.50 132.53 L 313.00 130.85 L 313.50 129.16 L 314.00 127.46 L 314.50 125.75 L 315.00 124.03 L 315.50 122.30 L 316.00 120.56 L 316.50 118.81 L 317.00 117.05 L 317.50 115.29 L 318.00 113.51 L 318.50 111.72 L 319.00 109.92 L 319.50 108.12 L 320.00 106.30 L 320.50 104.47 L 321.00 102.63 L 321.50 100.79 L 322.00 98.93 L 322.50 97.07 L 323.00 95.19 L 323.50 93.30 L 324.00 91.41 L 324.50 89.50 L 325.00 87.59 L 325.50 85.66 L 326.00 83.73 L 326.50 81.78 L 327.00 79.83 L 327.50 77.87 L 328.00 75.89 L 328.50 73.91 L 329.00 71.91 L 329.50 69.91 L 330.00 67.90 L 330.50 65.87 L 331.00 63.84 L 331.50 61.80 L 332.00 59.75 L 332.50 57.69 L 333.00 55.61 L 333.50 53.53 L 334.00 51.44 L 334.50 49.34 L 335.00 47.23 L 335.50 45.11 L 336.00 42.98 L 336.50 40.84 L 337.00 38.69 L 337.50 36.53 L 338.00 34.36 L 338.50 32.18 L 339.00 29.99 L 339.50 27.79 L 340.00 25.58 L 340.50 23.36 L 341.00 21.13\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm nollställena.<br>b)&nbsp;Bestäm symmetrilinjens ekvation.<br>c)&nbsp;Bestäm en möjlig formel för \\(q\\).</p>",
     "s": "<p>a) Grafen skär x-axeln vid \\(x=-1\\) och \\(x=4\\).</p><p>b) Symmetrilinjen ligger mitt emellan nollställena: \\(x=\\dfrac{-1+4}{2}=1{,}5\\).</p><p>c) Nollställena ger \\(q(x)=a(x+1)(x-4)\\). Av grafen är \\(q(0)=-4\\), alltså \\(-4=a\\cdot1\\cdot(-4)\\) och \\(a=1\\).</p><p>Alltså \\(q(x)=(x+1)(x-4)=x^2-3x-4\\).</p><p><strong>a) \\(-1\\) och \\(4\\) &nbsp; b) \\(x=1{,}5\\) &nbsp; c) \\(q(x)=x^2-3x-4\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
@@ -17257,7 +17260,7 @@ window.BANKMA2 = [
       "symmetri",
       "faktorform"
     ],
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -17335,7 +17338,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En andragradsfunktion har två nollställen. Det ena är \\(x=2\\). Symmetrilinjen är \\(x=5\\), och \\(f(0)=40\\).</p><p>Bestäm funktionen och skissa grafens viktigaste punkter.</p>",
-    "s": "<p>Det andra nollstället ligger lika långt på andra sidan symmetrilinjen: \\(x=8\\).</p><p>Skriv \\(f(x)=a(x-2)(x-8)\\).</p><p>\\(f(0)=16a=40\\Rightarrow a=2{,}5\\).</p><p><strong>\\(f(x)=2{,}5(x-2)(x-8)\\).</strong></p><p>Symmetrilinjen är \\(x=5\\), och minimipunkten är \\((5,-22{,}5)\\). Tillsammans med nollställena och punkten \\((0{,}40)\\) räcker detta för en tydlig skiss:</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"360\" viewBox=\"0 0 520 360\" role=\"img\" aria-label=\"Facitgraf till andragradsfunktionen med nollställen 2 och 8\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#d4d8df\"/><line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"92.7\" y1=\"20\" x2=\"92.7\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"133.5\" y1=\"20\" x2=\"133.5\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"174.2\" y1=\"20\" x2=\"174.2\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"214.9\" y1=\"20\" x2=\"214.9\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"255.6\" y1=\"20\" x2=\"255.6\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"296.4\" y1=\"20\" x2=\"296.4\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"337.1\" y1=\"20\" x2=\"337.1\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"377.8\" y1=\"20\" x2=\"377.8\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"418.5\" y1=\"20\" x2=\"418.5\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"459.3\" y1=\"20\" x2=\"459.3\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"500.0\" y1=\"20\" x2=\"500.0\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"318.0\" x2=\"500\" y2=\"318.0\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"296.7\" x2=\"500\" y2=\"296.7\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"275.4\" x2=\"500\" y2=\"275.4\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"254.1\" x2=\"500\" y2=\"254.1\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"232.9\" x2=\"500\" y2=\"232.9\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"211.6\" x2=\"500\" y2=\"211.6\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"190.3\" x2=\"500\" y2=\"190.3\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"169.0\" x2=\"500\" y2=\"169.0\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"147.7\" x2=\"500\" y2=\"147.7\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"126.4\" x2=\"500\" y2=\"126.4\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"105.1\" x2=\"500\" y2=\"105.1\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"83.9\" x2=\"500\" y2=\"83.9\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.6\" x2=\"500\" y2=\"62.6\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"41.3\" x2=\"500\" y2=\"41.3\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"20.0\" x2=\"500\" y2=\"20.0\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"92.7\" y1=\"20\" x2=\"92.7\" y2=\"318\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><line x1=\"52\" y1=\"211.6\" x2=\"500\" y2=\"211.6\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><polyline points=\"52.0,-75.8 54.8,-67.1 57.6,-58.4 60.4,-49.9 63.2,-41.5 66.0,-33.1 68.8,-24.9 71.6,-16.8 74.4,-8.8 77.2,-0.8 80.0,7.0 82.8,14.7 85.6,22.3 88.4,29.9 91.2,37.3 94.0,44.6 96.8,51.8 99.6,58.9 102.4,66.0 105.2,72.9 108.0,79.7 110.8,86.4 113.6,93.0 116.4,99.6 119.2,106.0 122.0,112.3 124.8,118.5 127.6,124.6 130.4,130.6 133.2,136.5 136.0,142.4 138.8,148.1 141.6,153.7 144.4,159.2 147.2,164.6 150.0,169.9 152.8,175.1 155.6,180.2 158.4,185.2 161.2,190.1 164.0,194.9 166.8,199.6 169.6,204.3 172.4,208.8 175.2,213.2 178.0,217.5 180.8,221.7 183.6,225.8 186.4,229.8 189.2,233.7 192.0,237.5 194.8,241.2 197.6,244.8 200.4,248.3 203.2,251.7 206.0,255.0 208.8,258.2 211.6,261.3 214.4,264.3 217.2,267.1 220.0,269.9 222.8,272.6 225.6,275.2 228.4,277.7 231.2,280.1 234.0,282.4 236.8,284.6 239.6,286.7 242.4,288.7 245.2,290.6 248.0,292.3 250.8,294.0 253.6,295.6 256.4,297.1 259.2,298.5 262.0,299.8 264.8,301.0 267.6,302.0 270.4,303.0 273.2,303.9 276.0,304.7 278.8,305.4 281.6,306.0 284.4,306.4 287.2,306.8 290.0,307.1 292.8,307.3 295.6,307.4 298.4,307.3 301.2,307.2 304.0,307.0 306.8,306.7 309.6,306.2 312.4,305.7 315.2,305.1 318.0,304.4 320.8,303.5 323.6,302.6 326.4,301.6 329.2,300.4 332.0,299.2 334.8,297.9 337.6,296.4 340.4,294.9 343.2,293.3 346.0,291.5 348.8,289.7 351.6,287.8 354.4,285.7 357.2,283.6 360.0,281.4 362.8,279.0 365.6,276.6 368.4,274.1 371.2,271.4 374.0,268.7 376.8,265.8 379.6,262.9 382.4,259.9 385.2,256.7 388.0,253.5 390.8,250.1 393.6,246.7 396.4,243.1 399.2,239.5 402.0,235.8 404.8,231.9 407.6,228.0 410.4,223.9 413.2,219.8 416.0,215.5 418.8,211.2 421.6,206.7 424.4,202.2 427.2,197.5 430.0,192.8 432.8,187.9 435.6,183.0 438.4,177.9 441.2,172.8 444.0,167.5 446.8,162.1 449.6,156.7 452.4,151.1 455.2,145.5 458.0,139.7 460.8,133.9 463.6,127.9 466.4,121.8 469.2,115.7 472.0,109.4 474.8,103.1 477.6,96.6 480.4,90.0 483.2,83.4 486.0,76.6 488.8,69.7 491.6,62.8 494.4,55.7 497.2,48.6 500.0,41.3\" fill=\"none\" stroke=\"#2f66e2\" stroke-width=\"3\" clip-path=\"none\"/><circle cx=\"174.2\" cy=\"211.6\" r=\"4.2\" fill=\"#111827\"/><text x=\"182.2\" y=\"203.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(2, 0)</text><circle cx=\"418.5\" cy=\"211.6\" r=\"4.2\" fill=\"#111827\"/><text x=\"426.5\" y=\"203.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(8, 0)</text><circle cx=\"296.4\" cy=\"307.4\" r=\"4.2\" fill=\"#111827\"/><text x=\"304.4\" y=\"299.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(5, -22,5)</text><circle cx=\"92.7\" cy=\"41.3\" r=\"4.2\" fill=\"#111827\"/><text x=\"100.7\" y=\"33.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(0, 40)</text></svg></span>",
+    "s": "<p>Det andra nollstället ligger lika långt på andra sidan symmetrilinjen: \\(x=8\\).</p><p>Skriv \\(f(x)=a(x-2)(x-8)\\).</p><p>\\(f(0)=16a=40\\Rightarrow a=2{,}5\\).</p><p><strong>\\(f(x)=2{,}5(x-2)(x-8)\\).</strong></p><p>Symmetrilinjen är \\(x=5\\), och minimipunkten är \\((5,\\,-22{,}5)\\). Tillsammans med nollställena och punkten \\((0,\\,40)\\) räcker detta för en tydlig skiss:</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"360\" viewBox=\"0 0 520 360\" role=\"img\" aria-label=\"Facitgraf till andragradsfunktionen med nollställen 2 och 8\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#d4d8df\"/><line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"92.7\" y1=\"20\" x2=\"92.7\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"133.5\" y1=\"20\" x2=\"133.5\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"174.2\" y1=\"20\" x2=\"174.2\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"214.9\" y1=\"20\" x2=\"214.9\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"255.6\" y1=\"20\" x2=\"255.6\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"296.4\" y1=\"20\" x2=\"296.4\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"337.1\" y1=\"20\" x2=\"337.1\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"377.8\" y1=\"20\" x2=\"377.8\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"418.5\" y1=\"20\" x2=\"418.5\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"459.3\" y1=\"20\" x2=\"459.3\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"500.0\" y1=\"20\" x2=\"500.0\" y2=\"318\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"318.0\" x2=\"500\" y2=\"318.0\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"296.7\" x2=\"500\" y2=\"296.7\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"275.4\" x2=\"500\" y2=\"275.4\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"254.1\" x2=\"500\" y2=\"254.1\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"232.9\" x2=\"500\" y2=\"232.9\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"211.6\" x2=\"500\" y2=\"211.6\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"190.3\" x2=\"500\" y2=\"190.3\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"169.0\" x2=\"500\" y2=\"169.0\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"147.7\" x2=\"500\" y2=\"147.7\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"126.4\" x2=\"500\" y2=\"126.4\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"105.1\" x2=\"500\" y2=\"105.1\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"83.9\" x2=\"500\" y2=\"83.9\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.6\" x2=\"500\" y2=\"62.6\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"41.3\" x2=\"500\" y2=\"41.3\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"52\" y1=\"20.0\" x2=\"500\" y2=\"20.0\" stroke=\"#ececef\" stroke-width=\"1\"/><line x1=\"92.7\" y1=\"20\" x2=\"92.7\" y2=\"318\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><line x1=\"52\" y1=\"211.6\" x2=\"500\" y2=\"211.6\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><polyline points=\"52.0,-75.8 54.8,-67.1 57.6,-58.4 60.4,-49.9 63.2,-41.5 66.0,-33.1 68.8,-24.9 71.6,-16.8 74.4,-8.8 77.2,-0.8 80.0,7.0 82.8,14.7 85.6,22.3 88.4,29.9 91.2,37.3 94.0,44.6 96.8,51.8 99.6,58.9 102.4,66.0 105.2,72.9 108.0,79.7 110.8,86.4 113.6,93.0 116.4,99.6 119.2,106.0 122.0,112.3 124.8,118.5 127.6,124.6 130.4,130.6 133.2,136.5 136.0,142.4 138.8,148.1 141.6,153.7 144.4,159.2 147.2,164.6 150.0,169.9 152.8,175.1 155.6,180.2 158.4,185.2 161.2,190.1 164.0,194.9 166.8,199.6 169.6,204.3 172.4,208.8 175.2,213.2 178.0,217.5 180.8,221.7 183.6,225.8 186.4,229.8 189.2,233.7 192.0,237.5 194.8,241.2 197.6,244.8 200.4,248.3 203.2,251.7 206.0,255.0 208.8,258.2 211.6,261.3 214.4,264.3 217.2,267.1 220.0,269.9 222.8,272.6 225.6,275.2 228.4,277.7 231.2,280.1 234.0,282.4 236.8,284.6 239.6,286.7 242.4,288.7 245.2,290.6 248.0,292.3 250.8,294.0 253.6,295.6 256.4,297.1 259.2,298.5 262.0,299.8 264.8,301.0 267.6,302.0 270.4,303.0 273.2,303.9 276.0,304.7 278.8,305.4 281.6,306.0 284.4,306.4 287.2,306.8 290.0,307.1 292.8,307.3 295.6,307.4 298.4,307.3 301.2,307.2 304.0,307.0 306.8,306.7 309.6,306.2 312.4,305.7 315.2,305.1 318.0,304.4 320.8,303.5 323.6,302.6 326.4,301.6 329.2,300.4 332.0,299.2 334.8,297.9 337.6,296.4 340.4,294.9 343.2,293.3 346.0,291.5 348.8,289.7 351.6,287.8 354.4,285.7 357.2,283.6 360.0,281.4 362.8,279.0 365.6,276.6 368.4,274.1 371.2,271.4 374.0,268.7 376.8,265.8 379.6,262.9 382.4,259.9 385.2,256.7 388.0,253.5 390.8,250.1 393.6,246.7 396.4,243.1 399.2,239.5 402.0,235.8 404.8,231.9 407.6,228.0 410.4,223.9 413.2,219.8 416.0,215.5 418.8,211.2 421.6,206.7 424.4,202.2 427.2,197.5 430.0,192.8 432.8,187.9 435.6,183.0 438.4,177.9 441.2,172.8 444.0,167.5 446.8,162.1 449.6,156.7 452.4,151.1 455.2,145.5 458.0,139.7 460.8,133.9 463.6,127.9 466.4,121.8 469.2,115.7 472.0,109.4 474.8,103.1 477.6,96.6 480.4,90.0 483.2,83.4 486.0,76.6 488.8,69.7 491.6,62.8 494.4,55.7 497.2,48.6 500.0,41.3\" fill=\"none\" stroke=\"#2f66e2\" stroke-width=\"3\" clip-path=\"none\"/><circle cx=\"174.2\" cy=\"211.6\" r=\"4.2\" fill=\"#111827\"/><text x=\"182.2\" y=\"203.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(2, 0)</text><circle cx=\"418.5\" cy=\"211.6\" r=\"4.2\" fill=\"#111827\"/><text x=\"426.5\" y=\"203.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(8, 0)</text><circle cx=\"296.4\" cy=\"307.4\" r=\"4.2\" fill=\"#111827\"/><text x=\"304.4\" y=\"299.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(5; -22,5)</text><circle cx=\"92.7\" cy=\"41.3\" r=\"4.2\" fill=\"#111827\"/><text x=\"100.7\" y=\"33.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#111827\">(0, 40)</text></svg></span>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -17419,8 +17422,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"83.80\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"119.60\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"155.40\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"191.20\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"262.80\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"298.60\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"334.40\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"370.20\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"406.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"219.00\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"219.00\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"219.00\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"219.00\" y=\"216.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"219.00\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"219.00\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"219.00\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"219.00\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><path d=\"M 48.00 49.06 L 48.50 50.41 L 49.00 51.76 L 49.50 53.10 L 50.00 54.44 L 50.50 55.78 L 51.00 57.11 L 51.50 58.44 L 52.00 59.77 L 52.50 61.09 L 53.00 62.40 L 53.50 63.72 L 54.00 65.03 L 54.50 66.33 L 55.00 67.63 L 55.50 68.93 L 56.00 70.23 L 56.50 71.52 L 57.00 72.80 L 57.50 74.09 L 58.00 75.37 L 58.50 76.64 L 59.00 77.91 L 59.50 79.18 L 60.00 80.45 L 60.50 81.71 L 61.00 82.96 L 61.50 84.22 L 62.00 85.47 L 62.50 86.71 L 63.00 87.95 L 63.50 89.19 L 64.00 90.42 L 64.50 91.65 L 65.00 92.88 L 65.50 94.10 L 66.00 95.32 L 66.50 96.54 L 67.00 97.75 L 67.50 98.96 L 68.00 100.16 L 68.50 101.36 L 69.00 102.56 L 69.50 103.75 L 70.00 104.94 L 70.50 106.12 L 71.00 107.30 L 71.50 108.48 L 72.00 109.65 L 72.50 110.82 L 73.00 111.99 L 73.50 113.15 L 74.00 114.31 L 74.50 115.46 L 75.00 116.61 L 75.50 117.76 L 76.00 118.90 L 76.50 120.04 L 77.00 121.18 L 77.50 122.31 L 78.00 123.44 L 78.50 124.56 L 79.00 125.68 L 79.50 126.80 L 80.00 127.91 L 80.50 129.02 L 81.00 130.13 L 81.50 131.23 L 82.00 132.33 L 82.50 133.42 L 83.00 134.51 L 83.50 135.60 L 84.00 136.68 L 84.50 137.76 L 85.00 138.84 L 85.50 139.91 L 86.00 140.98 L 86.50 142.04 L 87.00 143.10 L 87.50 144.16 L 88.00 145.21 L 88.50 146.26 L 89.00 147.30 L 89.50 148.34 L 90.00 149.38 L 90.50 150.41 L 91.00 151.44 L 91.50 152.47 L 92.00 153.49 L 92.50 154.51 L 93.00 155.53 L 93.50 156.54 L 94.00 157.54 L 94.50 158.55 L 95.00 159.55 L 95.50 160.54 L 96.00 161.54 L 96.50 162.52 L 97.00 163.51 L 97.50 164.49 L 98.00 165.47 L 98.50 166.44 L 99.00 167.41 L 99.50 168.37 L 100.00 169.34 L 100.50 170.29 L 101.00 171.25 L 101.50 172.20 L 102.00 173.15 L 102.50 174.09 L 103.00 175.03 L 103.50 175.96 L 104.00 176.89 L 104.50 177.82 L 105.00 178.75 L 105.50 179.67 L 106.00 180.58 L 106.50 181.50 L 107.00 182.41 L 107.50 183.31 L 108.00 184.21 L 108.50 185.11 L 109.00 186.00 L 109.50 186.89 L 110.00 187.78 L 110.50 188.66 L 111.00 189.54 L 111.50 190.42 L 112.00 191.29 L 112.50 192.15 L 113.00 193.02 L 113.50 193.88 L 114.00 194.73 L 114.50 195.59 L 115.00 196.43 L 115.50 197.28 L 116.00 198.12 L 116.50 198.96 L 117.00 199.79 L 117.50 200.62 L 118.00 201.45 L 118.50 202.27 L 119.00 203.09 L 119.50 203.90 L 120.00 204.71 L 120.50 205.52 L 121.00 206.32 L 121.50 207.12 L 122.00 207.92 L 122.50 208.71 L 123.00 209.50 L 123.50 210.28 L 124.00 211.06 L 124.50 211.84 L 125.00 212.61 L 125.50 213.38 L 126.00 214.14 L 126.50 214.91 L 127.00 215.66 L 127.50 216.42 L 128.00 217.17 L 128.50 217.91 L 129.00 218.66 L 129.50 219.40 L 130.00 220.13 L 130.50 220.86 L 131.00 221.59 L 131.50 222.31 L 132.00 223.03 L 132.50 223.75 L 133.00 224.46 L 133.50 225.17 L 134.00 225.88 L 134.50 226.58 L 135.00 227.27 L 135.50 227.97 L 136.00 228.66 L 136.50 229.34 L 137.00 230.02 L 137.50 230.70 L 138.00 231.38 L 138.50 232.05 L 139.00 232.72 L 139.50 233.38 L 140.00 234.04 L 140.50 234.69 L 141.00 235.35 L 141.50 235.99 L 142.00 236.64 L 142.50 237.28 L 143.00 237.92 L 143.50 238.55 L 144.00 239.18 L 144.50 239.80 L 145.00 240.43 L 145.50 241.04 L 146.00 241.66 L 146.50 242.27 L 147.00 242.87 L 147.50 243.48 L 148.00 244.08 L 148.50 244.67 L 149.00 245.26 L 149.50 245.85 L 150.00 246.43 L 150.50 247.01 L 151.00 247.59 L 151.50 248.16 L 152.00 248.73 L 152.50 249.30 L 153.00 249.86 L 153.50 250.42 L 154.00 250.97 L 154.50 251.52 L 155.00 252.07 L 155.50 252.61 L 156.00 253.15 L 156.50 253.68 L 157.00 254.21 L 157.50 254.74 L 158.00 255.26 L 158.50 255.78 L 159.00 256.30 L 159.50 256.81 L 160.00 257.32 L 160.50 257.82 L 161.00 258.32 L 161.50 258.82 L 162.00 259.31 L 162.50 259.80 L 163.00 260.29 L 163.50 260.77 L 164.00 261.25 L 164.50 261.72 L 165.00 262.19 L 165.50 262.66 L 166.00 263.12 L 166.50 263.58 L 167.00 264.04 L 167.50 264.49 L 168.00 264.94 L 168.50 265.38 L 169.00 265.82 L 169.50 266.26 L 170.00 266.69 L 170.50 267.12 L 171.00 267.55 L 171.50 267.97 L 172.00 268.39 L 172.50 268.80 L 173.00 269.21 L 173.50 269.62 L 174.00 270.02 L 174.50 270.42 L 175.00 270.81 L 175.50 271.20 L 176.00 271.59 L 176.50 271.97 L 177.00 272.35 L 177.50 272.73 L 178.00 273.10 L 178.50 273.47 L 179.00 273.83 L 179.50 274.20 L 180.00 274.55 L 180.50 274.91 L 181.00 275.26 L 181.50 275.60 L 182.00 275.94 L 182.50 276.28 L 183.00 276.62 L 183.50 276.95 L 184.00 277.27 L 184.50 277.60 L 185.00 277.92 L 185.50 278.23 L 186.00 278.54 L 186.50 278.85 L 187.00 279.16 L 187.50 279.46 L 188.00 279.75 L 188.50 280.05 L 189.00 280.34 L 189.50 280.62 L 190.00 280.90 L 190.50 281.18 L 191.00 281.45 L 191.50 281.72 L 192.00 281.99 L 192.50 282.25 L 193.00 282.51 L 193.50 282.77 L 194.00 283.02 L 194.50 283.27 L 195.00 283.51 L 195.50 283.75 L 196.00 283.99 L 196.50 284.22 L 197.00 284.45 L 197.50 284.67 L 198.00 284.89 L 198.50 285.11 L 199.00 285.32 L 199.50 285.53 L 200.00 285.74 L 200.50 285.94 L 201.00 286.14 L 201.50 286.33 L 202.00 286.53 L 202.50 286.71 L 203.00 286.90 L 203.50 287.08 L 204.00 287.25 L 204.50 287.42 L 205.00 287.59 L 205.50 287.76 L 206.00 287.92 L 206.50 288.07 L 207.00 288.23 L 207.50 288.38 L 208.00 288.52 L 208.50 288.66 L 209.00 288.80 L 209.50 288.94 L 210.00 289.07 L 210.50 289.19 L 211.00 289.31 L 211.50 289.43 L 212.00 289.55 L 212.50 289.66 L 213.00 289.77 L 213.50 289.87 L 214.00 289.97 L 214.50 290.07 L 215.00 290.16 L 215.50 290.25 L 216.00 290.34 L 216.50 290.42 L 217.00 290.49 L 217.50 290.57 L 218.00 290.64 L 218.50 290.70 L 219.00 290.77 L 219.50 290.82 L 220.00 290.88 L 220.50 290.93 L 221.00 290.98 L 221.50 291.02 L 222.00 291.06 L 222.50 291.10 L 223.00 291.13 L 223.50 291.16 L 224.00 291.18 L 224.50 291.20 L 225.00 291.22 L 225.50 291.23 L 226.00 291.24 L 226.50 291.25 L 227.00 291.25 L 227.50 291.25 L 228.00 291.24 L 228.50 291.23 L 229.00 291.22 L 229.50 291.20 L 230.00 291.18 L 230.50 291.16 L 231.00 291.13 L 231.50 291.10 L 232.00 291.06 L 232.50 291.02 L 233.00 290.98 L 233.50 290.93 L 234.00 290.88 L 234.50 290.82 L 235.00 290.77 L 235.50 290.70 L 236.00 290.64 L 236.50 290.57 L 237.00 290.49 L 237.50 290.42 L 238.00 290.34 L 238.50 290.25 L 239.00 290.16 L 239.50 290.07 L 240.00 289.97 L 240.50 289.87 L 241.00 289.77 L 241.50 289.66 L 242.00 289.55 L 242.50 289.43 L 243.00 289.31 L 243.50 289.19 L 244.00 289.07 L 244.50 288.94 L 245.00 288.80 L 245.50 288.66 L 246.00 288.52 L 246.50 288.38 L 247.00 288.23 L 247.50 288.07 L 248.00 287.92 L 248.50 287.76 L 249.00 287.59 L 249.50 287.42 L 250.00 287.25 L 250.50 287.08 L 251.00 286.90 L 251.50 286.71 L 252.00 286.53 L 252.50 286.33 L 253.00 286.14 L 253.50 285.94 L 254.00 285.74 L 254.50 285.53 L 255.00 285.32 L 255.50 285.11 L 256.00 284.89 L 256.50 284.67 L 257.00 284.45 L 257.50 284.22 L 258.00 283.99 L 258.50 283.75 L 259.00 283.51 L 259.50 283.27 L 260.00 283.02 L 260.50 282.77 L 261.00 282.51 L 261.50 282.25 L 262.00 281.99 L 262.50 281.72 L 263.00 281.45 L 263.50 281.18 L 264.00 280.90 L 264.50 280.62 L 265.00 280.34 L 265.50 280.05 L 266.00 279.75 L 266.50 279.46 L 267.00 279.16 L 267.50 278.85 L 268.00 278.54 L 268.50 278.23 L 269.00 277.92 L 269.50 277.60 L 270.00 277.27 L 270.50 276.95 L 271.00 276.62 L 271.50 276.28 L 272.00 275.94 L 272.50 275.60 L 273.00 275.26 L 273.50 274.91 L 274.00 274.55 L 274.50 274.20 L 275.00 273.83 L 275.50 273.47 L 276.00 273.10 L 276.50 272.73 L 277.00 272.35 L 277.50 271.97 L 278.00 271.59 L 278.50 271.20 L 279.00 270.81 L 279.50 270.42 L 280.00 270.02 L 280.50 269.62 L 281.00 269.21 L 281.50 268.80 L 282.00 268.39 L 282.50 267.97 L 283.00 267.55 L 283.50 267.12 L 284.00 266.69 L 284.50 266.26 L 285.00 265.82 L 285.50 265.38 L 286.00 264.94 L 286.50 264.49 L 287.00 264.04 L 287.50 263.58 L 288.00 263.12 L 288.50 262.66 L 289.00 262.19 L 289.50 261.72 L 290.00 261.25 L 290.50 260.77 L 291.00 260.29 L 291.50 259.80 L 292.00 259.31 L 292.50 258.82 L 293.00 258.32 L 293.50 257.82 L 294.00 257.32 L 294.50 256.81 L 295.00 256.30 L 295.50 255.78 L 296.00 255.26 L 296.50 254.74 L 297.00 254.21 L 297.50 253.68 L 298.00 253.15 L 298.50 252.61 L 299.00 252.07 L 299.50 251.52 L 300.00 250.97 L 300.50 250.42 L 301.00 249.86 L 301.50 249.30 L 302.00 248.73 L 302.50 248.16 L 303.00 247.59 L 303.50 247.01 L 304.00 246.43 L 304.50 245.85 L 305.00 245.26 L 305.50 244.67 L 306.00 244.08 L 306.50 243.48 L 307.00 242.87 L 307.50 242.27 L 308.00 241.66 L 308.50 241.04 L 309.00 240.43 L 309.50 239.80 L 310.00 239.18 L 310.50 238.55 L 311.00 237.92 L 311.50 237.28 L 312.00 236.64 L 312.50 235.99 L 313.00 235.35 L 313.50 234.69 L 314.00 234.04 L 314.50 233.38 L 315.00 232.72 L 315.50 232.05 L 316.00 231.38 L 316.50 230.70 L 317.00 230.02 L 317.50 229.34 L 318.00 228.66 L 318.50 227.97 L 319.00 227.27 L 319.50 226.58 L 320.00 225.88 L 320.50 225.17 L 321.00 224.46 L 321.50 223.75 L 322.00 223.03 L 322.50 222.31 L 323.00 221.59 L 323.50 220.86 L 324.00 220.13 L 324.50 219.40 L 325.00 218.66 L 325.50 217.91 L 326.00 217.17 L 326.50 216.42 L 327.00 215.66 L 327.50 214.91 L 328.00 214.14 L 328.50 213.38 L 329.00 212.61 L 329.50 211.84 L 330.00 211.06 L 330.50 210.28 L 331.00 209.50 L 331.50 208.71 L 332.00 207.92 L 332.50 207.12 L 333.00 206.32 L 333.50 205.52 L 334.00 204.71 L 334.50 203.90 L 335.00 203.09 L 335.50 202.27 L 336.00 201.45 L 336.50 200.62 L 337.00 199.79 L 337.50 198.96 L 338.00 198.12 L 338.50 197.28 L 339.00 196.43 L 339.50 195.59 L 340.00 194.73 L 340.50 193.88 L 341.00 193.02 L 341.50 192.15 L 342.00 191.29 L 342.50 190.42 L 343.00 189.54 L 343.50 188.66 L 344.00 187.78 L 344.50 186.89 L 345.00 186.00 L 345.50 185.11 L 346.00 184.21 L 346.50 183.31 L 347.00 182.41 L 347.50 181.50 L 348.00 180.58 L 348.50 179.67 L 349.00 178.75 L 349.50 177.82 L 350.00 176.89 L 350.50 175.96 L 351.00 175.03 L 351.50 174.09 L 352.00 173.15 L 352.50 172.20 L 353.00 171.25 L 353.50 170.29 L 354.00 169.34 L 354.50 168.37 L 355.00 167.41 L 355.50 166.44 L 356.00 165.47 L 356.50 164.49 L 357.00 163.51 L 357.50 162.52 L 358.00 161.54 L 358.50 160.54 L 359.00 159.55 L 359.50 158.55 L 360.00 157.54 L 360.50 156.54 L 361.00 155.53 L 361.50 154.51 L 362.00 153.49 L 362.50 152.47 L 363.00 151.44 L 363.50 150.41 L 364.00 149.38 L 364.50 148.34 L 365.00 147.30 L 365.50 146.26 L 366.00 145.21 L 366.50 144.16 L 367.00 143.10 L 367.50 142.04 L 368.00 140.98 L 368.50 139.91 L 369.00 138.84 L 369.50 137.76 L 370.00 136.68 L 370.50 135.60 L 371.00 134.51 L 371.50 133.42 L 372.00 132.33 L 372.50 131.23 L 373.00 130.13 L 373.50 129.02 L 374.00 127.91 L 374.50 126.80 L 375.00 125.68 L 375.50 124.56 L 376.00 123.44 L 376.50 122.31 L 377.00 121.18 L 377.50 120.04 L 378.00 118.90 L 378.50 117.76 L 379.00 116.61 L 379.50 115.46 L 380.00 114.31 L 380.50 113.15 L 381.00 111.99 L 381.50 110.82 L 382.00 109.65 L 382.50 108.48 L 383.00 107.30 L 383.50 106.12 L 384.00 104.94 L 384.50 103.75 L 385.00 102.56 L 385.50 101.36 L 386.00 100.16 L 386.50 98.96 L 387.00 97.75 L 387.50 96.54 L 388.00 95.32 L 388.50 94.10 L 389.00 92.88 L 389.50 91.65 L 390.00 90.42 L 390.50 89.19 L 391.00 87.95 L 391.50 86.71 L 392.00 85.47 L 392.50 84.22 L 393.00 82.96 L 393.50 81.71 L 394.00 80.45 L 394.50 79.18 L 395.00 77.91 L 395.50 76.64 L 396.00 75.37 L 396.50 74.09 L 397.00 72.80 L 397.50 71.52 L 398.00 70.23 L 398.50 68.93 L 399.00 67.63 L 399.50 66.33 L 400.00 65.03 L 400.50 63.72 L 401.00 62.40 L 401.50 61.09 L 402.00 59.77 L 402.50 58.44 L 403.00 57.11 L 403.50 55.78 L 404.00 54.44 L 404.50 53.10 L 405.00 51.76 L 405.50 50.41 L 406.00 49.06\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm symmetrilinjens ekvation.<br>b)&nbsp;Bestäm funktionen på formen \\(f(x)=ax^2+c\\).<br>c)&nbsp;Bestäm funktionens minsta värde.</p>",
     "s": "<p>a) Grafen är spegelsymmetrisk kring y-axeln, så symmetrilinjen är \\(x=0\\).</p><p>b) Eftersom symmetrilinjen är \\(x=0\\) finns ingen x-term. \\(f(0)=-4\\) ger \\(c=-4\\). Nollstället \\(x=4\\) ger \\(0=16a-4\\), alltså \\(a=\\dfrac14\\).</p><p>c) Minsta värdet antas på symmetrilinjen: \\(f(0)=-4\\).</p><p><strong>a) \\(x=0\\) &nbsp; b) \\(f(x)=\\dfrac14x^2-4\\) &nbsp; c) \\(-4\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
@@ -17456,7 +17459,7 @@ window.BANKMA2 = [
       "bestämma formel",
       "extremvärde"
     ],
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -17527,8 +17530,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En andragradsfunktion har nollställena \\(-2\\) och 4 och går genom punkten \\((0{,}4)\\).</p><p>Bestäm funktionens maximipunkt.</p>",
-    "s": "<p>Skriv \\(f(x)=a(x+2)(x-4)\\).</p><p>Eftersom \\(f(0)=4\\) får vi \\(4=a\\cdot2\\cdot(-4)=-8a\\), alltså \\(a=-1/2\\).</p><p>Symmetrilinjen är \\(x=1\\).</p><p>\\(f(1)=-\\frac12\\cdot3\\cdot(-3)=\\frac92\\).</p><p><strong>Maximipunkten är \\((1{,}4{,}5)\\).</strong></p>",
+    "t": "<p>En andragradsfunktion har nollställena \\(-2\\) och 4 och går genom punkten \\((0,\\,4)\\).</p><p>Bestäm funktionens maximipunkt.</p>",
+    "s": "<p>Skriv \\(f(x)=a(x+2)(x-4)\\).</p><p>Eftersom \\(f(0)=4\\) får vi \\(4=a\\cdot2\\cdot(-4)=-8a\\), alltså \\(a=-1/2\\).</p><p>Symmetrilinjen är \\(x=1\\).</p><p>\\(f(1)=-\\frac12\\cdot3\\cdot(-3)=\\frac92\\).</p><p><strong>Maximipunkten är \\((1,\\,4{,}5)\\).</strong></p>",
     "familj": "Grundegenskaper hos andragradsfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -17558,8 +17561,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>För \\(f(x)=-x^2+2x+8\\):</p><p>a) bestäm \\(f(0)\\),<br>b) bestäm \\(f(3)\\),<br>c) avgör om punkten \\((4{,}0)\\) ligger på grafen.</p>",
-    "s": "<p>a) \\(f(0)=8\\).</p><p>b) \\(f(3)=-9+6+8=5\\).</p><p>c) \\(f(4)=-16+8+8=0\\), så punkten \\((4{,}0)\\) ligger på grafen.</p><p><strong>a) 8. b) 5. c) Ja.</strong></p>",
+    "t": "<p>För \\(f(x)=-x^2+2x+8\\):</p><p>a) bestäm \\(f(0)\\),<br>b) bestäm \\(f(3)\\),<br>c) avgör om punkten \\((4,\\,0)\\) ligger på grafen.</p>",
+    "s": "<p>a) \\(f(0)=8\\).</p><p>b) \\(f(3)=-9+6+8=5\\).</p><p>c) \\(f(4)=-16+8+8=0\\), så punkten \\((4,\\,0)\\) ligger på grafen.</p><p><strong>a) 8. b) 5. c) Ja.</strong></p>",
     "familj": "Grundegenskaper hos andragradsfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -17623,8 +17626,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En andragradsfunktion har nollställena 2 och 7 och går genom punkten \\((0{,}14)\\). Bestäm funktionen.</p>",
-    "s": "<p>Nollställena 2 och 7 ger \\(f(x)=a(x-2)(x-7)\\).</p><p>Sätt in \\((0{,}14)\\): \\(14=a(-2)(-7)=14a\\Rightarrow a=1\\).</p><p><strong>\\(f(x)=(x-2)(x-7)\\).</strong></p>",
+    "t": "<p>En andragradsfunktion har nollställena 2 och 7 och går genom punkten \\((0,\\,14)\\). Bestäm funktionen.</p>",
+    "s": "<p>Nollställena 2 och 7 ger \\(f(x)=a(x-2)(x-7)\\).</p><p>Sätt in \\((0,\\,14)\\): \\(14=a(-2)(-7)=14a\\Rightarrow a=1\\).</p><p><strong>\\(f(x)=(x-2)(x-7)\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -17638,7 +17641,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Bestämma linjära funktioner från graf",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -17683,7 +17686,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Nollproduktmetoden och faktorisering",
     "ledtrad": "<p>Samma uttryck står i båda leden. Vad händer om du flyttar över allt och bryter ut det?</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -17751,7 +17754,7 @@ window.BANKMA2 = [
       "c)"
     ],
     "svarsstruktur": "ordnad",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -17920,7 +17923,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -17935,7 +17938,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En andragradsfunktion har nollställena \\(r\\) och \\(r+6\\). Grafens symmetrilinje är \\(x=5\\) och grafen går genom \\((0{,}20)\\).</p><p>Bestäm funktionen.</p>",
+    "t": "<p>En andragradsfunktion har nollställena \\(r\\) och \\(r+6\\). Grafens symmetrilinje är \\(x=5\\) och grafen går genom \\((0,\\,20)\\).</p><p>Bestäm funktionen.</p>",
     "s": "<p>Symmetrilinjen ligger mitt emellan nollställena:</p><p>\\(r+3=5\\Rightarrow r=2\\).</p><p>Nollställena är alltså 2 och 8.</p><p>Skriv \\(f(x)=a(x-2)(x-8)\\).</p><p>\\(20=16a\\Rightarrow a=5/4\\).</p><p><strong>\\(f(x)=\\frac54(x-2)(x-8)\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
@@ -18170,7 +18173,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En andragradsekvation \\(x^2+px+q=0\\) har två heltalsrötter. Rötternas differens är 5 och produkten är 36.</p><p>Bestäm alla möjliga värden på \\(p\\) och \\(q\\).</p>",
-    "s": "<p>Eftersom produkten är 36 söker vi heltalspar med differens 5.</p><p>Positiva faktorpar: \\((1{,}36),(2{,}18),(3{,}12),(4{,}9),(6{,}6)\\). Endast \\(4\\) och \\(9\\) har differensen 5.</p><p>Även \\(-4\\) och \\(-9\\) har produkten 36 och differensen 5.</p><p>För rötter \\(r_1,r_2\\) gäller \\(p=-(r_1+r_2)\\) och \\(q=r_1r_2\\).</p><p>Rötterna \\(4{,}9\\) ger \\(p=-13,q=36\\). Rötterna \\(-4,-9\\) ger \\(p=13,q=36\\).</p><p><strong>\\((p,q)=(-13{,}36)\\) eller \\((13{,}36)\\).</strong></p>",
+    "s": "<p>Eftersom produkten är 36 söker vi heltalspar med differens 5.</p><p>Positiva faktorpar: \\((1,\\,36),(2,\\,18),(3,\\,12),(4,\\,9),(6,\\,6)\\). Endast \\(4\\) och \\(9\\) har differensen 5.</p><p>Även \\(-4\\) och \\(-9\\) har produkten 36 och differensen 5.</p><p>För rötter \\(r_1,r_2\\) gäller \\(p=-(r_1+r_2)\\) och \\(q=r_1r_2\\).</p><p>Rötterna \\(4,\\,9\\) ger \\(p=-13,q=36\\). Rötterna \\(-4,-9\\) ger \\(p=13,q=36\\).</p><p><strong>\\((p,q)=(-13,\\,36)\\) eller \\((13,\\,36)\\).</strong></p>",
     "familj": "Rötter och koefficienter",
     "geogebra": false,
     "miniräknare": false,
@@ -18288,7 +18291,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En andragradsfunktion har nollställena −1 och 5 och koefficienten framför \\(x^2\\) är 1. Skriv funktionen på faktoriserad form.</p>",
-    "s": "<p>Nollställena är \\(-1\\) och 5, så funktionen har formen</p><p>\\(f(x)=a(x+1)(x-5)\\).</p><p>Den markerade punkten i grafen visar att \\(a=1\\).</p><p><strong>\\(f(x)=(x+1)(x-5)\\).</strong></p>",
+    "s": "<p>Nollställena \\(-1\\) och \\(5\\) ger faktorformen \\(f(x)=a(x+1)(x-5)\\).</p><p>Eftersom koefficienten framför \\(x^2\\) är 1 är \\(a=1\\).</p><p><strong>\\(f(x)=(x+1)(x-5)\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -18375,7 +18378,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>Koefficienten framför \\(x^2\\) ska vara 1 innan du använder formeln.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -18478,7 +18481,7 @@ window.BANKMA2 = [
       "negativa talen"
     ],
     "svarsstruktur": "ordnad",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -18565,7 +18568,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Använda potensregler",
     "ledtrad": "<p>Skriv om uttrycken med samma bas när det går. Använd sedan potensreglerna på exponenterna och normalisera grundpotensformen så att faktorn ligger mellan 1 och 10.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -18580,7 +18583,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En linjär funktion \\(f\\) uppfyller \\(f(2)=7\\) och \\(f(f(2))=22\\).</p><p>Bestäm \\(f(x)\\).</p>",
-    "s": "<p>Eftersom \\(f(2)=7\\) är \\(f(f(2))=f(7)\\). Alltså gäller \\(f(7)=22\\).</p><p>Den linjära funktionens graf går därför genom punkterna \\((2{,}7)\\) och \\((7{,}22)\\).</p><p>Riktningskoefficienten är \\(k=\\frac{22-7}{7-2}=3\\).</p><p>Skriv \\(f(x)=3x+m\\). Villkoret \\(f(2)=7\\) ger \\(6+m=7\\), alltså \\(m=1\\).</p><p><strong>\\(f(x)=3x+1\\).</strong></p>",
+    "s": "<p>Eftersom \\(f(2)=7\\) är \\(f(f(2))=f(7)\\). Alltså gäller \\(f(7)=22\\).</p><p>Den linjära funktionens graf går därför genom punkterna \\((2,\\,7)\\) och \\((7,\\,22)\\).</p><p>Riktningskoefficienten är \\(k=\\frac{22-7}{7-2}=3\\).</p><p>Skriv \\(f(x)=3x+m\\). Villkoret \\(f(2)=7\\) ger \\(6+m=7\\), alltså \\(m=1\\).</p><p><strong>\\(f(x)=3x+1\\).</strong></p>",
     "familj": "Tolka funktionsnotation och funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
@@ -18607,7 +18610,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/4/0",
     "t": "<p>Grafen visar \\(y=f(x)\\). Mellan markerade heltalsvärden består grafen av räta linjesegment.</p><span class=\"fig\"><svg width=\"500\" height=\"355\" viewBox=\"0 0 500 355\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till funktionen f\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"353\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><clipPath id=\"fg2304\"><rect x=\"58\" y=\"24\" width=\"420\" height=\"283\"/></clipPath></defs><line x1=\"58.00\" y1=\"24\" x2=\"58.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"110.50\" y1=\"24\" x2=\"110.50\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"163.00\" y1=\"24\" x2=\"163.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"215.50\" y1=\"24\" x2=\"215.50\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"268.00\" y1=\"24\" x2=\"268.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"320.50\" y1=\"24\" x2=\"320.50\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"373.00\" y1=\"24\" x2=\"373.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"425.50\" y1=\"24\" x2=\"425.50\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"478.00\" y1=\"24\" x2=\"478.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"307.00\" x2=\"478\" y2=\"307.00\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"250.40\" x2=\"478\" y2=\"250.40\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.80\" x2=\"478\" y2=\"193.80\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.20\" x2=\"478\" y2=\"137.20\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"80.60\" x2=\"478\" y2=\"80.60\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"24.00\" x2=\"478\" y2=\"24.00\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"250.40\" x2=\"485\" y2=\"250.40\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"485,250.40 474,244.40 474,256.40\" fill=\"#2B2527\"/><line x1=\"268.00\" y1=\"307\" x2=\"268.00\" y2=\"17\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"268.00,17 262.00,28 274.00,28\" fill=\"#2B2527\"/><line x1=\"58.00\" y1=\"246.40\" x2=\"58.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"58.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-4</text><line x1=\"110.50\" y1=\"246.40\" x2=\"110.50\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"110.50\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-3</text><line x1=\"163.00\" y1=\"246.40\" x2=\"163.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"163.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-2</text><line x1=\"215.50\" y1=\"246.40\" x2=\"215.50\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"215.50\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-1</text><line x1=\"320.50\" y1=\"246.40\" x2=\"320.50\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"320.50\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">1</text><line x1=\"373.00\" y1=\"246.40\" x2=\"373.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"373.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">2</text><line x1=\"425.50\" y1=\"246.40\" x2=\"425.50\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"425.50\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">3</text><line x1=\"478.00\" y1=\"246.40\" x2=\"478.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"478.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">4</text><line x1=\"264.00\" y1=\"307.00\" x2=\"272.00\" y2=\"307.00\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"311.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-1</text><line x1=\"264.00\" y1=\"193.80\" x2=\"272.00\" y2=\"193.80\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"197.80\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">1</text><line x1=\"264.00\" y1=\"137.20\" x2=\"272.00\" y2=\"137.20\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"141.20\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">2</text><line x1=\"264.00\" y1=\"80.60\" x2=\"272.00\" y2=\"80.60\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"84.60\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">3</text><line x1=\"264.00\" y1=\"24.00\" x2=\"272.00\" y2=\"24.00\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"28.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">4</text><text x=\"487\" y=\"241.40\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">x</text><text x=\"278.00\" y=\"36\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">y</text><path d=\"M58.00,137.20 L110.50,193.80 L163.00,250.40 L215.50,193.80 L268.00,137.20 L320.50,80.60 L373.00,137.20 L425.50,193.80 L478.00,250.40\" clip-path=\"url(#fg2304)\" fill=\"none\" stroke=\"#2F6FAE\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"391.60\" y=\"185.80\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" fill=\"#2F6FAE\">f</text></svg></span><p>Lös ekvationen \\(f(f(x))=2\\). Redovisa de två avläsningsstegen.</p>",
-    "s": "<p>Först söker vi vilka x-värde \\(u\\) som ger \\(f(u)=2\\). Av grafen fås <strong>\\(u=-4{,}0{,}2\\)</strong>.</p><p>Alltså måste \\(f(x)=-4\\), \\(f(x)=0\\) eller \\(f(x)=2\\).</p><p>Grafen når aldrig −4. \\(f(x)=0\\) ger \\(x=-2\\) eller \\(x=4\\). \\(f(x)=2\\) ger \\(x=-4{,}0{,}2\\).</p><p><strong>Lösningarna är \\(x=-4,-2{,}0{,}2{,}4\\).</strong></p>",
+    "s": "<p>Först söker vi vilka x-värde \\(u\\) som ger \\(f(u)=2\\). Av grafen fås <strong>\\(u=-4,\\,0,\\,2\\)</strong>.</p><p>Alltså måste \\(f(x)=-4\\), \\(f(x)=0\\) eller \\(f(x)=2\\).</p><p>Grafen når aldrig −4. \\(f(x)=0\\) ger \\(x=-2\\) eller \\(x=4\\). \\(f(x)=2\\) ger \\(x=-4,\\,0,\\,2\\).</p><p><strong>Lösningarna är \\(x=-4,-2,\\,0,\\,2,\\,4\\).</strong></p>",
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
@@ -18649,7 +18652,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
+    "ledtrad": "<p>Sätt in \\(x=-2\\) och \\(x=2\\) var för sig i funktionsuttrycket och jämför de två funktionsvärdena.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": false,
@@ -18663,8 +18666,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Grafen visar \\(y=f(x)\\).</p><span class=\"fig\"><svg width=\"540\" height=\"390\" viewBox=\"0 0 540 390\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till funktionen f\"><rect x=\"1\" y=\"1\" width=\"538\" height=\"388\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><clipPath id=\"clip-2-279\"><rect x=\"58\" y=\"24\" width=\"454\" height=\"318\"/></clipPath></defs><line x1=\"58.00\" y1=\"24\" x2=\"58.00\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"114.75\" y1=\"24\" x2=\"114.75\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"171.50\" y1=\"24\" x2=\"171.50\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"228.25\" y1=\"24\" x2=\"228.25\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"285.00\" y1=\"24\" x2=\"285.00\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"341.75\" y1=\"24\" x2=\"341.75\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"398.50\" y1=\"24\" x2=\"398.50\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"455.25\" y1=\"24\" x2=\"455.25\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"512.00\" y1=\"24\" x2=\"512.00\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"342.00\" x2=\"512\" y2=\"342.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"310.20\" x2=\"512\" y2=\"310.20\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"278.40\" x2=\"512\" y2=\"278.40\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"246.60\" x2=\"512\" y2=\"246.60\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"214.80\" x2=\"512\" y2=\"214.80\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.00\" x2=\"512\" y2=\"183.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"151.20\" x2=\"512\" y2=\"151.20\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"119.40\" x2=\"512\" y2=\"119.40\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"87.60\" x2=\"512\" y2=\"87.60\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"55.80\" x2=\"512\" y2=\"55.80\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"24.00\" x2=\"512\" y2=\"24.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"228.25\" y1=\"24\" x2=\"228.25\" y2=\"342\" stroke=\"#222\" stroke-width=\"1.8\"/><polygon points=\"228.25,19 223.25,30 233.25,30\" fill=\"#222\"/><line x1=\"58\" y1=\"310.20\" x2=\"512\" y2=\"310.20\" stroke=\"#222\" stroke-width=\"1.8\"/><polygon points=\"518,310.20 507,305.20 507,315.20\" fill=\"#222\"/><text x=\"58.00\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-3</text><text x=\"114.75\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-2</text><text x=\"171.50\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-1</text><text x=\"285.00\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"341.75\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"398.50\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"455.25\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"512.00\" y=\"330.20\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">5</text><text x=\"219.25\" y=\"346.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-1</text><text x=\"219.25\" y=\"282.40\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"219.25\" y=\"250.60\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"219.25\" y=\"218.80\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"219.25\" y=\"187.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"219.25\" y=\"155.20\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">5</text><text x=\"219.25\" y=\"123.40\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">6</text><text x=\"219.25\" y=\"91.60\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">7</text><text x=\"219.25\" y=\"59.80\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">8</text><text x=\"219.25\" y=\"28.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">9</text><text x=\"515\" y=\"302.20\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">x</text><text x=\"238.25\" y=\"37\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">y</text><path d=\"M 58.00,-198.60 L 58.91,-194.53 L 59.82,-190.48 L 60.73,-186.44 L 61.64,-182.42 L 62.55,-178.41 L 63.46,-174.42 L 64.37,-170.45 L 65.28,-166.49 L 66.19,-162.56 L 67.10,-158.63 L 68.01,-154.72 L 68.92,-150.83 L 69.83,-146.96 L 70.74,-143.10 L 71.65,-139.26 L 72.56,-135.44 L 73.47,-131.63 L 74.38,-127.83 L 75.29,-124.06 L 76.20,-120.30 L 77.11,-116.55 L 78.02,-112.83 L 78.93,-109.12 L 79.84,-105.42 L 80.75,-101.74 L 81.66,-98.08 L 82.57,-94.44 L 83.47,-90.81 L 84.38,-87.20 L 85.29,-83.60 L 86.20,-80.02 L 87.11,-76.46 L 88.02,-72.91 L 88.93,-69.38 L 89.84,-65.86 L 90.75,-62.36 L 91.66,-58.88 L 92.57,-55.42 L 93.48,-51.97 L 94.39,-48.54 L 95.30,-45.12 L 96.21,-41.72 L 97.12,-38.33 L 98.03,-34.97 L 98.94,-31.62 L 99.85,-28.28 L 100.76,-24.96 L 101.67,-21.66 L 102.58,-18.38 L 103.49,-15.11 L 104.40,-11.85 L 105.31,-8.62 L 106.22,-5.40 L 107.13,-2.19 L 108.04,1.00 L 108.95,4.17 L 109.86,7.32 L 110.77,10.46 L 111.68,13.58 L 112.59,16.69 L 113.50,19.78 L 114.41,22.85 L 115.32,25.91 L 116.23,28.95 L 117.14,31.97 L 118.05,34.98 L 118.96,37.97 L 119.87,40.95 L 120.78,43.91 L 121.69,46.85 L 122.60,49.78 L 123.51,52.68 L 124.42,55.58 L 125.33,58.46 L 126.24,61.32 L 127.15,64.16 L 128.06,66.99 L 128.97,69.80 L 129.88,72.60 L 130.79,75.37 L 131.70,78.14 L 132.61,80.88 L 133.52,83.61 L 134.42,86.33 L 135.33,89.02 L 136.24,91.70 L 137.15,94.37 L 138.06,97.02 L 138.97,99.65 L 139.88,102.27 L 140.79,104.86 L 141.70,107.45 L 142.61,110.01 L 143.52,112.56 L 144.43,115.10 L 145.34,117.61 L 146.25,120.12 L 147.16,122.60 L 148.07,125.07 L 148.98,127.52 L 149.89,129.96 L 150.80,132.38 L 151.71,134.78 L 152.62,137.17 L 153.53,139.54 L 154.44,141.89 L 155.35,144.23 L 156.26,146.55 L 157.17,148.85 L 158.08,151.14 L 158.99,153.41 L 159.90,155.67 L 160.81,157.91 L 161.72,160.13 L 162.63,162.34 L 163.54,164.53 L 164.45,166.70 L 165.36,168.86 L 166.27,171.00 L 167.18,173.13 L 168.09,175.24 L 169.00,177.33 L 169.91,179.41 L 170.82,181.47 L 171.73,183.51 L 172.64,185.54 L 173.55,187.55 L 174.46,189.54 L 175.37,191.52 L 176.28,193.48 L 177.19,195.43 L 178.10,197.36 L 179.01,199.27 L 179.92,201.16 L 180.83,203.04 L 181.74,204.91 L 182.65,206.75 L 183.56,208.59 L 184.46,210.40 L 185.37,212.20 L 186.28,213.98 L 187.19,215.75 L 188.10,217.49 L 189.01,219.23 L 189.92,220.94 L 190.83,222.64 L 191.74,224.33 L 192.65,225.99 L 193.56,227.65 L 194.47,229.28 L 195.38,230.90 L 196.29,232.50 L 197.20,234.09 L 198.11,235.66 L 199.02,237.21 L 199.93,238.75 L 200.84,240.27 L 201.75,241.77 L 202.66,243.26 L 203.57,244.73 L 204.48,246.18 L 205.39,247.62 L 206.30,249.04 L 207.21,250.45 L 208.12,251.84 L 209.03,253.21 L 209.94,254.57 L 210.85,255.91 L 211.76,257.23 L 212.67,258.54 L 213.58,259.83 L 214.49,261.11 L 215.40,262.37 L 216.31,263.61 L 217.22,264.84 L 218.13,266.04 L 219.04,267.24 L 219.95,268.42 L 220.86,269.58 L 221.77,270.72 L 222.68,271.85 L 223.59,272.96 L 224.50,274.05 L 225.41,275.13 L 226.32,276.20 L 227.23,277.24 L 228.14,278.27 L 229.05,279.29 L 229.96,280.28 L 230.87,281.26 L 231.78,282.23 L 232.69,283.18 L 233.60,284.11 L 234.51,285.02 L 235.41,285.92 L 236.32,286.81 L 237.23,287.67 L 238.14,288.52 L 239.05,289.36 L 239.96,290.17 L 240.87,290.97 L 241.78,291.76 L 242.69,292.53 L 243.60,293.28 L 244.51,294.01 L 245.42,294.73 L 246.33,295.44 L 247.24,296.12 L 248.15,296.79 L 249.06,297.45 L 249.97,298.08 L 250.88,298.71 L 251.79,299.31 L 252.70,299.90 L 253.61,300.47 L 254.52,301.03 L 255.43,301.57 L 256.34,302.09 L 257.25,302.60 L 258.16,303.09 L 259.07,303.56 L 259.98,304.02 L 260.89,304.46 L 261.80,304.89 L 262.71,305.29 L 263.62,305.69 L 264.53,306.06 L 265.44,306.42 L 266.35,306.77 L 267.26,307.09 L 268.17,307.40 L 269.08,307.70 L 269.99,307.97 L 270.90,308.24 L 271.81,308.48 L 272.72,308.71 L 273.63,308.92 L 274.54,309.12 L 275.45,309.30 L 276.36,309.46 L 277.27,309.61 L 278.18,309.74 L 279.09,309.85 L 280.00,309.95 L 280.91,310.03 L 281.82,310.10 L 282.73,310.15 L 283.64,310.18 L 284.55,310.20 L 285.45,310.20 L 286.36,310.18 L 287.27,310.15 L 288.18,310.10 L 289.09,310.03 L 290.00,309.95 L 290.91,309.85 L 291.82,309.74 L 292.73,309.61 L 293.64,309.46 L 294.55,309.30 L 295.46,309.12 L 296.37,308.92 L 297.28,308.71 L 298.19,308.48 L 299.10,308.24 L 300.01,307.97 L 300.92,307.70 L 301.83,307.40 L 302.74,307.09 L 303.65,306.77 L 304.56,306.42 L 305.47,306.06 L 306.38,305.69 L 307.29,305.29 L 308.20,304.89 L 309.11,304.46 L 310.02,304.02 L 310.93,303.56 L 311.84,303.09 L 312.75,302.60 L 313.66,302.09 L 314.57,301.57 L 315.48,301.03 L 316.39,300.47 L 317.30,299.90 L 318.21,299.31 L 319.12,298.71 L 320.03,298.08 L 320.94,297.45 L 321.85,296.79 L 322.76,296.12 L 323.67,295.44 L 324.58,294.73 L 325.49,294.01 L 326.40,293.28 L 327.31,292.53 L 328.22,291.76 L 329.13,290.97 L 330.04,290.17 L 330.95,289.36 L 331.86,288.52 L 332.77,287.67 L 333.68,286.81 L 334.59,285.92 L 335.49,285.02 L 336.40,284.11 L 337.31,283.18 L 338.22,282.23 L 339.13,281.26 L 340.04,280.28 L 340.95,279.29 L 341.86,278.27 L 342.77,277.24 L 343.68,276.20 L 344.59,275.13 L 345.50,274.05 L 346.41,272.96 L 347.32,271.85 L 348.23,270.72 L 349.14,269.58 L 350.05,268.42 L 350.96,267.24 L 351.87,266.04 L 352.78,264.84 L 353.69,263.61 L 354.60,262.37 L 355.51,261.11 L 356.42,259.83 L 357.33,258.54 L 358.24,257.23 L 359.15,255.91 L 360.06,254.57 L 360.97,253.21 L 361.88,251.84 L 362.79,250.45 L 363.70,249.04 L 364.61,247.62 L 365.52,246.18 L 366.43,244.73 L 367.34,243.26 L 368.25,241.77 L 369.16,240.27 L 370.07,238.75 L 370.98,237.21 L 371.89,235.66 L 372.80,234.09 L 373.71,232.50 L 374.62,230.90 L 375.53,229.28 L 376.44,227.65 L 377.35,225.99 L 378.26,224.33 L 379.17,222.64 L 380.08,220.94 L 380.99,219.23 L 381.90,217.49 L 382.81,215.75 L 383.72,213.98 L 384.63,212.20 L 385.54,210.40 L 386.44,208.59 L 387.35,206.75 L 388.26,204.91 L 389.17,203.04 L 390.08,201.16 L 390.99,199.27 L 391.90,197.36 L 392.81,195.43 L 393.72,193.48 L 394.63,191.52 L 395.54,189.54 L 396.45,187.55 L 397.36,185.54 L 398.27,183.51 L 399.18,181.47 L 400.09,179.41 L 401.00,177.33 L 401.91,175.24 L 402.82,173.13 L 403.73,171.00 L 404.64,168.86 L 405.55,166.70 L 406.46,164.53 L 407.37,162.34 L 408.28,160.13 L 409.19,157.91 L 410.10,155.67 L 411.01,153.41 L 411.92,151.14 L 412.83,148.85 L 413.74,146.55 L 414.65,144.23 L 415.56,141.89 L 416.47,139.54 L 417.38,137.17 L 418.29,134.78 L 419.20,132.38 L 420.11,129.96 L 421.02,127.52 L 421.93,125.07 L 422.84,122.60 L 423.75,120.12 L 424.66,117.61 L 425.57,115.10 L 426.48,112.56 L 427.39,110.01 L 428.30,107.45 L 429.21,104.86 L 430.12,102.27 L 431.03,99.65 L 431.94,97.02 L 432.85,94.37 L 433.76,91.70 L 434.67,89.02 L 435.58,86.33 L 436.48,83.61 L 437.39,80.88 L 438.30,78.14 L 439.21,75.37 L 440.12,72.60 L 441.03,69.80 L 441.94,66.99 L 442.85,64.16 L 443.76,61.32 L 444.67,58.46 L 445.58,55.58 L 446.49,52.68 L 447.40,49.78 L 448.31,46.85 L 449.22,43.91 L 450.13,40.95 L 451.04,37.97 L 451.95,34.98 L 452.86,31.97 L 453.77,28.95 L 454.68,25.91 L 455.59,22.85 L 456.50,19.78 L 457.41,16.69 L 458.32,13.58 L 459.23,10.46 L 460.14,7.32 L 461.05,4.17 L 461.96,1.00 L 462.87,-2.19 L 463.78,-5.40 L 464.69,-8.62 L 465.60,-11.85 L 466.51,-15.11 L 467.42,-18.38 L 468.33,-21.66 L 469.24,-24.96 L 470.15,-28.28 L 471.06,-31.62 L 471.97,-34.97 L 472.88,-38.33 L 473.79,-41.72 L 474.70,-45.12 L 475.61,-48.54 L 476.52,-51.97 L 477.43,-55.42 L 478.34,-58.88 L 479.25,-62.36 L 480.16,-65.86 L 481.07,-69.38 L 481.98,-72.91 L 482.89,-76.46 L 483.80,-80.02 L 484.71,-83.60 L 485.62,-87.20 L 486.53,-90.81 L 487.43,-94.44 L 488.34,-98.08 L 489.25,-101.74 L 490.16,-105.42 L 491.07,-109.12 L 491.98,-112.83 L 492.89,-116.55 L 493.80,-120.30 L 494.71,-124.06 L 495.62,-127.83 L 496.53,-131.63 L 497.44,-135.44 L 498.35,-139.26 L 499.26,-143.10 L 500.17,-146.96 L 501.08,-150.83 L 501.99,-154.72 L 502.90,-158.63 L 503.81,-162.56 L 504.72,-166.49 L 505.63,-170.45 L 506.54,-174.42 L 507.45,-178.41 L 508.36,-182.42 L 509.27,-186.44 L 510.18,-190.48 L 511.09,-194.53 L 512.00,-198.60\" fill=\"none\" stroke=\"#2F6FAE\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" clip-path=\"url(#clip-2-279)\"/><text x=\"494\" y=\"44\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" fill=\"#2F6FAE\">f</text></svg></span><p>a) Bestäm \\(f(3)\\).<br>b) Lös ekvationen \\(f(x)=f(3)\\).</p>",
     "s": "<p>a) Läs av grafens y-värde vid \\(x=3\\): \\(f(3)=4\\).</p><p>b) Ekvationen \\(f(x)=f(3)\\) blir därför \\(f(x)=4\\). Den horisontella nivån \\(y=4\\) skär grafen vid \\(x=-1\\) och \\(x=3\\).</p><p><strong>a) \\(4\\) &nbsp;&nbsp; b) \\(x=-1\\) eller \\(x=3\\)</strong></p>",
     "familj": "Tolka funktionsnotation i graf",
@@ -18697,7 +18700,7 @@ window.BANKMA2 = [
       "b) lösningar"
     ],
     "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -18782,8 +18785,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Tabellen visar ett samband.</p><table class=\"data\"><tr><th>x</th><td>−2</td><td>1</td><td>3</td><td>1</td></tr><tr><th>y</th><td>4</td><td>7</td><td>10</td><td>\\(a+2\\)</td></tr></table><p>Bestäm \\(a\\) så att \\(y\\) kan beskrivas som en funktion av \\(x\\). Motivera.</p>",
     "s": "<p>Värdet \\(x=1\\) förekommer två gånger. För att \\(y\\) ska kunna beskrivas som en funktion av \\(x\\) måste samma x-värde ge samma funktionsvärde.</p><p>Alltså krävs \\(a+2=7\\), vilket ger \\(a=5\\).</p>",
     "familj": "Tolka funktionsnotation och funktionsvärden",
@@ -18799,7 +18802,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "ledtrad": "<p>Värdet \\(x=1\\) förekommer två gånger. För att \\(y\\) ska kunna beskrivas som en funktion av \\(x\\) måste samma x-värde ge samma funktionsvärde.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
@@ -19038,8 +19041,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Bestäm \\(a\\) så att \\(\\frac{(x^a)^3x^2}{x^{a+4}}=x^8\\) för alla \\(x\\ne0\\).</p>",
     "s": "<p>Förenkla exponenten i vänsterledet:</p><p>\\[\\frac{(x^a)^3x^2}{x^{a+4}}=x^{3a+2-(a+4)}=x^{2a-2}.\\]</p><p>För att detta ska vara lika med \\(x^8\\) för alla \\(x\\neq0\\) måste exponenterna vara lika:</p><p>\\[2a-2=8.\\]</p><p><strong>\\(a=5\\).</strong></p>",
     "familj": "Potensregler",
@@ -19056,7 +19059,7 @@ window.BANKMA2 = [
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda potensregler",
     "ledtrad": "<p>Skriv om uttrycken med samma bas när det går. Använd sedan potensreglerna på exponenterna och normalisera grundpotensformen så att faktorn ligger mellan 1 och 10.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -19226,8 +19229,8 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Skriv om ekvationen \\(x^2-8x+3=0\\) på formen \\((x-a)^2=b\\) och lös den exakt.</p>",
     "s": "<p>\\(x^2-8x+3=(x-4)^2-16+3=(x-4)^2-13\\).</p><p>Ekvationen blir \\((x-4)^2=13\\), alltså \\(x-4=\\pm\\sqrt{13}\\).</p><p><strong>Svar:</strong> \\(x=4\\pm\\sqrt{13}\\)</p>",
     "familj": "Kvadratkomplettering",
@@ -19253,7 +19256,7 @@ window.BANKMA2 = [
       "x"
     ],
     "ledtrad": "<p>Halva koefficienten framför \\(x\\) är \\(-4\\). Vad måste du lägga till och dra ifrån?</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -19264,8 +19267,8 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Skriv \\(2x^2+12x+5\\) på formen \\(a(x+b)^2+c\\).</p>",
     "s": "<p>Bryt ut 2 ur de två första termerna: \\(2(x^2+6x)+5\\).</p><p>\\(x^2+6x=(x+3)^2-9\\), så uttrycket blir \\(2\\left((x+3)^2-9\\right)+5=2(x+3)^2-18+5\\).</p><p><strong>Svar:</strong> \\(2(x+3)^2-13\\)</p>",
     "familj": "Kvadratkomplettering",
@@ -19281,7 +19284,7 @@ window.BANKMA2 = [
     ],
     "ledtrad": "<p>Bryt ut koefficienten framför \\(x^2\\) ur de två första termerna innan du kvadratkompletterar.</p>",
     "svarFormat": "uttryck",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -19322,7 +19325,7 @@ window.BANKMA2 = [
     ],
     "ledtrad": "<p>Titta på var talen \\(-3\\) och \\(11\\) kommer ifrån i de två lösningarna.</p>",
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -19340,7 +19343,7 @@ window.BANKMA2 = [
     "t": "<p>En bakteriekultur innehåller 900 bakterier. Efter 4 timmar finns 2 025 bakterier. Anta exponentiell tillväxt.</p><p>Efter hur lång tid finns 6 834 bakterier?</p>",
     "s": "<p>Låt \\(a\\) vara förändringsfaktorn per timme. Mätningen efter fyra timmar ger</p><p>\\[900a^4=2025\\Rightarrow a^4=2{,}25.\\]</p><p>För att nå 6 834 bakterier löser vi sedan</p><p>\\[900a^t=6834.\\]</p><p>Med \\(a=2{,}25^{1/4}\\) fås \\(t\\approx10{,}0\\).</p><p><strong>Det tar ungefär 10 timmar.</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
@@ -19352,7 +19355,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först tillväxtfaktorn från de två första observationerna. Använd sedan samma modell för målantalet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -19441,8 +19444,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm det minsta heltalet \\(x\\ge5\\) där \\(2^x&gt;x^2\\).</p>",
-    "s": "<p>Vi jämför exponentialfunktionen \\(2^x\\) med potensfunktionen \\(x^2\\).</p><p>Vid \\(x=4\\) är de lika: \\(2^4=16\\) och \\(4^2=16\\).</p><p>För det första tillåtna heltalet \\(x=5\\) får vi</p><p>\\(2^5=32\\) och \\(5^2=25\\).</p><p>Alltså gäller redan \\(2^5&gt;5^2\\).</p><p><strong>Det minsta heltalet \\(x\\ge5\\) är \\(x=5\\).</strong></p>",
+    "t": "<p>Bestäm det minsta heltalet \\(x\\ge2\\) där \\(2^x&gt;x^2\\).</p>",
+    "s": "<p>Jämför heltalsvärden från \\(x=2\\) och uppåt:</p><p>\\(x=2:\\ 2^2=4=2^2\\).</p><p>\\(x=3:\\ 2^3=8&lt;9=3^2\\).</p><p>\\(x=4:\\ 2^4=16=4^2\\).</p><p>\\(x=5:\\ 2^5=32&gt;25=5^2\\).</p><p><strong>Det minsta heltalet är \\(x=5\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -19456,7 +19459,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "svarFormat": "heltal",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Jämför \\(2^x\\) och \\(x^2\\) för heltalsvärden från \\(x=2\\) och uppåt tills olikheten blir sann.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -19472,7 +19475,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En elev påstår att \\(x^5\\) alltid är större än \\(2^x\\) eftersom det stämmer för \\(x=10\\). Bedöm påståendet.</p>",
-    "s": "<p>Påståendet är <strong>fel</strong>. Att en olikhet gäller för ett enda x-värde visar inte att den gäller för alla x.</p><p>Vid \\(x=10\\) är</p><p>\\(10^5=100\\,000\\) och \\(2^{10}=1\\,024\\), så där är \\(x^5\\) mycket större.</p><p>Men vid exempelvis \\(x=23\\) får vi</p><p>\\(23^5=6\\,436\\,343\\) medan \\(2^{23}=8\\,388\\,608\\).</p><p>Där har alltså exponentialfunktionen gått om potensfunktionen.</p><p>Förklaringen är att \\(2^x\\) multipliceras med 2 varje gång x ökar med 1, medan den relativa ökningen hos \\(x^5\\) blir allt mindre när x blir stort.</p><p><strong>Ett enda exempel, som \\(x=10\\), räcker därför inte för att bevisa ett påstående om alla x.</strong></p>",
+    "s": "<p>Påståendet är <strong>falskt</strong>. Att olikheten gäller för ett enda x-värde visar inte att den gäller för alla x.</p><p>Välj exempelvis \\(x=32\\). Då är</p><p>\\[32^5=(2^5)^5=2^{25},\\]</p><p>medan \\(2^{32}&gt;2^{25}\\). Alltså gäller \\(2^{32}&gt;32^5\\).</p><p>Det räcker som motexempel till påståendet. På lång sikt växer exponentialfunktionen snabbare än potensfunktionen.</p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -19485,7 +19488,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>För att visa att ett påstående av typen ”alltid” är falskt räcker ett motexempel. Försök välja ett x-värde som själv är en tvåpotens.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false,
@@ -19505,7 +19508,7 @@ window.BANKMA2 = [
     "s": "<p>Rita båda funktionerna i GeoGebra och bestäm deras skärningspunkter i intervallet.</p><p>De har samma värde ungefär vid \\(x=2{,}36\\) och \\(x=44{,}34\\).</p><p>Kontroll mellan skärningarna, till exempel vid \\(x=10\\): \\(f(10)=5000\\), medan \\(g(10)\\approx809\\). Där är alltså \\(f&gt;g\\).</p><p>Utanför skärningspunkterna är exponentialfunktionen större.</p><p><strong>\\(f(x)&gt;g(x)\\) för ungefär \\(2{,}36&lt;x&lt;44{,}34\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
     "geogebra": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "svarstyp": "uttryck",
     "rättSvar": null,
     "tolerans": null,
@@ -19529,8 +19532,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Två modeller är</p><p>\\[f(t)=40t^{1{,}5}\\qquad\\text{och}\\qquad g(t)=100\\cdot1{,}25^t.\\]</p><p>Vilken modell ger störst värde när \\(t=5\\) respektive \\(t=15\\)?</p>",
     "s": "<p>Vid \\(t=5\\):</p><p>\\(f(5)=40\\cdot5^{1{,}5}\\approx447\\) och \\(g(5)=100\\cdot1{,}25^5\\approx305\\). Alltså är \\(f(5)&gt;g(5)\\).</p><p>Vid \\(t=15\\):</p><p>\\(f(15)=40\\cdot15^{1{,}5}\\approx2324\\) och \\(g(15)=100\\cdot1{,}25^{15}\\approx2842\\). Alltså är \\(g(15)&gt;f(15)\\).</p><p><strong>Potensmodellen är störst vid \\(t=5\\), exponentialmodellen vid \\(t=15\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
@@ -19557,8 +19560,8 @@ window.BANKMA2 = [
       "störst vid t=5",
       "störst vid t=15"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Sätt in \\(t=5\\) respektive \\(t=15\\) i båda modellerna och jämför de två funktionsvärdena vid varje tidpunkt.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -19600,8 +19603,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Två modeller är</p><p>\\(f(x)=4x^2\\) och \\(g(x)=3\\cdot1{,}5^x\\), där \\(x\\ge5\\).</p><p>Använd ett digitalt verktyg för att bestämma det minsta heltalsvärdet på \\(x\\) där \\(g(x)&gt;f(x)\\).</p>",
     "s": "<p>Här jämförs en <strong>potensfunktion</strong>, \\(f(x)=4x^2\\), med en <strong>exponentialfunktion</strong>, \\(g(x)=3\\cdot1{,}5^x\\).</p><p><strong>GeoGebra:</strong> skriv in båda funktionerna och bestäm den skärningspunkt som ligger i området \\(x\\ge5\\). Du kan också skriva <code>NLös(3*1.5^x=4x^2)</code> i CAS.</p><p>Den relevanta skärningen ligger vid \\(x\\approx13{,}57\\). Eftersom frågan gäller heltal kontrollerar vi heltalen på var sin sida:</p><p>\\(x=13:\\quad g(13)\\approx583{,}9&lt;f(13)=676\\).</p><p>\\(x=14:\\quad g(14)\\approx875{,}8&gt;f(14)=784\\).</p><p><strong>Det minsta heltalet är därför \\(x=14\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
@@ -19618,7 +19621,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "heltal",
     "ledtrad": "<p>Här jämförs en potensfunktion, \\(f(x)=4x^2\\), med en exponentialfunktion, \\(g(x)=3\\cdot1{,}5^x\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -19692,7 +19695,7 @@ window.BANKMA2 = [
       }
     ],
     "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -19777,7 +19780,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -19860,8 +19863,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Funktionen är \\(f(x)=x^2-2\\).</p><span class=\"fig\"><svg width=\"500\" height=\"355\" viewBox=\"0 0 500 355\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till funktionen f\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"353\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><clipPath id=\"fg2300\"><rect x=\"58\" y=\"24\" width=\"420\" height=\"283\"/></clipPath></defs><line x1=\"58.00\" y1=\"24\" x2=\"58.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"163.00\" y1=\"24\" x2=\"163.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"268.00\" y1=\"24\" x2=\"268.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"373.00\" y1=\"24\" x2=\"373.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"478.00\" y1=\"24\" x2=\"478.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"307.00\" x2=\"478\" y2=\"307.00\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"266.57\" x2=\"478\" y2=\"266.57\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"226.14\" x2=\"478\" y2=\"226.14\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"185.71\" x2=\"478\" y2=\"185.71\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"145.29\" x2=\"478\" y2=\"145.29\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"104.86\" x2=\"478\" y2=\"104.86\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"64.43\" x2=\"478\" y2=\"64.43\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"24.00\" x2=\"478\" y2=\"24.00\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"185.71\" x2=\"485\" y2=\"185.71\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"485,185.71 474,179.71 474,191.71\" fill=\"#2B2527\"/><line x1=\"268.00\" y1=\"307\" x2=\"268.00\" y2=\"17\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"268.00,17 262.00,28 274.00,28\" fill=\"#2B2527\"/><line x1=\"58.00\" y1=\"181.71\" x2=\"58.00\" y2=\"189.71\" stroke=\"#2B2527\"/><text x=\"58.00\" y=\"203.71\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-2</text><line x1=\"163.00\" y1=\"181.71\" x2=\"163.00\" y2=\"189.71\" stroke=\"#2B2527\"/><text x=\"163.00\" y=\"203.71\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-1</text><line x1=\"373.00\" y1=\"181.71\" x2=\"373.00\" y2=\"189.71\" stroke=\"#2B2527\"/><text x=\"373.00\" y=\"203.71\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">1</text><line x1=\"478.00\" y1=\"181.71\" x2=\"478.00\" y2=\"189.71\" stroke=\"#2B2527\"/><text x=\"478.00\" y=\"203.71\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">2</text><line x1=\"264.00\" y1=\"307.00\" x2=\"272.00\" y2=\"307.00\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"311.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-3</text><line x1=\"264.00\" y1=\"266.57\" x2=\"272.00\" y2=\"266.57\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"270.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-2</text><line x1=\"264.00\" y1=\"226.14\" x2=\"272.00\" y2=\"226.14\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"230.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-1</text><line x1=\"264.00\" y1=\"145.29\" x2=\"272.00\" y2=\"145.29\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"149.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">1</text><line x1=\"264.00\" y1=\"104.86\" x2=\"272.00\" y2=\"104.86\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"108.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">2</text><line x1=\"264.00\" y1=\"64.43\" x2=\"272.00\" y2=\"64.43\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"68.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">3</text><line x1=\"264.00\" y1=\"24.00\" x2=\"272.00\" y2=\"24.00\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"28.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">4</text><text x=\"487\" y=\"176.71\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">x</text><text x=\"278.00\" y=\"36\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">y</text><path d=\"M58.00,104.86 L58.84,106.15 L59.68,107.43 L60.52,108.71 L61.36,109.99 L62.20,111.26 L63.04,112.53 L63.88,113.79 L64.72,115.04 L65.56,116.29 L66.40,117.54 L67.24,118.77 L68.08,120.01 L68.92,121.24 L69.76,122.46 L70.60,123.68 L71.44,124.89 L72.28,126.10 L73.12,127.31 L73.96,128.50 L74.80,129.70 L75.64,130.88 L76.48,132.07 L77.32,133.24 L78.16,134.42 L79.00,135.58 L79.84,136.74 L80.68,137.90 L81.52,139.05 L82.36,140.20 L83.20,141.34 L84.04,142.48 L84.88,143.61 L85.72,144.73 L86.56,145.85 L87.40,146.97 L88.24,148.08 L89.08,149.18 L89.92,150.28 L90.76,151.38 L91.60,152.47 L92.44,153.55 L93.28,154.63 L94.12,155.70 L94.96,156.77 L95.80,157.83 L96.64,158.89 L97.48,159.95 L98.32,160.99 L99.16,162.04 L100.00,163.07 L100.84,164.11 L101.68,165.13 L102.52,166.16 L103.36,167.17 L104.20,168.18 L105.04,169.19 L105.88,170.19 L106.72,171.19 L107.56,172.18 L108.40,173.17 L109.24,174.15 L110.08,175.12 L110.92,176.09 L111.76,177.06 L112.60,178.02 L113.44,178.97 L114.28,179.92 L115.12,180.87 L115.96,181.80 L116.80,182.74 L117.64,183.67 L118.48,184.59 L119.32,185.51 L120.16,186.42 L121.00,187.33 L121.84,188.23 L122.68,189.13 L123.52,190.02 L124.36,190.91 L125.20,191.79 L126.04,192.67 L126.88,193.54 L127.72,194.41 L128.56,195.27 L129.40,196.13 L130.24,196.98 L131.08,197.83 L131.92,198.67 L132.76,199.50 L133.60,200.33 L134.44,201.16 L135.28,201.98 L136.12,202.79 L136.96,203.60 L137.80,204.41 L138.64,205.21 L139.48,206.00 L140.32,206.79 L141.16,207.58 L142.00,208.35 L142.84,209.13 L143.68,209.90 L144.52,210.66 L145.36,211.42 L146.20,212.17 L147.04,212.92 L147.88,213.66 L148.72,214.40 L149.56,215.13 L150.40,215.86 L151.24,216.58 L152.08,217.30 L152.92,218.01 L153.76,218.71 L154.60,219.42 L155.44,220.11 L156.28,220.80 L157.12,221.49 L157.96,222.17 L158.80,222.84 L159.64,223.51 L160.48,224.18 L161.32,224.84 L162.16,225.49 L163.00,226.14 L163.84,226.79 L164.68,227.43 L165.52,228.06 L166.36,228.69 L167.20,229.31 L168.04,229.93 L168.88,230.54 L169.72,231.15 L170.56,231.75 L171.40,232.35 L172.24,232.95 L173.08,233.53 L173.92,234.11 L174.76,234.69 L175.60,235.26 L176.44,235.83 L177.28,236.39 L178.12,236.95 L178.96,237.50 L179.80,238.05 L180.64,238.59 L181.48,239.12 L182.32,239.65 L183.16,240.18 L184.00,240.70 L184.84,241.21 L185.68,241.72 L186.52,242.23 L187.36,242.73 L188.20,243.22 L189.04,243.71 L189.88,244.19 L190.72,244.67 L191.56,245.14 L192.40,245.61 L193.24,246.08 L194.08,246.53 L194.92,246.99 L195.76,247.43 L196.60,247.88 L197.44,248.31 L198.28,248.75 L199.12,249.17 L199.96,249.60 L200.80,250.01 L201.64,250.42 L202.48,250.83 L203.32,251.23 L204.16,251.63 L205.00,252.02 L205.84,252.40 L206.68,252.78 L207.52,253.16 L208.36,253.53 L209.20,253.89 L210.04,254.25 L210.88,254.61 L211.72,254.96 L212.56,255.30 L213.40,255.64 L214.24,255.97 L215.08,256.30 L215.92,256.63 L216.76,256.94 L217.60,257.26 L218.44,257.56 L219.28,257.87 L220.12,258.16 L220.96,258.46 L221.80,258.74 L222.64,259.03 L223.48,259.30 L224.32,259.58 L225.16,259.84 L226.00,260.10 L226.84,260.36 L227.68,260.61 L228.52,260.86 L229.36,261.10 L230.20,261.33 L231.04,261.56 L231.88,261.79 L232.72,262.01 L233.56,262.22 L234.40,262.43 L235.24,262.64 L236.08,262.84 L236.92,263.03 L237.76,263.22 L238.60,263.40 L239.44,263.58 L240.28,263.75 L241.12,263.92 L241.96,264.08 L242.80,264.24 L243.64,264.40 L244.48,264.54 L245.32,264.69 L246.16,264.82 L247.00,264.95 L247.84,265.08 L248.68,265.20 L249.52,265.32 L250.36,265.43 L251.20,265.54 L252.04,265.64 L252.88,265.73 L253.72,265.82 L254.56,265.91 L255.40,265.99 L256.24,266.06 L257.08,266.13 L257.92,266.20 L258.76,266.26 L259.60,266.31 L260.44,266.36 L261.28,266.41 L262.12,266.44 L262.96,266.48 L263.80,266.51 L264.64,266.53 L265.48,266.55 L266.32,266.56 L267.16,266.57 L268.00,266.57 L268.84,266.57 L269.68,266.56 L270.52,266.55 L271.36,266.53 L272.20,266.51 L273.04,266.48 L273.88,266.44 L274.72,266.41 L275.56,266.36 L276.40,266.31 L277.24,266.26 L278.08,266.20 L278.92,266.13 L279.76,266.06 L280.60,265.99 L281.44,265.91 L282.28,265.82 L283.12,265.73 L283.96,265.64 L284.80,265.54 L285.64,265.43 L286.48,265.32 L287.32,265.20 L288.16,265.08 L289.00,264.95 L289.84,264.82 L290.68,264.69 L291.52,264.54 L292.36,264.40 L293.20,264.24 L294.04,264.08 L294.88,263.92 L295.72,263.75 L296.56,263.58 L297.40,263.40 L298.24,263.22 L299.08,263.03 L299.92,262.84 L300.76,262.64 L301.60,262.43 L302.44,262.22 L303.28,262.01 L304.12,261.79 L304.96,261.56 L305.80,261.33 L306.64,261.10 L307.48,260.86 L308.32,260.61 L309.16,260.36 L310.00,260.10 L310.84,259.84 L311.68,259.58 L312.52,259.30 L313.36,259.03 L314.20,258.74 L315.04,258.46 L315.88,258.16 L316.72,257.87 L317.56,257.56 L318.40,257.26 L319.24,256.94 L320.08,256.63 L320.92,256.30 L321.76,255.97 L322.60,255.64 L323.44,255.30 L324.28,254.96 L325.12,254.61 L325.96,254.25 L326.80,253.89 L327.64,253.53 L328.48,253.16 L329.32,252.78 L330.16,252.40 L331.00,252.02 L331.84,251.63 L332.68,251.23 L333.52,250.83 L334.36,250.42 L335.20,250.01 L336.04,249.60 L336.88,249.17 L337.72,248.75 L338.56,248.31 L339.40,247.88 L340.24,247.43 L341.08,246.99 L341.92,246.53 L342.76,246.08 L343.60,245.61 L344.44,245.14 L345.28,244.67 L346.12,244.19 L346.96,243.71 L347.80,243.22 L348.64,242.73 L349.48,242.23 L350.32,241.72 L351.16,241.21 L352.00,240.70 L352.84,240.18 L353.68,239.65 L354.52,239.12 L355.36,238.59 L356.20,238.05 L357.04,237.50 L357.88,236.95 L358.72,236.39 L359.56,235.83 L360.40,235.26 L361.24,234.69 L362.08,234.11 L362.92,233.53 L363.76,232.95 L364.60,232.35 L365.44,231.75 L366.28,231.15 L367.12,230.54 L367.96,229.93 L368.80,229.31 L369.64,228.69 L370.48,228.06 L371.32,227.43 L372.16,226.79 L373.00,226.14 L373.84,225.49 L374.68,224.84 L375.52,224.18 L376.36,223.51 L377.20,222.84 L378.04,222.17 L378.88,221.49 L379.72,220.80 L380.56,220.11 L381.40,219.42 L382.24,218.71 L383.08,218.01 L383.92,217.30 L384.76,216.58 L385.60,215.86 L386.44,215.13 L387.28,214.40 L388.12,213.66 L388.96,212.92 L389.80,212.17 L390.64,211.42 L391.48,210.66 L392.32,209.90 L393.16,209.13 L394.00,208.35 L394.84,207.58 L395.68,206.79 L396.52,206.00 L397.36,205.21 L398.20,204.41 L399.04,203.60 L399.88,202.79 L400.72,201.98 L401.56,201.16 L402.40,200.33 L403.24,199.50 L404.08,198.67 L404.92,197.83 L405.76,196.98 L406.60,196.13 L407.44,195.27 L408.28,194.41 L409.12,193.54 L409.96,192.67 L410.80,191.79 L411.64,190.91 L412.48,190.02 L413.32,189.13 L414.16,188.23 L415.00,187.33 L415.84,186.42 L416.68,185.51 L417.52,184.59 L418.36,183.67 L419.20,182.74 L420.04,181.80 L420.88,180.87 L421.72,179.92 L422.56,178.97 L423.40,178.02 L424.24,177.06 L425.08,176.09 L425.92,175.12 L426.76,174.15 L427.60,173.17 L428.44,172.18 L429.28,171.19 L430.12,170.19 L430.96,169.19 L431.80,168.18 L432.64,167.17 L433.48,166.16 L434.32,165.13 L435.16,164.11 L436.00,163.07 L436.84,162.04 L437.68,160.99 L438.52,159.95 L439.36,158.89 L440.20,157.83 L441.04,156.77 L441.88,155.70 L442.72,154.63 L443.56,153.55 L444.40,152.47 L445.24,151.38 L446.08,150.28 L446.92,149.18 L447.76,148.08 L448.60,146.97 L449.44,145.85 L450.28,144.73 L451.12,143.61 L451.96,142.48 L452.80,141.34 L453.64,140.20 L454.48,139.05 L455.32,137.90 L456.16,136.74 L457.00,135.58 L457.84,134.42 L458.68,133.24 L459.52,132.07 L460.36,130.88 L461.20,129.70 L462.04,128.50 L462.88,127.31 L463.72,126.10 L464.56,124.89 L465.40,123.68 L466.24,122.46 L467.08,121.24 L467.92,120.01 L468.76,118.77 L469.60,117.54 L470.44,116.29 L471.28,115.04 L472.12,113.79 L472.96,112.53 L473.80,111.26 L474.64,109.99 L475.48,108.71 L476.32,107.43 L477.16,106.15 L478.00,104.86\" clip-path=\"url(#fg2300)\" fill=\"none\" stroke=\"#2F6FAE\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"391.60\" y=\"207.86\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" fill=\"#2F6FAE\">f</text></svg></span><p>a) Bestäm \\(f(1)\\) med grafen.<br>b) Bestäm \\(f(4)\\).<br>c) Lös \\(f(x)=7\\).</p>",
     "s": "<p>a) Av grafen avläses \\(f(1)=-1\\).</p><p>b) Här ligger \\(x=4\\) utanför den ritade delen av grafen, så använd formeln: \\(f(4)=4^2-2=14\\).</p><p>c) \\(f(x)=7\\) ger \\(x^2-2=7\\), alltså \\(x^2=9\\). Därför är \\(x=-3\\) eller \\(x=3\\).</p><p><strong>a) \\(-1\\) &nbsp;&nbsp; b) \\(14\\) &nbsp;&nbsp; c) \\(x=\\pm3\\)</strong></p>",
     "familj": "Tolka funktionsnotation i graf",
@@ -19897,7 +19900,7 @@ window.BANKMA2 = [
       "c) lösningar"
     ],
     "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -19940,7 +19943,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "ledtrad": "<p>Sätt det givna funktionsvärdet lika med funktionsuttrycket, alltså \\(f(x)=y_0\\). Lös sedan den ekvation som uppstår och kontrollera om flera x-värden ger samma funktionsvärde.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -20323,25 +20326,26 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Låt \\(a&gt;0\\) och \\(a\\ne1\\). Ekvationen \\(a^x=5\\) har lösningen \\(x=u\\).</p><p>Visa utan att beräkna \\(u\\) att lösningen till \\(a^x=125\\) är \\(x=3u\\).</p>",
-    "s": "<p>Eftersom \\(a^u=5\\) gäller \\(a^{3u}=(a^u)^3=5^3=125\\). Eftersom en exponentialfunktion med \\(a&gt;1\\) är växande och med \\(0&lt;a&lt;1\\) är avtagande kan ekvationen ha högst en lösning. Alltså är lösningen till \\(a^x=125\\) \\(x=3u\\).</p><p><strong>Alltså är lösningen \\(x=3u\\).</strong></p>",
+    "t": "<p>Låt \\(a&gt;0\\) och \\(a\\ne1\\). Det gäller att</p><p>\\[a^u=2\\qquad\\text{och}\\qquad a^v=5.\\]</p><p>Bestäm, utan att beräkna \\(u\\) eller \\(v\\), lösningen \\(x\\) till ekvationen</p><p>\\[a^x=200.\\]</p><p>Uttryck svaret med \\(u\\) och \\(v\\) och motivera.</p>",
+    "s": "<p>Faktorisera \\(200\\):</p><p>\\[200=2^3\\cdot5^2.\\]</p><p>Eftersom \\(a^u=2\\) och \\(a^v=5\\) får vi</p><p>\\[200=(a^u)^3(a^v)^2=a^{3u+2v}.\\]</p><p>Alltså uppfyller \\(x=3u+2v\\) ekvationen \\(a^x=200\\). Eftersom \\(a&gt;0\\) och \\(a\\ne1\\) är exponentialfunktionen entydig.</p><p><strong>\\(x=3u+2v\\).</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "3*u",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "problemlösning",
+      "resonemang"
     ],
     "svarFormat": "uttryck",
     "manuellKomplettering": true,
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Skriv först \\(200\\) som en produkt av potenser av 2 och 5. Byt sedan ut 2 och 5 mot \\(a^u\\) respektive \\(a^v\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.223",
@@ -20411,25 +20415,26 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Bestäm heltalet \\(n\\) så att</p><p>\\(\\frac{(x^n)^2\\cdot x^3}{x^{n-1}}=x^{10}\\)</p><p>för alla \\(x\\ne0\\).</p>",
-    "s": "<p>Vänsterledets exponent blir \\(2n+3-(n-1)=n+4\\).</p><p>För att uttrycken ska vara lika för alla \\(x\\ne0\\) måste exponenterna vara lika:</p><p>\\(n+4=10\\).</p><p><strong>\\(n=6\\).</strong></p>",
+    "t": "<p>En elev förenklar</p><p>\\[\\frac{(x^n)^2\\cdot x^3}{x^{n-1}}\\]</p><p>till \\(x^{n+2}\\), där \\(x\\ne0\\).</p><p>a) Förklara vilket fel eleven har gjort och förenkla uttrycket korrekt.</p><p>b) Bestäm sedan heltalet \\(n\\) så att det korrekta uttrycket blir \\(x^{10}\\) för alla \\(x\\ne0\\).</p>",
+    "s": "<p>Först gäller \\((x^n)^2=x^{2n}\\). Vid division ska hela exponenten \\(n-1\\) subtraheras:</p><p>\\[2n+3-(n-1)=2n+3-n+1=n+4.\\]</p><p>Eleven har alltså hanterat exponenten i nämnaren fel.</p><p>a) Det korrekta uttrycket är \\(x^{n+4}\\).</p><p>b) För att få \\(x^{10}\\) krävs</p><p>\\[n+4=10,\\]</p><p>så <strong>\\(n=6\\)</strong>.</p>",
     "familj": "Potensregler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "problemlösning",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Använda potensregler",
-    "ledtrad": "<p>Skriv om uttrycken med samma bas när det går. Använd sedan potensreglerna på exponenterna och normalisera grundpotensformen så att faktorn ligger mellan 1 och 10.</p>",
+    "ledtrad": "<p>Skriv först \\((x^n)^2\\) som en enda potens. När du dividerar med \\(x^{n-1}\\) ska hela exponenten \\(n-1\\) subtraheras.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.226",
@@ -20526,8 +20531,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En bakteriekultur beskrivs av modellen \\(N(t)=120\\cdot1{,}18^t\\), där \\(t\\) mäts i timmar.</p><p>Efter hur många timmar passerar antalet bakterier 300?</p>",
     "s": "<p>Vi sätter \\(N(t)=300\\):</p><p>\\(120\\cdot1{,}18^t=300\\).</p><p>Dividera med 120:</p><p>\\(1{,}18^t=2{,}5\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(t\\lg 1{,}18=\\lg 2{,}5\\).</p><p>\\(t=\\frac{\\lg 2{,}5}{\\lg 1{,}18}\\approx5{,}54\\).</p><p><strong>Antalet passerar 300 efter ungefär 5,5 timmar.</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
@@ -20544,7 +20549,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -20561,7 +20566,7 @@ window.BANKMA2 = [
     "t": "<p>Vilken av ekvationerna är en potensekvation och vilken är en exponentialekvation?</p><p>\\(x^4=80\\) &nbsp;&nbsp; och &nbsp;&nbsp; \\(4^x=80\\).</p><p>Skriv också vilken grundmetod som används för respektive ekvation.</p>",
     "s": "<p>I \\(x^4=80\\) är \\(x\\) bas. Det är en <strong>potensekvation</strong> och löses genom att ta fjärderoten: \\(x=\\pm\\sqrt[4]{80}\\) om reella lösningar söks.</p><p>I \\(4^x=80\\) står \\(x\\) i exponenten. Det är en <strong>exponentialekvation</strong> och löses med logaritmer eller digitalt verktyg: \\(x=\\lg 80/\\lg 4\\).</p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
     "rättSvar": null,
@@ -20572,7 +20577,7 @@ window.BANKMA2 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Titta på var den okända står. I en potensekvation är \\(x\\) basen; i en exponentialekvation står \\(x\\) i exponenten.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": false,
@@ -20849,7 +20854,7 @@ window.BANKMA2 = [
     ],
     "ledtrad": "<p>Skriv båda uttrycken på formen \\((x-a)^2+b\\). Vad säger \\(b\\)?</p>",
     "svarFormat": "uttryck",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -20864,8 +20869,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En andragradsfunktion har symmetrilinjen \\(x=4\\). Grafen går genom punkten \\((1{,}10)\\), och funktionens värde i symmetrilinjen är 1.</p><p>Bestäm funktionen.</p>",
-    "s": "<p>Eftersom symmetrilinjen är \\(x=4\\) och funktionens minsta värde är 1 ligger minimipunkten i \\((4{,}1)\\).</p><p>Funktionen kan därför skrivas</p><p>\\[f(x)=a(x-4)^2+1.\\]</p><p>Punkten \\((1{,}10)\\) ligger på grafen:</p><p>\\[10=a(1-4)^2+1=9a+1.\\]</p><p>Alltså \\(a=1\\).</p><p><strong>\\(f(x)=(x-4)^2+1=x^2-8x+17\\).</strong></p>",
+    "t": "<p>En andragradsfunktion har symmetrilinjen \\(x=4\\). Grafen går genom punkten \\((1,\\,10)\\), och funktionens värde i symmetrilinjen är 1.</p><p>Bestäm funktionen.</p>",
+    "s": "<p>Eftersom symmetrilinjen är \\(x=4\\) och funktionens minsta värde är 1 ligger minimipunkten i \\((4,\\,1)\\).</p><p>Funktionen kan därför skrivas</p><p>\\[f(x)=a(x-4)^2+1.\\]</p><p>Punkten \\((1,\\,10)\\) ligger på grafen:</p><p>\\[10=a(1-4)^2+1=9a+1.\\]</p><p>Alltså \\(a=1\\).</p><p><strong>\\(f(x)=(x-4)^2+1=x^2-8x+17\\).</strong></p>",
     "familj": "Symmetrilinje och extrempunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -20925,9 +20930,9 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En exponentialregression ger modellen \\(y=6{,}2\\cdot1{,}07^x\\).</p><p>Vad betyder talet 1,07?</p>",
-    "s": "<p>Jämför hur väl olika modeller följer datapunkterna och om den valda modellen är rimlig utifrån förändringen i materialet.</p><p><strong>Modellen ökar med 7 % varje gång \\(x\\) ökar med 1.</strong></p>",
+    "s": "<p>Faktorn \\(1{,}07\\) betyder att modellens värde multipliceras med 1,07 när \\(x\\) ökar med 1.</p><p><strong>Det motsvarar en ökning med 7 % per x-enhet.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
     "rättSvar": 7,
@@ -20943,7 +20948,7 @@ window.BANKMA2 = [
     "svarEtiketter": [
       "ökning per x-enhet (%)"
     ],
-    "ledtrad": "<p>Jämför hur väl olika modeller följer datapunkterna och om den valda modellen är rimlig utifrån förändringen i materialet.</p>",
+    "ledtrad": "<p>I en exponentialmodell \\(y=C\\cdot a^x\\) är \\(a\\) förändringsfaktorn. Jämför \\(1{,}07\\) med 1.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -21058,7 +21063,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"83.80\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"119.60\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"191.20\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"227.00\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"262.80\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"298.60\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"334.40\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"370.20\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"295.33\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"147.40\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"147.40\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"147.40\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"147.40\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"147.40\" y=\"203.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"147.40\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"147.40\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"147.40\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"147.40\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"147.40\" y=\"74.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"147.40\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"147.40\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><path d=\"M 108.50 328.88 L 109.00 326.49 L 109.50 324.12 L 110.00 321.76 L 110.50 319.40 L 111.00 317.06 L 111.50 314.73 L 112.00 312.40 L 112.50 310.09 L 113.00 307.79 L 113.50 305.49 L 114.00 303.21 L 114.50 300.94 L 115.00 298.68 L 115.50 296.42 L 116.00 294.18 L 116.50 291.95 L 117.00 289.73 L 117.50 287.51 L 118.00 285.31 L 118.50 283.12 L 119.00 280.94 L 119.50 278.77 L 120.00 276.60 L 120.50 274.45 L 121.00 272.31 L 121.50 270.18 L 122.00 268.06 L 122.50 265.95 L 123.00 263.85 L 123.50 261.75 L 124.00 259.67 L 124.50 257.60 L 125.00 255.54 L 125.50 253.49 L 126.00 251.45 L 126.50 249.42 L 127.00 247.40 L 127.50 245.39 L 128.00 243.39 L 128.50 241.40 L 129.00 239.42 L 129.50 237.45 L 130.00 235.49 L 130.50 233.54 L 131.00 231.60 L 131.50 229.67 L 132.00 227.75 L 132.50 225.84 L 133.00 223.94 L 133.50 222.05 L 134.00 220.17 L 134.50 218.30 L 135.00 216.44 L 135.50 214.59 L 136.00 212.75 L 136.50 210.92 L 137.00 209.10 L 137.50 207.29 L 138.00 205.49 L 138.50 203.70 L 139.00 201.93 L 139.50 200.16 L 140.00 198.40 L 140.50 196.65 L 141.00 194.91 L 141.50 193.18 L 142.00 191.46 L 142.50 189.76 L 143.00 188.06 L 143.50 186.37 L 144.00 184.69 L 144.50 183.02 L 145.00 181.37 L 145.50 179.72 L 146.00 178.08 L 146.50 176.45 L 147.00 174.83 L 147.50 173.23 L 148.00 171.63 L 148.50 170.04 L 149.00 168.47 L 149.50 166.90 L 150.00 165.34 L 150.50 163.79 L 151.00 162.26 L 151.50 160.73 L 152.00 159.21 L 152.50 157.71 L 153.00 156.21 L 153.50 154.72 L 154.00 153.25 L 154.50 151.78 L 155.00 150.32 L 155.50 148.88 L 156.00 147.44 L 156.50 146.02 L 157.00 144.60 L 157.50 143.19 L 158.00 141.80 L 158.50 140.41 L 159.00 139.04 L 159.50 137.67 L 160.00 136.32 L 160.50 134.97 L 161.00 133.63 L 161.50 132.31 L 162.00 130.99 L 162.50 129.69 L 163.00 128.39 L 163.50 127.11 L 164.00 125.83 L 164.50 124.57 L 165.00 123.31 L 165.50 122.07 L 166.00 120.84 L 166.50 119.61 L 167.00 118.40 L 167.50 117.19 L 168.00 116.00 L 168.50 114.81 L 169.00 113.64 L 169.50 112.48 L 170.00 111.32 L 170.50 110.18 L 171.00 109.04 L 171.50 107.92 L 172.00 106.81 L 172.50 105.70 L 173.00 104.61 L 173.50 103.53 L 174.00 102.45 L 174.50 101.39 L 175.00 100.34 L 175.50 99.29 L 176.00 98.26 L 176.50 97.24 L 177.00 96.22 L 177.50 95.22 L 178.00 94.23 L 178.50 93.25 L 179.00 92.27 L 179.50 91.31 L 180.00 90.36 L 180.50 89.42 L 181.00 88.48 L 181.50 87.56 L 182.00 86.65 L 182.50 85.75 L 183.00 84.86 L 183.50 83.97 L 184.00 83.10 L 184.50 82.24 L 185.00 81.39 L 185.50 80.55 L 186.00 79.72 L 186.50 78.89 L 187.00 78.08 L 187.50 77.28 L 188.00 76.49 L 188.50 75.71 L 189.00 74.94 L 189.50 74.18 L 190.00 73.43 L 190.50 72.69 L 191.00 71.96 L 191.50 71.24 L 192.00 70.53 L 192.50 69.82 L 193.00 69.13 L 193.50 68.45 L 194.00 67.78 L 194.50 67.12 L 195.00 66.47 L 195.50 65.83 L 196.00 65.20 L 196.50 64.58 L 197.00 63.97 L 197.50 63.37 L 198.00 62.78 L 198.50 62.21 L 199.00 61.64 L 199.50 61.08 L 200.00 60.53 L 200.50 59.99 L 201.00 59.46 L 201.50 58.94 L 202.00 58.43 L 202.50 57.93 L 203.00 57.44 L 203.50 56.96 L 204.00 56.50 L 204.50 56.04 L 205.00 55.59 L 205.50 55.15 L 206.00 54.72 L 206.50 54.30 L 207.00 53.90 L 207.50 53.50 L 208.00 53.11 L 208.50 52.73 L 209.00 52.36 L 209.50 52.01 L 210.00 51.66 L 210.50 51.32 L 211.00 50.99 L 211.50 50.68 L 212.00 50.37 L 212.50 50.07 L 213.00 49.78 L 213.50 49.51 L 214.00 49.24 L 214.50 48.98 L 215.00 48.74 L 215.50 48.50 L 216.00 48.27 L 216.50 48.06 L 217.00 47.85 L 217.50 47.65 L 218.00 47.47 L 218.50 47.29 L 219.00 47.12 L 219.50 46.97 L 220.00 46.82 L 220.50 46.68 L 221.00 46.56 L 221.50 46.44 L 222.00 46.34 L 222.50 46.24 L 223.00 46.16 L 223.50 46.08 L 224.00 46.01 L 224.50 45.96 L 225.00 45.91 L 225.50 45.88 L 226.00 45.85 L 226.50 45.84 L 227.00 45.83 L 227.50 45.84 L 228.00 45.85 L 228.50 45.88 L 229.00 45.91 L 229.50 45.96 L 230.00 46.01 L 230.50 46.08 L 231.00 46.16 L 231.50 46.24 L 232.00 46.34 L 232.50 46.44 L 233.00 46.56 L 233.50 46.68 L 234.00 46.82 L 234.50 46.97 L 235.00 47.12 L 235.50 47.29 L 236.00 47.47 L 236.50 47.65 L 237.00 47.85 L 237.50 48.06 L 238.00 48.27 L 238.50 48.50 L 239.00 48.74 L 239.50 48.98 L 240.00 49.24 L 240.50 49.51 L 241.00 49.78 L 241.50 50.07 L 242.00 50.37 L 242.50 50.68 L 243.00 50.99 L 243.50 51.32 L 244.00 51.66 L 244.50 52.01 L 245.00 52.36 L 245.50 52.73 L 246.00 53.11 L 246.50 53.50 L 247.00 53.90 L 247.50 54.30 L 248.00 54.72 L 248.50 55.15 L 249.00 55.59 L 249.50 56.04 L 250.00 56.50 L 250.50 56.96 L 251.00 57.44 L 251.50 57.93 L 252.00 58.43 L 252.50 58.94 L 253.00 59.46 L 253.50 59.99 L 254.00 60.53 L 254.50 61.08 L 255.00 61.64 L 255.50 62.21 L 256.00 62.78 L 256.50 63.37 L 257.00 63.97 L 257.50 64.58 L 258.00 65.20 L 258.50 65.83 L 259.00 66.47 L 259.50 67.12 L 260.00 67.78 L 260.50 68.45 L 261.00 69.13 L 261.50 69.82 L 262.00 70.53 L 262.50 71.24 L 263.00 71.96 L 263.50 72.69 L 264.00 73.43 L 264.50 74.18 L 265.00 74.94 L 265.50 75.71 L 266.00 76.49 L 266.50 77.28 L 267.00 78.08 L 267.50 78.89 L 268.00 79.72 L 268.50 80.55 L 269.00 81.39 L 269.50 82.24 L 270.00 83.10 L 270.50 83.97 L 271.00 84.86 L 271.50 85.75 L 272.00 86.65 L 272.50 87.56 L 273.00 88.48 L 273.50 89.42 L 274.00 90.36 L 274.50 91.31 L 275.00 92.27 L 275.50 93.25 L 276.00 94.23 L 276.50 95.22 L 277.00 96.22 L 277.50 97.24 L 278.00 98.26 L 278.50 99.29 L 279.00 100.34 L 279.50 101.39 L 280.00 102.45 L 280.50 103.53 L 281.00 104.61 L 281.50 105.70 L 282.00 106.81 L 282.50 107.92 L 283.00 109.04 L 283.50 110.18 L 284.00 111.32 L 284.50 112.48 L 285.00 113.64 L 285.50 114.81 L 286.00 116.00 L 286.50 117.19 L 287.00 118.40 L 287.50 119.61 L 288.00 120.84 L 288.50 122.07 L 289.00 123.31 L 289.50 124.57 L 290.00 125.83 L 290.50 127.11 L 291.00 128.39 L 291.50 129.69 L 292.00 130.99 L 292.50 132.31 L 293.00 133.63 L 293.50 134.97 L 294.00 136.32 L 294.50 137.67 L 295.00 139.04 L 295.50 140.41 L 296.00 141.80 L 296.50 143.19 L 297.00 144.60 L 297.50 146.02 L 298.00 147.44 L 298.50 148.88 L 299.00 150.32 L 299.50 151.78 L 300.00 153.25 L 300.50 154.72 L 301.00 156.21 L 301.50 157.71 L 302.00 159.21 L 302.50 160.73 L 303.00 162.26 L 303.50 163.79 L 304.00 165.34 L 304.50 166.90 L 305.00 168.47 L 305.50 170.04 L 306.00 171.63 L 306.50 173.23 L 307.00 174.83 L 307.50 176.45 L 308.00 178.08 L 308.50 179.72 L 309.00 181.37 L 309.50 183.02 L 310.00 184.69 L 310.50 186.37 L 311.00 188.06 L 311.50 189.76 L 312.00 191.46 L 312.50 193.18 L 313.00 194.91 L 313.50 196.65 L 314.00 198.40 L 314.50 200.16 L 315.00 201.93 L 315.50 203.70 L 316.00 205.49 L 316.50 207.29 L 317.00 209.10 L 317.50 210.92 L 318.00 212.75 L 318.50 214.59 L 319.00 216.44 L 319.50 218.30 L 320.00 220.17 L 320.50 222.05 L 321.00 223.94 L 321.50 225.84 L 322.00 227.75 L 322.50 229.67 L 323.00 231.60 L 323.50 233.54 L 324.00 235.49 L 324.50 237.45 L 325.00 239.42 L 325.50 241.40 L 326.00 243.39 L 326.50 245.39 L 327.00 247.40 L 327.50 249.42 L 328.00 251.45 L 328.50 253.49 L 329.00 255.54 L 329.50 257.60 L 330.00 259.67 L 330.50 261.75 L 331.00 263.85 L 331.50 265.95 L 332.00 268.06 L 332.50 270.18 L 333.00 272.31 L 333.50 274.45 L 334.00 276.60 L 334.50 278.77 L 335.00 280.94 L 335.50 283.12 L 336.00 285.31 L 336.50 287.51 L 337.00 289.73 L 337.50 291.95 L 338.00 294.18 L 338.50 296.42 L 339.00 298.68 L 339.50 300.94 L 340.00 303.21 L 340.50 305.49 L 341.00 307.79 L 341.50 310.09 L 342.00 312.40 L 342.50 314.73 L 343.00 317.06 L 343.50 319.40 L 344.00 321.76 L 344.50 324.12 L 345.00 326.49 L 345.50 328.88\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm funktionens största värde.<br>b)&nbsp;Ange för vilka \\(x\\) som \\(f(x)>0\\).<br>c)&nbsp;Bestäm symmetrilinjens ekvation.</p>",
-    "s": "<p>a) Maximipunkten avläses till \\((2{,}9)\\), så största värdet är \\(9\\).</p><p>b) Grafen ligger ovanför x-axeln mellan nollställena \\(-1\\) och \\(5\\), alltså \\(-1&lt;x&lt;5\\).</p><p>c) Symmetrilinjen går genom maximipunkten: \\(x=2\\).</p><p><strong>a) \\(9\\) &nbsp; b) \\(-1&lt;x&lt;5\\) &nbsp; c) \\(x=2\\)</strong></p>",
+    "s": "<p>a) Maximipunkten avläses till \\((2,\\,9)\\), så största värdet är \\(9\\).</p><p>b) Grafen ligger ovanför x-axeln mellan nollställena \\(-1\\) och \\(5\\), alltså \\(-1&lt;x&lt;5\\).</p><p>c) Symmetrilinjen går genom maximipunkten: \\(x=2\\).</p><p><strong>a) \\(9\\) &nbsp; b) \\(-1&lt;x&lt;5\\) &nbsp; c) \\(x=2\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -21481,25 +21486,23 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Diagrammet visar två modeller för samma storhet.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"316.50\" y1=\"330.00\" x2=\"316.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"361.25\" y1=\"330.00\" x2=\"361.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"310.62\" x2=\"406.00\" y2=\"310.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"271.88\" x2=\"406.00\" y2=\"271.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"233.12\" x2=\"406.00\" y2=\"233.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"194.38\" x2=\"406.00\" y2=\"194.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"155.62\" x2=\"406.00\" y2=\"155.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"116.88\" x2=\"406.00\" y2=\"116.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"78.12\" x2=\"406.00\" y2=\"78.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"39.38\" x2=\"406.00\" y2=\"39.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"416.00\" y2=\"330.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"92.75\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"137.50\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"182.25\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"227.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"271.75\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"316.50\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"361.25\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"406.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"10.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"40.00\" y=\"313.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"40.00\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"40.00\" y=\"274.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"40.00\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"40.00\" y=\"236.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"40.00\" y=\"216.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"40.00\" y=\"197.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"40.00\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"40.00\" y=\"158.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"40.00\" y=\"139.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"40.00\" y=\"119.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">11</text><text x=\"40.00\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><text x=\"40.00\" y=\"81.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">13</text><text x=\"40.00\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><text x=\"40.00\" y=\"42.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">15</text><text x=\"40.00\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">16</text><path d=\"M 48.00 310.62 L 49.86 309.01 L 51.73 307.40 L 53.59 305.78 L 55.46 304.17 L 57.32 302.55 L 59.19 300.94 L 61.05 299.32 L 62.92 297.71 L 64.78 296.09 L 66.65 294.48 L 68.51 292.86 L 70.38 291.25 L 72.24 289.64 L 74.10 288.02 L 75.97 286.41 L 77.83 284.79 L 79.70 283.18 L 81.56 281.56 L 83.43 279.95 L 85.29 278.33 L 87.16 276.72 L 89.02 275.10 L 90.89 273.49 L 92.75 271.88 L 94.61 270.26 L 96.48 268.65 L 98.34 267.03 L 100.21 265.42 L 102.07 263.80 L 103.94 262.19 L 105.80 260.57 L 107.67 258.96 L 109.53 257.34 L 111.40 255.73 L 113.26 254.11 L 115.12 252.50 L 116.99 250.89 L 118.85 249.27 L 120.72 247.66 L 122.58 246.04 L 124.45 244.43 L 126.31 242.81 L 128.18 241.20 L 130.04 239.58 L 131.91 237.97 L 133.77 236.35 L 135.64 234.74 L 137.50 233.12 L 139.36 231.51 L 141.23 229.90 L 143.09 228.28 L 144.96 226.67 L 146.82 225.05 L 148.69 223.44 L 150.55 221.82 L 152.42 220.21 L 154.28 218.59 L 156.15 216.98 L 158.01 215.36 L 159.88 213.75 L 161.74 212.14 L 163.60 210.52 L 165.47 208.91 L 167.33 207.29 L 169.20 205.68 L 171.06 204.06 L 172.93 202.45 L 174.79 200.83 L 176.66 199.22 L 178.52 197.60 L 180.39 195.99 L 182.25 194.38 L 184.11 192.76 L 185.98 191.15 L 187.84 189.53 L 189.71 187.92 L 191.57 186.30 L 193.44 184.69 L 195.30 183.07 L 197.17 181.46 L 199.03 179.84 L 200.90 178.23 L 202.76 176.61 L 204.62 175.00 L 206.49 173.39 L 208.35 171.77 L 210.22 170.16 L 212.08 168.54 L 213.95 166.93 L 215.81 165.31 L 217.68 163.70 L 219.54 162.08 L 221.41 160.47 L 223.27 158.85 L 225.14 157.24 L 227.00 155.62 L 228.86 154.01 L 230.73 152.40 L 232.59 150.78 L 234.46 149.17 L 236.32 147.55 L 238.19 145.94 L 240.05 144.32 L 241.92 142.71 L 243.78 141.09 L 245.65 139.48 L 247.51 137.86 L 249.38 136.25 L 251.24 134.64 L 253.10 133.02 L 254.97 131.41 L 256.83 129.79 L 258.70 128.18 L 260.56 126.56 L 262.43 124.95 L 264.29 123.33 L 266.16 121.72 L 268.02 120.10 L 269.89 118.49 L 271.75 116.88 L 273.61 115.26 L 275.48 113.65 L 277.34 112.03 L 279.21 110.42 L 281.07 108.80 L 282.94 107.19 L 284.80 105.57 L 286.67 103.96 L 288.53 102.34 L 290.40 100.73 L 292.26 99.11 L 294.12 97.50 L 295.99 95.89 L 297.85 94.27 L 299.72 92.66 L 301.58 91.04 L 303.45 89.43 L 305.31 87.81 L 307.18 86.20 L 309.04 84.58 L 310.91 82.97 L 312.77 81.35 L 314.64 79.74 L 316.50 78.12 L 318.36 76.51 L 320.23 74.90 L 322.09 73.28 L 323.96 71.67 L 325.82 70.05 L 327.69 68.44 L 329.55 66.82 L 331.42 65.21 L 333.28 63.59 L 335.15 61.98 L 337.01 60.36 L 338.88 58.75 L 340.74 57.14 L 342.60 55.52 L 344.47 53.91 L 346.33 52.29 L 348.20 50.68 L 350.06 49.06 L 351.93 47.45 L 353.79 45.83 L 355.66 44.22 L 357.52 42.60 L 359.39 40.99 L 361.25 39.38 L 363.11 37.76 L 364.98 36.15 L 366.84 34.53 L 368.71 32.92 L 370.57 31.30 L 372.44 29.69 L 374.30 28.07 L 376.17 26.46 L 378.03 24.84 L 379.90 23.23 L 381.76 21.61 L 383.62 20.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.7\"/><path d=\"M 48.00 291.25 L 49.99 290.99 L 51.98 290.73 L 53.97 290.46 L 55.96 290.19 L 57.94 289.91 L 59.93 289.64 L 61.92 289.35 L 63.91 289.07 L 65.90 288.78 L 67.89 288.49 L 69.88 288.19 L 71.87 287.89 L 73.86 287.58 L 75.84 287.27 L 77.83 286.96 L 79.82 286.64 L 81.81 286.32 L 83.80 285.99 L 85.79 285.66 L 87.78 285.33 L 89.77 284.99 L 91.76 284.64 L 93.74 284.29 L 95.73 283.94 L 97.72 283.58 L 99.71 283.22 L 101.70 282.85 L 103.69 282.48 L 105.68 282.10 L 107.67 281.72 L 109.66 281.33 L 111.64 280.94 L 113.63 280.54 L 115.62 280.13 L 117.61 279.72 L 119.60 279.31 L 121.59 278.89 L 123.58 278.46 L 125.57 278.03 L 127.56 277.59 L 129.54 277.15 L 131.53 276.70 L 133.52 276.24 L 135.51 275.78 L 137.50 275.31 L 139.49 274.84 L 141.48 274.36 L 143.47 273.87 L 145.46 273.38 L 147.44 272.88 L 149.43 272.37 L 151.42 271.86 L 153.41 271.34 L 155.40 270.81 L 157.39 270.28 L 159.38 269.73 L 161.37 269.18 L 163.36 268.63 L 165.34 268.06 L 167.33 267.49 L 169.32 266.91 L 171.31 266.33 L 173.30 265.73 L 175.29 265.13 L 177.28 264.52 L 179.27 263.90 L 181.26 263.27 L 183.24 262.64 L 185.23 261.99 L 187.22 261.34 L 189.21 260.68 L 191.20 260.01 L 193.19 259.33 L 195.18 258.64 L 197.17 257.94 L 199.16 257.23 L 201.14 256.52 L 203.13 255.79 L 205.12 255.05 L 207.11 254.31 L 209.10 253.55 L 211.09 252.78 L 213.08 252.01 L 215.07 251.22 L 217.06 250.42 L 219.04 249.61 L 221.03 248.80 L 223.02 247.96 L 225.01 247.12 L 227.00 246.27 L 228.99 245.41 L 230.98 244.53 L 232.97 243.64 L 234.96 242.74 L 236.94 241.83 L 238.93 240.91 L 240.92 239.97 L 242.91 239.02 L 244.90 238.06 L 246.89 237.09 L 248.88 236.10 L 250.87 235.10 L 252.86 234.09 L 254.84 233.06 L 256.83 232.02 L 258.82 230.96 L 260.81 229.89 L 262.80 228.81 L 264.79 227.71 L 266.78 226.60 L 268.77 225.47 L 270.76 224.32 L 272.74 223.17 L 274.73 221.99 L 276.72 220.80 L 278.71 219.59 L 280.70 218.37 L 282.69 217.13 L 284.68 215.88 L 286.67 214.61 L 288.66 213.32 L 290.64 212.01 L 292.63 210.69 L 294.62 209.34 L 296.61 207.98 L 298.60 206.61 L 300.59 205.21 L 302.58 203.79 L 304.57 202.36 L 306.56 200.91 L 308.54 199.43 L 310.53 197.94 L 312.52 196.43 L 314.51 194.89 L 316.50 193.34 L 318.49 191.76 L 320.48 190.17 L 322.47 188.55 L 324.46 186.91 L 326.44 185.25 L 328.43 183.57 L 330.42 181.86 L 332.41 180.13 L 334.40 178.38 L 336.39 176.60 L 338.38 174.81 L 340.37 172.98 L 342.36 171.13 L 344.34 169.26 L 346.33 167.36 L 348.32 165.44 L 350.31 163.49 L 352.30 161.51 L 354.29 159.51 L 356.28 157.48 L 358.27 155.43 L 360.26 153.34 L 362.24 151.23 L 364.23 149.09 L 366.22 146.92 L 368.21 144.72 L 370.20 142.50 L 372.19 140.24 L 374.18 137.95 L 376.17 135.63 L 378.16 133.28 L 380.14 130.90 L 382.13 128.49 L 384.12 126.04 L 386.11 123.56 L 388.10 121.05 L 390.09 118.51 L 392.08 115.93 L 394.07 113.31 L 396.06 110.66 L 398.04 107.98 L 400.03 105.26 L 402.02 102.50 L 404.01 99.70 L 406.00 96.87\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/></svg></span><p>Den röda modellen är linjär och den blå exponentiell. Beskriv en viktig skillnad i hur modellerna utvecklas när \\(x\\) blir större.</p>",
     "s": "<p>Den linjära modellen ökar med samma belopp per steg i \\(x\\). Den exponentiella modellen ökar med samma faktor och får därför en allt större ökning.</p><p><strong>På längre sikt kan den exponentiella modellen växa snabbare trots att den först ligger lägre.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
       "begrepp",
-      "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Den linjära modellen ökar med samma belopp per steg i \\(x\\). Den exponentiella modellen ökar med samma faktor och får därför en allt större ökning.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Jämför hur mycket modellerna förändras när \\(x\\) ökar med 1: en linjär modell har konstant differens, en exponentialmodell konstant förändringsfaktor.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true
@@ -21652,8 +21655,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En parabel har nollställena \\(-2\\) och 6 och går genom punkten \\((0,-12)\\). Bestäm funktionens formel.</p>",
     "s": "<p>Med nollställena kan funktionen skrivas \\(f(x)=a(x+2)(x-6)\\).</p><p>Sätt in \\((0,-12)\\): \\(-12=a\\cdot2\\cdot(-6)=-12a\\), så \\(a=1\\).</p><p><strong>\\(f(x)=(x+2)(x-6)=x^2-4x-12\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
@@ -21669,7 +21672,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -21682,8 +21685,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Grafen visar en andragradsfunktion med nollställena \\(1\\) och \\(6\\) samt punkten \\((0,-6)\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"73.57\" y1=\"330.00\" x2=\"73.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"99.14\" y1=\"330.00\" x2=\"99.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"124.71\" y1=\"330.00\" x2=\"124.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"150.29\" y1=\"330.00\" x2=\"150.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"175.86\" y1=\"330.00\" x2=\"175.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"201.43\" y1=\"330.00\" x2=\"201.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"252.57\" y1=\"330.00\" x2=\"252.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"278.14\" y1=\"330.00\" x2=\"278.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"303.71\" y1=\"330.00\" x2=\"303.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"329.29\" y1=\"330.00\" x2=\"329.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"354.86\" y1=\"330.00\" x2=\"354.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"380.43\" y1=\"330.00\" x2=\"380.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"310.62\" x2=\"406.00\" y2=\"310.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"271.88\" x2=\"406.00\" y2=\"271.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"233.12\" x2=\"406.00\" y2=\"233.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"194.38\" x2=\"406.00\" y2=\"194.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"155.62\" x2=\"406.00\" y2=\"155.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"116.88\" x2=\"406.00\" y2=\"116.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"78.12\" x2=\"406.00\" y2=\"78.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"39.38\" x2=\"406.00\" y2=\"39.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"150.29\" y1=\"330.00\" x2=\"150.29\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"73.57\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"99.14\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"124.71\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"175.86\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"201.43\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"227.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"252.57\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"278.14\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"303.71\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"329.29\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"354.86\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"380.43\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"406.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"142.29\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-8</text><text x=\"142.29\" y=\"313.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-7</text><text x=\"142.29\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"142.29\" y=\"274.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"142.29\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"142.29\" y=\"236.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"142.29\" y=\"216.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"142.29\" y=\"197.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"142.29\" y=\"158.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"142.29\" y=\"139.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"142.29\" y=\"119.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"142.29\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"142.29\" y=\"81.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"142.29\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"142.29\" y=\"42.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"142.29\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><path d=\"M 143.50 328.60 L 144.00 325.76 L 144.50 322.93 L 145.00 320.11 L 145.50 317.31 L 146.00 314.52 L 146.50 311.75 L 147.00 309.00 L 147.50 306.25 L 148.00 303.53 L 148.50 300.82 L 149.00 298.12 L 149.50 295.44 L 150.00 292.77 L 150.50 290.11 L 151.00 287.48 L 151.50 284.85 L 152.00 282.24 L 152.50 279.65 L 153.00 277.07 L 153.50 274.51 L 154.00 271.96 L 154.50 269.42 L 155.00 266.91 L 155.50 264.40 L 156.00 261.91 L 156.50 259.44 L 157.00 256.97 L 157.50 254.53 L 158.00 252.10 L 158.50 249.68 L 159.00 247.28 L 159.50 244.90 L 160.00 242.52 L 160.50 240.17 L 161.00 237.83 L 161.50 235.50 L 162.00 233.19 L 162.50 230.89 L 163.00 228.61 L 163.50 226.34 L 164.00 224.09 L 164.50 221.85 L 165.00 219.62 L 165.50 217.42 L 166.00 215.22 L 166.50 213.04 L 167.00 210.88 L 167.50 208.73 L 168.00 206.60 L 168.50 204.48 L 169.00 202.37 L 169.50 200.28 L 170.00 198.21 L 170.50 196.15 L 171.00 194.10 L 171.50 192.07 L 172.00 190.05 L 172.50 188.05 L 173.00 186.07 L 173.50 184.09 L 174.00 182.14 L 174.50 180.20 L 175.00 178.27 L 175.50 176.36 L 176.00 174.46 L 176.50 172.58 L 177.00 170.71 L 177.50 168.86 L 178.00 167.02 L 178.50 165.19 L 179.00 163.39 L 179.50 161.59 L 180.00 159.81 L 180.50 158.05 L 181.00 156.30 L 181.50 154.57 L 182.00 152.85 L 182.50 151.14 L 183.00 149.45 L 183.50 147.78 L 184.00 146.12 L 184.50 144.47 L 185.00 142.84 L 185.50 141.22 L 186.00 139.62 L 186.50 138.04 L 187.00 136.47 L 187.50 134.91 L 188.00 133.37 L 188.50 131.84 L 189.00 130.33 L 189.50 128.83 L 190.00 127.35 L 190.50 125.88 L 191.00 124.43 L 191.50 122.99 L 192.00 121.57 L 192.50 120.16 L 193.00 118.76 L 193.50 117.38 L 194.00 116.02 L 194.50 114.67 L 195.00 113.34 L 195.50 112.02 L 196.00 110.71 L 196.50 109.42 L 197.00 108.15 L 197.50 106.89 L 198.00 105.64 L 198.50 104.41 L 199.00 103.20 L 199.50 101.99 L 200.00 100.81 L 200.50 99.64 L 201.00 98.48 L 201.50 97.34 L 202.00 96.21 L 202.50 95.10 L 203.00 94.00 L 203.50 92.92 L 204.00 91.85 L 204.50 90.80 L 205.00 89.76 L 205.50 88.74 L 206.00 87.73 L 206.50 86.73 L 207.00 85.76 L 207.50 84.79 L 208.00 83.84 L 208.50 82.91 L 209.00 81.99 L 209.50 81.08 L 210.00 80.19 L 210.50 79.32 L 211.00 78.46 L 211.50 77.61 L 212.00 76.78 L 212.50 75.97 L 213.00 75.17 L 213.50 74.38 L 214.00 73.61 L 214.50 72.85 L 215.00 72.11 L 215.50 71.38 L 216.00 70.67 L 216.50 69.97 L 217.00 69.29 L 217.50 68.62 L 218.00 67.97 L 218.50 67.33 L 219.00 66.71 L 219.50 66.10 L 220.00 65.51 L 220.50 64.93 L 221.00 64.36 L 221.50 63.81 L 222.00 63.28 L 222.50 62.76 L 223.00 62.25 L 223.50 61.76 L 224.00 61.29 L 224.50 60.83 L 225.00 60.38 L 225.50 59.95 L 226.00 59.54 L 226.50 59.14 L 227.00 58.75 L 227.50 58.38 L 228.00 58.02 L 228.50 57.68 L 229.00 57.35 L 229.50 57.04 L 230.00 56.74 L 230.50 56.46 L 231.00 56.19 L 231.50 55.94 L 232.00 55.70 L 232.50 55.48 L 233.00 55.27 L 233.50 55.08 L 234.00 54.90 L 234.50 54.73 L 235.00 54.58 L 235.50 54.45 L 236.00 54.33 L 236.50 54.23 L 237.00 54.14 L 237.50 54.06 L 238.00 54.00 L 238.50 53.96 L 239.00 53.92 L 239.50 53.91 L 240.00 53.91 L 240.50 53.92 L 241.00 53.95 L 241.50 53.99 L 242.00 54.05 L 242.50 54.12 L 243.00 54.21 L 243.50 54.32 L 244.00 54.43 L 244.50 54.56 L 245.00 54.71 L 245.50 54.87 L 246.00 55.05 L 246.50 55.24 L 247.00 55.45 L 247.50 55.67 L 248.00 55.91 L 248.50 56.16 L 249.00 56.42 L 249.50 56.70 L 250.00 57.00 L 250.50 57.31 L 251.00 57.63 L 251.50 57.97 L 252.00 58.33 L 252.50 58.70 L 253.00 59.08 L 253.50 59.48 L 254.00 59.89 L 254.50 60.32 L 255.00 60.76 L 255.50 61.22 L 256.00 61.70 L 256.50 62.18 L 257.00 62.69 L 257.50 63.20 L 258.00 63.74 L 258.50 64.28 L 259.00 64.85 L 259.50 65.42 L 260.00 66.01 L 260.50 66.62 L 261.00 67.24 L 261.50 67.88 L 262.00 68.53 L 262.50 69.19 L 263.00 69.87 L 263.50 70.57 L 264.00 71.28 L 264.50 72.00 L 265.00 72.74 L 265.50 73.50 L 266.00 74.27 L 266.50 75.05 L 267.00 75.85 L 267.50 76.66 L 268.00 77.49 L 268.50 78.34 L 269.00 79.19 L 269.50 80.07 L 270.00 80.96 L 270.50 81.86 L 271.00 82.78 L 271.50 83.71 L 272.00 84.66 L 272.50 85.62 L 273.00 86.59 L 273.50 87.59 L 274.00 88.59 L 274.50 89.61 L 275.00 90.65 L 275.50 91.70 L 276.00 92.77 L 276.50 93.85 L 277.00 94.94 L 277.50 96.05 L 278.00 97.18 L 278.50 98.32 L 279.00 99.47 L 279.50 100.64 L 280.00 101.82 L 280.50 103.02 L 281.00 104.24 L 281.50 105.46 L 282.00 106.71 L 282.50 107.97 L 283.00 109.24 L 283.50 110.53 L 284.00 111.83 L 284.50 113.15 L 285.00 114.48 L 285.50 115.83 L 286.00 117.19 L 286.50 118.57 L 287.00 119.96 L 287.50 121.36 L 288.00 122.78 L 288.50 124.22 L 289.00 125.67 L 289.50 127.14 L 290.00 128.62 L 290.50 130.11 L 291.00 131.62 L 291.50 133.15 L 292.00 134.69 L 292.50 136.24 L 293.00 137.81 L 293.50 139.40 L 294.00 140.99 L 294.50 142.61 L 295.00 144.24 L 295.50 145.88 L 296.00 147.54 L 296.50 149.21 L 297.00 150.90 L 297.50 152.60 L 298.00 154.32 L 298.50 156.05 L 299.00 157.80 L 299.50 159.56 L 300.00 161.34 L 300.50 163.13 L 301.00 164.94 L 301.50 166.76 L 302.00 168.59 L 302.50 170.44 L 303.00 172.31 L 303.50 174.19 L 304.00 176.08 L 304.50 177.99 L 305.00 179.92 L 305.50 181.86 L 306.00 183.81 L 306.50 185.78 L 307.00 187.77 L 307.50 189.77 L 308.00 191.78 L 308.50 193.81 L 309.00 195.85 L 309.50 197.91 L 310.00 199.98 L 310.50 202.07 L 311.00 204.17 L 311.50 206.29 L 312.00 208.42 L 312.50 210.57 L 313.00 212.73 L 313.50 214.91 L 314.00 217.10 L 314.50 219.31 L 315.00 221.53 L 315.50 223.76 L 316.00 226.02 L 316.50 228.28 L 317.00 230.56 L 317.50 232.86 L 318.00 235.17 L 318.50 237.49 L 319.00 239.83 L 319.50 242.19 L 320.00 244.56 L 320.50 246.94 L 321.00 249.34 L 321.50 251.75 L 322.00 254.18 L 322.50 256.62 L 323.00 259.08 L 323.50 261.56 L 324.00 264.04 L 324.50 266.55 L 325.00 269.06 L 325.50 271.60 L 326.00 274.14 L 326.50 276.71 L 327.00 279.28 L 327.50 281.87 L 328.00 284.48 L 328.50 287.10 L 329.00 289.74 L 329.50 292.39 L 330.00 295.05 L 330.50 297.73 L 331.00 300.43 L 331.50 303.14 L 332.00 305.86 L 332.50 308.60 L 333.00 311.36 L 333.50 314.13 L 334.00 316.91 L 334.50 319.71 L 335.00 322.52 L 335.50 325.35 L 336.00 328.20\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm funktionen.<br>b)&nbsp;Bestäm symmetrilinjens ekvation.<br>c)&nbsp;Bestäm funktionens största värde.</p>",
     "s": "<p>a) \\(f(x)=a(x-1)(x-6)\\). Eftersom \\(f(0)=-6\\) gäller \\(-6=a\\cdot(-1)\\cdot(-6)=6a\\), alltså \\(a=-1\\).</p><p>b) Symmetrilinjen ligger mitt emellan nollställena: \\(x=\\dfrac{1+6}{2}=3{,}5\\).</p><p>c) Största värdet är \\(f(3{,}5)=-(2{,}5)(-2{,}5)=6{,}25\\).</p><p><strong>a) \\(f(x)=-(x-1)(x-6)\\) &nbsp; b) \\(x=3{,}5\\) &nbsp; c) \\(6{,}25\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
@@ -21721,7 +21724,7 @@ window.BANKMA2 = [
       "symmetri",
       "extremvärde"
     ],
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -21734,24 +21737,24 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Grafen visar funktionen \\(p(x)=3\\cdot1{,}6^x\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"316.50\" y1=\"330.00\" x2=\"316.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"361.25\" y1=\"330.00\" x2=\"361.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"315.91\" x2=\"406.00\" y2=\"315.91\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"301.82\" x2=\"406.00\" y2=\"301.82\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"287.73\" x2=\"406.00\" y2=\"287.73\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"273.64\" x2=\"406.00\" y2=\"273.64\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"259.55\" x2=\"406.00\" y2=\"259.55\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"245.45\" x2=\"406.00\" y2=\"245.45\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"231.36\" x2=\"406.00\" y2=\"231.36\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"217.27\" x2=\"406.00\" y2=\"217.27\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"203.18\" x2=\"406.00\" y2=\"203.18\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"189.09\" x2=\"406.00\" y2=\"189.09\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"160.91\" x2=\"406.00\" y2=\"160.91\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"146.82\" x2=\"406.00\" y2=\"146.82\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"132.73\" x2=\"406.00\" y2=\"132.73\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"118.64\" x2=\"406.00\" y2=\"118.64\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"104.55\" x2=\"406.00\" y2=\"104.55\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"90.45\" x2=\"406.00\" y2=\"90.45\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"76.36\" x2=\"406.00\" y2=\"76.36\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"62.27\" x2=\"406.00\" y2=\"62.27\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"48.18\" x2=\"406.00\" y2=\"48.18\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"34.09\" x2=\"406.00\" y2=\"34.09\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"137.50\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"182.25\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"227.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"271.75\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"316.50\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"361.25\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"84.75\" y=\"318.91\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"84.75\" y=\"304.82\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"84.75\" y=\"290.73\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"84.75\" y=\"276.64\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"84.75\" y=\"262.55\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"84.75\" y=\"248.45\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"84.75\" y=\"234.36\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"84.75\" y=\"220.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"84.75\" y=\"206.18\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"84.75\" y=\"192.09\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"84.75\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">11</text><text x=\"84.75\" y=\"163.91\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><text x=\"84.75\" y=\"149.82\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">13</text><text x=\"84.75\" y=\"135.73\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><text x=\"84.75\" y=\"121.64\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">15</text><text x=\"84.75\" y=\"107.55\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">16</text><text x=\"84.75\" y=\"93.45\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">17</text><text x=\"84.75\" y=\"79.36\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">18</text><text x=\"84.75\" y=\"65.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">19</text><text x=\"84.75\" y=\"51.18\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">20</text><text x=\"84.75\" y=\"37.09\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">21</text><text x=\"84.75\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">22</text><path d=\"M 92.75 287.73 L 94.11 287.12 L 95.48 286.50 L 96.84 285.87 L 98.20 285.24 L 99.56 284.59 L 100.93 283.94 L 102.29 283.27 L 103.65 282.60 L 105.02 281.92 L 106.38 281.22 L 107.74 280.52 L 109.10 279.81 L 110.47 279.08 L 111.83 278.35 L 113.19 277.60 L 114.56 276.85 L 115.92 276.08 L 117.28 275.30 L 118.64 274.52 L 120.01 273.72 L 121.37 272.90 L 122.73 272.08 L 124.10 271.25 L 125.46 270.40 L 126.82 269.54 L 128.18 268.67 L 129.55 267.78 L 130.91 266.89 L 132.27 265.98 L 133.64 265.05 L 135.00 264.12 L 136.36 263.17 L 137.72 262.20 L 139.09 261.23 L 140.45 260.24 L 141.81 259.23 L 143.18 258.21 L 144.54 257.17 L 145.90 256.12 L 147.26 255.06 L 148.63 253.98 L 149.99 252.88 L 151.35 251.77 L 152.71 250.64 L 154.08 249.50 L 155.44 248.34 L 156.80 247.16 L 158.17 245.97 L 159.53 244.76 L 160.89 243.53 L 162.25 242.28 L 163.62 241.02 L 164.98 239.73 L 166.34 238.43 L 167.71 237.11 L 169.07 235.77 L 170.43 234.41 L 171.79 233.04 L 173.16 231.64 L 174.52 230.22 L 175.88 228.78 L 177.25 227.32 L 178.61 225.84 L 179.97 224.34 L 181.33 222.82 L 182.70 221.27 L 184.06 219.70 L 185.42 218.11 L 186.79 216.50 L 188.15 214.87 L 189.51 213.21 L 190.87 211.52 L 192.24 209.81 L 193.60 208.08 L 194.96 206.32 L 196.33 204.54 L 197.69 202.73 L 199.05 200.90 L 200.41 199.04 L 201.78 197.15 L 203.14 195.23 L 204.50 193.29 L 205.87 191.32 L 207.23 189.32 L 208.59 187.29 L 209.95 185.23 L 211.32 183.15 L 212.68 181.03 L 214.04 178.88 L 215.41 176.70 L 216.77 174.49 L 218.13 172.25 L 219.49 169.98 L 220.86 167.67 L 222.22 165.33 L 223.58 162.96 L 224.95 160.55 L 226.31 158.10 L 227.67 155.63 L 229.03 153.11 L 230.40 150.56 L 231.76 147.97 L 233.12 145.35 L 234.49 142.69 L 235.85 139.99 L 237.21 137.25 L 238.57 134.47 L 239.94 131.65 L 241.30 128.79 L 242.66 125.89 L 244.03 122.95 L 245.39 119.96 L 246.75 116.94 L 248.11 113.86 L 249.48 110.75 L 250.84 107.59 L 252.20 104.38 L 253.57 101.13 L 254.93 97.83 L 256.29 94.48 L 257.65 91.09 L 259.02 87.64 L 260.38 84.15 L 261.74 80.60 L 263.11 77.01 L 264.47 73.36 L 265.83 69.66 L 267.19 65.91 L 268.56 62.10 L 269.92 58.24 L 271.28 54.32 L 272.64 50.34 L 274.01 46.31 L 275.37 42.22 L 276.73 38.07 L 278.10 33.87 L 279.46 29.60 L 280.82 25.27 L 282.18 20.87 L 283.55 16.42 L 284.91 11.90 L 286.27 7.31\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\"/><text x=\"352.30\" y=\"72.14\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">p</text></svg></span><p>Bestäm ungefär för vilket \\(x\\)-värde som \\(p(x)=12\\).</p>",
-    "s": "<p>Grafiskt söker vi den punkt där exponentialkurvan har y-värdet 12.</p><p>I GeoGebra kan man lägga till den horisontella linjen \\(y=12\\) och läsa av skärningen med \\(p(x)=3\\cdot1{,}6^x\\).</p><p>Skärningen ligger vid ungefär \\(x=2{,}95\\).</p><p><strong>Alltså \\(x\\approx3{,}0\\).</strong></p>",
+    "s": "<p>Läs av var grafen har y-värdet 12. Den horisontella nivån \\(y=12\\) skär kurvan strax före \\(x=3\\).</p><p><strong>\\(x\\approx3{,}0\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
-    "geogebra": true,
-    "miniräknare": true,
+    "geogebra": false,
+    "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "procedur"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Utgå från \\(y=12\\) på y-axeln, gå horisontellt till grafen och läs sedan av motsvarande x-värde.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -21925,10 +21928,10 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Data för \\(x=0{,}1{,}2{,}3{,}4\\) är \\(y=12{,}18{,}27{,}40{,}61\\).</p><p>En elev föreslår modellen \\(y=12+12x\\). En annan föreslår \\(y=12\\cdot1{,}5^x\\).</p><p>Avgör vilken modell som är rimligast och motivera med två matematiska skäl.</p>",
+    "t": "<p>Data för \\(x=0,\\,1,\\,2,\\,3,\\,4\\) är \\(y=12,\\,18,\\,27,\\,40,\\,61\\).</p><p>En elev föreslår modellen \\(y=12+12x\\). En annan föreslår \\(y=12\\cdot1{,}5^x\\).</p><p>Avgör vilken modell som är rimligast och motivera med två matematiska skäl.</p>",
     "s": "<p>Den linjära modellen ger värden 12, 24, 36, 48, 60. Den ligger tydligt för högt i mitten av serien.</p><p>Exponentialmodellen ger 12, 18, 27, 40,5, 60,75, vilket ligger mycket nära alla givna data.</p><p>Dessutom är kvoterna mellan efterföljande y-värden ungefär 1,5, medan differenserna inte är konstanta.</p><p><strong>Exponentialmodellen är klart rimligast.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -21940,8 +21943,8 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Den linjära modellen ger värden 12, 24, 36, 48, 60. Den ligger tydligt för högt i mitten av serien.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Jämför dels modellernas värden med datapunkterna, dels hur differenser respektive kvoter mellan efterföljande y-värden beter sig.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
@@ -22042,7 +22045,7 @@ window.BANKMA2 = [
       "x"
     ],
     "svarsstruktur": "mängd",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -22084,7 +22087,7 @@ window.BANKMA2 = [
     "svarsstruktur": "ordnad",
     "familjTidigare": "Lösa andragradsekvationer med lösningsformel",
     "ledtrad": "<p>En lösning kan alltid sättas in i ekvationen. För den andra roten är sambandet mellan rötter och koefficienter snabbast.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -22112,7 +22115,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Kvadratkomplettera och uttryck det minsta värdet med hjälp av \\(k\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -22212,10 +22215,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>En andragradsfunktion har maximipunkten \\((-2{,}6)\\) och går genom \\((0,-2)\\).</p><p>Bestäm funktionen.</p>",
-    "s": "<p>Maximipunkten \\((-2{,}6)\\) gör att funktionen kan skrivas \\(f(x)=a(x+2)^2+6\\).</p><p>Punkten \\((0,-2)\\) ger \\(-2=4a+6\\Rightarrow a=-2\\).</p><p><strong>\\(f(x)=-2(x+2)^2+6\\).</strong></p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En andragradsfunktion har maximipunkten \\((-2,\\,6)\\) och går genom \\((0,-2)\\).</p><p>Bestäm funktionen.</p>",
+    "s": "<p>Maximipunkten \\((-2,\\,6)\\) gör att funktionen kan skrivas \\(f(x)=a(x+2)^2+6\\).</p><p>Punkten \\((0,-2)\\) ger \\(-2=4a+6\\Rightarrow a=-2\\).</p><p><strong>\\(f(x)=-2(x+2)^2+6\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -22230,7 +22233,7 @@ window.BANKMA2 = [
     "svarFormat": "uttryck",
     "familjTidigare": "Bestämma linjära funktioner från graf",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -22246,7 +22249,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En bollbana modelleras med en andragradsfunktion \\(h(x)=ax^2+bx+c\\). Bollen lämnar handen på höjden 1,8 m, når sin högsta punkt 3,0 m över marken när den har färdats 6 m horisontellt och landar senare på marken.</p><p>Bestäm var bollen landar enligt modellen. Svara i meter med en decimal.</p>",
-    "s": "<p>Den högsta punkten är \\((6{,}3)\\), så skriv \\(h(x)=a(x-6)^2+3\\).</p><p>Eftersom \\(h(0)=1{,}8\\):</p><p>\\[36a+3=1{,}8\\Rightarrow a=-\\frac1{30}.\\]</p><p>Vid landningen är \\(h(x)=0\\):</p><p>\\[-\\frac1{30}(x-6)^2+3=0\\Rightarrow (x-6)^2=90.\\]</p><p>Den lösning som ligger efter kastpunkten är</p><p>\\[x=6+3\\sqrt{10}\\approx15{,}5.\\]</p><p><strong>Bollen landar cirka 15,5 m från kastpunkten.</strong></p>",
+    "s": "<p>Den högsta punkten är \\((6,\\,3)\\), så skriv \\(h(x)=a(x-6)^2+3\\).</p><p>Eftersom \\(h(0)=1{,}8\\):</p><p>\\[36a+3=1{,}8\\Rightarrow a=-\\frac1{30}.\\]</p><p>Vid landningen är \\(h(x)=0\\):</p><p>\\[-\\frac1{30}(x-6)^2+3=0\\Rightarrow (x-6)^2=90.\\]</p><p>Den lösning som ligger efter kastpunkten är</p><p>\\[x=6+3\\sqrt{10}\\approx15{,}5.\\]</p><p><strong>Bollen landar cirka 15,5 m från kastpunkten.</strong></p>",
     "familj": "Tillämpa andragradsmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -22469,9 +22472,9 @@ window.BANKMA2 = [
     "niva": "A",
     "poang": "0/0/3",
     "t": "<p>Ett träningslag mäter sambandet mellan veckovis träningsmängd och förbättring på ett test. En linjär regression ger \\(y=0{,}42x+1{,}1\\) och \\(r=0{,}91\\). Mätningarna omfattar endast \\(3\\le x\\le9\\).</p><p>En tränare säger att 20 timmars träning därför ger ungefär \\(9{,}5\\) enheters förbättring och att mer träning bevisligen orsakar bättre resultat.</p><p>Analysera påståendet. Vilka delar stöds av modellen och vilka gör det inte?</p>",
-    "s": "<p>Insättning av \\(x=20\\) ger visserligen \\(0{,}42\\cdot20+1{,}1=9{,}5\\), men 20 ligger långt utanför det undersökta intervallet 3–9. Prognosen är därför en osäker prognos långt utanför mätintervallet.</p><p>\\(r=0{,}91\\) visar ett starkt positivt linjärt samband i datamaterialet men bevisar inte orsak. Andra faktorer kan påverka båda variablerna.</p><p><strong>Beräkningen 9,5 följer modellen, men varken den långa prognos långt utanför mätintervalleten eller påståendet om orsak är väl underbyggt.</strong></p>",
+    "s": "<p>Insättning av \\(x=20\\) ger visserligen \\(0{,}42\\cdot20+1{,}1=9{,}5\\), men 20 ligger långt utanför det undersökta intervallet 3–9. Prognosen är därför en osäker extrapolation.</p><p>\\(r=0{,}91\\) visar ett starkt positivt linjärt samband i datamaterialet, men korrelation bevisar inte orsak. Andra faktorer kan påverka båda variablerna.</p><p><strong>Beräkningen 9,5 följer regressionsmodellen, men varken extrapolationen till 20 timmar eller påståendet om orsak är väl underbyggt.</strong></p>",
     "familj": "Kritisk granskning av korrelation och regressionsmodeller",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "text",
     "rättSvar": null,
@@ -22483,7 +22486,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Insättning av \\(x=20\\) ger visserligen \\(0{,}42\\cdot20+1{,}1=9{,}5\\), men 20 ligger långt utanför det undersökta intervallet 3–9. Prognosen är därför en osäker prognos långt utanför mätintervallet.</p>",
+    "ledtrad": "<p>Jämför först \\(x=20\\) med det uppmätta intervallet 3–9. Fundera sedan på vad korrelationskoefficienten \\(r\\) säger — och vad den inte kan bevisa.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false,
@@ -22498,23 +22501,24 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Lös \\(\\sqrt{x+10}=x-2\\).</p>",
-    "s": "<p>Högerledet kan inte vara negativt, så vi behöver \\(x\\ge2\\).</p><p>Kvadrera båda leden:</p><p>\\(x+10=(x-2)^2=x^2-4x+4\\).</p><p>\\(x^2-5x-6=0=(x-6)(x+1)\\), alltså \\(x=6\\) eller \\(x=-1\\).</p><p>\\(x=-1\\) uppfyller inte villkoret \\(x\\ge2\\).</p><p><strong>\\(x=6\\).</strong></p>",
+    "t": "<p>En elev löser ekvationen</p><p>\\[\\sqrt{x+10}=x-2\\]</p><p>genom att kvadrera och får kandidaterna \\(x=6\\) och \\(x=-1\\). Eleven svarar att båda är lösningar.</p><p>Förklara varför svaret är fel och ange den korrekta lösningen.</p>",
+    "s": "<p>Kvadrering kan skapa falska lösningar. I ursprungsekvationen måste högerledet dessutom vara icke-negativt eftersom vänsterledet är en kvadratrot:</p><p>\\[x-2\\ge0\\Rightarrow x\\ge2.\\]</p><p>Kandidaten \\(x=-1\\) kan därför inte vara en lösning. Kontroll av \\(x=6\\) ger</p><p>\\[\\sqrt{6+10}=4=6-2.\\]</p><p><strong>Den enda lösningen är \\(x=6\\).</strong></p>",
     "familj": "Rotekvationer och falska rötter",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Isolera roten innan du kvadrerar. Kvadrering kan skapa falska lösningar, så varje kandidat måste sättas tillbaka i ursprungsekvationen.</p>",
+    "ledtrad": "<p>En ekvation som fås efter kvadrering kan ha fler lösningar än ursprungsekvationen. Kontrollera därför varje kandidat i den ursprungliga ekvationen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.284",
@@ -22557,8 +22561,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En kvadratisk skylt har sidan \\(x\\) dm. Runt skylten sätts en ram som är 1 dm bred på alla sidor. Hela skylten med ram får arean 100 dm².</p><p>Bestäm den ursprungliga skyltens sida.</p>",
     "s": "<p>När ramen läggs till ökar varje sida med 2 dm. Yttermåttet blir därför \\(x+2\\).</p><p>\\[(x+2)^2=100.\\]</p><p>Eftersom en längd är positiv får vi \\(x+2=10\\), alltså \\(x=8\\).</p><p><strong>Skyltens sida är 8 dm.</strong></p>",
     "familj": "Andragradsekvationer i geometri- och areaproblem",
@@ -22574,7 +22578,7 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Skriv först ett geometriskt uttryck för längd eller area med en variabel. Använd villkoret i uppgiften för att få en andragradsekvation och förkasta lösningar som inte kan vara geometriska längder.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -22666,7 +22670,7 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Formulera den relevanta storheten som ett andragradsuttryck och sätt den lika med det givna värdet. När ekvationen är löst måste rötterna tolkas i situationen – alla matematiska rötter behöver inte vara möjliga.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
@@ -22680,8 +22684,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En rektangel har omkretsen 30 cm och arean 44 cm².</p><p>Bestäm sidlängderna.</p>",
     "s": "<p>Halva omkretsen är 15. Låt därför sidorna vara \\(x\\) och \\(15-x\\).</p><p>Arean ger \\(x(15-x)=44\\).</p><p>\\(x^2-15x+44=0=(x-4)(x-11)\\).</p><p><strong>Sidorna är 4 cm och 11 cm.</strong></p>",
     "familj": "Andragradsekvationer i geometri- och areaproblem",
@@ -22699,7 +22703,6 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
       "problemlösning"
     ],
     "svarFormat": [
@@ -22712,7 +22715,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Skriv först ett geometriskt uttryck för längd eller area med en variabel. Använd villkoret i uppgiften för att få en andragradsekvation och förkasta lösningar som inte kan vara geometriska längder.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -22772,8 +22775,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Två positiva tal har summan 17 och produkten 60.</p><p>Bestäm talen med hjälp av en andragradsekvation.</p>",
     "s": "<p>Låt det ena talet vara \\(x\\). Eftersom summan är 17 är det andra \\(17-x\\).</p><p>Produkten ska vara 60:</p><p>\\(x(17-x)=60\\Rightarrow x^2-17x+60=0\\).</p><p>Faktorisera: \\((x-5)(x-12)=0\\).</p><p><strong>Talen är 5 och 12.</strong></p>",
     "familj": "Andragradsekvationer i tillämpningar",
@@ -22791,7 +22794,6 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering",
       "problemlösning"
     ],
     "svarFormat": [
@@ -22804,7 +22806,7 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Formulera den relevanta storheten som ett andragradsuttryck och sätt den lika med det givna värdet. När ekvationen är löst måste rötterna tolkas i situationen – alla matematiska rötter behöver inte vara möjliga.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -22956,8 +22958,8 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Tolka och bestämma andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Sätt \\(g(x)=3\\), samla allt i ena ledet och lös den andragradsekvation som uppstår.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -22970,12 +22972,12 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Funktionerna \\(f(x)=x^2-4x+1\\) och \\(g(x)=2x-5\\) skär varandra.</p><p>Bestäm skärningspunkterna.</p>",
     "s": "<p>Sätt \\(f(x)=g(x)\\):</p><p>\\(x^2-4x+1=2x-5\\Rightarrow x^2-6x+6=0\\).</p><p>Med <strong>pq-formeln</strong>:</p><p>\\(x=3\\pm\\sqrt3\\).</p><p>För \\(y\\) använder vi \\(y=2x-5\\):</p><p>\\(y=1\\pm2\\sqrt3\\).</p><p><strong>Skärningspunkterna är \\((3-\\sqrt3,\\,1-2\\sqrt3)\\) och \\((3+\\sqrt3,\\,1+2\\sqrt3)\\).</strong></p>",
     "familj": "Grundegenskaper hos andragradsfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -22998,8 +23000,8 @@ window.BANKMA2 = [
       "skärningspunkt"
     ],
     "familjTidigare": "Tolka och bestämma andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Sätt \\(f(x)=g(x)\\). Då får du en andragradsekvation. Bestäm först x-värdena och sätt sedan in dem i någon av funktionerna för att få y-värdena.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -23146,7 +23148,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Vilka av punkterna \\((0{,}4)\\), \\((1{,}1)\\), \\((2{,}0)\\) och \\((3{,}1)\\) ligger på grafen till \\(f(x)=(x-2)^2\\)?</p>",
+    "t": "<p>Vilka av punkterna \\((0,\\,4)\\), \\((1,\\,1)\\), \\((2,\\,0)\\) och \\((3,\\,1)\\) ligger på grafen till \\(f(x)=(x-2)^2\\)?</p>",
     "s": "<p>Beräkna funktionsvärdena:</p><p>\\(f(0)=4\\), \\(f(1)=1\\), \\(f(2)=0\\), \\(f(3)=1\\).</p><p><strong>Alla fyra punkterna ligger på grafen.</strong></p>",
     "familj": "Grundegenskaper hos andragradsfunktioner",
     "geogebra": false,
@@ -23246,7 +23248,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Tolka och bestämma andragradsfunktioner",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -23348,49 +23350,46 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"83.80\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"119.60\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"155.40\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"191.20\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"227.00\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"298.60\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"334.40\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"370.20\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"406.00\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"254.80\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-10</text><text x=\"254.80\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-9</text><text x=\"254.80\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-8</text><text x=\"254.80\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-7</text><text x=\"254.80\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"254.80\" y=\"203.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"254.80\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"254.80\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"254.80\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"254.80\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"254.80\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"254.80\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><path d=\"M 108.50 21.12 L 109.00 23.51 L 109.50 25.88 L 110.00 28.24 L 110.50 30.60 L 111.00 32.94 L 111.50 35.27 L 112.00 37.60 L 112.50 39.91 L 113.00 42.21 L 113.50 44.51 L 114.00 46.79 L 114.50 49.06 L 115.00 51.32 L 115.50 53.58 L 116.00 55.82 L 116.50 58.05 L 117.00 60.27 L 117.50 62.49 L 118.00 64.69 L 118.50 66.88 L 119.00 69.06 L 119.50 71.23 L 120.00 73.40 L 120.50 75.55 L 121.00 77.69 L 121.50 79.82 L 122.00 81.94 L 122.50 84.05 L 123.00 86.15 L 123.50 88.25 L 124.00 90.33 L 124.50 92.40 L 125.00 94.46 L 125.50 96.51 L 126.00 98.55 L 126.50 100.58 L 127.00 102.60 L 127.50 104.61 L 128.00 106.61 L 128.50 108.60 L 129.00 110.58 L 129.50 112.55 L 130.00 114.51 L 130.50 116.46 L 131.00 118.40 L 131.50 120.33 L 132.00 122.25 L 132.50 124.16 L 133.00 126.06 L 133.50 127.95 L 134.00 129.83 L 134.50 131.70 L 135.00 133.56 L 135.50 135.41 L 136.00 137.25 L 136.50 139.08 L 137.00 140.90 L 137.50 142.71 L 138.00 144.51 L 138.50 146.30 L 139.00 148.07 L 139.50 149.84 L 140.00 151.60 L 140.50 153.35 L 141.00 155.09 L 141.50 156.82 L 142.00 158.54 L 142.50 160.24 L 143.00 161.94 L 143.50 163.63 L 144.00 165.31 L 144.50 166.98 L 145.00 168.63 L 145.50 170.28 L 146.00 171.92 L 146.50 173.55 L 147.00 175.17 L 147.50 176.77 L 148.00 178.37 L 148.50 179.96 L 149.00 181.53 L 149.50 183.10 L 150.00 184.66 L 150.50 186.21 L 151.00 187.74 L 151.50 189.27 L 152.00 190.79 L 152.50 192.29 L 153.00 193.79 L 153.50 195.28 L 154.00 196.75 L 154.50 198.22 L 155.00 199.68 L 155.50 201.12 L 156.00 202.56 L 156.50 203.98 L 157.00 205.40 L 157.50 206.81 L 158.00 208.20 L 158.50 209.59 L 159.00 210.96 L 159.50 212.33 L 160.00 213.68 L 160.50 215.03 L 161.00 216.37 L 161.50 217.69 L 162.00 219.01 L 162.50 220.31 L 163.00 221.61 L 163.50 222.89 L 164.00 224.17 L 164.50 225.43 L 165.00 226.69 L 165.50 227.93 L 166.00 229.16 L 166.50 230.39 L 167.00 231.60 L 167.50 232.81 L 168.00 234.00 L 168.50 235.19 L 169.00 236.36 L 169.50 237.52 L 170.00 238.68 L 170.50 239.82 L 171.00 240.96 L 171.50 242.08 L 172.00 243.19 L 172.50 244.30 L 173.00 245.39 L 173.50 246.47 L 174.00 247.55 L 174.50 248.61 L 175.00 249.66 L 175.50 250.71 L 176.00 251.74 L 176.50 252.76 L 177.00 253.78 L 177.50 254.78 L 178.00 255.77 L 178.50 256.75 L 179.00 257.73 L 179.50 258.69 L 180.00 259.64 L 180.50 260.58 L 181.00 261.52 L 181.50 262.44 L 182.00 263.35 L 182.50 264.25 L 183.00 265.14 L 183.50 266.03 L 184.00 266.90 L 184.50 267.76 L 185.00 268.61 L 185.50 269.45 L 186.00 270.28 L 186.50 271.11 L 187.00 271.92 L 187.50 272.72 L 188.00 273.51 L 188.50 274.29 L 189.00 275.06 L 189.50 275.82 L 190.00 276.57 L 190.50 277.31 L 191.00 278.04 L 191.50 278.76 L 192.00 279.47 L 192.50 280.18 L 193.00 280.87 L 193.50 281.55 L 194.00 282.22 L 194.50 282.88 L 195.00 283.53 L 195.50 284.17 L 196.00 284.80 L 196.50 285.42 L 197.00 286.03 L 197.50 286.63 L 198.00 287.22 L 198.50 287.79 L 199.00 288.36 L 199.50 288.92 L 200.00 289.47 L 200.50 290.01 L 201.00 290.54 L 201.50 291.06 L 202.00 291.57 L 202.50 292.07 L 203.00 292.56 L 203.50 293.04 L 204.00 293.50 L 204.50 293.96 L 205.00 294.41 L 205.50 294.85 L 206.00 295.28 L 206.50 295.70 L 207.00 296.10 L 207.50 296.50 L 208.00 296.89 L 208.50 297.27 L 209.00 297.64 L 209.50 297.99 L 210.00 298.34 L 210.50 298.68 L 211.00 299.01 L 211.50 299.32 L 212.00 299.63 L 212.50 299.93 L 213.00 300.22 L 213.50 300.49 L 214.00 300.76 L 214.50 301.02 L 215.00 301.26 L 215.50 301.50 L 216.00 301.73 L 216.50 301.94 L 217.00 302.15 L 217.50 302.35 L 218.00 302.53 L 218.50 302.71 L 219.00 302.88 L 219.50 303.03 L 220.00 303.18 L 220.50 303.32 L 221.00 303.44 L 221.50 303.56 L 222.00 303.66 L 222.50 303.76 L 223.00 303.84 L 223.50 303.92 L 224.00 303.99 L 224.50 304.04 L 225.00 304.09 L 225.50 304.12 L 226.00 304.15 L 226.50 304.16 L 227.00 304.17 L 227.50 304.16 L 228.00 304.15 L 228.50 304.12 L 229.00 304.09 L 229.50 304.04 L 230.00 303.99 L 230.50 303.92 L 231.00 303.84 L 231.50 303.76 L 232.00 303.66 L 232.50 303.56 L 233.00 303.44 L 233.50 303.32 L 234.00 303.18 L 234.50 303.03 L 235.00 302.88 L 235.50 302.71 L 236.00 302.53 L 236.50 302.35 L 237.00 302.15 L 237.50 301.94 L 238.00 301.73 L 238.50 301.50 L 239.00 301.26 L 239.50 301.02 L 240.00 300.76 L 240.50 300.49 L 241.00 300.22 L 241.50 299.93 L 242.00 299.63 L 242.50 299.32 L 243.00 299.01 L 243.50 298.68 L 244.00 298.34 L 244.50 297.99 L 245.00 297.64 L 245.50 297.27 L 246.00 296.89 L 246.50 296.50 L 247.00 296.10 L 247.50 295.70 L 248.00 295.28 L 248.50 294.85 L 249.00 294.41 L 249.50 293.96 L 250.00 293.50 L 250.50 293.04 L 251.00 292.56 L 251.50 292.07 L 252.00 291.57 L 252.50 291.06 L 253.00 290.54 L 253.50 290.01 L 254.00 289.47 L 254.50 288.92 L 255.00 288.36 L 255.50 287.79 L 256.00 287.22 L 256.50 286.63 L 257.00 286.03 L 257.50 285.42 L 258.00 284.80 L 258.50 284.17 L 259.00 283.53 L 259.50 282.88 L 260.00 282.22 L 260.50 281.55 L 261.00 280.87 L 261.50 280.18 L 262.00 279.47 L 262.50 278.76 L 263.00 278.04 L 263.50 277.31 L 264.00 276.57 L 264.50 275.82 L 265.00 275.06 L 265.50 274.29 L 266.00 273.51 L 266.50 272.72 L 267.00 271.92 L 267.50 271.11 L 268.00 270.28 L 268.50 269.45 L 269.00 268.61 L 269.50 267.76 L 270.00 266.90 L 270.50 266.03 L 271.00 265.14 L 271.50 264.25 L 272.00 263.35 L 272.50 262.44 L 273.00 261.52 L 273.50 260.58 L 274.00 259.64 L 274.50 258.69 L 275.00 257.73 L 275.50 256.75 L 276.00 255.77 L 276.50 254.78 L 277.00 253.78 L 277.50 252.76 L 278.00 251.74 L 278.50 250.71 L 279.00 249.66 L 279.50 248.61 L 280.00 247.55 L 280.50 246.47 L 281.00 245.39 L 281.50 244.30 L 282.00 243.19 L 282.50 242.08 L 283.00 240.96 L 283.50 239.82 L 284.00 238.68 L 284.50 237.52 L 285.00 236.36 L 285.50 235.19 L 286.00 234.00 L 286.50 232.81 L 287.00 231.60 L 287.50 230.39 L 288.00 229.16 L 288.50 227.93 L 289.00 226.69 L 289.50 225.43 L 290.00 224.17 L 290.50 222.89 L 291.00 221.61 L 291.50 220.31 L 292.00 219.01 L 292.50 217.69 L 293.00 216.37 L 293.50 215.03 L 294.00 213.68 L 294.50 212.33 L 295.00 210.96 L 295.50 209.59 L 296.00 208.20 L 296.50 206.81 L 297.00 205.40 L 297.50 203.98 L 298.00 202.56 L 298.50 201.12 L 299.00 199.68 L 299.50 198.22 L 300.00 196.75 L 300.50 195.28 L 301.00 193.79 L 301.50 192.29 L 302.00 190.79 L 302.50 189.27 L 303.00 187.74 L 303.50 186.21 L 304.00 184.66 L 304.50 183.10 L 305.00 181.53 L 305.50 179.96 L 306.00 178.37 L 306.50 176.77 L 307.00 175.17 L 307.50 173.55 L 308.00 171.92 L 308.50 170.28 L 309.00 168.63 L 309.50 166.98 L 310.00 165.31 L 310.50 163.63 L 311.00 161.94 L 311.50 160.24 L 312.00 158.54 L 312.50 156.82 L 313.00 155.09 L 313.50 153.35 L 314.00 151.60 L 314.50 149.84 L 315.00 148.07 L 315.50 146.30 L 316.00 144.51 L 316.50 142.71 L 317.00 140.90 L 317.50 139.08 L 318.00 137.25 L 318.50 135.41 L 319.00 133.56 L 319.50 131.70 L 320.00 129.83 L 320.50 127.95 L 321.00 126.06 L 321.50 124.16 L 322.00 122.25 L 322.50 120.33 L 323.00 118.40 L 323.50 116.46 L 324.00 114.51 L 324.50 112.55 L 325.00 110.58 L 325.50 108.60 L 326.00 106.61 L 326.50 104.61 L 327.00 102.60 L 327.50 100.58 L 328.00 98.55 L 328.50 96.51 L 329.00 94.46 L 329.50 92.40 L 330.00 90.33 L 330.50 88.25 L 331.00 86.15 L 331.50 84.05 L 332.00 81.94 L 332.50 79.82 L 333.00 77.69 L 333.50 75.55 L 334.00 73.40 L 334.50 71.23 L 335.00 69.06 L 335.50 66.88 L 336.00 64.69 L 336.50 62.49 L 337.00 60.27 L 337.50 58.05 L 338.00 55.82 L 338.50 53.58 L 339.00 51.32 L 339.50 49.06 L 340.00 46.79 L 340.50 44.51 L 341.00 42.21 L 341.50 39.91 L 342.00 37.60 L 342.50 35.27 L 343.00 32.94 L 343.50 30.60 L 344.00 28.24 L 344.50 25.88 L 345.00 23.51 L 345.50 21.12\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm nollställena.<br>b)&nbsp;Skriv funktionen på faktoriserad form.<br>c)&nbsp;Bestäm symmetrilinjens ekvation.</p>",
-    "s": "<p>a) Grafen skär x-axeln vid \\(x=-4\\) och \\(x=2\\).</p><p>b) Faktorformen blir \\(f(x)=a(x+4)(x-2)\\). Av grafen är \\(f(0)=-8\\), alltså \\(-8=a\\cdot4\\cdot(-2)=-8a\\) och \\(a=1\\).</p><p>c) Symmetrilinjen ligger mitt emellan nollställena: \\(x=\\dfrac{-4+2}{2}=-1\\).</p><p><strong>a) \\(-4\\) och \\(2\\) &nbsp; b) \\(f(x)=(x+4)(x-2)\\) &nbsp; c) \\(x=-1\\)</strong></p>",
+    "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"83.80\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"119.60\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"155.40\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"191.20\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"227.00\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"298.60\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"334.40\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"370.20\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"406.00\" y=\"88.67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"254.80\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-10</text><text x=\"254.80\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-9</text><text x=\"254.80\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-8</text><text x=\"254.80\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-7</text><text x=\"254.80\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"254.80\" y=\"203.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"254.80\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"254.80\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"254.80\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"254.80\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"254.80\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"254.80\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><path d=\"M 108.50 21.12 L 109.00 23.51 L 109.50 25.88 L 110.00 28.24 L 110.50 30.60 L 111.00 32.94 L 111.50 35.27 L 112.00 37.60 L 112.50 39.91 L 113.00 42.21 L 113.50 44.51 L 114.00 46.79 L 114.50 49.06 L 115.00 51.32 L 115.50 53.58 L 116.00 55.82 L 116.50 58.05 L 117.00 60.27 L 117.50 62.49 L 118.00 64.69 L 118.50 66.88 L 119.00 69.06 L 119.50 71.23 L 120.00 73.40 L 120.50 75.55 L 121.00 77.69 L 121.50 79.82 L 122.00 81.94 L 122.50 84.05 L 123.00 86.15 L 123.50 88.25 L 124.00 90.33 L 124.50 92.40 L 125.00 94.46 L 125.50 96.51 L 126.00 98.55 L 126.50 100.58 L 127.00 102.60 L 127.50 104.61 L 128.00 106.61 L 128.50 108.60 L 129.00 110.58 L 129.50 112.55 L 130.00 114.51 L 130.50 116.46 L 131.00 118.40 L 131.50 120.33 L 132.00 122.25 L 132.50 124.16 L 133.00 126.06 L 133.50 127.95 L 134.00 129.83 L 134.50 131.70 L 135.00 133.56 L 135.50 135.41 L 136.00 137.25 L 136.50 139.08 L 137.00 140.90 L 137.50 142.71 L 138.00 144.51 L 138.50 146.30 L 139.00 148.07 L 139.50 149.84 L 140.00 151.60 L 140.50 153.35 L 141.00 155.09 L 141.50 156.82 L 142.00 158.54 L 142.50 160.24 L 143.00 161.94 L 143.50 163.63 L 144.00 165.31 L 144.50 166.98 L 145.00 168.63 L 145.50 170.28 L 146.00 171.92 L 146.50 173.55 L 147.00 175.17 L 147.50 176.77 L 148.00 178.37 L 148.50 179.96 L 149.00 181.53 L 149.50 183.10 L 150.00 184.66 L 150.50 186.21 L 151.00 187.74 L 151.50 189.27 L 152.00 190.79 L 152.50 192.29 L 153.00 193.79 L 153.50 195.28 L 154.00 196.75 L 154.50 198.22 L 155.00 199.68 L 155.50 201.12 L 156.00 202.56 L 156.50 203.98 L 157.00 205.40 L 157.50 206.81 L 158.00 208.20 L 158.50 209.59 L 159.00 210.96 L 159.50 212.33 L 160.00 213.68 L 160.50 215.03 L 161.00 216.37 L 161.50 217.69 L 162.00 219.01 L 162.50 220.31 L 163.00 221.61 L 163.50 222.89 L 164.00 224.17 L 164.50 225.43 L 165.00 226.69 L 165.50 227.93 L 166.00 229.16 L 166.50 230.39 L 167.00 231.60 L 167.50 232.81 L 168.00 234.00 L 168.50 235.19 L 169.00 236.36 L 169.50 237.52 L 170.00 238.68 L 170.50 239.82 L 171.00 240.96 L 171.50 242.08 L 172.00 243.19 L 172.50 244.30 L 173.00 245.39 L 173.50 246.47 L 174.00 247.55 L 174.50 248.61 L 175.00 249.66 L 175.50 250.71 L 176.00 251.74 L 176.50 252.76 L 177.00 253.78 L 177.50 254.78 L 178.00 255.77 L 178.50 256.75 L 179.00 257.73 L 179.50 258.69 L 180.00 259.64 L 180.50 260.58 L 181.00 261.52 L 181.50 262.44 L 182.00 263.35 L 182.50 264.25 L 183.00 265.14 L 183.50 266.03 L 184.00 266.90 L 184.50 267.76 L 185.00 268.61 L 185.50 269.45 L 186.00 270.28 L 186.50 271.11 L 187.00 271.92 L 187.50 272.72 L 188.00 273.51 L 188.50 274.29 L 189.00 275.06 L 189.50 275.82 L 190.00 276.57 L 190.50 277.31 L 191.00 278.04 L 191.50 278.76 L 192.00 279.47 L 192.50 280.18 L 193.00 280.87 L 193.50 281.55 L 194.00 282.22 L 194.50 282.88 L 195.00 283.53 L 195.50 284.17 L 196.00 284.80 L 196.50 285.42 L 197.00 286.03 L 197.50 286.63 L 198.00 287.22 L 198.50 287.79 L 199.00 288.36 L 199.50 288.92 L 200.00 289.47 L 200.50 290.01 L 201.00 290.54 L 201.50 291.06 L 202.00 291.57 L 202.50 292.07 L 203.00 292.56 L 203.50 293.04 L 204.00 293.50 L 204.50 293.96 L 205.00 294.41 L 205.50 294.85 L 206.00 295.28 L 206.50 295.70 L 207.00 296.10 L 207.50 296.50 L 208.00 296.89 L 208.50 297.27 L 209.00 297.64 L 209.50 297.99 L 210.00 298.34 L 210.50 298.68 L 211.00 299.01 L 211.50 299.32 L 212.00 299.63 L 212.50 299.93 L 213.00 300.22 L 213.50 300.49 L 214.00 300.76 L 214.50 301.02 L 215.00 301.26 L 215.50 301.50 L 216.00 301.73 L 216.50 301.94 L 217.00 302.15 L 217.50 302.35 L 218.00 302.53 L 218.50 302.71 L 219.00 302.88 L 219.50 303.03 L 220.00 303.18 L 220.50 303.32 L 221.00 303.44 L 221.50 303.56 L 222.00 303.66 L 222.50 303.76 L 223.00 303.84 L 223.50 303.92 L 224.00 303.99 L 224.50 304.04 L 225.00 304.09 L 225.50 304.12 L 226.00 304.15 L 226.50 304.16 L 227.00 304.17 L 227.50 304.16 L 228.00 304.15 L 228.50 304.12 L 229.00 304.09 L 229.50 304.04 L 230.00 303.99 L 230.50 303.92 L 231.00 303.84 L 231.50 303.76 L 232.00 303.66 L 232.50 303.56 L 233.00 303.44 L 233.50 303.32 L 234.00 303.18 L 234.50 303.03 L 235.00 302.88 L 235.50 302.71 L 236.00 302.53 L 236.50 302.35 L 237.00 302.15 L 237.50 301.94 L 238.00 301.73 L 238.50 301.50 L 239.00 301.26 L 239.50 301.02 L 240.00 300.76 L 240.50 300.49 L 241.00 300.22 L 241.50 299.93 L 242.00 299.63 L 242.50 299.32 L 243.00 299.01 L 243.50 298.68 L 244.00 298.34 L 244.50 297.99 L 245.00 297.64 L 245.50 297.27 L 246.00 296.89 L 246.50 296.50 L 247.00 296.10 L 247.50 295.70 L 248.00 295.28 L 248.50 294.85 L 249.00 294.41 L 249.50 293.96 L 250.00 293.50 L 250.50 293.04 L 251.00 292.56 L 251.50 292.07 L 252.00 291.57 L 252.50 291.06 L 253.00 290.54 L 253.50 290.01 L 254.00 289.47 L 254.50 288.92 L 255.00 288.36 L 255.50 287.79 L 256.00 287.22 L 256.50 286.63 L 257.00 286.03 L 257.50 285.42 L 258.00 284.80 L 258.50 284.17 L 259.00 283.53 L 259.50 282.88 L 260.00 282.22 L 260.50 281.55 L 261.00 280.87 L 261.50 280.18 L 262.00 279.47 L 262.50 278.76 L 263.00 278.04 L 263.50 277.31 L 264.00 276.57 L 264.50 275.82 L 265.00 275.06 L 265.50 274.29 L 266.00 273.51 L 266.50 272.72 L 267.00 271.92 L 267.50 271.11 L 268.00 270.28 L 268.50 269.45 L 269.00 268.61 L 269.50 267.76 L 270.00 266.90 L 270.50 266.03 L 271.00 265.14 L 271.50 264.25 L 272.00 263.35 L 272.50 262.44 L 273.00 261.52 L 273.50 260.58 L 274.00 259.64 L 274.50 258.69 L 275.00 257.73 L 275.50 256.75 L 276.00 255.77 L 276.50 254.78 L 277.00 253.78 L 277.50 252.76 L 278.00 251.74 L 278.50 250.71 L 279.00 249.66 L 279.50 248.61 L 280.00 247.55 L 280.50 246.47 L 281.00 245.39 L 281.50 244.30 L 282.00 243.19 L 282.50 242.08 L 283.00 240.96 L 283.50 239.82 L 284.00 238.68 L 284.50 237.52 L 285.00 236.36 L 285.50 235.19 L 286.00 234.00 L 286.50 232.81 L 287.00 231.60 L 287.50 230.39 L 288.00 229.16 L 288.50 227.93 L 289.00 226.69 L 289.50 225.43 L 290.00 224.17 L 290.50 222.89 L 291.00 221.61 L 291.50 220.31 L 292.00 219.01 L 292.50 217.69 L 293.00 216.37 L 293.50 215.03 L 294.00 213.68 L 294.50 212.33 L 295.00 210.96 L 295.50 209.59 L 296.00 208.20 L 296.50 206.81 L 297.00 205.40 L 297.50 203.98 L 298.00 202.56 L 298.50 201.12 L 299.00 199.68 L 299.50 198.22 L 300.00 196.75 L 300.50 195.28 L 301.00 193.79 L 301.50 192.29 L 302.00 190.79 L 302.50 189.27 L 303.00 187.74 L 303.50 186.21 L 304.00 184.66 L 304.50 183.10 L 305.00 181.53 L 305.50 179.96 L 306.00 178.37 L 306.50 176.77 L 307.00 175.17 L 307.50 173.55 L 308.00 171.92 L 308.50 170.28 L 309.00 168.63 L 309.50 166.98 L 310.00 165.31 L 310.50 163.63 L 311.00 161.94 L 311.50 160.24 L 312.00 158.54 L 312.50 156.82 L 313.00 155.09 L 313.50 153.35 L 314.00 151.60 L 314.50 149.84 L 315.00 148.07 L 315.50 146.30 L 316.00 144.51 L 316.50 142.71 L 317.00 140.90 L 317.50 139.08 L 318.00 137.25 L 318.50 135.41 L 319.00 133.56 L 319.50 131.70 L 320.00 129.83 L 320.50 127.95 L 321.00 126.06 L 321.50 124.16 L 322.00 122.25 L 322.50 120.33 L 323.00 118.40 L 323.50 116.46 L 324.00 114.51 L 324.50 112.55 L 325.00 110.58 L 325.50 108.60 L 326.00 106.61 L 326.50 104.61 L 327.00 102.60 L 327.50 100.58 L 328.00 98.55 L 328.50 96.51 L 329.00 94.46 L 329.50 92.40 L 330.00 90.33 L 330.50 88.25 L 331.00 86.15 L 331.50 84.05 L 332.00 81.94 L 332.50 79.82 L 333.00 77.69 L 333.50 75.55 L 334.00 73.40 L 334.50 71.23 L 335.00 69.06 L 335.50 66.88 L 336.00 64.69 L 336.50 62.49 L 337.00 60.27 L 337.50 58.05 L 338.00 55.82 L 338.50 53.58 L 339.00 51.32 L 339.50 49.06 L 340.00 46.79 L 340.50 44.51 L 341.00 42.21 L 341.50 39.91 L 342.00 37.60 L 342.50 35.27 L 343.00 32.94 L 343.50 30.60 L 344.00 28.24 L 344.50 25.88 L 345.00 23.51 L 345.50 21.12\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Avläs minimipunktens x-koordinat.<br>b)&nbsp;Avläs funktionens minsta värde.<br>c)&nbsp;Bestäm \\(f(0)\\).</p>",
+    "s": "<p>Av grafen ser vi att parabelns lägsta punkt är \\((-1,\\,-9)\\). Därför är minimipunktens x-koordinat \\(-1\\) och funktionens minsta värde \\(-9\\).</p><p>Vid \\(x=0\\) skär grafen y-axeln vid \\(y=-8\\), alltså är \\(f(0)=-8\\).</p><p><strong>a) \\(-1\\) &nbsp; b) \\(-9\\) &nbsp; c) \\(-8\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      [
-        -4,
-        2
-      ],
-      "f(x)=(x+4)(x-2)",
-      "x=-1"
+      -1,
+      -9,
+      -8
     ],
-    "tolerans": null,
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
     "självrättning": true,
     "formaga": [
-      "procedur",
       "begrepp"
     ],
     "svarFormat": [
-      [
-        "numeriskt",
-        "numeriskt"
-      ],
-      "uttryck",
-      "ekvation"
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a) nollställen",
-      "b) faktoriserad form",
-      "c) symmetrilinje"
+      "a) x-koordinat",
+      "b) minsta värde",
+      "c) f(0)"
     ],
-    "ledtrad": "<p>Nollställena ger faktorformen \\(f(x)=a(x-x_1)(x-x_2)\\). Bestäm \\(a\\) med en extra avläst punkt, till exempel y-skärningen.</p>",
+    "ledtrad": "<p>Läs av parabelns lägsta punkt och y-skärningen direkt i grafen.</p>",
     "delmix": "olika",
     "delmetoder": [
       "avläsning",
       "faktorform",
       "symmetri"
     ],
-    "traningsniva": 2,
-    "arbetsinsats": 2,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
     "spel": true
   },
   {
@@ -23522,7 +23521,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"316.50\" y1=\"330.00\" x2=\"316.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"361.25\" y1=\"330.00\" x2=\"361.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"92.75\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"137.50\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"227.00\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"271.75\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"316.50\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"361.25\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"406.00\" y=\"230.75\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"174.25\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"174.25\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"174.25\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"174.25\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"174.25\" y=\"139.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"174.25\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"174.25\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"174.25\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><path d=\"M 109.00 328.18 L 109.50 325.90 L 110.00 323.63 L 110.50 321.38 L 111.00 319.13 L 111.50 316.89 L 112.00 314.66 L 112.50 312.44 L 113.00 310.23 L 113.50 308.02 L 114.00 305.83 L 114.50 303.65 L 115.00 301.48 L 115.50 299.32 L 116.00 297.16 L 116.50 295.02 L 117.00 292.89 L 117.50 290.76 L 118.00 288.65 L 118.50 286.55 L 119.00 284.45 L 119.50 282.37 L 120.00 280.29 L 120.50 278.22 L 121.00 276.17 L 121.50 274.12 L 122.00 272.09 L 122.50 270.06 L 123.00 268.04 L 123.50 266.03 L 124.00 264.04 L 124.50 262.05 L 125.00 260.07 L 125.50 258.10 L 126.00 256.14 L 126.50 254.19 L 127.00 252.25 L 127.50 250.32 L 128.00 248.40 L 128.50 246.49 L 129.00 244.59 L 129.50 242.70 L 130.00 240.82 L 130.50 238.94 L 131.00 237.08 L 131.50 235.23 L 132.00 233.39 L 132.50 231.55 L 133.00 229.73 L 133.50 227.91 L 134.00 226.11 L 134.50 224.32 L 135.00 222.53 L 135.50 220.75 L 136.00 218.99 L 136.50 217.23 L 137.00 215.49 L 137.50 213.75 L 138.00 212.02 L 138.50 210.31 L 139.00 208.60 L 139.50 206.90 L 140.00 205.21 L 140.50 203.53 L 141.00 201.86 L 141.50 200.20 L 142.00 198.56 L 142.50 196.92 L 143.00 195.29 L 143.50 193.66 L 144.00 192.05 L 144.50 190.45 L 145.00 188.86 L 145.50 187.28 L 146.00 185.71 L 146.50 184.14 L 147.00 182.59 L 147.50 181.05 L 148.00 179.51 L 148.50 177.99 L 149.00 176.48 L 149.50 174.97 L 150.00 173.48 L 150.50 171.99 L 151.00 170.52 L 151.50 169.05 L 152.00 167.59 L 152.50 166.15 L 153.00 164.71 L 153.50 163.28 L 154.00 161.87 L 154.50 160.46 L 155.00 159.06 L 155.50 157.67 L 156.00 156.29 L 156.50 154.93 L 157.00 153.57 L 157.50 152.22 L 158.00 150.88 L 158.50 149.55 L 159.00 148.23 L 159.50 146.91 L 160.00 145.61 L 160.50 144.32 L 161.00 143.04 L 161.50 141.77 L 162.00 140.50 L 162.50 139.25 L 163.00 138.01 L 163.50 136.77 L 164.00 135.55 L 164.50 134.34 L 165.00 133.13 L 165.50 131.94 L 166.00 130.75 L 166.50 129.58 L 167.00 128.41 L 167.50 127.25 L 168.00 126.11 L 168.50 124.97 L 169.00 123.84 L 169.50 122.73 L 170.00 121.62 L 170.50 120.52 L 171.00 119.43 L 171.50 118.35 L 172.00 117.28 L 172.50 116.22 L 173.00 115.18 L 173.50 114.14 L 174.00 113.10 L 174.50 112.08 L 175.00 111.07 L 175.50 110.07 L 176.00 109.08 L 176.50 108.10 L 177.00 107.13 L 177.50 106.16 L 178.00 105.21 L 178.50 104.27 L 179.00 103.33 L 179.50 102.41 L 180.00 101.49 L 180.50 100.59 L 181.00 99.70 L 181.50 98.81 L 182.00 97.93 L 182.50 97.07 L 183.00 96.21 L 183.50 95.37 L 184.00 94.53 L 184.50 93.70 L 185.00 92.88 L 185.50 92.08 L 186.00 91.28 L 186.50 90.49 L 187.00 89.71 L 187.50 88.94 L 188.00 88.18 L 188.50 87.43 L 189.00 86.69 L 189.50 85.96 L 190.00 85.24 L 190.50 84.53 L 191.00 83.83 L 191.50 83.14 L 192.00 82.45 L 192.50 81.78 L 193.00 81.12 L 193.50 80.47 L 194.00 79.82 L 194.50 79.19 L 195.00 78.56 L 195.50 77.95 L 196.00 77.35 L 196.50 76.75 L 197.00 76.17 L 197.50 75.59 L 198.00 75.02 L 198.50 74.47 L 199.00 73.92 L 199.50 73.38 L 200.00 72.86 L 200.50 72.34 L 201.00 71.83 L 201.50 71.33 L 202.00 70.84 L 202.50 70.36 L 203.00 69.90 L 203.50 69.44 L 204.00 68.99 L 204.50 68.55 L 205.00 68.12 L 205.50 67.69 L 206.00 67.28 L 206.50 66.88 L 207.00 66.49 L 207.50 66.11 L 208.00 65.74 L 208.50 65.37 L 209.00 65.02 L 209.50 64.68 L 210.00 64.34 L 210.50 64.02 L 211.00 63.70 L 211.50 63.40 L 212.00 63.10 L 212.50 62.82 L 213.00 62.54 L 213.50 62.28 L 214.00 62.02 L 214.50 61.77 L 215.00 61.54 L 215.50 61.31 L 216.00 61.09 L 216.50 60.88 L 217.00 60.69 L 217.50 60.50 L 218.00 60.32 L 218.50 60.15 L 219.00 59.99 L 219.50 59.84 L 220.00 59.70 L 220.50 59.57 L 221.00 59.45 L 221.50 59.34 L 222.00 59.23 L 222.50 59.14 L 223.00 59.06 L 223.50 58.99 L 224.00 58.92 L 224.50 58.87 L 225.00 58.83 L 225.50 58.79 L 226.00 58.77 L 226.50 58.75 L 227.00 58.75 L 227.50 58.75 L 228.00 58.77 L 228.50 58.79 L 229.00 58.83 L 229.50 58.87 L 230.00 58.92 L 230.50 58.99 L 231.00 59.06 L 231.50 59.14 L 232.00 59.23 L 232.50 59.34 L 233.00 59.45 L 233.50 59.57 L 234.00 59.70 L 234.50 59.84 L 235.00 59.99 L 235.50 60.15 L 236.00 60.32 L 236.50 60.50 L 237.00 60.69 L 237.50 60.88 L 238.00 61.09 L 238.50 61.31 L 239.00 61.54 L 239.50 61.77 L 240.00 62.02 L 240.50 62.28 L 241.00 62.54 L 241.50 62.82 L 242.00 63.10 L 242.50 63.40 L 243.00 63.70 L 243.50 64.02 L 244.00 64.34 L 244.50 64.68 L 245.00 65.02 L 245.50 65.37 L 246.00 65.74 L 246.50 66.11 L 247.00 66.49 L 247.50 66.88 L 248.00 67.28 L 248.50 67.69 L 249.00 68.12 L 249.50 68.55 L 250.00 68.99 L 250.50 69.44 L 251.00 69.90 L 251.50 70.36 L 252.00 70.84 L 252.50 71.33 L 253.00 71.83 L 253.50 72.34 L 254.00 72.86 L 254.50 73.38 L 255.00 73.92 L 255.50 74.47 L 256.00 75.02 L 256.50 75.59 L 257.00 76.17 L 257.50 76.75 L 258.00 77.35 L 258.50 77.95 L 259.00 78.56 L 259.50 79.19 L 260.00 79.82 L 260.50 80.47 L 261.00 81.12 L 261.50 81.78 L 262.00 82.45 L 262.50 83.14 L 263.00 83.83 L 263.50 84.53 L 264.00 85.24 L 264.50 85.96 L 265.00 86.69 L 265.50 87.43 L 266.00 88.18 L 266.50 88.94 L 267.00 89.71 L 267.50 90.49 L 268.00 91.28 L 268.50 92.08 L 269.00 92.88 L 269.50 93.70 L 270.00 94.53 L 270.50 95.37 L 271.00 96.21 L 271.50 97.07 L 272.00 97.93 L 272.50 98.81 L 273.00 99.70 L 273.50 100.59 L 274.00 101.49 L 274.50 102.41 L 275.00 103.33 L 275.50 104.27 L 276.00 105.21 L 276.50 106.16 L 277.00 107.13 L 277.50 108.10 L 278.00 109.08 L 278.50 110.07 L 279.00 111.07 L 279.50 112.08 L 280.00 113.10 L 280.50 114.14 L 281.00 115.18 L 281.50 116.22 L 282.00 117.28 L 282.50 118.35 L 283.00 119.43 L 283.50 120.52 L 284.00 121.62 L 284.50 122.73 L 285.00 123.84 L 285.50 124.97 L 286.00 126.11 L 286.50 127.25 L 287.00 128.41 L 287.50 129.58 L 288.00 130.75 L 288.50 131.94 L 289.00 133.13 L 289.50 134.34 L 290.00 135.55 L 290.50 136.77 L 291.00 138.01 L 291.50 139.25 L 292.00 140.50 L 292.50 141.77 L 293.00 143.04 L 293.50 144.32 L 294.00 145.61 L 294.50 146.91 L 295.00 148.23 L 295.50 149.55 L 296.00 150.88 L 296.50 152.22 L 297.00 153.57 L 297.50 154.93 L 298.00 156.29 L 298.50 157.67 L 299.00 159.06 L 299.50 160.46 L 300.00 161.87 L 300.50 163.28 L 301.00 164.71 L 301.50 166.15 L 302.00 167.59 L 302.50 169.05 L 303.00 170.52 L 303.50 171.99 L 304.00 173.48 L 304.50 174.97 L 305.00 176.48 L 305.50 177.99 L 306.00 179.51 L 306.50 181.05 L 307.00 182.59 L 307.50 184.14 L 308.00 185.71 L 308.50 187.28 L 309.00 188.86 L 309.50 190.45 L 310.00 192.05 L 310.50 193.66 L 311.00 195.29 L 311.50 196.92 L 312.00 198.56 L 312.50 200.20 L 313.00 201.86 L 313.50 203.53 L 314.00 205.21 L 314.50 206.90 L 315.00 208.60 L 315.50 210.31 L 316.00 212.02 L 316.50 213.75 L 317.00 215.49 L 317.50 217.23 L 318.00 218.99 L 318.50 220.75 L 319.00 222.53 L 319.50 224.32 L 320.00 226.11 L 320.50 227.91 L 321.00 229.73 L 321.50 231.55 L 322.00 233.39 L 322.50 235.23 L 323.00 237.08 L 323.50 238.94 L 324.00 240.82 L 324.50 242.70 L 325.00 244.59 L 325.50 246.49 L 326.00 248.40 L 326.50 250.32 L 327.00 252.25 L 327.50 254.19 L 328.00 256.14 L 328.50 258.10 L 329.00 260.07 L 329.50 262.05 L 330.00 264.04 L 330.50 266.03 L 331.00 268.04 L 331.50 270.06 L 332.00 272.09 L 332.50 274.12 L 333.00 276.17 L 333.50 278.22 L 334.00 280.29 L 334.50 282.37 L 335.00 284.45 L 335.50 286.55 L 336.00 288.65 L 336.50 290.76 L 337.00 292.89 L 337.50 295.02 L 338.00 297.16 L 338.50 299.32 L 339.00 301.48 L 339.50 303.65 L 340.00 305.83 L 340.50 308.02 L 341.00 310.23 L 341.50 312.44 L 342.00 314.66 L 342.50 316.89 L 343.00 319.13 L 343.50 321.38 L 344.00 323.63 L 344.50 325.90 L 345.00 328.18\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm funktionen.<br>b)&nbsp;Lös olikheten \\(f(x)>0\\).<br>c)&nbsp;Bestäm symmetrilinjens ekvation och funktionens största värde.</p>",
-    "s": "<p>a) Nollställena är \\(-1\\) och \\(3\\), så \\(f(x)=a(x+1)(x-3)\\). Grafen går genom \\((0{,}3)\\), alltså \\(3=a\\cdot1\\cdot(-3)=-3a\\) och \\(a=-1\\). Alltså \\(f(x)=-(x+1)(x-3)=-x^2+2x+3\\).</p><p>b) Parabeln är nedåtvänd, så \\(f(x)&gt;0\\) mellan nollställena: \\(-1&lt;x&lt;3\\).</p><p>c) Symmetrilinjen är \\(x=\\dfrac{-1+3}{2}=1\\) och \\(f(1)=-(2)(-2)=4\\).</p><p><strong>a) \\(f(x)=-(x+1)(x-3)\\) &nbsp; b) \\(-1&lt;x&lt;3\\) &nbsp; c) \\(x=1\\), största värde \\(4\\)</strong></p>",
+    "s": "<p>a) Nollställena är \\(-1\\) och \\(3\\), så \\(f(x)=a(x+1)(x-3)\\). Grafen går genom \\((0,\\,3)\\), alltså \\(3=a\\cdot1\\cdot(-3)=-3a\\) och \\(a=-1\\). Alltså \\(f(x)=-(x+1)(x-3)=-x^2+2x+3\\).</p><p>b) Parabeln är nedåtvänd, så \\(f(x)&gt;0\\) mellan nollställena: \\(-1&lt;x&lt;3\\).</p><p>c) Symmetrilinjen är \\(x=\\dfrac{-1+3}{2}=1\\) och \\(f(1)=-(2)(-2)=4\\).</p><p><strong>a) \\(f(x)=-(x+1)(x-3)\\) &nbsp; b) \\(-1&lt;x&lt;3\\) &nbsp; c) \\(x=1\\), största värde \\(4\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -23629,7 +23628,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Grafen till en andragradsfunktion \\(f\\) visas.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"301.82\" x2=\"406.00\" y2=\"301.82\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"273.64\" x2=\"406.00\" y2=\"273.64\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"245.45\" x2=\"406.00\" y2=\"245.45\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"217.27\" x2=\"406.00\" y2=\"217.27\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"189.09\" x2=\"406.00\" y2=\"189.09\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"160.91\" x2=\"406.00\" y2=\"160.91\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"132.73\" x2=\"406.00\" y2=\"132.73\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"104.55\" x2=\"406.00\" y2=\"104.55\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"76.36\" x2=\"406.00\" y2=\"76.36\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"48.18\" x2=\"406.00\" y2=\"48.18\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"273.64\" x2=\"406.00\" y2=\"273.64\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"83.80\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"119.60\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"155.40\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"227.00\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"262.80\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"298.60\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"334.40\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"370.20\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"406.00\" y=\"290.64\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"183.20\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"183.20\" y=\"304.82\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"183.20\" y=\"248.45\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"183.20\" y=\"220.27\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"183.20\" y=\"192.09\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"183.20\" y=\"163.91\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"183.20\" y=\"135.73\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"183.20\" y=\"107.55\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"183.20\" y=\"79.36\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"183.20\" y=\"51.18\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"183.20\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><path d=\"M 67.00 329.64 L 67.50 327.88 L 68.00 326.13 L 68.50 324.39 L 69.00 322.65 L 69.50 320.91 L 70.00 319.18 L 70.50 317.46 L 71.00 315.74 L 71.50 314.03 L 72.00 312.32 L 72.50 310.62 L 73.00 308.93 L 73.50 307.24 L 74.00 305.55 L 74.50 303.87 L 75.00 302.20 L 75.50 300.53 L 76.00 298.87 L 76.50 297.21 L 77.00 295.56 L 77.50 293.91 L 78.00 292.27 L 78.50 290.63 L 79.00 289.00 L 79.50 287.38 L 80.00 285.76 L 80.50 284.15 L 81.00 282.54 L 81.50 280.94 L 82.00 279.34 L 82.50 277.75 L 83.00 276.16 L 83.50 274.58 L 84.00 273.01 L 84.50 271.44 L 85.00 269.87 L 85.50 268.32 L 86.00 266.76 L 86.50 265.21 L 87.00 263.67 L 87.50 262.14 L 88.00 260.61 L 88.50 259.08 L 89.00 257.56 L 89.50 256.05 L 90.00 254.54 L 90.50 253.03 L 91.00 251.53 L 91.50 250.04 L 92.00 248.56 L 92.50 247.07 L 93.00 245.60 L 93.50 244.13 L 94.00 242.66 L 94.50 241.20 L 95.00 239.75 L 95.50 238.30 L 96.00 236.86 L 96.50 235.42 L 97.00 233.99 L 97.50 232.56 L 98.00 231.14 L 98.50 229.72 L 99.00 228.31 L 99.50 226.91 L 100.00 225.51 L 100.50 224.12 L 101.00 222.73 L 101.50 221.35 L 102.00 219.97 L 102.50 218.60 L 103.00 217.23 L 103.50 215.87 L 104.00 214.52 L 104.50 213.17 L 105.00 211.82 L 105.50 210.48 L 106.00 209.15 L 106.50 207.82 L 107.00 206.50 L 107.50 205.19 L 108.00 203.87 L 108.50 202.57 L 109.00 201.27 L 109.50 199.97 L 110.00 198.68 L 110.50 197.40 L 111.00 196.12 L 111.50 194.85 L 112.00 193.58 L 112.50 192.32 L 113.00 191.07 L 113.50 189.81 L 114.00 188.57 L 114.50 187.33 L 115.00 186.10 L 115.50 184.87 L 116.00 183.64 L 116.50 182.43 L 117.00 181.21 L 117.50 180.01 L 118.00 178.81 L 118.50 177.61 L 119.00 176.42 L 119.50 175.24 L 120.00 174.06 L 120.50 172.88 L 121.00 171.72 L 121.50 170.55 L 122.00 169.40 L 122.50 168.24 L 123.00 167.10 L 123.50 165.96 L 124.00 164.82 L 124.50 163.69 L 125.00 162.57 L 125.50 161.45 L 126.00 160.34 L 126.50 159.23 L 127.00 158.13 L 127.50 157.03 L 128.00 155.94 L 128.50 154.85 L 129.00 153.77 L 129.50 152.70 L 130.00 151.63 L 130.50 150.56 L 131.00 149.51 L 131.50 148.45 L 132.00 147.41 L 132.50 146.36 L 133.00 145.33 L 133.50 144.30 L 134.00 143.27 L 134.50 142.25 L 135.00 141.24 L 135.50 140.23 L 136.00 139.23 L 136.50 138.23 L 137.00 137.24 L 137.50 136.25 L 138.00 135.27 L 138.50 134.29 L 139.00 133.32 L 139.50 132.36 L 140.00 131.40 L 140.50 130.44 L 141.00 129.50 L 141.50 128.55 L 142.00 127.62 L 142.50 126.68 L 143.00 125.76 L 143.50 124.84 L 144.00 123.92 L 144.50 123.01 L 145.00 122.11 L 145.50 121.21 L 146.00 120.32 L 146.50 119.43 L 147.00 118.55 L 147.50 117.67 L 148.00 116.80 L 148.50 115.93 L 149.00 115.07 L 149.50 114.22 L 150.00 113.37 L 150.50 112.52 L 151.00 111.69 L 151.50 110.85 L 152.00 110.03 L 152.50 109.20 L 153.00 108.39 L 153.50 107.58 L 154.00 106.77 L 154.50 105.97 L 155.00 105.18 L 155.50 104.39 L 156.00 103.60 L 156.50 102.83 L 157.00 102.05 L 157.50 101.29 L 158.00 100.53 L 158.50 99.77 L 159.00 99.02 L 159.50 98.28 L 160.00 97.54 L 160.50 96.80 L 161.00 96.07 L 161.50 95.35 L 162.00 94.63 L 162.50 93.92 L 163.00 93.22 L 163.50 92.51 L 164.00 91.82 L 164.50 91.13 L 165.00 90.44 L 165.50 89.77 L 166.00 89.09 L 166.50 88.42 L 167.00 87.76 L 167.50 87.10 L 168.00 86.45 L 168.50 85.81 L 169.00 85.17 L 169.50 84.53 L 170.00 83.90 L 170.50 83.28 L 171.00 82.66 L 171.50 82.05 L 172.00 81.44 L 172.50 80.84 L 173.00 80.24 L 173.50 79.65 L 174.00 79.07 L 174.50 78.49 L 175.00 77.91 L 175.50 77.34 L 176.00 76.78 L 176.50 76.22 L 177.00 75.67 L 177.50 75.12 L 178.00 74.58 L 178.50 74.04 L 179.00 73.51 L 179.50 72.99 L 180.00 72.47 L 180.50 71.95 L 181.00 71.45 L 181.50 70.94 L 182.00 70.45 L 182.50 69.95 L 183.00 69.47 L 183.50 68.99 L 184.00 68.51 L 184.50 68.04 L 185.00 67.58 L 185.50 67.12 L 186.00 66.66 L 186.50 66.22 L 187.00 65.77 L 187.50 65.34 L 188.00 64.90 L 188.50 64.48 L 189.00 64.06 L 189.50 63.64 L 190.00 63.23 L 190.50 62.83 L 191.00 62.43 L 191.50 62.04 L 192.00 61.65 L 192.50 61.27 L 193.00 60.89 L 193.50 60.52 L 194.00 60.15 L 194.50 59.79 L 195.00 59.44 L 195.50 59.09 L 196.00 58.75 L 196.50 58.41 L 197.00 58.08 L 197.50 57.75 L 198.00 57.43 L 198.50 57.11 L 199.00 56.80 L 199.50 56.50 L 200.00 56.20 L 200.50 55.90 L 201.00 55.61 L 201.50 55.33 L 202.00 55.05 L 202.50 54.78 L 203.00 54.51 L 203.50 54.25 L 204.00 54.00 L 204.50 53.75 L 205.00 53.50 L 205.50 53.26 L 206.00 53.03 L 206.50 52.80 L 207.00 52.58 L 207.50 52.36 L 208.00 52.15 L 208.50 51.94 L 209.00 51.74 L 209.50 51.55 L 210.00 51.36 L 210.50 51.18 L 211.00 51.00 L 211.50 50.82 L 212.00 50.66 L 212.50 50.49 L 213.00 50.34 L 213.50 50.19 L 214.00 50.04 L 214.50 49.90 L 215.00 49.77 L 215.50 49.64 L 216.00 49.51 L 216.50 49.39 L 217.00 49.28 L 217.50 49.17 L 218.00 49.07 L 218.50 48.98 L 219.00 48.89 L 219.50 48.80 L 220.00 48.72 L 220.50 48.65 L 221.00 48.58 L 221.50 48.51 L 222.00 48.46 L 222.50 48.40 L 223.00 48.36 L 223.50 48.32 L 224.00 48.28 L 224.50 48.25 L 225.00 48.23 L 225.50 48.21 L 226.00 48.19 L 226.50 48.18 L 227.00 48.18 L 227.50 48.18 L 228.00 48.19 L 228.50 48.21 L 229.00 48.23 L 229.50 48.25 L 230.00 48.28 L 230.50 48.32 L 231.00 48.36 L 231.50 48.40 L 232.00 48.46 L 232.50 48.51 L 233.00 48.58 L 233.50 48.65 L 234.00 48.72 L 234.50 48.80 L 235.00 48.89 L 235.50 48.98 L 236.00 49.07 L 236.50 49.17 L 237.00 49.28 L 237.50 49.39 L 238.00 49.51 L 238.50 49.64 L 239.00 49.77 L 239.50 49.90 L 240.00 50.04 L 240.50 50.19 L 241.00 50.34 L 241.50 50.49 L 242.00 50.66 L 242.50 50.82 L 243.00 51.00 L 243.50 51.18 L 244.00 51.36 L 244.50 51.55 L 245.00 51.74 L 245.50 51.94 L 246.00 52.15 L 246.50 52.36 L 247.00 52.58 L 247.50 52.80 L 248.00 53.03 L 248.50 53.26 L 249.00 53.50 L 249.50 53.75 L 250.00 54.00 L 250.50 54.25 L 251.00 54.51 L 251.50 54.78 L 252.00 55.05 L 252.50 55.33 L 253.00 55.61 L 253.50 55.90 L 254.00 56.20 L 254.50 56.50 L 255.00 56.80 L 255.50 57.11 L 256.00 57.43 L 256.50 57.75 L 257.00 58.08 L 257.50 58.41 L 258.00 58.75 L 258.50 59.09 L 259.00 59.44 L 259.50 59.79 L 260.00 60.15 L 260.50 60.52 L 261.00 60.89 L 261.50 61.27 L 262.00 61.65 L 262.50 62.04 L 263.00 62.43 L 263.50 62.83 L 264.00 63.23 L 264.50 63.64 L 265.00 64.06 L 265.50 64.48 L 266.00 64.90 L 266.50 65.34 L 267.00 65.77 L 267.50 66.22 L 268.00 66.66 L 268.50 67.12 L 269.00 67.58 L 269.50 68.04 L 270.00 68.51 L 270.50 68.99 L 271.00 69.47 L 271.50 69.95 L 272.00 70.45 L 272.50 70.94 L 273.00 71.45 L 273.50 71.95 L 274.00 72.47 L 274.50 72.99 L 275.00 73.51 L 275.50 74.04 L 276.00 74.58 L 276.50 75.12 L 277.00 75.67 L 277.50 76.22 L 278.00 76.78 L 278.50 77.34 L 279.00 77.91 L 279.50 78.49 L 280.00 79.07 L 280.50 79.65 L 281.00 80.24 L 281.50 80.84 L 282.00 81.44 L 282.50 82.05 L 283.00 82.66 L 283.50 83.28 L 284.00 83.90 L 284.50 84.53 L 285.00 85.17 L 285.50 85.81 L 286.00 86.45 L 286.50 87.10 L 287.00 87.76 L 287.50 88.42 L 288.00 89.09 L 288.50 89.77 L 289.00 90.44 L 289.50 91.13 L 290.00 91.82 L 290.50 92.51 L 291.00 93.22 L 291.50 93.92 L 292.00 94.63 L 292.50 95.35 L 293.00 96.07 L 293.50 96.80 L 294.00 97.54 L 294.50 98.28 L 295.00 99.02 L 295.50 99.77 L 296.00 100.53 L 296.50 101.29 L 297.00 102.05 L 297.50 102.83 L 298.00 103.60 L 298.50 104.39 L 299.00 105.18 L 299.50 105.97 L 300.00 106.77 L 300.50 107.58 L 301.00 108.39 L 301.50 109.20 L 302.00 110.03 L 302.50 110.85 L 303.00 111.69 L 303.50 112.52 L 304.00 113.37 L 304.50 114.22 L 305.00 115.07 L 305.50 115.93 L 306.00 116.80 L 306.50 117.67 L 307.00 118.55 L 307.50 119.43 L 308.00 120.32 L 308.50 121.21 L 309.00 122.11 L 309.50 123.01 L 310.00 123.92 L 310.50 124.84 L 311.00 125.76 L 311.50 126.68 L 312.00 127.62 L 312.50 128.55 L 313.00 129.50 L 313.50 130.44 L 314.00 131.40 L 314.50 132.36 L 315.00 133.32 L 315.50 134.29 L 316.00 135.27 L 316.50 136.25 L 317.00 137.24 L 317.50 138.23 L 318.00 139.23 L 318.50 140.23 L 319.00 141.24 L 319.50 142.25 L 320.00 143.27 L 320.50 144.30 L 321.00 145.33 L 321.50 146.36 L 322.00 147.41 L 322.50 148.45 L 323.00 149.51 L 323.50 150.56 L 324.00 151.63 L 324.50 152.70 L 325.00 153.77 L 325.50 154.85 L 326.00 155.94 L 326.50 157.03 L 327.00 158.13 L 327.50 159.23 L 328.00 160.34 L 328.50 161.45 L 329.00 162.57 L 329.50 163.69 L 330.00 164.82 L 330.50 165.96 L 331.00 167.10 L 331.50 168.24 L 332.00 169.40 L 332.50 170.55 L 333.00 171.72 L 333.50 172.88 L 334.00 174.06 L 334.50 175.24 L 335.00 176.42 L 335.50 177.61 L 336.00 178.81 L 336.50 180.01 L 337.00 181.21 L 337.50 182.43 L 338.00 183.64 L 338.50 184.87 L 339.00 186.10 L 339.50 187.33 L 340.00 188.57 L 340.50 189.81 L 341.00 191.07 L 341.50 192.32 L 342.00 193.58 L 342.50 194.85 L 343.00 196.12 L 343.50 197.40 L 344.00 198.68 L 344.50 199.97 L 345.00 201.27 L 345.50 202.57 L 346.00 203.87 L 346.50 205.19 L 347.00 206.50 L 347.50 207.82 L 348.00 209.15 L 348.50 210.48 L 349.00 211.82 L 349.50 213.17 L 350.00 214.52 L 350.50 215.87 L 351.00 217.23 L 351.50 218.60 L 352.00 219.97 L 352.50 221.35 L 353.00 222.73 L 353.50 224.12 L 354.00 225.51 L 354.50 226.91 L 355.00 228.31 L 355.50 229.72 L 356.00 231.14 L 356.50 232.56 L 357.00 233.99 L 357.50 235.42 L 358.00 236.86 L 358.50 238.30 L 359.00 239.75 L 359.50 241.20 L 360.00 242.66 L 360.50 244.13 L 361.00 245.60 L 361.50 247.07 L 362.00 248.56 L 362.50 250.04 L 363.00 251.53 L 363.50 253.03 L 364.00 254.54 L 364.50 256.05 L 365.00 257.56 L 365.50 259.08 L 366.00 260.61 L 366.50 262.14 L 367.00 263.67 L 367.50 265.21 L 368.00 266.76 L 368.50 268.32 L 369.00 269.87 L 369.50 271.44 L 370.00 273.01 L 370.50 274.58 L 371.00 276.16 L 371.50 277.75 L 372.00 279.34 L 372.50 280.94 L 373.00 282.54 L 373.50 284.15 L 374.00 285.76 L 374.50 287.38 L 375.00 289.00 L 375.50 290.63 L 376.00 292.27 L 376.50 293.91 L 377.00 295.56 L 377.50 297.21 L 378.00 298.87 L 378.50 300.53 L 379.00 302.20 L 379.50 303.87 L 380.00 305.55 L 380.50 307.24 L 381.00 308.93 L 381.50 310.62 L 382.00 312.32 L 382.50 314.03 L 383.00 315.74 L 383.50 317.46 L 384.00 319.18 L 384.50 320.91 L 385.00 322.65 L 385.50 324.39 L 386.00 326.13 L 386.50 327.88 L 387.00 329.64\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>En elev påstår: ”Symmetrilinjen är \\(x=2\\), eftersom nollställena ligger 8 enheter från varandra.”</p><p>a) Förklara vad som är fel i resonemanget.<br>b) Bestäm symmetrilinjens ekvation och maximipunkten.</p>",
-    "s": "<p>Nollställena är \\(-3\\) och \\(5\\). Symmetrilinjen ligger mitt emellan dem, inte två enheter från någon av dem:</p><p>\\[x=\\frac{-3+5}{2}=1.\\]</p><p>Elevens fel är alltså att avståndet mellan nollställena inte i sig är symmetrilinjens x-värde. Av grafen ligger toppunkten på symmetrilinjen och har y-värdet 8.</p><p><strong>Symmetrilinjen är \\(x=1\\) och maximipunkten är \\((1{,}8)\\).</strong></p>",
+    "s": "<p>Nollställena är \\(-3\\) och \\(5\\). Symmetrilinjen ligger mitt emellan dem, inte två enheter från någon av dem:</p><p>\\[x=\\frac{-3+5}{2}=1.\\]</p><p>Elevens fel är alltså att avståndet mellan nollställena inte i sig är symmetrilinjens x-värde. Av grafen ligger toppunkten på symmetrilinjen och har y-värdet 8.</p><p><strong>Symmetrilinjen är \\(x=1\\) och maximipunkten är \\((1,\\,8)\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf eller punkter",
     "geogebra": false,
     "miniräknare": false,
@@ -23805,7 +23804,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Grafen visar en andragradsfunktion \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"83.80\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"119.60\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"191.20\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"227.00\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"262.80\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"298.60\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"334.40\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"370.20\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"406.00\" y=\"166.17\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"147.40\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-7</text><text x=\"147.40\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"147.40\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"147.40\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"147.40\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"147.40\" y=\"203.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"147.40\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"147.40\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"147.40\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"147.40\" y=\"74.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"147.40\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"147.40\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><path d=\"M 144.50 327.92 L 145.00 325.54 L 145.50 323.17 L 146.00 320.81 L 146.50 318.46 L 147.00 316.12 L 147.50 313.80 L 148.00 311.48 L 148.50 309.17 L 149.00 306.87 L 149.50 304.58 L 150.00 302.30 L 150.50 300.03 L 151.00 297.77 L 151.50 295.53 L 152.00 293.29 L 152.50 291.06 L 153.00 288.84 L 153.50 286.63 L 154.00 284.43 L 154.50 282.25 L 155.00 280.07 L 155.50 277.90 L 156.00 275.74 L 156.50 273.60 L 157.00 271.46 L 157.50 269.33 L 158.00 267.21 L 158.50 265.11 L 159.00 263.01 L 159.50 260.92 L 160.00 258.84 L 160.50 256.78 L 161.00 254.72 L 161.50 252.67 L 162.00 250.64 L 162.50 248.61 L 163.00 246.59 L 163.50 244.59 L 164.00 242.59 L 164.50 240.60 L 165.00 238.63 L 165.50 236.66 L 166.00 234.70 L 166.50 232.76 L 167.00 230.82 L 167.50 228.90 L 168.00 226.98 L 168.50 225.07 L 169.00 223.18 L 169.50 221.29 L 170.00 219.42 L 170.50 217.55 L 171.00 215.70 L 171.50 213.85 L 172.00 212.02 L 172.50 210.19 L 173.00 208.38 L 173.50 206.57 L 174.00 204.78 L 174.50 202.99 L 175.00 201.22 L 175.50 199.45 L 176.00 197.70 L 176.50 195.95 L 177.00 194.22 L 177.50 192.49 L 178.00 190.78 L 178.50 189.08 L 179.00 187.38 L 179.50 185.70 L 180.00 184.02 L 180.50 182.36 L 181.00 180.71 L 181.50 179.06 L 182.00 177.43 L 182.50 175.80 L 183.00 174.19 L 183.50 172.59 L 184.00 170.99 L 184.50 169.41 L 185.00 167.84 L 185.50 166.27 L 186.00 164.72 L 186.50 163.18 L 187.00 161.65 L 187.50 160.12 L 188.00 158.61 L 188.50 157.11 L 189.00 155.61 L 189.50 154.13 L 190.00 152.66 L 190.50 151.20 L 191.00 149.74 L 191.50 148.30 L 192.00 146.87 L 192.50 145.45 L 193.00 144.04 L 193.50 142.63 L 194.00 141.24 L 194.50 139.86 L 195.00 138.49 L 195.50 137.13 L 196.00 135.78 L 196.50 134.43 L 197.00 133.10 L 197.50 131.78 L 198.00 130.47 L 198.50 129.17 L 199.00 127.88 L 199.50 126.60 L 200.00 125.33 L 200.50 124.07 L 201.00 122.82 L 201.50 121.58 L 202.00 120.34 L 202.50 119.12 L 203.00 117.91 L 203.50 116.71 L 204.00 115.52 L 204.50 114.34 L 205.00 113.17 L 205.50 112.01 L 206.00 110.86 L 206.50 109.72 L 207.00 108.59 L 207.50 107.47 L 208.00 106.36 L 208.50 105.26 L 209.00 104.18 L 209.50 103.10 L 210.00 102.03 L 210.50 100.97 L 211.00 99.92 L 211.50 98.88 L 212.00 97.85 L 212.50 96.83 L 213.00 95.82 L 213.50 94.82 L 214.00 93.83 L 214.50 92.86 L 215.00 91.89 L 215.50 90.93 L 216.00 89.98 L 216.50 89.04 L 217.00 88.11 L 217.50 87.20 L 218.00 86.29 L 218.50 85.39 L 219.00 84.50 L 219.50 83.62 L 220.00 82.76 L 220.50 81.90 L 221.00 81.05 L 221.50 80.21 L 222.00 79.39 L 222.50 78.57 L 223.00 77.76 L 223.50 76.96 L 224.00 76.18 L 224.50 75.40 L 225.00 74.63 L 225.50 73.88 L 226.00 73.13 L 226.50 72.39 L 227.00 71.67 L 227.50 70.95 L 228.00 70.24 L 228.50 69.55 L 229.00 68.86 L 229.50 68.18 L 230.00 67.52 L 230.50 66.86 L 231.00 66.22 L 231.50 65.58 L 232.00 64.95 L 232.50 64.34 L 233.00 63.73 L 233.50 63.14 L 234.00 62.55 L 234.50 61.98 L 235.00 61.41 L 235.50 60.86 L 236.00 60.31 L 236.50 59.78 L 237.00 59.25 L 237.50 58.74 L 238.00 58.23 L 238.50 57.74 L 239.00 57.25 L 239.50 56.78 L 240.00 56.31 L 240.50 55.86 L 241.00 55.41 L 241.50 54.98 L 242.00 54.55 L 242.50 54.14 L 243.00 53.74 L 243.50 53.34 L 244.00 52.96 L 244.50 52.58 L 245.00 52.22 L 245.50 51.87 L 246.00 51.52 L 246.50 51.19 L 247.00 50.87 L 247.50 50.55 L 248.00 50.25 L 248.50 49.96 L 249.00 49.67 L 249.50 49.40 L 250.00 49.14 L 250.50 48.88 L 251.00 48.64 L 251.50 48.41 L 252.00 48.18 L 252.50 47.97 L 253.00 47.77 L 253.50 47.58 L 254.00 47.39 L 254.50 47.22 L 255.00 47.06 L 255.50 46.91 L 256.00 46.77 L 256.50 46.63 L 257.00 46.51 L 257.50 46.40 L 258.00 46.30 L 258.50 46.21 L 259.00 46.12 L 259.50 46.05 L 260.00 45.99 L 260.50 45.94 L 261.00 45.90 L 261.50 45.87 L 262.00 45.85 L 262.50 45.84 L 263.00 45.83 L 263.50 45.84 L 264.00 45.86 L 264.50 45.89 L 265.00 45.93 L 265.50 45.98 L 266.00 46.04 L 266.50 46.11 L 267.00 46.19 L 267.50 46.28 L 268.00 46.38 L 268.50 46.49 L 269.00 46.61 L 269.50 46.74 L 270.00 46.88 L 270.50 47.03 L 271.00 47.19 L 271.50 47.36 L 272.00 47.54 L 272.50 47.73 L 273.00 47.93 L 273.50 48.14 L 274.00 48.36 L 274.50 48.59 L 275.00 48.83 L 275.50 49.08 L 276.00 49.35 L 276.50 49.62 L 277.00 49.90 L 277.50 50.19 L 278.00 50.49 L 278.50 50.80 L 279.00 51.12 L 279.50 51.45 L 280.00 51.80 L 280.50 52.15 L 281.00 52.51 L 281.50 52.88 L 282.00 53.26 L 282.50 53.66 L 283.00 54.06 L 283.50 54.47 L 284.00 54.89 L 284.50 55.32 L 285.00 55.77 L 285.50 56.22 L 286.00 56.68 L 286.50 57.16 L 287.00 57.64 L 287.50 58.13 L 288.00 58.63 L 288.50 59.15 L 289.00 59.67 L 289.50 60.20 L 290.00 60.75 L 290.50 61.30 L 291.00 61.86 L 291.50 62.44 L 292.00 63.02 L 292.50 63.61 L 293.00 64.22 L 293.50 64.83 L 294.00 65.45 L 294.50 66.09 L 295.00 66.73 L 295.50 67.39 L 296.00 68.05 L 296.50 68.72 L 297.00 69.41 L 297.50 70.10 L 298.00 70.81 L 298.50 71.52 L 299.00 72.25 L 299.50 72.98 L 300.00 73.73 L 300.50 74.48 L 301.00 75.25 L 301.50 76.02 L 302.00 76.81 L 302.50 77.60 L 303.00 78.41 L 303.50 79.22 L 304.00 80.05 L 304.50 80.88 L 305.00 81.73 L 305.50 82.58 L 306.00 83.45 L 306.50 84.33 L 307.00 85.21 L 307.50 86.11 L 308.00 87.01 L 308.50 87.93 L 309.00 88.86 L 309.50 89.79 L 310.00 90.74 L 310.50 91.70 L 311.00 92.66 L 311.50 93.64 L 312.00 94.62 L 312.50 95.62 L 313.00 96.63 L 313.50 97.65 L 314.00 98.67 L 314.50 99.71 L 315.00 100.76 L 315.50 101.81 L 316.00 102.88 L 316.50 103.96 L 317.00 105.05 L 317.50 106.14 L 318.00 107.25 L 318.50 108.37 L 319.00 109.50 L 319.50 110.63 L 320.00 111.78 L 320.50 112.94 L 321.00 114.11 L 321.50 115.29 L 322.00 116.47 L 322.50 117.67 L 323.00 118.88 L 323.50 120.10 L 324.00 121.33 L 324.50 122.57 L 325.00 123.82 L 325.50 125.07 L 326.00 126.34 L 326.50 127.62 L 327.00 128.91 L 327.50 130.21 L 328.00 131.52 L 328.50 132.84 L 329.00 134.17 L 329.50 135.51 L 330.00 136.86 L 330.50 138.22 L 331.00 139.59 L 331.50 140.97 L 332.00 142.36 L 332.50 143.76 L 333.00 145.17 L 333.50 146.59 L 334.00 148.02 L 334.50 149.46 L 335.00 150.91 L 335.50 152.37 L 336.00 153.84 L 336.50 155.32 L 337.00 156.81 L 337.50 158.31 L 338.00 159.82 L 338.50 161.34 L 339.00 162.87 L 339.50 164.41 L 340.00 165.96 L 340.50 167.52 L 341.00 169.09 L 341.50 170.68 L 342.00 172.27 L 342.50 173.87 L 343.00 175.48 L 343.50 177.10 L 344.00 178.73 L 344.50 180.38 L 345.00 182.03 L 345.50 183.69 L 346.00 185.36 L 346.50 187.04 L 347.00 188.74 L 347.50 190.44 L 348.00 192.15 L 348.50 193.87 L 349.00 195.60 L 349.50 197.35 L 350.00 199.10 L 350.50 200.86 L 351.00 202.64 L 351.50 204.42 L 352.00 206.21 L 352.50 208.01 L 353.00 209.83 L 353.50 211.65 L 354.00 213.48 L 354.50 215.33 L 355.00 217.18 L 355.50 219.04 L 356.00 220.92 L 356.50 222.80 L 357.00 224.69 L 357.50 226.60 L 358.00 228.51 L 358.50 230.44 L 359.00 232.37 L 359.50 234.31 L 360.00 236.27 L 360.50 238.23 L 361.00 240.21 L 361.50 242.19 L 362.00 244.19 L 362.50 246.19 L 363.00 248.21 L 363.50 250.23 L 364.00 252.26 L 364.50 254.31 L 365.00 256.36 L 365.50 258.43 L 366.00 260.50 L 366.50 262.59 L 367.00 264.68 L 367.50 266.79 L 368.00 268.91 L 368.50 271.03 L 369.00 273.17 L 369.50 275.31 L 370.00 277.47 L 370.50 279.63 L 371.00 281.81 L 371.50 284.00 L 372.00 286.19 L 372.50 288.40 L 373.00 290.61 L 373.50 292.84 L 374.00 295.08 L 374.50 297.32 L 375.00 299.58 L 375.50 301.85 L 376.00 304.12 L 376.50 306.41 L 377.00 308.71 L 377.50 311.01 L 378.00 313.33 L 378.50 315.66 L 379.00 317.99 L 379.50 320.34 L 380.00 322.70 L 380.50 325.07 L 381.00 327.44 L 381.50 329.83\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Ange nollställena.<br>b)&nbsp;Ange symmetrilinjens ekvation.<br>c)&nbsp;Ange maximipunkten och funktionens största värde.</p>",
-    "s": "<p>a) Grafen skär x-axeln vid \\(x=1\\) och \\(x=5\\).</p><p>b) Symmetrilinjen ligger mitt emellan nollställena: \\(x=3\\).</p><p>c) Maximipunkten är \\((3{,}4)\\). Största värdet är punktens y-värde, alltså \\(4\\).</p><p><strong>a) \\(1\\) och \\(5\\) &nbsp; b) \\(x=3\\) &nbsp; c) \\((3{,}4)\\), största värde \\(4\\)</strong></p>",
+    "s": "<p>a) Grafen skär x-axeln vid \\(x=1\\) och \\(x=5\\).</p><p>b) Symmetrilinjen ligger mitt emellan nollställena: \\(x=3\\).</p><p>c) Maximipunkten är \\((3,\\,4)\\). Största värdet är punktens y-värde, alltså \\(4\\).</p><p><strong>a) \\(1\\) och \\(5\\) &nbsp; b) \\(x=3\\) &nbsp; c) \\((3,\\,4)\\), största värde \\(4\\)</strong></p>",
     "familj": "Tolka andragradsfunktioner från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -23860,25 +23859,25 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En andragradsfunktion har nollställena \\(x=2\\) och \\(x=10\\). Funktionens minsta värde är \\(-16\\). Bestäm funktionens formel.</p>",
-    "s": "<p>Nollställena ger faktorformen \\(f(x)=a(x-2)(x-10)\\). Symmetrilinjen ligger mitt emellan nollställena, alltså vid \\(x=6\\).</p><p>Eftersom minsta värdet är \\(-16\\) gäller</p><p>\\[-16=a(6-2)(6-10)=-16a,\\]</p><p>så \\(a=1\\).</p><p><strong>\\(f(x)=(x-2)(x-10)=x^2-12x+20\\).</strong></p>",
+    "t": "<p>En andragradsfunktion har nollställena \\(x=2\\) och \\(x=10\\) och minsta värdet \\(-16\\).</p><p>En elev säger: ”Då måste funktionen vara \\(f(x)=(x-2)(x-10)\\), eftersom nollställena bestämmer funktionen.”</p><p>Bedöm elevens påstående. Förklara vad nollställena faktiskt bestämmer och använd minimivärdet för att bestämma funktionen.</p>",
+    "s": "<p>Nollställena bestämmer faktorerna men inte faktorn framför dem. I allmänhet kan funktionen skrivas</p><p>\\[f(x)=a(x-2)(x-10).\\]</p><p>Symmetrilinjen ligger mitt emellan nollställena, alltså vid \\(x=6\\). Där är</p><p>\\[f(6)=a\\cdot4\\cdot(-4)=-16a.\\]</p><p>Minimivärdet är \\(-16\\), så \\(-16a=-16\\Rightarrow a=1\\).</p><p><strong>Elevens slutsats råkar bli rätt, men motiveringen är fel: nollställena ensamma bestämmer inte skalfaktorn. Funktionen är \\(f(x)=(x-2)(x-10)=x^2-12x+20\\).</strong></p>",
     "familj": "Symmetrilinje och extrempunkt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "f(x)=x^2-12x+20",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
-    "svarFormat": "uttryck",
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
-    "ledtrad": "<p>Börja med faktorformen från nollställena. Använd sedan att minimipunkten ligger mitt emellan dem.</p>",
+    "ledtrad": "<p>Skriv först den allmänna faktorformen \\(a(x-2)(x-10)\\). Vilket x-värde ligger mitt emellan nollställena?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.315",
@@ -23931,10 +23930,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>Funktionen \\(f(x)=ax^2+bx+10\\) har minimipunkten \\((3{,}1)\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
-    "s": "<p>Eftersom minimipunkten är \\((3{,}1)\\) kan funktionen skrivas \\(f(x)=a(x-3)^2+1\\).</p><p>Konstanttermen blir då \\(9a+1\\).</p><p>Den ska vara 10, så \\(9a+1=10\\Rightarrow a=1\\).</p><p>Utveckla: \\((x-3)^2+1=x^2-6x+10\\).</p><p><strong>\\(a=1\\), \\(b=-6\\).</strong></p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Funktionen \\(f(x)=ax^2+bx+10\\) har minimipunkten \\((3,\\,1)\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<p>Eftersom minimipunkten är \\((3,\\,1)\\) kan funktionen skrivas \\(f(x)=a(x-3)^2+1\\).</p><p>Konstanttermen blir då \\(9a+1\\).</p><p>Den ska vara 10, så \\(9a+1=10\\Rightarrow a=1\\).</p><p>Utveckla: \\((x-3)^2+1=x^2-6x+10\\).</p><p><strong>\\(a=1\\), \\(b=-6\\).</strong></p>",
     "familj": "Symmetrilinje och extrempunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -23959,7 +23958,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -24002,10 +24001,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>En andragradsfunktion har sitt största värde 12 vid \\(x=-2\\) och går genom punkten \\((1{,}3)\\).</p><p>Bestäm funktionen.</p>",
-    "s": "<p>Det största värdet 12 vid \\(x=-2\\) innebär att maximipunkten är \\((-2{,}12)\\).</p><p>Funktionen kan därför skrivas \\(f(x)=a(x+2)^2+12\\).</p><p>Sätt in \\((1{,}3)\\): \\(3=9a+12\\Rightarrow a=-1\\).</p><p><strong>\\(f(x)=-(x+2)^2+12\\).</strong></p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>En andragradsfunktion har sitt största värde 12 vid \\(x=-2\\) och går genom punkten \\((1,\\,3)\\).</p><p>Bestäm funktionen.</p>",
+    "s": "<p>Det största värdet 12 vid \\(x=-2\\) innebär att maximipunkten är \\((-2,\\,12)\\).</p><p>Funktionen kan därför skrivas \\(f(x)=a(x+2)^2+12\\).</p><p>Sätt in \\((1,\\,3)\\): \\(3=9a+12\\Rightarrow a=-1\\).</p><p><strong>\\(f(x)=-(x+2)^2+12\\).</strong></p>",
     "familj": "Symmetrilinje och extrempunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -24017,8 +24016,8 @@ window.BANKMA2 = [
       "procedur"
     ],
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Använd vertexformen \\(f(x)=a(x-h)^2+k\\) när extrempunkten \\((h,k)\\) är känd. Bestäm sedan \\(a\\) med den givna punkten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -24034,7 +24033,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Funktionen är \\(f(x)=-2x^2+8x+3\\).</p><p>a) Bestäm symmetrilinjen.<br>b) Bestäm maximipunktens koordinater.</p>",
-    "s": "<p>Kvadratkomplettera:</p><p>\\(f(x)=-2(x^2-4x)+3=-2\\big((x-2)^2-4\\big)+3\\).</p><p>Alltså \\(f(x)=-2(x-2)^2+11\\).</p><p>Eftersom \\((x-2)^2\\ge0\\) är det största värdet 11, och det fås när \\(x=2\\).</p><p><strong>Symmetrilinjen är \\(x=2\\) och maximipunkten är \\((2{,}11)\\).</strong></p>",
+    "s": "<p>Kvadratkomplettera:</p><p>\\(f(x)=-2(x^2-4x)+3=-2\\big((x-2)^2-4\\big)+3\\).</p><p>Alltså \\(f(x)=-2(x-2)^2+11\\).</p><p>Eftersom \\((x-2)^2\\ge0\\) är det största värdet 11, och det fås när \\(x=2\\).</p><p><strong>Symmetrilinjen är \\(x=2\\) och maximipunkten är \\((2,\\,11)\\).</strong></p>",
     "familj": "Symmetrilinje och extrempunkt",
     "geogebra": false,
     "miniräknare": false,
@@ -24073,8 +24072,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Funktionen \\(f(x)=2x^2-12x+k\\) har det minsta värdet 5.</p><p>Bestäm \\(k\\).</p>",
     "s": "<p>Kvadratkomplettera:</p><p>\\(f(x)=2(x^2-6x)+k=2(x-3)^2+k-18\\).</p><p>Minsta värdet är \\(k-18\\).</p><p>\\(k-18=5\\Rightarrow k=23\\).</p><p><strong>\\(k=23\\).</strong></p>",
     "familj": "Symmetrilinje och extrempunkt",
@@ -24089,8 +24088,8 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Bestäm först var symmetrilinjen ligger eller kvadratkomplettera uttrycket. Det minsta värdet ger sedan ett villkor för \\(k\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -24145,8 +24144,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En andragradsfunktion har nollställena −1 och 7 och värdet \\(f(0)=-14\\). Bestäm funktionens minsta värde.</p>",
     "s": "<p>Skriv funktionen på faktorform:</p><p>\\[f(x)=a(x+1)(x-7).\\]</p><p>Eftersom \\(f(0)=-14\\) gäller \\(-7a=-14\\), alltså \\(a=2\\).</p><p>Symmetrilinjen ligger mitt emellan nollställena: \\(x=3\\).</p><p>\\[f(3)=2\\cdot4\\cdot(-4)=-32.\\]</p><p><strong>Funktionens minsta värde är −32.</strong></p>",
     "familj": "Symmetrilinje och extrempunkt",
@@ -24161,8 +24160,8 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Symmetrilinje och extrempunkt för andragradsfunktioner",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Skriv funktionen på faktorform från nollställena, bestäm faktorn med \\(f(0)\\) och använd därefter symmetrilinjen för att hitta minimivärdet.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -24300,9 +24299,9 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En parabel går genom punkterna \\((-1{,}0)\\), \\((2,-9)\\) och \\((5{,}0)\\).</p><p>Bestäm funktionen utan att sätta upp ett ekvationssystem med tre obekanta.</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En parabel går genom punkterna \\((-1,\\,0)\\), \\((2,-9)\\) och \\((5,\\,0)\\).</p><p>Bestäm funktionen utan att sätta upp ett ekvationssystem med tre obekanta.</p>",
     "s": "<p>Nollställena är −1 och 5, så</p><p>\\(f(x)=a(x+1)(x-5)\\).</p><p>Sätt in punkten \\((2,-9)\\):</p><p>\\(-9=a\\cdot3\\cdot(-3)=-9a\\Rightarrow a=1\\).</p><p><strong>\\(f(x)=(x+1)(x-5)=x^2-4x-5\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
@@ -24317,8 +24316,8 @@ window.BANKMA2 = [
     ],
     "svarFormat": "uttryck",
     "familjTidigare": "Bestämma linjära funktioner från graf",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Två av punkterna är nollställen. Börja därför med faktorformen och använd den tredje punkten för att bestämma konstanten framför parenteserna.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -24333,7 +24332,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En uppåtvänd parabel har nollställena \\(-4\\) och 2. Grafen skär y-axeln i punkten \\((0,f(0))\\).</p><p>Triangeln med hörnen \\((-4{,}0)\\), \\((0{,}0)\\) och \\((0,f(0))\\) har arean 8 areaenheter.</p><p>Bestäm parabelns funktion.</p>",
+    "t": "<p>En uppåtvänd parabel har nollställena \\(-4\\) och 2. Grafen skär y-axeln i punkten \\((0,f(0))\\).</p><p>Triangeln med hörnen \\((-4,\\,0)\\), \\((0,\\,0)\\) och \\((0,f(0))\\) har arean 8 areaenheter.</p><p>Bestäm parabelns funktion.</p>",
     "s": "<p>Skriv \\(f(x)=a(x+4)(x-2)\\).</p><p>Skärningen med y-axeln är \\(f(0)=-8a\\).</p><p>Triangeln med basen 4 längdenheter längs x-axeln från −4 till 0 och höjden \\(|f(0)|\\) har area 8:</p><p>\\(\\frac12\\cdot4\\cdot|f(0)|=8\\Rightarrow|f(0)|=4\\).</p><p>Parabeln är uppåtvänd, så \\(a&gt;0\\) och därmed \\(f(0)=-8a&lt;0\\). Alltså \\(f(0)=-4\\).</p><p>\\(-8a=-4\\Rightarrow a=1/2\\).</p><p><strong>\\(f(x)=\\frac12(x+4)(x-2)\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
@@ -24380,7 +24379,7 @@ window.BANKMA2 = [
     "svarFormat": "uttryck",
     "familjTidigare": "Bestämma linjära funktioner från graf",
     "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -24395,24 +24394,25 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En parabel har symmetrilinjen \\(x=1\\), skär y-axeln vid 6 och har ett nollställe vid \\(x=-2\\).</p><p>Bestäm funktionen.</p>",
-    "s": "<p>Det andra nollstället ligger lika långt på andra sidan symmetrilinjen: \\(x=4\\).</p><p>Skriv \\(f(x)=a(x+2)(x-4)\\).</p><p>\\(f(0)=a\\cdot2\\cdot(-4)=-8a=6\\Rightarrow a=-3/4\\).</p><p><strong>\\(f(x)=-\\frac34(x+2)(x-4)\\).</strong></p>",
+    "t": "<p>En parabel har symmetrilinjen \\(x=1\\), skär y-axeln vid 6 och har ett nollställe vid \\(x=-2\\).</p><p>En elev påstår att det andra nollstället är \\(x=3\\), eftersom ”det ligger på andra sidan om symmetrilinjen”.</p><p>Förklara felet, bestäm det andra nollstället och bestäm sedan funktionen.</p>",
+    "s": "<p>Nollstället \\(x=-2\\) ligger 3 enheter till vänster om symmetrilinjen \\(x=1\\). Det andra nollstället måste därför ligga 3 enheter till höger:</p><p>\\[x=1+3=4.\\]</p><p>Elevens fel är att ”andra sidan” inte räcker; avståndet till symmetrilinjen måste vara lika stort.</p><p>Skriv \\(f(x)=a(x+2)(x-4)\\). Eftersom \\(f(0)=6\\) får vi</p><p>\\[6=a\\cdot2\\cdot(-4)=-8a\\Rightarrow a=-\\frac34.\\]</p><p><strong>Det andra nollstället är 4 och \\(f(x)=-\\frac34(x+2)(x-4)\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "ekvation",
-    "rättSvar": "f(x)=-3/4(x+2)(x-4)",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "familjTidigare": "Bestämma linjära funktioner från graf",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
+    "ledtrad": "<p>Jämför avståndet från \\(-2\\) till symmetrilinjen \\(x=1\\). Nollställena ligger lika långt från symmetrilinjen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.330",
@@ -24423,8 +24423,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>En andragradsfunktion har nollställena 1 och 7. Dessutom gäller \\(f(3)=-16\\).</p><p>Bestäm funktionen och dess minsta värde.</p>",
     "s": "<p>Skriv \\(f(x)=a(x-1)(x-7)\\).</p><p>Med \\(x=3\\): \\(-16=a\\cdot2\\cdot(-4)=-8a\\), alltså \\(a=2\\).</p><p>Symmetrilinjen ligger vid \\(x=4\\).</p><p>\\(f(4)=2\\cdot3\\cdot(-3)=-18\\).</p><p><strong>\\(f(x)=2(x-1)(x-7)\\), minsta värde \\(-18\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
@@ -24442,8 +24442,7 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "svarFormat": [
       "uttryck",
@@ -24455,8 +24454,8 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Bestämma linjära funktioner från graf",
-    "ledtrad": "<p>Med \\(x=3\\): \\(-16=a\\cdot2\\cdot(-4)=-8a\\), alltså \\(a=2\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Börja med faktorformen från nollställena och använd \\(f(3)\\) för att bestämma faktorn. Minimivärdet finns på symmetrilinjen mitt emellan nollställena.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -24469,10 +24468,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>Grafen visar en andragradsfunktion med nollställena \\(2\\) och \\(8\\). Grafen går genom punkten \\((4{,}4)\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"73.57\" y1=\"330.00\" x2=\"73.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"99.14\" y1=\"330.00\" x2=\"99.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"124.71\" y1=\"330.00\" x2=\"124.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"150.29\" y1=\"330.00\" x2=\"150.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"175.86\" y1=\"330.00\" x2=\"175.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"201.43\" y1=\"330.00\" x2=\"201.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"252.57\" y1=\"330.00\" x2=\"252.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"278.14\" y1=\"330.00\" x2=\"278.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"303.71\" y1=\"330.00\" x2=\"303.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"329.29\" y1=\"330.00\" x2=\"329.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"354.86\" y1=\"330.00\" x2=\"354.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"380.43\" y1=\"330.00\" x2=\"380.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"310.62\" x2=\"406.00\" y2=\"310.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"271.88\" x2=\"406.00\" y2=\"271.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"233.12\" x2=\"406.00\" y2=\"233.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"194.38\" x2=\"406.00\" y2=\"194.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"155.62\" x2=\"406.00\" y2=\"155.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"116.88\" x2=\"406.00\" y2=\"116.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"78.12\" x2=\"406.00\" y2=\"78.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"39.38\" x2=\"406.00\" y2=\"39.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"124.71\" y1=\"330.00\" x2=\"124.71\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"73.57\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"99.14\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"150.29\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"175.86\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"201.43\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"227.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"252.57\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"278.14\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"303.71\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"329.29\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"354.86\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"380.43\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"406.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">11</text><text x=\"116.71\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-10</text><text x=\"116.71\" y=\"313.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-9</text><text x=\"116.71\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-8</text><text x=\"116.71\" y=\"274.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-7</text><text x=\"116.71\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"116.71\" y=\"236.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"116.71\" y=\"216.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"116.71\" y=\"197.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"116.71\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"116.71\" y=\"158.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"116.71\" y=\"119.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"116.71\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"116.71\" y=\"81.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"116.71\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"116.71\" y=\"42.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"116.71\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><path d=\"M 115.00 329.45 L 115.50 327.42 L 116.00 325.39 L 116.50 323.37 L 117.00 321.36 L 117.50 319.35 L 118.00 317.35 L 118.50 315.36 L 119.00 313.38 L 119.50 311.41 L 120.00 309.44 L 120.50 307.48 L 121.00 305.53 L 121.50 303.58 L 122.00 301.64 L 122.50 299.71 L 123.00 297.79 L 123.50 295.87 L 124.00 293.96 L 124.50 292.06 L 125.00 290.17 L 125.50 288.28 L 126.00 286.40 L 126.50 284.53 L 127.00 282.67 L 127.50 280.81 L 128.00 278.96 L 128.50 277.12 L 129.00 275.29 L 129.50 273.46 L 130.00 271.64 L 130.50 269.83 L 131.00 268.02 L 131.50 266.23 L 132.00 264.44 L 132.50 262.65 L 133.00 260.88 L 133.50 259.11 L 134.00 257.35 L 134.50 255.60 L 135.00 253.85 L 135.50 252.11 L 136.00 250.38 L 136.50 248.66 L 137.00 246.94 L 137.50 245.23 L 138.00 243.53 L 138.50 241.84 L 139.00 240.15 L 139.50 238.47 L 140.00 236.80 L 140.50 235.14 L 141.00 233.48 L 141.50 231.83 L 142.00 230.19 L 142.50 228.56 L 143.00 226.93 L 143.50 225.31 L 144.00 223.70 L 144.50 222.09 L 145.00 220.50 L 145.50 218.91 L 146.00 217.32 L 146.50 215.75 L 147.00 214.18 L 147.50 212.62 L 148.00 211.07 L 148.50 209.52 L 149.00 207.98 L 149.50 206.45 L 150.00 204.93 L 150.50 203.41 L 151.00 201.91 L 151.50 200.40 L 152.00 198.91 L 152.50 197.42 L 153.00 195.95 L 153.50 194.47 L 154.00 193.01 L 154.50 191.55 L 155.00 190.10 L 155.50 188.66 L 156.00 187.23 L 156.50 185.80 L 157.00 184.38 L 157.50 182.97 L 158.00 181.56 L 158.50 180.17 L 159.00 178.78 L 159.50 177.39 L 160.00 176.02 L 160.50 174.65 L 161.00 173.29 L 161.50 171.94 L 162.00 170.59 L 162.50 169.25 L 163.00 167.92 L 163.50 166.60 L 164.00 165.28 L 164.50 163.98 L 165.00 162.68 L 165.50 161.38 L 166.00 160.10 L 166.50 158.82 L 167.00 157.54 L 167.50 156.28 L 168.00 155.02 L 168.50 153.78 L 169.00 152.53 L 169.50 151.30 L 170.00 150.07 L 170.50 148.85 L 171.00 147.64 L 171.50 146.44 L 172.00 145.24 L 172.50 144.05 L 173.00 142.87 L 173.50 141.69 L 174.00 140.52 L 174.50 139.36 L 175.00 138.21 L 175.50 137.06 L 176.00 135.93 L 176.50 134.79 L 177.00 133.67 L 177.50 132.56 L 178.00 131.45 L 178.50 130.35 L 179.00 129.25 L 179.50 128.17 L 180.00 127.09 L 180.50 126.02 L 181.00 124.95 L 181.50 123.90 L 182.00 122.85 L 182.50 121.80 L 183.00 120.77 L 183.50 119.74 L 184.00 118.72 L 184.50 117.71 L 185.00 116.71 L 185.50 115.71 L 186.00 114.72 L 186.50 113.74 L 187.00 112.76 L 187.50 111.79 L 188.00 110.83 L 188.50 109.88 L 189.00 108.93 L 189.50 108.00 L 190.00 107.07 L 190.50 106.14 L 191.00 105.23 L 191.50 104.32 L 192.00 103.42 L 192.50 102.52 L 193.00 101.64 L 193.50 100.76 L 194.00 99.89 L 194.50 99.02 L 195.00 98.17 L 195.50 97.32 L 196.00 96.48 L 196.50 95.64 L 197.00 94.81 L 197.50 93.99 L 198.00 93.18 L 198.50 92.38 L 199.00 91.58 L 199.50 90.79 L 200.00 90.01 L 200.50 89.23 L 201.00 88.46 L 201.50 87.70 L 202.00 86.95 L 202.50 86.21 L 203.00 85.47 L 203.50 84.74 L 204.00 84.01 L 204.50 83.30 L 205.00 82.59 L 205.50 81.89 L 206.00 81.19 L 206.50 80.51 L 207.00 79.83 L 207.50 79.16 L 208.00 78.49 L 208.50 77.84 L 209.00 77.19 L 209.50 76.55 L 210.00 75.91 L 210.50 75.29 L 211.00 74.67 L 211.50 74.05 L 212.00 73.45 L 212.50 72.85 L 213.00 72.26 L 213.50 71.68 L 214.00 71.10 L 214.50 70.54 L 215.00 69.98 L 215.50 69.42 L 216.00 68.88 L 216.50 68.34 L 217.00 67.81 L 217.50 67.29 L 218.00 66.77 L 218.50 66.26 L 219.00 65.76 L 219.50 65.27 L 220.00 64.78 L 220.50 64.30 L 221.00 63.83 L 221.50 63.37 L 222.00 62.91 L 222.50 62.46 L 223.00 62.02 L 223.50 61.58 L 224.00 61.16 L 224.50 60.74 L 225.00 60.32 L 225.50 59.92 L 226.00 59.52 L 226.50 59.13 L 227.00 58.75 L 227.50 58.37 L 228.00 58.01 L 228.50 57.65 L 229.00 57.29 L 229.50 56.95 L 230.00 56.61 L 230.50 56.28 L 231.00 55.96 L 231.50 55.64 L 232.00 55.33 L 232.50 55.03 L 233.00 54.74 L 233.50 54.45 L 234.00 54.17 L 234.50 53.90 L 235.00 53.64 L 235.50 53.38 L 236.00 53.13 L 236.50 52.89 L 237.00 52.65 L 237.50 52.43 L 238.00 52.21 L 238.50 52.00 L 239.00 51.79 L 239.50 51.59 L 240.00 51.40 L 240.50 51.22 L 241.00 51.05 L 241.50 50.88 L 242.00 50.72 L 242.50 50.57 L 243.00 50.42 L 243.50 50.28 L 244.00 50.15 L 244.50 50.03 L 245.00 49.91 L 245.50 49.80 L 246.00 49.70 L 246.50 49.61 L 247.00 49.52 L 247.50 49.44 L 248.00 49.37 L 248.50 49.31 L 249.00 49.25 L 249.50 49.20 L 250.00 49.16 L 250.50 49.13 L 251.00 49.10 L 251.50 49.08 L 252.00 49.07 L 252.50 49.06 L 253.00 49.07 L 253.50 49.08 L 254.00 49.09 L 254.50 49.12 L 255.00 49.15 L 255.50 49.19 L 256.00 49.24 L 256.50 49.29 L 257.00 49.35 L 257.50 49.42 L 258.00 49.50 L 258.50 49.58 L 259.00 49.67 L 259.50 49.77 L 260.00 49.88 L 260.50 49.99 L 261.00 50.11 L 261.50 50.24 L 262.00 50.38 L 262.50 50.52 L 263.00 50.67 L 263.50 50.83 L 264.00 51.00 L 264.50 51.17 L 265.00 51.35 L 265.50 51.54 L 266.00 51.73 L 266.50 51.94 L 267.00 52.15 L 267.50 52.36 L 268.00 52.59 L 268.50 52.82 L 269.00 53.06 L 269.50 53.31 L 270.00 53.56 L 270.50 53.82 L 271.00 54.09 L 271.50 54.37 L 272.00 54.65 L 272.50 54.95 L 273.00 55.25 L 273.50 55.55 L 274.00 55.87 L 274.50 56.19 L 275.00 56.52 L 275.50 56.85 L 276.00 57.19 L 276.50 57.55 L 277.00 57.90 L 277.50 58.27 L 278.00 58.64 L 278.50 59.02 L 279.00 59.41 L 279.50 59.81 L 280.00 60.21 L 280.50 60.62 L 281.00 61.04 L 281.50 61.46 L 282.00 61.89 L 282.50 62.33 L 283.00 62.78 L 283.50 63.23 L 284.00 63.70 L 284.50 64.17 L 285.00 64.64 L 285.50 65.13 L 286.00 65.62 L 286.50 66.12 L 287.00 66.62 L 287.50 67.14 L 288.00 67.66 L 288.50 68.19 L 289.00 68.72 L 289.50 69.27 L 290.00 69.82 L 290.50 70.38 L 291.00 70.94 L 291.50 71.51 L 292.00 72.09 L 292.50 72.68 L 293.00 73.28 L 293.50 73.88 L 294.00 74.49 L 294.50 75.11 L 295.00 75.73 L 295.50 76.36 L 296.00 77.00 L 296.50 77.65 L 297.00 78.31 L 297.50 78.97 L 298.00 79.64 L 298.50 80.31 L 299.00 81.00 L 299.50 81.69 L 300.00 82.39 L 300.50 83.09 L 301.00 83.81 L 301.50 84.53 L 302.00 85.26 L 302.50 85.99 L 303.00 86.74 L 303.50 87.49 L 304.00 88.25 L 304.50 89.01 L 305.00 89.79 L 305.50 90.57 L 306.00 91.35 L 306.50 92.15 L 307.00 92.95 L 307.50 93.76 L 308.00 94.58 L 308.50 95.40 L 309.00 96.24 L 309.50 97.08 L 310.00 97.92 L 310.50 98.78 L 311.00 99.64 L 311.50 100.51 L 312.00 101.39 L 312.50 102.27 L 313.00 103.16 L 313.50 104.06 L 314.00 104.97 L 314.50 105.88 L 315.00 106.80 L 315.50 107.73 L 316.00 108.67 L 316.50 109.61 L 317.00 110.56 L 317.50 111.52 L 318.00 112.48 L 318.50 113.46 L 319.00 114.44 L 319.50 115.43 L 320.00 116.42 L 320.50 117.42 L 321.00 118.43 L 321.50 119.45 L 322.00 120.48 L 322.50 121.51 L 323.00 122.55 L 323.50 123.59 L 324.00 124.65 L 324.50 125.71 L 325.00 126.78 L 325.50 127.86 L 326.00 128.94 L 326.50 130.03 L 327.00 131.13 L 327.50 132.24 L 328.00 133.35 L 328.50 134.47 L 329.00 135.60 L 329.50 136.74 L 330.00 137.88 L 330.50 139.03 L 331.00 140.19 L 331.50 141.36 L 332.00 142.53 L 332.50 143.71 L 333.00 144.90 L 333.50 146.09 L 334.00 147.30 L 334.50 148.51 L 335.00 149.72 L 335.50 150.95 L 336.00 152.18 L 336.50 153.42 L 337.00 154.67 L 337.50 155.92 L 338.00 157.18 L 338.50 158.45 L 339.00 159.73 L 339.50 161.01 L 340.00 162.30 L 340.50 163.60 L 341.00 164.91 L 341.50 166.22 L 342.00 167.55 L 342.50 168.87 L 343.00 170.21 L 343.50 171.55 L 344.00 172.90 L 344.50 174.26 L 345.00 175.63 L 345.50 177.00 L 346.00 178.38 L 346.50 179.77 L 347.00 181.16 L 347.50 182.57 L 348.00 183.98 L 348.50 185.39 L 349.00 186.82 L 349.50 188.25 L 350.00 189.69 L 350.50 191.14 L 351.00 192.59 L 351.50 194.05 L 352.00 195.52 L 352.50 197.00 L 353.00 198.49 L 353.50 199.98 L 354.00 201.48 L 354.50 202.98 L 355.00 204.50 L 355.50 206.02 L 356.00 207.55 L 356.50 209.08 L 357.00 210.62 L 357.50 212.18 L 358.00 213.73 L 358.50 215.30 L 359.00 216.87 L 359.50 218.45 L 360.00 220.04 L 360.50 221.64 L 361.00 223.24 L 361.50 224.85 L 362.00 226.47 L 362.50 228.09 L 363.00 229.72 L 363.50 231.36 L 364.00 233.01 L 364.50 234.66 L 365.00 236.33 L 365.50 238.00 L 366.00 239.67 L 366.50 241.36 L 367.00 243.05 L 367.50 244.75 L 368.00 246.45 L 368.50 248.17 L 369.00 249.89 L 369.50 251.62 L 370.00 253.35 L 370.50 255.10 L 371.00 256.85 L 371.50 258.61 L 372.00 260.37 L 372.50 262.14 L 373.00 263.93 L 373.50 265.71 L 374.00 267.51 L 374.50 269.31 L 375.00 271.12 L 375.50 272.94 L 376.00 274.76 L 376.50 276.60 L 377.00 278.44 L 377.50 280.28 L 378.00 282.14 L 378.50 284.00 L 379.00 285.87 L 379.50 287.74 L 380.00 289.63 L 380.50 291.52 L 381.00 293.42 L 381.50 295.33 L 382.00 297.24 L 382.50 299.16 L 383.00 301.09 L 383.50 303.03 L 384.00 304.97 L 384.50 306.92 L 385.00 308.88 L 385.50 310.84 L 386.00 312.82 L 386.50 314.80 L 387.00 316.79 L 387.50 318.78 L 388.00 320.78 L 388.50 322.79 L 389.00 324.81 L 389.50 326.84 L 390.00 328.87\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm symmetrilinjens ekvation.<br>b)&nbsp;Bestäm en möjlig formel för funktionen.<br>c)&nbsp;Bestäm funktionens största värde.</p>",
-    "s": "<p>a) \\(x=\\dfrac{2+8}{2}=5\\).</p><p>b) \\(f(x)=a(x-2)(x-8)\\). Punkten \\((4{,}4)\\) ger \\(4=a\\cdot2\\cdot(-4)=-8a\\), alltså \\(a=-\\dfrac12\\).</p><p>c) Största värdet antas på symmetrilinjen: \\(f(5)=-\\dfrac12\\cdot3\\cdot(-3)=4{,}5\\).</p><p><strong>a) \\(x=5\\) &nbsp; b) \\(f(x)=-\\frac12(x-2)(x-8)\\) &nbsp; c) \\(4{,}5\\)</strong></p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Grafen visar en andragradsfunktion med nollställena \\(2\\) och \\(8\\). Grafen går genom punkten \\((4,\\,4)\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"73.57\" y1=\"330.00\" x2=\"73.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"99.14\" y1=\"330.00\" x2=\"99.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"124.71\" y1=\"330.00\" x2=\"124.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"150.29\" y1=\"330.00\" x2=\"150.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"175.86\" y1=\"330.00\" x2=\"175.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"201.43\" y1=\"330.00\" x2=\"201.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"252.57\" y1=\"330.00\" x2=\"252.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"278.14\" y1=\"330.00\" x2=\"278.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"303.71\" y1=\"330.00\" x2=\"303.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"329.29\" y1=\"330.00\" x2=\"329.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"354.86\" y1=\"330.00\" x2=\"354.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"380.43\" y1=\"330.00\" x2=\"380.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"310.62\" x2=\"406.00\" y2=\"310.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"271.88\" x2=\"406.00\" y2=\"271.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"233.12\" x2=\"406.00\" y2=\"233.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"194.38\" x2=\"406.00\" y2=\"194.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"155.62\" x2=\"406.00\" y2=\"155.62\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"116.88\" x2=\"406.00\" y2=\"116.88\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"78.12\" x2=\"406.00\" y2=\"78.12\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"39.38\" x2=\"406.00\" y2=\"39.38\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"124.71\" y1=\"330.00\" x2=\"124.71\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"73.57\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"99.14\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"150.29\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"175.86\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"201.43\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"227.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"252.57\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"278.14\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"303.71\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"329.29\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"354.86\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"380.43\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"406.00\" y=\"153.25\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">11</text><text x=\"116.71\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-10</text><text x=\"116.71\" y=\"313.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-9</text><text x=\"116.71\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-8</text><text x=\"116.71\" y=\"274.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-7</text><text x=\"116.71\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"116.71\" y=\"236.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"116.71\" y=\"216.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"116.71\" y=\"197.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"116.71\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"116.71\" y=\"158.62\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"116.71\" y=\"119.88\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"116.71\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"116.71\" y=\"81.12\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"116.71\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"116.71\" y=\"42.38\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"116.71\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><path d=\"M 115.00 329.45 L 115.50 327.42 L 116.00 325.39 L 116.50 323.37 L 117.00 321.36 L 117.50 319.35 L 118.00 317.35 L 118.50 315.36 L 119.00 313.38 L 119.50 311.41 L 120.00 309.44 L 120.50 307.48 L 121.00 305.53 L 121.50 303.58 L 122.00 301.64 L 122.50 299.71 L 123.00 297.79 L 123.50 295.87 L 124.00 293.96 L 124.50 292.06 L 125.00 290.17 L 125.50 288.28 L 126.00 286.40 L 126.50 284.53 L 127.00 282.67 L 127.50 280.81 L 128.00 278.96 L 128.50 277.12 L 129.00 275.29 L 129.50 273.46 L 130.00 271.64 L 130.50 269.83 L 131.00 268.02 L 131.50 266.23 L 132.00 264.44 L 132.50 262.65 L 133.00 260.88 L 133.50 259.11 L 134.00 257.35 L 134.50 255.60 L 135.00 253.85 L 135.50 252.11 L 136.00 250.38 L 136.50 248.66 L 137.00 246.94 L 137.50 245.23 L 138.00 243.53 L 138.50 241.84 L 139.00 240.15 L 139.50 238.47 L 140.00 236.80 L 140.50 235.14 L 141.00 233.48 L 141.50 231.83 L 142.00 230.19 L 142.50 228.56 L 143.00 226.93 L 143.50 225.31 L 144.00 223.70 L 144.50 222.09 L 145.00 220.50 L 145.50 218.91 L 146.00 217.32 L 146.50 215.75 L 147.00 214.18 L 147.50 212.62 L 148.00 211.07 L 148.50 209.52 L 149.00 207.98 L 149.50 206.45 L 150.00 204.93 L 150.50 203.41 L 151.00 201.91 L 151.50 200.40 L 152.00 198.91 L 152.50 197.42 L 153.00 195.95 L 153.50 194.47 L 154.00 193.01 L 154.50 191.55 L 155.00 190.10 L 155.50 188.66 L 156.00 187.23 L 156.50 185.80 L 157.00 184.38 L 157.50 182.97 L 158.00 181.56 L 158.50 180.17 L 159.00 178.78 L 159.50 177.39 L 160.00 176.02 L 160.50 174.65 L 161.00 173.29 L 161.50 171.94 L 162.00 170.59 L 162.50 169.25 L 163.00 167.92 L 163.50 166.60 L 164.00 165.28 L 164.50 163.98 L 165.00 162.68 L 165.50 161.38 L 166.00 160.10 L 166.50 158.82 L 167.00 157.54 L 167.50 156.28 L 168.00 155.02 L 168.50 153.78 L 169.00 152.53 L 169.50 151.30 L 170.00 150.07 L 170.50 148.85 L 171.00 147.64 L 171.50 146.44 L 172.00 145.24 L 172.50 144.05 L 173.00 142.87 L 173.50 141.69 L 174.00 140.52 L 174.50 139.36 L 175.00 138.21 L 175.50 137.06 L 176.00 135.93 L 176.50 134.79 L 177.00 133.67 L 177.50 132.56 L 178.00 131.45 L 178.50 130.35 L 179.00 129.25 L 179.50 128.17 L 180.00 127.09 L 180.50 126.02 L 181.00 124.95 L 181.50 123.90 L 182.00 122.85 L 182.50 121.80 L 183.00 120.77 L 183.50 119.74 L 184.00 118.72 L 184.50 117.71 L 185.00 116.71 L 185.50 115.71 L 186.00 114.72 L 186.50 113.74 L 187.00 112.76 L 187.50 111.79 L 188.00 110.83 L 188.50 109.88 L 189.00 108.93 L 189.50 108.00 L 190.00 107.07 L 190.50 106.14 L 191.00 105.23 L 191.50 104.32 L 192.00 103.42 L 192.50 102.52 L 193.00 101.64 L 193.50 100.76 L 194.00 99.89 L 194.50 99.02 L 195.00 98.17 L 195.50 97.32 L 196.00 96.48 L 196.50 95.64 L 197.00 94.81 L 197.50 93.99 L 198.00 93.18 L 198.50 92.38 L 199.00 91.58 L 199.50 90.79 L 200.00 90.01 L 200.50 89.23 L 201.00 88.46 L 201.50 87.70 L 202.00 86.95 L 202.50 86.21 L 203.00 85.47 L 203.50 84.74 L 204.00 84.01 L 204.50 83.30 L 205.00 82.59 L 205.50 81.89 L 206.00 81.19 L 206.50 80.51 L 207.00 79.83 L 207.50 79.16 L 208.00 78.49 L 208.50 77.84 L 209.00 77.19 L 209.50 76.55 L 210.00 75.91 L 210.50 75.29 L 211.00 74.67 L 211.50 74.05 L 212.00 73.45 L 212.50 72.85 L 213.00 72.26 L 213.50 71.68 L 214.00 71.10 L 214.50 70.54 L 215.00 69.98 L 215.50 69.42 L 216.00 68.88 L 216.50 68.34 L 217.00 67.81 L 217.50 67.29 L 218.00 66.77 L 218.50 66.26 L 219.00 65.76 L 219.50 65.27 L 220.00 64.78 L 220.50 64.30 L 221.00 63.83 L 221.50 63.37 L 222.00 62.91 L 222.50 62.46 L 223.00 62.02 L 223.50 61.58 L 224.00 61.16 L 224.50 60.74 L 225.00 60.32 L 225.50 59.92 L 226.00 59.52 L 226.50 59.13 L 227.00 58.75 L 227.50 58.37 L 228.00 58.01 L 228.50 57.65 L 229.00 57.29 L 229.50 56.95 L 230.00 56.61 L 230.50 56.28 L 231.00 55.96 L 231.50 55.64 L 232.00 55.33 L 232.50 55.03 L 233.00 54.74 L 233.50 54.45 L 234.00 54.17 L 234.50 53.90 L 235.00 53.64 L 235.50 53.38 L 236.00 53.13 L 236.50 52.89 L 237.00 52.65 L 237.50 52.43 L 238.00 52.21 L 238.50 52.00 L 239.00 51.79 L 239.50 51.59 L 240.00 51.40 L 240.50 51.22 L 241.00 51.05 L 241.50 50.88 L 242.00 50.72 L 242.50 50.57 L 243.00 50.42 L 243.50 50.28 L 244.00 50.15 L 244.50 50.03 L 245.00 49.91 L 245.50 49.80 L 246.00 49.70 L 246.50 49.61 L 247.00 49.52 L 247.50 49.44 L 248.00 49.37 L 248.50 49.31 L 249.00 49.25 L 249.50 49.20 L 250.00 49.16 L 250.50 49.13 L 251.00 49.10 L 251.50 49.08 L 252.00 49.07 L 252.50 49.06 L 253.00 49.07 L 253.50 49.08 L 254.00 49.09 L 254.50 49.12 L 255.00 49.15 L 255.50 49.19 L 256.00 49.24 L 256.50 49.29 L 257.00 49.35 L 257.50 49.42 L 258.00 49.50 L 258.50 49.58 L 259.00 49.67 L 259.50 49.77 L 260.00 49.88 L 260.50 49.99 L 261.00 50.11 L 261.50 50.24 L 262.00 50.38 L 262.50 50.52 L 263.00 50.67 L 263.50 50.83 L 264.00 51.00 L 264.50 51.17 L 265.00 51.35 L 265.50 51.54 L 266.00 51.73 L 266.50 51.94 L 267.00 52.15 L 267.50 52.36 L 268.00 52.59 L 268.50 52.82 L 269.00 53.06 L 269.50 53.31 L 270.00 53.56 L 270.50 53.82 L 271.00 54.09 L 271.50 54.37 L 272.00 54.65 L 272.50 54.95 L 273.00 55.25 L 273.50 55.55 L 274.00 55.87 L 274.50 56.19 L 275.00 56.52 L 275.50 56.85 L 276.00 57.19 L 276.50 57.55 L 277.00 57.90 L 277.50 58.27 L 278.00 58.64 L 278.50 59.02 L 279.00 59.41 L 279.50 59.81 L 280.00 60.21 L 280.50 60.62 L 281.00 61.04 L 281.50 61.46 L 282.00 61.89 L 282.50 62.33 L 283.00 62.78 L 283.50 63.23 L 284.00 63.70 L 284.50 64.17 L 285.00 64.64 L 285.50 65.13 L 286.00 65.62 L 286.50 66.12 L 287.00 66.62 L 287.50 67.14 L 288.00 67.66 L 288.50 68.19 L 289.00 68.72 L 289.50 69.27 L 290.00 69.82 L 290.50 70.38 L 291.00 70.94 L 291.50 71.51 L 292.00 72.09 L 292.50 72.68 L 293.00 73.28 L 293.50 73.88 L 294.00 74.49 L 294.50 75.11 L 295.00 75.73 L 295.50 76.36 L 296.00 77.00 L 296.50 77.65 L 297.00 78.31 L 297.50 78.97 L 298.00 79.64 L 298.50 80.31 L 299.00 81.00 L 299.50 81.69 L 300.00 82.39 L 300.50 83.09 L 301.00 83.81 L 301.50 84.53 L 302.00 85.26 L 302.50 85.99 L 303.00 86.74 L 303.50 87.49 L 304.00 88.25 L 304.50 89.01 L 305.00 89.79 L 305.50 90.57 L 306.00 91.35 L 306.50 92.15 L 307.00 92.95 L 307.50 93.76 L 308.00 94.58 L 308.50 95.40 L 309.00 96.24 L 309.50 97.08 L 310.00 97.92 L 310.50 98.78 L 311.00 99.64 L 311.50 100.51 L 312.00 101.39 L 312.50 102.27 L 313.00 103.16 L 313.50 104.06 L 314.00 104.97 L 314.50 105.88 L 315.00 106.80 L 315.50 107.73 L 316.00 108.67 L 316.50 109.61 L 317.00 110.56 L 317.50 111.52 L 318.00 112.48 L 318.50 113.46 L 319.00 114.44 L 319.50 115.43 L 320.00 116.42 L 320.50 117.42 L 321.00 118.43 L 321.50 119.45 L 322.00 120.48 L 322.50 121.51 L 323.00 122.55 L 323.50 123.59 L 324.00 124.65 L 324.50 125.71 L 325.00 126.78 L 325.50 127.86 L 326.00 128.94 L 326.50 130.03 L 327.00 131.13 L 327.50 132.24 L 328.00 133.35 L 328.50 134.47 L 329.00 135.60 L 329.50 136.74 L 330.00 137.88 L 330.50 139.03 L 331.00 140.19 L 331.50 141.36 L 332.00 142.53 L 332.50 143.71 L 333.00 144.90 L 333.50 146.09 L 334.00 147.30 L 334.50 148.51 L 335.00 149.72 L 335.50 150.95 L 336.00 152.18 L 336.50 153.42 L 337.00 154.67 L 337.50 155.92 L 338.00 157.18 L 338.50 158.45 L 339.00 159.73 L 339.50 161.01 L 340.00 162.30 L 340.50 163.60 L 341.00 164.91 L 341.50 166.22 L 342.00 167.55 L 342.50 168.87 L 343.00 170.21 L 343.50 171.55 L 344.00 172.90 L 344.50 174.26 L 345.00 175.63 L 345.50 177.00 L 346.00 178.38 L 346.50 179.77 L 347.00 181.16 L 347.50 182.57 L 348.00 183.98 L 348.50 185.39 L 349.00 186.82 L 349.50 188.25 L 350.00 189.69 L 350.50 191.14 L 351.00 192.59 L 351.50 194.05 L 352.00 195.52 L 352.50 197.00 L 353.00 198.49 L 353.50 199.98 L 354.00 201.48 L 354.50 202.98 L 355.00 204.50 L 355.50 206.02 L 356.00 207.55 L 356.50 209.08 L 357.00 210.62 L 357.50 212.18 L 358.00 213.73 L 358.50 215.30 L 359.00 216.87 L 359.50 218.45 L 360.00 220.04 L 360.50 221.64 L 361.00 223.24 L 361.50 224.85 L 362.00 226.47 L 362.50 228.09 L 363.00 229.72 L 363.50 231.36 L 364.00 233.01 L 364.50 234.66 L 365.00 236.33 L 365.50 238.00 L 366.00 239.67 L 366.50 241.36 L 367.00 243.05 L 367.50 244.75 L 368.00 246.45 L 368.50 248.17 L 369.00 249.89 L 369.50 251.62 L 370.00 253.35 L 370.50 255.10 L 371.00 256.85 L 371.50 258.61 L 372.00 260.37 L 372.50 262.14 L 373.00 263.93 L 373.50 265.71 L 374.00 267.51 L 374.50 269.31 L 375.00 271.12 L 375.50 272.94 L 376.00 274.76 L 376.50 276.60 L 377.00 278.44 L 377.50 280.28 L 378.00 282.14 L 378.50 284.00 L 379.00 285.87 L 379.50 287.74 L 380.00 289.63 L 380.50 291.52 L 381.00 293.42 L 381.50 295.33 L 382.00 297.24 L 382.50 299.16 L 383.00 301.09 L 383.50 303.03 L 384.00 304.97 L 384.50 306.92 L 385.00 308.88 L 385.50 310.84 L 386.00 312.82 L 386.50 314.80 L 387.00 316.79 L 387.50 318.78 L 388.00 320.78 L 388.50 322.79 L 389.00 324.81 L 389.50 326.84 L 390.00 328.87\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm symmetrilinjens ekvation.<br>b)&nbsp;Bestäm en möjlig formel för funktionen.<br>c)&nbsp;Bestäm funktionens största värde.</p>",
+    "s": "<p>a) \\(x=\\dfrac{2+8}{2}=5\\).</p><p>b) \\(f(x)=a(x-2)(x-8)\\). Punkten \\((4,\\,4)\\) ger \\(4=a\\cdot2\\cdot(-4)=-8a\\), alltså \\(a=-\\dfrac12\\).</p><p>c) Största värdet antas på symmetrilinjen: \\(f(5)=-\\dfrac12\\cdot3\\cdot(-3)=4{,}5\\).</p><p><strong>a) \\(x=5\\) &nbsp; b) \\(f(x)=-\\frac12(x-2)(x-8)\\) &nbsp; c) \\(4,\\,5\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -24507,7 +24506,7 @@ window.BANKMA2 = [
       "faktorform",
       "extremvärde"
     ],
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -24520,8 +24519,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Grafen visar en parabel som går genom origo och har ett andra nollställe vid \\(x=4\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"92.75\" y1=\"330.00\" x2=\"92.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"182.25\" y1=\"330.00\" x2=\"182.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"271.75\" y1=\"330.00\" x2=\"271.75\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"316.50\" y1=\"330.00\" x2=\"316.50\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"361.25\" y1=\"330.00\" x2=\"361.25\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"291.25\" x2=\"406.00\" y2=\"291.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"213.75\" x2=\"406.00\" y2=\"213.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"136.25\" x2=\"406.00\" y2=\"136.25\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"58.75\" x2=\"406.00\" y2=\"58.75\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"137.50\" y1=\"330.00\" x2=\"137.50\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"92.75\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"182.25\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"227.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"271.75\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"316.50\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"361.25\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"406.00\" y=\"192.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"129.50\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"129.50\" y=\"294.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"129.50\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"129.50\" y=\"216.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"129.50\" y=\"139.25\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"129.50\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"129.50\" y=\"61.75\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"129.50\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 72.00 20.06 L 72.50 21.55 L 73.00 23.05 L 73.50 24.53 L 74.00 26.02 L 74.50 27.49 L 75.00 28.97 L 75.50 30.43 L 76.00 31.90 L 76.50 33.36 L 77.00 34.81 L 77.50 36.26 L 78.00 37.70 L 78.50 39.14 L 79.00 40.58 L 79.50 42.01 L 80.00 43.43 L 80.50 44.85 L 81.00 46.27 L 81.50 47.68 L 82.00 49.08 L 82.50 50.48 L 83.00 51.88 L 83.50 53.27 L 84.00 54.65 L 84.50 56.03 L 85.00 57.41 L 85.50 58.78 L 86.00 60.15 L 86.50 61.51 L 87.00 62.87 L 87.50 64.22 L 88.00 65.57 L 88.50 66.91 L 89.00 68.25 L 89.50 69.58 L 90.00 70.91 L 90.50 72.23 L 91.00 73.55 L 91.50 74.86 L 92.00 76.17 L 92.50 77.47 L 93.00 78.77 L 93.50 80.07 L 94.00 81.36 L 94.50 82.64 L 95.00 83.92 L 95.50 85.20 L 96.00 86.47 L 96.50 87.73 L 97.00 88.99 L 97.50 90.25 L 98.00 91.50 L 98.50 92.74 L 99.00 93.98 L 99.50 95.22 L 100.00 96.45 L 100.50 97.68 L 101.00 98.90 L 101.50 100.11 L 102.00 101.33 L 102.50 102.53 L 103.00 103.74 L 103.50 104.93 L 104.00 106.13 L 104.50 107.31 L 105.00 108.50 L 105.50 109.67 L 106.00 110.85 L 106.50 112.02 L 107.00 113.18 L 107.50 114.34 L 108.00 115.49 L 108.50 116.64 L 109.00 117.78 L 109.50 118.92 L 110.00 120.06 L 110.50 121.19 L 111.00 122.31 L 111.50 123.43 L 112.00 124.55 L 112.50 125.66 L 113.00 126.76 L 113.50 127.86 L 114.00 128.96 L 114.50 130.05 L 115.00 131.14 L 115.50 132.22 L 116.00 133.29 L 116.50 134.36 L 117.00 135.43 L 117.50 136.49 L 118.00 137.55 L 118.50 138.60 L 119.00 139.65 L 119.50 140.69 L 120.00 141.73 L 120.50 142.76 L 121.00 143.79 L 121.50 144.81 L 122.00 145.83 L 122.50 146.85 L 123.00 147.85 L 123.50 148.86 L 124.00 149.86 L 124.50 150.85 L 125.00 151.84 L 125.50 152.82 L 126.00 153.80 L 126.50 154.78 L 127.00 155.75 L 127.50 156.71 L 128.00 157.67 L 128.50 158.63 L 129.00 159.58 L 129.50 160.53 L 130.00 161.47 L 130.50 162.40 L 131.00 163.33 L 131.50 164.26 L 132.00 165.18 L 132.50 166.10 L 133.00 167.01 L 133.50 167.92 L 134.00 168.82 L 134.50 169.72 L 135.00 170.61 L 135.50 171.50 L 136.00 172.38 L 136.50 173.26 L 137.00 174.13 L 137.50 175.00 L 138.00 175.86 L 138.50 176.72 L 139.00 177.58 L 139.50 178.42 L 140.00 179.27 L 140.50 180.11 L 141.00 180.94 L 141.50 181.77 L 142.00 182.60 L 142.50 183.42 L 143.00 184.23 L 143.50 185.04 L 144.00 185.85 L 144.50 186.65 L 145.00 187.44 L 145.50 188.24 L 146.00 189.02 L 146.50 189.80 L 147.00 190.58 L 147.50 191.35 L 148.00 192.12 L 148.50 192.88 L 149.00 193.64 L 149.50 194.39 L 150.00 195.14 L 150.50 195.88 L 151.00 196.62 L 151.50 197.35 L 152.00 198.08 L 152.50 198.80 L 153.00 199.52 L 153.50 200.23 L 154.00 200.94 L 154.50 201.65 L 155.00 202.34 L 155.50 203.04 L 156.00 203.73 L 156.50 204.41 L 157.00 205.09 L 157.50 205.77 L 158.00 206.44 L 158.50 207.10 L 159.00 207.76 L 159.50 208.42 L 160.00 209.07 L 160.50 209.71 L 161.00 210.36 L 161.50 210.99 L 162.00 211.62 L 162.50 212.25 L 163.00 212.87 L 163.50 213.49 L 164.00 214.10 L 164.50 214.71 L 165.00 215.31 L 165.50 215.91 L 166.00 216.50 L 166.50 217.09 L 167.00 217.67 L 167.50 218.25 L 168.00 218.82 L 168.50 219.39 L 169.00 219.95 L 169.50 220.51 L 170.00 221.07 L 170.50 221.61 L 171.00 222.16 L 171.50 222.70 L 172.00 223.23 L 172.50 223.76 L 173.00 224.29 L 173.50 224.81 L 174.00 225.32 L 174.50 225.83 L 175.00 226.34 L 175.50 226.84 L 176.00 227.34 L 176.50 227.83 L 177.00 228.31 L 177.50 228.79 L 178.00 229.27 L 178.50 229.74 L 179.00 230.21 L 179.50 230.67 L 180.00 231.13 L 180.50 231.58 L 181.00 232.03 L 181.50 232.47 L 182.00 232.91 L 182.50 233.34 L 183.00 233.77 L 183.50 234.19 L 184.00 234.61 L 184.50 235.02 L 185.00 235.43 L 185.50 235.84 L 186.00 236.24 L 186.50 236.63 L 187.00 237.02 L 187.50 237.40 L 188.00 237.78 L 188.50 238.16 L 189.00 238.53 L 189.50 238.89 L 190.00 239.25 L 190.50 239.61 L 191.00 239.96 L 191.50 240.31 L 192.00 240.65 L 192.50 240.98 L 193.00 241.32 L 193.50 241.64 L 194.00 241.96 L 194.50 242.28 L 195.00 242.59 L 195.50 242.90 L 196.00 243.20 L 196.50 243.50 L 197.00 243.79 L 197.50 244.08 L 198.00 244.36 L 198.50 244.64 L 199.00 244.91 L 199.50 245.18 L 200.00 245.45 L 200.50 245.71 L 201.00 245.96 L 201.50 246.21 L 202.00 246.45 L 202.50 246.69 L 203.00 246.93 L 203.50 247.16 L 204.00 247.38 L 204.50 247.60 L 205.00 247.82 L 205.50 248.03 L 206.00 248.23 L 206.50 248.43 L 207.00 248.63 L 207.50 248.82 L 208.00 249.01 L 208.50 249.19 L 209.00 249.37 L 209.50 249.54 L 210.00 249.70 L 210.50 249.87 L 211.00 250.02 L 211.50 250.18 L 212.00 250.32 L 212.50 250.47 L 213.00 250.60 L 213.50 250.74 L 214.00 250.86 L 214.50 250.99 L 215.00 251.11 L 215.50 251.22 L 216.00 251.33 L 216.50 251.43 L 217.00 251.53 L 217.50 251.63 L 218.00 251.72 L 218.50 251.80 L 219.00 251.88 L 219.50 251.96 L 220.00 252.03 L 220.50 252.09 L 221.00 252.15 L 221.50 252.21 L 222.00 252.26 L 222.50 252.30 L 223.00 252.35 L 223.50 252.38 L 224.00 252.41 L 224.50 252.44 L 225.00 252.46 L 225.50 252.48 L 226.00 252.49 L 226.50 252.50 L 227.00 252.50 L 227.50 252.50 L 228.00 252.49 L 228.50 252.48 L 229.00 252.46 L 229.50 252.44 L 230.00 252.41 L 230.50 252.38 L 231.00 252.35 L 231.50 252.30 L 232.00 252.26 L 232.50 252.21 L 233.00 252.15 L 233.50 252.09 L 234.00 252.03 L 234.50 251.96 L 235.00 251.88 L 235.50 251.80 L 236.00 251.72 L 236.50 251.63 L 237.00 251.53 L 237.50 251.43 L 238.00 251.33 L 238.50 251.22 L 239.00 251.11 L 239.50 250.99 L 240.00 250.86 L 240.50 250.74 L 241.00 250.60 L 241.50 250.47 L 242.00 250.32 L 242.50 250.18 L 243.00 250.02 L 243.50 249.87 L 244.00 249.70 L 244.50 249.54 L 245.00 249.37 L 245.50 249.19 L 246.00 249.01 L 246.50 248.82 L 247.00 248.63 L 247.50 248.43 L 248.00 248.23 L 248.50 248.03 L 249.00 247.82 L 249.50 247.60 L 250.00 247.38 L 250.50 247.16 L 251.00 246.93 L 251.50 246.69 L 252.00 246.45 L 252.50 246.21 L 253.00 245.96 L 253.50 245.71 L 254.00 245.45 L 254.50 245.18 L 255.00 244.91 L 255.50 244.64 L 256.00 244.36 L 256.50 244.08 L 257.00 243.79 L 257.50 243.50 L 258.00 243.20 L 258.50 242.90 L 259.00 242.59 L 259.50 242.28 L 260.00 241.96 L 260.50 241.64 L 261.00 241.32 L 261.50 240.98 L 262.00 240.65 L 262.50 240.31 L 263.00 239.96 L 263.50 239.61 L 264.00 239.25 L 264.50 238.89 L 265.00 238.53 L 265.50 238.16 L 266.00 237.78 L 266.50 237.40 L 267.00 237.02 L 267.50 236.63 L 268.00 236.24 L 268.50 235.84 L 269.00 235.43 L 269.50 235.02 L 270.00 234.61 L 270.50 234.19 L 271.00 233.77 L 271.50 233.34 L 272.00 232.91 L 272.50 232.47 L 273.00 232.03 L 273.50 231.58 L 274.00 231.13 L 274.50 230.67 L 275.00 230.21 L 275.50 229.74 L 276.00 229.27 L 276.50 228.79 L 277.00 228.31 L 277.50 227.83 L 278.00 227.34 L 278.50 226.84 L 279.00 226.34 L 279.50 225.83 L 280.00 225.32 L 280.50 224.81 L 281.00 224.29 L 281.50 223.76 L 282.00 223.23 L 282.50 222.70 L 283.00 222.16 L 283.50 221.61 L 284.00 221.07 L 284.50 220.51 L 285.00 219.95 L 285.50 219.39 L 286.00 218.82 L 286.50 218.25 L 287.00 217.67 L 287.50 217.09 L 288.00 216.50 L 288.50 215.91 L 289.00 215.31 L 289.50 214.71 L 290.00 214.10 L 290.50 213.49 L 291.00 212.87 L 291.50 212.25 L 292.00 211.62 L 292.50 210.99 L 293.00 210.36 L 293.50 209.71 L 294.00 209.07 L 294.50 208.42 L 295.00 207.76 L 295.50 207.10 L 296.00 206.44 L 296.50 205.77 L 297.00 205.09 L 297.50 204.41 L 298.00 203.73 L 298.50 203.04 L 299.00 202.34 L 299.50 201.65 L 300.00 200.94 L 300.50 200.23 L 301.00 199.52 L 301.50 198.80 L 302.00 198.08 L 302.50 197.35 L 303.00 196.62 L 303.50 195.88 L 304.00 195.14 L 304.50 194.39 L 305.00 193.64 L 305.50 192.88 L 306.00 192.12 L 306.50 191.35 L 307.00 190.58 L 307.50 189.80 L 308.00 189.02 L 308.50 188.24 L 309.00 187.44 L 309.50 186.65 L 310.00 185.85 L 310.50 185.04 L 311.00 184.23 L 311.50 183.42 L 312.00 182.60 L 312.50 181.77 L 313.00 180.94 L 313.50 180.11 L 314.00 179.27 L 314.50 178.42 L 315.00 177.58 L 315.50 176.72 L 316.00 175.86 L 316.50 175.00 L 317.00 174.13 L 317.50 173.26 L 318.00 172.38 L 318.50 171.50 L 319.00 170.61 L 319.50 169.72 L 320.00 168.82 L 320.50 167.92 L 321.00 167.01 L 321.50 166.10 L 322.00 165.18 L 322.50 164.26 L 323.00 163.33 L 323.50 162.40 L 324.00 161.47 L 324.50 160.53 L 325.00 159.58 L 325.50 158.63 L 326.00 157.67 L 326.50 156.71 L 327.00 155.75 L 327.50 154.78 L 328.00 153.80 L 328.50 152.82 L 329.00 151.84 L 329.50 150.85 L 330.00 149.86 L 330.50 148.86 L 331.00 147.85 L 331.50 146.85 L 332.00 145.83 L 332.50 144.81 L 333.00 143.79 L 333.50 142.76 L 334.00 141.73 L 334.50 140.69 L 335.00 139.65 L 335.50 138.60 L 336.00 137.55 L 336.50 136.49 L 337.00 135.43 L 337.50 134.36 L 338.00 133.29 L 338.50 132.22 L 339.00 131.14 L 339.50 130.05 L 340.00 128.96 L 340.50 127.86 L 341.00 126.76 L 341.50 125.66 L 342.00 124.55 L 342.50 123.43 L 343.00 122.31 L 343.50 121.19 L 344.00 120.06 L 344.50 118.92 L 345.00 117.78 L 345.50 116.64 L 346.00 115.49 L 346.50 114.34 L 347.00 113.18 L 347.50 112.02 L 348.00 110.85 L 348.50 109.67 L 349.00 108.50 L 349.50 107.31 L 350.00 106.13 L 350.50 104.93 L 351.00 103.74 L 351.50 102.53 L 352.00 101.33 L 352.50 100.11 L 353.00 98.90 L 353.50 97.68 L 354.00 96.45 L 354.50 95.22 L 355.00 93.98 L 355.50 92.74 L 356.00 91.50 L 356.50 90.25 L 357.00 88.99 L 357.50 87.73 L 358.00 86.47 L 358.50 85.20 L 359.00 83.92 L 359.50 82.64 L 360.00 81.36 L 360.50 80.07 L 361.00 78.77 L 361.50 77.47 L 362.00 76.17 L 362.50 74.86 L 363.00 73.55 L 363.50 72.23 L 364.00 70.91 L 364.50 69.58 L 365.00 68.25 L 365.50 66.91 L 366.00 65.57 L 366.50 64.22 L 367.00 62.87 L 367.50 61.51 L 368.00 60.15 L 368.50 58.78 L 369.00 57.41 L 369.50 56.03 L 370.00 54.65 L 370.50 53.27 L 371.00 51.88 L 371.50 50.48 L 372.00 49.08 L 372.50 47.68 L 373.00 46.27 L 373.50 44.85 L 374.00 43.43 L 374.50 42.01 L 375.00 40.58 L 375.50 39.14 L 376.00 37.70 L 376.50 36.26 L 377.00 34.81 L 377.50 33.36 L 378.00 31.90 L 378.50 30.43 L 379.00 28.97 L 379.50 27.49 L 380.00 26.02 L 380.50 24.53 L 381.00 23.05 L 381.50 21.55 L 382.00 20.06\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span><p>a)&nbsp;Bestäm symmetrilinjens ekvation.<br>b)&nbsp;Bestäm funktionen.<br>c)&nbsp;Bestäm minimipunkten.</p>",
     "s": "<p>a) Nollställena är \\(0\\) och \\(4\\), så symmetrilinjen är \\(x=2\\).</p><p>b) \\(f(x)=ax(x-4)\\). Av grafen avläses \\(f(2)=-2\\), alltså \\(-2=a\\cdot2\\cdot(-2)=-4a\\) och \\(a=\\dfrac12\\).</p><p>c) Minimipunkten ligger på symmetrilinjen: \\((2,-2)\\).</p><p><strong>a) \\(x=2\\) &nbsp; b) \\(f(x)=\\frac12x(x-4)\\) &nbsp; c) \\((2,-2)\\)</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
@@ -24558,7 +24557,7 @@ window.BANKMA2 = [
       "faktorform",
       "extrempunkt"
     ],
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -24571,9 +24570,9 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>En parabel har minimipunkten \\((2,-9)\\) och går genom punkten \\((5{,}9)\\).</p><p>Bestäm funktionen och dess nollställen.</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>En parabel har minimipunkten \\((2,-9)\\) och går genom punkten \\((5,\\,9)\\).</p><p>Bestäm funktionen och dess nollställen.</p>",
     "s": "<p>Skriv \\(f(x)=a(x-2)^2-9\\).</p><p>\\(9=9a-9\\Rightarrow a=2\\).</p><p>Alltså \\(f(x)=2(x-2)^2-9\\).</p><p>För nollställena löser vi \\(2(x-2)^2-9=0\\), Detta kan skrivas \\(x^2-4x-\\frac12=0\\).</p><p>Med <strong>pq-formeln</strong>:</p><p>\\(x=2\\pm\\sqrt{4+\\frac12}=2\\pm\\frac{3}{\\sqrt2}\\).</p><p><strong>\\(f(x)=2(x-2)^2-9\\), nollställen \\(x=2\\pm\\frac{3\\sqrt2}{2}\\).</strong></p>",
     "familj": "Bestämma andragradsfunktion från graf",
     "geogebra": false,
@@ -24606,8 +24605,8 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "ordnad",
     "familjTidigare": "Bestämma linjära funktioner från graf",
-    "ledtrad": "<p>Utnyttja parabelns struktur. Nollställena ligger symmetriskt kring symmetrilinjen, och i formen \\(a(x-h)^2+k\\) kan du läsa av extrempunkten \\((h,k)\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Använd vertexformen från minimipunkten, bestäm faktorn med den andra punkten och lös sedan \\(f(x)=0\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -24623,7 +24622,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En port har en båge som modelleras av \\(h(x)=-0{,}16(x-7)^2+7{,}84\\), där \\(x\\) och \\(h\\) mäts i meter.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"73.57\" y1=\"330.00\" x2=\"73.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"99.14\" y1=\"330.00\" x2=\"99.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"124.71\" y1=\"330.00\" x2=\"124.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"150.29\" y1=\"330.00\" x2=\"150.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"175.86\" y1=\"330.00\" x2=\"175.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"201.43\" y1=\"330.00\" x2=\"201.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"252.57\" y1=\"330.00\" x2=\"252.57\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"278.14\" y1=\"330.00\" x2=\"278.14\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"303.71\" y1=\"330.00\" x2=\"303.71\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"329.29\" y1=\"330.00\" x2=\"329.29\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"354.86\" y1=\"330.00\" x2=\"354.86\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"380.43\" y1=\"330.00\" x2=\"380.43\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"295.56\" x2=\"406.00\" y2=\"295.56\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"261.11\" x2=\"406.00\" y2=\"261.11\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"192.22\" x2=\"406.00\" y2=\"192.22\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"157.78\" x2=\"406.00\" y2=\"157.78\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"88.89\" x2=\"406.00\" y2=\"88.89\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"54.44\" x2=\"406.00\" y2=\"54.44\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"73.57\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"99.14\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"124.71\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"150.29\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"175.86\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"201.43\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"227.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"252.57\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"278.14\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"303.71\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><text x=\"329.29\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">11</text><text x=\"354.86\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><text x=\"380.43\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">13</text><text x=\"406.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><text x=\"40.00\" y=\"298.56\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"40.00\" y=\"264.11\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"40.00\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"40.00\" y=\"195.22\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"40.00\" y=\"160.78\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"40.00\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"40.00\" y=\"91.89\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"40.00\" y=\"57.44\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"40.00\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><path d=\"M 48.00 330.00 L 48.50 328.49 L 49.00 326.99 L 49.50 325.49 L 50.00 324.00 L 50.50 322.51 L 51.00 321.02 L 51.50 319.54 L 52.00 318.07 L 52.50 316.59 L 53.00 315.12 L 53.50 313.66 L 54.00 312.20 L 54.50 310.74 L 55.00 309.29 L 55.50 307.84 L 56.00 306.40 L 56.50 304.96 L 57.00 303.53 L 57.50 302.10 L 58.00 300.67 L 58.50 299.25 L 59.00 297.83 L 59.50 296.42 L 60.00 295.01 L 60.50 293.60 L 61.00 292.20 L 61.50 290.80 L 62.00 289.41 L 62.50 288.02 L 63.00 286.64 L 63.50 285.26 L 64.00 283.88 L 64.50 282.51 L 65.00 281.14 L 65.50 279.78 L 66.00 278.42 L 66.50 277.07 L 67.00 275.71 L 67.50 274.37 L 68.00 273.03 L 68.50 271.69 L 69.00 270.35 L 69.50 269.02 L 70.00 267.70 L 70.50 266.38 L 71.00 265.06 L 71.50 263.75 L 72.00 262.44 L 72.50 261.14 L 73.00 259.84 L 73.50 258.54 L 74.00 257.25 L 74.50 255.96 L 75.00 254.68 L 75.50 253.40 L 76.00 252.12 L 76.50 250.85 L 77.00 249.59 L 77.50 248.33 L 78.00 247.07 L 78.50 245.81 L 79.00 244.56 L 79.50 243.32 L 80.00 242.08 L 80.50 240.84 L 81.00 239.61 L 81.50 238.38 L 82.00 237.16 L 82.50 235.94 L 83.00 234.72 L 83.50 233.51 L 84.00 232.30 L 84.50 231.10 L 85.00 229.90 L 85.50 228.70 L 86.00 227.51 L 86.50 226.33 L 87.00 225.15 L 87.50 223.97 L 88.00 222.79 L 88.50 221.63 L 89.00 220.46 L 89.50 219.30 L 90.00 218.14 L 90.50 216.99 L 91.00 215.84 L 91.50 214.70 L 92.00 213.56 L 92.50 212.42 L 93.00 211.29 L 93.50 210.16 L 94.00 209.04 L 94.50 207.92 L 95.00 206.81 L 95.50 205.70 L 96.00 204.59 L 96.50 203.49 L 97.00 202.39 L 97.50 201.30 L 98.00 200.21 L 98.50 199.12 L 99.00 198.04 L 99.50 196.96 L 100.00 195.89 L 100.50 194.82 L 101.00 193.76 L 101.50 192.70 L 102.00 191.64 L 102.50 190.59 L 103.00 189.55 L 103.50 188.50 L 104.00 187.46 L 104.50 186.43 L 105.00 185.40 L 105.50 184.37 L 106.00 183.35 L 106.50 182.33 L 107.00 181.32 L 107.50 180.31 L 108.00 179.31 L 108.50 178.30 L 109.00 177.31 L 109.50 176.32 L 110.00 175.33 L 110.50 174.34 L 111.00 173.36 L 111.50 172.39 L 112.00 171.42 L 112.50 170.45 L 113.00 169.49 L 113.50 168.53 L 114.00 167.57 L 114.50 166.62 L 115.00 165.68 L 115.50 164.74 L 116.00 163.80 L 116.50 162.86 L 117.00 161.94 L 117.50 161.01 L 118.00 160.09 L 118.50 159.17 L 119.00 158.26 L 119.50 157.35 L 120.00 156.45 L 120.50 155.55 L 121.00 154.65 L 121.50 153.76 L 122.00 152.88 L 122.50 151.99 L 123.00 151.11 L 123.50 150.24 L 124.00 149.37 L 124.50 148.50 L 125.00 147.64 L 125.50 146.78 L 126.00 145.93 L 126.50 145.08 L 127.00 144.24 L 127.50 143.40 L 128.00 142.56 L 128.50 141.73 L 129.00 140.90 L 129.50 140.08 L 130.00 139.26 L 130.50 138.44 L 131.00 137.63 L 131.50 136.82 L 132.00 136.02 L 132.50 135.22 L 133.00 134.43 L 133.50 133.64 L 134.00 132.85 L 134.50 132.07 L 135.00 131.29 L 135.50 130.52 L 136.00 129.75 L 136.50 128.98 L 137.00 128.22 L 137.50 127.47 L 138.00 126.71 L 138.50 125.97 L 139.00 125.22 L 139.50 124.48 L 140.00 123.75 L 140.50 123.02 L 141.00 122.29 L 141.50 121.57 L 142.00 120.85 L 142.50 120.13 L 143.00 119.42 L 143.50 118.72 L 144.00 118.02 L 144.50 117.32 L 145.00 116.63 L 145.50 115.94 L 146.00 115.25 L 146.50 114.57 L 147.00 113.90 L 147.50 113.22 L 148.00 112.56 L 148.50 111.89 L 149.00 111.23 L 149.50 110.58 L 150.00 109.93 L 150.50 109.28 L 151.00 108.64 L 151.50 108.00 L 152.00 107.36 L 152.50 106.73 L 153.00 106.11 L 153.50 105.49 L 154.00 104.87 L 154.50 104.26 L 155.00 103.65 L 155.50 103.04 L 156.00 102.44 L 156.50 101.85 L 157.00 101.25 L 157.50 100.67 L 158.00 100.08 L 158.50 99.50 L 159.00 98.93 L 159.50 98.36 L 160.00 97.79 L 160.50 97.23 L 161.00 96.67 L 161.50 96.11 L 162.00 95.56 L 162.50 95.02 L 163.00 94.48 L 163.50 93.94 L 164.00 93.41 L 164.50 92.88 L 165.00 92.35 L 165.50 91.83 L 166.00 91.32 L 166.50 90.80 L 167.00 90.30 L 167.50 89.79 L 168.00 89.29 L 168.50 88.80 L 169.00 88.31 L 169.50 87.82 L 170.00 87.34 L 170.50 86.86 L 171.00 86.39 L 171.50 85.92 L 172.00 85.45 L 172.50 84.99 L 173.00 84.53 L 173.50 84.08 L 174.00 83.63 L 174.50 83.19 L 175.00 82.75 L 175.50 82.31 L 176.00 81.88 L 176.50 81.45 L 177.00 81.03 L 177.50 80.61 L 178.00 80.19 L 178.50 79.78 L 179.00 79.37 L 179.50 78.97 L 180.00 78.57 L 180.50 78.18 L 181.00 77.79 L 181.50 77.40 L 182.00 77.02 L 182.50 76.65 L 183.00 76.27 L 183.50 75.90 L 184.00 75.54 L 184.50 75.18 L 185.00 74.82 L 185.50 74.47 L 186.00 74.12 L 186.50 73.78 L 187.00 73.44 L 187.50 73.11 L 188.00 72.77 L 188.50 72.45 L 189.00 72.13 L 189.50 71.81 L 190.00 71.49 L 190.50 71.18 L 191.00 70.88 L 191.50 70.58 L 192.00 70.28 L 192.50 69.99 L 193.00 69.70 L 193.50 69.41 L 194.00 69.13 L 194.50 68.86 L 195.00 68.59 L 195.50 68.32 L 196.00 68.05 L 196.50 67.80 L 197.00 67.54 L 197.50 67.29 L 198.00 67.04 L 198.50 66.80 L 199.00 66.56 L 199.50 66.33 L 200.00 66.10 L 200.50 65.87 L 201.00 65.65 L 201.50 65.44 L 202.00 65.22 L 202.50 65.01 L 203.00 64.81 L 203.50 64.61 L 204.00 64.41 L 204.50 64.22 L 205.00 64.03 L 205.50 63.85 L 206.00 63.67 L 206.50 63.50 L 207.00 63.33 L 207.50 63.16 L 208.00 63.00 L 208.50 62.84 L 209.00 62.69 L 209.50 62.54 L 210.00 62.39 L 210.50 62.25 L 211.00 62.11 L 211.50 61.98 L 212.00 61.85 L 212.50 61.73 L 213.00 61.61 L 213.50 61.49 L 214.00 61.38 L 214.50 61.27 L 215.00 61.17 L 215.50 61.07 L 216.00 60.98 L 216.50 60.88 L 217.00 60.80 L 217.50 60.72 L 218.00 60.64 L 218.50 60.56 L 219.00 60.49 L 219.50 60.43 L 220.00 60.37 L 220.50 60.31 L 221.00 60.26 L 221.50 60.21 L 222.00 60.17 L 222.50 60.13 L 223.00 60.09 L 223.50 60.06 L 224.00 60.03 L 224.50 60.01 L 225.00 59.99 L 225.50 59.97 L 226.00 59.96 L 226.50 59.96 L 227.00 59.96 L 227.50 59.96 L 228.00 59.96 L 228.50 59.97 L 229.00 59.99 L 229.50 60.01 L 230.00 60.03 L 230.50 60.06 L 231.00 60.09 L 231.50 60.13 L 232.00 60.17 L 232.50 60.21 L 233.00 60.26 L 233.50 60.31 L 234.00 60.37 L 234.50 60.43 L 235.00 60.49 L 235.50 60.56 L 236.00 60.64 L 236.50 60.72 L 237.00 60.80 L 237.50 60.88 L 238.00 60.98 L 238.50 61.07 L 239.00 61.17 L 239.50 61.27 L 240.00 61.38 L 240.50 61.49 L 241.00 61.61 L 241.50 61.73 L 242.00 61.85 L 242.50 61.98 L 243.00 62.11 L 243.50 62.25 L 244.00 62.39 L 244.50 62.54 L 245.00 62.69 L 245.50 62.84 L 246.00 63.00 L 246.50 63.16 L 247.00 63.33 L 247.50 63.50 L 248.00 63.67 L 248.50 63.85 L 249.00 64.03 L 249.50 64.22 L 250.00 64.41 L 250.50 64.61 L 251.00 64.81 L 251.50 65.01 L 252.00 65.22 L 252.50 65.44 L 253.00 65.65 L 253.50 65.87 L 254.00 66.10 L 254.50 66.33 L 255.00 66.56 L 255.50 66.80 L 256.00 67.04 L 256.50 67.29 L 257.00 67.54 L 257.50 67.80 L 258.00 68.05 L 258.50 68.32 L 259.00 68.59 L 259.50 68.86 L 260.00 69.13 L 260.50 69.41 L 261.00 69.70 L 261.50 69.99 L 262.00 70.28 L 262.50 70.58 L 263.00 70.88 L 263.50 71.18 L 264.00 71.49 L 264.50 71.81 L 265.00 72.13 L 265.50 72.45 L 266.00 72.77 L 266.50 73.11 L 267.00 73.44 L 267.50 73.78 L 268.00 74.12 L 268.50 74.47 L 269.00 74.82 L 269.50 75.18 L 270.00 75.54 L 270.50 75.90 L 271.00 76.27 L 271.50 76.65 L 272.00 77.02 L 272.50 77.40 L 273.00 77.79 L 273.50 78.18 L 274.00 78.57 L 274.50 78.97 L 275.00 79.37 L 275.50 79.78 L 276.00 80.19 L 276.50 80.61 L 277.00 81.03 L 277.50 81.45 L 278.00 81.88 L 278.50 82.31 L 279.00 82.75 L 279.50 83.19 L 280.00 83.63 L 280.50 84.08 L 281.00 84.53 L 281.50 84.99 L 282.00 85.45 L 282.50 85.92 L 283.00 86.39 L 283.50 86.86 L 284.00 87.34 L 284.50 87.82 L 285.00 88.31 L 285.50 88.80 L 286.00 89.29 L 286.50 89.79 L 287.00 90.30 L 287.50 90.80 L 288.00 91.32 L 288.50 91.83 L 289.00 92.35 L 289.50 92.88 L 290.00 93.41 L 290.50 93.94 L 291.00 94.48 L 291.50 95.02 L 292.00 95.56 L 292.50 96.11 L 293.00 96.67 L 293.50 97.23 L 294.00 97.79 L 294.50 98.36 L 295.00 98.93 L 295.50 99.50 L 296.00 100.08 L 296.50 100.67 L 297.00 101.25 L 297.50 101.85 L 298.00 102.44 L 298.50 103.04 L 299.00 103.65 L 299.50 104.26 L 300.00 104.87 L 300.50 105.49 L 301.00 106.11 L 301.50 106.73 L 302.00 107.36 L 302.50 108.00 L 303.00 108.64 L 303.50 109.28 L 304.00 109.93 L 304.50 110.58 L 305.00 111.23 L 305.50 111.89 L 306.00 112.56 L 306.50 113.22 L 307.00 113.90 L 307.50 114.57 L 308.00 115.25 L 308.50 115.94 L 309.00 116.63 L 309.50 117.32 L 310.00 118.02 L 310.50 118.72 L 311.00 119.42 L 311.50 120.13 L 312.00 120.85 L 312.50 121.57 L 313.00 122.29 L 313.50 123.02 L 314.00 123.75 L 314.50 124.48 L 315.00 125.22 L 315.50 125.97 L 316.00 126.71 L 316.50 127.47 L 317.00 128.22 L 317.50 128.98 L 318.00 129.75 L 318.50 130.52 L 319.00 131.29 L 319.50 132.07 L 320.00 132.85 L 320.50 133.64 L 321.00 134.43 L 321.50 135.22 L 322.00 136.02 L 322.50 136.82 L 323.00 137.63 L 323.50 138.44 L 324.00 139.26 L 324.50 140.08 L 325.00 140.90 L 325.50 141.73 L 326.00 142.56 L 326.50 143.40 L 327.00 144.24 L 327.50 145.08 L 328.00 145.93 L 328.50 146.78 L 329.00 147.64 L 329.50 148.50 L 330.00 149.37 L 330.50 150.24 L 331.00 151.11 L 331.50 151.99 L 332.00 152.88 L 332.50 153.76 L 333.00 154.65 L 333.50 155.55 L 334.00 156.45 L 334.50 157.35 L 335.00 158.26 L 335.50 159.17 L 336.00 160.09 L 336.50 161.01 L 337.00 161.94 L 337.50 162.86 L 338.00 163.80 L 338.50 164.74 L 339.00 165.68 L 339.50 166.62 L 340.00 167.57 L 340.50 168.53 L 341.00 169.49 L 341.50 170.45 L 342.00 171.42 L 342.50 172.39 L 343.00 173.36 L 343.50 174.34 L 344.00 175.33 L 344.50 176.32 L 345.00 177.31 L 345.50 178.30 L 346.00 179.31 L 346.50 180.31 L 347.00 181.32 L 347.50 182.33 L 348.00 183.35 L 348.50 184.37 L 349.00 185.40 L 349.50 186.43 L 350.00 187.46 L 350.50 188.50 L 351.00 189.55 L 351.50 190.59 L 352.00 191.64 L 352.50 192.70 L 353.00 193.76 L 353.50 194.82 L 354.00 195.89 L 354.50 196.96 L 355.00 198.04 L 355.50 199.12 L 356.00 200.21 L 356.50 201.30 L 357.00 202.39 L 357.50 203.49 L 358.00 204.59 L 358.50 205.70 L 359.00 206.81 L 359.50 207.92 L 360.00 209.04 L 360.50 210.16 L 361.00 211.29 L 361.50 212.42 L 362.00 213.56 L 362.50 214.70 L 363.00 215.84 L 363.50 216.99 L 364.00 218.14 L 364.50 219.30 L 365.00 220.46 L 365.50 221.63 L 366.00 222.79 L 366.50 223.97 L 367.00 225.15 L 367.50 226.33 L 368.00 227.51 L 368.50 228.70 L 369.00 229.90 L 369.50 231.10 L 370.00 232.30 L 370.50 233.51 L 371.00 234.72 L 371.50 235.94 L 372.00 237.16 L 372.50 238.38 L 373.00 239.61 L 373.50 240.84 L 374.00 242.08 L 374.50 243.32 L 375.00 244.56 L 375.50 245.81 L 376.00 247.07 L 376.50 248.33 L 377.00 249.59 L 377.50 250.85 L 378.00 252.12 L 378.50 253.40 L 379.00 254.68 L 379.50 255.96 L 380.00 257.25 L 380.50 258.54 L 381.00 259.84 L 381.50 261.14 L 382.00 262.44 L 382.50 263.75 L 383.00 265.06 L 383.50 266.38 L 384.00 267.70 L 384.50 269.02 L 385.00 270.35 L 385.50 271.69 L 386.00 273.03 L 386.50 274.37 L 387.00 275.71 L 387.50 277.07 L 388.00 278.42 L 388.50 279.78 L 389.00 281.14 L 389.50 282.51 L 390.00 283.88 L 390.50 285.26 L 391.00 286.64 L 391.50 288.02 L 392.00 289.41 L 392.50 290.80 L 393.00 292.20 L 393.50 293.60 L 394.00 295.01 L 394.50 296.42 L 395.00 297.83 L 395.50 299.25 L 396.00 300.67 L 396.50 302.10 L 397.00 303.53 L 397.50 304.96 L 398.00 306.40 L 398.50 307.84 L 399.00 309.29 L 399.50 310.74 L 400.00 312.20 L 400.50 313.66 L 401.00 315.12 L 401.50 316.59 L 402.00 318.07 L 402.50 319.54 L 403.00 321.02 L 403.50 322.51 L 404.00 324.00 L 404.50 325.49 L 405.00 326.99 L 405.50 328.49 L 406.00 330.00\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><text x=\"406.00\" y=\"362.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">x (m)</text><text x=\"42.00\" y=\"14.00\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">h (m)</text></svg></span><p>Hur brett är det område där höjden är minst 6 meter? Svara i meter med en decimal.</p>",
-    "s": "<p>Vi löser \\(h(x)\\ge6\\):</p><p>\\(-0{,}16(x-7)^2+7{,}84\\ge6\\).</p><p>\\(-0{,}16(x-7)^2\\ge-1{,}84\\). Dividera med \\(-0{,}16\\) och vänd olikheten:</p><p>\\((x-7)^2\\le11{,}5\\).</p><p>\\(|x-7|\\le\\sqrt{11{,}5}\\approx3{,}391\\).</p><p>Intervallet blir ungefär \\(3{,}61\\le x\\le10{,}39\\).</p><p>Bredden är \\(2\\sqrt{11{,}5}\\approx6{,}78\\).</p><p><strong>Området är cirka 6,8 m brett.</strong></p>",
+    "s": "<p>Vi löser \\(h(x)\\ge6\\):</p><p>\\(-0{,}16(x-7)^2+7{,}84\\ge6\\).</p><p>\\(-0{,}16(x-7)^2\\ge-1{,}84\\). Dividera med \\(-0,\\,16\\) och vänd olikheten:</p><p>\\((x-7)^2\\le11{,}5\\).</p><p>\\(|x-7|\\le\\sqrt{11{,}5}\\approx3{,}391\\).</p><p>Intervallet blir ungefär \\(3{,}61\\le x\\le10{,}39\\).</p><p>Bredden är \\(2\\sqrt{11{,}5}\\approx6{,}78\\).</p><p><strong>Området är cirka 6,8 m brett.</strong></p>",
     "familj": "Tillämpa andragradsmodeller",
     "geogebra": false,
     "miniräknare": true,
@@ -24737,7 +24736,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt situationen till en andragradsfunktion och markera vad nollställen, symmetrilinje och extrempunkt betyder i sammanhanget. Välj sedan den av dessa egenskaper som svarar på frågan.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -24881,7 +24880,7 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Översätt situationen till en andragradsfunktion och markera vad nollställen, symmetrilinje och extrempunkt betyder i sammanhanget. Välj sedan den av dessa egenskaper som svarar på frågan.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -25085,9 +25084,9 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>En potensfunktion \\(f(x)=Cx^a\\) går genom punkterna \\((1{,}5)\\) och \\((4{,}40)\\).</p><p>a) Bestäm funktionen.</p><p>b) Bestäm \\(f(9)\\).</p>",
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>En potensfunktion \\(f(x)=Cx^a\\) går genom punkterna \\((1,\\,5)\\) och \\((4,\\,40)\\).</p><p>a) Bestäm funktionen.</p><p>b) Bestäm \\(f(9)\\).</p>",
     "s": "<p>Eftersom \\(f(1)=5\\) fås direkt \\(C=5\\).</p><p>Det andra villkoret ger \\(40=5\\cdot4^a\\), alltså \\(4^a=8\\).</p><p>Eftersom \\(4^{3/2}=8\\) är \\(a=\\frac32=1{,}5\\).</p><p>Alltså \\(f(x)=5x^{1{,}5}\\).</p><p>\\(f(9)=5\\cdot9^{3/2}=5\\cdot27=135\\).</p><p><strong>a) \\(f(x)=5x^{1{,}5}\\). b) \\(f(9)=135\\).</strong></p>",
     "familj": "Potensfunktioner",
     "geogebra": false,
@@ -25101,16 +25100,15 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "svarFormat": [
       null,
       "numeriskt"
     ],
     "familjTidigare": "Tolka och använda potensfunktioner",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Eftersom \\(x=1\\) i den ena punkten får du konstanten direkt. Använd sedan den andra punkten för att bestämma exponenten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -25153,10 +25151,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(x^8=16x^4\\) och svara exakt.</p>",
-    "s": "<p>Flytta allt till ena sidan:</p><p>\\(x^8-16x^4=0\\).</p><p>Faktorisera:</p><p>\\(x^4(x^4-16)=0\\).</p><p>Första faktorn ger \\(x=0\\).</p><p>Andra ger \\(x^4=16\\), alltså \\(x=\\pm2\\) för reella \\(x\\).</p><p><strong>\\(x=-2{,}0{,}2\\).</strong></p>",
+    "s": "<p>Flytta allt till ena sidan:</p><p>\\(x^8-16x^4=0\\).</p><p>Faktorisera:</p><p>\\(x^4(x^4-16)=0\\).</p><p>Första faktorn ger \\(x=0\\).</p><p>Andra ger \\(x^4=16\\), alltså \\(x=\\pm2\\) för reella \\(x\\).</p><p><strong>\\(x=-2,\\,0,\\,2\\).</strong></p>",
     "familj": "Potensekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -25173,8 +25171,7 @@ window.BANKMA2 = [
     ],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
     "svarFormat": [
       "numeriskt",
@@ -25188,8 +25185,8 @@ window.BANKMA2 = [
     ],
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa potensekvationer",
-    "ledtrad": "<p>Isolera först den upphöjda termen. När en jämn potens tas bort behöver både positiv och negativ rot övervägas.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Flytta allt till ena ledet och faktorisera. Kom ihåg att både \\(x^4=0\\) och \\(x^4=16\\) kan ge reella lösningar.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -25290,13 +25287,13 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En potensfunktion \\(y=ax^n\\) går genom punkterna \\((2{,}12)\\) och \\((4{,}48)\\).</p><p>Bestäm funktionen.</p>",
-    "s": "<p>Punkterna ger \\(12=a2^n\\) och \\(48=a4^n\\).</p><p>Dividera den andra ekvationen med den första:</p><p>\\(4=\\left(\\frac42\\right)^n=2^n\\), alltså \\(n=2\\).</p><p>\\(12=4a\\Rightarrow a=3\\).</p><p><strong>\\(y=3x^2\\).</strong></p>",
+    "t": "<p>En potensfunktion \\(y=ax^n\\), för \\(x>0\\), går genom punkterna \\((2,\\,12)\\) och \\((4,\\,3)\\).</p><p>Bestäm funktionen.</p>",
+    "s": "<p>Punkterna ger \\(12=a\\cdot2^n\\) och \\(3=a\\cdot4^n\\).</p><p>Dividera den andra ekvationen med den första:</p><p>\\[\\frac{3}{12}=\\left(\\frac42\\right)^n\\Rightarrow \\frac14=2^n.\\]</p><p>Alltså är \\(n=-2\\). Sätt in i det första villkoret:</p><p>\\[12=a\\cdot2^{-2}=\\frac a4\\Rightarrow a=48.\\]</p><p><strong>\\(y=48x^{-2}=\\dfrac{48}{x^2}\\).</strong></p>",
     "familj": "Potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "ekvation",
-    "rättSvar": "y=3x^2",
+    "rättSvar": "y=48x^(-2)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -25304,7 +25301,7 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka och använda potensfunktioner",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Dividera de två punktvillkoren så försvinner konstanten \\(a\\). Jämför sedan \\(2^n\\) med \\(1/4\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -25316,8 +25313,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>En potensmodell \\(y=ax^n\\) uppfyller \\(f(2)=18\\) och \\(f(8)=288\\).</p><p>Bestäm modellen och det positiva x-värde som ger \\(f(x)=72\\).</p>",
     "s": "<p>\\(18=a2^n\\) och \\(288=a8^n\\).</p><p>Dividera:</p><p>\\(16=(8/2)^n=4^n\\Rightarrow n=2\\).</p><p>\\(18=4a\\Rightarrow a=4{,}5\\). Modellen är \\(f(x)=4{,}5x^2\\).</p><p>\\(4{,}5x^2=72\\Rightarrow x^2=16\\).</p><p><strong>\\(x=4\\) eftersom x ska vara positivt.</strong></p>",
     "familj": "Potensfunktioner",
@@ -25332,8 +25329,7 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "svarFormat": [
       "uttryck",
@@ -25345,8 +25341,8 @@ window.BANKMA2 = [
       "positivt x-värde"
     ],
     "familjTidigare": "Tolka och använda potensfunktioner",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Dividera villkoren för två funktionsvärden för att bestämma exponenten. Bestäm därefter konstanten och lös den sista ekvationen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -25359,26 +25355,25 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En modell har formen \\(y=ax^n\\). När x ökar från 4 till 12 blir y nio gånger så stort.</p><p>Bestäm exponenten \\(n\\).</p>",
-    "s": "<p>x multipliceras med \\(12/4=3\\).</p><p>För en potensfunktion multipliceras y då med \\(3^n\\).</p><p>\\(3^n=9=3^2\\).</p><p><strong>\\(n=2\\).</strong></p>",
+    "t": "<p>En modell har formen \\(y=ax^n\\). När \\(x\\) ökar från 4 till 12 blir \\(y\\) nio gånger så stort.</p><p>En elev skriver \\(n=9/3=3\\), eftersom \\(x\\) blev tre gånger så stort och \\(y\\) nio gånger så stort.</p><p>Förklara felet och bestäm exponenten \\(n\\).</p>",
+    "s": "<p>I en potensmodell är sambandet mellan förändringsfaktorerna exponentiellt, inte en kvot mellan 9 och 3.</p><p>När \\(x\\) multipliceras med \\(12/4=3\\) multipliceras \\(y\\) med \\(3^n\\). Därför ska</p><p>\\[3^n=9=3^2.\\]</p><p><strong>Alltså är \\(n=2\\). Elevens fel är att dividera förändringsfaktorerna i stället för att använda \\(3^n=9\\).</strong></p>",
     "familj": "Potensfunktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt",
     "familjTidigare": "Tolka och använda potensfunktioner",
-    "ledtrad": "<p>En potensmodell har formen \\(y=Cx^a\\). Om x multipliceras med en faktor \\(k\\), multipliceras y med \\(k^a\\).</p>",
+    "ledtrad": "<p>Om \\(x\\) multipliceras med en faktor \\(k\\) i \\(y=ax^n\\), multipliceras \\(y\\) med \\(k^n\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.356",
@@ -25493,7 +25488,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Grafen visar en exponentialfunktion.</p><span class=\"fig smal\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"48.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"94.2\" y1=\"262.0\" x2=\"94.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"186.8\" y1=\"262.0\" x2=\"186.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"233.0\" y1=\"262.0\" x2=\"233.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"279.2\" y1=\"262.0\" x2=\"279.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"325.5\" y1=\"262.0\" x2=\"325.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"371.8\" y1=\"262.0\" x2=\"371.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"418.0\" y1=\"262.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"418.0\" y2=\"262.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"237.8\" x2=\"418.0\" y2=\"237.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"213.6\" x2=\"418.0\" y2=\"213.6\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"189.4\" x2=\"418.0\" y2=\"189.4\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"165.2\" x2=\"418.0\" y2=\"165.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"141.0\" x2=\"418.0\" y2=\"141.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"116.8\" x2=\"418.0\" y2=\"116.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"92.6\" x2=\"418.0\" y2=\"92.6\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"68.4\" x2=\"418.0\" y2=\"68.4\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"44.2\" x2=\"418.0\" y2=\"44.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"20.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"237.8\" x2=\"418.0\" y2=\"237.8\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.0\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"140.5\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"186.8\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"233.0\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"279.2\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"325.5\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"371.8\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"418.0\" y=\"252.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><line x1=\"94.2\" y1=\"262.0\" x2=\"94.2\" y2=\"20.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"87.2\" y=\"265.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"87.2\" y=\"216.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"87.2\" y=\"192.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"87.2\" y=\"168.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"87.2\" y=\"144.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"87.2\" y=\"119.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"87.2\" y=\"95.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"87.2\" y=\"71.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"87.2\" y=\"47.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"87.2\" y=\"23.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><path d=\"M 83.0 8.8 L 84.1 12.3 L 85.1 15.8 L 86.1 19.2 L 87.2 22.5 L 88.2 25.8 L 89.2 29.1 L 90.3 32.3 L 91.3 35.4 L 92.3 38.5 L 93.3 41.6 L 94.4 44.6 L 95.4 47.5 L 96.4 50.5 L 97.5 53.3 L 98.5 56.2 L 99.5 58.9 L 100.6 61.7 L 101.6 64.4 L 102.6 67.0 L 103.7 69.7 L 104.7 72.2 L 105.7 74.8 L 106.7 77.3 L 107.8 79.7 L 108.8 82.1 L 109.8 84.5 L 110.9 86.9 L 111.9 89.2 L 112.9 91.5 L 114.0 93.7 L 115.0 95.9 L 116.0 98.1 L 117.1 100.2 L 118.1 102.4 L 119.1 104.4 L 120.1 106.5 L 121.2 108.5 L 122.2 110.5 L 123.2 112.4 L 124.3 114.3 L 125.3 116.2 L 126.3 118.1 L 127.4 119.9 L 128.4 121.7 L 129.4 123.5 L 130.5 125.3 L 131.5 127.0 L 132.5 128.7 L 133.5 130.4 L 134.6 132.0 L 135.6 133.6 L 136.6 135.2 L 137.7 136.8 L 138.7 138.3 L 139.7 139.9 L 140.8 141.4 L 141.8 142.9 L 142.8 144.3 L 143.8 145.7 L 144.9 147.2 L 145.9 148.5 L 146.9 149.9 L 148.0 151.3 L 149.0 152.6 L 150.0 153.9 L 151.1 155.2 L 152.1 156.4 L 153.1 157.7 L 154.2 158.9 L 155.2 160.1 L 156.2 161.3 L 157.2 162.5 L 158.3 163.6 L 159.3 164.8 L 160.3 165.9 L 161.4 167.0 L 162.4 168.1 L 163.4 169.2 L 164.5 170.2 L 165.5 171.2 L 166.5 172.3 L 167.6 173.3 L 168.6 174.3 L 169.6 175.2 L 170.6 176.2 L 171.7 177.1 L 172.7 178.1 L 173.7 179.0 L 174.8 179.9 L 175.8 180.8 L 176.8 181.6 L 177.9 182.5 L 178.9 183.4 L 179.9 184.2 L 181.0 185.0 L 182.0 185.8 L 183.0 186.6 L 184.0 187.4 L 185.1 188.2 L 186.1 188.9 L 187.1 189.7 L 188.2 190.4 L 189.2 191.1 L 190.2 191.9 L 191.3 192.6 L 192.3 193.3 L 193.3 193.9 L 194.4 194.6 L 195.4 195.3 L 196.4 195.9 L 197.4 196.6 L 198.5 197.2 L 199.5 197.8 L 200.5 198.4 L 201.6 199.0 L 202.6 199.6 L 203.6 200.2 L 204.7 200.8 L 205.7 201.4 L 206.7 201.9 L 207.7 202.5 L 208.8 203.0 L 209.8 203.5 L 210.8 204.1 L 211.9 204.6 L 212.9 205.1 L 213.9 205.6 L 215.0 206.1 L 216.0 206.6 L 217.0 207.1 L 218.1 207.5 L 219.1 208.0 L 220.1 208.4 L 221.1 208.9 L 222.2 209.3 L 223.2 209.8 L 224.2 210.2 L 225.3 210.6 L 226.3 211.0 L 227.3 211.5 L 228.4 211.9 L 229.4 212.3 L 230.4 212.6 L 231.5 213.0 L 232.5 213.4 L 233.5 213.8 L 234.5 214.2 L 235.6 214.5 L 236.6 214.9 L 237.6 215.2 L 238.7 215.6 L 239.7 215.9 L 240.7 216.2 L 241.8 216.6 L 242.8 216.9 L 243.8 217.2 L 244.9 217.5 L 245.9 217.8 L 246.9 218.2 L 247.9 218.5 L 249.0 218.8 L 250.0 219.0 L 251.0 219.3 L 252.1 219.6 L 253.1 219.9 L 254.1 220.2 L 255.2 220.4 L 256.2 220.7 L 257.2 221.0 L 258.3 221.2 L 259.3 221.5 L 260.3 221.7 L 261.3 222.0 L 262.4 222.2 L 263.4 222.5 L 264.4 222.7 L 265.5 222.9 L 266.5 223.2 L 267.5 223.4 L 268.6 223.6 L 269.6 223.8 L 270.6 224.0 L 271.6 224.2 L 272.7 224.4 L 273.7 224.7 L 274.7 224.9 L 275.8 225.1 L 276.8 225.2 L 277.8 225.4 L 278.9 225.6 L 279.9 225.8 L 280.9 226.0 L 282.0 226.2 L 283.0 226.4 L 284.0 226.5 L 285.0 226.7 L 286.1 226.9 L 287.1 227.0 L 288.1 227.2 L 289.2 227.4 L 290.2 227.5 L 291.2 227.7 L 292.3 227.8 L 293.3 228.0 L 294.3 228.1 L 295.4 228.3 L 296.4 228.4 L 297.4 228.6 L 298.4 228.7 L 299.5 228.9 L 300.5 229.0 L 301.5 229.1 L 302.6 229.3 L 303.6 229.4 L 304.6 229.5 L 305.7 229.7 L 306.7 229.8 L 307.7 229.9 L 308.8 230.0 L 309.8 230.1 L 310.8 230.3 L 311.8 230.4 L 312.9 230.5 L 313.9 230.6 L 314.9 230.7 L 316.0 230.8 L 317.0 230.9 L 318.0 231.0 L 319.1 231.1 L 320.1 231.2 L 321.1 231.3 L 322.2 231.4 L 323.2 231.5 L 324.2 231.6 L 325.2 231.7 L 326.3 231.8 L 327.3 231.9 L 328.3 232.0 L 329.4 232.1 L 330.4 232.2 L 331.4 232.3 L 332.5 232.3 L 333.5 232.4 L 334.5 232.5 L 335.5 232.6 L 336.6 232.7 L 337.6 232.8 L 338.6 232.8 L 339.7 232.9 L 340.7 233.0 L 341.7 233.1 L 342.8 233.1 L 343.8 233.2 L 344.8 233.3 L 345.9 233.3 L 346.9 233.4 L 347.9 233.5 L 348.9 233.5 L 350.0 233.6 L 351.0 233.7 L 352.0 233.7 L 353.1 233.8 L 354.1 233.9 L 355.1 233.9 L 356.2 234.0 L 357.2 234.0 L 358.2 234.1 L 359.3 234.2 L 360.3 234.2 L 361.3 234.3 L 362.3 234.3 L 363.4 234.4 L 364.4 234.4 L 365.4 234.5 L 366.5 234.5 L 367.5 234.6 L 368.5 234.6 L 369.6 234.7 L 370.6 234.7 L 371.6 234.8 L 372.7 234.8 L 373.7 234.9 L 374.7 234.9 L 375.7 235.0 L 376.8 235.0 L 377.8 235.0 L 378.8 235.1 L 379.9 235.1 L 380.9 235.2 L 381.9 235.2 L 383.0 235.2 L 384.0 235.3 L 385.0 235.3 L 386.1 235.4 L 387.1 235.4 L 388.1 235.4 L 389.1 235.5 L 390.2 235.5 L 391.2 235.5 L 392.2 235.6 L 393.3 235.6 L 394.3 235.6 L 395.3 235.7 L 396.4 235.7 L 397.4 235.7 L 398.4 235.8 L 399.4 235.8 L 400.5 235.8 L 401.5 235.9 L 402.5 235.9 L 403.6 235.9 L 404.6 236.0 L 405.6 236.0 L 406.7 236.0 L 407.7 236.0 L 408.7 236.1 L 409.8 236.1 L 410.8 236.1 L 411.8 236.1 L 412.8 236.2 L 413.9 236.2 L 414.9 236.2 L 415.9 236.2 L 417.0 236.3 L 418.0 236.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><circle cx=\"94.2\" cy=\"44.2\" r=\"4.4\" fill=\"#222\"/><circle cx=\"140.5\" cy=\"141.0\" r=\"4.4\" fill=\"#222\"/><circle cx=\"186.8\" cy=\"189.4\" r=\"4.4\" fill=\"#222\"/></svg></span><p>Bestäm en möjlig formel för funktionen.</p>",
-    "s": "<p>Grafen går genom \\((0{,}8)\\), så startvärdet är 8.</p><p>När x ökar med 1 halveras y-värdet: 8, 4, 2, ...</p><p><strong>En möjlig formel är \\(f(x)=8\\cdot0{,}5^x\\).</strong></p>",
+    "s": "<p>Grafen går genom \\((0,\\,8)\\), så startvärdet är 8.</p><p>När x ökar med 1 halveras y-värdet: 8, 4, 2, ...</p><p><strong>En möjlig formel är \\(f(x)=8\\cdot0{,}5^x\\).</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -25538,7 +25533,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
     "ledtrad": "<p>En linjär funktion ökar med samma belopp för varje steg i \\(x\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false
   },
@@ -25600,7 +25595,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
     "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false
   },
@@ -25674,8 +25669,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Graferna till två exponentialfunktioner visas.</p><span class=\"fig smal\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"48.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"94.2\" y1=\"262.0\" x2=\"94.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"186.8\" y1=\"262.0\" x2=\"186.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"233.0\" y1=\"262.0\" x2=\"233.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"279.2\" y1=\"262.0\" x2=\"279.2\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"325.5\" y1=\"262.0\" x2=\"325.5\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"371.8\" y1=\"262.0\" x2=\"371.8\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"418.0\" y1=\"262.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"262.0\" x2=\"418.0\" y2=\"262.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"243.4\" x2=\"418.0\" y2=\"243.4\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"224.8\" x2=\"418.0\" y2=\"224.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"206.2\" x2=\"418.0\" y2=\"206.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"187.5\" x2=\"418.0\" y2=\"187.5\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"168.9\" x2=\"418.0\" y2=\"168.9\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"150.3\" x2=\"418.0\" y2=\"150.3\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"131.7\" x2=\"418.0\" y2=\"131.7\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"113.1\" x2=\"418.0\" y2=\"113.1\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"94.5\" x2=\"418.0\" y2=\"94.5\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"75.8\" x2=\"418.0\" y2=\"75.8\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"57.2\" x2=\"418.0\" y2=\"57.2\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"38.6\" x2=\"418.0\" y2=\"38.6\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"20.0\" x2=\"418.0\" y2=\"20.0\" stroke=\"#ECECEF\"/><line x1=\"48.0\" y1=\"243.4\" x2=\"418.0\" y2=\"243.4\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.0\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-2</text><text x=\"94.2\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"186.8\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"233.0\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"279.2\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"325.5\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"371.8\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"418.0\" y=\"258.4\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><line x1=\"140.5\" y1=\"262.0\" x2=\"140.5\" y2=\"20.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"133.5\" y=\"265.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">-1</text><text x=\"133.5\" y=\"227.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">1</text><text x=\"133.5\" y=\"209.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><text x=\"133.5\" y=\"190.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><text x=\"133.5\" y=\"171.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><text x=\"133.5\" y=\"153.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><text x=\"133.5\" y=\"134.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><text x=\"133.5\" y=\"116.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><text x=\"133.5\" y=\"97.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><text x=\"133.5\" y=\"78.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><text x=\"133.5\" y=\"60.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">10</text><text x=\"133.5\" y=\"41.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">11</text><text x=\"133.5\" y=\"23.0\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">12</text><path d=\"M 48.0 214.9 L 49.0 214.7 L 50.1 214.5 L 51.1 214.2 L 52.1 214.0 L 53.2 213.8 L 54.2 213.6 L 55.2 213.4 L 56.2 213.1 L 57.3 212.9 L 58.3 212.7 L 59.3 212.4 L 60.4 212.2 L 61.4 212.0 L 62.4 211.7 L 63.5 211.5 L 64.5 211.3 L 65.5 211.0 L 66.6 210.8 L 67.6 210.5 L 68.6 210.3 L 69.6 210.0 L 70.7 209.8 L 71.7 209.5 L 72.7 209.3 L 73.8 209.0 L 74.8 208.8 L 75.8 208.5 L 76.9 208.2 L 77.9 208.0 L 78.9 207.7 L 79.9 207.4 L 81.0 207.2 L 82.0 206.9 L 83.0 206.6 L 84.1 206.3 L 85.1 206.1 L 86.1 205.8 L 87.2 205.5 L 88.2 205.2 L 89.2 204.9 L 90.3 204.6 L 91.3 204.3 L 92.3 204.1 L 93.3 203.8 L 94.4 203.5 L 95.4 203.2 L 96.4 202.9 L 97.5 202.5 L 98.5 202.2 L 99.5 201.9 L 100.6 201.6 L 101.6 201.3 L 102.6 201.0 L 103.7 200.7 L 104.7 200.3 L 105.7 200.0 L 106.7 199.7 L 107.8 199.4 L 108.8 199.0 L 109.8 198.7 L 110.9 198.4 L 111.9 198.0 L 112.9 197.7 L 114.0 197.3 L 115.0 197.0 L 116.0 196.6 L 117.1 196.3 L 118.1 195.9 L 119.1 195.6 L 120.1 195.2 L 121.2 194.9 L 122.2 194.5 L 123.2 194.1 L 124.3 193.8 L 125.3 193.4 L 126.3 193.0 L 127.4 192.6 L 128.4 192.2 L 129.4 191.9 L 130.5 191.5 L 131.5 191.1 L 132.5 190.7 L 133.5 190.3 L 134.6 189.9 L 135.6 189.5 L 136.6 189.1 L 137.7 188.7 L 138.7 188.3 L 139.7 187.9 L 140.8 187.4 L 141.8 187.0 L 142.8 186.6 L 143.8 186.2 L 144.9 185.7 L 145.9 185.3 L 146.9 184.9 L 148.0 184.4 L 149.0 184.0 L 150.0 183.5 L 151.1 183.1 L 152.1 182.6 L 153.1 182.2 L 154.2 181.7 L 155.2 181.2 L 156.2 180.8 L 157.2 180.3 L 158.3 179.8 L 159.3 179.3 L 160.3 178.9 L 161.4 178.4 L 162.4 177.9 L 163.4 177.4 L 164.5 176.9 L 165.5 176.4 L 166.5 175.9 L 167.6 175.4 L 168.6 174.9 L 169.6 174.4 L 170.6 173.8 L 171.7 173.3 L 172.7 172.8 L 173.7 172.3 L 174.8 171.7 L 175.8 171.2 L 176.8 170.6 L 177.9 170.1 L 178.9 169.5 L 179.9 169.0 L 181.0 168.4 L 182.0 167.9 L 183.0 167.3 L 184.0 166.7 L 185.1 166.1 L 186.1 165.6 L 187.1 165.0 L 188.2 164.4 L 189.2 163.8 L 190.2 163.2 L 191.3 162.6 L 192.3 162.0 L 193.3 161.4 L 194.4 160.8 L 195.4 160.1 L 196.4 159.5 L 197.4 158.9 L 198.5 158.2 L 199.5 157.6 L 200.5 157.0 L 201.6 156.3 L 202.6 155.6 L 203.6 155.0 L 204.7 154.3 L 205.7 153.7 L 206.7 153.0 L 207.7 152.3 L 208.8 151.6 L 209.8 150.9 L 210.8 150.2 L 211.9 149.5 L 212.9 148.8 L 213.9 148.1 L 215.0 147.4 L 216.0 146.7 L 217.0 145.9 L 218.1 145.2 L 219.1 144.5 L 220.1 143.7 L 221.1 143.0 L 222.2 142.2 L 223.2 141.5 L 224.2 140.7 L 225.3 139.9 L 226.3 139.1 L 227.3 138.3 L 228.4 137.6 L 229.4 136.8 L 230.4 136.0 L 231.5 135.2 L 232.5 134.3 L 233.5 133.5 L 234.5 132.7 L 235.6 131.9 L 236.6 131.0 L 237.6 130.2 L 238.7 129.3 L 239.7 128.5 L 240.7 127.6 L 241.8 126.7 L 242.8 125.8 L 243.8 125.0 L 244.9 124.1 L 245.9 123.2 L 246.9 122.3 L 247.9 121.4 L 249.0 120.4 L 250.0 119.5 L 251.0 118.6 L 252.1 117.6 L 253.1 116.7 L 254.1 115.7 L 255.2 114.8 L 256.2 113.8 L 257.2 112.8 L 258.3 111.9 L 259.3 110.9 L 260.3 109.9 L 261.3 108.9 L 262.4 107.8 L 263.4 106.8 L 264.4 105.8 L 265.5 104.8 L 266.5 103.7 L 267.5 102.7 L 268.6 101.6 L 269.6 100.5 L 270.6 99.5 L 271.6 98.4 L 272.7 97.3 L 273.7 96.2 L 274.7 95.1 L 275.8 94.0 L 276.8 92.8 L 277.8 91.7 L 278.9 90.6 L 279.9 89.4 L 280.9 88.3 L 282.0 87.1 L 283.0 85.9 L 284.0 84.7 L 285.0 83.5 L 286.1 82.3 L 287.1 81.1 L 288.1 79.9 L 289.2 78.7 L 290.2 77.4 L 291.2 76.2 L 292.3 74.9 L 293.3 73.7 L 294.3 72.4 L 295.4 71.1 L 296.4 69.8 L 297.4 68.5 L 298.4 67.2 L 299.5 65.9 L 300.5 64.5 L 301.5 63.2 L 302.6 61.8 L 303.6 60.4 L 304.6 59.1 L 305.7 57.7 L 306.7 56.3 L 307.7 54.9 L 308.8 53.5 L 309.8 52.0 L 310.8 50.6 L 311.8 49.1 L 312.9 47.7 L 313.9 46.2 L 314.9 44.7 L 316.0 43.2 L 317.0 41.7 L 318.0 40.2 L 319.1 38.7 L 320.1 37.1 L 321.1 35.6 L 322.2 34.0 L 323.2 32.4 L 324.2 30.8 L 325.2 29.2 L 326.3 27.6 L 327.3 26.0 L 328.3 24.4 L 329.4 22.7 L 330.4 21.1 L 331.4 19.4 L 332.5 17.7 L 333.5 16.0 L 334.5 14.3 L 335.5 12.6 L 336.6 10.8\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><path d=\"M 48.0 68.9 L 49.0 69.7 L 50.1 70.6 L 51.1 71.4 L 52.1 72.3 L 53.2 73.2 L 54.2 74.0 L 55.2 74.8 L 56.2 75.7 L 57.3 76.5 L 58.3 77.3 L 59.3 78.2 L 60.4 79.0 L 61.4 79.8 L 62.4 80.6 L 63.5 81.4 L 64.5 82.2 L 65.5 83.0 L 66.6 83.8 L 67.6 84.6 L 68.6 85.4 L 69.6 86.2 L 70.7 86.9 L 71.7 87.7 L 72.7 88.5 L 73.8 89.3 L 74.8 90.0 L 75.8 90.8 L 76.9 91.5 L 77.9 92.3 L 78.9 93.1 L 79.9 93.8 L 81.0 94.5 L 82.0 95.3 L 83.0 96.0 L 84.1 96.7 L 85.1 97.5 L 86.1 98.2 L 87.2 98.9 L 88.2 99.6 L 89.2 100.3 L 90.3 101.1 L 91.3 101.8 L 92.3 102.5 L 93.3 103.2 L 94.4 103.9 L 95.4 104.5 L 96.4 105.2 L 97.5 105.9 L 98.5 106.6 L 99.5 107.3 L 100.6 108.0 L 101.6 108.6 L 102.6 109.3 L 103.7 110.0 L 104.7 110.6 L 105.7 111.3 L 106.7 111.9 L 107.8 112.6 L 108.8 113.2 L 109.8 113.9 L 110.9 114.5 L 111.9 115.2 L 112.9 115.8 L 114.0 116.4 L 115.0 117.1 L 116.0 117.7 L 117.1 118.3 L 118.1 118.9 L 119.1 119.6 L 120.1 120.2 L 121.2 120.8 L 122.2 121.4 L 123.2 122.0 L 124.3 122.6 L 125.3 123.2 L 126.3 123.8 L 127.4 124.4 L 128.4 125.0 L 129.4 125.6 L 130.5 126.1 L 131.5 126.7 L 132.5 127.3 L 133.5 127.9 L 134.6 128.5 L 135.6 129.0 L 136.6 129.6 L 137.7 130.2 L 138.7 130.7 L 139.7 131.3 L 140.8 131.8 L 141.8 132.4 L 142.8 132.9 L 143.8 133.5 L 144.9 134.0 L 145.9 134.6 L 146.9 135.1 L 148.0 135.6 L 149.0 136.2 L 150.0 136.7 L 151.1 137.2 L 152.1 137.8 L 153.1 138.3 L 154.2 138.8 L 155.2 139.3 L 156.2 139.8 L 157.2 140.4 L 158.3 140.9 L 159.3 141.4 L 160.3 141.9 L 161.4 142.4 L 162.4 142.9 L 163.4 143.4 L 164.5 143.9 L 165.5 144.4 L 166.5 144.9 L 167.6 145.4 L 168.6 145.8 L 169.6 146.3 L 170.6 146.8 L 171.7 147.3 L 172.7 147.8 L 173.7 148.2 L 174.8 148.7 L 175.8 149.2 L 176.8 149.7 L 177.9 150.1 L 178.9 150.6 L 179.9 151.0 L 181.0 151.5 L 182.0 152.0 L 183.0 152.4 L 184.0 152.9 L 185.1 153.3 L 186.1 153.8 L 187.1 154.2 L 188.2 154.6 L 189.2 155.1 L 190.2 155.5 L 191.3 156.0 L 192.3 156.4 L 193.3 156.8 L 194.4 157.2 L 195.4 157.7 L 196.4 158.1 L 197.4 158.5 L 198.5 158.9 L 199.5 159.4 L 200.5 159.8 L 201.6 160.2 L 202.6 160.6 L 203.6 161.0 L 204.7 161.4 L 205.7 161.8 L 206.7 162.2 L 207.7 162.6 L 208.8 163.0 L 209.8 163.4 L 210.8 163.8 L 211.9 164.2 L 212.9 164.6 L 213.9 165.0 L 215.0 165.4 L 216.0 165.8 L 217.0 166.2 L 218.1 166.6 L 219.1 166.9 L 220.1 167.3 L 221.1 167.7 L 222.2 168.1 L 223.2 168.4 L 224.2 168.8 L 225.3 169.2 L 226.3 169.6 L 227.3 169.9 L 228.4 170.3 L 229.4 170.6 L 230.4 171.0 L 231.5 171.4 L 232.5 171.7 L 233.5 172.1 L 234.5 172.4 L 235.6 172.8 L 236.6 173.1 L 237.6 173.5 L 238.7 173.8 L 239.7 174.2 L 240.7 174.5 L 241.8 174.9 L 242.8 175.2 L 243.8 175.5 L 244.9 175.9 L 245.9 176.2 L 246.9 176.5 L 247.9 176.9 L 249.0 177.2 L 250.0 177.5 L 251.0 177.9 L 252.1 178.2 L 253.1 178.5 L 254.1 178.8 L 255.2 179.1 L 256.2 179.5 L 257.2 179.8 L 258.3 180.1 L 259.3 180.4 L 260.3 180.7 L 261.3 181.0 L 262.4 181.3 L 263.4 181.7 L 264.4 182.0 L 265.5 182.3 L 266.5 182.6 L 267.5 182.9 L 268.6 183.2 L 269.6 183.5 L 270.6 183.8 L 271.6 184.1 L 272.7 184.4 L 273.7 184.6 L 274.7 184.9 L 275.8 185.2 L 276.8 185.5 L 277.8 185.8 L 278.9 186.1 L 279.9 186.4 L 280.9 186.7 L 282.0 186.9 L 283.0 187.2 L 284.0 187.5 L 285.0 187.8 L 286.1 188.1 L 287.1 188.3 L 288.1 188.6 L 289.2 188.9 L 290.2 189.1 L 291.2 189.4 L 292.3 189.7 L 293.3 189.9 L 294.3 190.2 L 295.4 190.5 L 296.4 190.7 L 297.4 191.0 L 298.4 191.3 L 299.5 191.5 L 300.5 191.8 L 301.5 192.0 L 302.6 192.3 L 303.6 192.5 L 304.6 192.8 L 305.7 193.0 L 306.7 193.3 L 307.7 193.5 L 308.8 193.8 L 309.8 194.0 L 310.8 194.3 L 311.8 194.5 L 312.9 194.8 L 313.9 195.0 L 314.9 195.2 L 316.0 195.5 L 317.0 195.7 L 318.0 196.0 L 319.1 196.2 L 320.1 196.4 L 321.1 196.7 L 322.2 196.9 L 323.2 197.1 L 324.2 197.4 L 325.2 197.6 L 326.3 197.8 L 327.3 198.0 L 328.3 198.3 L 329.4 198.5 L 330.4 198.7 L 331.4 198.9 L 332.5 199.1 L 333.5 199.4 L 334.5 199.6 L 335.5 199.8 L 336.6 200.0 L 337.6 200.2 L 338.6 200.4 L 339.7 200.7 L 340.7 200.9 L 341.7 201.1 L 342.8 201.3 L 343.8 201.5 L 344.8 201.7 L 345.9 201.9 L 346.9 202.1 L 347.9 202.3 L 348.9 202.5 L 350.0 202.7 L 351.0 202.9 L 352.0 203.1 L 353.1 203.3 L 354.1 203.5 L 355.1 203.7 L 356.2 203.9 L 357.2 204.1 L 358.2 204.3 L 359.3 204.5 L 360.3 204.7 L 361.3 204.9 L 362.3 205.1 L 363.4 205.3 L 364.4 205.5 L 365.4 205.7 L 366.5 205.8 L 367.5 206.0 L 368.5 206.2 L 369.6 206.4 L 370.6 206.6 L 371.6 206.8 L 372.7 206.9 L 373.7 207.1 L 374.7 207.3 L 375.7 207.5 L 376.8 207.7 L 377.8 207.8 L 378.8 208.0 L 379.9 208.2 L 380.9 208.4 L 381.9 208.5 L 383.0 208.7 L 384.0 208.9 L 385.0 209.1 L 386.1 209.2 L 387.1 209.4 L 388.1 209.6 L 389.1 209.7 L 390.2 209.9 L 391.2 210.1 L 392.2 210.2 L 393.3 210.4 L 394.3 210.6 L 395.3 210.7 L 396.4 210.9 L 397.4 211.0 L 398.4 211.2 L 399.4 211.4 L 400.5 211.5 L 401.5 211.7 L 402.5 211.8 L 403.6 212.0 L 404.6 212.1 L 405.6 212.3 L 406.7 212.5 L 407.7 212.6 L 408.7 212.8 L 409.8 212.9 L 410.8 213.1 L 411.8 213.2 L 412.8 213.4 L 413.9 213.5 L 414.9 213.7 L 415.9 213.8 L 417.0 214.0 L 418.0 214.1\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\"/><text x=\"348.6\" y=\"85.2\" fill=\"#B43123\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">f</text><text x=\"348.6\" y=\"193.1\" fill=\"#2A5D9E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">g</text></svg></span><p>Utan att bestämma exakta formler, förklara vilken graf som har störst startvärde och vilken som har förändringsfaktor större än 1.</p>",
     "s": "<p>Startvärdet avläses vid \\(x=0\\). Där ligger g högre än f, så g har störst startvärde.</p><p>f växer när x ökar och har därför förändringsfaktor större än 1. g avtar och har förändringsfaktor mellan 0 och 1.</p>",
     "familj": "Tolka exponentialfunktion från graf",
@@ -25686,13 +25681,12 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
       "begrepp",
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Börja vid (x=0): där syns startvärdet. Grafens riktning avgör om förändringsfaktorn är över eller under 1.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Startvärdet läses av där \\(x=0\\). En växande exponentialfunktion har förändringsfaktor större än 1; en avtagande har faktor mellan 0 och 1.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": false
   },
@@ -25707,8 +25701,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En exponentialfunktion \\(f(x)=Ca^x\\) uppfyller \\(f(1)=12\\) och \\(f(4)=96\\).</p><p>Bestäm var grafen skär y-axeln och förklara hur grafens form visar om \\(a\\) är större eller mindre än 1.</p>",
-    "s": "<p>Dividera funktionsvärdena:</p><p>\\(96/12=a^3=8\\Rightarrow a=2\\).</p><p>\\(12=C\\cdot2\\Rightarrow C=6\\).</p><p>Grafen skär y-axeln vid \\((0{,}6)\\).</p><p>Eftersom \\(a=2&gt;1\\) är grafen växande.</p><p><strong>Y-skärningen är \\((0{,}6)\\).</strong></p>",
+    "t": "<p>En exponentialfunktion \\(f(x)=Ca^x\\) uppfyller \\(f(1)=12\\) och \\(f(4)=96\\).</p><p>En elev säger att startvärdet måste vara \\(96/4=24\\), eftersom man går fyra steg bakåt från \\(x=4\\) till \\(x=0\\).</p><p>Bedöm påståendet. Bestäm funktionens startvärde och avgör om grafen är växande eller avtagande.</p>",
+    "s": "<p>I en exponentialfunktion ändras värdet med samma <em>faktor</em> för varje steg, inte med samma belopp.</p><p>Från \\(x=1\\) till \\(x=4\\) är det tre steg och</p><p>\\[\\frac{96}{12}=8=a^3\\Rightarrow a=2.\\]</p><p>Därför är \\(12=C\\cdot2\\Rightarrow C=6\\). Startvärdet är alltså 6. Eftersom \\(a=2>1\\) är grafen växande.</p><p><strong>Elevens påstående är fel. Startvärdet är 6 och funktionen är växande.</strong></p>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -25722,8 +25716,8 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Bestäm först förändringsfaktorn genom att jämföra \\(f(4)\\) och \\(f(1)\\). Tänk på att det är tre x-steg mellan 1 och 4.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false
   },
@@ -25736,10 +25730,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En exponentialfunktion går genom \\((0{,}5)\\) och \\((3{,}40)\\).</p><p>Bestäm förändringsfaktorn och skissa hur grafen bör se ut.</p>",
-    "s": "<p>Skriv \\(f(x)=5a^x\\), eftersom \\(f(0)=5\\).</p><p>Punkten \\((3{,}40)\\) ger</p><p>\\[40=5a^3\\Rightarrow a^3=8\\Rightarrow a=2.\\]</p><p><strong>\\(f(x)=5\\cdot2^x\\).</strong></p><p>För en skiss kan man markera att funktionsvärdet fördubblas när \\(x\\) ökar med 1: \\((0{,}5),(1{,}10),(2{,}20),(3{,}40)\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"330\" viewBox=\"0 0 520 330\" role=\"img\" aria-label=\"Facitgraf till exponentialfunktionen f(x)=5 gånger 2 upphöjt till x\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#d4d8df\"/><line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"141.6\" y1=\"20\" x2=\"141.6\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"231.2\" y1=\"20\" x2=\"231.2\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"320.8\" y1=\"20\" x2=\"320.8\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"410.4\" y1=\"20\" x2=\"410.4\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"500.0\" y1=\"20\" x2=\"500.0\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"288.0\" x2=\"500\" y2=\"288.0\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"258.2\" x2=\"500\" y2=\"258.2\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"228.4\" x2=\"500\" y2=\"228.4\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"198.7\" x2=\"500\" y2=\"198.7\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"168.9\" x2=\"500\" y2=\"168.9\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"139.1\" x2=\"500\" y2=\"139.1\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"109.3\" x2=\"500\" y2=\"109.3\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"79.6\" x2=\"500\" y2=\"79.6\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"49.8\" x2=\"500\" y2=\"49.8\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"20.0\" x2=\"500\" y2=\"20.0\" stroke=\"#ececef\"/><line x1=\"141.6\" y1=\"20\" x2=\"141.6\" y2=\"288\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><line x1=\"52\" y1=\"288.0\" x2=\"500\" y2=\"288.0\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><polyline points=\"52.0,273.1 54.8,272.8 57.6,272.5 60.4,272.1 63.2,271.8 66.0,271.4 68.8,271.0 71.6,270.7 74.4,270.3 77.2,269.9 80.0,269.5 82.8,269.1 85.6,268.7 88.4,268.3 91.2,267.8 94.0,267.4 96.8,266.9 99.6,266.5 102.4,266.0 105.2,265.5 108.0,265.0 110.8,264.5 113.6,264.0 116.4,263.5 119.2,263.0 122.0,262.4 124.8,261.9 127.6,261.3 130.4,260.7 133.2,260.1 136.0,259.5 138.8,258.9 141.6,258.2 144.4,257.6 147.2,256.9 150.0,256.2 152.8,255.5 155.6,254.8 158.4,254.1 161.2,253.3 164.0,252.6 166.8,251.8 169.6,251.0 172.4,250.2 175.2,249.4 178.0,248.5 180.8,247.7 183.6,246.8 186.4,245.9 189.2,245.0 192.0,244.0 194.8,243.1 197.6,242.1 200.4,241.1 203.2,240.0 206.0,239.0 208.8,237.9 211.6,236.8 214.4,235.7 217.2,234.6 220.0,233.4 222.8,232.2 225.6,231.0 228.4,229.7 231.2,228.4 234.0,227.1 236.8,225.8 239.6,224.4 242.4,223.1 245.2,221.6 248.0,220.2 250.8,218.7 253.6,217.2 256.4,215.6 259.2,214.0 262.0,212.4 264.8,210.8 267.6,209.1 270.4,207.3 273.2,205.6 276.0,203.8 278.8,201.9 281.6,200.0 284.4,198.1 287.2,196.2 290.0,194.1 292.8,192.1 295.6,190.0 298.4,187.8 301.2,185.6 304.0,183.4 306.8,181.1 309.6,178.8 312.4,176.4 315.2,173.9 318.0,171.4 320.8,168.9 323.6,166.3 326.4,163.6 329.2,160.9 332.0,158.1 334.8,155.3 337.6,152.4 340.4,149.4 343.2,146.4 346.0,143.3 348.8,140.1 351.6,136.8 354.4,133.5 357.2,130.1 360.0,126.7 362.8,123.2 365.6,119.6 368.4,115.9 371.2,112.1 374.0,108.2 376.8,104.3 379.6,100.3 382.4,96.2 385.2,92.0 388.0,87.7 390.8,83.3 393.6,78.8 396.4,74.2 399.2,69.5 402.0,64.8 404.8,59.9 407.6,54.9 410.4,49.8 413.2,44.6 416.0,39.2 418.8,33.8 421.6,28.2 424.4,22.5 427.2,16.7 430.0,10.8 432.8,4.7 435.6,-1.5 438.4,-7.8 441.2,-14.3 444.0,-20.9 446.8,-27.7 449.6,-34.6 452.4,-41.7 455.2,-48.9 458.0,-56.3 460.8,-63.8 463.6,-71.5 466.4,-79.4 469.2,-87.4 472.0,-95.7 474.8,-104.1 477.6,-112.6 480.4,-121.4 483.2,-130.4 486.0,-139.5 488.8,-148.9 491.6,-158.5 494.4,-168.2 497.2,-178.2 500.0,-188.4\" fill=\"none\" stroke=\"#2f66e2\" stroke-width=\"3\"/><circle cx=\"141.6\" cy=\"258.2\" r=\"4.2\" fill=\"#111827\"/><text x=\"148.6\" y=\"251.2\" font-family=\"Arial,sans-serif\" font-size=\"13\">(0, 5)</text><circle cx=\"231.2\" cy=\"228.4\" r=\"4.2\" fill=\"#111827\"/><text x=\"238.2\" y=\"221.4\" font-family=\"Arial,sans-serif\" font-size=\"13\">(1, 10)</text><circle cx=\"320.8\" cy=\"168.9\" r=\"4.2\" fill=\"#111827\"/><text x=\"327.8\" y=\"161.9\" font-family=\"Arial,sans-serif\" font-size=\"13\">(2, 20)</text><circle cx=\"410.4\" cy=\"49.8\" r=\"4.2\" fill=\"#111827\"/><text x=\"417.4\" y=\"42.8\" font-family=\"Arial,sans-serif\" font-size=\"13\">(3, 40)</text></svg></span>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En exponentialfunktion går genom \\((0,\\,5)\\) och \\((3,\\,40)\\).</p><p>Bestäm förändringsfaktorn och skissa hur grafen bör se ut.</p>",
+    "s": "<p>Skriv \\(f(x)=5a^x\\), eftersom \\(f(0)=5\\).</p><p>Punkten \\((3,\\,40)\\) ger</p><p>\\[40=5a^3\\Rightarrow a^3=8\\Rightarrow a=2.\\]</p><p><strong>\\(f(x)=5\\cdot2^x\\).</strong></p><p>För en skiss kan man markera att funktionsvärdet fördubblas när \\(x\\) ökar med 1: \\((0{,}5),(1{,}10),(2{,}20),(3{,}40)\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"330\" viewBox=\"0 0 520 330\" role=\"img\" aria-label=\"Facitgraf till exponentialfunktionen f(x)=5 gånger 2 upphöjt till x\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#d4d8df\"/><line x1=\"52.0\" y1=\"20\" x2=\"52.0\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"141.6\" y1=\"20\" x2=\"141.6\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"231.2\" y1=\"20\" x2=\"231.2\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"320.8\" y1=\"20\" x2=\"320.8\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"410.4\" y1=\"20\" x2=\"410.4\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"500.0\" y1=\"20\" x2=\"500.0\" y2=\"288\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"288.0\" x2=\"500\" y2=\"288.0\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"258.2\" x2=\"500\" y2=\"258.2\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"228.4\" x2=\"500\" y2=\"228.4\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"198.7\" x2=\"500\" y2=\"198.7\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"168.9\" x2=\"500\" y2=\"168.9\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"139.1\" x2=\"500\" y2=\"139.1\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"109.3\" x2=\"500\" y2=\"109.3\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"79.6\" x2=\"500\" y2=\"79.6\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"49.8\" x2=\"500\" y2=\"49.8\" stroke=\"#ececef\"/><line x1=\"52\" y1=\"20.0\" x2=\"500\" y2=\"20.0\" stroke=\"#ececef\"/><line x1=\"141.6\" y1=\"20\" x2=\"141.6\" y2=\"288\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><line x1=\"52\" y1=\"288.0\" x2=\"500\" y2=\"288.0\" stroke=\"#4b5563\" stroke-width=\"1.8\"/><polyline points=\"52.0,273.1 54.8,272.8 57.6,272.5 60.4,272.1 63.2,271.8 66.0,271.4 68.8,271.0 71.6,270.7 74.4,270.3 77.2,269.9 80.0,269.5 82.8,269.1 85.6,268.7 88.4,268.3 91.2,267.8 94.0,267.4 96.8,266.9 99.6,266.5 102.4,266.0 105.2,265.5 108.0,265.0 110.8,264.5 113.6,264.0 116.4,263.5 119.2,263.0 122.0,262.4 124.8,261.9 127.6,261.3 130.4,260.7 133.2,260.1 136.0,259.5 138.8,258.9 141.6,258.2 144.4,257.6 147.2,256.9 150.0,256.2 152.8,255.5 155.6,254.8 158.4,254.1 161.2,253.3 164.0,252.6 166.8,251.8 169.6,251.0 172.4,250.2 175.2,249.4 178.0,248.5 180.8,247.7 183.6,246.8 186.4,245.9 189.2,245.0 192.0,244.0 194.8,243.1 197.6,242.1 200.4,241.1 203.2,240.0 206.0,239.0 208.8,237.9 211.6,236.8 214.4,235.7 217.2,234.6 220.0,233.4 222.8,232.2 225.6,231.0 228.4,229.7 231.2,228.4 234.0,227.1 236.8,225.8 239.6,224.4 242.4,223.1 245.2,221.6 248.0,220.2 250.8,218.7 253.6,217.2 256.4,215.6 259.2,214.0 262.0,212.4 264.8,210.8 267.6,209.1 270.4,207.3 273.2,205.6 276.0,203.8 278.8,201.9 281.6,200.0 284.4,198.1 287.2,196.2 290.0,194.1 292.8,192.1 295.6,190.0 298.4,187.8 301.2,185.6 304.0,183.4 306.8,181.1 309.6,178.8 312.4,176.4 315.2,173.9 318.0,171.4 320.8,168.9 323.6,166.3 326.4,163.6 329.2,160.9 332.0,158.1 334.8,155.3 337.6,152.4 340.4,149.4 343.2,146.4 346.0,143.3 348.8,140.1 351.6,136.8 354.4,133.5 357.2,130.1 360.0,126.7 362.8,123.2 365.6,119.6 368.4,115.9 371.2,112.1 374.0,108.2 376.8,104.3 379.6,100.3 382.4,96.2 385.2,92.0 388.0,87.7 390.8,83.3 393.6,78.8 396.4,74.2 399.2,69.5 402.0,64.8 404.8,59.9 407.6,54.9 410.4,49.8 413.2,44.6 416.0,39.2 418.8,33.8 421.6,28.2 424.4,22.5 427.2,16.7 430.0,10.8 432.8,4.7 435.6,-1.5 438.4,-7.8 441.2,-14.3 444.0,-20.9 446.8,-27.7 449.6,-34.6 452.4,-41.7 455.2,-48.9 458.0,-56.3 460.8,-63.8 463.6,-71.5 466.4,-79.4 469.2,-87.4 472.0,-95.7 474.8,-104.1 477.6,-112.6 480.4,-121.4 483.2,-130.4 486.0,-139.5 488.8,-148.9 491.6,-158.5 494.4,-168.2 497.2,-178.2 500.0,-188.4\" fill=\"none\" stroke=\"#2f66e2\" stroke-width=\"3\"/><circle cx=\"141.6\" cy=\"258.2\" r=\"4.2\" fill=\"#111827\"/><text x=\"148.6\" y=\"251.2\" font-family=\"Arial,sans-serif\" font-size=\"13\">(0, 5)</text><circle cx=\"231.2\" cy=\"228.4\" r=\"4.2\" fill=\"#111827\"/><text x=\"238.2\" y=\"221.4\" font-family=\"Arial,sans-serif\" font-size=\"13\">(1, 10)</text><circle cx=\"320.8\" cy=\"168.9\" r=\"4.2\" fill=\"#111827\"/><text x=\"327.8\" y=\"161.9\" font-family=\"Arial,sans-serif\" font-size=\"13\">(2, 20)</text><circle cx=\"410.4\" cy=\"49.8\" r=\"4.2\" fill=\"#111827\"/><text x=\"417.4\" y=\"42.8\" font-family=\"Arial,sans-serif\" font-size=\"13\">(3, 40)</text></svg></span>",
     "familj": "Tolka exponentialfunktion från graf",
     "geogebra": false,
     "miniräknare": false,
@@ -25752,8 +25746,8 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "familjTidigare": "Tolka exponentialfunktioner från graf",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Punkten vid \\(x=0\\) ger startvärdet direkt. Den andra punkten bestämmer förändringsfaktorn.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false
   },
@@ -25999,8 +25993,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Data är:</p><table><tr><th>x</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>y</th><td>3</td><td>6</td><td>13</td><td>24</td><td>39</td></tr></table><p>Avgör om en linjär eller andragradsmodell är rimligast.</p>",
     "s": "<p>Första differenserna är 3, 7, 11, 15 och är alltså inte konstanta.</p><p>Andra differenserna är däremot 4, 4, 4.</p><p><strong>En andragradsmodell är därför rimligast.</strong></p>",
     "familj": "Välja och granska regressionsmodeller",
@@ -26011,13 +26005,11 @@ window.BANKMA2 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
       "begrepp",
-      "modellering",
-      "resonemang"
+      "procedur"
     ],
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Jämför första differenserna. Om de inte är konstanta, undersök om de andra differenserna är konstanta.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
@@ -26046,7 +26038,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Uttryck både det minsta värdet och dess \\(x\\)-koordinat med hjälp av \\(a\\). Villkoret i slutet avgör tecknet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -26074,7 +26066,7 @@ window.BANKMA2 = [
     ],
     "ledtrad": "<p>Utveckla båda förslagen och jämför med det ursprungliga uttrycket.</p>",
     "manuellKomplettering": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false
   },
@@ -26116,8 +26108,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(3\\cdot1{,}4^x=20\\) med logaritmer.</p>",
     "s": "<p>Dividera först med 3:</p><p>\\[1{,}4^x=\\frac{20}{3}.\\]</p><p>Ta lg i båda leden:</p><p>\\[x\\lg 1{,}4=\\lg\\left(\\frac{20}{3}\\right).\\]</p><p>\\[x=\\frac{\\lg (20/3)}{\\lg 1{,}4}\\approx5{,}64.\\]</p><p><strong>\\(x\\approx5{,}64\\)</strong></p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
@@ -26132,8 +26124,8 @@ window.BANKMA2 = [
       "problemlösning"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Isolera potensuttrycket först. Logaritmera därefter båda leden och lös ut exponenten.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Isolera potensuttrycket, logaritmera båda leden och lös ut exponenten. Här behövs miniräknare för logaritmvärdena.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -26336,7 +26328,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -26351,7 +26343,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Grafen visar \\(y=f(x)\\).</p><span class=\"fig\"><svg width=\"540\" height=\"390\" viewBox=\"0 0 540 390\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till funktionen f\"><rect x=\"1\" y=\"1\" width=\"538\" height=\"388\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><clipPath id=\"clip-2-282\"><rect x=\"58\" y=\"24\" width=\"454\" height=\"318\"/></clipPath></defs><line x1=\"58.00\" y1=\"24\" x2=\"58.00\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"114.75\" y1=\"24\" x2=\"114.75\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"171.50\" y1=\"24\" x2=\"171.50\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"228.25\" y1=\"24\" x2=\"228.25\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"285.00\" y1=\"24\" x2=\"285.00\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"341.75\" y1=\"24\" x2=\"341.75\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"398.50\" y1=\"24\" x2=\"398.50\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"455.25\" y1=\"24\" x2=\"455.25\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"512.00\" y1=\"24\" x2=\"512.00\" y2=\"342\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"342.00\" x2=\"512\" y2=\"342.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"289.00\" x2=\"512\" y2=\"289.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"236.00\" x2=\"512\" y2=\"236.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"183.00\" x2=\"512\" y2=\"183.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"130.00\" x2=\"512\" y2=\"130.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"77.00\" x2=\"512\" y2=\"77.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"58\" y1=\"24.00\" x2=\"512\" y2=\"24.00\" stroke=\"#C8C8C8\" stroke-width=\"1\"/><line x1=\"285.00\" y1=\"24\" x2=\"285.00\" y2=\"342\" stroke=\"#222\" stroke-width=\"1.8\"/><polygon points=\"285.00,19 280.00,30 290.00,30\" fill=\"#222\"/><line x1=\"58\" y1=\"342.00\" x2=\"512\" y2=\"342.00\" stroke=\"#222\" stroke-width=\"1.8\"/><polygon points=\"518,342.00 507,337.00 507,347.00\" fill=\"#222\"/><text x=\"58.00\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-4</text><text x=\"114.75\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-3</text><text x=\"171.50\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-2</text><text x=\"228.25\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">-1</text><text x=\"341.75\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"398.50\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"455.25\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"512.00\" y=\"362.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"276.00\" y=\"293.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">1</text><text x=\"276.00\" y=\"240.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">2</text><text x=\"276.00\" y=\"187.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">3</text><text x=\"276.00\" y=\"134.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">4</text><text x=\"276.00\" y=\"81.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">5</text><text x=\"276.00\" y=\"28.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#333\">6</text><text x=\"515\" y=\"334.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">x</text><text x=\"295.00\" y=\"37\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">y</text><path d=\"M 58.00,77.00 L 58.91,77.85 L 59.82,78.70 L 60.73,79.55 L 61.64,80.40 L 62.55,81.25 L 63.46,82.10 L 64.37,82.95 L 65.28,83.80 L 66.19,84.65 L 67.10,85.50 L 68.01,86.35 L 68.92,87.20 L 69.83,88.05 L 70.74,88.90 L 71.65,89.75 L 72.56,90.60 L 73.47,91.44 L 74.38,92.29 L 75.29,93.14 L 76.20,93.99 L 77.11,94.84 L 78.02,95.69 L 78.93,96.54 L 79.84,97.39 L 80.75,98.24 L 81.66,99.09 L 82.57,99.94 L 83.47,100.79 L 84.38,101.64 L 85.29,102.49 L 86.20,103.34 L 87.11,104.19 L 88.02,105.04 L 88.93,105.89 L 89.84,106.74 L 90.75,107.59 L 91.66,108.44 L 92.57,109.29 L 93.48,110.14 L 94.39,110.99 L 95.30,111.84 L 96.21,112.69 L 97.12,113.54 L 98.03,114.39 L 98.94,115.24 L 99.85,116.09 L 100.76,116.94 L 101.67,117.79 L 102.58,118.64 L 103.49,119.48 L 104.40,120.33 L 105.31,121.18 L 106.22,122.03 L 107.13,122.88 L 108.04,123.73 L 108.95,124.58 L 109.86,125.43 L 110.77,126.28 L 111.68,127.13 L 112.59,127.98 L 113.50,128.83 L 114.41,129.68 L 115.32,130.53 L 116.23,131.38 L 117.14,132.23 L 118.05,133.08 L 118.96,133.93 L 119.87,134.78 L 120.78,135.63 L 121.69,136.48 L 122.60,137.33 L 123.51,138.18 L 124.42,139.03 L 125.33,139.88 L 126.24,140.73 L 127.15,141.58 L 128.06,142.43 L 128.97,143.28 L 129.88,144.13 L 130.79,144.98 L 131.70,145.83 L 132.61,146.68 L 133.52,147.53 L 134.42,148.37 L 135.33,149.22 L 136.24,150.07 L 137.15,150.92 L 138.06,151.77 L 138.97,152.62 L 139.88,153.47 L 140.79,154.32 L 141.70,155.17 L 142.61,156.02 L 143.52,156.87 L 144.43,157.72 L 145.34,158.57 L 146.25,159.42 L 147.16,160.27 L 148.07,161.12 L 148.98,161.97 L 149.89,162.82 L 150.80,163.67 L 151.71,164.52 L 152.62,165.37 L 153.53,166.22 L 154.44,167.07 L 155.35,167.92 L 156.26,168.77 L 157.17,169.62 L 158.08,170.47 L 158.99,171.32 L 159.90,172.17 L 160.81,173.02 L 161.72,173.87 L 162.63,174.72 L 163.54,175.57 L 164.45,176.41 L 165.36,177.26 L 166.27,178.11 L 167.18,178.96 L 168.09,179.81 L 169.00,180.66 L 169.91,181.51 L 170.82,182.36 L 171.73,183.21 L 172.64,184.06 L 173.55,184.91 L 174.46,185.76 L 175.37,186.61 L 176.28,187.46 L 177.19,188.31 L 178.10,189.16 L 179.01,190.01 L 179.92,190.86 L 180.83,191.71 L 181.74,192.56 L 182.65,193.41 L 183.56,194.26 L 184.46,195.11 L 185.37,195.96 L 186.28,196.81 L 187.19,197.66 L 188.10,198.51 L 189.01,199.36 L 189.92,200.21 L 190.83,201.06 L 191.74,201.91 L 192.65,202.76 L 193.56,203.61 L 194.47,204.45 L 195.38,205.30 L 196.29,206.15 L 197.20,207.00 L 198.11,207.85 L 199.02,208.70 L 199.93,209.55 L 200.84,210.40 L 201.75,211.25 L 202.66,212.10 L 203.57,212.95 L 204.48,213.80 L 205.39,214.65 L 206.30,215.50 L 207.21,216.35 L 208.12,217.20 L 209.03,218.05 L 209.94,218.90 L 210.85,219.75 L 211.76,220.60 L 212.67,221.45 L 213.58,222.30 L 214.49,223.15 L 215.40,224.00 L 216.31,224.85 L 217.22,225.70 L 218.13,226.55 L 219.04,227.40 L 219.95,228.25 L 220.86,229.10 L 221.77,229.95 L 222.68,230.80 L 223.59,231.65 L 224.50,232.49 L 225.41,233.34 L 226.32,234.19 L 227.23,235.04 L 228.14,235.89 L 229.05,236.74 L 229.96,237.59 L 230.87,238.44 L 231.78,239.29 L 232.69,240.14 L 233.60,240.99 L 234.51,241.84 L 235.41,242.69 L 236.32,243.54 L 237.23,244.39 L 238.14,245.24 L 239.05,246.09 L 239.96,246.94 L 240.87,247.79 L 241.78,248.64 L 242.69,249.49 L 243.60,250.34 L 244.51,251.19 L 245.42,252.04 L 246.33,252.89 L 247.24,253.74 L 248.15,254.59 L 249.06,255.44 L 249.97,256.29 L 250.88,257.14 L 251.79,257.99 L 252.70,258.84 L 253.61,259.69 L 254.52,260.54 L 255.43,261.38 L 256.34,262.23 L 257.25,263.08 L 258.16,263.93 L 259.07,264.78 L 259.98,265.63 L 260.89,266.48 L 261.80,267.33 L 262.71,268.18 L 263.62,269.03 L 264.53,269.88 L 265.44,270.73 L 266.35,271.58 L 267.26,272.43 L 268.17,273.28 L 269.08,274.13 L 269.99,274.98 L 270.90,275.83 L 271.81,276.68 L 272.72,277.53 L 273.63,278.38 L 274.54,279.23 L 275.45,280.08 L 276.36,280.93 L 277.27,281.78 L 278.18,282.63 L 279.09,283.48 L 280.00,284.33 L 280.91,285.18 L 281.82,286.03 L 282.73,286.88 L 283.64,287.73 L 284.55,288.58 L 285.45,288.58 L 286.36,287.73 L 287.27,286.88 L 288.18,286.03 L 289.09,285.18 L 290.00,284.33 L 290.91,283.48 L 291.82,282.63 L 292.73,281.78 L 293.64,280.93 L 294.55,280.08 L 295.46,279.23 L 296.37,278.38 L 297.28,277.53 L 298.19,276.68 L 299.10,275.83 L 300.01,274.98 L 300.92,274.13 L 301.83,273.28 L 302.74,272.43 L 303.65,271.58 L 304.56,270.73 L 305.47,269.88 L 306.38,269.03 L 307.29,268.18 L 308.20,267.33 L 309.11,266.48 L 310.02,265.63 L 310.93,264.78 L 311.84,263.93 L 312.75,263.08 L 313.66,262.23 L 314.57,261.38 L 315.48,260.54 L 316.39,259.69 L 317.30,258.84 L 318.21,257.99 L 319.12,257.14 L 320.03,256.29 L 320.94,255.44 L 321.85,254.59 L 322.76,253.74 L 323.67,252.89 L 324.58,252.04 L 325.49,251.19 L 326.40,250.34 L 327.31,249.49 L 328.22,248.64 L 329.13,247.79 L 330.04,246.94 L 330.95,246.09 L 331.86,245.24 L 332.77,244.39 L 333.68,243.54 L 334.59,242.69 L 335.49,241.84 L 336.40,240.99 L 337.31,240.14 L 338.22,239.29 L 339.13,238.44 L 340.04,237.59 L 340.95,236.74 L 341.86,235.89 L 342.77,235.04 L 343.68,234.19 L 344.59,233.34 L 345.50,232.49 L 346.41,231.65 L 347.32,230.80 L 348.23,229.95 L 349.14,229.10 L 350.05,228.25 L 350.96,227.40 L 351.87,226.55 L 352.78,225.70 L 353.69,224.85 L 354.60,224.00 L 355.51,223.15 L 356.42,222.30 L 357.33,221.45 L 358.24,220.60 L 359.15,219.75 L 360.06,218.90 L 360.97,218.05 L 361.88,217.20 L 362.79,216.35 L 363.70,215.50 L 364.61,214.65 L 365.52,213.80 L 366.43,212.95 L 367.34,212.10 L 368.25,211.25 L 369.16,210.40 L 370.07,209.55 L 370.98,208.70 L 371.89,207.85 L 372.80,207.00 L 373.71,206.15 L 374.62,205.30 L 375.53,204.45 L 376.44,203.61 L 377.35,202.76 L 378.26,201.91 L 379.17,201.06 L 380.08,200.21 L 380.99,199.36 L 381.90,198.51 L 382.81,197.66 L 383.72,196.81 L 384.63,195.96 L 385.54,195.11 L 386.44,194.26 L 387.35,193.41 L 388.26,192.56 L 389.17,191.71 L 390.08,190.86 L 390.99,190.01 L 391.90,189.16 L 392.81,188.31 L 393.72,187.46 L 394.63,186.61 L 395.54,185.76 L 396.45,184.91 L 397.36,184.06 L 398.27,183.21 L 399.18,182.36 L 400.09,181.51 L 401.00,180.66 L 401.91,179.81 L 402.82,178.96 L 403.73,178.11 L 404.64,177.26 L 405.55,176.41 L 406.46,175.57 L 407.37,174.72 L 408.28,173.87 L 409.19,173.02 L 410.10,172.17 L 411.01,171.32 L 411.92,170.47 L 412.83,169.62 L 413.74,168.77 L 414.65,167.92 L 415.56,167.07 L 416.47,166.22 L 417.38,165.37 L 418.29,164.52 L 419.20,163.67 L 420.11,162.82 L 421.02,161.97 L 421.93,161.12 L 422.84,160.27 L 423.75,159.42 L 424.66,158.57 L 425.57,157.72 L 426.48,156.87 L 427.39,156.02 L 428.30,155.17 L 429.21,154.32 L 430.12,153.47 L 431.03,152.62 L 431.94,151.77 L 432.85,150.92 L 433.76,150.07 L 434.67,149.22 L 435.58,148.37 L 436.48,147.53 L 437.39,146.68 L 438.30,145.83 L 439.21,144.98 L 440.12,144.13 L 441.03,143.28 L 441.94,142.43 L 442.85,141.58 L 443.76,140.73 L 444.67,139.88 L 445.58,139.03 L 446.49,138.18 L 447.40,137.33 L 448.31,136.48 L 449.22,135.63 L 450.13,134.78 L 451.04,133.93 L 451.95,133.08 L 452.86,132.23 L 453.77,131.38 L 454.68,130.53 L 455.59,129.68 L 456.50,128.83 L 457.41,127.98 L 458.32,127.13 L 459.23,126.28 L 460.14,125.43 L 461.05,124.58 L 461.96,123.73 L 462.87,122.88 L 463.78,122.03 L 464.69,121.18 L 465.60,120.33 L 466.51,119.48 L 467.42,118.64 L 468.33,117.79 L 469.24,116.94 L 470.15,116.09 L 471.06,115.24 L 471.97,114.39 L 472.88,113.54 L 473.79,112.69 L 474.70,111.84 L 475.61,110.99 L 476.52,110.14 L 477.43,109.29 L 478.34,108.44 L 479.25,107.59 L 480.16,106.74 L 481.07,105.89 L 481.98,105.04 L 482.89,104.19 L 483.80,103.34 L 484.71,102.49 L 485.62,101.64 L 486.53,100.79 L 487.43,99.94 L 488.34,99.09 L 489.25,98.24 L 490.16,97.39 L 491.07,96.54 L 491.98,95.69 L 492.89,94.84 L 493.80,93.99 L 494.71,93.14 L 495.62,92.29 L 496.53,91.44 L 497.44,90.60 L 498.35,89.75 L 499.26,88.90 L 500.17,88.05 L 501.08,87.20 L 501.99,86.35 L 502.90,85.50 L 503.81,84.65 L 504.72,83.80 L 505.63,82.95 L 506.54,82.10 L 507.45,81.25 L 508.36,80.40 L 509.27,79.55 L 510.18,78.70 L 511.09,77.85 L 512.00,77.00\" fill=\"none\" stroke=\"#2F6FAE\" stroke-width=\"3.2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" clip-path=\"url(#clip-2-282)\"/><text x=\"494\" y=\"44\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" fill=\"#2F6FAE\">f</text></svg></span><p>a) Bestäm alla \\(a\\) som uppfyller \\(f(a)=3\\).<br>b) Bestäm alla \\(x\\) som uppfyller \\(f(x+1)=3\\).</p>",
-    "s": "<p>a) Läs av var grafen har höjden \\(y=3\\). Det sker vid \\(a=-2\\) och \\(a=2\\).</p><p>b) Villkoret \\(f(x+1)=3\\) betyder att argumentet \\(x+1\\) måste vara något av de värden som gav funktionsvärdet 3:</p><p>\\[x+1=-2\\quad\\text{eller}\\quad x+1=2.\\]</p><p>Alltså \\(x=-3\\) eller \\(x=1\\).</p><p><strong>a) \\(a=-2{,}2\\) &nbsp;&nbsp; b) \\(x=-3\\) eller \\(x=1\\)</strong></p>",
+    "s": "<p>a) Läs av var grafen har höjden \\(y=3\\). Det sker vid \\(a=-2\\) och \\(a=2\\).</p><p>b) Villkoret \\(f(x+1)=3\\) betyder att argumentet \\(x+1\\) måste vara något av de värden som gav funktionsvärdet 3:</p><p>\\[x+1=-2\\quad\\text{eller}\\quad x+1=2.\\]</p><p>Alltså \\(x=-3\\) eller \\(x=1\\).</p><p><strong>a) \\(a=-2\\text{ eller }a=2\\) &nbsp;&nbsp; b) \\(x=-3\\) eller \\(x=1\\)</strong></p>",
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
@@ -26478,7 +26470,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(g(x)=2x^2+3x-1\\).</p><p>Bestäm \\(g(-2)\\).</p>",
-    "s": "<p><strong>Översätt frågan till en ekvation:</strong> Sätt funktionens uttryck lika med det givna funktionsvärdet och lös efter \\(x\\). Kontrollera om flera x-värden kan ge samma funktionsvärde.</p><p>Sätt in \\(x=-2\\):</p><p>\\(g(-2)=2(-2)^2+3(-2)-1=8-6-1\\).</p><p><strong>\\(g(-2)=1\\).</strong></p>",
+    "s": "<p>Sätt in \\(x=-2\\):</p><p>\\(g(-2)=2(-2)^2+3(-2)-1=8-6-1=1\\).</p><p><strong>\\(g(-2)=1\\).</strong></p>",
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
@@ -26559,7 +26551,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För \\(g(x)=2x^2-x+4\\):</p><p>a) Bestäm \\(g(-2)\\).<br>b) Jämför \\(g(-2)\\) och \\(g(1)\\).</p>",
-    "s": "<p><strong>Översätt frågan till en ekvation:</strong> Sätt funktionens uttryck lika med det givna funktionsvärdet och lös efter \\(x\\). Kontrollera om flera x-värden kan ge samma funktionsvärde.</p><p>a) \\(g(-2)=2(-2)^2-(-2)+4=8+2+4=14\\).</p><p>b) \\(g(1)=2-1+4=5\\).</p><p><strong>\\(g(-2)=14&gt;5=g(1)\\).</strong></p>",
+    "s": "<p>a) \\(g(-2)=2(-2)^2-(-2)+4=8+2+4=14\\).</p><p>b) \\(g(1)=2-1+4=5\\), alltså \\(g(-2)>g(1)\\).</p><p><strong>a) 14 &nbsp; b) \\(g(-2)>g(1)\\)</strong></p>",
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
@@ -26610,32 +26602,14 @@ window.BANKMA2 = [
     "familj": "Tolka funktionsnotation och funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "ja",
-      "nej"
-    ],
-    "tolerans": [
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": [
-      "kort_text",
-      "kort_text"
-    ],
-    "svarEtiketter": [
-      "a)",
-      "b)"
-    ],
-    "svarsstruktur": "ordnad",
     "manuellKomplettering": [
       true,
       true
@@ -26643,7 +26617,7 @@ window.BANKMA2 = [
     "ledtrad": "<p>a) Ja. Varje bestämd parkeringstid ger exakt en kostnad.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.392",
@@ -26656,7 +26630,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För \\(f(x)=x^2+2x\\), bestäm \\(f(3)-f(1)\\).</p>",
-    "s": "<p><strong>Översätt frågan till en ekvation:</strong> Sätt funktionens uttryck lika med det givna funktionsvärdet och lös efter \\(x\\). Kontrollera om flera x-värden kan ge samma funktionsvärde.</p><p>\\(f(3)=3^2+2\\cdot3=15\\).</p><p>\\(f(1)=1^2+2=3\\).</p><p>Skillnaden är \\(15-3=12\\).</p><p><strong>12.</strong></p>",
+    "s": "<p>\\(f(3)=3^2+2\\cdot3=15\\) och \\(f(1)=1^2+2\\cdot1=3\\).</p><p>Alltså \\(f(3)-f(1)=15-3=12\\).</p><p><strong>12</strong></p>",
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
@@ -26830,8 +26804,8 @@ window.BANKMA2 = [
       "procedur"
     ],
     "ledtrad": "<p>Läs \\(f(a)\\) som funktionens y-värde när \\(x=a\\). Från en formel sätter du in x-värdet; från en graf går du från x-axeln till grafen och läser av y-värdet.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -26956,34 +26930,19 @@ window.BANKMA2 = [
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -3,
-      3
-    ],
-    "tolerans": [
-      null,
-      null
-    ],
-    "självrättning": true,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEtiketter": [
-      "x",
-      "x"
-    ],
-    "svarsstruktur": "mängd",
     "ledtrad": "<p>Först söker vi vilka x-värden \\(u\\) som ger \\(f(u)=1\\). Av grafen är det \\(u=-2\\) eller \\(u=2\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.400",
@@ -26996,7 +26955,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f(x)=5-2x\\). Bestäm \\(x\\) om \\(f(x)=-9\\).</p>",
-    "s": "<p><strong>Översätt frågan till en ekvation:</strong> Sätt funktionens uttryck lika med det givna funktionsvärdet och lös efter \\(x\\). Kontrollera om flera x-värden kan ge samma funktionsvärde.</p><p>Sätt funktionsvärdet lika med −9:</p><p>\\(5-2x=-9\\Rightarrow-2x=-14\\).</p><p><strong>\\(x=7\\).</strong></p>",
+    "s": "<p>Sätt \\(f(x)=-9\\):</p><p>\\(5-2x=-9\\Rightarrow -2x=-14\\Rightarrow x=7\\).</p><p><strong>\\(x=7\\)</strong></p>",
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
@@ -27132,8 +27091,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Följande par av x- och y-värden är givna:</p><p>\\[(-1{,}2),\\ (a,5),\\ (3,a+3),\\ (-1,a-1).\\]</p><p>Finns det något värde på \\(a\\) som gör att \\(y\\) kan beskrivas som en funktion av \\(x\\)? Motivera.</p>",
-    "s": "<p>De två paren med \\(x=-1\\) måste ha samma y-värde. Därför krävs \\(a-1=2\\), vilket ger \\(a=3\\).</p><p>Men när \\(a=3\\) blir två andra par \\((3{,}5)\\) och \\((3{,}6)\\). Samma x-värde, 3, får då två olika y-värden.</p><p><strong>Det finns alltså inget värde på \\(a\\) som gör att \\(y\\) kan beskrivas som en funktion av \\(x\\).</strong></p>",
+    "t": "<p>Följande par av x- och y-värden är givna:</p><p>\\[(-1,\\,2),\\ (a,\\,5),\\ (3,\\,a+3),\\ (-1,\\,a-1).\\]</p><p>Finns det något värde på \\(a\\) som gör att \\(y\\) kan beskrivas som en funktion av \\(x\\)? Motivera.</p>",
+    "s": "<p>De två paren med \\(x=-1\\) måste ha samma y-värde. Därför krävs \\(a-1=2\\), vilket ger \\(a=3\\).</p><p>Men när \\(a=3\\) blir två andra par \\((3,\\,5)\\) och \\((3,\\,6)\\). Samma x-värde, 3, får då två olika y-värden.</p><p><strong>Det finns alltså inget värde på \\(a\\) som gör att \\(y\\) kan beskrivas som en funktion av \\(x\\).</strong></p>",
     "familj": "Tolka funktionsnotation och funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
@@ -27255,7 +27214,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "kort_text",
     "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -27316,8 +27275,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En växts höjd efter \\(d\\) dygn betecknas \\(H(d)\\). Förklara med ord vad \\(H(12)=38\\) betyder.</p>",
-    "s": "<p>Det betyder att <strong>växten är 38 cm hög efter 12 dygn</strong>, om höjden mäts i centimeter.</p>",
+    "t": "<p>En växts höjd efter \\(d\\) dygn betecknas \\(H(d)\\) och mäts i centimeter.</p><p>Förklara med ord vad \\(H(12)=38\\) betyder.</p>",
+    "s": "<p>Det betyder att växten är <strong>38 cm hög efter 12 dygn</strong>.</p>",
     "familj": "Tolka funktionsnotation och funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
@@ -27330,7 +27289,7 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
@@ -27388,7 +27347,7 @@ window.BANKMA2 = [
       "begrepp"
     ],
     "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -27565,39 +27524,24 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/4/0",
     "t": "<p>Graferna visar \\(y=f(x)\\) och \\(y=g(x)\\).</p><span class=\"fig\"><svg width=\"500\" height=\"355\" viewBox=\"0 0 500 355\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till funktionen f\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"353\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><clipPath id=\"fg2305\"><rect x=\"58\" y=\"24\" width=\"420\" height=\"283\"/></clipPath></defs><line x1=\"58.00\" y1=\"24\" x2=\"58.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"100.00\" y1=\"24\" x2=\"100.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"142.00\" y1=\"24\" x2=\"142.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"184.00\" y1=\"24\" x2=\"184.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"226.00\" y1=\"24\" x2=\"226.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"268.00\" y1=\"24\" x2=\"268.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"310.00\" y1=\"24\" x2=\"310.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"352.00\" y1=\"24\" x2=\"352.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"394.00\" y1=\"24\" x2=\"394.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"436.00\" y1=\"24\" x2=\"436.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"478.00\" y1=\"24\" x2=\"478.00\" y2=\"307\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"307.00\" x2=\"478\" y2=\"307.00\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"278.70\" x2=\"478\" y2=\"278.70\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"250.40\" x2=\"478\" y2=\"250.40\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"222.10\" x2=\"478\" y2=\"222.10\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"193.80\" x2=\"478\" y2=\"193.80\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"165.50\" x2=\"478\" y2=\"165.50\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"137.20\" x2=\"478\" y2=\"137.20\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"108.90\" x2=\"478\" y2=\"108.90\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"80.60\" x2=\"478\" y2=\"80.60\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"52.30\" x2=\"478\" y2=\"52.30\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"24.00\" x2=\"478\" y2=\"24.00\" stroke=\"#D5D3D6\" stroke-width=\"1\"/><line x1=\"58\" y1=\"250.40\" x2=\"485\" y2=\"250.40\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"485,250.40 474,244.40 474,256.40\" fill=\"#2B2527\"/><line x1=\"268.00\" y1=\"307\" x2=\"268.00\" y2=\"17\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"268.00,17 262.00,28 274.00,28\" fill=\"#2B2527\"/><line x1=\"58.00\" y1=\"246.40\" x2=\"58.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"58.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-5</text><line x1=\"100.00\" y1=\"246.40\" x2=\"100.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"100.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-4</text><line x1=\"142.00\" y1=\"246.40\" x2=\"142.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"142.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-3</text><line x1=\"184.00\" y1=\"246.40\" x2=\"184.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"184.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-2</text><line x1=\"226.00\" y1=\"246.40\" x2=\"226.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"226.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-1</text><line x1=\"310.00\" y1=\"246.40\" x2=\"310.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"310.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">1</text><line x1=\"352.00\" y1=\"246.40\" x2=\"352.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"352.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">2</text><line x1=\"394.00\" y1=\"246.40\" x2=\"394.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"394.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">3</text><line x1=\"436.00\" y1=\"246.40\" x2=\"436.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"436.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">4</text><line x1=\"478.00\" y1=\"246.40\" x2=\"478.00\" y2=\"254.40\" stroke=\"#2B2527\"/><text x=\"478.00\" y=\"268.40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">5</text><line x1=\"264.00\" y1=\"307.00\" x2=\"272.00\" y2=\"307.00\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"311.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-2</text><line x1=\"264.00\" y1=\"278.70\" x2=\"272.00\" y2=\"278.70\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"282.70\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">-1</text><line x1=\"264.00\" y1=\"222.10\" x2=\"272.00\" y2=\"222.10\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"226.10\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">1</text><line x1=\"264.00\" y1=\"193.80\" x2=\"272.00\" y2=\"193.80\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"197.80\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">2</text><line x1=\"264.00\" y1=\"165.50\" x2=\"272.00\" y2=\"165.50\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"169.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">3</text><line x1=\"264.00\" y1=\"137.20\" x2=\"272.00\" y2=\"137.20\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"141.20\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">4</text><line x1=\"264.00\" y1=\"108.90\" x2=\"272.00\" y2=\"108.90\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"112.90\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">5</text><line x1=\"264.00\" y1=\"80.60\" x2=\"272.00\" y2=\"80.60\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"84.60\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">6</text><line x1=\"264.00\" y1=\"52.30\" x2=\"272.00\" y2=\"52.30\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"56.30\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">7</text><line x1=\"264.00\" y1=\"24.00\" x2=\"272.00\" y2=\"24.00\" stroke=\"#2B2527\"/><text x=\"259.00\" y=\"28.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2B2527\">8</text><text x=\"487\" y=\"241.40\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">x</text><text x=\"278.00\" y=\"36\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">y</text><path d=\"M58.00,24.00 L58.84,24.57 L59.68,25.13 L60.52,25.70 L61.36,26.26 L62.20,26.83 L63.04,27.40 L63.88,27.96 L64.72,28.53 L65.56,29.09 L66.40,29.66 L67.24,30.23 L68.08,30.79 L68.92,31.36 L69.76,31.92 L70.60,32.49 L71.44,33.06 L72.28,33.62 L73.12,34.19 L73.96,34.75 L74.80,35.32 L75.64,35.89 L76.48,36.45 L77.32,37.02 L78.16,37.58 L79.00,38.15 L79.84,38.72 L80.68,39.28 L81.52,39.85 L82.36,40.41 L83.20,40.98 L84.04,41.55 L84.88,42.11 L85.72,42.68 L86.56,43.24 L87.40,43.81 L88.24,44.38 L89.08,44.94 L89.92,45.51 L90.76,46.07 L91.60,46.64 L92.44,47.21 L93.28,47.77 L94.12,48.34 L94.96,48.90 L95.80,49.47 L96.64,50.04 L97.48,50.60 L98.32,51.17 L99.16,51.73 L100.00,52.30 L100.84,52.87 L101.68,53.43 L102.52,54.00 L103.36,54.56 L104.20,55.13 L105.04,55.70 L105.88,56.26 L106.72,56.83 L107.56,57.39 L108.40,57.96 L109.24,58.53 L110.08,59.09 L110.92,59.66 L111.76,60.22 L112.60,60.79 L113.44,61.36 L114.28,61.92 L115.12,62.49 L115.96,63.05 L116.80,63.62 L117.64,64.19 L118.48,64.75 L119.32,65.32 L120.16,65.88 L121.00,66.45 L121.84,67.02 L122.68,67.58 L123.52,68.15 L124.36,68.71 L125.20,69.28 L126.04,69.85 L126.88,70.41 L127.72,70.98 L128.56,71.54 L129.40,72.11 L130.24,72.68 L131.08,73.24 L131.92,73.81 L132.76,74.37 L133.60,74.94 L134.44,75.51 L135.28,76.07 L136.12,76.64 L136.96,77.20 L137.80,77.77 L138.64,78.34 L139.48,78.90 L140.32,79.47 L141.16,80.03 L142.00,80.60 L142.84,81.17 L143.68,81.73 L144.52,82.30 L145.36,82.86 L146.20,83.43 L147.04,84.00 L147.88,84.56 L148.72,85.13 L149.56,85.69 L150.40,86.26 L151.24,86.83 L152.08,87.39 L152.92,87.96 L153.76,88.52 L154.60,89.09 L155.44,89.66 L156.28,90.22 L157.12,90.79 L157.96,91.35 L158.80,91.92 L159.64,92.49 L160.48,93.05 L161.32,93.62 L162.16,94.18 L163.00,94.75 L163.84,95.32 L164.68,95.88 L165.52,96.45 L166.36,97.01 L167.20,97.58 L168.04,98.15 L168.88,98.71 L169.72,99.28 L170.56,99.84 L171.40,100.41 L172.24,100.98 L173.08,101.54 L173.92,102.11 L174.76,102.67 L175.60,103.24 L176.44,103.81 L177.28,104.37 L178.12,104.94 L178.96,105.50 L179.80,106.07 L180.64,106.64 L181.48,107.20 L182.32,107.77 L183.16,108.33 L184.00,108.90 L184.84,109.47 L185.68,110.03 L186.52,110.60 L187.36,111.16 L188.20,111.73 L189.04,112.30 L189.88,112.86 L190.72,113.43 L191.56,113.99 L192.40,114.56 L193.24,115.13 L194.08,115.69 L194.92,116.26 L195.76,116.82 L196.60,117.39 L197.44,117.96 L198.28,118.52 L199.12,119.09 L199.96,119.65 L200.80,120.22 L201.64,120.79 L202.48,121.35 L203.32,121.92 L204.16,122.48 L205.00,123.05 L205.84,123.62 L206.68,124.18 L207.52,124.75 L208.36,125.31 L209.20,125.88 L210.04,126.45 L210.88,127.01 L211.72,127.58 L212.56,128.14 L213.40,128.71 L214.24,129.28 L215.08,129.84 L215.92,130.41 L216.76,130.97 L217.60,131.54 L218.44,132.11 L219.28,132.67 L220.12,133.24 L220.96,133.80 L221.80,134.37 L222.64,134.94 L223.48,135.50 L224.32,136.07 L225.16,136.63 L226.00,137.20 L226.84,137.77 L227.68,138.33 L228.52,138.90 L229.36,139.46 L230.20,140.03 L231.04,140.60 L231.88,141.16 L232.72,141.73 L233.56,142.29 L234.40,142.86 L235.24,143.43 L236.08,143.99 L236.92,144.56 L237.76,145.12 L238.60,145.69 L239.44,146.26 L240.28,146.82 L241.12,147.39 L241.96,147.95 L242.80,148.52 L243.64,149.09 L244.48,149.65 L245.32,150.22 L246.16,150.78 L247.00,151.35 L247.84,151.92 L248.68,152.48 L249.52,153.05 L250.36,153.61 L251.20,154.18 L252.04,154.75 L252.88,155.31 L253.72,155.88 L254.56,156.44 L255.40,157.01 L256.24,157.58 L257.08,158.14 L257.92,158.71 L258.76,159.27 L259.60,159.84 L260.44,160.41 L261.28,160.97 L262.12,161.54 L262.96,162.10 L263.80,162.67 L264.64,163.24 L265.48,163.80 L266.32,164.37 L267.16,164.93 L268.00,165.50 L268.84,166.07 L269.68,166.63 L270.52,167.20 L271.36,167.76 L272.20,168.33 L273.04,168.90 L273.88,169.46 L274.72,170.03 L275.56,170.59 L276.40,171.16 L277.24,171.73 L278.08,172.29 L278.92,172.86 L279.76,173.42 L280.60,173.99 L281.44,174.56 L282.28,175.12 L283.12,175.69 L283.96,176.25 L284.80,176.82 L285.64,177.39 L286.48,177.95 L287.32,178.52 L288.16,179.08 L289.00,179.65 L289.84,180.22 L290.68,180.78 L291.52,181.35 L292.36,181.91 L293.20,182.48 L294.04,183.05 L294.88,183.61 L295.72,184.18 L296.56,184.74 L297.40,185.31 L298.24,185.88 L299.08,186.44 L299.92,187.01 L300.76,187.57 L301.60,188.14 L302.44,188.71 L303.28,189.27 L304.12,189.84 L304.96,190.40 L305.80,190.97 L306.64,191.54 L307.48,192.10 L308.32,192.67 L309.16,193.23 L310.00,193.80 L310.84,193.23 L311.68,192.67 L312.52,192.10 L313.36,191.54 L314.20,190.97 L315.04,190.40 L315.88,189.84 L316.72,189.27 L317.56,188.71 L318.40,188.14 L319.24,187.57 L320.08,187.01 L320.92,186.44 L321.76,185.88 L322.60,185.31 L323.44,184.74 L324.28,184.18 L325.12,183.61 L325.96,183.05 L326.80,182.48 L327.64,181.91 L328.48,181.35 L329.32,180.78 L330.16,180.22 L331.00,179.65 L331.84,179.08 L332.68,178.52 L333.52,177.95 L334.36,177.39 L335.20,176.82 L336.04,176.25 L336.88,175.69 L337.72,175.12 L338.56,174.56 L339.40,173.99 L340.24,173.42 L341.08,172.86 L341.92,172.29 L342.76,171.73 L343.60,171.16 L344.44,170.59 L345.28,170.03 L346.12,169.46 L346.96,168.90 L347.80,168.33 L348.64,167.76 L349.48,167.20 L350.32,166.63 L351.16,166.07 L352.00,165.50 L352.84,164.93 L353.68,164.37 L354.52,163.80 L355.36,163.24 L356.20,162.67 L357.04,162.10 L357.88,161.54 L358.72,160.97 L359.56,160.41 L360.40,159.84 L361.24,159.27 L362.08,158.71 L362.92,158.14 L363.76,157.58 L364.60,157.01 L365.44,156.44 L366.28,155.88 L367.12,155.31 L367.96,154.75 L368.80,154.18 L369.64,153.61 L370.48,153.05 L371.32,152.48 L372.16,151.92 L373.00,151.35 L373.84,150.78 L374.68,150.22 L375.52,149.65 L376.36,149.09 L377.20,148.52 L378.04,147.95 L378.88,147.39 L379.72,146.82 L380.56,146.26 L381.40,145.69 L382.24,145.12 L383.08,144.56 L383.92,143.99 L384.76,143.43 L385.60,142.86 L386.44,142.29 L387.28,141.73 L388.12,141.16 L388.96,140.60 L389.80,140.03 L390.64,139.46 L391.48,138.90 L392.32,138.33 L393.16,137.77 L394.00,137.20 L394.84,136.63 L395.68,136.07 L396.52,135.50 L397.36,134.94 L398.20,134.37 L399.04,133.80 L399.88,133.24 L400.72,132.67 L401.56,132.11 L402.40,131.54 L403.24,130.97 L404.08,130.41 L404.92,129.84 L405.76,129.28 L406.60,128.71 L407.44,128.14 L408.28,127.58 L409.12,127.01 L409.96,126.45 L410.80,125.88 L411.64,125.31 L412.48,124.75 L413.32,124.18 L414.16,123.62 L415.00,123.05 L415.84,122.48 L416.68,121.92 L417.52,121.35 L418.36,120.79 L419.20,120.22 L420.04,119.65 L420.88,119.09 L421.72,118.52 L422.56,117.96 L423.40,117.39 L424.24,116.82 L425.08,116.26 L425.92,115.69 L426.76,115.13 L427.60,114.56 L428.44,113.99 L429.28,113.43 L430.12,112.86 L430.96,112.30 L431.80,111.73 L432.64,111.16 L433.48,110.60 L434.32,110.03 L435.16,109.47 L436.00,108.90 L436.84,108.33 L437.68,107.77 L438.52,107.20 L439.36,106.64 L440.20,106.07 L441.04,105.50 L441.88,104.94 L442.72,104.37 L443.56,103.81 L444.40,103.24 L445.24,102.67 L446.08,102.11 L446.92,101.54 L447.76,100.98 L448.60,100.41 L449.44,99.84 L450.28,99.28 L451.12,98.71 L451.96,98.15 L452.80,97.58 L453.64,97.01 L454.48,96.45 L455.32,95.88 L456.16,95.32 L457.00,94.75 L457.84,94.18 L458.68,93.62 L459.52,93.05 L460.36,92.49 L461.20,91.92 L462.04,91.35 L462.88,90.79 L463.72,90.22 L464.56,89.66 L465.40,89.09 L466.24,88.52 L467.08,87.96 L467.92,87.39 L468.76,86.83 L469.60,86.26 L470.44,85.69 L471.28,85.13 L472.12,84.56 L472.96,84.00 L473.80,83.43 L474.64,82.86 L475.48,82.30 L476.32,81.73 L477.16,81.17 L478.00,80.60\" clip-path=\"url(#fg2305)\" fill=\"none\" stroke=\"#2F6FAE\" stroke-width=\"3.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"391.60\" y=\"134.86\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" fill=\"#2F6FAE\">f</text><path d=\"M58.00,137.20 L58.84,137.77 L59.68,138.33 L60.52,138.90 L61.36,139.46 L62.20,140.03 L63.04,140.60 L63.88,141.16 L64.72,141.73 L65.56,142.29 L66.40,142.86 L67.24,143.43 L68.08,143.99 L68.92,144.56 L69.76,145.12 L70.60,145.69 L71.44,146.26 L72.28,146.82 L73.12,147.39 L73.96,147.95 L74.80,148.52 L75.64,149.09 L76.48,149.65 L77.32,150.22 L78.16,150.78 L79.00,151.35 L79.84,151.92 L80.68,152.48 L81.52,153.05 L82.36,153.61 L83.20,154.18 L84.04,154.75 L84.88,155.31 L85.72,155.88 L86.56,156.44 L87.40,157.01 L88.24,157.58 L89.08,158.14 L89.92,158.71 L90.76,159.27 L91.60,159.84 L92.44,160.41 L93.28,160.97 L94.12,161.54 L94.96,162.10 L95.80,162.67 L96.64,163.24 L97.48,163.80 L98.32,164.37 L99.16,164.93 L100.00,165.50 L100.84,166.07 L101.68,166.63 L102.52,167.20 L103.36,167.76 L104.20,168.33 L105.04,168.90 L105.88,169.46 L106.72,170.03 L107.56,170.59 L108.40,171.16 L109.24,171.73 L110.08,172.29 L110.92,172.86 L111.76,173.42 L112.60,173.99 L113.44,174.56 L114.28,175.12 L115.12,175.69 L115.96,176.25 L116.80,176.82 L117.64,177.39 L118.48,177.95 L119.32,178.52 L120.16,179.08 L121.00,179.65 L121.84,180.22 L122.68,180.78 L123.52,181.35 L124.36,181.91 L125.20,182.48 L126.04,183.05 L126.88,183.61 L127.72,184.18 L128.56,184.74 L129.40,185.31 L130.24,185.88 L131.08,186.44 L131.92,187.01 L132.76,187.57 L133.60,188.14 L134.44,188.71 L135.28,189.27 L136.12,189.84 L136.96,190.40 L137.80,190.97 L138.64,191.54 L139.48,192.10 L140.32,192.67 L141.16,193.23 L142.00,193.80 L142.84,194.37 L143.68,194.93 L144.52,195.50 L145.36,196.06 L146.20,196.63 L147.04,197.20 L147.88,197.76 L148.72,198.33 L149.56,198.89 L150.40,199.46 L151.24,200.03 L152.08,200.59 L152.92,201.16 L153.76,201.72 L154.60,202.29 L155.44,202.86 L156.28,203.42 L157.12,203.99 L157.96,204.55 L158.80,205.12 L159.64,205.69 L160.48,206.25 L161.32,206.82 L162.16,207.38 L163.00,207.95 L163.84,208.52 L164.68,209.08 L165.52,209.65 L166.36,210.21 L167.20,210.78 L168.04,211.35 L168.88,211.91 L169.72,212.48 L170.56,213.04 L171.40,213.61 L172.24,214.18 L173.08,214.74 L173.92,215.31 L174.76,215.87 L175.60,216.44 L176.44,217.01 L177.28,217.57 L178.12,218.14 L178.96,218.70 L179.80,219.27 L180.64,219.84 L181.48,220.40 L182.32,220.97 L183.16,221.53 L184.00,222.10 L184.84,222.67 L185.68,223.23 L186.52,223.80 L187.36,224.36 L188.20,224.93 L189.04,225.50 L189.88,226.06 L190.72,226.63 L191.56,227.19 L192.40,227.76 L193.24,228.33 L194.08,228.89 L194.92,229.46 L195.76,230.02 L196.60,230.59 L197.44,231.16 L198.28,231.72 L199.12,232.29 L199.96,232.85 L200.80,233.42 L201.64,233.99 L202.48,234.55 L203.32,235.12 L204.16,235.68 L205.00,236.25 L205.84,236.82 L206.68,237.38 L207.52,237.95 L208.36,238.51 L209.20,239.08 L210.04,239.65 L210.88,240.21 L211.72,240.78 L212.56,241.34 L213.40,241.91 L214.24,242.48 L215.08,243.04 L215.92,243.61 L216.76,244.17 L217.60,244.74 L218.44,245.31 L219.28,245.87 L220.12,246.44 L220.96,247.00 L221.80,247.57 L222.64,248.14 L223.48,248.70 L224.32,249.27 L225.16,249.83 L226.00,250.40 L226.84,250.97 L227.68,251.53 L228.52,252.10 L229.36,252.66 L230.20,253.23 L231.04,253.80 L231.88,254.36 L232.72,254.93 L233.56,255.49 L234.40,256.06 L235.24,256.63 L236.08,257.19 L236.92,257.76 L237.76,258.32 L238.60,258.89 L239.44,259.46 L240.28,260.02 L241.12,260.59 L241.96,261.15 L242.80,261.72 L243.64,262.29 L244.48,262.85 L245.32,263.42 L246.16,263.98 L247.00,264.55 L247.84,265.12 L248.68,265.68 L249.52,266.25 L250.36,266.81 L251.20,267.38 L252.04,267.95 L252.88,268.51 L253.72,269.08 L254.56,269.64 L255.40,270.21 L256.24,270.78 L257.08,271.34 L257.92,271.91 L258.76,272.47 L259.60,273.04 L260.44,273.61 L261.28,274.17 L262.12,274.74 L262.96,275.30 L263.80,275.87 L264.64,276.44 L265.48,277.00 L266.32,277.57 L267.16,278.13 L268.00,278.70 L268.84,278.13 L269.68,277.57 L270.52,277.00 L271.36,276.44 L272.20,275.87 L273.04,275.30 L273.88,274.74 L274.72,274.17 L275.56,273.61 L276.40,273.04 L277.24,272.47 L278.08,271.91 L278.92,271.34 L279.76,270.78 L280.60,270.21 L281.44,269.64 L282.28,269.08 L283.12,268.51 L283.96,267.95 L284.80,267.38 L285.64,266.81 L286.48,266.25 L287.32,265.68 L288.16,265.12 L289.00,264.55 L289.84,263.98 L290.68,263.42 L291.52,262.85 L292.36,262.29 L293.20,261.72 L294.04,261.15 L294.88,260.59 L295.72,260.02 L296.56,259.46 L297.40,258.89 L298.24,258.32 L299.08,257.76 L299.92,257.19 L300.76,256.63 L301.60,256.06 L302.44,255.49 L303.28,254.93 L304.12,254.36 L304.96,253.80 L305.80,253.23 L306.64,252.66 L307.48,252.10 L308.32,251.53 L309.16,250.97 L310.00,250.40 L310.84,249.83 L311.68,249.27 L312.52,248.70 L313.36,248.14 L314.20,247.57 L315.04,247.00 L315.88,246.44 L316.72,245.87 L317.56,245.31 L318.40,244.74 L319.24,244.17 L320.08,243.61 L320.92,243.04 L321.76,242.48 L322.60,241.91 L323.44,241.34 L324.28,240.78 L325.12,240.21 L325.96,239.65 L326.80,239.08 L327.64,238.51 L328.48,237.95 L329.32,237.38 L330.16,236.82 L331.00,236.25 L331.84,235.68 L332.68,235.12 L333.52,234.55 L334.36,233.99 L335.20,233.42 L336.04,232.85 L336.88,232.29 L337.72,231.72 L338.56,231.16 L339.40,230.59 L340.24,230.02 L341.08,229.46 L341.92,228.89 L342.76,228.33 L343.60,227.76 L344.44,227.19 L345.28,226.63 L346.12,226.06 L346.96,225.50 L347.80,224.93 L348.64,224.36 L349.48,223.80 L350.32,223.23 L351.16,222.67 L352.00,222.10 L352.84,221.53 L353.68,220.97 L354.52,220.40 L355.36,219.84 L356.20,219.27 L357.04,218.70 L357.88,218.14 L358.72,217.57 L359.56,217.01 L360.40,216.44 L361.24,215.87 L362.08,215.31 L362.92,214.74 L363.76,214.18 L364.60,213.61 L365.44,213.04 L366.28,212.48 L367.12,211.91 L367.96,211.35 L368.80,210.78 L369.64,210.21 L370.48,209.65 L371.32,209.08 L372.16,208.52 L373.00,207.95 L373.84,207.38 L374.68,206.82 L375.52,206.25 L376.36,205.69 L377.20,205.12 L378.04,204.55 L378.88,203.99 L379.72,203.42 L380.56,202.86 L381.40,202.29 L382.24,201.72 L383.08,201.16 L383.92,200.59 L384.76,200.03 L385.60,199.46 L386.44,198.89 L387.28,198.33 L388.12,197.76 L388.96,197.20 L389.80,196.63 L390.64,196.06 L391.48,195.50 L392.32,194.93 L393.16,194.37 L394.00,193.80 L394.84,193.23 L395.68,192.67 L396.52,192.10 L397.36,191.54 L398.20,190.97 L399.04,190.40 L399.88,189.84 L400.72,189.27 L401.56,188.71 L402.40,188.14 L403.24,187.57 L404.08,187.01 L404.92,186.44 L405.76,185.88 L406.60,185.31 L407.44,184.74 L408.28,184.18 L409.12,183.61 L409.96,183.05 L410.80,182.48 L411.64,181.91 L412.48,181.35 L413.32,180.78 L414.16,180.22 L415.00,179.65 L415.84,179.08 L416.68,178.52 L417.52,177.95 L418.36,177.39 L419.20,176.82 L420.04,176.25 L420.88,175.69 L421.72,175.12 L422.56,174.56 L423.40,173.99 L424.24,173.42 L425.08,172.86 L425.92,172.29 L426.76,171.73 L427.60,171.16 L428.44,170.59 L429.28,170.03 L430.12,169.46 L430.96,168.90 L431.80,168.33 L432.64,167.76 L433.48,167.20 L434.32,166.63 L435.16,166.07 L436.00,165.50 L436.84,164.93 L437.68,164.37 L438.52,163.80 L439.36,163.24 L440.20,162.67 L441.04,162.10 L441.88,161.54 L442.72,160.97 L443.56,160.41 L444.40,159.84 L445.24,159.27 L446.08,158.71 L446.92,158.14 L447.76,157.58 L448.60,157.01 L449.44,156.44 L450.28,155.88 L451.12,155.31 L451.96,154.75 L452.80,154.18 L453.64,153.61 L454.48,153.05 L455.32,152.48 L456.16,151.92 L457.00,151.35 L457.84,150.78 L458.68,150.22 L459.52,149.65 L460.36,149.09 L461.20,148.52 L462.04,147.95 L462.88,147.39 L463.72,146.82 L464.56,146.26 L465.40,145.69 L466.24,145.12 L467.08,144.56 L467.92,143.99 L468.76,143.43 L469.60,142.86 L470.44,142.29 L471.28,141.73 L472.12,141.16 L472.96,140.60 L473.80,140.03 L474.64,139.46 L475.48,138.90 L476.32,138.33 L477.16,137.77 L478.00,137.20\" clip-path=\"url(#fg2305)\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"139.60\" y=\"180.14\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\" fill=\"#2A5D9E\">g</text></svg></span><p>Lös ekvationen \\(f(g(x))=4\\) med hjälp av graferna. Visa hur du går från den yttre funktionen till den inre.</p>",
-    "s": "<p>Först söker vi de x-värde \\(u\\) där \\(f(u)=4\\). Grafen för \\(f\\) ger <strong>\\(u=-1\\) eller \\(u=3\\)</strong>.</p><p>Därför ska \\(g(x)=-1\\) eller \\(g(x)=3\\).</p><p>Av grafen för \\(g\\): \\(g(x)=-1\\) vid \\(x=0\\), och \\(g(x)=3\\) vid \\(x=-4\\) och \\(x=4\\).</p><p><strong>\\(x=-4{,}0{,}4\\).</strong></p>",
+    "s": "<p>Först söker vi de värden \\(u\\) där \\(f(u)=4\\). Grafen för \\(f\\) ger \\(u=-1\\) eller \\(u=3\\).</p><p>Därför ska \\(g(x)=-1\\) eller \\(g(x)=3\\).</p><p>Av grafen för \\(g\\): \\(g(x)=-1\\) vid \\(x=0\\), och \\(g(x)=3\\) vid \\(x=-4\\) och \\(x=4\\).</p><p><strong>\\(x=-4,\\,0,\\,4\\)</strong></p>",
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -4,
-      0,
-      4
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "svarEtiketter": [
-      "x",
-      "x",
-      "x"
-    ],
     "manuellKomplettering": true,
     "ledtrad": "<p>Först söker vi de x-värde \\(u\\) där \\(f(u)=4\\). Grafen för \\(f\\) ger \\(u=-1\\) eller \\(u=3\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.416",
@@ -28046,7 +27990,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Funktionen är \\(f(x)=-4x+9\\).</p><p>a) Bestäm \\(f(2)\\).<br>b) Bestäm \\(f(-1)\\).<br>c) Lös \\(f(x)=5\\).</p>",
-    "s": "<p><strong>Översätt frågan till en ekvation:</strong> Sätt funktionens uttryck lika med det givna funktionsvärdet och lös efter \\(x\\). Kontrollera om flera x-värden kan ge samma funktionsvärde.</p><p>a) \\(-8+9=\\)<strong>1</strong>.<br>b) \\(4+9=\\)<strong>13</strong>.<br>c) \\(-4x+9=5\\Rightarrow x=\\)<strong>1</strong>.</p>",
+    "s": "<p>a) \\(f(2)=-4\\cdot2+9=1\\).</p><p>b) \\(f(-1)=-4(-1)+9=13\\).</p><p>c) \\(5=-4x+9\\Rightarrow -4x=-4\\Rightarrow x=1\\).</p><p><strong>a) 1 &nbsp; b) 13 &nbsp; c) \\(x=1\\)</strong></p>",
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
@@ -28347,7 +28291,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion gäller \\(f(6)=14\\).</p><p>a) Förklara med ord vad detta betyder.<br>b) Vilken punkt ligger därför på grafen till \\(y=f(x)\\)?</p>",
-    "s": "<p>a) När x-värden är 6 är funktionsvärdet 14.</p><p>b) <strong>\\((6{,}14)\\)</strong>.</p>",
+    "s": "<p>a) Det betyder att när \\(x=6\\) är funktionsvärdet 14.</p><p>b) Punkten <strong>\\((6,\\,14)\\)</strong> ligger därför på grafen.</p>",
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
@@ -28360,8 +28304,8 @@ window.BANKMA2 = [
       "resonemang"
     ],
     "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
     "spel": false,
     "manuellKomplettering": true
   },
@@ -28376,7 +28320,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Funktionen är \\(f(x)=5-3x\\).</p><p>a) Bestäm \\(f(-2)\\).<br>b) Bestäm \\(f(4)\\).<br>c) Lös \\(f(x)=2\\).</p>",
-    "s": "<p><strong>Översätt frågan till en ekvation:</strong> Sätt funktionens uttryck lika med det givna funktionsvärdet och lös efter \\(x\\). Kontrollera om flera x-värden kan ge samma funktionsvärde.</p><p>a) <strong>11</strong><br>b) <strong>−7</strong><br>c) \\(5-3x=2\\Rightarrow\\)<strong>\\(x=1\\)</strong></p>",
+    "s": "<p>a) \\(f(-2)=5-3(-2)=11\\).</p><p>b) \\(f(4)=5-12=-7\\).</p><p>c) \\(5-3x=2\\Rightarrow -3x=-3\\Rightarrow x=1\\).</p><p><strong>a) 11 &nbsp; b) -7 &nbsp; c) \\(x=1\\)</strong></p>",
     "familj": "Bestämma x-värde från funktionsvärde",
     "geogebra": false,
     "miniräknare": false,
@@ -28516,7 +28460,7 @@ window.BANKMA2 = [
     ],
     "svarFormat": "kort_text",
     "ledtrad": "<p>I (f(a)) är (a) ett x-värde och (f(a)) det motsvarande y-värdet. Om funktionsvärdet är givet arbetar du åt andra hållet och söker x.</p>",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -28531,7 +28475,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Tabellen visar några värden för funktionen \\(f\\).</p><table class=\"data\"><tr><th>\\(x\\)</th><td>−3</td><td>0</td><td>2</td><td>5</td></tr><tr><th>\\(f(x)\\)</th><td>6</td><td>1</td><td>−3</td><td>−9</td></tr></table><p>a) Bestäm \\(f(2)\\).<br>b) Vilket \\(x\\)-värde ger \\(f(x)=1\\)?<br>c) Vilken punkt på grafen motsvarar \\(f(-3)=6\\)?</p>",
-    "s": "<p>a) <strong>−3</strong><br>b) <strong>\\(x=0\\)</strong><br>c) <strong>\\((-3{,}6)\\)</strong></p>",
+    "s": "<p>a) <strong>-3</strong><br>b) <strong>\\(x=0\\)</strong><br>c) <strong>\\((-3,\\,6)\\)</strong></p>",
     "familj": "Tolka funktionsnotation i graf",
     "geogebra": false,
     "miniräknare": false,
@@ -28748,11 +28692,11 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Lös ekvationen \\(5\\cdot2^{x-1}=3^{x+1}\\) och svara exakt med logaritmer.</p><p>Förklara varför ekvationen har högst en lösning.</p>",
+    "t": "<p>Lös ekvationen \\(5\\cdot2^{x-1}=3^{x+1}\\) <strong>utan miniräknare</strong> och svara exakt med logaritmer.</p><p>Förklara varför ekvationen har högst en lösning.</p>",
     "s": "<p>Skriv om vänsterledet: \\(5\\cdot2^{x-1}=\\frac52\\cdot2^x\\). Högerledet är \\(3\\cdot3^x\\).</p><p>Dividera med \\(3\\cdot2^x\\):</p><p>\\(\\frac56=\\left(\\frac32\\right)^x\\).</p><p>Ta \\(\\lg\\) av båda leden:</p><p>\\(x\\lg (3/2)=\\lg (5/6)\\).</p><p><strong>\\(x=\\frac{\\lg (5/6)}{\\lg (3/2)}\\).</strong></p><p>Eftersom \\((3/2)^x\\) är strikt växande kan det anta värdet \\(5/6\\) för högst ett \\(x\\). Därför finns högst en lösning.</p>",
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
-    "miniräknare": true,
+    "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -28813,20 +28757,20 @@ window.BANKMA2 = [
     "familj": "Exponentialmodeller och exponentialekvationer i tillämpningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "2*u",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "problemlösning",
+      "resonemang"
     ],
-    "svarFormat": "uttryck",
     "manuellKomplettering": true,
     "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
     "traningsniva": 4,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.443",
@@ -28897,9 +28841,9 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Förklara skillnaden mellan att lösa \\(x^3=20\\) och \\(3^x=20\\).</p>",
-    "s": "<p>De två ekvationerna ser liknande ut, men x har olika roller och därför används olika metoder.</p><p><strong>1. \\(x^3=20\\) är en potensekvation.</strong> Här är x basen. För att frigöra x tar man kubikroten ur båda leden:</p><p>\\(x=\\sqrt[3]{20}\\approx2{,}71\\).</p><p><strong>2. \\(3^x=20\\) är en exponentialekvation.</strong> Här står x i exponenten. Då kan man ta \\(\\lg\\) av båda leden:</p><p>\\(\\lg (3^x)=\\lg 20\\).</p><p>Med logaritmlagen \\(\\lg (a^x)=x\\lg a\\) får vi</p><p>\\(x\\lg 3=\\lg 20\\Rightarrow x=\\frac{\\lg 20}{\\lg 3}\\approx2{,}73\\).</p><p><strong>Potensekvationen löses alltså med en rot, medan exponentialekvationen löses med logaritmer (eller med exempelvis GeoGebra).</strong></p>",
+    "s": "<p>De två ekvationerna ser liknande ut, men \\(x\\) har olika roller.</p><p><strong>1. \\(x^3=20\\)</strong> är en potensekvation: \\(x\\) är basen. Ta kubikroten:</p><p>\\[x=\\sqrt[3]{20}.\\]</p><p><strong>2. \\(3^x=20\\)</strong> är en exponentialekvation: \\(x\\) står i exponenten. Logaritmera:</p><p>\\[x\\lg3=\\lg20\\Rightarrow x=\\frac{\\lg20}{\\lg3}.\\]</p><p><strong>Potensekvationen löses med en rot, medan exponentialekvationen löses med logaritmer.</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -28926,10 +28870,10 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Jämför \\(f(x)=x^3\\) och \\(g(x)=2^x\\) för heltal \\(x\\ge2\\).</p><p>Bestäm det minsta heltalet \\(x\\) där \\(g(x)&gt;f(x)\\).</p>",
-    "s": "<p>För mindre positiva x är potensfunktionen här större, men exponentialfunktionen kommer senare att gå om.</p><p><strong>GeoGebra:</strong> rita \\(y=x^3\\) och \\(y=2^x\\), eller använd <code>NLös(2^x=x^3)</code>. Den relevanta skärningen ligger vid \\(x\\approx9{,}94\\).</p><p>Kontrollera närliggande heltal:</p><p>\\(x=9:\\quad 2^9=512&lt;9^3=729\\).</p><p>\\(x=10:\\quad 2^{10}=1024&gt;10^3=1000\\).</p><p><strong>Det minsta heltalet \\(x\\ge2\\) är därför \\(x=10\\).</strong></p>",
+    "t": "<p>Jämför \\(f(x)=x^3\\) och \\(g(x)=2^x\\) för heltal \\(x\\ge2\\).</p><p>Bestäm det minsta heltalet \\(x\\) där \\(g(x)>f(x)\\). Arbeta utan digitalt verktyg.</p>",
+    "s": "<p>Vi jämför värden för heltalen från 2 och uppåt. Fram till \\(x=9\\) är \\(2^x<x^3\\): till exempel \\(2^9=512<729=9^3\\).</p><p>Vid \\(x=10\\) får vi däremot</p><p>\\[2^{10}=1024>1000=10^3.\\]</p><p>En kontroll av heltalen \\(2,3,\\ldots,9\\) visar att olikheten inte gäller tidigare.</p><p><strong>Det minsta heltalet är \\(x=10\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
     "rättSvar": 10,
@@ -29012,10 +28956,10 @@ window.BANKMA2 = [
     "kurs": [
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Funktionen \\(f(x)=x^2+8x+19\\) är given.</p><p>a)&nbsp;Skriv \\(f(x)\\) på formen \\((x+a)^2+b\\).<br>b)&nbsp;Ange symmetrilinjens ekvation och minimipunkten.</p>",
-    "s": "<p>a) \\(x^2+8x+19=(x+4)^2-16+19=(x+4)^2+3\\).</p><p>b) Formen visar att grafen är parabeln \\(y=x^2\\) förskjuten 4 steg åt vänster och 3 steg uppåt. Symmetrilinjen är \\(x=-4\\) och minimipunkten är \\((-4{,}3)\\).</p><p><strong>Svar:</strong> a) \\((x+4)^2+3\\) &nbsp; b) \\(x=-4\\) och \\((-4{,}3)\\)</p>",
+    "s": "<p>a) \\(x^2+8x+19=(x+4)^2-16+19=(x+4)^2+3\\).</p><p>b) Formen visar att grafen är parabeln \\(y=x^2\\) förskjuten 4 steg åt vänster och 3 steg uppåt. Symmetrilinjen är \\(x=-4\\) och minimipunkten är \\((-4,\\,3)\\).</p><p><strong>Svar:</strong> a) \\((x+4)^2+3\\) &nbsp; b) \\(x=-4\\) och \\((-4,\\,3)\\)</p>",
     "familj": "Kvadratkomplettering",
     "geogebra": false,
     "miniräknare": false,
@@ -29043,7 +28987,7 @@ window.BANKMA2 = [
       "b) minimipunkt"
     ],
     "svarsstruktur": "ordnad",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -29101,7 +29045,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>För vilka heltal \\(k\\) har ekvationen \\(x^2-kx+12=0\\) två positiva heltalsrötter?</p>",
-    "s": "<p>Om rötterna är positiva heltal \\(r_1,r_2\\) gäller</p><p>\\[r_1r_2=12,\\qquad r_1+r_2=k.\\]</p><p>De positiva faktorparen till 12 är \\((1{,}12)\\), \\((2{,}6)\\) och \\((3{,}4)\\). Summorna är 13, 8 och 7.</p><p><strong>\\(k=7{,}8\\) eller \\(13\\).</strong></p>",
+    "s": "<p>Om rötterna är positiva heltal \\(r_1,r_2\\) gäller</p><p>\\[r_1r_2=12,\\qquad r_1+r_2=k.\\]</p><p>De positiva faktorparen till 12 är \\((1,\\,12)\\), \\((2,\\,6)\\) och \\((3,\\,4)\\). Summorna är 13, 8 och 7.</p><p><strong>\\(k=7,\\,8\\) eller \\(13\\).</strong></p>",
     "familj": "Sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -29271,10 +29215,10 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Jämför \\(f(x)=5x^2\\) och \\(g(x)=2\\cdot1{,}6^x\\) för heltal \\(x\\ge1\\).</p><p>Bestäm det minsta heltalet \\(x\\) där \\(g(x)&gt;f(x)\\).</p>",
-    "s": "<p>Vi söker den punkt där exponentialfunktionen \\(g(x)=2\\cdot1{,}6^x\\) går om potensfunktionen \\(f(x)=5x^2\\).</p><p><strong>GeoGebra:</strong> rita båda funktionerna eller använd <code>NLös(2*1.6^x=5x^2)</code>. Den relevanta positiva skärningen ligger vid \\(x\\approx12{,}80\\).</p><p>Kontrollera därför heltalen 12 och 13:</p><p>\\(f(12)=720\\) och \\(g(12)\\approx562{,}9\\), alltså \\(g(12)&lt;f(12)\\).</p><p>\\(f(13)=845\\) och \\(g(13)\\approx900{,}7\\), alltså \\(g(13)&gt;f(13)\\).</p><p><strong>Det minsta heltalet är \\(x=13\\).</strong></p>",
+    "t": "<p>Jämför \\(f(x)=5x^2\\) och \\(g(x)=2\\cdot1{,}6^x\\) för heltal \\(x\\ge1\\).</p><p>Bestäm det minsta heltalet \\(x\\) där \\(g(x)>f(x)\\). Använd miniräknare.</p>",
+    "s": "<p>Beräkna värden för heltal tills exponentialfunktionen går om potensfunktionen.</p><p>Vid \\(x=12\\): \\(f(12)=720\\) och \\(g(12)\\approx562{,}9\\), så \\(g(12)<f(12)\\).</p><p>Vid \\(x=13\\): \\(f(13)=845\\) och \\(g(13)\\approx900{,}7\\), så \\(g(13)>f(13)\\).</p><p>Kontroll av de tidigare heltalen visar att \\(g(x)\\le f(x)\\) där.</p><p><strong>Det minsta heltalet är \\(x=13\\).</strong></p>",
     "familj": "Jämföra potens- och exponentialfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "uttryck",
     "rättSvar": 13,
@@ -29300,9 +29244,9 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Värdet på en maskin minskar exponentiellt. Efter 2 år är värdet 182 250 kr och efter 5 år är det 132 860 kr.</p><p>Bestäm den årliga förändringsfaktorn.</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Värdet på en maskin minskar exponentiellt. Efter 2 år är värdet 182 250 kr och efter 5 år är det 132 860 kr.</p><p>Bestäm den årliga förändringsfaktorn. Använd miniräknare och svara med tre decimaler.</p>",
     "s": "<p>Om faktorn är \\(a\\) gäller \\(182250\\,a^3=132860\\).</p><p>\\(a^3=132860/182250\\approx0{,}7290\\).</p><p>\\(a\\approx0{,}900\\).</p><p><strong>Den årliga förändringsfaktorn är ungefär 0,90, alltså en minskning med cirka 10 % per år.</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
@@ -29313,14 +29257,13 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
       "modellering"
     ],
     "svarFormat": "numeriskt",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
     "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true
   },
   {
@@ -29332,26 +29275,26 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "A",
-    "poang": "0/0/2",
-    "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\) uppfyller \\(f(2)=18\\) och \\(f(5)=144\\).</p><p>Bestäm \\(f(-1)\\) exakt.</p>",
-    "s": "<p>\\(a^3=144/18=8\\Rightarrow a=2\\). Då \\(C\\cdot4=18\\Rightarrow C=9/2\\).</p><p>\\(f(-1)=\\frac92\\cdot2^{-1}=\\frac94\\).</p><p><strong>\\(f(-1)=\\frac94\\).</strong></p>",
+    "poang": "0/0/3",
+    "t": "<p>En exponentialfunktion har formen \\(f(x)=C\\cdot a^x\\), där \\(C>0\\) och \\(a>0\\).</p><p>a) Visa att om \\(p+q=r+s\\), så gäller \\(f(p)f(q)=f(r)f(s)\\).</p><p>b) För en sådan funktion gäller \\(f(1)=6\\) och \\(f(4)=48\\). Bestäm \\(f(0)f(5)\\) exakt <strong>utan</strong> att först bestämma \\(C\\) och \\(a\\).</p>",
+    "s": "<p>a) \\(f(p)f(q)=C^2a^{p+q}\\). På samma sätt är \\(f(r)f(s)=C^2a^{r+s}\\). Om \\(p+q=r+s\\) är exponenterna lika, och därför är produkterna lika.</p><p>b) Eftersom \\(0+5=1+4\\) ger resultatet från a)</p><p>\\[f(0)f(5)=f(1)f(4)=6\\cdot48=288.\\]</p><p><strong>\\(f(0)f(5)=288\\).</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": "9/4",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang",
+      "problemlösning"
     ],
-    "svarFormat": "bråk",
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
-    "ledtrad": "<p>Skriv modellen som \\(y=C\\,a^x\\) eller \\(Ce^{kx}\\). Konstanten \\(C\\) är startvärdet och basen/faktorn beskriver förändringen per x-enhet.</p>",
+    "ledtrad": "<p>Multiplicera två allmänna funktionsvärden \\(f(p)\\) och \\(f(q)\\). Vilken del av produkten beror på summan \\(p+q\\)?</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.459",
@@ -29408,8 +29351,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En mängd minskar exponentiellt. Från början är värdet 1200 och efter två tidsenheter är värdet 972.</p><p>Bestäm förändringsfaktorn per tidsenhet och skriv en modell.</p>",
     "s": "<p>Skriv modellen \\(N(t)=1200\\cdot a^t\\).</p><p>Efter två tidsenheter:</p><p>\\(972=1200a^2\\Rightarrow a^2=0{,}81\\).</p><p>Eftersom en förändringsfaktor är positiv blir \\(a=0{,}9\\).</p><p><strong>Förändringsfaktorn är 0,9 och modellen är \\(N(t)=1200\\cdot0{,}9^t\\).</strong></p>",
     "familj": "Bestämma och tolka exponentialfunktioner",
@@ -29424,7 +29367,6 @@ window.BANKMA2 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "begrepp",
       "modellering"
     ],
     "svarFormat": [
@@ -29438,7 +29380,7 @@ window.BANKMA2 = [
     ],
     "familjTidigare": "Tolka och bestämma exponentialfunktioner",
     "ledtrad": "<p>Översätt den procentuella förändringen till en förändringsfaktor och kombinera den med startvärdet.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -29525,10 +29467,10 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>För en viss typ av 3D-utskriven testdel används modellen \\(m(s)=Cs^a\\), där \\(m\\) är materialmängden i gram.</p><p>Talet \\(s\\) anger skalan: \\(s=2\\) betyder att alla längdmått är dubbelt så stora som för originaldelen.</p><p>Vid \\(s=2\\) används 18 g material och vid \\(s=8\\) används 144 g.</p><p>Bestäm en potensmodell och använd den för att uppskatta vilket värde på \\(s\\) som ger 80 g material. Digitalt verktyg får användas.</p>",
+    "t": "<p>För en viss typ av 3D-utskriven testdel används modellen \\(m(s)=Cs^a\\), där \\(m\\) är materialmängden i gram. Talet \\(s\\) anger skalan: \\(s=2\\) betyder att alla längdmått är dubbelt så stora som för originaldelen.</p><p>Vid \\(s=2\\) används 18 g material och vid \\(s=8\\) används 144 g.</p><p>Bestäm en potensmodell och använd den för att uppskatta vilket värde på \\(s\\) som ger 80 g material. Miniräknare får användas.</p>",
     "s": "<p>Sätt in de två mätpunkterna i \\(m=C s^a\\). Kvoten ger</p><p>\\[\\frac{144}{18}=\\left(\\frac82\\right)^a\\Rightarrow 8=4^a.\\]</p><p>Eftersom \\(4^{1{,}5}=8\\) är \\(a=1{,}5\\).</p><p>Ur \\(18=C\\cdot2^{1{,}5}\\) fås \\(C\\approx6{,}364\\). Modellen blir alltså \\(m(s)\\approx6{,}364s^{1{,}5}\\).</p><p>Lös \\(6{,}364s^{1{,}5}=80\\) digitalt. Då fås \\(s\\approx5{,}41\\).</p><p><strong>En modell är \\(m(s)\\approx6{,}364s^{1{,}5}\\), och 80 g motsvarar ungefär \\(s=5{,}4\\).</strong></p>",
     "familj": "Potensfunktioner",
-    "geogebra": true,
+    "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -29614,7 +29556,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En potensfunktion har formen \\(y=ax^n\\), där \\(a\\) är en konstant och \\(n\\) är ett positivt heltal.</p><p>Funktionen går genom punkterna \\((2{,}24)\\) och \\((6{,}216)\\).</p><p>Bestäm \\(a\\) och \\(n\\).</p>",
+    "t": "<p>En potensfunktion har formen \\(y=ax^n\\), där \\(a\\) är en konstant och \\(n\\) är ett positivt heltal.</p><p>Funktionen går genom punkterna \\((2,\\,24)\\) och \\((6,\\,216)\\). Bestäm \\(a\\) och \\(n\\).</p>",
     "s": "<p>Punkterna ger \\(24=a\\cdot2^n\\) och \\(216=a\\cdot6^n\\).</p><p>Dividera ekvationerna: \\(\\frac{216}{24}=\\left(\\frac{6}{2}\\right)^n\\Rightarrow9=3^n\\).</p><p>Alltså \\(n=2\\).</p><p>Sätt in i första ekvationen: \\(24=4a\\Rightarrow a=6\\).</p><p><strong>\\(a=6\\) och \\(n=2\\).</strong></p>",
     "familj": "Potensfunktioner",
     "geogebra": false,
@@ -29658,7 +29600,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En potensfunktion har formen \\(y=Cx^3\\) och går genom punkten \\((3{,}54)\\).</p><p>Bestäm \\(C\\).</p>",
+    "t": "<p>En potensfunktion har formen \\(y=Cx^3\\) och går genom punkten \\((3,\\,54)\\).</p><p>Bestäm \\(C\\).</p>",
     "s": "<p>Sätt in \\(x=3\\) och \\(y=54\\):</p><p>\\(54=C\\cdot3^3=27C\\).</p><p><strong>\\(C=2\\)</strong></p>",
     "familj": "Potensfunktioner",
     "geogebra": false,
@@ -30093,8 +30035,8 @@ window.BANKMA2 = [
     ],
     "niva": "A",
     "poang": "0/0/3",
-    "t": "<p>Två modeller används för samma växt under de första 12 veckorna:</p><p>\\(A(t)=8+3{,}2t\\)<br>\\(B(t)=7{,}5\\cdot1{,}12^t\\)</p><p>där höjden mäts i cm.</p><p>a) Om modellerna förlängs matematiskt, ungefär när ger de samma höjd?<br>b) En elev vill använda den modell som ger störst värde vid vecka 12 för att förutsäga växtens höjd efter 5 år. Bedöm elevens idé.</p>",
-    "s": "<p>a) Digital lösning av \\(8+3{,}2t=7{,}5\\cdot1{,}12^t\\) ger \\(t\\approx19{,}9\\) veckor. Det ligger redan utanför det intervall, 0–12 veckor, där modellerna sägs beskriva växten.</p><p>b) En femårsprognos motsvarar ungefär 260 veckor. Det är en mycket lång prognos långt utanför mätintervallet. Verklig växttillväxt kan inte förväntas fortsätta linjärt eller exponentiellt på samma sätt under så lång tid.</p><p><strong>Modellerna bör inte användas för en femårsprognos utan nytt underlag.</strong></p>",
+    "t": "<p>Två modeller används för samma växt under de första 12 veckorna:</p><p>\\(A(t)=8+3{,}2t\\)<br>\\(B(t)=7{,}5\\cdot1{,}12^t\\)</p><p>där höjden mäts i cm och \\(t\\ge0\\).</p><p>a) Om modellerna förlängs matematiskt för \\(t\\ge0\\), ungefär när ger de samma höjd?<br>b) En elev vill använda den modell som ger störst värde vid vecka 12 för att förutsäga växtens höjd efter 5 år. Bedöm elevens idé.</p>",
+    "s": "<p>a) Digital lösning av \\(8+3{,}2t=7{,}5\\cdot1{,}12^t\\) ger den relevanta icke-negativa lösningen \\(t\\approx19{,}9\\) veckor. Det ligger redan utanför det intervall, 0–12 veckor, där modellerna sägs beskriva växten.</p><p>b) En femårsprognos motsvarar ungefär 260 veckor. Det är en mycket lång prognos långt utanför mätintervallet. Verklig växttillväxt kan inte förväntas fortsätta linjärt eller exponentiellt på samma sätt under så lång tid.</p><p><strong>Modellerna bör inte användas för en femårsprognos utan nytt underlag.</strong></p>",
     "familj": "Kritisk granskning av korrelation och regressionsmodeller",
     "geogebra": true,
     "miniräknare": true,
@@ -30198,7 +30140,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "ledtrad": "<p>Roten ur \\(\\dfrac{16}{9}\\) kan dras i täljare och nämnare var för sig.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -30214,35 +30156,23 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Den positiva lösningen till \\(x^2=20\\) ligger mellan två på varandra följande heltal. Bestäm vilka, utan räknare, och motivera ditt svar.</p>",
-    "s": "<p>\\(4^2=16\\) och \\(5^2=25\\).</p><p>Eftersom \\(16&lt;20&lt;25\\) och kvadrering är växande för positiva tal ligger den positiva lösningen mellan 4 och 5.</p><p>Den ligger närmare 4, eftersom 20 ligger närmare 16 än 25.</p><p><strong>Svar:</strong> Mellan \\(4\\) och \\(5\\)</p>",
+    "s": "<p>\\(4^2=16\\) och \\(5^2=25\\).</p><p>Eftersom \\(16<20<25\\) och kvadrering är växande för positiva tal gäller</p><p>\\[4<\\sqrt{20}<5.\\]</p><p><strong>Den positiva lösningen ligger mellan 4 och 5.</strong></p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      4,
-      5
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "begrepp",
       "resonemang"
-    ],
-    "svarFormat": [
-      "heltal",
-      "heltal"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "undre heltal",
-      "övre heltal"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "ledtrad": "<p>Vilka heltal har kvadrater strax under och strax över 20?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": false
   },
   {
     "id": "2.484",
@@ -30284,7 +30214,7 @@ window.BANKMA2 = [
     "svarsstruktur": "mängd",
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
     "ledtrad": "<p>Det är \\(2x+1\\) som står i kvadrat, inte bara \\(x\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -30299,7 +30229,7 @@ window.BANKMA2 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[x^4-13x^2+36=0.\\]</p>",
-    "s": "<p>Sätt \\(u=x^2\\). Då får vi andragradsekvationen</p><p>\\[u^2-13u+36=0.\\]</p><p>Faktorisera: \\((u-4)(u-9)=0\\).</p><p>Alltså är \\(u=4\\) eller \\(u=9\\).</p><p>Det betyder \\(x^2=4\\) eller \\(x^2=9\\).</p><p><strong>\\(x=-3,-2{,}2{,}3\\).</strong></p>",
+    "s": "<p>Sätt \\(u=x^2\\). Då får vi andragradsekvationen</p><p>\\[u^2-13u+36=0.\\]</p><p>Faktorisera: \\((u-4)(u-9)=0\\).</p><p>Alltså är \\(u=4\\) eller \\(u=9\\), vilket betyder \\(x^2=4\\) eller \\(x^2=9\\).</p><p><strong>\\(x=-3,\\,-2,\\,2,\\,3\\).</strong></p>",
     "familj": "Sammansatta andragradsekvationer",
     "geogebra": false,
     "miniräknare": false,
@@ -63886,5 +63816,1724 @@ window.BANKMA2 = [
     "arbetsinsats": 2,
     "spel": false,
     "manuellKomplettering": true
-  }
+  },
+{
+  "id": "2.813",
+  "kap": 2,
+  "omr": "andragradsfunktioner_tillampningar",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>En drönares höjd filmas under en kort flygning. Ur filmen avläses följande data.</p><table class=\"data\"><thead><tr><th>Tid \\(t\\) (s)</th><th>Höjd \\(h\\) (m)</th></tr></thead><tbody><tr><td>0</td><td>1,5</td></tr><tr><td>1</td><td>15,2</td></tr><tr><td>2</td><td>19,4</td></tr><tr><td>3</td><td>14,3</td></tr><tr><td>4</td><td>0,8</td></tr></tbody></table><p>a)&nbsp;Bestäm med GeoGebra en kvadratisk regressionsmodell \\(h(t)=at^2+bt+c\\).<br>b)&nbsp;Bestäm drönarens största höjd enligt modellen.<br>c)&nbsp;När når modellen marknivån? Bedöm kort om svaret verkar rimligt utifrån mätdata.</p>",
+  "s": "<p>a) Kvadratisk regression ger ungefär \\(h(t)=-4{,}55t^2+17{,}97t+1{,}60\\).</p><p>b) Extrempunkten fås vid \\(t=-\\frac{b}{2a}\\approx1{,}97\\) s. Då är \\(h\\approx19{,}34\\) m.</p><p>c) Ekvationen \\(h(t)=0\\) ger en positiv rot \\(t\\approx4{,}04\\) s. Den negativa roten saknar fysisk betydelse. Eftersom den sista mätpunkten vid 4 s ligger på 0,8 m är 4,04 s rimligt.</p><p><strong>Modell: \\(h\\approx-4{,}55t^2+17{,}97t+1{,}60\\), maxhöjd ca 19,3 m, marknivå efter ca 4,04 s.</strong></p>",
+  "familj": "Kvadratisk regression och modellering",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    null,
+    19.34,
+    4.04
+  ],
+  "tolerans": [
+    null,
+    0.2,
+    0.05
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "procedur",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "a) modell",
+    "b) maxhöjd (m)",
+    "c) tid (s)"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Använd kvadratisk regression. Extrempunkten ger maxhöjden och skärningen med \\(t\\)-axeln ger när modellen når marken.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.814",
+  "kap": 2,
+  "omr": "andragradsfunktioner_tillampningar",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>Tvärsnittet av en tunnel modelleras av</p><p>\\[h(x)=5{,}6-0{,}42x^2,\\]</p><p>där \\(h\\) är höjden i meter och \\(x\\) är det horisontella avståndet från tunnelns mittlinje.</p><p>En lastbil är 3,10 m bred och 4,25 m hög. Lastbilens mittlinje ligger \\(d\\) meter till höger om tunnelns mittlinje.</p><p>Bestäm det största värdet på \\(d\\) som gör att lastbilens båda övre hörn går fria från tunneltaket. Avgör också om en avvikelse på 0,30 m är säker.</p>",
+  "s": "<p>Det kritiska hörnet är det högra övre hörnet. Det ligger på avståndet \\(d+1{,}55\\) från tunnelns mitt.</p><p>Gränsfallet ges av</p><p>\\[5{,}6-0{,}42(d+1{,}55)^2=4{,}25.\\]</p><p>Därav</p><p>\\[(d+1{,}55)^2=\\frac{1{,}35}{0{,}42}\\]</p><p>och den relevanta lösningen ger \\(d\\approx0{,}243\\) m.</p><p>Eftersom \\(0{,}30>0{,}243\\) är 0,30 m för stor avvikelse.</p><p><strong>Största säkra avvikelse är ungefär 0,24 m. 0,30 m är inte säkert.</strong></p>",
+  "familj": "Andragradsfunktioner i geometri",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.243,
+    "nej"
+  ],
+  "tolerans": [
+    0.01,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "text"
+  ],
+  "svarEtiketter": [
+    "största d (m)",
+    "0,30 m säkert?"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Det yttre övre hörnet är det som först träffar tunneltaket. Skriv dess \\(x\\)-koordinat med hjälp av \\(d\\) och halva lastbilens bredd.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.815",
+  "kap": 2,
+  "omr": "andragradsfunktioner_tillampningar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Två vattenstrålar i en fontän modelleras, för den synliga delen av fontänen, av</p><p>\\[h_1(x)=-0{,}22(x-3{,}2)^2+4{,}8\\]</p><p>och</p><p>\\[h_2(x)=-0{,}15(x-7{,}6)^2+4{,}1.\\]</p><p>Här är \\(x\\) och \\(h\\) i meter. Den synliga fontänen ligger i intervallet \\(2\\le x\\le8\\).</p><p>a)&nbsp;Bestäm med digitalt verktyg var de två vattenstrålarna möts i den synliga delen.<br>b)&nbsp;En dekorativ ring har sin översta punkt 3,40 m över marken vid ungefär samma \\(x\\)-läge. Hur stor vertikal marginal finns mellan ringen och strålarnas mötespunkt?<br>c)&nbsp;Ekvationerna har även en annan matematisk skärning. Förklara varför den inte är relevant för fontänen.</p>",
+  "s": "<p>Skärningarna fås ur \\(h_1(x)=h_2(x)\\). Digital lösning ger ungefär \\(x=-18{,}08\\) och \\(x=5{,}62\\).</p><p>I intervallet \\(2\\le x\\le8\\) är endast \\(x\\approx5{,}62\\) relevant. Höjden där är \\(h\\approx3{,}51\\) m.</p><p>Marginalen till ringens överkant är \\(3{,}51-3{,}40\\approx0{,}11\\) m, alltså cirka 11 cm.</p><p>Den andra skärningen ligger långt utanför den del där modellerna beskriver de faktiska vattenstrålarna.</p><p><strong>Mötespunkt ungefär \\((5{,}62,\\,3{,}51)\\), marginal cirka 0,11 m.</strong></p>",
+  "familj": "Skärningar mellan andragradsmodeller",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5.62,
+    3.51,
+    0.11,
+    null
+  ],
+  "tolerans": [
+    0.03,
+    0.03,
+    0.02,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "resonemang",
+    "kommunikation"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "x-koordinat",
+    "höjd (m)",
+    "marginal (m)",
+    "förklaring"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Rita båda funktionerna i samma koordinatsystem och bestäm deras skärningar. Använd sedan det givna intervallet för att avgöra vilken skärning som är fysisk.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.816",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>Två reservbatterier testas under identisk belastning. Deras återstående laddning i procent modelleras av</p><p>\\[A(t)=92\\cdot0{,}91^t,\\qquad B(t)=64\\cdot0{,}96^t,\\]</p><p>där \\(t\\) är tiden i timmar.</p><p>a)&nbsp;Efter hur lång tid har batterierna samma återstående laddning?<br>b)&nbsp;Vilket batteri håller sig över 20 % längst, och ungefär hur många timmar längre?<br>c)&nbsp;Förklara varför batteriet med lägre startvärde ändå kan bli det bättre valet på lång sikt.</p>",
+  "s": "<p>a) Lös \\(92\\cdot0{,}91^t=64\\cdot0{,}96^t\\). Det ger \\(t\\approx6{,}78\\) h. Då har båda ungefär 48,5 % kvar.</p><p>b) \\(A(t)=20\\) ger \\(t\\approx16{,}18\\) h. \\(B(t)=20\\) ger \\(t\\approx28{,}49\\) h. Batteri B håller sig alltså över 20 % ungefär \\(28{,}49-16{,}18=12{,}31\\) timmar längre.</p><p>c) B börjar lägre men minskar med endast 4 % per timme, medan A minskar med 9 % per timme. Den långsammare procentuella minskningen dominerar på lång sikt.</p><p><strong>Samma laddning efter ca 6,78 h. B håller sig över 20 % ca 12,3 h längre.</strong></p>",
+  "familj": "Jämföra exponentialmodeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    6.78,
+    12.31,
+    null
+  ],
+  "tolerans": [
+    0.05,
+    0.1,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "a) tid (h)",
+    "b) skillnad (h)",
+    "c) förklaring"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Vid samma laddning kan du dividera exponentialuttrycken med varandra. För 20 %-gränsen löser du två separata exponentialekvationer.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.817",
+  "kap": 2,
+  "omr": "exponentialekvationer",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Efter en dos läkemedel är koncentrationen i blodet 18 mg/L. Varje timme återstår 72 % av koncentrationen. Fyra timmar senare ges en andra dos som omedelbart bidrar med ytterligare 12 mg/L. Även den andra dosens bidrag minskar därefter med samma faktor 0,72 per timme.</p><p>a)&nbsp;Ställ upp en modell för den totala koncentrationen \\(C(t)\\) för \\(t\\ge4\\), där \\(t\\) mäts i timmar från den första dosen.<br>b)&nbsp;När efter den andra dosen sjunker den totala koncentrationen åter under 8 mg/L? Ange tiden räknad från den första dosen.<br>c)&nbsp;Hur lång tid är det efter den andra dosen?</p>",
+  "s": "<p>För \\(t\\ge4\\) finns två bidrag:</p><p>\\[C(t)=18\\cdot0{,}72^t+12\\cdot0{,}72^{t-4}.\\]</p><p>Faktorisera gärna:</p><p>\\[C(t)=0{,}72^t\\left(18+\\frac{12}{0{,}72^4}\\right).\\]</p><p>Lös \\(C(t)=8\\). Det ger \\(t\\approx6{,}27\\) timmar efter första dosen.</p><p>Den andra dosen gavs vid \\(t=4\\), så detta är ungefär \\(6{,}27-4=2{,}27\\) timmar efter den andra dosen.</p><p><strong>\\(C(t)=18\\cdot0{,}72^t+12\\cdot0{,}72^{t-4}\\), under 8 mg/L efter ca 6,27 h från första dosen, dvs. ca 2,27 h efter den andra.</strong></p>",
+  "familj": "Sammansatta exponentialmodeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    null,
+    6.27,
+    2.27
+  ],
+  "tolerans": [
+    null,
+    0.05,
+    0.05
+  ],
+  "självrättning": false,
+  "formaga": [
+    "modellering",
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "a) modell",
+    "b) tid från första dosen (h)",
+    "c) tid från andra dosen (h)"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Efter fyra timmar finns fortfarande en del av den första dosen kvar. Lägg till den andra dosens bidrag; de två bidragen har olika starttid men samma förändringsfaktor.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.818",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>En bakteriekultur innehåller 500 bakterier. Under de första fyra timmarna ökar antalet med 28 % per timme. Därefter börjar näringen ta slut och ökningen sjunker till 12 % per timme.</p><p>Efter hur lång tid från start passerar kulturen 2500 bakterier enligt denna tvåstegsmodell? Redovisa hur du hanterar bytet av tillväxttakt.</p>",
+  "s": "<p>Efter fyra timmar finns</p><p>\\[500\\cdot1{,}28^4\\approx1342{,}18\\]</p><p>bakterier. För tiden efter fyra timmar kan modellen skrivas</p><p>\\[N(t)=1342{,}18\\cdot1{,}12^{t-4}.\\]</p><p>Lös \\(1342{,}18\\cdot1{,}12^{t-4}=2500\\). Det ger \\(t\\approx9{,}49\\) timmar från start.</p><p><strong>Cirka 9,49 timmar.</strong></p>",
+  "familj": "Styckvis exponentialmodell",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 9.49,
+  "tolerans": 0.05,
+  "självrättning": false,
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Beräkna först antalet efter de första fyra timmarna. Använd sedan det värdet som startvärde för den nya tillväxtfasen.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.819",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>Två videoklipp sprids på olika sätt. Antalet visningar efter \\(t\\) timmar modelleras av</p><p>\\[A(t)=240\\cdot1{,}38^t,\\qquad B(t)=520\\cdot1{,}21^t.\\]</p><p>a)&nbsp;När går klipp A om klipp B?<br>b)&nbsp;Ungefär hur många visningar har båda då?<br>c)&nbsp;Hur många gånger fler visningar har A än B efter 12 timmar enligt modellerna? Kommentera vad förändringsfaktorerna betyder för utvecklingen på lång sikt.</p>",
+  "s": "<p>a) Lös \\(240\\cdot1{,}38^t=520\\cdot1{,}21^t\\). Då fås \\(t\\approx5{,}88\\) h.</p><p>b) Insättning ger ungefär 1596 visningar.</p><p>c) Efter 12 timmar ger modellerna ungefär \\(A(12)=11449\\) och \\(B(12)=5122\\). Kvoten är cirka \\(2{,}24\\). Eftersom A har den större förändringsfaktorn växer kvoten mellan A och B över tid.</p><p><strong>A går om efter ca 5,88 h vid ca 1600 visningar; efter 12 h har A ca 2,24 gånger så många.</strong></p>",
+  "familj": "Skärning mellan exponentialmodeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5.88,
+    1596,
+    2.24,
+    null
+  ],
+  "tolerans": [
+    0.05,
+    20,
+    0.05,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "a) tid (h)",
+    "b) visningar",
+    "c) kvot",
+    "kommentar"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Sätt modellerna lika. För långsiktsjämförelsen är kvoten mellan förändringsfaktorerna viktig.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.820",
+  "kap": 2,
+  "omr": "potensfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>För vissa fåglar kan vingfrekvensen \\(f\\) ungefär beskrivas med en potensmodell \\(f=k m^a\\), där \\(m\\) är massan i kg.</p><p>En liten fågel med massan 0,030 kg slår ungefär 12 vingslag per sekund, medan en fågel med massan 4,0 kg slår ungefär 3,0 vingslag per sekund.</p><p>a)&nbsp;Bestäm \\(a\\) och \\(k\\).<br>b)&nbsp;Använd modellen för att uppskatta vingfrekvensen för en fågel med massan 0,40 kg.<br>c)&nbsp;Tolka tecknet på exponenten \\(a\\).</p>",
+  "s": "<p>Från kvoten mellan de två datapunkterna fås</p><p>\\[\\frac{3}{12}=\\left(\\frac{4}{0{,}03}\\right)^a.\\]</p><p>Därav \\(a\\approx-0{,}283\\). Med exempelvis första punkten fås \\(k\\approx4{,}44\\).</p><p>Modellen blir alltså ungefär \\(f=4{,}44m^{-0{,}283}\\).</p><p>För \\(m=0{,}40\\) fås \\(f\\approx5{,}76\\) vingslag/s.</p><p>Den negativa exponenten betyder att modellen förutsäger lägre vingfrekvens när massan ökar.</p><p><strong>\\(a\\approx-0{,}283\\), \\(k\\approx4{,}44\\), \\(f(0{,}40)\\approx5{,}76\\).</strong></p>",
+  "familj": "Bestämma potensmodell från två punkter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -0.283,
+    4.44,
+    5.76,
+    null
+  ],
+  "tolerans": [
+    0.01,
+    0.08,
+    0.1,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "modellering",
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "a",
+    "k",
+    "frekvens",
+    "tolkning"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Dividera de två ekvationerna med varandra så försvinner konstanten \\(k\\). Då kan exponenten bestämmas med logaritmer.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.821",
+  "kap": 2,
+  "omr": "potensfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Vid ett bromstest mäts följande ungefärliga bromssträckor på torr väg.</p><table class=\"data\"><thead><tr><th>Hastighet \\(v\\) (km/h)</th><th>Bromssträcka \\(d\\) (m)</th></tr></thead><tbody><tr><td>30</td><td>5,8</td></tr><tr><td>50</td><td>15,4</td></tr><tr><td>70</td><td>29,8</td></tr><tr><td>90</td><td>49,7</td></tr><tr><td>110</td><td>73,9</td></tr></tbody></table><p>a)&nbsp;Gör en potensregression \\(d=av^b\\) i GeoGebra.<br>b)&nbsp;Uppskatta bromssträckan vid 100 km/h.<br>c)&nbsp;Modellen ger en exponent nära 2. Förklara vad det betyder för bromssträckan när hastigheten fördubblas, och jämför med modellens faktiska fördubblingsfaktor.</p>",
+  "s": "<p>a) Potensregression ger ungefär</p><p>\\[d=0{,}00728v^{1{,}961}.\\]</p><p>b) Vid 100 km/h blir \\(d\\approx60{,}8\\) m.</p><p>c) En exponent nära 2 betyder att bromssträckan nästan är proportionell mot kvadraten på hastigheten. En fördubbling multiplicerar enligt modellen sträckan med</p><p>\\[2^{1{,}961}\\approx3{,}89,\\]</p><p>alltså nästan fyra gånger.</p><p><strong>\\(d\\approx0{,}00728v^{1{,}961}\\), \\(d(100)\\approx60{,}8\\) m, fördubbling ger faktor ca 3,89.</strong></p>",
+  "familj": "Potensregression och tolkning",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    null,
+    60.8,
+    3.89,
+    null
+  ],
+  "tolerans": [
+    null,
+    1,
+    0.08,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "modellering",
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt",
+    "numeriskt",
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "a) modell",
+    "b) bromssträcka (m)",
+    "c) faktor",
+    "tolkning"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Använd potensregression. För att tolka exponenten kan du jämföra \\(d(2v)/d(v)=2^b\\).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.822",
+  "kap": 2,
+  "omr": "potensfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>I en förenklad modell antas energin \\(E\\) som krävs för att skapa en krater med diameter \\(D\\) följa en potenslag \\(E=kD^p\\).</p><p>Ett test ger \\(D=1{,}2\\) m vid \\(E=2{,}5\\) MJ och ett annat \\(D=2{,}8\\) m vid \\(E=22\\) MJ.</p><p>a)&nbsp;Bestäm en potensmodell för sambandet.<br>b)&nbsp;Hur stor diameter förutsäger modellen vid 50 MJ?<br>c)&nbsp;En elev säger: ”Dubbel energi ger dubbel diameter.” Använd exponenten för att bedöma påståendet.</p>",
+  "s": "<p>Dividera ekvationerna:</p><p>\\[\\frac{22}{2{,}5}=\\left(\\frac{2{,}8}{1{,}2}\\right)^p.\\]</p><p>Det ger \\(p\\approx2{,}567\\). Därefter fås \\(k\\approx1{,}566\\), alltså</p><p>\\[E\\approx1{,}566D^{2{,}567}.\\]</p><p>Vid \\(E=50\\) löser man \\(50=1{,}566D^{2{,}567}\\), vilket ger \\(D\\approx3{,}86\\) m.</p><p>Eftersom exponenten är större än 1 växer energibehovet snabbare än diametern. Om energin fördubblas multipliceras diametern bara med \\(2^{1/2{,}567}\\approx1{,}31\\), inte med 2.</p><p><strong>\\(E\\approx1{,}566D^{2{,}567}\\), diameter ca 3,86 m vid 50 MJ.</strong></p>",
+  "familj": "Potensmodell och invers problemlösning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2.567,
+    1.566,
+    3.86,
+    null
+  ],
+  "tolerans": [
+    0.02,
+    0.03,
+    0.08,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "modellering",
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "p",
+    "k",
+    "diameter (m)",
+    "bedömning"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Dividera de två potenssambanden så att \\(k\\) försvinner. När modellen är bestämd behöver du sedan lösa den med avseende på \\(D\\).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.823",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=3\\\\[2mm]\\lg\\!\\left(\\frac{x}{y}\\right)=1\\end{cases}\\]</p><p>Försök att inte börja med att skriva om systemet till \\(xy=1000\\) och \\(x/y=10\\). Använd i stället logaritmlagarna så att ett välbekant ekvationssystem träder fram.</p>",
+  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Logaritmlagarna ger</p><p>\\[\\begin{cases}u+v=3\\\\u-v=1\\end{cases}\\]</p><p>Addition ger \\(2u=4\\), alltså \\(u=2\\). Då är \\(v=1\\).</p><p>Alltså \\(x=10^2=100\\) och \\(y=10^1=10\\).</p><p><strong>\\((x,y)=(100,10)\\).</strong></p>",
+  "familj": "Logaritmsystem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    100,
+    10
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Använd produkt- och kvotlagen innan du löser det nya systemet.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "2.824",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=3\\\\[2mm]\\lg\\!\\left(\\frac{x^2}{y}\\right)=1\\end{cases}\\]</p><p>Svara exakt.</p>",
+  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då blir systemet</p><p>\\[\\begin{cases}u+v=3\\\\2u-v=1\\end{cases}\\]</p><p>Addition ger \\(3u=4\\), alltså \\(u=\\frac43\\). Då är \\(v=\\frac53\\).</p><p>Därför</p><p>\\[x=10^{4/3},\\qquad y=10^{5/3}.\\]</p><p><strong>\\((x,y)=\\left(10^{4/3},10^{5/3}\\right)\\).</strong></p>",
+  "familj": "Logaritmsystem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "10^(4/3)",
+    "10^(5/3)"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Låt \\(u=\\lg x\\), \\(v=\\lg y\\). Potenslagen gör den andra ekvationen linjär i \\(u\\) och \\(v\\).</p>",
+  "traningsniva":  5,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.825",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=4\\\\[2mm]\\lg x=2\\lg y-3\\end{cases}\\]</p><p>Visa hur systemet kan lösas med substitution efter ett lämpligt variabelbyte. Svara exakt.</p>",
+  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då blir</p><p>\\[u+v=4,\\qquad u=2v-3.\\]</p><p>Substitution ger \\((2v-3)+v=4\\), alltså \\(3v=7\\) och \\(v=\\frac73\\). Då är \\(u=\\frac53\\).</p><p>Alltså</p><p>\\[x=10^{5/3},\\qquad y=10^{7/3}.\\]</p><p><strong>\\((x,y)=\\left(10^{5/3},10^{7/3}\\right)\\).</strong></p>",
+  "familj": "Logaritmsystem med substitution",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "10^(5/3)",
+    "10^(7/3)"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "procedur",
+    "resonemang"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då får du ett linjärt system där den ena ekvationen redan är löst för \\(u\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.826",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg x+\\lg y=3\\\\[2mm](\\lg x)^2+(\\lg y)^2=5\\end{cases}\\]</p><p>Här räcker det inte att bara använda logaritmlagarna mekaniskt. Försök hitta ett variabelbyte som avslöjar strukturen och bestäm alla lösningar.</p>",
+  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då gäller</p><p>\\[u+v=3,\\qquad u^2+v^2=5.\\]</p><p>Kvadrera den första ekvationen:</p><p>\\[9=u^2+2uv+v^2=5+2uv,\\]</p><p>så \\(uv=2\\). Talen \\(u\\) och \\(v\\) har alltså summa 3 och produkt 2. De är därför rötterna till</p><p>\\[z^2-3z+2=0,\\]</p><p>alltså \\(z=1\\) eller \\(z=2\\).</p><p>Därmed är \\((u,v)=(1,2)\\) eller \\((2,1)\\), vilket ger</p><p>\\[(x,y)=(10,100)\\quad\\text{eller}\\quad(100,10).\\]</p><p><strong>Två lösningar: \\((10,100)\\) och \\((100,10)\\).</strong></p>",
+  "familj": "Icke-linjärt logaritmsystem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "resonemang",
+    "procedur"
+  ],
+  "svarFormat": [
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "lösningar"
+  ],
+  "svarsstruktur": "mängd",
+  "ledtrad": "<p>Sätt \\(u=\\lg x\\), \\(v=\\lg y\\). Du känner då både \\(u+v\\) och \\(u^2+v^2\\). Kan du därifrån bestämma \\(uv\\)?</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "manuellKomplettering": true
+},
+{
+  "id": "2.827",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Bestäm det exakta värdet för \\(\\lg a^2+\\lg b^2\\) om \\(a\\cdot b=10^5\\).</p>",
+  "s": "<p>\\(\\lg a^2+\\lg b^2=2\\lg a+2\\lg b=2\\lg(ab)\\).</p><p>Eftersom \\(ab=10^5\\) fås \\(2\\lg(10^5)=2\\cdot5=10\\).</p><p><strong>10</strong></p>",
+  "familj": "NP-ankare: logaritmlagar",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Försök skriva ihop de båda logaritmerna så att produkten \\(ab\\) dyker upp.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma2c vt 2014, uppgift 9",
+  "referensTyp": "original"
+},
+{
+  "id": "2.828",
+  "kap": 2,
+  "omr": "andragradsekvationer",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Lös ekvationen \\[(x-\\sqrt3)^2-4(x-\\sqrt3)+3=0\\] om du vet att \\(t^2-4t+3=0\\) har lösningarna \\(t_1=3\\) och \\(t_2=1\\). Svara med exakta värden.</p>",
+  "s": "<p>Sätt \\(t=x-\\sqrt3\\). Då är \\(t=3\\) eller \\(t=1\\).</p><p>Alltså \\(x=3+\\sqrt3\\) eller \\(x=1+\\sqrt3\\).</p><p><strong>\\(x=1+\\sqrt3\\) eller \\(x=3+\\sqrt3\\).</strong></p>",
+  "familj": "NP-ankare: dold substitution",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "1+sqrt(3)",
+    "3+sqrt(3)"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Jämför uttrycket \\(x-\\sqrt3\\) med variabeln \\(t\\) i den enklare ekvationen.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "svarEtiketter": [
+    "x₁",
+    "x₂"
+  ],
+  "svarsstruktur": "mängd",
+  "manuellKomplettering": true,
+  "kalla": "NP Ma2c vt 2014, uppgift 10",
+  "referensTyp": "original"
+},
+{
+  "id": "2.829",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Lös ekvationen \\[\\lg5+2\\lg x=\\lg80.\\]</p>",
+  "s": "<p>\\(2\\lg x=\\lg x^2\\), så \\(\\lg(5x^2)=\\lg80\\). Därmed \\(5x^2=80\\), alltså \\(x^2=16\\).</p><p>Eftersom \\(\\lg x\\) kräver \\(x>0\\) fås <strong>\\(x=4\\)</strong>.</p>",
+  "familj": "NP-ankare: logaritmekvation",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd potenslagen och produktlagen. Glöm inte definitionsvillkoret för \\(\\lg x\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma2c ht 2013, uppgift 7c",
+  "referensTyp": "original"
+},
+{
+  "id": "2.830",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Värdet på \\(\\lg2\\) är ungefär \\(0{,}301\\). Bestäm ett värde på \\(\\lg8\\) med tre decimaler.</p>",
+  "s": "<p>Eftersom \\(8=2^3\\) gäller \\(\\lg8=\\lg(2^3)=3\\lg2\\approx3\\cdot0{,}301=0{,}903\\).</p><p><strong>0,903</strong></p>",
+  "familj": "NP-ankare: logaritmstruktur",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.903,
+  "tolerans": 0.0005,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Skriv 8 som en potens med basen 2.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kalla": "NP Ma2c ht 2013, uppgift 8",
+  "referensTyp": "original"
+},
+{
+  "id": "2.831",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Om \\(\\lg(2a)=6\\) så blir värdet av \\(\\lg(2000a)\\) ett heltal. Bestäm detta heltal.</p>",
+  "s": "<p>\\(2000a=1000\\cdot2a\\). Därför</p><p>\\[\\lg(2000a)=\\lg1000+\\lg(2a)=3+6=9.\\]</p><p><strong>9</strong></p>",
+  "familj": "NP-ankare: logaritmlagar C",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Försök skriva \\(2000a\\) som \\(1000\\cdot(2a)\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma2c ht 2014, uppgift 13",
+  "referensTyp": "original"
+},
+{
+  "id": "2.832",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Förenkla uttrycket så långt som möjligt:</p><p>\\[\\frac{\\lg\\sqrt{x}\\cdot\\lg\\left(\\frac{x}{2}\\right)^2}{\\lg\\left(\\frac{x}{2}\\right)}.\\]</p>",
+  "s": "<p>\\(\\lg\\sqrt{x}=\\frac12\\lg x\\) och \\(\\lg\\left(\\frac{x}{2}\\right)^2=2\\lg\\left(\\frac{x}{2}\\right)\\).</p><p>För \\(x>0\\) och \\(x\\ne2\\) kan faktorn \\(\\lg(x/2)\\) förkortas:</p><p>\\[\\frac{\\frac12\\lg x\\cdot2\\lg(x/2)}{\\lg(x/2)}=\\lg x.\\]</p><p><strong>\\(\\lg x\\)</strong></p>",
+  "familj": "NP-ankare: avancerad logaritmförenkling",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "uttryck",
+  "rättSvar": "lg(x)",
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd potenslagen separat på \\(\\sqrt{x}\\) och på kvadraten.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true,
+  "kalla": "NP Ma2c vt 2015, uppgift 9b",
+  "referensTyp": "original"
+},
+{
+  "id": "2.833",
+  "kap": 2,
+  "omr": "andragradsekvationer",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Lös ekvationen och svara exakt på enklaste form:</p><p>\\[(5987-x)^2-2(5987-x)=0.\\]</p>",
+  "s": "<p>Sätt \\(t=5987-x\\). Då blir \\(t^2-2t=0\\), alltså \\(t(t-2)=0\\).</p><p>Så \\(t=0\\) eller \\(t=2\\), vilket ger \\(x=5987\\) eller \\(x=5985\\).</p><p><strong>\\(x=5985\\) eller \\(x=5987\\).</strong></p>",
+  "familj": "NP-ankare: substitutionsidé",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5985,
+    5987
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Hela uttrycket \\(5987-x\\) återkommer. Behandla det som en ny variabel.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "x₁",
+    "x₂"
+  ],
+  "svarsstruktur": "mängd",
+  "kalla": "NP Ma2c vt 2022, uppgift 6e",
+  "referensTyp": "original"
+},
+{
+  "id": "2.834",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>I början av år 2011 köpte Matilda en dator för 10 000 kr. Datorns värde kan beskrivas med \\(V(t)=10000\\cdot0{,}60^t\\), där \\(V\\) är datorns värde i kr och \\(t\\) är tiden i år efter inköpet.</p><p>Teckna en ny funktion som anger datorns värde \\(V\\) i kr som funktion av tiden \\(t\\), där tiden nu i stället ska räknas i <em>månader</em> efter inköpet.</p>",
+  "s": "<p>Om \\(t\\) nu mäts i månader motsvarar \\(t\\) månader \\(t/12\\) år. Sätt därför in \\(t/12\\) i den ursprungliga modellen:</p><p>\\[V(t)=10000\\cdot0{,}60^{t/12}.\\]</p><p><strong>\\(V(t)=10000\\cdot0{,}60^{t/12}\\)</strong></p>",
+  "familj": "NP-ankare: byta tidsenhet i exponentialmodell",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "uttryck",
+  "rättSvar": "10000*0.60^(t/12)",
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Hur många år är \\(t\\) månader?</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true,
+  "kalla": "NP Ma2c vt 2012, uppgift 9b",
+  "referensTyp": "original"
+},
+{
+  "id": "2.835",
+  "kap": 2,
+  "omr": "andragradsfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>För andragradsfunktionen \\(f\\) gäller att</p><p>\\[f(x)=-0{,}5x^2+bx-2.\\]</p><p>Bestäm för vilka värden på \\(b\\) som \\(f\\) endast har ett nollställe.</p>",
+  "s": "<p>Ett enda nollställe betyder dubbelrot, alltså diskriminanten noll:</p><p>\\[b^2-4\\cdot(-0{,}5)\\cdot(-2)=0\\Rightarrow b^2-4=0.\\]</p><p>Därför <strong>\\(b=\\pm2\\)</strong>.</p>",
+  "familj": "NP-ankare: parameter och dubbelrot",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    2
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>En andragradsfunktion har exakt ett nollställe när diskriminanten är 0.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "b₁",
+    "b₂"
+  ],
+  "svarsstruktur": "mängd",
+  "kalla": "NP Ma2c vt 2015, uppgift 17a",
+  "referensTyp": "original"
+},
+{
+  "id": "2.836",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Allt levande material innehåller kol-14. Efter 5730 år har mängden kol-14 minskat till hälften av den ursprungliga mängden enligt modellen</p><p>\\[y=C\\cdot2^{-kx},\\]</p><p>där \\(y\\) är den mängd kol-14 som finns kvar och \\(x\\) är antal år efter att mängden började minska. I modellen är \\(C\\) och \\(k\\) konstanter.</p><p>Bestäm vilken ålder ett djurskinn hade om mängden kol-14 var 65,5 % av den ursprungliga mängden.</p>",
+  "s": "<p>Halveringstiden ger \\(k=1/5730\\). Sätt \\(y/C=0{,}655\\):</p><p>\\[0{,}655=2^{-x/5730}.\\]</p><p>Logaritmering ger</p><p>\\[x=-5730\\frac{\\lg0{,}655}{\\lg2}\\approx3498.\\]</p><p><strong>Djurskinnet är ungefär 3500 år gammalt.</strong></p>",
+  "familj": "NP-ankare: halveringstid och modell",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3500,
+  "tolerans": 20,
+  "självrättning": true,
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Bestäm först \\(k\\) från halveringstiden. Dividera sedan modellen med \\(C\\).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": true,
+  "kalla": "NP Ma2c ht 2014, uppgift 25",
+  "referensTyp": "original"
+},
+{
+  "id": "2.837",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>Det tar 8,0 timmar för aktiviteten hos ett radioaktivt ämne att minska exponentiellt från 11,5 MBq till 4,6 MBq.</p><p>a) Med hur många procent avtar aktiviteten per timme?<br>b) Hur stor är aktiviteten efter ett dygn om den var 11,5 MBq från början?</p>",
+  "s": "<p>a) Om förändringsfaktorn per timme är \\(q\\) gäller \\(11{,}5q^8=4{,}6\\). Alltså \\(q=(4{,}6/11{,}5)^{1/8}=0{,}4^{1/8}\\approx0{,}8918\\), vilket motsvarar en minskning på cirka <strong>10,8 % per timme</strong>.</p><p>b) Efter 24 timmar har tre åttatimmarsperioder gått, så</p><p>\\[11{,}5\\cdot0{,}4^3=0{,}736\\text{ MBq}.\\]</p><p><strong>0,736 MBq.</strong></p>",
+  "familj": "NP-ankare: exponentialmodell C",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    10.8,
+    0.736
+  ],
+  "tolerans": [
+    0.2,
+    0.01
+  ],
+  "självrättning": true,
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "ledtrad": "<p>Bestäm först förändringsfaktorn \\(q\\) ur \\(11{,}5q^8=4{,}6\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "minskning (%/h)",
+    "aktivitet efter 24 h (MBq)"
+  ],
+  "svarsstruktur": "ordnad",
+  "kalla": "NP Ma2c vt 2014, uppgift 21",
+  "referensTyp": "original"
+},
+{
+  "id": "2.838",
+  "kap": 1,
+  "omr": "ekvationssystem",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/2",
+  "t": "<p>Ett ekvationssystem består av två ekvationer där varje ekvation innehåller två variabler \\(x\\) och \\(y\\).</p><p>a) Den ena ekvationen är \\(3x+2y=12\\). Ge ett exempel på hur den andra ekvationen kan se ut så att ekvationssystemet saknar lösningar.</p><p>b) Den ena ekvationen är fortfarande \\(3x+2y=12\\). Ge ett exempel på hur den andra ekvationen kan se ut så att ekvationssystemet endast får lösningen \\(x=2,\\ y=3\\).</p>",
+  "s": "<p>a) Den andra linjen ska vara parallell men inte samma linje, till exempel \\(6x+4y=25\\).</p><p>b) Den andra linjen ska gå genom \\((2,3)\\) men inte vara parallell med den första, till exempel \\(x+y=5\\).</p><p><strong>Exempel: a) \\(6x+4y=25\\), b) \\(x+y=5\\).</strong></p>",
+  "familj": "NP-ankare: konstruera ekvationssystem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "ledtrad": "<p>a) Tänk parallella linjer. b) Välj en annan linje genom punkten \\((2,3)\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "svarEtiketter": [
+    "a) andra ekvationen",
+    "b) andra ekvationen"
+  ],
+  "svarsstruktur": "ordnad",
+  "manuellKomplettering": true,
+  "kalla": "NP Ma2c vt 2012, uppgift 10",
+  "referensTyp": "original"
+},
+{
+  "id": "2.839",
+  "kap": 1,
+  "omr": "algebraiska_identiteter",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Ove beräknar uttrycket</p><p>\\[123456789\\cdot123456789-123456788\\cdot123456790\\]</p><p>med sin miniräknare. Räknaren ger resultatet 0. Ove misstänker att räknaren ger fel svar. Visa genom att använda algebra att räknaren ger fel svar.</p>",
+  "s": "<p>Sätt \\(n=123456789\\). Då är uttrycket</p><p>\\[n^2-(n-1)(n+1).\\]</p><p>Konjugatregeln ger \\((n-1)(n+1)=n^2-1\\), alltså</p><p>\\[n^2-(n^2-1)=1.\\]</p><p><strong>Det korrekta värdet är 1, så räknarens 0 är fel.</strong></p>",
+  "familj": "NP-ankare: algebra kontra räknarfel",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "resonemang",
+    "procedur"
+  ],
+  "ledtrad": "<p>Se talen som \\(n-1\\), \\(n\\) och \\(n+1\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "svarFormat": [
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "visning"
+  ],
+  "manuellKomplettering": true,
+  "kalla": "NP Ma2c ht 2014, uppgift 12",
+  "referensTyp": "original"
+},
+{
+  "id": "2.840",
+  "kap": 2,
+  "omr": "andragradsekvationer",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En andragradsekvation</p><p>\\[x^2+(a+4)x+b+5=0\\]</p><p>har lösningarna \\(x_1=1\\) och \\(x_2=-3\\). Bestäm värdet på \\(a\\) och \\(b\\).</p>",
+  "s": "<p>Summan av rötterna är \\(-2\\), alltså \\(-(a+4)=-2\\), vilket ger \\(a=-2\\).</p><p>Produkten är \\(-3\\), alltså \\(b+5=-3\\), vilket ger \\(b=-8\\).</p><p><strong>\\(a=-2\\), \\(b=-8\\).</strong></p>",
+  "familj": "NP-ankare: rötter och koefficienter",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    -8
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd sambanden mellan rötternas summa/produkt och koefficienterna.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad",
+  "kalla": "NP Ma2c vt 2015, uppgift 14",
+  "referensTyp": "original"
+},
+{
+  "id": "2.841",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "t": "<p>Vilka två av alternativen A-E är lika med 2?</p><p>A. \\(\\lg49+\\lg51\\)<br>B. \\(\\frac{\\lg200}{2}\\)<br>C. \\(\\lg500-\\lg5\\)<br>D. \\(4^{\\lg0{,}5}\\)<br>E. \\((\\lg10000)^{0{,}5}\\)</p>",
+  "s": "<p>C ger \\(\\lg(500/5)=\\lg100=2\\). E ger \\((\\lg10000)^{0{,}5}=4^{0{,}5}=2\\).</p><p><strong>C och E.</strong></p>",
+  "familj": "NP-ankare: logaritmbegrepp C",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "C",
+    "E"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": false,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd produkt-, kvot- och potenslagen där de passar.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": false,
+  "svarFormat": [
+    "text",
+    "text"
+  ],
+  "svarEtiketter": [
+    "alternativ 1",
+    "alternativ 2"
+  ],
+  "svarsstruktur": "mängd",
+  "manuellKomplettering": true,
+  "kalla": "NP Ma2c ht 2014, uppgift 6",
+  "referensTyp": "original"
+},
+{
+  "id": "2.842",
+  "kap": 1,
+  "omr": "algebraiska_bevis",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/3/1",
+  "t": "<p>a) Visa att summan av två udda tal alltid är jämn.</p><p>b) Visa att produkten av två udda tal alltid är udda.</p>",
+  "s": "<p>Skriv två godtyckliga udda tal som \\(2n+1\\) och \\(2k+1\\).</p><p>a) Summan blir \\(2n+1+2k+1=2(n+k+1)\\), alltså jämn.</p><p>b) Produkten blir \\((2n+1)(2k+1)=2(2nk+n+k)+1\\), alltså udda.</p>",
+  "familj": "Referensankare: generellt algebraiskt bevis",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "resonemang",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Representera ett godtyckligt udda tal som \\(2n+1\\).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "svarFormat": [
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "bevis"
+  ],
+  "manuellKomplettering": true,
+  "kalla": "Extrauppgifter Algebra, uppgift 7",
+  "referensTyp": "original"
+},
+{
+  "id": "2.843",
+  "kap": 2,
+  "omr": "andragradsekvationer",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/3/2",
+  "t": "<p>Lös ekvationen och ange även eventuella komplexa rötter:</p><p>\\[2x^4-14x^2-16=0.\\]</p>",
+  "s": "<p>Dividera med 2 och sätt \\(t=x^2\\):</p><p>\\[t^2-7t-8=0=(t-8)(t+1).\\]</p><p>Alltså \\(x^2=8\\) eller \\(x^2=-1\\).</p><p><strong>\\(x=\\pm2\\sqrt2\\) samt \\(x=\\pm i\\).</strong></p>",
+  "familj": "Referensankare: bi-kvadratisk substitution",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Sätt \\(t=x^2\\) och lös först andragradsekvationen i \\(t\\).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "svarFormat": [
+    "resonemang"
+  ],
+  "svarEtiketter": [
+    "alla rötter"
+  ],
+  "manuellKomplettering": true,
+  "kalla": "Extrauppgifter kap 2, uppgift 8b",
+  "referensTyp": "original"
+},
+{
+  "id": "2.844",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Bestäm det exakta värdet av \\(\\lg a^3+\\lg b^3\\) om \\(ab=10^4\\).</p>",
+  "s": "<p>\\(\\lg a^3+\\lg b^3=3\\lg(ab)=3\\lg(10^4)=12\\).</p><p><strong>12</strong></p>",
+  "familj": "Variant: logaritmlagar och given produkt",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Försök få fram \\(\\lg(ab)\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kalla": "Ny variant av NP Ma2c vt 2014, uppgift 9",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.845",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Bestäm det exakta värdet av</p><p>\\[\\lg(a^2b)+\\lg(ab^2)\\]</p><p>om \\(ab=10^6\\).</p>",
+  "s": "<p>Produktlagen ger</p><p>\\[\\lg(a^2b\\cdot ab^2)=\\lg(a^3b^3)=\\lg((ab)^3).\\]</p><p>Därför blir värdet \\(\\lg((10^6)^3)=\\lg(10^{18})=18\\).</p><p><strong>18</strong></p>",
+  "familj": "Variant: dold produkt i logaritmer",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 18,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Multiplicera argumenten när du slår ihop logaritmerna.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "Ny variant inspirerad av NP-logaritmankare",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.846",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg7+2\\lg x=\\lg112.\\]</p>",
+  "s": "<p>\\(\\lg(7x^2)=\\lg112\\), alltså \\(7x^2=112\\) och \\(x^2=16\\). Eftersom \\(x>0\\) fås <strong>\\(x=4\\)</strong>.</p>",
+  "familj": "Variant: logaritmekvation med definitionsvillkor",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd potenslagen och produktlagen. Logaritmens argument måste vara positivt.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 7c",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.847",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Värdet på \\(\\lg5\\) är ungefär \\(0{,}699\\). Bestäm \\(\\lg0{,}125\\) med tre decimaler utan miniräknare.</p>",
+  "s": "<p>Eftersom \\(\\lg2=1-\\lg5\\approx0{,}301\\) och \\(0{,}125=1/8=2^{-3}\\) får vi</p><p>\\[\\lg0{,}125=-3\\lg2\\approx-3\\cdot0{,}301=-0{,}903.\\]</p><p><strong>-0,903</strong></p>",
+  "familj": "Variant: härleda logaritmvärde",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": -0.903,
+  "tolerans": 0.0005,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Ta först fram \\(\\lg2\\) ur \\(\\lg10=\\lg2+\\lg5\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "Ny variant av NP Ma2c ht 2013, uppgift 8",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.848",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Om \\(\\lg(5a)=4\\), bestäm \\(\\lg(500a)\\).</p>",
+  "s": "<p>\\(500a=100\\cdot5a\\), alltså \\(\\lg(500a)=\\lg100+\\lg(5a)=2+4=6\\).</p><p><strong>6</strong></p>",
+  "familj": "Variant: logaritmlagar C",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Skriv \\(500a\\) som en produkt där \\(5a\\) ingår.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 13",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.849",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{\\lg\\sqrt[3]{x}\\cdot\\lg\\left(\\frac{x}{5}\\right)^3}{\\lg\\left(\\frac{x}{5}\\right)}.\\]</p>",
+  "s": "<p>\\(\\lg\\sqrt[3]{x}=\\frac13\\lg x\\) och \\(\\lg((x/5)^3)=3\\lg(x/5)\\). För \\(x>0\\), \\(x\\ne5\\), fås</p><p>\\[\\frac{\\frac13\\lg x\\cdot3\\lg(x/5)}{\\lg(x/5)}=\\lg x.\\]</p><p><strong>\\(\\lg x\\)</strong></p>",
+  "familj": "Variant: avancerad logaritmförenkling",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "uttryck",
+  "rättSvar": "lg(x)",
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd potenslagen på båda logaritmerna i täljaren.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true,
+  "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 9b",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.850",
+  "kap": 2,
+  "omr": "andragradsekvationer",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Lös ekvationen exakt:</p><p>\\[(2026-2x)^2-5(2026-2x)+6=0.\\]</p>",
+  "s": "<p>Sätt \\(t=2026-2x\\). Då \\(t^2-5t+6=0\\), alltså \\(t=2\\) eller \\(t=3\\).</p><p>Det ger \\(x=1012\\) respektive \\(x=1011{,}5\\).</p><p><strong>\\(x=1011{,}5\\) eller \\(x=1012\\).</strong></p>",
+  "familj": "Variant: dold substitution",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1011.5,
+    1012
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Låt hela uttrycket \\(2026-2x\\) vara en ny variabel.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "x₁",
+    "x₂"
+  ],
+  "svarsstruktur": "mängd",
+  "kalla": "Ny variant av NP Ma2c vt 2022, uppgift 6e",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.851",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/1",
+  "t": "<p>Värdet på en maskin beskrivs av \\(P(t)=24000\\cdot0{,}81^t\\), där \\(t\\) är tiden i år.</p><p>Teckna en ny funktion som beskriver värdet när tidsvariabeln \\(m\\) i stället mäts i månader.</p>",
+  "s": "<p>\\(m\\) månader är \\(m/12\\) år. Därför</p><p>\\[P(m)=24000\\cdot0{,}81^{m/12}.\\]</p>",
+  "familj": "Variant: byta tidsenhet i exponentialmodell",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "uttryck",
+  "rättSvar": "24000*0.81^(m/12)",
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Ersätt antal år med antal månader dividerat med 12.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "manuellKomplettering": true,
+  "kalla": "Ny variant av NP Ma2c vt 2012, uppgift 9b",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.852",
+  "kap": 2,
+  "omr": "andragradsfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>För funktionen \\(g(x)=-2x^2+cx-8\\) ska grafen tangera \\(x\\)-axeln. Bestäm alla möjliga värden på \\(c\\).</p>",
+  "s": "<p>Tangering betyder dubbelrot, alltså diskriminanten 0:</p><p>\\[c^2-4\\cdot(-2)\\cdot(-8)=0\\Rightarrow c^2-64=0.\\]</p><p><strong>\\(c=\\pm8\\)</strong>.</p>",
+  "familj": "Variant: parameter och dubbelrot",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -8,
+    8
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Tangering mot \\(x\\)-axeln innebär exakt ett nollställe.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "c₁",
+    "c₂"
+  ],
+  "svarsstruktur": "mängd",
+  "kalla": "Ny variant av NP Ma2c vt 2015, uppgift 17a",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.853",
+  "kap": 2,
+  "omr": "exponentialfunktioner",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Ett radioaktivt ämne har halveringstiden 1600 år. I ett prov återstår 30 % av den ursprungliga mängden.</p><p>Bestäm provets ålder. Svara i hela år.</p>",
+  "s": "<p>Modellen kan skrivas \\(0{,}30=2^{-t/1600}\\). Logaritmering ger</p><p>\\[t=-1600\\frac{\\lg0{,}30}{\\lg2}\\approx2779.\\]</p><p><strong>Ungefär 2779 år.</strong></p>",
+  "familj": "Variant: halveringstid",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2779,
+  "tolerans": 2,
+  "självrättning": true,
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Skriv den återstående andelen som \\(2^{-t/1600}\\).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "Ny variant av NP Ma2c ht 2014, uppgift 25",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.854",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg(xy)=4\\\\[2mm]\\lg(x^2y^3)=11\\end{cases}\\]</p><p>Svara exakt.</p>",
+  "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då fås</p><p>\\[\\begin{cases}u+v=4\\\\2u+3v=11\\end{cases}\\]</p><p>Subtraktion ger \\(v=3\\), och då \\(u=1\\). Därmed \\(x=10\\), \\(y=1000\\).</p><p><strong>\\((x,y)=(10,1000)\\).</strong></p>",
+  "familj": "Variant: dolt logaritmiskt ekvationssystem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    10,
+    1000
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Prova variabelbytet \\(u=\\lg x\\), \\(v=\\lg y\\).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarsstruktur": "ordnad",
+  "kalla": "Ny variant kalibrerad mot NP-logaritmuppgifter",
+  "referensTyp": "variant"
+},
+{
+  "id": "2.855",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "t": "<p>Lös systemet för positiva \\(x\\) och \\(y\\):</p><p>\\[\\begin{cases}\\lg x+2\\lg y=7\\\\[2mm]\\lg\\left(\\frac{x}{y}\\right)=1\\end{cases}\\]</p><p>Svara exakt.</p>",
+  "s": "<p>Sätt \\(u=\\lg x\\), \\(v=\\lg y\\). Då blir systemet</p><p>\\[\\begin{cases}u+2v=7\\\\u-v=1\\end{cases}\\]</p><p>Substitution eller addition ger \\(v=2\\) och \\(u=3\\). Alltså \\(x=1000\\), \\(y=100\\).</p><p><strong>\\((x,y)=(1000,100)\\).</strong></p>",
+  "familj": "Variant: logaritmlagar + ekvationssystem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1000,
+    100
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "ledtrad": "<p>Låt logaritmerna själva vara de nya obekanta.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarsstruktur": "ordnad",
+  "kalla": "Ny variant kalibrerad mot NP-logaritmuppgifter",
+  "referensTyp": "variant"
+}
 ];

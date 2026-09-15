@@ -83575,5 +83575,3085 @@ window.BANKMA1 = [
     "spel": false,
     "manuellKomplettering": true,
     "traningsniva": 5
+  },
+  {
+    "id": "0.593",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv talet <strong>62 000</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(62\\,000=6{,}2\\cdot10^{4}\\). Alltså a = 6,2 och n = 4.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.2,
+      4
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.594",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv talet <strong>0,00047</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(0,00047=4{,}7\\cdot10^{-4}\\). Alltså a = 4,7 och n = -4.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.7,
+      -4
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.595",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Avståndet i en beräkning anges till <strong>9 300 000</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(9\\,300\\,000=9{,}3\\cdot10^{6}\\). Alltså a = 9,3 och n = 6.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.3,
+      6
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.596",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv talet <strong>0,0812</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(0,0812=8{,}12\\cdot10^{-2}\\). Alltså a = 8,12 och n = -2.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.12,
+      -2
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.597",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv talet <strong>154 000 000</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(154\\,000\\,000=1{,}54\\cdot10^{8}\\). Alltså a = 1,54 och n = 8.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.54,
+      8
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.598",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv talet <strong>0,000006</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(0,000006=6\\cdot10^{-6}\\). Alltså a = 6 och n = -6.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      -6
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.599",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En stad har invånarantalet <strong>38 500</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(38\\,500=3{,}85\\cdot10^{4}\\). Alltså a = 3,85 och n = 4.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.85,
+      4
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.600",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv talet <strong>0,00205</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(0,00205=2{,}05\\cdot10^{-3}\\). Alltså a = 2,05 och n = -3.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.05,
+      -3
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.601",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv talet <strong>720 000 000 000</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(720\\,000\\,000\\,000=7{,}2\\cdot10^{11}\\). Alltså a = 7,2 och n = 11.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.2,
+      11
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.602",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En partikel har diametern (i meter) <strong>0,0000000094</strong>. Skriv svaret i grundpotensform \\(a\\cdot10^n\\), där \\(1\\le a&lt;10\\) och n är ett heltal. Ange a och n separat.</p>",
+    "s": "<p>Flytta decimaltecknet så att talfaktorn hamnar mellan 1 och 10: \\(0,0000000094=9{,}4\\cdot10^{-9}\\). Alltså a = 9,4 och n = -9.</p>",
+    "ledtrad": "<p>Hur många steg måste decimaltecknet flyttas för att talfaktorn ska hamna mellan 1 och 10?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Skriva tal i grundpotensform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9.4,
+      -9
+    ],
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "heltal"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEtiketter": [
+      "talfaktor a",
+      "exponent n"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "0.603",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(3{,}4\\cdot10^{3}\\) i vanlig decimalform.</p>",
+    "s": "<p>\\(10^{3}=1\\,000\\), så \\(3{,}4\\cdot10^{3}=3\\,400\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3400,
+    "tolerans": 3.4e-09,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.604",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(7{,}25\\cdot10^{-3}\\) i vanlig decimalform.</p>",
+    "s": "<p>Exponenten är negativ, så decimaltecknet flyttas 3 steg åt vänster: \\(7{,}25\\cdot10^{-3}=0{,}00725\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.00725,
+    "tolerans": 1e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.605",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(1{,}08\\cdot10^{5}\\) i vanlig decimalform.</p>",
+    "s": "<p>\\(10^{5}=100\\,000\\), så \\(1{,}08\\cdot10^{5}=108\\,000\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 108000,
+    "tolerans": 1.08e-07,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.606",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(9{,}6\\cdot10^{-5}\\) i vanlig decimalform.</p>",
+    "s": "<p>Exponenten är negativ, så decimaltecknet flyttas 5 steg åt vänster: \\(9{,}6\\cdot10^{-5}=0{,}000096\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.6e-05,
+    "tolerans": 1e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.607",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(2{,}5\\cdot10^{6}\\) i vanlig decimalform.</p>",
+    "s": "<p>\\(10^{6}=1\\,000\\,000\\), så \\(2{,}5\\cdot10^{6}=2\\,500\\,000\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2500000,
+    "tolerans": 2.4999999999999998e-06,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.608",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(4{,}03\\cdot10^{-2}\\) i vanlig decimalform.</p>",
+    "s": "<p>Exponenten är negativ, så decimaltecknet flyttas 2 steg åt vänster: \\(4{,}03\\cdot10^{-2}=0{,}0403\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0403,
+    "tolerans": 1e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.609",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(8{,}1\\cdot10^{4}\\) i vanlig decimalform.</p>",
+    "s": "<p>\\(10^{4}=10\\,000\\), så \\(8{,}1\\cdot10^{4}=81\\,000\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 81000,
+    "tolerans": 8.1e-08,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.610",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(6{,}7\\cdot10^{-6}\\) i vanlig decimalform.</p>",
+    "s": "<p>Exponenten är negativ, så decimaltecknet flyttas 6 steg åt vänster: \\(6{,}7\\cdot10^{-6}=0{,}0000067\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.7e-06,
+    "tolerans": 1e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.611",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(1{,}25\\cdot10^{7}\\) i vanlig decimalform.</p>",
+    "s": "<p>\\(10^{7}=10\\,000\\,000\\), så \\(1{,}25\\cdot10^{7}=12\\,500\\,000\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 12500000,
+    "tolerans": 1.2499999999999999e-05,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.612",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Skriv \\(5{,}04\\cdot10^{-4}\\) i vanlig decimalform.</p>",
+    "s": "<p>Exponenten är negativ, så decimaltecknet flyttas 4 steg åt vänster: \\(5{,}04\\cdot10^{-4}=0{,}000504\\).</p>",
+    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Växla mellan grundpotensform och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.000504,
+    "tolerans": 1e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.613",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>4,7 km</strong> till <strong>m</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>Kilo betyder tusen: 1 km = 1 000 m. Alltså 4,7 km = 4,7 · 1000 m = 4700 m.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från km till m?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4700,
+    "tolerans": 4.7e-09,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "0.614",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>250 mg</strong> till <strong>g</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>Milli betyder tusendel: 1 mg = 0,001 g. Alltså 250 mg = 250 · 0,001 g = 0,25 g.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från mg till g?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.25,
+    "tolerans": 2.5e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "g"
+  },
+  {
+    "id": "0.615",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>0,85 MW</strong> till <strong>kW</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>1 MW = 1 000 kW, eftersom mega är tusen gånger kilo. Alltså 0,85 MW = 0,85 · 1000 kW = 850 kW.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från MW till kW?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 850,
+    "tolerans": 8.5e-10,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kW"
+  },
+  {
+    "id": "0.616",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>62 µm</strong> till <strong>mm</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>1 mm = 1 000 µm, alltså är 1 µm = 0,001 mm. Alltså 62 µm = 62 · 0,001 mm = 0,062 mm.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från µm till mm?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.062,
+    "tolerans": 1e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "mm"
+  },
+  {
+    "id": "0.617",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>3,4 GB</strong> till <strong>MB</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>1 GB = 1 000 MB. Alltså 3,4 GB = 3,4 · 1000 MB = 3400 MB.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från GB till MB?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3400,
+    "tolerans": 3.4e-09,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "MB"
+  },
+  {
+    "id": "0.618",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>750 mL</strong> till <strong>L</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>Milli betyder tusendel: 1 mL = 0,001 L. Alltså 750 mL = 750 · 0,001 L = 0,75 L.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från mL till L?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 7.5e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "L"
+  },
+  {
+    "id": "0.619",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>0,042 s</strong> till <strong>ms</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>1 s = 1 000 ms. Alltså 0,042 s = 0,042 · 1000 ms = 42 ms.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från s till ms?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 4.2e-11,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "ms"
+  },
+  {
+    "id": "0.620",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>18 cm</strong> till <strong>m</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>Centi betyder hundradel: 1 cm = 0,01 m. Alltså 18 cm = 18 · 0,01 m = 0,18 m.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från cm till m?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.18,
+    "tolerans": 1.8e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "0.621",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>2,6 kN</strong> till <strong>N</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>Kilo betyder tusen: 1 kN = 1 000 N. Alltså 2,6 kN = 2,6 · 1000 N = 2600 N.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från kN till N?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2600,
+    "tolerans": 2.6e-09,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "N"
+  },
+  {
+    "id": "0.622",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Omvandla <strong>95 nm</strong> till <strong>µm</strong>.</p><p>Ange talvärdet i decimalform.</p>",
+    "s": "<p>1 µm = 1 000 nm, alltså är 1 nm = 0,001 µm. Alltså 95 nm = 95 · 0,001 µm = 0,095 µm.</p>",
+    "ledtrad": "<p>Blir talvärdet större eller mindre när du byter från nm till µm?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Omvandla med tiopotenser och prefix",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.095,
+    "tolerans": 1e-13,
+    "självrättning": true,
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "µm"
+  },
+  {
+    "id": "0.623",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Ett laboratorium har 0,024 g av ett ämne. Varje analys kräver 3 µg. Analyserna körs i omgångar med 500 analyser per omgång. Hur många hela omgångar kan köras?</p>",
+    "s": "<p>0,024 g = 24 000 µg. Antal analyser: 24 000 / 3 = 8 000. Antal hela omgångar: 8 000 / 500 = 16.</p><p><strong>Svar:</strong> 16</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 1.6e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.624",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En flaska innehåller 1,2 L vätska. Varje prov kräver 15 mL. Proven ställs i brickor med 20 prov i varje. Hur många hela brickor fylls?</p>",
+    "s": "<p>1,2 L = 1 200 mL. Antal prov: 1 200 / 15 = 80. Antal hela brickor: 80 / 20 = 4.</p><p><strong>Svar:</strong> 4</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 4e-12,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.625",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Ett apotek har 0,5 kg pulver. Varje kapsel innehåller 250 mg. Kapslarna packas 100 per burk. Hur många hela burkar blir det?</p>",
+    "s": "<p>0,5 kg = 500 000 mg. Antal kapslar: 500 000 / 250 = 2 000. Antal hela burkar: 2 000 / 100 = 20.</p><p><strong>Svar:</strong> 20</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 2e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.626",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Ett minneskort rymmer 2,5 MB, där 1 MB = 1 000 kB. Varje bild är 8 kB. Bilderna sorteras i album med 12 bilder i varje. Hur många hela album fylls?</p>",
+    "s": "<p>2,5 MB = 2 500 kB. Antal bilder: 2 500 / 8 = 312,5, alltså 312 hela bilder. Antal hela album: 312 / 12 = 26.</p><p><strong>Svar:</strong> 26</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": 2.6e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.627",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En rulle innehåller 0,9 m tråd. Varje krets kräver 6 mm tråd. Kretsarna monteras 25 per panel. Hur många hela paneler blir klara?</p>",
+    "s": "<p>0,9 m = 900 mm. Antal kretsar: 900 / 6 = 150. Antal hela paneler: 150 / 25 = 6.</p><p><strong>Svar:</strong> 6</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 6e-12,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.628",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En behållare rymmer 0,018 L. Varje droppe är 45 µL. Dropparna fördelas i serier med 40 droppar i varje. Hur många hela serier blir det?</p>",
+    "s": "<p>0,018 L = 18 000 µL. Antal droppar: 18 000 / 45 = 400. Antal hela serier: 400 / 40 = 10.</p><p><strong>Svar:</strong> 10</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 1e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.629",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Ett lager innehåller 4,8 g verksam substans. Varje tablett innehåller 120 mg. Tabletterna packas 15 per karta.</p><p>Hur många hela kartor kan packas?</p>",
+    "s": "<p>4,8 g = 4 800 mg. Antal tabletter: 4 800 / 120 = 40. Antal hela kartor: 40 / 15 = 2,67, alltså 2 hela kartor.</p><p><strong>Svar:</strong> 2</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 2e-12,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.630",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En hårddisk har 6 GB ledigt, där 1 GB = 1 000 MB. Varje film tar 250 MB. Filmerna sorteras i mappar med 4 filmer i varje. Hur många hela mappar fylls?</p>",
+    "s": "<p>6 GB = 6 000 MB. Antal filmer: 6 000 / 250 = 24. Antal hela mappar: 24 / 4 = 6.</p><p><strong>Svar:</strong> 6</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 6e-12,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.631",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En kabel är 1,4 m lång. Varje uttag kräver 35 mm kabel. Uttagen levereras i lådor om 8 stycken. Hur många hela lådor går åt?</p>",
+    "s": "<p>1,4 m = 1 400 mm. Antal uttag: 1 400 / 35 = 40. Antal hela lådor: 40 / 8 = 5.</p><p><strong>Svar:</strong> 5</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 5e-12,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.632",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En sats väger 0,036 kg. Varje dos är 90 mg. Doserna packas 20 per förpackning. Hur många hela förpackningar blir det?</p>",
+    "s": "<p>0,036 kg = 36 000 mg. Antal doser: 36 000 / 90 = 400. Antal hela förpackningar: 400 / 20 = 20.</p><p><strong>Svar:</strong> 20</p>",
+    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och heltalsvillkor",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 2e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.633",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En mätare sparar 1 800 byte per mätning och gör 400 mätningar per sekund. Minnet rymmer 12 MB, där 1 MB = 1 000 000 byte. Hur många hela sekunders mätning ryms?</p>",
+    "s": "<p>Per sekund: 1 800 · 400 = 720 000 byte. Minnet: 12 MB = 12 000 000 byte. 12 000 000 / 720 000 = 16,67, alltså 16 hela sekunder.</p><p><strong>Svar:</strong> 16</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 1.6e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.634",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En logg skriver 2,5 kB per rad och 60 rader per sekund. Utrymmet är 9 MB, där 1 MB = 1 000 kB. Hur många hela sekunder räcker utrymmet?</p>",
+    "s": "<p>Per sekund: 2,5 · 60 = 150 kB. Utrymmet: 9 MB = 9 000 kB. 9 000 / 150 = 60 sekunder.</p><p><strong>Svar:</strong> 60</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 6e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.635",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En pump doserar 3,2 mL per minut. Tanken rymmer 0,96 L. Hur många hela minuter räcker tanken?</p>",
+    "s": "<p>0,96 L = 960 mL. 960 / 3,2 = 300 minuter.</p><p><strong>Svar:</strong> 300</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 3e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.636",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En kamera lagrar 6 kB per bild och tar 75 bilder per sekund. Kortet rymmer 45 MB, där 1 MB = 1 000 kB. Hur många hela sekunder kan kameran spela in?</p>",
+    "s": "<p>Per sekund: 6 · 75 = 450 kB. Kortet: 45 MB = 45 000 kB. 45 000 / 450 = 100 sekunder.</p><p><strong>Svar:</strong> 100</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.637",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En videoinspelning tar 4 MB per minut. Kortet rymmer 2,4 GB, där 1 GB = 1 000 MB. Hur många hela minuter går att spela in?</p>",
+    "s": "<p>2,4 GB = 2 400 MB. 2 400 / 4 = 600 minuter.</p><p><strong>Svar:</strong> 600</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 600,
+    "tolerans": 6e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.638",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En burk innehåller 0,336 g verksam substans. Varje tablett innehåller 8 mg och patienten tar 3 tabletter per dag. Hur många hela dagar räcker burken?</p>",
+    "s": "<p>0,336 g = 336 mg. Per dag: 8 · 3 = 24 mg. 336 / 24 = 14 dagar.</p><p><strong>Svar:</strong> 14</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 1.4e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.639",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En flaska rymmer 1,5 L. Varje spruta fylls med 2,5 mL och maskinen fyller 150 sprutor per timme. Hur många hela timmar räcker flaskan?</p>",
+    "s": "<p>1,5 L = 1 500 mL. Antal sprutor: 1 500 / 2,5 = 600. 600 / 150 = 4 timmar.</p><p><strong>Svar:</strong> 4</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 4e-12,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.640",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En maskin drar in 0,25 mm tråd per varv och gör 40 varv per sekund. Rullen innehåller 3 m tråd. Hur många hela sekunder räcker rullen?</p>",
+    "s": "<p>Per sekund: 0,25 · 40 = 10 mm. Rullen: 3 m = 3 000 mm. 3 000 / 10 = 300 sekunder.</p><p><strong>Svar:</strong> 300</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 3e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.641",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En överföring går med 750 kB per sekund. Filen är 18 MB, där 1 MB = 1 000 kB. Hur många hela sekunder tar överföringen?</p>",
+    "s": "<p>18 MB = 18 000 kB. 18 000 / 750 = 24 sekunder.</p><p><strong>Svar:</strong> 24</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 2.4e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.642",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En inhalator ger 15 µg verksam substans per puff. Behållaren innehåller 1 200 puffar. Hur många milligram verksam substans innehåller behållaren?</p>",
+    "s": "<p>Totalt: 15 · 1 200 = 18 000 µg. 18 000 µg = 18 mg, eftersom 1 mg = 1 000 µg.</p><p><strong>Svar:</strong> 18</p>",
+    "ledtrad": "<p>Räkna först ut vad som går åt per enhet tid, i samma enhet som förrådet.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Välja beräkning med prefix",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 1.8e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.643",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Talen \\(a\\cdot10^m\\) och \\(b\\cdot10^n\\) är positiva och skrivna i grundpotensform. Vilken exponent får deras kvot \\(\\frac{a\\cdot10^m}{b\\cdot10^n}\\) när även den skrivs i grundpotensform?</p><p>A: \\(m-n\\) om a/b ≥ 1; \\(m-n-1\\) om a/b &lt; 1.<br>B: \\(m-n\\) om a/b ≥ 1; \\(m-n+1\\) om a/b &lt; 1.<br>C: \\(m/n\\) i båda fallen.<br>D: \\(m-n\\) i båda fallen.</p>",
+    "s": "<p>Svar: A. Kvoten är \\(\\frac{a}{b}\\cdot10^{m-n}\\). Eftersom \\(1\\le a,b&lt;10\\) ligger a/b mellan 0,1 och 10. Är a/b minst 1 är formen redan klar. Är a/b mindre än 1 måste talfaktorn multipliceras med 10, och exponenten minskas med 1.</p>",
+    "ledtrad": "<p>Vad händer med exponenten om talfaktorn måste multipliceras med 10?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.644",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Vilket av talen är <strong>inte</strong> skrivet i grundpotensform?</p><p>A: \\(1\\cdot10^{-4}\\)<br>B: \\(9{,}99\\cdot10^{12}\\)<br>C: \\(10\\cdot10^{3}\\)<br>D: \\(3{,}05\\cdot10^{0}\\)</p>",
+    "s": "<p>Svar: C. Talfaktorn måste uppfylla \\(1\\le a&lt;10\\). I C är talfaktorn 10, vilket är för stort. Talet skrivs i stället \\(1\\cdot10^4\\).</p>",
+    "ledtrad": "<p>Vilket villkor gäller för talfaktorn?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.645",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Vilket villkor måste talfaktorn a uppfylla för att \\(a\\cdot10^n\\) ska vara skrivet i grundpotensform?</p><p>A: \\(0&lt;a&lt;10\\)<br>B: \\(1&lt;a\\le10\\)<br>C: \\(0\\le a&lt;1\\)<br>D: \\(1\\le a&lt;10\\)</p>",
+    "s": "<p>Svar: D. Grundpotensform kräver att talfaktorn är minst 1 och mindre än 10. Då blir skrivsättet entydigt: varje positivt tal har exakt en sådan form.</p>",
+    "ledtrad": "<p>Får talfaktorn vara exakt 1? Får den vara exakt 10?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.646",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Talet \\(a\\cdot10^n\\) är skrivet i grundpotensform. Det multipliceras med \\(10^4\\). Vad gäller för resultatet?</p><p>A: Det är \\(a\\cdot10^{4n}\\) och är i grundpotensform.<br>B: Det är \\(a\\cdot10^{n+4}\\) och är i grundpotensform.<br>C: Det är \\(4a\\cdot10^{n}\\) och är i grundpotensform.<br>D: Det är \\(a\\cdot10^{n+4}\\) men måste normaliseras om.</p>",
+    "s": "<p>Svar: B. Talfaktorn a är oförändrad, så villkoret \\(1\\le a&lt;10\\) gäller fortfarande. Bara exponenten ändras: \\(a\\cdot10^n\\cdot10^4=a\\cdot10^{n+4}\\).</p>",
+    "ledtrad": "<p>Ändras talfaktorn när du multiplicerar med en ren tiopotens?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.647",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En beräkning ger \\(10\\cdot10^{6}\\). Hur skrivs samma tal i grundpotensform?</p><p>A: \\(1\\cdot10^{6}\\)<br>B: \\(1\\cdot10^{7}\\)<br>C: \\(10\\cdot10^{7}\\)<br>D: \\(1{,}0\\cdot10^{60}\\)</p>",
+    "s": "<p>Svar: B. Talfaktorn 10 delas med 10 och blir 1. Tiopotensen måste då multipliceras med 10: \\(10\\cdot10^6=1\\cdot10^7\\).</p>",
+    "ledtrad": "<p>Om talfaktorn delas med 10, vad måste hända med tiopotensen?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.648",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Vilket påstående om talet 0 är korrekt?</p><p>A: 0 skrivs som \\(0\\cdot10^0\\) i grundpotensform.<br>B: 0 skrivs som \\(1\\cdot10^{-\\infty}\\) i grundpotensform.<br>C: 0 kan inte skrivas i grundpotensform.<br>D: 0 skrivs som \\(10^0\\) i grundpotensform.</p>",
+    "s": "<p>Svar: C. Grundpotensform kräver en talfaktor med \\(1\\le a&lt;10\\). En sådan talfaktor är aldrig 0, och \\(a\\cdot10^n\\) blir därför aldrig 0.</p>",
+    "ledtrad": "<p>Kan produkten \\(a\\cdot10^n\\) bli noll om a är minst 1?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.649",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Talet \\(-3{,}4\\cdot10^{5}\\) ska skrivas i grundpotensform. Vilket påstående stämmer?</p><p>A: Det är redan i grundpotensform, villkoret gäller talfaktorns belopp.<br>B: Det måste skrivas \\(3{,}4\\cdot10^{-5}\\).<br>C: Negativa tal kan inte skrivas i grundpotensform.<br>D: Det måste skrivas \\(6{,}6\\cdot10^{5}\\).</p>",
+    "s": "<p>Svar: A. För negativa tal gäller villkoret talfaktorns belopp: \\(1\\le|a|&lt;10\\). Här är \\(|-3{,}4|=3{,}4\\), så talet är redan korrekt skrivet.</p>",
+    "ledtrad": "<p>Handlar villkoret om talfaktorns tecken eller om dess storlek?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.650",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tal har samma exponent: \\(4{,}5\\cdot10^{8}\\) och \\(7{,}2\\cdot10^{8}\\). Vad gäller för summan i grundpotensform?</p><p>A: \\(11{,}7\\cdot10^{8}\\), som redan är i grundpotensform.<br>B: \\(1{,}17\\cdot10^{8}\\)<br>C: \\(11{,}7\\cdot10^{16}\\)<br>D: \\(1{,}17\\cdot10^{9}\\)</p>",
+    "s": "<p>Svar: D. Summan är \\((4{,}5+7{,}2)\\cdot10^8=11{,}7\\cdot10^8\\). Talfaktorn är för stor, så den delas med 10 och exponenten ökas med 1: \\(1{,}17\\cdot10^9\\).</p>",
+    "ledtrad": "<p>Uppfyller talfaktorn 11,7 villkoret för grundpotensform?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.651",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Talet \\(a\\cdot10^n\\) är i grundpotensform och kvadreras. När behöver resultatet normaliseras om?</p><p>A: Aldrig.<br>B: Alltid.<br>C: När \\(a\\ge\\sqrt{10}\\).<br>D: När \\(a&lt;\\sqrt{10}\\).</p>",
+    "s": "<p>Svar: C. Kvadraten är \\(a^2\\cdot10^{2n}\\). Talfaktorn \\(a^2\\) är för stor när \\(a^2\\ge10\\), alltså när \\(a\\ge\\sqrt{10}\\approx3{,}16\\).</p>",
+    "ledtrad": "<p>För vilka a blir \\(a^2\\) minst 10?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.652",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två positiva tal är skrivna i grundpotensform. Hur avgör man vilket som är störst?</p><p>A: Jämför talfaktorerna först, exponenterna bara vid lika talfaktor.<br>B: Jämför exponenterna först, talfaktorerna bara vid lika exponent.<br>C: Jämför summan av talfaktor och exponent.<br>D: Jämför produkten av talfaktor och exponent.</p>",
+    "s": "<p>Svar: B. Talfaktorn ligger alltid mellan 1 och 10, så en högre exponent ger alltid ett större tal. Först vid lika exponent avgör talfaktorn.</p>",
+    "ledtrad": "<p>Kan ett tal med exponent 5 någonsin vara större än ett med exponent 6?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Villkor vid normalisering",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.653",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(320\\cdot10^5=3{,}2\\cdot10^5\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(3{,}2\\cdot10^7\\)<br>B: \\(3{,}2\\cdot10^8\\)<br>C: \\(3{,}2\\cdot10^3\\)<br>D: \\(3{,}2\\cdot10^6\\)</p>",
+    "s": "<p>Svar: A. Talfaktorn har delats med 100. Tiopotensen måste då multipliceras med 100: \\(320\\cdot10^5=3{,}2\\cdot10^7\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.654",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(0{,}45\\cdot10^6=4{,}5\\cdot10^6\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(4{,}5\\cdot10^4\\)<br>B: \\(4{,}5\\cdot10^5\\)<br>C: \\(4{,}5\\cdot10^6\\)<br>D: \\(4{,}5\\cdot10^7\\)</p>",
+    "s": "<p>Svar: B. Talfaktorn har multiplicerats med 10. Tiopotensen måste då delas med 10: \\(0{,}45\\cdot10^6=4{,}5\\cdot10^5\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.655",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(76\\cdot10^{-3}=7{,}6\\cdot10^{-3}\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(7{,}6\\cdot10^{-5}\\)<br>B: \\(7{,}6\\cdot10^{-4}\\)<br>C: \\(7{,}6\\cdot10^{-2}\\)<br>D: \\(7{,}6\\cdot10^{-1}\\)</p>",
+    "s": "<p>Svar: C. Talfaktorn har delats med 10, så exponenten ska ökas med 1: \\(76\\cdot10^{-3}=7{,}6\\cdot10^{-2}\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.656",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(0{,}08\\cdot10^4=8\\cdot10^4\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(8\\cdot10^3\\)<br>B: \\(8\\cdot10^6\\)<br>C: \\(8\\cdot10^1\\)<br>D: \\(8\\cdot10^2\\)</p>",
+    "s": "<p>Svar: D. Talfaktorn har multiplicerats med 100, så exponenten ska minskas med 2: \\(0{,}08\\cdot10^4=8\\cdot10^2\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.657",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(1250\\cdot10^2=1{,}25\\cdot10^2\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(1{,}25\\cdot10^5\\)<br>B: \\(1{,}25\\cdot10^6\\)<br>C: \\(1{,}25\\cdot10^3\\)<br>D: \\(1{,}25\\cdot10^4\\)</p>",
+    "s": "<p>Svar: A. Talfaktorn har delats med 1 000, så exponenten ska ökas med 3: \\(1250\\cdot10^2=1{,}25\\cdot10^5\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.658",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(0{,}0031\\cdot10^8=3{,}1\\cdot10^8\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(3{,}1\\cdot10^4\\)<br>B: \\(3{,}1\\cdot10^5\\)<br>C: \\(3{,}1\\cdot10^6\\)<br>D: \\(3{,}1\\cdot10^{11}\\)</p>",
+    "s": "<p>Svar: B. Talfaktorn har multiplicerats med 1 000, så exponenten ska minskas med 3: \\(0{,}0031\\cdot10^8=3{,}1\\cdot10^5\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.659",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(95\\cdot10^{-7}=9{,}5\\cdot10^{-7}\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(9{,}5\\cdot10^{-9}\\)<br>B: \\(9{,}5\\cdot10^{-8}\\)<br>C: \\(9{,}5\\cdot10^{-6}\\)<br>D: \\(9{,}5\\cdot10^{-5}\\)</p>",
+    "s": "<p>Svar: C. Talfaktorn har delats med 10, så exponenten ska ökas med 1: \\(95\\cdot10^{-7}=9{,}5\\cdot10^{-6}\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.660",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(0{,}7\\cdot10^{-2}=7\\cdot10^{-2}\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(7\\cdot10^{-4}\\)<br>B: \\(7\\cdot10^{-2}\\)<br>C: \\(7\\cdot10^{-1}\\)<br>D: \\(7\\cdot10^{-3}\\)</p>",
+    "s": "<p>Svar: D. Talfaktorn har multiplicerats med 10, så exponenten ska minskas med 1: \\(0{,}7\\cdot10^{-2}=7\\cdot10^{-3}\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.661",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(640\\cdot10^{-4}=6{,}4\\cdot10^{-4}\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(6{,}4\\cdot10^{-2}\\)<br>B: \\(6{,}4\\cdot10^{-1}\\)<br>C: \\(6{,}4\\cdot10^{-6}\\)<br>D: \\(6{,}4\\cdot10^{-3}\\)</p>",
+    "s": "<p>Svar: A. Talfaktorn har delats med 100, så exponenten ska ökas med 2: \\(640\\cdot10^{-4}=6{,}4\\cdot10^{-2}\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.662",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En elev skriver \\(0{,}025\\cdot10^9=2{,}5\\cdot10^9\\). Vilken korrigering bevarar talets värde?</p><p>A: \\(2{,}5\\cdot10^6\\)<br>B: \\(2{,}5\\cdot10^7\\)<br>C: \\(2{,}5\\cdot10^8\\)<br>D: \\(2{,}5\\cdot10^{11}\\)</p>",
+    "s": "<p>Svar: B. Talfaktorn har multiplicerats med 100, så exponenten ska minskas med 2: \\(0{,}025\\cdot10^9=2{,}5\\cdot10^7\\).</p>",
+    "ledtrad": "<p>Om talfaktorn ändras med en viss faktor, hur måste tiopotensen ändras för att produkten ska bli densamma?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Bevara värdet vid normalisering",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.663",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 0,15 mm respektive 60 µm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 3 mm?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 0,21 mm tjockt. Utrymmet är 3 mm.</p><p>3 / 0,21 = 14,286, alltså <strong>14</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 1.4e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.664",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 2,5 cm respektive 4 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 0,5 m?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 29 mm tjockt. Utrymmet är 500 mm.</p><p>500 / 29 = 17,241, alltså <strong>17</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 1.7e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.665",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 0,8 mm respektive 350 µm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 25 mm?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 1,15 mm tjockt. Utrymmet är 25 mm.</p><p>25 / 1,15 = 21,739, alltså <strong>21</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 2.1e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.666",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 12 µm respektive 0,004 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 0,5 mm?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 0,016 mm tjockt. Utrymmet är 0,5 mm.</p><p>0,5 / 0,016 = 31,25, alltså <strong>31</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 31,
+    "tolerans": 3.0999999999999996e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.667",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 3,2 mm respektive 0,9 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 8 cm?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 4,1 mm tjockt. Utrymmet är 80 mm.</p><p>80 / 4,1 = 19,512, alltså <strong>19</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": 1.9e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.668",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 0,045 m respektive 15 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 1,2 m?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 60 mm tjockt. Utrymmet är 1200 mm.</p><p>1200 / 60 = 20, alltså <strong>20</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 2e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.669",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 250 µm respektive 0,1 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 9 mm?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 0,35 mm tjockt. Utrymmet är 9 mm.</p><p>9 / 0,35 = 25,714, alltså <strong>25</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 2.5e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.670",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 1,8 cm respektive 6 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 0,75 m?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 24 mm tjockt. Utrymmet är 750 mm.</p><p>750 / 24 = 31,25, alltså <strong>31</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 31,
+    "tolerans": 3.0999999999999996e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.671",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 0,6 mm respektive 900 µm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 4,5 cm?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 1,5 mm tjockt. Utrymmet är 45 mm.</p><p>45 / 1,5 = 30, alltså <strong>30</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 3e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.672",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Två tunna skikt är 75 µm respektive 0,125 mm tjocka. De läggs ovanpå varandra utan mellanrum. Hur många sådana dubbla skikt ryms som mest i en tjocklek på 2,4 mm?</p>",
+    "s": "<p>Skriv allt i millimeter. Ett dubbelt skikt är 0,2 mm tjockt. Utrymmet är 2,4 mm.</p><p>2,4 / 0,2 = 12, alltså <strong>12</strong> hela dubbla skikt.</p>",
+    "ledtrad": "<p>Räkna om båda tjocklekarna till samma enhet innan du adderar dem.</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Prefix och begränsningar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1.2e-11,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.673",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En pipett tar upp <strong>5 µL</strong>. I en beräkning tolkas det av misstag som <strong>5 mL</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: A. Skillnaden mellan prefixen är en faktor \\(10^{3}\\), och det feltolkade värdet är större än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.674",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En sats väger <strong>3 kg</strong>. I en beräkning tolkas det av misstag som <strong>3 mg</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: D. Skillnaden mellan prefixen är en faktor \\(10^{6}\\), och det feltolkade värdet är mindre än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.675",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En struktur är <strong>8 nm</strong>. I en beräkning tolkas det av misstag som <strong>8 mm</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: B. Skillnaden mellan prefixen är en faktor \\(10^{6}\\), och det feltolkade värdet är större än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.676",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En fil är <strong>250 MB</strong>. I en beräkning tolkas det av misstag som <strong>250 kB</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: C. Skillnaden mellan prefixen är en faktor \\(10^{3}\\), och det feltolkade värdet är mindre än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.677",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En fördröjning är <strong>4 ms</strong>. I en beräkning tolkas det av misstag som <strong>4 s</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: A. Skillnaden mellan prefixen är en faktor \\(10^{3}\\), och det feltolkade värdet är större än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.678",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En dos är <strong>12 µg</strong>. I en beräkning tolkas det av misstag som <strong>12 g</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: B. Skillnaden mellan prefixen är en faktor \\(10^{6}\\), och det feltolkade värdet är större än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.679",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En ström är <strong>7 mA</strong>. I en beräkning tolkas det av misstag som <strong>7 µA</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: C. Skillnaden mellan prefixen är en faktor \\(10^{3}\\), och det feltolkade värdet är mindre än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.680",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>Ett kraftverk ger <strong>0,5 GW</strong>. I en beräkning tolkas det av misstag som <strong>0,5 kW</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: D. Skillnaden mellan prefixen är en faktor \\(10^{6}\\), och det feltolkade värdet är mindre än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.681",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En spalt är <strong>60 mm</strong>. I en beräkning tolkas det av misstag som <strong>60 µm</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: C. Skillnaden mellan prefixen är en faktor \\(10^{3}\\), och det feltolkade värdet är mindre än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.682",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En halt anges till <strong>9 ng</strong>. I en beräkning tolkas det av misstag som <strong>9 mg</strong>. Hur förändras det beräknade värdet?</p><p>A: \\(10^{3}\\) gånger för stor.<br>B: \\(10^{6}\\) gånger för stor.<br>C: \\(10^{3}\\) gånger för liten.<br>D: \\(10^{6}\\) gånger för liten.</p>",
+    "s": "<p>Svar: B. Skillnaden mellan prefixen är en faktor \\(10^{6}\\), och det feltolkade värdet är större än det riktiga.</p>",
+    "ledtrad": "<p>Hur många tiopotenser skiljer de två prefixen åt, och åt vilket håll?</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Analysera ett prefixfel",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.683",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 2,4 m lång. Den kapas i bitar som är 3 mm långa. Vid varje kapning försvinner 0,4 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 3 + 0,4 = 3,4 mm av tråden.</p><p>Tråden är 2,4 m = 2400 mm. 2400 / 3,4 = 705,882, alltså <strong>705</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 705,
+    "tolerans": 7.049999999999999e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.684",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 0,96 m lång. Den kapas i bitar som är 5 mm långa. Vid varje kapning försvinner 1 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 5 + 1 = 6 mm av tråden.</p><p>Tråden är 0,96 m = 960 mm. 960 / 6 = 160, alltså <strong>160</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 160,
+    "tolerans": 1.6e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.685",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 1,5 m lång. Den kapas i bitar som är 4,5 mm långa. Vid varje kapning försvinner 0,5 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 4,5 + 0,5 = 5 mm av tråden.</p><p>Tråden är 1,5 m = 1500 mm. 1500 / 5 = 300, alltså <strong>300</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 3e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.686",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 3,2 m lång. Den kapas i bitar som är 7 mm långa. Vid varje kapning försvinner 1 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 7 + 1 = 8 mm av tråden.</p><p>Tråden är 3,2 m = 3200 mm. 3200 / 8 = 400, alltså <strong>400</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": 4e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.687",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 0,84 m lång. Den kapas i bitar som är 2 mm långa. Vid varje kapning försvinner 0,8 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 2 + 0,8 = 2,8 mm av tråden.</p><p>Tråden är 0,84 m = 840 mm. 840 / 2,8 = 300, alltså <strong>300</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 3e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.688",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 2,1 m lång. Den kapas i bitar som är 6 mm långa. Vid varje kapning försvinner 1 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 6 + 1 = 7 mm av tråden.</p><p>Tråden är 2,1 m = 2100 mm. 2100 / 7 = 300, alltså <strong>300</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 3e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.689",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 1,26 m lång. Den kapas i bitar som är 3,5 mm långa. Vid varje kapning försvinner 0,7 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 3,5 + 0,7 = 4,2 mm av tråden.</p><p>Tråden är 1,26 m = 1260 mm. 1260 / 4,2 = 300, alltså <strong>300</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 3e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.690",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 0,72 m lång. Den kapas i bitar som är 1,5 mm långa. Vid varje kapning försvinner 0,3 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 1,5 + 0,3 = 1,8 mm av tråden.</p><p>Tråden är 0,72 m = 720 mm. 720 / 1,8 = 400, alltså <strong>400</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": 4e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.691",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 4,5 m lång. Den kapas i bitar som är 9 mm långa. Vid varje kapning försvinner 1 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 9 + 1 = 10 mm av tråden.</p><p>Tråden är 4,5 m = 4500 mm. 4500 / 10 = 450, alltså <strong>450</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 450,
+    "tolerans": 4.5e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.692",
+    "kap": 0,
+    "omr": "tiopotenser_prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "geogebra": false,
+    "miniräknare": false,
+    "t": "<p>En tråd är 1,68 m lång. Den kapas i bitar som är 4 mm långa. Vid varje kapning försvinner 0,8 mm. Varje färdig bit kräver en kapning. Hur många hela bitar går det att få?</p>",
+    "s": "<p>Varje bit kostar 4 + 0,8 = 4,8 mm av tråden.</p><p>Tråden är 1,68 m = 1680 mm. 1680 / 4,8 = 350, alltså <strong>350</strong> hela bitar.</p>",
+    "ledtrad": "<p>Hur mycket tråd går åt för varje färdig bit, spillet inräknat?</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Modellera med prefix och spill",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 350,
+    "tolerans": 3.5e-10,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true
   }
 ];

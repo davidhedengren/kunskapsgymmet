@@ -1931,6 +1931,24 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .cheer-card p{margin:8px 0 0;color:var(--ink2);font-family:var(--read);font-size:14.5px;letter-spacing:0}
 .cheer-card .btn{margin-top:22px;width:100%}
 
+/* ── nivåupplåsning ────────────────────────────────────────────────────
+   Samma kort, men blått och fyrkantigt i stället för guldmedalj, så en
+   upplåst nivå aldrig förväxlas med en vunnen medalj. */
+.cheer-niva{box-shadow:var(--e2),0 0 90px -30px rgba(42,93,158,.75)}
+.cheer-niva .cheer-halo:before,.cheer-niva .cheer-halo:after{border-color:var(--acc)}
+.cheer-niva .cheer-medal{
+  width:92px;height:92px;border-radius:26px;color:#fff;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;
+  background:linear-gradient(152deg,var(--acc),var(--acc2));
+  box-shadow:0 16px 34px -14px rgba(30,70,125,.9),inset 0 2px 0 rgba(255,255,255,.3);
+}
+.cheer-niva .cheer-medal:after{border-radius:22px;border-color:rgba(255,255,255,.3)}
+.cheer-niva .cheer-label{color:var(--acc)}
+.cheer-nivasiffra{font:700 30px/1 var(--font);letter-spacing:-.04em}
+.cheer-pips{display:flex;gap:4px}
+.cheer-pips b{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.34)}
+.cheer-pips b.on{background:#fff}
+
 @media(max-width:960px){
   .dash{grid-template-columns:1fr}
   .side{position:static;grid-template-columns:1fr 1fr;display:grid}
@@ -3060,15 +3078,15 @@ function toast(msg){
   toast._t=setTimeout(()=>el.classList.remove("show"),1800);
 }
 const cheerQueue=[];
-function cheer(icon,label,title,desc){
-  cheerQueue.push({icon,label,title,desc:desc||""});
+function cheer(icon,label,title,desc,variant){
+  cheerQueue.push({icon,label,title,desc:desc||"",variant:variant||"medalj"});
   if(cheerQueue.length===1) pumpCheer();
 }
 function pumpCheer(){
   const el=document.getElementById("cheer");
   const c=cheerQueue[0];
   if(!c) return;
-  el.innerHTML=`<div class="cheer-card">
+  el.innerHTML=`<div class="cheer-card cheer-${c.variant}">
       <div class="cheer-halo"><div class="cheer-medal">${c.icon}</div></div>
       <div class="cheer-label">${esc(c.label)}</div>
       <h2>${esc(c.title)}</h2>
@@ -5397,6 +5415,16 @@ function chooseTask(){
   const buckets=Object.fromEntries(NIVAER.map(L=>[L,[]]));
   pool.forEach(t=>buckets[levelOf(t)].push(t));
 
+  /* Taket: eleven möter aldrig mer än ett steg över sin upplåsta nivå i
+     området. Utan det kunde en nybörjare få en nivå 5-uppgift direkt.
+     Finns inget under taket (området kanske bara har svåra uppgifter)
+     släpper vi taket hellre än att lämna eleven utan uppgift. Tunga pass
+     får ett extra steg, eftersom eleven själv har valt att ta i. */
+  const tak=Math.min(5,hogstaUpplasta(area)+(state.passTyp==="tungt"?2:1));
+  if(NIVAER.some(L=>Number(L)<=tak && buckets[L].length)){
+    NIVAER.forEach(L=>{ if(Number(L)>tak) buckets[L]=[]; });
+  }
+
   const order=NIVAER;
   const finns=Object.fromEntries(NIVAER.map(L=>[L,!!buckets[L].length]));
   const mix=levelMix(finns,area);
@@ -5639,7 +5667,6 @@ function continueSession(){ beginSession(); navRecord("training",true); nextTask
 function nextTask(){
   const t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
-  noteNewLevel(t);
   state.currentTask=t;state.answered=false;state.solutionShown=false;
   state.partResults=[];state.partIndex=0;state.noXp=false;state.aktivRuta=0;
   state.hintUsed=false;state.hintVisible=false;
@@ -5656,20 +5683,76 @@ function nextTask(){
   if(state.sessionDone>=PAPPER_EFTER) setTimeout(visaPapperspaminnelse,500);
 }
 
-function noteNewLevel(t){
+/* ── upplåsning av träningsnivåer ────────────────────────────────────────────
+   En nivå låses upp när eleven har visat att den föregående sitter, inom
+   just det området. Tidigare räckte det att en uppgift på nivån dök upp,
+   vilket gjorde att man kunde få "Nivå 4 upplåst" första gången man öppnade
+   ett område, utan att ha räknat en enda uppgift.
+
+   Kravet är UPPLAS_ANTAL besvarade uppgifter på nivån under, i samma område,
+   med minst UPPLAS_ANDEL rätt. Räknaren ligger i cp.klarade och fylls bara
+   på av riktiga försök, till skillnad från cp.levels som också innehåller
+   startgissningar. */
+const UPPLAS_ANTAL=5;
+const UPPLAS_ANDEL=.6;
+
+function klaradeStat(area,L){
   const cp=ensureCourseProfile();
-  cp.sedda ||= {};
-  const L=levelOf(t);
-  const nyckel=`T${L}`;
-  if(L==="1" || cp.sedda[nyckel]) return;
-  cp.sedda[nyckel]=Date.now();
-  saveProfile();
-  const n=Number(L);
-  const text=n<=2 ? "Du får nu mer variation inom de grundläggande metoderna."
-    : n===3 ? "Nu blandas mer eget metodval och tolkning in."
-    : n===4 ? "Nu krävs oftare strategival och kopplingar mellan idéer."
-    : "Nu möter du de mest självständiga och generaliserande uppgifterna.";
-  cheer(String(n),"Ny träningsnivå",`Nivå ${n} upplåst`,text);
+  cp.klarade ||= {};
+  cp.klarade[area] ||= {};
+  return (cp.klarade[area][L] ||= {n:0,r:0});
+}
+function noteraKlarad(area,L,ratt){
+  if(!area) return;
+  const st=klaradeStat(area,String(L));
+  st.n++;
+  if(ratt) st.r++;
+}
+function nivaUppnadd(area,L){
+  if(L<=1) return true;
+  const st=klaradeStat(area,String(L-1));
+  return st.n>=UPPLAS_ANTAL && st.r/st.n>=UPPLAS_ANDEL;
+}
+function hogstaUpplasta(area){
+  let L=1;
+  while(L<5 && nivaUppnadd(area,L+1)) L++;
+  return L;
+}
+/* Körs efter ett besvarat försök: har området just passerat en tröskel? */
+function kollaNivaupplasning(area){
+  if(!area) return;
+  const cp=ensureCourseProfile();
+  cp.upplast ||= {};
+  if(!cp.upplast[area]){
+    /* Första gången ett område kollas: nivåer som eleven redan har bevisat
+       i cp.levels kvitteras tyst. Annars skulle en van elev få en skur av
+       gamla kort, eller tvärtom aldrig se dem eftersom räknaren är ny. */
+    cp.upplast[area]={};
+    const lagrade=(cp.levels||{})[area]||{};
+    for(let n=2;n<=5;n++){
+      const st=lagrade[String(n-1)];
+      if(st && (st.n||0)>=UPPLAS_ANTAL && st.s>=UPPLAS_ANDEL) cp.upplast[area][n]=0;
+    }
+  }
+  for(let n=2;n<=5;n++){
+    if(cp.upplast[area][n] || !nivaUppnadd(area,n)) continue;
+    cp.upplast[area][n]=Date.now();
+    saveProfile();
+    const text=n===2 ? "Grunderna sitter. Nu blandas mer variation in."
+      : n===3 ? "Nu kommer uppgifter med eget metodval och tolkning."
+      : n===4 ? "Nu krävs oftare strategival och kopplingar mellan idéer."
+      : "Nu möter du de mest självständiga uppgifterna.";
+    cheer(nivaMarke(n),"Nivå "+n+" upplåst",areaName(area),text,"niva");
+    break;   // en nivå i taget, så korten inte staplas på varandra
+  }
+}
+/* Nivåmärket ritas som samma pips som nivåbrickan i träningsvyn, så kortet
+   direkt går att skilja från en medalj. */
+function nivaMarke(n){
+  const pips=[1,2,3,4,5].map(i=>
+    `<b class="${i<=n?"on":""}"></b>`).join("");
+  return `<span class="cheer-pips" aria-hidden="true">${pips}</span>
+    <span class="cheer-nivasiffra">${n}</span>`;
 }
 
 function sessionLabel(){
@@ -8306,6 +8389,9 @@ function finishAttempt(resultat){
     fs.forEach(f=>updateMastery(cp.families,f,v));
     if(state.course==="hist") kriterier.forEach(k=>updateMastery(cp.histSkills,k,v));
   });
+  /* Uppgiften räknas som en, oavsett hur många delsvar den har. Den räknas
+     som klarad bara om alla delar blev rätt. */
+  noteraKlarad(t.omr,niva,correct&&!state.noXp);
 
   if(correct && !state.noXp){
     let forra=null;
@@ -8344,6 +8430,7 @@ function finishAttempt(resultat){
       else cheer(medaljIkon("nivaupp"),"Ny nivå","Nivå "+levelAfter,"Din träning ger resultat.");
     }
     if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
+    kollaNivaupplasning(t.omr);
   },HYLLNING);
   checkBadges(HYLLNING);
   saveProfile();

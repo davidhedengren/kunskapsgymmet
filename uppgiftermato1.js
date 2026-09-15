@@ -59455,5 +59455,18721 @@ window.BANKMATO1 = [
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false
+  },
+  {
+    "id": "1.471",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm graden av polynomet \\(P(x)=2x^3-2x+5\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Högsta exponenten på \\(x\\) är 3.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Polynombegrepp och polynomvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Polynomets grad är den högsta exponent som förekommer.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.472",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x-3\\). Bestäm \\(f(-2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(-2)=2\\cdot(-2)-3=-7\\).</p><p><strong>Svar:</strong> -7</p>",
+    "familj": "Beräkna och tolka funktionsvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.473",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-11}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-11=0\\) ger \\(x=11\\).</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Förenkla rationella uttryck och ange definitionsmängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.474",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 2}(x^2+3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=2\\): \\(2^2+3=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Beräkna och tolka gränsvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.475",
+    "kap": 1,
+    "omr": "absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös \\(|x+1|=4\\). Ange den största lösningen.</p>",
+    "s": "<p><strong>Lösning:</strong> \\(x--1=4\\) eller \\(x--1=-4\\). Den största lösningen är \\(x=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Lösa ekvationer med absolutbelopp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Ett absolutbelopp kan ge två fall: uttrycket är antingen a eller -a.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.476",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen är \\((x-2)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-2=0\\) ger \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Faktorisera och lösa polynomekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.477",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x+2\\). Bestäm \\(f(3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(3)=2\\cdot(3)+2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Tolka och jämföra funktionsgrafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.478",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-16}{x-4}\\) kan förkortas när \\(x\\neq 4\\). Vilket värde får det för \\(x=2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-4)(x+4)\\). Efter förkortning återstår \\(x+4\\). För \\(x=2\\) blir värdet 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Förkorta rationella uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.479",
+    "kap": 1,
+    "omr": "absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös \\(|x+1|=3\\). Ange den största lösningen.</p>",
+    "s": "<p><strong>Lösning:</strong> \\(x--1=3\\) eller \\(x--1=-3\\). Den största lösningen är \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Parameterproblem med absolutbelopp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Ett absolutbelopp kan ge två fall: uttrycket är antingen a eller -a.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.480",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{x+2}=\\frac12\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Korsmultiplicera: \\(2x=x+2\\), alltså \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Lösa rationella ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Multiplicera båda led med 2(x+a) och lös den linjära ekvationen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.481",
+    "kap": 1,
+    "omr": "absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=|x-2|+3\\). Vilket x-värde har grafens spets?</p>",
+    "s": "<p><strong>Lösning:</strong> Uttrycket inuti absolutbeloppet är noll när \\(x=2\\). Spetsens x-värde är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Tolka och skriva funktioner med absolutbelopp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Spetsen ligger där uttrycket inuti absolutbeloppet är 0.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.482",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x+k\\) för \\(x&lt;1\\) och \\(f(x)=-3\\) för \\(x\\ge 1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(7\\cdot1+k=-3\\). Därför \\(k=-10\\).</p><p><strong>Svar:</strong> -10</p>",
+    "familj": "Kontinuitet och hål i grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.483",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x+k\\) för \\(x&lt;-2\\) och \\(f(x)=-2\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(1\\cdot-2+k=-2\\). Därför \\(k=0\\).</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Bestämma parametrar för kontinuitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.484",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x+k\\) för \\(x&lt;4\\) och \\(f(x)=8\\) för \\(x\\ge 4\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=4\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(2\\cdot4+k=8\\). Därför \\(k=0\\).</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Bestämma parametrar för kontinuitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.485",
+    "kap": 1,
+    "omr": "absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Hur många heltal uppfyller olikheten \\(|x-1|&lt;2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Olikheten betyder \\(-1&lt;x&lt;3\\). Heltalen däremellan är 3 stycken.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Lösa olikheter med absolutbelopp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv om |x-c|&lt;a som c-a&lt;x&lt;c+a och räkna heltalen i intervallet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.486",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En funktion har formen \\(f(x)=2x+b\\) och \\(f(0)=5\\). Vilket värde har parametern \\(b\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> När x=0 återstår bara konstanttermen b.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Bestämma polynomfunktion från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I en funktion ax+b är f(0)=b.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.487",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En funktion har formen \\(f(x)=3x+b\\) och \\(f(0)=5\\). Vilket värde har parametern \\(b\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> När x=0 återstår bara konstanttermen b.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Bestämma polynomfunktion från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I en funktion ax+b är f(0)=b.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.488",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 3}\\frac{x^2-9}{x-3}\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(x^2-9=(x-3)(x+3)\\). För \\(x\\neq 3\\) blir kvoten \\(x+3\\), som går mot 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Sekant och genomsnittlig förändringshastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera täljaren och förkorta innan du sätter in gränsvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.489",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x-2\\). Bestäm \\(f(-1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(-1)=3\\cdot(-1)-2=-5\\).</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Kvadratkomplettera och tolka andragradsfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.490",
+    "kap": 1,
+    "omr": "absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=|x+1|+2\\). Vilket x-värde har grafens spets?</p>",
+    "s": "<p><strong>Lösning:</strong> Uttrycket inuti absolutbeloppet är noll när \\(x=-1\\). Spetsens x-värde är -1.</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Absolutbeloppsfunktionens spets",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Spetsen ligger där uttrycket inuti absolutbeloppet är 0.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.491",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-20}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-20=0\\) ger \\(x=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Bestämma definitionsmängd för rationella uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.492",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En modell ges av \\(K(x)=\\frac{24}{x+2}\\). Bestäm \\(K(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(K(2)=\\frac{24}{2+2}=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Rationella uttryck i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in x-värdet i uttrycket och beräkna nämnaren först.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.493",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x+1\\). Bestäm \\(f(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(2)=2\\cdot(2)+1=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Bestämma extremvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.494",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen är \\((x-5)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-5=0\\) ger \\(x=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Polynomdivision och faktorsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.495",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vid division av ett polynom \\(P(x)\\) med \\(x-7\\) är resten 1. Vad är \\(P(7)\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Restsatsen säger att resten vid division med \\(x-7\\) är \\(P(7)\\). Alltså \\(P(7)=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Restsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd restsatsen: resten vid division med x-a är P(a).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.496",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen är \\((x-4)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-4=0\\) ger \\(x=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Faktorsatsen och polynomdivision",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.497",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^2-3x+2\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-2)(x-1)\\). Det största nollstället är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Faktorsatsen och polynomdivision",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.498",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vid division av ett polynom \\(P(x)\\) med \\(x-8\\) är resten 4. Vad är \\(P(8)\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Restsatsen säger att resten vid division med \\(x-8\\) är \\(P(8)\\). Alltså \\(P(8)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Polynomdivision",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd restsatsen: resten vid division med x-a är P(a).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.499",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen är \\((x-3)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-3=0\\) ger \\(x=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Faktorsatsen med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.500",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^2-9x+18\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-6)(x-3)\\). Det största nollstället är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Faktorsatsen med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.501",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-19}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-19=0\\) ger \\(x=19\\).</p><p><strong>Svar:</strong> 19</p>",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.502",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-4}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-4=0\\) ger \\(x=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Förenkla rationella uttryck med definitionsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.503",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x+k\\) för \\(x&lt;-3\\) och \\(f(x)=-2\\) för \\(x\\ge -3\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-3\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(5\\cdot-3+k=-2\\). Därför \\(k=13\\).</p><p><strong>Svar:</strong> 13</p>",
+    "familj": "Parameter och ändligt gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.504",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x+k\\) för \\(x&lt;-2\\) och \\(f(x)=8\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(4\\cdot-2+k=8\\). Därför \\(k=16\\).</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Parameter och ändligt gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.505",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 3}(x^2+3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=3\\): \\(3^2+3=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Bestäm parametrar med gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.506",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 2}\\frac{x^2-4}{x-2}\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(x^2-4=(x-2)(x+2)\\). För \\(x\\neq 2\\) blir kvoten \\(x+2\\), som går mot 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Bestäm parametrar med gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera täljaren och förkorta innan du sätter in gränsvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.507",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{x+4}=\\frac12\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Korsmultiplicera: \\(2x=x+4\\), alltså \\(x=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Parameterproblem med rationell ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Multiplicera båda led med 2(x+a) och lös den linjära ekvationen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.508",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös ekvationen \\(\\frac{x}{x+1}=\\frac12\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Korsmultiplicera: \\(2x=x+1\\), alltså \\(x=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Parameterproblem med rationell ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Multiplicera båda led med 2(x+a) och lös den linjära ekvationen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.509",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En modell ges av \\(K(x)=\\frac{20}{x+2}\\). Bestäm \\(K(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(K(2)=\\frac{20}{2+2}=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Konstruera rationellt uttryck från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in x-värdet i uttrycket och beräkna nämnaren först.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.510",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En modell ges av \\(K(x)=\\frac{35}{x+2}\\). Bestäm \\(K(5)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(K(5)=\\frac{35}{5+2}=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Konstruera rationellt uttryck från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in x-värdet i uttrycket och beräkna nämnaren först.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.511",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linjär modell är \\(f(x)=3x-2\\). Bestäm modellens startvärde \\(f(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(0)=3\\cdot0-2=-2\\).</p><p><strong>Svar:</strong> -2</p>",
+    "familj": "Tolka parameter och startvärde i modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Startvärdet är funktionens värde när x=0.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.512",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En linjär modell är \\(f(x)=4x+1\\). Bestäm modellens startvärde \\(f(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(0)=4\\cdot0+1=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Tolka parameter och startvärde i modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Startvärdet är funktionens värde när x=0.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.513",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(40+\\frac{2}{x+1}\\right)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{2}{x+1}\\to0\\). Gränsvärdet är därför 40.</p><p><strong>Svar:</strong> 40</p>",
+    "familj": "Gränsvärde i mättnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.514",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(15+\\frac{7}{x+1}\\right)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{7}{x+1}\\to0\\). Gränsvärdet är därför 15.</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Gränsvärde i mättnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.515",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(10+\\frac{7}{x+1}\\right)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{7}{x+1}\\to0\\). Gränsvärdet är därför 10.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Gränsvärde i kostnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.516",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(25+\\frac{3}{x+1}\\right)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{3}{x+1}\\to0\\). Gränsvärdet är därför 25.</p><p><strong>Svar:</strong> 25</p>",
+    "familj": "Gränsvärde i kostnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.517",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x+k\\) för \\(x&lt;-1\\) och \\(f(x)=1\\) för \\(x\\ge -1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(6\\cdot-1+k=1\\). Därför \\(k=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Bestäm parameter med gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.518",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x+k\\) för \\(x&lt;1\\) och \\(f(x)=-6\\) för \\(x\\ge 1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(3\\cdot1+k=-6\\). Därför \\(k=-9\\).</p><p><strong>Svar:</strong> -9</p>",
+    "familj": "Bestäm parameter med gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.519",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x+5\\). Bestäm \\(f(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(2)=3\\cdot(2)+5=11\\).</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Beräkna funktionsvärde i modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.520",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(10+\\frac{6}{x+1}\\right)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{6}{x+1}\\to0\\). Gränsvärdet är därför 10.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Gränsvärde i logistisk modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.521",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(15+\\frac{4}{x+1}\\right)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{4}{x+1}\\to0\\). Gränsvärdet är därför 15.</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Gränsvärde i logistisk modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.522",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x+k\\) för \\(x&lt;-2\\) och \\(f(x)=6\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(8\\cdot-2+k=6\\). Därför \\(k=22\\).</p><p><strong>Svar:</strong> 22</p>",
+    "familj": "Parameterbestämning med gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 22,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.523",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=2x+k\\) för \\(x&lt;5\\) och \\(f(x)=1\\) för \\(x\\ge 5\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=5\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(2\\cdot5+k=1\\). Därför \\(k=-9\\).</p><p><strong>Svar:</strong> -9</p>",
+    "familj": "Parameterbestämning med gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.524",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 3}(x^2+1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=3\\): \\(3^2+1=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Gränsvärde med rotuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.525",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 1}\\frac{x^2-1}{x-1}\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(x^2-1=(x-1)(x+1)\\). För \\(x\\neq 1\\) blir kvoten \\(x+1\\), som går mot 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Gränsvärde med rotuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera täljaren och förkorta innan du sätter in gränsvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.526",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen är \\((x-6)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-6=0\\) ger \\(x=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Analysera antal nollställen med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.527",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^2-8x+15\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-5)(x-3)\\). Det största nollstället är 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Analysera antal nollställen med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.528",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(2x+x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+    "s": "<p><strong>Lösning:</strong> Samla x-termerna: \\(2x+x=(3)x\\). Koefficienten är 3.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Förenkla polynom med konjugat",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Samla termer av samma slag.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.529",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-16}{x-4}\\) kan förkortas när \\(x\\neq 4\\). Vilket värde får det för \\(x=1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-4)(x+4)\\). Efter förkortning återstår \\(x+4\\). För \\(x=1\\) blir värdet 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Förenkla rationellt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.530",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-7}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-7=0\\) ger \\(x=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Definitionsmängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.531",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm graden av polynomet \\(P(x)=4x^4-2x+5\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Högsta exponenten på \\(x\\) är 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Polynombegrepp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Polynomets grad är den högsta exponent som förekommer.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.532",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-2}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-2=0\\) ger \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Rationell ekvation och definitionsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.533",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-17}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-17=0\\) ger \\(x=17\\).</p><p><strong>Svar:</strong> 17</p>",
+    "familj": "Rationell ekvation och definitionsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.534",
+    "kap": 1,
+    "omr": "absolutbelopp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Lös \\(|x+2|=3\\). Ange den största lösningen.</p>",
+    "s": "<p><strong>Lösning:</strong> \\(x--2=3\\) eller \\(x--2=-3\\). Den största lösningen är \\(x=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Lösa absolutbeloppsekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Ett absolutbelopp kan ge två fall: uttrycket är antingen a eller -a.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.535",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-10}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-10=0\\) ger \\(x=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Rationell ekvation med förbjuden rot",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.536",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-13}\\) inte definierat?</p>",
+    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-13=0\\) ger \\(x=13\\).</p><p><strong>Svar:</strong> 13</p>",
+    "familj": "Rationell ekvation med förbjuden rot",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.578",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x+0\\). Bestäm förändringskvoten mellan \\(x=3\\) och \\(x=5\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Förändringskvoten är \\(\\frac{f(5)-f(3)}{5-3}=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Beräkna och tolka förändringskvot",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd (ändring i y)/(ändring i x).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.579",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=6x^1\\). Då blir \\(f'(1)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Derivera polynom med potensregeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.580",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=8x\\), så \\(f'(3)=24\\). Tangentens riktningskoefficient är 24.</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Läsa av tangent och tangentlutning från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.581",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=24e^{4x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Skriva exponentialfunktioner med basen e",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.582",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^4\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=8x^3\\). Då blir \\(f'(1)=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Bestämma tangentens ekvation med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.583",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+7\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-4\\) och punkten är \\((-2,11)\\). Då \\(11=-4\\cdot-2+m\\), vilket ger \\(m=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Fördjupade tangentproblem med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.584",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\). Vid \\(x=2\\) är förändringshastigheten 12.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Derivata som förändringshastighet och tangentlutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.585",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^{-1}\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=-x^{-2}\\), alltså \\(f'(1)=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Derivera potensfunktioner med bråk- och negativa exponenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln även för negativa exponenter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.586",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(e^x=e^1\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Exponentialfunktionerna har samma bas, därför är \\(x=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Lösa exponentialekvationer med naturlig logaritm",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>När båda leden har basen e kan du jämföra exponenterna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.587",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(2)\\) när \\(f(x)=2x^3+x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=6x^2+2x\\). Vid \\(x=2\\) blir värdet 28.</p><p><strong>Svar:</strong> 28</p>",
+    "familj": "Derivata och tangenter med digitalt verktyg",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.588",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=16\\).</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Exponentialmodeller med e och ln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.589",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=3\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16x\\). Vid \\(x=3\\) är förändringshastigheten 48.</p><p><strong>Svar:</strong> 48</p>",
+    "familj": "Rörelse och momentan hastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.590",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=5\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=4x\\). Vid \\(x=5\\) är förändringshastigheten 20.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Rörelse och momentan hastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.591",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^3\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=12x^2\\). Då blir \\(f'(2)=48\\).</p><p><strong>Svar:</strong> 48</p>",
+    "familj": "Beräkna derivatavärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.592",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2-4\\). Bestäm tangentens riktningskoefficient vid \\(x=5\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\), så \\(f'(5)=70\\). Tangentens riktningskoefficient är 70.</p><p><strong>Svar:</strong> 70</p>",
+    "familj": "Bevisa parallella tangenter med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.593",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2+4\\). Bestäm tangentens riktningskoefficient vid \\(x=-2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16x\\), så \\(f'(-2)=-32\\). Tangentens riktningskoefficient är -32.</p><p><strong>Svar:</strong> -32</p>",
+    "familj": "Bevisa parallella tangenter med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -32,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.594",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^4\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=12x^3\\). Då blir \\(f'(1)=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Derivatans tecken och nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.595",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^4\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=16x^3\\). Då blir \\(f'(2)=128\\).</p><p><strong>Svar:</strong> 128</p>",
+    "familj": "Parameterproblem med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 128,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.596",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=4x^1\\). Då blir \\(f'(2)=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Parameterproblem med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.597",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=9e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=18e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Derivera exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.598",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2-1\\). Bestäm tangentens riktningskoefficient vid \\(x=4\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=2x\\), så \\(f'(4)=8\\). Tangentens riktningskoefficient är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Bestäm punkt från given tangentlutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.599",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^3\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=9x^2\\). Då blir \\(f'(2)=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Parameterbestämning med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.600",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^3\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=6x^2\\). Då blir \\(f'(2)=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Parameterbestämning med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.601",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=1\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\). Vid \\(x=1\\) är förändringshastigheten 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Analysera rörelse och förändringshastighet med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.602",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 3; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "familj": "Grafanalys med första och andra derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.603",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^3\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=12x^2\\). Då blir \\(f'(1)=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Beräkna derivatavärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.604",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^4\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=16x^3\\). Då blir \\(f'(1)=16\\).</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Lös ekvation med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.605",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^{-1}\\). Ta reda på \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=-x^{-2}\\), alltså \\(f'(1)=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Derivera rot- och potensfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln även för negativa exponenter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.606",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-10)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 10; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Teckenanalys av derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.607",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-5)\\), där -4 och 5 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Teckenanalys av derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.608",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2+5\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12x\\), så \\(f'(-1)=-12\\). Tangentens riktningskoefficient är -12.</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Samma tangentlutning för två funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.609",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2+3\\). Bestäm tangentens riktningskoefficient vid \\(x=3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=4x\\), så \\(f'(3)=12\\). Tangentens riktningskoefficient är 12.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Samma tangentlutning för två funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.610",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x-0)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -7 och 0; det minsta är -7.</p><p><strong>Svar:</strong> -7</p>",
+    "familj": "Koppla samman funktionens graf och derivatans graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.611",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+0\\). Bestäm tangentens riktningskoefficient vid \\(x=4\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\), så \\(f'(4)=40\\). Tangentens riktningskoefficient är 40.</p><p><strong>Svar:</strong> 40</p>",
+    "familj": "Parameter och parallell tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.612",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+0\\). Bestäm tangentens riktningskoefficient vid \\(x=0\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\), så \\(f'(0)=0\\). Tangentens riktningskoefficient är 0.</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Parameter och parallell tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.613",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 5 och 7; det minsta är 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Monotoni från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.614",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-8)\\), där 4 och 8 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Monotoni från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.615",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=4\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=2x\\). Vid \\(x=4\\) är förändringshastigheten 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Derivata som momentan förändringshastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.616",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2+4\\). Tangenten dras vid \\(x=5\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=80\\) och punkten är \\((5,204)\\). Då \\(204=80\\cdot5+m\\), vilket ger \\(m=-196\\).</p><p><strong>Svar:</strong> -196</p>",
+    "familj": "Bestäm tangentens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -196,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.617",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-15)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 15; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Klassificera extrempunkter från derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.618",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x-4\\). Bestäm förändringskvoten mellan \\(x=9\\) och \\(x=15\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Förändringskvoten är \\(\\frac{f(15)-f(9)}{15-9}=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Genomsnittlig och momentan förändringshastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd (ändring i y)/(ändring i x).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.619",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x+2\\). Bestäm förändringskvoten mellan \\(x=2\\) och \\(x=8\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Förändringskvoten är \\(\\frac{f(8)-f(2)}{8-2}=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Genomsnittlig och momentan förändringshastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd (ändring i y)/(ändring i x).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.620",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=3\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\). Vid \\(x=3\\) är förändringshastigheten 42.</p><p><strong>Svar:</strong> 42</p>",
+    "familj": "Derivata i rörelseproblem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.621",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-10)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 6 och 10; det minsta är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.622",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x+1)\\), där -6 och -1 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.623",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=1\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=4x\\). Vid \\(x=1\\) är förändringshastigheten 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Konstanttermens betydelse för derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.624",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12x\\). Vid \\(x=2\\) är förändringshastigheten 24.</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Konstanttermens betydelse för derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.625",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2-2\\). Bestäm tangentens riktningskoefficient vid \\(x=3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16x\\), så \\(f'(3)=48\\). Tangentens riktningskoefficient är 48.</p><p><strong>Svar:</strong> 48</p>",
+    "familj": "Parameter från tangentlutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.626",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2+4\\). Bestäm tangentens riktningskoefficient vid \\(x=1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12x\\), så \\(f'(1)=12\\). Tangentens riktningskoefficient är 12.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Parameter från tangentlutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.627",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+12)(x+8)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -12 och -8; det minsta är -12.</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Extrempunkt eller terrasspunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.628",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-1)\\), där -4 och 1 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkt eller terrasspunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.629",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2+1\\). Tangenten dras vid \\(x=1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=14\\) och punkten är \\((1,8)\\). Då \\(8=14\\cdot1+m\\), vilket ger \\(m=-6\\).</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Generellt tangentbevis",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.630",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2-2\\). Tangenten dras vid \\(x=1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=14\\) och punkten är \\((1,5)\\). Då \\(5=14\\cdot1+m\\), vilket ger \\(m=-9\\).</p><p><strong>Svar:</strong> -9</p>",
+    "familj": "Generellt tangentbevis",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.631",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2-1\\). Tangenten dras vid \\(x=4\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=64\\) och punkten är \\((4,127)\\). Då \\(127=64\\cdot4+m\\), vilket ger \\(m=-129\\).</p><p><strong>Svar:</strong> -129</p>",
+    "familj": "Horisontell tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -129,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.632",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2+2\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12x\\), så \\(f'(-1)=-12\\). Tangentens riktningskoefficient är -12.</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Symmetri och tangentlutningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.633",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2+2\\). Bestäm tangentens riktningskoefficient vid \\(x=2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=8x\\), så \\(f'(2)=16\\). Tangentens riktningskoefficient är 16.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Symmetri och tangentlutningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.634",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x-1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -5 och 1; det minsta är -5.</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Punkt där derivatan är noll utan extremum",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.635",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+5)\\), där -11 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Punkt där derivatan är noll utan extremum",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.636",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=8x\\). Vid \\(x=2\\) är förändringshastigheten 16.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Tangent och derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.637",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=4\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=8x\\). Vid \\(x=4\\) är förändringshastigheten 32.</p><p><strong>Svar:</strong> 32</p>",
+    "familj": "Tangent och derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.638",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-13)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 13; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Klassificera extrempunkter med andraderivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.639",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+2)\\), där -10 och -2 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Klassificera extrempunkter med andraderivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.640",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=5\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16x\\). Vid \\(x=5\\) är förändringshastigheten 80.</p><p><strong>Svar:</strong> 80</p>",
+    "familj": "Tolka derivata i sammanhang",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.641",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+6)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -11 och -6; det minsta är -11.</p><p><strong>Svar:</strong> -11</p>",
+    "familj": "Extrempunkter för polynom",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.642",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x+3)\\), där -5 och -3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkter för polynom",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.643",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2+2\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,2)\\). Då \\(2=0\\cdot0+m\\), vilket ger \\(m=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Generalisering med tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.644",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+5\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-4\\) och punkten är \\((-2,9)\\). Då \\(9=-4\\cdot-2+m\\), vilket ger \\(m=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Generalisering med tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.645",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2-3\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-24\\) och punkten är \\((-2,21)\\). Då \\(21=-24\\cdot-2+m\\), vilket ger \\(m=-27\\).</p><p><strong>Svar:</strong> -27</p>",
+    "familj": "Kontrollera tangentvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -27,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.646",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+3\\). Tangenten dras vid \\(x=5\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=10\\) och punkten är \\((5,28)\\). Då \\(28=10\\cdot5+m\\), vilket ger \\(m=-22\\).</p><p><strong>Svar:</strong> -22</p>",
+    "familj": "Kontrollera tangentvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -22,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.647",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x-0)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -9 och 0; det minsta är -9.</p><p><strong>Svar:</strong> -9</p>",
+    "familj": "Funktionsfamiljer och derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.648",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-15)\\), där 6 och 15 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Funktionsfamiljer och derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.649",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2-1\\). Tangenten dras vid \\(x=4\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=48\\) och punkten är \\((4,95)\\). Då \\(95=48\\cdot4+m\\), vilket ger \\(m=-97\\).</p><p><strong>Svar:</strong> -97</p>",
+    "familj": "Skärning mellan två tangenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -97,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.650",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2+2\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-14\\) och punkten är \\((-1,9)\\). Då \\(9=-14\\cdot-1+m\\), vilket ger \\(m=-5\\).</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Skärning mellan två tangenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.651",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2+5\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,5)\\). Då \\(5=0\\cdot0+m\\), vilket ger \\(m=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Tangent till rationell funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.652",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+7\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,7)\\). Då \\(7=0\\cdot0+m\\), vilket ger \\(m=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Tangent till rationell funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.653",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -2 och 5; det minsta är -2.</p><p><strong>Svar:</strong> -2</p>",
+    "familj": "Monotoni och antal nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.654",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+1)(x-3)\\), där -1 och 3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Monotoni och antal nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.655",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-3)(x-6)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 3 och 6; det minsta är 3.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Funktionsfamilj och punkter där derivatan är noll",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.656",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-8)\\), där 6 och 8 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Funktionsfamilj och punkter där derivatan är noll",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.657",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=4\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=4x\\). Vid \\(x=4\\) är förändringshastigheten 16.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Tolka momentan förändringshastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.658",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=4\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\). Vid \\(x=4\\) är förändringshastigheten 56.</p><p><strong>Svar:</strong> 56</p>",
+    "familj": "Numerisk uppskattning av derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.659",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=3\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\). Vid \\(x=3\\) är förändringshastigheten 30.</p><p><strong>Svar:</strong> 30</p>",
+    "familj": "Numerisk uppskattning av derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.660",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x+2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -5 och -2; det minsta är -5.</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Monotoni för rationell funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.661",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-1)(x-10)\\), där 1 och 10 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Monotoni för rationell funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.662",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2-3\\). Bestäm tangentens riktningskoefficient vid \\(x=1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\), så \\(f'(1)=10\\). Tangentens riktningskoefficient är 10.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Resonemang om tangentlutningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.663",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\), så \\(f'(1)=6\\). Tangentens riktningskoefficient är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Resonemang om tangentlutningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.664",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x-0)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -5 och 0; det minsta är -5.</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Terrasspunkter och teckenbyten i derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.665",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-7)\\), där 2 och 7 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Terrasspunkter och teckenbyten i derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.666",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x+2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och -2; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "familj": "Bestämma extrempunkter med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.667",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 2; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "familj": "Derivatans nollställen och monotoni",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.668",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-12)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 4 och 12; det minsta är 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Klassificera punkter där derivatan är noll",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.669",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x-1)\\), där -5 och 1 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Klassificera punkter där derivatan är noll",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.670",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -11 och -2; det minsta är -11.</p><p><strong>Svar:</strong> -11</p>",
+    "familj": "Multipla nollställen i derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.671",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-7)\\), där 4 och 7 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Multipla nollställen i derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.672",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+9)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -11 och -9; det minsta är -11.</p><p><strong>Svar:</strong> -11</p>",
+    "familj": "Extrempunkt och deriverbarhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.673",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x+2)\\), där -4 och -2 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkt och deriverbarhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.674",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x-3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -6 och 3; det minsta är -6.</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Derivatans tecken och extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.675",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-3)\\), där -4 och 3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Derivatans tecken och extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.676",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-11)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 2 och 11; det minsta är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkter från derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.677",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-1)(x-6)\\), där 1 och 6 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkter från derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.678",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -9 och -5; det minsta är -9.</p><p><strong>Svar:</strong> -9</p>",
+    "familj": "Koppla extrempunkter till derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.679",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x+2)\\), där -7 och -2 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Koppla extrempunkter till derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.680",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-11)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 11; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Parameter och derivatans nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.681",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-7)\\), där 5 och 7 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Parameter och derivatans nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.682",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\). Vid \\(x=2\\) är förändringshastigheten 28.</p><p><strong>Svar:</strong> 28</p>",
+    "familj": "Tolka derivata som hastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.683",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(2)\\) när \\(f(x)=3x^3+3x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=9x^2+6x\\). Vid \\(x=2\\) blir värdet 48.</p><p><strong>Svar:</strong> 48</p>",
+    "familj": "Analysera funktioner med derivata digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.684",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(1)\\) när \\(f(x)=2x^3+3x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=6x^2+6x\\). Vid \\(x=1\\) blir värdet 12.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Parameter och antal extrempunkter",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.685",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(1)\\) när \\(f(x)=4x^3+x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=12x^2+2x\\). Vid \\(x=1\\) blir värdet 14.</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Parameter och antal extrempunkter",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.686",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(2)\\) när \\(f(x)=4x^3+2x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=12x^2+4x\\). Vid \\(x=2\\) blir värdet 56.</p><p><strong>Svar:</strong> 56</p>",
+    "familj": "Parameter och extrempunkters läge",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.687",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(2)\\) när \\(f(x)=3x^3+x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=9x^2+2x\\). Vid \\(x=2\\) blir värdet 40.</p><p><strong>Svar:</strong> 40</p>",
+    "familj": "Parameter och extrempunkters läge",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.688",
+    "kap": 2,
+    "omr": "extremvarden",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-7)^2+2\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=7\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Derivata i rörelsemodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.689",
+    "kap": 2,
+    "omr": "extremvarden",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(48\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(24-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(24-x)=-x^2+24x\\). Parabelns symmetrilinje är \\(x=24/2=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Derivata i rörelsemodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.690",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-9)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 5 och 9; det minsta är 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Växande och avtagande från derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.691",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-0)(x-5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 0 och 5; det minsta är 0.</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Extrem- och terrasspunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.692",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-10)\\), där 5 och 10 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrem- och terrasspunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.693",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -11 och -5; det minsta är -11.</p><p><strong>Svar:</strong> -11</p>",
+    "familj": "Extrempunkter från derivata och funktionsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.694",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+2)\\), där -8 och -2 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkter från derivata och funktionsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.695",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-3)(x-7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 3 och 7; det minsta är 3.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Från derivata till funktion och graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.696",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-3)\\), där -3 och 3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Från derivata till funktion och graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.697",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+12)(x+5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -12 och -5; det minsta är -12.</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Extrempunkter från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.698",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=1\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\). Vid \\(x=1\\) är förändringshastigheten 14.</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Tolka derivatavärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.699",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2-1\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12x\\), så \\(f'(-1)=-12\\). Tangentens riktningskoefficient är -12.</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Tangent parallell med given linje",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.700",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -2 och 1; det minsta är -2.</p><p><strong>Svar:</strong> -2</p>",
+    "familj": "Teckenstudium från faktoriserad derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.701",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=10e^{8x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=80e^{8x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=80\\).</p><p><strong>Svar:</strong> 80</p>",
+    "familj": "Derivera exponentialfunktion och polynom",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.702",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^4\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=12x^3\\). Då blir \\(f'(2)=96\\).</p><p><strong>Svar:</strong> 96</p>",
+    "familj": "Horisontella tangenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 96,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.703",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=8x^1\\). Då blir \\(f'(1)=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Tangentens lutning algebraiskt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.704",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7e^{3x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=21e^{3x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=21\\).</p><p><strong>Svar:</strong> 21</p>",
+    "familj": "Derivera exponentialfunktion med godtycklig bas",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.705",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7e^{8x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=56e^{8x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=56\\).</p><p><strong>Svar:</strong> 56</p>",
+    "familj": "Derivera exponentialfunktion med godtycklig bas",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.706",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2-1\\). Tangenten dras vid \\(x=5\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=30\\) och punkten är \\((5,74)\\). Då \\(74=30\\cdot5+m\\), vilket ger \\(m=-76\\).</p><p><strong>Svar:</strong> -76</p>",
+    "familj": "Bestäm tangentekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -76,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.707",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4e^{8x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=32e^{8x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=32\\).</p><p><strong>Svar:</strong> 32</p>",
+    "familj": "Horisontell tangent för exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.708",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x+7\\). Bestäm förändringskvoten mellan \\(x=8\\) och \\(x=10\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Förändringskvoten är \\(\\frac{f(10)-f(8)}{10-8}=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Genomsnittlig förändringshastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd (ändring i y)/(ändring i x).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.709",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=10e^{x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10e^{x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Tolka derivatakvot för exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.710",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\). Bestäm det minsta x-värdet där derivatan är 0.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 2 och 8; det minsta är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Avgör extrempunkter med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.711",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-12)\\), där 4 och 12 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Avgör extrempunkter med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.712",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(1)\\) när \\(f(x)=3x^3+3x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=9x^2+6x\\). Vid \\(x=1\\) blir värdet 15.</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Lösa derivataekvation digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.713",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(1)\\) när \\(f(x)=3x^3+2x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=9x^2+4x\\). Vid \\(x=1\\) blir värdet 13.</p><p><strong>Svar:</strong> 13</p>",
+    "familj": "Lösa derivataekvation digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.714",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2-2\\). Bestäm tangentens riktningskoefficient vid \\(x=3\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=2x\\), så \\(f'(3)=6\\). Tangentens riktningskoefficient är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Visa parallella tangenter med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.715",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2-1\\). Bestäm tangentens riktningskoefficient vid \\(x=0\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=4x\\), så \\(f'(0)=0\\). Tangentens riktningskoefficient är 0.</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Visa parallella tangenter med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.716",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5e^{x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=5e^{x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Bestäm lutning utan att lösa x",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.717",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12e^{4x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Bestäm lutning utan att lösa x",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.718",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 1; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "familj": "Undersök terrasspunkt med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.719",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-0)(x-3)\\), där 0 och 3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Undersök terrasspunkt med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.720",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=10e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=40e^{4x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=40\\).</p><p><strong>Svar:</strong> 40</p>",
+    "familj": "Derivata i sönderfallsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.721",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3e^{5x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=15e^{5x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Derivata i sönderfallsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.722",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=9e^{5x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=45e^{5x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=45\\).</p><p><strong>Svar:</strong> 45</p>",
+    "familj": "Förstå integrationskonstanten",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.723",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+6\\). Bestäm tangentens riktningskoefficient vid \\(x=3\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\), så \\(f'(3)=30\\). Tangentens riktningskoefficient är 30.</p><p><strong>Svar:</strong> 30</p>",
+    "familj": "Samma lutning för två grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.724",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+4\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=2x\\), så \\(f'(-1)=-2\\). Tangentens riktningskoefficient är -2.</p><p><strong>Svar:</strong> -2</p>",
+    "familj": "Bestäm punkt från given tangentens lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.725",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2-1\\). Bestäm tangentens riktningskoefficient vid \\(x=0\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12x\\), så \\(f'(0)=0\\). Tangentens riktningskoefficient är 0.</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Parameterrelation från tangentens lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.726",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2+3\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=8x\\), så \\(f'(-1)=-8\\). Tangentens riktningskoefficient är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "familj": "Parameterrelation från tangentens lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.727",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-4)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 4; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "familj": "Antal nollställen från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.728",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-10)\\), där 8 och 10 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Antal nollställen från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.729",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=9e^{3x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=27e^{3x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=27\\).</p><p><strong>Svar:</strong> 27</p>",
+    "familj": "Funktioner som är lika med sin derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.730",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Funktioner som är lika med sin derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.731",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 2 och 7; det minsta är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Utnyttja symmetri hos derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.732",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-11)\\), där 6 och 11 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Utnyttja symmetri hos derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.733",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=28e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=28\\).</p><p><strong>Svar:</strong> 28</p>",
+    "familj": "Utvärdera exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.734",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6e^{6x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=36e^{6x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Utvärdera exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.735",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=6x^1\\). Då blir \\(f'(2)=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Derivera polynom",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.736",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=4\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\). Vid \\(x=4\\) är förändringshastigheten 24.</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Hastighet som derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.737",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=10e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=70e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=70\\).</p><p><strong>Svar:</strong> 70</p>",
+    "familj": "Derivera exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.738",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Derivera exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.739",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=8e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Exponentialmodell och logaritm",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.740",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^{-1}\\). Ange \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=-x^{-2}\\), alltså \\(f'(1)=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Derivera rationellt potensuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln även för negativa exponenter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.741",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2\\). Bestäm den momentana förändringshastigheten vid \\(x=2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=2x\\). Vid \\(x=2\\) är förändringshastigheten 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Bestäm x från given lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den momentana förändringshastigheten är derivatans värde.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.742",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+2\\). Tangenten dras vid \\(x=5\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=50\\) och punkten är \\((5,127)\\). Då \\(127=50\\cdot5+m\\), vilket ger \\(m=-123\\).</p><p><strong>Svar:</strong> -123</p>",
+    "familj": "Tangentens skärning med x-axeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -123,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.743",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+0\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-10\\) och punkten är \\((-1,5)\\). Då \\(5=-10\\cdot-1+m\\), vilket ger \\(m=-5\\).</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Tangentens skärning med x-axeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.790",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-13)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 4 och 13; det minsta är 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Bestämma växande och avtagande med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.791",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 2}(x^2+2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=2\\): \\(2^2+2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Beräkna gränsvärde genom faktorisering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.792",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=1\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(2)=9\\).</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Förstå konstanten i primitiva funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.793",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 2\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 2: \\(2\\cdot10=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Beräkna bestämda integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.794",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 4 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(4\\cdot5=20\\) liter.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Beräkna sträcka och förflyttning från hastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.795",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=5x+k\\) för \\(x&lt;-2\\) och \\(f(x)=5\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(5\\cdot-2+k=5\\). Därför \\(k=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Bestäm parameter för kontinuitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.796",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 3 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(3\\cdot5=15\\) liter.</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Beräkna ackumulerad mängd från en förändringshastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.797",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-13)^2+15\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=13\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 13</p>",
+    "familj": "Geometrisk optimering med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.798",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=7x+k\\) för \\(x&lt;-1\\) och \\(f(x)=5\\) för \\(x\\ge -1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(7\\cdot-1+k=5\\). Därför \\(k=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Kontinuitet med två villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.799",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=2x+k\\) för \\(x&lt;-1\\) och \\(f(x)=6\\) för \\(x\\ge -1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(2\\cdot-1+k=6\\). Därför \\(k=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Kontinuitet med två villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.800",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Bestämma primitiv funktion med begynnelsevillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.801",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-14)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 14; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Från derivata till extrempunkternas koordinater",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.802",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-6)\\), där -3 och 6 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Från derivata till extrempunkternas koordinater",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.803",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=3x+k\\) för \\(x&lt;-2\\) och \\(f(x)=0\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(3\\cdot-2+k=0\\). Därför \\(k=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Parameter i gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.804",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=5x+k\\) för \\(x&lt;1\\) och \\(f(x)=-1\\) för \\(x\\ge 1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(5\\cdot1+k=-1\\). Därför \\(k=-6\\).</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Parameter i gränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.805",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 4x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 2^2/2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Beräkna area med integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.806",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 6 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(6\\cdot4=24\\) liter.</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Beräkna förändring från hastighet med integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.807",
+    "kap": 3,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Polynomet är \\(P(x)=4x^2-2x+1\\). Bestäm \\(P(-1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Sätt in \\(x=-1\\): \\(P(-1)=4\\cdot(-1)^2-2\\cdot(-1)+1=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Dubbelrot och parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i hela polynomet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.808",
+    "kap": 3,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet är \\(P(x)=3x^2-3x+2\\). Bestäm \\(P(-1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Sätt in \\(x=-1\\): \\(P(-1)=3\\cdot(-1)^2-3\\cdot(-1)+2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Dubbelrot och parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i hela polynomet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.809",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-1)(x-9)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 1 och 9; det minsta är 1.</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Dubbelrot i derivatan och terrasspunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.810",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-6)\\), där 4 och 6 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Dubbelrot i derivatan och terrasspunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.811",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-17)^2+6\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=17\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 17</p>",
+    "familj": "Ekonomisk optimering med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.812",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=5x+k\\) för \\(x&lt;3\\) och \\(f(x)=6\\) för \\(x\\ge 3\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=3\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(5\\cdot3+k=6\\). Därför \\(k=-9\\).</p><p><strong>Svar:</strong> -9</p>",
+    "familj": "Ta bort ett hål med kontinuitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.813",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=-2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=-2\\) fås \\(C=-2\\). Då är \\(F(1)=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Bestämma och tolka primitiva funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.814",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^4 10x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 4^2/2=80\\).</p><p><strong>Svar:</strong> 80</p>",
+    "familj": "Använda integralkalkylens huvudsats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.815",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 4 liter/minut under 3 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(4\\cdot3=12\\) liter.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Tolka och använda integraler i tillämpningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.816",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 1}(x^2+3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=1\\): \\(1^2+3=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Vänster- och högergränsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.817",
+    "kap": 3,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=3x+k\\) för \\(x&lt;2\\) och \\(f(x)=-6\\) för \\(x\\ge 2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(3\\cdot2+k=-6\\). Därför \\(k=-12\\).</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Kontinuitet och borttagbar diskontinuitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.818",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^9 4\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 4: \\(4\\cdot9=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Beräkna integraler och area digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.819",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 8\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 8: \\(8\\cdot8=64\\).</p><p><strong>Svar:</strong> 64</p>",
+    "familj": "Area mellan två grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.820",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{1}2x^2\\). Värdet blir \\(1\\cdot 10^2/2=50\\).</p><p><strong>Svar:</strong> 50</p>",
+    "familj": "Area mellan två grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.821",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-19)^2+23\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=19\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 19</p>",
+    "familj": "Maximera skillnad mellan två modeller",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.822",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(20\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(10-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(10-x)=-x^2+10x\\). Parabelns symmetrilinje är \\(x=10/2=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Maximera skillnad mellan två modeller",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.823",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x-4)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -5 och 4; det minsta är -5.</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Extrempunkt eller terrasspunkt från teckenstudium",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.824",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x+3)\\), där -6 och -3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkt eller terrasspunkt från teckenstudium",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.825",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(2)=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Primitiv funktion med villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.826",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(2)=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Primitiva funktioner med negativa exponenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.827",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 4\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 4: \\(4\\cdot10=40\\).</p><p><strong>Svar:</strong> 40</p>",
+    "familj": "Bestämd integral med exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.828",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och 3; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "familj": "Slutsatser från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.829",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-9)\\), där 2 och 9 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Slutsatser från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.830",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 9\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 9: \\(9\\cdot6=54\\).</p><p><strong>Svar:</strong> 54</p>",
+    "familj": "Integral jämfört med geometrisk area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 54,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.831",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 3x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{3}2x^2\\). Värdet blir \\(3\\cdot 10^2/2=150\\).</p><p><strong>Svar:</strong> 150</p>",
+    "familj": "Integral jämfört med geometrisk area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.832",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=1\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(1)=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Primitiv funktion med begynnelsevillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.833",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^9 12\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 12: \\(12\\cdot9=108\\).</p><p><strong>Svar:</strong> 108</p>",
+    "familj": "Bestämd integral med rationell exponent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 108,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.834",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-16)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 16; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Teckenstudium med enkel- och dubbelrot",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.835",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x-2)\\), där -6 och 2 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Teckenstudium med enkel- och dubbelrot",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.836",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x+5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -7 och -5; det minsta är -7.</p><p><strong>Svar:</strong> -7</p>",
+    "familj": "Bestäm extrempunkter med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.837",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+3)\\), där -9 och -3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Bestäm extrempunkter med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.838",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=1\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(1)=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Verifiera primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.839",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^9 7\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 7: \\(7\\cdot9=63\\).</p><p><strong>Svar:</strong> 63</p>",
+    "familj": "Bestämd integral över intervall med negativ gräns",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 63,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.840",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-10)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 5 och 10; det minsta är 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Derivatans nollställen och horisontella tangenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.841",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+1\\). Därför \\(v(2)=13\\) m/s.</p><p><strong>Svar:</strong> 13</p>",
+    "familj": "Hastighet som derivata och riktningsbyte",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.842",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+0\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(2)=14\\) m/s.</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Hastighet som derivata och riktningsbyte",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.843",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och -2; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "familj": "Bestäm och klassificera extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.844",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+9)\\), där -11 och -9 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Bestäm och klassificera extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.845",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-18)^2+5\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=18\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Tillämpad optimering med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.846",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^4 5\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 5: \\(5\\cdot4=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Bestäm parameter med integralvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.847",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 4x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 10^2/2=200\\).</p><p><strong>Svar:</strong> 200</p>",
+    "familj": "Bestäm parameter med integralvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 200,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.848",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-16)^2+17\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=16\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Optimera tillämpade andragradsmodeller",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.849",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=4x^1\\). Då blir \\(f'(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Beräkna derivatans värde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.850",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+0\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(3)=20\\) m/s.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Tolka derivatan i en modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.851",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2+0\\). Tangenten dras vid \\(x=2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=12\\) och punkten är \\((2,12)\\). Då \\(12=12\\cdot2+m\\), vilket ger \\(m=-12\\).</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Läs funktionsvärde och derivata ur en tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.852",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-12)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 12; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Tolka derivatans nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.853",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-4)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och 4; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "familj": "Teckenstudium av derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.854",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+1)(x-6)\\), där -1 och 6 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Teckenstudium av derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.855",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2-3\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-16\\) och punkten är \\((-2,13)\\). Då \\(13=-16\\cdot-2+m\\), vilket ger \\(m=-19\\).</p><p><strong>Svar:</strong> -19</p>",
+    "familj": "Parameter och tangentvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -19,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.856",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2-3\\). Tangenten dras vid \\(x=3\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=12\\) och punkten är \\((3,15)\\). Då \\(15=12\\cdot3+m\\), vilket ger \\(m=-21\\).</p><p><strong>Svar:</strong> -21</p>",
+    "familj": "Parameter och tangentvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -21,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.857",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2+5\\). Bestäm tangentens riktningskoefficient vid \\(x=0\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\), så \\(f'(0)=0\\). Tangentens riktningskoefficient är 0.</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Parallella tangenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.858",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2-2\\). Bestäm tangentens riktningskoefficient vid \\(x=2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\), så \\(f'(2)=28\\). Tangentens riktningskoefficient är 28.</p><p><strong>Svar:</strong> 28</p>",
+    "familj": "Parallella tangenter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.859",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2-3\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-6\\) och punkten är \\((-1,0)\\). Då \\(0=-6\\cdot-1+m\\), vilket ger \\(m=-6\\).</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Tangent och skärning med koordinataxel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.860",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2-3\\). Tangenten dras vid \\(x=5\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=50\\) och punkten är \\((5,122)\\). Då \\(122=50\\cdot5+m\\), vilket ger \\(m=-128\\).</p><p><strong>Svar:</strong> -128</p>",
+    "familj": "Tangent och skärning med koordinataxel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -128,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.861",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(1)=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Bestäm funktion från derivata och villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.862",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=-1\\) fås \\(C=-1\\). Då är \\(F(1)=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Bestäm funktion från derivata och villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.863",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=1\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Funktioner med samma derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.864",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=-2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=-2\\) fås \\(C=-2\\). Då är \\(F(1)=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Funktioner med samma derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.865",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-17)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 17; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Klassificera nollställen till derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.866",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-4)\\), där -4 och 4 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Klassificera nollställen till derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.867",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-10)^2+8\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=10\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Parameter bestämd av extremvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.868",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(40\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(20-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(20-x)=-x^2+20x\\). Parabelns symmetrilinje är \\(x=20/2=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Parameter bestämd av extremvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.869",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2-3\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-8\\) och punkten är \\((-1,1)\\). Då \\(1=-8\\cdot-1+m\\), vilket ger \\(m=-7\\).</p><p><strong>Svar:</strong> -7</p>",
+    "familj": "Tangent från funktionsvärde och derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.870",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+0\\). Tangenten dras vid \\(x=5\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=10\\) och punkten är \\((5,25)\\). Då \\(25=10\\cdot5+m\\), vilket ger \\(m=-25\\).</p><p><strong>Svar:</strong> -25</p>",
+    "familj": "Generaliserad tangentgeometri",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.871",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2+6\\). Tangenten dras vid \\(x=3\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=42\\) och punkten är \\((3,69)\\). Då \\(69=42\\cdot3+m\\), vilket ger \\(m=-57\\).</p><p><strong>Svar:</strong> -57</p>",
+    "familj": "Generaliserad tangentgeometri",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -57,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.872",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-0)(x-9)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 0 och 9; det minsta är 0.</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Generalisera extremvärden med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.873",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+5)\\), där -9 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Generalisera extremvärden med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.874",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=3\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(2)=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Återskapa funktion från derivata och analysera extrema",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.875",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=-1\\) fås \\(C=-1\\). Då är \\(F(2)=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Återskapa funktion från derivata och analysera extrema",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.876",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+1)(x-1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -1 och 1; det minsta är -1.</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Extrempunkter och tangent i samma funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.877",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x-3)\\), där -6 och 3 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkter och tangent i samma funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.878",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-14)^2+14\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=14\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Parameterfamilj och extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.879",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(12\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(6-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(6-x)=-x^2+6x\\). Parabelns symmetrilinje är \\(x=6/2=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Parameterfamilj och extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.880",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-0)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -2 och 0; det minsta är -2.</p><p><strong>Svar:</strong> -2</p>",
+    "familj": "Horisontell tangent utan extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.881",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-12)\\), där 6 och 12 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Horisontell tangent utan extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.882",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+15\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Maximera rektangelarea under linje",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.883",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(60\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(30-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(30-x)=-x^2+30x\\). Parabelns symmetrilinje är \\(x=30/2=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Maximera rektangelarea under linje",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.884",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-4)^2+9\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=4\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Bestäm parametrar från extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.885",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(52\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(26-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(26-x)=-x^2+26x\\). Parabelns symmetrilinje är \\(x=26/2=13\\).</p><p><strong>Svar:</strong> 13</p>",
+    "familj": "Bestäm parametrar från extrempunkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.886",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^5 2\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 5 och höjd 2: \\(2\\cdot5=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Tolka integral av en derivata från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.887",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 7x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\). Värdet blir \\(7\\cdot 8^2/2=224\\).</p><p><strong>Svar:</strong> 224</p>",
+    "familj": "Tolka integral av en derivata från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 224,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.888",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och -1; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "familj": "Avgör om en terrasspunkt finns",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.889",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+6)\\), där -10 och -6 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Avgör om en terrasspunkt finns",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.890",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 12\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 12: \\(12\\cdot10=120\\).</p><p><strong>Svar:</strong> 120</p>",
+    "familj": "Bestäm parameter med hjälp av area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.891",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^12 10x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 12^2/2=720\\).</p><p><strong>Svar:</strong> 720</p>",
+    "familj": "Bestäm parameter med hjälp av area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 720,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.892",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-1)^2+30\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=1\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Maximera area med ett enkelt villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.893",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=(x-2)^2+6\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Minimera omkrets vid given area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen (x-h)^2+k syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.894",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-7)^2+5\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=7\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Optimering med skiljestängsel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.895",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(56\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(28-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(28-x)=-x^2+28x\\). Parabelns symmetrilinje är \\(x=28/2=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Optimering med skiljestängsel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.896",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-2)^2+14\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=2\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Geometrisk optimering med sammansatt figur",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.897",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(36\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(18-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(18-x)=-x^2+18x\\). Parabelns symmetrilinje är \\(x=18/2=9\\).</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Geometrisk optimering med sammansatt figur",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.898",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(1)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Bestäm primitiv funktion från extremvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.899",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=-2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=-2\\) fås \\(C=-2\\). Då är \\(F(2)=22\\).</p><p><strong>Svar:</strong> 22</p>",
+    "familj": "Bestäm primitiv funktion från extremvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 22,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.900",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 11\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 11: \\(11\\cdot10=110\\).</p><p><strong>Svar:</strong> 110</p>",
+    "familj": "Bestäm funktionsvärde från derivatans graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 110,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.901",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 10x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 2^2/2=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Bestäm funktionsvärde från derivatans graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.902",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 2 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(2\\cdot4=8\\) liter.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Ackumulerad förändring från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.903",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 2 liter/minut under 3 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(2\\cdot3=6\\) liter.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Förflyttning och sträcka från hastighetsgraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.904",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+1\\) liter/minut för \\(0\\le t\\le 2\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^2(t+1)\\,dt=[1/2\\,t^2+t]_0^2=4\\) liter.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Förflyttning och sträcka från hastighetsgraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.905",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+23\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Återskapa funktion och bestäm extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.906",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(32\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(16-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(16-x)=-x^2+16x\\). Parabelns symmetrilinje är \\(x=16/2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Återskapa funktion och bestäm extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.907",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-13)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 6 och 13; det minsta är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Tolka derivatans graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.908",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-9)^2+15\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=9\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Extremvärden på slutet intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.909",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(16\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(8-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(8-x)=-x^2+8x\\). Parabelns symmetrilinje är \\(x=8/2=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Extremvärden på slutet intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.910",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-11)^2+15\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=11\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Bestäm parameter från extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.911",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(28\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(14-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(14-x)=-x^2+14x\\). Parabelns symmetrilinje är \\(x=14/2=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Bestäm parameter från extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.912",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+22\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Bestäm parameter från extremvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.913",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(24\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(12-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(12-x)=-x^2+12x\\). Parabelns symmetrilinje är \\(x=12/2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Bestäm parameter från extremvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.914",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x+1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -7 och -1; det minsta är -7.</p><p><strong>Svar:</strong> -7</p>",
+    "familj": "Bestäm extremvärde från derivata och startvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.915",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-14)\\), där 6 och 14 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Bestäm extremvärde från derivata och startvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.916",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-2)^2+11\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=2\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Maximera triangelarea",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.917",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-14)^2+27\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=14\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Två hagar mot vägg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.918",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(44\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(22-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(22-x)=-x^2+22x\\). Parabelns symmetrilinje är \\(x=22/2=11\\).</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Två hagar mot vägg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.919",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=(x-3)^2+6\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när \\(x=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Minimera stängsel vid given area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen (x-h)^2+k syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.920",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=(x-12)^2+29\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när \\(x=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Minimera stängsel vid given area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen (x-h)^2+k syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.921",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Primitiva funktioner skiljer med konstant",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.922",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x^2\\) och \\(F(0)=1\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=2x^3+C\\). Av \\(F(0)=1\\) fås \\(C=1\\). Då är \\(F(1)=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Primitiva funktioner skiljer med konstant",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.923",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Tolka derivata från graf till primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.924",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x+1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och -1; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "familj": "Göra teckentabell för derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.925",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x-1)\\), där -8 och 1 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Göra teckentabell för derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.926",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x-1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och 1; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "familj": "Grafanalys från faktoriserad derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.927",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+4)\\), där -11 och -4 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Grafanalys från faktoriserad derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.928",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-7)(x-13)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 7 och 13; det minsta är 7.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Dubbelrot i derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.929",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\), där 2 och 8 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Dubbelrot i derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.930",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -10 och -5; det minsta är -10.</p><p><strong>Svar:</strong> -10</p>",
+    "familj": "Grafanalys från derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.931",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-3)(x-12)\\), där 3 och 12 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Grafanalys från derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.932",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-16)^2+27\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=16\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Flera hagar mot vägg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.933",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(44\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(22-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(22-x)=-x^2+22x\\). Parabelns symmetrilinje är \\(x=22/2=11\\).</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Flera hagar mot vägg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.934",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-7)^2+22\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=7\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Geometrisk optimering med linjevillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.935",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(56\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(28-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(28-x)=-x^2+28x\\). Parabelns symmetrilinje är \\(x=28/2=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Geometrisk optimering med linjevillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.936",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=(x-6)^2+12\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när \\(x=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Minimera stängsel med skiljeväggar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen (x-h)^2+k syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.937",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=(x-5)^2+27\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när \\(x=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Minimera stängsel med skiljeväggar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen (x-h)^2+k syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.938",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+8\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Maximera rektangelarea vid given omkrets",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.939",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+1\\). Därför \\(v(1)=7\\) m/s.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Maximera intäkt från linjär efterfrågemodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.940",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(1)=8\\) m/s.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Maximera intäkt från linjär efterfrågemodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.941",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+t+2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+1\\). Därför \\(v(3)=19\\) m/s.</p><p><strong>Svar:</strong> 19</p>",
+    "familj": "Optimera geometriska tillämpningar med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.942",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 8\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 8: \\(8\\cdot10=80\\).</p><p><strong>Svar:</strong> 80</p>",
+    "familj": "Analysens huvudsats från värden på primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.943",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^10 2x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{2}2x^2\\). Värdet blir \\(2\\cdot 10^2/2=100\\).</p><p><strong>Svar:</strong> 100</p>",
+    "familj": "Analysens huvudsats från värden på primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.944",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=3\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(2)=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Bestäm integrationskonstant från punkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.945",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(1)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Bestäm integrationskonstant från punkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.946",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 2\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 2: \\(2\\cdot6=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Tolka ackumulationsfunktion från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.947",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^12 5x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{5}2x^2\\). Värdet blir \\(5\\cdot 12^2/2=360\\).</p><p><strong>Svar:</strong> 360</p>",
+    "familj": "Tolka ackumulationsfunktion från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 360,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.948",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 11\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 11: \\(11\\cdot2=22\\).</p><p><strong>Svar:</strong> 22</p>",
+    "familj": "Bestäm parameter från area under parabel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 22,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.949",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 8x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{8}2x^2\\). Värdet blir \\(8\\cdot 8^2/2=256\\).</p><p><strong>Svar:</strong> 256</p>",
+    "familj": "Bestäm parameter från area under parabel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 256,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.950",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 5\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 5: \\(5\\cdot2=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Addera bestämda integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.951",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 7x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\). Värdet blir \\(7\\cdot 6^2/2=126\\).</p><p><strong>Svar:</strong> 126</p>",
+    "familj": "Addera bestämda integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 126,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.952",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+2\\). Därför \\(v(1)=6\\) m/s.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Maximera tvärsnittsarea för vikt plåt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.953",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+1\\). Därför \\(v(1)=5\\) m/s.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Maximera tvärsnittsarea för vikt plåt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.954",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=2t+2\\). Därför \\(v(2)=6\\) m/s.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Maximera rektangel i halvcirkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.955",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+5\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(3)=20\\) m/s.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Maximera rektangel i halvcirkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.956",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(1)=10\\) m/s.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Maximera intäkt med kontinuerlig efterfrågemodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.957",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+5\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(2)=14\\) m/s.</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Maximera intäkt med kontinuerlig efterfrågemodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.958",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^4 4\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 4: \\(4\\cdot4=16\\).</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Jämföra bestämda integraler numeriskt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.959",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^6 5x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{5}2x^2\\). Värdet blir \\(5\\cdot 6^2/2=90\\).</p><p><strong>Svar:</strong> 90</p>",
+    "familj": "Jämföra bestämda integraler numeriskt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.960",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 6\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 6: \\(6\\cdot8=48\\).</p><p><strong>Svar:</strong> 48</p>",
+    "familj": "Tolka integral geometriskt som cirkelarea",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.961",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 7x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\). Värdet blir \\(7\\cdot 2^2/2=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Tolka integral geometriskt som cirkelarea",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.962",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 3\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 3: \\(3\\cdot8=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Integral med absolutbelopp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.963",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 5x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{5}2x^2\\). Värdet blir \\(5\\cdot 8^2/2=160\\).</p><p><strong>Svar:</strong> 160</p>",
+    "familj": "Integral med absolutbelopp",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 160,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.964",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 12\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 12: \\(12\\cdot2=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Derivera ackumulationsfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.965",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 9x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 8^2/2=288\\).</p><p><strong>Svar:</strong> 288</p>",
+    "familj": "Derivera ackumulationsfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 288,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.966",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^7 12\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 7 och höjd 12: \\(12\\cdot7=84\\).</p><p><strong>Svar:</strong> 84</p>",
+    "familj": "Byta integrationsgränser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 84,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.967",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 12\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 12: \\(12\\cdot8=96\\).</p><p><strong>Svar:</strong> 96</p>",
+    "familj": "Integralens linearitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 96,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.968",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^4 x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{1}2x^2\\). Värdet blir \\(1\\cdot 4^2/2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Integralens linearitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.969",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -10 och -3; det minsta är -10.</p><p><strong>Svar:</strong> -10</p>",
+    "familj": "Läsa växande och avtagande från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.970",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-4)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 2 och 4; det minsta är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Läsa av extrempunkter från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.971",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -9 och -7; det minsta är -9.</p><p><strong>Svar:</strong> -9</p>",
+    "familj": "Bygga teckenschema från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.972",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+5)\\), där -8 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Bygga teckenschema från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.973",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-0)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 0; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "familj": "Resonera om extrempunkter från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.974",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+12)(x+5)\\), där -12 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Resonera om extrempunkter från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.975",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+12)(x+6)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -12 och -6; det minsta är -12.</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Uppskatta extrempunkter från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.976",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-14)\\), där 8 och 14 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Uppskatta extrempunkter från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.977",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x-2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -7 och 2; det minsta är -7.</p><p><strong>Svar:</strong> -7</p>",
+    "familj": "Koppla horisontell tangent till derivatans nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.978",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-14)\\), där 5 och 14 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Koppla horisontell tangent till derivatans nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.979",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-7)(x-15)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 7 och 15; det minsta är 7.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Avgöra om derivatan kan vara noll från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.980",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+8)\\), där -11 och -8 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Avgöra om derivatan kan vara noll från graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.981",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 4 och 7; det minsta är 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Klassificera horisontell tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.982",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-9)\\), där 4 och 9 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Klassificera horisontell tangent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.983",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=2t+4\\). Därför \\(v(3)=10\\) m/s.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Två odlingsrutor mot mur",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.984",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+0\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(3)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Två odlingsrutor mot mur",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.985",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(3)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Minimera material för cylinder utan lock",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.986",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=2t+2\\). Därför \\(v(1)=4\\) m/s.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Minimera material för cylinder utan lock",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.987",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(2)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Minimera avstånd till parabel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.988",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+t+5\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=2t+1\\). Därför \\(v(3)=7\\) m/s.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Minimera avstånd till parabel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.989",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(1)=8\\) m/s.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Maximera rektangel i ellips",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.990",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(1)=10\\) m/s.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Maximera rektangel i ellips",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.991",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^4 8\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 8: \\(8\\cdot4=32\\).</p><p><strong>Svar:</strong> 32</p>",
+    "familj": "Numerisk bestämd integral",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.992",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^12 9x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 12^2/2=648\\).</p><p><strong>Svar:</strong> 648</p>",
+    "familj": "Numerisk bestämd integral",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 648,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.993",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^3 6\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 6: \\(6\\cdot3=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Förutsäga tecken och beräkna integral numeriskt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.994",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^6 10x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 6^2/2=180\\).</p><p><strong>Svar:</strong> 180</p>",
+    "familj": "Förutsäga tecken och beräkna integral numeriskt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 180,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.995",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^4 5\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 5: \\(5\\cdot4=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Bestämma integrationsgräns digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.996",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^2 6x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{6}2x^2\\). Värdet blir \\(6\\cdot 2^2/2=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Bestämma integrationsgräns digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.997",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=1\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=1\\) fås \\(C=1\\). Då är \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Identifiera primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.998",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^5 6\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 5 och höjd 6: \\(6\\cdot5=30\\).</p><p><strong>Svar:</strong> 30</p>",
+    "familj": "Integral som geometrisk area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.999",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -5 och -3; det minsta är -5.</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Klassificera extrempunkter från derivatans graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1000",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-13)\\), där 5 och 13 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Klassificera extrempunkter från derivatans graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1001",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-9)^2+9\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=9\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Optimera rektangel under en parabel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1002",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangel har omkretsen \\(68\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(34-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(34-x)=-x^2+34x\\). Parabelns symmetrilinje är \\(x=34/2=17\\).</p><p><strong>Svar:</strong> 17</p>",
+    "familj": "Optimera rektangel under en parabel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1003",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^7 6\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 7 och höjd 6: \\(6\\cdot7=42\\).</p><p><strong>Svar:</strong> 42</p>",
+    "familj": "Beräkna integral digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1004",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^2 6\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 6: \\(6\\cdot2=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Sträcka från en hastighetsmodell",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1005",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^10 8x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{8}2x^2\\). Värdet blir \\(8\\cdot 10^2/2=400\\).</p><p><strong>Svar:</strong> 400</p>",
+    "familj": "Sträcka från en hastighetsmodell",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1006",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^10 7\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 7: \\(7\\cdot10=70\\).</p><p><strong>Svar:</strong> 70</p>",
+    "familj": "Area mellan två grafer digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1007",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^2 9x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 2^2/2=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Area mellan två grafer digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1008",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^6 6\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 6: \\(6\\cdot6=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Area mellan logaritmkurva och linje",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1009",
+    "kap": 3,
+    "omr": "integraler_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^10 x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{1}2x^2\\). Värdet blir \\(1\\cdot 10^2/2=50\\).</p><p><strong>Svar:</strong> 50</p>",
+    "familj": "Area mellan logaritmkurva och linje",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1010",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(2)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Bestäm primitiv funktion med villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1011",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(2)=26\\).</p><p><strong>Svar:</strong> 26</p>",
+    "familj": "Bestäm primitiv funktion med villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1012",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=3\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(2)=11\\).</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Primitiv funktion med startvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1013",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=-1\\) fås \\(C=-1\\). Då är \\(F(1)=0\\).</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Primitiv funktion med startvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1014",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Primitiv funktion till exponentialfunktion med bas a",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1015",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(2)=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Primitiv funktion till exponentialfunktion med bas a",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1016",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x^2\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=2x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Enkel primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1017",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^5 8\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 5 och höjd 8: \\(8\\cdot5=40\\).</p><p><strong>Svar:</strong> 40</p>",
+    "familj": "Integral från enkel graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1018",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-6)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 6; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "familj": "Läsa extrempunkt från derivatans graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1019",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2+4\\). Tangenten dras vid \\(x=3\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=48\\) och punkten är \\((3,76)\\). Då \\(76=48\\cdot3+m\\), vilket ger \\(m=-68\\).</p><p><strong>Svar:</strong> -68</p>",
+    "familj": "Bestäm tangent till kubisk funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -68,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1020",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2+5\\). Tangenten dras vid \\(x=4\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=16\\) och punkten är \\((4,37)\\). Då \\(37=16\\cdot4+m\\), vilket ger \\(m=-27\\).</p><p><strong>Svar:</strong> -27</p>",
+    "familj": "Bestäm tangent till kubisk funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -27,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1021",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 3\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 3: \\(3\\cdot6=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Area mellan två kurvor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1022",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 6x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{6}2x^2\\). Värdet blir \\(6\\cdot 6^2/2=108\\).</p><p><strong>Svar:</strong> 108</p>",
+    "familj": "Area mellan två kurvor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 108,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1023",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 6 liter/minut under 3 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(6\\cdot3=18\\) liter.</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Tolka ackumulation från flödesgraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1024",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=2t+2\\) liter/minut för \\(0\\le t\\le 2\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^2(2t+2)\\,dt=[2/2\\,t^2+2t]_0^2=8\\) liter.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Tolka ackumulation från flödesgraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1025",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-20)^2+16\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=20\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Enkel optimering med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1026",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^3 9\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 9: \\(9\\cdot3=27\\).</p><p><strong>Svar:</strong> 27</p>",
+    "familj": "Begrepp om bestämd integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1027",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 4x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 6^2/2=72\\).</p><p><strong>Svar:</strong> 72</p>",
+    "familj": "Begrepp om bestämd integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1028",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^9 4\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 4: \\(4\\cdot9=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Derivata av ackumulationsfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1029",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^12 9x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 12^2/2=648\\).</p><p><strong>Svar:</strong> 648</p>",
+    "familj": "Derivata av ackumulationsfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 648,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1030",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 11\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 11: \\(11\\cdot8=88\\).</p><p><strong>Svar:</strong> 88</p>",
+    "familj": "Area mellan parabel och linje",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 88,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1031",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 2x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{2}2x^2\\). Värdet blir \\(2\\cdot 6^2/2=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Area mellan parabel och linje",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1032",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+2\\). Bestäm tangentens riktningskoefficient vid \\(x=2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=2x\\), så \\(f'(2)=4\\). Tangentens riktningskoefficient är 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Parallella tangenter med given lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1033",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2+1\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\), så \\(f'(-1)=-6\\). Tangentens riktningskoefficient är -6.</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Parallella tangenter med given lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1034",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+3\\). Tangenten dras vid \\(x=4\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=8\\) och punkten är \\((4,19)\\). Då \\(19=8\\cdot4+m\\), vilket ger \\(m=-13\\).</p><p><strong>Svar:</strong> -13</p>",
+    "familj": "Tangentgeometri med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1035",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2+4\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,4)\\). Då \\(4=0\\cdot0+m\\), vilket ger \\(m=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Tangentgeometri med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1036",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 6 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(6\\cdot5=30\\) liter.</p><p><strong>Svar:</strong> 30</p>",
+    "familj": "Integral som ackumulerad förbrukning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1037",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=2t+1\\) liter/minut för \\(0\\le t\\le 2\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^2(2t+1)\\,dt=[2/2\\,t^2+t]_0^2=6\\) liter.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Integral som ackumulerad förbrukning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1038",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-12)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 6 och 12; det minsta är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Globalt min/max på slutet intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1039",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-1)(x-9)\\), där 1 och 9 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Globalt min/max på slutet intervall",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1040",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 4 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(4\\cdot4=16\\) liter.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Tolka integral av hastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1041",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+2\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(t+2)\\,dt=[1/2\\,t^2+2t]_0^4=16\\) liter.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Tolka integral av hastighet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1042",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^3 11\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 11: \\(11\\cdot3=33\\).</p><p><strong>Svar:</strong> 33</p>",
+    "familj": "Integrera exponentialfunktion exakt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 33,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1043",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^8 4x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 8^2/2=128\\).</p><p><strong>Svar:</strong> 128</p>",
+    "familj": "Integrera exponentialfunktion exakt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 128,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1044",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(2)=14\\) m/s.</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Bestäm värdemängd för derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1045",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+5\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(2)=12\\) m/s.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Bestäm värdemängd för derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1046",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 5 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(5\\cdot4=20\\) liter.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Ackumulera förändringshastighet med integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1047",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=2t+2\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(2t+2)\\,dt=[2/2\\,t^2+2t]_0^4=24\\) liter.</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Ackumulera förändringshastighet med integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1048",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-11)^2+9\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=11\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 11</p>",
+    "familj": "Klassiskt extremvärdesproblem med två tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1049",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(12\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(6-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(6-x)=-x^2+6x\\). Parabelns symmetrilinje är \\(x=6/2=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Klassiskt extremvärdesproblem med två tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1050",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 5 liter/minut under 3 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(5\\cdot3=15\\) liter.</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Jämför integral med diskret summa",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1051",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+2\\) liter/minut för \\(0\\le t\\le 2\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^2(t+2)\\,dt=[1/2\\,t^2+2t]_0^2=6\\) liter.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Jämför integral med diskret summa",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1052",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=1\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(2)=13\\).</p><p><strong>Svar:</strong> 13</p>",
+    "familj": "Primitiva funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1053",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-19)^2+12\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=19\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 19</p>",
+    "familj": "Maximera area med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1054",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 12\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 12: \\(12\\cdot6=72\\).</p><p><strong>Svar:</strong> 72</p>",
+    "familj": "Bestämd integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1055",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och -3; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "familj": "Extrempunkter med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1056",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+1)\\), där -9 och -1 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkter med derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1057",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=1\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(2)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Kontrollera primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1058",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-7)(x-14)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 7 och 14; det minsta är 7.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Extrempunkter och karaktär",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1059",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-4)\\), där -2 och 4 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Extrempunkter och karaktär",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.429",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(cos 120^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(cos 120^\\circ=-0,5\\).</p><p><strong>Svar:</strong> -0.5</p>",
+    "familj": "Exakta trigonometriska värden och symmetri i enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.430",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 9 cm och 12 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(c^2=9^2+12^2-2\\cdot9\\cdot12\\cos90^\\circ=225\\). Alltså \\(c=15\\) cm.</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Använda cosinussatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I cosinussatsen blir cos 90°=0.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.431",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är sidan mittemot vinkeln \\(v\\) 3 cm och hypotenusan 5 cm. Bestäm \\(\\sin v\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(\\sin v=\\frac{motstående}{hypotenusa}=\\frac{3}{5}=0,6\\).</p><p><strong>Svar:</strong> 0.6</p>",
+    "familj": "Trigonometrisk problemlösning i rätvinkliga trianglar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sinus är motstående katet delat med hypotenusan.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.432",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+1y\\). Bestäm \\(Z\\) i punkten \\((1,2)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(Z=2\\cdot1+1\\cdot2=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Optimera en målfunktion grafiskt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.433",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna summan av de tre första termerna i följden \\(2, 4, 8,\\ldots\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(2+4+8=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "familj": "Beräkna och analysera geometriska summor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Addera de tre första termerna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.434",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(sin 90^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(sin 90^\\circ=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Bestämma koordinater och vinklar i enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.435",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är sidan mittemot vinkeln \\(v\\) 6 cm och hypotenusan 10 cm. Bestäm \\(\\sin v\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(\\sin v=\\frac{motstående}{hypotenusa}=\\frac{6}{10}=0,6\\).</p><p><strong>Svar:</strong> 0.6</p>",
+    "familj": "Bestämma avstånd och sidor i trianglar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sinus är motstående katet delat med hypotenusan.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.436",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 6 cm och 4 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm arean.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Areasatsen ger \\(A=\\frac12\\cdot 6\\cdot 4\\cdot\\sin 90^\\circ=12\\) cm².</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Beräkna areor i trigonometriska tillämpningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd areasatsen \\(A=\\frac{ab\\sin C}{2}\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.437",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+5y\\). Bestäm \\(Z\\) i punkten \\((1,1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(Z=2\\cdot1+5\\cdot1=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Ställa upp och lösa linjära optimeringsproblem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.438",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 8 cm och 5 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm triangelns area.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Areasatsen ger \\(A=\\frac12\\cdot 8\\cdot 5\\cdot\\sin 90^\\circ=20\\) cm².</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Beräkna triangelarea med två sidor och mellanliggande vinkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd A = ab sin(C)/2.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.439",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En stolpe är 4 m hög. Från en punkt på marken ses toppen med höjdvinkeln \\(45^\\circ\\). Hur långt är det horisontella avståndet till stolpen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(\\tan45^\\circ=\\frac{4}{x}=1\\), så \\(x=4\\) m.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Trigonometrisk problemlösning och metodval",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd tangens: motstående katet delat med närliggande katet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.440",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En geometrisk talföljd börjar \\(4, 8, 16,\\ldots\\). Bestäm kvoten \\(q\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Dela en term med föregående term: \\(8/4=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Identifiera och beskriva geometriska talföljder",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Kvoten i en geometrisk talföljd fås genom term/föregående term.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.441",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna summan av de tre första termerna i följden \\(2, 6, 18,\\ldots\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(2+6+18=26\\).</p><p><strong>Svar:</strong> 26</p>",
+    "familj": "Använda geometriska summor i tillämpningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Addera de tre första termerna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.442",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1c",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(sin 30^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(sin 30^\\circ=0,5\\).</p><p><strong>Svar:</strong> 0.5</p>",
+    "familj": "Lösa trigonometriska ekvationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.443",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>I en triangel är sidan 5 cm mot vinkeln \\(30^\\circ\\). En annan sida ligger mot vinkeln \\(90^\\circ\\). Bestäm den andra sidan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Sinussatsen ger \\(\\frac{5}{\\sin30^\\circ}=\\frac{b}{\\sin90^\\circ}\\). Eftersom \\(\\sin30^\\circ=0,5\\) blir \\(b=10\\) cm.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Använda sinussatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd sinussatsen och de exakta värdena sin 30°=0,5 och sin 90°=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.444",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=3x+1y\\). Bestäm \\(Z\\) i punkten \\((3,1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(Z=3\\cdot3+1\\cdot1=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Fördjupad linjär optimering och modellanalys",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.445",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(sin 180^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(sin 180^\\circ=0\\).</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Läsa av trigonometriska värden i enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.446",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 6 cm och 8 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(c^2=6^2+8^2-2\\cdot6\\cdot8\\cos90^\\circ=100\\). Alltså \\(c=10\\) cm.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Relatera cosinussatsen till Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I cosinussatsen blir cos 90°=0.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.447",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Två sidor i en triangel är 3 cm och 4 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(c^2=3^2+4^2-2\\cdot3\\cdot4\\cos90^\\circ=25\\). Alltså \\(c=5\\) cm.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Relatera cosinussatsen till Pythagoras sats",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I cosinussatsen blir cos 90°=0.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.448",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel är sidan mittemot vinkeln \\(v\\) 6 cm och hypotenusan 10 cm. Ta reda på \\(\\sin v\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(\\sin v=\\frac{motstående}{hypotenusa}=\\frac{6}{10}=0,6\\).</p><p><strong>Svar:</strong> 0.6</p>",
+    "familj": "Analysera det tvetydiga fallet i sinussatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sinus är motstående katet delat med hypotenusan.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.449",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En stolpe är 6 m hög. Från en punkt på marken ses toppen med höjdvinkeln \\(45^\\circ\\). Hur långt är det horisontella avståndet till stolpen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(\\tan45^\\circ=\\frac{6}{x}=1\\), så \\(x=6\\) m.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Analysera det tvetydiga fallet i sinussatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd tangens: motstående katet delat med närliggande katet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.450",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 8 cm och 7 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm arean.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Areasatsen ger \\(A=\\frac12\\cdot 8\\cdot 7\\cdot\\sin 90^\\circ=28\\) cm².</p><p><strong>Svar:</strong> 28</p>",
+    "familj": "Generalisera areasatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd areasatsen A=ab sin(C)/2.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.451",
+    "kap": 4,
+    "omr": "trig_tillampningar_bevis",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Två sidor i en triangel är 8 cm och 5 cm och vinkeln mellan dem är \\(30^\\circ\\). Bestäm arean.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Areasatsen ger \\(A=\\frac12\\cdot 8\\cdot 5\\cdot\\sin 30^\\circ=10\\) cm².</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Generalisera areasatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd areasatsen A=ab sin(C)/2.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.452",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Bestäm \\(Z\\) i punkten \\((1,1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(Z=2\\cdot1+2\\cdot1=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Analysera parameter i linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.453",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((5, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=6; Z(5, 0)=10. Största värdet är 10.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Analysera parameter i linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.454",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=4x+1y\\). Bestäm \\(Z\\) i punkten \\((3,3)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(Z=4\\cdot3+1\\cdot3=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Jämföra målfunktioner i linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.455",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Målfunktionen är \\(Z=4x+5y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((6, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=15; Z(6, 0)=24. Största värdet är 24.</p><p><strong>Svar:</strong> 24</p>",
+    "familj": "Jämföra målfunktioner i linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.456",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna summan av de tre första termerna i följden \\(3, 6, 12,\\ldots\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(3+6+12=21\\).</p><p><strong>Svar:</strong> 21</p>",
+    "familj": "Använda geometriska summor baklänges",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Addera de tre första termerna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.457",
+    "kap": 4,
+    "omr": "geometriska_summor",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En geometrisk talföljd har första termen 3 och kvoten 3. Bestäm summan av de första 4 termerna.</p>",
+    "s": "<p><strong>Lösning:</strong> Termerna är 3, 9, 27, 81. Summan är 120.</p><p><strong>Svar:</strong> 120</p>",
+    "familj": "Använda geometriska summor baklänges",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv ut de första fyra termerna eller använd formeln för geometrisk summa.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.458",
+    "kap": 4,
+    "omr": "linjar_optimering",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Målfunktionen är \\(Z=3x+5y\\). Bestäm \\(Z\\) i punkten \\((2,3)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(Z=3\\cdot2+5\\cdot3=21\\).</p><p><strong>Svar:</strong> 21</p>",
+    "familj": "Formulera bivillkor i linjär optimering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.459",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Cirkeln har ekvationen \\((x-1)^2+(y+1)^2=9\\). Bestäm radien.</p>",
+    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=9\\), alltså är \\(r=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Cirkelgeometri med koordinater",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.460",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Cirkeln har ekvationen \\((x-2)^2+(y-1)^2=4\\). Bestäm radien.</p>",
+    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=4\\), alltså är \\(r=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Cirkelgeometri med koordinater",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.461",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Två sidor i en triangel är 3 cm och 4 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(c^2=3^2+4^2-2\\cdot3\\cdot4\\cos90^\\circ=25\\). Alltså \\(c=5\\) cm.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Cosinussatsen – bestäm tredje sida",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I cosinussatsen blir cos 90°=0.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.462",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 8 cm och 3 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm triangelns area.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Areasatsen ger \\(A=\\frac12\\cdot 8\\cdot 3\\cdot\\sin 90^\\circ=12\\) cm².</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Areasatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd A = ab sin(C)/2.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.463",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 9 cm och 12 cm och vinkeln mellan dem är \\(90^\\circ\\). Ange den tredje sidan med cosinussatsen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(c^2=9^2+12^2-2\\cdot9\\cdot12\\cos90^\\circ=225\\). Alltså \\(c=15\\) cm.</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Triangelsatser i indirekt avståndsmätning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I cosinussatsen blir cos 90°=0.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.464",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: Två sidor i en triangel är 6 cm och 8 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm den tredje sidan med cosinussatsen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(c^2=6^2+8^2-2\\cdot6\\cdot8\\cos90^\\circ=100\\). Alltså \\(c=10\\) cm.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Triangelsatser i indirekt avståndsmätning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I cosinussatsen blir cos 90°=0.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.465",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(sin 150^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(sin 150^\\circ=0,5\\).</p><p><strong>Svar:</strong> 0.5</p>",
+    "familj": "Avläsa sinus i enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.466",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(cos 0^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(cos 0^\\circ=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Använda symmetri i enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.744",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=x^{-1}\\). Ange \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=-x^{-2}\\), alltså \\(f'(1)=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Derivera med parameter och negativ exponent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln även för negativa exponenter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.745",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=x^{-1}\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=-x^{-2}\\), alltså \\(f'(1)=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Derivera med parameter och negativ exponent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln även för negativa exponenter.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.746",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=56e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=56\\).</p><p><strong>Svar:</strong> 56</p>",
+    "familj": "Derivera exponentialfunktion med omskrivning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.747",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2e^{8x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16e^{8x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=16\\).</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Derivera exponentialfunktion med omskrivning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.537",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla \\(4x+3x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+    "s": "<p><strong>Lösning:</strong> Samla x-termerna: \\(4x+3x=(7)x\\). Koefficienten är 7.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Förenkla polynomuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Samla termer av samma slag.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.538",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-4}{x-2}\\) kan förkortas när \\(x\\neq 2\\). Vilket värde får det för \\(x=3\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-2)(x+2)\\). Efter förkortning återstår \\(x+2\\). För \\(x=3\\) blir värdet 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Faktorisera och förkorta rationellt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.539",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-4}{x-2}\\) kan förkortas när \\(x\\neq 2\\). Vilket värde får det för \\(x=2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-2)(x+2)\\). Efter förkortning återstår \\(x+2\\). För \\(x=2\\) blir värdet 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Faktorisera och förkorta rationellt uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.748",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=9e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=36e^{4x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Förenkla uttryck med exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.749",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8e^{6x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=48e^{6x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=48\\).</p><p><strong>Svar:</strong> 48</p>",
+    "familj": "Förenkla uttryck med exponentialfunktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.540",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen är \\((x-3)(x+2)=0\\). Ta reda på det positiva nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-3=0\\) ger \\(x=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Faktorisera och lösa polynomekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.541",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^2-8x+12\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-6)(x-2)\\). Det största nollstället är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Faktorisera och lösa polynomekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1060",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^9 10\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 10: \\(10\\cdot9=90\\).</p><p><strong>Svar:</strong> 90</p>",
+    "familj": "Beräkna bestämd integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1061",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 2 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(2\\cdot5=10\\) liter.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Bestäm parameter ur integralarea",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1062",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+1\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(t+1)\\,dt=[1/2\\,t^2+t]_0^4=12\\) liter.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Bestäm parameter ur integralarea",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.750",
+    "kap": 2,
+    "omr": "derivering_digitalt",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Använd ett digitalt verktyg för att bestämma \\(f'(1)\\) när \\(f(x)=2x^3+2x^2\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Derivatan är \\(f'(x)=6x^2+4x\\). Vid \\(x=1\\) blir värdet 10.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Bestäm derivata digitalt",
+    "geogebra": true,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Mata in funktionen och använd verktygets derivatakommando eller kontrollera med potensregeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.467",
+    "kap": 4,
+    "omr": "triangelsatser",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två sidor i en triangel är 4 cm och 3 cm och vinkeln mellan dem är \\(90^\\circ\\). Bestäm triangelns area.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Triangel\"><path d=\"M55 155 L265 155 L205 45 Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M245 155 A20 20 0 0 0 238 140\" fill=\"none\" stroke=\"currentColor\"/><text x=\"151\" y=\"174\" fill=\"currentColor\" font-size=\"12\">triangel</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Areasatsen ger \\(A=\\frac12\\cdot 4\\cdot 3\\cdot\\sin 90^\\circ=6\\) cm².</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Triangelarea med triangelsatser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd A = ab sin(C)/2.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.751",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6e^{x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6e^{x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Lösa exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.752",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=4e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Tolka derivata i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.753",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=10e^{5x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=50e^{5x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=50\\).</p><p><strong>Svar:</strong> 50</p>",
+    "familj": "Tolka derivata i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.754",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+2\\). Därför \\(v(2)=10\\) m/s.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Utvärdera giltighetsområde för modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.755",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+0\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(2)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Utvärdera giltighetsområde för modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.756",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2+5\\). Bestäm tangentens riktningskoefficient vid \\(x=5\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16x\\), så \\(f'(5)=80\\). Tangentens riktningskoefficient är 80.</p><p><strong>Svar:</strong> 80</p>",
+    "familj": "Bestäm tangentens riktningskoefficient",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.757",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Tangent parallell med sekant för exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.758",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=10e^{6x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=60e^{6x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=60\\).</p><p><strong>Svar:</strong> 60</p>",
+    "familj": "Tangent parallell med sekant för exponentialfunktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1063",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=-2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=-2\\) fås \\(C=-2\\). Då är \\(F(2)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Bestäm alla primitiva funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.468",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Cirkeln har ekvationen \\((x-0)^2+(y-2)^2=9\\). Bestäm radien.</p>",
+    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=9\\), alltså är \\(r=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Bestäm cirkelns ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.759",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^3\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=6x^2\\). Då blir \\(f'(1)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Derivera potens med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.760",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^3\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=9x^2\\). Då blir \\(f'(1)=9\\).</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Derivera potens med parameter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.761",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen kan skrivas \\(f(x)=3x^2+3x^2\\). Bestäm \\(f'(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Förenkla först till \\(f(x)=6x^2\\). Då är \\(f'(x)=12x\\), så \\(f'(1)=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Förenkla före derivering",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Förenkla uttrycket innan du deriverar.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1064",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-9)^2+28\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=9\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Bestäm värdemängd i extremvärdesproblem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1065",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(24\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(12-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(12-x)=-x^2+12x\\). Parabelns symmetrilinje är \\(x=12/2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Bestäm värdemängd i extremvärdesproblem",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1066",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2+6\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,6)\\). Då \\(6=0\\cdot0+m\\), vilket ger \\(m=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Bevis med tangent och derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1067",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2+7\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,7)\\). Då \\(7=0\\cdot0+m\\), vilket ger \\(m=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Bevis med tangent och derivata",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.762",
+    "kap": 2,
+    "omr": "derivatabegrepp",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x+7\\). Bestäm förändringskvoten mellan \\(x=3\\) och \\(x=9\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Förändringskvoten är \\(\\frac{f(9)-f(3)}{9-3}=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Genomsnittlig förändringshastighet i modell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd (ändring i y)/(ändring i x).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.763",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+2t+0\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=2t+2\\). Därför \\(v(2)=6\\) m/s.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Utvärdera giltighetsområde för polynommodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.764",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=6x^2+5\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-12\\) och punkten är \\((-1,11)\\). Då \\(11=-12\\cdot-1+m\\), vilket ger \\(m=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Koppla derivata till linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.542",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla \\(5x+x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+    "s": "<p><strong>Lösning:</strong> Samla x-termerna: \\(5x+x=(6)x\\). Koefficienten är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Förenkla potenser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Samla termer av samma slag.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.543",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-9}{x-3}\\) kan förkortas när \\(x\\neq 3\\). Vilket värde får det för \\(x=2\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-3)(x+3)\\). Efter förkortning återstår \\(x+3\\). För \\(x=2\\) blir värdet 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Förenkla komplext bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.544",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-4}{x-2}\\) kan förkortas när \\(x\\neq 2\\). Vilket värde får det för \\(x=1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-2)(x+2)\\). Efter förkortning återstår \\(x+2\\). För \\(x=1\\) blir värdet 3.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Förenkla komplext bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.765",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2+0\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-2\\) och punkten är \\((-1,1)\\). Då \\(1=-2\\cdot-1+m\\), vilket ger \\(m=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Bestäm derivata från tangentens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.766",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2+7\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,7)\\). Då \\(7=0\\cdot0+m\\), vilket ger \\(m=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Bestäm derivata från tangentens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.767",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tangenten till en graf i punkten med \\(x=2\\) har ekvationen \\(y=3x+1\\). Bestäm funktionens värde i tangeringspunkten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangeringspunkten ligger på tangenten. Sätt \\(x=2\\): \\(y=7\\). Alltså är funktionsvärdet 7.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Bestäm funktionsvärde från tangentens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in tangeringspunktens x-värde i tangentens ekvation.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.768",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Tangenten till en graf i punkten med \\(x=2\\) har ekvationen \\(y=2x+2\\). Bestäm funktionens värde i tangeringspunkten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangeringspunkten ligger på tangenten. Sätt \\(x=2\\): \\(y=6\\). Alltså är funktionsvärdet 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Bestäm funktionsvärde från tangentens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in tangeringspunktens x-värde i tangentens ekvation.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.469",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(cos 90^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(cos 90^\\circ=0\\).</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Lösa trigonometrisk ekvation i grader",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.470",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(sin 0^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(sin 0^\\circ=0\\).</p><p><strong>Svar:</strong> 0</p>",
+    "familj": "Exakt trigonometriskt värde från enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.471",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(cos 60^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(cos 60^\\circ=0,5\\).</p><p><strong>Svar:</strong> 0.5</p>",
+    "familj": "Exakt trigonometriskt värde från enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.545",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En diskret funktion har värdena \\(f(1)=3\\), \\(f(2)=6\\) och \\(f(3)=10\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Summera de tre funktionsvärdena: 3+6+10=19.</p><p><strong>Svar:</strong> 19</p>",
+    "familj": "Diskreta och kontinuerliga funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.546",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En diskret funktion har värdena \\(f(1)=2\\), \\(f(2)=5\\) och \\(f(3)=9\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Summera de tre funktionsvärdena: 2+5+9=16.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Diskreta och kontinuerliga funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.547",
+    "kap": 1,
+    "omr": "gransvarde_kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm \\(\\lim_{x\\to 4}\\frac{x^2-16}{x-4}\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(x^2-16=(x-4)(x+4)\\). För \\(x\\neq 4\\) blir kvoten \\(x+4\\), som går mot 8.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Enkla gränsvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera täljaren och förkorta innan du sätter in gränsvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.769",
+    "kap": 2,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^4\\). Bestäm \\(f'(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=8x^3\\). Då blir \\(f'(2)=64\\).</p><p><strong>Svar:</strong> 64</p>",
+    "familj": "Jämföra derivator",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.548",
+    "kap": 1,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Cirkeln har ekvationen \\((x+1)^2+(y+2)^2=9\\). Bestäm radien.</p>",
+    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=9\\), alltså är \\(r=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Punkt och cirkelekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.549",
+    "kap": 1,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Cirkeln har ekvationen \\((x-0)^2+(y+1)^2=9\\). Vad är cirkelns area dividerad med \\(\\pi\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Radien är 3. Arean är \\(\\pi r^2=9\\pi\\), så arean dividerad med \\(\\pi\\) är 9.</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Cirkelns area från ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Läs av r² i cirkelns standardform.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.550",
+    "kap": 1,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Cirkeln har ekvationen \\((x+1)^2+(y-0)^2=16\\). Vad är cirkelns area dividerad med \\(\\pi\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Radien är 4. Arean är \\(\\pi r^2=16\\pi\\), så arean dividerad med \\(\\pi\\) är 16.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Cirkelns area från ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Läs av r² i cirkelns standardform.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.770",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=21e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=21\\).</p><p><strong>Svar:</strong> 21</p>",
+    "familj": "Exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.771",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4e^{3x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12e^{3x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Förändringsfaktor från exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.772",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7e^{x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=7e^{x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Förändringsfaktor från exponentialmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.551",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En diskret funktion har värdena \\(f(1)=3\\), \\(f(2)=7\\) och \\(f(3)=8\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Summera de tre funktionsvärdena: 3+7+8=18.</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Diskret funktionsgraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.552",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En diskret funktion har värdena \\(f(1)=2\\), \\(f(2)=6\\) och \\(f(3)=8\\). Bestäm \\(f(1)+f(2)+f(3)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Summera de tre funktionsvärdena: 2+6+8=16.</p><p><strong>Svar:</strong> 16</p>",
+    "familj": "Diskret funktionsgraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Läs av de tre givna funktionsvärdena och addera dem.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1068",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du vet att \\(\\int_0^2 f(x)\\,dx=18\\) och \\(\\int_2^5 f(x)\\,dx=9\\). Bestäm \\(\\int_0^5 f(x)\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Integraler över intilliggande intervall adderas: \\(18+9=27\\).</p><p><strong>Svar:</strong> 27</p>",
+    "familj": "Symmetri i bestämda integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Dela upp integralen vid x=2 och använd additiviteten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1069",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Du vet att \\(\\int_0^2 f(x)\\,dx=18\\) och \\(\\int_2^5 f(x)\\,dx=11\\). Bestäm \\(\\int_0^5 f(x)\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Integraler över intilliggande intervall adderas: \\(18+11=29\\).</p><p><strong>Svar:</strong> 29</p>",
+    "familj": "Symmetri i bestämda integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 29,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Dela upp integralen vid x=2 och använd additiviteten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1070",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^4 8\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 8: \\(8\\cdot4=32\\).</p><p><strong>Svar:</strong> 32</p>",
+    "familj": "Area som differens mellan rektangel och integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1071",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{1}2x^2\\). Värdet blir \\(1\\cdot 2^2/2=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Area som differens mellan rektangel och integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.553",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett andragradspolynom har nollställena \\(x=7\\) och \\(x=-3\\) och ledande koefficient 1. Vad är konstanttermen?</p>",
+    "s": "<p><strong>Lösning:</strong> Polynomet kan skrivas \\((x-7)(x+3)\\). Konstanttermen blir \\(-7\\cdot 3=-21\\).</p><p><strong>Svar:</strong> -21</p>",
+    "familj": "Konstruera polynom från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -21,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv polynomet som en produkt av faktorer som motsvarar nollställena.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.554",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett andragradspolynom har nollställena \\(x=5\\) och \\(x=-5\\) och ledande koefficient 1. Vad är konstanttermen?</p>",
+    "s": "<p><strong>Lösning:</strong> Polynomet kan skrivas \\((x-5)(x+5)\\). Konstanttermen blir \\(-5\\cdot 5=-25\\).</p><p><strong>Svar:</strong> -25</p>",
+    "familj": "Konstruera polynom från villkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv polynomet som en produkt av faktorer som motsvarar nollställena.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.555",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla \\(4x+2x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+    "s": "<p><strong>Lösning:</strong> Samla x-termerna: \\(4x+2x=(6)x\\). Koefficienten är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Förenkla potensuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Samla termer av samma slag.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.556",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla \\(3x+2x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+    "s": "<p><strong>Lösning:</strong> Samla x-termerna: \\(3x+2x=(5)x\\). Koefficienten är 5.</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Förenkla potensuttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Samla termer av samma slag.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.472",
+    "kap": 4,
+    "omr": "enhetscirkeln_trig",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm det exakta värdet av \\(cos 180^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Enhetscirkel med en radie\"><circle cx=\"160\" cy=\"95\" r=\"70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"70\" y1=\"95\" x2=\"250\" y2=\"95\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"15\" x2=\"160\" y2=\"175\" stroke=\"currentColor\"/><line x1=\"160\" y1=\"95\" x2=\"210\" y2=\"45\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"45\" r=\"4\" fill=\"currentColor\"/><text x=\"250\" y=\"91\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"166\" y=\"18\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
+    "s": "<p><strong>Lösning:</strong> I enhetscirkeln är \\(cos 180^\\circ=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Enhetscirkeln",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd punktens x-koordinat för cosinus och y-koordinat för sinus.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.557",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En modell ges av \\(K(x)=\\frac{15}{x+1}\\). Bestäm \\(K(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(K(2)=\\frac{15}{2+1}=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Rationell kostnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in x-värdet i uttrycket och beräkna nämnaren först.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.558",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En modell ges av \\(K(x)=\\frac{36}{x+1}\\). Bestäm \\(K(5)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(K(5)=\\frac{36}{5+1}=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Rationell kostnadsmodell",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in x-värdet i uttrycket och beräkna nämnaren först.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1072",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^3 4\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 4: \\(4\\cdot3=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Integral för linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1073",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^4 7x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\). Värdet blir \\(7\\cdot 4^2/2=56\\).</p><p><strong>Svar:</strong> 56</p>",
+    "familj": "Integral för linjär funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.773",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=x^2-3\\). Tangenten dras vid \\(x=1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=2\\) och punkten är \\((1,-2)\\). Då \\(-2=2\\cdot1+m\\), vilket ger \\(m=-4\\).</p><p><strong>Svar:</strong> -4</p>",
+    "familj": "Konstruera andragradsfunktion från derivatavillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.774",
+    "kap": 2,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2+2\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-8\\) och punkten är \\((-1,6)\\). Då \\(6=-8\\cdot-1+m\\), vilket ger \\(m=-2\\).</p><p><strong>Svar:</strong> -2</p>",
+    "familj": "Konstruera andragradsfunktion från derivatavillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.559",
+    "kap": 1,
+    "omr": "funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x-2\\). Bestäm \\(f(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f(2)=4\\cdot(2)-2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Sätta in värde i uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.560",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm graden av polynomet \\(P(x)=4x^2-2x+5\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Högsta exponenten på \\(x\\) är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Polynomets grad",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Polynomets grad är den högsta exponent som förekommer.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.561",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-9}{x-3}\\) kan förkortas när \\(x\\neq 3\\). Vilket värde får det för \\(x=1\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-3)(x+3)\\). Efter förkortning återstår \\(x+3\\). För \\(x=1\\) blir värdet 4.</p><p><strong>Svar:</strong> 4</p>",
+    "familj": "Förenkla rationella uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.562",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-16}{x-4}\\) kan förkortas när \\(x\\neq 4\\). Vilket värde får det för \\(x=3\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-4)(x+4)\\). Efter förkortning återstår \\(x+4\\). För \\(x=3\\) blir värdet 7.</p><p><strong>Svar:</strong> 7</p>",
+    "familj": "Faktorisera och förenkla rationella uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.563",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Uttrycket \\(\\frac{x^2-9}{x-3}\\) kan förkortas när \\(x\\neq 3\\). Vilket värde får det för \\(x=3\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-3)(x+3)\\). Efter förkortning återstår \\(x+3\\). För \\(x=3\\) blir värdet 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Faktorisera och förenkla rationella uttryck",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1074",
+    "kap": 3,
+    "omr": "primitiva_integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(1)=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Bestämd integral av polynom",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.775",
+    "kap": 2,
+    "omr": "funktion_derivata_grafer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -10 och -7; det minsta är -10.</p><p><strong>Svar:</strong> -10</p>",
+    "familj": "Skissa graf från derivatans tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.564",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ekvationen är \\((x-2)(x+2)=0\\). Ange det positiva nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-2=0\\) ger \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Variant: parameter och antal nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.565",
+    "kap": 1,
+    "omr": "polynom",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^2-6x+9\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
+    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-3)(x-3)\\). Det största nollstället är 3.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Variant: parameter och antal nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.776",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+4\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\), så \\(f'(-1)=-10\\). Tangentens riktningskoefficient är -10.</p><p><strong>Svar:</strong> -10</p>",
+    "familj": "Variant: samma lutning för två grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.777",
+    "kap": 2,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2+0\\). Bestäm tangentens riktningskoefficient vid \\(x=1\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\), så \\(f'(1)=6\\). Tangentens riktningskoefficient är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Variant: samma lutning för två grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.778",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+1)(x-8)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -1 och 8; det minsta är -1.</p><p><strong>Svar:</strong> -1</p>",
+    "familj": "Variant: monotoni och antal nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.779",
+    "kap": 2,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x-0)\\), där -8 och 0 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Variant: monotoni och antal nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1075",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-2)^2+7\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=2\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Variant: extremvärde och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1076",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(48\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(24-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(24-x)=-x^2+24x\\). Parabelns symmetrilinje är \\(x=24/2=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Variant: extremvärde och värdemängd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1077",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=5\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16x\\), så \\(f'(5)=80\\). Tangentens riktningskoefficient är 80.</p><p><strong>Svar:</strong> 80</p>",
+    "familj": "Variant: parallella tangenter i symmetriska nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1078",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2-1\\). Bestäm tangentens riktningskoefficient vid \\(x=-1\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=6x\\), så \\(f'(-1)=-6\\). Tangentens riktningskoefficient är -6.</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Variant: parallella tangenter i symmetriska nollställen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1079",
+    "kap": 3,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=8e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=32e^{4x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=32\\).</p><p><strong>Svar:</strong> 32</p>",
+    "familj": "Variant: bestäm lutning från funktionsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1080",
+    "kap": 3,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=9e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=63e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=63\\).</p><p><strong>Svar:</strong> 63</p>",
+    "familj": "Variant: bestäm lutning från funktionsvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 63,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1081",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2-2\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-10\\) och punkten är \\((-1,3)\\). Då \\(3=-10\\cdot-1+m\\), vilket ger \\(m=-7\\).</p><p><strong>Svar:</strong> -7</p>",
+    "familj": "Tolka tangentens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1082",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^2-4\\). Tangenten dras vid \\(x=4\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=24\\) och punkten är \\((4,44)\\). Då \\(44=24\\cdot4+m\\), vilket ger \\(m=-52\\).</p><p><strong>Svar:</strong> -52</p>",
+    "familj": "Tolka tangentens ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -52,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1083",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=7x^2+5\\). Bestäm tangentens riktningskoefficient vid \\(x=4\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\), så \\(f'(4)=56\\). Tangentens riktningskoefficient är 56.</p><p><strong>Svar:</strong> 56</p>",
+    "familj": "Bestäm tangent från given lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 56,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1084",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\), så \\(f'(2)=20\\). Tangentens riktningskoefficient är 20.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Bestäm tangent från given lutning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1085",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -6 och -3; det minsta är -6.</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Derivatans tecken och extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1086",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-5)\\), där 2 och 5 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Derivatans tecken och extrempunkt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1087",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "familj": "Integral som ändring i primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1088",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(1)=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Integral som ändring i primitiv funktion",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1089",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2+3\\). Tangenten dras vid \\(x=2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=8\\) och punkten är \\((2,11)\\). Då \\(11=8\\cdot2+m\\), vilket ger \\(m=-5\\).</p><p><strong>Svar:</strong> -5</p>",
+    "familj": "Generalisera tangenttriangel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1090",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2x^2-4\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-8\\) och punkten är \\((-2,4)\\). Då \\(4=-8\\cdot-2+m\\), vilket ger \\(m=-12\\).</p><p><strong>Svar:</strong> -12</p>",
+    "familj": "Generalisera tangenttriangel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1091",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-18)^2+18\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=18\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Bestäm parameter och beräkna area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1092",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(32\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(16-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(16-x)=-x^2+16x\\). Parabelns symmetrilinje är \\(x=16/2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Bestäm parameter och beräkna area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1093",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=4x^2+7\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-8\\) och punkten är \\((-1,11)\\). Då \\(11=-8\\cdot-1+m\\), vilket ger \\(m=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Tangent och geometrisk area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1094",
+    "kap": 3,
+    "omr": "tangenter_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=5x^2+1\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
+    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-20\\) och punkten är \\((-2,21)\\). Då \\(21=-20\\cdot-2+m\\), vilket ger \\(m=-19\\).</p><p><strong>Svar:</strong> -19</p>",
+    "familj": "Tangent och geometrisk area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -19,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1095",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 3 liter/minut under 3 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(3\\cdot3=9\\) liter.</p><p><strong>Svar:</strong> 9</p>",
+    "familj": "Ackumulerad förändring med startvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1096",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=2t+1\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(2t+1)\\,dt=[2/2\\,t^2+t]_0^4=20\\) liter.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Ackumulerad förändring med startvärde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1097",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^9 2\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 2: \\(2\\cdot9=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "familj": "Area mellan linje och kurva",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1098",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^12 4x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 12^2/2=288\\).</p><p><strong>Svar:</strong> 288</p>",
+    "familj": "Area mellan linje och kurva",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 288,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1099",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kort rutinövning: Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Analysens huvudsats från funktionsvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1100",
+    "kap": 3,
+    "omr": "primitiva_funktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p><strong>Lösning:</strong> \\(F(x)=2x^3+C\\). Av \\(F(0)=-1\\) fås \\(C=-1\\). Då är \\(F(2)=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Analysens huvudsats från funktionsvärden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1101",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x-2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -6 och 2; det minsta är -6.</p><p><strong>Svar:</strong> -6</p>",
+    "familj": "Tolka graf till derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1102",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x+5)\\), där -7 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Tolka graf till derivatan",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1103",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^2 3\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 3: \\(3\\cdot2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "familj": "Bestämd integral från styckvis linjär graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1104",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 10x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 6^2/2=180\\).</p><p><strong>Svar:</strong> 180</p>",
+    "familj": "Bestämd integral från styckvis linjär graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 180,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1105",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+0\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(1)=8\\) m/s.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Tre fack mot vägg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1106",
+    "kap": 3,
+    "omr": "derivata_tillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+t+0\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
+    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=2t+1\\). Därför \\(v(1)=3\\) m/s.</p><p><strong>Svar:</strong> 3</p>",
+    "familj": "Tre fack mot vägg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1107",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 5 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(5\\cdot5=25\\) liter.</p><p><strong>Svar:</strong> 25</p>",
+    "familj": "Från acceleration till sträcka med startvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1108",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+3\\) liter/minut för \\(0\\le t\\le 2\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^2(t+3)\\,dt=[1/2\\,t^2+3t]_0^2=8\\) liter.</p><p><strong>Svar:</strong> 8</p>",
+    "familj": "Från acceleration till sträcka med startvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1109",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^3 5\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 5: \\(5\\cdot3=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Bestäm horisontell nivå från area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1110",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 9x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 6^2/2=162\\).</p><p><strong>Svar:</strong> 162</p>",
+    "familj": "Bestäm horisontell nivå från area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 162,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1111",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
+    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och 2; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "familj": "Fullständig teckenanalys från derivatagraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1112",
+    "kap": 3,
+    "omr": "grafanalys_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x-1)\\), där -7 och 1 är olika tal. Hur många nollställen har derivatan?</p>",
+    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "familj": "Fullständig teckenanalys från derivatagraf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1113",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-(x-10)^2+13\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
+    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=10\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 10</p>",
+    "familj": "Optimera rektangel med omkretsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1114",
+    "kap": 3,
+    "omr": "extremvardesproblem",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(60\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(30-x\\) cm. Vilket x-värde ger störst area?</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(30-x)=-x^2+30x\\). Parabelns symmetrilinje är \\(x=30/2=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "familj": "Optimera rektangel med omkretsvillkor",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1115",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^6 6\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 6: \\(6\\cdot6=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "familj": "Använd analysens huvudsats baklänges",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1116",
+    "kap": 3,
+    "omr": "integraler",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Beräkna  \\(\\int_0^4 5x\\,dx\\).</p>",
+    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{5}2x^2\\). Värdet blir \\(5\\cdot 4^2/2=40\\).</p><p><strong>Svar:</strong> 40</p>",
+    "familj": "Använd analysens huvudsats baklänges",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1117",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flöde är konstant 3 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
+    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(3\\cdot4=12\\) liter.</p><p><strong>Svar:</strong> 12</p>",
+    "familj": "Maximera ackumulerad mängd från flöde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1118",
+    "kap": 3,
+    "omr": "integraltillampningar",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+3\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
+    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(t+3)\\,dt=[1/2\\,t^2+3t]_0^4=20\\) liter.</p><p><strong>Svar:</strong> 20</p>",
+    "familj": "Maximera ackumulerad mängd från flöde",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
   }
 ];

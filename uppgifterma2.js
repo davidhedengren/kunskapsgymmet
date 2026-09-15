@@ -29491,8 +29491,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Den positiva lösningen till \\(x^2=20\\) ligger mellan två på varandra följande heltal. Bestäm vilka, utan räknare, och motivera ditt svar.</p>",
-    "s": "<p>\\(4^2=16\\) och \\(5^2=25\\).</p><p>Eftersom \\(16&lt;20&lt;25\\) och kvadrering är växande för positiva tal ligger den positiva lösningen mellan 4 och 5.</p><p>Den ligger närmare 4, eftersom 20 ligger närmare 16 än 25.</p><p><strong>Svar:</strong> Mellan \\(4\\) och \\(5\\)</p>",
+    "t": "<p>Utan räknare: mellan vilka två på varandra följande heltal ligger \\(\\sqrt{20}\\)?</p><p>Skriv det mindre heltalet i den första svarsrutan och det större heltalet i den andra.</p>",
+    "s": "<p>\\(4^2=16\\) och \\(5^2=25\\).</p><p>Eftersom \\(16&lt;20&lt;25\\) gäller \\(4&lt;\\sqrt{20}&lt;5\\).</p><p><strong>Svar:</strong> Det mindre heltalet är \\(4\\) och det större är \\(5\\).</p>",
     "familj": "Kvadratrotmetoden",
     "geogebra": false,
     "miniräknare": false,
@@ -29517,7 +29517,7 @@ window.BANKMA2 = [
       "övre heltal"
     ],
     "familjTidigare": "Lösa enkla andragradsekvationer med kvadratrotmetoden",
-    "ledtrad": "<p>Vilka heltal har kvadrater strax under och strax över 20?</p>",
+    "ledtrad": "<p>Jämför 20 med kvadraterna av heltalen omkring \\(\\sqrt{20}\\): \\(4^2\\) och \\(5^2\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true

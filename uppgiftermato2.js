@@ -5372,10 +5372,10 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2\\sin2x",
-      "3\\cos2x",
-      "2\\cos2x",
-      "2\\sin x"
+      "2*sin(2x)",
+      "3*cos(2x)",
+      "2*cos(2x)",
+      "2*sin(x)"
     ],
     "tolerans": [
       null,
@@ -7488,28 +7488,28 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>\\(\\sin x=0\\)</p>",
+        "fraga": "<p>\\(\\sin x=0\\)</p><p>Ange svaret i grader.</p>",
         "s": "<p>Nyckelidé: Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><div class=\"spel-en-del\"><p>\\(x=180^\\circ n\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "fraga": "<p>\\(\\cos x=0\\)</p>",
+        "fraga": "<p>\\(\\cos x=0\\)</p><p>Ange svaret i grader.</p>",
         "s": "<p>Nyckelidé: Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><div class=\"spel-en-del\"><p>\\(x=90^\\circ+180^\\circ n\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(\\tan x=\\sqrt3\\)</p>",
+        "fraga": "<p>\\(\\tan x=\\sqrt3\\)</p><p>Ange svaret i grader.</p>",
         "s": "<p>Nyckelidé: Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><div class=\"spel-en-del\"><p>\\(x=60^\\circ+180^\\circ n\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
-        "fraga": "<p>\\(\\cos x=1\\)</p>",
+        "fraga": "<p>\\(\\cos x=1\\)</p><p>Ange svaret i grader.</p>",
         "s": "<p>Nyckelidé: Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><div class=\"spel-en-del\"><p>\\(x=360^\\circ n\\), där \\(n\\in\\mathbb Z\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
@@ -7520,6 +7520,12 @@ window.BANKMATO2 = [
       null,
       null,
       null
+    ],
+    "svarEnhet": [
+      "°",
+      "°",
+      "°",
+      "°"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [

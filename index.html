@@ -1949,6 +1949,32 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .cheer-pips b{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.34)}
 .cheer-pips b.on{background:#fff}
 
+/* XP-nivå: grönt, med siffran som huvudmotiv. */
+.cheer-xpniva{box-shadow:var(--e2),0 0 90px -30px rgba(52,130,80,.75)}
+.cheer-xpniva .cheer-halo:before,.cheer-xpniva .cheer-halo:after{border-color:#4E9B68}
+.cheer-xpniva .cheer-medal{
+  width:96px;height:96px;border-radius:50%;color:#fff;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;
+  background:linear-gradient(152deg,#6FC08B,#3F8A5C 60%,#2E6B46);
+  box-shadow:0 16px 34px -14px rgba(30,95,60,.9),inset 0 2px 0 rgba(255,255,255,.3);
+}
+.cheer-xpniva .cheer-medal:after{border-color:rgba(255,255,255,.35)}
+.cheer-xpniva .cheer-label{color:#3F8A5C}
+.cheer-litet{font:700 10px/1 var(--font);letter-spacing:.18em;opacity:.8}
+.cheer-stort{font:700 40px/1 var(--font);letter-spacing:-.05em}
+
+/* Rang: lila, med rangens egen symbol stor. */
+.cheer-rang{box-shadow:var(--e2),0 0 90px -30px rgba(110,70,160,.8)}
+.cheer-rang .cheer-halo:before,.cheer-rang .cheer-halo:after{border-color:#9B78C8}
+.cheer-rang .cheer-medal{
+  width:96px;height:96px;border-radius:32px;color:#fff;transform:rotate(-45deg);
+  background:linear-gradient(152deg,#B79AE0,#7B57B0 58%,#553A80);
+  box-shadow:0 16px 34px -14px rgba(70,45,110,.9),inset 0 2px 0 rgba(255,255,255,.28);
+}
+.cheer-rang .cheer-medal:after{border-radius:26px;border-color:rgba(255,255,255,.3)}
+.cheer-rangsym{display:block;transform:rotate(45deg);font-size:40px;line-height:1}
+.cheer-rang .cheer-label{color:#7B57B0}
+
 @media(max-width:960px){
   .dash{grid-template-columns:1fr}
   .side{position:static;grid-template-columns:1fr 1fr;display:grid}
@@ -2769,6 +2795,7 @@ function loadProfileFrom(p){
   p.pass||=0; p.felfria||=0; p.utanFacit||=0; p.morgon||=0;
   p.bestKapitel||=0; p.bestKurs||=0; p.bestNiva3||=0;
   p.reparerade||=0;
+  p.femmor||=0; p.kvall||=0; p.upplasta||=0;
   /* Kvitterade felrapportsbelöningar: "kurs|uppgift" -> tidpunkt. */
   p.felBelonade ||= {}; p.felFynd||=0;
   p.bastaPass ??= null;
@@ -2931,7 +2958,25 @@ const MEDALJBANOR={
 
   betaflagga:'<path d="M5.4 21.4V3.4"/><path d="M5.4 4.6h10.2l-.7 2.3h5.7v7.5h-6.4l-.7-2.3H5.4"/>',
   felsokare: '<circle cx="10.6" cy="10.6" r="6.4"/><path d="M15.2 15.2l5 5"/><path d="M8.2 10.6h4.8"/>',
-  kvalitetsvakt:'<path d="M12 3.2l7.2 2.8v5.6c0 4.2-3 7.5-7.2 8.8-4.2-1.3-7.2-4.6-7.2-8.8V6z"/><path d="M8.9 11.6l2.2 2.2 4-4.4"/>'
+  kvalitetsvakt:'<path d="M12 3.2l7.2 2.8v5.6c0 4.2-3 7.5-7.2 8.8-4.2-1.3-7.2-4.6-7.2-8.8V6z"/><path d="M8.9 11.6l2.2 2.2 4-4.4"/>',
+
+  rutin:     '<circle cx="12" cy="12" r="8.2"/><path d="M12 7.2V12l3.2 2"/><path d="M12 3.8v1.2M20.2 12H19M12 20.2V19M4.8 12H6"/>',
+  maraton:   '<path d="M4.2 18.4h3.4l2.6-5.2 2.4 8 2.8-11 2 4.4h2.4"/><circle cx="17.4" cy="5.4" r="1.9"/>',
+  ostoppbar: '<path d="M4 15.4l3.8-3.8 3.2 3.2 6-6"/><path d="M13.4 8.8h3.6v3.6"/><path d="M4 19.6h16"/>',
+  rentbord:  '<path d="M4.4 7.6h15.2"/><path d="M6.2 7.6v10.6a1.6 1.6 0 0 0 1.6 1.6h8.4a1.6 1.6 0 0 0 1.6-1.6V7.6"/><path d="M9.4 7.6V5.4h5.2v2.2"/><path d="M9.6 13.4l1.8 1.8 3.2-3.6"/>',
+  passfemtio:'<rect x="3.6" y="5.2" width="16.8" height="14.4" rx="2.4"/><path d="M3.6 9.6h16.8"/><path d="M8 3.6v3.2M16 3.6v3.2"/><path d="M8.4 14.4l2 2 3.6-4"/>',
+  hundra:    '<path d="M12 3.6l2.5 5.4 5.9.7-4.4 4 1.2 5.8L12 16.6 6.8 19.5 8 13.7 3.6 9.7l5.9-.7z"/><path d="M9.6 12.4h4.8"/>',
+  femtusen:  '<path d="M12 3.6v16.8"/><path d="M16.4 7.2c-1-1.3-2.6-2-4.4-2-2.4 0-4 1.3-4 3.2 0 4.4 8.8 2.4 8.8 6.8 0 2-1.8 3.4-4.4 3.4-2 0-3.6-.8-4.6-2.2"/>',
+  guldgruva: '<path d="M4 10.4h16l-1.6 9.2H5.6z"/><path d="M8 10.4L12 4l4 6.4"/><path d="M10.2 14h3.6"/>',
+  sjalvgaende:'<circle cx="12" cy="6.6" r="2.6"/><path d="M6.4 20.4v-3.2a5.6 5.6 0 0 1 11.2 0v3.2"/><path d="M12 11.6v4.4"/>',
+  aldrigge:  '<path d="M5.2 12.4a6.8 6.8 0 1 1 2.2 5"/><path d="M5.2 8.4v4h4"/><path d="M9.8 12.6l1.8 1.8 3.4-3.8"/>',
+  femman:    '<path d="M15.4 5.2H9.8l-.8 5.2c.9-.6 1.9-.9 3-.9a4.3 4.3 0 1 1 0 8.6c-1.7 0-3.2-.8-4-2"/>',
+  elit:      '<path d="M12 3.4l2.4 4.9 5.4.8-3.9 3.8.9 5.4-4.8-2.5-4.8 2.5.9-5.4L4.2 9.1l5.4-.8z"/><path d="M7 21h10"/>',
+  hojdare:   '<path d="M4 19.6h16"/><path d="M6.4 19.6v-5.2h3.6v5.2"/><path d="M10 19.6v-8.4h3.6v8.4"/><path d="M13.6 19.6V6.4h3.6v13.2"/>',
+  klattrare: '<path d="M4 19.6h16"/><path d="M4.6 16l4.2-5.2 3 3.4 3.4-6.2 4.2 8"/><circle cx="18.2" cy="5.4" r="1.8"/>',
+  bergsbestigare:'<path d="M2.8 19.2l6-11.4 4 6.6 2.4-3.8 6 8.6z"/><path d="M8.8 7.8l2.2 3.6-2.2 1.4-2-1.4z"/>',
+  utforskare:'<circle cx="12" cy="12" r="8.4"/><path d="M15.4 8.6l-1.8 5-5 1.8 1.8-5z"/>',
+  nattuggla: '<path d="M19.4 14.6A7.6 7.6 0 0 1 9.4 4.6a7.8 7.8 0 1 0 10 10z"/><path d="M15.6 4.2l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/>'
 };
 
 function medaljIkon(namn){
@@ -2982,7 +3027,30 @@ const BADGES=[
      inte antalet skickade rapporter. Ignorerade rapporter ger ingenting. */
   {id:"beta1", icon:"betaflagga", name:"Betatestare",   desc:"Få ett fel du rapporterat åtgärdat",   max:1,  cur:()=>profile.felFynd},
   {id:"beta5", icon:"felsokare",  name:"Felsökare",     desc:"Få 5 fel du rapporterat åtgärdade",    max:5,  cur:()=>profile.felFynd},
-  {id:"beta10",icon:"kvalitetsvakt",name:"Kvalitetsvakt",desc:"Få 10 fel du rapporterat åtgärdade",  max:10, cur:()=>profile.felFynd}
+  {id:"beta10",icon:"kvalitetsvakt",name:"Kvalitetsvakt",desc:"Få 10 fel du rapporterat åtgärdade",  max:10, cur:()=>profile.felFynd},
+
+  /* ── längre trappsteg för den som håller i ─────────────────────────── */
+  {id:"veteran", icon:"rutin",    name:"Rutinerad",      desc:"500 tränade uppgifter",          max:500,  cur:()=>profile.attempts},
+  {id:"maraton", icon:"maraton",  name:"Maratonlöpare",  desc:"1000 tränade uppgifter",         max:1000, cur:()=>profile.attempts},
+  {id:"serie35", icon:"ostoppbar",name:"Ostoppbar",      desc:"35 rätt i rad",                  max:35,   cur:()=>profile.bestRun},
+  {id:"felfri10",icon:"rentbord", name:"Rent bord",      desc:"10 felfria pass",                max:10,   cur:()=>profile.felfria},
+  {id:"pass50",  icon:"passfemtio",name:"Femtio pass",   desc:"Avsluta 50 träningspass",        max:50,   cur:()=>profile.pass},
+  {id:"streak100",icon:"hundra",  name:"Hundra dagar",   desc:"Träna 100 dagar i följd",        max:100,  cur:()=>profile.bestStreak},
+  {id:"xp5000",  icon:"femtusen", name:"Femtusen",       desc:"Samla 5000 XP",                  max:5000, cur:()=>profile.xp},
+  {id:"xp15000", icon:"guldgruva",name:"Guldgruva",      desc:"Samla 15000 XP",                 max:15000,cur:()=>profile.xp},
+  {id:"sjalv100",icon:"sjalvgaende",name:"Självgående",  desc:"100 rätt utan att ta lösningen", max:100,  cur:()=>profile.utanFacit},
+  {id:"lagat50", icon:"aldrigge", name:"Aldrig ge upp",  desc:"Klara 50 uppgifter du haft fel på",max:50, cur:()=>profile.reparerade},
+
+  /* ── djup: de svåraste uppgifterna och upplåsta nivåer ─────────────── */
+  {id:"femma10", icon:"femman",   name:"Femman",         desc:"10 rätt på träningsnivå 5",      max:10,   cur:()=>profile.femmor},
+  {id:"femma25", icon:"elit",     name:"Elitnivå",       desc:"25 rätt på träningsnivå 5",      max:25,   cur:()=>profile.femmor},
+  {id:"topp100", icon:"hojdare",  name:"Höjdare",        desc:"100 rätt på nivå 3–5",           max:100,  cur:()=>profile.aCorrect},
+  {id:"upplast5",icon:"klattrare",name:"Uppklättrare",   desc:"Lås upp 5 träningsnivåer",       max:5,    cur:()=>profile.upplasta},
+  {id:"upplast15",icon:"bergsbestigare",name:"Bergsbestigare",desc:"Lås upp 15 träningsnivåer", max:15,   cur:()=>profile.upplasta},
+
+  /* ── bredd och vanor ───────────────────────────────────────────────── */
+  {id:"bredd40", icon:"utforskare",name:"Utforskaren",   desc:"Träna i 40 olika områden",       max:40,   cur:()=>touchedAreas()},
+  {id:"natt",    icon:"nattuggla",name:"Nattuggla",      desc:"Träna efter klockan tio på kvällen",max:1, cur:()=>profile.kvall}
 ];
 
 /* Antalet lästa genomgångar räknas över alla kurser — den som läst i
@@ -5737,6 +5805,7 @@ function kollaNivaupplasning(area){
   for(let n=2;n<=5;n++){
     if(cp.upplast[area][n] || !nivaUppnadd(area,n)) continue;
     cp.upplast[area][n]=Date.now();
+    profile.upplasta=(profile.upplasta||0)+1;
     saveProfile();
     const text=n===2 ? "Grunderna sitter. Nu blandas mer variation in."
       : n===3 ? "Nu kommer uppgifter med eget metodval och tolkning."
@@ -5753,6 +5822,16 @@ function nivaMarke(n){
     `<b class="${i<=n?"on":""}"></b>`).join("");
   return `<span class="cheer-pips" aria-hidden="true">${pips}</span>
     <span class="cheer-nivasiffra">${n}</span>`;
+}
+/* XP-nivån och rangen har egna kort, så de tre sorterna går att skilja åt
+   på en halv sekund: guldmedalj = medalj, blått = träningsnivå i ett
+   område, grönt = XP-nivå, lila = ny rang. */
+function xpNivaMarke(n){
+  return `<span class="cheer-litet">NIVÅ</span>
+    <span class="cheer-stort">${n}</span>`;
+}
+function rangMarke(sym){
+  return `<span class="cheer-rangsym">${sym}</span>`;
 }
 
 function sessionLabel(){
@@ -8408,7 +8487,9 @@ function finishAttempt(resultat){
   state.ggForslag=genomgangForslag;
 
   if(correct && !state.noXp && !state.solutionShown) profile.utanFacit=(profile.utanFacit||0)+1;
+  if(correct && !state.noXp && niva==="5") profile.femmor=(profile.femmor||0)+1;
   if(new Date().getHours()<7) profile.morgon=1;
+  if(new Date().getHours()>=22) profile.kvall=1;
   if(state.data){
     const bkap=Math.max(0,...chapterProgress().map(c=>c.score));
     profile.bestKapitel=Math.max(profile.bestKapitel||0,Math.round(bkap));
@@ -8426,8 +8507,15 @@ function finishAttempt(resultat){
   const HYLLNING=1500;
   setTimeout(()=>{
     if(levelAfter>levelBefore){
-      if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name,"Du har klättrat ett steg på stegen.");
-      else cheer(medaljIkon("nivaupp"),"Ny nivå","Nivå "+levelAfter,"Din träning ger resultat.");
+      if(rankAfter.name!==rankBefore.name){
+        cheer(rangMarke(rankAfter.sym),"Ny rang",rankAfter.name,
+          "Du har klättrat ett steg på stegen.","rang");
+      }else{
+        const nasta=nextRank(levelAfter);
+        cheer(xpNivaMarke(levelAfter),"Ny nivå","Nivå "+levelAfter,
+          nasta ? `Nästa rang: ${nasta.name} vid nivå ${nasta.lvl}.`
+                : "Du är på högsta rangen. Fortsätt samla.","xpniva");
+      }
     }
     if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
     kollaNivaupplasning(t.omr);

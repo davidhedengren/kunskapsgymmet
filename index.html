@@ -2454,7 +2454,7 @@ function sparaPagaendePass(){
       xp:state.sessionXp, ratt:state.sessionCorrect,
       passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
       area:state.focusArea, family:state.focusFamily,
-      felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-12)
+      felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-60)
     }));
   }catch(_){}
 }
@@ -5315,6 +5315,58 @@ function chooseArea(pool){
     .sort((x,y)=>x.k-y.k)[0].a;
 }
 
+/* Historik över visade uppgifter som överlever mellan pass och omladdningar.
+   Lagras per konto och kurs i localStorage (inte i molnprofilen, för att
+   hålla synken liten). Varje visning får ett löpnummer, så "ålder" mäts i
+   antal visade uppgifter sedan sist, inte i tid. */
+const SEDDA_KEY="kunskapsgymmet-sedda-v1:";
+const SEDDA_MAX=400;
+const SEDDA_KARENS_MAX=250;
+function seddaNyckel(){ return SEDDA_KEY+ggAgare()+"|"+(state.course||"none"); }
+function lasSedda(){
+  try{
+    const h=JSON.parse(localStorage.getItem(seddaNyckel())||"null");
+    if(h && Number.isFinite(h.seq) && h.ids && typeof h.ids==="object") return h;
+  }catch(_){}
+  return {seq:0,ids:{}};
+}
+function noteraSedd(id){
+  if(!id) return;
+  const h=lasSedda();
+  h.seq+=1;
+  h.ids[id]=h.seq;
+  const nycklar=Object.keys(h.ids);
+  if(nycklar.length>SEDDA_MAX){
+    nycklar.sort((a,b)=>h.ids[a]-h.ids[b])
+      .slice(0,nycklar.length-SEDDA_MAX)
+      .forEach(k=>delete h.ids[k]);
+  }
+  try{ localStorage.setItem(seddaNyckel(),JSON.stringify(h)); }catch(_){}
+}
+function uppgiftsAlder(h,id){
+  const s=h.ids[id];
+  return s==null ? Infinity : h.seq-s;
+}
+/* Sållar bort uppgifter som eleven nyss sett – i detta pass eller i
+   tidigare pass – INNAN område och nivå väljs. Då flyttar motorn vidare
+   till en annan nivå eller ett annat område när en liten hink är slut,
+   i stället för att snurra runt samma tre uppgifter. */
+function farskaUppgifter(pool,h){
+  const iPasset=new Set(state.lastIds);
+  const karens=Math.max(2,Math.min(SEDDA_KARENS_MAX,Math.floor(pool.length*.6)));
+  const farska=pool.filter(t=>!iPasset.has(t.id) && uppgiftsAlder(h,t.id)>karens);
+  if(farska.length) return farska;
+
+  // Allt är nyligen sett: ta de som legat längst sedan de visades.
+  // Uppgifter från detta pass undviks så länge det finns andra.
+  const senast=state.lastIds[state.lastIds.length-1];
+  let bas=pool.filter(t=>!iPasset.has(t.id));
+  if(!bas.length) bas=pool.filter(t=>t.id!==senast);
+  if(!bas.length) bas=pool;
+  const aldst=bas.slice().sort((a,b)=>uppgiftsAlder(h,b.id)-uppgiftsAlder(h,a.id));
+  return aldst.slice(0,Math.max(1,Math.ceil(aldst.length/3)));
+}
+
 function chooseTask(){
 
   while(state.felKo && state.felKo.length){
@@ -5336,7 +5388,8 @@ function chooseTask(){
   if(!pool.length) return null;
 
   const cp=ensureCourseProfile();
-  const recent=new Set(state.lastIds.slice(-8));
+  const sedda=lasSedda();
+  pool=farskaUppgifter(pool,sedda);
 
   const area = state.focusArea || chooseArea(pool);
   if(!state.focusArea) pool=pool.filter(t=>(t.omr||"ovrigt")===area);
@@ -5356,13 +5409,17 @@ function chooseTask(){
   if(!level || !buckets[level].length)
     level=NIVAER.find(L=>buckets[L].length)||"1";
 
-  let cands=buckets[level];
-  const fresh=cands.filter(t=>!recent.has(t.id));
-  if(fresh.length) cands=fresh;
+  const cands=buckets[level];
+  // Aldrig sedda uppgifter (och sådana som legat länge) får ett litet försprång.
+  const nyhet=t=>{
+    const a=uppgiftsAlder(sedda,t.id);
+    return a===Infinity ? .35 : .35*Math.min(1,a/SEDDA_MAX);
+  };
   const scored=cands
     .map(t=>({t,k:familyMastery(t,cp)*.52
       + (state.course==="hist" ? historyCriterionMastery(t,cp)*.22 : 0)
       + Math.random()*.9
+      - nyhet(t)
       + (t.ursprungsId && state.senasteUrsprung.includes(t.ursprungsId) ? 1.5 : 0)}))
     .sort((a,b)=>a.k-b.k);
   const top=scored.slice(0,Math.max(1,Math.ceil(scored.length*.4)));
@@ -5590,7 +5647,8 @@ function nextTask(){
   state.altOrdning=null;state.altOrdningId=null;
   stangKalla();
   state.lastIds.push(t.id);
-  if(state.lastIds.length>12) state.lastIds.shift();
+  if(state.lastIds.length>60) state.lastIds.shift();
+  noteraSedd(t.id);
   sparaPagaendePass();
   renderTraining();
   /* Påminnelsen kommer när eleven har kommit in i passet, inte i vägen

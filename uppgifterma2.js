@@ -3328,8 +3328,14 @@ window.BANKMA2 = [
     "familj": "Ingen eller oändligt många lösningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "ingen lösning",
+    "svarstyp": "kort_text",
+    "rättSvar": [
+      "ingen lösning",
+      "systemet har ingen lösning",
+      "saknar lösning",
+      "0 lösningar",
+      "noll lösningar"
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -58953,7 +58959,7 @@ window.BANKMA2 = [
     "omr": "mer_om_andragradsekvationer",
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Lös ekvationerna och ange för varje deluppgift vilken metod du valde och varför.</p><p>a)&nbsp;\\(x^2=45\\)<br>b)&nbsp;\\(x^2-9x=0\\)<br>c)&nbsp;\\(2x^2+6x-8=0\\)</p>",
+    "t": "<p>Lös ekvationerna. Svara exakt eller avrunda till två decimaler där det behövs.</p><p>a)&nbsp;\\(x^2=45\\)<br>b)&nbsp;\\(x^2-9x=0\\)<br>c)&nbsp;\\(2x^2+6x-8=0\\)</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Metodvalet är en del av svaret här. Motivera kort varför din metod passar ekvationens form.</p><div class=\"facit-arbete\"><p>a) Kvadratrotmetoden, eftersom \\(x^2\\) står ensamt: \\(x=\\pm\\sqrt{45}=\\pm3\\sqrt5\\approx\\pm6{,}71\\).</p><p>b) Nollproduktmetoden efter utbrytning, eftersom konstanttermen saknas: \\(x(x-9)=0\\) ger \\(x=0\\) eller \\(x=9\\).</p><p>c) Dividera först med 2 så att koefficienten framför \\(x^2\\) blir 1: \\(x^2+3x-4=0\\). Uttrycket går att faktorisera, \\((x+4)(x-1)=0\\), men pq-formeln ger samma svar: \\(x=-1{,}5\\pm\\sqrt{2{,}25+4}=-1{,}5\\pm2{,}5\\), alltså \\(x=1\\) eller \\(x=-4\\).</p><p><strong>a) \\(\\pm3\\sqrt5\\approx\\pm6{,}71\\) &nbsp; b) \\(0\\) och \\(9\\) &nbsp; c) \\(1\\) och \\(-4\\)</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> pq-formeln kräver att koefficienten framför \\(x^2\\) är 1. Dividera alltid först om den inte är det.</p></div>",
     "geogebra": false,
     "miniräknare": false,
@@ -58972,8 +58978,8 @@ window.BANKMA2 = [
     ],
     "rättSvar": [
       [
-        -6.708203932499369,
-        6.708203932499369
+        -6.71,
+        6.71
       ],
       [
         0,

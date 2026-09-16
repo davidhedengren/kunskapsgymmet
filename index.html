@@ -378,16 +378,22 @@ a{color:inherit}
 .xppill .xptopp{
   display:flex;align-items:baseline;gap:8px;font-size:12.5px;line-height:1;
 }
-.topbar .xppill .rname,.topbar .xppill .xpnum{display:inline}
-.xppill .xpnum{
-  margin-left:auto;padding-left:14px;
-  font-variant-numeric:tabular-nums;font-size:12px;
-}
+.topbar .xppill .rname{display:inline}
 .xppill .rankdot{width:27px;height:27px;border-radius:9px;font-size:12px}
 .xppill .xpbar{
-  width:clamp(170px,26vw,270px);height:11px;margin-left:0;
+  position:relative;width:clamp(180px,27vw,280px);height:20px;margin-left:0;
   background:var(--hair);
   box-shadow:inset 0 1px 2px rgba(11,33,51,.16);
+}
+/* Talet ligger i baren i stället för ovanför den. Halon i bakgrundsfärg
+   gör att det går att läsa både över guldet och över det tomma spåret,
+   i båda färglägena. */
+.topbar .xppill .xpnum{
+  display:grid;place-items:center;position:absolute;inset:0;
+  font-size:11.5px;font-weight:700;letter-spacing:-.01em;
+  font-variant-numeric:tabular-nums;color:var(--ink);
+  text-shadow:0 0 3px var(--surface),0 0 6px var(--surface),0 1px 1px rgba(11,33,51,.3);
+  pointer-events:none;
 }
 .xppill .xpbar i{
   position:relative;overflow:hidden;
@@ -1074,7 +1080,10 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   position:absolute;inset:0;display:grid;place-items:center;text-align:center;
   font-size:18px;font-weight:700;letter-spacing:-.05em;
 }
+.ringwrap .num{line-height:1.05}
 .ringwrap .num small{display:block;font-size:10px;font-weight:600;letter-spacing:-.01em;color:var(--ink3);margin-top:2px}
+/* Etiketten står över talet, så siffran hamnar optiskt mitt i ringen. */
+.ringwrap .num.over small{margin:0 0 1px}
 .ring circle{transition:stroke-dashoffset 1.2s var(--ease)}
 .rankname{font-size:16px;font-weight:700;letter-spacing:-.035em}
 .rankmeta{margin-top:3px;font-size:12.5px;color:var(--ink3)}
@@ -1204,7 +1213,31 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   padding-top:11px;border-top:1px solid var(--hair);
 }
 .kapraknare{flex:1;min-width:0;font-size:12px;color:var(--ink3)}
-.kapbar span{cursor:help}
+.kapbar span{cursor:pointer}
+.kapbar span.vald{box-shadow:0 0 0 2px var(--acc)}
+.kapinfo{
+  margin:11px 0 0;padding:10px 12px;border-radius:12px;background:var(--surface);
+  border:1px solid var(--hair);font-family:var(--read);font-size:13px;line-height:1.5;
+  color:var(--ink2);letter-spacing:0;
+}
+.kapinfo b{color:var(--ink);font-family:var(--ui);font-size:12px;
+  letter-spacing:-.01em;margin-right:4px}
+.kapinfo[hidden]{display:none}
+
+@media(max-width:640px){
+  /* Knappen till svagaste området har långa områdesnamn och måste få
+     egen rad, annars kläms räknaren ihop till tre ord per rad. */
+  .kapfot{flex-direction:column;align-items:stretch;gap:9px}
+  .kapfot .btn{width:100%;white-space:normal;text-align:center;line-height:1.35}
+  .kapraknare{flex:none}
+  .kaprad{padding:13px 13px}
+  .kaptop{flex-wrap:wrap;gap:6px 9px}
+  .kaptop b{flex:1 0 100%}
+  .kaptop .num{margin-left:auto}
+  .matarnyckel{font-size:13px}
+  .hjalpknapp{font-size:12px;padding:6px 10px}
+  .badgemer .btn{width:100%}
+}
 
 .hjalptext{font-family:var(--read);font-size:14.5px;line-height:1.62;
   letter-spacing:0;color:var(--ink2);max-height:56vh;overflow:auto;padding-right:4px}
@@ -2341,7 +2374,7 @@ function authFel(d){
   if(m.includes("password should be"))       return "Lösenordet uppfyller inte kraven.";
   if(m.includes("unable to validate")||m.includes("invalid email"))
                                              return "E‑postadressen ser inte giltig ut.";
-  if(m.includes("not confirmed"))            return "Bekräfta din e‑post först — kolla inkorgen.";
+  if(m.includes("not confirmed"))            return "Bekräfta din e‑post först. Kolla inkorgen.";
   if(m.includes("rate limit")||m.includes("too many")||m.includes("security purposes"))
                                              return "För många försök. Vänta en stund och prova igen.";
   if(m.includes("same password"))            return "Välj ett lösenord som skiljer sig från det gamla.";
@@ -3756,16 +3789,18 @@ window.addEventListener("scroll",()=>{
 
 function topbar(){
   const lp=levelProgress(), r=rankFor(lp.level), st=currentStreak();
-  const badge=profile.attempts?`<button class="pill xppill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""} — visa min utveckling">
+  const badge=profile.attempts?`<button class="pill xppill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""}. Visa min utveckling">
       <span class="rankdot" id="xprankdot">${r.sym}</span>
       <span class="xpkropp">
         <span class="xptopp">
           <span class="lvl">Nivå <span id="xplvl">${lp.level}</span></span>
           <span class="rname" id="xprank">${esc(r.name)}</span>
           ${st?`<span class="flame">${st}\u2009d</span>`:""}
+        </span>
+        <span class="xpbar">
+          <i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i>
           <span class="xpnum" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need}</span>
         </span>
-        <span class="xpbar"><i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i></span>
       </span>
       <span class="gain" id="xpgain" aria-hidden="true"></span>
     </button>`:"";
@@ -3790,7 +3825,7 @@ const PALL_IKON='<svg class="pallmarke" viewBox="0 0 24 24" fill="none" stroke="
 function toppKnapp(){
   if(!MOLN_PA()) return "";
   return `<button class="pill topppill" onclick="oppnaTopplista()"
-      title="Topplistan — se hur du ligger till" aria-label="Topplistan">
+      title="Topplistan. Se hur du ligger till" aria-label="Topplistan">
     ${PALL_IKON}<span class="topptext">Topplistan</span>
   </button>`;
 }
@@ -3920,7 +3955,7 @@ function oppnaNamnruta(forslag,besked){
         <button class="iconbtn" onclick="stangNamnruta()" aria-label="Stäng">✕</button>
       </div>
       <p class="modal-text">${besked?esc(besked)+" ":""}Det här namnet är det enda andra ser.
-        Välj något du inte har något emot att visa — ditt riktiga namn behövs inte.</p>
+        Välj något du inte har något emot att visa. Ditt riktiga namn behövs inte.</p>
       <input id="namnfalt" class="namnfalt" maxlength="${NAMN_MAX}" autocomplete="off"
         spellcheck="false" placeholder="t.ex. raketrav"
         value="${esc(forslag||profile.namn||"")}"
@@ -4047,7 +4082,7 @@ async function gateSkapaKonto(){
     const inne=await skapaKonto(e,l);
     if(inne) location.reload();
     else gateBesked("Nästan klart. Vi har skickat ett mejl till "+e
-      +" — klicka på länken där så öppnas kontot och du loggas in. Hittar du inget, titta i skräpposten.",true);
+      +". Klicka på länken där så öppnas kontot och du loggas in. Titta i skräpposten om du inte hittar mejlet.",true);
   });
 }
 async function gateGlomt(){
@@ -4081,7 +4116,7 @@ function gatePanel(){
 
   if(gateLage==="nytt") return `
     <p class="gate-rubrik">Välj ett nytt lösenord</p>
-    <p class="gate-under">Du är inloggad via länken i mejlet. Välj ett lösenord så är du klar.</p>
+    <p class="gate-under">Länken i mejlet har loggat in dig. Välj ett lösenord så är du klar.</p>
     <div class="gate-form">
       ${losenfalt("new-password","Nytt lösenord (minst 8 tecken)")}
       <button class="btn primary wide" id="gate-knapp" onclick="gateNyttLosenord()">Spara lösenordet</button>
@@ -4090,7 +4125,7 @@ function gatePanel(){
 
   if(gateLage==="glomt") return `
     <p class="gate-rubrik">Glömt lösenordet?</p>
-    <p class="gate-under">Vi mejlar en länk. Klickar du på den kommer du tillbaka hit och får välja ett nytt lösenord. Träningen finns kvar oavsett.</p>
+    <p class="gate-under">Du får ett mejl med en länk. Klicka på den så kommer du tillbaka hit och får välja ett nytt lösenord. Träningen finns kvar.</p>
     <div class="gate-form">
       ${eposttfalt("email")}
       <button class="btn primary wide" id="gate-knapp" onclick="gateGlomt()">Skicka återställningslänk</button>
@@ -4105,7 +4140,7 @@ function gatePanel(){
     return `
     <p class="gate-rubrik">${skapa?"Skapa ett konto":"Logga in med e‑post"}</p>
     <p class="gate-under">${skapa
-      ? "Vilken e‑postadress som helst går bra — skolans eller din egen. Den används bara för att logga in och för att återställa lösenordet, och syns aldrig för andra."
+      ? "Du kan använda vilken e‑postadress du vill, skolans eller en privat. Adressen används bara för att logga in och för att återställa lösenord. Den syns inte för andra."
       : "Använd e‑postadressen du skapade kontot med."}</p>
     <div class="gate-form">
       ${eposttfalt(skapa?"email":"username")}
@@ -5165,7 +5200,7 @@ function renderDashboard(){
               <svg width="0" height="0"><defs><linearGradient id="goldgrad" x1="0" y1="1" x2="1" y2="0">
                 <stop offset="0%" stop-color="#c79a3c"/><stop offset="100%" stop-color="#f0d296"/>
               </linearGradient></defs></svg>
-              <div class="num">${lp.level}<small>nivå</small></div>
+              <div class="num over"><small>nivå</small>${lp.level}</div>
             </div>
             <div class="rankid">
               <div class="rankname">${esc(rank.name)}</div>
@@ -5421,11 +5456,11 @@ function nivaStat(areor){
 /* Kort beskrivning av vad varje träningsnivå innehåller. Används i
    förklaringsrutan och i hovertexterna. */
 const NIVA_TEXT={
-  "1":"Grunderna — enkla uppgifter i ett steg.",
-  "2":"Rutin — standarduppgifter du ska kunna säkert.",
-  "3":"Tillämpning — flera steg, ofta i ett sammanhang.",
-  "4":"Utmaning — uppgifter som kräver att du väljer metod själv.",
-  "5":"Fördjupning — de svåraste uppgifterna i området."
+  "1":"Grunderna. Enkla uppgifter i ett steg.",
+  "2":"Rutin. Standarduppgifter du ska kunna säkert.",
+  "3":"Tillämpning. Flera steg, ofta i ett sammanhang.",
+  "4":"Utmaning. Du väljer metod själv.",
+  "5":"Fördjupning. De svåraste uppgifterna i området."
 };
 
 /* Området som just nu har svagast läge i kapitlet. Det är det svaret
@@ -5436,16 +5471,14 @@ function svagastIKapitel(areor){
   return rankad[0] ? rankad[0].a : null;
 }
 
-function nivaHover(namn,L,varde,st){
+function nivaInfo(namn,L,varde,st){
   const pct=Math.round(varde*100);
   const grund = st.n
-    ? `Bygger på ${st.n} uppgift${st.n===1?"":"er"} på nivå ${L} i ${namn}, `
-      +`där du klarat ${Math.round(st.andel*100)} %.`
+    ? `Du har gjort ${st.n} uppgift${st.n===1?"":"er"} på nivå ${L} i ${namn} `
+      +`och klarat ${Math.round(st.andel*100)} %.`
     : `Du har inte tränat nivå ${L} i ${namn} än.`;
-  const mognad = st.n
-    ? " Mätaren väger in både andel rätt och antal uppgifter."
-    : "";
-  return `Nivå ${L} · ${pct} %\n${NIVA_TEXT[L]}\n${grund}${mognad}`;
+  const mognad = st.n ? " Fältet fylls av både antal rätt och antal uppgifter." : "";
+  return {kort:`Nivå ${L}, ${pct} %`, lang:`${NIVA_TEXT[L]} ${grund}${mognad}`};
 }
 function courseProgress(){
   const q=meanLevels(getAreas().map(a=>areaLevels(a.key)));
@@ -8552,7 +8585,7 @@ function finishAttempt(resultat){
                : "Inte riktigt.";
   const under = state.noXp
       ? "Lösningen var redan visad, så den här uppgiften ger ingen XP."
-      : correct ? "Bra jobbat — nästa uppgift anpassas efter det här."
+      : correct ? "Bra jobbat. Nästa uppgift anpassas efter det här."
       : ratt ? "Titta på lösningen för de delar som inte stämde."
       : "Titta på lösningen och hitta steget som gick fel.";
   const box=document.getElementById("answer-result");
@@ -8975,6 +9008,20 @@ function tillbakaFranTopplista(){
 /* Förklaringsrutan. Den här vyn är full av härledda tal, och utan den
    här texten är de omöjliga att tolka — då blir mätarna dekoration i
    stället för vägledning. */
+/* Hovertext finns inte på pekskärm, och det är där eleverna sitter.
+   Samma text visas därför i en rad under mätaren när man trycker. */
+function visaNivainfo(el){
+  const rad=el.closest(".kaprad");
+  const ruta=rad?.querySelector(".kapinfo");
+  if(!ruta) return;
+  const redanVald=el.classList.contains("vald");
+  rad.querySelectorAll(".kapbar span").forEach(x=>x.classList.remove("vald"));
+  if(redanVald){ ruta.hidden=true; return; }
+  el.classList.add("vald");
+  ruta.innerHTML=`<b>${esc(el.dataset.kort||"")}</b> ${esc(el.dataset.lang||"")}`;
+  ruta.hidden=false;
+}
+
 function oppnaMatarhjalp(){
   document.getElementById("matarhjalp")?.remove();
   const el=document.createElement("div");
@@ -8991,35 +9038,34 @@ function oppnaMatarhjalp(){
     <div class="hjalptext">
       <h3>De fem fälten</h3>
       <p>Varje kapitel har en mätare med fem fält. Fälten är kursens fem
-      träningsnivåer, inte antal uppgifter:</p>
+      träningsnivåer. De visar alltså inte hur många uppgifter du gjort.</p>
       <ul class="nivalista">
         ${NIVAER.map(L=>`<li><span class="nivakula z${L}"></span>
           <b>Nivå ${L}</b> ${esc(NIVA_TEXT[L])}</li>`).join("")}
       </ul>
-      <p>Fälten är olika breda därför att nivåerna väger olika tungt.
-      Nivå 1 är smalast: att klara grunderna räcker inte långt på egen
-      hand.</p>
+      <p>Fälten är olika breda för att nivåerna väger olika tungt.
+      Nivå 1 är smalast. Att klara grunderna räcker inte så långt.</p>
 
       <h3>Hur ett fält fylls</h3>
-      <p>Ett fält fylls av två saker tillsammans: <b>hur stor andel du
-      klarar</b> på den nivån, och <b>hur många uppgifter du hunnit
-      göra</b>. Ett par rätt i rad räcker alltså inte — mätaren når full
-      höjd först när du visat att det håller över flera uppgifter.</p>
-      <p>Det betyder också att ett tomt fält kan betyda två olika saker:
-      att du tränat och haft svårt för nivån, eller att du inte tränat
-      den än. Hovra över fältet så står det vilket.</p>
+      <p>Två saker styr: <b>hur stor andel du klarar</b> på nivån och
+      <b>hur många uppgifter du gjort</b>. Ett par rätt i rad räcker
+      alltså inte. Fältet blir fullt först när det håller över flera
+      uppgifter.</p>
+      <p>Ett tomt fält kan därför betyda två saker: att du tränat och
+      haft svårt för nivån, eller att du inte tränat den än. Tryck på
+      fältet så står det vilket.</p>
 
       <h3>Procenten</h3>
-      <p>Talet till höger är kapitlets fem fält sammanvägda. Det är ett
-      <b>träningsläge</b>, inte ett betyg och inte en andel av kursen du
-      gjort klart. Det stiger långsamt i början, eftersom de tyngsta
-      nivåerna kräver mest träning.</p>
+      <p>Talet till höger är de fem fälten sammanvägda. Det är ett
+      <b>träningsläge</b>. Det är inte ett betyg och inte hur stor del av
+      kursen du gjort klart. Det stiger långsamt i början, eftersom de
+      tyngsta nivåerna kräver mest träning.</p>
 
       <h3>Vad du gör med det</h3>
-      <p>Leta efter kapitel där de vänstra fälten är fyllda men de högra
-      tomma — då sitter grunderna och nästa steg är svårare uppgifter.
-      Är även de vänstra fälten tomma är det där du börjar. Knappen under
-      varje mätare tar dig till det område som ligger svagast just nu.</p>
+      <p>Är de vänstra fälten fyllda men de högra tomma sitter grunderna,
+      och nästa steg är svårare uppgifter. Är även de vänstra fälten
+      tomma börjar du där. Knappen under varje mätare tar dig till det
+      område som ligger svagast just nu.</p>
     </div>
     <div class="modal-fot">
       <span class="spacer"></span>
@@ -9064,7 +9110,7 @@ function showProgress(record){
       <div class="rankrow">
         <div class="ringwrap">
           ${ring(lp.pct,74,6,"#c79a3c")}
-          <div class="num">${lp.level}<small>nivå</small></div>
+          <div class="num over"><small>nivå</small>${lp.level}</div>
         </div>
         <div style="flex:1;min-width:180px">
           <div class="rankname">${esc(rank.name)}</div>
@@ -9124,9 +9170,9 @@ function showProgress(record){
             ${redo?`<div class="redo">${redo}</div>`:""}
           </div>
         </div>
-        <p class="matarnyckel">De fem fälten är kursens fem träningsnivåer,
-          från grunderna till vänster till det svåraste till höger. Hovra
-          över ett fält för att se vad du gjort på den nivån.</p>
+        <p class="matarnyckel">De fem fälten är kursens fem träningsnivåer.
+          Grunderna till vänster, det svåraste till höger. Tryck på ett fält
+          för att se vad du gjort på den nivån.</p>
         <div class="kapkort" style="margin-top:14px">
           ${kap.map(c=>{
             const l=scoreLabel(c.score);
@@ -9139,12 +9185,19 @@ function showProgress(record){
                 <span class="num" title="Sammanvägt läge för ${esc(c.name)} över alla fem träningsnivåer. De svårare nivåerna väger tyngre.">${Math.round(c.score)}<small>%</small></span>
               </div>
               <div class="kapbar">
-                ${NIVAER.map(L=>`<span class="z${L}" title="${esc(nivaHover(c.name,L,c.q[L],c.stat[L]))}"
-                  ><i data-w="${Math.round(c.q[L]*100)}%"></i></span>`).join("")}
+                ${NIVAER.map(L=>{
+                  const i=nivaInfo(c.name,L,c.q[L],c.stat[L]);
+                  return `<span class="z${L}" role="button" tabindex="0"
+                    title="${esc(i.kort+". "+i.lang)}"
+                    data-kort="${esc(i.kort)}" data-lang="${esc(i.lang)}"
+                    onclick="visaNivainfo(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();visaNivainfo(this)}"
+                    ><i data-w="${Math.round(c.q[L]*100)}%"></i></span>`;
+                }).join("")}
               </div>
-              <div class="kapniv" aria-hidden="true">
+              <div class="kapniv">
                 ${NIVAER.map(L=>`<span class="z${L}">${L}</span>`).join("")}
               </div>
+              <p class="kapinfo" hidden></p>
               <div class="kapfot">
                 <span class="kapraknare">${totalt} uppgift${totalt===1?"":"er"} tränade</span>
                 ${svag?`<button class="btn sm" onclick="startCard('${esc(svag.key)}')"
@@ -9280,7 +9333,7 @@ window.addEventListener("load",async()=>{
   if(inloggningsTyp==="recovery"){ gateLage="nytt"; renderGate(); navRecord("home",true); return; }
   /* Tillbaka från bekräftelselänken: kontot är öppnat och sessionen ligger
      redan i hashen, så det enda som fattas är ett besked om att det gick vägen. */
-  if(inloggningsTyp==="signup") setTimeout(()=>toast("Kontot är klart. Träningen följer med mellan dina enheter nu."),700);
+  if(inloggningsTyp==="signup") setTimeout(()=>toast("Kontot är klart. Nu följer träningen med mellan dina enheter."),700);
   if(visaGate()){ renderGate(); navRecord("home",true); return; }
   if(MOLN_PA() && session) await synkaProfil();
 

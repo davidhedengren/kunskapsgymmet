@@ -2329,7 +2329,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false
   },
-    {
+  {
     "id": "2.249",
     "kap": 2,
     "omr": "matnogg",
@@ -48802,56 +48802,122 @@ window.BANK = [
     "id": "6.1",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Figuren visar ett u-rör som är fyllt med vatten och en vätska med densiteten 1,25 g/cm³. Vätskorna möts längst ner i röret, och där är deras vätsketryck lika stort. Summan av de båda vätskepelarnas höjder är 24 cm.</p><span class=\"fig smal\"><svg height=\"304\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"63.514 10.326 258.400 206.522\"><polygon points=\"105,40 105,205 275,205 275,40 245,40 245,175 135,175 135,40\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"106\" y=\"92\" width=\"28\" height=\"83\" fill=\"#AFCBE6\"/><rect x=\"246\" y=\"70\" width=\"28\" height=\"105\" fill=\"#DCEAF6\"/><rect x=\"106\" y=\"175\" width=\"168\" height=\"29\" fill=\"#AFCBE6\"/><polygon points=\"105,40 105,205 275,205 275,40 245,40 245,175 135,175 135,40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"92\" y1=\"92\" x2=\"92\" y2=\"175\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"87\" y1=\"92\" x2=\"97\" y2=\"92\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"87\" y1=\"175\" x2=\"97\" y2=\"175\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"83\" y=\"137.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">h₁</text><line x1=\"292\" y1=\"70\" x2=\"292\" y2=\"175\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"287\" y1=\"70\" x2=\"297\" y2=\"70\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"287\" y1=\"175\" x2=\"297\" y2=\"175\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"301\" y=\"126.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">h₂</text><text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,25 g/cm³</text><text x=\"260\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">vatten</text></svg></span>\n<p>Bestäm de båda höjderna.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Låt \\(h_v\\) vara vattenpelaren och \\(h_t\\) pelaren med densiteten \\(1{,}25\\ \\mathrm{g/cm^3}\\).</p><div class=\"facit-matte\">\\[1{,}00h_v=1{,}25h_t,\\qquad h_v+h_t=24\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt \\(h_v=1{,}25h_t\\) i summan.</p><div class=\"facit-matte\">\\[2{,}25h_t=24\\Rightarrow h_t=10{,}7\\ \\mathrm{cm}\\]\\[h_v=24-10{,}7=13{,}3\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den tyngre vätskans höjd är \\(10{,}7\\ \\mathrm{cm}\\) och vattenpelarens \\(13{,}3\\ \\mathrm{cm}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>Ett öppet U-rör innehåller två vätskor som inte blandas. Vattnets densitet är 1000 kg/m³ och den tyngre vätskans 1250 kg/m³. Den tyngre vätskan fyller rörets botten och den ena skänkeln; vatten ligger ovanpå den i den andra. Båda fria ytorna utsätts för samma lufttryck. Räknat från gränsytans nivå är summan av pelarhöjderna 24,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Vatten ovanpå tyngre vätska i öppet U-rör med gemensam jämförelsenivå\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M155 200H195V285H365V110H405V291Q405 317 379 317H181Q155 317 155 291Z\" fill=\"#d2d9dd\"/><path d=\"M155 87.5H195V200H155Z\" fill=\"#dcebf6\"/><path d=\"M155 45V291Q155 317 181 317H379Q405 317 405 291V45 M195 45V285H365V45\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M155 87.5H195M365 110H405M155 200H195\" stroke=\"#5b7e97\" stroke-width=\"2\"/><path d=\"M120 200H438\" stroke=\"#999\" stroke-dasharray=\"4 4\"/><path d=\"M125 87.5V200M118 87.5H150 M118 200H150 M435 110V200 M410 110H442 M410 200H442\" fill=\"none\" stroke=\"#888\"/><text x=\"175\" y=\"28\" text-anchor=\"middle\">vatten</text><text x=\"385\" y=\"28\" text-anchor=\"middle\">1250 kg/m³</text><text x=\"102\" y=\"148\" text-anchor=\"end\">hᵥ</text><text x=\"450\" y=\"160\">hₜ</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm vattenpelarens höjd över gränsytan. Svara i cm. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den tyngre vätskans pelarhöjd över gränsytans nivå. Svara i cm. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) Tryckbalans på gränsytans nivå ger 1000h_v = 1250h_t. Med h_v+h_t = 24,0 blir h_v = 1,25 · 24,0/2,25 = 13,333… cm. Svar: 13,33 cm.</p><p>b) 1000h_v = 1250h_t ger h_v = 1,25h_t. Då är 2,25h_t = 24,0 och h_t = 10,666… cm. Svar: 10,67 cm.</p>",
+    "familj": "U-rör och två pelarhöjder",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Låt \\(h_v\\) vara vattenpelaren och \\(h_t\\) pelaren med densiteten \\(1{,}25\\ \\mathrm{g/cm^3}\\).</p>"
+    "familjNyckel": "vatsketryck__u_ror_och_tva_pelarhojder",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13.33,
+      10.67
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Skriv både tryckbalansen och sambandet för summan av höjderna.</p>",
+    "traningsniva": 3,
+    "typ": "u-rör och två pelarhöjder",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett öppet U-rör innehåller två vätskor som inte blandas. Vattnets densitet är 1000 kg/m³ och den tyngre vätskans 1250 kg/m³. Den tyngre vätskan fyller rörets botten och den ena skänkeln; vatten ligger ovanpå den i den andra. Båda fria ytorna utsätts för samma lufttryck. Räknat från gränsytans nivå är summan av pelarhöjderna 24,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Vatten ovanpå tyngre vätska i öppet U-rör med gemensam jämförelsenivå\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M155 200H195V285H365V110H405V291Q405 317 379 317H181Q155 317 155 291Z\" fill=\"#d2d9dd\"/><path d=\"M155 87.5H195V200H155Z\" fill=\"#dcebf6\"/><path d=\"M155 45V291Q155 317 181 317H379Q405 317 405 291V45 M195 45V285H365V45\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M155 87.5H195M365 110H405M155 200H195\" stroke=\"#5b7e97\" stroke-width=\"2\"/><path d=\"M120 200H438\" stroke=\"#999\" stroke-dasharray=\"4 4\"/><path d=\"M125 87.5V200M118 87.5H150 M118 200H150 M435 110V200 M410 110H442 M410 200H442\" fill=\"none\" stroke=\"#888\"/><text x=\"175\" y=\"28\" text-anchor=\"middle\">vatten</text><text x=\"385\" y=\"28\" text-anchor=\"middle\">1250 kg/m³</text><text x=\"102\" y=\"148\" text-anchor=\"end\">hᵥ</text><text x=\"450\" y=\"160\">hₜ</text></g></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm vattenpelarens höjd över gränsytan. Svara i cm. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett öppet U-rör innehåller två vätskor som inte blandas. Vattnets densitet är 1000 kg/m³ och den tyngre vätskans 1250 kg/m³. Den tyngre vätskan fyller rörets botten och den ena skänkeln; vatten ligger ovanpå den i den andra. Båda fria ytorna utsätts för samma lufttryck. Räknat från gränsytans nivå är summan av pelarhöjderna 24,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Vatten ovanpå tyngre vätska i öppet U-rör med gemensam jämförelsenivå\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M155 200H195V285H365V110H405V291Q405 317 379 317H181Q155 317 155 291Z\" fill=\"#d2d9dd\"/><path d=\"M155 87.5H195V200H155Z\" fill=\"#dcebf6\"/><path d=\"M155 45V291Q155 317 181 317H379Q405 317 405 291V45 M195 45V285H365V45\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M155 87.5H195M365 110H405M155 200H195\" stroke=\"#5b7e97\" stroke-width=\"2\"/><path d=\"M120 200H438\" stroke=\"#999\" stroke-dasharray=\"4 4\"/><path d=\"M125 87.5V200M118 87.5H150 M118 200H150 M435 110V200 M410 110H442 M410 200H442\" fill=\"none\" stroke=\"#888\"/><text x=\"175\" y=\"28\" text-anchor=\"middle\">vatten</text><text x=\"385\" y=\"28\" text-anchor=\"middle\">1250 kg/m³</text><text x=\"102\" y=\"148\" text-anchor=\"end\">hᵥ</text><text x=\"450\" y=\"160\">hₜ</text></g></svg></span><p>Bestäm vattenpelarens höjd över gränsytan. Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Tryckbalans på gränsytans nivå ger 1000h_v = 1250h_t. Med h_v+h_t = 24,0 blir h_v = 1,25 · 24,0/2,25 = 13,333… cm. Svar: 13,33 cm.</p>",
+        "ledtrad": "<p>Skriv både tryckbalansen och sambandet för summan av höjderna.</p>",
+        "niva": "C",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "procedur"
+        ]
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm den tyngre vätskans pelarhöjd över gränsytans nivå. Svara i cm. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett öppet U-rör innehåller två vätskor som inte blandas. Vattnets densitet är 1000 kg/m³ och den tyngre vätskans 1250 kg/m³. Den tyngre vätskan fyller rörets botten och den ena skänkeln; vatten ligger ovanpå den i den andra. Båda fria ytorna utsätts för samma lufttryck. Räknat från gränsytans nivå är summan av pelarhöjderna 24,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Vatten ovanpå tyngre vätska i öppet U-rör med gemensam jämförelsenivå\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M155 200H195V285H365V110H405V291Q405 317 379 317H181Q155 317 155 291Z\" fill=\"#d2d9dd\"/><path d=\"M155 87.5H195V200H155Z\" fill=\"#dcebf6\"/><path d=\"M155 45V291Q155 317 181 317H379Q405 317 405 291V45 M195 45V285H365V45\" stroke=\"#333\" stroke-width=\"3\" fill=\"none\"/><path d=\"M155 87.5H195M365 110H405M155 200H195\" stroke=\"#5b7e97\" stroke-width=\"2\"/><path d=\"M120 200H438\" stroke=\"#999\" stroke-dasharray=\"4 4\"/><path d=\"M125 87.5V200M118 87.5H150 M118 200H150 M435 110V200 M410 110H442 M410 200H442\" fill=\"none\" stroke=\"#888\"/><text x=\"175\" y=\"28\" text-anchor=\"middle\">vatten</text><text x=\"385\" y=\"28\" text-anchor=\"middle\">1250 kg/m³</text><text x=\"102\" y=\"148\" text-anchor=\"end\">hᵥ</text><text x=\"450\" y=\"160\">hₜ</text></g></svg></span><p>Bestäm den tyngre vätskans pelarhöjd över gränsytans nivå. Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>1000h_v = 1250h_t ger h_v = 1,25h_t. Då är 2,25h_t = 24,0 och h_t = 10,666… cm. Svar: 10,67 cm.</p>",
+        "ledtrad": "<p>Den tätare vätskan behöver en lägre pelare för samma tryckökning.</p>",
+        "niva": "C",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "procedur"
+        ]
+      }
+    ]
   },
   {
     "id": "6.2",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "beräkna nödvändig area ur tyngd och tillåtet tryck, ur text, sökt kraft och area",
-    "poang": "(2/1/0)",
-    "t": "<p>En person med massan 65 kg ska gå på lössnö. Snön bär om trycket inte överstiger 2,0 kPa.</p>\n<ol><li>Hur stor är tyngdkraften på personen?</li>\n<li>Hur stor sammanlagd yta måste skidorna ha?</li>\n<li>Hur stor area måste varje skida ha?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personens tyngdkraft är</p><div class=\"facit-matte\">\\[F=65\\cdot9{,}82=638\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För att inte överstiga \\(2{,}0\\ \\mathrm{kPa}\\) krävs minst</p><div class=\"facit-matte\">\\[A_{\\mathrm{tot}}=\\frac Fp=\\frac{638}{2000}=0{,}319\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två lika stora skidor delar arean.</p><div class=\"facit-matte\">\\[A_{\\mathrm{skida}}=\\frac{0{,}319}{2}=0{,}160\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(638\\ \\mathrm N\\). Skidorna behöver tillsammans minst \\(0{,}32\\ \\mathrm{m^2}\\), alltså \\(0{,}16\\ \\mathrm{m^2}\\) vardera.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "minsta bärande area",
+    "poang": "(3/0/0)",
+    "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön bär ett jämnt fördelat tryck på högst 2,0 kPa. Försumma skidornas massa och anta lika belastning på skidorna.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm personens tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.</li><li>Bestäm den teoretiskt minsta sammanlagda kontaktytan. Svara i cm². Avrunda vid behov till 2 decimaler.</li><li>Bestäm den teoretiskt minsta kontaktytan per skida. Svara i cm². Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) F_g = 65 · 9,82 = 638,3 N. Svar: 638,3 N.</p><p>b) A_min = mg/p_max = 65 · 9,82/2000 = 0,31915 m². Omvandlat till cm²: 3191,5 cm². Svar: 3191,5 cm².</p><p>c) Varje skida bär halva tyngden. A_min = (65 · 9,82/2)/2000 = 0,159575 m². Omvandlat till cm²: 1595,75 cm². Svar: 1595,75 cm².</p>",
+    "familj": "Minsta bärande area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__minsta_barande_area",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      638,
-      0.32,
-      0.16
+      638.3,
+      3191.5,
+      1595.75
     ],
     "tolerans": [
-      9.57,
-      0.01,
-      0.0048
+      0,
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
+    "traningsniva": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "N",
+      "cm²",
+      "cm²"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -48860,103 +48926,159 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön bär ett jämnt fördelat tryck på högst 2,0 kPa. Försumma skidornas massa och anta lika belastning på skidorna.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En person med massan 65 kg ska gå på lössnö. Snön bär om trycket inte överstiger 2,0 kPa.</p><div class=\"spel-en-del\">Hur stor är tyngdkraften på personen?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personens tyngdkraft är</p><div class=\"facit-matte\">\\[F=65\\cdot9{,}82=638\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(638\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Bestäm personens tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön bär ett jämnt fördelat tryck på högst 2,0 kPa. Försumma skidornas massa och anta lika belastning på skidorna.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm personens tyngdkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>F_g = 65 · 9,82 = 638,3 N. Svar: 638,3 N.</p>",
+        "ledtrad": "<p>Använd sambandet mellan massa och tyngdkraft.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "t": "<p>En person med massan 65 kg ska gå på lössnö. Snön bär om trycket inte överstiger 2,0 kPa.</p><div class=\"spel-en-del\">Hur stor sammanlagd yta måste skidorna ha?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För att inte överstiga \\(2{,}0\\ \\mathrm{kPa}\\) krävs minst</p><div class=\"facit-matte\">\\[A_{\\mathrm{tot}}=\\frac Fp=\\frac{638}{2000}=0{,}319\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}319\\ \\mathrm{m^2}\\).</p></div>",
-        "ledtrad": "<p>För att inte överstiga \\(2{,}0\\ \\mathrm{kPa}\\) krävs minst</p>",
+        "fraga": "Bestäm den teoretiskt minsta sammanlagda kontaktytan. Svara i cm². Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön bär ett jämnt fördelat tryck på högst 2,0 kPa. Försumma skidornas massa och anta lika belastning på skidorna.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den teoretiskt minsta sammanlagda kontaktytan. Svara i cm². Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>A_min = mg/p_max = 65 · 9,82/2000 = 0,31915 m². Omvandlat till cm²: 3191,5 cm². Svar: 3191,5 cm².</p>",
+        "ledtrad": "<p>Ett högsta tillåtet tryck ger en minsta area.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "c",
-        "t": "<p>En person med massan 65 kg ska gå på lössnö. Snön bär om trycket inte överstiger 2,0 kPa.</p><div class=\"spel-en-del\">Hur stor area måste varje skida ha?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två lika stora skidor delar arean.</p><div class=\"facit-matte\">\\[A_{\\mathrm{skida}}=\\frac{0{,}319}{2}=0{,}160\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}160\\ \\mathrm{m^2}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm den teoretiskt minsta kontaktytan per skida. Svara i cm². Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En person med massan 65 kg står stilla på två lika stora skidor. Snön bär ett jämnt fördelat tryck på högst 2,0 kPa. Försumma skidornas massa och anta lika belastning på skidorna.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den teoretiskt minsta kontaktytan per skida. Svara i cm². Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Varje skida bär halva tyngden. A_min = (65 · 9,82/2)/2000 = 0,159575 m². Omvandlat till cm²: 1595,75 cm². Svar: 1595,75 cm².</p>",
+        "ledtrad": "<p>Hur fördelas tyngden mellan de två skidorna?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
+    ]
+  },
+  {
+    "id": "6.297",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En last på 600 N ska bäras med högst 30 kPa medeltryck.</p><p>Bestäm den minsta kontaktytan. Svara i cm². Svara med ett heltal.</p>",
+    "s": "<p>A_min = 600/30 000 = 0,0200 m² = 200 cm². Svar: 200 cm².</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Minsta bärande area",
+    "typ": "minsta bärande area",
+    "ledtrad": "<p>Lös ut arean och kontrollera sedan enheten.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__minsta_barande_area",
+    "formaga": [
+      "procedur"
     ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>"
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 200.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "cm²",
+    "svarFormat": "numeriskt",
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.222",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
+    "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(400\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,02\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{400}{0,02}=2\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>En kraft på 400 N verkar vinkelrätt och jämnt över 0,020 m². Använd p = F/A.</p><p>Bestäm trycket. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>p = 400/0,020 = 20 000 Pa. Svar: 20000 Pa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": 0.36,
+    "rättSvar": 20000.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Sätt in kraften och arean i det givna sambandet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.3",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "C",
-    "typ": "bestämma övertryck ur nivåskillnaden i en kvicksilvermanometer, ur diagram, sökt tryck",
-    "poang": "(1/2/0)",
-    "t": "<p>En manometer är ett u-rör som kopplas till en gasbehållare. Den ena skänkeln är öppen mot luften. Kvicksilvret står 18 mm högre i den öppna skänkeln. Kvicksilvrets densitet är 13 600 kg/m³.</p><span class=\"fig smal\"><svg height=\"308\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"52.00 26.20 266.79 215.87\"><path d=\"M 140 60 L 140 190 A 40 40 0 0 0 220 190 L 220 60\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"3\"/><path d=\"M 142 118 L 142 190 A 38 38 0 0 0 218 190 L 218 100 L 142 100 Z\" fill=\"#AFCBE6\"/><line x1=\"142\" y1=\"118\" x2=\"158\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"202\" y1=\"100\" x2=\"218\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"180\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" font-weight=\"400\" fill=\"#5C575E\">kvicksilver</text><line x1=\"266\" y1=\"100\" x2=\"266\" y2=\"118\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"261\" y1=\"100\" x2=\"271\" y2=\"100\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"261\" y1=\"118\" x2=\"271\" y2=\"118\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"274\" y=\"113\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">18 mm</text><line x1=\"140\" y1=\"60\" x2=\"100\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"60\" x2=\"100\" y2=\"90\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"64\" y=\"90\" width=\"72\" height=\"44\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100\" y=\"116\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">gas</text><text x=\"220\" y=\"44\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">öppen</text></svg></span>\n<p>Hur stort är gasens övertryck?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Nivåskillnaden är \\(h=18\\ \\mathrm{mm}=0{,}018\\ \\mathrm m\\).</p><div class=\"facit-matte\">\\[\\Delta p=\\rho gh\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in kvicksilvrets densitet.</p><div class=\"facit-matte\">\\[\\Delta p=13600\\cdot9{,}82\\cdot0{,}018=2{,}40\\cdot10^3\\ \\mathrm{Pa}\\]</div><p>Kvicksilvret står högre på den öppna sidan, vilket visar att gastrycket är högre än lufttrycket.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gasens övertryck är cirka \\(2{,}4\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "niva": "E",
+    "typ": "u-rörsmanometer",
+    "poang": "(2/0/0)",
+    "t": "<p>En U-rörsmanometer innehåller kvicksilver med densiteten 13 600 kg/m³. Den vänstra skänkeln är kopplad till gas och den högra är öppen mot luften. Kvicksilvrets yta står 18 mm högre i den öppna skänkeln.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm gasens övertryck. Svara i kPa. Avrunda vid behov till 2 decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"U-rör med högre kvicksilveryta på den öppna högra sidan\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M175 175H215V267H345V131H385V278Q385 312 350 312H210Q175 312 175 278Z\" fill=\"#c2d1dd\"/><path d=\"M175 74V278Q175 312 210 312H350Q385 312 385 278V74 M215 74V267H345V74\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><path d=\"M175 175H215M345 131H385\" stroke=\"#3e6e91\" stroke-width=\"2\"/><path d=\"M80 105H150V74H215\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><rect x=\"30\" y=\"83\" width=\"70\" height=\"55\" rx=\"5\" fill=\"#e8eef2\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"65\" y=\"117\" text-anchor=\"middle\">gas</text><text x=\"365\" y=\"53\" text-anchor=\"middle\">öppen</text><path d=\"M425 131V175 M395 131H432M225 175H432\" fill=\"none\" stroke=\"#888\" stroke-dasharray=\"4 3\"/><text x=\"439\" y=\"160\">18 mm</text><text x=\"280\" y=\"297\" text-anchor=\"middle\">kvicksilver</text></g></svg></span>",
+    "s": "<p>Δp = ρgΔh = 13 600 · 9,82 · 0,018 = 2403,936 Pa = 2,403936 kPa. Den öppna sidans högre yta visar att gastrycket är högre än lufttrycket. Svar: 2,4 kPa.</p>",
+    "familj": "U-rörsmanometer",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "vatsketryck__tryckskillnad_i_vatska",
-    "ledtrad": "<p>Nivåskillnaden är \\(h=18\\ \\mathrm{mm}=0{,}018\\ \\mathrm m\\).</p>"
+    "familjNyckel": "vatsketryck__u_rorsmanometer",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.4,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Jämför trycket på samma nivå i den sammanhängande vätskan.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.251",
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "E",
-    "typ": "beräkna hydrostatiskt tryck",
+    "typ": "vätsketryck från djup",
     "poang": "(1/0/0)",
-    "t": "<p>Bestäm vätskans övertryck på djupet \\(1,5\\,\\mathrm m\\) i vatten. Använd \\(\\rho=1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Hydrostatiskt övertryck ges av \\(p=\\rho gh\\).</p><div class=\"facit-matte\">\\[p=1000\\cdot9{,}82\\cdot1,5=1,473\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14,73\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "t": "<p>I en stillastående vattenbassäng är densiteten 1000 kg/m³. Använd Δp = ρgh.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen från ytan till 1,5 m djup. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>Δp = 1000 · 9,82 · 1,5 = 14 730 Pa. Svar: 14730 Pa.</p>",
+    "familj": "Vätsketryck från djup",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
+    "familjNyckel": "vatsketryck__vatsketryck_fran_djup",
     "svarstyp": "numeriskt",
-    "rättSvar": 14.73,
-    "tolerans": 0.26514,
+    "rättSvar": 14730.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita nivåerna och markera var trycken ska jämföras. Använd \\(p=F/A\\), \\(\\Delta p=\\rho gh\\) eller Arkimedes princip efter situationen.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Djupet mäts lodrätt från ytan.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.4",
@@ -49150,114 +49272,97 @@ window.BANK = [
     "id": "6.7",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En fakirbräda har 2000 spikar. Varje spik har spetsytan 1,0 mm². En person på 70 kg lägger sig på brädan.</p>\n<ol><li>Hur stort blir trycket mot huden?</li>\n<li>Hur stort skulle trycket bli om personen stod på en enda spik?</li>\n<li>Förklara varför brädan fungerar men den enda spiken inte gör det.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Anta att vikten fördelas jämnt över alla 2000 spikar.</p><div class=\"facit-matte\">\\[A=2000\\cdot1{,}0\\cdot10^{-6}=2{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[p=\\frac{70\\cdot9{,}82}{A}=3{,}44\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På en enda spik blir arean 2000 gånger mindre.</p><div class=\"facit-matte\">\\[p_1=\\frac{687}{1{,}0\\cdot10^{-6}}=6{,}87\\cdot10^8\\ \\mathrm{Pa}=687\\ \\mathrm{MPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Många spikar fördelar lasten och håller trycket per spets mycket lägre. En ensam spets koncentrerar hela kraften och kan tränga igenom huden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket blir cirka \\(344\\ \\mathrm{kPa}\\) över 2000 spikar men \\(687\\ \\mathrm{MPa}\\) på en enda.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En modell av en spikbräda har 2000 spikar med spetsarean 1,0 mm² vardera. En person på 70 kg belastar brädan. Anta först att hela tyngden bärs jämnt av alla spetsar.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna medeltrycket om hela lasten fördelas jämnt över alla spikspetsar.</li><li>Jämför med trycket om samma kraft verkar på en enda spets.</li><li>Räcker tryckberäkningen för att avgöra om huden skadas? Diskutera modellens begränsningar.</li></ol>",
+    "s": "<p>a) F = 70 · 9,82 = 687,4 N. A = 2000 · 10⁻⁶ = 0,0020 m². p = 343 700 Pa = 343,7 kPa.</p><p>b) På en spets är p = 687,4/10⁻⁶ = 687,4 MPa, alltså 2000 gånger större.</p><p>c) Nej. Modellen visar hur arean påverkar medeltrycket men säger inte hur lasten faktiskt fördelas mellan spetsarna eller hur huden deformeras. Spetsarnas form, ojämn belastning och rörelse påverkar utfallet. Inget gränsvärde för hudskada är givet.</p>",
+    "familj": "Spikbräda som tryckmodell",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__spikbrada_som_tryckmodell",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Anta att vikten fördelas jämnt över alla 2000 spikar. Utgå från \\(p=F/A\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fakirbräda har 2000 spikar. Varje spik har spetsytan 1,0 mm². En person på 70 kg lägger sig på brädan.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stort blir trycket mot huden?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Anta att vikten fördelas jämnt över alla 2000 spikar.</p><div class=\"facit-matte\">\\[A=2000\\cdot1{,}0\\cdot10^{-6}=2{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[p=\\frac{70\\cdot9{,}82}{A}=3{,}44\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}44\\cdot10^5\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Anta att vikten fördelas jämnt över alla 2000 spikar. Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stort skulle trycket bli om personen stod på en enda spik?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På en enda spik blir arean 2000 gånger mindre.</p><div class=\"facit-matte\">\\[p_1=\\frac{687}{1{,}0\\cdot10^{-6}}=6{,}87\\cdot10^8\\ \\mathrm{Pa}=687\\ \\mathrm{MPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(687\\ \\mathrm{MPa}\\).</p></div>",
-        "ledtrad": "<p>Anta att vikten fördelas jämnt över alla 2000 spikar. Utgå från \\(p=F/A\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Förklara varför brädan fungerar men den enda spiken inte gör det.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Många spikar fördelar lasten och håller trycket per spets mycket lägre. En ensam spets koncentrerar hela kraften och kan tränga igenom huden.</p></div></div></div>",
-        "ledtrad": "<p>Anta att vikten fördelas jämnt över alla 2000 spikar. Utgå från \\(p=F/A\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ]
+    "ledtrad": "<p>Vilken sammanlagd area bär lasten, och är den känd i verkligheten?</p>",
+    "traningsniva": 3,
+    "typ": "spikbräda som tryckmodell",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.223",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
+    "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(450\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,025\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{450}{0,025}=1,8\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>En kraft på 450 N verkar vinkelrätt och jämnt över 0,025 m². Använd p = F/A.</p><p>Bestäm trycket. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>p = 450/0,025 = 18 000 Pa. Svar: 18000 Pa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 18,
-    "tolerans": 0.324,
+    "rättSvar": 18000.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Arean står i nämnaren.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.8",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "C",
-    "typ": "skilja övertryck från totaltryck på ett dykdjup, ur text, sökt tryck",
-    "poang": "(2/1/0)",
-    "t": "<p>En dykare befinner sig 15 m under ytan i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket ovanför ytan är 101 kPa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span>\n<ol><li>Hur stort är vätsketrycket på det djupet?</li>\n<li>Hur stort är det totala trycket på dykaren?</li>\n<li>Hur många gånger normalt lufttryck är det totala trycket?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vätsketrycket på 15 m djup är</p><div class=\"facit-matte\">\\[p_v=998\\cdot9{,}82\\cdot15\\approx147000\\ \\mathrm{Pa}=147\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Totaltrycket inkluderar lufttrycket.</p><div class=\"facit-matte\">\\[p_{\\mathrm{tot}}=147+101=248\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med normalt lufttryck.</p><div class=\"facit-matte\">\\[\\frac{248}{101}=2{,}46\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vätsketrycket är \\(147\\ \\mathrm{kPa}\\), totaltrycket \\(248\\ \\mathrm{kPa}\\), alltså cirka \\(2{,}5\\) atmosfärstryck.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "niva": "E",
+    "typ": "vätsketryck och absoluttryck",
+    "poang": "(3/0/0)",
+    "t": "<p>En punkt i en sjö ligger 15 m under ytan. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen från vattenytan. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Bestäm absoluttrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Bestäm kvoten absoluttrycket på djupet dividerat med lufttrycket vid ytan. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) Δp = 998 · 9,82 · 15 = 147 005,4 Pa = 147,0054 kPa. Svar: 147,01 kPa.</p><p>b) p = p₀+ρgh = 101+998 · 9,82 · 15/1000 = 248,0054 kPa. Svar: 248,01 kPa.</p><p>c) Kvoten är (101 000+998 · 9,82 · 15)/101 000 ≈ 2,45550. Svar: 2,46.</p>",
+    "familj": "Vätsketryck och absoluttryck",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
+    "familjNyckel": "vatsketryck__vatsketryck_och_absoluttryck",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
+      147.01,
+      248.01,
       2.46
     ],
     "tolerans": [
-      null,
-      null,
-      0.036899999999999995
+      0,
+      0,
+      0
     ],
-    "självrättning": [
-      false,
-      false,
-      true
-    ],
-    "svarFormat": [
-      null,
-      null,
-      "numeriskt"
-    ],
+    "självrättning": true,
+    "ledtrad": "<p>Lufttrycket ska inte räknas in i själva ökningen.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": [
       "kPa",
       "kPa",
-      "gånger"
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -49265,34 +49370,50 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "vatsketryck__atmosfarstryck_och_maximal_vattenpelare",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En dykare befinner sig 15 m under ytan i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket ovanför ytan är 101 kPa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span>",
+    "spelIntro": "<p>En punkt i en sjö ligger 15 m under ytan. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är vätsketrycket på det djupet?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vätsketrycket på 15 m djup är</p><div class=\"facit-matte\">\\[p_v=998\\cdot9{,}82\\cdot15\\approx147000\\ \\mathrm{Pa}=147\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(147\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Bestäm tryckökningen från vattenytan. Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En punkt i en sjö ligger 15 m under ytan. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span><p>Bestäm tryckökningen från vattenytan. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Δp = 998 · 9,82 · 15 = 147 005,4 Pa = 147,0054 kPa. Svar: 147,01 kPa.</p>",
+        "ledtrad": "<p>Lufttrycket ska inte räknas in i själva ökningen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort är det totala trycket på dykaren?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Totaltrycket inkluderar lufttrycket.</p><div class=\"facit-matte\">\\[p_{\\mathrm{tot}}=147+101=248\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(248\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Bestäm absoluttrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En punkt i en sjö ligger 15 m under ytan. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span><p>Bestäm absoluttrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>p = p₀+ρgh = 101+998 · 9,82 · 15/1000 = 248,0054 kPa. Svar: 248,01 kPa.</p>",
+        "ledtrad": "<p>Lägg till trycket som redan finns vid ytan.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Hur många gånger normalt lufttryck är det totala trycket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med normalt lufttryck.</p><div class=\"facit-matte\">\\[\\frac{248}{101}=2{,}46\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}46\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm kvoten absoluttrycket på djupet dividerat med lufttrycket vid ytan. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En punkt i en sjö ligger 15 m under ytan. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">15 m</text></svg></span><p>Bestäm kvoten absoluttrycket på djupet dividerat med lufttrycket vid ytan. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Kvoten är (101 000+998 · 9,82 · 15)/101 000 ≈ 2,45550. Svar: 2,46.</p>",
+        "ledtrad": "<p>Använd samma tryckenhet i täljare och nämnare.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
     ]
   },
@@ -49301,46 +49422,136 @@ window.BANK = [
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Hanna ska bestämma densiteten för en okänd vätska. Hon använder ett u-rör som fyllts med den okända vätskan samt vatten. Vätskorna blandar sig inte. Där vätskorna möts är deras vätsketryck lika stort. Båda skänklarna är öppna mot samma lufttryck. Räknat från gränsytans nivå är den okända vätskans pelare 9,0 cm hög och vattenpelaren i den andra skänkeln 7,5 cm. Vattnets densitet är 998 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"275\" viewBox=\"0 0 500 275\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Öppet U-rör med höjder räknade från samma gränsyta\"><title>Öppet U-rör med höjder räknade från samma gränsyta</title><path d=\"M125 40 V218 Q125 240 147 240 H293 Q315 240 315 218 V40 M165 40 V200 H275 V40\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><path d=\"M126 145 H164 V201 H276 V91 H314 V218 Q314 239 293 239 H147 Q126 239 126 218 Z\" fill=\"#e5eff6\"/><rect x=\"126\" y=\"80\" width=\"38\" height=\"65\" fill=\"#efe3c2\"/><line x1=\"125\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"145\" x2=\"165\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"275\" y1=\"91\" x2=\"315\" y2=\"91\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"95\" y1=\"145\" x2=\"354\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"95\" y1=\"80\" x2=\"95\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"90\" y1=\"80\" x2=\"100\" y2=\"80\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"90\" y1=\"145\" x2=\"100\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"48\" y=\"119\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 cm</text><line x1=\"355\" y1=\"91\" x2=\"355\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"350\" y1=\"91\" x2=\"360\" y2=\"91\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"350\" y1=\"145\" x2=\"360\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"411\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">7,5 cm</text><text x=\"145\" y=\"26\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">okänd vätska</text><text x=\"295\" y=\"26\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vatten</text></svg></span>\n<p>Bestäm den okända vätskans densitet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför gränsytan med punkten på samma nivå i den andra skänkeln. De ligger i samma sammanhängande stillastående vatten och har samma tryck.</p><div class=\"facit-matte\"><div class=\"facit-matte\">\\[p_0+\\rho_xgh_x=p_0+\\rho_vgh_v\\]</div><p>Det gemensamma lufttrycket p₀ förkortas bort.</p><div class=\"facit-matte\">\\[\\rho_xgh_x=\\rho_vgh_v\\]</div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut den okända densiteten.</p><div class=\"facit-matte\">\\[\\rho_x=998\\frac{7{,}5}{9{,}0}=832\\ \\mathrm{kg/m^3}\\]</div><p>Den högre pelaren får lägre densitet, vilket stämmer med resultatet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den okända vätskans densitet är cirka \\(832\\ \\mathrm{kg/m^3}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "poang": "(0/2/0)",
+    "t": "<p>Ett öppet U-rör innehåller vatten och en okänd vätska som inte blandas med vattnet. Vatten fyller botten. Den okända vätskans pelare är 9,0 cm hög över gränsytan; vattenytan i andra skänkeln är 7,5 cm över samma nivå. Båda öppningarna har samma lufttryck. Vattnets densitet är 998 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"275\" viewBox=\"0 0 500 275\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Öppet U-rör med höjder räknade från samma gränsyta\"><title>Öppet U-rör med höjder räknade från samma gränsyta</title><path d=\"M125 40 V218 Q125 240 147 240 H293 Q315 240 315 218 V40 M165 40 V200 H275 V40\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\"/><path d=\"M126 145 H164 V201 H276 V91 H314 V218 Q314 239 293 239 H147 Q126 239 126 218 Z\" fill=\"#e5eff6\"/><rect x=\"126\" y=\"80\" width=\"38\" height=\"65\" fill=\"#efe3c2\"/><line x1=\"125\" y1=\"80\" x2=\"165\" y2=\"80\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"125\" y1=\"145\" x2=\"165\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"275\" y1=\"91\" x2=\"315\" y2=\"91\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><line x1=\"95\" y1=\"145\" x2=\"354\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"95\" y1=\"80\" x2=\"95\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"90\" y1=\"80\" x2=\"100\" y2=\"80\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"90\" y1=\"145\" x2=\"100\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"48\" y=\"119\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">9,0 cm</text><line x1=\"355\" y1=\"91\" x2=\"355\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"350\" y1=\"91\" x2=\"360\" y2=\"91\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"350\" y1=\"145\" x2=\"360\" y2=\"145\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"411\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">7,5 cm</text><text x=\"145\" y=\"26\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">okänd vätska</text><text x=\"295\" y=\"26\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vatten</text></svg></span><p>Bestäm den okända densiteten. Svara i kg/m³. Svara med ett heltal.</p>",
+    "s": "<p>På jämförelsenivån gäller p₀+ρ_xg · 0,090 = p₀+998g · 0,075, med höjderna i meter. Därför ρ_x = 998 · 7,5/9,0 = 831,666… kg/m³. Svar: 832 kg/m³.</p>",
+    "familj": "Densitet ur U-rör",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
+    "familjNyckel": "vatsketryck__densitet_ur_u_ror",
     "svarstyp": "numeriskt",
-    "rättSvar": 832,
-    "tolerans": 12.48,
+    "rättSvar": 832.0,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj gränsytans nivå för tryckjämförelsen.</p>",
+    "traningsniva": 3,
+    "typ": "densitet ur u-rör",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": "kg/m³",
-    "familjNyckelTidigare": "vatsketryck__tryckskillnad_i_vatska",
-    "ledtrad": "<p>Välj gränsytans nivå som jämförelsenivå och skriv trycket där via varsin vätskepelare. Båda öppningarna har samma lufttryck.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.252",
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "E",
-    "typ": "beräkna hydrostatiskt tryck",
+    "typ": "vätsketryck från djup",
     "poang": "(1/0/0)",
-    "t": "<p>Bestäm vätskans övertryck på djupet \\(2\\,\\mathrm m\\) i vatten. Använd \\(\\rho=1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Hydrostatiskt övertryck ges av \\(p=\\rho gh\\).</p><div class=\"facit-matte\">\\[p=1000\\cdot9{,}82\\cdot2=1,964\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(19,64\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "t": "<p>Vatten med densiteten 1000 kg/m³ står stilla. Använd Δp = ρgh.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen från ytan till 2,0 m djup. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>Δp = 1000 · 9,82 · 2,0 = 19 640 Pa. Svar: 19640 Pa.</p>",
+    "familj": "Vätsketryck från djup",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
+    "familjNyckel": "vatsketryck__vatsketryck_fran_djup",
     "svarstyp": "numeriskt",
-    "rättSvar": 19.64,
-    "tolerans": 0.35352,
+    "rättSvar": 19640.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita nivåerna och markera var trycken ska jämföras. Använd \\(p=F/A\\), \\(\\Delta p=\\rho gh\\) eller Arkimedes princip efter situationen.</p>",
+    "ledtrad": "<p>Använd det givna djupet i meter.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.300",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>En stillastående olja har densiteten 800 kg/m³. Använd Δp = ρgh.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen från ytan till 1,0 m djup. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>Δp = 800 · 9,82 · 1,0 = 7856 Pa. Svar: 7856 Pa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Vätsketryck från djup",
+    "typ": "vätsketryck från djup",
+    "ledtrad": "<p>Sätt in oljans densitet i sambandet.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__vatsketryck_fran_djup",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7856.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "Pa",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.301",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>Vatten har densiteten 1000 kg/m³. Använd Δp = ρgh.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen från ytan till 0,50 m djup. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>Δp = 1000 · 9,82 · 0,50 = 4910 Pa. Svar: 4910 Pa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Vätsketryck från djup",
+    "typ": "vätsketryck från djup",
+    "ledtrad": "<p>Djupet är redan angivet i meter.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__vatsketryck_fran_djup",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4910.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.304",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>En vätska har densiteten 1200 kg/m³. Använd Δp = ρgh.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen över en lodrät vätskepelare på 0,25 m. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>Δp = 1200 · 9,82 · 0,25 = 2946 Pa. Svar: 2946 Pa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Vätsketryck från djup",
+    "typ": "vätsketryck från djup",
+    "ledtrad": "<p>Pelarlängden är det lodräta djupet.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__vatsketryck_fran_djup",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2946.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
   },
   {
     "id": "6.150",
@@ -49348,22 +49559,26 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett öppet U-rör innehåller vatten och olja som inte blandas. Oljans densitet är 800 kg/m³ och vattnets 1000 kg/m³. Oljepelaren är 10,0 cm hög. Båda öppningarna har samma lufttryck.</p><p>Hur högt står vattenytan i den andra skänkeln över gränsytans nivå? Svara i cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"249\" viewBox=\"0 0 490 290\" style=\"display:block;width:420px;max-width:100%;height:auto;max-height:249px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"U-rör med nivåer och givna mått\"><title>U-rör med nivåer och givna mått</title><path d=\"M111 160 V235 Q111 263 142 263 H300 Q329 263 329 235 V84 H291 V225 H149 V160 Z\" fill=\"#e2eef5\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M110 40 V235 Q110 264 142 264 H300 Q330 264 330 235 V40 M150 40 V224 H290 V40\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"160\" x2=\"150\" y2=\"160\" stroke=\"#42789c\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"84\" x2=\"330\" y2=\"84\" stroke=\"#42789c\" stroke-width=\"1.7\"/><path d=\"M111 65 H149 V160 H111 Z\" fill=\"#ece2be\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"65\" x2=\"150\" y2=\"65\" stroke=\"#a58e56\" stroke-width=\"1.7\"/><line x1=\"106\" y1=\"65\" x2=\"75\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"106\" y1=\"160\" x2=\"75\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"80\" y1=\"65\" x2=\"80\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"65\" x2=\"76\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"160\" x2=\"76\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"62\" y=\"117.5\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">10,0 cm</text><line x1=\"150\" y1=\"160\" x2=\"365\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"129\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">olja</text><text x=\"311\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">vatten</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket är lika på samma nivå i det sammanhängande stillastående vattnet. På vänster sida ligger oljepelaren ovanför jämförelsenivån; på höger sida ligger vattenpelaren ovanför.</p><div class=\"facit-matte\">\\[p_0+\\rho_o gh_o=p_0+\\rho_v gh_v\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma lufttryck och samma g finns i båda leden och förkortas bort.</p><div class=\"facit-matte\">\\[h_v=\\frac{\\rho_o}{\\rho_v}h_o=\\frac{800}{1000}\\cdot10{,}0=8{,}0\\ \\mathrm{cm}\\]</div><p>Vattnet är tätare och behöver därför en lägre pelare för samma tryckökning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vattenytan ligger 8,0 cm över gränsytans nivå.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
+    "t": "<p>Ett öppet U-rör innehåller vatten med densiteten 1000 kg/m³ och olja med densiteten 800 kg/m³. Vätskorna blandas inte och vatten fyller botten. Oljepelaren är 10,0 cm hög. Båda öppningarna har samma lufttryck.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"249\" viewBox=\"0 0 490 290\" style=\"display:block;width:420px;max-width:100%;height:auto;max-height:249px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"U-rör med nivåer och givna mått\"><title>U-rör med nivåer och givna mått</title><path d=\"M111 160 V235 Q111 263 142 263 H300 Q329 263 329 235 V84 H291 V225 H149 V160 Z\" fill=\"#e2eef5\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M110 40 V235 Q110 264 142 264 H300 Q330 264 330 235 V40 M150 40 V224 H290 V40\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"160\" x2=\"150\" y2=\"160\" stroke=\"#42789c\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"84\" x2=\"330\" y2=\"84\" stroke=\"#42789c\" stroke-width=\"1.7\"/><path d=\"M111 65 H149 V160 H111 Z\" fill=\"#ece2be\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"65\" x2=\"150\" y2=\"65\" stroke=\"#a58e56\" stroke-width=\"1.7\"/><line x1=\"106\" y1=\"65\" x2=\"75\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"106\" y1=\"160\" x2=\"75\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"80\" y1=\"65\" x2=\"80\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"65\" x2=\"76\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"160\" x2=\"76\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"62\" y=\"117.5\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">10,0 cm</text><line x1=\"150\" y1=\"160\" x2=\"365\" y2=\"160\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"129\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">olja</text><text x=\"311\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">vatten</text></svg></span><p>Bestäm vattenytans höjd i andra skänkeln över gränsytans nivå. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Tryckbalans ger 800g · 0,100 = 1000g h_v. h_v = (800/1000) · 0,100 = 0,080 m = 8,0 cm. Svar: 8 cm.</p>",
+    "familj": "Pelarhöjd i U-rör",
+    "familjNyckel": "vatsketryck__pelarhojd_i_u_ror",
     "formaga": [
       "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": 0.24,
+    "rättSvar": 8.0,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför trycket vid gränsytan med samma nivå i andra skänkeln.</p>",
+    "traningsniva": 3,
+    "typ": "pelarhöjd i u-rör",
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": "cm",
-    "ledtrad": "<p>Jämför trycket vid gränsytan med trycket på samma nivå i vattnet i den andra skänkeln.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.10",
@@ -49371,117 +49586,221 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en sluten behållare som består av två lodräta cylindrar, förbundna med varandra och fyllda med vätska. På toppen av varje cylinder finns en yta som kan röra sig upp och ner.</p><span class=\"fig\"><svg height=\"280\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"36.457 0.000 381.543 213.488\"><rect x=\"80\" y=\"150\" width=\"290\" height=\"52\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"112\" y=\"84\" width=\"44\" height=\"66\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"110\" y=\"76\" width=\"48\" height=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"272\" y=\"54\" width=\"70\" height=\"96\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"270\" y=\"46\" width=\"74\" height=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"134\" y1=\"24\" x2=\"134\" y2=\"62\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"134,72 129.4,62 138.6,62\" fill=\"#B43123\"/><text x=\"134\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₁ = 100 N</text><line x1=\"307\" y1=\"44\" x2=\"307\" y2=\"30\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"307,20 311.6,30 302.4,30\" fill=\"#B43123\"/><text x=\"307\" y=\"14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₂</text><text x=\"104\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">r₁ = 1,5 cm</text><text x=\"350\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">r₂ = 5,0 cm</text></svg></span>\n<ol><li>Förklara med hjälp av Pascals princip varför den andra cylindern trycks uppåt.</li>\n<li>Hur stort tryck påverkas vätskan av?</li>\n<li>Den stora cylindern har radien 5,0 cm. Bestäm kraften på den.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Enligt Pascals princip överförs en pålagd tryckökning oförminskad genom den instängda vätskan. Den verkar därför också uppåt på den stora kolven.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den lilla kolvens area är \\(A_1=\\pi r_1^2\\).</p><div class=\"facit-matte\">\\[p=\\frac{F_1}{A_1}=\\frac{100}{\\pi(0{,}015)^2}=1{,}41\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma tryck verkar på den stora kolven.</p><div class=\"facit-matte\">\\[F_2=p\\pi r_2^2=1{,}4147\\cdot10^5\\pi(0{,}050)^2=1{,}11\\cdot10^3\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tryckökningen är \\(141\\ \\mathrm{kPa}\\), vilket ger kraften \\(1{,}11\\ \\mathrm{kN}\\) på den stora kolven.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Den lilla kolven har radien 1,5 cm och trycks med kraften 100 N. Den stora kolven har radien 5,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Två kolvar förbundna med vätska i en hydraulisk modell\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M90 153H132.0V263H335V153H475V300H90Z\" fill=\"#dcebf6\"/><path d=\"M90 145V300H475V145 M132.0 145V263H335V145\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><rect x=\"85\" y=\"143\" width=\"52.0\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><rect x=\"330\" y=\"143\" width=\"150\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M111.0 65V130 M105.0 120L111.0 130L117.0 120 M405 130V65 M399 75L405 65L411 75\" fill=\"none\" stroke=\"#ad5144\" stroke-width=\"3\"/><text x=\"111.0\" y=\"45\" text-anchor=\"middle\">100 N</text><text x=\"405\" y=\"45\" text-anchor=\"middle\">F₂</text><text x=\"111.0\" y=\"325\" text-anchor=\"middle\">r₁ = 1,5 cm</text><text x=\"405\" y=\"325\" text-anchor=\"middle\">r₂ = 5,0 cm</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm övertrycket under den lilla kolven och kraften från tryckskillnaden på den stora.</li><li>Förklara varför kraften blir större trots samma övertryck.</li></ol>",
+    "s": "<p>a) A₁ = π · 0,015² m². Δp = 100/A₁ ≈ 141 471,06 Pa ≈ 141,47 kPa. F₂ = Δpπ · 0,050² = 100(5,0/1,5)² ≈ 1111,11 N.</p><p>b) Pascals princip säger att den pålagda tryckökningen överförs oförminskad. Kraften är Δp gånger arean, så den större kolven får större kraft. Samma tryck betyder inte samma kraft.</p>",
+    "familj": "Pascals princip och kolvkraft",
     "formaga": [
-      "procedur",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "manuell",
+    "familjNyckel": "vatsketryck__pascals_princip_och_kolvkraft",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vatsketryck__tryckskillnad_i_vatska",
-    "ledtrad": "<p>Enligt Pascals princip överförs en pålagd tryckökning oförminskad genom den instängda vätskan. Den verkar därför också uppåt på den stora kolven.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en sluten behållare som består av två lodräta cylindrar, förbundna med varandra och fyllda med vätska. På toppen av varje cylinder finns en yta som kan röra sig upp och ner.</p><span class=\"fig\"><svg height=\"280\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"36.457 0.000 381.543 213.488\"><rect x=\"80\" y=\"150\" width=\"290\" height=\"52\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"112\" y=\"84\" width=\"44\" height=\"66\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"110\" y=\"76\" width=\"48\" height=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"272\" y=\"54\" width=\"70\" height=\"96\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"270\" y=\"46\" width=\"74\" height=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"134\" y1=\"24\" x2=\"134\" y2=\"62\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"134,72 129.4,62 138.6,62\" fill=\"#B43123\"/><text x=\"134\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₁ = 100 N</text><line x1=\"307\" y1=\"44\" x2=\"307\" y2=\"30\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"butt\"/><polygon points=\"307,20 311.6,30 302.4,30\" fill=\"#B43123\"/><text x=\"307\" y=\"14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">F₂</text><text x=\"104\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">r₁ = 1,5 cm</text><text x=\"350\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">r₂ = 5,0 cm</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Förklara med hjälp av Pascals princip varför den andra cylindern trycks uppåt.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Enligt Pascals princip överförs en pålagd tryckökning oförminskad genom den instängda vätskan. Den verkar därför också uppåt på den stora kolven.</p></div></div></div>",
-        "ledtrad": "<p>Enligt Pascals princip överförs en pålagd tryckökning oförminskad genom den instängda vätskan. Den verkar därför också uppåt på den stora kolven.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stort tryck påverkas vätskan av?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den lilla kolvens area är \\(A_1=\\pi r_1^2\\).</p><div class=\"facit-matte\">\\[p=\\frac{F_1}{A_1}=\\frac{100}{\\pi(0{,}015)^2}=1{,}41\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}41\\cdot10^5\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Enligt Pascals princip överförs en pålagd tryckökning oförminskad genom den instängda vätskan. Den verkar därför också uppåt på den stora kolven.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Den stora cylindern har radien 5,0 cm. Bestäm kraften på den.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma tryck verkar på den stora kolven.</p><div class=\"facit-matte\">\\[F_2=p\\pi r_2^2=1{,}4147\\cdot10^5\\pi(0{,}050)^2=1{,}11\\cdot10^3\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}11\\cdot10^3\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Enligt Pascals princip överförs en pålagd tryckökning oförminskad genom den instängda vätskan. Den verkar därför också uppåt på den stora kolven.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "ledtrad": "<p>En tryckökning överförs genom vätskan, men kraften beror på arean.</p>",
+    "traningsniva": 3,
+    "typ": "pascals princip och kolvkraft",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.253",
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "E",
-    "typ": "beräkna hydrostatiskt tryck",
-    "poang": "(1/0/0)",
-    "t": "<p>Bestäm vätskans övertryck på djupet \\(2,5\\,\\mathrm m\\) i vatten. Använd \\(\\rho=1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Hydrostatiskt övertryck ges av \\(p=\\rho gh\\).</p><div class=\"facit-matte\">\\[p=1000\\cdot9{,}82\\cdot2,5=2,455\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24,55\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "typ": "densitet från vätsketryck",
+    "poang": "(2/0/0)",
+    "t": "<p>I en stillastående vätska på 2,5 m djup är trycket 24,55 kPa högre än vid ytan.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm vätskans densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "s": "<p>ρ = Δp/(gh) = 24 550/(9,82 · 2,5) = 1000 kg/m³. Svar: 1000 kg/m³.</p>",
+    "familj": "Densitet från vätsketryck",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
+    "familjNyckel": "vatsketryck__densitet_fran_vatsketryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 24.55,
-    "tolerans": 0.4419,
+    "rättSvar": 1000.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita nivåerna och markera var trycken ska jämföras. Använd \\(p=F/A\\), \\(\\Delta p=\\rho gh\\) eller Arkimedes princip efter situationen.</p>",
+    "ledtrad": "<p>Lös ut densiteten ur tryckökningen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kg/m³",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.306",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>En stillastående vätska ger tryckökningen 17 676 Pa över en lodrät höjdskillnad på 2,0 m.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm densiteten. Svara i kg/m³. Svara med ett heltal.</p>",
+    "s": "<p>ρ = Δp/(gh) = 17 676/(9,82 · 2,0) = 900 kg/m³. Svar: 900 kg/m³.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Densitet från vätsketryck",
+    "typ": "densitet från vätsketryck",
+    "ledtrad": "<p>Vilken storhet i trycksambandet är okänd?</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__densitet_fran_vatsketryck",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 900.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kg/m³",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.11",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "räkna om mellan tryckenheterna pascal kilopascal hektopascal och bar, ur tabell, sökt tryck",
-    "poang": "(2/0/0)",
-    "t": "<p>Tryck anges i flera olika enheter. Ett bar är 100 kPa och ett hektopascal är 100 Pa. Fyll i det som saknas i tabellen.</p><table class=\"data\"><tr><th>Pa</th><th>kPa</th><th>bar</th></tr><tr><td>?</td><td>250</td><td>?</td></tr><tr><td>?</td><td>?</td><td>3,0</td></tr><tr><td>101 300</td><td>?</td><td>?</td></tr><tr><td>?</td><td>50</td><td>?</td></tr></table>\n<p>Bestäm de värden som saknas.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(1\\ \\mathrm{kPa}=10^3\\ \\mathrm{Pa}\\) och \\(1\\ \\mathrm{bar}=100\\ \\mathrm{kPa}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Första och andra raden:</p><div class=\"facit-matte\">\\[250\\ \\mathrm{kPa}=2{,}50\\cdot10^5\\ \\mathrm{Pa}=2{,}5\\ \\mathrm{bar}\\]\\[3{,}0\\ \\mathrm{bar}=300\\ \\mathrm{kPa}=3{,}0\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tredje och fjärde raden:</p><div class=\"facit-matte\">\\[101300\\ \\mathrm{Pa}=101{,}3\\ \\mathrm{kPa}=1{,}013\\ \\mathrm{bar}\\]\\[50\\ \\mathrm{kPa}=5{,}0\\cdot10^4\\ \\mathrm{Pa}=0{,}50\\ \\mathrm{bar}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(2{,}50\\cdot10^5\\ \\mathrm{Pa}\\), \\(2{,}5\\ \\mathrm{bar}\\), \\(300\\ \\mathrm{kPa}\\), \\(3{,}0\\cdot10^5\\ \\mathrm{Pa}\\), \\(101{,}3\\ \\mathrm{kPa}\\), \\(1{,}013\\ \\mathrm{bar}\\), \\(5{,}0\\cdot10^4\\ \\mathrm{Pa}\\) och \\(0{,}50\\ \\mathrm{bar}\\).</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryckenheter",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd 1 kPa = 1000 Pa och 1 bar = 100 kPa.</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 250 kPa till Pa. Svara i Pa. Svara med ett heltal.</li><li>Omvandla 250 kPa till bar. Svara i bar. Avrunda vid behov till 1 decimal.</li><li>Omvandla 3,0 bar till kPa. Svara i kPa. Svara med ett heltal.</li><li>Omvandla 101 300 Pa till kPa. Svara i kPa. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) 250 · 1000 = 250 000 Pa. Svar: 250000 Pa.</p><p>b) 250/100 = 2,5 bar. Svar: 2,5 bar.</p><p>c) 3,0 · 100 = 300 kPa. Svar: 300 kPa.</p><p>d) 101 300/1000 = 101,3 kPa. Svar: 101,3 kPa.</p>",
+    "familj": "Tryckenheter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_grundsamband",
-    "ledtrad": "<p>Använd \\(1\\ \\mathrm{kPa}=10^3\\ \\mathrm{Pa}\\) och \\(1\\ \\mathrm{bar}=100\\ \\mathrm{kPa}\\).</p>"
+    "familjNyckel": "tryck__tryckenheter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      250000.0,
+      2.5,
+      300.0,
+      101.3
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>En kilopascal motsvarar tusen pascal.</p>",
+    "traningsniva": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "Pa",
+      "bar",
+      "kPa",
+      "kPa"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd 1 kPa = 1000 Pa och 1 bar = 100 kPa.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Omvandla 250 kPa till Pa. Svara i Pa. Svara med ett heltal.",
+        "t": "<p>Använd 1 kPa = 1000 Pa och 1 bar = 100 kPa.</p><p>Omvandla 250 kPa till Pa. Svara i Pa. Svara med ett heltal.</p>",
+        "s": "<p>250 · 1000 = 250 000 Pa. Svar: 250000 Pa.</p>",
+        "ledtrad": "<p>En kilopascal motsvarar tusen pascal.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
+      },
+      {
+        "etikett": "b",
+        "fraga": "Omvandla 250 kPa till bar. Svara i bar. Avrunda vid behov till 1 decimal.",
+        "t": "<p>Använd 1 kPa = 1000 Pa och 1 bar = 100 kPa.</p><p>Omvandla 250 kPa till bar. Svara i bar. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>250/100 = 2,5 bar. Svar: 2,5 bar.</p>",
+        "ledtrad": "<p>Hur många grupper om 100 kPa finns i värdet?</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
+      },
+      {
+        "etikett": "c",
+        "fraga": "Omvandla 3,0 bar till kPa. Svara i kPa. Svara med ett heltal.",
+        "t": "<p>Använd 1 kPa = 1000 Pa och 1 bar = 100 kPa.</p><p>Omvandla 3,0 bar till kPa. Svara i kPa. Svara med ett heltal.</p>",
+        "s": "<p>3,0 · 100 = 300 kPa. Svar: 300 kPa.</p>",
+        "ledtrad": "<p>Använd den angivna relationen för bar.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
+      },
+      {
+        "etikett": "d",
+        "fraga": "Omvandla 101 300 Pa till kPa. Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>Använd 1 kPa = 1000 Pa och 1 bar = 100 kPa.</p><p>Omvandla 101 300 Pa till kPa. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>101 300/1000 = 101,3 kPa. Svar: 101,3 kPa.</p>",
+        "ledtrad": "<p>Den större enheten ger ett mindre tal.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
+      }
+    ]
   },
   {
     "id": "6.224",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(500\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,03\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{500}{0,03}=1,667\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16,67\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>En kraft på 500 N fördelas jämnt över 0,030 m².</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>p = 500/0,030 ≈ 16 666,67 Pa = 16,66667 kPa. Svar: 16,67 kPa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 16.666667,
-    "tolerans": 0.3,
+    "rättSvar": 16.67,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Beräkna först trycket i pascal.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.12",
@@ -50146,59 +50465,73 @@ window.BANK = [
     "omr": "tryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En annan enhet som används för tryck är bar. 1 bar är detsamma som 100 kPa.</p>\n<ol><li>Hur många pascal motsvarar 1 millibar?</li><li>Ange trycket 45 MPa i enheten bar.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom \\(1\\ \\mathrm{bar}=10^5\\ \\mathrm{Pa}\\) och \\(1\\ \\mathrm{mbar}=10^{-3}\\ \\mathrm{bar}\\):</p><div class=\"facit-matte\">\\[1\\ \\mathrm{mbar}=10^2\\ \\mathrm{Pa}=100\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla megapascal till bar.</p><div class=\"facit-matte\">\\[45\\ \\mathrm{MPa}=45\\cdot10^6\\ \\mathrm{Pa}=450\\ \\mathrm{bar}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\ \\mathrm{mbar}=100\\ \\mathrm{Pa}\\) och \\(45\\ \\mathrm{MPa}=450\\ \\mathrm{bar}\\).</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>Använd 1 bar = 100 000 Pa. Prefixet milli betyder en tusendel och mega en miljon.</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 1 millibar till pascal. Svara i Pa. Svara med ett heltal.</li><li>Omvandla 45 MPa till bar. Svara i bar. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) 1 mbar = 0,001 bar = 0,001 · 100 000 = 100 Pa. Svar: 100 Pa.</p><p>b) 45 MPa = 45 000 000 Pa. Division med 100 000 Pa/bar ger 450 bar. Svar: 450 bar.</p>",
+    "familj": "Tryckenheter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryckenheter",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      100,
-      null
+      100.0,
+      450.0
     ],
     "tolerans": [
-      1.5,
-      null
+      0,
+      0
     ],
-    "självrättning": [
-      true,
-      false
+    "självrättning": true,
+    "ledtrad": "<p>Börja med att uttrycka millibar i bar.</p>",
+    "traningsniva": 2,
+    "typ": "tryckenheter",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "Pa",
+      "bar"
     ],
     "svarFormat": [
       "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      "Pa",
-      null
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "tryck__tryck_grundsamband",
-    "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{bar}=10^5\\ \\mathrm{Pa}\\) och \\(1\\ \\mathrm{mbar}=10^{-3}\\ \\mathrm{bar}\\):</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En annan enhet som används för tryck är bar. 1 bar är detsamma som 100 kPa.</p>",
+    "spelIntro": "<p>Använd 1 bar = 100 000 Pa. Prefixet milli betyder en tusendel och mega en miljon.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många pascal motsvarar 1 millibar?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom \\(1\\ \\mathrm{bar}=10^5\\ \\mathrm{Pa}\\) och \\(1\\ \\mathrm{mbar}=10^{-3}\\ \\mathrm{bar}\\):</p><div class=\"facit-matte\">\\[1\\ \\mathrm{mbar}=10^2\\ \\mathrm{Pa}=100\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{bar}=10^5\\ \\mathrm{Pa}\\) och \\(1\\ \\mathrm{mbar}=10^{-3}\\ \\mathrm{bar}\\):</p>",
+        "fraga": "Omvandla 1 millibar till pascal. Svara i Pa. Svara med ett heltal.",
+        "t": "<p>Använd 1 bar = 100 000 Pa. Prefixet milli betyder en tusendel och mega en miljon.</p><p>Omvandla 1 millibar till pascal. Svara i Pa. Svara med ett heltal.</p>",
+        "s": "<p>1 mbar = 0,001 bar = 0,001 · 100 000 = 100 Pa. Svar: 100 Pa.</p>",
+        "ledtrad": "<p>Börja med att uttrycka millibar i bar.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Ange trycket 45 MPa i enheten bar.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla megapascal till bar.</p><div class=\"facit-matte\">\\[45\\ \\mathrm{MPa}=45\\cdot10^6\\ \\mathrm{Pa}=450\\ \\mathrm{bar}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(450\\ \\mathrm{bar}\\).</p></div>",
-        "ledtrad": "<p>Eftersom \\(1\\ \\mathrm{bar}=10^5\\ \\mathrm{Pa}\\) och \\(1\\ \\mathrm{mbar}=10^{-3}\\ \\mathrm{bar}\\):</p>",
+        "fraga": "Omvandla 45 MPa till bar. Svara i bar. Svara med ett heltal.",
+        "t": "<p>Använd 1 bar = 100 000 Pa. Prefixet milli betyder en tusendel och mega en miljon.</p><p>Omvandla 45 MPa till bar. Svara i bar. Svara med ett heltal.</p>",
+        "s": "<p>45 MPa = 45 000 000 Pa. Division med 100 000 Pa/bar ger 450 bar. Svar: 450 bar.</p>",
+        "ledtrad": "<p>Använd pascal som mellanled.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
     ]
   },
@@ -50207,24 +50540,27 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(550\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,035\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{550}{0,035}=1,571\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15,71\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>Trycket mot en platta är 20 kPa och dess belastade area är 0,035 m².</p><p>Bestäm den vinkelräta kraften. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>F = pA = 20 000 · 0,035 = 700 N. Svar: 700 N.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 15.714286,
-    "tolerans": 0.282857,
+    "rättSvar": 700.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Vilken enhet behöver trycket ha när arean anges i m²?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.24",
@@ -50232,199 +50568,200 @@ window.BANK = [
     "omr": "tryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Ett bord väger 18 kg och står på fyra ben. Varje ben har ytan 3,0 cm² mot golvet.</p>\n<p>Hur stort tryck ger bordet mot golvet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den sammanlagda arean är</p><div class=\"facit-matte\">\\[A=4\\cdot3{,}0\\ \\mathrm{cm^2}=12\\ \\mathrm{cm^2}=1{,}2\\cdot10^{-3}\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bordets tyngd fördelas över benen.</p><div class=\"facit-matte\">\\[p=\\frac{mg}{A}=\\frac{18\\cdot9{,}82}{1{,}2\\cdot10^{-3}}=1{,}47\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bordet ger trycket cirka \\(147\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>Ett bord på 18 kg står stilla på fyra ben. Varje ben har kontaktytan 3,0 cm². Anta jämn belastning.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm medeltrycket över den sammanlagda kontaktytan. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>A = 4 · 3,0 · 10⁻⁴ = 0,0012 m². F = 18 · 9,82 = 176,76 N. p = F/A = 147,3 kPa. Svar: 147,3 kPa.</p>",
+    "familj": "Kontakttryck från tyngd",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>"
+    "familjNyckel": "tryck__kontakttryck_fran_tyngd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 147.3,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Summera benens kontaktytor.</p>",
+    "traningsniva": 3,
+    "typ": "kontakttryck från tyngd",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.226",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(600\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,04\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{600}{0,04}=1,5\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>En kraft på 600 N ska fördelas över en yta så att medeltrycket är 15 kPa.</p><p>Bestäm arean. Svara i m². Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>A = F/p = 600/15 000 = 0,040 m². Svar: 0,04 m².</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": 0.27,
+    "rättSvar": 0.04,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Lös ut arean ur tryckets definition.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "m²",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.25",
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "typ": "beräkna marktryck mot en mjuk botten och avgöra om den bär, ur diagram, sökt tryck",
-    "poang": "(2/1/0)",
-    "t": "<p>En fiskare som vadar väger tillsammans med utrustningen 92 kg. Vadarstövlarnas sulor har tillsammans arean 0,064 m². Bottnen är mjuk och bär bara tryck upp till 10 kPa.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 520 250\"><rect x=\"15\" y=\"60\" width=\"490\" height=\"130\" fill=\"#DCE6F2\"/><polyline points=\"15,56 37,64 59,56 81,64 103,56 125,64 147,56 169,64 191,56 213,64 235,56 257,64 279,56 301,64 323,56 345,64 367,56 389,64 411,56 433,64 455,56 477,64 499,56\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"15\" y=\"190\" width=\"490\" height=\"26\" fill=\"#C7B79A\"/><line x1=\"15\" y1=\"190\" x2=\"505\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"252.65\" y1=\"190\" x2=\"260\" y2=\"162.7\" stroke=\"#2B2527\" stroke-width=\"3.1500000000000004\" stroke-linecap=\"round\"/><line x1=\"267.35\" y1=\"190\" x2=\"260\" y2=\"162.7\" stroke=\"#2B2527\" stroke-width=\"3.1500000000000004\" stroke-linecap=\"round\"/><line x1=\"260\" y1=\"162.7\" x2=\"260\" y2=\"139.6\" stroke=\"#2B2527\" stroke-width=\"3.7800000000000002\" stroke-linecap=\"round\"/><line x1=\"260\" y1=\"145.9\" x2=\"276.8\" y2=\"141.7\" stroke=\"#2B2527\" stroke-width=\"2.7300000000000004\" stroke-linecap=\"round\"/><circle cx=\"260\" cy=\"130.15\" r=\"9.45\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"260\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">fiskare med utrustning: 92 kg</text><text x=\"60\" y=\"40\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">lös dybotten</text></svg></span>\n<ol><li>Hur stor är tyngdkraften på fiskaren med utrustning?</li>\n<li>Hur stort tryck utövar fiskaren mot bottnen?</li>\n<li>Bär bottnen?</li>\n<li>Fiskaren spänner på sig breda vadarplattor med den sammanlagda arean 0,20 m². Hur stort blir trycket då?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften på fiskare och utrustning är</p><div class=\"facit-matte\">\\[F=92\\cdot9{,}82=903\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med stövlarnas sammanlagda sulyta blir trycket</p><div class=\"facit-matte\">\\[p=\\frac{903}{0{,}064}\\approx14100\\ \\mathrm{Pa}=14{,}1\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Detta överskrider bottnens gräns \\(10\\ \\mathrm{kPa}\\), så bottnen bär inte.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med vadarplattorna blir trycket</p><div class=\"facit-matte\">\\[p'=\\frac{903}{0{,}20}\\approx4520\\ \\mathrm{Pa}=4{,}52\\ \\mathrm{kPa}\\]</div><p>Beräkningen bortser från vattnets lyftkraft eftersom nedsänkt volym inte anges; lyftkraften skulle sänka trycket ytterligare.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(903\\ \\mathrm N\\). Trycket är \\(14{,}1\\ \\mathrm{kPa}\\) med stövlar och \\(4{,}52\\ \\mathrm{kPa}\\) med plattor; bottnen bär bara i det senare fallet.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "kontakttryck och lyftkraft",
+    "poang": "(1/3/0)",
+    "t": "<p>En fiskare står stilla i grunt vatten. Fiskare och utrustning har massan 92 kg. Stövlarnas sammanlagda kontaktyta mot bottnen är 0,064 m². Vadarplattor skulle ge 0,20 m². Bottnen bär ett jämnt fördelat extra kontakttryck på högst 10 kPa. Försumma plattornas massa. Med kontaktkraft menas bottnens stöd utöver vattnets tryckkrafter.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Fiskare står i grunt vatten med huvudet och överkroppen ovanför ytan\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M30 246L50 241L70 246L90 241L110 246L130 241L150 246L170 241L190 246L210 241L230 246L250 241L270 246L290 241L310 246L330 241L350 246L370 241L390 246L410 241L430 246L450 241L470 246L490 241L510 246V295H30Z\" fill=\"#dcebf6\" stroke=\"#437bad\"/><path d=\"M30 295H510V315H30Z\" fill=\"#d0bda0\"/><path d=\"M30 295H510\" stroke=\"#555\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"133\" r=\"17\" fill=\"white\" stroke=\"#333\" stroke-width=\"3\"/><path d=\"M270 150V219L250 292M270 219L291 292M270 167L300 187L324 162M270 172L245 191 M244 295H260M286 295H302\" stroke=\"#333\" stroke-width=\"4\" fill=\"none\"/><path d=\"M321 163L370 80L432 264\" stroke=\"#666\" stroke-width=\"2\" fill=\"none\"/><text x=\"365\" y=\"230\">vattenyta</text><text x=\"47\" y=\"333\">mjuk botten</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Försumma först vattnets lyftkraft. Bestäm trycket med stövlar respektive vadarplattor och jämför med gränsen.</li><li>Anta i stället att vattnets lyftkraft är 320 N. Bestäm trycket med stövlar.</li><li>Kan du utan uppgift om lyftkraften säkert dra slutsatsen att bottnen ger vika med stövlar? Motivera.</li></ol>",
+    "s": "<p>a) Tyngden är 92 · 9,82 = 903,44 N. Med stövlar: 903,44/0,064 ≈ 14 116,25 Pa = 14,11625 kPa. Med plattor: 903,44/0,20 ≈ 4517,2 Pa = 4,5172 kPa. I denna förenklade modell överskrids gränsen bara med stövlar.</p><p>b) Kontaktkraften är 903,44−320 = 583,44 N. Trycket blir 583,44/0,064 ≈ 9116,25 Pa = 9,11625 kPa och ligger under gränsen.</p><p>c) Nej. Att försumma lyftkraften ger ett övre värde på kontakttrycket. För stövlarna behövs minst 903,44−10 000 · 0,064 = 263,44 N lyftkraft för att trycket ska bli högst 10 kPa. Utan lyftkraften kan inget säkert avgörande göras. Med plattorna ligger även det övre värdet under gränsen.</p>",
+    "familj": "Kontakttryck och lyftkraft",
     "formaga": [
-      "procedur"
+      "modellering",
+      "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      903,
-      null,
-      null,
-      null
-    ],
-    "tolerans": [
-      13.545,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      false,
-      false,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      null,
-      null,
-      null
-    ],
-    "svarEnhet": [
-      "N",
-      null,
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Tyngdkraften på fiskare och utrustning är Utgå från \\(p=F/A\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fiskare som vadar väger tillsammans med utrustningen 92 kg. Vadarstövlarnas sulor har tillsammans arean 0,064 m². Bottnen är mjuk och bär bara tryck upp till 10 kPa.</p><span class=\"fig bred\"><svg height=\"298\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 520 250\"><rect x=\"15\" y=\"60\" width=\"490\" height=\"130\" fill=\"#DCE6F2\"/><polyline points=\"15,56 37,64 59,56 81,64 103,56 125,64 147,56 169,64 191,56 213,64 235,56 257,64 279,56 301,64 323,56 345,64 367,56 389,64 411,56 433,64 455,56 477,64 499,56\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"15\" y=\"190\" width=\"490\" height=\"26\" fill=\"#C7B79A\"/><line x1=\"15\" y1=\"190\" x2=\"505\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"252.65\" y1=\"190\" x2=\"260\" y2=\"162.7\" stroke=\"#2B2527\" stroke-width=\"3.1500000000000004\" stroke-linecap=\"round\"/><line x1=\"267.35\" y1=\"190\" x2=\"260\" y2=\"162.7\" stroke=\"#2B2527\" stroke-width=\"3.1500000000000004\" stroke-linecap=\"round\"/><line x1=\"260\" y1=\"162.7\" x2=\"260\" y2=\"139.6\" stroke=\"#2B2527\" stroke-width=\"3.7800000000000002\" stroke-linecap=\"round\"/><line x1=\"260\" y1=\"145.9\" x2=\"276.8\" y2=\"141.7\" stroke=\"#2B2527\" stroke-width=\"2.7300000000000004\" stroke-linecap=\"round\"/><circle cx=\"260\" cy=\"130.15\" r=\"9.45\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"260\" y=\"236\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">fiskare med utrustning: 92 kg</text><text x=\"60\" y=\"40\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">lös dybotten</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor är tyngdkraften på fiskaren med utrustning?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften på fiskare och utrustning är</p><div class=\"facit-matte\">\\[F=92\\cdot9{,}82=903\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(903\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Tyngdkraften på fiskare och utrustning är Utgå från \\(p=F/A\\).</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stort tryck utövar fiskaren mot bottnen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med stövlarnas sammanlagda sulyta blir trycket</p><div class=\"facit-matte\">\\[p=\\frac{903}{0{,}064}\\approx14100\\ \\mathrm{Pa}=14{,}1\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}1\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Tyngdkraften på fiskare och utrustning är Utgå från \\(p=F/A\\).</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Bär bottnen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Detta överskrider bottnens gräns \\(10\\ \\mathrm{kPa}\\), så bottnen bär inte.</p></div></div></div>",
-        "ledtrad": "<p>Tyngdkraften på fiskare och utrustning är Utgå från \\(p=F/A\\).</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "d",
-        "fraga": "Fiskaren spänner på sig breda vadarplattor med den sammanlagda arean 0,20 m². Hur stort blir trycket då?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med vadarplattorna blir trycket</p><div class=\"facit-matte\">\\[p'=\\frac{903}{0{,}20}\\approx4520\\ \\mathrm{Pa}=4{,}52\\ \\mathrm{kPa}\\]</div><p>Beräkningen bortser från vattnets lyftkraft eftersom nedsänkt volym inte anges; lyftkraften skulle sänka trycket ytterligare.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}52\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Tyngdkraften på fiskare och utrustning är Utgå från \\(p=F/A\\).</p>",
-        "niva": "C"
-      }
-    ]
+    "familjNyckel": "tryck__kontakttryck_och_lyftkraft",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Vilka krafter, utöver tyngdkraften, avlastar bottnen?</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.227",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(650\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,045\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{650}{0,045}=1,444\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14,44\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>En kraft på 650 N fördelas jämnt över 450 cm².</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>450 cm² = 0,0450 m². p = 650/0,0450 ≈ 14 444,44 Pa = 14,44444 kPa. Svar: 14,44 kPa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 14.444444,
-    "tolerans": 0.26,
+    "rättSvar": 14.44,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>En kvadratmeter innehåller 10 000 kvadratcentimeter.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.26",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En simbassäng är 3,5 meter djup.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"135\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">3,5 m</text></svg></span>\n<ol><li>Hur stort är vätsketrycket på bassängens botten? Vatten har densiteten 998 kg/m³.</li>\n<li>Hur stort hade trycket varit om bassängen varit 5,0 meter djup?</li>\n<li>Hur stort hade trycket varit om den 3,5 meter djupa bassängen varit fylld med olivolja (916 kg/m³)?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För 3,5 m vatten:</p><div class=\"facit-matte\">\\[p=998\\cdot9{,}82\\cdot3{,}5\\approx34300\\ \\mathrm{Pa}=34{,}3\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För 5,0 m vatten:</p><div class=\"facit-matte\">\\[p=998\\cdot9{,}82\\cdot5{,}0\\approx49000\\ \\mathrm{Pa}=49{,}0\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Byt densiteten till olivoljans.</p><div class=\"facit-matte\">\\[p=916\\cdot9{,}82\\cdot3{,}5\\approx31500\\ \\mathrm{Pa}=31{,}5\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycken blir \\(34\\ \\mathrm{kPa}\\), \\(49\\ \\mathrm{kPa}\\) respektive \\(31\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Jämför tre stillastående vätskepelare. Beräkna endast tryckökningen från respektive fri yta, utan att lägga till lufttrycket.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen på 3,5 m djup i vatten med densiteten 998 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Bestäm tryckökningen på 5,0 m djup i vatten med densiteten 998 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Bestäm tryckökningen på 3,5 m djup i olivolja med densiteten 916 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) Δp = 998 · 9,82 · 3,5 = 34 301,26 Pa = 34,30126 kPa. Svar: 34,3 kPa.</p><p>b) Δp = 998 · 9,82 · 5,0 = 49 001,8 Pa = 49,0018 kPa. Svar: 49 kPa.</p><p>c) Δp = 916 · 9,82 · 3,5 = 31 482,92 Pa = 31,48292 kPa. Svar: 31,48 kPa.</p>",
+    "familj": "Jämföra vätsketryck",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
+    "familjNyckel": "vatsketryck__jamfora_vatsketryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      34.3,
+      49.0,
+      31.48
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Använd densiteten och det lodräta djupet.</p>",
+    "traningsniva": 2,
+    "typ": "jämföra vätsketryck",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "kPa",
+      "kPa",
+      "kPa"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En simbassäng är 3,5 meter djup.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"135\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"4\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">3,5 m</text></svg></span>",
+    "spelIntro": "<p>Jämför tre stillastående vätskepelare. Beräkna endast tryckökningen från respektive fri yta, utan att lägga till lufttrycket.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är vätsketrycket på bassängens botten? Vatten har densiteten 998 kg/m³.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För 3,5 m vatten:</p><div class=\"facit-matte\">\\[p=998\\cdot9{,}82\\cdot3{,}5\\approx34300\\ \\mathrm{Pa}=34{,}3\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34{,}3\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
+        "fraga": "Bestäm tryckökningen på 3,5 m djup i vatten med densiteten 998 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Jämför tre stillastående vätskepelare. Beräkna endast tryckökningen från respektive fri yta, utan att lägga till lufttrycket.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen på 3,5 m djup i vatten med densiteten 998 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Δp = 998 · 9,82 · 3,5 = 34 301,26 Pa = 34,30126 kPa. Svar: 34,3 kPa.</p>",
+        "ledtrad": "<p>Använd densiteten och det lodräta djupet.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort hade trycket varit om bassängen varit 5,0 meter djup?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För 5,0 m vatten:</p><div class=\"facit-matte\">\\[p=998\\cdot9{,}82\\cdot5{,}0\\approx49000\\ \\mathrm{Pa}=49{,}0\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(49{,}0\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
+        "fraga": "Bestäm tryckökningen på 5,0 m djup i vatten med densiteten 998 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Jämför tre stillastående vätskepelare. Beräkna endast tryckökningen från respektive fri yta, utan att lägga till lufttrycket.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen på 5,0 m djup i vatten med densiteten 998 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Δp = 998 · 9,82 · 5,0 = 49 001,8 Pa = 49,0018 kPa. Svar: 49 kPa.</p>",
+        "ledtrad": "<p>Större djup ger större tryckökning.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort hade trycket varit om den 3,5 meter djupa bassängen varit fylld med olivolja (916 kg/m³)?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Byt densiteten till olivoljans.</p><div class=\"facit-matte\">\\[p=916\\cdot9{,}82\\cdot3{,}5\\approx31500\\ \\mathrm{Pa}=31{,}5\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(31{,}5\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm tryckökningen på 3,5 m djup i olivolja med densiteten 916 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Jämför tre stillastående vätskepelare. Beräkna endast tryckökningen från respektive fri yta, utan att lägga till lufttrycket.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen på 3,5 m djup i olivolja med densiteten 916 kg/m³. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Δp = 916 · 9,82 · 3,5 = 31 482,92 Pa = 31,48292 kPa. Svar: 31,48 kPa.</p>",
+        "ledtrad": "<p>Byt densitet men behåll samma djup.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
     ]
   },
@@ -50434,96 +50771,81 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>Ett öppet U-rör innehåller vatten med densiteten 1000 kg/m³ och en olja som inte blandas med vattnet. Oljepelaren är 15,0 cm hög. Oljans fria yta ligger 3,0 cm högre än vattenytan i den andra skänkeln.</p><p>Bestäm oljans densitet. Båda öppningarna har samma lufttryck.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"249\" viewBox=\"0 0 490 290\" style=\"display:block;width:420px;max-width:100%;height:auto;max-height:249px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"U-rör med nivåer och givna mått\"><title>U-rör med nivåer och givna mått</title><path d=\"M111 185 V235 Q111 263 142 263 H300 Q329 263 329 235 V89 H291 V225 H149 V185 Z\" fill=\"#e2eef5\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M110 40 V235 Q110 264 142 264 H300 Q330 264 330 235 V40 M150 40 V224 H290 V40\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"185\" x2=\"150\" y2=\"185\" stroke=\"#42789c\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"89\" x2=\"330\" y2=\"89\" stroke=\"#42789c\" stroke-width=\"1.7\"/><path d=\"M111 65 H149 V185 H111 Z\" fill=\"#ece2be\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"65\" x2=\"150\" y2=\"65\" stroke=\"#a58e56\" stroke-width=\"1.7\"/><line x1=\"106\" y1=\"65\" x2=\"75\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"106\" y1=\"185\" x2=\"75\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"80\" y1=\"65\" x2=\"80\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"65\" x2=\"76\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"185\" x2=\"76\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"62\" y=\"130\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">15,0 cm</text><line x1=\"150\" y1=\"185\" x2=\"365\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"129\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">olja</text><text x=\"311\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">vatten</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Mät båda pelarhöjderna från gränsytans nivå. Vattenytan ligger 3,0 cm under oljeytan.</p><div class=\"facit-matte\">\\[h_v=15{,}0-3{,}0=12{,}0\\ \\mathrm{cm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket på gränsytans nivå är lika i båda skänklarna. Det gemensamma lufttrycket förkortas bort.</p><div class=\"facit-matte\">\\[\\rho_o gh_o=\\rho_v gh_v\\]</div><div class=\"facit-matte\">\\[\\rho_o=1000\\frac{12{,}0}{15{,}0}=800\\ \\mathrm{kg/m^3}\\]</div><p>Att dela med ytornas nivåskillnad 3,0 cm skulle använda fel höjd för vätsketrycket: tryckökningen beror på hela pelarhöjden.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 800 kg/m³.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
+    "t": "<p>Ett öppet U-rör innehåller vatten med densiteten 1000 kg/m³ och olja som inte blandas med vattnet. Oljepelaren är 15,0 cm hög. Oljans fria yta ligger 3,0 cm högre än vattenytan i den andra skänkeln. Båda öppningarna har samma lufttryck.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"249\" viewBox=\"0 0 490 290\" style=\"display:block;width:420px;max-width:100%;height:auto;max-height:249px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"U-rör med nivåer och givna mått\"><title>U-rör med nivåer och givna mått</title><path d=\"M111 185 V235 Q111 263 142 263 H300 Q329 263 329 235 V89 H291 V225 H149 V185 Z\" fill=\"#e2eef5\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M110 40 V235 Q110 264 142 264 H300 Q330 264 330 235 V40 M150 40 V224 H290 V40\" fill=\"none\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"185\" x2=\"150\" y2=\"185\" stroke=\"#42789c\" stroke-width=\"1.7\"/><line x1=\"290\" y1=\"89\" x2=\"330\" y2=\"89\" stroke=\"#42789c\" stroke-width=\"1.7\"/><path d=\"M111 65 H149 V185 H111 Z\" fill=\"#ece2be\" stroke=\"none\" stroke-width=\"0\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"110\" y1=\"65\" x2=\"150\" y2=\"65\" stroke=\"#a58e56\" stroke-width=\"1.7\"/><line x1=\"106\" y1=\"65\" x2=\"75\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"106\" y1=\"185\" x2=\"75\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"80\" y1=\"65\" x2=\"80\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"65\" x2=\"76\" y2=\"65\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"84\" y1=\"185\" x2=\"76\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"62\" y=\"130\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">15,0 cm</text><line x1=\"150\" y1=\"185\" x2=\"365\" y2=\"185\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"129\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">olja</text><text x=\"311\" y=\"24\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">vatten</text></svg></span><p>Bestäm oljans densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+    "s": "<p>Vattenpelaren över gränsytans nivå är 15,0−3,0 = 12,0 cm. Tryckbalans ger ρ_olja · 15,0 = 1000 · 12,0, så ρ_olja = 800 kg/m³. Svar: 800 kg/m³.</p>",
+    "familj": "Densitet ur U-rör",
+    "familjNyckel": "vatsketryck__densitet_ur_u_ror",
     "formaga": [
-      "problemlösning"
+      "modellering",
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 800,
-    "tolerans": 24,
+    "rättSvar": 800.0,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>De fria ytornas nivåskillnad är inte vattenpelarens höjd.</p>",
+    "traningsniva": 3,
+    "typ": "densitet ur u-rör",
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": "kg/m³",
-    "ledtrad": "<p>Skillnaden mellan de fria ytorna är inte samma sak som vattenpelarens höjd över gränsytan.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.27",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "kombinera lufttryckets normalkraft med friktion för att bestämma bärförmåga på lodrät yta, ur diagram, sökt kraft och massa",
-    "poang": "(0/1/2)",
-    "t": "<p>En sugkopp med arean 40 cm² pressas fast mot en lodrät vägg. Lufttrycket är 101 kPa och friktionstalet mellan sugkoppen och väggen är 0,60.</p><span class=\"fig smal\"><svg height=\"453\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"190.571 17.763 188.600 225.000\"><rect x=\"330\" y=\"30\" width=\"40\" height=\"200\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"330\" y1=\"30\" x2=\"338\" y2=\"38\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"40\" x2=\"338\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"50\" x2=\"338\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"60\" x2=\"338\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"70\" x2=\"338\" y2=\"78\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"80\" x2=\"338\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"90\" x2=\"338\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"100\" x2=\"338\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"110\" x2=\"338\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"120\" x2=\"338\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"130\" x2=\"338\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"140\" x2=\"338\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"150\" x2=\"338\" y2=\"158\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"160\" x2=\"338\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"170\" x2=\"338\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"180\" x2=\"338\" y2=\"188\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"190\" x2=\"338\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"200\" x2=\"338\" y2=\"208\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"210\" x2=\"338\" y2=\"218\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"220\" x2=\"338\" y2=\"228\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><rect x=\"292\" y=\"100\" width=\"38\" height=\"60\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"92\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">sugkopp</text><line x1=\"311\" y1=\"160\" x2=\"311\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"283\" y=\"196\" width=\"56\" height=\"34\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"311\" y=\"217\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">last</text><line x1=\"240\" y1=\"130\" x2=\"276\" y2=\"130\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"286.00,130.00 276.00,134.60 276.00,125.40\" fill=\"#9A959C\"/><text x=\"238\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">lufttryck</text></svg></span>\n<ol><li>Hur stor normalkraft pressar lufttrycket sugkoppen mot väggen med?</li>\n<li>Hur tung last kan hänga i sugkoppen utan att den glider?</li>\n<li>Varför skulle svaret bli mycket större om sugkoppen satt i taket i stället?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Arean är \\(40\\ \\mathrm{cm^2}=4{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[N=\\Delta pA=101000\\cdot4{,}0\\cdot10^{-3}=404\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På den lodräta väggen bär den statiska friktionen lasten.</p><div class=\"facit-matte\">\\[mg\\leq \\mu N\\Rightarrow m_{\\max}=\\frac{0{,}60\\cdot404}{9{,}82}=24{,}7\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I taket verkar tryckkraften direkt mot tyngden i stället för att bara skapa friktion.</p><div class=\"facit-matte\">\\[m_{\\max,\\,tak}=\\frac{404}{9{,}82}=41{,}1\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är \\(404\\ \\mathrm N\\). På väggen kan friktionen bära cirka \\(25\\ \\mathrm{kg}\\); i taket blir den idealiska gränsen \\(41\\ \\mathrm{kg}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "niva": "C",
+    "typ": "sugkopp på vägg och i tak",
+    "poang": "(1/2/0)",
+    "t": "<p>En idealiserad sugkopp har arean 40 cm². Trycket utanför är 101 kPa och inuti 21 kPa. På en lodrät vägg kan den största friktionskraften uppgå till 0,60 gånger normalkraften. Försumma sugkoppens massa och deformation.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"453\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"190.571 17.763 188.600 225.000\"><rect x=\"330\" y=\"30\" width=\"40\" height=\"200\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"330\" y1=\"30\" x2=\"338\" y2=\"38\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"40\" x2=\"338\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"50\" x2=\"338\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"60\" x2=\"338\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"70\" x2=\"338\" y2=\"78\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"80\" x2=\"338\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"90\" x2=\"338\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"100\" x2=\"338\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"110\" x2=\"338\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"120\" x2=\"338\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"130\" x2=\"338\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"140\" x2=\"338\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"150\" x2=\"338\" y2=\"158\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"160\" x2=\"338\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"170\" x2=\"338\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"180\" x2=\"338\" y2=\"188\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"190\" x2=\"338\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"200\" x2=\"338\" y2=\"208\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"210\" x2=\"338\" y2=\"218\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"220\" x2=\"338\" y2=\"228\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><rect x=\"292\" y=\"100\" width=\"38\" height=\"60\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"92\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">sugkopp</text><line x1=\"311\" y1=\"160\" x2=\"311\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"283\" y=\"196\" width=\"56\" height=\"34\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"311\" y=\"217\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">last</text><line x1=\"240\" y1=\"130\" x2=\"276\" y2=\"130\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"286.00,130.00 276.00,134.60 276.00,125.40\" fill=\"#9A959C\"/><text x=\"238\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">lufttryck</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckskillnadens kraft mot väggen.</li><li>Bestäm den största lastmassan i väggmodellen.</li><li>Jämför med den idealiserade gränsen om samma sugkopp sitter i ett vågrätt tak.</li></ol>",
+    "s": "<p>a) Δp = 101−21 = 80 kPa. N = ΔpA = 80 000 · 0,0040 = 320 N.</p><p>b) Största tillgängliga friktionskraft är 0,60 · 320 = 192 N. Gränsmassan är 192/9,82 ≈ 19,55 kg.</p><p>c) I taket motverkar tryckskillnadens kraft tyngden direkt. Gränsmassan blir 320/9,82 ≈ 32,59 kg. Kvoten är 1/0,60 ≈ 1,67. Jämförelsen bygger på att tätningen och kontaktarean är oförändrade.</p>",
+    "familj": "Sugkopp på vägg och i tak",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "resonemang"
     ],
-    "familjNyckel": "tryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__sugkopp_pa_vagg_och_i_tak",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__lufttryck_och_tryckskillnad",
-    "ledtrad": "<p>Arean är \\(40\\ \\mathrm{cm^2}=4{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sugkopp med arean 40 cm² pressas fast mot en lodrät vägg. Lufttrycket är 101 kPa och friktionstalet mellan sugkoppen och väggen är 0,60.</p><span class=\"fig smal\"><svg height=\"453\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"190.571 17.763 188.600 225.000\"><rect x=\"330\" y=\"30\" width=\"40\" height=\"200\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"330\" y1=\"30\" x2=\"338\" y2=\"38\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"40\" x2=\"338\" y2=\"48\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"50\" x2=\"338\" y2=\"58\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"60\" x2=\"338\" y2=\"68\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"70\" x2=\"338\" y2=\"78\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"80\" x2=\"338\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"90\" x2=\"338\" y2=\"98\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"100\" x2=\"338\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"110\" x2=\"338\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"120\" x2=\"338\" y2=\"128\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"130\" x2=\"338\" y2=\"138\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"140\" x2=\"338\" y2=\"148\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"150\" x2=\"338\" y2=\"158\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"160\" x2=\"338\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"170\" x2=\"338\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"180\" x2=\"338\" y2=\"188\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"190\" x2=\"338\" y2=\"198\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"200\" x2=\"338\" y2=\"208\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"210\" x2=\"338\" y2=\"218\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"220\" x2=\"338\" y2=\"228\" stroke=\"#2B2527\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><rect x=\"292\" y=\"100\" width=\"38\" height=\"60\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"300\" y=\"92\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">sugkopp</text><line x1=\"311\" y1=\"160\" x2=\"311\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><rect x=\"283\" y=\"196\" width=\"56\" height=\"34\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"311\" y=\"217\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2B2527\">last</text><line x1=\"240\" y1=\"130\" x2=\"276\" y2=\"130\" stroke=\"#9A959C\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"286.00,130.00 276.00,134.60 276.00,125.40\" fill=\"#9A959C\"/><text x=\"238\" y=\"118\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">lufttryck</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor normalkraft pressar lufttrycket sugkoppen mot väggen med?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Arean är \\(40\\ \\mathrm{cm^2}=4{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[N=\\Delta pA=101000\\cdot4{,}0\\cdot10^{-3}=404\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(404\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Arean är \\(40\\ \\mathrm{cm^2}=4{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur tung last kan hänga i sugkoppen utan att den glider?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På den lodräta väggen bär den statiska friktionen lasten.</p><div class=\"facit-matte\">\\[mg\\leq \\mu N\\Rightarrow m_{\\max}=\\frac{0{,}60\\cdot404}{9{,}82}=24{,}7\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24{,}7\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Arean är \\(40\\ \\mathrm{cm^2}=4{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför skulle svaret bli mycket större om sugkoppen satt i taket i stället?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I taket verkar tryckkraften direkt mot tyngden i stället för att bara skapa friktion.</p><div class=\"facit-matte\">\\[m_{\\max,\\,tak}=\\frac{404}{9{,}82}=41{,}1\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41{,}1\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Arean är \\(40\\ \\mathrm{cm^2}=4{,}0\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ]
+    "ledtrad": "<p>Tryckskillnaden ger kraft vinkelrätt mot fästytan. Hur bärs lasten längs väggen?</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.228",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
+    "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(700\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,02\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{700}{0,02}=3,5\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>Trycket mot en yta på 0,020 m² är 35 000 Pa. Använd F = pA.</p><p>Bestäm den vinkelräta kraften. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>F = 35 000 · 0,020 = 700 N. Svar: 700 N.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 35,
-    "tolerans": 0.63,
+    "rättSvar": 700.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Multiplicera de givna storheterna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.28",
@@ -50531,76 +50853,26 @@ window.BANK = [
     "omr": "tryck",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Glasrutor lyfts med vakuumsugar. Två sugar med diametern 12 cm vardera används, och lufttrycket är 101 kPa.</p>\n<ol><li>Hur stor kraft kan de teoretiskt bära?</li><li>Vilken massa motsvarar det?</li>\n<li>Varför använder man i praktiken flera sugar än vad beräkningen kräver?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två cirkulära sugar ger den sammanlagda arean</p><div class=\"facit-matte\">\\[A=2\\pi(0{,}060)^2=2{,}262\\cdot10^{-2}\\ \\mathrm{m^2}\\]\\[F_{\\max}=pA=101000\\cdot2{,}262\\cdot10^{-2}=2{,}285\\cdot10^3\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den motsvarande massan är</p><div class=\"facit-matte\">\\[m=\\frac{F}{g}=\\frac{2285}{9{,}82}=233\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkningen antar perfekt vakuum, helt täta och jämnt belastade sugar. Smuts, läckage, rörelser och ett enskilt fel kräver stor säkerhetsmarginal.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sugarna kan idealiskt bära cirka \\(2{,}3\\ \\mathrm{kN}\\), motsvarande \\(233\\ \\mathrm{kg}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "t": "<p>Två cirkulära vakuumsugar med diametern 12 cm vardera sitter ovanpå en vågrät glasskiva. De lyfter skivan lodrätt. Lufttrycket är 101 kPa och trycket under sugarna försummas. Försumma sugarnas massa.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm sugarnas sammanlagda idealiska lyftkraft och motsvarande lastmassa.</li><li>Nämn två antaganden som gör den beräknade massan till en idealiserad gräns.</li></ol>",
+    "s": "<p>a) A = 2π · 0,060² m². F = 101 000A ≈ 2284,57 N. m = F/9,82 ≈ 232,64 kg.</p><p>b) Beräkningen förutsätter försumbart tryck under sugarna och att båda är täta med full verksam area. Den förutsätter också jämn, lodrät belastning utan extra krafter från acceleration eller vridning. Den beräknade gränsen är därför inte en praktisk lastrekommendation.</p>",
+    "familj": "Lyftkraft från vakuumsugar",
     "formaga": [
-      "procedur",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "tryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      2.3,
-      233,
-      null
-    ],
-    "tolerans": [
-      0.034499999999999996,
-      3.4949999999999997,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "familjNyckelTidigare": "tryck__lufttryck_och_tryckskillnad",
-    "ledtrad": "<p>Två cirkulära sugar ger den sammanlagda arean Utgå från \\(p=F/A\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Glasrutor lyfts med vakuumsugar. Två sugar med diametern 12 cm vardera används, och lufttrycket är 101 kPa.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor kraft kan de teoretiskt bära?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två cirkulära sugar ger den sammanlagda arean</p><div class=\"facit-matte\">\\[A=2\\pi(0{,}060)^2=2{,}262\\cdot10^{-2}\\ \\mathrm{m^2}\\]\\[F_{\\max}=pA=101000\\cdot2{,}262\\cdot10^{-2}=2{,}285\\cdot10^3\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}285\\cdot10^3\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Två cirkulära sugar ger den sammanlagda arean Utgå från \\(p=F/A\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken massa motsvarar det?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den motsvarande massan är</p><div class=\"facit-matte\">\\[m=\\frac{F}{g}=\\frac{2285}{9{,}82}=233\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(233\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Två cirkulära sugar ger den sammanlagda arean Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför använder man i praktiken flera sugar än vad beräkningen kräver?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkningen antar perfekt vakuum, helt täta och jämnt belastade sugar. Smuts, läckage, rörelser och ett enskilt fel kräver stor säkerhetsmarginal.</p></div></div></div>",
-        "ledtrad": "<p>Två cirkulära sugar ger den sammanlagda arean Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "familjNyckel": "tryck__lyftkraft_fran_vakuumsugar",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Vilken tryckskillnad verkar över sugarnas sammanlagda area?</p>",
+    "traningsniva": 3,
+    "typ": "lyftkraft från vakuumsugar",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.29",
@@ -50608,234 +50880,235 @@ window.BANK = [
     "omr": "tryck",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>En vattensäng är 2,0 m lång och 1,6 m bred. Vattnet i den väger 400 kg.</p>\n<ol><li>Hur stort tryck ger sängen mot golvet?</li>\n<li>Jämför med en person på 70 kg som står på två fötter med ytan 0,040 m².</li>\n<li>Varför brukar man ändå kolla golvets bärighet innan man skaffar en vattensäng?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sängens golvyta är \\(2{,}0\\cdot1{,}6=3{,}2\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[p_s=\\frac{400\\cdot9{,}82}{3{,}2}\\approx1230\\ \\mathrm{Pa}=1{,}23\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personens tryck är</p><div class=\"facit-matte\">\\[p_p=\\frac{70\\cdot9{,}82}{0{,}040}\\approx17200\\ \\mathrm{Pa}=17{,}2\\ \\mathrm{kPa}\\]\\[\\frac{p_p}{p_s}=14{,}0\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trots lågt lokalt tryck är den permanenta totalbelastningen stor. Bjälklagets bärförmåga och lastfördelning måste därför kontrolleras.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sängen ger cirka \\(1{,}2\\ \\mathrm{kPa}\\); personen ger \\(17\\ \\mathrm{kPa}\\), omkring 14 gånger mer lokalt.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>En idealiserad vattensäng har totalmassan 400 kg och vilar jämnt över en bottenyta 2,0 m × 1,6 m. Jämför med en person på 70 kg som står stilla med sammanlagd kontaktyta 0,040 m².</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna medeltrycket från sängen och från personen.</li><li>En elev menar att lägre medeltryck alltid betyder mindre belastning på golvet som helhet. Granska påståendet.</li></ol>",
+    "s": "<p>a) Sängen: p = 400 · 9,82/(2,0 · 1,6) = 1227,5 Pa. Personen: p = 70 · 9,82/0,040 = 17 185 Pa. Personens medeltryck är 14 gånger större.</p><p>b) Påståendet är fel. Sängen ger totalt 3928 N medan personen ger 687,4 N. Sängens kraft är större trots lägre medeltryck eftersom den fördelas över en mycket större yta. Tryckjämförelsen ensam avgör därför inte hur ett golv belastas och deformeras.</p>",
+    "familj": "Medeltryck och total belastning",
     "formaga": [
-      "procedur",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__medeltryck_och_total_belastning",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Sängens golvyta är \\(2{,}0\\cdot1{,}6=3{,}2\\ \\mathrm{m^2}\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En vattensäng är 2,0 m lång och 1,6 m bred. Vattnet i den väger 400 kg.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stort tryck ger sängen mot golvet?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sängens golvyta är \\(2{,}0\\cdot1{,}6=3{,}2\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[p_s=\\frac{400\\cdot9{,}82}{3{,}2}\\approx1230\\ \\mathrm{Pa}=1{,}23\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}23\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Sängens golvyta är \\(2{,}0\\cdot1{,}6=3{,}2\\ \\mathrm{m^2}\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Jämför med en person på 70 kg som står på två fötter med ytan 0,040 m².",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personens tryck är</p><div class=\"facit-matte\">\\[p_p=\\frac{70\\cdot9{,}82}{0{,}040}\\approx17200\\ \\mathrm{Pa}=17{,}2\\ \\mathrm{kPa}\\]\\[\\frac{p_p}{p_s}=14{,}0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}0\\).</p></div>",
-        "ledtrad": "<p>Sängens golvyta är \\(2{,}0\\cdot1{,}6=3{,}2\\ \\mathrm{m^2}\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför brukar man ändå kolla golvets bärighet innan man skaffar en vattensäng?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trots lågt lokalt tryck är den permanenta totalbelastningen stor. Bjälklagets bärförmåga och lastfördelning måste därför kontrolleras.</p></div></div></div>",
-        "ledtrad": "<p>Sängens golvyta är \\(2{,}0\\cdot1{,}6=3{,}2\\ \\mathrm{m^2}\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "ledtrad": "<p>Skilj mellan tryck på kontaktytan och den sammanlagda kraften.</p>",
+    "traningsniva": 3,
+    "typ": "medeltryck och total belastning",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.229",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
+    "typ": "tryck kraft och area",
     "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(400\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,025\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{400}{0,025}=1,6\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>En kraft på 400 N ger trycket 16 000 Pa. Använd A = F/p.</p><p>Bestäm den belastade arean. Svara i m². Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>A = 400/16 000 = 0,025 m². Svar: 0,025 m².</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": 0.288,
+    "rättSvar": 0.025,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Använd det givna sambandet för area.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "m²",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.30",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Daniel har ritat en cirkel på marken med diametern 1,2 meter. Lufttrycket är 101,3 kPa.</p>\n<ol><li>Bestäm massan för all luft som finns rakt ovanför cirkeln, ända upp till atmosfärens gräns.</li>\n<li>Varför pressas inte marken ihop av denna luftpelare?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Vid cirkelrörelse pekar accelerationen och den resulterande kraften mot centrum. Identifiera vilken verklig kraft eller kraftkomponent som ger denna resultant.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Cirkelns radie är 0,60 m och luftpelarens tyngd ger tryckkraften \\(pA\\).</p><div class=\"facit-matte\">\\[A=\\pi(0{,}60)^2=1{,}131\\ \\mathrm{m^2}\\]\\[m=\\frac{pA}{g}=\\frac{101300\\cdot1{,}131}{9{,}82}=1{,}17\\cdot10^4\\ \\mathrm{kg}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Marken belastas faktiskt av atmosfärstrycket, men fasta material kan bära sådana tryck genom inre spänningar och deformeras därför bara mycket lite. Samma lufttryck verkar dessutom på föremål från alla riktningar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Luftpelarens massa är cirka \\(1{,}2\\cdot10^4\\ \\mathrm{kg}\\), ungefär 12 ton. Marken bär lasten med sina inre mekaniska spänningar.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Centripetalkraft är inte en extra kraft. Kontrollera att de verkliga krafterna tillsammans ger resultanten inåt.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En cirkel på horisontell mark har diametern 1,2 m. Lufttrycket är 101,3 kPa. Betrakta en lodrät luftpelare med samma tvärsnittsarea hela vägen upp och försumma trycket vid dess övre gräns. Luftpelaren är i hydrostatisk jämvikt.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Uppskatta luftmassan i en lodrät pelare över cirkeln.</li><li>Förklara varför du inte behöver anta att luftens densitet är konstant med höjden.</li></ol>",
+    "s": "<p>a) Arean är π · 0,60² m². Tryckkraften vid bottnen balanserar pelarens tyngd: pA = mg. m = 101 300π · 0,60²/9,82 ≈ 11 667 kg, alltså cirka 11,7 ton.</p><p>b) Trycket vid bottnen representerar hela luftpelarens tyngd per area. Densiteten får variera med höjden; den ingår redan i det uppmätta trycket. Modellen antar konstant g och att trycket vid pelarens övre gräns kan försummas.</p>",
+    "familj": "Atmosfärens massa per area",
     "formaga": [
-      "procedur",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "manuell",
+    "familjNyckel": "vatsketryck__atmosfarens_massa_per_area",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "vatsketryck__atmosfarstryck_och_maximal_vattenpelare",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Daniel har ritat en cirkel på marken med diametern 1,2 meter. Lufttrycket är 101,3 kPa.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Bestäm massan för all luft som finns rakt ovanför cirkeln, ända upp till atmosfärens gräns.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Cirkelns radie är 0,60 m och luftpelarens tyngd ger tryckkraften \\(pA\\).</p><div class=\"facit-matte\">\\[A=\\pi(0{,}60)^2=1{,}131\\ \\mathrm{m^2}\\]\\[m=\\frac{pA}{g}=\\frac{101300\\cdot1{,}131}{9{,}82}=1{,}17\\cdot10^4\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}17\\cdot10^4\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Varför pressas inte marken ihop av denna luftpelare?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Marken belastas faktiskt av atmosfärstrycket, men fasta material kan bära sådana tryck genom inre spänningar och deformeras därför bara mycket lite. Samma lufttryck verkar dessutom på föremål från alla riktningar.</p></div></div></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "A"
-      }
-    ]
+    "ledtrad": "<p>Vad motsvarar tryckkraften vid bottnen av en stillastående luftpelare?</p>",
+    "traningsniva": 4,
+    "typ": "atmosfärens massa per area",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.254",
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "E",
-    "typ": "beräkna hydrostatiskt tryck",
-    "poang": "(1/0/0)",
-    "t": "<p>Bestäm vätskans övertryck på djupet \\(3\\,\\mathrm m\\) i vatten. Använd \\(\\rho=1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Hydrostatiskt övertryck ges av \\(p=\\rho gh\\).</p><div class=\"facit-matte\">\\[p=1000\\cdot9{,}82\\cdot3=2,946\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29,46\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "typ": "djup från vätsketryck",
+    "poang": "(2/0/0)",
+    "t": "<p>I vatten med densiteten 1000 kg/m³ är trycket 29,46 kPa högre än vid ytan.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm djupet. Svara i m. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>h = Δp/(ρg) = 29 460/(1000 · 9,82) = 3,0 m. Svar: 3 m.</p>",
+    "familj": "Djup från vätsketryck",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
+    "familjNyckel": "vatsketryck__djup_fran_vatsketryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 29.46,
-    "tolerans": 0.53028,
+    "rättSvar": 3.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita nivåerna och markera var trycken ska jämföras. Använd \\(p=F/A\\), \\(\\Delta p=\\rho gh\\) eller Arkimedes princip efter situationen.</p>",
+    "ledtrad": "<p>Det är tryckskillnaden från ytan som bestämmer djupet.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.305",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>Trycket ökar med 3928 Pa från ytan till en punkt i vatten med densiteten 1000 kg/m³.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm punktens djup. Svara i m. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>h = Δp/(ρg) = 3928/(1000 · 9,82) = 0,40 m. Svar: 0,4 m.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Djup från vätsketryck",
+    "typ": "djup från vätsketryck",
+    "ledtrad": "<p>Lös ut djupet ur tryckökningen.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__djup_fran_vatsketryck",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "m",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.31",
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "C",
-    "poang": "(1/1/0)",
-    "t": "<p>Hur högt kan man som mest suga upp vatten i ett sugrör, även med en perfekt vakuumpump? Förklara varför det finns en gräns.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid den största sughöjden är trycket ovanför vattenpelaren i idealfallet vakuum. Atmosfärstrycket måste då bära hela pelaren.</p><div class=\"facit-matte\">\\[p_{\\mathrm{atm}}=\\rho gh\\Rightarrow h=\\frac{p_{\\mathrm{atm}}}{\\rho g}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt in normalt lufttryck och vattnets densitet.</p><div class=\"facit-matte\">\\[h=\\frac{101325}{998\\cdot9{,}82}=10{,}34\\ \\mathrm m\\]</div><p>I verkligheten blir höjden något mindre på grund av bland annat vattnets ångtryck och förluster.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den teoretiska gränsen är cirka \\(10{,}3\\ \\mathrm m\\). Det är lufttrycket som pressar upp vattnet; en pump kan inte skapa lägre tryck än vakuum.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "poang": "(1/2/0)",
+    "t": "<p>En pump ovanför ett öppet vattenmagasin ska hålla vatten i ett lodrätt sugrör. Lufttrycket är 101 325 Pa och vattnets densitet 998 kg/m³. Försumma vattnets ångtryck, kapillärkrafter och strömningsförluster.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den största höjden för en stillastående vattenpelare i den idealiserade modellen.</li><li>Förklara varför en starkare vakuumpump inte kan höja denna gräns i modellen.</li></ol>",
+    "s": "<p>a) I gränsfallet är trycket vid pelarens topp noll. Då gäller p_luft = ρgh. h = 101 325/(998 · 9,82) ≈ 10,3389 m.</p><p>b) Atmosfärstrycket på den nedre fria ytan pressar upp vattnet. Tryckskillnaden kan i modellen inte bli större än atmosfärstrycket eftersom absoluttrycket i toppen inte kan vara negativt. En verklig vätskas ångtryck och strömningsförluster ger ytterligare begränsningar.</p>",
+    "familj": "Gräns för sughöjd",
     "formaga": [
-      "begrepp",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "numeriskt",
-    "rättSvar": 10.3,
-    "tolerans": 0.1545,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "m",
-    "manuellKomplettering": true,
-    "familjNyckelTidigare": "vatsketryck__atmosfarstryck_och_maximal_vattenpelare",
-    "ledtrad": "<p>Vid den största sughöjden är trycket ovanför vattenpelaren i idealfallet vakuum. Atmosfärstrycket måste då bära hela pelaren.</p>"
+    "familjNyckel": "vatsketryck__grans_for_sughojd",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Vilken tryckskillnad kan högst bära vattenpelaren?</p>",
+    "traningsniva": 4,
+    "typ": "gräns för sughöjd",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.32",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "C",
-    "typ": "beräkna vätsketryck och totaltryck på metdjupet, ur diagram, sökt tryck",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett bete sänks ned till djupet 4,5 m i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><span class=\"fig bred\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span>\n<ol><li>Hur stort är vätsketrycket på det djupet?</li>\n<li>Hur stort är det totala trycket på betet?</li>\n<li>Hur många gånger normalt lufttryck är det totala trycket?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vätsketrycket på 4,5 m djup är</p><div class=\"facit-matte\">\\[p_v=998\\cdot9{,}82\\cdot4{,}5\\approx44100\\ \\mathrm{Pa}=44{,}1\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägg till lufttrycket vid ytan.</p><div class=\"facit-matte\">\\[p_{\\mathrm{tot}}=44{,}1+101=145{,}1\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför totaltrycket med normalt lufttryck.</p><div class=\"facit-matte\">\\[\\frac{145{,}1}{101}=1{,}44\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vätsketrycket är \\(44{,}1\\ \\mathrm{kPa}\\), totaltrycket \\(145\\ \\mathrm{kPa}\\), alltså cirka \\(1{,}44\\) atmosfärstryck.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "niva": "E",
+    "typ": "tryck och ändrat djup",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm absoluttrycket vid betet. Svara i kPa. Avrunda vid behov till 2 decimaler.</li><li>Betet höjs 1,5 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) p = 101 000+998 · 9,82 · 4,5 = 145 101,62 Pa = 145,10162 kPa. Svar: 145,1 kPa.</p><p>b) Tryckminskningen är ρgΔh = 998 · 9,82 · 1,5 = 14 700,54 Pa = 14,70054 kPa. Lufttrycket ändras inte. Svar: 14,7 kPa.</p>",
+    "familj": "Tryck och ändrat djup",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__lufttryck_och_tryckskillnader",
+    "familjNyckel": "vatsketryck__tryck_och_andrat_djup",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      null,
-      1.44
+      145.1,
+      14.7
     ],
     "tolerans": [
-      null,
-      null,
-      0.021599999999999998
+      0,
+      0
     ],
-    "självrättning": [
-      false,
-      false,
-      true
+    "självrättning": true,
+    "ledtrad": "<p>Absoluttrycket omfattar också trycket vid ytan.</p>",
+    "traningsniva": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "kPa",
+      "kPa"
     ],
     "svarFormat": [
-      null,
-      null,
+      "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c"
+      "b"
     ],
-    "familjNyckelTidigare": "vatsketryck__atmosfarstryck_och_maximal_vattenpelare",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett bete sänks ned till djupet 4,5 m i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><span class=\"fig bred\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span>",
+    "spelIntro": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stort är vätsketrycket på det djupet?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vätsketrycket på 4,5 m djup är</p><div class=\"facit-matte\">\\[p_v=998\\cdot9{,}82\\cdot4{,}5\\approx44100\\ \\mathrm{Pa}=44{,}1\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44{,}1\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Bestäm absoluttrycket vid betet. Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><p>Bestäm absoluttrycket vid betet. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>p = 101 000+998 · 9,82 · 4,5 = 145 101,62 Pa = 145,10162 kPa. Svar: 145,1 kPa.</p>",
+        "ledtrad": "<p>Absoluttrycket omfattar också trycket vid ytan.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur stort är det totala trycket på betet?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägg till lufttrycket vid ytan.</p><div class=\"facit-matte\">\\[p_{\\mathrm{tot}}=44{,}1+101=145{,}1\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(145{,}1\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Betet höjs 1,5 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett bete ligger på 4,5 m djup i en sjö. Vattnets densitet är 998 kg/m³ och lufttrycket vid ytan är 101 kPa.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"342\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 480 265\"><rect x=\"15\" y=\"50\" width=\"450\" height=\"200\" fill=\"#DCE6F2\"/><polyline points=\"15,46 37,54 59,46 81,54 103,46 125,54 147,46 169,54 191,46 213,54 235,46 257,54 279,46 301,54 323,46 345,54 367,46 389,54 411,46 433,54 455,46\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><rect x=\"150\" y=\"20\" width=\"180\" height=\"30\" rx=\"3\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">båt</text><line x1=\"240\" y1=\"50\" x2=\"240\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><ellipse cx=\"240\" cy=\"202\" rx=\"7\" ry=\"8.75\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><path d=\"M 240 208 L 240 223 A 8 8 0 1 0 248 231\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"268\" y=\"216\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">bete</text><line x1=\"390\" y1=\"50\" x2=\"390\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"50\" x2=\"395\" y2=\"50\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"385\" y1=\"231\" x2=\"395\" y2=\"231\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"398\" y=\"131.5\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 4,5 m</text></svg></span><p>Betet höjs 1,5 m. Hur mycket minskar trycket? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Tryckminskningen är ρgΔh = 998 · 9,82 · 1,5 = 14 700,54 Pa = 14,70054 kPa. Lufttrycket ändras inte. Svar: 14,7 kPa.</p>",
+        "ledtrad": "<p>Här behövs höjdändringen, inte det ursprungliga djupet.</p>",
         "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Hur många gånger normalt lufttryck är det totala trycket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför totaltrycket med normalt lufttryck.</p><div class=\"facit-matte\">\\[\\frac{145{,}1}{101}=1{,}44\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}44\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
     ]
   },
@@ -50844,81 +51117,108 @@ window.BANK = [
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "E",
-    "typ": "beräkna hydrostatiskt tryck",
-    "poang": "(1/0/0)",
-    "t": "<p>Bestäm vätskans övertryck på djupet \\(3,5\\,\\mathrm m\\) i vatten. Använd \\(\\rho=1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Hydrostatiskt övertryck ges av \\(p=\\rho gh\\).</p><div class=\"facit-matte\">\\[p=1000\\cdot9{,}82\\cdot3,5=3,437\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34,37\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "typ": "absoluttryck i vätska",
+    "poang": "(2/0/0)",
+    "t": "<p>I en öppen bassäng är lufttrycket 101 kPa och vattnets densitet 1000 kg/m³.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm absoluttrycket på 3,5 m djup. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>p = p₀+ρgh = 101 000+1000 · 9,82 · 3,5 = 135 370 Pa = 135,37 kPa. Svar: 135,37 kPa.</p>",
+    "familj": "Absoluttryck i vätska",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
+    "familjNyckel": "vatsketryck__absoluttryck_i_vatska",
     "svarstyp": "numeriskt",
-    "rättSvar": 34.37,
-    "tolerans": 0.61866,
+    "rättSvar": 135.37,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita nivåerna och markera var trycken ska jämföras. Använd \\(p=F/A\\), \\(\\Delta p=\\rho gh\\) eller Arkimedes princip efter situationen.</p>",
+    "ledtrad": "<p>Absoluttrycket inkluderar trycket vid ytan.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.302",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>I en vätska är trycket 12 kPa högre än vid den fria ytan. Trycket vid ytan är 100 kPa. Använd p = p₀+Δp.</p><p>Bestäm absoluttrycket på det aktuella djupet. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p = 100+12 = 112 kPa. Svar: 112 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Absoluttryck i vätska",
+    "typ": "absoluttryck i vätska",
+    "ledtrad": "<p>Lägg till tryckökningen till yttrycket.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__absoluttryck_i_vatska",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 112.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.309",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>I en öppen vattenbehållare är lufttrycket 100 kPa och vattnets densitet 1000 kg/m³.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm absoluttrycket på 1,0 m djup. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Vattnets tryckökning är 1000 · 9,82 · 1,0 = 9820 Pa = 9,82 kPa. Absoluttrycket är 100+9,82 = 109,82 kPa. Svar: 109,82 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Absoluttryck i vätska",
+    "typ": "absoluttryck i vätska",
+    "ledtrad": "<p>Räkna om tryckökningen till samma enhet som lufttrycket.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__absoluttryck_i_vatska",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 109.82,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.33",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "A",
-    "typ": "visa att vätsketrycket beror av höjden och inte av mängden, ur diagram, sökt kraft",
-    "poang": "(0/2/2)",
-    "t": "<p>En sluten tunna fylls helt med vatten. I locket sitter ett tunt lodrätt rör med innerdiametern 8,0 mm. Lockets area är 0,28 m². Man häller vatten i röret tills vattenpelaren står 4,0 m över locket. Vattnets densitet är 998 kg/m³.</p><span class=\"fig smal\"><svg height=\"424\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"78.171 14.105 252.429 281.555\"><rect x=\"90\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"90\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"185\" y=\"40\" width=\"12\" height=\"130\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"185\" y1=\"40\" x2=\"197\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"232\" y1=\"40\" x2=\"232\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"227\" y1=\"40\" x2=\"237\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"227\" y1=\"170\" x2=\"237\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"240\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"206\" y=\"36\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">⌀ 8,0 mm</text><text x=\"300\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">lock</text></svg></span>\n<ol><li>Hur mycket vatten ryms i röret?</li>\n<li>Hur stort övertryck ger vattenpelaren mot locket?</li>\n<li>Hur stor kraft trycker då inifrån på locket?</li>\n<li>Förklara varför den lilla vattenmängden räcker för att spränga tunnan.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Rörets radie är 0,0040 m.</p><div class=\"facit-matte\">\\[V=\\pi r^2h=\\pi(0{,}0040)^2\\cdot4{,}0=2{,}01\\cdot10^{-4}\\ \\mathrm{m^3}=0{,}201\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pelaren ger övertrycket</p><div class=\"facit-matte\">\\[p=\\rho gh=998\\cdot9{,}82\\cdot4{,}0\\approx39200\\ \\mathrm{Pa}=39{,}2\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket verkar över hela lockets area.</p><div class=\"facit-matte\">\\[F=pA=39162\\cdot0{,}28=1{,}10\\cdot10^4\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det hydrostatiska trycket bestäms av pelarens höjd, inte av dess volym. Det stora locket omvandlar därför trycket till en stor kraft.</p><p>Detta är den hydrostatiska paradoxen, ofta visad med Pascals tunna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Röret rymmer bara \\(0{,}20\\ \\mathrm L\\), men ger \\(39\\ \\mathrm{kPa}\\) och därmed ungefär \\(11\\ \\mathrm{kN}\\) mot locket.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "niva": "C",
+    "typ": "hög vätskepelare i smalt rör",
+    "poang": "(1/2/0)",
+    "t": "<p>En sluten behållare är helt fylld med vatten. I locket finns ett öppet lodrätt rör med innerdiametern 8,0 mm. Vattenytan i röret ligger 4,0 m över locket, vars area är 0,28 m². Densiteten är 998 kg/m³. Samma lufttryck verkar vid rörets yta och på lockets utsida.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"424\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"78.171 14.105 252.429 281.555\"><rect x=\"90\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"90\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"185\" y=\"40\" width=\"12\" height=\"130\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"185\" y1=\"40\" x2=\"197\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"232\" y1=\"40\" x2=\"232\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"227\" y1=\"40\" x2=\"237\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"227\" y1=\"170\" x2=\"237\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"240\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"206\" y=\"36\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">⌀ 8,0 mm</text><text x=\"300\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">lock</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna vattenvolymen i röret och övertrycket vid locket.</li><li>Bestäm tryckskillnadens nettokraft på locket. Försumma rörets lilla hålarea.</li><li>En elev säger att locket säkert spricker. Kan det avgöras av dessa uppgifter? Förklara också varför kraften är stor trots liten vattenvolym.</li></ol>",
+    "s": "<p>a) V = π · 0,0040² · 4,0 ≈ 0,00020106 m³ = 0,20106 liter. Δp = 998 · 9,82 · 4,0 = 39 201,44 Pa.</p><p>b) F_netto = ΔpA = 39 201,44 · 0,28 ≈ 10 976,40 N, alltså cirka 10,98 kN.</p><p>c) Tryckökningen beror på vattenpelarens höjd, inte dess volym. Tryckskillnaden verkar över det stora locket och ger därför stor kraft. Om locket spricker beror på material, infästning och hållfasthet; dessa uppgifter saknas.</p>",
+    "familj": "Hög vätskepelare i smalt rör",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "resonemang"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
-    "svarstyp": "manuell",
+    "familjNyckel": "vatsketryck__hog_vatskepelare_i_smalt_ror",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sluten tunna fylls helt med vatten. I locket sitter ett tunt lodrätt rör med innerdiametern 8,0 mm. Lockets area är 0,28 m². Man häller vatten i röret tills vattenpelaren står 4,0 m över locket. Vattnets densitet är 998 kg/m³.</p><span class=\"fig smal\"><svg height=\"424\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"78.171 14.105 252.429 281.555\"><rect x=\"90\" y=\"170\" width=\"200\" height=\"110\" rx=\"8\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><line x1=\"90\" y1=\"170\" x2=\"290\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"185\" y=\"40\" width=\"12\" height=\"130\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"185\" y1=\"40\" x2=\"197\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"232\" y1=\"40\" x2=\"232\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"227\" y1=\"40\" x2=\"237\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"227\" y1=\"170\" x2=\"237\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"240\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"206\" y=\"36\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">⌀ 8,0 mm</text><text x=\"300\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">lock</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur mycket vatten ryms i röret?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Rörets radie är 0,0040 m.</p><div class=\"facit-matte\">\\[V=\\pi r^2h=\\pi(0{,}0040)^2\\cdot4{,}0=2{,}01\\cdot10^{-4}\\ \\mathrm{m^3}=0{,}201\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}201\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stort övertryck ger vattenpelaren mot locket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pelaren ger övertrycket</p><div class=\"facit-matte\">\\[p=\\rho gh=998\\cdot9{,}82\\cdot4{,}0\\approx39200\\ \\mathrm{Pa}=39{,}2\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39{,}2\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Hur stor kraft trycker då inifrån på locket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket verkar över hela lockets area.</p><div class=\"facit-matte\">\\[F=pA=39162\\cdot0{,}28=1{,}10\\cdot10^4\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}10\\cdot10^4\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "d",
-        "fraga": "Förklara varför den lilla vattenmängden räcker för att spränga tunnan.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det hydrostatiska trycket bestäms av pelarens höjd, inte av dess volym. Det stora locket omvandlar därför trycket till en stor kraft.</p><p>Detta är den hydrostatiska paradoxen, ofta visad med Pascals tunna.</p></div></div></div>",
-        "ledtrad": "<p>Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\). Mät djupet lodrätt från vätskeytan och avgör om atmosfärstrycket ska läggas till.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ]
+    "ledtrad": "<p>Skilj mellan rörets area och den area där tryckkraften verkar.</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.34",
@@ -51283,48 +51583,94 @@ window.BANK = [
     "id": "6.42",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "kombinera kraftförstärkning med volymbevarande i en hydraulisk press, ur text, sökt kraft sträcka och antal",
-    "poang": "(0/1/2)",
-    "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Lasten ska lyftas 15 cm. Pumpkolven kan röra sig 25 cm vid varje pumptag.</p>\n<ol><li>Hur många gånger förstärks kraften?</li>\n<li>Hur stor volym vätska måste pressas över till lyftcylindern?</li>\n<li>Hur långt måste pumpkolven sammanlagt röra sig, och hur många pumptag krävs?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraftförstärkningen är areaförhållandet.</p><div class=\"facit-matte\">\\[\\frac{F_2}{F_1}=\\frac{A_2}{A_1}=\\frac{120}{4{,}0}=30\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkolvens volymökning är</p><div class=\"facit-matte\">\\[V=A_2h_2=120\\cdot15=1800\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma vätskevolym måste lämna pumpcylindern.</p><div class=\"facit-matte\">\\[s_1=\\frac{V}{A_1}=\\frac{1800}{4{,}0}=450\\ \\mathrm{cm}\\]\\[n=\\frac{450}{25}=18\\]</div><p class=\"facit-metod\">Idealt bevaras arbetet: den 30-faldiga kraften kräver 30 gånger längre sammanlagd pumpsträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften förstärks 30 gånger. Volymen är \\(1800\\ \\mathrm{cm^3}\\), pumpsträckan \\(450\\ \\mathrm{cm}\\), alltså 18 pumptag.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "hydraulik och förflyttning",
+    "poang": "(3/0/0)",
+    "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kraftförstärkningen F_lyft/F_pump. Svara med ett heltal.</li><li>Bestäm volymen som måste föras över. Svara i cm³. Svara med ett heltal.</li><li>Bestäm antalet hela pumptag som krävs. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) F_lyft/F_pump = A_lyft/A_pump = 120/4,0 = 30. Svar: 30.</p><p>b) V = A_lyft h = 120 · 15 = 1800 cm³. Svar: 1800 cm³.</p><p>c) Varje slag ger 4,0 · 25 = 100 cm³. Lyftkolven kräver 120 · 15 = 1800 cm³. Antalet blir 1800/100 = 18. Svar: 18.</p>",
+    "familj": "Hydraulik och förflyttning",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__hydraulik_och_pascals_princip",
-    "ledtrad": "<p>Kraftförstärkningen är areaförhållandet. Utgå från \\(p=F/A\\).</p>",
+    "familjNyckel": "tryck__hydraulik_och_forflyttning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30.0,
+      1800.0,
+      18.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Trycket är samma under kolvarna.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      null,
+      "cm³",
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Lasten ska lyftas 15 cm. Pumpkolven kan röra sig 25 cm vid varje pumptag.</p>",
+    "spelIntro": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många gånger förstärks kraften?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraftförstärkningen är areaförhållandet.</p><div class=\"facit-matte\">\\[\\frac{F_2}{F_1}=\\frac{A_2}{A_1}=\\frac{120}{4{,}0}=30\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\).</p></div>",
-        "ledtrad": "<p>Kraftförstärkningen är areaförhållandet. Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm kraftförstärkningen F_lyft/F_pump. Svara med ett heltal.",
+        "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><p>Bestäm kraftförstärkningen F_lyft/F_pump. Svara med ett heltal.</p>",
+        "s": "<p>F_lyft/F_pump = A_lyft/A_pump = 120/4,0 = 30. Svar: 30.</p>",
+        "ledtrad": "<p>Trycket är samma under kolvarna.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor volym vätska måste pressas över till lyftcylindern?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkolvens volymökning är</p><div class=\"facit-matte\">\\[V=A_2h_2=120\\cdot15=1800\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1800\\ \\mathrm{cm^3}\\).</p></div>",
-        "ledtrad": "<p>Kraftförstärkningen är areaförhållandet. Utgå från \\(p=F/A\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Bestäm volymen som måste föras över. Svara i cm³. Svara med ett heltal.",
+        "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><p>Bestäm volymen som måste föras över. Svara i cm³. Svara med ett heltal.</p>",
+        "s": "<p>V = A_lyft h = 120 · 15 = 1800 cm³. Svar: 1800 cm³.</p>",
+        "ledtrad": "<p>Volym är area gånger förflyttning.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Hur långt måste pumpkolven sammanlagt röra sig, och hur många pumptag krävs?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Samma vätskevolym måste lämna pumpcylindern.</p><div class=\"facit-matte\">\\[s_1=\\frac{V}{A_1}=\\frac{1800}{4{,}0}=450\\ \\mathrm{cm}\\]\\[n=\\frac{450}{25}=18\\]</div><p class=\"facit-metod\">Idealt bevaras arbetet: den 30-faldiga kraften kräver 30 gånger längre sammanlagd pumpsträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18\\).</p></div>",
-        "ledtrad": "<p>Kraftförstärkningen är areaförhållandet. Utgå från \\(p=F/A\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Bestäm antalet hela pumptag som krävs. Svara med ett heltal.",
+        "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><p>Bestäm antalet hela pumptag som krävs. Svara med ett heltal.</p>",
+        "s": "<p>Varje slag ger 4,0 · 25 = 100 cm³. Lyftkolven kräver 120 · 15 = 1800 cm³. Antalet blir 1800/100 = 18. Svar: 18.</p>",
+        "ledtrad": "<p>Jämför den behövda volymen med volymen per slag.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
     ]
   },
@@ -51333,161 +51679,162 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(450\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,03\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{450}{0,03}=1,5\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>En kraft fördelas över en rektangel som är 20 cm lång och 15 cm bred. Kraften vinkelrätt mot ytan är 450 N.</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>A = 0,20 · 0,15 = 0,030 m². p = 450/0,030 = 15 000 Pa = 15 kPa. Svar: 15 kPa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": 0.27,
+    "rättSvar": 15.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Beräkna rektangelns area i m² innan du bestämmer trycket.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.43",
     "kap": 6,
     "omr": "vatsketryck",
-    "niva": "C",
-    "typ": "beräkna vätsketryck på samma djup i fyra vätskor med olika densitet, ur tabell, sökt tryck",
-    "poang": "(2/1/0)",
-    "t": "<p>Tabellen visar densiteten hos fyra vätskor. Tänk dig att du befinner dig 2,0 m under ytan i var och en.</p><table class=\"data\"><tr><th>Vätska</th><th>ρ (kg/m³)</th><th>p (kPa)</th></tr><tr><td>etanol</td><td>789</td><td>?</td></tr><tr><td>olja</td><td>920</td><td>?</td></tr><tr><td>vatten</td><td>998</td><td>?</td></tr><tr><td>kvicksilver</td><td>13 600</td><td>?</td></tr></table>\n<ol><li>Beräkna vätsketrycket på 2,0 m djup i varje vätska.</li>\n<li>Vad avgör hur stort trycket blir på ett givet djup?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(p=\\rho gh\\) med \\(h=2{,}0\\ \\mathrm m\\).</p><div class=\"facit-matte\">\\[p_{\\mathrm{etanol}}=789\\cdot9{,}82\\cdot2{,}0\\approx15500\\ \\mathrm{Pa}=15{,}5\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{olja}}=920\\cdot9{,}82\\cdot2{,}0\\approx18100\\ \\mathrm{Pa}=18{,}1\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{vatten}}=998\\cdot9{,}82\\cdot2{,}0\\approx19600\\ \\mathrm{Pa}=19{,}6\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{Hg}}=13600\\cdot9{,}82\\cdot2{,}0\\approx267000\\ \\mathrm{Pa}=267\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När \\(g\\) och djupet är samma är trycket direkt proportionellt mot densiteten.</p><div class=\"facit-matte\">\\[p\\propto\\rho\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycken är \\(15{,}5\\), \\(18{,}1\\), \\(19{,}6\\) och \\(267\\ \\mathrm{kPa}\\). På samma djup avgör densiteten skillnaden.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "niva": "E",
+    "typ": "densitet och tryckökning",
+    "poang": "(3/0/0)",
+    "t": "<p>Fyra stillastående vätskor har densiteterna: etanol 789 kg/m³, olja 920 kg/m³, vatten 998 kg/m³ och kvicksilver 13 600 kg/m³.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen från ytan till 2,0 m djup i de fyra vätskorna.</li><li>Förklara sambandet mellan densitet och tryckökning vid samma djup.</li></ol>",
+    "s": "<p>a) Δp = ρgh. Etanol: 789 · 9,82 · 2,0 = 15 495,96 Pa ≈ 15,50 kPa. Olja: 920 · 9,82 · 2,0 = 18 068,8 Pa ≈ 18,07 kPa. Vatten: 998 · 9,82 · 2,0 = 19 600,72 Pa ≈ 19,60 kPa. Kvicksilver: 13 600 · 9,82 · 2,0 = 267 104 Pa ≈ 267,10 kPa.</p><p>b) När g och h är lika är Δp direkt proportionellt mot ρ. Dubblerad densitet ger dubblerad tryckökning. Detta gäller tryckökningen från ytan; absoluttrycket inkluderar dessutom yttrycket.</p>",
+    "familj": "Densitet och tryckökning",
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
-    "svarstyp": "manuell",
+    "familjNyckel": "vatsketryck__densitet_och_tryckokning",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Använd \\(p=\\rho gh\\) med \\(h=2{,}0\\ \\mathrm m\\). Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Tabellen visar densiteten hos fyra vätskor. Tänk dig att du befinner dig 2,0 m under ytan i var och en.</p><table class=\"data\"><tr><th>Vätska</th><th>ρ (kg/m³)</th><th>p (kPa)</th></tr><tr><td>etanol</td><td>789</td><td>?</td></tr><tr><td>olja</td><td>920</td><td>?</td></tr><tr><td>vatten</td><td>998</td><td>?</td></tr><tr><td>kvicksilver</td><td>13 600</td><td>?</td></tr></table>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Beräkna vätsketrycket på 2,0 m djup i varje vätska.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd \\(p=\\rho gh\\) med \\(h=2{,}0\\ \\mathrm m\\).</p><div class=\"facit-matte\">\\[p_{\\mathrm{etanol}}=789\\cdot9{,}82\\cdot2{,}0\\approx15500\\ \\mathrm{Pa}=15{,}5\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{olja}}=920\\cdot9{,}82\\cdot2{,}0\\approx18100\\ \\mathrm{Pa}=18{,}1\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{vatten}}=998\\cdot9{,}82\\cdot2{,}0\\approx19600\\ \\mathrm{Pa}=19{,}6\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{Hg}}=13600\\cdot9{,}82\\cdot2{,}0\\approx267000\\ \\mathrm{Pa}=267\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(267\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Använd \\(p=\\rho gh\\) med \\(h=2{,}0\\ \\mathrm m\\). Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\).</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vad avgör hur stort trycket blir på ett givet djup?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När \\(g\\) och djupet är samma är trycket direkt proportionellt mot densiteten.</p><div class=\"facit-matte\">\\[p\\propto\\rho\\]</div></div></div></div>",
-        "ledtrad": "<p>Använd \\(p=\\rho gh\\) med \\(h=2{,}0\\ \\mathrm m\\). Tryckökningen i en vätska ges av \\(\\Delta p=\\rho gh\\).</p>",
-        "niva": "C"
-      }
-    ]
+    "ledtrad": "<p>Håll djup och tyngdacceleration oförändrade när vätskorna jämförs.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.256",
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "E",
-    "typ": "beräkna hydrostatiskt tryck",
-    "poang": "(1/0/0)",
-    "t": "<p>Bestäm vätskans övertryck på djupet \\(4\\,\\mathrm m\\) i vatten. Använd \\(\\rho=1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Hydrostatiskt övertryck ges av \\(p=\\rho gh\\).</p><div class=\"facit-matte\">\\[p=1000\\cdot9{,}82\\cdot4=3,928\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39,28\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "typ": "tryckskillnad mellan två djup",
+    "poang": "(2/0/0)",
+    "t": "<p>Två punkter i stillastående vatten ligger på djupen 1,0 m och 4,0 m. Densiteten är 1000 kg/m³.</p><p>Använd g = 9,82 m/s².</p><p>Hur mycket högre är trycket i den djupare punkten? Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Δp = ρgΔh = 1000 · 9,82(4,0−1,0) = 29 460 Pa = 29,46 kPa. Svar: 29,46 kPa.</p>",
+    "familj": "Tryckskillnad mellan två djup",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
+    "familjNyckel": "vatsketryck__tryckskillnad_mellan_tva_djup",
     "svarstyp": "numeriskt",
-    "rättSvar": 39.28,
-    "tolerans": 0.70704,
+    "rättSvar": 29.46,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita nivåerna och markera var trycken ska jämföras. Använd \\(p=F/A\\), \\(\\Delta p=\\rho gh\\) eller Arkimedes princip efter situationen.</p>",
+    "ledtrad": "<p>Använd skillnaden mellan djupen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.303",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>Absoluttrycket vid botten av en vätskepelare är 125 kPa och vid ytan 101 kPa. Använd Δp = p_botten−p_yta.</p><p>Bestäm tryckökningen från ytan till botten. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>Δp = 125−101 = 24 kPa. Svar: 24 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Tryckskillnad mellan två djup",
+    "typ": "tryckskillnad mellan två djup",
+    "ledtrad": "<p>Samma tryckenhet används för båda värdena.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__tryckskillnad_mellan_tva_djup",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.308",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>Två punkter i en olja med densiteten 800 kg/m³ ligger på djupen 0,50 m och 2,0 m.</p><p>Använd g = 9,82 m/s².</p><p>Hur mycket högre är trycket i den djupare punkten? Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>Δh = 2,0−0,50 = 1,50 m. Δp = 800 · 9,82 · 1,50 = 11 784 Pa. Svar: 11784 Pa.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Tryckskillnad mellan två djup",
+    "typ": "tryckskillnad mellan två djup",
+    "ledtrad": "<p>Det är skillnaden mellan djupen som behövs.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__tryckskillnad_mellan_tva_djup",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11784.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt",
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.44",
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En styv, kubisk låda med sidlängden 50 cm försluts vid vattenytan, där lufttrycket är 101,3 kPa. Lådan är vattentät och sänks ned så att mittpunkten på en lodrät sida ligger 6,0 m under vattenytan. Temperaturen är oförändrad. Vattnets densitet är 998 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"525\" height=\"285\" viewBox=\"0 0 525 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Lådans lodräta sida med mittpunkt på 6,0 meters djup\"><title>Lådans lodräta sida med mittpunkt på 6,0 meters djup</title><rect x=\"60\" y=\"55\" width=\"295\" height=\"195\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"55\" x2=\"355\" y2=\"55\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><rect x=\"170\" y=\"173\" width=\"65\" height=\"65\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"202.5\" cy=\"205.5\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"205\" y1=\"205.5\" x2=\"404\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"404\" y1=\"55\" x2=\"404\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"399\" y1=\"55\" x2=\"409\" y2=\"55\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"399\" y1=\"205.5\" x2=\"409\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"456\" y=\"135\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">6,0 m</text><line x1=\"145\" y1=\"173\" x2=\"145\" y2=\"238\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"140\" y1=\"173\" x2=\"150\" y2=\"173\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"140\" y1=\"238\" x2=\"150\" y2=\"238\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\"></text><text x=\"107\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">50 cm</text><text x=\"205\" y=\"30\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text></svg></span>\n<ol><li>Hur stort är lufttrycket inuti lådan?</li>\n<li>Hur stort är det totala trycket vid sidans mittpunkt?</li>\n<li>Hur stor är nettokraften från trycket på den lodräta sidan?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En styv, tät låda som stängdes vid ytan behåller lufttrycket från ytan.</p><div class=\"facit-matte\">\\[p_{\\mathrm{in}}=101{,}3\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Utanför tillkommer vattnets tryck.</p><div class=\"facit-matte\">\\[p_{\\mathrm{ut}}=101{,}3+\\frac{998\\cdot9{,}82\\cdot6{,}0}{1000}=160{,}1\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Nettokraften bestäms av tryckskillnaden. För en lodrät sida vars mitt ligger på 6,0 m djup är medeltryckskillnaden \\(58{,}8\\ \\mathrm{kPa}\\).</p><div class=\"facit-matte\">\\[A=0{,}50^2=0{,}25\\ \\mathrm{m^2}\\]\\[F_{\\mathrm{net}}=(p_{\\mathrm{ut}}-p_{\\mathrm{in}})A=58800\\cdot0{,}25\\approx14700\\ \\mathrm{N}=14{,}7\\ \\mathrm{kN}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lufttrycket inne är \\(101{,}3\\ \\mathrm{kPa}\\), totaltrycket ute cirka \\(160\\ \\mathrm{kPa}\\), och nettokraften mot en sida cirka \\(15\\ \\mathrm{kN}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Hydrostatiskt tryck",
+    "poang": "(1/2/2)",
+    "t": "<p>En styv, luftfylld kub med sidan 0,50 m försluts vid vattenytan där lufttrycket är 101,3 kPa. Den sänks så att mittpunkten på en lodrät sida ligger 6,0 m under vattenytan. Temperaturen är oförändrad och lådan är tät. Vattnets densitet är 998 kg/m³.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"525\" height=\"285\" viewBox=\"0 0 525 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Lådans lodräta sida med mittpunkt på 6,0 meters djup\"><title>Lådans lodräta sida med mittpunkt på 6,0 meters djup</title><rect x=\"60\" y=\"55\" width=\"295\" height=\"195\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"55\" x2=\"355\" y2=\"55\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><rect x=\"170\" y=\"173\" width=\"65\" height=\"65\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"202.5\" cy=\"205.5\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"205\" y1=\"205.5\" x2=\"404\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"404\" y1=\"55\" x2=\"404\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"399\" y1=\"55\" x2=\"409\" y2=\"55\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"399\" y1=\"205.5\" x2=\"409\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"456\" y=\"135\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">6,0 m</text><line x1=\"145\" y1=\"173\" x2=\"145\" y2=\"238\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"140\" y1=\"173\" x2=\"150\" y2=\"173\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"140\" y1=\"238\" x2=\"150\" y2=\"238\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\"></text><text x=\"107\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">50 cm</text><text x=\"205\" y=\"30\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lufttrycket inuti lådan och absoluttrycket vid sidans mitt utanför.</li><li>Visa utan att anta jämnt tryck att nettokraften på den lodräta sidan kan beräknas med tryckskillnaden vid sidans mitt. Beräkna kraften.</li><li>Härled ett uttryck för nettokraften på en rektangulär lodrät sida med bredd b, höjd H och mittdjup h, när hela sidan ligger under ytan och innertrycket är lika med yttrycket.</li></ol>",
+    "s": "<p>a) Lådan är styv, tät och har oförändrad temperatur, så p_in = 101,3 kPa. Vid mittdjupet: p_ut = 101,3+998 · 9,82 · 6,0/1000 = 160,10216 kPa.</p><p>b) Tryckskillnaden växer linjärt med djupet. Två lika stora horisontella strimmor på djupen h−x och h+x har tryckskillnaderna ρg(h−x) och ρg(h+x), vars medelvärde är ρgh. Hela sidan kan delas i sådana par. Medeltryckskillnaden är därför 998 · 9,82 · 6,0 = 58 802,16 Pa. F = 58 802,16 · 0,50² = 14 700,54 N inåt.</p><p>c) Arean är bH. Samma parvisa resonemang ger F = ρghbH. Det kräver konstant densitet och konstant innertryck lika med yttrycket. Formeln bestämmer kraftens belopp, inte dess angreppspunkt.</p>",
+    "familj": "Tryckfördelning över en lodrät yta",
     "formaga": [
-      "procedur"
+      "modellering",
+      "resonemang"
     ],
-    "familjNyckel": "vatsketryck__hydrostatiskt_tryck",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      null,
-      null,
-      14.7
-    ],
-    "tolerans": [
-      null,
-      null,
-      0.22049999999999997
-    ],
-    "självrättning": [
-      false,
-      false,
-      true
-    ],
-    "svarFormat": [
-      null,
-      null,
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      "kN"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "ledtrad": "<p>En styv, tät låda som stängdes vid ytan behåller lufttrycket från ytan.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En styv, kubisk låda med sidlängden 50 cm försluts vid vattenytan, där lufttrycket är 101,3 kPa. Lådan är vattentät och sänks ned så att mittpunkten på en lodrät sida ligger 6,0 m under vattenytan. Temperaturen är oförändrad. Vattnets densitet är 998 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"525\" height=\"285\" viewBox=\"0 0 525 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Lådans lodräta sida med mittpunkt på 6,0 meters djup\"><title>Lådans lodräta sida med mittpunkt på 6,0 meters djup</title><rect x=\"60\" y=\"55\" width=\"295\" height=\"195\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"55\" x2=\"355\" y2=\"55\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><rect x=\"170\" y=\"173\" width=\"65\" height=\"65\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"202.5\" cy=\"205.5\" r=\"3\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"205\" y1=\"205.5\" x2=\"404\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"404\" y1=\"55\" x2=\"404\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"399\" y1=\"55\" x2=\"409\" y2=\"55\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"399\" y1=\"205.5\" x2=\"409\" y2=\"205.5\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"456\" y=\"135\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">6,0 m</text><line x1=\"145\" y1=\"173\" x2=\"145\" y2=\"238\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"140\" y1=\"173\" x2=\"150\" y2=\"173\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"140\" y1=\"238\" x2=\"150\" y2=\"238\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\"></text><text x=\"107\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">50 cm</text><text x=\"205\" y=\"30\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stort är lufttrycket inuti lådan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En styv, tät låda som stängdes vid ytan behåller lufttrycket från ytan.</p><div class=\"facit-matte\">\\[p_{\\mathrm{in}}=101{,}3\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(101{,}3\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>En styv, tät låda som stängdes vid ytan behåller lufttrycket från ytan.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stort är det totala trycket vid sidans mittpunkt?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Utanför tillkommer vattnets tryck.</p><div class=\"facit-matte\">\\[p_{\\mathrm{ut}}=101{,}3+\\frac{998\\cdot9{,}82\\cdot6{,}0}{1000}=160{,}1\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160{,}1\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>En styv, tät låda som stängdes vid ytan behåller lufttrycket från ytan.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Hur stor är nettokraften från trycket på den lodräta sidan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Nettokraften bestäms av tryckskillnaden. För en lodrät sida vars mitt ligger på 6,0 m djup är medeltryckskillnaden \\(58{,}8\\ \\mathrm{kPa}\\).</p><div class=\"facit-matte\">\\[A=0{,}50^2=0{,}25\\ \\mathrm{m^2}\\]\\[F_{\\mathrm{net}}=(p_{\\mathrm{ut}}-p_{\\mathrm{in}})A=58800\\cdot0{,}25\\approx14700\\ \\mathrm{N}=14{,}7\\ \\mathrm{kN}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14{,}7\\ \\mathrm{kN}\\).</p></div>",
-        "ledtrad": "<p>En styv, tät låda som stängdes vid ytan behåller lufttrycket från ytan.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ]
+    "familjNyckel": "vatsketryck__tryckfordelning_over_en_lodrat_yta",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Jämför lika stora ytstrimmor på lika avstånd över och under sidans mitt.</p>",
+    "traningsniva": 5,
+    "typ": "tryckfördelning över en lodrät yta",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.152",
@@ -51659,172 +52006,109 @@ window.BANK = [
     "id": "6.47",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En person med massan 70 kg står i snön. Skorna har tillsammans ytan 0,040 m², ett par skidor 0,30 m².</p>\n<ol><li>Hur stort tryck ger personen mot snön med skor?</li><li>Med skidor?</li><li>Varför sjunker man inte ned med skidor?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personens tyngdkraft är \\(F=70\\cdot9{,}82=687\\ \\mathrm N\\).</p><div class=\"facit-matte\">\\[p_{\\mathrm{skor}}=\\frac{687}{0{,}040}\\approx17200\\ \\mathrm{Pa}=17{,}2\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med skidor fördelas samma kraft över 0,30 m².</p><div class=\"facit-matte\">\\[p_{\\mathrm{skidor}}=\\frac{687}{0{,}30}\\approx2290\\ \\mathrm{Pa}=2{,}29\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den större arean sänker trycket så att snön lättare kan bära personen utan att ge vika.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket är \\(17\\ \\mathrm{kPa}\\) med skor och \\(2{,}3\\ \\mathrm{kPa}\\) med skidor.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En person på 70 kg står stilla i snö. Skornas sammanlagda kontaktyta är 0,040 m². Ett par skidor har sammanlagd kontaktyta 0,30 m². Försumma skidornas massa.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna medeltrycket med skor respektive skidor.</li><li>Förklara varför skidor kan minska nedsjunkningen. Kan man utan fler uppgifter lova att personen inte sjunker alls?</li></ol>",
+    "s": "<p>a) F = 70 · 9,82 = 687,4 N. Med skor: p = 687,4/0,040 = 17 185 Pa = 17,185 kPa. Med skidor: p = 687,4/0,30 ≈ 2291,33 Pa = 2,29133 kPa.</p><p>b) Skidorna fördelar samma kraft över en större area och minskar därmed medeltrycket. Hur mycket snön deformeras beror också på dess egenskaper. Utan uppgift om snöns bärighet kan man inte garantera att personen inte sjunker.</p>",
+    "familj": "Skidor och tryck",
     "formaga": [
-      "procedur",
+      "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__skidor_och_tryck",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Personens tyngdkraft är \\(F=70\\cdot9{,}82=687\\ \\mathrm N\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En person med massan 70 kg står i snön. Skorna har tillsammans ytan 0,040 m², ett par skidor 0,30 m².</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stort tryck ger personen mot snön med skor?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personens tyngdkraft är \\(F=70\\cdot9{,}82=687\\ \\mathrm N\\).</p><div class=\"facit-matte\">\\[p_{\\mathrm{skor}}=\\frac{687}{0{,}040}\\approx17200\\ \\mathrm{Pa}=17{,}2\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17{,}2\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Personens tyngdkraft är \\(F=70\\cdot9{,}82=687\\ \\mathrm N\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Med skidor?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med skidor fördelas samma kraft över 0,30 m².</p><div class=\"facit-matte\">\\[p_{\\mathrm{skidor}}=\\frac{687}{0{,}30}\\approx2290\\ \\mathrm{Pa}=2{,}29\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}29\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Personens tyngdkraft är \\(F=70\\cdot9{,}82=687\\ \\mathrm N\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför sjunker man inte ned med skidor?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den större arean sänker trycket så att snön lättare kan bära personen utan att ge vika.</p></div></div></div>",
-        "ledtrad": "<p>Personens tyngdkraft är \\(F=70\\cdot9{,}82=687\\ \\mathrm N\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "ledtrad": "<p>Ändras kraften eller arean när personen tar på sig skidor?</p>",
+    "traningsniva": 2,
+    "typ": "skidor och tryck",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.231",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(500\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,035\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{500}{0,035}=1,429\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(14,29\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>En platta belastas med kraften 500 N. Först är den belastade arean 0,035 m², sedan fördubblas den medan kraften är oförändrad.</p><p>Bestäm det nya medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Den nya arean är 0,070 m². p = 500/0,070 ≈ 7142,857 Pa = 7,142857 kPa. Svar: 7,14 kPa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 14.285714,
-    "tolerans": 0.257143,
+    "rättSvar": 7.14,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Vilken area gäller efter förändringen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.48",
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En bil med massan 1400 kg står på fyra däck med lufttrycket 2,2 bar.</p>\n<ol><li>Hur stor är kontaktytan mellan varje däck och vägen?</li>\n<li>Vad händer med kontaktytan om man pumpar däcken hårdare?</li>\n<li>Varför är för låga däcktryck farligt vid höga hastigheter?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Anta jämn lastfördelning. Ett däck bär en fjärdedel av bilens tyngd.</p><div class=\"facit-matte\">\\[F_d=\\frac{1400\\cdot9{,}82}{4}=3437\\ \\mathrm N\\]\\[A=\\frac{F_d}{p}=\\frac{3437}{2{,}2\\cdot10^5}=1{,}56\\cdot10^{-2}\\ \\mathrm{m^2}=156\\ \\mathrm{cm^2}\\]</div><p>Däcktrycket används som övertryck i denna approximation.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om däcktrycket höjs behöver samma last en mindre kontaktyta, eftersom \\(A=F/p\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För lågt tryck ger större deformation varje varv. Hysteres i gummit utvecklar värme och kan skada däcket vid hög fart.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kontaktytan är ungefär \\(156\\ \\mathrm{cm^2}\\) per däck. Högre tryck minskar arean; för lågt tryck ökar värmeutvecklingen.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "poang": "(1/3/0)",
+    "t": "<p>En bil på 1400 kg står stilla med lika last på fyra däck. Övertrycket är 2,2 bar och lufttrycket utanför 101 kPa. Använd modellen F = ΔpA och försumma däckstommens eget bidrag till att bära lasten.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Uppskatta kontaktytan för varje däck.</li><li>En elev använder absoluttrycket 321 kPa i samma modell. Förklara felet och hur det påverkar den beräknade arean.</li><li>Hur ändras kontaktytan enligt modellen när övertrycket ökar från 2,2 till 2,5 bar?</li></ol>",
+    "s": "<p>a) Varje däck bär 1400 · 9,82/4 = 3437 N. A = 3437/220 000 ≈ 0,015623 m² = 156,23 cm².</p><p>b) Modellen bygger på tryckskillnaden mellan däckets in- och utsida, alltså övertrycket. Med 321 kPa blir arean cirka 107,07 cm², för liten. Atmosfärstrycket verkar även utifrån.</p><p>c) Samma kraft kräver A_ny = 3437/250 000 = 0,013748 m² = 137,48 cm². Kvoten A_ny/A_gammal = 2,2/2,5 = 0,88, så arean minskar med 12 %.</p>",
+    "familj": "Däcktryck och verksam kontaktyta",
     "formaga": [
-      "procedur",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "tryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      156,
-      null,
-      null
-    ],
-    "tolerans": [
-      2.34,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      false,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      null,
-      null
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "familjNyckelTidigare": "tryck__lufttryck_och_tryckskillnad",
-    "ledtrad": "<p>Anta jämn lastfördelning. Ett däck bär en fjärdedel av bilens tyngd.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bil med massan 1400 kg står på fyra däck med lufttrycket 2,2 bar.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor är kontaktytan mellan varje däck och vägen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Anta jämn lastfördelning. Ett däck bär en fjärdedel av bilens tyngd.</p><div class=\"facit-matte\">\\[F_d=\\frac{1400\\cdot9{,}82}{4}=3437\\ \\mathrm N\\]\\[A=\\frac{F_d}{p}=\\frac{3437}{2{,}2\\cdot10^5}=1{,}56\\cdot10^{-2}\\ \\mathrm{m^2}=156\\ \\mathrm{cm^2}\\]</div><p>Däcktrycket används som övertryck i denna approximation.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(156\\ \\mathrm{cm^2}\\).</p></div>",
-        "ledtrad": "<p>Anta jämn lastfördelning. Ett däck bär en fjärdedel av bilens tyngd.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vad händer med kontaktytan om man pumpar däcken hårdare?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Om däcktrycket höjs behöver samma last en mindre kontaktyta, eftersom \\(A=F/p\\).</p></div></div></div>",
-        "ledtrad": "<p>Anta jämn lastfördelning. Ett däck bär en fjärdedel av bilens tyngd.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför är för låga däcktryck farligt vid höga hastigheter?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För lågt tryck ger större deformation varje varv. Hysteres i gummit utvecklar värme och kan skada däcket vid hög fart.</p></div></div></div>",
-        "ledtrad": "<p>Anta jämn lastfördelning. Ett däck bär en fjärdedel av bilens tyngd.</p>",
-        "niva": "C"
-      }
-    ]
+    "familjNyckel": "tryck__dacktryck_och_verksam_kontaktyta",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Däckets utsida utsätts också för lufttryck.</p>",
+    "traningsniva": 4,
+    "typ": "däcktryck och verksam kontaktyta",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.232",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(550\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,04\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{550}{0,04}=1,375\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13,75\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>En kraft på 550 N fördelas över 0,040 m². Kraften ökas sedan med 20 %, medan arean är oförändrad.</p><p>Bestäm det nya medeltrycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Ny kraft: 1,20 · 550 = 660 N. p = 660/0,040 = 16 500 Pa = 16,5 kPa. Svar: 16,5 kPa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 13.75,
-    "tolerans": 0.2475,
+    "rättSvar": 16.5,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Hur förändras trycket när bara kraften ändras?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.49",
@@ -51961,41 +52245,43 @@ window.BANK = [
     "id": "6.51",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "beräkna kraft ur tryck och area på ett lock, ur diagram, sökt kraft",
-    "poang": "(2/1/0)",
-    "t": "<p>I en tryckkokare är övertrycket under locket 20 kPa. Lockets area är 0,020 m².</p><span class=\"fig bred\"><svg height=\"229\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"102.400 24.000 392.000 144.800\"><rect x=\"130\" y=\"70\" width=\"200\" height=\"90\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"120\" y=\"54\" width=\"220\" height=\"16\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"230\" y=\"118\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">ånga</text><line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"170.00,78.00 174.60,88.00 165.40,88.00\" fill=\"#B43123\"/><line x1=\"200\" y1=\"100\" x2=\"200\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"200.00,78.00 204.60,88.00 195.40,88.00\" fill=\"#B43123\"/><line x1=\"230\" y1=\"100\" x2=\"230\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"230.00,78.00 234.60,88.00 225.40,88.00\" fill=\"#B43123\"/><line x1=\"260\" y1=\"100\" x2=\"260\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"260.00,78.00 264.60,88.00 255.40,88.00\" fill=\"#B43123\"/><line x1=\"290\" y1=\"100\" x2=\"290\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"290.00,78.00 294.60,88.00 285.40,88.00\" fill=\"#B43123\"/><text x=\"230\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">lock, A = 0,020 m²</text><text x=\"392\" y=\"118\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">övertryck 20 kPa</text></svg></span>\n<ol><li>Skriv om trycket i pascal.</li>\n<li>Hur stor kraft trycker ångan på locket med?</li>\n<li>Hur många kilogram motsvarar den kraften?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla kilopascal till pascal.</p><div class=\"facit-matte\">\\[20\\ \\mathrm{kPa}=2{,}0\\cdot10^4\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Övertrycket ger nettokraften på locket.</p><div class=\"facit-matte\">\\[F=pA=20000\\cdot0{,}020=400\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Motsvarande massa är</p><div class=\"facit-matte\">\\[m=\\frac Fg=\\frac{400}{9{,}82}=40{,}7\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket är \\(20000\\ \\mathrm{Pa}\\), kraften \\(400\\ \\mathrm N\\), motsvarande ungefär \\(41\\ \\mathrm{kg}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "övertryck och nettokraft",
+    "poang": "(3/0/0)",
+    "t": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna avser enbart nettokraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låsanordning.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla övertrycket till Pa. Svara i Pa. Svara med ett heltal.</li><li>Bestäm tryckets nettokraft uppåt. Svara i N. Svara med ett heltal.</li><li>Vilken massa har lika stor tyngdkraft som tryckets nettokraft på locket? Svara i kg. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) 20 kPa = 20 · 1000 = 20 000 Pa. Svar: 20000 Pa.</p><p>b) F_netto = ΔpA = 20 000 · 0,020 = 400 N. Svar: 400 N.</p><p>c) Tryckets nettokraft är 20 000 · 0,020 = 400 N. mg = 400 ger m = 400/9,82 ≈ 40,733 kg. Svar: 40,73 kg.</p>",
+    "familj": "Övertryck och nettokraft",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__overtryck_och_nettokraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      400,
-      40.7
+      20000.0,
+      400.0,
+      40.73
     ],
     "tolerans": [
-      null,
-      6,
-      0.6105
+      0,
+      0,
+      0
     ],
-    "självrättning": [
-      false,
-      true,
-      true
-    ],
-    "svarFormat": [
-      null,
-      "numeriskt",
-      "numeriskt"
-    ],
+    "självrättning": true,
+    "ledtrad": "<p>Prefixet kilo betyder tusen.</p>",
+    "traningsniva": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": [
-      null,
+      "Pa",
       "N",
       "kg"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -52003,34 +52289,50 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en tryckkokare är övertrycket under locket 20 kPa. Lockets area är 0,020 m².</p><span class=\"fig bred\"><svg height=\"229\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"102.400 24.000 392.000 144.800\"><rect x=\"130\" y=\"70\" width=\"200\" height=\"90\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"120\" y=\"54\" width=\"220\" height=\"16\" rx=\"4\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"230\" y=\"118\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"400\" fill=\"#5C575E\">ånga</text><line x1=\"170\" y1=\"100\" x2=\"170\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"170.00,78.00 174.60,88.00 165.40,88.00\" fill=\"#B43123\"/><line x1=\"200\" y1=\"100\" x2=\"200\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"200.00,78.00 204.60,88.00 195.40,88.00\" fill=\"#B43123\"/><line x1=\"230\" y1=\"100\" x2=\"230\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"230.00,78.00 234.60,88.00 225.40,88.00\" fill=\"#B43123\"/><line x1=\"260\" y1=\"100\" x2=\"260\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"260.00,78.00 264.60,88.00 255.40,88.00\" fill=\"#B43123\"/><line x1=\"290\" y1=\"100\" x2=\"290\" y2=\"88\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"290.00,78.00 294.60,88.00 285.40,88.00\" fill=\"#B43123\"/><text x=\"230\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">lock, A = 0,020 m²</text><text x=\"392\" y=\"118\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">övertryck 20 kPa</text></svg></span>",
+    "spelIntro": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna avser enbart nettokraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låsanordning.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Skriv om trycket i pascal.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla kilopascal till pascal.</p><div class=\"facit-matte\">\\[20\\ \\mathrm{kPa}=2{,}0\\cdot10^4\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^4\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Omvandla övertrycket till Pa. Svara i Pa. Svara med ett heltal.",
+        "t": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna avser enbart nettokraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låsanordning.</p><p>Använd g = 9,82 m/s².</p><p>Omvandla övertrycket till Pa. Svara i Pa. Svara med ett heltal.</p>",
+        "s": "<p>20 kPa = 20 · 1000 = 20 000 Pa. Svar: 20000 Pa.</p>",
+        "ledtrad": "<p>Prefixet kilo betyder tusen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor kraft trycker ångan på locket med?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Övertrycket ger nettokraften på locket.</p><div class=\"facit-matte\">\\[F=pA=20000\\cdot0{,}020=400\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(400\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Bestäm tryckets nettokraft uppåt. Svara i N. Svara med ett heltal.",
+        "t": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna avser enbart nettokraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låsanordning.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckets nettokraft uppåt. Svara i N. Svara med ett heltal.</p>",
+        "s": "<p>F_netto = ΔpA = 20 000 · 0,020 = 400 N. Svar: 400 N.</p>",
+        "ledtrad": "<p>Övertrycket är redan skillnaden mellan in- och utsida.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Hur många kilogram motsvarar den kraften?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Motsvarande massa är</p><div class=\"facit-matte\">\\[m=\\frac Fg=\\frac{400}{9{,}82}=40{,}7\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40{,}7\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Vilken massa har lika stor tyngdkraft som tryckets nettokraft på locket? Svara i kg. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En tryckkokare har övertrycket 20 kPa. Det vågräta lockets area är 0,020 m². Frågorna avser enbart nettokraften från gastrycket på lockets båda sidor, inte lockets tyngd eller låsanordning.</p><p>Använd g = 9,82 m/s².</p><p>Vilken massa har lika stor tyngdkraft som tryckets nettokraft på locket? Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Tryckets nettokraft är 20 000 · 0,020 = 400 N. mg = 400 ger m = 400/9,82 ≈ 40,733 kg. Svar: 40,73 kg.</p>",
+        "ledtrad": "<p>Skilj på kraft i newton och massa i kilogram.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
     ]
   },
@@ -52039,24 +52341,108 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck från kraft och area",
-    "poang": "(1/0/0)",
-    "t": "<p>En kraft på \\(600\\,\\mathrm N\\) verkar jämnt fördelad över arean \\(0,045\\,\\mathrm{m^2}\\). Bestäm trycket.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Tryck definieras som kraft per area.</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{600}{0,045}=1,333\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13,33\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "tryck kraft och area",
+    "poang": "(2/0/0)",
+    "t": "<p>En yta på 0,045 m² belastas med en vinkelrät kraft på 600 N.</p><p>Bestäm medeltrycket. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>p = 600/0,045 = 13 333,333… Pa = 13,333333… kPa. Svar: 13,33 kPa.</p>",
+    "familj": "Tryck kraft och area",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_kraft_och_area",
     "svarstyp": "numeriskt",
-    "rättSvar": 13.333333,
-    "tolerans": 0.24,
+    "rättSvar": 13.33,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
+    "ledtrad": "<p>Tryck är kraft per area.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.290",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En yta på 0,050 m² belastas vinkelrätt av 250 N. Använd p = F/A.</p><p>Bestäm trycket. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>p = 250/0,050 = 5000 Pa. Svar: 5000 Pa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Tryck kraft och area",
+    "typ": "tryck kraft och area",
+    "ledtrad": "<p>Dividera kraften med arean.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__tryck_kraft_och_area",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5000.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "Pa",
     "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.292",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En kraft på 90 N ger trycket 3000 Pa. Använd A = F/p.</p><p>Bestäm arean. Svara i m². Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>A = 90/3000 = 0,030 m². Svar: 0,03 m².</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Tryck kraft och area",
+    "typ": "tryck kraft och area",
+    "ledtrad": "<p>Använd det färdiga sambandet för arean.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__tryck_kraft_och_area",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.03,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "m²",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.295",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En maskinfot belastas med 360 N och har kontaktytan 120 cm².</p><p>Bestäm medeltrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>120 cm² = 0,0120 m². p = 360/0,0120 = 30 000 Pa = 30 kPa. Svar: 30 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Tryck kraft och area",
+    "typ": "tryck kraft och area",
+    "ledtrad": "<p>Tänk på att areaenheten är kvadrerad.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__tryck_kraft_och_area",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.52",
@@ -52268,41 +52654,43 @@ window.BANK = [
     "id": "6.55",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "beräkna marktryck ur tyngd och sammanlagd kontaktyta, ur text, sökt kraft area och tryck",
-    "poang": "(2/1/0)",
-    "t": "<p>En elefant med massan 4500 kg står på alla fyra fötterna. Varje fot har kontaktytan 0,12 m² mot marken.</p>\n<ol><li>Hur stor är tyngdkraften på elefanten?</li>\n<li>Hur stor är den sammanlagda kontaktytan?</li>\n<li>Hur stort tryck utövar elefanten på marken?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften är</p><div class=\"facit-matte\">\\[F=mg=4500\\cdot9{,}82=4{,}419\\cdot10^4\\ \\mathrm N=44{,}2\\ \\mathrm{kN}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fyra fötter ger</p><div class=\"facit-matte\">\\[A=4\\cdot0{,}12=0{,}48\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Marktrycket blir</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{44190}{0{,}48}\\approx92100\\ \\mathrm{Pa}=92{,}1\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(44{,}2\\ \\mathrm{kN}\\), arean \\(0{,}48\\ \\mathrm{m^2}\\), och trycket cirka \\(92\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "kontakttryck från tyngd",
+    "poang": "(3/0/0)",
+    "t": "<p>En elefant på 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Anta jämn belastning.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tyngdkraften. Svara i kN. Avrunda vid behov till 2 decimaler.</li><li>Bestäm den sammanlagda kontaktytan. Svara i m². Avrunda vid behov till 2 decimaler.</li><li>Bestäm medeltrycket över kontaktytan. Svara i kPa. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) F = 4500 · 9,82 = 44 190 N = 44,19 kN. Svar: 44,19 kN.</p><p>b) A = 4 · 0,12 = 0,48 m². Svar: 0,48 m².</p><p>c) p = mg/A = 4500 · 9,82/(4 · 0,12) = 92 062,5 Pa = 92,0625 kPa. Svar: 92,06 kPa.</p>",
+    "familj": "Kontakttryck från tyngd",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__kontakttryck_fran_tyngd",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      44.2,
+      44.19,
       0.48,
-      null
+      92.06
     ],
     "tolerans": [
-      0.663,
-      0.01,
-      null
+      0,
+      0,
+      0
     ],
-    "självrättning": [
-      true,
-      true,
-      false
+    "självrättning": true,
+    "ledtrad": "<p>Kilonewton är tusen newton.</p>",
+    "traningsniva": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "kN",
+      "m²",
+      "kPa"
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      "kN",
-      "m²",
-      null
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -52310,34 +52698,50 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En elefant med massan 4500 kg står på alla fyra fötterna. Varje fot har kontaktytan 0,12 m² mot marken.</p>",
+    "spelIntro": "<p>En elefant på 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Anta jämn belastning.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är tyngdkraften på elefanten?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften är</p><div class=\"facit-matte\">\\[F=mg=4500\\cdot9{,}82=4{,}419\\cdot10^4\\ \\mathrm N=44{,}2\\ \\mathrm{kN}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(44{,}2\\ \\mathrm{kN}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Bestäm tyngdkraften. Svara i kN. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En elefant på 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Anta jämn belastning.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tyngdkraften. Svara i kN. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>F = 4500 · 9,82 = 44 190 N = 44,19 kN. Svar: 44,19 kN.</p>",
+        "ledtrad": "<p>Kilonewton är tusen newton.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är den sammanlagda kontaktytan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fyra fötter ger</p><div class=\"facit-matte\">\\[A=4\\cdot0{,}12=0{,}48\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}48\\ \\mathrm{m^2}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
+        "fraga": "Bestäm den sammanlagda kontaktytan. Svara i m². Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En elefant på 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Anta jämn belastning.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den sammanlagda kontaktytan. Svara i m². Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>A = 4 · 0,12 = 0,48 m². Svar: 0,48 m².</p>",
+        "ledtrad": "<p>Alla fyra fötterna bidrar till kontaktytan.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "c",
-        "fraga": "Hur stort tryck utövar elefanten på marken?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Marktrycket blir</p><div class=\"facit-matte\">\\[p=\\frac{F}{A}=\\frac{44190}{0{,}48}\\approx92100\\ \\mathrm{Pa}=92{,}1\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(92{,}1\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm medeltrycket över kontaktytan. Svara i kPa. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En elefant på 4500 kg står stilla på fyra fötter. Varje fot har kontaktytan 0,12 m². Anta jämn belastning.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm medeltrycket över kontaktytan. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>p = mg/A = 4500 · 9,82/(4 · 0,12) = 92 062,5 Pa = 92,0625 kPa. Svar: 92,06 kPa.</p>",
+        "ledtrad": "<p>Dela tyngdkraften med hela kontaktytan.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
     ]
   },
@@ -52345,308 +52749,266 @@ window.BANK = [
     "id": "6.234",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "hydraulisk kraftförstärkning",
-    "poang": "(0/2/0)",
-    "t": "<p>I en hydraulisk press har den lilla kolven diametern \\(2,4\\,\\mathrm{cm}\\) och den stora \\(9\\,\\mathrm{cm}\\). På den lilla kolven verkar kraften \\(120\\,\\mathrm N\\). Bestäm kraften på den stora kolven. Försumma höjdskillnader.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Trycket överförs lika. Kolvareorna är proportionella mot diametern i kvadrat.</p><div class=\"facit-matte\">\\[\\frac{F_1}{A_1}=\\frac{F_2}{A_2}\\Rightarrow F_2=F_1\\left(\\frac{d_2}{d_1}\\right)^2=1688\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1688\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "poang": "(2/0/0)",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Kolvarnas diametrar är 2,4 cm och 9,0 cm. Den lilla belastas med 120 N.</p><p>Bestäm den stora kolvens lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>F₂/A₂ = F₁/A₁. Eftersom A = πd²/4 blir F₂ = 120(9,0/2,4)² = 1687,5 N. Svar: 1687,5 N.</p>",
+    "familj": "Hydraulisk kraftförstärkning",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__hydraulisk_kraftforstarkning",
     "svarstyp": "numeriskt",
     "rättSvar": 1687.5,
-    "tolerans": 30.375,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Du behöver inte räkna ut \\(\\pi\\); areakvoten är samma som diametrarnas kvot i kvadrat.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Hur beror cirkelns area på diametern?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.56",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar krafterna på en låda med massan 25 kg som står stilla på ett golv.</p><span class=\"fig bred\"><svg height=\"225\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 56.571 400.000 145.143\"><rect x=\"15\" y=\"140\" width=\"370\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"140\" x2=\"385\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"157\" y=\"92\" width=\"76\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"220.84\" y1=\"140\" x2=\"220.84\" y2=\"98\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"220.84,88 225.44,98 216.24,98\" fill=\"#B43123\"/><text x=\"220.84\" y=\"72\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"195\" y1=\"116\" x2=\"195\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"195,168 190.4,158 199.6,158\" fill=\"#B43123\"/><text x=\"188.1\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><circle cx=\"195\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/></svg></span>\n<ol><li>Hur stor är normalkraften?</li><li>Lådans bottenyta är 0,25 m². Hur stort tryck ger den mot golvet?</li>\n<li>Lådan ställs på högkant så att ytan halveras. Vad händer med trycket?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan är stilla, så normalkraften balanserar tyngden.</p><div class=\"facit-matte\">\\[N=mg=25\\cdot9{,}82=245{,}5\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket mot golvet är</p><div class=\"facit-matte\">\\[p=\\frac{N}{A}=\\frac{245{,}5}{0{,}25}=982\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När arean halveras men kraften är oförändrad fördubblas trycket.</p><div class=\"facit-matte\">\\[p'=\\frac{N}{A/2}=2p=1964\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är \\(246\\ \\mathrm N\\), trycket \\(982\\ \\mathrm{Pa}\\), och på högkant blir det \\(1{,}96\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Figuren visar krafterna på en låda med massan 25 kg som står stilla på ett golv.</p><span class=\"fig bred\"><svg height=\"225\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 56.571 400.000 145.143\"><rect x=\"15\" y=\"140\" width=\"370\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"140\" x2=\"385\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"157\" y=\"92\" width=\"76\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"220.84\" y1=\"140\" x2=\"220.84\" y2=\"98\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"220.84,88 225.44,98 216.24,98\" fill=\"#B43123\"/><text x=\"220.84\" y=\"72\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"195\" y1=\"116\" x2=\"195\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"195,168 190.4,158 199.6,158\" fill=\"#B43123\"/><text x=\"188.1\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><circle cx=\"195\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/></svg></span>\n<ol style=\"display:grid;gap:0.85rem\"><li>Hur stor är normalkraften?</li><li>Lådans bottenyta är 0,25 m². Hur stort tryck ger den mot golvet?</li>\n<li>Lådan ställs på högkant så att ytan halveras. Vad händer med trycket?</li></ol><p>Anta att endast tyngdkraft och golvets normalkraft verkar på lådan. Använd g = 9,82 m/s².</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan är stilla, så normalkraften balanserar tyngden.</p><div class=\"facit-matte\">\\[N=mg=25\\cdot9{,}82=245{,}5\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket mot golvet är</p><div class=\"facit-matte\">\\[p=\\frac{N}{A}=\\frac{245{,}5}{0{,}25}=982\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När arean halveras men kraften är oförändrad fördubblas trycket.</p><div class=\"facit-matte\">\\[p'=\\frac{N}{A/2}=2p=1964\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är \\(246\\ \\mathrm N\\), trycket \\(982\\ \\mathrm{Pa}\\), och på högkant blir det \\(1{,}96\\ \\mathrm{kPa}\\).</p></div>",
+    "familj": "Kontaktarea och tryck",
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      245.5,
-      null,
-      null
-    ],
-    "tolerans": [
-      3.6824999999999997,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      false,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      null,
-      null
-    ],
-    "svarEnhet": [
-      "N",
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Lådan är stilla, så normalkraften balanserar tyngden. Utgå från \\(p=F/A\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar krafterna på en låda med massan 25 kg som står stilla på ett golv.</p><span class=\"fig bred\"><svg height=\"225\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 56.571 400.000 145.143\"><rect x=\"15\" y=\"140\" width=\"370\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"140\" x2=\"385\" y2=\"140\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"157\" y=\"92\" width=\"76\" height=\"48\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"220.84\" y1=\"140\" x2=\"220.84\" y2=\"98\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"220.84,88 225.44,98 216.24,98\" fill=\"#B43123\"/><text x=\"220.84\" y=\"72\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">N</text><line x1=\"195\" y1=\"116\" x2=\"195\" y2=\"158\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"195,168 190.4,158 199.6,158\" fill=\"#B43123\"/><text x=\"188.1\" y=\"192\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"9\">g</tspan></text><circle cx=\"195\" cy=\"116\" r=\"3\" fill=\"#2B2527\"/></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor är normalkraften?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan är stilla, så normalkraften balanserar tyngden.</p><div class=\"facit-matte\">\\[N=mg=25\\cdot9{,}82=245{,}5\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(245{,}5\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Lådan är stilla, så normalkraften balanserar tyngden. Utgå från \\(p=F/A\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Lådans bottenyta är 0,25 m². Hur stort tryck ger den mot golvet?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket mot golvet är</p><div class=\"facit-matte\">\\[p=\\frac{N}{A}=\\frac{245{,}5}{0{,}25}=982\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(982\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Lådan är stilla, så normalkraften balanserar tyngden. Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Lådan ställs på högkant så att ytan halveras. Vad händer med trycket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När arean halveras men kraften är oförändrad fördubblas trycket.</p><div class=\"facit-matte\">\\[p'=\\frac{N}{A/2}=2p=1964\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1964\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Lådan är stilla, så normalkraften balanserar tyngden. Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "familjNyckel": "tryck__kontaktarea_och_tryck",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Vilken kraft balanserar tyngdkraften när lådan står stilla?</p>",
+    "traningsniva": 2,
+    "typ": "kontaktarea och tryck",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.235",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "modellera kontakttryck från tyngd och area",
-    "poang": "(0/2/0)",
-    "t": "<p>En person med massan \\(80\\,\\mathrm{kg}\\) står på ett ben. Skons kontaktyta mot golvet är \\(220\\,\\mathrm{cm^2}\\). Bestäm medeltrycket mot golvet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften mot golvet är ungefär personens tyngd. Omvandla arean till \\(\\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[A=220\\cdot10^{-4}=0,022\\ \\mathrm{m^2}\\]\\[p=\\frac{mg}{A}=3,571\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35,71\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "kontakttryck från tyngd",
+    "poang": "(2/0/0)",
+    "t": "<p>En person på 80 kg står stilla på ett ben. Skons kontaktyta är 220 cm².</p><p>Använd g = 9,82 m/s².</p><p>Bestäm medeltrycket mot golvet. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>A = 220 · 10⁻⁴ = 0,0220 m². p = 80 · 9,82/0,0220 ≈ 35 709,1 Pa = 35,7091 kPa. Svar: 35,71 kPa.</p>",
+    "familj": "Kontakttryck från tyngd",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__kontakttryck_fran_tyngd",
     "svarstyp": "numeriskt",
-    "rättSvar": 35.709091,
-    "tolerans": 0.642764,
+    "rättSvar": 35.71,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Uttryck kontaktytan i m².</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.57",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "beräkna lyftkraft i hydraulisk press ur kolvareornas förhållande, ur diagram, sökt kraft och massa",
-    "poang": "(1/2/0)",
-    "t": "<p>En hydraulisk press har en pumpkolv med diametern 25 mm och en lyftkolv med diametern 200 mm. Man trycker på pumpkolven med kraften 300 N.</p><span class=\"fig bred\"><svg height=\"217\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"13.886 13.127 508.371 177.606\"><line x1=\"60\" y1=\"160\" x2=\"460\" y2=\"160\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"60\" y1=\"160\" x2=\"60\" y2=\"90\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"460\" y1=\"160\" x2=\"460\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"62\" y=\"90\" width=\"398\" height=\"68\" fill=\"#DCE6F2\"/><rect x=\"44\" y=\"74\" width=\"32\" height=\"18\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"60\" y1=\"50\" x2=\"60\" y2=\"58\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"60.00,68.00 55.40,58.00 64.60,58.00\" fill=\"#B43123\"/><text x=\"60\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = 300 N</text><rect x=\"420\" y=\"44\" width=\"80\" height=\"18\" rx=\"3\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"460\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">last</text><text x=\"60\" y=\"182\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">d = 25 mm</text><text x=\"460\" y=\"182\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">d = 200 mm</text></svg></span>\n<p>Hur tung last kan pressen lyfta?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Enligt Pascals princip gäller \\(F_1/A_1=F_2/A_2\\). Areaförhållandet kan tas direkt från diametrarna.</p><div class=\"facit-matte\">\\[\\frac{A_2}{A_1}=\\left(\\frac{200}{25}\\right)^2=64\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkraften och motsvarande massa blir</p><div class=\"facit-matte\">\\[F_2=300\\cdot64=19200\\ \\mathrm N\\]\\[m=\\frac{19200}{9{,}82}=1{,}96\\cdot10^3\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Pressen kan idealiskt lyfta \\(19{,}2\\ \\mathrm{kN}\\), motsvarande en last på cirka \\(1{,}96\\ \\mathrm{ton}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "största hydrauliska last",
+    "poang": "(2/0/0)",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolven har diametern 25 mm och lyftkolven 200 mm. Pumpkraften är 300 N.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Två kolvar förbundna med vätska i en hydraulisk modell\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M90 153H107.5V263H335V153H475V300H90Z\" fill=\"#dcebf6\"/><path d=\"M90 145V300H475V145 M107.5 145V263H335V145\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><rect x=\"85\" y=\"143\" width=\"27.5\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><rect x=\"330\" y=\"143\" width=\"150\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M98.75 65V130 M92.75 120L98.75 130L104.75 120 M405 130V65 M399 75L405 65L411 75\" fill=\"none\" stroke=\"#ad5144\" stroke-width=\"3\"/><text x=\"98.75\" y=\"45\" text-anchor=\"middle\">300 N</text><text x=\"405\" y=\"45\" text-anchor=\"middle\">F₂</text><text x=\"98.75\" y=\"325\" text-anchor=\"middle\">d₁ = 25 mm</text><text x=\"405\" y=\"325\" text-anchor=\"middle\">d₂ = 200 mm</text></g></svg></span><p>Bestäm den lastmassa som lyftkraften kan balansera. Svara i ton. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Areaförhållandet är (200/25)² = 64. F_lyft = 300 · 64 = 19 200 N. m = 19 200/9,82 ≈ 1955,19 kg = 1,95519 ton. Svar: 1,96 ton.</p>",
+    "familj": "Största hydrauliska last",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__hydraulik_och_pascals_princip",
-    "ledtrad": "<p>Enligt Pascals princip gäller \\(F_1/A_1=F_2/A_2\\). Areaförhållandet kan tas direkt från diametrarna.</p>"
+    "familjNyckel": "tryck__storsta_hydrauliska_last",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.96,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Trycket överförs, medan kraften beror på kolvarean.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "ton",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.236",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "hydraulisk kraftförstärkning",
-    "poang": "(0/2/0)",
-    "t": "<p>I en hydraulisk press har den lilla kolven diametern \\(2,8\\,\\mathrm{cm}\\) och den stora \\(10\\,\\mathrm{cm}\\). På den lilla kolven verkar kraften \\(140\\,\\mathrm N\\). Bestäm kraften på den stora kolven. Försumma höjdskillnader.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Trycket överförs lika. Kolvareorna är proportionella mot diametern i kvadrat.</p><div class=\"facit-matte\">\\[\\frac{F_1}{A_1}=\\frac{F_2}{A_2}\\Rightarrow F_2=F_1\\left(\\frac{d_2}{d_1}\\right)^2=1786\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1786\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "poang": "(2/0/0)",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolvens area är 5,0 cm² och lyftkolvens 80 cm². Lyftkolven ska ge kraften 2400 N.</p><p>Bestäm kraften på pumpkolven. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>F₁ = F₂A₁/A₂ = 2400 · 5,0/80 = 150 N. Svar: 150 N.</p>",
+    "familj": "Hydraulisk kraftförstärkning",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__hydraulisk_kraftforstarkning",
     "svarstyp": "numeriskt",
-    "rättSvar": 1785.714286,
-    "tolerans": 32.142857,
+    "rättSvar": 150.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Du behöver inte räkna ut \\(\\pi\\); areakvoten är samma som diametrarnas kvot i kvadrat.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Den mindre kolven behöver mindre kraft vid samma tryck.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.58",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "räkna på kraftförstärkning och kolvrörelse i en domkraft, ur diagram, sökt sträcka",
-    "poang": "(0/2/1)",
-    "t": "<p>Figuren visar en hydraulisk domkraft. Pumpkolven har diametern 20 mm och lyftkolven 90 mm.</p><span class=\"fig\"><svg height=\"288\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.914 0.000 368.657 212.384\"><path d=\"M90 110 L90 200 L400 200 L400 74 L300 74 L300 170 L116 170 L116 110 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"86\" y=\"100\" width=\"34\" height=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"296\" y=\"62\" width=\"108\" height=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"103\" y1=\"30\" x2=\"103\" y2=\"86\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"103,96 98.4,86 107.6,86\" fill=\"#B43123\"/><text x=\"103\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">250 N</text><line x1=\"350\" y1=\"58\" x2=\"350\" y2=\"36\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"350,26 354.6,36 345.4,36\" fill=\"#B43123\"/><text x=\"350\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = ?</text><line x1=\"90\" y1=\"150\" x2=\"116\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"145\" x2=\"90\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"116\" y1=\"145\" x2=\"116\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"100\" y=\"170\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 mm</text><line x1=\"300\" y1=\"150\" x2=\"400\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"145\" x2=\"300\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"145\" x2=\"400\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"350\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90 mm</text><text x=\"208\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">olja</text></svg></span>\n<ol><li>Vilket tryck uppstår i oljan när man trycker med 250 N?</li>\n<li>Hur stor kraft ger lyftkolven?</li>\n<li>Pumpkolven trycks ned 25 mm. Hur högt lyfts lasten?</li>\n<li>Jämför arbetet vid de två kolvarna.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pumpkolvens radie är 0,010 m.</p><div class=\"facit-matte\">\\[A_1=\\pi(0{,}010)^2=3{,}142\\cdot10^{-4}\\ \\mathrm{m^2}\\]\\[p=\\frac{250}{A_1}=7{,}96\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkolvens radie är 0,045 m.</p><div class=\"facit-matte\">\\[A_2=\\pi(0{,}045)^2=6{,}362\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[F_2=pA_2=5{,}06\\cdot10^3\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bevara den undanträngda oljevolymen.</p><div class=\"facit-matte\">\\[A_1s_1=A_2s_2\\Rightarrow s_2=25\\left(\\frac{20}{90}\\right)^2=1{,}23\\ \\mathrm{mm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I en ideal domkraft bevaras arbetet.</p><div class=\"facit-matte\">\\[W_1=250\\cdot0{,}025=6{,}25\\ \\mathrm J\\]\\[W_2=5062\\cdot0{,}001235=6{,}25\\ \\mathrm J\\]</div><p>Kraftvinsten betalas med en motsvarande kortare lyftsträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket är \\(796\\ \\mathrm{kPa}\\), lyftkraften \\(5{,}06\\ \\mathrm{kN}\\), lyfthöjden \\(1{,}23\\ \\mathrm{mm}\\), och arbetet \\(6{,}25\\ \\mathrm J\\) på båda sidor.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "C",
+    "typ": "hydraulik och energibalans",
+    "poang": "(1/2/0)",
+    "t": "<p>Figuren visar en hydraulisk domkraft. Pumpkolven har diametern 20 mm och lyftkolven 90 mm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Två kolvar förbundna med vätska i en hydraulisk modell\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M90 153H121.11111111111111V263H335V153H475V300H90Z\" fill=\"#dcebf6\"/><path d=\"M90 145V300H475V145 M121.11111111111111 145V263H335V145\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><rect x=\"85\" y=\"143\" width=\"41.111111111111114\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><rect x=\"330\" y=\"143\" width=\"150\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M105.55555555555556 65V130 M99.55555555555556 120L105.55555555555556 130L111.55555555555556 120 M405 130V65 M399 75L405 65L411 75\" fill=\"none\" stroke=\"#ad5144\" stroke-width=\"3\"/><text x=\"105.55555555555556\" y=\"45\" text-anchor=\"middle\">250 N</text><text x=\"405\" y=\"45\" text-anchor=\"middle\">F₂</text><text x=\"105.55555555555556\" y=\"325\" text-anchor=\"middle\">d₁ = 20 mm</text><text x=\"405\" y=\"325\" text-anchor=\"middle\">d₂ = 90 mm</text></g></svg></span>\n<ol style=\"display:grid;gap:0.85rem\"><li>Vilket övertryck uppstår i oljan när man trycker med 250 N?</li>\n<li>Hur stor kraft ger lyftkolven?</li>\n<li>Pumpkolven trycks ned 25 mm. Hur högt lyfts lasten?</li>\n<li>Jämför arbetet vid de två kolvarna.</li></ol><p>Domkraften är ideal: försumma kolvmassor, friktion, läckage och tryckskillnader på grund av höjd. Oljan är inkompressibel och samma lufttryck verkar ovanpå båda kolvarna.</p>",
+    "s": "<p>a) A₁ = π · 0,010² m². Övertrycket är Δp = 250/A₁ ≈ 795 775 Pa = 795,775 kPa.</p><p>b) F₂ = 250(90/20)² = 5062,5 N.</p><p>c) Volymen bevaras: A₁s₁ = A₂s₂. s₂ = 25(20/90)² ≈ 1,234568 mm.</p><p>d) W₁ = 250 · 0,025 = 6,25 J. Utan mellanavrundning är W₂ = [250(90/20)²] · [0,025(20/90)²] = 6,25 J. Den större kraften motsvaras av en lika stor minskning av förflyttningen.</p>",
+    "familj": "Hydraulik och energibalans",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "modellering",
+      "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__hydraulik_och_energibalans",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__hydraulik_och_pascals_princip",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Figuren visar en hydraulisk domkraft. Pumpkolven har diametern 20 mm och lyftkolven 90 mm.</p><span class=\"fig\"><svg height=\"288\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"51.914 0.000 368.657 212.384\"><path d=\"M90 110 L90 200 L400 200 L400 74 L300 74 L300 170 L116 170 L116 110 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"86\" y=\"100\" width=\"34\" height=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"296\" y=\"62\" width=\"108\" height=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"103\" y1=\"30\" x2=\"103\" y2=\"86\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"103,96 98.4,86 107.6,86\" fill=\"#B43123\"/><text x=\"103\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">250 N</text><line x1=\"350\" y1=\"58\" x2=\"350\" y2=\"36\" stroke=\"#B43123\" stroke-width=\"2.3\"/><polygon points=\"350,26 354.6,36 345.4,36\" fill=\"#B43123\"/><text x=\"350\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">F = ?</text><line x1=\"90\" y1=\"150\" x2=\"116\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"145\" x2=\"90\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"116\" y1=\"145\" x2=\"116\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"100\" y=\"170\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 mm</text><line x1=\"300\" y1=\"150\" x2=\"400\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"145\" x2=\"300\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"145\" x2=\"400\" y2=\"155\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"350\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">90 mm</text><text x=\"208\" y=\"192\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">olja</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilket tryck uppstår i oljan när man trycker med 250 N?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pumpkolvens radie är 0,010 m.</p><div class=\"facit-matte\">\\[A_1=\\pi(0{,}010)^2=3{,}142\\cdot10^{-4}\\ \\mathrm{m^2}\\]\\[p=\\frac{250}{A_1}=7{,}96\\cdot10^5\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}96\\cdot10^5\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stor kraft ger lyftkolven?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkolvens radie är 0,045 m.</p><div class=\"facit-matte\">\\[A_2=\\pi(0{,}045)^2=6{,}362\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[F_2=pA_2=5{,}06\\cdot10^3\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}06\\cdot10^3\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Pumpkolven trycks ned 25 mm. Hur högt lyfts lasten?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bevara den undanträngda oljevolymen.</p><div class=\"facit-matte\">\\[A_1s_1=A_2s_2\\Rightarrow s_2=25\\left(\\frac{20}{90}\\right)^2=1{,}23\\ \\mathrm{mm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}23\\ \\mathrm{mm}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "d",
-        "fraga": "Jämför arbetet vid de två kolvarna.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I en ideal domkraft bevaras arbetet.</p><div class=\"facit-matte\">\\[W_1=250\\cdot0{,}025=6{,}25\\ \\mathrm J\\]\\[W_2=5062\\cdot0{,}001235=6{,}25\\ \\mathrm J\\]</div><p>Kraftvinsten betalas med en motsvarande kortare lyftsträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}25\\ \\mathrm J\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "A"
-      }
-    ]
+    "ledtrad": "<p>Jämför både kraftförhållandet och förhållandet mellan kolvarnas förflyttningar.</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.237",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "modellera kontakttryck från tyngd och area",
-    "poang": "(0/2/0)",
-    "t": "<p>En person med massan \\(65\\,\\mathrm{kg}\\) står på ett ben. Skons kontaktyta mot golvet är \\(160\\,\\mathrm{cm^2}\\). Bestäm medeltrycket mot golvet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften mot golvet är ungefär personens tyngd. Omvandla arean till \\(\\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[A=160\\cdot10^{-4}=0,016\\ \\mathrm{m^2}\\]\\[p=\\frac{mg}{A}=3,989\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(39,89\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "kontakttryck från tyngd",
+    "poang": "(2/0/0)",
+    "t": "<p>En person på 65 kg står stilla på två fötter med lika belastning. Varje sko har kontaktytan 160 cm².</p><p>Använd g = 9,82 m/s².</p><p>Bestäm medeltrycket mot golvet. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>A = 2 · 160 · 10⁻⁴ = 0,0320 m². p = 65 · 9,82/0,0320 = 19 946,875 Pa = 19,946875 kPa. Svar: 19,95 kPa.</p>",
+    "familj": "Kontakttryck från tyngd",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__kontakttryck_fran_tyngd",
     "svarstyp": "numeriskt",
-    "rättSvar": 39.89375,
-    "tolerans": 0.718087,
+    "rättSvar": 19.95,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Båda fötternas kontaktytor ska räknas med.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.59",
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En kub står på ett golv och påverkar golvet med trycket 5,8 kPa. Kuben har massan 6,0 kg.</p>\n<ol><li>Bestäm arean för en av kubens sidor.</li><li>Bestäm kubens densitet.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tryckkraften är kubens tyngd.</p><div class=\"facit-matte\">\\[A=\\frac{mg}{p}=\\frac{6{,}0\\cdot9{,}82}{5800}=1{,}016\\cdot10^{-2}\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sidlängden är \\(a=\\sqrt A=0{,}1008\\ \\mathrm m\\), så volymen är \\(a^3\\).</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{a^3}=\\frac{6{,}0}{(0{,}1008)^3}=5{,}86\\cdot10^3\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sidarean är cirka \\(0{,}0102\\ \\mathrm{m^2}=1{,}02\\ \\mathrm{dm^2}\\), och densiteten \\(5{,}9\\cdot10^3\\ \\mathrm{kg/m^3}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "poang": "(1/1/0)",
+    "t": "<p>En homogen kub på 6,0 kg står med en hel sidoyta mot ett horisontellt golv. Medeltrycket mot golvet är 5,8 kPa.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kontaktytan. Svara i cm². Avrunda vid behov till 2 decimaler.</li><li>Bestäm kubens densitet. Svara i kg/m³. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) A = mg/p = 6,0 · 9,82/5800 ≈ 0,01015862 m². Omvandlat till cm²: 101,59 cm². Svar: 101,59 cm².</p><p>b) A = 6,0 · 9,82/5800 m². För en kub är sidlängden a = √A och volymen V = A√A. ρ = 6,0/[A√A] ≈ 5860,02 kg/m³. Svar: 5860 kg/m³.</p>",
+    "familj": "Tryck och kubens densitet",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__tryck_och_kubens_densitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.01016,
-      5860
+      101.59,
+      5860.0
     ],
     "tolerans": [
-      0.0003048,
-      87.89999999999999
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>Kraften mot golvet motsvarar kubens tyngd.</p>",
+    "traningsniva": 4,
+    "typ": "tryck och kubens densitet",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "cm²",
+      "kg/m³"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      "m²",
-      "kg/m³"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kub står på ett golv och påverkar golvet med trycket 5,8 kPa. Kuben har massan 6,0 kg.</p>",
+    "spelIntro": "<p>En homogen kub på 6,0 kg står med en hel sidoyta mot ett horisontellt golv. Medeltrycket mot golvet är 5,8 kPa.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm arean för en av kubens sidor.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tryckkraften är kubens tyngd.</p><div class=\"facit-matte\">\\[A=\\frac{mg}{p}=\\frac{6{,}0\\cdot9{,}82}{5800}=1{,}016\\cdot10^{-2}\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}016\\cdot10^{-2}\\ \\mathrm{m^2}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
+        "fraga": "Bestäm kontaktytan. Svara i cm². Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En homogen kub på 6,0 kg står med en hel sidoyta mot ett horisontellt golv. Medeltrycket mot golvet är 5,8 kPa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm kontaktytan. Svara i cm². Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>A = mg/p = 6,0 · 9,82/5800 ≈ 0,01015862 m². Omvandlat till cm²: 101,59 cm². Svar: 101,59 cm².</p>",
+        "ledtrad": "<p>Kraften mot golvet motsvarar kubens tyngd.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm kubens densitet.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sidlängden är \\(a=\\sqrt A=0{,}1008\\ \\mathrm m\\), så volymen är \\(a^3\\).</p><div class=\"facit-matte\">\\[\\rho=\\frac{m}{a^3}=\\frac{6{,}0}{(0{,}1008)^3}=5{,}86\\cdot10^3\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}86\\cdot10^3\\ \\mathrm{kg/m^3}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
+        "fraga": "Bestäm kubens densitet. Svara i kg/m³. Svara med ett heltal.",
+        "t": "<p>En homogen kub på 6,0 kg står med en hel sidoyta mot ett horisontellt golv. Medeltrycket mot golvet är 5,8 kPa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm kubens densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+        "s": "<p>A = 6,0 · 9,82/5800 m². För en kub är sidlängden a = √A och volymen V = A√A. ρ = 6,0/[A√A] ≈ 5860,02 kg/m³. Svar: 5860 kg/m³.</p>",
+        "ledtrad": "<p>Hur får du kubens volym från en sidoytas area?</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "procedur"
+        ]
       }
     ]
   },
@@ -52655,88 +53017,82 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "typ": "hydraulisk kraftförstärkning",
+    "typ": "dimensionera hydraulisk kolv",
     "poang": "(0/2/0)",
-    "t": "<p>I en hydraulisk press har den lilla kolven diametern \\(2,2\\,\\mathrm{cm}\\) och den stora \\(8,5\\,\\mathrm{cm}\\). På den lilla kolven verkar kraften \\(120\\,\\mathrm N\\). Bestäm kraften på den stora kolven. Försumma höjdskillnader.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Trycket överförs lika. Kolvareorna är proportionella mot diametern i kvadrat.</p><div class=\"facit-matte\">\\[\\frac{F_1}{A_1}=\\frac{F_2}{A_2}\\Rightarrow F_2=F_1\\left(\\frac{d_2}{d_1}\\right)^2=1791\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1791\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Den lilla kolvens diameter är 2,2 cm. Den belastas med 120 N. Den stora ska ge kraften 1920 N.</p><p>Bestäm den stora kolvens diameter. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>F₂/F₁ = (d₂/d₁)². d₂ = 2,2√(1920/120) = 8,8 cm. Svar: 8,8 cm.</p>",
+    "familj": "Dimensionera hydraulisk kolv",
     "formaga": [
-      "procedur",
-      "modellering"
+      "modellering",
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__dimensionera_hydraulisk_kolv",
     "svarstyp": "numeriskt",
-    "rättSvar": 1791.322314,
-    "tolerans": 32.243802,
+    "rättSvar": 8.8,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Du behöver inte räkna ut \\(\\pi\\); areakvoten är samma som diametrarnas kvot i kvadrat.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Areaförhållandet ger diametrarnas kvot i kvadrat.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "cm",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.60",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett rätblock har måtten 20 cm × 30 cm × 50 cm och massan 18 kg. Figuren visar de tre sätt blocket kan ställas på ett bord.</p><span class=\"fig bred\"><svg height=\"171\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"10.514 63.141 438.971 121.020\"><line x1=\"30\" y1=\"150\" x2=\"430\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"160\" x2=\"38\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"63.3333\" y1=\"160\" x2=\"71.3333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"96.6667\" y1=\"160\" x2=\"104.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"160\" x2=\"138\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"163.333\" y1=\"160\" x2=\"171.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"196.667\" y1=\"160\" x2=\"204.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"160\" x2=\"238\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"263.333\" y1=\"160\" x2=\"271.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"296.667\" y1=\"160\" x2=\"304.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"160\" x2=\"338\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"363.333\" y1=\"160\" x2=\"371.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"396.667\" y1=\"160\" x2=\"404.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"68\" y=\"70\" width=\"48\" height=\"80\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"92\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 cm × 30 cm</text><rect x=\"192\" y=\"102\" width=\"80\" height=\"48\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"232\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 cm × 50 cm</text><rect x=\"332\" y=\"118\" width=\"80\" height=\"32\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"372\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30 cm × 50 cm</text></svg></span>\n<ol><li>Bestäm de olika tryck som blocket kan påverka bordet med.</li>\n<li>Vilket samband finns mellan tryck och anliggningsarea?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Blockets tyngd är</p><div class=\"facit-matte\">\\[F=18\\cdot9{,}82=176{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För ytan \\(20\\times30\\ \\mathrm{cm}\\):</p><div class=\"facit-matte\">\\[A=0{,}060\\ \\mathrm{m^2},\\qquad p=\\frac{176{,}8}{0{,}060}\\approx2950\\ \\mathrm{Pa}=2{,}95\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För ytorna \\(20\\times50\\) och \\(30\\times50\\ \\mathrm{cm}\\):</p><div class=\"facit-matte\">\\[p_{0{,}10}=1{,}77\\ \\mathrm{kPa},\\qquad p_{0{,}15}=1{,}18\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När kraften är konstant gäller</p><div class=\"facit-matte\">\\[p=\\frac FA\\Rightarrow p\\propto\\frac1A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycken är \\(2{,}9\\), \\(1{,}8\\) och \\(1{,}2\\ \\mathrm{kPa}\\). Trycket är omvänt proportionellt mot anliggningsarean.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>Ett rätblock har måtten 20 cm × 30 cm × 50 cm och massan 18 kg. Figuren visar de tre sätt blocket kan ställas på ett bord.</p><span class=\"fig bred\"><svg height=\"171\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"10.514 63.141 438.971 121.020\"><line x1=\"30\" y1=\"150\" x2=\"430\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"160\" x2=\"38\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"63.3333\" y1=\"160\" x2=\"71.3333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"96.6667\" y1=\"160\" x2=\"104.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"160\" x2=\"138\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"163.333\" y1=\"160\" x2=\"171.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"196.667\" y1=\"160\" x2=\"204.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"160\" x2=\"238\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"263.333\" y1=\"160\" x2=\"271.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"296.667\" y1=\"160\" x2=\"304.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"160\" x2=\"338\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"363.333\" y1=\"160\" x2=\"371.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"396.667\" y1=\"160\" x2=\"404.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"68\" y=\"70\" width=\"48\" height=\"80\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"92\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 cm × 30 cm</text><rect x=\"192\" y=\"102\" width=\"80\" height=\"48\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"232\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 cm × 50 cm</text><rect x=\"332\" y=\"118\" width=\"80\" height=\"32\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"372\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30 cm × 50 cm</text></svg></span>\n<ol style=\"display:grid;gap:0.85rem\"><li>Bestäm de olika tryck som blocket kan påverka bordet med.</li>\n<li>Vilket samband finns mellan tryck och anliggningsarea?</li></ol><p>Anta jämnt tryck över hela anliggningsytan. Använd g = 9,82 m/s².</p>",
+    "s": "<p>Tyngden är 18 · 9,82 = 176,76 N. Kontaktytorna 20 × 30, 20 × 50 och 30 × 50 cm motsvarar 0,060, 0,100 och 0,150 m².</p><p>Med p = F/A blir trycken 2,946 kPa, 1,7676 kPa respektive 1,1784 kPa. Avrundat: 2,95, 1,77 och 1,18 kPa.</p><p>För samma kraft är trycket omvänt proportionellt mot kontaktytan. Dubblerad area ger halverat medeltryck.</p>",
+    "familj": "Kontaktarea och tryck",
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__kontaktarea_och_tryck",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett rätblock har måtten 20 cm × 30 cm × 50 cm och massan 18 kg. Figuren visar de tre sätt blocket kan ställas på ett bord.</p><span class=\"fig bred\"><svg height=\"171\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"10.514 63.141 438.971 121.020\"><line x1=\"30\" y1=\"150\" x2=\"430\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"30\" y1=\"160\" x2=\"38\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"63.3333\" y1=\"160\" x2=\"71.3333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"96.6667\" y1=\"160\" x2=\"104.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"130\" y1=\"160\" x2=\"138\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"163.333\" y1=\"160\" x2=\"171.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"196.667\" y1=\"160\" x2=\"204.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"230\" y1=\"160\" x2=\"238\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"263.333\" y1=\"160\" x2=\"271.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"296.667\" y1=\"160\" x2=\"304.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"160\" x2=\"338\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"363.333\" y1=\"160\" x2=\"371.333\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"396.667\" y1=\"160\" x2=\"404.667\" y2=\"150\" stroke=\"#9A959C\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"68\" y=\"70\" width=\"48\" height=\"80\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"92\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 cm × 30 cm</text><rect x=\"192\" y=\"102\" width=\"80\" height=\"48\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"232\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20 cm × 50 cm</text><rect x=\"332\" y=\"118\" width=\"80\" height=\"32\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"372\" y=\"178\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30 cm × 50 cm</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Bestäm de olika tryck som blocket kan påverka bordet med.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Blockets tyngd är</p><div class=\"facit-matte\">\\[F=18\\cdot9{,}82=176{,}8\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För ytan \\(20\\times30\\ \\mathrm{cm}\\):</p><div class=\"facit-matte\">\\[A=0{,}060\\ \\mathrm{m^2},\\qquad p=\\frac{176{,}8}{0{,}060}\\approx2950\\ \\mathrm{Pa}=2{,}95\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För ytorna \\(20\\times50\\) och \\(30\\times50\\ \\mathrm{cm}\\):</p><div class=\"facit-matte\">\\[p_{0{,}10}=1{,}77\\ \\mathrm{kPa},\\qquad p_{0{,}15}=1{,}18\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}18\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilket samband finns mellan tryck och anliggningsarea?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När kraften är konstant gäller</p><div class=\"facit-matte\">\\[p=\\frac FA\\Rightarrow p\\propto\\frac1A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac FA\\Rightarrow p\\propto\\frac1A\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
-      }
-    ]
+    "ledtrad": "<p>Hur ändras kontaktytan när blocket vänds?</p>",
+    "traningsniva": 3,
+    "typ": "kontaktarea och tryck",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.239",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "modellera kontakttryck från tyngd och area",
-    "poang": "(0/2/0)",
-    "t": "<p>En person med massan \\(75\\,\\mathrm{kg}\\) står på ett ben. Skons kontaktyta mot golvet är \\(200\\,\\mathrm{cm^2}\\). Bestäm medeltrycket mot golvet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften mot golvet är ungefär personens tyngd. Omvandla arean till \\(\\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[A=200\\cdot10^{-4}=0,02\\ \\mathrm{m^2}\\]\\[p=\\frac{mg}{A}=3,682\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36,83\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "area från kontakttryck",
+    "poang": "(2/0/0)",
+    "t": "<p>En person på 75 kg står stilla på ett ben. Kontakttrycket är 36,825 kPa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm skons kontaktyta. Svara i cm². Svara med ett heltal.</p>",
+    "s": "<p>A = mg/p = 75 · 9,82/36 825 = 0,0200 m² = 200 cm². Svar: 200 cm².</p>",
+    "familj": "Area från kontakttryck",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__area_fran_kontakttryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 36.825,
-    "tolerans": 0.66285,
+    "rättSvar": 200.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Bestäm först arean i m².</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "cm²",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.61",
@@ -54615,71 +54971,81 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>Två personer bär en glasskiva som väger 40 kg med hjälp av sugkoppar. Var och en har en sugkopp med diametern 10 cm. Lufttrycket är 101 kPa.</p>\n<ol><li>Hur stor kraft kan varje sugkopp teoretiskt bära?</li>\n<li>Hur många gånger tyngre än skivan är det?</li>\n<li>Varför tappar man ändå glaset om ytan är dammig?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Varje sugkopps radie är 0,050 m.</p><div class=\"facit-matte\">\\[A=\\pi(0{,}050)^2=7{,}854\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[F=pA=101000\\cdot7{,}854\\cdot10^{-3}=793\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två koppar ger idealiskt 1587 N, medan skivans tyngd är \\(40\\cdot9{,}82=393\\ \\mathrm N\\).</p><div class=\"facit-matte\">\\[\\frac{2F}{mg}=\\frac{1587}{393}=4{,}04\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Damm skapar läckvägar. När luft kommer in ökar trycket under koppen och den hållande tryckskillnaden minskar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje kopp kan idealiskt bära cirka \\(794\\ \\mathrm N\\); tillsammans är det ungefär fyra gånger skivans tyngd.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "poang": "(1/2/0)",
+    "t": "<p>Två sugkoppar med diametern 10 cm vardera sitter ovanpå en vågrät glasskiva på 40 kg. Lufttrycket är 101 kPa och trycket under sugarna 40 kPa. Anta samma tryck under båda, full verksam area och lodrätt lyft utan acceleration. Försumma sugarnas massa.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm de två sugarnas sammanlagda idealiska lyftkraft och jämför med skivans tyngd.</li><li>Vilket är det största trycket under sugarna som fortfarande kan balansera skivans tyngd i modellen?</li><li>Förklara hur en otät anliggning påverkar lyftkraften.</li></ol>",
+    "s": "<p>a) Δp = 101−40 = 61 kPa. A = 2π · 0,050² m². F = 61 000A ≈ 958,19 N. Skivans tyngd är 40 · 9,82 = 392,8 N, så kraftkvoten är cirka 2,44.</p><p>b) Vid gränsen är (101 000−p_in)A = 392,8. p_in = 101 000−392,8/(2π · 0,050²) ≈ 75 994 Pa = 75,994 kPa.</p><p>c) Läckage kan höja trycket under sugarna mot lufttrycket utanför. Då minskar tryckskillnaden och lyftkraften.</p>",
+    "familj": "Sugkoppar med ofullständigt vakuum",
     "formaga": [
-      "procedur",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "tryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__sugkoppar_med_ofullstandigt_vakuum",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__lufttryck_och_tryckskillnad",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två personer bär en glasskiva som väger 40 kg med hjälp av sugkoppar. Var och en har en sugkopp med diametern 10 cm. Lufttrycket är 101 kPa.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor kraft kan varje sugkopp teoretiskt bära?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Varje sugkopps radie är 0,050 m.</p><div class=\"facit-matte\">\\[A=\\pi(0{,}050)^2=7{,}854\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[F=pA=101000\\cdot7{,}854\\cdot10^{-3}=793\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(793\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur många gånger tyngre än skivan är det?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Två koppar ger idealiskt 1587 N, medan skivans tyngd är \\(40\\cdot9{,}82=393\\ \\mathrm N\\).</p><div class=\"facit-matte\">\\[\\frac{2F}{mg}=\\frac{1587}{393}=4{,}04\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}04\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför tappar man ändå glaset om ytan är dammig?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Damm skapar läckvägar. När luft kommer in ökar trycket under koppen och den hållande tryckskillnaden minskar.</p></div></div></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
-      }
-    ]
+    "ledtrad": "<p>Räkna med trycket även på sugkoppens insida.</p>",
+    "traningsniva": 4,
+    "typ": "sugkoppar med ofullständigt vakuum",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.240",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "hydraulisk kraftförstärkning",
-    "poang": "(0/2/0)",
-    "t": "<p>I en hydraulisk press har den lilla kolven diametern \\(2,6\\,\\mathrm{cm}\\) och den stora \\(9,5\\,\\mathrm{cm}\\). På den lilla kolven verkar kraften \\(140\\,\\mathrm N\\). Bestäm kraften på den stora kolven. Försumma höjdskillnader.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Trycket överförs lika. Kolvareorna är proportionella mot diametern i kvadrat.</p><div class=\"facit-matte\">\\[\\frac{F_1}{A_1}=\\frac{F_2}{A_2}\\Rightarrow F_2=F_1\\left(\\frac{d_2}{d_1}\\right)^2=1869\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1869\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "hydraulik och förflyttning",
+    "poang": "(2/0/0)",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Kolvarnas diametrar är 2,6 cm och 9,5 cm. Den lilla trycks ned 30 mm.</p><p>Bestäm hur långt den stora kolven stiger. Svara i mm. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Volymen bevaras: A₁s₁ = A₂s₂. s₂ = 30(2,6/9,5)² ≈ 2,24709 mm. Svar: 2,25 mm.</p>",
+    "familj": "Hydraulik och förflyttning",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__hydraulik_och_forflyttning",
     "svarstyp": "numeriskt",
-    "rättSvar": 1869.08284,
-    "tolerans": 33.643491,
+    "rättSvar": 2.25,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Du behöver inte räkna ut \\(\\pi\\); areakvoten är samma som diametrarnas kvot i kvadrat.</p>",
+    "ledtrad": "<p>Samma vätskevolym flyttas vid båda kolvarna.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "mm",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.299",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolvens area är 4,0 cm² och lyftkolvens 20 cm². Pumpkolven förs 15 mm nedåt.</p><p>Bestäm lyftkolvens förflyttning uppåt. Svara i mm. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>A_pump s_pump = A_lyft s_lyft. s_lyft = 4,0 · 15/20 = 3,0 mm. Svar: 3 mm.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Hydraulik och förflyttning",
+    "typ": "hydraulik och förflyttning",
+    "ledtrad": "<p>Vilken volym lämnar pumpcylindern?</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__hydraulik_och_forflyttning",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "mm",
     "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.92",
@@ -54687,179 +55053,283 @@ window.BANK = [
     "omr": "tryck",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Johanna ser ett papper på ett bord. Hon klipper pappret i två lika stora delar och lägger sedan tillbaka den ena delen på bordet.</p>\n<ol><li>Hur stort är trycket från halva pappret jämfört med trycket från hela pappret?</li>\n<li>Motivera ditt svar.</li></ol>",
+    "t": "<p>Johanna ser ett papper på ett bord. Hon klipper pappret i två lika stora delar och lägger sedan tillbaka den ena delen på bordet.</p>\n<ol style=\"display:grid;gap:0.85rem\"><li>Hur stort är trycket från halva pappret jämfört med trycket från hela pappret?</li>\n<li>Motivera ditt svar.</li></ol><p>Pappret har jämn tjocklek och densitet och ligger plant mot bordet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket från halva pappret är lika stort som från hela pappret.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När pappret delas halveras både massan och kontaktytan.</p><div class=\"facit-matte\">\\[p'=\\frac{(F/2)}{(A/2)}=\\frac FA=p\\]</div><p>Detta förutsätter samma material och tjocklek samt att pappret ligger plant.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket är oförändrat eftersom kraft och area minskar i samma proportion.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "familj": "Skala massa och area",
     "formaga": [
-      "begrepp",
+      "modellering",
       "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
+    "familjNyckel": "tryck__skala_massa_och_area",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Trycket från halva pappret är lika stort som från hela pappret.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Johanna ser ett papper på ett bord. Hon klipper pappret i två lika stora delar och lägger sedan tillbaka den ena delen på bordet.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stort är trycket från halva pappret jämfört med trycket från hela pappret?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket från halva pappret är lika stort som från hela pappret.</p></div></div></div>",
-        "ledtrad": "<p>Trycket från halva pappret är lika stort som från hela pappret.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Motivera ditt svar.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När pappret delas halveras både massan och kontaktytan.</p><div class=\"facit-matte\">\\[p'=\\frac{(F/2)}{(A/2)}=\\frac FA=p\\]</div><p>Detta förutsätter samma material och tjocklek samt att pappret ligger plant.</p></div></div></div>",
-        "ledtrad": "<p>Trycket från halva pappret är lika stort som från hela pappret.</p>",
-        "niva": "C"
-      }
-    ]
+    "ledtrad": "<p>Vilka två storheter i tryckets definition påverkas när pappret delas?</p>",
+    "traningsniva": 3,
+    "typ": "skala massa och area",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.241",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "modellera kontakttryck från tyngd och area",
-    "poang": "(0/2/0)",
-    "t": "<p>En person med massan \\(85\\,\\mathrm{kg}\\) står på ett ben. Skons kontaktyta mot golvet är \\(240\\,\\mathrm{cm^2}\\). Bestäm medeltrycket mot golvet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften mot golvet är ungefär personens tyngd. Omvandla arean till \\(\\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[A=240\\cdot10^{-4}=0,024\\ \\mathrm{m^2}\\]\\[p=\\frac{mg}{A}=3,478\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34,78\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "massa från kontakttryck",
+    "poang": "(2/0/0)",
+    "t": "<p>En last står stilla på en horisontell stödyta på 240 cm². Medeltrycket är 19,64 kPa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lastens massa. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>A = 0,0240 m². m = pA/g = 19 640 · 0,0240/9,82 = 48,0 kg. Svar: 48 kg.</p>",
+    "familj": "Massa från kontakttryck",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__massa_fran_kontakttryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 34.779167,
-    "tolerans": 0.626025,
+    "rättSvar": 48.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Trycket och arean ger tyngdkraften.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kg",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.93",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "beräkna bärförmåga hos en sugkopp ur lufttryck och area, ur text, sökt area kraft och massa",
-    "poang": "(1/2/0)",
-    "t": "<p>En sugkopp med diametern 6,0 cm pressas mot ett vågrätt tak så att all luft pressas ut. Lufttrycket är 101 kPa.</p>\n<p>Hur tung last kan sugkoppen bära?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Radien är 0,030 m och idealiskt är tryckskillnaden 101 kPa.</p><div class=\"facit-matte\">\\[A=\\pi(0{,}030)^2=2{,}827\\cdot10^{-3}\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den största bärkraften och massan blir</p><div class=\"facit-matte\">\\[F=pA=101000\\cdot2{,}827\\cdot10^{-3}=285{,}6\\ \\mathrm N\\]\\[m=\\frac{F}{g}=29{,}1\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sugkoppen kan idealiskt bära ungefär \\(29\\ \\mathrm{kg}\\). Verklig säker last är mindre.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "niva": "E",
+    "typ": "sugkoppens idealiska last",
+    "poang": "(2/0/0)",
+    "t": "<p>En sugkopp sitter i ett vågrätt tak. Diametern är 6,0 cm, trycket utanför är 101 kPa och trycket inuti försummas. Försumma sugkoppens massa och deformation.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den största lastmassa vars tyngd den idealiserade tryckkraften kan balansera. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>A = π · 0,030². Tryckkraften är 101 000A ≈ 285,57 N. m = F/g ≈ 29,08 kg. Svar: 29,08 kg.</p>",
+    "familj": "Sugkoppens idealiska last",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__lufttryck_och_tryckskillnad",
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>"
+    "familjNyckel": "tryck__sugkoppens_idealiska_last",
+    "svarstyp": "numeriskt",
+    "rättSvar": 29.08,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>I taket verkar tryckskillnadens kraft rakt mot tyngdkraften.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kg",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.242",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "hydraulisk kraftförstärkning",
-    "poang": "(0/2/0)",
-    "t": "<p>I en hydraulisk press har den lilla kolven diametern \\(2\\,\\mathrm{cm}\\) och den stora \\(8\\,\\mathrm{cm}\\). På den lilla kolven verkar kraften \\(120\\,\\mathrm N\\). Bestäm kraften på den stora kolven. Försumma höjdskillnader.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Trycket överförs lika. Kolvareorna är proportionella mot diametern i kvadrat.</p><div class=\"facit-matte\">\\[\\frac{F_1}{A_1}=\\frac{F_2}{A_2}\\Rightarrow F_2=F_1\\left(\\frac{d_2}{d_1}\\right)^2=1920\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1920\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "poang": "(2/0/0)",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Kolvarnas diametrar är 2,0 cm och 8,0 cm. På den lilla verkar 120 N.</p><p>Bestäm den stora kolvens lyftkraft. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>F₂ = 120(8,0/2,0)² = 1920 N. Svar: 1920 N.</p>",
+    "familj": "Hydraulisk kraftförstärkning",
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__hydraulisk_kraftforstarkning",
     "svarstyp": "numeriskt",
-    "rättSvar": 1920,
-    "tolerans": 34.56,
+    "rättSvar": 1920.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Du behöver inte räkna ut \\(\\pi\\); areakvoten är samma som diametrarnas kvot i kvadrat.</p>",
+    "ledtrad": "<p>Kraftförstärkningen är areaförhållandet, inte diameterförhållandet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.298",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolvens area är 3,0 cm² och lyftkolvens 24 cm². Pumpkraften är 50 N.</p><p>Bestäm lyftkraften. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>F_lyft = F_pump A_lyft/A_pump = 50 · 24/3,0 = 400 N. Svar: 400 N.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Hydraulisk kraftförstärkning",
+    "typ": "hydraulisk kraftförstärkning",
+    "ledtrad": "<p>Hur stor är kolvarnas areakvot?</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__hydraulisk_kraftforstarkning",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 400.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "poang": "(2/0/0)"
   },
   {
     "id": "6.94",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "jämföra marktrycket från en snöskoter och en person, ur text, sökt tryck och jämförelse",
-    "poang": "(1/2/0)",
-    "t": "<p>En snöskoter med förare väger 280 kg och vilar på två band. Varje band har kontaktytan 0,38 m × 1,2 m mot snön. En person som väger 70 kg står i skor med den sammanlagda ytan 0,040 m².</p>\n<p>Hur många gånger lägre marktryck ger snöskotern jämfört med personen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Snöskoterns två band har arean</p><div class=\"facit-matte\">\\[A_s=2\\cdot0{,}38\\cdot1{,}2=0{,}912\\ \\mathrm{m^2}\\]\\[p_s=\\frac{280\\cdot9{,}82}{0{,}912}\\approx3020\\ \\mathrm{Pa}=3{,}02\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Personens tryck är</p><div class=\"facit-matte\">\\[p_p=\\frac{70\\cdot9{,}82}{0{,}040}\\approx17200\\ \\mathrm{Pa}=17{,}2\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kvoten blir</p><div class=\"facit-matte\">\\[\\frac{p_p}{p_s}=5{,}70\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Snöskoterns marktryck är cirka \\(5{,}7\\) gånger lägre än personens.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "jämföra kontakttryck",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett bandfordon med förare har massan 280 kg. Två band har vardera kontaktytan 0,38 m × 1,2 m. En person på 70 kg står stilla med sammanlagd skoyta 0,040 m². Anta jämn belastning.</p><p>Bestäm kvoten personens medeltryck dividerat med fordonets medeltryck. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>A_fordon = 2 · 0,38 · 1,2 = 0,912 m². Kvoten är (70g/0,040)/(280g/0,912) = 5,70. Samma g förkortas bort. Svar: 5,7.</p>",
+    "familj": "Jämföra kontakttryck",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__jamfora_kontakttryck",
     "svarstyp": "numeriskt",
     "rättSvar": 5.7,
-    "tolerans": 0.08549999999999999,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Beräkna samma slags storhet för båda innan du jämför.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": null,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.243",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "modellera kontakttryck från tyngd och area",
-    "poang": "(0/2/0)",
-    "t": "<p>En person med massan \\(70\\,\\mathrm{kg}\\) står på ett ben. Skons kontaktyta mot golvet är \\(180\\,\\mathrm{cm^2}\\). Bestäm medeltrycket mot golvet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften mot golvet är ungefär personens tyngd. Omvandla arean till \\(\\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[A=180\\cdot10^{-4}=0,018\\ \\mathrm{m^2}\\]\\[p=\\frac{mg}{A}=3,819\\cdot10^{4}\\ \\mathrm{Pa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(38,19\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "kontakttryck från tyngd",
+    "poang": "(2/0/0)",
+    "t": "<p>En person på 70 kg står stilla på ett ben. Skons kontaktyta är 180 cm².</p><p>Använd g = 9,82 m/s².</p><p>Bestäm medeltrycket mot golvet. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>180 cm² = 0,0180 m². p = 70 · 9,82/0,0180 ≈ 38 188,89 Pa = 38,18889 kPa. Svar: 38,19 kPa.</p>",
+    "familj": "Kontakttryck från tyngd",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__kontakttryck_fran_tyngd",
     "svarstyp": "numeriskt",
-    "rättSvar": 38.188889,
-    "tolerans": 0.6874,
+    "rättSvar": 38.19,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Rita ett kraftdiagram. Välj axlar längs den viktigaste rörelseriktningen och skriv \\(\\sum F=ma\\) separat i varje riktning.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Vilken kraft belastar golvet?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.95",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En person med massan 55 kg står på en enda stilettklack där ytan mot golvet är 1,0 cm². En elefant på 4000 kg står på fyra fötter där fötterna tillsammans har ytan 800 cm².</p>\n<p>Jämför trycken mot underlaget.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket är tyngdkraft delad med kontaktyta. Klackens area är \\(1{,}0\\ \\mathrm{cm^2}=1{,}0\\cdot10^{-4}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[p_k=\\frac{55\\cdot9{,}82}{1{,}0\\cdot10^{-4}}\\approx5400000\\ \\mathrm{Pa}=5{,}40\\ \\mathrm{MPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Elefantens sammanlagda fotyta är \\(800\\ \\mathrm{cm^2}=0{,}0800\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[p_e=\\frac{4000\\cdot9{,}82}{0{,}0800}\\approx491000\\ \\mathrm{Pa}=491\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför trycken.</p><div class=\"facit-matte\">\\[\\frac{p_k}{p_e}=\\frac{5{,}40\\cdot10^6}{4{,}91\\cdot10^5}=11{,}0\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Stilettklacken ger cirka \\(5{,}4\\ \\mathrm{MPa}\\), ungefär 11 gånger elefantens \\(491\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "poang": "(3/0/0)",
+    "t": "<p>I en modell bär en enda stilettklack med arean 1,0 cm² hela tyngden av en person på 55 kg. En elefant på 4000 kg står på fyra fötter med sammanlagd kontaktyta 800 cm². Anta jämnt tryck över respektive kontaktyta.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm trycket under klacken. Svara i MPa. Avrunda vid behov till 3 decimaler.</li><li>Bestäm trycket under elefantens fötter. Svara i kPa. Svara med ett heltal.</li><li>Bestäm kvoten klackens tryck dividerat med elefantens. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) A = 10⁻⁴ m². p = 55 · 9,82/10⁻⁴ = 5 401 000 Pa = 5,401 MPa. Svar: 5,401 MPa.</p><p>b) 800 cm² = 0,0800 m². p = 4000 · 9,82/0,0800 = 491 000 Pa = 491 kPa. Svar: 491 kPa.</p><p>c) Kvoten är (55g/0,0001)/(4000g/0,0800) = 11. Svar: 11.</p>",
+    "familj": "Jämföra kontakttryck",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Trycket är tyngdkraft delad med kontaktyta. Klackens area är \\(1{,}0\\ \\mathrm{cm^2}=1{,}0\\cdot10^{-4}\\ \\mathrm{m^2}\\).</p>"
+    "familjNyckel": "tryck__jamfora_kontakttryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.401,
+      491.0,
+      11.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Omvandla kvadratcentimeter till kvadratmeter.</p>",
+    "traningsniva": 3,
+    "typ": "jämföra kontakttryck",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "MPa",
+      "kPa",
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>I en modell bär en enda stilettklack med arean 1,0 cm² hela tyngden av en person på 55 kg. En elefant på 4000 kg står på fyra fötter med sammanlagd kontaktyta 800 cm². Anta jämnt tryck över respektive kontaktyta.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm trycket under klacken. Svara i MPa. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>I en modell bär en enda stilettklack med arean 1,0 cm² hela tyngden av en person på 55 kg. En elefant på 4000 kg står på fyra fötter med sammanlagd kontaktyta 800 cm². Anta jämnt tryck över respektive kontaktyta.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm trycket under klacken. Svara i MPa. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>A = 10⁻⁴ m². p = 55 · 9,82/10⁻⁴ = 5 401 000 Pa = 5,401 MPa. Svar: 5,401 MPa.</p>",
+        "ledtrad": "<p>Omvandla kvadratcentimeter till kvadratmeter.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm trycket under elefantens fötter. Svara i kPa. Svara med ett heltal.",
+        "t": "<p>I en modell bär en enda stilettklack med arean 1,0 cm² hela tyngden av en person på 55 kg. En elefant på 4000 kg står på fyra fötter med sammanlagd kontaktyta 800 cm². Anta jämnt tryck över respektive kontaktyta.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm trycket under elefantens fötter. Svara i kPa. Svara med ett heltal.</p>",
+        "s": "<p>800 cm² = 0,0800 m². p = 4000 · 9,82/0,0800 = 491 000 Pa = 491 kPa. Svar: 491 kPa.</p>",
+        "ledtrad": "<p>Den givna arean är redan den sammanlagda.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
+      },
+      {
+        "etikett": "c",
+        "fraga": "Bestäm kvoten klackens tryck dividerat med elefantens. Svara med ett heltal.",
+        "t": "<p>I en modell bär en enda stilettklack med arean 1,0 cm² hela tyngden av en person på 55 kg. En elefant på 4000 kg står på fyra fötter med sammanlagd kontaktyta 800 cm². Anta jämnt tryck över respektive kontaktyta.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm kvoten klackens tryck dividerat med elefantens. Svara med ett heltal.</p>",
+        "s": "<p>Kvoten är (55g/0,0001)/(4000g/0,0800) = 11. Svar: 11.</p>",
+        "ledtrad": "<p>Jämför i samma tryckenhet.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
+      }
+    ]
   },
   {
     "id": "6.96",
@@ -54867,121 +55337,146 @@ window.BANK = [
     "omr": "tryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En kub står på ett golv. Kubens sidlängd är 25 cm och dess massa är 9,2 kg.</p>\n<p>Med hur stort tryck verkar kuben på golvet?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kubens tyngd och bottenarea är</p><div class=\"facit-matte\">\\[F=9{,}2\\cdot9{,}82=90{,}3\\ \\mathrm N,\\qquad A=0{,}25^2=0{,}0625\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket blir</p><div class=\"facit-matte\">\\[p=\\frac{90{,}3}{0{,}0625}=1445\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kuben påverkar golvet med cirka \\(1{,}4\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>En kub på 9,2 kg står stilla på ett horisontellt golv med en hel sidoyta i kontakt. Sidlängden är 25 cm.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm medeltrycket mot golvet. Svara i kPa. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>A = 0,25² = 0,0625 m². p = 9,2 · 9,82/0,0625 = 1445,504 Pa = 1,445504 kPa. Svar: 1,446 kPa.</p>",
+    "familj": "Kontakttryck från tyngd",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>"
+    "familjNyckel": "tryck__kontakttryck_fran_tyngd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.446,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Bottenytan är en kvadrat.</p>",
+    "traningsniva": 2,
+    "typ": "kontakttryck från tyngd",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.244",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "koppla tryck till cirkulär kolvarea",
-    "poang": "(0/1/2)",
-    "t": "<p>I ett hydraulsystem är övertrycket \\(290\\,\\mathrm{kPa}\\). En rund kolv har diametern \\(3,4\\,\\mathrm{cm}\\). Vilken kraft kan vätskan utöva på kolven?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften är trycket gånger kolvarean.</p><div class=\"facit-matte\">\\[A=\\pi(0,017)^2=9,079\\cdot10^{-4}\\ \\mathrm{m^2}\\]\\[F=pA=263,3\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(263,3\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "övertryck och nettokraft",
+    "poang": "(2/0/0)",
+    "t": "<p>En rund kolv har diametern 3,4 cm. Vätskans tryck på ena sidan är 290 kPa högre än lufttrycket på den andra.</p><p>Bestäm nettokraften från de två trycken. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>A = π(0,034/2)² m². F_netto = ΔpA = 290 000π · 0,017² ≈ 263,30 N. Svar: 263,3 N.</p>",
+    "familj": "Övertryck och nettokraft",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__overtryck_och_nettokraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 263.29688,
-    "tolerans": 4.739344,
+    "rättSvar": 263.3,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Diametern måste halveras till radie och skrivas i meter.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Omvandla diametern till meter och bestäm radien.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.97",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "beräkna tryck i en spruta, ur text, sökt tryck",
+    "typ": "övertryck i en spruta",
     "poang": "(2/0/0)",
-    "t": "<p>Man trycker med kraften 22 N på kolven i en spruta. Kolvens area är 1,80 cm².</p>\n<p>Hur stort tryck uppstår i vätskan?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tryck är kraft per area. Arean måste uttryckas i m² om svaret ska få enheten pascal. Eftersom \\(1\\ \\mathrm{cm}=10^{-2}\\ \\mathrm m\\) blir \\(1\\ \\mathrm{cm^2}=10^{-4}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[A=1{,}80\\cdot10^{-4}\\ \\mathrm{m^2}\\]\\[p=\\frac FA=\\frac{22}{1{,}80\\cdot10^{-4}}=1{,}22\\cdot10^5\\ \\mathrm{Pa}=122\\ \\mathrm{kPa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket är cirka \\(122\\ \\mathrm{kPa}\\).</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "t": "<p>En sprutas kolv har arean 1,80 cm². Man trycker in kolven med 22 N. Vätskan är stilla och kolvens utsida utsätts för lufttrycket. Försumma friktion.</p><p>Bestäm vätskans övertryck. Svara i kPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Kolvens kraftbalans ger ΔpA = 22 N. A = 1,80 · 10⁻⁴ m². Δp = 22/A ≈ 122 222,22 Pa = 122,22222 kPa. Detta är ökningen över lufttrycket. Svar: 122,22 kPa.</p>",
+    "familj": "Övertryck i en spruta",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "tryck__hydraulik_och_pascals_princip",
-    "ledtrad": "<p>Tryck är kraft per area. Arean måste uttryckas i m² om svaret ska få enheten pascal. Eftersom \\(1\\ \\mathrm{cm}=10^{-2}\\ \\mathrm m\\) blir \\(1\\ \\mathrm{cm^2}=10^{-4}\\ \\mathrm{m^2}\\).</p>"
+    "familjNyckel": "tryck__overtryck_i_en_spruta",
+    "svarstyp": "numeriskt",
+    "rättSvar": 122.22,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Handkraften bestämmer tryckskillnaden, inte absoluttrycket.</p>",
+    "traningsniva": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.245",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "dimensionera area från högsta tillåtna tryck",
-    "poang": "(0/1/2)",
-    "t": "<p>En rund stödfot ska bära kraften \\(950\\,\\mathrm N\\) utan att marktrycket överstiger \\(85\\,\\mathrm{kPa}\\). Bestäm den minsta diameter stödfoten bör ha.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kravet på högsta tryck ger en minsta area. Därefter löses diametern ur cirkelns area.</p><div class=\"facit-matte\">\\[A_{min}=\\frac{F}{p_{max}}=0,01118\\ \\mathrm{m^2}\\]\\[d=2\\sqrt{\\frac{A}{\\pi}}=0,1193\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11,93\\ \\mathrm{cm}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "C",
+    "typ": "välja dimension under tryckvillkor",
+    "poang": "(0/2/0)",
+    "t": "<p>En cirkulär stödfot belastas med 950 N. Medeltrycket får vara högst 85 kPa. Stödfoten kan väljas i hela millimeter i diameter.</p><p>Bestäm den minsta tillåtna diametern i hela millimeter. Svara i mm. Svara med ett heltal.</p>",
+    "s": "<p>A_min = 950/85 000 m². d_min = 2√(A_min/π) ≈ 119,291 mm. 119 mm är för litet, så minsta hela millimeter är 120 mm. Svar: 120 mm.</p>",
+    "familj": "Välja dimension under tryckvillkor",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "modellering",
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__valja_dimension_under_tryckvillkor",
     "svarstyp": "numeriskt",
-    "rättSvar": 11.929092,
-    "tolerans": 0.214724,
+    "rättSvar": 120.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm först vilken minsta area som krävs av \\(A=F/p_{max}\\).</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "ledtrad": "<p>En minsta tillåten dimension måste avrundas åt rätt håll.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "mm",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.98",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En kubisk låda med sidlängden 10 cm står på ett bord. Lådan påverkar bordet med trycket 2,4 kPa.</p>\n<ol><li>Hur stor kraft verkar på bordet?</li><li>Bestäm lådans massa.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bottenarean är \\((0{,}10)^2=0{,}010\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[F=pA=2400\\cdot0{,}010=24\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraften är lådans tyngd.</p><div class=\"facit-matte\">\\[m=\\frac{F}{g}=\\frac{24}{9{,}82}=2{,}44\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är \\(24\\ \\mathrm N\\) och massan cirka \\(2{,}4\\ \\mathrm{kg}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En kubisk låda står stilla på ett horisontellt bord. Sidlängden är 10 cm och medeltrycket mot bordet är 2,4 kPa.</p><p>Använd g = 9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kraften från lådan på bordet. Svara i N. Svara med ett heltal.</li><li>Bestäm lådans massa. Svara i kg. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) A = 0,10² = 0,010 m². F = pA = 2400 · 0,010 = 24 N. Svar: 24 N.</p><p>b) F = 2400 · 0,10² = 24 N. Eftersom lådan är stilla gäller mg = 24 och m = 24/9,82 ≈ 2,444 kg. Svar: 2,44 kg.</p>",
+    "familj": "Massa från kontakttryck",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__massa_fran_kontakttryck",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      24,
-      2.4
+      24.0,
+      2.44
     ],
     "tolerans": [
-      0.36,
-      0.036
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>Beräkna först den kvadratiska kontaktytan.</p>",
+    "traningsniva": 3,
+    "typ": "massa från kontakttryck",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "N",
+      "kg"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -54989,253 +55484,172 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kubisk låda står stilla på ett horisontellt bord. Sidlängden är 10 cm och medeltrycket mot bordet är 2,4 kPa.</p><p>Använd g = 9,82 m/s².</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En kubisk låda med sidlängden 10 cm står på ett bord. Lådan påverkar bordet med trycket 2,4 kPa.</p><div class=\"spel-en-del\">Hur stor kraft verkar på bordet?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bottenarean är \\((0{,}10)^2=0{,}010\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[F=pA=2400\\cdot0{,}010=24\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Bottenarean är \\((0{,}10)^2=0{,}010\\ \\mathrm{m^2}\\). Utgå från \\(p=F/A\\).</p>",
-        "niva": "C"
+        "fraga": "Bestäm kraften från lådan på bordet. Svara i N. Svara med ett heltal.",
+        "t": "<p>En kubisk låda står stilla på ett horisontellt bord. Sidlängden är 10 cm och medeltrycket mot bordet är 2,4 kPa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm kraften från lådan på bordet. Svara i N. Svara med ett heltal.</p>",
+        "s": "<p>A = 0,10² = 0,010 m². F = pA = 2400 · 0,010 = 24 N. Svar: 24 N.</p>",
+        "ledtrad": "<p>Beräkna först den kvadratiska kontaktytan.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       },
       {
         "etikett": "b",
-        "t": "<p>En kubisk låda med sidlängden 10 cm står på ett bord. Lådan påverkar bordet med trycket 2,4 kPa.</p><div class=\"spel-en-del\">Bestäm lådans massa.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kraften är lådans tyngd.</p><div class=\"facit-matte\">\\[m=\\frac{F}{g}=\\frac{24}{9{,}82}=2{,}44\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}44\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C"
+        "fraga": "Bestäm lådans massa. Svara i kg. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En kubisk låda står stilla på ett horisontellt bord. Sidlängden är 10 cm och medeltrycket mot bordet är 2,4 kPa.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm lådans massa. Svara i kg. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>F = 2400 · 0,10² = 24 N. Eftersom lådan är stilla gäller mg = 24 och m = 24/9,82 ≈ 2,444 kg. Svar: 2,44 kg.</p>",
+        "ledtrad": "<p>Tryck och area ger tyngdkraften.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ]
       }
-    ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Bottenarean är \\((0{,}10)^2=0{,}010\\ \\mathrm{m^2}\\). Utgå från \\(p=F/A\\).</p>"
+    ]
   },
   {
     "id": "6.246",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "dimensionera hydraulisk domkraft",
-    "poang": "(0/1/2)",
-    "t": "<p>En hydraulisk domkraft ska precis kunna lyfta en bil med massan \\(900\\,\\mathrm{kg}\\). Lyftkolvens diameter är \\(10\\,\\mathrm{cm}\\) och pumpkolvens diameter \\(1,5\\,\\mathrm{cm}\\). Hur stor kraft måste minst appliceras på pumpkolven? Försumma friktion och höjdskillnad.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Samma tryck råder i vätskan. Sätt trycket från pumpkolven lika med trycket som krävs under lyftkolven.</p><div class=\"facit-matte\">\\[\\frac{F}{A_s}=\\frac{mg}{A_L}\\Rightarrow F=mg\\left(\\frac{d_s}{d_L}\\right)^2=198,9\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(198,9\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "pumpkraft för given last",
+    "poang": "(2/0/0)",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. En bil på 900 kg ska lyftas långsamt. Lyftkolvens diameter är 10 cm och pumpkolvens 1,5 cm.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm pumpkraften som balanserar bilens tyngd. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>F_pump/A_pump = mg/A_lyft. F_pump = 900 · 9,82(1,5/10)² = 198,855 N. Svar: 198,86 N.</p>",
+    "familj": "Pumpkraft för given last",
     "formaga": [
-      "modellering",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__pumpkraft_for_given_last",
     "svarstyp": "numeriskt",
-    "rättSvar": 198.855,
-    "tolerans": 3.57939,
+    "rättSvar": 198.86,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Arbeta med areakvoten. För cirklar är \\(A_s/A_L=(d_s/d_L)^2\\).</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Jämför kolvareorna och låt lyftkraften balansera tyngden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.99",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
-    "typ": "jämföra trycket när samma kropp står på tre olika sidor, ur diagram, sökt tryck",
-    "poang": "(2/1/0)",
-    "t": "<p>En tegelsten har massan 3,2 kg och måtten 6,0 cm × 12 cm × 25 cm. Figuren visar tre olika sätt att lägga den på ett golv. Måtten i figuren är angivna i centimeter.</p><span class=\"fig bred\"><svg height=\"173\" width=\"660\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 51.250 560.000 146.543\"><rect x=\"15\" y=\"170\" width=\"530\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"170\" x2=\"545\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"130\" width=\"100\" height=\"40\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100\" y=\"156\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">12 × 25</text><text x=\"100\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A</text><rect x=\"230\" y=\"110\" width=\"100\" height=\"60\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"280\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">6,0 × 25</text><text x=\"280\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">B</text><rect x=\"420\" y=\"60\" width=\"60\" height=\"110\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"450\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">6,0 × 12</text><text x=\"450\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">C</text></svg></span>\n<ol><li>Hur stor är tyngdkraften på tegelstenen?</li>\n<li>Beräkna kontaktytan i de tre lägena, i kvadratmeter.</li>\n<li>Beräkna trycket mot golvet i de tre lägena.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tegelstenens tyngd är</p><div class=\"facit-matte\">\\[F=3{,}2\\cdot9{,}82=31{,}4\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontaktytorna är</p><div class=\"facit-matte\">\\[A_A=0{,}12\\cdot0{,}25=0{,}030\\ \\mathrm{m^2}\\]\\[A_B=0{,}060\\cdot0{,}25=0{,}015\\ \\mathrm{m^2}\\]\\[A_C=0{,}060\\cdot0{,}12=0{,}0072\\ \\mathrm{m^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela samma tyngdkraft med respektive area.</p><div class=\"facit-matte\">\\[p_A=1{,}05\\ \\mathrm{kPa},\\qquad p_B=2{,}09\\ \\mathrm{kPa},\\qquad p_C=4{,}36\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften är \\(31{,}4\\ \\mathrm N\\). Trycken i läge A, B och C är cirka \\(1{,}0\\), \\(2{,}1\\) och \\(4{,}4\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "kontaktarea och tryck",
+    "poang": "(3/0/0)",
+    "t": "<p>En tegelsten har massan 3,2 kg och måtten 6,0 cm × 12 cm × 25 cm. Figuren visar tre olika sätt att lägga den på ett golv. Måtten i figuren är angivna i centimeter.</p><span class=\"fig bred\"><svg height=\"173\" width=\"660\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 51.250 560.000 146.543\"><rect x=\"15\" y=\"170\" width=\"530\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"170\" x2=\"545\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"130\" width=\"100\" height=\"40\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100\" y=\"156\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">12 × 25</text><text x=\"100\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A</text><rect x=\"230\" y=\"110\" width=\"100\" height=\"60\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"280\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">6,0 × 25</text><text x=\"280\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">B</text><rect x=\"420\" y=\"60\" width=\"60\" height=\"110\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"450\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">6,0 × 12</text><text x=\"450\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">C</text></svg></span>\n<ol style=\"display:grid;gap:0.85rem\"><li>Hur stor är tyngdkraften på tegelstenen?</li>\n<li>Beräkna kontaktytan i de tre lägena, i kvadratmeter.</li>\n<li>Beräkna trycket mot golvet i de tre lägena.</li></ol><p>Anta att hela bottenytan ligger mot golvet. Använd g = 9,82 m/s².</p>",
+    "s": "<p>a) Tyngdkraften är 3,2 · 9,82 = 31,424 N ≈ 31,4 N.</p><p>b) A: 0,12 · 0,25 = 0,030 m². B: 0,060 · 0,25 = 0,015 m². C: 0,060 · 0,12 = 0,0072 m².</p><p>c) Samma kraft delas med varje kontaktyta. p_A = 31,424/0,030 ≈ 1047,47 Pa ≈ 1,05 kPa. p_B = 31,424/0,015 ≈ 2094,93 Pa ≈ 2,09 kPa. p_C = 31,424/0,0072 ≈ 4364,44 Pa ≈ 4,36 kPa. Minsta kontaktytan ger största trycket.</p>",
+    "familj": "Kontaktarea och tryck",
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      31.4,
-      null,
-      4.36
-    ],
-    "tolerans": [
-      0.471,
-      null,
-      0.0654
-    ],
-    "självrättning": [
-      true,
-      false,
-      true
-    ],
-    "svarFormat": [
-      "numeriskt",
-      null,
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      "N",
-      null,
-      "kPa"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "familjNyckelTidigare": "tryck__tryck_kraft_och_area",
-    "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En tegelsten har massan 3,2 kg och måtten 6,0 cm × 12 cm × 25 cm. Figuren visar tre olika sätt att lägga den på ett golv. Måtten i figuren är angivna i centimeter.</p><span class=\"fig bred\"><svg height=\"173\" width=\"660\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 51.250 560.000 146.543\"><rect x=\"15\" y=\"170\" width=\"530\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"15\" y1=\"170\" x2=\"545\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"130\" width=\"100\" height=\"40\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100\" y=\"156\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">12 × 25</text><text x=\"100\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">A</text><rect x=\"230\" y=\"110\" width=\"100\" height=\"60\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"280\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">6,0 × 25</text><text x=\"280\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">B</text><rect x=\"420\" y=\"60\" width=\"60\" height=\"110\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"450\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"9\" font-weight=\"600\" fill=\"#2B2527\">6,0 × 12</text><text x=\"450\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">C</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor är tyngdkraften på tegelstenen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tegelstenens tyngd är</p><div class=\"facit-matte\">\\[F=3{,}2\\cdot9{,}82=31{,}4\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(31{,}4\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Beräkna kontaktytan i de tre lägena, i kvadratmeter.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontaktytorna är</p><div class=\"facit-matte\">\\[A_A=0{,}12\\cdot0{,}25=0{,}030\\ \\mathrm{m^2}\\]\\[A_B=0{,}060\\cdot0{,}25=0{,}015\\ \\mathrm{m^2}\\]\\[A_C=0{,}060\\cdot0{,}12=0{,}0072\\ \\mathrm{m^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0072\\ \\mathrm{m^2}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Beräkna trycket mot golvet i de tre lägena.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela samma tyngdkraft med respektive area.</p><div class=\"facit-matte\">\\[p_A=1{,}05\\ \\mathrm{kPa},\\qquad p_B=2{,}09\\ \\mathrm{kPa},\\qquad p_C=4{,}36\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}36\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Utgå från \\(p=F/A\\). Om två sidor utsätts för olika tryck är det tryckskillnaden \\(\\Delta p\\), inte det absoluta trycket, som ger nettokraften.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "familjNyckel": "tryck__kontaktarea_och_tryck",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Kraften är densamma i alla lägen; kontaktytorna är olika.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.247",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "koppla tryck till cirkulär kolvarea",
-    "poang": "(0/1/2)",
-    "t": "<p>I ett hydraulsystem är övertrycket \\(270\\,\\mathrm{kPa}\\). En rund kolv har diametern \\(3,2\\,\\mathrm{cm}\\). Vilken kraft kan vätskan utöva på kolven?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften är trycket gånger kolvarean.</p><div class=\"facit-matte\">\\[A=\\pi(0,016)^2=8,042\\cdot10^{-4}\\ \\mathrm{m^2}\\]\\[F=pA=217,1\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(217,1\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "absoluttryck och nettokraft",
+    "poang": "(2/0/0)",
+    "t": "<p>En rund kolv med diametern 3,2 cm utsätts för absoluttrycket 270 kPa från vätskan och 101 kPa från luften på motsatta sidan.</p><p>Bestäm nettokraftens belopp från trycken. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Δp = 270−101 = 169 kPa. A = π · 0,016² m². F_netto = 169 000A ≈ 135,92 N. Svar: 135,9 N.</p>",
+    "familj": "Absoluttryck och nettokraft",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__absoluttryck_och_nettokraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 217.146884,
-    "tolerans": 3.908644,
+    "rättSvar": 135.9,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Diametern måste halveras till radie och skrivas i meter.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Vilket tryck motverkar vätskans tryck?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.100",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>I en bils bromssystem trycker föraren på pedalen med 200 N. Pedalens hävarm förstärker kraften fyra gånger innan den når huvudcylindern, vars kolv har arean 2,0 cm². Varje bromsok har en kolvarea på 12 cm².</p>\n<ol><li>Vilket tryck uppstår i bromsvätskan?</li><li>Hur stor kraft verkar varje bromsok med?</li>\n<li>Varför måste bromsvätskan vara helt fri från luftbubblor?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pedalens hävarm fyrdubblar kraften till huvudcylindern.</p><div class=\"facit-matte\">\\[F_h=4\\cdot200=800\\ \\mathrm N\\]\\[p=\\frac{F_h}{A_h}=\\frac{800}{2{,}0\\cdot10^{-4}}=4{,}0\\cdot10^6\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket överförs till varje bromskolv enligt Pascals princip.</p><div class=\"facit-matte\">\\[F_b=pA_b=4{,}0\\cdot10^6\\cdot12\\cdot10^{-4}=4{,}8\\cdot10^3\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bromsvätskan går nästan inte att trycka ihop, medan en luftbubbla komprimeras. En del av pedalrörelsen skulle då gå åt till att pressa ihop gasen.</p><p>Pedalen känns svampig och bromskraften byggs upp sämre.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket blir \\(4{,}0\\ \\mathrm{MPa}\\) och kraften \\(4{,}8\\ \\mathrm{kN}\\) per bromsok. Luftbubblor måste undvikas eftersom gas kan komprimeras.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "C",
+    "poang": "(1/2/0)",
+    "t": "<p>En idealiserad hydraulisk broms har en pedalhävarm som fyrdubblar förarens kraft 200 N. Huvudkolvens area är 2,0 cm² och varje bromskolvs area 12 cm². Försumma friktion och höjdskillnad. Samma lufttryck verkar på kolvarnas utsidor.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm vätskans övertryck och kraften på en bromskolv.</li><li>Förklara varför luft i systemet kan kräva större pedalrörelse innan kolven har flyttats lika långt.</li></ol>",
+    "s": "<p>a) Hävarmen ger 4 · 200 = 800 N. Övertrycket är 800/(2,0 · 10⁻⁴) = 4 000 000 Pa = 4,0 MPa. En bromskolv får kraften 4,0 · 10⁶ · 12 · 10⁻⁴ = 4800 N. Det är kolvkraften; en faktisk bromsmekanisms övriga kraftförhållanden ingår inte.</p><p>b) Vätskan antas nästan inkompressibel, medan gas kan komprimeras. Med en luftbubbla går en del av huvudkolvens volymförskjutning till att minska gasvolymen. Därför behövs större pedalrörelse för samma förflyttning av bromskolven.</p>",
+    "familj": "Hydraulik och kompressibilitet",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "resonemang"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      4,
-      4.8,
-      null
-    ],
-    "tolerans": [
-      0.06,
-      0.072,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "familjNyckelTidigare": "tryck__hydraulik_och_pascals_princip",
-    "ledtrad": "<p>Pedalens hävarm fyrdubblar kraften till huvudcylindern. Utgå från \\(p=F/A\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en bils bromssystem trycker föraren på pedalen med 200 N. Pedalens hävarm förstärker kraften fyra gånger innan den når huvudcylindern, vars kolv har arean 2,0 cm². Varje bromsok har en kolvarea på 12 cm².</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilket tryck uppstår i bromsvätskan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Pedalens hävarm fyrdubblar kraften till huvudcylindern.</p><div class=\"facit-matte\">\\[F_h=4\\cdot200=800\\ \\mathrm N\\]\\[p=\\frac{F_h}{A_h}=\\frac{800}{2{,}0\\cdot10^{-4}}=4{,}0\\cdot10^6\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^6\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Pedalens hävarm fyrdubblar kraften till huvudcylindern. Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stor kraft verkar varje bromsok med?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket överförs till varje bromskolv enligt Pascals princip.</p><div class=\"facit-matte\">\\[F_b=pA_b=4{,}0\\cdot10^6\\cdot12\\cdot10^{-4}=4{,}8\\cdot10^3\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}8\\cdot10^3\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Pedalens hävarm fyrdubblar kraften till huvudcylindern. Utgå från \\(p=F/A\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför måste bromsvätskan vara helt fri från luftbubblor?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bromsvätskan går nästan inte att trycka ihop, medan en luftbubbla komprimeras. En del av pedalrörelsen skulle då gå åt till att pressa ihop gasen.</p><p>Pedalen känns svampig och bromskraften byggs upp sämre.</p></div></div></div>",
-        "ledtrad": "<p>Pedalens hävarm fyrdubblar kraften till huvudcylindern. Utgå från \\(p=F/A\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ]
+    "familjNyckel": "tryck__hydraulik_och_kompressibilitet",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Skilj på kraftförstärkning i hävarmen och i hydrauliken.</p>",
+    "traningsniva": 4,
+    "typ": "hydraulik och kompressibilitet",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.248",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "dimensionera area från högsta tillåtna tryck",
-    "poang": "(0/1/2)",
-    "t": "<p>En rund stödfot ska bära kraften \\(900\\,\\mathrm N\\) utan att marktrycket överstiger \\(80\\,\\mathrm{kPa}\\). Bestäm den minsta diameter stödfoten bör ha.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kravet på högsta tryck ger en minsta area. Därefter löses diametern ur cirkelns area.</p><div class=\"facit-matte\">\\[A_{min}=\\frac{F}{p_{max}}=0,01125\\ \\mathrm{m^2}\\]\\[d=2\\sqrt{\\frac{A}{\\pi}}=0,1197\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11,97\\ \\mathrm{cm}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "största last under tryckvillkor",
+    "poang": "(2/0/0)",
+    "t": "<p>En cirkulär stödfot med diametern 12,0 cm står på mark som bär högst 80 kPa. Anta jämnt tryck.</p><p>Bestäm den största kraft som stödfoten får belasta marken med. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>A = π · 0,060² m². F_max = p_maxA = 80 000π · 0,060² ≈ 904,78 N. Svar: 904,8 N.</p>",
+    "familj": "Största last under tryckvillkor",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__storsta_last_under_tryckvillkor",
     "svarstyp": "numeriskt",
-    "rättSvar": 11.968268,
-    "tolerans": 0.215429,
+    "rättSvar": 904.8,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Bestäm först vilken minsta area som krävs av \\(A=F/p_{max}\\).</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "cm"
+    "ledtrad": "<p>Bestäm cirkelarean innan du använder tryckgränsen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.101",
@@ -57217,89 +57631,85 @@ window.BANK = [
     ]
   },
   {
+    "id": "6.307",
+    "kap": 6,
+    "omr": "vatsketryck",
+    "t": "<p>En punkt ligger 80 cm under ytan i vatten med densiteten 1000 kg/m³.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm tryckökningen från ytan. Svara i Pa. Svara med ett heltal.</p>",
+    "s": "<p>80 cm = 0,80 m. Δp = 1000 · 9,82 · 0,80 = 7856 Pa. Svar: 7856 Pa.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Vätsketryck med enhetsbyte",
+    "typ": "vätsketryck med enhetsbyte",
+    "ledtrad": "<p>Omvandla djupet till meter.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "vatsketryck__vatsketryck_med_enhetsbyte",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7856.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "Pa",
+    "svarFormat": "numeriskt",
+    "poang": "(2/0/0)"
+  },
+  {
     "id": "6.134",
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En sugpropp med diametern 8,0 cm pressas fast mot en slät vägg så att all luft mellan proppen och väggen försvinner. Lufttrycket är 101 kPa.</p>\n<ol><li>Hur stor kraft krävs för att dra loss proppen rakt utåt?</li><li>Vad är det egentligen som håller fast proppen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I idealfallet är trycket under sugproppen noll. Tryckskillnaden blir då hela lufttrycket.</p><div class=\"facit-matte\">\\[A=\\pi(0{,}040)^2=5{,}03\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[F=\\Delta pA=101000\\cdot5{,}03\\cdot10^{-3}=508\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det är atmosfärstrycket på utsidan som pressar proppen mot väggen. På insidan saknas nästan helt ett mottryck.</p><p>Verklig lossningskraft blir mindre på grund av kvarvarande luft, läckage och deformation.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den idealiska lossningskraften är cirka \\(509\\ \\mathrm N\\). Proppen hålls fast av tryckskillnaden mot atmosfären.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Lufttryck och tryckskillnader",
+    "poang": "(1/2/0)",
+    "t": "<p>En idealiserad sugkopp med diametern 8,0 cm sitter på en slät vägg. Lufttrycket utanför är 101 kPa och trycket inuti antas noll. Kontaktarean hålls oförändrad. Frågorna gäller tryckkraften, inte deformationen när kanten dras loss.</p><ol style=\"display:grid;gap:0.85rem\"><li>Beräkna tryckkraftens belopp mot väggen.</li><li>Förklara vad som händer med denna kraft om luft läcker in och trycket inuti stiger.</li></ol>",
+    "s": "<p>a) A = π · 0,040² m². F = (101 000−0)A ≈ 507,68 N.</p><p>b) Det högre trycket på utsidan pressar sugkoppen mot väggen. När trycket inuti stiger minskar skillnaden och därmed kraften ΔpA. Vid samma tryck på båda sidor är denna nettokraft noll.</p>",
+    "familj": "Sugkopp och tryckskillnad",
     "formaga": [
-      "procedur"
+      "modellering",
+      "resonemang"
     ],
-    "familjNyckel": "tryck__lufttryck_och_tryckskillnader",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      509,
-      null
-    ],
-    "tolerans": [
-      7.635,
-      null
-    ],
-    "självrättning": [
-      true,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "familjNyckelTidigare": "tryck__lufttryck_och_tryckskillnad",
-    "ledtrad": "<p>I idealfallet är trycket under sugproppen noll. Tryckskillnaden blir då hela lufttrycket.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sugpropp med diametern 8,0 cm pressas fast mot en slät vägg så att all luft mellan proppen och väggen försvinner. Lufttrycket är 101 kPa.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor kraft krävs för att dra loss proppen rakt utåt?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I idealfallet är trycket under sugproppen noll. Tryckskillnaden blir då hela lufttrycket.</p><div class=\"facit-matte\">\\[A=\\pi(0{,}040)^2=5{,}03\\cdot10^{-3}\\ \\mathrm{m^2}\\]\\[F=\\Delta pA=101000\\cdot5{,}03\\cdot10^{-3}=508\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(508\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>I idealfallet är trycket under sugproppen noll. Tryckskillnaden blir då hela lufttrycket.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vad är det egentligen som håller fast proppen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det är atmosfärstrycket på utsidan som pressar proppen mot väggen. På insidan saknas nästan helt ett mottryck.</p><p>Verklig lossningskraft blir mindre på grund av kvarvarande luft, läckage och deformation.</p></div></div></div>",
-        "ledtrad": "<p>I idealfallet är trycket under sugproppen noll. Tryckskillnaden blir då hela lufttrycket.</p>",
-        "niva": "C"
-      }
-    ]
+    "familjNyckel": "tryck__sugkopp_och_tryckskillnad",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Vilken sida av sugkoppen har högst tryck?</p>",
+    "traningsniva": 3,
+    "typ": "sugkopp och tryckskillnad",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.249",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "dimensionera hydraulisk domkraft",
-    "poang": "(0/1/2)",
-    "t": "<p>En hydraulisk domkraft ska precis kunna lyfta en bil med massan \\(1200\\,\\mathrm{kg}\\). Lyftkolvens diameter är \\(13\\,\\mathrm{cm}\\) och pumpkolvens diameter \\(2,1\\,\\mathrm{cm}\\). Hur stor kraft måste minst appliceras på pumpkolven? Försumma friktion och höjdskillnad.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Samma tryck råder i vätskan. Sätt trycket från pumpkolven lika med trycket som krävs under lyftkolven.</p><div class=\"facit-matte\">\\[\\frac{F}{A_s}=\\frac{mg}{A_L}\\Rightarrow F=mg\\left(\\frac{d_s}{d_L}\\right)^2=307,5\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(307,5\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "största hydrauliska last",
+    "poang": "(2/0/0)",
+    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Lyftkolvens diameter är 13 cm och pumpkolvens 2,1 cm. Pumpkraften får vara högst 300 N.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den största lastmassa som kan balanseras. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>F_lyft = 300(13/2,1)². m_max = F_lyft/9,82 ≈ 1170,73 kg. Svar: 1170,7 kg.</p>",
+    "familj": "Största hydrauliska last",
     "formaga": [
-      "modellering",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__storsta_hydrauliska_last",
     "svarstyp": "numeriskt",
-    "rättSvar": 307.499645,
-    "tolerans": 5.534994,
+    "rättSvar": 1170.7,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Arbeta med areakvoten. För cirklar är \\(A_s/A_L=(d_s/d_L)^2\\).</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Förstärks kraften enligt diameterkvoten eller areakvoten?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kg",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.135",
@@ -90089,7 +90499,7 @@ window.BANK = [
     "svarEnhet": "m/s",
     "svarFormat": "numeriskt"
   },
-    {
+  {
     "id": "5.214",
     "kap": 5,
     "omr": "arbete",
@@ -91961,50 +92371,163 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(1/2/0)",
-    "t": "<p>I en tryckkokare utnyttjar man att vattnets kokpunkt ändras med trycket. Det innebär att man kan laga mat med lång koktid betydligt snabbare. Inuti tryckkokaren finns vattenånga med temperaturen \\(120\\ {^\\circ}\\mathrm{C}\\) av ett tryck på 200 kPa. Som säkerhet finns en liten vikt med massan \\(m\\) som ligger ovanpå ett hål i locket med diametern 3,0 mm. Hur stor massa har vikten om trycket utanför tryckkokaren är 101 kPa?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(m = 71\\ g\\) (har egentligen inget med gaslagen att göra…)</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "typ": "ventilens kraftbalans",
+    "poang": "(0/2/0)",
+    "t": "<p>En tryckkokares ventil täcks av en liten vikt. Hålet har diametern 3,0 mm. Ventilen börjar lyfta när absoluttrycket inuti är 200 kPa; lufttrycket utanför är 101 kPa. Försumma friktion och andra krafter på vikten.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm viktens massa. Svara i g. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Tryckskillnaden är 99 000 Pa. A = π(0,0030/2)² m². Vid lyftgränsen gäller mg = ΔpA. m = 99 000π · 0,0015²/9,82 ≈ 0,071262 kg = 71,262 g. Svar: 71,3 g.</p>",
+    "familj": "Ventilens kraftbalans",
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "modellering",
+      "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__ventilens_kraftbalans",
     "svarstyp": "numeriskt",
-    "rättSvar": 71,
-    "tolerans": 1.065,
+    "rättSvar": 71.3,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "m"
+    "ledtrad": "<p>Vilka tryck verkar på varsin sida av ventilen?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "g",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.250",
     "kap": 6,
     "omr": "tryck",
-    "niva": "A",
-    "typ": "koppla tryck till cirkulär kolvarea",
-    "poang": "(0/1/2)",
-    "t": "<p>I ett hydraulsystem är övertrycket \\(250\\,\\mathrm{kPa}\\). En rund kolv har diametern \\(3\\,\\mathrm{cm}\\). Vilken kraft kan vätskan utöva på kolven?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><p class=\"facit-metod\">Kraften är trycket gånger kolvarean.</p><div class=\"facit-matte\">\\[A=\\pi(0,015)^2=7,069\\cdot10^{-4}\\ \\mathrm{m^2}\\]\\[F=pA=176,7\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(176,7\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Tryck, kraft, area och hydraulik",
+    "niva": "E",
+    "typ": "övertryck och nettokraft",
+    "poang": "(2/0/0)",
+    "t": "<p>En rund kolv med diametern 3,0 cm utsätts för övertrycket 250 kPa.</p><p>Bestäm nettokraften från trycken på kolvens båda sidor. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>F_netto = ΔpA = 250 000π · 0,015² ≈ 176,71 N. Svar: 176,7 N.</p>",
+    "familj": "Övertryck och nettokraft",
     "formaga": [
-      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__tryck_kraft_area_och_hydraulik",
+    "familjNyckel": "tryck__overtryck_och_nettokraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 176.714587,
-    "tolerans": 3.180863,
+    "rättSvar": 176.7,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Diametern måste halveras till radie och skrivas i meter.</p>",
+    "ledtrad": "<p>Övertrycket är skillnaden mellan de två trycken.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.291",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>Trycket mot en kolv är 60 000 Pa högre på ena sidan än på den andra. Arean är 0,0020 m². Använd F = ΔpA.</p><p>Bestäm nettokraftens belopp. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>F = 60 000 · 0,0020 = 120 N. Svar: 120 N.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Övertryck och nettokraft",
+    "typ": "övertryck och nettokraft",
+    "ledtrad": "<p>Den givna tryckskillnaden ska multipliceras med arean.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__overtryck_och_nettokraft",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 120.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "N",
     "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.296",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En platta utsätts för absoluttrycken 180 kPa och 120 kPa på motsatta sidor. Arean är 50 cm².</p><p>Bestäm beloppet av tryckens nettokraft. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>Δp = 60 000 Pa och A = 0,0050 m². F = ΔpA = 300 N. Svar: 300 N.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Övertryck och nettokraft",
+    "typ": "övertryck och nettokraft",
+    "ledtrad": "<p>Subtrahera trycken innan du beräknar kraften.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__overtryck_och_nettokraft",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt",
+    "poang": "(2/0/0)"
+  },
+  {
+    "id": "6.293",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>I en behållare är absoluttrycket 140 kPa. Lufttrycket utanför är 100 kPa. Använd p_över = p_in−p_ut.</p><p>Bestäm övertrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p_över = 140−100 = 40 kPa. Svar: 40 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Övertryck och absoluttryck",
+    "typ": "övertryck och absoluttryck",
+    "ledtrad": "<p>Båda trycken anges i samma enhet.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__overtryck_och_absoluttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.294",
+    "kap": 6,
+    "omr": "tryck",
+    "t": "<p>En behållare har övertrycket 35 kPa. Lufttrycket utanför är 101 kPa. Använd p_absolut = p_luft+p_över.</p><p>Bestäm absoluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p_absolut = 101+35 = 136 kPa. Svar: 136 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Övertryck och absoluttryck",
+    "typ": "övertryck och absoluttryck",
+    "ledtrad": "<p>Addera trycket utanför och övertrycket.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "familjNyckel": "tryck__overtryck_och_absoluttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 136.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
   },
   {
     "id": "6.197",

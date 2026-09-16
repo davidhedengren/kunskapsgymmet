@@ -2381,7 +2381,7 @@ window.BANKMA2 = [
     "traningsniva": 1,
     "arbetsinsats": 1
   },
-    {
+  {
     "id": "1.71",
     "kap": 1,
     "omr": "rata_linjens_ekvation",
@@ -4674,7 +4674,7 @@ window.BANKMA2 = [
     "traningsniva": 3,
     "arbetsinsats": 1
   },
-    {
+  {
     "id": "1.148",
     "kap": 1,
     "omr": "additionsmetoden",
@@ -5804,7 +5804,7 @@ window.BANKMA2 = [
     "traningsniva": 3,
     "arbetsinsats": 2
   },
-    {
+  {
     "id": "1.202",
     "kap": 1,
     "omr": "bestamma_linjara_funktioner",
@@ -14020,7 +14020,7 @@ window.BANKMA2 = [
     "traningsniva": 1,
     "arbetsinsats": 1
   },
-    {
+  {
     "id": "2.130",
     "kap": 2,
     "omr": "losningsformel_andragrad",
@@ -16517,7 +16517,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\(x^2+10x+21=(x+5)^2-4\\)",
+    "rättSvar": "\\((x+5)^2-4\\)",
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Halvera 10. Jämför \\((x+5)^2\\) med ursprungsuttrycket och justera konstanttermen.</p>",
@@ -21522,7 +21522,7 @@ window.BANKMA2 = [
     "spel": true,
     "ledtrad": "<p>Använd toppformen med maximipunkten \\((-2,12)\\) och sätt in punkten \\((1,3)\\).</p>"
   },
-    {
+  {
     "id": "2.319",
     "kap": 2,
     "omr": "symmetrilinje_extrempunkt",
@@ -23766,7 +23766,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\(x^2-6x+13=(x-3)^2+4\\)",
+    "rättSvar": "\\((x-3)^2+4\\)",
     "tolerans": null,
     "självrättning": true,
     "traningsniva": 2,
@@ -27106,7 +27106,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\(x^2+8x+19=(x+4)^2+3\\)",
+    "rättSvar": "\\((x+4)^2+3\\)",
     "tolerans": null,
     "självrättning": true,
     "traningsniva": 2,

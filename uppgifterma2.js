@@ -40318,7 +40318,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Triangelns vinklar är \\(4x\\), \\(5x\\) och \\(6x\\). Bestäm den minsta vinkeln.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med markerade vinklar\"><line x1=\"99.6\" y1=\"235.0\" x2=\"380.4\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"380.4\" y1=\"235.0\" x2=\"270.7\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"270.7\" y1=\"45.0\" x2=\"99.6\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M127.6 235.0 A28 28 0 0 0 118.3 214.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"143.5\" y=\"215.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">4x</text><path d=\"M352.4 235.0 A28 28 0 0 1 366.4 210.8\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"338.8\" y=\"211.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">5x</text><path d=\"M252.0 65.8 A28 28 0 0 0 284.7 69.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"265.7\" y=\"92.7\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">6x</text></svg></div>",
+    "t": "<p>Triangelns vinklar är \\(4x\\), \\(5x\\) och \\(6x\\). Bestäm den minsta vinkeln.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"80\" y1=\"235\" x2=\"350\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"235\" x2=\"220\" y2=\"55\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"220\" y1=\"55\" x2=\"350\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M95.4,216.6 A24,24 0 0 1 104.0,235.0\" fill=\"none\" stroke=\"#5F8F70\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M326.0,235.0 A24,24 0 0 1 336.2,215.3\" fill=\"none\" stroke=\"#5F8F70\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M237.0,72.0 A24,24 0 0 1 203.0,72.0\" fill=\"none\" stroke=\"#5F8F70\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"104\" y=\"216\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">4x</text><text x=\"323\" y=\"216\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">5x</text><text x=\"220\" y=\"92\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">6x</text></svg></span>",
     "s": "<p>Vinkelsumman ger</p><p>\\[4x+5x+6x=180^\\circ\\Rightarrow 15x=180^\\circ\\Rightarrow x=12^\\circ.\\]</p><p>Den minsta vinkeln är \\(4x=48^\\circ\\).</p><p><strong>Svar: \\(48^\\circ\\).</strong></p>",
     "familj": "sats_bevis__vinkelrelationer",
     "formaga": [
@@ -40329,9 +40329,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 48,
-    "tolerans": 0,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först \\(x\\) med hjälp av triangelns vinkelsumma.</p>"
+    "ledtrad": "<p>Bestäm först \\(x\\) med hjälp av triangelns vinkelsumma.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.233",
@@ -40341,9 +40346,9 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>DE är parallell med BC. Vinkeln vid D är \\(70^\\circ\\) och vinkeln vid C är \\(70^\\circ\\). Bestäm toppvinkeln \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel ABC där DE är parallell med BC\"><line x1=\"170.8\" y1=\"235.0\" x2=\"309.2\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"309.2\" y1=\"235.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"170.8\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"205.4\" y1=\"140.0\" x2=\"274.6\" y2=\"140.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M212.6 120.3 A21 21 0 0 1 226.4 140.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"237.4\" y=\"117.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">70°</text><path d=\"M285.2 235.0 A24 24 0 0 1 300.9 212.4\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"273.9\" y=\"210.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">70°</text><path d=\"M231.4 68.5 A25 25 0 0 0 248.6 68.5\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"240.0\" y=\"90.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><text x=\"240.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">A</text><text x=\"157.8\" y=\"249.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">B</text><text x=\"322.2\" y=\"249.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">C</text><text x=\"193.4\" y=\"140.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">D</text><text x=\"286.6\" y=\"140.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">E</text></svg></div>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>I triangeln \\(ABC\\) ligger \\(D\\) på \\(AB\\) och \\(E\\) på \\(AC\\). Det gäller att \\(DE\\parallel BC\\). Vinkeln \\(\\angle ADE=70^\\circ\\) och \\(\\angle ACB=70^\\circ\\).</p><p>Bestäm toppvinkeln \\(x\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"215\" y1=\"48\" x2=\"72\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"215\" y1=\"48\" x2=\"358\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"245\" x2=\"358\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"135\" y1=\"158\" x2=\"286\" y2=\"158\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"215\" y=\"83\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">x</text><text x=\"163\" y=\"174\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"500\" fill=\"#403D43\">70°</text><text x=\"327\" y=\"225\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"15\" font-weight=\"500\" fill=\"#403D43\">70°</text><text x=\"53\" y=\"263\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">B</text><text x=\"377\" y=\"263\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">C</text><text x=\"207\" y=\"33\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">A</text><text x=\"121\" y=\"153\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">D</text><text x=\"300\" y=\"153\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">E</text><line x1=\"198\" y1=\"239\" x2=\"208\" y2=\"231\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217\" y1=\"239\" x2=\"227\" y2=\"231\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"200\" y1=\"158\" x2=\"210\" y2=\"150\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"219\" y1=\"158\" x2=\"229\" y2=\"150\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg></span>",
     "s": "<p>Eftersom DE är parallell med BC är vinkeln vid B lika stor som vinkeln vid D, alltså \\(70^\\circ\\). Triangel ABC har då två vinklar på \\(70^\\circ\\).</p><p>\\[x=180^\\circ-70^\\circ-70^\\circ=40^\\circ.\\]</p><p><strong>Svar: \\(40^\\circ\\).</strong></p>",
     "familj": "sats_bevis__parallella_linjer_och_triangel",
     "formaga": [
@@ -40355,9 +40360,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 0,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Flytta först vinkeln vid D till vinkeln vid B med hjälp av de parallella linjerna. Använd sedan triangelns vinkelsumma.</p>"
+    "ledtrad": "<p>Flytta först vinkeln vid D till vinkeln vid B med hjälp av de parallella linjerna. Använd sedan triangelns vinkelsumma.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.234",
@@ -40369,7 +40379,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Triangeln är likbent och de markerade sidorna är lika långa. Yttervinkeln är \\(124^\\circ\\). Bestäm \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Likbent triangel med yttervinkel\"><line x1=\"125.4\" y1=\"235.0\" x2=\"354.6\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"354.6\" y1=\"235.0\" x2=\"226.4\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"226.4\" y1=\"45.0\" x2=\"125.4\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"354.6\" y1=\"235.0\" x2=\"455.0\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"228.0\" x2=\"240.0\" y2=\"242.0\" stroke=\"#2b2527\" stroke-width=\"2\"/><line x1=\"284.7\" y1=\"143.9\" x2=\"296.3\" y2=\"136.1\" stroke=\"#2b2527\" stroke-width=\"2\"/><path d=\"M151.4 235.0 A26 26 0 0 0 137.6 212.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"164.8\" y=\"211.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M214.2 68.0 A26 26 0 0 0 241.0 66.6\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"228.8\" y=\"90.9\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M338.4 211.0 A29 29 0 0 1 383.6 235.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"379.0\" y=\"189.1\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">124°</text></svg></div>",
+    "t": "<p>Triangeln är likbent och de markerade sidorna är lika långa. Yttervinkeln är \\(124^\\circ\\). Bestäm \\(x\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"78\" y1=\"235\" x2=\"352\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"78\" y1=\"235\" x2=\"235\" y2=\"55\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"235\" y1=\"55\" x2=\"352\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"352\" y1=\"235\" x2=\"410\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"229\" x2=\"205\" y2=\"241\" stroke=\"#7A777D\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"291\" y1=\"136\" x2=\"302\" y2=\"129\" stroke=\"#7A777D\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"111\" y=\"217\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">x</text><text x=\"235\" y=\"92\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">x</text><text x=\"383\" y=\"218\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">124°</text></svg></span>",
     "s": "<p>Yttervinkeln är summan av de två motstående inre vinklarna. De två vinklarna är lika stora, så</p><p>\\[x+x=124^\\circ\\Rightarrow 2x=124^\\circ\\Rightarrow x=62^\\circ.\\]</p><p><strong>Svar: \\(62^\\circ\\).</strong></p>",
     "familj": "sats_bevis__likbent_yttervinkel",
     "formaga": [
@@ -40380,9 +40390,14 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 62,
-    "tolerans": 0,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>"
+    "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.235",
@@ -40394,7 +40409,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Triangeln är likbent och de markerade sidorna är lika långa. Bestäm \\(x\\) och \\(y\\). Motivera varje steg.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Likbent triangel med två okända vinklar\"><line x1=\"163.2\" y1=\"235.0\" x2=\"316.8\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"316.8\" y1=\"235.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"163.2\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"195.1\" y1=\"137.4\" x2=\"208.1\" y2=\"142.6\" stroke=\"#2b2527\" stroke-width=\"2\"/><line x1=\"271.9\" y1=\"142.6\" x2=\"284.9\" y2=\"137.4\" stroke=\"#2b2527\" stroke-width=\"2\"/><path d=\"M189.2 235.0 A26 26 0 0 0 173.0 210.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"201.4\" y=\"209.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M290.8 235.0 A26 26 0 0 1 307.0 210.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"278.6\" y=\"209.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">68°</text><path d=\"M229.5 71.0 A28 28 0 0 0 250.5 71.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"240.0\" y=\"94.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">y</text></svg></div>",
+    "t": "<p>Triangeln är likbent och de markerade sidorna är lika långa. Bestäm \\(x\\) och \\(y\\). Motivera varje steg.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"80\" y1=\"238\" x2=\"350\" y2=\"238\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"80\" y1=\"238\" x2=\"215\" y2=\"55\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"215\" y1=\"55\" x2=\"350\" y2=\"238\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"143\" y1=\"147\" x2=\"153\" y2=\"154\" stroke=\"#7A777D\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"278\" y1=\"150\" x2=\"288\" y2=\"143\" stroke=\"#7A777D\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"108\" y=\"219\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">x</text><text x=\"323\" y=\"219\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">68°</text><text x=\"216\" y=\"91\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">y</text></svg></span>",
     "s": "<p>De lika långa sidorna AC och BC gör att basvinklarna vid A och B är lika stora. Därför är</p><p>\\[x=68^\\circ.\\]</p><p>Triangelns vinkelsumma är \\(180^\\circ\\), alltså</p><p>\\[y=180^\\circ-68^\\circ-68^\\circ=44^\\circ.\\]</p><p><strong>Svar: \\(x=68^\\circ\\), \\(y=44^\\circ\\).</strong></p>",
     "familj": "sats_bevis__motivera_flera_steg",
     "formaga": [
@@ -40407,7 +40422,10 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Börja med att använda egenskapen hos en likbent triangel. Ta sedan den sista vinkeln med vinkelsumman.</p>"
+    "ledtrad": "<p>Börja med att använda egenskapen hos en likbent triangel. Ta sedan den sista vinkeln med vinkelsumman.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "3.236",
@@ -40419,20 +40437,40 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>De två motstående inre vinklarna är \\(46^\\circ\\) och \\(73^\\circ\\). Bestäm yttervinkeln \\(w\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med yttervinkel\"><line x1=\"95.6\" y1=\"235.0\" x2=\"384.4\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"384.4\" y1=\"235.0\" x2=\"279.1\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"279.1\" y1=\"45.0\" x2=\"95.6\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"384.4\" y1=\"235.0\" x2=\"455.0\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M121.6 235.0 A26 26 0 0 0 113.7 216.3\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"137.9\" y=\"217.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">46°</text><path d=\"M261.0 63.7 A26 26 0 0 0 291.7 67.7\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"273.1\" y=\"90.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">73°</text><path d=\"M370.3 209.6 A29 29 0 0 1 413.4 235.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"410.8\" y=\"190.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">w</text></svg></div>",
-    "s": "<p>En yttervinkel är summan av de två motstående inre vinklarna:</p><p>\\[w=46^\\circ+73^\\circ=119^\\circ.\\]</p><p><strong>Svar: \\(119^\\circ\\).</strong></p>",
-    "familj": "sats_bevis__yttervinkelsatsen_berakning",
+    "t": "<p>Två vinklar i en triangel är \\(46^\\circ\\) och \\(73^\\circ\\). Vilket samband använder du för att bestämma den tredje vinkeln?</p>",
+    "s": "<p>De tre inre vinklarna i en triangel har summan \\(180^\\circ\\). Det är därför triangelns vinkelsumma som används.</p><p><strong>Triangelns vinkelsumma.</strong></p>",
+    "familj": "sats_bevis__valj_sats",
     "formaga": [
-      "procedur",
       "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 119,
-    "tolerans": 0,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Använd yttervinkelsatsen.</p>"
+    "ledtrad": "<p>Vilket grundläggande samband gäller för de tre inre vinklarna i varje triangel?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Triangelns vinkelsumma är 180°",
+        "ratt": true
+      },
+      {
+        "txt": "Pythagoras sats",
+        "ratt": false
+      },
+      {
+        "txt": "Kordasatsen",
+        "ratt": false
+      },
+      {
+        "txt": "Mittpunktsformeln",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.237",
@@ -40444,7 +40482,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>I triangeln är två vinklar \\(x\\) och \\(x-12^\\circ\\). Alla vinklar ska vara positiva heltal i grader.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel\"><line x1=\"70.0\" y1=\"225.0\" x2=\"410.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"410.0\" y1=\"225.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"70.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M98.0 225.0 A28 28 0 0 0 89.2 204.6\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"114.1\" y=\"206.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M382.0 225.0 A28 28 0 0 1 390.8 204.6\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"365.9\" y=\"206.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x−12°</text><path d=\"M220.8 65.4 A28 28 0 0 0 259.2 65.4\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"240.0\" y=\"93.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">y</text></svg></div><p>Vilka heltalsvärden kan \\(x\\) ha? Motivera.</p>",
+    "t": "<p>I triangeln är två vinklar \\(x\\) och \\(x-12^\\circ\\). Alla vinklar ska vara positiva heltal i grader.</p><p>Vilka heltalsvärden kan \\(x\\) ha? Motivera.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"74\" y1=\"238\" x2=\"358\" y2=\"238\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"74\" y1=\"238\" x2=\"220\" y2=\"54\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"220\" y1=\"54\" x2=\"358\" y2=\"238\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"105\" y=\"220\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">x</text><text x=\"323\" y=\"220\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">x−12°</text><text x=\"220\" y=\"92\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">y</text></svg></span>",
     "s": "<p>Den tredje vinkeln är</p><p>\\[180^\\circ-x-(x-12^\\circ)=192^\\circ-2x.\\]</p><p>Alla vinklar måste vara positiva. Därför krävs \\(x-12>0\\), alltså \\(x>12\\), och \\(192-2x>0\\), alltså \\(x<96\\).</p><p>Eftersom \\(x\\) ska vara ett heltal kan</p><p>\\[x=13,14,\\ldots,95.\\]</p>",
     "familj": "sats_bevis__villkor_vinklar",
     "formaga": [
@@ -40457,7 +40495,10 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv den tredje vinkeln med hjälp av vinkelsumman och kräv sedan att alla tre vinklar är större än 0.</p>"
+    "ledtrad": "<p>Skriv den tredje vinkeln med hjälp av vinkelsumman och kräv sedan att alla tre vinklar är större än 0.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "3.238",
@@ -40469,7 +40510,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Linjerna skär varandra i en punkt. Vinklarna \\(u\\) och \\(v\\) är vertikalvinklar.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två skärande linjer med vertikalvinklarna u och v\">\n<line x1=\"80\" y1=\"50\" x2=\"400\" y2=\"230\" stroke=\"#2b2527\" stroke-width=\"2.3\"/>\n<line x1=\"80\" y1=\"230\" x2=\"400\" y2=\"50\" stroke=\"#2b2527\" stroke-width=\"2.3\"/>\n<path d=\"M221 129 A22 22 0 0 1 259 129\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/>\n<path d=\"M259 151 A22 22 0 0 1 221 151\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/>\n<path d=\"M276 120 A42 42 0 0 1 276 160\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/>\n<text x=\"240\" y=\"104\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">u</text>\n<text x=\"240\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">v</text>\n<text x=\"303\" y=\"140\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">z</text>\n</svg></div><p>Visa att \\(u=v\\). Motivera varje steg.</p>",
+    "t": "<p>Linjerna skär varandra i en punkt. Vinklarna \\(u\\) och \\(v\\) är vertikalvinklar.</p><p>Visa att \\(u=v\\). Motivera varje steg.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"72\" y1=\"70\" x2=\"356\" y2=\"230\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75\" y1=\"230\" x2=\"354\" y2=\"70\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"210\" y=\"120\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">u</text><text x=\"210\" y=\"215\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">v</text><text x=\"287\" y=\"151\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">z</text></svg></span>",
     "s": "<p>Vinkeln \\(u\\) och vinkeln \\(z\\) är sidovinklar, så</p><p>\\[u+z=180^\\circ.\\]</p><p>Även \\(v\\) och \\(z\\) är sidovinklar, så</p><p>\\[v+z=180^\\circ.\\]</p><p>Därför gäller \\(u+z=v+z\\). Subtrahera \\(z\\) från båda leden:</p><p>\\[u=v.\\]</p><p>Alltså är vertikalvinklar lika stora.</p>",
     "familj": "sats_bevis__bevisa_vertikalvinklar",
     "formaga": [
@@ -40482,7 +40523,10 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Jämför \\(u\\) och \\(v\\) genom att använda samma sidovinkel \\(z\\).</p>"
+    "ledtrad": "<p>Jämför \\(u\\) och \\(v\\) genom att använda samma sidovinkel \\(z\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false
   },
   {
     "id": "3.239",
@@ -40494,7 +40538,7 @@ window.BANKMA2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>I figuren är \\(w\\) en yttervinkel till triangeln. Visa att \\(w=u+v\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med en yttervinkel\"><line x1=\"75.0\" y1=\"225.0\" x2=\"335.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"335.0\" y1=\"225.0\" x2=\"215.0\" y2=\"55.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"215.0\" y1=\"55.0\" x2=\"75.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"335.0\" y1=\"225.0\" x2=\"455.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M101.0 225.0 A26 26 0 0 0 91.5 204.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"116.6\" y=\"205.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">u</text><path d=\"M198.5 75.1 A26 26 0 0 0 230.0 76.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"213.3\" y=\"101.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">v</text><path d=\"M318.3 201.3 A29 29 0 0 1 364.0 225.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"358.0\" y=\"180.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">w</text></svg></div>",
+    "t": "<p>I figuren är \\(w\\) en yttervinkel till triangeln. Visa att \\(w=u+v\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"70\" y1=\"235\" x2=\"328\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"70\" y1=\"235\" x2=\"210\" y2=\"55\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"210\" y1=\"55\" x2=\"328\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"328\" y1=\"235\" x2=\"410\" y2=\"235\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"102\" y=\"216\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">u</text><text x=\"211\" y=\"92\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">v</text><text x=\"365\" y=\"215\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"17\" font-weight=\"500\" fill=\"#403D43\">w</text></svg></span>",
     "s": "<p>Låt den inre vinkeln intill \\(w\\) vara \\(z\\). Eftersom \\(z\\) och \\(w\\) är sidovinklar gäller</p><p>\\[z+w=180^\\circ.\\]</p><p>Triangelns vinkelsumma ger samtidigt</p><p>\\[u+v+z=180^\\circ.\\]</p><p>Båda vänsterleden är alltså lika med \\(180^\\circ\\). Då är</p><p>\\[z+w=u+v+z.\\]</p><p>Subtrahera \\(z\\) från båda leden:</p><p>\\[w=u+v.\\]</p><p>Därmed är yttervinkelsatsen visad.</p>",
     "familj": "sats_bevis__bevisa_yttervinkelsatsen",
     "formaga": [
@@ -40507,7 +40551,10 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Inför den inre vinkeln bredvid \\(w\\). Skriv en ekvation för sidovinklarna och en för triangelns vinkelsumma.</p>"
+    "ledtrad": "<p>Inför den inre vinkeln bredvid \\(w\\). Skriv en ekvation för sidovinklarna och en för triangelns vinkelsumma.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
   },
   {
     "kap": 3,
@@ -40520,7 +40567,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40532,7 +40579,12 @@ window.BANKMA2 = [
     "familj": "pythagoras__berakna_hypotenusa",
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "ledtrad": "<p>Hypotenusan är sidan mittemot den räta vinkeln. Använd \\(a^2+b^2=c^2\\).</p>"
+    "ledtrad": "<p>Hypotenusan är sidan mittemot den räta vinkeln. Använd \\(a^2+b^2=c^2\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
   },
   {
     "kap": 3,
@@ -40545,7 +40597,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40557,7 +40609,12 @@ window.BANKMA2 = [
     "familj": "pythagoras__berakna_katet",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "ledtrad": "<p>När hypotenusan är känd kan du skriva \\(x^2=c^2-a^2\\).</p>"
+    "ledtrad": "<p>När hypotenusan är känd kan du skriva \\(x^2=c^2-a^2\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
   },
   {
     "kap": 3,
@@ -40570,7 +40627,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40582,7 +40639,12 @@ window.BANKMA2 = [
     "familj": "pythagoras__rektangel_diagonal",
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "ledtrad": "<p>Rita in diagonalen. Rektangelns sidor blir kateter i en rätvinklig triangel.</p>"
+    "ledtrad": "<p>Rita in diagonalen. Rektangelns sidor blir kateter i en rätvinklig triangel.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
   },
   {
     "kap": 3,
@@ -40607,12 +40669,14 @@ window.BANKMA2 = [
     "familj": "pythagoras__kvadrat_diagonal",
     "svarstyp": "uttryck",
     "rättSvar": "6*sqrt(2)",
-    "ledtrad": "<p>Diagonalen delar kvadraten i två rätvinkliga trianglar.</p>"
+    "ledtrad": "<p>Diagonalen delar kvadraten i två rätvinkliga trianglar.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40620,7 +40684,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40632,12 +40696,15 @@ window.BANKMA2 = [
     "familj": "likformighet__bestam_langdskala",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "ledtrad": "<p>Dela en längd i den stora figuren med motsvarande längd i den lilla.</p>"
+    "ledtrad": "<p>Dela en längd i den stora figuren med motsvarande längd i den lilla.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40645,7 +40712,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40657,12 +40724,16 @@ window.BANKMA2 = [
     "familj": "likformighet__motsvarande_sida",
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "ledtrad": "<p>Multiplicera den lilla figurens längd med längdskalan.</p>"
+    "ledtrad": "<p>Multiplicera den lilla figurens längd med längdskalan.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40670,7 +40741,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40682,12 +40753,16 @@ window.BANKMA2 = [
     "familj": "likformighet__areaskala",
     "svarstyp": "numeriskt",
     "rättSvar": 72,
-    "ledtrad": "<p>När längder multipliceras med \\(k\\), multipliceras areor med \\(k^2\\).</p>"
+    "ledtrad": "<p>När längder multipliceras med \\(k\\), multipliceras areor med \\(k^2\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40695,7 +40770,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -40708,12 +40783,15 @@ window.BANKMA2 = [
     "familj": "likformighet__fran_area_till_langdskala",
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "ledtrad": "<p>Bestäm först areaskalan. Längdskalan är kvadratroten ur areaskalan.</p>"
+    "ledtrad": "<p>Bestäm först areaskalan. Längdskalan är kvadratroten ur areaskalan.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40731,14 +40809,26 @@ window.BANKMA2 = [
     "t": "<p>Är påståendet sant eller falskt?</p><p>”Om en fyrhörning är en kvadrat, så är den en parallellogram.”</p>",
     "s": "<p>En kvadrat har två par motstående sidor som är parallella och är därför en parallellogram.</p><p><strong>Svar: Sant.</strong></p>",
     "familj": "implikation_ekvivalens__bedom_implikation",
-    "svarstyp": "val",
-    "rättSvar": "Sant",
-    "ledtrad": "<p>Utgå från egenskaperna hos en kvadrat och jämför med definitionen av parallellogram.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Utgå från egenskaperna hos en kvadrat och jämför med definitionen av parallellogram.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Sant",
+        "ratt": true
+      },
+      {
+        "txt": "Falskt",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40757,14 +40847,26 @@ window.BANKMA2 = [
     "t": "<p>Är det omvända påståendet sant?</p><p>”Om en triangel är liksidig, så är den likbent.”</p>",
     "s": "<p>Det omvända är: ”Om en triangel är likbent, så är den liksidig.” Det är inte sant; en likbent triangel behöver bara ha två lika långa sidor.</p><p><strong>Svar: Nej.</strong></p>",
     "familj": "implikation_ekvivalens__omvant_pastaende",
-    "svarstyp": "val",
-    "rättSvar": "Nej",
-    "ledtrad": "<p>Byt plats på antagande och slutsats och kontrollera om det nya påståendet alltid gäller.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Byt plats på antagande och slutsats och kontrollera om det nya påståendet alltid gäller.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ja",
+        "ratt": false
+      },
+      {
+        "txt": "Nej",
+        "ratt": true
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40782,14 +40884,30 @@ window.BANKMA2 = [
     "t": "<p>Vilken symbol passar?</p><p>\\(x=3\\) ___ \\(x^2=9\\)</p><p>Välj \\(\\Rightarrow\\), \\(\\Leftarrow\\) eller \\(\\Leftrightarrow\\).</p>",
     "s": "<p>Om \\(x=3\\), så är \\(x^2=9\\). Men \\(x^2=9\\) kan också ge \\(x=-3\\). Sambandet gäller därför bara åt höger.</p><p><strong>Svar: \\(\\Rightarrow\\).</strong></p>",
     "familj": "implikation_ekvivalens__valj_symbol",
-    "svarstyp": "val",
-    "rättSvar": "\\Rightarrow",
-    "ledtrad": "<p>Kontrollera båda riktningarna var för sig.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Kontrollera båda riktningarna var för sig.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\Rightarrow\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\Leftarrow\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\Leftrightarrow\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40807,14 +40925,30 @@ window.BANKMA2 = [
     "t": "<p>Vilken symbol passar?</p><p>”Triangeln är liksidig” ___ ”Triangelns tre vinklar är 60°”.</p><p>Välj \\(\\Rightarrow\\), \\(\\Leftarrow\\) eller \\(\\Leftrightarrow\\).</p>",
     "s": "<p>En liksidig triangel har tre vinklar på 60°. Om alla tre vinklar är 60° är triangeln också liksidig. Sambandet gäller åt båda håll.</p><p><strong>Svar: \\(\\Leftrightarrow\\).</strong></p>",
     "familj": "implikation_ekvivalens__ekvivalens_geometri",
-    "svarstyp": "val",
-    "rättSvar": "\\Leftrightarrow",
-    "ledtrad": "<p>Fråga både: följer höger sida av vänster, och följer vänster sida av höger?</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Fråga både: följer höger sida av vänster, och följer vänster sida av höger?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\Rightarrow\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\Leftarrow\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\Leftrightarrow\\)",
+        "ratt": true
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40832,14 +40966,34 @@ window.BANKMA2 = [
     "t": "<p>Påståendet är: ”Om ett heltal är delbart med 4, så är det jämnt.” Vilken del är <em>antagandet</em>?</p>",
     "s": "<p>I ett påstående av formen ”om A, så B” är A antagandet.</p><p><strong>Svar: Att heltalet är delbart med 4.</strong></p>",
     "familj": "implikation_ekvivalens__antagande_slutsats",
-    "svarstyp": "val",
-    "rättSvar": "Att heltalet är delbart med 4",
-    "ledtrad": "<p>Antagandet står efter ”om”.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Antagandet står efter ”om”.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Att heltalet är delbart med 4",
+        "ratt": true
+      },
+      {
+        "txt": "Att heltalet är jämnt",
+        "ratt": false
+      },
+      {
+        "txt": "Att heltalet är udda",
+        "ratt": false
+      },
+      {
+        "txt": "Att heltalet är större än 4",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40857,14 +41011,34 @@ window.BANKMA2 = [
     "t": "<p>Två trianglar har vinklarna 40°, 60°, 80° respektive 40°, 60°, 80°. Vilken likformighetsidé visar direkt att trianglarna är likformiga?</p>",
     "s": "<p>Trianglarna har parvis lika stora vinklar. Två lika vinklar räcker för att visa likformighet.</p><p><strong>Svar: Vinkel–vinkel.</strong></p>",
     "familj": "bevis_likformighet__valj_likformighetsfall",
-    "svarstyp": "val",
-    "rättSvar": "Vinkel–vinkel",
-    "ledtrad": "<p>Jämför triangelns vinklar, inte sidornas absoluta längder.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Jämför triangelns vinklar, inte sidornas absoluta längder.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Vinkel–vinkel",
+        "ratt": true
+      },
+      {
+        "txt": "Pythagoras sats",
+        "ratt": false
+      },
+      {
+        "txt": "Kordasatsen",
+        "ratt": false
+      },
+      {
+        "txt": "Mittpunktsformeln",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40882,14 +41056,34 @@ window.BANKMA2 = [
     "t": "<p>I triangeln ABC ligger D på AB och E på AC. Det gäller att DE är parallell med BC. Vilken vinkel i den stora triangeln är lika stor som \\(\\angle ADE\\)?</p>",
     "s": "<p>Eftersom \\(DE\\parallel BC\\) är \\(\\angle ADE\\) och \\(\\angle ABC\\) likbelägna vinklar.</p><p><strong>Svar: \\(\\angle ABC\\).</strong></p>",
     "familj": "bevis_likformighet__parallella_linjer_vinkel",
-    "svarstyp": "val",
-    "rättSvar": "\\angle ABC",
-    "ledtrad": "<p>AD ligger på samma linje som AB och DE är parallell med BC.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>AD ligger på samma linje som AB och DE är parallell med BC.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\angle ABC\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\angle ACB\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\angle BAC\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\angle BCA\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40907,14 +41101,34 @@ window.BANKMA2 = [
     "t": "<p>I triangeln ABC ligger D på AB och E på AC, och \\(DE\\parallel BC\\). Vilket påstående är korrekt?</p>",
     "s": "<p>Parallelliteten ger två par lika stora vinklar. Därför är den lilla triangeln ADE likformig med hela triangeln ABC.</p><p><strong>Svar: \\(\\triangle ADE\\sim\\triangle ABC\\).</strong></p>",
     "familj": "bevis_likformighet__identifiera_likformiga_trianglar",
-    "svarstyp": "val",
-    "rättSvar": "△ADE∼△ABC",
-    "ledtrad": "<p>Jämför vinklarna som bildas av de parallella linjerna.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Jämför vinklarna som bildas av de parallella linjerna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\triangle ADE\\sim\\triangle ABC\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\triangle ADE\\cong\\triangle ABC\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(DE=BC\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(AD=AB\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40933,14 +41147,34 @@ window.BANKMA2 = [
     "t": "<p>Trianglarna ABC och DEF är likformiga. Sidorna AB och DE motsvarar varandra, liksom AC och DF. Vilken proportion är korrekt?</p>",
     "s": "<p>Motsvarande sidor måste stå i samma ordning i kvoterna.</p><p><strong>Svar: \\(\\frac{AB}{DE}=\\frac{AC}{DF}\\).</strong></p>",
     "familj": "bevis_likformighet__skriv_proportion",
-    "svarstyp": "val",
-    "rättSvar": "AB/DE=AC/DF",
-    "ledtrad": "<p>Para ihop motsvarande sidor innan du skriver kvoterna.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Para ihop motsvarande sidor innan du skriver kvoterna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\dfrac{AB}{DE}=\\dfrac{AC}{DF}\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\dfrac{AB}{DF}=\\dfrac{AC}{DE}\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\dfrac{AB}{AC}=\\dfrac{DF}{DE}\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(AB+DE=AC+DF\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40959,14 +41193,26 @@ window.BANKMA2 = [
     "t": "<p>Två trianglar har sidlängderna 3, 4, 5 respektive 6, 8, 10. Är trianglarna likformiga?</p>",
     "s": "<p>Kvoterna mellan motsvarande sidor är \\(6/3=8/4=10/5=2\\). Alla sidor har alltså samma längdskala.</p><p><strong>Svar: Ja.</strong></p>",
     "familj": "bevis_likformighet__sss_enkel",
-    "svarstyp": "val",
-    "rättSvar": "Ja",
-    "ledtrad": "<p>Beräkna kvoten mellan varje par motsvarande sidor.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Beräkna kvoten mellan varje par motsvarande sidor.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ja",
+        "ratt": true
+      },
+      {
+        "txt": "Nej",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -40985,14 +41231,26 @@ window.BANKMA2 = [
     "t": "<p>Två trianglar har två par lika stora vinklar. Behöver du kontrollera den tredje vinkeln för att kunna avgöra om trianglarna är likformiga?</p>",
     "s": "<p>Nej. När två vinklar är lika måste även den tredje vara lika, eftersom vinkelsumman är 180° i båda trianglarna.</p><p><strong>Svar: Nej.</strong></p>",
     "familj": "bevis_likformighet__vv_forstaelse",
-    "svarstyp": "val",
-    "rättSvar": "Nej",
-    "ledtrad": "<p>Använd att vinkelsumman i varje triangel är 180°.</p>"
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "ledtrad": "<p>Använd att vinkelsumman i varje triangel är 180°.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ja",
+        "ratt": false
+      },
+      {
+        "txt": "Nej",
+        "ratt": true
+      }
+    ]
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41000,24 +41258,27 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "id": "3.259",
     "omr": "topptriangel_transversal",
-    "t": "<p>I triangeln ABC ligger D på AB och E på AC. Det gäller att \\(DE\\parallel BC\\). Om \\(AD=3\\), \\(AB=9\\) och \\(DE=4\\), bestäm \\(BC\\).</p>",
+    "t": "<p>I triangeln \\(ABC\\) ligger \\(D\\) på \\(AB\\) och \\(E\\) på \\(AC\\). Det gäller att \\(DE\\parallel BC\\).</p><p>Om \\(AD=3\\), \\(AB=9\\) och \\(DE=4\\), bestäm \\(BC\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"214\" y1=\"46\" x2=\"72\" y2=\"246\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"214\" y1=\"46\" x2=\"360\" y2=\"246\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"246\" x2=\"360\" y2=\"246\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"147\" y1=\"141\" x2=\"281\" y2=\"141\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"164\" y=\"105\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">AD=3</text><text x=\"92\" y=\"195\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">AB=9</text><text x=\"221\" y=\"132\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">DE=4</text><text x=\"205\" y=\"31\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">A</text><text x=\"56\" y=\"263\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">B</text><text x=\"377\" y=\"263\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">C</text><text x=\"133\" y=\"137\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">D</text><text x=\"295\" y=\"137\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">E</text><line x1=\"198\" y1=\"241\" x2=\"208\" y2=\"233\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217\" y1=\"241\" x2=\"227\" y2=\"233\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"199\" y1=\"141\" x2=\"209\" y2=\"133\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"218\" y1=\"141\" x2=\"228\" y2=\"133\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg></span>",
     "s": "<p>Trianglarna ADE och ABC är likformiga. Längdskalan från den lilla till den stora är \\(AB/AD=9/3=3\\). Därför är \\(BC=4\\cdot3=12\\).</p><p><strong>Svar: 12.</strong></p>",
     "familj": "topptriangel_transversal__bestam_bas",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "ledtrad": "<p>DE och BC är motsvarande sidor. Bestäm först längdskalan med AB och AD.</p>"
+    "ledtrad": "<p>DE och BC är motsvarande sidor. Bestäm först längdskalan med AB och AD.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41025,7 +41286,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41037,12 +41298,15 @@ window.BANKMA2 = [
     "familj": "topptriangel_transversal__bestam_delstracka",
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "ledtrad": "<p>Beräkna först AB. Använd sedan att den lilla och stora triangeln är likformiga.</p>"
+    "ledtrad": "<p>Beräkna först AB. Använd sedan att den lilla och stora triangeln är likformiga.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41050,7 +41314,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41062,12 +41326,15 @@ window.BANKMA2 = [
     "familj": "topptriangel_transversal__bestam_hel_sida",
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "ledtrad": "<p>Skriv en proportion med AD/AB och AE/AC.</p>"
+    "ledtrad": "<p>Skriv en proportion med AD/AB och AE/AC.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41075,7 +41342,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41087,11 +41354,16 @@ window.BANKMA2 = [
     "familj": "topptriangel_transversal__langdskala",
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "ledtrad": "<p>DE motsvarar BC. Multiplicera den stora längden med längdskalan.</p>"
+    "ledtrad": "<p>DE motsvarar BC. Multiplicera den stora längden med längdskalan.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41111,11 +41383,15 @@ window.BANKMA2 = [
     "familj": "avstandsformeln_mittpunktsformeln__mittpunkt",
     "svarstyp": "uttryck",
     "rättSvar": "(5,7)",
-    "ledtrad": "<p>Ta medelvärdet av de två x-koordinaterna och sedan av de två y-koordinaterna.</p>"
+    "ledtrad": "<p>Ta medelvärdet av de två x-koordinaterna och sedan av de två y-koordinaterna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "kap": 3,
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41123,7 +41399,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41135,11 +41411,16 @@ window.BANKMA2 = [
     "familj": "avstandsformeln_mittpunktsformeln__avstand",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "ledtrad": "<p>Skillnaderna i x- och y-led är kateter i en rätvinklig triangel.</p>"
+    "ledtrad": "<p>Skillnaderna i x- och y-led är kateter i en rätvinklig triangel.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41159,11 +41440,15 @@ window.BANKMA2 = [
     "familj": "avstandsformeln_mittpunktsformeln__saknad_andpunkt",
     "svarstyp": "uttryck",
     "rättSvar": "(5,8)",
-    "ledtrad": "<p>Använd mittpunktsformeln en koordinat i taget.</p>"
+    "ledtrad": "<p>Använd mittpunktsformeln en koordinat i taget.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "kap": 3,
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41171,7 +41456,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41183,11 +41468,16 @@ window.BANKMA2 = [
     "familj": "avstandsformeln_mittpunktsformeln__avstand",
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "ledtrad": "<p>Beräkna först skillnaden i x-led och y-led. Använd sedan Pythagoras sats.</p>"
+    "ledtrad": "<p>Beräkna först skillnaden i x-led och y-led. Använd sedan Pythagoras sats.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41195,23 +41485,28 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "id": "3.267",
     "omr": "koordinatgeometri_problemlosning",
-    "t": "<p>Triangeln har hörnen \\(A=(0,0)\\), \\(B=(8,0)\\) och \\(C=(8,6)\\). Bestäm längden AC.</p>",
+    "t": "<p>Triangeln har hörnen \\(A=(0,0)\\), \\(B=(8,0)\\) och \\(C=(8,6)\\). Bestäm längden \\(AC\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><g stroke=\"#ECE9EE\" stroke-width=\"1\"><line x1=\"65\" y1=\"40\" x2=\"65\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"95\" y1=\"40\" x2=\"95\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"125\" y1=\"40\" x2=\"125\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"155\" y1=\"40\" x2=\"155\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"185\" y1=\"40\" x2=\"185\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"215\" y1=\"40\" x2=\"215\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"245\" y1=\"40\" x2=\"245\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"275\" y1=\"40\" x2=\"275\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"305\" y1=\"40\" x2=\"305\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"335\" y1=\"40\" x2=\"335\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"365\" y1=\"40\" x2=\"365\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"40\" x2=\"365\" y2=\"40\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"70\" x2=\"365\" y2=\"70\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"100\" x2=\"365\" y2=\"100\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"130\" x2=\"365\" y2=\"130\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"160\" x2=\"365\" y2=\"160\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"190\" x2=\"365\" y2=\"190\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"220\" x2=\"365\" y2=\"220\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"250\" x2=\"365\" y2=\"250\" stroke=\"#ECE9EE\" stroke-width=\"1\" stroke-linecap=\"round\"/></g><line x1=\"65\" y1=\"250\" x2=\"380\" y2=\"250\" stroke=\"#77737A\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"260\" x2=\"65\" y2=\"30\" stroke=\"#77737A\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"250\" x2=\"305\" y2=\"250\" stroke=\"#403D43\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"305\" y1=\"250\" x2=\"305\" y2=\"70\" stroke=\"#403D43\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"250\" x2=\"305\" y2=\"70\" stroke=\"#403D43\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"65\" cy=\"250\" r=\"4\" fill=\"#403D43\"/><circle cx=\"305\" cy=\"250\" r=\"4\" fill=\"#403D43\"/><circle cx=\"305\" cy=\"70\" r=\"4\" fill=\"#403D43\"/><text x=\"52\" y=\"270\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">A</text><text x=\"310\" y=\"270\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">B</text><text x=\"320\" y=\"65\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">C</text></svg></span>",
     "s": "<p>Från A till C är skillnaden 8 i x-led och 6 i y-led. \\(AC=\\sqrt{8^2+6^2}=10\\).</p><p><strong>Svar: 10.</strong></p>",
     "familj": "koordinatgeometri_problemlosning__avstand_i_triangel",
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "ledtrad": "<p>AC är hypotenusa i en rätvinklig triangel med kateter 8 och 6.</p>"
+    "ledtrad": "<p>AC är hypotenusa i en rätvinklig triangel med kateter 8 och 6.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41219,7 +41514,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41231,11 +41526,16 @@ window.BANKMA2 = [
     "familj": "koordinatgeometri_problemlosning__area_enkel",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "ledtrad": "<p>AB ligger på x-axeln. Läs av basens längd och C:s höjd över x-axeln.</p>"
+    "ledtrad": "<p>AB ligger på x-axeln. Läs av basens längd och C:s höjd över x-axeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41243,7 +41543,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41255,12 +41555,15 @@ window.BANKMA2 = [
     "familj": "koordinatgeometri_problemlosning__horisontellt_avstand",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "ledtrad": "<p>När y-koordinaterna är lika räcker det att jämföra x-koordinaterna.</p>"
+    "ledtrad": "<p>När y-koordinaterna är lika räcker det att jämföra x-koordinaterna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "kap": 3,
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41268,7 +41571,7 @@ window.BANKMA2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -41280,14 +41583,18 @@ window.BANKMA2 = [
     "familj": "yttervinkelsatsen__berakna_vinkel",
     "svarstyp": "numeriskt",
     "rättSvar": 77,
-    "ledtrad": "<p>Använd att yttervinkeln är lika med summan av de två motstående inre vinklarna.</p>"
+    "ledtrad": "<p>Använd att yttervinkeln är lika med summan av de två motstående inre vinklarna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.271",
     "kap": 3,
     "omr": "yttervinkelsatsen",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41304,42 +41611,65 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 77,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Yttervinkeln är lika med summan av de två motstående inre vinklarna.</p>"
+    "ledtrad": "<p>Yttervinkeln är lika med summan av de två motstående inre vinklarna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.272",
     "kap": 3,
     "omr": "yttervinkelsatsen",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>De två motstående inre vinklarna till en yttervinkel är 46° och 73°. Bestäm yttervinkeln.</p><span class=\"fig smal\"><svg width=\"500\" height=\"260\" viewBox=\"0 0 500 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med markerade vinklar\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M 70 210 L 430 210 L 250 55 Z\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 98.0 210.0 A 28 28 0 0 0 91.2 191.7\" fill=\"none\" stroke=\"#5C8C5C\" stroke-width=\"3\"/><text x=\"114.1\" y=\"193.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#2B2527\">46°</text><path d=\"M 228.8 73.3 A 28 28 0 0 0 271.2 73.3\" fill=\"none\" stroke=\"#5C8C5C\" stroke-width=\"3\"/><text x=\"250.0\" y=\"102.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#2B2527\">73°</text></svg></span>",
-    "s": "<p>Yttervinkeln är \\(46^\\circ+73^\\circ=119^\\circ\\).</p><p><strong>Svar: 119°.</strong></p>",
-    "familj": "yttervinkelsatsen__bestam_yttervinkel",
+    "t": "<p>I triangeln \\(ABC\\) förlängs sidan \\(BC\\) förbi \\(C\\), så att en yttervinkel bildas vid \\(C\\).</p><p>Vilka två inre vinklar är de <em>motstående</em> inre vinklarna till yttervinkeln?</p>",
+    "s": "<p>Vinkeln vid \\(C\\) ligger intill yttervinkeln. De två andra inre vinklarna, vid \\(A\\) och \\(B\\), är de motstående inre vinklarna.</p><p><strong>\\(\\angle A\\) och \\(\\angle B\\).</strong></p>",
+    "familj": "yttervinkelsatsen__identifiera_motstaende",
     "formaga": [
-      "procedur",
       "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 119,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Addera de två motstående inre vinklarna.</p>"
+    "ledtrad": "<p>Den inre vinkeln som ligger bredvid yttervinkeln räknas inte som motstående.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\angle A\\) och \\(\\angle B\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\angle B\\) och \\(\\angle C\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\angle A\\) och \\(\\angle C\\)",
+        "ratt": false
+      },
+      {
+        "txt": "Endast vinkeln vid C",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.273",
     "kap": 3,
     "omr": "yttervinkelsatsen",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41356,16 +41686,20 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 99,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Yttervinkeln och den intilliggande inre vinkeln bildar tillsammans 180°.</p>"
+    "ledtrad": "<p>Yttervinkeln och den intilliggande inre vinkeln bildar tillsammans 180°.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.274",
     "kap": 3,
     "omr": "yttervinkelsatsen",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41382,16 +41716,20 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 62,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Låt de två lika stora vinklarna vara \\(x\\). Då är \\(x+x\\) lika med yttervinkeln.</p>"
+    "ledtrad": "<p>Låt de två lika stora vinklarna vara \\(x\\). Då är \\(x+x\\) lika med yttervinkeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.275",
     "kap": 3,
     "omr": "yttervinkelsatsen",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41408,22 +41746,26 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Sätt den mindre vinkeln till \\(x\\) och den större till \\(2x\\).</p>"
+    "ledtrad": "<p>Sätt den mindre vinkeln till \\(x\\) och den större till \\(2x\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.276",
     "kap": 3,
     "omr": "yttervinkelsatsen",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket påstående beskriver yttervinkelsatsen för en triangel?</p><p>A) En yttervinkel är summan av de två motstående inre vinklarna.<br>B) En yttervinkel är alltid 90°.<br>C) En yttervinkel är summan av triangelns tre inre vinklar.<br>D) En yttervinkel är lika stor som den intilliggande inre vinkeln.</p>",
+    "t": "<p>Vilket påstående beskriver yttervinkelsatsen för en triangel?</p>",
     "s": "<p>Yttervinkeln och den intilliggande vinkeln bildar 180°. Eftersom även triangelns tre inre vinklar har summan 180° blir yttervinkeln lika med summan av de två motstående inre vinklarna.</p><p><strong>Svar: A.</strong></p>",
     "familj": "yttervinkelsatsen__begrepp",
     "formaga": [
@@ -41431,24 +41773,44 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Tänk på vilka två av triangelns inre vinklar som inte ligger intill yttervinkeln.</p>"
+    "ledtrad": "<p>Tänk på vilka två av triangelns inre vinklar som inte ligger intill yttervinkeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "En yttervinkel är summan av de två motstående inre vinklarna.",
+        "ratt": true
+      },
+      {
+        "txt": "En yttervinkel är alltid 90°.",
+        "ratt": false
+      },
+      {
+        "txt": "En yttervinkel är summan av triangelns tre inre vinklar.",
+        "ratt": false
+      },
+      {
+        "txt": "En yttervinkel är lika stor som den intilliggande inre vinkeln.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.277",
     "kap": 3,
     "omr": "implikation_ekvivalens",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken symbol betyder ”medför”?</p><p>A) \\(\\Rightarrow\\)<br>B) \\(\\Leftrightarrow\\)<br>C) \\(=\\)<br>D) \\(\\approx\\)</p>",
+    "t": "<p>Vilken symbol betyder <em>medför</em>?</p>",
     "s": "<p>Symbolen \\(\\Rightarrow\\) används när ett påstående medför ett annat.</p><p><strong>Svar: A.</strong></p>",
     "familj": "implikation_ekvivalens__symbol_implikation",
     "formaga": [
@@ -41456,24 +41818,44 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Du söker symbolen för en enkelriktad slutsats.</p>"
+    "ledtrad": "<p>Du söker symbolen för en enkelriktad slutsats.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\Rightarrow\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\Leftrightarrow\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(=\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\approx\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.278",
     "kap": 3,
     "omr": "implikation_ekvivalens",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken symbol betyder ”om och endast om”?</p><p>A) \\(\\Rightarrow\\)<br>B) \\(\\Leftrightarrow\\)<br>C) \\(\\ne\\)<br>D) \\(&lt;\\)</p>",
+    "t": "<p>Vilken symbol betyder <em>om och endast om</em>?</p>",
     "s": "<p>\\(\\Leftrightarrow\\) betyder att båda riktningarna gäller: det ena påståendet gäller om och endast om det andra gäller.</p><p><strong>Svar: B.</strong></p>",
     "familj": "implikation_ekvivalens__symbol_ekvivalens",
     "formaga": [
@@ -41481,24 +41863,44 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Vid ekvivalens måste sambandet gälla åt båda hållen.</p>"
+    "ledtrad": "<p>Vid ekvivalens måste sambandet gälla åt båda hållen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\Rightarrow\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\Leftrightarrow\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\ne\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(<\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.279",
     "kap": 3,
     "omr": "implikation_ekvivalens",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket samband är sant för alla heltal \\(n\\)?</p><p>A) \\(n\\) är delbart med 4 \\(\\Rightarrow\\) \\(n\\) är jämnt.<br>B) \\(n\\) är jämnt \\(\\Rightarrow\\) \\(n\\) är delbart med 4.<br>C) \\(n\\) är udda \\(\\Rightarrow\\) \\(n\\) är delbart med 3.<br>D) \\(n&gt;0\\Rightarrow n\\) är jämnt.</p>",
+    "t": "<p>Vilket samband är sant för alla heltal \\(n\\)?</p>",
     "s": "<p>Om \\(n\\) är delbart med 4 kan det skrivas \\(n=4k=2(2k)\\), alltså är det jämnt. Omvändningen gäller inte, till exempel är 6 jämnt men inte delbart med 4.</p><p><strong>Svar: A.</strong></p>",
     "familj": "implikation_ekvivalens__enkel_implikation",
     "formaga": [
@@ -41507,24 +41909,44 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Pröva ett enkelt motexempel mot varje påstående som verkar tveksamt.</p>"
+    "ledtrad": "<p>Pröva ett enkelt motexempel mot varje påstående som verkar tveksamt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(n\\) delbart med 4 \\(\\Rightarrow\\) \\(n\\) jämnt",
+        "ratt": true
+      },
+      {
+        "txt": "\\(n\\) jämnt \\(\\Rightarrow\\) \\(n\\) delbart med 4",
+        "ratt": false
+      },
+      {
+        "txt": "\\(n\\) udda \\(\\Rightarrow\\) \\(n\\) delbart med 3",
+        "ratt": false
+      },
+      {
+        "txt": "\\(n>0\\Rightarrow n\\) jämnt",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.280",
     "kap": 3,
     "omr": "implikation_ekvivalens",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För reella tal gäller \\(x=5\\). Vilket påstående följer säkert?</p><p>A) \\(x^2=25\\)<br>B) \\(x=-5\\)<br>C) \\(x^2=5\\)<br>D) \\(x&lt;0\\)</p>",
+    "t": "<p>För reella tal gäller \\(x=5\\). Vilket påstående följer säkert?</p>",
     "s": "<p>Om \\(x=5\\) får vi direkt \\(x^2=25\\).</p><p><strong>Svar: A.</strong></p>",
     "familj": "implikation_ekvivalens__slutsats",
     "formaga": [
@@ -41532,18 +41954,38 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från värdet \\(x=5\\) och kontrollera alternativen.</p>"
+    "ledtrad": "<p>Utgå från värdet \\(x=5\\) och kontrollera alternativen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(x^2=25\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x=-5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x^2=5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x<0\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.281",
     "kap": 3,
     "omr": "implikation_ekvivalens",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41558,24 +42000,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Nej",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Kontrollera båda riktningarna. Finns det något annat reellt tal vars kvadrat är 9?</p>"
+    "ledtrad": "<p>Kontrollera båda riktningarna. Finns det något annat reellt tal vars kvadrat är 9?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ja",
+        "ratt": false
+      },
+      {
+        "txt": "Nej",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "3.282",
     "kap": 3,
     "omr": "bevis_likformighet",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två trianglar har vinklarna 42°, 63°, 75° respektive 42°, 63°, 75°. Vilken sats räcker för att visa att de är likformiga?</p><p>A) V–V<br>B) Pythagoras sats<br>C) Yttervinkelsatsen<br>D) Mittpunktsformeln</p>",
+    "t": "<p>Två trianglar har vinklarna 42°, 63°, 75° respektive 42°, 63°, 75°. Vilken sats räcker för att visa att de är likformiga?</p>",
     "s": "<p>Två par lika stora vinklar räcker för likformighet. Det är V–V-fallet.</p><p><strong>Svar: A.</strong></p>",
     "familj": "bevis_likformighet__vv",
     "formaga": [
@@ -41583,24 +42037,44 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Vilket likformighetsfall bygger på två lika stora vinklar?</p>"
+    "ledtrad": "<p>Vilket likformighetsfall bygger på två lika stora vinklar?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "V–V",
+        "ratt": true
+      },
+      {
+        "txt": "Pythagoras sats",
+        "ratt": false
+      },
+      {
+        "txt": "Yttervinkelsatsen",
+        "ratt": false
+      },
+      {
+        "txt": "Mittpunktsformeln",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.283",
     "kap": 3,
     "omr": "bevis_likformighet",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I triangeln ABC ligger D på AB och E på AC och \\(DE\\parallel BC\\). Vilken vinkel är lika stor som \\(\\angle ADE\\)?</p><p>A) \\(\\angle ABC\\)<br>B) \\(\\angle ACB\\)<br>C) \\(\\angle BAC\\)<br>D) \\(\\angle AED\\)</p><span class=\"fig smal\"><svg width=\"500\" height=\"270\" viewBox=\"0 0 500 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella linjer med en transversal\">\n<rect x=\"1\" y=\"1\" width=\"498\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"55\" y1=\"75\" x2=\"445\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"55\" y1=\"205\" x2=\"445\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<line x1=\"135\" y1=\"245\" x2=\"335\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<text x=\"450\" y=\"70\" font-family=\"Arial,sans-serif\" font-size=\"15\">l₁</text>\n<text x=\"450\" y=\"200\" font-family=\"Arial,sans-serif\" font-size=\"15\">l₂</text>\n<path d=\"M 276.9 75 A 28 28 0 0 1 257.6 95.3\" fill=\"none\" stroke=\"#5C8C5C\" stroke-width=\"3\"/>\n<text x=\"286\" y=\"103\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text>\n<path d=\"M 153.1 205 A 28 28 0 0 1 172.4 184.7\" fill=\"none\" stroke=\"#5C8C5C\" stroke-width=\"3\"/>\n<text x=\"139\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text>\n</svg></span>",
+    "t": "<p>I triangeln ABC ligger D på AB och E på AC och \\(DE\\parallel BC\\). Vilken vinkel är lika stor som \\(\\angle ADE\\)?</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"215\" y1=\"45\" x2=\"72\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"215\" y1=\"45\" x2=\"358\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"245\" x2=\"358\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"136\" y1=\"155\" x2=\"281\" y2=\"155\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"207\" y=\"31\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">A</text><text x=\"54\" y=\"263\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">B</text><text x=\"377\" y=\"263\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">C</text><text x=\"123\" y=\"151\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">D</text><text x=\"295\" y=\"151\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">E</text><line x1=\"198\" y1=\"240\" x2=\"208\" y2=\"232\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217\" y1=\"240\" x2=\"227\" y2=\"232\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"198\" y1=\"155\" x2=\"208\" y2=\"147\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217\" y1=\"155\" x2=\"227\" y2=\"147\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg></span>",
     "s": "<p>AD ligger på samma linje som AB och DE är parallell med BC. Därför är \\(\\angle ADE=\\angle ABC\\).</p><p><strong>Svar: A.</strong></p>",
     "familj": "bevis_likformighet__parallella_vinklar",
     "formaga": [
@@ -41608,24 +42082,44 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför AD med AB och använd att DE är parallell med BC.</p>"
+    "ledtrad": "<p>Jämför AD med AB och använd att DE är parallell med BC.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "\\(\\angle ABC\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(\\angle ACB\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\angle BAC\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(\\angle AED\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.284",
     "kap": 3,
     "omr": "bevis_likformighet",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Trianglarna ABC och DEF är likformiga med \\(A\\leftrightarrow D\\), \\(B\\leftrightarrow E\\) och \\(C\\leftrightarrow F\\). Vilken sida motsvarar BC?</p><p>A) DE<br>B) EF<br>C) DF<br>D) AB</p>",
+    "t": "<p>Trianglarna ABC och DEF är likformiga med \\(A\\leftrightarrow D\\), \\(B\\leftrightarrow E\\) och \\(C\\leftrightarrow F\\). Vilken sida motsvarar BC?</p>",
     "s": "<p>B motsvarar E och C motsvarar F. Därför motsvarar sidan BC sidan EF.</p><p><strong>Svar: B.</strong></p>",
     "familj": "bevis_likformighet__motsvarande_sidor",
     "formaga": [
@@ -41633,18 +42127,38 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Följ hörnens givna motsvarighet: B ↔ E och C ↔ F.</p>"
+    "ledtrad": "<p>Följ hörnens givna motsvarighet: B ↔ E och C ↔ F.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "DE",
+        "ratt": false
+      },
+      {
+        "txt": "EF",
+        "ratt": true
+      },
+      {
+        "txt": "DF",
+        "ratt": false
+      },
+      {
+        "txt": "AB",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.285",
     "kap": 3,
     "omr": "bevis_likformighet",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
@@ -41661,22 +42175,26 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Multiplicera längden i den mindre triangeln med längdskalan.</p>"
+    "ledtrad": "<p>Multiplicera längden i den mindre triangeln med längdskalan.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
   },
   {
     "id": "3.286",
     "kap": 3,
     "omr": "bevis_likformighet",
     "kurs": [
-      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För att visa att två trianglar är likformiga med V–V har du redan visat att ett par vinklar är lika stora. Vad behöver du dessutom visa?</p><p>A) Ett ytterligare par vinklar är lika stora.<br>B) Trianglarna har samma area.<br>C) En sida är lika lång i båda trianglarna.<br>D) Båda trianglarna är rätvinkliga.</p>",
+    "t": "<p>För att visa att två trianglar är likformiga med V–V har du redan visat att ett par vinklar är lika stora. Vad behöver du dessutom visa?</p>",
     "s": "<p>V–V kräver två par lika stora vinklar.</p><p><strong>Svar: A.</strong></p>",
     "familj": "bevis_likformighet__bevisstruktur",
     "formaga": [
@@ -41684,41 +42202,67 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Tänk på vad de två V:na i V–V står för.</p>"
+    "ledtrad": "<p>Tänk på vad de två V:na i V–V står för.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ett ytterligare par vinklar är lika stora.",
+        "ratt": true
+      },
+      {
+        "txt": "Trianglarna har samma area.",
+        "ratt": false
+      },
+      {
+        "txt": "En sida är lika lång i båda trianglarna.",
+        "ratt": false
+      },
+      {
+        "txt": "Båda trianglarna är rätvinkliga.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.287",
     "kap": 3,
     "omr": "koordinatgeometri_problemlosning",
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Punkterna \\(A=(1,1)\\), \\(B=(7,1)\\) och \\(C=(7,5)\\) bildar en rätvinklig triangel. Bestäm omkretsen.</p>",
-    "s": "<p>\\(AB=6\\) och \\(BC=4\\). Hypotenusan är \\(AC=\\sqrt{6^2+4^2}=\\sqrt{52}=2\\sqrt{13}\\). Omkretsen är därför \\(10+2\\sqrt{13}\\approx17,2\\).</p><p><strong>Svar: cirka 17,2 längdenheter.</strong></p>",
+    "t": "<p>Punkterna \\(A=(1,1)\\), \\(B=(7,1)\\) och \\(C=(7,5)\\) bildar en rätvinklig triangel. Bestäm triangelns omkrets.</p><p>Svara exakt.</p>",
+    "s": "<p>\\(AB=6\\) och \\(BC=4\\). Med Pythagoras sats:</p><p>\\[AC=\\sqrt{6^2+4^2}=\\sqrt{52}=2\\sqrt{13}.\\]</p><p>Omkretsen blir</p><p>\\[6+4+2\\sqrt{13}=10+2\\sqrt{13}.\\]</p><p><strong>\\(10+2\\sqrt{13}\\)</strong> längdenheter.</p>",
     "familj": "koordinatgeometri_problemlosning__omkrets",
     "formaga": [
       "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 17.21,
+    "svarstyp": "uttryck",
+    "rättSvar": "10+2*sqrt(13)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först de två horisontella/vertikala sidlängderna. Använd sedan Pythagoras sats för den tredje.</p>"
+    "ledtrad": "<p>Bestäm först de två horisontella/vertikala sidlängderna. Använd Pythagoras sats för den tredje och behåll rotformen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "3.288",
     "kap": 3,
     "omr": "koordinatgeometri_problemlosning",
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41734,15 +42278,20 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm rektangelns bredd från x-koordinaterna och höjden från y-koordinaterna.</p>"
+    "ledtrad": "<p>Bestäm rektangelns bredd från x-koordinaterna och höjden från y-koordinaterna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.289",
     "kap": 3,
     "omr": "koordinatgeometri_problemlosning",
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41760,13 +42309,17 @@ window.BANKMA2 = [
     "rättSvar": "(1,4)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna.</p>"
+    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
   },
   {
     "id": "3.290",
     "kap": 3,
     "omr": "koordinatgeometri_problemlosning",
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -41783,9 +42336,13 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>När basen ligger på x-axeln kan höjden läsas från C:s y-koordinat.</p>"
+    "ledtrad": "<p>När basen ligger på x-axeln kan höjden läsas från C:s y-koordinat.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.01",
@@ -41806,10 +42363,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det gemensamma medelvärdet är 20",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Räkna först ut den totala summan i varje grupp: antal · medelvärde.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.02",
@@ -41831,10 +42393,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 20 resultat ligger högre",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Om 92 % ligger på eller under återstår 8 % över. Beräkna 8 % av 250.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.03",
@@ -41856,10 +42423,68 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Median 14, kvartilavstånd 10, variationsbredd 18",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      10,
+      18
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs först av minimum, Q1, median, Q3 och maximum. Använd sedan Q3−Q1 och max−min.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Median",
+      "Kvartilavstånd",
+      "Variationsbredd"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Läs av lådagrammet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>Medianlinjen ligger vid 14.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<p>Q1=10 och Q3=20, alltså 20−10=10.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<p>Maximum är 24 och minimum 6, alltså 24−6=18.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.04",
@@ -41885,7 +42510,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Jämför standardavvikelserna. Fundera sedan på skillnaden mellan spridning och medelnivå.</p>"
   },
   {
     "id": "4.05",
@@ -41896,22 +42525,65 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "standardavvikelse__jamfora_spridning",
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
-    "t": "<p>Fyra mätvärden är 8, 10, 12 och \\(x\\). Medelvärdet ska vara 11.</p><p>Bestäm \\(x\\). Jämför sedan standardavvikelsen för de fyra värdena med standardavvikelsen för värdena 9, 10, 11, 12. Vilket material är mest samlat kring sitt medelvärde?</p>",
-    "s": "<p>Medelvärdet 11 ger</p><p>\\[\\frac{8+10+12+x}{4}=11\\Rightarrow 30+x=44\\Rightarrow x=14.\\]</p><p>Det första materialet är alltså 8,10,12,14 och har medelvärdet 11. Ett digitalt verktyg ger standardavvikelse cirka 2,24.</p><p>Det andra materialet 9,10,11,12 har medelvärdet 10,5 och standardavvikelse cirka 1,12.</p><p><strong>\\(x=14\\). Det andra materialet är mer samlat eftersom dess standardavvikelse är mindre.</strong></p>",
+    "t": "<p>Fyra mätvärden är 8, 10, 12 och \\(x\\). Medelvärdet ska vara 11.</p><p>a) Bestäm \\(x\\).</p><p>b) Material 1 blir då 8, 10, 12, 14. Material 2 är 9, 10, 11, 12. Använd ett digitalt verktyg och ange vilket material, 1 eller 2, som har minst standardavvikelse.</p>",
+    "s": "<p>a) \\((8+10+12+x)/4=11\\Rightarrow x=14\\).</p><p>b) Material 1 har standardavvikelsen cirka 2,24 och material 2 cirka 1,12. Därför är material 2 mer samlat kring sitt medelvärde.</p><p><strong>a) 14 &nbsp; b) Material 2.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      2
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>a) Använd medelvärdet för att få summan av de fyra värdena. b) Jämför standardavvikelserna, inte medelvärdena.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "Material"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Material 1 innehåller värdena 8, 10, 12 och \\(x\\). Medelvärdet ska vara 11.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(x\\).</p>",
+        "s": "<p>Summan ska vara 44. De kända värdena summerar till 30, alltså x=14.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>När x=14 jämförs material 1: 8,10,12,14 med material 2: 9,10,11,12. Vilket material, 1 eller 2, har minst standardavvikelse?</p>",
+        "s": "<p>Material 2 har mindre standardavvikelse och är mer samlat.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.06",
@@ -41934,10 +42606,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 15,9 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.9,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>130 ligger precis en standardavvikelse över medelvärdet. Använd normalfördelningsfiguren på formelbladet.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "4.07",
@@ -41948,8 +42626,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En normalfördelning har medelvärdet 64. Det är känt att ungefär 95,4 % av värdena ligger mellan 52 och 76.</p><p>Bestäm standardavvikelsen och ungefär hur stor andel som ligger över 76.</p>",
     "s": "<p>Intervallet är symmetriskt kring 64 och sträcker sig 12 enheter åt varje håll.</p><p>95,4 % motsvarar ungefär \\(\\mu\\pm2\\sigma\\).</p><p>Alltså \\(2\\sigma=12\\Rightarrow\\sigma=6\\).</p><p>Utanför intervallet ligger 4,6 %, fördelat lika på de två sidorna om intervallet.</p><p><strong>Standardavvikelsen är 6 och cirka 2,3 % ligger över 76.</strong></p>",
     "familj": "normalfordelat_material__andel_i_intervall",
@@ -41960,10 +42638,58 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Standardavvikelsen är 6 och cirka 2,3 % ligger över 76",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      2.3
+    ],
+    "tolerans": [
+      1e-09,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>95,4 % motsvarar ungefär intervallet μ±2σ. Fördela sedan den återstående arean lika på båda svansarna.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Standardavvikelse",
+      "Andel över 76"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En normalfördelning har medelvärdet 64. Ungefär 95,4 % av värdena ligger mellan 52 och 76.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm standardavvikelsen.</p>",
+        "s": "<p>52 och 76 ligger 12 från medelvärdet. 12=2σ, alltså σ=6.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Ungefär hur stor andel ligger över 76? Svara i procent.</p>",
+        "s": "<p>4,6 % ligger utanför μ±2σ, alltså 2,3 % i vardera svansen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.08",
@@ -41975,7 +42701,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>En normalfördelning har medelvärdet 100 och standardavvikelsen 15.</p><p>Ungefär mellan vilka värden ligger 95,4 % av observationerna?</p>",
     "s": "<p>Av normalfördelningsfiguren på formelbladet framgår att ungefär 95,4 % ligger mellan \\(\\mu-2\\sigma\\) och \\(\\mu+2\\sigma\\).</p><p>\\(100\\pm2\\cdot15=100\\pm30\\).</p><p><strong>Mellan 70 och 130.</strong></p>",
     "familj": "normalfordelat_material__andel_i_intervall",
@@ -41987,10 +42713,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Mellan 70 och 130",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      70,
+      130
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>95,4 % ligger ungefär inom två standardavvikelser från medelvärdet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.09",
@@ -42001,22 +42749,44 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "kvartiler_percentiler__percentiler",
     "formaga": [
       "procedur",
       "begrepp",
       "resonemang"
     ],
-    "t": "<p>På ett test ligger resultatet 72 vid den 90:e percentilen. En elev fick 75 poäng. Vad kan man säga om elevens placering i gruppen?</p>",
-    "s": "<p>Den 90:e percentilen är ett värde som ungefär 90 % av resultaten ligger på eller under. Eftersom 75 är högre än 72 ligger eleven över den 90:e percentilen.</p><p><strong>Eleven tillhör ungefär de 10 % högsta resultaten, eller ännu högre beroende på fördelningen.</strong></p>",
+    "t": "<p>På ett test ligger resultatet 72 vid den 90:e percentilen. En elev fick 75 poäng. Vilken slutsats är säker?</p>",
+    "s": "<p>Eftersom 75 är högre än värdet vid 90:e percentilen ligger eleven över den 90:e percentilen. Exakt percentil kan inte bestämmas utan mer information.</p><p><strong>Eleven ligger över den 90:e percentilen.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför elevens resultat med gränsvärdet vid den 90:e percentilen. Exakt placering kräver mer information.</p>",
+    "alternativ": [
+      {
+        "txt": "Eleven ligger över den 90:e percentilen, men exakt percentil kan inte bestämmas.",
+        "ratt": true
+      },
+      {
+        "txt": "Eleven ligger exakt på den 90:e percentilen.",
+        "ratt": false
+      },
+      {
+        "txt": "Eleven ligger under den 90:e percentilen.",
+        "ratt": false
+      },
+      {
+        "txt": "Eleven måste ligga på den 95:e percentilen.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.10",
@@ -42027,8 +42797,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Visa att samma medelvärde och samma standardavvikelse inte bestämmer medianen.</p><p>Jämför datamaterialen</p><p>A: 0, 0, 0, 3, 3<br>B: 0, 0, 1, 1, 4.</p><p>Bestäm medelvärde, standardavvikelse och median för båda med ett digitalt verktyg.</p>",
     "s": "<p>Båda materialen har summan 6 och medelvärdet \\(6/5=1,2\\).</p><p>Med ett digitalt verktyg fås samma standardavvikelse för båda, cirka 1,47.</p><p>Medianen är däremot 0 i A och 1 i B.</p><p><strong>Materialen visar att samma medelvärde och standardavvikelse kan ge olika median.</strong></p><p><strong>GeoGebra:</strong> Lägg varje material i en egen lista och använd envariabelanalys för att läsa av medelvärde, standardavvikelse och median.</p>",
     "familj": "lagesmatt__berakna_medelvarde_och_median",
@@ -42042,7 +42812,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Beräkna samma tre mått för båda materialen. Det räcker att medianerna blir olika medan medelvärde och standardavvikelse sammanfaller.</p>"
   },
   {
     "id": "4.11",
@@ -42054,7 +42828,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "t": "<p>Bestäm medelvärde och median för talen 6, 8, 9, 9, 11, 17.</p>",
     "s": "<p>Summan är 60, så medelvärdet är 10. Medianen är 9.</p><p><strong>Medelvärde 10, median 9.</strong></p>",
     "familj": "lagesmatt__berakna_medelvarde_och_median",
@@ -42064,10 +42838,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Medelvärde 10, median 9",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      9
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Medelvärdet fås från summan dividerad med antalet värden. Medianen är mittenvärdet eller medelvärdet av de två mittersta.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Medelvärde",
+      "Median"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Talen är 6, 8, 9, 9, 11, 17.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet.</p>",
+        "s": "<p>Summan är 60 och det finns 6 tal: 60/6=10.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>De två mittersta talen är 9 och 9, så medianen är 9.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.12",
@@ -42078,8 +42896,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lådagrammet nedan beskriver ett material.</p><span class=\"fig\"><svg width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40.0\" y1=\"135\" x2=\"475.0\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"131\" x2=\"40.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"40.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"59.8\" y1=\"131\" x2=\"59.8\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"79.5\" y1=\"131\" x2=\"79.5\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"79.5\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"99.3\" y1=\"131\" x2=\"99.3\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"119.1\" y1=\"131\" x2=\"119.1\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"119.1\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"138.9\" y1=\"131\" x2=\"138.9\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"158.6\" y1=\"131\" x2=\"158.6\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"158.6\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"178.4\" y1=\"131\" x2=\"178.4\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"198.2\" y1=\"131\" x2=\"198.2\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"198.2\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><line x1=\"218.0\" y1=\"131\" x2=\"218.0\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"237.7\" y1=\"131\" x2=\"237.7\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"237.7\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><line x1=\"257.5\" y1=\"131\" x2=\"257.5\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"277.3\" y1=\"131\" x2=\"277.3\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"277.3\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">16</text><line x1=\"297.0\" y1=\"131\" x2=\"297.0\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"316.8\" y1=\"131\" x2=\"316.8\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"316.8\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">18</text><line x1=\"336.6\" y1=\"131\" x2=\"336.6\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"356.4\" y1=\"131\" x2=\"356.4\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"356.4\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">20</text><line x1=\"376.1\" y1=\"131\" x2=\"376.1\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"395.9\" y1=\"131\" x2=\"395.9\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"395.9\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">22</text><line x1=\"415.7\" y1=\"131\" x2=\"415.7\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"435.5\" y1=\"131\" x2=\"435.5\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"435.5\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">24</text><line x1=\"455.2\" y1=\"131\" x2=\"455.2\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"475.0\" y1=\"131\" x2=\"475.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"475.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">26</text><line x1=\"79.5\" y1=\"78\" x2=\"178.4\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"336.6\" y1=\"78\" x2=\"455.2\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"79.5\" y1=\"60\" x2=\"79.5\" y2=\"96\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"455.2\" y1=\"60\" x2=\"455.2\" y2=\"96\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><rect x=\"178.4\" y=\"53\" width=\"158.2\" height=\"50\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"257.5\" y1=\"53\" x2=\"257.5\" y2=\"103\" stroke=\"#B43123\" stroke-width=\"2.8\"/></svg></span><p>Bestäm medianen, kvartilavståndet och variationsbredden.</p>",
     "s": "<p>Medianen avläses till 15, \\(Q_1=11\\), \\(Q_3=19\\), minimum 6 och maximum 25.</p><p>Kvartilavståndet är \\(19-11=8\\).</p><p>Variationsbredden är \\(25-6=19\\).</p><p><strong>Median 15, kvartilavstånd 8, variationsbredd 19.</strong></p>",
     "familj": "ladagram__avlas_ladagram",
@@ -42090,21 +42908,80 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Median 15, kvartilavstånd 8, variationsbredd 19",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      8,
+      19
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av median, Q1, Q3, minimum och maximum. Beräkna sedan skillnaderna.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Median",
+      "Kvartilavstånd",
+      "Variationsbredd"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Läs av lådagrammet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>Medianlinjen ligger vid 15.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<p>Q1=11 och Q3=19, alltså 19−11=8.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<p>Maximum 25 minus minimum 6 ger 19.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.13",
     "kap": 4,
     "omr": "normalfordelning_digitala_verktyg",
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "familj": "normalfordelning_digitala_verktyg__bestam_gransvarde_fran_sannolikhet",
     "formaga": [
       "procedur",
@@ -42116,10 +42993,54 @@ window.BANKMA2 = [
     "s": "<p>En normalfördelning är symmetrisk. Den 10:e och 90:e percentilen ligger därför lika långt från medelvärdet.</p><p>Medelvärdet blir \\(\\mu=(42+58)/2=50\\).</p><p>Använd därefter sannolikhetskalkylatorn med medelvärde 50 och justera standardavvikelsen tills 90 % av arean ligger till vänster om 58.</p><p>Det ger \\(\\sigma\\approx6{,}24\\).</p><p><strong>Medelvärdet är 50 och standardavvikelsen cirka 6,24.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Medelvärdet är 50 och standardavvikelsen cirka 6,24",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      6.24
+    ],
+    "tolerans": [
+      0.01,
+      0.08
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>10:e och 90:e percentilen ligger symmetriskt kring medelvärdet. Bestäm först mittpunkten 50 och använd sedan sannolikhetskalkylatorn.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Den 10:e percentilen är 42 och den 90:e percentilen är 58 i en normalfördelning.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet.</p>",
+        "s": "<p>Symmetrin ger μ=(42+58)/2=50.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm standardavvikelsen med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<p>Med μ=50 justeras σ tills P(X≤58)=0,90. Då fås σ≈6,24.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.14",
@@ -42132,7 +43053,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket material har störst spridning om standardavvikelsen är 2,1 respektive 5,7?</p>",
+    "t": "<p>Två material har standardavvikelserna 2,1 respektive 5,7. Vilket material har störst spridning?</p>",
     "s": "<p>Standardavvikelsen mäter spridningen kring medelvärdet.</p><p>Eftersom \\(5,7&gt;2,1\\) har materialet med standardavvikelsen 5,7 större spridning.</p><p><strong>Materialet med standardavvikelsen 5,7.</strong></p>",
     "familj": "standardavvikelse__jamfora_spridning",
     "formaga": [
@@ -42142,10 +43063,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Materialet med standardavvikelsen 5,7",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Större standardavvikelse betyder större spridning kring medelvärdet.</p>",
+    "alternativ": [
+      {
+        "txt": "Materialet med standardavvikelsen 2,1",
+        "ratt": false
+      },
+      {
+        "txt": "Materialet med standardavvikelsen 5,7",
+        "ratt": true
+      },
+      {
+        "txt": "De har lika stor spridning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.15",
@@ -42171,7 +43110,11 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>a) Läs av ungefärlig lutning och skärning med y-axeln. c) Jämför x=20 med intervallet där mätdata finns.</p>"
   },
   {
     "id": "4.16",
@@ -42194,10 +43137,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Påståendet är inte logiskt nödvändigt",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": false,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>För att motbevisa påståendet räcker ett motexempel. Behåll medianen 50 men låt ett enstaka mycket stort värde dra upp medelvärdet i grupp B.</p>"
   },
   {
     "id": "4.17",
@@ -42218,10 +43165,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det nya medelvärdet är cirka 19,7",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 19.67,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Fem värden med medelvärdet 18 har summan 90. Lägg till 28 och dela den nya summan med 6.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.18",
@@ -42243,10 +43195,68 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Median 20, variationsbredd 19 och kvartilavstånd 11",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      19,
+      11
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av de fem nyckelvärdena i lådagrammet innan du beräknar skillnaderna.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Median",
+      "Variationsbredd",
+      "Kvartilavstånd"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Läs av lådagrammet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>Medianen är 20.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<p>31−12=19.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<p>27−16=11.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.19",
@@ -42257,22 +43267,26 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En normalfördelning har medelvärdet 70. Ungefär 95,4 % av värdena ligger mellan 58 och 82. Bestäm standardavvikelsen.</p>",
-    "s": "<p>95,4 % motsvarar ungefär intervallet \\(\\mu\\pm2\\sigma\\).</p><p>Från medelvärdet 70 till någon av gränserna är avståndet 12.</p><p>Alltså \\(2\\sigma=12\\Rightarrow\\sigma=6\\).</p><p><strong>Standardavvikelsen är 6.</strong></p>",
-    "familj": "normalfordelat_material__andel_i_intervall",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En normalfördelning har medelvärdet 70. Ungefär 68,2 % av värdena ligger mellan 64 och 76.</p><p>Bestäm standardavvikelsen.</p>",
+    "s": "<p>Ungefär 68,2 % av en normalfördelning ligger inom en standardavvikelse från medelvärdet. Avståndet från 70 till 64 eller 76 är 6.</p><p><strong>Standardavvikelsen är 6.</strong></p>",
+    "familj": "normalfordelat_material__bestam_standardavvikelse_68",
     "formaga": [
       "procedur",
-      "begrepp",
-      "modellering"
+      "begrepp"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Standardavvikelsen är 6",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>68,2 % motsvarar ungefär intervallet μ±σ.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.20",
@@ -42295,10 +43309,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 64 personer",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": 1.0,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>68 ligger en standardavvikelse över medelvärdet. Ungefär 15,9 % ligger högre.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.21",
@@ -42321,10 +43340,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Nytt medelvärde 29 och ny standardavvikelse 15",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29,
+      15
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>För y=ax+b omvandlas medelvärdet med hela formeln. Standardavvikelsen multipliceras med |a| men påverkas inte av b.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nytt medelvärde",
+      "Ny standardavvikelse"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett material har medelvärde 12 och standardavvikelse 5. Varje värde omvandlas med \\(y=3x-7\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm det nya medelvärdet.</p>",
+        "s": "<p>3·12−7=29.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den nya standardavvikelsen.</p>",
+        "s": "<p>Standardavvikelsen multipliceras med 3: 3·5=15.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.22",
@@ -42346,10 +43409,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Percentilen beskriver ungefär hur stor andel av resultaten som ligger på eller under ett visst värde.</p>",
+    "alternativ": [
+      {
+        "txt": "Ungefär 80 % av resultaten ligger på eller under detta värde.",
+        "ratt": true
+      },
+      {
+        "txt": "Exakt 80 personer har lägre resultat.",
+        "ratt": false
+      },
+      {
+        "txt": "Resultatet är 80 % av maxpoängen.",
+        "ratt": false
+      },
+      {
+        "txt": "Ungefär 80 % av resultaten ligger över detta värde.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.23",
@@ -42371,10 +43456,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "figur",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Med fem sorterade tal är det tredje talet medianen. Medelvärdet 10 betyder att summan ska vara 50.</p>"
   },
   {
     "id": "4.24",
@@ -42384,10 +43473,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
-    "t": "<p>Sex mätpunkter ger regressionslinjen \\(y=2,4x+5,1\\). En sjunde punkt med mycket stort \\(x\\)-värde läggs till och ligger långt under den gamla linjen.</p><p>Förklara hur den nya punkten typiskt kan påverka både riktningskoefficienten och korrelationskoefficienten. Motivera utan att göra en exakt regression.</p>",
-    "s": "<p>Punkten har stort \\(x\\)-värde och därför stor hävstång: den kan påverka regressionslinjens riktningskoefficient mycket.</p><p>Eftersom punkten ligger långt under den gamla linjen drar den normalt ned linjens högra del, så den nya riktningskoefficienten blir mindre än 2,4.</p><p>Punkten avviker samtidigt kraftigt från det tidigare linjära mönstret. Därför minskar normalt styrkan i det linjära sambandet, vilket innebär att \\(|r|\\) blir mindre.</p><p><strong>Man kan alltså förvänta sig mindre riktningskoefficient och en korrelationskoefficient närmare 0.</strong></p><p>Exakta förändringar kräver de faktiska koordinaterna, men riktningen kan motiveras kvalitativt.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Sex mätpunkter ger regressionslinjen \\(y=2,4x+5,1\\). En sjunde punkt ligger långt till höger om de andra punkterna och tydligt under den gamla linjen.</p><p>Beskriv hur den nya punkten kan påverka linjens lutning och hur starkt det linjära sambandet verkar. Motivera utan att göra en exakt regression.</p>",
+    "s": "<p>Punkten ligger långt till höger och under den gamla linjen. Den drar därför normalt den högra delen av regressionslinjen nedåt, så lutningen kan bli mindre än 2,4.</p><p>Eftersom punkten samtidigt avviker från det tidigare linjära mönstret blir sambandet normalt mindre tydligt och korrelationskoefficientens belopp \\(|r|\\) kan minska.</p><p>Exakt hur mycket värdena ändras går inte att avgöra utan punktens koordinater.</p>",
     "familj": "linjar_regression__tolka_regressionskoefficienter",
     "formaga": [
       "procedur",
@@ -42400,7 +43489,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Fundera på åt vilket håll en punkt långt till höger och under linjen drar linjens högra del. Separera sedan lutning från hur väl punkterna följer ett linjärt mönster.</p>"
   },
   {
     "id": "4.25",
@@ -42412,19 +43505,24 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Fyra mätningar har medelvärdet 12. En femte mätning med värdet 17 läggs till.</p><p>Bestäm det nya medelvärdet.</p>",
-    "s": "<p>De fyra första mätningarnas summa är \\(4\\cdot12=48\\).</p><p>När värdet 17 läggs till blir summan \\(48+17=65\\).</p><p>Nu finns 5 värden, så det nya medelvärdet är \\(65/5=13\\).</p><p><strong>13.</strong></p>",
-    "familj": "lagesmatt__forandring_av_lagesmatt",
+    "poang": "1/0/0",
+    "t": "<p>Fem tal har medelvärdet 12. Fyra av talen är 8, 10, 13 och 15.</p><p>Bestäm det femte talet.</p>",
+    "s": "<p>Fem tal med medelvärdet 12 har summan \\(5\\cdot12=60\\). De fyra kända talen har summan 46.</p><p>Det saknade talet är \\(60-46=14\\).</p><p><strong>14</strong></p>",
+    "familj": "lagesmatt__saknat_varde_fran_medelvarde",
     "formaga": [
       "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "13",
-    "tolerans": null,
-    "självrättning": true
+    "rättSvar": 14,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Räkna först ut vilken totalsumma fem tal måste ha om medelvärdet är 12.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.26",
@@ -42449,9 +43547,72 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      5.02,
+      30,
+      null
+    ],
+    "tolerans": [
+      0.15,
+      2,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Använd normalfördelningen med μ=49,5 och σ=7. Markera området till höger om 61.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      "%",
+      "",
+      ""
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Andel",
+      "Antal",
+      "Förklaring"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En normalfördelning har medelvärdet 49,5 och standardavvikelsen 7.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm med GeoGebra hur stor andel som är större än 61. Svara i procent.</p>",
+        "s": "<p>Sannolikhetskalkylatorn ger cirka 5,02 %.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Ungefär hur många av 600 värden motsvarar den andelen?</p>",
+        "s": "<p>0,0502·600≈30.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Förklara varför antalet är ungefärligt.</p>",
+        "s": "<p>Normalfördelningen är en modell och andelen är en förväntad andel, inte ett exakt antal i varje grupp.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.27",
@@ -42462,8 +43623,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Vikten på en produkt antas vara normalfördelad med medelvärdet 84,0 g. Av 1000 produkter väger ungefär 23 mer än 90,0 g.</p><p>a) Använd normalfördelningsfiguren på formelbladet för att uppskatta standardavvikelsen.<br>b) Kontrollera uppskattningen med GeoGebras Sannolikhetskalkylator.</p>",
     "s": "<p>a) 23 av 1000 motsvarar 2,3 %. Av formelbladets normalfördelningsfigur framgår att ungefär 2,3 % ligger mer än två standardavvikelser över medelvärdet.</p><p>Därför motsvarar 90 g ungefär \\(\\mu+2\\sigma\\):</p><p>\\(90=84+2\\sigma\\Rightarrow\\sigma=3\\) g.</p><p>b) I Sannolikhetskalkylatorn väljer du Normal, medelvärde 84 och standardavvikelse 3. Området till höger om 90 blir cirka 0,0228, alltså ungefär 2,3 %.</p><p><strong>Standardavvikelsen är ungefär 3,0 g.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
@@ -42476,9 +43637,57 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      3,
+      2.28
+    ],
+    "tolerans": [
+      0.08,
+      0.12
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>23 av 1000 är 2,3 %. I en normalfördelning ligger ungefär 2,3 % mer än två standardavvikelser över medelvärdet.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "g",
+      "%"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Standardavvikelse",
+      "Andel över 90 g"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Vikten är normalfördelad med medelvärdet 84,0 g. Ungefär 23 av 1000 produkter väger mer än 90,0 g.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Uppskatta standardavvikelsen med normalfördelningsfiguren. Svara i gram.</p>",
+        "s": "<p>90 ligger ungefär 2σ över 84: 90=84+2σ, så σ≈3 g.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Kontrollera med GeoGebra: hur många procent ligger över 90 om μ=84 och σ=3?</p>",
+        "s": "<p>Sannolikheten är cirka 0,0228=2,28 %.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.28",
@@ -42491,7 +43700,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Använd ett digitalt verktyg och bestäm medelvärde och standardavvikelse för</p><p>6, 8, 9, 9, 11, 17.</p><p>Svara med en decimal.</p>",
+    "t": "<p>Använd ett digitalt verktyg för talen 6, 8, 9, 9, 11, 17.</p><p>Bestäm medelvärde och standardavvikelse. Svara med en decimal.</p>",
     "s": "<p>Skriv in värdena i en lista i GeoGebra och använd envariabelanalys. Då fås medelvärdet</p><p>\\[\\bar x=10,0\\]</p><p>och standardavvikelsen ungefär \\(3,5\\) (avrundat till en decimal).</p><p><strong>Medelvärde: 10,0. Standardavvikelse: cirka 3,5.</strong></p>",
     "familj": "standardavvikelse__berakna_med_digitalt_verktyg",
     "formaga": [
@@ -42500,10 +43709,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Medelvärde: 10,0. Standardavvikelse: cirka 3,5",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.0,
+      3.5
+    ],
+    "tolerans": [
+      0.05,
+      0.08
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv in talen i en lista och använd envariabelanalys. Välj standardavvikelsen för hela materialet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Använd talen 6, 8, 9, 9, 11, 17 i ett digitalt verktyg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet. Svara med en decimal.</p>",
+        "s": "<p>Medelvärdet är 10,0.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm standardavvikelsen. Svara med en decimal.</p>",
+        "s": "<p>Standardavvikelsen är cirka 3,5.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.29",
@@ -42515,7 +43768,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "t": "<p>I ett test är 75:e percentilen 42 poäng. Totalt har 240 personer gjort testet.</p><p>Ungefär hur många personer har ett resultat som är högre än 42 poäng? Förklara varför svaret bara är ungefärligt.</p>",
     "s": "<p>75:e percentilen innebär att ungefär 75 % ligger på eller under nivån och ungefär 25 % över.</p><p>\\(0,25\\cdot240=60\\).</p><p>Det är ungefärligt eftersom flera personer kan ha exakt 42 poäng och definitionen av percentil kan hantera gränsvärden något olika.</p><p><strong>Ungefär 60 personer.</strong></p>",
     "familj": "kvartiler_percentiler__percentiler",
@@ -42529,7 +43782,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>75:e percentilen lämnar ungefär 25 % över gränsen. Multiplicera med 240 och diskutera sedan personer som kan ha exakt 42 poäng.</p>"
   },
   {
     "id": "4.30",
@@ -42551,10 +43808,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "figur",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Med fem sorterade tal ska det tredje vara 12. Medelvärdet 14 betyder totalsumman 70.</p>"
   },
   {
     "id": "4.31",
@@ -42575,10 +43836,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det gemensamma medelvärdet är 27,1",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 27.1,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först totalsumman i varje grupp och dividera den gemensamma summan med 30.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.32",
@@ -42590,7 +43856,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "t": "<p>Ett företag redovisar lönerna med medelvärdet. En mycket hög chefslön tas bort ur materialet.</p><p>Förklara hur medelvärde och median normalt påverkas och vilket av måtten som påverkas minst av ett mycket avvikande värde.</p>",
     "s": "<p>Medelvärdet påverkas direkt av alla värdens storlek och kommer normalt att minska tydligt när den mycket höga lönen tas bort.</p><p>Medianen bestäms av värdenas ordning och påverkas ofta lite eller inte alls.</p><p><strong>Medianen påverkas alltså normalt minst av ett mycket avvikande värde.</strong></p>",
     "familj": "lagesmatt__forandring_av_lagesmatt",
@@ -42604,7 +43870,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Jämför hur medelvärde och median definieras. Ett extremvärde påverkar summan direkt men behöver inte flytta mittenpositionen.</p>"
   },
   {
     "id": "4.33",
@@ -42626,10 +43896,68 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Median 8,5, \\(Q_1=5,5\\), \\(Q_3=12,5\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8.5,
+      5.5,
+      12.5
+    ],
+    "tolerans": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Bestäm först medianen. Dela sedan materialet i en nedre och en övre halva och ta medianen i respektive halva.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Median",
+      "Q1",
+      "Q3"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Det sorterade materialet är 3, 5, 6, 8, 9, 11, 14, 18.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>(8+9)/2=8,5.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm första kvartilen Q1.</p>",
+        "s": "<p>Nedre halvan är 3,5,6,8. Q1=(5+6)/2=5,5.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm tredje kvartilen Q3.</p>",
+        "s": "<p>Övre halvan är 9,11,14,18. Q3=(11+14)/2=12,5.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.34",
@@ -42655,7 +43983,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Kvartilavståndet beskriver spridningen hos de mittersta 50 %, medan variationsbredden bara använder min och max.</p>"
   },
   {
     "id": "4.35",
@@ -42667,7 +43999,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "t": "<p>Två maskiner tillverkar delar med önskad längd 50,0 mm. Maskin A ger medelvärdet 50,0 mm och standardavvikelsen 0,8 mm. Maskin B ger medelvärdet 50,5 mm och standardavvikelsen 0,2 mm.</p><p>Vilken maskin är ”bäst”? Förklara varför frågan inte kan avgöras enbart genom att jämföra standardavvikelserna.</p>",
     "s": "<p>Maskin B har mindre spridning, men dess medelvärde ligger 0,5 mm från målvärdet. Maskin A ligger rätt i genomsnitt men varierar mer.</p><p>Vilken som är bäst beror på tillåtna toleranser och hur kostsamma olika avvikelser är.</p><p><strong>Standardavvikelsen ensam räcker inte; både läge och spridning måste bedömas.</strong></p>",
     "familj": "standardavvikelse__jamfora_spridning",
@@ -42681,7 +44013,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Jämför både hur nära medelvärdet ligger målvärdet 50,0 mm och hur stor standardavvikelsen är.</p>"
   },
   {
     "id": "4.36",
@@ -42693,7 +44029,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "standardavvikelse__berakna_och_tolka_standardavvikelse",
     "formaga": [
       "procedur",
@@ -42703,10 +44039,28 @@ window.BANKMA2 = [
     "s": "<p>Mindre standardavvikelse betyder att observationerna i genomsnitt ligger närmare medelvärdet.</p><p><strong>Material A.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Material A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Mindre standardavvikelse betyder att värdena ligger mer samlade kring medelvärdet.</p>",
+    "alternativ": [
+      {
+        "txt": "Material A",
+        "ratt": true
+      },
+      {
+        "txt": "Material B",
+        "ratt": false
+      },
+      {
+        "txt": "De är lika samlade",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.37",
@@ -42717,22 +44071,26 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En produkt väger i genomsnitt 250 g. Ungefär 95,4 % av produkterna väger mellan 238 g och 262 g och vikterna antas vara normalfördelade.</p><p>Bestäm standardavvikelsen.</p>",
-    "s": "<p>Intervallet är symmetriskt och sträcker sig 12 g från medelvärdet.</p><p>95,4 % motsvarar ungefär \\(\\mu\\pm2\\sigma\\).</p><p>\\(2\\sigma=12\\Rightarrow\\sigma=6\\).</p><p><strong>6 g.</strong></p>",
-    "familj": "normalfordelat_material__andel_i_intervall",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En normalfördelning har medelvärdet 80. Ungefär 99,7 % av värdena ligger mellan 68 och 92.</p><p>Bestäm standardavvikelsen.</p>",
+    "s": "<p>Ungefär 99,7 % ligger inom tre standardavvikelser från medelvärdet. Avståndet från 80 till en gräns är 12.</p><p>\\[3\\sigma=12\\Rightarrow\\sigma=4.\\]</p><p><strong>4</strong></p>",
+    "familj": "normalfordelat_material__bestam_standardavvikelse_997",
     "formaga": [
       "procedur",
-      "begrepp",
-      "modellering"
+      "begrepp"
     ],
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "6 g",
-    "tolerans": null,
-    "självrättning": true
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>99,7 % motsvarar ungefär intervallet μ±3σ.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.38",
@@ -42756,36 +44114,63 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Ungefär 95,4 % ligger mellan 30 och 50",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      50
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>95,4 % motsvarar ungefär μ±2σ. Här är 2σ=10.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.39",
     "kap": 4,
-    "omr": "normalfordelning_digitala_verktyg",
+    "omr": "normalfordelat_material",
     "kurs": [
       "2a",
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En normalfördelning har medelvärdet 100 och standardavvikelsen 12.</p><p>Ungefär hur många av 600 observationer förväntas ligga utanför intervallet 76–124?</p>",
     "s": "<p>Intervallet är \\(100\\pm24=\\mu\\pm2\\sigma\\).</p><p>Av normalfördelningsfiguren på formelbladet ligger ungefär \\(34,1+34,1+13,6+13,6=95,4\\) % inom intervallet.</p><p>Andelen utanför blir \\(100-95,4=4,6\\) %.</p><p>\\(0,046\\cdot600=27,6\\).</p><p><strong>Ungefär 28 observationer.</strong></p>",
-    "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
+    "familj": "normalfordelat_material__andel_utanfor_tva_sigma",
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
     ],
     "miniräknare": true,
-    "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Ungefär 28 observationer",
-    "tolerans": null,
-    "självrättning": true
+    "geogebra": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 1.5,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Intervallet 76–124 är μ±2σ. Ungefär 4,6 % ligger utanför ett sådant intervall.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.40",
@@ -42796,22 +44181,26 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>I en grupp med 250 resultat ligger ett resultat på den 84:e percentilen.</p><p>Ungefär hur många resultat ligger högre? Förklara tolkningen.</p>",
-    "s": "<p>84:e percentilen betyder att ungefär 84 % ligger på eller under resultatet. Då ligger ungefär \\(100-84=16\\) % högre.</p><p>\\(0,16\\cdot250=40\\).</p><p><strong>Ungefär 40 resultat ligger högre.</strong></p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>I en grupp med 250 resultat ligger ett resultat på den 84:e percentilen.</p><p>Ungefär hur många resultat ligger högre?</p>",
+    "s": "<p>84:e percentilen betyder att ungefär 84 % ligger på eller under resultatet. Ungefär 16 % ligger högre.</p><p>\\[0,16\\cdot250=40.\\]</p><p><strong>Ungefär 40 resultat.</strong></p>",
     "familj": "kvartiler_percentiler__percentiler",
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 1.0,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först hur många procent som ligger över den 84:e percentilen.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.41",
@@ -42823,7 +44212,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "t": "<p>Bestäm medelvärde och median för</p><p>5, 7, 8, 10, 10, 14.</p>",
     "s": "<p>Summan är 54, så medelvärdet är 9.</p><p>Medianen är \\((8+10)/2=9\\).</p><p><strong>Medelvärde 9, median 9.</strong></p>",
     "familj": "lagesmatt__berakna_medelvarde_och_median",
@@ -42833,10 +44222,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Medelvärde 9, median 9",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      9
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Medelvärde: summera och dela med 6. Median: använd de två mittersta värdena.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Medelvärde",
+      "Median"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Talen är 5, 7, 8, 10, 10, 14.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet.</p>",
+        "s": "<p>Summan är 54. 54/6=9.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>De två mittersta värdena är 8 och 10. Medianen är 9.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.42",
@@ -42858,10 +44291,68 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(Q_1=14\\), \\(Q_3=22\\), kvartilavstånd 8",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      22,
+      8
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Q1",
+      "Q3",
+      "Kvartilavstånd"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Läs av lådagrammet.</p><span class=\"fig\"><svg width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40.0\" y1=\"135\" x2=\"475.0\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"131\" x2=\"40.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"40.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"59.8\" y1=\"131\" x2=\"59.8\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"79.5\" y1=\"131\" x2=\"79.5\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"79.5\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"99.3\" y1=\"131\" x2=\"99.3\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"119.1\" y1=\"131\" x2=\"119.1\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"119.1\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><line x1=\"138.9\" y1=\"131\" x2=\"138.9\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"158.6\" y1=\"131\" x2=\"158.6\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"158.6\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><line x1=\"178.4\" y1=\"131\" x2=\"178.4\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"198.2\" y1=\"131\" x2=\"198.2\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"198.2\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">16</text><line x1=\"218.0\" y1=\"131\" x2=\"218.0\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"237.7\" y1=\"131\" x2=\"237.7\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"237.7\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">18</text><line x1=\"257.5\" y1=\"131\" x2=\"257.5\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"277.3\" y1=\"131\" x2=\"277.3\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"277.3\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">20</text><line x1=\"297.0\" y1=\"131\" x2=\"297.0\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"316.8\" y1=\"131\" x2=\"316.8\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"316.8\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">22</text><line x1=\"336.6\" y1=\"131\" x2=\"336.6\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"356.4\" y1=\"131\" x2=\"356.4\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"356.4\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">24</text><line x1=\"376.1\" y1=\"131\" x2=\"376.1\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"395.9\" y1=\"131\" x2=\"395.9\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"395.9\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">26</text><line x1=\"415.7\" y1=\"131\" x2=\"415.7\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"435.5\" y1=\"131\" x2=\"435.5\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"435.5\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">28</text><line x1=\"455.2\" y1=\"131\" x2=\"455.2\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"475.0\" y1=\"131\" x2=\"475.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"475.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">30</text><line x1=\"79.5\" y1=\"78\" x2=\"158.6\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"316.8\" y1=\"78\" x2=\"435.5\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"79.5\" y1=\"60\" x2=\"79.5\" y2=\"96\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"435.5\" y1=\"60\" x2=\"435.5\" y2=\"96\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><rect x=\"158.6\" y=\"53\" width=\"158.2\" height=\"50\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"218.0\" y1=\"53\" x2=\"218.0\" y2=\"103\" stroke=\"#B43123\" stroke-width=\"2.8\"/></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(Q_1\\).</p>",
+        "s": "<p>Läs av vänstra kanten av lådan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(Q_3\\).</p>",
+        "s": "<p>Läs av högra kanten av lådan.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<p>Beräkna \\(Q_3-Q_1\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Läs av medianlinjen, lådans kanter och whiskrarnas ändpunkter var för sig.</p>"
   },
   {
     "id": "4.43",
@@ -42884,10 +44375,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      23,
+      6
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vid \\(y=ax+b\\) blir det nya medelvärdet \\(a\\mu+b\\), medan standardavvikelsen multipliceras med \\(|a|\\).</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett material har medelvärdet 20 och standardavvikelsen 4. Varje värde omvandlas med \\(y=1,5x-7\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm det nya medelvärdet.</p>",
+        "s": "<p>\\(1,5\\cdot20-7=23\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den nya standardavvikelsen.</p>",
+        "s": "<p>Standardavvikelsen skalas med 1,5: \\(1,5\\cdot4=6\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.44",
@@ -42901,7 +44436,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En normalfördelning har \\(\\mu=100\\) och \\(\\sigma=12\\). Totalt finns 800 observationer.</p><p>Uppskatta utan digitalt verktyg hur många som ligger mellan 88 och 124.</p>",
-    "s": "<p>88 är \\(\\mu-\\sigma\\) och 124 är \\(\\mu+2\\sigma\\).</p><p>Av normalfördelningsfiguren på formelbladet ligger ungefär \\(34,1+34,1+13,6=81,8\\) % mellan dessa gränser.</p><p>\\(0,818\\cdot800\\approx654\\).</p><p><strong>Cirka 654 observationer.</strong></p>",
+    "s": "<p>Intervallet 88–124 motsvarar från \\(\\mu-\\sigma\\) till \\(\\mu+2\\sigma\\).</p><p>Med normalfördelningsfiguren blir andelen ungefär \\(34,1\\%+34,1\\%+13,6\\%=81,8\\%\\).</p><p>\\(0,818\\cdot800\\approx654,4\\), alltså cirka <strong>655 observationer</strong>.</p>",
     "familj": "normalfordelat_material__andel_i_intervall",
     "formaga": [
       "procedur",
@@ -42910,10 +44445,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 654 observationer",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 655,
+    "tolerans": 2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "observationer",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.45",
@@ -42924,8 +44465,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Resultaten på ett prov kan beskrivas med en normalfördelning med medelvärdet 70,6 och standardavvikelsen 12.</p><p>a) Bestäm med GeoGebra vilket resultat som ungefär krävs för att tillhöra de 10 % högsta.<br>b) Bestäm hur stor andel som ligger mellan 65 och 86 poäng.</p>",
     "s": "<p>a) Gränsen för de 10 % högsta är den 90:e percentilen. Sannolikhetskalkylatorn ger cirka 86,0 poäng.</p><p>b) Välj området mellan 65 och 86. GeoGebra ger cirka 0,580.</p><p><strong>a) Cirka 86 poäng. b) Cirka 58,0 %.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_i_intervall",
@@ -42939,11 +44480,56 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "Cirka 86 poäng",
-      "Cirka 58,0 %"
+      86.0,
+      58.0
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.2,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "90:e percentilen",
+      "Andel"
+    ],
+    "svarEnhet": [
+      "poäng",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=70,6\\), \\(\\sigma=12\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm med GeoGebra gränsen för de 10 % högsta.</p>",
+        "s": "<p>De 10 % högsta börjar vid den 90:e percentilen: cirka 86,0.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm andelen mellan 65 och 86 poäng.</p>",
+        "s": "<p>Sannolikhetskalkylatorn ger cirka 58,0 %.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>I Sannolikhetskalkylatorn: välj Normal, skriv in \\(\\mu\\) och \\(\\sigma\\), och använd vänsterarean som motsvarar den sökta percentilen.</p>"
   },
   {
     "id": "4.46",
@@ -42954,8 +44540,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Datamaterialet är 12, 16, 18, 21, 23.</p><p>a) Bestäm medelvärde och standardavvikelse med ett digitalt verktyg.<br>b) Lägg till värdet 18 och bestäm den nya standardavvikelsen.<br>c) Förklara varför standardavvikelsen förändras i den riktning den gör.</p>",
     "s": "<p>a) Medelvärdet är 18 och standardavvikelsen är cirka 3,85.</p><p>b) När ytterligare ett värde 18 läggs till är medelvärdet fortfarande 18. Den nya standardavvikelsen blir cirka 3,51.</p><p>c) Det nya värdet ligger precis vid medelvärdet och ökar därför inte spridningen. När ett sådant värde läggs till blir materialet relativt mer samlat kring medelvärdet, så standardavvikelsen minskar.</p><p><strong>GeoGebra:</strong> använd envariabelanalys före och efter att värdet 18 lagts till.</p>",
     "familj": "lagesmatt__forandring_av_lagesmatt",
@@ -42969,7 +44555,11 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Ordna värdena när det behövs och använd definitionerna av medelvärde, median och typvärde var för sig.</p>"
   },
   {
     "id": "4.47",
@@ -42991,9 +44581,15 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "75 %",
-    "tolerans": null,
-    "självrättning": true
+    "rättSvar": 75,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Räkna ihop både erhållna poäng och möjliga poäng innan du bildar andelen.</p>"
   },
   {
     "id": "4.48",
@@ -43015,10 +44611,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 30 personer",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "personer",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Översätt percentilen till andelen som ligger över gränsen och multiplicera med antalet personer.</p>"
   },
   {
     "id": "4.49",
@@ -43040,10 +44642,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Att addera samma tal till alla observationer flyttar hela materialet men ändrar inte spridningen.</p>"
   },
   {
     "id": "4.50",
@@ -43067,9 +44674,14 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "82",
-    "tolerans": null,
-    "självrättning": true
+    "rättSvar": 82,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna \\(\\mu+2\\sigma\\).</p>"
   },
   {
     "id": "4.51",
@@ -43092,10 +44704,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(\\mu=30\\), \\(\\sigma=4\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      4
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ungefär 95,4 % ligger mellan 22 och 38 år och intervallet är symmetriskt kring medelvärdet.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet.</p>",
+        "s": "<p>Mittpunkten är \\((22+38)/2=30\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm standardavvikelsen.</p>",
+        "s": "<p>95,4 % motsvarar \\(\\mu\\pm2\\sigma\\). Halva intervallet är 8, alltså \\(2\\sigma=8\\Rightarrow\\sigma=4\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>95,4 % motsvarar intervallet \\(\\mu\\pm2\\sigma\\).</p>"
   },
   {
     "id": "4.52",
@@ -43106,10 +44762,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Två grupper har samma median 18. Grupp A har \\(Q_1=16\\) och \\(Q_3=20\\). Grupp B har \\(Q_1=10\\) och \\(Q_3=26\\). Jämför spridningen i de mittersta 50 %.</p>",
-    "s": "<p>Grupp A: \\(Q_3-Q_1=20-16=4\\).</p><p>Grupp B: \\(26-10=16\\).</p><p><strong>Grupp A har alltså betydligt mindre spridning i de mittersta 50 %.</strong></p>",
+    "s": "<p>Grupp A har kvartilavståndet \\(20-16=4\\). Grupp B har kvartilavståndet \\(26-10=16\\).</p><p><strong>Grupp A har mindre spridning i de mittersta 50 %.</strong></p>",
     "familj": "ladagram__jamfora_ladagram",
     "formaga": [
       "procedur",
@@ -43118,10 +44774,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Grupp A har alltså betydligt mindre spridning i de mittersta 50 %",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Grupp A",
+        "ratt": true
+      },
+      {
+        "txt": "Grupp B",
+        "ratt": false
+      },
+      {
+        "txt": "Grupperna har samma spridning",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av medianlinjen, lådans kanter och whiskrarnas ändpunkter var för sig.</p>"
   },
   {
     "id": "4.53",
@@ -43132,8 +44806,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En normalfördelning har medelvärdet 50 och standardavvikelsen 9,4.</p><p>Bestäm den 90:e percentilen med GeoGebra.</p>",
     "s": "<p>I Sannolikhetskalkylatorn anger du medelvärdet 50 och standardavvikelsen 9,4 och söker gränsen som har 90 % av arean till vänster.</p><p><strong>90:e percentilen är cirka 62,0.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__bestam_gransvarde_fran_sannolikhet",
@@ -43144,10 +44818,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "90:e percentilen är cirka 62,0",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.0,
+    "tolerans": 0.15,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I Sannolikhetskalkylatorn: välj Normal, skriv in \\(\\mu\\) och \\(\\sigma\\), och använd vänsterarean som motsvarar den sökta percentilen.</p>"
   },
   {
     "id": "4.54",
@@ -43158,8 +44837,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Fem olika heltal har medianen 12 och medelvärdet 14. Det minsta talet är 4 och det största är 25.</p><p>Bestäm alla möjliga par av de två återstående talen.</p>",
     "s": "<p>Skriv talen i ordning som \\(4,a,12,b,25\\), där \\(4&lt;a&lt;12&lt;b&lt;25\\).</p><p>Summan ska vara \\(5\\cdot14=70\\).</p><p>Därför \\(a+b=70-4-12-25=29\\).</p><p>Med heltalsvillkoren kan \\(a\\) vara 5,6,7,8,9,10 eller 11, men \\(b=29-a\\) måste vara större än 12 och mindre än 25.</p><p>Det ger paren <strong>(5,24), (6,23), (7,22), (8,21), (9,20), (10,19), (11,18)</strong>.</p>",
     "familj": "lagesmatt__berakna_medelvarde_och_median",
@@ -43170,10 +44849,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "(5,24), (6,23), (7,22), (8,21), (9,20), (10,19), (11,18)",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Medianen bestämmer det mittersta värdet. Medelvärdet bestämmer summan av alla värden.</p>"
   },
   {
     "id": "4.55",
@@ -43195,9 +44878,14 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "21,6",
-    "tolerans": null,
-    "självrättning": true
+    "rättSvar": 21.6,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ordna värdena när det behövs och använd definitionerna av medelvärde, median och typvärde var för sig.</p>"
   },
   {
     "id": "4.56",
@@ -43220,10 +44908,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Nytt medelvärde −90, ny standardavvikelse 12",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -90,
+      12
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett material har \\(\\mu=25\\), \\(\\sigma=3\\) och varje värde omvandlas med \\(y=-4x+10\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm det nya medelvärdet.</p>",
+        "s": "<p>\\(-4\\cdot25+10=-90\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den nya standardavvikelsen.</p>",
+        "s": "<p>Standardavvikelsen multipliceras med \\(|-4|=4\\): \\(4\\cdot3=12\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vid \\(y=ax+b\\) blir det nya medelvärdet \\(a\\mu+b\\), medan standardavvikelsen multipliceras med \\(|a|\\).</p>"
   },
   {
     "id": "4.57",
@@ -43234,8 +44966,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Resultaten på ett test kan beskrivas med en normalfördelning med medelvärdet 72 och standardavvikelsen 8.</p><p>En skola vill markera de 12 % högsta resultaten och de 8 % lägsta resultaten.</p><p>Bestäm med GeoGebra de två gränsvärden som delar av dessa grupper. Svara med en decimal.</p>",
     "s": "<p>De 8 % lägsta motsvarar den 8:e percentilen. I GeoGebras Sannolikhetskalkylator fås gränsen cirka 60,8.</p><p>De 12 % högsta innebär att 88 % ligger på eller under den övre gränsen. Den 88:e percentilen blir cirka 81,4.</p><p><strong>Gränserna är ungefär 60,8 och 81,4.</strong></p><p><strong>GeoGebra:</strong> Öppna <em>Sannolikhetskalkylatorn</em>, välj <em>Normal</em>, ange medelvärdet 72 och standardavvikelsen 8. Välj området till vänster och ange arean 0,08 respektive 0,88 och läs av sannolikheten eller gränsvärdet.</p>",
     "familj": "normalfordelning_digitala_verktyg__bestam_gransvarde_fran_sannolikhet",
@@ -43247,10 +44979,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "figur",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60.8,
+      81.4
+    ],
+    "tolerans": [
+      0.2,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=72\\), \\(\\sigma=8\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm gränsen för de 8 % lägsta. Svara med en decimal.</p>",
+        "s": "<p>8:e percentilen är cirka 60,8.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm gränsen för de 12 % högsta. Svara med en decimal.</p>",
+        "s": "<p>De 12 % högsta börjar vid 88:e percentilen: cirka 81,4.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I Sannolikhetskalkylatorn: välj Normal, skriv in \\(\\mu\\) och \\(\\sigma\\), och använd vänsterarean som motsvarar den sökta percentilen.</p>"
   },
   {
     "id": "4.58",
@@ -43261,8 +45037,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Vikten hos en produkt är normalfördelad med medelvärdet 500 g och standardavvikelsen 20 g.</p><p>De 10 % tyngsta produkterna ska sorteras ut. Använd GeoGebras Sannolikhetskalkylator och bestäm den viktgräns som ska användas. Svara i hela gram.</p>",
     "s": "<p>Om 10 % ska ligga över gränsen ska 90 % ligga under den.</p><p>I GeoGebras Sannolikhetskalkylator söker man därför värdet som har 0,90 av arean till vänster.</p><p>Gränsen blir ungefär 525,6 g.</p><p><strong>Viktgränsen bör sättas till cirka 526 g.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
@@ -43273,10 +45049,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Viktgränsen bör sättas till cirka 526 g",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 526,
+    "tolerans": 1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I Sannolikhetskalkylatorn: välj Normal, skriv in \\(\\mu\\) och \\(\\sigma\\), och använd vänsterarean som motsvarar den sökta percentilen.</p>"
   },
   {
     "id": "4.59",
@@ -43302,7 +45084,11 @@ window.BANKMA2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Dela det sorterade materialet i en undre och en övre halva och bestäm medianen i varje halva.</p>"
   },
   {
     "id": "4.60",
@@ -43323,10 +45109,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Det sjunde talet är \\(126-103=23\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 23,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först vilken totalsumma medelvärdet kräver och jämför med summan av de kända värdena.</p>"
   },
   {
     "id": "4.61",
@@ -43348,10 +45139,68 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Medelvärde 8, median 7, typvärde 6",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      7,
+      6
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Medelvärde",
+      "Median",
+      "Typvärde"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Datamaterial: 4, 6, 6, 7, 9, 10, 14.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medelvärdet.</p>",
+        "s": "<p>Summan är 56 och \\(56/7=8\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>Det mittersta värdet är 7.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm typvärdet.</p>",
+        "s": "<p>Värdet 6 förekommer flest gånger.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Medianen bestämmer det mittersta värdet. Medelvärdet bestämmer summan av alla värden.</p>"
   },
   {
     "id": "4.62",
@@ -43373,10 +45222,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(x=12\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ordna värdena när det behövs och använd definitionerna av medelvärde, median och typvärde var för sig.</p>"
   },
   {
     "id": "4.63",
@@ -43398,10 +45252,68 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(Q_1=5,5\\), median 8,5, \\(Q_3=13,5\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5.5,
+      8.5,
+      13.5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Q1",
+      "Median",
+      "Q3"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Sorterade värden: 3, 5, 6, 8, 9, 12, 15, 18.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(Q_1\\).</p>",
+        "s": "<p>Medianen av 3,5,6,8 är \\((5+6)/2=5,5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>\\((8+9)/2=8,5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm \\(Q_3\\).</p>",
+        "s": "<p>Medianen av 9,12,15,18 är \\((12+15)/2=13,5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Dela det sorterade materialet i en undre och en övre halva och bestäm medianen i varje halva.</p>"
   },
   {
     "id": "4.64",
@@ -43412,22 +45324,65 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
-    "t": "<p>Ett datamaterial med sju heltalsvärden får följande lådagram före och efter att ett åttonde värde läggs till.</p><span class=\"fig smal\"><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58.0\" y1=\"30\" x2=\"58.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"58.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">0</text><line x1=\"89.8\" y1=\"30\" x2=\"89.8\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"89.8\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><line x1=\"121.7\" y1=\"30\" x2=\"121.7\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"121.7\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><line x1=\"153.5\" y1=\"30\" x2=\"153.5\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"153.5\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><line x1=\"185.3\" y1=\"30\" x2=\"185.3\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"185.3\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><line x1=\"217.2\" y1=\"30\" x2=\"217.2\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"217.2\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><line x1=\"249.0\" y1=\"30\" x2=\"249.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"249.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><line x1=\"280.8\" y1=\"30\" x2=\"280.8\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"280.8\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">7</text><line x1=\"312.7\" y1=\"30\" x2=\"312.7\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"312.7\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">8</text><line x1=\"344.5\" y1=\"30\" x2=\"344.5\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"344.5\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">9</text><line x1=\"376.3\" y1=\"30\" x2=\"376.3\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"376.3\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">10</text><line x1=\"408.2\" y1=\"30\" x2=\"408.2\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"408.2\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">11</text><line x1=\"440.0\" y1=\"30\" x2=\"440.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"440.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">12</text><text x=\"18\" y=\"80\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">före</text><line x1=\"121.7\" y1=\"75\" x2=\"376.3\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"185.3\" y=\"53\" width=\"127.3\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"53\" x2=\"249.0\" y2=\"97\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"121.7\" y1=\"61\" x2=\"121.7\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"376.3\" y1=\"61\" x2=\"376.3\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><text x=\"18\" y=\"185\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">efter</text><line x1=\"121.7\" y1=\"180\" x2=\"440.0\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"185.3\" y=\"158\" width=\"159.2\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"158\" x2=\"249.0\" y2=\"202\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"121.7\" y1=\"166\" x2=\"121.7\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"440.0\" y1=\"166\" x2=\"440.0\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.2\"/></svg></span><p>Ge ett möjligt värde på den åttonde observationen och motivera att det kan ge förändringen i figuren.</p>",
-    "s": "<p>Ett möjligt ursprungsmaterial är \\(2,4,4,6,8,8,10\\), vilket ger min 2, median 6 och max 10 med kvartiler omkring 4 och 8.</p><p>Om värdet 12 läggs till blir max 12 och övre delen av materialet flyttas upp, vilket kan ge \\(Q_3=9\\) samtidigt som medianen ligger kvar vid 6.</p><p><strong>Ett möjligt åttonde värde är 12.</strong></p><p>Andra svar kan också vara möjliga om de motiveras med ett konkret datamaterial.</p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Det sorterade datamaterialet är</p><p>\\[2,\\ 4,\\ 4,\\ 6,\\ 8,\\ 8,\\ 10.\\]</p><p>Värdet 12 läggs till.</p><p>Bestäm den nya medianen och den nya övre kvartilen \\(Q_3\\).</p>",
+    "s": "<p>Efter att 12 lagts till är materialet</p><p>\\[2,4,4,6,8,8,10,12.\\]</p><p>Medianen är medelvärdet av det fjärde och femte värdet:</p><p>\\((6+8)/2=7\\).</p><p>Den övre halvan är 8, 8, 10, 12, så \\(Q_3=(8+10)/2=9\\).</p><p><strong>Median 7 och \\(Q_3=9\\).</strong></p>",
     "familj": "ladagram__avlas_ladagram",
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      9
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Sortera först de åtta värdena. För åtta värden fås medianen från plats 4 och 5; \\(Q_3\\) fås från den övre halvan.</p>",
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Median",
+      "Q3"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Materialet 2, 4, 4, 6, 8, 8, 10 får ett nytt värde: 12.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm den nya medianen.</p>",
+        "s": "<p>\\((6+8)/2=7\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den nya övre kvartilen \\(Q_3\\).</p>",
+        "s": "<p>Övre halvan är 8,8,10,12 och \\((8+10)/2=9\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.65",
@@ -43450,10 +45405,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Grupp A",
+        "ratt": true
+      },
+      {
+        "txt": "Grupp B",
+        "ratt": false
+      },
+      {
+        "txt": "De är lika samlade",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Mindre standardavvikelse betyder att värdena i genomsnitt ligger närmare medelvärdet.</p>"
   },
   {
     "id": "4.66",
@@ -43478,11 +45451,56 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "10",
-      "cirka 95,4 %"
+      10,
+      95.4
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Standardavvikelse",
+      "Andel"
+    ],
+    "svarEnhet": [
+      "",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En normalfördelning har medelvärdet 60. Värdena 40 och 80 ligger två standardavvikelser från medelvärdet.</p><span class=\"fig smal\"><svg width=\"440\" height=\"245\" viewBox=\"0 0 440 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40\" y1=\"205\" x2=\"405\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 40.0 203.4 L 41.2 203.3 L 42.4 203.2 L 43.7 203.1 L 44.9 203.0 L 46.1 202.8 L 47.3 202.7 L 48.5 202.6 L 49.7 202.4 L 51.0 202.3 L 52.2 202.1 L 53.4 202.0 L 54.6 201.8 L 55.8 201.6 L 57.0 201.4 L 58.2 201.2 L 59.5 201.0 L 60.7 200.8 L 61.9 200.6 L 63.1 200.3 L 64.3 200.1 L 65.5 199.8 L 66.8 199.5 L 68.0 199.2 L 69.2 198.9 L 70.4 198.6 L 71.6 198.3 L 72.8 198.0 L 74.1 197.6 L 75.3 197.2 L 76.5 196.9 L 77.7 196.5 L 78.9 196.0 L 80.2 195.6 L 81.4 195.2 L 82.6 194.7 L 83.8 194.2 L 85.0 193.7 L 86.2 193.2 L 87.5 192.7 L 88.7 192.1 L 89.9 191.5 L 91.1 190.9 L 92.3 190.3 L 93.5 189.7 L 94.8 189.0 L 96.0 188.3 L 97.2 187.6 L 98.4 186.9 L 99.6 186.1 L 100.8 185.4 L 102.1 184.6 L 103.3 183.8 L 104.5 182.9 L 105.7 182.0 L 106.9 181.2 L 108.1 180.2 L 109.3 179.3 L 110.6 178.3 L 111.8 177.3 L 113.0 176.3 L 114.2 175.3 L 115.4 174.2 L 116.6 173.1 L 117.9 172.0 L 119.1 170.8 L 120.3 169.6 L 121.5 168.4 L 122.7 167.2 L 124.0 166.0 L 125.2 164.7 L 126.4 163.4 L 127.6 162.1 L 128.8 160.7 L 130.0 159.3 L 131.2 157.9 L 132.5 156.5 L 133.7 155.1 L 134.9 153.6 L 136.1 152.1 L 137.3 150.6 L 138.6 149.0 L 139.8 147.5 L 141.0 145.9 L 142.2 144.3 L 143.4 142.7 L 144.6 141.1 L 145.9 139.4 L 147.1 137.8 L 148.3 136.1 L 149.5 134.4 L 150.7 132.7 L 151.9 131.0 L 153.2 129.3 L 154.4 127.6 L 155.6 125.8 L 156.8 124.1 L 158.0 122.3 L 159.2 120.6 L 160.4 118.8 L 161.7 117.1 L 162.9 115.3 L 164.1 113.5 L 165.3 111.8 L 166.5 110.0 L 167.8 108.3 L 169.0 106.6 L 170.2 104.8 L 171.4 103.1 L 172.6 101.4 L 173.8 99.7 L 175.1 98.0 L 176.3 96.4 L 177.5 94.7 L 178.7 93.1 L 179.9 91.5 L 181.1 89.9 L 182.3 88.4 L 183.6 86.9 L 184.8 85.4 L 186.0 83.9 L 187.2 82.4 L 188.4 81.0 L 189.7 79.7 L 190.9 78.3 L 192.1 77.0 L 193.3 75.8 L 194.5 74.6 L 195.7 73.4 L 197.0 72.2 L 198.2 71.1 L 199.4 70.1 L 200.6 69.1 L 201.8 68.1 L 203.0 67.2 L 204.3 66.4 L 205.5 65.6 L 206.7 64.8 L 207.9 64.1 L 209.1 63.5 L 210.3 62.9 L 211.5 62.3 L 212.8 61.8 L 214.0 61.4 L 215.2 61.0 L 216.4 60.7 L 217.6 60.5 L 218.8 60.3 L 220.1 60.1 L 221.3 60.0 L 222.5 60.0 L 223.7 60.0 L 224.9 60.1 L 226.2 60.3 L 227.4 60.5 L 228.6 60.7 L 229.8 61.0 L 231.0 61.4 L 232.2 61.8 L 233.5 62.3 L 234.7 62.9 L 235.9 63.5 L 237.1 64.1 L 238.3 64.8 L 239.5 65.6 L 240.8 66.4 L 242.0 67.2 L 243.2 68.1 L 244.4 69.1 L 245.6 70.1 L 246.8 71.1 L 248.0 72.2 L 249.3 73.4 L 250.5 74.6 L 251.7 75.8 L 252.9 77.0 L 254.1 78.3 L 255.3 79.7 L 256.6 81.0 L 257.8 82.4 L 259.0 83.9 L 260.2 85.4 L 261.4 86.9 L 262.6 88.4 L 263.9 89.9 L 265.1 91.5 L 266.3 93.1 L 267.5 94.7 L 268.7 96.4 L 269.9 98.0 L 271.2 99.7 L 272.4 101.4 L 273.6 103.1 L 274.8 104.8 L 276.0 106.6 L 277.2 108.3 L 278.5 110.0 L 279.7 111.8 L 280.9 113.5 L 282.1 115.3 L 283.3 117.1 L 284.5 118.8 L 285.8 120.6 L 287.0 122.3 L 288.2 124.1 L 289.4 125.8 L 290.6 127.6 L 291.9 129.3 L 293.1 131.0 L 294.3 132.7 L 295.5 134.4 L 296.7 136.1 L 297.9 137.8 L 299.1 139.4 L 300.4 141.1 L 301.6 142.7 L 302.8 144.3 L 304.0 145.9 L 305.2 147.5 L 306.4 149.0 L 307.7 150.6 L 308.9 152.1 L 310.1 153.6 L 311.3 155.1 L 312.5 156.5 L 313.8 157.9 L 315.0 159.3 L 316.2 160.7 L 317.4 162.1 L 318.6 163.4 L 319.8 164.7 L 321.1 166.0 L 322.3 167.2 L 323.5 168.4 L 324.7 169.6 L 325.9 170.8 L 327.1 172.0 L 328.4 173.1 L 329.6 174.2 L 330.8 175.3 L 332.0 176.3 L 333.2 177.3 L 334.4 178.3 L 335.7 179.3 L 336.9 180.2 L 338.1 181.2 L 339.3 182.0 L 340.5 182.9 L 341.7 183.8 L 342.9 184.6 L 344.2 185.4 L 345.4 186.1 L 346.6 186.9 L 347.8 187.6 L 349.0 188.3 L 350.2 189.0 L 351.5 189.7 L 352.7 190.3 L 353.9 190.9 L 355.1 191.5 L 356.3 192.1 L 357.6 192.7 L 358.8 193.2 L 360.0 193.7 L 361.2 194.2 L 362.4 194.7 L 363.6 195.2 L 364.8 195.6 L 366.1 196.0 L 367.3 196.5 L 368.5 196.9 L 369.7 197.2 L 370.9 197.6 L 372.2 198.0 L 373.4 198.3 L 374.6 198.6 L 375.8 198.9 L 377.0 199.2 L 378.2 199.5 L 379.4 199.8 L 380.7 200.1 L 381.9 200.3 L 383.1 200.6 L 384.3 200.8 L 385.5 201.0 L 386.8 201.2 L 388.0 201.4 L 389.2 201.6 L 390.4 201.8 L 391.6 202.0 L 392.8 202.1 L 394.1 202.3 L 395.3 202.4 L 396.5 202.6 L 397.7 202.7 L 398.9 202.8 L 400.1 203.0 L 401.4 203.1 L 402.6 203.2 L 403.8 203.3 L 405.0 203.4\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.6\"/><line x1=\"100.8\" y1=\"205\" x2=\"100.8\" y2=\"95\" stroke=\"#777\" stroke-width=\"1.3\" stroke-dasharray=\"4 4\"/><text x=\"100.8\" y=\"223\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">40</text><line x1=\"222.5\" y1=\"205\" x2=\"222.5\" y2=\"95\" stroke=\"#777\" stroke-width=\"1.3\" stroke-dasharray=\"4 4\"/><text x=\"222.5\" y=\"223\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">60</text><line x1=\"344.2\" y1=\"205\" x2=\"344.2\" y2=\"95\" stroke=\"#777\" stroke-width=\"1.3\" stroke-dasharray=\"4 4\"/><text x=\"344.2\" y=\"223\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">80</text></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm standardavvikelsen.</p>",
+        "s": "<p>20 enheter motsvarar \\(2\\sigma\\), alltså \\(\\sigma=10\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Ungefär hur stor andel ligger mellan 40 och 80? Svara i procent.</p>",
+        "s": "<p>Intervallet är \\(\\mu\\pm2\\sigma\\), vilket innehåller ungefär 95,4 %.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.67",
@@ -43504,10 +45522,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Median 12 och variationsbredd 20",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      20
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Median",
+      "Variationsbredd"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Läs av lådagrammet.</p><span class=\"fig\"><svg width=\"500\" height=\"180\" viewBox=\"0 0 500 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40.0\" y1=\"135\" x2=\"475.0\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"131\" x2=\"40.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"40.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"58.1\" y1=\"131\" x2=\"58.1\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"76.2\" y1=\"131\" x2=\"76.2\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"76.2\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"94.4\" y1=\"131\" x2=\"94.4\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"112.5\" y1=\"131\" x2=\"112.5\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"112.5\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"130.6\" y1=\"131\" x2=\"130.6\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"148.8\" y1=\"131\" x2=\"148.8\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"148.8\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"166.9\" y1=\"131\" x2=\"166.9\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"185.0\" y1=\"131\" x2=\"185.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"185.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"203.1\" y1=\"131\" x2=\"203.1\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"221.2\" y1=\"131\" x2=\"221.2\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"221.2\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">12</text><line x1=\"239.4\" y1=\"131\" x2=\"239.4\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"257.5\" y1=\"131\" x2=\"257.5\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"257.5\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">14</text><line x1=\"275.6\" y1=\"131\" x2=\"275.6\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"293.8\" y1=\"131\" x2=\"293.8\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"293.8\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">16</text><line x1=\"311.9\" y1=\"131\" x2=\"311.9\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"330.0\" y1=\"131\" x2=\"330.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"330.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">18</text><line x1=\"348.1\" y1=\"131\" x2=\"348.1\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"366.2\" y1=\"131\" x2=\"366.2\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"366.2\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">20</text><line x1=\"384.4\" y1=\"131\" x2=\"384.4\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"402.5\" y1=\"131\" x2=\"402.5\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"402.5\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">22</text><line x1=\"420.6\" y1=\"131\" x2=\"420.6\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"438.8\" y1=\"131\" x2=\"438.8\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"438.8\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">24</text><line x1=\"456.9\" y1=\"131\" x2=\"456.9\" y2=\"139\" stroke=\"#2B2527\"/><line x1=\"475.0\" y1=\"131\" x2=\"475.0\" y2=\"139\" stroke=\"#2B2527\"/><text x=\"475.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">26</text><line x1=\"76.2\" y1=\"78\" x2=\"148.8\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"330.0\" y1=\"78\" x2=\"438.8\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"76.2\" y1=\"60\" x2=\"76.2\" y2=\"96\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"438.8\" y1=\"60\" x2=\"438.8\" y2=\"96\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><rect x=\"148.8\" y=\"53\" width=\"181.2\" height=\"50\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><line x1=\"221.2\" y1=\"53\" x2=\"221.2\" y2=\"103\" stroke=\"#B43123\" stroke-width=\"2.8\"/></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>Medianlinjen ligger vid 12.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm variationsbredden.</p>",
+        "s": "<p>Maximum minus minimum ger 20.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av medianlinjen, lådans kanter och whiskrarnas ändpunkter var för sig.</p>"
   },
   {
     "id": "4.68",
@@ -43518,10 +45580,10 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En datamängd har medelvärdet 18 och standardavvikelsen 4. Varje värde omvandlas enligt \\(y=1,5x-7\\).</p><p>Bestäm den nya datamängdens medelvärde och standardavvikelse.</p>",
-    "s": "<p>En linjär omvandling \\(y=ax+b\\) ändrar medelvärdet till \\(a\\mu+b\\), medan standardavvikelsen multipliceras med \\(|a|\\).</p><p>Nytt medelvärde: \\(1,5\\cdot18-7=20\\).</p><p>Ny standardavvikelse: \\(1,5\\cdot4=6\\).</p><p><strong>Medelvärde 20 och standardavvikelse 6.</strong></p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En mätserie har medelvärdet 18 cm och standardavvikelsen 4 cm. Alla längder skrivs om till millimeter.</p><p>Bestäm det nya medelvärdet och den nya standardavvikelsen.</p>",
+    "s": "<p>Att byta från centimeter till millimeter innebär att varje värde multipliceras med 10.</p><p>Medelvärdet blir därför \\(18\\cdot10=180\\) mm.</p><p>Även alla avstånd från medelvärdet blir 10 gånger så stora, så standardavvikelsen blir \\(4\\cdot10=40\\) mm.</p><p><strong>Medelvärde 180 mm och standardavvikelse 40 mm.</strong></p>",
     "familj": "standardavvikelse__berakna_och_tolka_standardavvikelse",
     "formaga": [
       "procedur",
@@ -43530,10 +45592,58 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Medelvärde 20 och standardavvikelse 6",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      180,
+      40
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "svarEnhet": [
+      "mm",
+      "mm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En mätserie har medelvärdet 18 cm och standardavvikelsen 4 cm. Alla längder skrivs om till millimeter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm det nya medelvärdet i mm.</p>",
+        "s": "<p>\\(18\\cdot10=180\\) mm.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den nya standardavvikelsen i mm.</p>",
+        "s": "<p>Alla avstånd skalas med 10: \\(4\\cdot10=40\\) mm.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Fokusera på hur långt observationerna ligger från medelvärdet, inte på medelvärdets storlek i sig.</p>"
   },
   {
     "id": "4.69",
@@ -43544,8 +45654,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En normalfördelning har medelvärde 200. Ungefär 68,2 % ligger mellan 188 och 212. Bestäm standardavvikelsen.</p>",
     "s": "<p>68,2 % motsvarar ungefär \\(\\mu\\pm\\sigma\\).</p><p>Gränserna 188 och 212 ligger båda 12 enheter från medelvärdet 200.</p><p><strong>Alltså är \\(\\sigma=12\\).</strong></p>",
     "familj": "normalfordelat_material__andel_i_intervall",
@@ -43556,10 +45666,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(\\sigma=12\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>68,2 % motsvarar intervallet \\(\\mu\\pm\\sigma\\).</p>"
   },
   {
     "id": "4.70",
@@ -43570,8 +45685,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Resultat på ett test kan beskrivas som normalfördelade med medelvärdet 64 och standardavvikelsen 9.</p><p>Vilket resultat krävs ungefär för att hamna bland de 10 % bästa? Beskriv också hur man kan bestämma detta i GeoGebra.</p>",
     "s": "<p>Att ligga bland de 10 % bästa betyder att 90 % ligger på eller under gränsvärdet.</p><p><strong>GeoGebra:</strong> Öppna <em>Sannolikhetskalkylatorn</em>, välj <em>Normal</em>, ange medelvärdet 64 och standardavvikelsen 9. Välj vänsterarea 0,90 och läs av gränsvärdet.</p><p>GeoGebra ger cirka 75,5.</p><p><strong>Det krävs alltså ungefär 76 poäng.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__bestam_gransvarde_fran_sannolikhet",
@@ -43583,10 +45698,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Det krävs alltså ungefär 76 poäng",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 75.5,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn, ange \\(\\mu\\) och \\(\\sigma\\) och markera det efterfrågade intervallet.</p>"
   },
   {
     "id": "4.71",
@@ -43597,8 +45717,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "kvartiler_percentiler__kvartiler_och_kvartilavstand",
     "formaga": [
       "procedur",
@@ -43608,10 +45728,82 @@ window.BANKMA2 = [
     "s": "<p>Medianen är medelvärdet av den fjärde och femte observationen: \\((7+8)/2=7{,}5\\).</p><p>Nedre kvartil är medianen av 3,4,6,7: \\((4+6)/2=5\\).</p><p>Övre kvartil är medianen av 8,11,13,15: \\((11+13)/2=12\\).</p><p>Kvartilavståndet är \\(12-5=7\\).</p><p><strong>Median 7,5; nedre kvartil 5; övre kvartil 12; kvartilavstånd 7.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Median 7,5; nedre kvartil 5; övre kvartil 12; kvartilavstånd 7",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.5,
+      5,
+      12,
+      7
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Median",
+      "Q1",
+      "Q3",
+      "Kvartilavstånd"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Sorterade observationer: 3, 4, 6, 7, 8, 11, 13, 15.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>\\((7+8)/2=7,5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(Q_1\\).</p>",
+        "s": "<p>\\((4+6)/2=5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm \\(Q_3\\).</p>",
+        "s": "<p>\\((11+13)/2=12\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<p>\\(12-5=7\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Dela det sorterade materialet i en undre och en övre halva och bestäm medianen i varje halva.</p>"
   },
   {
     "id": "4.72",
@@ -43635,10 +45827,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Intervallet är 42 till 58",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      42,
+      58
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=50\\), \\(\\sigma=8\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm den nedre gränsen för intervallet som innehåller cirka 68,2 %.</p>",
+        "s": "<p>\\(\\mu-\\sigma=42\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den övre gränsen.</p>",
+        "s": "<p>\\(\\mu+\\sigma=58\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>68,2 % motsvarar intervallet \\(\\mu\\pm\\sigma\\).</p>"
   },
   {
     "id": "4.74",
@@ -43659,10 +45895,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(x=21\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ordna värdena när det behövs och använd definitionerna av medelvärde, median och typvärde var för sig.</p>"
   },
   {
     "id": "4.75",
@@ -43684,10 +45925,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Standardavvikelsen är oförändrad",
+        "ratt": true
+      },
+      {
+        "txt": "Den ökar med 12",
+        "ratt": false
+      },
+      {
+        "txt": "Den minskar med 12",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Att addera samma tal till alla observationer flyttar hela materialet men ändrar inte spridningen.</p>"
   },
   {
     "id": "4.76",
@@ -43708,10 +45967,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Summan är 140",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 140,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Summan av alla värden är antal · medelvärde.</p>"
   },
   {
     "id": "4.77",
@@ -43732,10 +45996,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det gemensamma medelvärdet är 26,4",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 26.4,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ordna värdena när det behövs och använd definitionerna av medelvärde, median och typvärde var för sig.</p>"
   },
   {
     "id": "4.78",
@@ -43757,10 +46026,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Ungefär 80 % har samma eller lägre resultat",
+        "ratt": true
+      },
+      {
+        "txt": "Exakt 80 % har högre resultat",
+        "ratt": false
+      },
+      {
+        "txt": "Resultatet är 80 poäng",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>En percentil beskriver hur stor andel som ligger på eller under ett visst värde.</p>"
   },
   {
     "id": "4.79",
@@ -43786,7 +46073,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Börja med de fem värden som lådagrammet fixerar: min, \\(Q_1\\), median, \\(Q_3\\) och max. Fyll sedan in värden mellan dem.</p>"
   },
   {
     "id": "4.80",
@@ -43809,10 +46100,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Ungefär 81,8 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.8,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.81",
@@ -43835,10 +46132,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Ungefär 65,1 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 65.1,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn, ange \\(\\mu\\) och \\(\\sigma\\) och markera det efterfrågade intervallet.</p>"
   },
   {
     "id": "4.82",
@@ -43849,8 +46152,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Lådagrammet har minsta värde 2, \\(Q_1=4\\), median 6, \\(Q_3=9\\) och största värde 11.</p><span class=\"fig smal\"><svg width=\"460\" height=\"180\" viewBox=\"0 0 460 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58.0\" y1=\"30\" x2=\"58.0\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"58.0\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">0</text><line x1=\"89.8\" y1=\"30\" x2=\"89.8\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"89.8\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><line x1=\"121.7\" y1=\"30\" x2=\"121.7\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"121.7\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><line x1=\"153.5\" y1=\"30\" x2=\"153.5\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"153.5\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><line x1=\"185.3\" y1=\"30\" x2=\"185.3\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"185.3\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><line x1=\"217.2\" y1=\"30\" x2=\"217.2\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"217.2\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><line x1=\"249.0\" y1=\"30\" x2=\"249.0\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"249.0\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><line x1=\"280.8\" y1=\"30\" x2=\"280.8\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"280.8\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">7</text><line x1=\"312.7\" y1=\"30\" x2=\"312.7\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"312.7\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">8</text><line x1=\"344.5\" y1=\"30\" x2=\"344.5\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"344.5\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">9</text><line x1=\"376.3\" y1=\"30\" x2=\"376.3\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"376.3\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">10</text><line x1=\"408.2\" y1=\"30\" x2=\"408.2\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"408.2\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">11</text><line x1=\"440.0\" y1=\"30\" x2=\"440.0\" y2=\"135\" stroke=\"#ECECEF\"/><text x=\"440.0\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">12</text><line x1=\"121.7\" y1=\"75\" x2=\"408.2\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"185.3\" y=\"53\" width=\"159.2\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"53\" x2=\"249.0\" y2=\"97\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"121.7\" y1=\"61\" x2=\"121.7\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"408.2\" y1=\"61\" x2=\"408.2\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/></svg></span><p>Konstruera ett möjligt sorterat datamaterial med nio heltalsvärden som ger dessa fem värden.</p>",
     "s": "<p>Med nio värden är det femte värdet medianen, alltså 6.</p><p>För de fyra första ska medianen vara 4; för de fyra sista ska medianen vara 9.</p><p>Ett möjligt material är</p><p>\\(2,3,5,5,6,8,10,10,11\\).</p><p>Första kvartilen är \\((3+5)/2=4\\) och tredje kvartilen är \\((8+10)/2=9\\).</p><p><strong>Detta är ett möjligt svar.</strong></p>",
     "familj": "ladagram__rita_ladagram",
@@ -43864,7 +46167,11 @@ window.BANKMA2 = [
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Börja med de fem värden som lådagrammet fixerar: min, \\(Q_1\\), median, \\(Q_3\\) och max. Fyll sedan in värden mellan dem.</p>"
   },
   {
     "id": "4.84",
@@ -43875,22 +46182,26 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Två material har samma medelvärde. Det ena har standardavvikelse 2 och det andra 8. Förklara skillnaden.</p>",
-    "s": "<p>Materialen har samma centrum eftersom medelvärdena är lika.</p><p>Standardavvikelsen 8 är fyra gånger så stor som 2, vilket betyder att det materialet är mycket mer utspritt kring medelvärdet.</p><p><strong>Materialet med standardavvikelse 8 har större spridning.</strong></p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två material har samma medelvärde. Material A har standardavvikelsen 2 och material B standardavvikelsen 8.</p><p>Hur många gånger så stor är standardavvikelsen i material B?</p>",
+    "s": "<p>\\(8/2=4\\).</p><p><strong>Standardavvikelsen är 4 gånger så stor i material B.</strong></p>",
     "familj": "standardavvikelse__berakna_och_tolka_standardavvikelse",
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Mindre standardavvikelse betyder att värdena i genomsnitt ligger närmare medelvärdet.</p>"
   },
   {
     "id": "4.85",
@@ -43912,9 +46223,14 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "15",
-    "tolerans": null,
-    "självrättning": true
+    "rättSvar": 15,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först vilken totalsumma medelvärdet kräver och jämför med summan av de kända värdena.</p>"
   },
   {
     "id": "4.86",
@@ -43936,10 +46252,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Standardavvikelsen tredubblas",
+        "ratt": true
+      },
+      {
+        "txt": "Standardavvikelsen är oförändrad",
+        "ratt": false
+      },
+      {
+        "txt": "Standardavvikelsen ökar med 3",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>När alla värden multipliceras med en faktor skalas alla avstånd från medelvärdet med samma faktor.</p>"
   },
   {
     "id": "4.87",
@@ -43950,8 +46284,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Längden på en tillverkad detalj kan beskrivas med en normalfördelning med medelvärdet 50,0 mm och standardavvikelsen 1,8 mm.</p><p>a) Hur stor andel ligger utanför intervallet 47,0–53,0 mm?<br>b) Bestäm med GeoGebra ett symmetriskt intervall kring medelvärdet som innehåller 90 % av värdena.</p>",
     "s": "<p>a) I Sannolikhetskalkylatorn blir sannolikheten under 47,0 plus sannolikheten över 53,0 cirka 0,0956.</p><p>Alltså ligger cirka 9,6 % utanför intervallet.</p><p>b) Ett symmetriskt intervall med 90 % i mitten lämnar 5 % i vardera änden. GeoGebra ger ungefär 47,04 mm och 52,96 mm.</p><p><strong>a) Cirka 9,6 %. b) Ungefär 47,04–52,96 mm.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
@@ -43965,11 +46299,71 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "Cirka 9,6 %",
-      "Ungefär 47,04–52,96 mm"
+      9.6,
+      47.04,
+      52.96
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.2,
+      0.08,
+      0.08
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Andel utanför",
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarEnhet": [
+      "%",
+      "mm",
+      "mm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=50,0\\) mm och \\(\\sigma=1,8\\) mm.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm andelen utanför 47,0–53,0 mm i procent.</p>",
+        "s": "<p>GeoGebra ger cirka 9,6 % utanför intervallet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den nedre gränsen för det symmetriska 90 %-intervallet.</p>",
+        "s": "<p>5:e percentilen är cirka 47,04 mm.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm den övre gränsen.</p>",
+        "s": "<p>95:e percentilen är cirka 52,96 mm.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn, ange \\(\\mu\\) och \\(\\sigma\\) och markera det efterfrågade intervallet.</p>"
   },
   {
     "id": "4.88",
@@ -43991,10 +46385,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Median 10 och kvartilavstånd 7",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10,
+      7
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Median",
+      "Kvartilavstånd"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Läs av lådagrammet.</p><span class=\"fig\"><svg width=\"520\" height=\"180\" viewBox=\"0 0 520 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lådagram\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"178\" rx=\"12\" fill=\"#fff\" stroke=\"#D1D5DB\"/><line x1=\"55.0\" y1=\"125\" x2=\"55.0\" y2=\"130\" stroke=\"#777\"/><text x=\"55.0\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">2</text><line x1=\"77.6\" y1=\"125\" x2=\"77.6\" y2=\"130\" stroke=\"#777\"/><text x=\"77.6\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">3</text><line x1=\"100.3\" y1=\"125\" x2=\"100.3\" y2=\"130\" stroke=\"#777\"/><text x=\"100.3\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">4</text><line x1=\"122.9\" y1=\"125\" x2=\"122.9\" y2=\"130\" stroke=\"#777\"/><text x=\"122.9\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">5</text><line x1=\"145.5\" y1=\"125\" x2=\"145.5\" y2=\"130\" stroke=\"#777\"/><text x=\"145.5\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">6</text><line x1=\"168.2\" y1=\"125\" x2=\"168.2\" y2=\"130\" stroke=\"#777\"/><text x=\"168.2\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">7</text><line x1=\"190.8\" y1=\"125\" x2=\"190.8\" y2=\"130\" stroke=\"#777\"/><text x=\"190.8\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">8</text><line x1=\"213.4\" y1=\"125\" x2=\"213.4\" y2=\"130\" stroke=\"#777\"/><text x=\"213.4\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">9</text><line x1=\"236.1\" y1=\"125\" x2=\"236.1\" y2=\"130\" stroke=\"#777\"/><text x=\"236.1\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">10</text><line x1=\"258.7\" y1=\"125\" x2=\"258.7\" y2=\"130\" stroke=\"#777\"/><text x=\"258.7\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">11</text><line x1=\"281.3\" y1=\"125\" x2=\"281.3\" y2=\"130\" stroke=\"#777\"/><text x=\"281.3\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">12</text><line x1=\"303.9\" y1=\"125\" x2=\"303.9\" y2=\"130\" stroke=\"#777\"/><text x=\"303.9\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">13</text><line x1=\"326.6\" y1=\"125\" x2=\"326.6\" y2=\"130\" stroke=\"#777\"/><text x=\"326.6\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">14</text><line x1=\"349.2\" y1=\"125\" x2=\"349.2\" y2=\"130\" stroke=\"#777\"/><text x=\"349.2\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">15</text><line x1=\"371.8\" y1=\"125\" x2=\"371.8\" y2=\"130\" stroke=\"#777\"/><text x=\"371.8\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">16</text><line x1=\"394.5\" y1=\"125\" x2=\"394.5\" y2=\"130\" stroke=\"#777\"/><text x=\"394.5\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">17</text><line x1=\"417.1\" y1=\"125\" x2=\"417.1\" y2=\"130\" stroke=\"#777\"/><text x=\"417.1\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">18</text><line x1=\"439.7\" y1=\"125\" x2=\"439.7\" y2=\"130\" stroke=\"#777\"/><text x=\"439.7\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">19</text><line x1=\"462.4\" y1=\"125\" x2=\"462.4\" y2=\"130\" stroke=\"#777\"/><text x=\"462.4\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">20</text><line x1=\"485.0\" y1=\"125\" x2=\"485.0\" y2=\"130\" stroke=\"#777\"/><text x=\"485.0\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"9\">21</text><line x1=\"100.3\" y1=\"90\" x2=\"439.7\" y2=\"90\" stroke=\"#2C62A8\" stroke-width=\"2.5\"/><line x1=\"100.3\" y1=\"74\" x2=\"100.3\" y2=\"106\" stroke=\"#2C62A8\" stroke-width=\"2.5\"/><line x1=\"439.7\" y1=\"74\" x2=\"439.7\" y2=\"106\" stroke=\"#2C62A8\" stroke-width=\"2.5\"/><rect x=\"168.2\" y=\"63\" width=\"158.4\" height=\"54\" fill=\"#EAF0F8\" stroke=\"#2C62A8\" stroke-width=\"2.5\"/><line x1=\"236.1\" y1=\"63\" x2=\"236.1\" y2=\"117\" stroke=\"#B43123\" stroke-width=\"2.5\"/></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>Medianen är 10.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<p>\\(Q_3-Q_1=14-7=7\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av medianlinjen, lådans kanter och whiskrarnas ändpunkter var för sig.</p>"
   },
   {
     "id": "4.89",
@@ -44005,8 +46443,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En normalfördelning har medelvärdet 50 och standardavvikelsen 8.</p><p>Använd ett digitalt verktyg för att bestämma hur stor andel av värdena som är mindre än 62.</p>",
     "s": "<p>I GeoGebras Sannolikhetskalkylator väljer du normalfördelning, anger medelvärdet 50 och standardavvikelsen 8 och väljer området till vänster om 62.</p><p>Andelen blir cirka 0,933, alltså 93,3 %.</p><p><strong>Cirka 93,3 %.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
@@ -44017,10 +46455,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 93,3 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 93.3,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn och markera området till vänster eller höger om gränsen.</p>"
   },
   {
     "id": "4.90",
@@ -44031,8 +46475,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "standardavvikelse__berakna_och_tolka_standardavvikelse",
     "formaga": [
       "procedur",
@@ -44043,10 +46487,54 @@ window.BANKMA2 = [
     "s": "<p>När alla observationer ökas med 5 ökar medelvärdet också med 5: \\(12+5=17\\).</p><p>Avstånden mellan observationerna och medelvärdet ändras inte, eftersom både observationerna och medelvärdet flyttas lika mycket.</p><p>Standardavvikelsen är därför fortfarande 3.</p><p><strong>Nytt medelvärde 17 och standardavvikelse 3.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17,
+      3
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Nytt medelvärde",
+      "Ny standardavvikelse"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett material har medelvärdet 12 och standardavvikelsen 3. Varje observation ökas med 5.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm det nya medelvärdet.</p>",
+        "s": "<p>Medelvärdet flyttas också 5 steg: 17.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den nya standardavvikelsen.</p>",
+        "s": "<p>Att addera samma tal till alla värden ändrar inte spridningen: 3.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Att addera samma tal till alla observationer flyttar hela materialet men ändrar inte spridningen.</p>"
   },
   {
     "id": "4.91",
@@ -44067,10 +46555,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Summan är 112",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 112,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Summan av alla värden är antal · medelvärde.</p>"
   },
   {
     "id": "4.92",
@@ -44081,8 +46574,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En person ligger på 87:e percentilen i ett test med 600 deltagare.</p><p>Ungefär hur många deltagare har ett högre resultat?</p>",
     "s": "<p>87:e percentilen betyder att ungefär 87 % ligger på eller under resultatet.</p><p>Därför ligger ungefär \\(100-87=13\\)% högre.</p><p>\\(0,13\\cdot600=78\\).</p><p><strong>Cirka 78 deltagare.</strong></p>",
     "familj": "kvartiler_percentiler__percentiler",
@@ -44092,10 +46585,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 78 deltagare",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 78,
+    "tolerans": 2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "deltagare",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Översätt percentilen till andelen som ligger över gränsen och multiplicera med antalet personer.</p>"
   },
   {
     "id": "4.93",
@@ -44117,10 +46616,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Både medelvärdet och standardavvikelsen fördubblas",
+        "ratt": true
+      },
+      {
+        "txt": "Medelvärdet fördubblas men standardavvikelsen är oförändrad",
+        "ratt": false
+      },
+      {
+        "txt": "Standardavvikelsen fördubblas men medelvärdet är oförändrat",
+        "ratt": false
+      },
+      {
+        "txt": "Båda är oförändrade",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>När alla värden multipliceras med en faktor skalas alla avstånd från medelvärdet med samma faktor.</p>"
   },
   {
     "id": "4.94",
@@ -44143,10 +46664,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Andelen är ungefär 68,2 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.95",
@@ -44157,8 +46684,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En normalfördelning har medelvärdet 75 och standardavvikelsen 12,5.</p><p>a) Bestäm med GeoGebra gränserna för de 10 % lägsta respektive de 10 % högsta värdena.<br>b) Hur stor andel ligger mellan gränserna?</p>",
     "s": "<p>a) Den nedre gränsen är den 10:e percentilen och den övre den 90:e percentilen. GeoGebra ger cirka 59,0 respektive 91,0.</p><p>b) 10 % ligger under den nedre och 10 % över den övre. Alltså ligger 80 % mellan gränserna.</p><p><strong>a) Cirka 59,0 och 91,0. b) 80 %.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_i_intervall",
@@ -44172,11 +46699,71 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "Cirka 59,0 och 91,0",
-      "80 %"
+      59.0,
+      91.0,
+      80
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.2,
+      0.2,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns",
+      "Andel mellan"
+    ],
+    "svarEnhet": [
+      "",
+      "",
+      "%"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=75\\), \\(\\sigma=12,5\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm 10:e percentilen med GeoGebra.</p>",
+        "s": "<p>Cirka 59,0.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm 90:e percentilen med GeoGebra.</p>",
+        "s": "<p>Cirka 91,0.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur stor andel ligger mellan gränserna? Svara i procent.</p>",
+        "s": "<p>10 % ligger på vardera sidan, så 80 % ligger mellan.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>I Sannolikhetskalkylatorn: välj Normal, skriv in \\(\\mu\\) och \\(\\sigma\\), och använd vänsterarean som motsvarar den sökta percentilen.</p>"
   },
   {
     "id": "4.96",
@@ -44198,10 +46785,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "46 000 kr",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 46000,
+    "tolerans": 1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ordna värdena när det behövs och använd definitionerna av medelvärde, median och typvärde var för sig.</p>"
   },
   {
     "id": "4.97",
@@ -44227,7 +46820,11 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Vid \\(y=ax+b\\) blir det nya medelvärdet \\(a\\mu+b\\), medan standardavvikelsen multipliceras med \\(|a|\\).</p>"
   },
   {
     "id": "4.98",
@@ -44249,10 +46846,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Ungefär 25 % har samma eller lägre resultat",
+        "ratt": true
+      },
+      {
+        "txt": "Ungefär 75 % har samma eller lägre resultat",
+        "ratt": false
+      },
+      {
+        "txt": "Resultatet är 25 poäng",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>En percentil beskriver hur stor andel som ligger på eller under ett visst värde.</p>"
   },
   {
     "id": "4.99",
@@ -44275,10 +46890,16 @@ window.BANKMA2 = [
     "s": "<p>100 är \\(\\mu-2\\sigma\\) och 130 är \\(\\mu+\\sigma\\).</p><p>Från \\(\\mu-2\\sigma\\) till \\(\\mu\\) ligger \\(13{,}6\\%+34{,}1\\%=47{,}7\\%\\). Från \\(\\mu\\) till \\(\\mu+\\sigma\\) ligger 34,1 %.</p><p>Totalt: \\(47{,}7\\%+34{,}1\\%=81{,}8\\%\\).</p><p><strong>Cirka 81,8 %.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 81,8 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.8,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.100",
@@ -44301,10 +46922,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Andelen är cirka 0,909",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.909,
+    "tolerans": 0.002,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn och markera området till vänster eller höger om gränsen.</p>"
   },
   {
     "id": "4.101",
@@ -44325,10 +46951,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(x=20\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ordna värdena när det behövs och använd definitionerna av medelvärde, median och typvärde var för sig.</p>"
   },
   {
     "id": "4.102",
@@ -44350,10 +46981,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Den nya standardavvikelsen är 2",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>När alla värden multipliceras med en faktor skalas alla avstånd från medelvärdet med samma faktor.</p>"
   },
   {
     "id": "4.103",
@@ -44364,8 +47000,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Två grupper har samma median 20. Grupp A har \\(Q_1=18\\), \\(Q_3=22\\). Grupp B har \\(Q_1=11\\), \\(Q_3=29\\).</p><p>Jämför gruppernas mittersta 50 % och förklara vilken grupp som är mer samlad.</p>",
     "s": "<p>För grupp A är kvartilavståndet \\(22-18=4\\).</p><p>För grupp B är kvartilavståndet \\(29-11=18\\).</p><p>Eftersom grupp A har mycket mindre kvartilavstånd ligger dess mittersta 50 % betydligt tätare.</p><p><strong>Grupp A är mest samlad.</strong></p>",
     "familj": "ladagram__jamfora_ladagram",
@@ -44376,16 +47012,35 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Grupp A",
+        "ratt": true
+      },
+      {
+        "txt": "Grupp B",
+        "ratt": false
+      },
+      {
+        "txt": "De är lika samlade",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av medianlinjen, lådans kanter och whiskrarnas ändpunkter var för sig.</p>"
   },
   {
     "id": "4.104",
     "kap": 4,
     "omr": "normalfordelning_digitala_verktyg",
     "kurs": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -44401,10 +47056,16 @@ window.BANKMA2 = [
     "s": "<p>Använd GeoGebras sannolikhetskalkylator för normalfördelning. Ange standardavvikelsen 12 och justera medelvärdet tills arean till vänster om 74 är 0,80.</p><p>Det ger ett medelvärde på ungefär 63,9.</p><p><strong>Medelvärdet är cirka 63,9 poäng.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Medelvärdet är cirka 63,9 poäng",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 63.9,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "poäng",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I Sannolikhetskalkylatorn: välj Normal, skriv in \\(\\mu\\) och \\(\\sigma\\), och använd vänsterarean som motsvarar den sökta percentilen.</p>"
   },
   {
     "id": "4.105",
@@ -44427,10 +47088,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 95.4,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.106",
@@ -44441,8 +47108,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En mätserie kan beskrivas med en normalfördelning med medelvärdet 250 och standardavvikelsen 30.</p><p>Ett företag påstår att ungefär 10 % av mätvärdena är större än 288.</p><p>a) Undersök påståendet med GeoGebra.<br>b) Bestäm den gräns som exakt 5 % av modellens värden ligger över.<br>c) Förklara varför svaren ändå inte innebär att exakt samma andelar måste förekomma i ett verkligt stickprov.</p>",
     "s": "<p>a) I Sannolikhetskalkylatorn med medelvärde 250 och standardavvikelse 30 blir området till höger om 288 cirka 0,103, alltså 10,3 %. Påståendet är därför en rimlig avrundning.</p><p>b) Om 5 % ska ligga över gränsen ska 95 % ligga på eller under den. Läs av den 95:e percentilen i Sannolikhetskalkylatorn. Den är cirka 299,3.</p><p>c) Normalfördelningen är en modell. Ett verkligt stickprov kan avvika från modellens exakta procentandelar.</p><p><strong>a) Cirka 10,3 %. b) Cirka 299.</strong></p>",
     "familj": "normalfordelat_material__andel_i_intervall",
@@ -44457,7 +47124,11 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Jämför gränsvärdet med medelvärdet i antal standardavvikelser.</p>"
   },
   {
     "id": "4.107",
@@ -44480,10 +47151,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Kurva C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Kurva A",
+        "ratt": false
+      },
+      {
+        "txt": "Kurva B",
+        "ratt": false
+      },
+      {
+        "txt": "Kurva C",
+        "ratt": true
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför gränsvärdet med medelvärdet i antal standardavvikelser.</p>"
   },
   {
     "id": "4.108",
@@ -44494,8 +47183,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Två gruppers resultat visas i lådagrammen.</p><span class=\"fig smal\"><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58.0\" y1=\"30\" x2=\"58.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"58.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">1</text><line x1=\"89.8\" y1=\"30\" x2=\"89.8\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"89.8\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">2</text><line x1=\"121.7\" y1=\"30\" x2=\"121.7\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"121.7\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">3</text><line x1=\"153.5\" y1=\"30\" x2=\"153.5\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"153.5\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">4</text><line x1=\"185.3\" y1=\"30\" x2=\"185.3\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"185.3\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">5</text><line x1=\"217.2\" y1=\"30\" x2=\"217.2\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"217.2\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">6</text><line x1=\"249.0\" y1=\"30\" x2=\"249.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"249.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">7</text><line x1=\"280.8\" y1=\"30\" x2=\"280.8\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"280.8\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">8</text><line x1=\"312.7\" y1=\"30\" x2=\"312.7\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"312.7\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">9</text><line x1=\"344.5\" y1=\"30\" x2=\"344.5\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"344.5\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">10</text><line x1=\"376.3\" y1=\"30\" x2=\"376.3\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"376.3\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">11</text><line x1=\"408.2\" y1=\"30\" x2=\"408.2\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"408.2\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">12</text><line x1=\"440.0\" y1=\"30\" x2=\"440.0\" y2=\"205\" stroke=\"#ECECEF\"/><text x=\"440.0\" y=\"234\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\">13</text><text x=\"18\" y=\"80\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">A</text><line x1=\"153.5\" y1=\"75\" x2=\"408.2\" y2=\"75\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"217.2\" y=\"53\" width=\"95.5\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"53\" x2=\"249.0\" y2=\"97\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"153.5\" y1=\"61\" x2=\"153.5\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"408.2\" y1=\"61\" x2=\"408.2\" y2=\"89\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><text x=\"18\" y=\"185\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">B</text><line x1=\"121.7\" y1=\"180\" x2=\"376.3\" y2=\"180\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><rect x=\"185.3\" y=\"158\" width=\"159.2\" height=\"44\" fill=\"#E8EEF7\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/><line x1=\"249.0\" y1=\"158\" x2=\"249.0\" y2=\"202\" stroke=\"#B43123\" stroke-width=\"2.4\"/><line x1=\"121.7\" y1=\"166\" x2=\"121.7\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"376.3\" y1=\"166\" x2=\"376.3\" y2=\"194\" stroke=\"#2B2527\" stroke-width=\"2.2\"/></svg></span><p>Avgör vilka av följande påståenden som säkert är sanna.</p><p>I. Grupp B har större kvartilavstånd än grupp A.<br>II. Minst 25 % av resultaten i grupp A är 9 eller större.<br>III. Minst hälften av resultaten i grupp B ligger mellan 5 och 10.</p>",
     "s": "<p>I grupp A är kvartilavståndet \\(9-6=3\\). I grupp B är kvartilavståndet \\(10-5=5\\).</p><p><strong>I är sann.</strong></p><p>Eftersom \\(Q_3=9\\) i grupp A ligger minst 25 % av resultaten på eller över 9.</p><p><strong>II är sann.</strong></p><p>I grupp B ligger de mittersta 50 % mellan \\(Q_1=5\\) och \\(Q_3=10\\).</p><p><strong>III är också sann.</strong></p><p><strong>Alla tre påståendena är säkert sanna.</strong></p>",
     "familj": "ladagram__avlas_ladagram",
@@ -44506,10 +47195,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Alla tre påståendena är säkert sanna",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Endast I",
+        "ratt": false
+      },
+      {
+        "txt": "I och II",
+        "ratt": false
+      },
+      {
+        "txt": "II och III",
+        "ratt": false
+      },
+      {
+        "txt": "I, II och III",
+        "ratt": true
+      }
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av medianlinjen, lådans kanter och whiskrarnas ändpunkter var för sig.</p>"
   },
   {
     "id": "4.109",
@@ -44522,8 +47233,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett datamaterial har medelvärdet 20 och standardavvikelsen 4. Varje värde omvandlas enligt \\(y=2x+7\\).</p><p>Bestäm det nya medelvärdet och den nya standardavvikelsen.</p>",
-    "s": "<p>Medelvärdet omvandlas på samma sätt: \\(2\\cdot20+7=47\\).</p><p>Standardavvikelsen påverkas bara av multiplikationen och blir \\(2\\cdot4=8\\).</p><p><strong>Nytt medelvärde 47 och standardavvikelse 8.</strong></p>",
+    "t": "<p>Efter omvandlingen \\(y=2x+7\\) har ett datamaterial medelvärdet 47 och standardavvikelsen 8.</p><p>Bestäm materialets ursprungliga medelvärde och standardavvikelse.</p>",
+    "s": "<p>Medelvärdet har omvandlats på samma sätt som varje värde:</p><p>\\(47=2\\mu+7\\Rightarrow \\mu=20\\).</p><p>Standardavvikelsen påverkas av multiplikationen med 2 men inte av tillägget 7. Därför är \\(8=2\\sigma\\), alltså \\(\\sigma=4\\).</p><p><strong>Ursprungligt medelvärde 20 och standardavvikelse 4.</strong></p>",
     "familj": "standardavvikelse__berakna_och_tolka_standardavvikelse",
     "formaga": [
       "procedur",
@@ -44532,10 +47243,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Nytt medelvärde 47 och standardavvikelse 8",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      4
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Efter omvandlingen \\(y=2x+7\\) har ett material medelvärdet 47 och standardavvikelsen 8.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm det ursprungliga medelvärdet.</p>",
+        "s": "<p>\\(47=2\\mu+7\\Rightarrow\\mu=20\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den ursprungliga standardavvikelsen.</p>",
+        "s": "<p>\\(8=2\\sigma\\Rightarrow\\sigma=4\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vid \\(y=ax+b\\) blir det nya medelvärdet \\(a\\mu+b\\), medan standardavvikelsen multipliceras med \\(|a|\\).</p>"
   },
   {
     "id": "4.110",
@@ -44558,10 +47313,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Andelen är cirka 0,683, alltså 68,3 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.3,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn, ange \\(\\mu\\) och \\(\\sigma\\) och markera det efterfrågade intervallet.</p>"
   },
   {
     "id": "4.111",
@@ -44582,10 +47343,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det sjätte talet är 18",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först vilken totalsumma medelvärdet kräver och jämför med summan av de kända värdena.</p>"
   },
   {
     "id": "4.112",
@@ -44606,10 +47372,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det sjunde talet är 17",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först vilken totalsumma medelvärdet kräver och jämför med summan av de kända värdena.</p>"
   },
   {
     "id": "4.113",
@@ -44620,8 +47391,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ett sorterat datamaterial består av åtta olika heltal. Minsta värdet är 2, \\(Q_1=5\\), medianen är 9, \\(Q_3=14\\) och största värdet är 20. Kvartilerna beräknas som medianerna i de två halvorna.</p><p>Ge ett möjligt datamaterial och förklara hur du vet att det fungerar.</p>",
     "s": "<p>Skriv värdena \\(a_1&lt;\\dots&lt;a_8\\). Då krävs \\((a_2+a_3)/2=5\\), \\((a_4+a_5)/2=9\\) och \\((a_6+a_7)/2=14\\), med \\(a_1=2\\), \\(a_8=20\\).</p><p>Ett möjligt val är \\(a_2=4,a_3=6\\); \\(a_4=8,a_5=10\\); \\(a_6=13,a_7=15\\).</p><p><strong>Ett möjligt material är 2, 4, 6, 8, 10, 13, 15, 20.</strong></p>",
     "familj": "kvartiler_percentiler__median_och_kvartiler",
@@ -44635,7 +47406,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Dela det sorterade materialet i en undre och en övre halva och bestäm medianen i varje halva.</p>"
   },
   {
     "id": "4.114",
@@ -44657,10 +47432,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Medelvärdet ökar med 5 och standardavvikelsen är oförändrad",
+        "ratt": true
+      },
+      {
+        "txt": "Både medelvärdet och standardavvikelsen ökar med 5",
+        "ratt": false
+      },
+      {
+        "txt": "Medelvärdet är oförändrat och standardavvikelsen ökar med 5",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Att addera samma tal till alla observationer flyttar hela materialet men ändrar inte spridningen.</p>"
   },
   {
     "id": "4.115",
@@ -44683,10 +47476,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 409 fiskar",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 409,
+    "tolerans": 3,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "fiskar",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.116",
@@ -44697,8 +47496,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En normalfördelning har medelvärdet 52 och standardavvikelsen 9,4.</p><p>Bestäm den 10:e och den 90:e percentilen med GeoGebra.</p>",
     "s": "<p>I Sannolikhetskalkylatorn anger du medelvärdet 52 och standardavvikelsen 9,4.</p><p>Med vänsterarean 0,10 fås cirka 40,0 och med vänsterarean 0,90 fås cirka 64,0.</p><p><strong>10:e percentilen är cirka 40,0 och 90:e percentilen cirka 64,0.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__bestam_gransvarde_fran_sannolikhet",
@@ -44709,10 +47508,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "10:e percentilen är cirka 40,0 och 90:e percentilen cirka 64,0",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40.0,
+      64.0
+    ],
+    "tolerans": [
+      0.2,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "10:e percentilen",
+      "90:e percentilen"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=52\\), \\(\\sigma=9,4\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm 10:e percentilen med GeoGebra.</p>",
+        "s": "<p>Cirka 40,0.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm 90:e percentilen med GeoGebra.</p>",
+        "s": "<p>Cirka 64,0.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I Sannolikhetskalkylatorn: välj Normal, skriv in \\(\\mu\\) och \\(\\sigma\\), och använd vänsterarean som motsvarar den sökta percentilen.</p>"
   },
   {
     "id": "4.117",
@@ -44723,8 +47566,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En variabel är normalfördelad med medelvärdet 70 och standardavvikelsen 8.</p><p>Bestäm det symmetriska intervall kring medelvärdet som innehåller 80 % av alla värden.</p>",
     "s": "<p>Om 80 % ska ligga i mitten återstår 20 % utanför intervallet. Eftersom intervallet är symmetriskt ska 10 % ligga på vardera sidan.</p><p>Den nedre gränsen är därför den 10:e percentilen och den övre den 90:e percentilen.</p><p><strong>GeoGebra:</strong> Öppna Sannolikhetskalkylatorn, välj Normal och ange medelvärdet 70 och standardavvikelsen 8. Läs av gränsvärdena för vänsterareorna 0,10 och 0,90.</p><p>Gränserna blir cirka 59,7 och 80,3.</p><p><strong>Intervallet är ungefär 59,7–80,3.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
@@ -44736,10 +47579,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Intervallet är ungefär 59,7–80,3",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      59.7,
+      80.3
+    ],
+    "tolerans": [
+      0.2,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=70\\), \\(\\sigma=8\\). Ett symmetriskt intervall ska innehålla 80 %.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm den nedre gränsen.</p>",
+        "s": "<p>10:e percentilen är cirka 59,7.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den övre gränsen.</p>",
+        "s": "<p>90:e percentilen är cirka 80,3.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn, ange \\(\\mu\\) och \\(\\sigma\\) och markera det efterfrågade intervallet.</p>"
   },
   {
     "id": "4.118",
@@ -44761,10 +47648,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Kvartilavståndet är 13",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Läs av medianlinjen, lådans kanter och whiskrarnas ändpunkter var för sig.</p>"
   },
   {
     "id": "4.119",
@@ -44785,10 +47677,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det nya medelvärdet är 19",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Översätt först det gamla medelvärdet till en totalsumma. Lägg sedan till det nya värdet.</p>"
   },
   {
     "id": "4.120",
@@ -44810,10 +47707,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Ungefär 75 % har samma eller lägre resultat",
+        "ratt": true
+      },
+      {
+        "txt": "Ungefär 25 % har samma eller lägre resultat",
+        "ratt": false
+      },
+      {
+        "txt": "Resultatet är 75 poäng",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>En percentil beskriver hur stor andel som ligger på eller under ett visst värde.</p>"
   },
   {
     "id": "4.121",
@@ -44836,10 +47751,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Påståendet är falskt: standardavvikelsen beskriver spridningen som helhet, inte varje enskilt värde",
+        "ratt": true
+      },
+      {
+        "txt": "Påståendet är sant för alla datamaterial",
+        "ratt": false
+      },
+      {
+        "txt": "Påståendet är sant bara om grupperna har samma storlek",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Mindre standardavvikelse betyder att värdena i genomsnitt ligger närmare medelvärdet.</p>"
   },
   {
     "id": "4.122",
@@ -44862,10 +47795,16 @@ window.BANKMA2 = [
     "s": "<p>65 och 75 är en standardavvikelse under respektive över medelvärdet.</p><p>Formelbladet visar 34,1 % på vardera sidan om medelvärdet inom en standardavvikelse.</p><p>\\[34{,}1\\%+34{,}1\\%=68{,}2\\%.\\]</p><p><strong>Cirka 68,2 %.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 68,2 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Markera först gränserna som antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>"
   },
   {
     "id": "4.123",
@@ -44888,10 +47827,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Andelen är cirka 0,894",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.894,
+    "tolerans": 0.002,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn och markera området till vänster eller höger om gränsen.</p>"
   },
   {
     "id": "4.124",
@@ -44914,10 +47858,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Sannolikheten är ungefär 84,1 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.1,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normalfördelning i Sannolikhetskalkylatorn, ange \\(\\mu\\) och \\(\\sigma\\) och markera det efterfrågade intervallet.</p>"
   },
   {
     "id": "4.125",
@@ -44928,22 +47878,65 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Visa att ett lådagram inte bestämmer medelvärdet. Ge två datamaterial med 9 värden som har samma min, \\(Q_1\\), median, \\(Q_3\\) och max men olika medelvärden.</p>",
-    "s": "<p>Ett exempel är A: 0, 3, 5, 8, 10, 12, 15, 17, 20 och B: 0, 3, 5, 9, 10, 14, 15, 17, 20.</p><p>De har samma femtal för lådagrammet men olika summor, 90 respektive 93.</p><p><strong>Samma lådagram kan alltså ge olika medelvärden.</strong></p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett lådagram har minsta värde 2, \\(Q_1=5\\), median 8, \\(Q_3=11\\) och största värde 14.</p><p>Alla observationer multipliceras med 2.</p><p>Bestäm den nya medianen och det nya kvartilavståndet.</p>",
+    "s": "<p>När alla observationer multipliceras med 2 multipliceras även kvartilerna och medianen med 2.</p><p>Ny median: \\(2\\cdot8=16\\).</p><p>Det gamla kvartilavståndet är \\(11-5=6\\), så det nya är \\(2\\cdot6=12\\).</p><p><strong>Median 16 och kvartilavstånd 12.</strong></p>",
     "familj": "ladagram__avlas_ladagram",
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      16,
+      12
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Median",
+      "Kvartilavstånd"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett lådagram har median 8 och kvartilerna \\(Q_1=5\\), \\(Q_3=11\\). Alla observationer multipliceras med 2.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm den nya medianen.</p>",
+        "s": "<p>\\(2\\cdot8=16\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm det nya kvartilavståndet.</p>",
+        "s": "<p>Ursprungligt kvartilavstånd är 6; efter skalning blir det 12.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>När alla observationer skalas med samma positiva faktor skalas också median och kvartiler med samma faktor.</p>"
   },
   {
     "id": "4.126",
@@ -44965,10 +47958,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Ett starkt negativt linjärt samband, men inte ett bevis för orsak",
+        "ratt": true
+      },
+      {
+        "txt": "Ett starkt positivt linjärt samband och ett orsakssamband",
+        "ratt": false
+      },
+      {
+        "txt": "Inget linjärt samband alls",
+        "ratt": false
+      },
+      {
+        "txt": "Ett svagt negativt linjärt samband",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Värden nära \\(1\\) eller \\(-1\\) betyder starkt linjärt samband; tecknet anger riktningen.</p>"
   },
   {
     "id": "4.127",
@@ -44990,10 +48005,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det rimliga värdet är −0,94",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "−0,94",
+        "ratt": true
+      },
+      {
+        "txt": "−0,34",
+        "ratt": false
+      },
+      {
+        "txt": "0,91",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet visar riktningen. Absolutbeloppet \\(|r|\\) visar styrkan i det linjära sambandet.</p>"
   },
   {
     "id": "4.128",
@@ -45003,8 +48036,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Två datamängder har korrelationskoefficienterna \\(r=0,91\\) respektive \\(r=-0,91\\).</p><p>Jämför sambanden. Vad är lika och vad är olika?</p>",
     "s": "<p>Absolutbeloppen är lika: \\(|r|=0,91\\). Det betyder att de linjära sambanden är ungefär lika starka.</p><p>Tecknen är däremot olika. \\(r=0,91\\) beskriver ett starkt positivt samband, medan \\(r=-0,91\\) beskriver ett starkt negativt samband.</p><p><strong>Samma styrka ungefär, men motsatt riktning.</strong></p>",
     "familj": "korrelation_koefficient__jamfora_korrelationsstyrka",
@@ -45015,10 +48048,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Samma styrka ungefär, men motsatt riktning",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Sambanden är ungefär lika starka men har motsatt riktning",
+        "ratt": true
+      },
+      {
+        "txt": "Det positiva sambandet är mycket starkare",
+        "ratt": false
+      },
+      {
+        "txt": "Det negativa sambandet är mycket starkare",
+        "ratt": false
+      },
+      {
+        "txt": "Båda sambanden är svaga",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet visar riktningen. Absolutbeloppet \\(|r|\\) visar styrkan i det linjära sambandet.</p>"
   },
   {
     "id": "4.129",
@@ -45028,8 +48083,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Diagrammet med datapunkter visar sju punkter som nästan ligger på en rät linje och en avvikande punkt P.</p><span class=\"fig smal\"><svg width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45\" y1=\"215\" x2=\"385\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"45\" x2=\"45\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"82.8\" cy=\"177.2\" r=\"4.2\" fill=\"#2A5D9E\"/><circle cx=\"120.6\" cy=\"158.3\" r=\"4.2\" fill=\"#2A5D9E\"/><circle cx=\"158.3\" cy=\"139.4\" r=\"4.2\" fill=\"#2A5D9E\"/><circle cx=\"196.1\" cy=\"120.6\" r=\"4.2\" fill=\"#2A5D9E\"/><circle cx=\"233.9\" cy=\"101.7\" r=\"4.2\" fill=\"#2A5D9E\"/><circle cx=\"271.7\" cy=\"82.8\" r=\"4.2\" fill=\"#2A5D9E\"/><circle cx=\"309.4\" cy=\"63.9\" r=\"4.2\" fill=\"#2A5D9E\"/><circle cx=\"347.2\" cy=\"196.1\" r=\"4.2\" fill=\"#2A5D9E\"/><text x=\"354.2\" y=\"190.1\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">P</text></svg></span><p>Förklara varför korrelationskoefficienten kan förändras mycket om P tas bort, trots att bara en av åtta punkter tas bort.</p>",
     "s": "<p>Korrelationskoefficienten beskriver hur tydligt punkterna följer ett linjärt samband.</p><p>P ligger långt från det mönster som de andra punkterna följer. När P tas bort ligger de återstående punkterna betydligt närmare en rät linje.</p><p><strong>Därför kan korrelationskoefficienten förändras mycket även när bara en punkt tas bort.</strong></p>",
     "familj": "korrelation_koefficient__uppskatta_r_fran_diagram",
@@ -45040,10 +48095,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "P ligger långt från det övriga linjära mönstret och kan därför påverka r mycket",
+        "ratt": true
+      },
+      {
+        "txt": "Korrelationskoefficienten beror bara på antalet punkter",
+        "ratt": false
+      },
+      {
+        "txt": "En enda punkt kan aldrig påverka r särskilt mycket",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför hur väl de övriga punkterna följer en rät linje med och utan den avvikande punkten.</p>"
   },
   {
     "id": "4.130",
@@ -45065,10 +48138,28 @@ window.BANKMA2 = [
     "s": "<p>En korrelationskoefficient nära 0 betyder att det inte finns något tydligt linjärt samband.</p><p>Det kan ändå finnas ett annat slags samband, till exempel ett böjt eller periodiskt samband.</p><p><strong>Alltså betyder \\(r\\approx 0\\) att det linjära sambandet är svagt, inte nödvändigtvis att allt samband saknas.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Påståendet är fel: r nära 0 betyder inget tydligt linjärt samband, men ett icke-linjärt samband kan finnas",
+        "ratt": true
+      },
+      {
+        "txt": "Påståendet är alltid sant",
+        "ratt": false
+      },
+      {
+        "txt": "r nära 0 betyder alltid ett starkt negativt samband",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Korrelationskoefficienten mäter styrkan i ett linjärt samband, inte alla typer av samband.</p>"
   },
   {
     "id": "4.131",
@@ -45091,11 +48182,48 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "Diagram A",
-      "Positivt samband"
+      "A",
+      "positivt"
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Värden nära \\(1\\) eller \\(-1\\) betyder starkt linjärt samband; tecknet anger riktningen.</p>",
+    "svarFormat": [
+      "text",
+      "text"
+    ],
+    "svarsstruktur": "ordnad",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Studera de två punktdiagrammen.</p><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"170\" viewBox=\"0 0 360 170\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#d1d5db\"/><rect x=\"18\" y=\"18\" width=\"150\" height=\"120\" rx=\"8\" fill=\"#fff\" stroke=\"#d1d5db\"/><line x1=\"43\" y1=\"32\" x2=\"43\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"71\" y1=\"32\" x2=\"71\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"99\" y1=\"32\" x2=\"99\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"127\" y1=\"32\" x2=\"127\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"38\" y1=\"122\" x2=\"153\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"38\" y1=\"100\" x2=\"153\" y2=\"100\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"38\" y1=\"78\" x2=\"153\" y2=\"78\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"38\" y1=\"56\" x2=\"153\" y2=\"56\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"38\" y1=\"122\" x2=\"153\" y2=\"122\" stroke=\"#6b7280\" stroke-width=\"2\"/><line x1=\"38\" y1=\"122\" x2=\"38\" y2=\"32\" stroke=\"#6b7280\" stroke-width=\"2\"/><text x=\"93\" y=\"152\" font-size=\"17\" fill=\"#111827\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"400\">Diagram A</text><circle cx=\"56.400000000000006\" cy=\"104.0\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"67.9\" cy=\"96.8\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"81.69999999999999\" cy=\"86.0\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"97.80000000000001\" cy=\"80.6\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"111.60000000000001\" cy=\"69.80000000000001\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"120.8\" cy=\"60.800000000000004\" r=\"4\" fill=\"#2563eb\" /><rect x=\"192\" y=\"18\" width=\"150\" height=\"120\" rx=\"8\" fill=\"#fff\" stroke=\"#d1d5db\"/><line x1=\"217\" y1=\"32\" x2=\"217\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"245\" y1=\"32\" x2=\"245\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"273\" y1=\"32\" x2=\"273\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"301\" y1=\"32\" x2=\"301\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"212\" y1=\"122\" x2=\"327\" y2=\"122\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"212\" y1=\"100\" x2=\"327\" y2=\"100\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"212\" y1=\"78\" x2=\"327\" y2=\"78\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"212\" y1=\"56\" x2=\"327\" y2=\"56\" stroke=\"#e5e7eb\" stroke-width=\"1\"/><line x1=\"212\" y1=\"122\" x2=\"327\" y2=\"122\" stroke=\"#6b7280\" stroke-width=\"2\"/><line x1=\"212\" y1=\"122\" x2=\"212\" y2=\"32\" stroke=\"#6b7280\" stroke-width=\"2\"/><text x=\"267\" y=\"152\" font-size=\"17\" fill=\"#111827\" text-anchor=\"middle\" font-family=\"Arial, sans-serif\" font-weight=\"400\">Diagram B</text><circle cx=\"232.7\" cy=\"62.6\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"241.9\" cy=\"86.0\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"260.3\" cy=\"69.80000000000001\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"276.4\" cy=\"96.8\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"290.2\" cy=\"80.6\" r=\"4\" fill=\"#2563eb\" /><circle cx=\"299.4\" cy=\"89.6\" r=\"4\" fill=\"#2563eb\" /></svg>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Vilket diagram, A eller B, visar starkast linjärt samband?</p>",
+        "s": "<p><strong>A.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Är sambandet i diagram A positivt eller negativt?</p>",
+        "s": "<p><strong>Positivt.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.132",
@@ -45105,22 +48233,42 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "korrelation_koefficient__tolka_korrelationskoefficient",
     "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
-    "t": "<p>En studie får korrelationskoefficienten \\(r=-0{,}88\\) mellan två variabler.</p><p>Beskriv vad detta säger om det linjära sambandet och vad det inte säger om orsak.</p>",
-    "s": "<p>Värdet ligger nära -1 och visar därför ett starkt negativt linjärt samband: när den ena variabeln ökar tenderar den andra att minska.</p><p>Korrelationskoefficienten visar däremot inte att förändringen i den ena variabeln orsakar förändringen i den andra.</p><p><strong>Starkt negativt linjärt samband, men ingen säker slutsats om orsak.</strong></p>",
+    "t": "<p>En studie får korrelationskoefficienten \\(r=-0{,}88\\).</p><p>Vilken beskrivning är bäst?</p>",
+    "s": "<p>Värdet ligger nära \\(-1\\), så det finns ett starkt negativt linjärt samband. Korrelationskoefficienten visar däremot inte att den ena variabeln orsakar den andra.</p><p><strong>Starkt negativt linjärt samband, men ingen säker slutsats om orsak.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Starkt negativt linjärt samband, men ingen säker slutsats om orsak",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Starkt negativt linjärt samband, men ingen säker slutsats om orsak",
+        "ratt": true
+      },
+      {
+        "txt": "Starkt positivt linjärt samband och ett säkert orsakssamband",
+        "ratt": false
+      },
+      {
+        "txt": "Svagt negativt linjärt samband",
+        "ratt": false
+      },
+      {
+        "txt": "Inget samband alls",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Värden nära \\(1\\) eller \\(-1\\) betyder starkt linjärt samband; tecknet anger riktningen.</p>"
   },
   {
     "id": "4.133",
@@ -45142,10 +48290,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "0,96 är rimligast",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "0,05",
+        "ratt": false
+      },
+      {
+        "txt": "0,55",
+        "ratt": false
+      },
+      {
+        "txt": "0,96",
+        "ratt": true
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Värden nära \\(1\\) eller \\(-1\\) betyder starkt linjärt samband; tecknet anger riktningen.</p>"
   },
   {
     "id": "4.134",
@@ -45167,10 +48333,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Påståendet behöver inte stämma eftersom r mäter linjärt samband",
+        "ratt": true
+      },
+      {
+        "txt": "Påståendet är alltid sant när sambandet är positivt",
+        "ratt": false
+      },
+      {
+        "txt": "Ett böjt samband ger alltid r=-1",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Korrelationskoefficienten mäter styrkan i ett linjärt samband, inte alla typer av samband.</p>"
   },
   {
     "id": "4.135",
@@ -45195,7 +48379,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Korrelationskoefficienten mäter styrkan i ett linjärt samband, inte alla typer av samband.</p>"
   },
   {
     "id": "4.136",
@@ -45205,8 +48393,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "linjar_regression__bestam_regressionsmodell",
     "formaga": [
       "procedur",
@@ -45217,10 +48405,68 @@ window.BANKMA2 = [
     "s": "<p>En linjär regression ger ungefär \\(y=1{,}99x+5{,}09\\).</p><p>För \\(x=6\\) blir modellvärdet \\(y\\approx1{,}99\\cdot6+5{,}09=17{,}03\\).</p><p><strong>En modell är \\(y\\approx1{,}99x+5{,}09\\), och vid \\(x=6\\) blir prognosen cirka 17,0.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "En modell är \\(y\\approx1{,}99x+5{,}09\\), och vid \\(x=6\\) blir prognosen cirka 17,0",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.99,
+      5.09,
+      17.03
+    ],
+    "tolerans": [
+      0.03,
+      0.05,
+      0.12
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "k",
+      "m",
+      "y(6)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Regressionsdata: (1;7,1), (2;9,0), (3;11,2), (4;12,9), (5;15,1).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm regressionslinjens lutning \\(k\\).</p>",
+        "s": "<p>Regression ger \\(k\\approx1,99\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm skärningen \\(m\\).</p>",
+        "s": "<p>Regression ger \\(m\\approx5,09\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm modellens värde när \\(x=6\\).</p>",
+        "s": "<p>\\(1,99\\cdot6+5,09\\approx17,03\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Mata in punkterna i GeoGebra och använd linjär regression. Läs av lutning och konstantterm innan du gör prognosen.</p>"
   },
   {
     "id": "4.137",
@@ -45244,11 +48490,52 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\(y\\) ökar med ungefär 4,2 per enhet i \\(x\\)",
-      "\\(y=39\\)"
+      4.2,
+      39
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.01,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Lutning",
+      "y(5)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Regressionsmodellen är \\(y=4,2x+18\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur mycket ökar modellens \\(y\\)-värde när \\(x\\) ökar med 1?</p>",
+        "s": "<p>Lutningen är 4,2.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm modellens värde när \\(x=5\\).</p>",
+        "s": "<p>\\(4,2\\cdot5+18=39\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Mata in punkterna i GeoGebra och använd linjär regression. Läs av lutning och konstantterm innan du gör prognosen.</p>"
   },
   {
     "id": "4.138",
@@ -45258,8 +48545,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Tabellen visar ett samband mellan \\(x\\) och \\(y\\).</p><table class=\"data\"><tr><th>\\(x\\)</th><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><th>\\(y\\)</th><td>7</td><td>10</td><td>12</td><td>15</td><td>17</td></tr></table><p>Bestäm med GeoGebra en linjär regressionsmodell \\(y=kx+m\\). Använd modellen för att beräkna \\(y\\) när \\(x=6\\).</p>",
     "s": "<p>En linjär regression i GeoGebra ger ungefär</p><p>\\(y=2,5x+4,7\\).</p><p>För \\(x=6\\): \\(y=2,5\\cdot6+4,7=19,7\\).</p><p><strong>Modellen är \\(y\\approx2,5x+4,7\\) och ger \\(y\\approx19,7\\).</strong></p>",
     "familj": "linjar_regression__bestam_regressionsmodell",
@@ -45270,10 +48557,68 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "Modellen är \\(y\\approx2,5x+4,7\\) och ger \\(y\\approx19,7\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.5,
+      4.7,
+      19.7
+    ],
+    "tolerans": [
+      0.03,
+      0.05,
+      0.12
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "k",
+      "m",
+      "y(6)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En linjär regression ger ungefär \\(y=2,5x+4,7\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Ange lutningen \\(k\\).</p>",
+        "s": "<p>\\(k=2,5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Ange skärningen \\(m\\).</p>",
+        "s": "<p>\\(m=4,7\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm modellens värde när \\(x=6\\).</p>",
+        "s": "<p>\\(2,5\\cdot6+4,7=19,7\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Mata in punkterna i GeoGebra och använd linjär regression. Läs av lutning och konstantterm innan du gör prognosen.</p>"
   },
   {
     "id": "4.139",
@@ -45295,10 +48640,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(y\\approx3,00x+8,80\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.0,
+      8.8
+    ],
+    "tolerans": [
+      0.03,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Gör linjär regression på tabellen i uppgiften.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm koefficienten \\(a\\).</p>",
+        "s": "<p>Regressionen ger \\(a\\approx3,00\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm konstanten \\(b\\).</p>",
+        "s": "<p>Regressionen ger \\(b\\approx8,80\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Mata in punkterna i GeoGebra och använd linjär regression. Läs av lutning och konstantterm innan du gör prognosen.</p>"
   },
   {
     "id": "4.140",
@@ -45311,7 +48700,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>En regressionsmodell för en plants höjd är \\(h(t)=3,2t+14\\), där \\(t\\) mäts i veckor. Modellen bygger på mätningar för \\(0\\le t\\le 8\\).</p><p>En elev använder modellen för \\(t=20\\). Beräkna modellens värde och bedöm om prognosen är säker.</p>",
-    "s": "<p>\\(h(20)=3,2\\cdot20+14=78\\).</p><p>Men 20 ligger långt utanför mätområdet 0–8, så detta är prognos långt utanför mätintervallet och osäkert.</p><p><strong>Modellvärdet är 78, men prognosen är osäker.</strong></p>",
+    "s": "<p>Modellen ger \\(h(20)=3,2\\cdot20+14=78\\).</p><p>Men mätningarna ligger bara i intervallet \\(0\\le t\\le8\\). Att använda modellen vid 20 veckor är en långtgående extrapolation, så prognosen är osäker.</p><p><strong>Modellvärdet är 78, men prognosen är inte säker.</strong></p>",
     "familj": "linjar_regression__anvanda_regressionsmodell_for_prognos",
     "formaga": [
       "procedur",
@@ -45321,10 +48710,54 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      78,
+      null
+    ],
+    "tolerans": [
+      1e-09,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ],
+    "svarEtiketter": [
+      "h(20)",
+      "Bedömning"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En plants höjd modelleras med \\(h(t)=3,2t+14\\). Modellen bygger på data för \\(0\\le t\\le8\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(h(20)\\).</p>",
+        "s": "<p>\\(h(20)=78\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Är prognosen vid 20 veckor säker? Motivera kort.</p>",
+        "s": "<p>Nej. 20 ligger långt utanför mätintervallet, så det är extrapolation.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför x-värdet du vill använda med intervallet där mätdata faktiskt finns.</p>"
   },
   {
     "id": "4.141",
@@ -45334,8 +48767,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Mätpunkterna är</p><p>\\[(1,3),\\ (2,5),\\ (3,7),\\ (4,9),\\ (5,20).\\]</p><p>a) Bestäm en linjär regressionsmodell för alla fem punkter.</p><p>b) Bestäm en linjär regressionsmodell om den sista mätpunkten inte tas med.</p><p>c) Förklara vad jämförelsen visar om hur en mätpunkt som ligger långt från de övriga kan påverka en regressionslinje.</p>",
     "s": "<p>a) Med alla fem punkter ger GeoGebra ungefär \\(y=3,8x-2,6\\).</p><p>b) För de fyra första punkterna ligger punkterna exakt på linjen \\(y=2x+1\\).</p><p>c) Punkten \\((5,20)\\) ligger långt från det mönster som de första fyra punkterna följer. När den tas med ändras både riktningskoefficienten och skärningen med \\(y\\)-axeln tydligt.</p><p><strong>En enstaka mätpunkt som avviker mycket kan därför påverka den linjära regressionsmodellen kraftigt.</strong></p>",
     "familj": "linjar_regression__bestam_regressionsmodell",
@@ -45350,7 +48783,11 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Mata in punkterna i GeoGebra och använd linjär regression. Läs av lutning och konstantterm innan du gör prognosen.</p>"
   },
   {
     "id": "4.142",
@@ -45360,22 +48797,43 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En linjär regressionsmodell är \\(y=3,6x+42\\). Datamaterialet innehåller endast värden för \\(2\\le x\\le9\\).</p><p>En elev använder modellen för att beräkna \\(y\\) när \\(x=30\\). Vad bör eleven skriva tillsammans med sitt svar?</p>",
-    "s": "<p>Beräkningen går att göra, men \\(x=30\\) ligger långt utanför dataintervallet.</p><p>Det är prognos långt utanför mätintervallet, så osäkerheten är stor.</p><p><strong>Eleven bör tydligt ange att prognosen är osäker eftersom den bygger på lång prognos långt utanför mätintervallet.</strong></p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionsmodell har tagits fram från mätvärden med \\(2\\le x\\le9\\).</p><p>Vilken av följande användningar är en <em>interpolation</em>?</p>",
+    "s": "<p>Interpolation innebär att modellen används inom det intervall där mätdata finns. Av alternativen ligger \\(x=6\\) inom intervallet \\(2\\le x\\le9\\).</p><p><strong>Att använda modellen vid \\(x=6\\).</strong></p>",
     "familj": "linjar_regression__anvanda_regressionsmodell_for_prognos",
     "formaga": [
-      "procedur",
       "begrepp",
       "modellering"
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Använda modellen vid x=6",
+        "ratt": true
+      },
+      {
+        "txt": "Använda modellen vid x=15",
+        "ratt": false
+      },
+      {
+        "txt": "Använda modellen vid x=30",
+        "ratt": false
+      },
+      {
+        "txt": "Använda modellen vid x=0",
+        "ratt": false
+      }
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Sätt in det givna x-värdet i regressionsmodellen och kontrollera om x ligger inom mätområdet.</p>"
   },
   {
     "id": "4.143",
@@ -45399,11 +48857,52 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "Ökning cirka 1,8 enheter per pass",
-      "modellen ger resultatet 60 efter 10 pass"
+      1.8,
+      60
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.01,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Ökning per pass",
+      "Resultat efter 10 pass"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Modellen är \\(y=1,8x+42\\), där x är antal träningspass.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur mycket ökar det modellerade resultatet per extra träningspass?</p>",
+        "s": "<p>Lutningen är 1,8.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm modellens resultat efter 10 träningspass.</p>",
+        "s": "<p>\\(1,8\\cdot10+42=60\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Mata in punkterna i GeoGebra och använd linjär regression. Läs av lutning och konstantterm innan du gör prognosen.</p>"
   },
   {
     "id": "4.144",
@@ -45415,21 +48914,46 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En linjär regressionsmodell är \\(y=2,4x+31\\). Den bygger på data för \\(5\\le x\\le18\\).</p><p>En elev använder modellen för \\(x=40\\). Beräkna modellens värde och bedöm sedan om prognosen är rimlig att lita på.</p>",
-    "s": "<p>Modellen ger \\(2,4\\cdot40+31=127\\).</p><p>Men \\(x=40\\) ligger långt utanför dataintervallet. Det är en prognos långt utanför mätintervallet.</p><p><strong>Modellvärdet är 127, men prognosen är osäker.</strong></p>",
+    "t": "<p>En linjär regressionsmodell är \\(y=2,4x+31\\). Den bygger på data för \\(5\\le x\\le18\\).</p><p>a) Beräkna modellens värde när \\(x=40\\).<br>b) Ligger \\(x=40\\) inom eller utanför dataintervallet?</p>",
+    "s": "<p>a) \\(y=2,4\\cdot40+31=127\\).</p><p>b) \\(40>18\\), alltså ligger värdet utanför dataintervallet. Det är extrapolation och prognosen bör därför användas försiktigt.</p><p><strong>a) 127. b) Utanför dataintervallet.</strong></p>",
     "familj": "linjar_regression__extrapolation_och_modellbegransning",
     "formaga": [
       "procedur",
       "begrepp",
-      "modellering",
       "resonemang"
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      127,
+      "utanför"
+    ],
+    "tolerans": [
+      1e-09,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först modellvärdet. Jämför sedan \\(x=40\\) med det intervall där modellen byggdes.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Modellvärde",
+      "Dataintervall"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "4.145",
@@ -45439,8 +48963,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En linjär modell för batterikapacitet är \\(C(n)=100-1,8n\\), där \\(n\\) är antal hundra laddningscykler. Modellen bygger på mätningar för \\(0\\le n\\le10\\), och korrelationskoefficienten är \\(r=-0,98\\).</p><p>En rapport säger:</p><p>1. ”Batteriet har exakt 0 % kapacitet när modellen når 0.”<br>2. ”Det höga värdet på \\(|r|\\) visar att laddningscyklerna ensamma orsakar hela minskningen.”</p><p>Bedöm båda påståendena.</p>",
     "s": "<p>Modellen når 0 när \\(100-1,8n=0\\Rightarrow n\\approx55,6\\). Det ligger långt utanför det uppmätta intervallet \\(0\\le n\\le10\\), så det är en mycket lång prognos långt utanför mätintervallet. Modellen behöver inte fortsätta linjärt så långt.</p><p>\\(r=-0,98\\) visar ett starkt negativt linjärt samband i mätningarna, men korrelation visar inte att en enda faktor orsakar hela förändringen.</p><p><strong>Inget av påståendena är tillräckligt underbyggt.</strong></p>",
     "familj": "linjar_regression__anvanda_regressionsmodell_for_prognos",
@@ -45455,7 +48979,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Skilj mellan vad modellen säger och vad datan faktiskt stödjer. Tänk också på att korrelation inte bevisar orsak.</p>"
   },
   {
     "id": "4.146",
@@ -45472,16 +49000,53 @@ window.BANKMA2 = [
     "familj": "linjar_regression__bestam_regressionsmodell",
     "formaga": [
       "procedur",
-      "begrepp",
       "modellering",
       "resonemang"
     ],
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      5.7,
+      42.9,
+      88.5,
+      null
+    ],
+    "tolerans": [
+      0.05,
+      0.1,
+      0.2,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Utgå från modellens lutning och konstantterm. Vid prognoser: kontrollera om \\(x\\)-värdet ligger inom dataintervallet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "k",
+      "m",
+      "Prognos vid x=8",
+      "Bedömning"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "4.147",
@@ -45491,8 +49056,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Ett företag undersöker sambandet mellan antal utbildningstimmar \\(x\\) och antal producerade enheter \\(y\\). För 14 anställda, där \\(2\\le x\\le8\\), får man</p><p>\\(y=3,2x+48\\) och \\(r=0,96\\).</p><p>Chefen säger:</p><p>1. ”En person med 30 utbildningstimmar kommer att producera 144 enheter.”<br>2. ”Eftersom \\(r\\) är så högt visar undersökningen att fler utbildningstimmar orsakar högre produktion.”</p><p>Bedöm båda påståendena och motivera.</p>",
     "s": "<p>Modellen ger visserligen \\(3,2\\cdot30+48=144\\), men \\(x=30\\) ligger långt utanför mätområdet 2–8. Det är en stor prognos långt utanför mätintervallet och därför finns det inget bra stöd för att använda modellen så långt.</p><p>Det höga värdet på \\(r\\) visar ett starkt linjärt samband i datamaterialet, men inte ett orsakssamband. Andra faktorer kan påverka både utbildningstid och produktion.</p><p><strong>Inget av påståendena är tillräckligt motiverat av undersökningen.</strong></p>",
     "familj": "linjar_regression__anvanda_regressionsmodell_for_prognos",
@@ -45507,7 +49072,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Skilj mellan vad modellen säger och vad datan faktiskt stödjer. Tänk också på att korrelation inte bevisar orsak.</p>"
   },
   {
     "id": "4.148",
@@ -45517,8 +49086,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En regressionsmodell är \\(y=4,2x+18\\). För \\(x=7\\) är det uppmätta värdet 44.</p><p>Bestäm skillnaden <em>mätvärde − modellvärde</em> och tolka resultatet.</p>",
     "s": "<p>Modellens värde är \\(4,2\\cdot7+18=47,4\\).</p><p>Skillnaden blir \\(44-47,4=-3,4\\).</p><p>Det negativa tecknet betyder att det uppmätta värdet ligger 3,4 enheter under modellens värde.</p><p><strong>Modellen överskattar alltså mätvärdet med 3,4 enheter.</strong></p>",
     "familj": "linjar_regression__tolka_regressionskoefficienter",
@@ -45529,10 +49098,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": -3.4,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna modellvärdet vid \\(x=7\\) och ta sedan mätvärde minus modellvärde.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "enheter"
   },
   {
     "id": "4.149",
@@ -45557,7 +49132,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Tecknet och storleken på \\(r\\) beskriver ett linjärt samband, inte ett bevisat orsakssamband.</p>"
   },
   {
     "id": "4.150",
@@ -45567,8 +49146,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "familj": "korrelation_koefficient__jamfora_korrelationsstyrka",
     "formaga": [
       "procedur",
@@ -45583,7 +49162,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Jämför totalantalet utlån med antalet utlån per elev.</p>"
   },
   {
     "id": "4.151",
@@ -45594,8 +49177,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En normalfördelning har medelvärdet 67,3 och standardavvikelsen 12.</p><p>a) Bestäm med GeoGebra gränsvärdet som de 5 % högsta ligger över.<br>b) Bestäm den 20:e percentilen.</p>",
     "s": "<p>a) De 5 % högsta värdena ligger över den 95:e percentilen. I GeoGebras sannolikhetskalkylator väljer du normalfördelning med \\(\\mu=67,3\\) och \\(\\sigma=12\\), och söker gränsen där arean till vänster är 0,95. Det ger ungefär \\(87,0\\).</p><p>b) Den 20:e percentilen är den gräns där arean till vänster är 0,20. Med samma fördelning fås ungefär \\(57,2\\).</p><p><strong>a) \\(87,0\\) &nbsp;&nbsp; b) \\(57,2\\)</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__bestam_gransvarde_fran_sannolikhet",
@@ -45609,11 +49192,52 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\(87,0\\)",
-      "\\(57,2\\)"
+      87.0,
+      57.2
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.15,
+      0.15
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "95:e percentilen",
+      "20:e percentilen"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=67,3\\), \\(\\sigma=12\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm med GeoGebra gränsvärdet som de 5 % högsta ligger över.</p>",
+        "s": "<p>Gränsen är 95:e percentilen, cirka 87,0.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den 20:e percentilen.</p>",
+        "s": "<p>20:e percentilen är cirka 57,2.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "4.152",
@@ -45636,25 +49260,31 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Andelen är cirka 0,841, alltså 84,1 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.1,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "4.153",
     "kap": 4,
-    "omr": "normalfordelat_material",
+    "omr": "normalfordelning_digitala_verktyg",
     "kurs": [
       "2a",
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Resultaten på ett prov kan beskrivas med en normalfördelning med medelvärdet 54 och standardavvikelsen 9,4.</p><p>a) Bestäm med GeoGebra den 10:e och den 90:e percentilen.<br>b) Förklara varför de ligger lika långt från medelvärdet.<br>c) Ungefär hur många av 1200 resultat ligger mellan dessa två gränser?</p>",
     "s": "<p>a) Sannolikhetskalkylatorn ger cirka 42,0 för den 10:e percentilen och 66,0 för den 90:e.</p><p>b) Normalfördelningen är symmetrisk kring medelvärdet 54. De två percentilerna lämnar lika stor andel, 10 %, i varsin ände.</p><p>c) Mellan gränserna ligger 80 % av resultaten. \\(0,80\\cdot1200=960\\).</p><p><strong>a) Cirka 42,0 och 66,0. c) Cirka 960 resultat.</strong></p>",
-    "familj": "normalfordelat_material__andel_i_intervall",
+    "familj": "normalfordelning_digitala_verktyg__percentiler_och_andel",
     "formaga": [
       "procedur",
       "begrepp",
@@ -45664,9 +49294,41 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      42.0,
+      66.0,
+      null,
+      960
+    ],
+    "tolerans": [
+      0.2,
+      0.2,
+      null,
+      2
+    ],
+    "självrättning": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "P10",
+      "P90",
+      "Förklaring",
+      "Antal"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.154",
@@ -45689,10 +49351,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Värdet är 34",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 34,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.155",
@@ -45703,8 +49370,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "normalfordelat_material__andel_i_intervall",
     "formaga": [
       "procedur",
@@ -45715,10 +49382,16 @@ window.BANKMA2 = [
     "s": "<p>484 och 516 ligger två standardavvikelser från medelvärdet eftersom \\(16=2\\cdot8\\).</p><p>Mellan \\(\\mu-2\\sigma\\) och \\(\\mu+2\\sigma\\) ligger enligt formelbladet ungefär</p><p>\\[2(34{,}1\\%+13{,}6\\%)=95{,}4\\%.\\]</p><p>\\[0{,}954\\cdot2000=1908.\\]</p><p><strong>Ungefär 1 908 produkter.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Ungefär 1 908 produkter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 1908,
+    "tolerans": 2,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "produkter"
   },
   {
     "id": "4.156",
@@ -45741,10 +49414,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Klass A är jämnare, men standardavvikelsen beskriver inte hela fördelningen",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Standardavvikelsen beskriver spridningen kring medelvärdet. En förskjutning ändrar inte spridningen, men en skalning gör det.</p>",
+    "alternativ": [
+      {
+        "txt": "Klass A; mindre standardavvikelse betyder jämnare resultat.",
+        "ratt": true
+      },
+      {
+        "txt": "Klass B; större standardavvikelse betyder jämnare resultat.",
+        "ratt": false
+      },
+      {
+        "txt": "Det går inte att jämföra spridningen alls.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.157",
@@ -45755,8 +49446,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Datamaterialet är 7, 9, 10, 10, 14.</p><p>Ett sjätte värde läggs till så att medelvärdet fortfarande är 10.</p><p>a) Bestäm det sjätte värdet.<br>b) Bestäm standardavvikelsen före och efter med ett digitalt verktyg och förklara förändringen.</p>",
     "s": "<p>a) De fem första talen har summan 50. Sex tal med medelvärdet 10 måste ha summan 60, alltså är det nya värdet 10.</p><p>b) Med ett digitalt verktyg fås standardavvikelsen cirka 2,28 före och cirka 2,08 efter.</p><p>Det nya värdet ligger exakt vid medelvärdet och gör därför materialet relativt mer samlat kring medelvärdet.</p><p><strong>Det sjätte värdet är 10 och standardavvikelsen minskar.</strong></p>",
     "familj": "standardavvikelse__berakna_med_digitalt_verktyg",
@@ -45768,9 +49459,41 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      10,
+      2.28,
+      2.08,
+      null
+    ],
+    "tolerans": [
+      1e-09,
+      0.03,
+      0.03,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Standardavvikelsen beskriver spridningen kring medelvärdet. En förskjutning ändrar inte spridningen, men en skalning gör det.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nytt värde",
+      "Standardavvikelse före",
+      "Standardavvikelse efter",
+      "Förklaring"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "4.158",
@@ -45794,11 +49517,30 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "51",
-      "Ökningen per enhet i \\(x\\) är 1,8"
+      51,
+      null
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Utgå från modellens lutning och konstantterm. Vid prognoser: kontrollera om \\(x\\)-värdet ligger inom dataintervallet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Modellvärde",
+      "Tolkning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "4.159",
@@ -45808,8 +49550,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En linjär modell för temperaturen i ett kylt rum är \\(T(t)=24-1,6t\\), där \\(t\\) är timmar efter start. Modellen bygger på data för \\(0\\le t\\le6\\).</p><p>En person använder modellen och säger att rummet når −20 °C efter 27,5 timmar och därför måste ha den temperaturen då.</p><p>Bedöm resonemanget.</p>",
     "s": "<p>Lösningen till \\(24-1,6t=-20\\) är \\(t=27,5\\) timmar. Men detta ligger långt utanför intervallet där modellen byggts upp. Det är därför en prognos långt utanför mätintervallet och modellen behöver inte gälla där. Temperaturen kan också påverkas av andra faktorer och inte fortsätta minska linjärt.</p><p><strong>Beräkningen är korrekt inom modellen, men slutsatsen om verkligheten är inte säker.</strong></p>",
     "familj": "linjar_regression__anvanda_regressionsmodell_for_prognos",
@@ -45824,7 +49566,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skilj mellan vad modellen säger och vad datan faktiskt stödjer. Tänk också på att korrelation inte bevisar orsak.</p>"
   },
   {
     "id": "4.160",
@@ -45848,11 +49594,30 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "83,2",
-      "Startvärdet i modellen är 28"
+      83.2,
+      null
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.05,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Utgå från modellens lutning och konstantterm. Vid prognoser: kontrollera om \\(x\\)-värdet ligger inom dataintervallet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Modellvärde",
+      "Tolkning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "4.161",
@@ -45873,10 +49638,15 @@ window.BANKMA2 = [
     "s": "<p>Det starkaste positiva linjära sambandet ges av det positiva tal som ligger närmast 1.</p><p><strong>\\(0{,}91\\)</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(0{,}91\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.91,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.162",
@@ -45886,8 +49656,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "korrelation_koefficient__uppskatta_r_fran_diagram",
     "formaga": [
       "procedur",
@@ -45898,10 +49668,15 @@ window.BANKMA2 = [
     "s": "<p>Punkterna ligger exakt på den räta linjen \\(y=-2x+10\\).</p><p>Det är alltså ett perfekt negativt linjärt samband.</p><p><strong>Korrelationskoefficienten är \\(r=-1\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Korrelationskoefficienten är \\(r=-1\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.163",
@@ -45912,8 +49687,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>I en grupp är 25:e percentilen 48 och 75:e percentilen 72. Efter att varje värde omvandlas enligt \\(y=1,5x-10\\), bestäm de nya kvartilerna och det nya kvartilavståndet.</p>",
     "s": "<p>Eftersom omvandlingen \\(y=1,5x-10\\) är strikt växande bevaras ordningen. Percentilerna omvandlas därför med samma formel.</p><p>Ny första kvartil: \\(1,5\\cdot48-10=62\\).</p><p>Ny tredje kvartil: \\(1,5\\cdot72-10=98\\).</p><p>Nytt kvartilavstånd: \\(98-62=36\\).</p><p>Det ursprungliga kvartilavståndet var \\(72-48=24\\), och det har som väntat multiplicerats med 1,5.</p><p><strong>\\(Q_1=62\\), \\(Q_3=98\\), kvartilavstånd 36.</strong></p>",
     "familj": "kvartiler_percentiler__percentiler",
@@ -45924,10 +49699,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(Q_1=62\\), \\(Q_3=98\\), kvartilavstånd 36",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      62,
+      98,
+      36
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tänk på vad percentilen eller kvartilen betyder som andel av ett sorterat material.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Q1",
+      "Q3",
+      "Kvartilavstånd"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.164",
@@ -45949,10 +49751,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(Q_1=4,5\\), median 8, \\(Q_3=12\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.5,
+      8,
+      12
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tänk på vad percentilen eller kvartilen betyder som andel av ett sorterat material.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Q1",
+      "Median",
+      "Q3"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.165",
@@ -45963,8 +49792,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Ett datamaterial har minsta värde 2, \\(Q_1=5\\), median 8, \\(Q_3=11\\) och största värde 18.</p><p>Konstruera ett möjligt sorterat datamaterial med 9 heltalsvärden som ger detta lådagram.</p>",
     "s": "<p>Med 9 värden är det femte värdet medianen, alltså 8.</p><p>Välj till exempel värden så att medianen av de fyra första blir 5 och medianen av de fyra sista blir 11.</p><p>Ett möjligt material är</p><p>\\(2,4,6,7,8,10,12,14,18\\).</p><p>Första kvartilen blir \\((4+6)/2=5\\) och tredje kvartilen \\((10+12)/2=11\\).</p><p><strong>Detta är ett möjligt svar.</strong></p>",
     "familj": "ladagram__rita_ladagram",
@@ -45975,10 +49804,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "figur",
+    "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Använd femtals-sammanfattningen: min, \\(Q_1\\), median, \\(Q_3\\), max.</p>"
   },
   {
     "id": "4.166",
@@ -46000,10 +49833,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Använd femtals-sammanfattningen: min, \\(Q_1\\), median, \\(Q_3\\), max.</p>",
+    "alternativ": [
+      {
+        "txt": "Klass A",
+        "ratt": false
+      },
+      {
+        "txt": "Klass B",
+        "ratt": true
+      },
+      {
+        "txt": "Samma spridning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.167",
@@ -46024,10 +49875,15 @@ window.BANKMA2 = [
     "s": "<p>Det starkaste negativa linjära sambandet ges av det negativa tal som ligger närmast \\(-1\\).</p><p><strong>\\(-0{,}85\\)</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(-0{,}85\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": -0.85,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.168",
@@ -46049,10 +49905,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>"
   },
   {
     "id": "4.169",
@@ -46062,8 +49922,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Diagrammet med datapunkter visar ett tydligt positivt linjärt mönster med en avvikande punkt P.</p><span class=\"fig smal\"><svg width=\"430\" height=\"250\" viewBox=\"0 0 430 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45\" y1=\"205\" x2=\"385\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"40\" x2=\"45\" y2=\"205\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"79.0\" cy=\"180.2\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"113.0\" cy=\"168.7\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"147.0\" cy=\"152.2\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"181.0\" cy=\"137.4\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"215.0\" cy=\"122.5\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"249.0\" cy=\"102.7\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"283.0\" cy=\"89.5\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"317.0\" cy=\"172.0\" r=\"4.3\" fill=\"#2A5D9E\"/><text x=\"324.0\" y=\"166.0\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">P</text></svg></span><p>En elev säger: ”Eftersom sju av åtta punkter följer linjen kan P nästan inte påverka korrelationskoefficienten.” Bedöm påståendet.</p>",
     "s": "<p>Korrelationskoefficienten påverkas både av riktningen i punktmönstret och av hur nära punkterna ligger ett linjärt samband.</p><p>P ligger långt från mönstret som de övriga punkterna följer och kan därför påverka värdet på korrelationskoefficienten tydligt.</p><p><strong>Påståendet är alltså inte korrekt. En enda mycket avvikande punkt kan få stor betydelse i ett litet material.</strong></p>",
     "familj": "korrelation_koefficient__uppskatta_r_fran_diagram",
@@ -46077,7 +49937,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>"
   },
   {
     "id": "4.170",
@@ -46098,10 +49962,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "A) \\(r\\approx-0,95\\)",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "−0,95",
+        "ratt": true
+      },
+      {
+        "txt": "−0,50",
+        "ratt": false
+      },
+      {
+        "txt": "0",
+        "ratt": false
+      },
+      {
+        "txt": "0,50",
+        "ratt": false
+      },
+      {
+        "txt": "0,95",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.171",
@@ -46112,8 +50002,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En elev ligger på 92:a percentilen bland 850 resultat.</p><p>Ungefär hur många resultat ligger högre?</p>",
     "s": "<p>92:a percentilen innebär att ungefär 92 % ligger på eller under resultatet.</p><p>Alltså ligger cirka 8 % högre.</p><p>\\(0,08\\cdot850=68\\).</p><p><strong>Cirka 68 resultat.</strong></p>",
     "familj": "kvartiler_percentiler__percentiler",
@@ -46123,10 +50013,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 68 resultat",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 68,
+    "tolerans": 2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tänk på vad percentilen eller kvartilen betyder som andel av ett sorterat material.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "resultat"
   },
   {
     "id": "4.172",
@@ -46152,7 +50048,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Använd femtals-sammanfattningen: min, \\(Q_1\\), median, \\(Q_3\\), max.</p>"
   },
   {
     "id": "4.173",
@@ -46175,10 +50075,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Material B har större spridning",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Standardavvikelsen beskriver spridningen kring medelvärdet. En förskjutning ändrar inte spridningen, men en skalning gör det.</p>",
+    "alternativ": [
+      {
+        "txt": "Material A",
+        "ratt": false
+      },
+      {
+        "txt": "Material B",
+        "ratt": true
+      },
+      {
+        "txt": "Samma spridning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.174",
@@ -46201,10 +50119,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Nytt medelvärde 95 och standardavvikelse 18",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      95,
+      18
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Standardavvikelsen beskriver spridningen kring medelvärdet. En förskjutning ändrar inte spridningen, men en skalning gör det.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nytt medelvärde",
+      "Ny standardavvikelse"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.175",
@@ -46227,10 +50167,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det visar att samma medelvärde och standardavvikelse inte bestämmer medianen",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": false,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Standardavvikelsen beskriver spridningen kring medelvärdet. En förskjutning ändrar inte spridningen, men en skalning gör det.</p>"
   },
   {
     "id": "4.176",
@@ -46254,10 +50198,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Intervallet är 22 till 38",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      22,
+      38
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.177",
@@ -46280,10 +50246,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Mellan 64 och 76",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      64,
+      76
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.178",
@@ -46294,8 +50282,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Två resultatgrupper kan beskrivas med normalfördelningar.</p><p>Grupp A har medelvärdet 80 och standardavvikelsen 10. Grupp B har medelvärdet 76 och standardavvikelsen 14.</p><p>a) Bestäm med GeoGebra hur stor andel av grupp A som har resultat över 95.<br>b) Bestäm det resultat i grupp B som har samma andel över sig.</p>",
     "s": "<p>a) I Sannolikhetskalkylatorn med medelvärde 80 och standardavvikelse 10 ger området till höger om 95 cirka 0,0668, alltså 6,7 %.</p><p>b) I grupp B söker vi därför ett gränsvärde som har 93,32 % av värdena på eller under sig. Med medelvärde 76 och standardavvikelse 14 fås cirka 97,0.</p><p><strong>a) Cirka 6,7 %. b) Cirka 97.</strong></p>",
     "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
@@ -46309,11 +50297,34 @@ window.BANKMA2 = [
     "geogebra": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "Cirka 6,7 %",
-      "Cirka 97"
+      6.7,
+      97.0
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0.2,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Andel i A",
+      "Gränsvärde i B"
+    ],
+    "svarEnhet": [
+      "%",
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "4.179",
@@ -46323,8 +50334,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Två datamaterial visas i figuren.</p><span class=\"fig smal\"><svg width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"20\" y=\"20\" width=\"170\" height=\"170\" fill=\"none\" stroke=\"#E4E3E6\"/><line x1=\"48.3\" y1=\"20\" x2=\"48.3\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"20\" y1=\"48.3\" x2=\"190\" y2=\"48.3\" stroke=\"#F0EFF2\"/><line x1=\"76.7\" y1=\"20\" x2=\"76.7\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"20\" y1=\"76.7\" x2=\"190\" y2=\"76.7\" stroke=\"#F0EFF2\"/><line x1=\"105.0\" y1=\"20\" x2=\"105.0\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"20\" y1=\"105.0\" x2=\"190\" y2=\"105.0\" stroke=\"#F0EFF2\"/><line x1=\"133.3\" y1=\"20\" x2=\"133.3\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"20\" y1=\"133.3\" x2=\"190\" y2=\"133.3\" stroke=\"#F0EFF2\"/><line x1=\"161.7\" y1=\"20\" x2=\"161.7\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"20\" y1=\"161.7\" x2=\"190\" y2=\"161.7\" stroke=\"#F0EFF2\"/><line x1=\"20\" y1=\"190\" x2=\"190\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"26\" y=\"36\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">A</text><rect x=\"230\" y=\"20\" width=\"170\" height=\"170\" fill=\"none\" stroke=\"#E4E3E6\"/><line x1=\"258.3\" y1=\"20\" x2=\"258.3\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"230\" y1=\"48.3\" x2=\"400\" y2=\"48.3\" stroke=\"#F0EFF2\"/><line x1=\"286.7\" y1=\"20\" x2=\"286.7\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"230\" y1=\"76.7\" x2=\"400\" y2=\"76.7\" stroke=\"#F0EFF2\"/><line x1=\"315.0\" y1=\"20\" x2=\"315.0\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"230\" y1=\"105.0\" x2=\"400\" y2=\"105.0\" stroke=\"#F0EFF2\"/><line x1=\"343.3\" y1=\"20\" x2=\"343.3\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"230\" y1=\"133.3\" x2=\"400\" y2=\"133.3\" stroke=\"#F0EFF2\"/><line x1=\"371.7\" y1=\"20\" x2=\"371.7\" y2=\"190\" stroke=\"#F0EFF2\"/><line x1=\"230\" y1=\"161.7\" x2=\"400\" y2=\"161.7\" stroke=\"#F0EFF2\"/><line x1=\"230\" y1=\"190\" x2=\"400\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"230\" y1=\"20\" x2=\"230\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"236\" y=\"36\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">B</text><circle cx=\"35\" cy=\"155\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"55\" cy=\"137\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"75\" cy=\"120\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"95\" cy=\"104\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"115\" cy=\"87\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"135\" cy=\"70\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"110\" cy=\"155\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"245\" cy=\"155\" r=\"4\" fill=\"#B43123\"/><circle cx=\"265\" cy=\"150\" r=\"4\" fill=\"#B43123\"/><circle cx=\"285\" cy=\"138\" r=\"4\" fill=\"#B43123\"/><circle cx=\"305\" cy=\"118\" r=\"4\" fill=\"#B43123\"/><circle cx=\"325\" cy=\"90\" r=\"4\" fill=\"#B43123\"/><circle cx=\"345\" cy=\"55\" r=\"4\" fill=\"#B43123\"/></svg></span><p>a) Vilket material bör ha korrelationskoefficienten som ligger närmast 1?</p><p>b) Förklara vad som händer med korrelationskoefficienten i material A om den ensamma avvikande punkten tas bort.</p>",
     "s": "<p>Material A ligger i huvudsak nära en stigande rät linje, medan material B är stigande men tydligt böjt.</p><p>Korrelationskoefficienten mäter hur väl ett <em>linjärt</em> samband stämmer.</p><p>Därför bör <strong>material A</strong> ha \\(r\\)-värdet närmast 1.</p><p>Om den avvikande punkten i A tas bort blir sambandet ännu mer linjärt.</p><p><strong>Då ökar korrelationskoefficienten och kommer ännu närmare 1.</strong></p>",
     "familj": "korrelation_koefficient__uppskatta_r_fran_diagram",
@@ -46335,10 +50346,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>"
   },
   {
     "id": "4.180",
@@ -46363,33 +50378,43 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>"
   },
   {
     "id": "4.181",
     "kap": 4,
-    "omr": "normalfordelning_digitala_verktyg",
+    "omr": "normalfordelat_material",
     "kurs": [
       "2a",
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>En normalfördelning har medelvärdet 80 och standardavvikelsen 10.</p><p>Bestäm hur stor andel som ligger mellan 70 och 90.</p>",
     "s": "<p>70 och 90 är \\(\\mu-\\sigma\\) respektive \\(\\mu+\\sigma\\).</p><p>Av normalfördelningsfiguren på formelbladet ligger ungefär \\(34,1+34,1=68,2\\) % mellan dessa värden.</p><p><strong>Andelen är ungefär 68,2 %.</strong></p>",
-    "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_i_intervall",
+    "familj": "normalfordelat_material__68_intervall",
     "formaga": [
       "procedur",
       "begrepp",
       "modellering"
     ],
-    "miniräknare": true,
-    "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Andelen är ungefär 68,2 %",
-    "tolerans": null,
-    "självrättning": true
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "4.182",
@@ -46413,9 +50438,22 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      null,
+      null
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      false,
+      false
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Utgå från modellens lutning och konstantterm. Vid prognoser: kontrollera om \\(x\\)-värdet ligger inom dataintervallet.</p>"
   },
   {
     "id": "4.183",
@@ -46428,19 +50466,25 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev ligger på 90:e percentilen bland 320 resultat.</p><p>Ungefär hur många resultat är högre?</p>",
-    "s": "<p>90:e percentilen innebär att ungefär 90 % ligger på eller under elevens resultat.</p><p>Då ligger cirka 10 % högre.</p><p>\\(0,10\\cdot320=32\\).</p><p><strong>Cirka 32 resultat ligger högre.</strong></p>",
-    "familj": "kvartiler_percentiler__percentiler",
+    "t": "<p>I en resultatlista med 320 elever ligger 32 resultat högre än Saras resultat. Ungefär vilken percentil ligger Sara på?</p>",
+    "s": "<p>Andelen som ligger högre är \\(32/320=0,10=10\\%\\). Då ligger ungefär 90 % på eller under Saras resultat.</p><p><strong>Sara ligger ungefär på 90:e percentilen.</strong></p>",
+    "familj": "kvartiler_percentiler__tolka_percentil",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 32 resultat ligger högre",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tänk på vad percentilen eller kvartilen betyder som andel av ett sorterat material.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "percentilen"
   },
   {
     "id": "4.184",
@@ -46463,10 +50507,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Andelen är cirka 15,9 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.9,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Utgå från medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Kontrollera om frågan gäller ett intervall, en svans eller en percentil.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "4.185",
@@ -46488,10 +50538,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det rimligaste värdet är 0,58",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "0,18",
+        "ratt": false
+      },
+      {
+        "txt": "0,58",
+        "ratt": true
+      },
+      {
+        "txt": "−0,86",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.186",
@@ -46513,10 +50581,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det rimligaste värdet är −0,54",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "−0,54",
+        "ratt": true
+      },
+      {
+        "txt": "0,09",
+        "ratt": false
+      },
+      {
+        "txt": "0,88",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.187",
@@ -46526,8 +50612,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Diagrammet med datapunkter visas nedan.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"87.78\" y1=\"330.00\" x2=\"87.78\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"127.56\" y1=\"330.00\" x2=\"127.56\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"167.33\" y1=\"330.00\" x2=\"167.33\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"207.11\" y1=\"330.00\" x2=\"207.11\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"246.89\" y1=\"330.00\" x2=\"246.89\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"286.67\" y1=\"330.00\" x2=\"286.67\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"326.44\" y1=\"330.00\" x2=\"326.44\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"366.22\" y1=\"330.00\" x2=\"366.22\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"299.00\" x2=\"406.00\" y2=\"299.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"268.00\" x2=\"406.00\" y2=\"268.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"237.00\" x2=\"406.00\" y2=\"237.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"206.00\" x2=\"406.00\" y2=\"206.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"144.00\" x2=\"406.00\" y2=\"144.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"113.00\" x2=\"406.00\" y2=\"113.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"82.00\" x2=\"406.00\" y2=\"82.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"51.00\" x2=\"406.00\" y2=\"51.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"87.78\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"127.56\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"167.33\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"207.11\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"246.89\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"286.67\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"326.44\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"366.22\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"406.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"40.00\" y=\"302.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"40.00\" y=\"271.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"40.00\" y=\"240.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"40.00\" y=\"209.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"40.00\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"40.00\" y=\"147.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"40.00\" y=\"116.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"40.00\" y=\"85.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"40.00\" y=\"54.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"40.00\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><circle cx=\"87.78\" cy=\"175.00\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"127.56\" cy=\"221.50\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"167.33\" cy=\"184.30\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"207.11\" cy=\"97.50\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"246.89\" cy=\"82.00\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"286.67\" cy=\"97.50\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"326.44\" cy=\"252.50\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"366.22\" cy=\"51.00\" r=\"4.3\" fill=\"#2A5D9E\"/></svg></span><p>Beskriv sambandet och avgör vilket värde som är rimligast för korrelationskoefficienten: −0,08, 0,40 eller 0,95.</p>",
     "s": "<p>Punkterna visar ett <strong>positivt</strong> linjärt samband, men det är ganska svagt eftersom spridningen är stor.</p><p>Ett värde nära 1 skulle betyda ett mycket starkt linjärt samband, vilket inte stämmer här.</p><p><strong>Det rimligaste värdet är 0,40.</strong></p>",
     "familj": "korrelation_koefficient__uppskatta_r_fran_diagram",
@@ -46538,10 +50624,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "−0,08",
+        "ratt": false
+      },
+      {
+        "txt": "0,40",
+        "ratt": true
+      },
+      {
+        "txt": "0,95",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.188",
@@ -46551,8 +50655,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Diagrammet med datapunkter visas nedan.</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"87.78\" y1=\"330.00\" x2=\"87.78\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"127.56\" y1=\"330.00\" x2=\"127.56\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"167.33\" y1=\"330.00\" x2=\"167.33\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"207.11\" y1=\"330.00\" x2=\"207.11\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"246.89\" y1=\"330.00\" x2=\"246.89\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"286.67\" y1=\"330.00\" x2=\"286.67\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"326.44\" y1=\"330.00\" x2=\"326.44\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"366.22\" y1=\"330.00\" x2=\"366.22\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"299.00\" x2=\"406.00\" y2=\"299.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"268.00\" x2=\"406.00\" y2=\"268.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"237.00\" x2=\"406.00\" y2=\"237.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"206.00\" x2=\"406.00\" y2=\"206.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"144.00\" x2=\"406.00\" y2=\"144.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"113.00\" x2=\"406.00\" y2=\"113.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"82.00\" x2=\"406.00\" y2=\"82.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"51.00\" x2=\"406.00\" y2=\"51.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"87.78\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"127.56\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"167.33\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"207.11\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"246.89\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"286.67\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"326.44\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"366.22\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"406.00\" y=\"347.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"40.00\" y=\"302.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"40.00\" y=\"271.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"40.00\" y=\"240.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"40.00\" y=\"209.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"40.00\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"40.00\" y=\"147.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"40.00\" y=\"116.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"40.00\" y=\"85.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"40.00\" y=\"54.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"40.00\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><circle cx=\"87.78\" cy=\"122.30\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"127.56\" cy=\"299.00\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"167.33\" cy=\"94.40\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"207.11\" cy=\"168.80\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"246.89\" cy=\"274.20\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"286.67\" cy=\"268.00\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"326.44\" cy=\"137.80\" r=\"4.3\" fill=\"#2A5D9E\"/><circle cx=\"366.22\" cy=\"82.00\" r=\"4.3\" fill=\"#2A5D9E\"/></svg></span><p>Beskriv sambandet och avgör vilket värde som är rimligast för korrelationskoefficienten: −0,74, 0,15 eller 0,93.</p>",
     "s": "<p>Det är svårt att se något tydligt linjärt samband i diagrammet. Om något finns en mycket svag positiv tendens.</p><p>Därför passar ett värde nära 0 bäst.</p><p><strong>Det rimligaste värdet är 0,15.</strong></p>",
     "familj": "korrelation_koefficient__uppskatta_r_fran_diagram",
@@ -46563,10 +50667,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "−0,74",
+        "ratt": false
+      },
+      {
+        "txt": "0,15",
+        "ratt": true
+      },
+      {
+        "txt": "0,93",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.189",
@@ -46587,10 +50709,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "Svagt positivt linjärt samband",
+        "ratt": true
+      },
+      {
+        "txt": "Starkt positivt linjärt samband",
+        "ratt": false
+      },
+      {
+        "txt": "Svagt negativt linjärt samband",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "4.190",
@@ -46600,8 +50740,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Två datamaterial har korrelationskoefficienterna \\(r=0,27\\) respektive \\(r=0,71\\).</p><p>Båda sambanden är positiva. Jämför styrkan i sambanden.</p>",
     "s": "<p>Båda sambanden är positiva eftersom båda värdena är större än 0.</p><p>Värdet \\(0,71\\) ligger betydligt närmare 1 än \\(0,27\\), så det beskriver ett starkare linjärt samband.</p><p><strong>Det första sambandet är svagt positivt, medan det andra är tydligt starkare positivt.</strong></p>",
     "familj": "korrelation_koefficient__jamfora_korrelationsstyrka",
@@ -46612,10 +50752,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Det första sambandet är svagt positivt, medan det andra är tydligt starkare positivt",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet på \\(r\\) ger riktningen. Ju närmare \\(|r|\\) är 1, desto starkare är det linjära sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "Sambandet med r=0,27 är starkare.",
+        "ratt": false
+      },
+      {
+        "txt": "Sambandet med r=0,71 är starkare.",
+        "ratt": true
+      },
+      {
+        "txt": "Sambanden är lika starka.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "5.01",
@@ -46636,9 +50794,72 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      10,
+      8,
+      119000
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Bas",
+      "Plus",
+      "Återstår"
+    ],
+    "svarEnhet": [
+      "paket",
+      "paket",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>18 kampanjpaket säljs. Bas kostar 8 000 kr och Plus 12 000 kr. Faktureringen är 176 000 kr. Rörlig kostnad: 2 500 kr för Bas och 4 000 kr för Plus.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur många Bas-paket såldes?</p>",
+        "s": "<p>Ekvationssystemet ger 10 Bas.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur många Plus-paket såldes?</p>",
+        "s": "<p>Ekvationssystemet ger 8 Plus.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur mycket återstår efter de angivna rörliga kostnaderna?</p>",
+        "s": "<p>Rörliga kostnader: 57 000 kr. Kvar: 119 000 kr.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.02",
@@ -46659,10 +50880,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Kapitalet når 230 000 kr efter cirka 5,0 år",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.02,
+    "tolerans": 0.08,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "år"
   },
   {
     "id": "5.03",
@@ -46683,10 +50910,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Gränsen är cirka 5 950 kr",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 5953,
+    "tolerans": 15,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "5.04",
@@ -46706,10 +50939,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Skilj på riktning, styrka och orsak. Om en modell används, kontrollera också om prognosen ligger inom dataintervallet.</p>"
   },
   {
     "id": "5.05",
@@ -46732,9 +50969,36 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      1.1,
+      6.24,
+      null
+    ],
+    "tolerans": [
+      0.01,
+      0.08,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Förändringsfaktor",
+      "Omsättning år 7",
+      "Bedömning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "5.06",
@@ -46755,10 +51019,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "0 vid 2 000 och 7 000 sålda enheter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2000,
+      7000
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Första nollstället",
+      "Andra nollstället"
+    ],
+    "svarEnhet": [
+      "enheter",
+      "enheter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.07",
@@ -46781,9 +51071,36 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      1.0,
+      0.62,
+      null
+    ],
+    "tolerans": [
+      0.02,
+      0.03,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Skilj på riktning, styrka och orsak. Om en modell används, kontrollera också om prognosen ligger inom dataintervallet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "r före",
+      "r efter",
+      "Förklaring"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "5.08",
@@ -46805,9 +51122,35 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "V(t)=300000*0.85^t",
+      156602
+    ],
+    "tolerans": [
+      null,
+      100
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Modell",
+      "Värde efter 4 år"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "kr"
+    ]
   },
   {
     "id": "5.09",
@@ -46828,9 +51171,41 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      210,
+      210,
+      "ja"
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Definiera två variabler och skriv en ekvation för antalet och en för den totala mängden eller kostnaden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Bas",
+      "Premium",
+      "Målet uppfyllt"
+    ],
+    "svarEnhet": [
+      "abonnemang",
+      "abonnemang",
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "5.10",
@@ -46851,10 +51226,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Skilj på riktning, styrka och orsak. Om en modell används, kontrollera också om prognosen ligger inom dataintervallet.</p>"
   },
   {
     "id": "5.11",
@@ -46876,9 +51255,41 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "-15p^2+1500p-30000",
+      50,
+      7500
+    ],
+    "tolerans": [
+      null,
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Vinstfunktion",
+      "Pris",
+      "Maxvinst"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "kr",
+      "kr"
+    ]
   },
   {
     "id": "5.12",
@@ -46899,10 +51310,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 68,3 % av ordervärdena ligger i intervallet",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.3,
+    "tolerans": 0.3,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "5.13",
@@ -46926,7 +51343,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Tecknet och storleken på \\(r\\) beskriver ett linjärt samband, inte ett bevisat orsakssamband.</p>"
   },
   {
     "id": "5.14",
@@ -46946,10 +51367,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Butik B har störst variation",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "Butik A",
+        "ratt": false
+      },
+      {
+        "txt": "Butik B",
+        "ratt": true
+      },
+      {
+        "txt": "Samma variation",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "5.15",
@@ -46971,10 +51410,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Skilj på riktning, styrka och orsak. Om en modell används, kontrollera också om prognosen ligger inom dataintervallet.</p>"
   },
   {
     "id": "5.16",
@@ -46995,10 +51438,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Modellen passerar 2 000 kunder efter cirka 6,6 år",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.64,
+    "tolerans": 0.08,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "år"
   },
   {
     "id": "5.17",
@@ -47020,9 +51469,72 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      6.68,
+      23.1,
+      13
+    ],
+    "tolerans": [
+      0.2,
+      0.2,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Över 24 min",
+      "90:e percentilen",
+      "Av 200"
+    ],
+    "svarEnhet": [
+      "%",
+      "min",
+      "order"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ordertid: normalfördelad med \\(\\mu=18\\) min och \\(\\sigma=4\\) min.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm sannolikheten att tiden är mer än 24 minuter.</p>",
+        "s": "<p>GeoGebra ger cirka 6,68 %.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den 90:e percentilen.</p>",
+        "s": "<p>Den 90:e percentilen är cirka 23,1 minuter.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur många av 200 order motsvarar sannolikheten i a)?</p>",
+        "s": "<p>\\(200\\cdot0,0668\\approx13\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.18",
@@ -47043,10 +51555,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Priset 40 kr ger den största intäkten, 16 000 kr",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      16000
+    ],
+    "tolerans": [
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Pris",
+      "Största intäkt"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.19",
@@ -47068,11 +51606,40 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "9 annonser i A och 12 i B",
-      "kalkylen ger 915 kundkontakter"
+      9,
+      12,
+      915
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Kanal A",
+      "Kanal B",
+      "Kundkontakter"
+    ],
+    "svarEnhet": [
+      "annonser",
+      "annonser",
+      "kontakter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.20",
@@ -47083,20 +51650,45 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett företag placerar 150 000 kr i en reserv som enligt modellen ökar med 4 % per år.</p><p>Bestäm med logaritmer efter hur lång tid modellen når 200 000 kr.</p>",
-    "s": "<p>\\(150000\\cdot1,04^t=200000\\).</p><p>\\(1,04^t=\\frac{4}{3}\\).</p><p>\\(t=\\frac{\\lg(4/3)}{\\lg1,04}\\approx7,33\\).</p><p><strong>Modellen når 200 000 kr efter cirka 7,3 år.</strong></p>",
-    "familj": "ekonomiprogrammet__logaritm_och_exponentialekvation",
+    "t": "<p>Ett företag placerar 150 000 kr i en reserv. Efter 8 år är modellvärdet 205 000 kr.</p><p>Anta en konstant årlig procentuell ökning. Bestäm den årliga förändringsfaktorn och den årliga procentuella ökningen.</p>",
+    "s": "<p>Låt förändringsfaktorn vara \\(a\\). Då gäller</p><p>\\[150000a^8=205000.\\]</p><p>\\[a=\\left(\\frac{205000}{150000}\\right)^{1/8}\\approx1,0398.\\]</p><p>Det motsvarar en årlig ökning på cirka \\(3,98\\%\\).</p><p><strong>Förändringsfaktor cirka 1,040 och ökning cirka 4,0 % per år.</strong></p>",
+    "familj": "ekonomiprogrammet__exponentialmodell_baklanges",
     "formaga": [
       "procedur",
-      "begrepp",
       "modellering"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Modellen når 200 000 kr efter cirka 7,3 år",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0398,
+      3.98
+    ],
+    "tolerans": [
+      0.002,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Förändringsfaktor",
+      "Årlig ökning"
+    ],
+    "svarEnhet": [
+      null,
+      "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.21",
@@ -47117,10 +51709,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Alla hela femtal från 25 till 75 enheter",
+    "svarstyp": "text",
+    "rättSvar": "25,30,35,40,45,50,55,60,65,70,75",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>"
   },
   {
     "id": "5.22",
@@ -47129,8 +51725,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ett företag testar en prisstrategi för en produkt. Efterfrågan modelleras med</p><p>\\[q=1500-20p,\\]</p><p>där \\(p\\) är priset i kronor och \\(q\\) antal sålda enheter per månad. Den rörliga kostnaden är 25 kr per enhet och de fasta kostnaderna är 5 000 kr per månad.</p><p>a) Ställ upp en funktion för månadens vinst \\(V(p)\\).</p><p>b) Bestäm vilket pris som ger den största vinsten enligt modellen och beräkna den största vinsten.</p><p>c) Ledningen kräver minst 7 000 kr i vinst och priset ska vara ett helt antal kronor. Bestäm alla priser som uppfyller kravet.</p>",
     "s": "<p>a) Vinsten är intäkt minus rörliga och fasta kostnader:</p><p>\\[V(p)=(p-25)(1500-20p)-5000=-20p^2+2000p-42500.\\]</p><p>b) Skriv om uttrycket med kvadratkomplettering:</p><p>\\[V(p)=-20(p^2-100p)-42500=-20(p-50)^2+7500.\\]</p><p>Eftersom \\((p-50)^2\\ge0\\) blir det största värdet 7 500 när \\(p=50\\).</p><p>c) Kravet \\(V(p)\\ge7000\\) ger</p><p>\\[-20p^2+2000p-49500\\ge0.\\]</p><p>Dividera med \\(-20\\) och vänd olikhetstecknet:</p><p>\\[p^2-100p+2475\\le0.\\]</p><p>Nollställena är \\(p=45\\) och \\(p=55\\). Parabeln ligger under eller på x-axeln mellan nollställena.</p><p><strong>a) \\(V(p)=-20p^2+2000p-42500\\). b) 50 kr ger den största vinsten, 7 500 kr. c) Heltalspriserna 45–55 kr uppfyller kravet.</strong></p>",
     "familj": "ekonomiprogrammet__andragradsmodell_och_optimering",
@@ -47144,12 +51740,40 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\(V(p)=-20p^2+2000p-42500\\)",
-      "50 kr ger den största vinsten, 7 500 kr",
-      "Heltalspriserna 45–55 kr uppfyller kravet"
+      50,
+      7500,
+      45,
+      55
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      1,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Pris för max",
+      "Maxvinst",
+      "Lägsta heltalspris",
+      "Högsta heltalspris"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.23",
@@ -47172,9 +51796,57 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      144000,
+      9.77
+    ],
+    "tolerans": [
+      100,
+      0.08
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Största modellvärde år 8 (B)",
+      "Andra skärning"
+    ],
+    "svarEnhet": [
+      "kr",
+      "år"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(A(t)=100000\\cdot1,045^t\\), \\(B(t)=100000+5500t\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Vilket är det större modellvärdet efter 8 år? Svara med beloppet.</p>",
+        "s": "<p>B ger 144 000 kr, vilket är större än A.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den andra skärningstidpunkten med GeoGebra.</p>",
+        "s": "<p>Den andra skärningen ligger vid cirka 9,77 år.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.24",
@@ -47195,10 +51867,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Sannolikheten är cirka 14,9 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.9,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "5.25",
@@ -47219,10 +51897,42 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      250,
+      250,
+      "nej"
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Definiera två variabler och skriv en ekvation för antalet och en för den totala mängden eller kostnaden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Typ A",
+      "Typ B",
+      "Påståendet stämmer"
+    ],
+    "svarEnhet": [
+      "produkter",
+      "produkter",
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "5.26",
@@ -47231,8 +51941,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Två investeringsalternativ jämförs med modellerna</p><p>\\[A(t)=80000\\cdot1,06^t,\\qquad B(t)=105000+3000t.\\]</p><p>a) Bestäm med GeoGebra när A första gången blir mer värd än B.</p><p>b) Anta i stället att den årliga förändringsfaktorn för A är 1,055. Bestäm den nya skärningstidpunkten.</p><p>c) Resonera om vad jämförelsen visar om hur känslig slutsatsen är för antagandet om årlig tillväxt.</p>",
     "s": "<p>a) Lös \\(80000\\cdot1,06^t=105000+3000t\\) i GeoGebra. Skärningen är vid \\(t\\approx8,33\\) år. Efter den tidpunkten ligger A över B.</p><p>b) Med förändringsfaktorn 1,055 löses \\(80000\\cdot1,055^t=105000+3000t\\). Då fås \\(t\\approx9,61\\) år.</p><p>c) En minskning av den antagna årliga tillväxten med 0,5 procentenheter flyttar skärningen med ungefär 1,3 år. Slutsatsen om när A går om B är därför tydligt beroende av tillväxtantagandet.</p><p><strong>Cirka 8,3 år vid 6 % och 9,6 år vid 5,5 %.</strong></p>",
     "familj": "ekonomiprogrammet__exponential_och_procentmodell",
@@ -47245,9 +51955,57 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      8.33,
+      9.61
+    ],
+    "tolerans": [
+      0.08,
+      0.08
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Skärning vid 6 %",
+      "Skärning vid 5,5 %"
+    ],
+    "svarEnhet": [
+      "år",
+      "år"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(A(t)=80000\\cdot1,06^t\\), \\(B(t)=105000+3000t\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm med GeoGebra när A första gången går om B.</p>",
+        "s": "<p>Skärningen ligger vid cirka 8,33 år.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Byt förändringsfaktorn i A till 1,055. Bestäm den nya skärningstidpunkten.</p>",
+        "s": "<p>Den nya skärningen ligger vid cirka 9,61 år.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.27",
@@ -47268,10 +52026,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Skilj på riktning, styrka och orsak. Om en modell används, kontrollera också om prognosen ligger inom dataintervallet.</p>"
   },
   {
     "id": "5.28",
@@ -47280,8 +52042,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En butik modellerar den dagliga efterfrågan på en produkt som normalfördelad med medelvärdet 240 enheter och standardavvikelsen 35 enheter.</p><p>a) Butiken har 300 enheter tillgängliga varje morgon. Bestäm med GeoGebra sannolikheten att dagens efterfrågan är större än lagret.</p><p>b) Bestäm hur stort morgonlager som krävs enligt modellen för att efterfrågan ska överstiga lagret endast 2,5 % av dagarna.</p><p>c) Under 250 försäljningsdagar, ungefär hur många dagar motsvarar 2,5 %? Förklara också en begränsning med att använda normalfördelningsmodellen som enda underlag för lagerbeslut.</p>",
     "s": "<p>a) Med medelvärde 240 och standardavvikelse 35 ger GeoGebra sannolikheten cirka 0,0433, alltså cirka 4,3 %, för att efterfrågan är större än 300 enheter.</p><p>b) Gränsen ska ha 97,5 % av fördelningen till vänster. GeoGebra ger ungefär 308,6. Ett heltalslager behöver därför vara cirka 309 enheter.</p><p>c) \\(0,025\\cdot250=6,25\\), alltså ungefär 6 dagar.</p><p>Modellen kan till exempel missa säsongsvariation, kampanjer eller plötsliga förändringar i efterfrågan.</p><p><strong>Cirka 4,3 %, cirka 309 enheter och ungefär 6 dagar av 250.</strong></p>",
     "familj": "ekonomiprogrammet__statistik_och_fordelningar",
@@ -47294,9 +52056,72 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      4.32,
+      309,
+      6
+    ],
+    "tolerans": [
+      0.2,
+      1,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Risk vid lager 300",
+      "Lager för 2,5 %",
+      "Dagar av 250"
+    ],
+    "svarEnhet": [
+      "%",
+      "enheter",
+      "dagar"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Efterfrågan: normalfördelad med \\(\\mu=240\\), \\(\\sigma=35\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm sannolikheten att efterfrågan överstiger 300.</p>",
+        "s": "<p>GeoGebra ger cirka 4,32 %.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm ett heltalslager så att endast cirka 2,5 % överstiger lagret.</p>",
+        "s": "<p>97,5:e percentilen är cirka 308,6, alltså cirka 309 enheter.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur många dagar av 250 motsvarar 2,5 %?</p>",
+        "s": "<p>\\(0,025\\cdot250=6,25\\), alltså ungefär 6 dagar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.29",
@@ -47319,9 +52144,41 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      "-0.05q^2+60q-8000",
+      600,
+      10000
+    ],
+    "tolerans": [
+      null,
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Vinstfunktion",
+      "Volym",
+      "Maxvinst"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "enheter",
+      "kr"
+    ]
   },
   {
     "id": "5.30",
@@ -47342,10 +52199,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "hela år"
   },
   {
     "id": "5.31",
@@ -47367,11 +52230,71 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "15 kortare och 9 längre besök",
-      "totalt 927 minuter inklusive dokumentation"
+      15,
+      9,
+      927
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Kortare besök",
+      "Längre besök",
+      "Tid inkl. dokumentation"
+    ],
+    "svarEnhet": [
+      "besök",
+      "besök",
+      "min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>24 besök: korta 25 min, långa 40 min. Besökstid totalt 735 min. Dokumentation 8 min efter varje besök.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur många korta besök planeras?</p>",
+        "s": "<p>Ekvationssystemet ger 15 korta besök.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur många långa besök planeras?</p>",
+        "s": "<p>Ekvationssystemet ger 9 långa besök.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur lång blir total tid inklusive dokumentation?</p>",
+        "s": "<p>Dokumentation: \\(24\\cdot8=192\\) min. Totalt \\(735+192=927\\) min.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.32",
@@ -47393,9 +52316,35 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      50,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "S(4)",
+      "Avstånd"
+    ],
+    "svarEnhet": [
+      null,
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.33",
@@ -47406,7 +52355,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>På en daglig verksamhet ska en rektangulär aktivitetsyta avgränsas mot en befintlig vägg. Det finns 24 m flyttbara skärmar, så skärm behövs bara på tre sidor.</p><p>Låt \\(x\\) meter vara vardera kortsidan.</p><p>Bestäm alla värden på \\(x\\) som ger en aktivitetsyta på minst 64 m².</p>",
+    "t": "<p>På en daglig verksamhet ska en rektangulär aktivitetsyta avgränsas mot en befintlig vägg. Det finns 24 m flyttbara skärmar, så skärm behövs bara på tre sidor.</p><p>Låt \\(x\\) meter vara vardera kortsidan.</p><p>Bestäm alla värden på \\(x\\) som ger en aktivitetsyta på minst 64 m².</p><div class=\"fig smal\"><svg width=\"430\" height=\"260\" viewBox=\"0 0 430 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangulär aktivitetsyta mot en vägg\">\n    <rect x=\"1\" y=\"1\" width=\"428\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n    <line x1=\"70\" y1=\"55\" x2=\"360\" y2=\"55\" stroke=\"#6F6B72\" stroke-width=\"6\"/>\n    <text x=\"215\" y=\"38\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" fill=\"#403D43\">vägg</text>\n    <line x1=\"95\" y1=\"70\" x2=\"95\" y2=\"205\" stroke=\"#3D6FB4\" stroke-width=\"3\"/>\n    <line x1=\"95\" y1=\"205\" x2=\"335\" y2=\"205\" stroke=\"#3D6FB4\" stroke-width=\"3\"/>\n    <line x1=\"335\" y1=\"205\" x2=\"335\" y2=\"70\" stroke=\"#3D6FB4\" stroke-width=\"3\"/>\n    <line x1=\"95\" y1=\"70\" x2=\"335\" y2=\"70\" stroke=\"#B8B4BA\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/>\n    <text x=\"74\" y=\"142\" font-family=\"system-ui,sans-serif\" font-size=\"16\" fill=\"#403D43\">x</text>\n    <text x=\"215\" y=\"229\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"15\" fill=\"#403D43\">24−2x</text>\n    </svg></div>",
     "s": "<p>Den tredje sidan blir \\(24-2x\\) meter.</p><p>Arean är \\(A(x)=x(24-2x)=-2x^2+24x\\).</p><p>Kravet är \\(-2x^2+24x\\ge64\\).</p><p>Dividera med \\(-2\\) och vänd olikheten: \\(x^2-12x+32\\le0\\).</p><p>\\(x^2-12x+32=(x-4)(x-8)\\).</p><p>Uttrycket är högst 0 mellan nollställena.</p><p><strong>\\(4\\le x\\le8\\) meter.</strong></p>",
     "familj": "vard_omsorgsprogrammet__andragradsmodell_och_optimering",
     "formaga": [
@@ -47416,10 +52365,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(4\\le x\\le8\\) meter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      8
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Välj en variabel, uttryck den andra längden med hjälp av villkoret och ställ sedan upp area-funktionen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Minsta x",
+      "Största x"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.34",
@@ -47439,10 +52414,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Största area fås med måtten 7,5 m × 7,5 m",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.5,
+      7.5
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj en variabel, uttryck den andra längden med hjälp av villkoret och ställ sedan upp area-funktionen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Sida 1",
+      "Sida 2"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.35",
@@ -47465,9 +52466,31 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      8.7,
+      null
+    ],
+    "tolerans": [
+      0.08,
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Tid till 40 %",
+      "Bedömning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ]
   },
   {
     "id": "5.36",
@@ -47488,10 +52511,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": false,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>"
   },
   {
     "id": "5.37",
@@ -47514,9 +52541,47 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      10,
+      6,
+      8,
+      4
+    ],
+    "tolerans": [
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "TF",
+      "TR",
+      "RF",
+      "Skillnad"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.38",
@@ -47537,10 +52602,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Ungefär mellan 8 och 20 minuter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8,
+      20
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarEnhet": [
+      "min",
+      "min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.39",
@@ -47562,9 +52653,35 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": true,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      0.894,
+      10.8
+    ],
+    "tolerans": [
+      0.003,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Förändringsfaktor",
+      "Tid till 30 %"
+    ],
+    "svarEnhet": [
+      null,
+      "h"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.40",
@@ -47575,19 +52692,45 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett omsorgsteam planerar 18 besök. Ett standardbesök är 20 minuter och ett utökat besök är 35 minuter. Den sammanlagda besökstiden är 450 minuter.</p><p>Bestäm hur många besök som är av varje typ.</p>",
-    "s": "<p>Låt \\(x\\) vara standardbesök och \\(y\\) utökade besök.</p><p>\\[\\begin{cases}x+y=18\\\\20x+35y=450\\end{cases}\\]</p><p>Sätt \\(x=18-y\\): \\(20(18-y)+35y=450\\).</p><p>\\(360+15y=450\\), så \\(y=6\\) och \\(x=12\\).</p><p><strong>12 standardbesök och 6 utökade besök.</strong></p>",
-    "familj": "vard_omsorgsprogrammet__ekvationssystem_och_fordelning",
+    "t": "<p>Ett omsorgsteam planerar totalt 18 besök. Ett standardbesök tar 20 minuter och ett utökat besök 35 minuter.</p><p>Låt \\(x\\) vara antalet utökade besök.</p><p>a) Ställ upp en funktion \\(T(x)\\) för den totala besökstiden.<br>b) Bestäm \\(T(6)\\).</p>",
+    "s": "<p>Om \\(x\\) besök är utökade är \\(18-x\\) standardbesök.</p><p>\\[T(x)=35x+20(18-x)=15x+360.\\]</p><p>\\[T(6)=15\\cdot6+360=450.\\]</p><p><strong>\\(T(x)=15x+360\\) och \\(T(6)=450\\) minuter.</strong></p>",
+    "familj": "vard_omsorgsprogrammet__linjar_modell_besokstid",
     "formaga": [
-      "procedur",
-      "modellering"
+      "modellering",
+      "procedur"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "12 standardbesök och 6 utökade besök",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "15x+360",
+      450
+    ],
+    "tolerans": [
+      null,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Definiera två variabler och skriv en ekvation för antalet och en för den totala mängden eller kostnaden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "T(x)",
+      "T(6)"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "min"
+    ]
   },
   {
     "id": "5.41",
@@ -47596,8 +52739,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Följande tider, i minuter, gäller 16 dokumentationstillfällen på en omsorgsverksamhet:</p><table class=\"data\"><tr><td>7</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td><td>10</td><td>10</td></tr><tr><td>11</td><td>11</td><td>12</td><td>12</td><td>13</td><td>14</td><td>14</td><td>16</td></tr></table><p>Bestäm medianen, nedre kvartilen, övre kvartilen och kvartilavståndet.</p>",
     "s": "<p>Medianen är medelvärdet av det 8:e och 9:e värdet: \\((10+11)/2=10,5\\).</p><p>Nedre halvan har mittvärdena 9 och 9, så nedre kvartilen är 9.</p><p>Övre halvan har mittvärdena 12 och 13, så övre kvartilen är \\(12,5\\).</p><p>Kvartilavståndet är \\(12,5-9=3,5\\).</p><p><strong>Median 10,5 min, nedre kvartil 9 min, övre kvartil 12,5 min och kvartilavstånd 3,5 min.</strong></p>",
     "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
@@ -47608,10 +52751,88 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Median 10,5 min, nedre kvartil 9 min, övre kvartil 12,5 min och kvartilavstånd 3,5 min",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.5,
+      9,
+      12.5,
+      3.5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Median",
+      "Q1",
+      "Q3",
+      "Kvartilavstånd"
+    ],
+    "svarEnhet": [
+      "min",
+      "min",
+      "min",
+      "min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tiderna är 7, 8, 8, 9, 9, 10, 10, 10, 11, 11, 12, 12, 13, 14, 14, 16 minuter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medianen.</p>",
+        "s": "<p>Medianen är \\((10+11)/2=10,5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm nedre kvartilen.</p>",
+        "s": "<p>Medianen i den undre halvan är 9.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm övre kvartilen.</p>",
+        "s": "<p>Medianen i den övre halvan är 12,5.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm kvartilavståndet.</p>",
+        "s": "<p>\\(12,5-9=3,5\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.42",
@@ -47632,10 +52853,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Modellen går under 50 % efter cirka 5,4 timmar",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.42,
+    "tolerans": 0.08,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera startvärde och förändringsfaktor. Om exponenten är okänd kan du använda logaritmer eller GeoGebra enligt uppgiften.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "id": "5.43",
@@ -47657,11 +52884,71 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "6 personer arbetar 8 timmar och 8 personer arbetar 6 timmar",
-      "kalkylkostnaden är 17 520 kr"
+      6,
+      8,
+      17520
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "8-timmarspass",
+      "6-timmarspass",
+      "Kostnad"
+    ],
+    "svarEnhet": [
+      "personer",
+      "personer",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>14 personer arbetar antingen 8 eller 6 timmar. Totalt 96 timmar. Timkostnad: 190 kr respektive 175 kr.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur många arbetar 8 timmar?</p>",
+        "s": "<p>Ekvationssystemet ger 6 personer.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur många arbetar 6 timmar?</p>",
+        "s": "<p>Då arbetar 8 personer 6 timmar.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Beräkna den totala personalkostnaden.</p>",
+        "s": "<p>\\(6\\cdot8\\cdot190+8\\cdot6\\cdot175=17520\\) kr.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.44",
@@ -47681,10 +52968,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "6 m × 9 m",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      9
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj en variabel, uttryck den andra längden med hjälp av villkoret och ställ sedan upp area-funktionen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Bredd",
+      "Längd"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.45",
@@ -47705,10 +53018,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(6\\le x\\le10\\) meter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      10
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj en variabel, uttryck den andra längden med hjälp av villkoret och ställ sedan upp area-funktionen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Minsta x",
+      "Största x"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.46",
@@ -47728,10 +53067,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Lag A har jämnare responstider",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "Lag A",
+        "ratt": true
+      },
+      {
+        "txt": "Lag B",
+        "ratt": false
+      },
+      {
+        "txt": "Lika jämna",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "5.47",
@@ -47740,8 +53097,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Ett lådagram för väntetider vid en verksamhet har nedre kvartilen 8 min, medianen 10 min och övre kvartilen 13 min.</p><p>En samordnare säger: ”Ungefär tre fjärdedelar av väntetiderna är 13 minuter eller kortare.”</p><p>Bedöm påståendet och motivera.</p>",
     "s": "<p>Övre kvartilen är 13 minuter. Den delar materialet så att ungefär 75 % av observationerna ligger på eller under detta värde.</p><p><strong>Påståendet är rimligt: ungefär tre fjärdedelar av väntetiderna är högst 13 minuter.</strong></p>",
     "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
@@ -47752,10 +53109,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "alternativ": [
+      {
+        "txt": "Ja, eftersom Q3=13 innebär att ungefär 75 % ligger på eller under 13 min.",
+        "ratt": true
+      },
+      {
+        "txt": "Nej, Q3 betyder att exakt 25 % ligger under 13 min.",
+        "ratt": false
+      },
+      {
+        "txt": "Nej, kvartiler säger inget om andelar.",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "5.48",
@@ -47776,10 +53151,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Ungefär mellan 25 och 35 minuter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      25,
+      35
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarEnhet": [
+      "min",
+      "min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.49",
@@ -47788,8 +53189,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>En verksamhet bemannar ett dygn med 18 medarbetare. Några arbetar 8 timmar och resten 5 timmar. Den sammanlagda arbetstiden är 123 timmar.</p><p>Bestäm hur många som arbetar respektive passlängd.</p>",
     "s": "<p>Låt \\(x\\) vara antal 8-timmarspass och \\(y\\) antal 5-timmarspass.</p><p>\\[\\begin{cases}x+y=18\\\\8x+5y=123\\end{cases}\\]</p><p>Fem gånger första ekvationen ger \\(5x+5y=90\\). Subtraktion ger \\(3x=33\\), alltså \\(x=11\\) och \\(y=7\\).</p><p><strong>11 personer arbetar 8 timmar och 7 personer arbetar 5 timmar.</strong></p>",
     "familj": "vard_omsorgsprogrammet__geometri_och_matning",
@@ -47799,10 +53200,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "11 personer arbetar 8 timmar och 7 personer arbetar 5 timmar",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11,
+      7
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "8-timmarspass",
+      "5-timmarspass"
+    ],
+    "svarEnhet": [
+      "personer",
+      "personer"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.50",
@@ -47811,9 +53238,9 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
-    "t": "<p>En daglig verksamhet planerar en rektangulär aktivitetsyta med omkretsen 30 m. I planeringsskissen reserveras en 1 m bred fri passage längs alla fyra sidor inne i rektangeln.</p><p>Låt den ena yttersidan vara \\(x\\) meter.</p><p>a) Ställ upp en funktion för arean \\(U(x)\\) av den del som återstår innanför passagen.</p><p>b) Bestäm yttermåtten som ger största möjliga sådan area.</p><p>c) Beräkna den största arean innanför passagen.</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>En daglig verksamhet planerar en rektangulär aktivitetsyta med omkretsen 30 m. I planeringsskissen reserveras en 1 m bred fri passage längs alla fyra sidor inne i rektangeln.</p><p>Låt den ena yttersidan vara \\(x\\) meter.</p><p>a) Ställ upp en funktion för arean \\(U(x)\\) av den del som återstår innanför passagen.</p><p>b) Bestäm yttermåtten som ger största möjliga sådan area.</p><p>c) Beräkna den största arean innanför passagen.</p><div class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel med en meter bred passage längs insidan\">\n    <rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n    <rect x=\"80\" y=\"55\" width=\"270\" height=\"180\" fill=\"#F6F5F6\" stroke=\"#403D43\" stroke-width=\"2.5\"/>\n    <rect x=\"115\" y=\"90\" width=\"200\" height=\"110\" fill=\"#EEF3FA\" stroke=\"#3D6FB4\" stroke-width=\"2\"/>\n    <line x1=\"80\" y1=\"252\" x2=\"350\" y2=\"252\" stroke=\"#6F6B72\" stroke-width=\"1.3\"/>\n    <line x1=\"80\" y1=\"247\" x2=\"80\" y2=\"257\" stroke=\"#6F6B72\"/>\n    <line x1=\"350\" y1=\"247\" x2=\"350\" y2=\"257\" stroke=\"#6F6B72\"/>\n    <text x=\"215\" y=\"274\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"15\" fill=\"#403D43\">x</text>\n    <line x1=\"365\" y1=\"55\" x2=\"365\" y2=\"235\" stroke=\"#6F6B72\" stroke-width=\"1.3\"/>\n    <text x=\"382\" y=\"150\" font-family=\"system-ui,sans-serif\" font-size=\"15\" fill=\"#403D43\">15−x</text>\n    <text x=\"98\" y=\"82\" font-family=\"system-ui,sans-serif\" font-size=\"13\" fill=\"#6F6B72\">1 m passage</text>\n    </svg></div>",
     "s": "<p>Om den ena yttersidan är \\(x\\), är den andra \\(15-x\\). Passagen tar 1 m på varje sida, så den inre rektangeln får sidorna \\(x-2\\) och \\(13-x\\).</p><p>a) \\(U(x)=(x-2)(13-x)=-x^2+15x-26\\).</p><p>b) Kvadratkomplettera:</p><p>\\[U(x)=-(x-7{,}5)^2+30{,}25.\\]</p><p>Det största värdet fås när \\(x=7{,}5\\). Den andra yttersidan är då också \\(15-7{,}5=7{,}5\\).</p><p>c) Den inre ytan är \\(5{,}5\\cdot5{,}5=30{,}25\\) m².</p><p><strong>\\(U(x)=-x^2+15x-26\\); yttermått 7,5 m × 7,5 m; största inre area 30,25 m².</strong></p>",
     "familj": "vard_omsorgsprogrammet__andragradsmodell_och_optimering",
     "formaga": [
@@ -47825,12 +53252,46 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\(U(x)=-x^2+15x-26\\)",
-      "yttermått 7,5 m × 7,5 m",
-      "största inre area 30,25 m²"
+      "-x^2+15x-26",
+      7.5,
+      7.5,
+      30.25
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      null,
+      0.01,
+      0.01,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Välj en variabel, uttryck den andra längden med hjälp av villkoret och ställ sedan upp area-funktionen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "U(x)",
+      "Yttersida 1",
+      "Yttersida 2",
+      "Max area"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "m",
+      "m",
+      "m²"
+    ]
   },
   {
     "id": "5.51",
@@ -47839,21 +53300,43 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>På en förenklad planritning mäts koordinaterna i meter. Ett hjälpmedelsförråd ligger i \\(F(2,1)\\) och teamrummet i \\(T(10,7)\\).</p><span class=\"fig smal\"><svg width=\"520\" height=\"390\" viewBox=\"0 0 520 390\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Förenklad planritning i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"388\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"70\" y1=\"48\" x2=\"70\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"70\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">0</text><line x1=\"108\" y1=\"48\" x2=\"108\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"108\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"146\" y1=\"48\" x2=\"146\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"146\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"184\" y1=\"48\" x2=\"184\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"184\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"222\" y1=\"48\" x2=\"222\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"222\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"260\" y1=\"48\" x2=\"260\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"260\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"298\" y1=\"48\" x2=\"298\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"298\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"336\" y1=\"48\" x2=\"336\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"336\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"374\" y1=\"48\" x2=\"374\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"374\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"412\" y1=\"48\" x2=\"412\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"412\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">9</text><line x1=\"450\" y1=\"48\" x2=\"450\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"450\" y=\"340\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">10</text><line x1=\"70\" y1=\"320\" x2=\"450\" y2=\"320\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><line x1=\"70\" y1=\"286\" x2=\"450\" y2=\"286\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"290\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">1</text><line x1=\"70\" y1=\"252\" x2=\"450\" y2=\"252\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"256\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">2</text><line x1=\"70\" y1=\"218\" x2=\"450\" y2=\"218\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"222\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">3</text><line x1=\"70\" y1=\"184\" x2=\"450\" y2=\"184\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"188\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">4</text><line x1=\"70\" y1=\"150\" x2=\"450\" y2=\"150\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">5</text><line x1=\"70\" y1=\"116\" x2=\"450\" y2=\"116\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"120\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">6</text><line x1=\"70\" y1=\"82\" x2=\"450\" y2=\"82\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">7</text><line x1=\"70\" y1=\"48\" x2=\"450\" y2=\"48\" stroke=\"#E8E7EA\" stroke-width=\"1\"/><text x=\"55\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#77727A\">8</text><line x1=\"70\" y1=\"320\" x2=\"462\" y2=\"320\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"70\" y1=\"320\" x2=\"70\" y2=\"36\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"146\" cy=\"286\" r=\"5\" fill=\"#2C62A8\"/><text x=\"156\" y=\"276\" text-anchor=\"start\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">F (Förråd)</text><circle cx=\"450\" cy=\"82\" r=\"5\" fill=\"#2C62A8\"/><text x=\"440\" y=\"72\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">T (Teamrum)</text></svg></span><p>a) Bestäm avståndet \\(FT\\).</p><p>b) Bestäm mittpunkten mellan F och T. Den punkten används som ett förslag på en central placering av en informationsstation.</p>",
-    "s": "<p>a) Avståndet är</p><p>\\(FT=\\sqrt{(10-2)^2+(7-1)^2}=\\sqrt{64+36}=10\\) m.</p><p>b) Mittpunkten är</p><p>\\(\\left(\\frac{2+10}{2},\\frac{1+7}{2}\\right)=(6,4)\\).</p><p><strong>Avståndet är 10 m och mittpunkten är \\((6,4)\\).</strong></p>",
-    "familj": "vard_omsorgsprogrammet__geometri_och_matning",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>På en planritning ligger ett förråd i \\(F(2,1)\\). Mittpunkten mellan förrådet och teamrummet är \\(M(6,4)\\).</p><p>Bestäm koordinaterna för teamrummet \\(T\\).</p>",
+    "s": "<p>Mittpunktsformeln ger</p><p>\\[\\frac{2+x_T}{2}=6,\\qquad \\frac{1+y_T}{2}=4.\\]</p><p>Därför är \\(x_T=10\\) och \\(y_T=7\\).</p><p><strong>\\(T=(10,7)\\).</strong></p>",
+    "familj": "vard_omsorgsprogrammet__mittpunkt_baklanges",
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      10,
+      7
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skriv först upp vad som är givet och vilken storhet som söks. Välj därefter den modell eller metod som passar sambandet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.52",
@@ -47873,10 +53356,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "19 personer på A och 15 på B",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      19,
+      15
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Definiera två variabler och skriv en ekvation för antalet och en för den totala mängden eller kostnaden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Enhet A",
+      "Enhet B"
+    ],
+    "svarEnhet": [
+      "personer",
+      "personer"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.53",
@@ -47885,8 +53394,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Dokumentationstiden för en viss typ av ärende kan beskrivas ungefär med en normalfördelning med medelvärdet 24 minuter och standardavvikelsen 4 minuter.</p><p>a) Mellan vilka tider ligger ungefär 95,4 % av ärendena?</p><p>b) Hur många av 500 ärenden motsvarar ungefär 95,4 %?</p><p>c) Ungefär hur många av 500 ärenden kan förväntas ta mer än 32 minuter enligt normalfördelningsfiguren?</p>",
     "s": "<p>a) Två standardavvikelser från medelvärdet ger \\(24\\pm2\\cdot4\\), alltså 16–32 minuter.</p><p>b) \\(0,954\\cdot500=477\\).</p><p>c) Området mer än två standardavvikelser över medelvärdet är ungefär 2,3 %. \\(0,023\\cdot500=11,5\\), alltså cirka 12 ärenden.</p><p><strong>16–32 min; cirka 477 ärenden i intervallet; cirka 12 över 32 min.</strong></p>",
     "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
@@ -47899,12 +53408,86 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "16–32 min",
-      "cirka 477 ärenden i intervallet",
-      "cirka 12 över 32 min"
+      16,
+      32,
+      477,
+      12
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Identifiera \\(\\mu\\) och \\(\\sigma\\). Använd formelbladets normalfördelningsfigur eller GeoGebra enligt uppgiften.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns",
+      "Inom intervallet",
+      "Över 32 min"
+    ],
+    "svarEnhet": [
+      "min",
+      "min",
+      "ärenden",
+      "ärenden"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Dokumentationstid: normalfördelad med \\(\\mu=24\\) min och \\(\\sigma=4\\) min. Totalt 500 ärenden.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm den nedre gränsen för intervallet som innehåller cirka 95,4 %.</p>",
+        "s": "<p>\\(24-2\\cdot4=16\\) min.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den övre gränsen.</p>",
+        "s": "<p>\\(24+2\\cdot4=32\\) min.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur många av 500 motsvarar 95,4 %?</p>",
+        "s": "<p>\\(0,954\\cdot500=477\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Ungefär hur många tar mer än 32 minuter?</p>",
+        "s": "<p>Övre svansen är cirka 2,3 %. \\(0,023\\cdot500\\approx12\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "5.54",
@@ -52233,5 +57816,2491 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.351",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken typ av fyrhörning har två par motstående sidor som är parallella?</p>",
+    "s": "<p>Det är definitionen av en parallellogram.</p><p><strong>Parallellogram.</strong></p>",
+    "familj": "geometriska_begrepp_definitioner__parallellogram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tänk på vilket ord som beskriver en fyrhörning med två par parallella motstående sidor.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Parallellogram",
+        "ratt": true
+      },
+      {
+        "txt": "Drake",
+        "ratt": false
+      },
+      {
+        "txt": "Godtycklig fyrhörning",
+        "ratt": false
+      },
+      {
+        "txt": "Triangel",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "3.352",
+    "kap": 3,
+    "omr": "sats_bevis",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En triangel har vinklarna \\(45^\\circ\\), \\(65^\\circ\\) och \\(x\\).</p><p>Bestäm \\(x\\).</p>",
+    "s": "<p>Triangelns vinkelsumma är \\(180^\\circ\\):</p><p>\\[x=180^\\circ-45^\\circ-65^\\circ=70^\\circ.\\]</p><p><strong>70°</strong></p>",
+    "familj": "sats_bevis__vinkelsumma_enkel",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>De tre inre vinklarna i en triangel har summan 180°.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.353",
+    "kap": 3,
+    "omr": "pythagoras",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rätvinklig triangel har kateterna 6 cm och 8 cm.</p><p>Bestäm hypotenusan.</p>",
+    "s": "<p>\\[c=\\sqrt{6^2+8^2}=\\sqrt{100}=10.\\]</p><p><strong>10 cm</strong></p>",
+    "familj": "pythagoras__grundtal",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Använd \\(a^2+b^2=c^2\\).</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.354",
+    "kap": 3,
+    "omr": "likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två trianglar är likformiga. Längdskalan från den mindre till den större är 2,5.</p><p>En sida i den mindre triangeln är 4 cm. Hur lång är motsvarande sida i den större?</p>",
+    "s": "<p>\\(4\\cdot2,5=10\\).</p><p><strong>10 cm</strong></p>",
+    "familj": "likformighet__enkel_langdskala",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Multiplicera längden i den mindre triangeln med längdskalan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.355",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En yttervinkel i en triangel är \\(132^\\circ\\). En av de motstående inre vinklarna är \\(57^\\circ\\).</p><p>Bestäm den andra motstående inre vinkeln.</p>",
+    "s": "<p>Yttervinkeln är summan av de två motstående inre vinklarna:</p><p>\\(132^\\circ-57^\\circ=75^\\circ\\).</p><p><strong>75°</strong></p>",
+    "familj": "yttervinkelsatsen__enkel_subtraktion",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Subtrahera den kända motstående vinkeln från yttervinkeln.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.356",
+    "kap": 3,
+    "omr": "implikation_ekvivalens",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Är följande implikation sann för reella \\(x\\)?</p><p>\\[x^2=16\\Rightarrow x=4\\]</p>",
+    "s": "<p>Nej. Även \\(x=-4\\) uppfyller \\(x^2=16\\). Ett motexempel räcker för att visa att implikationen är falsk.</p><p><strong>Falsk.</strong></p>",
+    "familj": "implikation_ekvivalens__motexempel_enkelt",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Finns det fler reella tal än 4 vars kvadrat är 16?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Sant",
+        "ratt": false
+      },
+      {
+        "txt": "Falskt",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "3.357",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten mellan \\(A=(-2,3)\\) och \\(B=(4,7)\\).</p>",
+    "s": "<p>\\[M=\\left(\\frac{-2+4}{2},\\frac{3+7}{2}\\right)=(1,5).\\]</p><p><strong>\\((1,5)\\)</strong></p>",
+    "familj": "avstandsformeln_mittpunktsformeln__mittpunkt_enkel",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna.</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "(1,5)",
+    "tolerans": null,
+    "självrättning": true
+  },
+  {
+    "id": "3.358",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan \\(A=(-3,2)\\) och \\(B=(5,2)\\).</p>",
+    "s": "<p>Punkterna har samma y-koordinat, så avståndet är skillnaden mellan x-koordinaterna:</p><p>\\(5-(-3)=8\\).</p><p><strong>8</strong></p>",
+    "familj": "avstandsformeln_mittpunktsformeln__horisontellt_avstand",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>När y-koordinaterna är lika är sträckan horisontell.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.359",
+    "kap": 3,
+    "omr": "topptriangel_transversal",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I triangeln är \\(DE\\parallel BC\\). Det gäller att \\(AD=4\\), \\(AB=10\\) och \\(AC=15\\).</p><p>Bestäm \\(AE\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"215\" y1=\"45\" x2=\"75\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"215\" y1=\"45\" x2=\"355\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"75\" y1=\"245\" x2=\"355\" y2=\"245\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"131\" y1=\"165\" x2=\"299\" y2=\"165\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"158\" y=\"119\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">AD=4</text><text x=\"91\" y=\"205\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">AB=10</text><text x=\"305\" y=\"116\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">AC=15</text><text x=\"306\" y=\"160\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">E</text><text x=\"119\" y=\"160\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">D</text><line x1=\"198\" y1=\"240\" x2=\"208\" y2=\"232\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"217\" y1=\"240\" x2=\"227\" y2=\"232\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"199\" y1=\"165\" x2=\"209\" y2=\"157\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"218\" y1=\"165\" x2=\"228\" y2=\"157\" stroke=\"#5F8F70\" stroke-width=\"2\" stroke-linecap=\"round\"/></svg></span>",
+    "s": "<p>Likformigheten ger</p><p>\\[\\frac{AD}{AB}=\\frac{AE}{AC}.\\]</p><p>\\[\\frac4{10}=\\frac{AE}{15}\\Rightarrow AE=6.\\]</p><p><strong>6</strong></p>",
+    "familj": "topptriangel_transversal__bestam_delstracka_ny",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Använd samma längdskala på de två sidorna: AD/AB = AE/AC.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.360",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två kordor skär varandra inne i en cirkel. Segmenten på den ena kordan är 2 och 6. På den andra är segmenten 3 och \\(x\\).</p><p>Bestäm \\(x\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"215\" cy=\"150\" r=\"110\" fill=\"none\" stroke=\"#403D43\" stroke-width=\"2.2\"/><line x1=\"105.45548849896677\" y1=\"160\" x2=\"324.54451150103324\" y2=\"160\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125.64763978038408\" y1=\"85.84272665407298\" x2=\"206.71273268689518\" y2=\"259.68737940383636\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"160.2277442494834\" cy=\"160\" r=\"4\" fill=\"#5F8F70\"/><text x=\"132.84161637422508\" y=\"148\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">2</text><text x=\"242.38612787525832\" y=\"148\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">6</text><text x=\"130.93769201493376\" y=\"122.92136332703649\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">3</text><text x=\"195.47023846818928\" y=\"209.84368970191818\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"500\" fill=\"#403D43\">x</text></svg></span>",
+    "s": "<p>Kordasatsen ger \\(2\\cdot6=3x\\). Alltså \\(12=3x\\) och \\(x=4\\).</p><p><strong>4</strong></p>",
+    "familj": "kordasatsen_biskarningssatsen__grundprodukt",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Produkten av segmenten på den ena kordan är lika med produkten på den andra.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.361",
+    "kap": 3,
+    "omr": "randvinkel_medelpunkt",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sträckan \\(AB\\) är diameter i cirkeln och den tredje punkten ligger på cirkeln.</p><p>Bestäm vinkeln \\(x\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"215\" cy=\"150\" r=\"90\" fill=\"none\" stroke=\"#403D43\" stroke-width=\"2.2\"/><line x1=\"125\" y1=\"150\" x2=\"305\" y2=\"150\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"125\" y1=\"150\" x2=\"215\" y2=\"60\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"215\" y1=\"60\" x2=\"305\" y2=\"150\" stroke=\"#403D43\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"215\" y=\"93\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"16\" font-weight=\"500\" fill=\"#403D43\">x</text><text x=\"115\" y=\"154\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">A</text><text x=\"316\" y=\"154\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"500\" fill=\"#403D43\">B</text></svg></span>",
+    "s": "<p>En randvinkel som står på en diameter är rät enligt Thales sats.</p><p><strong>\\(90^\\circ\\)</strong></p>",
+    "familj": "randvinkel_medelpunkt__thales_enkel",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>En halvcirkel motsvarar en medelpunktsvinkel på 180°. Randvinkeln är hälften så stor.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.362",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En triangel har hörnen \\(A=(0,0)\\), \\(B=(8,0)\\) och \\(C=(2,5)\\).</p><p>Bestäm triangelns area.</p>",
+    "s": "<p>AB kan användas som bas och har längden 8. Punkten C ligger 5 enheter över x-axeln, så höjden är 5.</p><p>\\[A=\\frac{8\\cdot5}{2}=20.\\]</p><p><strong>20 areaenheter</strong></p>",
+    "familj": "koordinatgeometri_problemlosning__area_ny",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Basen AB ligger på x-axeln. Använd C:s y-koordinat som höjd.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.191",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet av talen 4, 6, 8 och 10.</p>",
+    "s": "<p>Summan är 28. \\(28/4=7\\).</p><p><strong>7</strong></p>",
+    "familj": "lagesmatt__medelvarde_niva1",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Addera talen och dela summan med hur många tal det finns.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.192",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för det sorterade materialet 3, 4, 7, 9, 12.</p>",
+    "s": "<p>Det finns fem tal, så medianen är det mittersta talet.</p><p><strong>7</strong></p>",
+    "familj": "lagesmatt__median_niva1",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vid ett udda antal sorterade värden är medianen det mittersta värdet.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.193",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vad betyder det att ett resultat ligger på 25:e percentilen?</p>",
+    "s": "<p>Ungefär 25 % av resultaten ligger på eller under detta värde.</p>",
+    "familj": "kvartiler_percentiler__tolka_25_percentil",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>En percentil beskriver andelen resultat som ligger på eller under en gräns.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Ungefär 25 % av resultaten ligger på eller under värdet.",
+        "ratt": true
+      },
+      {
+        "txt": "Ungefär 25 % av resultaten ligger över värdet.",
+        "ratt": false
+      },
+      {
+        "txt": "Resultatet är 25 % av maxpoängen.",
+        "ratt": false
+      },
+      {
+        "txt": "Exakt 25 personer har lägre resultat.",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.194",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Läs av medianen i lådagrammet.</p><span class=\"fig smal\"><svg width=\"430\" height=\"260\" viewBox=\"0 0 430 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"70\" y1=\"205\" x2=\"360\" y2=\"205\" stroke=\"#6F6B72\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><line x1=\"70.0\" y1=\"200\" x2=\"70.0\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"70.0\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">2</text><line x1=\"111.42857142857142\" y1=\"200\" x2=\"111.42857142857142\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"111.42857142857142\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">4</text><line x1=\"152.85714285714283\" y1=\"200\" x2=\"152.85714285714283\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"152.85714285714283\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">6</text><line x1=\"194.28571428571428\" y1=\"200\" x2=\"194.28571428571428\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"194.28571428571428\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">8</text><line x1=\"235.7142857142857\" y1=\"200\" x2=\"235.7142857142857\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"235.7142857142857\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">10</text><line x1=\"277.1428571428571\" y1=\"200\" x2=\"277.1428571428571\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"277.1428571428571\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">12</text><line x1=\"318.57142857142856\" y1=\"200\" x2=\"318.57142857142856\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"318.57142857142856\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">14</text><line x1=\"360.0\" y1=\"200\" x2=\"360.0\" y2=\"210\" stroke=\"#6F6B72\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"360.0\" y=\"228\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" font-weight=\"500\" fill=\"#403D43\">16</text><line x1=\"70.0\" y1=\"150\" x2=\"152.85714285714283\" y2=\"150\" stroke=\"#3D6FB4\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"277.1428571428571\" y1=\"150\" x2=\"360.0\" y2=\"150\" stroke=\"#3D6FB4\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"70.0\" y1=\"137\" x2=\"70.0\" y2=\"163\" stroke=\"#3D6FB4\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"360.0\" y1=\"137\" x2=\"360.0\" y2=\"163\" stroke=\"#3D6FB4\" stroke-width=\"2\" stroke-linecap=\"round\"/><rect x=\"152.9\" y=\"125\" width=\"124.3\" height=\"50\" fill=\"#EEF3FA\" stroke=\"#3D6FB4\" stroke-width=\"2\"/><line x1=\"215.0\" y1=\"125\" x2=\"215.0\" y2=\"175\" stroke=\"#D65745\" stroke-width=\"2.2\" stroke-linecap=\"round\"/></svg></span>",
+    "s": "<p>Medianen markeras av linjen inne i lådan och ligger vid 9.</p><p><strong>9</strong></p>",
+    "familj": "ladagram__median_niva1",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Medianen är den markerade linjen inne i själva lådan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.195",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två material har samma medelvärde. Material A har standardavvikelsen 1,2 och material B standardavvikelsen 4,7.</p><p>Vilket material är mest samlat kring medelvärdet?</p>",
+    "s": "<p>Mindre standardavvikelse betyder mindre spridning kring medelvärdet.</p><p><strong>Material A.</strong></p>",
+    "familj": "standardavvikelse__jamfora_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför storleken på standardavvikelserna.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Material A",
+        "ratt": true
+      },
+      {
+        "txt": "Material B",
+        "ratt": false
+      },
+      {
+        "txt": "De är lika samlade",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.196",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En normalfördelning har medelvärdet 50 och standardavvikelsen 4.</p><p>Vilket värde ligger en standardavvikelse över medelvärdet?</p>",
+    "s": "<p>\\(50+4=54\\).</p><p><strong>54</strong></p>",
+    "familj": "normalfordelat_material__en_sigma_over",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>En standardavvikelse över medelvärdet är μ+σ.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 54,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.197",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En normalfördelning har medelvärdet 30 och standardavvikelsen 3.</p><p>Mellan vilka två värden ligger ungefär 68,2 % av observationerna?</p>",
+    "s": "<p>68,2 % ligger ungefär inom en standardavvikelse från medelvärdet.</p><p>\\(30-3=27\\) och \\(30+3=33\\).</p><p><strong>27 till 33.</strong></p>",
+    "familj": "normalfordelat_material__68_intervall",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>68,2 % motsvarar ungefär intervallet μ±σ.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      27,
+      33
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "4.198",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken typ av linjärt samband visar punktdiagrammet?</p><span class=\"fig smal\"><svg width=\"430\" height=\"280\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"65\" y1=\"230\" x2=\"370\" y2=\"230\" stroke=\"#77737A\" stroke-width=\"1.7\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"230\" x2=\"65\" y2=\"45\" stroke=\"#77737A\" stroke-width=\"1.7\" stroke-linecap=\"round\"/><circle cx=\"90\" cy=\"205\" r=\"4\" fill=\"#356CC0\"/><circle cx=\"125\" cy=\"190\" r=\"4\" fill=\"#356CC0\"/><circle cx=\"160\" cy=\"172\" r=\"4\" fill=\"#356CC0\"/><circle cx=\"198\" cy=\"155\" r=\"4\" fill=\"#356CC0\"/><circle cx=\"235\" cy=\"128\" r=\"4\" fill=\"#356CC0\"/><circle cx=\"274\" cy=\"112\" r=\"4\" fill=\"#356CC0\"/><circle cx=\"315\" cy=\"82\" r=\"4\" fill=\"#356CC0\"/></svg></span>",
+    "s": "<p>När x ökar tenderar y också att öka. Sambandet är positivt.</p><p><strong>Positivt linjärt samband.</strong></p>",
+    "familj": "linjar_regression__korrelation_riktning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Följ den övergripande riktningen från vänster till höger.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Positivt linjärt samband",
+        "ratt": true
+      },
+      {
+        "txt": "Negativt linjärt samband",
+        "ratt": false
+      },
+      {
+        "txt": "Inget tydligt samband",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.199",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett punktdiagram visar ett starkt negativt linjärt samband. Vilket värde på korrelationskoefficienten \\(r\\) är mest rimligt?</p>",
+    "s": "<p>Ett starkt negativt samband har \\(r\\) nära \\(-1\\).</p><p><strong>\\(r=-0,92\\)</strong></p>",
+    "familj": "korrelation_koefficient__tolka_r",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Negativt samband ger negativt r. Starkt samband ligger nära −1.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "\\(r=0,95\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(r=0,08\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(r=-0,92\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(r=-0,35\\)",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.200",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Fyra tal har medelvärdet 12. Tre av talen är 7, 10 och 14.</p><p>Bestäm det fjärde talet.</p>",
+    "s": "<p>Totalsumman ska vara \\(4\\cdot12=48\\). De kända talen summerar till 31.</p><p>\\(48-31=17\\).</p><p><strong>17</strong></p>",
+    "familj": "lagesmatt__saknat_varde_niva2",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Räkna först ut totalsumman som fyra tal med medelvärdet 12 måste ha.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.201",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett material har standardavvikelsen 3,5. Till varje värde adderas 10.</p><p>Vilken standardavvikelse får det nya materialet?</p>",
+    "s": "<p>När samma tal adderas till alla observationer flyttas hela materialet lika mycket. Spridningen förändras inte.</p><p><strong>3,5</strong></p>",
+    "familj": "standardavvikelse__forskjutning",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Fråga dig om avstånden mellan observationerna förändras när alla flyttas lika mycket.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.5,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.202",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en grupp med 300 resultat ligger ett resultat på den 90:e percentilen.</p><p>Ungefär hur många resultat ligger högre?</p>",
+    "s": "<p>Ungefär 10 % ligger högre. \\(0,10\\cdot300=30\\).</p><p><strong>Ungefär 30 resultat.</strong></p>",
+    "familj": "kvartiler_percentiler__antal_over_percentil",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Den 90:e percentilen lämnar ungefär 10 % av resultaten över gränsen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1.0,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.203",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medelvärdet av talen 5, 7, 9 och 11.</p>",
+    "s": "<p>Summan är 32 och \\(32/4=8\\).</p><p><strong>Svar: 8.</strong></p>",
+    "familj": "lagesmatt__medelvarde_niva1",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Addera talen och dela summan med antalet tal.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.204",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm medianen för talen 3, 5, 6, 10 och 12.</p>",
+    "s": "<p>Talen är redan sorterade. Det mittersta värdet är 6.</p><p><strong>Svar: 6.</strong></p>",
+    "familj": "lagesmatt__median_niva1",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Medianen är det mittersta värdet när talen står i storleksordning.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.205",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Talen 9, 11, 14 och \\(x\\) har medelvärdet 12. Bestäm \\(x\\).</p>",
+    "s": "<p>Totalsumman ska vara \\(4\\cdot12=48\\). De kända talen har summan 34, så \\(x=48-34=14\\).</p><p><strong>Svar: 14.</strong></p>",
+    "familj": "lagesmatt__saknat_varde_niva2",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vilken totalsumma krävs för att fyra tal ska ha medelvärdet 12?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.206",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En grupp med 8 elever har medelvärdet 15. En annan grupp med 12 elever har medelvärdet 20.</p><p>Bestäm medelvärdet för alla 20 elever tillsammans.</p>",
+    "s": "<p>Gruppernas summor är \\(8\\cdot15=120\\) och \\(12\\cdot20=240\\). Totalt blir det 360.</p><p>\\(360/20=18\\).</p><p><strong>Svar: 18.</strong></p>",
+    "familj": "lagesmatt__viktat_eller_sammanslaget_medelvarde",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Gå via respektive grupps totalsumma: antal · medelvärde.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.207",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev ligger på 90:e percentilen i ett test. Vad betyder det bäst?</p>",
+    "s": "<p>Den 90:e percentilen betyder att ungefär 90 % har samma eller lägre resultat.</p>",
+    "familj": "kvartiler_percentiler__percentiler",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Percentilen anger ungefär hur stor andel som ligger på eller under värdet.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Ungefär 90 % har samma eller lägre resultat",
+        "ratt": true
+      },
+      {
+        "txt": "Ungefär 10 % har samma eller lägre resultat",
+        "ratt": false
+      },
+      {
+        "txt": "Eleven fick 90 poäng",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.208",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Det sorterade materialet är 2, 4, 6, 8, 10, 12, 14, 16.</p><p>Bestäm kvartilavståndet.</p>",
+    "s": "<p>\\(Q_1=(4+6)/2=5\\) och \\(Q_3=(12+14)/2=13\\).</p><p>Kvartilavståndet är \\(13-5=8\\).</p><p><strong>Svar: 8.</strong></p>",
+    "familj": "kvartiler_percentiler__kvartiler_och_kvartilavstand",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Bestäm först medianen i den undre och övre halvan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.209",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Läs av medianen i lådagrammet.</p><span class=\"fig smal\"><svg width=\"430\" height=\"220\" viewBox=\"0 0 430 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lådagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#6F6B72\" stroke-width=\"1.4\"/><line x1=\"55.0\" y1=\"166\" x2=\"55.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"55.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">0</text><line x1=\"89.5\" y1=\"166\" x2=\"89.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"89.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">2</text><line x1=\"124.0\" y1=\"166\" x2=\"124.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"124.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">4</text><line x1=\"158.5\" y1=\"166\" x2=\"158.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"158.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">6</text><line x1=\"193.0\" y1=\"166\" x2=\"193.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"193.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">8</text><line x1=\"227.5\" y1=\"166\" x2=\"227.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"227.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">10</text><line x1=\"262.0\" y1=\"166\" x2=\"262.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"262.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">12</text><line x1=\"296.5\" y1=\"166\" x2=\"296.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"296.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">14</text><line x1=\"331.0\" y1=\"166\" x2=\"331.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"331.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">16</text><line x1=\"365.5\" y1=\"166\" x2=\"365.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"365.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">18</text><line x1=\"400.0\" y1=\"166\" x2=\"400.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"400.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">20</text><line x1=\"89.5\" y1=\"105\" x2=\"158.5\" y2=\"105\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"296.5\" y1=\"105\" x2=\"365.5\" y2=\"105\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"89.5\" y1=\"87\" x2=\"89.5\" y2=\"123\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"365.5\" y1=\"87\" x2=\"365.5\" y2=\"123\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"158.5\" y=\"77\" width=\"138.0\" height=\"56\" fill=\"#F7F6F7\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"227.5\" y1=\"77\" x2=\"227.5\" y2=\"133\" stroke=\"#2B2527\" stroke-width=\"2.4\"/></svg></span>",
+    "s": "<p>Medianlinjen ligger vid 10.</p><p><strong>Svar: 10.</strong></p>",
+    "familj": "ladagram__median_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Medianen markeras av linjen inne i lådan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.210",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lådagrammet har \\(Q_1=6\\) och \\(Q_3=14\\).</p><p>Bestäm kvartilavståndet.</p><span class=\"fig smal\"><svg width=\"430\" height=\"220\" viewBox=\"0 0 430 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lådagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#6F6B72\" stroke-width=\"1.4\"/><line x1=\"55.0\" y1=\"166\" x2=\"55.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"55.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">0</text><line x1=\"89.5\" y1=\"166\" x2=\"89.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"89.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">2</text><line x1=\"124.0\" y1=\"166\" x2=\"124.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"124.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">4</text><line x1=\"158.5\" y1=\"166\" x2=\"158.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"158.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">6</text><line x1=\"193.0\" y1=\"166\" x2=\"193.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"193.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">8</text><line x1=\"227.5\" y1=\"166\" x2=\"227.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"227.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">10</text><line x1=\"262.0\" y1=\"166\" x2=\"262.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"262.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">12</text><line x1=\"296.5\" y1=\"166\" x2=\"296.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"296.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">14</text><line x1=\"331.0\" y1=\"166\" x2=\"331.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"331.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">16</text><line x1=\"365.5\" y1=\"166\" x2=\"365.5\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"365.5\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">18</text><line x1=\"400.0\" y1=\"166\" x2=\"400.0\" y2=\"174\" stroke=\"#6F6B72\"/><text x=\"400.0\" y=\"194\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"12\" fill=\"#403D43\">20</text><line x1=\"89.5\" y1=\"105\" x2=\"158.5\" y2=\"105\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"296.5\" y1=\"105\" x2=\"365.5\" y2=\"105\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"89.5\" y1=\"87\" x2=\"89.5\" y2=\"123\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"365.5\" y1=\"87\" x2=\"365.5\" y2=\"123\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"158.5\" y=\"77\" width=\"138.0\" height=\"56\" fill=\"#F7F6F7\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"227.5\" y1=\"77\" x2=\"227.5\" y2=\"133\" stroke=\"#2B2527\" stroke-width=\"2.4\"/></svg></span>",
+    "s": "<p>\\(Q_3-Q_1=14-6=8\\).</p><p><strong>Svar: 8.</strong></p>",
+    "familj": "ladagram__avlas_ladagram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Kvartilavståndet är lådans bredd: \\(Q_3-Q_1\\).</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.211",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett material har standardavvikelsen 3,5. Alla värden ökas med 20.</p><p>Vad blir den nya standardavvikelsen?</p>",
+    "s": "<p>Alla värden flyttas lika mycket, så spridningen ändras inte.</p><p><strong>Svar: 3,5.</strong></p>",
+    "familj": "standardavvikelse__forskjutning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Att addera samma tal till alla värden flyttar materialet utan att ändra avstånden mellan värdena.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.212",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett material har standardavvikelsen 2,4. Alla värden multipliceras med 5.</p><p>Vad blir den nya standardavvikelsen?</p>",
+    "s": "<p>Standardavvikelsen multipliceras med samma positiva faktor: \\(2,4\\cdot5=12\\).</p><p><strong>Svar: 12.</strong></p>",
+    "familj": "standardavvikelse__forandring_av_standardavvikelse",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Alla avstånd från medelvärdet blir fem gånger så stora.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.213",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två grupper har samma medelvärde. Grupp A har standardavvikelsen 1,8 och grupp B 5,6.</p><p>Vilken grupp är mest samlad kring medelvärdet?</p>",
+    "s": "<p>Mindre standardavvikelse betyder mindre spridning.</p><p><strong>Grupp A.</strong></p>",
+    "familj": "standardavvikelse__jamfora_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför standardavvikelsernas storlek.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Grupp A",
+        "ratt": true
+      },
+      {
+        "txt": "Grupp B",
+        "ratt": false
+      },
+      {
+        "txt": "De är lika samlade",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.214",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En normalfördelning har medelvärdet 80 och standardavvikelsen 6.</p><p>Vilket värde ligger en standardavvikelse över medelvärdet?</p>",
+    "s": "<p>\\(80+6=86\\).</p><p><strong>Svar: 86.</strong></p>",
+    "familj": "normalfordelat_material__en_sigma_over",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna \\(\\mu+\\sigma\\).</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 86,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.215",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En normalfördelning har \\(\\mu=44\\) och \\(\\sigma=3\\).</p><p>Mellan vilka värden ligger ungefär 68,2 %?</p>",
+    "s": "<p>68,2 % ligger ungefär inom \\(\\mu\\pm\\sigma\\): \\(44-3=41\\) och \\(44+3=47\\).</p><p><strong>41 till 47.</strong></p>",
+    "familj": "normalfordelat_material__68_intervall",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>68,2 % motsvarar intervallet \\(\\mu\\pm\\sigma\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      41,
+      47
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning: \\(\\mu=44\\), \\(\\sigma=3\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm den nedre gränsen för 68,2 %-intervallet.</p>",
+        "s": "<p>44−3=41.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den övre gränsen.</p>",
+        "s": "<p>44+3=47.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
+  },
+  {
+    "id": "4.216",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En normalfördelning har \\(\\mu=100\\) och \\(\\sigma=10\\).</p><p>Mellan vilka värden ligger ungefär 95,4 %?</p>",
+    "s": "<p>95,4 % ligger ungefär inom \\(\\mu\\pm2\\sigma\\): 80 till 120.</p>",
+    "familj": "normalfordelat_material__andel_i_intervall",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>95,4 % motsvarar \\(\\mu\\pm2\\sigma\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      80,
+      120
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ]
+  },
+  {
+    "id": "4.217",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En normalfördelning har \\(\\mu=50\\) och \\(\\sigma=5\\).</p><p>Använd GeoGebra och bestäm \\(P(X&lt;55)\\). Svara i procent med en decimal.</p>",
+    "s": "<p>55 ligger en standardavvikelse över medelvärdet. Sannolikhetskalkylatorn ger cirka 84,1 %.</p>",
+    "familj": "normalfordelning_digitala_verktyg__berakna_sannolikhet_over_under",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj Normal i Sannolikhetskalkylatorn och markera området till vänster om 55.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.1,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.218",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En normalfördelning har \\(\\mu=60\\) och \\(\\sigma=8\\).</p><p>Bestäm 90:e percentilen med GeoGebra. Svara med en decimal.</p>",
+    "s": "<p>Den 90:e percentilen är cirka 70,3.</p>",
+    "familj": "normalfordelning_digitala_verktyg__bestam_gransvarde_fran_sannolikhet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ange vänsterarean 0,90 i Sannolikhetskalkylatorn.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 70.3,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.219",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punktdiagrammet visas nedan.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktdiagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55\" y1=\"255\" x2=\"400\" y2=\"255\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"255\" x2=\"55\" y2=\"25\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><circle cx=\"89.5\" cy=\"220.5\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"124.0\" cy=\"199.8\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"158.5\" cy=\"186.0\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"193.0\" cy=\"160.7\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"227.5\" cy=\"140.0\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"262.0\" cy=\"123.9\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"296.5\" cy=\"91.7\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"331.0\" cy=\"75.6\" r=\"4.5\" fill=\"#403D43\"/><circle cx=\"365.5\" cy=\"48.0\" r=\"4.5\" fill=\"#403D43\"/></svg></span><p>Vilket värde är rimligast för korrelationskoefficienten?</p>",
+    "s": "<p>Punkterna ligger nära en stigande rät linje, så \\(r\\) bör vara nära 1.</p><p><strong>0,93 är rimligast.</strong></p>",
+    "familj": "korrelation_koefficient__uppskatta_r_fran_diagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Bedöm både riktningen och hur nära en rät linje punkterna ligger.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "−0,93",
+        "ratt": false
+      },
+      {
+        "txt": "0,12",
+        "ratt": false
+      },
+      {
+        "txt": "0,93",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "4.220",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett datamaterial har \\(r=-0,85\\). Vilken beskrivning passar bäst?</p>",
+    "s": "<p>\\(r\\) ligger nära −1, vilket betyder ett starkt negativt linjärt samband.</p>",
+    "familj": "korrelation_koefficient__tolka_r",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Tecknet anger riktningen och \\(|r|\\) anger styrkan.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Starkt negativt linjärt samband",
+        "ratt": true
+      },
+      {
+        "txt": "Starkt positivt linjärt samband",
+        "ratt": false
+      },
+      {
+        "txt": "Mycket svagt linjärt samband",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.221",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två datamaterial har \\(r=0,95\\) respektive \\(r=-0,95\\).</p><p>Vilket påstående är korrekt?</p>",
+    "s": "<p>Absolutbeloppen är lika stora, så de linjära sambanden är ungefär lika starka men har motsatt riktning.</p>",
+    "familj": "korrelation_koefficient__jamfora_korrelationsstyrka",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför först \\(|r|\\), sedan tecknen.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Sambanden är ungefär lika starka men har motsatt riktning",
+        "ratt": true
+      },
+      {
+        "txt": "Det positiva sambandet är starkare",
+        "ratt": false
+      },
+      {
+        "txt": "Det negativa sambandet är svagare",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.222",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionsmodell är \\(y=2,5x+6\\).</p><p>Bestäm modellens värde när \\(x=4\\).</p>",
+    "s": "<p>\\(y=2,5\\cdot4+6=16\\).</p><p><strong>Svar: 16.</strong></p>",
+    "familj": "linjar_regression__anvanda_regressionsmodell_for_prognos",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Sätt in \\(x=4\\) i modellen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.223",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En plants höjd modelleras med \\(h(t)=1,8t+12\\), där \\(t\\) mäts i veckor och \\(h\\) i cm.</p><p>Vad betyder talet 1,8?</p>",
+    "s": "<p>Modellen beskriver en ökning med 1,8 cm per vecka.</p>",
+    "familj": "linjar_regression__tolka_regressionskoefficienter",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I en linjär modell anger lutningen förändringen i y när x ökar med 1.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Höjden ökar med ungefär 1,8 cm per vecka",
+        "ratt": true
+      },
+      {
+        "txt": "Startvärdet är 1,8 cm",
+        "ratt": false
+      },
+      {
+        "txt": "Efter 1,8 veckor är höjden 0 cm",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.224",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionsmodell bygger på mätvärden för \\(2\\le x\\le10\\).</p><p>Vilket x-värde ger en interpolation?</p>",
+    "s": "<p>Interpolation sker inom mätintervallet. Av alternativen ligger 7 där.</p>",
+    "familj": "linjar_regression__extrapolation_och_modellbegransning",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Interpolation betyder att x ligger inom intervallet där mätdata finns.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "x=7",
+        "ratt": true
+      },
+      {
+        "txt": "x=0",
+        "ratt": false
+      },
+      {
+        "txt": "x=15",
+        "ratt": false
+      },
+      {
+        "txt": "x=25",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.225",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En taxikostnad modelleras med \\(y=18x+45\\), där \\(x\\) är körsträckan i km och \\(y\\) kostnaden i kronor.</p><p>Vad betyder konstanten 45?</p>",
+    "s": "<p>När \\(x=0\\) är \\(y=45\\). Det är modellens fasta startavgift.</p>",
+    "familj": "linjar_regression__tolka_regressionskoefficienter",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Konstanttermen är modellens y-värde när x=0.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "En fast startavgift på 45 kr",
+        "ratt": true
+      },
+      {
+        "txt": "Kostnaden ökar med 45 kr per kilometer",
+        "ratt": false
+      },
+      {
+        "txt": "Taxin kör 45 km",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.226",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kurvorna A och B har samma medelvärde.</p><span class=\"fig smal\"><svg width=\"430\" height=\"260\" viewBox=\"0 0 430 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två normalfördelningskurvor\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"45\" y1=\"205\" x2=\"400\" y2=\"205\" stroke=\"#6F6B72\" stroke-width=\"1.4\"/><path d=\"M 45.0,205.0 L 48.0,205.0 L 50.9,205.0 L 53.9,205.0 L 56.8,204.9 L 59.8,204.9 L 62.8,204.9 L 65.7,204.9 L 68.7,204.8 L 71.6,204.8 L 74.6,204.7 L 77.5,204.6 L 80.5,204.5 L 83.5,204.4 L 86.4,204.2 L 89.4,204.0 L 92.3,203.8 L 95.3,203.5 L 98.2,203.2 L 101.2,202.8 L 104.2,202.3 L 107.1,201.7 L 110.1,201.0 L 113.0,200.1 L 116.0,199.2 L 119.0,198.1 L 121.9,196.8 L 124.9,195.3 L 127.8,193.6 L 130.8,191.6 L 133.8,189.4 L 136.7,187.0 L 139.7,184.3 L 142.6,181.2 L 145.6,177.9 L 148.5,174.2 L 151.5,170.3 L 154.5,166.0 L 157.4,161.4 L 160.4,156.4 L 163.3,151.2 L 166.3,145.8 L 169.2,140.1 L 172.2,134.2 L 175.2,128.2 L 178.1,122.0 L 181.1,115.8 L 184.0,109.7 L 187.0,103.6 L 190.0,97.6 L 192.9,91.9 L 195.9,86.4 L 198.8,81.3 L 201.8,76.6 L 204.8,72.4 L 207.7,68.7 L 210.7,65.6 L 213.6,63.2 L 216.6,61.4 L 219.5,60.4 L 222.5,60.0 L 225.5,60.4 L 228.4,61.4 L 231.4,63.2 L 234.3,65.6 L 237.3,68.7 L 240.2,72.4 L 243.2,76.6 L 246.2,81.3 L 249.1,86.4 L 252.1,91.9 L 255.0,97.6 L 258.0,103.6 L 261.0,109.7 L 263.9,115.8 L 266.9,122.0 L 269.8,128.2 L 272.8,134.2 L 275.8,140.1 L 278.7,145.8 L 281.7,151.2 L 284.6,156.4 L 287.6,161.4 L 290.5,166.0 L 293.5,170.3 L 296.5,174.2 L 299.4,177.9 L 302.4,181.2 L 305.3,184.3 L 308.3,187.0 L 311.2,189.4 L 314.2,191.6 L 317.2,193.6 L 320.1,195.3 L 323.1,196.8 L 326.0,198.1 L 329.0,199.2 L 332.0,200.1 L 334.9,201.0 L 337.9,201.7 L 340.8,202.3 L 343.8,202.8 L 346.8,203.2 L 349.7,203.5 L 352.7,203.8 L 355.6,204.0 L 358.6,204.2 L 361.5,204.4 L 364.5,204.5 L 367.5,204.6 L 370.4,204.7 L 373.4,204.8 L 376.3,204.8 L 379.3,204.9 L 382.2,204.9 L 385.2,204.9 L 388.2,204.9 L 391.1,205.0 L 394.1,205.0 L 397.0,205.0 L 400.0,205.0\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><path d=\"M 45.0,197.9 L 48.0,197.2 L 50.9,196.5 L 53.9,195.8 L 56.8,195.0 L 59.8,194.2 L 62.8,193.3 L 65.7,192.4 L 68.7,191.4 L 71.6,190.4 L 74.6,189.3 L 77.5,188.1 L 80.5,186.9 L 83.5,185.6 L 86.4,184.3 L 89.4,182.9 L 92.3,181.4 L 95.3,179.9 L 98.2,178.3 L 101.2,176.6 L 104.2,174.9 L 107.1,173.2 L 110.1,171.4 L 113.0,169.5 L 116.0,167.6 L 119.0,165.6 L 121.9,163.6 L 124.9,161.6 L 127.8,159.5 L 130.8,157.4 L 133.8,155.3 L 136.7,153.1 L 139.7,150.9 L 142.6,148.8 L 145.6,146.6 L 148.5,144.4 L 151.5,142.2 L 154.5,140.1 L 157.4,137.9 L 160.4,135.8 L 163.3,133.8 L 166.3,131.7 L 169.2,129.7 L 172.2,127.8 L 175.2,126.0 L 178.1,124.2 L 181.1,122.5 L 184.0,120.9 L 187.0,119.3 L 190.0,117.9 L 192.9,116.6 L 195.9,115.4 L 198.8,114.3 L 201.8,113.3 L 204.8,112.4 L 207.7,111.7 L 210.7,111.1 L 213.6,110.6 L 216.6,110.3 L 219.5,110.1 L 222.5,110.0 L 225.5,110.1 L 228.4,110.3 L 231.4,110.6 L 234.3,111.1 L 237.3,111.7 L 240.2,112.4 L 243.2,113.3 L 246.2,114.3 L 249.1,115.4 L 252.1,116.6 L 255.0,117.9 L 258.0,119.3 L 261.0,120.9 L 263.9,122.5 L 266.9,124.2 L 269.8,126.0 L 272.8,127.8 L 275.8,129.7 L 278.7,131.7 L 281.7,133.8 L 284.6,135.8 L 287.6,137.9 L 290.5,140.1 L 293.5,142.2 L 296.5,144.4 L 299.4,146.6 L 302.4,148.8 L 305.3,150.9 L 308.3,153.1 L 311.2,155.3 L 314.2,157.4 L 317.2,159.5 L 320.1,161.6 L 323.1,163.6 L 326.0,165.6 L 329.0,167.6 L 332.0,169.5 L 334.9,171.4 L 337.9,173.2 L 340.8,174.9 L 343.8,176.6 L 346.8,178.3 L 349.7,179.9 L 352.7,181.4 L 355.6,182.9 L 358.6,184.3 L 361.5,185.6 L 364.5,186.9 L 367.5,188.1 L 370.4,189.3 L 373.4,190.4 L 376.3,191.4 L 379.3,192.4 L 382.2,193.3 L 385.2,194.2 L 388.2,195.0 L 391.1,195.8 L 394.1,196.5 L 397.0,197.2 L 400.0,197.9\" fill=\"none\" stroke=\"#8B878D\" stroke-width=\"2.2\"/><text x=\"204.5\" y=\"45\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">A</text><text x=\"314.5\" y=\"126\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#6F6B72\">B</text></svg></span><p>Vilken kurva har minst standardavvikelse?</p>",
+    "s": "<p>Kurva A är smalare och mer koncentrerad kring medelvärdet. Därför har A mindre standardavvikelse.</p>",
+    "familj": "normalfordelat_material__andel_utanfor_tva_sigma",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Mindre standardavvikelse ger en smalare och högre normalfördelningskurva.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Kurva A",
+        "ratt": true
+      },
+      {
+        "txt": "Kurva B",
+        "ratt": false
+      },
+      {
+        "txt": "De har samma standardavvikelse",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.227",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett datamaterial har korrelationskoefficienten \\(r=-0,63\\). Är det linjära sambandet positivt eller negativt?</p>",
+    "s": "<p>Tecknet är negativt, alltså är sambandet negativt.</p><p><strong>Negativt.</strong></p>",
+    "familj": "korrelation_koefficient__tecken_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Titta först på tecknet framför \\(r\\).</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Positivt",
+        "ratt": false
+      },
+      {
+        "txt": "Negativt",
+        "ratt": true
+      },
+      {
+        "txt": "Det går inte att avgöra",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.228",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket samband är starkast: \\(r=0,42\\) eller \\(r=-0,81\\)?</p>",
+    "s": "<p>Styrkan avgörs av \\(|r|\\). Eftersom \\(0,81>0,42\\) är \\(r=-0,81\\) starkast.</p>",
+    "familj": "korrelation_koefficient__jamfora_absolutbelopp",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Jämför avståndet till 0, alltså \\(|r|\\).</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "r=0,42",
+        "ratt": false
+      },
+      {
+        "txt": "r=−0,81",
+        "ratt": true
+      },
+      {
+        "txt": "De är lika starka",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "4.229",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En regressionsmodell är \\(y=3,5x+12\\). Bestäm modellvärdet när \\(x=4\\).</p>",
+    "s": "<p>\\(y=3,5\\cdot4+12=26\\).</p><p><strong>26.</strong></p>",
+    "familj": "linjar_regression__berakna_modellvarde_niva1",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Sätt in \\(x=4\\) i modellen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.230",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En modell ger \\(y=52\\) för ett visst \\(x\\)-värde. Det uppmätta värdet är 49. Bestäm skillnaden mätvärde − modellvärde.</p>",
+    "s": "<p>\\(49-52=-3\\).</p><p><strong>Skillnaden är −3.</strong></p>",
+    "familj": "linjar_regression__residual_niva2",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ta mätvärdet minus modellvärdet i den ordningen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.231",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En normalfördelning har \\(\\mu=60\\) och \\(\\sigma=7\\). Mellan vilka värden ligger ungefär 68,2 %?</p>",
+    "s": "<p>68,2 % ligger mellan \\(\\mu-\\sigma\\) och \\(\\mu+\\sigma\\): \\(53\\) till \\(67\\).</p>",
+    "familj": "normalfordelat_material__68_intervall_niva1",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Gå en standardavvikelse åt varje håll från medelvärdet.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      53,
+      67
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
+  },
+  {
+    "id": "4.232",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en normalfördelning ligger gränsen \\(\\mu+\\sigma\\) vid 84. Ungefär hur stor andel ligger över 84?</p>",
+    "s": "<p>Över \\(\\mu+\\sigma\\) ligger ungefär \\(15,9\\%\\).</p>",
+    "familj": "normalfordelat_material__en_svans_niva2",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Använd normalfördelningsfiguren: hur stor del ligger till höger om \\(\\mu+\\sigma\\)?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.9,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.233",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev ligger på 75:e percentilen. Ungefär hur stor andel av resultaten ligger på eller under elevens resultat?</p>",
+    "s": "<p>75:e percentilen betyder att ungefär 75 % ligger på eller under värdet.</p>",
+    "familj": "kvartiler_percentiler__tolka_percentil_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Percentiltalet anger ungefär andelen som ligger på eller under värdet.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.234",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett material har \\(Q_1=14\\) och \\(Q_3=23\\). Bestäm kvartilavståndet.</p>",
+    "s": "<p>\\(23-14=9\\).</p><p><strong>Kvartilavståndet är 9.</strong></p>",
+    "familj": "kvartiler_percentiler__kvartilavstand_niva1",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Kvartilavståndet är \\(Q_3-Q_1\\).</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.235",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett material har standardavvikelsen 4,5. Alla värden ökas med 20. Vad blir den nya standardavvikelsen?</p>",
+    "s": "<p>Att lägga till samma tal till alla värden flyttar materialet men ändrar inte spridningen.</p><p><strong>4,5.</strong></p>",
+    "familj": "standardavvikelse__forskjutning_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Påverkas avstånden mellan värdena om alla flyttas lika mycket?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.236",
+    "kap": 4,
+    "omr": "standardavvikelse",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett material har standardavvikelsen 3,2. Alla värden multipliceras med 2. Vad blir den nya standardavvikelsen?</p>",
+    "s": "<p>Standardavvikelsen multipliceras med samma positiva skalfaktor: \\(2\\cdot3,2=6,4\\).</p>",
+    "familj": "standardavvikelse__skalning_niva2",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>När alla avstånd från medelvärdet fördubblas gör standardavvikelsen det också.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.237",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En normalfördelning har \\(\\mu=50\\) och \\(\\sigma=10\\). Bestäm med GeoGebra andelen som ligger under 60.</p>",
+    "s": "<p>I sannolikhetskalkylatorn blir \\(P(X<60)\\approx0,8413\\), alltså cirka 84,1 %.</p>",
+    "familj": "normalfordelning_digitala_verktyg__sannolikhet_niva2",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Välj normalfördelning och markera arean till vänster om 60.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 84.1,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.238",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket värde är rimligast för korrelationskoefficienten?</p><div class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Punktdiagram med tydligt positivt linjärt samband\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"89.5\" y1=\"25\" x2=\"89.5\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"124.0\" y1=\"25\" x2=\"124.0\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"158.5\" y1=\"25\" x2=\"158.5\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"25\" x2=\"193.0\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"227.5\" y1=\"25\" x2=\"227.5\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"262.0\" y1=\"25\" x2=\"262.0\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"296.5\" y1=\"25\" x2=\"296.5\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"331.0\" y1=\"25\" x2=\"331.0\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"365.5\" y1=\"25\" x2=\"365.5\" y2=\"255\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"232.0\" x2=\"400\" y2=\"232.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"209.0\" x2=\"400\" y2=\"209.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"186.0\" x2=\"400\" y2=\"186.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"163.0\" x2=\"400\" y2=\"163.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"140.0\" x2=\"400\" y2=\"140.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"117.0\" x2=\"400\" y2=\"117.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"94.0\" x2=\"400\" y2=\"94.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"71.0\" x2=\"400\" y2=\"71.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"48.0\" x2=\"400\" y2=\"48.0\" stroke=\"#ECEAEC\" stroke-width=\"1\"/><line x1=\"55\" y1=\"255\" x2=\"400\" y2=\"255\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"25\" x2=\"55\" y2=\"255\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><circle cx=\"89.5\" cy=\"209.0\" r=\"4.5\" fill=\"#3D6FB4\"/><circle cx=\"124.0\" cy=\"190.6\" r=\"4.5\" fill=\"#3D6FB4\"/><circle cx=\"158.5\" cy=\"160.7\" r=\"4.5\" fill=\"#3D6FB4\"/><circle cx=\"193.0\" cy=\"149.2\" r=\"4.5\" fill=\"#3D6FB4\"/><circle cx=\"227.5\" cy=\"119.3\" r=\"4.5\" fill=\"#3D6FB4\"/><circle cx=\"262.0\" cy=\"105.5\" r=\"4.5\" fill=\"#3D6FB4\"/><circle cx=\"296.5\" cy=\"75.6\" r=\"4.5\" fill=\"#3D6FB4\"/><circle cx=\"331.0\" cy=\"61.8\" r=\"4.5\" fill=\"#3D6FB4\"/></svg></div>",
+    "s": "<p>Punkterna ligger nära en stigande rät linje. Ett positivt värde nära 1 är därför rimligt.</p><p><strong>0,96.</strong></p>",
+    "familj": "korrelation_koefficient__uppskatta_r_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Bedöm först riktningen och sedan hur tätt punkterna ligger kring en rät linje.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "−0,96",
+        "ratt": false
+      },
+      {
+        "txt": "0,08",
+        "ratt": false
+      },
+      {
+        "txt": "0,96",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "5.137",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett företags omsättning ökar med 6 % per år. Vilken förändringsfaktor används i en exponentialmodell?</p>",
+    "s": "<p>En ökning med 6 % ger förändringsfaktorn \\(1+0,06=1,06\\).</p>",
+    "familj": "ekonomiprogrammet__forandringsfaktor_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vid ökning adderas procenttalet, skrivet i decimalform, till 1.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.06,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.138",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En produkt säljs för 60 kr. Den rörliga kostnaden är 35 kr per enhet och de fasta kostnaderna är 5 000 kr.</p><p>Ställ upp en linjär vinstmodell \\(V(x)\\) där \\(x\\) är antal sålda enheter.</p>",
+    "s": "<p>Täckningsbidraget per enhet är \\(60-35=25\\) kr. De fasta kostnaderna dras av:</p><p>\\[V(x)=25x-5000.\\]</p>",
+    "familj": "ekonomiprogrammet__linjar_vinstmodell_niva2",
+    "formaga": [
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först hur mycket varje såld enhet bidrar med efter den rörliga kostnaden.</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "25x-5000",
+    "tolerans": null,
+    "självrättning": true
+  },
+  {
+    "id": "5.139",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ordervärden är ungefär normalfördelade med medelvärdet 10 000 kr och standardavvikelsen 1 500 kr. Mellan vilka värden ligger ungefär 68,2 %?</p>",
+    "s": "<p>\\(10000\\pm1500\\) ger intervallet 8 500–11 500 kr.</p>",
+    "familj": "ekonomiprogrammet__normalfordelning_68_niva1",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>68,2 % motsvarar en standardavvikelse åt varje håll.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      8500,
+      11500
+    ],
+    "tolerans": [
+      1,
+      1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ]
+  },
+  {
+    "id": "5.140",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En vinstmodell är skriven på formen</p><p>\\[V(p)=-8(p-45)^2+9200.\\]</p><p>Vilket pris ger modellens största vinst?</p>",
+    "s": "<p>Kvadraten är minst 0 när \\(p=45\\). Då blir \\(V\\) som störst.</p><p><strong>45 kr.</strong></p>",
+    "familj": "ekonomiprogrammet__andragradsfunktion_vertex_niva2",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I formen \\(a(p-h)^2+k\\) ligger extrempunkten vid \\(p=h\\).</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "5.141",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Mellan pris och antal sålda enheter är korrelationskoefficienten \\(r=-0,72\\). Vilken riktning har det linjära sambandet?</p>",
+    "s": "<p>Eftersom \\(r<0\\) är sambandet negativt.</p>",
+    "familj": "ekonomiprogrammet__korrelation_tecken_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Titta på tecknet framför korrelationskoefficienten.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Positivt",
+        "ratt": false
+      },
+      {
+        "txt": "Negativt",
+        "ratt": true
+      },
+      {
+        "txt": "Inget samband",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "5.142",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En butik säljer totalt 30 abonnemang av två slag. Bas kostar 100 kr och Premium 150 kr. Dagens intäkt är 3 600 kr. Hur många Premium-abonnemang såldes?</p>",
+    "s": "<p>Låt \\(y\\) vara antal Premium. Då är Bas \\(30-y\\).</p><p>\\[100(30-y)+150y=3600\\Rightarrow50y=600\\Rightarrow y=12.\\]</p>",
+    "familj": "ekonomiprogrammet__ekvationssystem_niva2",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Uttryck antalet Bas som \\(30-y\\) och använd den totala intäkten.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "abonnemang"
+  },
+  {
+    "id": "5.143",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Batterinivån i ett hjälpmedel minskar med 8 % per timme enligt en förenklad modell. Vilken förändringsfaktor används?</p>",
+    "s": "<p>Vid en minskning med 8 % blir förändringsfaktorn \\(1-0,08=0,92\\).</p>",
+    "familj": "vard_omsorgsprogrammet__forandringsfaktor_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vid minskning subtraheras procenttalet, skrivet i decimalform, från 1.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.92,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "5.144",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En väntetid är ungefär normalfördelad med medelvärdet 20 minuter och standardavvikelsen 3 minuter. Mellan vilka tider ligger ungefär 95,4 %?</p>",
+    "s": "<p>95,4 % ligger inom två standardavvikelser: \\(20\\pm6\\), alltså 14–26 minuter.</p>",
+    "familj": "vard_omsorgsprogrammet__normalfordelning_95_niva1",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Gå två standardavvikelser åt varje håll från medelvärdet.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      26
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "min",
+      "min"
+    ]
+  },
+  {
+    "id": "5.145",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En modell för den totala dokumentationstiden är \\(T(n)=12n+25\\), där \\(n\\) är antal ärenden. Hur mycket ökar modellens tid när ett ärende tillkommer?</p>",
+    "s": "<p>Riktningskoefficienten är 12, alltså ökar modellvärdet med 12 minuter per extra ärende.</p>",
+    "familj": "vard_omsorgsprogrammet__linjar_modell_lutning_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Vilket tal multipliceras med \\(n\\)?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "min"
+  },
+  {
+    "id": "5.146",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En rektangulär aktivitetsyta har omkretsen 24 m. Om ena sidan är \\(x\\) meter är den andra \\(12-x\\) meter.</p><div class=\"fig smal\"><svg width=\"430\" height=\"260\" viewBox=\"0 0 430 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel med sidor x och 12 minus x\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<rect x=\"95\" y=\"55\" width=\"240\" height=\"145\" fill=\"#EEF3FA\" stroke=\"#3D6FB4\" stroke-width=\"2.5\"/>\n<text x=\"215\" y=\"225\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"16\" fill=\"#403D43\">x</text>\n<text x=\"62\" y=\"132\" text-anchor=\"middle\" font-family=\"system-ui,sans-serif\" font-size=\"15\" fill=\"#403D43\">12−x</text>\n</svg></div><p>Bestäm det värde på \\(x\\) som ger största area.</p>",
+    "s": "<p>Arean är \\(A(x)=x(12-x)=-x^2+12x\\). Symmetrilinjen är \\(x=6\\).</p><p><strong>\\(x=6\\) m.</strong></p>",
+    "familj": "vard_omsorgsprogrammet__andragradsfunktion_max_niva2",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ställ upp arean \\(A(x)=x(12-x)\\) och bestäm parabelns symmetrilinje.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "5.147",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett omsorgsteam planerar 20 besök. Ett kort besök tar 15 minuter och ett långt besök 30 minuter. Den totala besökstiden är 390 minuter. Hur många långa besök planeras?</p>",
+    "s": "<p>Låt \\(y\\) vara antal långa besök. Då är \\(20-y\\) korta.</p><p>\\[15(20-y)+30y=390\\Rightarrow15y=90\\Rightarrow y=6.\\]</p>",
+    "familj": "vard_omsorgsprogrammet__ekvationssystem_niva2",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Uttryck antalet korta besök som \\(20-y\\).</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "besök"
+  },
+  {
+    "id": "5.148",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>På en planritning ligger två punkter i \\(A(2,2)\\) och \\(B(8,8)\\).</p><div class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem med två punkter\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<line x1=\"60\" y1=\"250\" x2=\"390\" y2=\"250\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/>\n<line x1=\"60\" y1=\"250\" x2=\"60\" y2=\"30\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/>\n<circle cx=\"126\" cy=\"206\" r=\"5\" fill=\"#3D6FB4\"/><text x=\"136\" y=\"201\" font-family=\"system-ui,sans-serif\" font-size=\"14\">A(2,2)</text>\n<circle cx=\"324\" cy=\"74\" r=\"5\" fill=\"#D65745\"/><text x=\"278\" y=\"61\" font-family=\"system-ui,sans-serif\" font-size=\"14\">B(8,8)</text>\n</svg></div><p>Bestäm mittpunkten mellan A och B.</p>",
+    "s": "<p>Mittpunkten är \\(\\left(\\frac{2+8}{2},\\frac{2+8}{2}\\right)=(5,5)\\).</p>",
+    "familj": "vard_omsorgsprogrammet__mittpunkt_niva2",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna var för sig.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   }
 ];

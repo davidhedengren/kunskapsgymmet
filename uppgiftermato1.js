@@ -56562,7 +56562,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"116.4\" y1=\"18\" x2=\"116.4\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"184.9\" y1=\"18\" x2=\"184.9\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"253.3\" y1=\"18\" x2=\"253.3\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"321.8\" y1=\"18\" x2=\"321.8\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 184.9,106.3 321.8,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"184.9\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"190.9\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(4,4)</text><circle cx=\"321.8\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"327.8\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(8,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnpunkterna \\((0,0)\\), \\((0,6)\\), \\((4,4)\\), \\((8,0)\\). Målfunktionen är \\(Z=3x+2y\\). Bestäm det största värdet av \\(Z\\).</p>",
-    "s": "<p>För en linjär målfunktion räcker det att jämföra hörnpunkterna.</p><p>Värdena av (Z=3x+2y) blir (0) i ((0,0)), (12) i ((0,6)), (20) i ((4,4)), (24) i ((8,0)).</p><p><strong>Svar:</strong> största värdet är (24), i hörnpunkten ((8,0)).</p>",
+    "s": "<p>Beräkna målfunktionen i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,6)=12,\\quad Z(4,4)=20,\\quad Z(8,0)=24.\\]</p><p><strong>Svar:</strong> Det största värdet är \\(24\\).</p>",
     "familj": "Optimera en målfunktion grafiskt",
     "geogebra": false,
     "miniräknare": false,
@@ -56572,7 +56572,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Beräkna målfunktionen i varje markerad hörnpunkt. Det största av dessa värden är maximum.</p>",
@@ -56589,24 +56589,38 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"155.3\" x2=\"356\" y2=\"155.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"18.0\" x2=\"356\" y2=\"18.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,52.3 163.5,52.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"52.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"46.3\" font-size=\"10\" fill=\"currentColor\">(0,5)</text><circle cx=\"163.5\" cy=\"52.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"169.5\" y=\"46.3\" font-size=\"10\" fill=\"currentColor\">(3,5)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnpunkterna \\((0,0)\\), \\((0,5)\\), \\((3,5)\\), \\((7,0)\\). Målfunktionen är \\(Z=4x+y\\). Bestäm det största värdet av \\(Z\\).</p>",
-    "s": "<p>För en linjär målfunktion räcker det att jämföra hörnpunkterna.</p><p>Värdena av (Z=4x+y) blir (0) i ((0,0)), (5) i ((0,5)), (17) i ((3,5)), (28) i ((7,0)).</p><p><strong>Svar:</strong> största värdet är (28), i hörnpunkten ((7,0)).</p>",
-    "familj": "Optimera en målfunktion grafiskt",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"155.3\" x2=\"356\" y2=\"155.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"18.0\" x2=\"356\" y2=\"18.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,52.3 163.5,52.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"52.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"46.3\" font-size=\"10\" fill=\"currentColor\">(0,5)</text><circle cx=\"163.5\" cy=\"52.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"169.5\" y=\"46.3\" font-size=\"10\" fill=\"currentColor\">(3,5)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0,5)\\), \\((3,5)\\) och \\((7,0)\\). Målfunktionen är \\(Z=4x+y\\).</p><p>Bestäm koordinaterna för den hörnpunkt där \\(Z\\) blir störst.</p>",
+    "s": "<p>Jämför målfunktionen i hörnpunkterna:</p><p>\\[Z(0,0)=0,\\quad Z(0,5)=5,\\quad Z(3,5)=17,\\quad Z(7,0)=28.\\]</p><p><strong>Svar:</strong> Maximum fås i \\((7,0)\\).</p>",
+    "familj": "Bestäm optimal hörnpunkt grafiskt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 28,
-    "tolerans": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      0
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
-      "modellering"
+      "begrepp"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna målfunktionen i varje markerad hörnpunkt. Det största av dessa värden är maximum.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Beräkna \\(Z\\) i varje hörnpunkt och jämför resultaten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "4.302",
@@ -56616,23 +56630,22 @@ window.BANKMATO1 = [
       "1b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,106.3 125.0,47.4 279.0,165.1 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"125.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"131.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(2,6)</text><circle cx=\"279.0\" cy=\"165.1\" r=\"3.5\" fill=\"currentColor\"/><text x=\"285.0\" y=\"159.1\" font-size=\"10\" fill=\"currentColor\">(6,2)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnpunkterna \\((0,0)\\), \\((0,4)\\), \\((2,6)\\), \\((6,2)\\), \\((7,0)\\). Målfunktionen är \\(Z=2x+5y\\). Bestäm det största värdet av \\(Z\\).</p>",
-    "s": "<p>För en linjär målfunktion räcker det att jämföra hörnpunkterna.</p><p>Värdena av (Z=2x+5y) blir (0) i ((0,0)), (20) i ((0,4)), (34) i ((2,6)), (22) i ((6,2)), (14) i ((7,0)).</p><p><strong>Svar:</strong> största värdet är (34), i hörnpunkten ((2,6)).</p>",
-    "familj": "Optimera en målfunktion grafiskt",
+    "poang": "1/0/0",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,106.3 125.0,47.4 279.0,165.1 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"125.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"131.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(2,6)</text><circle cx=\"279.0\" cy=\"165.1\" r=\"3.5\" fill=\"currentColor\"/><text x=\"285.0\" y=\"159.1\" font-size=\"10\" fill=\"currentColor\">(6,2)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>För två av hörnpunkterna i det tillåtna området gäller \\((2,6)\\) och \\((6,2)\\). Målfunktionen är \\(Z=2x+5y\\).</p><p>Hur mycket större är värdet av \\(Z\\) i \\((2,6)\\) än i \\((6,2)\\)?</p>",
+    "s": "<p>\\[Z(2,6)=2\\cdot2+5\\cdot6=34\\]</p><p>och</p><p>\\[Z(6,2)=2\\cdot6+5\\cdot2=22.\\]</p><p>Skillnaden är \\(34-22=12\\).</p><p><strong>Svar:</strong> 12.</p>",
+    "familj": "Jämföra målfunktionens värden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 34,
-    "tolerans": null,
+    "rättSvar": 12,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna målfunktionen i varje markerad hörnpunkt. Det största av dessa värden är maximum.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Beräkna målfunktionen i de två punkterna och ta skillnaden.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -56644,22 +56657,21 @@ window.BANKMATO1 = [
       "1b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,40.9 240.5,155.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"240.5\" cy=\"155.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"149.3\" font-size=\"10\" fill=\"currentColor\">(5,3)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnpunkterna \\((0,0)\\), \\((0,8)\\), \\((5,3)\\), \\((7,0)\\). Målfunktionen är \\(Z=2x+5y\\). Bestäm det största värdet av \\(Z\\).</p>",
-    "s": "<p>För en linjär målfunktion räcker det att jämföra hörnpunkterna.</p><p>Värdena av (Z=2x+5y) blir (0) i ((0,0)), (40) i ((0,8)), (25) i ((5,3)), (14) i ((7,0)).</p><p><strong>Svar:</strong> största värdet är (40), i hörnpunkten ((0,8)).</p>",
-    "familj": "Optimera en målfunktion grafiskt",
+    "poang": "1/0/0",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,40.9 240.5,155.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"240.5\" cy=\"155.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"149.3\" font-size=\"10\" fill=\"currentColor\">(5,3)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Målfunktionen är \\(Z=2x+5y\\). Hörnpunkten \\((0,8)\\) ger värdet \\(Z=40\\).</p><p>Vilken ekvation beskriver den nivålinje för \\(Z\\) som går genom \\((0,8)\\)?</p><p>A. \\(2x+5y=8\\)<br>B. \\(2x+5y=40\\)<br>C. \\(5x+2y=40\\)<br>D. \\(2x-5y=40\\)</p>",
+    "s": "<p>En nivålinje fås genom att sätta målfunktionen lika med ett bestämt värde. Här är värdet 40, alltså</p><p>\\[2x+5y=40.\\]</p><p><strong>Svar:</strong> B.</p>",
+    "familj": "Tolka nivålinjer i linjär optimering",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 40,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "modellering"
+      "begrepp"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna målfunktionen i varje markerad hörnpunkt. Det största av dessa värden är maximum.</p>",
+    "svarFormat": "val",
+    "ledtrad": "<p>En nivålinje består av alla punkter som ger samma värde på målfunktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -56673,24 +56685,42 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"182.8\" x2=\"356\" y2=\"182.8\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"100.4\" x2=\"356\" y2=\"100.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"18.0\" x2=\"356\" y2=\"18.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,38.6 240.5,141.6 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"38.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"32.6\" font-size=\"10\" fill=\"currentColor\">(0,9)</text><circle cx=\"240.5\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(5,4)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Det tillåtna området bestäms av</p><p>[xge0,qquad yge0,qquad x+yle9,qquad 2x+yle14.]</p><p>Målfunktionen är (Z=5x+3y). Bestäm största möjliga värde på (Z) och var det antas.</p>",
-    "s": "<p>Skärningen mellan (x+y=9) och (2x+y=14) är ((5,4)). Hörnpunkterna är ((0,0),(0,9),(5,4),(7,0)).</p><p>[Z=0, 27, 37, 35.]</p><p><strong>Svar:</strong> (Z_{max}=37) i ((5,4)).</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"182.8\" x2=\"356\" y2=\"182.8\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"100.4\" x2=\"356\" y2=\"100.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"18.0\" x2=\"356\" y2=\"18.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,38.6 240.5,141.6 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"38.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"32.6\" font-size=\"10\" fill=\"currentColor\">(0,9)</text><circle cx=\"240.5\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(5,4)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Det tillåtna området bestäms av</p><p>\\[x\\ge0,\\qquad y\\ge0,\\qquad x+y\\le9,\\qquad 2x+y\\le14.\\]</p><p>Målfunktionen är \\(Z=5x+3y\\). Bestäm den hörnpunkt där \\(Z\\) blir störst och ange det största värdet.</p>",
+    "s": "<p>Skärningen mellan \\(x+y=9\\) och \\(2x+y=14\\) är \\((5,4)\\). Hörnpunkterna är \\((0,0)\\), \\((0,9)\\), \\((5,4)\\) och \\((7,0)\\).</p><p>\\[Z=0,\\ 27,\\ 37,\\ 35.\\]</p><p><strong>Svar:</strong> Maximum är \\(37\\) och fås i \\((5,4)\\).</p>",
     "familj": "Optimera en målfunktion grafiskt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 37,
-    "tolerans": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      4,
+      37
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först hörnpunkterna. Den enda som inte ligger direkt på en axel fås genom att lösa de två randlinjernas ekvationssystem.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Bestäm hörnpunkterna. Den inre hörnpunkten fås genom att lösa ekvationssystemet för de två randlinjerna.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "Zmax"
+    ]
   },
   {
     "id": "4.305",
@@ -56701,25 +56731,42 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Möjliga produktionskombinationer\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"136.0\" y1=\"18\" x2=\"136.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"224.0\" y1=\"18\" x2=\"224.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"312.0\" y1=\"18\" x2=\"312.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 224.0,106.3 312.0,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"224.0\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"230.0\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(4,4)</text><circle cx=\"312.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"318.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>En verkstad tillverkar två produkter, A och B. Om (x) är antalet A och (y) antalet B gäller</p><p>[x+2yle12,qquad 2x+yle12,qquad xge0, yge0.]</p><p>Vinsten är 300 kr per A och 400 kr per B. Bestäm den produktionskombination som ger störst vinst och ange vinsten.</p>",
-    "s": "<p>Målfunktionen är (V=300x+400y). Hörnpunkterna är ((0,0),(0,6),(4,4),(6,0)).</p><p>Vinsterna blir 0 kr, 2400 kr, 2800 kr och 1800 kr.</p><p><strong>Svar:</strong> 4 av A och 4 av B ger maximal vinst, 2800 kr.</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Möjliga produktionskombinationer\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"136.0\" y1=\"18\" x2=\"136.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"224.0\" y1=\"18\" x2=\"224.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"312.0\" y1=\"18\" x2=\"312.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 224.0,106.3 312.0,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"224.0\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"230.0\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(4,4)</text><circle cx=\"312.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"318.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>En verkstad tillverkar två produkter, A och B. Om \\(x\\) är antalet A och \\(y\\) antalet B gäller</p><p>\\[x+2y\\le12,\\qquad 2x+y\\le12,\\qquad x\\ge0,\\quad y\\ge0.\\]</p><p>Vinsten är 300 kr per A och 400 kr per B. Bestäm hur många av varje produkt som ska tillverkas för att vinsten ska bli så stor som möjligt, och ange den maximala vinsten.</p>",
+    "s": "<p>Vinstfunktionen är \\(V=300x+400y\\). Hörnpunkterna är \\((0,0)\\), \\((0,6)\\), \\((4,4)\\) och \\((6,0)\\).</p><p>Vinsterna blir 0 kr, 2400 kr, 2800 kr och 1800 kr.</p><p><strong>Svar:</strong> 4 av A och 4 av B ger maximal vinst, 2800 kr.</p>",
     "familj": "Optimera en målfunktion grafiskt",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "rättSvar": [
+      4,
+      4,
+      2800
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
     "formaga": [
       "modellering",
-      "problemlösning",
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Formulera först vinstfunktionen. Testa sedan den i det tillåtna områdets hörnpunkter.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Skriv först vinstfunktionen. Jämför sedan vinsten i det tillåtna områdets hörnpunkter.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
-    "spel": false
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "antal A",
+      "antal B",
+      "maximal vinst (kr)"
+    ]
   },
   {
     "id": "4.306",
@@ -56730,8 +56777,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med ett markerat randsegment\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"136.0\" y1=\"18\" x2=\"136.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"224.0\" y1=\"18\" x2=\"224.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"312.0\" y1=\"18\" x2=\"312.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,59.2 224.0,141.6 312.0,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"59.2\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"53.2\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"224.0\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"230.0\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(4,2)</text><circle cx=\"312.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"318.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>För det markerade tillåtna området används målfunktionen (Z=ax+2y).</p><p>Bestäm (a) så att <strong>alla</strong> punkter på randsegmentet mellan ((0,4)) och ((4,2)) ger samma värde på (Z).</p>",
-    "s": "<p>Randsegmentets lutning är ((2-4)/(4-0)=-1/2). Nivålinjerna (ax+2y=c) kan skrivas (y=-\frac a2x+\frac c2), alltså har de lutningen (-a/2).</p><p>För att en nivålinje ska sammanfalla med segmentet krävs (-a/2=-1/2), alltså (a=1).</p><p><strong>Svar:</strong> (a=1).</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med ett markerat randsegment\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"136.0\" y1=\"18\" x2=\"136.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"224.0\" y1=\"18\" x2=\"224.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"312.0\" y1=\"18\" x2=\"312.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,59.2 224.0,141.6 312.0,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"59.2\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"53.2\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"224.0\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"230.0\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(4,2)</text><circle cx=\"312.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"318.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>För det markerade tillåtna området används målfunktionen \\(Z=ax+2y\\).</p><p>Bestäm \\(a\\) så att <strong>alla</strong> punkter på randsegmentet mellan \\((0,4)\\) och \\((4,2)\\) ger samma värde på \\(Z\\).</p>",
+    "s": "<p>Randsegmentets lutning är</p><p>\\[\\frac{2-4}{4-0}=-\\frac12.\\]</p><p>Nivålinjen \\(ax+2y=c\\) kan skrivas</p><p>\\[y=-\\frac a2x+\\frac c2,\\]</p><p>så dess lutning är \\(-a/2\\). För att nivålinjen ska vara parallell med segmentet krävs</p><p>\\[-\\frac a2=-\\frac12,\\]</p><p>vilket ger \\(a=1\\).</p><p><strong>Svar:</strong> \\(a=1\\).</p>",
     "familj": "Optimera en målfunktion grafiskt",
     "geogebra": false,
     "miniräknare": false,
@@ -56740,14 +56787,14 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "resonemang",
-      "problemlösning"
+      "begrepp",
+      "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Om hela segmentet ska ge samma värde måste målfunktionens nivålinjer vara parallella med segmentet. Jämför deras lutningar.</p>",
+    "ledtrad": "<p>Om hela segmentet ska ge samma värde måste målfunktionens nivålinjer vara parallella med segmentet. Jämför lutningarna.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": false
+    "spel": true
   },
   {
     "id": "4.307",
@@ -56758,8 +56805,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Del av tillåtet område för ett minimiproblem\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"104.0\" y1=\"18\" x2=\"104.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"160.0\" y1=\"18\" x2=\"160.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"216.0\" y1=\"18\" x2=\"216.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"272.0\" y1=\"18\" x2=\"272.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"328.0\" y1=\"18\" x2=\"328.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,40.9 104.0,132.4 216.0,224.0 328.0,224.0 328.0,40.9\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"104.0\" cy=\"132.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"110.0\" y=\"126.4\" font-size=\"10\" fill=\"currentColor\">(2,4)</text><circle cx=\"216.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"222.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><circle cx=\"328.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"334.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(10,0)</text><circle cx=\"328.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"334.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(10,8)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>En leverans ska innehålla (x) enheter av vara A och (y) enheter av vara B. Kraven är</p><p>[x+yge6,qquad 2x+yge8,qquad xge0, yge0.]</p><p>Kostnaden är (K=3x+4y). Bestäm den minsta möjliga kostnaden.</p>",
-    "s": "<p>För ett minimiproblem räcker det att undersöka de relevanta hörnpunkterna på den nedre randen: ((0,8),(2,4),(6,0)).</p><p>[K=32, 22, 18.]</p><p><strong>Svar:</strong> minsta kostnaden är 18, vid ((6,0)).</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Del av tillåtet område för ett minimiproblem\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"104.0\" y1=\"18\" x2=\"104.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"160.0\" y1=\"18\" x2=\"160.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"216.0\" y1=\"18\" x2=\"216.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"272.0\" y1=\"18\" x2=\"272.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"328.0\" y1=\"18\" x2=\"328.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,40.9 104.0,132.4 216.0,224.0 328.0,224.0 328.0,40.9\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"104.0\" cy=\"132.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"110.0\" y=\"126.4\" font-size=\"10\" fill=\"currentColor\">(2,4)</text><circle cx=\"216.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"222.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(6,0)</text><circle cx=\"328.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"334.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(10,0)</text><circle cx=\"328.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"334.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(10,8)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>En leverans ska innehålla \\(x\\) enheter av vara A och \\(y\\) enheter av vara B. Kraven är</p><p>\\[x+y\\ge6,\\qquad 2x+y\\ge8,\\qquad x\\ge0,\\quad y\\ge0.\\]</p><p>Kostnaden är \\(K=3x+4y\\). Bestäm den minsta möjliga kostnaden.</p>",
+    "s": "<p>För minimiproblemet behöver vi jämföra hörnpunkterna på den nedre randen: \\((0,8)\\), \\((2,4)\\) och \\((6,0)\\).</p><p>\\[K(0,8)=32,\\quad K(2,4)=22,\\quad K(6,0)=18.\\]</p><p><strong>Svar:</strong> Den minsta kostnaden är 18 och fås vid \\((6,0)\\).</p>",
     "familj": "Optimera en målfunktion grafiskt",
     "geogebra": false,
     "miniräknare": false,
@@ -56769,13 +56816,13 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "modellering",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Rita eller använd figuren för att hitta den nedre gränsen för det tillåtna området. Testa kostnadsfunktionen i dess hörnpunkter.</p>",
+    "ledtrad": "<p>Identifiera hörnpunkterna på den nedre gränsen av det tillåtna området och jämför kostnaden där.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
-    "spel": false
+    "spel": true
   },
   {
     "id": "4.308",
@@ -56787,7 +56834,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Höjdvinkel\"><line x1=\"36\" y1=\"208\" x2=\"346\" y2=\"208\" stroke=\"currentColor\" stroke-width=\"2\"/><rect x=\"288\" y=\"55\" width=\"24\" height=\"153\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"300\" y1=\"55\" x2=\"300\" y2=\"208\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"208\" r=\"4\" fill=\"currentColor\"/><line x1=\"70\" y1=\"208\" x2=\"300\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"178\" y=\"230\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">30 m</text><path d=\"M105 208 A35 35 0 0 0 99 188\" fill=\"none\" stroke=\"currentColor\"/><text x=\"108\" y=\"193\" font-size=\"12\" fill=\"currentColor\">35°</text></svg></span><p>Från en punkt 30 m från ett torn mäts höjdvinkeln till tornets topp till 35°. Marken är horisontell. Bestäm tornets höjd.</p>",
-    "s": "<p>Den sökta höjden är motstående katet och 30 m är närliggande katet.</p><p>[\tan35^circ=\frac h{30}Rightarrow h=30\tan35^circapprox21,0.]</p><p><strong>Svar:</strong> cirka 21,0 m.</p>",
+    "s": "<p>Höjden \\(h\\) är motstående katet och 30 m är närliggande katet:</p><p>\\[\\tan35^\\circ=\\frac{h}{30}.\\]</p><p>Alltså</p><p>\\[h=30\\tan35^\\circ\\approx21,0\\text{ m}.\\]</p><p><strong>Svar:</strong> cirka 21,0 m.</p>",
     "familj": "Trigonometrisk problemlösning i rätvinkliga trianglar",
     "geogebra": false,
     "miniräknare": true,
@@ -56816,7 +56863,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">7,0 cm</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">10,0 cm</text><text x=\"155\" y=\"59\" font-size=\"11\" fill=\"currentColor\">60°</text></svg></span><p>Två sidor i en triangel är 7,0 cm och 10,0 cm och vinkeln mellan dem är 60°. Bestäm den tredje sidan.</p>",
-    "s": "<p>Cosinussatsen ger</p><p>[c^2=7^2+10^2-2cdot7cdot10cos60^circ=79.]</p><p>[c=sqrt{79}approx8,9\text{ cm}.]</p>",
+    "s": "<p>Cosinussatsen ger</p><p>\\[c^2=7^2+10^2-2\\cdot7\\cdot10\\cos60^\\circ=79.\\]</p><p>\\[c=\\sqrt{79}\\approx8,89\\text{ cm}.\\]</p><p><strong>Svar:</strong> cirka 8,9 cm.</p>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -56844,8 +56891,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">b</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">a=8,0</text><text x=\"63\" y=\"199\" font-size=\"11\" fill=\"currentColor\">40°</text><text x=\"304\" y=\"199\" font-size=\"11\" fill=\"currentColor\">70°</text></svg></span><p>I en triangel är (A=40^circ), (a=8,0) cm och (B=70^circ). Bestäm sidan (b).</p>",
-    "s": "<p>Sinussatsen ger</p><p>[\frac b{sin70^circ}=\frac8{sin40^circ}.]</p><p>[b=\frac{8sin70^circ}{sin40^circ}approx11,7\text{ cm}.]</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">b</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">a=8,0</text><text x=\"63\" y=\"199\" font-size=\"11\" fill=\"currentColor\">40°</text><text x=\"304\" y=\"199\" font-size=\"11\" fill=\"currentColor\">70°</text></svg></span><p>I en triangel är \\(A=40^\\circ\\), \\(a=8,0\\) cm och \\(B=70^\\circ\\). Bestäm sidan \\(b\\).</p>",
+    "s": "<p>Sinussatsen ger</p><p>\\[\\frac{b}{\\sin70^\\circ}=\\frac{8}{\\sin40^\\circ}.\\]</p><p>\\[b=\\frac{8\\sin70^\\circ}{\\sin40^\\circ}\\approx11,7\\text{ cm}.\\]</p><p><strong>Svar:</strong> cirka 11,7 cm.</p>",
     "familj": "Använda sinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -56874,7 +56921,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">9,0 cm</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">12,0 cm</text><text x=\"155\" y=\"59\" font-size=\"11\" fill=\"currentColor\">35°</text></svg></span><p>En triangel har sidorna 9,0 cm och 12,0 cm med mellanliggande vinkel 35°. Bestäm triangelns area.</p>",
-    "s": "<p>Areasatsen ger</p><p>[A=\frac12cdot9cdot12sin35^circapprox31,0\text{ cm}^2.]</p>",
+    "s": "<p>Areasatsen ger</p><p>\\[A=\\frac12\\cdot9\\cdot12\\sin35^\\circ\\approx31,0\\text{ cm}^2.\\]</p><p><strong>Svar:</strong> cirka 31,0 cm².</p>",
     "familj": "Beräkna triangelarea med två sidor och mellanliggande vinkel",
     "geogebra": false,
     "miniräknare": true,
@@ -56903,7 +56950,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">5,0 cm</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">7,0 cm</text><text x=\"185\" y=\"238\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">8,0 cm</text><text x=\"155\" y=\"59\" font-size=\"11\" fill=\"currentColor\">v</text></svg></span><p>En triangel har sidlängderna 5,0 cm, 7,0 cm och 8,0 cm. Bestäm vinkeln mellan sidorna 5,0 cm och 7,0 cm.</p>",
-    "s": "<p>Vinkeln ligger mot sidan 8,0 cm. Cosinussatsen ger</p><p>[8^2=5^2+7^2-2cdot5cdot7cos v.]</p><p>[cos v=\frac{25+49-64}{70}=\frac17,qquad vapprox81,8^circ.]</p>",
+    "s": "<p>Vinkeln \\(v\\) ligger mot sidan 8,0 cm. Med cosinussatsen:</p><p>\\[8^2=5^2+7^2-2\\cdot5\\cdot7\\cos v.\\]</p><p>\\[\\cos v=\\frac{25+49-64}{70}=\\frac17.\\]</p><p>\\[v\\approx81,8^\\circ.\\]</p><p><strong>Svar:</strong> cirka 81,8°.</p>",
     "familj": "Använda cosinussatsen",
     "geogebra": false,
     "miniräknare": true,
@@ -56932,7 +56979,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Höjdvinkel\"><line x1=\"36\" y1=\"208\" x2=\"346\" y2=\"208\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"300\" y1=\"208\" x2=\"300\" y2=\"54\" stroke=\"currentColor\" stroke-width=\"7\"/><path d=\"M300 60 C270 88 274 116 300 126 C326 116 330 88 300 60Z\" fill=\"currentColor\" opacity=\".15\" stroke=\"currentColor\"/><circle cx=\"70\" cy=\"208\" r=\"4\" fill=\"currentColor\"/><line x1=\"70\" y1=\"208\" x2=\"300\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"178\" y=\"230\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">14 m</text><path d=\"M105 208 A35 35 0 0 0 99 188\" fill=\"none\" stroke=\"currentColor\"/><text x=\"108\" y=\"193\" font-size=\"12\" fill=\"currentColor\">32°</text></svg></span><p>Ett träd kastar en 14 m lång skugga när solens höjdvinkel är 32°. Bestäm trädets höjd.</p>",
-    "s": "<p>[\tan32^circ=\frac h{14}Rightarrow h=14\tan32^circapprox8,75\text{ m}.]</p><p><strong>Svar:</strong> cirka 8,7 m.</p>",
+    "s": "<p>Trädets höjd \\(h\\) är motstående katet:</p><p>\\[\\tan32^\\circ=\\frac{h}{14}.\\]</p><p>\\[h=14\\tan32^\\circ\\approx8,75\\text{ m}.\\]</p><p><strong>Svar:</strong> cirka 8,7 m.</p>",
     "familj": "Trigonometrisk problemlösning i rätvinkliga trianglar",
     "geogebra": false,
     "miniräknare": true,
@@ -56961,7 +57008,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Två vägar med vinkel\"><circle cx=\"75\" cy=\"205\" r=\"4\" fill=\"currentColor\"/><line x1=\"75\" y1=\"205\" x2=\"330\" y2=\"205\" stroke=\"currentColor\" stroke-width=\"5\" opacity=\".55\"/><line x1=\"75\" y1=\"205\" x2=\"170\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"5\" opacity=\".55\"/><circle cx=\"285\" cy=\"205\" r=\"7\" fill=\"currentColor\"/><circle cx=\"145\" cy=\"95\" r=\"7\" fill=\"currentColor\"/><text x=\"190\" y=\"226\" font-size=\"12\" fill=\"currentColor\">12 km</text><text x=\"92\" y=\"116\" font-size=\"12\" fill=\"currentColor\">9 km</text><path d=\"M118 205 A43 43 0 0 0 98 169\" fill=\"none\" stroke=\"currentColor\"/><text x=\"115\" y=\"180\" font-size=\"12\" fill=\"currentColor\">68°</text></svg></span><p>Två vägar lämnar en korsning med vinkeln 68° mellan sig. En bil kör 12 km på den ena vägen och en annan 9 km på den andra. Hur långt är det mellan bilarna?</p>",
-    "s": "<p>Avståndet mellan bilarna är sidan mittemot 68°. Med cosinussatsen:</p><p>[d^2=12^2+9^2-2cdot12cdot9cos68^circ.]</p><p>[dapprox12,0\text{ km}.]</p>",
+    "s": "<p>Avståndet \\(d\\) mellan bilarna ligger mot vinkeln 68°. Cosinussatsen ger</p><p>\\[d^2=12^2+9^2-2\\cdot12\\cdot9\\cos68^\\circ.\\]</p><p>\\[d\\approx12,0\\text{ km}.\\]</p><p><strong>Svar:</strong> cirka 12,0 km.</p>",
     "familj": "Trigonometrisk problemlösning och metodval",
     "geogebra": false,
     "miniräknare": true,
@@ -56990,7 +57037,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">42 m</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">55 m</text><text x=\"155\" y=\"59\" font-size=\"11\" fill=\"currentColor\">73°</text></svg></span><p>Två sidor i en triangelformad tomt är 42 m och 55 m. Vinkeln mellan sidorna är 73°. Bestäm tomtens area.</p>",
-    "s": "<p>Areasatsen ger</p><p>[A=\frac12cdot42cdot55sin73^circapprox1105\text{ m}^2.]</p>",
+    "s": "<p>Areasatsen ger</p><p>\\[A=\\frac12\\cdot42\\cdot55\\sin73^\\circ\\approx1105\\text{ m}^2.\\]</p><p><strong>Svar:</strong> cirka 1105 m².</p>",
     "familj": "Beräkna areor i trigonometriska tillämpningar",
     "geogebra": false,
     "miniräknare": true,
@@ -57018,8 +57065,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">b=10,0 cm</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">a=8,0 cm</text><text x=\"63\" y=\"199\" font-size=\"11\" fill=\"currentColor\">35°</text></svg></span><p>I en triangel är (A=35^circ), (a=8,0) cm och (b=10,0) cm.</p><p>Undersök hur många olika trianglar som är möjliga och bestäm i så fall vinkeln (B) i varje triangel.</p>",
-    "s": "<p>Sinussatsen ger</p><p>[sin B=\frac{bsin A}{a}=\frac{10sin35^circ}{8}approx0,71697.]</p><p>Det ger två vinklar i intervallet ((0^circ,180^circ)): (Bapprox45,8^circ) och (Bapprox134,2^circ). Båda fungerar eftersom (A+B&lt;180^circ).</p><p><strong>Svar:</strong> två trianglar är möjliga.</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"78\" y=\"120\" font-size=\"12\" fill=\"currentColor\">b=10,0 cm</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">a=8,0 cm</text><text x=\"63\" y=\"199\" font-size=\"11\" fill=\"currentColor\">35°</text></svg></span><p>I en triangel är \\(A=35^\\circ\\), \\(a=8,0\\) cm och \\(b=10,0\\) cm. Undersök hur många olika trianglar som är möjliga och bestäm i så fall vinkeln \\(B\\) i varje triangel.</p>",
+    "s": "<p>Sinussatsen ger</p><p>\\[\\sin B=\\frac{b\\sin A}{a}=\\frac{10\\sin35^\\circ}{8}\\approx0,71697.\\]</p><p>Det ger två möjliga vinklar:</p><p>\\[B\\approx45,8^\\circ\\quad\\text{eller}\\quad B\\approx134,2^\\circ.\\]</p><p>Båda fungerar eftersom \\(A+B&lt;180^\\circ\\) i båda fallen.</p><p><strong>Svar:</strong> Två trianglar är möjliga.</p>",
     "familj": "Bestämma avstånd och sidor i trianglar",
     "geogebra": false,
     "miniräknare": true,
@@ -57028,11 +57075,11 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "problemlösning",
+      "procedur",
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När sinussatsen ger en vinkel (B), kontrollera både (B) och (180^circ-B). Avgör sedan om vinkelsumman fortfarande kan bli 180°.</p>",
+    "ledtrad": "<p>När sinussatsen ger en vinkel, kontrollera både den spetsiga lösningen och dess supplementvinkel. Pröva sedan vinkelsumman.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": false
@@ -57047,19 +57094,19 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"250\" viewBox=\"0 0 380 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Triangel\"><polygon points=\"46,214 334,214 150,40\" fill=\"currentColor\" opacity=\".05\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"34\" y=\"230\" font-size=\"12\" fill=\"currentColor\">A</text><text x=\"338\" y=\"230\" font-size=\"12\" fill=\"currentColor\">B</text><text x=\"145\" y=\"30\" font-size=\"12\" fill=\"currentColor\">C</text><text x=\"244\" y=\"120\" font-size=\"12\" fill=\"currentColor\">a=12 cm</text><text x=\"63\" y=\"199\" font-size=\"11\" fill=\"currentColor\">40°</text><text x=\"304\" y=\"199\" font-size=\"11\" fill=\"currentColor\">65°</text></svg></span><p>I en triangel är \\(A=40^\\circ\\), \\(B=65^\\circ\\) och sidan \\(a=12\\) cm. Bestäm sidan \\(b\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Sinussatsen kopplar varje sida till sin motstående vinkel. Sidan \\(a=12\\) cm ligger mot \\(A=40^\\circ\\), och sidan \\(b\\) ligger mot \\(B=65^\\circ\\):</p><p>\\[\\frac{b}{\\sin65^\\circ}=\\frac{12}{\\sin40^\\circ}.\\]</p><p>Lös ut \\(b\\):</p><p>\\[b=12\\frac{\\sin65^\\circ}{\\sin40^\\circ}\\approx16{,}92\\ \\mathrm{cm}.\\]</p><p><strong>Svar:</strong> \\(b\\approx16{,}92\\) cm.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "s": "<p>Sinussatsen kopplar en sida till dess motstående vinkel:</p><p>\\[\\frac{b}{\\sin65^\\circ}=\\frac{12}{\\sin40^\\circ}.\\]</p><p>Alltså</p><p>\\[b=12\\frac{\\sin65^\\circ}{\\sin40^\\circ}\\approx16,92\\text{ cm}.\\]</p><p><strong>Svar:</strong> cirka 16,9 cm.</p>",
     "familj": "Bestämma avstånd och sidor i trianglar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 16.92,
-    "tolerans": 0.12,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Du har ett komplett sida–vinkel-par ((a,A)). Använd sinussatsen för att koppla detta till ((b,B)).</p>",
+    "ledtrad": "<p>Du har det kompletta sida–vinkel-paret \\((a,A)\\). Koppla det till \\((b,B)\\) med sinussatsen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -57074,17 +57121,16 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Två sträckor är 5,0 km och 8,0 km och vinkeln mellan dem är 120°. Bestäm avståndet mellan deras ändpunkter.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Översätt uppgiften till matematiska symboler och gör en tydlig operation i taget. Då syns både metoden och var ett eventuellt fel uppstår.</p><div class=\"facit-arbete\"><p>Avståndet mellan ändpunkterna är sidan mittemot vinkeln \\(120^\\circ\\). Med cosinussatsen:</p><p>\\[c^2=5^2+8^2-2\\cdot5\\cdot8\\cos120^\\circ.\\]</p><p>Här är \\(\\cos120^\\circ=-1/2\\), så</p><p>\\[c^2=25+64+40=129\\Rightarrow c=\\sqrt{129}\\approx11{,}36.\\]</p><p><strong>Svar:</strong> cirka \\(11{,}36\\) km.</p><p>Den trubbiga vinkeln gör att avståndet blir större än båda de givna sträckorna, vilket stämmer med resultatet.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka resultatet i ursprungsuppgiften eller kontrollera det på ett andra sätt.</p></div>",
+    "s": "<p>Avståndet mellan ändpunkterna är sidan mittemot vinkeln 120°. Cosinussatsen ger</p><p>\\[c^2=5^2+8^2-2\\cdot5\\cdot8\\cos120^\\circ.\\]</p><p>Eftersom \\(\\cos120^\\circ=-1/2\\) fås</p><p>\\[c^2=129,\\qquad c=\\sqrt{129}\\approx11,36.\\]</p><p><strong>Svar:</strong> cirka 11,4 km.</p>",
     "familj": "Bestämma avstånd och sidor i trianglar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 11.36,
-    "tolerans": 0.12,
+    "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sträckorna och vinkeln mellan dem bildar en triangel. Sidan mellan ändpunkterna fås med cosinussatsen.</p>",
@@ -57101,8 +57147,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner två sidor och den mellanliggande vinkeln i en godtycklig triangel och söker den tredje sidan. Vilken metod är mest direkt?</p><p>A. Sinussatsen<br>B. Cosinussatsen<br>C. Tangens i enhetscirkeln<br>D. Derivering</p>",
-    "s": "<p>Cosinussatsen använder direkt två sidor och den mellanliggande vinkeln.</p><p><strong>Svar:</strong> B.</p>",
+    "t": "<p>Du känner två sidor och den mellanliggande vinkeln i en godtycklig triangel och söker den tredje sidan. Vilken metod är mest direkt?</p><p>A. Sinussatsen<br>B. Cosinussatsen<br>C. Areasatsen<br>D. Pythagoras sats</p>",
+    "s": "<p>Cosinussatsen använder direkt två sidor och vinkeln mellan dem.</p><p><strong>Svar:</strong> B.</p>",
     "familj": "Trigonometrisk problemlösning och metodval",
     "geogebra": false,
     "miniräknare": false,
@@ -57128,8 +57174,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner en sida och dess motstående vinkel samt ytterligare en vinkel i en godtycklig triangel. Vilken metod är mest direkt för att bestämma en annan sida?</p><p>A. Sinussatsen<br>B. Cosinussatsen<br>C. Pythagoras alltid<br>D. Integrering</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Sinussatsen kopplar samman varje sida med sinus för dess motstående vinkel.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>Du känner en sida och dess motstående vinkel samt ytterligare en vinkel i en godtycklig triangel. Vilken metod är mest direkt för att bestämma en annan sida?</p><p>A. Sinussatsen<br>B. Cosinussatsen<br>C. Areasatsen<br>D. Pythagoras sats</p>",
+    "s": "<p>Sinussatsen kopplar samman varje sida med sinus för dess motstående vinkel.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Trigonometrisk problemlösning och metodval",
     "geogebra": false,
     "miniräknare": false,
@@ -57155,8 +57201,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en rätvinklig triangel känner du den närliggande och den motstående kateten till en vinkel. Vilket trigonometriskt samband ger vinkeln direkt?</p><p>A. sinus<br>B. cosinus<br>C. tangens<br>D. cosinussatsen</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar. Dela vid behov upp den i standardfigurer innan du använder en formel.</p><div class=\"facit-arbete\"><p>Tangens är motstående katet dividerad med närliggande katet.</p><p><strong>Svar:</strong> C.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></div>",
+    "t": "<p>I en rätvinklig triangel känner du den närliggande och den motstående kateten till en vinkel. Vilket trigonometriskt samband ger vinkeln direkt?</p><p>A. Sinus<br>B. Cosinus<br>C. Tangens<br>D. Pythagoras sats</p>",
+    "s": "<p>Tangens är kvoten mellan motstående och närliggande katet.</p><p><strong>Svar:</strong> C.</p>",
     "familj": "Trigonometrisk problemlösning och metodval",
     "geogebra": false,
     "miniräknare": false,
@@ -57182,24 +57228,42 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"171.2\" y1=\"18\" x2=\"171.2\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"294.4\" y1=\"18\" x2=\"294.4\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 171.2,106.3 294.4,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"171.2\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"177.2\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(2,4)</text><circle cx=\"294.4\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"300.4\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(4,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnen \\((0,0),(0,6),(2,4),(4,0)\\). Målfunktionen är \\(Z=3x+2y\\). Bestäm största möjliga värde på \\(Z\\).</p>",
-    "s": "<p>Testa hörnpunkterna:</p><p>[Z(0,0)=0,quad Z(0,6)=12,quad Z(2,4)=14,quad Z(4,0)=12.]</p><p><strong>Svar:</strong> största värdet är 14 i ((2,4)).</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"171.2\" y1=\"18\" x2=\"171.2\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"294.4\" y1=\"18\" x2=\"294.4\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"165.1\" x2=\"356\" y2=\"165.1\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"106.3\" x2=\"356\" y2=\"106.3\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"47.4\" x2=\"356\" y2=\"47.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,47.4 171.2,106.3 294.4,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"47.4\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"41.4\" font-size=\"10\" fill=\"currentColor\">(0,6)</text><circle cx=\"171.2\" cy=\"106.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"177.2\" y=\"100.3\" font-size=\"10\" fill=\"currentColor\">(2,4)</text><circle cx=\"294.4\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"300.4\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(4,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett tillåtet område har hörnen \\((0,0)\\), \\((0,6)\\), \\((2,4)\\) och \\((4,0)\\). Målfunktionen är \\(Z=3x+2y\\).</p><p>Bestäm hörnpunkten där \\(Z\\) blir störst och ange det största värdet.</p>",
+    "s": "<p>\\[Z(0,0)=0,\\quad Z(0,6)=12,\\quad Z(2,4)=14,\\quad Z(4,0)=12.\\]</p><p><strong>Svar:</strong> Maximum är 14 och fås i \\((2,4)\\).</p>",
     "familj": "Fördjupad linjär optimering och modellanalys",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 14,
-    "tolerans": 0,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4,
+      14
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "begrepp"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>En linjär målfunktion får sitt maximum i en hörnpunkt. Beräkna (Z) i de fyra hörnen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Beräkna \\(Z\\) i de fyra hörnpunkterna och jämför.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "Zmax"
+    ]
   },
   {
     "id": "4.408",
@@ -57211,7 +57275,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med randsegment\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"150.7\" y1=\"18\" x2=\"150.7\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"253.3\" y1=\"18\" x2=\"253.3\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"141.6\" x2=\"356\" y2=\"141.6\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"59.2\" x2=\"356\" y2=\"59.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,59.2 202.0,141.6 304.7,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"59.2\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"53.2\" font-size=\"10\" fill=\"currentColor\">(0,4)</text><circle cx=\"202.0\" cy=\"141.6\" r=\"3.5\" fill=\"currentColor\"/><text x=\"208.0\" y=\"135.6\" font-size=\"10\" fill=\"currentColor\">(3,2)</text><circle cx=\"304.7\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"310.7\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(5,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Ett kantsegment i det tillåtna området går mellan \\((0,4)\\) och \\((3,2)\\). Målfunktionen är \\(Z=2x+3y\\). Anta att inget annat hörn ger större värde. Vilket största värde får \\(Z\\)?</p>",
-    "s": "<p>[Z(0,4)=12,qquad Z(3,2)=12.]</p><p>Eftersom (Z) är linjär och har samma värde i segmentets båda ändpunkter är (Z=12) längs hela segmentet.</p><p><strong>Svar:</strong> största värdet är 12 och det antas i alla punkter på segmentet.</p>",
+    "s": "<p>\\[Z(0,4)=12,\\qquad Z(3,2)=12.\\]</p><p>Eftersom \\(Z\\) är linjär och har samma värde i segmentets båda ändpunkter är \\(Z=12\\) längs hela segmentet.</p><p><strong>Svar:</strong> Det största värdet är 12 och antas i alla punkter på segmentet.</p>",
     "familj": "Fördjupad linjär optimering och modellanalys",
     "geogebra": false,
     "miniräknare": false,
@@ -57224,7 +57288,7 @@ window.BANKMATO1 = [
       "resonemang"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Beräkna (Z) i segmentets båda ändpunkter. Fundera sedan på vad linearitet innebär mellan dem.</p>",
+    "ledtrad": "<p>Beräkna \\(Z\\) i segmentets båda ändpunkter. Vad innebär det för en linjär funktion om ändpunkterna ger samma värde?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
@@ -57237,24 +57301,36 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Enhetscirkel\"><circle cx=\"150\" cy=\"125\" r=\"88\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"35\" y1=\"125\" x2=\"265\" y2=\"125\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"225\" x2=\"150\" y2=\"25\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"125\" x2=\"194.0\" y2=\"48.8\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"194.0\" cy=\"48.8\" r=\"4\" fill=\"currentColor\"/><text x=\"202.0\" y=\"41.8\" font-size=\"12\" fill=\"currentColor\">60°</text></svg></span><p>Lös \\(\\sin x=\\sqrt3/2\\) för \\(0^\\circ\\le x&lt;360^\\circ\\). Vad är summan av lösningarna?</p>",
-    "s": "<p>Lösningarna är 60° och 120°. Summan är 180°.</p><p><strong>Svar:</strong> 180°.</p>",
+    "poang": "1/0/0",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Enhetscirkel\"><circle cx=\"150\" cy=\"125\" r=\"88\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"35\" y1=\"125\" x2=\"265\" y2=\"125\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"225\" x2=\"150\" y2=\"25\" stroke=\"currentColor\" opacity=\".6\"/><line x1=\"150\" y1=\"125\" x2=\"194.0\" y2=\"48.8\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"194.0\" cy=\"48.8\" r=\"4\" fill=\"currentColor\"/><text x=\"202.0\" y=\"41.8\" font-size=\"12\" fill=\"currentColor\">60°</text></svg></span><p>Lös ekvationen \\(\\sin x=\\sqrt3/2\\) för \\(0^\\circ\\le x&lt;360^\\circ\\).</p><p>Ange båda lösningarna.</p>",
+    "s": "<p>Referensvinkeln är \\(60^\\circ\\). Sinus är positiv i första och andra kvadranten, så</p><p>\\[x=60^\\circ\\quad\\text{eller}\\quad x=120^\\circ.\\]</p>",
     "familj": "Lösa trigonometriska ekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 180,
-    "tolerans": 0,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      60,
+      120
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>(sin x=sqrt3/2) har referensvinkeln 60°. Sinus är positiv i första och andra kvadranten.</p>",
-    "traningsniva": 2,
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "ledtrad": "<p>Utgå från referensvinkeln 60°. I vilka två kvadranter är sinus positiv?</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarsstruktur": "mängd",
+    "svarEtiketter": null
   },
   {
     "id": "4.410",
@@ -57263,8 +57339,8 @@ window.BANKMATO1 = [
     "kurs": [
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös \\(\\cos(2x)=0\\) för \\(0^\\circ\\le x&lt;180^\\circ\\). Vilken är den minsta positiva lösningen?</p>",
     "s": "<p>\\(2x=90^\\circ+180^\\circ n\\). Därför \\(x=45^\\circ+90^\\circ n\\). Minsta positiva lösning är 45°.</p>",
     "familj": "Lösa trigonometriska ekvationer",
@@ -57278,8 +57354,8 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt först (u=2x). Lös (cos u=0) och dividera sedan alla lösningar med 2 innan du använder intervallet.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Sätt \\(u=2x\\). Lös först \\(\\cos u=0\\) och översätt sedan lösningarna tillbaka till \\(x\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -57346,21 +57422,21 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm värdet av \\(\\sin(330^\\circ)\\).</p><p>Skriv svaret numeriskt om det innehåller en rot.</p>",
-    "s": "<p>\\(330^\\circ=360^\\circ-30^\\circ\\) ligger i fjärde kvadranten, där sinus är negativ:</p><p>\\[\\sin330^\\circ=-\\sin30^\\circ=-\\frac12=-0{,}5.\\]</p><p><strong>Svar:</strong> \\(-0{,}5\\).</p>",
+    "t": "<p>Bestäm det exakta värdet av \\(\\tan330^\\circ\\).</p>",
+    "s": "<p>Referensvinkeln är \\(30^\\circ\\). I fjärde kvadranten är tangens negativ:</p><p>\\[\\tan330^\\circ=-\\tan30^\\circ=-\\frac1{\\sqrt3}=-\\frac{\\sqrt3}{3}.\\]</p><p><strong>Svar:</strong> \\(-\\sqrt3/3\\).</p>",
     "familj": "Exakta trigonometriska värden och symmetri i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -0.5,
-    "tolerans": 0.001,
+    "svarstyp": "uttryck",
+    "rättSvar": "-sqrt(3)/3",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>(330^circ=360^circ-30^circ). I fjärde kvadranten är sinus negativ.</p>",
-    "traningsniva": 1,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Använd referensvinkeln 30° och tecknet för tangens i fjärde kvadranten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
   },
@@ -57373,9 +57449,9 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm värdet av \\(\\cos(120^\\circ)\\).</p><p>Skriv svaret numeriskt om det innehåller en rot.</p>",
-    "s": "<p>\\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten, där cosinus är negativ:</p><p>\\[\\cos120^\\circ=-\\cos60^\\circ=-\\frac12=-0{,}5.\\]</p><p><strong>Svar:</strong> \\(-0{,}5\\).</p>",
-    "familj": "Exakta trigonometriska värden och symmetri i enhetscirkeln",
+    "t": "<p>Punkten på enhetscirkeln som motsvarar \\(120^\\circ\\) har koordinaterna \\((x,y)\\).</p><p>Bestäm \\(x\\).</p>",
+    "s": "<p>x-koordinaten är cosinusvärdet:</p><p>\\[x=\\cos120^\\circ=-\\frac12=-0,5.\\]</p><p><strong>Svar:</strong> \\(-0,5\\).</p>",
+    "familj": "Enhetscirkelns koordinater",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -57383,10 +57459,11 @@ window.BANKMATO1 = [
     "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>(120^circ=180^circ-60^circ). I andra kvadranten är cosinus negativ.</p>",
+    "ledtrad": "<p>På enhetscirkeln är x-koordinaten \\(\\cos v\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -57413,7 +57490,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Referensvinkeln är 45°. Punkten ligger i fjärde kvadranten, där y-koordinaten (sinus) är negativ.</p>",
+    "ledtrad": "<p>Referensvinkeln är 45°. I fjärde kvadranten är sinus negativ.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true
@@ -57428,25 +57505,36 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Lös ekvationen \\(\\cos(2x)=0\\) i intervallet \\(0<x\\lt \\frac{\\pi}{2}\\).</p>",
-    "s": "<p><strong>Metod:</strong> \\(\\cos u=0\\) när \\(u=\\pi/2+k\\pi\\). Här är \\(u=2x\\). I det givna intervallet fås endast \\(2x=\\pi/2\\).</p><p><strong>Svar:</strong> \\(x=\\pi/4\\).</p>",
+    "t": "<p>Lös ekvationen \\(\\cos(2x)=\\frac12\\) då \\(0\\le x&lt;\\pi\\).</p><p>Ange alla lösningar.</p>",
+    "s": "<p>För \\(0\\le2x&lt;2\\pi\\) gäller \\(\\cos(2x)=1/2\\) när</p><p>\\[2x=\\frac{\\pi}{3}\\quad\\text{eller}\\quad2x=\\frac{5\\pi}{3}.\\]</p><p>Alltså</p><p>\\[x=\\frac{\\pi}{6}\\quad\\text{eller}\\quad x=\\frac{5\\pi}{6}.\\]</p>",
     "familj": "Lösa trigonometriska ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "resonemang"
     ],
-    "svarstyp": "uttryck",
-    "rättSvar": "pi/4",
-    "tolerans": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "pi/6",
+      "5*pi/6"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
     "självrättning": true,
-    "svarFormat": "uttryck",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
     "idTidigare": "3.711",
-    "ledtrad": "<p>Sätt (u=2x). Eftersom (cos u=0) när (u=pi/2+kpi), kan du sedan lösa för (x) och kontrollera intervallet.</p>",
+    "ledtrad": "<p>Lös först ekvationen för vinkeln \\(u=2x\\) på \\(0\\le u&lt;2\\pi\\), och dividera sedan lösningarna med 2.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarsstruktur": "mängd",
+    "svarEtiketter": null
   },
   {
     "id": "4.417",
@@ -57456,16 +57544,15 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(\\sin(x-\\frac{\\pi}{6})=1\\) i intervallet \\(0\\le x\\le\\pi\\).</p>",
     "s": "<p><strong>Metod:</strong> Sinus är 1 när vinkeln är \\(\\pi/2+2k\\pi\\). Alltså \\(x-\\pi/6=\\pi/2\\) i intervallet.</p><p>\\[x=\\frac{\\pi}{2}+\\frac{\\pi}{6}=\\frac{2\\pi}{3}\\]</p><p><strong>Svar:</strong> \\(x=2\\pi/3\\).</p>",
     "familj": "Lösa trigonometriska ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
     "svarstyp": "uttryck",
     "rättSvar": "2*pi/3",
@@ -57473,8 +57560,8 @@ window.BANKMATO1 = [
     "självrättning": true,
     "svarFormat": "uttryck",
     "idTidigare": "3.712",
-    "ledtrad": "<p>Sinus är 1 när vinkeln är (pi/2+2kpi). Sätt därför (x-pi/6) lika med detta och kontrollera intervallet.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Sinus är 1 när vinkeln är \\(\\pi/2+2k\\pi\\). Sätt \\(x-\\pi/6\\) lika med detta och kontrollera det givna intervallet.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
   },
@@ -57503,10 +57590,9 @@ window.BANKMATO1 = [
     ],
     "självrättning": false,
     "formaga": [
-      "problemlösning",
       "resonemang"
     ],
-    "ledtrad": "<p>Om radien är (r) ligger medelpunkten i ((r,r)). Använd sedan att avståndet från medelpunkten till ((5,7)) också är (r). Var beredd på att ekvationen kan ge två geometriskt möjliga radier.</p>",
+    "ledtrad": "<p>Om radien är \\(r\\) ligger medelpunkten i \\((r,r)\\). Använd att avståndet från medelpunkten till \\((5,7)\\) också är \\(r\\). Ekvationen kan ge två geometriskt möjliga radier.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false,
@@ -57560,7 +57646,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Två sidor och den mellanliggande vinkeln är kända. Använd areasatsen (A=absin C/2).</p>",
+    "ledtrad": "<p>Två sidor och den mellanliggande vinkeln är kända. Använd areasatsen \\(A=ab\\sin C/2\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -57585,8 +57671,8 @@ window.BANKMATO1 = [
     "tolerans": 0.2,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "ledtrad": "<p>Börja i triangeln ACD och bestäm vinkeln vid D med cosinussatsen. Eftersom C–D–B ligger på en rät linje är vinkeln ADB supplementvinkeln.</p>",
     "traningsniva": 4,
@@ -57644,7 +57730,7 @@ window.BANKMATO1 = [
       "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>(230^circ=180^circ+50^circ). Punkten ligger diametralt mittemot 50°-punkten, så både x- och y-koordinaten byter tecken.</p>",
+    "ledtrad": "<p>Eftersom \\(230^\\circ=180^\\circ+50^\\circ\\) ligger punkten diametralt mittemot 50°-punkten. Då byter båda koordinaterna tecken.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -57688,8 +57774,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Bestäm \\(f'(x)\\) då \\(f(x)=ax^2-\\frac{4}{x}\\), där \\(a\\) är en konstant.</p>",
     "s": "<p>Skriv \\(-4/x=-4x^{-1}\\). Då</p><p>\\[f'(x)=2ax+4x^{-2}=2ax+\\frac4{x^2}.\\]</p>",
     "familj": "Derivera med parameter och negativ exponent",
@@ -57702,8 +57788,8 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först (-4/x) som (-4x^{-1}). Betrakta (a) som en konstant när du deriverar.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Skriv \\(-4/x\\) som \\(-4x^{-1}\\). Betrakta \\(a\\) som en konstant.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2022, uppgift 6b",
@@ -57725,14 +57811,14 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "2ln(3)3^(2x)",
+    "rättSvar": "2*ln(3)*3^(2*x)",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Förenkla först (1/3^{-2x}) med potenslagarna. Derivera sedan funktionen på formen (a^{kx}).</p>",
+    "ledtrad": "<p>Skriv först \\(1/3^{-2x}=3^{2x}\\). Derivera sedan exponentialfunktionen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -57748,25 +57834,40 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{5x^3-x^6}{x^3}.\\]</p>",
-    "s": "<p>Dividera varje term med \\(x^3\\):</p><p>\\[5-x^3.\\]</p>",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla uttrycket och ange vilket värde på \\(x\\) som inte är tillåtet i originaluttrycket:</p><p>\\[\\frac{5x^3-x^6}{x^3}.\\]</p>",
+    "s": "<p>För \\(x\\ne0\\) kan varje term divideras med \\(x^3\\):</p><p>\\[\\frac{5x^3-x^6}{x^3}=5-x^3.\\]</p><p><strong>Svar:</strong> \\(5-x^3\\), med \\(x\\ne0\\).</p>",
     "familj": "Förenkla polynomuttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "5-x^3",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5-x^3",
+      [
+        0
+      ]
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Dividera båda termerna i täljaren med (x^3). Kom ihåg att originaluttrycket kräver (x\ne0).</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Dividera båda termerna i täljaren med \\(x^3\\). Kontrollera också när originalets nämnare är noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2022, uppgift 7a",
-    "svarFormat": "uttryck"
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt"
+      ]
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "förenklat uttryck",
+      "förbjudet x-värde"
+    ]
   },
   {
     "id": "1.440",
@@ -57778,24 +57879,41 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{2x^2+12x+18}{2(x^2-9)}.\\]</p>",
-    "s": "<p>Faktorisera:</p><p>\\[\\frac{2(x+3)^2}{2(x-3)(x+3)}=\\frac{x+3}{x-3}.\\]</p><p>I originaluttrycket gäller \\(x\\ne-3\\) och \\(x\\ne3\\).</p>",
+    "t": "<p>Förenkla uttrycket och ange vilka värden på \\(x\\) som inte är tillåtna i originaluttrycket:</p><p>\\[\\frac{2x^2+12x+18}{2(x^2-9)}.\\]</p>",
+    "s": "<p>Faktorisera:</p><p>\\[2x^2+12x+18=2(x+3)^2,\\]</p><p>\\[2(x^2-9)=2(x-3)(x+3).\\]</p><p>Därför</p><p>\\[\\frac{2(x+3)^2}{2(x-3)(x+3)}=\\frac{x+3}{x-3}.\\]</p><p>Originalets nämnare är noll för \\(x=-3\\) och \\(x=3\\).</p>",
     "familj": "Faktorisera och förkorta rationellt uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x+3)/(x-3)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "(x+3)/(x-3)",
+      [
+        -3,
+        3
+      ]
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera både täljare och nämnare. Skriv också vilka x-värden som inte är tillåtna i originaluttrycket.</p>",
+    "ledtrad": "<p>Faktorisera både täljare och nämnare innan du förkortar. Behåll definitionsvillkoren från originaluttrycket.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "NP Ma3c vt 2022, uppgift 7b",
-    "svarFormat": "uttryck"
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "förenklat uttryck",
+      "förbjudna x-värden"
+    ]
   },
   {
     "id": "2.541",
@@ -57808,18 +57926,18 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/3/0",
     "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{2e^x\\cdot e^{-ax}-e^x}{e^{-ax}-0,5}.\\]</p>",
-    "s": "<p>Faktorisera täljaren:</p><p>[e^x(2e^{-ax}-1)=2e^x(e^{-ax}-0,5).]</p><p>För alla x där originaluttrycket är definierat kan faktorn (e^{-ax}-0,5) förkortas, så uttrycket blir</p><p>[2e^x.]</p><p><strong>Obs:</strong> originaluttrycket kräver (e^{-ax}\ne0,5). Om (a\ne0) innebär det (x\neln2/a).</p>",
+    "s": "<p>Faktorisera täljaren:</p><p>\\[2e^x e^{-ax}-e^x=e^x(2e^{-ax}-1)=2e^x(e^{-ax}-0,5).\\]</p><p>Där originaluttrycket är definierat kan faktorn \\(e^{-ax}-0,5\\) förkortas, så uttrycket blir</p><p>\\[2e^x.\\]</p><p>Om \\(a\\ne0\\) är \\(x=\\ln2/a\\) inte tillåtet i originaluttrycket. Om \\(a=0\\) uppstår ingen sådan begränsning.</p>",
     "familj": "Förenkla uttryck med exponentialfunktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "2e^x",
+    "rättSvar": "2*e^x",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera ut (e^x) i täljaren och skriv (2e^{-ax}-1=2(e^{-ax}-0,5)). Kontrollera därefter när originalets nämnare är noll.</p>",
+    "ledtrad": "<p>Faktorisera ut \\(e^x\\) i täljaren och skriv \\(2e^{-ax}-1=2(e^{-ax}-0,5)\\). Kontrollera sedan när originalets nämnare kan bli noll.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -57834,8 +57952,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen</p><p>\\[3x^4-8x=2x^4.\\]</p>",
     "s": "<p>\\[x^4-8x=0\\Rightarrow x(x^3-8)=0.\\]</p><p>Alltså \\(x=0\\) eller \\(x=2\\).</p>",
     "familj": "Faktorisera och lösa polynomekvation",
@@ -57851,8 +57969,8 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Samla allt i ena ledet och bryt ut (x). Du får då en produkt som är noll.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Samla allt i ena ledet och bryt ut \\(x\\). Använd sedan nollproduktmetoden.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "NP Ma3c vt 2022, uppgift 8",
@@ -57900,8 +58018,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Funktionen ges av (f(x)=x^3-3x^2+7).</p><p>Bestäm funktionens lokala extrempunkter med hjälp av derivata och avgör om de är maximi- eller minimipunkter.</p>",
-    "s": "<p>[f'(x)=3x^2-6x=3x(x-2).]</p><p>De kritiska x-värdena är 0 och 2. Ett teckenstudium av (f') visar att derivatan går från plus till minus vid (x=0) och från minus till plus vid (x=2).</p><p>[f(0)=7,qquad f(2)=3.]</p><p><strong>Svar:</strong> maximipunkt ((0,7)) och minimipunkt ((2,3)).</p>",
+    "t": "<p>Funktionen ges av \\(f(x)=x^3-3x^2+7\\).</p><p>Bestäm funktionens lokala extrempunkter med hjälp av derivata och avgör om de är maximi- eller minimipunkter.</p>",
+    "s": "<p>\\[f'(x)=3x^2-6x=3x(x-2).\\]</p><p>De kritiska x-värdena är 0 och 2. Derivatan byter tecken från plus till minus vid \\(x=0\\) och från minus till plus vid \\(x=2\\).</p><p>\\[f(0)=7,\\qquad f(2)=3.\\]</p><p><strong>Svar:</strong> maximipunkt \\((0,7)\\) och minimipunkt \\((2,3)\\).</p>",
     "familj": "Bestäm och klassificera extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -57913,8 +58031,8 @@ window.BANKMATO1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Lös (f'(x)=0). Gör sedan ett teckenstudium av derivatan på intervallen runt nollställena.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Lös \\(f'(x)=0\\) och undersök derivatans tecken på båda sidor om nollställena.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "spel": false,
     "kalla": "NP Ma3c vt 2022, uppgift 14"
@@ -57939,10 +58057,10 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
-    "ledtrad": "<p>Skriv områdets area som (int_0^3 g(x),dx). Integrera med (p) kvar som parameter och sätt resultatet lika med 24.</p>",
+    "ledtrad": "<p>Skriv områdets area som \\(\\int_0^3 g(x)\\,dx\\). Integrera med \\(p\\) kvar och sätt resultatet lika med 24.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -57971,7 +58089,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd verktygets derivatafunktion för (f(x)=(2x-1)^5) och sätt sedan in (x=2). Kontrollera att du läser av derivatan, inte funktionsvärdet.</p>",
+    "ledtrad": "<p>Använd verktygets derivatafunktion på \\(f(x)=(2x-1)^5\\) och beräkna sedan \\(f'(2)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -57997,7 +58115,6 @@ window.BANKMATO1 = [
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
       "procedur"
     ],
     "ledtrad": "<p>Bestäm först den tredje vinkeln. De två givna sidorna möts i just den vinkeln, så därefter kan areasatsen användas.</p>",
@@ -58030,7 +58147,7 @@ window.BANKMATO1 = [
       "modellering",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt (f(x)=125). Isolera exponentialfaktorn och ta naturliga logaritmen på båda led.</p>",
+    "ledtrad": "<p>Sätt \\(f(x)=125\\). Isolera exponentialfaktorn och ta naturliga logaritmen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -58060,7 +58177,7 @@ window.BANKMATO1 = [
       "modellering",
       "procedur"
     ],
-    "ledtrad": "<p>Derivera modellen. Värdet (f'(6)) beskriver den momentana förändringen i cm per år när (x=6).</p>",
+    "ledtrad": "<p>Derivera modellen. Värdet \\(f'(6)\\) beskriver den momentana tillväxthastigheten när \\(x=6\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -58118,7 +58235,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Tangentens riktningskoefficient i (x=2) är (f'(2)). Derivera funktionen och sätt in 2.</p>",
+    "ledtrad": "<p>Tangentens riktningskoefficient vid \\(x=2\\) är \\(f'(2)\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -58145,10 +58262,10 @@ window.BANKMATO1 = [
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först sekantens lutning mellan de två givna punkterna. Sätt sedan (f'(x)) lika med denna lutning och lös exponentialekvationen.</p>",
+    "ledtrad": "<p>Bestäm sekantens lutning. Sätt sedan \\(f'(x)\\) lika med denna lutning och lös exponentialekvationen.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": true,
@@ -58164,21 +58281,21 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Bestäm alla primitiva funktioner till \\(f(x)=x^2\\).</p>",
-    "s": "<p>\\[F(x)=\\frac{x^3}{3}+C,\\qquad C\\in\\mathbb R.\\]</p>",
-    "familj": "Bestäm alla primitiva funktioner",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm den primitiva funktion \\(F\\) till \\(f(x)=x^2\\) som uppfyller \\(F(0)=2\\).</p>",
+    "s": "<p>Alla primitiva funktioner har formen</p><p>\\[F(x)=\\frac{x^3}{3}+C.\\]</p><p>Villkoret \\(F(0)=2\\) ger \\(C=2\\).</p><p><strong>Svar:</strong> \\(F(x)=x^3/3+2\\).</p>",
+    "familj": "Bestäm primitiv funktion med begynnelsevillkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "x^3/3+C",
+    "rättSvar": "x^3/3+2",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Öka exponenten från 2 till 3 och dividera med den nya exponenten. Lägg sedan till integrationskonstanten (C).</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Börja med den allmänna primitiva funktionen och använd sedan villkoret \\(F(0)=2\\) för att bestämma konstanten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2013, uppgift 1",
@@ -58194,24 +58311,39 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{3x+24}{2x+16}.\\]</p>",
-    "s": "<p>\\[\\frac{3(x+8)}{2(x+8)}=\\frac32,\\qquad x\\ne-8.\\]</p>",
+    "t": "<p>Förenkla uttrycket och ange vilket värde på \\(x\\) som inte är tillåtet i originaluttrycket:</p><p>\\[\\frac{3x+24}{2x+16}.\\]</p>",
+    "s": "<p>\\[\\frac{3(x+8)}{2(x+8)}=\\frac32.\\]</p><p>Originalets nämnare är noll när \\(x=-8\\).</p><p><strong>Svar:</strong> \\(3/2\\), med \\(x\\ne-8\\).</p>",
     "familj": "Förenkla rationellt uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "3/2",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3/2",
+      [
+        -8
+      ]
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bryt ut (x+8) i både täljare och nämnare. Ange också vilket x-värde som inte är tillåtet i originaluttrycket.</p>",
+    "ledtrad": "<p>Faktorisera täljare och nämnare med faktorn \\(x+8\\). Glöm inte originalets definitionsvillkor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2013, uppgift 2a",
-    "svarFormat": "uttryck"
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt"
+      ]
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "förenklat uttryck",
+      "förbjudet x-värde"
+    ]
   },
   {
     "id": "1.443",
@@ -58235,7 +58367,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Multiplicera in (x) i parentesen och samla sedan termer av samma grad.</p>",
+    "ledtrad": "<p>Multiplicera först in \\(x\\) i parentesen och samla sedan termer av samma grad.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -58264,7 +58396,7 @@ window.BANKMATO1 = [
       "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Radien till en tangentpunkt är vinkelrät mot tangenten. Därför ligger medelpunkten lodrätt ovanför ((4,0)). Använd även punkten ((4,6)).</p>",
+    "ledtrad": "<p>Radien till tangentpunkten är lodrät. Därför ligger medelpunkten på linjen \\(x=4\\). Använd också att \\((4,6)\\) ligger på cirkeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
@@ -58293,7 +58425,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd potensregeln på (3x^4), derivera (-7x), och kom ihåg att konstanten 5 får derivatan 0.</p>",
+    "ledtrad": "<p>Använd potensregeln term för term. Konstanten 5 får derivatan 0.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -58310,7 +58442,7 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Bestäm \\(f'(x)\\) då \\(f(x)=x^k+k\\), där \\(k\\) är en konstant.</p>",
+    "t": "<p>Bestäm \\(f'(x)\\) då \\(f(x)=x^k+k\\), där \\(k\\) är en positiv heltalskonstant.</p>",
     "s": "<p>Konstanten \\(k\\) har derivatan 0, och</p><p>\\[f'(x)=kx^{k-1}.\\]</p>",
     "familj": "Derivera potens med parameter",
     "geogebra": false,
@@ -58322,7 +58454,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Betrakta (k) som en konstant. Potensregeln gäller även när exponenten skrivs med en parameter.</p>",
+    "ledtrad": "<p>Betrakta \\(k\\) som en konstant. Använd potensregeln på \\(x^k\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": false,
@@ -58351,7 +58483,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Förenkla kvoten innan du deriverar: dela båda termerna i täljaren med (x).</p>",
+    "ledtrad": "<p>Förenkla kvoten först genom att dividera båda termerna i täljaren med \\(x\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -58378,10 +58510,9 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "problemlösning"
+      "procedur"
     ],
-    "ledtrad": "<p>Derivera (A(x)), lös (A'(x)=0) och kontrollera att punkten ger maximum i det fysiskt möjliga intervallet.</p>",
+    "ledtrad": "<p>Derivera \\(A(x)\\), lös \\(A'(x)=0\\) och kontrollera att punkten ger ett maximum.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -58398,8 +58529,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En blomrabatts area beskrivs av (A(x)=6x-3x^2), där det fysiskt möjliga intervallet är (0&lt;x&lt;2).</p><p>Vilka värden kan arean (A) anta i sammanhanget?</p>",
-    "s": "<p>Maxvärdet fås vid \\(x=1\\): \\(A(1)=3\\) m². Arean måste vara positiv för en verklig rabatt och kan göras godtyckligt nära 0.</p><p><strong>Värdemängd:</strong> \\(0&lt;A\\le3\\) m².</p>",
+    "t": "<p>En blomrabatts area beskrivs av \\(A(x)=6x-3x^2\\), där det fysiskt möjliga området är \\(0&lt;x&lt;2\\).</p><p>Vilka värden kan arean \\(A\\) anta i sammanhanget?</p>",
+    "s": "<p>Maximum fås vid \\(x=1\\):</p><p>\\[A(1)=3\\text{ m}^2.\\]</p><p>När \\(x\\) närmar sig 0 eller 2 närmar sig arean 0, men eftersom ändpunkterna inte ingår blir arean aldrig 0.</p><p><strong>Svar:</strong> \\(0&lt;A\\le3\\) m².</p>",
     "familj": "Bestäm värdemängd i extremvärdesproblem",
     "geogebra": false,
     "miniräknare": false,
@@ -58409,9 +58540,9 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "begrepp",
-      "problemlösning"
+      "resonemang"
     ],
-    "ledtrad": "<p>Bestäm först funktionens största värde på intervallet. Tänk sedan på att ändpunkterna inte ingår, men att arean kan komma hur nära 0 som helst.</p>",
+    "ledtrad": "<p>Bestäm först största värdet. Undersök sedan vad som händer när \\(x\\) närmar sig de två ändpunkterna.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": false,
@@ -58437,11 +58568,9 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "resonemang",
-      "problemlösning",
-      "kommunikation"
+      "resonemang"
     ],
-    "ledtrad": "<p>Bestäm tangentens lutning i (x=a) och skriv tangentens ekvation. Ta därefter fram dess skärningar med x- och y-axeln; de blir triangelns bas och höjd.</p>",
+    "ledtrad": "<p>Bestäm tangentens ekvation vid \\(x=a\\). Ta sedan fram tangentens skärningar med koordinataxlarna och använd dem som triangelns bas och höjd.</p>",
     "traningsniva": 5,
     "arbetsinsats": 3,
     "spel": false,
@@ -58470,7 +58599,7 @@ window.BANKMATO1 = [
       "modellering",
       "procedur"
     ],
-    "ledtrad": "<p>Medeländringen per dygn på intervallet fås av ((V(3)-V(0))/3). Eftersom frågan gäller hur mycket vikten minskar, tolka tecknet i svaret.</p>",
+    "ledtrad": "<p>Beräkna \\(V(0)\\) och \\(V(3)\\). Dividera förändringen med 3 dygn och tolka tecknet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -58529,7 +58658,7 @@ window.BANKMATO1 = [
       "resonemang",
       "begrepp"
     ],
-    "ledtrad": "<p>För en linjär funktion är derivatan konstant. Använd (f(3)=4) som en punkt och lutningen (2,4) för att beräkna (f(100)).</p>",
+    "ledtrad": "<p>För en linjär funktion är derivatan konstant. Använd punkten \\((3,4)\\) och lutningen 2,4.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
@@ -58544,25 +58673,26 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>För funktionen \\(f(x)=3x^4-12x\\), bestäm \\(f'(x)\\).</p>",
-    "s": "<p>\\[f'(x)=12x^3-12.\\]</p>",
-    "familj": "Derivera polynom",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=3x^4-12x\\). Bestäm det x-värde där grafen har en horisontell tangent.</p>",
+    "s": "<p>En horisontell tangent har lutningen 0:</p><p>\\[f'(x)=12x^3-12.\\]</p><p>\\[12x^3-12=0\\Rightarrow x^3=1\\Rightarrow x=1.\\]</p><p><strong>Svar:</strong> \\(x=1\\).</p>",
+    "familj": "Horisontell tangent från derivata",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "12x^3-12",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Använd potensregeln term för term.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Sätt derivatan lika med noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2014, uppgift 1",
-    "svarFormat": "uttryck"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.444",
@@ -58586,7 +58716,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd potenslagen (a^m/a^n=a^{m-n}), men tänk på när nämnaren är noll.</p>",
+    "ledtrad": "<p>Använd potenslagen \\(a^m/a^n=a^{m-n}\\). Kontrollera också när nämnaren är noll.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -58601,8 +58731,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{a}{\\frac1{2a}+\\frac1{2a}}.\\]</p>",
     "s": "<p>Nämnaren är \\(1/a\\). Därför</p><p>\\[\\frac{a}{1/a}=a^2,\\qquad a\\ne0.\\]</p>",
     "familj": "Förenkla komplext bråk",
@@ -58616,7 +58746,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "ledtrad": "<p>Förenkla först nämnaren. De två bråken är lika stora.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2014, uppgift 4b",
@@ -58630,8 +58760,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Grafen till en funktion \\(f\\) har en tangent i punkten där \\(x=5\\). Tangentens ekvation är \\(3x+2y-10=0\\).</p><p>Bestäm \\(f'(5)\\).</p>",
     "s": "<p>Skriv tangentens ekvation som \\(y=-\\frac32x+5\\). Tangentens lutning är alltså \\(-3/2\\), så \\(f'(5)=-3/2\\).</p>",
     "familj": "Bestäm derivata från tangentens ekvation",
@@ -58644,8 +58774,8 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv om tangentens ekvation på formen (y=kx+m). Tangentens lutning är (f'(5)).</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Skriv tangentens ekvation på formen \\(y=kx+m\\). Då är \\(k=f'(5)\\).</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2014, uppgift 7a",
@@ -58659,8 +58789,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Grafen till en funktion \\(f\\) har en tangent i punkten där \\(x=5\\). Tangentens ekvation är \\(3x+2y-10=0\\).</p><p>Bestäm \\(f(5)\\).</p>",
     "s": "<p>Tangeringspunkten ligger på tangenten. Sätt \\(x=5\\):</p><p>\\[15+2y-10=0\\Rightarrow y=-2,5.\\]</p><p>Alltså \\(f(5)=-2,5\\).</p>",
     "familj": "Bestäm funktionsvärde från tangentens ekvation",
@@ -58673,8 +58803,8 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Punkten där (x=5) ligger både på grafen och på tangenten. Sätt in (x=5) i tangentens ekvation.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Tangeringspunkten ligger både på grafen och på tangenten. Sätt in \\(x=5\\) i tangentens ekvation.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2014, uppgift 7b",
@@ -58700,7 +58830,10 @@ window.BANKMATO1 = [
       30,
       150
     ],
-    "tolerans": 0,
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -58709,7 +58842,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "kalla": "NP Ma3c ht 2012, uppgift 4"
+    "kalla": "NP Ma3c ht 2012, uppgift 4",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "svarEtiketter": null
   },
   {
     "id": "4.427",
@@ -58722,22 +58861,23 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Vinkeln \\(v\\) ligger i första kvadranten och \\(\\sin v=0,8\\).</p><p>Bestäm exakt \\(\\cos(180^\\circ-v)\\).</p>",
-    "s": "<p>Eftersom \\(\\sin v=4/5\\) och \\(v\\) ligger i första kvadranten är \\(\\cos v=3/5\\). Vid spegling till andra kvadranten byter cosinus tecken:</p><p>\\[\\cos(180^\\circ-v)=-\\cos v=-\\frac35=-0,6.\\]</p>",
+    "s": "<p>Eftersom \\(\\sin v=4/5\\) och \\(v\\) ligger i första kvadranten är \\(\\cos v=3/5\\). Vinkeln \\(180^\\circ-v\\) ligger i andra kvadranten, där cosinus är negativ:</p><p>\\[\\cos(180^\\circ-v)=-\\cos v=-\\frac35.\\]</p><p><strong>Svar:</strong> \\(-3/5\\).</p>",
     "familj": "Exakt trigonometriskt värde från enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -0.6,
-    "tolerans": 0,
+    "svarstyp": "uttryck",
+    "rättSvar": "-3/5",
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I första kvadranten gäller (sin^2v+cos^2v=1). Bestäm först (cos v), och använd sedan att (180^circ-v) ligger i andra kvadranten.</p>",
+    "ledtrad": "<p>Använd \\(\\sin^2v+\\cos^2v=1\\) för att bestämma \\(\\cos v\\). Fundera sedan på tecknet i andra kvadranten.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "kalla": "NP Ma3c ht 2012, uppgift 10"
+    "kalla": "NP Ma3c ht 2012, uppgift 10",
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.453",
@@ -58747,8 +58887,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>Vilken situation beskrivs bäst med en <strong>diskret</strong> funktion?</p><p>A. Bensinförbrukningen hos en bil beror av hur långt bilen körs.<br>B. Volymen av en kub beror av sidans längd.<br>C. Intäkten beror av hur många stolar som tillverkas i företaget.<br>D. Kostnaden för bananer beror av vikten på bananerna.</p>",
     "s": "<p><strong>Svar:</strong> C. Antalet tillverkade stolar antar heltalsvärden och är därför diskret.</p>",
     "familj": "Diskreta och kontinuerliga funktioner",
@@ -58759,10 +58899,10 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
     "ledtrad": "<p>En diskret variabel antar separata värden, ofta heltal.</p>",
-    "traningsniva": 3,
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "NP Ma3c ht 2012, uppgift 6"
@@ -58916,8 +59056,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Kaffets temperatur modelleras av \\(T(t)=95e^{-0,039t}\\).</p><p>Bestäm med hur många procent modellens temperatur minskar per minut.</p>",
     "s": "<p>Förändringsfaktorn per minut är \\(e^{-0,039}\\approx0,9618\\).</p><p>Minskningen är därför \\(1-0,9618\\approx0,0382\\), alltså cirka <strong>3,82 %</strong> per minut.</p>",
     "familj": "Förändringsfaktor från exponentialmodell",
@@ -58925,13 +59065,14 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3.82,
-    "tolerans": null,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Jämför förändringsfaktorn \\(e^{-0,039}\\) med 1.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "NP Ma3c ht 2012, uppgift 22b"
@@ -58944,8 +59085,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>I Hagaskolans cafeteria kostar bananer 2 kr per styck. Priset \\(P\\) kronor är en funktion av antalet bananer \\(x\\).</p><p>Beskriv grafen till funktionen i intervallet \\(1\\le x\\le4\\).</p>",
     "s": "<p>Eftersom antalet bananer är diskret består grafen av punkterna</p><p>\\[(1,2),\\ (2,4),\\ (3,6),\\ (4,8).\\]</p><p>Punkterna ska inte sammanbindas med en kontinuerlig linje.</p>",
     "familj": "Diskret funktionsgraf",
@@ -58959,7 +59100,7 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Antalet bananer kan bara vara heltal.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "kalla": "NP Ma3c ht 2013, uppgift 9"
@@ -58974,8 +59115,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "1/1/0",
-    "t": "<p>Funktionen ges av (f(x)=-0,75x^2+3).</p><p>Förklara varför</p><p>[int_{-2}^{0} f(x),dx=int_{0}^{2} f(x),dx.]</p>",
-    "s": "<p>Funktionen är jämn eftersom (f(-x)=f(x)). Grafen är därför symmetrisk kring y-axeln. Områdena på intervallen ([-2,0]) och ([0,2]) har samma area, så integralerna är lika.</p>",
+    "t": "<p>Funktionen ges av \\(f(x)=-0,75x^2+3\\).</p><p>Förklara varför</p><p>\\[\\int_{-2}^{0}f(x)\\,dx=\\int_{0}^{2}f(x)\\,dx.\\]</p>",
+    "s": "<p>Funktionen är jämn eftersom \\(f(-x)=f(x)\\). Grafen är därför symmetrisk kring y-axeln. Området mellan grafen och x-axeln för \\(-2\\le x\\le0\\) är lika stort som motsvarande område för \\(0\\le x\\le2\\). Därför är integralerna lika.</p>",
     "familj": "Symmetri i bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
@@ -58987,7 +59128,7 @@ window.BANKMATO1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Undersök grafens symmetri eller jämför (f(-x)) med (f(x)).</p>",
+    "ledtrad": "<p>Jämför \\(f(-x)\\) med \\(f(x)\\) och använd grafens symmetri.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": false,
@@ -59003,8 +59144,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "2/1/0",
-    "t": "<p>Funktionen (f(x)=-0,75x^2+3) ligger i rektangeln (-2le xle2), (0le yle5). Bestäm arean av den del av rektangeln som ligger ovanför grafen till (f).</p>",
-    "s": "<p>Rektangelns area är (4cdot5=20).</p><p>Arean under grafen är</p><p>[int_{-2}^{2}(-0,75x^2+3),dx=8.]</p><p>Den sökta arean blir (20-8=12).</p>",
+    "t": "<p>Funktionen \\(f(x)=-0,75x^2+3\\) ligger i rektangeln som bestäms av \\(-2\\le x\\le2\\) och \\(0\\le y\\le5\\).</p><p>Bestäm arean av den del av rektangeln som ligger ovanför grafen till \\(f\\).</p>",
+    "s": "<p>Rektangelns area är</p><p>\\[4\\cdot5=20.\\]</p><p>Arean under grafen är</p><p>\\[\\int_{-2}^{2}(-0,75x^2+3)\\,dx=8.\\]</p><p>Den sökta arean blir</p><p>\\[20-8=12.\\]</p><p><strong>Svar:</strong> 12 areaenheter.</p>",
     "familj": "Area som differens mellan rektangel och integral",
     "geogebra": false,
     "miniräknare": false,
@@ -59015,7 +59156,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta rektangelns area minus arean under grafen.</p>",
+    "ledtrad": "<p>Beräkna rektangelns area och dra bort arean under grafen.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
@@ -59057,10 +59198,10 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Lös ekvationen</p><p>[|x+2|=5.]</p>",
-    "s": "<p>Absolutbeloppet ger två fall:</p><p>[x+2=5quad\text{eller}quad x+2=-5.]</p><p>Alltså (x=3) eller (x=-7).</p>",
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen</p><p>\\[|x+2|=5.\\]</p>",
+    "s": "<p>Absolutbeloppet ger två fall:</p><p>\\[x+2=5\\quad\\text{eller}\\quad x+2=-5.\\]</p><p>Alltså</p><p>\\[x=3\\quad\\text{eller}\\quad x=-7.\\]</p>",
     "familj": "Lösa absolutbeloppsekvation",
     "geogebra": false,
     "miniräknare": false,
@@ -59069,16 +59210,25 @@ window.BANKMATO1 = [
       3,
       -7
     ],
-    "tolerans": null,
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ett absolutbelopp kan ge både ett positivt och ett negativt fall.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Om \\(|u|=5\\) kan \\(u\\) vara både 5 och -5.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "kalla": "NP Ma3c vt 2014, uppgift 6"
+    "kalla": "NP Ma3c vt 2014, uppgift 6",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": null
   },
   {
     "id": "1.459",
@@ -59088,8 +59238,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Beräkna exakt</p><p>\\[\\frac{(x+8)^6-(x+8)^5}{(x+8)^5}\\]</p><p>då \\(x=2,7\\).</p>",
     "s": "<p>Faktorisera täljaren:</p><p>\\[\\frac{(x+8)^5((x+8)-1)}{(x+8)^5}=x+7.\\]</p><p>Vid \\(x=2,7\\) blir värdet \\(9,7\\).</p>",
     "familj": "Förenkla potensuttryck",
@@ -59103,7 +59253,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "ledtrad": "<p>Bryt ut \\((x+8)^5\\) i täljaren innan du sätter in värdet.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "NP Ma3c vt 2013, uppgift 14"
@@ -59144,8 +59294,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett mobilabonnemang har en fast månadsavgift på 49 kr och en öppningsavgift på 0,69 kr per samtal. Om du ringer \\(x\\) samtal blir totalkostnaden \\(49+0,69x\\) kr.</p><p>Skriv ett uttryck för kostnaden per samtal under månaden.</p>",
     "s": "<p>Kostnad per samtal är totalkostnaden dividerad med antalet samtal:</p><p>\\[\\frac{49+0,69x}{x}=0,69+\\frac{49}{x}.\\]</p>",
     "familj": "Rationell kostnadsmodell",
@@ -59156,10 +59306,11 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "modellering",
       "procedur"
     ],
     "ledtrad": "<p>Dela månadens totala kostnad med antalet samtal.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "NP Ma3c vt 2014, uppgift 8a"
@@ -59174,8 +59325,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Grafen till \\(f\\) är en rät linje med nollstället \\(x=3\\). Ge ett exempel på tal \\(a<b\\) som uppfyller</p><p>\\[\\int_a^b f(x)\\,dx=0.\\]</p>",
-    "s": "<p>Eftersom en linjär funktion med nollställe vid \\(x=3\\) är punktsymmetrisk kring \\((3,0)\\), tar lika stora positiva och negativa areor ut varandra på ett symmetriskt intervall.</p><p>Ett exempel är \\(a=2\\), \\(b=4\\).</p>",
+    "t": "<p>Grafen till \\(f\\) är en rät linje med nollstället \\(x=3\\). Ge ett exempel på tal \\(a&lt;b\\) som uppfyller</p><p>\\[\\int_a^b f(x)\\,dx=0.\\]</p>",
+    "s": "<p>En linjär funktion med nollställe vid \\(x=3\\) är punktsymmetrisk kring \\((3,0)\\). På ett intervall med gränser lika långt från 3 tar lika stora positiva och negativa bidrag ut varandra.</p><p>Ett exempel är \\(a=2\\) och \\(b=4\\).</p>",
     "familj": "Integral för linjär funktion",
     "geogebra": false,
     "miniräknare": false,
@@ -59187,7 +59338,7 @@ window.BANKMATO1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Välj gränser lika långt från nollstället 3.</p>",
+    "ledtrad": "<p>Välj två gränser som ligger lika långt från nollstället \\(x=3\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": false,
@@ -59287,24 +59438,25 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>För polynomfunktionen</p><p>\\[g(x)=4x^6-2x^3+9\\]</p><p>bestäm polynomets grad.</p>",
-    "s": "<p>Den högsta exponenten är 6, så graden är <strong>6</strong>.</p>",
-    "familj": "Polynomets grad",
+    "poang": "2/0/0",
+    "t": "<p>Polynomfunktionen är</p><p>\\[g(x)=ax^6-2x^3+9.\\]</p><p>Vilket värde på \\(a\\) gör att \\(g\\) blir ett polynom av tredje graden?</p>",
+    "s": "<p>För att graden ska bli 3 måste termen \\(ax^6\\) försvinna. Det kräver \\(a=0\\). Då blir</p><p>\\[g(x)=-2x^3+9,\\]</p><p>som har grad 3.</p><p><strong>Svar:</strong> \\(a=0\\).</p>",
+    "familj": "Polynomets grad och parameter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
+    "rättSvar": 0,
+    "tolerans": 0,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "ledtrad": "<p>Titta på den största exponenten som förekommer.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken koefficient måste den högsta termen ha för att den inte ska finnas kvar?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "kalla": "Variant av NP Ma3c ht 2013, uppgift 1a"
+    "kalla": "Variant av NP Ma3c ht 2013, uppgift 1a",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.465",
@@ -59316,23 +59468,39 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{(x-3)(x+2)}{2x-6}.\\]</p>",
-    "s": "<p>Faktorisera nämnaren:</p><p>\\[2x-6=2(x-3).\\]</p><p>Därför</p><p>\\[\\frac{(x-3)(x+2)}{2(x-3)}=\\frac{x+2}{2},\\qquad x\\neq3.\\]</p>",
+    "t": "<p>Förenkla uttrycket och ange vilket värde på \\(x\\) som inte är tillåtet i originaluttrycket:</p><p>\\[\\frac{(x-3)(x+2)}{2x-6}.\\]</p>",
+    "s": "<p>\\[2x-6=2(x-3).\\]</p><p>Därför</p><p>\\[\\frac{(x-3)(x+2)}{2(x-3)}=\\frac{x+2}{2}.\\]</p><p>Originalets nämnare är noll när \\(x=3\\).</p>",
     "familj": "Förenkla rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "(x+2)/2",
+      [
+        3
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera nämnaren innan du förkortar.</p>",
+    "ledtrad": "<p>Faktorisera nämnaren och behåll definitionsvillkoret från originaluttrycket.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": false,
-    "kalla": "NP Ma3c ht 2012, uppgift 14a"
+    "spel": true,
+    "kalla": "NP Ma3c ht 2012, uppgift 14a",
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt"
+      ]
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "förenklat uttryck",
+      "förbjudet x-värde"
+    ]
   },
   {
     "id": "1.466",
@@ -59344,23 +59512,25 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{(x-5)(x+1)}{3x-15}.\\]</p>",
-    "s": "<p>\\[3x-15=3(x-5).\\]</p><p>Alltså</p><p>\\[\\frac{(x-5)(x+1)}{3(x-5)}=\\frac{x+1}{3},\\qquad x\\neq5.\\]</p>",
-    "familj": "Förenkla rationella uttryck",
+    "t": "<p>För det rationella uttrycket</p><p>\\[\\frac{(x-5)(x+1)}{3x-15}\\]</p><p>finns ett x-värde som inte är tillåtet. Bestäm detta värde.</p>",
+    "s": "<p>Nämnaren får inte vara noll:</p><p>\\[3x-15=0\\Rightarrow x=5.\\]</p><p><strong>Svar:</strong> \\(x=5\\).</p>",
+    "familj": "Bestäm definitionsvillkor för rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera nämnaren och kontrollera vilket värde som är förbjudet.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": false,
-    "kalla": "Variant av NP Ma3c ht 2012, uppgift 14a"
+    "spel": true,
+    "kalla": "Variant av NP Ma3c ht 2012, uppgift 14a",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.467",
@@ -59372,23 +59542,41 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{x^2+8x+16}{2x^2-32}.\\]</p>",
-    "s": "<p>Faktorisera:</p><p>\\[x^2+8x+16=(x+4)^2\\]</p><p>och</p><p>\\[2x^2-32=2(x^2-16)=2(x-4)(x+4).\\]</p><p>Därför</p><p>\\[\\frac{x+4}{2(x-4)},\\qquad x\\neq -4,4.\\]</p>",
+    "t": "<p>Förenkla uttrycket och ange vilka x-värden som inte är tillåtna i originaluttrycket:</p><p>\\[\\frac{x^2+8x+16}{2x^2-32}.\\]</p>",
+    "s": "<p>Faktorisera:</p><p>\\[x^2+8x+16=(x+4)^2,\\]</p><p>\\[2x^2-32=2(x-4)(x+4).\\]</p><p>Därför</p><p>\\[\\frac{x+4}{2(x-4)}.\\]</p><p>Originalets nämnare är noll för \\(x=-4\\) och \\(x=4\\).</p>",
     "familj": "Faktorisera och förenkla rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "(x+4)/(2*(x-4))",
+      [
+        -4,
+        4
+      ]
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera både täljare och nämnare helt.</p>",
+    "ledtrad": "<p>Faktorisera både täljare och nämnare helt innan du förkortar.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": false,
-    "kalla": "NP Ma3c ht 2012, uppgift 14b"
+    "spel": true,
+    "kalla": "NP Ma3c ht 2012, uppgift 14b",
+    "svarFormat": [
+      "uttryck",
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "förenklat uttryck",
+      "förbjudna x-värden"
+    ]
   },
   {
     "id": "1.468",
@@ -59398,30 +59586,32 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Förenkla så långt som möjligt:</p><p>\\[\\frac{x^2-10x+25}{3x^2-75}.\\]</p>",
-    "s": "<p>\\[x^2-10x+25=(x-5)^2\\]</p><p>och</p><p>\\[3x^2-75=3(x^2-25)=3(x-5)(x+5).\\]</p><p>Därför</p><p>\\[\\frac{x-5}{3(x+5)},\\qquad x\\neq -5,5.\\]</p>",
-    "familj": "Faktorisera och förenkla rationella uttryck",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Uttrycket</p><p>\\[\\frac{x^2-10x+25}{3x^2-75}\\]</p><p>kan förkortas till \\(\\frac{x-5}{3(x+5)}\\). Vilka x-värden är ändå förbjudna eftersom de gjorde <em>originalets</em> nämnare noll?</p><p>A. Endast \\(x=5\\)<br>B. Endast \\(x=-5\\)<br>C. \\(x=-5\\) och \\(x=5\\)<br>D. Inga värden</p>",
+    "s": "<p>Originalets nämnare är</p><p>\\[3x^2-75=3(x-5)(x+5).\\]</p><p>Den är noll för både \\(x=5\\) och \\(x=-5\\). Att faktorn \\(x-5\\) förkortas ändrar inte originalets definitionsmängd.</p><p><strong>Svar:</strong> C.</p>",
+    "familj": "Definitionsvillkor efter förkortning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "ledtrad": "<p>Använd kvadreringsregel i täljaren och konjugatregel i nämnaren.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Utgå från originalets nämnare, inte bara från det förkortade uttrycket.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "kalla": "Variant av NP Ma3c ht 2012, uppgift 14b"
+    "spel": true,
+    "kalla": "Variant av NP Ma3c ht 2012, uppgift 14b",
+    "svarFormat": "val"
   },
   {
     "id": "3.763",
     "kap": 3,
-    "omr": "primitiva_integraler",
+    "omr": "integraler",
     "kurs": [
       "1b",
       "1c"
@@ -59430,7 +59620,7 @@ window.BANKMATO1 = [
     "poang": "2/0/0",
     "t": "<p>Beräkna algebraiskt</p><p>\\[\\int_1^2 3x^2\\,dx.\\]</p>",
     "s": "<p>En primitiv funktion till \\(3x^2\\) är \\(x^3\\).</p><p>\\[\\int_1^2 3x^2\\,dx=[x^3]_1^2=8-1=7.\\]</p>",
-    "familj": "Bestämd integral",
+    "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -59444,12 +59634,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "kalla": "NP Ma3c vt 2013, uppgift 12"
+    "kalla": "NP Ma3c vt 2013, uppgift 12",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.764",
     "kap": 3,
-    "omr": "primitiva_integraler",
+    "omr": "integraler",
     "kurs": [
       "1b",
       "1c"
@@ -59458,7 +59649,7 @@ window.BANKMATO1 = [
     "poang": "2/0/0",
     "t": "<p>Beräkna</p><p>\\[\\int_0^3 2x^2\\,dx.\\]</p>",
     "s": "<p>En primitiv funktion är \\(\\frac{2}{3}x^3\\).</p><p>\\[\\left[\\frac{2}{3}x^3\\right]_0^3=18.\\]</p>",
-    "familj": "Bestämd integral",
+    "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -59472,12 +59663,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "kalla": "Variant 1 av NP Ma3c vt 2013, uppgift 12"
+    "kalla": "Variant 1 av NP Ma3c vt 2013, uppgift 12",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.765",
     "kap": 3,
-    "omr": "primitiva_integraler",
+    "omr": "integraler",
     "kurs": [
       "1b",
       "1c"
@@ -59500,12 +59692,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "kalla": "Variant 2 av NP Ma3c vt 2013, uppgift 12"
+    "kalla": "Variant 2 av NP Ma3c vt 2013, uppgift 12",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.766",
     "kap": 3,
-    "omr": "primitiva_integraler",
+    "omr": "integraler",
     "kurs": [
       "1b",
       "1c"
@@ -59528,7 +59721,8 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "kalla": "Variant 3 av NP Ma3c vt 2013, uppgift 12"
+    "kalla": "Variant 3 av NP Ma3c vt 2013, uppgift 12",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.575",
@@ -59570,7 +59764,7 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>För vilka värden på \\(a\\) har polynomet \\(p(x)=x^3+ax\\) exakt tre olika reella nollställen?</p>",
     "s": "<p>\\(p(x)=x(x^2+a)\\). Förutom \\(x=0\\) krävs två olika reella lösningar till \\(x^2=-a\\), vilket sker exakt när \\(a&lt;0\\).</p>",
-    "familj": "Variant: parameter och antal nollställen",
+    "familj": "Parameter och antal nollställen",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
@@ -59578,8 +59772,8 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "resonemang"
     ],
     "ledtrad": "<p>Faktorisera och fråga när ekvationen \\(x^2=-a\\) har två olika reella lösningar.</p>",
     "traningsniva": 3,
@@ -59599,10 +59793,10 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>För funktionerna \\(f(x)=12x^2\\) och \\(g(x)=x^3-27x\\), bestäm de x-värden där graferna har samma lutning.</p>",
     "s": "<p>\\(f^{\\prime}(x)=24x\\) och \\(g^{\\prime}(x)=3x^2-27\\). Sätt lika:</p><p>\\[24x=3x^2-27\\Rightarrow x^2-8x-9=0\\Rightarrow x=-1\\text{ eller }x=9.\\]</p>",
-    "familj": "Variant: samma lutning för två grafer",
+    "familj": "Samma lutning för två grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
+    "svarstyp": "flera_svar",
     "rättSvar": [
       -1,
       9
@@ -59611,13 +59805,17 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "begrepp"
     ],
     "ledtrad": "<p>Samma lutning betyder att derivatorna är lika.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "kalla": "Variant av NP Ma3c vt 2014, uppgift 19"
+    "kalla": "Variant av NP Ma3c vt 2014, uppgift 19",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.577",
@@ -59631,7 +59829,7 @@ window.BANKMATO1 = [
     "poang": "0/0/2",
     "t": "<p>Visa att funktionen \\(f(x)=x^3+3x+c\\) har exakt ett reellt nollställe för varje reellt värde på konstanten \\(c\\).</p>",
     "s": "<p>\\(f^{\\prime}(x)=3x^2+3&gt;0\\) för alla \\(x\\), så \\(f\\) är strikt växande. Eftersom en tredjegradsfunktion går mot \\(-\\infty\\) då \\(x\\to-\\infty\\) och mot \\(\\infty\\) då \\(x\\to\\infty\\), måste grafen skära x-axeln minst en gång. Strikt växande innebär att den inte kan skära mer än en gång. Alltså finns exakt ett reellt nollställe.</p>",
-    "familj": "Variant: monotoni och antal nollställen",
+    "familj": "Monotoni och antal nollställen",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
@@ -59660,7 +59858,7 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>En rektangulär rabatt byggs i ett hörn så att dess area kan beskrivas av \\(A(x)=8x-2x^2\\) för \\(0&lt;x&lt;4\\).</p><p>Bestäm rabattens största möjliga area och ange vilka värden arean kan anta i det fysiska sammanhanget.</p>",
     "s": "<p>\\(A^{\\prime}(x)=8-4x\\), så maximum fås vid \\(x=2\\). Då är \\(A(2)=8\\). När \\(x\\) närmar sig 0 eller 4 närmar sig arean 0, men ändpunkterna ingår inte. Alltså \\(0&lt;A\\le8\\).</p>",
-    "familj": "Variant: extremvärde och värdemängd",
+    "familj": "Bestämma extremvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
@@ -59685,11 +59883,11 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
-    "t": "<p>Funktionen ges av</p><p>\\[f(x)=(x-a)(x-3a)(x-5a),\\qquad a&gt;0.\\]</p><p>Visa utan att utveckla hela polynomet att tangenterna i nollställena \\(x=a\\) och \\(x=5a\\) är parallella.</p>",
-    "s": "<p>Vid ett enkelt nollställe kan derivatans värde fås genom att derivera produktformen och notera att alla termer utom en försvinner. Vid \\(x=a\\):</p><p>\\[f^{\\prime}(a)=(a-3a)(a-5a)=8a^2.\\]</p><p>Vid \\(x=5a\\):</p><p>\\[f^{\\prime}(5a)=(5a-a)(5a-3a)=8a^2.\\]</p><p>Lutningarna är lika, alltså är tangenterna parallella.</p>",
-    "familj": "Variant: parallella tangenter i symmetriska nollställen",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Funktionen ges av</p><p>\\[f(x)=(x-a)(x-3a)(x-5a),\\qquad a&gt;0.\\]</p><p>Visa genom att först skriva polynomet på utvecklad form att tangenterna i nollställena \\(x=a\\) och \\(x=5a\\) är parallella.</p>",
+    "s": "\\(f(x)=(x-a)(x-3a)(x-5a)=x^3-9ax^2+23a^2x-15a^3\\). Därför är \\(f^{\\prime}(x)=3x^2-18ax+23a^2\\).<br>Vid \\(x=a\\) fås \\(f^{\\prime}(a)=3a^2-18a^2+23a^2=8a^2\\). Vid \\(x=5a\\) fås \\(f^{\\prime}(5a)=75a^2-90a^2+23a^2=8a^2\\). Lutningarna är lika, alltså är tangenterna parallella.",
+    "familj": "Parallella tangenter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "resonemang",
@@ -59697,12 +59895,12 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "resonemang",
-      "problemlösning"
+      "procedur",
+      "resonemang"
     ],
-    "ledtrad": "<p>Utnyttja produktformen direkt i nollställena i stället för att multiplicera ut allt.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 2,
+    "ledtrad": "Utveckla först produkten till ett tredjegradspolynom och jämför sedan derivatans värde i de två nollställena.",
+    "traningsniva": 4,
+    "arbetsinsats": 3,
     "spel": false,
     "kalla": "Variant av NP Ma3c vt 2022, uppgift 26"
   },
@@ -59714,11 +59912,11 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Kurvan \\(y=e^{3x}\\) innehåller en punkt \\(P\\) vars y-koordinat är 9. Bestäm kurvans lutning i \\(P\\). Svara exakt.</p>",
     "s": "<p>Derivatan är \\(y^{\\prime}=3e^{3x}\\). I punkten \\(P\\) gäller redan att \\(e^{3x}=9\\), så lutningen är \\(3\\cdot9=27\\). Man behöver inte bestämma x-koordinaten först.</p>",
-    "familj": "Variant: bestäm lutning från funktionsvärde",
+    "familj": "Bestäm lutning utan att lösa x",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -59726,11 +59924,11 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "begrepp"
+      "begrepp",
+      "procedur"
     ],
     "ledtrad": "<p>Derivatan innehåller samma exponentialuttryck som funktionens y-värde.</p>",
-    "traningsniva": 4,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "Variant av NP Ma3c vt 2013, uppgift 15",
@@ -59744,26 +59942,33 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En funktion \\(f\\) har en tangent vid \\(x=5\\) med ekvationen \\(y=3x-10\\).</p><p>Bestäm \\(f(5)\\) och \\(f^{\\prime}(5)\\).</p>",
-    "s": "<p>Tangentens lutning är 3, alltså \\(f^{\\prime}(5)=3\\). När \\(x=5\\) är \\(y=3\\cdot5-10=5\\), alltså \\(f(5)=5\\).</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En funktion \\(f\\) har en tangent vid \\(x=5\\) med ekvationen \\(y=3x-10\\).</p><p>a) Bestäm \\(f(5)\\).<br>b) Bestäm \\(f^{\\prime}(5)\\).</p>",
+    "s": "Tangentens lutning är 3, alltså \\(f^{\\prime}(5)=3\\). När \\(x=5\\) är \\(y=3\\cdot5-10=5\\), alltså \\(f(5)=5\\).<br>Svar: a) \\(\\boxed{5}\\) &nbsp; b) \\(\\boxed{3}\\).",
     "familj": "Tolka tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      3
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Lutningen i tangentens ekvation är derivatans värde. Punkten där tangenten tangerar ligger både på grafen och på tangenten.</p>",
-    "traningsniva": 3,
+    "ledtrad": "Läs av tangentens lutning och sätt sedan in \\(x=5\\) i tangentens ekvation.",
+    "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": false,
-    "kalla": "Variant av NP Ma3c vt 2014, uppgift 7"
+    "spel": true,
+    "kalla": "Variant av NP Ma3c vt 2014, uppgift 7",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "3.771",
@@ -59786,7 +59991,7 @@ window.BANKMATO1 = [
     "självrättning": false,
     "formaga": [
       "procedur",
-      "problemlösning"
+      "begrepp"
     ],
     "ledtrad": "<p>Sätt derivatan lika med den givna lutningen. När x-värdet är känt kan du bestämma punkten.</p>",
     "traningsniva": 3,
@@ -59802,8 +60007,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>För en funktion gäller \\(f^{\\prime}(x)=(x+2)(x-5)\\).</p><p>Bestäm var \\(f\\) är avtagande och ange x-koordinaten för funktionens minimipunkt.</p>",
     "s": "<p>Derivatan är negativ mellan nollställena -2 och 5. Alltså är \\(f\\) avtagande för \\(-2&lt;x&lt;5\\). Vid \\(x=5\\) byter derivatan från negativ till positiv, så minimipunkten har x-koordinaten \\(\\boxed{5}\\).</p>",
     "familj": "Derivatans tecken och extrempunkt",
@@ -59814,11 +60019,11 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "procedur",
-      "begrepp"
+      "begrepp",
+      "procedur"
     ],
     "ledtrad": "<p>Bestäm derivatans tecken i intervallen som nollställena skapar.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": false,
     "kalla": "Variant av NP Ma3c ht 2012, uppgift 7"
@@ -59831,26 +60036,27 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En funktion \\(F\\) är en primitiv funktion till \\(f\\). Det gäller att \\(F(1)=4\\) och \\(F(6)=-2\\).</p><p>Bestäm \\(\\int_1^6 f(x)\\,dx\\) och förklara varför ingen formel för \\(f\\) behövs.</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En funktion \\(F\\) är en primitiv funktion till \\(f\\). Det gäller att \\(F(1)=4\\) och \\(F(6)=-2\\).</p><p>Bestäm \\(\\int_1^6 f(x)\\,dx\\).</p>",
     "s": "<p>Analysens huvudsats ger direkt</p><p>\\[\\int_1^6 f(x)\\,dx=F(6)-F(1)=-2-4=\\boxed{-6}.\\]</p><p>Eftersom ändringen i en primitiv funktion är integralens värde behövs ingen explicit formel för \\(f\\).</p>",
     "familj": "Integral som ändring i primitiv funktion",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Använd \\(\\int_a^b f(x)\\,dx=F(b)-F(a)\\).</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": false,
-    "kalla": "Variant av NP Ma3c ht 2012, uppgift 15"
+    "spel": true,
+    "kalla": "Variant av NP Ma3c ht 2012, uppgift 15",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.774",
@@ -59872,8 +60078,8 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "problemlösning",
-      "resonemang"
+      "resonemang",
+      "modellering"
     ],
     "ledtrad": "<p>Arbeta med en allmän tangeringspunkt \\((t,a/t)\\) och bestäm tangentens båda axelskärningar.</p>",
     "traningsniva": 5,
@@ -59889,25 +60095,24 @@ window.BANKMATO1 = [
       "1c"
     ],
     "omr": "extremvardesproblem",
-    "niva": "A",
-    "poang": "0/1/3",
-    "t": "<p>Funktionen \\(f(x)=-x^2+ax\\), där \\(a&gt;0\\), har maximipunkten \\((3,9)\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"225\" viewBox=\"0 0 390 225\" role=\"img\" aria-label=\"Nedåtvänd parabel med maximipunkt tre nio och skuggad area ovanför x-axeln\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"223\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"45\" y1=\"190\" x2=\"345\" y2=\"190\" stroke=\"#2B2527\"/><line x1=\"70\" y1=\"25\" x2=\"70\" y2=\"205\" stroke=\"#2B2527\"/>\n    <path d=\"M70 190 Q195 25 320 190 L70 190 Z\" fill=\"#E6F0FA\" stroke=\"none\"/><path d=\"M70 190 Q195 25 320 190\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><circle cx=\"195\" cy=\"107\" r=\"4\" fill=\"#B43123\"/><text x=\"205\" y=\"102\" font-size=\"12\" fill=\"#B43123\">(3,9)</text><text x=\"310\" y=\"205\" font-size=\"12\">6</text></svg></span><p>Bestäm arean av området mellan grafen och x-axeln.</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<p>Funktionen \\(f(x)=-x^2+ax\\), där \\(a&gt;0\\), har maximipunkten \\((3,9)\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"225\" viewBox=\"0 0 390 225\" role=\"img\" aria-label=\"Nedåtvänd parabel med maximipunkt tre nio och skuggad area ovanför x-axeln\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"223\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"45\" y1=\"190\" x2=\"345\" y2=\"190\" stroke=\"#2B2527\"/><line x1=\"70\" y1=\"25\" x2=\"70\" y2=\"205\" stroke=\"#2B2527\"/>\n    <path d=\"M70 190 Q195 25 320 190 L70 190 Z\" fill=\"#E6F0FA\" stroke=\"none\"/><path d=\"M70 190 Q195 25 320 190\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><circle cx=\"195\" cy=\"107\" r=\"4\" fill=\"#B43123\"/><text x=\"205\" y=\"102\" font-size=\"12\" fill=\"#B43123\">(3,9)</text></svg></span><p>Bestäm arean av området mellan grafen och x-axeln.</p>",
     "s": "<p>\\[f^{\\prime}(x)=-2x+a.\\]</p><p>Maximipunkten ligger vid \\(x=3\\), alltså</p><p>\\[-6+a=0\\Rightarrow a=6.\\]</p><p>Funktionen är då \\(f(x)=-x^2+6x=x(6-x)\\), så nollställena är 0 och 6.</p><p>Arean blir</p><p>\\[A=\\int_0^6(-x^2+6x)\\,dx=\\left[-\\frac{x^3}{3}+3x^2\\right]_0^6=\\boxed{36}.\\]</p>",
     "familj": "Bestäm parameter och beräkna area",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 36,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "problemlösning",
       "modellering",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
-    "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd maximipunktens x-koordinat för att bestämma \\(a\\). Bestäm därefter nollställena och integrera mellan dem.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "arbetsinsats": 4,
     "spel": false,
     "kalla": "Inspirerad av NP Ma3c ht 2013, muntlig uppgift 2"
@@ -59927,15 +60132,14 @@ window.BANKMATO1 = [
     "familj": "Tangent och geometrisk area",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
-      "problemlösning",
-      "resonemang"
+      "resonemang",
+      "modellering"
     ],
-    "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm tangentens ekvation i den allmänna punkten \\((a,a^3)\\). Hitta sedan tangentens skärning med x-axeln.</p>",
     "traningsniva": 5,
     "arbetsinsats": 4,
@@ -59980,8 +60184,8 @@ window.BANKMATO1 = [
       "1c"
     ],
     "omr": "integraler",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Ett område begränsas av y-axeln, linjen \\(y=12-2x\\) och kurvan \\(y=x^2+3\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"Område mellan y-axeln, linjen y lika med tolv minus två x och kurvan y lika med x kvadrat plus tre\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"212\" x2=\"350\" y2=\"212\" stroke=\"#2B2527\"/><line x1=\"58\" y1=\"22\" x2=\"58\" y2=\"212\" stroke=\"#2B2527\"/><polygon points=\"58.0,36.6 60.6,37.4 63.3,38.2 65.9,39.0 68.5,39.8 71.2,40.6 73.8,41.4 76.4,42.1 79.0,42.9 81.7,43.7 84.3,44.5 86.9,45.3 89.6,46.1 92.2,46.9 94.8,47.7 97.5,48.5 100.1,49.3 102.7,50.0 105.4,50.8 108.0,51.6 110.6,52.4 113.2,53.2 115.9,54.0 118.5,54.8 121.1,55.6 123.8,56.4 126.4,57.2 129.0,57.9 131.7,58.7 134.3,59.5 136.9,60.3 139.6,61.1 142.2,61.9 144.8,62.7 147.4,63.5 150.1,64.3 152.7,65.1 155.3,65.8 158.0,66.6 160.6,67.4 163.2,68.2 165.9,69.0 168.5,69.8 171.1,70.6 173.8,71.4 176.4,72.2 179.0,73.0 181.6,73.7 184.3,74.5 186.9,75.3 189.5,76.1 192.2,76.9 194.8,77.7 197.4,78.5 200.1,79.3 202.7,80.1 205.3,80.9 208.0,81.6 210.6,82.4 213.2,83.2 215.8,84.0 218.5,84.8 221.1,85.6 223.7,86.4 226.4,87.2 229.0,88.0 231.6,88.8 234.3,89.5 236.9,90.3 239.5,91.1 242.2,91.9 244.8,92.7 247.4,93.5 250.0,94.3 252.7,95.1 255.3,95.9 257.9,96.7 260.6,97.5 263.2,98.2 265.8,99.0 268.5,99.8 268.5,99.8 265.8,101.5 263.2,103.2 260.6,104.8 257.9,106.5 255.3,108.1 252.7,109.7 250.0,111.3 247.4,112.8 244.8,114.3 242.2,115.8 239.5,117.3 236.9,118.8 234.3,120.2 231.6,121.6 229.0,123.0 226.4,124.4 223.7,125.8 221.1,127.1 218.5,128.4 215.8,129.7 213.2,131.0 210.6,132.2 208.0,133.5 205.3,134.7 202.7,135.9 200.1,137.0 197.4,138.2 194.8,139.3 192.2,140.4 189.5,141.5 186.9,142.5 184.3,143.6 181.6,144.6 179.0,145.6 176.4,146.5 173.8,147.5 171.1,148.4 168.5,149.3 165.9,150.2 163.2,151.1 160.6,151.9 158.0,152.7 155.3,153.5 152.7,154.3 150.1,155.1 147.4,155.8 144.8,156.5 142.2,157.2 139.6,157.9 136.9,158.5 134.3,159.2 131.7,159.8 129.0,160.4 126.4,160.9 123.8,161.5 121.1,162.0 118.5,162.5 115.9,163.0 113.2,163.4 110.6,163.9 108.0,164.3 105.4,164.7 102.7,165.1 100.1,165.4 97.5,165.8 94.8,166.1 92.2,166.3 89.6,166.6 86.9,166.9 84.3,167.1 81.7,167.3 79.0,167.5 76.4,167.6 73.8,167.8 71.2,167.9 68.5,168.0 65.9,168.1 63.3,168.1 60.6,168.1 58.0,168.2\" fill=\"#DDEAF8\" opacity=\"0.8\"/><path d=\"M 58.0 36.6 L 60.9 37.5 L 63.8 38.4 L 66.8 39.2 L 69.7 40.1 L 72.6 41.0 L 75.5 41.9 L 78.4 42.8 L 81.4 43.6 L 84.3 44.5 L 87.2 45.4 L 90.1 46.3 L 93.0 47.1 L 96.0 48.0 L 98.9 48.9 L 101.8 49.8 L 104.7 50.6 L 107.6 51.5 L 110.6 52.4 L 113.5 53.3 L 116.4 54.2 L 119.3 55.0 L 122.2 55.9 L 125.2 56.8 L 128.1 57.7 L 131.0 58.5 L 133.9 59.4 L 136.8 60.3 L 139.8 61.2 L 142.7 62.0 L 145.6 62.9 L 148.5 63.8 L 151.4 64.7 L 154.4 65.6 L 157.3 66.4 L 160.2 67.3 L 163.1 68.2 L 166.0 69.1 L 169.0 69.9 L 171.9 70.8 L 174.8 71.7 L 177.7 72.6 L 180.6 73.4 L 183.6 74.3 L 186.5 75.2 L 189.4 76.1 L 192.3 77.0 L 195.2 77.8 L 198.2 78.7 L 201.1 79.6 L 204.0 80.5 L 206.9 81.3 L 209.8 82.2 L 212.8 83.1 L 215.7 84.0 L 218.6 84.8 L 221.5 85.7 L 224.4 86.6 L 227.4 87.5 L 230.3 88.4 L 233.2 89.2 L 236.1 90.1 L 239.0 91.0 L 242.0 91.9 L 244.9 92.7 L 247.8 93.6 L 250.7 94.5 L 253.6 95.4 L 256.6 96.2 L 259.5 97.1 L 262.4 98.0 L 265.3 98.9 L 268.2 99.8 L 271.2 100.6 L 274.1 101.5 L 277.0 102.4 L 279.9 103.3 L 282.8 104.1 L 285.8 105.0 L 288.7 105.9 L 291.6 106.8 L 294.5 107.6 L 297.4 108.5 L 300.4 109.4 L 303.3 110.3 L 306.2 111.2 L 309.1 112.0 L 312.0 112.9 L 315.0 113.8 L 317.9 114.7 L 320.8 115.5 L 323.7 116.4 L 326.6 117.3 L 329.6 118.2 L 332.5 119.0 L 335.4 119.9 L 338.3 120.8 L 341.2 121.7 L 344.2 122.6 L 347.1 123.4 L 350.0 124.3\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"/><path d=\"M 58.0 168.2 L 60.9 168.1 L 63.8 168.1 L 66.8 168.0 L 69.7 167.9 L 72.6 167.8 L 75.5 167.7 L 78.4 167.5 L 81.4 167.3 L 84.3 167.1 L 87.2 166.8 L 90.1 166.6 L 93.0 166.3 L 96.0 165.9 L 98.9 165.6 L 101.8 165.2 L 104.7 164.8 L 107.6 164.4 L 110.6 163.9 L 113.5 163.4 L 116.4 162.9 L 119.3 162.4 L 122.2 161.8 L 125.2 161.2 L 128.1 160.6 L 131.0 159.9 L 133.9 159.3 L 136.8 158.6 L 139.8 157.8 L 142.7 157.1 L 145.6 156.3 L 148.5 155.5 L 151.4 154.7 L 154.4 153.8 L 157.3 152.9 L 160.2 152.0 L 163.1 151.1 L 166.0 150.1 L 169.0 149.2 L 171.9 148.1 L 174.8 147.1 L 177.7 146.0 L 180.6 145.0 L 183.6 143.8 L 186.5 142.7 L 189.4 141.5 L 192.3 140.3 L 195.2 139.1 L 198.2 137.8 L 201.1 136.6 L 204.0 135.3 L 206.9 133.9 L 209.8 132.6 L 212.8 131.2 L 215.7 129.8 L 218.6 128.4 L 221.5 126.9 L 224.4 125.4 L 227.4 123.9 L 230.3 122.4 L 233.2 120.8 L 236.1 119.2 L 239.0 117.6 L 242.0 115.9 L 244.9 114.3 L 247.8 112.6 L 250.7 110.9 L 253.6 109.1 L 256.6 107.3 L 259.5 105.5 L 262.4 103.7 L 265.3 101.8 L 268.2 100.0 L 271.2 98.1 L 274.1 96.1 L 277.0 94.2 L 279.9 92.2 L 282.8 90.2 L 285.8 88.1 L 288.7 86.1 L 291.6 84.0 L 294.5 81.9 L 297.4 79.7 L 300.4 77.5 L 303.3 75.3 L 306.2 73.1 L 309.1 70.9 L 312.0 68.6 L 315.0 66.3 L 317.9 64.0 L 320.8 61.6 L 323.7 59.2 L 326.6 56.8 L 329.6 54.4 L 332.5 51.9 L 335.4 49.4 L 338.3 46.9 L 341.2 44.4 L 344.2 41.8 L 347.1 39.2 L 350.0 36.6\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><circle cx=\"268.5\" cy=\"99.8\" r=\"4\" fill=\"#555\"/><text x=\"273.5\" y=\"91.8\" font-size=\"11\">skärning</text><text x=\"267.3\" y=\"95.1\" font-size=\"12\" fill=\"#B43123\">y=12−2x</text><text x=\"233.2\" y=\"137.5\" font-size=\"12\" fill=\"#2D70B3\">y=x²+3</text><text x=\"358\" y=\"216\" font-size=\"12\">x</text><text x=\"53\" y=\"17\" font-size=\"12\">y</text></svg></span><p>Bestäm områdets area.</p>",
     "s": "<p>Skärningen mellan linjen och kurvan bestäms av</p><p>\\[12-2x=x^2+3\\Rightarrow x^2+2x-9=0.\\]</p><p>Den positiva lösningen är \\(x=-1+\\sqrt{10}\\). På intervallet från 0 till detta x-värde ligger linjen över kurvan.</p><p>Arean är</p><p>\\[A=\\int_0^{-1+\\sqrt{10}}(9-2x-x^2)\\,dx.\\]</p><p>Med \\(r=-1+\\sqrt{10}\\) och sambandet \\(r^2+2r-9=0\\) kan uttrycket förenklas till</p><p>\\[A=\\boxed{\\frac{20\\sqrt{10}-29}{3}}\\approx11,41.\\]</p>",
     "familj": "Area mellan linje och kurva",
@@ -59992,11 +60196,11 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "ledtrad": "<p>Bestäm först den positiva skärningspunkten. Integrera sedan övre funktion minus undre funktion från y-axeln till skärningspunkten.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "arbetsinsats": 4,
     "spel": false,
     "kalla": "Inspirerad av NP Ma3c vt 2013, muntlig uppgift Area"
@@ -60009,9 +60213,9 @@ window.BANKMATO1 = [
       "1c"
     ],
     "omr": "primitiva_funktioner",
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En funktion \\(F\\) är en primitiv funktion till \\(f\\). Det är känt att</p><p>\\[F(-2)=1,\\qquad F(3)=7.\\]</p><p>Bestäm värdet av</p><p>\\[\\int_{-2}^{3}f(x)\\,dx\\]</p><p>och förklara varför du inte behöver känna till någon formel för \\(f\\).</p>",
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En funktion \\(F\\) är en primitiv funktion till \\(f\\). Det är känt att \\(F(-2)=1\\) och \\(F(3)=7\\).</p><p>Bestäm \\(\\int_{-2}^{3}f(x)\\,dx\\).</p>",
     "s": "<p>Eftersom \\(F^{\\prime}=f\\) ger analysens huvudsats direkt</p><p>\\[\\int_{-2}^{3}f(x)\\,dx=F(3)-F(-2)=7-1=\\boxed{6}.\\]</p><p>Det räcker alltså att känna till den primitiva funktionens värden i intervallets ändpunkter.</p>",
     "familj": "Analysens huvudsats från funktionsvärden",
     "geogebra": false,
@@ -60022,11 +60226,11 @@ window.BANKMATO1 = [
     "självrättning": true,
     "formaga": [
       "begrepp",
-      "resonemang"
+      "procedur"
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En bestämd integral kan beräknas som skillnaden mellan en primitiv funktions värden i övre och undre gränsen.</p>",
-    "traningsniva": 3,
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "Inspirerad av NP Ma3c vt 2013, uppgift 11"
@@ -60067,8 +60271,8 @@ window.BANKMATO1 = [
       "1c"
     ],
     "omr": "integraler",
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Grafen till \\(f\\) består av räta linjesegment och visas i figuren.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Styckvis linjär graf till f\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"101.0\" y1=\"22\" x2=\"101.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"101.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"154.0\" y1=\"22\" x2=\"154.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"154.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"207.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"260.0\" y1=\"22\" x2=\"260.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"260.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"313.0\" y1=\"22\" x2=\"313.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"313.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"366.0\" y1=\"22\" x2=\"366.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"366.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"203.1\" x2=\"366\" y2=\"203.1\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"206.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"147.4\" x2=\"366\" y2=\"147.4\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"91.6\" x2=\"366\" y2=\"91.6\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"94.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"35.9\" x2=\"366\" y2=\"35.9\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"38.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"147.4\" x2=\"366\" y2=\"147.4\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 147.4 L49.8 145.5 L51.5 143.6 L53.3 141.8 L55.1 139.9 L56.8 138.1 L58.6 136.2 L60.4 134.4 L62.1 132.5 L63.9 130.6 L65.7 128.8 L67.4 126.9 L69.2 125.1 L71.0 123.2 L72.7 121.4 L74.5 119.5 L76.3 117.6 L78.0 115.8 L79.8 113.9 L81.6 112.1 L83.3 110.2 L85.1 108.4 L86.9 106.5 L88.6 104.6 L90.4 102.8 L92.2 100.9 L93.9 99.1 L95.7 97.2 L97.5 95.4 L99.2 93.5 L101.0 91.6 L102.8 89.8 L104.5 87.9 L106.3 86.1 L108.1 84.2 L109.8 82.4 L111.6 80.5 L113.4 78.6 L115.1 76.8 L116.9 74.9 L118.7 73.1 L120.4 71.2 L122.2 69.4 L124.0 67.5 L125.7 65.6 L127.5 63.8 L129.3 61.9 L131.0 60.1 L132.8 58.2 L134.6 56.4 L136.3 54.5 L138.1 52.6 L139.9 50.8 L141.6 48.9 L143.4 47.1 L145.2 45.2 L146.9 43.4 L148.7 41.5 L150.5 39.6 L152.2 37.8 L154.0 35.9 L155.8 37.8 L157.5 39.6 L159.3 41.5 L161.1 43.4 L162.8 45.2 L164.6 47.1 L166.4 48.9 L168.1 50.8 L169.9 52.6 L171.7 54.5 L173.4 56.4 L175.2 58.2 L177.0 60.1 L178.7 61.9 L180.5 63.8 L182.3 65.6 L184.0 67.5 L185.8 69.4 L187.6 71.2 L189.3 73.1 L191.1 74.9 L192.9 76.8 L194.6 78.6 L196.4 80.5 L198.2 82.4 L199.9 84.2 L201.7 86.1 L203.5 87.9 L205.2 89.8 L207.0 91.6 L208.8 93.5 L210.5 95.4 L212.3 97.2 L214.1 99.1 L215.8 100.9 L217.6 102.8 L219.4 104.6 L221.1 106.5 L222.9 108.4 L224.7 110.2 L226.4 112.1 L228.2 113.9 L230.0 115.8 L231.7 117.6 L233.5 119.5 L235.3 121.4 L237.0 123.2 L238.8 125.1 L240.6 126.9 L242.3 128.8 L244.1 130.6 L245.9 132.5 L247.6 134.4 L249.4 136.2 L251.2 138.1 L252.9 139.9 L254.7 141.8 L256.5 143.6 L258.2 145.5 L260.0 147.4 L261.8 148.3 L263.5 149.2 L265.3 150.1 L267.1 151.1 L268.8 152.0 L270.6 152.9 L272.4 153.9 L274.1 154.8 L275.9 155.7 L277.7 156.6 L279.4 157.6 L281.2 158.5 L283.0 159.4 L284.7 160.4 L286.5 161.3 L288.3 162.2 L290.0 163.1 L291.8 164.1 L293.6 165.0 L295.3 165.9 L297.1 166.9 L298.9 167.8 L300.6 168.7 L302.4 169.6 L304.2 170.6 L305.9 171.5 L307.7 172.4 L309.5 173.4 L311.2 174.3 L313.0 175.2 L314.8 176.1 L316.5 177.1 L318.3 178.0 L320.1 178.9 L321.8 179.9 L323.6 180.8 L325.4 181.7 L327.1 182.6 L328.9 183.6 L330.7 184.5 L332.4 185.4 L334.2 186.4 L336.0 187.3 L337.7 188.2 L339.5 189.1 L341.3 190.1 L343.0 191.0 L344.8 191.9 L346.6 192.9 L348.3 193.8 L350.1 194.7 L351.9 195.6 L353.6 196.6 L355.4 197.5 L357.2 198.4 L358.9 199.4 L360.7 200.3 L362.5 201.2 L364.2 202.1 L366.0 203.1\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><circle cx=\"48.0\" cy=\"147.4\" r=\"4\" fill=\"#B43123\"/><text x=\"55.0\" y=\"140.4\" font-size=\"11\"></text><circle cx=\"154.0\" cy=\"35.9\" r=\"4\" fill=\"#B43123\"/><text x=\"161.0\" y=\"28.9\" font-size=\"11\"></text><circle cx=\"260.0\" cy=\"147.4\" r=\"4\" fill=\"#B43123\"/><text x=\"267.0\" y=\"140.4\" font-size=\"11\"></text><circle cx=\"366.0\" cy=\"203.1\" r=\"4\" fill=\"#B43123\"/><text x=\"373.0\" y=\"196.1\" font-size=\"11\"></text><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">f</text></svg></span><p>Bestäm \\(\\int_0^6f(x)\\,dx\\) genom geometriska areor.</p>",
     "s": "<p>Från \\(0\\) till \\(4\\) bildas en triangel med bas 4 och höjd 4, alltså area 8.</p><p>Från \\(4\\) till \\(6\\) ligger grafen under x-axeln och bildar en triangel med bas 2 och höjd 2, vilket bidrar med \\(-2\\).</p><p>\\[\\int_0^6f(x)dx=8-2=\\boxed{6}.\\]</p>",
     "familj": "Bestämd integral från styckvis linjär graf",
@@ -60084,9 +60288,9 @@ window.BANKMATO1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Om en del av grafen ligger under x-axeln ska den arean räknas negativt i integralen.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 3,
-    "spel": false
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true
   },
   {
     "id": "3.782",
@@ -60124,26 +60328,26 @@ window.BANKMATO1 = [
       "1c"
     ],
     "omr": "integraltillampningar",
-    "niva": "A",
-    "poang": "0/1/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>En bils acceleration är</p><p>\\[a(t)=6-2t\\quad\\text{m/s}^2,\\qquad 0\\le t\\le5.\\]</p><p>Vid \\(t=0\\) är hastigheten 4 m/s.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" role=\"img\" aria-label=\"Acceleration som byter tecken\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#F0EFF2\"/><line x1=\"111.6\" y1=\"22\" x2=\"111.6\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"111.6\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"175.2\" y1=\"22\" x2=\"175.2\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"175.2\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"238.8\" y1=\"22\" x2=\"238.8\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"238.8\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"302.4\" y1=\"22\" x2=\"302.4\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"302.4\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"366.0\" y1=\"22\" x2=\"366.0\" y2=\"217\" stroke=\"#F0EFF2\"/><text x=\"366.0\" y=\"234\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"217.0\" x2=\"366\" y2=\"217.0\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"220.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-4</text><line x1=\"48\" y1=\"181.5\" x2=\"366\" y2=\"181.5\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"184.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"146.1\" x2=\"366\" y2=\"146.1\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"110.6\" x2=\"366\" y2=\"110.6\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"113.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"75.2\" x2=\"366\" y2=\"75.2\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"78.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"39.7\" x2=\"366\" y2=\"39.7\" stroke=\"#F0EFF2\"/><text x=\"41\" y=\"42.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"146.1\" x2=\"366\" y2=\"146.1\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"217\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M48.0 39.7 L49.8 40.7 L51.5 41.7 L53.3 42.7 L55.1 43.7 L56.8 44.7 L58.6 45.6 L60.4 46.6 L62.1 47.6 L63.9 48.6 L65.7 49.6 L67.4 50.6 L69.2 51.5 L71.0 52.5 L72.7 53.5 L74.5 54.5 L76.3 55.5 L78.0 56.5 L79.8 57.5 L81.6 58.4 L83.3 59.4 L85.1 60.4 L86.9 61.4 L88.6 62.4 L90.4 63.4 L92.2 64.3 L93.9 65.3 L95.7 66.3 L97.5 67.3 L99.2 68.3 L101.0 69.3 L102.8 70.3 L104.5 71.2 L106.3 72.2 L108.1 73.2 L109.8 74.2 L111.6 75.2 L113.4 76.2 L115.1 77.2 L116.9 78.1 L118.7 79.1 L120.4 80.1 L122.2 81.1 L124.0 82.1 L125.7 83.1 L127.5 84.0 L129.3 85.0 L131.0 86.0 L132.8 87.0 L134.6 88.0 L136.3 89.0 L138.1 90.0 L139.9 90.9 L141.6 91.9 L143.4 92.9 L145.2 93.9 L146.9 94.9 L148.7 95.9 L150.5 96.8 L152.2 97.8 L154.0 98.8 L155.8 99.8 L157.5 100.8 L159.3 101.8 L161.1 102.8 L162.8 103.7 L164.6 104.7 L166.4 105.7 L168.1 106.7 L169.9 107.7 L171.7 108.7 L173.4 109.7 L175.2 110.6 L177.0 111.6 L178.7 112.6 L180.5 113.6 L182.3 114.6 L184.0 115.6 L185.8 116.5 L187.6 117.5 L189.3 118.5 L191.1 119.5 L192.9 120.5 L194.6 121.5 L196.4 122.5 L198.2 123.4 L199.9 124.4 L201.7 125.4 L203.5 126.4 L205.2 127.4 L207.0 128.4 L208.8 129.3 L210.5 130.3 L212.3 131.3 L214.1 132.3 L215.8 133.3 L217.6 134.3 L219.4 135.3 L221.1 136.2 L222.9 137.2 L224.7 138.2 L226.4 139.2 L228.2 140.2 L230.0 141.2 L231.7 142.2 L233.5 143.1 L235.3 144.1 L237.0 145.1 L238.8 146.1 L240.6 147.1 L242.3 148.1 L244.1 149.0 L245.9 150.0 L247.6 151.0 L249.4 152.0 L251.2 153.0 L252.9 154.0 L254.7 155.0 L256.5 155.9 L258.2 156.9 L260.0 157.9 L261.8 158.9 L263.5 159.9 L265.3 160.9 L267.1 161.8 L268.8 162.8 L270.6 163.8 L272.4 164.8 L274.1 165.8 L275.9 166.8 L277.7 167.8 L279.4 168.7 L281.2 169.7 L283.0 170.7 L284.7 171.7 L286.5 172.7 L288.3 173.7 L290.0 174.7 L291.8 175.6 L293.6 176.6 L295.3 177.6 L297.1 178.6 L298.9 179.6 L300.6 180.6 L302.4 181.5 L304.2 182.5 L305.9 183.5 L307.7 184.5 L309.5 185.5 L311.2 186.5 L313.0 187.5 L314.8 188.4 L316.5 189.4 L318.3 190.4 L320.1 191.4 L321.8 192.4 L323.6 193.4 L325.4 194.3 L327.1 195.3 L328.9 196.3 L330.7 197.3 L332.4 198.3 L334.2 199.3 L336.0 200.3 L337.7 201.2 L339.5 202.2 L341.3 203.2 L343.0 204.2 L344.8 205.2 L346.6 206.2 L348.3 207.2 L350.1 208.1 L351.9 209.1 L353.6 210.1 L355.4 211.1 L357.2 212.1 L358.9 213.1 L360.7 214.0 L362.5 215.0 L364.2 216.0 L366.0 217.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.4\"/><text x=\"361\" y=\"37\" text-anchor=\"end\" font-size=\"11\" fill=\"#2D70B3\">a(t)</text></svg></span><p>Bestäm bilens sträcka under de första 5 sekunderna.</p>",
-    "s": "<p>Integrera accelerationen:</p><p>\\[v(t)=6t-t^2+C.\\]</p><p>Villkoret \\(v(0)=4\\) ger \\(C=4\\), alltså \\(v(t)=4+6t-t^2\\).</p><p>På \\([0,5]\\) är hastigheten positiv, så sträckan är</p><p>\\[s=\\int_0^5(4+6t-t^2)dt=\\left[4t+3t^2-\\frac{t^3}{3}\\right]_0^5=\\boxed{\\frac{160}{3}\\text{ m}}.\\]</p>",
+    "s": "<p>Integrera accelerationen:</p><p>\\[v(t)=6t-t^2+C.\\]</p><p>Villkoret \\(v(0)=4\\) ger \\(C=4\\), alltså \\(v(t)=4+6t-t^2\\).</p><p>För \\(0\\le t\\le5\\) är hastigheten positiv, så sträckan är</p><p>\\[s=\\int_0^5(4+6t-t^2)dt=\\left[4t+3t^2-\\frac{t^3}{3}\\right]_0^5=\\boxed{\\frac{160}{3}\\text{ m}}.\\]</p>",
     "familj": "Från acceleration till sträcka med startvillkor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "bråk",
-    "rättSvar": "160/3",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 53.3333333333,
+    "tolerans": 0.05,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "svarFormat": "bråk",
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Du behöver integrera två gånger: först acceleration till hastighet och sedan hastighet till sträcka.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "arbetsinsats": 4,
-    "spel": false
+    "spel": true
   },
   {
     "id": "3.784",
@@ -60165,7 +60369,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": false,
     "formaga": [
-      "problemlösning",
+      "procedur",
       "resonemang"
     ],
     "ledtrad": "<p>Inför halva områdets bredd \\(a\\). Då blir höjdskillnaden \\(a^2-x^2\\), vilket förenklar integralen.</p>",
@@ -60183,7 +60387,7 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Förändringshastighet\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"106.9\" y1=\"18\" x2=\"106.9\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"106.9\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"165.8\" y1=\"18\" x2=\"165.8\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"165.8\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"224.7\" y1=\"18\" x2=\"224.7\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"224.7\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"283.6\" y1=\"18\" x2=\"283.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"283.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"342.5\" y1=\"18\" x2=\"342.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"342.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"183.4\" x2=\"372\" y2=\"183.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"186.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"48\" y1=\"159.8\" x2=\"372\" y2=\"159.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"162.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"136.1\" x2=\"372\" y2=\"136.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"139.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"48\" y1=\"112.5\" x2=\"372\" y2=\"112.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"115.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"88.9\" x2=\"372\" y2=\"88.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"91.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"48\" y1=\"65.2\" x2=\"372\" y2=\"65.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"68.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"41.6\" x2=\"372\" y2=\"41.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"44.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 207.0 L 165.8 65.2 L 342.5 65.2\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"223.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Grafen visar en förändringshastighet \\(r(t)\\) i enheter per minut.</p><p>Bestäm den sammanlagda förändringen under de första 5 minuterna.</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Förändringshastighet\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"106.9\" y1=\"18\" x2=\"106.9\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"106.9\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"165.8\" y1=\"18\" x2=\"165.8\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"165.8\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"224.7\" y1=\"18\" x2=\"224.7\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"224.7\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"283.6\" y1=\"18\" x2=\"283.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"283.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"342.5\" y1=\"18\" x2=\"342.5\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"342.5\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"183.4\" x2=\"372\" y2=\"183.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"186.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">0.5</text><line x1=\"48\" y1=\"159.8\" x2=\"372\" y2=\"159.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"162.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"136.1\" x2=\"372\" y2=\"136.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"139.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1.5</text><line x1=\"48\" y1=\"112.5\" x2=\"372\" y2=\"112.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"115.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"88.9\" x2=\"372\" y2=\"88.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"91.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2.5</text><line x1=\"48\" y1=\"65.2\" x2=\"372\" y2=\"65.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"68.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"41.6\" x2=\"372\" y2=\"41.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"44.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3.5</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 207.0 L 165.8 65.2 L 342.5 65.2\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"223.0\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">t</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">r(t)</text></svg></span><p>Grafen visar en förändringshastighet \\(r(t)\\) i enheter per minut.</p><p>Bestäm den sammanlagda förändringen under de första 5 minuterna.</p>",
     "s": "<p>Den sammanlagda förändringen är arean under grafen. Triangeln från 0 till 2 har area 3 och rektangeln från 2 till 5 har area 9.</p><p><strong>Svar:</strong> 12 enheter.</p>",
     "familj": "Ackumulerad förändring från graf",
     "geogebra": false,
@@ -60212,8 +60416,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Graf till derivatan\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"69.6\" y1=\"18\" x2=\"69.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"69.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-3</text><line x1=\"112.8\" y1=\"18\" x2=\"112.8\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"112.8\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"156.0\" y1=\"18\" x2=\"156.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"156.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"199.2\" y1=\"18\" x2=\"199.2\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"242.4\" y1=\"18\" x2=\"242.4\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"242.4\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"285.6\" y1=\"18\" x2=\"285.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"285.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"328.8\" y1=\"18\" x2=\"328.8\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"328.8\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"192.1\" x2=\"372\" y2=\"192.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"195.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-15</text><line x1=\"48\" y1=\"167.2\" x2=\"372\" y2=\"167.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"170.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-10</text><line x1=\"48\" y1=\"142.3\" x2=\"372\" y2=\"142.3\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"145.3\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-5</text><line x1=\"48\" y1=\"117.5\" x2=\"372\" y2=\"117.5\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"92.6\" x2=\"372\" y2=\"92.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"95.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"67.7\" x2=\"372\" y2=\"67.7\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"70.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">10</text><line x1=\"48\" y1=\"42.9\" x2=\"372\" y2=\"42.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"45.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">15</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">20</text><line x1=\"199.2\" y1=\"18\" x2=\"199.2\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"117.5\" x2=\"372\" y2=\"117.5\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 335.7 L 49.4 328.6 L 50.7 321.7 L 52.0 314.9 L 53.4 308.2 L 54.8 301.6 L 56.1 295.2 L 57.5 288.8 L 58.8 282.6 L 60.1 276.5 L 61.5 270.5 L 62.9 264.6 L 64.2 258.8 L 65.5 253.2 L 66.9 247.6 L 68.2 242.2 L 69.6 236.8 L 71.0 231.6 L 72.3 226.5 L 73.7 221.5 L 75.0 216.5 L 76.3 211.7 L 77.7 207.0 L 79.0 202.4 L 80.4 197.9 L 81.8 193.5 L 83.1 189.2 L 84.5 185.0 L 85.8 180.9 L 87.2 176.8 L 88.5 172.9 L 89.8 169.1 L 91.2 165.3 L 92.6 161.7 L 93.9 158.1 L 95.2 154.7 L 96.6 151.3 L 98.0 148.0 L 99.3 144.8 L 100.7 141.7 L 102.0 138.7 L 103.3 135.7 L 104.7 132.9 L 106.0 130.1 L 107.4 127.4 L 108.8 124.8 L 110.1 122.3 L 111.5 119.8 L 112.8 117.5 L 114.2 115.2 L 115.5 113.0 L 116.8 110.8 L 118.2 108.8 L 119.5 106.8 L 120.9 104.9 L 122.2 103.0 L 123.6 101.2 L 125.0 99.5 L 126.3 97.9 L 127.6 96.3 L 129.0 94.8 L 130.3 93.4 L 131.7 92.0 L 133.1 90.7 L 134.4 89.5 L 135.8 88.3 L 137.1 87.2 L 138.4 86.2 L 139.8 85.2 L 141.1 84.2 L 142.5 83.4 L 143.8 82.6 L 145.2 81.8 L 146.6 81.1 L 147.9 80.5 L 149.2 79.9 L 150.6 79.3 L 151.9 78.8 L 153.3 78.4 L 154.7 78.0 L 156.0 77.7 L 157.4 77.4 L 158.7 77.2 L 160.1 77.0 L 161.4 76.8 L 162.8 76.7 L 164.1 76.7 L 165.4 76.6 L 166.8 76.7 L 168.2 76.7 L 169.5 76.9 L 170.8 77.0 L 172.2 77.2 L 173.6 77.4 L 174.9 77.7 L 176.2 78.0 L 177.6 78.3 L 178.9 78.7 L 180.3 79.1 L 181.7 79.5 L 183.0 80.0 L 184.3 80.5 L 185.7 81.0 L 187.0 81.5 L 188.4 82.1 L 189.8 82.7 L 191.1 83.4 L 192.5 84.0 L 193.8 84.7 L 195.2 85.4 L 196.5 86.1 L 197.8 86.9 L 199.2 87.6 L 200.6 88.4 L 201.9 89.2 L 203.2 90.0 L 204.6 90.9 L 205.9 91.7 L 207.3 92.6 L 208.7 93.5 L 210.0 94.4 L 211.3 95.3 L 212.7 96.2 L 214.0 97.2 L 215.4 98.1 L 216.8 99.0 L 218.1 100.0 L 219.4 101.0 L 220.8 101.9 L 222.2 102.9 L 223.5 103.9 L 224.8 104.9 L 226.2 105.8 L 227.6 106.8 L 228.9 107.8 L 230.2 108.8 L 231.6 109.8 L 232.9 110.8 L 234.3 111.7 L 235.7 112.7 L 237.0 113.7 L 238.3 114.6 L 239.7 115.6 L 241.1 116.5 L 242.4 117.5 L 243.8 118.4 L 245.1 119.3 L 246.5 120.2 L 247.8 121.1 L 249.2 122.0 L 250.5 122.9 L 251.8 123.7 L 253.2 124.5 L 254.5 125.4 L 255.9 126.2 L 257.2 126.9 L 258.6 127.7 L 259.9 128.4 L 261.3 129.2 L 262.6 129.9 L 264.0 130.5 L 265.4 131.2 L 266.7 131.8 L 268.1 132.4 L 269.4 133.0 L 270.8 133.5 L 272.1 134.0 L 273.4 134.5 L 274.8 135.0 L 276.1 135.4 L 277.5 135.8 L 278.9 136.1 L 280.2 136.4 L 281.6 136.7 L 282.9 137.0 L 284.2 137.2 L 285.6 137.4 L 287.0 137.5 L 288.3 137.6 L 289.6 137.7 L 291.0 137.7 L 292.4 137.6 L 293.7 137.6 L 295.0 137.5 L 296.4 137.3 L 297.8 137.1 L 299.1 136.8 L 300.4 136.5 L 301.8 136.2 L 303.1 135.8 L 304.5 135.3 L 305.8 134.8 L 307.2 134.3 L 308.6 133.7 L 309.9 133.0 L 311.2 132.3 L 312.6 131.5 L 313.9 130.7 L 315.3 129.8 L 316.7 128.8 L 318.0 127.8 L 319.4 126.7 L 320.7 125.6 L 322.1 124.4 L 323.4 123.2 L 324.8 121.8 L 326.1 120.4 L 327.4 119.0 L 328.8 117.5 L 330.1 115.9 L 331.5 114.2 L 332.9 112.5 L 334.2 110.7 L 335.6 108.8 L 336.9 106.9 L 338.2 104.9 L 339.6 102.8 L 340.9 100.6 L 342.3 98.4 L 343.6 96.1 L 345.0 93.7 L 346.3 91.2 L 347.7 88.6 L 349.1 86.0 L 350.4 83.3 L 351.8 80.5 L 353.1 77.6 L 354.4 74.6 L 355.8 71.6 L 357.2 68.4 L 358.5 65.2 L 359.9 61.9 L 361.2 58.5 L 362.6 55.0 L 363.9 51.4 L 365.2 47.7 L 366.6 44.0 L 367.9 40.1 L 369.3 36.1 L 370.6 32.1 L 372.0 27.9\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.6\"/><text x=\"378\" y=\"133.5\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"207.2\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Figuren visar grafen till \\(f'(x)\\).</p><p>Beskriv \\(f\\):s växande och avtagande intervall och klassificera extrempunkterna.</p>",
-    "s": "<p>Derivatan byter tecken vid \\(x=-2,1,3\\). Teckenföljden är minus, plus, minus, plus.</p><p>Alltså är \\(f\\) avtagande för \\(x<-2\\) och \\(1<x<3\\), samt växande för \\(-2<x<1\\) och \\(x>3\\).</p><p>Minimipunkter finns vid \\(x=-2\\) och \\(x=3\\), och en maximipunkt vid \\(x=1\\).</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Graf till derivatan\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"69.6\" y1=\"18\" x2=\"69.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"69.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-3</text><line x1=\"112.8\" y1=\"18\" x2=\"112.8\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"112.8\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"156.0\" y1=\"18\" x2=\"156.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"156.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"199.2\" y1=\"18\" x2=\"199.2\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"242.4\" y1=\"18\" x2=\"242.4\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"242.4\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"285.6\" y1=\"18\" x2=\"285.6\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"285.6\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"328.8\" y1=\"18\" x2=\"328.8\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"328.8\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"192.1\" x2=\"372\" y2=\"192.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"195.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-15</text><line x1=\"48\" y1=\"167.2\" x2=\"372\" y2=\"167.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"170.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-10</text><line x1=\"48\" y1=\"142.3\" x2=\"372\" y2=\"142.3\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"145.3\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-5</text><line x1=\"48\" y1=\"117.5\" x2=\"372\" y2=\"117.5\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"92.6\" x2=\"372\" y2=\"92.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"95.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"67.7\" x2=\"372\" y2=\"67.7\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"70.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">10</text><line x1=\"48\" y1=\"42.9\" x2=\"372\" y2=\"42.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"45.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">15</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">20</text><line x1=\"199.2\" y1=\"18\" x2=\"199.2\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"117.5\" x2=\"372\" y2=\"117.5\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 335.7 L 49.4 328.6 L 50.7 321.7 L 52.0 314.9 L 53.4 308.2 L 54.8 301.6 L 56.1 295.2 L 57.5 288.8 L 58.8 282.6 L 60.1 276.5 L 61.5 270.5 L 62.9 264.6 L 64.2 258.8 L 65.5 253.2 L 66.9 247.6 L 68.2 242.2 L 69.6 236.8 L 71.0 231.6 L 72.3 226.5 L 73.7 221.5 L 75.0 216.5 L 76.3 211.7 L 77.7 207.0 L 79.0 202.4 L 80.4 197.9 L 81.8 193.5 L 83.1 189.2 L 84.5 185.0 L 85.8 180.9 L 87.2 176.8 L 88.5 172.9 L 89.8 169.1 L 91.2 165.3 L 92.6 161.7 L 93.9 158.1 L 95.2 154.7 L 96.6 151.3 L 98.0 148.0 L 99.3 144.8 L 100.7 141.7 L 102.0 138.7 L 103.3 135.7 L 104.7 132.9 L 106.0 130.1 L 107.4 127.4 L 108.8 124.8 L 110.1 122.3 L 111.5 119.8 L 112.8 117.5 L 114.2 115.2 L 115.5 113.0 L 116.8 110.8 L 118.2 108.8 L 119.5 106.8 L 120.9 104.9 L 122.2 103.0 L 123.6 101.2 L 125.0 99.5 L 126.3 97.9 L 127.6 96.3 L 129.0 94.8 L 130.3 93.4 L 131.7 92.0 L 133.1 90.7 L 134.4 89.5 L 135.8 88.3 L 137.1 87.2 L 138.4 86.2 L 139.8 85.2 L 141.1 84.2 L 142.5 83.4 L 143.8 82.6 L 145.2 81.8 L 146.6 81.1 L 147.9 80.5 L 149.2 79.9 L 150.6 79.3 L 151.9 78.8 L 153.3 78.4 L 154.7 78.0 L 156.0 77.7 L 157.4 77.4 L 158.7 77.2 L 160.1 77.0 L 161.4 76.8 L 162.8 76.7 L 164.1 76.7 L 165.4 76.6 L 166.8 76.7 L 168.2 76.7 L 169.5 76.9 L 170.8 77.0 L 172.2 77.2 L 173.6 77.4 L 174.9 77.7 L 176.2 78.0 L 177.6 78.3 L 178.9 78.7 L 180.3 79.1 L 181.7 79.5 L 183.0 80.0 L 184.3 80.5 L 185.7 81.0 L 187.0 81.5 L 188.4 82.1 L 189.8 82.7 L 191.1 83.4 L 192.5 84.0 L 193.8 84.7 L 195.2 85.4 L 196.5 86.1 L 197.8 86.9 L 199.2 87.6 L 200.6 88.4 L 201.9 89.2 L 203.2 90.0 L 204.6 90.9 L 205.9 91.7 L 207.3 92.6 L 208.7 93.5 L 210.0 94.4 L 211.3 95.3 L 212.7 96.2 L 214.0 97.2 L 215.4 98.1 L 216.8 99.0 L 218.1 100.0 L 219.4 101.0 L 220.8 101.9 L 222.2 102.9 L 223.5 103.9 L 224.8 104.9 L 226.2 105.8 L 227.6 106.8 L 228.9 107.8 L 230.2 108.8 L 231.6 109.8 L 232.9 110.8 L 234.3 111.7 L 235.7 112.7 L 237.0 113.7 L 238.3 114.6 L 239.7 115.6 L 241.1 116.5 L 242.4 117.5 L 243.8 118.4 L 245.1 119.3 L 246.5 120.2 L 247.8 121.1 L 249.2 122.0 L 250.5 122.9 L 251.8 123.7 L 253.2 124.5 L 254.5 125.4 L 255.9 126.2 L 257.2 126.9 L 258.6 127.7 L 259.9 128.4 L 261.3 129.2 L 262.6 129.9 L 264.0 130.5 L 265.4 131.2 L 266.7 131.8 L 268.1 132.4 L 269.4 133.0 L 270.8 133.5 L 272.1 134.0 L 273.4 134.5 L 274.8 135.0 L 276.1 135.4 L 277.5 135.8 L 278.9 136.1 L 280.2 136.4 L 281.6 136.7 L 282.9 137.0 L 284.2 137.2 L 285.6 137.4 L 287.0 137.5 L 288.3 137.6 L 289.6 137.7 L 291.0 137.7 L 292.4 137.6 L 293.7 137.6 L 295.0 137.5 L 296.4 137.3 L 297.8 137.1 L 299.1 136.8 L 300.4 136.5 L 301.8 136.2 L 303.1 135.8 L 304.5 135.3 L 305.8 134.8 L 307.2 134.3 L 308.6 133.7 L 309.9 133.0 L 311.2 132.3 L 312.6 131.5 L 313.9 130.7 L 315.3 129.8 L 316.7 128.8 L 318.0 127.8 L 319.4 126.7 L 320.7 125.6 L 322.1 124.4 L 323.4 123.2 L 324.8 121.8 L 326.1 120.4 L 327.4 119.0 L 328.8 117.5 L 330.1 115.9 L 331.5 114.2 L 332.9 112.5 L 334.2 110.7 L 335.6 108.8 L 336.9 106.9 L 338.2 104.9 L 339.6 102.8 L 340.9 100.6 L 342.3 98.4 L 343.6 96.1 L 345.0 93.7 L 346.3 91.2 L 347.7 88.6 L 349.1 86.0 L 350.4 83.3 L 351.8 80.5 L 353.1 77.6 L 354.4 74.6 L 355.8 71.6 L 357.2 68.4 L 358.5 65.2 L 359.9 61.9 L 361.2 58.5 L 362.6 55.0 L 363.9 51.4 L 365.2 47.7 L 366.6 44.0 L 367.9 40.1 L 369.3 36.1 L 370.6 32.1 L 372.0 27.9\" fill=\"none\" stroke=\"#C74440\" stroke-width=\"2.6\"/><text x=\"378\" y=\"133.5\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"207.2\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">f′(x)</text></svg></span><p>Figuren visar grafen till \\(f'(x)\\).</p><p>Beskriv \\(f\\):s växande och avtagande intervall och klassificera extrempunkterna.</p>",
+    "s": "Derivatan byter tecken vid \\(x=-2\\), \\(x=1\\) och \\(x=3\\). Teckenföljden är minus, plus, minus, plus.<br>Alltså är \\(f\\) avtagande när \\(x&lt;-2\\) och när \\(1&lt;x&lt;3\\), samt växande när \\(-2&lt;x&lt;1\\) och när \\(x&gt;3\\).<br>Därför har \\(f\\) minimipunkter vid \\(x=-2\\) och \\(x=3\\), och en maximipunkt vid \\(x=1\\).",
     "familj": "Fullständig teckenanalys från derivatagraf",
     "geogebra": false,
     "miniräknare": false,
@@ -60240,15 +60444,18 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"220\" viewBox=\"0 0 390 220\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Rektangel med omkretsvillkor\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"80\" y=\"45\" width=\"230\" height=\"130\" fill=\"#F3F8F1\" stroke=\"#4D8C57\" stroke-width=\"3\"/><text x=\"195.0\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"60\" y=\"110.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">30−x</text></svg></span><p>En rektangel har omkretsen 60 cm. Bestäm med derivata de sidlängder som ger största möjliga area.</p>",
-    "s": "<p>Låt ena sidan vara \\(x\\). Då är den andra \\(30-x\\).</p><p>\\[A(x)=x(30-x)=30x-x^2,\\qquad A'(x)=30-2x.\\]</p><p>\\(A'(x)=0\\) ger \\(x=15\\). Den andra sidan är också 15 cm.</p><p><strong>Svar:</strong> 15 cm × 15 cm.</p>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"220\" viewBox=\"0 0 390 220\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Rektangel med omkretsvillkor\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"80\" y=\"45\" width=\"230\" height=\"130\" fill=\"#F3F8F1\" stroke=\"#4D8C57\" stroke-width=\"3\"/><text x=\"195.0\" y=\"200\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"60\" y=\"110.0\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">30−x</text></svg></span><p>En rektangel har omkretsen 60 cm.</p><p>a) Bestäm den ena sidlängden \\(x\\) som ger största möjliga area.<br>b) Bestäm den andra sidlängden.</p>",
+    "s": "Låt ena sidan vara \\(x\\). Då är den andra \\(30-x\\). \\[A(x)=x(30-x)=30x-x^2,\\qquad A^{\\prime}(x)=30-2x.\\] Villkoret \\(A^{\\prime}(x)=0\\) ger \\(x=15\\). Den andra sidan är då också 15 cm.<br>Svar: a) \\(\\boxed{15\\text{ cm}}\\) &nbsp; b) \\(\\boxed{15\\text{ cm}}\\).",
     "familj": "Optimera rektangel med omkretsvillkor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      15
+    ],
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "formaga": [
       "modellering",
       "procedur"
@@ -60256,7 +60463,11 @@ window.BANKMATO1 = [
     "ledtrad": "<p>Om omkretsen är 60 cm gäller att summan av två intilliggande sidor är 30 cm.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "3.788",
@@ -60266,8 +60477,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>En funktion \\(f\\) uppfyller \\(f'(x)=3x^2-12x+9\\) och \\(f(1)=5\\).</p><p>Bestäm \\(f(3)\\) utan att först bestämma ett fullständigt uttryck för \\(f\\).</p>",
     "s": "<p>Analysens huvudsats ger</p><p>\\[f(3)-f(1)=\\int_1^3 f'(x)\\,dx.\\]</p><p>\\[\\int_1^3(3x^2-12x+9)dx=\\left[x^3-6x^2+9x\\right]_1^3=-4.\\]</p><p>Alltså \\(f(3)=5-4=1\\).</p>",
     "familj": "Använd analysens huvudsats baklänges",
@@ -60278,13 +60489,13 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "resonemang",
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Använd sambandet \\(f(b)-f(a)=\\int_a^b f'(x)dx\\).</p>",
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
-    "spel": false,
+    "spel": true,
     "svarFormat": "numeriskt"
   },
   {
@@ -60295,9 +60506,9 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Nettoflöde\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"102.0\" y1=\"18\" x2=\"102.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"102.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"156.0\" y1=\"18\" x2=\"156.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"156.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"210.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"264.0\" y1=\"18\" x2=\"264.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"264.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"318.0\" y1=\"18\" x2=\"318.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"318.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"210.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-3</text><line x1=\"48\" y1=\"188.1\" x2=\"372\" y2=\"188.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"191.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"169.2\" x2=\"372\" y2=\"169.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"172.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"48\" y1=\"150.3\" x2=\"372\" y2=\"150.3\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"131.4\" x2=\"372\" y2=\"131.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"134.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"112.5\" x2=\"372\" y2=\"112.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"115.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"93.6\" x2=\"372\" y2=\"93.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"96.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"74.7\" x2=\"372\" y2=\"74.7\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"77.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"55.8\" x2=\"372\" y2=\"55.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"58.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"36.9\" x2=\"372\" y2=\"36.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"39.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">7</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"150.3\" x2=\"372\" y2=\"150.3\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 36.9 L 49.4 37.6 L 50.7 38.3 L 52.0 39.0 L 53.4 39.7 L 54.8 40.4 L 56.1 41.2 L 57.5 41.9 L 58.8 42.6 L 60.1 43.3 L 61.5 44.0 L 62.9 44.7 L 64.2 45.4 L 65.5 46.1 L 66.9 46.8 L 68.2 47.5 L 69.6 48.2 L 71.0 48.9 L 72.3 49.7 L 73.7 50.4 L 75.0 51.1 L 76.3 51.8 L 77.7 52.5 L 79.0 53.2 L 80.4 53.9 L 81.8 54.6 L 83.1 55.3 L 84.5 56.0 L 85.8 56.7 L 87.2 57.5 L 88.5 58.2 L 89.8 58.9 L 91.2 59.6 L 92.5 60.3 L 93.9 61.0 L 95.2 61.7 L 96.6 62.4 L 98.0 63.1 L 99.3 63.8 L 100.7 64.5 L 102.0 65.2 L 103.3 66.0 L 104.7 66.7 L 106.0 67.4 L 107.4 68.1 L 108.8 68.8 L 110.1 69.5 L 111.5 70.2 L 112.8 70.9 L 114.2 71.6 L 115.5 72.3 L 116.8 73.0 L 118.2 73.8 L 119.5 74.5 L 120.9 75.2 L 122.2 75.9 L 123.6 76.6 L 125.0 77.3 L 126.3 78.0 L 127.7 78.7 L 129.0 79.4 L 130.3 80.1 L 131.7 80.8 L 133.1 81.6 L 134.4 82.3 L 135.8 83.0 L 137.1 83.7 L 138.4 84.4 L 139.8 85.1 L 141.2 85.8 L 142.5 86.5 L 143.8 87.2 L 145.2 87.9 L 146.6 88.6 L 147.9 89.3 L 149.2 90.1 L 150.6 90.8 L 151.9 91.5 L 153.3 92.2 L 154.7 92.9 L 156.0 93.6 L 157.3 94.3 L 158.7 95.0 L 160.1 95.7 L 161.4 96.4 L 162.8 97.1 L 164.1 97.9 L 165.4 98.6 L 166.8 99.3 L 168.2 100.0 L 169.5 100.7 L 170.8 101.4 L 172.2 102.1 L 173.6 102.8 L 174.9 103.5 L 176.2 104.2 L 177.6 104.9 L 178.9 105.6 L 180.3 106.4 L 181.7 107.1 L 183.0 107.8 L 184.3 108.5 L 185.7 109.2 L 187.1 109.9 L 188.4 110.6 L 189.8 111.3 L 191.1 112.0 L 192.4 112.7 L 193.8 113.4 L 195.2 114.2 L 196.5 114.9 L 197.8 115.6 L 199.2 116.3 L 200.6 117.0 L 201.9 117.7 L 203.2 118.4 L 204.6 119.1 L 205.9 119.8 L 207.3 120.5 L 208.7 121.2 L 210.0 122.0 L 211.3 122.7 L 212.7 123.4 L 214.1 124.1 L 215.4 124.8 L 216.8 125.5 L 218.1 126.2 L 219.4 126.9 L 220.8 127.6 L 222.2 128.3 L 223.5 129.0 L 224.8 129.7 L 226.2 130.5 L 227.6 131.2 L 228.9 131.9 L 230.2 132.6 L 231.6 133.3 L 232.9 134.0 L 234.3 134.7 L 235.7 135.4 L 237.0 136.1 L 238.3 136.8 L 239.7 137.5 L 241.1 138.3 L 242.4 139.0 L 243.8 139.7 L 245.1 140.4 L 246.4 141.1 L 247.8 141.8 L 249.2 142.5 L 250.5 143.2 L 251.8 143.9 L 253.2 144.6 L 254.6 145.3 L 255.9 146.0 L 257.2 146.8 L 258.6 147.5 L 259.9 148.2 L 261.3 148.9 L 262.6 149.6 L 264.0 150.3 L 265.4 151.0 L 266.7 151.7 L 268.1 152.4 L 269.4 153.1 L 270.8 153.8 L 272.1 154.6 L 273.4 155.3 L 274.8 156.0 L 276.1 156.7 L 277.5 157.4 L 278.9 158.1 L 280.2 158.8 L 281.6 159.5 L 282.9 160.2 L 284.2 160.9 L 285.6 161.6 L 286.9 162.3 L 288.3 163.1 L 289.6 163.8 L 291.0 164.5 L 292.4 165.2 L 293.7 165.9 L 295.1 166.6 L 296.4 167.3 L 297.8 168.0 L 299.1 168.7 L 300.4 169.4 L 301.8 170.1 L 303.1 170.9 L 304.5 171.6 L 305.9 172.3 L 307.2 173.0 L 308.6 173.7 L 309.9 174.4 L 311.2 175.1 L 312.6 175.8 L 313.9 176.5 L 315.3 177.2 L 316.6 177.9 L 318.0 178.7 L 319.4 179.4 L 320.7 180.1 L 322.1 180.8 L 323.4 181.5 L 324.8 182.2 L 326.1 182.9 L 327.4 183.6 L 328.8 184.3 L 330.1 185.0 L 331.5 185.7 L 332.9 186.4 L 334.2 187.2 L 335.6 187.9 L 336.9 188.6 L 338.2 189.3 L 339.6 190.0 L 340.9 190.7 L 342.3 191.4 L 343.6 192.1 L 345.0 192.8 L 346.4 193.5 L 347.7 194.2 L 349.1 195.0 L 350.4 195.7 L 351.8 196.4 L 353.1 197.1 L 354.4 197.8 L 355.8 198.5 L 357.1 199.2 L 358.5 199.9 L 359.9 200.6 L 361.2 201.3 L 362.6 202.0 L 363.9 202.7 L 365.2 203.5 L 366.6 204.2 L 367.9 204.9 L 369.3 205.6 L 370.6 206.3 L 372.0 207.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"166.3\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">y</text></svg></span><p>Grafen motsvarar nettoflödet \\(q(t)=6-1,5t\\) liter/minut till en tank. Tanken innehåller 40 liter vid \\(t=0\\).</p><p>Bestäm tankens största vattenmängd under de första 6 minuterna och vattenmängden vid \\(t=6\\).</p>",
+    "niva": "C",
+    "poang": "0/3/0",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" style=\"max-width:100%;height:auto\" role=\"img\" aria-label=\"Nettoflöde\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#F0EFF2\"/><line x1=\"102.0\" y1=\"18\" x2=\"102.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"102.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"156.0\" y1=\"18\" x2=\"156.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"156.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"210.0\" y1=\"18\" x2=\"210.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"210.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"264.0\" y1=\"18\" x2=\"264.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"264.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"318.0\" y1=\"18\" x2=\"318.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"318.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"372.0\" y1=\"18\" x2=\"372.0\" y2=\"207\" stroke=\"#F0EFF2\"/><text x=\"372.0\" y=\"231\" text-anchor=\"middle\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"207.0\" x2=\"372\" y2=\"207.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"210.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-3</text><line x1=\"48\" y1=\"188.1\" x2=\"372\" y2=\"188.1\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"191.1\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-2</text><line x1=\"48\" y1=\"169.2\" x2=\"372\" y2=\"169.2\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"172.2\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">-1</text><line x1=\"48\" y1=\"150.3\" x2=\"372\" y2=\"150.3\" stroke=\"#F0EFF2\"/><line x1=\"48\" y1=\"131.4\" x2=\"372\" y2=\"131.4\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"134.4\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">1</text><line x1=\"48\" y1=\"112.5\" x2=\"372\" y2=\"112.5\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"115.5\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">2</text><line x1=\"48\" y1=\"93.6\" x2=\"372\" y2=\"93.6\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"96.6\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">3</text><line x1=\"48\" y1=\"74.7\" x2=\"372\" y2=\"74.7\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"77.7\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">4</text><line x1=\"48\" y1=\"55.8\" x2=\"372\" y2=\"55.8\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"58.8\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">5</text><line x1=\"48\" y1=\"36.9\" x2=\"372\" y2=\"36.9\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"39.9\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">6</text><line x1=\"48\" y1=\"18.0\" x2=\"372\" y2=\"18.0\" stroke=\"#F0EFF2\"/><text x=\"40\" y=\"21.0\" text-anchor=\"end\" font-size=\"10\" fill=\"#6B6670\">7</text><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"207\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"48\" y1=\"150.3\" x2=\"372\" y2=\"150.3\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><path d=\"M 48.0 36.9 L 49.4 37.6 L 50.7 38.3 L 52.0 39.0 L 53.4 39.7 L 54.8 40.4 L 56.1 41.2 L 57.5 41.9 L 58.8 42.6 L 60.1 43.3 L 61.5 44.0 L 62.9 44.7 L 64.2 45.4 L 65.5 46.1 L 66.9 46.8 L 68.2 47.5 L 69.6 48.2 L 71.0 48.9 L 72.3 49.7 L 73.7 50.4 L 75.0 51.1 L 76.3 51.8 L 77.7 52.5 L 79.0 53.2 L 80.4 53.9 L 81.8 54.6 L 83.1 55.3 L 84.5 56.0 L 85.8 56.7 L 87.2 57.5 L 88.5 58.2 L 89.8 58.9 L 91.2 59.6 L 92.5 60.3 L 93.9 61.0 L 95.2 61.7 L 96.6 62.4 L 98.0 63.1 L 99.3 63.8 L 100.7 64.5 L 102.0 65.2 L 103.3 66.0 L 104.7 66.7 L 106.0 67.4 L 107.4 68.1 L 108.8 68.8 L 110.1 69.5 L 111.5 70.2 L 112.8 70.9 L 114.2 71.6 L 115.5 72.3 L 116.8 73.0 L 118.2 73.8 L 119.5 74.5 L 120.9 75.2 L 122.2 75.9 L 123.6 76.6 L 125.0 77.3 L 126.3 78.0 L 127.7 78.7 L 129.0 79.4 L 130.3 80.1 L 131.7 80.8 L 133.1 81.6 L 134.4 82.3 L 135.8 83.0 L 137.1 83.7 L 138.4 84.4 L 139.8 85.1 L 141.2 85.8 L 142.5 86.5 L 143.8 87.2 L 145.2 87.9 L 146.6 88.6 L 147.9 89.3 L 149.2 90.1 L 150.6 90.8 L 151.9 91.5 L 153.3 92.2 L 154.7 92.9 L 156.0 93.6 L 157.3 94.3 L 158.7 95.0 L 160.1 95.7 L 161.4 96.4 L 162.8 97.1 L 164.1 97.9 L 165.4 98.6 L 166.8 99.3 L 168.2 100.0 L 169.5 100.7 L 170.8 101.4 L 172.2 102.1 L 173.6 102.8 L 174.9 103.5 L 176.2 104.2 L 177.6 104.9 L 178.9 105.6 L 180.3 106.4 L 181.7 107.1 L 183.0 107.8 L 184.3 108.5 L 185.7 109.2 L 187.1 109.9 L 188.4 110.6 L 189.8 111.3 L 191.1 112.0 L 192.4 112.7 L 193.8 113.4 L 195.2 114.2 L 196.5 114.9 L 197.8 115.6 L 199.2 116.3 L 200.6 117.0 L 201.9 117.7 L 203.2 118.4 L 204.6 119.1 L 205.9 119.8 L 207.3 120.5 L 208.7 121.2 L 210.0 122.0 L 211.3 122.7 L 212.7 123.4 L 214.1 124.1 L 215.4 124.8 L 216.8 125.5 L 218.1 126.2 L 219.4 126.9 L 220.8 127.6 L 222.2 128.3 L 223.5 129.0 L 224.8 129.7 L 226.2 130.5 L 227.6 131.2 L 228.9 131.9 L 230.2 132.6 L 231.6 133.3 L 232.9 134.0 L 234.3 134.7 L 235.7 135.4 L 237.0 136.1 L 238.3 136.8 L 239.7 137.5 L 241.1 138.3 L 242.4 139.0 L 243.8 139.7 L 245.1 140.4 L 246.4 141.1 L 247.8 141.8 L 249.2 142.5 L 250.5 143.2 L 251.8 143.9 L 253.2 144.6 L 254.6 145.3 L 255.9 146.0 L 257.2 146.8 L 258.6 147.5 L 259.9 148.2 L 261.3 148.9 L 262.6 149.6 L 264.0 150.3 L 265.4 151.0 L 266.7 151.7 L 268.1 152.4 L 269.4 153.1 L 270.8 153.8 L 272.1 154.6 L 273.4 155.3 L 274.8 156.0 L 276.1 156.7 L 277.5 157.4 L 278.9 158.1 L 280.2 158.8 L 281.6 159.5 L 282.9 160.2 L 284.2 160.9 L 285.6 161.6 L 286.9 162.3 L 288.3 163.1 L 289.6 163.8 L 291.0 164.5 L 292.4 165.2 L 293.7 165.9 L 295.1 166.6 L 296.4 167.3 L 297.8 168.0 L 299.1 168.7 L 300.4 169.4 L 301.8 170.1 L 303.1 170.9 L 304.5 171.6 L 305.9 172.3 L 307.2 173.0 L 308.6 173.7 L 309.9 174.4 L 311.2 175.1 L 312.6 175.8 L 313.9 176.5 L 315.3 177.2 L 316.6 177.9 L 318.0 178.7 L 319.4 179.4 L 320.7 180.1 L 322.1 180.8 L 323.4 181.5 L 324.8 182.2 L 326.1 182.9 L 327.4 183.6 L 328.8 184.3 L 330.1 185.0 L 331.5 185.7 L 332.9 186.4 L 334.2 187.2 L 335.6 187.9 L 336.9 188.6 L 338.2 189.3 L 339.6 190.0 L 340.9 190.7 L 342.3 191.4 L 343.6 192.1 L 345.0 192.8 L 346.4 193.5 L 347.7 194.2 L 349.1 195.0 L 350.4 195.7 L 351.8 196.4 L 353.1 197.1 L 354.4 197.8 L 355.8 198.5 L 357.1 199.2 L 358.5 199.9 L 359.9 200.6 L 361.2 201.3 L 362.6 202.0 L 363.9 202.7 L 365.2 203.5 L 366.6 204.2 L 367.9 204.9 L 369.3 205.6 L 370.6 206.3 L 372.0 207.0\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.6\"/><text x=\"378\" y=\"166.3\" text-anchor=\"end\" font-size=\"11\" fill=\"#2B2527\">t</text><text x=\"56.0\" y=\"13\" font-size=\"11\" fill=\"#2B2527\">q(t)</text></svg></span><p>Grafen motsvarar nettoflödet \\(q(t)=6-1,5t\\) liter/minut till en tank. Tanken innehåller 40 liter vid \\(t=0\\).</p><p>Bestäm tankens största vattenmängd under de första 6 minuterna och vattenmängden vid \\(t=6\\).</p>",
     "s": "<p>Vattenmängden är som störst när nettoflödet går från positivt till negativt, alltså när \\(6-1,5t=0\\), vilket ger \\(t=4\\).</p><p>Ökningen fram till dess är triangelarean \\(\\frac12\\cdot4\\cdot6=12\\) liter. Maximum är 52 liter.</p><p>Från 4 till 6 är den tecknade arean \\(-\\frac12\\cdot2\\cdot3=-3\\) liter, så vid \\(t=6\\) finns 49 liter.</p>",
     "familj": "Maximera ackumulerad mängd från flöde",
     "geogebra": false,
@@ -60312,7 +60523,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "ledtrad": "<p>Den ackumulerade mängden ökar så länge nettoflödet är positivt. Maximum uppstår när nettoflödet byter tecken från plus till minus.</p>",
-    "traningsniva": 5,
+    "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": false
   },
@@ -60328,7 +60539,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>Bestäm graden av polynomet \\(P(x)=2x^3-2x+5\\).</p>",
     "s": "<p><strong>Lösning:</strong> Högsta exponenten på \\(x\\) är 3.</p><p><strong>Svar:</strong> 3</p>",
-    "familj": "Polynombegrepp och polynomvärden",
+    "familj": "Polynomets grad",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -60336,6 +60547,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Polynomets grad är den högsta exponent som förekommer.</p>",
@@ -60384,7 +60596,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-11}\\) inte definierat?</p>",
     "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-11=0\\) ger \\(x=11\\).</p><p><strong>Svar:</strong> 11</p>",
-    "familj": "Förenkla rationella uttryck och ange definitionsmängd",
+    "familj": "Definitionsmängd för rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -60392,6 +60604,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
@@ -60412,7 +60625,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>Bestäm \\(\\lim_{x\\to 2}(x^2+3)\\).</p>",
     "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=2\\): \\(2^2+3=7\\).</p><p><strong>Svar:</strong> 7</p>",
-    "familj": "Beräkna och tolka gränsvärden",
+    "familj": "Gränsvärde genom direkt insättning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -60420,6 +60633,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
@@ -60438,7 +60652,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Lös \\(|x+1|=4\\). Ange den största lösningen.</p>",
-    "s": "<p><strong>Lösning:</strong> \\(x--1=4\\) eller \\(x--1=-4\\). Den största lösningen är \\(x=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "s": "\\(|x+1|=4\\) betyder att \\(x+1=4\\) eller \\(x+1=-4\\). Därför är lösningarna \\(x=3\\) och \\(x=-5\\). Den största är \\(\\boxed{3}\\).",
     "familj": "Lösa ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
@@ -60449,7 +60663,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ett absolutbelopp kan ge två fall: uttrycket är antingen a eller -a.</p>",
+    "ledtrad": "Talet \\(x+1\\) kan vara antingen 4 eller -4.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -60493,19 +60707,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2x+2\\). Bestäm \\(f(3)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f(3)=2\\cdot(3)+2=8\\).</p><p><strong>Svar:</strong> 8</p>",
-    "familj": "Tolka och jämföra funktionsgrafer",
+    "t": "<p>Funktionen är \\(f(x)=2x+2\\). För vilket \\(x\\) gäller \\(f(x)=8\\)?</p>",
+    "s": "Sätt \\(2x+2=8\\). Då är \\(2x=6\\), alltså \\(\\boxed{x=3}\\).",
+    "familj": "Beräkna och tolka funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 8,
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "ledtrad": "Sätt funktionsuttrycket lika med det givna funktionsvärdet.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -60548,9 +60762,9 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(|x+1|=3\\). Ange den största lösningen.</p>",
-    "s": "<p><strong>Lösning:</strong> \\(x--1=3\\) eller \\(x--1=-3\\). Den största lösningen är \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
-    "familj": "Parameterproblem med absolutbelopp",
+    "t": "<p>Talet \\(x\\) ligger 3 enheter från talet \\(-1\\) på tallinjen. Vilket är det största möjliga värdet på \\(x\\)?</p>",
+    "s": "Avståndet kan skrivas \\(|x-(-1)|=|x+1|=3\\). Då är \\(x=2\\) eller \\(x=-4\\). Det största värdet är \\(\\boxed{2}\\).",
+    "familj": "Tolka och skriva funktioner med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -60558,9 +60772,9 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Ett absolutbelopp kan ge två fall: uttrycket är antingen a eller -a.</p>",
+    "ledtrad": "Översätt avståndet på tallinjen till ett absolutbelopp.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -60588,7 +60802,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Multiplicera båda led med 2(x+a) och lös den linjära ekvationen.</p>",
+    "ledtrad": "Multiplicera båda led med \\(2(x+2)\\). Kontrollera sedan att nämnaren inte blir noll.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -60605,7 +60819,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>Funktionen är \\(f(x)=|x-2|+3\\). Vilket x-värde har grafens spets?</p>",
     "s": "<p><strong>Lösning:</strong> Uttrycket inuti absolutbeloppet är noll när \\(x=2\\). Spetsens x-värde är 2.</p><p><strong>Svar:</strong> 2</p>",
-    "familj": "Tolka och skriva funktioner med absolutbelopp",
+    "familj": "Absolutbeloppsfunktionens spets",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -60613,6 +60827,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Spetsen ligger där uttrycket inuti absolutbeloppet är 0.</p>",
@@ -60641,6 +60856,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
@@ -60659,19 +60875,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=x+k\\) för \\(x&lt;-2\\) och \\(f(x)=-2\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(1\\cdot-2+k=-2\\). Därför \\(k=0\\).</p><p><strong>Svar:</strong> 0</p>",
-    "familj": "Bestämma parametrar för kontinuitet",
+    "t": "<p>Funktionen ges av</p><p>\\[f(x)=\\begin{cases}2x+1,&amp; x&lt;2\\\\6,&amp; x\\ge2.\\end{cases}\\]</p><p>Bestäm vänstergränsvärdet \\(\\lim_{x\\to2^-}f(x)\\).</p>",
+    "s": "När \\(x\\) närmar sig 2 från vänster används uttrycket \\(2x+1\\). Därför är \\(\\lim_{x\\to2^-}f(x)=2\\cdot2+1=\\boxed{5}\\).",
+    "familj": "Vänster- och högergränsvärde",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 0,
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "ledtrad": "Från vänster använder du den formel som gäller när \\(x&lt;2\\).",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -60687,23 +60904,23 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2x+k\\) för \\(x&lt;4\\) och \\(f(x)=8\\) för \\(x\\ge 4\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=4\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(2\\cdot4+k=8\\). Därför \\(k=0\\).</p><p><strong>Svar:</strong> 0</p>",
-    "familj": "Bestämma parametrar för kontinuitet",
+    "t": "<p>Funktionen ges av</p><p>\\[f(x)=\\begin{cases}x+2,&amp; x&lt;1\\\\3,&amp; x\\ge1.\\end{cases}\\]</p><p>Är funktionen kontinuerlig vid \\(x=1\\)?</p><p>A. Ja; vänstergränsvärdet, högergränsvärdet och \\(f(1)\\) är alla 3.<br>B. Nej; vänstergränsvärdet är 2 medan högergränsvärdet och \\(f(1)\\) är 3.<br>C. Nej; gränsvärdet är 3 men funktionsvärdet \\(f(1)\\) är 2.<br>D. Nej; vänster- och högergränsvärdet är olika, även om \\(f(1)=3\\).</p>",
+    "s": "Från vänster närmar sig \\(x+2\\) värdet 3. Från höger är funktionsvärdet 3 och \\(f(1)=3\\). Alla tre värden sammanfaller, så funktionen är kontinuerlig. <b>Svar: A</b>.",
+    "familj": "Kontinuitet och hål i grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0,
+    "svarstyp": "val",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "ledtrad": "Jämför vänstergränsvärde, högergränsvärde och funktionsvärdet i skarvpunkten.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "val"
   },
   {
     "id": "1.485",
@@ -60715,7 +60932,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Hur många heltal uppfyller olikheten \\(|x-1|&lt;2\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Olikheten betyder \\(-1&lt;x&lt;3\\). Heltalen däremellan är 3 stycken.</p><p><strong>Svar:</strong> 3</p>",
+    "s": "\\(|x-1|&lt;2\\) betyder \\(-1&lt;x&lt;3\\). Heltalen som uppfyller detta är \\(0,1,2\\), alltså \\(\\boxed{3}\\) heltal.",
     "familj": "Lösa olikheter med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
@@ -60726,7 +60943,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv om |x-c|&lt;a som c-a&lt;x&lt;c+a och räkna heltalen i intervallet.</p>",
+    "ledtrad": "Skriv om absolutbeloppsolikheten till två vanliga olikheter och räkna sedan heltalen.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -60752,6 +60969,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>I en funktion ax+b är f(0)=b.</p>",
@@ -60770,19 +60988,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En funktion har formen \\(f(x)=3x+b\\) och \\(f(0)=5\\). Vilket värde har parametern \\(b\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> När x=0 återstår bara konstanttermen b.</p><p><strong>Svar:</strong> 5</p>",
-    "familj": "Bestämma polynomfunktion från villkor",
+    "t": "<p>En linjär funktion uppfyller \\(f(1)=4\\) och \\(f(4)=10\\). Bestäm funktionens riktningskoefficient.</p>",
+    "s": "Riktningskoefficienten är förändringen i \\(y\\) dividerad med förändringen i \\(x\\): \\(\\frac{10-4}{4-1}=\\frac63=\\boxed{2}\\).",
+    "familj": "Tolka och jämföra funktionsgrafer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>I en funktion ax+b är f(0)=b.</p>",
+    "ledtrad": "Jämför förändringen i funktionsvärde med förändringen i x.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -60800,7 +61019,7 @@ window.BANKMATO1 = [
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(\\lim_{x\\to 3}\\frac{x^2-9}{x-3}\\).</p>",
     "s": "<p><strong>Lösning:</strong> Faktorisera: \\(x^2-9=(x-3)(x+3)\\). För \\(x\\neq 3\\) blir kvoten \\(x+3\\), som går mot 6.</p><p><strong>Svar:</strong> 6</p>",
-    "familj": "Sekant och genomsnittlig förändringshastighet",
+    "familj": "Gränsvärde med faktorisering",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -60808,7 +61027,8 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
     "ledtrad": "<p>Faktorisera täljaren och förkorta innan du sätter in gränsvärdet.</p>",
     "traningsniva": 2,
@@ -60825,22 +61045,23 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=3x-2\\). Bestäm \\(f(-1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f(-1)=3\\cdot(-1)-2=-5\\).</p><p><strong>Svar:</strong> -5</p>",
+    "poang": "2/0/0",
+    "t": "<p>Skriv \\(f(x)=x^2-6x+11\\) på formen \\((x-a)^2+b\\). Vilket är funktionens minsta värde?</p>",
+    "s": "Kvadratkomplettera: \\(x^2-6x+11=(x-3)^2+2\\). Eftersom \\((x-3)^2\\ge0\\) är det minsta värdet \\(\\boxed{2}\\).",
     "familj": "Kvadratkomplettera och tolka andragradsfunktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": -5,
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Komplettera \\(x^2-6x\\) till en kvadrat.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -60863,6 +61084,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Spetsen ligger där uttrycket inuti absolutbeloppet är 0.</p>",
@@ -60881,23 +61103,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-20}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-20=0\\) ger \\(x=20\\).</p><p><strong>Svar:</strong> 20</p>",
-    "familj": "Bestämma definitionsmängd för rationella uttryck",
+    "t": "<p>Uttrycket \\(R(x)=\\frac{x+1}{(x-5)(x+2)}\\) är inte definierat för två reella x-värden. Ange det mindre värdet först.</p>",
+    "s": "Nämnaren blir noll när \\(x-5=0\\) eller \\(x+2=0\\). De förbjudna värdena är därför \\(\\boxed{-2}\\) och \\(\\boxed{5}\\).",
+    "familj": "Definitionsmängd med två förbjudna värden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      5
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "ledtrad": "Sätt varje faktor i nämnaren lika med noll.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.492",
@@ -60908,22 +61137,23 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En modell ges av \\(K(x)=\\frac{24}{x+2}\\). Bestäm \\(K(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(K(2)=\\frac{24}{2+2}=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "poang": "2/0/0",
+    "t": "<p>En kostnadsmodell ges av \\(K(x)=\\frac{24}{x+2}\\). För vilket positivt \\(x\\) är \\(K(x)=4\\)?</p>",
+    "s": "\\(\\frac{24}{x+2}=4\\) ger \\(24=4(x+2)\\). Då är \\(24=4x+8\\), så \\(x=\\boxed{4}\\).",
     "familj": "Rationella uttryck i problemlösning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Sätt in x-värdet i uttrycket och beräkna nämnaren först.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Sätt modellen lika med 4 och multiplicera bort nämnaren.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -60937,19 +61167,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2x+1\\). Bestäm \\(f(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f(2)=2\\cdot(2)+1=5\\).</p><p><strong>Svar:</strong> 5</p>",
-    "familj": "Bestämma extremvärden",
+    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+7\\). Bestäm funktionens största värde.</p>",
+    "s": "Eftersom \\(-(x-3)^2\\le0\\) blir funktionsvärdet som störst när \\((x-3)^2=0\\), alltså vid \\(x=3\\). Det största värdet är \\(\\boxed{7}\\).",
+    "familj": "Kvadratkomplettera och tolka andragradsfunktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
+    "rättSvar": 7,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "ledtrad": "Kvadraten är alltid 0 eller positiv. När blir den så liten som möjligt?",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -60964,24 +61194,24 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Ekvationen är \\((x-5)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-5=0\\) ger \\(x=5\\).</p><p><strong>Svar:</strong> 5</p>",
-    "familj": "Polynomdivision och faktorsatsen",
+    "poang": "2/0/0",
+    "t": "<p>Dividera \\(P(x)=x^2+5x+6\\) med \\(x+2\\). Vad blir kvoten?</p>",
+    "s": "Faktorisera \\(P(x)=(x+2)(x+3)\\). Vid division med \\(x+2\\) återstår därför \\(\\boxed{x+3}\\).",
+    "familj": "Polynomdivision",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
+    "svarstyp": "uttryck",
+    "rättSvar": "x+3",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Du kan antingen göra polynomdivision eller först faktorisera täljaren.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.495",
@@ -61003,6 +61233,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Använd restsatsen: resten vid division med x-a är P(a).</p>",
@@ -61021,23 +61252,23 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ekvationen är \\((x-4)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-4=0\\) ger \\(x=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p><p>A. \\(x+2\\)<br>B. \\(x-2\\)<br>C. \\(2x-1\\)<br>D. \\(x^2+2\\)</p>",
+    "s": "Faktorsatsen säger att \\(P(a)=0\\) om och endast om \\(x-a\\) är en faktor. Eftersom \\(P(2)=0\\) måste \\(x-2\\) vara en faktor. <b>Svar: B</b>.",
     "familj": "Faktorsatsen och polynomdivision",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "ledtrad": "Koppla ett nollställe \\(x=a\\) till faktorn \\(x-a\\).",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "val"
   },
   {
     "id": "1.497",
@@ -61049,19 +61280,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Polynomet \\(P(x)=x^2-3x+2\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-2)(x-1)\\). Det största nollstället är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Polynomet \\(P(x)=x^3-4x^2+x+6\\) har nollstället \\(x=2\\). Bestäm det största av de två övriga nollställena.</p>",
+    "s": "Eftersom \\(x=2\\) är ett nollställe är \\(x-2\\) en faktor. Polynomdivision ger \\(P(x)=(x-2)(x^2-2x-3)=(x-2)(x-3)(x+1)\\). De övriga nollställena är 3 och -1, så det största är \\(\\boxed{3}\\).",
     "familj": "Faktorsatsen och polynomdivision",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "ledtrad": "Dividera polynomet med \\(x-2\\) och faktorisera sedan andragradspolynomet.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61077,19 +61309,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vid division av ett polynom \\(P(x)\\) med \\(x-8\\) är resten 4. Vad är \\(P(8)\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Restsatsen säger att resten vid division med \\(x-8\\) är \\(P(8)\\). Alltså \\(P(8)=4\\).</p><p><strong>Svar:</strong> 4</p>",
-    "familj": "Polynomdivision",
+    "t": "<p>För ett polynom gäller \\(P(3)=-4\\). Vilken rest får man när \\(P(x)\\) divideras med \\(x-3\\)?</p>",
+    "s": "Restsatsen säger att resten vid division med \\(x-a\\) är \\(P(a)\\). Här är resten därför \\(\\boxed{-4}\\).",
+    "familj": "Restsatsen",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "rättSvar": -4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Använd restsatsen: resten vid division med x-a är P(a).</p>",
+    "ledtrad": "Restsatsen kopplar resten vid division med \\(x-a\\) direkt till \\(P(a)\\).",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -61104,22 +61336,23 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Ekvationen är \\((x-3)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-3=0\\) ger \\(x=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^2+kx-12\\) har faktorn \\(x-3\\). Bestäm \\(k\\).</p>",
+    "s": "Faktorn \\(x-3\\) innebär enligt faktorsatsen att \\(P(3)=0\\). Därför \\(9+3k-12=0\\), alltså \\(3k=3\\) och \\(\\boxed{k=1}\\).",
     "familj": "Faktorsatsen med parameter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 3,
+    "rättSvar": 1,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Om \\(x-3\\) är en faktor måste \\(x=3\\) vara ett nollställe.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -61133,19 +61366,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Polynomet \\(P(x)=x^2-9x+18\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-6)(x-3)\\). Det största nollstället är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>För \\(P(x)=x^2+kx+6\\) gäller \\(P(-2)=0\\). Bestäm \\(k\\).</p>",
+    "s": "Sätt in \\(x=-2\\): \\(4-2k+6=0\\). Då är \\(10-2k=0\\), så \\(\\boxed{k=5}\\).",
     "familj": "Faktorsatsen med parameter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "ledtrad": "Använd att ett nollställe gör polynomets värde lika med 0.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61161,19 +61395,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-19}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-19=0\\) ger \\(x=19\\).</p><p><strong>Svar:</strong> 19</p>",
-    "familj": "Definitionsmängd för rationella uttryck",
+    "t": "<p>Hur många reella x-värden måste uteslutas ur definitionsmängden för \\(R(x)=\\frac{x+2}{x^2+1}\\)?</p>",
+    "s": "Nämnaren \\(x^2+1\\) är alltid positiv för reella \\(x\\) och blir därför aldrig 0. Inga reella x-värden behöver uteslutas. Svar: \\(\\boxed{0}\\).",
+    "familj": "Bestämma definitionsmängd för rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 19,
+    "rättSvar": 0,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "ledtrad": "Undersök om nämnaren \\(x^2+1\\) kan bli 0 för något reellt x.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61188,24 +61422,31 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-4}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-4=0\\) ger \\(x=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla \\(\\frac{x^2-4x}{x-4}\\) och ange samtidigt vilket x-värde som inte är tillåtet i det ursprungliga uttrycket.</p><p>a) Förenklat uttryck<br>b) Förbjudet x-värde</p>",
+    "s": "Faktorisera täljaren: \\(x^2-4x=x(x-4)\\). För \\(x\\ne4\\) kan faktorn \\(x-4\\) förkortas, så uttrycket blir \\(x\\). Det ursprungliga uttrycket är dock inte definierat för \\(x=4\\).<br>Svar: a) \\(\\boxed{x}\\) &nbsp; b) \\(\\boxed{4}\\).",
     "familj": "Förenkla rationella uttryck med definitionsvillkor",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "x",
+      4
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Faktorisera täljaren först. Ett värde som gjorde den ursprungliga nämnaren noll förblir förbjudet.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.503",
@@ -61216,22 +61457,23 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=5x+k\\) för \\(x&lt;-3\\) och \\(f(x)=-2\\) för \\(x\\ge -3\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-3\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(5\\cdot-3+k=-2\\). Därför \\(k=13\\).</p><p><strong>Svar:</strong> 13</p>",
-    "familj": "Parameter och ändligt gränsvärde",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen ges av</p><p>\\[f(x)=\\begin{cases}x^2+k,&amp; x&lt;2\\\\7,&amp; x\\ge2.\\end{cases}\\]</p><p>Bestäm \\(k\\) så att funktionen är kontinuerlig vid \\(x=2\\).</p>",
+    "s": "För kontinuitet måste vänstergränsvärdet vara 7. Därför \\(2^2+k=7\\), alltså \\(4+k=7\\) och \\(\\boxed{k=3}\\).",
+    "familj": "Bestäm parameter för kontinuitet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 13,
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Sätt värdet från den vänstra formeln vid skarvpunkten lika med värdet från den högra.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -61245,19 +61487,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=4x+k\\) för \\(x&lt;-2\\) och \\(f(x)=8\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(4\\cdot-2+k=8\\). Därför \\(k=16\\).</p><p><strong>Svar:</strong> 16</p>",
-    "familj": "Parameter och ändligt gränsvärde",
+    "t": "<p>Funktionen ges av \\(f(x)=\\frac{x^2-1}{x-1}\\) när \\(x\\ne1\\) och \\(f(1)=k\\). Bestäm \\(k\\) så att funktionen blir kontinuerlig vid \\(x=1\\).</p>",
+    "s": "För \\(x\\ne1\\) kan uttrycket förkortas till \\(x+1\\). När \\(x\\to1\\) går därför \\(f(x)\\to2\\). För kontinuitet måste \\(\\boxed{k=2}\\).",
+    "familj": "Fylla ett hål för kontinuitet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 16,
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "ledtrad": "Förenkla först uttrycket för \\(x\ne1\\) och bestäm sedan gränsvärdet.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61273,19 +61516,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to 3}(x^2+3)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=3\\): \\(3^2+3=12\\).</p><p><strong>Svar:</strong> 12</p>",
-    "familj": "Bestäm parametrar med gränsvärde",
+    "t": "<p>Bestäm \\(\\lim_{x\\to2}\\frac{x+1}{x+3}\\).</p>",
+    "s": "Funktionen är definierad och kontinuerlig vid \\(x=2\\), så direkt insättning ger \\(\\frac{2+1}{2+3}=\\boxed{\\frac35}\\).",
+    "familj": "Gränsvärde genom direkt insättning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
+    "rättSvar": 0.6,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
+    "ledtrad": "Kontrollera först om nämnaren blir noll vid gränspunkten.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -61301,19 +61545,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to 2}\\frac{x^2-4}{x-2}\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(x^2-4=(x-2)(x+2)\\). För \\(x\\neq 2\\) blir kvoten \\(x+2\\), som går mot 4.</p><p><strong>Svar:</strong> 4</p>",
-    "familj": "Bestäm parametrar med gränsvärde",
+    "t": "<p>Bestäm \\(\\lim_{x\\to2}\\frac{x^3-8}{x-2}\\).</p>",
+    "s": "Faktorisera differensen av två kuber: \\(x^3-8=(x-2)(x^2+2x+4)\\). För \\(x\\ne2\\) förkortas \\(x-2\\), och gränsvärdet blir \\(2^2+2\\cdot2+4=\\boxed{12}\\).",
+    "familj": "Gränsvärde med faktorisering",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "rättSvar": 12,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Faktorisera täljaren och förkorta innan du sätter in gränsvärdet.</p>",
+    "ledtrad": "Faktorisera \\(x^3-2^3\\) innan du sätter in \\(x=2\\).",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61329,9 +61574,9 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(\\frac{x}{x+4}=\\frac12\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Korsmultiplicera: \\(2x=x+4\\), alltså \\(x=4\\).</p><p><strong>Svar:</strong> 4</p>",
-    "familj": "Parameterproblem med rationell ekvation",
+    "t": "<p>Lös ekvationen \\(\\frac{3}{x-1}=1\\).</p>",
+    "s": "Definitionsvillkoret är \\(x\\ne1\\). Multiplicera med \\(x-1\\): \\(3=x-1\\), alltså \\(\\boxed{x=4}\\), vilket är tillåtet.",
+    "familj": "Lösa rationella ekvationer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -61339,9 +61584,10 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Multiplicera båda led med 2(x+a) och lös den linjära ekvationen.</p>",
+    "ledtrad": "Notera först det förbjudna värdet och multiplicera sedan bort nämnaren.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -61357,23 +61603,24 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen \\(\\frac{x}{x+1}=\\frac12\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Korsmultiplicera: \\(2x=x+1\\), alltså \\(x=1\\).</p><p><strong>Svar:</strong> 1</p>",
-    "familj": "Parameterproblem med rationell ekvation",
+    "t": "<p>Lös ekvationen \\(\\frac{x+1}{x-2}=\\frac{3}{x-2}\\).</p><p>A. \\(x=2\\)<br>B. \\(x=-2\\)<br>C. Ingen lösning<br>D. Alla \\(x\\ne2\\)</p>",
+    "s": "För \\(x\\ne2\\) kan båda led multipliceras med \\(x-2\\), vilket ger \\(x+1=3\\) och kandidaten \\(x=2\\). Men \\(x=2\\) är förbjudet eftersom nämnaren då blir noll. Ekvationen har därför ingen lösning. <b>Svar: C</b>.",
+    "familj": "Rationell ekvation med förbjuden lösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Multiplicera båda led med 2(x+a) och lös den linjära ekvationen.</p>",
+    "ledtrad": "Lös först ekvationen, men kontrollera sedan kandidaten mot definitionsvillkoret.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "val"
   },
   {
     "id": "1.509",
@@ -61387,7 +61634,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>En modell ges av \\(K(x)=\\frac{20}{x+2}\\). Bestäm \\(K(2)\\).</p>",
     "s": "<p><strong>Lösning:</strong> \\(K(2)=\\frac{20}{2+2}=5\\).</p><p><strong>Svar:</strong> 5</p>",
-    "familj": "Konstruera rationellt uttryck från villkor",
+    "familj": "Rationella uttryck i problemlösning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -61413,9 +61660,9 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En modell ges av \\(K(x)=\\frac{35}{x+2}\\). Bestäm \\(K(5)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(K(5)=\\frac{35}{5+2}=5\\).</p><p><strong>Svar:</strong> 5</p>",
-    "familj": "Konstruera rationellt uttryck från villkor",
+    "t": "<p>En modell ges av \\(K(x)=\\frac{35}{x+2}\\). För vilket \\(x\\) är \\(K(x)=5\\)?</p>",
+    "s": "\\(\\frac{35}{x+2}=5\\) ger \\(35=5(x+2)\\). Då \\(x+2=7\\), alltså \\(\\boxed{x=5}\\).",
+    "familj": "Rationella uttryck i problemlösning",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -61423,9 +61670,10 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Sätt in x-värdet i uttrycket och beräkna nämnaren först.</p>",
+    "ledtrad": "Sätt modellen lika med 5 och lös ekvationen.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61443,7 +61691,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>En linjär modell är \\(f(x)=3x-2\\). Bestäm modellens startvärde \\(f(0)\\).</p>",
     "s": "<p><strong>Lösning:</strong> \\(f(0)=3\\cdot0-2=-2\\).</p><p><strong>Svar:</strong> -2</p>",
-    "familj": "Tolka parameter och startvärde i modell",
+    "familj": "Beräkna och tolka funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -61451,6 +61699,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Startvärdet är funktionens värde när x=0.</p>",
@@ -61469,19 +61718,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En linjär modell är \\(f(x)=4x+1\\). Bestäm modellens startvärde \\(f(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f(0)=4\\cdot0+1=1\\).</p><p><strong>Svar:</strong> 1</p>",
-    "familj": "Tolka parameter och startvärde i modell",
+    "t": "<p>En linjär modell är \\(f(x)=4x+1\\). Hur mycket ökar \\(f(x)\\) när \\(x\\) ökar med 3 enheter?</p>",
+    "s": "Riktningskoefficienten 4 betyder att funktionsvärdet ökar med 4 för varje enhet i \\(x\\). När \\(x\\) ökar med 3 blir ökningen \\(4\\cdot3=\\boxed{12}\\).",
+    "familj": "Tolka och jämföra funktionsgrafer",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
+    "rättSvar": 12,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Startvärdet är funktionens värde när x=0.</p>",
+    "ledtrad": "Riktningskoefficienten anger förändringen i funktionsvärde per enhet i x.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61507,6 +61756,7 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
     "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
@@ -61525,9 +61775,9 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(15+\\frac{7}{x+1}\\right)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{7}{x+1}\\to0\\). Gränsvärdet är därför 15.</p><p><strong>Svar:</strong> 15</p>",
-    "familj": "Gränsvärde i mättnadsmodell",
+    "t": "<p>Funktionen \\(f(x)=15-\\frac{7}{x+1}\\) närmar sig en horisontell asymptot då \\(x\\) blir mycket stor. Vilket y-värde har asymptoten?</p>",
+    "s": "När \\(x\\to\\infty\\) går \\(\\frac{7}{x+1}\\to0\\). Därför närmar sig \\(f(x)\\) värdet \\(\\boxed{15}\\), så asymptoten är \\(y=15\\).",
+    "familj": "Beräkna och tolka gränsvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -61535,9 +61785,9 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "ledtrad": "Undersök vad bråkdelen händer med när nämnaren blir mycket stor.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61552,10 +61802,10 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(10+\\frac{7}{x+1}\\right)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{7}{x+1}\\to0\\). Gränsvärdet är därför 10.</p><p><strong>Svar:</strong> 10</p>",
-    "familj": "Gränsvärde i kostnadsmodell",
+    "poang": "2/0/0",
+    "t": "<p>Genomsnittskostnaden per produkt modelleras av \\(K(x)=10+\\frac{500}{x}\\) kronor, där \\(x&gt;0\\). Vilket värde närmar sig kostnaden per produkt när produktionen blir mycket stor?</p>",
+    "s": "När \\(x\\to\\infty\\) går \\(\\frac{500}{x}\\to0\\). Därför närmar sig \\(K(x)\\) \\(\\boxed{10}\\) kronor per produkt.",
+    "familj": "Beräkna och tolka gränsvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -61563,11 +61813,12 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "modellering"
     ],
-    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Tänk på vad termen \\(500/x\\) händer med när x växer.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -61581,9 +61832,9 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(25+\\frac{3}{x+1}\\right)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{3}{x+1}\\to0\\). Gränsvärdet är därför 25.</p><p><strong>Svar:</strong> 25</p>",
-    "familj": "Gränsvärde i kostnadsmodell",
+    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\frac{25x+3}{x+1}\\).</p>",
+    "s": "Dividera täljare och nämnare med \\(x\\): \\(\\frac{25+3/x}{1+1/x}\\to\\frac{25}{1}=\\boxed{25}\\).",
+    "familj": "Beräkna och tolka gränsvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -61591,9 +61842,10 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
+    "ledtrad": "Dividera både täljare och nämnare med x och låt sedan \\(x\\) växa.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61609,19 +61861,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=6x+k\\) för \\(x&lt;-1\\) och \\(f(x)=1\\) för \\(x\\ge -1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-1\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(6\\cdot-1+k=1\\). Därför \\(k=7\\).</p><p><strong>Svar:</strong> 7</p>",
-    "familj": "Bestäm parameter med gränsvärde",
+    "t": "<p>Funktionen ges av</p><p>\\[f(x)=\\begin{cases}3x+k,&amp; x&lt;2\\\\11,&amp; x\\ge2.\\end{cases}\\]</p><p>Bestäm \\(k\\) så att funktionen är kontinuerlig vid \\(x=2\\).</p>",
+    "s": "För kontinuitet måste \\(3\\cdot2+k=11\\). Då är \\(6+k=11\\), alltså \\(\\boxed{k=5}\\).",
+    "familj": "Bestäm parameter för kontinuitet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 7,
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "ledtrad": "De två delarna ska ge samma värde i skarvpunkten.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -61637,19 +61890,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=3x+k\\) för \\(x&lt;1\\) och \\(f(x)=-6\\) för \\(x\\ge 1\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=1\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(3\\cdot1+k=-6\\). Därför \\(k=-9\\).</p><p><strong>Svar:</strong> -9</p>",
-    "familj": "Bestäm parameter med gränsvärde",
+    "t": "<p>Funktionen \\(f(x)=\\frac{x^2-4}{x-2}\\) är definierad för \\(x\\ne2\\). Vilket värde bör man sätta \\(f(2)\\) till för att göra funktionen kontinuerlig?</p>",
+    "s": "För \\(x\\ne2\\) gäller \\(\\frac{x^2-4}{x-2}=x+2\\). När \\(x\\to2\\) går uttrycket därför mot 4. Sätt \\(\\boxed{f(2)=4}\\).",
+    "familj": "Fylla ett hål för kontinuitet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": -9,
+    "rättSvar": 4,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "ledtrad": "Faktorisera täljaren och bestäm gränsvärdet efter förkortning.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61665,19 +61919,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=3x+5\\). Bestäm \\(f(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f(2)=3\\cdot(2)+5=11\\).</p><p><strong>Svar:</strong> 11</p>",
-    "familj": "Beräkna funktionsvärde i modell",
+    "t": "<p>Funktionen är \\(f(x)=3x+5\\). För vilket \\(x\\) är \\(f(x)=11\\)?</p>",
+    "s": "Sätt \\(3x+5=11\\). Då är \\(3x=6\\), alltså \\(\\boxed{x=2}\\).",
+    "familj": "Beräkna och tolka funktionsvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 11,
+    "rättSvar": 2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt in det givna x-värdet i funktionsuttrycket.</p>",
+    "ledtrad": "Sätt funktionsuttrycket lika med 11.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61692,22 +61946,23 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(10+\\frac{6}{x+1}\\right)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{6}{x+1}\\to0\\). Gränsvärdet är därför 10.</p><p><strong>Svar:</strong> 10</p>",
+    "poang": "2/0/0",
+    "t": "<p>En population modelleras av \\(P(t)=\\frac{100}{1+4e^{-0,5t}}\\). Vilket värde närmar sig \\(P(t)\\) när \\(t\\) blir mycket stor?</p>",
+    "s": "När \\(t\\to\\infty\\) går \\(e^{-0,5t}\\to0\\). Nämnaren går därför mot 1 och \\(P(t)\\to\\boxed{100}\\).",
     "familj": "Gränsvärde i logistisk modell",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
+    "rättSvar": 100,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "modellering"
     ],
-    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Undersök först vad \\(e^{-0,5t}\\) närmar sig.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -61720,22 +61975,22 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to\\infty}\\left(15+\\frac{4}{x+1}\\right)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> När \\(x\\to\\infty\\) går \\(\\frac{4}{x+1}\\to0\\). Gränsvärdet är därför 15.</p><p><strong>Svar:</strong> 15</p>",
+    "poang": "1/0/0",
+    "t": "<p>En population modelleras av \\(P(t)=\\frac{80}{1+3e^{-0,4t}}\\). Vilken är modellens övre gräns för populationen?</p>",
+    "s": "När \\(t\\to\\infty\\) går exponentialtermen mot 0, så nämnaren går mot 1. Modellens övre gräns är därför \\(\\boxed{80}\\).",
     "familj": "Gränsvärde i logistisk modell",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 15,
+    "rättSvar": 80,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Bråkdelen går mot 0 när nämnaren växer utan gräns.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
+    "ledtrad": "Fundera på vad som återstår i uttrycket när exponentialtermen går mot 0.",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -61749,19 +62004,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=8x+k\\) för \\(x&lt;-2\\) och \\(f(x)=6\\) för \\(x\\ge -2\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=-2\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(8\\cdot-2+k=6\\). Därför \\(k=22\\).</p><p><strong>Svar:</strong> 22</p>",
-    "familj": "Parameterbestämning med gränsvärde",
+    "t": "<p>Funktionen ges av \\(f(x)=kx+2\\) när \\(x&lt;3\\) och \\(f(x)=11\\) när \\(x\\ge3\\). Bestäm \\(k\\) så att funktionen är kontinuerlig vid \\(x=3\\).</p>",
+    "s": "För kontinuitet måste \\(3k+2=11\\). Därför \\(3k=9\\) och \\(\\boxed{k=3}\\).",
+    "familj": "Bestäm parameter för kontinuitet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 22,
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "ledtrad": "De båda delarna ska mötas vid samma funktionsvärde när \\(x=3\\).",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -61777,19 +62033,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Kort rutinövning: Funktionen är \\(f(x)=2x+k\\) för \\(x&lt;5\\) och \\(f(x)=1\\) för \\(x\\ge 5\\). Vilket värde ska \\(k\\) ha för att funktionen ska vara kontinuerlig vid \\(x=5\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> För kontinuitet ska värdena mötas: \\(2\\cdot5+k=1\\). Därför \\(k=-9\\).</p><p><strong>Svar:</strong> -9</p>",
-    "familj": "Parameterbestämning med gränsvärde",
+    "t": "<p>Funktionen ges av \\(f(x)=\\frac{x^2-9}{x-3}\\) för \\(x\\ne3\\) och \\(f(3)=k\\). Bestäm \\(k\\) så att \\(f\\) blir kontinuerlig vid \\(x=3\\).</p>",
+    "s": "För \\(x\\ne3\\) förenklas uttrycket till \\(x+3\\). Gränsvärdet när \\(x\\to3\\) är 6, så \\(\\boxed{k=6}\\).",
+    "familj": "Fylla ett hål för kontinuitet",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": -9,
+    "rättSvar": 6,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt uttrycken på vänster och höger sida lika med varandra i skarvpunkten.</p>",
+    "ledtrad": "Faktorisera täljaren och förkorta innan du bestämmer gränsvärdet.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61805,19 +62062,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to 3}(x^2+1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Polynom är kontinuerliga, så sätt in \\(x=3\\): \\(3^2+1=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Bestäm \\(\\lim_{x\\to4}\\sqrt{x+5}\\).</p>",
+    "s": "Rotfunktionen är kontinuerlig här, så vi kan sätta in \\(x=4\\): \\(\\sqrt{4+5}=\\sqrt9=\\boxed{3}\\).",
     "familj": "Gränsvärde med rotuttryck",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>För ett polynom kan du sätta in x-värdet direkt.</p>",
+    "ledtrad": "Här kan du använda direkt insättning.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -61833,19 +62091,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\lim_{x\\to 1}\\frac{x^2-1}{x-1}\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(x^2-1=(x-1)(x+1)\\). För \\(x\\neq 1\\) blir kvoten \\(x+1\\), som går mot 2.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Bestäm \\(\\lim_{x\\to9}\\frac{\\sqrt{x}-3}{x-9}\\).</p>",
+    "s": "Förläng med konjugatet \\(\\sqrt{x}+3\\): \\(\\frac{\\sqrt{x}-3}{x-9}\\cdot\\frac{\\sqrt{x}+3}{\\sqrt{x}+3}=\\frac{1}{\\sqrt{x}+3}\\) för \\(x\\ne9\\). Gränsvärdet blir därför \\(\\frac{1}{3+3}=\\boxed{\\frac16}\\).",
     "familj": "Gränsvärde med rotuttryck",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
+    "rättSvar": 0.16666666666666666,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Faktorisera täljaren och förkorta innan du sätter in gränsvärdet.</p>",
+    "ledtrad": "Förläng bråket med konjugatet \\(\\sqrt{x}+3\\).",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61860,24 +62119,24 @@ window.BANKMATO1 = [
       "1c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Ekvationen är \\((x-6)(x+2)=0\\). Bestäm det positiva nollstället.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. \\(x-6=0\\) ger \\(x=6\\).</p><p><strong>Svar:</strong> 6</p>",
-    "familj": "Analysera antal nollställen med parameter",
+    "poang": "2/0/0",
+    "t": "<p>För vilka värden på \\(a\\) saknar ekvationen \\(x^2+a=0\\) reella lösningar?</p><p>A. \\(a&lt;0\\)<br>B. \\(a=0\\)<br>C. \\(a&gt;0\\)<br>D. För alla \\(a\\)</p>",
+    "s": "Ekvationen kan skrivas \\(x^2=-a\\). Eftersom \\(x^2\\ge0\\) saknas reella lösningar när \\(-a&lt;0\\), alltså när \\(a&gt;0\\). <b>Svar: C</b>.",
+    "familj": "Parameter och antal nollställen",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
+    "ledtrad": "Jämför \\(x^2\\), som aldrig är negativt, med \\(-a\\).",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "val"
   },
   {
     "id": "1.527",
@@ -61889,19 +62148,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Polynomet \\(P(x)=x^2-8x+15\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera: \\(P(x)=(x-5)(x-3)\\). Det största nollstället är 5.</p><p><strong>Svar:</strong> 5</p>",
-    "familj": "Analysera antal nollställen med parameter",
+    "t": "<p>Polynomet \\(P(x)=x^2-2ax+a^2\\) beror på parametern \\(a\\). Hur många olika reella nollställen har \\(P\\) för ett godtyckligt reellt \\(a\\)?</p>",
+    "s": "Polynomet är en perfekt kvadrat: \\(P(x)=(x-a)^2\\). Därför har det exakt ett reellt nollställe, \\(x=a\\), oavsett \\(a\\). Svar: \\(\\boxed{1}\\).",
+    "familj": "Dubbelrot och parameter",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 5,
+    "rättSvar": 1,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
+    "ledtrad": "Försök skriva polynomet som en kvadrat.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -61917,23 +62176,23 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Förenkla \\(2x+x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
-    "s": "<p><strong>Lösning:</strong> Samla x-termerna: \\(2x+x=(3)x\\). Koefficienten är 3.</p><p><strong>Svar:</strong> 3</p>",
-    "familj": "Förenkla polynom med konjugat",
+    "t": "<p>Förenkla \\((x+3)(x-3)\\).</p>",
+    "s": "Konjugatregeln ger \\((x+3)(x-3)=x^2-3^2=\\boxed{x^2-9}\\).",
+    "familj": "Förenkla polynomuttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2-9",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Samla termer av samma slag.</p>",
+    "ledtrad": "Använd \\((a+b)(a-b)=a^2-b^2\\).",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.529",
@@ -61945,23 +62204,23 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Uttrycket \\(\\frac{x^2-16}{x-4}\\) kan förkortas när \\(x\\neq 4\\). Vilket värde får det för \\(x=1\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-4)(x+4)\\). Efter förkortning återstår \\(x+4\\). För \\(x=1\\) blir värdet 5.</p><p><strong>Svar:</strong> 5</p>",
-    "familj": "Förenkla rationellt uttryck",
+    "t": "<p>Förenkla \\(\\frac{x^2-9}{x+3}\\) så långt som möjligt. Utgå från att \\(x\\ne-3\\).</p>",
+    "s": "Faktorisera täljaren: \\(x^2-9=(x-3)(x+3)\\). När \\(x\\ne-3\\) kan \\(x+3\\) förkortas, så uttrycket blir \\(\\boxed{x-3}\\).",
+    "familj": "Förenkla rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
+    "svarstyp": "uttryck",
+    "rättSvar": "x-3",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "ledtrad": "Faktorisera täljaren som en differens av två kvadrater.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.530",
@@ -61973,23 +62232,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-7}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-7=0\\) ger \\(x=7\\).</p><p><strong>Svar:</strong> 7</p>",
-    "familj": "Definitionsmängd",
+    "t": "<p>För vilka två x-värden är \\(R(x)=\\frac{x+1}{x^2-9}\\) inte definierat? Ange det mindre värdet först.</p>",
+    "s": "Nämnaren faktoriseras \\(x^2-9=(x-3)(x+3)\\). Den blir noll för \\(x=-3\\) och \\(x=3\\). Svar: \\(\\boxed{-3}\\) och \\(\\boxed{3}\\).",
+    "familj": "Definitionsmängd med två förbjudna värden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      3
+    ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "ledtrad": "Faktorisera nämnaren och sätt varje faktor lika med noll.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.531",
@@ -62001,21 +62267,21 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bestäm graden av polynomet \\(P(x)=4x^4-2x+5\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Högsta exponenten på \\(x\\) är 4.</p><p><strong>Svar:</strong> 4</p>",
-    "familj": "Polynombegrepp",
+    "t": "<p>Polynomet är \\(P(x)=4x^4-2x+5\\). Vilken är koefficienten framför \\(x^2\\)?</p>",
+    "s": "Det finns ingen \\(x^2\\)-term. Det betyder att koefficienten framför \\(x^2\\) är \\(\\boxed{0}\\).",
+    "familj": "Polynombegrepp och polynomvärden",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 4,
+    "rättSvar": 0,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "ledtrad": "<p>Polynomets grad är den högsta exponent som förekommer.</p>",
+    "ledtrad": "En term som saknas kan tänkas ha koefficienten 0.",
     "traningsniva": 2,
-    "arbetsinsats": 2,
+    "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -62029,19 +62295,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-2}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-2=0\\) ger \\(x=2\\).</p><p><strong>Svar:</strong> 2</p>",
-    "familj": "Rationell ekvation och definitionsvillkor",
+    "t": "<p>Lös ekvationen \\(\\frac{1}{x-2}=\\frac13\\).</p>",
+    "s": "Först gäller \\(x\\ne2\\). Korsmultiplicera: \\(3=x-2\\), så \\(\\boxed{x=5}\\), vilket är tillåtet.",
+    "familj": "Rationell ekvation med definitionsvillkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 2,
+    "rättSvar": 5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "ledtrad": "Notera först det förbjudna värdet. Korsmultiplicera sedan.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -62057,19 +62324,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-17}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-17=0\\) ger \\(x=17\\).</p><p><strong>Svar:</strong> 17</p>",
-    "familj": "Rationell ekvation och definitionsvillkor",
+    "t": "<p>Lös ekvationen \\(\\frac{x+1}{x-1}=2\\).</p>",
+    "s": "Definitionsvillkoret är \\(x\\ne1\\). Multiplicera med \\(x-1\\): \\(x+1=2x-2\\), vilket ger \\(\\boxed{x=3}\\). Lösningen är tillåten.",
+    "familj": "Rationell ekvation med definitionsvillkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 17,
+    "rättSvar": 3,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "ledtrad": "Börja med att ange vilket x-värde som inte är tillåtet och multiplicera sedan bort nämnaren.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -62085,19 +62353,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös \\(|x+2|=3\\). Ange den största lösningen.</p>",
-    "s": "<p><strong>Lösning:</strong> \\(x--2=3\\) eller \\(x--2=-3\\). Den största lösningen är \\(x=1\\).</p><p><strong>Svar:</strong> 1</p>",
-    "familj": "Lösa absolutbeloppsekvation",
+    "t": "<p>Lös \\(|x+2|=3\\). Ange den minsta lösningen.</p>",
+    "s": "\\(|x+2|=3\\) ger \\(x+2=3\\) eller \\(x+2=-3\\). Lösningarna är \\(x=1\\) och \\(x=-5\\), så den minsta är \\(\\boxed{-5}\\).",
+    "familj": "Lösa ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 1,
+    "rättSvar": -5,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ett absolutbelopp kan ge två fall: uttrycket är antingen a eller -a.</p>",
+    "ledtrad": "Dela upp i de två fallen \\(x+2=3\\) och \\(x+2=-3\\).",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -62113,19 +62381,20 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-10}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-10=0\\) ger \\(x=10\\).</p><p><strong>Svar:</strong> 10</p>",
-    "familj": "Rationell ekvation med förbjuden rot",
+    "t": "<p>Lös ekvationen \\(\\frac{x^2-4}{x-2}=0\\).</p>",
+    "s": "Definitionsvillkoret är \\(x\\ne2\\). För \\(x\\ne2\\) förenklas vänsterledet till \\(x+2\\). Ekvationen blir \\(x+2=0\\), så \\(\\boxed{x=-2}\\).",
+    "familj": "Rationell ekvation med definitionsvillkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
-    "rättSvar": 10,
+    "rättSvar": -2,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "ledtrad": "Faktorisera täljaren, men glöm inte vilket värde som är förbjudet innan du förkortar.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -62141,23 +62410,24 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>För vilket värde på \\(x\\) är uttrycket \\(\\frac{x+2}{x-13}\\) inte definierat?</p>",
-    "s": "<p><strong>Lösning:</strong> Nämnaren får inte vara noll. \\(x-13=0\\) ger \\(x=13\\).</p><p><strong>Svar:</strong> 13</p>",
-    "familj": "Rationell ekvation med förbjuden rot",
+    "t": "<p>Lös ekvationen \\(\\frac{x^2-9}{x-3}=6\\).</p><p>A. \\(x=3\\)<br>B. \\(x=-3\\)<br>C. Ingen lösning<br>D. Alla \\(x\\ne3\\)</p>",
+    "s": "Definitionsvillkoret är \\(x\\ne3\\). För tillåtna x förenklas vänsterledet till \\(x+3\\), så \\(x+3=6\\) ger kandidaten \\(x=3\\). Den är förbjuden. Alltså finns ingen lösning. <b>Svar: C</b>.",
+    "familj": "Rationell ekvation med förbjuden lösning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 13,
+    "svarstyp": "val",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Sätt nämnaren lika med noll.</p>",
+    "ledtrad": "Förenkla uttrycket men behåll det ursprungliga definitionsvillkoret.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "val"
   },
   {
     "id": "2.578",
@@ -62169,8 +62439,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=4x+0\\). Bestäm förändringskvoten mellan \\(x=3\\) och \\(x=5\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Förändringskvoten är \\(\\frac{f(5)-f(3)}{5-3}=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>Funktionen är \\(f(x)=x^2\\). Bestäm förändringskvoten mellan \\(x=1\\) och \\(x=3\\).</p>",
+    "s": "Förändringskvoten är \\(\\frac{f(3)-f(1)}{3-1}=\\frac{9-1}{2}=\\boxed{4}\\).",
     "familj": "Beräkna och tolka förändringskvot",
     "geogebra": false,
     "miniräknare": false,
@@ -62179,9 +62449,10 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Använd (ändring i y)/(ändring i x).</p>",
+    "ledtrad": "Beräkna först funktionsvärdena i intervallets två ändpunkter och dividera förändringen i y med förändringen i x.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -62197,8 +62468,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm \\(f'(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Potensregeln ger \\(f'(x)=6x^1\\). Då blir \\(f'(1)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Funktionen är \\(f(x)=3x^2\\). Bestäm \\(f^{\\prime}(1)\\).</p>",
+    "s": "Potensregeln ger \\(f^{\\prime}(x)=6x\\). Därför är \\(f^{\\prime}(1)=\\boxed{6}\\).",
     "familj": "Derivera polynom med potensregeln",
     "geogebra": false,
     "miniräknare": false,
@@ -62209,7 +62480,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
+    "ledtrad": "Derivera först funktionen och sätt sedan in \\(x=1\\).",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -62225,9 +62496,9 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=4x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=8x\\), så \\(f'(3)=24\\). Tangentens riktningskoefficient är 24.</p><p><strong>Svar:</strong> 24</p>",
-    "familj": "Läsa av tangent och tangentlutning från graf",
+    "t": "<p>Funktionen är \\(f(x)=4x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=3\\).</p>",
+    "s": "\\(f^{\\prime}(x)=8x\\), så \\(f^{\\prime}(3)=8\\cdot3=\\boxed{24}\\). Derivatans värde är tangentens riktningskoefficient.",
+    "familj": "Bestämma tangentens ekvation med derivata",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -62235,9 +62506,10 @@ window.BANKMATO1 = [
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "ledtrad": "Tangentens riktningskoefficient är derivatans värde vid den aktuella x-koordinaten.",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -77579,7 +77851,7 @@ window.BANKMATO1 = [
   {
     "id": "3.1074",
     "kap": 3,
-    "omr": "primitiva_integraler",
+    "omr": "primitiva_funktioner",
     "kurs": [
       "1b",
       "1c"
@@ -77588,7 +77860,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>Kort rutinövning: Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
     "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(1)=3\\).</p><p><strong>Svar:</strong> 3</p>",
-    "familj": "Bestämd integral av polynom",
+    "familj": "Bestäm primitiv funktion med begynnelsevillkor",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
@@ -79029,6 +79301,896 @@ window.BANKMATO1 = [
     "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.473",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En cirkel har medelpunkten \\((2,-1)\\) och radien 3. Ange cirkelns ekvation.</p>",
+    "s": "<p>En cirkel med medelpunkt \\((a,b)\\) och radie \\(r\\) har ekvationen</p><p>\\[(x-a)^2+(y-b)^2=r^2.\\]</p><p>Här blir det</p><p>\\[(x-2)^2+(y+1)^2=9.\\]</p>",
+    "familj": "Skriva cirkelns ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "(x-2)^2+(y+1)^2=9",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in medelpunktens koordinater och radien i cirkelns standardform.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "4.474",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Cirkeln har ekvationen \\[(x+2)^2+(y-4)^2=25.\\]</p><p>Bestäm radien.</p>",
+    "s": "<p>Högerledet är \\(r^2=25\\), alltså är \\(r=5\\).</p><p><strong>Svar:</strong> 5.</p>",
+    "familj": "Läsa cirkelns ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>I cirkelns standardform är högerledet \\(r^2\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.475",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Cirkeln har ekvationen \\[(x+2)^2+(y-4)^2=25.\\]</p><p>Bestäm medelpunktens koordinater.</p>",
+    "s": "<p>Jämför med \\((x-a)^2+(y-b)^2=r^2\\). Eftersom \\(x+2=x-(-2)\\) är</p><p><strong>Svar:</strong> medelpunkten \\((-2,4)\\).</p>",
+    "familj": "Läsa cirkelns ekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      4
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Var särskilt uppmärksam på tecknet i \\(x+2=x-(-2)\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "4.476",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Cirkeln har ekvationen \\[(x-1)^2+(y-1)^2=16.\\]</p><p>Ligger punkten \\((5,1)\\) på cirkeln?</p><p>A. Ja<br>B. Nej</p>",
+    "s": "<p>Sätt in \\((5,1)\\):</p><p>\\[(5-1)^2+(1-1)^2=16.\\]</p><p>Likheten stämmer, så punkten ligger på cirkeln.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Punkt och cirkelekvation",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in punktens koordinater i cirkelns vänsterled.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "4.477",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En cirkel har medelpunkten \\((3,2)\\) och går genom punkten \\((6,6)\\). Bestäm cirkelns radie.</p>",
+    "s": "<p>Radien är avståndet mellan punkterna:</p><p>\\[r=\\sqrt{(6-3)^2+(6-2)^2}=\\sqrt{9+16}=5.\\]</p><p><strong>Svar:</strong> 5.</p>",
+    "familj": "Radie från två punkter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Beräkna avståndet från medelpunkten till punkten på cirkeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1119",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm värdet av</p><p>\\[\\int_2^2 f(x)\\,dx.\\]</p>",
+    "s": "<p>Integrationsintervallet har längden 0. Därför är integralen 0, oavsett vilken funktion \\(f\\) är.</p><p><strong>Svar:</strong> 0.</p>",
+    "familj": "Grundegenskaper för integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vad händer när den undre och övre integrationsgränsen är samma?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1120",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du vet att</p><p>\\[\\int_1^4 f(x)\\,dx=7.\\]</p><p>Bestäm \\(\\int_4^1 f(x)\\,dx\\).</p>",
+    "s": "<p>När integrationsgränserna byter plats byter integralen tecken:</p><p>\\[\\int_4^1 f(x)\\,dx=-7.\\]</p>",
+    "familj": "Byta integrationsgränser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Att byta plats på integrationsgränserna ändrar integralens tecken.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1121",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du vet att \\(\\int_0^3 f(x)\\,dx=5\\). Bestäm</p><p>\\[\\int_0^3 2f(x)\\,dx.\\]</p>",
+    "s": "<p>Konstanten kan flyttas ut ur integralen:</p><p>\\[\\int_0^3 2f(x)\\,dx=2\\int_0^3 f(x)\\,dx=2\\cdot5=10.\\]</p>",
+    "familj": "Integralens linearitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>En konstant faktor framför funktionen ger samma faktor framför integralen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1122",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Du vet att</p><p>\\[\\int_1^3 f(x)\\,dx=3\\quad\\text{och}\\quad\\int_1^3 g(x)\\,dx=-1.\\]</p><p>Bestäm \\(\\int_1^3(f(x)+g(x))\\,dx\\).</p>",
+    "s": "<p>Integralen av en summa är summan av integralerna:</p><p>\\[3+(-1)=2.\\]</p><p><strong>Svar:</strong> 2.</p>",
+    "familj": "Integralens linearitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Dela upp integralen i en integral av \\(f\\) och en av \\(g\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1123",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Du vet att</p><p>\\[\\int_0^5 f(x)\\,dx=10\\quad\\text{och}\\quad\\int_0^2 f(x)\\,dx=4.\\]</p><p>Bestäm \\(\\int_2^5 f(x)\\,dx\\).</p>",
+    "s": "<p>Integralen över hela intervallet är summan av de två delarna:</p><p>\\[10=4+\\int_2^5 f(x)\\,dx.\\]</p><p>Alltså är integralen 6.</p>",
+    "familj": "Dela upp och slå ihop integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Dela intervallet vid \\(x=2\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1124",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen \\(f\\) är jämn och</p><p>\\[\\int_0^3 f(x)\\,dx=5.\\]</p><p>Bestäm \\(\\int_{-3}^{3}f(x)\\,dx\\).</p>",
+    "s": "<p>För en jämn funktion är bidragen på båda sidor om y-axeln lika stora:</p><p>\\[\\int_{-3}^{3}f(x)\\,dx=2\\int_0^3 f(x)\\,dx=10.\\]</p>",
+    "familj": "Symmetri i bestämda integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>En jämn funktion är symmetrisk kring y-axeln.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1125",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f\\) är udda. Bestäm</p><p>\\[\\int_{-4}^{4}f(x)\\,dx.\\]</p>",
+    "s": "<p>För en udda funktion tar bidragen på symmetriska intervall ut varandra.</p><p><strong>Svar:</strong> 0.</p>",
+    "familj": "Symmetri i bestämda integraler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>En udda funktion är punktsymmetrisk kring origo.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1126",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Du vet att \\(\\int_0^2 f(x)\\,dx=4\\). Bestäm</p><p>\\[\\int_0^2(f(x)+3)\\,dx.\\]</p>",
+    "s": "<p>\\[\\int_0^2(f(x)+3)\\,dx=\\int_0^2 f(x)\\,dx+\\int_0^2 3\\,dx=4+6=10.\\]</p><p><strong>Svar:</strong> 10.</p>",
+    "familj": "Integralens linearitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Dela upp integralen. Integralen av konstanten 3 över ett intervall med längd 2 är 6.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1127",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Det gäller att \\(f(x)\\ge0\\) för alla \\(x\\) med \\(1\\le x\\le4\\). Vilket påstående måste vara sant?</p><p>A. \\(\\int_1^4 f(x)\\,dx&lt;0\\)<br>B. \\(\\int_1^4 f(x)\\,dx=0\\) alltid<br>C. \\(\\int_1^4 f(x)\\,dx\\ge0\\)<br>D. Integralens tecken går inte att avgöra</p>",
+    "s": "<p>Eftersom funktionen aldrig ligger under x-axeln kan den bestämda integralen inte bli negativ.</p><p><strong>Svar:</strong> C.</p>",
+    "familj": "Integralens tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Tolka integralen som tecknad area.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "3.1128",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm arean mellan grafen till \\(f(x)=x\\), x-axeln och linjerna \\(x=0\\) och \\(x=2\\).</p>",
+    "s": "<p>\\[A=\\int_0^2x\\,dx=\\left[\\frac{x^2}{2}\\right]_0^2=2.\\]</p><p><strong>Svar:</strong> 2 areaenheter.</p>",
+    "familj": "Area under en graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Funktionen är positiv på området, så arean är den bestämda integralen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1129",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Grafen till \\(f(x)=4-x\\) ligger ovanför x-axeln för \\(0\\le x\\le4\\). Bestäm arean mellan grafen och x-axeln.</p>",
+    "s": "<p>\\[A=\\int_0^4(4-x)\\,dx=\\left[4x-\\frac{x^2}{2}\\right]_0^4=8.\\]</p><p><strong>Svar:</strong> 8 areaenheter.</p>",
+    "familj": "Area under en graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Integrera \\(4-x\\) från 0 till 4.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1130",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm exakt arean mellan grafen till \\(f(x)=x^2\\), x-axeln och linjerna \\(x=0\\) och \\(x=1\\).</p>",
+    "s": "<p>\\[A=\\int_0^1x^2\\,dx=\\left[\\frac{x^3}{3}\\right]_0^1=\\frac13.\\]</p><p><strong>Svar:</strong> \\(1/3\\).</p>",
+    "familj": "Area under en graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "1/3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Funktionen är icke-negativ på området. Skriv arean som en integral.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "3.1131",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm arean mellan grafen till \\(f(x)=x+2\\), x-axeln och linjerna \\(x=0\\) och \\(x=3\\).</p>",
+    "s": "<p>\\[A=\\int_0^3(x+2)\\,dx=\\left[\\frac{x^2}{2}+2x\\right]_0^3=10,5.\\]</p><p><strong>Svar:</strong> 10,5 areaenheter.</p>",
+    "familj": "Area under en graf",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Eftersom \\(f(x)>0\\) på området är arean lika med integralen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1132",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-2\\). Bestäm den geometriska arean mellan grafen, x-axeln och linjerna \\(x=0\\) och \\(x=3\\).</p>",
+    "s": "<p>Grafen ligger 2 enheter under x-axeln. Den geometriska arean är därför</p><p>\\[3\\cdot2=6.\\]</p><p><strong>Svar:</strong> 6 areaenheter.</p>",
+    "familj": "Geometrisk area och tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Geometrisk area är positiv även när grafen ligger under x-axeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1133",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Grafen till \\(f(x)=x-1\\) skär x-axeln vid \\(x=1\\). Bestäm den geometriska arean mellan grafen och x-axeln då \\(0\\le x\\le2\\).</p>",
+    "s": "<p>På \\(0\\le x\\le1\\) ligger grafen under x-axeln och på \\(1\\le x\\le2\\) över. De två trianglarna har vardera area \\(1/2\\).</p><p>\\[A=\\frac12+\\frac12=1.\\]</p><p><strong>Svar:</strong> 1 areaenhet.</p>",
+    "familj": "Geometrisk area och tecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Dela området vid nollstället \\(x=1\\). Geometriska areor räknas positiva.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1134",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm arean mellan linjerna \\(y=3\\) och \\(y=x\\) då \\(0\\le x\\le2\\).</p>",
+    "s": "<p>Den övre grafen är \\(y=3\\). Arean blir</p><p>\\[A=\\int_0^2(3-x)\\,dx=\\left[3x-\\frac{x^2}{2}\\right]_0^2=4.\\]</p><p><strong>Svar:</strong> 4 areaenheter.</p>",
+    "familj": "Area mellan två grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Integrera övre funktion minus undre funktion.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1135",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Bestäm exakt arean mellan graferna \\(y=x\\) och \\(y=x^2\\) då \\(0\\le x\\le1\\).</p>",
+    "s": "<p>På området gäller \\(x\\ge x^2\\), så</p><p>\\[A=\\int_0^1(x-x^2)\\,dx=\\left[\\frac{x^2}{2}-\\frac{x^3}{3}\\right]_0^1=\\frac16.\\]</p><p><strong>Svar:</strong> \\(1/6\\).</p>",
+    "familj": "Area mellan två grafer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "1/6",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Avgör först vilken graf som ligger överst och integrera skillnaden.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "3.1136",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f\\) är icke-negativ då \\(1\\le x\\le4\\), och</p><p>\\[\\int_1^4f(x)\\,dx=7.\\]</p><p>Hur stor är arean mellan grafen och x-axeln på detta område?</p>",
+    "s": "<p>Eftersom \\(f(x)\\ge0\\) är den geometriska arean lika med integralen.</p><p><strong>Svar:</strong> 7 areaenheter.</p>",
+    "familj": "Tolka integral som area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>När grafen ligger ovanför x-axeln är integralen lika med den geometriska arean.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1137",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken integral ger arean mellan grafen till \\(f(x)=5-x^2\\), x-axeln och linjerna \\(x=0\\) och \\(x=2\\)?</p><p>A. \\(\\int_0^2(5-x^2)\\,dx\\)<br>B. \\(\\int_0^2(x^2-5)\\,dx\\)<br>C. \\(\\int_2^5(5-x^2)\\,dx\\)<br>D. \\(\\int_0^5(2-x^2)\\,dx\\)</p>",
+    "s": "<p>På \\(0\\le x\\le2\\) är \\(5-x^2>0\\), så arean fås direkt av</p><p>\\[\\int_0^2(5-x^2)\\,dx.\\]</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Ställa upp area med integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Integrationsgränserna ska motsvara de två lodräta linjerna.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "3.1138",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Rektangeln bestäms av \\(0\\le x\\le2\\) och \\(0\\le y\\le3\\). Inuti rektangeln finns grafen \\(y=x\\). Bestäm arean av den del av rektangeln som ligger ovanför grafen.</p>",
+    "s": "<p>Rektangelns area är \\(2\\cdot3=6\\). Arean under grafen är</p><p>\\[\\int_0^2x\\,dx=2.\\]</p><p>Alltså är arean ovanför grafen \\(6-2=4\\).</p><p><strong>Svar:</strong> 4 areaenheter.</p>",
+    "familj": "Area som differens mellan rektangel och integral",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Ta rektangelns area minus arean under grafen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1139",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Funktionen är \\(f(x)=2\\). Bestäm \\(a>0\\) så att arean mellan grafen, x-axeln och linjerna \\(x=0\\) och \\(x=a\\) blir 10 areaenheter.</p>",
+    "s": "<p>Arean är</p><p>\\[\\int_0^a2\\,dx=2a.\\]</p><p>Villkoret \\(2a=10\\) ger \\(a=5\\).</p><p><strong>Svar:</strong> 5.</p>",
+    "familj": "Bestäm integrationsgräns från area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv arean som \\(\\int_0^a2\\,dx\\) och sätt den lika med 10.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.478",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Cirkeln har ekvationen \\((x-2)^2+(y+1)^2=9\\). Vilken av punkterna ligger på cirkeln?</p><p>A. \\((5,-1)\\)<br>B. \\((2,1)\\)<br>C. \\((-1,1)\\)<br>D. \\((2,3)\\)</p>",
+    "s": "<p>Medelpunkten är \\((2,-1)\\) och radien är 3. Punkten \\((5,-1)\\) ligger 3 enheter från medelpunkten och ligger därför på cirkeln.</p><p><strong>Svar:</strong> A.</p>",
+    "familj": "Punkt på en cirkel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Kontrollera avståndet från varje punkt till cirkelns medelpunkt.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "val"
+  },
+  {
+    "id": "4.479",
+    "kap": 4,
+    "omr": "analytisk_geometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En cirkel har medelpunkten \\((-1,3)\\) och radien 4. Bestäm cirkelns minsta möjliga x-koordinat.</p>",
+    "s": "<p>Från medelpunkten kan man gå 4 enheter åt vänster. Den vänstra ytterpunkten har därför x-koordinaten</p><p>\\[-1-4=-5.\\]</p><p><strong>Svar:</strong> \\(-5\\).</p>",
+    "familj": "Tolka cirkelns medelpunkt och radie",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Utgå från medelpunktens x-koordinat och gå en radie åt vänster.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1140",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Det gäller att</p><p>\\[\\int_0^4 f(x)\\,dx=9\\quad\\text{och}\\quad\\int_0^4 g(x)\\,dx=2.\\]</p><p>Bestäm \\(\\int_0^4\\bigl(f(x)-3g(x)\\bigr)\\,dx\\).</p>",
+    "s": "<p>Integralens linearitet ger</p><p>\\[\\int_0^4(f-3g)\\,dx=\\int_0^4f\\,dx-3\\int_0^4g\\,dx=9-3\\cdot2=3.\\]</p><p><strong>Svar:</strong> 3.</p>",
+    "familj": "Integralens linearitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Använd att integralen av en differens är differensen av integralerna och att en konstant faktor kan flyttas ut.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1141",
+    "kap": 3,
+    "omr": "integral_egenskaper",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f\\) är jämn och</p><p>\\[\\int_{-3}^{3}f(x)\\,dx=12.\\]</p><p>Bestäm \\(\\int_0^3f(x)\\,dx\\).</p>",
+    "s": "<p>För en jämn funktion är integralbidragen lika stora på båda sidor om y-axeln:</p><p>\\[\\int_{-3}^{3}f(x)\\,dx=2\\int_0^3f(x)\\,dx.\\]</p><p>Alltså är \\(\\int_0^3f(x)\\,dx=6\\).</p><p><strong>Svar:</strong> 6.</p>",
+    "familj": "Symmetri hos jämna funktioner",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur fördelas integralen över ett symmetriskt intervall när funktionen är jämn?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.1142",
+    "kap": 3,
+    "omr": "area_med_integral",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f\\) ligger under x-axeln för \\(0\\le x\\le4\\) och</p><p>\\[\\int_0^4 f(x)\\,dx=-7.\\]</p><p>Hur stor är arean mellan grafen och x-axeln på detta intervall?</p>",
+    "s": "<p>Integralen är negativ eftersom grafen ligger under x-axeln. Geometrisk area är däremot positiv, så</p><p>\\[A=|-7|=7.\\]</p><p><strong>Svar:</strong> 7 areaenheter.</p>",
+    "familj": "Integral och geometrisk area",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skilj på integralens tecken och geometrisk area.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt"
   }

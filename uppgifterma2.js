@@ -20829,10 +20829,10 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Varför räcker inte tre fungerande exempel som bevis för ett påstående som ska gälla för alla heltal?</p>",
-    "s": "<p>Ett bevis måste bygga på tidigare kända satser eller definitioner och visa varför påståendet gäller i alla relevanta fall.</p><p><strong>Exemplen visar bara några enskilda fall. Ett bevis måste täcka alla heltal som påståendet gäller.</strong></p>",
-    "familj": "sats_bevis__tolka_sats_och_bevis",
+    "poang": "1/0/0",
+    "t": "<p>En elev provar påståendet på tre olika trianglar och får samma resultat varje gång. Vad kan eleven säkert säga?</p><p>A) Påståendet är bevisat för alla trianglar.<br>B) Påståendet stämmer för de tre undersökta trianglarna, men är inte bevisat generellt.<br>C) Påståendet måste vara falskt.<br>D) Tre exempel är alltid tillräckliga som bevis.</p>",
+    "s": "<p>Tre exempel visar bara att påståendet fungerar i just de tre fallen. Ett bevis måste visa varför resultatet följer av givna villkor för alla trianglar som omfattas.</p><p><strong>Svar: B.</strong></p>",
+    "familj": "sats_bevis__exempel_och_bevis",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -20840,9 +20840,10 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "val",
-    "rättSvar": "Exemplen visar bara några enskilda fall. Ett bevis måste täcka alla heltal som påståendet gäller",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "ledtrad": "<p>Skilj på att testa några exempel och att visa att något alltid gäller.</p>"
   },
   {
     "id": "3.73",
@@ -21896,21 +21897,20 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Vilket av följande beskriver bäst ett matematiskt bevis?</p><p>A) Ett exempel som verkar fungera.<br>B) Ett resonemang som visar att ett påstående gäller i alla fall som påståendet omfattar.<br>C) En beräkning med många decimaler.</p>",
-    "s": "<p>Ett bevis måste bygga på tidigare kända satser eller definitioner och visa varför påståendet gäller i alla relevanta fall.</p><p><strong>B.</strong> Ett bevis måste visa att påståendet gäller generellt inom de givna villkoren.</p>",
-    "familj": "sats_bevis__genomfora_bevis",
+    "poang": "1/0/0",
+    "t": "<p>Vilket alternativ beskriver bäst ett matematiskt bevis?</p><p>A) Man mäter noggrant i en figur.<br>B) Man kontrollerar många exempel.<br>C) Man utgår från givna fakta och kända satser och visar steg för steg varför slutsatsen följer.<br>D) Man väljer det svar som verkar rimligast.</p>",
+    "s": "<p>I ett bevis måste varje steg kunna motiveras med givna fakta, definitioner eller tidigare kända satser. Mätningar och exempel kan ge stöd, men de visar inte att resultatet alltid gäller.</p><p><strong>Svar: C.</strong></p>",
+    "familj": "sats_bevis__vad_ar_bevis",
     "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "C",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "ledtrad": "<p>Ett bevis ska förklara varför slutsatsen måste gälla, inte bara att den verkar stämma.</p>"
   },
   {
     "id": "3.118",
@@ -22089,13 +22089,12 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
-    "t": "<p>Visa att diagonalerna i en rektangel är lika långa.</p>",
-    "s": "<p>Låt rektangelns sidor vara \\(a\\) och \\(b\\).</p><p>Varje diagonal är hypotenusa i en rätvinklig triangel med kateterna \\(a\\) och \\(b\\).</p><p>Med Pythagoras får båda diagonalerna längden \\(\\sqrt{a^2+b^2}\\).</p><p><strong>Alltså är diagonalerna lika långa.</strong></p>",
-    "familj": "sats_bevis__genomfora_bevis",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Fyrhörningen ABCD är delad med diagonalen AC.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Fyrhörning ABCD delad av diagonalen AC\"><line x1=\"75.0\" y1=\"220.0\" x2=\"405.0\" y2=\"220.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"405.0\" y1=\"220.0\" x2=\"350.0\" y2=\"55.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"350.0\" y1=\"55.0\" x2=\"125.0\" y2=\"55.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"125.0\" y1=\"55.0\" x2=\"75.0\" y2=\"220.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"75.0\" y1=\"220.0\" x2=\"350.0\" y2=\"55.0\" stroke=\"#2b2527\" stroke-width=\"1.8\"/><text x=\"62.0\" y=\"237.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">A</text><text x=\"418.0\" y=\"237.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">B</text><text x=\"363.0\" y=\"43.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">C</text><text x=\"112.0\" y=\"43.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">D</text></svg></div><p>Visa att vinkelsumman i en fyrhörning är \\(360^\\circ\\). Motivera varje steg.</p>",
+    "s": "<p>Diagonalen AC delar fyrhörningen i två trianglar: ABC och ACD. Varje triangel har vinkelsumman \\(180^\\circ\\). Tillsammans blir därför fyrhörningens fyra vinklar</p><p>\\[180^\\circ+180^\\circ=360^\\circ.\\]</p><p>Alltså är vinkelsumman i en fyrhörning \\(360^\\circ\\).</p>",
+    "familj": "sats_bevis__bevis_fyrhorning",
     "formaga": [
-      "procedur",
       "begrepp",
       "resonemang"
     ],
@@ -22104,7 +22103,8 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Diagonalen delar fyrhörningen i två enklare figurer vars vinkelsumma du redan känner.</p>"
   },
   {
     "id": "3.126",
@@ -22383,21 +22383,21 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Varför räcker det inte att rita en figur och se att ett påstående verkar stämma, om man vill bevisa att det alltid gäller?</p>",
-    "s": "<p>Ett bevis måste bygga på tidigare kända satser eller definitioner och visa varför påståendet gäller i alla relevanta fall.</p><p><strong>En figur visar bara ett enskilt fall. Ett bevis måste visa att påståendet gäller i alla fall.</strong></p>",
-    "familj": "sats_bevis__genomfora_bevis",
+    "poang": "1/0/0",
+    "t": "<p>En elev ritar en triangel, mäter två vinklar till \\(48^\\circ\\) och \\(67^\\circ\\) och säger sedan att en geometrisk sats är bevisad. Varför räcker inte det?</p><p>A) Vinklar får aldrig mätas.<br>B) Figuren visar bara ett enskilt fall; ett bevis måste visa varför satsen gäller i alla relevanta fall.<br>C) Alla ritade trianglar är felaktiga.<br>D) Ett bevis får inte innehålla en figur.</p>",
+    "s": "<p>Mätningen kan kontrollera ett exempel, men den visar inte att samma samband måste gälla för alla trianglar som satsen handlar om. Figuren kan stödja ett bevis, men ersätter inte motiveringen.</p><p><strong>Svar: B.</strong></p>",
+    "familj": "sats_bevis__figur_och_bevis",
     "formaga": [
-      "procedur",
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "figur",
-    "rättSvar": null,
+    "svarstyp": "val",
+    "rättSvar": "B",
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "ledtrad": "<p>Fråga dig om en enda ritad triangel representerar alla möjliga trianglar.</p>"
   },
   {
     "id": "3.138",
@@ -23757,20 +23757,21 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/1/0",
+    "poang": "0/2/0",
     "familj": "sats_bevis__motexempel",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "t": "<p>Förklara varför ett enda motexempel räcker för att motbevisa ett påstående av typen ”Alla objekt med egenskap A har också egenskap B”.</p>",
-    "s": "<p>Påståendet säger att det ska gälla för alla sådana objekt.</p><p>Om man hittar ett enda objekt som har egenskap A men inte egenskap B, så är påståendet inte sant i alla fall.</p><p><strong>Därför räcker ett motexempel för att motbevisa ett allmänt påstående.</strong></p>",
+    "t": "<p>Påståendet är: ”Alla trianglar har minst två lika stora vinklar.”</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med markerade vinklar\"><line x1=\"75.0\" y1=\"235.0\" x2=\"405.0\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"405.0\" y1=\"235.0\" x2=\"297.3\" y2=\"48.5\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"297.3\" y1=\"48.5\" x2=\"75.0\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M103.0 235.0 A28 28 0 0 0 96.4 217.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"120.1\" y=\"218.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">40°</text><path d=\"M377.0 235.0 A28 28 0 0 1 391.0 210.8\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"363.4\" y=\"211.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">60°</text><path d=\"M275.9 66.5 A28 28 0 0 0 311.3 72.7\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"289.0\" y=\"95.7\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">80°</text></svg></div><p>Använd figuren för att motbevisa påståendet och förklara varför ett enda exempel räcker.</p>",
+    "s": "<p>Figuren visar en triangel med vinklarna \\(40^\\circ\\), \\(60^\\circ\\) och \\(80^\\circ\\). Alla tre vinklarna är olika, så triangeln är ett motexempel till påståendet.</p><p>Eftersom påståendet säger <em>alla</em> trianglar räcker det att hitta en enda triangel där egenskapen inte gäller för att påståendet ska vara falskt.</p>",
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "ledtrad": "<p>Ett allmänt påstående faller om du hittar ett enda fall där det inte stämmer.</p>"
   },
   {
     "id": "3.195",
@@ -23806,20 +23807,20 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "familj": "sats_bevis__identifiera_antagande_och_slutsats",
+    "poang": "1/0/0",
+    "familj": "sats_bevis__antagande_slutsats",
     "formaga": [
       "begrepp"
     ],
-    "t": "<p>En sats lyder: ”Om en fyrhörning är en rektangel, så är diagonalerna lika långa.”</p><p>Vilket alternativ anger satsens <strong>antagande</strong>?</p><p>A) Fyrhörningen är en rektangel.<br>B) Diagonalerna är lika långa.<br>C) Fyrhörningen har fyra sidor.<br>D) Diagonalerna skär varandra.</p>",
-    "s": "<p>I en sats av formen ”Om ..., så ...” är antagandet det som står efter <em>om</em>.</p><p><strong>Svar: A.</strong> Antagandet är att fyrhörningen är en rektangel.</p>",
+    "t": "<p>En sats lyder: ”Om en triangel är likbent, så är basvinklarna lika stora.” Vad är satsens <strong>antagande</strong>?</p><p>A) Triangeln är likbent.<br>B) Basvinklarna är lika stora.<br>C) Triangelns vinkelsumma är \\(180^\\circ\\).<br>D) Triangeln har tre sidor.</p>",
+    "s": "<p>I en sats på formen ”Om ..., så ...” är antagandet villkoret efter <em>om</em>. Här är antagandet att triangeln är likbent.</p><p><strong>Svar: A.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Leta efter det villkor som satsen utgår från – delen efter ordet ”om”.</p>"
+    "ledtrad": "<p>Antagandet är det som förutsätts vara sant innan slutsatsen dras.</p>"
   },
   {
     "id": "3.197",
@@ -33283,20 +33284,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en triangel är två vinklar 55° och 70°. En elev säger att den tredje vinkeln är 55°. Vilken regel motiverar beräkningen?</p><p>A) Triangelns vinkelsumma är 180°.<br>B) Vertikalvinklar är lika stora.<br>C) Sidovinklar har summan 180°.<br>D) Alternatvinklar är lika stora.</p>",
-    "s": "<p>55°+70°+55°=180°. Motiveringen är triangelns vinkelsumma.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>Bestäm vinkeln \\(x\\). Motivera med triangelns vinkelsumma.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med markerade vinklar\"><line x1=\"138.9\" y1=\"235.0\" x2=\"341.1\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"341.1\" y1=\"235.0\" x2=\"271.9\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"271.9\" y1=\"45.0\" x2=\"138.9\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M166.9 235.0 A28 28 0 0 0 155.0 212.1\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"181.5\" y=\"212.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">55°</text><path d=\"M313.1 235.0 A28 28 0 0 1 331.5 208.7\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"301.8\" y=\"207.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">70°</text><path d=\"M255.9 67.9 A28 28 0 0 0 281.5 71.3\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"265.7\" y=\"92.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text></svg></div>",
+    "s": "<p>Vinklarna i en triangel har summan \\(180^\\circ\\).</p><p>\\[x+55^\\circ+70^\\circ=180^\\circ\\]</p><p>\\[x=55^\\circ.\\]</p><p><strong>Svar: \\(55^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__vinkelsumma_triangel",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 55,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Addera de två kända vinklarna och jämför med \\(180^\\circ\\).</p>"
   },
   {
     "id": "3.226",
@@ -33308,20 +33309,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en likbent triangel är de två markerade sidorna lika långa. Vilken slutsats kan man direkt dra om vinklarna mittemot dessa sidor?</p><p>A) De är lika stora.<br>B) De är båda 90°.<br>C) Deras summa är 90°.<br>D) Den ena är dubbelt så stor som den andra.</p>",
-    "s": "<p>Basvinklarna i en likbent triangel är lika stora.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>Triangeln är likbent och de markerade sidorna är lika långa. Toppvinkeln är \\(46^\\circ\\). Bestäm basvinkeln \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med markerade vinklar\"><line x1=\"159.3\" y1=\"235.0\" x2=\"320.7\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"320.7\" y1=\"235.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"159.3\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"193.2\" y1=\"137.3\" x2=\"206.1\" y2=\"142.7\" stroke=\"#2b2527\" stroke-width=\"2\"/><line x1=\"273.9\" y1=\"142.7\" x2=\"286.8\" y2=\"137.3\" stroke=\"#2b2527\" stroke-width=\"2\"/><path d=\"M187.3 235.0 A28 28 0 0 0 170.3 209.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"199.4\" y=\"208.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M292.7 235.0 A28 28 0 0 1 309.7 209.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"280.6\" y=\"208.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M229.1 70.8 A28 28 0 0 0 250.9 70.8\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"240.0\" y=\"93.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">46°</text></svg></div>",
+    "s": "<p>I en likbent triangel är basvinklarna lika stora. Därför gäller</p><p>\\[2x+46^\\circ=180^\\circ.\\]</p><p>\\[2x=134^\\circ\\quad\\Rightarrow\\quad x=67^\\circ.\\]</p><p><strong>Svar: \\(67^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__likbent_triangel",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 67,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>De två basvinklarna är lika stora. Använd sedan triangelns vinkelsumma.</p>"
   },
   {
     "id": "3.227",
@@ -33333,20 +33334,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två parallella linjer skärs av en transversal. Två alternatvinklar är markerade. Vilket påstående används för att visa att de är lika stora?</p><p>A) Alternatvinklar vid parallella linjer är lika stora.<br>B) Alla vinklar i en fyrhörning är lika stora.<br>C) Sidovinklar är lika stora.<br>D) En bisektris halverar en sträcka.</p>",
-    "s": "<p>Eftersom linjerna är parallella är alternatvinklarna lika stora.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>Linjerna \\(l_1\\) och \\(l_2\\) är parallella. Bestäm \\(x\\) och ange vilket vinkelsamband du använder.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella linjer med en transversal\"><line x1=\"45.0\" y1=\"75.0\" x2=\"435.0\" y2=\"75.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"45.0\" y1=\"205.0\" x2=\"435.0\" y2=\"205.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"150.0\" y1=\"255.0\" x2=\"340.0\" y2=\"25.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M323.7 75.0 A25 25 0 0 1 282.7 94.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"318.2\" y=\"116.7\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">132°</text><path d=\"M166.3 205.0 A25 25 0 0 1 207.3 185.8\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"171.8\" y=\"163.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><text x=\"420.0\" y=\"61.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\">l₁</text><text x=\"420.0\" y=\"191.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\">l₂</text></svg></div>",
+    "s": "<p>De markerade vinklarna är alternatvinklar. När linjerna är parallella är alternatvinklar lika stora.</p><p>\\[x=132^\\circ.\\]</p><p><strong>Svar: \\(132^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__alternatvinklar",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 132,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>De två markerade vinklarna ligger mellan de parallella linjerna på var sin sida om transversalen.</p>"
   },
   {
     "id": "3.228",
@@ -33358,20 +33359,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev vill visa att två vinklar är lika stora och skriver: ”De ser lika stora ut i figuren.” Är detta ett bevis?</p><p>A) Ja, en noggrann figur räcker.<br>B) Nej, figuren kan illustrera men en geometrisk regel måste motivera slutsatsen.<br>C) Ja, om vinklarna mäts med gradskiva.<br>D) Nej, vinklar kan aldrig visas vara lika stora.</p>",
-    "s": "<p>En figur är stöd för resonemanget men visar inte att påståendet alltid följer av givna villkor.</p><p><strong>Svar: B.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>Bestäm \\(x\\). Skriv i facit vilken sats du använder.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med markerade vinklar\"><line x1=\"117.4\" y1=\"235.0\" x2=\"362.6\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"362.6\" y1=\"235.0\" x2=\"265.8\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"265.8\" y1=\"45.0\" x2=\"117.4\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M145.4 235.0 A28 28 0 0 0 134.6 212.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"160.5\" y=\"214.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">52°</text><path d=\"M334.6 235.0 A28 28 0 0 1 349.9 210.1\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"321.7\" y=\"209.9\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">63°</text><path d=\"M248.6 67.1 A28 28 0 0 0 278.5 69.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"261.2\" y=\"92.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text></svg></div>",
+    "s": "<p>Triangelns vinkelsumma är \\(180^\\circ\\):</p><p>\\[x+52^\\circ+63^\\circ=180^\\circ.\\]</p><p>Alltså \\(x=65^\\circ\\).</p><p><strong>Svar: \\(65^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__vinkeljakt_en_steg",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 65,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Alla tre vinklar i triangeln ska tillsammans bli \\(180^\\circ\\).</p>"
   },
   {
     "id": "3.229",
@@ -33383,20 +33384,21 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En sats skrivs ”Om två linjer är parallella, så är alternatvinklarna lika stora.” Vad är antagandet?</p><p>A) Linjerna är parallella.<br>B) Alternatvinklarna är lika stora.<br>C) Linjerna är lika långa.<br>D) Vinklarna är sidovinklar.</p>",
-    "s": "<p>Antagandet är villkoret efter ”om”: att linjerna är parallella.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>CD är vinkelbisektris i triangeln. Bestäm vinkeln \\(\\angle CDB\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel ABC med vinkelbisektrisen CD\"><line x1=\"121.3\" y1=\"235.0\" x2=\"358.7\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"358.7\" y1=\"235.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"121.3\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"240.0\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2\"/><path d=\"M226.8 66.2 A25 25 0 0 0 240.0 70.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"227.9\" y=\"87.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">32°</text><path d=\"M240.0 79.0 A34 34 0 0 0 258.0 73.8\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"255.4\" y=\"98.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">32°</text><path d=\"M146.3 235.0 A25 25 0 0 0 134.5 213.8\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"160.6\" y=\"213.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">58°</text><text x=\"108.3\" y=\"249.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">A</text><text x=\"371.7\" y=\"249.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">B</text><text x=\"240.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">C</text><text x=\"240.0\" y=\"251.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">D</text></svg></div>",
+    "s": "<p>Bisektrisen delar vinkeln vid C i två lika stora vinklar, alltså \\(32^\\circ\\) och \\(32^\\circ\\). I triangeln ACD är</p><p>\\[\\angle ADC=180^\\circ-58^\\circ-32^\\circ=90^\\circ.\\]</p><p>Punkterna A, D och B ligger på en rät linje, så \\(\\angle CDB\\) är sidovinkel till \\(\\angle ADC\\):</p><p>\\[\\angle CDB=180^\\circ-90^\\circ=90^\\circ.\\]</p><p><strong>Svar: \\(90^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__bisektris_och_vinkelsumma",
     "formaga": [
+      "procedur",
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Bestäm först vinkeln vid D i triangeln ACD. Använd sedan att A–D–B ligger på en rät linje.</p>"
   },
   {
     "id": "3.230",
@@ -33408,20 +33410,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Samma sats lyder: ”Om två linjer är parallella, så är alternatvinklarna lika stora.” Vad är slutsatsen?</p><p>A) Linjerna är parallella.<br>B) Alternatvinklarna är lika stora.<br>C) Transversalen är vinkelrät.<br>D) Vinkelsumman är 360°.</p>",
-    "s": "<p>Slutsatsen är det som följer efter ”så”: alternatvinklarna är lika stora.</p><p><strong>Svar: B.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>Tre vinklar i fyrhörningen är \\(75^\\circ\\), \\(110^\\circ\\) och \\(90^\\circ\\). Bestäm den fjärde vinkeln \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Fyrhörning med tre givna vinklar och en okänd vinkel\"><line x1=\"90.0\" y1=\"225.0\" x2=\"285.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"285.0\" y1=\"225.0\" x2=\"329.5\" y2=\"102.8\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"329.5\" y1=\"102.8\" x2=\"141.1\" y2=\"34.3\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"141.1\" y1=\"34.3\" x2=\"90.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M115.0 225.0 A25 25 0 0 0 96.5 200.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"124.9\" y=\"198.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">75°</text><path d=\"M260.0 225.0 A25 25 0 0 1 293.6 201.5\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"259.2\" y=\"188.1\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">110°</text><path d=\"M320.9 126.3 A25 25 0 0 1 306.0 94.3\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"289.6\" y=\"121.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">90°</text><path d=\"M164.6 42.8 A25 25 0 0 1 134.6 58.4\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"161.4\" y=\"73.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text></svg></div>",
+    "s": "<p>Vinkelsumman i en fyrhörning är \\(360^\\circ\\).</p><p>\\[x+75^\\circ+110^\\circ+90^\\circ=360^\\circ\\]</p><p>\\[x=85^\\circ.\\]</p><p><strong>Svar: \\(85^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__vinkelsumma_fyrhorning",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 85,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Addera de tre kända vinklarna och jämför med fyrhörningens vinkelsumma.</p>"
   },
   {
     "id": "3.231",
@@ -33431,11 +33433,11 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket är ett giltigt sätt att motbevisa påståendet ”Alla trianglar har två lika stora vinklar”?</p><p>A) Visa en triangel där alla tre vinklar är olika.<br>B) Rita en likbent triangel.<br>C) Kontrollera tre liksidiga trianglar.<br>D) Mäta en enda vinkel.</p>",
-    "s": "<p>Ett enda motexempel räcker för att motbevisa ett påstående som säger att något gäller för alla trianglar.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Du ska bestämma alla vinklar i triangeln.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel\"><line x1=\"70.0\" y1=\"225.0\" x2=\"410.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"410.0\" y1=\"225.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"70.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><text x=\"55.0\" y=\"240.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\">A</text><text x=\"425.0\" y=\"240.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\">B</text><text x=\"240.0\" y=\"27.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"15\">C</text></svg></div><p>Vilken information är tillräcklig?</p><p>A) Triangeln är likbent.<br>B) En av vinklarna är \\(90^\\circ\\).<br>C) Triangeln är rätvinklig och likbent.<br>D) Två av sidorna är olika långa.</p>",
+    "s": "<p>Om triangeln är både rätvinklig och likbent är en vinkel \\(90^\\circ\\) och de två återstående vinklarna lika stora. De måste tillsammans vara \\(90^\\circ\\), alltså är de \\(45^\\circ\\) vardera. De övriga alternativen bestämmer inte alla tre vinklar entydigt.</p><p><strong>Svar: C.</strong></p>",
+    "familj": "sats_bevis__tillracklig_information",
     "formaga": [
       "begrepp",
       "resonemang"
@@ -33443,10 +33445,10 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Testa om informationen räcker för att få exakt ett möjligt värde på varje vinkel.</p>"
   },
   {
     "id": "3.232",
@@ -33458,20 +33460,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En fyrhörning har fyra räta vinklar. Vilken känd sats kan användas direkt för att kontrollera att vinkelsumman är rimlig?</p><p>A) Vinkelsumman i en fyrhörning är 360°.<br>B) Pythagoras sats.<br>C) Randvinkelsatsen.<br>D) Topptriangelsatsen.</p>",
-    "s": "<p>Fyra räta vinklar ger 4·90°=360°, vilket stämmer med fyrhörningens vinkelsumma.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>Triangelns vinklar är \\(4x\\), \\(5x\\) och \\(6x\\). Bestäm den minsta vinkeln.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med markerade vinklar\"><line x1=\"99.6\" y1=\"235.0\" x2=\"380.4\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"380.4\" y1=\"235.0\" x2=\"270.7\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"270.7\" y1=\"45.0\" x2=\"99.6\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M127.6 235.0 A28 28 0 0 0 118.3 214.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"143.5\" y=\"215.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">4x</text><path d=\"M352.4 235.0 A28 28 0 0 1 366.4 210.8\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"338.8\" y=\"211.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">5x</text><path d=\"M252.0 65.8 A28 28 0 0 0 284.7 69.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"265.7\" y=\"92.7\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">6x</text></svg></div>",
+    "s": "<p>Vinkelsumman ger</p><p>\\[4x+5x+6x=180^\\circ\\Rightarrow 15x=180^\\circ\\Rightarrow x=12^\\circ.\\]</p><p>Den minsta vinkeln är \\(4x=48^\\circ\\).</p><p><strong>Svar: \\(48^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__vinkelrelationer",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Bestäm först \\(x\\) med hjälp av triangelns vinkelsumma.</p>"
   },
   {
     "id": "3.233",
@@ -33481,22 +33483,23 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>I ett bevis vet du att två vinklar är vertikalvinklar. Vilket steg är motiverat?</p><p>A) Sätt vinklarna lika stora.<br>B) Sätt deras summa till 90°.<br>C) Dubbla den ena vinkeln.<br>D) Anta att linjerna är parallella.</p>",
-    "s": "<p>Vertikalvinklar är lika stora, så de kan sättas lika.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>DE är parallell med BC. Vinkeln vid D är \\(70^\\circ\\) och vinkeln vid C är \\(70^\\circ\\). Bestäm toppvinkeln \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel ABC där DE är parallell med BC\"><line x1=\"170.8\" y1=\"235.0\" x2=\"309.2\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"309.2\" y1=\"235.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"170.8\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"205.4\" y1=\"140.0\" x2=\"274.6\" y2=\"140.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M212.6 120.3 A21 21 0 0 1 226.4 140.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"237.4\" y=\"117.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">70°</text><path d=\"M285.2 235.0 A24 24 0 0 1 300.9 212.4\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"273.9\" y=\"210.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">70°</text><path d=\"M231.4 68.5 A25 25 0 0 0 248.6 68.5\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"240.0\" y=\"90.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><text x=\"240.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">A</text><text x=\"157.8\" y=\"249.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">B</text><text x=\"322.2\" y=\"249.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">C</text><text x=\"193.4\" y=\"140.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">D</text><text x=\"286.6\" y=\"140.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\">E</text></svg></div>",
+    "s": "<p>Eftersom DE är parallell med BC är vinkeln vid B lika stor som vinkeln vid D, alltså \\(70^\\circ\\). Triangel ABC har då två vinklar på \\(70^\\circ\\).</p><p>\\[x=180^\\circ-70^\\circ-70^\\circ=40^\\circ.\\]</p><p><strong>Svar: \\(40^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__parallella_linjer_och_triangel",
     "formaga": [
+      "procedur",
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Flytta först vinkeln vid D till vinkeln vid B med hjälp av de parallella linjerna. Använd sedan triangelns vinkelsumma.</p>"
   },
   {
     "id": "3.234",
@@ -33508,20 +33511,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I ett bevis vet du att två vinklar är sidovinklar. Vilket steg är motiverat?</p><p>A) Sätt deras summa till 180°.<br>B) Sätt vinklarna lika stora.<br>C) Sätt deras summa till 90°.<br>D) Anta att båda är spetsiga.</p>",
-    "s": "<p>Sidovinklar bildar tillsammans en rak vinkel och har därför summan 180°.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>Triangeln är likbent och de markerade sidorna är lika långa. Yttervinkeln är \\(124^\\circ\\). Bestäm \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Likbent triangel med yttervinkel\"><line x1=\"125.4\" y1=\"235.0\" x2=\"354.6\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"354.6\" y1=\"235.0\" x2=\"226.4\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"226.4\" y1=\"45.0\" x2=\"125.4\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"354.6\" y1=\"235.0\" x2=\"455.0\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"228.0\" x2=\"240.0\" y2=\"242.0\" stroke=\"#2b2527\" stroke-width=\"2\"/><line x1=\"284.7\" y1=\"143.9\" x2=\"296.3\" y2=\"136.1\" stroke=\"#2b2527\" stroke-width=\"2\"/><path d=\"M151.4 235.0 A26 26 0 0 0 137.6 212.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"164.8\" y=\"211.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M214.2 68.0 A26 26 0 0 0 241.0 66.6\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"228.8\" y=\"90.9\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M338.4 211.0 A29 29 0 0 1 383.6 235.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"379.0\" y=\"189.1\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">124°</text></svg></div>",
+    "s": "<p>Yttervinkeln är summan av de två motstående inre vinklarna. De två vinklarna är lika stora, så</p><p>\\[x+x=124^\\circ\\Rightarrow 2x=124^\\circ\\Rightarrow x=62^\\circ.\\]</p><p><strong>Svar: \\(62^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__likbent_yttervinkel",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 62,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>"
   },
   {
     "id": "3.235",
@@ -33531,22 +33534,22 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En triangel har vinklarna x, x och 40°. Vilken ekvation följer direkt av vinkelsumman?</p><p>A) 2x+40=180<br>B) x+40=180<br>C) 2x=40<br>D) x+40=360</p>",
-    "s": "<p>Två vinklar är x och den tredje är 40°, så x+x+40=180°, alltså 2x+40=180.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Triangeln är likbent och de markerade sidorna är lika långa. Bestäm \\(x\\) och \\(y\\). Motivera varje steg.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Likbent triangel med två okända vinklar\"><line x1=\"163.2\" y1=\"235.0\" x2=\"316.8\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"316.8\" y1=\"235.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"163.2\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"195.1\" y1=\"137.4\" x2=\"208.1\" y2=\"142.6\" stroke=\"#2b2527\" stroke-width=\"2\"/><line x1=\"271.9\" y1=\"142.6\" x2=\"284.9\" y2=\"137.4\" stroke=\"#2b2527\" stroke-width=\"2\"/><path d=\"M189.2 235.0 A26 26 0 0 0 173.0 210.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"201.4\" y=\"209.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M290.8 235.0 A26 26 0 0 1 307.0 210.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"278.6\" y=\"209.3\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">68°</text><path d=\"M229.5 71.0 A28 28 0 0 0 250.5 71.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"240.0\" y=\"94.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">y</text></svg></div>",
+    "s": "<p>De lika långa sidorna AC och BC gör att basvinklarna vid A och B är lika stora. Därför är</p><p>\\[x=68^\\circ.\\]</p><p>Triangelns vinkelsumma är \\(180^\\circ\\), alltså</p><p>\\[y=180^\\circ-68^\\circ-68^\\circ=44^\\circ.\\]</p><p><strong>Svar: \\(x=68^\\circ\\), \\(y=44^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__motivera_flera_steg",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "självrättning": false,
+    "ledtrad": "<p>Börja med att använda egenskapen hos en likbent triangel. Ta sedan den sista vinkeln med vinkelsumman.</p>"
   },
   {
     "id": "3.236",
@@ -33558,20 +33561,20 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två parallella linjer skärs av en transversal. En av vinklarna är 132°. En alternatvinkel betecknas x. Vilken ekvation kan användas direkt?</p><p>A) x=132<br>B) x+132=90<br>C) x=48<br>D) 2x+132=180</p>",
-    "s": "<p>Alternatvinklar vid parallella linjer är lika stora, därför x=132°.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "t": "<p>De två motstående inre vinklarna är \\(46^\\circ\\) och \\(73^\\circ\\). Bestäm yttervinkeln \\(w\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med yttervinkel\"><line x1=\"95.6\" y1=\"235.0\" x2=\"384.4\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"384.4\" y1=\"235.0\" x2=\"279.1\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"279.1\" y1=\"45.0\" x2=\"95.6\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"384.4\" y1=\"235.0\" x2=\"455.0\" y2=\"235.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M121.6 235.0 A26 26 0 0 0 113.7 216.3\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"137.9\" y=\"217.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">46°</text><path d=\"M261.0 63.7 A26 26 0 0 0 291.7 67.7\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"273.1\" y=\"90.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">73°</text><path d=\"M370.3 209.6 A29 29 0 0 1 413.4 235.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"410.8\" y=\"190.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">w</text></svg></div>",
+    "s": "<p>En yttervinkel är summan av de två motstående inre vinklarna:</p><p>\\[w=46^\\circ+73^\\circ=119^\\circ.\\]</p><p><strong>Svar: \\(119^\\circ\\).</strong></p>",
+    "familj": "sats_bevis__yttervinkelsatsen_berakning",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "procedur",
+      "begrepp"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 119,
+    "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "ledtrad": "<p>Använd yttervinkelsatsen.</p>"
   },
   {
     "id": "3.237",
@@ -33581,22 +33584,22 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En likbent triangel har basvinklarna x och x och toppvinkeln 46°. Vilken beräkning bestämmer x?</p><p>A) x=(180−46)/2<br>B) x=180−46<br>C) x=46/2<br>D) x=(360−46)/2</p>",
-    "s": "<p>Basvinklarna är lika och vinkelsumman är 180°, så 2x+46=180 och x=(180−46)/2.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>I triangeln är två vinklar \\(x\\) och \\(x-12^\\circ\\). Alla vinklar ska vara positiva heltal i grader.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel\"><line x1=\"70.0\" y1=\"225.0\" x2=\"410.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"410.0\" y1=\"225.0\" x2=\"240.0\" y2=\"45.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"240.0\" y1=\"45.0\" x2=\"70.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M98.0 225.0 A28 28 0 0 0 89.2 204.6\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"114.1\" y=\"206.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x</text><path d=\"M382.0 225.0 A28 28 0 0 1 390.8 204.6\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"365.9\" y=\"206.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">x−12°</text><path d=\"M220.8 65.4 A28 28 0 0 0 259.2 65.4\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"240.0\" y=\"93.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">y</text></svg></div><p>Vilka heltalsvärden kan \\(x\\) ha? Motivera.</p>",
+    "s": "<p>Den tredje vinkeln är</p><p>\\[180^\\circ-x-(x-12^\\circ)=192^\\circ-2x.\\]</p><p>Alla vinklar måste vara positiva. Därför krävs \\(x-12>0\\), alltså \\(x>12\\), och \\(192-2x>0\\), alltså \\(x<96\\).</p><p>Eftersom \\(x\\) ska vara ett heltal kan</p><p>\\[x=13,14,\\ldots,95.\\]</p>",
+    "familj": "sats_bevis__villkor_vinklar",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "självrättning": false,
+    "ledtrad": "<p>Skriv den tredje vinkeln med hjälp av vinkelsumman och kräv sedan att alla tre vinklar är större än 0.</p>"
   },
   {
     "id": "3.238",
@@ -33606,22 +33609,22 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilken ordning ger ett tydligt geometriskt bevis?</p><p>A) Ange givna fakta, använd relevanta satser/definitioner steg för steg och formulera slutsatsen.<br>B) Rita en figur, uppskatta vinklarna och skriv slutsatsen.<br>C) Börja med slutsatsen och välj sedan fakta som passar.<br>D) Testa några exempel och anta att resultatet alltid gäller.</p>",
-    "s": "<p>Ett bevis ska utgå från givna fakta och med motiverade steg leda till slutsatsen.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Linjerna skär varandra i en punkt. Vinklarna \\(u\\) och \\(v\\) är vertikalvinklar.</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två skärande linjer med vertikalvinklarna u och v\">\n<line x1=\"80\" y1=\"50\" x2=\"400\" y2=\"230\" stroke=\"#2b2527\" stroke-width=\"2.3\"/>\n<line x1=\"80\" y1=\"230\" x2=\"400\" y2=\"50\" stroke=\"#2b2527\" stroke-width=\"2.3\"/>\n<path d=\"M221 129 A22 22 0 0 1 259 129\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/>\n<path d=\"M259 151 A22 22 0 0 1 221 151\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/>\n<path d=\"M276 120 A42 42 0 0 1 276 160\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/>\n<text x=\"240\" y=\"104\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">u</text>\n<text x=\"240\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">v</text>\n<text x=\"303\" y=\"140\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">z</text>\n</svg></div><p>Visa att \\(u=v\\). Motivera varje steg.</p>",
+    "s": "<p>Vinkeln \\(u\\) och vinkeln \\(z\\) är sidovinklar, så</p><p>\\[u+z=180^\\circ.\\]</p><p>Även \\(v\\) och \\(z\\) är sidovinklar, så</p><p>\\[v+z=180^\\circ.\\]</p><p>Därför gäller \\(u+z=v+z\\). Subtrahera \\(z\\) från båda leden:</p><p>\\[u=v.\\]</p><p>Alltså är vertikalvinklar lika stora.</p>",
+    "familj": "sats_bevis__bevisa_vertikalvinklar",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "självrättning": false,
+    "ledtrad": "<p>Jämför \\(u\\) och \\(v\\) genom att använda samma sidovinkel \\(z\\).</p>"
   },
   {
     "id": "3.239",
@@ -33631,22 +33634,22 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En elev har visat att ett påstående stämmer för fem olika trianglar. Vad kan eleven säkert säga?</p><p>A) Påståendet stämmer för de fem undersökta trianglarna, men det är ännu inte bevisat för alla trianglar.<br>B) Påståendet är bevisat för alla trianglar.<br>C) Påståendet måste vara falskt.<br>D) Fem exempel är alltid tillräckligt som bevis.</p>",
-    "s": "<p>Exempel kan ge stöd för en hypotes, men visar inte att den gäller för alla möjliga trianglar.</p><p><strong>Svar: A.</strong></p>",
-    "familj": "sats_bevis__grundlaggande_motivering",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>I figuren är \\(w\\) en yttervinkel till triangeln. Visa att \\(w=u+v\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 480 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med en yttervinkel\"><line x1=\"75.0\" y1=\"225.0\" x2=\"335.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"335.0\" y1=\"225.0\" x2=\"215.0\" y2=\"55.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"215.0\" y1=\"55.0\" x2=\"75.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><line x1=\"335.0\" y1=\"225.0\" x2=\"455.0\" y2=\"225.0\" stroke=\"#2b2527\" stroke-width=\"2.3\"/><path d=\"M101.0 225.0 A26 26 0 0 0 91.5 204.9\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"116.6\" y=\"205.4\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">u</text><path d=\"M198.5 75.1 A26 26 0 0 0 230.0 76.2\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"213.3\" y=\"101.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">v</text><path d=\"M318.3 201.3 A29 29 0 0 1 364.0 225.0\" fill=\"none\" stroke=\"#5c8c5c\" stroke-width=\"3\"/><text x=\"358.0\" y=\"180.6\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\">w</text></svg></div>",
+    "s": "<p>Låt den inre vinkeln intill \\(w\\) vara \\(z\\). Eftersom \\(z\\) och \\(w\\) är sidovinklar gäller</p><p>\\[z+w=180^\\circ.\\]</p><p>Triangelns vinkelsumma ger samtidigt</p><p>\\[u+v+z=180^\\circ.\\]</p><p>Båda vänsterleden är alltså lika med \\(180^\\circ\\). Då är</p><p>\\[z+w=u+v+z.\\]</p><p>Subtrahera \\(z\\) från båda leden:</p><p>\\[w=u+v.\\]</p><p>Därmed är yttervinkelsatsen visad.</p>",
+    "familj": "sats_bevis__bevisa_yttervinkelsatsen",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Utgå från det som är givet och välj den sats eller definition som direkt motiverar nästa steg.</p>"
+    "självrättning": false,
+    "ledtrad": "<p>Inför den inre vinkeln bredvid \\(w\\). Skriv en ekvation för sidovinklarna och en för triangelns vinkelsumma.</p>"
   },
   {
     "kap": 3,

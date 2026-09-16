@@ -35,8 +35,8 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Förenkla \\((x+a)(x-a)+(x-1)^2\\). Bestäm sedan \\(a\\) så att konstanttermen blir 10.</p>",
-    "s": "<p>Uttrycket blir \\(x^2-a^2+x^2-2x+1=2x^2-2x+(1-a^2)\\).</p><p>\\(1-a^2=10\\Rightarrow a^2=-9\\), vilket saknar reell lösning.</p><p><strong>Det finns inget reellt värde på \\(a\\).</strong></p>",
+    "t": "<p>Produkten \\((x+a)(x-4)\\) ska efter utveckling sakna en \\(x\\)-term.</p><p>a) Bestäm \\(a\\).<br>b) Förenkla produkten med detta värde på \\(a\\).</p>",
+    "s": "<p>Utveckla först med \\(a\\) kvar:</p><p>\\[(x+a)(x-4)=x^2+(a-4)x-4a.\\]</p><p>För att \\(x\\)-termen ska försvinna måste \\(a-4=0\\), alltså \\(a=4\\).</p><p>Då blir produkten \\((x+4)(x-4)=x^2-16\\).</p><p><strong>a) \\(a=4\\) &nbsp;&nbsp; b) \\(x^2-16\\)</strong></p>",
     "familj": "multiplicera_parenteser__parameter_och_villkor",
     "formaga": [
       "procedur",
@@ -44,11 +44,34 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Det finns inget reellt värde på \\(a\\)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4",
+      "\\(x^2-16\\)"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Multiplicera varje term i den ena parentesen med varje term i den andra. Samla sedan termer av samma slag.</p>"
+    "ledtrad": "<p>Utveckla produkten med \\(a\\) kvar. Vilken koefficient får \\(x\\)-termen, och när blir den koefficienten noll?</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Produkten \\((x+a)(x-4)\\) ska efter utveckling sakna en \\(x\\)-term.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(a\\) så att \\(x\\)-termen försvinner.</p>",
+        "s": "<p>\\((x+a)(x-4)=x^2+(a-4)x-4a\\). Därför krävs \\(a-4=0\\).</p><p><strong>\\(a=4\\)</strong></p>",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Förenkla produkten för det värde på \\(a\\) som gör att \\(x\\)-termen försvinner.</p>",
+        "s": "<p>Med \\(a=4\\) fås \\((x+4)(x-4)=x^2-16\\).</p><p><strong>\\(x^2-16\\)</strong></p>",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.03",
@@ -136,7 +159,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "t": "<p>För alla \\(x\\) gäller</p><p>\\[(x+b)(x-4)=x^2+3x-28.\\]</p><p>Bestäm konstanten \\(b\\).</p>",
     "s": "<p>Utveckla vänsterledet:</p><p>\\((x+b)(x-4)=x^2+(b-4)x-4b\\).</p><p>Jämför koefficienterna med \\(x^2+3x-28\\). Då ska \\(b-4=3\\), alltså \\(b=7\\).</p><p>Kontroll: \\(-4\\cdot7=-28\\), så även konstanttermen stämmer.</p><p><strong>\\(b=7\\)</strong></p>",
     "familj": "multiplicera_parenteser__utveckla_och_forenkla",
@@ -149,7 +172,7 @@ window.BANKMA2 = [
     "rättSvar": "\\(b=7\\)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Multiplicera varje term i den ena parentesen med varje term i den andra. Samla sedan termer av samma slag.</p>"
+    "ledtrad": "<p>Utveckla vänsterledet till \\(x^2+(b-4)x-4b\\). Jämför sedan koefficienterna med högerledet.</p>"
   },
   {
     "id": "1.07",
@@ -250,7 +273,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>"
+    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>",
+    "spel": false
   },
   {
     "id": "1.11",
@@ -273,11 +297,19 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Linjerna är \\(y=-10x+30\\) och \\(y=-2,5x+15\\)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "\\(y=-10x+30\\)",
+      "\\(y=-2,5x+15\\)"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Låt linjen skära axlarna i (a,0) och (0,b). Vilket samband mellan a och b följer av triangelns area?</p>"
+    "ledtrad": "<p>Låt skärningarna med axlarna vara \\((a,0)\\) och \\((0,b)\\). Arean ger \\(ab=90\\). Använd sedan att linjen också går genom \\((2,10)\\).</p>",
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Linje",
+      "Linje"
+    ]
   },
   {
     "id": "1.12",
@@ -306,7 +338,27 @@ window.BANKMA2 = [
     ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>För en linjär funktion är förändringen i y proportionell mot förändringen i x. Använd det för att hitta riktningskoefficienten.</p>"
+    "ledtrad": "<p>För en linjär funktion är förändringen i y proportionell mot förändringen i x. Använd det för att hitta riktningskoefficienten.</p>",
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar värden för en linjär funktion \\(f\\).</p><table class='data'><tr><th>x</th><th>−2</th><th>0</th><th>3</th><th>5</th></tr><tr><th>f(x)</th><td>9</td><td>5</td><td>−1</td><td>−5</td></tr></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm funktionen \\(f(x)\\).</p>",
+        "s": "<p>När \\(x\\) ökar med 2 minskar \\(f(x)\\) med 4, alltså \\(k=-2\\). Eftersom \\(f(0)=5\\) är \\(m=5\\).</p><p><strong>\\(f(x)=-2x+5\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(f(8)\\).</p>",
+        "s": "<p>Med \\(f(x)=-2x+5\\) fås \\(f(8)=-16+5=-11\\).</p><p><strong>\\(-11\\)</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.13",
@@ -344,7 +396,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
+    "poang": "2/0/0",
     "t": "<p>Bestäm ekvationen för linjen som går genom \\((2,7)\\) och \\((6,15)\\).</p>",
     "s": "<p>\\(k=(15-7)/(6-2)=2\\).</p><p>\\(7=2\\cdot2+m\\Rightarrow m=3\\).</p><p><strong>\\(y=2x+3\\).</strong></p>",
     "familj": "bestamma_linjara_funktioner__fran_tva_punkter",
@@ -358,7 +410,7 @@ window.BANKMA2 = [
     "rättSvar": "\\(y=2x+3\\)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Skriv linjen som y=kx+m. Använd de givna villkoren för att bestämma k och m.</p>"
+    "ledtrad": "<p>Beräkna först riktningskoefficienten med de två punkterna. Sätt sedan in en av punkterna i \\(y=kx+m\\) för att bestämma \\(m\\).</p>"
   },
   {
     "id": "1.15",
@@ -423,7 +475,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/0/2",
     "t": "<p>Linjerna</p><p>\\[L_1:\\ y=(a-1)x+2\\qquad L_2:\\ y=(2a+1)x-4\\]</p><p>är vinkelräta. Dessutom ligger deras skärningspunkt ovanför \\(x\\)-axeln.</p><p>Bestäm konstanten \\(a\\).</p>",
     "s": "<p>Vinkelräta linjer har riktningskoefficienter vars produkt är \\(-1\\):</p><p>\\((a-1)(2a+1)=-1\\).</p><p>\\(2a^2-a-1=-1\\Rightarrow2a^2-a=0\\Rightarrow a(2a-1)=0\\).</p><p>Alltså är \\(a=0\\) eller \\(a=\\frac12\\).</p><p>Om \\(a=0\\): \\(L_1:y=-x+2\\), \\(L_2:y=x-4\\). Skärningen är \\((3,-1)\\), alltså under \\(x\\)-axeln.</p><p>Om \\(a=\\frac12\\): \\(L_1:y=-\\frac12x+2\\), \\(L_2:y=2x-4\\). Skärningen fås av \\(-\\frac12x+2=2x-4\\), vilket ger \\(x=2,4\\) och \\(y=0,8\\).</p><p>Den skärningen ligger ovanför \\(x\\)-axeln.</p><p><strong>\\(a=\\frac12\\)</strong></p>",
     "familj": "rata_linjens_ekvation__parallella_och_vinkelrata_linjer",
@@ -435,10 +487,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\(a=\\frac12\\)",
+    "rättSvar": "1/2",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Vilket samband gäller mellan riktningskoefficienterna för två vinkelräta linjer? Glöm inte att pröva det extra villkoret om skärningspunkten.</p>"
+    "ledtrad": "<p>Vilket samband gäller mellan riktningskoefficienterna för två vinkelräta linjer? Glöm inte att pröva det extra villkoret om skärningspunkten.</p>",
+    "svarFormat": "bråk"
   },
   {
     "id": "1.18",
@@ -468,7 +521,34 @@ window.BANKMA2 = [
     ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>"
+    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Grafen visar en rät linje \\(L\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"390\" viewBox=\"0 0 430 390\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"388\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"350.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"83.80\" y1=\"350.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"119.60\" y1=\"350.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"155.40\" y1=\"350.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"191.20\" y1=\"350.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"227.00\" y1=\"350.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"262.80\" y1=\"350.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"298.60\" y1=\"350.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"334.40\" y1=\"350.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"370.20\" y1=\"350.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"406.00\" y1=\"350.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"350.00\" x2=\"406.00\" y2=\"350.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"322.50\" x2=\"406.00\" y2=\"322.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"295.00\" x2=\"406.00\" y2=\"295.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"267.50\" x2=\"406.00\" y2=\"267.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"240.00\" x2=\"406.00\" y2=\"240.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"212.50\" x2=\"406.00\" y2=\"212.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"185.00\" x2=\"406.00\" y2=\"185.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"157.50\" x2=\"406.00\" y2=\"157.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"130.00\" x2=\"406.00\" y2=\"130.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"102.50\" x2=\"406.00\" y2=\"102.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"75.00\" x2=\"406.00\" y2=\"75.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"47.50\" x2=\"406.00\" y2=\"47.50\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"48.00\" y1=\"240.00\" x2=\"416.00\" y2=\"240.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 416.00 240.00 l -8 -4 l 0 8 z\" fill=\"#2B2527\"/><line x1=\"191.20\" y1=\"350.00\" x2=\"191.20\" y2=\"10.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 191.20 10.00 l -4 8 l 8 0 z\" fill=\"#2B2527\"/><line x1=\"48.00\" y1=\"236.00\" x2=\"48.00\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"48.00\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-4</text><line x1=\"83.80\" y1=\"236.00\" x2=\"83.80\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"83.80\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"119.60\" y1=\"236.00\" x2=\"119.60\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"119.60\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"155.40\" y1=\"236.00\" x2=\"155.40\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"155.40\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"227.00\" y1=\"236.00\" x2=\"227.00\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"227.00\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"262.80\" y1=\"236.00\" x2=\"262.80\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"262.80\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"298.60\" y1=\"236.00\" x2=\"298.60\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"298.60\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"334.40\" y1=\"236.00\" x2=\"334.40\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"334.40\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"370.20\" y1=\"236.00\" x2=\"370.20\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"370.20\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"406.00\" y1=\"236.00\" x2=\"406.00\" y2=\"244.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"406.00\" y=\"257.00\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"187.20\" y1=\"350.00\" x2=\"195.20\" y2=\"350.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"353.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-4</text><line x1=\"187.20\" y1=\"322.50\" x2=\"195.20\" y2=\"322.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"326.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-3</text><line x1=\"187.20\" y1=\"295.00\" x2=\"195.20\" y2=\"295.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"298.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-2</text><line x1=\"187.20\" y1=\"267.50\" x2=\"195.20\" y2=\"267.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"271.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"187.20\" y1=\"212.50\" x2=\"195.20\" y2=\"212.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"216.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"187.20\" y1=\"185.00\" x2=\"195.20\" y2=\"185.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"188.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"187.20\" y1=\"157.50\" x2=\"195.20\" y2=\"157.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"161.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"187.20\" y1=\"130.00\" x2=\"195.20\" y2=\"130.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"133.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"187.20\" y1=\"102.50\" x2=\"195.20\" y2=\"102.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"106.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"187.20\" y1=\"75.00\" x2=\"195.20\" y2=\"75.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"78.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"187.20\" y1=\"47.50\" x2=\"195.20\" y2=\"47.50\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"51.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">7</text><line x1=\"187.20\" y1=\"20.00\" x2=\"195.20\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"182.20\" y=\"23.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10.5\" fill=\"#5C575E\">8</text><text x=\"183.20\" y=\"256.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"119.60\" y1=\"20.00\" x2=\"334.40\" y2=\"350.00\" stroke=\"#B43123\" stroke-width=\"2.7\" stroke-linecap=\"round\"/><text x=\"133.92\" y=\"42.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#B43123\">L</text><text x=\"419.00\" y=\"244.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">x</text><text x=\"198.20\" y=\"14.00\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">y</text></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm linjens riktningskoefficient \\(k\\).</p>",
+        "s": "<p>Linjen går till exempel genom \\((0,4)\\) och \\((1,2)\\), så \\(k=(2-4)/(1-0)=-2\\).</p><p><strong>\\(k=-2\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(m\\).</p>",
+        "s": "<p>Linjen skär \\(y\\)-axeln vid 4.</p><p><strong>\\(m=4\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm linjens nollställe.</p>",
+        "s": "<p>Linjen är \\(y=-2x+4\\). Sätt \\(y=0\\): \\(0=-2x+4\\), alltså \\(x=2\\).</p><p><strong>\\(x=2\\)</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.19",
@@ -505,8 +585,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen utan att utveckla parenteserna term för term.</p><p>\\[(x+6)(x-6)=13\\]</p>",
     "s": "<p>Använd konjugatregeln:</p><p>\\(x^2-36=13\\), alltså \\(x^2=49\\).</p><p>Därför \\(x=7\\) eller \\(x=-7\\).</p><p><strong>\\(x=\\pm7\\)</strong></p>",
     "familj": "konjugatregeln__ekvation_med_konjugat",
@@ -515,11 +595,19 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(x=\\pm7\\)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-7",
+      "7"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Leta efter två uttryck som bara skiljer sig åt genom tecknet mellan termerna. Då kan konjugatregeln förenkla arbetet.</p>"
+    "ledtrad": "<p>Använd konjugatregeln för att skriva vänsterledet som \\(x^2-36\\). Lös sedan den enkla andragradsekvationen.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.21",
@@ -556,20 +644,23 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "familj": "konjugatregeln__ekvation_med_konjugat",
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "t": "<p>Lös ekvationen utan att först utveckla båda kvadraterna.</p><p>\\[(x+4)^2-(x-4)^2=64.\\]</p>",
-    "s": "<p>Se vänsterledet som en differens av två kvadrater:</p><p>\\[\\left[(x+4)-(x-4)\\right]\\,\\left[(x+4)+(x-4)\\right]=64.\\]</p><p>Det ger \\(8\\cdot 2x=64\\), alltså \\(16x=64\\).</p><p><strong>\\(x=4\\).</strong></p>",
+    "t": "<p>Två kvadrater har sidlängderna \\(x+3\\) cm respektive \\(x-3\\) cm, där \\(x>3\\).</p><p>Skillnaden mellan kvadraternas areor är 72 cm². Bestäm \\(x\\).</p>",
+    "s": "<p>Skillnaden mellan areorna är</p><p>\\[(x+3)^2-(x-3)^2.\\]</p><p>Se uttrycket som en differens av två kvadrater:</p><p>\\[((x+3)-(x-3))((x+3)+(x-3))=6\\cdot2x=12x.\\]</p><p>Alltså \\(12x=72\\), vilket ger \\(x=6\\).</p><p><strong>\\(x=6\\) cm</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(x=4\\)",
+    "svarstyp": "numeriskt",
+    "rättSvar": "6",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Leta efter två uttryck som bara skiljer sig åt genom tecknet mellan termerna. Då kan konjugatregeln förenkla arbetet.</p>"
+    "ledtrad": "<p>Skriv skillnaden mellan areorna som \\((x+3)^2-(x-3)^2\\). Använd sedan \\(A^2-B^2=(A-B)(A+B)\\).</p>",
+    "svarEnhet": "cm",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.23",
@@ -606,7 +697,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "t": "<p>För alla \\(x\\) gäller</p><p>\\[(x+b)^2=x^2+12x+c.\\]</p><p>Bestäm konstanterna \\(b\\) och \\(c\\).</p>",
     "s": "<p>Utveckla vänsterledet:</p><p>\\((x+b)^2=x^2+2bx+b^2\\).</p><p>Jämför koefficienten framför \\(x\\): \\(2b=12\\), alltså \\(b=6\\).</p><p>Då är \\(c=b^2=36\\).</p><p><strong>\\(b=6\\) och \\(c=36\\)</strong></p>",
     "familj": "kvadreringsreglerna__parameter_och_villkor",
@@ -616,11 +707,23 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(b=6\\) och \\(c=36\\)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "6",
+      "36"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför uttrycket med någon av kvadreringsreglerna. Var särskilt uppmärksam på mittentermen.</p>"
+    "ledtrad": "<p>Utveckla \\((x+b)^2=x^2+2bx+b^2\\). Jämför först koefficienten framför \\(x\\), och bestäm därefter konstanttermen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.25",
@@ -646,7 +749,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Kontrollera först den föreslagna punkten genom att sätta in x- och y-värdena i båda ekvationerna.</p>"
+    "ledtrad": "<p>Kontrollera först den föreslagna punkten genom att sätta in x- och y-värdena i båda ekvationerna.</p>",
+    "spel": false
   },
   {
     "id": "1.26",
@@ -668,10 +772,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,3)\\)",
+    "rättSvar": "(3,3)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Frilägg en obekant i en ekvation och ersätt den med samma uttryck i den andra.</p>"
+    "ledtrad": "<p>Frilägg en obekant i en ekvation och ersätt den med samma uttryck i den andra.</p>",
+    "svarFormat": "punkt"
   },
   {
     "id": "1.27",
@@ -693,10 +798,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,-1)\\)",
+    "rättSvar": "(2,-1)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök multiplicera någon ekvation så att en av variablerna får motsatta koefficienter.</p>"
+    "ledtrad": "<p>Försök multiplicera någon ekvation så att en av variablerna får motsatta koefficienter.</p>",
+    "svarFormat": "punkt"
   },
   {
     "id": "1.28",
@@ -723,7 +829,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Ekvationssystemets lösning motsvarar den punkt där de två graferna skär varandra.</p>"
+    "ledtrad": "<p>Ekvationssystemets lösning motsvarar den punkt där de två graferna skär varandra.</p>",
+    "spel": false
   },
   {
     "id": "1.29",
@@ -745,10 +852,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((6,5)\\)",
+    "rättSvar": "(6,5)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>En lösning måste uppfylla båda ekvationerna samtidigt. Välj en metod som gör att en obekant kan elimineras.</p>"
+    "ledtrad": "<p>En lösning måste uppfylla båda ekvationerna samtidigt. Välj en metod som gör att en obekant kan elimineras.</p>",
+    "svarFormat": "punkt"
   },
   {
     "id": "1.30",
@@ -805,7 +913,8 @@ window.BANKMA2 = [
     ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>",
+    "spel": false
   },
   {
     "id": "1.32",
@@ -820,15 +929,36 @@ window.BANKMA2 = [
     "s": "<p>Låt \\(v,u,b\\) vara antal vuxen-, ungdoms- och barnbiljetter.</p><p>\\(v+u+b=120\\), \\(140v+90u+60b=12900\\) och \\(v=2b\\).</p><p>Sätt \\(v=2b\\). Då är \\(u=120-3b\\).</p><p>\\(280b+90(120-3b)+60b=12900\\).</p><p>\\(70b+10800=12900\\Rightarrow b=30\\).</p><p>Då \\(v=60\\) och \\(u=30\\).</p><p><strong>60 vuxenbiljetter, 30 ungdomsbiljetter och 30 barnbiljetter.</strong></p>",
     "familj": "ekvationssystem_tre_obekanta__textproblem_tre_obekanta",
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "60 vuxenbiljetter, 30 ungdomsbiljetter och 30 barnbiljetter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "60",
+      "30",
+      "30"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>"
+    "ledtrad": "<p>Låt \\(v,u,b\\) vara antalen. Använd totalantalet, totalintäkten och villkoret \\(v=2b\\) som tre ekvationer.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Vuxenbiljetter",
+      "Ungdomsbiljetter",
+      "Barnbiljetter"
+    ],
+    "svarEnhet": [
+      "biljetter",
+      "biljetter",
+      "biljetter"
+    ],
+    "svarFormat": [
+      "heltal",
+      "heltal",
+      "heltal"
+    ]
   },
   {
     "id": "1.33",
@@ -848,10 +978,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y,z)=(4,3,5)\\)",
+    "rättSvar": "(4,3,5)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>"
+    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>",
+    "svarFormat": "vektor"
   },
   {
     "id": "1.34",
@@ -874,11 +1005,25 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "text",
-    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "rättSvar": "Oändligt många lösningar",
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "självrättning": true,
+    "ledtrad": "<p>Dividera den andra ekvationen med 2 och jämför den med den första.</p>",
+    "alternativ": [
+      {
+        "txt": "En lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Ingen lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "1.35",
@@ -889,23 +1034,23 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Systemet</p><p>\\(\\begin{cases}(a+1)x+2y=5\\\\2(a+1)x+4y=b\\end{cases}\\)</p><p>kan ha ingen lösning eller oändligt många lösningar. Beskriv alla värden på \\(a\\) och \\(b\\) i de två fallen.</p>",
     "s": "<p>Den andra ekvationens vänsterled är dubbelt så stort som den första. Om även högerledet är dubbelt, alltså \\(b=10\\), beskriver ekvationerna samma linje och systemet har oändligt många lösningar. Om \\(b\\ne10\\) blir linjerna parallella och olika.</p><p><strong>Oändligt många lösningar för alla \\(a\\) när \\(b=10\\). Ingen lösning för alla \\(a\\) när \\(b\\ne10\\).</strong></p>",
     "familj": "speciella_ekvationssystem__parameterfall",
     "formaga": [
-      "procedur",
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Oändligt många lösningar för alla \\(a\\) när \\(b=10\\). Ingen lösning för alla \\(a\\) när \\(b\\ne10\\)",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "självrättning": false,
+    "ledtrad": "<p>Jämför den andra ekvationens vänsterled med den första. När beskriver de exakt samma linje, och när blir de motsägelsefulla?</p>",
+    "spel": false
   },
   {
     "id": "1.36",
@@ -917,8 +1062,8 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>För vilket värde på \\(a\\) får systemet</p><p>\\(\\begin{cases}y=ax+2\\\\2y=6x+4\\end{cases}\\)</p><p>ingen lösning?</p>",
+    "poang": "0/1/0",
+    "t": "<p>För vilket värde på \\(a\\) får systemet</p><p>\\(\\begin{cases}y=ax+2\\\\2y=6x+4\\end{cases}\\)</p><p>ingen lösning?</p><p>Om inget sådant värde finns, skriv <em>inget</em>.</p>",
     "s": "<p>Andra ekvationen ger \\(y=3x+2\\). För ingen lösning måste linjerna vara parallella men olika. Om \\(a=3\\) blir de i stället samma linje. För andra värden på \\(a\\) skär de varandra.</p><p><strong>Det finns inget sådant värde på \\(a\\).</strong></p>",
     "familj": "speciella_ekvationssystem__klassificera_antal_losningar",
     "formaga": [
@@ -929,10 +1074,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "Det finns inget sådant värde på \\(a\\)",
+    "rättSvar": "inget",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "ledtrad": "<p>Skriv om den andra ekvationen som \\(y=3x+2\\). För ingen lösning måste linjerna vara parallella men olika.</p>",
+    "svarFormat": "kort_text"
   },
   {
     "id": "1.37",
@@ -954,11 +1100,27 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "8 liter av 20 %-lösningen och 4 liter av 50 %-lösningen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "8",
+      "4"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vad de obekanta ska stå för. Översätt sedan två oberoende uppgifter i texten till två ekvationer.</p>"
+    "ledtrad": "<p>Låt mängderna vara \\(x\\) och \\(y\\) liter. Du behöver en ekvation för total volym och en för mängden salt.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "20 %-lösning",
+      "50 %-lösning"
+    ],
+    "svarEnhet": [
+      "liter",
+      "liter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.38",
@@ -970,9 +1132,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/1/2",
     "t": "<p>En förening blandar två sorters sportdryck. Sort A innehåller 12 % koncentrat och sort B 30 %. Man vill göra 18 liter blandning som innehåller 22 % koncentrat.</p><p>a) Bestäm hur många liter av varje sort som behövs.</p><p>b) Föreningen upptäcker att det bara finns 8 liter av sort B. Kan målet 22 % ändå nås om den totala mängden fortfarande ska vara 18 liter? Motivera.</p>",
-    "s": "<p>a) Låt \\(x\\) och \\(y\\) vara liter av A respektive B.</p><p>\\[\\begin{cases}x+y=18\\0,12x+0,30y=0,22\\cdot18\\end{cases}\\]</p><p>Högerledet i den andra ekvationen är 3,96. Sätt \\(x=18-y\\):</p><p>\\(0,12(18-y)+0,30y=3,96\\Rightarrow2,16+0,18y=3,96\\Rightarrow y=10\\).</p><p>Då \\(x=8\\). <strong>8 liter A och 10 liter B.</strong></p><p>b) Om högst 8 liter B används blir koncentratmängden som mest \\(0,12\\cdot10+0,30\\cdot8=3,60\\) liter. Det motsvarar \\(3,60/18=0,20=20\\%\\).</p><p><strong>Nej. Med bara 8 liter B kan blandningen som mest bli 20 %.</strong></p>",
+    "s": "<p>a) Låt \\(x\\) och \\(y\\) vara liter av A respektive B.</p><p>\\[\\begin{cases}x+y=18\\\\0,12x+0,30y=0,22\\cdot18\\end{cases}\\]</p><p>Högerledet i den andra ekvationen är 3,96. Sätt \\(x=18-y\\):</p><p>\\(0,12(18-y)+0,30y=3,96\\Rightarrow2,16+0,18y=3,96\\Rightarrow y=10\\).</p><p>Då \\(x=8\\). <strong>8 liter A och 10 liter B.</strong></p><p>b) Om högst 8 liter B används blir koncentratmängden som mest \\(0,12\\cdot10+0,30\\cdot8=3,60\\) liter. Det motsvarar \\(3,60/18=0,20=20\\%\\).</p><p><strong>Nej. Med bara 8 liter B kan blandningen som mest bli 20 %.</strong></p>",
     "familj": "ekvationssystem_tillampningar__blandningsproblem",
     "formaga": [
       "procedur",
@@ -985,7 +1147,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Låt x och y vara mängderna av de två sorterna. En ekvation beskriver total volym och en beskriver mängden koncentrat.</p>"
+    "ledtrad": "<p>I a) behövs en ekvation för total volym och en för mängden koncentrat. I b) undersöker du den största möjliga koncentratmängden när högst 8 liter av B får användas.</p>",
+    "spel": false
   },
   {
     "id": "1.39",
@@ -997,21 +1160,37 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>På ett café säljs kaffe och te. Tre kaffe och två te kostar 128 kr. Två kaffe och fem te kostar 169 kr.</p><p>Bestäm priset för en kaffe och ett te.</p>",
-    "s": "<p>Låt kaffe kosta \\(x\\) kr och te \\(y\\) kr.</p><p>\\(3x+2y=128\\) och \\(2x+5y=169\\).</p><p>Multiplicera första ekvationen med 5 och den andra med 2:</p><p>\\(15x+10y=640\\), \\(4x+10y=338\\).</p><p>Subtraktion ger \\(11x=302\\), alltså \\(x=\\frac{302}{11}\\approx27,45\\).</p><p>Sätt in i första ekvationen: \\(2y=128-3\\cdot\\frac{302}{11}=\\frac{502}{11}\\), alltså \\(y=\\frac{251}{11}\\approx22,82\\).</p><p><strong>Kaffe cirka 27,45 kr och te cirka 22,82 kr.</strong></p>",
+    "poang": "0/2/0",
+    "t": "<p>På ett café kostar tre kaffe och två te tillsammans 132 kr.</p><p>Under en kampanj sänks priset på kaffe med 4 kr och priset på te med 2 kr. Då kostar två kaffe och fem te tillsammans 158 kr.</p><p>Bestäm de ordinarie priserna på kaffe och te.</p>",
+    "s": "<p>Låt \\(k\\) vara ordinarie pris för kaffe och \\(t\\) ordinarie pris för te.</p><p>Första uppgiften ger \\(3k+2t=132\\).</p><p>Under kampanjen gäller</p><p>\\[2(k-4)+5(t-2)=158,\\]</p><p>vilket förenklas till \\(2k+5t=176\\).</p><p>Multiplicera den första ekvationen med 2 och den andra med 3:</p><p>\\[6k+4t=264,\\qquad 6k+15t=528.\\]</p><p>Subtraktion ger \\(11t=264\\), alltså \\(t=24\\). Då \\(3k+48=132\\), så \\(k=28\\).</p><p><strong>Kaffe 28 kr och te 24 kr.</strong></p>",
     "familj": "ekvationssystem_tillampningar__ekonomiskt_textproblem",
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Kaffe cirka 27,45 kr och te cirka 22,82 kr",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "28",
+      "24"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vad de obekanta ska stå för. Översätt sedan två oberoende uppgifter i texten till två ekvationer.</p>"
+    "ledtrad": "<p>Översätt först kampanjpriserna: kaffe kostar då \\(k-4\\) och te \\(t-2\\). Skriv sedan ett ekvationssystem.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Kaffe",
+      "Te"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.40",
@@ -1097,8 +1276,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/1/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "t": "<p>För vilket värde på \\(a\\) kan \\(x^2+ax+36\\) skrivas som \\((x-6)^2\\)?</p>",
     "s": "<p>Utveckla den givna kvadraten:</p><p>\\((x-6)^2=x^2-12x+36\\).</p><p>Jämför med \\(x^2+ax+36\\). Koefficienten framför \\(x\\) måste därför vara −12.</p><p><strong>\\(a=-12\\).</strong></p>",
     "familj": "kvadreringsreglerna__utveckla_med_kvadreringsregel",
@@ -1141,27 +1320,27 @@ window.BANKMA2 = [
   {
     "id": "1.45",
     "kap": 1,
-    "omr": "konjugatregeln",
+    "omr": "faktorisering",
     "kurs": [
       "2a",
       "2b",
       "2c"
     ],
     "niva": "E",
-    "poang": "0/1/0",
-    "familj": "konjugatregeln__ekvation_med_konjugat",
+    "poang": "1/0/0",
+    "familj": "faktorisering__faktorisera_flera_steg",
     "formaga": [
       "procedur"
     ],
-    "t": "<p>Lös ekvationen</p><p>\\[(x+6)(x-6)=13.\\]</p>",
-    "s": "<p>Vänsterledet är en differens av två kvadrater:</p><p>\\[x^2-36=13.\\]</p><p>Då får vi \\(x^2=49\\) och därför</p><p><strong>\\(x=7\\) eller \\(x=-7\\).</strong></p>",
+    "t": "<p>Skriv uttrycket som en produkt med hjälp av konjugatregeln.</p><p>\\[9x^2-25\\]</p>",
+    "s": "<p>Uttrycket är en differens av två kvadrater:</p><p>\\[9x^2-25=(3x)^2-5^2.\\]</p><p>Konjugatregeln baklänges ger</p><p><strong>\\((3x-5)(3x+5)\\)</strong></p>",
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\(x=7\\) eller \\(x=-7\\)",
+    "rättSvar": "\\((3x-5)(3x+5)\\)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Leta efter två uttryck som bara skiljer sig åt genom tecknet mellan termerna. Då kan konjugatregeln förenkla arbetet.</p>"
+    "ledtrad": "<p>Känn igen \\(9x^2\\) och 25 som två kvadrater: \\((3x)^2\\) och \\(5^2\\).</p>"
   },
   {
     "id": "1.46",
@@ -1183,10 +1362,33 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\(x^2+12x+36\\)",
+      "\\(9x^2-12x+4\\)"
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Jämför uttrycket med någon av kvadreringsreglerna. Var särskilt uppmärksam på mittentermen.</p>"
+    "självrättning": true,
+    "ledtrad": "<p>Jämför uttrycket med någon av kvadreringsreglerna. Var särskilt uppmärksam på mittentermen.</p>",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Utveckla med kvadreringsreglerna.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Utveckla \\((x+6)^2\\).</p>",
+        "s": "<p>\\((x+6)^2=x^2+2\\cdot x\\cdot6+6^2\\).</p><p><strong>\\(x^2+12x+36\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Utveckla \\((3x-2)^2\\).</p>",
+        "s": "<p>\\((3x-2)^2=(3x)^2-2\\cdot3x\\cdot2+2^2\\).</p><p><strong>\\(9x^2-12x+4\\)</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.47",
@@ -1200,7 +1402,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två på varandra följande udda heltal betecknas med \\(n\\) och \\(n+2\\).</p><p>Visa att skillnaden mellan deras kvadrater alltid är delbar med 8.</p>",
-    "s": "<p>För varje uttryck: hitta den största faktor som finns i alla termer, bryt ut den framför parentesen och kontrollera genom att multiplicera tillbaka.</p><p>Skillnaden är</p><p>\\((n+2)^2-n^2=n^2+4n+4-n^2=4(n+1)\\).</p><p>Eftersom \\(n\\) är udda är \\(n+1\\) jämnt. Skriv \\(n+1=2k\\).</p><p>Då blir skillnaden \\(4\\cdot2k=8k\\).</p><p><strong>Skillnaden är alltså alltid delbar med 8.</strong></p>",
+    "s": "<p>Skillnaden mellan kvadraterna är</p><p>\\[(n+2)^2-n^2=((n+2)-n)((n+2)+n)=2(2n+2)=4(n+1).\\]</p><p>Eftersom \\(n\\) är udda är \\(n+1\\) jämnt. Skriv \\(n+1=2k\\), där \\(k\\) är ett heltal.</p><p>Då blir skillnaden \\(4\\cdot2k=8k\\), alltså är den alltid delbar med 8.</p>",
     "familj": "faktorisering__faktorisera_flera_steg",
     "formaga": [
       "procedur",
@@ -1212,7 +1414,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv de två udda heltalen som 2n+1 och 2n+3 och förenkla skillnaden mellan deras kvadrater.</p>"
+    "ledtrad": "<p>Faktorisera \\((n+2)^2-n^2\\) som en differens av två kvadrater. Använd sedan att \\(n+1\\) är jämnt.</p>",
+    "spel": false
   },
   {
     "id": "1.48",
@@ -1224,12 +1427,12 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Visa att \\((n+3)^2-(n-3)^2\\) är delbart med 12 för varje heltal \\(n\\).</p>",
-    "s": "<p>Utveckla med kvadreringsreglerna:</p><p>\\((n+3)^2=n^2+6n+9\\) och \\((n-3)^2=n^2-6n+9\\).</p><p>Differensen blir \\(12n\\).</p><p><strong>Eftersom \\(n\\) är ett heltal är \\(12n\\) alltid delbart med 12.</strong></p>",
+    "poang": "0/1/0",
+    "t": "<p>Leo skriver</p><p>\\[(x-4)^2=x^2-16.\\]</p><p>Förklara vad som är fel och skriv den korrekta utvecklingen.</p>",
+    "s": "<p>I kvadreringsregeln \\((a-b)^2=a^2-2ab+b^2\\) finns en mittenterm och den sista termen är positiv.</p><p>Här blir</p><p>\\[(x-4)^2=x^2-2\\cdot x\\cdot4+4^2=x^2-8x+16.\\]</p><p>Leo har alltså både tappat mittentermen \\(-8x\\) och gett konstanttermen fel tecken.</p>",
     "familj": "kvadreringsreglerna__utveckla_med_kvadreringsregel",
     "formaga": [
-      "procedur",
+      "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
@@ -1238,7 +1441,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Du behöver inte utveckla båda kvadraterna term för term. Se om uttrycket kan behandlas som en differens av två kvadrater.</p>"
+    "ledtrad": "<p>Skriv upp \\((a-b)^2=a^2-2ab+b^2\\) och identifiera \\(a=x\\) och \\(b=4\\).</p>",
+    "spel": false
   },
   {
     "id": "1.49",
@@ -1341,7 +1545,23 @@ window.BANKMA2 = [
     ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Leta först efter en gemensam faktor. Kontrollera sedan om det som återstår kan faktoriseras vidare.</p>"
+    "ledtrad": "<p>Leta först efter en gemensam faktor. Kontrollera sedan om det som återstår kan faktoriseras vidare.</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Faktorisera så långt som möjligt.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Faktorisera \\(12x^2-18x\\) så långt som möjligt.</p>",
+        "s": "<p>Bryt ut största gemensamma faktor \\(6x\\):</p><p><strong>\\(6x(2x-3)\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Faktorisera \\(9x^2-25\\) så långt som möjligt.</p>",
+        "s": "<p>Det är en differens av två kvadrater:</p><p><strong>\\((3x-5)(3x+5)\\)</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.53",
@@ -1419,7 +1639,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>För en linjär funktion är förändringen i y proportionell mot förändringen i x. Använd det för att hitta riktningskoefficienten.</p>"
+    "ledtrad": "<p>För en linjär funktion är förändringen i y proportionell mot förändringen i x. Använd det för att hitta riktningskoefficienten.</p>",
+    "spel": false
   },
   {
     "id": "1.56",
@@ -1446,7 +1667,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Sätt in f(x)=kx+m i de två givna funktionsvärdena. Försök sedan utnyttja symmetrin mellan p och q.</p>"
+    "ledtrad": "<p>Sätt in f(x)=kx+m i de två givna funktionsvärdena. Försök sedan utnyttja symmetrin mellan p och q.</p>",
+    "spel": false
   },
   {
     "id": "1.57",
@@ -1469,10 +1691,41 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "1",
+      "-2",
+      "\\(y=x-2\\)"
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>"
+    "självrättning": true,
+    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Grafen visar linjen \\(L\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"307.86\" x2=\"406.00\" y2=\"307.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"285.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"263.57\" x2=\"406.00\" y2=\"263.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"219.29\" x2=\"406.00\" y2=\"219.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"406.00\" y2=\"197.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"152.86\" x2=\"406.00\" y2=\"152.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"130.71\" x2=\"406.00\" y2=\"130.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"108.57\" x2=\"406.00\" y2=\"108.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"86.43\" x2=\"406.00\" y2=\"86.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"64.29\" x2=\"406.00\" y2=\"64.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"42.14\" x2=\"406.00\" y2=\"42.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"416.00\" y2=\"197.14\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"80.55\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"113.09\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"145.64\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"178.18\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"243.27\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"275.82\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"308.36\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"340.91\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"373.45\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"406.00\" y=\"214.14\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"10.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"202.73\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-6</text><text x=\"202.73\" y=\"310.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"202.73\" y=\"288.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"202.73\" y=\"266.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"202.73\" y=\"244.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"202.73\" y=\"222.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"202.73\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"202.73\" y=\"155.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"202.73\" y=\"133.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"202.73\" y=\"111.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"202.73\" y=\"89.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"202.73\" y=\"67.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"202.73\" y=\"45.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"202.73\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"113.09\" y1=\"307.86\" x2=\"406.00\" y2=\"108.57\" stroke=\"#B43123\" stroke-width=\"2.7\"/><text x=\"363.69\" y=\"95.29\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">L</text></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(k\\).</p>",
+        "s": "<p>Linjen går genom \\((0,-2)\\) och \\((2,0)\\), så \\(k=(0-(-2))/(2-0)=1\\).</p><p><strong>\\(k=1\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(m\\).</p>",
+        "s": "<p>Linjen skär \\(y\\)-axeln vid \\(-2\\).</p><p><strong>\\(m=-2\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Skriv linjens ekvation.</p>",
+        "s": "<p>Med \\(k=1\\) och \\(m=-2\\) blir ekvationen</p><p><strong>\\(y=x-2\\)</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.58",
@@ -1484,7 +1737,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/0/2",
     "t": "<p>Linjen \\(L\\) går genom origo och har ekvationen \\(y=kx\\).</p><p>Linjen \\(L\\) skär linjen \\(y=1,4x-6\\) i en punkt där \\(x\\)-koordinaten är större än 40.</p><p>Bestäm alla möjliga värden på \\(k\\). Motivera.</p>",
     "s": "<p>I skärningspunkten gäller \\(kx=1,4x-6\\).</p><p>\\((1,4-k)x=6\\Rightarrow x=\\frac6{1,4-k}\\).</p><p>För att \\(x\\) ska vara positiv måste \\(k&lt;1,4\\). Kravet \\(x&gt;40\\) ger</p><p>\\(\\frac6{1,4-k}&gt;40\\Rightarrow6&gt;56-40k\\Rightarrow k&gt;1,25\\).</p><p><strong>Alla värden \\(1,25&lt;k&lt;1,4\\) fungerar.</strong></p>",
     "familj": "rata_linjens_ekvation__skarningspunkter_och_axlar",
@@ -1499,7 +1752,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Bestäm först x-koordinaten för skärningspunkten uttryckt med k. Därefter kan villkoret x>40 användas.</p>"
+    "ledtrad": "<p>Bestäm först x-koordinaten för skärningspunkten uttryckt med k. Därefter kan villkoret x>40 användas.</p>",
+    "spel": false
   },
   {
     "id": "1.59",
@@ -1512,8 +1766,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y=9\\\\x-y=3\\end{cases}\\)</p>",
-    "s": "<p>Addera ekvationerna: \\(2x=12\\Rightarrow x=6\\). Då \\(y=3\\).</p><p><strong>\\((6,3)\\).</strong></p>",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}2x+y=10\\\\x-y=2\\end{cases}\\)</p>",
+    "s": "<p>Addera ekvationerna: \\(3x=12\\), alltså \\(x=4\\).</p><p>Sätt in i \\(x-y=2\\): \\(4-y=2\\Rightarrow y=2\\).</p><p><strong>\\((x,y)=(4,2)\\)</strong></p>",
     "familj": "linjara_ekvationssystem__losa_system",
     "formaga": [
       "procedur"
@@ -1521,10 +1775,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((6,3)\\)",
+    "rättSvar": "(4,2)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>En lösning måste uppfylla båda ekvationerna samtidigt. Välj en metod som gör att en obekant kan elimineras.</p>"
+    "ledtrad": "<p>Addera ekvationerna. Då försvinner \\(y\\)-termerna direkt.</p>",
+    "svarFormat": "punkt"
   },
   {
     "id": "1.60",
@@ -1536,7 +1791,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "t": "<p>Systemet</p><p>\\(\\begin{cases}y=ax+2\\\\x+2y=10\\end{cases}\\)</p><p>har lösningen \\((2,4)\\).</p><p>Bestäm \\(a\\), och avgör sedan om systemet har någon annan lösning.</p>",
     "s": "<p>\\(4=2a+2\\Rightarrow a=1\\). Då är linjerna \\(y=x+2\\) och \\(x+2y=10\\), som har olika riktningskoefficient.</p><p><strong>\\(a=1\\), och lösningen är unik.</strong></p>",
     "familj": "substitutionsmetoden__parameter_och_losningsvillkor",
@@ -1546,11 +1801,23 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(a=1\\), och lösningen är unik",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1",
+      "unik"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Frilägg en obekant i en ekvation och ersätt den med samma uttryck i den andra.</p>"
+    "ledtrad": "<p>Sätt in den givna lösningen \\((2,4)\\) i den första ekvationen för att bestämma \\(a\\). Jämför sedan linjernas riktningskoefficienter.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "Lösningen är"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "kort_text"
+    ]
   },
   {
     "id": "1.61",
@@ -1572,11 +1839,19 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Systemet har inte exakt en lösning för \\(a=3\\) eller \\(a=-2\\)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-2",
+      "3"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök multiplicera någon ekvation så att en av variablerna får motsatta koefficienter.</p>"
+    "ledtrad": "<p>Eliminera en variabel. Systemet kan bara förlora sin unika lösning när koefficienten framför den återstående variabeln blir noll.</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.62",
@@ -1603,7 +1878,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Fundera på vad linjernas riktningskoefficienter säger om huruvida en skärningspunkt över huvud taget finns.</p>"
+    "ledtrad": "<p>Fundera på vad linjernas riktningskoefficienter säger om huruvida en skärningspunkt över huvud taget finns.</p>",
+    "spel": false
   },
   {
     "id": "1.63",
@@ -1614,23 +1890,23 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Systemet</p><p>\\(\\begin{cases}(a-2)x+3y=6\\\\2(a-2)x+6y=b\\end{cases}\\)</p><p>kan ha ingen lösning eller oändligt många lösningar.</p><p>Beskriv alla värden på \\(a\\) och \\(b\\) som ger respektive fall.</p>",
     "s": "<p>Den andra ekvationens vänsterled är alltid dubbla den första.</p><p>För oändligt många lösningar måste även högerledet vara dubbelt: \\(b=12\\). Detta gäller för alla \\(a\\).</p><p>Om \\(b\\ne12\\) får man två parallella ekvationer som motsäger varandra, alltså ingen lösning.</p><p><strong>Oändligt många: alla \\(a\\), \\(b=12\\). Ingen lösning: alla \\(a\\), \\(b\\ne12\\).</strong></p>",
     "familj": "speciella_ekvationssystem__parameterfall",
     "formaga": [
-      "procedur",
       "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Oändligt många: alla \\(a\\), \\(b=12\\). Ingen lösning: alla \\(a\\), \\(b\\ne12\\)",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "självrättning": false,
+    "ledtrad": "<p>Den andra ekvationens vänsterled är alltid dubbelt så stort som den första. Jämför därför bara vad som måste gälla för högerleden.</p>",
+    "spel": false
   },
   {
     "id": "1.64",
@@ -1657,7 +1933,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skriv kostnaden för varje företag som en linjär funktion. Undersök om de två uppgifterna ger två oberoende villkor.</p>"
+    "ledtrad": "<p>Skriv kostnaden för varje företag som en linjär funktion. Undersök om de två uppgifterna ger två oberoende villkor.</p>",
+    "spel": false
   },
   {
     "id": "1.65",
@@ -1677,10 +1954,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y,z)=(\\frac{11}{3},4,\\frac{13}{3})\\)",
+    "rättSvar": "(11/3,4,13/3)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>"
+    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>",
+    "svarFormat": "vektor"
   },
   {
     "id": "1.66",
@@ -1702,11 +1980,29 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": "Det är graf B",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>"
+    "ledtrad": "<p>Linjen ska skära \\(y\\)-axeln vid 3 och luta nedåt med 2 enheter när \\(x\\) ökar med 1.</p>",
+    "alternativ": [
+      {
+        "txt": "A",
+        "ratt": false
+      },
+      {
+        "txt": "B",
+        "ratt": true
+      },
+      {
+        "txt": "C",
+        "ratt": false
+      },
+      {
+        "txt": "D",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "1.67",
@@ -1780,12 +2076,21 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\(a=2\\)",
-      "\\(b=3\\)"
+      "2",
+      "3"
     ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför uttrycket med någon av kvadreringsreglerna. Var särskilt uppmärksam på mittentermen.</p>"
+    "ledtrad": "<p>Jämför uttrycket med någon av kvadreringsreglerna. Var särskilt uppmärksam på mittentermen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.70",
@@ -1797,8 +2102,8 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "familj": "faktorisering__bryt_ut_gemensam_faktor",
+    "poang": "1/0/0",
+    "familj": "faktorisering__faktorisera_flera_steg",
     "formaga": [
       "procedur"
     ],
@@ -1807,10 +2112,10 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\(x^2-14x+49=(x-7)^2\\)",
+    "rättSvar": "\\((x-7)^2\\)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Leta först efter en gemensam faktor. Kontrollera sedan om det som återstår kan faktoriseras vidare.</p>"
+    "ledtrad": "<p>Jämför \\(x^2-14x+49\\) med \\((x-a)^2=x^2-2ax+a^2\\). Vilket värde på \\(a\\) ger både mittentermen och konstanttermen?</p>"
   },
   {
     "id": "1.71",
@@ -1898,9 +2203,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=15\\\\x+y=9\\\\y+z=11\\end{cases}\\)</p>",
-    "s": "<p>Första minus andra ger \\(z=6\\). Då \\(y=5\\), och \\(x=4\\).</p><p><strong>\\((4,5,6)\\).</strong></p>",
+    "poang": "2/0/0",
+    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=12\\\\2x+y+z=17\\\\x-y+z=8\\end{cases}\\)</p>",
+    "s": "<p>Subtrahera den första ekvationen från den andra: \\(x=5\\).</p><p>Subtrahera den tredje ekvationen från den första: \\(2y=4\\), alltså \\(y=2\\).</p><p>Sätt in i \\(x+y+z=12\\): \\(5+2+z=12\\Rightarrow z=5\\).</p><p><strong>\\((x,y,z)=(5,2,5)\\)</strong></p>",
     "familj": "ekvationssystem_tre_obekanta__losa_tre_obekanta",
     "formaga": [
       "procedur"
@@ -1908,10 +2213,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((4,5,6)\\)",
+    "rättSvar": "(5,2,5)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>"
+    "ledtrad": "<p>Subtrahera ekvationer parvis. Två av variablerna kan då försvinna på en gång.</p>",
+    "svarFormat": "vektor"
   },
   {
     "id": "1.75",
@@ -1921,7 +2227,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/1/0",
+    "poang": "0/2/0",
     "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=15\\\\x+z=9\\\\x+y=11\\end{cases}\\)</p>",
     "s": "<p>Subtrahera \\(x+z=9\\) från \\(x+y+z=15\\): \\(y=6\\).</p><p>Sätt in \\(y=6\\) i \\(x+y=11\\): \\(x=5\\).</p><p>Sätt sedan in \\(x=5\\) i \\(x+z=9\\): \\(z=4\\).</p><p><strong>\\((x,y,z)=(5,6,4)\\).</strong></p>",
     "familj": "ekvationssystem_tre_obekanta__losa_tre_obekanta",
@@ -1931,10 +2237,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y,z)=(5,6,4)\\)",
+    "rättSvar": "(5,6,4)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>"
+    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>",
+    "svarFormat": "vektor"
   },
   {
     "id": "1.76",
@@ -1955,13 +2262,40 @@ window.BANKMA2 = [
       "begrepp",
       "modellering"
     ],
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "\\(V(t)=850-32t\\)",
+      "10"
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>För en linjär funktion är förändringen i y proportionell mot förändringen i x. Använd det för att hitta riktningskoefficienten.</p>"
+    "självrättning": true,
+    "ledtrad": "<p>Startvärdet är 850 liter och förändringen per minut är \\(-32\\). Använd sedan modellen för att lösa \\(V(t)=530\\).</p>",
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "min"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En tank innehåller 850 liter vatten. Vatten tappas ut med 32 liter per minut.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Skriv en linjär funktion \\(V(t)\\) för mängden vatten efter \\(t\\) minuter.</p>",
+        "s": "<p>Startvärdet är 850 och mängden minskar med 32 liter per minut.</p><p><strong>\\(V(t)=850-32t\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Efter hur många minuter återstår 530 liter?</p>",
+        "s": "<p>\\(850-32t=530\\Rightarrow32t=320\\Rightarrow t=10\\).</p><p><strong>10 minuter</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.77",
@@ -1982,11 +2316,31 @@ window.BANKMA2 = [
     "s": "<p>Låt antalen vara \\(x,y,z\\). Då gäller</p><p>\\[\\begin{cases}x+y+z=50\\\\60x+100y+150z=4700\\\\60x=150z\\end{cases}\\]</p><p>Den tredje ekvationen ger \\(2x=5z\\). Sätt \\(z=2t\\), så är \\(x=5t\\). Då blir \\(y=50-7t\\).</p><p>Sätt in i intäktsekvationen:</p><p>\\[60(5t)+100(50-7t)+150(2t)=4700.\\]</p><p>\\[5000-100t=4700\\Rightarrow t=3.\\]</p><p>Alltså \\(x=15\\), \\(z=6\\) och \\(y=29\\).</p><p><strong>15 biljetter för 60 kr, 29 för 100 kr och 6 för 150 kr.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "15 biljetter för 60 kr, 29 för 100 kr och 6 för 150 kr",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "15",
+      "29",
+      "6"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>"
+    "ledtrad": "<p>Låt antalen vara \\(x,y,z\\). Utöver totalantal och totalintäkt ger villkoret om lika stora intäkter sambandet \\(60x=150z\\).</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "60 kr",
+      "100 kr",
+      "150 kr"
+    ],
+    "svarEnhet": [
+      "biljetter",
+      "biljetter",
+      "biljetter"
+    ],
+    "svarFormat": [
+      "heltal",
+      "heltal",
+      "heltal"
+    ]
   },
   {
     "id": "1.78",
@@ -1996,9 +2350,9 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Lös systemet.</p><p>\\(\\begin{cases}x+y+z=12\\\\x+y=7\\\\y+z=9\\end{cases}\\)</p>",
-    "s": "<p>Subtrahera den andra ekvationen från den första:</p><p>\\((x+y+z)-(x+y)=12-7\\Rightarrow z=5\\).</p><p>Sätt in \\(z=5\\) i \\(y+z=9\\): \\(y+5=9\\Rightarrow y=4\\).</p><p>Sätt sedan in \\(y=4\\) i \\(x+y=7\\): \\(x+4=7\\Rightarrow x=3\\).</p><p><strong>\\((x,y,z)=(3,4,5)\\).</strong></p>",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationssystemet</p><p>\\[\\begin{cases}x+y+z=6\\\\2x-y+z=6\\\\x+3y-2z=-1\\end{cases}\\]</p>",
+    "s": "<p>Subtrahera den första ekvationen från den andra:</p><p>\\[x-2y=0\\Rightarrow x=2y.\\]</p><p>Ur den första ekvationen fås då \\(z=6-3y\\).</p><p>Sätt in i den tredje:</p><p>\\[2y+3y-2(6-3y)=-1\\Rightarrow11y=11\\Rightarrow y=1.\\]</p><p>Därmed \\(x=2\\) och \\(z=3\\).</p><p><strong>\\((x,y,z)=(2,1,3)\\)</strong></p>",
     "familj": "ekvationssystem_tre_obekanta__losa_tre_obekanta",
     "formaga": [
       "procedur"
@@ -2006,10 +2360,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y,z)=(3,4,5)\\)",
+    "rättSvar": "(2,1,3)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Försök eliminera en variabel i två olika ekvationspar. Då får du ett system med två obekanta.</p>"
+    "ledtrad": "<p>Subtrahera två av ekvationerna så att \\(z\\) försvinner. Då får du ett enkelt samband mellan \\(x\\) och \\(y\\).</p>",
+    "svarFormat": "vektor"
   },
   {
     "id": "1.79",
@@ -2021,7 +2376,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "familj": "linjara_ekvationssystem__parameter_och_antal_losningar",
     "formaga": [
       "procedur",
@@ -2035,7 +2390,7 @@ window.BANKMA2 = [
     "rättSvar": "\\(k=6\\)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>En lösning måste uppfylla båda ekvationerna samtidigt. Välj en metod som gör att en obekant kan elimineras.</p>"
+    "ledtrad": "<p>För oändligt många lösningar måste den andra ekvationen vara exakt tre gånger den första.</p>"
   },
   {
     "id": "1.80",
@@ -2046,22 +2401,38 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>På en skolteater säljs 86 biljetter. En vuxenbiljett kostar 140 kr och en ungdomsbiljett 90 kr. Intäkten blir 9 390 kr.</p><p>Hur många biljetter av varje sort såldes?</p>",
-    "s": "<p>Låt \\(x\\) vara vuxenbiljetter och \\(y\\) ungdomsbiljetter.</p><p>\\[\\begin{cases}x+y=86\\140x+90y=9390\\end{cases}\\]</p><p>Multiplicera första ekvationen med 90: \\(90x+90y=7740\\).</p><p>Subtraktion ger \\(50x=1650\\Rightarrow x=33\\).</p><p>Då \\(y=86-33=53\\).</p><p><strong>33 vuxenbiljetter och 53 ungdomsbiljetter.</strong></p>",
+    "s": "<p>Låt \\(x\\) vara vuxenbiljetter och \\(y\\) ungdomsbiljetter.</p><p>\\[\\begin{cases}x+y=86\\\\140x+90y=9390\\end{cases}\\]</p><p>Multiplicera första ekvationen med 90: \\(90x+90y=7740\\).</p><p>Subtraktion ger \\(50x=1650\\Rightarrow x=33\\).</p><p>Då \\(y=86-33=53\\).</p><p><strong>33 vuxenbiljetter och 53 ungdomsbiljetter.</strong></p>",
     "familj": "ekvationssystem_tillampningar__ekonomiskt_textproblem",
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "33 vuxenbiljetter och 53 ungdomsbiljetter",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "33",
+      "53"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vad de obekanta ska stå för. Översätt sedan två oberoende uppgifter i texten till två ekvationer.</p>"
+    "ledtrad": "<p>Låt \\(x\\) vara antal vuxenbiljetter och \\(y\\) antal ungdomsbiljetter. Använd totalantalet och totalintäkten.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Vuxenbiljetter",
+      "Ungdomsbiljetter"
+    ],
+    "svarEnhet": [
+      "biljetter",
+      "biljetter"
+    ],
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ]
   },
   {
     "id": "1.81",
@@ -2085,37 +2456,75 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "oändligt många",
+      "ingen",
+      "en"
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "självrättning": true,
+    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och skärningar med \\(y\\)-axeln. Samma linje ger oändligt många lösningar, parallella olika linjer ingen, och skärande linjer en.</p>",
+    "svarFormat": [
+      "kort_text",
+      "kort_text",
+      "kort_text"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm antalet lösningar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur många lösningar har systemet \\(y=2x+3\\) och \\(2y=4x+6\\)? Svara <em>en</em>, <em>ingen</em> eller <em>oändligt många</em>.</p>",
+        "s": "<p>Den andra ekvationen förenklas till \\(y=2x+3\\), alltså samma linje.</p><p><strong>Oändligt många</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur många lösningar har systemet \\(y=-x+4\\) och \\(y=-x-1\\)? Svara <em>en</em>, <em>ingen</em> eller <em>oändligt många</em>.</p>",
+        "s": "<p>Linjerna har samma lutning men olika \\(m\\)-värden, alltså är de parallella.</p><p><strong>Ingen</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur många lösningar har systemet \\(x+y=5\\) och \\(2x-y=1\\)? Svara <em>en</em>, <em>ingen</em> eller <em>oändligt många</em>.</p>",
+        "s": "<p>Linjerna har olika riktningskoefficienter och skär därför varandra en gång.</p><p><strong>En</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.82",
     "kap": 1,
-    "omr": "speciella_ekvationssystem",
+    "omr": "bestamma_linjara_funktioner",
     "kurs": [
       "2a",
       "2b",
       "2c"
     ],
     "niva": "A",
-    "poang": "0/0/3",
-    "t": "<p>Antalet lösningar till ekvationssystemet beror på konstanten \\(a\\):</p><p>\\(\\begin{cases}(a+1)x+2y=4\\\\2x+(a+1)y=4\\end{cases}\\)</p><p>Bestäm för vilka värden på \\(a\\) systemet har</p><p>a) exakt en lösning,<br>b) oändligt många lösningar,<br>c) ingen lösning.</p><p>Motivera.</p>",
-    "s": "<p>Systemet kan bara få något annat än exakt en lösning när linjernas koefficienter är proportionella.</p><p>Då måste \\(\\frac{a+1}{2}=\\frac{2}{a+1}\\), alltså \\((a+1)^2=4\\).</p><p>Det ger \\(a=1\\) eller \\(a=-3\\).</p><p>Om \\(a=1\\) blir båda ekvationerna \\(2x+2y=4\\): oändligt många lösningar.</p><p>Om \\(a=-3\\) blir ekvationerna \\(-2x+2y=4\\) och \\(2x-2y=4\\). Multipliceras den första med −1 fås \\(2x-2y=-4\\), vilket motsäger den andra: ingen lösning.</p><p>För alla andra värden på \\(a\\) är linjerna inte parallella och skär därför varandra i exakt en punkt.</p><p><strong>a) \\(a\\ne1,-3\\), b) \\(a=1\\), c) \\(a=-3\\).</strong></p>",
-    "familj": "speciella_ekvationssystem__parameterfall",
+    "poang": "0/0/2",
+    "t": "<p>Linjerna</p><p>\\[y=x+a\\qquad\\text{och}\\qquad y=-x+6\\]</p><p>skär varandra i punkten \\(P\\) i första kvadranten. Rektangeln med motsatta hörn i origo och \\(P\\), och sidor parallella med koordinataxlarna, har arean 8 areaenheter.</p><p>Bestäm alla möjliga värden på \\(a\\).</p>",
+    "s": "<p>I skärningspunkten gäller \\(x+a=-x+6\\), så</p><p>\\[x=\\frac{6-a}{2},\\qquad y=\\frac{6+a}{2}.\\]</p><p>Rektangelns area är \\(xy\\). Villkoret ger</p><p>\\[\\frac{(6-a)(6+a)}{4}=8.\\]</p><p>Alltså \\(36-a^2=32\\), så \\(a^2=4\\).</p><p>Båda värdena ger en skärningspunkt i första kvadranten.</p><p><strong>\\(a=-2\\) eller \\(a=2\\).</strong></p>",
+    "familj": "bestamma_linjara_funktioner__fran_villkor",
     "formaga": [
       "procedur",
-      "begrepp",
       "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-2",
+      "2"
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Ett 2×2-system har exakt en lösning när linjerna har olika riktningskoefficienter. Undersök separat när de blir parallella eller sammanfaller.</p>"
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först skärningspunktens koordinater uttryckta med \\(a\\). Rektangelns area är sedan \\(x_Py_P\\).</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.83",
@@ -2152,20 +2561,21 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Beräkna \\(1003\\cdot997\\) utan vanlig multiplikation. Visa hur du använder en algebraisk regel.</p>",
-    "s": "<p>Använd konjugatregeln \\((a+b)(a-b)=a^2-b^2\\).</p><p>\\(1003\\cdot997=(1000+3)(1000-3)=1000^2-3^2\\).</p><p><strong>999 991.</strong></p>",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(1003\\cdot997\\) med hjälp av konjugatregeln.</p><p>Endast svar krävs.</p>",
+    "s": "<p>Skriv talen som \\(1000+3\\) och \\(1000-3\\):</p><p>\\[(1000+3)(1000-3)=1000^2-3^2=1,000,000-9.\\]</p><p><strong>999 991</strong></p>",
     "familj": "konjugatregeln__numerisk_berakning",
     "formaga": [
       "procedur"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "999 991",
+    "svarstyp": "numeriskt",
+    "rättSvar": "999991",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Leta efter två uttryck som bara skiljer sig åt genom tecknet mellan termerna. Då kan konjugatregeln förenkla arbetet.</p>"
+    "ledtrad": "<p>Skriv 1003 och 997 som två tal lika långt från 1000 och använd \\((a+b)(a-b)=a^2-b^2\\).</p>",
+    "svarFormat": "heltal"
   },
   {
     "id": "1.85",
@@ -2262,13 +2672,25 @@ window.BANKMA2 = [
       "procedur",
       "modellering"
     ],
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "7 smörgåsar och 7 sallader",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7",
+      "7"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vad de obekanta ska stå för. Översätt sedan två oberoende uppgifter i texten till två ekvationer.</p>"
+    "ledtrad": "<p>Låt \\(x\\) och \\(y\\) vara antalen. Skriv en ekvation för antalet varor och en för den totala kostnaden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Smörgåsar",
+      "Sallader"
+    ],
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ]
   },
   {
     "id": "1.89",
@@ -2295,7 +2717,8 @@ window.BANKMA2 = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>För oändligt många lösningar måste de två ekvationerna beskriva samma linje. Jämför både lutning och konstantterm.</p>"
+    "ledtrad": "<p>För oändligt många lösningar måste de två ekvationerna beskriva samma linje. Jämför både lutning och konstantterm.</p>",
+    "spel": false
   },
   {
     "id": "1.90",
@@ -2345,11 +2768,25 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": "Systemet har ingen lösning",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>",
+    "alternativ": [
+      {
+        "txt": "En lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Ingen lösning",
+        "ratt": true
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "1.92",
@@ -2371,10 +2808,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(4,3)\\)",
+    "rättSvar": "(4,3)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>En lösning måste uppfylla båda ekvationerna samtidigt. Välj en metod som gör att en obekant kan elimineras.</p>"
+    "ledtrad": "<p>En lösning måste uppfylla båda ekvationerna samtidigt. Välj en metod som gör att en obekant kan elimineras.</p>",
+    "svarFormat": "punkt"
   },
   {
     "id": "1.93",
@@ -2386,7 +2824,7 @@ window.BANKMA2 = [
       "2c"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/1/0",
     "t": "<p>Bestäm konstanten \\(a\\) så att systemet saknar lösning.</p><p>\\[\\begin{cases}y=ax+2\\\\3y=6x-5\\end{cases}\\]</p>",
     "s": "<p>Skriv den andra ekvationen som \\(y=2x-\\frac53\\).</p><p>För att linjerna ska vara parallella måste de ha samma riktningskoefficient. Då krävs \\(a=2\\).</p><p>Skärningarna med \\(y\\)-axeln är då 2 respektive \\(-\\frac53\\), så linjerna är olika och skär inte varandra.</p><p><strong>\\(a=2\\)</strong></p>",
     "familj": "speciella_ekvationssystem__parameterfall",
@@ -2401,7 +2839,7 @@ window.BANKMA2 = [
     "rättSvar": "\\(a=2\\)",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "ledtrad": "<p>Skriv om den andra ekvationen till \\(y=2x-5/3\\). För att systemet ska sakna lösning måste den första linjen ha samma lutning men ett annat \\(m\\)-värde.</p>"
   },
   {
     "id": "1.94",
@@ -2412,8 +2850,8 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "ekvationssystem_tillampningar__ekonomiskt_textproblem",
     "formaga": [
       "procedur",
@@ -2421,13 +2859,25 @@ window.BANKMA2 = [
     ],
     "t": "<p>Ett kafé säljer 52 drycker under en rast. Kaffe kostar 28 kr och te kostar 22 kr. Intäkten blir 1 300 kr.</p><p>Bestäm hur många kaffe och hur många te som säljs.</p>",
     "s": "<p>Låt \\(k\\) vara antal kaffe och \\(t\\) antal te.</p><p>\\[\\begin{cases}k+t=52\\\\28k+22t=1300\\end{cases}\\]</p><p>Multiplicera den första ekvationen med 22: \\(22k+22t=1144\\).</p><p>Subtraktion ger \\(6k=156\\), alltså \\(k=26\\). Då är \\(t=26\\).</p><p><strong>26 kaffe och 26 te.</strong></p>",
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "26 kaffe och 26 te",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "26",
+      "26"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Bestäm först vad de obekanta ska stå för. Översätt sedan två oberoende uppgifter i texten till två ekvationer.</p>"
+    "ledtrad": "<p>Låt \\(k\\) och \\(t\\) vara antalen kaffe och te. Använd \\(k+t=52\\) tillsammans med intäktsekvationen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Kaffe",
+      "Te"
+    ],
+    "svarFormat": [
+      "heltal",
+      "heltal"
+    ]
   },
   {
     "id": "1.95",
@@ -2440,19 +2890,28 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>För vilket värde på \\(a\\) kan uttrycket \\(x^2+ax+49\\) skrivas som \\((x+7)^2\\)?</p>",
-    "s": "<p>Utveckla \\((x+7)^2\\):</p><p>\\((x+7)^2=x^2+14x+49\\).</p><p>Jämför med \\(x^2+ax+49\\).</p><p><strong>\\(a=14\\).</strong></p>",
-    "familj": "kvadreringsreglerna__utveckla_med_kvadreringsregel",
+    "t": "<p>För vilka värden på \\(a\\) kan uttrycket</p><p>\\[x^2+ax+16\\]</p><p>skrivas som kvadraten av ett binom \\((x+b)^2\\), där \\(b\\) är ett reellt tal?</p>",
+    "s": "<p>Om \\(x^2+ax+16=(x+b)^2\\), så</p><p>\\[(x+b)^2=x^2+2bx+b^2.\\]</p><p>Konstanttermen ger \\(b^2=16\\), alltså \\(b=4\\) eller \\(b=-4\\).</p><p>Därför är \\(a=2b\\), vilket ger</p><p><strong>\\(a=8\\) eller \\(a=-8\\).</strong></p>",
+    "familj": "kvadreringsreglerna__parameter_och_villkor",
     "formaga": [
-      "procedur"
+      "procedur",
+      "resonemang"
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(a=14\\)",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-8",
+      "8"
+    ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför uttrycket med någon av kvadreringsreglerna. Var särskilt uppmärksam på mittentermen.</p>"
+    "ledtrad": "<p>Jämför med \\((x+b)^2=x^2+2bx+b^2\\). Konstanttermen bestämmer först de möjliga värdena på \\(b\\).</p>",
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.96",
@@ -2500,11 +2959,25 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": "Systemet har oändligt många lösningar",
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>"
+    "ledtrad": "<p>Jämför linjernas riktningskoefficienter och konstanttermer. Parallella olika linjer skär inte varandra; samma linje ger oändligt många lösningar.</p>",
+    "alternativ": [
+      {
+        "txt": "En lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Ingen lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "1.102",
@@ -2553,10 +3026,41 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
+    "rättSvar": [
+      "-0,5",
+      "3",
+      "\\(y=-0,5x+3\\)"
+    ],
     "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>"
+    "självrättning": true,
+    "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Grafen visar linjen \\(L\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"83.80\" y1=\"330.00\" x2=\"83.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"119.60\" y1=\"330.00\" x2=\"119.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"155.40\" y1=\"330.00\" x2=\"155.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"227.00\" y1=\"330.00\" x2=\"227.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"262.80\" y1=\"330.00\" x2=\"262.80\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"298.60\" y1=\"330.00\" x2=\"298.60\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"334.40\" y1=\"330.00\" x2=\"334.40\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"370.20\" y1=\"330.00\" x2=\"370.20\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"304.17\" x2=\"406.00\" y2=\"304.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"278.33\" x2=\"406.00\" y2=\"278.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"252.50\" x2=\"406.00\" y2=\"252.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"226.67\" x2=\"406.00\" y2=\"226.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"149.17\" x2=\"406.00\" y2=\"149.17\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"123.33\" x2=\"406.00\" y2=\"123.33\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"97.50\" x2=\"406.00\" y2=\"97.50\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"71.67\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"45.83\" x2=\"406.00\" y2=\"45.83\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"200.83\" x2=\"406.00\" y2=\"200.83\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"83.80\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"119.60\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"155.40\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"227.00\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"262.80\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"298.60\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"334.40\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"370.20\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"406.00\" y=\"217.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><line x1=\"191.20\" y1=\"330.00\" x2=\"191.20\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"183.20\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-5</text><text x=\"183.20\" y=\"307.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"183.20\" y=\"281.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"183.20\" y=\"255.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"183.20\" y=\"229.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"183.20\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"183.20\" y=\"152.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"183.20\" y=\"126.33\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"183.20\" y=\"100.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"183.20\" y=\"74.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"183.20\" y=\"48.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"183.20\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><line x1=\"48.00\" y1=\"71.67\" x2=\"406.00\" y2=\"200.83\" stroke=\"#B43123\" stroke-width=\"2.7\"/><text x=\"363.04\" y=\"182.75\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">L</text></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm \\(k\\).</p>",
+        "s": "<p>Linjen går genom \\((0,3)\\) och \\((6,0)\\): \\(k=(0-3)/(6-0)=-0,5\\).</p><p><strong>\\(k=-0,5\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(m\\).</p>",
+        "s": "<p>Linjen skär \\(y\\)-axeln vid 3.</p><p><strong>\\(m=3\\)</strong></p>",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Skriv linjens ekvation.</p>",
+        "s": "<p>Med \\(k=-0,5\\) och \\(m=3\\) blir</p><p><strong>\\(y=-0,5x+3\\)</strong></p>",
+        "poang": "1/0/0"
+      }
+    ]
   },
   {
     "id": "1.104",
@@ -2580,12 +3084,32 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "Värdet −4 är fel",
-      "det ska vara −5. Formeln är \\(y=-2x+3\\)"
+      "-5",
+      "\\(y=-2x+3\\)"
     ],
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>För en linjär funktion är förändringen i y proportionell mot förändringen i x. Använd det för att hitta riktningskoefficienten.</p>"
+    "ledtrad": "<p>Jämför förändringen mellan de tre första kolumnerna. Den visar \\(k=-2\\) och \\(m=3\\). Använd sedan samma formel vid \\(x=4\\).</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen ska beskriva en linjär funktion, men ett värde är fel.</p><table><tr><th>\\(x\\)</th><td>−2</td><td>0</td><td>2</td><td>4</td></tr><tr><th>\\(y\\)</th><td>7</td><td>3</td><td>−1</td><td>−4</td></tr></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Tabellen innehåller ett fel. Vilket \\(y\\)-värde ska stå vid \\(x=4\\)?</p>",
+        "s": "<p>De tre första kolumnerna följer \\(y=-2x+3\\). Vid \\(x=4\\) ska därför \\(y=-8+3=-5\\).</p><p><strong>\\(-5\\)</strong></p>",
+        "poang": "0/1/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den linjära funktionens formel.</p>",
+        "s": "<p>Förändringen är \\(-4\\) när \\(x\\) ökar med 2, alltså \\(k=-2\\). Tabellen visar \\(m=3\\).</p><p><strong>\\(y=-2x+3\\)</strong></p>",
+        "poang": "0/1/0"
+      }
+    ]
   },
   {
     "id": "1.105",

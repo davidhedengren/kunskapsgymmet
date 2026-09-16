@@ -646,6 +646,10 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 }
 .gate-form .namnfalt{font-weight:500;letter-spacing:0}
 .gate-rubrik{margin:0 0 16px;font-size:15px;font-weight:700;letter-spacing:-.02em;color:var(--ink)}
+.gate-under{
+  margin:-4px 0 14px;font-family:var(--read);font-size:13.5px;line-height:1.55;
+  color:var(--ink3);letter-spacing:0;
+}
 .gate-besked{
   margin:13px 0 0;font-size:12.5px;line-height:1.5;color:var(--bad);
   font-family:var(--read);letter-spacing:0;
@@ -4042,7 +4046,8 @@ async function gateSkapaKonto(){
   await gateKor("gate-knapp",async()=>{
     const inne=await skapaKonto(e,l);
     if(inne) location.reload();
-    else gateBesked("Nästan klart. Vi har skickat ett mejl till "+e+" — klicka på länken där för att öppna kontot.",true);
+    else gateBesked("Nästan klart. Vi har skickat ett mejl till "+e
+      +" — klicka på länken där så öppnas kontot och du loggas in. Hittar du inget, titta i skräpposten.",true);
   });
 }
 async function gateGlomt(){
@@ -4050,7 +4055,8 @@ async function gateGlomt(){
   if(!e) return gateBesked("Skriv din e‑postadress först.");
   await gateKor("gate-knapp",async()=>{
     await begarNyttLosenord(e);
-    gateBesked("Om det finns ett konto för "+e+" ligger nu ett mejl med en länk i inkorgen.",true);
+    gateBesked("Om det finns ett konto för "+e
+      +" ligger nu ett mejl med en länk i inkorgen. Kolla skräpposten om det dröjer.",true);
   });
 }
 async function gateNyttLosenord(){
@@ -4066,7 +4072,7 @@ async function gateNyttLosenord(){
 function gatePanel(){
   const eposttfalt=(auto)=>`<label>E‑postadress
     <input class="namnfalt" id="gate-epost" type="email" autocomplete="${auto}"
-      inputmode="email" placeholder="namn@skola.se" onkeydown="gateEnter(event,'${gateLage==='skapa'?'gateSkapaKonto':gateLage==='glomt'?'gateGlomt':'gateLoggaIn'}')">
+      inputmode="email" placeholder="din@epost.se" onkeydown="gateEnter(event,'${gateLage==='skapa'?'gateSkapaKonto':gateLage==='glomt'?'gateGlomt':'gateLoggaIn'}')">
   </label>`;
   const losenfalt=(auto,txt)=>`<label>${txt||"Lösenord"}
     <input class="namnfalt" id="gate-losen" type="password" autocomplete="${auto}"
@@ -4075,6 +4081,7 @@ function gatePanel(){
 
   if(gateLage==="nytt") return `
     <p class="gate-rubrik">Välj ett nytt lösenord</p>
+    <p class="gate-under">Du är inloggad via länken i mejlet. Välj ett lösenord så är du klar.</p>
     <div class="gate-form">
       ${losenfalt("new-password","Nytt lösenord (minst 8 tecken)")}
       <button class="btn primary wide" id="gate-knapp" onclick="gateNyttLosenord()">Spara lösenordet</button>
@@ -4083,6 +4090,7 @@ function gatePanel(){
 
   if(gateLage==="glomt") return `
     <p class="gate-rubrik">Glömt lösenordet?</p>
+    <p class="gate-under">Vi mejlar en länk. Klickar du på den kommer du tillbaka hit och får välja ett nytt lösenord. Träningen finns kvar oavsett.</p>
     <div class="gate-form">
       ${eposttfalt("email")}
       <button class="btn primary wide" id="gate-knapp" onclick="gateGlomt()">Skicka återställningslänk</button>
@@ -4096,6 +4104,9 @@ function gatePanel(){
     const skapa=gateLage==="skapa";
     return `
     <p class="gate-rubrik">${skapa?"Skapa ett konto":"Logga in med e‑post"}</p>
+    <p class="gate-under">${skapa
+      ? "Vilken e‑postadress som helst går bra — skolans eller din egen. Den används bara för att logga in och för att återställa lösenordet, och syns aldrig för andra."
+      : "Använd e‑postadressen du skapade kontot med."}</p>
     <div class="gate-form">
       ${eposttfalt(skapa?"email":"username")}
       ${losenfalt(skapa?"new-password":"current-password",skapa?"Lösenord (minst 8 tecken)":"Lösenord")}
@@ -9267,6 +9278,9 @@ window.addEventListener("load",async()=>{
   }
 
   if(inloggningsTyp==="recovery"){ gateLage="nytt"; renderGate(); navRecord("home",true); return; }
+  /* Tillbaka från bekräftelselänken: kontot är öppnat och sessionen ligger
+     redan i hashen, så det enda som fattas är ett besked om att det gick vägen. */
+  if(inloggningsTyp==="signup") setTimeout(()=>toast("Kontot är klart. Träningen följer med mellan dina enheter nu."),700);
   if(visaGate()){ renderGate(); navRecord("home",true); return; }
   if(MOLN_PA() && session) await synkaProfil();
 

@@ -4074,12 +4074,12 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Lika vid 12 filmer; därefter är B billigare",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "ledtrad": "<p>Sätt de två kostnadsuttrycken lika. Efter skärningspunkten är modellen med minst kostnadsökning per film billigast.</p>",
-    "spel": true,
+    "spel": false,
     "traningsniva": 3,
     "arbetsinsats": 1
   },
@@ -4133,14 +4133,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Systemet saknar lösning",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Jämför riktningskoefficienterna och skärningarna med y-axeln.</p>",
     "spel": true,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [
+      {
+        "txt": "Ingen lösning",
+        "ratt": true
+      },
+      {
+        "txt": "Exakt en lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "1.131",
@@ -5408,12 +5422,12 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Systemet saknar lösning",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "ledtrad": "<p>Sätt uttrycket för \\(y\\) i den andra ekvationen och se om du får en sann likhet, en motsägelse eller ett bestämt x-värde.</p>",
-    "spel": true,
+    "spel": false,
     "traningsniva": 4,
     "arbetsinsats": 2
   },
@@ -7999,11 +8013,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(3,3)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      3
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.282",
@@ -8024,11 +8059,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(2,5)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.283",
@@ -8049,11 +8105,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(4,2)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      2
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.284",
@@ -8074,11 +8151,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(3,5)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Försök få bort en av variablerna genom addition/subtraktion eller lös ut en variabel och sätt in.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.285",
@@ -8100,11 +8198,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "text",
-    "rättSvar": "oändligt många lösningar",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>"
+    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ingen lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": true
+      },
+      {
+        "txt": "Exakt en lösning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "1.286",
@@ -8126,11 +8241,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "text",
-    "rättSvar": "ingen lösning",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>"
+    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ingen lösning",
+        "ratt": true
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": false
+      },
+      {
+        "txt": "Exakt en lösning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "1.287",
@@ -8152,11 +8284,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "text",
-    "rättSvar": "ingen lösning",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>"
+    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ingen lösning",
+        "ratt": true
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": false
+      },
+      {
+        "txt": "Exakt en lösning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "1.288",
@@ -8178,11 +8327,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "text",
-    "rättSvar": "oändligt många lösningar",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>"
+    "ledtrad": "<p>Jämför linjernas lutning och skärning med y-axeln. Samma linje ger oändligt många lösningar; parallella olika linjer ger ingen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "Ingen lösning",
+        "ratt": false
+      },
+      {
+        "txt": "Oändligt många lösningar",
+        "ratt": true
+      },
+      {
+        "txt": "Exakt en lösning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "1.289",
@@ -8201,11 +8367,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(3,2,1)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2,
+      1
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.290",
@@ -8224,11 +8416,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(2,4,3)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4,
+      3
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.291",
@@ -8247,11 +8465,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(5,1,2)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      1,
+      2
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.292",
@@ -8270,11 +8514,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(1,3,4)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      3,
+      4
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.293",
@@ -8293,11 +8563,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(4,2,3)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      2,
+      3
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.294",
@@ -8316,11 +8612,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(2,3,5)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      3,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.295",
@@ -8339,11 +8661,37 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(3,4,2)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      4,
+      2
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "ledtrad": "<p>Börja med att subtrahera den andra ekvationen från den första. Då får du en variabel direkt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y",
+      "z"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.296",
@@ -8370,9 +8718,27 @@ window.BANKMA2 = [
       5,
       13
     ],
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>"
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.297",
@@ -8399,9 +8765,27 @@ window.BANKMA2 = [
       12,
       12
     ],
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>"
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.298",
@@ -8428,9 +8812,27 @@ window.BANKMA2 = [
       15,
       15
     ],
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>"
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.299",
@@ -8457,9 +8859,27 @@ window.BANKMA2 = [
       10,
       6
     ],
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>"
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.300",
@@ -8486,9 +8906,27 @@ window.BANKMA2 = [
       15,
       10
     ],
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>"
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.301",
@@ -8515,9 +8953,27 @@ window.BANKMA2 = [
       12,
       8
     ],
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>"
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.302",
@@ -8544,9 +9000,27 @@ window.BANKMA2 = [
       15,
       7
     ],
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>"
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Låt två variabler beteckna antalen. Skriv först en ekvation för det totala antalet och sedan en för det totala priset eller antalet hjul.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.303",
@@ -8568,11 +9042,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(2,3)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Leta efter punkten där linjerna korsar varandra. Läs av både x- och y-koordinaten.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      3
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Leta efter punkten där linjerna korsar varandra. Läs av både x- och y-koordinaten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.304",
@@ -8594,11 +9089,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(2,3)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Leta efter punkten där linjerna korsar varandra. Läs av både x- och y-koordinaten.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      3
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Leta efter punkten där linjerna korsar varandra. Läs av både x- och y-koordinaten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "1.305",
@@ -8620,11 +9136,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(2,2)",
-    "tolerans": null,
-    "självrättning": true,
-    "ledtrad": "<p>Leta efter punkten där linjerna korsar varandra. Läs av både x- och y-koordinaten.</p>"
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Leta efter punkten där linjerna korsar varandra. Läs av både x- och y-koordinaten.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.01",
@@ -10866,14 +11403,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "En exponentialmodell är mest naturlig",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Undersök kvoten mellan två på varandra följande y-värden.</p>",
     "spel": true,
     "traningsniva": 3,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "alternativ": [
+      {
+        "txt": "Linjär modell",
+        "ratt": false
+      },
+      {
+        "txt": "Exponentialmodell",
+        "ratt": true
+      },
+      {
+        "txt": "Andragradsmodell",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "2.59",
@@ -11170,14 +11721,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "2",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
     "självrättning": true,
     "ledtrad": "<p>Samla logaritmerna stegvis. \\(2\\lg a=\\lg(a^2)\\), och en differens av logaritmer kan skrivas som logaritmen av en kvot.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.68",
@@ -11370,14 +11922,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Rektangelns sidor är 5 cm och 12 cm",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Om ena sidan är \\(x\\) cm blir den andra \\(17-x\\) cm eftersom halva omkretsen är 17 cm. Använd arean 60 cm².</p>",
     "spel": true,
     "traningsniva": 3,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Kort sida",
+      "Lång sida"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.74",
@@ -11782,14 +12356,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Minsta värdet är −25",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": -25,
+    "tolerans": 1e-09,
     "självrättning": true,
     "ledtrad": "<p>Skriv funktionen i faktorform med nollställena. Punkten \\((0,-16)\\) bestämmer faktorn \\(a\\), och symmetrilinjen ligger mitt emellan nollställena.</p>",
     "spel": true,
     "traningsniva": 3,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.86",
@@ -12121,14 +12696,15 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Efter 9 timmar",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Lös först när modellen är exakt 100. Eftersom frågan gäller den första hela timmen måste du sedan kontrollera heltalen på var sin sida om lösningen.</p>",
     "spel": true,
     "traningsniva": 3,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.96",
@@ -12297,8 +12873,8 @@ window.BANKMA2 = [
     "s": "<p>Med ett digitalt verktyg fås ungefär en linjär regressionsmodell \\(y=4{,}07x-1{,}49\\) och en exponentialmodell \\(y=2{,}7\\cdot1{,}50^x\\).</p><p>Mätvärdena ökar med allt större skillnader men ungefär samma faktor. Exponentialmodellen följer därför punkterna bättre.</p><p><strong>Exponentialmodellen passar de givna mätvärdena bäst.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Exponentialmodellen passar de givna mätvärdena bäst",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Bestäm båda regressionerna med samma datapunkter. Jämför sedan hur väl modellerna följer punkterna; en modelltyp bör inte väljas enbart utifrån namnet.</p>",
@@ -12746,14 +13322,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Sidorna är 5 cm och 12 cm",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      12
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Om ena sidan är \\(x\\) är den andra \\(17-x\\). Diagonalen 13 cm ger en ekvation via Pythagoras sats.</p>",
     "spel": true,
     "traningsniva": 4,
-    "arbetsinsats": 2
+    "arbetsinsats": 2,
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Kort sida",
+      "Lång sida"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.114",
@@ -12955,14 +13553,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Efter 1 s och 5 s",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt höjdmodellen lika med 35, förenkla till en andragradsekvation och tolka båda positiva tidslösningarna.</p>",
     "spel": true,
     "traningsniva": 3,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Tid 1",
+      "Tid 2"
+    ],
+    "svarEnhet": [
+      "s",
+      "s"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "2.121",
@@ -15236,14 +15856,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "f(-2)>f(2)",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Beräkna båda funktionsvärdena var för sig innan du jämför dem.</p>",
     "spel": true,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [
+      {
+        "txt": "\\(f(-2)>f(2)\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(f(-2)=f(2)\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(f(-2)<f(2)\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "2.178",
@@ -17157,40 +17791,12 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": [
-      "A",
-      "B"
-    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": [
-      true,
-      true
-    ],
+    "självrättning": false,
     "ledtrad": "<p>I en potensekvation är variabeln i basen. I en exponentialekvation är variabeln i exponenten.</p>",
-    "spel": true,
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>A: \\(x^4=80\\)<br>B: \\(4^x=80\\)</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>Vilken av A och B är en potensekvation?</p>",
-        "s": "<p><strong>A</strong></p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>Vilken av A och B är en exponentialekvation?</p>",
-        "s": "<p><strong>B</strong></p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      }
-    ],
+    "spel": false,
     "traningsniva": [
       1,
       1
@@ -18111,8 +18717,8 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "På längre sikt kan den exponentiella modellen växa snabbare trots att den först ligger lägre",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Jämför vad som är konstant när x ökar ett steg: den linjära modellens differens respektive den exponentiella modellens kvot.</p>",
@@ -36029,14 +36635,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Ett bevis måste visa varför något alltid gäller, inte bara kontrollera exempel.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "A",
+        "ratt": false
+      },
+      {
+        "txt": "B",
+        "ratt": false
+      },
+      {
+        "txt": "C",
+        "ratt": true
+      },
+      {
+        "txt": "D",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.118",
@@ -53496,8 +54120,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>I en övning följs batterinivån i ett mobilt trygghetslarm. Modellen är</p><p>\\[B(t)=96\\cdot0,84^t,\\]</p><p>där \\(B\\) anges i procent och \\(t\\) i timmar. I övningen används 30 % som en intern planeringsgräns för omladdning.</p><p>a) Bestäm med GeoGebra när modellen når 30 %.</p><p>b) Efter 6 timmar visar en faktisk mätning 39 %. Jämför mätningen med modellens värde.</p><p>c) Resonera om varför den nya mätningen är viktig när fortsatt användning ska planeras, även om modellen tidigare har passat bra.</p>",
     "s": "<p>a) Lös \\(96\\cdot0,84^t=30\\) med GeoGebra. Det ger \\(t\\approx6,67\\) timmar.</p><p>b) Modellen ger \\(B(6)=96\\cdot0,84^6\\approx33,7\\%\\). Mätningen 39 % är alltså cirka 5,3 procentenheter högre.</p><p>c) Modellen är en förenkling. Belastning, batteriets skick och andra förhållanden kan ändras. En aktuell mätning ger information om att just detta förlopp avviker från modellen.</p><p><strong>Modellen når 30 % efter cirka 6,7 timmar och underskattar den uppmätta nivån efter 6 timmar med cirka 5,3 procentenheter.</strong></p>",
     "familj": "vard_omsorgsprogrammet__exponential_och_procentmodell",
@@ -53509,10 +54133,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Sätt modellvärdet lika med 30 och lös exponentialekvationen. Jämför sedan mätvärdet 39 med modellens värde vid t=6.</p>"
   },
   {
     "id": "5.55",
@@ -53532,10 +54160,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(P=(5,4)\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      4
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv punkten som P=(x,4). Jämför de kvadrerade avstånden PA² och PB².</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.56",
@@ -53544,8 +54194,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Inför en utbildningsdag delas 20 medarbetare i två team A och B. I en samarbetsövning ska varje person i A kunna bilda ett par med varje person i B. Det ger 96 möjliga par.</p><p>a) Bestäm hur många personer som finns i de två teamen.</p><p>b) Team A ska vara det större teamet. Hur många personer finns då i A?</p><p>c) Visa med en andragradsfunktion att antalet möjliga par aldrig kan bli större än 100 när totalt 20 personer delas i två team.</p>",
     "s": "<p>a) Låt A ha \\(x\\) personer. Då har B \\(20-x\\).</p><p>Antalet par blir \\(x(20-x)=96\\).</p><p>\\(-x^2+20x-96=0\\), eller \\(x^2-20x+96=0\\).</p><p>\\((x-8)(x-12)=0\\), så teamstorlekarna är 8 och 12.</p><p>b) Det större teamet A har 12 personer.</p><p>c) Funktionen \\(P(x)=-x^2+20x\\) har symmetrilinjen \\(x=10\\). Där är \\(P(10)=100\\). Eftersom parabeln är nedåtvänd är detta det största värdet.</p><p><strong>Teamstorlekarna är 12 och 8; som mest kan 100 sådana par bildas.</strong></p>",
     "familj": "vard_omsorgsprogrammet__andragradsmodell_och_optimering",
@@ -53557,9 +54207,70 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      8,
+      12,
+      100
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Om A har x personer har B 20−x. Antalet möjliga par blir x(20−x).</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Mindre team",
+      "Större team",
+      "Max antal par"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>20 medarbetare delas i två team. Antalet möjliga par mellan teamen är 96.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm storleken på det mindre teamet.</p>",
+        "s": "<p>Om teamen har \\(x\\) och \\(20-x\\) personer gäller \\(x(20-x)=96\\), vilket ger \\(x=8\\) eller 12. Det mindre teamet har <strong>8 personer</strong>.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Om A har x personer har B 20−x. Antalet möjliga par blir x(20−x).</p>"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm storleken på det större teamet.</p>",
+        "s": "<p>Lösningarna till \\(x(20-x)=96\\) är 8 och 12. Det större teamet har <strong>12 personer</strong>.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Om A har x personer har B 20−x. Antalet möjliga par blir x(20−x).</p>"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur många par kan som mest bildas när 20 personer delas i två team?</p>",
+        "s": "<p>Funktionen \\(P(x)=x(20-x)\\) har sitt maximum vid \\(x=10\\). Då är \\(P(10)=100\\). <strong>Max 100 par.</strong></p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Om A har x personer har B 20−x. Antalet möjliga par blir x(20−x).</p>"
+      }
+    ]
   },
   {
     "id": "5.57",
@@ -53568,8 +54279,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Ett hemtjänstområde har 30 planerade besök. Ett kort besök planeras till 20 minuter och ett långt till 50 minuter. Den sammanlagda besökstiden är 990 minuter.</p><p>a) Bestäm antal korta och långa besök.</p><p>b) Lägg till 6 minuter dokumentation per besök. Hur stor blir den totala planerade tiden?</p>",
     "s": "<p>a) Låt \\(x\\) vara korta besök och \\(y\\) långa.</p><p>\\[\\begin{cases}x+y=30\\\\20x+50y=990\\end{cases}\\]</p><p>Sätt \\(x=30-y\\): \\(20(30-y)+50y=990\\).</p><p>\\(600+30y=990\\), så \\(y=13\\) och \\(x=17\\).</p><p>b) Dokumentationen tar \\(30\\cdot6=180\\) minuter. Totalt \\(990+180=1170\\) minuter.</p><p><strong>17 korta och 13 långa besök; totalt 1 170 minuter.</strong></p>",
     "familj": "vard_omsorgsprogrammet__ekvationssystem_och_fordelning",
@@ -53581,11 +54292,74 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "17 korta och 13 långa besök",
-      "totalt 1 170 minuter"
+      17,
+      13,
+      1170
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt x vara antalet korta besök och y antalet långa. Använd både antalet besök och den totala tiden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Korta besök",
+      "Långa besök",
+      "Total tid inkl. dokumentation"
+    ],
+    "svarEnhet": [
+      "besök",
+      "besök",
+      "min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>30 besök: korta 20 min, långa 50 min. Total besökstid 990 min. Lägg därefter till 6 min dokumentation per besök.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur många korta besök är planerade?</p>",
+        "s": "<p>Med \\(x+y=30\\) och \\(20x+50y=990\\) fås \\(x=17\\). <strong>17 korta besök.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Låt x vara antalet korta besök och y antalet långa. Använd både antalet besök och den totala tiden.</p>"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur många långa besök är planerade?</p>",
+        "s": "<p>Samma ekvationssystem ger \\(y=13\\). <strong>13 långa besök.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Låt x vara antalet korta besök och y antalet långa. Använd både antalet besök och den totala tiden.</p>"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Hur stor blir totaltiden när 6 min dokumentation läggs till för vart och ett av de 30 besöken?</p>",
+        "s": "<p>Dokumentationen tar \\(30\\cdot6=180\\) min. \\(990+180=1170\\). <strong>1170 min.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Låt x vara antalet korta besök och y antalet långa. Använd både antalet besök och den totala tiden.</p>"
+      }
+    ]
   },
   {
     "id": "5.58",
@@ -53607,9 +54381,59 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      50,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Sätt in d=3 i modellen. I den andra delen sätter du S(d)=18 och löser för det positiva avståndet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "S(3)",
+      "Avstånd"
+    ],
+    "svarEnhet": [
+      null,
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Signalstyrkan modelleras av \\(S(d)=450/d^2\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm signalstyrkan vid 3 m.</p>",
+        "s": "<p>\\(S(3)=450/9=50\\). <strong>50.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Sätt in d=3 i modellen. I den andra delen sätter du S(d)=18 och löser för det positiva avståndet.</p>"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm det positiva avstånd där signalstyrkan är 18.</p>",
+        "s": "<p>\\(450/d^2=18\\Rightarrow d^2=25\\). Det positiva avståndet är <strong>5 m</strong>.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Sätt in d=3 i modellen. I den andra delen sätter du S(d)=18 och löser för det positiva avståndet.</p>"
+      }
+    ]
   },
   {
     "id": "5.59",
@@ -53618,8 +54442,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Två förenklade modeller beskriver hur många digitala serviceärenden en verksamhet kan hantera efter \\(t\\) månader:</p><p>\\[L(t)=120+9t,\\qquad E(t)=120\\cdot1,05^t.\\]</p><p>a) Bestäm med GeoGebra den första positiva tidpunkt då exponentialmodellen är 20 ärenden större än den linjära modellen.</p><p>b) Beräkna båda modellvärdena efter 12 månader.</p><p>c) Förklara varför beräkningarna inte avgör vilken modell som bäst beskriver verksamheten på lång sikt.</p>",
     "s": "<p>a) Lös \\(120\\cdot1,05^t=120+9t+20\\) med GeoGebra. Den första positiva lösningen är \\(t\\approx20,24\\).</p><p>b) \\(L(12)=120+9\\cdot12=228\\). \\(E(12)=120\\cdot1,05^{12}\\approx215,5\\).</p><p>Efter 12 månader ligger alltså den linjära modellen fortfarande högre.</p><p>c) Båda modellerna bygger på antaganden. Bemanning, arbetssätt och efterfrågan kan förändras, så en matematisk jämförelse långt fram säger inte vilken modell som stämmer bäst med verkliga data.</p><p><strong>Exponentialmodellen blir 20 ärenden större efter cirka 20,2 månader. Efter 12 månader ger modellerna cirka 228 respektive 216 ärenden.</strong></p>",
     "familj": "vard_omsorgsprogrammet__exponential_och_procentmodell",
@@ -53631,10 +54455,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Första delen kan skrivas E(t)=L(t)+20. I jämförelsen vid 12 månader ska båda modellerna beräknas med samma t.</p>"
   },
   {
     "id": "5.60",
@@ -53656,9 +54484,75 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      -2,
+      720,
+      4
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Dividera ekvationerna S(6)=20 och S(2)=180 för att eliminera C.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Exponent a",
+      "Konstant C",
+      "Avstånd"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Potensmodellen är \\(S(d)=C\\cdot d^a\\), med \\(S(2)=180\\) och \\(S(6)=20\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm exponenten \\(a\\).</p>",
+        "s": "<p>Dividera mätningarna: \\(20/180=(6/2)^a\\). Då \\(1/9=3^a\\), alltså <strong>\\(a=-2\\)</strong>.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Dividera ekvationerna S(6)=20 och S(2)=180 för att eliminera C.</p>"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm konstanten \\(C\\).</p>",
+        "s": "<p>Med \\(a=-2\\): \\(180=C\\cdot2^{-2}=C/4\\), alltså <strong>\\(C=720\\)</strong>.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Dividera ekvationerna S(6)=20 och S(2)=180 för att eliminera C.</p>"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Vid vilket avstånd ger modellen signalstyrkan 45?</p>",
+        "s": "<p>\\(720/d^2=45\\Rightarrow d^2=16\\). <strong>\\(d=4\\) m.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Dividera ekvationerna S(6)=20 och S(2)=180 för att eliminera C.</p>"
+      }
+    ]
   },
   {
     "id": "5.61",
@@ -53668,7 +54562,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "C",
-    "poang": "0/2/0",
+    "poang": "0/3/0",
     "t": "<p>Två modeller används i en marknadsanalys:</p><p>\\[P(t)=200t^2,\\qquad E(t)=800\\cdot1,25^t.\\]</p><p>Modellvärdet ska nå 5 000.</p><p>a) Bestäm när potensmodellen \\(P\\) når 5 000.</p><p>b) Bestäm när exponentialmodellen \\(E\\) når 5 000. Lös med logaritmer.</p><p>c) Förklara varför de två ekvationerna kräver olika lösningsmetoder.</p>",
     "s": "<p>a) \\(200t^2=5000\\Rightarrow t^2=25\\). I sammanhanget är \\(t=5\\).</p><p>b) \\(800\\cdot1,25^t=5000\\Rightarrow1,25^t=6,25\\).</p><p>\\(t=\\frac{\\lg6,25}{\\lg1,25}\\approx8,21\\).</p><p>c) I potensekvationen är den okända storheten basen som upphöjs till 2. I exponentialekvationen finns den okända storheten i exponenten, vilket gör logaritmer användbara.</p><p><strong>Potensmodellen når 5 000 vid \\(t=5\\) och exponentialmodellen vid \\(t\\approx8,2\\).</strong></p>",
     "familj": "ekonomiprogrammet__exponential_och_procentmodell",
@@ -53680,10 +54574,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>I potensmodellen isolerar du t². I exponentialmodellen isolerar du potensen och tar logaritm.</p>"
   },
   {
     "id": "5.62",
@@ -53693,7 +54591,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "A",
-    "poang": "0/0/3",
+    "poang": "0/1/2",
     "t": "<p>Efterfrågan på en produkt modelleras med \\(q=a-20p\\), där \\(p\\) är priset i kronor och \\(a\\) är en konstant. Den rörliga kostnaden är 40 kr per enhet och de fasta kostnaderna är 12 000 kr.</p><p>Företaget vet att vinstfunktionen enligt modellen har sin maximipunkt när \\(p=70\\).</p><p>a) Bestäm konstanten \\(a\\).</p><p>b) Bestäm hur många enheter som då säljs enligt modellen och beräkna den största vinsten.</p><p>c) Bestäm det största pris som modellen över huvud taget tillåter om efterfrågan inte får vara negativ.</p>",
     "s": "<p>Vinsten är</p><p>\\[V(p)=(p-40)(a-20p)-12000.\\]</p><p>a) Maximipunkten ligger vid \\(p=70\\). På grund av symmetrin måste därför \\(V(69)=V(71)\\).</p><p>\\[29(a-1380)-12000=31(a-1420)-12000.\\]</p><p>Det ger \\(29a-40020=31a-44020\\), alltså \\(a=2000\\).</p><p>b) \\(q=2000-20\\cdot70=600\\). Vinsten blir \\((70-40)\\cdot600-12000=6000\\) kr.</p><p>c) Efterfrågan får inte vara negativ:</p><p>\\[2000-20p\\ge0\\Rightarrow p\\le100.\\]</p><p><strong>\\(a=2000\\), 600 enheter, största vinst 6 000 kr och modellens högsta möjliga pris 100 kr.</strong></p>",
     "familj": "ekonomiprogrammet__andragradsmodell_och_optimering",
@@ -53706,9 +54604,91 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "flera_delar",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "rättSvar": [
+      2000,
+      600,
+      6000,
+      100
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "ledtrad": "<p>Skriv först vinsten som (pris−rörlig kostnad)·efterfrågan−fast kostnad. Använd sedan att maximipunkten ligger vid p=70.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "Antal enheter",
+      "Maxvinst",
+      "Högsta pris"
+    ],
+    "svarEnhet": [
+      null,
+      "enheter",
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Efterfrågan är \\(q=a-20p\\). Rörlig kostnad 40 kr/enhet, fasta kostnader 12 000 kr. Vinstens maximipunkt ligger vid \\(p=70\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm konstanten \\(a\\).</p>",
+        "s": "<p>Vinsten är \\(V(p)=(p-40)(a-20p)-12000\\). Villkoret att maximipunkten ligger vid 70 ger <strong>\\(a=2000\\)</strong>.</p>",
+        "niva": "A",
+        "poang": "0/0/1",
+        "traningsniva": 5,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Skriv först vinsten som (pris−rörlig kostnad)·efterfrågan−fast kostnad. Använd sedan att maximipunkten ligger vid p=70.</p>"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur många enheter säljs enligt modellen vid \\(p=70\\)?</p>",
+        "s": "<p>\\(q=2000-20\\cdot70=600\\). <strong>600 enheter.</strong></p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Skriv först vinsten som (pris−rörlig kostnad)·efterfrågan−fast kostnad. Använd sedan att maximipunkten ligger vid p=70.</p>"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Beräkna den största vinsten.</p>",
+        "s": "<p>\\((70-40)\\cdot600-12000=6000\\). <strong>6000 kr.</strong></p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Skriv först vinsten som (pris−rörlig kostnad)·efterfrågan−fast kostnad. Använd sedan att maximipunkten ligger vid p=70.</p>"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Vilket är det högsta pris som modellen tillåter om efterfrågan inte får vara negativ?</p>",
+        "s": "<p>\\(2000-20p\\ge0\\Rightarrow p\\le100\\). <strong>100 kr.</strong></p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Skriv först vinsten som (pris−rörlig kostnad)·efterfrågan−fast kostnad. Använd sedan att maximipunkten ligger vid p=70.</p>"
+      }
+    ]
   },
   {
     "id": "5.63",
@@ -53718,7 +54698,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "t": "<p>Vinsten vid en produktion på \\(x\\) enheter modelleras med</p><p>\\[V(x)=-3x^2+240x-2700.\\]</p><p>Företaget producerar endast hela tiotal enheter och vill att vinsten ska vara minst 1 500 kr.</p><p>Bestäm alla möjliga produktionsnivåer.</p>",
     "s": "<p>Lös \\(V(x)\\ge1500\\):</p><p>\\(-3x^2+240x-4200\\ge0\\).</p><p>Dividera med \\(-3\\) och vänd olikheten:</p><p>\\(x^2-80x+1400\\le0\\).</p><p>Nollställena är \\(x=40\\pm10\\sqrt2\\), ungefär 25,9 och 54,1.</p><p>Alla hela tiotal i intervallet är 30, 40 och 50.</p><p><strong>30, 40 eller 50 enheter.</strong></p>",
     "familj": "ekonomiprogrammet__andragradsmodell_och_optimering",
@@ -53730,10 +54710,42 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "30, 40 eller 50 enheter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      40,
+      50
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Lös först olikheten V(x)≥1500. Kom ihåg att bara hela tiotal enheter är tillåtna.</p>",
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Produktionsnivå 1",
+      "Produktionsnivå 2",
+      "Produktionsnivå 3"
+    ],
+    "svarEnhet": [
+      "enheter",
+      "enheter",
+      "enheter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.64",
@@ -53743,7 +54755,7 @@ window.BANKMA2 = [
       "2a"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Två omsorgsenheter har samma medelväntetid. Standardavvikelsen är 3,2 minuter på enhet A och 8,7 minuter på enhet B.</p><p>Vilken enhet har störst spridning i väntetiderna?</p>",
     "s": "<p>Större standardavvikelse betyder större spridning kring medelvärdet.</p><p><strong>Enhet B har störst spridning eftersom \\(8,7&gt;3,2\\).</strong></p>",
     "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
@@ -53753,10 +54765,28 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Större standardavvikelse betyder större spridning kring medelvärdet.</p>",
+    "alternativ": [
+      {
+        "txt": "Enhet A",
+        "ratt": false
+      },
+      {
+        "txt": "Enhet B",
+        "ratt": true
+      },
+      {
+        "txt": "Samma spridning",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "5.65",
@@ -53765,8 +54795,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "3/0/0",
     "t": "<p>Tiden för en viss planerad omsorgsaktivitet kan beskrivas ungefär med en normalfördelning med medelvärdet 16 minuter och standardavvikelsen 2,5 minuter.</p><p>a) Mellan vilka tider ligger ungefär 68,2 % av observationerna?</p><p>b) Mellan vilka tider ligger ungefär 95,4 %?</p><p>c) Om 400 aktiviteter genomförs, ungefär hur många kan enligt modellen väntas ligga utanför intervallet i b)?</p>",
     "s": "<p>a) En standardavvikelse från medelvärdet: \\(16\\pm2,5\\), alltså 13,5–18,5 min.</p><p>b) Två standardavvikelser: \\(16\\pm5\\), alltså 11–21 min.</p><p>c) Utanför intervallet ligger ungefär \\(100-95,4=4,6\\%\\).</p><p>\\(0,046\\cdot400=18,4\\), alltså ungefär 18 aktiviteter.</p><p><strong>13,5–18,5 min; 11–21 min; ungefär 18 av 400 utanför det senare intervallet.</strong></p>",
     "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
@@ -53779,12 +54809,106 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "13,5–18,5 min",
-      "11–21 min",
-      "ungefär 18 av 400 utanför det senare intervallet"
+      13.5,
+      18.5,
+      11,
+      21,
+      18
     ],
-    "tolerans": null,
-    "självrättning": true
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09,
+      1e-09,
+      1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Använd μ±σ för 68,2 % och μ±2σ för 95,4 %. Utanför det senare intervallet ligger 4,6 %.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "68,2 % nedre",
+      "68,2 % övre",
+      "95,4 % nedre",
+      "95,4 % övre",
+      "Utanför 95,4 %"
+    ],
+    "svarEnhet": [
+      "min",
+      "min",
+      "min",
+      "min",
+      "aktiviteter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Normalfördelning med \\(\\mu=16\\) min och \\(\\sigma=2,5\\) min. Totalt 400 aktiviteter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm nedre gränsen för intervallet som innehåller cirka 68,2 %.</p>",
+        "s": "<p>\\(16-2,5=13,5\\). <strong>13,5 min.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Använd μ±σ för 68,2 % och μ±2σ för 95,4 %. Utanför det senare intervallet ligger 4,6 %.</p>"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm övre gränsen för intervallet som innehåller cirka 68,2 %.</p>",
+        "s": "<p>\\(16+2,5=18,5\\). <strong>18,5 min.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Använd μ±σ för 68,2 % och μ±2σ för 95,4 %. Utanför det senare intervallet ligger 4,6 %.</p>"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Bestäm nedre gränsen för intervallet som innehåller cirka 95,4 %.</p>",
+        "s": "<p>\\(16-2\\cdot2,5=11\\). <strong>11 min.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Använd μ±σ för 68,2 % och μ±2σ för 95,4 %. Utanför det senare intervallet ligger 4,6 %.</p>"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Bestäm övre gränsen för intervallet som innehåller cirka 95,4 %.</p>",
+        "s": "<p>\\(16+2\\cdot2,5=21\\). <strong>21 min.</strong></p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Använd μ±σ för 68,2 % och μ±2σ för 95,4 %. Utanför det senare intervallet ligger 4,6 %.</p>"
+      },
+      {
+        "etikett": "e",
+        "fraga": "<p>Ungefär hur många av 400 ligger utanför intervallet \\(\\mu\\pm2\\sigma\\)?</p>",
+        "s": "<p>Utanför ligger cirka 4,6 %. \\(0,046\\cdot400=18,4\\), alltså <strong>cirka 18 aktiviteter</strong>.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "ledtrad": "<p>Använd μ±σ för 68,2 % och μ±2σ för 95,4 %. Utanför det senare intervallet ligger 4,6 %.</p>"
+      }
+    ]
   },
   {
     "id": "5.66",
@@ -53793,8 +54917,8 @@ window.BANKMA2 = [
     "kurs": [
       "2a"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
+    "niva": "C",
+    "poang": "0/3/0",
     "t": "<p>Två arbetsdagar gav följande dokumentationstider i minuter för åtta liknande ärenden:</p><table class=\"data\"><tr><th>Dag A</th><td>12</td><td>13</td><td>13</td><td>14</td><td>14</td><td>15</td><td>15</td><td>16</td></tr><tr><th>Dag B</th><td>12</td><td>13</td><td>13</td><td>14</td><td>14</td><td>15</td><td>15</td><td>30</td></tr></table><p>a) Bestäm median och kvartilavstånd för båda dagarna.</p><p>b) Bestäm standardavvikelsen med digitalt verktyg för båda dagarna.</p><p>c) En samordnare säger: ”Eftersom medianen och kvartilavståndet är samma var variationen ungefär lika stor båda dagarna.” Bedöm påståendet.</p>",
     "s": "<p>a) Båda materialen har medianen 14. Nedre kvartilen är 13 och övre kvartilen 15, så kvartilavståndet är 2 för båda.</p><p>b) Med digitalt verktyg fås standardavvikelsen ungefär 1,22 min för dag A och 5,47 min för dag B.</p><p>c) Påståendet missar det mycket höga värdet 30 på dag B. Median och kvartilavstånd påverkas inte av det värdet i just dessa data, men standardavvikelsen ökar kraftigt.</p><p><strong>Påståendet är därför missvisande: dag B har betydligt större total spridning trots samma median och kvartilavstånd.</strong></p>",
     "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
@@ -53806,10 +54930,14 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "flera_delar",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Median och kvartilavstånd påverkas lite av ett extremvärde. Standardavvikelsen reagerar däremot tydligt på värdet 30.</p>"
   },
   {
     "id": "5.67",
@@ -53830,10 +54958,36 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "90 000 kr i A och 150 000 kr i B",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90000,
+      150000
+    ],
+    "tolerans": [
+      1,
+      1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt x och y vara beloppen i A och B. Förutom totalsumman kan du använda den totala ökningen under året.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Belopp i A",
+      "Belopp i B"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.68",
@@ -53843,7 +54997,7 @@ window.BANKMA2 = [
       "2a"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "t": "<p>Ett rektangulärt aktivitetsrum är 7,0 m långt och 4,5 m brett. Ett hjälpmedel ska flyttas den kortaste raka vägen från ett hörn till det motsatta hörnet.</p><span class=\"fig smal\"><svg width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangulärt aktivitetsrum med diagonal\">\n    <rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n    <rect x=\"80\" y=\"48\" width=\"300\" height=\"180\" fill=\"#FAFAFB\" stroke=\"#2B2527\" stroke-width=\"2.2\"/>\n    <line x1=\"80\" y1=\"228\" x2=\"380\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"2.6\" stroke-dasharray=\"7 5\"/>\n    <text x=\"230\" y=\"145\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B43123\">kortaste raka vägen</text>\n    <text x=\"230\" y=\"252\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">7,0 m</text>\n    <text x=\"393\" y=\"142\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">4,5 m</text>\n    </svg></span><p>Bestäm den raka sträckans längd.</p>",
     "s": "<p>Den raka sträckan är hypotenusan i en rätvinklig triangel.</p><p>\\(d^2=7,0^2+4,5^2=49+20,25=69,25\\).</p><p>\\(d=\\sqrt{69,25}\\approx8,32\\).</p><p><strong>Den raka sträckan är cirka 8,3 m.</strong></p>",
     "familj": "vard_omsorgsprogrammet__geometri_och_matning",
@@ -53853,10 +55007,16 @@ window.BANKMA2 = [
     ],
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Den raka sträckan är cirka 8,3 m",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.306623862918075,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Den kortaste raka vägen mellan motsatta hörn är rektangelns diagonal. Använd Pythagoras sats.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "kap": 5,
@@ -53876,16 +55036,54 @@ window.BANKMA2 = [
     "id": "5.69",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "11 m, vilket är cirka 1,15 m eller 11,7 % längre än direktsträckan",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11,
+      9.848857801796104,
+      1.151142198203896,
+      11.688078164698101
+    ],
+    "tolerans": [
+      0.01,
+      0.02,
+      0.02,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först AV och VB. Jämför sedan med den direkta sträckan AB.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Via ventilen",
+      "Direkt",
+      "Extra längd",
+      "Ökning"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m",
+      "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "kurs": [
       "2a"
     ],
@@ -53900,16 +55098,22 @@ window.BANKMA2 = [
     "id": "5.70",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "cirka 68,2 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Intervallet är exakt en standardavvikelse på var sida om medelvärdet.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "kurs": [
       "2a"
     ],
@@ -53925,16 +55129,54 @@ window.BANKMA2 = [
     "id": "5.71",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      21,
+      0.6324555320336759,
+      21,
+      1.2649110640673518
+    ],
+    "tolerans": [
+      1e-09,
+      0.02,
+      1e-09,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Beräkna standardavvikelsen för båda rummen. Det rum som har mindre standardavvikelse har jämnare temperatur.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Medel A",
+      "Standardavvikelse A",
+      "Medel B",
+      "Standardavvikelse B"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C",
+      "°C",
+      "°C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "kurs": [
       "2a"
     ],
@@ -53949,10 +55191,48 @@ window.BANKMA2 = [
     "id": "5.72",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(P=(5,5)\\). Direktdragningen är kortast, cirka 14,85 m jämfört med 16 m via P",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      5,
+      14.848857801796104,
+      16
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      0.03,
+      0.03
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv P=(5,y) och sätt PA=PB. Jämför därefter de två totala ledningslängderna.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "P, x",
+      "P, y",
+      "Direkt total",
+      "Via P total"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
@@ -53973,16 +55253,42 @@ window.BANKMA2 = [
     "id": "5.73",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "259,2 Pa och cirka 105 L/s",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      259.2,
+      105.40925533894598
+    ],
+    "tolerans": [
+      0.05,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Första delen är direkt insättning. I den andra sätter du Δp=200 och löser den positiva roten.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Tryckfall",
+      "Luftflöde"
+    ],
+    "svarEnhet": [
+      "Pa",
+      "L/s"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "kurs": [
       "2a"
     ],
@@ -53997,10 +55303,16 @@ window.BANKMA2 = [
     "id": "5.74",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "cirka 81,8 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 81.8,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Översätt gränserna till antal standardavvikelser från medelvärdet och summera rätt områden i normalfördelningsfiguren.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "kap": 5,
@@ -54020,16 +55332,22 @@ window.BANKMA2 = [
     "id": "5.75",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "cirka \\(1570\\,\\mathrm{mm^2}\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 1570.7963267948965,
+    "tolerans": 2,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Isoleringens area är arean av den yttre cirkeln minus arean av själva röret.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mm²"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "kurs": [
       "2a"
     ],
@@ -54045,16 +55363,48 @@ window.BANKMA2 = [
     "id": "5.76",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15,
+      48,
+      55.5
+    ],
+    "tolerans": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Sätt de två linjära modellerna lika för att hitta skärningen. Sätt sedan x=−10 i båda.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Skärning x",
+      "T_A vid -10",
+      "T_B vid -10"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C",
+      "°C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "kurs": [
       "2a"
     ],
@@ -54069,15 +55419,21 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "numeriskt",
-    "rättSvar": "10 m",
-    "tolerans": null,
-    "självrättning": true
+    "rättSvar": 10,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Använd avståndsformeln eller Pythagoras sats på skillnaderna i x- och y-led.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "kurs": [
       "2a"
     ],
@@ -54096,7 +55452,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Lös L(t)=E(t) digitalt och bortse från den givna skärningen t=0 när den andra skärningen efterfrågas.</p>"
   },
   {
     "kap": 5,
@@ -54117,16 +55477,54 @@ window.BANKMA2 = [
     "id": "5.79",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "max 7,04 kW vid \\(x=4\\); 6,4 kW vid \\(x=0\\) och \\(x=8\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      7.04,
+      0,
+      8
+    ],
+    "tolerans": [
+      0.01,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv gärna parabeln på vertexform för att se maximipunkten. Sätt därefter P(x)=6,4.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Max vid x",
+      "Maxeffekt",
+      "x-värde 1 för 6,4 kW",
+      "x-värde 2 för 6,4 kW"
+    ],
+    "svarEnhet": [
+      null,
+      "kW",
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "kurs": [
       "2a"
     ],
@@ -54141,16 +55539,22 @@ window.BANKMA2 = [
     "id": "5.80",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "cirka 6,3 timmar",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.3127087055,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Sätt T(t)=30 och lös den resulterande exponentialekvationen digitalt.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "kurs": [
       "2a"
     ],
@@ -54165,10 +55569,36 @@ window.BANKMA2 = [
     "id": "5.81",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      122.47448713915891,
+      240
+    ],
+    "tolerans": [
+      0.2,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Vid arbetspunkten är fläktens och kanalnätets tryck lika. Sätt därför p_f(q)=p_k(q).</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Luftflöde",
+      "Tryck"
+    ],
+    "svarEnhet": [
+      "L/s",
+      "Pa"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
@@ -54188,16 +55618,42 @@ window.BANKMA2 = [
     "id": "5.82",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "0,60 m × 0,80 m",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6,
+      0.8
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Areavillkoret ger x(x+0,20)=0,48. Bara den positiva lösningen är relevant.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Höjd",
+      "Bredd"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "kurs": [
       "2a"
     ],
@@ -54208,21 +55664,25 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "t": "<p>Två förenklade modeller beskriver hur tryckfallet över ett filter kan öka efter ett byte: \\[L(t)=120+18t,\\qquad E(t)=120\\cdot1{,}12^t,\\] där \\(t\\) är antal veckor och tryckfallet mäts i Pa.</p><ol><li>Jämför modellernas värden efter 5 veckor och efter 10 veckor.</li><li>Förklara varför det kan vara riskabelt att använda någon av modellerna långt utanför den period där mätdata samlades in.</li></ol>",
-    "s": "<p>Efter 5 veckor: \\[L(5)=210,\\qquad E(5)\\approx211{,}5.\\]</p><p>Efter 10 veckor: \\[L(10)=300,\\qquad E(10)\\approx372{,}7.\\]</p><p>Modellerna ligger nära varandra i början men skiljer sig allt mer. En matematisk modell är en förenkling av verkligheten och behöver inte fortsätta gälla utanför det intervall där den har kontrollerats mot mätningar.</p><p><strong>Slutsats: långtidsprognoserna bör därför användas försiktigt och jämföras med nya mätvärden.</strong></p>",
+    "t": "<p>Efter ett filterbyte jämförs två förenklade modeller för tryckfallet:</p><p>\\[L(t)=95+14t,\\qquad E(t)=95\\cdot1{,}13^t,\\]</p><p>där \\(t\\) är antal veckor och tryckfallet mäts i Pa.</p><p>Jämför modellernas värden efter 4 veckor och efter 8 veckor. Förklara varför det kan vara riskabelt att använda någon av modellerna långt utanför den period där mätdata samlades in.</p>",
+    "s": "<p>Efter 4 veckor:</p><p>\\[L(4)=151,\\qquad E(4)=95\\cdot1{,}13^4\\approx154{,}9.\\]</p><p>Efter 8 veckor:</p><p>\\[L(8)=207,\\qquad E(8)\\approx252{,}6.\\]</p><p>Exponentialmodellen ligger alltså något högre redan efter 4 veckor och betydligt högre efter 8 veckor. Långt utanför mätintervallet är båda modellerna extrapolationer och kan avvika från det verkliga systemet.</p><p><strong>Efter 4 veckor: 151 Pa respektive cirka 155 Pa. Efter 8 veckor: 207 Pa respektive cirka 253 Pa.</strong></p>",
     "id": "5.83",
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Beräkna båda modellernas värden vid samma tidpunkter och jämför. Resonemanget om långtidsprognoser handlar om extrapolation.</p>"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "kurs": [
       "2a"
     ],
@@ -54241,13 +55701,17 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Om 95,4 % ligger inom intervallet ligger 4,6 % utanför. Jämför det förväntade antalet med de 9 observerade.</p>"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "kurs": [
       "2a"
     ],
@@ -54262,16 +55726,22 @@ window.BANKMA2 = [
     "id": "5.85",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Kanalen har diametern 5 dm",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Sätt Q=300 i modellen och lös d²=300/12. Diametern ska vara positiv.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "dm"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "kurs": [
       "2a"
     ],
@@ -54285,10 +55755,36 @@ window.BANKMA2 = [
     "id": "5.86",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "gren A 31,2 L/min och gren B 16,8 L/min",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      31.2,
+      16.8
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt B-flödet vara x. Då kan A-flödet skrivas 1,5x+6.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Gren A",
+      "Gren B"
+    ],
+    "svarEnhet": [
+      "L/min",
+      "L/min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
@@ -54308,16 +55804,42 @@ window.BANKMA2 = [
     "id": "5.87",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "560 L/s och 400 L/s",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      560,
+      400
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Om det mindre flödet är x är det större x+160. Tillsammans ska de bli 960.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Större flöde",
+      "Mindre flöde"
+    ],
+    "svarEnhet": [
+      "L/s",
+      "L/s"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "kurs": [
       "2a"
     ],
@@ -54335,7 +55857,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Den yttre radien är r+t. Börja med π(r+t)²−πr² och utveckla kvadraten.</p>"
   },
   {
     "kap": 5,
@@ -54355,16 +55881,42 @@ window.BANKMA2 = [
     "id": "5.89",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "9 rördelar av 15 cm och 9 rördelar av 25 cm",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      9
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt x vara antalet 15 cm-delar och y antalet 25 cm-delar. Omvandla 3,60 m till 360 cm.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "15 cm-delar",
+      "25 cm-delar"
+    ],
+    "svarEnhet": [
+      "st",
+      "st"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "C",
-    "poang": "0/3/0",
+    "poang": "0/2/0",
     "kurs": [
       "2a"
     ],
@@ -54379,16 +55931,43 @@ window.BANKMA2 = [
     "id": "5.90",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(a=-4\\), och största värdet är 64 vid \\(x=6\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -4,
+      64,
+      6
+    ],
+    "tolerans": [
+      1e-09,
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Sätt x=6 och P=64 för att bestämma a. Nollställena 2 och 10 visar sedan var symmetrilinjen ligger.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "Maxvärde",
+      "Inställning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "kurs": [
       "2a"
     ],
@@ -54404,10 +55983,14 @@ window.BANKMA2 = [
     "id": "5.91",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Bestäm parabelns symmetrilinje för maximipunkten och nollställena för när nettobesparingen byter tecken.</p>"
   },
   {
     "kap": 5,
@@ -54428,16 +56011,48 @@ window.BANKMA2 = [
     "id": "5.92",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      40,
+      47
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Bestäm först lutningen från de två givna punkterna (−15,55) och (5,35).</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "k",
+      "m",
+      "T(-7)"
+    ],
+    "svarEnhet": [
+      null,
+      "°C",
+      "°C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "kurs": [
       "2a"
     ],
@@ -54452,10 +56067,28 @@ window.BANKMA2 = [
     "id": "5.93",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Intervallet 3–5 °C är μ±2σ. Jämför formelbladets andel inom två standardavvikelser med 98 %.</p>",
+    "alternativ": [
+      {
+        "txt": "Ja, cirka 98 % ligger där",
+        "ratt": false
+      },
+      {
+        "txt": "Nej, modellen ger cirka 95,4 % inom intervallet",
+        "ratt": true
+      },
+      {
+        "txt": "Nej, modellen ger cirka 68,2 % inom intervallet",
+        "ratt": false
+      }
+    ]
   },
   {
     "kap": 5,
@@ -54476,16 +56109,42 @@ window.BANKMA2 = [
     "id": "5.94",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "medelvärde 21,0 °C och standardavvikelse cirka 0,28 °C",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      21,
+      0.282842712474618
+    ],
+    "tolerans": [
+      0.01,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Beräkna först medelvärdet. Använd sedan digitalt verktyg för standardavvikelsen för de fem mätvärdena.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Medelvärde",
+      "Standardavvikelse"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "kurs": [
       "2a"
     ],
@@ -54501,16 +56160,22 @@ window.BANKMA2 = [
     "id": "5.95",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.0852498146604,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Sätt D(t)=100. Ett digitalt verktyg kan lösa ekvationen eftersom t ligger i exponenten.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "veckor"
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "kurs": [
       "2a"
     ],
@@ -54525,9 +56190,13 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "arean ökar med \\(0{,}40x+0{,}04\\,\\mathrm{m^2}\\)",
+    "rättSvar": "0,4x+0,04",
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Den nya arean är (x+0,20)² och den gamla är x². Subtrahera och använd kvadreringsregeln.</p>"
   },
   {
     "kap": 5,
@@ -54547,16 +56216,48 @@ window.BANKMA2 = [
     "id": "5.97",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "ligger \\(M=(6,6)\\) lika långt från båda givarna",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      6,
+      5,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Mittpunkten får medelvärdet av x-koordinaterna och medelvärdet av y-koordinaterna. Kontrollera sedan båda avstånden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Mittpunkt x",
+      "Mittpunkt y",
+      "Avstånd till A",
+      "Avstånd till B"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "kurs": [
       "2a"
     ],
@@ -54572,10 +56273,42 @@ window.BANKMA2 = [
     "id": "5.98",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(q_1=180\\) L/s, \\(q_2=120\\) L/s och gemensamt tryckfall 259,2 Pa",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      180,
+      120,
+      259.2
+    ],
+    "tolerans": [
+      0.1,
+      0.1,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Du har två villkor: q₁+q₂=300 och lika tryckfall. Det andra villkoret ger ett enkelt förhållande mellan flödena.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "q1",
+      "q2",
+      "Tryckfall"
+    ],
+    "svarEnhet": [
+      "L/s",
+      "L/s",
+      "Pa"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
@@ -54595,16 +56328,48 @@ window.BANKMA2 = [
     "id": "5.99",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "största arean är \\(0{,}36\\,\\mathrm{m^2}\\), med måtten 0,60 m × 0,60 m",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.36,
+      0.6,
+      0.6
+    ],
+    "tolerans": [
+      0.01,
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>A(x)=x(1,2−x) är en nedåtvänd parabel. Maximipunkten ligger på symmetrilinjen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Maxarea",
+      "Bredd",
+      "Höjd"
+    ],
+    "svarEnhet": [
+      "m²",
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
     "omr": "vvs_fastighetsprogrammet",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "kurs": [
       "2a"
     ],
@@ -54619,10 +56384,36 @@ window.BANKMA2 = [
     "id": "5.100",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(C=0{,}004\\) och luftflödet 200 L/s",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.004,
+      200
+    ],
+    "tolerans": [
+      1e-06,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Använd mätpunkten för att bestämma C. Sätt därefter Δp=160 och lös för det positiva luftflödet.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "C",
+      "Luftflöde"
+    ],
+    "svarEnhet": [
+      null,
+      "L/s"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "kap": 5,
@@ -54643,10 +56434,14 @@ window.BANKMA2 = [
     "id": "5.101",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "text",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Använd A=x(1,4−x). För arean 0,45 får du en andragradsekvation; största möjliga area ligger i parabelns topp.</p>"
   },
   {
     "kap": 5,
@@ -54666,10 +56461,36 @@ window.BANKMA2 = [
     "id": "5.102",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "20 m koppar och 32 m PEX i den färdiga installationen",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      32
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt x och y vara färdig koppar- respektive PEX-längd. Spillprocenten påverkar kostnadsekvationen, inte totalsumman 52 m.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Koppar",
+      "PEX"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.103",
@@ -54678,8 +56499,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "samhallsvetenskapsprogrammet__ekvationssystem_och_fordelning",
     "formaga": [
       "procedur",
@@ -54689,10 +56510,36 @@ window.BANKMA2 = [
     "s": "<p>Låt \\(x\\) vara antalet yngre och \\(y\\) antalet äldre.</p><p>\\[\\begin{cases}x+y=500\\\\0{,}60x+0{,}80y=350\\end{cases}\\]</p><p>Multiplicera den andra ekvationen med 100 och förenkla: \\(60x+80y=35000\\). Multiplicera den första med 60: \\(60x+60y=30000\\).</p><p>Subtraktion ger \\(20y=5000\\), alltså \\(y=250\\). Då är \\(x=250\\).</p><p><strong>Enkäten skickades till 250 yngre och 250 äldre.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Enkäten skickades till 250 yngre och 250 äldre",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      250,
+      250
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt x vara antalet yngre och y antalet äldre. Använd både x+y=500 och ekvationen för antalet svar.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Yngre",
+      "Äldre"
+    ],
+    "svarEnhet": [
+      "personer",
+      "personer"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.104",
@@ -54713,10 +56560,36 @@ window.BANKMA2 = [
     "s": "<p>\\(V(5)=72{,}4+0{,}6\\cdot5=75{,}4\\).</p><p>Riktningskoefficienten 0,6 betyder att modellen ökar med 0,6 procentenheter per valperiod.</p><p><strong>75,4 %; modellen ökar med 0,6 procentenheter per valperiod.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "75,4 %; modellen ökar med 0,6 procentenheter per valperiod",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      75.4,
+      0.6
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Sätt t=5 i modellen. Talet framför t är förändringen i procentenheter per valperiod.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "V(5)",
+      "Ökning per valperiod"
+    ],
+    "svarEnhet": [
+      "%",
+      "procentenheter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.105",
@@ -54741,7 +56614,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Isolera 1,09^t och använd logaritmer. Den andra delen handlar om osäkerhet vid lång extrapolation.</p>"
   },
   {
     "id": "5.106",
@@ -54766,7 +56643,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false,
+    "ledtrad": "<p>Börja med att bestämma gruppstorlekarna ur svarsfrekvenserna. Håll sedan isär andelen bland svarande och den viktade andelen för ursprungsurvalet.</p>"
   },
   {
     "id": "5.107",
@@ -54776,7 +56657,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__statistik_och_fordelningar",
     "formaga": [
       "procedur",
@@ -54787,10 +56668,16 @@ window.BANKMA2 = [
     "s": "<p>42 och 58 är \\(\\mu-\\sigma\\) respektive \\(\\mu+\\sigma\\). Formelbladet visar 34,1 % på vardera sidan om medelvärdet inom en standardavvikelse.</p><p>\\[34{,}1\\%+34{,}1\\%=68{,}2\\%.\\]</p><p><strong>Cirka 68,2 %.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 68,2 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 68.2,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>42 och 58 är 50−8 respektive 50+8, alltså en standardavvikelse från medelvärdet.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   },
   {
     "id": "5.108",
@@ -54812,10 +56699,37 @@ window.BANKMA2 = [
     "s": "<p>Linjär regression ger ungefär \\(y=4{,}9x+37{,}7\\).</p><p>Riktningskoefficienten 4,9 betyder att modellen förknippar en extra dag per vecka med cirka 4,9 högre testpoäng.</p><p>\\(y(6)=4{,}9\\cdot6+37{,}7=67{,}1\\).</p><p><strong>Modell: \\(y\\approx4{,}9x+37{,}7\\). Vid 6 dagar blir modellvärdet cirka 67 poäng.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.9,
+      37.7,
+      67.1
+    ],
+    "tolerans": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Gör linjär regression på de fem punkterna. Tolka lutningen som förändring i testpoäng per extra dag.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Lutning",
+      "Konstant",
+      "Prognos vid 6 dagar"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.109",
@@ -54836,10 +56750,36 @@ window.BANKMA2 = [
     "s": "<p>Låt \\(x\\) vara webbsvar och \\(y\\) telefonsvar.</p><p>\\[\\begin{cases}x+y=320\\\\2x+6y=960\\end{cases}\\]</p><p>Dubbel den första ekvationen: \\(2x+2y=640\\). Subtraktion ger \\(4y=320\\), alltså \\(y=80\\). Då är \\(x=240\\).</p><p><strong>240 webbsvar och 80 telefonsvar.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      240,
+      80
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt x vara webbsvar och y telefonsvar. Använd både antalet svar och den sammanlagda behandlingstiden.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Webbsvar",
+      "Telefonsvar"
+    ],
+    "svarEnhet": [
+      "svar",
+      "svar"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.110",
@@ -54848,8 +56788,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "samhallsvetenskapsprogrammet__statistik_och_fordelningar",
     "formaga": [
       "procedur",
@@ -54861,10 +56801,42 @@ window.BANKMA2 = [
     "s": "<p>Båda grupperna har medelvärdet 5,0.</p><p>Ett digitalt verktyg ger standardavvikelse ungefär \\(0{,}63\\) för grupp A och \\(2{,}00\\) för grupp B.</p><p>Grupp A har mindre standardavvikelse och svaren ligger därför mer samlade kring medelvärdet.</p><p><strong>Grupp A har mest samlade svar.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      0.6324555320336759,
+      5,
+      2.0
+    ],
+    "tolerans": [
+      0.01,
+      0.02,
+      0.01,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Båda gruppernas medelvärde kan vara samma trots olika spridning. Jämför standardavvikelserna.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Medel A",
+      "Std A",
+      "Medel B",
+      "Std B"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.111",
@@ -54873,8 +56845,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "familj": "samhallsvetenskapsprogrammet__korrelation_och_regression",
     "formaga": [
       "procedur",
@@ -54889,7 +56861,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Anpassa en linjär och en exponentiell modell till samma fyra punkter. Prognosen vid t=20 ligger långt utanför mätintervallet.</p>"
   },
   {
     "id": "5.112",
@@ -54899,7 +56875,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__exponential_och_procentmodell",
     "formaga": [
       "procedur",
@@ -54910,10 +56886,16 @@ window.BANKMA2 = [
     "s": "<p>\\(L(4)=18000\\cdot1{,}12^4\\approx28323\\).</p><p><strong>Cirka 28 300 läsare.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Cirka 28 300 läsare",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 28323.34848000001,
+    "tolerans": 50,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Sätt t=4 direkt i exponentialmodellen.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "läsare"
   },
   {
     "id": "5.113",
@@ -54937,7 +56919,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Korrelationskoefficienten beskriver styrkan i ett linjärt samband men avgör inte vad som orsakar vad.</p>"
   },
   {
     "id": "5.114",
@@ -54947,7 +56933,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__geometri_och_matning",
     "formaga": [
       "procedur",
@@ -54957,10 +56943,16 @@ window.BANKMA2 = [
     "s": "<p>Avståndsformeln ger</p><p>\\[d=\\sqrt{(8-2)^2+(9-1)^2}=\\sqrt{36+64}=10.\\]</p><p><strong>Avståndet är 10 km.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Avståndet är 10 km",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Skillnaderna i koordinater är 6 och 8. Använd Pythagoras sats.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
   },
   {
     "id": "5.115",
@@ -54981,10 +56973,15 @@ window.BANKMA2 = [
     "s": "<p>Gränsen är den 90:e percentilen. Använd normalfördelningens sannolikhetskalkylator med medelvärde 50 och standardavvikelse 10 och bestäm värdet som har 0,90 av arean till vänster.</p><p>Det ger ungefär \\(62{,}8\\).</p><p><strong>Gränsvärdet är cirka 62,8.</strong></p>",
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "val",
-    "rättSvar": "Gränsvärdet är cirka 62,8",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 62.8,
+    "tolerans": 0.1,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Du söker den 90:e percentilen i en normalfördelning med μ=50 och σ=10.</p>",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "5.116",
@@ -54994,7 +56991,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__geometri_och_matning",
     "formaga": [
       "procedur",
@@ -55004,10 +57001,32 @@ window.BANKMA2 = [
     "s": "<p>Mittpunktsformeln ger</p><p>\\[M=\\left(\\frac{2+10}{2},\\frac{4+8}{2}\\right)=(6,6).\\]</p><p><strong>Mittpunkten är \\((6,6)\\).</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Mittpunkten är \\((6,6)\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      6
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna var för sig.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.117",
@@ -55029,10 +57048,37 @@ window.BANKMA2 = [
     "s": "<p>Skriv modellen med en kvadrat:</p><p>\\[S(x)=-2(x^2-12x)+40=-2((x-6)^2-36)+40=-2(x-6)^2+112.\\]</p><p>Eftersom \\((x-6)^2\\ge0\\) är modellens största värde 112, och det fås när \\(x=6\\).</p><p>Kravet \\(S(x)\\ge100\\) ger \\(-2x^2+24x+40\\ge100\\), alltså \\(x^2-12x+30\\le0\\).</p><p>Nollställena är \\(x=6\\pm\\sqrt6\\approx3{,}55\\) och \\(8{,}45\\). Uttrycket är högst 0 mellan nollställena.</p><p><strong>Största modellvärdet är 112. Matematiskt fås minst 100 för ungefär \\(3{,}55\\le x\\le8{,}45\\). Eftersom \\(x\\) är antal påminnelser motsvarar det 4–8 påminnelser.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      112,
+      4,
+      8
+    ],
+    "tolerans": [
+      0.01,
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv parabeln på vertexform för maxvärdet. Lös sedan olikheten S(x)≥100.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Maxvärde",
+      "Minsta heltals-x",
+      "Största heltals-x"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.118",
@@ -55041,8 +57087,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "familj": "samhallsvetenskapsprogrammet__geometri_och_matning",
     "formaga": [
       "procedur",
@@ -55053,10 +57099,42 @@ window.BANKMA2 = [
     "s": "<p>Skriv \\(P=(6,y)\\). Villkoret \\(PA=PB\\) ger</p><p>\\[(6-1)^2+(y-2)^2=(6-9)^2+(y-6)^2.\\]</p><p>\\(25+(y-2)^2=9+(y-6)^2\\). Efter utveckling fås \\(8y=16\\), alltså \\(y=2\\).</p><p>Alltså \\(P=(6,2)\\). Avståndet till A blir 5 längdenheter. Till B blir avståndet \\(\\sqrt{3^2+4^2}=5\\).</p><p><strong>\\(P=(6,2)\\), och avståndet till vardera området är 5 längdenheter.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(P=(6,2)\\), och avståndet till vardera området är 5 längdenheter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      2,
+      5
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv P=(6,y) och sätt de kvadrerade avstånden PA² och PB² lika.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "P, x",
+      "P, y",
+      "Avstånd"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      "längdenheter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.119",
@@ -55066,7 +57144,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__korrelation_och_regression",
     "formaga": [
       "procedur",
@@ -55077,10 +57155,28 @@ window.BANKMA2 = [
     "s": "<p>Riktningskoefficienten 2,4 betyder att modellen förknippar en extra informationskontakt med cirka 2,4 högre poäng.</p><p>Konstanten 31 är modellens värde när \\(x=0\\).</p><p><strong>2,4 är förändringen per extra kontakt och 31 är modellvärdet vid 0 kontakter.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "2,4 är förändringen per extra kontakt och 31 är modellvärdet vid 0 kontakter",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>I y=kx+m anger k förändringen per x-enhet och m modellvärdet när x=0.</p>",
+    "alternativ": [
+      {
+        "txt": "2,4 är startvärdet och 31 är ökningen per kontakt",
+        "ratt": false
+      },
+      {
+        "txt": "2,4 är ökningen per extra kontakt och 31 är modellvärdet vid 0 kontakter",
+        "ratt": true
+      },
+      {
+        "txt": "Båda talen är procentuella förändringar",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "5.120",
@@ -55089,8 +57185,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__exponential_och_procentmodell",
     "formaga": [
       "procedur",
@@ -55101,10 +57197,28 @@ window.BANKMA2 = [
     "s": "<p>Sätt modellerna lika: \\(68+0{,}4t=72+0{,}4t\\). När \\(0{,}4t\\) subtraheras från båda led återstår \\(68=72\\), vilket är omöjligt.</p><p>Linjerna har samma riktningskoefficient men olika konstant och är därför parallella.</p><p><strong>Nej. Modellerna behåller en skillnad på 4 procentenheter hela tiden.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Nej. Modellerna behåller en skillnad på 4 procentenheter hela tiden",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
-    "självrättning": true
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Sätt modellerna lika. Vad händer när samma 0,4t finns i båda leden?</p>",
+    "alternativ": [
+      {
+        "txt": "Ja, vid t=10",
+        "ratt": false
+      },
+      {
+        "txt": "Ja, vid t=4",
+        "ratt": false
+      },
+      {
+        "txt": "Nej, modellerna är parallella och skiljer alltid 4 procentenheter",
+        "ratt": true
+      }
+    ]
   },
   {
     "id": "5.121",
@@ -55114,7 +57228,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__logaritm_och_exponentialekvation",
     "formaga": [
       "procedur",
@@ -55125,10 +57239,16 @@ window.BANKMA2 = [
     "s": "<p>Sätt \\(D(t)=50000\\): \\(5000\\cdot10^{0{,}2t}=50000\\), alltså \\(10^{0{,}2t}=10\\).</p><p>Därför är \\(0{,}2t=1\\) och \\(t=5\\).</p><p><strong>Efter 5 tidsenheter.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Efter 5 tidsenheter",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Dividera först med 5000. Då återstår en tiopotens som är lätt att jämföra med 10¹.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "tidsenheter"
   },
   {
     "id": "5.122",
@@ -55153,7 +57273,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Beräkna båda modellerna vid t=10. Skillnaden mellan modellerna är konstant ökning i antal respektive konstant procentuell ökning.</p>"
   },
   {
     "id": "5.123",
@@ -55175,10 +57299,32 @@ window.BANKMA2 = [
     "s": "<p>Medianen markeras av linjen inne i lådan och är 5.</p><p>Nedre kvartil är 3 och övre kvartil är 7. Kvartilavståndet är \\(7-3=4\\).</p><p><strong>Median 5 och kvartilavstånd 4.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      4
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Medianen är strecket inne i lådan. Kvartilavståndet är Q3−Q1.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Median",
+      "Kvartilavstånd"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.124",
@@ -55200,10 +57346,32 @@ window.BANKMA2 = [
     "s": "<p>Med svarsunderlagets fördelning blir medelvärdet \\(0{,}80\\cdot7{,}2+0{,}20\\cdot6{,}1=6{,}98\\).</p><p>Med befolkningens fördelning blir medelvärdet \\(0{,}60\\cdot7{,}2+0{,}40\\cdot6{,}1=6{,}76\\).</p><p>Skillnaden visar att en grupp som utgör en större andel av svaren än av befolkningen kan påverka det sammanlagda resultatet.</p><p><strong>6,98 respektive 6,76.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.98,
+      6.76
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Beräkna två viktade medelvärden med de två olika gruppandelarna.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Med svarsfördelning",
+      "Med befolkningsfördelning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.125",
@@ -55212,8 +57380,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "familj": "samhallsvetenskapsprogrammet__korrelation_och_regression",
     "formaga": [
       "procedur",
@@ -55228,7 +57396,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Kontrollera både korrelationen och om en tredje variabel, här kommunstorleken, kan förklara att båda storheterna ökar tillsammans.</p>"
   },
   {
     "id": "5.126",
@@ -55249,10 +57421,32 @@ window.BANKMA2 = [
     "s": "<p>Kvadratkomplettera:</p><p>\\[D(x)=-4(x^2-12x)+120=-4((x-6)^2-36)+120=-4(x-6)^2+264.\\]</p><p>Eftersom \\((x-6)^2\\ge0\\) är det största möjliga modellvärdet 264. Det fås när \\(x=6\\).</p><p><strong>Största modellvärdet är 264 och fås vid \\(x=6\\).</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Största modellvärdet är 264 och fås vid \\(x=6\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      264,
+      6
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Skriv parabeln på vertexform eller använd symmetrilinjen x=−b/(2a).</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Maxvärde",
+      "x"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.127",
@@ -55261,8 +57455,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__statistik_och_fordelningar",
     "formaga": [
       "procedur",
@@ -55274,10 +57468,16 @@ window.BANKMA2 = [
     "s": "<p>Mellan \\(\\mu-2\\sigma\\) och \\(\\mu+2\\sigma\\) ligger enligt figuren</p><p>\\[2\\cdot(34{,}1\\%+13{,}6\\%)=95{,}4\\%.\\]</p><p>\\(0{,}954\\cdot1200=1144{,}8\\).</p><p><strong>Ungefär 1 145 personer.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false
+    "svarstyp": "numeriskt",
+    "rättSvar": 1145,
+    "tolerans": 2,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Inom två standardavvikelser ligger cirka 95,4 % enligt formelbladet.</p>",
+    "svarFormat": "numeriskt",
+    "svarEnhet": "personer"
   },
   {
     "id": "5.128",
@@ -55287,7 +57487,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__statistik_och_fordelningar",
     "formaga": [
       "begrepp",
@@ -55298,10 +57498,28 @@ window.BANKMA2 = [
     "s": "<p>Den 75:e percentilen är ett värde som ungefär 75 % av observationerna ligger på eller under.</p><p><strong>Personens resultat ligger ungefär lika högt eller högre än 75 % av resultaten.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "resonemang",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>En percentil beskriver hur stor andel av observationerna som ligger på eller under ett visst värde.</p>",
+    "alternativ": [
+      {
+        "txt": "Cirka 75 % av resultaten ligger på eller under personens resultat",
+        "ratt": true
+      },
+      {
+        "txt": "Personen har exakt 75 % rätt",
+        "ratt": false
+      },
+      {
+        "txt": "Personen ligger 75 poäng över medelvärdet",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "5.129",
@@ -55322,10 +57540,48 @@ window.BANKMA2 = [
     "s": "<p>Eftersom \\(P(0)=42000\\) är \\(C=42000\\).</p><p>\\[42000a^5=46400\\Rightarrow a=\\sqrt[5]{46400/42000}\\approx1{,}02013.\\]</p><p>Alltså \\(P(t)\\approx42000\\cdot1{,}02013^t\\). Efter 10 år blir modellvärdet cirka \\(51261\\).</p><p>Förändringsfaktorn motsvarar ungefär 2,01 % ökning per år.</p><p><strong>\\(P(t)\\approx42000\\cdot1{,}02013^t\\), cirka 51 300 personer efter 10 år och cirka 2,0 % per år.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(P(t)\\approx42000\\cdot1{,}02013^t\\), cirka 51 300 personer efter 10 år och cirka 2,0 % per år",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      42000,
+      1.02013,
+      51261,
+      2.013
+    ],
+    "tolerans": [
+      1,
+      0.0001,
+      100,
+      0.1
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Startvärdet ger C direkt. Använd sedan värdet efter fem år för att bestämma den årliga förändringsfaktorn a.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "C",
+      "a",
+      "P(10)",
+      "Årlig ökning"
+    ],
+    "svarEnhet": [
+      "personer",
+      null,
+      "personer",
+      "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.130",
@@ -55335,7 +57591,7 @@ window.BANKMA2 = [
       "2b"
     ],
     "niva": "E",
-    "poang": "2/0/0",
+    "poang": "1/0/0",
     "familj": "samhallsvetenskapsprogrammet__andragradsmodell_och_optimering",
     "formaga": [
       "procedur",
@@ -55346,10 +57602,32 @@ window.BANKMA2 = [
     "s": "<p>Faktorisera: \\(I(x)=x(10-x)\\).</p><p>Nollproduktmetoden ger \\(x=0\\) eller \\(x=10\\).</p><p><strong>Modellerna ger samma räckvidd vid \\(x=0\\) och \\(x=10\\).</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "Modellerna ger samma räckvidd vid \\(x=0\\) och \\(x=10\\)",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      10
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "ledtrad": "<p>Faktorisera I(x)=−x²+10x med x som gemensam faktor.</p>",
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "x1",
+      "x2"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.131",
@@ -55374,7 +57652,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Rita båda funktionerna i samma koordinatsystem och hitta deras skärningar. Jämför sedan vilket värde som är störst mellan skärningarna.</p>"
   },
   {
     "id": "5.132",
@@ -55383,8 +57665,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/3/0",
     "familj": "samhallsvetenskapsprogrammet__statistik_och_fordelningar",
     "formaga": [
       "procedur",
@@ -55399,7 +57681,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>30–70 är μ±2σ. Jämför modellens 95,4 % med de 870 observerade personerna.</p>"
   },
   {
     "id": "5.133",
@@ -55408,8 +57694,8 @@ window.BANKMA2 = [
     "kurs": [
       "2b"
     ],
-    "niva": "C",
-    "poang": "0/3/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "familj": "samhallsvetenskapsprogrammet__ekvationssystem_och_fordelning",
     "formaga": [
       "procedur",
@@ -55419,10 +57705,36 @@ window.BANKMA2 = [
     "s": "<p>Låt \\(x\\) vara antalet under 30 år och \\(y\\) antalet 30 år eller äldre.</p><p>\\[\\begin{cases}x+y=420\\\\0{,}62x+0{,}38y=210\\end{cases}\\]</p><p>Sätt \\(y=420-x\\): \\(0{,}62x+0{,}38(420-x)=210\\).</p><p>\\(0{,}24x=50{,}4\\), alltså \\(x=210\\) och \\(y=210\\).</p><p><strong>210 personer i vardera gruppen.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "210 personer i vardera gruppen",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      210,
+      210
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Låt x och y vara antalet i de två åldersgrupperna. Den andra ekvationen beskriver hur många som väljer digital kanal.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Under 30",
+      "30 år eller äldre"
+    ],
+    "svarEnhet": [
+      "personer",
+      "personer"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.134",
@@ -55443,10 +57755,36 @@ window.BANKMA2 = [
     "s": "<p>Sätt modellerna lika: \\(30+2t=48-t\\). Då \\(3t=18\\), så \\(t=6\\).</p><p>Andelen blir \\(A(6)=30+12=42\\).</p><p><strong>Efter 6 tidsenheter, då båda modellerna ger 42 %.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "Efter 6 tidsenheter, då båda modellerna ger 42 %",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      42
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Sätt A(t)=B(t) och lös den linjära ekvationen.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Tid",
+      "Andel"
+    ],
+    "svarEnhet": [
+      null,
+      "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.135",
@@ -55466,10 +57804,36 @@ window.BANKMA2 = [
     "s": "<p>I skala 1:25 000 motsvarar 1 cm 250 m. Därför motsvarar 1 cm² \\(250^2=62500\\) m² = 0,0625 km².</p><p>Områdets area är \\(18\\cdot0{,}0625=1{,}125\\) km².</p><p>I skala 1:10 000 motsvarar 1 cm 100 m och 1 cm² motsvarar 10 000 m² = 0,01 km². Därför blir kartarean \\(1{,}125/0{,}01=112{,}5\\) cm².</p><p><strong>1,125 km² i verkligheten och 112,5 cm² på kartan i skala 1:10 000.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "1,125 km² i verkligheten och 112,5 cm² på kartan i skala 1:10 000",
-    "tolerans": null,
-    "självrättning": true
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.125,
+      112.5
+    ],
+    "tolerans": [
+      0.005,
+      0.2
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "ledtrad": "<p>Areor skalar med kvadraten på längdskalan. Omvandla först vad 1 cm² motsvarar i verkligheten.</p>",
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Verklig area",
+      "Ny kartarea"
+    ],
+    "svarEnhet": [
+      "km²",
+      "cm²"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ]
   },
   {
     "id": "5.136",
@@ -55494,7 +57858,11 @@ window.BANKMA2 = [
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false
+    "självrättning": false,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "ledtrad": "<p>Jämför först medianerna och sedan kvartilavstånden. Det räcker för att pröva elevens två påståenden.</p>"
   },
   {
     "id": "2.602",
@@ -60302,5 +62670,873 @@ window.BANKMA2 = [
       "numeriskt",
       "numeriskt"
     ]
+  },
+  {
+    "id": "5.149",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Priset på en vara sänks med 12 %. Vilken förändringsfaktor används för det nya priset?</p>",
+    "s": "<p>En minskning med 12 % ger förändringsfaktorn \\(1-0,12=0,88\\).</p><p><strong>Svar: 0,88.</strong></p>",
+    "familj": "ekonomiprogrammet__forandringsfaktor_niva1",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.88,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vid en minskning drar du procenttalet, skrivet i decimalform, från 1.</p>"
+  },
+  {
+    "id": "5.150",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En produkt säljs för 85 kr. Den rörliga kostnaden är 50 kr per enhet och de fasta kostnaderna är 7 000 kr.</p><p>Ställ upp en linjär vinstmodell \\(V(x)\\), där \\(x\\) är antal sålda enheter.</p>",
+    "s": "<p>Varje såld enhet bidrar med \\(85-50=35\\) kr. De fasta kostnaderna dras av:</p><p>\\[V(x)=35x-7000.\\]</p>",
+    "familj": "ekonomiprogrammet__linjar_vinstmodell_niva2",
+    "formaga": [
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "uttryck",
+    "rättSvar": "35x-7000",
+    "tolerans": null,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna först försäljningspris minus rörlig kostnad per enhet.</p>"
+  },
+  {
+    "id": "5.151",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En butik säljer 80 biljetter. En premiumbiljett kostar 120 kr och en standardbiljett 75 kr. Totalt blir intäkten 7 350 kr.</p><p>Hur många biljetter av varje sort såldes?</p>",
+    "s": "<p>Låt \\(x\\) vara premium och \\(y\\) standard.</p><p>\\[x+y=80,\\qquad120x+75y=7350.\\]</p><p>Det ger \\(x=30\\) och \\(y=50\\).</p>",
+    "familj": "ekonomiprogrammet__ekvationssystem_niva2",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      50
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "st",
+      "st"
+    ],
+    "svarEtiketter": [
+      "Premium",
+      "Standard"
+    ],
+    "ledtrad": "<p>Använd både antalet biljetter och den totala intäkten.</p>"
+  },
+  {
+    "id": "5.152",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En förenklad vinstmodell är</p><p>\\[V(x)=-2(x-30)^2+1800.\\]</p><p>Vilken är modellens största vinst?</p>",
+    "s": "<p>Termen \\(-(x-30)^2\\) är som störst när kvadraten är 0. Då blir \\(V=1800\\).</p><p><strong>1 800 kr.</strong></p>",
+    "familj": "ekonomiprogrammet__andragradsfunktion_vertex_niva2",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1800,
+    "tolerans": 1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr",
+    "ledtrad": "<p>När blir \\((x-30)^2\\) så liten som möjligt?</p>"
+  },
+  {
+    "id": "5.153",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett kapital på 25 000 kr ökar med 4 % per år. Beräkna modellvärdet efter 3 år.</p>",
+    "s": "<p>\\[25000\\cdot1,04^3\\approx28121,6.\\]</p><p><strong>Cirka 28 100 kr.</strong></p>",
+    "familj": "ekonomiprogrammet__exponential_och_procentmodell",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28121.600000000002,
+    "tolerans": 20,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr",
+    "ledtrad": "<p>En ökning med 4 % per år motsvarar förändringsfaktorn 1,04.</p>"
+  },
+  {
+    "id": "5.154",
+    "kap": 5,
+    "omr": "ekonomiprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En regressionsmodell för en försäljning är \\(y=1,8x+12\\).</p><p>Beräkna modellvärdet när \\(x=10\\).</p>",
+    "s": "<p>\\[y=1,8\\cdot10+12=30.\\]</p><p><strong>Svar: 30.</strong></p>",
+    "familj": "ekonomiprogrammet__korrelation_och_regression",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in \\(x=10\\) direkt i regressionsmodellen.</p>"
+  },
+  {
+    "id": "5.155",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En modell för tidsåtgången är \\(T(n)=8n+20\\), där \\(n\\) är antal ärenden och \\(T\\) mäts i minuter.</p><p>Bestäm \\(T(5)\\).</p>",
+    "s": "<p>\\(T(5)=8\\cdot5+20=60\\).</p><p><strong>60 min.</strong></p>",
+    "familj": "vard_omsorgsprogrammet__linjar_modell",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "min",
+    "ledtrad": "<p>Sätt \\(n=5\\) i funktionen.</p>"
+  },
+  {
+    "id": "5.156",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En väntetid är ungefär normalfördelad med medelvärdet 30 min och standardavvikelsen 4 min.</p><p>Mellan vilka tider ligger ungefär 68,2 % av observationerna?</p>",
+    "s": "<p>68,2 % ligger inom en standardavvikelse: \\(30\\pm4\\).</p><p><strong>26–34 min.</strong></p>",
+    "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      26,
+      34
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "min",
+      "min"
+    ],
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "ledtrad": "<p>Använd intervallet \\(\\mu\\pm\\sigma\\).</p>"
+  },
+  {
+    "id": "5.157",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En dag planeras 24 besök. Korta besök tar 30 min och långa besök 45 min. Den sammanlagda besökstiden är 870 min.</p><p>Hur många korta och långa besök är planerade?</p>",
+    "s": "<p>\\[x+y=24,\\qquad30x+45y=870.\\]</p><p>Det ger \\(x=14\\) och \\(y=10\\).</p>",
+    "familj": "vard_omsorgsprogrammet__ekvationssystem_och_fordelning",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      14,
+      10
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "besök",
+      "besök"
+    ],
+    "svarEtiketter": [
+      "Korta",
+      "Långa"
+    ],
+    "ledtrad": "<p>Använd en ekvation för antalet besök och en för den totala tiden.</p>"
+  },
+  {
+    "id": "5.158",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En förenklad modell för en signal är \\(S(d)=100/d^2\\).</p><p>Bestäm \\(S(5)\\).</p>",
+    "s": "<p>\\[S(5)=100/25=4.\\]</p><p><strong>Svar: 4.</strong></p>",
+    "familj": "vard_omsorgsprogrammet__geometri_och_matning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt \\(d=5\\) i modellen och beräkna nämnaren först.</p>"
+  },
+  {
+    "id": "5.159",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två platser på en planritning ligger i \\(A=(1,1)\\) och \\(B=(4,5)\\). Bestäm avståndet mellan dem.</p><div class=\"fig smal\"><svg width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"20\" x2=\"48.0\" y2=\"228\" stroke=\"#ECEAEC\"/><line x1=\"112.4\" y1=\"20\" x2=\"112.4\" y2=\"228\" stroke=\"#ECEAEC\"/><line x1=\"176.8\" y1=\"20\" x2=\"176.8\" y2=\"228\" stroke=\"#ECEAEC\"/><line x1=\"241.2\" y1=\"20\" x2=\"241.2\" y2=\"228\" stroke=\"#ECEAEC\"/><line x1=\"305.6\" y1=\"20\" x2=\"305.6\" y2=\"228\" stroke=\"#ECEAEC\"/><line x1=\"370.0\" y1=\"20\" x2=\"370.0\" y2=\"228\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"228.0\" x2=\"370\" y2=\"228.0\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"193.3\" x2=\"370\" y2=\"193.3\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"158.7\" x2=\"370\" y2=\"158.7\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"124.0\" x2=\"370\" y2=\"124.0\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"89.3\" x2=\"370\" y2=\"89.3\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"54.7\" x2=\"370\" y2=\"54.7\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"20.0\" x2=\"370\" y2=\"20.0\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"228.0\" x2=\"370\" y2=\"228.0\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><line x1=\"48.0\" y1=\"20\" x2=\"48.0\" y2=\"228\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><line x1=\"112.4\" y1=\"193.3\" x2=\"305.6\" y2=\"54.7\" stroke=\"#3D6FB4\" stroke-width=\"2.2\"/><circle cx=\"112.4\" cy=\"193.3\" r=\"5\" fill=\"#3D6FB4\"/><text x=\"120.4\" y=\"185.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#29272B\">A</text><circle cx=\"305.6\" cy=\"54.7\" r=\"5\" fill=\"#3D6FB4\"/><text x=\"313.6\" y=\"46.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#29272B\">B</text></svg></div>",
+    "s": "<p>Skillnaderna är 3 och 4. Pythagoras sats ger \\(d=\\sqrt{3^2+4^2}=5\\).</p><p><strong>5 m.</strong></p>",
+    "familj": "vard_omsorgsprogrammet__geometri_och_matning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m",
+    "ledtrad": "<p>Skillnaden i x-led är 3 och i y-led 4. Använd Pythagoras sats.</p>"
+  },
+  {
+    "id": "5.160",
+    "kap": 5,
+    "omr": "vard_omsorgsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En väntetid ligger vid den 90:e percentilen i ett datamaterial. Vad betyder det?</p>",
+    "s": "<p>Ungefär 90 % av observationerna ligger på eller under detta värde.</p>",
+    "familj": "vard_omsorgsprogrammet__statistik_och_fordelningar",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Ungefär 90 % ligger på eller under värdet",
+        "ratt": true
+      },
+      {
+        "txt": "Värdet är 90 % större än medelvärdet",
+        "ratt": false
+      },
+      {
+        "txt": "Exakt 10 observationer ligger över värdet",
+        "ratt": false
+      }
+    ],
+    "ledtrad": "<p>Percentilen beskriver hur stor andel som ligger på eller under ett värde.</p>"
+  },
+  {
+    "id": "5.161",
+    "kap": 5,
+    "omr": "vvs_fastighetsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en förenklad modell är tryckfallet \\(\\Delta p=0,02q^2\\), där \\(q\\) mäts i L/s.</p><p>Bestäm tryckfallet när \\(q=50\\).</p>",
+    "s": "<p>\\(\\Delta p=0,02\\cdot50^2=50\\).</p><p><strong>50 Pa.</strong></p>",
+    "familj": "vvs_fastighetsprogrammet__andragradsmodell_och_optimering",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "Pa",
+    "ledtrad": "<p>Sätt \\(q=50\\) i modellen och beräkna \\(50^2\\) först.</p>"
+  },
+  {
+    "id": "5.162",
+    "kap": 5,
+    "omr": "vvs_fastighetsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En värmekurva modelleras med \\(T(x)=-1,2x+36\\). Bestäm framledningstemperaturen när utomhustemperaturen är \\(-5\\ ^\\circ\\mathrm{C}\\).</p>",
+    "s": "<p>\\(T(-5)=-1,2(-5)+36=42\\).</p><p><strong>42 °C.</strong></p>",
+    "familj": "vvs_fastighetsprogrammet__linjar_modell",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C",
+    "ledtrad": "<p>Sätt \\(x=-5\\) i modellen. Var noga med tecknen.</p>"
+  },
+  {
+    "id": "5.163",
+    "kap": 5,
+    "omr": "vvs_fastighetsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett totalt flöde på 70 L/min delas mellan två grenar. Gren A får 10 L/min mer än gren B.</p><p>Bestäm flödet i båda grenarna.</p>",
+    "s": "<p>Om B har \\(x\\) får A \\(x+10\\). \\(x+(x+10)=70\\), så \\(x=30\\).</p><p><strong>A: 40 L/min, B: 30 L/min.</strong></p>",
+    "familj": "vvs_fastighetsprogrammet__ekvationssystem_och_fordelning",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      40,
+      30
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "L/min",
+      "L/min"
+    ],
+    "svarEtiketter": [
+      "Gren A",
+      "Gren B"
+    ],
+    "ledtrad": "<p>Låt det mindre flödet vara \\(x\\). Det större blir då \\(x+10\\).</p>"
+  },
+  {
+    "id": "5.164",
+    "kap": 5,
+    "omr": "vvs_fastighetsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett rektangulärt kanaltvärsnitt har höjden \\(x\\) m och bredden \\(x+0,10\\) m. Arean ska vara \\(0,30\\,\\mathrm{m^2}\\).</p><p>Bestäm måtten.</p>",
+    "s": "<p>\\(x(x+0,10)=0,30\\Rightarrow x^2+0,10x-0,30=0\\). Den positiva roten är \\(x=0,50\\).</p><p><strong>0,50 m × 0,60 m.</strong></p>",
+    "familj": "vvs_fastighetsprogrammet__andragradsmodell_och_optimering",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.5,
+      0.6
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "svarEtiketter": [
+      "Höjd",
+      "Bredd"
+    ],
+    "ledtrad": "<p>Areavillkoret är \\(x(x+0,10)=0,30\\). Bara den positiva roten är relevant.</p>"
+  },
+  {
+    "id": "5.165",
+    "kap": 5,
+    "omr": "vvs_fastighetsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En temperatur är ungefär normalfördelad med medelvärdet 20,0 °C och standardavvikelsen 1,5 °C.</p><p>Mellan vilka temperaturer ligger ungefär 68,2 % av värdena?</p>",
+    "s": "<p>68,2 % ligger inom en standardavvikelse: \\(20,0\\pm1,5\\).</p><p><strong>18,5–21,5 °C.</strong></p>",
+    "familj": "vvs_fastighetsprogrammet__statistik_och_fordelningar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18.5,
+      21.5
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C"
+    ],
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "ledtrad": "<p>Använd \\(\\mu-\\sigma\\) och \\(\\mu+\\sigma\\).</p>"
+  },
+  {
+    "id": "5.166",
+    "kap": 5,
+    "omr": "vvs_fastighetsprogrammet",
+    "kurs": [
+      "2a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två givare sitter i \\(A=(2,2)\\) och \\(B=(8,6)\\). Bestäm mittpunkten mellan dem.</p><div class=\"fig smal\"><svg width=\"410\" height=\"280\" viewBox=\"0 0 410 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"408\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"20\" x2=\"48.0\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"82.2\" y1=\"20\" x2=\"82.2\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"116.4\" y1=\"20\" x2=\"116.4\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"150.6\" y1=\"20\" x2=\"150.6\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"184.8\" y1=\"20\" x2=\"184.8\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"219.0\" y1=\"20\" x2=\"219.0\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"253.2\" y1=\"20\" x2=\"253.2\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"287.4\" y1=\"20\" x2=\"287.4\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"321.6\" y1=\"20\" x2=\"321.6\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"355.8\" y1=\"20\" x2=\"355.8\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"390.0\" y1=\"20\" x2=\"390.0\" y2=\"238\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"238.0\" x2=\"390\" y2=\"238.0\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"210.8\" x2=\"390\" y2=\"210.8\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"183.5\" x2=\"390\" y2=\"183.5\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"156.2\" x2=\"390\" y2=\"156.2\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"129.0\" x2=\"390\" y2=\"129.0\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"101.8\" x2=\"390\" y2=\"101.8\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"74.5\" x2=\"390\" y2=\"74.5\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"47.2\" x2=\"390\" y2=\"47.2\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"20.0\" x2=\"390\" y2=\"20.0\" stroke=\"#ECEAEC\"/><line x1=\"48\" y1=\"238.0\" x2=\"390\" y2=\"238.0\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><line x1=\"48.0\" y1=\"20\" x2=\"48.0\" y2=\"238\" stroke=\"#6F6B72\" stroke-width=\"1.5\"/><line x1=\"116.4\" y1=\"183.5\" x2=\"321.6\" y2=\"74.5\" stroke=\"#3D6FB4\" stroke-width=\"2.2\"/><circle cx=\"116.4\" cy=\"183.5\" r=\"5\" fill=\"#3D6FB4\"/><text x=\"124.4\" y=\"175.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#29272B\">A</text><circle cx=\"321.6\" cy=\"74.5\" r=\"5\" fill=\"#3D6FB4\"/><text x=\"329.6\" y=\"66.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#29272B\">B</text></svg></div>",
+    "s": "<p>\\[M=\\left(\\frac{2+8}{2},\\frac{2+6}{2}\\right)=(5,4).\\]</p>",
+    "familj": "vvs_fastighetsprogrammet__geometri_och_matning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      4
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "x",
+      "y"
+    ],
+    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna var för sig.</p>"
+  },
+  {
+    "id": "5.167",
+    "kap": 5,
+    "omr": "samhallsvetenskapsprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En modell för ett index är \\(S(t)=48+1,5t\\). Bestäm modellvärdet vid \\(t=4\\).</p>",
+    "s": "<p>\\(S(4)=48+1,5\\cdot4=54\\).</p><p><strong>Svar: 54.</strong></p>",
+    "familj": "samhallsvetenskapsprogrammet__linjar_modell",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 54,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt \\(t=4\\) i modellen.</p>"
+  },
+  {
+    "id": "5.168",
+    "kap": 5,
+    "omr": "samhallsvetenskapsprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Ett testresultat är ungefär normalfördelat med medelvärdet 100 och standardavvikelsen 15.</p><p>Mellan vilka värden ligger ungefär 68,2 % av resultaten?</p>",
+    "s": "<p>68,2 % ligger inom en standardavvikelse: \\(100\\pm15\\).</p><p><strong>85–115.</strong></p>",
+    "familj": "samhallsvetenskapsprogrammet__statistik_och_fordelningar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      85,
+      115
+    ],
+    "tolerans": [
+      0.01,
+      0.01
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEtiketter": [
+      "Nedre gräns",
+      "Övre gräns"
+    ],
+    "ledtrad": "<p>Använd intervallet \\(\\mu\\pm\\sigma\\).</p>"
+  },
+  {
+    "id": "5.169",
+    "kap": 5,
+    "omr": "samhallsvetenskapsprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>En enkät skickas till 300 personer. I grupp A svarar 50 % och i grupp B svarar 75 %. Totalt kommer 195 svar in.</p><p>Hur många personer fanns i respektive grupp?</p>",
+    "s": "<p>Låt \\(x+y=300\\). Dessutom \\(0,50x+0,75y=195\\). Då fås \\(y=180\\) och \\(x=120\\).</p><p><strong>A: 120, B: 180.</strong></p>",
+    "familj": "samhallsvetenskapsprogrammet__ekvationssystem_och_fordelning",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      120,
+      180
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "personer",
+      "personer"
+    ],
+    "svarEtiketter": [
+      "Grupp A",
+      "Grupp B"
+    ],
+    "ledtrad": "<p>Använd en ekvation för totalantalet och en för antalet inkomna svar.</p>"
+  },
+  {
+    "id": "5.170",
+    "kap": 5,
+    "omr": "samhallsvetenskapsprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En studie ger korrelationskoefficienten \\(r=-0,91\\). Hur beskrivs det linjära sambandet bäst?</p>",
+    "s": "<p>Ett värde nära −1 betyder ett starkt negativt linjärt samband.</p>",
+    "familj": "samhallsvetenskapsprogrammet__korrelation_och_regression",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Starkt positivt",
+        "ratt": false
+      },
+      {
+        "txt": "Starkt negativt",
+        "ratt": true
+      },
+      {
+        "txt": "Svagt eller inget linjärt samband",
+        "ratt": false
+      }
+    ],
+    "ledtrad": "<p>Titta både på tecknet och på hur nära \\(|r|\\) ligger 1.</p>"
+  },
+  {
+    "id": "5.171",
+    "kap": 5,
+    "omr": "samhallsvetenskapsprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lådagrammet visar ett datamaterial. Bestäm kvartilavståndet.</p><div class=\"fig smal\"><svg width=\"430\" height=\"180\" viewBox=\"0 0 430 180\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Lådagram\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"81.0\" y1=\"85\" x2=\"153.0\" y2=\"85\" stroke=\"#545158\" stroke-width=\"2\"/><line x1=\"333.0\" y1=\"85\" x2=\"405.0\" y2=\"85\" stroke=\"#545158\" stroke-width=\"2\"/><line x1=\"81.0\" y1=\"67\" x2=\"81.0\" y2=\"103\" stroke=\"#545158\" stroke-width=\"2\"/><line x1=\"405.0\" y1=\"67\" x2=\"405.0\" y2=\"103\" stroke=\"#545158\" stroke-width=\"2\"/><rect x=\"153.0\" y=\"57\" width=\"180.0\" height=\"56\" fill=\"#EAF0FA\" stroke=\"#3D6FB4\" stroke-width=\"2\"/><line x1=\"225.0\" y1=\"57\" x2=\"225.0\" y2=\"113\" stroke=\"#3D6FB4\" stroke-width=\"3\"/><line x1=\"45\" y1=\"145\" x2=\"405\" y2=\"145\" stroke=\"#6F6B72\" stroke-width=\"1.3\"/><line x1=\"45.0\" y1=\"141\" x2=\"45.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"45.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">0</text><line x1=\"81.0\" y1=\"141\" x2=\"81.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"81.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">1</text><line x1=\"117.0\" y1=\"141\" x2=\"117.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"117.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">2</text><line x1=\"153.0\" y1=\"141\" x2=\"153.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"153.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">3</text><line x1=\"189.0\" y1=\"141\" x2=\"189.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"189.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">4</text><line x1=\"225.0\" y1=\"141\" x2=\"225.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"225.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">5</text><line x1=\"261.0\" y1=\"141\" x2=\"261.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"261.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">6</text><line x1=\"297.0\" y1=\"141\" x2=\"297.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"297.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">7</text><line x1=\"333.0\" y1=\"141\" x2=\"333.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"333.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">8</text><line x1=\"369.0\" y1=\"141\" x2=\"369.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"369.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">9</text><line x1=\"405.0\" y1=\"141\" x2=\"405.0\" y2=\"149\" stroke=\"#6F6B72\"/><text x=\"405.0\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#545158\">10</text></svg></div>",
+    "s": "<p>\\(Q_1=3\\) och \\(Q_3=8\\). Kvartilavståndet är \\(8-3=5\\).</p><p><strong>Svar: 5.</strong></p>",
+    "familj": "samhallsvetenskapsprogrammet__statistik_och_fordelningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kvartilavståndet är \\(Q_3-Q_1\\), alltså lådans bredd på skalan.</p>"
+  },
+  {
+    "id": "5.172",
+    "kap": 5,
+    "omr": "samhallsvetenskapsprogrammet",
+    "kurs": [
+      "2b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Antalet följare i en förenklad modell är \\(A(t)=2000\\cdot1,10^t\\). Beräkna modellvärdet efter 2 tidsenheter.</p>",
+    "s": "<p>\\(A(2)=2000\\cdot1,10^2=2420\\).</p><p><strong>Svar: 2 420.</strong></p>",
+    "familj": "samhallsvetenskapsprogrammet__exponential_och_procentmodell",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2420,
+    "tolerans": 1,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt \\(t=2\\) i exponentialmodellen.</p>"
   }
 ];

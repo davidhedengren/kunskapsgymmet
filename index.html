@@ -5379,15 +5379,18 @@ function levelStats(area,L){
   const a=cp.levels[area];
   if(a[L]) return a[L];
 
+  /* Startvärdena nedan är uppskattningar, inte gjorda uppgifter på nivån.
+     pn håller reda på hur mycket av n som är påhittat, så att visningen
+     kan räkna bara riktiga uppgifter. */
   const legacy=legacyLevelStat(a,L);
-  if(legacy) return (a[L]=legacy);
+  if(legacy) return (a[L]={...legacy,pn:legacy.n});
 
   if((L==="1" || L==="2") && typeof cp.areas[area]==="number"){
     const n=Math.min(3,cp.history.filter(h=>h.area===area).length);
-    return (a[L]={s:cp.areas[area],n});
+    return (a[L]={s:cp.areas[area],n,pn:n});
   }
   const p=nivaPrior(area,L);
-  return (a[L]=p===null ? {s:.5,n:0} : {s:p,n:3});
+  return (a[L]=p===null ? {s:.5,n:0} : {s:p,n:3,pn:3});
 }
 function updateLevelStat(area,L,ok){
   if(!area) return;
@@ -5412,6 +5415,16 @@ function levelStatRead(area,L){
     return {s:cp.areas[area],n:Math.min(3,cp.history.filter(h=>h.area===area).length)};
   }
   return {s:.5,n:0};
+}
+/* För förklaringstexten: bara uppgifter eleven faktiskt gjort på nivån.
+   Läser utan att skriva, så att det inte ändrar profilen att öppna vyn.
+   (Profiler sparade före pn infördes kan fortfarande innehålla gamla
+   startvärden i n; de går inte att skilja ut i efterhand.) */
+function levelStatVisning(area,L){
+  const cp=ensureCourseProfile();
+  const st=cp.levels && cp.levels[area] && cp.levels[area][L];
+  if(!st) return {s:0,n:0};
+  return {s:st.s,n:Math.max(0,(st.n||0)-(st.pn||0))};
 }
 function levelQuality(area,L){
   const st=levelStatRead(area,L);
@@ -5446,9 +5459,13 @@ function chapterProgress(){
 function nivaStat(areor){
   const ut={};
   NIVAER.forEach(L=>{
-    let n=0, traffar=0;
-    areor.forEach(a=>{ const st=scopeLevel(L,a.key); n+=st.n; traffar+=st.s*st.n; });
-    ut[L]={n,andel:n?traffar/n:0};
+    let n=0, traffar=0, omraden=0, unga=0;
+    areor.forEach(a=>{
+      const st=levelStatVisning(a.key,L);
+      n+=st.n; traffar+=st.s*st.n;
+      if(st.n>0){ omraden++; if(st.n<5) unga++; }
+    });
+    ut[L]={n,andel:n?traffar/n:0,omraden,unga,totalt:areor.length};
   });
   return ut;
 }
@@ -5473,12 +5490,31 @@ function svagastIKapitel(areor){
 
 function nivaInfo(namn,L,varde,st){
   const pct=Math.round(varde*100);
-  const grund = st.n
-    ? `Du har gjort ${st.n} uppgift${st.n===1?"":"er"} på nivå ${L} i ${namn} `
-      +`och klarat ${Math.round(st.andel*100)} %.`
-    : `Du har inte tränat nivå ${L} i ${namn} än.`;
-  const mognad = st.n ? " Fältet fylls av både antal rätt och antal uppgifter." : "";
-  return {kort:`Nivå ${L}, ${pct} %`, lang:`${NIVA_TEXT[L]} ${grund}${mognad}`};
+  const uppg=`${st.n} uppgift${st.n===1?"":"er"}`;
+  const delomr=k=>`${k} delområde${k===1?"":"n"}`;
+  let grund, fyllning;
+  if(!st.n){
+    grund=`Du har inte tränat nivå ${L} i ${namn} än.`;
+    fyllning = pct>0
+      ? " Fältet visar en försiktig uppskattning utifrån det du gjort på andra nivåer."
+      : "";
+  }else{
+    const var_ = st.totalt>1
+      ? `i ${st.omraden} av ${delomr(st.totalt)} i ${namn}`
+      : `i ${namn}`;
+    grund=`Du har tränat nivå ${L} ${var_} (${uppg}) och ligger kring `
+      +`${Math.round(st.andel*100)} % rätt där.`;
+    const kvar=st.totalt-st.omraden;
+    if(kvar>0){
+      fyllning=` Fältet är ett snitt över alla ${delomr(st.totalt)}, så det fylls mest `
+        +`av att träna ${kvar===1?"det som återstår":`de ${kvar} som återstår`}.`;
+    }else if(st.unga>0){
+      fyllning=" Delområden med färre än 5 uppgifter räknas bara delvis än.";
+    }else{
+      fyllning=" Nu fylls fältet av hur säkert du klarar uppgifterna.";
+    }
+  }
+  return {kort:`Nivå ${L}, ${pct} %`, lang:`${NIVA_TEXT[L]} ${grund}${fyllning}`};
 }
 function courseProgress(){
   const q=meanLevels(getAreas().map(a=>areaLevels(a.key)));

@@ -2381,7 +2381,7 @@ window.BANKMA2 = [
     "traningsniva": 1,
     "arbetsinsats": 1
   },
-  {
+    {
     "id": "1.71",
     "kap": 1,
     "omr": "rata_linjens_ekvation",
@@ -2392,8 +2392,8 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Grafen visar funktionen \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"307.86\" x2=\"406.00\" y2=\"307.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"285.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"263.57\" x2=\"406.00\" y2=\"263.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"219.29\" x2=\"406.00\" y2=\"219.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"406.00\" y2=\"197.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"152.86\" x2=\"406.00\" y2=\"152.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"130.71\" x2=\"406.00\" y2=\"130.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"108.57\" x2=\"406.00\" y2=\"108.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"86.43\" x2=\"406.00\" y2=\"86.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"64.29\" x2=\"406.00\" y2=\"64.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"42.14\" x2=\"406.00\" y2=\"42.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"80.55\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"113.09\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"178.18\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"210.73\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"243.27\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"275.82\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"308.36\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"340.91\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"373.45\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"406.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"137.64\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"137.64\" y=\"310.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"137.64\" y=\"288.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"137.64\" y=\"266.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"137.64\" y=\"222.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"137.64\" y=\"200.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"137.64\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"137.64\" y=\"155.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"137.64\" y=\"133.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"137.64\" y=\"111.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"137.64\" y=\"89.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"137.64\" y=\"67.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"137.64\" y=\"45.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"137.64\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"42.14\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/><text x=\"379.96\" y=\"35.50\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">f</text></svg></span><p>Bestäm en ekvation för funktionen och använd den sedan för att bestämma \\(f(6,5)\\).</p>",
-    "s": "<p>Linjen går genom \\((0,1)\\) och \\((2,3)\\), så \\(k=1\\) och \\(m=1\\).</p><p>Alltså \\(f(x)=x+1\\). Då \\(f(6,5)=7,5\\).</p><p><strong>\\(f(x)=x+1\\) och \\(f(6,5)=7,5\\).</strong></p>",
+    "t": "<p>Grafen visar funktionen \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"307.86\" x2=\"406.00\" y2=\"307.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"285.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"263.57\" x2=\"406.00\" y2=\"263.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"219.29\" x2=\"406.00\" y2=\"219.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"406.00\" y2=\"197.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"152.86\" x2=\"406.00\" y2=\"152.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"130.71\" x2=\"406.00\" y2=\"130.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"108.57\" x2=\"406.00\" y2=\"108.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"86.43\" x2=\"406.00\" y2=\"86.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"64.29\" x2=\"406.00\" y2=\"64.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"42.14\" x2=\"406.00\" y2=\"42.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"80.55\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"113.09\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"178.18\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"210.73\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"243.27\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"275.82\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"308.36\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"340.91\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"373.45\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"406.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"137.64\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"137.64\" y=\"310.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"137.64\" y=\"288.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"137.64\" y=\"266.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"137.64\" y=\"222.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"137.64\" y=\"200.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"137.64\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"137.64\" y=\"155.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"137.64\" y=\"133.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"137.64\" y=\"111.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"137.64\" y=\"89.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"137.64\" y=\"67.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"137.64\" y=\"45.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"137.64\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"42.14\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/><text x=\"379.96\" y=\"35.50\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">f</text></svg></span><p>a) Bestäm en ekvation för funktionen.<br>b) Bestäm \\(f(6,5)\\).</p>",
+    "s": "<p>Linjen går genom \\((0,1)\\) och \\((2,3)\\), så \\(k=1\\) och \\(m=1\\).</p><p>a) \\(f(x)=x+1\\).</p><p>b) \\(f(6,5)=6,5+1=7,5\\).</p><p><strong>Svar: a) \\(f(x)=x+1\\), b) \\(7,5\\).</strong></p>",
     "familj": "rata_linjens_ekvation__tolka_och_anvanda_kxm",
     "formaga": [
       "procedur",
@@ -2401,14 +2401,52 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\(f(x)=x+1\\) och \\(f(6,5)=7,5\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "f(x)=x+1",
+      7.5
+    ],
+    "tolerans": [
+      null,
+      1e-09
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Utgå från vad riktningskoefficienten och skärningen med y-axeln berättar om linjen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "f(x)",
+      "f(6,5)"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Grafen visar funktionen \\(f\\).</p><span class=\"fig smal\"><svg width=\"430\" height=\"370\" viewBox=\"0 0 430 370\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"368\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"48.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"80.55\" y1=\"330.00\" x2=\"80.55\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"113.09\" y1=\"330.00\" x2=\"113.09\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"178.18\" y1=\"330.00\" x2=\"178.18\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"210.73\" y1=\"330.00\" x2=\"210.73\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"243.27\" y1=\"330.00\" x2=\"243.27\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"275.82\" y1=\"330.00\" x2=\"275.82\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"308.36\" y1=\"330.00\" x2=\"308.36\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"340.91\" y1=\"330.00\" x2=\"340.91\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"373.45\" y1=\"330.00\" x2=\"373.45\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"406.00\" y1=\"330.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"330.00\" x2=\"406.00\" y2=\"330.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"307.86\" x2=\"406.00\" y2=\"307.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"285.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"263.57\" x2=\"406.00\" y2=\"263.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"219.29\" x2=\"406.00\" y2=\"219.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"197.14\" x2=\"406.00\" y2=\"197.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"175.00\" x2=\"406.00\" y2=\"175.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"152.86\" x2=\"406.00\" y2=\"152.86\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"130.71\" x2=\"406.00\" y2=\"130.71\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"108.57\" x2=\"406.00\" y2=\"108.57\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"86.43\" x2=\"406.00\" y2=\"86.43\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"64.29\" x2=\"406.00\" y2=\"64.29\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"42.14\" x2=\"406.00\" y2=\"42.14\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"20.00\" x2=\"406.00\" y2=\"20.00\" stroke=\"#E4E3E6\"/><line x1=\"48.00\" y1=\"241.43\" x2=\"406.00\" y2=\"241.43\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"48.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"80.55\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"113.09\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"178.18\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"210.73\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"243.27\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"275.82\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"308.36\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"340.91\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"373.45\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"406.00\" y=\"258.43\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><line x1=\"145.64\" y1=\"330.00\" x2=\"145.64\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"137.64\" y=\"333.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-4</text><text x=\"137.64\" y=\"310.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-3</text><text x=\"137.64\" y=\"288.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-2</text><text x=\"137.64\" y=\"266.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">-1</text><text x=\"137.64\" y=\"222.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">1</text><text x=\"137.64\" y=\"200.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">2</text><text x=\"137.64\" y=\"178.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">3</text><text x=\"137.64\" y=\"155.86\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">4</text><text x=\"137.64\" y=\"133.71\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">5</text><text x=\"137.64\" y=\"111.57\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">6</text><text x=\"137.64\" y=\"89.43\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">7</text><text x=\"137.64\" y=\"67.29\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">8</text><text x=\"137.64\" y=\"45.14\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">9</text><text x=\"137.64\" y=\"23.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#5C575E\">10</text><line x1=\"48.00\" y1=\"285.71\" x2=\"406.00\" y2=\"42.14\" stroke=\"#2A5D9E\" stroke-width=\"2.7\"/><text x=\"379.96\" y=\"35.50\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">f</text></svg></span>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm en ekvation för funktionen.</p>",
+        "s": "<p>Linjen går genom \\((0,1)\\) och \\((2,3)\\), så \\(k=1\\) och \\(m=1\\). Alltså \\(f(x)=x+1\\).</p>",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm \\(f(6,5)\\).</p>",
+        "s": "<p>Med \\(f(x)=x+1\\) fås \\(f(6,5)=6,5+1=7,5\\).</p><p><strong>7,5</strong></p>",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "1.72",
@@ -4636,7 +4674,7 @@ window.BANKMA2 = [
     "traningsniva": 3,
     "arbetsinsats": 1
   },
-  {
+    {
     "id": "1.148",
     "kap": 1,
     "omr": "additionsmetoden",
@@ -4656,13 +4694,14 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,\\frac{1}{3})\\)",
+    "rättSvar": "(3,1/3)",
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Addera ekvationerna direkt; y-termerna tar ut varandra.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": "punkt"
   },
   {
     "id": "1.149",
@@ -5765,7 +5804,7 @@ window.BANKMA2 = [
     "traningsniva": 3,
     "arbetsinsats": 2
   },
-  {
+    {
     "id": "1.202",
     "kap": 1,
     "omr": "bestamma_linjara_funktioner",
@@ -5788,13 +5827,14 @@ window.BANKMA2 = [
     "miniräknare": true,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "Prisfunktionen är \\(P(x)=55+18x\\)",
+    "rättSvar": "P(x)=55+18x",
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>I en linjär kostnadsmodell är startavgiften konstanttermen och kostnaden per kilometer koefficienten framför \\(x\\).</p>",
     "spel": true,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": "uttryck"
   },
   {
     "id": "1.204",
@@ -13980,7 +14020,7 @@ window.BANKMA2 = [
     "traningsniva": 1,
     "arbetsinsats": 1
   },
-  {
+    {
     "id": "2.130",
     "kap": 2,
     "omr": "losningsformel_andragrad",
@@ -14027,7 +14067,7 @@ window.BANKMA2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(4x^2-12x+5=0\\)</p>",
-        "s": "<p><strong>\\(x=\frac12\\) eller \\(x=\frac52\\)</strong></p>",
+        "s": "<p><strong>\\(x=\\frac12\\) eller \\(x=\\frac52\\)</strong></p>",
         "poang": "1/0/0",
         "traningsniva": 1,
         "arbetsinsats": 2
@@ -14035,7 +14075,7 @@ window.BANKMA2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(6x^2+x-2=0\\)</p>",
-        "s": "<p><strong>\\(x=\frac12\\) eller \\(x=-\frac23\\)</strong></p>",
+        "s": "<p><strong>\\(x=\\frac12\\) eller \\(x=-\\frac23\\)</strong></p>",
         "poang": "1/0/0",
         "traningsniva": 1,
         "arbetsinsats": 2
@@ -14043,7 +14083,7 @@ window.BANKMA2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(2x^2-5x-12=0\\)</p>",
-        "s": "<p><strong>\\(x=4\\) eller \\(x=-\frac32\\)</strong></p>",
+        "s": "<p><strong>\\(x=4\\) eller \\(x=-\\frac32\\)</strong></p>",
         "poang": "1/0/0",
         "traningsniva": 1,
         "arbetsinsats": 2
@@ -21482,7 +21522,7 @@ window.BANKMA2 = [
     "spel": true,
     "ledtrad": "<p>Använd toppformen med maximipunkten \\((-2,12)\\) och sätt in punkten \\((1,3)\\).</p>"
   },
-  {
+    {
     "id": "2.319",
     "kap": 2,
     "omr": "symmetrilinje_extrempunkt",
@@ -21505,34 +21545,22 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
-      [
-        2,
-        11
-      ]
+      "(2,11)"
     ],
     "tolerans": [
       1e-09,
-      [
-        1e-09,
-        1e-09
-      ]
+      null
     ],
     "självrättning": [
       true,
-      [
-        true,
-        true
-      ]
+      true
     ],
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": [
       "numeriskt",
-      [
-        "numeriskt",
-        "numeriskt"
-      ]
+      "punkt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [

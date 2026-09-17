@@ -1625,6 +1625,38 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   border-radius:9px;padding:5px 8px;background:var(--surface)}
 .felpost .knapp:hover{color:var(--good);border-color:color-mix(in srgb,var(--good) 40%,var(--hair))}
 .felpost .knapp.avfard:hover{color:var(--ink2);border-color:var(--hair2)}
+
+/* ── Adminöversikt ───────────────────────────────────────────────────── */
+.admin-summering{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:14px 0 16px}
+.admin-siffra{padding:11px 12px;border:1px solid var(--hair);border-radius:14px;background:var(--surface2)}
+.admin-siffra strong{display:block;font-size:22px;letter-spacing:-.04em}
+.admin-siffra span{display:block;margin-top:2px;font-size:10.5px;color:var(--ink3)}
+.admin-flikar{display:flex;gap:7px;flex-wrap:wrap;margin:4px 0 14px}
+.admin-flikar button{padding:7px 12px;border-radius:99px;border:1px solid var(--hair);background:var(--surface2);font-size:12.5px;font-weight:650;color:var(--ink2)}
+.admin-flikar button.pa{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
+.admin-verktyg{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+.admin-sok{flex:1;min-width:220px;padding:9px 12px;border:1px solid var(--hair);border-radius:12px;background:var(--surface2);color:var(--ink);font:inherit;font-size:13px}
+.admin-lista{display:flex;flex-direction:column;gap:7px}
+.admin-user,.admin-report{padding:12px 13px;border:1px solid var(--hair);border-radius:15px;background:var(--surface2)}
+.admin-user-topp,.admin-report-topp{display:flex;align-items:center;gap:10px;min-width:0}
+.admin-user-topp .ident,.admin-report-topp .ident{flex:1;min-width:0}
+.admin-user-topp b,.admin-report-topp b{display:block;font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.admin-user-topp small,.admin-report-topp small{display:block;margin-top:2px;color:var(--ink3);font-size:11.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.admin-status{display:inline-flex;align-items:center;gap:6px;font-size:11px;font-weight:700;white-space:nowrap;color:var(--ink3)}
+.admin-status:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--ink3);opacity:.55}
+.admin-status.online{color:var(--good)}.admin-status.online:before{background:var(--good);opacity:1;box-shadow:0 0 0 3px var(--goodSoft)}
+.admin-meta{display:flex;gap:7px 13px;flex-wrap:wrap;margin-top:9px;color:var(--ink3);font-size:10.5px;line-height:1.45}
+.admin-meta span{white-space:nowrap}
+.admin-rapportknapp{margin-top:9px;padding:5px 8px;border-radius:9px;border:1px solid var(--hair);background:var(--surface);font-size:11px;font-weight:650;color:var(--ink2)}
+.admin-rapportknapp:hover{border-color:var(--hair2);color:var(--accInk)}
+.admin-report .rapporttext{margin-top:8px;font-size:12px;line-height:1.5;color:var(--ink2);font-family:var(--read)}
+.admin-report .rapporttext em{color:var(--ink3);font-style:normal}
+.admin-rapportstatus{font-size:10.5px;font-weight:700;padding:4px 7px;border-radius:99px;background:var(--surface);border:1px solid var(--hair);color:var(--ink3)}
+.admin-rapportstatus.oppen{color:var(--warn);background:var(--warnSoft);border-color:transparent}
+.admin-rapportstatus.atgardad{color:var(--good);background:var(--goodSoft);border-color:transparent}
+.admin-notis{margin:10px 0 0;padding:10px 12px;border-radius:13px;background:var(--surface2);color:var(--ink3);font-size:11.5px;line-height:1.5;font-family:var(--read)}
+@media(max-width:620px){.admin-summering{grid-template-columns:repeat(2,minmax(0,1fr))}.admin-user-topp,.admin-report-topp{align-items:flex-start;flex-wrap:wrap}}
+
 .verktygsikoner{display:inline-flex;align-items:center;gap:5px;flex:none}
 .verktygsikon{
   width:22px;height:22px;border-radius:7px;display:inline-grid;place-items:center;
@@ -2414,7 +2446,8 @@ function loggaIn(){ if(MOLN_PA()) bytGate("val"); }
 function returAdress(){ return location.origin+location.pathname; }
 async function loggaUt(){
   stangKunskap();
-  arLarare=false; felOppnaAntal=null;
+  arLarare=false; arAdmin=false; felOppnaAntal=null;
+  clearInterval(kgHeartbeatTimer); kgHeartbeatTimer=null;
   try{ localStorage.removeItem(LARARE_KEY); }catch(_){}
   if(session){
     try{ await fetch(SUPABASE_URL+"/auth/v1/logout",{method:"POST",headers:sbHeaders(true)}); }catch(_){}
@@ -3984,7 +4017,41 @@ function toppKnapp(){
    databasen som avgör vad som faktiskt går att läsa. */
 const LARARE_KEY="kunskapsgymmet-larare";
 let arLarare=false;
+let arAdmin=false;
 let felOppnaAntal=null;
+let kgHeartbeatTimer=null;
+
+async function kontrolleraAdmin(){
+  if(!MOLN_PA() || !session){ arAdmin=false; return false; }
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_ar_admin",{
+      method:"POST",headers:sbHeaders(true),body:"{}"
+    });
+    arAdmin = r.ok ? (await r.json())===true : false;
+  }catch(_){ arAdmin=false; }
+  return arAdmin;
+}
+
+async function kgHeartbeat(){
+  if(!MOLN_PA() || !session || document.visibilityState==="hidden") return;
+  try{
+    if(!await giltigSession()) return;
+    await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_heartbeat",{
+      method:"POST",headers:sbHeaders(true),body:JSON.stringify({p_data:{
+        namn:profile?.namn||null,
+        xp:Math.max(0,Number(profile?.xp)||0),
+        uppgifter:Math.max(0,Number(profile?.attempts)||0),
+        kurs:state?.course||null,
+        vy:state?.view||null
+      }})
+    });
+  }catch(_){ /* närvaro får aldrig störa träningen */ }
+}
+function startaKgHeartbeat(){
+  clearInterval(kgHeartbeatTimer);
+  kgHeartbeat();
+  kgHeartbeatTimer=setInterval(kgHeartbeat,45000);
+}
 
 async function kontrolleraLarare(){
   if(!MOLN_PA() || !session){ arLarare=false; }
@@ -4062,6 +4129,12 @@ function kontoMeny(ev){
       <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button>
     </div>`:""}
 
+    ${arAdmin?`
+    <div class="menyfalt">
+      <div class="menyrubrik">Administration</div>
+      <button class="btn sm wide" onclick="oppnaAdmin()">Användare &amp; rapporter</button>
+    </div>`:""}
+
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
   document.body.appendChild(el);
   const r=ev.currentTarget.getBoundingClientRect();
@@ -4076,6 +4149,155 @@ function kontoMeny(ev){
 function franMenyn(fn){
   document.getElementById("kontomeny")?.remove();
   fn();
+}
+
+let kgAdminData={anvandare:[],rapporter:[]};
+let kgAdminFlik="anvandare", kgAdminUserFilter=null, kgAdminStatusFilter="alla";
+
+async function kgAdminRpc(namn,kropp={}){
+  if(!await giltigSession()) throw new Error("Logga in igen.");
+  const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/"+namn,{
+    method:"POST",headers:sbHeaders(true),body:JSON.stringify(kropp)
+  });
+  if(r.status===404) throw new Error("Adminfunktionen är inte installerad i Supabase ännu.");
+  if(!r.ok){
+    let t=""; try{ t=await r.text(); }catch(_){}
+    if(/kg:ej_admin/.test(t)) throw new Error("Det här kontot är inte Kunskapsgymmet-admin.");
+    throw new Error("Admininformationen kunde inte hämtas.");
+  }
+  return r.json();
+}
+function kgAdminTid(v){
+  if(!v) return "–";
+  const d=new Date(v); if(Number.isNaN(d.getTime())) return "–";
+  return d.toLocaleString("sv-SE",{dateStyle:"short",timeStyle:"short"});
+}
+function kgAdminProviders(v){
+  const a=Array.isArray(v)?v:(v?[v]:[]);
+  return a.map(x=>String(x)==="google"?"Google":String(x)==="email"?"E-post":String(x)).join(", ")||"–";
+}
+function kgAdminStatusText(s){ return s==="atgardad"?"Åtgärdad":s==="ignorerad"?"Ignorerad":"Öppen"; }
+function kgAdminNiva(xp){ return levelFromXP(Math.max(0,Number(xp)||0)); }
+
+async function oppnaAdmin(){
+  document.getElementById("kontomeny")?.remove();
+  stangAdmin();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="adminruta";
+  el.innerHTML=`<div class="modal-kort" style="width:min(980px,100%)" role="dialog" aria-modal="true" aria-label="Administration">
+      <div class="modal-topp">
+        <div><div class="lbl">Kunskapsgymmet · admin</div><h2>Användare och felrapporter</h2></div>
+        <button class="iconbtn" onclick="stangAdmin()" aria-label="Stäng">✕</button>
+      </div>
+      <div id="adminkropp"><p class="modal-text">Hämtar användare…</p></div>
+      <div class="modal-fot"><span class="spacer"></span><button class="btn primary" onclick="stangAdmin()">Stäng</button></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{if(e.target===el) stangAdmin();});
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  await kgAdminLadda();
+}
+function stangAdmin(){
+  const el=document.getElementById("adminruta"); if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa"); setTimeout(()=>el.remove(),250);
+}
+async function kgAdminLadda(){
+  const host=document.getElementById("adminkropp"); if(!host) return;
+  try{
+    const [a,r]=await Promise.all([
+      kgAdminRpc("kg_admin_anvandare"),
+      kgAdminRpc("kg_admin_felrapporter",{p_user:null,p_status:null,p_limit:1000})
+    ]);
+    kgAdminData.anvandare=Array.isArray(a)?a:[];
+    kgAdminData.rapporter=Array.isArray(r)?r:[];
+    kgAdminRita();
+  }catch(e){ host.innerHTML=`<p class="modal-text">${esc(e.message)}</p>`; }
+}
+function kgAdminBytFlik(f){ kgAdminFlik=f; kgAdminRita(); }
+function kgAdminVisaRapporterFor(uid){ kgAdminUserFilter=uid; kgAdminFlik="rapporter"; kgAdminRita(); }
+function kgAdminRensaUserFilter(){ kgAdminUserFilter=null; kgAdminRita(); }
+function kgAdminSok(){ kgAdminRitaLista(); }
+function kgAdminStatus(v){ kgAdminStatusFilter=v; kgAdminRitaLista(); }
+
+function kgAdminRita(){
+  const host=document.getElementById("adminkropp"); if(!host) return;
+  const alla=kgAdminData.anvandare;
+  const online=alla.filter(x=>x.online).length;
+  const aktivaIdag=alla.filter(x=>x.senast_sedd && Date.now()-new Date(x.senast_sedd).getTime()<86400000).length;
+  const oppna=kgAdminData.rapporter.filter(x=>x.status==="oppen").length;
+  host.innerHTML=`
+    <div class="admin-summering">
+      <div class="admin-siffra"><strong>${alla.length}</strong><span>registrerade användare</span></div>
+      <div class="admin-siffra"><strong>${online}</strong><span>online nu</span></div>
+      <div class="admin-siffra"><strong>${aktivaIdag}</strong><span>aktiva senaste dygnet</span></div>
+      <div class="admin-siffra"><strong>${oppna}</strong><span>identifierade öppna rapporter</span></div>
+    </div>
+    <div class="admin-flikar">
+      <button class="${kgAdminFlik==="anvandare"?"pa":""}" onclick="kgAdminBytFlik('anvandare')">Användare</button>
+      <button class="${kgAdminFlik==="rapporter"?"pa":""}" onclick="kgAdminBytFlik('rapporter')">Felrapporter</button>
+    </div>
+    <div id="adminlista"></div>
+    <div class="admin-notis">Online betyder att en inloggad användare haft Kunskapsgymmet öppet och synligt under de senaste två minuterna. Felrapportens användare visas endast för rapporter som skickas efter denna adminfunktion installerats; äldre rapporter finns kvar i den vanliga aggregerade felloggen.</div>`;
+  kgAdminRitaLista();
+}
+function kgAdminRitaLista(){
+  const host=document.getElementById("adminlista"); if(!host) return;
+  if(kgAdminFlik==="anvandare"){
+    const gammal=document.getElementById("admin-sok")?.value||"";
+    const q=gammal.trim().toLowerCase();
+    let lista=kgAdminData.anvandare;
+    if(q) lista=lista.filter(u=>[u.namn,u.epost,u.kurs].some(v=>String(v||"").toLowerCase().includes(q)));
+    host.innerHTML=`<div class="admin-verktyg">
+        <input class="admin-sok" id="admin-sok" value="${esc(gammal)}" placeholder="Sök namn, e-post eller kurs" oninput="kgAdminSok()">
+      </div>
+      <div class="admin-lista">${lista.length?lista.map(u=>{
+        const niva=kgAdminNiva(u.xp), rank=rankFor(niva);
+        const kurs=u.kurs?(COURSES[u.kurs]?.name||u.kurs):"Ingen kurs öppen";
+        return `<div class="admin-user">
+          <div class="admin-user-topp">
+            <div class="ident"><b>${esc(u.namn||"Okänd")}</b><small>${esc(u.epost||"Ingen e-post")}</small></div>
+            <span class="admin-status${u.online?" online":""}">${u.online?"Online":"Offline"}</span>
+          </div>
+          <div class="admin-meta">
+            <span>${esc(kgAdminProviders(u.providers))}</span>
+            <span>Skapad ${esc(kgAdminTid(u.skapad))}</span>
+            <span>Senast inloggad ${esc(kgAdminTid(u.senast_inloggad))}</span>
+            <span>Senast sedd ${esc(kgAdminTid(u.senast_sedd))}</span>
+            <span>${esc(kurs)}</span>
+            <span>Nivå ${niva} · ${esc(rank.name)} · ${Number(u.xp)||0} XP</span>
+            <span>${Number(u.uppgifter)||0} uppgifter</span>
+          </div>
+          <button class="admin-rapportknapp" onclick="kgAdminVisaRapporterFor('${u.user_id}')">Felrapporter: ${Number(u.rapporter)||0}${Number(u.oppna_rapporter)?` · ${Number(u.oppna_rapporter)} öppna`:""}</button>
+        </div>`;
+      }).join(""):`<p class="modal-text">Ingen användare matchar sökningen.</p>`}</div>`;
+    const input=document.getElementById("admin-sok"); if(input){input.focus(); input.setSelectionRange(input.value.length,input.value.length);}
+    return;
+  }
+
+  const vald=kgAdminUserFilter?kgAdminData.anvandare.find(u=>u.user_id===kgAdminUserFilter):null;
+  let lista=kgAdminData.rapporter.filter(r=>(!kgAdminUserFilter||r.user_id===kgAdminUserFilter) && (kgAdminStatusFilter==="alla"||r.status===kgAdminStatusFilter));
+  host.innerHTML=`<div class="admin-verktyg">
+      ${vald?`<button class="btn sm" onclick="kgAdminRensaUserFilter()">Alla användare</button><span class="modal-text" style="margin:0">Visar ${esc(vald.namn||vald.epost||"användare")}</span>`:""}
+      <span class="spacer"></span>
+      <select class="admin-sok" style="flex:0 1 180px;min-width:160px" onchange="kgAdminStatus(this.value)">
+        <option value="alla" ${kgAdminStatusFilter==="alla"?"selected":""}>Alla statusar</option>
+        <option value="oppen" ${kgAdminStatusFilter==="oppen"?"selected":""}>Öppna</option>
+        <option value="atgardad" ${kgAdminStatusFilter==="atgardad"?"selected":""}>Åtgärdade</option>
+        <option value="ignorerad" ${kgAdminStatusFilter==="ignorerad"?"selected":""}>Ignorerade</option>
+      </select>
+    </div>
+    <div class="admin-lista">${lista.length?lista.map(r=>{
+      const taggar=(Array.isArray(r.taggar)?r.taggar:[]).map(x=>FEL_TAGGAR.find(y=>y.id===x)?.txt||x).join(" · ");
+      const kurs=COURSES[r.kurs]?.name||r.kurs||"Okänd kurs";
+      return `<div class="admin-report">
+        <div class="admin-report-topp">
+          <div class="ident"><b>${esc(r.namn||"Okänd")}</b><small>${esc(r.epost||"Kontot finns inte längre")}</small></div>
+          <span class="admin-rapportstatus ${esc(r.status||"oppen")}">${esc(kgAdminStatusText(r.status))}</span>
+        </div>
+        <div class="admin-meta"><span>${esc(kurs)}</span><span>Uppgift #${esc(r.uppgift||"–")}${r.deluppgift?` · del ${esc(r.deluppgift)}`:""}</span><span>${esc(kgAdminTid(r.skapad))}</span>${r.spar?`<span>Spår ${esc(r.spar)}</span>`:""}</div>
+        <div class="rapporttext">${taggar?esc(taggar):"<em>Ingen tagg</em>"}${r.kommentar?`<br>“${esc(r.kommentar)}”`:""}</div>
+      </div>`;
+    }).join(""):`<p class="modal-text">Inga identifierade felrapporter i det här urvalet.</p>`}</div>`;
 }
 
 async function vaxlaSynlighet(btn){
@@ -7410,15 +7632,21 @@ function felFlaggaHtml(t){
 async function felSkickaEn(r){
   if(!MOLN_PA()) return false;
   try{
+    const rapport={
+      kurs:r.kurs, spar:r.spar||null, uppgift:r.uppgift, deluppgift:r.deluppgift||null,
+      kapitel:r.kapitel||null, omrade:r.omrade||null, svarstyp:r.svarstyp||null,
+      taggar:r.taggar||[], kommentar:r.kommentar||null,
+      bank:r.bank||null, enhet:r.enhet||null, tid:r.tid||null
+    };
     const svar=await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_rapportera_fel",{
-      method:"POST",headers:sbHeaders(!!session),
-      body:JSON.stringify({p_rapport:{
-        kurs:r.kurs, spar:r.spar||null, uppgift:r.uppgift, deluppgift:r.deluppgift||null,
-        kapitel:r.kapitel||null, omrade:r.omrade||null, svarstyp:r.svarstyp||null,
-        taggar:r.taggar||[], kommentar:r.kommentar||null,
-        bank:r.bank||null, enhet:r.enhet||null, tid:r.tid||null
-      }})
+      method:"POST",headers:sbHeaders(!!session),body:JSON.stringify({p_rapport:rapport})
     });
+    if(svar.ok && session){
+      /* Separat admin-audit. Misslyckas den påverkas inte den vanliga rapporten. */
+      fetch(SUPABASE_URL+"/rest/v1/rpc/kg_logga_felrapport_anvandare",{
+        method:"POST",headers:sbHeaders(true),body:JSON.stringify({p_rapport:rapport})
+      }).catch(()=>{});
+    }
     return svar.ok;
   }catch(_){ return false; }
 }
@@ -7654,6 +7882,9 @@ async function markeraFelAtgardad(kurs,uppgift){
       body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift})
     });
     if(!r.ok) throw new Error("Kunde inte markera som åtgärdad.");
+    fetch(SUPABASE_URL+"/rest/v1/rpc/kg_synka_felstatus",{
+      method:"POST",headers:sbHeaders(true),body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift,p_status:"atgardad"})
+    }).catch(()=>{});
     await ritaFellogg();
   }catch(e){ toast(e.message); }
 }
@@ -7666,6 +7897,9 @@ async function ignoreraFel(kurs,uppgift){
     });
     if(r.status===404) throw new Error("Ignorera-funktionen är inte installerad i Supabase ännu.");
     if(!r.ok) throw new Error("Kunde inte ignorera rapporten.");
+    fetch(SUPABASE_URL+"/rest/v1/rpc/kg_synka_felstatus",{
+      method:"POST",headers:sbHeaders(true),body:JSON.stringify({p_kurs:kurs,p_uppgift:uppgift,p_status:"ignorerad"})
+    }).catch(()=>{});
     await ritaFellogg();
   }catch(e){ toast(e.message); }
 }
@@ -9537,6 +9771,7 @@ window.addEventListener("load",async()=>{
   if(MOLN_PA() && session){
     await markeraKunskapsgymmetKonto();
     await synkaProfil();
+    startaKgHeartbeat();
   }
 
   const avbrutet=lasPagaendePass();
@@ -9551,6 +9786,7 @@ window.addEventListener("load",async()=>{
   if(MOLN_PA() && session){
     await hamtaAnvandare();
     await autoNamnFranGoogle();
+    await kontrolleraAdmin();
     render();
     if(nyInloggning) toast("Inloggad. Din träning synkas nu mellan enheterna.");
   }
@@ -9572,6 +9808,8 @@ window.addEventListener("load",async()=>{
 document.addEventListener("visibilitychange",()=>{
   if(document.visibilityState==="hidden" && MOLN_PA() && session){
     clearTimeout(pushTimer); skickaMolnprofil();
+  }else if(document.visibilityState==="visible" && MOLN_PA() && session){
+    kgHeartbeat();
   }
 });
 

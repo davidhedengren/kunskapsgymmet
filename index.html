@@ -7371,7 +7371,9 @@ function formatRatt(anv,facit,meta){
       return textNyckel(a)===textNyckel(f);
     }
     case "uttryck": case "uttryck_med_villkor": {
-      const rensa=x=>String(x).split(/,(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
+      // Decimalkomma (2,7) görs om före uppdelningen, så att bara ett
+      // villkor efter kommatecken ("x/(x-1), x≠1") skärs bort.
+      const rensa=x=>normalizeDecimalComma(String(x)).split(/,(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
       const r=algebraisktLika(hogerled(rensa(a)),hogerled(rensa(f)));
       if(r!==null) return r;
       return textNyckel(a)===textNyckel(f);
@@ -9297,6 +9299,25 @@ function bedomDel(i,ok,delIndex){
   registreraDel(i,ok,null);
 }
 
+/* Facit visas för eleven med svenskt decimalkomma. Långa decimaltal kortas
+   till fyra decimaler, och olikhetstecken escapas så att de inte tolkas som HTML. */
+function visningsFacit(facit){
+  const delar=String(facit??"").split(/(\\\([\s\S]*?\\\)|\\\[[\s\S]*?\\\])/);
+  return delar.map((del,i)=>{
+    const matte=i%2===1;
+    const komma=matte?"{,}":",";
+    let ut=del.replace(/(\d+)\.(\d+)(?![\d.])/g,(_,hel,dec)=>{
+      if(dec.length<=4) return hel+komma+dec;
+      const kort=String(Number(Number(hel+"."+dec).toFixed(10)));
+      const kd=kort.split(".")[1]||"";
+      if(kd.length<=4) return kd ? kort.split(".")[0]+komma+kd : kort;
+      return hel+komma+dec.slice(0,4)+(matte?"\\ldots":"…");
+    });
+    if(!matte) ut=ut.replace(/\s*\*\s*/g,"·");
+    return esc(ut);
+  }).join("");
+}
+
 function markPart(i,ok,facit){
   const row=document.getElementById("part-"+i);
   if(!row) return;
@@ -9309,7 +9330,7 @@ function markPart(i,ok,facit){
   if(dot) dot.className=ok?"done":"miss";
   if(!ok && facit){
     const c=document.getElementById("corr-"+i);
-    if(c){ c.hidden=false; c.innerHTML=`Rätt svar: <b>${facit}</b>`; renderMath(c); }
+    if(c){ c.hidden=false; c.innerHTML=`Rätt svar: <b>${visningsFacit(facit)}</b>`; renderMath(c); }
   }
 }
 
@@ -10382,7 +10403,17 @@ window.KG_TEST_MA4_SVAR=function(){
     {namn:"pi-notation", got:formatRatt("π/6","pi/6",{format:"uttryck"}), want:true},
     {namn:"latex-sinus", got:formatRatt("5sin(x+atan(4/3))","5\\sin(x+\\arctan(4/3))",{format:"uttryck"}), want:true},
     {namn:"latex-logaritm", got:formatRatt("ln(x)","\\ln x",{format:"uttryck"}), want:true},
-    {namn:"värdemängd med f(x)", got:sammaIntervall(intervallAv("-1<=f(x)<=5"),intervallAv("[-1,5]"),null), want:true}
+    {namn:"värdemängd med f(x)", got:sammaIntervall(intervallAv("-1<=f(x)<=5"),intervallAv("[-1,5]"),null), want:true},
+    {namn:"decimalkomma i exponent", got:formatRatt("x=10^2,7","10^2.7",{format:"uttryck"}), want:true},
+    {namn:"decimalkomma i facit", got:formatRatt("10^2.7","10^(2,7)",{format:"uttryck"}), want:true},
+    {namn:"fel exponent med komma", got:formatRatt("10^2,6","10^2,7",{format:"uttryck"}), want:false},
+    {namn:"decimalkomma i koefficienter", got:formatRatt("1,5a+0,5b-1","1.5a+0.5b-1",{format:"uttryck"}), want:true},
+    {namn:"villkor efter komma", got:formatRatt("1/x, x≠0","1/x",{format:"uttryck"}), want:true},
+    {namn:"facit med komma", got:visningsFacit("10^2.7"), want:"10^2,7"},
+    {namn:"facit långt tal", got:visningsFacit(1.3333333333333333), want:"1,3333…"},
+    {namn:"facit flyttalsbrus", got:visningsFacit(0.30000000000000004), want:"0,3"},
+    {namn:"facit olikhet", got:visningsFacit("-2<k<2"), want:"-2&lt;k&lt;2"},
+    {namn:"facit latex", got:visningsFacit("\\(x=2.5\\)"), want:"\\(x=2{,}5\\)"}
   ];
   cases.forEach(x=>x.ok=x.got===x.want);
   console.table(cases);

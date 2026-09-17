@@ -702,7 +702,6 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
   font-variant-numeric:tabular-nums;
 }
 .grupphuvud h2{margin:0;font-size:21px;line-height:1.1;font-weight:700;letter-spacing:-.035em}
-.grupphuvud .antal{font-size:13px;color:var(--ink3);font-weight:500;letter-spacing:0}
 
 .course-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
 .course-grid>.course-card{grid-column:span var(--span,2);min-width:0}
@@ -5075,7 +5074,6 @@ function renderHome(){
       <header class="grupphuvud" style="--gt:${gt}">
         <span class="nr">${String(gi+1).padStart(2,"0")}</span>
         <h2 id="grupp-${gi}">${esc(g.amne)}</h2>
-        <span class="antal">${g.ids.length} ${g.ids.length===1?"kurs":"kurser"}</span>
       </header>
       <div class="course-grid">
         ${g.ids.map((id,i)=>kurskortHtml(id,spann[i],nr++)).join("")}

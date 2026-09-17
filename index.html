@@ -1484,16 +1484,23 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   border-color:var(--gold2);
   box-shadow:0 0 0 4px var(--goldSoft),inset 0 1px 0 var(--specular);
 }
+/* Nivån sitter i en sexkantig bricka i stället för ännu en cirkel.
+   Formen är klippt, så djupet får komma från inre skuggor och en
+   drop-shadow, som båda följer klippbanan. Vanlig box-shadow utanför
+   formen skulle klippas bort. */
 .xpmeter .lvl,.xppill .lvl{
-  width:34px;height:34px;flex:none;border-radius:50%;display:grid;place-items:center;
+  width:33px;height:37px;flex:none;display:grid;place-items:center;
   font-size:15px;font-weight:800;letter-spacing:-.04em;color:#402f08;
-  background:linear-gradient(160deg,#f3d99f,#c99b3b);
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.55);
+  clip-path:polygon(50% 0%,100% 26%,100% 74%,50% 100%,0% 74%,0% 26%);
+  background:linear-gradient(162deg,#fbeccb 0%,#f0d296 28%,#c99b3b 72%,#a8791f 100%);
+  box-shadow:inset 0 2px 0 rgba(255,255,255,.6),
+             inset 0 -3px 7px rgba(120,85,15,.42);
+  filter:drop-shadow(0 2px 3px rgba(11,33,51,.32));
   transition:transform .45s var(--ease);
 }
 .xpmeter .lvl.upp,.xppill .lvl.upp{animation:pop .6s var(--ease) both}
 .xpmeter .bar,.xppill .bar{
-  position:relative;width:150px;height:12px;flex:none;border-radius:99px;
+  position:relative;width:150px;height:14px;flex:none;border-radius:99px;
   background:var(--hair);overflow:hidden;
   box-shadow:inset 0 1px 2px rgba(11,33,51,.18);
 }
@@ -2204,8 +2211,8 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 @media(max-width:700px){
   .topbar .inner{height:60px}
   .topbar .xppill{padding:4px 11px 4px 4px;gap:8px}
-  .topbar .xppill .lvl{width:27px;height:27px;font-size:12.5px}
-  .topbar .xppill .bar{width:clamp(70px,18vw,120px);height:9px}
+  .topbar .xppill .lvl{width:26px;height:29px;font-size:12.5px}
+  .topbar .xppill .bar{width:clamp(70px,18vw,120px);height:11px}
   .topbar .xppill .num{font-size:11.5px}
 }
 

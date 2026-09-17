@@ -17393,34 +17393,26 @@ window.BANKMA2 = [
       "2b",
       "2c"
     ],
-    "niva": "A",
-    "poang": "0/0/3",
-    "t": "<p>För \\(0\\le x\\le60\\) jämförs funktionerna</p><p>\\[f(x)=50x^2\\qquad\\text{och}\\qquad g(x)=200\\cdot1,15^x.\\]</p><p>Använd GeoGebra för att bestämma för vilka \\(x\\) som \\(f(x)&gt;g(x)\\). Svara med två decimaler.</p>",
-    "s": "<p>Rita båda funktionerna i GeoGebra och bestäm deras skärningspunkter i intervallet.</p><p>De har samma värde ungefär vid \\(x=2,36\\) och \\(x=44,34\\).</p><p>Kontroll mellan skärningarna, till exempel vid \\(x=10\\): \\(f(10)=5000\\), medan \\(g(10)\\approx809\\). Där är alltså \\(f&gt;g\\).</p><p>Utanför skärningspunkterna är exponentialfunktionen större.</p><p><strong>\\(f(x)&gt;g(x)\\) för ungefär \\(2,36&lt;x&lt;44,34\\).</strong></p>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>För \\(0\\le x\\le60\\) jämförs funktionerna</p><p>\\[f(x)=50x^2\\qquad\\text{och}\\qquad g(x)=200\\cdot1,15^x.\\]</p><p>Bestäm för vilka \\(x\\) som \\(f(x)&gt;g(x)\\). Svara med två decimaler.</p>",
+    "s": "<p>Rita båda funktionerna i samma koordinatsystem, till exempel i GeoGebra, och bestäm skärningspunkterna i intervallet.</p><p>Graferna skär varandra ungefär vid \\(x=2{,}36\\) och \\(x=44{,}34\\).</p><p>Undersök sedan vilken funktion som är störst mellan och utanför skärningarna:</p><p>\\(x=10\\): \\(f(10)=5000\\) och \\(g(10)\\approx809\\), så \\(f&gt;g\\).<br>\\(x=0\\): \\(f(0)=0\\) och \\(g(0)=200\\), så \\(g&gt;f\\).<br>\\(x=60\\): \\(f(60)=180\\,000\\) och \\(g(60)\\approx8{,}7\\cdot10^5\\), så \\(g&gt;f\\).</p><p><strong>\\(f(x)&gt;g(x)\\) för \\(2{,}36&lt;x&lt;44{,}34\\)</strong></p>",
     "familj": "jamfora_exponential_potens__jamforelse_med_graf",
     "formaga": [
       "procedur",
-      "begrepp",
-      "resonemang"
+      "begrepp"
     ],
     "miniräknare": true,
     "geogebra": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "2,36",
-      "44,34"
-    ],
-    "tolerans": [
-      0.03,
-      0.03
-    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2,36<x<44,34",
+    "tolerans": 0.03,
     "självrättning": true,
-    "svarsstruktur": "ordnad",
-    "antalSvar": 2,
-    "ledtrad": "<p>Rita båda graferna i samma koordinatsystem och bestäm skärningspunkternas x-koordinater. Testa sedan ett x-värde mellan skärningarna för att avgöra var \\(f>g\\).</p>",
+    "ledtrad": "<p>Rita båda graferna i samma koordinatsystem och bestäm skärningspunkternas \\(x\\)-koordinater. Testa sedan ett \\(x\\)-värde mellan skärningarna för att avgöra var \\(f(x)&gt;g(x)\\).</p>",
     "spel": true,
-    "traningsniva": 5,
-    "arbetsinsats": 2
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarFormat": "intervall"
   },
   {
     "id": "2.202",

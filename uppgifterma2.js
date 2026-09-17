@@ -9762,6 +9762,104 @@ window.BANKMA2 = [
     ]
   },
   {
+    "id": "1.306",
+    "kap": 1,
+    "omr": "linjara_ekvationssystem",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>En rektangel är uppdelad i fyra mindre rektanglar av en lodrät och en vågrät sträcka. Delrektanglarnas sidor är \\(a\\), \\(b\\), \\(c\\) och \\(d\\) cm enligt figuren. Tre av delrektanglarna har omkretsarna 20 cm, 32 cm och 16 cm.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En rektangel är uppdelad i fyra mindre rektanglar av en lodrät och en vågrät sträcka. Tre av delrektanglarnas omkretsar är angivna.\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"70\" y=\"35\" width=\"280\" height=\"230\" fill=\"#EAF0F8\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"160\" y=\"175\" width=\"190\" height=\"90\" fill=\"#FBEFEC\"/><rect x=\"70\" y=\"35\" width=\"280\" height=\"230\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"160\" y1=\"35\" x2=\"160\" y2=\"265\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"70\" y1=\"175\" x2=\"350\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"115\" y=\"110\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">20 cm</text><text x=\"255\" y=\"110\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">32 cm</text><text x=\"115\" y=\"225\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">16 cm</text><text x=\"255\" y=\"225\" text-anchor=\"middle\" font-size=\"18\" fill=\"#B43123\" font-weight=\"600\">?</text><text x=\"115\" y=\"25\" text-anchor=\"middle\" font-size=\"15\" fill=\"#2B2527\" font-style=\"italic\">a</text><text x=\"255\" y=\"25\" text-anchor=\"middle\" font-size=\"15\" fill=\"#2B2527\" font-style=\"italic\">b</text><text x=\"58\" y=\"110\" text-anchor=\"end\" font-size=\"15\" fill=\"#2B2527\" font-style=\"italic\">c</text><text x=\"58\" y=\"225\" text-anchor=\"end\" font-size=\"15\" fill=\"#2B2527\" font-style=\"italic\">d</text><text x=\"210\" y=\"291\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5C575E\">Talen i rektanglarna är deras omkretsar.</text></svg></span><p>a) Bestäm omkretsen av den fjärde rektangeln, nere till höger.<br>b) Man får veta att hela figuren är en kvadrat. Bestäm arean av den fjärde rektangeln.<br>c) Man får i stället veta att den fjärde rektangeln är en kvadrat. Hela figuren behöver inte vara det. Bestäm den fjärde rektangelns sida.</p>",
+    "s": "<p><strong>Idé.</strong> Omkretsarna ger tre ekvationer men det finns fyra obekanta. Alla sidor kan därför inte bestämmas, men vissa kombinationer av dem kan det.</p><p>\\[\\begin{cases}a+c=10&amp;(1)\\\\b+c=16&amp;(2)\\\\a+d=8&amp;(3)\\end{cases}\\]</p><p><strong>a)</strong> Den fjärde rektangelns omkrets är \\(2(b+d)\\). Kombinera ekvationerna så att \\(a\\) och \\(c\\) försvinner, alltså \\((2)+(3)-(1)\\):</p><p>\\[(b+c)+(a+d)-(a+c)=b+d=16+8-10=14.\\]</p><p>Omkretsen är \\(2\\cdot14=28\\) cm. Sidorna är inte bestämda: till exempel uppfyller både \\(a=3,\\ b=9,\\ c=7,\\ d=5\\) och \\(a=4,\\ b=10,\\ c=6,\\ d=4\\) ekvationerna. Men \\(b+d=14\\) i båda fallen.</p><p><strong>b)</strong> En kvadrat ger en fjärde ekvation: \\(a+b=c+d\\). Ur (2) och (3) fås \\(b=16-c\\) och \\(d=8-a\\). Insättning:</p><p>\\[a+16-c=c+8-a\\iff2a-2c=-8\\iff a-c=-4.\\]</p><p>Tillsammans med (1) ger det \\(2a=6\\), alltså \\(a=3\\) och \\(c=7\\). Då är \\(b=9\\) och \\(d=5\\).</p><p>Kontroll: \\(a+b=12\\) och \\(c+d=12\\). Den fjärde rektangelns area är \\(bd=9\\cdot5=45\\) cm².</p><p><strong>c)</strong> Nu är den fjärde ekvationen \\(b=d\\). Sätt \\(d=b\\) i (3): \\(a+b=8\\). Subtrahera den från (2): \\(c-a=8\\). Tillsammans med (1) ger det \\(2c=18\\), alltså \\(c=9\\) och \\(a=1\\). Då är \\(b=d=7\\).</p><p>Kontroll av omkretsarna: \\(2(1+9)=20\\), \\(2(7+9)=32\\) och \\(2(1+7)=16\\).</p><p><strong>a) 28 cm &nbsp;&nbsp; b) 45 cm² &nbsp;&nbsp; c) 7 cm</strong></p>",
+    "familj": "linjara_ekvationssystem__textproblem",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "28",
+      "45",
+      "7"
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm²",
+      "cm"
+    ],
+    "ledtrad": "<p>Skriv en ekvation för varje given omkrets. Du kan inte bestämma alla sidor, men pröva att addera och subtrahera ekvationerna så att \\(b+d\\) blir kvar. I b) och c) ger den nya informationen en fjärde ekvation.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "1.307",
+    "kap": 1,
+    "omr": "faktorisering",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>Faktorisering kan visa att ett tal inte är ett primtal. Lös uppgiften utan miniräknare.</p><p>a) Faktorisera \\(2^{20}-1\\) med konjugatregeln och bestäm talets största primtalsfaktor.<br>b) Bestäm alla positiva heltal \\(n\\) för vilka \\(n^2+2n-8\\) är ett primtal.<br>c) Figuren illustrerar att \\(n^4+4\\) kan skrivas som en skillnad mellan två kvadrater.</p><span class=\"fig smal\"><svg width=\"400\" height=\"300\" viewBox=\"0 0 400 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En stor kvadrat med sidan n i kvadrat plus 2. I ett hörn är en mindre kvadrat med sidan 2n borttagen.\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M90 40 h210 v210 h-210 z\" fill=\"#EAF0F8\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"210\" y=\"40\" width=\"90\" height=\"90\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"255\" y=\"90\" text-anchor=\"middle\" font-size=\"14\" fill=\"#B43123\">(2n)²</text><text x=\"160\" y=\"175\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">(n² + 2)² − (2n)²</text><line x1=\"90\" y1=\"266\" x2=\"300\" y2=\"266\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"90\" y1=\"261\" x2=\"90\" y2=\"271\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"300\" y1=\"261\" x2=\"300\" y2=\"271\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"195\" y=\"284\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">n² + 2</text><line x1=\"74\" y1=\"40\" x2=\"74\" y2=\"250\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"69\" y1=\"40\" x2=\"79\" y2=\"40\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"69\" y1=\"250\" x2=\"79\" y2=\"250\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"66\" y=\"150\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">n² + 2</text><line x1=\"316\" y1=\"40\" x2=\"316\" y2=\"130\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"311\" y1=\"40\" x2=\"321\" y2=\"40\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"311\" y1=\"130\" x2=\"321\" y2=\"130\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"324\" y=\"90\" font-size=\"14\" fill=\"#2B2527\">2n</text></svg></span><p>Visa att \\(n^4+4=(n^2+2)^2-(2n)^2\\). Faktorisera sedan uttrycket och bestäm alla positiva heltal \\(n\\) för vilka \\(n^4+4\\) är ett primtal.</p>",
+    "s": "<p><strong>Idé.</strong> Om ett positivt heltal kan skrivas som en produkt av två heltal som båda är större än 1 är det inte ett primtal. En faktorisering visar därför när ett tal <em>kan</em> vara ett primtal.</p><p><strong>a)</strong> \\(2^{20}=(2^{10})^2\\), så konjugatregeln ger</p><p>\\[2^{20}-1=(2^{10}-1)(2^{10}+1)=1023\\cdot1025.\\]</p><p>Samma idé igen: \\(1023=2^{10}-1=(2^5-1)(2^5+1)=31\\cdot33=3\\cdot11\\cdot31\\). Dessutom är \\(1025=25\\cdot41=5^2\\cdot41\\).</p><p>\\[2^{20}-1=3\\cdot5^2\\cdot11\\cdot31\\cdot41\\]</p><p>Den största primtalsfaktorn är 41. Talet 41 är ett primtal eftersom det inte är delbart med 2, 3 eller 5, och \\(7^2&gt;41\\).</p><p><strong>b)</strong> \\(n^2+2n-8=(n+4)(n-2)\\), eftersom \\(4\\cdot(-2)=-8\\) och \\(4+(-2)=2\\).</p><p>För \\(n=1\\) blir värdet \\(5\\cdot(-1)=-5\\) och för \\(n=2\\) blir det 0. Inget av dem är ett primtal.</p><p>För \\(n\\ge3\\) är båda faktorerna positiva och \\(n+4\\ge7\\). Produkten är ett primtal bara om den mindre faktorn är 1, alltså \\(n-2=1\\) och \\(n=3\\). Det ger \\(7\\cdot1=7\\), som är ett primtal. För \\(n\\ge4\\) är båda faktorerna minst 2, så värdet är sammansatt.</p><p><strong>c)</strong> Utveckla med kvadreringsregeln:</p><p>\\[(n^2+2)^2-(2n)^2=n^4+4n^2+4-4n^2=n^4+4.\\]</p><p>Konjugatregeln ger</p><p>\\[n^4+4=(n^2+2-2n)(n^2+2+2n)=(n^2-2n+2)(n^2+2n+2).\\]</p><p>Den större faktorn är minst 5 när \\(n\\ge1\\). Den mindre faktorn är \\(n^2-2n+2=(n-1)^2+1\\), som är 1 bara när \\(n=1\\). Då är \\(n^4+4=5\\), ett primtal.</p><p>För \\(n\\ge2\\) är båda faktorerna minst 2, så \\(n^4+4\\) är inte ett primtal. Exempel: \\(3^4+4=85=5\\cdot17\\).</p><p><strong>a) 41 &nbsp;&nbsp; b) \\(n=3\\) &nbsp;&nbsp; c) \\(n=1\\)</strong></p>",
+    "familj": "faktorisering__algebraiskt_resonemang",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "41",
+      "3",
+      "1"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "heltal",
+      "heltal",
+      "heltal"
+    ],
+    "ledtrad": "<p>Ett primtal kan inte skrivas som en produkt av två heltal som båda är större än 1. Faktorisera därför först och undersök sedan när den minsta faktorn kan vara 1. I a): \\(2^{20}=\\left(2^{10}\\right)^2\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
     "id": "2.01",
     "kap": 2,
     "omr": "enkla_andragradsekvationer",
@@ -10696,7 +10794,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En triangulär skylt har basen \\(x+4\\) cm och höjden \\(x-2\\) cm. Arean är 36 cm².</p><span class=\"fig smal\"><svg width=\"430\" height=\"285\" viewBox=\"0 0 430 285\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med bas x plus 4 och höjd x minus 2\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"283\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M75 230 L355 230 L150 55 Z\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"150\" y1=\"55\" x2=\"150\" y2=\"230\" stroke=\"#8A858E\" stroke-width=\"1.7\" stroke-dasharray=\"5 5\"/><path d=\"M150 218 h12 v12\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.5\"/><text x=\"215\" y=\"258\" text-anchor=\"middle\" font-family=\"Instrument Sans,system-ui,sans-serif\" font-size=\"15\" fill=\"#2B2527\">x + 4 cm</text><text x=\"136\" y=\"145\" text-anchor=\"end\" font-family=\"Instrument Sans,system-ui,sans-serif\" font-size=\"15\" fill=\"#2B2527\">x − 2 cm</text></svg></span><p>Bestäm basens och höjdens längd.</p>",
+    "t": "<p>En triangulär skylt har basen \\(x+4\\) cm och höjden \\(x-2\\) cm. Arean är 36 cm².</p><span class=\"fig smal\"><svg width=\"430\" height=\"285\" viewBox=\"0 0 430 285\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med basen x plus 4 centimeter och höjden x minus 2 centimeter\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"283\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M75 225 L355 225 L150 85 Z\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><line x1=\"150\" y1=\"85\" x2=\"150\" y2=\"225\" stroke=\"#8A858E\" stroke-width=\"1.7\" stroke-dasharray=\"5 5\"/><path d=\"M150 213 h12 v12\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.5\"/><text x=\"215\" y=\"252\" text-anchor=\"middle\" font-size=\"15\" fill=\"#2B2527\">x + 4 cm</text><text x=\"158\" y=\"165\" font-size=\"15\" fill=\"#2B2527\">x − 2 cm</text></svg></span><p>Bestäm basens och höjdens längd.</p>",
     "s": "<p>Triangelns area är \\(\\frac{(x+4)(x-2)}{2}=36\\).</p><p>Multiplicera med 2 och utveckla:</p><p>\\(x^2+2x-8=72\\Rightarrow x^2+2x-80=0\\).</p><p>Med <strong>pq-formeln</strong>:</p><p>\\(x=-1\\pm\\sqrt{1+80}=-1\\pm9\\).</p><p>Den positiva lösningen är \\(x=8\\).</p><p><strong>Basen är 12 cm och höjden 6 cm.</strong></p>",
     "familj": "andragradsekvationer_tillampningar__geometri_och_area",
     "formaga": [
@@ -10994,7 +11092,7 @@ window.BANKMA2 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>Ett hörn \\((x,y)\\) på en rektangel ligger på linjen \\(y=12-2x\\) i första kvadranten. Rektangelns motsatta hörn är i origo och sidorna är parallella med koordinataxlarna.</p><span class=\"fig smal\"><svg width=\"430\" height=\"315\" viewBox=\"0 0 430 315\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel i första kvadranten med övre högra hörnet på linjen y lika med 12 minus 2x\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"313\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"62\" y1=\"270\" x2=\"390\" y2=\"270\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><path d=\"M390 270 l-8 -5 v10 z\" fill=\"#5C575E\"/><line x1=\"62\" y1=\"285\" x2=\"62\" y2=\"28\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><path d=\"M62 28 l-5 8 h10 z\" fill=\"#5C575E\"/><text x=\"395\" y=\"276\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"52\" y=\"22\" font-size=\"14\" fill=\"#2B2527\">y</text><line x1=\"62\" y1=\"65\" x2=\"350\" y2=\"270\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><text x=\"208\" y=\"117\" font-size=\"14\" fill=\"#2A5D9E\">y = 12 − 2x</text><rect x=\"62\" y=\"188\" width=\"190\" height=\"82\" fill=\"#EAF0F8\" fill-opacity=\"0.85\" stroke=\"#B43123\" stroke-width=\"2\"/><circle cx=\"252\" cy=\"188\" r=\"5\" fill=\"#B43123\"/><text x=\"261\" y=\"180\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">(x, y)</text><text x=\"158\" y=\"292\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"48\" y=\"231\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">y</text></svg></span><p>Bredden \\(x\\) måste vara minst dubbelt så stor som höjden \\(y\\). Bestäm den största möjliga arean.</p>",
+    "t": "<p>Ett hörn \\((x,y)\\) på en rektangel ligger på linjen \\(y=12-2x\\) i första kvadranten. Rektangelns motsatta hörn är i origo och sidorna är parallella med koordinataxlarna.</p><span class=\"fig smal\"><svg width=\"430\" height=\"315\" viewBox=\"0 0 430 315\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel i första kvadranten med ett hörn i origo och det motsatta hörnet på linjen y lika med 12 minus 2x\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"313\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"66\" y1=\"270\" x2=\"398\" y2=\"270\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><path d=\"M402 270 l-8 -5 v10 z\" fill=\"#5C575E\"/><line x1=\"66\" y1=\"284\" x2=\"66\" y2=\"26\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><path d=\"M66 22 l-5 8 h10 z\" fill=\"#5C575E\"/><text x=\"404\" y=\"275\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"50\" y=\"26\" font-size=\"14\" fill=\"#2B2527\">y</text><line x1=\"356\" y1=\"266\" x2=\"356\" y2=\"274\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><text x=\"356\" y=\"290\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5C575E\">6</text><line x1=\"62\" y1=\"45\" x2=\"70\" y2=\"45\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><text x=\"58\" y=\"49\" text-anchor=\"end\" font-size=\"12\" fill=\"#5C575E\">12</text><rect x=\"66\" y=\"232.5\" width=\"241.7\" height=\"37.5\" fill=\"#EAF0F8\" fill-opacity=\"0.85\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"66\" y1=\"45\" x2=\"356\" y2=\"270\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><text x=\"181.5\" y=\"117.8\" font-size=\"14\" fill=\"#2A5D9E\">y = 12 − 2x</text><circle cx=\"307.7\" cy=\"232.5\" r=\"5\" fill=\"#B43123\"/><text x=\"317.7\" y=\"222.5\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">(x, y)</text><text x=\"186.8\" y=\"290\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"56\" y=\"256.2\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">y</text></svg></span><p>Bredden \\(x\\) måste vara minst dubbelt så stor som höjden \\(y\\). Bestäm den största möjliga arean.</p>",
     "s": "<p>Arean är \\(A=x(12-2x)=-2x^2+12x\\).</p><p>Villkoret \\(x\\ge2y\\) ger \\(x\\ge2(12-2x)\\Rightarrow5x\\ge24\\Rightarrow x\\ge4,8\\).</p><p>Utan villkoret har parabeln maximum vid \\(x=3\\). För \\(x&gt;3\\) minskar arean, så inom det tillåtna området blir största arean vid minsta tillåtna \\(x\\), alltså \\(x=4,8\\).</p><p>Då \\(y=12-9,6=2,4\\).</p><p><strong>Största arean är \\(4,8\\cdot2,4=11,52\\).</strong></p>",
     "familj": "andragradsfunktioner_tillampningar__optimering",
     "formaga": [
@@ -13526,7 +13624,7 @@ window.BANKMA2 = [
       "procedur",
       "modellering"
     ],
-    "t": "<p>Ett fotografi är 12 cm brett och 8 cm högt. Runt fotografiet ska en lika bred ram sättas på alla sidor. Hela tavlan, inklusive ramen, ska ha arean 192 cm².</p><span class=\"fig smal\"><svg width=\"430\" height=\"270\" viewBox=\"0 0 430 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Foto med en ram med bredden x runt om\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"92\" y=\"42\" width=\"246\" height=\"180\" rx=\"2\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><rect x=\"122\" y=\"72\" width=\"186\" height=\"120\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"137\" text-anchor=\"middle\" font-size=\"15\" fill=\"#2B2527\">12 cm × 8 cm</text><line x1=\"92\" y1=\"57\" x2=\"122\" y2=\"57\" stroke=\"#8A858E\"/><line x1=\"92\" y1=\"51\" x2=\"92\" y2=\"63\" stroke=\"#8A858E\"/><line x1=\"122\" y1=\"51\" x2=\"122\" y2=\"63\" stroke=\"#8A858E\"/><text x=\"107\" y=\"48\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">x</text><line x1=\"323\" y1=\"192\" x2=\"323\" y2=\"222\" stroke=\"#8A858E\"/><line x1=\"317\" y1=\"192\" x2=\"329\" y2=\"192\" stroke=\"#8A858E\"/><line x1=\"317\" y1=\"222\" x2=\"329\" y2=\"222\" stroke=\"#8A858E\"/><text x=\"343\" y=\"211\" font-size=\"14\" fill=\"#2B2527\">x</text></svg></span><p>Bestäm ramens bredd \\(x\\).</p>",
+    "t": "<p>Ett fotografi är 12 cm brett och 8 cm högt. Runt fotografiet ska en lika bred ram sättas på alla sidor. Hela tavlan, inklusive ramen, ska ha arean 192 cm².</p><span class=\"fig smal\"><svg width=\"430\" height=\"270\" viewBox=\"0 0 430 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Foto med en ram med bredden x runt om\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"95\" y=\"42\" width=\"240\" height=\"180\" rx=\"2\" fill=\"#EAF0F8\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><rect x=\"125\" y=\"72\" width=\"180\" height=\"120\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"215\" y=\"137\" text-anchor=\"middle\" font-size=\"15\" fill=\"#2B2527\">12 cm × 8 cm</text><line x1=\"97\" y1=\"57\" x2=\"123\" y2=\"57\" stroke=\"#8A858E\"/><line x1=\"97\" y1=\"51\" x2=\"97\" y2=\"63\" stroke=\"#8A858E\"/><line x1=\"123\" y1=\"51\" x2=\"123\" y2=\"63\" stroke=\"#8A858E\"/><text x=\"110\" y=\"86\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">x</text><line x1=\"320\" y1=\"194\" x2=\"320\" y2=\"220\" stroke=\"#8A858E\"/><line x1=\"314\" y1=\"194\" x2=\"326\" y2=\"194\" stroke=\"#8A858E\"/><line x1=\"314\" y1=\"220\" x2=\"326\" y2=\"220\" stroke=\"#8A858E\"/><text x=\"344\" y=\"212\" font-size=\"14\" fill=\"#2B2527\">x</text></svg></span><p>Bestäm ramens bredd \\(x\\).</p>",
     "s": "<p>Med en ram som är \\(x\\) cm bred blir yttermåtten \\(12+2x\\) och \\(8+2x\\).</p><p>Areavillkoret är</p><p>\\[(12+2x)(8+2x)=192.\\]</p><p>Utveckla: \\(4x^2+40x+96=192\\), alltså \\(x^2+10x-24=0\\).</p><p>Faktorisera: \\((x+12)(x-2)=0\\).</p><p>En bredd måste vara positiv, alltså <strong>\\(x=2\\) cm</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
@@ -13642,7 +13740,7 @@ window.BANKMA2 = [
       "modellering",
       "resonemang"
     ],
-    "t": "<p>Öppningen i en symmetrisk båge är 12 m bred vid marken och 4,5 m hög i mitten. Formen modelleras med en andragradsfunktion. Ett rektangulärt fordon är 3,0 m högt och ska köras rakt genom mitten av öppningen.</p><span class=\"fig\"><svg width=\"520\" height=\"310\" viewBox=\"0 0 520 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Symmetrisk båge med 12 meters öppning, 4,5 meters höjd och ett centrerat fordon\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"65\" y1=\"252\" x2=\"455\" y2=\"252\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M95 252 Q260 54 425 252\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><line x1=\"95\" y1=\"270\" x2=\"425\" y2=\"270\" stroke=\"#8A858E\"/><line x1=\"95\" y1=\"264\" x2=\"95\" y2=\"276\" stroke=\"#8A858E\"/><line x1=\"425\" y1=\"264\" x2=\"425\" y2=\"276\" stroke=\"#8A858E\"/><text x=\"260\" y=\"293\" text-anchor=\"middle\" font-size=\"15\" fill=\"#2B2527\">12 m</text><line x1=\"260\" y1=\"252\" x2=\"260\" y2=\"82\" stroke=\"#8A858E\" stroke-dasharray=\"5 5\"/><text x=\"274\" y=\"105\" font-size=\"14\" fill=\"#2B2527\">4,5 m</text><rect x=\"190\" y=\"139\" width=\"140\" height=\"113\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"260\" y=\"194\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">fordon</text><line x1=\"176\" y1=\"139\" x2=\"176\" y2=\"252\" stroke=\"#8A858E\"/><line x1=\"170\" y1=\"139\" x2=\"182\" y2=\"139\" stroke=\"#8A858E\"/><line x1=\"170\" y1=\"252\" x2=\"182\" y2=\"252\" stroke=\"#8A858E\"/><text x=\"158\" y=\"200\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">3,0 m</text><text x=\"260\" y=\"132\" text-anchor=\"middle\" font-size=\"14\" fill=\"#8A858E\">största möjliga bredd?</text></svg></span><p>Bestäm den största bredd fordonet kan ha enligt modellen.</p>",
+    "t": "<p>Öppningen i en symmetrisk båge är 12 m bred vid marken och 4,5 m hög i mitten. Formen modelleras med en andragradsfunktion. Ett rektangulärt fordon är 3,0 m högt och ska köras rakt genom mitten av öppningen.</p><span class=\"fig\"><svg width=\"520\" height=\"320\" viewBox=\"0 0 520 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Symmetrisk båge med 12 meters öppning och 4,5 meters höjd. Ett 3,0 meter högt fordon står mitt i öppningen med de övre hörnen mot bågen.\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"50\" y1=\"240\" x2=\"470\" y2=\"240\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"156.1\" y=\"150\" width=\"207.8\" height=\"90\" fill=\"#F7F8FA\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 80.0 240.0 L 83.0 235.5 L 86.0 231.2 L 89.0 226.8 L 92.0 222.6 L 95.0 218.4 L 98.0 214.4 L 101.0 210.3 L 104.0 206.4 L 107.0 202.5 L 110.0 198.8 L 113.0 195.0 L 116.0 191.4 L 119.0 187.8 L 122.0 184.3 L 125.0 180.9 L 128.0 177.6 L 131.0 174.3 L 134.0 171.2 L 137.0 168.0 L 140.0 165.0 L 143.0 162.0 L 146.0 159.1 L 149.0 156.3 L 152.0 153.6 L 155.0 150.9 L 158.0 148.3 L 161.0 145.8 L 164.0 143.4 L 167.0 141.0 L 170.0 138.8 L 173.0 136.5 L 176.0 134.4 L 179.0 132.3 L 182.0 130.4 L 185.0 128.4 L 188.0 126.6 L 191.0 124.8 L 194.0 123.2 L 197.0 121.5 L 200.0 120.0 L 203.0 118.5 L 206.0 117.2 L 209.0 115.8 L 212.0 114.6 L 215.0 113.4 L 218.0 112.4 L 221.0 111.3 L 224.0 110.4 L 227.0 109.5 L 230.0 108.8 L 233.0 108.0 L 236.0 107.4 L 239.0 106.8 L 242.0 106.3 L 245.0 105.9 L 248.0 105.6 L 251.0 105.3 L 254.0 105.2 L 257.0 105.0 L 260.0 105.0 L 263.0 105.0 L 266.0 105.2 L 269.0 105.3 L 272.0 105.6 L 275.0 105.9 L 278.0 106.3 L 281.0 106.8 L 284.0 107.4 L 287.0 108.0 L 290.0 108.8 L 293.0 109.5 L 296.0 110.4 L 299.0 111.3 L 302.0 112.4 L 305.0 113.4 L 308.0 114.6 L 311.0 115.8 L 314.0 117.2 L 317.0 118.5 L 320.0 120.0 L 323.0 121.5 L 326.0 123.1 L 329.0 124.8 L 332.0 126.6 L 335.0 128.4 L 338.0 130.3 L 341.0 132.3 L 344.0 134.4 L 347.0 136.5 L 350.0 138.8 L 353.0 141.0 L 356.0 143.4 L 359.0 145.8 L 362.0 148.4 L 365.0 150.9 L 368.0 153.6 L 371.0 156.3 L 374.0 159.2 L 377.0 162.0 L 380.0 165.0 L 383.0 168.0 L 386.0 171.1 L 389.0 174.3 L 392.0 177.6 L 395.0 180.9 L 398.0 184.3 L 401.0 187.8 L 404.0 191.4 L 407.0 195.0 L 410.0 198.8 L 413.0 202.5 L 416.0 206.4 L 419.0 210.3 L 422.0 214.4 L 425.0 218.4 L 428.0 222.6 L 431.0 226.8 L 434.0 231.2 L 437.0 235.5 L 440.0 240.0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><circle cx=\"156.1\" cy=\"150\" r=\"4\" fill=\"#B43123\"/><circle cx=\"363.9\" cy=\"150\" r=\"4\" fill=\"#B43123\"/><text x=\"248\" y=\"194\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">fordon</text><line x1=\"347.923\" y1=\"153\" x2=\"347.923\" y2=\"237\" stroke=\"#8A858E\"/><line x1=\"342.923\" y1=\"153\" x2=\"352.923\" y2=\"153\" stroke=\"#8A858E\"/><line x1=\"342.923\" y1=\"237\" x2=\"352.923\" y2=\"237\" stroke=\"#8A858E\"/><text x=\"341.923\" y=\"200\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">3,0 m</text><line x1=\"260\" y1=\"105\" x2=\"484\" y2=\"105\" stroke=\"#8A858E\" stroke-dasharray=\"4 4\"/><line x1=\"478\" y1=\"105\" x2=\"478\" y2=\"240\" stroke=\"#8A858E\"/><line x1=\"473\" y1=\"105\" x2=\"483\" y2=\"105\" stroke=\"#8A858E\"/><line x1=\"473\" y1=\"240\" x2=\"483\" y2=\"240\" stroke=\"#8A858E\"/><text x=\"471\" y=\"177.5\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">4,5 m</text><line x1=\"156.1\" y1=\"256\" x2=\"363.9\" y2=\"256\" stroke=\"#8A858E\"/><line x1=\"156.1\" y1=\"250\" x2=\"156.1\" y2=\"262\" stroke=\"#8A858E\"/><line x1=\"363.9\" y1=\"250\" x2=\"363.9\" y2=\"262\" stroke=\"#8A858E\"/><text x=\"260\" y=\"272\" text-anchor=\"middle\" font-size=\"13\" fill=\"#5C575E\">fordonets bredd = ?</text><line x1=\"80\" y1=\"286\" x2=\"440\" y2=\"286\" stroke=\"#8A858E\"/><line x1=\"80\" y1=\"280\" x2=\"80\" y2=\"292\" stroke=\"#8A858E\"/><line x1=\"440\" y1=\"280\" x2=\"440\" y2=\"292\" stroke=\"#8A858E\"/><text x=\"260\" y=\"308\" text-anchor=\"middle\" font-size=\"15\" fill=\"#2B2527\">12 m</text></svg></span><p>Bestäm den största bredd fordonet kan ha enligt modellen.</p>",
     "s": "<p>Låt marken vara x-axeln och placera öppningens kanter vid \\(x=0\\) och \\(x=12\\). Då kan modellen skrivas \\(h(x)=a x(x-12)\\).</p><p>I mitten, \\(x=6\\), är höjden 4,5 m:</p><p>\\[4{,}5=a\\cdot6\\cdot(-6)\\Rightarrow a=-0{,}125.\\]</p><p>Fordonets övre hörn måste ligga där höjden är minst 3 m. Lös därför</p><p>\\[-0{,}125x(x-12)=3.\\]</p><p>Det ger \\(x^2-12x+24=0\\), alltså \\(x=6\\pm2\\sqrt3\\).</p><p>Avståndet mellan dessa två x-värden är \\(4\\sqrt3\\approx6{,}93\\).</p><p><strong>Fordonet kan vara högst cirka 6,9 m brett.</strong></p>",
     "miniräknare": true,
     "geogebra": false,
@@ -15709,7 +15807,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En rektangel har ett hörn i origo och motsatt hörn på linjen \\(y=18-3x\\) i första kvadranten. Sidorna är parallella med koordinataxlarna.</p><span class=\"fig smal\"><svg width=\"430\" height=\"310\" viewBox=\"0 0 430 310\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel i första kvadranten med övre högra hörnet på en fallande rät linje\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"58\" y1=\"258\" x2=\"390\" y2=\"258\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"58\" y1=\"275\" x2=\"58\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"393\" y=\"277\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"42\" y=\"39\" font-size=\"14\" fill=\"#2B2527\">y</text><line x1=\"58\" y1=\"54\" x2=\"352\" y2=\"258\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><text x=\"230\" y=\"107\" font-size=\"14\" fill=\"#2A5D9E\">y = 18 − 3x</text><rect x=\"58\" y=\"145\" width=\"163\" height=\"113\" fill=\"#EAF0F8\" fill-opacity=\"0.72\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"221\" cy=\"145\" r=\"4\" fill=\"#B43123\"/><text x=\"231\" y=\"137\" font-size=\"14\" fill=\"#2B2527\">(x, y)</text></svg></span><p>Bestäm rektangelns största möjliga area.</p>",
+    "t": "<p>En rektangel har ett hörn i origo och motsatt hörn på linjen \\(y=18-3x\\) i första kvadranten. Sidorna är parallella med koordinataxlarna.</p><span class=\"fig smal\"><svg width=\"430\" height=\"315\" viewBox=\"0 0 430 315\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rektangel i första kvadranten med ett hörn i origo och det motsatta hörnet på linjen y lika med 18 minus 3x\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"313\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"66\" y1=\"270\" x2=\"398\" y2=\"270\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><path d=\"M402 270 l-8 -5 v10 z\" fill=\"#5C575E\"/><line x1=\"66\" y1=\"284\" x2=\"66\" y2=\"26\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><path d=\"M66 22 l-5 8 h10 z\" fill=\"#5C575E\"/><text x=\"404\" y=\"275\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"50\" y=\"26\" font-size=\"14\" fill=\"#2B2527\">y</text><line x1=\"356\" y1=\"266\" x2=\"356\" y2=\"274\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><text x=\"356\" y=\"290\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5C575E\">6</text><line x1=\"62\" y1=\"45\" x2=\"70\" y2=\"45\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><text x=\"58\" y=\"49\" text-anchor=\"end\" font-size=\"12\" fill=\"#5C575E\">18</text><rect x=\"66\" y=\"135.0\" width=\"116.0\" height=\"135.0\" fill=\"#EAF0F8\" fill-opacity=\"0.85\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"66\" y1=\"45\" x2=\"356\" y2=\"270\" stroke=\"#2A5D9E\" stroke-width=\"2.5\"/><text x=\"288.8\" y=\"201\" font-size=\"14\" fill=\"#2A5D9E\">y = 18 − 3x</text><circle cx=\"182\" cy=\"135\" r=\"5\" fill=\"#B43123\"/><text x=\"192\" y=\"125\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">(x, y)</text><text x=\"124\" y=\"290\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"56\" y=\"207.5\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">y</text></svg></span><p>Bestäm rektangelns största möjliga area.</p>",
     "s": "<p>Arean blir \\(A(x)=x(18-3x)=-3x^2+18x\\). Parabelns topp ligger vid \\(x=-18/(2\\cdot-3)=3\\). Då är \\(y=9\\).</p><p><strong>Största area är \\(3\\cdot9=27\\) areaenheter.</strong></p>",
     "familj": "andragradsfunktioner_tillampningar__optimering",
     "formaga": [
@@ -17427,7 +17525,7 @@ window.BANKMA2 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två modeller är</p><p>\\(f(x)=4x^2\\) och \\(g(x)=3\\cdot1,5^x\\), där \\(x\\ge5\\).</p><p>Använd ett digitalt verktyg för att bestämma det minsta heltalsvärdet på \\(x\\) där \\(g(x)&gt;f(x)\\).</p>",
-    "s": "<p>Rita \\(f(x)=4x^2\\) och \\(g(x)=3\\cdot1,5^x\\) eller jämför värden digitalt.</p><p>Vid \\(x=13\\) är \\(g(x)<f(x)\\), men vid \\(x=14\\) är \\(g(x)>f(x)\\).</p><p><strong>Det minsta heltalet är \\(x=14\\).</strong></p>",
+    "s": "<p>Rita \\(f(x)=4x^2\\) och \\(g(x)=3\\cdot1,5^x\\) eller jämför värden digitalt.</p><p>Vid \\(x=13\\) är \\(g(x)&lt;f(x)\\), men vid \\(x=14\\) är \\(g(x)>f(x)\\).</p><p><strong>Det minsta heltalet är \\(x=14\\).</strong></p>",
     "familj": "jamfora_exponential_potens__jamforelse_med_graf",
     "formaga": [
       "procedur",
@@ -17604,7 +17702,7 @@ window.BANKMA2 = [
     "rättSvar": [
       "3",
       [
-        "-0.5",
+        "-0,5",
         "2"
       ]
     ],
@@ -17976,7 +18074,7 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "ekvation",
-    "rättSvar": "lg(0.001)=-3",
+    "rättSvar": "lg(0,001)=-3",
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Översätt \\(10^b=a\\) till \\(\\lg a=b\\).</p>",
@@ -18685,7 +18783,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En uppåtvänd parabel har minimipunkten \\((2,-5)\\). Linjen \\(y=3\\) skär parabeln i två punkter som ligger 4 längdenheter från varandra i x-led.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Schematisk uppåtvänd parabel med minimipunkt och en horisontell linje som skär parabeln i två punkter fyra enheter från varandra\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"235\" x2=\"392\" y2=\"235\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"104\" y1=\"267\" x2=\"104\" y2=\"30\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"396\" y=\"252\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"88\" y=\"34\" font-size=\"14\" fill=\"#2B2527\">y</text><path d=\"M62 54 Q214 374 366 54\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><circle cx=\"214\" cy=\"258\" r=\"4\" fill=\"#B43123\"/><text x=\"224\" y=\"278\" font-size=\"14\" fill=\"#2B2527\">(2, −5)</text><line x1=\"128\" y1=\"116\" x2=\"300\" y2=\"116\" stroke=\"#8A858E\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><circle cx=\"128\" cy=\"116\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"300\" cy=\"116\" r=\"4\" fill=\"#2A5D9E\"/><text x=\"309\" y=\"111\" font-size=\"14\" fill=\"#2B2527\">y = 3</text><line x1=\"128\" y1=\"92\" x2=\"300\" y2=\"92\" stroke=\"#8A858E\"/><line x1=\"128\" y1=\"86\" x2=\"128\" y2=\"98\" stroke=\"#8A858E\"/><line x1=\"300\" y1=\"86\" x2=\"300\" y2=\"98\" stroke=\"#8A858E\"/><text x=\"214\" y=\"82\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">4 längdenheter</text></svg></span><p>Bestäm parabelns ekvation.</p>",
+    "t": "<p>En uppåtvänd parabel har minimipunkten \\((2,-5)\\). Linjen \\(y=3\\) skär parabeln i två punkter som ligger 4 längdenheter från varandra i x-led.</p><span class=\"fig smal\"><svg width=\"430\" height=\"300\" viewBox=\"0 0 430 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Uppåtvänd parabel med minimipunkten 2, minus 5. Linjen y lika med 3 skär parabeln i två punkter som ligger 4 längdenheter från varandra.\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40\" y1=\"168\" x2=\"400\" y2=\"168\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M404 168 l-8 -4.5 v9 z\" fill=\"#2B2527\"/><line x1=\"120\" y1=\"285\" x2=\"120\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M120 14 l-4.5 8 h9 z\" fill=\"#2B2527\"/><text x=\"398\" y=\"186\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"128\" y=\"24\" font-size=\"14\" fill=\"#2B2527\">y</text><path d=\"M 119.4 106.0 L 121.0 111.4 L 122.6 116.6 L 124.2 121.8 L 125.8 126.9 L 127.5 131.9 L 129.1 136.8 L 130.7 141.6 L 132.3 146.3 L 133.9 151.0 L 135.5 155.5 L 137.1 160.0 L 138.7 164.3 L 140.3 168.6 L 141.9 172.8 L 143.6 176.9 L 145.2 180.9 L 146.8 184.8 L 148.4 188.6 L 150.0 192.4 L 151.6 196.0 L 153.2 199.6 L 154.8 203.0 L 156.4 206.4 L 158.0 209.7 L 159.7 212.9 L 161.3 216.0 L 162.9 219.0 L 164.5 221.9 L 166.1 224.8 L 167.7 227.5 L 169.3 230.2 L 170.9 232.7 L 172.5 235.2 L 174.1 237.6 L 175.8 239.9 L 177.4 242.1 L 179.0 244.2 L 180.6 246.2 L 182.2 248.2 L 183.8 250.0 L 185.4 251.8 L 187.0 253.4 L 188.6 255.0 L 190.2 256.5 L 191.9 257.9 L 193.5 259.2 L 195.1 260.4 L 196.7 261.5 L 198.3 262.6 L 199.9 263.5 L 201.5 264.4 L 203.1 265.1 L 204.7 265.8 L 206.3 266.4 L 208.0 266.9 L 209.6 267.3 L 211.2 267.6 L 212.8 267.8 L 214.4 268.0 L 216.0 268.0 L 217.6 268.0 L 219.2 267.8 L 220.8 267.6 L 222.4 267.3 L 224.0 266.9 L 225.7 266.4 L 227.3 265.8 L 228.9 265.1 L 230.5 264.4 L 232.1 263.5 L 233.7 262.6 L 235.3 261.5 L 236.9 260.4 L 238.5 259.2 L 240.1 257.9 L 241.8 256.5 L 243.4 255.0 L 245.0 253.4 L 246.6 251.8 L 248.2 250.0 L 249.8 248.2 L 251.4 246.2 L 253.0 244.2 L 254.6 242.1 L 256.2 239.9 L 257.9 237.6 L 259.5 235.2 L 261.1 232.7 L 262.7 230.2 L 264.3 227.5 L 265.9 224.8 L 267.5 221.9 L 269.1 219.0 L 270.7 216.0 L 272.3 212.9 L 274.0 209.7 L 275.6 206.4 L 277.2 203.0 L 278.8 199.6 L 280.4 196.0 L 282.0 192.4 L 283.6 188.6 L 285.2 184.8 L 286.8 180.9 L 288.4 176.9 L 290.1 172.8 L 291.7 168.6 L 293.3 164.3 L 294.9 160.0 L 296.5 155.5 L 298.1 151.0 L 299.7 146.3 L 301.3 141.6 L 302.9 136.8 L 304.5 131.9 L 306.2 126.9 L 307.8 121.8 L 309.4 116.6 L 311.0 111.4 L 312.6 106.0\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"3\"/><line x1=\"46\" y1=\"108\" x2=\"392\" y2=\"108\" stroke=\"#8A858E\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"392\" y=\"100\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">y = 3</text><circle cx=\"120\" cy=\"108\" r=\"4.5\" fill=\"#2A5D9E\"/><circle cx=\"312\" cy=\"108\" r=\"4.5\" fill=\"#2A5D9E\"/><text x=\"216\" y=\"130\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">4 längdenheter</text><line x1=\"216\" y1=\"168\" x2=\"216\" y2=\"268\" stroke=\"#8A858E\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><circle cx=\"216\" cy=\"268\" r=\"4.5\" fill=\"#B43123\"/><text x=\"228\" y=\"282\" font-size=\"14\" fill=\"#2B2527\">(2, −5)</text></svg></span><p>Bestäm parabelns ekvation.</p>",
     "s": "<p>Skriv \\(f(x)=a(x-2)^2-5\\).</p><p>Skärningspunkterna med \\(y=3\\) ligger symmetriskt kring \\(x=2\\) och 4 enheter från varandra, alltså vid \\(x=0\\) och \\(x=4\\).</p><p>Sätt in \\(x=0\\):</p><p>\\(3=4a-5\\Rightarrow a=2\\).</p><p><strong>\\(f(x)=2(x-2)^2-5\\).</strong></p>",
     "familj": "andragradsfunktion_graf__avlas_egenskaper_ur_graf",
     "formaga": [
@@ -20329,9 +20427,10 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "300*1.07^t",
+    "rättSvar": "300*1,07^t",
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -20526,7 +20625,7 @@ window.BANKMA2 = [
       "procedur",
       "modellering"
     ],
-    "t": "<p>En kvadratisk skylt har sidan \\(x\\) dm. Runt skylten sätts en ram som är 1 dm bred på alla sidor. Hela skylten med ram får arean 100 dm².</p><span class=\"fig smal\"><svg width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadratisk skylt med en ram runt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"78\" y=\"28\" width=\"204\" height=\"204\" fill=\"#F4F5F7\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"102\" y=\"52\" width=\"156\" height=\"156\" fill=\"#fff\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"102\" y1=\"218\" x2=\"258\" y2=\"218\" stroke=\"#2B2527\"/><text x=\"180\" y=\"238\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\">x dm</text><line x1=\"80\" y1=\"40\" x2=\"102\" y2=\"40\" stroke=\"#2B2527\"/><text x=\"91\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">1 dm</text></svg></span><p>Bestäm den ursprungliga skyltens sida.</p>",
+    "t": "<p>En kvadratisk skylt har sidan \\(x\\) dm. Runt skylten sätts en ram som är 1 dm bred på alla sidor. Hela skylten med ram får arean 100 dm².</p><span class=\"fig smal\"><svg width=\"360\" height=\"270\" viewBox=\"0 0 360 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadratisk skylt med sidan x decimeter och en 1 decimeter bred ram runt\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"80\" y=\"34\" width=\"200\" height=\"200\" fill=\"#F4F5F7\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"100\" y=\"54\" width=\"160\" height=\"160\" fill=\"#fff\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"100\" y1=\"224\" x2=\"260\" y2=\"224\" stroke=\"#8A858E\"/><line x1=\"100\" y1=\"219\" x2=\"100\" y2=\"229\" stroke=\"#8A858E\"/><line x1=\"260\" y1=\"219\" x2=\"260\" y2=\"229\" stroke=\"#8A858E\"/><text x=\"180\" y=\"256\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">x dm</text><line x1=\"82\" y1=\"70\" x2=\"98\" y2=\"70\" stroke=\"#8A858E\"/><line x1=\"82\" y1=\"65\" x2=\"82\" y2=\"75\" stroke=\"#8A858E\"/><line x1=\"98\" y1=\"65\" x2=\"98\" y2=\"75\" stroke=\"#8A858E\"/><text x=\"76\" y=\"74\" text-anchor=\"end\" font-size=\"13\" fill=\"#2B2527\">1 dm</text></svg></span><p>Bestäm den ursprungliga skyltens sida.</p>",
     "s": "<p>När ramen läggs till ökar varje sida med 2 dm. Yttermåttet blir därför \\(x+2\\).</p><p>\\[(x+2)^2=100.\\]</p><p>Eftersom en längd är positiv får vi \\(x+2=10\\), alltså \\(x=8\\).</p><p><strong>Skyltens sida är 8 dm.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
@@ -20604,7 +20703,7 @@ window.BANKMA2 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett foto är 30 cm × 40 cm. En lika bred vit ram ska lämnas innanför papprets kanter. Bildytan ska vara 704 cm².</p><span class=\"fig smal\"><svg width=\"340\" height=\"300\" viewBox=\"0 0 340 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"70\" y=\"35\" width=\"200\" height=\"230\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"65\" width=\"160\" height=\"165\" fill=\"#F0F5FA\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"110\" y=\"150\" font-family=\"IBM Plex Mono,monospace\" font-size=\"13\">bildyta</text><text x=\"77\" y=\"55\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"252\" y=\"250\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">x</text><text x=\"145\" y=\"286\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">30 cm</text><text x=\"280\" y=\"160\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\">40 cm</text></svg></span><p>Bestäm ramens bredd.</p>",
+    "t": "<p>Ett foto är 30 cm × 40 cm. En lika bred vit ram ska lämnas innanför papprets kanter. Bildytan ska vara 704 cm².</p><span class=\"fig smal\"><svg width=\"340\" height=\"300\" viewBox=\"0 0 340 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Foto 30 gånger 40 centimeter med en lika bred vit ram x innanför kanterna\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"60\" y=\"24\" width=\"180\" height=\"240\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"84\" y=\"48\" width=\"132\" height=\"192\" fill=\"#F0F5FA\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"150\" y=\"149\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">bildyta</text><line x1=\"192\" y1=\"26\" x2=\"192\" y2=\"46\" stroke=\"#8A858E\"/><line x1=\"188\" y1=\"26\" x2=\"196\" y2=\"26\" stroke=\"#8A858E\"/><line x1=\"188\" y1=\"46\" x2=\"196\" y2=\"46\" stroke=\"#8A858E\"/><text x=\"200\" y=\"41\" font-size=\"13\" fill=\"#2B2527\">x</text><line x1=\"62\" y1=\"96\" x2=\"82\" y2=\"96\" stroke=\"#8A858E\"/><line x1=\"62\" y1=\"92\" x2=\"62\" y2=\"100\" stroke=\"#8A858E\"/><line x1=\"82\" y1=\"92\" x2=\"82\" y2=\"100\" stroke=\"#8A858E\"/><text x=\"72\" y=\"114\" text-anchor=\"middle\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"150\" y=\"286\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">30 cm</text><text x=\"250\" y=\"149\" font-size=\"14\" fill=\"#2B2527\">40 cm</text></svg></span><p>Bestäm ramens bredd.</p>",
     "s": "<p>Låt ramens bredd vara \\(x\\) cm.</p><p>Bildytans mått blir \\(30-2x\\) och \\(40-2x\\).</p><p>\\((30-2x)(40-2x)=704\\).</p><p>Efter utveckling och division med 4:</p><p>\\(x^2-35x+124=0\\).</p><p>Med <strong>pq-formeln</strong>:</p><p>\\(x=17,5\\pm\\sqrt{306,25-124}=17,5\\pm13,5\\).</p><p>Lösningarna är 4 och 31. Endast 4 cm är geometriskt möjlig.</p><p><strong>Ramen är 4 cm bred.</strong></p>",
     "familj": "andragradsekvationer_tillampningar__geometri_och_area",
     "formaga": [
@@ -23433,7 +23532,7 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "4.5x^2",
+      "4,5x^2",
       4
     ],
     "tolerans": [
@@ -23643,9 +23742,10 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "8*0.5^x",
+    "rättSvar": "8*0,5^x",
     "tolerans": null,
     "självrättning": true,
+    "svarFormat": "uttryck",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -27996,7 +28096,7 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "8000*1.04^t",
+      "8000*1,04^t",
       9733
     ],
     "tolerans": [
@@ -28056,7 +28156,7 @@ window.BANKMA2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.9,
-      "1200*0.9^t"
+      "1200*0,9^t"
     ],
     "tolerans": [
       1e-09,
@@ -29576,11 +29676,11 @@ window.BANKMA2 = [
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "uttryck",
-    "rättSvar": "10^2.7",
+    "rättSvar": "10^(2,7)",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Använd definitionen a=lg x om och endast om 10^a=x.</p>",
+    "ledtrad": "<p>Använd definitionen: \\(a=\\lg x\\) betyder samma sak som \\(10^a=x\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -31103,7 +31203,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Grafen visar en andragradsfunktion.</p><span class=\"fig smal\"><svg width=\"400\" height=\"270\" viewBox=\"0 0 400 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabel med minimipunkt i 2, minus 3\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48\" y1=\"135\" x2=\"370\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"176\" y1=\"238\" x2=\"176\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"374\" y=\"130\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"184\" y=\"28\" font-size=\"12\" fill=\"#2B2527\">y</text><path d=\"M80 45 Q240 258 352 45\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\"/><circle cx=\"240\" cy=\"202\" r=\"4.5\" fill=\"#2A5D9E\"/><line x1=\"240\" y1=\"135\" x2=\"240\" y2=\"202\" stroke=\"#8A858E\" stroke-dasharray=\"5 5\"/><text x=\"247\" y=\"220\" font-size=\"12\" fill=\"#2B2527\">(2, −3)</text><text x=\"235\" y=\"151\" font-size=\"11\" fill=\"#5C575E\">2</text></svg></span><p>Bestäm funktionens minsta värde.</p>",
+    "t": "<p>Grafen visar en andragradsfunktion.</p><span class=\"fig smal\"><svg width=\"400\" height=\"270\" viewBox=\"0 0 400 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Uppåtvänd parabel med minimipunkten 2, minus 3\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40\" y1=\"118\" x2=\"372\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M376 118 l-8 -4.5 v9 z\" fill=\"#2B2527\"/><line x1=\"146\" y1=\"250\" x2=\"146\" y2=\"22\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M146 18 l-4.5 8 h9 z\" fill=\"#2B2527\"/><text x=\"372\" y=\"136\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"154\" y=\"28\" font-size=\"13\" fill=\"#2B2527\">y</text><path d=\"M 100.4 22.0 L 102.1 28.1 L 103.9 34.2 L 105.6 40.1 L 107.4 46.0 L 109.2 51.7 L 110.9 57.3 L 112.7 62.9 L 114.4 68.3 L 116.2 73.6 L 118.0 78.8 L 119.7 83.9 L 121.5 89.0 L 123.2 93.9 L 125.0 98.7 L 126.8 103.4 L 128.5 108.0 L 130.3 112.5 L 132.1 116.9 L 133.8 121.1 L 135.6 125.3 L 137.3 129.4 L 139.1 133.4 L 140.9 137.3 L 142.6 141.0 L 144.4 144.7 L 146.1 148.3 L 147.9 151.7 L 149.7 155.1 L 151.4 158.3 L 153.2 161.5 L 154.9 164.5 L 156.7 167.5 L 158.5 170.3 L 160.2 173.1 L 162.0 175.7 L 163.7 178.2 L 165.5 180.7 L 167.3 183.0 L 169.0 185.2 L 170.8 187.3 L 172.5 189.3 L 174.3 191.3 L 176.1 193.1 L 177.8 194.8 L 179.6 196.4 L 181.4 197.9 L 183.1 199.3 L 184.9 200.6 L 186.6 201.7 L 188.4 202.8 L 190.2 203.8 L 191.9 204.7 L 193.7 205.5 L 195.4 206.1 L 197.2 206.7 L 199.0 207.2 L 200.7 207.5 L 202.5 207.8 L 204.2 207.9 L 206.0 208.0 L 207.8 207.9 L 209.5 207.8 L 211.3 207.5 L 213.0 207.2 L 214.8 206.7 L 216.6 206.1 L 218.3 205.5 L 220.1 204.7 L 221.8 203.8 L 223.6 202.8 L 225.4 201.7 L 227.1 200.6 L 228.9 199.3 L 230.6 197.9 L 232.4 196.4 L 234.2 194.8 L 235.9 193.1 L 237.7 191.3 L 239.5 189.3 L 241.2 187.3 L 243.0 185.2 L 244.7 183.0 L 246.5 180.7 L 248.3 178.2 L 250.0 175.7 L 251.8 173.1 L 253.5 170.3 L 255.3 167.5 L 257.1 164.5 L 258.8 161.5 L 260.6 158.3 L 262.3 155.1 L 264.1 151.7 L 265.9 148.3 L 267.6 144.7 L 269.4 141.0 L 271.1 137.3 L 272.9 133.4 L 274.7 129.4 L 276.4 125.3 L 278.2 121.1 L 279.9 116.9 L 281.7 112.5 L 283.5 108.0 L 285.2 103.4 L 287.0 98.7 L 288.8 93.9 L 290.5 89.0 L 292.3 83.9 L 294.0 78.8 L 295.8 73.6 L 297.6 68.3 L 299.3 62.9 L 301.1 57.3 L 302.8 51.7 L 304.6 46.0 L 306.4 40.1 L 308.1 34.2 L 309.9 28.1 L 311.6 22.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\"/><line x1=\"206\" y1=\"114\" x2=\"206\" y2=\"122\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"199\" y=\"110\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5C575E\">2</text><line x1=\"142\" y1=\"88\" x2=\"150\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"138\" y=\"92\" text-anchor=\"end\" font-size=\"12\" fill=\"#5C575E\">1</text><line x1=\"206\" y1=\"118\" x2=\"206\" y2=\"208\" stroke=\"#8A858E\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><circle cx=\"206\" cy=\"208\" r=\"4.5\" fill=\"#2A5D9E\"/><text x=\"218\" y=\"226\" font-size=\"13\" fill=\"#2B2527\">(2, −3)</text></svg></span><p>Bestäm funktionens minsta värde.</p>",
     "s": "<p>Minimipunkten är markerad som \\((2,-3)\\). Det minsta funktionsvärdet är därför <strong>−3</strong>.</p>",
     "familj": "andragradsfunktion_graf__avlas_egenskaper_ur_graf",
     "formaga": [
@@ -52346,7 +52446,7 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "V(t)=300000*0.85^t",
+      "V(t)=300000*0,85^t",
       156602
     ],
     "tolerans": [
@@ -53368,7 +53468,7 @@ window.BANKMA2 = [
     "geogebra": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "-0.05q^2+60q-8000",
+      "-0,05q^2+60q-8000",
       600,
       10000
     ],
@@ -58854,6 +58954,655 @@ window.BANKMA2 = [
         "ratt": false
       }
     ]
+  },
+  {
+    "id": "2.614",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För varje värde på konstanten \\(k\\) är</p><p>\\[f(x)=x^2-2kx+k+6\\]</p><p>en andragradsfunktion med ett minsta värde. Hur stort det minsta värdet är beror alltså på \\(k\\).</p><p>a) Bestäm det värde på \\(k\\) som gör funktionens minsta värde så stort som möjligt.<br>b) Hur stort är detta största minsta värde?<br>c) För vilka värden på \\(k\\) saknar \\(f\\) nollställen?</p>",
+    "s": "<p><strong>a)</strong> Kvadratkomplettera för att se minsta värdet:</p><p>\\[f(x)=x^2-2kx+k+6=(x-k)^2-k^2+k+6.\\]</p><p>Eftersom \\((x-k)^2\\ge0\\) är \\(f\\) som minst när \\(x=k\\). Minsta värdet är</p><p>\\[m(k)=-k^2+k+6.\\]</p><p>Nu kommer den viktiga iakttagelsen: minsta värdet \\(m(k)\\) är i sig en andragradsfunktion, men med variabeln \\(k\\). Koefficienten framför \\(k^2\\) är negativ, så \\(m\\) har ett största värde.</p><p>Kvadratkomplettera igen:</p><p>\\[m(k)=-\\left(k^2-k\\right)+6=-\\left(k-\\tfrac12\\right)^2+\\tfrac14+6=-(k-0{,}5)^2+6{,}25.\\]</p><p>Största värdet fås när \\(k=0{,}5\\). Det är svaret på a).</p><p><strong>b)</strong> Det största minsta värdet är \\(m(0{,}5)=6{,}25\\).</p><p>Kontroll: \\(k=0{,}5\\) ger \\(f(x)=x^2-x+6{,}5=(x-0{,}5)^2+6{,}25\\), med minsta värde \\(6{,}25\\).</p><p><strong>c)</strong> En uppåtöppen parabel saknar nollställen precis när hela grafen ligger ovanför \\(x\\)-axeln, alltså när minsta värdet är positivt:</p><p>\\[-k^2+k+6&gt;0\\iff k^2-k-6&lt;0\\iff (k-3)(k+2)&lt;0.\\]</p><p>Uttrycket \\(k^2-k-6\\) har nollställena \\(k=-2\\) och \\(k=3\\). Det är en uppåtöppen parabel i \\(k\\), så den är negativ mellan nollställena.</p><p>Kontroll av gränsen: \\(k=3\\) ger \\(f(x)=x^2-6x+9=(x-3)^2\\), som har ett nollställe. Därför ska \\(k=3\\) inte vara med. På samma sätt ger \\(k=-2\\) funktionen \\((x+2)^2\\).</p><p><strong>a) \\(k=0{,}5\\) &nbsp;&nbsp; b) \\(6{,}25\\) &nbsp;&nbsp; c) \\(-2&lt;k&lt;3\\)</strong></p>",
+    "familj": "andragradsfunktioner_tillampningar__optimering",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "0,5",
+      "6,25",
+      "-2<k<3"
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "bråk",
+      "bråk",
+      "intervall"
+    ],
+    "ledtrad": "<p>Kvadratkomplettera \\(f(x)\\) så att du kan skriva minsta värdet som ett uttryck i \\(k\\). Vilken sorts funktion av \\(k\\) blir det? I c) kan du fundera på vad minsta värdet säger om nollställena.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.615",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>Figuren visar parabeln \\(y=x^2\\), punkterna \\(A(0,\\,2)\\) och \\(B(0\\,;\\,0{,}4)\\) samt en punkt \\(P(x,\\,x^2)\\) på parabeln.</p><span class=\"fig smal\"><svg width=\"432\" height=\"334\" viewBox=\"0 0 432 334\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabeln y lika med x i kvadrat, punkterna A och B på y-axeln och en streckad sträcka d från A till en punkt P på parabeln\"><rect x=\"1\" y=\"1\" width=\"430\" height=\"332\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"40\" y1=\"319.8\" x2=\"40\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"102\" y1=\"319.8\" x2=\"102\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"164\" y1=\"319.8\" x2=\"164\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"226\" y1=\"319.8\" x2=\"226\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"288\" y1=\"319.8\" x2=\"288\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"350\" y1=\"319.8\" x2=\"350\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"412\" y1=\"319.8\" x2=\"412\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"282.6\" x2=\"412\" y2=\"282.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"220.6\" x2=\"412\" y2=\"220.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"158.6\" x2=\"412\" y2=\"158.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"96.6\" x2=\"412\" y2=\"96.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"34.6\" x2=\"412\" y2=\"34.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"282.6\" x2=\"420\" y2=\"282.6\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M424 282.6 l-8 -4.5 v9 z\" fill=\"#2B2527\"/><line x1=\"226\" y1=\"319.8\" x2=\"226\" y2=\"12\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M226 8 l-4.5 8 h9 z\" fill=\"#2B2527\"/><text x=\"418\" y=\"300.6\" font-size=\"14\" fill=\"#2B2527\">x</text><text x=\"234\" y=\"22\" font-size=\"14\" fill=\"#2B2527\">y</text><text x=\"102\" y=\"297.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−2</text><text x=\"164\" y=\"297.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−1</text><text x=\"288\" y=\"297.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">1</text><text x=\"350\" y=\"297.6\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">2</text><text x=\"219\" y=\"224.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">1</text><text x=\"219\" y=\"162.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">2</text><text x=\"219\" y=\"100.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">3</text><text x=\"219\" y=\"38.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">4</text><path d=\"M 97.7 16.9 L 99.8 25.7 L 101.9 34.4 L 104.1 42.8 L 106.2 51.2 L 108.4 59.4 L 110.5 67.4 L 112.6 75.3 L 114.8 83.1 L 116.9 90.7 L 119.1 98.1 L 121.2 105.4 L 123.3 112.6 L 125.5 119.6 L 127.6 126.4 L 129.7 133.2 L 131.9 139.7 L 134 146.2 L 136.2 152.4 L 138.3 158.5 L 140.4 164.5 L 142.6 170.4 L 144.7 176 L 146.9 181.6 L 149 187 L 151.1 192.2 L 153.3 197.3 L 155.4 202.2 L 157.6 207 L 159.7 211.7 L 161.8 216.2 L 164 220.5 L 166.1 224.7 L 168.2 228.8 L 170.4 232.7 L 172.5 236.5 L 174.7 240.1 L 176.8 243.6 L 178.9 246.9 L 181.1 250.1 L 183.2 253.1 L 185.4 256 L 187.5 258.7 L 189.6 261.3 L 191.8 263.7 L 193.9 266 L 196.1 268.1 L 198.2 270.1 L 200.3 272 L 202.5 273.7 L 204.6 275.2 L 206.7 276.6 L 208.9 277.9 L 211 279 L 213.2 279.9 L 215.3 280.8 L 217.4 281.4 L 219.6 281.9 L 221.7 282.3 L 223.9 282.5 L 226 282.6 L 228.1 282.5 L 230.3 282.3 L 232.4 281.9 L 234.6 281.4 L 236.7 280.8 L 238.8 279.9 L 241 279 L 243.1 277.9 L 245.3 276.6 L 247.4 275.2 L 249.5 273.7 L 251.7 272 L 253.8 270.1 L 255.9 268.1 L 258.1 266 L 260.2 263.7 L 262.4 261.3 L 264.5 258.7 L 266.6 256 L 268.8 253.1 L 270.9 250.1 L 273.1 246.9 L 275.2 243.6 L 277.3 240.1 L 279.5 236.5 L 281.6 232.7 L 283.8 228.8 L 285.9 224.7 L 288 220.5 L 290.2 216.2 L 292.3 211.7 L 294.4 207 L 296.6 202.2 L 298.7 197.3 L 300.9 192.2 L 303 187 L 305.1 181.6 L 307.3 176 L 309.4 170.4 L 311.6 164.5 L 313.7 158.5 L 315.8 152.4 L 318 146.2 L 320.1 139.7 L 322.3 133.2 L 324.4 126.4 L 326.5 119.6 L 328.7 112.6 L 330.8 105.4 L 332.9 98.1 L 335.1 90.7 L 337.2 83.1 L 339.4 75.3 L 341.5 67.4 L 343.6 59.4 L 345.8 51.2 L 347.9 42.8 L 350.1 34.4 L 352.2 25.7 L 354.3 16.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><text x=\"94.9\" y=\"52.6\" text-anchor=\"end\" font-size=\"14\" fill=\"#B43123\">y = x²</text><line x1=\"226\" y1=\"158.6\" x2=\"331.4\" y2=\"103.4\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"276.7\" y=\"126.6\" font-size=\"14\" font-style=\"italic\" fill=\"#2A5D9E\">d</text><circle cx=\"226\" cy=\"158.6\" r=\"4.5\" fill=\"#2A5D9E\"/><text x=\"217\" y=\"149.6\" text-anchor=\"end\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">A</text><circle cx=\"226\" cy=\"257.8\" r=\"4.5\" fill=\"#2A5D9E\"/><text x=\"217\" y=\"262.8\" text-anchor=\"end\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">B</text><circle cx=\"331.4\" cy=\"103.4\" r=\"4.5\" fill=\"#B43123\"/><text x=\"341.4\" y=\"108.4\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\">P(x, x²)</text></svg></span><p>a) Bestäm det kortaste avståndet från \\(A\\) till parabeln.<br>b) Bestäm det kortaste avståndet från \\(B\\) till parabeln.<br>c) Punkten \\((0,\\,q)\\) ligger på \\(y\\)-axeln. För vilka värden på \\(q\\) är origo den punkt på parabeln som ligger närmast \\((0,\\,q)\\)?</p>",
+    "s": "<p><strong>Idé.</strong> Avståndet \\(d\\) är aldrig negativt. Då är \\(d\\) som minst precis när \\(d^2\\) är som minst. Det räcker därför att minimera \\(d^2\\), och då slipper man kvadratroten.</p><p><strong>a)</strong> Avståndsformeln mellan \\(A(0,\\,2)\\) och \\(P(x,\\,x^2)\\) ger</p><p>\\[d^2=(x-0)^2+(x^2-2)^2.\\]</p><p>Uttrycket innehåller bara \\(x^2\\). Sätt \\(t=x^2\\), där \\(t\\ge0\\):</p><p>\\[d^2=t+(t-2)^2=t^2-3t+4.\\]</p><p>Det är en uppåtöppen parabel i \\(t\\) med symmetrilinjen \\(t=1{,}5\\). Eftersom \\(1{,}5\\ge0\\) är det värdet tillåtet.</p><p>\\[d^2_{\\min}=1{,}5^2-3\\cdot1{,}5+4=1{,}75\\quad\\Rightarrow\\quad d_{\\min}=\\sqrt{1{,}75}=\\frac{\\sqrt7}{2}\\approx1{,}32.\\]</p><p>Närmaste punkterna har \\(x^2=1{,}5\\), alltså \\(x=\\pm\\sqrt{1{,}5}\\approx\\pm1{,}22\\). Det finns två närmaste punkter eftersom figuren är symmetrisk kring \\(y\\)-axeln.</p><p><strong>b)</strong> På samma sätt för \\(B(0\\,;\\,0{,}4)\\):</p><p>\\[d^2=t+(t-0{,}4)^2=t^2+0{,}2t+0{,}16,\\quad t\\ge0.\\]</p><p>Symmetrilinjen är \\(t=-0{,}1\\). Men \\(t=x^2\\) kan aldrig vara negativt, så det värdet går inte att använda.</p><p>För \\(t\\ge0\\) ligger vi till höger om symmetrilinjen, där den uppåtöppna parabeln växer. Därför blir \\(d^2\\) minst i intervallets vänstra gräns \\(t=0\\):</p><p>\\[d^2_{\\min}=0{,}16\\quad\\Rightarrow\\quad d_{\\min}=0{,}4.\\]</p><p>Närmaste punkten är origo.</p><p><strong>c)</strong> För punkten \\((0,\\,q)\\) blir</p><p>\\[d^2=t+(t-q)^2=t^2+(1-2q)t+q^2,\\quad t\\ge0.\\]</p><p>Symmetrilinjen är \\(t=\\dfrac{2q-1}{2}\\).</p><p>Om symmetrilinjen ligger vid \\(t\\le0\\) växer \\(d^2\\) för alla tillåtna \\(t\\), och då är \\(t=0\\), alltså origo, närmast. Om symmetrilinjen ligger vid \\(t&gt;0\\) är \\(d^2\\) mindre där än vid \\(t=0\\), och då finns närmare punkter än origo. Det var det som hände i a).</p><p>Villkoret blir</p><p>\\[\\frac{2q-1}{2}\\le0\\iff q\\le0{,}5.\\]</p><p><strong>a) \\(\\frac{\\sqrt7}{2}\\approx1{,}32\\) &nbsp;&nbsp; b) \\(0{,}4\\) &nbsp;&nbsp; c) \\(q\\le0{,}5\\)</strong></p>",
+    "familj": "andragradsfunktioner_tillampningar__optimering",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1,32",
+      "0,4",
+      "q<=0,5"
+    ],
+    "tolerans": [
+      0.006,
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      null,
+      "bråk",
+      "intervall"
+    ],
+    "ledtrad": "<p>Minimera \\(d^2\\) i stället för \\(d\\). Uttrycket för \\(d^2\\) innehåller bara \\(x^2\\), så sätt \\(t=x^2\\) och kom ihåg att \\(t\\) inte kan vara negativt.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.616",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Anta att \\(\\lg2=a\\) och \\(\\lg3=b\\). Svara exakt, uttryckt i \\(a\\) och \\(b\\).</p><p>a) Skriv \\(\\lg15\\) med hjälp av \\(a\\) och \\(b\\).<br>b) Skriv \\(\\lg\\sqrt{0{,}24}\\) med hjälp av \\(a\\) och \\(b\\).<br>c) Lös ekvationen \\(2^x=45\\). Skriv lösningen med hjälp av \\(a\\) och \\(b\\).</p>",
+    "s": "<p><strong>Idé.</strong> Talen ska delas upp i faktorer som vi känner logaritmen för: \\(2\\), \\(3\\) och \\(10\\) (eftersom \\(\\lg10=1\\)). Talet \\(5\\) kan inte skrivas med bara 2:or och 3:or, men \\(5=\\frac{10}{2}\\). Därför är</p><p>\\[\\lg5=\\lg10-\\lg2=1-a.\\]</p><p><strong>a)</strong> \\(15=3\\cdot5\\), så</p><p>\\[\\lg15=\\lg3+\\lg5=b+1-a.\\]</p><p><strong>b)</strong> Skriv först om talet: \\(0{,}24=\\frac{24}{100}=\\frac{2^3\\cdot3}{10^2}\\).</p><p>\\[\\lg\\sqrt{0{,}24}=\\tfrac12\\lg0{,}24=\\tfrac12\\left(3\\lg2+\\lg3-2\\lg10\\right)=\\frac{3a+b-2}{2}.\\]</p><p><strong>c)</strong> Ta logaritmen av båda leden:</p><p>\\[\\lg2^x=\\lg45\\iff x\\lg2=\\lg45.\\]</p><p>\\(45=9\\cdot5=3^2\\cdot\\frac{10}{2}\\), så \\(\\lg45=2b+1-a\\). Därmed</p><p>\\[x=\\frac{1-a+2b}{a}.\\]</p><p>Kontroll med \\(a\\approx0{,}3010\\) och \\(b\\approx0{,}4771\\): a) ger \\(1{,}1761\\) och \\(\\lg15\\approx1{,}1761\\). c) ger \\(x\\approx5{,}49\\) och \\(2^{5{,}49}\\approx45\\).</p><p><strong>a) \\(1-a+b\\) &nbsp;&nbsp; b) \\(\\frac{3a+b-2}{2}\\) &nbsp;&nbsp; c) \\(x=\\frac{1-a+2b}{a}\\)</strong></p>",
+    "familj": "logaritmlagar__tillampa_logaritmlagar",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1-a+b",
+      "(3a+b-2)/2",
+      "(1-a+2b)/a"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "ledtrad": "<p>Dela upp talen i faktorerna 2, 3 och 10. Hur kan du skriva 5 med hjälp av 10 och 2?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "2.617",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Använd att \\(\\lg2\\approx0{,}3010\\).</p><p>a) Hur många siffror har talet \\(2^{100}\\)?<br>b) Hur många siffror har talet \\(5^{100}\\)?<br>c) Hur många siffror har talet \\(8^{40}\\cdot5^{117}\\)?</p>",
+    "s": "<p><strong>Idé.</strong> Ett tal \\(N\\) med \\(n\\) siffror ligger mellan \\(10^{n-1}\\) och \\(10^n\\):</p><p>\\[10^{n-1}\\le N&lt;10^n\\iff n-1\\le\\lg N&lt;n.\\]</p><p>Antalet siffror är alltså heltalsdelen av \\(\\lg N\\) plus 1. Exempel: \\(\\lg500\\approx2{,}70\\), och 500 har \\(2+1=3\\) siffror.</p><p><strong>a)</strong> \\(\\lg2^{100}=100\\lg2\\approx30{,}10\\).</p><p>Alltså gäller \\(10^{30}\\le2^{100}&lt;10^{31}\\), och talet har \\(30+1=31\\) siffror.</p><p>Avrundningen i \\(\\lg2\\) spelar ingen roll här, eftersom \\(30{,}10\\) ligger långt från ett heltal.</p><p><strong>b)</strong> Vi känner inte \\(\\lg5\\) direkt, men \\(5=\\frac{10}{2}\\):</p><p>\\[\\lg5=\\lg10-\\lg2\\approx1-0{,}3010=0{,}6990.\\]</p><p>\\(\\lg5^{100}=100\\lg5\\approx69{,}90\\), så talet har \\(69+1=70\\) siffror.</p><p>Rimlighetskontroll: \\(2^{100}\\cdot5^{100}=10^{100}\\), som har 101 siffror. Produkten av ett tal med 31 siffror och ett tal med 70 siffror har 100 eller 101 siffror, så svaren stämmer med varandra.</p><p><strong>c)</strong> Skriv om så att 2:or och 5:or kan paras ihop till 10:or:</p><p>\\[8^{40}\\cdot5^{117}=2^{120}\\cdot5^{117}=2^3\\cdot2^{117}\\cdot5^{117}=8\\cdot10^{117}.\\]</p><p>Talet är en 8:a följd av 117 nollor, alltså \\(1+117=118\\) siffror.</p><p><strong>a) 31 &nbsp;&nbsp; b) 70 &nbsp;&nbsp; c) 118</strong></p>",
+    "familj": "logaritmlagar__tillampa_logaritmlagar",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "31",
+      "70",
+      "118"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "heltal",
+      "heltal",
+      "heltal"
+    ],
+    "ledtrad": "<p>Mellan vilka tiopotenser ligger ett tal med 3 siffror? Vad säger det om talets logaritm? I b) kan du skriva 5 som \\(\\frac{10}{2}\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "2.618",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=C\\cdot a^x\\), där \\(C&gt;0\\) och \\(a&gt;0\\), uppfyller för <em>alla</em> \\(x\\) att</p><p>\\[f(x+2)=f(x+1)+6f(x).\\]</p><p>Dessutom gäller att \\(f(1)+f(2)=24\\).</p><p>Bestäm \\(a\\) och \\(C\\).</p>",
+    "s": "<p>Skriv de förskjutna funktionsvärdena med potenslagarna:</p><p>\\[f(x+1)=C\\cdot a^{x+1}=C\\cdot a^x\\cdot a,\\qquad f(x+2)=C\\cdot a^x\\cdot a^2.\\]</p><p>Villkoret blir</p><p>\\[C\\cdot a^x\\cdot a^2=C\\cdot a^x\\cdot a+6\\cdot C\\cdot a^x.\\]</p><p><strong>Idé.</strong> Eftersom \\(C&gt;0\\) och \\(a&gt;0\\) är \\(C\\cdot a^x&gt;0\\) för alla \\(x\\). Vi kan därför dividera båda leden med \\(C\\cdot a^x\\). Kvar blir en ekvation där \\(x\\) inte finns med. Det är därför villkoret kan gälla för alla \\(x\\) på en gång:</p><p>\\[a^2=a+6\\iff a^2-a-6=0\\iff(a-3)(a+2)=0.\\]</p><p>Lösningarna är \\(a=3\\) och \\(a=-2\\). Basen i en exponentialfunktion måste vara positiv, så \\(a=3\\).</p><p>Villkoret bestämmer alltså bara \\(a\\). För att få \\(C\\) används det andra villkoret:</p><p>\\[f(1)+f(2)=3C+9C=12C=24\\iff C=2.\\]</p><p>Kontroll: \\(f(x)=2\\cdot3^x\\) ger \\(f(x+2)=18\\cdot3^x\\) och \\(f(x+1)+6f(x)=6\\cdot3^x+12\\cdot3^x=18\\cdot3^x\\). Dessutom är \\(f(1)+f(2)=6+18=24\\).</p><p><strong>\\(a=3\\) och \\(C=2\\), alltså \\(f(x)=2\\cdot3^x\\).</strong></p>",
+    "familj": "exponentialfunktioner__bestam_exponentialmodell",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "2"
+    ],
+    "tolerans": null,
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 2,
+    "svarEtiketter": [
+      "a",
+      "C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Skriv \\(f(x+1)\\) och \\(f(x+2)\\) som \\(C\\cdot a^x\\) gånger något. Vad händer om du dividerar hela villkoret med \\(C\\cdot a^x\\)?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "2.619",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/2/2",
+    "t": "<p>Figuren visar parabeln \\(y=9-x^2\\). En rektangel har ena sidan på \\(x\\)-axeln och de två övre hörnen på parabeln. Det högra övre hörnet har koordinaterna \\((x,\\,9-x^2)\\), där \\(0&lt;x&lt;3\\).</p><span class=\"fig smal\"><svg width=\"432\" height=\"340\" viewBox=\"0 0 432 340\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabeln y lika med 9 minus x i kvadrat och en rektangel med ena sidan på x-axeln och två hörn på parabeln\"><rect x=\"1\" y=\"1\" width=\"430\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"79.2\" y1=\"306\" x2=\"79.2\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"128.1\" y1=\"306\" x2=\"128.1\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"177.1\" y1=\"306\" x2=\"177.1\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"274.9\" y1=\"306\" x2=\"274.9\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"323.9\" y1=\"306\" x2=\"323.9\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"372.8\" y1=\"306\" x2=\"372.8\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"230.9\" x2=\"412\" y2=\"230.9\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"179.1\" x2=\"412\" y2=\"179.1\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"127.3\" x2=\"412\" y2=\"127.3\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"75.6\" x2=\"412\" y2=\"75.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"23.8\" x2=\"412\" y2=\"23.8\" stroke=\"#E8E7EA\"/><rect x=\"147.7\" y=\"115.9\" width=\"156.6\" height=\"166.7\" fill=\"#EAF0F8\" fill-opacity=\"0.9\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"40\" y1=\"282.7\" x2=\"420\" y2=\"282.7\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M424 282.7 l-8 -4.5 v9 z\" fill=\"#2B2527\"/><line x1=\"226\" y1=\"306\" x2=\"226\" y2=\"12\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M226 8 l-4.5 8 h9 z\" fill=\"#2B2527\"/><text x=\"416\" y=\"300.7\" font-size=\"14\" fill=\"#2B2527\" text-anchor=\"end\">x</text><text x=\"234\" y=\"22\" font-size=\"14\" fill=\"#2B2527\">y</text><text x=\"79.2\" y=\"297.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−3</text><text x=\"128.1\" y=\"297.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−2</text><text x=\"177.1\" y=\"297.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−1</text><text x=\"274.9\" y=\"297.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">1</text><text x=\"323.9\" y=\"297.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">2</text><text x=\"372.8\" y=\"297.7\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">3</text><text x=\"220\" y=\"234.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">2</text><text x=\"220\" y=\"183.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">4</text><text x=\"220\" y=\"131.3\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">6</text><text x=\"220\" y=\"79.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">8</text><path d=\"M 69.4 314.8 L 71.3 308.2 L 73.3 301.7 L 75.2 295.3 L 77.2 289 L 79.2 282.7 L 81.1 276.5 L 83.1 270.4 L 85 264.4 L 87 258.5 L 88.9 252.7 L 90.9 246.9 L 92.9 241.2 L 94.8 235.6 L 96.8 230.1 L 98.7 224.7 L 100.7 219.4 L 102.7 214.1 L 104.6 208.9 L 106.6 203.8 L 108.5 198.8 L 110.5 193.9 L 112.4 189 L 114.4 184.3 L 116.4 179.6 L 118.3 175 L 120.3 170.5 L 122.2 166 L 124.2 161.7 L 126.1 157.4 L 128.1 153.2 L 130.1 149.1 L 132 145.1 L 134 141.2 L 135.9 137.3 L 137.9 133.6 L 139.9 129.9 L 141.8 126.3 L 143.8 122.7 L 145.7 119.3 L 147.7 115.9 L 149.6 112.7 L 151.6 109.5 L 153.6 106.4 L 155.5 103.4 L 157.5 100.4 L 159.4 97.6 L 161.4 94.8 L 163.3 92.1 L 165.3 89.5 L 167.3 86.9 L 169.2 84.5 L 171.2 82.1 L 173.1 79.9 L 175.1 77.7 L 177.1 75.6 L 179 73.5 L 181 71.6 L 182.9 69.7 L 184.9 67.9 L 186.8 66.2 L 188.8 64.6 L 190.8 63.1 L 192.7 61.6 L 194.7 60.3 L 196.6 59 L 198.6 57.8 L 200.5 56.7 L 202.5 55.6 L 204.5 54.7 L 206.4 53.8 L 208.4 53 L 210.3 52.3 L 212.3 51.7 L 214.3 51.2 L 216.2 50.7 L 218.2 50.3 L 220.1 50 L 222.1 49.8 L 224 49.7 L 226 49.7 L 228 49.7 L 229.9 49.8 L 231.9 50 L 233.8 50.3 L 235.8 50.7 L 237.7 51.2 L 239.7 51.7 L 241.7 52.3 L 243.6 53 L 245.6 53.8 L 247.5 54.7 L 249.5 55.6 L 251.5 56.7 L 253.4 57.8 L 255.4 59 L 257.3 60.3 L 259.3 61.6 L 261.2 63.1 L 263.2 64.6 L 265.2 66.2 L 267.1 67.9 L 269.1 69.7 L 271 71.6 L 273 73.5 L 274.9 75.6 L 276.9 77.7 L 278.9 79.9 L 280.8 82.1 L 282.8 84.5 L 284.7 86.9 L 286.7 89.5 L 288.7 92.1 L 290.6 94.8 L 292.6 97.6 L 294.5 100.4 L 296.5 103.4 L 298.4 106.4 L 300.4 109.5 L 302.4 112.7 L 304.3 115.9 L 306.3 119.3 L 308.2 122.7 L 310.2 126.3 L 312.1 129.9 L 314.1 133.6 L 316.1 137.3 L 318 141.2 L 320 145.1 L 321.9 149.1 L 323.9 153.2 L 325.9 157.4 L 327.8 161.7 L 329.8 166 L 331.7 170.5 L 333.7 175 L 335.6 179.6 L 337.6 184.3 L 339.6 189 L 341.5 193.9 L 343.5 198.8 L 345.4 203.8 L 347.4 208.9 L 349.3 214.1 L 351.3 219.4 L 353.3 224.7 L 355.2 230.1 L 357.2 235.6 L 359.1 241.2 L 361.1 246.9 L 363.1 252.7 L 365 258.5 L 367 264.4 L 368.9 270.4 L 370.9 276.5 L 372.8 282.7 L 374.8 289 L 376.8 295.3 L 378.7 301.7 L 380.7 308.2 L 382.6 314.8\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><circle cx=\"304.3\" cy=\"115.9\" r=\"4.5\" fill=\"#B43123\"/><circle cx=\"147.7\" cy=\"115.9\" r=\"4.5\" fill=\"#B43123\"/><text x=\"313.3\" y=\"107.9\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">(x, 9 − x²)</text><text x=\"111\" y=\"67.8\" text-anchor=\"end\" font-size=\"14\" fill=\"#B43123\">y = 9 − x²</text><text x=\"265.2\" y=\"274.7\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2A5D9E\" font-style=\"italic\">x</text><line x1=\"226\" y1=\"273.6\" x2=\"304.3\" y2=\"273.6\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/></svg></span><p>a) Ställ upp och förenkla ett uttryck för rektangelns omkrets \\(P(x)\\).<br>b) Bestäm den största möjliga omkretsen.<br>c) Rektangeln placeras i stället under parabeln \\(y=a-x^2\\), där \\(a&gt;1\\), på samma sätt som i figuren. Bestäm \\(a\\) så att den rektangel som har störst omkrets blir en kvadrat.</p>",
+    "s": "<p><strong>Idé.</strong> Figuren är symmetrisk kring \\(y\\)-axeln. Därför är rektangelns bredd \\(2x\\) och höjden \\(9-x^2\\).</p><p><strong>a)</strong> Omkretsen är två bredder plus två höjder:</p><p>\\[P(x)=2\\cdot2x+2(9-x^2)=-2x^2+4x+18.\\]</p><p><strong>b)</strong> \\(P(x)\\) är en nedåtöppen parabel, så det största värdet finns på symmetrilinjen:</p><p>\\[x=-\\frac{4}{2\\cdot(-2)}=1.\\]</p><p>Värdet \\(x=1\\) ligger i det tillåtna intervallet \\(0&lt;x&lt;3\\).</p><p>\\[P(1)=-2+4+18=20.\\]</p><p>Rektangeln är då 2 bred och \\(9-1=8\\) hög. Kontroll: \\(2\\cdot2+2\\cdot8=20\\).</p><p><strong>c)</strong> Med parabeln \\(y=a-x^2\\) blir bredden \\(2x\\) och höjden \\(a-x^2\\):</p><p>\\[P(x)=4x+2(a-x^2)=-2x^2+4x+2a.\\]</p><p>Talet \\(a\\) finns bara i konstanttermen. Den flyttar grafen uppåt eller nedåt men inte i sidled. Symmetrilinjen är därför fortfarande \\(x=1\\), oavsett \\(a\\).</p><p>Hörnet måste ligga ovanför \\(x\\)-axeln, alltså \\(a-1^2&gt;0\\). Det gäller eftersom \\(a&gt;1\\).</p><p>Den rektangel som har störst omkrets har alltså bredden \\(2\\cdot1=2\\) och höjden \\(a-1\\). Den är en kvadrat när</p><p>\\[a-1=2\\iff a=3.\\]</p><p><strong>a) \\(P(x)=-2x^2+4x+18\\) &nbsp;&nbsp; b) 20 &nbsp;&nbsp; c) \\(a=3\\)</strong></p>",
+    "familj": "andragradsfunktioner_tillampningar__optimering",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-2x^2+4x+18",
+      "20",
+      "3"
+    ],
+    "tolerans": [
+      null,
+      0.001,
+      0.001
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Rektangelns bredd är \\(2x\\). Omkretsen blir en andragradsfunktion i \\(x\\). Var ligger dess symmetrilinje? I c): undersök om symmetrilinjen beror på \\(a\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "2.620",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>Figuren visar parabeln \\(y=x^2+2\\) och punkten \\((0,\\,1)\\). Två räta linjer går genom punkten: den ena skär parabeln och den andra missar den. Punkten \\(R(1,\\,-2)\\) är också markerad.</p><span class=\"fig smal\"><svg width=\"432\" height=\"350\" viewBox=\"0 0 432 350\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabeln y lika med x i kvadrat plus 2, punkten 0, 1 med två linjer genom den, samt punkten 1, minus 2\"><rect x=\"1\" y=\"1\" width=\"430\" height=\"348\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"49.5\" y1=\"316\" x2=\"49.5\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"97.2\" y1=\"316\" x2=\"97.2\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"144.9\" y1=\"316\" x2=\"144.9\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"240.3\" y1=\"316\" x2=\"240.3\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"288\" y1=\"316\" x2=\"288\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"335.7\" y1=\"316\" x2=\"335.7\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"383.4\" y1=\"316\" x2=\"383.4\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"283.7\" x2=\"412\" y2=\"283.7\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"191.4\" x2=\"412\" y2=\"191.4\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"145.2\" x2=\"412\" y2=\"145.2\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"99.1\" x2=\"412\" y2=\"99.1\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"52.9\" x2=\"412\" y2=\"52.9\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"237.5\" x2=\"420\" y2=\"237.5\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M424 237.5 l-8 -4.5 v9 z\" fill=\"#2B2527\"/><line x1=\"192.6\" y1=\"316\" x2=\"192.6\" y2=\"12\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M192.6 8 l-4.5 8 h9 z\" fill=\"#2B2527\"/><text x=\"416\" y=\"255.5\" font-size=\"14\" fill=\"#2B2527\" text-anchor=\"end\">x</text><text x=\"200.6\" y=\"22\" font-size=\"14\" fill=\"#2B2527\">y</text><text x=\"97.2\" y=\"252.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−2</text><text x=\"144.9\" y=\"252.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−1</text><text x=\"240.3\" y=\"252.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">1</text><text x=\"288\" y=\"252.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">2</text><text x=\"335.7\" y=\"252.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">3</text><text x=\"383.4\" y=\"252.5\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">4</text><text x=\"186.6\" y=\"287.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−2</text><text x=\"186.6\" y=\"195.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">2</text><text x=\"186.6\" y=\"149.2\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">4</text><text x=\"186.6\" y=\"103.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">6</text><text x=\"186.6\" y=\"56.9\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">8</text><path d=\"M 62.9 20.7 L 64.5 24.9 L 66.1 29.1 L 67.8 33.2 L 69.4 37.3 L 71 41.3 L 72.6 45.3 L 74.2 49.2 L 75.9 53.1 L 77.5 56.9 L 79.1 60.7 L 80.7 64.4 L 82.4 68 L 84 71.6 L 85.6 75.2 L 87.2 78.7 L 88.8 82.1 L 90.5 85.5 L 92.1 88.8 L 93.7 92.1 L 95.3 95.3 L 96.9 98.5 L 98.6 101.6 L 100.2 104.7 L 101.8 107.7 L 103.4 110.7 L 105.1 113.6 L 106.7 116.4 L 108.3 119.3 L 109.9 122 L 111.5 124.7 L 113.2 127.3 L 114.8 129.9 L 116.4 132.5 L 118 134.9 L 119.6 137.4 L 121.3 139.7 L 122.9 142.1 L 124.5 144.3 L 126.1 146.5 L 127.8 148.7 L 129.4 150.8 L 131 152.9 L 132.6 154.9 L 134.2 156.8 L 135.9 158.7 L 137.5 160.5 L 139.1 162.3 L 140.7 164.1 L 142.3 165.7 L 144 167.4 L 145.6 168.9 L 147.2 170.5 L 148.8 171.9 L 150.5 173.4 L 152.1 174.7 L 153.7 176 L 155.3 177.3 L 156.9 178.5 L 158.6 179.6 L 160.2 180.7 L 161.8 181.8 L 163.4 182.7 L 165 183.7 L 166.7 184.6 L 168.3 185.4 L 169.9 186.2 L 171.5 186.9 L 173.2 187.5 L 174.8 188.2 L 176.4 188.7 L 178 189.2 L 179.6 189.7 L 181.3 190.1 L 182.9 190.4 L 184.5 190.7 L 186.1 191 L 187.8 191.1 L 189.4 191.3 L 191 191.4 L 192.6 191.4 L 194.2 191.4 L 195.9 191.3 L 197.5 191.1 L 199.1 191 L 200.7 190.7 L 202.3 190.4 L 204 190.1 L 205.6 189.7 L 207.2 189.2 L 208.8 188.7 L 210.5 188.2 L 212.1 187.5 L 213.7 186.9 L 215.3 186.2 L 216.9 185.4 L 218.6 184.6 L 220.2 183.7 L 221.8 182.7 L 223.4 181.8 L 225 180.7 L 226.7 179.6 L 228.3 178.5 L 229.9 177.3 L 231.5 176 L 233.2 174.7 L 234.8 173.4 L 236.4 171.9 L 238 170.5 L 239.6 168.9 L 241.3 167.4 L 242.9 165.7 L 244.5 164.1 L 246.1 162.3 L 247.7 160.5 L 249.4 158.7 L 251 156.8 L 252.6 154.9 L 254.2 152.9 L 255.9 150.8 L 257.5 148.7 L 259.1 146.5 L 260.7 144.3 L 262.3 142.1 L 264 139.7 L 265.6 137.4 L 267.2 134.9 L 268.8 132.5 L 270.4 129.9 L 272.1 127.3 L 273.7 124.7 L 275.3 122 L 276.9 119.3 L 278.6 116.4 L 280.2 113.6 L 281.8 110.7 L 283.4 107.7 L 285 104.7 L 286.7 101.6 L 288.3 98.5 L 289.9 95.3 L 291.5 92.1 L 293.2 88.8 L 294.8 85.5 L 296.4 82.1 L 298 78.7 L 299.6 75.2 L 301.3 71.6 L 302.9 68 L 304.5 64.4 L 306.1 60.7 L 307.7 56.9 L 309.4 53.1 L 311 49.2 L 312.6 45.3 L 314.2 41.3 L 315.9 37.3 L 317.5 33.2 L 319.1 29.1 L 320.7 24.9 L 322.3 20.7\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><text x=\"102\" y=\"39.1\" font-size=\"14\" fill=\"#B43123\">y = x² + 2</text><path d=\"M 40 273.5 L 226 201.5 L 412 129.5\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><path d=\"M 129.2 306.5 L 228.9 161.8 L 328.5 17.2\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"210.8\" cy=\"188\" r=\"3.5\" fill=\"#2A5D9E\"/><circle cx=\"317.5\" cy=\"33.2\" r=\"3.5\" fill=\"#2A5D9E\"/><text x=\"407.2\" y=\"123.4\" text-anchor=\"end\" font-size=\"14\" fill=\"#2A5D9E\">y = kx + 1</text><circle cx=\"192.6\" cy=\"214.5\" r=\"4.5\" fill=\"#2B2527\"/><text x=\"184.6\" y=\"208.5\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">(0, 1)</text><circle cx=\"240.3\" cy=\"283.7\" r=\"4.5\" fill=\"#2B2527\"/><text x=\"249.3\" y=\"288.7\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">R(1, −2)</text></svg></span><p>a) För vilka värden på \\(k\\) har linjen \\(y=kx+1\\) och parabeln inga gemensamma punkter?<br>b) För \\(k=2\\) har linjen och parabeln exakt en gemensam punkt. Bestäm den punkten.<br>c) Det finns två räta linjer genom \\(R\\) som har exakt en gemensam punkt med parabeln. Bestäm linjernas lutningar exakt.</p>",
+    "s": "<p><strong>Idé.</strong> Gemensamma punkter motsvarar lösningar till ekvationen \\(\\text{parabel}=\\text{linje}\\). Uttrycket under rottecknet i lösningsformeln avgör om det finns två, en eller inga lösningar.</p><p><strong>a)</strong> \\(x^2+2=kx+1\\iff x^2-kx+1=0\\).</p><p>\\[x=\\frac{k}{2}\\pm\\sqrt{\\frac{k^2}{4}-1}\\]</p><p>Det finns inga reella lösningar när uttrycket under rottecknet är negativt:</p><p>\\[\\frac{k^2}{4}-1&lt;0\\iff k^2&lt;4\\iff -2&lt;k&lt;2.\\]</p><p><strong>b)</strong> Med \\(k=2\\) blir ekvationen \\(x^2-2x+1=0\\), alltså \\((x-1)^2=0\\). Den har bara lösningen \\(x=1\\) (en dubbelrot).</p><p>Då är \\(y=1^2+2=3\\). Linjen tangerar parabeln i punkten \\((1,\\,3)\\).</p><p><strong>c)</strong> En linje \\(y=kx+m\\) genom \\(R(1,\\,-2)\\) uppfyller \\(-2=k+m\\), alltså \\(m=-2-k\\). Då blir linjen \\(y=kx-2-k\\).</p><p>\\[x^2+2=kx-2-k\\iff x^2-kx+(4+k)=0\\]</p><p>\\[x=\\frac{k}{2}\\pm\\sqrt{\\frac{k^2}{4}-(4+k)}\\]</p><p>Exakt en gemensam punkt får vi när uttrycket under rottecknet är noll:</p><p>\\[\\frac{k^2}{4}-4-k=0\\iff k^2-4k-16=0\\iff k=2\\pm\\sqrt{4+16}=2\\pm2\\sqrt5.\\]</p><p>Kontroll: med \\(k=2+2\\sqrt5\\approx6{,}47\\) blir tangeringspunktens \\(x\\)-koordinat \\(\\frac{k}{2}=1+\\sqrt5\\approx3{,}24\\). Linjen \\(y=6{,}47x-8{,}47\\) och parabeln ger båda \\(y\\approx12{,}5\\) där.</p><p><strong>a) \\(-2&lt;k&lt;2\\) &nbsp;&nbsp; b) \\((1,\\,3)\\) &nbsp;&nbsp; c) \\(k=2+2\\sqrt5\\approx6{,}47\\) och \\(k=2-2\\sqrt5\\approx-2{,}47\\)</strong></p>",
+    "familj": "mer_om_andragradsekvationer__parameter_och_rotvillkor",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-2<k<2",
+      "(1,3)",
+      [
+        "2+2√5",
+        "2-2√5"
+      ]
+    ],
+    "tolerans": [
+      null,
+      null,
+      [
+        0.006,
+        0.006
+      ]
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 4,
+    "svarFormat": [
+      "intervall",
+      "punkt",
+      [
+        null,
+        null
+      ]
+    ],
+    "ledtrad": "<p>Sätt parabelns och linjens uttryck lika. Hur många lösningar ekvationen har avgörs av uttrycket under rottecknet i \\(pq\\)-formeln. I c): en linje genom \\(R\\) kan skrivas \\(y=kx+m\\) där \\(m\\) beror på \\(k\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.621",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/2/3",
+    "t": "<p>Figuren visar graferna till \\(f(x)=3\\cdot2^x\\) och \\(g(x)=48\\cdot2^{-x}\\). De skär varandra i punkten \\(P\\). Den vågräta linjen \\(y=k\\), där \\(0&lt;k&lt;12\\), skär grafen till \\(f\\) i punkten \\(A\\) och grafen till \\(g\\) i punkten \\(B\\).</p><span class=\"fig smal\"><svg width=\"432\" height=\"350\" viewBox=\"0 0 432 350\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graferna till y lika med 3 gånger 2 upphöjt till x och y lika med 48 gånger 2 upphöjt till minus x som skär varandra i P. En vågrät linje y lika med k skär kurvorna i A och B.\"><rect x=\"1\" y=\"1\" width=\"430\" height=\"348\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"67.9\" y1=\"316\" x2=\"67.9\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"160.9\" y1=\"316\" x2=\"160.9\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"207.4\" y1=\"316\" x2=\"207.4\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"253.9\" y1=\"316\" x2=\"253.9\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"300.4\" y1=\"316\" x2=\"300.4\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"346.9\" y1=\"316\" x2=\"346.9\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"393.4\" y1=\"316\" x2=\"393.4\" y2=\"16\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"245.7\" x2=\"412\" y2=\"245.7\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"191.7\" x2=\"412\" y2=\"191.7\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"137.6\" x2=\"412\" y2=\"137.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"83.6\" x2=\"412\" y2=\"83.6\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"29.5\" x2=\"412\" y2=\"29.5\" stroke=\"#E8E7EA\"/><line x1=\"40\" y1=\"299.8\" x2=\"420\" y2=\"299.8\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M424 299.8 l-8 -4.5 v9 z\" fill=\"#2B2527\"/><line x1=\"114.4\" y1=\"316\" x2=\"114.4\" y2=\"12\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M114.4 8 l-4.5 8 h9 z\" fill=\"#2B2527\"/><text x=\"416\" y=\"317.8\" font-size=\"14\" fill=\"#2B2527\" text-anchor=\"end\">x</text><text x=\"122.4\" y=\"22\" font-size=\"14\" fill=\"#2B2527\">y</text><text x=\"67.9\" y=\"314.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">−1</text><text x=\"160.9\" y=\"314.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">1</text><text x=\"207.4\" y=\"314.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">2</text><text x=\"253.9\" y=\"314.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">3</text><text x=\"300.4\" y=\"314.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">4</text><text x=\"346.9\" y=\"314.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">5</text><text x=\"393.4\" y=\"314.8\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">6</text><text x=\"108.4\" y=\"249.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">4</text><text x=\"108.4\" y=\"195.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">8</text><text x=\"108.4\" y=\"141.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">12</text><text x=\"108.4\" y=\"87.6\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">16</text><text x=\"108.4\" y=\"33.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">20</text><path d=\"M 40 286.4 L 41.3 286.2 L 42.6 285.9 L 43.8 285.6 L 45.1 285.3 L 46.4 285.1 L 47.7 284.8 L 49 284.5 L 50.2 284.2 L 51.5 283.9 L 52.8 283.6 L 54.1 283.3 L 55.4 283 L 56.7 282.6 L 57.9 282.3 L 59.2 282 L 60.5 281.6 L 61.8 281.3 L 63.1 280.9 L 64.3 280.6 L 65.6 280.2 L 66.9 279.8 L 68.2 279.4 L 69.5 279 L 70.7 278.6 L 72 278.2 L 73.3 277.8 L 74.6 277.4 L 75.9 277 L 77.1 276.5 L 78.4 276.1 L 79.7 275.6 L 81 275.1 L 82.3 274.7 L 83.6 274.2 L 84.8 273.7 L 86.1 273.2 L 87.4 272.7 L 88.7 272.2 L 90 271.6 L 91.2 271.1 L 92.5 270.5 L 93.8 270 L 95.1 269.4 L 96.4 268.8 L 97.6 268.2 L 98.9 267.6 L 100.2 267 L 101.5 266.3 L 102.8 265.7 L 104 265 L 105.3 264.4 L 106.6 263.7 L 107.9 263 L 109.2 262.3 L 110.4 261.6 L 111.7 260.8 L 113 260.1 L 114.3 259.3 L 115.6 258.5 L 116.9 257.7 L 118.1 256.9 L 119.4 256.1 L 120.7 255.3 L 122 254.4 L 123.3 253.5 L 124.5 252.6 L 125.8 251.7 L 127.1 250.8 L 128.4 249.8 L 129.7 248.9 L 130.9 247.9 L 132.2 246.9 L 133.5 245.9 L 134.8 244.8 L 136.1 243.8 L 137.3 242.7 L 138.6 241.6 L 139.9 240.5 L 141.2 239.3 L 142.5 238.2 L 143.8 237 L 145 235.8 L 146.3 234.5 L 147.6 233.3 L 148.9 232 L 150.2 230.7 L 151.4 229.4 L 152.7 228 L 154 226.6 L 155.3 225.2 L 156.6 223.8 L 157.8 222.3 L 159.1 220.8 L 160.4 219.3 L 161.7 217.7 L 163 216.2 L 164.2 214.6 L 165.5 212.9 L 166.8 211.2 L 168.1 209.5 L 169.4 207.8 L 170.7 206 L 171.9 204.2 L 173.2 202.4 L 174.5 200.5 L 175.8 198.6 L 177.1 196.6 L 178.3 194.6 L 179.6 192.6 L 180.9 190.5 L 182.2 188.4 L 183.5 186.3 L 184.7 184.1 L 186 181.9 L 187.3 179.6 L 188.6 177.3 L 189.9 174.9 L 191.1 172.5 L 192.4 170.1 L 193.7 167.6 L 195 165 L 196.3 162.4 L 197.5 159.8 L 198.8 157.1 L 200.1 154.3 L 201.4 151.5 L 202.7 148.7 L 204 145.7 L 205.2 142.8 L 206.5 139.7 L 207.8 136.7 L 209.1 133.5 L 210.4 130.3 L 211.6 127 L 212.9 123.7 L 214.2 120.3 L 215.5 116.9 L 216.8 113.3 L 218 109.7 L 219.3 106.1 L 220.6 102.3 L 221.9 98.5 L 223.2 94.7 L 224.4 90.7 L 225.7 86.7 L 227 82.6 L 228.3 78.4 L 229.6 74.1 L 230.9 69.8 L 232.1 65.3 L 233.4 60.8 L 234.7 56.2 L 236 51.5 L 237.3 46.7 L 238.5 41.8 L 239.8 36.9 L 241.1 31.8 L 242.4 26.6 L 243.7 21.4 L 244.9 16\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><path d=\"M 169.9 16 L 171.4 22.3 L 172.9 28.5 L 174.4 34.6 L 175.9 40.5 L 177.4 46.3 L 178.9 51.9 L 180.5 57.5 L 182 62.9 L 183.5 68.1 L 185 73.3 L 186.5 78.4 L 188 83.3 L 189.5 88.1 L 191 92.9 L 192.6 97.5 L 194.1 102 L 195.6 106.4 L 197.1 110.7 L 198.6 114.9 L 200.1 119 L 201.6 123.1 L 203.2 127 L 204.7 130.9 L 206.2 134.6 L 207.7 138.3 L 209.2 141.9 L 210.7 145.5 L 212.2 148.9 L 213.7 152.3 L 215.3 155.5 L 216.8 158.8 L 218.3 161.9 L 219.8 165 L 221.3 168 L 222.8 170.9 L 224.3 173.8 L 225.9 176.6 L 227.4 179.4 L 228.9 182.1 L 230.4 184.7 L 231.9 187.2 L 233.4 189.8 L 234.9 192.2 L 236.4 194.6 L 238 197 L 239.5 199.3 L 241 201.5 L 242.5 203.7 L 244 205.8 L 245.5 207.9 L 247 210 L 248.6 212 L 250.1 213.9 L 251.6 215.9 L 253.1 217.7 L 254.6 219.6 L 256.1 221.3 L 257.6 223.1 L 259.1 224.8 L 260.7 226.5 L 262.2 228.1 L 263.7 229.7 L 265.2 231.3 L 266.7 232.8 L 268.2 234.3 L 269.7 235.8 L 271.3 237.2 L 272.8 238.6 L 274.3 239.9 L 275.8 241.3 L 277.3 242.6 L 278.8 243.9 L 280.3 245.1 L 281.8 246.3 L 283.4 247.5 L 284.9 248.7 L 286.4 249.8 L 287.9 250.9 L 289.4 252 L 290.9 253.1 L 292.4 254.1 L 294 255.2 L 295.5 256.2 L 297 257.1 L 298.5 258.1 L 300 259 L 301.5 259.9 L 303 260.8 L 304.5 261.7 L 306.1 262.5 L 307.6 263.4 L 309.1 264.2 L 310.6 265 L 312.1 265.7 L 313.6 266.5 L 315.1 267.2 L 316.7 268 L 318.2 268.7 L 319.7 269.4 L 321.2 270 L 322.7 270.7 L 324.2 271.4 L 325.7 272 L 327.3 272.6 L 328.8 273.2 L 330.3 273.8 L 331.8 274.4 L 333.3 275 L 334.8 275.5 L 336.3 276.1 L 337.8 276.6 L 339.4 277.1 L 340.9 277.6 L 342.4 278.1 L 343.9 278.6 L 345.4 279.1 L 346.9 279.5 L 348.4 280 L 350 280.4 L 351.5 280.8 L 353 281.3 L 354.5 281.7 L 356 282.1 L 357.5 282.5 L 359 282.9 L 360.5 283.2 L 362.1 283.6 L 363.6 284 L 365.1 284.3 L 366.6 284.7 L 368.1 285 L 369.6 285.3 L 371.1 285.7 L 372.7 286 L 374.2 286.3 L 375.7 286.6 L 377.2 286.9 L 378.7 287.2 L 380.2 287.4 L 381.7 287.7 L 383.2 288 L 384.8 288.3 L 386.3 288.5 L 387.8 288.8 L 389.3 289 L 390.8 289.3 L 392.3 289.5 L 393.8 289.7 L 395.4 289.9 L 396.9 290.2 L 398.4 290.4 L 399.9 290.6 L 401.4 290.8 L 402.9 291 L 404.4 291.2 L 405.9 291.4 L 407.5 291.6 L 409 291.7 L 410.5 291.9 L 412 292.1\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\"/><line x1=\"40\" y1=\"239\" x2=\"412\" y2=\"239\" stroke=\"#8A858E\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"409.7\" y=\"232\" text-anchor=\"end\" font-size=\"14\" fill=\"#5C575E\">y = k</text><circle cx=\"141.6\" cy=\"239\" r=\"4\" fill=\"#2B2527\"/><text x=\"134.6\" y=\"231\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">A</text><circle cx=\"273.2\" cy=\"239\" r=\"4\" fill=\"#2B2527\"/><text x=\"280.2\" y=\"231\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">B</text><circle cx=\"207.4\" cy=\"137.6\" r=\"4.5\" fill=\"#2B2527\"/><text x=\"198.4\" y=\"133.6\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\" font-weight=\"600\">P</text><text x=\"250.3\" y=\"43\" font-size=\"14\" fill=\"#B43123\">y = 3·2ˣ</text><text x=\"314.4\" y=\"256.9\" font-size=\"14\" fill=\"#2A5D9E\">y = 48·2⁻ˣ</text></svg></span><p>a) Bestäm koordinaterna för \\(P\\).<br>b) Bestäm avståndet \\(AB\\) då \\(k=6\\).<br>c) Bestäm \\(k\\) exakt så att avståndet \\(AB\\) blir 5.<br>d) Grafen till \\(h(x)=c\\cdot2^{-x}\\) skär grafen till \\(f\\) i en punkt med \\(y\\)-koordinaten 15. Bestäm \\(c\\).</p>",
+    "s": "<p><strong>a)</strong> \\(3\\cdot2^x=48\\cdot2^{-x}\\). Multiplicera båda leden med \\(2^x\\):</p><p>\\[3\\cdot2^{2x}=48\\iff2^{2x}=16=2^4\\iff x=2.\\]</p><p>\\(f(2)=3\\cdot4=12\\), så \\(P=(2,\\,12)\\).</p><p><strong>b)</strong> \\(A\\): \\(3\\cdot2^x=6\\iff2^x=2\\iff x=1\\).<br>\\(B\\): \\(48\\cdot2^{-x}=6\\iff2^x=8\\iff x=3\\).</p><p>\\(AB=3-1=2\\).</p><p><strong>c)</strong> Lös samma ekvationer med \\(k\\) kvar och logaritmera:</p><p>\\[2^{x_A}=\\frac{k}{3}\\iff x_A=\\frac{\\lg\\frac{k}{3}}{\\lg2},\\qquad 2^{x_B}=\\frac{48}{k}\\iff x_B=\\frac{\\lg\\frac{48}{k}}{\\lg2}.\\]</p><p>Eftersom \\(k&lt;12\\) ligger \\(A\\) till vänster om \\(P\\) och \\(B\\) till höger. Med logaritmlagen för differens blir</p><p>\\[AB=x_B-x_A=\\frac{\\lg\\frac{48}{k}-\\lg\\frac{k}{3}}{\\lg2}=\\frac{\\lg\\frac{144}{k^2}}{\\lg2}.\\]</p><p>\\(AB=5\\) ger \\(\\lg\\dfrac{144}{k^2}=5\\lg2=\\lg2^5=\\lg32\\), och alltså</p><p>\\[\\frac{144}{k^2}=32\\iff k^2=4{,}5\\iff k=\\sqrt{4{,}5}=\\frac{3}{\\sqrt2}=\\frac{3\\sqrt2}{2}\\approx2{,}12\\quad(k&gt;0).\\]</p><p>Kontroll: \\(2^{x_A}=\\frac{k}{3}=2^{-0{,}5}\\) och \\(2^{x_B}=\\frac{48}{k}=16\\sqrt2=2^{4{,}5}\\). Då är \\(AB=4{,}5-(-0{,}5)=5\\).</p><p><strong>d)</strong> I skärningspunkten är \\(3\\cdot2^x=15\\), alltså \\(2^x=5\\). Punkten ligger också på \\(h\\):</p><p>\\[c\\cdot2^{-x}=15\\iff c=15\\cdot2^x=15\\cdot5=75.\\]</p><p>Snabbare: i en skärningspunkt är \\(y\\cdot y=f(x)\\cdot h(x)=3c\\cdot2^x\\cdot2^{-x}=3c\\). Då ger \\(15^2=3c\\) att \\(c=75\\). Samma tanke ger i a) att \\(y^2=3\\cdot48=144\\), alltså \\(y=12\\).</p><p><strong>a) \\((2,\\,12)\\) &nbsp;&nbsp; b) 2 &nbsp;&nbsp; c) \\(k=\\frac{3\\sqrt2}{2}\\approx2{,}12\\) &nbsp;&nbsp; d) \\(c=75\\)</strong></p>",
+    "familj": "logaritmlagar__tillampa_logaritmlagar",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "(2,12)",
+      "2",
+      "3√2/2",
+      "75"
+    ],
+    "tolerans": [
+      null,
+      0.001,
+      0.006,
+      0.001
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 4,
+    "svarFormat": [
+      "punkt",
+      "numeriskt",
+      null,
+      "numeriskt"
+    ],
+    "ledtrad": "<p>Multiplicera med \\(2^x\\) för att få bort den negativa exponenten. I c): uttryck \\(x\\)-koordinaterna för \\(A\\) och \\(B\\) med \\(\\lg\\) och använd logaritmlagarna på skillnaden.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.622",
+    "kap": 2,
+    "omr": "exponentialekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/2/2",
+    "t": "<p>Två koppar kaffe svalnar i ett rum som håller 20 °C. Temperaturen i °C efter \\(t\\) minuter modelleras med</p><p>\\[T_A(t)=20+60\\cdot0{,}95^t\\qquad\\text{och}\\qquad T_B(t)=20+75\\cdot0{,}88^t.\\]</p><p>Kopp A är en tjock mugg och kopp B en tunn kopp. Figuren visar modellerna när båda kopparna hälls upp samtidigt. Kaffet räknas som drickbart när det har svalnat till 60 °C.</p><span class=\"fig\"><svg width=\"460\" height=\"330\" viewBox=\"0 0 460 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Temperaturen i två koppar kaffe som funktion av tiden. Kopp A börjar på 80 grader och kopp B på 95 grader. En streckad linje visar 60 grader och en prickad linje rumstemperaturen 20 grader.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"115.7\" y1=\"290\" x2=\"115.7\" y2=\"18\" stroke=\"#E8E7EA\"/><line x1=\"183.3\" y1=\"290\" x2=\"183.3\" y2=\"18\" stroke=\"#E8E7EA\"/><line x1=\"251\" y1=\"290\" x2=\"251\" y2=\"18\" stroke=\"#E8E7EA\"/><line x1=\"318.7\" y1=\"290\" x2=\"318.7\" y2=\"18\" stroke=\"#E8E7EA\"/><line x1=\"386.4\" y1=\"290\" x2=\"386.4\" y2=\"18\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"237.7\" x2=\"436\" y2=\"237.7\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"185.4\" x2=\"436\" y2=\"185.4\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"133.1\" x2=\"436\" y2=\"133.1\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"80.8\" x2=\"436\" y2=\"80.8\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"28.5\" x2=\"436\" y2=\"28.5\" stroke=\"#E8E7EA\"/><line x1=\"48\" y1=\"290\" x2=\"444\" y2=\"290\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M448 290 l-8 -4.5 v9 z\" fill=\"#2B2527\"/><line x1=\"48\" y1=\"290\" x2=\"48\" y2=\"14\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M48 10 l-4.5 8 h9 z\" fill=\"#2B2527\"/><text x=\"440\" y=\"282\" font-size=\"14\" fill=\"#2B2527\" text-anchor=\"end\">t (min)</text><text x=\"56\" y=\"24\" font-size=\"14\" fill=\"#2B2527\">T (°C)</text><text x=\"48\" y=\"305\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">0</text><text x=\"115.7\" y=\"305\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">3</text><text x=\"183.3\" y=\"305\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">6</text><text x=\"251\" y=\"305\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">9</text><text x=\"318.7\" y=\"305\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">12</text><text x=\"386.4\" y=\"305\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">15</text><text x=\"42\" y=\"241.7\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">20</text><text x=\"42\" y=\"189.4\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">40</text><text x=\"42\" y=\"137.1\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">60</text><text x=\"42\" y=\"84.8\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">80</text><text x=\"42\" y=\"32.5\" text-anchor=\"end\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2B2527\">100</text><line x1=\"48\" y1=\"237.7\" x2=\"436\" y2=\"237.7\" stroke=\"#8A858E\" stroke-width=\"1.4\" stroke-dasharray=\"2 4\"/><text x=\"431.5\" y=\"231.7\" text-anchor=\"end\" font-size=\"12\" fill=\"#5C575E\">rumstemperatur</text><line x1=\"48\" y1=\"133.1\" x2=\"436\" y2=\"133.1\" stroke=\"#8A858E\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"431.5\" y=\"127.1\" text-anchor=\"end\" font-size=\"12\" fill=\"#5C575E\">60 °C</text><path d=\"M 48 80.8 L 50.4 81.6 L 52.9 82.5 L 55.3 83.3 L 57.7 84.2 L 60.1 85 L 62.5 85.9 L 65 86.7 L 67.4 87.5 L 69.8 88.4 L 72.2 89.2 L 74.7 90 L 77.1 90.8 L 79.5 91.6 L 81.9 92.4 L 84.4 93.2 L 86.8 94 L 89.2 94.8 L 91.7 95.6 L 94.1 96.4 L 96.5 97.2 L 98.9 97.9 L 101.3 98.7 L 103.8 99.5 L 106.2 100.2 L 108.6 101 L 111.1 101.7 L 113.5 102.5 L 115.9 103.2 L 118.3 104 L 120.8 104.7 L 123.2 105.4 L 125.6 106.2 L 128 106.9 L 130.4 107.6 L 132.9 108.3 L 135.3 109 L 137.7 109.7 L 140.2 110.4 L 142.6 111.1 L 145 111.8 L 147.4 112.5 L 149.9 113.2 L 152.3 113.9 L 154.7 114.6 L 157.1 115.3 L 159.6 115.9 L 162 116.6 L 164.4 117.3 L 166.8 117.9 L 169.2 118.6 L 171.7 119.2 L 174.1 119.9 L 176.5 120.5 L 179 121.2 L 181.4 121.8 L 183.8 122.5 L 186.2 123.1 L 188.7 123.7 L 191.1 124.3 L 193.5 125 L 195.9 125.6 L 198.3 126.2 L 200.8 126.8 L 203.2 127.4 L 205.6 128 L 208.1 128.6 L 210.5 129.2 L 212.9 129.8 L 215.3 130.4 L 217.8 131 L 220.2 131.6 L 222.6 132.2 L 225 132.8 L 227.5 133.3 L 229.9 133.9 L 232.3 134.5 L 234.7 135.1 L 237.2 135.6 L 239.6 136.2 L 242 136.7 L 244.4 137.3 L 246.8 137.8 L 249.3 138.4 L 251.7 138.9 L 254.1 139.5 L 256.6 140 L 259 140.6 L 261.4 141.1 L 263.8 141.6 L 266.3 142.2 L 268.7 142.7 L 271.1 143.2 L 273.5 143.7 L 276 144.2 L 278.4 144.8 L 280.8 145.3 L 283.2 145.8 L 285.6 146.3 L 288.1 146.8 L 290.5 147.3 L 292.9 147.8 L 295.4 148.3 L 297.8 148.8 L 300.2 149.3 L 302.6 149.7 L 305.1 150.2 L 307.5 150.7 L 309.9 151.2 L 312.3 151.7 L 314.8 152.1 L 317.2 152.6 L 319.6 153.1 L 322 153.5 L 324.4 154 L 326.9 154.5 L 329.3 154.9 L 331.7 155.4 L 334.1 155.8 L 336.6 156.3 L 339 156.7 L 341.4 157.2 L 343.9 157.6 L 346.3 158.1 L 348.7 158.5 L 351.1 158.9 L 353.6 159.4 L 356 159.8 L 358.4 160.2 L 360.8 160.6 L 363.2 161.1 L 365.7 161.5 L 368.1 161.9 L 370.5 162.3 L 372.9 162.7 L 375.4 163.2 L 377.8 163.6 L 380.2 164 L 382.6 164.4 L 385.1 164.8 L 387.5 165.2 L 389.9 165.6 L 392.4 166 L 394.8 166.4 L 397.2 166.8 L 399.6 167.1 L 402.1 167.5 L 404.5 167.9 L 406.9 168.3 L 409.3 168.7 L 411.8 169.1 L 414.2 169.4 L 416.6 169.8 L 419 170.2 L 421.4 170.6 L 423.9 170.9 L 426.3 171.3 L 428.7 171.7 L 431.2 172 L 433.6 172.4 L 436 172.7\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.8\"/><path d=\"M 48 41.5 L 50.4 44.2 L 52.9 46.9 L 55.3 49.5 L 57.7 52 L 60.1 54.6 L 62.5 57.1 L 65 59.5 L 67.4 62 L 69.8 64.4 L 72.2 66.7 L 74.7 69.1 L 77.1 71.4 L 79.5 73.6 L 81.9 75.9 L 84.4 78.1 L 86.8 80.3 L 89.2 82.4 L 91.7 84.5 L 94.1 86.6 L 96.5 88.7 L 98.9 90.7 L 101.3 92.7 L 103.8 94.7 L 106.2 96.6 L 108.6 98.6 L 111.1 100.5 L 113.5 102.3 L 115.9 104.2 L 118.3 106 L 120.8 107.8 L 123.2 109.6 L 125.6 111.3 L 128 113.1 L 130.4 114.8 L 132.9 116.4 L 135.3 118.1 L 137.7 119.7 L 140.2 121.3 L 142.6 122.9 L 145 124.5 L 147.4 126 L 149.9 127.6 L 152.3 129.1 L 154.7 130.5 L 157.1 132 L 159.6 133.4 L 162 134.9 L 164.4 136.3 L 166.8 137.7 L 169.2 139 L 171.7 140.4 L 174.1 141.7 L 176.5 143 L 179 144.3 L 181.4 145.6 L 183.8 146.8 L 186.2 148.1 L 188.7 149.3 L 191.1 150.5 L 193.5 151.7 L 195.9 152.9 L 198.3 154 L 200.8 155.2 L 203.2 156.3 L 205.6 157.4 L 208.1 158.5 L 210.5 159.6 L 212.9 160.6 L 215.3 161.7 L 217.8 162.7 L 220.2 163.8 L 222.6 164.8 L 225 165.8 L 227.5 166.7 L 229.9 167.7 L 232.3 168.7 L 234.7 169.6 L 237.2 170.5 L 239.6 171.5 L 242 172.4 L 244.4 173.2 L 246.8 174.1 L 249.3 175 L 251.7 175.9 L 254.1 176.7 L 256.6 177.5 L 259 178.3 L 261.4 179.2 L 263.8 180 L 266.3 180.7 L 268.7 181.5 L 271.1 182.3 L 273.5 183 L 276 183.8 L 278.4 184.5 L 280.8 185.3 L 283.2 186 L 285.6 186.7 L 288.1 187.4 L 290.5 188.1 L 292.9 188.7 L 295.4 189.4 L 297.8 190.1 L 300.2 190.7 L 302.6 191.4 L 305.1 192 L 307.5 192.6 L 309.9 193.2 L 312.3 193.8 L 314.8 194.4 L 317.2 195 L 319.6 195.6 L 322 196.2 L 324.4 196.7 L 326.9 197.3 L 329.3 197.9 L 331.7 198.4 L 334.1 198.9 L 336.6 199.5 L 339 200 L 341.4 200.5 L 343.9 201 L 346.3 201.5 L 348.7 202 L 351.1 202.5 L 353.6 203 L 356 203.4 L 358.4 203.9 L 360.8 204.4 L 363.2 204.8 L 365.7 205.3 L 368.1 205.7 L 370.5 206.2 L 372.9 206.6 L 375.4 207 L 377.8 207.4 L 380.2 207.8 L 382.6 208.2 L 385.1 208.7 L 387.5 209 L 389.9 209.4 L 392.4 209.8 L 394.8 210.2 L 397.2 210.6 L 399.6 210.9 L 402.1 211.3 L 404.5 211.7 L 406.9 212 L 409.3 212.4 L 411.8 212.7 L 414.2 213.1 L 416.6 213.4 L 419 213.7 L 421.4 214.1 L 423.9 214.4 L 426.3 214.7 L 428.7 215 L 431.2 215.3 L 433.6 215.6 L 436 215.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.8\"/><circle cx=\"48\" cy=\"80.8\" r=\"4\" fill=\"#2A5D9E\"/><circle cx=\"48\" cy=\"41.5\" r=\"4\" fill=\"#B43123\"/><text x=\"296.1\" y=\"139.4\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2A5D9E\" font-weight=\"600\">A</text><text x=\"296.1\" y=\"209.6\" text-anchor=\"middle\" font-size=\"14\" fill=\"#B43123\" font-weight=\"600\">B</text></svg></span><p>a) Hur lång tid tar det innan kaffet i kopp A är drickbart?<br>b) Kopparna hälls upp samtidigt. Efter hur lång tid har de samma temperatur, och vilken är temperaturen då?<br>c) Kopp A hälls upp först. Hur många minuter senare ska kopp B hällas upp för att båda ska bli drickbara samtidigt?</p><p>Avrunda tider till tiondels minuter och temperaturen till hela grader.</p>",
+    "s": "<p><strong>Idé.</strong> Subtrahera först rumstemperaturen. Då står en ren exponentialekvation kvar.</p><p><strong>a)</strong> \\(20+60\\cdot0{,}95^t=60\\iff0{,}95^t=\\dfrac{40}{60}=\\dfrac23\\).</p><p>\\[t=\\frac{\\lg\\frac23}{\\lg0{,}95}\\approx7{,}90\\]</p><p>Båda logaritmerna är negativa, så \\(t\\) blir positivt, som det ska.</p><p><strong>b)</strong> Samma temperatur betyder \\(60\\cdot0{,}95^t=75\\cdot0{,}88^t\\). Samla potenserna på ena sidan:</p><p>\\[\\frac{0{,}95^t}{0{,}88^t}=\\frac{75}{60}\\iff\\left(\\frac{0{,}95}{0{,}88}\\right)^t=1{,}25\\iff t=\\frac{\\lg1{,}25}{\\lg\\frac{0{,}95}{0{,}88}}\\approx2{,}92.\\]</p><p>Använd det oavrundade värdet: \\(T_A(2{,}915)=20+60\\cdot0{,}95^{2{,}915}\\approx71{,}7\\). Kontroll: \\(T_B(2{,}915)\\approx71{,}7\\).</p><p>Före denna tidpunkt är kopp B varmast. Efter den är kopp A varmast, eftersom A svalnar långsammare (\\(0{,}95&gt;0{,}88\\)).</p><p><strong>c)</strong> Kopp B behöver \\(20+75\\cdot0{,}88^t=60\\iff0{,}88^t=\\dfrac{40}{75}=\\dfrac{8}{15}\\):</p><p>\\[t=\\frac{\\lg\\frac{8}{15}}{\\lg0{,}88}\\approx4{,}92.\\]</p><p>Kopp A behöver 7,90 minuter och kopp B 4,92 minuter från det att de hälls upp. Kopp B ska därför hällas upp \\(7{,}90-4{,}92\\approx2{,}99\\approx3{,}0\\) minuter efter kopp A.</p><p><strong>Med GeoGebra:</strong> Skriv in modellerna och linjen \\(y=60\\). Kommandot Skärning ger tiderna i a) och c). Skärningen mellan kurvorna ger svaret i b).</p><p><strong>a) 7,9 min &nbsp;&nbsp; b) 2,9 min, 72 °C &nbsp;&nbsp; c) 3,0 min</strong></p>",
+    "familj": "exponentialekvationer__tillampad_exponentialekvation",
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7,9",
+      [
+        "2,9",
+        "72"
+      ],
+      "3,0"
+    ],
+    "tolerans": [
+      0.06,
+      [
+        0.06,
+        0.6
+      ],
+      0.06
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 4,
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "min",
+      [
+        "min",
+        "°C"
+      ],
+      "min"
+    ],
+    "ledtrad": "<p>Subtrahera 20 och dividera, så att bara en potens står kvar. I b) kan du använda att \\(\\dfrac{0{,}95^t}{0{,}88^t}=\\left(\\dfrac{0{,}95}{0{,}88}\\right)^t\\). I c): hur lång tid behöver varje kopp för att bli drickbar?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.623",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/2/2",
+    "t": "<p>En boll sparkas från marken. Banan modelleras med \\(y=ax^2+bx\\), där \\(x\\) m är det vågräta avståndet från utgångspunkten och \\(y\\) m är höjden.</p><p>Bollen passerar precis över krönet på två murar. Den första muren är 4 m hög och står 5 m från utgångspunkten. Den andra är 6 m hög och står 15 m från utgångspunkten.</p><span class=\"fig\"><svg width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Bollbana formad som en parabel från origo. Den passerar precis över toppen av en 4 meter hög mur 5 meter bort och en 6 meter hög mur 15 meter bort. Längre bort står en tredje mur som är 2 meter hög.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"34\" y1=\"243.1\" x2=\"438\" y2=\"243.1\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"119.1\" y1=\"243.1\" x2=\"119.1\" y2=\"123.6\" stroke=\"#5C575E\" stroke-width=\"7\"/><text x=\"111.1\" y=\"187.3\" text-anchor=\"end\" font-size=\"13\" fill=\"#2B2527\">4 m</text><line x1=\"260.8\" y1=\"243.1\" x2=\"260.8\" y2=\"63.8\" stroke=\"#5C575E\" stroke-width=\"7\"/><text x=\"252.8\" y=\"157.5\" text-anchor=\"end\" font-size=\"13\" fill=\"#2B2527\">6 m</text><line x1=\"324.6\" y1=\"243.1\" x2=\"324.6\" y2=\"183.3\" stroke=\"#A9A4AC\" stroke-width=\"7\"/><text x=\"332.6\" y=\"217.2\" font-size=\"13\" fill=\"#2B2527\">2 m</text><path d=\"M 48.2 243.1 L 50.4 238.5 L 52.6 233.9 L 54.8 229.4 L 57 224.9 L 59.2 220.5 L 61.5 216.1 L 63.7 211.9 L 65.9 207.6 L 68.1 203.4 L 70.3 199.3 L 72.5 195.3 L 74.8 191.3 L 77 187.3 L 79.2 183.5 L 81.4 179.6 L 83.6 175.9 L 85.8 172.2 L 88 168.5 L 90.3 164.9 L 92.5 161.4 L 94.7 157.9 L 96.9 154.5 L 99.1 151.2 L 101.3 147.9 L 103.5 144.6 L 105.8 141.4 L 108 138.3 L 110.2 135.2 L 112.4 132.2 L 114.6 129.3 L 116.8 126.4 L 119.1 123.6 L 121.3 120.8 L 123.5 118.1 L 125.7 115.4 L 127.9 112.8 L 130.1 110.3 L 132.3 107.8 L 134.6 105.4 L 136.8 103 L 139 100.7 L 141.2 98.5 L 143.4 96.3 L 145.6 94.2 L 147.8 92.1 L 150.1 90.1 L 152.3 88.1 L 154.5 86.2 L 156.7 84.4 L 158.9 82.6 L 161.1 80.9 L 163.4 79.2 L 165.6 77.6 L 167.8 76.1 L 170 74.6 L 172.2 73.2 L 174.4 71.8 L 176.6 70.5 L 178.9 69.2 L 181.1 68 L 183.3 66.9 L 185.5 65.8 L 187.7 64.8 L 189.9 63.8 L 192.1 62.9 L 194.4 62.1 L 196.6 61.3 L 198.8 60.5 L 201 59.9 L 203.2 59.3 L 205.4 58.7 L 207.6 58.2 L 209.9 57.8 L 212.1 57.4 L 214.3 57.1 L 216.5 56.8 L 218.7 56.6 L 220.9 56.5 L 223.2 56.4 L 225.4 56.3 L 227.6 56.4 L 229.8 56.5 L 232 56.6 L 234.2 56.8 L 236.4 57.1 L 238.7 57.4 L 240.9 57.8 L 243.1 58.2 L 245.3 58.7 L 247.5 59.3 L 249.7 59.9 L 251.9 60.5 L 254.2 61.3 L 256.4 62.1 L 258.6 62.9 L 260.8 63.8 L 263 64.8 L 265.2 65.8 L 267.5 66.9 L 269.7 68 L 271.9 69.2 L 274.1 70.5 L 276.3 71.8 L 278.5 73.2 L 280.7 74.6 L 283 76.1 L 285.2 77.6 L 287.4 79.2 L 289.6 80.9 L 291.8 82.6 L 294 84.4 L 296.2 86.2 L 298.5 88.1 L 300.7 90.1 L 302.9 92.1 L 305.1 94.2 L 307.3 96.3 L 309.5 98.5 L 311.8 100.7 L 314 103 L 316.2 105.4 L 318.4 107.8 L 320.6 110.3 L 322.8 112.8 L 325 115.4 L 327.3 118.1 L 329.5 120.8 L 331.7 123.6 L 333.9 126.4 L 336.1 129.3 L 338.3 132.2 L 340.5 135.2 L 342.8 138.3 L 345 141.4 L 347.2 144.6 L 349.4 147.9 L 351.6 151.2 L 353.8 154.5 L 356 157.9 L 358.3 161.4 L 360.5 164.9 L 362.7 168.5 L 364.9 172.2 L 367.1 175.9 L 369.3 179.6 L 371.6 183.5 L 373.8 187.3 L 376 191.3 L 378.2 195.3 L 380.4 199.3 L 382.6 203.4 L 384.8 207.6 L 387.1 211.9 L 389.3 216.1 L 391.5 220.5 L 393.7 224.9 L 395.9 229.4 L 398.1 233.9 L 400.3 238.5 L 402.6 243.1\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.6\" stroke-dasharray=\"8 5\"/><circle cx=\"48.2\" cy=\"243.1\" r=\"5\" fill=\"#B43123\"/><line x1=\"48.2\" y1=\"253.6\" x2=\"119.1\" y2=\"253.6\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"48.2\" y1=\"249.1\" x2=\"48.2\" y2=\"258\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"119.1\" y1=\"249.1\" x2=\"119.1\" y2=\"258\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"83.6\" y=\"267.6\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2B2527\">5 m</text><line x1=\"119.1\" y1=\"253.6\" x2=\"260.8\" y2=\"253.6\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"260.8\" y1=\"249.1\" x2=\"260.8\" y2=\"258\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"189.9\" y=\"267.6\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2B2527\">10 m</text><line x1=\"260.8\" y1=\"253.6\" x2=\"324.6\" y2=\"253.6\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"324.6\" y1=\"249.1\" x2=\"324.6\" y2=\"258\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"292.7\" y=\"267.6\" text-anchor=\"middle\" font-size=\"12\" fill=\"#2B2527\">d = ?</text></svg></span><p>a) Bestäm \\(a\\) och \\(b\\).<br>b) Bestäm bollens största höjd.<br>c) Bakom den andra muren står en tredje mur som är 2 m hög. Hur långt bakom den andra muren kan den tredje muren högst stå om bollen ska ta sig över den? Svara med en decimal.</p>",
+    "s": "<p><strong>Idé.</strong> Krönen är punkter på banan: \\((5,\\,4)\\) och \\((15,\\,6)\\). Det ger två ekvationer för \\(a\\) och \\(b\\).</p><p><strong>a)</strong></p><p>\\[\\begin{cases}25a+5b=4\\\\225a+15b=6\\end{cases}\\]</p><p>Multiplicera den första ekvationen med 3: \\(75a+15b=12\\). Subtrahera den från den andra:</p><p>\\[150a=-6\\iff a=-0{,}04.\\]</p><p>Insättning: \\(5b=4-25\\cdot(-0{,}04)=5\\), så \\(b=1\\). Banan är \\(y=-0{,}04x^2+x\\).</p><p>Kontroll: \\(y(5)=-1+5=4\\) och \\(y(15)=-9+15=6\\).</p><p><strong>b)</strong> Nollställena: \\(x(-0{,}04x+1)=0\\) ger \\(x=0\\) och \\(x=25\\). Symmetrilinjen ligger mitt emellan, vid \\(x=12{,}5\\).</p><p>\\[y(12{,}5)=-0{,}04\\cdot12{,}5^2+12{,}5=-6{,}25+12{,}5=6{,}25.\\]</p><p><strong>c)</strong> Bestäm var bollen är på höjden 2 m:</p><p>\\[-0{,}04x^2+x=2\\iff x^2-25x+50=0\\iff x=12{,}5\\pm\\sqrt{156{,}25-50}=12{,}5\\pm\\sqrt{106{,}25}.\\]</p><p>Det ger \\(x\\approx2{,}19\\) och \\(x\\approx22{,}81\\). Mellan dessa lägen är bollen högre än 2 m.</p><p>Den tredje muren står bakom den andra, alltså vid \\(x&gt;15\\). Bollen tar sig över den om \\(x\\le22{,}81\\). Avståndet till den andra muren får därför högst vara</p><p>\\[22{,}81-15\\approx7{,}8\\text{ m}.\\]</p><p>Rimlighet: bollen är 6 m hög vid den andra muren och landar 10 m längre bort. Att den har sjunkit till 2 m ungefär 2 m före landningen är rimligt.</p><p><strong>a) \\(a=-0{,}04\\), \\(b=1\\) &nbsp;&nbsp; b) 6,25 m &nbsp;&nbsp; c) högst 7,8 m</strong></p>",
+    "familj": "andragradsfunktioner_tillampningar__rorelse_och_hojdmodell",
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-0,04",
+      "1",
+      "6,25",
+      "7,8"
+    ],
+    "tolerans": [
+      0.0001,
+      0.0001,
+      0.01,
+      0.06
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 4,
+    "svarFormat": [
+      "bråk",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "",
+      "",
+      "m",
+      "m"
+    ],
+    "svarEtiketter": [
+      "a) a",
+      "a) b",
+      "b)",
+      "c)"
+    ],
+    "ledtrad": "<p>Murarnas krön är punkter på banan. Sätt in dem i \\(y=ax^2+bx\\) och lös ekvationssystemet. I c): var på banan är bollen exakt 2 m hög?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.624",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>En 12 m hög mast står lodrätt mellan två förankringspunkter \\(A\\) och \\(B\\) på plan mark. Avståndet mellan \\(A\\) och \\(B\\) är 21 m. Två raka vajrar går från mastens topp till \\(A\\) respektive \\(B\\). Mastens fot ligger \\(x\\) m från \\(A\\), där \\(0\\le x\\le21\\).</p><span class=\"fig\"><svg width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 12 meter hög mast står på marken mellan punkterna A och B som ligger 21 meter från varandra. Två vajrar går från mastens topp till A och B. Avståndet från A till mastens fot är x meter.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"30\" y1=\"225\" x2=\"430\" y2=\"225\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"179\" y1=\"225\" x2=\"179\" y2=\"21\" stroke=\"#2B2527\" stroke-width=\"5\"/><path d=\"M179 213 h12 v12\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.3\"/><line x1=\"179\" y1=\"21\" x2=\"60\" y2=\"225\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><line x1=\"179\" y1=\"21\" x2=\"417\" y2=\"225\" stroke=\"#2A5D9E\" stroke-width=\"2.2\"/><circle cx=\"60\" cy=\"225\" r=\"4.5\" fill=\"#2B2527\"/><text x=\"54\" y=\"215\" text-anchor=\"end\" font-size=\"15\" fill=\"#2B2527\" font-weight=\"600\">A</text><circle cx=\"417\" cy=\"225\" r=\"4.5\" fill=\"#2B2527\"/><text x=\"423\" y=\"215\" font-size=\"15\" fill=\"#2B2527\" font-weight=\"600\">B</text><text x=\"169\" y=\"128\" text-anchor=\"end\" font-size=\"14\" fill=\"#2B2527\">12 m</text><line x1=\"60\" y1=\"241\" x2=\"179\" y2=\"241\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"60\" y1=\"236\" x2=\"60\" y2=\"246\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"179\" y1=\"236\" x2=\"179\" y2=\"246\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"119.5\" y=\"259\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">x</text><line x1=\"179\" y1=\"241\" x2=\"417\" y2=\"241\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"179\" y1=\"236\" x2=\"179\" y2=\"246\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"417\" y1=\"236\" x2=\"417\" y2=\"246\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"298\" y=\"259\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">21 − x</text><line x1=\"60\" y1=\"275\" x2=\"417\" y2=\"275\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"60\" y1=\"270\" x2=\"60\" y2=\"280\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><line x1=\"417\" y1=\"270\" x2=\"417\" y2=\"280\" stroke=\"#8A858E\" stroke-width=\"1.2\"/><text x=\"238.5\" y=\"293\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\">21 m</text></svg></span><p>a) Vajrarna är tillsammans 33 m långa. Ställ upp en ekvation och bestäm alla möjliga värden på \\(x\\).<br>b) För vilka värden på \\(x\\) är vajrarnas sammanlagda längd högst 33 m?</p>",
+    "s": "<p><strong>Idé.</strong> Pythagoras sats ger vajrarnas längder: \\(\\sqrt{x^2+144}\\) till \\(A\\) och \\(\\sqrt{(21-x)^2+144}\\) till \\(B\\).</p><p><strong>a)</strong></p><p>\\[\\sqrt{x^2+144}+\\sqrt{(21-x)^2+144}=33\\]</p><p>Isolera den ena roten och kvadrera:</p><p>\\[\\sqrt{(21-x)^2+144}=33-\\sqrt{x^2+144}\\]</p><p>\\[(21-x)^2+144=1089-66\\sqrt{x^2+144}+x^2+144\\]</p><p>\\[x^2-42x+585=x^2+1233-66\\sqrt{x^2+144}\\]</p><p>\\[66\\sqrt{x^2+144}=648+42x\\iff11\\sqrt{x^2+144}=108+7x\\]</p><p>Kvadrera igen:</p><p>\\[121(x^2+144)=11\\,664+1512x+49x^2\\iff72x^2-1512x+5760=0\\iff x^2-21x+80=0\\]</p><p>\\[x=10{,}5\\pm\\sqrt{110{,}25-80}=10{,}5\\pm5{,}5\\]</p><p>Det ger \\(x=5\\) eller \\(x=16\\). Kvadrering kan ge falska rötter, så båda måste prövas:</p><p>\\(x=5\\): \\(\\sqrt{169}+\\sqrt{400}=13+20=33\\). Stämmer.<br>\\(x=16\\): \\(\\sqrt{400}+\\sqrt{169}=20+13=33\\). Stämmer.</p><p>Lösningarna är varandras spegelbilder: masten står 5 m från den ena förankringen och 16 m från den andra.</p><p><strong>b)</strong> Kalla den sammanlagda längden \\(S(x)\\). Enligt a) är \\(S(x)=33\\) bara för \\(x=5\\) och \\(x=16\\). \\(S(x)\\) ändras utan hopp, så på vart och ett av intervallen mellan dessa punkter är \\(S(x)\\) antingen hela tiden större eller hela tiden mindre än 33. Det räcker att pröva ett värde i varje del:</p><p>\\(S(0)=12+\\sqrt{585}\\approx36{,}2&gt;33\\)<br>\\(S(10{,}5)=2\\sqrt{254{,}25}\\approx31{,}9&lt;33\\)<br>\\(S(21)=S(0)\\approx36{,}2&gt;33\\) (symmetri)</p><p>Den sammanlagda längden är alltså högst 33 m när \\(5\\le x\\le16\\).</p><p><strong>a) \\(x=5\\) eller \\(x=16\\) &nbsp;&nbsp; b) \\(5\\le x\\le16\\)</strong></p>",
+    "familj": "rotekvationer__isolera_rot_och_kvadrera",
+    "formaga": [
+      "procedur",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        "5",
+        "16"
+      ],
+      "5<=x<=16"
+    ],
+    "tolerans": [
+      [
+        0.01,
+        0.01
+      ],
+      0.01
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "intervall"
+    ],
+    "svarEnhet": [
+      [
+        "m",
+        "m"
+      ],
+      ""
+    ],
+    "ledtrad": "<p>Använd Pythagoras sats för varje vajer. Isolera en av rötterna innan du kvadrerar, och räkna med att behöva kvadrera två gånger. Pröva lösningarna. I b): pröva ett \\(x\\)-värde i varje intervall.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.625",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>En massiv metallkula med radien \\(R\\) smälts om till \\(n\\) lika stora, mindre kulor med radien \\(r\\). Ingen metall går förlorad, så den sammanlagda volymen är densamma.</p><span class=\"fig\"><svg width=\"460\" height=\"250\" viewBox=\"0 0 460 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En stor metallkula med radien R smälts om till flera mindre, lika stora kulor med radien r.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><defs><radialGradient id=\"kg625\" cx=\"0.35\" cy=\"0.35\" r=\"0.75\"><stop offset=\"0\" stop-color=\"#FFFFFF\"/><stop offset=\"0.55\" stop-color=\"#C9D6E8\"/><stop offset=\"1\" stop-color=\"#7D93B3\"/></radialGradient></defs><circle cx=\"120\" cy=\"125\" r=\"80\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"125\" x2=\"200\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"125\" r=\"2.5\" fill=\"#2B2527\"/><text x=\"160\" y=\"117\" text-anchor=\"middle\" font-size=\"16\" fill=\"#2B2527\" font-style=\"italic\">R</text><path d=\"M214 125 h42\" stroke=\"#8A858E\" stroke-width=\"2\"/><path d=\"M262 125 l-9 -5 v10 z\" fill=\"#8A858E\"/><text x=\"237\" y=\"112\" text-anchor=\"middle\" font-size=\"12\" fill=\"#5C575E\">smälts om</text><circle cx=\"300\" cy=\"64\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"357.3\" cy=\"64\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"414.7\" cy=\"64\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"300\" cy=\"121.3\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"357.3\" cy=\"121.3\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"414.7\" cy=\"121.3\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"300\" cy=\"178.7\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"357.3\" cy=\"178.7\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><circle cx=\"414.7\" cy=\"178.7\" r=\"26.7\" fill=\"url(#kg625)\" stroke=\"#2A5D9E\" stroke-width=\"1.2\"/><line x1=\"300\" y1=\"64\" x2=\"326.7\" y2=\"64\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"313.3\" y=\"59\" text-anchor=\"middle\" font-size=\"14\" fill=\"#2B2527\" font-style=\"italic\">r</text><text x=\"357\" y=\"232\" text-anchor=\"middle\" font-size=\"13\" fill=\"#5C575E\">n lika stora kulor</text></svg></span><p>För en kula med radien \\(r\\) gäller \\(V=\\dfrac{4\\pi r^3}{3}\\) och \\(A=4\\pi r^2\\).</p><p>a) Kulan smälts om till 8 kulor. Uttryck \\(r\\) med hjälp av \\(R\\).<br>b) Hur många kulor ska den smältas om till för att den sammanlagda ytan ska bli 3 gånger så stor som den stora kulans yta?<br>c) Vilket är det minsta antalet kulor som ger en sammanlagd yta som är minst 2,5 gånger så stor som den stora kulans yta?</p>",
+    "s": "<p><strong>Idé.</strong> Volymen bevaras. Det ger ett samband mellan \\(r\\) och \\(R\\):</p><p>\\[n\\cdot\\frac{4\\pi r^3}{3}=\\frac{4\\pi R^3}{3}\\iff r^3=\\frac{R^3}{n}\\iff r=\\frac{R}{\\sqrt[3]{n}}.\\]</p><p><strong>a)</strong> Med \\(n=8\\) blir \\(r=\\dfrac{R}{\\sqrt[3]{8}}=\\dfrac{R}{2}\\).</p><p><strong>Den sammanlagda ytan.</strong></p><p>\\[n\\cdot4\\pi r^2=n\\cdot4\\pi\\cdot\\frac{R^2}{\\left(\\sqrt[3]{n}\\right)^2}=\\frac{n}{\\left(\\sqrt[3]{n}\\right)^2}\\cdot4\\pi R^2=\\sqrt[3]{n}\\cdot4\\pi R^2.\\]</p><p>Den sammanlagda ytan blir alltså \\(\\sqrt[3]{n}\\) gånger så stor som den stora kulans yta. Kontroll med a): 8 kulor ger \\(8\\cdot4\\pi\\left(\\frac{R}{2}\\right)^2=8\\pi R^2=2\\cdot4\\pi R^2\\), och \\(\\sqrt[3]{8}=2\\).</p><p><strong>b)</strong> \\(\\sqrt[3]{n}=3\\iff n=3^3=27\\).</p><p><strong>c)</strong> \\(\\sqrt[3]{n}\\ge2{,}5\\iff n\\ge2{,}5^3=15{,}625\\).</p><p>Antalet kulor är ett heltal, så minst 16 kulor behövs. Kontroll: \\(\\sqrt[3]{15}\\approx2{,}47\\) räcker inte, men \\(\\sqrt[3]{16}\\approx2{,}52\\) räcker.</p><p><strong>a) \\(r=\\dfrac{R}{2}\\) &nbsp;&nbsp; b) 27 kulor &nbsp;&nbsp; c) 16 kulor</strong></p>",
+    "familj": "potensekvationer__isolera_potens_och_ta_rot",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "R/2",
+      "27",
+      "16"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "uttryck",
+      "heltal",
+      "heltal"
+    ],
+    "svarEnhet": [
+      "",
+      "st",
+      "st"
+    ],
+    "ledtrad": "<p>Sätt den sammanlagda volymen av de små kulorna lika med den stora kulans volym och lös ut \\(r\\). Uttryck sedan den sammanlagda ytan med \\(R\\) och \\(n\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.626",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/2/2",
+    "t": "<p>Ljudnivån \\(L\\) dB beräknas med</p><p>\\[L=10\\cdot\\lg\\frac{I}{I_0},\\]</p><p>där \\(I\\) är ljudintensiteten i W/m² och \\(I_0=10^{-12}\\) W/m² är en fast referensintensitet. När flera ljudkällor hörs samtidigt adderas deras intensiteter.</p><p>a) En högtalare ger ljudnivån 72 dB på en viss plats. Hur många likadana högtalare behövs för att ljudnivån på platsen ska bli minst 80 dB?<br>b) Två maskiner ger var för sig 70 dB respektive 76 dB på samma plats. Vilken blir ljudnivån när båda är igång? Svara med en decimal.<br>c) Intensiteten från en ljudkälla är omvänt proportionell mot kvadraten på avståndet: \\(I=\\dfrac{k}{d^2}\\). Hur många gånger längre bort från källan måste man gå för att ljudnivån ska sjunka med 15 dB? Svara med två decimaler.</p>",
+    "s": "<p><strong>Idé.</strong> \\(n\\) likadana källor ger intensiteten \\(nI\\). Logaritmlagen för en produkt ger</p><p>\\[L_n=10\\lg\\frac{nI}{I_0}=10\\lg n+10\\lg\\frac{I}{I_0}=L_1+10\\lg n.\\]</p><p><strong>a)</strong> \\(72+10\\lg n\\ge80\\iff\\lg n\\ge0{,}8\\iff n\\ge10^{0{,}8}\\approx6{,}31\\).</p><p>Det behövs 7 högtalare. Kontroll: 6 högtalare ger \\(72+10\\lg6\\approx79{,}8\\) dB och 7 ger \\(72+10\\lg7\\approx80{,}5\\) dB.</p><p><strong>b)</strong> Intensiteterna fås ur definitionen: \\(70=10\\lg\\frac{I_1}{I_0}\\) ger \\(I_1=10^{7}I_0\\), och på samma sätt är \\(I_2=10^{7{,}6}I_0\\).</p><p>\\[L=10\\lg\\frac{I_1+I_2}{I_0}=10\\lg\\left(10^7+10^{7{,}6}\\right)=10\\lg\\left(10^7\\left(1+10^{0{,}6}\\right)\\right)=70+10\\lg\\left(1+10^{0{,}6}\\right)\\approx77{,}0.\\]</p><p>Rimlighet: den starkare maskinen dominerar, så nivån blir bara ungefär 1 dB högre än 76 dB. Decibel adderas inte.</p><p><strong>c)</strong> Om avståndet blir \\(k\\) gånger så stort blir intensiteten \\(\\dfrac{I}{k^2}\\). Den nya nivån är</p><p>\\[10\\lg\\frac{I}{k^2I_0}=10\\lg\\frac{I}{I_0}-10\\lg k^2=L-20\\lg k.\\]</p><p>\\[20\\lg k=15\\iff\\lg k=0{,}75\\iff k=10^{0{,}75}\\approx5{,}62.\\]</p><p><strong>a) 7 högtalare &nbsp;&nbsp; b) 77,0 dB &nbsp;&nbsp; c) 5,62 gånger längre bort</strong></p>",
+    "familj": "logaritmlagar__tillampa_logaritmlagar",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "modellering",
+      "resonemang",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7",
+      "77,0",
+      "5,62"
+    ],
+    "tolerans": [
+      null,
+      0.06,
+      0.006
+    ],
+    "självrättning": true,
+    "svarsstruktur": "ordnad",
+    "antalSvar": 3,
+    "svarFormat": [
+      "heltal",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "st",
+      "dB",
+      ""
+    ],
+    "ledtrad": "<p>Skriv intensiteten för flera källor som en summa och använd \\(\\lg(ab)=\\lg a+\\lg b\\). I b): räkna först ut \\(\\frac{I_1}{I_0}\\) och \\(\\frac{I_2}{I_0}\\) ur ljudnivåerna.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3
   },
   {
     "id": "3.291",

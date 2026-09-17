@@ -9282,7 +9282,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>Vad händer med passagerarens rörelse när bussens fart minskar?</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -9295,7 +9295,7 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. Använd g = 9,82 m/s².</p><ol><li>Skriv accelerationen som x·g. Bestäm talet x med två decimaler.</li><li>Hur lång tid tar en fartökning på 150 km/h? Svara i s med tre decimaler.</li><li>Hur långt färdas raketen under en fartökning från vila till 150 km/h med denna acceleration? Svara i m med en decimal.</li></ol>",
+    "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. </p><ol><li>Skriv accelerationen som x·g. Bestäm talet x med två decimaler.</li><li>Hur lång tid tar en fartökning på 150 km/h? Svara i s med tre decimaler.</li><li>Hur långt färdas raketen under en fartökning från vila till 150 km/h med denna acceleration? Svara i m med en decimal.</li></ol>",
     "s": "<p>a) x = 30/9,82 ≈ 3,05. Accelerationen är alltså cirka 3,05g.</p><p>b) Fartökningen är 150/3,6 m/s. Tiden är (150/3,6)/30 ≈ 1,389 s.</p><p>c) Från vila gäller s = v²/(2a). Här blir s = (150/3,6)²/(2 · 30) ≈ 28,9 m.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -9318,7 +9318,7 @@ window.BANK = [
     "familjTidigare": "Beräkningar vid konstant acceleration",
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
     "ledtrad": "<p>Omvandla fartökningen till m/s innan du jämför med accelerationen.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -9340,38 +9340,38 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Skriv accelerationen som x·g. Bestäm talet x med två decimaler.",
-        "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. Använd g = 9,82 m/s².</p><p>Skriv accelerationen som x·g. Bestäm talet x med två decimaler.</p>",
+        "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. </p><p>Skriv accelerationen som x·g. Bestäm talet x med två decimaler.</p>",
         "s": "<p>x = 30/9,82 ≈ 3,05. Accelerationen är alltså cirka 3,05g.</p>",
         "ledtrad": "<p>Omvandla fartökningen till m/s innan du jämför med accelerationen.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Hur lång tid tar en fartökning på 150 km/h? Svara i s med tre decimaler.",
-        "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. Använd g = 9,82 m/s².</p><p>Hur lång tid tar en fartökning på 150 km/h? Svara i s med tre decimaler.</p>",
+        "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. </p><p>Hur lång tid tar en fartökning på 150 km/h? Svara i s med tre decimaler.</p>",
         "s": "<p>Fartökningen är 150/3,6 m/s. Tiden är (150/3,6)/30 ≈ 1,389 s.</p>",
         "ledtrad": "<p>Omvandla fartökningen till m/s innan du jämför med accelerationen.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Hur långt färdas raketen under en fartökning från vila till 150 km/h med denna acceleration? Svara i m med en decimal.",
-        "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. Använd g = 9,82 m/s².</p><p>Hur långt färdas raketen under en fartökning från vila till 150 km/h med denna acceleration? Svara i m med en decimal.</p>",
+        "t": "<p>Under ett tidsintervall är en rakets nettoacceleration konstant 30 m/s² i rörelseriktningen. </p><p>Hur långt färdas raketen under en fartökning från vila till 150 km/h med denna acceleration? Svara i m med en decimal.</p>",
         "s": "<p>Från vila gäller s = v²/(2a). Här blir s = (150/3,6)²/(2 · 30) ≈ 28,9 m.</p>",
         "ledtrad": "<p>Omvandla fartökningen till m/s innan du jämför med accelerationen.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -9491,7 +9491,7 @@ window.BANK = [
     "niva": "C",
     "typ": "kombinera farten och strackan vid acceleration fran en begynnelsefart, ur text, sokt fart stracka och medelfart",
     "poang": "(2/1/0)",
-    "t": "<p>En motorcykel håller farten 8,0 m/s när föraren gasar. Motorcykeln accelererar sedan likformigt med 3,0 m/s² under 6,0 sekunder.</p><span class=\"fig bred\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 33.475 460.000 130.618\"><rect x=\"20\" y=\"118\" width=\"420\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"118\" x2=\"440\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"60\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"60\" y1=\"106\" x2=\"78\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"78\" y1=\"88\" x2=\"100\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M 68 94 L 90 88 L 102 92 L 98 102 L 72 102 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"98\" y1=\"90\" x2=\"106\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"82\" cy=\"74\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"320\" y1=\"106\" x2=\"338\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"338\" y1=\"88\" x2=\"360\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M 328 94 L 350 88 L 362 92 L 358 102 L 332 102 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"358\" y1=\"90\" x2=\"366\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"342\" cy=\"74\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"112\" y1=\"56\" x2=\"158\" y2=\"56\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"168,56 158,60.6 158,51.4\" fill=\"#2A5D9E\"/><text x=\"140\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 8,0 m/s</text><line x1=\"372\" y1=\"56\" x2=\"418\" y2=\"56\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"428,56 418,60.6 418,51.4\" fill=\"#2A5D9E\"/><text x=\"400\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text><line x1=\"80\" y1=\"140\" x2=\"344\" y2=\"140\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"80,140 87,143 87,137\" fill=\"#5C575E\"/><polygon points=\"344,140 337,143 337,137\" fill=\"#5C575E\"/><text x=\"212\" y=\"156\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">s = ?  under 6,0 s</text></svg></span>\n<ol><li>Hur stor är farten efter de 6,0 sekunderna?</li>\n<li>Hur lång sträcka tillryggalägger motorcykeln under tiden?</li>\n<li>Hur stor är medelfarten under de 6,0 sekunderna?</li>\n<li>Jämför svaret i c) med medelvärdet av start- och slutfarten. Förklara med ett fart–tid-diagram varför de två metoderna ger samma resultat.</li></ol>",
+    "t": "<p>En motorcykel håller farten 8,0 m/s när föraren gasar. Motorcykeln accelererar sedan likformigt med 3,0 m/s² under 6,0 sekunder.</p><span class=\"fig bred\"><svg height=\"176\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 33.475 460.000 130.618\"><rect x=\"20\" y=\"118\" width=\"420\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"118\" x2=\"440\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"60\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"60\" y1=\"106\" x2=\"78\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"78\" y1=\"88\" x2=\"100\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M 68 94 L 90 88 L 102 92 L 98 102 L 72 102 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"98\" y1=\"90\" x2=\"106\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"82\" cy=\"74\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"106\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"320\" y1=\"106\" x2=\"338\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"338\" y1=\"88\" x2=\"360\" y2=\"106\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><path d=\"M 328 94 L 350 88 L 362 92 L 358 102 L 332 102 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"358\" y1=\"90\" x2=\"366\" y2=\"82\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><circle cx=\"342\" cy=\"74\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"112\" y1=\"56\" x2=\"158\" y2=\"56\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"168,56 158,60.6 158,51.4\" fill=\"#2A5D9E\"/><text x=\"140\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 8,0 m/s</text><line x1=\"372\" y1=\"56\" x2=\"418\" y2=\"56\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"428,56 418,60.6 418,51.4\" fill=\"#2A5D9E\"/><text x=\"400\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = ?</text><line x1=\"80\" y1=\"140\" x2=\"344\" y2=\"140\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"80,140 87,143 87,137\" fill=\"#5C575E\"/><polygon points=\"344,140 337,143 337,137\" fill=\"#5C575E\"/><text x=\"212\" y=\"156\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">s = ? under 6,0 s</text></svg></span>\n<ol><li>Hur stor är farten efter de 6,0 sekunderna?</li>\n<li>Hur lång sträcka tillryggalägger motorcykeln under tiden?</li>\n<li>Hur stor är medelfarten under de 6,0 sekunderna?</li>\n<li>Jämför svaret i c) med medelvärdet av start- och slutfarten. Förklara med ett fart–tid-diagram varför de två metoderna ger samma resultat.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna slutfarten.</p><div class=\"facit-matte\">\\[v=v_0+at=8{,}0+3{,}0\\cdot6{,}0=26\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna sträckan med begynnelsefart.</p><div class=\"facit-matte\">\\[s=8{,}0\\cdot6{,}0+\\frac{3{,}0\\cdot6{,}0^2}{2}=102\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dela sträckan med tiden.</p><div class=\"facit-matte\">\\[\\bar v=\\frac{102}{6{,}0}=17\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med ändpunktsmedelvärdet.</p><div class=\"facit-matte\">\\[\\frac{v_0+v}{2}=\\frac{8{,}0+26}{2}=17\\ \\mathrm{m/s}\\]</div><p>Vid konstant acceleration är detta exakt samma värde.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Slutfarten är \\(26\\ \\mathrm{m/s}\\), sträckan \\(102\\ \\mathrm m\\) och medelfarten \\(17\\ \\mathrm{m/s}\\).</p></div><p>Fart–tid-grafen är en rät linje från 8 till 26 m/s. Trapetsarean är (8 + 26) · 6/2. Dividerar vi med tiden 6 s får vi just medelvärdet av start- och slutfarten.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -9772,7 +9772,7 @@ window.BANK = [
     "niva": "E",
     "typ": "avläsa lutning i läge–tid-diagram",
     "poang": "(1/0/0)",
-    "t": "<p>Diagrammet visar ett föremåls läge som funktion av tiden.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" role=\"img\" aria-label=\"Läge–tid-diagram\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"45\" y1=\"225.0\" x2=\"425\" y2=\"225.0\" stroke=\"#374151\" stroke-width=\"1.6\"/><line x1=\"45.0\" y1=\"45\" x2=\"45.0\" y2=\"225\" stroke=\"#374151\" stroke-width=\"1.6\"/><polyline points=\"45.0,225.0 425.0,45.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"425\" y=\"258\" text-anchor=\"end\" font-size=\"13\" font-family=\"Arial\">t (s)</text><text x=\"12\" y=\"33\" font-size=\"13\" font-family=\"Arial\">x (m)</text><text x=\"425.0\" y=\"243.0\" text-anchor=\"middle\" font-size=\"11\" font-family=\"Arial\">4</text><text x=\"37.0\" y=\"49.0\" text-anchor=\"end\" font-size=\"11\" font-family=\"Arial\">10</text></svg></span><p>Hastigheten ges av v = (x₂ − x₁)/(t₂ − t₁). Bestäm hastigheten i m/s.</p>",
+    "t": "<p>Diagrammet visar ett föremåls läge som funktion av tiden.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" role=\"img\" aria-label=\"Läge–tid-diagram\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"45\" y1=\"225.0\" x2=\"425\" y2=\"225.0\" stroke=\"#374151\" stroke-width=\"1.6\"/><line x1=\"45.0\" y1=\"45\" x2=\"45.0\" y2=\"225\" stroke=\"#374151\" stroke-width=\"1.6\"/><polyline points=\"45.0,225.0 425.0,45.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"425\" y=\"258\" text-anchor=\"end\" font-size=\"13\" font-family=\"Arial\">t (s)</text><text x=\"12\" y=\"33\" font-size=\"13\" font-family=\"Arial\">x (m)</text><text x=\"425.0\" y=\"243.0\" text-anchor=\"middle\" font-size=\"11\" font-family=\"Arial\">4</text><text x=\"37.0\" y=\"49.0\" text-anchor=\"end\" font-size=\"11\" font-family=\"Arial\">10</text></svg></span><p>Bestäm hastigheten i m/s.</p>",
     "s": "<p>Grafens ändpunkter är (0 s, 0 m) och (4 s, 10 m). v = (10 − 0)/(4 − 0) = 2,5 m/s.</p>",
     "familj": "Lutning och area i rörelsediagram",
     "formaga": [
@@ -9785,7 +9785,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd de två ändpunkterna i den givna formeln.</p>",
+    "ledtrad": "<p>Hastigheten är lutningen i ett läge–tid-diagram. Välj två tydliga punkter på linjen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -9999,7 +9999,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma förflyttning som area under v-t-graf",
     "poang": "(1/0/0)",
-    "t": "<p>Diagrammet visar hastigheten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" role=\"img\" aria-label=\"Hastighet–tid-diagram\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"45\" y1=\"225.0\" x2=\"425\" y2=\"225.0\" stroke=\"#374151\" stroke-width=\"1.6\"/><line x1=\"45.0\" y1=\"45\" x2=\"45.0\" y2=\"225\" stroke=\"#374151\" stroke-width=\"1.6\"/><polyline points=\"45.0,45.0 425.0,45.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"425\" y=\"258\" text-anchor=\"end\" font-size=\"13\" font-family=\"Arial\">t (s)</text><text x=\"12\" y=\"33\" font-size=\"13\" font-family=\"Arial\">v (m/s)</text><text x=\"425.0\" y=\"243.0\" text-anchor=\"middle\" font-size=\"11\" font-family=\"Arial\">5</text><text x=\"37.0\" y=\"49.0\" text-anchor=\"end\" font-size=\"11\" font-family=\"Arial\">4</text></svg></span><p>Vid konstant hastighet gäller Δx = vΔt. Bestäm förflyttningen från t = 0 till t = 5 s i m.</p>",
+    "t": "<p>Diagrammet visar hastigheten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" role=\"img\" aria-label=\"Hastighet–tid-diagram\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"45\" y1=\"225.0\" x2=\"425\" y2=\"225.0\" stroke=\"#374151\" stroke-width=\"1.6\"/><line x1=\"45.0\" y1=\"45\" x2=\"45.0\" y2=\"225\" stroke=\"#374151\" stroke-width=\"1.6\"/><polyline points=\"45.0,45.0 425.0,45.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"425\" y=\"258\" text-anchor=\"end\" font-size=\"13\" font-family=\"Arial\">t (s)</text><text x=\"12\" y=\"33\" font-size=\"13\" font-family=\"Arial\">v (m/s)</text><text x=\"425.0\" y=\"243.0\" text-anchor=\"middle\" font-size=\"11\" font-family=\"Arial\">5</text><text x=\"37.0\" y=\"49.0\" text-anchor=\"end\" font-size=\"11\" font-family=\"Arial\">4</text></svg></span><p>Bestäm förflyttningen från t = 0 till t = 5 s.</p>",
     "s": "<p>Hastigheten är 4 m/s under 5 s: Δx = 4 · 5 = 20 m.</p>",
     "familj": "Lutning och area i rörelsediagram",
     "formaga": [
@@ -10012,7 +10012,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Använd den givna formeln med den fart och tid som diagrammet visar.</p>",
+    "ledtrad": "<p>I ett hastighet–tid-diagram motsvarar arean under grafen förflyttningen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -10026,7 +10026,7 @@ window.BANK = [
     "niva": "A",
     "typ": "bestämma fallhöjd när en given andel av sträckan tillryggaläggs under sista sekunden, ur text, sökt tid och sträcka",
     "poang": "(0/0/2)",
-    "t": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm hela falltiden i s med tre decimaler.</li><li>Bestäm hela fallhöjden i m med en decimal.</li></ol>",
+    "t": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p><ol><li>Bestäm hela falltiden i s med tre decimaler.</li><li>Bestäm hela fallhöjden i m med en decimal.</li></ol>",
     "s": "<p>a) Låt T vara totaltiden i sekunder. Då är T > 1. Före sista sekunden har 60 % av höjden fallits: (g/2)(T − 1)² = 0,60(g/2)T². Eftersom T − 1 > 0 blir T − 1 = √0,60 · T och T = 1/(1 − √0,60) ≈ 4,436 s.</p><p>b) Skriv (T − 1)² = 0,60T² och välj roten T > 1. Då är T = 1/(1 − √0,60). Höjden är gT²/2 = 9,82/[2(1 − √0,60)²] ≈ 96,6 m.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -10064,12 +10064,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm hela falltiden i s med tre decimaler.",
-        "t": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm hela falltiden i s med tre decimaler.</p>",
+        "t": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p><p>Bestäm hela falltiden i s med tre decimaler.</p>",
         "s": "<p>Låt T vara totaltiden i sekunder. Då är T > 1. Före sista sekunden har 60 % av höjden fallits: (g/2)(T − 1)² = 0,60(g/2)T². Eftersom T − 1 > 0 blir T − 1 = √0,60 · T och T = 1/(1 − √0,60) ≈ 4,436 s.</p>",
         "ledtrad": "<p>Uttryck sträckan före sista sekunden och hela fallsträckan med samma okända totaltid.</p>",
         "niva": "A",
@@ -10080,7 +10080,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm hela fallhöjden i m med en decimal.",
-        "t": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm hela fallhöjden i m med en decimal.</p>",
+        "t": "<p>Ett föremål släpps från vila och faller fritt. Under den sista sekunden av fallet tillryggalägger det 40 % av hela fallsträckan. Luftmotståndet försummas.</p><p>Bestäm hela fallhöjden i m med en decimal.</p>",
         "s": "<p>Skriv (T − 1)² = 0,60T² och välj roten T > 1. Då är T = 1/(1 − √0,60). Höjden är gT²/2 = 9,82/[2(1 − √0,60)²] ≈ 96,6 m.</p>",
         "ledtrad": "<p>Uttryck sträckan före sista sekunden och hela fallsträckan med samma okända totaltid.</p>",
         "niva": "A",
@@ -10097,7 +10097,7 @@ window.BANK = [
     "niva": "E",
     "typ": "visa att accelerationen är konstant ur mätvärden, ur tabell, sökt acceleration",
     "poang": "(2/0/0)",
-    "t": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Modellera rörelsen som rak med konstant acceleration under hela intervallet.</p><ol><li>Bestäm accelerationen i m/s².</li><li>Bestäm vägsträckan under 0–8 s enligt modellen, i m.</li></ol>",
+    "t": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Anta att rörelsen är rak och att accelerationen är konstant under hela intervallet.</p><ol><li>Bestäm accelerationen i m/s².</li><li>Bestäm vägsträckan under 0–8 s enligt modellen, i m.</li></ol>",
     "s": "<p>a) Fartökningen är 3 m/s på 2 s: a = 1,5 m/s². Detta är modellens acceleration.</p><p>b) Medelfarten är (0 + 12)/2 = 6 m/s. Sträckan är 6 · 8 = 48 m. Mätpunkterna ensamma bestämmer inte exakt hur farten varierar mellan mätningarna.</p>",
     "familj": "Mötes- och ikapproblem med acceleration",
     "formaga": [
@@ -10115,7 +10115,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Räkna hastighetsändring per sekund under den antagna linjära rörelsen.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -10134,27 +10134,27 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Modellera rörelsen som rak med konstant acceleration under hela intervallet.</p>",
+    "spelIntro": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Anta att rörelsen är rak och att accelerationen är konstant under hela intervallet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen i m/s².",
-        "t": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Modellera rörelsen som rak med konstant acceleration under hela intervallet.</p><p>Bestäm accelerationen i m/s².</p>",
+        "t": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Anta att rörelsen är rak och att accelerationen är konstant under hela intervallet.</p><p>Bestäm accelerationen i m/s².</p>",
         "s": "<p>Fartökningen är 3 m/s på 2 s: a = 1,5 m/s². Detta är modellens acceleration.</p>",
         "ledtrad": "<p>Räkna hastighetsändring per sekund under den antagna linjära rörelsen.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Bestäm vägsträckan under 0–8 s enligt modellen, i m.",
-        "t": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Modellera rörelsen som rak med konstant acceleration under hela intervallet.</p><p>Bestäm vägsträckan under 0–8 s enligt modellen, i m.</p>",
+        "t": "<p>En vagns fart mäts till 0, 3, 6, 9 och 12 m/s vid t = 0, 2, 4, 6 respektive 8 s. Anta att rörelsen är rak och att accelerationen är konstant under hela intervallet.</p><p>Bestäm vägsträckan under 0–8 s enligt modellen, i m.</p>",
         "s": "<p>Medelfarten är (0 + 12)/2 = 6 m/s. Sträckan är 6 · 8 = 48 m. Mätpunkterna ensamma bestämmer inte exakt hur farten varierar mellan mätningarna.</p>",
         "ledtrad": "<p>Räkna hastighetsändring per sekund under den antagna linjära rörelsen.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -10739,7 +10739,7 @@ window.BANK = [
     "niva": "C",
     "typ": "losa fallet fran en stigande ballong med andragradsekvation och jamfora med en sjunkande ballong, ur text, sokt tid hojd och fart",
     "poang": "(2/3/0)",
-    "t": "<p>En ballong stiger med den konstanta farten 5,0 m/s. På höjden 80 meter över marken lossnar en sandsäck från ballongen. Luftmotståndet mot sandsäcken försummas.</p><span class=\"fig smal\"><svg height=\"272\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 300 215\"><rect x=\"20\" y=\"196\" width=\"260\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"196\" x2=\"280\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 108 14 C 152 14 152 62 108 84 C 64 62 64 14 108 14 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"96\" y1=\"78\" x2=\"102\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"78\" x2=\"114\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"94\" y=\"96\" width=\"28\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"164\" y1=\"76\" x2=\"164\" y2=\"36\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"164,26 168.6,36 159.4,36\" fill=\"#2A5D9E\"/><text x=\"172\" y=\"52\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">5,0 m/s</text><rect x=\"98\" y=\"128\" width=\"20\" height=\"24\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"126\" y=\"144\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">sandsäck</text><line x1=\"62\" y1=\"105\" x2=\"62\" y2=\"196\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"62,105 59,112 65,112\" fill=\"#5C575E\"/><polygon points=\"62,196 59,189 65,189\" fill=\"#5C575E\"/><text x=\"54\" y=\"152\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">80 m</text></svg></span>\n<ol><li>Hur högt över marken kommer sandsäcken som högst?</li>\n<li>Hur lång tid tar det innan sandsäcken når marken, och med vilken fart slår den ned?</li>\n<li>Hur lång tid hade fallet tagit om ballongen i stället hade sjunkit med 5,0 m/s? Förklara skillnaden mellan svaren.</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p>",
+    "t": "<p>En ballong stiger med den konstanta farten 5,0 m/s. På höjden 80 meter över marken lossnar en sandsäck från ballongen. Luftmotståndet mot sandsäcken försummas.</p><span class=\"fig smal\"><svg height=\"272\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 300 215\"><rect x=\"20\" y=\"196\" width=\"260\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"196\" x2=\"280\" y2=\"196\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><path d=\"M 108 14 C 152 14 152 62 108 84 C 64 62 64 14 108 14 Z\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"96\" y1=\"78\" x2=\"102\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"78\" x2=\"114\" y2=\"96\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"94\" y=\"96\" width=\"28\" height=\"18\" rx=\"2\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"164\" y1=\"76\" x2=\"164\" y2=\"36\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"164,26 168.6,36 159.4,36\" fill=\"#2A5D9E\"/><text x=\"172\" y=\"52\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">5,0 m/s</text><rect x=\"98\" y=\"128\" width=\"20\" height=\"24\" rx=\"4\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"126\" y=\"144\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">sandsäck</text><line x1=\"62\" y1=\"105\" x2=\"62\" y2=\"196\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"62,105 59,112 65,112\" fill=\"#5C575E\"/><polygon points=\"62,196 59,189 65,189\" fill=\"#5C575E\"/><text x=\"54\" y=\"152\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">80 m</text></svg></span>\n<ol><li>Hur högt över marken kommer sandsäcken som högst?</li>\n<li>Hur lång tid tar det innan sandsäcken når marken, och med vilken fart slår den ned?</li>\n<li>Hur lång tid hade fallet tagit om ballongen i stället hade sjunkit med 5,0 m/s? Förklara skillnaden mellan svaren.</li></ol><p>Bortse från luftmotståndet.</p>",
     "s": "<p>a) Säcken har ballongens begynnelsehastighet, 5,0 m/s uppåt. Dess extra stighöjd är 5²/(2 · 9,82) ≈ 1,27 m. Största höjden är därför 81,3 m.</p><p>b) Höjden är y = 80 + 5t − 9,82t²/2. Den positiva roten till y = 0 är t = (5 + √(5² + 2 · 9,82 · 80))/9,82 ≈ 4,58 s. Farten vid marken är √(5² + 2 · 9,82 · 80) ≈ 39,95 m/s, nedåt.</p><p>c) Vid sjunkande ballong är begynnelsehastigheten −5,0 m/s. Den positiva roten är då (−5 + √(5² + 2 · 9,82 · 80))/9,82 ≈ 3,56 s. Skillnaden är 10/9,82 ≈ 1,02 s: tiden för den först uppåtriktade säcken att stiga och komma tillbaka till 80 m med farten 5 m/s nedåt.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -10769,7 +10769,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna fart och sträcka vid likformig acceleration från vila, ur text, sökt fart och sträcka",
     "poang": "(2/0/0)",
-    "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Använd v = at och s = at²/2 för rörelsen från vila.</p><ol><li>Bestäm farten efter 2,5 s i m/s.</li><li>Bestäm sträckan under 2,5 s i m.</li></ol>",
+    "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><ol><li>Bestäm farten efter 2,5 s i m/s.</li><li>Bestäm sträckan under 2,5 s i m.</li></ol>",
     "s": "<p>a) v = 1,2 · 2,5 = 3,0 m/s.</p><p>b) s = 1,2 · 2,5²/2 = 3,75 m.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -10789,7 +10789,7 @@ window.BANK = [
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
     "familjTidigare": "Beräkningar vid konstant acceleration",
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
-    "ledtrad": "<p>Sätt in accelerationen och tiden i de givna formlerna.</p>",
+    "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "miniräknare": true,
@@ -10809,14 +10809,14 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Använd v = at och s = at²/2 för rörelsen från vila.</p>",
+    "spelIntro": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm farten efter 2,5 s i m/s.",
-        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Använd v = at och s = at²/2 för rörelsen från vila.</p><p>Bestäm farten efter 2,5 s i m/s.</p>",
+        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Bestäm farten efter 2,5 s i m/s.</p>",
         "s": "<p>v = 1,2 · 2,5 = 3,0 m/s.</p>",
-        "ledtrad": "<p>Sätt in accelerationen och tiden i de givna formlerna.</p>",
+        "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -10825,9 +10825,9 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm sträckan under 2,5 s i m.",
-        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Använd v = at och s = at²/2 för rörelsen från vila.</p><p>Bestäm sträckan under 2,5 s i m.</p>",
+        "t": "<p>En simmare startar från vila och accelererar likformigt med 1,2 m/s² under 2,5 sekunder.</p><p>Bestäm sträckan under 2,5 s i m.</p>",
         "s": "<p>s = 1,2 · 2,5²/2 = 3,75 m.</p>",
-        "ledtrad": "<p>Sätt in accelerationen och tiden i de givna formlerna.</p>",
+        "ledtrad": "<p>Simmaren startar från vila. Leta upp sambanden för rörelse med konstant acceleration i formelsamlingen.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -10871,7 +10871,7 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><ol><li>Bestäm farten vid vattenytan i m/s med två decimaler.</li><li>Bestäm tiden till vattenytan i s med tre decimaler.</li><li>Hur många sekunder kortare är tiden än vid ett släpp från vila från samma höjd? Svara med tre decimaler.</li></ol>",
+    "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. </p><ol><li>Bestäm farten vid vattenytan i m/s med två decimaler.</li><li>Bestäm tiden till vattenytan i s med tre decimaler.</li><li>Hur många sekunder kortare är tiden än vid ett släpp från vila från samma höjd? Svara med tre decimaler.</li></ol>",
     "s": "<p>a) Nedåt är positivt. v² = 8² + 2 · 9,82 · 22, så v ≈ 22,27 m/s.</p><p>b) t = (√(8² + 2 · 9,82 · 22) − 8)/9,82 ≈ 1,453 s.</p><p>c) Från vila tar det √(2 · 22/9,82) s. Subtrahera tiden (√(8² + 2 · 9,82 · 22) − 8)/9,82 s. Skillnaden är cirka 0,663 s.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -10913,12 +10913,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm farten vid vattenytan i m/s med två decimaler.",
-        "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm farten vid vattenytan i m/s med två decimaler.</p>",
+        "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. </p><p>Bestäm farten vid vattenytan i m/s med två decimaler.</p>",
         "s": "<p>Nedåt är positivt. v² = 8² + 2 · 9,82 · 22, så v ≈ 22,27 m/s.</p>",
         "ledtrad": "<p>Du kan först bestämma slutfarten utan att känna tiden.</p>",
         "niva": "E",
@@ -10929,7 +10929,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm tiden till vattenytan i s med tre decimaler.",
-        "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm tiden till vattenytan i s med tre decimaler.</p>",
+        "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. </p><p>Bestäm tiden till vattenytan i s med tre decimaler.</p>",
         "s": "<p>t = (√(8² + 2 · 9,82 · 22) − 8)/9,82 ≈ 1,453 s.</p>",
         "ledtrad": "<p>Du kan först bestämma slutfarten utan att känna tiden.</p>",
         "niva": "E",
@@ -10940,7 +10940,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Hur många sekunder kortare är tiden än vid ett släpp från vila från samma höjd? Svara med tre decimaler.",
-        "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Hur många sekunder kortare är tiden än vid ett släpp från vila från samma höjd? Svara med tre decimaler.</p>",
+        "t": "<p>En sten kastas rakt nedåt med farten 8,0 m/s från en bro som är 22 m hög.</p><p>Bortse från luftmotstånd. </p><p>Hur många sekunder kortare är tiden än vid ett släpp från vila från samma höjd? Svara med tre decimaler.</p>",
         "s": "<p>Från vila tar det √(2 · 22/9,82) s. Subtrahera tiden (√(8² + 2 · 9,82 · 22) − 8)/9,82 s. Skillnaden är cirka 0,663 s.</p>",
         "ledtrad": "<p>Du kan först bestämma slutfarten utan att känna tiden.</p>",
         "niva": "E",
@@ -10956,7 +10956,7 @@ window.BANK = [
     "omr": "diagram",
     "niva": "C",
     "poang": "(2/3/0)",
-    "t": "<p>Två löpare startar samtidigt från samma plats. Den ena håller konstant 4,0 m/s. Den andra startar från vila och accelererar likformigt med 0,50 m/s².</p>\n<ol><li>Rita båda rörelserna i samma v-t-diagram.</li>\n<li>När har de samma fart?</li><li>När hinner den andra löparen ifatt den första, och hur långt har de då sprungit?</li>\n<li>Förklara varför svaren i b och c inte är samma tidpunkt.</li></ol><p>Använd idealiserade rörelser längs samma raka bana och låt modellen gälla tills löparna möts igen.</p>",
+    "t": "<p>Två löpare startar samtidigt från samma plats. Den ena håller konstant 4,0 m/s. Den andra startar från vila och accelererar likformigt med 0,50 m/s².</p>\n<ol><li>Rita båda rörelserna i samma v-t-diagram.</li>\n<li>När har de samma fart?</li><li>När hinner den andra löparen ifatt den första, och hur långt har de då sprungit?</li>\n<li>Förklara varför svaren i b och c inte är samma tidpunkt.</li></ol><p>Anta att båda löparna fortsätter på samma raka bana på det sätt som beskrivs tills de möts igen.</p>",
     "s": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><path d=\"M 65.0 45 V 255\" stroke=\"#ddd\"/><text x=\"65.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 178.75 45 V 255\" stroke=\"#ddd\"/><text x=\"178.75\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">4</text><path d=\"M 292.5 45 V 255\" stroke=\"#ddd\"/><text x=\"292.5\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">8</text><path d=\"M 406.25 45 V 255\" stroke=\"#ddd\"/><text x=\"406.25\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">12</text><path d=\"M 520.0 45 V 255\" stroke=\"#ddd\"/><text x=\"520.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">16</text><path d=\"M 65 255.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"259.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 65 202.5 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"206.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">2</text><path d=\"M 65 150.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"154.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">4</text><path d=\"M 65 97.5 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"101.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">6</text><path d=\"M 65 45.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"49.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">8</text><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,150.0 520.0,150.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/><polyline points=\"65.0,255.0 520.0,45.0\" fill=\"none\" stroke=\"#ba392b\" stroke-width=\"3\"/><text x=\"505.0\" y=\"35.0\" font-size=\"15\" fill=\"#ba392b\">B</text></svg></span><p>Den vågräta blå grafen är A; den röda grafen är B.</p><div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Löpare A ger en vågrät linje. Löpare B ger en rät linje med lutningen 0,50 m/s².</p><p>Diagrammet visas ovan.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt farterna lika.</p><div class=\"facit-matte\">\\[0{,}50t=4{,}0\\Rightarrow t=8{,}0\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid ikappspringningen är areorna under kurvorna lika.</p><div class=\"facit-matte\">\\[4{,}0t=\\frac{0{,}50t^2}{2}\\Rightarrow t=16\\ \\mathrm s\\]\\[s=4{,}0\\cdot16=64\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När farterna är lika har A redan byggt upp ett försprång.</p><p>B hinner ikapp först när B:s sammanlagda area har blivit lika stor som A:s.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Farterna är lika efter \\(8{,}0\\ \\mathrm s\\). B hinner ikapp efter \\(16\\ \\mathrm s\\), vid \\(64\\ \\mathrm m\\).</p></div>",
     "familj": "Tolka och rita rörelsediagram",
     "formaga": [
@@ -11856,7 +11856,7 @@ window.BANK = [
     "omr": "diagram",
     "niva": "C",
     "poang": "(0/4/0)",
-    "t": "<p>En fallskärmshoppare med utrustning har massan 80 kg. Modellen för luftmotståndets belopp är F = kv². Vid fall med infälld skärm är gränsfarten 55 m/s. Använd g = 9,82 m/s² och välj nedåt som positiv riktning.</p><p>a) Bestäm k och dess enhet. b) Bestäm accelerationen när farten är 30 m/s. c) Skissa v som funktion av t för ett fall från vila och förklara kurvans form. Anta konstant k och oförändrad kroppsställning.</p>",
+    "t": "<p>En fallskärmshoppare med utrustning har massan 80 kg. Modellen för luftmotståndets belopp är F = kv². Vid fall med infälld skärm är gränsfarten 55 m/s. Välj nedåt som positiv riktning.</p><p>a) Bestäm k och dess enhet. b) Bestäm accelerationen när farten är 30 m/s. c) Skissa v som funktion av t för ett fall från vila och förklara kurvans form. Anta konstant k och oförändrad kroppsställning.</p>",
     "s": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><path d=\"M 65.0 45 V 255\" stroke=\"#ddd\"/><text x=\"65.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 178.75 45 V 255\" stroke=\"#ddd\"/><text x=\"178.75\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">5</text><path d=\"M 292.5 45 V 255\" stroke=\"#ddd\"/><text x=\"292.5\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">10</text><path d=\"M 406.25 45 V 255\" stroke=\"#ddd\"/><text x=\"406.25\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">15</text><path d=\"M 520.0 45 V 255\" stroke=\"#ddd\"/><text x=\"520.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">20</text><path d=\"M 65 255.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"259.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 65 178.63636363636363 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"182.63636363636363\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">20</text><path d=\"M 65 102.27272727272728 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"106.27272727272728\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">40</text><path d=\"M 65 45.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"49.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">55</text><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,255.0 70.6875,245.63258403884362 76.375,236.30237189807286 82.0625,227.04597869835618 87.75,217.89886184615315 93.4375,208.89479026799162 99.125,200.06536831050965 104.8125,191.4396277337474 110.5,183.04369763811002 116.1875,174.9005582617215 121.875,167.02988065069508 127.5625,159.44795050331632 133.25,152.16767123767582 138.9375,145.19863868765236 144.625,138.5472778841067 150.3125,132.21703115129554 156.0,126.20858621055967 161.6875,120.52013305772027 167.375,115.14763896114133 173.0625,110.08513189279574 178.75,105.32498393140003 184.4375,100.85818754921095 190.125,96.67461911189312 195.8125,92.76328530254489 201.5,89.11254946552947 207.1875,85.7103360120017 212.875,82.54431201339608 218.5625,79.60204592281437 224.25,76.87114400983322 229.9375,74.33936558259998 235.625,71.99471841840034 241.3125,69.82553604930368 247.0,67.82053867313186 252.6875,65.96887950157586 258.375,64.26017833510369 264.0625,62.684544084711405 269.75,61.23258785762937 275.4375,59.89542809955245 281.125,58.66468914930596 286.8125,57.532494420535585 292.5,56.491455284651664 298.1875,55.53465659395431 303.875,54.655639656431504 309.5625,53.84838335593355 315.25,53.107284004257906 320.9375,52.42713441548136 326.625,51.803102607552944 332.3125,51.23071046129104 338.0,50.70581260187899 343.6875,50.22457571195801 349.375,49.783458437650324 355.0625,49.37919200845124 360.75,49.00876165808066 366.4375,48.669388905275866 372.125,48.35851473040299 377.8125,48.073783664971415 383.5,47.81302879604448 389.1875,47.574257675588996 394.875,47.355639115514634 400.5625,47.15549084208399 406.25,46.972267978160744 411.9375,46.80455231807386 417.625,46.65104235744295 423.3125,46.51054403889134 429.0,46.38196217396768 434.6875,46.26429250164426 440.375,46.15661434430601 446.0625,46.058083823082484 451.75,45.96792759560202 457.4375,45.885437080682834 463.125,45.809963136059054 468.8125,45.740911156911096 474.5,45.67773656469362 480.1875,45.61994065748985 485.875,45.567066794849296 491.5625,45.51869689175996 497.25,45.474448198053324 502.9375,45.43397034113153 508.625,45.39694261142802 514.3125,45.363071471464906 520.0,45.33208827074813\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/></svg></span><p>a) Vid gränsfarten balanseras krafterna: k · 55² = 80 · 9,82. Det ger k = 80 · 9,82/55² ≈ 0,260 kg/m.</p><p>b) Nettokraften är mg − kv². Accelerationen är därför a = g − kv²/m = 9,82[1 − (30/55)²] ≈ 6,90 m/s² nedåt.</p><p>c) Från vila är luftmotståndet noll och grafens startlutning är g. När farten växer ökar luftmotståndet och lutningen minskar. Grafen närmar sig den vågräta nivån 55 m/s. I denna idealiserade modell nås nivån bara som ett gränsvärde. Skissen visar positiv hastighet nedåt.</p>",
     "familj": "Lutning och area i rörelsediagram",
     "formaga": [
@@ -11884,7 +11884,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna sträckan vid konstant acceleration för tre olika fall, ur tabell, sökt sträcka",
     "poang": "(3/0/0)",
-    "t": "<p>Vid rak rörelse med konstant acceleration gäller förflyttningen Δx = v₀t + at²/2. Använd de angivna tecknen.</p><ol><li>Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.</li><li>Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.</li><li>Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.</li></ol>",
+    "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><ol><li>Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.</li><li>Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.</li><li>Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.</li></ol>",
     "s": "<p>a) Δx = 0 · 3 + 2 · 3²/2 = 9 m.</p><p>b) Δx = 5 · 4 + 0 = 20 m. Noll acceleration betyder här konstant fart 5 m/s.</p><p>c) Δx = 10 · 3 − 2 · 3²/2 = 21 m. Hastigheten är fortfarande positiv efter 3 s.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -11906,7 +11906,7 @@ window.BANK = [
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
     "familjTidigare": "Beräkningar vid konstant acceleration",
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
-    "ledtrad": "<p>Behåll accelerationens tecken när du sätter in värdena.</p>",
+    "ledtrad": "<p>Vilket samband i formelsamlingen innehåller startfart, acceleration, tid och förflyttning?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
@@ -11929,14 +11929,14 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vid rak rörelse med konstant acceleration gäller förflyttningen Δx = v₀t + at²/2. Använd de angivna tecknen.</p>",
+    "spelIntro": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.",
-        "t": "<p>Vid rak rörelse med konstant acceleration gäller förflyttningen Δx = v₀t + at²/2. Använd de angivna tecknen.</p><p>Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.</p>",
+        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 0, a = 2 m/s² och t = 3 s.</p>",
         "s": "<p>Δx = 0 · 3 + 2 · 3²/2 = 9 m.</p>",
-        "ledtrad": "<p>Behåll accelerationens tecken när du sätter in värdena.</p>",
+        "ledtrad": "<p>Vilket samband i formelsamlingen innehåller startfart, acceleration, tid och förflyttning?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -11945,9 +11945,9 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.",
-        "t": "<p>Vid rak rörelse med konstant acceleration gäller förflyttningen Δx = v₀t + at²/2. Använd de angivna tecknen.</p><p>Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.</p>",
+        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 5 m/s, a = 0 och t = 4 s.</p>",
         "s": "<p>Δx = 5 · 4 + 0 = 20 m. Noll acceleration betyder här konstant fart 5 m/s.</p>",
-        "ledtrad": "<p>Behåll accelerationens tecken när du sätter in värdena.</p>",
+        "ledtrad": "<p>Vilket samband i formelsamlingen innehåller startfart, acceleration, tid och förflyttning?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -11956,9 +11956,9 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.",
-        "t": "<p>Vid rak rörelse med konstant acceleration gäller förflyttningen Δx = v₀t + at²/2. Använd de angivna tecknen.</p><p>Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.</p>",
+        "t": "<p>I alla tre fallen är rörelsen rak och accelerationen konstant. Positiv riktning är samma som den positiva hastighetsriktningen.</p><p>Beräkna förflyttningen i m om v₀ = 10 m/s, a = −2 m/s² och t = 3 s.</p>",
         "s": "<p>Δx = 10 · 3 − 2 · 3²/2 = 21 m. Hastigheten är fortfarande positiv efter 3 s.</p>",
-        "ledtrad": "<p>Behåll accelerationens tecken när du sätter in värdena.</p>",
+        "ledtrad": "<p>Vilket samband i formelsamlingen innehåller startfart, acceleration, tid och förflyttning?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -12145,7 +12145,7 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna falltid och nedslagsfart samt jämföra halva höjden, ur diagram, sökt tid",
     "poang": "(2/1/0)",
-    "t": "<p>En sten släpps från taket på ett hus.</p><span class=\"fig\"><svg height=\"304\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 18.876 330.000 200.552\"><rect x=\"70\" y=\"30\" width=\"120\" height=\"170\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"55\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"55\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"90\" y=\"105\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"105\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"90\" y=\"155\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"155\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"230\" cy=\"42\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"255\" y1=\"30\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"30\" x2=\"260\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"200\" x2=\"260\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"264\" y=\"115\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg></span>\n<ol><li>Hur lång tid tar fallet?</li><li>Vilken fart har stenen vid marken?</li>\n<li>Hur lång tid tar det att falla halva sträckan? Är det halva falltiden?</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p><p>Stenen släpps från vila 18 m över marken.</p>",
+    "t": "<p>En sten släpps från taket på ett hus.</p><span class=\"fig\"><svg height=\"304\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 18.876 330.000 200.552\"><rect x=\"70\" y=\"30\" width=\"120\" height=\"170\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"55\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"55\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"90\" y=\"105\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"105\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"90\" y=\"155\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"155\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"230\" cy=\"42\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"255\" y1=\"30\" x2=\"255\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"30\" x2=\"260\" y2=\"30\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"250\" y1=\"200\" x2=\"260\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"264\" y=\"115\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">18 m</text></svg></span>\n<ol><li>Hur lång tid tar fallet?</li><li>Vilken fart har stenen vid marken?</li>\n<li>Hur lång tid tar det att falla halva sträckan? Är det halva falltiden?</li></ol><p>Bortse från luftmotståndet.</p><p>Stenen släpps från vila 18 m över marken.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Stenen släpps från vila.</p><div class=\"facit-matte\">\\[t=\\sqrt{\\frac{2h}{g}}=\\sqrt{\\frac{2\\cdot18}{9{,}82}}=1{,}91\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten vid marken är</p><div class=\"facit-matte\">\\[v=gt=9{,}82\\cdot1{,}91=18{,}8\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Halva sträckan är 9,0 m.</p><div class=\"facit-matte\">\\[t_{1/2}=\\sqrt{\\frac{2\\cdot9{,}0}{9{,}82}}=1{,}35\\ \\mathrm s\\]\\[\\frac{t_{1/2}}{t}=0{,}707\\]</div><p>Det är mer än halva falltiden eftersom stenen rör sig långsammare i början.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fallet tar \\(1{,}91\\ \\mathrm s\\), slutfarten är \\(18{,}8\\ \\mathrm{m/s}\\), och halva sträckan nås efter \\(1{,}35\\ \\mathrm s\\).</p></div>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -12191,7 +12191,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Kombinera rörelsen relativt trappstegen med stegens rörelse relativt byggnaden.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -12220,7 +12220,7 @@ window.BANK = [
         "s": "<p>Relativt byggnaden är farten 0,50 m/s. Tiden är 18/0,50 = 36 s.</p>",
         "ledtrad": "<p>Kombinera rörelsen relativt trappstegen med stegens rörelse relativt byggnaden.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -12231,7 +12231,7 @@ window.BANK = [
         "s": "<p>Markfarten blir 0,75 + 0,50 = 1,25 m/s. Tiden är 18/1,25 = 14,4 s.</p>",
         "ledtrad": "<p>Kombinera rörelsen relativt trappstegen med stegens rörelse relativt byggnaden.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -12242,7 +12242,7 @@ window.BANK = [
         "s": "<p>Hastigheten är +0,50 − 0,75 = −0,25 m/s. Personen rör sig nedåt relativt byggnaden.</p>",
         "ledtrad": "<p>Kombinera rörelsen relativt trappstegen med stegens rörelse relativt byggnaden.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -12465,7 +12465,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Även pauserna ingår i hela flyttningens tid.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -12494,7 +12494,7 @@ window.BANK = [
         "s": "<p>8 · 30 · 24 · 3600 = 20 736 000 s.</p>",
         "ledtrad": "<p>Även pauserna ingår i hela flyttningens tid.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -12505,7 +12505,7 @@ window.BANK = [
         "s": "<p>70 000 000/20 736 000 ≈ 3,38 m/s. Pauser ingår i denna medelfart.</p>",
         "ledtrad": "<p>Även pauserna ingår i hela flyttningens tid.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -12516,7 +12516,7 @@ window.BANK = [
         "s": "<p>70 000/(8 · 30 · 24) ≈ 12,2 km/h. Det är inte farten enbart under flygning.</p>",
         "ledtrad": "<p>Även pauserna ingår i hela flyttningens tid.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -12836,7 +12836,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa sambandet mellan sträcka fart och tid i tre riktningar, ur tabell, sökt sträcka fart och tid",
     "poang": "(3/0/0)",
-    "t": "<p>Vid konstant fart gäller s = vt, v = s/t och t = s/v.</p><ol><li>En kropp har v = 12 m/s och t = 25 s. Beräkna s i m.</li><li>En kropp färdas s = 450 m på t = 30 s. Beräkna v i m/s.</li><li>En kropp färdas s = 800 m med v = 16 m/s. Beräkna t i s.</li></ol>",
+    "t": "<p>Tre föremål rör sig med konstant fart.</p><ol><li>En cyklist kör med 12 m/s i 25 s. Hur långt hinner cyklisten?</li><li>Ett tåg färdas 450 m på 30 s. Bestäm tågets fart i m/s.</li><li>En båt färdas 800 m med farten 16 m/s. Hur lång tid tar färden?</li></ol>",
     "s": "<p>a) s = 12 · 25 = 300 m.</p><p>b) v = 450/30 = 15 m/s.</p><p>c) t = 800/16 = 50 s.</p>",
     "familj": "Likformig rörelse",
     "formaga": [
@@ -12858,7 +12858,7 @@ window.BANK = [
     "familjNyckelTidigare": "hastighet__likformig_rorelse",
     "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
     "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar",
-    "ledtrad": "<p>Välj den av de tre givna formlerna som har den sökta storheten ensam.</p>",
+    "ledtrad": "<p>Fundera på sambandet mellan sträcka, fart och tid. Vilken storhet söker du i varje del?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -12879,14 +12879,14 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Vid konstant fart gäller s = vt, v = s/t och t = s/v.</p>",
+    "spelIntro": "<p>Tre föremål rör sig med konstant fart.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En kropp har v = 12 m/s och t = 25 s. Beräkna s i m.",
-        "t": "<p>Vid konstant fart gäller s = vt, v = s/t och t = s/v.</p><p>En kropp har v = 12 m/s och t = 25 s. Beräkna s i m.</p>",
+        "fraga": "En cyklist kör med 12 m/s i 25 s. Hur långt hinner cyklisten?",
+        "t": "<p>En cyklist kör med 12 m/s i 25 s. Hur långt hinner cyklisten?</p>",
         "s": "<p>s = 12 · 25 = 300 m.</p>",
-        "ledtrad": "<p>Välj den av de tre givna formlerna som har den sökta storheten ensam.</p>",
+        "ledtrad": "<p>Fundera på sambandet mellan sträcka, fart och tid. Vilken storhet söker du i varje del?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -12894,10 +12894,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "En kropp färdas s = 450 m på t = 30 s. Beräkna v i m/s.",
-        "t": "<p>Vid konstant fart gäller s = vt, v = s/t och t = s/v.</p><p>En kropp färdas s = 450 m på t = 30 s. Beräkna v i m/s.</p>",
+        "fraga": "Ett tåg färdas 450 m på 30 s. Bestäm tågets fart i m/s.",
+        "t": "<p>Ett tåg färdas 450 m på 30 s. Bestäm tågets fart i m/s.</p>",
         "s": "<p>v = 450/30 = 15 m/s.</p>",
-        "ledtrad": "<p>Välj den av de tre givna formlerna som har den sökta storheten ensam.</p>",
+        "ledtrad": "<p>Fundera på sambandet mellan sträcka, fart och tid. Vilken storhet söker du i varje del?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -12905,10 +12905,10 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "En kropp färdas s = 800 m med v = 16 m/s. Beräkna t i s.",
-        "t": "<p>Vid konstant fart gäller s = vt, v = s/t och t = s/v.</p><p>En kropp färdas s = 800 m med v = 16 m/s. Beräkna t i s.</p>",
+        "fraga": "En båt färdas 800 m med farten 16 m/s. Hur lång tid tar färden?",
+        "t": "<p>En båt färdas 800 m med farten 16 m/s. Hur lång tid tar färden?</p>",
         "s": "<p>t = 800/16 = 50 s.</p>",
-        "ledtrad": "<p>Välj den av de tre givna formlerna som har den sökta storheten ensam.</p>",
+        "ledtrad": "<p>Fundera på sambandet mellan sträcka, fart och tid. Vilken storhet söker du i varje del?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -13851,7 +13851,7 @@ window.BANK = [
     "niva": "C",
     "typ": "visa konstant acceleration ur sträckor mätta varje sekund, ur diagram, sökt acceleration",
     "poang": "(2/2/0)",
-    "t": "<p>En kula rullar från vila nedför ett lutande plan. Man markerar var kulan befinner sig efter 1,0 s, 2,0 s och 3,0 s. Avstånden från startpunkten mäts till 12 cm, 48 cm och 108 cm.</p><span class=\"fig bred\"><svg height=\"262\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"12.086 8.051 437.771 185.176\"><polygon points=\"60,50 430,170 425.99,182.37 55.99,62.37\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"95.07\" y1=\"58.22\" x2=\"90.14\" y2=\"73.44\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"100.94\" y=\"40.15\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">1,0 s</text><line x1=\"197.43\" y1=\"91.42\" x2=\"192.49\" y2=\"106.64\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"203.29\" y=\"73.34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">2,0 s</text><line x1=\"367.98\" y1=\"146.73\" x2=\"363.05\" y2=\"161.95\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"373.84\" y=\"128.66\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">3,0 s</text><circle cx=\"62.47\" cy=\"42.39\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"42.02\" y=\"25.27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">start</text></svg></span>\n<ol><li>Visa att mätningen stämmer med konstant acceleration.</li>\n<li>Bestäm accelerationen.</li>\n<li>Hur långt rullar kulan under den fjärde sekunden?</li>\n<li>Vilken fart har kulan efter 3,0 s?</li></ol><p>Använd samma modell även under den fjärde sekunden.</p>",
+    "t": "<p>En kula rullar från vila nedför ett lutande plan. Man markerar var kulan befinner sig efter 1,0 s, 2,0 s och 3,0 s. Avstånden från startpunkten mäts till 12 cm, 48 cm och 108 cm.</p><span class=\"fig bred\"><svg height=\"262\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"12.086 8.051 437.771 185.176\"><polygon points=\"60,50 430,170 425.99,182.37 55.99,62.37\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"95.07\" y1=\"58.22\" x2=\"90.14\" y2=\"73.44\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"100.94\" y=\"40.15\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">1,0 s</text><line x1=\"197.43\" y1=\"91.42\" x2=\"192.49\" y2=\"106.64\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"203.29\" y=\"73.34\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">2,0 s</text><line x1=\"367.98\" y1=\"146.73\" x2=\"363.05\" y2=\"161.95\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linecap=\"square\"/><text x=\"373.84\" y=\"128.66\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">3,0 s</text><circle cx=\"62.47\" cy=\"42.39\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"42.02\" y=\"25.27\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">start</text></svg></span>\n<ol><li>Visa att mätningen stämmer med konstant acceleration.</li>\n<li>Bestäm accelerationen.</li>\n<li>Hur långt rullar kulan under den fjärde sekunden?</li>\n<li>Vilken fart har kulan efter 3,0 s?</li></ol><p>Anta att samma modell gäller även under den fjärde sekunden.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid start från vila och konstant acceleration ska läget vara proportionellt mot tidens kvadrat.</p><div class=\"facit-matte\">\\[1^2:2^2:3^2=1:4:9\\]\\[12:48:108=1:4:9\\]</div><p>Mätvärdena följer alltså modellen för konstant acceleration.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd den första mätpunkten.</p><div class=\"facit-matte\">\\[0{,}12=\\frac{a\\cdot1{,}0^2}{2}\\Rightarrow a=0{,}24\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sträckan under den fjärde sekunden är skillnaden mellan lägena vid 4,0 s och 3,0 s.</p><div class=\"facit-matte\">\\[s(4)=\\frac{0{,}24\\cdot4^2}{2}=1{,}92\\ \\mathrm m\\]\\[\\Delta s_4=1{,}92-1{,}08=0{,}84\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten efter 3,0 s är</p><div class=\"facit-matte\">\\[v=at=0{,}24\\cdot3{,}0=0{,}72\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Accelerationen är \\(0{,}24\\ \\mathrm{m/s^2}\\). Under fjärde sekunden rullar kulan \\(0{,}84\\ \\mathrm m\\), och efter 3,0 s är farten \\(0{,}72\\ \\mathrm{m/s}\\).</p></div>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -13908,7 +13908,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma falltid och sluthastighet i schakt, ur diagram, sökt tid",
     "poang": "(3/0/0)",
-    "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><ol><li>Bestäm falltiden i s med två decimaler.</li><li>Bestäm slutfarten i m/s med en decimal.</li><li>Vilket djup ger dubbelt så lång falltid i samma modell? Svara i m.</li></ol>",
+    "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotståndet.</p><ol><li>Bestäm falltiden i s med två decimaler.</li><li>Bestäm slutfarten i m/s med en decimal.</li><li>Vilket djup ger dubbelt så lång falltid i samma modell? Svara i m.</li></ol>",
     "s": "<p>a) t = √(2 · 45/9,82) ≈ 3,03 s.</p><p>b) v = √(2 · 9,82 · 45) ≈ 29,7 m/s.</p><p>c) h = gt²/2. Dubbel tid ger fyra gånger höjden: 4 · 45 = 180 m.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -13931,7 +13931,7 @@ window.BANK = [
     "familjTidigare": "Beräkningar vid konstant acceleration",
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
     "ledtrad": "<p>Dubbel falltid ska sättas in i en formel där tiden är kvadrerad.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -13953,38 +13953,38 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotstånd och använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm falltiden i s med två decimaler.",
-        "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm falltiden i s med två decimaler.</p>",
+        "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotståndet.</p><p>Bestäm falltiden i s med två decimaler.</p>",
         "s": "<p>t = √(2 · 45/9,82) ≈ 3,03 s.</p>",
         "ledtrad": "<p>Dubbel falltid ska sättas in i en formel där tiden är kvadrerad.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Bestäm slutfarten i m/s med en decimal.",
-        "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm slutfarten i m/s med en decimal.</p>",
+        "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotståndet.</p><p>Bestäm slutfarten i m/s med en decimal.</p>",
         "s": "<p>v = √(2 · 9,82 · 45) ≈ 29,7 m/s.</p>",
         "ledtrad": "<p>Dubbel falltid ska sättas in i en formel där tiden är kvadrerad.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Vilket djup ger dubbelt så lång falltid i samma modell? Svara i m.",
-        "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotstånd och använd g = 9,82 m/s².</p><p>Vilket djup ger dubbelt så lång falltid i samma modell? Svara i m.</p>",
+        "t": "<p>En sten släpps ned i ett gruvschakt. Djupet till vattenytan visas i figuren.</p><span class=\"fig\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 23.600 280.000 208.000\"><rect x=\"80\" y=\"40\" width=\"120\" height=\"180\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"10\" y=\"34\" width=\"270\" height=\"8\" fill=\"#DCEAF6\"/><line x1=\"10\" y1=\"42\" x2=\"80\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"42\" x2=\"270\" y2=\"42\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"140\" cy=\"62\" r=\"10\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"82\" y=\"212\" width=\"116\" height=\"7\" fill=\"#DCEAF6\"/><line x1=\"82\" y1=\"212\" x2=\"198\" y2=\"212\" stroke=\"#2A5D9E\" stroke-width=\"1.6\"/><line x1=\"225\" y1=\"42\" x2=\"225\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"42\" x2=\"230\" y2=\"42\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"220\" y1=\"212\" x2=\"230\" y2=\"212\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"234\" y=\"127\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">45 m</text></svg></span><p>Stenen släpps från vila 45 m över vattenytan. Bortse från luftmotståndet.</p><p>Vilket djup ger dubbelt så lång falltid i samma modell? Svara i m.</p>",
         "s": "<p>h = gt²/2. Dubbel tid ger fyra gånger höjden: 4 · 45 = 180 m.</p>",
         "ledtrad": "<p>Dubbel falltid ska sättas in i en formel där tiden är kvadrerad.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -14024,7 +14024,7 @@ window.BANK = [
     "niva": "E",
     "typ": "berakna starttid och startstracka for ett flygplan och avgora om banan racker, ur text, sokt tid stracka och acceleration",
     "poang": "(4/0/0)",
-    "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Använd modellen även för att beräkna den sträcka som skulle behövas utanför den tillgängliga banan.</p><ol><li>Bestäm tiden för att nå 65 m/s enligt modellen i s.</li><li>Bestäm den sträcka som krävs för 65 m/s i m.</li><li>Bestäm farten vid 800 m i m/s med en decimal.</li><li>Bestäm den konstanta acceleration som exakt ger 65 m/s efter 800 m. Svara i m/s² med tre decimaler.</li></ol>",
+    "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Räkna även ut hur lång sträcka modellen skulle kräva om startbanan inte tog slut efter 800 m.</p><ol><li>Bestäm tiden för att nå 65 m/s enligt modellen i s.</li><li>Bestäm den sträcka som krävs för 65 m/s i m.</li><li>Bestäm farten vid 800 m i m/s med en decimal.</li><li>Bestäm den konstanta acceleration som exakt ger 65 m/s efter 800 m. Svara i m/s² med tre decimaler.</li></ol>",
     "s": "<p>a) t = 65/2,5 = 26 s i modellen.</p><p>b) s = 65²/(2 · 2,5) = 845 m, vilket är 45 m mer än tillgänglig bana.</p><p>c) v = √(2 · 2,5 · 800) ≈ 63,2 m/s.</p><p>d) a = 65²/(2 · 800) = 2,640625 m/s² ≈ 2,641 m/s².</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -14074,12 +14074,12 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Använd modellen även för att beräkna den sträcka som skulle behövas utanför den tillgängliga banan.</p>",
+    "spelIntro": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Räkna även ut hur lång sträcka modellen skulle kräva om startbanan inte tog slut efter 800 m.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm tiden för att nå 65 m/s enligt modellen i s.",
-        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Använd modellen även för att beräkna den sträcka som skulle behövas utanför den tillgängliga banan.</p><p>Bestäm tiden för att nå 65 m/s enligt modellen i s.</p>",
+        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Räkna även ut hur lång sträcka modellen skulle kräva om startbanan inte tog slut efter 800 m.</p><p>Bestäm tiden för att nå 65 m/s enligt modellen i s.</p>",
         "s": "<p>t = 65/2,5 = 26 s i modellen.</p>",
         "ledtrad": "<p>Skilj modellens nödvändiga startsträcka från den bana som faktiskt finns.</p>",
         "niva": "E",
@@ -14090,7 +14090,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm den sträcka som krävs för 65 m/s i m.",
-        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Använd modellen även för att beräkna den sträcka som skulle behövas utanför den tillgängliga banan.</p><p>Bestäm den sträcka som krävs för 65 m/s i m.</p>",
+        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Räkna även ut hur lång sträcka modellen skulle kräva om startbanan inte tog slut efter 800 m.</p><p>Bestäm den sträcka som krävs för 65 m/s i m.</p>",
         "s": "<p>s = 65²/(2 · 2,5) = 845 m, vilket är 45 m mer än tillgänglig bana.</p>",
         "ledtrad": "<p>Skilj modellens nödvändiga startsträcka från den bana som faktiskt finns.</p>",
         "niva": "E",
@@ -14101,7 +14101,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm farten vid 800 m i m/s med en decimal.",
-        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Använd modellen även för att beräkna den sträcka som skulle behövas utanför den tillgängliga banan.</p><p>Bestäm farten vid 800 m i m/s med en decimal.</p>",
+        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Räkna även ut hur lång sträcka modellen skulle kräva om startbanan inte tog slut efter 800 m.</p><p>Bestäm farten vid 800 m i m/s med en decimal.</p>",
         "s": "<p>v = √(2 · 2,5 · 800) ≈ 63,2 m/s.</p>",
         "ledtrad": "<p>Skilj modellens nödvändiga startsträcka från den bana som faktiskt finns.</p>",
         "niva": "E",
@@ -14112,7 +14112,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Bestäm den konstanta acceleration som exakt ger 65 m/s efter 800 m. Svara i m/s² med tre decimaler.",
-        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Använd modellen även för att beräkna den sträcka som skulle behövas utanför den tillgängliga banan.</p><p>Bestäm den konstanta acceleration som exakt ger 65 m/s efter 800 m. Svara i m/s² med tre decimaler.</p>",
+        "t": "<p>Ett flygplan startar från vila och accelererar likformigt med 2,5 m/s² längs startbanan. Planet lyfter när farten är 65 m/s. Startbanan är 800 meter lång.</p><span class=\"fig\"><svg height=\"174\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 38.300 470.000 131.700\"><line x1=\"20\" y1=\"124\" x2=\"450\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"40\" y1=\"128\" x2=\"58\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"80\" y1=\"128\" x2=\"98\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"128\" x2=\"138\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"160\" y1=\"128\" x2=\"178\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"200\" y1=\"128\" x2=\"218\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"240\" y1=\"128\" x2=\"258\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"280\" y1=\"128\" x2=\"298\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"320\" y1=\"128\" x2=\"338\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"360\" y1=\"128\" x2=\"378\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"400\" y1=\"128\" x2=\"418\" y2=\"128\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\"/><line x1=\"100\" y1=\"88\" x2=\"100\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"100\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"198\" y1=\"88\" x2=\"198\" y2=\"116\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"square\"/><circle cx=\"198\" cy=\"118\" r=\"6\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"132,88 114,108 166,108 180,88\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"76,80 74,46 110,80\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"72\" width=\"150\" height=\"20\" rx=\"10\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"218,74 242,82 218,90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"290\" y1=\"78\" x2=\"362\" y2=\"78\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"372,78 362,82.6 362,73.4\" fill=\"#2A5D9E\"/><text x=\"331\" y=\"70\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">a = 2,5 m/s²</text><line x1=\"24\" y1=\"150\" x2=\"446\" y2=\"150\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"24,150 31,153 31,147\" fill=\"#5C575E\"/><polygon points=\"446,150 439,153 439,147\" fill=\"#5C575E\"/><text x=\"235\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">startbana 800 m</text></svg></span><p>Räkna även ut hur lång sträcka modellen skulle kräva om startbanan inte tog slut efter 800 m.</p><p>Bestäm den konstanta acceleration som exakt ger 65 m/s efter 800 m. Svara i m/s² med tre decimaler.</p>",
         "s": "<p>a = 65²/(2 · 800) = 2,640625 m/s² ≈ 2,641 m/s².</p>",
         "ledtrad": "<p>Skilj modellens nödvändiga startsträcka från den bana som faktiskt finns.</p>",
         "niva": "E",
@@ -14201,7 +14201,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma maxhöjd och falltid ur v-t-diagram för kast, ur diagram, sökt sträcka",
     "poang": "(0/2/0)",
-    "t": "<p>Diagrammet visar hastigheten hos en boll som kastas rakt uppåt.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-20</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-10</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,27.97999999999999 486,244.02\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><p>Diagrammet visar bollens lodräta hastighet. Uppåt är positiv riktning. Vid t = 3,0 s är bollen 16,7 m över marken. Bestäm kastpunktens höjd över marken i m. Använd grafens värden v(0) = 19,6 m/s och v(3) = −9,8 m/s.</p>",
+    "t": "<p>Diagrammet visar hastigheten hos en boll som kastas rakt uppåt.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-20</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-10</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,27.97999999999999 486,244.02\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><p>Diagrammet visar bollens lodräta hastighet. Uppåt är positiv riktning. Vid t = 3,0 s är bollen 16,7 m över marken. Bestäm kastpunktens höjd över marken i m. Grafen visar att v(0) = 19,6 m/s och v(3) = −9,8 m/s.</p>",
     "s": "<p>Förflyttningen under 0–3 s är den signerade trapetsarean: (19,6 − 9,8)/2 · 3 = 14,7 m. Kastpunktens höjd är därför 16,7 − 14,7 = 2,0 m.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -14428,7 +14428,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestamma motespunkt for tva bollar som kastas uppat med tidsforskjutning och tolka farternas symmetri, ur text, sokt tid hojd och fart",
     "poang": "(0/4/0)",
-    "t": "<p>En boll kastas rakt uppåt från marken med farten 20 m/s. Exakt 1,5 sekunder senare kastas en andra boll uppåt från samma plats med samma fart. Luftmotståndet försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två separata kast från samma plats, visade vid respektive kastögonblick\"><title>Två separata kast från samma plats, visade vid respektive kastögonblick</title><line x1=\"55\" y1=\"230\" x2=\"220\" y2=\"230\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"300\" y1=\"230\" x2=\"465\" y2=\"230\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"130\" cy=\"216\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"375\" cy=\"216\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"158\" y1=\"207\" x2=\"158\" y2=\"148\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><polygon points=\"158,140 154,150 162,150\" fill=\"#467ba3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"403\" y1=\"207\" x2=\"403\" y2=\"148\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><polygon points=\"403,140 399,150 407,150\" fill=\"#467ba3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"150\" y=\"107\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">v₀ = 20 m/s</text><text x=\"395\" y=\"107\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">v₀ = 20 m/s</text><text x=\"138\" y=\"50\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">Första kastet</text><text x=\"383\" y=\"50\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">Andra kastet</text><text x=\"138\" y=\"77\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = 0 s</text><text x=\"383\" y=\"77\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = 1,5 s</text><text x=\"260\" y=\"271\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">Samma plats • olika startögonblick</text></svg></span>\n<ol><li>Hur lång tid efter det första kastet befinner sig bollarna på samma höjd?</li>\n<li>På vilken höjd över marken möts de?</li>\n<li>Beräkna båda bollarnas hastighet i mötesögonblicket och förklara resultatet.</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p>",
+    "t": "<p>En boll kastas rakt uppåt från marken med farten 20 m/s. Exakt 1,5 sekunder senare kastas en andra boll uppåt från samma plats med samma fart. Luftmotståndet försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två separata kast från samma plats, visade vid respektive kastögonblick\"><title>Två separata kast från samma plats, visade vid respektive kastögonblick</title><line x1=\"55\" y1=\"230\" x2=\"220\" y2=\"230\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"300\" y1=\"230\" x2=\"465\" y2=\"230\" stroke=\"#293747\" stroke-width=\"1.8\"/><circle cx=\"130\" cy=\"216\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><circle cx=\"375\" cy=\"216\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"158\" y1=\"207\" x2=\"158\" y2=\"148\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><polygon points=\"158,140 154,150 162,150\" fill=\"#467ba3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"403\" y1=\"207\" x2=\"403\" y2=\"148\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><polygon points=\"403,140 399,150 407,150\" fill=\"#467ba3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"150\" y=\"107\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">v₀ = 20 m/s</text><text x=\"395\" y=\"107\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">v₀ = 20 m/s</text><text x=\"138\" y=\"50\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">Första kastet</text><text x=\"383\" y=\"50\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">Andra kastet</text><text x=\"138\" y=\"77\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = 0 s</text><text x=\"383\" y=\"77\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = 1,5 s</text><text x=\"260\" y=\"271\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">Samma plats • olika startögonblick</text></svg></span>\n<ol><li>Hur lång tid efter det första kastet befinner sig bollarna på samma höjd?</li>\n<li>På vilken höjd över marken möts de?</li>\n<li>Beräkna båda bollarnas hastighet i mötesögonblicket och förklara resultatet.</li></ol><p>Bortse från luftmotståndet.</p>",
     "s": "<p>Sätt t = 0 vid det första kastet och välj uppåt som positiv riktning. Då är y₁ = 20t − gt²/2 och y₂ = 20(t − 1,5) − g(t − 1,5)²/2. Likställ höjderna för t ≥ 1,5 s. Förenkling ger t = 20/g + 0,75 ≈ 2,79 s.</p><p>Vid mötet är v₁ = 20 − gt = −7,365 m/s och v₂ = 20 − g(t − 1,5) = +7,365 m/s. Den första bollen är på väg ned och den andra upp. Möteshöjden är 20²/(2g) − g · 1,5²/8 ≈ 17,6 m. Båda är alltså fortfarande i luften.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -14638,7 +14638,7 @@ window.BANK = [
     "familjTidigare": "Beräkningar vid konstant acceleration",
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
     "ledtrad": "<p>Den relativa sträckan och sträckan sett från vägen är olika storheter.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -14669,7 +14669,7 @@ window.BANK = [
         "s": "<p>25 − 20 = 5 m/s.</p>",
         "ledtrad": "<p>Den relativa sträckan och sträckan sett från vägen är olika storheter.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -14680,7 +14680,7 @@ window.BANK = [
         "s": "<p>För att vinna 100 m behövs 100/5 = 20 s.</p>",
         "ledtrad": "<p>Den relativa sträckan och sträckan sett från vägen är olika storheter.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -14691,7 +14691,7 @@ window.BANK = [
         "s": "<p>Bilen färdas 25 · 20 = 500 m relativt vägen.</p>",
         "ledtrad": "<p>Den relativa sträckan och sträckan sett från vägen är olika storheter.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -14704,7 +14704,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna fallsträckan efter olika tider och upptäcka kvadratberoendet, ur tabell, sökt sträcka",
     "poang": "(6/0/0)",
-    "t": "<p>Ett föremål släpps från vila och faller fritt. Luftmotståndet försummas.</p><table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr><tr><td>1,0</td><td>?</td></tr><tr><td>2,0</td><td>?</td></tr><tr><td>3,0</td><td>?</td></tr><tr><td>4,0</td><td>?</td></tr></table>\n<ol><li>Beräkna fallsträckan vid de fyra tiderna.</li>\n<li>Hur många gånger längre faller föremålet på 2,0 s än på 1,0 s?</li>\n<li>Formulera sambandet mellan fallsträcka och tid i ord.</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p>",
+    "t": "<p>Ett föremål släpps från vila och faller fritt. Bortse från luftmotståndet.</p><table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr><tr><td>1,0</td><td>?</td></tr><tr><td>2,0</td><td>?</td></tr><tr><td>3,0</td><td>?</td></tr><tr><td>4,0</td><td>?</td></tr></table>\n<ol><li>Beräkna fallsträckan vid de fyra tiderna.</li>\n<li>Hur många gånger längre faller föremålet på 2,0 s än på 1,0 s?</li>\n<li>Formulera sambandet mellan fallsträcka och tid i ord.</li></ol><p>Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd fallsträckan från vila.</p><div class=\"facit-matte\">\\[s=\\frac{gt^2}{2}\\]\\[s(1)=4{,}91\\ \\mathrm m,\\quad s(2)=19{,}64\\ \\mathrm m\\]\\[s(3)=44{,}19\\ \\mathrm m,\\quad s(4)=78{,}56\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför de två första sträckorna.</p><div class=\"facit-matte\">\\[\\frac{s(2)}{s(1)}=\\frac{19{,}64}{4{,}91}=4\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fallsträckan är proportionell mot tidens kvadrat.</p><div class=\"facit-matte\">\\[s\\propto t^2\\]</div><p>Dubbelt så lång tid ger fyra gånger så lång sträcka; tre gånger så lång tid ger nio gånger så lång sträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fallsträckorna är cirka \\(4{,}9\\), \\(19{,}6\\), \\(44{,}2\\) och \\(78{,}6\\ \\mathrm m\\). Vid 2 s är sträckan fyra gånger sträckan vid 1 s.</p></div>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -14716,8 +14716,8 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Jämför fallsträckorna vid lika stora multiplar av tiden.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Fallsträckan vid fritt fall växer med kvadraten på tiden. Använd formelsamlingen för att beräkna sträckorna.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -14841,7 +14841,7 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "A",
     "poang": "(0/2/2)",
-    "t": "<p>En hiss åker uppåt med den konstanta farten 2,0 m/s. En mutter lossnar från hissens tak, 2,6 m ovanför hissgolvet.</p>\n<ol><li>Hur lång tid tar det innan muttern träffar hissgolvet?</li>\n<li>Spelar hissens fart någon roll för svaret? Motivera.</li>\n<li>Hissen accelererar istället uppåt med 1,2 m/s². Hur lång blir falltiden då?</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p>",
+    "t": "<p>En hiss åker uppåt med den konstanta farten 2,0 m/s. En mutter lossnar från hissens tak, 2,6 m ovanför hissgolvet.</p>\n<ol><li>Hur lång tid tar det innan muttern träffar hissgolvet?</li>\n<li>Spelar hissens fart någon roll för svaret? Motivera.</li>\n<li>Hissen accelererar istället uppåt med 1,2 m/s². Hur lång blir falltiden då?</li></ol><p>Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I ett referenssystem som följer hissen har muttern och golvet samma begynnelsefart. Den relativa begynnelsefarten är därför noll.</p><div class=\"facit-matte\">\\[2{,}6=\\frac{gt^2}{2}\\Rightarrow t=\\sqrt{\\frac{2\\cdot2{,}6}{9{,}82}}=0{,}728\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Hissens konstanta fart finns hos både golvet och muttern när muttern lossnar.</p><p>Den gemensamma farten försvinner när den relativa rörelsen beräknas och påverkar därför inte falltiden.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När hissen accelererar uppåt ökar mutterns acceleration nedåt relativt hissgolvet.</p><div class=\"facit-matte\">\\[a_{\\mathrm{rel}}=g+1{,}2=11{,}02\\ \\mathrm{m/s^2}\\]\\[t=\\sqrt{\\frac{2\\cdot2{,}6}{11{,}02}}=0{,}687\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Falltiden är \\(0{,}73\\ \\mathrm s\\) vid konstant hissfart och \\(0{,}69\\ \\mathrm s\\) när hissen accelererar uppåt.</p></div><p>För att motivera del c), välj uppåt som positivt och sätt golvets starthöjd till noll. Låt den gemensamma begynnelsehastigheten vara u. Mutterns läge är yₘ = 2,6 + ut − gt²/2 och golvets y_g = ut + 1,2t²/2. Höjdskillnaden blir yₘ − y_g = 2,6 − (g + 1,2)t²/2. Den är noll vid träffen. Det visar både varför hastigheten u försvinner och varför accelerationerna ska adderas.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -14871,7 +14871,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna maxhöjd vid kast från given starthöjd, ur diagram, sökt sträcka",
     "poang": "(3/0/0)",
-    "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><ol><li>Bestäm höjdökningen över balkongen i m med två decimaler.</li><li>Bestäm största höjden över marken i m med två decimaler.</li><li>Bestäm fartbeloppet när bollen passerar balkongen på väg ned, i m/s.</li></ol>",
+    "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. </p><ol><li>Bestäm höjdökningen över balkongen i m med två decimaler.</li><li>Bestäm största höjden över marken i m med två decimaler.</li><li>Bestäm bollens fart när den passerar balkongen på väg ned. Svara i m/s.</li></ol>",
     "s": "<p>a) Vid toppen är v = 0. Höjdökningen är 11²/(2 · 9,82) ≈ 6,16 m.</p><p>b) 4 + 11²/(2 · 9,82) ≈ 10,16 m.</p><p>c) Vid samma höjd är fartbeloppet åter 11 m/s utan luftmotstånd. Hastigheten är nu nedåt.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -14892,7 +14892,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Skilj höjdökningen från höjden över marken.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -14914,38 +14914,38 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm höjdökningen över balkongen i m med två decimaler.",
-        "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm höjdökningen över balkongen i m med två decimaler.</p>",
+        "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. </p><p>Bestäm höjdökningen över balkongen i m med två decimaler.</p>",
         "s": "<p>Vid toppen är v = 0. Höjdökningen är 11²/(2 · 9,82) ≈ 6,16 m.</p>",
         "ledtrad": "<p>Skilj höjdökningen från höjden över marken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Bestäm största höjden över marken i m med två decimaler.",
-        "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm största höjden över marken i m med två decimaler.</p>",
+        "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. </p><p>Bestäm största höjden över marken i m med två decimaler.</p>",
         "s": "<p>4 + 11²/(2 · 9,82) ≈ 10,16 m.</p>",
         "ledtrad": "<p>Skilj höjdökningen från höjden över marken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm fartbeloppet när bollen passerar balkongen på väg ned, i m/s.",
-        "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm fartbeloppet när bollen passerar balkongen på väg ned, i m/s.</p>",
+        "fraga": "Bestäm bollens fart när den passerar balkongen på väg ned. Svara i m/s.",
+        "t": "<p>En boll kastas rakt uppåt med farten 11 m/s från en balkong 4,0 m över marken.</p><span class=\"fig\"><svg height=\"279\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 34.448 330.000 184.036\"><rect x=\"70\" y=\"110\" width=\"120\" height=\"90\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"90\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"140\" y=\"140\" width=\"34\" height=\"26\" fill=\"#fff\" stroke=\"#9A959C\"/><rect x=\"60\" y=\"102\" width=\"140\" height=\"8\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"64\" y1=\"102\" x2=\"64\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"196\" y1=\"102\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"64\" y1=\"86\" x2=\"196\" y2=\"86\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"10\" y=\"200\" width=\"310\" height=\"9\" fill=\"#E8DCC6\"/><line x1=\"10\" y1=\"200\" x2=\"320\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"240\" cy=\"72\" r=\"11\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"272\" y1=\"110\" x2=\"272\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"110\" x2=\"277\" y2=\"110\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><line x1=\"267\" y1=\"200\" x2=\"277\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"square\"/><text x=\"281\" y=\"158\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4,0 m</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">v₀</text></svg></span><p>Bortse från luftmotstånd. </p><p>Bestäm bollens fart när den passerar balkongen på väg ned. Svara i m/s.</p>",
         "s": "<p>Vid samma höjd är fartbeloppet åter 11 m/s utan luftmotstånd. Hastigheten är nu nedåt.</p>",
         "ledtrad": "<p>Skilj höjdökningen från höjden över marken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -14958,7 +14958,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna mycket stor acceleration och kort tid ur sträcka och sluthastighet, ur diagram, sökt acceleration och tid",
     "poang": "(3/0/0)",
-    "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Använd g = 9,82 m/s².</p><ol><li>Bestäm accelerationen i m/s², avrundad till heltal.</li><li>Bestäm kvoten a/g, avrundad till heltal.</li><li>Bestäm tiden i kontakt med strängen i ms med en decimal.</li></ol>",
+    "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><ol><li>Bestäm accelerationen i m/s², avrundad till heltal.</li><li>Bestäm kvoten a/g, avrundad till heltal.</li><li>Bestäm tiden i kontakt med strängen i ms med en decimal.</li></ol>",
     "s": "<p>a) a = 55²/(2 · 0,60) ≈ 2521 m/s².</p><p>b) Kvoten är [55²/(2 · 0,60)]/9,82 ≈ 257.</p><p>c) Medelfarten är 55/2 = 27,5 m/s. Tiden är 0,60/27,5 s ≈ 21,8 ms.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -15003,12 +15003,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen i m/s², avrundad till heltal.",
-        "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Använd g = 9,82 m/s².</p><p>Bestäm accelerationen i m/s², avrundad till heltal.</p>",
+        "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Bestäm accelerationen i m/s², avrundad till heltal.</p>",
         "s": "<p>a = 55²/(2 · 0,60) ≈ 2521 m/s².</p>",
         "ledtrad": "<p>Start- och slutfart samt sträcka räcker för att bestämma accelerationen utan tiden.</p>",
         "niva": "E",
@@ -15019,7 +15019,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm kvoten a/g, avrundad till heltal.",
-        "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Använd g = 9,82 m/s².</p><p>Bestäm kvoten a/g, avrundad till heltal.</p>",
+        "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Bestäm kvoten a/g, avrundad till heltal.</p>",
         "s": "<p>Kvoten är [55²/(2 · 0,60)]/9,82 ≈ 257.</p>",
         "ledtrad": "<p>Start- och slutfart samt sträcka räcker för att bestämma accelerationen utan tiden.</p>",
         "niva": "E",
@@ -15030,7 +15030,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm tiden i kontakt med strängen i ms med en decimal.",
-        "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Använd g = 9,82 m/s².</p><p>Bestäm tiden i kontakt med strängen i ms med en decimal.</p>",
+        "t": "<p>En pilbåge accelererar en pil längs sträckan 0,60 meter. Pilen startar från vila och lämnar bågen med farten 55 m/s. Accelerationen antas vara likformig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 520 305\" style=\"display:block;width:460px;max-width:100%;height:auto;max-height:270px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spänd pilbåge med pilen riktad framåt\"><title>Spänd pilbåge med pilen riktad framåt</title><path d=\"M330 45 Q405 140 330 235\" fill=\"none\" stroke=\"#776755\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"330\" y1=\"45\" x2=\"155\" y2=\"140\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"155\" y1=\"140\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1.7\"/><line x1=\"330\" y1=\"45\" x2=\"330\" y2=\"235\" stroke=\"#8494a0\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><line x1=\"155\" y1=\"140\" x2=\"464\" y2=\"140\" stroke=\"#293747\" stroke-width=\"3\"/><path d=\"M477 140 L461 134 L461 146 Z\" fill=\"#293747\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M163 140 L174 132 L189 132 L181 140 L189 148 L174 148 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"155\" y1=\"249\" x2=\"155\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"249\" x2=\"330\" y2=\"267\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"155\" y1=\"262\" x2=\"330\" y2=\"262\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"155\" y1=\"258\" x2=\"155\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330\" y1=\"258\" x2=\"330\" y2=\"266\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"242.5\" y=\"285\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">0,60 m</text><text x=\"155\" y=\"116\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">v₀ = 0</text><line x1=\"398\" y1=\"92\" x2=\"463\" y2=\"92\" stroke=\"#42789c\" stroke-width=\"2.3\"/><path d=\"M470,92 L460,88 L460,96 Z\" fill=\"#42789c\" stroke=\"#42789c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"434\" y=\"73\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">55 m/s</text></svg></span><p>Bestäm tiden i kontakt med strängen i ms med en decimal.</p>",
         "s": "<p>Medelfarten är 55/2 = 27,5 m/s. Tiden är 0,60/27,5 s ≈ 21,8 ms.</p>",
         "ledtrad": "<p>Start- och slutfart samt sträcka räcker för att bestämma accelerationen utan tiden.</p>",
         "niva": "E",
@@ -15047,7 +15047,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna stighöjd och stigtid för en kropp som kastas rakt uppåt, ur text, sökt höjd och tid",
     "poang": "(3/0/0)",
-    "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. Använd g = 9,82 m/s².</p><ol><li>Bestäm accelerationen på väg upp i m/s² med tecken.</li><li>Bestäm tiden till högsta punkten i s med två decimaler.</li><li>Bestäm höjdökningen över kastpunkten i m med två decimaler.</li></ol>",
+    "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. </p><ol><li>Bestäm accelerationen på väg upp i m/s² med tecken.</li><li>Bestäm tiden till högsta punkten i s med två decimaler.</li><li>Bestäm höjdökningen över kastpunkten i m med två decimaler.</li></ol>",
     "s": "<p>a) Tyngdaccelerationen är nedåt hela tiden: a = −9,82 m/s².</p><p>b) 0 = 14 − 9,82t ger t ≈ 1,43 s.</p><p>c) Höjdökningen är 14²/(2 · 9,82) ≈ 9,98 m.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -15068,7 +15068,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Vilken kraft verkar på bollen efter att den lämnat handen?</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -15090,38 +15090,38 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen på väg upp i m/s² med tecken.",
-        "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen på väg upp i m/s² med tecken.</p>",
+        "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. </p><p>Bestäm accelerationen på väg upp i m/s² med tecken.</p>",
         "s": "<p>Tyngdaccelerationen är nedåt hela tiden: a = −9,82 m/s².</p>",
         "ledtrad": "<p>Vilken kraft verkar på bollen efter att den lämnat handen?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Bestäm tiden till högsta punkten i s med två decimaler.",
-        "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. Använd g = 9,82 m/s².</p><p>Bestäm tiden till högsta punkten i s med två decimaler.</p>",
+        "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. </p><p>Bestäm tiden till högsta punkten i s med två decimaler.</p>",
         "s": "<p>0 = 14 − 9,82t ger t ≈ 1,43 s.</p>",
         "ledtrad": "<p>Vilken kraft verkar på bollen efter att den lämnat handen?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Bestäm höjdökningen över kastpunkten i m med två decimaler.",
-        "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. Använd g = 9,82 m/s².</p><p>Bestäm höjdökningen över kastpunkten i m med två decimaler.</p>",
+        "t": "<p>En boll kastas rakt uppåt med farten 14 m/s. Luftmotståndet försummas.</p><p>Välj uppåt som positiv riktning. </p><p>Bestäm höjdökningen över kastpunkten i m med två decimaler.</p>",
         "s": "<p>Höjdökningen är 14²/(2 · 9,82) ≈ 9,98 m.</p>",
         "ledtrad": "<p>Vilken kraft verkar på bollen efter att den lämnat handen?</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -15451,7 +15451,7 @@ window.BANK = [
     "familjTidigare": "Beräkningar vid konstant acceleration",
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
     "ledtrad": "<p>Använd samma acceleration när du byter den fart som krävs för lyft.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -15482,7 +15482,7 @@ window.BANK = [
         "s": "<p>a = 68²/(2 · 1156) = 2 m/s².</p>",
         "ledtrad": "<p>Använd samma acceleration när du byter den fart som krävs för lyft.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -15493,7 +15493,7 @@ window.BANK = [
         "s": "<p>t = 68/2 = 34 s.</p>",
         "ledtrad": "<p>Använd samma acceleration när du byter den fart som krävs för lyft.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -15504,7 +15504,7 @@ window.BANK = [
         "s": "<p>s = 78²/(2 · 2) = 1521 m.</p>",
         "ledtrad": "<p>Använd samma acceleration när du byter den fart som krävs för lyft.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -15546,7 +15546,7 @@ window.BANK = [
     "omr": "hastighet",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>Två tåg befinner sig 60 km från varandra på parallella raka spår och kör mot varandra med 90 km/h vardera. I samma ögonblick startar en fluga från det ena tågets front och flyger med 120 km/h fram och tillbaka mellan tågen tills fronterna är i höjd med varandra.</p>\n<p>Hur lång sträcka har flugan flugit totalt?</p><p>Svara i km.</p><p>Använd en idealiserad modell där flugan vänder utan tidsförlust.</p><p>Avståndet i sidled mellan spåren försummas i modellen.</p>",
+    "t": "<p>Två tåg befinner sig 60 km från varandra på parallella raka spår och kör mot varandra med 90 km/h vardera. I samma ögonblick startar en fluga från det ena tågets front och flyger med 120 km/h fram och tillbaka mellan tågen tills fronterna är i höjd med varandra.</p>\n<p>Hur lång sträcka har flugan flugit totalt?</p><p>Svara i km.</p><p>Anta att flugan vänder direkt när den når ett tåg.</p><p>Avståndet i sidled mellan spåren försummas i modellen.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tågens relativa fart är summan av farterna eftersom de kör mot varandra.</p><div class=\"facit-matte\">\\[v_{\\mathrm{rel}}=90+90=180\\ \\mathrm{km/h}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna tiden tills tågen möts.</p><div class=\"facit-matte\">\\[t=\\frac{60}{180}=\\frac13\\ \\mathrm h\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Flugan flyger med konstant fart under hela denna tid. Antalet vändningar behöver inte beräknas.</p><div class=\"facit-matte\">\\[s_f=v_ft=120\\cdot\\frac13=40\\ \\mathrm{km}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Flugan flyger totalt \\(40\\ \\mathrm{km}\\).</p></div>",
     "familj": "Relativ hastighet",
     "formaga": [
@@ -15622,7 +15622,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -15654,7 +15654,7 @@ window.BANK = [
         "s": "<p>45 cm = 0,45 m.</p>",
         "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -15665,7 +15665,7 @@ window.BANK = [
         "s": "<p>15 · 60 = 900 s.</p>",
         "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -15676,7 +15676,7 @@ window.BANK = [
         "s": "<p>0,45/900 = 0,0005 m/s.</p>",
         "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -15687,7 +15687,7 @@ window.BANK = [
         "s": "<p>0,0005 · 24 · 3600 = 43,2 m.</p>",
         "ledtrad": "<p>Omvandla centimeter och minuter innan du räknar med meter per sekund.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -15966,9 +15966,9 @@ window.BANK = [
     "kap": 3,
     "omr": "hastighet",
     "niva": "E",
-    "typ": "sätta in i given fartformel",
+    "typ": "bestämma medelfart från sträcka och tid",
     "poang": "(1/0/0)",
-    "t": "<p>Ett godståg färdas 660 m på 30 s. Beräkna medelfarten med formeln v = s/t. Svara i m/s.</p>",
+    "t": "<p>Ett godståg färdas 660 m på 30 s. Bestäm tågets medelfart. Svara i m/s.</p>",
     "s": "<p>v = 660/30 = 22 m/s.</p>",
     "familj": "Sträcka, tid och fart",
     "formaga": [
@@ -15982,7 +15982,7 @@ window.BANK = [
     "familjNyckelTidigare": "hastighet__likformig_rorelse",
     "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
     "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar",
-    "ledtrad": "<p>Använd den givna formeln med sträckan i meter och tiden i sekunder.</p>",
+    "ledtrad": "<p>Hur långt färdas tåget varje sekund?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -15997,7 +15997,7 @@ window.BANK = [
     "omr": "hastighet",
     "niva": "C",
     "poang": "(1/1/0)",
-    "t": "<p>Du ser en blixt och hör åskan 6,0 sekunder senare. Ljudet går 340 m/s och ljusets fart är 3,00 · 10⁸ m/s.</p>\n<ol><li>Hur långt bort slog blixten ner?</li><li>Varför kan man bortse från ljusets restid?</li></ol><p>Använd först approximationen att ljusets restid är försumbar och pröva sedan approximationen.</p>",
+    "t": "<p>Du ser en blixt och hör åskan 6,0 sekunder senare. Ljudet går 340 m/s och ljusets fart är 3,00 · 10⁸ m/s.</p>\n<ol><li>Hur långt bort slog blixten ner?</li><li>Varför kan man bortse från ljusets restid?</li></ol><p>Börja med att anta att ljusets restid är försumbar. Kontrollera sedan om det antagandet är rimligt.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tidsskillnaden är i praktiken ljudets restid.</p><div class=\"facit-matte\">\\[s=v_{\\mathrm{ljud}}t=340\\cdot6{,}0=2040\\ \\mathrm m\\approx2{,}0\\ \\mathrm{km}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontrollera hur lång tid ljuset behöver för samma sträcka.</p><div class=\"facit-matte\">\\[t_{\\mathrm{ljus}}=\\frac{2040}{3{,}00\\cdot10^8}=6{,}8\\cdot10^{-6}\\ \\mathrm s\\]</div><p>Det är bara 6,8 mikrosekunder jämfört med 6,0 sekunder.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Blixten slog ned cirka \\(2{,}0\\ \\mathrm{km}\\) bort. Ljusets restid är försumbar i denna beräkning.</p></div>",
     "familj": "Likformig rörelse",
     "formaga": [
@@ -16324,7 +16324,7 @@ window.BANK = [
     "spel": false,
     "familjNyckelTidigare": "diagram__tolka_och_rita_st_diagram",
     "ledtrad": "<p>Diagrammets vertikala axel visar avståndet till huset, inte den väg Arne har gått.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "manuellKomplettering": true,
     "miniräknare": true,
@@ -16473,7 +16473,7 @@ window.BANK = [
     "omr": "diagram",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Ett tåg kör med 6,0 m/s framåt i 5,0 sekunder. Sedan kör det 4,0 m/s bakåt i 3,0 sekunder.</p>\n<ol><li>Rita ett v-t-diagram där bakåt räknas som negativt.</li>\n<li>Hur långt har tåget färdats totalt?</li><li>Hur långt från startpunkten befinner det sig vid slutet?</li></ol><p>Använd en idealiserad modell med momentant riktningsbyte. Ange slutläget efter de 8 s; tåget står inte stilla där enligt modellen.</p>",
+    "t": "<p>Ett tåg kör med 6,0 m/s framåt i 5,0 sekunder. Sedan kör det 4,0 m/s bakåt i 3,0 sekunder.</p>\n<ol><li>Rita ett v-t-diagram där bakåt räknas som negativt.</li>\n<li>Hur långt har tåget färdats totalt?</li><li>Hur långt från startpunkten befinner det sig vid slutet?</li></ol><p>Anta att tåget byter riktning direkt. Ange slutläget efter de 8 s; tåget står inte stilla där enligt modellen.</p>",
     "s": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><path d=\"M 65.0 45 V 255\" stroke=\"#ddd\"/><text x=\"65.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 349.375 45 V 255\" stroke=\"#ddd\"/><text x=\"349.375\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">5</text><path d=\"M 520.0 45 V 255\" stroke=\"#ddd\"/><text x=\"520.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">8</text><path d=\"M 65 255.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"259.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">-4</text><path d=\"M 65 171.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"175.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 65 45.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"49.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">6</text><path d=\"M 65 45 V 255 M 65 171.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,45.0 349.375,45.0 349.375,255.0 520.0,255.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/></svg></span><p>a) Hastigheten är +6 m/s under 0–5 s och −4 m/s under 5–8 s. b) Vägsträckan är 6 · 5 + 4 · 3 = 42 m. c) Förflyttningen är 30 − 12 = +18 m. Slutläget är alltså 18 m framför startpunkten.</p>",
     "familj": "Tolka och rita rörelsediagram",
     "formaga": [
@@ -16488,7 +16488,7 @@ window.BANK = [
     "spel": false,
     "familjNyckelTidigare": "diagram__tolka_och_rita_vt_diagram",
     "ledtrad": "<p>Bakåtrörelsen ska ligga under tidsaxeln i hastighetsdiagrammet.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -16627,7 +16627,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma sluthastighet ur trappstegsformat a-t-diagram, ur diagram, sökt fart",
     "poang": "(2/2/0)",
-    "t": "<p>En modellraket startar från vila rakt uppåt. Diagrammet visar raketens nettoacceleration, med uppåt som positiv riktning. Motorn stängs av vid t = 5 s. Försumma luftmotståndet och använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><path d=\"M 65.0 45 V 255\" stroke=\"#ddd\"/><text x=\"65.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 260.0 45 V 255\" stroke=\"#ddd\"/><text x=\"260.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">3</text><path d=\"M 390.0 45 V 255\" stroke=\"#ddd\"/><text x=\"390.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">5</text><path d=\"M 520.0 45 V 255\" stroke=\"#ddd\"/><text x=\"520.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">7</text><path d=\"M 65 255.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"259.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">-9,82</text><path d=\"M 65 124.64601769911505 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"128.64601769911505\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 65 71.54867256637166 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"75.54867256637166\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">4</text><path d=\"M 65 45.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"49.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">6</text><path d=\"M 65 45 V 255 M 65 124.64601769911505 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">a (m/s²)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,71.54867256637166 260.0,71.54867256637166 260.0,45.0 390.0,45.0 390.0,255.0 520.0,255.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/></svg></span><p>a) Bestäm hastigheten vid 3 s och 5 s. b) Beskriv hastighetens förändring efter att motorn stängts av. c) Rita ett hastighet–tid-diagram för 0–7 s.</p>",
+    "t": "<p>En modellraket startar från vila rakt uppåt. Diagrammet visar raketens nettoacceleration, med uppåt som positiv riktning. Motorn stängs av vid t = 5 s. Bortse från luftmotståndet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><path d=\"M 65.0 45 V 255\" stroke=\"#ddd\"/><text x=\"65.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 260.0 45 V 255\" stroke=\"#ddd\"/><text x=\"260.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">3</text><path d=\"M 390.0 45 V 255\" stroke=\"#ddd\"/><text x=\"390.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">5</text><path d=\"M 520.0 45 V 255\" stroke=\"#ddd\"/><text x=\"520.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">7</text><path d=\"M 65 255.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"259.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">-9,82</text><path d=\"M 65 124.64601769911505 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"128.64601769911505\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 65 71.54867256637166 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"75.54867256637166\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">4</text><path d=\"M 65 45.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"49.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">6</text><path d=\"M 65 45 V 255 M 65 124.64601769911505 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">a (m/s²)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,71.54867256637166 260.0,71.54867256637166 260.0,45.0 390.0,45.0 390.0,255.0 520.0,255.0\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/></svg></span><p>a) Bestäm hastigheten vid 3 s och 5 s. b) Beskriv hastighetens förändring efter att motorn stängts av. c) Rita ett hastighet–tid-diagram för 0–7 s.</p>",
     "s": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 310\" role=\"img\" aria-label=\"Rörelsediagram\"><rect width=\"560\" height=\"310\" fill=\"white\"/><path d=\"M 65.0 45 V 255\" stroke=\"#ddd\"/><text x=\"65.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 260.0 45 V 255\" stroke=\"#ddd\"/><text x=\"260.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">3</text><path d=\"M 390.0 45 V 255\" stroke=\"#ddd\"/><text x=\"390.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">5</text><path d=\"M 520.0 45 V 255\" stroke=\"#ddd\"/><text x=\"520.0\" y=\"277\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\">7</text><path d=\"M 65 255.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"259.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">0</text><path d=\"M 65 150.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"154.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">12</text><path d=\"M 65 45.0 H 520\" stroke=\"#ddd\"/><text x=\"55\" y=\"49.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">24</text><path d=\"M 65 45 V 255 M 65 255.0 H 520\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/><text x=\"15\" y=\"24\" font-family=\"sans-serif\" font-size=\"15\">v (m/s)</text><text x=\"520\" y=\"301\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"15\">t (s)</text><polyline points=\"65.0,255.0 260.0,150.0 390.0,45.0 520.0,216.85\" fill=\"none\" stroke=\"#245e9b\" stroke-width=\"3\"/></svg></span><p>a) Nettoaccelerationen ger direkt hastighetsändringen: v(3) = 4 · 3 = 12 m/s och v(5) = 12 + 6 · 2 = 24 m/s, båda uppåt. b) Efter 5 s verkar bara tyngdkraften och a = −9,82 m/s². Hastigheten minskar därför linjärt; den är inte konstant när motorn är avstängd. c) Förbind punkterna (0, 0), (3, 12), (5, 24) och (7, 4,36) med räta linjer. Raketen rör sig fortfarande uppåt vid 7 s.</p>",
     "familj": "Mötes- och ikapproblem med acceleration",
     "formaga": [
@@ -16654,7 +16654,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestamma dropparnas lagen ur falltiden och visa att avstanden foljer udda talen, ur text, sokt tid och stracka",
     "poang": "(1/3/0)",
-    "t": "<p>Ur en droppande kran faller droppar med jämna tidsmellanrum. I samma ögonblick som den fjärde droppen lossnar från kranen träffar den första droppen golvet 1,2 meter nedanför. Luftmotståndet försummas.</p><span class=\"fig smal\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"17.143 0.000 275.571 204.429\"><rect x=\"30\" y=\"186\" width=\"250\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"30\" y1=\"186\" x2=\"280\" y2=\"186\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"86\" y=\"8\" width=\"52\" height=\"16\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"124\" y=\"20\" width=\"14\" height=\"12\" rx=\"2\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 132 23 C 138 30 137 36 132 36 C 127 36 126 30 132 23 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"34\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">4</text><path d=\"M 132 40.33 C 138 47.33 137 53.33 132 53.33 C 127 53.33 126 47.33 132 40.33 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"51.33\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">3</text><path d=\"M 132 92.33 C 138 99.33 137 105.33 132 105.33 C 127 105.33 126 99.33 132 92.33 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"103.33\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">2</text><path d=\"M 132 179 C 138 186 137 192 132 192 C 127 192 126 186 132 179 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">1</text><line x1=\"76\" y1=\"30\" x2=\"76\" y2=\"186\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"76,30 73,37 79,37\" fill=\"#5C575E\"/><polygon points=\"76,186 73,179 79,179\" fill=\"#5C575E\"/><text x=\"68\" y=\"112\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">1,2 m</text></svg></span>\n<ol><li>Hur lång tid går det mellan två droppar?</li>\n<li>Hur högt över golvet befinner sig droppe 2 och droppe 3 i detta ögonblick?</li>\n<li>Visa att avstånden mellan droppar som följer på varandra förhåller sig som 1 : 3 : 5.</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p>",
+    "t": "<p>Ur en droppande kran faller droppar med jämna tidsmellanrum. I samma ögonblick som den fjärde droppen lossnar från kranen träffar den första droppen golvet 1,2 meter nedanför. Luftmotståndet försummas.</p><span class=\"fig smal\"><svg height=\"282\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"17.143 0.000 275.571 204.429\"><rect x=\"30\" y=\"186\" width=\"250\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"30\" y1=\"186\" x2=\"280\" y2=\"186\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"86\" y=\"8\" width=\"52\" height=\"16\" rx=\"3\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"124\" y=\"20\" width=\"14\" height=\"12\" rx=\"2\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 132 23 C 138 30 137 36 132 36 C 127 36 126 30 132 23 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"34\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">4</text><path d=\"M 132 40.33 C 138 47.33 137 53.33 132 53.33 C 127 53.33 126 47.33 132 40.33 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"51.33\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">3</text><path d=\"M 132 92.33 C 138 99.33 137 105.33 132 105.33 C 127 105.33 126 99.33 132 92.33 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"103.33\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">2</text><path d=\"M 132 179 C 138 186 137 192 132 192 C 127 192 126 186 132 179 Z\" fill=\"#DCE6F2\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><text x=\"147\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">1</text><line x1=\"76\" y1=\"30\" x2=\"76\" y2=\"186\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"76,30 73,37 79,37\" fill=\"#5C575E\"/><polygon points=\"76,186 73,179 79,179\" fill=\"#5C575E\"/><text x=\"68\" y=\"112\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">1,2 m</text></svg></span>\n<ol><li>Hur lång tid går det mellan två droppar?</li>\n<li>Hur högt över golvet befinner sig droppe 2 och droppe 3 i detta ögonblick?</li>\n<li>Visa att avstånden mellan droppar som följer på varandra förhåller sig som 1 : 3 : 5.</li></ol><p>Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den första droppen faller 1,2 m under tre lika tidsintervall. Låt hela falltiden vara T.</p><div class=\"facit-matte\">\\[1{,}2=\\frac{gT^2}{2}\\Rightarrow T=0{,}494\\ \\mathrm s\\]\\[\\Delta t=\\frac{T}{3}=0{,}165\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Droppe 3 har fallit under T/3 och droppe 2 under 2T/3.</p><div class=\"facit-matte\">\\[s_3=1{,}2\\left(\\frac13\\right)^2=0{,}133\\ \\mathrm m\\]\\[s_2=1{,}2\\left(\\frac23\\right)^2=0{,}533\\ \\mathrm m\\]\\[h_3=1{,}2-0{,}133=1{,}07\\ \\mathrm m\\]\\[h_2=1{,}2-0{,}533=0{,}667\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fallsträckorna efter 0, 1, 2 och 3 intervall är proportionella mot 0², 1², 2² och 3².</p><div class=\"facit-matte\">\\[0:1:4:9\\Rightarrow(1-0):(4-1):(9-4)=1:3:5\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tidsmellanrummet är \\(0{,}165\\ \\mathrm s\\). Droppe 2 och 3 är cirka \\(0{,}67\\ \\mathrm m\\) respektive \\(1{,}07\\ \\mathrm m\\) över golvet, och mellanrummen följer \\(1:3:5\\).</p></div>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -16706,7 +16706,7 @@ window.BANK = [
     "omr": "konstacc",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><ol><li>Bestäm tiden till högsta punkten i s med två decimaler.</li><li>Bestäm högsta höjden över marken i m med två decimaler.</li><li>Bestäm tiden till marken i s med två decimaler.</li></ol>",
+    "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. </p><ol><li>Bestäm tiden till högsta punkten i s med två decimaler.</li><li>Bestäm högsta höjden över marken i m med två decimaler.</li><li>Bestäm tiden till marken i s med två decimaler.</li></ol>",
     "s": "<p>a) 0 = 9 − 9,82t ger t ≈ 0,92 s.</p><p>b) Högsta höjden är 1,5 + 9²/(2 · 9,82) ≈ 5,62 m.</p><p>c) Sätt 0 = 1,5 + 9t − 9,82t²/2. Den positiva roten är (9 + √(81 + 3 · 9,82))/9,82 ≈ 1,99 s. Den negativa roten gäller före kastet.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -16748,12 +16748,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm tiden till högsta punkten i s med två decimaler.",
-        "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm tiden till högsta punkten i s med två decimaler.</p>",
+        "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. </p><p>Bestäm tiden till högsta punkten i s med två decimaler.</p>",
         "s": "<p>0 = 9 − 9,82t ger t ≈ 0,92 s.</p>",
         "ledtrad": "<p>Sätt höjden över marken till noll när du söker landningstiden.</p>",
         "niva": "E",
@@ -16764,7 +16764,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm högsta höjden över marken i m med två decimaler.",
-        "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm högsta höjden över marken i m med två decimaler.</p>",
+        "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. </p><p>Bestäm högsta höjden över marken i m med två decimaler.</p>",
         "s": "<p>Högsta höjden är 1,5 + 9²/(2 · 9,82) ≈ 5,62 m.</p>",
         "ledtrad": "<p>Sätt höjden över marken till noll när du söker landningstiden.</p>",
         "niva": "E",
@@ -16775,7 +16775,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm tiden till marken i s med två decimaler.",
-        "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm tiden till marken i s med två decimaler.</p>",
+        "t": "<p>Anna kastar en boll rakt upp i luften från höjden 1,5 m med hastigheten 9,0 m/s.</p><p>Bortse från luftmotstånd. </p><p>Bestäm tiden till marken i s med två decimaler.</p>",
         "s": "<p>Sätt 0 = 1,5 + 9t − 9,82t²/2. Den positiva roten är (9 + √(81 + 3 · 9,82))/9,82 ≈ 1,99 s. Den negativa roten gäller före kastet.</p>",
         "ledtrad": "<p>Sätt höjden över marken till noll när du söker landningstiden.</p>",
         "niva": "E",
@@ -16881,7 +16881,7 @@ window.BANK = [
     "niva": "E",
     "typ": "berakna retardation fallstracka och antal g nar en fallskarm bromsar in hopparen, ur text, sokt acceleration stracka och fart",
     "poang": "(4/0/0)",
-    "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. Använd g = 9,82 m/s².</p><ol><li>Bestäm nettoaccelerationen under inbromsningen i m/s² med tecken och två decimaler.</li><li>Bestäm fallsträckan under de 3 s i m.</li><li>Bestäm kvoten mellan accelerationens belopp och g med två decimaler.</li><li>Bestäm farten efter 1 s i m/s med två decimaler.</li></ol>",
+    "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. </p><ol><li>Bestäm nettoaccelerationen under inbromsningen i m/s² med tecken och två decimaler.</li><li>Bestäm fallsträckan under de 3 s i m.</li><li>Bestäm kvoten mellan accelerationens belopp och g med två decimaler.</li><li>Bestäm farten efter 1 s i m/s med två decimaler.</li></ol>",
     "s": "<p>a) a = (6 − 55)/3 ≈ −16,33 m/s². Accelerationen är riktad uppåt.</p><p>b) s = (55 + 6)/2 · 3 = 91,5 m nedåt.</p><p>c) |a|/g = (49/3)/9,82 ≈ 1,66. Detta är nettoaccelerationens belopp, inte belastningen från selen uttryckt i g.</p><p>d) v = 55 − (49/3) · 1 ≈ 38,67 m/s.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -16928,12 +16928,12 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm nettoaccelerationen under inbromsningen i m/s² med tecken och två decimaler.",
-        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. Använd g = 9,82 m/s².</p><p>Bestäm nettoaccelerationen under inbromsningen i m/s² med tecken och två decimaler.</p>",
+        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. </p><p>Bestäm nettoaccelerationen under inbromsningen i m/s² med tecken och två decimaler.</p>",
         "s": "<p>a = (6 − 55)/3 ≈ −16,33 m/s². Accelerationen är riktad uppåt.</p>",
         "ledtrad": "<p>Välj nedåt som positivt och skilj acceleration från dess belopp.</p>",
         "niva": "E",
@@ -16944,7 +16944,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm fallsträckan under de 3 s i m.",
-        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. Använd g = 9,82 m/s².</p><p>Bestäm fallsträckan under de 3 s i m.</p>",
+        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. </p><p>Bestäm fallsträckan under de 3 s i m.</p>",
         "s": "<p>s = (55 + 6)/2 · 3 = 91,5 m nedåt.</p>",
         "ledtrad": "<p>Välj nedåt som positivt och skilj acceleration från dess belopp.</p>",
         "niva": "E",
@@ -16955,7 +16955,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm kvoten mellan accelerationens belopp och g med två decimaler.",
-        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. Använd g = 9,82 m/s².</p><p>Bestäm kvoten mellan accelerationens belopp och g med två decimaler.</p>",
+        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. </p><p>Bestäm kvoten mellan accelerationens belopp och g med två decimaler.</p>",
         "s": "<p>|a|/g = (49/3)/9,82 ≈ 1,66. Detta är nettoaccelerationens belopp, inte belastningen från selen uttryckt i g.</p>",
         "ledtrad": "<p>Välj nedåt som positivt och skilj acceleration från dess belopp.</p>",
         "niva": "E",
@@ -16966,7 +16966,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Bestäm farten efter 1 s i m/s med två decimaler.",
-        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. Använd g = 9,82 m/s².</p><p>Bestäm farten efter 1 s i m/s med två decimaler.</p>",
+        "t": "<p>En fallskärmshoppare faller med farten 55 m/s när skärmen öppnas. På 3,0 sekunder bromsas farten likformigt ned till 6,0 m/s.</p><span class=\"fig\"><svg height=\"240\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"55 8 300 173\"><path d=\"M 68 62 A 62 44 0 0 1 192 62 Z\" fill=\"#E5EDF4\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"68\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"108\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"152\" y1=\"70\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"192\" y1=\"62\" x2=\"130\" y2=\"108\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><circle cx=\"130\" cy=\"118\" r=\"9\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"130\" y1=\"127\" x2=\"130\" y2=\"150\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"118\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"150\" x2=\"142\" y2=\"170\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"112\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"130\" y1=\"133\" x2=\"148\" y2=\"124\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><line x1=\"250\" y1=\"78\" x2=\"250\" y2=\"142\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"250,152 245.4,142 254.6,142\" fill=\"#2A5D9E\"/><text x=\"258\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 55 m/s</text><text x=\"258\" y=\"112\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v = 6,0 m/s</text><text x=\"258\" y=\"128\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">efter 3,0 s</text></svg></span><p>Välj nedåt som positiv riktning. </p><p>Bestäm farten efter 1 s i m/s med två decimaler.</p>",
         "s": "<p>v = 55 − (49/3) · 1 ≈ 38,67 m/s.</p>",
         "ledtrad": "<p>Välj nedåt som positivt och skilj acceleration från dess belopp.</p>",
         "niva": "E",
@@ -16983,7 +16983,7 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna fart nedför lutande plan utan friktion, ur diagram, sökt fart",
     "poang": "(1/2/0)",
-    "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Modellera cykel och cyklist som en punkt och försumma hjulens rotationsenergi. Använd g = 9,82 m/s².</p><ol><li>Bestäm accelerationen längs backen i m/s² med två decimaler.</li><li>Bestäm farten efter 120 m i m/s med två decimaler.</li><li>Vilken total sträcka från starten krävs för dubbla farten jämfört med efter 120 m? Svara i m.</li></ol>",
+    "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Behandla cykeln och cyklisten som en enda kropp och bortse från hjulens rotationsenergi. </p><ol><li>Bestäm accelerationen längs backen i m/s² med två decimaler.</li><li>Bestäm farten efter 120 m i m/s med två decimaler.</li><li>Vilken total sträcka från starten krävs för dubbla farten jämfört med efter 120 m? Svara i m.</li></ol>",
     "s": "<p>a) Tyngdkraftens komponent längs backen är mg sin 8°. Ur ma = mg sin 8° fås a = 9,82 sin 8° ≈ 1,37 m/s².</p><p>b) v² = 2as ger v = √(2 · 9,82 sin 8° · 120) ≈ 18,11 m/s.</p><p>c) Vid start från vila är s proportionell mot v². Dubbla farten kräver fyra gånger sträckan: 4 · 120 = 480 m.</p>",
     "familj": "Mötes- och ikapproblem med acceleration",
     "formaga": [
@@ -17026,12 +17026,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Modellera cykel och cyklist som en punkt och försumma hjulens rotationsenergi. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Behandla cykeln och cyklisten som en enda kropp och bortse från hjulens rotationsenergi. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen längs backen i m/s² med två decimaler.",
-        "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Modellera cykel och cyklist som en punkt och försumma hjulens rotationsenergi. Använd g = 9,82 m/s².</p><p>Bestäm accelerationen längs backen i m/s² med två decimaler.</p>",
+        "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Behandla cykeln och cyklisten som en enda kropp och bortse från hjulens rotationsenergi. </p><p>Bestäm accelerationen längs backen i m/s² med två decimaler.</p>",
         "s": "<p>Tyngdkraftens komponent längs backen är mg sin 8°. Ur ma = mg sin 8° fås a = 9,82 sin 8° ≈ 1,37 m/s².</p>",
         "ledtrad": "<p>Tyngdkraftens komponent längs backen bestämmer accelerationen i punktmodellen.</p>",
         "niva": "C",
@@ -17042,7 +17042,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm farten efter 120 m i m/s med två decimaler.",
-        "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Modellera cykel och cyklist som en punkt och försumma hjulens rotationsenergi. Använd g = 9,82 m/s².</p><p>Bestäm farten efter 120 m i m/s med två decimaler.</p>",
+        "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Behandla cykeln och cyklisten som en enda kropp och bortse från hjulens rotationsenergi. </p><p>Bestäm farten efter 120 m i m/s med två decimaler.</p>",
         "s": "<p>v² = 2as ger v = √(2 · 9,82 sin 8° · 120) ≈ 18,11 m/s.</p>",
         "ledtrad": "<p>Tyngdkraftens komponent längs backen bestämmer accelerationen i punktmodellen.</p>",
         "niva": "E",
@@ -17053,7 +17053,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Vilken total sträcka från starten krävs för dubbla farten jämfört med efter 120 m? Svara i m.",
-        "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Modellera cykel och cyklist som en punkt och försumma hjulens rotationsenergi. Använd g = 9,82 m/s².</p><p>Vilken total sträcka från starten krävs för dubbla farten jämfört med efter 120 m? Svara i m.</p>",
+        "t": "<p>En cyklist rullar utan att trampa nedför en backe med lutningen 8°. Friktion och luftmotstånd försummas.</p><span class=\"fig\"><svg height=\"139\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"6.914 81.737 426.800 95.569\"><polygon points=\"25,170 415,170 415,115.18907446606732\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(227.8,141.498318722355) rotate(-8)\"><circle cx=\"-16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"16\" cy=\"-10\" r=\"10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><polyline points=\"-16,-10 0,-10 -8,-26 -16,-10\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polyline points=\"0,-10 12,-26 -8,-26\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"16\" y2=\"-10\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"12\" y1=\"-26\" x2=\"18\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-12\" y1=\"-27\" x2=\"-4\" y2=\"-27\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"4\" cy=\"-46\" r=\"7\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"-6\" y1=\"-28\" x2=\"2\" y2=\"-40\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"0\" y1=\"-38\" x2=\"16\" y2=\"-30\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"-6\" y1=\"-28\" x2=\"0\" y2=\"-14\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></g><path d=\"M 95 170 A 70 70 0 0 1 94.31876481190994 160.2578829327954\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"120\" y=\"150\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" font-weight=\"600\" fill=\"#B43123\">8°</text></svg></span><p>Cyklisten startar från vila. Behandla cykeln och cyklisten som en enda kropp och bortse från hjulens rotationsenergi. </p><p>Vilken total sträcka från starten krävs för dubbla farten jämfört med efter 120 m? Svara i m.</p>",
         "s": "<p>Vid start från vila är s proportionell mot v². Dubbla farten kräver fyra gånger sträckan: 4 · 120 = 480 m.</p>",
         "ledtrad": "<p>Tyngdkraftens komponent längs backen bestämmer accelerationen i punktmodellen.</p>",
         "niva": "C",
@@ -17099,7 +17099,7 @@ window.BANK = [
     "niva": "C",
     "typ": "losa andragradsekvationen for tiden nar en uppkastad boll passerar en given hojd och tolka de tva rotterna, ur text, sokt tid",
     "poang": "(1/2/0)",
-    "t": "<p>En boll kastas rakt uppåt från marken med farten 25 m/s. Luftmotståndet försummas.</p><span class=\"fig bred\"><svg height=\"221\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"5.943 79.452 308.114 110.046\"><rect x=\"20\" y=\"176\" width=\"280\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"176\" x2=\"300\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"96\" y1=\"176\" x2=\"96\" y2=\"86\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"8 7\"/><line x1=\"56\" y1=\"96\" x2=\"174\" y2=\"96\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"10 8\"/><text x=\"182\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">20 m</text><line x1=\"64\" y1=\"176\" x2=\"64\" y2=\"96\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"64,176 67,169 61,169\" fill=\"#5C575E\"/><polygon points=\"64,96 67,103 61,103\" fill=\"#5C575E\"/><circle cx=\"96\" cy=\"162\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"120\" y1=\"154\" x2=\"120\" y2=\"102\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"120,92 124.6,102 115.4,102\" fill=\"#2A5D9E\"/><text x=\"128\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 25 m/s</text></svg></span>\n<p>Vid vilka tidpunkter befinner sig bollen 20 meter över marken, och vad betyder det att svaret blir två tidpunkter?</p><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p>",
+    "t": "<p>En boll kastas rakt uppåt från marken med farten 25 m/s. Luftmotståndet försummas.</p><span class=\"fig bred\"><svg height=\"221\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"5.943 79.452 308.114 110.046\"><rect x=\"20\" y=\"176\" width=\"280\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"176\" x2=\"300\" y2=\"176\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"96\" y1=\"176\" x2=\"96\" y2=\"86\" stroke=\"#5C575E\" stroke-width=\"1.4\" stroke-linecap=\"square\" stroke-dasharray=\"8 7\"/><line x1=\"56\" y1=\"96\" x2=\"174\" y2=\"96\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-linecap=\"square\" stroke-dasharray=\"10 8\"/><text x=\"182\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">20 m</text><line x1=\"64\" y1=\"176\" x2=\"64\" y2=\"96\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"64,176 67,169 61,169\" fill=\"#5C575E\"/><polygon points=\"64,96 67,103 61,103\" fill=\"#5C575E\"/><circle cx=\"96\" cy=\"162\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"120\" y1=\"154\" x2=\"120\" y2=\"102\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"120,92 124.6,102 115.4,102\" fill=\"#2A5D9E\"/><text x=\"128\" y=\"120\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">v₀ = 25 m/s</text></svg></span>\n<p>Vid vilka tidpunkter befinner sig bollen 20 meter över marken, och vad betyder det att svaret blir två tidpunkter?</p><p>Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Räkna uppåt som positiv riktning och sätt höjden till 20 m.</p><div class=\"facit-matte\">\\[20=25t-\\frac{9{,}82t^2}{2}\\]\\[4{,}91t^2-25t+20=0\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös andragradsekvationen.</p><div class=\"facit-matte\">\\[t=\\frac{25\\pm\\sqrt{25^2-4\\cdot4{,}91\\cdot20}}{2\\cdot4{,}91}\\]\\[t_1=0{,}994\\ \\mathrm s,\\qquad t_2=4{,}10\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Kontrollera att bollen faktiskt når högre än 20 m.</p><div class=\"facit-matte\">\\[h_{\\max}=\\frac{25^2}{2\\cdot9{,}82}=31{,}8\\ \\mathrm m\\]</div><p>Den första tiden gäller på väg upp och den andra på väg ned.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bollen befinner sig 20 m över marken efter cirka \\(0{,}99\\ \\mathrm s\\) och \\(4{,}10\\ \\mathrm s\\).</p></div>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -17323,7 +17323,7 @@ window.BANK = [
     "niva": "E",
     "typ": "signalens restid och storleken på ett tidsmätfel",
     "poang": "(2/0/0)",
-    "t": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Använd en modell med rak signalväg och konstant signalhastighet. Övriga felkällor försummas.</p><ol><li>Bestäm signalens restid till mottagaren i ms med en decimal.</li><li>Hur stort avståndsfel motsvarar ett tidsfel på 1,0 mikrosekund? Svara i m.</li></ol>",
+    "t": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Anta att signalen går rakt från satelliten till mottagaren med konstant fart. Övriga felkällor försummas.</p><ol><li>Bestäm signalens restid till mottagaren i ms med en decimal.</li><li>Hur stort avståndsfel motsvarar ett tidsfel på 1,0 mikrosekund? Svara i m.</li></ol>",
     "s": "<p>a) 20 200 000/(3,00 · 10⁸) s ≈ 0,067333 s = 67,3 ms.</p><p>b) 1,0 mikrosekund = 10⁻⁶ s. Avståndsfelets belopp är 3,00 · 10⁸ · 10⁻⁶ = 300 m.</p>",
     "familj": "Likformig rörelse",
     "formaga": [
@@ -17344,7 +17344,7 @@ window.BANK = [
     "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
     "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar",
     "ledtrad": "<p>Håll isär hela signalens restid och felet i den uppmätta tiden.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -17361,27 +17361,27 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Använd en modell med rak signalväg och konstant signalhastighet. Övriga felkällor försummas.</p>",
+    "spelIntro": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Anta att signalen går rakt från satelliten till mottagaren med konstant fart. Övriga felkällor försummas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm signalens restid till mottagaren i ms med en decimal.",
-        "t": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Använd en modell med rak signalväg och konstant signalhastighet. Övriga felkällor försummas.</p><p>Bestäm signalens restid till mottagaren i ms med en decimal.</p>",
+        "t": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Anta att signalen går rakt från satelliten till mottagaren med konstant fart. Övriga felkällor försummas.</p><p>Bestäm signalens restid till mottagaren i ms med en decimal.</p>",
         "s": "<p>20 200 000/(3,00 · 10⁸) s ≈ 0,067333 s = 67,3 ms.</p>",
         "ledtrad": "<p>Håll isär hela signalens restid och felet i den uppmätta tiden.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Hur stort avståndsfel motsvarar ett tidsfel på 1,0 mikrosekund? Svara i m.",
-        "t": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Använd en modell med rak signalväg och konstant signalhastighet. Övriga felkällor försummas.</p><p>Hur stort avståndsfel motsvarar ett tidsfel på 1,0 mikrosekund? Svara i m.</p>",
+        "t": "<p>En GPS-satellit befinner sig 20 200 km över markytan. Mottagaren är på marken rakt under satelliten. Signalen går med ljusets fart, 3,00·10⁸ m/s.</p><p>Anta att signalen går rakt från satelliten till mottagaren med konstant fart. Övriga felkällor försummas.</p><p>Hur stort avståndsfel motsvarar ett tidsfel på 1,0 mikrosekund? Svara i m.</p>",
         "s": "<p>1,0 mikrosekund = 10⁻⁶ s. Avståndsfelets belopp är 3,00 · 10⁸ · 10⁻⁶ = 300 m.</p>",
         "ledtrad": "<p>Håll isär hela signalens restid och felet i den uppmätta tiden.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -17689,7 +17689,7 @@ window.BANK = [
     "familjTidigare": "Likformig rörelse och hastighetsberäkningar",
     "familjNyckelFöreHierarki": "hastighet__likformig_rorelse_och_hastighetsberakningar",
     "ledtrad": "<p>Ett ljusår är en sträcka. Radiosignalens restid ska anges i minuter.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -17715,7 +17715,7 @@ window.BANK = [
         "s": "<p>Ett ljusår är en sträcka: 2,998 · 10⁸ · 3,156 · 10⁷ = 9,461688 · 10¹⁵ m ≈ 9,462 · 10¹⁵ m.</p>",
         "ledtrad": "<p>Ett ljusår är en sträcka. Radiosignalens restid ska anges i minuter.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -17726,7 +17726,7 @@ window.BANK = [
         "s": "<p>Restiden i minuter är (2,5 · 10¹¹)/(2,998 · 10⁸ · 60) ≈ 13,9 min. Ett svar tillbaka tar ytterligare lika lång tid i modellen.</p>",
         "ledtrad": "<p>Ett ljusår är en sträcka. Radiosignalens restid ska anges i minuter.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -18095,7 +18095,7 @@ window.BANK = [
     "självrättning": true,
     "familjNyckelTidigare": "diagram__lutning_som_fysikalisk_storhet",
     "ledtrad": "<p>En vågrät lägesgraf och en nedåtlutande lägesgraf beskriver olika rörelser.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -18129,7 +18129,7 @@ window.BANK = [
         "s": "<p>50/25 = +2 m/s.</p>",
         "ledtrad": "<p>En vågrät lägesgraf och en nedåtlutande lägesgraf beskriver olika rörelser.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -18140,7 +18140,7 @@ window.BANK = [
         "s": "<p>Läget är konstant, så hastigheten är 0 m/s.</p>",
         "ledtrad": "<p>En vågrät lägesgraf och en nedåtlutande lägesgraf beskriver olika rörelser.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -18151,7 +18151,7 @@ window.BANK = [
         "s": "<p>(0 − 50)/(55 − 30) = −2 m/s, mot startkanten.</p>",
         "ledtrad": "<p>En vågrät lägesgraf och en nedåtlutande lägesgraf beskriver olika rörelser.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -18162,7 +18162,7 @@ window.BANK = [
         "s": "<p>50 m ut och 50 m tillbaka ger 100 m. Förflyttningen är noll.</p>",
         "ledtrad": "<p>En vågrät lägesgraf och en nedåtlutande lägesgraf beskriver olika rörelser.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -18188,7 +18188,7 @@ window.BANK = [
     "självrättning": false,
     "familjNyckelTidigare": "diagram__lutning_som_fysikalisk_storhet",
     "ledtrad": "<p>Beskriv vad som händer med farten under varje rak del av grafen.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -18600,7 +18600,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna falltid och nedslagsfart vid fritt fall från given höjd, ur diagram, sökt tid och fart",
     "poang": "(3/0/0)",
-    "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och använd g = 9,82 m/s².</p><ol><li>Bestäm accelerationen under fallet i m/s².</li><li>Bestäm falltiden i s med två decimaler.</li><li>Bestäm slutfarten i m/s med en decimal.</li></ol>",
+    "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och </p><ol><li>Bestäm accelerationen under fallet i m/s².</li><li>Bestäm falltiden i s med två decimaler.</li><li>Bestäm slutfarten i m/s med en decimal.</li></ol>",
     "s": "<p>a) Accelerationen är +9,82 m/s², nedåt.</p><p>b) t = √(2 · 12/9,82) ≈ 1,56 s.</p><p>c) v = √(2 · 9,82 · 12) ≈ 15,4 m/s.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -18642,12 +18642,12 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen under fallet i m/s².",
-        "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och använd g = 9,82 m/s².</p><p>Bestäm accelerationen under fallet i m/s².</p>",
+        "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och </p><p>Bestäm accelerationen under fallet i m/s².</p>",
         "s": "<p>Accelerationen är +9,82 m/s², nedåt.</p>",
         "ledtrad": "<p>Falltiden från vila kan bestämmas från höjden och g.</p>",
         "niva": "E",
@@ -18658,7 +18658,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm falltiden i s med två decimaler.",
-        "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och använd g = 9,82 m/s².</p><p>Bestäm falltiden i s med två decimaler.</p>",
+        "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och </p><p>Bestäm falltiden i s med två decimaler.</p>",
         "s": "<p>t = √(2 · 12/9,82) ≈ 1,56 s.</p>",
         "ledtrad": "<p>Falltiden från vila kan bestämmas från höjden och g.</p>",
         "niva": "E",
@@ -18669,7 +18669,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm slutfarten i m/s med en decimal.",
-        "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och använd g = 9,82 m/s².</p><p>Bestäm slutfarten i m/s med en decimal.</p>",
+        "t": "<p>En kotte lossnar från en gren 12 meter över marken och faller fritt. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.00 0.00 420.00 253.00\"><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"26\" stroke-linecap=\"square\"/><rect x=\"50\" y=\"40\" width=\"20\" height=\"190\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M 60 70 Q 150 40 230 66 Q 300 44 350 74\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"5\"/><circle cx=\"232\" cy=\"82\" r=\"11\" fill=\"#DCE8D6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"258\" y=\"86\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kotte</text><line x1=\"232\" y1=\"96\" x2=\"232\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\" stroke-dasharray=\"5 5\"/><line x1=\"330\" y1=\"82\" x2=\"330\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"82\" x2=\"335\" y2=\"82\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"325\" y1=\"210\" x2=\"335\" y2=\"210\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"338\" y=\"147\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">12 m</text><rect x=\"20\" y=\"210\" width=\"380\" height=\"8\" fill=\"#DCE8D6\"/><line x1=\"20\" y1=\"210\" x2=\"400\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/></svg></span><p>Kotten lossnar från vila. Välj nedåt som positiv riktning och </p><p>Bestäm slutfarten i m/s med en decimal.</p>",
         "s": "<p>v = √(2 · 9,82 · 12) ≈ 15,4 m/s.</p>",
         "ledtrad": "<p>Falltiden från vila kan bestämmas från höjden och g.</p>",
         "niva": "E",
@@ -18874,7 +18874,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestamma slapphojd ovanfor ett fonster ur tiden det tar att passera fonstret i fritt fall, ur text, sokt stracka",
     "poang": "(0/2/0)",
-    "t": "<p>En sten släpps från vila och faller fritt utmed en husvägg. Stenen passerar ett fönster som är 2,0 meter högt, och det tar 0,18 sekunder från det att stenen syns vid fönstrets överkant tills den försvinner vid underkanten. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 11.421 377.143 183.872\"><rect x=\"60\" y=\"22\" width=\"150\" height=\"156\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"94\" y=\"92\" width=\"82\" height=\"52\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"135\" y1=\"92\" x2=\"135\" y2=\"144\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"94\" y1=\"118\" x2=\"176\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"178\" width=\"300\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"178\" x2=\"320\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"244\" cy=\"34\" r=\"7\" fill=\"#2B2527\"/><line x1=\"244\" y1=\"46\" x2=\"244\" y2=\"76\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"244,86 239.4,76 248.6,76\" fill=\"#2A5D9E\"/><line x1=\"244\" y1=\"92\" x2=\"244\" y2=\"144\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"244,92 241,99 247,99\" fill=\"#5C575E\"/><polygon points=\"244,144 241,137 247,137\" fill=\"#5C575E\"/><text x=\"252\" y=\"122\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">2,0 m</text><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"92\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"38,34 35,41 41,41\" fill=\"#5C575E\"/><polygon points=\"38,92 35,85 41,85\" fill=\"#5C575E\"/><text x=\"30\" y=\"67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">h = ?</text><text x=\"300\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">passeras på</text><text x=\"300\" y=\"116\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">0,18 s</text></svg></span><p>Använd g = 9,82 m/s². Bestäm släppunktens höjd över fönstrets överkant i m med två decimaler.</p>",
+    "t": "<p>En sten släpps från vila och faller fritt utmed en husvägg. Stenen passerar ett fönster som är 2,0 meter högt, och det tar 0,18 sekunder från det att stenen syns vid fönstrets överkant tills den försvinner vid underkanten. Luftmotståndet försummas.</p><span class=\"fig\"><svg height=\"302\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 11.421 377.143 183.872\"><rect x=\"60\" y=\"22\" width=\"150\" height=\"156\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"94\" y=\"92\" width=\"82\" height=\"52\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"135\" y1=\"92\" x2=\"135\" y2=\"144\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><line x1=\"94\" y1=\"118\" x2=\"176\" y2=\"118\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"square\"/><rect x=\"20\" y=\"178\" width=\"300\" height=\"8\" fill=\"#E8DCC6\"/><line x1=\"20\" y1=\"178\" x2=\"320\" y2=\"178\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"244\" cy=\"34\" r=\"7\" fill=\"#2B2527\"/><line x1=\"244\" y1=\"46\" x2=\"244\" y2=\"76\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"244,86 239.4,76 248.6,76\" fill=\"#2A5D9E\"/><line x1=\"244\" y1=\"92\" x2=\"244\" y2=\"144\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"244,92 241,99 247,99\" fill=\"#5C575E\"/><polygon points=\"244,144 241,137 247,137\" fill=\"#5C575E\"/><text x=\"252\" y=\"122\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">2,0 m</text><line x1=\"38\" y1=\"34\" x2=\"38\" y2=\"92\" stroke=\"#5C575E\" stroke-width=\"1.2\" stroke-linecap=\"butt\"/><polygon points=\"38,34 35,41 41,41\" fill=\"#5C575E\"/><polygon points=\"38,92 35,85 41,85\" fill=\"#5C575E\"/><text x=\"30\" y=\"67\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">h = ?</text><text x=\"300\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">passeras på</text><text x=\"300\" y=\"116\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5C575E\">0,18 s</text></svg></span><p> Bestäm släppunktens höjd över fönstrets överkant i m med två decimaler.</p>",
     "s": "<p>Låt v₁ vara farten vid överkanten. Under passagen gäller 2 = v₁ · 0,18 + 9,82 · 0,18²/2, så v₁ = [2 − 9,82 · 0,18²/2]/0,18. Fallet började från vila och höjden är därför v₁²/(2 · 9,82) ≈ 5,33 m.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -18901,7 +18901,7 @@ window.BANK = [
     "niva": "E",
     "typ": "tillämpa sambandet mellan begynnelsefart acceleration tid och sluthastighet i en tabell, ur tabell, sökt fart acceleration och tid",
     "poang": "(4/0/0)",
-    "t": "<p>Rörelserna är raka med konstant acceleration. Använd v = v₀ + at och de angivna tecknen.</p><ol><li>v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.</li><li>v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².</li><li>v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.</li><li>v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.</li></ol>",
+    "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><ol><li>v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.</li><li>v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².</li><li>v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.</li><li>v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.</li></ol>",
     "s": "<p>a) v = 0 + 3 · 5 = 15 m/s.</p><p>b) a = (20 − 8)/4 = 3 m/s².</p><p>c) t = (4 − 12)/(−2) = 4 s.</p><p>d) v₀ = 15 − 1,5 · 6 = 6 m/s.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -18925,7 +18925,7 @@ window.BANK = [
     "familjNyckelTidigare": "konstacc__konstant_acceleration_berakning",
     "familjTidigare": "Beräkningar vid konstant acceleration",
     "familjNyckelFöreHierarki": "konstacc__berakningar_vid_konstant_acceleration",
-    "ledtrad": "<p>Samma hastighetssamband kan lösas för olika okända storheter.</p>",
+    "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
@@ -18951,14 +18951,14 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Rörelserna är raka med konstant acceleration. Använd v = v₀ + at och de angivna tecknen.</p>",
+    "spelIntro": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.",
-        "t": "<p>Rörelserna är raka med konstant acceleration. Använd v = v₀ + at och de angivna tecknen.</p><p>v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.</p>",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 0, a = 3 m/s² och t = 5 s. Bestäm v i m/s.</p>",
         "s": "<p>v = 0 + 3 · 5 = 15 m/s.</p>",
-        "ledtrad": "<p>Samma hastighetssamband kan lösas för olika okända storheter.</p>",
+        "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -18967,9 +18967,9 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².",
-        "t": "<p>Rörelserna är raka med konstant acceleration. Använd v = v₀ + at och de angivna tecknen.</p><p>v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².</p>",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 8 m/s, v = 20 m/s och t = 4 s. Bestäm a i m/s².</p>",
         "s": "<p>a = (20 − 8)/4 = 3 m/s².</p>",
-        "ledtrad": "<p>Samma hastighetssamband kan lösas för olika okända storheter.</p>",
+        "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -18978,9 +18978,9 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.",
-        "t": "<p>Rörelserna är raka med konstant acceleration. Använd v = v₀ + at och de angivna tecknen.</p><p>v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.</p>",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v₀ = 12 m/s, v = 4 m/s och a = −2 m/s². Bestäm t i s.</p>",
         "s": "<p>t = (4 − 12)/(−2) = 4 s.</p>",
-        "ledtrad": "<p>Samma hastighetssamband kan lösas för olika okända storheter.</p>",
+        "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -18989,9 +18989,9 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.",
-        "t": "<p>Rörelserna är raka med konstant acceleration. Använd v = v₀ + at och de angivna tecknen.</p><p>v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.</p>",
+        "t": "<p>Rörelserna är raka och accelerationen är konstant. Tecknen visar rörelseriktningen.</p><p>v = 15 m/s, a = 1,5 m/s² och t = 6 s. Bestäm v₀ i m/s.</p>",
         "s": "<p>v₀ = 15 − 1,5 · 6 = 6 m/s.</p>",
-        "ledtrad": "<p>Samma hastighetssamband kan lösas för olika okända storheter.</p>",
+        "ledtrad": "<p>Vilket samband i formelsamlingen kopplar ihop startfart, slutfart, acceleration och tid?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -19385,7 +19385,7 @@ window.BANK = [
     ],
     "självrättning": true,
     "ledtrad": "<p>Samma retardation betyder inte samma bromstid vid halverad startfart.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -19416,7 +19416,7 @@ window.BANK = [
         "s": "<p>90 km/h = 25 m/s. Retardationens storlek är 25/4,5 ≈ 5,56 m/s².</p>",
         "ledtrad": "<p>Samma retardation betyder inte samma bromstid vid halverad startfart.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -19427,7 +19427,7 @@ window.BANK = [
         "s": "<p>Medelfarten är 25/2 m/s. Bromssträckan är (25/2) · 4,5 = 56,25 m.</p>",
         "ledtrad": "<p>Samma retardation betyder inte samma bromstid vid halverad startfart.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -19438,7 +19438,7 @@ window.BANK = [
         "s": "<p>Halva startfarten ger en fjärdedel av bromssträckan: 56,25/4 = 14,0625 m ≈ 14,06 m.</p>",
         "ledtrad": "<p>Samma retardation betyder inte samma bromstid vid halverad startfart.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -19464,7 +19464,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "ledtrad": "<p>En medelhastighet bestäms av ändringen i läge under det aktuella intervallet.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "miniräknare": true,
     "geogebra": false,
@@ -19478,7 +19478,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma djup ur falltid vid fritt fall, ur diagram, sökt sträcka och fart",
     "poang": "(2/1/0)",
-    "t": "<p>En sten släpps från vila vid kanten av en brunn. Man hör plasket 2,0 sekunder senare. Räkna med att ljudet hinner upp så snabbt att den tiden kan försummas.</p><span class=\"fig smal\"><svg height=\"277\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"116.914 34.548 284.743 207.915\"><rect x=\"150\" y=\"60\" width=\"150\" height=\"170\" fill=\"#fff\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"60\" x2=\"300\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><rect x=\"130\" y=\"46\" width=\"190\" height=\"16\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"196\" width=\"150\" height=\"34\" fill=\"#DCE6F2\"/><line x1=\"150\" y1=\"196\" x2=\"300\" y2=\"196\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"225\" cy=\"100\" r=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"252\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">sten</text><line x1=\"345\" y1=\"62\" x2=\"345\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"62\" x2=\"350\" y2=\"62\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"196\" x2=\"350\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"353\" y=\"133\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span>\n<ol><li>Hur långt har stenen fallit när den träffar vattnet?</li>\n<li>Vilken fart har stenen då?</li>\n<li>Hur lång tid skulle fallet ta om brunnen var dubbelt så djup? Blir det dubbelt så lång tid? Motivera med fallformeln.</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p>",
+    "t": "<p>En sten släpps från vila vid kanten av en brunn. Man hör plasket 2,0 sekunder senare. Räkna med att ljudet hinner upp så snabbt att den tiden kan försummas.</p><span class=\"fig smal\"><svg height=\"277\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"116.914 34.548 284.743 207.915\"><rect x=\"150\" y=\"60\" width=\"150\" height=\"170\" fill=\"#fff\"/><line x1=\"150\" y1=\"60\" x2=\"150\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"60\" x2=\"300\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><rect x=\"130\" y=\"46\" width=\"190\" height=\"16\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"150\" y=\"196\" width=\"150\" height=\"34\" fill=\"#DCE6F2\"/><line x1=\"150\" y1=\"196\" x2=\"300\" y2=\"196\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><circle cx=\"225\" cy=\"100\" r=\"11\" fill=\"#E8DCC6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"252\" y=\"104\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">sten</text><line x1=\"345\" y1=\"62\" x2=\"345\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"62\" x2=\"350\" y2=\"62\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"340\" y1=\"196\" x2=\"350\" y2=\"196\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"353\" y=\"133\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">djup = ?</text></svg></span>\n<ol><li>Hur långt har stenen fallit när den träffar vattnet?</li>\n<li>Vilken fart har stenen då?</li>\n<li>Hur lång tid skulle fallet ta om brunnen var dubbelt så djup? Blir det dubbelt så lång tid? Förklara med hjälp av hur fallsträckan beror på tiden.</li></ol><p>Bortse från luftmotståndet.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ljudets restid försummas, så 2,0 s är stenens falltid.</p><div class=\"facit-matte\">\\[h=\\frac{gt^2}{2}=\\frac{9{,}82\\cdot2{,}0^2}{2}=19{,}6\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Farten efter 2,0 s är</p><div class=\"facit-matte\">\\[v=gt=9{,}82\\cdot2{,}0=19{,}6\\ \\mathrm{m/s}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dubbel höjd ger tidsfaktorn roten ur två.</p><div class=\"facit-matte\">\\[t_2=\\sqrt{\\frac{2\\cdot(2h)}{g}}=\\sqrt2\\,t=2{,}83\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Brunnen är cirka \\(19{,}6\\ \\mathrm m\\) djup och slutfarten \\(19{,}6\\ \\mathrm{m/s}\\). Vid dubbel höjd blir falltiden \\(2{,}83\\ \\mathrm s\\), inte 4,0 s.</p></div>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -19504,7 +19504,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma reaktionstid ur en fallsträcka, ur text, sökt tid",
     "poang": "(2/2/0)",
-    "t": "<p>Reaktionstiden går att mäta med en linjal. En kamrat håller linjalen lodrätt mellan dina fingrar och släpper den utan förvarning, och du griper den så fort du kan.</p>\n<ol><li>Linjalen faller 18 cm innan du griper den. Vilken reaktionstid har du?</li>\n<li>En annan person griper först efter 25 cm. Hur mycket längre är den reaktionstiden?</li>\n<li>På en linjal med tidsskala i stället för centimeterskala ligger markeringarna för 0,10 s, 0,20 s och 0,30 s inte lika långt från varandra. Förklara varför.</li></ol><p>Använd g = 9,82 m/s² och försumma luftmotståndet.</p><p>Modellera greppet som momentant: tiden fram till greppet används som en uppskattning av reaktionstiden.</p>",
+    "t": "<p>Reaktionstiden går att mäta med en linjal. En kamrat håller linjalen lodrätt mellan dina fingrar och släpper den utan förvarning, och du griper den så fort du kan.</p>\n<ol><li>Linjalen faller 18 cm innan du griper den. Vilken reaktionstid har du?</li>\n<li>En annan person griper först efter 25 cm. Hur mycket längre är den reaktionstiden?</li>\n<li>På en linjal med tidsskala i stället för centimeterskala ligger markeringarna för 0,10 s, 0,20 s och 0,30 s inte lika långt från varandra. Förklara varför.</li></ol><p>Bortse från luftmotståndet.</p><p>Modellera greppet som momentant: tiden fram till greppet används som en uppskattning av reaktionstiden.</p>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Linjalens fall börjar från vila.</p><div class=\"facit-matte\">\\[t_1=\\sqrt{\\frac{2s}{g}}=\\sqrt{\\frac{2\\cdot0{,}18}{9{,}82}}=0{,}191\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gör samma beräkning för 25 cm.</p><div class=\"facit-matte\">\\[t_2=\\sqrt{\\frac{2\\cdot0{,}25}{9{,}82}}=0{,}226\\ \\mathrm s\\]\\[\\Delta t=\\sqrt{2\\cdot0{,}25/9{,}82}-\\sqrt{2\\cdot0{,}18/9{,}82}\\approx0{,}034\\ \\mathrm s\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Fallsträckan är proportionell mot tidens kvadrat.</p><div class=\"facit-matte\">\\[s(0{,}10)=4{,}91\\ \\mathrm{cm}\\]\\[s(0{,}20)=19{,}6\\ \\mathrm{cm}\\]\\[s(0{,}30)=44{,}2\\ \\mathrm{cm}\\]</div><p>Markeringarna måste därför ligga allt glesare ju längre ned på linjalen man kommer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Reaktionstiderna är cirka \\(0{,}191\\ \\mathrm s\\) och \\(0{,}226\\ \\mathrm s\\), en skillnad på \\(0{,}034\\ \\mathrm s\\).</p></div>",
     "familj": "Reaktions- och bromssträcka",
     "formaga": [
@@ -19661,7 +19661,7 @@ window.BANK = [
     "niva": "E",
     "typ": "beräkna fallhöjd och nedslagsfart ur falltiden, ur text, sökt sträcka och fart",
     "poang": "(2/0/0)",
-    "t": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s² och formlerna h = gt²/2 samt v = gt.</p><ol><li>Bestäm fallhöjden i m med en decimal.</li><li>Bestäm slutfarten i m/s med två decimaler.</li></ol>",
+    "t": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p><ol><li>Bestäm fallhöjden i m med en decimal.</li><li>Bestäm slutfarten i m/s med två decimaler.</li></ol>",
     "s": "<p>a) h = 9,82 · 2,5²/2 = 30,6875 m ≈ 30,7 m.</p><p>b) v = 9,82 · 2,5 = 24,55 m/s.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -19678,7 +19678,7 @@ window.BANK = [
       0
     ],
     "självrättning": true,
-    "ledtrad": "<p>Sätt in tiden i de givna formlerna för ett fall från vila.</p>",
+    "ledtrad": "<p>Stenen startar från vila. Leta upp sambanden för fritt fall i formelsamlingen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "miniräknare": true,
@@ -19698,14 +19698,14 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s² och formlerna h = gt²/2 samt v = gt.</p>",
+    "spelIntro": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm fallhöjden i m med en decimal.",
-        "t": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s² och formlerna h = gt²/2 samt v = gt.</p><p>Bestäm fallhöjden i m med en decimal.</p>",
+        "t": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p><p>Bestäm fallhöjden i m med en decimal.</p>",
         "s": "<p>h = 9,82 · 2,5²/2 = 30,6875 m ≈ 30,7 m.</p>",
-        "ledtrad": "<p>Sätt in tiden i de givna formlerna för ett fall från vila.</p>",
+        "ledtrad": "<p>Stenen startar från vila. Leta upp sambanden för fritt fall i formelsamlingen.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -19714,9 +19714,9 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm slutfarten i m/s med två decimaler.",
-        "t": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p><p>Använd g = 9,82 m/s² och formlerna h = gt²/2 samt v = gt.</p><p>Bestäm slutfarten i m/s med två decimaler.</p>",
+        "t": "<p>En sten släpps från taket på ett hus och faller fritt i 2,5 sekunder innan den når marken. Luftmotståndet försummas.</p><p>Bestäm slutfarten i m/s med två decimaler.</p>",
         "s": "<p>v = 9,82 · 2,5 = 24,55 m/s.</p>",
-        "ledtrad": "<p>Sätt in tiden i de givna formlerna för ett fall från vila.</p>",
+        "ledtrad": "<p>Stenen startar från vila. Leta upp sambanden för fritt fall i formelsamlingen.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -20054,7 +20054,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma mötestid och mötespunkt för två kroppar i fritt fall och kast uppåt, ur diagram, sökt tid och höjd",
     "poang": "(0/2/0)",
-    "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. Använd g = 9,82 m/s².</p><ol><li>Bestäm tiden tills bollarna möts. Svara i s.</li><li>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. </p><ol><li>Bestäm tiden tills bollarna möts. Svara i s.</li><li>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<p>a) y₁ = 20t − gt²/2 och y₂ = 40 − gt²/2. Likställ: 20t = 40. Svaret är 2 s.</p><p>b) Likställ höjderna: 20t − gt²/2 = 40 − gt²/2 ger t = 2 s. Höjden är 40 − 9,82 · 2²/2 = 20,36 m. Båda är fortfarande i luften. Svaret är 20,36 m.</p>",
     "familj": "Mötes- och ikapproblem med acceleration",
     "formaga": [
@@ -20092,12 +20092,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm tiden tills bollarna möts. Svara i s.",
-        "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm tiden tills bollarna möts. Svara i s.</p>",
+        "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. </p><p>Bestäm tiden tills bollarna möts. Svara i s.</p>",
         "s": "<p>y₁ = 20t − gt²/2 och y₂ = 40 − gt²/2. Likställ: 20t = 40. Svaret är 2 s.</p>",
         "ledtrad": "<p>Skriv båda höjderna med samma nollnivå och tid.</p>",
         "niva": "C",
@@ -20108,7 +20108,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.",
-        "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. Använd g = 9,82 m/s².</p><p>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En boll kastas från marken rakt uppåt med 20 m/s samtidigt som en annan släpps från vila 40 m ovanför. Försumma luftmotstånd. </p><p>Bestäm möteshöjden över marken. Svara i m. Avrunda vid behov till två decimaler.</p>",
         "s": "<p>Likställ höjderna: 20t − gt²/2 = 40 − gt²/2 ger t = 2 s. Höjden är 40 − 9,82 · 2²/2 = 20,36 m. Båda är fortfarande i luften. Svaret är 20,36 m.</p>",
         "ledtrad": "<p>Skriv båda höjderna med samma nollnivå och tid.</p>",
         "niva": "C",
@@ -92073,7 +92073,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
-    "t": "<p>En gepard ökar farten från vila till 30,0 m/s på 7,00 s längs en rak bana. Medelaccelerationen ges av aₘ = (v₂ − v₁)/Δt.</p><p>Bestäm medelaccelerationen. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+    "t": "<p>En gepard ökar farten från vila till 30,0 m/s på 7,00 s längs en rak bana.</p><p>Bestäm medelaccelerationen. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
     "s": "<p>aₘ = (30 − 0)/7. Uppgiften bestämmer medelaccelerationen, inte hur accelerationen varierar under löpningen. Svaret är 4,29 m/s².</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -92086,7 +92086,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Sätt in startfart, slutfart och tidsintervall i den givna formeln.</p>",
+    "ledtrad": "<p>Hur mycket ändras farten varje sekund i genomsnitt?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -92155,7 +92155,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Välj form av v = v₀ + at efter vilken storhet som saknas.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -92193,7 +92193,7 @@ window.BANK = [
         "s": "<p>v = 0 + 1,85 · 5,5 = 10,175 m/s. Svaret är 10,18 m/s.</p>",
         "ledtrad": "<p>Välj form av v = v₀ + at efter vilken storhet som saknas.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92204,7 +92204,7 @@ window.BANK = [
         "s": "<p>t = (16,8 − 12,1)/0,85. Svaret är 5,53 s.</p>",
         "ledtrad": "<p>Välj form av v = v₀ + at efter vilken storhet som saknas.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92215,7 +92215,7 @@ window.BANK = [
         "s": "<p>a = (25 − 18)/6,1. Svaret är 1,15 m/s².</p>",
         "ledtrad": "<p>Välj form av v = v₀ + at efter vilken storhet som saknas.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92226,7 +92226,7 @@ window.BANK = [
         "s": "<p>a = [(50 − 70)/3,6]/4,80. Svaret är -1,16 m/s².</p>",
         "ledtrad": "<p>Välj form av v = v₀ + at efter vilken storhet som saknas.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92237,7 +92237,7 @@ window.BANK = [
         "s": "<p>v = 21,2 − 1,25 · 12 = 6,2 m/s. Svaret är 6,2 m/s.</p>",
         "ledtrad": "<p>Välj form av v = v₀ + at efter vilken storhet som saknas.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92248,7 +92248,7 @@ window.BANK = [
         "s": "<p>v₀ = v − at = 0 + 1,30 · 6,55. Svaret är 8,52 m/s.</p>",
         "ledtrad": "<p>Välj form av v = v₀ + at efter vilken storhet som saknas.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -92457,7 +92457,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Subtrahera begynnelsehastigheten med dess tecken.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -92495,7 +92495,7 @@ window.BANK = [
         "s": "<p>aₘ = (-10 − (-20))/2 = 5 m/s². Svaret är 5 m/s².</p>",
         "ledtrad": "<p>Subtrahera begynnelsehastigheten med dess tecken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92506,7 +92506,7 @@ window.BANK = [
         "s": "<p>aₘ = (6 − (2))/2 = 2 m/s². Svaret är 2 m/s².</p>",
         "ledtrad": "<p>Subtrahera begynnelsehastigheten med dess tecken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92517,7 +92517,7 @@ window.BANK = [
         "s": "<p>aₘ = (-11 − (-5))/2 = -3 m/s². Svaret är -3 m/s².</p>",
         "ledtrad": "<p>Subtrahera begynnelsehastigheten med dess tecken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92528,7 +92528,7 @@ window.BANK = [
         "s": "<p>aₘ = (4 − (12))/2 = -4 m/s². Svaret är -4 m/s².</p>",
         "ledtrad": "<p>Subtrahera begynnelsehastigheten med dess tecken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92539,7 +92539,7 @@ window.BANK = [
         "s": "<p>aₘ = (-5 − (5))/2 = -5 m/s². Svaret är -5 m/s².</p>",
         "ledtrad": "<p>Subtrahera begynnelsehastigheten med dess tecken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -92550,7 +92550,7 @@ window.BANK = [
         "s": "<p>aₘ = (-5 − (-11))/2 = 3 m/s². Svaret är 3 m/s².</p>",
         "ledtrad": "<p>Subtrahera begynnelsehastigheten med dess tecken.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -92563,7 +92563,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(5/0/0)",
-    "t": "<p>En partikel har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><ol><li>Sluthastigheten är 27 m/s. Svara i m/s².</li><li>Sluthastigheten är 29 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Sluthastigheten är 23 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Sluthastigheten är 0 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Sluthastigheten är -10 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>Ett föremål har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><ol><li>Sluthastigheten är 27 m/s. Svara i m/s².</li><li>Sluthastigheten är 29 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Sluthastigheten är 23 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Sluthastigheten är 0 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Sluthastigheten är -10 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<p>a) aₘ = (27 − 27)/5 = 0 m/s². Svaret är 0 m/s².</p><p>b) aₘ = (29 − 27)/5 = 0,4 m/s². Svaret är 0,4 m/s².</p><p>c) aₘ = (23 − 27)/5 = -0,8 m/s². Svaret är -0,8 m/s².</p><p>d) aₘ = (0 − 27)/5 = -5,4 m/s². Svaret är -5,4 m/s².</p><p>e) aₘ = (-10 − 27)/5 = -7,4 m/s². Svaret är -7,4 m/s².</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -92590,7 +92590,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Hastighetsändringen räknas med tecken även om partikeln byter riktning.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -92616,60 +92616,60 @@ window.BANK = [
       "e"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En partikel har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p>",
+    "spelIntro": "<p>Ett föremål har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Sluthastigheten är 27 m/s. Svara i m/s².",
-        "t": "<p>En partikel har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 27 m/s. Svara i m/s².</p>",
+        "t": "<p>Ett föremål har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 27 m/s. Svara i m/s².</p>",
         "s": "<p>aₘ = (27 − 27)/5 = 0 m/s². Svaret är 0 m/s².</p>",
         "ledtrad": "<p>Hastighetsändringen räknas med tecken även om partikeln byter riktning.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Sluthastigheten är 29 m/s. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En partikel har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 29 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>Ett föremål har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 29 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>aₘ = (29 − 27)/5 = 0,4 m/s². Svaret är 0,4 m/s².</p>",
         "ledtrad": "<p>Hastighetsändringen räknas med tecken även om partikeln byter riktning.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "Sluthastigheten är 23 m/s. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En partikel har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 23 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>Ett föremål har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 23 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>aₘ = (23 − 27)/5 = -0,8 m/s². Svaret är -0,8 m/s².</p>",
         "ledtrad": "<p>Hastighetsändringen räknas med tecken även om partikeln byter riktning.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "d",
         "fraga": "Sluthastigheten är 0 m/s. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En partikel har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 0 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>Ett föremål har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är 0 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>aₘ = (0 − 27)/5 = -5,4 m/s². Svaret är -5,4 m/s².</p>",
         "ledtrad": "<p>Hastighetsändringen räknas med tecken även om partikeln byter riktning.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "e",
         "fraga": "Sluthastigheten är -10 m/s. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En partikel har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är -10 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>Ett föremål har hastigheten +27,0 m/s längs en rak bana. Bestäm medelaccelerationen under de följande 5,0 s för vart och ett av de angivna slutvärdena.</p><p>Sluthastigheten är -10 m/s. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>aₘ = (-10 − 27)/5 = -7,4 m/s². Svaret är -7,4 m/s².</p>",
         "ledtrad": "<p>Hastighetsändringen räknas med tecken även om partikeln byter riktning.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -92925,7 +92925,7 @@ window.BANK = [
     "niva": "C",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(1/2/0)",
-    "t": "<p>En partikel rör sig längs en rak linje med hastigheten 6,50 km/s vid både t = 0 och t = 6,0 s. En elev hävdar att ingen kraft kan ha verkat under intervallet. a) Bestäm medelaccelerationen. b) Är elevens slutsats riktig? Ge ett möjligt motexempel.</p>",
+    "t": "<p>Ett föremål rör sig längs en rak linje med hastigheten 6,50 km/s vid både t = 0 och t = 6,0 s. En elev hävdar att ingen kraft kan ha verkat under intervallet. a) Bestäm medelaccelerationen. b) Är elevens slutsats riktig? Ge ett möjligt motexempel.</p>",
     "s": "<p>a) Medelaccelerationen är (6500 − 6500)/6 = 0 m/s². b) Nej. Partikeln kan först öka hastigheten och därefter minska den lika mycket. Till exempel +100 m/s² i 3 s följt av −100 m/s² i 3 s ger samma sluthastighet som starthastighet. En noll medelacceleration innebär inte noll acceleration vid varje tidpunkt.</p>",
     "familj": "Medelacceleration",
     "formaga": [
@@ -92952,7 +92952,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(4/0/0)",
-    "t": "<p>I ett idealiserat försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. Använd g = 9,82 m/s².</p><ol><li>Bestäm medelaccelerationen under starten. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm medelaccelerationen under stoppet, med den ursprungliga färdriktningen positiv. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm startens medelacceleration dividerad med g. Avrunda vid behov till två decimaler.</li><li>Bestäm stoppets medelaccelerationsbelopp dividerat med g. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>I ett försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. </p><ol><li>Bestäm medelaccelerationen under starten. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm medelaccelerationen under stoppet, med den ursprungliga färdriktningen positiv. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm startens medelacceleration dividerad med g. Avrunda vid behov till två decimaler.</li><li>Bestäm stoppets medelaccelerationsbelopp dividerat med g. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<p>a) aₘ = (282 − 0)/5,00 = 56,4 m/s². Svaret är 56,4 m/s².</p><p>b) aₘ = (0 − 282)/1,40. Svaret är -201,43 m/s².</p><p>c) Kvoten är (282/5,00)/9,82. Svaret är 5,74.</p><p>d) Kvoten är (282/1,40)/9,82. Den avser accelerationens belopp. Svaret är 20,51.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -92999,12 +92999,12 @@ window.BANK = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I ett idealiserat försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. Använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>I ett försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. </p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm medelaccelerationen under starten. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>I ett idealiserat försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. Använd g = 9,82 m/s².</p><p>Bestäm medelaccelerationen under starten. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>I ett försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. </p><p>Bestäm medelaccelerationen under starten. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>aₘ = (282 − 0)/5,00 = 56,4 m/s². Svaret är 56,4 m/s².</p>",
         "ledtrad": "<p>Jämför samma hastighetsändring med de olika tidsintervallen.</p>",
         "niva": "E",
@@ -93015,7 +93015,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm medelaccelerationen under stoppet, med den ursprungliga färdriktningen positiv. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>I ett idealiserat försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. Använd g = 9,82 m/s².</p><p>Bestäm medelaccelerationen under stoppet, med den ursprungliga färdriktningen positiv. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>I ett försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. </p><p>Bestäm medelaccelerationen under stoppet, med den ursprungliga färdriktningen positiv. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>aₘ = (0 − 282)/1,40. Svaret är -201,43 m/s².</p>",
         "ledtrad": "<p>Jämför samma hastighetsändring med de olika tidsintervallen.</p>",
         "niva": "E",
@@ -93026,7 +93026,7 @@ window.BANK = [
       {
         "etikett": "c",
         "fraga": "Bestäm startens medelacceleration dividerad med g. Avrunda vid behov till två decimaler.",
-        "t": "<p>I ett idealiserat försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. Använd g = 9,82 m/s².</p><p>Bestäm startens medelacceleration dividerad med g. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>I ett försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. </p><p>Bestäm startens medelacceleration dividerad med g. Avrunda vid behov till två decimaler.</p>",
         "s": "<p>Kvoten är (282/5,00)/9,82. Svaret är 5,74.</p>",
         "ledtrad": "<p>Jämför samma hastighetsändring med de olika tidsintervallen.</p>",
         "niva": "E",
@@ -93037,7 +93037,7 @@ window.BANK = [
       {
         "etikett": "d",
         "fraga": "Bestäm stoppets medelaccelerationsbelopp dividerat med g. Avrunda vid behov till två decimaler.",
-        "t": "<p>I ett idealiserat försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. Använd g = 9,82 m/s².</p><p>Bestäm stoppets medelaccelerationsbelopp dividerat med g. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>I ett försök ökar en släde farten från vila till 282 m/s på 5,00 s. Därefter stannar den på 1,40 s. Rörelsen är rak. </p><p>Bestäm stoppets medelaccelerationsbelopp dividerat med g. Avrunda vid behov till två decimaler.</p>",
         "s": "<p>Kvoten är (282/1,40)/9,82. Den avser accelerationens belopp. Svaret är 20,51.</p>",
         "ledtrad": "<p>Jämför samma hastighetsändring med de olika tidsintervallen.</p>",
         "niva": "E",
@@ -93054,7 +93054,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
-    "t": "<p>En planets hastighetskomponent längs en fast x-axel ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p><ol><li>Bestäm ändringen i hastighetskomponenten med tecken. Svara i m/s.</li><li>Bestäm medelaccelerationens x-komponent, uttryckt i µm/s². Svara i µm/s². Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En planets hastighet längs en vald x-riktning ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p><ol><li>Bestäm ändringen i hastigheten längs x-riktningen med tecken. Svara i m/s.</li><li>Bestäm medelaccelerationens x-komponent, uttryckt i µm/s². Svara i µm/s². Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<p>a) Δvₓ = (−18,5 − 20,9) · 1000 = −39400 m/s. Svaret är -39400 m/s.</p><p>b) Tiden är 2,16 · 365,25 · 86400 s. Dividera −39400 m/s med denna tid och multiplicera med 10⁶ för µm/s². Uppgiften bestämmer en komponent, inte hela accelerationsvektorn. Svaret är -578,01 µm/s².</p>",
     "familj": "Medelacceleration",
     "formaga": [
@@ -93091,12 +93091,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En planets hastighetskomponent längs en fast x-axel ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p>",
+    "spelIntro": "<p>En planets hastighet längs en vald x-riktning ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm ändringen i hastighetskomponenten med tecken. Svara i m/s.",
-        "t": "<p>En planets hastighetskomponent längs en fast x-axel ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p><p>Bestäm ändringen i hastighetskomponenten med tecken. Svara i m/s.</p>",
+        "fraga": "Bestäm ändringen i hastigheten längs x-riktningen med tecken. Svara i m/s.",
+        "t": "<p>En planets hastighet längs en vald x-riktning ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p><p>Bestäm ändringen i hastigheten längs x-riktningen med tecken. Svara i m/s.</p>",
         "s": "<p>Δvₓ = (−18,5 − 20,9) · 1000 = −39400 m/s. Svaret är -39400 m/s.</p>",
         "ledtrad": "<p>Räkna först hastighetsändringen med tecken och omvandla år till sekunder.</p>",
         "niva": "E",
@@ -93107,7 +93107,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm medelaccelerationens x-komponent, uttryckt i µm/s². Svara i µm/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En planets hastighetskomponent längs en fast x-axel ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p><p>Bestäm medelaccelerationens x-komponent, uttryckt i µm/s². Svara i µm/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En planets hastighet längs en vald x-riktning ändras från +20,9 till −18,5 km/s på 2,16 år. Räkna ett år som 365,25 dygn och ett dygn som 86400 s.</p><p>Bestäm medelaccelerationens x-komponent, uttryckt i µm/s². Svara i µm/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>Tiden är 2,16 · 365,25 · 86400 s. Dividera −39400 m/s med denna tid och multiplicera med 10⁶ för µm/s². Uppgiften bestämmer en komponent, inte hela accelerationsvektorn. Svaret är -578,01 µm/s².</p>",
         "ledtrad": "<p>Räkna först hastighetsändringen med tecken och omvandla år till sekunder.</p>",
         "niva": "E",
@@ -93200,7 +93200,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Håll reda på om tiden räknas från bromsningens början.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -93229,7 +93229,7 @@ window.BANK = [
         "s": "<p>Farten minskar med 2,4 m/s på 4 s: 2,4/4 = 0,60 m/s². Svaret är 0,6 m/s².</p>",
         "ledtrad": "<p>Håll reda på om tiden räknas från bromsningens början.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -93240,7 +93240,7 @@ window.BANK = [
         "s": "<p>v = 13 − 0,60 · 6 = 9,4 m/s. Svaret är 9,4 m/s.</p>",
         "ledtrad": "<p>Håll reda på om tiden räknas från bromsningens början.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -93251,7 +93251,7 @@ window.BANK = [
         "s": "<p>0 = 13 − 0,60t ger t = 13/0,60. Svaret är 21,67 s.</p>",
         "ledtrad": "<p>Håll reda på om tiden räknas från bromsningens början.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -93469,7 +93469,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Efter vändningen är hastigheten negativ men samma hastighetssamband gäller.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -93498,7 +93498,7 @@ window.BANK = [
         "s": "<p>v = 4,50 − 1,05 · 3,0 = 1,35 m/s. Svaret är 1,35 m/s.</p>",
         "ledtrad": "<p>Efter vändningen är hastigheten negativ men samma hastighetssamband gäller.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -93509,7 +93509,7 @@ window.BANK = [
         "s": "<p>Vändpunkten har v = 0: t = 4,50/1,05. Svaret är 4,29 s.</p>",
         "ledtrad": "<p>Efter vändningen är hastigheten negativ men samma hastighetssamband gäller.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -93520,7 +93520,7 @@ window.BANK = [
         "s": "<p>−3,25 = 4,50 − 1,05t ger t = 7,75/1,05. Svaret är 7,38 s.</p>",
         "ledtrad": "<p>Efter vändningen är hastigheten negativ men samma hastighetssamband gäller.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -93658,7 +93658,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
-    "t": "<p>En telefon faller ned i ett tjockt mjukt skydd. Farten ändras från 3,55 m/s nedåt till vila på 0,026 s.</p><p>Bestäm medelaccelerationens belopp. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+    "t": "<p>En telefon faller ned i ett tjockt mjukt skydd. Farten ändras från 3,55 m/s nedåt till vila på 0,026 s.</p><p>Bestäm medelaccelerationens storlek. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
     "s": "<p>Fartändringens belopp är 3,55 m/s. Dividera med 0,026 s. Medelaccelerationen är riktad uppåt. Svaret är 136,54 m/s².</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -93864,7 +93864,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
-    "t": "<p>En sten släpps från vila och faller i 1,2 s. Försumma luftmotstånd och använd g = 9,82 m/s². Välj nedåt som positivt.</p><ol><li>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm hastigheten före nedslaget med formeln v = gt. Svara i m/s. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En sten släpps från vila och faller i 1,2 s. Bortse från luftmotståndet. Välj nedåt som positiv riktning.</p><ol><li>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm hastigheten efter 1,2 s. Svara i m/s. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<p>a) Tyngdaccelerationen är +9,82 m/s² med detta riktningsval. Svaret är 9,82 m/s².</p><p>b) v = 9,82 · 1,2 = 11,784 m/s nedåt. Svaret är 11,78 m/s.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -93883,7 +93883,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Startfarten är noll och tyngdaccelerationen är given.</p>",
+    "ledtrad": "<p>Stenen startar från vila och påverkas bara av tyngdaccelerationen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -93901,14 +93901,14 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En sten släpps från vila och faller i 1,2 s. Försumma luftmotstånd och använd g = 9,82 m/s². Välj nedåt som positivt.</p>",
+    "spelIntro": "<p>En sten släpps från vila och faller i 1,2 s. Bortse från luftmotståndet. Välj nedåt som positiv riktning.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En sten släpps från vila och faller i 1,2 s. Försumma luftmotstånd och använd g = 9,82 m/s². Välj nedåt som positivt.</p><p>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En sten släpps från vila och faller i 1,2 s. Bortse från luftmotståndet. Välj nedåt som positiv riktning.</p><p>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>Tyngdaccelerationen är +9,82 m/s² med detta riktningsval. Svaret är 9,82 m/s².</p>",
-        "ledtrad": "<p>Startfarten är noll och tyngdaccelerationen är given.</p>",
+        "ledtrad": "<p>Stenen startar från vila och påverkas bara av tyngdaccelerationen.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -93916,10 +93916,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm hastigheten före nedslaget med formeln v = gt. Svara i m/s. Avrunda vid behov till två decimaler.",
-        "t": "<p>En sten släpps från vila och faller i 1,2 s. Försumma luftmotstånd och använd g = 9,82 m/s². Välj nedåt som positivt.</p><p>Bestäm hastigheten före nedslaget med formeln v = gt. Svara i m/s. Avrunda vid behov till två decimaler.</p>",
+        "fraga": "Bestäm hastigheten efter 1,2 s. Svara i m/s. Avrunda vid behov till två decimaler.",
+        "t": "<p>En sten släpps från vila och faller i 1,2 s. Bortse från luftmotståndet. Välj nedåt som positiv riktning.</p><p>Bestäm hastigheten efter 1,2 s. Svara i m/s. Avrunda vid behov till två decimaler.</p>",
         "s": "<p>v = 9,82 · 1,2 = 11,784 m/s nedåt. Svaret är 11,78 m/s.</p>",
-        "ledtrad": "<p>Startfarten är noll och tyngdaccelerationen är given.</p>",
+        "ledtrad": "<p>Stenen startar från vila och påverkas bara av tyngdaccelerationen.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -93934,7 +93934,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(3/0/0)",
-    "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Försumma luftmotstånd och använd g = 9,82 m/s².</p><ol><li>Bestäm accelerationen i högsta punkten med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm tiden till högsta punkten. Svara i s. Avrunda vid behov till två decimaler.</li><li>När är hastigheten −15 m/s? Svara i s. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Bortse från luftmotståndet.</p><ol><li>Bestäm accelerationen i högsta punkten med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm tiden till högsta punkten. Svara i s. Avrunda vid behov till två decimaler.</li><li>När är hastigheten −15 m/s? Svara i s. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<p>a) Hastigheten är noll i högsta punkten men tyngdkraften finns kvar: a = −g. Svaret är -9,82 m/s².</p><p>b) 0 = 15 − 9,82t. Svaret är 1,53 s.</p><p>c) −15 = 15 − 9,82t. Detta är tiden när bollen åter når kasthöjden. Svaret är 3,05 s.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -93957,7 +93957,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Skilj mellan noll hastighet och noll acceleration.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarEnhet": [
@@ -93977,38 +93977,38 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Försumma luftmotstånd och använd g = 9,82 m/s².</p>",
+    "spelIntro": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Bortse från luftmotståndet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen i högsta punkten med tecken. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Försumma luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm accelerationen i högsta punkten med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Bortse från luftmotståndet.</p><p>Bestäm accelerationen i högsta punkten med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>Hastigheten är noll i högsta punkten men tyngdkraften finns kvar: a = −g. Svaret är -9,82 m/s².</p>",
         "ledtrad": "<p>Skilj mellan noll hastighet och noll acceleration.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "b",
         "fraga": "Bestäm tiden till högsta punkten. Svara i s. Avrunda vid behov till två decimaler.",
-        "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Försumma luftmotstånd och använd g = 9,82 m/s².</p><p>Bestäm tiden till högsta punkten. Svara i s. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Bortse från luftmotståndet.</p><p>Bestäm tiden till högsta punkten. Svara i s. Avrunda vid behov till två decimaler.</p>",
         "s": "<p>0 = 15 − 9,82t. Svaret är 1,53 s.</p>",
         "ledtrad": "<p>Skilj mellan noll hastighet och noll acceleration.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
       {
         "etikett": "c",
         "fraga": "När är hastigheten −15 m/s? Svara i s. Avrunda vid behov till två decimaler.",
-        "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Försumma luftmotstånd och använd g = 9,82 m/s².</p><p>När är hastigheten −15 m/s? Svara i s. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En boll kastas rakt uppåt med 15 m/s och fångas på samma höjd. Välj uppåt som positivt. Bortse från luftmotståndet.</p><p>När är hastigheten −15 m/s? Svara i s. Avrunda vid behov till två decimaler.</p>",
         "s": "<p>−15 = 15 − 9,82t. Detta är tiden när bollen åter når kasthöjden. Svaret är 3,05 s.</p>",
         "ledtrad": "<p>Skilj mellan noll hastighet och noll acceleration.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 3,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       }
@@ -94021,7 +94021,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
-    "t": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Använd g = 9,82 m/s² och nedåt som positiv riktning.</p><ol><li>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm flygtiden. Svara i s. Avrunda vid behov till två decimaler.</li></ol>",
+    "t": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Välj nedåt som positiv riktning.</p><ol><li>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</li><li>Bestäm flygtiden. Svara i s. Avrunda vid behov till två decimaler.</li></ol>",
     "s": "<p>a) Under fri flykt är accelerationen +g i den valda riktningen. Svaret är 9,82 m/s².</p><p>b) 62 = 55 + 9,82t ger t = 7/9,82. Svaret är 0,71 s.</p>",
     "familj": "Lodrät kast och fritt fall",
     "formaga": [
@@ -94058,12 +94058,12 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Använd g = 9,82 m/s² och nedåt som positiv riktning.</p>",
+    "spelIntro": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Välj nedåt som positiv riktning.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.",
-        "t": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Använd g = 9,82 m/s² och nedåt som positiv riktning.</p><p>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Välj nedåt som positiv riktning.</p><p>Bestäm accelerationen med tecken. Svara i m/s². Avrunda vid behov till två decimaler.</p>",
         "s": "<p>Under fri flykt är accelerationen +g i den valda riktningen. Svaret är 9,82 m/s².</p>",
         "ledtrad": "<p>Tiden beror på fartökningen, inte slutfarten ensam.</p>",
         "niva": "E",
@@ -94074,7 +94074,7 @@ window.BANK = [
       {
         "etikett": "b",
         "fraga": "Bestäm flygtiden. Svara i s. Avrunda vid behov till två decimaler.",
-        "t": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Använd g = 9,82 m/s² och nedåt som positiv riktning.</p><p>Bestäm flygtiden. Svara i s. Avrunda vid behov till två decimaler.</p>",
+        "t": "<p>En pil skjuts rakt nedåt med 55 m/s och når marken med 62 m/s. Försumma luftmotstånd. Välj nedåt som positiv riktning.</p><p>Bestäm flygtiden. Svara i s. Avrunda vid behov till två decimaler.</p>",
         "s": "<p>62 = 55 + 9,82t ger t = 7/9,82. Svaret är 0,71 s.</p>",
         "ledtrad": "<p>Tiden beror på fartökningen, inte slutfarten ensam.</p>",
         "niva": "E",
@@ -98930,7 +98930,7 @@ window.BANK = [
     "niva": "E",
     "typ": "bestämma acceleration hastighet eller tid vid konstant acceleration, ur text eller tabell",
     "poang": "(2/0/0)",
-    "t": "<p>Ett föremål släpps från vila och faller fritt i 3,5 s innan det träffar ett bromsande material. Under inträngningen är retardationen konstant 2000 m/s² fram till vila. Försumma luftmotstånd under fallet och använd g = 9,82 m/s².</p><p>Bestäm bromstiden i materialet. Svara i ms. Avrunda vid behov till två decimaler.</p>",
+    "t": "<p>Ett föremål släpps från vila och faller fritt i 3,5 s innan det träffar ett bromsande material. Under inträngningen är retardationen konstant 2000 m/s² fram till vila. Försumma luftmotstånd under fallet och </p><p>Bestäm bromstiden i materialet. Svara i ms. Avrunda vid behov till två decimaler.</p>",
     "s": "<p>Farten vid kontakten är 9,82 · 3,5 = 34,37 m/s. Bromstiden är 34,37/2000 s, vilket multipliceras med 1000 för ms. Svaret är 17,19 ms.</p>",
     "familj": "Konstant acceleration",
     "formaga": [
@@ -98948,6 +98948,654 @@ window.BANK = [
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": "ms",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.256",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "bestämma fart från sträcka och tid",
+    "poang": "(1/0/0)",
+    "t": "<p>En cyklist färdas 120 m på 10 s. Bestäm medelfarten i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela sträckan med tiden.</p><div class=\"facit-matte\">\\[v=\\frac{120}{10}=12\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Medelhastighet",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__medelhastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många meter färdas cyklisten varje sekund?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.257",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "bestämma sträcka från fart och tid",
+    "poang": "(1/0/0)",
+    "t": "<p>En löpare håller farten 6,0 m/s i 15 s. Hur långt hinner löparen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid konstant fart är sträckan fart gånger tid.</p><div class=\"facit-matte\">\\[s=6{,}0\\cdot15=90\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(90\\ \\mathrm m\\).</p></div>",
+    "familj": "Likformig rörelse",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__likformig_rorelse",
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur långt kommer löparen på en sekund? Multiplicera med tiden.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.258",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "bestämma tid från sträcka och fart",
+    "poang": "(1/0/0)",
+    "t": "<p>En buss kör 300 m med konstant fart 15 m/s. Hur lång tid tar det?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tiden är sträckan delad med farten.</p><div class=\"facit-matte\">\\[t=\\frac{300}{15}=20\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm s\\).</p></div>",
+    "familj": "Likformig rörelse",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__likformig_rorelse",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många 15-meterssträckor ryms i 300 m?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.259",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "omvandla m/s till km/h",
+    "poang": "(1/0/0)",
+    "t": "<p>En elsparkcykel kör i 10 m/s. Ange farten i km/h.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För att gå från m/s till km/h multiplicerar man med 3,6.</p><div class=\"facit-matte\">\\[10\\cdot3{,}6=36\\ \\mathrm{km/h}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\ \\mathrm{km/h}\\).</p></div>",
+    "familj": "Likformig rörelse",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__likformig_rorelse",
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur hänger m/s och km/h ihop?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "km/h",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.260",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "omvandla km/h till m/s",
+    "poang": "(1/0/0)",
+    "t": "<p>En bil kör i 72 km/h. Ange farten i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För att gå från km/h till m/s dividerar man med 3,6.</p><div class=\"facit-matte\">\\[\\frac{72}{3{,}6}=20\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Likformig rörelse",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__likformig_rorelse",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur hänger km/h och m/s ihop?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.261",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "bestämma förflyttning efter återgång",
+    "poang": "(1/0/0)",
+    "t": "<p>En person går 20 m österut och sedan 20 m tillbaka till startpunkten. Hur stor är personens förflyttning?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Förflyttningen beror bara på start- och slutpunkt.</p><div class=\"facit-matte\">\\[\\Delta x=0\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\ \\mathrm m\\).</p></div>",
+    "familj": "Fart och hastighet",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "hastighet__51_fart_och_hastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Var befinner sig personen jämfört med startpunkten när promenaden är slut?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.262",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "bestämma medelfart med tidsomvandling",
+    "poang": "(1/0/0)",
+    "t": "<p>En elev cyklar 600 m på 2,0 min. Bestäm medelfarten i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Skriv först tiden i sekunder.</p><div class=\"facit-matte\">\\[2{,}0\\ \\mathrm{min}=120\\ \\mathrm s\\]\\[v=\\frac{600}{120}=5{,}0\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Medelhastighet",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__medelhastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Börja med att skriva 2,0 minuter i sekunder.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.263",
+    "kap": 3,
+    "omr": "hastighet",
+    "niva": "E",
+    "typ": "relativ fart i samma riktning",
+    "poang": "(1/0/0)",
+    "t": "<p>En cyklist kör 8,0 m/s och kommer ikapp en joggare som springer 5,5 m/s i samma riktning. Hur snabbt minskar avståndet mellan dem?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När de rör sig åt samma håll är den relativa farten skillnaden mellan farterna.</p><div class=\"facit-matte\">\\[v_{\\mathrm{rel}}=8{,}0-5{,}5=2{,}5\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Relativ hastighet",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "hastighet__relativ_hastighet",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur mycket längre hinner cyklisten än joggaren på en sekund?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.264",
+    "kap": 3,
+    "omr": "diagram",
+    "niva": "E",
+    "typ": "läsa av konstant hastighet i v-t-diagram",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar ett föremåls hastighet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Hastighet–tid-diagram med konstant hastighet\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"420\" y1=\"215.0\" x2=\"420\" y2=\"225.0\" stroke=\"#64748b\"/><text x=\"420\" y=\"244\" text-anchor=\"middle\" font-size=\"12\">6</text><line x1=\"47\" y1=\"220.0\" x2=\"52\" y2=\"220.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"224.0\" text-anchor=\"end\" font-size=\"12\">0</text><line x1=\"47\" y1=\"36.0\" x2=\"52\" y2=\"36.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"40.0\" text-anchor=\"end\" font-size=\"12\">6</text><polyline points=\"52.0,97.3 420.0,97.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">v (m/s)</text></svg></span><p>Bestäm hastigheten vid t = 3 s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Grafen ligger på 4 m/s under hela intervallet.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Tolka och rita rörelsediagram",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Läs av grafens höjd vid 3 s.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.265",
+    "kap": 3,
+    "omr": "diagram",
+    "niva": "E",
+    "typ": "tolka horisontell linje i läge-tid-diagram",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar ett föremåls läge.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Läge–tid-diagram med konstant läge\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"420\" y1=\"215.0\" x2=\"420\" y2=\"225.0\" stroke=\"#64748b\"/><text x=\"420\" y=\"244\" text-anchor=\"middle\" font-size=\"12\">5</text><line x1=\"47\" y1=\"220.0\" x2=\"52\" y2=\"220.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"224.0\" text-anchor=\"end\" font-size=\"12\">0</text><line x1=\"47\" y1=\"36.0\" x2=\"52\" y2=\"36.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"40.0\" text-anchor=\"end\" font-size=\"12\">10</text><polyline points=\"52.0,109.6 420.0,109.6\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">x (m)</text></svg></span><p>Bestäm hastigheten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Läget ändras inte. Föremålet står därför stilla.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Tolka och rita rörelsediagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Ändras läget när tiden går?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.266",
+    "kap": 3,
+    "omr": "diagram",
+    "niva": "E",
+    "typ": "läsa av acceleration i a-t-diagram",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar ett föremåls acceleration.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Acceleration–tid-diagram med konstant acceleration\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"420\" y1=\"215.0\" x2=\"420\" y2=\"225.0\" stroke=\"#64748b\"/><text x=\"420\" y=\"244\" text-anchor=\"middle\" font-size=\"12\">5</text><line x1=\"47\" y1=\"220.0\" x2=\"52\" y2=\"220.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"224.0\" text-anchor=\"end\" font-size=\"12\">0</text><line x1=\"47\" y1=\"36.0\" x2=\"52\" y2=\"36.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"40.0\" text-anchor=\"end\" font-size=\"12\">4</text><polyline points=\"52.0,128.0 420.0,128.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">a (m/s²)</text></svg></span><p>Bestäm accelerationen vid t = 4 s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Grafen ligger på 2 m/s².</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Tolka och rita rörelsediagram",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Läs av grafens höjd vid 4 s.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s²",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.267",
+    "kap": 3,
+    "omr": "diagram",
+    "niva": "E",
+    "typ": "bestämma förflyttning från enkel v-t-graf",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar ett föremåls hastighet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Hastighet–tid-diagram med konstant hastighet\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"420\" y1=\"215.0\" x2=\"420\" y2=\"225.0\" stroke=\"#64748b\"/><text x=\"420\" y=\"244\" text-anchor=\"middle\" font-size=\"12\">4</text><line x1=\"47\" y1=\"220.0\" x2=\"52\" y2=\"220.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"224.0\" text-anchor=\"end\" font-size=\"12\">0</text><line x1=\"47\" y1=\"36.0\" x2=\"52\" y2=\"36.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"40.0\" text-anchor=\"end\" font-size=\"12\">5</text><polyline points=\"52.0,109.6 420.0,109.6\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">v (m/s)</text></svg></span><p>Bestäm förflyttningen under de första 4 s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Förflyttningen är arean under grafen.</p><div class=\"facit-matte\">\\[\\Delta x=3\\cdot4=12\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\ \\mathrm m\\).</p></div>",
+    "familj": "Lutning och area i rörelsediagram",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken area bildas mellan grafen och tidsaxeln?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.268",
+    "kap": 3,
+    "omr": "diagram",
+    "niva": "E",
+    "typ": "bestämma hastighet från enkel x-t-graf",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar ett föremåls läge.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Läge–tid-diagram med rät linje\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"420\" y1=\"215.0\" x2=\"420\" y2=\"225.0\" stroke=\"#64748b\"/><text x=\"420\" y=\"244\" text-anchor=\"middle\" font-size=\"12\">4</text><line x1=\"47\" y1=\"220.0\" x2=\"52\" y2=\"220.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"224.0\" text-anchor=\"end\" font-size=\"12\">0</text><line x1=\"47\" y1=\"36.0\" x2=\"52\" y2=\"36.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"40.0\" text-anchor=\"end\" font-size=\"12\">12</text><polyline points=\"52.0,220.0 420.0,36.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">x (m)</text></svg></span><p>Bestäm hastigheten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Hastigheten är grafens lutning.</p><div class=\"facit-matte\">\\[v=\\frac{12-0}{4-0}=3\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Lutning och area i rörelsediagram",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur många meter ökar läget på en sekund?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.269",
+    "kap": 3,
+    "omr": "diagram",
+    "niva": "E",
+    "typ": "bestämma acceleration från enkel v-t-graf",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar ett föremåls hastighet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Hastighet–tid-diagram med ökande hastighet\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"420\" y1=\"215.0\" x2=\"420\" y2=\"225.0\" stroke=\"#64748b\"/><text x=\"420\" y=\"244\" text-anchor=\"middle\" font-size=\"12\">4</text><line x1=\"47\" y1=\"220.0\" x2=\"52\" y2=\"220.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"224.0\" text-anchor=\"end\" font-size=\"12\">0</text><line x1=\"47\" y1=\"36.0\" x2=\"52\" y2=\"36.0\" stroke=\"#64748b\"/><text x=\"43\" y=\"40.0\" text-anchor=\"end\" font-size=\"12\">8</text><polyline points=\"52.0,220.0 420.0,36.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">v (m/s)</text></svg></span><p>Bestäm accelerationen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Accelerationen är lutningen i hastighet–tid-diagrammet.</p><div class=\"facit-matte\">\\[a=\\frac{8-0}{4-0}=2\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Lutning och area i rörelsediagram",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur mycket ökar hastigheten varje sekund?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s²",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.270",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma medelacceleration från fartändring",
+    "poang": "(1/0/0)",
+    "t": "<p>En sparkcykel ökar farten från 0 till 10 m/s på 5,0 s. Bestäm medelaccelerationen.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ökar 10 m/s på 5,0 s.</p><div class=\"facit-matte\">\\[a=\\frac{10-0}{5{,}0}=2{,}0\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Medelacceleration",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__konstant_acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur mycket ändras farten varje sekund?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s²",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.271",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma slutfart vid konstant acceleration",
+    "poang": "(1/0/0)",
+    "t": "<p>En vagn har startfarten 4,0 m/s och accelererar med 2,0 m/s² i 3,0 s. Bestäm slutfarten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ökar med 2,0 m/s varje sekund.</p><div class=\"facit-matte\">\\[v=4{,}0+2{,}0\\cdot3{,}0=10\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Konstant acceleration",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__konstant_acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor blir den totala fartökningen på 3,0 s?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.272",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma acceleration vid inbromsning",
+    "poang": "(1/0/0)",
+    "t": "<p>En cyklist bromsar från 14 m/s till vila på 7,0 s. Välj färdriktningen som positiv. Bestäm accelerationen med tecken.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Hastigheten ändras från +14 m/s till 0.</p><div class=\"facit-matte\">\\[a=\\frac{0-14}{7{,}0}=-2{,}0\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2{,}0\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Konstant acceleration",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__konstant_acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Vid bromsning i positiv färdriktning blir accelerationen negativ.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s²",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.273",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma tyngdaccelerationens tecken",
+    "poang": "(1/0/0)",
+    "t": "<p>En boll faller fritt. Välj uppåt som positiv riktning och bortse från luftmotståndet. Vilken acceleration har bollen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tyngdaccelerationen är riktad nedåt. När uppåt är positivt får accelerationen negativt tecken.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9{,}82\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Lodrät kast och fritt fall",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "konstacc__lodrat_kast_och_fritt_fall",
+    "svarstyp": "numeriskt",
+    "rättSvar": -9.82,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "ledtrad": "<p>Vilket håll pekar tyngdaccelerationen åt?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s²",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.274",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma fart efter kort fritt fall",
+    "poang": "(1/0/0)",
+    "t": "<p>En sten släpps från vila och faller fritt i 1,0 s. Bortse från luftmotståndet. Bestäm farten efter 1,0 s.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Stenen startar från vila och farten ökar med tyngdaccelerationen.</p><div class=\"facit-matte\">\\[v=g t=9{,}82\\cdot1{,}0=9{,}82\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}82\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Lodrät kast och fritt fall",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__lodrat_kast_och_fritt_fall",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.82,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "ledtrad": "<p>Stenen startar från vila. Leta upp sambandet för fritt fall i formelsamlingen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.275",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma acceleration i högsta punkten",
+    "poang": "(1/0/0)",
+    "t": "<p>En boll kastas rakt upp. I högsta punkten är hastigheten 0 m/s. Välj uppåt som positiv riktning och bortse från luftmotståndet. Bestäm bollens acceleration i högsta punkten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Hastigheten är tillfälligt noll i högsta punkten, men tyngdaccelerationen är fortfarande riktad nedåt.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9{,}82\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Lodrät kast och fritt fall",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "konstacc__lodrat_kast_och_fritt_fall",
+    "svarstyp": "numeriskt",
+    "rättSvar": -9.82,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "ledtrad": "<p>Försvinner tyngdkraften när bollen vänder?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m/s²",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.276",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma reaktionssträcka",
+    "poang": "(1/0/0)",
+    "t": "<p>En bil kör 20 m/s. Förarens reaktionstid är 0,80 s. Hur långt hinner bilen under reaktionstiden om farten är konstant?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Under reaktionstiden är farten konstant.</p><div class=\"facit-matte\">\\[s=20\\cdot0{,}80=16\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\ \\mathrm m\\).</p></div>",
+    "familj": "Reaktions- och bromssträcka",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__reaktions_och_bromsstracka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur långt färdas bilen på 0,80 s vid 20 m/s?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.277",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma sträcka från vila vid konstant acceleration",
+    "poang": "(1/0/0)",
+    "t": "<p>En vagn startar från vila och accelererar med 3,0 m/s² i 4,0 s. Hur långt färdas vagnen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vagnen startar från vila och accelerationen är konstant.</p><div class=\"facit-matte\">\\[s=\\frac{at^2}{2}=\\frac{3{,}0\\cdot4{,}0^2}{2}=24\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24\\ \\mathrm m\\).</p></div>",
+    "familj": "Konstant acceleration",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__konstant_acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Leta upp sambandet för sträckan när ett föremål startar från vila med konstant acceleration.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.278",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma bromssträcka från medelfart",
+    "poang": "(1/0/0)",
+    "t": "<p>En cyklist bromsar jämnt från 10 m/s till vila på 4,0 s. Bestäm bromssträckan.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Vid konstant acceleration är medelfarten medelvärdet av start- och slutfarten.</p><div class=\"facit-matte\">\\[v_{\\mathrm{med}}=\\frac{10+0}{2}=5{,}0\\ \\mathrm{m/s}\\]\\[s=5{,}0\\cdot4{,}0=20\\ \\mathrm m\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\ \\mathrm m\\).</p></div>",
+    "familj": "Reaktions- och bromssträcka",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__reaktions_och_bromsstracka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm först medelfarten under den jämna inbromsningen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "m",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.279",
+    "kap": 3,
+    "omr": "konstacc",
+    "niva": "E",
+    "typ": "bestämma tid från fartändring och acceleration",
+    "poang": "(1/0/0)",
+    "t": "<p>En bil ökar farten från 6,0 m/s till 14 m/s med konstant acceleration 2,0 m/s². Hur lång tid tar fartökningen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Farten ska öka med 8,0 m/s. Vid 2,0 m/s² ökar farten 2,0 m/s varje sekund.</p><div class=\"facit-matte\">\\[t=\\frac{14-6}{2{,}0}=4{,}0\\ \\mathrm s\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\ \\mathrm s\\).</p></div>",
+    "familj": "Konstant acceleration",
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "konstacc__konstant_acceleration",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor är fartökningen, och hur mycket ökar farten per sekund?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "svarEnhet": "s",
     "svarFormat": "numeriskt"
   },
   {

@@ -660,16 +660,16 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .btn[aria-busy="true"]{opacity:.6;pointer-events:none}
 
 /* ── Global användningsstatistik ── */
-.kg-globalstats{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:22px 0 0;color:var(--ink3);font-size:13px;font-weight:600}
+.kg-globalstats{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap;margin:20px 0 0;color:var(--ink3);font-size:13px;font-weight:600}
 .kg-globalstats[hidden]{display:none!important}
 .kg-globalstats .statpunkt{display:inline-flex;align-items:center;gap:7px;padding:7px 11px;border:1px solid var(--hair);border-radius:999px;background:var(--surface);box-shadow:0 1px 2px rgba(11,33,51,.04)}
 .kg-globalstats .statpunkt b{color:var(--ink);font-variant-numeric:tabular-nums}
 .kg-globalstats .statpunkt i{width:6px;height:6px;border-radius:50%;background:var(--acc);display:block}
 
-.hero{padding:56px 4px 34px;max-width:760px}
-.hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:0}
+.hero{padding:44px 4px 30px;max-width:820px;margin:0 auto;text-align:center}
+.hero h1{font-size:clamp(32px,4.6vw,52px);line-height:1.04;letter-spacing:-.05em;margin:0}
 .hero h1 em{font-style:normal;color:var(--ink3)}
-.hero p{margin:16px 0 0;color:var(--ink2);font-family:var(--read);font-size:16.5px;line-height:1.55;max-width:520px;letter-spacing:0}
+.hero p{margin:14px auto 0;color:var(--ink2);font-family:var(--read);font-size:16.5px;line-height:1.55;max-width:560px;letter-spacing:0;text-wrap:balance}
 .kursgrupper{padding-bottom:60px}
 /* Varje ämne är en egen grupp. Korten ligger i centrerade rader, så att en
    grupp med ett eller två kort hamnar mitt under avdelaren. */
@@ -714,8 +714,8 @@ html[data-theme="dark"] .kursavdelare{
 .course-card{
   --lyft:cubic-bezier(.34,1.56,.64,1);
   position:relative;isolation:isolate;overflow:hidden;text-align:left;
-  padding:22px 22px 20px;min-height:164px;
-  display:flex;flex-direction:column;gap:18px;
+  padding:20px 20px 18px;min-height:148px;
+  display:flex;flex-direction:column;gap:14px;
   border:1px solid var(--hair);
   border-color:color-mix(in srgb,var(--tintStrong) 22%,var(--hair));
   border-radius:22px;
@@ -743,7 +743,7 @@ html[data-theme="dark"] .kursavdelare{
 }
 
 .kurskod{
-  align-self:center;height:48px;min-width:48px;padding:0 16px;border-radius:16px;
+  align-self:center;height:44px;min-width:44px;padding:0 15px;border-radius:14px;
   display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;color:#fff;
   font-size:13.5px;font-weight:700;letter-spacing:-.02em;
   box-shadow:0 8px 18px -9px var(--tintStrong),inset 0 1px 0 rgba(255,255,255,.32);
@@ -752,7 +752,7 @@ html[data-theme="dark"] .kursavdelare{
 
 .sparkoder{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;z-index:2;pointer-events:none;align-self:center}
 .sparkod{
-  width:48px;height:48px;flex:none;border-radius:16px;pointer-events:auto;cursor:pointer;
+  width:44px;height:44px;flex:none;border-radius:14px;pointer-events:auto;cursor:pointer;
   display:grid;place-items:center;color:#fff;
   font-size:14.5px;font-weight:700;letter-spacing:-.03em;
   background:linear-gradient(160deg,var(--sf),var(--sf2));
@@ -766,17 +766,17 @@ html[data-theme="dark"] .kursavdelare{
 .sparkod:focus-visible{outline:2.5px solid var(--acc);outline-offset:3px}
 
 .kursoppna{
-  position:static;flex:1;display:flex;flex-direction:column;align-items:center;gap:18px;
+  position:static;flex:1;display:flex;flex-direction:column;align-items:center;gap:14px;
   text-align:center;color:inherit;cursor:pointer;
 }
 .kursoppna:after{content:"";position:absolute;inset:0;z-index:1;border-radius:inherit}
 .kursoppna:focus-visible{outline:none}
 .kursoppna:focus-visible:after{box-shadow:inset 0 0 0 2.5px var(--acc);border-radius:22px}
-.course-card h3{font-size:19px;line-height:1.18;letter-spacing:-.035em;text-wrap:balance}
+.course-card h3{font-size:18px;line-height:1.18;letter-spacing:-.035em;text-wrap:balance}
 
 /* Pil i hörnet som glider fram vid hovring. */
 .kurspil{
-  position:absolute;top:35px;right:20px;width:22px;height:22px;z-index:2;pointer-events:none;
+  position:absolute;top:31px;right:18px;width:22px;height:22px;z-index:2;pointer-events:none;
   color:var(--tintStrong);opacity:0;transform:translate(-5px,5px);
   transition:opacity .3s ease,transform .4s var(--lyft);
 }
@@ -2448,14 +2448,15 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .shell{width:calc(100% - 26px)}
   .course-grid{--kol:1;--mellan:12px}
   .kursavdelare{margin-top:28px;margin-bottom:28px}
-  .course-card{min-height:0;padding:18px 18px 16px;gap:14px}
-  .kursoppna{gap:14px}
-  .kurspil{top:31px;right:16px}
+  .course-card{min-height:0;padding:16px 16px 14px;gap:12px}
+  .kursoppna{gap:12px}
+  .kurspil{top:27px;right:14px}
   .side{grid-template-columns:1fr}
   .area-grid{grid-template-columns:1fr 1fr}
 
   @media(max-width:430px){.area-grid{grid-template-columns:1fr}}
-  .hero{padding:34px 2px 26px}
+  .hero{padding:30px 2px 22px}
+  .hero-bryt{display:none}
   .tbody{font-size:17px;padding:22px 18px}
   .tmeta,.azone{padding-left:16px;padding-right:16px}
   .sumtiles{grid-template-columns:1fr}
@@ -4995,7 +4996,7 @@ function renderHome(){
   <main class="shell view">
     <section class="hero">
       <h1>Träna på rätt saker.<br><em>På rätt nivå.</em></h1>
-      <p>Välj kurs, välj område och börja. Nivån ställer in sig efter hur det går för dig.</p>
+      <p>Välj kurs, välj område och börja.<br class="hero-bryt"> Nivån ställer in sig efter hur det går för dig.</p>
       <div class="kg-globalstats" id="kg-globalstats" hidden aria-label="Kunskapsgymmet i siffror">
         <span class="statpunkt"><i></i><b id="kg-stat-users">0</b> registrerade användare</span>
         <span class="statpunkt"><i></i><b id="kg-stat-attempts">0</b> lösta uppgifter</span>

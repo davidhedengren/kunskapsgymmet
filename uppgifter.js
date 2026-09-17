@@ -49084,48 +49084,108 @@ window.BANK = [
     "id": "6.4",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "typ": "kombinera tryck från en belastad kolv med allmänna gaslagen för att beräkna kolvens förflyttning, ur diagram, sökt tryck volym och sträcka",
-    "poang": "(0/1/2)",
-    "t": "<p>En lodrät cylinder är stängd av en lättrörlig kolv med arean 20 cm². Cylindern innehåller 1,2 liter luft vid lufttrycket 101 kPa och temperaturen 20 °C. En vikt på 15 kg läggs på kolven och därefter värms gasen till 80 °C.</p><span class=\"fig smal\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span>\n<ol><li>Vilket tryck råder i gasen sedan vikten lagts på?</li>\n<li>Vilken volym har gasen vid 80 °C?</li>\n<li>Hur långt har kolven flyttat sig jämfört med utgångsläget, och åt vilket håll?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vikten ger ett extra tryck över den lättrörliga kolven.</p><div class=\"facit-matte\">\\[\\Delta p=\\frac{15\\cdot9{,}82}{20\\cdot10^{-4}}\\approx73650\\ \\mathrm{Pa}=73{,}65\\ \\mathrm{kPa}\\]\\[p_2=101+73{,}65=174{,}65\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför ursprungstillståndet med slutläget efter belastning och uppvärmning.</p><div class=\"facit-matte\">\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}=1{,}2\\frac{101}{174{,}65}\\frac{353{,}15}{293{,}15}=0{,}836\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volymen har minskat med \\(1{,}200-0{,}836=0{,}364\\ \\mathrm L=364\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{\\Delta V}{A}=\\frac{364}{20}=18{,}2\\ \\mathrm{cm}\\]</div><p>Kolven har flyttats nedåt; belastningens kompression är större än uppvärmningens expansion.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gastrycket är \\(175\\ \\mathrm{kPa}\\), slutvolymen \\(0{,}836\\ \\mathrm L\\), och kolven ligger cirka \\(18\\ \\mathrm{cm}\\) lägre än från början.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "C",
+    "typ": "belastad kolv och allmänna gaslagen",
+    "poang": "(1/2/0)",
+    "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Försumma friktion och använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Vikten ger Δp=mg/A=15,0·9,82/(20,0·10⁻⁴)=73,65 kPa. Gasen balanserar både lufttrycket och vikten, så p₂=101+73,65=174,65 kPa. Svar: 174,7 kPa.</p><p>b) Gasmängden är konstant och sluttrycket hålls av samma last. V₂=V₁(p₁/p₂)(T₂/T₁)=1,20·(101/174,65)·(353,15/293,15)≈0,83599 liter. Svar: 0,836 liter.</p><p>c) Volymminskningen är (1,20−0,83599) liter≈364,01 cm³. Med ΔV=AΔh fås Δh=364,01/20,0≈18,20 cm. Kolven ligger lägre eftersom belastningens kompression dominerar över uppvärmningens expansion. Svar: 18,2 cm.</p>",
+    "familj": "Belastad kolv och allmänna gaslagen",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Vikten ger ett extra tryck över den lättrörliga kolven. Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
+    "familjNyckel": "gaslagen__belastad_kolv_och_allmanna_gaslagen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      174.7,
+      0.836,
+      18.2
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Vilka nedåtriktade tryck och krafter verkar på kolven?</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "kPa",
+      "liter",
+      "cm"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En lodrät cylinder är stängd av en lättrörlig kolv med arean 20 cm². Cylindern innehåller 1,2 liter luft vid lufttrycket 101 kPa och temperaturen 20 °C. En vikt på 15 kg läggs på kolven och därefter värms gasen till 80 °C.</p><span class=\"fig smal\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span>",
+    "spelIntro": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Försumma friktion och använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilket tryck råder i gasen sedan vikten lagts på?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vikten ger ett extra tryck över den lättrörliga kolven.</p><div class=\"facit-matte\">\\[\\Delta p=\\frac{15\\cdot9{,}82}{20\\cdot10^{-4}}\\approx73650\\ \\mathrm{Pa}=73{,}65\\ \\mathrm{kPa}\\]\\[p_2=101+73{,}65=174{,}65\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(174{,}65\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Vikten ger ett extra tryck över den lättrörliga kolven. Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Försumma friktion och använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens absoluta tryck när vikten ligger på kolven. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Vikten ger Δp=mg/A=15,0·9,82/(20,0·10⁻⁴)=73,65 kPa. Gasen balanserar både lufttrycket och vikten, så p₂=101+73,65=174,65 kPa. Svar: 174,7 kPa.</p>",
+        "ledtrad": "<p>Vilka nedåtriktade tryck och krafter verkar på kolven?</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Vilken volym har gasen vid 80 °C?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför ursprungstillståndet med slutläget efter belastning och uppvärmning.</p><div class=\"facit-matte\">\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}=1{,}2\\frac{101}{174{,}65}\\frac{353{,}15}{293{,}15}=0{,}836\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}836\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Vikten ger ett extra tryck över den lättrörliga kolven. Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Försumma friktion och använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm gasens volym vid 80,0 °C. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>Gasmängden är konstant och sluttrycket hålls av samma last. V₂=V₁(p₁/p₂)(T₂/T₁)=1,20·(101/174,65)·(353,15/293,15)≈0,83599 liter. Svar: 0,836 liter.</p>",
+        "ledtrad": "<p>Jämför starttillståndet före belastningen med det uppvärmda slutläget.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Hur långt har kolven flyttat sig jämfört med utgångsläget, och åt vilket håll?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volymen har minskat med \\(1{,}200-0{,}836=0{,}364\\ \\mathrm L=364\\ \\mathrm{cm^3}\\).</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{\\Delta V}{A}=\\frac{364}{20}=18{,}2\\ \\mathrm{cm}\\]</div><p>Kolven har flyttats nedåt; belastningens kompression är större än uppvärmningens expansion.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(18{,}2\\ \\mathrm{cm}\\).</p></div>",
-        "ledtrad": "<p>Vikten ger ett extra tryck över den lättrörliga kolven. Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En lodrät cylinder innehåller 1,20 liter luft vid 101 kPa och 20,0 °C. Den stängs av en lättrörlig, masslös kolv med arean 20,0 cm². En vikt på 15,0 kg läggs på kolven. Med vikten kvar värms gasen till 80,0 °C. Försumma friktion och använd g = 9,82 m/s².</p><span class=\"fig\"><svg height=\"403\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"108.000 27.006 203.657 216.049\"><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"300\" y1=\"40\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"120\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"123\" y=\"120\" width=\"174\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"118\" y=\"102\" width=\"184\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"172\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">gas</text><rect x=\"170\" y=\"58\" width=\"80\" height=\"44\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"210\" y=\"85\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">15 kg</text><text x=\"210\" y=\"232\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">kolvarea 20 cm²</text></svg></span><p>Bestäm hur långt kolven ligger under sitt ursprungliga läge. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Volymminskningen är (1,20−0,83599) liter≈364,01 cm³. Med ΔV=AΔh fås Δh=364,01/20,0≈18,20 cm. Kolven ligger lägre eftersom belastningens kompression dominerar över uppvärmningens expansion. Svar: 18,2 cm.</p>",
+        "ledtrad": "<p>Omvandla volymskillnaden till cm³ och dividera med kolvarean.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -49596,12 +49656,13 @@ window.BANK = [
     "kap": 6,
     "omr": "vatsketryck",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Den lilla kolven har radien 1,5 cm och trycks med kraften 100 N. Den stora kolven har radien 5,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Två kolvar förbundna med vätska i en hydraulisk modell\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M90 153H132.0V263H335V153H475V300H90Z\" fill=\"#dcebf6\"/><path d=\"M90 145V300H475V145 M132.0 145V263H335V145\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><rect x=\"85\" y=\"143\" width=\"52.0\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><rect x=\"330\" y=\"143\" width=\"150\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M111.0 65V130 M105.0 120L111.0 130L117.0 120 M405 130V65 M399 75L405 65L411 75\" fill=\"none\" stroke=\"#ad5144\" stroke-width=\"3\"/><text x=\"111.0\" y=\"45\" text-anchor=\"middle\">100 N</text><text x=\"405\" y=\"45\" text-anchor=\"middle\">F₂</text><text x=\"111.0\" y=\"325\" text-anchor=\"middle\">r₁ = 1,5 cm</text><text x=\"405\" y=\"325\" text-anchor=\"middle\">r₂ = 5,0 cm</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm övertrycket under den lilla kolven och kraften från tryckskillnaden på den stora.</li><li>Förklara varför kraften blir större trots samma övertryck.</li></ol>",
-    "s": "<p>a) A₁ = π · 0,015² m². Δp = 100/A₁ ≈ 141 471,06 Pa ≈ 141,47 kPa. F₂ = Δpπ · 0,050² = 100(5,0/1,5)² ≈ 1111,11 N.</p><p>b) Pascals princip säger att den pålagda tryckökningen överförs oförminskad. Kraften är Δp gånger arean, så den större kolven får större kraft. Samma tryck betyder inte samma kraft.</p>",
+    "poang": "(2/2/0)",
+    "t": "<p>En hydraulisk press har en liten kolv med radien 1,5 cm och en stor kolv med radien 5,0 cm. Den lilla kolven trycks ned med kraften 100 N. Pressen behandlas som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-10\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: r = 1,5 cm</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: r = 5,0 cm</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"arbetsstycke i press\"><rect x=\"415\" y=\"97\" width=\"82\" height=\"42\" rx=\"4\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><rect x=\"385\" y=\"77\" width=\"142\" height=\"10\" rx=\"3\" fill=\"#56616D\"/></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-10)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">100 N</text><line x1=\"456\" y1=\"145\" x2=\"456\" y2=\"68\" stroke=\"#2E7D5B\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-10)\"/><text x=\"456\" y=\"48\" text-anchor=\"middle\">F = ?</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen i oljan.</li><li>Bestäm kraften från den stora kolven.</li><li>Förklara varför den stora kolven ger större kraft trots att tryckökningen är lika stor i hela oljan.</li></ol>",
+    "s": "<p>a) Den lilla kolvens area är A₁ = π · 0,015² m². Tryckökningen blir Δp = 100/A₁ ≈ 141 471 Pa ≈ 141 kPa.</p><p>b) Den stora kolvens area är A₂ = π · 0,050² m². Kraften blir F₂ = ΔpA₂ = 100(5,0/1,5)² ≈ 1111 N.</p><p>c) Pascals princip innebär att samma tryckökning överförs genom oljan. Kraften är F = ΔpA. Den stora kolven har större area och får därför större kraft; lika tryck betyder inte lika kraft.</p>",
     "familj": "Pascals princip och kolvkraft",
     "formaga": [
-      "modellering",
+      "begrepp",
+      "procedur",
       "resonemang"
     ],
     "familjNyckel": "vatsketryck__pascals_princip_och_kolvkraft",
@@ -49609,8 +49670,8 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>En tryckökning överförs genom vätskan, men kraften beror på arean.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Skilj mellan tryckökningen i oljan och kraften som trycket ger på en viss area.</p>",
+    "traningsniva": 4,
     "typ": "pascals princip och kolvkraft",
     "miniräknare": true,
     "geogebra": false,
@@ -49817,22 +49878,28 @@ window.BANK = [
     "id": "6.12",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Damien fyller en sopsäck med 50 liter luft när lufttrycket är 98 kPa. Han sätter en klämma på påsens ena ända så att den kan antas vara helt lufttät. Några timmar senare är lufttrycket 103 kPa, medan temperaturen är oförändrad.</p>\n<p>Vilken volym har påsen nu?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Säcken är lufttät, så gasmängden är konstant. Temperaturen är också oförändrad. Då gäller Boyles lag: tryck gånger volym är konstant.</p><div class=\"facit-matte\">\\[p_1V_1=p_2V_2\\]\\[V_2=\\frac{p_1V_1}{p_2}=\\frac{98\\cdot50}{103}=47{,}6\\ \\mathrm L\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen blir cirka \\(48\\ \\mathrm L\\). Den minskar eftersom trycket har ökat.</p></div>",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En mjuk, lufttät påse innehåller 50,0 liter luft när omgivningens absoluta tryck är 98,0 kPa. Senare är trycket 103 kPa. Temperaturen är oförändrad och påsen anpassar sig så att trycket inuti är lika med omgivningens.</p><p>Bestäm påsens nya volym. Svara i liter. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Gasmängd och temperatur är konstanta, så p₁V₁=p₂V₂. V₂=98,0·50,0/103≈47,573 liter. Volymen minskar när trycket ökar. Svar: 47,6 liter.</p>",
     "familj": "Boyles lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__boyles_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 48,
-    "tolerans": 0.72,
+    "rättSvar": 47.6,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "L",
-    "ledtrad": "<p>Säcken är lufttät, så gasmängden är konstant. Temperaturen är också oförändrad. Då gäller Boyles lag: tryck gånger volym är konstant.</p>"
+    "ledtrad": "<p>Vilka två storheter är konstanta så att Boyles lag kan användas?</p>",
+    "traningsniva": 2,
+    "typ": "boyles lag",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.13",
@@ -50291,176 +50358,133 @@ window.BANK = [
     "id": "6.19",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Curt har en låda som kan stängas så att den är helt lufttät. Luften i rummet har trycket 101,3 kPa och temperaturen 18 °C. Curt stänger locket och värmer sedan upp lådan så att både lådan och luften inuti får temperaturen 45 °C. Lådan antas bestå av ett hållbart material.</p>\n<ol><li>Vilka av storheterna i den ideala gaslagen är lika stora före och efter uppvärmningen? Förklara varför.</li>\n<li>Omvandla temperaturerna till kelvin.</li>\n<li>Bestäm lufttrycket i den uppvärmda lådan.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan är tät och styv. Därför är gasmängden \\(n\\) och volymen \\(V\\) oförändrade; \\(R\\) är en konstant. Tryck och temperatur ändras.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna i kelvin är</p><div class=\"facit-matte\">\\[T_1=18+273{,}15=291{,}15\\ \\mathrm K\\]\\[T_2=45+273{,}15=318{,}15\\ \\mathrm K\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant \\(n\\) och \\(V\\) gäller \\(p/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[p_2=101{,}3\\frac{318{,}15}{291{,}15}=110{,}7\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(n\\) och \\(V\\) är oförändrade. Temperaturerna är \\(291\\) och \\(318\\ \\mathrm K\\), och sluttrycket cirka \\(111\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En styv, lufttät låda stängs när luften har trycket 101,3 kPa och temperaturen 18,0 °C. Därefter värms lådan och luften till 45,0 °C. Lådans volym ändras inte.</p><p>Bestäm luftens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Eftersom lådan är tät och styv är gasmängd och volym konstanta. T₁=291,15 K och T₂=318,15 K. Därför p₂=p₁T₂/T₁=101,3·318,15/291,15≈110,694 kPa. Svar: 110,7 kPa.</p>",
+    "familj": "Tryck och absolut temperatur",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      null,
-      null,
-      110.7
-    ],
-    "tolerans": [
-      null,
-      null,
-      1.6605
-    ],
-    "självrättning": [
-      false,
-      false,
-      true
-    ],
-    "svarFormat": [
-      null,
-      null,
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      "kPa"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Lådan är tät och styv. Därför är gasmängden \\(n\\) och volymen \\(V\\) oförändrade; \\(R\\) är en konstant. Tryck och temperatur ändras.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Curt har en låda som kan stängas så att den är helt lufttät. Luften i rummet har trycket 101,3 kPa och temperaturen 18 °C. Curt stänger locket och värmer sedan upp lådan så att både lådan och luften inuti får temperaturen 45 °C. Lådan antas bestå av ett hållbart material.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilka av storheterna i den ideala gaslagen är lika stora före och efter uppvärmningen? Förklara varför.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan är tät och styv. Därför är gasmängden \\(n\\) och volymen \\(V\\) oförändrade; \\(R\\) är en konstant. Tryck och temperatur ändras.</p></div></div></div>",
-        "ledtrad": "<p>Lådan är tät och styv. Därför är gasmängden \\(n\\) och volymen \\(V\\) oförändrade; \\(R\\) är en konstant. Tryck och temperatur ändras.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Omvandla temperaturerna till kelvin.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna i kelvin är</p><div class=\"facit-matte\">\\[T_1=18+273{,}15=291{,}15\\ \\mathrm K\\]\\[T_2=45+273{,}15=318{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(318{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Lådan är tät och styv. Därför är gasmängden \\(n\\) och volymen \\(V\\) oförändrade; \\(R\\) är en konstant. Tryck och temperatur ändras.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Bestäm lufttrycket i den uppvärmda lådan.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant \\(n\\) och \\(V\\) gäller \\(p/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[p_2=101{,}3\\frac{318{,}15}{291{,}15}=110{,}7\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(110{,}7\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Lådan är tät och styv. Därför är gasmängden \\(n\\) och volymen \\(V\\) oförändrade; \\(R\\) är en konstant. Tryck och temperatur ändras.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 110.7,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Vilka storheter förblir oförändrade i en tät och styv låda?</p>",
+    "traningsniva": 3,
+    "typ": "tryck och absolut temperatur",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.20",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "typ": "beräkna tryckökningen i en uppblåsbar båt vid uppvärmning med konstant volym, ur text, sökt tryck",
-    "poang": "(1/2/0)",
-    "t": "<p>En uppblåsbar fiskebåt pumpas på morgonen till övertrycket 0,25 bar när lufttemperaturen är 8 °C. På eftermiddagen har luften i pontonerna värmts till 28 °C. Lufttrycket är 101 kPa och pontonernas volym kan antas vara oförändrad.</p>\n<p>Hur stort blir övertrycket på eftermiddagen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gaslagen kräver absoluttryck och kelvin. Startens övertryck är 0,25 bar = 25 kPa.</p><div class=\"facit-matte\">\\[p_{1,\\mathrm{abs}}=101+25=126\\ \\mathrm{kPa}\\]\\[T_1=281{,}15\\ \\mathrm K,\\qquad T_2=301{,}15\\ \\mathrm K\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant volym gäller \\(p/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[p_{2,\\mathrm{abs}}=126\\frac{301{,}15}{281{,}15}=134{,}96\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Manometern visar övertrycket.</p><div class=\"facit-matte\">\\[p_{2,\\mathrm{över}}=134{,}96-101=33{,}96\\ \\mathrm{kPa}=0{,}340\\ \\mathrm{bar}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Övertrycket på eftermiddagen blir cirka \\(0{,}34\\ \\mathrm{bar}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "niva": "E",
+    "typ": "övertryck vid temperaturändring",
+    "poang": "(2/0/0)",
+    "t": "<p>En uppblåsbar ponton har övertrycket 0,250 bar vid 8,0 °C. Senare värms luften till 28,0 °C. Pontonens volym är oförändrad och omgivningens lufttryck är hela tiden 1,010 bar.</p><p>Bestäm det nya övertrycket. Svara i bar. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>Gaslagen kräver absoluttryck. p₁,abs=1,010+0,250=1,260 bar, T₁=281,15 K och T₂=301,15 K. p₂,abs=1,260·301,15/281,15≈1,3496 bar. Övertrycket blir 1,3496−1,010≈0,3396 bar. Svar: 0,340 bar.</p>",
+    "familj": "Övertryck vid temperaturändring",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Rita nivåerna och markera var trycken ska jämföras. Använd \\(p=F/A\\), \\(\\Delta p=\\rho gh\\) eller Arkimedes princip efter situationen.</p>"
+    "familjNyckel": "gaslagen__overtryck_vid_temperaturandring",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.34,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Börja med att omvandla både övertrycket och celsiustemperaturerna till absoluta storheter.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "bar",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.21",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "typ": "beräkna nytt tryck vid uppvärmning av gas med konstant volym, ur text, sökt temperatur och tryck",
-    "poang": "(2/1/0)",
-    "t": "<p>En gasflaska är fylld till trycket 150 bar vid temperaturen 20 °C. Flaskan ställs i solen och gasen värms till 60 °C. Volymen är konstant.</p>\n<ol><li>Räkna om båda temperaturerna till kelvin.</li>\n<li>Vilket tryck råder vid den högre temperaturen?</li>\n<li>Hur många procent har trycket ökat?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna i kelvin är</p><div class=\"facit-matte\">\\[T_1=293{,}15\\ \\mathrm K,\\qquad T_2=333{,}15\\ \\mathrm K\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant volym gäller \\(p/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[p_2=150\\frac{333{,}15}{293{,}15}=170{,}46\\ \\mathrm{bar}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den relativa ökningen är</p><div class=\"facit-matte\">\\[\\frac{170{,}46-150}{150}\\cdot100=13{,}6\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturerna är \\(293{,}15\\) och \\(333{,}15\\ \\mathrm K\\). Trycket blir cirka \\(170\\ \\mathrm{bar}\\), en ökning med \\(13{,}6\\,\\%\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "niva": "E",
+    "typ": "tryck och absolut temperatur",
+    "poang": "(2/0/0)",
+    "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.</li><li>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Vid konstant volym gäller p/T=konstant. p₂=150·333,15/293,15≈170,467 bar. Svar: 170,5 bar.</p><p>b) Tryckets relativa förändring är samma som den absoluta temperaturens: (333,15/293,15−1)·100≈13,6449 %. Svar: 13,6 %.</p>",
+    "familj": "Tryck och absolut temperatur",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      null,
-      170.46,
+      170.5,
       13.6
     ],
     "tolerans": [
-      null,
-      2.5569,
-      0.204
+      0,
+      0
     ],
-    "självrättning": [
-      false,
-      true,
-      true
-    ],
-    "svarFormat": [
-      null,
-      "numeriskt",
-      "numeriskt"
-    ],
+    "självrättning": true,
+    "ledtrad": "<p>Omvandla båda temperaturerna till kelvin.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": [
-      null,
       "bar",
       "%"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
-      "b",
-      "c"
+      "b"
     ],
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten. Omvandla med \\(T(\\mathrm K)=t(^{\\circ}\\mathrm C)+273{,}15\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En gasflaska är fylld till trycket 150 bar vid temperaturen 20 °C. Flaskan ställs i solen och gasen värms till 60 °C. Volymen är konstant.</p>",
+    "spelIntro": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Räkna om båda temperaturerna till kelvin.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna i kelvin är</p><div class=\"facit-matte\">\\[T_1=293{,}15\\ \\mathrm K,\\qquad T_2=333{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(333{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten. Omvandla med \\(T(\\mathrm K)=t(^{\\circ}\\mathrm C)+273{,}15\\).</p>",
+        "fraga": "Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><p>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Vid konstant volym gäller p/T=konstant. p₂=150·333,15/293,15≈170,467 bar. Svar: 170,5 bar.</p>",
+        "ledtrad": "<p>Omvandla båda temperaturerna till kelvin.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Vilket tryck råder vid den högre temperaturen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant volym gäller \\(p/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[p_2=150\\frac{333{,}15}{293{,}15}=170{,}46\\ \\mathrm{bar}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(170{,}46\\ \\mathrm{bar}\\).</p></div>",
-        "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten. Omvandla med \\(T(\\mathrm K)=t(^{\\circ}\\mathrm C)+273{,}15\\).</p>",
+        "fraga": "Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En styv gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 150 bar och temperaturen 20,0 °C. Gasen värms till 60,0 °C.</p><p>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Tryckets relativa förändring är samma som den absoluta temperaturens: (333,15/293,15−1)·100≈13,6449 %. Svar: 13,6 %.</p>",
+        "ledtrad": "<p>Jämför tryckökningen med starttrycket, inte med sluttrycket.</p>",
         "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Hur många procent har trycket ökat?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den relativa ökningen är</p><div class=\"facit-matte\">\\[\\frac{170{,}46-150}{150}\\cdot100=13{,}6\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}6\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten. Omvandla med \\(T(\\mathrm K)=t(^{\\circ}\\mathrm C)+273{,}15\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -50468,38 +50492,85 @@ window.BANK = [
     "id": "6.22",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "typ": "bestämma temperaturen i en varmluftsballong ur kravet på densitet vid svävande jämvikt, ur text, sökt densitet och temperatur",
-    "poang": "(0/1/2)",
-    "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare väger tillsammans 600 kg. Uteluften har densiteten 1,29 kg/m³ vid temperaturen 15 °C. Trycket inuti och utanför ballongen är detsamma.</p>\n<ol><li>Hur stor får den varma luftens densitet vara för att ballongen ska sväva?</li>\n<li>Hur varm måste luften i ballongen vara?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid svävning är den undanträngda uteluftens massa lika med ballongens totala massa.</p><div class=\"facit-matte\">\\[\\rho_uV=\\rho_iV+m\\Rightarrow \\rho_i=\\rho_u-\\frac mV\\]\\[\\rho_i=1{,}29-\\frac{600}{2200}=1{,}017\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid samma tryck gäller \\(\\rho T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[T_i=T_u\\frac{\\rho_u}{\\rho_i}=288{,}15\\frac{1{,}29}{1{,}017}=365{,}4\\ \\mathrm K\\]\\[t_i=365{,}4-273{,}15=92{,}3\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den varma luften får ha densiteten högst \\(1{,}02\\ \\mathrm{kg/m^3}\\), vilket kräver ungefär \\(92\\,{}^{\\circ}\\mathrm C\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "C",
+    "typ": "varmluftsballongens jämvikt",
+    "poang": "(0/2/0)",
+    "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Försumma höljets volym.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600. Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³. Svar: 1,017 kg/m³.</p><p>b) Vid samma tryck och för samma gas gäller ρT=konstant. T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C. Svar: 92,3 °C.</p>",
+    "familj": "Varmluftsballongens jämvikt",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Vid svävning är den undanträngda uteluftens massa lika med ballongens totala massa.</p>",
+    "familjNyckel": "gaslagen__varmluftsballongens_jamvikt",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.017,
+      92.3
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Den undanträngda uteluftens massa ska bära både den varma luften och övrig massa.</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "kg/m³",
+      "°C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare väger tillsammans 600 kg. Uteluften har densiteten 1,29 kg/m³ vid temperaturen 15 °C. Trycket inuti och utanför ballongen är detsamma.</p>",
+    "spelIntro": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Försumma höljets volym.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor får den varma luftens densitet vara för att ballongen ska sväva?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid svävning är den undanträngda uteluftens massa lika med ballongens totala massa.</p><div class=\"facit-matte\">\\[\\rho_uV=\\rho_iV+m\\Rightarrow \\rho_i=\\rho_u-\\frac mV\\]\\[\\rho_i=1{,}29-\\frac{600}{2200}=1{,}017\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}017\\ \\mathrm{kg/m^3}\\).</p></div>",
-        "ledtrad": "<p>Vid svävning är den undanträngda uteluftens massa lika med ballongens totala massa.</p>",
-        "niva": "A"
+        "fraga": "Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Försumma höljets volym.</p><p>Bestäm den största densitet som luften i ballongen får ha för svävande jämvikt. Svara i kg/m³. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>Jämvikt ger ρ<sub>u</sub>V=ρ<sub>i</sub>V+600. Alltså ρ<sub>i</sub>=1,29−600/2200≈1,01727 kg/m³. Svar: 1,017 kg/m³.</p>",
+        "ledtrad": "<p>Den undanträngda uteluftens massa ska bära både den varma luften och övrig massa.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Hur varm måste luften i ballongen vara?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid samma tryck gäller \\(\\rho T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[T_i=T_u\\frac{\\rho_u}{\\rho_i}=288{,}15\\frac{1{,}29}{1{,}017}=365{,}4\\ \\mathrm K\\]\\[t_i=365{,}4-273{,}15=92{,}3\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(92{,}3\\,{}^{\\circ}\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Vid svävning är den undanträngda uteluftens massa lika med ballongens totala massa.</p>",
-        "niva": "A"
+        "fraga": "Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En varmluftsballong har volymen 2200 m³. Hölje, korg och passagerare har tillsammans massan 600 kg. Uteluftens densitet är 1,29 kg/m³ vid 15,0 °C. Trycket är samma inuti och utanför ballongen. Försumma höljets volym.</p><p>Bestäm temperaturen hos luften i ballongen för denna jämvikt. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Vid samma tryck och för samma gas gäller ρT=konstant. T<sub>i</sub>=288,15·1,29/1,01727≈365,40 K=92,25 °C. Svar: 92,3 °C.</p>",
+        "ledtrad": "<p>Vid konstant tryck är densiteten omvänt proportionell mot kelvintemperaturen.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -51489,44 +51560,99 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Omvandla temperaturerna.</p>\n<ol><li>25 °C till kelvin</li><li>−40 °C till kelvin</li><li>195 K till celsius</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sambandet är \\(T(\\mathrm K)=t({}^{\\circ}\\mathrm C)+273{,}15\\).</p><p class=\"facit-metod\">\\(25\\,{}^{\\circ}\\mathrm C\\):</p><div class=\"facit-matte\">\\[T=25+273{,}15=298{,}15\\ \\mathrm K\\approx298\\ \\mathrm K\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">\\(-40\\,{}^{\\circ}\\mathrm C\\):</p><div class=\"facit-matte\">\\[T=-40+273{,}15=233{,}15\\ \\mathrm K\\approx233\\ \\mathrm K\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">\\(195\\ \\mathrm K\\):</p><div class=\"facit-matte\">\\[t=195-273{,}15=-78{,}15\\,{}^{\\circ}\\mathrm C\\approx-78\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturerna är \\(298\\ \\mathrm K\\), \\(233\\ \\mathrm K\\) och \\(-78\\,{}^{\\circ}\\mathrm C\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "poang": "(3/0/0)",
+    "t": "<p>Använd sambanden T=t+273,15 och t=T−273,15.</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) T=25,0+273,15=298,15 K. Svar: 298,15 K.</p><p>b) T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p><p>c) t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p>",
+    "familj": "Omvandla mellan Celsius och kelvin",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Sambandet är \\(T(\\mathrm K)=t({}^{\\circ}\\mathrm C)+273{,}15\\).</p>",
+    "familjNyckel": "gaslagen__omvandla_mellan_celsius_och_kelvin",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      298.15,
+      233.15,
+      -78.15
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Lägg 273,15 till celsiustemperaturen.</p>",
+    "traningsniva": 1,
+    "typ": "omvandla mellan celsius och kelvin",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "K",
+      "K",
+      "°C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Omvandla temperaturerna.</p>",
+    "spelIntro": "<p>Använd sambanden T=t+273,15 och t=T−273,15.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "25 °C till kelvin",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sambandet är \\(T(\\mathrm K)=t({}^{\\circ}\\mathrm C)+273{,}15\\).</p><p class=\"facit-metod\">\\(25\\,{}^{\\circ}\\mathrm C\\):</p><div class=\"facit-matte\">\\[T=25+273{,}15=298{,}15\\ \\mathrm K\\approx298\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(298{,}15\\ \\mathrm K\\approx298\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Sambandet är \\(T(\\mathrm K)=t({}^{\\circ}\\mathrm C)+273{,}15\\).</p>",
-        "niva": "E"
+        "fraga": "Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Använd sambanden T=t+273,15 och t=T−273,15.</p><p>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>T=25,0+273,15=298,15 K. Svar: 298,15 K.</p>",
+        "ledtrad": "<p>Lägg 273,15 till celsiustemperaturen.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "−40 °C till kelvin",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">\\(-40\\,{}^{\\circ}\\mathrm C\\):</p><div class=\"facit-matte\">\\[T=-40+273{,}15=233{,}15\\ \\mathrm K\\approx233\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(233{,}15\\ \\mathrm K\\approx233\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Sambandet är \\(T(\\mathrm K)=t({}^{\\circ}\\mathrm C)+273{,}15\\).</p>",
-        "niva": "E"
+        "fraga": "Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Använd sambanden T=t+273,15 och t=T−273,15.</p><p>Omvandla −40,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>T=−40,0+273,15=233,15 K. Svar: 233,15 K.</p>",
+        "ledtrad": "<p>Kelvintemperaturen är fortfarande positiv.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "195 K till celsius",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">\\(195\\ \\mathrm K\\):</p><div class=\"facit-matte\">\\[t=195-273{,}15=-78{,}15\\,{}^{\\circ}\\mathrm C\\approx-78\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-78{,}15\\,{}^{\\circ}\\mathrm C\\approx-78\\,{}^{\\circ}\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Sambandet är \\(T(\\mathrm K)=t({}^{\\circ}\\mathrm C)+273{,}15\\).</p>",
-        "niva": "E"
+        "fraga": "Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Använd sambanden T=t+273,15 och t=T−273,15.</p><p>Omvandla 195 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>t=195−273,15=−78,15 °C. Svar: -78,15 °C.</p>",
+        "ledtrad": "<p>Subtrahera 273,15 när du går från kelvin till Celsius.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       }
     ]
   },
@@ -51534,99 +51660,126 @@ window.BANK = [
     "id": "6.39",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "poang": "(1/2/1)",
-    "t": "<p>En fridykare fyller lungorna med 6,0 liter luft vid ytan och dyker till 20 m djup.</p>\n<ol><li>Hur stort är det totala trycket på 20 m?</li><li>Vilken volym har luften i lungorna där nere?</li>\n<li>Varför är det livsfarligt för en apparatdykare att hålla andan under uppstigning?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Totaltrycket är atmosfärstryck plus vattnets övertryck.</p><div class=\"facit-matte\">\\[p_2=101{,}3+\\frac{998\\cdot9{,}82\\cdot20}{1000}=297\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturen antas konstant, så Boyles lag gäller.</p><div class=\"facit-matte\">\\[p_1V_1=p_2V_2\\Rightarrow V_2=\\frac{101{,}3\\cdot6{,}0}{297}=2{,}05\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En apparatdykare andas in luft vid omgivningens höga tryck. Under uppstigning sjunker trycket och luften expanderar enligt \\(pV=\\text{konstant}\\).</p><p>Om luften inte får lämna lungorna kan expansionen orsaka allvarlig lungöverexpansion.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> På 20 m är totaltrycket cirka \\(297\\ \\mathrm{kPa}\\), och lungvolymen blir cirka \\(2{,}0\\ \\mathrm L\\). En apparatdykare får aldrig hålla andan under uppstigning.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Boyles lag",
+    "niva": "C",
+    "poang": "(2/2/0)",
+    "t": "<p>I en förenklad modell har en fridykare 6,0 liter luft i lungorna vid ytan och dyker till 20 m djup. Lufttrycket vid ytan är 101,3 kPa, vattnets densitet 998 kg/m³ och temperaturen antas konstant. Använd g=9,82 m/s².</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm det absoluta trycket på 20 m djup.</li><li>Bestäm luftvolymen på djupet enligt Boyles lag.</li><li>Förklara varför en apparatdykare som har andats in luft på djupet inte får hålla andan under uppstigning.</li></ol>",
+    "s": "<p>a) p₂=101,3 kPa+998·9,82·20/1000 kPa≈297,31 kPa.</p><p>b) p₁V₁=p₂V₂ ger V₂=101,3·6,0/297,31≈2,044 liter.</p><p>c) En apparatdykare andas luft vid omgivningens högre tryck. När trycket minskar under uppstigningen expanderar luften. Om den inte får lämna lungorna kan vävnaden översträckas och skadas. Den verkliga risken bedöms inte enbart av den enkla gasmodellen.</p>",
+    "familj": "Dykning och Boyles lag",
     "formaga": [
+      "modellering",
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
-    "svarstyp": "manuell",
+    "familjNyckel": "gaslagen__dykning_och_boyles_lag",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Totaltrycket är atmosfärstryck plus vattnets övertryck. Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En fridykare fyller lungorna med 6,0 liter luft vid ytan och dyker till 20 m djup.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stort är det totala trycket på 20 m?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Totaltrycket är atmosfärstryck plus vattnets övertryck.</p><div class=\"facit-matte\">\\[p_2=101{,}3+\\frac{998\\cdot9{,}82\\cdot20}{1000}=297\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(297\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Totaltrycket är atmosfärstryck plus vattnets övertryck. Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\).</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken volym har luften i lungorna där nere?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturen antas konstant, så Boyles lag gäller.</p><div class=\"facit-matte\">\\[p_1V_1=p_2V_2\\Rightarrow V_2=\\frac{101{,}3\\cdot6{,}0}{297}=2{,}05\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}05\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Totaltrycket är atmosfärstryck plus vattnets övertryck. Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\).</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför är det livsfarligt för en apparatdykare att hålla andan under uppstigning?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En apparatdykare andas in luft vid omgivningens höga tryck. Under uppstigning sjunker trycket och luften expanderar enligt \\(pV=\\text{konstant}\\).</p><p>Om luften inte får lämna lungorna kan expansionen orsaka allvarlig lungöverexpansion.</p></div></div></div>",
-        "ledtrad": "<p>Totaltrycket är atmosfärstryck plus vattnets övertryck. Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\).</p>",
-        "niva": "A"
-      }
-    ]
+    "ledtrad": "<p>Använd absoluttrycket både vid ytan och på djupet.</p>",
+    "traningsniva": 4,
+    "typ": "dykning och boyles lag",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.40",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett rum i en betongbunker har stängts så att det är helt lufttätt. Lufttrycket inne i rummet är 100 kPa och temperaturen 22 °C. Temperaturen förändras, och som en följd av detta minskar lufttrycket till 97 kPa.</p>\n<p>Bestäm rummets nya temperatur.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Rummet är tätt och styvt, så \\(n\\) och \\(V\\) är konstanta. Då gäller \\(p/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[T_2=T_1\\frac{p_2}{p_1}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med \\(T_1=22+273{,}15=295{,}15\\ \\mathrm K\\):</p><div class=\"facit-matte\">\\[T_2=295{,}15\\frac{97}{100}=286{,}30\\ \\mathrm K\\]\\[t_2=286{,}30-273{,}15=13{,}15\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den nya temperaturen är cirka \\(286\\ \\mathrm K=13\\,{}^{\\circ}\\mathrm C\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett styvt och lufttätt rum innehåller luft vid det absoluta trycket 100 kPa och temperaturen 22,0 °C. Senare är trycket 97,0 kPa. Gasmängden och rummets volym är oförändrade.</p><p>Bestäm den nya temperaturen i grader Celsius. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Vid konstant volym gäller p/T=konstant. T₂=295,15·97,0/100≈286,296 K. I Celsius blir det 286,296−273,15≈13,146 °C. Svar: 13,1 °C.</p>",
+    "familj": "Temperatur från tryckändring",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Rummet är tätt och styvt, så \\(n\\) och \\(V\\) är konstanta. Då gäller \\(p/T=\\text{konstant}\\).</p>"
+    "familjNyckel": "gaslagen__temperatur_fran_tryckandring",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.1,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Lös först ut sluttemperaturen i kelvin.</p>",
+    "traningsniva": 3,
+    "typ": "temperatur från tryckändring",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "°C",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.343",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En gas i en styv behållare har det absoluta trycket 100 kPa vid 300 K. Trycket ökar till 120 kPa.</p><p>Bestäm sluttemperaturen. Svara i K. Svara med ett heltal.</p>",
+    "s": "<p>Vid konstant volym gäller T₂=T₁p₂/p₁=300·120/100=360 K. Svar: 360 K.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Temperatur från tryckändring",
+    "typ": "temperatur från tryckändring",
+    "ledtrad": "<p>Lös ut T₂ ur p₁/T₁=p₂/T₂.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__temperatur_fran_tryckandring",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 360.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "K",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
   },
   {
     "id": "6.41",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En gasflaska rymmer 12 liter och innehåller gas med trycket 180 bar. Temperaturen ändras inte.</p>\n<p>Vilken volym skulle gasen ha vid det normala lufttrycket 1,0 bar?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturen är konstant, så \\(p_1V_1=p_2V_2\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Räkna om gasmängden till volym vid 1,0 bar.</p><div class=\"facit-matte\">\\[V_2=\\frac{p_1V_1}{p_2}=\\frac{180\\cdot12}{1{,}0}=2160\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gasen motsvarar \\(2160\\ \\mathrm L\\) vid \\(1{,}0\\ \\mathrm{bar}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "poang": "(1/0/0)",
+    "t": "<p>En 12,0-liters gasflaska innehåller en bestämd gasmängd vid det absoluta trycket 180 bar. Temperaturen är oförändrad när gasmängden jämförs med samma gas vid 1,00 bar.</p><p>Bestäm den motsvarande gasvolymen vid 1,00 bar. Svara i liter. Svara med ett heltal.</p>",
+    "s": "<p>Boyles lag ger V₂=p₁V₁/p₂=180·12,0/1,00=2160 liter. Detta är en ekvivalent fri gasvolym, inte flaskans geometriska volym. Svar: 2160 liter.</p>",
+    "familj": "Ekvivalent gasvolym",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Temperaturen är konstant, så \\(p_1V_1=p_2V_2\\). Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>"
+    "familjNyckel": "gaslagen__ekvivalent_gasvolym",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2160.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Samma gasmängd jämförs vid två olika absoluta tryck.</p>",
+    "traningsniva": 2,
+    "typ": "ekvivalent gasvolym",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.42",
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "hydraulik och förflyttning",
+    "typ": "pumpslag och lyfthöjd",
     "poang": "(3/0/0)",
-    "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kraftförstärkningen F_lyft/F_pump. Svara med ett heltal.</li><li>Bestäm volymen som måste föras över. Svara i cm³. Svara med ett heltal.</li><li>Bestäm antalet hela pumptag som krävs. Svara med ett heltal.</li></ol>",
-    "s": "<p>a) F_lyft/F_pump = A_lyft/A_pump = 120/4,0 = 30. Svar: 30.</p><p>b) V = A_lyft h = 120 · 15 = 1800 cm³. Svar: 1800 cm³.</p><p>c) Varje slag ger 4,0 · 25 = 100 cm³. Lyftkolven kräver 120 · 15 = 1800 cm³. Antalet blir 1800/100 = 18. Svar: 18.</p>",
-    "familj": "Hydraulik och förflyttning",
+    "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Vid ett helt pumpslag rör sig pumpkolven 25 cm. Bilen ska höjas 15 cm. Domkraften behandlas som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">15 cm</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm domkraftens kraftförstärkning F<sub>lyft</sub>/F<sub>pump</sub>. Svara med ett heltal.</li><li>Bestäm den oljevolym som måste pumpas över för att höja bilen 15 cm. Svara i cm³. Svara med ett heltal.</li><li>Bestäm hur många hela pumpslag som behövs. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) Kraftförstärkningen är areaförhållandet: F<sub>lyft</sub>/F<sub>pump</sub> = 120/4,0 = 30. Svar: 30.</p><p>b) Volymen under lyftkolven måste öka med V = A<sub>lyft</sub>h = 120 · 15 = 1800 cm³. Svar: 1800 cm³.</p><p>c) Ett pumpslag flyttar volymen 4,0 · 25 = 100 cm³. Antalet blir 1800/100 = 18. Svar: 18.</p>",
+    "familj": "Pumpslag och lyfthöjd",
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "familjNyckel": "tryck__hydraulik_och_forflyttning",
+    "familjNyckel": "tryck__pumpslag_och_lyfthojd",
     "svarstyp": "flera_delar",
     "rättSvar": [
       30.0,
@@ -51639,7 +51792,7 @@ window.BANK = [
       0
     ],
     "självrättning": true,
-    "ledtrad": "<p>Trycket är samma under kolvarna.</p>",
+    "ledtrad": "<p>Jämför lyftkolvens area med pumpkolvens area.</p>",
     "traningsniva": 3,
     "miniräknare": true,
     "geogebra": false,
@@ -51662,49 +51815,55 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p>",
+    "spelIntro": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Vid ett helt pumpslag rör sig pumpkolven 25 cm. Bilen ska höjas 15 cm. Domkraften behandlas som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">15 cm</text></g></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm kraftförstärkningen F_lyft/F_pump. Svara med ett heltal.",
-        "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><p>Bestäm kraftförstärkningen F_lyft/F_pump. Svara med ett heltal.</p>",
-        "s": "<p>F_lyft/F_pump = A_lyft/A_pump = 120/4,0 = 30. Svar: 30.</p>",
-        "ledtrad": "<p>Trycket är samma under kolvarna.</p>",
+        "fraga": "Bestäm domkraftens kraftförstärkning F<sub>lyft</sub>/F<sub>pump</sub>. Svara med ett heltal.",
+        "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Vid ett helt pumpslag rör sig pumpkolven 25 cm. Bilen ska höjas 15 cm. Domkraften behandlas som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">15 cm</text></g></svg></span><p>Bestäm domkraftens kraftförstärkning F<sub>lyft</sub>/F<sub>pump</sub>. Svara med ett heltal.</p>",
+        "s": "<p>Kraftförstärkningen är areaförhållandet: F<sub>lyft</sub>/F<sub>pump</sub> = 120/4,0 = 30. Svar: 30.</p>",
+        "ledtrad": "<p>Jämför lyftkolvens area med pumpkolvens area.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
-        ]
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm volymen som måste föras över. Svara i cm³. Svara med ett heltal.",
-        "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><p>Bestäm volymen som måste föras över. Svara i cm³. Svara med ett heltal.</p>",
-        "s": "<p>V = A_lyft h = 120 · 15 = 1800 cm³. Svar: 1800 cm³.</p>",
-        "ledtrad": "<p>Volym är area gånger förflyttning.</p>",
+        "fraga": "Bestäm den oljevolym som måste pumpas över för att höja bilen 15 cm. Svara i cm³. Svara med ett heltal.",
+        "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Vid ett helt pumpslag rör sig pumpkolven 25 cm. Bilen ska höjas 15 cm. Domkraften behandlas som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">15 cm</text></g></svg></span><p>Bestäm den oljevolym som måste pumpas över för att höja bilen 15 cm. Svara i cm³. Svara med ett heltal.</p>",
+        "s": "<p>Volymen under lyftkolven måste öka med V = A<sub>lyft</sub>h = 120 · 15 = 1800 cm³. Svar: 1800 cm³.</p>",
+        "ledtrad": "<p>Vilken volym motsvarar lyftkolvens area gånger lyfthöjden?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
-        ]
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm antalet hela pumptag som krävs. Svara med ett heltal.",
-        "t": "<p>En ideal hydraulisk domkraft har pumparean 4,0 cm² och lyftarean 120 cm². Lyftkolven ska höjas 15 cm. Ett helt pumptag för över den volym som pumpkolven tränger undan på 25 cm. Vätskan är inkompressibel. Försumma läckage, friktion, kolvmassor och tryckskillnad på grund av höjd.</p><p>Bestäm antalet hela pumptag som krävs. Svara med ett heltal.</p>",
-        "s": "<p>Varje slag ger 4,0 · 25 = 100 cm³. Lyftkolven kräver 120 · 15 = 1800 cm³. Antalet blir 1800/100 = 18. Svar: 18.</p>",
-        "ledtrad": "<p>Jämför den behövda volymen med volymen per slag.</p>",
+        "fraga": "Bestäm hur många hela pumpslag som behövs. Svara med ett heltal.",
+        "t": "<p>En hydraulisk domkraft har en pumpkolv med arean 4,0 cm² och en lyftkolv med arean 120 cm². Vid ett helt pumpslag rör sig pumpkolven 25 cm. Bilen ska höjas 15 cm. Domkraften behandlas som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-9\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 120 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 cm/slag</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-9)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">15 cm</text></g></svg></span><p>Bestäm hur många hela pumpslag som behövs. Svara med ett heltal.</p>",
+        "s": "<p>Ett pumpslag flyttar volymen 4,0 · 25 = 100 cm³. Antalet blir 1800/100 = 18. Svar: 18.</p>",
+        "ledtrad": "<p>Jämför den totala oljevolymen med volymen som flyttas vid ett pumpslag.</p>",
         "niva": "E",
         "traningsniva": 3,
         "arbetsinsats": 2,
         "poang": "(1/0/0)",
         "formaga": [
           "procedur"
-        ]
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -52256,62 +52415,28 @@ window.BANK = [
     "id": "6.50",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En ballong med volymen 3,0 dm³ ligger utomhus på ett bord. Temperaturen är 12 °C. Solen kommer fram och värmer ballongen till 30 °C, men lufttrycket utanför ballongen ändras inte.</p>\n<ol><li>Vilka storheter i den ideala gaslagen är lika stora före och efter uppvärmningen? Förklara varför.</li>\n<li>Bestäm ballongens volym när den har värmts upp.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ballongen är tät, så \\(n\\) är konstant. Den är böjlig och omgivningstrycket ändras inte, så gastrycket \\(p\\) kan betraktas som konstant.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna är \\(285{,}15\\) K och \\(303{,}15\\) K. Vid konstant tryck gäller \\(V/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[V_2=3{,}0\\frac{303{,}15}{285{,}15}=3{,}19\\ \\mathrm{dm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gasmängd och tryck är oförändrade. Ballongens volym blir cirka \\(3{,}2\\ \\mathrm{dm^3}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En tät och lättöjbar ballong har volymen 3,00 dm³ vid 12,0 °C. Den värms till 30,0 °C medan omgivningens absoluta tryck är oförändrat. Anta att gastrycket hela tiden är lika med omgivningens.</p><p>Bestäm ballongens nya volym. Svara i dm³. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Gasmängd och tryck är konstanta, så V/T=konstant. V₂=3,00·303,15/285,15≈3,18937 dm³. Svar: 3,19 dm³.</p>",
+    "familj": "Volym och absolut temperatur",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      null,
-      3.2
-    ],
-    "tolerans": [
-      null,
-      0.048
-    ],
-    "självrättning": [
-      false,
-      true
-    ],
-    "svarFormat": [
-      null,
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Ballongen är tät, så \\(n\\) är konstant. Den är böjlig och omgivningstrycket ändras inte, så gastrycket \\(p\\) kan betraktas som konstant.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En ballong med volymen 3,0 dm³ ligger utomhus på ett bord. Temperaturen är 12 °C. Solen kommer fram och värmer ballongen till 30 °C, men lufttrycket utanför ballongen ändras inte.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilka storheter i den ideala gaslagen är lika stora före och efter uppvärmningen? Förklara varför.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ballongen är tät, så \\(n\\) är konstant. Den är böjlig och omgivningstrycket ändras inte, så gastrycket \\(p\\) kan betraktas som konstant.</p></div></div></div>",
-        "ledtrad": "<p>Ballongen är tät, så \\(n\\) är konstant. Den är böjlig och omgivningstrycket ändras inte, så gastrycket \\(p\\) kan betraktas som konstant.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Bestäm ballongens volym när den har värmts upp.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna är \\(285{,}15\\) K och \\(303{,}15\\) K. Vid konstant tryck gäller \\(V/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[V_2=3{,}0\\frac{303{,}15}{285{,}15}=3{,}19\\ \\mathrm{dm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}19\\ \\mathrm{dm^3}\\).</p></div>",
-        "ledtrad": "<p>Ballongen är tät, så \\(n\\) är konstant. Den är böjlig och omgivningstrycket ändras inte, så gastrycket \\(p\\) kan betraktas som konstant.</p>",
-        "niva": "C"
-      }
-    ]
+    "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.19,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Använd kelvin i temperaturkvoten.</p>",
+    "traningsniva": 2,
+    "typ": "volym och absolut temperatur",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "dm³",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.51",
@@ -52718,47 +52843,108 @@ window.BANK = [
     "id": "6.54",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En ballong förs upp från marken, där trycket är 101 kPa och temperaturen 20 °C, till 5000 m höjd där trycket är 54 kPa och temperaturen −18 °C. Ballongen är tät och lättöjbar.</p>\n<ol><li>Vilken av storheterna p, V, T och n ändras inte?</li>\n<li>Ballongen var 2,0 liter vid marken. Vilken volym får den på höjden?</li>\n<li>Vilken av de två förändringarna påverkar volymen mest?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ballongen är tät, så substansmängden \\(n\\) är oförändrad. \\(p\\), \\(V\\) och \\(T\\) ändras.</p><p>Även gaskonstanten \\(R\\) är naturligtvis konstant.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd den allmänna gaslagen för samma gasmängd.</p><div class=\"facit-matte\">\\[\\frac{p_1V_1}{T_1}=\\frac{p_2V_2}{T_2}\\Rightarrow V_2=2{,}0\\frac{101}{54}\\frac{255{,}15}{293{,}15}=3{,}26\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tryckfallet ensamt skulle ge \\(2{,}0\\cdot101/54=3{,}74\\ \\mathrm L\\). Den lägre temperaturen minskar detta till 3,26 L.</p><p>Tryckförändringen påverkar alltså mest.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Endast gasmängden är oförändrad bland \\(p,V,T,n\\). Volymen blir cirka \\(3{,}3\\ \\mathrm L\\), främst på grund av det lägre trycket.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "C",
+    "poang": "(2/1/0)",
+    "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm volymfaktorn som enbart tryckändringen skulle ge om temperaturen var oförändrad. Avrunda vid behov till 2 decimaler.</li><li>Bestäm volymfaktorn som enbart temperaturändringen skulle ge om trycket var oförändrat. Avrunda vid behov till 2 decimaler.</li><li>Bestäm ballongens verkliga volym på höjden när båda ändringarna tas med. Svara i liter. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) Vid konstant temperatur ger tryckfallet faktorn p₁/p₂=101/54,0≈1,87037. Svar: 1,87.</p><p>b) Vid konstant tryck ger kylningen faktorn T₂/T₁=255,15/293,15≈0,87037. Svar: 0,87.</p><p>c) V₂=V₁(p₁/p₂)(T₂/T₁)=2,00·(101/54,0)·(255,15/293,15)≈3,25584 liter. Tryckfallet ökar volymen mer än kylningen minskar den. Svar: 3,26 liter.</p>",
+    "familj": "Kombinerad gaslag och förändringsfaktorer",
     "formaga": [
-      "procedur"
+      "problemlösning",
+      "procedur",
+      "begrepp"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "gaslagen__ideala_gaslagen",
-    "ledtrad": "<p>Ballongen är tät, så substansmängden \\(n\\) är oförändrad. \\(p\\), \\(V\\) och \\(T\\) ändras.</p>",
+    "familjNyckel": "gaslagen__kombinerad_gaslag_och_forandringsfaktorer",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.87,
+      0.87,
+      3.26
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Jämför de absoluta trycken i omvänd ordning.</p>",
+    "traningsniva": 4,
+    "typ": "kombinerad gaslag och förändringsfaktorer",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      null,
+      null,
+      "liter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En ballong förs upp från marken, där trycket är 101 kPa och temperaturen 20 °C, till 5000 m höjd där trycket är 54 kPa och temperaturen −18 °C. Ballongen är tät och lättöjbar.</p>",
+    "spelIntro": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken av storheterna p, V, T och n ändras inte?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ballongen är tät, så substansmängden \\(n\\) är oförändrad. \\(p\\), \\(V\\) och \\(T\\) ändras.</p><p>Även gaskonstanten \\(R\\) är naturligtvis konstant.</p></div></div></div>",
-        "ledtrad": "<p>Ballongen är tät, så substansmängden \\(n\\) är oförändrad. \\(p\\), \\(V\\) och \\(T\\) ändras.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm volymfaktorn som enbart tryckändringen skulle ge om temperaturen var oförändrad. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><p>Bestäm volymfaktorn som enbart tryckändringen skulle ge om temperaturen var oförändrad. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Vid konstant temperatur ger tryckfallet faktorn p₁/p₂=101/54,0≈1,87037. Svar: 1,87.</p>",
+        "ledtrad": "<p>Jämför de absoluta trycken i omvänd ordning.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "problemlösning",
+          "procedur",
+          "begrepp"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Ballongen var 2,0 liter vid marken. Vilken volym får den på höjden?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd den allmänna gaslagen för samma gasmängd.</p><div class=\"facit-matte\">\\[\\frac{p_1V_1}{T_1}=\\frac{p_2V_2}{T_2}\\Rightarrow V_2=2{,}0\\frac{101}{54}\\frac{255{,}15}{293{,}15}=3{,}26\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}26\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Ballongen är tät, så substansmängden \\(n\\) är oförändrad. \\(p\\), \\(V\\) och \\(T\\) ändras.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Bestäm volymfaktorn som enbart temperaturändringen skulle ge om trycket var oförändrat. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><p>Bestäm volymfaktorn som enbart temperaturändringen skulle ge om trycket var oförändrat. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>Vid konstant tryck ger kylningen faktorn T₂/T₁=255,15/293,15≈0,87037. Svar: 0,87.</p>",
+        "ledtrad": "<p>Temperaturfaktorn måste bildas med kelvin.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "problemlösning",
+          "procedur",
+          "begrepp"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Vilken av de två förändringarna påverkar volymen mest?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tryckfallet ensamt skulle ge \\(2{,}0\\cdot101/54=3{,}74\\ \\mathrm L\\). Den lägre temperaturen minskar detta till 3,26 L.</p><p>Tryckförändringen påverkar alltså mest.</p></div></div></div>",
-        "ledtrad": "<p>Ballongen är tät, så substansmängden \\(n\\) är oförändrad. \\(p\\), \\(V\\) och \\(T\\) ändras.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
+        "fraga": "Bestäm ballongens verkliga volym på höjden när båda ändringarna tas med. Svara i liter. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En tät och lättöjbar ballong har volymen 2,00 liter vid marken, där trycket är 101 kPa och temperaturen 20,0 °C. På 5000 m höjd är trycket 54,0 kPa och temperaturen −18,0 °C. Ballongens tryck antas vara lika med omgivningens.</p><p>Bestäm ballongens verkliga volym på höjden när båda ändringarna tas med. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>V₂=V₁(p₁/p₂)(T₂/T₁)=2,00·(101/54,0)·(255,15/293,15)≈3,25584 liter. Tryckfallet ökar volymen mer än kylningen minskar den. Svar: 3,26 liter.</p>",
+        "ledtrad": "<p>Multiplicera startvolymen med både tryckfaktorn och temperaturfaktorn.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "problemlösning",
+          "procedur",
+          "begrepp"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -52862,26 +53048,27 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "hydraulisk kraftförstärkning",
+    "typ": "jämföra hydrauliska pressar",
     "poang": "(2/0/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Kolvarnas diametrar är 2,4 cm och 9,0 cm. Den lilla belastas med 120 N.</p><p>Bestäm den stora kolvens lyftkraft. Svara i N. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<p>F₂/A₂ = F₁/A₁. Eftersom A = πd²/4 blir F₂ = 120(9,0/2,4)² = 1687,5 N. Svar: 1687,5 N.</p>",
-    "familj": "Hydraulisk kraftförstärkning",
+    "t": "<p>Två hydrauliska pressar har lika stora pumpkolvar och belastas med samma kraft. Presskolvens diameter är 6,0 cm i press A och 9,0 cm i press B. Måtten framgår av figuren och förlusterna försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 300\" role=\"img\" aria-label=\"Två hydrauliska pressar med olika stora lyftkolvar\"><defs><marker id=\"compare-arrow\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"300\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#25313C\" stroke-linejoin=\"round\"><text x=\"155\" y=\"31\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\">Press A</text><path d=\"M45 145h55v70h80v-70h85v100H45z\" fill=\"#CBE7F5\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"41\" y=\"137\" width=\"63\" height=\"11\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"176\" y=\"137\" width=\"93\" height=\"11\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><line x1=\"72\" y1=\"66\" x2=\"72\" y2=\"126\" stroke=\"#C65D36\" stroke-width=\"4\" marker-end=\"url(#compare-arrow)\"/><text x=\"72\" y=\"51\" text-anchor=\"middle\">120 N</text><text x=\"72\" y=\"270\" text-anchor=\"middle\">d₁ = 2,4 cm</text><text x=\"222\" y=\"270\" text-anchor=\"middle\">d₂ = 6,0 cm</text><text x=\"465\" y=\"31\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\">Press B</text><path d=\"M350 145h55v70h65v-70h120v100H350z\" fill=\"#CBE7F5\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"346\" y=\"137\" width=\"63\" height=\"11\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"466\" y=\"137\" width=\"128\" height=\"11\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><line x1=\"377\" y1=\"66\" x2=\"377\" y2=\"126\" stroke=\"#C65D36\" stroke-width=\"4\" marker-end=\"url(#compare-arrow)\"/><text x=\"377\" y=\"51\" text-anchor=\"middle\">120 N</text><text x=\"377\" y=\"270\" text-anchor=\"middle\">d₁ = 2,4 cm</text><text x=\"530\" y=\"270\" text-anchor=\"middle\">d₂ = 9,0 cm</text></g></svg></span><p>Bestäm hur många gånger större presskraften är i press B än i press A. Avrunda till 2 decimaler.</p>",
+    "s": "<p>Pumpkolv och pumpkraft är lika i båda pressarna, så jämförelsen avgörs av de stora kolvarnas areor. F<sub>B</sub>/F<sub>A</sub> = A<sub>B</sub>/A<sub>A</sub> = (9,0/6,0)² = 2,25. Svar: 2,25 gånger.</p>",
+    "familj": "Jämföra hydrauliska pressar",
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "tryck__hydraulisk_kraftforstarkning",
+    "familjNyckel": "tryck__jamfora_hydrauliska_pressar",
     "svarstyp": "numeriskt",
-    "rättSvar": 1687.5,
+    "rättSvar": 2.25,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Hur beror cirkelns area på diametern?</p>",
+    "ledtrad": "<p>Jämför kolvarnas areor, inte bara deras diametrar.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarEnhet": "N",
+    "svarEnhet": null,
     "svarFormat": "numeriskt"
   },
   {
@@ -52943,20 +53130,21 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "största hydrauliska last",
+    "typ": "hydraulisk billyft",
     "poang": "(2/0/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolven har diametern 25 mm och lyftkolven 200 mm. Pumpkraften är 300 N.</p><p>Använd g = 9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Två kolvar förbundna med vätska i en hydraulisk modell\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M90 153H107.5V263H335V153H475V300H90Z\" fill=\"#dcebf6\"/><path d=\"M90 145V300H475V145 M107.5 145V263H335V145\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><rect x=\"85\" y=\"143\" width=\"27.5\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><rect x=\"330\" y=\"143\" width=\"150\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M98.75 65V130 M92.75 120L98.75 130L104.75 120 M405 130V65 M399 75L405 65L411 75\" fill=\"none\" stroke=\"#ad5144\" stroke-width=\"3\"/><text x=\"98.75\" y=\"45\" text-anchor=\"middle\">300 N</text><text x=\"405\" y=\"45\" text-anchor=\"middle\">F₂</text><text x=\"98.75\" y=\"325\" text-anchor=\"middle\">d₁ = 25 mm</text><text x=\"405\" y=\"325\" text-anchor=\"middle\">d₂ = 200 mm</text></g></svg></span><p>Bestäm den lastmassa som lyftkraften kan balansera. Svara i ton. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>Areaförhållandet är (200/25)² = 64. F_lyft = 300 · 64 = 19 200 N. m = 19 200/9,82 ≈ 1955,19 kg = 1,95519 ton. Svar: 1,96 ton.</p>",
-    "familj": "Största hydrauliska last",
+    "t": "<p>En hydraulisk billyft har en pumpkolv med diametern 25 mm och en lyftkolv med diametern 200 mm. Handtaget ger kraften 300 N på pumpkolven. Använd g = 9,82 m/s² och försumma lyftens förluster.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-5\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: d = 25 mm</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: d = 200 mm</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-5)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">300 N</text></g></svg></span><p>Bestäm den största bilmassa som lyftkraften kan balansera. Svara i ton. Avrunda till 2 decimaler.</p>",
+    "s": "<p>Areaförhållandet är (200/25)² = 64. Lyftkraften blir 300 · 64 = 19 200 N. Massan är m = 19 200/9,82 ≈ 1955 kg = 1,955 ton. Svar: 1,96 ton.</p>",
+    "familj": "Hydraulisk billyft",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__storsta_hydrauliska_last",
+    "familjNyckel": "tryck__hydraulisk_billyft",
     "svarstyp": "numeriskt",
     "rättSvar": 1.96,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Trycket överförs, medan kraften beror på kolvarean.</p>",
+    "ledtrad": "<p>Bestäm först areaförhållandet och därmed lyftkraften.</p>",
     "traningsniva": 3,
     "miniräknare": true,
     "geogebra": false,
@@ -52971,9 +53159,9 @@ window.BANK = [
     "omr": "tryck",
     "niva": "E",
     "typ": "hydraulisk kraftförstärkning",
-    "poang": "(2/0/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolvens area är 5,0 cm² och lyftkolvens 80 cm². Lyftkolven ska ge kraften 2400 N.</p><p>Bestäm kraften på pumpkolven. Svara i N. Svara med ett heltal.</p>",
-    "s": "<p>F₁ = F₂A₁/A₂ = 2400 · 5,0/80 = 150 N. Svar: 150 N.</p>",
+    "poang": "(1/0/0)",
+    "t": "<p>En liten verkstadslyft har en pumpkolv med arean 5,0 cm² och en lyftkolv med arean 80 cm². För att hålla lasten stilla måste lyftkolven ge kraften 2400 N. Lyftens förluster försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-2\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 5,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 80 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"last\"><rect x=\"413\" y=\"92\" width=\"86\" height=\"47\" rx=\"5\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><text x=\"456\" y=\"121\" text-anchor=\"middle\" font-size=\"15\" fill=\"#3D2B1C\">last</text></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-2)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">F = ?</text><line x1=\"456\" y1=\"145\" x2=\"456\" y2=\"68\" stroke=\"#2E7D5B\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-2)\"/><text x=\"456\" y=\"48\" text-anchor=\"middle\">2400 N</text></g></svg></span><p>Bestäm kraften som behövs på pumpkolven. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>Trycket är lika stort vid båda kolvarna: F<sub>pump</sub>/5,0 = 2400/80. Alltså F<sub>pump</sub> = 2400 · 5,0/80 = 150 N. Svar: 150 N.</p>",
     "familj": "Hydraulisk kraftförstärkning",
     "formaga": [
       "procedur"
@@ -52983,9 +53171,9 @@ window.BANK = [
     "rättSvar": 150.0,
     "tolerans": 0,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "ledtrad": "<p>Den mindre kolven behöver mindre kraft vid samma tryck.</p>",
+    "ledtrad": "<p>Vilken mindre kraft ger samma tryck på arean 5,0 cm²?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -52998,12 +53186,14 @@ window.BANK = [
     "omr": "tryck",
     "niva": "C",
     "typ": "hydraulik och energibalans",
-    "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en hydraulisk domkraft. Pumpkolven har diametern 20 mm och lyftkolven 90 mm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 340\" role=\"img\" aria-label=\"Två kolvar förbundna med vätska i en hydraulisk modell\"><rect width=\"560\" height=\"340\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"16\" stroke-linejoin=\"round\"><path d=\"M90 153H121.11111111111111V263H335V153H475V300H90Z\" fill=\"#dcebf6\"/><path d=\"M90 145V300H475V145 M121.11111111111111 145V263H335V145\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><rect x=\"85\" y=\"143\" width=\"41.111111111111114\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><rect x=\"330\" y=\"143\" width=\"150\" height=\"12\" fill=\"#eee\" stroke=\"#333\" stroke-width=\"2\"/><path d=\"M105.55555555555556 65V130 M99.55555555555556 120L105.55555555555556 130L111.55555555555556 120 M405 130V65 M399 75L405 65L411 75\" fill=\"none\" stroke=\"#ad5144\" stroke-width=\"3\"/><text x=\"105.55555555555556\" y=\"45\" text-anchor=\"middle\">250 N</text><text x=\"405\" y=\"45\" text-anchor=\"middle\">F₂</text><text x=\"105.55555555555556\" y=\"325\" text-anchor=\"middle\">d₁ = 20 mm</text><text x=\"405\" y=\"325\" text-anchor=\"middle\">d₂ = 90 mm</text></g></svg></span>\n<ol style=\"display:grid;gap:0.85rem\"><li>Vilket övertryck uppstår i oljan när man trycker med 250 N?</li>\n<li>Hur stor kraft ger lyftkolven?</li>\n<li>Pumpkolven trycks ned 25 mm. Hur högt lyfts lasten?</li>\n<li>Jämför arbetet vid de två kolvarna.</li></ol><p>Domkraften är ideal: försumma kolvmassor, friktion, läckage och tryckskillnader på grund av höjd. Oljan är inkompressibel och samma lufttryck verkar ovanpå båda kolvarna.</p>",
-    "s": "<p>a) A₁ = π · 0,010² m². Övertrycket är Δp = 250/A₁ ≈ 795 775 Pa = 795,775 kPa.</p><p>b) F₂ = 250(90/20)² = 5062,5 N.</p><p>c) Volymen bevaras: A₁s₁ = A₂s₂. s₂ = 25(20/90)² ≈ 1,234568 mm.</p><p>d) W₁ = 250 · 0,025 = 6,25 J. Utan mellanavrundning är W₂ = [250(90/20)²] · [0,025(20/90)²] = 6,25 J. Den större kraften motsvaras av en lika stor minskning av förflyttningen.</p>",
+    "poang": "(2/3/0)",
+    "t": "<p>En hydraulisk domkraft har en pumpkolv med diametern 20 mm och en lyftkolv med diametern 90 mm. Pumpkolven trycks ned 25 mm med kraften 250 N. Domkraften behandlas som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-11\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: d = 20 mm</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: d = 90 mm</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-11)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">250 N</text><line x1=\"456\" y1=\"145\" x2=\"456\" y2=\"68\" stroke=\"#2E7D5B\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-11)\"/><text x=\"456\" y=\"48\" text-anchor=\"middle\">F = ?</text><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-11)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">25 mm</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-11)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">s = ?</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen i oljan.</li><li>Bestäm kraften från lyftkolven.</li><li>Bestäm hur långt lyftkolven rör sig uppåt.</li><li>Visa genom en beräkning att arbetet är lika stort vid de båda kolvarna.</li></ol>",
+    "s": "<p>a) Pumpkolvens area är A₁ = π · 0,010² m². Tryckökningen blir Δp = 250/A₁ ≈ 795 775 Pa = 796 kPa.</p><p>b) Areaförhållandet är (90/20)² = 20,25. Lyftkraften blir F₂ = 250 · 20,25 = 5062,5 N.</p><p>c) Volymen bevaras: A₁s₁ = A₂s₂. Därför är s₂ = 25(20/90)² ≈ 1,2346 mm.</p><p>d) Inmatat arbete är W₁ = 250 · 0,025 = 6,25 J. Utmatat arbete är W₂ = 5062,5 · 0,0012346 ≈ 6,25 J. Kraftvinsten motsvaras alltså av en kortare förflyttning.</p>",
     "familj": "Hydraulik och energibalans",
     "formaga": [
+      "begrepp",
       "modellering",
+      "procedur",
       "resonemang"
     ],
     "familjNyckel": "tryck__hydraulik_och_energibalans",
@@ -53011,7 +53201,7 @@ window.BANK = [
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Jämför både kraftförhållandet och förhållandet mellan kolvarnas förflyttningar.</p>",
+    "ledtrad": "<p>Beräkna både kraftförhållandet och förhållandet mellan kolvarnas förflyttningar.</p>",
     "traningsniva": 4,
     "miniräknare": true,
     "geogebra": false,
@@ -53128,11 +53318,11 @@ window.BANK = [
     "id": "6.238",
     "kap": 6,
     "omr": "tryck",
-    "niva": "C",
+    "niva": "E",
     "typ": "dimensionera hydraulisk kolv",
-    "poang": "(0/2/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Den lilla kolvens diameter är 2,2 cm. Den belastas med 120 N. Den stora ska ge kraften 1920 N.</p><p>Bestäm den stora kolvens diameter. Svara i cm. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<p>F₂/F₁ = (d₂/d₁)². d₂ = 2,2√(1920/120) = 8,8 cm. Svar: 8,8 cm.</p>",
+    "poang": "(2/0/0)",
+    "t": "<p>En domkraft ska konstrueras för att ge lyftkraften 1920 N när pumpkolven belastas med 120 N. Pumpkolvens diameter är 2,2 cm. Domkraftens förluster försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-4\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: d = 2,2 cm</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: d = ?</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"last\"><rect x=\"413\" y=\"92\" width=\"86\" height=\"47\" rx=\"5\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><text x=\"456\" y=\"121\" text-anchor=\"middle\" font-size=\"15\" fill=\"#3D2B1C\">last</text></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-4)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">120 N</text><line x1=\"456\" y1=\"145\" x2=\"456\" y2=\"68\" stroke=\"#2E7D5B\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-4)\"/><text x=\"456\" y=\"48\" text-anchor=\"middle\">1920 N</text></g></svg></span><p>Bestäm vilken diameter lyftkolven behöver ha. Svara i cm. Avrunda till 1 decimal.</p>",
+    "s": "<p>Kraftförhållandet är 1920/120 = 16. Då måste lyftkolvens area vara 16 gånger större. Diametern blir √16 = 4 gånger större: d<sub>lyft</sub> = 4 · 2,2 = 8,8 cm. Svar: 8,8 cm.</p>",
     "familj": "Dimensionera hydraulisk kolv",
     "formaga": [
       "modellering",
@@ -53145,7 +53335,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Areaförhållandet ger diametrarnas kvot i kvadrat.</p>",
+    "ledtrad": "<p>Vilket diameterförhållande ger det nödvändiga areaförhållandet?</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -54700,194 +54890,122 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Luft har densiteten 1,29 kg/m³ vid 0 °C. En varmluftsballong värmer luften till 80 °C vid samma tryck.</p>\n<ol><li>Vilken densitet får den varma luften?</li>\n<li>Hur mycket last kan varje kubikmeter varm luft lyfta?</li>\n<li>Varför lönar det sig inte att värma luften ännu mer?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid samma tryck är densiteten omvänt proportionell mot absoluta temperaturen.</p><div class=\"facit-matte\">\\[\\rho_2=\\rho_1\\frac{T_1}{T_2}=1{,}29\\frac{273{,}15}{353{,}15}=0{,}998\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den maximala nettolyftförmågan per kubikmeter, innan hölje och last räknas, motsvarar densitetsskillnaden.</p><div class=\"facit-matte\">\\[\\Delta m=(1{,}29-0{,}998)\\cdot1=0{,}292\\ \\mathrm{kg}\\]</div><p>Det motsvarar lyftkraften \\(0{,}292g\\approx2{,}87\\ \\mathrm N\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ytterligare uppvärmning minskar densiteten, men vinsten per grad avtar eftersom \\(\\rho\\propto1/T\\). Dessutom begränsas temperaturen av materialets hållfasthet och brandsäkerhet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den varma luftens densitet är cirka \\(1{,}00\\ \\mathrm{kg/m^3}\\), vilket ger en bruttolyftförmåga på cirka \\(0{,}29\\ \\mathrm{kg/m^3}\\).</p></div>",
-    "familj": "Allmänna gaslagen",
+    "poang": "(1/3/0)",
+    "t": "<p>Luftens densitet är 1,29 kg/m³ vid 0,0 °C. I en öppen varmluftsballong värms luften till 80,0 °C, medan trycket är samma inuti och utanför.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den varma luftens densitet.</li><li>Bestäm den största bruttolastmassan per kubikmeter som densitetsskillnaden kan bära, innan höljet räknas med.</li><li>Förklara varför lika stora ytterligare temperaturökningar ger allt mindre minskning av densiteten.</li></ol>",
+    "s": "<p>a) ρ₂=ρ₁T₁/T₂=1,29·273,15/353,15≈0,998 kg/m³.</p><p>b) Skillnaden är 1,29−0,998≈0,292 kg/m³. En kubikmeter kan alltså bära högst cirka 0,292 kg utöver den varma luften innan höljet räknas med.</p><p>c) Sambandet är ρ=C/T, inte ett linjärt samband. När T redan är stor ger samma temperaturökning en mindre förändring av 1/T. I verkligheten begränsar också material och brandsäkerhet temperaturen.</p>",
+    "familj": "Varm lufts densitet och lyftförmåga",
     "formaga": [
+      "modellering",
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      1,
-      0.29,
-      null
-    ],
-    "tolerans": [
-      0.015,
-      0.01,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "ledtrad": "<p>Vid samma tryck är densiteten omvänt proportionell mot absoluta temperaturen.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Luft har densiteten 1,29 kg/m³ vid 0 °C. En varmluftsballong värmer luften till 80 °C vid samma tryck.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilken densitet får den varma luften?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid samma tryck är densiteten omvänt proportionell mot absoluta temperaturen.</p><div class=\"facit-matte\">\\[\\rho_2=\\rho_1\\frac{T_1}{T_2}=1{,}29\\frac{273{,}15}{353{,}15}=0{,}998\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}998\\ \\mathrm{kg/m^3}\\).</p></div>",
-        "ledtrad": "<p>Vid samma tryck är densiteten omvänt proportionell mot absoluta temperaturen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur mycket last kan varje kubikmeter varm luft lyfta?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den maximala nettolyftförmågan per kubikmeter, innan hölje och last räknas, motsvarar densitetsskillnaden.</p><div class=\"facit-matte\">\\[\\Delta m=(1{,}29-0{,}998)\\cdot1=0{,}292\\ \\mathrm{kg}\\]</div><p>Det motsvarar lyftkraften \\(0{,}292g\\approx2{,}87\\ \\mathrm N\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}292\\ \\mathrm{kg}\\).</p></div>",
-        "ledtrad": "<p>Vid samma tryck är densiteten omvänt proportionell mot absoluta temperaturen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför lönar det sig inte att värma luften ännu mer?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ytterligare uppvärmning minskar densiteten, men vinsten per grad avtar eftersom \\(\\rho\\propto1/T\\). Dessutom begränsas temperaturen av materialets hållfasthet och brandsäkerhet.</p></div></div></div>",
-        "ledtrad": "<p>Vid samma tryck är densiteten omvänt proportionell mot absoluta temperaturen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "familjNyckel": "gaslagen__varm_lufts_densitet_och_lyftformaga",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Vid samma tryck är en ideal gas densitet omvänt proportionell mot kelvintemperaturen.</p>",
+    "traningsniva": 4,
+    "typ": "varm lufts densitet och lyftförmåga",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.82",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa Boyles lag för att beräkna nytt tryck vid minskad volym, ur diagram, sökt tryck",
-    "poang": "(2/0/0)",
-    "t": "<p>En cylinder med lättrörlig kolv innehåller 3,0 liter gas vid trycket 120 kPa. Kolven trycks in så att volymen minskar till 1,2 liter. Temperaturen är oförändrad.</p><span class=\"fig smal\"><svg height=\"299\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"75.200 0.000 269.600 212.000\"><line x1=\"90\" y1=\"50\" x2=\"90\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"50\" x2=\"330\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"200\" x2=\"330\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"93\" y=\"110\" width=\"234\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"88\" y=\"92\" width=\"244\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"92\" x2=\"210\" y2=\"56\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><text x=\"210\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">gas, 3,0 liter</text><text x=\"228\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kolv</text><line x1=\"210\" y1=\"12\" x2=\"210\" y2=\"42\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"210,52 205.4,42 214.6,42\" fill=\"#B43123\"/><text x=\"228\" y=\"30\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">trycks ihop</text></svg></span>\n<ol><li>Vilket samband gäller när temperaturen är konstant?</li>\n<li>Vilket tryck råder efter kompressionen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När temperaturen och gasmängden är konstanta gäller Boyles lag.</p><div class=\"facit-matte\">\\[p_1V_1=p_2V_2\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut sluttrycket.</p><div class=\"facit-matte\">\\[p_2=120\\frac{3{,}0}{1{,}2}=300\\ \\mathrm{kPa}\\]</div><p>Volymen blir 40 % av den ursprungliga och trycket därför 2,5 gånger större.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sambandet är \\(pV=\\text{konstant}\\), och sluttrycket blir \\(300\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
+    "typ": "boyles lag",
+    "poang": "(1/0/0)",
+    "t": "<p>En instängd gas har volymen 3,00 liter och det absoluta trycket 120 kPa. Den komprimeras vid konstant temperatur till 1,20 liter. Använd p₁V₁=p₂V₂.</p><span class=\"fig\"><svg height=\"299\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"75.200 0.000 269.600 212.000\"><line x1=\"90\" y1=\"50\" x2=\"90\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"50\" x2=\"330\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"200\" x2=\"330\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"93\" y=\"110\" width=\"234\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"88\" y=\"92\" width=\"244\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"92\" x2=\"210\" y2=\"56\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><text x=\"210\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">gas, 3,0 liter</text><text x=\"228\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kolv</text><line x1=\"210\" y1=\"12\" x2=\"210\" y2=\"42\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"210,52 205.4,42 214.6,42\" fill=\"#B43123\"/><text x=\"228\" y=\"30\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">trycks ihop</text></svg></span><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p₂=p₁V₁/V₂=120·3,00/1,20=300 kPa. Volymen blir 0,40 gånger så stor, så trycket blir 2,5 gånger så stort. Svar: 300 kPa.</p>",
     "familj": "Boyles lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__boyles_lag",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      null,
-      300
-    ],
-    "tolerans": [
-      null,
-      4.5
-    ],
-    "självrättning": [
-      false,
-      true
-    ],
-    "svarFormat": [
-      null,
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "ledtrad": "<p>När temperaturen och gasmängden är konstanta gäller Boyles lag.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En cylinder med lättrörlig kolv innehåller 3,0 liter gas vid trycket 120 kPa. Kolven trycks in så att volymen minskar till 1,2 liter. Temperaturen är oförändrad.</p><span class=\"fig smal\"><svg height=\"299\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"75.200 0.000 269.600 212.000\"><line x1=\"90\" y1=\"50\" x2=\"90\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"330\" y1=\"50\" x2=\"330\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><line x1=\"90\" y1=\"200\" x2=\"330\" y2=\"200\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><rect x=\"93\" y=\"110\" width=\"234\" height=\"88\" fill=\"#DCE6F2\"/><rect x=\"88\" y=\"92\" width=\"244\" height=\"18\" rx=\"0\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"210\" y1=\"92\" x2=\"210\" y2=\"56\" stroke=\"#2B2527\" stroke-width=\"3\" stroke-linecap=\"square\"/><text x=\"210\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">gas, 3,0 liter</text><text x=\"228\" y=\"78\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">kolv</text><line x1=\"210\" y1=\"12\" x2=\"210\" y2=\"42\" stroke=\"#B43123\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"210,52 205.4,42 214.6,42\" fill=\"#B43123\"/><text x=\"228\" y=\"30\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">trycks ihop</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilket samband gäller när temperaturen är konstant?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När temperaturen och gasmängden är konstanta gäller Boyles lag.</p><div class=\"facit-matte\">\\[p_1V_1=p_2V_2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(p_2V_2\\).</p></div>",
-        "ledtrad": "<p>När temperaturen och gasmängden är konstanta gäller Boyles lag.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilket tryck råder efter kompressionen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut sluttrycket.</p><div class=\"facit-matte\">\\[p_2=120\\frac{3{,}0}{1{,}2}=300\\ \\mathrm{kPa}\\]</div><p>Volymen blir 40 % av den ursprungliga och trycket därför 2,5 gånger större.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(300\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>När temperaturen och gasmängden är konstanta gäller Boyles lag.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ]
+    "svarstyp": "numeriskt",
+    "rättSvar": 300.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Sätt in värdena i det angivna sambandet och lös ut p₂.</p>",
+    "traningsniva": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.286",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "typ": "kombinerad gaslag med både tryck och temperaturändring",
-    "poang": "(0/1/2)",
-    "t": "<p>En sluten mängd ideal gas har först trycket \\(100\\,\\mathrm{kPa}\\), volymen \\(2\\,\\mathrm l\\) och temperaturen \\(293\\,\\mathrm K\\). Gasen ändras till \\(150\\,\\mathrm{kPa}\\) och \\(333\\,\\mathrm K\\). Bestäm slutvolymen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller den kombinerade gaslagen \\(pV/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}=0,001515\\ \\mathrm{m^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1,515\\ \\mathrm l\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "E",
+    "typ": "kombinerade gaslagen",
+    "poang": "(2/0/0)",
+    "t": "<p>En bestämd mängd ideal gas har först trycket 100 kPa, volymen 2,00 liter och temperaturen 293 K. Sluttrycket är 150 kPa och sluttemperaturen 333 K.</p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>För samma gasmängd gäller p₁V₁/T₁=p₂V₂/T₂. V₂=2,00·(100/150)·(333/293)≈1,51536 liter. Svar: 1,515 liter.</p>",
+    "familj": "Kombinerade gaslagen",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__kombinerade_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.515358,
-    "tolerans": 0.027276,
+    "rättSvar": 1.515,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Temperaturerna måste vara absoluta. Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "ledtrad": "<p>Både tryck- och temperaturfaktorn påverkar volymen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.83",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En spruta utan nål innehåller 20 ml luft vid trycket 101 kPa. Man sätter fingret för öppningen och trycker in kolven till 8,0 ml. Temperaturen är densamma hela tiden.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span>\n<ol><li>Vilket tryck råder nu i sprutan?</li><li>Hur stor kraft krävs på kolven om dess area är 1,8 cm²?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant temperatur ger Boyles lag</p><div class=\"facit-matte\">\\[p_2=\\frac{p_1V_1}{V_2}=\\frac{101\\cdot20}{8{,}0}=252{,}5\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Atmosfären trycker på kolvens utsida, så handen behöver bara balansera tryckskillnaden.</p><div class=\"facit-matte\">\\[\\Delta p=252{,}5-101=151{,}5\\ \\mathrm{kPa}\\]\\[F=\\Delta pA=151500\\cdot1{,}8\\cdot10^{-4}=27{,}3\\ \\mathrm N\\]</div><p>Friktion i sprutan är försummad.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket i sprutan är cirka \\(253\\ \\mathrm{kPa}\\), och den extra kolvkraften cirka \\(27\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "poang": "(1/1/0)",
+    "t": "<p>En stängd spruta innehåller 20,0 mL luft vid det absoluta trycket 101 kPa. Kolven trycks långsamt in till 8,0 mL och temperaturen förblir konstant. Kolvens area är 1,80 cm² och friktionen försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm luftens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm den kraft som handen behöver trycka med för att hålla kolven stilla. Svara i N. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Boyles lag ger p₂=101·20,0/8,0=252,5 kPa. Svar: 252,5 kPa.</p><p>b) Atmosfären trycker på kolvens utsida. Handen balanserar därför tryckskillnaden: F=(252,5−101)·10³·1,80·10⁻⁴≈27,27 N. Svar: 27,3 N.</p>",
+    "familj": "Boyles lag och kolvkraft",
     "formaga": [
+      "modellering",
+      "problemlösning",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__boyles_lag_och_kolvkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      253,
-      27
+      252.5,
+      27.3
     ],
     "tolerans": [
-      3.795,
-      0.40499999999999997
+      0,
+      0
     ],
     "självrättning": true,
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
+    "ledtrad": "<p>Gasmängd och temperatur är konstanta.</p>",
+    "traningsniva": 4,
+    "typ": "boyles lag och kolvkraft",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": [
       "kPa",
       "N"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -54895,190 +55013,256 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En stängd spruta innehåller 20,0 mL luft vid det absoluta trycket 101 kPa. Kolven trycks långsamt in till 8,0 mL och temperaturen förblir konstant. Kolvens area är 1,80 cm² och friktionen försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En spruta utan nål innehåller 20 ml luft vid trycket 101 kPa. Man sätter fingret för öppningen och trycker in kolven till 8,0 ml. Temperaturen är densamma hela tiden.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span><div class=\"spel-en-del\">Vilket tryck råder nu i sprutan?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant temperatur ger Boyles lag</p><div class=\"facit-matte\">\\[p_2=\\frac{p_1V_1}{V_2}=\\frac{101\\cdot20}{8{,}0}=252{,}5\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(252{,}5\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Vid konstant temperatur ger Boyles lag Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
-        "niva": "C"
+        "fraga": "Bestäm luftens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En stängd spruta innehåller 20,0 mL luft vid det absoluta trycket 101 kPa. Kolven trycks långsamt in till 8,0 mL och temperaturen förblir konstant. Kolvens area är 1,80 cm² och friktionen försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span><p>Bestäm luftens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Boyles lag ger p₂=101·20,0/8,0=252,5 kPa. Svar: 252,5 kPa.</p>",
+        "ledtrad": "<p>Gasmängd och temperatur är konstanta.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "t": "<p>En spruta utan nål innehåller 20 ml luft vid trycket 101 kPa. Man sätter fingret för öppningen och trycker in kolven till 8,0 ml. Temperaturen är densamma hela tiden.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span><div class=\"spel-en-del\">Hur stor kraft krävs på kolven om dess area är 1,8 cm²?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Atmosfären trycker på kolvens utsida, så handen behöver bara balansera tryckskillnaden.</p><div class=\"facit-matte\">\\[\\Delta p=252{,}5-101=151{,}5\\ \\mathrm{kPa}\\]\\[F=\\Delta pA=151500\\cdot1{,}8\\cdot10^{-4}=27{,}3\\ \\mathrm N\\]</div><p>Friktion i sprutan är försummad.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(27{,}3\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Atmosfären trycker på kolvens utsida, så handen behöver bara balansera tryckskillnaden.</p>",
-        "niva": "C"
+        "fraga": "Bestäm den kraft som handen behöver trycka med för att hålla kolven stilla. Svara i N. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En stängd spruta innehåller 20,0 mL luft vid det absoluta trycket 101 kPa. Kolven trycks långsamt in till 8,0 mL och temperaturen förblir konstant. Kolvens area är 1,80 cm² och friktionen försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 20 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"75\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"196\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"202\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 8,0 ml</text></svg></span><p>Bestäm den kraft som handen behöver trycka med för att hålla kolven stilla. Svara i N. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Atmosfären trycker på kolvens utsida. Handen balanserar därför tryckskillnaden: F=(252,5−101)·10³·1,80·10⁻⁴≈27,27 N. Svar: 27,3 N.</p>",
+        "ledtrad": "<p>Använd skillnaden mellan gastrycket och trycket på kolvens utsida.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
-    ],
-    "ledtrad": "<p>Vid konstant temperatur ger Boyles lag Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>"
+    ]
   },
   {
     "id": "6.84",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "beräkna volymändring vid nedkylning av gas med konstant tryck, ur text, sökt temperatur och volym",
-    "poang": "(2/0/0)",
-    "t": "<p>En ballong innehåller 2,0 liter luft vid temperaturen 20 °C. Ballongen läggs i en frys där temperaturen är −18 °C. Trycket är oförändrat.</p>\n<ol><li>Räkna om båda temperaturerna till kelvin.</li>\n<li>Vilken volym har ballongen i frysen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna är</p><div class=\"facit-matte\">\\[T_1=293{,}15\\ \\mathrm K,\\qquad T_2=255{,}15\\ \\mathrm K\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant tryck gäller Charles lag.</p><div class=\"facit-matte\">\\[\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\Rightarrow V_2=2{,}0\\frac{255{,}15}{293{,}15}=1{,}74\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ballongen får volymen cirka \\(1{,}7\\ \\mathrm L\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "volym och absolut temperatur",
+    "poang": "(1/0/0)",
+    "t": "<p>En tät, lättöjbar ballong innehåller 2,00 liter luft vid 20,0 °C. Den kyls till −18,0 °C medan trycket är oförändrat.</p><p>Bestäm ballongens volym efter kylningen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>T₁=293,15 K och T₂=255,15 K. Vid konstant tryck gäller V/T=konstant, så V₂=2,00·255,15/293,15≈1,74075 liter. Svar: 1,74 liter.</p>",
+    "familj": "Volym och absolut temperatur",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten. Omvandla med \\(T(\\mathrm K)=t(^{\\circ}\\mathrm C)+273{,}15\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En ballong innehåller 2,0 liter luft vid temperaturen 20 °C. Ballongen läggs i en frys där temperaturen är −18 °C. Trycket är oförändrat.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Räkna om båda temperaturerna till kelvin.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturerna är</p><div class=\"facit-matte\">\\[T_1=293{,}15\\ \\mathrm K,\\qquad T_2=255{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(255{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten. Omvandla med \\(T(\\mathrm K)=t(^{\\circ}\\mathrm C)+273{,}15\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken volym har ballongen i frysen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant tryck gäller Charles lag.</p><div class=\"facit-matte\">\\[\\frac{V_1}{T_1}=\\frac{V_2}{T_2}\\Rightarrow V_2=2{,}0\\frac{255{,}15}{293{,}15}=1{,}74\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}74\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten. Omvandla med \\(T(\\mathrm K)=t(^{\\circ}\\mathrm C)+273{,}15\\).</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ]
+    "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.74,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Omvandla temperaturerna till kelvin innan du bildar kvoten.</p>",
+    "traningsniva": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.85",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "typ": "beräkna hur mycket en fisks simblåsa expanderar när fisken dras upp från djupet, ur diagram, sökt tryck och volym",
-    "poang": "(1/2/0)",
-    "t": "<p>En abborre står på 12 meters djup och har då en simblåsa med volymen 6,0 cm³. Fisken krokas och dras snabbt upp till ytan. Vattnets densitet är 998 kg/m³, lufttrycket vid ytan är 101 kPa och temperaturen kan antas vara densamma på båda djupen.</p><span class=\"fig bred\"><svg height=\"328\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 520 275\"><rect x=\"15\" y=\"40\" width=\"490\" height=\"220\" fill=\"#DCE6F2\"/><polyline points=\"15,36 37,44 59,36 81,44 103,36 125,44 147,36 169,44 191,36 213,44 235,36 257,44 279,36 301,44 323,36 345,44 367,36 389,44 411,36 433,44 455,36 477,44 499,36\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><ellipse cx=\"140\" cy=\"190\" rx=\"45\" ry=\"25\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"95,190 62.6,164.8 62.6,215.2\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"131,165 154.4,165 141.8,148.8\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"144.5\" cy=\"184.6\" rx=\"11\" ry=\"6.05\" fill=\"#F4E9CE\" stroke=\"#8a6d3b\" stroke-width=\"1.6\"/><circle cx=\"167.9\" cy=\"182\" r=\"3\" fill=\"#2B2527\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">på 12 m djup</text><text x=\"140\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#8a6d3b\">simblåsa 6,0 cm³</text><ellipse cx=\"380\" cy=\"96\" rx=\"45\" ry=\"25\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"335,96 302.6,70.8 302.6,121.2\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"371,71 394.4,71 381.8,54.8\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"384.5\" cy=\"90.6\" rx=\"15\" ry=\"8.25\" fill=\"#F4E9CE\" stroke=\"#8a6d3b\" stroke-width=\"1.6\"/><circle cx=\"407.9\" cy=\"88\" r=\"3\" fill=\"#2B2527\"/><text x=\"380\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">vid ytan</text><text x=\"438\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#8a6d3b\">simblåsa ?</text><line x1=\"212\" y1=\"176\" x2=\"291.738\" y2=\"121.633\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"300.00,116.00 294.33,125.43 289.15,117.83\" fill=\"#2A5D9E\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"55\" y1=\"40\" x2=\"65\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"55\" y1=\"190\" x2=\"65\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"68\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 12 m</text></svg></span>\n<p>Vilken volym får simblåsan vid ytan?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Totaltrycket på 12 m djup är</p><div class=\"facit-matte\">\\[p_1=101+\\frac{998\\cdot9{,}82\\cdot12}{1000}=218{,}6\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturen antas konstant, så \\(p_1V_1=p_2V_2\\).</p><div class=\"facit-matte\">\\[V_2=6{,}0\\frac{218{,}6}{101}=12{,}99\\ \\mathrm{cm^3}\\]</div><p>Simblåsan blir mer än dubbelt så stor vid den snabba uppstigningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Simblåsans volym vid ytan blir cirka \\(13\\ \\mathrm{cm^3}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "E",
+    "typ": "gaser under vatten",
+    "poang": "(2/0/0)",
+    "t": "<p>En fisk befinner sig på 12,0 m djup. Simblåsan har där volymen 6,00 cm³. Fisken förs snabbt till ytan. Vattnets densitet är 998 kg/m³, yttrycket 101 kPa och temperaturen antas oförändrad. Använd g=9,82 m/s² och anta att simblåsans tryck följer omgivningens.</p><span class=\"fig\"><svg height=\"328\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 520 275\"><rect x=\"15\" y=\"40\" width=\"490\" height=\"220\" fill=\"#DCE6F2\"/><polyline points=\"15,36 37,44 59,36 81,44 103,36 125,44 147,36 169,44 191,36 213,44 235,36 257,44 279,36 301,44 323,36 345,44 367,36 389,44 411,36 433,44 455,36 477,44 499,36\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><ellipse cx=\"140\" cy=\"190\" rx=\"45\" ry=\"25\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"95,190 62.6,164.8 62.6,215.2\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"131,165 154.4,165 141.8,148.8\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"144.5\" cy=\"184.6\" rx=\"11\" ry=\"6.05\" fill=\"#F4E9CE\" stroke=\"#8a6d3b\" stroke-width=\"1.6\"/><circle cx=\"167.9\" cy=\"182\" r=\"3\" fill=\"#2B2527\"/><text x=\"140\" y=\"240\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">på 12 m djup</text><text x=\"140\" y=\"136\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#8a6d3b\">simblåsa 6,0 cm³</text><ellipse cx=\"380\" cy=\"96\" rx=\"45\" ry=\"25\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"335,96 302.6,70.8 302.6,121.2\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"371,71 394.4,71 381.8,54.8\" fill=\"#DCEAF6\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><ellipse cx=\"384.5\" cy=\"90.6\" rx=\"15\" ry=\"8.25\" fill=\"#F4E9CE\" stroke=\"#8a6d3b\" stroke-width=\"1.6\"/><circle cx=\"407.9\" cy=\"88\" r=\"3\" fill=\"#2B2527\"/><text x=\"380\" y=\"146\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">vid ytan</text><text x=\"438\" y=\"100\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#8a6d3b\">simblåsa ?</text><line x1=\"212\" y1=\"176\" x2=\"291.738\" y2=\"121.633\" stroke=\"#2A5D9E\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polygon points=\"300.00,116.00 294.33,125.43 289.15,117.83\" fill=\"#2A5D9E\"/><line x1=\"60\" y1=\"40\" x2=\"60\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"55\" y1=\"40\" x2=\"65\" y2=\"40\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><line x1=\"55\" y1=\"190\" x2=\"65\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"square\"/><text x=\"68\" y=\"119\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">h = 12 m</text></svg></span><p>Bestäm simblåsans volym vid ytan. Svara i cm³. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>På djupet är absoluttrycket p₁=101+998·9,82·12/1000≈218,60 kPa. Boyles lag ger V₂=p₁V₁/p₂=218,60·6,00/101≈12,986 cm³. Svar: 13,0 cm³.</p>",
+    "familj": "Gaser under vatten",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste vara i kelvin.</p>"
+    "familjNyckel": "gaslagen__gaser_under_vatten",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna först absoluttrycket på djupet; använd inte enbart vattnets övertryck.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "cm³",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.86",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett cykeldäck pumpas till 2,5 bar en morgon när det är 5 °C. På eftermiddagen har däcket värmts till 35 °C. Volymen ändras inte.</p>\n<ol><li>Vilket tryck har däcket då?</li><li>Varför måste temperaturen räknas om till kelvin?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant volym och gasmängd gäller \\(p/T=\\text{konstant}\\). Temperaturerna är \\(278{,}15\\) K och \\(308{,}15\\) K.</p><div class=\"facit-matte\">\\[p_2=p_1\\frac{T_2}{T_1}=2{,}5\\frac{308{,}15}{278{,}15}=2{,}77\\ \\mathrm{bar}\\]</div><p>Detta svar gäller om uppgiftens 2,5 bar är absoluttryck.</p><p class=\"facit-metod\">Däcktryck avläses i praktiken ofta som övertryck. Med \\(p_{\\mathrm{atm}}\\approx1{,}0\\ \\mathrm{bar}\\) blir då \\(p_{1,\\mathrm{abs}}=3{,}5\\ \\mathrm{bar}\\).</p><div class=\"facit-matte\">\\[p_{2,\\mathrm{abs}}=3{,}5\\frac{308{,}15}{278{,}15}=3{,}88\\ \\mathrm{bar}\\]\\[p_{2,\\mathrm{över}}=3{,}88-1{,}0=2{,}88\\ \\mathrm{bar}\\]</div><p>Detta är den relevanta tolkningen för en vanlig däckmanometer.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gaslagen kräver absolut temperatur. Kelvin börjar vid absoluta nollpunkten, så temperaturkvoter beskriver molekylernas termiska energi korrekt.</p><p>Celsiusskalan har en godtycklig nollpunkt och får inte användas i kvoter.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Om 2,5 bar är absoluttryck blir svaret \\(2{,}77\\ \\mathrm{bar}\\). Om det är normalt däckövertryck blir det nya övertrycket cirka \\(2{,}88\\ \\mathrm{bar}\\).</p></div>",
-    "familj": "Kelvinskalan",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En däckmanometer visar övertrycket 2,50 bar när luften i ett cykeldäck är 5,0 °C. Efter uppvärmning är temperaturen 35,0 °C. Däckets volym är oförändrad och lufttrycket utanför är hela tiden 1,00 bar.</p><p>Bestäm manometerns nya visning. Svara i bar. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Startens absoluttryck är 2,50+1,00=3,50 bar. Med T₁=278,15 K och T₂=308,15 K blir p₂,abs=3,50·308,15/278,15≈3,8775 bar. Manometern visar övertrycket 3,8775−1,00≈2,8775 bar. Svar: 2,88 bar.</p>",
+    "familj": "Däcktryck och temperatur",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      2.88,
-      null
-    ],
-    "tolerans": [
-      0.043199999999999995,
-      null
-    ],
-    "självrättning": [
-      true,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      "bar",
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Vid konstant volym och gasmängd gäller \\(p/T=\\text{konstant}\\). Temperaturerna är \\(278{,}15\\) K och \\(308{,}15\\) K.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett cykeldäck pumpas till 2,5 bar en morgon när det är 5 °C. På eftermiddagen har däcket värmts till 35 °C. Volymen ändras inte.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilket tryck har däcket då?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant volym och gasmängd gäller \\(p/T=\\text{konstant}\\). Temperaturerna är \\(278{,}15\\) K och \\(308{,}15\\) K.</p><div class=\"facit-matte\">\\[p_2=p_1\\frac{T_2}{T_1}=2{,}5\\frac{308{,}15}{278{,}15}=2{,}77\\ \\mathrm{bar}\\]</div><p>Detta svar gäller om uppgiftens 2,5 bar är absoluttryck.</p><p class=\"facit-metod\">Däcktryck avläses i praktiken ofta som övertryck. Med \\(p_{\\mathrm{atm}}\\approx1{,}0\\ \\mathrm{bar}\\) blir då \\(p_{1,\\mathrm{abs}}=3{,}5\\ \\mathrm{bar}\\).</p><div class=\"facit-matte\">\\[p_{2,\\mathrm{abs}}=3{,}5\\frac{308{,}15}{278{,}15}=3{,}88\\ \\mathrm{bar}\\]\\[p_{2,\\mathrm{över}}=3{,}88-1{,}0=2{,}88\\ \\mathrm{bar}\\]</div><p>Detta är den relevanta tolkningen för en vanlig däckmanometer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}88\\ \\mathrm{bar}\\).</p></div>",
-        "ledtrad": "<p>Vid konstant volym och gasmängd gäller \\(p/T=\\text{konstant}\\). Temperaturerna är \\(278{,}15\\) K och \\(308{,}15\\) K.</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Varför måste temperaturen räknas om till kelvin?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gaslagen kräver absolut temperatur. Kelvin börjar vid absoluta nollpunkten, så temperaturkvoter beskriver molekylernas termiska energi korrekt.</p><p>Celsiusskalan har en godtycklig nollpunkt och får inte användas i kvoter.</p></div></div></div>",
-        "ledtrad": "<p>Vid konstant volym och gasmängd gäller \\(p/T=\\text{konstant}\\). Temperaturerna är \\(278{,}15\\) K och \\(308{,}15\\) K.</p>",
-        "niva": "C"
-      }
-    ]
+    "familjNyckel": "gaslagen__dacktryck_och_temperatur",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.88,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Gaslagen använder absoluttryck och kelvin, medan däckmanometern visar övertryck.</p>",
+    "traningsniva": 3,
+    "typ": "däcktryck och temperatur",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "bar",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.87",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "typ": "räkna om luftförbrukning till djup med gaslagen, ur text, sökt tid",
-    "poang": "(0/2/2)",
-    "t": "<p>En dykare har en flaska på 12 liter fylld till 200 bar. Vid ytan andas hon 20 liter luft per minut.</p>\n<ol><li>Hur många liter luft vid normaltryck finns i flaskan?</li>\n<li>På 20 m djup är trycket 2,9 gånger yttrycket. Hur mycket luft förbrukas per minut där?</li>\n<li>Hur länge räcker flaskan på det djupet?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid samma temperatur motsvarar flaskans innehåll vid 1 bar</p><div class=\"facit-matte\">\\[V_{1\\,\\mathrm{bar}}=12\\cdot200=2400\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På 20 m måste samma lungvolym fyllas med 2,9 gånger så mycket gas räknat vid ytan.</p><div class=\"facit-matte\">\\[q=20\\cdot2{,}9=58\\ \\mathrm{L/min}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den idealiserade tiden blir</p><div class=\"facit-matte\">\\[t=\\frac{2400}{58}=41{,}4\\ \\mathrm{min}\\]</div><p>I verklig dykplanering lämnas reservtryck och förbrukningen varierar, så användbar tid är kortare.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Flaskan innehåller motsvarande \\(2400\\ \\mathrm L\\) ytluft. Förbrukningen blir cirka \\(58\\ \\mathrm{L/min}\\), vilket idealiskt ger \\(41\\ \\mathrm{min}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "C",
+    "typ": "gasförbrukning vid dykning",
+    "poang": "(2/2/0)",
+    "t": "<p>En dykare har en 12,0-litersflaska med luft vid det absoluta trycket 200 bar. Vid ytan, där trycket är 1,00 bar, motsvarar hennes andning 20,0 liter per minut. På 20 m djup är omgivningstrycket 2,90 bar. Temperaturen antas konstant. I modellen kan regulatorn leverera luft tills flasktrycket har sjunkit till omgivningstrycket; inget extra reservtryck lämnas.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm flaskans gasmängd uttryckt som motsvarande volym vid 1,00 bar. Svara i liter. Svara med ett heltal.</li><li>Bestäm hur stor motsvarande volym vid 1,00 bar som kan levereras innan flasktrycket når 2,90 bar. Svara i liter. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasförbrukningen på djupet, uttryckt som liter per minut vid 1,00 bar. Svara i liter/min. Avrunda vid behov till 1 decimal.</li><li>Bestäm den teoretiska leveranstiden på djupet. Svara i min. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Vid samma temperatur ger pV=konstant: V<sub>1 bar</sub>=200·12,0/1,00=2400 liter. Svar: 2400 liter.</p><p>b) När flasktrycket är 2,90 bar finns motsvarande 2,90·12,0=34,8 liter vid 1,00 bar kvar. Den levererbara mängden är därför 2400−34,8=2365,2 liter. Svar: 2365,2 liter.</p><p>c) För att fylla samma lungvolym vid 2,90 bar behövs 2,90 gånger så stor gasmängd: 20,0·2,90=58,0 liter/min räknat vid ytan. Svar: 58,0 liter/min.</p><p>d) t=2365,2/58,0≈40,779 min. Verklig dykplanering använder dessutom reservtryck och säkerhetsmarginaler. Svar: 40,8 min.</p>",
+    "familj": "Gasförbrukning vid dykning",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Vid samma temperatur motsvarar flaskans innehåll vid 1 bar</p>",
+    "familjNyckel": "gaslagen__gasforbrukning_vid_dykning",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2400.0,
+      2365.2,
+      58.0,
+      40.8
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Jämför samma gasmängd vid flasktrycket och vid yttrycket.</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "liter",
+      "liter",
+      "liter/min",
+      "min"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En dykare har en flaska på 12 liter fylld till 200 bar. Vid ytan andas hon 20 liter luft per minut.</p>",
+    "spelIntro": "<p>En dykare har en 12,0-litersflaska med luft vid det absoluta trycket 200 bar. Vid ytan, där trycket är 1,00 bar, motsvarar hennes andning 20,0 liter per minut. På 20 m djup är omgivningstrycket 2,90 bar. Temperaturen antas konstant. I modellen kan regulatorn leverera luft tills flasktrycket har sjunkit till omgivningstrycket; inget extra reservtryck lämnas.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur många liter luft vid normaltryck finns i flaskan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid samma temperatur motsvarar flaskans innehåll vid 1 bar</p><div class=\"facit-matte\">\\[V_{1\\,\\mathrm{bar}}=12\\cdot200=2400\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2400\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Vid samma temperatur motsvarar flaskans innehåll vid 1 bar</p>",
-        "niva": "A"
+        "fraga": "Bestäm flaskans gasmängd uttryckt som motsvarande volym vid 1,00 bar. Svara i liter. Svara med ett heltal.",
+        "t": "<p>En dykare har en 12,0-litersflaska med luft vid det absoluta trycket 200 bar. Vid ytan, där trycket är 1,00 bar, motsvarar hennes andning 20,0 liter per minut. På 20 m djup är omgivningstrycket 2,90 bar. Temperaturen antas konstant. I modellen kan regulatorn leverera luft tills flasktrycket har sjunkit till omgivningstrycket; inget extra reservtryck lämnas.</p><p>Bestäm flaskans gasmängd uttryckt som motsvarande volym vid 1,00 bar. Svara i liter. Svara med ett heltal.</p>",
+        "s": "<p>Vid samma temperatur ger pV=konstant: V<sub>1 bar</sub>=200·12,0/1,00=2400 liter. Svar: 2400 liter.</p>",
+        "ledtrad": "<p>Jämför samma gasmängd vid flasktrycket och vid yttrycket.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "På 20 m djup är trycket 2,9 gånger yttrycket. Hur mycket luft förbrukas per minut där?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På 20 m måste samma lungvolym fyllas med 2,9 gånger så mycket gas räknat vid ytan.</p><div class=\"facit-matte\">\\[q=20\\cdot2{,}9=58\\ \\mathrm{L/min}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(58\\ \\mathrm{L/min}\\).</p></div>",
-        "ledtrad": "<p>Vid samma temperatur motsvarar flaskans innehåll vid 1 bar</p>",
-        "niva": "A"
+        "fraga": "Bestäm hur stor motsvarande volym vid 1,00 bar som kan levereras innan flasktrycket når 2,90 bar. Svara i liter. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En dykare har en 12,0-litersflaska med luft vid det absoluta trycket 200 bar. Vid ytan, där trycket är 1,00 bar, motsvarar hennes andning 20,0 liter per minut. På 20 m djup är omgivningstrycket 2,90 bar. Temperaturen antas konstant. I modellen kan regulatorn leverera luft tills flasktrycket har sjunkit till omgivningstrycket; inget extra reservtryck lämnas.</p><p>Bestäm hur stor motsvarande volym vid 1,00 bar som kan levereras innan flasktrycket når 2,90 bar. Svara i liter. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>När flasktrycket är 2,90 bar finns motsvarande 2,90·12,0=34,8 liter vid 1,00 bar kvar. Den levererbara mängden är därför 2400−34,8=2365,2 liter. Svar: 2365,2 liter.</p>",
+        "ledtrad": "<p>Räkna bort gasen som måste finnas kvar när flaskans tryck har sjunkit till omgivningstrycket.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Hur länge räcker flaskan på det djupet?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den idealiserade tiden blir</p><div class=\"facit-matte\">\\[t=\\frac{2400}{58}=41{,}4\\ \\mathrm{min}\\]</div><p>I verklig dykplanering lämnas reservtryck och förbrukningen varierar, så användbar tid är kortare.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(41{,}4\\ \\mathrm{min}\\).</p></div>",
-        "ledtrad": "<p>Vid samma temperatur motsvarar flaskans innehåll vid 1 bar</p>",
-        "niva": "A"
+        "fraga": "Bestäm gasförbrukningen på djupet, uttryckt som liter per minut vid 1,00 bar. Svara i liter/min. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En dykare har en 12,0-litersflaska med luft vid det absoluta trycket 200 bar. Vid ytan, där trycket är 1,00 bar, motsvarar hennes andning 20,0 liter per minut. På 20 m djup är omgivningstrycket 2,90 bar. Temperaturen antas konstant. I modellen kan regulatorn leverera luft tills flasktrycket har sjunkit till omgivningstrycket; inget extra reservtryck lämnas.</p><p>Bestäm gasförbrukningen på djupet, uttryckt som liter per minut vid 1,00 bar. Svara i liter/min. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>För att fylla samma lungvolym vid 2,90 bar behövs 2,90 gånger så stor gasmängd: 20,0·2,90=58,0 liter/min räknat vid ytan. Svar: 58,0 liter/min.</p>",
+        "ledtrad": "<p>Förbrukningen av gasmängd är proportionell mot omgivningstrycket i modellen.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      },
+      {
+        "etikett": "d",
+        "fraga": "Bestäm den teoretiska leveranstiden på djupet. Svara i min. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En dykare har en 12,0-litersflaska med luft vid det absoluta trycket 200 bar. Vid ytan, där trycket är 1,00 bar, motsvarar hennes andning 20,0 liter per minut. På 20 m djup är omgivningstrycket 2,90 bar. Temperaturen antas konstant. I modellen kan regulatorn leverera luft tills flasktrycket har sjunkit till omgivningstrycket; inget extra reservtryck lämnas.</p><p>Bestäm den teoretiska leveranstiden på djupet. Svara i min. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>t=2365,2/58,0≈40,779 min. Verklig dykplanering använder dessutom reservtryck och säkerhetsmarginaler. Svar: 40,8 min.</p>",
+        "ledtrad": "<p>Dividera den levererbara motsvarande ytvolymen med förbrukningen vid ytan.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "modellering",
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -55086,72 +55270,222 @@ window.BANK = [
     "id": "6.88",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "typ": "tillämpa allmänna gaslagen för att fylla i saknade värden, ur tabell, sökt tryck volym och temperatur",
-    "poang": "(2/1/0)",
-    "t": "<p>Tabellen gäller en instängd gasmängd som förändras från ett tillstånd till ett annat. Ett värde saknas på varje rad.</p><table class=\"data\"><tr><th>p₁ (kPa)</th><th>V₁ (L)</th><th>T₁ (K)</th><th>p₂ (kPa)</th><th>V₂ (L)</th><th>T₂ (K)</th></tr><tr><td>100</td><td>2,0</td><td>300</td><td>200</td><td>?</td><td>300</td></tr><tr><td>200</td><td>5,0</td><td>250</td><td>?</td><td>5,0</td><td>500</td></tr><tr><td>150</td><td>4,0</td><td>300</td><td>100</td><td>9,0</td><td>?</td></tr></table>\n<p>Bestäm de värden som saknas.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För samma gasmängd gäller</p><div class=\"facit-matte\">\\[\\frac{p_1V_1}{T_1}=\\frac{p_2V_2}{T_2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">Rad 1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturen är oförändrad.</p><div class=\"facit-matte\">\\[V_2=\\frac{100\\cdot2{,}0}{200}=1{,}0\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">Rad 2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volymen är oförändrad.</p><div class=\"facit-matte\">\\[p_2=200\\frac{500}{250}=400\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">Rad 3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lös ut sluttemperaturen.</p><div class=\"facit-matte\">\\[T_2=300\\frac{100\\cdot9{,}0}{150\\cdot4{,}0}=450\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är \\(1{,}0\\ \\mathrm L\\), \\(400\\ \\mathrm{kPa}\\) och \\(450\\ \\mathrm K\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "E",
+    "typ": "fylla i tillståndstabell",
+    "poang": "(3/0/0)",
+    "t": "<p>Varje rad beskriver samma instängda gasmängd före och efter en förändring. Använd p₁V₁/T₁=p₂V₂/T₂.</p><ol style=\"display:grid;gap:0.85rem\"><li>Rad 1: p₁=100 kPa, V₁=2,00 L, T₁=300 K, p₂=200 kPa och T₂=300 K. Bestäm V₂. Svara i liter. Avrunda vid behov till 2 decimaler.</li><li>Rad 2: p₁=200 kPa, V₁=5,00 L, T₁=250 K, V₂=5,00 L och T₂=500 K. Bestäm p₂. Svara i kPa. Svara med ett heltal.</li><li>Rad 3: p₁=150 kPa, V₁=4,00 L, T₁=300 K, p₂=100 kPa och V₂=9,00 L. Bestäm T₂. Svara i K. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) V₂=p₁V₁T₂/(p₂T₁)=100·2,00·300/(200·300)=1,00 liter. Svar: 1,00 liter.</p><p>b) p₂=p₁V₁T₂/(T₁V₂)=200·5,00·500/(250·5,00)=400 kPa. Svar: 400 kPa.</p><p>c) T₂=p₂V₂T₁/(p₁V₁)=100·9,00·300/(150·4,00)=450 K. Svar: 450 K.</p>",
+    "familj": "Fylla i tillståndstabell",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste vara i kelvin.</p>"
+    "familjNyckel": "gaslagen__fylla_i_tillstandstabell",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0,
+      400.0,
+      450.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Temperaturen är oförändrad på denna rad.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "liter",
+      "kPa",
+      "K"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Varje rad beskriver samma instängda gasmängd före och efter en förändring. Använd p₁V₁/T₁=p₂V₂/T₂.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Rad 1: p₁=100 kPa, V₁=2,00 L, T₁=300 K, p₂=200 kPa och T₂=300 K. Bestäm V₂. Svara i liter. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Varje rad beskriver samma instängda gasmängd före och efter en förändring. Använd p₁V₁/T₁=p₂V₂/T₂.</p><p>Rad 1: p₁=100 kPa, V₁=2,00 L, T₁=300 K, p₂=200 kPa och T₂=300 K. Bestäm V₂. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>V₂=p₁V₁T₂/(p₂T₁)=100·2,00·300/(200·300)=1,00 liter. Svar: 1,00 liter.</p>",
+        "ledtrad": "<p>Temperaturen är oförändrad på denna rad.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      },
+      {
+        "etikett": "b",
+        "fraga": "Rad 2: p₁=200 kPa, V₁=5,00 L, T₁=250 K, V₂=5,00 L och T₂=500 K. Bestäm p₂. Svara i kPa. Svara med ett heltal.",
+        "t": "<p>Varje rad beskriver samma instängda gasmängd före och efter en förändring. Använd p₁V₁/T₁=p₂V₂/T₂.</p><p>Rad 2: p₁=200 kPa, V₁=5,00 L, T₁=250 K, V₂=5,00 L och T₂=500 K. Bestäm p₂. Svara i kPa. Svara med ett heltal.</p>",
+        "s": "<p>p₂=p₁V₁T₂/(T₁V₂)=200·5,00·500/(250·5,00)=400 kPa. Svar: 400 kPa.</p>",
+        "ledtrad": "<p>Volymen är oförändrad på denna rad.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      },
+      {
+        "etikett": "c",
+        "fraga": "Rad 3: p₁=150 kPa, V₁=4,00 L, T₁=300 K, p₂=100 kPa och V₂=9,00 L. Bestäm T₂. Svara i K. Svara med ett heltal.",
+        "t": "<p>Varje rad beskriver samma instängda gasmängd före och efter en förändring. Använd p₁V₁/T₁=p₂V₂/T₂.</p><p>Rad 3: p₁=150 kPa, V₁=4,00 L, T₁=300 K, p₂=100 kPa och V₂=9,00 L. Bestäm T₂. Svara i K. Svara med ett heltal.</p>",
+        "s": "<p>T₂=p₂V₂T₁/(p₁V₁)=100·9,00·300/(150·4,00)=450 K. Svar: 450 K.</p>",
+        "ledtrad": "<p>Lös ut T₂ ur den kombinerade gaslagen.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      }
+    ]
   },
   {
     "id": "6.89",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Omvandla följande temperaturer till enheten kelvin.</p>\n<ol><li>25 °C</li><li>150 °C</li><li>−40 °C</li><li>480 °C</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägg till 273,15 till varje celsiustemperatur.</p><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\ \\mathrm K\\]\\[150+273{,}15=423{,}15\\ \\mathrm K\\]\\[-40+273{,}15=233{,}15\\ \\mathrm K\\]\\[480+273{,}15=753{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturerna är ungefär \\(298\\), \\(423\\), \\(233\\) och \\(753\\ \\mathrm K\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd T=t+273,15.</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 25 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla −40 °C till kelvin. Svara i K. Svara med ett heltal.</li><li>Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) T=25+273,15=298,15 K. Svar: 298 K.</p><p>b) T=150+273,15=423,15 K. Svar: 423 K.</p><p>c) T=−40+273,15=233,15 K. Svar: 233 K.</p><p>d) T=480+273,15=753,15 K. Svar: 753 K.</p>",
+    "familj": "Omvandla Celsius till kelvin",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Lägg till 273,15 till varje celsiustemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
+    "familjNyckel": "gaslagen__omvandla_celsius_till_kelvin",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      298.0,
+      423.0,
+      233.0,
+      753.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Lägg till 273,15.</p>",
+    "traningsniva": 1,
+    "typ": "omvandla celsius till kelvin",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "K",
+      "K",
+      "K",
+      "K"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Omvandla följande temperaturer till enheten kelvin.</p>",
+    "spelIntro": "<p>Använd T=t+273,15.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "25 °C",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägg till 273,15 till varje celsiustemperatur.</p><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(298{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Lägg till 273,15 till varje celsiustemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla 25 °C till kelvin. Svara i K. Svara med ett heltal.",
+        "t": "<p>Använd T=t+273,15.</p><p>Omvandla 25 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
+        "s": "<p>T=25+273,15=298,15 K. Svar: 298 K.</p>",
+        "ledtrad": "<p>Lägg till 273,15.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "150 °C",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägg till 273,15 till varje celsiustemperatur.</p><div class=\"facit-matte\">\\[150+273{,}15=423{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(423{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Lägg till 273,15 till varje celsiustemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.",
+        "t": "<p>Använd T=t+273,15.</p><p>Omvandla 150 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
+        "s": "<p>T=150+273,15=423,15 K. Svar: 423 K.</p>",
+        "ledtrad": "<p>Lägg till 273,15.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "−40 °C",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägg till 273,15 till varje celsiustemperatur.</p><div class=\"facit-matte\">\\[-40+273{,}15=233{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(233{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Lägg till 273,15 till varje celsiustemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla −40 °C till kelvin. Svara i K. Svara med ett heltal.",
+        "t": "<p>Använd T=t+273,15.</p><p>Omvandla −40 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
+        "s": "<p>T=−40+273,15=233,15 K. Svar: 233 K.</p>",
+        "ledtrad": "<p>Ett minustecken framför celsiustemperaturen ska följa med i additionen.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "d",
-        "fraga": "480 °C",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lägg till 273,15 till varje celsiustemperatur.</p><div class=\"facit-matte\">\\[480+273{,}15=753{,}15\\ \\mathrm K\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(753{,}15\\ \\mathrm K\\).</p></div>",
-        "ledtrad": "<p>Lägg till 273,15 till varje celsiustemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.",
+        "t": "<p>Använd T=t+273,15.</p><p>Omvandla 480 °C till kelvin. Svara i K. Svara med ett heltal.</p>",
+        "s": "<p>T=480+273,15=753,15 K. Svar: 753 K.</p>",
+        "ledtrad": "<p>Lägg till 273,15.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       }
     ]
   },
@@ -55244,8 +55578,8 @@ window.BANK = [
     "niva": "E",
     "typ": "hydraulik och förflyttning",
     "poang": "(2/0/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Kolvarnas diametrar är 2,6 cm och 9,5 cm. Den lilla trycks ned 30 mm.</p><p>Bestäm hur långt den stora kolven stiger. Svara i mm. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>Volymen bevaras: A₁s₁ = A₂s₂. s₂ = 30(2,6/9,5)² ≈ 2,24709 mm. Svar: 2,25 mm.</p>",
+    "t": "<p>En hydraulisk verkstadslyft har en pumpkolv med diametern 2,6 cm och en lyftkolv med diametern 9,5 cm. Pumpkolven rör sig 30 mm nedåt. Vätskan kan inte pressas ihop och inga läckage finns.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-8\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: d = 2,6 cm</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: d = 9,5 cm</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-8)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">30 mm</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-8)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">s = ?</text></g></svg></span><p>Bestäm hur långt bilen rör sig uppåt. Svara i mm. Avrunda till 2 decimaler.</p>",
+    "s": "<p>Samma vätskevolym flyttas vid båda kolvarna: A<sub>pump</sub>s<sub>pump</sub> = A<sub>lyft</sub>s<sub>lyft</sub>. Eftersom arean är proportionell mot d² blir s<sub>lyft</sub> = 30(2,6/9,5)² ≈ 2,2471 mm. Svar: 2,25 mm.</p>",
     "familj": "Hydraulik och förflyttning",
     "formaga": [
       "procedur"
@@ -55257,7 +55591,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Samma vätskevolym flyttas vid båda kolvarna.</p>",
+    "ledtrad": "<p>Samma vätskevolym flyttas, men kolvareorna beror på diametrerna i kvadrat.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -55268,14 +55602,14 @@ window.BANK = [
     "id": "6.299",
     "kap": 6,
     "omr": "tryck",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolvens area är 4,0 cm² och lyftkolvens 20 cm². Pumpkolven förs 15 mm nedåt.</p><p>Bestäm lyftkolvens förflyttning uppåt. Svara i mm. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<p>A_pump s_pump = A_lyft s_lyft. s_lyft = 4,0 · 15/20 = 3,0 mm. Svar: 3 mm.</p>",
+    "t": "<p>I en hydraulisk lyft är pumpkolvens area 4,0 cm² och lyftkolvens area 20 cm². Pumpkolven rör sig 15 mm nedåt. Vätskan kan inte pressas ihop och inga läckage finns.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-7\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 4,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 20 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"last\"><rect x=\"413\" y=\"92\" width=\"86\" height=\"47\" rx=\"5\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><text x=\"456\" y=\"121\" text-anchor=\"middle\" font-size=\"15\" fill=\"#3D2B1C\">last</text></g><line x1=\"76\" y1=\"112\" x2=\"76\" y2=\"180\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-7)\"/><text x=\"66\" y=\"100\" text-anchor=\"middle\">15 mm</text><line x1=\"555\" y1=\"180\" x2=\"555\" y2=\"112\" stroke=\"#6D5BA7\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-7)\"/><text x=\"545\" y=\"201\" text-anchor=\"middle\">s = ?</text></g></svg></span><p>Använd A<sub>pump</sub>s<sub>pump</sub> = A<sub>lyft</sub>s<sub>lyft</sub> och bestäm hur långt lyftkolven rör sig uppåt. Svara i mm. Avrunda till 1 decimal.</p>",
+    "s": "<p>4,0 · 15 = 20 · s<sub>lyft</sub>. Alltså s<sub>lyft</sub> = 60/20 = 3,0 mm. Svar: 3,0 mm.</p>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Hydraulik och förflyttning",
     "typ": "hydraulik och förflyttning",
-    "ledtrad": "<p>Vilken volym lämnar pumpcylindern?</p>",
-    "miniräknare": true,
+    "ledtrad": "<p>Sätt in de två areorna och pumpkolvens förflyttning i det givna sambandet.</p>",
+    "miniräknare": false,
     "geogebra": false,
     "arbetsinsats": 1,
     "familjNyckel": "tryck__hydraulik_och_forflyttning",
@@ -55287,9 +55621,9 @@ window.BANK = [
     "rättSvar": 3.0,
     "tolerans": 0,
     "självrättning": true,
+    "poang": "(1/0/0)",
     "svarEnhet": "mm",
-    "svarFormat": "numeriskt",
-    "poang": "(2/0/0)"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.92",
@@ -55379,8 +55713,8 @@ window.BANK = [
     "niva": "E",
     "typ": "hydraulisk kraftförstärkning",
     "poang": "(2/0/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Kolvarnas diametrar är 2,0 cm och 8,0 cm. På den lilla verkar 120 N.</p><p>Bestäm den stora kolvens lyftkraft. Svara i N. Svara med ett heltal.</p>",
-    "s": "<p>F₂ = 120(8,0/2,0)² = 1920 N. Svar: 1920 N.</p>",
+    "t": "<p>I en hydraulisk press är pumpkolvens diameter 2,0 cm och presskolvens diameter 8,0 cm. Pumpkolven trycks ned med kraften 120 N. Pressens förluster försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-3\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: d = 2,0 cm</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: d = 8,0 cm</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"arbetsstycke i press\"><rect x=\"415\" y=\"97\" width=\"82\" height=\"42\" rx=\"4\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><rect x=\"385\" y=\"77\" width=\"142\" height=\"10\" rx=\"3\" fill=\"#56616D\"/></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-3)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">120 N</text><line x1=\"456\" y1=\"145\" x2=\"456\" y2=\"68\" stroke=\"#2E7D5B\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-3)\"/><text x=\"456\" y=\"48\" text-anchor=\"middle\">F = ?</text></g></svg></span><p>Bestäm kraften från presskolven. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>Kolvarean är proportionell mot diametern i kvadrat. Kraftförstärkningen blir därför (8,0/2,0)² = 16. F<sub>press</sub> = 120 · 16 = 1920 N. Svar: 1920 N.</p>",
     "familj": "Hydraulisk kraftförstärkning",
     "formaga": [
       "procedur"
@@ -55392,7 +55726,7 @@ window.BANK = [
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Kraftförstärkningen är areaförhållandet, inte diameterförhållandet.</p>",
+    "ledtrad": "<p>När diametern blir fyra gånger större blir arean inte bara fyra gånger större.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -55403,14 +55737,14 @@ window.BANK = [
     "id": "6.298",
     "kap": 6,
     "omr": "tryck",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Pumpkolvens area är 3,0 cm² och lyftkolvens 24 cm². Pumpkraften är 50 N.</p><p>Bestäm lyftkraften. Svara i N. Svara med ett heltal.</p>",
-    "s": "<p>F_lyft = F_pump A_lyft/A_pump = 50 · 24/3,0 = 400 N. Svar: 400 N.</p>",
+    "t": "<p>En hydraulisk lyft har en pumpkolv med arean 3,0 cm² och en lyftkolv med arean 24 cm². Handtaget ger kraften 50 N på pumpkolven. Lyftens förluster försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-1\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: A = 3,0 cm²</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: A = 24 cm²</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"last\"><rect x=\"413\" y=\"92\" width=\"86\" height=\"47\" rx=\"5\" fill=\"#D8A35D\" stroke=\"#6B4C2D\" stroke-width=\"2\"/><text x=\"456\" y=\"121\" text-anchor=\"middle\" font-size=\"15\" fill=\"#3D2B1C\">last</text></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-1)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">50 N</text><line x1=\"456\" y1=\"145\" x2=\"456\" y2=\"68\" stroke=\"#2E7D5B\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-1)\"/><text x=\"456\" y=\"48\" text-anchor=\"middle\">F = ?</text></g></svg></span><p>Använd sambandet F<sub>pump</sub>/A<sub>pump</sub> = F<sub>lyft</sub>/A<sub>lyft</sub> och bestäm lyftkraften. Svara i N. Svara med ett heltal.</p>",
+    "s": "<p>Areaförhållandet är 24/3,0 = 8. Därför blir F<sub>lyft</sub> = 50 · 8 = 400 N. Svar: 400 N.</p>",
     "niva": "E",
-    "traningsniva": 2,
+    "traningsniva": 1,
     "familj": "Hydraulisk kraftförstärkning",
     "typ": "hydraulisk kraftförstärkning",
-    "ledtrad": "<p>Hur stor är kolvarnas areakvot?</p>",
-    "miniräknare": true,
+    "ledtrad": "<p>Jämför lyftkolvens area med pumpkolvens area.</p>",
+    "miniräknare": false,
     "geogebra": false,
     "arbetsinsats": 1,
     "familjNyckel": "tryck__hydraulisk_kraftforstarkning",
@@ -55422,9 +55756,9 @@ window.BANK = [
     "rättSvar": 400.0,
     "tolerans": 0,
     "självrättning": true,
+    "poang": "(1/0/0)",
     "svarEnhet": "N",
-    "svarFormat": "numeriskt",
-    "poang": "(2/0/0)"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.94",
@@ -55846,22 +56180,24 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En idealiserad hydraulisk broms har en pedalhävarm som fyrdubblar förarens kraft 200 N. Huvudkolvens area är 2,0 cm² och varje bromskolvs area 12 cm². Försumma friktion och höjdskillnad. Samma lufttryck verkar på kolvarnas utsidor.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm vätskans övertryck och kraften på en bromskolv.</li><li>Förklara varför luft i systemet kan kräva större pedalrörelse innan kolven har flyttats lika långt.</li></ol>",
-    "s": "<p>a) Hävarmen ger 4 · 200 = 800 N. Övertrycket är 800/(2,0 · 10⁻⁴) = 4 000 000 Pa = 4,0 MPa. En bromskolv får kraften 4,0 · 10⁶ · 12 · 10⁻⁴ = 4800 N. Det är kolvkraften; en faktisk bromsmekanisms övriga kraftförhållanden ingår inte.</p><p>b) Vätskan antas nästan inkompressibel, medan gas kan komprimeras. Med en luftbubbla går en del av huvudkolvens volymförskjutning till att minska gasvolymen. Därför behövs större pedalrörelse för samma förflyttning av bromskolven.</p>",
-    "familj": "Hydraulik och kompressibilitet",
+    "poang": "(2/2/0)",
+    "t": "<p>När föraren trycker på bromspedalen med 200 N fyrdubblar pedalens hävarm kraften innan den når huvudkolven. Huvudkolvens area är 2,0 cm² och varje bromskolvs area är 12 cm². Bromssystemet behandlas först som ideal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 660 300\" role=\"img\" aria-label=\"Förenklad hydraulisk broms med pedal, huvudkolv och bromskolv\"><defs><marker id=\"brake-arrow\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"660\" height=\"300\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"15\" fill=\"#25313C\" stroke-linejoin=\"round\"><line x1=\"82\" y1=\"54\" x2=\"126\" y2=\"171\" stroke=\"#56616D\" stroke-width=\"12\" stroke-linecap=\"round\"/><circle cx=\"113\" cy=\"137\" r=\"7\" fill=\"#25313C\"/><line x1=\"44\" y1=\"74\" x2=\"73\" y2=\"115\" stroke=\"#C65D36\" stroke-width=\"4\" marker-end=\"url(#brake-arrow)\"/><text x=\"38\" y=\"56\">200 N</text><text x=\"37\" y=\"210\">pedal</text><text x=\"77\" y=\"230\">kraft × 4</text><rect x=\"145\" y=\"118\" width=\"115\" height=\"56\" rx=\"8\" fill=\"#E7EBEF\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"151\" y=\"124\" width=\"24\" height=\"44\" fill=\"#B7C0C8\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"175\" y=\"124\" width=\"78\" height=\"44\" fill=\"#CBE7F5\"/><line x1=\"126\" y1=\"171\" x2=\"151\" y2=\"151\" stroke=\"#56616D\" stroke-width=\"5\"/><text x=\"203\" y=\"102\" text-anchor=\"middle\">huvudkolv 2,0 cm²</text><path d=\"M253 146H430\" stroke=\"#2878A8\" stroke-width=\"18\" fill=\"none\"/><rect x=\"430\" y=\"104\" width=\"126\" height=\"84\" rx=\"10\" fill=\"#E7EBEF\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"438\" y=\"112\" width=\"78\" height=\"68\" fill=\"#CBE7F5\"/><rect x=\"516\" y=\"112\" width=\"31\" height=\"68\" fill=\"#B7C0C8\" stroke=\"#354552\" stroke-width=\"2\"/><line x1=\"548\" y1=\"146\" x2=\"607\" y2=\"146\" stroke=\"#2E7D5B\" stroke-width=\"4\" marker-end=\"url(#brake-arrow)\"/><text x=\"493\" y=\"88\" text-anchor=\"middle\">bromskolv 12 cm²</text><text x=\"590\" y=\"129\" text-anchor=\"middle\">F?</text><circle cx=\"591\" cy=\"146\" r=\"42\" fill=\"none\" stroke=\"#56616D\" stroke-width=\"8\"/><text x=\"330\" y=\"210\" text-anchor=\"middle\" fill=\"#256A8A\">bromsvätska</text></g></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm kraften på huvudkolven.</li><li>Bestäm tryckökningen i bromsvätskan.</li><li>Bestäm kraften på en bromskolv.</li><li>Förklara varför luft i bromssystemet kan göra att pedalen måste tryckas längre innan samma bromsverkan uppnås.</li></ol>",
+    "s": "<p>a) Hävarmen fyrdubblar kraften: F<sub>huvud</sub> = 4 · 200 = 800 N.</p><p>b) A<sub>huvud</sub> = 2,0 cm² = 2,0 · 10⁻⁴ m². Tryckökningen blir Δp = 800/(2,0 · 10⁻⁴) = 4,0 · 10⁶ Pa = 4,0 MPa.</p><p>c) A<sub>broms</sub> = 12 cm² = 12 · 10⁻⁴ m². Kolvkraften blir F<sub>broms</sub> = ΔpA = 4,0 · 10⁶ · 12 · 10⁻⁴ = 4800 N.</p><p>d) Bromsvätskan kan nästan inte pressas ihop, men en luftbubbla kan komprimeras. En del av huvudkolvens rörelse går då åt till att minska luftbubblans volym innan bromskolven har flyttats lika långt.</p>",
+    "familj": "Hydrauliska bromsar",
     "formaga": [
+      "begrepp",
       "modellering",
+      "procedur",
       "resonemang"
     ],
-    "familjNyckel": "tryck__hydraulik_och_kompressibilitet",
+    "familjNyckel": "tryck__hydrauliska_bromsar",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Skilj på kraftförstärkning i hävarmen och i hydrauliken.</p>",
+    "ledtrad": "<p>Följ kraftöverföringen i ordning: pedal, hävarm, huvudkolv, vätsketryck och bromskolv.</p>",
     "traningsniva": 4,
-    "typ": "hydraulik och kompressibilitet",
+    "typ": "hydrauliska bromsar",
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -56004,20 +56340,21 @@ window.BANK = [
     "omr": "vatsketryck",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En ideal hydraulisk domkraft har den lilla kolvens radie 1,0 cm. En person med massan 70 kg står stilla på den lilla kolven. Den stora kolven ska balansera tyngden av en bil på 900 kg. Kolvarna ligger på samma höjd. Försumma friktion och kolvarnas massor.</p><p>Bestäm den stora kolvens radie för jämvikt. Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
-    "s": "<p>70g/(π · 1,0²) = 900g/(πR²), med båda radierna i cm. R = 1,0√(900/70) ≈ 3,58569 cm. Svar: 3,59 cm.</p>",
-    "familj": "Hydraulik och areaförhållande",
+    "t": "<p>En bil med massan 900 kg står på lyftkolven i en hydraulisk domkraft. Domkraftens handtag ger kraften 687 N på pumpkolven, vars radie är 1,0 cm. Använd g = 9,82 m/s² och försumma domkraftens förluster.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydrauliskt system med en liten pumpkolv och en större lyftkolv\"><defs><marker id=\"hyd-arrow-6\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"context-stroke\"/></marker></defs><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M92 170h80v82h202v-82h164v126H92z\" fill=\"#CBE7F5\"/><path d=\"M92 161v135h446V161M172 161v91h202v-91\" fill=\"none\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"87\" y=\"151\" width=\"90\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><rect x=\"369\" y=\"151\" width=\"174\" height=\"14\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><text x=\"132\" y=\"320\" text-anchor=\"middle\">pumpkolv: r = 1,0 cm</text><text x=\"456\" y=\"320\" text-anchor=\"middle\">lyftkolv: r = ?</text><text x=\"307\" y=\"278\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text><g aria-label=\"bil\"><path d=\"M382 105h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"139\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 88h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/></g><line x1=\"132\" y1=\"58\" x2=\"132\" y2=\"128\" stroke=\"#C65D36\" stroke-width=\"4\" stroke-linecap=\"round\" marker-end=\"url(#hyd-arrow-6)\"/><text x=\"132\" y=\"43\" text-anchor=\"middle\">687 N</text></g></svg></span><p>Bestäm vilken radie lyftkolven behöver ha för att bilen precis ska kunna hållas stilla. Svara i cm. Avrunda till 2 decimaler.</p>",
+    "s": "<p>Bilens tyngd är 900 · 9,82 = 8838 N. Samma övertryck verkar under båda kolvarna, så 687/(π · 1,0²) = 8838/(πR²), där radierna anges i samma enhet. R = 1,0√(8838/687) ≈ 3,5867 cm. Svar: 3,59 cm.</p>",
+    "familj": "Dimensionera hydraulisk domkraft",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "vatsketryck__hydraulik_och_areaforhallande",
+    "familjNyckel": "vatsketryck__dimensionera_hydraulisk_domkraft",
     "svarstyp": "numeriskt",
     "rättSvar": 3.59,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Hur beror kolvarean på radien?</p>",
+    "ledtrad": "<p>Jämför bilens tyngd med kraften på pumpkolven och använd att arean är proportionell mot radien i kvadrat.</p>",
     "traningsniva": 3,
-    "typ": "hydraulik och areaförhållande",
+    "typ": "dimensionera hydraulisk domkraft",
     "miniräknare": true,
     "geogebra": false,
     "arbetsinsats": 2,
@@ -56677,36 +57014,43 @@ window.BANK = [
     "id": "6.113",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Markus har en liten järnbit med massan 90 g som han har hängt i en dynamometer. Han sänker ner järnbiten i en skål med vatten. Järn har densiteten 7,87 g/cm³.</p>\n<ol><li>Bestäm järnbitens volym.</li><li>Bestäm lyftkraften som verkar på järnbiten.</li>\n<li>Vilken kraft kommer dynamometern att visa?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd järnets densitet \\(7{,}87\\ \\mathrm{g/cm^3}\\).</p><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{90}{7{,}87}=11{,}44\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkraften i vatten är</p><div class=\"facit-matte\">\\[F_A=998\\cdot9{,}82\\cdot11{,}44\\cdot10^{-6}=0{,}112\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dynamometern visar den skenbara tyngden.</p><div class=\"facit-matte\">\\[F_D=mg-F_A=0{,}090\\cdot9{,}82-0{,}112=0{,}772\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är \\(11{,}4\\ \\mathrm{cm^3}\\), lyftkraften \\(0{,}112\\ \\mathrm N\\), och dynamometern visar cirka \\(0{,}77\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Försumma luftens lyftkraft och trådens volym.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm järnbitens volym. Svara i cm³. Avrunda vid behov till 2 decimaler.</li><li>Bestäm vattnets lyftkraft på järnbiten. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm dynamometerns visning. Svara i N. Avrunda vid behov till 3 decimaler.</li></ol>",
+    "s": "<p>a) V = m/ρ = 90,0/7,87 ≈ 11,4358 cm³. Svar: 11,44 cm³.</p><p>b) Volymen är cirka 11,4358 cm³ = 11,4358·10⁻⁶ m³. F<sub>A</sub> = ρ<sub>v</sub>gV ≈ 0,11208 N. Svar: 0,112 N.</p><p>c) Jämvikt ger F<sub>D</sub>+F<sub>A</sub>=mg. Alltså F<sub>D</sub>=0,0900·9,82−0,11208 ≈ 0,77172 N. Svar: 0,772 N.</p>",
+    "familj": "Densitet från vägning i vätska",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__densitet_fran_vagning_i_vatska",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      11.4,
+      11.44,
       0.112,
-      0.77
+      0.772
     ],
     "tolerans": [
-      0.17099999999999999,
-      0.00336,
-      0.01155
+      0,
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>Använd järnets densitet tillsammans med massan i gram.</p>",
+    "traningsniva": 3,
+    "typ": "densitet från vägning i vätska",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "cm³",
+      "N",
+      "N"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -56715,117 +57059,162 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Försumma luftens lyftkraft och trådens volym.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Markus har en liten järnbit med massan 90 g som han har hängt i en dynamometer. Han sänker ner järnbiten i en skål med vatten. Järn har densiteten 7,87 g/cm³.</p><div class=\"spel-en-del\">Bestäm järnbitens volym.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd järnets densitet \\(7{,}87\\ \\mathrm{g/cm^3}\\).</p><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{90}{7{,}87}=11{,}44\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11{,}44\\ \\mathrm{cm^3}\\).</p></div>",
-        "ledtrad": "<p>Använd järnets densitet \\(7{,}87\\ \\mathrm{g/cm^3}\\). Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
+        "fraga": "Bestäm järnbitens volym. Svara i cm³. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Försumma luftens lyftkraft och trådens volym.</p><p>Bestäm järnbitens volym. Svara i cm³. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>V = m/ρ = 90,0/7,87 ≈ 11,4358 cm³. Svar: 11,44 cm³.</p>",
+        "ledtrad": "<p>Använd järnets densitet tillsammans med massan i gram.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "t": "<p>Markus har en liten järnbit med massan 90 g som han har hängt i en dynamometer. Han sänker ner järnbiten i en skål med vatten. Järn har densiteten 7,87 g/cm³.</p><div class=\"spel-en-del\">Bestäm lyftkraften som verkar på järnbiten.</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkraften i vatten är</p><div class=\"facit-matte\">\\[F_A=998\\cdot9{,}82\\cdot11{,}44\\cdot10^{-6}=0{,}112\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}112\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\). Vid flytjämvikt är flytkraften lika stor som föremålets tyngd.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm vattnets lyftkraft på järnbiten. Svara i N. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Försumma luftens lyftkraft och trådens volym.</p><p>Bestäm vattnets lyftkraft på järnbiten. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>Volymen är cirka 11,4358 cm³ = 11,4358·10⁻⁶ m³. F<sub>A</sub> = ρ<sub>v</sub>gV ≈ 0,11208 N. Svar: 0,112 N.</p>",
+        "ledtrad": "<p>Omvandla volymen från cm³ till m³ innan du använder Arkimedes princip.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "t": "<p>Markus har en liten järnbit med massan 90 g som han har hängt i en dynamometer. Han sänker ner järnbiten i en skål med vatten. Järn har densiteten 7,87 g/cm³.</p><div class=\"spel-en-del\">Vilken kraft kommer dynamometern att visa?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Dynamometern visar den skenbara tyngden.</p><div class=\"facit-matte\">\\[F_D=mg-F_A=0{,}090\\cdot9{,}82-0{,}112=0{,}772\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}772\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Dynamometern visar den skenbara tyngden. Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm dynamometerns visning. Svara i N. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En järnbit med massan 90,0 g hänger i en dynamometer och sänks ned helt i vatten utan att röra kärlet. Järnets densitet är 7,87 g/cm³ och vattnets densitet 998 kg/m³. Försumma luftens lyftkraft och trådens volym.</p><p>Bestäm dynamometerns visning. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>Jämvikt ger F<sub>D</sub>+F<sub>A</sub>=mg. Alltså F<sub>D</sub>=0,0900·9,82−0,11208 ≈ 0,77172 N. Svar: 0,772 N.</p>",
+        "ledtrad": "<p>Dynamometern behöver bara bära den del av tyngden som lyftkraften inte bär.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
-    ],
-    "familjNyckelTidigare": "arkimedes__bestam_densitet_med_flytkraft",
-    "ledtrad": "<p>Använd järnets densitet \\(7{,}87\\ \\mathrm{g/cm^3}\\). Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>"
+    ]
   },
   {
     "id": "6.280",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "typ": "kraftbalans med lyftkraft och snörkraft",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett föremål med volymen \\(3,5\\,\\mathrm l\\) och densiteten \\(1500\\,\\mathrm{kg/m^3}\\) hålls helt nedsänkt i vatten med ett snöre uppifrån. Bestäm spännkraften i snöret när föremålet är stilla.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><p class=\"facit-metod\">Föremålet är tätare än vatten. I jämvikt balanserar lyftkraft och spännkraft tillsammans tyngden.</p><div class=\"facit-matte\">\\[T=mg-F_b=(\\rho_{obj}-\\rho_v)Vg=17,19\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(17,19\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Arkimedes princip och flytkraft",
+    "niva": "E",
+    "typ": "kraftjämvikt med lyftkraft",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett föremål med volymen 3,5 liter och densiteten 1500 kg/m³ hålls stilla helt nedsänkt i vatten med densiteten 1000 kg/m³. Ett snöre är fäst ovanför föremålet.</p><p>Bestäm snörets spännkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Tyngden är ρ<sub>f</sub>Vg och lyftkraften ρ<sub>v</sub>Vg. Jämvikt ger T=(ρ<sub>f</sub>−ρ<sub>v</sub>)Vg=(1500−1000)·0,0035·9,82=17,185 N. Svar: 17,19 N.</p>",
+    "familj": "Kraftjämvikt med lyftkraft",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "arkimedes__arkimedes_princip_och_flytkraft",
+    "familjNyckel": "arkimedes__kraftjamvikt_med_lyftkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 17.185,
-    "tolerans": 0.30933,
+    "rättSvar": 17.19,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv kraftbalans vertikalt: uppåtkrafterna ska tillsammans balansera tyngden.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Vilka två uppåtriktade krafter balanserar tyngdkraften?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.114",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Ett föremål ska kunna flyta i etanol, som har densiteten 0,789 g/cm³.</p>\n<ol><li>Hur hög densitet kan föremålet som högst ha?</li>\n<li>Skulle ett föremål av trä med densiteten 0,60 g/cm³ flyta?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett homogent föremål kan flyta om dess medeldensitet inte överstiger vätskans.</p><div class=\"facit-matte\">\\[\\rho_{\\max}=0{,}789\\ \\mathrm{g/cm^3}\\]</div><p>Vid exakt samma densitet är föremålet neutralt och kan sväva helt nedsänkt.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Träets densitet är lägre än etanolens, så det flyter. Nedsänkt andel blir</p><div class=\"facit-matte\">\\[f=\\frac{0{,}60}{0{,}789}=0{,}760\\]</div><p>Cirka 24 % av volymen sticker upp.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den största densiteten är \\(0{,}789\\ \\mathrm{g/cm^3}\\). Trä med \\(0{,}60\\ \\mathrm{g/cm^3}\\) flyter med cirka \\(76\\,\\%\\) under ytan.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Försumma luftens lyftkraft och ytspänning.</p><ol style=\"display:grid;gap:0.85rem\"><li>Vilken är kroppens största möjliga medeldensitet för att den inte ska sjunka till botten? Svara i g/cm³. Avrunda vid behov till 3 decimaler.</li><li>En träbit har densiteten 0,600 g/cm³ och flyter stilla. Hur många procent av volymen ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Vid gränsen är kroppens densitet lika med etanolens. Då är den neutralt flytande helt i vätskan. Svar: 0,789 g/cm³.</p><p>b) Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>trä</sub>/ρ<sub>etanol</sub> = 0,600/0,789 ≈ 0,76046. Svar: 76,0 %.</p>",
+    "familj": "Flytvillkor och densitet",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__flytvillkor_och_densitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.789,
-      null
+      76.0
     ],
     "tolerans": [
-      0.011835,
-      null
+      0,
+      0
     ],
-    "självrättning": [
-      true,
-      false
+    "självrättning": true,
+    "ledtrad": "<p>Jämför kroppens medeldensitet med etanolens densitet.</p>",
+    "traningsniva": 3,
+    "typ": "flytvillkor och densitet",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "g/cm³",
+      "%"
     ],
     "svarFormat": [
       "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      "g/cm³",
-      null
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b"
     ],
-    "familjNyckelTidigare": "arkimedes__flytvillkor_och_medeldensitet",
-    "ledtrad": "<p>Ett homogent föremål kan flyta om dess medeldensitet inte överstiger vätskans.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett föremål ska kunna flyta i etanol, som har densiteten 0,789 g/cm³.</p>",
+    "spelIntro": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Försumma luftens lyftkraft och ytspänning.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur hög densitet kan föremålet som högst ha?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett homogent föremål kan flyta om dess medeldensitet inte överstiger vätskans.</p><div class=\"facit-matte\">\\[\\rho_{\\max}=0{,}789\\ \\mathrm{g/cm^3}\\]</div><p>Vid exakt samma densitet är föremålet neutralt och kan sväva helt nedsänkt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}789\\ \\mathrm{g/cm^3}\\).</p></div>",
-        "ledtrad": "<p>Ett homogent föremål kan flyta om dess medeldensitet inte överstiger vätskans.</p>",
-        "niva": "C"
+        "fraga": "Vilken är kroppens största möjliga medeldensitet för att den inte ska sjunka till botten? Svara i g/cm³. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Försumma luftens lyftkraft och ytspänning.</p><p>Vilken är kroppens största möjliga medeldensitet för att den inte ska sjunka till botten? Svara i g/cm³. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>Vid gränsen är kroppens densitet lika med etanolens. Då är den neutralt flytande helt i vätskan. Svar: 0,789 g/cm³.</p>",
+        "ledtrad": "<p>Jämför kroppens medeldensitet med etanolens densitet.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Skulle ett föremål av trä med densiteten 0,60 g/cm³ flyta?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Träets densitet är lägre än etanolens, så det flyter. Nedsänkt andel blir</p><div class=\"facit-matte\">\\[f=\\frac{0{,}60}{0{,}789}=0{,}760\\]</div><p>Cirka 24 % av volymen sticker upp.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}760\\).</p></div>",
-        "ledtrad": "<p>Ett homogent föremål kan flyta om dess medeldensitet inte överstiger vätskans.</p>",
-        "niva": "C"
+        "fraga": "En träbit har densiteten 0,600 g/cm³ och flyter stilla. Hur många procent av volymen ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En homogen kropp placeras i etanol med densiteten 0,789 g/cm³. Försumma luftens lyftkraft och ytspänning.</p><p>En träbit har densiteten 0,600 g/cm³ och flyter stilla. Hur många procent av volymen ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>trä</sub>/ρ<sub>etanol</sub> = 0,600/0,789 ≈ 0,76046. Svar: 76,0 %.</p>",
+        "ledtrad": "<p>För en flytande kropp är den nedsänkta volymandelen en densitetskvot.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -56833,32 +57222,39 @@ window.BANK = [
     "id": "6.115",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>En träkloss med densiteten 600 kg/m³ har höjden 12 cm och flyter i vatten.</p>\n<ol><li>Hur stor andel av klossen är under ytan?</li><li>Hur många centimeter sticker upp över ytan?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För en flytande kropp gäller att nedsänkt volymandel är densitetskvoten.</p><div class=\"facit-matte\">\\[f=\\frac{\\rho_k}{\\rho_v}=\\frac{600}{998}=0{,}601\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den nedsänkta höjden är \\(0{,}601\\cdot12=7{,}21\\ \\mathrm{cm}\\).</p><div class=\"facit-matte\">\\[h_{\\mathrm{över}}=12-7{,}21=4{,}79\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(60\\,\\%\\) ligger under ytan och \\(4{,}8\\ \\mathrm{cm}\\) sticker upp.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><ol style=\"display:grid;gap:0.85rem\"><li>Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</li><li>Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>k</sub>/ρ<sub>v</sub> = 600/1000 = 0,60. Svar: 60 %.</p><p>b) För ett rätblock är höjdandelen samma som volymandelen. Ovanför ytan ligger 40 % av 12,0 cm, alltså 4,8 cm. Svar: 4,8 cm.</p>",
+    "familj": "Flytdjup och densitet",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__flytdjup_och_densitet",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      60,
+      60.0,
       4.8
     ],
     "tolerans": [
-      0.8999999999999999,
-      0.072
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>Jämför klossens densitet med vattnets.</p>",
+    "traningsniva": 2,
+    "typ": "flytdjup och densitet",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "%",
+      "cm"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      "%",
-      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -56866,156 +57262,134 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En träkloss med densiteten 600 kg/m³ har höjden 12 cm och flyter i vatten.</p><div class=\"spel-en-del\">Hur stor andel av klossen är under ytan?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För en flytande kropp gäller att nedsänkt volymandel är densitetskvoten.</p><div class=\"facit-matte\">\\[f=\\frac{\\rho_k}{\\rho_v}=\\frac{600}{998}=0{,}601\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}601\\).</p></div>",
-        "ledtrad": "<p>För en flytande kropp gäller att nedsänkt volymandel är densitetskvoten.</p>",
-        "niva": "C"
+        "fraga": "Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.",
+        "t": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><p>Hur många procent av klossens volym ligger under ytan? Svara i %. Svara med ett heltal.</p>",
+        "s": "<p>Flytjämvikt ger V<sub>ned</sub>/V = ρ<sub>k</sub>/ρ<sub>v</sub> = 600/1000 = 0,60. Svar: 60 %.</p>",
+        "ledtrad": "<p>Jämför klossens densitet med vattnets.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "t": "<p>En träkloss med densiteten 600 kg/m³ har höjden 12 cm och flyter i vatten.</p><div class=\"spel-en-del\">Hur många centimeter sticker upp över ytan?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den nedsänkta höjden är \\(0{,}601\\cdot12=7{,}21\\ \\mathrm{cm}\\).</p><div class=\"facit-matte\">\\[h_{\\mathrm{över}}=12-7{,}21=4{,}79\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}79\\ \\mathrm{cm}\\).</p></div>",
-        "ledtrad": "<p>Den nedsänkta höjden är \\(0{,}601\\cdot12=7{,}21\\ \\mathrm{cm}\\).</p>",
-        "niva": "C"
+        "fraga": "Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En homogen, rätblockformad träkloss är 12,0 cm hög och har densiteten 600 kg/m³. Den flyter lodrätt i vatten med densiteten 1000 kg/m³.</p><p>Hur många centimeter av klossen sticker upp över ytan? Svara i cm. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>För ett rätblock är höjdandelen samma som volymandelen. Ovanför ytan ligger 40 % av 12,0 cm, alltså 4,8 cm. Svar: 4,8 cm.</p>",
+        "ledtrad": "<p>Vilken andel av höjden ligger ovanför vattnet?</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
-    ],
-    "familjNyckelTidigare": "arkimedes__flytvillkor_och_medeldensitet",
-    "ledtrad": "<p>För en flytande kropp gäller att nedsänkt volymandel är densitetskvoten.</p>"
+    ]
   },
   {
     "id": "6.281",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "typ": "maximal last innan flytande kropp sänks helt",
-    "poang": "(0/1/2)",
-    "t": "<p>En tät, homogen flotte har volymen \\(1\\,\\mathrm{m^3}\\) och medeldensiteten \\(800\\,\\mathrm{kg/m^3}\\). Hur stor extra last kan läggas på flotten precis innan dess ovansida når vattenytan? Vattnets densitet är \\(1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><p class=\"facit-metod\">Vid gränsen är hela flottens volym nedsänkt. Den maximala totala massan är då massan av lika stor vattenvolym.</p><div class=\"facit-matte\">\\[m_{tot,max}=\\rho_vV=1000\\ \\mathrm{kg}\\]\\[m_{flotte}=800\\cdot1=800\\ \\mathrm{kg}\\]\\[m_{last}=200\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm{kg}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "typ": "flytande flottars lastförmåga",
+    "poang": "(2/0/0)",
+    "t": "<p>En homogen flotte har volymen 1,00 m³ och medeldensiteten 800 kg/m³. Den flyter i vatten med densiteten 1000 kg/m³. Lasten placeras ovanpå flotten och dess volym försummas.</p><p>Bestäm den största extra lastmassan innan flottens ovansida når vattenytan. Svara i kg. Svara med ett heltal.</p>",
+    "s": "<p>Vid gränsen är hela flotten nedsänkt. Den undanträngda vattenmassan är 1000·1,00=1000 kg och flottens massa 800·1,00=800 kg. Lasten får därför vara 200 kg. Svar: 200 kg.</p>",
+    "familj": "Flytande flottars lastförmåga",
     "formaga": [
-      "modellering",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__flytande_flottars_lastformaga",
     "svarstyp": "numeriskt",
-    "rättSvar": 200,
-    "tolerans": 3.6,
+    "rättSvar": 200.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Precis innan flotten sänks helt undantränger den sin fulla volym vatten.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kg"
+    "ledtrad": "<p>Vid gränsen tränger flotten undan sin fulla volym vatten.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kg",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.116",
     "kap": 6,
     "omr": "arkimedes",
     "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En liten båt är 6,0 m² stor där skrovet skär vattenytan. Båten lastas med 450 kg.</p>\n<ol><li>Hur stor extra volym måste tränga undan vatten?</li><li>Hur mycket djupare ligger båten?</li>\n<li>Varför är svaret oberoende av båtens egen vikt?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den extra undanträngda vattenmassan ska vara lika med lastens massa.</p><div class=\"facit-matte\">\\[\\Delta V=\\frac{m}{\\rho}=\\frac{450}{998}=0{,}451\\ \\mathrm{m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med vattenlinjearean 6,0 m² blir djupökningen</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{\\Delta V}{A}=\\frac{0{,}451}{6{,}0}=0{,}0752\\ \\mathrm m=7{,}52\\ \\mathrm{cm}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Båtens egen vikt balanserades redan av dess ursprungliga undanträngning. Bara den tillkommande lasten kräver extra volym.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lasten kräver \\(0{,}451\\ \\mathrm{m^3}\\) extra undanträngning, så båten sjunker cirka \\(7{,}5\\ \\mathrm{cm}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Arkimedes princip och flytkraft",
+    "poang": "(2/2/0)",
+    "t": "<p>En båt har lodräta skrovsidor nära vattenlinjen och vattenlinjearean 6,0 m². Den flyter först stilla i vatten med densiteten 998 kg/m³. Därefter lastas den med 450 kg, och vattenlinjearean kan antas vara oförändrad.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den extra vattenvolym som båten måste tränga undan.</li><li>Bestäm hur mycket djupgåendet ökar.</li><li>Förklara varför båtens egen massa inte behövs för att bestämma ökningen.</li></ol>",
+    "s": "<p>a) Den extra lyftkraften ska balansera lastens tyngd. Därför är den extra undanträngda vattenmassan 450 kg och ΔV=450/998≈0,45090 m³.</p><p>b) Med lodräta sidor är ΔV=AΔh. Alltså Δh=0,45090/6,0≈0,07515 m=7,52 cm.</p><p>c) Före lastningen balanseras båtens egen tyngd redan av den ursprungliga lyftkraften. När de två jämviktslägena jämförs återstår bara lastens extra tyngd och den extra undanträngningen.</p>",
+    "familj": "Last och ändrat djupgående",
     "formaga": [
+      "modellering",
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "arkimedes__arkimedes_princip_och_flytkraft",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      0.451,
-      7.5,
-      null
-    ],
-    "tolerans": [
-      0.01,
-      0.11249999999999999,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "ledtrad": "<p>Den extra undanträngda vattenmassan ska vara lika med lastens massa.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En liten båt är 6,0 m² stor där skrovet skär vattenytan. Båten lastas med 450 kg.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor extra volym måste tränga undan vatten?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den extra undanträngda vattenmassan ska vara lika med lastens massa.</p><div class=\"facit-matte\">\\[\\Delta V=\\frac{m}{\\rho}=\\frac{450}{998}=0{,}451\\ \\mathrm{m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}451\\ \\mathrm{m^3}\\).</p></div>",
-        "ledtrad": "<p>Den extra undanträngda vattenmassan ska vara lika med lastens massa.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur mycket djupare ligger båten?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med vattenlinjearean 6,0 m² blir djupökningen</p><div class=\"facit-matte\">\\[\\Delta h=\\frac{\\Delta V}{A}=\\frac{0{,}451}{6{,}0}=0{,}0752\\ \\mathrm m=7{,}52\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}52\\ \\mathrm{cm}\\).</p></div>",
-        "ledtrad": "<p>Den extra undanträngda vattenmassan ska vara lika med lastens massa.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför är svaret oberoende av båtens egen vikt?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Båtens egen vikt balanserades redan av dess ursprungliga undanträngning. Bara den tillkommande lasten kräver extra volym.</p></div></div></div>",
-        "ledtrad": "<p>Den extra undanträngda vattenmassan ska vara lika med lastens massa.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ]
+    "familjNyckel": "arkimedes__last_och_andrat_djupgaende",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Jämför båtens jämvikt före och efter lastningen.</p>",
+    "traningsniva": 4,
+    "typ": "last och ändrat djupgående",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.117",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
-    "poang": "(2/1/0)",
-    "t": "<p>Figuren visar en kloss som flyter i vatten.</p><span class=\"fig smal\"><svg height=\"238\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.686 30.978 286.629 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"84.80000000000001\" width=\"256\" height=\"113.19999999999999\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"84.80000000000001\" x2=\"318\" y2=\"84.80000000000001\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"65.9\" width=\"80\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"96.9\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">kloss</text></svg></span>\n<ol><li>Hur stor andel av klossen ligger under ytan?</li><li>Vilken densitet har klossen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Av figuren ligger ungefär 65 % av klossens volym under ytan.</p><div class=\"facit-matte\">\\[f\\approx0{,}65\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För en flytande kloss gäller \\(\\rho_k=f\\rho_v\\).</p><div class=\"facit-matte\">\\[\\rho_k\\approx0{,}65\\cdot998=649\\ \\mathrm{kg/m^3}\\]</div><p>Avläsningen är ungefärlig eftersom den görs ur figuren.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(65\\,\\%\\) ligger under ytan, vilket ger densiteten ungefär \\(650\\ \\mathrm{kg/m^3}\\).</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"155\" width=\"330\" height=\"85\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"155\" x2=\"375\" y2=\"155\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"155\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"155\" x2=\"142\" y2=\"155\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"187\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"148\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><ol style=\"display:grid;gap:0.85rem\"><li>Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</li><li>Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) Eftersom tvärsnittsarean är konstant är volymandelen 13,0/20,0=0,650=65,0 %. Svar: 65,0 %.</p><p>b) Flytjämvikt ger ρ<sub>k</sub>/ρ<sub>v</sub>=V<sub>ned</sub>/V. Därför ρ<sub>k</sub>=0,650·1000=650 kg/m³. Svar: 650 kg/m³.</p>",
+    "familj": "Tolka figur om flytdjup",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__tolka_figur_om_flytdjup",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      65,
-      650
+      65.0,
+      650.0
     ],
     "tolerans": [
-      0.975,
-      9.75
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>För ett rätblock kan du jämföra de två höjderna.</p>",
+    "traningsniva": 3,
+    "typ": "tolka figur om flytdjup",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "%",
+      "kg/m³"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      "%",
-      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -57023,65 +57397,83 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"155\" width=\"330\" height=\"85\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"155\" x2=\"375\" y2=\"155\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"155\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"155\" x2=\"142\" y2=\"155\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"187\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"148\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Figuren visar en kloss som flyter i vatten.</p><span class=\"fig smal\"><svg height=\"238\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"46.686 30.978 286.629 179.348\" width=\"380\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"></path><rect fill=\"#DCE6F2\" height=\"113.19999999999999\" width=\"256\" x=\"62\" y=\"84.80000000000001\"></rect><line stroke=\"#2A5D9E\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"62\" x2=\"318\" y1=\"84.80000000000001\" y2=\"84.80000000000001\"></line><rect fill=\"#fff\" height=\"54\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"80\" x=\"150\" y=\"65.9\"></rect><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" x=\"190\" y=\"96.9\">kloss</text></svg></span><div class=\"spel-en-del\">Hur stor andel av klossen ligger under ytan?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Av figuren ligger ungefär 65 % av klossens volym under ytan.</p><div class=\"facit-matte\">\\[f\\approx0{,}65\\]</div></div></div></div>",
-        "ledtrad": "<p>Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\). Vid flytjämvikt är flytkraften lika stor som föremålets tyngd.</p>",
-        "niva": "C"
+        "fraga": "Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.",
+        "t": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"155\" width=\"330\" height=\"85\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"155\" x2=\"375\" y2=\"155\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"155\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"155\" x2=\"142\" y2=\"155\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"187\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"148\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><p>Hur många procent av klossens volym ligger under ytan? Svara i %. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Eftersom tvärsnittsarean är konstant är volymandelen 13,0/20,0=0,650=65,0 %. Svar: 65,0 %.</p>",
+        "ledtrad": "<p>För ett rätblock kan du jämföra de två höjderna.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "t": "<p>Figuren visar en kloss som flyter i vatten.</p><span class=\"fig smal\"><svg height=\"238\" preserveaspectratio=\"xMidYMid meet\" viewbox=\"46.686 30.978 286.629 179.348\" width=\"380\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"></path><rect fill=\"#DCE6F2\" height=\"113.19999999999999\" width=\"256\" x=\"62\" y=\"84.80000000000001\"></rect><line stroke=\"#2A5D9E\" stroke-linecap=\"square\" stroke-width=\"2\" x1=\"62\" x2=\"318\" y1=\"84.80000000000001\" y2=\"84.80000000000001\"></line><rect fill=\"#fff\" height=\"54\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"80\" x=\"150\" y=\"65.9\"></rect><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" text-anchor=\"middle\" x=\"190\" y=\"96.9\">kloss</text></svg></span><div class=\"spel-en-del\">Vilken densitet har klossen?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För en flytande kloss gäller \\(\\rho_k=f\\rho_v\\).</p><div class=\"facit-matte\">\\[\\rho_k\\approx0{,}65\\cdot998=649\\ \\mathrm{kg/m^3}\\]</div><p>Avläsningen är ungefärlig eftersom den görs ur figuren.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(649\\ \\mathrm{kg/m^3}\\).</p></div>",
-        "ledtrad": "<p>För en flytande kloss gäller \\(\\rho_k=f\\rho_v\\). Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
-        "niva": "C"
+        "fraga": "Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.",
+        "t": "<p>Figuren visar en homogen rätblockskloss som flyter lodrätt i vatten med densiteten 1000 kg/m³. Klossen är 20,0 cm hög och 13,0 cm av höjden ligger under vattenytan.<span class=\"fig\"><svg viewBox=\"0 0 420 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En 20 centimeter hög kloss med 13 centimeter under vattenytan\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"270\" rx=\"16\" fill=\"#F7F4EE\"/><rect x=\"45\" y=\"155\" width=\"330\" height=\"85\" fill=\"#CBE7F5\"/><line x1=\"45\" y1=\"155\" x2=\"375\" y2=\"155\" stroke=\"#2878A8\" stroke-width=\"3\"/><rect x=\"165\" y=\"55\" width=\"90\" height=\"154\" rx=\"3\" fill=\"#D7A86E\" stroke=\"#5B4632\" stroke-width=\"2\"/><line x1=\"285\" y1=\"55\" x2=\"285\" y2=\"209\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"55\" x2=\"292\" y2=\"55\" stroke=\"#30343B\"/><line x1=\"278\" y1=\"209\" x2=\"292\" y2=\"209\" stroke=\"#30343B\"/><text x=\"299\" y=\"137\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#30343B\">20,0 cm</text><line x1=\"135\" y1=\"155\" x2=\"135\" y2=\"209\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"155\" x2=\"142\" y2=\"155\" stroke=\"#2878A8\"/><line x1=\"128\" y1=\"209\" x2=\"142\" y2=\"209\" stroke=\"#2878A8\"/><text x=\"120\" y=\"187\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#1E5D82\">13,0 cm</text><text x=\"55\" y=\"148\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#1E5D82\">vattenyta</text></svg></span></p><p>Bestäm klossens densitet. Svara i kg/m³. Svara med ett heltal.</p>",
+        "s": "<p>Flytjämvikt ger ρ<sub>k</sub>/ρ<sub>v</sub>=V<sub>ned</sub>/V. Därför ρ<sub>k</sub>=0,650·1000=650 kg/m³. Svar: 650 kg/m³.</p>",
+        "ledtrad": "<p>Lyftkraften och tyngdkraften är lika stora när klossen flyter stilla.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
-    ],
-    "familjNyckelTidigare": "arkimedes__flytvillkor_och_medeldensitet",
-    "ledtrad": "<p>Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\). Vid flytjämvikt är flytkraften lika stor som föremålets tyngd.</p>"
+    ]
   },
   {
     "id": "6.118",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
-    "typ": "avgöra flytjämvikt ur lyftkraft och tyngd, ur diagram, sökt resonemang",
-    "poang": "(1/2/0)",
-    "t": "<p>En liten glasflaska med luft i har volymen 25 cm³ och väger 18 g. Den släpps ner i vatten.</p><span class=\"fig smal\"><svg height=\"238\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.686 30.978 286.629 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"75.19999999999999\" width=\"256\" height=\"122.80000000000001\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"75.19999999999999\" x2=\"318\" y2=\"75.19999999999999\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"60.079999999999984\" width=\"80\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"91.07999999999998\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">flaska</text></svg></span>\n<ol><li>Hur stor är lyftkraften om flaskan är helt nedsänkt?</li><li>Hur stor är tyngdkraften?</li>\n<li>Flyter eller sjunker flaskan? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Flaskan tränger undan \\(25\\ \\mathrm{cm^3}=25\\cdot10^{-6}\\ \\mathrm{m^3}\\) vatten när den är helt nedsänkt.</p><div class=\"facit-matte\">\\[F_A=998\\cdot9{,}82\\cdot25\\cdot10^{-6}=0{,}245\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften är</p><div class=\"facit-matte\">\\[F_g=0{,}018\\cdot9{,}82=0{,}177\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom \\(F_A&gt;F_g\\) är resultanten uppåt när flaskan är helt nedsänkt.</p><p>Den stiger och flyter sedan med bara en del av volymen under ytan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lyftkraften är \\(0{,}245\\ \\mathrm N\\) och tyngdkraften \\(0{,}177\\ \\mathrm N\\); flaskan flyter.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "typ": "lyftkraft och kraftresultant",
+    "poang": "(3/0/0)",
+    "t": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Försumma vattenmotstånd i släppögonblicket.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften när flaskan är helt nedsänkt. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm flaskans tyngdkraft. Svara i N. Avrunda vid behov till 3 decimaler.</li><li>Bestäm kraftresultanten med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 3 decimaler.</li></ol>",
+    "s": "<p>a) Flaskan undantränger 25,0·10⁻⁶ m³. F<sub>A</sub>=1000·9,82·25,0·10⁻⁶=0,2455 N. Svar: 0,246 N.</p><p>b) F<sub>g</sub>=mg=0,0180·9,82=0,17676 N. Svar: 0,177 N.</p><p>c) F<sub>res</sub>=F<sub>A</sub>−F<sub>g</sub>=0,2455−0,17676=0,06874 N. Det positiva tecknet visar att flaskan börjar accelerera uppåt. Svar: 0,069 N.</p>",
+    "familj": "Lyftkraft och kraftresultant",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__lyftkraft_och_kraftresultant",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.245,
+      0.246,
       0.177,
-      null
+      0.069
     ],
     "tolerans": [
-      0.01,
-      0.00531,
-      null
+      0,
+      0,
+      0
     ],
-    "självrättning": [
-      true,
-      true,
-      false
+    "självrättning": true,
+    "ledtrad": "<p>Använd flaskans yttre volym som undanträngd volym.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "N",
+      "N",
+      "N"
     ],
     "svarFormat": [
       "numeriskt",
       "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      null,
-      null,
-      null
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -57089,34 +57481,56 @@ window.BANK = [
       "b",
       "c"
     ],
-    "familjNyckelTidigare": "arkimedes__flytvillkor_och_medeldensitet",
-    "ledtrad": "<p>Flaskan tränger undan \\(25\\ \\mathrm{cm^3}=25\\cdot10^{-6}\\ \\mathrm{m^3}\\) vatten när den är helt nedsänkt.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En liten glasflaska med luft i har volymen 25 cm³ och väger 18 g. Den släpps ner i vatten.</p><span class=\"fig smal\"><svg height=\"238\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.686 30.978 286.629 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"75.19999999999999\" width=\"256\" height=\"122.80000000000001\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"75.19999999999999\" x2=\"318\" y2=\"75.19999999999999\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"60.079999999999984\" width=\"80\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"91.07999999999998\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">flaska</text></svg></span>",
+    "spelIntro": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Försumma vattenmotstånd i släppögonblicket.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är lyftkraften om flaskan är helt nedsänkt?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Flaskan tränger undan \\(25\\ \\mathrm{cm^3}=25\\cdot10^{-6}\\ \\mathrm{m^3}\\) vatten när den är helt nedsänkt.</p><div class=\"facit-matte\">\\[F_A=998\\cdot9{,}82\\cdot25\\cdot10^{-6}=0{,}245\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}245\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Flaskan tränger undan \\(25\\ \\mathrm{cm^3}=25\\cdot10^{-6}\\ \\mathrm{m^3}\\) vatten när den är helt nedsänkt.</p>",
+        "fraga": "Bestäm lyftkraften när flaskan är helt nedsänkt. Svara i N. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Försumma vattenmotstånd i släppögonblicket.</p><p>Bestäm lyftkraften när flaskan är helt nedsänkt. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>Flaskan undantränger 25,0·10⁻⁶ m³. F<sub>A</sub>=1000·9,82·25,0·10⁻⁶=0,2455 N. Svar: 0,246 N.</p>",
+        "ledtrad": "<p>Använd flaskans yttre volym som undanträngd volym.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är tyngdkraften?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Tyngdkraften är</p><div class=\"facit-matte\">\\[F_g=0{,}018\\cdot9{,}82=0{,}177\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}177\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Flaskan tränger undan \\(25\\ \\mathrm{cm^3}=25\\cdot10^{-6}\\ \\mathrm{m^3}\\) vatten när den är helt nedsänkt.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm flaskans tyngdkraft. Svara i N. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Försumma vattenmotstånd i släppögonblicket.</p><p>Bestäm flaskans tyngdkraft. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>F<sub>g</sub>=mg=0,0180·9,82=0,17676 N. Svar: 0,177 N.</p>",
+        "ledtrad": "<p>Omvandla massan till kilogram.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Flyter eller sjunker flaskan? Motivera.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Eftersom \\(F_A&gt;F_g\\) är resultanten uppåt när flaskan är helt nedsänkt.</p><p>Den stiger och flyter sedan med bara en del av volymen under ytan.</p></div></div></div>",
-        "ledtrad": "<p>Flaskan tränger undan \\(25\\ \\mathrm{cm^3}=25\\cdot10^{-6}\\ \\mathrm{m^3}\\) vatten när den är helt nedsänkt.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
+        "fraga": "Bestäm kraftresultanten med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En tillsluten glasflaska har den yttre volymen 25,0 cm³ och massan 18,0 g. Den släpps helt under vattenytan utan begynnelsefart. Vattnets densitet är 1000 kg/m³. Försumma vattenmotstånd i släppögonblicket.</p><p>Bestäm kraftresultanten med uppåt som positiv riktning. Svara i N. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>F<sub>res</sub>=F<sub>A</sub>−F<sub>g</sub>=0,2455−0,17676=0,06874 N. Det positiva tecknet visar att flaskan börjar accelerera uppåt. Svar: 0,069 N.</p>",
+        "ledtrad": "<p>Subtrahera den nedåtriktade kraften från den uppåtriktade.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -57124,77 +57538,148 @@ window.BANK = [
     "id": "6.282",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "typ": "lyftförmåga hos gasballong",
-    "poang": "(0/1/2)",
-    "t": "<p>En liten ballong har volymen \\(0,03\\,\\mathrm{m^3}\\) och är fylld med en gas med densiteten \\(0,23\\,\\mathrm{kg/m^3}\\). Luftens densitet är \\(1,20\\,\\mathrm{kg/m^3}\\). Hur stor maximal massa, utöver själva gasen, kan ballongen bära om ballonghöljet antas masslöst?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><p class=\"facit-metod\">Lyftkraften motsvarar tyngden av undanträngd luft. Gasens egen tyngd måste räknas bort.</p><div class=\"facit-matte\">\\[m_{last}=(\\rho_{luft}-\\rho_{gas})V=(1,2-0,23)0,03=0,0291\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29,1\\ \\mathrm g\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "typ": "gasballongens lastförmåga",
+    "poang": "(2/0/0)",
+    "t": "<p>En ballong har volymen 0,030 m³ och fylls med en gas vars densitet är 0,23 kg/m³. Luftens densitet är 1,20 kg/m³ och ballonghöljet har massan 12 g. Försumma lastens volym.</p><p>Bestäm den största extra lastmassan som ballongen kan bära i jämvikt. Svara i g. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Den undanträngda luften kan bära massan 1,20·0,030=0,0360 kg. Gasen väger 0,23·0,030=0,0069 kg. När även höljets 0,012 kg räknas bort återstår 0,0171 kg=17,1 g. Svar: 17,1 g.</p>",
+    "familj": "Gasballongens lastförmåga",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__gasballongens_lastformaga",
     "svarstyp": "numeriskt",
-    "rättSvar": 29.1,
-    "tolerans": 0.5238,
+    "rättSvar": 17.1,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför massan av den undanträngda luften med massan av gasen i ballongen.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "g"
+    "ledtrad": "<p>Räkna bort både gasens och höljets massa från den undanträngda luftens massa.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "g",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.119",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
-    "typ": "jämföra volym och skenbar tyngd hos två sänken med samma massa men olika densitet, ur diagram, sökt volym och kraft",
-    "poang": "(2/1/0)",
-    "t": "<p>Två sänken har båda massan 8,0 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. Vattnets densitet är 998 kg/m³.</p><span class=\"fig bred\"><svg height=\"292\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 520 245\"><rect x=\"15\" y=\"60\" width=\"490\" height=\"170\" fill=\"#DCE6F2\"/><polyline points=\"15,56 37,64 59,56 81,64 103,56 125,64 147,56 169,64 191,56 213,64 235,56 257,64 279,56 301,64 323,56 345,64 367,56 389,64 411,56 433,64 455,56 477,64 499,56\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><line x1=\"150\" y1=\"107.5\" x2=\"150\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"360\" y1=\"112.5\" x2=\"360\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><ellipse cx=\"150\" cy=\"140\" rx=\"26\" ry=\"32.5\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"150\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">bly</text><ellipse cx=\"360\" cy=\"140\" rx=\"22\" ry=\"27.5\" fill=\"#5C575E\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"360\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">volfram</text></svg></span>\n<ol><li>Vilken volym har blysänket?</li>\n<li>Vilken volym har volframsänket?</li>\n<li>Hur stor lyftkraft verkar på vart och ett av dem i vatten?</li>\n<li>Vilket av sänkena känns tyngst när man håller det under vattnet? Motivera.</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Blysänkets volym är</p><div class=\"facit-matte\">\\[V_{Pb}=\\frac{8{,}0\\ \\mathrm g}{11{,}340\\ \\mathrm{g/cm^3}}=0{,}705\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volframsänkets volym är</p><div class=\"facit-matte\">\\[V_W=\\frac{8{,}0}{19{,}300}=0{,}415\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkrafterna blir</p><div class=\"facit-matte\">\\[F_{A,Pb}=998\\cdot9{,}82\\cdot0{,}705\\cdot10^{-6}\\approx0{,}00691\\ \\mathrm{N}=6{,}91\\ \\mathrm{mN}\\]\\[F_{A,W}=998\\cdot9{,}82\\cdot0{,}415\\cdot10^{-6}\\approx0{,}00406\\ \\mathrm{N}=4{,}06\\ \\mathrm{mN}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Båda har samma tyngd, men volfram tränger undan mindre vatten och får mindre lyftkraft.</p><div class=\"facit-matte\">\\[F_{\\mathrm{sken},Pb}=78{,}6-6{,}91=71{,}6\\ \\mathrm{mN}\\]\\[F_{\\mathrm{sken},W}=78{,}6-4{,}06=74{,}5\\ \\mathrm{mN}\\]</div><p>Volframsänket känns därför tyngst i vatten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymerna är \\(0{,}705\\) och \\(0{,}415\\ \\mathrm{cm^3}\\); lyftkrafterna \\(6{,}91\\) och \\(4{,}06\\ \\mathrm{mN}\\). Volframsänket känns tyngst.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Arkimedes princip och flytkraft",
+    "niva": "E",
+    "typ": "densitet och skenbar tyngd",
+    "poang": "(4/0/0)",
+    "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Försumma trådarnas volym och luftens lyftkraft.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm blysänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm volframsänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</li><li>Bestäm dynamometerns visning för blysänket. Svara i mN. Avrunda vid behov till 2 decimaler.</li><li>Bestäm dynamometerns visning för volframsänket. Svara i mN. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) V<sub>Pb</sub>=m/ρ=0,00800/11340 m³≈0,70547 cm³. Svar: 0,705 cm³.</p><p>b) V<sub>W</sub>=0,00800/19300 m³≈0,41451 cm³. Svar: 0,415 cm³.</p><p>c) F<sub>D</sub>=mg−ρ<sub>v</sub>gV=0,00800·9,82−998·9,82·0,00800/11340≈71,646 mN. Svar: 71,65 mN.</p><p>d) F<sub>D</sub>=0,00800·9,82−998·9,82·0,00800/19300≈74,498 mN. Volframsänket får mindre lyftkraft och känns därför tyngre i vattnet. Svar: 74,50 mN.</p>",
+    "familj": "Densitet och skenbar tyngd",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "arkimedes__arkimedes_princip_och_flytkraft",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Båda har samma tyngd, men volfram tränger undan mindre vatten och får mindre lyftkraft.</p>",
+    "familjNyckel": "arkimedes__densitet_och_skenbar_tyngd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.705,
+      0.415,
+      71.65,
+      74.5
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Samma massa men olika densitet innebär olika volym.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "cm³",
+      "cm³",
+      "mN",
+      "mN"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två sänken har båda massan 8,0 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. Vattnets densitet är 998 kg/m³.</p><span class=\"fig bred\"><svg height=\"292\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 520 245\"><rect x=\"15\" y=\"60\" width=\"490\" height=\"170\" fill=\"#DCE6F2\"/><polyline points=\"15,56 37,64 59,56 81,64 103,56 125,64 147,56 169,64 191,56 213,64 235,56 257,64 279,56 301,64 323,56 345,64 367,56 389,64 411,56 433,64 455,56 477,64 499,56\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><line x1=\"150\" y1=\"107.5\" x2=\"150\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"360\" y1=\"112.5\" x2=\"360\" y2=\"20\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><ellipse cx=\"150\" cy=\"140\" rx=\"26\" ry=\"32.5\" fill=\"#8C8890\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"150\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">bly</text><ellipse cx=\"360\" cy=\"140\" rx=\"22\" ry=\"27.5\" fill=\"#5C575E\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"360\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">volfram</text></svg></span>",
+    "spelIntro": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Försumma trådarnas volym och luftens lyftkraft.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken volym har blysänket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Blysänkets volym är</p><div class=\"facit-matte\">\\[V_{Pb}=\\frac{8{,}0\\ \\mathrm g}{11{,}340\\ \\mathrm{g/cm^3}}=0{,}705\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}705\\ \\mathrm{cm^3}\\).</p></div>",
-        "ledtrad": "<p>Båda har samma tyngd, men volfram tränger undan mindre vatten och får mindre lyftkraft.</p>",
-        "niva": "C"
+        "fraga": "Bestäm blysänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Försumma trådarnas volym och luftens lyftkraft.</p><p>Bestäm blysänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>V<sub>Pb</sub>=m/ρ=0,00800/11340 m³≈0,70547 cm³. Svar: 0,705 cm³.</p>",
+        "ledtrad": "<p>Samma massa men olika densitet innebär olika volym.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Vilken volym har volframsänket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volframsänkets volym är</p><div class=\"facit-matte\">\\[V_W=\\frac{8{,}0}{19{,}300}=0{,}415\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}415\\ \\mathrm{cm^3}\\).</p></div>",
-        "ledtrad": "<p>Båda har samma tyngd, men volfram tränger undan mindre vatten och får mindre lyftkraft.</p>",
-        "niva": "C"
+        "fraga": "Bestäm volframsänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Försumma trådarnas volym och luftens lyftkraft.</p><p>Bestäm volframsänkets volym. Svara i cm³. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>V<sub>W</sub>=0,00800/19300 m³≈0,41451 cm³. Svar: 0,415 cm³.</p>",
+        "ledtrad": "<p>Volfram har högre densitet och får därför mindre volym.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Hur stor lyftkraft verkar på vart och ett av dem i vatten?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lyftkrafterna blir</p><div class=\"facit-matte\">\\[F_{A,Pb}=998\\cdot9{,}82\\cdot0{,}705\\cdot10^{-6}\\approx0{,}00691\\ \\mathrm{N}=6{,}91\\ \\mathrm{mN}\\]\\[F_{A,W}=998\\cdot9{,}82\\cdot0{,}415\\cdot10^{-6}\\approx0{,}00406\\ \\mathrm{N}=4{,}06\\ \\mathrm{mN}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}06\\ \\mathrm{mN}\\).</p></div>",
-        "ledtrad": "<p>Båda har samma tyngd, men volfram tränger undan mindre vatten och får mindre lyftkraft.</p>",
-        "niva": "C"
+        "fraga": "Bestäm dynamometerns visning för blysänket. Svara i mN. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Försumma trådarnas volym och luftens lyftkraft.</p><p>Bestäm dynamometerns visning för blysänket. Svara i mN. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>F<sub>D</sub>=mg−ρ<sub>v</sub>gV=0,00800·9,82−998·9,82·0,00800/11340≈71,646 mN. Svar: 71,65 mN.</p>",
+        "ledtrad": "<p>Dynamometern visar tyngden minskad med vattnets lyftkraft.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "d",
-        "fraga": "Vilket av sänkena känns tyngst när man håller det under vattnet? Motivera.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Båda har samma tyngd, men volfram tränger undan mindre vatten och får mindre lyftkraft.</p><div class=\"facit-matte\">\\[F_{\\mathrm{sken},Pb}=78{,}6-6{,}91=71{,}6\\ \\mathrm{mN}\\]\\[F_{\\mathrm{sken},W}=78{,}6-4{,}06=74{,}5\\ \\mathrm{mN}\\]</div><p>Volframsänket känns därför tyngst i vatten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(74{,}5\\ \\mathrm{mN}\\).</p></div>",
-        "ledtrad": "<p>Båda har samma tyngd, men volfram tränger undan mindre vatten och får mindre lyftkraft.</p>",
-        "niva": "C"
+        "fraga": "Bestäm dynamometerns visning för volframsänket. Svara i mN. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Två sänken har vardera massan 8,00 g. Det ena är av bly med densiteten 11 340 kg/m³ och det andra av volfram med densiteten 19 300 kg/m³. De hänger helt nedsänkta i vatten med densiteten 998 kg/m³. Försumma trådarnas volym och luftens lyftkraft.</p><p>Bestäm dynamometerns visning för volframsänket. Svara i mN. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>F<sub>D</sub>=0,00800·9,82−998·9,82·0,00800/19300≈74,498 mN. Volframsänket får mindre lyftkraft och känns därför tyngre i vattnet. Svar: 74,50 mN.</p>",
+        "ledtrad": "<p>Jämför den undanträngda vattenvolymen med blysänkets.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -57203,151 +57688,159 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>En isbit flyter i ett glas vatten. Vattenytan står exakt vid glasets kant.</p>\n<ol><li>Rinner det över när isen smälter? Motivera.</li>\n<li>Isbiten innehåller en luftbubbla. Ändrar det svaret?</li>\n<li>Isbiten innehåller istället en liten sten. Vad händer med vattennivån när isen smälter?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Nej. Den flytande isen tränger undan en vattenmassa som är lika stor som isens massa. När isen smälter blir den samma massa vatten och fyller den undanträngda volymen.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En instängd luftbubbla ändrar inte slutsatsen. Isens och luftens sammanlagda tyngd bestämmer undanträngningen före smältning; efteråt lämnar luften systemet och isens smältvatten tar motsvarande plats.</p><p>Luftens massa är dessutom mycket liten.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När stenen ligger i isen bidrar hela stenens tyngd till undanträngningen. Efter smältning sjunker stenen och tränger bara undan sin egen volym.</p><div class=\"facit-matte\">\\[\\frac{m_s}{\\rho_v}&gt;\\frac{m_s}{\\rho_s}\\quad\\text{när}\\quad\\rho_s&gt;\\rho_v\\]</div><p>Vattennivån sjunker därför.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Rent isvatten rinner inte över, och en luftbubbla ändrar inte detta. Med en sten i isen sjunker vattennivån efter smältningen.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "poang": "(0/2/3)",
+    "t": "<p>En isbit flyter i ett glas med sötvatten. Vattenytan står precis vid glasets kant. Anta samma densitet för smältvattnet och vattnet i glaset.</p><ol style=\"display:grid;gap:0.85rem\"><li>Rinner vattnet över när en ren isbit smälter? Motivera med Arkimedes princip.</li><li>Isbiten innehåller en instängd luftbubbla. Först försummas luftens massa. Spelar bubblans volym någon roll för slutsatsen?</li><li>Isbiten innehåller i stället en liten sten med högre densitet än vatten. Stenen sjunker efter att isen smält. Hur förändras vattennivån? Motivera.</li></ol>",
+    "s": "<p>a) Nej. Den flytande isen undantränger en vattenmassa som är lika stor som isens massa. Efter smältningen blir isen samma massa vatten och upptar därför exakt den tidigare undanträngda volymen i modellen.</p><p>b) Nej, inte när luftens massa försummas. Hålrummets volym påverkar isbitens form och medeldensitet men den flytande kroppens undanträngning bestäms av dess tyngd. Om luftens lilla massa inte försummades och luften lämnade glaset skulle nivån sjunka ytterst lite.</p><p>c) Nivån sjunker. När stenen sitter i den flytande isen kräver dess massa undanträngningen m<sub>s</sub>/ρ<sub>v</sub>. Efter smältningen tränger den sjunkna stenen bara undan sin egen volym m<sub>s</sub>/ρ<sub>s</sub>. Eftersom ρ<sub>s</sub>>ρ<sub>v</sub> är den senare volymen mindre.</p>",
+    "familj": "Flytande is och vattennivå",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
-    "svarstyp": "manuell",
+    "familjNyckel": "arkimedes__flytande_is_och_vattenniva",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "familjNyckelTidigare": "arkimedes__flytvillkor_och_medeldensitet",
-    "ledtrad": "<p>Nej. Den flytande isen tränger undan en vattenmassa som är lika stor som isens massa. När isen smälter blir den samma massa vatten och fyller den undanträngda volymen.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En isbit flyter i ett glas vatten. Vattenytan står exakt vid glasets kant.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Rinner det över när isen smälter? Motivera.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Nej. Den flytande isen tränger undan en vattenmassa som är lika stor som isens massa. När isen smälter blir den samma massa vatten och fyller den undanträngda volymen.</p></div></div></div>",
-        "ledtrad": "<p>Nej. Den flytande isen tränger undan en vattenmassa som är lika stor som isens massa. När isen smälter blir den samma massa vatten och fyller den undanträngda volymen.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Isbiten innehåller en luftbubbla. Ändrar det svaret?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">En instängd luftbubbla ändrar inte slutsatsen. Isens och luftens sammanlagda tyngd bestämmer undanträngningen före smältning; efteråt lämnar luften systemet och isens smältvatten tar motsvarande plats.</p><p>Luftens massa är dessutom mycket liten.</p></div></div></div>",
-        "ledtrad": "<p>Nej. Den flytande isen tränger undan en vattenmassa som är lika stor som isens massa. När isen smälter blir den samma massa vatten och fyller den undanträngda volymen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Isbiten innehåller istället en liten sten. Vad händer med vattennivån när isen smälter?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När stenen ligger i isen bidrar hela stenens tyngd till undanträngningen. Efter smältning sjunker stenen och tränger bara undan sin egen volym.</p><div class=\"facit-matte\">\\[\\frac{m_s}{\\rho_v}&gt;\\frac{m_s}{\\rho_s}\\quad\\text{när}\\quad\\rho_s&gt;\\rho_v\\]</div><p>Vattennivån sjunker därför.</p></div></div></div>",
-        "ledtrad": "<p>Nej. Den flytande isen tränger undan en vattenmassa som är lika stor som isens massa. När isen smälter blir den samma massa vatten och fyller den undanträngda volymen.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ]
+    "ledtrad": "<p>Jämför volymen som föremålet undantränger före smältningen med volymen efteråt.</p>",
+    "traningsniva": 5,
+    "typ": "flytande is och vattennivå",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.283",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "typ": "kraftbalans med lyftkraft och snörkraft",
-    "poang": "(0/1/2)",
-    "t": "<p>Ett föremål med volymen \\(3\\,\\mathrm l\\) och densiteten \\(1400\\,\\mathrm{kg/m^3}\\) hålls helt nedsänkt i vatten med ett snöre uppifrån. Bestäm spännkraften i snöret när föremålet är stilla.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><p class=\"facit-metod\">Föremålet är tätare än vatten. I jämvikt balanserar lyftkraft och spännkraft tillsammans tyngden.</p><div class=\"facit-matte\">\\[T=mg-F_b=(\\rho_{obj}-\\rho_v)Vg=11,78\\ \\mathrm N\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(11,78\\ \\mathrm N\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Arkimedes princip och flytkraft",
+    "niva": "E",
+    "typ": "kraftjämvikt med lyftkraft",
+    "poang": "(2/0/0)",
+    "t": "<p>En homogen kropp har volymen 3,0 liter och densiteten 600 kg/m³. Den hålls stilla helt under vattenytan med ett snöre som är fäst i botten. Vattnets densitet är 1000 kg/m³.</p><p>Bestäm snörets spännkraft. Svara i N. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Kroppen är mindre tät än vattnet, så snöret drar nedåt. Jämvikt ger T=F<sub>A</sub>−F<sub>g</sub>=(1000−600)·0,0030·9,82=11,784 N. Svar: 11,78 N.</p>",
+    "familj": "Kraftjämvikt med lyftkraft",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "arkimedes__arkimedes_princip_och_flytkraft",
+    "familjNyckel": "arkimedes__kraftjamvikt_med_lyftkraft",
     "svarstyp": "numeriskt",
-    "rättSvar": 11.784,
-    "tolerans": 0.212112,
+    "rättSvar": 11.78,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv kraftbalans vertikalt: uppåtkrafterna ska tillsammans balansera tyngden.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "N"
+    "ledtrad": "<p>Vilken riktning måste snörets kraft ha för att hindra kroppen från att stiga?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "N",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.121",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "typ": "beräkna antalet pumptag för att fylla ett cykeldäck till ett givet tryck, ur text, sökt volym och antal",
-    "poang": "(1/2/0)",
-    "t": "<p>Ett cykeldäck har volymen 1,5 liter och innehåller från början luft vid lufttrycket 100 kPa. Det ska pumpas till 350 kPa. Pumpen tar in 0,60 liter luft vid 100 kPa vid varje pumptag. Temperaturen är konstant.</p>\n<p>Hur många pumptag krävs?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Slutlig gasmängd uttryckt som luft vid 100 kPa är</p><div class=\"facit-matte\">\\[V_{100}=1{,}5\\frac{350}{100}=5{,}25\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Däcket innehåller redan 1,5 L normalluft, så pumpen behöver tillföra</p><div class=\"facit-matte\">\\[\\Delta V=5{,}25-1{,}5=3{,}75\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Antalet ideala pumptag är</p><div class=\"facit-matte\">\\[n=\\frac{3{,}75}{0{,}60}=6{,}25\\]</div><p>Sex tag räcker inte; det krävs därför 7 hela pumptag.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det krävs 7 hela pumptag. Luften som redan finns i däcket måste räknas med.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "E",
+    "typ": "pumptag och gasmängd",
+    "poang": "(2/0/0)",
+    "t": "<p>Ett cykeldäck har volymen 1,50 liter och innehåller från början luft vid det absoluta trycket 100 kPa. Målet är minst 350 kPa absoluttryck. Varje idealiskt pumptag för in en gasmängd som motsvarar 0,600 liter vid 100 kPa. Temperaturen och däckvolymen är konstanta.</p><p>Bestäm det minsta antalet hela pumptag. Svara med ett heltal.</p>",
+    "s": "<p>Vid 100 kPa motsvarar slutmängden 1,50·350/100=5,25 liter. Däcket innehåller redan 1,50 liter, så 3,75 liter ska tillföras. 3,75/0,600=6,25, vilket kräver 7 hela tag. Efter 7 idealiska tag blir trycket något högre än målet. Svar: 7.</p>",
+    "familj": "Pumptag och gasmängd",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Slutlig gasmängd uttryckt som luft vid 100 kPa är Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>"
+    "familjNyckel": "gaslagen__pumptag_och_gasmangd",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna bort den luftmängd som redan finns i däcket och avrunda antalet tag uppåt.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.122",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "beräkna volymökning hos en förpackning som förs upp till lägre lufttryck, ur text, sökt volym och andel",
+    "typ": "boyles lag och procentuell förändring",
     "poang": "(2/0/0)",
-    "t": "<p>En chipspåse förpackas vid lufttrycket 101 kPa och innehåller då 0,50 liter luft. Påsen tas med upp till en fjällstuga 2500 m över havet, där lufttrycket är 75 kPa. Temperaturen är densamma.</p>\n<ol><li>Vilken volym har luften i påsen vid fjällstugan?</li>\n<li>Hur många procent har volymen ökat?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturen och gasmängden är konstanta.</p><div class=\"facit-matte\">\\[V_2=V_1\\frac{p_1}{p_2}=0{,}50\\frac{101}{75}=0{,}673\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volymökningen i procent är</p><div class=\"facit-matte\">\\[\\frac{0{,}673-0{,}50}{0{,}50}\\cdot100=34{,}7\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen blir cirka \\(0{,}67\\ \\mathrm L\\), en ökning med ungefär \\(35\\,\\%\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "t": "<p>En tät och lättöjbar chipspåse innehåller 0,500 liter gas vid det absoluta trycket 101 kPa. Påsen tas till en plats där trycket är 75,0 kPa. Temperaturen är oförändrad och gastrycket följer omgivningens.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasens nya volym. Svara i liter. Avrunda vid behov till 3 decimaler.</li><li>Bestäm volymökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</li></ol>",
+    "s": "<p>a) Boyles lag ger V₂=0,500·101/75,0≈0,67333 liter. Svar: 0,673 liter.</p><p>b) Den relativa ökningen är (V₂/V₁−1)·100=(101/75,0−1)·100≈34,667 %. Svar: 34,7 %.</p>",
+    "familj": "Boyles lag och procentuell förändring",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__boyles_lag_och_procentuell_forandring",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.673,
       34.7
     ],
     "tolerans": [
-      0.010095,
-      0.5205000000000001
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>Trycket minskar, så volymen ska öka.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "liter",
+      "%"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      "L",
-      "%"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Temperaturen och gasmängden är konstanta. Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En chipspåse förpackas vid lufttrycket 101 kPa och innehåller då 0,50 liter luft. Påsen tas med upp till en fjällstuga 2500 m över havet, där lufttrycket är 75 kPa. Temperaturen är densamma.</p>",
+    "spelIntro": "<p>En tät och lättöjbar chipspåse innehåller 0,500 liter gas vid det absoluta trycket 101 kPa. Påsen tas till en plats där trycket är 75,0 kPa. Temperaturen är oförändrad och gastrycket följer omgivningens.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken volym har luften i påsen vid fjällstugan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Temperaturen och gasmängden är konstanta.</p><div class=\"facit-matte\">\\[V_2=V_1\\frac{p_1}{p_2}=0{,}50\\frac{101}{75}=0{,}673\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}673\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Temperaturen och gasmängden är konstanta. Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
+        "fraga": "Bestäm gasens nya volym. Svara i liter. Avrunda vid behov till 3 decimaler.",
+        "t": "<p>En tät och lättöjbar chipspåse innehåller 0,500 liter gas vid det absoluta trycket 101 kPa. Påsen tas till en plats där trycket är 75,0 kPa. Temperaturen är oförändrad och gastrycket följer omgivningens.</p><p>Bestäm gasens nya volym. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
+        "s": "<p>Boyles lag ger V₂=0,500·101/75,0≈0,67333 liter. Svar: 0,673 liter.</p>",
+        "ledtrad": "<p>Trycket minskar, så volymen ska öka.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Hur många procent har volymen ökat?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Volymökningen i procent är</p><div class=\"facit-matte\">\\[\\frac{0{,}673-0{,}50}{0{,}50}\\cdot100=34{,}7\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(34{,}7\\,\\%\\).</p></div>",
-        "ledtrad": "<p>Temperaturen och gasmängden är konstanta. Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
+        "fraga": "Bestäm volymökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En tät och lättöjbar chipspåse innehåller 0,500 liter gas vid det absoluta trycket 101 kPa. Påsen tas till en plats där trycket är 75,0 kPa. Temperaturen är oförändrad och gastrycket följer omgivningens.</p><p>Bestäm volymökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Den relativa ökningen är (V₂/V₁−1)·100=(101/75,0−1)·100≈34,667 %. Svar: 34,7 %.</p>",
+        "ledtrad": "<p>Jämför volymökningen med startvolymen.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -57355,78 +57848,97 @@ window.BANK = [
     "id": "6.123",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>När en tornado passerar kan lufttrycket minska mycket snabbt. Betrakta en låda utan lock, där luften kan röra sig fritt in och ut. Trycket före tryckminskningen var 12 % större än efteråt, samtidigt som temperaturen inte förändrades.</p>\n<p>Vad skulle hända med densiteten av luften inuti lådan?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Lådan är öppen, så gas kan lämna den. Vid konstant temperatur gäller för ideal gas</p><div class=\"facit-matte\">\\[\\rho\\propto\\frac{n}{V}=\\frac{p}{RT}\\Rightarrow\\rho\\propto p\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Trycket före var 12 % större än efter: \\(p_f=1{,}12p_e\\).</p><div class=\"facit-matte\">\\[\\frac{\\rho_e}{\\rho_f}=\\frac{p_e}{p_f}=\\frac1{1{,}12}=0{,}893\\]</div><p>Densiteten minskar med \\(1-0{,}893=0{,}107\\), alltså 10,7 %.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Luftens densitet minskar med cirka \\(11\\,\\%\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Boyles lag",
+    "niva": "C",
+    "poang": "(1/3/0)",
+    "t": "<p>En öppen låda står i luft med oförändrad temperatur. Före ett snabbt väderomslag är lufttrycket 12,0 % större än efteråt. Luften kan röra sig fritt in och ut ur lådan.</p><ol style=\"display:grid;gap:0.85rem\"><li>Förklara varför Boyles lag för en instängd gasmängd inte kan användas direkt på luften i lådan.</li><li>Härled hur luftens densitet beror på trycket när temperaturen är konstant.</li><li>Bestäm densitetens procentuella minskning.</li></ol>",
+    "s": "<p>a) Lådan är öppen, så antalet mol luft i den kan ändras. Boyles lag pV=konstant förutsätter samma gasmängd och gäller därför inte för lådans innehåll som ett slutet system.</p><p>b) Ur pV=nRT och ρ=m/V=nM/V fås ρ=pM/(RT). För samma gas och temperatur gäller alltså ρ∝p.</p><p>c) Skriv p<sub>före</sub>=1,12p<sub>efter</sub>. Då blir ρ<sub>efter</sub>/ρ<sub>före</sub>=1/1,12≈0,8929. Minskningen är cirka 10,7 %, inte 12,0 %, eftersom procentsatsen ursprungligen angavs relativt sluttrycket.</p>",
+    "familj": "Tryck och densitet i öppen behållare",
     "formaga": [
-      "modellering",
-      "problemlösning"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
-    "svarstyp": "manuell",
+    "familjNyckel": "gaslagen__tryck_och_densitet_i_oppen_behallare",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Lådan är öppen, så gas kan lämna den. Vid konstant temperatur gäller för ideal gas</p>"
+    "ledtrad": "<p>I en öppen behållare är volymen fast men gasmängden kan ändras.</p>",
+    "traningsniva": 4,
+    "typ": "tryck och densitet i öppen behållare",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.124",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "typ": "beräkna slutligt tryck när gas fördelas mellan två sammankopplade behållare, ur diagram, sökt tryck",
-    "poang": "(1/2/0)",
-    "t": "<p>En behållare på 4,0 liter innehåller gas vid trycket 300 kPa. Den kopplas via en ventil till en tom behållare på 6,0 liter. Ventilen öppnas och temperaturen hålls konstant.</p><span class=\"fig bred\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"41.429 45.000 417.143 178.571\"><rect x=\"60\" y=\"70\" width=\"130\" height=\"110\" rx=\"8\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"125\" y=\"132\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">4,0 L</text><text x=\"125\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">300 kPa</text><line x1=\"190\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><circle cx=\"235\" cy=\"125\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"235\" y1=\"113\" x2=\"235\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><text x=\"235\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">ventil</text><rect x=\"280\" y=\"55\" width=\"160\" height=\"140\" rx=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"360\" y=\"132\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">6,0 L</text><text x=\"360\" y=\"215\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">tom</text></svg></span>\n<p>Vilket tryck råder när gasen har fördelat sig i båda behållarna?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter öppning fyller gasen båda behållarna.</p><div class=\"facit-matte\">\\[V_2=4{,}0+6{,}0=10{,}0\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant temperatur och oförändrad gasmängd gäller</p><div class=\"facit-matte\">\\[p_2=\\frac{p_1V_1}{V_2}=\\frac{300\\cdot4{,}0}{10{,}0}=120\\ \\mathrm{kPa}\\]</div><p>Den andra behållaren antas vara vakuumtömd, inte fylld med luft.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Jämviktstrycket blir \\(120\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Boyles lag",
+    "niva": "E",
+    "typ": "gasexpansion till vakuum",
+    "poang": "(2/0/0)",
+    "t": "<p>En styv behållare på 4,00 liter innehåller gas vid det absoluta trycket 300 kPa. Den ansluts till en vakuumtömd, styv behållare på 6,00 liter. Ventilen öppnas, temperaturen återgår till sitt ursprungliga värde och gasen fyller båda behållarna.</p><span class=\"fig\"><svg height=\"265\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"41.429 45.000 417.143 178.571\"><rect x=\"60\" y=\"70\" width=\"130\" height=\"110\" rx=\"8\" fill=\"#ECEFF3\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"125\" y=\"132\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">4,0 L</text><text x=\"125\" y=\"200\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">300 kPa</text><line x1=\"190\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"4\" stroke-linecap=\"square\"/><circle cx=\"235\" cy=\"125\" r=\"12\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"235\" y1=\"113\" x2=\"235\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"2.5\" stroke-linecap=\"square\"/><text x=\"235\" y=\"90\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">ventil</text><rect x=\"280\" y=\"55\" width=\"160\" height=\"140\" rx=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><text x=\"360\" y=\"132\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\">6,0 L</text><text x=\"360\" y=\"215\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#B43123\">vakuum</text></svg></span><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>Gasen får slutvolymen 4,00+6,00=10,00 liter. Vid samma sluttemperatur gäller p₁V₁=p₂V₂, så p₂=300·4,00/10,00=120 kPa. Svar: 120 kPa.</p>",
+    "familj": "Gasexpansion till vakuum",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
+    "familjNyckel": "gaslagen__gasexpansion_till_vakuum",
     "svarstyp": "numeriskt",
-    "rättSvar": 120,
-    "tolerans": 1.7999999999999998,
+    "rättSvar": 120.0,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Den andra behållaren innehåller vakuum, inte luft; använd den sammanlagda slutvolymen.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": "kPa",
-    "ledtrad": "<p>Efter öppning fyller gasen båda behållarna. Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\).</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.125",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(0/2/0)",
-    "t": "<p>En cylinder är stängd av en lättrörlig kolv med arean 15 cm². Ovanpå kolven läggs en vikt på 25 kg. Lufttrycket är 101 kPa. Temperaturen hålls konstant. Kolvens massa och friktion försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span>\n<ol><li>Hur mycket ökar trycket i gasen på grund av vikten?</li><li>Vilket tryck råder i gasen?</li>\n<li>Gasvolymen var 500 ml innan vikten lades på. Vilken volym får den?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Viktens kraft verkar över kolvarean \\(15\\ \\mathrm{cm^2}=1{,}5\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[\\Delta p=\\frac{mg}{A}=\\frac{25\\cdot9{,}82}{1{,}5\\cdot10^{-3}}\\approx164000\\ \\mathrm{Pa}=164\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gastrycket balanserar både lufttrycket och viktens bidrag.</p><div class=\"facit-matte\">\\[p_2=101+164=265\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant temperatur gäller \\(p_1V_1=p_2V_2\\).</p><div class=\"facit-matte\">\\[V_2=500\\frac{101}{265}=191\\ \\mathrm{mL}\\]</div><p>Kolvens egen tyngd och friktion försummas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tryckökningen är \\(164\\ \\mathrm{kPa}\\), totaltrycket \\(265\\ \\mathrm{kPa}\\), och volymen cirka \\(191\\ \\mathrm{mL}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Boyles lag",
+    "niva": "E",
+    "poang": "(3/0/0)",
+    "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant, kolvens friktion försummas och gasvolymen före belastningen är 500 mL. Använd g=9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) Δp=mg/A=25,0·9,82/(15,0·10⁻⁴)≈163,667 kPa. Svar: 163,7 kPa.</p><p>b) Gastrycket balanserar både lufttrycket och vikten: p₂=101+163,667≈264,667 kPa. Svar: 264,7 kPa.</p><p>c) Vid konstant temperatur gäller p₁V₁=p₂V₂. V₂=101·500/264,667≈190,806 mL. Svar: 191 mL.</p>",
+    "familj": "Belastad kolv vid konstant temperatur",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
+    "familjNyckel": "gaslagen__belastad_kolv_vid_konstant_temperatur",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      164,
-      265,
-      191
+      163.7,
+      264.7,
+      191.0
     ],
     "tolerans": [
-      2.46,
-      3.9749999999999996,
-      2.8649999999999998
+      0,
+      0,
+      0
     ],
     "självrättning": true,
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ],
+    "ledtrad": "<p>Omvandla kolvarean till m².</p>",
+    "traningsniva": 3,
+    "typ": "belastad kolv vid konstant temperatur",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": [
       "kPa",
       "kPa",
       "mL"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -57434,30 +57946,56 @@ window.BANK = [
       "b",
       "c"
     ],
-    "ledtrad": "<p>Viktens kraft verkar över kolvarean \\(15\\ \\mathrm{cm^2}=1{,}5\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En cylinder är stängd av en lättrörlig kolv med arean 15 cm². Ovanpå kolven läggs en vikt på 25 kg. Lufttrycket är 101 kPa. Temperaturen hålls konstant. Kolvens massa och friktion försummas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span>",
+    "spelIntro": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant, kolvens friktion försummas och gasvolymen före belastningen är 500 mL. Använd g=9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket ökar trycket i gasen på grund av vikten?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Viktens kraft verkar över kolvarean \\(15\\ \\mathrm{cm^2}=1{,}5\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[\\Delta p=\\frac{mg}{A}=\\frac{25\\cdot9{,}82}{1{,}5\\cdot10^{-3}}\\approx164000\\ \\mathrm{Pa}=164\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(164\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Viktens kraft verkar över kolvarean \\(15\\ \\mathrm{cm^2}=1{,}5\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "C"
+        "fraga": "Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant, kolvens friktion försummas och gasvolymen före belastningen är 500 mL. Använd g=9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm tryckökningen som vikten orsakar. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Δp=mg/A=25,0·9,82/(15,0·10⁻⁴)≈163,667 kPa. Svar: 163,7 kPa.</p>",
+        "ledtrad": "<p>Omvandla kolvarean till m².</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Vilket tryck råder i gasen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gastrycket balanserar både lufttrycket och viktens bidrag.</p><div class=\"facit-matte\">\\[p_2=101+164=265\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(265\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Viktens kraft verkar över kolvarean \\(15\\ \\mathrm{cm^2}=1{,}5\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "C"
+        "fraga": "Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant, kolvens friktion försummas och gasvolymen före belastningen är 500 mL. Använd g=9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm gasens nya absoluta tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>Gastrycket balanserar både lufttrycket och vikten: p₂=101+163,667≈264,667 kPa. Svar: 264,7 kPa.</p>",
+        "ledtrad": "<p>Viktens tryck är ett övertryck som ska läggas till omgivningstrycket.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Gasvolymen var 500 ml innan vikten lades på. Vilken volym får den?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant temperatur gäller \\(p_1V_1=p_2V_2\\).</p><div class=\"facit-matte\">\\[V_2=500\\frac{101}{265}=191\\ \\mathrm{mL}\\]</div><p>Kolvens egen tyngd och friktion försummas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(191\\ \\mathrm{mL}\\).</p></div>",
-        "ledtrad": "<p>Viktens kraft verkar över kolvarean \\(15\\ \\mathrm{cm^2}=1{,}5\\cdot10^{-3}\\ \\mathrm{m^2}\\).</p>",
-        "niva": "C"
+        "fraga": "Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.",
+        "t": "<p>En cylinder innehåller gas under en lättrörlig, masslös kolv med arean 15,0 cm². Utanför är lufttrycket 101 kPa. En vikt på 25,0 kg läggs på kolven. Temperaturen är konstant, kolvens friktion försummas och gasvolymen före belastningen är 500 mL. Använd g=9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cylinder med vikt på en rörlig kolv\"><title>Cylinder med vikt på en rörlig kolv</title><rect x=\"130\" y=\"130\" width=\"240\" height=\"110\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"130\" y1=\"60\" x2=\"130\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"370\" y1=\"60\" x2=\"370\" y2=\"130\" stroke=\"#293747\" stroke-width=\"1.8\"/><rect x=\"124\" y=\"120\" width=\"252\" height=\"12\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"205\" y=\"70\" width=\"90\" height=\"50\" rx=\"0\" fill=\"#eee5d3\" stroke=\"#293747\" stroke-width=\"2\"/><text x=\"250\" y=\"101\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">25 kg</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">gas</text><text x=\"250\" y=\"272\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">kolvarea 15 cm²</text></svg></span><p>Bestäm gasens nya volym. Svara i mL. Svara med ett heltal.</p>",
+        "s": "<p>Vid konstant temperatur gäller p₁V₁=p₂V₂. V₂=101·500/264,667≈190,806 mL. Svar: 191 mL.</p>",
+        "ledtrad": "<p>Använd absoluta tryck i Boyles lag.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -57467,30 +58005,37 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En dykflaska är fylld till trycket 200 bar. Ett bar motsvarar 1,0·10⁵ Pa.</p>\n<ol><li>Hur många pascal är det?</li>\n<li>Flaskans ventilöppning har arean 3,0 cm². Hur stor kraft verkar inifrån på ventilen?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla bar till pascal.</p><div class=\"facit-matte\">\\[p=200\\cdot10^5=2{,}0\\cdot10^7\\ \\mathrm{Pa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ventilarean är \\(3{,}0\\ \\mathrm{cm^2}=3{,}0\\cdot10^{-4}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[F=pA=2{,}0\\cdot10^7\\cdot3{,}0\\cdot10^{-4}=6{,}0\\cdot10^3\\ \\mathrm N\\]</div><p>Beräkningen använder flasktrycket som övertryck; om 200 bar avser absoluttryck blir nettokraften nästan densamma.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Trycket är \\(2{,}0\\cdot10^7\\ \\mathrm{Pa}\\), och kraften på ventilen cirka \\(6{,}0\\ \\mathrm{kN}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "t": "<p>Övertrycket i en gasflaska är 200 bar. En cirkulär säkerhetsplugg har arean 3,00 cm². Använd 1 bar=10⁵ Pa och bortse från pluggens hållfasthet.</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla övertrycket till megapascal. Svara i MPa. Avrunda vid behov till 1 decimal.</li><li>Bestäm nettokraften från tryckskillnaden på pluggen. Svara i kN. Avrunda vid behov till 2 decimaler.</li></ol>",
+    "s": "<p>a) 200 bar=200·10⁵ Pa=2,00·10⁷ Pa=20,0 MPa. Svar: 20,0 MPa.</p><p>b) A=3,00 cm²=3,00·10⁻⁴ m². Eftersom 200 bar är övertrycket är F=ΔpA=2,00·10⁷·3,00·10⁻⁴=6000 N=6,00 kN. Svar: 6,00 kN.</p>",
+    "familj": "Tryckenhet och kraft",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__tryckenhet_och_kraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      20000000,
-      6
+      20.0,
+      6.0
     ],
     "tolerans": [
-      300000,
-      0.09
+      0,
+      0
     ],
     "självrättning": true,
+    "ledtrad": "<p>Följ omvandlingen bar → Pa → MPa.</p>",
+    "traningsniva": 2,
+    "typ": "tryckenhet och kraft",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "MPa",
+      "kN"
+    ],
     "svarFormat": [
       "numeriskt",
       "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -57498,133 +58043,97 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Övertrycket i en gasflaska är 200 bar. En cirkulär säkerhetsplugg har arean 3,00 cm². Använd 1 bar=10⁵ Pa och bortse från pluggens hållfasthet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En dykflaska är fylld till trycket 200 bar. Ett bar motsvarar 1,0·10⁵ Pa.</p><div class=\"spel-en-del\">Hur många pascal är det?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Omvandla bar till pascal.</p><div class=\"facit-matte\">\\[p=200\\cdot10^5=2{,}0\\cdot10^7\\ \\mathrm{Pa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^7\\ \\mathrm{Pa}\\).</p></div>",
-        "ledtrad": "<p>Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste vara i kelvin.</p>",
+        "fraga": "Omvandla övertrycket till megapascal. Svara i MPa. Avrunda vid behov till 1 decimal.",
+        "t": "<p>Övertrycket i en gasflaska är 200 bar. En cirkulär säkerhetsplugg har arean 3,00 cm². Använd 1 bar=10⁵ Pa och bortse från pluggens hållfasthet.</p><p>Omvandla övertrycket till megapascal. Svara i MPa. Avrunda vid behov till 1 decimal.</p>",
+        "s": "<p>200 bar=200·10⁵ Pa=2,00·10⁷ Pa=20,0 MPa. Svar: 20,0 MPa.</p>",
+        "ledtrad": "<p>Följ omvandlingen bar → Pa → MPa.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "t": "<p>En dykflaska är fylld till trycket 200 bar. Ett bar motsvarar 1,0·10⁵ Pa.</p><div class=\"spel-en-del\">Flaskans ventilöppning har arean 3,0 cm². Hur stor kraft verkar inifrån på ventilen?</div>",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ventilarean är \\(3{,}0\\ \\mathrm{cm^2}=3{,}0\\cdot10^{-4}\\ \\mathrm{m^2}\\).</p><div class=\"facit-matte\">\\[F=pA=2{,}0\\cdot10^7\\cdot3{,}0\\cdot10^{-4}=6{,}0\\cdot10^3\\ \\mathrm N\\]</div><p>Beräkningen använder flasktrycket som övertryck; om 200 bar avser absoluttryck blir nettokraften nästan densamma.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\cdot10^3\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Ventilarean är \\(3{,}0\\ \\mathrm{cm^2}=3{,}0\\cdot10^{-4}\\ \\mathrm{m^2}\\).</p>",
+        "fraga": "Bestäm nettokraften från tryckskillnaden på pluggen. Svara i kN. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Övertrycket i en gasflaska är 200 bar. En cirkulär säkerhetsplugg har arean 3,00 cm². Använd 1 bar=10⁵ Pa och bortse från pluggens hållfasthet.</p><p>Bestäm nettokraften från tryckskillnaden på pluggen. Svara i kN. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>A=3,00 cm²=3,00·10⁻⁴ m². Eftersom 200 bar är övertrycket är F=ΔpA=2,00·10⁷·3,00·10⁻⁴=6000 N=6,00 kN. Svar: 6,00 kN.</p>",
+        "ledtrad": "<p>Nettokraften bestäms av övertrycket, alltså skillnaden mellan in- och utsida.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
-    ],
-    "ledtrad": "<p>Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste vara i kelvin.</p>"
+    ]
   },
   {
     "id": "6.127",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>I en helt lufttät behållare fylld med en gas flyttas en av behållarens väggar, så att behållarens volym minskar med 25 %. Temperaturen i behållaren förändras inte.</p>\n<ol><li>Vad mer kommer att förändras, och hur mycket?</li>\n<li>Hur förändras gasens densitet?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den nya volymen är \\(V_2=0{,}75V_1\\). Vid konstant temperatur gäller</p><div class=\"facit-matte\">\\[p_2=p_1\\frac{V_1}{V_2}=\\frac{p_1}{0{,}75}=1{,}333p_1\\]</div><p>Trycket ökar alltså med 33,3 %.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan är oförändrad och densiteten är \\(\\rho=m/V\\).</p><div class=\"facit-matte\">\\[\\rho_2=\\frac{m}{0{,}75V_1}=1{,}333\\rho_1\\]</div><p>Densiteten ökar också med 33,3 %.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Både trycket och densiteten ökar med cirka \\(33\\,\\%\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Boyles lag",
+    "niva": "C",
+    "poang": "(1/3/0)",
+    "t": "<p>En bestämd gasmängd komprimeras isotermt. Volymen minskar med andelen r, där 0&lt;r&lt;1.</p><ol style=\"display:grid;gap:0.85rem\"><li>Härled ett uttryck för tryckfaktorn p₂/p₁ i termer av r.</li><li>Härled motsvarande densitetsfaktor ρ₂/ρ₁.</li><li>Använd uttrycken när volymen minskar med 25,0 % och bestäm de procentuella ökningarna.</li></ol>",
+    "s": "<p>a) V₂=(1−r)V₁. Boyles lag ger p₂/p₁=V₁/V₂=1/(1−r).</p><p>b) Massan är konstant och ρ=m/V, så ρ₂/ρ₁=V₁/V₂=1/(1−r). Tryck och densitet får samma faktor vid konstant temperatur.</p><p>c) För r=0,250 blir faktorn 1/0,750=4/3≈1,333. Både trycket och densiteten ökar alltså med 33,3 %, inte med 25 %.</p>",
+    "familj": "Invers proportionalitet i Boyles lag",
     "formaga": [
-      "modellering",
-      "problemlösning"
+      "resonemang",
+      "begrepp",
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      33,
-      null
-    ],
-    "tolerans": [
-      0.495,
-      null
-    ],
-    "självrättning": [
-      true,
-      false
-    ],
-    "svarFormat": [
-      "numeriskt",
-      null
-    ],
-    "svarEnhet": [
-      "%",
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "ledtrad": "<p>Den nya volymen är \\(V_2=0{,}75V_1\\). Vid konstant temperatur gäller</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I en helt lufttät behållare fylld med en gas flyttas en av behållarens väggar, så att behållarens volym minskar med 25 %. Temperaturen i behållaren förändras inte.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vad mer kommer att förändras, och hur mycket?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den nya volymen är \\(V_2=0{,}75V_1\\). Vid konstant temperatur gäller</p><div class=\"facit-matte\">\\[p_2=p_1\\frac{V_1}{V_2}=\\frac{p_1}{0{,}75}=1{,}333p_1\\]</div><p>Trycket ökar alltså med 33,3 %.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}333p_1\\).</p></div>",
-        "ledtrad": "<p>Den nya volymen är \\(V_2=0{,}75V_1\\). Vid konstant temperatur gäller</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur förändras gasens densitet?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Massan är oförändrad och densiteten är \\(\\rho=m/V\\).</p><div class=\"facit-matte\">\\[\\rho_2=\\frac{m}{0{,}75V_1}=1{,}333\\rho_1\\]</div><p>Densiteten ökar också med 33,3 %.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}333\\rho_1\\).</p></div>",
-        "ledtrad": "<p>Den nya volymen är \\(V_2=0{,}75V_1\\). Vid konstant temperatur gäller</p>",
-        "niva": "A"
-      }
-    ]
+    "familjNyckel": "gaslagen__invers_proportionalitet_i_boyles_lag",
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Skriv slutvolymen som en andel av startvolymen.</p>",
+    "traningsniva": 4,
+    "typ": "invers proportionalitet i boyles lag",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.128",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En luftbubbla med volymen 1,0 cm³ lossnar från botten av en sjö på 12 m djup och stiger mot ytan. Temperaturen är densamma på alla djup.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 m</text></svg></span>\n<ol><li>Vilket tryck råder på botten?</li><li>Vilken volym har bubblan vid ytan?</li>\n<li>Hur förändras lyftkraften när bubblan stiger, och varför innebär det inte att farten måste öka obegränsat?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Frilägg föremålet och rita bara de krafter som verkligen verkar på det. Dela upp sneda krafter och använd Newtons lag i en riktning i taget.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På botten är totaltrycket</p><div class=\"facit-matte\">\\[p_b=101{,}3+\\frac{998\\cdot9{,}82\\cdot12}{1000}=218{,}9\\ \\mathrm{kPa}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid oförändrad temperatur gäller Boyles lag.</p><div class=\"facit-matte\">\\[V_y=V_b\\frac{p_b}{p_y}=1{,}0\\frac{218{,}9}{101{,}3}=2{,}16\\ \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När trycket sjunker expanderar bubblan. Den undantränger då mer vatten och får större lyftkraft \\(F_A=\\rho gV\\).</p><p>Farten ökar tills växande strömningsmotstånd balanserar nettokraften; den behöver därför inte accelerera obegränsat.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bottentrycket är cirka \\(219\\ \\mathrm{kPa}\\), och bubblan blir cirka \\(2{,}2\\ \\mathrm{cm^3}\\) vid ytan.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om resultanten ska vara noll eller ge en acceleration, och att kraftens riktning stämmer med situationen.</p></div>",
-    "familj": "Boyles lag",
+    "niva": "C",
+    "poang": "(2/2/0)",
+    "t": "<p>En luftbubbla har volymen 1,00 cm³ på 12,0 m djup i en sjö och stiger mot ytan. Yttrycket är 101,3 kPa, vattnets densitet 998 kg/m³ och temperaturen antas konstant. Använd g=9,82 m/s².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 m</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm bubblans volym vid ytan enligt Boyles lag.</li><li>Förklara hur lyftkraften förändras när bubblan stiger i modellen.</li><li>Förklara varför detta inte innebär att bubblans fart måste öka obegränsat.</li></ol>",
+    "s": "<p>a) På djupet är p₁=101,3+998·9,82·12/1000≈218,90 kPa. Vid ytan är p₂=101,3 kPa, så V₂=p₁V₁/p₂≈2,161 cm³.</p><p>b) När trycket minskar expanderar bubblan. Den undantränger mer vatten, så F<sub>A</sub>=ρ<sub>v</sub>gV ökar i den förenklade modellen.</p><p>c) Strömningsmotståndet växer med farten. Bubblan kan nå en gränsfart där motstånd och tyngd tillsammans balanserar lyftkraften. Dessutom kan form, upplösning och temperatur förändras, vilket den enkla modellen bortser från.</p>",
+    "familj": "Luftbubbla som stiger",
     "formaga": [
       "modellering",
-      "problemlösning"
+      "procedur",
+      "resonemang"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
-    "svarstyp": "manuell",
+    "familjNyckel": "gaslagen__luftbubbla_som_stiger",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\). Använd absoluttryck, alltså lufttryck plus vätsketryck. Övertryck kan inte användas direkt i Boyles lag.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En luftbubbla med volymen 1,0 cm³ lossnar från botten av en sjö på 12 m djup och stiger mot ytan. Temperaturen är densamma på alla djup.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"270\" viewBox=\"0 0 520 270\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vattenyta och angivet djup\"><title>Vattenyta och angivet djup</title><rect x=\"60\" y=\"70\" width=\"300\" height=\"165\" rx=\"0\" fill=\"#e7f1f8\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"60\" y1=\"70\" x2=\"360\" y2=\"70\" stroke=\"#467ba3\" stroke-width=\"1.8\"/><text x=\"80\" y=\"53\" text-anchor=\"start\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"14\" fill=\"#293747\">vattenyta</text><circle cx=\"205\" cy=\"205\" r=\"12\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"210\" y1=\"205\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\" stroke-dasharray=\"4 4\"/><line x1=\"390\" y1=\"70\" x2=\"390\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"70\" x2=\"395\" y2=\"70\" stroke=\"#788a99\" stroke-width=\"1.8\"/><line x1=\"385\" y1=\"205\" x2=\"395\" y2=\"205\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"439\" y=\"142\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">12 m</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilket tryck råder på botten?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På botten är totaltrycket</p><div class=\"facit-matte\">\\[p_b=101{,}3+\\frac{998\\cdot9{,}82\\cdot12}{1000}=218{,}9\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(218{,}9\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\). Använd absoluttryck, alltså lufttryck plus vätsketryck. Övertryck kan inte användas direkt i Boyles lag.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken volym har bubblan vid ytan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid oförändrad temperatur gäller Boyles lag.</p><div class=\"facit-matte\">\\[V_y=V_b\\frac{p_b}{p_y}=1{,}0\\frac{218{,}9}{101{,}3}=2{,}16\\ \\mathrm{cm^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}16\\ \\mathrm{cm^3}\\).</p></div>",
-        "ledtrad": "<p>Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\). Använd absoluttryck, alltså lufttryck plus vätsketryck. Övertryck kan inte användas direkt i Boyles lag.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Hur förändras lyftkraften när bubblan stiger, och varför innebär det inte att farten måste öka obegränsat?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När trycket sjunker expanderar bubblan. Den undantränger då mer vatten och får större lyftkraft \\(F_A=\\rho gV\\).</p><p>Farten ökar tills växande strömningsmotstånd balanserar nettokraften; den behöver därför inte accelerera obegränsat.</p></div></div></div>",
-        "ledtrad": "<p>Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\). Använd absoluttryck, alltså lufttryck plus vätsketryck. Övertryck kan inte användas direkt i Boyles lag.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ]
+    "ledtrad": "<p>Använd absoluttryck i Boyles lag och skilj mellan lyftkraft och strömningsmotstånd.</p>",
+    "traningsniva": 4,
+    "typ": "luftbubbla som stiger",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.156",
@@ -57756,65 +58265,184 @@ window.BANK = [
     "id": "6.129",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "typ": "beräkna hur mycket luft vid normaltryck som ryms i en trycksatt tank, ur text, sökt volym",
-    "poang": "(1/2/0)",
-    "t": "<p>En kompressor fyller en tank på 50 liter till trycket 8,0 bar. Normalt lufttryck är 1,0 bar och temperaturen är konstant.</p>\n<p>Hur många liter luft vid normaltryck finns i tanken, och hur mycket av det kan användas innan trycket har sjunkit till normaltryck?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gasens mängd uttryckt som volym vid 1,0 bar är</p><div class=\"facit-matte\">\\[V_{1\\,\\mathrm{bar}}=\\frac{8{,}0\\cdot50}{1{,}0}=400\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När tanken har sjunkit till omgivningens 1,0 bar finns fortfarande 50 L gas i tanken räknat vid detta tryck.</p><div class=\"facit-matte\">\\[V_{\\mathrm{användbar}}=400-50=350\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tanken innehåller motsvarande \\(400\\ \\mathrm L\\) normalluft, varav \\(350\\ \\mathrm L\\) kan tas ut innan trycket når 1,0 bar.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "E",
+    "typ": "tryckluftstankens användbara gasmängd",
+    "poang": "(2/0/0)",
+    "t": "<p>En styv 50,0-liters tryckluftstank innehåller luft vid det absoluta trycket 8,00 bar. Omgivningens absoluta tryck är 1,00 bar och temperaturen antas konstant.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm gasmängden uttryckt som motsvarande volym vid 1,00 bar. Svara i liter. Svara med ett heltal.</li><li>Bestäm hur stor motsvarande volym vid 1,00 bar som kan tas ut innan tanktrycket har sjunkit till 1,00 bar. Svara i liter. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) Vid samma temperatur motsvarar gasmängden V<sub>1 bar</sub>=8,00·50,0/1,00=400 liter. Svar: 400 liter.</p><p>b) Vid sluttrycket 1,00 bar finns fortfarande 50,0 liter gas kvar i tanken räknat vid detta tryck. Användbar mängd är därför 400−50,0=350 liter. Svar: 350 liter.</p>",
+    "familj": "Tryckluftstankens användbara gasmängd",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Gasens mängd uttryckt som volym vid 1,0 bar är Skriv gaslagen för två tillstånd: \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>"
+    "familjNyckel": "gaslagen__tryckluftstankens_anvandbara_gasmangd",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      400.0,
+      350.0
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Jämför samma gasmängd vid 8,00 bar och 1,00 bar.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "liter",
+      "liter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En styv 50,0-liters tryckluftstank innehåller luft vid det absoluta trycket 8,00 bar. Omgivningens absoluta tryck är 1,00 bar och temperaturen antas konstant.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm gasmängden uttryckt som motsvarande volym vid 1,00 bar. Svara i liter. Svara med ett heltal.",
+        "t": "<p>En styv 50,0-liters tryckluftstank innehåller luft vid det absoluta trycket 8,00 bar. Omgivningens absoluta tryck är 1,00 bar och temperaturen antas konstant.</p><p>Bestäm gasmängden uttryckt som motsvarande volym vid 1,00 bar. Svara i liter. Svara med ett heltal.</p>",
+        "s": "<p>Vid samma temperatur motsvarar gasmängden V<sub>1 bar</sub>=8,00·50,0/1,00=400 liter. Svar: 400 liter.</p>",
+        "ledtrad": "<p>Jämför samma gasmängd vid 8,00 bar och 1,00 bar.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm hur stor motsvarande volym vid 1,00 bar som kan tas ut innan tanktrycket har sjunkit till 1,00 bar. Svara i liter. Svara med ett heltal.",
+        "t": "<p>En styv 50,0-liters tryckluftstank innehåller luft vid det absoluta trycket 8,00 bar. Omgivningens absoluta tryck är 1,00 bar och temperaturen antas konstant.</p><p>Bestäm hur stor motsvarande volym vid 1,00 bar som kan tas ut innan tanktrycket har sjunkit till 1,00 bar. Svara i liter. Svara med ett heltal.</p>",
+        "s": "<p>Vid sluttrycket 1,00 bar finns fortfarande 50,0 liter gas kvar i tanken räknat vid detta tryck. Användbar mängd är därför 400−50,0=350 liter. Svar: 350 liter.</p>",
+        "ledtrad": "<p>All gas kan inte lämna tanken när trycket bara får sjunka till omgivningstrycket.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      }
+    ]
   },
   {
     "id": "6.130",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "typ": "beräkna antal pumptag med boyles lag, ur text, sökt antal",
-    "poang": "(0/2/2)",
-    "t": "<p>Ett cykeldäck har volymen 1,6 liter och innehåller från början luft vid lufttrycket 101 kPa. Varje pumptag för in 0,35 liter luft av lufttrycket 101 kPa. Temperaturen kan antas vara konstant och däckets volym ändras inte.</p>\n<ol><li>Hur mycket luft av lufttrycket 101 kPa måste däcket innehålla för att trycket ska bli 400 kPa?</li>\n<li>Hur många pumptag krävs?</li>\n<li>Vad visar en manometer på däcket då?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den slutliga gasmängden uttryckt som luftvolym vid 101 kPa är</p><div class=\"facit-matte\">\\[V_{101}=\\frac{400\\cdot1{,}6}{101}=6{,}34\\ \\mathrm L\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Däcket innehåller redan motsvarande 1,6 L vid 101 kPa. Det som ska tillföras är därför \\(6{,}34-1{,}6=4{,}74\\) L.</p><div class=\"facit-matte\">\\[n=\\frac{4{,}74}{0{,}35}=13{,}5\\Rightarrow14\\ \\text{hela pumptag}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter 14 tag blir absoluttrycket</p><div class=\"facit-matte\">\\[p=101\\frac{1{,}6+14\\cdot0{,}35}{1{,}6}=410\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{över}}=410-101=309\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Det behövs motsvarande \\(6{,}34\\ \\mathrm L\\) normalluft och 14 hela pumptag. Manometern visar då cirka \\(309\\ \\mathrm{kPa}=3{,}09\\ \\mathrm{bar}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "C",
+    "typ": "pumptag och övertryck",
+    "poang": "(1/2/0)",
+    "t": "<p>Ett cykeldäck har volymen 1,60 liter och innehåller från början luft vid det absoluta trycket 101 kPa. Varje idealiskt pumptag tillför en gasmängd som motsvarar 0,350 liter vid 101 kPa. Temperaturen och däckvolymen är konstanta. Målet är minst 400 kPa absoluttryck.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den slutliga gasmängden uttryckt som motsvarande volym vid 101 kPa när trycket är exakt 400 kPa. Svara i liter. Avrunda vid behov till 2 decimaler.</li><li>Bestäm minsta antal hela pumptag för att nå minst 400 kPa. Svara med ett heltal.</li><li>Bestäm manometerns visning efter 14 idealiska pumptag om lufttrycket utanför är 101 kPa. Svara i kPa. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) V<sub>101</sub>=pV/101=400·1,60/101≈6,33663 liter. Svar: 6,34 liter.</p><p>b) Däcket innehåller redan motsvarande 1,60 liter. Det behövs (6,33663−1,60)/0,350≈13,533 tag, alltså 14 hela tag. Svar: 14.</p><p>c) Efter 14 tag motsvarar mängden 1,60+14·0,350=6,50 liter vid 101 kPa. Absoluttrycket blir 101·6,50/1,60≈410,31 kPa, så övertrycket är cirka 309,31 kPa. Svar: 309 kPa.</p>",
+    "familj": "Pumptag och övertryck",
     "formaga": [
-      "modellering",
-      "problemlösning"
+      "problemlösning",
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "ledtrad": "<p>Den slutliga gasmängden uttryckt som luftvolym vid 101 kPa är</p>",
+    "familjNyckel": "gaslagen__pumptag_och_overtryck",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.34,
+      14.0,
+      309.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Uttryck slutets pV-produkt som en volym vid 101 kPa.</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "liter",
+      null,
+      "kPa"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett cykeldäck har volymen 1,6 liter och innehåller från början luft vid lufttrycket 101 kPa. Varje pumptag för in 0,35 liter luft av lufttrycket 101 kPa. Temperaturen kan antas vara konstant och däckets volym ändras inte.</p>",
+    "spelIntro": "<p>Ett cykeldäck har volymen 1,60 liter och innehåller från början luft vid det absoluta trycket 101 kPa. Varje idealiskt pumptag tillför en gasmängd som motsvarar 0,350 liter vid 101 kPa. Temperaturen och däckvolymen är konstanta. Målet är minst 400 kPa absoluttryck.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket luft av lufttrycket 101 kPa måste däcket innehålla för att trycket ska bli 400 kPa?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den slutliga gasmängden uttryckt som luftvolym vid 101 kPa är</p><div class=\"facit-matte\">\\[V_{101}=\\frac{400\\cdot1{,}6}{101}=6{,}34\\ \\mathrm L\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}34\\ \\mathrm L\\).</p></div>",
-        "ledtrad": "<p>Den slutliga gasmängden uttryckt som luftvolym vid 101 kPa är</p>",
-        "niva": "A"
+        "fraga": "Bestäm den slutliga gasmängden uttryckt som motsvarande volym vid 101 kPa när trycket är exakt 400 kPa. Svara i liter. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Ett cykeldäck har volymen 1,60 liter och innehåller från början luft vid det absoluta trycket 101 kPa. Varje idealiskt pumptag tillför en gasmängd som motsvarar 0,350 liter vid 101 kPa. Temperaturen och däckvolymen är konstanta. Målet är minst 400 kPa absoluttryck.</p><p>Bestäm den slutliga gasmängden uttryckt som motsvarande volym vid 101 kPa när trycket är exakt 400 kPa. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>V<sub>101</sub>=pV/101=400·1,60/101≈6,33663 liter. Svar: 6,34 liter.</p>",
+        "ledtrad": "<p>Uttryck slutets pV-produkt som en volym vid 101 kPa.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Hur många pumptag krävs?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Däcket innehåller redan motsvarande 1,6 L vid 101 kPa. Det som ska tillföras är därför \\(6{,}34-1{,}6=4{,}74\\) L.</p><div class=\"facit-matte\">\\[n=\\frac{4{,}74}{0{,}35}=13{,}5\\Rightarrow14\\ \\text{hela pumptag}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(13{,}5\\Rightarrow14\\ \\text{hela pumptag}\\).</p></div>",
-        "ledtrad": "<p>Den slutliga gasmängden uttryckt som luftvolym vid 101 kPa är</p>",
-        "niva": "A"
+        "fraga": "Bestäm minsta antal hela pumptag för att nå minst 400 kPa. Svara med ett heltal.",
+        "t": "<p>Ett cykeldäck har volymen 1,60 liter och innehåller från början luft vid det absoluta trycket 101 kPa. Varje idealiskt pumptag tillför en gasmängd som motsvarar 0,350 liter vid 101 kPa. Temperaturen och däckvolymen är konstanta. Målet är minst 400 kPa absoluttryck.</p><p>Bestäm minsta antal hela pumptag för att nå minst 400 kPa. Svara med ett heltal.</p>",
+        "s": "<p>Däcket innehåller redan motsvarande 1,60 liter. Det behövs (6,33663−1,60)/0,350≈13,533 tag, alltså 14 hela tag. Svar: 14.</p>",
+        "ledtrad": "<p>Räkna bort startmängden innan du dividerar med mängden per pumptag.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "Vad visar en manometer på däcket då?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Efter 14 tag blir absoluttrycket</p><div class=\"facit-matte\">\\[p=101\\frac{1{,}6+14\\cdot0{,}35}{1{,}6}=410\\ \\mathrm{kPa}\\]\\[p_{\\mathrm{över}}=410-101=309\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(309\\ \\mathrm{kPa}\\).</p></div>",
-        "ledtrad": "<p>Den slutliga gasmängden uttryckt som luftvolym vid 101 kPa är</p>",
-        "niva": "A"
+        "fraga": "Bestäm manometerns visning efter 14 idealiska pumptag om lufttrycket utanför är 101 kPa. Svara i kPa. Svara med ett heltal.",
+        "t": "<p>Ett cykeldäck har volymen 1,60 liter och innehåller från början luft vid det absoluta trycket 101 kPa. Varje idealiskt pumptag tillför en gasmängd som motsvarar 0,350 liter vid 101 kPa. Temperaturen och däckvolymen är konstanta. Målet är minst 400 kPa absoluttryck.</p><p>Bestäm manometerns visning efter 14 idealiska pumptag om lufttrycket utanför är 101 kPa. Svara i kPa. Svara med ett heltal.</p>",
+        "s": "<p>Efter 14 tag motsvarar mängden 1,60+14·0,350=6,50 liter vid 101 kPa. Absoluttrycket blir 101·6,50/1,60≈410,31 kPa, så övertrycket är cirka 309,31 kPa. Svar: 309 kPa.</p>",
+        "ledtrad": "<p>Manometern visar absoluttrycket minus omgivningstrycket.</p>",
+        "niva": "C",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "poang": "(0/1/0)",
+        "formaga": [
+          "problemlösning",
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
       }
     ]
   },
@@ -57823,75 +58451,56 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "A",
-    "typ": "beräkna accelerationen hos en lätt kropp som släpps under vattenytan, ur diagram, sökt kraft och acceleration",
-    "poang": "(0/1/2)",
-    "t": "<p>En frigolitkloss med volymen 0,020 m³ och densiteten 30 kg/m³ hålls helt under vattenytan och släpps. Vattnets densitet är 998 kg/m³. Vattnets motstånd försummas i första hand.</p><span class=\"fig bred\"><svg height=\"274\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.857 481.429 212.857\"><rect x=\"20\" y=\"40\" width=\"440\" height=\"190\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"40\" x2=\"460\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"180\" y=\"130\" width=\"120\" height=\"70\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"170\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit</text><text x=\"240\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">V = 0,020 m³</text><line x1=\"240\" y1=\"122\" x2=\"240\" y2=\"80\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"240.00,70.00 244.60,80.00 235.40,80.00\" fill=\"#2A5D9E\"/><text x=\"256\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">släpps</text></svg></span>\n<ol><li>Hur stor är lyftkraften på klossen?</li>\n<li>Hur stor är tyngdkraften på klossen?</li>\n<li>Vilken acceleration får klossen i det ögonblick den släpps?</li>\n<li>Varför blir den verkliga accelerationen mycket mindre?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den helt nedsänkta klossen tränger undan 0,020 m³ vatten.</p><div class=\"facit-matte\">\\[F_A=998\\cdot0{,}020\\cdot9{,}82=196{,}0\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Klossens massa och tyngd är</p><div class=\"facit-matte\">\\[m=30\\cdot0{,}020=0{,}60\\ \\mathrm{kg}\\]\\[F_g=0{,}60\\cdot9{,}82=5{,}89\\ \\mathrm N\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Utan vattenmotstånd eller tillagd vattenmassa blir startresultanten och accelerationen</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=196{,}0-5{,}89=190{,}1\\ \\mathrm N\\]\\[a=\\frac{190{,}1}{0{,}60}=317\\ \\mathrm{m/s^2}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I verkligheten måste klossen accelerera omgivande vatten och möter snabbt ett stort strömningsmotstånd. Den idealiska beräkningen gäller bara i en förenklad ögonblicksmodell.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lyftkraften är \\(196\\ \\mathrm N\\), tyngdkraften \\(5{,}89\\ \\mathrm N\\), och den förenklade startaccelerationen \\(317\\ \\mathrm{m/s^2}\\) uppåt.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Arkimedes princip och flytkraft",
+    "typ": "modellgranskning av startacceleration",
+    "poang": "(0/2/3)",
+    "t": "<p>En frigolitkloss med volymen 0,020 m³ och densiteten 30 kg/m³ hålls helt under vattenytan och släpps. Vattnets densitet är 998 kg/m³. En första modell tar bara med tyngdkraft och lyftkraft.</p><span class=\"fig\"><svg height=\"274\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.857 481.429 212.857\"><rect x=\"20\" y=\"40\" width=\"440\" height=\"190\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"40\" x2=\"460\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"180\" y=\"130\" width=\"120\" height=\"70\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"170\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit</text><text x=\"240\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">V = 0,020 m³</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm lyftkraften och tyngdkraften i den första modellen.</li><li>Bestäm klossens acceleration i släppögonblicket enligt modellen.</li><li>Resultatet är mycket stort. Förklara varför modellen inte ger en realistisk startacceleration och nämn minst en viktig effekt som saknas.</li></ol>",
+    "s": "<p>a) F<sub>A</sub>=998·9,82·0,020≈196,01 N. Massan är 30·0,020=0,600 kg och tyngdkraften 0,600·9,82=5,892 N.</p><p>b) F<sub>res</sub>=196,01−5,892≈190,12 N uppåt. Modellen ger a=F<sub>res</sub>/m≈190,12/0,600≈316,9 m/s² uppåt.</p><p>c) Klossen måste sätta omgivande vatten i rörelse. Denna så kallade tillagda massa gör den effektiva trögheten mycket större än klossens egen massa. Dessutom uppstår strömningsmotstånd så snart hastigheten ökar. Modellen med bara två krafter och endast klossens massa är därför otillräcklig för verklig rörelse.</p>",
+    "familj": "Modellgranskning av startacceleration",
     "formaga": [
+      "modellering",
       "procedur",
       "resonemang"
     ],
-    "familjNyckel": "arkimedes__arkimedes_princip_och_flytkraft",
-    "svarstyp": "manuell",
+    "familjNyckel": "arkimedes__modellgranskning_av_startacceleration",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Den helt nedsänkta klossen tränger undan 0,020 m³ vatten. Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En frigolitkloss med volymen 0,020 m³ och densiteten 30 kg/m³ hålls helt under vattenytan och släpps. Vattnets densitet är 998 kg/m³. Vattnets motstånd försummas i första hand.</p><span class=\"fig bred\"><svg height=\"274\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0.000 27.857 481.429 212.857\"><rect x=\"20\" y=\"40\" width=\"440\" height=\"190\" fill=\"#DCE6F2\"/><line x1=\"20\" y1=\"40\" x2=\"460\" y2=\"40\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"180\" y=\"130\" width=\"120\" height=\"70\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"240\" y=\"170\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2B2527\">frigolit</text><text x=\"240\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"400\" fill=\"#5C575E\">V = 0,020 m³</text><line x1=\"240\" y1=\"122\" x2=\"240\" y2=\"80\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"240.00,70.00 244.60,80.00 235.40,80.00\" fill=\"#2A5D9E\"/><text x=\"256\" y=\"96\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2A5D9E\">släpps</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor är lyftkraften på klossen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den helt nedsänkta klossen tränger undan 0,020 m³ vatten.</p><div class=\"facit-matte\">\\[F_A=998\\cdot0{,}020\\cdot9{,}82=196{,}0\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(196{,}0\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den helt nedsänkta klossen tränger undan 0,020 m³ vatten. Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur stor är tyngdkraften på klossen?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Klossens massa och tyngd är</p><div class=\"facit-matte\">\\[m=30\\cdot0{,}020=0{,}60\\ \\mathrm{kg}\\]\\[F_g=0{,}60\\cdot9{,}82=5{,}89\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}89\\ \\mathrm N\\).</p></div>",
-        "ledtrad": "<p>Den helt nedsänkta klossen tränger undan 0,020 m³ vatten. Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Vilken acceleration får klossen i det ögonblick den släpps?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Utan vattenmotstånd eller tillagd vattenmassa blir startresultanten och accelerationen</p><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=196{,}0-5{,}89=190{,}1\\ \\mathrm N\\]\\[a=\\frac{190{,}1}{0{,}60}=317\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(317\\ \\mathrm{m/s^2}\\).</p></div>",
-        "ledtrad": "<p>Den helt nedsänkta klossen tränger undan 0,020 m³ vatten. Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "d",
-        "fraga": "Varför blir den verkliga accelerationen mycket mindre?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I verkligheten måste klossen accelerera omgivande vatten och möter snabbt ett stort strömningsmotstånd. Den idealiska beräkningen gäller bara i en förenklad ögonblicksmodell.</p></div></div></div>",
-        "ledtrad": "<p>Den helt nedsänkta klossen tränger undan 0,020 m³ vatten. Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>",
-        "niva": "A"
-      }
-    ]
+    "ledtrad": "<p>Beräkna först vad modellen faktiskt förutsäger och granska sedan de krafter som modellen har utelämnat.</p>",
+    "traningsniva": 5,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.132",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>En stålmutter hänger i en dynamometer och är nedsänkt i ett glas med vatten. Dynamometern visar kraften 0,55 N. Stål har densiteten 7,85 g/cm³.</p>\n<p>Bestäm mutterns massa.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Mutterns volym är \\(V=m/\\rho_s\\). Dynamometern visar tyngden minus lyftkraften.</p><div class=\"facit-matte\">\\[F_D=mg-\\rho_vg\\frac{m}{\\rho_s}=mg\\left(1-\\frac{\\rho_v}{\\rho_s}\\right)\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Densiteterna kan användas i samma enhet.</p><div class=\"facit-matte\">\\[m=\\frac{0{,}55}{9{,}82\\left(1-0{,}998/7{,}85\\right)}=0{,}0642\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mutterns massa är cirka \\(64\\ \\mathrm g\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>En stålmutter hänger stilla i en dynamometer och är helt nedsänkt i vatten utan kontakt med kärlet. Dynamometern visar 0,550 N. Stålets densitet är 7850 kg/m³ och vattnets densitet 998 kg/m³. Försumma luftens lyftkraft och trådens volym.</p><p>Bestäm mutterns massa. Svara i g. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Med V=m/ρ<sub>s</sub> blir dynamometerns kraft F<sub>D</sub>=mg−ρ<sub>v</sub>gV=mg(1−ρ<sub>v</sub>/ρ<sub>s</sub>). Därför m=0,550/[9,82(1−998/7850)]≈0,064166 kg. Svar: 64,17 g.</p>",
+    "familj": "Densitet från vägning i vätska",
     "formaga": [
+      "problemlösning",
       "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__densitet_fran_vagning_i_vatska",
     "svarstyp": "numeriskt",
-    "rättSvar": 64,
-    "tolerans": 0.96,
+    "rättSvar": 64.17,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv mutterns volym som m/ρ<sub>s</sub> och använd kraftjämvikt.</p>",
+    "traningsniva": 4,
+    "typ": "densitet från vägning i vätska",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": "g",
-    "familjNyckelTidigare": "arkimedes__bestam_densitet_med_flytkraft",
-    "ledtrad": "<p>Mutterns volym är \\(V=m/\\rho_s\\). Dynamometern visar tyngden minus lyftkraften.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.133",
@@ -58050,22 +58659,23 @@ window.BANK = [
     "kap": 6,
     "omr": "tryck",
     "niva": "E",
-    "typ": "största hydrauliska last",
+    "typ": "tryckgräns i hydraulisk lyft",
     "poang": "(2/0/0)",
-    "t": "<p>En ideal hydraulisk press har masslösa kolvar och inkompressibel vätska. Försumma friktion, läckage och höjdskillnader. Samma lufttryck verkar ovanpå båda kolvarna. Lyftkolvens diameter är 13 cm och pumpkolvens 2,1 cm. Pumpkraften får vara högst 300 N.</p><p>Använd g = 9,82 m/s².</p><p>Bestäm den största lastmassa som kan balanseras. Svara i kg. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<p>F_lyft = 300(13/2,1)². m_max = F_lyft/9,82 ≈ 1170,73 kg. Svar: 1170,7 kg.</p>",
-    "familj": "Största hydrauliska last",
+    "t": "<p>En hydraulisk billyft har en lyftkolv med diametern 13,0 cm. En säkerhetsventil öppnas när oljans övertryck når 850 kPa, så trycket kan inte bli större. Använd g = 9,82 m/s² och försumma kolvens massa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 330\" role=\"img\" aria-label=\"Hydraulisk billyft med säkerhetsventil som begränsar oljetrycket till 850 kilopascal\"><rect width=\"620\" height=\"330\" rx=\"18\" fill=\"#F7F9FC\"/><g font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#25313C\" stroke-linejoin=\"round\"><path d=\"M122 245h250v-80h166v130H122z\" fill=\"#CBE7F5\" stroke=\"#354552\" stroke-width=\"3\"/><rect x=\"367\" y=\"153\" width=\"176\" height=\"15\" rx=\"3\" fill=\"#D9DEE3\" stroke=\"#354552\" stroke-width=\"2\"/><path d=\"M382 107h35l16-20h57l23 20h18v33H382z\" fill=\"#4F79A8\" stroke=\"#28435E\" stroke-width=\"2\"/><circle cx=\"414\" cy=\"141\" r=\"10\" fill=\"#29333D\"/><circle cx=\"499\" cy=\"141\" r=\"10\" fill=\"#29333D\"/><path d=\"M431 90h51l17 17h-82z\" fill=\"#DCEBF6\" stroke=\"#28435E\" stroke-width=\"2\"/><rect x=\"83\" y=\"178\" width=\"78\" height=\"67\" rx=\"8\" fill=\"#F1D4CB\" stroke=\"#A7462F\" stroke-width=\"3\"/><path d=\"M122 178v-25l-12-8 24-14-24-14 24-14-12-8V75\" fill=\"none\" stroke=\"#A7462F\" stroke-width=\"4\"/><rect x=\"103\" y=\"65\" width=\"38\" height=\"12\" rx=\"3\" fill=\"#A7462F\"/><text x=\"122\" y=\"218\" text-anchor=\"middle\" fill=\"#8C3726\">850 kPa</text><text x=\"122\" y=\"275\" text-anchor=\"middle\" fill=\"#A7462F\">säkerhetsventil</text><text x=\"455\" y=\"320\" text-anchor=\"middle\">lyftkolv: d = 13,0 cm</text><text x=\"300\" y=\"275\" text-anchor=\"middle\" fill=\"#256A8A\">olja</text></g></svg></span><p>Bestäm den största bilmassa som lyften kan hålla stilla innan säkerhetsventilen öppnas. Svara i kg. Avrunda till 1 decimal.</p>",
+    "s": "<p>Lyftkolvens area är A = π(0,130/2)² ≈ 0,0132732 m². Den största lyftkraften är F = ΔpA = 850 000 · 0,0132732 ≈ 11 282,2 N. Därför är m = F/g ≈ 11 282,2/9,82 ≈ 1148,9 kg. Svar: 1148,9 kg.</p>",
+    "familj": "Tryckgräns i hydraulisk lyft",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "tryck__storsta_hydrauliska_last",
+    "familjNyckel": "tryck__tryckgrans_i_hydraulisk_lyft",
     "svarstyp": "numeriskt",
-    "rättSvar": 1170.7,
+    "rättSvar": 1148.9,
     "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Förstärks kraften enligt diameterkvoten eller areakvoten?</p>",
+    "ledtrad": "<p>Säkerhetsventilen anger det största övertrycket under lyftkolven.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
@@ -58077,139 +58687,231 @@ window.BANK = [
     "kap": 6,
     "omr": "arkimedes",
     "niva": "C",
-    "typ": "identifiera krafter på flytande kropp, ur diagram, sökt resonemang",
-    "poang": "(1/2/0)",
-    "t": "<p>En träkloss flyter stilla i vatten.</p><span class=\"fig smal\"><svg height=\"238\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.686 30.978 286.629 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"78.4\" width=\"256\" height=\"119.6\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"78.4\" x2=\"318\" y2=\"78.4\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"56.800000000000004\" width=\"80\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"87.80000000000001\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">kloss</text></svg></span>\n<p>Rita av figuren och sätt ut alla krafter som verkar på klossen.</p>\n<ol><li>Vilka krafter verkar på klossen?</li><li>Hur förhåller sig deras storlekar?</li>\n<li>Vad händer med lyftkraften om man trycker ner klossen en bit?</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På klossen verkar tyngdkraften nedåt och vattnets lyftkraft uppåt.</p><div class=\"facit-matte\"><span class=\"fig\"><svg height=\"326\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"18.514 13.893 319.886 208.389\" role=\"img\" aria-label=\"Friläggning av en flytande kloss med lyftkraft uppåt och tyngdkraft nedåt\"><rect x=\"120\" y=\"82\" width=\"120\" height=\"72\" rx=\"4\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"32\" y1=\"118\" x2=\"328\" y2=\"118\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-dasharray=\"8 7\"/><line x1=\"180\" y1=\"104\" x2=\"180\" y2=\"38\" stroke=\"#2A5D9E\" stroke-width=\"4\"/><polygon points=\"180,24 171,42 189,42\" fill=\"#2A5D9E\"/><text x=\"194\" y=\"48\" font-family=\"IBM Plex Mono\" font-size=\"18\" fill=\"#2A5D9E\">F<tspan baseline-shift=\"sub\" font-size=\"12.96\">A</tspan></text><line x1=\"180\" y1=\"134\" x2=\"180\" y2=\"198\" stroke=\"#B43123\" stroke-width=\"4\"/><polygon points=\"180,212 171,194 189,194\" fill=\"#B43123\"/><text x=\"194\" y=\"198\" font-family=\"IBM Plex Mono\" font-size=\"18\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"12.96\">g</tspan></text><text x=\"156\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"16\" fill=\"#2B2527\">kloss</text></svg></span></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Klossen flyter stilla, så krafterna är lika stora och motriktade.</p><div class=\"facit-matte\">\\[F_A=mg,\\qquad\\sum F=0\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">När klossen trycks ned ökar den nedsänkta volymen och därmed lyftkraften.</p><div class=\"facit-matte\">\\[F_A=\\rho_vgV_{\\mathrm{under}}\\]</div><p>När handen släpper blir resultanten uppåt och klossen rör sig tillbaka mot jämviktsläget.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Tyngdkraften verkar nedåt och lyftkraften uppåt. I jämvikt är de lika stora; vid nedtryckning ökar lyftkraften.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "typ": "kraftdiagram för flytande kropp",
+    "poang": "(1/3/0)",
+    "t": "<p>En träkloss flyter stilla i vatten. Rita ett kraftdiagram för klossen.</p><span class=\"fig\"><svg height=\"238\" width=\"380\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"46.686 30.978 286.629 179.348\"><path d=\"M60 40 L60 200 L320 200 L320 40\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.5\"/><rect x=\"62\" y=\"78.4\" width=\"256\" height=\"119.6\" fill=\"#DCE6F2\"/><line x1=\"62\" y1=\"78.4\" x2=\"318\" y2=\"78.4\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-linecap=\"square\"/><rect x=\"150\" y=\"56.800000000000004\" width=\"80\" height=\"54\" rx=\"3\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"190\" y=\"87.80000000000001\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">kloss</text></svg></span><ol style=\"display:grid;gap:0.85rem\"><li>Vilka krafter verkar på klossen innan någon rör den, och hur förhåller sig deras storlekar?</li><li>En hand trycker långsamt ned klossen och håller den stilla i ett lägre läge. Hur har lyftkraften förändrats, och vilken ytterligare kraft finns i diagrammet?</li><li>Handen släpper. Förklara riktningen på kraftresultanten direkt efter släppet.</li></ol>",
+    "s": "<p>a) Tyngdkraften verkar nedåt och vattnets lyftkraft uppåt. Eftersom klossen är i vila är krafterna lika stora: F<sub>A</sub>=F<sub>g</sub>.</p><p>b) En större volym är nedsänkt, så lyftkraften har ökat. Handens kraft verkar nedåt. I det hållna läget gäller F<sub>A</sub>=F<sub>g</sub>+F<sub>hand</sub>.</p><p>c) Precis efter släppet har läget och därmed lyftkraften ännu inte hunnit ändras, men handkraften har försvunnit. Då är F<sub>A</sub>>F<sub>g</sub> och resultanten är uppåt.</p><span class=\"fig\"><svg height=\"326\" width=\"500\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"18.514 13.893 319.886 208.389\" role=\"img\" aria-label=\"Friläggning av en flytande kloss med lyftkraft uppåt och tyngdkraft nedåt\"><rect x=\"120\" y=\"82\" width=\"120\" height=\"72\" rx=\"4\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"3\"/><line x1=\"32\" y1=\"118\" x2=\"328\" y2=\"118\" stroke=\"#2A5D9E\" stroke-width=\"3\" stroke-dasharray=\"8 7\"/><line x1=\"180\" y1=\"104\" x2=\"180\" y2=\"38\" stroke=\"#2A5D9E\" stroke-width=\"4\"/><polygon points=\"180,24 171,42 189,42\" fill=\"#2A5D9E\"/><text x=\"194\" y=\"48\" font-family=\"IBM Plex Mono\" font-size=\"18\" fill=\"#2A5D9E\">F<tspan baseline-shift=\"sub\" font-size=\"12.96\">A</tspan></text><line x1=\"180\" y1=\"134\" x2=\"180\" y2=\"198\" stroke=\"#B43123\" stroke-width=\"4\"/><polygon points=\"180,212 171,194 189,194\" fill=\"#B43123\"/><text x=\"194\" y=\"198\" font-family=\"IBM Plex Mono\" font-size=\"18\" fill=\"#B43123\">F<tspan baseline-shift=\"sub\" font-size=\"12.96\">g</tspan></text></svg></span>",
+    "familj": "Kraftdiagram för flytande kropp",
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
-    "svarstyp": "manuell",
+    "familjNyckel": "arkimedes__kraftdiagram_for_flytande_kropp",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
     "spel": false,
-    "familjNyckelTidigare": "arkimedes__flytvillkor_och_medeldensitet",
-    "ledtrad": "<p>Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\). Vid flytjämvikt är flytkraften lika stor som föremålets tyngd.</p>"
+    "ledtrad": "<p>Utgå från vilka föremål som kan påverka klossen och från att den först är i vila.</p>",
+    "traningsniva": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "manuellKomplettering": true
   },
   {
     "id": "6.284",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "typ": "maximal last innan flytande kropp sänks helt",
-    "poang": "(0/1/2)",
-    "t": "<p>En tät, homogen flotte har volymen \\(1,3\\,\\mathrm{m^3}\\) och medeldensiteten \\(780\\,\\mathrm{kg/m^3}\\). Hur stor extra last kan läggas på flotten precis innan dess ovansida når vattenytan? Vattnets densitet är \\(1000\\,\\mathrm{kg/m^3}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><p class=\"facit-metod\">Vid gränsen är hela flottens volym nedsänkt. Den maximala totala massan är då massan av lika stor vattenvolym.</p><div class=\"facit-matte\">\\[m_{tot,max}=\\rho_vV=1300\\ \\mathrm{kg}\\]\\[m_{flotte}=780\\cdot1,3=1014\\ \\mathrm{kg}\\]\\[m_{last}=286\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(286\\ \\mathrm{kg}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "typ": "fribord och lastförmåga",
+    "poang": "(2/0/0)",
+    "t": "<p>En flotte har lodräta sidor och vattenlinjearean 5,20 m². Före lastning ligger ovansidan 5,5 cm över vattenytan. Vattnets densitet är 1000 kg/m³ och flotten antas förbli vågrät.</p><p>Bestäm den största extra lastmassan innan vattenytan når flottens ovansida. Svara i kg. Svara med ett heltal.</p>",
+    "s": "<p>Flotten kan sjunka 0,055 m och då ökar undanträngningen med ΔV=AΔh=5,20·0,055=0,286 m³. Den extra vattenmassan, och därmed lastmassan, är 1000·0,286=286 kg. Svar: 286 kg.</p>",
+    "familj": "Fribord och lastförmåga",
     "formaga": [
-      "modellering",
-      "resonemang"
+      "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__fribord_och_lastformaga",
     "svarstyp": "numeriskt",
-    "rättSvar": 286,
-    "tolerans": 5.148,
+    "rättSvar": 286.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Precis innan flotten sänks helt undantränger den sin fulla volym vatten.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kg"
+    "ledtrad": "<p>Hur stor extra vattenvolym trängs undan när flotten sjunker 5,5 cm?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kg",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.136",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "poang": "(0/2/1)",
-    "t": "<p>Emil har blåst upp en ballong som har formen av en sfär med radien 12,0 cm. Temperaturen i rummet förändras från 20,0 °C till 35,0 °C medan lufttrycket är konstant.</p>\n<p>Vilken radie får ballongen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid konstant tryck gäller \\(V_2/V_1=T_2/T_1\\). För en sfär är \\(V\\propto r^3\\).</p><div class=\"facit-matte\">\\[\\left(\\frac{r_2}{r_1}\\right)^3=\\frac{308{,}15}{293{,}15}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ta kubikroten.</p><div class=\"facit-matte\">\\[r_2=12{,}0\\left(\\frac{308{,}15}{293{,}15}\\right)^{1/3}=12{,}20\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ballongens radie blir cirka \\(12{,}2\\ \\mathrm{cm}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "C",
+    "poang": "(0/2/0)",
+    "t": "<p>En tät, sfärisk och lättöjbar ballong har radien 12,0 cm vid 20,0 °C. Den värms till 35,0 °C medan trycket är konstant. Anta att ballongen förblir sfärisk.</p><p>Bestäm ballongens nya radie. Svara i cm. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Vid konstant tryck gäller V₂/V₁=T₂/T₁. Eftersom V∝r³ blir r₂/r₁=(T₂/T₁)^(1/3). r₂=12,0·(308,15/293,15)^(1/3)≈12,201 cm. Svar: 12,20 cm.</p>",
+    "familj": "Gaslag och sfärisk geometri",
     "formaga": [
+      "problemlösning",
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__gaslag_och_sfarisk_geometri",
     "svarstyp": "numeriskt",
     "rättSvar": 12.2,
-    "tolerans": 0.183,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Koppla först volymförhållandet till radieförhållandet för en sfär.</p>",
+    "traningsniva": 4,
+    "typ": "gaslag och sfärisk geometri",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": "cm",
-    "ledtrad": "<p>Vid konstant tryck gäller \\(V_2/V_1=T_2/T_1\\). För en sfär är \\(V\\propto r^3\\).</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.137",
     "kap": 6,
     "omr": "arkimedes",
     "niva": "A",
-    "poang": "(0/1/2)",
-    "t": "<p>I ett experiment fylls en ballong med en gas som har lägre densitet än luft. Den maximala massan för en extra vikt som ballongen kan lyfta, utan att den sjunker mot marken, kan beräknas med formeln V(ρ_luft − ρ_gas). Här är V ballongens volym.</p>\n<p>Visa att formeln stämmer. Ballongens egen massa samt viktens volym är försumbara.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ballongen tränger undan luftvolymen \\(V\\), så lyftkraften är</p><div class=\"facit-matte\">\\[F_A=\\rho_{\\mathrm{luft}}gV\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Gasens egen tyngd är</p><div class=\"facit-matte\">\\[F_g=\\rho_{\\mathrm{gas}}gV\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den uppåtriktade kraft som återstår för den extra vikten är skillnaden.</p><div class=\"facit-matte\">\\[F_{\\mathrm{netto}}=gV(\\rho_{\\mathrm{luft}}-\\rho_{\\mathrm{gas}})\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid gränsen för jämvikt är denna lika med viktens tyngd.</p><div class=\"facit-matte\">\\[m_{\\mathrm{vikt}}g=gV(\\rho_{\\mathrm{luft}}-\\rho_{\\mathrm{gas}})\\Rightarrow m_{\\mathrm{vikt}}=V(\\rho_{\\mathrm{luft}}-\\rho_{\\mathrm{gas}})\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Formeln \\(m_{\\mathrm{vikt}}=V(\\rho_{\\mathrm{luft}}-\\rho_{\\mathrm{gas}})\\) följer direkt av kraftjämvikt.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Arkimedes princip och flytkraft",
+    "poang": "(0/2/3)",
+    "t": "<p>En ballong med volymen V innehåller en gas med densiteten ρ<sub>gas</sub> och omges av luft med densiteten ρ<sub>luft</sub>. Ballonghöljets massa är m<sub>h</sub> och lastens volym försummas.</p><ol style=\"display:grid;gap:0.85rem\"><li>Härled ett uttryck för den största lastmassan som kan bäras i svävande jämvikt.</li><li>Ange villkoret för att ballongen alls ska kunna lyfta sitt hölje.</li><li>Förklara hur uttrycket förenklas om höljets massa försummas.</li></ol>",
+    "s": "<p>a) Lyftkraften är ρ<sub>luft</sub>gV. Tyngden är (ρ<sub>gas</sub>V+m<sub>h</sub>+m<sub>last</sub>)g. Jämvikt ger m<sub>last</sub>=(ρ<sub>luft</sub>−ρ<sub>gas</sub>)V−m<sub>h</sub>.</p><p>b) Den maximala lastmassan måste vara positiv. Därför krävs (ρ<sub>luft</sub>−ρ<sub>gas</sub>)V>m<sub>h</sub>.</p><p>c) När m<sub>h</sub>=0 återstår m<sub>last,max</sub>=V(ρ<sub>luft</sub>−ρ<sub>gas</sub>), vilket är masskillnaden mellan undanträngd luft och ballonggas.</p>",
+    "familj": "Härledning av gasballongens lastförmåga",
     "formaga": [
-      "begrepp",
-      "resonemang"
+      "modellering",
+      "resonemang",
+      "begrepp"
     ],
-    "familjNyckel": "arkimedes__arkimedes_princip_och_flytkraft",
-    "svarstyp": "manuell",
+    "familjNyckel": "arkimedes__harledning_av_gasballongens_lastformaga",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Ballongen tränger undan luftvolymen \\(V\\), så lyftkraften är</p>"
+    "ledtrad": "<p>Börja med ett kraftdiagram för ballong, gas och last som ett enda system.</p>",
+    "traningsniva": 5,
+    "typ": "härledning av gasballongens lastförmåga",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "6.138",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Omvandla följande temperaturer till enheten °C.</p>\n<ol><li>90 K</li><li>350 K</li><li>0 K</li><li>1500 K</li></ol>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Subtrahera 273,15 från varje kelvintemperatur.</p><div class=\"facit-matte\">\\[90-273{,}15=-183{,}15\\,{}^{\\circ}\\mathrm C\\]\\[350-273{,}15=76{,}85\\,{}^{\\circ}\\mathrm C\\]\\[0-273{,}15=-273{,}15\\,{}^{\\circ}\\mathrm C\\]\\[1500-273{,}15=1226{,}85\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturerna är cirka \\(-183\\,{}^{\\circ}\\mathrm C\\), \\(77\\,{}^{\\circ}\\mathrm C\\), \\(-273{,}15\\,{}^{\\circ}\\mathrm C\\) och \\(1227\\,{}^{\\circ}\\mathrm C\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "poang": "(4/0/0)",
+    "t": "<p>Använd t=T−273,15.</p><ol style=\"display:grid;gap:0.85rem\"><li>Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.</li><li>Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</li><li>Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) t=90−273,15=−183,15 °C. Svar: -183 °C.</p><p>b) t=350−273,15=76,85 °C. Svar: 77 °C.</p><p>c) t=0−273,15=−273,15 °C. Svar: -273,15 °C.</p><p>d) t=1500−273,15=1226,85 °C. Svar: 1227 °C.</p>",
+    "familj": "Omvandla kelvin till Celsius",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "gaslagen__temperaturskala_kelvin",
-    "ledtrad": "<p>Subtrahera 273,15 från varje kelvintemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
+    "familjNyckel": "gaslagen__omvandla_kelvin_till_celsius",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -183.0,
+      77.0,
+      -273.15,
+      1227.0
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "ledtrad": "<p>Subtrahera 273,15.</p>",
+    "traningsniva": 1,
+    "typ": "omvandla kelvin till celsius",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": [
+      "°C",
+      "°C",
+      "°C",
+      "°C"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Omvandla följande temperaturer till enheten °C.</p>",
+    "spelIntro": "<p>Använd t=T−273,15.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "90 K",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Subtrahera 273,15 från varje kelvintemperatur.</p><div class=\"facit-matte\">\\[90-273{,}15=-183{,}15\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-183{,}15\\,{}^{\\circ}\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Subtrahera 273,15 från varje kelvintemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.",
+        "t": "<p>Använd t=T−273,15.</p><p>Omvandla 90 K till grader Celsius. Svara i °C. Svara med ett heltal.</p>",
+        "s": "<p>t=90−273,15=−183,15 °C. Svar: -183 °C.</p>",
+        "ledtrad": "<p>Subtrahera 273,15.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "350 K",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Subtrahera 273,15 från varje kelvintemperatur.</p><div class=\"facit-matte\">\\[350-273{,}15=76{,}85\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(76{,}85\\,{}^{\\circ}\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Subtrahera 273,15 från varje kelvintemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.",
+        "t": "<p>Använd t=T−273,15.</p><p>Omvandla 350 K till grader Celsius. Svara i °C. Svara med ett heltal.</p>",
+        "s": "<p>t=350−273,15=76,85 °C. Svar: 77 °C.</p>",
+        "ledtrad": "<p>Subtrahera 273,15.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "0 K",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Subtrahera 273,15 från varje kelvintemperatur.</p><div class=\"facit-matte\">\\[0-273{,}15=-273{,}15\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-273{,}15\\,{}^{\\circ}\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Subtrahera 273,15 från varje kelvintemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.",
+        "t": "<p>Använd t=T−273,15.</p><p>Omvandla 0 K till grader Celsius. Svara i °C. Avrunda vid behov till 2 decimaler.</p>",
+        "s": "<p>t=0−273,15=−273,15 °C. Svar: -273,15 °C.</p>",
+        "ledtrad": "<p>0 K är absoluta nollpunkten.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       },
       {
         "etikett": "d",
-        "fraga": "1500 K",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">d</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Subtrahera 273,15 från varje kelvintemperatur.</p><div class=\"facit-matte\">\\[1500-273{,}15=1226{,}85\\,{}^{\\circ}\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1226{,}85\\,{}^{\\circ}\\mathrm C\\).</p></div>",
-        "ledtrad": "<p>Subtrahera 273,15 från varje kelvintemperatur. Kelvinskalan börjar vid absoluta nollpunkten.</p>",
-        "niva": "E"
+        "fraga": "Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.",
+        "t": "<p>Använd t=T−273,15.</p><p>Omvandla 1500 K till grader Celsius. Svara i °C. Svara med ett heltal.</p>",
+        "s": "<p>t=1500−273,15=1226,85 °C. Svar: 1227 °C.</p>",
+        "ledtrad": "<p>Subtrahera 273,15.</p>",
+        "niva": "E",
+        "traningsniva": 1,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": false,
+        "geogebra": false
       }
     ]
   },
@@ -58217,94 +58919,84 @@ window.BANK = [
     "id": "6.139",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "C",
-    "typ": "jämföra hur stor del av en kropp som ligger under ytan i sötvatten och havsvatten, ur text, sökt densitet och andel",
-    "poang": "(1/2/0)",
-    "t": "<p>En kloss flyter i sötvatten med densiteten 998 kg/m³ och har då 75 % av sin volym under ytan.</p>\n<p>Hur stor andel av klossen ligger under ytan om den i stället flyter i havsvatten med densiteten 1025 kg/m³?</p>",
-    "s": "<div class=\"facit-v2\"><p>När föremålet flyter stilla balanserar vattnets lyftkraft föremålets hela tyngdkraft. Skriv därför ρ_v g V_nedsänkt = ρ_f g V_hela. Efter förkortning av g blir den nedsänkta volymandelen ρ_f/ρ_v. Det är vätskans densitet som används i lyftkraften.</p><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Bestäm först klossens densitet ur läget i sötvatten.</p><div class=\"facit-matte\">\\[\\rho_k=0{,}75\\cdot998=748{,}5\\ \\mathrm{kg/m^3}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">I havsvatten blir nedsänkt andel</p><div class=\"facit-matte\">\\[f_h=\\frac{\\rho_k}{\\rho_h}=\\frac{748{,}5}{1025}=0{,}730\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> I havsvatten ligger cirka \\(73\\,\\%\\) av klossen under ytan.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "E",
+    "typ": "flyta i olika vätskor",
+    "poang": "(2/0/0)",
+    "t": "<p>En homogen kloss flyter i sötvatten med densiteten 998 kg/m³. Då ligger 75,0 % av volymen under ytan. Klossen flyttas till havsvatten med densiteten 1025 kg/m³. Försumma luftens lyftkraft.</p><p>Bestäm hur många procent av klossens volym som ligger under ytan i havsvattnet. Svara i %. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>I sötvatten är klossens densitet 0,750·998=748,5 kg/m³. I havsvatten blir den nedsänkta andelen 748,5/1025≈0,73024. Svar: 73,0 %.</p>",
+    "familj": "Flyta i olika vätskor",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__flyta_i_olika_vatskor",
     "svarstyp": "numeriskt",
-    "rättSvar": 73,
-    "tolerans": 1.095,
+    "rättSvar": 73.0,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först klossens densitet med hjälp av läget i sötvatten.</p>",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": true,
     "svarEnhet": "%",
-    "familjNyckelTidigare": "arkimedes__flytvillkor_och_medeldensitet",
-    "ledtrad": "<p>Bestäm först klossens densitet ur läget i sötvatten. Flytkraften är tyngden av den undanträngda vätskan: \\(F_A=\\rho_{vätska}gV_{undanträngt}\\).</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.285",
     "kap": 6,
     "omr": "arkimedes",
-    "niva": "A",
-    "typ": "lyftförmåga hos gasballong",
-    "poang": "(0/1/2)",
-    "t": "<p>En liten ballong har volymen \\(0,025\\,\\mathrm{m^3}\\) och är fylld med en gas med densiteten \\(0,23\\,\\mathrm{kg/m^3}\\). Luftens densitet är \\(1,20\\,\\mathrm{kg/m^3}\\). Hur stor maximal massa, utöver själva gasen, kan ballongen bära om ballonghöljet antas masslöst?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Densitet är massa per volym. Skriv först sambandet \\(\\rho=m/V\\), välj enheter som passar ihop och lös därefter ut den storhet som saknas.</p><p class=\"facit-metod\">Lyftkraften motsvarar tyngden av undanträngd luft. Gasens egen tyngd måste räknas bort.</p><div class=\"facit-matte\">\\[m_{last}=(\\rho_{luft}-\\rho_{gas})V=(1,2-0,23)0,025=0,02425\\ \\mathrm{kg}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(24,25\\ \\mathrm g\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En tätare kropp ska ha större massa för samma volym. Kontrollera också att svarets densitetsenhet stämmer.</p></div>",
-    "familj": "Flytkraft, flytvillkor och densitet",
+    "niva": "C",
+    "typ": "gasballongens volym",
+    "poang": "(0/2/0)",
+    "t": "<p>En heliumballong ska bära en last på 20,0 g och ett hölje med massan 4,0 g. Luftens densitet är 1,20 kg/m³ och heliumets densitet 0,18 kg/m³. Försumma lastens och höljets volymer.</p><p>Bestäm ballongens minsta volym för svävande jämvikt. Svara i liter. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Jämvikt ger (ρ<sub>luft</sub>−ρ<sub>He</sub>)V=m<sub>h</sub>+m<sub>last</sub>. V=0,0240/(1,20−0,18)≈0,023529 m³=23,529 liter. Svar: 23,5 liter.</p>",
+    "familj": "Gasballongens volym",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "modellering",
+      "problemlösning"
     ],
-    "familjNyckel": "arkimedes__flytkraft_flytvillkor_och_densitet",
+    "familjNyckel": "arkimedes__gasballongens_volym",
     "svarstyp": "numeriskt",
-    "rättSvar": 24.25,
-    "tolerans": 0.4365,
+    "rättSvar": 23.5,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Jämför massan av den undanträngda luften med massan av gasen i ballongen.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "g"
+    "ledtrad": "<p>Densitetsskillnaden anger hur stor massa en kubikmeter kan bära utöver heliumet.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.140",
     "kap": 6,
     "omr": "arkimedes",
     "niva": "A",
-    "poang": "(1/2/2)",
-    "t": "<p>Havsis har densiteten 917 kg/m³ och havsvatten 1025 kg/m³.</p>\n<ol><li>Hur stor andel av ett flytande isberg befinner sig under vattenytan?</li>\n<li>Ett isberg smälter helt. Hur mycket stiger havsnivån? Motivera noga.</li>\n<li>Varför stiger havsnivån ändå när Grönlands inlandsis smälter?</li></ol>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett flytande isberg har lyftkraft lika stor som tyngdkraften.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{hav}}gV_{\\mathrm{under}}=\\rho_{\\mathrm{is}}gV\\]\\[\\frac{V_{\\mathrm{under}}}{V}=\\frac{917}{1025}=0{,}895\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Isberget tränger redan undan havsvatten med samma massa som isberget. I den vanliga idealmodellen får smältvattnet därför precis plats i den undanträngda volymen.</p><p>Havsnivån ändras inte i idealmodellen. I verkligheten finns en mycket liten korrigering eftersom smält sötvatten och saltvatten har olika densitet.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Grönlands inlandsis vilar på land. När den smälter tillförs havet vatten som inte tidigare trängde undan havsvatten.</p><p>Därför höjs havsnivån.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(89{,}5\\,\\%\\) av isberget är under ytan. Flytande havsis ger ingen nivåhöjning i idealmodellen, men landis som smälter tillför nytt vatten till havet.</p></div>",
-    "familj": "Arkimedes princip och flytkraft",
+    "poang": "(1/2/3)",
+    "t": "<p>Havsis har densiteten 917 kg/m³ och havsvatten 1025 kg/m³. I den enkla havsnivåmodellen antas smältvattnet blandas in utan att havsvattnets effektiva densitet ändras; termisk expansion och salthaltseffekter försummas.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm hur stor andel av ett flytande isberg som ligger under vattenytan.</li><li>Förklara varför det flytande isberget inte höjer havsnivån när det smälter i den angivna modellen.</li><li>Förklara varför smältande inlandsis på land däremot höjer havsnivån.</li><li>Vilket antagande gör att slutsatsen i b inte ska tolkas som en exakt beskrivning av verkliga hav?</li></ol>",
+    "s": "<p>a) Flytjämvikt ger ρ<sub>hav</sub>V<sub>under</sub>=ρ<sub>is</sub>V. Andelen blir V<sub>under</sub>/V=917/1025≈0,8946, alltså cirka 89,5 %.</p><p>b) Före smältningen tränger isen undan en havsvattenmassa lika stor som isens massa. Efter smältningen tillförs samma massa vatten. Med modellens oförändrade effektiva densitet upptar massan samma volym som isen tidigare trängde undan, så nivån ändras inte.</p><p>c) Landisen tränger inte undan havsvatten innan den smälter. Smältvattnet tillför därför ny massa och volym till havet.</p><p>d) Modellen bortser bland annat från att smält sötvatten ändrar salthalt och densitet och från temperaturberoende volymförändringar. Den visar den centrala Arkimedes-effekten men inte alla små verkliga korrigeringar.</p>",
+    "familj": "Havsis och modellantaganden",
     "formaga": [
-      "procedur",
-      "resonemang"
+      "modellering",
+      "resonemang",
+      "begrepp"
     ],
-    "familjNyckel": "arkimedes__arkimedes_princip_och_flytkraft",
-    "svarstyp": "manuell",
+    "familjNyckel": "arkimedes__havsis_och_modellantaganden",
+    "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
     "självrättning": false,
-    "ledtrad": "<p>Ett flytande isberg har lyftkraft lika stor som tyngdkraften.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Havsis har densiteten 917 kg/m³ och havsvatten 1025 kg/m³.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur stor andel av ett flytande isberg befinner sig under vattenytan?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Ett flytande isberg har lyftkraft lika stor som tyngdkraften.</p><div class=\"facit-matte\">\\[\\rho_{\\mathrm{hav}}gV_{\\mathrm{under}}=\\rho_{\\mathrm{is}}gV\\]\\[\\frac{V_{\\mathrm{under}}}{V}=\\frac{917}{1025}=0{,}895\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}895\\).</p></div>",
-        "ledtrad": "<p>Ett flytande isberg har lyftkraft lika stor som tyngdkraften.</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "b",
-        "fraga": "Ett isberg smälter helt. Hur mycket stiger havsnivån? Motivera noga.",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Isberget tränger redan undan havsvatten med samma massa som isberget. I den vanliga idealmodellen får smältvattnet därför precis plats i den undanträngda volymen.</p><p>Havsnivån ändras inte i idealmodellen. I verkligheten finns en mycket liten korrigering eftersom smält sötvatten och saltvatten har olika densitet.</p></div></div></div>",
-        "ledtrad": "<p>Ett flytande isberg har lyftkraft lika stor som tyngdkraften.</p>",
-        "niva": "A"
-      },
-      {
-        "etikett": "c",
-        "fraga": "Varför stiger havsnivån ändå när Grönlands inlandsis smälter?",
-        "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Grönlands inlandsis vilar på land. När den smälter tillförs havet vatten som inte tidigare trängde undan havsvatten.</p><p>Därför höjs havsnivån.</p></div></div></div>",
-        "ledtrad": "<p>Ett flytande isberg har lyftkraft lika stor som tyngdkraften.</p>",
-        "niva": "A"
-      }
-    ]
+    "ledtrad": "<p>Använd kraftjämvikt för den flytande isen och håll is på havet skild från is på land.</p>",
+    "traningsniva": 5,
+    "typ": "havsis och modellantaganden",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 2,
+    "spel": false,
+    "manuellKomplettering": true
   },
   {
     "id": "7.1",
@@ -84373,32 +85065,36 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En instängd gas har volymen 2,4 liter vid trycket 100 kPa. Temperaturen är konstant. Gasen komprimeras till 1,5 liter.</p><p>Vilket blir det nya trycket?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Vid konstant temperatur gäller Boyles lag: \\(p_1V_1=p_2V_2\\).</p><div class=\"facit-matte\">\\[p_2=\\frac{p_1V_1}{V_2}=\\frac{100\\cdot2{,}4}{1{,}5}=160\\ \\mathrm{kPa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(160\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En instängd gas har volymen 2,40 liter vid det absoluta trycket 100 kPa. Den komprimeras isotermt till 1,50 liter. Använd p₁V₁=p₂V₂.</p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p₂=p₁V₁/V₂=100·2,40/1,50=160 kPa. Svar: 160 kPa.</p>",
     "familj": "Boyles lag",
     "formaga": [
       "procedur"
     ],
     "familjNyckel": "gaslagen__boyles_lag",
     "svarstyp": "numeriskt",
-    "rättSvar": 160,
-    "tolerans": 2.4,
+    "rättSvar": 160.0,
+    "tolerans": 0,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Sätt in värdena i det angivna sambandet.</p>",
+    "traningsniva": 1,
+    "typ": "boyles lag",
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "kPa",
-    "ledtrad": "<p>Vid konstant temperatur gäller Boyles lag: \\(p_1V_1=p_2V_2\\).</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.142",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En luftbubbla har volymen 3,0 ml vid trycket 95 kPa. Temperaturen kan antas konstant. När trycket ökar till 120 kPa, vilken volym får bubblan?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Temperaturen är konstant, så Boyles lag gäller: \\(p_1V_1=p_2V_2\\). Lös ut den nya volymen.</p><div class=\"facit-matte\">\\[V_2=\\frac{p_1V_1}{p_2}=\\frac{95\\cdot3{,}0}{120}=2{,}375\\ \\mathrm{ml}\\]</div><p class=\"facit-not\">Trycket ökar från 95 till 120 kPa, så volymen ska minska. \\(2{,}38\\lt 3{,}0\\) ml är därför rimligt.</p><p class=\"facit-svar\"><strong>Svar:</strong> cirka \\(2{,}38\\ \\mathrm{ml}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
+    "poang": "(1/0/0)",
+    "t": "<p>En luftbubbla har volymen 3,00 mL vid det absoluta trycket 95,0 kPa. Trycket ökar till 120 kPa medan temperaturen är oförändrad.</p><p>Bestäm bubblans nya volym. Svara i mL. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Boyles lag ger V₂=p₁V₁/p₂=95,0·3,00/120=2,375 mL. Det högre trycket ger mindre volym. Svar: 2,38 mL.</p>",
     "familj": "Boyles lag",
     "formaga": [
       "procedur"
@@ -84406,60 +85102,71 @@ window.BANK = [
     "familjNyckel": "gaslagen__boyles_lag",
     "svarstyp": "numeriskt",
     "rättSvar": 2.38,
-    "tolerans": 0.04,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "ml",
-    "ledtrad": "<p>Temperaturen är konstant, så Boyles lag gäller: \\(p_1V_1=p_2V_2\\). Lös ut den nya volymen.</p>"
+    "ledtrad": "<p>Lös ut V₂ ur p₁V₁=p₂V₂.</p>",
+    "traningsniva": 2,
+    "typ": "boyles lag",
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "mL",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.143",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>En stängd spruta innehåller 60 ml luft vid 101 kPa. Kolven trycks långsamt in tills volymen är 30 ml. Temperaturen är oförändrad.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 60 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"94\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"215\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"221\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 30 ml</text></svg></span><p>Bestäm gasens tryck.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">När volymen halveras vid konstant temperatur måste trycket fördubblas.</p><div class=\"facit-matte\">\\[p_2=\\frac{101\\cdot60}{30}=202\\ \\mathrm{kPa}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(202\\ \\mathrm{kPa}\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Boyles lag",
+    "poang": "(1/0/0)",
+    "t": "<p>En stängd spruta innehåller 60,0 mL luft vid det absoluta trycket 101 kPa. Kolven trycks långsamt in tills volymen är 30,0 mL. Temperaturen är oförändrad.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"285\" viewBox=\"0 0 520 285\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Stängd spruta före och efter kompression\"><title>Stängd spruta före och efter kompression</title><rect x=\"120\" y=\"30\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"31\" width=\"189\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"310\" y=\"30\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"316\" y1=\"54\" x2=\"390\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"38\" x2=\"390\" y2=\"70\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"54\" x2=\"120\" y2=\"54\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"44\" x2=\"104\" y2=\"64\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"106\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">före: 60 ml</text><rect x=\"120\" y=\"165\" width=\"220\" height=\"48\" rx=\"0\" fill=\"white\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"121\" y=\"166\" width=\"94\" height=\"46\" rx=\"0\" fill=\"#e5eff6\" stroke=\"#293747\" stroke-width=\"2\"/><rect x=\"215\" y=\"165\" width=\"6\" height=\"48\" rx=\"0\" fill=\"#cbdde9\" stroke=\"#293747\" stroke-width=\"2\"/><line x1=\"221\" y1=\"189\" x2=\"390\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"390\" y1=\"173\" x2=\"390\" y2=\"205\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"105\" y1=\"189\" x2=\"120\" y2=\"189\" stroke=\"#293747\" stroke-width=\"1.8\"/><line x1=\"104\" y1=\"179\" x2=\"104\" y2=\"199\" stroke=\"#293747\" stroke-width=\"1.8\"/><text x=\"235\" y=\"241\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">efter: 30 ml</text></svg></span><p>Bestäm gasens nya tryck. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>Volymen halveras. Vid konstant temperatur fördubblas därför trycket: p₂=101·60,0/30,0=202 kPa. Svar: 202 kPa.</p>",
+    "familj": "Boyles lag och förändringsfaktor",
     "formaga": [
-      "procedur",
-      "begrepp"
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
+    "familjNyckel": "gaslagen__boyles_lag_och_forandringsfaktor",
     "svarstyp": "numeriskt",
-    "rättSvar": 202,
-    "tolerans": 3,
+    "rättSvar": 202.0,
+    "tolerans": 0,
     "självrättning": true,
-    "miniräknare": true,
+    "miniräknare": false,
     "geogebra": false,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>När volymen halveras vid konstant temperatur ändras trycket med den omvända faktorn.</p>",
+    "traningsniva": 1,
+    "typ": "boyles lag och förändringsfaktor",
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "kPa",
-    "ledtrad": "<p>När volymen halveras vid konstant temperatur måste trycket fördubblas.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.144",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En gas hålls vid konstant temperatur. Trycket ökar till 1,25 gånger det ursprungliga trycket.</p><p>Hur stor blir den nya volymen jämfört med den ursprungliga? Svara med faktorn \\(V_2/V_1\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Boyles lag ger \\(p_1V_1=p_2V_2\\). Sätt \\(p_2=1{,}25p_1\\).</p><div class=\"facit-matte\">\\[\\frac{V_2}{V_1}=\\frac{p_1}{1{,}25p_1}=0{,}80\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen blir \\(0{,}80\\) av den ursprungliga, alltså minskar den med 20 %.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Boyles lag",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En bestämd gasmängd hålls vid konstant temperatur. Det absoluta trycket ökar till 1,25 gånger starttrycket.</p><p>Bestäm volymfaktorn V₂/V₁. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Boyles lag ger p₁V₁=p₂V₂. Med p₂=1,25p₁ blir V₂/V₁=1/1,25=0,80. Volymen minskar alltså med 20 %. Svar: 0,80.</p>",
+    "familj": "Boyles lag och förändringsfaktor",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
+    "familjNyckel": "gaslagen__boyles_lag_och_forandringsfaktor",
     "svarstyp": "numeriskt",
     "rättSvar": 0.8,
-    "tolerans": 0.01,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": false,
     "geogebra": false,
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Boyles lag ger \\(p_1V_1=p_2V_2\\). Sätt \\(p_2=1{,}25p_1\\). Temperaturen är konstant, så använd \\(p_1V_1=p_2V_2\\).</p>"
+    "ledtrad": "<p>Tryck och volym ändras med omvända faktorer vid konstant temperatur.</p>",
+    "traningsniva": 2,
+    "typ": "boyles lag och förändringsfaktor",
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.305",
@@ -85031,22 +85738,26 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Omvandla 25 °C till kelvin.</p>",
-    "s": "<p class=\"facit-tolkning\"><strong>Kontroll:</strong> Kelvin och Celsius har lika stora temperatursteg; skalorna skiljer sig bara med 273,15. Därför ändras inte en temperaturdifferens vid omvandlingen.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Kelvintemperaturen fås med \\(T_K=T_C+273{,}15\\).</p><div class=\"facit-matte\">\\[25+273{,}15=298{,}15\\ \\mathrm K\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(298\\ \\mathrm K\\).</p></div>",
-    "familj": "Kelvinskalan",
+    "t": "<p>Använd T=t+273,15.</p><p>Omvandla 25,0 °C till kelvin. Svara i K. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>T=25,0+273,15=298,15 K. Svar: 298,15 K.</p>",
+    "familj": "Omvandla Celsius till kelvin",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__omvandla_celsius_till_kelvin",
     "svarstyp": "numeriskt",
-    "rättSvar": 298,
-    "tolerans": 1,
+    "rättSvar": 298.15,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": false,
     "geogebra": false,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lägg 273,15 till celsiustemperaturen.</p>",
+    "traningsniva": 1,
+    "typ": "omvandla celsius till kelvin",
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "K",
-    "ledtrad": "<p>Kelvintemperaturen fås med \\(T_K=T_C+273{,}15\\). Kelvinskalan börjar vid absoluta nollpunkten.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.146",
@@ -85054,22 +85765,26 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En gas har temperaturen 350 K. Vilken temperatur är det i grader Celsius?</p>",
-    "s": "<p class=\"facit-tolkning\"><strong>Kontroll:</strong> Kelvin och Celsius har lika stora temperatursteg; skalorna skiljer sig bara med 273,15. Därför ändras inte en temperaturdifferens vid omvandlingen.</p><div class=\"facit-v2\"><p class=\"facit-metod\">Gå från kelvin till Celsius genom att subtrahera 273,15.</p><div class=\"facit-matte\">\\[350-273{,}15=76{,}85^\\circ\\mathrm C\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(77^\\circ\\mathrm C\\).</p></div>",
-    "familj": "Kelvinskalan",
+    "t": "<p>Använd t=T−273,15.</p><p>Omvandla 350 K till grader Celsius. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>t=350−273,15=76,85 °C. Svar: 76,9 °C.</p>",
+    "familj": "Omvandla kelvin till Celsius",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__omvandla_kelvin_till_celsius",
     "svarstyp": "numeriskt",
-    "rättSvar": 77,
-    "tolerans": 1,
+    "rättSvar": 76.9,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": false,
     "geogebra": false,
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Subtrahera 273,15 från kelvintemperaturen.</p>",
+    "traningsniva": 1,
+    "typ": "omvandla kelvin till celsius",
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "°C",
-    "ledtrad": "<p>Gå från kelvin till Celsius genom att subtrahera 273,15. Kelvinskalan börjar vid absoluta nollpunkten.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.147",
@@ -85077,46 +85792,101 @@ window.BANK = [
     "omr": "gaslagen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Vilken av följande temperaturer är inte fysikaliskt möjlig?</p><p>A. 250 K<br>B. 0 K<br>C. −5 K<br>D. 400 K</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Kelvinskalan börjar vid absoluta nollpunkten, \\(0\\ \\mathrm K\\). Negativa kelvintemperaturer ingår inte i den vanliga termodynamiska temperaturskalan.</p><p class=\"facit-svar\"><strong>Svar:</strong> C, −5 K.</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "t": "<p>Vilket påstående om temperatur är korrekt? Markera ett alternativ.</p>",
+    "s": "<p>Kelvinskalan börjar vid absoluta nollpunkten, 0 K. Sambandet t=T−273,15 ger 0−273,15=−273,15 °C. Det korrekta påståendet är därför att 0 K motsvarar −273,15 °C.</p>",
+    "familj": "Absoluta nollpunkten",
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "familjNyckel": "gaslagen__absoluta_nollpunkten",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "miniräknare": false,
     "geogebra": false,
-    "svarFormat": "val",
-    "ledtrad": "<p>Kelvinskalan börjar vid absoluta nollpunkten, \\(0\\ \\mathrm K\\). Negativa kelvintemperaturer ingår inte i den vanliga termodynamiska temperaturskalan.</p>"
+    "ledtrad": "<p>Vilken kelvintemperatur motsvarar den absoluta nollpunkten?</p>",
+    "traningsniva": 2,
+    "typ": "absoluta nollpunkten",
+    "arbetsinsats": 1,
+    "spel": true,
+    "alternativ": [
+      {
+        "txt": "0 °C är den absoluta nollpunkten och motsvarar 0 K.",
+        "ratt": false,
+        "kommentar": "0 °C motsvarar 273,15 K, inte 0 K."
+      },
+      {
+        "txt": "0 K är den absoluta nollpunkten och motsvarar −273,15 °C.",
+        "ratt": true,
+        "kommentar": "Detta följer av t=T−273,15."
+      },
+      {
+        "txt": "−273,15 K är den absoluta nollpunkten och motsvarar 0 °C.",
+        "ratt": false,
+        "kommentar": "Negativa kelvintemperaturer används inte på den vanliga termodynamiska skalan."
+      },
+      {
+        "txt": "273,15 K är den absoluta nollpunkten och motsvarar −273,15 °C.",
+        "ratt": false,
+        "kommentar": "273,15 K motsvarar 0 °C."
+      }
+    ],
+    "svarFormat": "alternativ"
   },
   {
     "id": "6.287",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "A",
-    "typ": "kombinerad gaslag med både tryck och temperaturändring",
-    "poang": "(0/1/2)",
-    "t": "<p>En sluten mängd ideal gas har först trycket \\(110\\,\\mathrm{kPa}\\), volymen \\(2,2\\,\\mathrm l\\) och temperaturen \\(293\\,\\mathrm K\\). Gasen ändras till \\(160\\,\\mathrm{kPa}\\) och \\(333\\,\\mathrm K\\). Bestäm slutvolymen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller den kombinerade gaslagen \\(pV/T=\\text{konstant}\\).</p><div class=\"facit-matte\">\\[V_2=V_1\\frac{p_1}{p_2}\\frac{T_2}{T_1}=0,001719\\ \\mathrm{m^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1,719\\ \\mathrm l\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Allmänna gaslagen",
+    "niva": "E",
+    "typ": "kombinerade gaslagen",
+    "poang": "(2/0/0)",
+    "t": "<p>En bestämd mängd ideal gas har först trycket 110 kPa, volymen 2,20 liter och temperaturen 293 K. I slutläget är volymen 1,80 liter och temperaturen 333 K.</p><p>Bestäm sluttrycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Den kombinerade gaslagen ger p₂=p₁V₁T₂/(T₁V₂)=110·2,20·333/(293·1,80)≈152,799 kPa. Svar: 152,8 kPa.</p>",
+    "familj": "Kombinerade gaslagen",
     "formaga": [
-      "resonemang",
-      "modellering"
+      "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__kombinerade_gaslagen",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.718985,
-    "tolerans": 0.030942,
+    "rättSvar": 152.8,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Temperaturerna måste vara absoluta. Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\).</p>",
+    "ledtrad": "<p>Lös ut p₂ ur p₁V₁/T₁=p₂V₂/T₂.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.336",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En bestämd gasmängd har p₁=100 kPa, V₁=2,00 liter och T₁=300 K. Slutvärdena är p₂=125 kPa och T₂=375 K. Använd V₂=V₁(p₁/p₂)(T₂/T₁).</p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>V₂=2,00·(100/125)·(375/300)=2,00 liter. Tryck- och temperaturfaktorerna tar här ut varandra. Svar: 2,00 liter.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Kombinerade gaslagen",
+    "typ": "kombinerade gaslagen",
+    "ledtrad": "<p>Sätt in värdena i det angivna sambandet.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__kombinerade_gaslagen",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "liter",
     "svarFormat": "numeriskt",
-    "svarEnhet": "liter"
+    "poang": "(1/0/0)"
   },
   {
     "id": "3.173",
@@ -86024,48 +86794,55 @@ window.BANK = [
     "id": "6.148",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Temperaturen hos en gas ökar från 20 °C till 80 °C.</p><p>Med vilken faktor har den absoluta temperaturen ökat?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Temperaturkvoter måste beräknas på kelvinskalan.</p><div class=\"facit-matte\">\\[T_1=293{,}15\\ \\mathrm K,\\qquad T_2=353{,}15\\ \\mathrm K\\]\\[\\frac{T_2}{T_1}=1{,}205\\approx1{,}20\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta temperaturen har ökat med faktorn cirka \\(1{,}20\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En gas värms från 20,0 °C till 80,0 °C.</p><p>Bestäm förändringsfaktorn T₂/T₁ för den absoluta temperaturen. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Temperaturkvoter ska bildas i kelvin. T₂/T₁=353,15/293,15≈1,20467. Svar: 1,20.</p>",
+    "familj": "Absolut temperatur och förändringsfaktor",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__absolut_temperatur_och_forandringsfaktor",
     "svarstyp": "numeriskt",
     "rättSvar": 1.2,
-    "tolerans": 0.02,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Temperaturkvoter måste beräknas på kelvinskalan. Kelvinskalan börjar vid absoluta nollpunkten.</p>"
+    "ledtrad": "<p>Omvandla båda temperaturerna till kelvin innan du dividerar.</p>",
+    "traningsniva": 2,
+    "typ": "absolut temperatur och förändringsfaktor",
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.149",
     "kap": 6,
     "omr": "gaslagen",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>En gas kyls från 400 K till 300 K.</p><p>Hur stor är temperaturminskningen i procent räknat på den absoluta temperaturen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">Procentuell förändring beräknas från förändringen dividerad med ursprungsvärdet.</p><div class=\"facit-matte\">\\[\\frac{400-300}{400}=0{,}25=25\\,\\%\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen minskar med \\(25\\,\\%\\).</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "niva": "E",
+    "poang": "(1/0/0)",
+    "t": "<p>En gas kyls från 400 K till 300 K.</p><p>Bestäm temperaturminskningen i procent av starttemperaturen. Svara i %. Svara med ett heltal.</p>",
+    "s": "<p>Minskningen är 400−300=100 K. Relativt startvärdet blir 100/400·100=25 %. Svar: 25 %.</p>",
+    "familj": "Procentuell temperaturändring",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__procentuell_temperaturandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 25,
-    "tolerans": 0.5,
+    "rättSvar": 25.0,
+    "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
     "miniräknare": false,
     "geogebra": false,
+    "ledtrad": "<p>Dividera förändringen med starttemperaturen.</p>",
+    "traningsniva": 2,
+    "typ": "procentuell temperaturändring",
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "%",
-    "ledtrad": "<p>Procentuell förändring beräknas från förändringen dividerad med ursprungsvärdet.</p>"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "9.100",
@@ -91504,392 +92281,521 @@ window.BANK = [
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>En sluten tank innehåller luft av temperaturen \\(10,0{^\\circ}\\mathrm{C}\\) och trycket 8,00 MPa. Vad blir trycket om temperaturen höjs till \\(100{^\\circ}\\mathrm{C}\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(p = 10,5\\ MPa\\)</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "tryck och absolut temperatur",
+    "poang": "(1/0/0)",
+    "t": "<p>En styv, sluten tank innehåller gas vid det absoluta trycket 8,00 MPa och temperaturen 10,0 °C. Gasen värms till 100 °C och volymen är konstant.</p><p>Bestäm det nya absoluta trycket. Svara i MPa. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>T₁=283,15 K och T₂=373,15 K. Vid konstant volym gäller p₂=p₁T₂/T₁=8,00·373,15/283,15≈10,5428 MPa. Svar: 10,54 MPa.</p>",
+    "familj": "Tryck och absolut temperatur",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 10.5,
-    "tolerans": 0.1575,
+    "rättSvar": 10.54,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd kelvin i temperaturkvoten.</p>",
+    "idTidigare": "6.150",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "MPa",
-    "idTidigare": "6.150"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.215",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>Trycket i en sluten behållare med konstant volym var 240 kPa vid \\(20,0{^\\circ}\\mathrm{C}\\). Hur stort blir trycket om temperaturen sjunker till \\(- 25,0{^\\circ}\\mathrm{C}\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(p = 203\\ kPa\\)</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "tryck och absolut temperatur",
+    "poang": "(1/0/0)",
+    "t": "<p>En styv, sluten behållare innehåller gas vid det absoluta trycket 240 kPa och temperaturen 20,0 °C. Gasen kyls till −25,0 °C.</p><p>Bestäm det nya absoluta trycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>T₁=293,15 K och T₂=248,15 K. Vid konstant volym gäller p₂=240·248,15/293,15≈203,159 kPa. Svar: 203 kPa.</p>",
+    "familj": "Tryck och absolut temperatur",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 203,
-    "tolerans": 3.045,
+    "rättSvar": 203.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Omvandla temperaturerna till kelvin innan du bildar kvoten.</p>",
+    "idTidigare": "6.151",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "kPa",
-    "idTidigare": "6.151"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.216",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>En instängd gas har volymen 47 cm³ vid \\(100{^\\circ}\\mathrm{C}\\). Hur stor är volymen vid \\(22{^\\circ}\\mathrm{C}\\) om trycket är oförändrat?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(V = 37\\ cm^{3}\\)</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "volym och absolut temperatur",
+    "poang": "(1/0/0)",
+    "t": "<p>En instängd gas har volymen 47,0 cm³ vid 100 °C. Gasen kyls till 22,0 °C medan trycket är oförändrat.</p><p>Bestäm den nya volymen. Svara i cm³. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>T₁=373,15 K och T₂=295,15 K. Vid konstant tryck gäller V₂=47,0·295,15/373,15≈37,1755 cm³. Svar: 37,2 cm³.</p>",
+    "familj": "Volym och absolut temperatur",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 37,
-    "tolerans": 0.5549999999999999,
+    "rättSvar": 37.2,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd kelvin i temperaturkvoten.</p>",
+    "idTidigare": "6.152",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "cm³",
-    "idTidigare": "6.152"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.217",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>En flaska innehåller torr luft. Den korkas igen då temperaturen är \\(17{^\\circ}\\mathrm{C}\\) och trycket 1 010 mbar. Hur högt blir trycket om flaskan placeras i kokande vatten?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(p = 1,3\\ bar\\)</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "tryck och absolut temperatur",
+    "poang": "(1/0/0)",
+    "t": "<p>En torr och styv flaska korkas igen vid 17,0 °C när det absoluta trycket är 1010 mbar. Flaskan värms därefter i kokande vatten tills gasen är 100 °C. Volymen är konstant.</p><p>Bestäm det nya absoluta trycket. Svara i bar. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>T₁=290,15 K och T₂=373,15 K. p₂=1010·373,15/290,15≈1298,9 mbar=1,2989 bar. Svar: 1,30 bar.</p>",
+    "familj": "Tryck och absolut temperatur",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
     "rättSvar": 1.3,
-    "tolerans": 0.02,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Trycket kan beräknas i mbar och omvandlas till bar sist.</p>",
+    "idTidigare": "6.153",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "bar",
-    "idTidigare": "6.153"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.218",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
+    "typ": "volymökning vid uppvärmning",
     "poang": "(2/0/0)",
-    "t": "<p>I en cylinder med tättslutande men lättrörlig kolv finns 75 cm³ gas vid temperaturen \\(18{^\\circ}\\mathrm{C}\\). Hur mycket kommer volymen att öka om cylindern omges med 100-gradig vattenånga? Anta att trycket förblir oförändrat.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(\\Delta V = 21\\ {cm}^{3}\\)</p></div>",
-    "familj": "Kelvinskalan",
+    "t": "<p>En cylinder med lättrörlig kolv innehåller 75,0 cm³ gas vid 18,0 °C. Gasen värms till 100 °C medan trycket är konstant.</p><p>Bestäm volymökningen. Svara i cm³. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>V₂=75,0·373,15/291,15≈96,1231 cm³. Volymökningen är ΔV=96,1231−75,0≈21,1231 cm³. Svar: 21,1 cm³.</p>",
+    "familj": "Volymökning vid uppvärmning",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__volymokning_vid_uppvarmning",
     "svarstyp": "numeriskt",
-    "rättSvar": 21,
-    "tolerans": 0.315,
+    "rättSvar": 21.1,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "cm",
-    "idTidigare": "6.154"
+    "ledtrad": "<p>Beräkna slutvolymen och subtrahera startvolymen.</p>",
+    "idTidigare": "6.154",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "cm³",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.219",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>I en gasbehållare är trycket 6,4 MPa vid temperaturen \\(20{^\\circ}\\mathrm{C}\\). Hur stort blir trycket vid en eldsvåda om behållaren då hettas upp till \\(250{^\\circ}\\mathrm{C}\\)?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(p = 11\\ MPa\\)</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "tryck och absolut temperatur",
+    "poang": "(1/0/0)",
+    "t": "<p>En styv gasbehållare innehåller gas vid det absoluta trycket 6,40 MPa och temperaturen 20,0 °C. Vid en brand värms gasen till 250 °C. Anta att behållaren inte ändrar volym.</p><p>Bestäm det nya absoluta trycket. Svara i MPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>T₁=293,15 K och T₂=523,15 K. Vid konstant volym blir p₂=6,40·523,15/293,15≈11,421 MPa. Svar: 11,4 MPa.</p>",
+    "familj": "Tryck och absolut temperatur",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 11,
-    "tolerans": 0.16499999999999998,
+    "rättSvar": 11.4,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Temperaturkvoten ska bildas i kelvin.</p>",
+    "idTidigare": "6.155",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "MPa",
-    "idTidigare": "6.155"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.220",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
+    "typ": "tillförd gasmängd vid kompression",
     "poang": "(2/0/0)",
-    "t": "<p>Kvävgas av trycket 1 atm pressades in i en behållare med volymen 25 liter tills trycket blev 84 atm. Hur stor volym kvävgas pressades in? Temperaturen ändrades inte vid inpressningen.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(V = 2,1\\ m^{3}\\ \\ (2100\\ liter)\\)</p></div>",
-    "familj": "Boyles lag",
+    "t": "<p>En styv 25,0-litersbehållare innehåller först kvävgas vid det absoluta trycket 1,00 atm. Mer kvävgas från en källa vid 1,00 atm pressas in tills trycket är 84,0 atm. Temperaturen är samma före och efter.</p><ol style=\"display:grid;gap:0.85rem\"><li>Bestäm den slutliga gasmängden uttryckt som motsvarande volym vid 1,00 atm. Svara i liter. Svara med ett heltal.</li><li>Bestäm hur stor gasvolym vid 1,00 atm som har tillförts. Svara i liter. Svara med ett heltal.</li></ol>",
+    "s": "<p>a) Den slutliga mängden motsvarar V<sub>1 atm</sub>=84,0·25,0/1,00=2100 liter vid 1,00 atm. Svar: 2100 liter.</p><p>b) Behållaren innehöll redan 25,0 liter räknat vid 1,00 atm. Den tillförda mängden motsvarar därför 2100−25,0=2075 liter. Svar: 2075 liter.</p>",
+    "familj": "Tillförd gasmängd vid kompression",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
-    "svarstyp": "numeriskt",
-    "rättSvar": 2.1,
-    "tolerans": 0.0315,
+    "familjNyckel": "gaslagen__tillford_gasmangd_vid_kompression",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2100.0,
+      2075.0
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "m³",
-    "idTidigare": "6.156"
+    "ledtrad": "<p>Jämför pV för gasmängden i behållaren med samma mängd vid 1,00 atm.</p>",
+    "idTidigare": "6.156",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": [
+      "liter",
+      "liter"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En styv 25,0-litersbehållare innehåller först kvävgas vid det absoluta trycket 1,00 atm. Mer kvävgas från en källa vid 1,00 atm pressas in tills trycket är 84,0 atm. Temperaturen är samma före och efter.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm den slutliga gasmängden uttryckt som motsvarande volym vid 1,00 atm. Svara i liter. Svara med ett heltal.",
+        "t": "<p>En styv 25,0-litersbehållare innehåller först kvävgas vid det absoluta trycket 1,00 atm. Mer kvävgas från en källa vid 1,00 atm pressas in tills trycket är 84,0 atm. Temperaturen är samma före och efter.</p><p>Bestäm den slutliga gasmängden uttryckt som motsvarande volym vid 1,00 atm. Svara i liter. Svara med ett heltal.</p>",
+        "s": "<p>Den slutliga mängden motsvarar V<sub>1 atm</sub>=84,0·25,0/1,00=2100 liter vid 1,00 atm. Svar: 2100 liter.</p>",
+        "ledtrad": "<p>Jämför pV för gasmängden i behållaren med samma mängd vid 1,00 atm.</p>",
+        "niva": "E",
+        "traningsniva": 2,
+        "arbetsinsats": 1,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm hur stor gasvolym vid 1,00 atm som har tillförts. Svara i liter. Svara med ett heltal.",
+        "t": "<p>En styv 25,0-litersbehållare innehåller först kvävgas vid det absoluta trycket 1,00 atm. Mer kvävgas från en källa vid 1,00 atm pressas in tills trycket är 84,0 atm. Temperaturen är samma före och efter.</p><p>Bestäm hur stor gasvolym vid 1,00 atm som har tillförts. Svara i liter. Svara med ett heltal.</p>",
+        "s": "<p>Behållaren innehöll redan 25,0 liter räknat vid 1,00 atm. Den tillförda mängden motsvarar därför 2100−25,0=2075 liter. Svar: 2075 liter.</p>",
+        "ledtrad": "<p>Räkna bort gasen som fanns i behållaren från början.</p>",
+        "niva": "E",
+        "traningsniva": 3,
+        "arbetsinsats": 2,
+        "poang": "(1/0/0)",
+        "formaga": [
+          "procedur"
+        ],
+        "miniräknare": true,
+        "geogebra": false
+      }
+    ]
   },
   {
     "id": "6.221",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>I en halogenlampa finns en liten mängd gas innesluten för att öka livslängden på glödtråden. Då lampan är släckt mäts trycket i gasen till 115 kPa vid normal rumstemperatur på \\(20,0{^\\circ}\\mathrm{C}\\). När lampan är tänd ökar temperaturen i gasen till \\(70,0{^\\circ}\\mathrm{C}\\). Hur stort är trycket i gasen då om man antar att volymen är konstant?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tryck är kraft per area. I vätskor beror tryckskillnaden på djupet, och lyftkraften är tyngden av den undanträngda vätskan.</p><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(p = 135\\ kPa\\)</p><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera om absolut tryck eller övertryck efterfrågas och om lufttrycket ska läggas till.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "tryck och absolut temperatur",
+    "poang": "(1/0/0)",
+    "t": "<p>Gas i en styv halogenlampa har det absoluta trycket 115 kPa vid 20,0 °C när lampan är släckt. När lampan är tänd är gasens temperatur 70,0 °C.</p><p>Bestäm gasens nya absoluta tryck. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>T₁=293,15 K och T₂=343,15 K. Vid konstant volym gäller p₂=115·343,15/293,15≈134,615 kPa. Svar: 135 kPa.</p>",
+    "familj": "Tryck och absolut temperatur",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
     "svarstyp": "numeriskt",
-    "rättSvar": 135,
-    "tolerans": 2.025,
+    "rättSvar": 135.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd kelvin i temperaturkvoten.</p>",
+    "idTidigare": "6.157",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
     "svarEnhet": "kPa",
-    "idTidigare": "6.157"
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.158",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>En metalldosa fulls med luft av temperaturen \\(20,0{^\\circ}\\mathrm{C}\\) vid trycket 1,00 atm. Vilken temperatur ska metalldosan upphettas till för att trycket ska fördubblas? Anta att dosans volym är konstant.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(T = 586\\ K = 313\\ {^\\circ}\\mathrm{C}\\)</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "temperatur vid ändrat tryck",
+    "poang": "(1/0/0)",
+    "t": "<p>En styv metalldosa tillsluts när gasen har temperaturen 20,0 °C. Dosen värms tills det absoluta trycket är dubbelt så stort. Gasmängd och volym är konstanta.</p><p>Bestäm sluttemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
+    "s": "<p>Vid konstant volym är p/T konstant. Dubbelt absoluttryck kräver T₂=2T₁=2·293,15=586,30 K. Det motsvarar 313,15 °C. Svar: 313 °C.</p>",
+    "familj": "Temperatur vid ändrat tryck",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__temperatur_vid_andrat_tryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 586,
-    "tolerans": 8.79,
+    "rättSvar": 313.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "ledtrad": "<p>Vilken förändringsfaktor får kelvintemperaturen när absoluttrycket fördubblas?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "°C",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.159",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>Du köper en påse chips vid flygplatsen och tar med dig den oöppnade påsen på flygplanet. Påsen känns hyfsat platt. Ombord på flygplanet råder oftast ett tryck på 0,75 atm (ett lätt undertryck). Till din häpnad ser du att chipspåsen expanderat och ser uppsvälld ut. Hur kan det komma sig? Hur många procent större volym har chipspåsen ombord än på marken?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>Volymen är ca 33% större ombord än på marken om man förutsätter samma temperatur på flygplatsen som ombord på planet. Chipspåsen är lufttät och antagligen tillverkad vid normalt lufttryck på 1 atm. Väl ombord på planet försöket den nå jämvikt dvs samma tryck som runtomkring i planet och då måste volymen öka i enlighet med gaslagen.</p></div>",
-    "familj": "Boyles lag",
+    "typ": "boyles lag och procentuell förändring",
+    "poang": "(1/0/0)",
+    "t": "<p>En tät och lättöjbar chipspåse har volymen V vid det absoluta trycket 1,00 atm. Ombord på ett flygplan är kabintrycket 0,750 atm. Temperaturen antas oförändrad och påsens tryck följer omgivningens.</p><p>Bestäm hur många procent större påsens volym blir. Svara i %. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Boyles lag ger V₂/V₁=p₁/p₂=1,00/0,750=1,3333. Volymen ökar alltså med (1,3333−1)·100≈33,33 %. Svar: 33,3 %.</p>",
+    "familj": "Boyles lag och procentuell förändring",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__boyles_lag",
+    "familjNyckel": "gaslagen__boyles_lag_och_procentuell_forandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 33,
-    "tolerans": 0.495,
+    "rättSvar": 33.3,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
+    "ledtrad": "<p>Beräkna först volymfaktorn p₁/p₂.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "6.345",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En bestämd gasmängd komprimeras isotermt så att volymen minskar med 20,0 %.</p><p>Bestäm tryckökningen i procent. Svara i %. Svara med ett heltal.</p>",
+    "s": "<p>Den nya volymen är 0,80V₁. Boyles lag ger p₂/p₁=1/0,80=1,25. Trycket ökar alltså med 25 %. Svar: 25 %.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Boyles lag och procentuell förändring",
+    "typ": "boyles lag och procentuell förändring",
+    "ledtrad": "<p>Översätt först volymminskningen till förändringsfaktorn 0,80.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag_och_procentuell_forandring",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "%",
     "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "poang": "(1/0/0)"
   },
   {
     "id": "6.160",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>Till vilken temperatur måste en gasmassa av temperaturen \\(10,0{^\\circ}\\mathrm{C}\\) värmas för att volymen skall fördubblas vid konstant tryck?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(T = 566\\ K = 293\\ {^\\circ}\\mathrm{C}\\)</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "temperatur vid ändrad volym",
+    "poang": "(1/0/0)",
+    "t": "<p>En bestämd gasmängd har temperaturen 10,0 °C. Den värms vid konstant tryck tills volymen är dubbelt så stor.</p><p>Bestäm sluttemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
+    "s": "<p>Vid konstant tryck gäller V/T=konstant. Dubbla volymen kräver T₂=2T₁=2·283,15=566,30 K=293,15 °C. Svar: 293 °C.</p>",
+    "familj": "Temperatur vid ändrad volym",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__temperatur_vid_andrad_volym",
     "svarstyp": "numeriskt",
-    "rättSvar": 566,
-    "tolerans": 8.49,
+    "rättSvar": 293.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "ledtrad": "<p>Volymfaktorn är samma som kelvintemperaturens faktor.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "°C",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.161",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
+    "typ": "däcktemperatur från tryck",
     "poang": "(2/0/0)",
-    "t": "<p>Det totala trycket i ett bildäck var 290 kPa då det pumpades vid temperaturen \\(12{^\\circ}\\mathrm{C}\\). Efter en tids körning uppmättes trycket i däcket till 320 kPa. Hur hög var då temperaturen?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(T = 314\\ K = 41\\ {^\\circ}\\mathrm{C}\\)</p></div>",
-    "familj": "Kelvinskalan",
+    "t": "<p>Det absoluta trycket i ett bildäck är 290 kPa vid 12,0 °C. Efter körning är det absoluta trycket 320 kPa. Däckets volym och gasmängd antas oförändrade.</p><p>Bestäm den nya temperaturen i grader Celsius. Svara i °C. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Vid konstant volym gäller T₂=T₁p₂/p₁=285,15·320/290≈314,648 K. Det motsvarar 41,498 °C. Svar: 41,5 °C.</p>",
+    "familj": "Däcktemperatur från tryck",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__dacktemperatur_fran_tryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 314,
-    "tolerans": 4.71,
+    "rättSvar": 41.5,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "ledtrad": "<p>Lös först ut sluttemperaturen i kelvin.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "°C",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.162",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
+    "typ": "övertryck vid temperaturändring",
     "poang": "(2/0/0)",
-    "t": "<p>Övertrycket i ett bildäck är 270 kPa då bilen körts så länge att däcket fått en temperatur på \\(50,0{^\\circ}\\mathrm{C}\\). Hur stort blir övertrycket i däcket då temperaturen har sjunkit till \\(5,00{^\\circ}\\mathrm{C}\\). Anta att lufttrycket är 101,3 kPa.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(p_{över} = 215\\ kPa\\)</p></div>",
-    "familj": "Kelvinskalan",
+    "t": "<p>En däckmanometer visar övertrycket 270 kPa när däckets temperatur är 50,0 °C. Däcket kyls till 5,00 °C. Däckets volym är oförändrad och lufttrycket utanför är hela tiden 101,3 kPa.</p><p>Bestäm manometerns nya visning. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>Startens absoluttryck är 270+101,3=371,3 kPa. p₂,abs=371,3·278,15/323,15≈319,59 kPa. Det nya övertrycket är 319,59−101,3≈218,29 kPa. Svar: 218 kPa.</p>",
+    "familj": "Övertryck vid temperaturändring",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__overtryck_vid_temperaturandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 215,
-    "tolerans": 3.225,
+    "rättSvar": 218.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kPa"
+    "ledtrad": "<p>Lägg först till lufttrycket och dra bort det igen efter gaslagsberäkningen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.163",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
-    "poang": "(2/0/0)",
-    "t": "<p>En flygvärdinna vill höja temperaturen i kabinen från \\(18{^\\circ}\\mathrm{C}\\) till \\(24{^\\circ}\\mathrm{C}\\). Hur många procent måste trycket ändras om man antar att antalet mol luft är densamma före och efter?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>Trycket måste höjas med 2,1%.</p></div>",
-    "familj": "Kelvinskalan",
+    "typ": "procentuell tryckändring",
+    "poang": "(1/0/0)",
+    "t": "<p>En sluten flygplanskabin behandlas som en styv behållare. Temperaturen höjs från 18,0 °C till 24,0 °C medan gasmängden och volymen är oförändrade.</p><p>Bestäm tryckökningen i procent. Svara i %. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>Vid konstant volym är p∝T. Tryckfaktorn är 297,15/291,15≈1,02061, vilket motsvarar en ökning med cirka 2,061 %. Svar: 2,1 %.</p>",
+    "familj": "Procentuell tryckändring",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__kelvinskalan",
+    "familjNyckel": "gaslagen__procentuell_tryckandring",
     "svarstyp": "numeriskt",
     "rättSvar": 2.1,
-    "tolerans": 0.0315,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "%"
+    "ledtrad": "<p>Jämför kelvintemperaturerna, inte celsiustemperaturerna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarEnhet": "%",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.164",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
+    "typ": "temperatur vid procentuell volymändring",
     "poang": "(2/0/0)",
-    "t": "<p>Till vilken temperatur ska en gas med temperaturen \\(20,0{^\\circ}\\mathrm{C}\\) värmas vid konstant tryck för att volymen ska öka med 60,0%?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(T = 469\\ K = 196\\ {^\\circ}\\mathrm{C}\\)</p></div>",
-    "familj": "Allmänna gaslagen",
+    "t": "<p>En bestämd gasmängd har temperaturen 20,0 °C. Den värms vid konstant tryck tills volymen har ökat med 60,0 %.</p><p>Bestäm sluttemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
+    "s": "<p>Volymfaktorn är 1,60. Vid konstant tryck får kelvintemperaturen samma faktor: T₂=1,60·293,15=469,04 K=195,89 °C. Svar: 196 °C.</p>",
+    "familj": "Temperatur vid procentuell volymändring",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__temperatur_vid_procentuell_volymandring",
     "svarstyp": "numeriskt",
-    "rättSvar": 469,
-    "tolerans": 7.035,
+    "rättSvar": 196.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "ledtrad": "<p>En ökning med 60 % motsvarar förändringsfaktorn 1,60.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "°C",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.165",
     "kap": 6,
     "omr": "gaslagen",
     "niva": "E",
-    "typ": "tillämpa gaslagar på tryck volym temperatur och substansmängd",
+    "typ": "temperaturgräns från övertryck",
     "poang": "(2/0/0)",
-    "t": "<p>En liten glasballong tillsluts då temperaturen är \\(22,0{^\\circ}\\mathrm{C}\\) och barometern visar då 1 040 mbar. Till vilken temperatur får den högst värmas om den inte tål ett högre övertryck än 500 mbar? Volymen ändras inte märkbart.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För samma gasmängd gäller \\(p_1V_1/T_1=p_2V_2/T_2\\). Temperaturen måste anges i kelvin. Kontrollera också om trycket i uppgiften är totaltryck eller övertryck.</p><p>\\(T = 437\\ K = 164\\ {^\\circ}\\mathrm{C}\\)</p></div>",
-    "familj": "Allmänna gaslagen",
+    "t": "<p>En styv glasballong tillsluts vid 22,0 °C när lufttrycket både inuti och utanför är 1040 mbar. Ballongen tål högst övertrycket 500 mbar. Omgivningstrycket antas förbli 1040 mbar.</p><p>Bestäm den högsta tillåtna gastemperaturen i grader Celsius. Svara i °C. Svara med ett heltal.</p>",
+    "s": "<p>Det högsta absoluta inre trycket är 1040+500=1540 mbar. Vid konstant volym blir T₂=295,15·1540/1040≈437,05 K, vilket är cirka 163,90 °C. Svar: 164 °C.</p>",
+    "familj": "Temperaturgräns från övertryck",
     "formaga": [
+      "modellering",
       "procedur"
     ],
-    "familjNyckel": "gaslagen__allmanna_gaslagen",
+    "familjNyckel": "gaslagen__temperaturgrans_fran_overtryck",
     "svarstyp": "numeriskt",
-    "rättSvar": 437,
-    "tolerans": 6.555,
+    "rättSvar": 164.0,
+    "tolerans": 0,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
-    "ledtrad": "<p>Skriv \\(p_1V_1/T_1=p_2V_2/T_2\\). Använd kelvin och totaltryck.</p>",
-    "svarFormat": "numeriskt",
-    "svarEnhet": "K"
+    "ledtrad": "<p>Övertrycksgränsen ska läggas till omgivningens tryck innan gaslagen används.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarEnhet": "°C",
+    "svarFormat": "numeriskt"
   },
   {
     "id": "6.166",
@@ -98344,5 +99250,464 @@ window.BANK = [
     "svarEnhet": "N",
     "svarFormat": "numeriskt",
     "poang": "(2/0/0)"
+  },
+  {
+    "id": "6.332",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En instängd gas har det absoluta trycket 150 kPa och volymen 2,40 liter. Temperaturen är konstant och volymen ändras till 1,80 liter. Använd p₂=p₁V₁/V₂.</p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p₂=150·2,40/1,80=200 kPa. Svar: 200 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Boyles lag",
+    "typ": "boyles lag",
+    "ledtrad": "<p>Sätt in de tre givna värdena i formeln.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 200.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.333",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En gas har volymen 5,00 liter vid det absoluta trycket 80,0 kPa. Temperaturen är konstant och trycket ändras till 100 kPa. Använd V₂=p₁V₁/p₂.</p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>V₂=80,0·5,00/100=4,00 liter. Svar: 4,00 liter.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Boyles lag",
+    "typ": "boyles lag",
+    "ledtrad": "<p>Sätt in värdena i den angivna formeln.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.335",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En gas i en styv behållare har det absoluta trycket 120 kPa vid 300 K. Temperaturen ändras till 330 K. Använd p₂=p₁T₂/T₁.</p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p₂=120·330/300=132 kPa. Svar: 132 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Tryck och absolut temperatur",
+    "typ": "tryck och absolut temperatur",
+    "ledtrad": "<p>Temperaturerna är redan angivna i kelvin.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 132.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.340",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En gas i en styv behållare har det absoluta trycket 100 kPa vid 20,0 °C. Den värms till 50,0 °C och gasmängden är oförändrad.</p><p>Bestäm sluttrycket. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>T₁=293,15 K och T₂=323,15 K. Vid konstant volym blir p₂=100·323,15/293,15≈110,234 kPa. Svar: 110,2 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Tryck och absolut temperatur",
+    "typ": "tryck och absolut temperatur",
+    "ledtrad": "<p>Omvandla temperaturerna till kelvin och använd p/T=konstant.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__tryck_och_absolut_temperatur",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 110.2,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.334",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En gas har volymen 1,50 liter vid 300 K. Trycket är konstant och temperaturen ändras till 360 K. Använd V₂=V₁T₂/T₁.</p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>V₂=1,50·360/300=1,80 liter. Svar: 1,80 liter.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Volym och absolut temperatur",
+    "typ": "volym och absolut temperatur",
+    "ledtrad": "<p>Temperaturerna är redan angivna i kelvin.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.341",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En tät, lättöjbar ballong har volymen 2,50 liter vid 10,0 °C. Den värms till 40,0 °C medan trycket är konstant.</p><p>Bestäm slutvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>T₁=283,15 K och T₂=313,15 K. V₂=2,50·313,15/283,15≈2,76488 liter. Svar: 2,76 liter.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Volym och absolut temperatur",
+    "typ": "volym och absolut temperatur",
+    "ledtrad": "<p>Omvandla temperaturerna till kelvin och använd V/T=konstant.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__volym_och_absolut_temperatur",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.76,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.337",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En ideal gas har substansmängden 0,500 mol, temperaturen 300 K och volymen 0,0120 m³. Använd p=nRT/V och R=8,31 J/(mol·K).</p><p>Bestäm gasens tryck. Svara i kPa. Avrunda vid behov till 1 decimal.</p>",
+    "s": "<p>p=0,500·8,31·300/0,0120=103 875 Pa=103,875 kPa. Svar: 103,9 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Ideala gaslagen",
+    "typ": "ideala gaslagen",
+    "ledtrad": "<p>Alla värden står redan i SI-enheter; omvandla trycket till kPa sist.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__ideala_gaslagen",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 103.9,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.338",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En ideal gas har substansmängden 0,250 mol, temperaturen 300 K och trycket 100 000 Pa. Använd V=nRT/p och R=8,31 J/(mol·K).</p><p>Bestäm gasens volym. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>V=0,250·8,31·300/100 000=0,0062325 m³=6,2325 liter. Svar: 6,23 liter.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Ideala gaslagen",
+    "typ": "ideala gaslagen",
+    "ledtrad": "<p>Beräkningen ger först volymen i m³; omvandla sedan till liter.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__ideala_gaslagen",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.23,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.347",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En ideal gas har trycket 100 kPa, volymen 10,0 liter och temperaturen 300 K. Använd n=pV/(RT), R=8,31 J/(mol·K), 100 kPa=100 000 Pa och 10,0 liter=0,0100 m³.</p><p>Bestäm substansmängden. Svara i mol. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>n=100 000·0,0100/(8,31·300)≈0,40112 mol. Svar: 0,401 mol.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Ideala gaslagen",
+    "typ": "ideala gaslagen",
+    "ledtrad": "<p>Använd de SI-värden som redan anges i uppgiften.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__ideala_gaslagen",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.401,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "mol",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.330",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>Använd 1,00 bar=100 kPa.</p><p>Omvandla 2,50 bar till kilopascal. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>2,50 bar=2,50·100=250 kPa. Svar: 250 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Omvandla tryckenheter",
+    "typ": "omvandla tryckenheter",
+    "ledtrad": "<p>Multiplicera antalet bar med 100.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__omvandla_tryckenheter",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 250.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.331",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>Använd 1000 mL=1,00 liter.</p><p>Omvandla 750 mL till liter. Svara i liter. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>750 mL=750/1000=0,750 liter. Svar: 0,750 liter.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Omvandla volymenheter",
+    "typ": "omvandla volymenheter",
+    "ledtrad": "<p>Dividera antalet milliliter med 1000.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__omvandla_volymenheter",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.339",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En manometer visar övertrycket 220 kPa. Omgivningens lufttryck är 100 kPa. Använd p<sub>abs</sub>=p<sub>över</sub>+p<sub>luft</sub>.</p><p>Bestäm absoluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p<sub>abs</sub>=220+100=320 kPa. Svar: 320 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 1,
+    "familj": "Absoluttryck och övertryck",
+    "typ": "absoluttryck och övertryck",
+    "ledtrad": "<p>Addera de två givna trycken.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__absoluttryck_och_overtryck",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 320.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.342",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En stängd spruta innehåller gas vid övertrycket 50,0 kPa och volymen 40,0 mL. Omgivningstrycket är 100 kPa. Gasen komprimeras isotermt till 20,0 mL.</p><p>Bestäm gasens nya övertryck. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>Startens absoluttryck är 150 kPa. Boyles lag ger p₂,abs=150·40,0/20,0=300 kPa. Det nya övertrycket är 300−100=200 kPa. Svar: 200 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Boyles lag med övertryck",
+    "typ": "boyles lag med övertryck",
+    "ledtrad": "<p>Omvandla övertrycket till absoluttryck före Boyles lag.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag_med_overtryck",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 200.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.344",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En instängd gas komprimeras isotermt. Slutvolymen är 1,80 liter, starttrycket 90,0 kPa och sluttrycket 150 kPa.</p><p>Bestäm startvolymen. Svara i liter. Avrunda vid behov till 2 decimaler.</p>",
+    "s": "<p>Boyles lag ger V₁=p₂V₂/p₁=150·1,80/90,0=3,00 liter. Svar: 3,00 liter.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Boyles lag med annan obekant",
+    "typ": "boyles lag med annan obekant",
+    "ledtrad": "<p>Den sökta volymen hör ihop med starttrycket i p₁V₁=p₂V₂.</p>",
+    "miniräknare": false,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__boyles_lag_med_annan_obekant",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "liter",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.346",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>Två styva behållare innehåller samma idealgas vid samma temperatur. Behållare A har volymen 2,00 liter och trycket 200 kPa. Behållare B har volymen 3,00 liter och trycket 100 kPa. De kopplas ihop och temperaturen blir åter densamma som från början. Använd p<sub>slut</sub>=(p<sub>A</sub>V<sub>A</sub>+p<sub>B</sub>V<sub>B</sub>)/(V<sub>A</sub>+V<sub>B</sub>).</p><p>Bestäm sluttrycket. Svara i kPa. Svara med ett heltal.</p>",
+    "s": "<p>p<sub>slut</sub>=(200·2,00+100·3,00)/(2,00+3,00)=700/5,00=140 kPa. Svar: 140 kPa.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Sammankopplade gasbehållare",
+    "typ": "sammankopplade gasbehållare",
+    "ledtrad": "<p>Sätt in båda behållarnas pV-bidrag i det angivna sambandet.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__sammankopplade_gasbehallare",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 140.0,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kPa",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.348",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En gasmängd är 0,250 mol. Använd N=nN<sub>A</sub> och N<sub>A</sub>=6,02·10²³ mol⁻¹. Skriv svaret som N=a·10²³ molekyler.</p><p>Bestäm koefficienten a. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>N=0,250·6,02·10²³=1,505·10²³ molekyler, så a=1,505. Svar: 1,505.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Substansmängd och antal partiklar",
+    "typ": "substansmängd och antal partiklar",
+    "ledtrad": "<p>Multiplicera substansmängden med Avogadros konstant.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__substansmangd_och_antal_partiklar",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.505,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": null,
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
+  },
+  {
+    "id": "6.349",
+    "kap": 6,
+    "omr": "gaslagen",
+    "t": "<p>En ideal gas har molmassan 0,0280 kg/mol, det absoluta trycket 100 000 Pa och temperaturen 300 K. Använd ρ=pM/(RT) och R=8,31 J/(mol·K).</p><p>Bestäm gasens densitet. Svara i kg/m³. Avrunda vid behov till 3 decimaler.</p>",
+    "s": "<p>ρ=100 000·0,0280/(8,31·300)≈1,12315 kg/m³. Svar: 1,123 kg/m³.</p>",
+    "niva": "E",
+    "traningsniva": 2,
+    "familj": "Ideala gasens densitet",
+    "typ": "ideala gasens densitet",
+    "ledtrad": "<p>Sätt in tryck, molmassa och temperatur i det angivna sambandet.</p>",
+    "miniräknare": true,
+    "geogebra": false,
+    "arbetsinsats": 1,
+    "formaga": [
+      "procedur"
+    ],
+    "familjNyckel": "gaslagen__ideala_gasens_densitet",
+    "spel": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.123,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarEnhet": "kg/m³",
+    "svarFormat": "numeriskt",
+    "poang": "(1/0/0)"
   }
 ];

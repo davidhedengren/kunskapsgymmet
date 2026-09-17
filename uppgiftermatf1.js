@@ -82,7 +82,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{-3,-2,-1,0,1,2,3\\}",
+    "rättSvar": "{-3,-2,-1,0,1,2,3}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -153,8 +153,8 @@ window.BANKMATF1 = [
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\{3,4,5,6,8\\}",
-      "\\{1,3,4,5,6,7,8,9\\}"
+      "{3,4,5,6,8}",
+      "{1,3,4,5,6,7,8,9}"
     ],
     "tolerans": null,
     "självrättning": [
@@ -178,14 +178,14 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(A\\cap B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara de element som finns i båda mängderna.</p><p>De gemensamma elementen är 3, 4, 5, 6 och 8.</p><p><strong>Svar:</strong> (A\\cap B=\\{3,4,5,6,8\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Snittet innehåller bara de element som finns i båda mängderna.</p><p>De gemensamma elementen är 3, 4, 5, 6 och 8.</p><p><strong>Svar:</strong> \\(A\\cap B=\\{3,4,5,6,8\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,3,4,5,6,8\\}\\) och \\(B=\\{3,4,5,6,7,8,9\\}\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm \\(A\\cup B\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Unionen innehåller alla element som finns i minst en av mängderna. Dubbletter skrivs bara en gång.</p><p><strong>Svar:</strong> (A\\cup B=\\{1,3,4,5,6,7,8,9\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Unionen innehåller alla element som finns i minst en av mängderna. Dubbletter skrivs bara en gång.</p><p><strong>Svar:</strong> \\(A\\cup B=\\{1,3,4,5,6,7,8,9\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -254,10 +254,10 @@ window.BANKMATF1 = [
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\{1,2,3,4,5,6,7\\}",
-      "\\{\\}",
-      "\\{1,2,3,4,5,6,7\\}",
-      "\\{1,3,5,7\\}"
+      "{1,2,3,4,5,6,7}",
+      "{}",
+      "{1,2,3,4,5,6,7}",
+      "{1,3,5,7}"
     ],
     "tolerans": null,
     "självrättning": [
@@ -287,28 +287,28 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>a)</strong> \\(A\\cup B\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Eftersom (B\\subseteq A) tillför (B) inga nya element till unionen.</p><p><strong>Svar:</strong> (A\\cup B=\\{1,2,3,4,5,6,7\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Eftersom \\(B\\subseteq A\\) tillför \\(B\\) inga nya element till unionen.</p><p><strong>Svar:</strong> \\(A\\cup B=\\{1,2,3,4,5,6,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>b)</strong> \\(B\\cap C\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Den tomma mängden har inga element och kan därför inte ha något gemensamt element med (B).</p><p><strong>Svar:</strong> (B\\cap C=\\varnothing).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Den tomma mängden har inga element och kan därför inte ha något gemensamt element med \\(B\\).</p><p><strong>Svar:</strong> \\(B\\cap C=\\varnothing\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>c)</strong> \\(C\\cup A\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Att ta union med den tomma mängden förändrar inte mängden.</p><p><strong>Svar:</strong> (C\\cup A=A=\\{1,2,3,4,5,6,7\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Att ta union med den tomma mängden förändrar inte mängden.</p><p><strong>Svar:</strong> \\(C\\cup A=A=\\{1,2,3,4,5,6,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "t": "<p>Låt \\(A=\\{1,2,3,4,5,6,7\\}\\), \\(B=\\{1,3,5,7\\}\\) och \\(C=\\varnothing\\). Bestäm</p><div class=\"spel-en-del\"><strong>d)</strong> \\(B\\cap(A\\cup C)\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Först är (A\\cup C=A). Därefter blir (B\\cap A=B), eftersom (B\\subseteq A).</p><p><strong>Svar:</strong> (\\{1,3,5,7\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Först är \\(A\\cup C=A\\). Därefter blir \\(B\\cap A=B\\), eftersom \\(B\\subseteq A\\).</p><p><strong>Svar:</strong> \\(\\{1,3,5,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -353,10 +353,10 @@ window.BANKMATF1 = [
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\{0\\}",
-      "\\{1,2,4,5,6,8,9,10,12,13,15,16,17,18,19,20\\}",
-      "\\{0,2,3,4,6,7,9,10,11,12,14,15,16,17,18,19\\}",
-      "\\{3,7,11,14\\}"
+      "{0}",
+      "{1,2,4,5,6,8,9,10,12,13,15,16,17,18,19,20}",
+      "{0,2,3,4,6,7,9,10,11,12,14,15,16,17,18,19}",
+      "{3,7,11,14}"
     ],
     "tolerans": null,
     "självrättning": [
@@ -386,25 +386,25 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>a)</strong> \\(A\\cap M\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Snittet består av de element som finns i både (A) och (M).</p><p>Det enda gemensamma elementet är 0.</p><p><strong>Svar:</strong> (\\{0\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Snittet består av de element som finns i både \\(A\\) och \\(M\\).</p><p>Det enda gemensamma elementet är 0.</p><p><strong>Svar:</strong> \\(\\{0\\}\\).</p>",
         "niva": "E"
       },
       {
         "etikett": "b",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>b)</strong> \\(M^c\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> (M^c) består av alla element i grundmängden (G) som inte ligger i (M).</p><p><strong>Svar:</strong> (\\{1,2,4,5,6,8,9,10,12,13,15,16,17,18,19,20\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> \\(M^c\\) består av alla element i grundmängden \\(G\\) som inte ligger i \\(M\\).</p><p><strong>Svar:</strong> \\(\\{1,2,4,5,6,8,9,10,12,13,15,16,17,18,19,20\\}\\).</p>",
         "niva": "E"
       },
       {
         "etikett": "c",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>c)</strong> \\(M\\cup A^c\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Bilda först (A^c=G\\setminus A), och lägg sedan till elementen i (M). Varje element skrivs bara en gång.</p><p><strong>Svar:</strong> (\\{0,2,3,4,6,7,9,10,11,12,14,15,16,17,18,19\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Bilda först \\(A^c=G\\setminus A\\), och lägg sedan till elementen i \\(M\\). Varje element skrivs bara en gång.</p><p><strong>Svar:</strong> \\(\\{0,2,3,4,6,7,9,10,11,12,14,15,16,17,18,19\\}\\).</p>",
         "niva": "E"
       },
       {
         "etikett": "d",
         "t": "<p>Låt grundmängden vara \\(G=\\{0,1,2,\\ldots,20\\}\\), \\(A=\\{0,1,5,8,13,20\\}\\) och \\(M=\\{0,3,7,11,14\\}\\). Bestäm</p><div class=\"spel-en-del\"><strong>d)</strong> \\(M\\setminus A\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> (M\\setminus A) betyder elementen som ligger i (M) men inte i (A). Elementet 0 tas därför bort.</p><p><strong>Svar:</strong> (\\{3,7,11,14\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> \\(M\\setminus A\\) betyder elementen som ligger i \\(M\\) men inte i \\(A\\). Elementet 0 tas därför bort.</p><p><strong>Svar:</strong> \\(\\{3,7,11,14\\}\\).</p>",
         "niva": "E"
       }
     ],
@@ -446,7 +446,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{3,5,7,8,10\\}",
+    "rättSvar": "{3,5,7,8,10}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -853,9 +853,9 @@ window.BANKMATF1 = [
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\{5,7\\}",
-      "\\{1,3\\}",
-      "\\{11\\}"
+      "{5,7}",
+      "{1,3}",
+      "{11}"
     ],
     "tolerans": null,
     "självrättning": true,
@@ -1028,8 +1028,8 @@ window.BANKMATF1 = [
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\{1,3,4,5,6,7,9\\}",
-      "\\{3,5\\}"
+      "{1,3,4,5,6,7,9}",
+      "{3,5}"
     ],
     "tolerans": null,
     "självrättning": true,
@@ -1079,8 +1079,8 @@ window.BANKMATF1 = [
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "\\{1,3,5,7\\}",
-      "\\{1,3,5,7\\}"
+      "{1,3,5,7}",
+      "{1,3,5,7}"
     ],
     "tolerans": null,
     "självrättning": [
@@ -1104,14 +1104,14 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm \\(U\\setminus A\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ta bort alla element i (A) från grundmängden (U).</p><p><strong>Svar:</strong> (U\\setminus A=\\{1,3,5,7\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Ta bort alla element i \\(A\\) från grundmängden \\(U\\).</p><p><strong>Svar:</strong> \\(U\\setminus A=\\{1,3,5,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Grundmängden är \\(U=\\{1,2,3,4,5,6,7,8\\}\\) och \\(A=\\{2,4,6,8\\}\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm komplementet \\(A^c\\).</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Komplementet (A^c) tas här i förhållande till (U). Det är därför samma mängd som (U\\setminus A).</p><p><strong>Svar:</strong> (A^c=\\{1,3,5,7\\}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Komplementet \\(A^c\\) tas här i förhållande till \\(U\\). Det är därför samma mängd som \\(U\\setminus A\\).</p><p><strong>Svar:</strong> \\(A^c=\\{1,3,5,7\\}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -1156,7 +1156,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{1,2,5,6\\}",
+    "rättSvar": "{1,2,5,6}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -1173,8 +1173,8 @@ window.BANKMATF1 = [
     "niva": "A",
     "typ": "bevisa mängdidentitet med symmetrisk differens",
     "poang": "0/1/2",
-    "t": "<p>Visa med elementmetoden att</p><p>\\[(A\\setminus B)\\cup(B\\setminus A)=(A\\cup B)\\setminus(A\\cap B).\\]</p>",
-    "s": "<p>Välj ett godtyckligt element \\(x\\). Vänsterledet betyder att \\(x\\) ligger i exakt en av \\(A\\) och \\(B\\). Högerledet betyder att \\(x\\) ligger i unionen men inte i snittet, vilket är samma villkor. Därför är mängderna lika.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "t": "<p>De två mängduttrycken nedan påstås beskriva samma mängd:</p><p>\\[(A\\setminus B)\\cup(B\\setminus A)=(A\\cup B)\\setminus(A\\cap B).\\]</p><p>Visa att påståendet stämmer. Utgå från ett godtyckligt element \\(x\\): förklara först vad det innebär att \\(x\\) tillhör vänsterledet och visa sedan att det är exakt samma villkor som att \\(x\\) tillhör högerledet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Idé:</strong> Visa att ett godtyckligt element \\(x\\) tillhör vänsterledet precis i samma fall som det tillhör högerledet.</p><div class=\"facit-arbete\"><p>Om \\(x\\) tillhör vänsterledet gäller</p><p>\\[x\\in(A\\setminus B)\\cup(B\\setminus A).\\]</p><p>Det betyder att antingen \\(x\\in A\\) och \\(x\\notin B\\), eller att \\(x\\in B\\) och \\(x\\notin A\\). Med ord: <strong>\\(x\\) ligger i exakt en av mängderna \\(A\\) och \\(B\\)</strong>.</p><p>Högerledet är</p><p>\\[(A\\cup B)\\setminus(A\\cap B).\\]</p><p>Här måste \\(x\\) ligga i minst en av mängderna, eftersom \\(x\\in A\\cup B\\), men inte i båda, eftersom \\(x\\notin A\\cap B\\). Det betyder också att \\(x\\) ligger i exakt en av \\(A\\) och \\(B\\).</p><p><strong>Slutsats:</strong> Båda leden innehåller exakt samma element, alltså är mängderna lika.</p></div></div>",
     "id": "1.331",
     "miniräknare": false,
     "geogebra": false,
@@ -1187,7 +1187,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Välj ett godtyckligt element \\(x\\). Översätt sedan medlemskap i union till ”eller”, medlemskap i snitt till ”och” och komplement till ”inte”. Visa att båda leden ger samma villkor.</p>",
+    "ledtrad": "<p>Översätt vänsterledet till ord: \\(A\\setminus B\\) betyder ”i A men inte i B”. Vad betyder då hela vänsterledet? Gör sedan samma sak med högerledet.</p>",
     "traningsniva": 5
   },
   {
@@ -3637,13 +3637,13 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många olika köordningar kan 9 av eleverna bilda?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> I en kö spelar ordningen roll, så använd ett ordnat urval.</p><p>[P(33,9)=\\frac{33!}{24!}=13\\,995\\,229\\,248\\,000.]</p><p><strong>Svar:</strong> (13\\,995\\,229\\,248\\,000).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> I en kö spelar ordningen roll, så använd ett ordnat urval.</p><p>\\[P(33,9)=\\frac{33!}{24!}=13\\,995\\,229\\,248\\,000.\\]</p><p><strong>Svar:</strong> \\(13\\,995\\,229\\,248\\,000\\).</p>",
         "niva": "E"
       },
       {
         "etikett": "b",
         "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många olika grupper om 9 elever kan väljas om ordningen inte spelar roll?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> I en grupp spelar ordningen inte roll, så använd en kombination.</p><p>[\\binom{33}{9}=38\\,567\\,100.]</p><p><strong>Svar:</strong> (38\\,567\\,100).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> I en grupp spelar ordningen inte roll, så använd en kombination.</p><p>\\[\\binom{33}{9}=38\\,567\\,100.\\]</p><p><strong>Svar:</strong> \\(38\\,567\\,100\\).</p>",
         "niva": "E"
       }
     ],
@@ -4804,7 +4804,7 @@ window.BANKMATF1 = [
         "traningsniva": 2,
         "poang": "0/1/0",
         "fraga": "<p><strong>a)</strong> På hur många sätt kan 12 burkar väljas om en smak får förekomma 0 gånger?</p>",
-        "s": "<p>Låt (x_1+x_2+x_3+x_4=12), där alla (x_ige0). Med stjärnor och streck fås</p><p>[\\binom{12+4-1}{4-1}=\\binom{15}{3}=455.]</p><p><strong>Svar:</strong> 455.</p>"
+        "s": "<p>Låt \\(x_1+x_2+x_3+x_4=12\\), där alla \\(x_i\\ge 0\\). Med stjärnor och streck fås</p><p>\\[\\binom{12+4-1}{4-1}=\\binom{15}{3}=455.\\]</p><p><strong>Svar:</strong> 455.</p>"
       },
       {
         "etikett": "b",
@@ -4812,7 +4812,7 @@ window.BANKMATF1 = [
         "traningsniva": 3,
         "poang": "0/2/0",
         "fraga": "<p><strong>b)</strong> På hur många sätt kan 12 burkar väljas om minst en av varje smak måste ingå?</p>",
-        "s": "<p>Lägg först undan en burk av varje smak. Då återstår 8 burkar att fördela fritt mellan fyra smaker:</p><p>[\\binom{8+4-1}{4-1}=\\binom{11}{3}=165.]</p><p><strong>Svar:</strong> 165.</p>"
+        "s": "<p>Lägg först undan en burk av varje smak. Då återstår 8 burkar att fördela fritt mellan fyra smaker:</p><p>\\[\\binom{8+4-1}{4-1}=\\binom{11}{3}=165.\\]</p><p><strong>Svar:</strong> 165.</p>"
       }
     ]
   },
@@ -5689,7 +5689,7 @@ window.BANKMATF1 = [
     "typ": "bestämma exponent och parameter från två koefficienter",
     "poang": "0/1/2",
     "t": "<p>Ett polynom har formen \\((1+ax)^n\\) där \\(a>0\\) och \\(n\\) är ett heltal större än 2. Koefficienterna framför \\(x\\) och \\(x^2\\) är 22 respektive 220.</p><p>Bestäm \\(a\\) och \\(n\\).</p>",
-    "s": "<p>Koefficienten framför (x) är (na), alltså</p><p>[na=22.]</p><p>Koefficienten framför (x^2) är (\\binom n2a^2), alltså</p><p>[\\frac{n(n-1)}2a^2=220.]</p><p>Dividera den andra ekvationen med ((na)^2=22^2):</p><p>[\\frac{n-1}{2n}=\\frac{220}{484}=\\frac5{11}.]</p><p>Därför (11(n-1)=10n), så (n=11). Ur (na=22) fås sedan (a=2).</p><p><strong>Svar:</strong> (a=2) och (n=11).</p>",
+    "s": "<p>Koefficienten framför \\(x\\) är \\(na\\), alltså</p><p>\\[na=22.\\]</p><p>Koefficienten framför \\(x^2\\) är \\(\\binom{n}{2}a^2\\), alltså</p><p>\\[\\frac{n(n-1)}{2}a^2=220.\\]</p><p>Dividera den andra ekvationen med \\((na)^2=22^2\\):</p><p>\\[\\frac{n-1}{2n}=\\frac{220}{484}=\\frac5{11}.\\]</p><p>Därför \\(11(n-1)=10n\\), så \\(n=11\\). Ur \\(na=22\\) fås sedan \\(a=2\\).</p><p><strong>Svar:</strong> \\(a=2\\) och \\(n=11\\).</p>",
     "id": "1.403",
     "miniräknare": false,
     "geogebra": false,
@@ -6274,7 +6274,7 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm sannolikheten att få alla 5 rätt.</div>",
-        "s": "<p>Det finns (\\binom{25}{5}=53\\,130) lika sannolika femmängder och exakt en av dem ger fem rätt.</p><p>\\[P=\\frac1{53130}\\approx0,00188\\%.\\]</p><p><strong>Svar:</strong> cirka (0,00188\\%).</p>",
+        "s": "<p>Det finns \\(\\binom{25}{5}=53\\,130\\) lika sannolika femmängder och exakt en av dem ger fem rätt.</p><p>\\[P=\\frac1{53130}\\approx0,00188\\%.\\]</p><p><strong>Svar:</strong> cirka \\(0,00188\\%\\).</p>",
         "niva": "E",
         "poang": "2/0/0",
         "traningsniva": 2
@@ -6282,7 +6282,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "t": "<p>I ett lotteri väljer man 5 olika nummer av 25. Därefter dras 5 vinnarnummer.</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm sannolikheten att få minst 3 rätt.</div>",
-        "s": "<p>”Minst 3 rätt” är de disjunkta fallen 3, 4 eller 5 rätt:</p><p>\\[P=\\frac{\\binom53\\binom{20}2+\\binom54\\binom{20}1+\\binom55}{\\binom{25}5}\\approx0,03766.\\]</p><p><strong>Svar:</strong> cirka (3,77\\%).</p>",
+        "s": "<p>”Minst 3 rätt” är de disjunkta fallen 3, 4 eller 5 rätt:</p><p>\\[P=\\frac{\\binom53\\binom{20}2+\\binom54\\binom{20}1+\\binom55}{\\binom{25}5}\\approx0,03766.\\]</p><p><strong>Svar:</strong> cirka \\(3,77\\%\\).</p>",
         "niva": "C",
         "poang": "0/2/0",
         "traningsniva": 3
@@ -6538,7 +6538,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och ta (1-P(\\text{ingen})).</p>",
+    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och använd \\(1-P(\\text{ingen})\\).</p>",
     "traningsniva": 3
   },
   {
@@ -6708,7 +6708,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "t": "<span class=\"fig\"><svg width=\"340\" height=\"235\" viewBox=\"0 0 350 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Rutnät med tre steg åt höger och två steg uppåt från A till B\">\n<rect width=\"350\" height=\"240\" fill=\"white\"/>\n<g stroke=\"#666\" stroke-width=\"1.5\"><line x1=\"60\" y1=\"45\" x2=\"60\" y2=\"185\"/><line x1=\"130\" y1=\"45\" x2=\"130\" y2=\"185\"/><line x1=\"200\" y1=\"45\" x2=\"200\" y2=\"185\"/><line x1=\"270\" y1=\"45\" x2=\"270\" y2=\"185\"/><line x1=\"60\" y1=\"45\" x2=\"270\" y2=\"45\"/><line x1=\"60\" y1=\"115\" x2=\"270\" y2=\"115\"/><line x1=\"60\" y1=\"185\" x2=\"270\" y2=\"185\"/></g>\n<circle cx=\"60\" cy=\"185\" r=\"5\" fill=\"#222\"/><circle cx=\"270\" cy=\"45\" r=\"5\" fill=\"#222\"/>\n<circle cx=\"200\" cy=\"115\" r=\"4.5\" fill=\"#B23A2E\"/>\n<text x=\"40\" y=\"204\" font-size=\"16\">A</text><text x=\"278\" y=\"41\" font-size=\"16\">B</text>\n<text x=\"208\" y=\"110\" font-size=\"13\" fill=\"#B23A2E\">M</text>\n<text x=\"60\" y=\"225\" font-size=\"14\">endast steg åt höger eller uppåt</text>\n</svg></span><p>Man går från punkt A till punkt B i rutnätet genom att bara gå åt höger eller uppåt.</p><div class=\"spel-en-del\"><strong>b)</strong> Hur många av dessa vägar passerar genom punkten mitt i rutnätet, alltså punkten som ligger 2 steg åt höger och 1 steg upp från A?</div>",
-        "s": "<p>Från A till M behövs 2 högersteg och 1 uppsteg: (\\binom31=3) vägar. Från M till B behövs 1 högersteg och 1 uppsteg: (\\binom21=2) vägar.</p><p>Multiplikationsprincipen ger (3\\cdot2=6).</p><p><strong>Svar:</strong> 6.</p>",
+        "s": "<p>Från A till M behövs 2 högersteg och 1 uppsteg: \\(\\binom31=3\\) vägar. Från M till B behövs 1 högersteg och 1 uppsteg: \\(\\binom21=2\\) vägar.</p><p>Multiplikationsprincipen ger \\(3\\cdot2=6\\).</p><p><strong>Svar:</strong> 6.</p>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3
@@ -6790,7 +6790,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och ta (1-P(\\text{ingen})).</p>",
+    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och använd \\(1-P(\\text{ingen})\\).</p>",
     "traningsniva": 3
   },
   {
@@ -6936,7 +6936,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och ta (1-P(\\text{ingen})).</p>",
+    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och använd \\(1-P(\\text{ingen})\\).</p>",
     "traningsniva": 3
   },
   {
@@ -7038,7 +7038,7 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "svarFormat": "sannolikhet",
-    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och ta (1-P(\\text{ingen})).</p>",
+    "ledtrad": "<p>För ”minst en” är komplementet ofta enklast: räkna sannolikheten för ingen och använd \\(1-P(\\text{ingen})\\).</p>",
     "traningsniva": 4
   },
   {
@@ -9447,28 +9447,28 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(21+15+38\\pmod5\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Ersätt varje term med dess rest modulo 5.</p><p>[21+15+38\\equiv1+0+3=4\\pmod5.]</p><p><strong>Svar:</strong> 4.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Ersätt varje term med dess rest modulo 5.</p><p>\\[21+15+38\\equiv1+0+3=4\\pmod5.\\]</p><p><strong>Svar:</strong> 4.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(13\\cdot11\\pmod5\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Reducera faktorerna före multiplikationen.</p><p>[13\\cdot11\\equiv3\\cdot1=3\\pmod5.]</p><p><strong>Svar:</strong> 3.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Reducera faktorerna före multiplikationen.</p><p>\\[13\\cdot11\\equiv3\\cdot1=3\\pmod5.\\]</p><p><strong>Svar:</strong> 3.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(2^{30}\\pmod3\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Modulo 3 är (2\\equiv-1). En jämn exponent ger därför resten 1.</p><p>[2^{30}\\equiv(-1)^{30}=1\\pmod3.]</p><p><strong>Svar:</strong> 1.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Modulo 3 är \\(2\\equiv-1\\). En jämn exponent ger därför resten 1.</p><p>\\[2^{30}\\equiv(-1)^{30}=1\\pmod3.\\]</p><p><strong>Svar:</strong> 1.</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "d",
         "t": "<p>Förenkla.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(2^{30}\\pmod5\\)</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Potenserna av 2 upprepas med period 4 modulo 5 eftersom (2^4\\equiv1).</p><p>[30=7\\cdot4+2,\\qquad 2^{30}\\equiv2^2=4\\pmod5.]</p><p><strong>Svar:</strong> 4.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Potenserna av 2 upprepas med period 4 modulo 5 eftersom \\(2^4\\equiv1\\).</p><p>\\[30=7\\cdot4+2,\\qquad 2^{30}\\equiv2^2=4\\pmod5.\\]</p><p><strong>Svar:</strong> 4.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -11146,14 +11146,14 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\"><strong>a)</strong> Ange en formel för den \\(n\\):te termen.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Följden är geometrisk med första termen (a_1=1) och kvoten (q=3).</p><p>[a_n=a_1q^{n-1}=3^{n-1}.]</p><p><strong>Svar:</strong> (a_n=3^{n-1}).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Följden är geometrisk med första termen \\(a_1=1\\) och kvoten \\(q=3\\).</p><p>\\[a_n=a_1q^{n-1}=3^{n-1}.\\]</p><p><strong>Svar:</strong> \\(a_n=3^{n-1}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>Talföljden \\(1,3,9,\\ldots,19683\\) innehåller 10 termer.</p><div class=\"spel-en-del\"><strong>b)</strong> Beräkna summan av de 10 termerna.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Använd summan av de första (n) termerna i en geometrisk talföljd.</p><p>[S_{10}=\\frac{1(3^{10}-1)}{3-1}=29\\,524.]</p><p><strong>Svar:</strong> 29 524.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Använd summan av de första \\(n\\) termerna i en geometrisk talföljd.</p><p>\\[S_{10}=\\frac{1(3^{10}-1)}{3-1}=29\\,524.\\]</p><p><strong>Svar:</strong> 29 524.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -11261,14 +11261,14 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\"><strong>a)</strong> Bestäm de två sista termerna.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> Differensen är (d=11-4=7). Den n:te termen är (a_n=4+(n-1)7).</p><p>[a_9=60,\\qquad a_{10}=67.]</p><p><strong>Svar:</strong> 60 och 67.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Differensen är \\(d=11-4=7\\). Den n:te termen är \\(a_n=4+(n-1)7\\).</p><p>\\[a_9=60,\\qquad a_{10}=67.\\]</p><p><strong>Svar:</strong> 60 och 67.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "t": "<p>En aritmetisk talföljd har 10 termer. De två första är 4 och 11.</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm summan av alla termer.</div>",
-        "s": "<p><strong>Nyckelidé:</strong> För en aritmetisk summa kan första och sista termen paras ihop.</p><p>Den sista termen är (a_{10}=67), så</p><p>[S_{10}=\\frac{10(4+67)}2=355.]</p><p><strong>Svar:</strong> 355.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> För en aritmetisk summa kan första och sista termen paras ihop.</p><p>Den sista termen är \\(a_{10}=67\\), så</p><p>\\[S_{10}=\\frac{10(4+67)}2=355.\\]</p><p><strong>Svar:</strong> 355.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -14722,7 +14722,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -14770,7 +14770,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -14840,7 +14840,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.01,
-    "tolerans": 1e-05,
+    "tolerans": 0.00001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -15134,7 +15134,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.16666666666666666,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -15406,7 +15406,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -0.75,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -15778,7 +15778,7 @@ window.BANKMATF1 = [
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -16468,7 +16468,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation av logaritm med figur",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"205\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till y = ln x med tangent i x = 1\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"211\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"50\" y1=\"190\" x2=\"380\" y2=\"190\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"35\" stroke=\"#555\" stroke-width=\"2\"/>\n<path d=\"M 70 170 C 130 135, 180 120, 325 84\" fill=\"none\" stroke=\"#0e5d9e\" stroke-width=\"2.5\"/>\n<line x1=\"82\" y1=\"158\" x2=\"340\" y2=\"93\" stroke=\"#b45f32\" stroke-width=\"2\"/>\n<circle cx=\"210\" cy=\"126\" r=\"4\" fill=\"#333\"/>\n<text x=\"217\" y=\"121\" font-size=\"12\">x = 1</text>\n<text x=\"280\" y=\"79\" font-size=\"13\">y = \\ln x</text>\n<text x=\"288\" y=\"103\" font-size=\"13\">tangent</text>\n</svg></span><p>Använd tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) för att uppskatta \\(\\ln(1,05)\\).</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"205\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Graf till y = ln x med tangent i x = 1\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"211\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"50\" y1=\"190\" x2=\"380\" y2=\"190\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"35\" stroke=\"#555\" stroke-width=\"2\"/>\n<path d=\"M 70 170 C 130 135, 180 120, 325 84\" fill=\"none\" stroke=\"#0e5d9e\" stroke-width=\"2.5\"/>\n<line x1=\"82\" y1=\"158\" x2=\"340\" y2=\"93\" stroke=\"#b45f32\" stroke-width=\"2\"/>\n<circle cx=\"210\" cy=\"126\" r=\"4\" fill=\"#333\"/>\n<text x=\"217\" y=\"121\" font-size=\"12\">x = 1</text>\n<text x=\"280\" y=\"79\" font-size=\"13\">y = ln x</text>\n<text x=\"288\" y=\"103\" font-size=\"13\">tangent</text>\n</svg></span><p>Använd tangentlinjen till \\(y=\\ln x\\) vid \\(x=1\\) för att uppskatta \\(\\ln(1,05)\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Använd en potens- eller logaritmlag i taget och skriv mellanled. Det gör tecken, exponenter och eventuella villkor synliga.</p><div class=\"facit-arbete\"><p>Vi linjäriserar funktionen \\(f(x)=\\ln x\\) kring \\(x=1\\).</p><p>\\[f(1)=0,\\qquad f'(x)=\\frac{1}{x}\\Rightarrow f'(1)=1.\\]</p><p>Tangentlinjen blir därför</p><p>\\[L(x)=f(1)+f'(1)(x-1)=x-1.\\]</p><p>Sätt in \\(x=1,05\\):</p><p>\\[\\ln(1,05)\\approx L(1,05)=1,05-1=0,05.\\]</p><p><strong>Svar: \\(\\ln(1,05)\\approx0,05\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> En linjär approximation ska ligga nära funktionsvärdet när x ligger nära utvecklingspunkten. Jämför gärna tecken och storleksordning.</p></div>",
     "miniräknare": false,
     "geogebra": false,
@@ -17099,7 +17099,7 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -17529,7 +17529,7 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -18052,7 +18052,7 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-08,
+    "tolerans": 1e-8,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -22740,7 +22740,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{1,3,5,7\\}",
+    "rättSvar": "{1,3,5,7}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -22763,7 +22763,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{2,3,4,5,6\\}",
+    "rättSvar": "{2,3,4,5,6}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -22832,7 +22832,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{3,4\\}",
+    "rättSvar": "{3,4}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -22855,7 +22855,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{1,2,3,4,5\\}",
+    "rättSvar": "{1,2,3,4,5}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -22878,7 +22878,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{1,3,5\\}",
+    "rättSvar": "{1,3,5}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -22902,7 +22902,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{0,1,2,3,4\\}",
+    "rättSvar": "{0,1,2,3,4}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -22926,7 +22926,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{-1,0,1,2\\}",
+    "rättSvar": "{-1,0,1,2}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -25853,7 +25853,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": -6.0,
+    "rättSvar": -6,
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
@@ -25901,7 +25901,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": -12.0,
+    "rättSvar": -12,
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
@@ -25973,7 +25973,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 6.0,
+    "rättSvar": 6,
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
@@ -26261,7 +26261,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{2,4\\}",
+    "rättSvar": "{2,4}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -26285,7 +26285,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{1,2,3,4,5\\}",
+    "rättSvar": "{1,2,3,4,5}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -26309,7 +26309,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{1,3,4\\}",
+    "rättSvar": "{1,3,4}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -26333,7 +26333,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Mängder och Venn-diagram",
     "svarstyp": "mängd",
-    "rättSvar": "\\{1,3,5\\}",
+    "rättSvar": "{1,3,5}",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -28837,7 +28837,7 @@ window.BANKMATF1 = [
     "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05625,
-    "tolerans": 1e-05,
+    "tolerans": 0.00001,
     "självrättning": true,
     "formaga": [
       "begrepp",

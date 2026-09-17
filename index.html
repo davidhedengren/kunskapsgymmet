@@ -2519,8 +2519,19 @@ async function loggaInMedLosenord(epost,losen){
 
 async function skapaKonto(epost,losen){
   const d=await authAnrop("signup?redirect_to="+encodeURIComponent(returAdress()),
-    {email:epost,password:losen});
+    {email:epost,password:losen,data:{app:"kunskapsgymmet",registrering:"kunskapsgymmet-v1"}});
   return sparaFranAuthSvar(d);
+}
+
+/* Märker server-side att det här Auth-kontot faktiskt används i Kunskapsgymmet.
+   Funktionen är avsiktligt tyst om SQL-patchen ännu inte hunnit installeras. */
+async function markeraKunskapsgymmetKonto(){
+  if(!MOLN_PA() || !session || !await giltigSession()) return;
+  try{
+    await fetch(SUPABASE_URL+"/rest/v1/rpc/kg_markera_anvandare",{
+      method:"POST",headers:sbHeaders(true),body:"{}"
+    });
+  }catch(_){ /* kontomärkning får aldrig stoppa elevens träning */ }
 }
 async function begarNyttLosenord(epost){
   await authAnrop("recover?redirect_to="+encodeURIComponent(returAdress()),{email:epost});
@@ -9523,7 +9534,10 @@ window.addEventListener("load",async()=>{
      redan i hashen, så det enda som fattas är ett besked om att det gick vägen. */
   if(inloggningsTyp==="signup") setTimeout(()=>toast("Kontot är klart. Nu följer träningen med mellan dina enheter."),700);
   if(visaGate()){ renderGate(); navRecord("home",true); return; }
-  if(MOLN_PA() && session) await synkaProfil();
+  if(MOLN_PA() && session){
+    await markeraKunskapsgymmetKonto();
+    await synkaProfil();
+  }
 
   const avbrutet=lasPagaendePass();
   if(avbrutet && !onskadKurs && COURSES[avbrutet.kurs]){

@@ -6009,19 +6009,22 @@ function renderDashboard(){
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);
-          const statusTip=statusHelp(s);
+          /* En enda förklaring per kort: status, och för sammanslagna
+             områden även vilka delområden som ingår. Namnet står redan
+             på kortet och upprepas inte. */
+          const delarTxt=a.grupp&&a.delar.length>1 ? "Innehåller "+a.delar.map(d=>d.name).join(", ")+"." : "";
+          const statusTip=[delarTxt, s.seen?statusHelp(s):""].filter(Boolean).join(" ");
 
           const harDelar=cardFamilies(a).length>0;
           return `<div class="area ${s.tone}">
-            <button class="omr-oppna" onclick="startCard('${esc(a.key)}')"
-              title="${a.grupp?esc(a.delar.map(d=>d.name).join(" · ")):esc(a.name)}">
+            <button class="omr-oppna" onclick="startCard('${esc(a.key)}')">
               <span class="area-ring">
                 ${ring(s.m,46,4.5,"var(--tone)")}
                 ${s.seen?"":`<span class="pip"></span>`}
               </span>
               <span class="area-txt">
                 <strong>${esc(a.name)}</strong>
-                <span class="state status-help${s.seen?"":" ny"}" data-tip="${esc(statusTip)}">${s.label}</span>
+                <span class="state status-help${statusTip?"":" ny"}"${statusTip?` data-tip="${esc(statusTip)}"`:""}>${s.label}</span>
               </span>
             </button>
             ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"

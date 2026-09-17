@@ -364,7 +364,7 @@ a{color:inherit}
 
 /* ── XP-mätaren i toppmenyn ──────────────────────────────────────────
    Mätaren är det eleven tittar på mellan uppgifterna, så den ligger
-   mitt i menyn och får ta plats: nivå och rang på en rad, en bred bar
+   mitt i menyn och får ta plats: nivå och rank på en rad, en bred bar
    under. Centreringen är absolut för att inte bero på hur breda
    grupperna till vänster och höger råkar vara — under 1120px faller
    den tillbaka i flödet, där det inte längre finns utrymme. */
@@ -477,25 +477,25 @@ a{color:inherit}
 .namnhjalp.fel{color:var(--bad)}
 .namnhjalp.ok{color:var(--good)}
 
-.rangstege{list-style:none;margin:0;padding:0;display:grid;
+.rankstege{list-style:none;margin:0;padding:0;display:grid;
   grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:8px}
-.rangstege li{
+.rankstege li{
   display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;
   border:1px solid var(--hair);background:var(--surface2);
 }
-.rangstege .rsym{
+.rankstege .rsym{
   width:24px;height:24px;flex:none;border-radius:8px;display:grid;place-items:center;
   font-size:11px;font-weight:700;letter-spacing:-.04em;
   background:var(--surface3);color:var(--ink3);
 }
-.rangstege .rnamn{flex:1;min-width:0;font-size:13.5px;font-weight:600;letter-spacing:-.025em;
+.rankstege .rnamn{flex:1;min-width:0;font-size:13.5px;font-weight:600;letter-spacing:-.025em;
   color:var(--ink3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.rangstege .rlvl{font-size:11px;color:var(--ink3);flex:none}
+.rankstege .rlvl{font-size:11px;color:var(--ink3);flex:none}
 
-.rangstege li.nadd .rsym{background:linear-gradient(160deg,#f0d296,#c79a3c);color:#3b2c07}
-.rangstege li.nadd .rnamn{color:var(--ink)}
-.rangstege li.nadd .rlvl{color:var(--gold)}
-.rangstege li.nu{border-color:var(--gold2);background:var(--goldSoft)}
+.rankstege li.nadd .rsym{background:linear-gradient(160deg,#f0d296,#c79a3c);color:#3b2c07}
+.rankstege li.nadd .rnamn{color:var(--ink)}
+.rankstege li.nadd .rlvl{color:var(--gold)}
+.rankstege li.nu{border-color:var(--gold2);background:var(--goldSoft)}
 
 .toppnotis{
   display:flex;align-items:center;gap:14px;flex-wrap:wrap;
@@ -1883,6 +1883,36 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .kaptrana.valj{background:var(--accSoft);border-color:transparent;color:var(--accInk)}
 
 .typ-kort{width:min(680px,100%)}
+/* Raden klistrar sig överst i kortet när man skrollar, så att bläddringen
+   följer med genom långa genomgångar. Negativa marginaler låter bakgrunden
+   täcka kortets sidopadding. */
+.typ-topnav{
+  position:sticky;top:-1px;z-index:5;
+  display:flex;align-items:center;gap:12px;
+  margin:-10px -24px 4px;padding:11px 24px;
+  background:var(--surface);border-bottom:1px solid var(--hair);
+}
+.typ-topnav .typ-stig{flex:1;min-width:0;margin:0}
+.ggnav{
+  width:36px;height:36px;flex:none;border-radius:12px;
+  display:grid;place-items:center;
+  font-size:17px;line-height:1;font-weight:600;
+  border:1px solid var(--hair);background:var(--surface2);color:var(--ink2);
+  transition:.18s var(--ease);
+}
+.ggnav:hover:not(:disabled){
+  background:var(--accSoft);color:var(--accInk);
+  border-color:color-mix(in srgb,var(--acc) 30%,var(--hair));
+}
+.ggnav:active:not(:disabled){transform:scale(.94)}
+.ggnav:disabled{opacity:.3;cursor:default}
+@media(max-width:620px){
+  .typ-topnav{margin:-8px -18px 4px;padding:10px 18px;gap:9px}
+  .ggnav{width:40px;height:40px}
+  .typ-stig i{width:6px;height:6px}
+  .typ-stig i.nu{width:16px}
+}
+
 .typ-stig{display:flex;align-items:center;gap:5px;margin:14px 0 2px;flex-wrap:wrap}
 .typ-stig i{
   width:7px;height:7px;border-radius:50%;background:var(--hair2);flex:none;
@@ -3667,9 +3697,15 @@ function ritaKunskap(){
     </li>`).join("");
 
   host.innerHTML=`
-    <div class="typ-stig" aria-hidden="true">${prickar}
-      <span class="typ-rakn">${k.i+1} / ${k.steg.length}${
-        antalLasta?` · ${antalLasta} lästa`:""}</span></div>
+    <div class="typ-topnav">
+      <button class="ggnav" onclick="kunskapGa(-1)" ${k.i===0?"disabled":""}
+        title="Föregående genomgång" aria-label="Föregående genomgång">←</button>
+      <div class="typ-stig">${prickar}
+        <span class="typ-rakn">${k.i+1} / ${k.steg.length}${
+          antalLasta?` · ${antalLasta} lästa`:""}</span></div>
+      <button class="ggnav" onclick="kunskapGa(1)" ${k.i>=k.steg.length-1?"disabled":""}
+        title="Nästa genomgång" aria-label="Nästa genomgång">→</button>
+    </div>
     <div class="typ-omr">${esc(s.omrNamn)}</div>
     <h3 class="typ-familj">${esc(g.rubrik||familyName(s.familj))}</h3>
     ${g.ram?`<p class="gg-ram">${g.ram}</p>`:""}
@@ -4139,9 +4175,7 @@ function gatePanel(){
     const skapa=gateLage==="skapa";
     return `
     <p class="gate-rubrik">${skapa?"Skapa ett konto":"Logga in med e‑post"}</p>
-    <p class="gate-under">${skapa
-      ? "Du kan använda vilken e‑postadress du vill, skolans eller en privat. Adressen används bara för att logga in och för att återställa lösenord. Den syns inte för andra."
-      : "Använd e‑postadressen du skapade kontot med."}</p>
+    ${skapa?"":`<p class="gate-under">Använd e‑postadressen du skapade kontot med.</p>`}
     <div class="gate-form">
       ${eposttfalt(skapa?"email":"username")}
       ${losenfalt(skapa?"new-password":"current-password",skapa?"Lösenord (minst 8 tecken)":"Lösenord")}
@@ -5210,7 +5244,7 @@ function renderDashboard(){
           </div>
           <div class="rankfoot">
             <span>${lp.into} av ${lp.need} XP till nästa nivå</span>
-            <span>${nxt?esc(nxt.name):"Högsta rang"}</span>
+            <span>${nxt?esc(nxt.name):"Högsta ranken"}</span>
           </div>
         </div>
 
@@ -5379,18 +5413,15 @@ function levelStats(area,L){
   const a=cp.levels[area];
   if(a[L]) return a[L];
 
-  /* Startvärdena nedan är uppskattningar, inte gjorda uppgifter på nivån.
-     pn håller reda på hur mycket av n som är påhittat, så att visningen
-     kan räkna bara riktiga uppgifter. */
   const legacy=legacyLevelStat(a,L);
-  if(legacy) return (a[L]={...legacy,pn:legacy.n});
+  if(legacy) return (a[L]=legacy);
 
   if((L==="1" || L==="2") && typeof cp.areas[area]==="number"){
     const n=Math.min(3,cp.history.filter(h=>h.area===area).length);
-    return (a[L]={s:cp.areas[area],n,pn:n});
+    return (a[L]={s:cp.areas[area],n});
   }
   const p=nivaPrior(area,L);
-  return (a[L]=p===null ? {s:.5,n:0} : {s:p,n:3,pn:3});
+  return (a[L]=p===null ? {s:.5,n:0} : {s:p,n:3});
 }
 function updateLevelStat(area,L,ok){
   if(!area) return;
@@ -5415,16 +5446,6 @@ function levelStatRead(area,L){
     return {s:cp.areas[area],n:Math.min(3,cp.history.filter(h=>h.area===area).length)};
   }
   return {s:.5,n:0};
-}
-/* För förklaringstexten: bara uppgifter eleven faktiskt gjort på nivån.
-   Läser utan att skriva, så att det inte ändrar profilen att öppna vyn.
-   (Profiler sparade före pn infördes kan fortfarande innehålla gamla
-   startvärden i n; de går inte att skilja ut i efterhand.) */
-function levelStatVisning(area,L){
-  const cp=ensureCourseProfile();
-  const st=cp.levels && cp.levels[area] && cp.levels[area][L];
-  if(!st) return {s:0,n:0};
-  return {s:st.s,n:Math.max(0,(st.n||0)-(st.pn||0))};
 }
 function levelQuality(area,L){
   const st=levelStatRead(area,L);
@@ -5459,13 +5480,9 @@ function chapterProgress(){
 function nivaStat(areor){
   const ut={};
   NIVAER.forEach(L=>{
-    let n=0, traffar=0, omraden=0, unga=0;
-    areor.forEach(a=>{
-      const st=levelStatVisning(a.key,L);
-      n+=st.n; traffar+=st.s*st.n;
-      if(st.n>0){ omraden++; if(st.n<5) unga++; }
-    });
-    ut[L]={n,andel:n?traffar/n:0,omraden,unga,totalt:areor.length};
+    let n=0, traffar=0;
+    areor.forEach(a=>{ const st=scopeLevel(L,a.key); n+=st.n; traffar+=st.s*st.n; });
+    ut[L]={n,andel:n?traffar/n:0};
   });
   return ut;
 }
@@ -5490,31 +5507,12 @@ function svagastIKapitel(areor){
 
 function nivaInfo(namn,L,varde,st){
   const pct=Math.round(varde*100);
-  const uppg=`${st.n} uppgift${st.n===1?"":"er"}`;
-  const delomr=k=>`${k} delområde${k===1?"":"n"}`;
-  let grund, fyllning;
-  if(!st.n){
-    grund=`Du har inte tränat nivå ${L} i ${namn} än.`;
-    fyllning = pct>0
-      ? " Fältet visar en försiktig uppskattning utifrån det du gjort på andra nivåer."
-      : "";
-  }else{
-    const var_ = st.totalt>1
-      ? `i ${st.omraden} av ${delomr(st.totalt)} i ${namn}`
-      : `i ${namn}`;
-    grund=`Du har tränat nivå ${L} ${var_} (${uppg}) och ligger kring `
-      +`${Math.round(st.andel*100)} % rätt där.`;
-    const kvar=st.totalt-st.omraden;
-    if(kvar>0){
-      fyllning=` Fältet är ett snitt över alla ${delomr(st.totalt)}, så det fylls mest `
-        +`av att träna ${kvar===1?"det som återstår":`de ${kvar} som återstår`}.`;
-    }else if(st.unga>0){
-      fyllning=" Delområden med färre än 5 uppgifter räknas bara delvis än.";
-    }else{
-      fyllning=" Nu fylls fältet av hur säkert du klarar uppgifterna.";
-    }
-  }
-  return {kort:`Nivå ${L}, ${pct} %`, lang:`${NIVA_TEXT[L]} ${grund}${fyllning}`};
+  const grund = st.n
+    ? `Du har gjort ${st.n} uppgift${st.n===1?"":"er"} på nivå ${L} i ${namn} `
+      +`och klarat ${Math.round(st.andel*100)} %.`
+    : `Du har inte tränat nivå ${L} i ${namn} än.`;
+  const mognad = st.n ? " Fältet fylls av både antal rätt och antal uppgifter." : "";
+  return {kort:`Nivå ${L}, ${pct} %`, lang:`${NIVA_TEXT[L]} ${grund}${mognad}`};
 }
 function courseProgress(){
   const q=meanLevels(getAreas().map(a=>areaLevels(a.key)));
@@ -8602,7 +8600,7 @@ function finishAttempt(resultat){
   const HYLLNING=1500;
   setTimeout(()=>{
     if(levelAfter>levelBefore){
-      if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rang",rankAfter.name,"Du har klättrat ett steg på stegen.");
+      if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rank",rankAfter.name,"Du har klättrat ett steg på stegen.");
       else cheer(medaljIkon("nivaupp"),"Ny nivå","Nivå "+levelAfter,"Din träning ger resultat.");
     }
     if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
@@ -9150,7 +9148,7 @@ function showProgress(record){
         </div>
         <div style="flex:1;min-width:180px">
           <div class="rankname">${esc(rank.name)}</div>
-          <div class="rankmeta">${profile.xp} XP${nxt?` · nästa rang ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}</div>
+          <div class="rankmeta">${profile.xp} XP${nxt?` · nästa rank ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}</div>
           <div class="rankbar"><i data-w="${Math.round(lp.pct*100)}%"></i></div>
         </div>
       </div>
@@ -9163,8 +9161,8 @@ function showProgress(record){
     </div>
 
     <div class="card pad" style="margin-bottom:20px">
-      <div class="sec"><h2>Rangerna</h2></div>
-      <ol class="rangstege">
+      <div class="sec"><h2>Rankerna</h2></div>
+      <ol class="rankstege">
         ${RANKS.map(r=>{
           const nadd=lp.level>=r.lvl, nu=rank.name===r.name;
           return `<li class="${nadd?"nadd":""}${nu?" nu":""}">

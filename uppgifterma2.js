@@ -3660,14 +3660,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(7,3)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7",
+      "3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Eftersom \\(x\\) redan är frilöst kan uttrycket \\(y+4\\) sättas in i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.110",
@@ -3688,14 +3706,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,2)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt: \\(3y\\) och \\(-3y\\) tar ut varandra.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.112",
@@ -4083,14 +4119,32 @@ window.BANKMA2 = [
     "s": "<p>Addera ekvationerna: \\(4x=8\\Rightarrow x=2\\).</p><p>Sätt in i \\(x-2y=1\\): \\(2-2y=1\\Rightarrow -2y=-1\\Rightarrow y=\\frac12\\).</p><p><strong>\\((x,y)=(2,\\frac12)\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,\\frac12)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "\\frac12"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Välj additionsmetoden här: y-termerna har redan motsatta koefficienter.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.128",
@@ -4637,14 +4691,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(4,3)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4",
+      "3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt så försvinner \\(y\\).</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.147",
@@ -4665,14 +4737,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(53/19,37/19)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "53/19",
+      "37/19"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Minsta gemensamma multipel för 3 och 5 är 15. Gör därför y-koefficienterna till \\(+15\\) och \\(-15\\).</p>",
     "spel": true,
     "traningsniva": 3,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.148",
@@ -4751,14 +4841,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(\\frac{20}{9},\\frac{41}{27})\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "\\frac{20}{9}",
+      "\\frac{41}{27}"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna så att y-termerna försvinner.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.151",
@@ -4779,14 +4887,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(4,2)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4",
+      "2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt uttrycket \\(\\frac32x-4\\) i stället för \\(y\\) i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.152",
@@ -4807,14 +4933,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(8,3)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "8",
+      "3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(y+5\\) i stället för \\(x\\) i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.153",
@@ -4865,14 +5009,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(5,-3)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "5",
+      "-3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(2-y\\) i stället för \\(x\\) i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.155",
@@ -4929,14 +5091,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(4,3)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4",
+      "3"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Lös till exempel ut \\(y\\) ur den första ekvationen: \\(y=7-x\\).</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.163",
@@ -5123,14 +5303,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,\\frac{7}{2})\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "\\frac{7}{2}"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt; y-termerna tar ut varandra.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.170",
@@ -5151,14 +5349,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,4)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "4"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Multiplicera den andra ekvationen med 2 så blir y-koefficienterna motsatta.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.171",
@@ -5179,14 +5395,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,2)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt så elimineras y.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.172",
@@ -5235,14 +5469,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,-1)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "-1"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt. Här blir y-värdet negativt.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.174",
@@ -5263,14 +5515,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,1)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "1"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Minsta gemensamma multipel för 3 och 5 är 15. Gör därför y-koefficienterna till \\(+15\\) och \\(-15\\).</p>",
     "spel": true,
     "traningsniva": 3,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.175",
@@ -5291,14 +5561,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,2)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "2"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt så försvinner y.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.176",
@@ -5319,14 +5607,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,\\frac{7}{3})\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "\\frac{7}{3}"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna först och sätt sedan in x-värdet i den enklaste av ursprungsekvationerna.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.177",
@@ -5347,14 +5653,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(10,4)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "10",
+      "4"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(3y-2\\) i stället för \\(x\\) i ekvationen \\(x+y=14\\).</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.178",
@@ -5403,14 +5727,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,7)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "7"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(2x+1\\) i stället för \\(y\\) i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.180",
@@ -5431,14 +5773,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(12,7)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "12",
+      "7"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(\\frac12x+1\\) i stället för \\(y\\) och samla x-termerna.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.181",
@@ -5489,14 +5849,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(-1,5)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-1",
+      "5"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(4-y\\) i stället för \\(x\\). En lösning kan mycket väl ha ett negativt x-värde.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.183",
@@ -5517,14 +5895,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,10)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "10"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(2x+4\\) i stället för \\(y\\) i ekvationen \\(x+y=13\\).</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.184",
@@ -5545,14 +5941,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(6,6)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "6",
+      "6"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(\\frac12x+3\\) i stället för \\(y\\) och lös den nya ekvationen i x.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.193",
@@ -6627,14 +7041,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(\\frac{17}{9},- \\frac{7}{9})\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "\\frac{17}{9}",
+      "- \\frac{7}{9}"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt uttrycket \\(3-2x\\) i stället för \\(y\\) i den andra ekvationen. Behåll bråksvaret exakt.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.236",
@@ -6655,14 +7087,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(4,5)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4",
+      "5"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt \\(9-x\\) i stället för \\(y\\) i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.237",
@@ -6683,14 +7133,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,1)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "1"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt; y-termerna är redan motsatta.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.238",
@@ -7370,14 +7838,32 @@ window.BANKMA2 = [
     "s": "<p>Addera ekvationerna: \\(3x=12\\Rightarrow x=4\\).</p><p>Sätt in i \\(x+y=9\\): \\(4+y=9\\Rightarrow y=5\\).</p><p><strong>\\((x,y)=(4,5)\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(4,5)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4",
+      "5"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna direkt så försvinner y.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.260",
@@ -7828,14 +8314,32 @@ window.BANKMA2 = [
     "s": "<p>Sätt in \\(x=12-2y\\) i den andra ekvationen:</p><p>\\[3(12-2y)+y=16.\\]</p><p>\\[36-5y=16\\Rightarrow y=4.\\]</p><p>Då är \\(x=4\\).</p><p><strong>\\((x,y)=(4,4)\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(4,4)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "4",
+      "4"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt uttrycket (12-2y) i stället för (x) i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.274",
@@ -7856,14 +8360,32 @@ window.BANKMA2 = [
     "s": "<p>Sätt in \\(y=2x+1\\) i den andra ekvationen:</p><p>\\[x+2x+1=10\\Rightarrow 3x=9\\Rightarrow x=3.\\]</p><p>Då är \\(y=7\\).</p><p><strong>\\((x,y)=(3,7)\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,7)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "7"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Sätt (2x+1) i stället för (y) i den andra ekvationen.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.275",
@@ -7884,14 +8406,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(3,6)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3",
+      "6"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna; koefficienterna framför y är redan motsatta.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.276",
@@ -7912,14 +8452,32 @@ window.BANKMA2 = [
     ],
     "miniräknare": false,
     "geogebra": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "\\((x,y)=(2,-1)\\)",
-    "tolerans": null,
-    "självrättning": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "-1"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Addera ekvationerna; (+5y) och (-5y) tar ut varandra.</p>",
     "spel": true,
     "traningsniva": 2,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
   },
   {
     "id": "1.277",
@@ -32555,7 +33113,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "°"
   },
   {
     "id": "3.03",
@@ -32616,7 +33175,11 @@ window.BANKMA2 = [
     "ledtrad": "<p>Randvinkeln är hälften av medelpunktsvinkeln. Triangeln MAB är dessutom likbent.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": [
+      "°",
+      "°"
+    ]
   },
   {
     "id": "3.04",
@@ -33062,7 +33625,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "°"
   },
   {
     "id": "3.17",
@@ -33091,7 +33655,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Randvinkeln på samma båge är hälften av medelpunktsvinkeln.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "°"
   },
   {
     "id": "3.18",
@@ -33470,7 +34035,11 @@ window.BANKMA2 = [
     "ledtrad": "<p>Eftersom AB är en diameter är vinkeln ACB 90°. Använd sedan randvinkelsatsen.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": [
+      "°",
+      "°"
+    ]
   },
   {
     "id": "3.28",
@@ -33647,6 +34216,10 @@ window.BANKMA2 = [
     "svarEtiketter": [
       "mindre vinkel",
       "större vinkel"
+    ],
+    "svarEnhet": [
+      "°",
+      "°"
     ]
   },
   {
@@ -33983,6 +34556,10 @@ window.BANKMA2 = [
         "traningsniva": 3,
         "arbetsinsats": 1
       }
+    ],
+    "svarEnhet": [
+      "°",
+      "°"
     ]
   },
   {
@@ -34154,7 +34731,8 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.47",
@@ -34906,6 +35484,11 @@ window.BANKMA2 = [
       "minsta vinkel",
       "andra motstående",
       "tredje inre"
+    ],
+    "svarEnhet": [
+      "°",
+      "°",
+      "°"
     ]
   },
   {
@@ -36772,7 +37355,8 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.121",
@@ -37011,7 +37595,8 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.128",
@@ -37991,7 +38576,8 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "ledtrad": "<p>En yttervinkel är summan av de två motstående inre vinklarna.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.155",
@@ -38046,7 +38632,8 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "ledtrad": "<p>En yttervinkel är summan av de två motstående inre vinklarna.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.157",
@@ -38075,7 +38662,8 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "ledtrad": "<p>Jämför randvinkeln med medelpunktsvinkeln som står på samma båge.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.158",
@@ -39666,7 +40254,8 @@ window.BANKMA2 = [
     "arbetsinsats": 1,
     "spel": true,
     "ledtrad": "<p>En yttervinkel är summan av de två motstående inre vinklarna.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.199",
@@ -40727,7 +41316,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm vinkeln \\(x\\). Motivera med triangelns vinkelsumma.</p><div class=\"fig smal\"><svg viewBox=\"0 0 520 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med vinklarna 55 grader, 70 grader och x\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/>\n<line x1=\"95\" y1=\"235\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"95\" y1=\"235\" x2=\"265\" y2=\"60\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"265\" y1=\"60\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n\n<text x=\"115\" y=\"215\" font-size=\"18\" font-family=\"Arial\">55°</text>\n<text x=\"390\" y=\"215\" font-size=\"18\" font-family=\"Arial\">70°</text>\n<text x=\"265\" y=\"92\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial\">x</text>\n</svg></div>",
+    "t": "<p>Bestäm vinkeln \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 520 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med vinklarna 55 grader, 70 grader och x\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/>\n<line x1=\"95\" y1=\"235\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"95\" y1=\"235\" x2=\"265\" y2=\"60\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"265\" y1=\"60\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n\n<text x=\"115\" y=\"215\" font-size=\"18\" font-family=\"Arial\">55°</text>\n<text x=\"390\" y=\"215\" font-size=\"18\" font-family=\"Arial\">70°</text>\n<text x=\"265\" y=\"92\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial\">x</text>\n</svg></div>",
     "s": "<p>Vinklarna i en triangel har summan \\(180^\\circ\\).</p><p>\\[x+55^\\circ+70^\\circ=180^\\circ\\]</p><p>\\[x=55^\\circ.\\]</p><p><strong>Svar: \\(55^\\circ\\).</strong></p>",
     "familj": "sats_bevis__vinkelsumma_triangel",
     "formaga": [
@@ -40744,7 +41333,8 @@ window.BANKMA2 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.226",
@@ -40785,7 +41375,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Linjerna \\(l_1\\) och \\(l_2\\) är parallella. Bestäm \\(x\\) och ange vilket vinkelsamband du använder.</p><div class=\"fig smal\"><svg viewBox=\"0 0 520 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella linjer med transversal\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/>\n<line x1=\"70\" y1=\"90\" x2=\"450\" y2=\"90\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"70\" y1=\"220\" x2=\"450\" y2=\"220\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"270\" x2=\"350\" y2=\"40\" stroke=\"#222\" stroke-width=\"3\"/>\n<text x=\"455\" y=\"84\" font-size=\"17\" font-family=\"Arial\">l₁</text>\n<text x=\"455\" y=\"214\" font-size=\"17\" font-family=\"Arial\">l₂</text>\n<text x=\"296\" y=\"112\" font-size=\"18\" font-family=\"Arial\">132°</text>\n<text x=\"181\" y=\"202\" font-size=\"18\" font-family=\"Arial\">x</text>\n</svg></div>",
+    "t": "<p>Linjerna \\(l_1\\) och \\(l_2\\) är parallella. Bestäm \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 520 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två parallella linjer med transversal\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/>\n<line x1=\"70\" y1=\"90\" x2=\"450\" y2=\"90\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"70\" y1=\"220\" x2=\"450\" y2=\"220\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"150\" y1=\"270\" x2=\"350\" y2=\"40\" stroke=\"#222\" stroke-width=\"3\"/>\n<text x=\"455\" y=\"84\" font-size=\"17\" font-family=\"Arial\">l₁</text>\n<text x=\"455\" y=\"214\" font-size=\"17\" font-family=\"Arial\">l₂</text>\n<text x=\"296\" y=\"112\" font-size=\"18\" font-family=\"Arial\">132°</text>\n<text x=\"181\" y=\"202\" font-size=\"18\" font-family=\"Arial\">x</text>\n</svg></div>",
     "s": "<p>De markerade vinklarna är alternatvinklar. När linjerna är parallella är alternatvinklar lika stora.</p><p>\\[x=132^\\circ.\\]</p><p><strong>Svar: \\(132^\\circ\\).</strong></p>",
     "familj": "sats_bevis__alternatvinklar",
     "formaga": [
@@ -40802,7 +41392,8 @@ window.BANKMA2 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.228",
@@ -40814,7 +41405,7 @@ window.BANKMA2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Bestäm \\(x\\). Ange vilken sats du använder.</p><div class=\"fig smal\"><svg viewBox=\"0 0 520 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med vinklarna 52 grader, 63 grader och x\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/>\n<line x1=\"95\" y1=\"235\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"95\" y1=\"235\" x2=\"265\" y2=\"60\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"265\" y1=\"60\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n\n<text x=\"115\" y=\"215\" font-size=\"18\" font-family=\"Arial\">52°</text>\n<text x=\"390\" y=\"215\" font-size=\"18\" font-family=\"Arial\">63°</text>\n<text x=\"265\" y=\"92\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial\">x</text>\n</svg></div>",
+    "t": "<p>Bestäm \\(x\\).</p><div class=\"fig smal\"><svg viewBox=\"0 0 520 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Triangel med vinklarna 52 grader, 63 grader och x\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/>\n<line x1=\"95\" y1=\"235\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"95\" y1=\"235\" x2=\"265\" y2=\"60\" stroke=\"#222\" stroke-width=\"3\"/>\n<line x1=\"265\" y1=\"60\" x2=\"425\" y2=\"235\" stroke=\"#222\" stroke-width=\"3\"/>\n\n<text x=\"115\" y=\"215\" font-size=\"18\" font-family=\"Arial\">52°</text>\n<text x=\"390\" y=\"215\" font-size=\"18\" font-family=\"Arial\">63°</text>\n<text x=\"265\" y=\"92\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial\">x</text>\n</svg></div>",
     "s": "<p>Triangelns vinkelsumma är \\(180^\\circ\\):</p><p>\\[x+52^\\circ+63^\\circ=180^\\circ.\\]</p><p>Alltså \\(x=65^\\circ\\).</p><p><strong>Svar: \\(65^\\circ\\).</strong></p>",
     "familj": "sats_bevis__vinkeljakt_en_steg",
     "formaga": [
@@ -40831,7 +41422,8 @@ window.BANKMA2 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.229",
@@ -40861,7 +41453,8 @@ window.BANKMA2 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.230",
@@ -58328,7 +58921,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Yttervinkeln är summan av de två motstående inre vinklarna.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "°"
   },
   {
     "id": "3.293",
@@ -58356,7 +58950,8 @@ window.BANKMA2 = [
     "ledtrad": "<p>Randvinkeln är hälften av medelpunktsvinkeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "svarEnhet": "°"
   },
   {
     "id": "3.294",
@@ -58767,7 +59362,8 @@ window.BANKMA2 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.307",
@@ -59288,7 +59884,8 @@ window.BANKMA2 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   },
   {
     "id": "3.323",

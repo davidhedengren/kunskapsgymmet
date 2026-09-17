@@ -1,7 +1,7 @@
 /* Kvalitetsreviderad Ma4 / Matematik – fortsättning nivå 2, omgång 5 (2026-09-14).
  * Fokus: deriveringsregler, kedjeregel och sammansatta funktioner; NP-kalibrering, variation och robust självrättning. */
 window.BANKMATO2 = [
-    {
+  {
     "id": "1.04",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -27,7 +27,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.05",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -359,7 +359,7 @@ window.BANKMATO2 = [
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
-    {
+  {
     "id": "1.19",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -533,7 +533,7 @@ window.BANKMATO2 = [
       "b"
     ]
   },
-    {
+  {
     "id": "1.34",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -729,7 +729,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
     "spelIntro": "<p>Använd symmetrier i enhetscirkeln och bestäm exakt.</p>"
   },
-    {
+  {
     "id": "1.66",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -964,7 +964,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.117",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -984,11 +984,11 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "150",
+      150,
       "-(sqrt(3))/(2)"
     ],
     "tolerans": [
-      null,
+      0,
       null
     ],
     "självrättning": [
@@ -996,7 +996,7 @@ window.BANKMATO2 = [
       true
     ],
     "svarFormat": [
-      "uttryck",
+      "grader",
       "uttryck"
     ],
     "svarsstruktur": "ordnad",
@@ -1023,7 +1023,11 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
-    "spelIntro": "<p>Punkten \\(P\\) ligger på enhetscirkeln och har koordinaterna</p><p>\\[P=\\left(-\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p><p>Låt \\(v\\) vara vinkeln från positiva x-axeln till \\(OP\\), där \\(0\\le v&lt;360^\\circ\\).</p><span class=\"fig\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"358\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"99.3\" x2=\"99.3\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"287.7\" x2=\"287.7\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"236.7\" y2=\"236.7\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"48.3\" y2=\"48.3\"></line>\n<circle cx=\"193.5\" cy=\"142.5\" fill=\"#F8FAFB\" r=\"94.2\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<circle cx=\"111.9\" cy=\"95.4\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"118.9\" y=\"88.4\">P</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"322.4\" y=\"135.5\">x</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"200.5\" y=\"32.0\">y</text>\n</svg></span>"
+    "spelIntro": "<p>Punkten \\(P\\) ligger på enhetscirkeln och har koordinaterna</p><p>\\[P=\\left(-\\frac{\\sqrt3}{2},\\frac12\\right).\\]</p><p>Låt \\(v\\) vara vinkeln från positiva x-axeln till \\(OP\\), där \\(0\\le v&lt;360^\\circ\\).</p><span class=\"fig\"><svg height=\"300\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 360 300\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"298\" rx=\"10\" stroke=\"#E4E3E6\" width=\"358\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" x1=\"99.3\" x2=\"99.3\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"287.7\" x2=\"287.7\" y1=\"20.0\" y2=\"265.0\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"236.7\" y2=\"236.7\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#E8EEF0\" x1=\"61.6\" x2=\"325.4\" y1=\"48.3\" y2=\"48.3\"></line>\n<circle cx=\"193.5\" cy=\"142.5\" fill=\"#F8FAFB\" r=\"94.2\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"61.6\" x2=\"325.4\" y1=\"142.5\" y2=\"142.5\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"193.5\" x2=\"193.5\" y1=\"20.0\" y2=\"265.0\"></line>\n<circle cx=\"111.9\" cy=\"95.4\" fill=\"#B43123\" r=\"4.5\"></circle>\n<text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"12\" x=\"118.9\" y=\"88.4\">P</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"322.4\" y=\"135.5\">x</text>\n<text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"200.5\" y=\"32.0\">y</text>\n</svg></span>",
+    "svarEnhet": [
+      "°",
+      null
+    ]
   },
   {
     "id": "1.121",
@@ -1149,7 +1153,7 @@ window.BANKMATO2 = [
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
-    {
+  {
     "id": "1.552",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -1176,7 +1180,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Tänk geometriskt: vad händer med en punkts y-koordinat när den speglas i y-axeln?</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.126",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -1298,7 +1302,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel indelad i fyra kvadranter\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"220\" cy=\"125\" r=\"82\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"125\" x2=\"395\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"285\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">I</text><text x=\"153\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">II</text><text x=\"150\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">III</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">IV</text><text x=\"402\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"228\" y=\"20\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm tecknet på</p><p>a) \\(\\sin140^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos220^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan310^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(-40^\\circ)\\).</p>",
+    "t": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Enhetscirkel indelad i fyra kvadranter\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"220\" cy=\"125\" r=\"82\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"45\" y1=\"125\" x2=\"395\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"230\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><text x=\"285\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">I</text><text x=\"153\" y=\"70\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">II</text><text x=\"150\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">III</text><text x=\"285\" y=\"185\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#268FA3\">IV</text><text x=\"402\" y=\"120\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"228\" y=\"20\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm tecknet på följande uttryck. Svara med <strong>+</strong> eller <strong>−</strong>.</p><p>a) \\(\\sin140^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos220^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan310^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin(-40^\\circ)\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Bestäm en referensvinkel med kända exakta värden och använd sedan kvadrant, symmetri eller periodicitet för rätt tecken.</p><div class=\"facit-arbete\"><p>a) 140° ligger i II: <strong>positivt</strong>.</p><p>b) 220° ligger i III: <strong>negativt</strong>.</p><p>c) 310° ligger i IV: sinus negativ och cosinus positiv, alltså <strong>negativt</strong>.</p><p>d) Sinus är udda: \\(\\sin(-40^\\circ)=-\\sin40^\\circ\\), alltså <strong>negativt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera värdets tecken mot kvadranten och att resultatet är ett exakt standardvärde.</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
@@ -1307,10 +1311,10 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "positivt",
-      "negativt",
-      "negativt",
-      "negativt"
+      "+",
+      "-",
+      "-",
+      "-"
     ],
     "tolerans": [
       null,
@@ -1370,9 +1374,9 @@ window.BANKMATO2 = [
         "poang": "1/0/0"
       }
     ],
-    "spelIntro": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><p>Bestäm tecknet på</p><span class=\"fig\"><svg aria-label=\"Enhetscirkel indelad i fyra kvadranter\" height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 250\" width=\"440\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"438\" x=\"1\" y=\"1\"></rect><circle cx=\"220\" cy=\"125\" fill=\"#F7FAFB\" r=\"82\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"45\" x2=\"395\" y1=\"125\" y2=\"125\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"220\" x2=\"220\" y1=\"20\" y2=\"230\"></line><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"70\">I</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"153\" y=\"70\">II</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"150\" y=\"185\">III</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"185\">IV</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"402\" y=\"120\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"228\" y=\"20\">y</text></svg></span>"
+    "spelIntro": "<p>Använd enhetscirkeln och tecknen i de fyra kvadranterna.</p><p>Bestäm tecknet på följande uttryck. Svara med <strong>+</strong> eller <strong>−</strong>.</p><span class=\"fig\"><svg aria-label=\"Enhetscirkel indelad i fyra kvadranter\" height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 250\" width=\"440\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"438\" x=\"1\" y=\"1\"></rect><circle cx=\"220\" cy=\"125\" fill=\"#F7FAFB\" r=\"82\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"45\" x2=\"395\" y1=\"125\" y2=\"125\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"220\" x2=\"220\" y1=\"20\" y2=\"230\"></line><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"70\">I</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"153\" y=\"70\">II</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"150\" y=\"185\">III</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"15\" x=\"285\" y=\"185\">IV</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"402\" y=\"120\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"228\" y=\"20\">y</text></svg></span>"
   },
-    {
+  {
     "id": "1.139",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -1481,7 +1485,8 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "grader",
+    "svarEnhet": "°"
   },
   {
     "id": "1.140",
@@ -1568,7 +1573,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
     "spelIntro": "<p>Bestäm exakt.</p>"
   },
-    {
+  {
     "id": "1.168",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -1665,7 +1670,8 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "grader",
+    "svarEnhet": "°"
   },
   {
     "id": "1.267",
@@ -1752,7 +1758,8 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "grader",
+    "svarEnhet": "°"
   },
   {
     "id": "1.268",
@@ -1815,7 +1822,7 @@ window.BANKMATO2 = [
       }
     ]
   },
-    {
+  {
     "id": "1.281",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -1900,9 +1907,10 @@ window.BANKMATO2 = [
     "tolerans": 0,
     "självrättning": true,
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
-    "svarFormat": "numeriskt"
+    "svarFormat": "grader",
+    "svarEnhet": "°"
   },
-    {
+  {
     "id": "1.285",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2074,7 +2082,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.308",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2085,7 +2093,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm tecknet på uttrycket utan räknare.</p><p>a) \\(\\sin(210^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(225^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(120^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(330^\\circ)\\)</p>",
+    "t": "<p>Bestäm tecknet på uttrycket utan räknare. Svara med <strong>+</strong> eller <strong>−</strong>.</p><p>a) \\(\\sin(210^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(225^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\tan(120^\\circ)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(330^\\circ)\\)</p>",
     "s": "<p><strong>Varför metoden fungerar:</strong> Enhetscirkeln kopplar vinkeln till punkten \\((\\cos v,\\sin v)\\). Därför måste både referensvinkel och kvadrantens tecken kontrolleras.</p><p>a) Tredje kvadranten: sinus är <strong>negativ</strong>.</p><p>b) Tredje kvadranten: cosinus är <strong>negativ</strong>.</p><p>c) Andra kvadranten: tangens är <strong>negativ</strong>.</p><p>d) Fjärde kvadranten: cosinus är <strong>positiv</strong>.</p>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
@@ -2094,10 +2102,10 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "negativ",
-      "negativ",
-      "negativ",
-      "positiv"
+      "-",
+      "-",
+      "-",
+      "+"
     ],
     "tolerans": [
       null,
@@ -2157,9 +2165,9 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
-    "spelIntro": "<p>Bestäm tecknet på uttrycket utan räknare.</p>"
+    "spelIntro": "<p>Bestäm tecknet på uttrycket utan räknare. Svara med <strong>+</strong> eller <strong>−</strong>.</p>"
   },
-    {
+  {
     "id": "1.313",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2331,7 +2339,7 @@ window.BANKMATO2 = [
       }
     ]
   },
-    {
+  {
     "id": "1.323",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2569,7 +2577,7 @@ window.BANKMATO2 = [
     "familjNyckel": "enhetscirkeln__symmetrier_och_periodicitet_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
-    {
+  {
     "id": "1.445",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2776,7 +2784,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Använd en 3–4–5-triangel och låt kvadranten bestämma tecknet.</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.447",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2878,7 +2886,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.554",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2931,7 +2939,7 @@ window.BANKMATO2 = [
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>"
   },
-    {
+  {
     "id": "1.559",
     "kap": 1,
     "omr": "enhetscirkeln",
@@ -2950,20 +2958,21 @@ window.BANKMATO2 = [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "uttryck",
-    "rättSvar": "210",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 210,
+    "tolerans": 0,
     "självrättning": true,
     "familjNyckel": "enhetscirkeln__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Bestäm först referensvinkeln och använd sedan tecknen för att välja kvadrant.</p>",
-    "svarFormat": "uttryck",
+    "svarFormat": "grader",
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "x-koordinat",
       "y-koordinat"
-    ]
+    ],
+    "svarEnhet": "°"
   },
-    {
+  {
     "id": "1.07",
     "kap": 1,
     "omr": "trig_formler",
@@ -3396,7 +3405,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>För vinkeln \\(v\\) gäller</p><p>\\[<br>\\cos v=-\\frac35,\\qquad 90^\\circ&lt;v&lt;180^\\circ.<br>\\]</p><p>Bestäm exakt</p>"
   },
-    {
+  {
     "id": "1.36",
     "kap": 1,
     "omr": "trig_formler",
@@ -3801,7 +3810,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.43",
     "kap": 1,
     "omr": "trig_formler",
@@ -3852,7 +3861,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.45",
     "kap": 1,
     "omr": "trig_formler",
@@ -4036,7 +4045,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv \\(15^\\circ\\) som skillnaden mellan två standardvinklar och välj rätt formel för cosinus.</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.50",
     "kap": 1,
     "omr": "trig_formler",
@@ -4218,7 +4227,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>Det gäller att \\(\\sin x=\\frac{5}{13}\\) och \\(\\cos x=\\frac{12}{13}\\).</p><p>Bestäm exakt</p>"
   },
-    {
+  {
     "id": "1.61",
     "kap": 1,
     "omr": "trig_formler",
@@ -4490,7 +4499,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.80",
     "kap": 1,
     "omr": "trig_formler",
@@ -4550,7 +4559,7 @@ window.BANKMATO2 = [
       }
     ]
   },
-    {
+  {
     "id": "1.82",
     "kap": 1,
     "omr": "trig_formler",
@@ -4737,7 +4746,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
   },
-    {
+  {
     "id": "1.115",
     "kap": 1,
     "omr": "trig_formler",
@@ -5437,7 +5446,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Använd \\(\\sin2x=2\\sin x\\cos x\\) och de tre formerna av \\(\\cos2x\\).</p>",
     "spelIntro": "<p>Förenkla så långt som möjligt.</p>"
   },
-    {
+  {
     "id": "1.541",
     "kap": 1,
     "omr": "trig_formler",
@@ -5575,7 +5584,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>Förenkla med formler för dubbla vinkeln.</p>"
   },
-    {
+  {
     "id": "1.178",
     "kap": 1,
     "omr": "trig_formler",
@@ -5617,7 +5626,7 @@ window.BANKMATO2 = [
       "v"
     ]
   },
-    {
+  {
     "id": "1.209",
     "kap": 1,
     "omr": "trig_formler",
@@ -5669,7 +5678,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Dela trigonometriska ettan med \\(\\cos^2x\\). Vad blir den första kvoten?</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.211",
     "kap": 1,
     "omr": "trig_formler",
@@ -5695,7 +5704,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Använd additionsformeln för cosinus och värdena \\(\\cos(90^\\circ)=0\\), \\(\\sin(90^\\circ)=1\\).</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.212",
     "kap": 1,
     "omr": "trig_formler",
@@ -5876,7 +5885,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Utveckla båda cosinusuttrycken. Vilka termer tar ut varandra?</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.219",
     "kap": 1,
     "omr": "trig_formler",
@@ -6007,7 +6016,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Det går att använda \\(\\sin2x=2\\sin x\\cos x\\), men här är det snabbare att uttrycka dubbelvinkeln med \\(\\tan x\\).</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.251",
     "kap": 1,
     "omr": "trig_formler",
@@ -6215,7 +6224,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Använd tangensformeln för \\(45^\\circ-30^\\circ\\).</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.273",
     "kap": 1,
     "omr": "trig_formler",
@@ -6457,7 +6466,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
     "spelIntro": "<p>Förenkla.</p>"
   },
-    {
+  {
     "id": "1.303",
     "kap": 1,
     "omr": "trig_formler",
@@ -6508,7 +6517,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera \\(\\sin^2x\\) i formeln \\(\\cos2x=1-2\\sin^2x\\).</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.305",
     "kap": 1,
     "omr": "trig_formler",
@@ -6558,7 +6567,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Använd gemensam nämnare och trigonometriska ettan i täljaren.</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.536",
     "kap": 1,
     "omr": "trig_formler",
@@ -6711,7 +6720,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_formler__anvanda_formler_for_dubbla_vinkeln",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>"
   },
-    {
+  {
     "id": "1.542",
     "kap": 1,
     "omr": "trig_formler",
@@ -6739,7 +6748,7 @@ window.BANKMATO2 = [
     "svarFormat": null,
     "spel": false
   },
-    {
+  {
     "id": "1.03",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -6763,7 +6772,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_andragradssubstitution",
     "ledtrad": "<p>Skriv vänsterledet som \\(1+\\tan^2x\\). Då blir ekvationen en andragradsekvation i \\(\\tan x\\).</p>"
   },
-    {
+  {
     "id": "1.06",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -6801,7 +6810,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.09",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -6912,7 +6921,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.15",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -6940,7 +6949,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Vilken amplitud har uttrycket \\(a\\sin x-\\cos x\\)? Jämför amplituden med nivån 2.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.16",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7024,7 +7033,7 @@ window.BANKMATO2 = [
       }
     ]
   },
-    {
+  {
     "id": "1.22",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7165,7 +7174,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.24",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7193,7 +7202,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Sätt \\(y=\\sin x\\). Studera sedan parabeln \\(a=2-y-2y^2\\) bara på intervallet \\([-1,1]\\).</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.32",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7221,7 +7230,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Faktorisera efter att du skrivit om \\(\\sin2x\\). Räkna sedan hur många nya lösningar \\(\\cos x=a/2\\) ger.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.52",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7535,7 +7544,7 @@ window.BANKMATO2 = [
       "d"
     ]
   },
-    {
+  {
     "id": "1.71",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7666,7 +7675,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.78",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7801,7 +7810,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.528",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7840,7 +7849,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.79",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7878,7 +7887,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.513",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7904,7 +7913,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "svarFormat": "lösningsmängd"
   },
-    {
+  {
     "id": "1.89",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -7931,7 +7940,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Studera först när \\(1/B\\) ligger i intervallet \\([-1,1]\\). Kom ihåg att \\(2x\\) genomlöper två perioder.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.546",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8086,7 +8095,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0^\\circ\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.94",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8206,7 +8215,7 @@ window.BANKMATO2 = [
       }
     ]
   },
-    {
+  {
     "id": "1.106",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8343,7 +8352,7 @@ window.BANKMATO2 = [
       "d"
     ]
   },
-    {
+  {
     "id": "1.109",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8381,7 +8390,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.122",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8450,7 +8459,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.132",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8638,7 +8647,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.555",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8665,7 +8674,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Sinus ger två vinklar per varv när värdet ligger strikt mellan −1 och 1.</p>"
   },
-    {
+  {
     "id": "1.191",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8689,7 +8698,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.192",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8724,7 +8733,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.514",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8791,7 +8800,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.194",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8826,7 +8835,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.195",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8873,7 +8882,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.529",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8927,7 +8936,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_identiteter_och_faktorisering",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.197",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -8968,7 +8977,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.198",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9003,7 +9012,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.199",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9038,7 +9047,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.200",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9076,7 +9085,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.343",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9100,7 +9109,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__grundlaggande_trigonometriska_ekvationer",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.201",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9138,7 +9147,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.202",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9179,7 +9188,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.203",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9220,7 +9229,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.204",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9261,7 +9270,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.205",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9302,7 +9311,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.206",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9337,7 +9346,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.207",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9378,7 +9387,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.515",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9417,7 +9426,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.208",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9445,7 +9454,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv \\(\\sin x=1/a\\) och jämför \\(|1/a|\\) med 1.</p>",
     "spel": false
   },
-    {
+  {
     "id": "1.233",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9480,7 +9489,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.234",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9515,7 +9524,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.235",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9550,7 +9559,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.236",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9585,7 +9594,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.237",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9632,7 +9641,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.530",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9671,7 +9680,7 @@ window.BANKMATO2 = [
       "andra tid"
     ]
   },
-    {
+  {
     "id": "1.344",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9707,7 +9716,7 @@ window.BANKMATO2 = [
       "numeriskt"
     ]
   },
-    {
+  {
     "id": "1.238",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9739,7 +9748,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.239",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9775,7 +9784,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.240",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9809,7 +9818,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.241",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9843,7 +9852,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.242",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9879,7 +9888,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.243",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9915,7 +9924,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.244",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9949,7 +9958,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.245",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -9981,7 +9990,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.246",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10017,7 +10026,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.247",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10053,7 +10062,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.516",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10080,7 +10089,7 @@ window.BANKMATO2 = [
     "spel": false,
     "svarFormat": "heltal"
   },
-    {
+  {
     "id": "1.248",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10116,7 +10125,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.271",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10141,7 +10150,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "svarFormat": "uttryck"
   },
-    {
+  {
     "id": "1.272",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10173,7 +10182,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.345",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10215,7 +10224,7 @@ window.BANKMATO2 = [
       "x"
     ]
   },
-    {
+  {
     "id": "1.277",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10251,7 +10260,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.278",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10286,7 +10295,7 @@ window.BANKMATO2 = [
       "numeriskt"
     ]
   },
-    {
+  {
     "id": "1.547",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10314,7 +10323,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Rita mentalt cosinus på ett helt varv och flytta en horisontell linje.</p>",
     "svarFormat": "intervall"
   },
-    {
+  {
     "id": "1.284",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10348,7 +10357,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.289",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10486,7 +10495,7 @@ window.BANKMATO2 = [
       ]
     ]
   },
-    {
+  {
     "id": "1.290",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10520,7 +10529,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.299",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10646,7 +10655,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös ekvationerna. Ange alla lösningar i intervallet \\(0\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.300",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10682,7 +10691,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.301",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10718,7 +10727,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.312",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10754,7 +10763,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.316",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10874,7 +10883,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös. Ange alla lösningar i \\(0\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.320",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -10906,7 +10915,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.326",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11008,7 +11017,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "spelIntro": "<p>Lös i intervallet \\(0\\le x&lt;360^\\circ\\).</p>"
   },
-    {
+  {
     "id": "1.517",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11044,7 +11053,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.330",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11080,7 +11089,7 @@ window.BANKMATO2 = [
       "uttryck"
     ]
   },
-    {
+  {
     "id": "1.401",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11106,7 +11115,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.402",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11131,7 +11140,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.403",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11157,7 +11166,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.404",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11183,7 +11192,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__parameterproblem_med_antal_trigonometriska_losningar",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.548",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11218,7 +11227,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.405",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11244,7 +11253,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.406",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11270,7 +11279,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.407",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11296,7 +11305,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.556",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11324,7 +11333,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Sätt först det trigonometriska uttrycket ensamt. Hitta grundlösningarna och lägg därefter till rätt period; avsluta med att välja lösningar i det givna intervallet.</p>",
     "svarFormat": "uttryck_med_villkor"
   },
-    {
+  {
     "id": "1.408",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11350,7 +11359,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.420",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11375,7 +11384,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.531",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11414,7 +11423,7 @@ window.BANKMATO2 = [
     ],
     "svarsstruktur": "mängd"
   },
-    {
+  {
     "id": "1.421",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11439,7 +11448,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.422",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11464,7 +11473,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_multipel_vinkel_och_fas",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.532",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11503,7 +11512,7 @@ window.BANKMATO2 = [
       "andra tid"
     ]
   },
-    {
+  {
     "id": "1.426",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11528,7 +11537,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.427",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11553,7 +11562,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.428",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -11578,7 +11587,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_ekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>"
   },
-    {
+  {
     "id": "1.557",
     "kap": 1,
     "omr": "trig_ekvationer",
@@ -16838,8 +16847,8 @@ window.BANKMATO2 = [
     "svarFormat": [
       "uttryck",
       "uttryck",
-      "numeriskt",
-      "numeriskt"
+      "grader",
+      "grader"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -60073,9 +60082,10 @@ window.BANKMATO2 = [
     "rättSvar": 90,
     "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "grader",
     "familjNyckel": "komplexa_talplanet__avbildningar_rotation_och_skalning_med_komplexa_tal",
-    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>"
+    "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
+    "svarEnhet": "°"
   },
   {
     "id": "4.444",
@@ -63864,9 +63874,10 @@ window.BANKMATO2 = [
     "rättSvar": 135,
     "tolerans": 0,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "grader",
     "familjNyckel": "polar_exponentiell__absolutbelopp_och_argument_for_komplexa_tal",
-    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>"
+    "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
+    "svarEnhet": "°"
   },
   {
     "id": "4.406",

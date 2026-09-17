@@ -64882,5 +64882,806 @@ window.BANKMA2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt \\(t=2\\) i exponentialmodellen.</p>"
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "miniräknare": false,
+    "geogebra": false,
+    "id": "2.627",
+    "omr": "andragradsfunktioner",
+    "poang": "0/1/2",
+    "t": "<p>En andragradsfunktion har formen</p><p>\\[f(x)=x^2+ax+b.\\]</p><p>Grafen går genom punkten \\((1,8)\\) och funktionens minsta värde är \\(-1\\).</p><p>Bestäm alla möjliga funktioner.</p>",
+    "s": "<p>Punkten \\((1,8)\\) ligger på grafen, så \\(f(1)=8\\):</p><p>\\[1+a+b=8\\quad\\Rightarrow\\quad b=7-a.\\]</p><p>Eftersom funktionens minsta värde är \\(-1\\) tangerar grafen linjen \\(y=-1\\). Ekvationen \\(f(x)=-1\\) har därför exakt en lösning.</p><p>\\[x^2+ax+b+1=0.\\]</p><p>Med pq-formeln:</p><p>\\[x=-\\frac a2\\pm\\sqrt{\\left(\\frac a2\\right)^2-(b+1)}.\\]</p><p>Exakt en lösning kräver att rotuttrycket är noll:</p><p>\\[\\frac{a^2}{4}-(b+1)=0.\\]</p><p>Sätt in \\(b=7-a\\):</p><p>\\[\\frac{a^2}{4}-(8-a)=0\\quad\\Rightarrow\\quad a^2+4a-32=0.\\]</p><p>pq-formeln ger \\(a=-2\\pm6\\), alltså \\(a=4\\) eller \\(a=-8\\).</p><p>Då blir \\(b=3\\) respektive \\(b=15\\).</p><p><strong>\\(f(x)=x^2+4x+3\\) eller \\(f(x)=x^2-8x+15\\).</strong></p>",
+    "familj": "andragradsfunktioner__parameter_och_extremvarde",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "ledtrad": "<p>Minimivärdet \\(-1\\) betyder att grafen tangerar linjen \\(y=-1\\). Vad innebär det för antalet lösningar till \\(f(x)=-1\\)?</p>",
+    "spel": false,
+    "traningsniva": 5,
+    "arbetsinsats": 4
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "miniräknare": false,
+    "geogebra": false,
+    "id": "2.628",
+    "omr": "andragradsfunktioner",
+    "poang": "0/1/2",
+    "t": "<p>En andragradsfunktion har nollställena \\(x=2\\) och \\(x=8\\).</p><p>Skillnaden mellan funktionens största värde och \\(f(0)\\) är 25.</p><p>Bestäm funktionen.</p>",
+    "s": "<p>Nollställena ger faktorformen</p><p>\\[f(x)=a(x-2)(x-8).\\]</p><p>Symmetrilinjen ligger mitt emellan nollställena:</p><p>\\[x=\\frac{2+8}{2}=5.\\]</p><p>Eftersom funktionen har ett största värde är parabeln nedåtvänd, och största värdet är därför \\(f(5)\\):</p><p>\\[f(5)=a\\cdot3\\cdot(-3)=-9a.\\]</p><p>Dessutom</p><p>\\[f(0)=a(-2)(-8)=16a.\\]</p><p>Skillnaden är 25:</p><p>\\[-9a-16a=25\\quad\\Rightarrow\\quad -25a=25\\quad\\Rightarrow\\quad a=-1.\\]</p><p>Alltså</p><p>\\[f(x)=-(x-2)(x-8)=-x^2+10x-16.\\]</p><p>Kontroll: \\(f(5)=9\\), \\(f(0)=-16\\) och \\(9-(-16)=25\\).</p><p><strong>\\(f(x)=-x^2+10x-16\\)</strong></p>",
+    "familj": "andragradsfunktioner__bestam_funktion_fran_nollstallen",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "\\(-x^2+10x-16\\)",
+    "tolerans": null,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv först funktionen på faktorform med hjälp av nollställena. Var ligger symmetrilinjen, och vilket funktionsvärde ger då största värdet?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 4
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "miniräknare": false,
+    "geogebra": false,
+    "id": "2.629",
+    "omr": "andragradsfunktioner",
+    "poang": "0/1/2",
+    "t": "<p>En andragradsfunktion har sitt största värde 12 då \\(x=3\\). Dessutom är \\(x=-1\\) ett nollställe.</p><p>a) Bestäm funktionens andra nollställe.</p><p>b) Bestäm funktionens ekvation om \\(f(0)=\\frac{21}{4}\\).</p>",
+    "s": "<p><strong>a)</strong> Symmetrilinjen är \\(x=3\\). Nollställena ligger lika långt från symmetrilinjen. Avståndet från \\(-1\\) till 3 är 4, så det andra nollstället är \\(3+4=7\\).</p><p><strong>b)</strong> Med nollställena \\(-1\\) och 7 kan funktionen skrivas</p><p>\\[f(x)=a(x+1)(x-7).\\]</p><p>Villkoret \\(f(0)=\\frac{21}{4}\\) ger</p><p>\\[-7a=\\frac{21}{4}\\quad\\Rightarrow\\quad a=-\\frac34.\\]</p><p>Alltså</p><p>\\[f(x)=-\\frac34(x+1)(x-7).\\]</p><p>Kontroll av extremvärdet:</p><p>\\[f(3)=-\\frac34\\cdot4\\cdot(-4)=12.\\]</p><p><strong>a) \\(x=7\\) &nbsp;&nbsp; b) \\(f(x)=-\\frac34(x+1)(x-7)\\)</strong></p>",
+    "familj": "andragradsfunktioner__symmetri_och_extrempunkt",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "7",
+      "\\(-\\frac34(x+1)(x-7)\\)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Symmetrilinjen går mitt emellan nollställena. Använd sedan nollställena för att skriva funktionen på faktorform.</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Funktionen har sitt största värde 12 då \\(x=3\\), och \\(x=-1\\) är ett nollställe.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm funktionens andra nollställe.</p>",
+        "s": "<p>Symmetrilinjen är \\(x=3\\). Nollstället \\(-1\\) ligger 4 enheter till vänster, så det andra ligger 4 enheter till höger: <strong>\\(x=7\\)</strong>.</p>",
+        "poang": "0/1/0",
+        "traningsniva": 4,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm funktionens ekvation om \\(f(0)=\\frac{21}{4}\\).</p>",
+        "s": "<p>Med nollställena \\(-1\\) och 7 är \\(f(x)=a(x+1)(x-7)\\). Villkoret \\(f(0)=21/4\\) ger \\(-7a=21/4\\), alltså \\(a=-3/4\\).</p><p><strong>\\(f(x)=-\\frac34(x+1)(x-7)\\)</strong></p>",
+        "poang": "0/0/2",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      }
+    ],
+    "spel": true,
+    "traningsniva": [
+      4,
+      5
+    ],
+    "arbetsinsats": [
+      2,
+      3
+    ]
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "miniräknare": false,
+    "geogebra": false,
+    "id": "2.630",
+    "omr": "mer_om_andragradsekvationer",
+    "poang": "0/1/3",
+    "t": "<p>Funktionerna</p><p>\\[f(x)=x^2-6x+5\\]</p><p>och</p><p>\\[g(x)=kx-4\\]</p><p>beror på parametern \\(k\\).</p><p>a) Bestäm alla värden på \\(k\\) som gör att graferna har exakt en gemensam punkt.</p><p>b) Bestäm den gemensamma punkten för varje sådant värde på \\(k\\).</p>",
+    "s": "<p>En gemensam punkt uppfyller \\(f(x)=g(x)\\):</p><p>\\[x^2-6x+5=kx-4\\quad\\Rightarrow\\quad x^2-(6+k)x+9=0.\\]</p><p><strong>a)</strong> Graferna ska ha exakt en gemensam punkt, alltså ska ekvationen ha exakt en lösning. pq-formeln ger</p><p>\\[x=\\frac{6+k}{2}\\pm\\sqrt{\\left(\\frac{6+k}{2}\\right)^2-9}.\\]</p><p>Rotuttrycket måste vara noll:</p><p>\\[\\left(\\frac{6+k}{2}\\right)^2=9.\\]</p><p>Därför är \\((6+k)/2=3\\) eller \\((6+k)/2=-3\\), vilket ger</p><p>\\[k=0\\quad\\text{eller}\\quad k=-12.\\]</p><p><strong>b)</strong> För \\(k=0\\) blir dubbelroten \\(x=3\\), och \\(y=g(3)=-4\\). Punkten är \\((3,-4)\\).</p><p>För \\(k=-12\\) blir dubbelroten \\(x=-3\\), och \\(y=g(-3)=32\\). Punkten är \\((-3,32)\\).</p><p><strong>a) \\(k=0\\) eller \\(k=-12\\) &nbsp;&nbsp; b) \\((3,-4)\\) respektive \\((-3,32)\\)</strong></p>",
+    "familj": "mer_om_andragradsekvationer__parameter_och_rotvillkor",
+    "formaga": [
+      "begrepp",
+      "procedur",
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        "0",
+        "-12"
+      ],
+      [
+        "(3,-4)",
+        "(-3,32)"
+      ]
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "ledtrad": "<p>Sätt \\(f(x)=g(x)\\). Exakt en gemensam punkt betyder att den andragradsekvation du får ska ha exakt en lösning.</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>\\(f(x)=x^2-6x+5\\) och \\(g(x)=kx-4\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm alla värden på \\(k\\) som gör att graferna har exakt en gemensam punkt.</p>",
+        "s": "<p>\\(f(x)=g(x)\\) ger \\(x^2-(6+k)x+9=0\\). Exakt en lösning kräver att rotuttrycket i pq-formeln är noll: \\( ((6+k)/2)^2-9=0\\). Därav <strong>\\(k=0\\) eller \\(k=-12\\)</strong>.</p>",
+        "poang": "0/1/1",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm den gemensamma punkten för varje sådant värde på \\(k\\).</p>",
+        "s": "<p>För \\(k=0\\) fås \\(x=3\\), \\(y=-4\\). För \\(k=-12\\) fås \\(x=-3\\), \\(y=32\\).</p><p><strong>\\((3,-4)\\) och \\((-3,32)\\)</strong></p>",
+        "poang": "0/0/2",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      }
+    ],
+    "spel": true,
+    "traningsniva": [
+      5,
+      5
+    ],
+    "arbetsinsats": [
+      3,
+      3
+    ]
+  },
+  {
+    "kap": 2,
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "miniräknare": false,
+    "geogebra": false,
+    "id": "2.631",
+    "omr": "andragradsfunktioner",
+    "poang": "0/2/1",
+    "t": "<p>En andragradsfunktion</p><p>\\[f(x)=x^2+px+q\\]</p><p>har två olika nollställen. Avståndet mellan nollställena är 6 och grafens symmetrilinje är \\(x=4\\). Dessutom gäller att \\(f(0)=7\\).</p><p>Undersök om alla uppgifterna kan stämma samtidigt. Bestäm i så fall funktionen.</p>",
+    "s": "<p>Symmetrilinjen ligger mitt emellan nollställena. Eftersom avståndet mellan nollställena är 6 ligger de 3 enheter på var sin sida om \\(x=4\\):</p><p>\\[x=4-3=1\\quad\\text{och}\\quad x=4+3=7.\\]</p><p>Koefficienten framför \\(x^2\\) är 1, så funktionen måste vara</p><p>\\[f(x)=(x-1)(x-7)=x^2-8x+7.\\]</p><p>Därmed är \\(p=-8\\) och \\(q=7\\). Kontroll av det sista villkoret:</p><p>\\[f(0)=7.\\]</p><p>Alla uppgifterna är alltså förenliga.</p><p><strong>\\(f(x)=x^2-8x+7\\)</strong></p>",
+    "familj": "andragradsfunktioner__symmetri_och_extrempunkt",
+    "formaga": [
+      "begrepp",
+      "resonemang",
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "\\(x^2-8x+7\\)",
+    "tolerans": null,
+    "självrättning": true,
+    "ledtrad": "<p>Symmetrilinjen ligger mitt emellan nollställena. Om nollställena ligger 6 enheter från varandra, hur långt ligger vart och ett från \\(x=4\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "2.632",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "A",
+    "poang": "0/2/1",
+    "t": "<p>Lös ekvationen</p><p>\\[\\lg(x+3)+\\lg(x-3)=2.\\]</p>",
+    "s": "<p>Logaritmerna kräver \\(x&gt;3\\).</p><p>Använd produktlagen:</p><p>\\[\\lg((x+3)(x-3))=2.\\]</p><p>Med konjugatregeln blir detta</p><p>\\[\\lg(x^2-9)=2.\\]</p><p>Eftersom \\(\\lg100=2\\) gäller</p><p>\\[x^2-9=100\\iff x^2=109.\\]</p><p>Algebraiskt fås \\(x=\\pm\\sqrt{109}\\), men definitionsvillkoret \\(x&gt;3\\) utesluter den negativa lösningen.</p><p><strong>Svar: \\(x=\\sqrt{109}\\approx10{,}4\\).</strong></p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Sammanför logaritmerna först. Produkten \\((x+3)(x-3)\\) kan förenklas med konjugatregeln.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "algebraiskt",
+    "rättSvar": "sqrt(109)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.633",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "C",
+    "poang": "0/2/1",
+    "t": "<p>Lös ekvationen</p><p>\\[\\lg(x^2-16)-\\lg(x-4)=1.\\]</p>",
+    "s": "<p>Eftersom \\(\\lg(x-4)\\) ingår måste \\(x&gt;4\\).</p><p>Faktorisera med konjugatregeln:</p><p>\\[x^2-16=(x-4)(x+4).\\]</p><p>Då blir vänsterledet</p><p>\\[\\lg((x-4)(x+4))-\\lg(x-4)=\\lg(x+4).\\]</p><p>Ekvationen är alltså</p><p>\\[\\lg(x+4)=1\\iff x+4=10.\\]</p><p>Alltså \\(x=6\\), vilket uppfyller definitionsvillkoret.</p><p><strong>Svar: \\(x=6\\).</strong></p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Faktorisera \\(x^2-16\\) innan du använder kvotlagen för logaritmer.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.634",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "C",
+    "poang": "0/2/1",
+    "t": "<p>Lös ekvationen</p><p>\\[2\\lg(x+1)-\\lg(x-1)=\\lg8.\\]</p>",
+    "s": "<p>Definitionsvillkoret är \\(x&gt;1\\).</p><p>Potenslagen ger</p><p>\\[2\\lg(x+1)=\\lg((x+1)^2).\\]</p><p>Sammanför logaritmerna:</p><p>\\[\\lg\\left(\\frac{(x+1)^2}{x-1}\\right)=\\lg8.\\]</p><p>Därför</p><p>\\[(x+1)^2=8(x-1).\\]</p><p>Utveckla och samla termer:</p><p>\\[x^2+2x+1=8x-8\\]</p><p>\\[x^2-6x+9=0\\]</p><p>\\[(x-3)^2=0.\\]</p><p>Alltså \\(x=3\\), som är tillåtet.</p><p><strong>Svar: \\(x=3\\).</strong></p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Använd först potenslagen på \\(2\\lg(x+1)\\), och sammanför sedan logaritmerna till en enda logaritm.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.635",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[\\lg(x-1)+\\lg(x+1)-2\\lg x=\\lg\\left(\\frac34\\right).\\]</p>",
+    "s": "<p>Alla logaritmer måste vara definierade, vilket ger \\(x&gt;1\\).</p><p>Produkt- och potenslagen ger</p><p>\\[\\lg((x-1)(x+1))-\\lg(x^2)=\\lg\\left(\\frac34\\right).\\]</p><p>Konjugatregeln och kvotlagen ger</p><p>\\[\\lg\\left(\\frac{x^2-1}{x^2}\\right)=\\lg\\left(\\frac34\\right).\\]</p><p>Alltså</p><p>\\[\\frac{x^2-1}{x^2}=\\frac34.\\]</p><p>Multiplicera med \\(4x^2\\):</p><p>\\[4x^2-4=3x^2\\iff x^2=4.\\]</p><p>Det ger \\(x=\\pm2\\), men bara \\(x=2\\) uppfyller \\(x&gt;1\\).</p><p><strong>Svar: \\(x=2\\).</strong></p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Försök skriva hela vänsterledet som en enda logaritm. Produkten \\((x-1)(x+1)\\) kan förenklas.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.636",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "C",
+    "poang": "0/2/1",
+    "t": "<p>Bestäm \\(x\\) och \\(y\\) om</p><p>\\[\\begin{cases}\\lg x+\\lg y=2\\\\ \\lg x-\\lg y=\\lg4\\end{cases}\\]</p><p>där \\(x&gt;0\\) och \\(y&gt;0\\).</p>",
+    "s": "<p>Produktlagen i första ekvationen ger</p><p>\\[\\lg(xy)=2\\iff xy=100.\\]</p><p>Kvotlagen i den andra ger</p><p>\\[\\lg\\left(\\frac{x}{y}\\right)=\\lg4\\iff \\frac{x}{y}=4.\\]</p><p>Alltså \\(x=4y\\). Sätt in detta i \\(xy=100\\):</p><p>\\[4y^2=100\\iff y^2=25.\\]</p><p>Eftersom \\(y&gt;0\\) är \\(y=5\\). Då är \\(x=20\\).</p><p><strong>Svar: \\(x=20,\\ y=5\\).</strong></p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Skriv om de två logaritmekvationerna med produktlagen respektive kvotlagen. Då får du ett vanligt ekvationssystem.</p>",
+    "spel": false,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "självrättning": false
+  },
+  {
+    "id": "2.637",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "A",
+    "poang": "0/1/3",
+    "t": "<p>Bestäm alla positiva \\(x\\) och \\(y\\) som uppfyller</p><p>\\[\\begin{cases}\\lg x+\\lg y=2\\\\ (\\lg x)^2+(\\lg y)^2=5.\\end{cases}\\]</p>",
+    "s": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Då får vi</p><p>\\[u+v=2,\\qquad u^2+v^2=5.\\]</p><p>Använd \\((u+v)^2=u^2+2uv+v^2\\):</p><p>\\[4=5+2uv\\iff uv=-\\frac12.\\]</p><p>Tal med summan 2 och produkten \\(-\\frac12\\) är rötter till</p><p>\\[t^2-2t-\\frac12=0.\\]</p><p>pq-formeln ger</p><p>\\[t=1\\pm\\frac{\\sqrt6}{2}.\\]</p><p>Därför är</p><p>\\[\\{\\lg x,\\lg y\\}=\\left\\{1+\\frac{\\sqrt6}{2},1-\\frac{\\sqrt6}{2}\\right\\}.\\]</p><p>De två ordnade lösningarna är alltså</p><p>\\[\\boxed{(x,y)=\\left(10^{1+\\frac{\\sqrt6}{2}},10^{1-\\frac{\\sqrt6}{2}}\\right)}\\]</p><p>eller samma par i omvänd ordning.</p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Sätt \\(u=\\lg x\\) och \\(v=\\lg y\\). Kan du bestämma både \\(u+v\\) och \\(uv\\) med hjälp av \\((u+v)^2\\)?</p>",
+    "spel": false,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "självrättning": false
+  },
+  {
+    "id": "2.638",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[\\lg(x+2)+\\lg(x-2)=2\\lg(x-1)-\\lg2.\\]</p>",
+    "s": "<p>Definitionsvillkoren ger \\(x&gt;2\\).</p><p>Vänsterledet blir</p><p>\\[\\lg((x+2)(x-2))=\\lg(x^2-4).\\]</p><p>Högerledet blir</p><p>\\[\\lg((x-1)^2)-\\lg2=\\lg\\left(\\frac{(x-1)^2}{2}\\right).\\]</p><p>Därför</p><p>\\[x^2-4=\\frac{(x-1)^2}{2}.\\]</p><p>Multiplicera med 2 och förenkla:</p><p>\\[2x^2-8=x^2-2x+1\\]</p><p>\\[x^2+2x-9=0.\\]</p><p>pq-formeln ger</p><p>\\[x=-1\\pm\\sqrt{10}.\\]</p><p>Eftersom \\(x&gt;2\\) återstår endast</p><p><strong>Svar: \\(x=-1+\\sqrt{10}\\).</strong></p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Sammanför logaritmerna på vardera sidan var för sig. Glöm inte definitionsvillkoret innan du löser andragradsekvationen.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "algebraiskt",
+    "rättSvar": "-1+sqrt(10)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "2.639",
+    "kap": 2,
+    "omr": "logaritmlagar",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "familj": "logaritmlagar__losa_logaritmekvation",
+    "miniräknare": false,
+    "geogebra": false,
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen</p><p>\\[\\lg(x+1)+\\lg(x-1)=\\lg(3x+1)+\\lg(x-3).\\]</p>",
+    "s": "<p>Definitionsvillkoren ger \\(x&gt;3\\).</p><p>Produktlagen på båda sidor ger</p><p>\\[\\lg((x+1)(x-1))=\\lg((3x+1)(x-3)).\\]</p><p>Argumenten måste därför vara lika:</p><p>\\[(x+1)(x-1)=(3x+1)(x-3).\\]</p><p>Vänsterledet är \\(x^2-1\\). Högerledet är \\(3x^2-8x-3\\). Alltså</p><p>\\[x^2-1=3x^2-8x-3\\]</p><p>\\[x^2-4x-1=0.\\]</p><p>pq-formeln ger</p><p>\\[x=2\\pm\\sqrt5.\\]</p><p>Definitionsvillkoret \\(x&gt;3\\) utesluter \\(2-\\sqrt5\\). Därför är</p><p><strong>Svar: \\(x=2+\\sqrt5\\).</strong></p>",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Använd produktlagen på båda leden. När du fått en logaritm på varje sida kan du jämföra argumenten.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "algebraiskt",
+    "rättSvar": "2+sqrt(5)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck"
   }
+,
+{
+  "id": "2.640",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg x+\\lg(x-1)=\\lg12.\\]</p>",
+  "s": "<p>Logaritmerna kräver \\(x&gt;1\\).</p><p>Produktlagen ger</p><p>\\[\\lg(x(x-1))=\\lg12.\\]</p><p>Därför måste argumenten vara lika:</p><p>\\[x(x-1)=12.\\]</p><p>Alltså</p><p>\\[x^2-x-12=0\\]</p><p>\\[(x-4)(x+3)=0.\\]</p><p>Vi får \\(x=4\\) eller \\(x=-3\\). Definitionsvillkoret utesluter \\(-3\\).</p><p><strong>Svar: \\(x=4\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>De två logaritmerna i vänsterled kan slås ihop. Vad blir deras gemensamma argument?</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 4,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 4
+},
+{
+  "id": "2.641",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg(2x)-\\lg(x-1)=\\lg3.\\]</p>",
+  "s": "<p>Definitionsvillkoret är \\(x&gt;1\\).</p><p>Kvotlagen ger</p><p>\\[\\lg\\left(\\frac{2x}{x-1}\\right)=\\lg3.\\]</p><p>Därför</p><p>\\[\\frac{2x}{x-1}=3.\\]</p><p>Multiplicera med \\(x-1\\):</p><p>\\[2x=3x-3\\]</p><p>så att \\(x=3\\). Det uppfyller definitionsvillkoret.</p><p><strong>Svar: \\(x=3\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Skillnaden mellan två logaritmer kan skrivas som logaritmen av en kvot.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 3
+},
+{
+  "id": "2.642",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg x+\\lg5=\\lg(x+12).\\]</p>",
+  "s": "<p>Här krävs \\(x&gt;0\\).</p><p>Produktlagen ger</p><p>\\[\\lg(5x)=\\lg(x+12).\\]</p><p>Därför</p><p>\\[5x=x+12.\\]</p><p>Det ger</p><p>\\[4x=12\\iff x=3.\\]</p><p>Värdet är tillåtet.</p><p><strong>Svar: \\(x=3\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Se \\(\\lg5\\) som en del av samma logaritmuttryck som \\(\\lg x\\).</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 3
+},
+{
+  "id": "2.643",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[2\\lg x=\\lg(3x+4).\\]</p>",
+  "s": "<p>Definitionsvillkoren ger \\(x&gt;0\\).</p><p>Potenslagen ger</p><p>\\[2\\lg x=\\lg(x^2).\\]</p><p>Alltså</p><p>\\[\\lg(x^2)=\\lg(3x+4),\\]</p><p>så</p><p>\\[x^2=3x+4.\\]</p><p>Flytta allt till vänster:</p><p>\\[x^2-3x-4=0\\]</p><p>\\[(x-4)(x+1)=0.\\]</p><p>Rötterna är \\(4\\) och \\(-1\\), men bara \\(4\\) uppfyller \\(x&gt;0\\).</p><p><strong>Svar: \\(x=4\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Koefficienten 2 framför \\(\\lg x\\) kan flyttas in som en exponent.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 4,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 4
+},
+{
+  "id": "2.644",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg\\left(\\frac{x}{2}\\right)+\\lg4=\\lg(x+6).\\]</p>",
+  "s": "<p>Definitionsvillkoret är \\(x&gt;0\\).</p><p>Produktlagen ger</p><p>\\[\\lg\\left(\\frac{x}{2}\\cdot4\\right)=\\lg(x+6).\\]</p><p>Förenkla argumentet:</p><p>\\[\\lg(2x)=\\lg(x+6).\\]</p><p>Därför</p><p>\\[2x=x+6,\\]</p><p>vilket ger \\(x=6\\).</p><p><strong>Svar: \\(x=6\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Slå ihop logaritmerna i vänsterled och förenkla sedan produkten inne i logaritmen.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 6
+},
+{
+  "id": "2.645",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg(x+2)-\\lg x=\\lg2.\\]</p>",
+  "s": "<p>Definitionsvillkoret är \\(x&gt;0\\).</p><p>Kvotlagen ger</p><p>\\[\\lg\\left(\\frac{x+2}{x}\\right)=\\lg2.\\]</p><p>Därför</p><p>\\[\\frac{x+2}{x}=2.\\]</p><p>Multiplicera med \\(x\\):</p><p>\\[x+2=2x,\\]</p><p>så \\(x=2\\).</p><p><strong>Svar: \\(x=2\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Sammanför vänsterledet till en enda logaritm innan du tar bort logaritmerna.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 2
+},
+{
+  "id": "2.646",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg x-\\lg2+\\lg(x-1)=1.\\]</p>",
+  "s": "<p>Definitionsvillkoret är \\(x&gt;1\\).</p><p>Sammanför först logaritmerna:</p><p>\\[\\lg\\left(\\frac{x(x-1)}{2}\\right)=1.\\]</p><p>Eftersom \\(\\lg10=1\\) får vi</p><p>\\[\\frac{x(x-1)}{2}=10.\\]</p><p>Alltså</p><p>\\[x^2-x-20=0\\]</p><p>\\[(x-5)(x+4)=0.\\]</p><p>Rötterna är \\(5\\) och \\(-4\\), men definitionsvillkoret ger endast</p><p><strong>Svar: \\(x=5\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Här behöver du både produktlagen och kvotlagen. Skriv hela vänsterledet som en logaritm.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 4,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 5
+},
+{
+  "id": "2.647",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg(x+4)=1+\\lg2.\\]</p>",
+  "s": "<p>Definitionsvillkoret är \\(x&gt;-4\\).</p><p>Det dolda steget är att skriva</p><p>\\[1=\\lg10.\\]</p><p>Då blir högerledet</p><p>\\[\\lg10+\\lg2=\\lg20.\\]</p><p>Ekvationen är alltså</p><p>\\[\\lg(x+4)=\\lg20.\\]</p><p>Därför</p><p>\\[x+4=20\\iff x=16.\\]</p><p><strong>Svar: \\(x=16\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Kan talet 1 skrivas som en tiologaritm? Då kan högerledet slås ihop.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 16
+},
+{
+  "id": "2.648",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[\\lg x+1=\\lg(x+9).\\]</p>",
+  "s": "<p>Definitionsvillkoret är \\(x&gt;0\\).</p><p>Skriv \\(1=\\lg10\\). Då får vi</p><p>\\[\\lg x+\\lg10=\\lg(x+9).\\]</p><p>Produktlagen ger</p><p>\\[\\lg(10x)=\\lg(x+9).\\]</p><p>Därför</p><p>\\[10x=x+9\\]</p><p>och alltså</p><p>\\[9x=9\\iff x=1.\\]</p><p><strong>Svar: \\(x=1\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Skriv först om 1 som \\(\\lg10\\). Därefter kan två termer i vänsterled slås ihop.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "rättSvar": 1
+},
+{
+  "id": "2.649",
+  "kap": 2,
+  "omr": "logaritmlagar",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "familj": "logaritmlagar__losa_logaritmekvation",
+  "miniräknare": false,
+  "geogebra": false,
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen</p><p>\\[3\\lg x=\\lg(8x).\\]</p>",
+  "s": "<p>Definitionsvillkoret är \\(x&gt;0\\).</p><p>Potenslagen ger</p><p>\\[3\\lg x=\\lg(x^3).\\]</p><p>Därför</p><p>\\[x^3=8x.\\]</p><p>Eftersom \\(x&gt;0\\) får vi dividera med \\(x\\):</p><p>\\[x^2=8.\\]</p><p>Algebraiskt ger detta \\(x=\\pm\\sqrt8\\), men bara den positiva lösningen är tillåten.</p><p><strong>Svar: \\(x=\\sqrt8=2\\sqrt2\\).</strong></p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Använd potenslagen på vänsterledet. När logaritmerna är borta, använd att \\(x&gt;0\\).</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 4,
+  "svarstyp": "algebraiskt",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "uttryck",
+  "rättSvar": "2*sqrt(2)"
+},
+{
+  "id":"2.650","kap":2,"omr":"exponentialekvationer","kurs":["2a","2b","2c"],"familj":"exponentialekvationer__substitution_gemensam_bas","miniräknare":false,"geogebra":false,"niva":"A","poang":"0/1/2",
+  "t":"<p>Lös ekvationen</p><p>\\[9^x-4\\cdot3^x=45.\\]</p>",
+  "s":"<p>Skriv först \\(9^x=(3^x)^2\\). Sätt \\(u=3^x\\). Då blir ekvationen</p><p>\\[u^2-4u-45=0.\\]</p><p>Faktorisera:</p><p>\\[(u-9)(u+5)=0.\\]</p><p>Eftersom \\(u=3^x&gt;0\\) kan \\(u=-5\\) inte användas. Alltså \\(3^x=9=3^2\\), vilket ger</p><p><strong>\\(x=2\\).</strong></p>",
+  "formaga":["procedur","begrepp"],"ledtrad":"<p>Skriv \\(9^x\\) som en potens av \\(3^x\\). Då kan du behandla \\(3^x\\) som en ny variabel.</p>","spel":true,"traningsniva":4,"arbetsinsats":4,"svarstyp":"numeriskt","tolerans":1e-9,"självrättning":true,"svarFormat":"numeriskt","rättSvar":2
+},
+{
+  "id":"2.651","kap":2,"omr":"exponentialekvationer","kurs":["2a","2b","2c"],"familj":"exponentialekvationer__bryt_ut_gemensam_potens","miniräknare":false,"geogebra":false,"niva":"C","poang":"0/2/0",
+  "t":"<p>Lös ekvationen</p><p>\\[2^{x+2}+2^{x-1}=36.\\]</p>",
+  "s":"<p>Skriv båda termerna med faktorn \\(2^x\\):</p><p>\\[4\\cdot2^x+\\frac12\\cdot2^x=36.\\]</p><p>Då får vi</p><p>\\[\\frac92\\cdot2^x=36\\]</p><p>och alltså \\(2^x=8=2^3\\).</p><p><strong>\\(x=3\\).</strong></p>",
+  "formaga":["procedur","begrepp"],"ledtrad":"<p>Försök skriva både \\(2^{x+2}\\) och \\(2^{x-1}\\) som en konstant multiplicerad med \\(2^x\\).</p>","spel":true,"traningsniva":4,"arbetsinsats":3,"svarstyp":"numeriskt","tolerans":1e-9,"självrättning":true,"svarFormat":"numeriskt","rättSvar":3
+},
+{
+  "id":"2.652","kap":2,"omr":"potensekvationer","kurs":["2a","2b","2c"],"familj":"potensekvationer__substitution_bratpotens","miniräknare":false,"geogebra":false,"niva":"A","poang":"0/1/2",
+  "t":"<p>Lös ekvationen</p><p>\\[x^{2/3}-5x^{1/3}+6=0.\\]</p>",
+  "s":"<p>Observera att \\(x^{2/3}=(x^{1/3})^2\\). Sätt \\(u=x^{1/3}\\). Då får vi</p><p>\\[u^2-5u+6=0\\]</p><p>\\[(u-2)(u-3)=0.\\]</p><p>Alltså är \\(x^{1/3}=2\\) eller \\(x^{1/3}=3\\). Det ger \\(x=8\\) eller \\(x=27\\).</p><p><strong>Svar: \\(x=8\\) eller \\(x=27\\).</strong></p>",
+  "formaga":["procedur","begrepp"],"ledtrad":"<p>Se \\(x^{1/3}\\) som en ny variabel. Hur kan då \\(x^{2/3}\\) skrivas?</p>","spel":false,"traningsniva":4,"arbetsinsats":4,"svarstyp":"uttryck","tolerans":null,"självrättning":false,"svarFormat":"uttryck","rättSvar":"x=8 eller x=27"
+},
+{
+  "id":"2.653","kap":2,"omr":"exponentialekvationer","kurs":["2a","2b","2c"],"familj":"exponentialekvationer__andragradsuttryck_i_exponenten","miniräknare":false,"geogebra":false,"niva":"A","poang":"0/1/2",
+  "t":"<p>Lös ekvationen</p><p>\\[5^{x^2-4x}=125.\\]</p>",
+  "s":"<p>Skriv \\(125=5^3\\). Eftersom baserna är lika får vi</p><p>\\[x^2-4x=3.\\]</p><p>Alltså</p><p>\\[x^2-4x-3=0.\\]</p><p>pq-formeln ger</p><p>\\[x=2\\pm\\sqrt7.\\]</p><p><strong>Svar: \\(x=2-\\sqrt7\\) eller \\(x=2+\\sqrt7\\).</strong></p>",
+  "formaga":["procedur","begrepp"],"ledtrad":"<p>Skriv 125 som en potens med basen 5. Då kan exponenterna jämföras.</p>","spel":false,"traningsniva":4,"arbetsinsats":3,"svarstyp":"uttryck","tolerans":null,"självrättning":false,"svarFormat":"uttryck","rättSvar":"x=2-sqrt(7) eller x=2+sqrt(7)"
+},
+{
+  "id":"2.654","kap":2,"omr":"exponentialekvationer","kurs":["2a","2b","2c"],"familj":"exponentialekvationer__substitution_och_logaritm","miniräknare":true,"geogebra":false,"niva":"A","poang":"0/1/2",
+  "t":"<p>Lös ekvationen</p><p>\\[4^x+2^{x+1}=48.\\]</p><p>Ge ett exakt svar.</p>",
+  "s":"<p>Skriv \\(4^x=(2^x)^2\\) och \\(2^{x+1}=2\\cdot2^x\\). Sätt \\(u=2^x\\). Då blir ekvationen</p><p>\\[u^2+2u-48=0\\]</p><p>\\[(u+8)(u-6)=0.\\]</p><p>Eftersom \\(2^x&gt;0\\) återstår \\(2^x=6\\). Logaritmera:</p><p>\\[x\\lg2=\\lg6.\\]</p><p>Alltså</p><p><strong>\\(x=\\dfrac{\\lg6}{\\lg2}\\).</strong></p>",
+  "formaga":["procedur","begrepp","resonemang"],"ledtrad":"<p>Skriv först allt med basen 2 och sätt sedan \\(u=2^x\\). Du behöver logaritmer först i sista steget.</p>","spel":false,"traningsniva":5,"arbetsinsats":5,"svarstyp":"uttryck","tolerans":null,"självrättning":false,"svarFormat":"uttryck","rättSvar":"lg(6)/lg(2)"
+},
+{
+  "id":"2.655","kap":2,"omr":"exponentialekvationer","kurs":["2a","2b","2c"],"familj":"exponentialekvationer__andragrad_i_exponentialuttryck","miniräknare":false,"geogebra":false,"niva":"A","poang":"0/0/3",
+  "t":"<p>Lös ekvationen</p><p>\\[3^{2x+1}-10\\cdot3^x+3=0.\\]</p>",
+  "s":"<p>Skriv \\(3^{2x+1}=3(3^x)^2\\). Sätt \\(u=3^x\\). Då får vi</p><p>\\[3u^2-10u+3=0\\]</p><p>\\[(3u-1)(u-3)=0.\\]</p><p>Alltså \\(u=\\frac13\\) eller \\(u=3\\). Eftersom \\(u=3^x\\) får vi</p><p>\\[3^x=3^{-1}\\Rightarrow x=-1\\]</p><p>eller</p><p>\\[3^x=3\\Rightarrow x=1.\\]</p><p><strong>Svar: \\(x=-1\\) eller \\(x=1\\).</strong></p>",
+  "formaga":["procedur","begrepp","resonemang"],"ledtrad":"<p>Uttrycket \\(3^{2x+1}\\) kan skrivas med hjälp av \\(3^x\\). Prova sedan en substitution.</p>","spel":false,"traningsniva":5,"arbetsinsats":5,"svarstyp":"uttryck","tolerans":null,"självrättning":false,"svarFormat":"uttryck","rättSvar":"x=-1 eller x=1"
+},
+{
+  "id":"2.656","kap":2,"omr":"potensekvationer","kurs":["2a","2b","2c"],"familj":"potensekvationer__potens_lika_med_ett","miniräknare":false,"geogebra":false,"niva":"A","poang":"0/0/3",
+  "t":"<p>Bestäm alla reella \\(x\\) som uppfyller</p><p>\\[(x^2-5x+5)^{x-2}=1.\\]</p>",
+  "s":"<p>En potens kan bli 1 på flera sätt, så vi behöver undersöka fallen.</p><p><strong>Basen är 1:</strong></p><p>\\[x^2-5x+5=1\\Rightarrow x^2-5x+4=0\\]</p><p>vilket ger \\(x=1\\) eller \\(x=4\\).</p><p><strong>Exponenten är 0:</strong></p><p>\\[x-2=0\\Rightarrow x=2.\\]</p><p>Basen är då \\(-1\\), så uttrycket är definierat och \\((-1)^0=1\\).</p><p><strong>Basen är -1:</strong> \\(x^2-5x+5=-1\\) ger \\(x=2\\) eller \\(x=3\\). \\(x=2\\) finns redan. För \\(x=3\\) blir potensen \\((-1)^1=-1\\), så den fungerar inte.</p><p><strong>Svar: \\(x=1,2,4\\).</strong></p>",
+  "formaga":["begrepp","resonemang"],"ledtrad":"<p>Fråga dig på vilka olika sätt en potens kan få värdet 1. Exponenten 0 är bara ett av fallen.</p>","spel":false,"traningsniva":5,"arbetsinsats":6,"svarstyp":"uttryck","tolerans":null,"självrättning":false,"svarFormat":"uttryck","rättSvar":"x=1,2,4"
+},
+{
+  "id":"2.657","kap":2,"omr":"exponentialekvationer","kurs":["2a","2b","2c"],"familj":"exponentialekvationer__flera_baser_substitution","miniräknare":false,"geogebra":false,"niva":"A","poang":"0/0/3",
+  "t":"<p>Lös ekvationen</p><p>\\[2^x+8^x=10\\cdot4^{x-1}.\\]</p>",
+  "s":"<p>Skriv alla baser som potenser av 2:</p><p>\\[2^x+2^{3x}=10\\cdot2^{2x-2}.\\]</p><p>Dividera med \\(2^x&gt;0\\):</p><p>\\[1+2^{2x}=10\\cdot2^{x-2}.\\]</p><p>Sätt \\(u=2^x\\). Då är \\(2^{2x}=u^2\\) och \\(2^{x-2}=u/4\\). Vi får</p><p>\\[1+u^2=\\frac{5u}{2}\\]</p><p>och därmed</p><p>\\[2u^2-5u+2=0\\]</p><p>\\[(2u-1)(u-2)=0.\\]</p><p>Alltså \\(u=\\frac12\\) eller \\(u=2\\). Eftersom \\(u=2^x\\) får vi \\(x=-1\\) eller \\(x=1\\).</p><p><strong>Svar: \\(x=-1\\) eller \\(x=1\\).</strong></p>",
+  "formaga":["procedur","begrepp","resonemang"],"ledtrad":"<p>Skriv 8 och 4 som potenser av 2. Försök sedan få fram ett uttryck som bara innehåller \\(2^x\\) och \\(2^{2x}\\).</p>","spel":false,"traningsniva":5,"arbetsinsats":6,"svarstyp":"uttryck","tolerans":null,"självrättning":false,"svarFormat":"uttryck","rättSvar":"x=-1 eller x=1"
+}
+
 ];

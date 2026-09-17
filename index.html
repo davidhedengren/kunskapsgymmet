@@ -1457,6 +1457,14 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
   border-bottom:1px solid transparent;transition:border-color .3s ease;
 }
 .ttop.stuck{border-bottom-color:var(--hair)}
+/* Mätaren tar allt utrymme som blir över i raden. Baren är det som växer,
+   så en liten XP-vinst syns som en tydlig bit och inte som ett streck.
+   Raden har ingen utfyllnad före mätaren längre; mätaren är utfyllnaden. */
+.ttop .xpmeter{flex:1 1 auto;min-width:0}
+.ttop .xpmeter .bar{flex:1 1 auto;width:auto;min-width:56px}
+@media(max-width:760px){
+  .ttop .xpmeter .num{display:none}
+}
 .dots{display:flex;gap:5px;align-items:center}
 .dots i{width:7px;height:7px;border-radius:50%;background:var(--hair2);transition:.35s var(--ease)}
 .dots i.done{background:var(--acc);transform:scale(1.1)}
@@ -8065,7 +8073,6 @@ function renderTraining(){
     <div class="tshell view">
       <div class="ttop">
         <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Avsluta</button>
-        <div class="spacer"></div>
         ${xpMeterHtml()}
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
@@ -8303,7 +8310,6 @@ function renderAltTask(t){
     <div class="tshell view">
       <div class="ttop">
         <button class="crumb" onclick="backToDashboard()"><span aria-hidden="true">←</span> Avsluta</button>
-        <div class="spacer"></div>
         ${xpMeterHtml()}
         <span class="tag" style="background:transparent;border-color:var(--hair)">${esc(sessionLabel())}</span>
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>

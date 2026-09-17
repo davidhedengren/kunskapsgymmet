@@ -370,18 +370,13 @@ a{color:inherit}
    den tillbaka i flödet, där det inte längre finns utrymme. */
 .xppill{
   position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-  gap:11px;padding:8px 16px 9px 10px;border-radius:17px;
+  gap:10px;padding:7px 14px 7px 8px;border-radius:18px;
   background:var(--surface);
 }
 .xppill:hover{background:var(--surface2)}
-.xppill .xpkropp{display:flex;flex-direction:column;gap:6px;min-width:0}
-.xppill .xptopp{
-  display:flex;align-items:baseline;gap:8px;font-size:12.5px;line-height:1;
-}
-.topbar .xppill .rname{display:inline}
-.xppill .rankdot{width:27px;height:27px;border-radius:9px;font-size:12px}
+.xppill .rankdot{width:30px;height:30px;border-radius:10px;font-size:14px;font-weight:800}
 .xppill .xpbar{
-  position:relative;width:clamp(180px,27vw,280px);height:20px;margin-left:0;
+  position:relative;width:clamp(190px,29vw,300px);height:28px;margin-left:0;
   background:var(--hair);
   box-shadow:inset 0 1px 2px rgba(11,33,51,.16);
 }
@@ -389,11 +384,26 @@ a{color:inherit}
    gör att det går att läsa både över guldet och över det tomma spåret,
    i båda färglägena. */
 .topbar .xppill .xpnum{
-  display:grid;place-items:center;position:absolute;inset:0;
-  font-size:11.5px;font-weight:700;letter-spacing:-.01em;
+  display:grid;place-items:center;position:absolute;inset:0;z-index:3;
+  font-size:13px;font-weight:700;letter-spacing:-.01em;
   font-variant-numeric:tabular-nums;color:var(--ink);
   text-shadow:0 0 3px var(--surface),0 0 6px var(--surface),0 1px 1px rgba(11,33,51,.3);
   pointer-events:none;
+}
+/* Den nyvunna biten av baren blinkar grönt på plats, så eleven ser
+   exakt hur mycket just det här passet flyttade mätaren. */
+.xppill .xpbar i.xpny{
+  position:absolute;top:0;bottom:0;left:0;width:0;z-index:2;
+  height:100%;border-radius:99px;
+  background:var(--good);box-shadow:0 0 12px -2px var(--good);
+  opacity:0;pointer-events:none;transition:none;
+}
+.xppill .xpbar i.xpny.blink{animation:xpny 1.25s var(--ease)}
+@keyframes xpny{
+  0%{opacity:0}
+  10%{opacity:.95} 28%{opacity:.3}
+  46%{opacity:.95} 64%{opacity:.3}
+  82%{opacity:.9} 100%{opacity:0}
 }
 .xppill .xpbar i{
   position:relative;overflow:hidden;
@@ -407,9 +417,7 @@ a{color:inherit}
 }
 .xppill.tick .xpbar i:after{animation:xpsken .85s var(--ease)}
 @keyframes xpsken{to{transform:translateX(101%)}}
-.xppill .gain{top:-2px;font-size:13.5px}
-.topbar .xppill .flame{font-size:12px}
-.topbar .xppill .flame:before{content:"·";margin-right:8px;opacity:.5;color:var(--ink3)}
+.xppill .gain{top:-4px;font-size:13.5px}
 .pill .xpnum{color:var(--ink3);font-weight:600;font-size:11.5px;letter-spacing:-.01em}
 .pill .xpnum .sep{margin:0 2px;opacity:.55}
 .pill .gain{
@@ -1082,8 +1090,13 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 }
 .ringwrap .num{line-height:1.05}
 .ringwrap .num small{display:block;font-size:10px;font-weight:600;letter-spacing:-.01em;color:var(--ink3);margin-top:2px}
-/* Etiketten står över talet, så siffran hamnar optiskt mitt i ringen. */
-.ringwrap .num.over small{margin:0 0 1px}
+/* Etiketten läggs i samma rutnätscell som siffran men dras upp till
+   kanten. Då står siffran exakt i ringens mitt i stället för att tryckas
+   nedåt av en rad ovanför. */
+.ringwrap .num.over{display:grid;place-items:center}
+.ringwrap .num.over b,.ringwrap .num.over small{grid-area:1/1}
+.ringwrap .num.over b{font-weight:700}
+.ringwrap .num.over small{align-self:start;margin:0;transform:translateY(-1px)}
 .ring circle{transition:stroke-dashoffset 1.2s var(--ease)}
 .rankname{font-size:16px;font-weight:700;letter-spacing:-.035em}
 .rankmeta{margin-top:3px;font-size:12.5px;color:var(--ink3)}
@@ -2114,20 +2127,19 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .xppill{position:static;transform:none}
 }
 @media(max-width:820px){
-  .topbar .pill .xpnum,.topbar .xppill .xpnum{display:none}
+  .topbar .pill .xpnum{display:none}
+  .topbar .xppill .xpnum{display:grid}
 }
 @media(max-width:760px){
-  .topbar .pill .rname,.topbar .xppill .rname{display:none}
+  .topbar .pill .rname{display:none}
 }
 /* Under 700px blir tvåradsformen för hög för menyn: tillbaka till en rad. */
 @media(max-width:700px){
   .topbar .inner{height:60px}
-  .xppill{padding:6px 12px 6px 7px;border-radius:99px;gap:8px}
-  .xppill .xpkropp{flex-direction:row;align-items:center;gap:8px}
-  .xppill .xptopp{gap:7px}
-  .xppill .rankdot{width:21px;height:21px;border-radius:7px;font-size:10px}
-  .xppill .xpbar{width:clamp(70px,16vw,120px);height:7px}
-  .xppill .xpnum{margin-left:0;padding-left:0}
+  .xppill{padding:5px 10px 5px 6px;border-radius:99px;gap:7px}
+  .xppill .rankdot{width:24px;height:24px;border-radius:8px;font-size:12px}
+  .xppill .xpbar{width:clamp(96px,26vw,150px);height:22px}
+  .topbar .xppill .xpnum{font-size:11px}
 }
 
 @media(max-width:680px){
@@ -2145,7 +2157,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .pill{padding:5px 10px 5px 6px;font-size:12px}
   .pill .rname{display:none}
   .pill .xpbar{width:52px}
-  .topbar .xppill .xpbar{width:clamp(56px,14vw,90px)}
+  .topbar .xppill .xpbar{width:clamp(80px,20vw,120px)}
   .topbar .pill .flame{display:none}
   .pill .flame:before{content:"·";margin-right:6px;opacity:.5;color:var(--ink3);font-weight:600}
   .topbar .btn.sm{padding:7px 11px}
@@ -2169,7 +2181,8 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .topbar .pill .flame,.topbar .pill .rankdot{display:none}
   .topbar .pill{padding:5px 11px}
   .topbar .pill .xpbar{width:44px}
-  .topbar .xppill .xpbar{width:46px}
+  .topbar .xppill .xpbar{width:64px}
+  .topbar .xppill .xpnum{font-size:10px}
 }
 @media(max-width:340px){
   .topbar .iconbtn{display:none}
@@ -3825,18 +3838,15 @@ window.addEventListener("scroll",()=>{
 
 function topbar(){
   const lp=levelProgress(), r=rankFor(lp.level), st=currentStreak();
+  /* Mätaren bär bara två saker: vilken nivå du är på och hur långt kvar
+     det är. Rank och antal dagar står i rankkortet, där det finns plats
+     att läsa dem i lugn och ro. */
   const badge=profile.attempts?`<button class="pill xppill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""}. Visa min utveckling">
-      <span class="rankdot" id="xprankdot">${r.sym}</span>
-      <span class="xpkropp">
-        <span class="xptopp">
-          <span class="lvl">Nivå <span id="xplvl">${lp.level}</span></span>
-          <span class="rname" id="xprank">${esc(r.name)}</span>
-          ${st?`<span class="flame">${st}\u2009d</span>`:""}
-        </span>
-        <span class="xpbar">
-          <i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i>
-          <span class="xpnum" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need}</span>
-        </span>
+      <span class="rankdot niva" id="xplvl">${lp.level}</span>
+      <span class="xpbar">
+        <i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i>
+        <i class="xpny" id="xpny" aria-hidden="true"></i>
+        <span class="xpnum" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need}</span>
       </span>
       <span class="gain" id="xpgain" aria-hidden="true"></span>
     </button>`:"";
@@ -5163,7 +5173,7 @@ function renderDashboard(){
   state.view="dashboard";
   const c=COURSES[state.course];
   const kort=getCards(), cp=ensureCourseProfile();
-  const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
+  const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level), st=currentStreak();
   const weak=weakCards(3);
 
   const grouped={};
@@ -5234,11 +5244,12 @@ function renderDashboard(){
               <svg width="0" height="0"><defs><linearGradient id="goldgrad" x1="0" y1="1" x2="1" y2="0">
                 <stop offset="0%" stop-color="#c79a3c"/><stop offset="100%" stop-color="#f0d296"/>
               </linearGradient></defs></svg>
-              <div class="num over"><small>nivå</small>${lp.level}</div>
+              <div class="num over"><small>nivå</small><b>${lp.level}</b></div>
             </div>
             <div class="rankid">
               <div class="rankname">${esc(rank.name)}</div>
-              <div class="rankmeta">${profile.xp} XP</div>
+              <div class="rankmeta">${profile.xp} XP${
+                st?` · ${st} dag${st===1?"":"ar"} i rad`:""}</div>
             </div>
             <button class="rankgo" onclick="showProgress()">Utveckling <span aria-hidden="true">→</span></button>
           </div>
@@ -7144,6 +7155,19 @@ function xpStall(xp,animeraTal,fran){
   if(animeraTal) xpRaknaUpp(fran,into,need,900); else xpSkrivTal(into,need);
 }
 
+/* Markerar sträckan mellan gammalt och nytt läge och låter den blinka.
+   Bredderna räknas i procent av den aktuella nivåns spann. */
+function blinkaVunnet(franPct,tillPct){
+  const ny=document.getElementById("xpny");
+  if(!ny) return;
+  const a=Math.max(0,Math.min(100,franPct)), b=Math.max(0,Math.min(100,tillPct));
+  if(b-a<=0.3) return;
+  ny.style.left=a+"%";
+  ny.style.width=(b-a)+"%";
+  ny.classList.remove("blink"); void ny.offsetWidth; ny.classList.add("blink");
+  setTimeout(()=>{ ny.classList.remove("blink"); ny.style.width="0%"; },1300);
+}
+
 function animeraXp(fore,efter){
   const meter=xpRuta(), fill=document.getElementById("xpfill"),
         lvl=document.getElementById("xplvl"), gain=document.getElementById("xpgain");
@@ -7166,6 +7190,7 @@ function animeraXp(fore,efter){
   const needFore=Math.max(1,totalXpForLevel(Lfore+1)-totalXpForLevel(Lfore));
 
   if(Lefter>Lfore){
+    blinkaVunnet(100*intoFore/needFore,100);
     fill.style.width="100%";
     xpRaknaUpp(intoFore,needFore,needFore,600);
     setTimeout(()=>{
@@ -7175,10 +7200,16 @@ function animeraXp(fore,efter){
       if(lvl){ lvl.classList.remove("upp"); void lvl.offsetWidth; lvl.classList.add("upp"); }
       requestAnimationFrame(()=>{
         f.style.transition="";
-        requestAnimationFrame(()=>xpStall(efter,true,0));
+        requestAnimationFrame(()=>{
+          xpStall(efter,true,0);
+          const Ln=levelFromXP(efter), basN=totalXpForLevel(Ln);
+          const needN=Math.max(1,totalXpForLevel(Ln+1)-basN);
+          blinkaVunnet(0,100*(efter-basN)/needN);
+        });
       });
     },720);
   }else{
+    blinkaVunnet(100*intoFore/needFore,100*(efter-totalXpForLevel(Lfore))/needFore);
     requestAnimationFrame(()=>xpStall(efter,true,intoFore));
   }
 }
@@ -9144,7 +9175,7 @@ function showProgress(record){
       <div class="rankrow">
         <div class="ringwrap">
           ${ring(lp.pct,74,6,"#c79a3c")}
-          <div class="num over"><small>nivå</small>${lp.level}</div>
+          <div class="num over"><small>nivå</small><b>${lp.level}</b></div>
         </div>
         <div style="flex:1;min-width:180px">
           <div class="rankname">${esc(rank.name)}</div>

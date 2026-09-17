@@ -1136,70 +1136,85 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
   .kap-kunskap .etikett{white-space:normal;line-height:1.15}
 }
 
-.area-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(238px,1fr));gap:11px}
+/* ── Områdeskort ──
+   Samma kortspråk som kurskorten på startsidan, i kursens färg
+   (--tintStrong/--tintSoft/--tintGlow sätts på kursvyns <main>).
+   Statusfärgen (--tone) lever kvar i ringen och i statustexten. */
+.area-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.area-grid.stagger>.area{animation-fill-mode:backwards}
 .area{
-  --tone:#7d93a2;--toneWash:rgba(125,147,162,.10);--toneEdge:rgba(125,147,162,.26);
-  --toneDisc:rgba(125,147,162,.12);--toneGlow:rgba(11,33,51,.34);
-  position:relative;overflow:hidden;text-align:left;padding:14px;border-radius:17px;
-  border:1px solid var(--toneEdge);
-  background:
-    linear-gradient(158deg,var(--toneWash) 0%,transparent 62%),
-    linear-gradient(168deg,var(--surface) 0%,var(--surface2) 100%);
-  box-shadow:
-    0 1px 1.5px rgba(11,33,51,.06),
-    0 8px 20px -17px var(--toneGlow),
-    inset 0 1px 0 var(--specular);
-  transition:transform .28s var(--ease),box-shadow .28s var(--ease),border-color .22s ease;
-  display:flex;align-items:center;gap:12px;min-height:82px;
+  --lyft:cubic-bezier(.34,1.56,.64,1);
+  --tone:#7d93a2;--toneDisc:rgba(125,147,162,.12);
+  position:relative;isolation:isolate;text-align:left;padding:14px 12px 14px 14px;border-radius:18px;
+  border:1px solid var(--hair);
+  border-color:color-mix(in srgb,var(--tintStrong,var(--acc)) 20%,var(--hair));
+  background:var(--surface);
+  background:linear-gradient(160deg,color-mix(in srgb,var(--tintStrong,var(--acc)) 7%,var(--surface)) 0%,var(--surface) 62%);
+  box-shadow:var(--e1),inset 0 1px 0 var(--specular);
+  transition:transform .42s var(--lyft),box-shadow .42s var(--ease),border-color .3s ease;
+  display:flex;align-items:center;gap:10px;min-height:78px;
 }
+.area:not(.stack){cursor:pointer}
+/* Ljuskägla som följer pekaren */
 .area:before{
-  content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:.7;transition:opacity .35s ease;
-  background:radial-gradient(210px 150px at 112% -25%,var(--toneWash),transparent 74%);
+  content:"";position:absolute;inset:0;z-index:-1;border-radius:inherit;pointer-events:none;opacity:0;
+  background:radial-gradient(220px circle at var(--mx,20%) var(--my,0%),var(--tintSoft,var(--accSoft)),transparent 70%);
+  transition:opacity .4s ease;
 }
-.area:hover,.area:focus-within{overflow:visible}
-.area:hover{
-  transform:translateY(-2px);
-  box-shadow:
-    0 2px 3px rgba(11,33,51,.07),
-    0 18px 30px -20px var(--toneGlow),
-    inset 0 1px 0 var(--specular);
+/* Accentlinje i överkant */
+.area:after{
+  content:"";position:absolute;left:16px;right:16px;top:-1px;height:2px;border-radius:0 0 2px 2px;
+  z-index:3;pointer-events:none;opacity:0;transition:opacity .35s ease;
+  background:linear-gradient(90deg,var(--tintStrong,var(--acc)),transparent 90%);
 }
-.area:hover:before{opacity:1}
-.area:active{transform:translateY(-1px) scale(.99)}
-.area.t-good{--tone:var(--gold);--toneWash:var(--goldSoft);--toneEdge:rgba(190,145,50,.30);
-  --toneDisc:var(--goldSoft);--toneGlow:rgba(190,145,50,.55)}
-.area.t-mid{--tone:var(--accInk);--toneWash:var(--accSoft);--toneEdge:var(--hair2);
-  --toneDisc:var(--accSoft);--toneGlow:var(--accSoft)}
-.area.t-low{--tone:var(--amber);--toneWash:var(--amberSoft);--toneEdge:rgba(176,124,25,.32);
-  --toneDisc:var(--amberSoft);--toneGlow:rgba(150,105,20,.55)}
-html[data-theme="dark"] .area{
-  --toneEdge:var(--hair2);
-  box-shadow:0 1px 1px rgba(0,0,0,.28),0 14px 28px -18px #000,inset 0 1px 0 var(--specular);
-  background:
-    linear-gradient(158deg,var(--toneWash) 0%,transparent 60%),
-    linear-gradient(168deg,var(--surface2) 0%,var(--surface) 100%);
-  box-shadow:0 1px 1px rgba(0,0,0,.28),0 14px 28px -18px #000,inset 0 1px 0 rgba(255,255,255,.06);
+.area.t-good{--tone:var(--gold);--toneDisc:var(--goldSoft)}
+.area.t-mid{--tone:var(--accInk);--toneDisc:var(--accSoft)}
+.area.t-low{--tone:var(--amber);--toneDisc:var(--amberSoft)}
+
+@media(hover:hover){
+  .area:not(.stack):hover{
+    transform:translateY(-5px) scale(1.012);z-index:2;
+    border-color:color-mix(in srgb,var(--tintStrong,var(--acc)) 45%,var(--hair2));
+    box-shadow:var(--e2),0 24px 46px -22px var(--tintGlow,var(--accSoft)),inset 0 1px 0 var(--specular);
+  }
+  .area:not(.stack):hover:before,.area:not(.stack):hover:after{opacity:1}
+  .area:not(.stack):hover .area-ring{transform:scale(1.07)}
+  .area:not(.stack):active{transform:translateY(-2px) scale(1.004);transition-duration:.12s}
 }
-html[data-theme="dark"] .area.t-good{--toneWash:var(--goldSoft);--toneEdge:rgba(231,197,131,.28)}
-html[data-theme="dark"] .area.t-mid{--toneWash:var(--accSoft);--toneEdge:var(--hair2)}
-html[data-theme="dark"] .area.t-low{--toneWash:var(--amberSoft);--toneEdge:rgba(242,185,89,.28)}
-html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 44px -22px #000,inset 0 1px 0 rgba(255,255,255,.08)}
+@media(hover:none){
+  .area:not(.stack):active{transform:scale(.985);transition-duration:.12s}
+}
+.area:not(.stack):has(:focus-visible){
+  transform:translateY(-4px);z-index:2;
+  border-color:color-mix(in srgb,var(--tintStrong,var(--acc)) 45%,var(--hair2));
+}
+.area:not(.stack):has(:focus-visible):after{opacity:1}
+@media(prefers-reduced-motion:reduce){
+  .area:not(.stack):hover,.area:not(.stack):has(:focus-visible){transform:translateY(-2px)}
+  .area:before{display:none}
+}
 
 .omr-oppna{
-  flex:1;min-width:0;display:flex;align-items:center;gap:13px;
+  flex:1;min-width:0;display:flex;align-items:center;gap:12px;
   text-align:left;color:inherit;padding:0;
 }
+.area:not(.stack) .omr-oppna:after{content:"";position:absolute;inset:0;z-index:1;border-radius:inherit}
+.omr-oppna:focus-visible{outline:none}
+.area:not(.stack) .omr-oppna:focus-visible:after{box-shadow:inset 0 0 0 2.5px var(--acc)}
 .omr-punkt{
+  position:relative;z-index:2;
   flex:none;width:34px;height:34px;border-radius:12px;display:grid;place-items:center;
   color:var(--ink3);border:1px solid transparent;opacity:.32;
   transition:.2s var(--ease);
 }
 .omr-punkt svg{width:17px;height:17px;display:block}
 .area:hover .omr-punkt,.omr-punkt:focus-visible{opacity:1}
-.omr-punkt:hover{color:var(--tone);border-color:var(--toneEdge);background:var(--toneWash)}
+.omr-punkt:hover{color:var(--tintStrong,var(--acc));border-color:color-mix(in srgb,var(--tintStrong,var(--acc)) 40%,var(--hair));background:var(--tintSoft,var(--accSoft))}
 .omr-punkt:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
 .area.stack{flex-direction:column;align-items:stretch;gap:11px;min-height:96px}
 
+@media(max-width:1000px) and (min-width:961px){.area-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.area-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .punktgrid{grid-template-columns:repeat(auto-fill,minmax(260px,1fr));align-items:start}
 .punktgrid .area.stack{min-height:0}
 .omrknapp{all:unset;cursor:pointer;display:block;flex:1;min-width:0}
@@ -1212,7 +1227,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 }
 .deltaggar{display:flex;gap:5px;flex-wrap:wrap}
 .area.stack .foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;gap:10px}
-.area-ring{position:relative;width:42px;height:42px;flex:none;display:grid;place-items:center}
+.area-ring{position:relative;width:42px;height:42px;flex:none;display:grid;place-items:center;transition:transform .42s var(--lyft,var(--ease))}
 .area-ring .ring{width:42px;height:42px}
 .area-ring:before{
   content:"";position:absolute;inset:0;border-radius:50%;background:var(--toneDisc);
@@ -1226,14 +1241,17 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .area strong{font-size:14px;font-weight:600;line-height:1.25;letter-spacing:-.022em;
   hyphens:auto;-webkit-hyphens:auto;overflow-wrap:break-word}
 .area .state{font-size:11.5px;font-weight:600;letter-spacing:.005em;color:var(--tone)}
-.area .state.status-help{position:relative;width:max-content;max-width:100%;cursor:help;border-bottom:1px dotted currentColor}
+.area .state.status-help{position:relative;width:max-content;max-width:100%}
 .area .state.status-help:after{
   content:attr(data-tip);position:absolute;left:0;top:calc(100% + 8px);z-index:40;width:245px;max-width:min(245px,70vw);
   padding:9px 10px;border:1px solid var(--hair2);border-radius:10px;background:var(--surface);color:var(--ink);
   box-shadow:0 12px 28px rgba(0,0,0,.16);font-size:11px;font-weight:500;line-height:1.42;letter-spacing:0;
   opacity:0;transform:translateY(-3px);pointer-events:none;transition:.16s var(--ease);white-space:normal
 }
-.area .state.status-help:hover:after,.omr-oppna:focus-visible .state.status-help:after{opacity:1;transform:translateY(0)}
+@media(hover:hover){
+  .area:not(.stack):hover .state.status-help:not(.ny):after{opacity:1;transform:translateY(0);transition-delay:.9s}
+}
+.omr-oppna:focus-visible .state.status-help:not(.ny):after{opacity:1;transform:translateY(0)}
 .meter{height:5px;border-radius:99px;background:var(--hair);overflow:hidden;flex:1;max-width:80px;
   box-shadow:inset 0 1px 2px rgba(11,33,51,.10)}
 .meter i{display:block;height:100%;border-radius:99px;width:0;transition:width 1.1s var(--ease);
@@ -1622,12 +1640,19 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .ttop{
   position:sticky;top:0;z-index:30;
   display:flex;align-items:center;gap:12px;
-  margin:0 -14px;padding:12px 14px 13px;
+  margin:0 0 26px;padding:14px 0;min-height:68px;
+}
+/* Glasytan ligger bakom raden och går över hela fönstrets bredd, som
+   toppraden på övriga sidor, i stället för att bilda ett mittband. */
+.ttop:before{
+  --hel:calc(100vw - var(--sbw,0px));
+  content:"";position:absolute;top:0;bottom:0;z-index:-1;pointer-events:none;
+  left:50%;width:var(--hel);transform:translateX(-50%);
   background:var(--glass);
   backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);
   border-bottom:1px solid transparent;transition:border-color .3s ease;
 }
-.ttop.stuck{border-bottom-color:var(--hair)}
+.ttop.stuck:before{border-bottom-color:var(--hair)}
 /* Mätaren tar allt utrymme som blir över i raden. Baren är det som växer,
    så en liten XP-vinst syns som en tydlig bit och inte som ett streck.
    Raden har ingen utfyllnad före mätaren längre; mätaren är utfyllnaden. */
@@ -1728,7 +1753,7 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 
 /* Felflagga på uppgiften. Diskret tills den behövs, tydlig när den klickats. */
 .felflagga{
-  display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 9px;border-radius:99px;
+  margin-left:auto;display:inline-flex;align-items:center;gap:5px;height:24px;padding:0 9px;border-radius:99px;
   border:1px solid var(--hair);background:var(--surface);color:var(--ink3);
   font-size:11px;font-weight:600;letter-spacing:-.01em;transition:.2s var(--ease);
 }
@@ -1934,13 +1959,19 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .partline i.done{background:var(--good)}
 .partline i.miss{background:var(--bad)}
 .partline i.now{background:var(--acc);box-shadow:0 0 0 3px var(--accSoft)}
-.aline{display:flex;align-items:center;gap:10px}
+.aline{display:flex;align-items:center;gap:10px;position:relative}
+/* Rättningsbocken ligger inne i svarsrutan, så att rutan går kant i kant
+   med resten av svarsytan. */
+.aline .mark{position:absolute;right:12px;bottom:0;height:50px;display:grid;place-items:center;pointer-events:none}
+.aline:has(.mark) input{padding-right:40px}
 .aline label{width:20px;color:var(--ink3);font-size:12.5px;font-weight:600}
 /* Långa etiketter från banken (t.ex. "a) modell") får en egen rad i stället
    för att klämmas ihop i 20 px och lägga sig över svarsrutan. */
 .apart.bred .aline{flex-wrap:wrap;row-gap:5px}
 .apart.bred .aline label{width:100%;flex:0 0 100%;color:var(--ink2);line-height:1.35}
-.apart.bred .corr,.apart.bred .delfacit{margin-left:0}
+.apart.bred .corr,.apart.bred .delfacit,
+.apart.utan-etikett .corr,.apart.utan-etikett .delfacit{margin-left:0}
+.aline label:empty{display:none}
 .aline input,.aline textarea{
   flex:1;min-width:0;border:1px solid var(--hair2);background:var(--surface);border-radius:13px;
   padding:13px 14px;font-family:var(--read);font-size:16.5px;letter-spacing:0;
@@ -1970,10 +2001,18 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 }
 .symtgt:hover{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
 .symtgt:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
-.symtgt.enhet{
-  background:var(--accSoft);border-color:transparent;color:var(--accInk);
-  font-family:var(--ui);font-size:13px;font-weight:600;
+.symenheter{display:inline-flex;align-items:center;gap:6px;flex:none}
+.symlbl{
+  font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--ink3);margin-right:2px;
 }
+.symtgt.enhet{
+  background:transparent;border:1px dashed color-mix(in srgb,var(--acc) 55%,var(--hair2));
+  color:var(--accInk);box-shadow:none;
+  font-family:var(--read);font-size:14px;font-weight:600;
+}
+.symtgt.enhet:hover{border-style:solid}
+.symsep{flex:none;align-self:stretch;width:1px;margin:4px 6px;background:var(--hair2)}
 .symtgt:active{transform:scale(.93);background:var(--accSoft)}
 @media(hover:none){
 
@@ -1988,6 +2027,11 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 }
 
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+@media(max-width:640px){
+  .aacts>.btn{flex:1 1 0;min-width:0;min-height:46px;white-space:normal;text-align:center;line-height:1.2}
+  /* Tre knappar: huvudknappen får en egen rad, de två andra delar nästa. */
+  .aacts:has(>.btn:nth-child(3))>.btn.primary{flex-basis:100%}
+}
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
 
 
@@ -2515,7 +2559,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .side{grid-template-columns:1fr}
   .area-grid{grid-template-columns:1fr 1fr}
 
-  @media(max-width:430px){.area-grid{grid-template-columns:1fr}}
+  @media(max-width:470px){.area-grid{grid-template-columns:1fr}}
   .tbody{font-size:17px;padding:22px 18px}
   .tmeta,.azone{padding-left:16px;padding-right:16px}
   .sumtiles{grid-template-columns:1fr}
@@ -2523,7 +2567,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 }
 
 @media(max-width:600px){
-  .ttop{flex-wrap:wrap;row-gap:10px;padding-bottom:11px}
+  .ttop{flex-wrap:wrap;row-gap:10px;padding:10px 0 11px;margin-bottom:18px}
   .ttop .tag{display:none}
   .ttop .xpmeter{order:9;flex:1 0 100%}
   .ttop .xpmeter .bar{flex:1;width:auto}
@@ -4197,6 +4241,7 @@ function toggleChapter(kap,btn){
 }
 
 function afterRender(){
+  matRullningslist();
   renderMath(app);
   requestAnimationFrame(()=>{
     app.querySelectorAll("[data-off]").forEach(el=>{ el.style.strokeDashoffset=el.dataset.off; });
@@ -5141,12 +5186,17 @@ function matRullningslist(){
   document.documentElement.style.setProperty("--sbw",b+"px");
 }
 window.addEventListener("resize",matRullningslist,{passive:true});
+/* Rullningslisten kan dyka upp först när sidan växer (t.ex. när en lösning
+   visas). Då ändras dokumentets bredd, och måttet uppdateras. */
+if(window.ResizeObserver){
+  try{ new ResizeObserver(()=>matRullningslist()).observe(document.documentElement); }catch(_){}
+}
 
 function kopplaKursljus(){
   matRullningslist();
   if(!window.matchMedia || !matchMedia("(hover:hover)").matches) return;
   if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-  app.querySelectorAll(".course-card").forEach(k=>{
+  app.querySelectorAll(".course-card,.area:not(.stack)").forEach(k=>{
     k.addEventListener("pointermove",e=>{
       const r=k.getBoundingClientRect();
       k.style.setProperty("--mx",(e.clientX-r.left)+"px");
@@ -5971,7 +6021,7 @@ function renderDashboard(){
               </span>
               <span class="area-txt">
                 <strong>${esc(a.name)}</strong>
-                <span class="state status-help" data-tip="${esc(statusTip)}" title="${esc(statusTip)}">${s.label}</span>
+                <span class="state status-help${s.seen?"":" ny"}" data-tip="${esc(statusTip)}">${s.label}</span>
               </span>
             </button>
             ${harDelar?`<button class="omr-punkt" onclick="oppnaPunkt('${esc(a.key)}')"
@@ -5998,7 +6048,7 @@ function renderDashboard(){
     : "";
 
   app.innerHTML=topbar()+`
-  <main class="shell view">
+  <main class="shell view" style="--tintStrong:${c.tint};--tintSoft:${c.tint}26;--tintGlow:${c.tint}66">
     <div class="chead dashboard-head">
       <div class="t">
         <button class="crumb" onclick="goHome()"><span aria-hidden="true">←</span> Alla kurser</button>
@@ -6071,6 +6121,7 @@ function renderDashboard(){
     </div>
   </main>`;
   afterRender();
+  kopplaKursljus();
 }
 
 function showAreaPicker(record){
@@ -7555,12 +7606,16 @@ function symbolrad(t){
   const enheter=[...new Set((svarsPlan(t)?.delar||[])
     .flatMap(d=>d.enhet).filter(Boolean).map(String))].slice(0,4);
   const knappar=[...enheter.map(e=>[e," "+e]), ...SYMBOLER[amne]];
-  return `<div class="symrad" aria-label="Tecken och enheter">
-    ${knappar.map(([txt,tecken],i)=>
-      `<button type="button" class="symtgt${i<enheter.length?" enhet":""}"
-        title="${esc(SYMBOLNAMN[txt]||("Skriv "+txt))}"
+  const knapp=([txt,tecken],enhet)=>
+      `<button type="button" class="symtgt${enhet?" enhet":""}"
+        title="${esc(enhet?"Skriv enheten "+txt:(SYMBOLNAMN[txt]||("Skriv "+txt)))}"
         onmousedown="event.preventDefault()"
-        onclick="skrivTecken('${esc(tecken).replace(/'/g,"\\'")}')">${esc(txt)}</button>`).join("")}
+        onclick="skrivTecken('${esc(tecken).replace(/'/g,"\\'")}')">${esc(txt)}</button>`;
+  const enhetsdel=enheter.length?`<span class="symenheter">
+      <span class="symlbl">Enhet</span>${enheter.map(e=>knapp([e," "+e],true)).join("")}
+    </span><span class="symsep" aria-hidden="true"></span>`:"";
+  return `<div class="symrad" aria-label="Tecken och enheter">
+    ${enhetsdel}${SYMBOLER[amne].map(k=>knapp(k,false)).join("")}
   </div>`;
 }
 
@@ -8172,7 +8227,7 @@ function oppnaFelrapport(){
   el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Rapportera fel">
       <div class="modal-topp">
         <div>
-          <div class="lbl">Uppgift #${esc(felUppgiftsId(t))}</div>
+          <div class="lbl">Uppgift #${esc(felUppgiftsId(t))}${t.deluppgift?" · del "+esc(t.deluppgift):""}</div>
           <h2>Rapportera fel</h2>
         </div>
         <button class="iconbtn" onclick="stangFelrapport()" aria-label="Stäng">✕</button>
@@ -8747,16 +8802,16 @@ function renderTraining(){
     const etikett=rutEtikett(i);
     const bred=String(etikett).replace(/<[^>]*>/g,"").trim().length>4;
     return `
-    <div class="apart${laasta(i)?" upcoming":""}${bedomsSjalv(i)?" egen":""}${bred?" bred":""}" id="part-${i}">
+    <div class="apart${laasta(i)?" upcoming":""}${bedomsSjalv(i)?" egen":""}${bred?" bred":""}${etikett?"":" utan-etikett"}" id="part-${i}">
       <div class="aline">
-        <label>${etikett}</label>
+        ${etikett?`<label for="ans-${i}">${etikett}</label>`:""}
         ${isLongAnswer
           ? `<textarea id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
               autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
-              data-form-type="other" placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
+              data-form-type="other"${etikett?"":` aria-label="Ditt svar"`} placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
           : `<input id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
               autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
-              data-form-type="other" type="text"
+              data-form-type="other" type="text"${etikett?"":` aria-label="Ditt svar"`}
               inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i))?"decimal":"text"}"
               placeholder="${
                 rutEnhet(i) ? "Svar i "+esc(rutEnhet(i))
@@ -8796,7 +8851,7 @@ function renderTraining(){
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
-        <div class="tmeta">${meta}<span class="tid">#${esc(t.ursprungsId||t.id)}${t.deluppgift?" · del "+esc(t.deluppgift):""}</span>${felFlaggaHtml(t)}</div>
+        <div class="tmeta">${meta}${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}</div>
         <div class="azone" id="answer-zone">
           <div class="notice"><b aria-hidden="true">✎</b><span>Skriv ner fullständiga lösningar med papper och penna innan du skriver in svaren här.</span></div>
@@ -9033,7 +9088,7 @@ function renderAltTask(t){
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
       <article class="task">
-        <div class="tmeta">${levelChip(t)}<span class="tid">#${esc(t.ursprungsId||t.id)}</span>${felFlaggaHtml(t)}</div>
+        <div class="tmeta">${levelChip(t)}${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}${kallRad(t)}</div>
         <div class="azone" id="answer-zone">
           <h3>Ditt svar</h3>

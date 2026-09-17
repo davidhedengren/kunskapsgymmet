@@ -670,72 +670,185 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;letter-spacing:-.05em;margin:0}
 .hero h1 em{font-style:normal;color:var(--ink3)}
 .hero p{margin:16px 0 0;color:var(--ink2);font-family:var(--read);font-size:16.5px;line-height:1.55;max-width:520px;letter-spacing:0}
-.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding-bottom:60px}
+.kursgrupper{padding-bottom:60px}
+/* Varje ämne är en egen grupp. Korten ligger i centrerade rader, så att en
+   grupp med ett eller två kort hamnar mitt under avdelaren. */
+.course-grid{--kol:3;--mellan:16px;display:flex;flex-wrap:wrap;justify-content:center;gap:var(--mellan)}
+.course-grid>.course-card{flex:0 1 calc((100% - (var(--kol) - 1) * var(--mellan)) / var(--kol));min-width:0}
+
+/* ── Avdelare mellan ämnen: tunn linje med ljus kärna i mitten ── */
+.kursavdelare{
+  --linje:rgba(26,102,194,.55);--glod:rgba(26,102,194,.28);--karna:#3F86DE;
+  /* Linjen går över hela fönstrets bredd. --sbw är rullningslistens bredd
+     (sätts från skriptet), så att linjen inte ger horisontell scroll. */
+  --hel:calc(100vw - var(--sbw,0px));
+  position:relative;height:1px;width:var(--hel);
+  margin:36px 0 36px calc(50% - var(--hel) / 2);
+  background:linear-gradient(90deg,transparent 0%,var(--linje) 12%,var(--karna) 50%,var(--linje) 88%,transparent 100%);
+  animation:avdelareIn .9s var(--ease) backwards;
+}
+html[data-theme="dark"] .kursavdelare{
+  --linje:rgba(79,141,255,.55);--glod:rgba(90,160,255,.38);--karna:#E6F4FF;
+}
+.kursavdelare:before,.kursavdelare:after{content:"";position:absolute;left:50%;transform:translateX(-50%);pointer-events:none}
+/* Mjuk glöd runt linjen */
+.kursavdelare:before{
+  top:-9px;width:min(70%,720px);height:19px;
+  background:radial-gradient(ellipse at center,var(--glod) 0%,transparent 70%);
+  filter:blur(3px);
+}
+/* Skarp ljuspunkt i mitten */
+.kursavdelare:after{
+  top:-1.5px;width:min(22%,180px);height:4px;border-radius:50%;
+  background:radial-gradient(ellipse at center,var(--karna) 0%,transparent 72%);
+  filter:blur(.6px);
+}
+@keyframes avdelareIn{from{opacity:0;transform:scaleX(.35)}to{opacity:1;transform:none}}
+
+/* ── Kurskort ──
+   Hela kortet är klickbart: knappen .kursoppna sträcker ut en osynlig
+   yta över kortet (::after). Spårknapparna ligger ovanpå den ytan och
+   går därför fortfarande att klicka på var för sig.
+   Kortets färger kommer från kursens tint via tre variabler som sätts
+   inline: --tintStrong (full färg), --tintSoft och --tintGlow. */
 .course-card{
-  position:relative;overflow:hidden;text-align:left;padding:20px;min-height:150px;
-  border:1px solid var(--hair);border-radius:22px;background:var(--surface);box-shadow:var(--e1);
-  display:flex;flex-direction:column;gap:14px;
-  transition:transform .28s var(--ease),box-shadow .28s var(--ease),border-color .28s ease;
+  --lyft:cubic-bezier(.34,1.56,.64,1);
+  position:relative;isolation:isolate;overflow:hidden;text-align:left;
+  padding:22px 22px 20px;min-height:164px;
+  display:flex;flex-direction:column;gap:18px;
+  border:1px solid var(--hair);
+  border-color:color-mix(in srgb,var(--tintStrong) 22%,var(--hair));
+  border-radius:22px;
+  background:var(--surface);
+  background:linear-gradient(165deg,color-mix(in srgb,var(--tintStrong) 7%,var(--surface)) 0%,var(--surface) 62%);
+  box-shadow:var(--e1),inset 0 1px 0 var(--specular);
+  cursor:pointer;
+  transition:transform .42s var(--lyft),box-shadow .42s var(--ease),border-color .3s ease;
 }
-.course-card:before{
-  content:"";position:absolute;inset:0;opacity:0;transition:opacity .35s ease;
-  background:radial-gradient(420px 190px at 12% -30%,var(--tint),transparent 70%);
-}
-.course-card:hover{transform:translateY(-3px);box-shadow:var(--e2);border-color:var(--hair2)}
-.course-card:hover:before{opacity:.9}
-.course-card:active{transform:translateY(-1px) scale(.995)}
+/* Introanimationen får inte låsa transform efteråt, annars syns inget lyft. */
+.course-grid>.course-card{animation:rise .55s var(--ease) backwards}
 .course-card>*{position:relative}
+
+/* Ljuskägla som följer pekaren (--mx/--my sätts från skriptet). */
+.course-card:before{
+  content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0;
+  background:radial-gradient(260px circle at var(--mx,25%) var(--my,0%),var(--tintSoft),transparent 70%);
+  transition:opacity .4s ease;
+}
+/* Tunn accentlinje i överkant. */
+.course-card:after{
+  content:"";position:absolute;left:0;right:0;top:0;height:3px;z-index:3;pointer-events:none;
+  background:linear-gradient(90deg,var(--tintStrong),transparent 85%);
+  opacity:0;transition:opacity .35s ease;
+}
+
 .kurskod{
-  align-self:flex-start;height:48px;min-width:48px;padding:0 16px;border-radius:16px;
+  align-self:center;height:48px;min-width:48px;padding:0 16px;border-radius:16px;
   display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;color:#fff;
   font-size:13.5px;font-weight:700;letter-spacing:-.02em;
   box-shadow:0 8px 18px -9px var(--tintStrong),inset 0 1px 0 rgba(255,255,255,.32);
+  transition:transform .42s var(--lyft),box-shadow .3s ease;
 }
 
-.sparkoder{display:flex;gap:8px;flex-wrap:wrap}
+.sparkoder{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;z-index:2;pointer-events:none;align-self:center}
 .sparkod{
-  width:48px;height:48px;flex:none;border-radius:16px;
+  width:48px;height:48px;flex:none;border-radius:16px;pointer-events:auto;cursor:pointer;
   display:grid;place-items:center;color:#fff;
   font-size:14.5px;font-weight:700;letter-spacing:-.03em;
   background:linear-gradient(160deg,var(--sf),var(--sf2));
   box-shadow:0 8px 18px -9px var(--sf),inset 0 1px 0 rgba(255,255,255,.32);
-  transition:transform .22s var(--ease),box-shadow .22s var(--ease);
+  transition:transform .38s var(--lyft),box-shadow .25s ease;
 }
-
 .sparkod.delad{
   background:linear-gradient(135deg,var(--sf) 0 49.4%,var(--sfB) 50.6% 100%);
   text-shadow:0 1px 2px rgba(0,0,0,.4);
 }
-.sparkod:hover{transform:translateY(-2px);box-shadow:0 12px 22px -10px var(--sf),inset 0 1px 0 rgba(255,255,255,.32)}
-.sparkod:active{transform:translateY(0) scale(.96)}
 .sparkod:focus-visible{outline:2.5px solid var(--acc);outline-offset:3px}
 
 .kursoppna{
-  flex:1;display:flex;flex-direction:column;gap:14px;text-align:left;color:inherit;
+  position:static;flex:1;display:flex;flex-direction:column;align-items:center;gap:18px;
+  text-align:center;color:inherit;cursor:pointer;
 }
-.course-card h3{font-size:18.5px;line-height:1.15;letter-spacing:-.035em}
-.course-card .sub{margin-top:5px;font-size:12.5px;color:var(--ink3);font-weight:500}
-.course-card .go{
-  margin-top:auto;display:flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--ink3);
-  transition:color .25s ease,gap .25s var(--ease);
-}
-.course-card:hover .go{color:var(--accInk);gap:10px}
-.course-card.loading{pointer-events:none}
-.course-card.loading .go:after{content:"";width:13px;height:13px;border-radius:50%;border:2px solid var(--hair2);border-top-color:var(--acc);animation:spin .7s linear infinite}
+.kursoppna:after{content:"";position:absolute;inset:0;z-index:1;border-radius:inherit}
+.kursoppna:focus-visible{outline:none}
+.kursoppna:focus-visible:after{box-shadow:inset 0 0 0 2.5px var(--acc);border-radius:22px}
+.course-card h3{font-size:19px;line-height:1.18;letter-spacing:-.035em;text-wrap:balance}
 
-/* ---- Kurs under uppbyggnad: röd stämpel över kortet ---- */
-.course-card.under .kursoppna{opacity:.6}
-.course-card.under.opplast .kursoppna{opacity:1}
-.kursstampel{
-  position:absolute;top:50%;left:50%;z-index:4;pointer-events:none;
-  transform:translate(-50%,-50%) rotate(-13deg);
-  padding:7px 16px;border:2.5px solid #CE4B3F;border-radius:9px;
-  color:#CE4B3F;font-size:12.5px;font-weight:800;letter-spacing:.1em;
-  text-transform:uppercase;white-space:nowrap;
-  background:rgba(206,75,63,.09);
-  box-shadow:0 0 0 3px rgba(206,75,63,.07);
+/* Pil i hörnet som glider fram vid hovring. */
+.kurspil{
+  position:absolute;top:35px;right:20px;width:22px;height:22px;z-index:2;pointer-events:none;
+  color:var(--tintStrong);opacity:0;transform:translate(-5px,5px);
+  transition:opacity .3s ease,transform .4s var(--lyft);
 }
-.course-card.under.opplast .kursstampel{opacity:.5;font-size:11px;padding:5px 12px}
+.kurspil svg{display:block;width:100%;height:100%;transition:opacity .2s ease}
+
+.kursstatus{display:flex;align-items:center;gap:12px;margin-top:auto;width:100%}
+.kursbar{flex:1;display:block;height:5px;border-radius:99px;background:var(--hair);overflow:hidden}
+.kursbar i{display:block;height:100%;width:0;border-radius:99px;transition:width 1s var(--ease)}
+.kursprocent{
+  flex:none;min-width:2.6em;text-align:right;font-size:12.5px;font-weight:600;
+  color:var(--ink3);font-variant-numeric:tabular-nums;letter-spacing:0;
+}
+
+@media(hover:hover){
+  .course-card:hover{
+    transform:translateY(-8px) scale(1.012);z-index:2;
+    border-color:color-mix(in srgb,var(--tintStrong) 45%,var(--hair2));
+    box-shadow:var(--e2),0 28px 56px -22px var(--tintGlow),inset 0 1px 0 var(--specular);
+  }
+  .course-card:hover:before,.course-card:hover:after{opacity:1}
+  .course-card:hover .kurspil{opacity:1;transform:none}
+  .course-card:hover .kurskod{transform:scale(1.08) rotate(-5deg);box-shadow:0 12px 26px -10px var(--tintStrong),inset 0 1px 0 rgba(255,255,255,.32)}
+  .course-card:hover .sparkod{transform:translateY(-3px)}
+  .course-card:hover .sparkod:nth-child(2){transition-delay:.04s}
+  .course-card:hover .sparkod:nth-child(3){transition-delay:.08s}
+  .course-card:hover .sparkod:hover{
+    transform:translateY(-5px) scale(1.1);transition-delay:0s;
+    box-shadow:0 14px 24px -10px var(--sf),inset 0 1px 0 rgba(255,255,255,.32);
+  }
+  .course-card:active{transform:translateY(-4px) scale(1.004);transition-duration:.12s}
+  .course-card .sparkod:active{transform:translateY(-2px) scale(.96)}
+}
+@media(hover:none){
+  .course-card:active{transform:scale(.985);transition-duration:.12s}
+}
+/* Tangentbord: samma lyft när kortet eller ett spår har fokus. */
+.course-card:has(:focus-visible){
+  transform:translateY(-6px);z-index:2;
+  border-color:color-mix(in srgb,var(--tintStrong) 45%,var(--hair2));
+  box-shadow:var(--e2),0 28px 56px -22px var(--tintGlow),inset 0 1px 0 var(--specular);
+}
+.course-card:has(:focus-visible):after{opacity:1}
+.course-card:has(:focus-visible) .kurspil{opacity:1;transform:none}
+
+@media(prefers-reduced-motion:reduce){
+  .course-card:hover,.course-card:has(:focus-visible){transform:translateY(-3px)}
+  .course-card:hover .kurskod,.course-card:hover .sparkod,.course-card:hover .sparkod:hover{transform:none}
+  .course-card:before{display:none}
+}
+
+/* Laddning: pilen byts mot en snurra. */
+.course-card.loading{pointer-events:none}
+.course-card.loading .kurspil{opacity:1;transform:none}
+.course-card.loading .kurspil svg{opacity:0}
+.course-card.loading .kurspil:after{
+  content:"";position:absolute;inset:3px;border-radius:50%;
+  border:2px solid var(--hair2);border-top-color:var(--tintStrong);animation:spin .7s linear infinite;
+}
+
+/* ---- Kurs under uppbyggnad: liten stämpel i hörnet ---- */
+.course-card.under:not(.opplast) .kurskod,
+.course-card.under:not(.opplast) h3{opacity:.6}
+.course-card.under .kurspil{display:none}
+.kursstampel{
+  display:inline-block;margin-top:-4px;pointer-events:none;
+  padding:3px 8px;border:1.5px solid #CE4B3F;border-radius:7px;
+  color:#CE4B3F;font-size:10.5px;font-weight:800;letter-spacing:.08em;
+  text-transform:uppercase;white-space:nowrap;
+  background:rgba(206,75,63,.08);transform:rotate(-4deg);
+}
+html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;background:rgba(235,128,118,.1)}
+.course-card.under.opplast .kursstampel{opacity:.5}
 .kodfalt{
   width:100%;padding:13px 15px;border-radius:13px;border:1px solid var(--hair2);
   background:var(--surface2);color:var(--ink);font-size:15px;font-family:var(--ui);
@@ -1819,16 +1932,6 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 .hint{margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.5}
 
-.kursstatus{display:block;margin-top:auto}
-.kursbar{
-  display:block;height:4px;border-radius:99px;background:var(--hair);overflow:hidden;
-}
-.kursbar i{display:block;height:100%;border-radius:99px;transition:width .6s var(--ease)}
-.kurssiffror{
-  display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px;
-  font-size:12px;color:var(--ink3);font-family:var(--read);letter-spacing:0;
-}
-.kurssiffror .go{margin:0}
 
 .felruta{
   margin:26px auto 0;max-width:640px;text-align:left;padding:18px 20px;
@@ -2268,7 +2371,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 @media(max-width:960px){
   .dash{grid-template-columns:1fr}
   .side{position:static;grid-template-columns:1fr 1fr;display:grid}
-  .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .course-grid{--kol:2}
 }
 
 /* Från 1120px och neråt räcker inte bredden för att centrera utan att
@@ -2343,7 +2446,11 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 
 @media(max-width:640px){
   .shell{width:calc(100% - 26px)}
-  .course-grid{grid-template-columns:1fr}
+  .course-grid{--kol:1;--mellan:12px}
+  .kursavdelare{margin-top:28px;margin-bottom:28px}
+  .course-card{min-height:0;padding:18px 18px 16px;gap:14px}
+  .kursoppna{gap:14px}
+  .kurspil{top:31px;right:16px}
   .side{grid-template-columns:1fr}
   .area-grid{grid-template-columns:1fr 1fr}
 
@@ -4868,6 +4975,19 @@ function kursLage(id){
   };
 }
 
+/* Kurserna i COURSE_ORDER delas upp per ämne, i den ordning ämnena
+   först förekommer (Matematik, Fysik, Historia). */
+function kursgrupper(){
+  const grupper=[];
+  COURSE_ORDER.forEach(id=>{
+    const amne=COURSES[id]?.subject||"Övrigt";
+    let g=grupper.find(x=>x.amne===amne);
+    if(!g){ g={amne,ids:[]}; grupper.push(g); }
+    g.ids.push(id);
+  });
+  return grupper;
+}
+
 function renderHome(){
   document.title="Kunskapsgymmet";
   state.view="home";
@@ -4881,48 +5001,68 @@ function renderHome(){
         <span class="statpunkt"><i></i><b id="kg-stat-attempts">0</b> lösta uppgifter</span>
       </div>
     </section>
-    <section class="course-grid stagger">
-      ${COURSE_ORDER.map(id=>{
+    <div class="kursgrupper">
+      ${kursgrupper().map((grupp,gi)=>`${gi?`<div class="kursavdelare" role="separator" style="animation-delay:${Math.min(gi*120+200,700)}ms"></div>`:""}
+    <section class="course-grid" aria-label="${esc(grupp.amne)}">
+      ${grupp.ids.map(id=>{
         const c=COURSES[id];
-        const status=(()=>{
-          const l=kursLage(id);
-          if(!l) return `<span class="go">Öppna <span aria-hidden="true">→</span></span>`;
-          return `<span class="kursstatus">
-            <span class="kursbar"><i style="width:${Math.round(l.snitt*100)}%;background:${c.tint}"></i></span>
-            <span class="kurssiffror">
-              <span>${l.omraden} område${l.omraden===1?"":"n"} · ${Math.round(l.snitt*100)} %</span>
-              <span class="go">Fortsätt <span aria-hidden="true">→</span></span>
-            </span>
-          </span>`;
-        })();
+        const nr=COURSE_ORDER.indexOf(id);
+        const l=kursLage(id);
+        const pct=l ? Math.round(l.snitt*100) : null;
+        const status=l ? `<span class="kursstatus">
+            <span class="kursbar"><i style="background:${c.tint}" data-w="${pct}%"></i></span>
+            <span class="kursprocent">${pct} %</span>
+          </span>` : "";
 
         const flera=c.tracks.length>1;
         const last=c.under ? (alfaOpplast(id)?" under opplast":" under") : "";
         return `<div class="course-card${last}" id="course-${id}"
-            style="--tint:${c.tint}22;--tintStrong:${c.tint}">
+            style="--tintStrong:${c.tint};--tintSoft:${c.tint}26;--tintGlow:${c.tint}66;animation-delay:${Math.min(nr*40,420)}ms">
           ${flera?`<div class="sparkoder">${c.tracks.map(t=>{
             const bok=String(t).slice(-1).toLowerCase();
             const andra=DELAT_SPAR[id+"|"+t];
             return `<button class="sparkod${andra?" delad":""}"
               style="--sf:var(--spar-${bok});--sf2:var(--spar-${bok}2)${andra?`;--sfB:var(--spar-${andra})`:""}"
               onclick="oppnaSpar('${id}','${t}')"
-              title="Öppna ${esc(c.name)}, spår ${esc(t)}">${esc(t)}</button>`;
+              title="Öppna ${esc(c.name)}, spår ${esc(t)}"
+              aria-label="${esc(c.name)}, spår ${esc(t)}">${esc(t)}</button>`;
           }).join("")}</div>`:""}
-          ${c.under?`<span class="kursstampel">Under uppbyggnad</span>`:""}
-          <button class="kursoppna" onclick="oppnaKurs('${id}')">
+          <span class="kurspil" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+          <button class="kursoppna" onclick="oppnaKurs('${id}')"${l?` aria-label="${esc(c.name)}, ${pct} procent"`:""}>
             ${flera?"":`<span class="kurskod" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>`}
-            <span>
-              <h3>${esc(c.name)}</h3>
-              <span class="sub">${esc(c.subject)}</span>
-            </span>
+            <h3>${esc(c.name)}</h3>
+            ${c.under?`<span class="kursstampel">Under uppbyggnad</span>`:""}
             ${status}
           </button>
         </div>`;
       }).join("")}
-    </section>
+    </section>`).join("")}
+    </div>
   </main>`;
   afterRender();
+  kopplaKursljus();
   uppdateraGlobalStatistik();
+}
+
+/* Ljuskäglan i kurskorten följer muspekaren. På pekskärm finns ingen
+   hovring, så där kopplas den inte in. */
+function matRullningslist(){
+  const b=Math.max(0,window.innerWidth-document.documentElement.clientWidth);
+  document.documentElement.style.setProperty("--sbw",b+"px");
+}
+window.addEventListener("resize",matRullningslist,{passive:true});
+
+function kopplaKursljus(){
+  matRullningslist();
+  if(!window.matchMedia || !matchMedia("(hover:hover)").matches) return;
+  if(matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  app.querySelectorAll(".course-card").forEach(k=>{
+    k.addEventListener("pointermove",e=>{
+      const r=k.getBoundingClientRect();
+      k.style.setProperty("--mx",(e.clientX-r.left)+"px");
+      k.style.setProperty("--my",(e.clientY-r.top)+"px");
+    });
+  });
 }
 
 async function loadScript(src){

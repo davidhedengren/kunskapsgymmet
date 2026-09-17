@@ -368,56 +368,38 @@ a{color:inherit}
    under. Centreringen är absolut för att inte bero på hur breda
    grupperna till vänster och höger råkar vara — under 1120px faller
    den tillbaka i flödet, där det inte längre finns utrymme. */
-.xppill{
+/* I toppmenyn är mätaren en knapp och ligger centrerad. Storleken ärvs
+   från den gemensamma stilen ovan; bara bredden på baren växer med
+   fönstret. */
+.topbar .xppill{
   position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
-  gap:10px;padding:7px 14px 7px 8px;border-radius:18px;
-  background:var(--surface);
 }
-.xppill:hover{background:var(--surface2)}
-.xppill .rankdot{width:30px;height:30px;border-radius:10px;font-size:14px;font-weight:800}
-.xppill .xpbar{
-  position:relative;width:clamp(190px,29vw,300px);height:28px;margin-left:0;
-  background:var(--hair);
-  box-shadow:inset 0 1px 2px rgba(11,33,51,.16);
-}
-/* Talet ligger i baren i stället för ovanför den. Halon i bakgrundsfärg
-   gör att det går att läsa både över guldet och över det tomma spåret,
-   i båda färglägena. */
-.topbar .xppill .xpnum{
-  display:grid;place-items:center;position:absolute;inset:0;z-index:3;
-  font-size:13px;font-weight:700;letter-spacing:-.01em;
-  font-variant-numeric:tabular-nums;color:var(--ink);
-  text-shadow:0 0 3px var(--surface),0 0 6px var(--surface),0 1px 1px rgba(11,33,51,.3);
-  pointer-events:none;
-}
-/* Den nyvunna biten av baren blinkar grönt på plats, så eleven ser
-   exakt hur mycket just det här passet flyttade mätaren. */
-.xppill .xpbar i.xpny{
-  position:absolute;top:0;bottom:0;left:0;width:0;z-index:2;
-  height:100%;border-radius:99px;
-  background:var(--good);box-shadow:0 0 12px -2px var(--good);
-  opacity:0;pointer-events:none;transition:none;
-}
-.xppill .xpbar i.xpny.blink{animation:xpny 1.25s var(--ease)}
+.topbar .xppill:hover{border-color:var(--hair2);background:var(--surface)}
+.topbar .xppill .bar{width:clamp(150px,22vw,250px)}
+/* Den nyvunna biten av baren blinkar grönt på plats, så eleven ser exakt
+   hur mycket just det här passet flyttade mätaren. */
 @keyframes xpny{
   0%{opacity:0}
   10%{opacity:.95} 28%{opacity:.3}
   46%{opacity:.95} 64%{opacity:.3}
   82%{opacity:.9} 100%{opacity:0}
 }
-.xppill .xpbar i{
+/* Guldfyllningen, och skenet som sveper över den när XP tickar in.
+   Gäller båda mätarna. */
+.xpmeter .bar i#xpfill,.xppill .bar i#xpfill{
   position:relative;overflow:hidden;
   background:linear-gradient(180deg,#e7c97e,#c79a3c 55%,#b3862c);
   box-shadow:0 0 10px -2px var(--gold2),inset 0 1px 0 rgba(255,255,255,.45);
 }
-/* Sken som sveper över baren när XP tickar in. */
-.xppill .xpbar i:after{
+.xpmeter .bar i#xpfill:after,.xppill .bar i#xpfill:after{
   content:"";position:absolute;inset:0;transform:translateX(-101%);
   background:linear-gradient(90deg,transparent,rgba(255,255,255,.6),transparent);
 }
-.xppill.tick .xpbar i:after{animation:xpsken .85s var(--ease)}
+.xpmeter.tick .bar i#xpfill:after,.xppill.tick .bar i#xpfill:after{
+  animation:xpsken .85s var(--ease);
+}
 @keyframes xpsken{to{transform:translateX(101%)}}
-.xppill .gain{top:-4px;font-size:13.5px}
+.topbar .xppill .gain{top:-4px;right:15px;left:auto;transform:none;font-size:13.5px}
 .pill .xpnum{color:var(--ink3);font-weight:600;font-size:11.5px;letter-spacing:-.01em}
 .pill .xpnum .sep{margin:0 2px;opacity:.55}
 .pill .gain{
@@ -875,13 +857,35 @@ html[data-theme="dark"] .btn-google{background:#f7f9fb;color:#1f2733;border-colo
 .chead p{margin:8px 0 0;color:var(--ink3);font-size:14.5px}
 .crumb{display:inline-flex;align-items:center;gap:7px;color:var(--ink3);font-size:13px;font-weight:500;padding:6px 0;transition:color .2s}
 .crumb:hover{color:var(--accInk)}
-.tracks{display:flex;gap:6px;flex-wrap:wrap}
+.titelrad{display:flex;align-items:center;flex-wrap:wrap;gap:14px}
+.titelrad h1{margin:7px 0 0}
+.tracks{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
 .track{
-  padding:8px 14px;border-radius:11px;border:1px solid var(--hair);background:var(--surface);
-  font-size:13px;font-weight:600;color:var(--ink2);transition:.2s var(--ease);
+  width:38px;height:38px;flex:none;border-radius:12px;
+  display:grid;place-items:center;
+  border:1px solid var(--hair);background:var(--surface);
+  font-size:16px;font-weight:700;letter-spacing:-.02em;
+  color:var(--ink3);text-transform:lowercase;
+  transition:.2s var(--ease);
 }
-.track:hover{border-color:var(--hair2)}
-.track.on{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.track:hover{border-color:var(--hair2);color:var(--ink2)}
+/* Varje spår har sin färg. Ofärgat i viloläge, fylld i valt läge, så att
+   raden inte blir en färgkarta där allt skriker lika högt. */
+.track.sp-a{--spar:#e0574f}
+.track.sp-b{--spar:#3fae72}
+.track.sp-c{--spar:#4a8ff0}
+.track.sp-d{--spar:#c07ae0}
+.track:hover{border-color:color-mix(in srgb,var(--spar,var(--hair2)) 45%,var(--hair))}
+.track.on{
+  background:var(--spar,var(--ink));
+  border-color:var(--spar,var(--ink));
+  color:#fff;
+  box-shadow:0 0 0 3px color-mix(in srgb,var(--spar,var(--ink)) 20%,transparent);
+}
+@media(max-width:560px){
+  .titelrad{gap:10px}
+  .track{width:34px;height:34px;font-size:15px}
+}
 
 .dash{display:grid;grid-template-columns:minmax(0,1fr) 286px;gap:24px;align-items:start;padding-bottom:32px}
 .side{position:sticky;top:76px;display:grid;gap:14px}
@@ -1096,7 +1100,10 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .ringwrap .num.over{display:grid;place-items:center}
 .ringwrap .num.over b,.ringwrap .num.over small{grid-area:1/1}
 .ringwrap .num.over b{font-weight:700}
-.ringwrap .num.over small{align-self:start;margin:0;transform:translateY(-1px)}
+/* Etiketten läggs på 20 procent av ringens höjd. Räknat i procent följer
+   den med när ringen byter storlek mellan vyerna, i stället för att
+   hamna ovanpå ringens streck. */
+.ringwrap .num.over small{position:absolute;left:0;right:0;top:20%;margin:0}
 .ring circle{transition:stroke-dashoffset 1.2s var(--ease)}
 .rankname{font-size:16px;font-weight:700;letter-spacing:-.035em}
 .rankmeta{margin-top:3px;font-size:12.5px;color:var(--ink3)}
@@ -1421,30 +1428,49 @@ html[data-theme="dark"] .area:hover{box-shadow:0 2px 4px rgba(0,0,0,.32),0 28px 
 .dots i.done{background:var(--acc);transform:scale(1.1)}
 .dots i.now{background:var(--acc);box-shadow:0 0 0 4px var(--accSoft)}
 
-.xpmeter{
-  position:relative;display:flex;align-items:center;gap:9px;
-  padding:4px 12px 4px 4px;border-radius:99px;
+/* En enda XP-mätare i hela appen. Den sitter i uppgiftskortet under
+   träning och i toppmenyn i övriga vyer, men ser likadan ut på båda
+   ställena. */
+.xpmeter,.xppill{
+  position:relative;display:flex;align-items:center;gap:11px;
+  padding:5px 15px 5px 5px;border-radius:99px;
   border:1px solid var(--hair);background:var(--surface2);
   box-shadow:inset 0 1px 0 var(--specular);
   transition:border-color .35s ease,box-shadow .35s var(--ease);
 }
-.xpmeter.tick{border-color:var(--gold2);box-shadow:0 0 0 4px var(--goldSoft),inset 0 1px 0 var(--specular)}
-.xpmeter .lvl{
-  width:27px;height:27px;flex:none;border-radius:50%;display:grid;place-items:center;
-  font-size:12.5px;font-weight:700;letter-spacing:-.04em;color:#402f08;
+.xpmeter.tick,.xppill.tick{
+  border-color:var(--gold2);
+  box-shadow:0 0 0 4px var(--goldSoft),inset 0 1px 0 var(--specular);
+}
+.xpmeter .lvl,.xppill .lvl{
+  width:34px;height:34px;flex:none;border-radius:50%;display:grid;place-items:center;
+  font-size:15px;font-weight:800;letter-spacing:-.04em;color:#402f08;
   background:linear-gradient(160deg,#f3d99f,#c99b3b);
   box-shadow:inset 0 1px 0 rgba(255,255,255,.55);
   transition:transform .45s var(--ease);
 }
-.xpmeter .lvl.upp{animation:pop .6s var(--ease) both}
-.xpmeter .bar{width:104px;height:6px;flex:none;border-radius:99px;background:var(--hair);overflow:hidden}
-.xpmeter .bar i{
+.xpmeter .lvl.upp,.xppill .lvl.upp{animation:pop .6s var(--ease) both}
+.xpmeter .bar,.xppill .bar{
+  position:relative;width:150px;height:12px;flex:none;border-radius:99px;
+  background:var(--hair);overflow:hidden;
+  box-shadow:inset 0 1px 2px rgba(11,33,51,.18);
+}
+.xpmeter .bar i,.xppill .bar i{
   display:block;height:100%;width:0;border-radius:99px;
   background:linear-gradient(90deg,#c79a3c,var(--gold2));
   transition:width .9s var(--ease);
 }
-.xpmeter .num{font-size:12px;font-weight:600;color:var(--ink3);white-space:nowrap}
-.xpmeter .num .sep{margin:0 3px;opacity:.55}
+.xpmeter .bar i.xpny,.xppill .bar i.xpny{
+  position:absolute;top:0;bottom:0;left:0;width:0;z-index:2;
+  background:var(--good);box-shadow:0 0 10px -2px var(--good);
+  opacity:0;transition:none;
+}
+.xpmeter .bar i.xpny.blink,.xppill .bar i.xpny.blink{animation:xpny 1.25s var(--ease)}
+.xpmeter .num,.xppill .num{
+  font-size:13.5px;font-weight:600;color:var(--ink2);white-space:nowrap;
+  font-variant-numeric:tabular-nums;
+}
+.xpmeter .num .sep,.xppill .num .sep{margin:0 4px;opacity:.55}
 
 .xpmeter .gain{
   position:absolute;right:12px;top:2px;opacity:0;pointer-events:none;
@@ -2124,11 +2150,10 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
    mätaren krockar med grupperna på sidorna. Då går den tillbaka i
    flödet till höger, men behåller sin storlek. */
 @media(max-width:1120px){
-  .xppill{position:static;transform:none}
+  .topbar .xppill{position:static;transform:none}
 }
 @media(max-width:820px){
   .topbar .pill .xpnum{display:none}
-  .topbar .xppill .xpnum{display:grid}
 }
 @media(max-width:760px){
   .topbar .pill .rname{display:none}
@@ -2136,10 +2161,10 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 /* Under 700px blir tvåradsformen för hög för menyn: tillbaka till en rad. */
 @media(max-width:700px){
   .topbar .inner{height:60px}
-  .xppill{padding:5px 10px 5px 6px;border-radius:99px;gap:7px}
-  .xppill .rankdot{width:24px;height:24px;border-radius:8px;font-size:12px}
-  .xppill .xpbar{width:clamp(96px,26vw,150px);height:22px}
-  .topbar .xppill .xpnum{font-size:11px}
+  .topbar .xppill{padding:4px 11px 4px 4px;gap:8px}
+  .topbar .xppill .lvl{width:27px;height:27px;font-size:12.5px}
+  .topbar .xppill .bar{width:clamp(70px,18vw,120px);height:9px}
+  .topbar .xppill .num{font-size:11.5px}
 }
 
 @media(max-width:680px){
@@ -2157,7 +2182,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .pill{padding:5px 10px 5px 6px;font-size:12px}
   .pill .rname{display:none}
   .pill .xpbar{width:52px}
-  .topbar .xppill .xpbar{width:clamp(80px,20vw,120px)}
+  .topbar .xppill .bar{width:clamp(56px,14vw,90px)}
   .topbar .pill .flame{display:none}
   .pill .flame:before{content:"·";margin-right:6px;opacity:.5;color:var(--ink3);font-weight:600}
   .topbar .btn.sm{padding:7px 11px}
@@ -2181,8 +2206,9 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .topbar .pill .flame,.topbar .pill .rankdot{display:none}
   .topbar .pill{padding:5px 11px}
   .topbar .pill .xpbar{width:44px}
-  .topbar .xppill .xpbar{width:64px}
-  .topbar .xppill .xpnum{font-size:10px}
+  .topbar .xppill{padding:4px 9px 4px 4px;gap:7px}
+  .topbar .xppill .bar{width:52px}
+  .topbar .xppill .num{display:none}
 }
 @media(max-width:340px){
   .topbar .iconbtn{display:none}
@@ -3842,12 +3868,12 @@ function topbar(){
      det är. Rank och antal dagar står i rankkortet, där det finns plats
      att läsa dem i lugn och ro. */
   const badge=profile.attempts?`<button class="pill xppill" onclick="showProgress()" title="Nivå ${lp.level} · ${esc(r.name)} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}${st?` · ${st} dagar i rad`:""}. Visa min utveckling">
-      <span class="rankdot niva" id="xplvl">${lp.level}</span>
-      <span class="xpbar">
+      <span class="lvl" id="xplvl">${lp.level}</span>
+      <span class="bar">
         <i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i>
-        <i class="xpny" id="xpny" aria-hidden="true"></i>
-        <span class="xpnum" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need}</span>
+        <i class="xpny" aria-hidden="true"></i>
       </span>
+      <span class="num" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need} XP</span>
       <span class="gain" id="xpgain" aria-hidden="true"></span>
     </button>`:"";
   return `<header class="topbar"><div class="shell inner">
@@ -5216,8 +5242,18 @@ function renderDashboard(){
       </div>
     </section>`;}).join("");
 
+  /* Spåren hör ihop med kursnamnet och står därför bredvid rubriken.
+     Knappen visar bara bokstaven; siffran framför är kursen, och den står
+     redan i rubriken. Färgen skiljer spåren åt så att valet syns utan att
+     man läser. */
   const trackHTML=c.tracks.length>1
-    ? `<div class="tracks">${c.tracks.map(t=>`<button class="track ${state.track===t?'on':''}" onclick="setTrack('${t}')">${t}</button>`).join("")}</div>`
+    ? `<div class="tracks" role="group" aria-label="Välj spår">${c.tracks.map(t=>{
+        const bokstav=String(t).slice(-1).toLowerCase();
+        return `<button class="track sp-${esc(bokstav)} ${state.track===t?"on":""}"
+          onclick="setTrack('${t}')" title="Spår ${esc(t)}"
+          aria-label="Spår ${esc(t)}" aria-pressed="${state.track===t}"
+          >${esc(bokstav)}</button>`;
+      }).join("")}</div>`
     : "";
 
   app.innerHTML=topbar()+`
@@ -5225,9 +5261,11 @@ function renderDashboard(){
     <div class="chead dashboard-head">
       <div class="t">
         <button class="crumb" onclick="goHome()"><span aria-hidden="true">←</span> Alla kurser</button>
-        <h1>${esc(c.name)}</h1>
+        <div class="titelrad">
+          <h1>${esc(c.name)}</h1>
+          ${trackHTML}
+        </div>
       </div>
-      ${trackHTML}
     </div>
 
     <div class="dash">
@@ -7105,7 +7143,10 @@ function xpMeterHtml(){
       title="Nivå ${lp.level} · ${lp.into} av ${lp.need} XP till nivå ${lp.level+1}"
       aria-label="Nivå ${lp.level}, ${lp.into} av ${lp.need} XP till nästa nivå">
     <span class="lvl" id="xplvl">${lp.level}</span>
-    <div class="bar"><i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i></div>
+    <div class="bar">
+      <i id="xpfill" style="width:${Math.round(lp.pct*100)}%"></i>
+      <i class="xpny" aria-hidden="true"></i>
+    </div>
     <span class="num" id="xpnum">${lp.into}<span class="sep">/</span>${lp.need} XP</span>
     <span class="gain" id="xpgain" aria-hidden="true"></span>
   </div>`;
@@ -7119,9 +7160,7 @@ let xpTween=null;
 function xpSkrivTal(into,need){
   const num=document.getElementById("xpnum");
   if(!num) return;
-
-  const kort=!!num.closest(".pill");
-  num.innerHTML=`${into}<span class="sep">/</span>${need}${kort?"":" XP"}`;
+  num.innerHTML=`${into}<span class="sep">/</span>${need} XP`;
 }
 function xpRaknaUpp(fran,till,need,ms){
   cancelAnimationFrame(xpTween);
@@ -7158,7 +7197,11 @@ function xpStall(xp,animeraTal,fran){
 /* Markerar sträckan mellan gammalt och nytt läge och låter den blinka.
    Bredderna räknas i procent av den aktuella nivåns spann. */
 function blinkaVunnet(franPct,tillPct){
-  const ny=document.getElementById("xpny");
+  /* Både toppmenyns mätare och träningsvyns kan ligga i DOM:en samtidigt.
+     Ta lagret som hör till den mätare xpRuta() pekar ut, annars faller
+     blinket på en mätare eleven inte tittar på. */
+  const ruta=xpRuta();
+  const ny=ruta && ruta.querySelector(".xpny");
   if(!ny) return;
   const a=Math.max(0,Math.min(100,franPct)), b=Math.max(0,Math.min(100,tillPct));
   if(b-a<=0.3) return;

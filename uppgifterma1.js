@@ -2235,31 +2235,31 @@ window.BANKMA1 = [
     "kap": 0,
     "omr": "negativa_tal",
     "kurs": [
-      "1a",
-      "1b",
-      "1c"
+        "1a",
+        "1b",
+        "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Ett heltal x ligger mellan −5 och 5, inklusive ändpunkterna. Hur många värden på x uppfyller båda villkoren \\(-x^2<x\\) och \\((-x)^2>x\\)?</p>",
+    "t": "<p>Ett heltal \\(x\\) ligger mellan −5 och 5, inklusive ändpunkterna. Hur många värden på \\(x\\) uppfyller båda villkoren \\(-x^2<x\\) och \\((-x)^2>x\\)?</p><p><em>Observera:</em> \\(-x^2\\) betyder \\(-(x^2)\\), medan \\((-x)^2\\) betyder att hela talet \\(-x\\) kvadreras.</p>",
     "s": "<p>Den första olikheten gäller för heltalen −5, −4, −3, −2, 1, 2, 3, 4 och 5. Vid −1 och 0 blir det likhet i stället.</p><p>Den andra olikheten gäller för −5, −4, −3, −2, −1, 2, 3, 4 och 5. Vid 0 och 1 blir det likhet.</p><p>Båda gäller alltså för −5, −4, −3, −2, 2, 3, 4 och 5. <strong>Svar: 8 värden.</strong> En systematisk tabell eller analys av tecknen fungerar. Orden ”båda” och de strikta olikheterna är avgörande.</p>",
     "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
-      "problemlösning",
-      "resonemang"
+        "problemlösning",
+        "resonemang"
     ],
     "ledtrad": "<p>Börja med att skilja på −x² och (−x)². Kontrollera sedan var olikheterna blir likheter.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 4,
     "arbetsinsats": 1,
     "spel": true
-  },
+},
   {
     "id": "0.57",
     "kap": 0,
@@ -24547,30 +24547,34 @@ window.BANKMA1 = [
     "kap": 1,
     "omr": "formler",
     "kurs": [
-      "1a",
-      "1b",
-      "1c"
+        "1a",
+        "1b",
+        "1c"
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Lös ut x ur y = x + 3. Ange ett förenklat uttryck för x.</p>",
-    "s": "<p>Subtrahera 3 i båda leden: x = y − 3.</p>",
+    "t": "<p>Lös ut \\(x\\) ur \\(y=x+3\\). Skriv svaret som en ekvation på formen \\(x=\\dots\\).</p>",
+    "s": "<p>Subtrahera 3 i båda leden:</p><p>\\[y-3=x\\]</p><p>Skriv med \\(x\\) i vänsterled: <strong>\\(x=y-3\\)</strong>.</p>",
     "ledtrad": "<p>Vilken operation tar bort +3?</p>",
     "niva": "E",
     "poang": "1/0/0",
     "arbetsinsats": 1,
     "familj": "Formler",
     "formaga": [
-      "procedur"
+        "procedur"
     ],
-    "svarstyp": "uttryck",
-    "rättSvar": "y-3",
+    "svarstyp": "ekvation",
+    "rättSvar": "x=y-3",
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "förenklat_polynom",
+    "svarFormat": "ekvation",
     "traningsniva": 2,
-    "spel": true
-  },
+    "spel": true,
+    "rättSvarAlternativ": [
+        "x=y-3",
+        "y-3"
+    ]
+},
   {
     "id": "1.928",
     "kap": 1,
@@ -45605,9 +45609,9 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "procent",
     "kurs": [
-      "1a",
-      "1b",
-      "1c"
+        "1a",
+        "1b",
+        "1c"
     ],
     "niva": "E",
     "poang": "3/0/0",
@@ -45618,48 +45622,48 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "840",
-      "432",
-      "53"
+        "840",
+        "432",
+        "53"
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+        "procedur"
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
     "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">35 % var papper. Hur många kilo var det?</div>",
-        "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}35\\cdot2\\,400=\\)<strong>840 kg</strong></div></p><p></p>",
-        "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">18 % var glas. Hur många kilo var det?</div>",
-        "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}18\\cdot2\\,400=\\)<strong>432 kg</strong></div></p><p></p>",
-        "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">Hur många procent utgjorde papper och glas tillsammans?</div>",
-        "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\">\\(35+18=\\)<strong>53 %</strong>, vilket motsvarar \\(840+432=1\\,272\\) kg</div></p>",
-        "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
+        {
+            "etikett": "a",
+            "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">35 % var papper. Hur många kilo var det?</div>",
+            "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}35\\cdot2\\,400=\\)<strong>840 kg</strong></div></p><p></p>",
+            "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
+            "niva": "E",
+            "poang": "1/0/0"
+        },
+        {
+            "etikett": "b",
+            "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">18 % var glas. Hur många kilo var det?</div>",
+            "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}18\\cdot2\\,400=\\)<strong>432 kg</strong></div></p><p></p>",
+            "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
+            "niva": "E",
+            "poang": "1/0/0"
+        },
+        {
+            "etikett": "c",
+            "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad. Av materialet var 35 % papper och 18 % glas.</p><div class=\"spel-en-del\">Hur många procent utgjorde papper och glas tillsammans?</div>",
+            "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\">\\(35+18=\\)<strong>53 %</strong>, vilket motsvarar \\(840+432=1\\,272\\) kg</div></p>",
+            "ledtrad": "<p>Papper och glas anges som andelar av samma total. Hur kan du då kombinera 35 % och 18 %?</p>",
+            "niva": "E",
+            "poang": "1/0/0"
+        }
     ],
     "ledtrad": "<p>För a) och b): skriv procenttalen som decimaltal och multiplicera med 2 400. I c) har båda andelarna samma total.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
-  },
+},
   {
     "id": "3.129",
     "kap": 3,
@@ -45917,52 +45921,52 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "genomsnittlig_forandring",
     "kurs": [
-      "1b",
-      "1c"
+        "1b",
+        "1c"
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>Ett fondinnehav ökar med 50 % under det första året och minskar sedan med 50 % under det andra året.</p><p>a) Hur många procent har innehavet förändrats totalt under de två åren?<br>b) Bestäm den genomsnittliga procentuella förändringen per år.<br>c) En sparare säger: \"I genomsnitt har det ju förändrats med noll procent per år, eftersom \\(+50\\) och \\(-50\\) tar ut varandra.\" Förklara varför resonemanget är fel.</p>",
+    "t": "<p>Ett fondinnehav ökar med 50 % under det första året och minskar sedan med 50 % under det andra året.</p><p>a) Hur många procent har innehavet förändrats totalt under de två åren?<br>b) Hur stor är den genomsnittliga minskningen per år, i procent?<br>c) En sparare säger: \"I genomsnitt har det ju förändrats med noll procent per år, eftersom \\(+50\\) och \\(-50\\) tar ut varandra.\" Förklara varför resonemanget är fel.</p>",
     "s": "<p>a) Den totala förändringsfaktorn är</p><p>\\[1{,}50\\cdot0{,}50=0{,}75,\\]</p><p>alltså en <strong>minskning med 25 %</strong> totalt.</p><p>b) Den årliga faktorn \\(a\\) uppfyller \\(a^2=0{,}75\\):</p><p>\\[a=\\sqrt{0{,}75}\\approx0{,}866\\]</p><p><strong>Det motsvarar en minskning med ungefär 13,4 % per år.</strong></p><p>c) Procenttal kan inte adderas rakt av, eftersom de räknas på olika stora belopp. Ökningen på 50 % räknas på det ursprungliga beloppet, men minskningen på 50 % räknas på det större beloppet efter uppgången, och blir därför större i kronor.</p><p>Med 100 kr som utgångspunkt: \\(100\\to150\\to75\\). <strong>Innehavet har minskat med 25 kr, inte varit oförändrat.</strong></p><p>Det är förändringsfaktorerna som ska multipliceras, inte procenttalen som ska adderas.</p>",
     "familj": "Genomsnittlig årlig minskning",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -25,
-      -13.4,
-      null
+        -25,
+        13.4,
+        null
     ],
     "tolerans": [
-      0.01,
-      0.1,
-      null
+        0.01,
+        0.1,
+        null
     ],
     "självrättning": [
-      true,
-      true,
-      false
+        true,
+        true,
+        false
     ],
     "formaga": [
-      "procedur",
-      "resonemang"
+        "procedur",
+        "resonemang"
     ],
     "svarFormat": [
-      "procent",
-      "procent",
-      null
+        "procent",
+        "procent",
+        null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-      "a) total förändring",
-      "b) genomsnittlig årlig förändring",
-      "c) förklaring"
+        "a) total förändring",
+        "b) genomsnittlig årlig minskning",
+        "c) förklaring"
     ],
     "ledtrad": "<p>Börja med totalfaktorn \\(1,50\\cdot0,50\\). Den genomsnittliga årliga faktorn är sedan kvadratroten ur totalfaktorn.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true
-  },
+},
   {
     "id": "3.138",
     "kap": 3,
@@ -47141,8 +47145,8 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "potensekvationer",
     "kurs": [
-      "1b",
-      "1c"
+        "1b",
+        "1c"
     ],
     "niva": "E",
     "poang": "3/0/0",
@@ -47153,53 +47157,53 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      3,
-      "1/2",
-      -2
+        3,
+        "1/2",
+        -2
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+        "procedur"
     ],
     "svarsstruktur": "ordnad",
     "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "bråk"
+        "numeriskt",
+        "bråk",
+        "numeriskt"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^3=216\\)</div>",
-        "s": "<p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> <strong>\\(x=6\\)</strong></div></p><p></p>",
-        "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^3=1000\\)</div>",
-        "s": "<p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> <strong>\\(x=10\\)</strong></div></p><p></p>",
-        "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Lös ekvationerna. Svara exakt.</p><div class=\"spel-en-del\">\\(x^3=\\frac18\\)</div>",
-        "s": "<p><strong>Metod:</strong> Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> <strong>\\(x=\\frac12\\)</strong></div></p>",
-        "ledtrad": "<p>Isolera först potensen eller faktorisera uttrycket om det behövs. När en jämn exponent tas bort måste både den positiva och den negativa roten kontrolleras. Svara exakt när det går; använd digitalt verktyg bara när uppgiften anger eller kräver det.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
+        {
+            "etikett": "a",
+            "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=243\\)</div>",
+            "s": "<p>Eftersom \\(243=3^5\\) får vi <strong>\\(x=3\\)</strong>.</p>",
+            "ledtrad": "<p>Vilket heltal upphöjt till 5 blir 243?</p>",
+            "niva": "E",
+            "poang": "1/0/0"
+        },
+        {
+            "etikett": "b",
+            "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^3=\\frac18\\)</div>",
+            "s": "<p>Eftersom \\(\\frac18=(\\frac12)^3\\) får vi <strong>\\(x=\\frac12\\)</strong>.</p>",
+            "ledtrad": "<p>Skriv \\(\\frac18\\) som en tredjepotens.</p>",
+            "niva": "E",
+            "poang": "1/0/0"
+        },
+        {
+            "etikett": "c",
+            "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=-32\\)</div>",
+            "s": "<p>Eftersom \\(-32=(-2)^5\\) får vi <strong>\\(x=-2\\)</strong>.</p>",
+            "ledtrad": "<p>En udda potens kan vara negativ. Vilket heltal upphöjt till 5 blir −32?</p>",
+            "niva": "E",
+            "poang": "1/0/0"
+        }
     ],
     "ledtrad": "<p>Skriv högerleden som femte- eller tredjepotenser. Udda exponenter ger en reell lösning även när högerledet är negativt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
-  },
+},
   {
     "id": "3.171",
     "kap": 3,
@@ -47904,36 +47908,40 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "upprepade_forandringar",
     "kurs": [
-      "1a",
-      "1b",
-      "1c"
+        "1a",
+        "1b",
+        "1c"
     ],
     "niva": "C",
     "poang": "1/2/0",
     "t": "<p>Elpriset i ett område var 1,45 kr/kWh. Under vintern steg priset med 12 %, och till våren sjönk det med 8 % från den nya nivån.</p><p>a) Bestäm den totala förändringsfaktorn.<br>b) Hur många procent har priset förändrats totalt?<br>c) Vad är priset efter båda förändringarna? Svara med två decimaler.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(1{,}12\\cdot0{,}92=\\)<strong>1,0304</strong></p><p>b) Faktorn 1,0304 svarar mot en <strong>ökning med ungefär 3,0 %</strong></p><p>c) \\(1{,}45\\cdot1{,}0304\\approx\\)<strong>1,49 kr/kWh</strong></p></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>a) \\(1{,}12\\cdot0{,}92=\\)<strong>1,0304</strong></p><p>b) Faktorn 1,0304 svarar mot en <strong>ökning med 3,04 %</strong>, alltså ungefär 3,0 %.</p><p>c) \\(1{,}45\\cdot1{,}0304\\approx\\)<strong>1,49 kr/kWh</strong></p></div></div>",
     "familj": "Upprepade procentuella förändringar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.0304,
-      3,
-      1.49
+        1.0304,
+        3.04,
+        1.49
     ],
-    "tolerans": null,
+    "tolerans": [
+        1e-05,
+        0.05,
+        0.005
+    ],
     "självrättning": true,
     "formaga": [
-      "procedur",
-      "begrepp",
-      "modellering"
+        "procedur",
+        "begrepp",
+        "modellering"
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Översätt 12 % upp och 8 % ned till två faktorer. Produkten beskriver hela vintern och våren tillsammans.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
-  },
+},
   {
     "id": "3.190",
     "kap": 3,
@@ -48218,30 +48226,31 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "upprepade_forandringar",
     "kurs": [
-      "1a",
-      "1b",
-      "1c"
+        "1a",
+        "1b",
+        "1c"
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Ett pris höjs först med 20 %. Därefter sänks det så att slutpriset blir exakt samma som ursprungspriset.</p><p>Hur stor måste den andra procentuella förändringen vara?</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor. Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p><p>Efter höjningen är faktorn 1,20. Den andra faktorn måste vara \\(\\frac{1}{1,20}=0,8333...\\).</p><p>Det betyder <strong>en sänkning med cirka 16,7 %</strong>.</p>",
+    "t": "<p>Ett pris höjs först med 20 %. Därefter sänks det så att slutpriset blir exakt samma som ursprungspriset.</p><p>Hur stor måste den andra procentuella förändringen vara? <strong>Ange förändringen med tecken</strong> (minus för sänkning och plus för höjning).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor. Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p><p>Efter höjningen är faktorn 1,20. Den andra faktorn måste vara \\(\\frac{1}{1,20}=0,8333...\\).</p><p>Förändringen är därför \\((0,8333...-1)\\cdot100\\approx-16,7\\,\\%\\). Det betyder <strong>en sänkning med cirka 16,7 %</strong>.</p>",
     "familj": "Upprepade procentuella förändringar",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": "16.7",
+    "rättSvar": -16.7,
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-      "begrepp",
-      "modellering"
+        "begrepp",
+        "modellering"
     ],
     "ledtrad": "<p>Efter höjningen är faktorn 1,20. Vilken andra faktor måste multipliceras med 1,20 för att produkten ska bli 1?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
-  },
+    "spel": true,
+    "svarFormat": "procent"
+},
   {
     "id": "3.200",
     "kap": 3,

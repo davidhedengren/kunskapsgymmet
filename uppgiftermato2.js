@@ -1,5 +1,5 @@
-/* Kvalitetsreviderad Ma4 / Matematik – fortsättning nivå 2, omgång 5 (2026-09-14).
- * Fokus: deriveringsregler, kedjeregel och sammansatta funktioner; NP-kalibrering, variation och robust självrättning. */
+/* Kvalitetsreviderad Ma4 / Matematik – fortsättning nivå 2, fasprogression (2026-09-19).
+ * Trigonometriska funktioner är delade i grunder respektive fasförskjutning för tydlig pedagogisk progression. */
 window.BANKMATO2 = [
   {
     "id": "1.04",
@@ -11711,7 +11711,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>För funktionen \\(f(x)=-5\\cos(4x)+2\\), där \\(x\\) mäts i radianer, bestäm</p>"
   },
   {
@@ -11738,12 +11738,12 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.163",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -11804,7 +11804,7 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(f(x)=\\tan(2x)\\):</p>",
     "spelDelar": [
@@ -11845,7 +11845,7 @@ window.BANKMATO2 = [
   {
     "id": "1.13",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -11888,7 +11888,7 @@ window.BANKMATO2 = [
   {
     "id": "1.14",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -11932,7 +11932,7 @@ window.BANKMATO2 = [
   {
     "id": "1.17",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -12026,7 +12026,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En strålkastare står 8 m från en rak vägg. När strålen har vridits vinkeln \\(v\\) från riktningen rakt mot väggen träffar ljuspunkten väggen \\(x\\) meter från mittpunkten.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålkastare 8 meter från en rak vägg, med vinkeln v från normalen och avståndet x längs väggen\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"60\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"72\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">vägg</text><line x1=\"235\" y1=\"215\" x2=\"235\" y2=\"60\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><line x1=\"235\" y1=\"215\" x2=\"365.1\" y2=\"60\" stroke=\"#B43123\" stroke-width=\"3\"/><circle cx=\"365.1\" cy=\"60\" r=\"5\" fill=\"#B43123\"/><circle cx=\"235\" cy=\"215\" r=\"6\" fill=\"#2B2527\"/><text x=\"235\" y=\"239\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">strålkastare</text><path d=\"M235 167 A48 48 0 0 1 265.9 178.2\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"256.2\" y=\"160.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">v</text><line x1=\"205\" y1=\"64\" x2=\"205\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"64\" x2=\"211\" y2=\"64\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"215\" x2=\"211\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"196\" y=\"141.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">8 m</text><line x1=\"235\" y1=\"82\" x2=\"365.1\" y2=\"82\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"235\" y1=\"76\" x2=\"235\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"365.1\" y1=\"76\" x2=\"365.1\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"300\" y=\"101\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">x</text></svg></span><p>a) Visa att \\(x=8\\tan v\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Strålkastaren vrids så att vinkeln ökar med \\(\\pi/12\\) rad/s från \\(v=0\\). Hur lång tid tar det innan ljuspunkten för första gången är 12 m från mittpunkten?</p>",
-    "s": "<p><strong>Metod:</strong> Översätt först modellens parametrar till amplitud, medellinje, period och fas. Använd sedan den storhet som frågan gäller.</p><p>a) Figuren ger en rätvinklig triangel där den närliggande kateten är 8 och den motstående är \\(x\\). Därför</p><p>\\[\\tan v=\\frac{x}{8}\\Rightarrow \\boxed{x=8\\tan v}.\\]</p><p>b) Sätt \\(x=12\\):</p><p>\\[12=8\\tan v\\Rightarrow \\tan v=1,5.\\]</p><p>Första positiva vinkeln är</p><p>\\[v=\\arctan(1,5)\\approx0,9828.\\]</p><p>Vinkeln efter \\(t\\) sekunder är \\(v=(\\pi/12)t\\). Alltså</p><p>\\[t=\\frac{12v}{\\pi}\\approx\\frac{12\\cdot0,9828}{\\pi}\\approx3,75.\\]</p><p><strong>Det tar cirka 3,75 s.</strong></p>",
+    "s": "<p><strong>Metod:</strong> Översätt först modellens parametrar till amplitud, medellinje och period. Använd sedan den storhet som frågan gäller.</p><p>a) Figuren ger en rätvinklig triangel där den närliggande kateten är 8 och den motstående är \\(x\\). Därför</p><p>\\[\\tan v=\\frac{x}{8}\\Rightarrow \\boxed{x=8\\tan v}.\\]</p><p>b) Sätt \\(x=12\\):</p><p>\\[12=8\\tan v\\Rightarrow \\tan v=1,5.\\]</p><p>Första positiva vinkeln är</p><p>\\[v=\\arctan(1,5)\\approx0,9828.\\]</p><p>Vinkeln efter \\(t\\) sekunder är \\(v=(\\pi/12)t\\). Alltså</p><p>\\[t=\\frac{12v}{\\pi}\\approx\\frac{12\\cdot0,9828}{\\pi}\\approx3,75.\\]</p><p><strong>Det tar cirka 3,75 s.</strong></p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur",
@@ -12039,13 +12039,13 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__tolka_och_bestamma_trigonometriska_modeller",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spel": false
   },
   {
     "id": "1.23",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -12127,7 +12127,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För \\(y=\\tan(2x)\\), bestäm</p><p>a) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) ett nollställe<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) de två lodräta asymptoter som ligger närmast origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) om funktionen är udda, jämn eller varken eller.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) \\(T=\\pi/2\\).</p><p>b) Till exempel <strong>\\(x=0\\)</strong>; generellt \\(x=n\\pi/2\\).</p><p>c) \\(2x=\\pm\\pi/2\\Rightarrow\\)<strong>\\(x=\\pm\\pi/4\\)</strong>.</p><p>d) \\(\\tan(2(-x))=-\\tan(2x)\\), alltså är funktionen <strong>udda</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) \\(T=\\pi/2\\).</p><p>b) Till exempel <strong>\\(x=0\\)</strong>; generellt \\(x=n\\pi/2\\).</p><p>c) \\(2x=\\pm\\pi/2\\Rightarrow\\)<strong>\\(x=\\pm\\pi/4\\)</strong>.</p><p>d) \\(\\tan(2(-x))=-\\tan(2x)\\), alltså är funktionen <strong>udda</strong>.</p>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -12206,7 +12206,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>För \\(y=\\tan(2x)\\), bestäm</p>"
   },
   {
@@ -12248,7 +12248,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm största och minsta värde.</p><p>a) \\(f(x)=7+3\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=2-5\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=-4+2\\sin(3x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=6\\cos(2x)-1\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Metod:</strong> Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><p>a) <strong>10 och 4</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>7 och −3</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>−2 och −6</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>5 och −7</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p><strong>Metod:</strong> Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><p>a) <strong>10 och 4</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>7 och −3</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>−2 och −6</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>5 och −7</strong>.</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur"
@@ -12275,35 +12275,35 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Bestäm största och minsta värde.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=7+3\\sin x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>10 och 4.</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>10 och 4.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>\\(g(x)=2-5\\cos x\\)</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>7 och −3.</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>7 och −3.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=-4+2\\sin(3x)\\)</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>−2 och −6.</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>−2 och −6.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>\\(p(x)=6\\cos(2x)-1\\)</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>5 och −7.</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>5 och −7.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -12346,7 +12346,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen ges av \\(f(x)=-1+4\\sin(x/2)\\).</p><p>a) Ange funktionens period.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Ange funktionens minsta värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(4\\pi\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-5\\)</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(4\\pi\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-5\\)</strong>.</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -12392,7 +12392,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=-1+4\\sin(x/2)\\).</p>"
   },
   {
@@ -12407,7 +12407,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen ges av \\(f(x)=1+6\\sin(4x)\\).</p><p>a) Ange funktionens period.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Ange funktionens minsta värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(\\pi/2\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-5\\)</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(\\pi/2\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-5\\)</strong>.</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -12453,13 +12453,13 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=1+6\\sin(4x)\\).</p>"
   },
   {
     "id": "1.37",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -12499,12 +12499,12 @@ window.BANKMATO2 = [
   {
     "id": "1.44",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "3/1/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Ange den horisontella fasförskjutningen jämfört med grundfunktionen. Ange höger som positivt och vänster som negativt.</p><p>a) \\(y=\\sin(x-\\frac\\pi3)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\sin(x+\\frac\\pi4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=2\\cos(x-\\frac\\pi6)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=3\\sin(2x-\\pi)\\)</p>",
@@ -12524,7 +12524,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>För a–c kan fasförskjutningen läsas av direkt. I d måste du först skriva om argumentet genom att bryta ut koefficienten framför x.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Beskriv fasförskjutningen jämfört med \\(y=\\sin x\\).</p>",
     "spelDelar": [
@@ -12553,8 +12553,8 @@ window.BANKMATO2 = [
         "etikett": "d",
         "fraga": "<p>\\(y=3\\sin(2x-\\pi)\\)</p>",
         "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><div class=\"spel-en-del\"><p>\\(2x-\\pi=2(x-\\frac\\pi2)\\), alltså \\(\\frac\\pi2\\) åt höger.</p></div>",
-        "niva": "E",
-        "poang": "1/0/0"
+        "niva": "C",
+        "poang": "0/1/0"
       }
     ],
     "svarFormat": [
@@ -12574,7 +12574,7 @@ window.BANKMATO2 = [
   {
     "id": "1.543",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -12601,7 +12601,7 @@ window.BANKMATO2 = [
   {
     "id": "1.48",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -12667,7 +12667,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionerna ges av</p><p>\\[f(x)=2\\sin(1,4x)+1\\qquad\\text{och}\\qquad g(x)=0,35x+0,5.\\]</p><p>Bestäm alla skärningspunkters x-koordinater för \\(0\\le x\\le8\\). Svara med tre decimaler.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Skärningspunkterna fås när \\(f(x)=g(x)\\):</p><p>\\[2\\sin(1,4x)+1=0,35x+0,5.\\]</p><p>En grafisk lösning ger tre skärningar i intervallet:</p><p>\\[\\boxed{x\\approx2,153;\\ 4,965;\\ 6,058}.\\]</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>Skärningspunkterna fås när \\(f(x)=g(x)\\):</p><p>\\[2\\sin(1,4x)+1=0,35x+0,5.\\]</p><p>En grafisk lösning ger tre skärningar i intervallet:</p><p>\\[\\boxed{x\\approx2,153;\\ 4,965;\\ 6,058}.\\]</p>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -12686,7 +12686,7 @@ window.BANKMATO2 = [
     ],
     "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "svarsstruktur": "mängd",
     "svarFormat": [
       "numeriskt",
@@ -12734,7 +12734,7 @@ window.BANKMATO2 = [
       false
     ],
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar en funktion \\(f(x)=A\\cos(kx)+B\\).</p><span class=\"fig\"><svg height=\"250\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 450 250\" width=\"450\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"248\" rx=\"10\" stroke=\"#E4E3E6\" width=\"448\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"147.0\" x2=\"147.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"242.0\" x2=\"242.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"337.0\" x2=\"337.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"432.0\" x2=\"432.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"188.0\" y2=\"188.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"164.0\" y2=\"164.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"116.0\" y2=\"116.0\"></line>\n<line stroke=\"#E8EEF0\" stroke-width=\"1\" x1=\"52\" x2=\"432\" y1=\"44.0\" y2=\"44.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52.0\" x2=\"52.0\" y1=\"20\" y2=\"212\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"52\" x2=\"432\" y1=\"164.0\" y2=\"164.0\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"52.0\" y=\"236\">0</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"147.0\" y=\"236\">π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"242.0\" y=\"236\">2π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"337.0\" y=\"236\">3π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"432.0\" y=\"236\">4π</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"192.0\">−1</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"120.0\">2</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"44\" y=\"48.0\">5</text>\n<path d=\"M52.0,44.0 L53.6,44.0 L55.2,44.1 L56.8,44.2 L58.3,44.4 L59.9,44.6 L61.5,44.9 L63.1,45.2 L64.7,45.6 L66.2,46.0 L67.8,46.5 L69.4,47.0 L71.0,47.5 L72.6,48.1 L74.2,48.8 L75.8,49.5 L77.3,50.2 L78.9,51.0 L80.5,51.8 L82.1,52.7 L83.7,53.6 L85.2,54.6 L86.8,55.6 L88.4,56.7 L90.0,57.8 L91.6,58.9 L93.2,60.0 L94.8,61.3 L96.3,62.5 L97.9,63.8 L99.5,65.1 L101.1,66.4 L102.7,67.8 L104.2,69.2 L105.8,70.7 L107.4,72.2 L109.0,73.7 L110.6,75.2 L112.2,76.8 L113.8,78.4 L115.3,80.0 L116.9,81.6 L118.5,83.3 L120.1,85.0 L121.7,86.7 L123.2,88.4 L124.8,90.2 L126.4,92.0 L128.0,93.8 L129.6,95.6 L131.2,97.4 L132.8,99.2 L134.3,101.0 L135.9,102.9 L137.5,104.7 L139.1,106.6 L140.7,108.5 L142.2,110.4 L143.8,112.2 L145.4,114.1 L147.0,116.0 L148.6,117.9 L150.2,119.8 L151.8,121.6 L153.3,123.5 L154.9,125.4 L156.5,127.3 L158.1,129.1 L159.7,131.0 L161.2,132.8 L162.8,134.6 L164.4,136.4 L166.0,138.2 L167.6,140.0 L169.2,141.8 L170.8,143.6 L172.3,145.3 L173.9,147.0 L175.5,148.7 L177.1,150.4 L178.7,152.0 L180.2,153.6 L181.8,155.2 L183.4,156.8 L185.0,158.3 L186.6,159.8 L188.2,161.3 L189.8,162.8 L191.3,164.2 L192.9,165.6 L194.5,166.9 L196.1,168.2 L197.7,169.5 L199.2,170.7 L200.8,172.0 L202.4,173.1 L204.0,174.2 L205.6,175.3 L207.2,176.4 L208.8,177.4 L210.3,178.4 L211.9,179.3 L213.5,180.2 L215.1,181.0 L216.7,181.8 L218.2,182.5 L219.8,183.2 L221.4,183.9 L223.0,184.5 L224.6,185.0 L226.2,185.5 L227.8,186.0 L229.3,186.4 L230.9,186.8 L232.5,187.1 L234.1,187.4 L235.7,187.6 L237.2,187.8 L238.8,187.9 L240.4,188.0 L242.0,188.0 L243.6,188.0 L245.2,187.9 L246.7,187.8 L248.3,187.6 L249.9,187.4 L251.5,187.1 L253.1,186.8 L254.7,186.4 L256.2,186.0 L257.8,185.5 L259.4,185.0 L261.0,184.5 L262.6,183.9 L264.2,183.2 L265.8,182.5 L267.3,181.8 L268.9,181.0 L270.5,180.2 L272.1,179.3 L273.7,178.4 L275.2,177.4 L276.8,176.4 L278.4,175.3 L280.0,174.2 L281.6,173.1 L283.2,172.0 L284.8,170.7 L286.3,169.5 L287.9,168.2 L289.5,166.9 L291.1,165.6 L292.7,164.2 L294.2,162.8 L295.8,161.3 L297.4,159.8 L299.0,158.3 L300.6,156.8 L302.2,155.2 L303.8,153.6 L305.3,152.0 L306.9,150.4 L308.5,148.7 L310.1,147.0 L311.7,145.3 L313.2,143.6 L314.8,141.8 L316.4,140.0 L318.0,138.2 L319.6,136.4 L321.2,134.6 L322.7,132.8 L324.3,131.0 L325.9,129.1 L327.5,127.3 L329.1,125.4 L330.7,123.5 L332.2,121.6 L333.8,119.8 L335.4,117.9 L337.0,116.0 L338.6,114.1 L340.2,112.2 L341.8,110.4 L343.3,108.5 L344.9,106.6 L346.5,104.7 L348.1,102.9 L349.7,101.0 L351.3,99.2 L352.8,97.4 L354.4,95.6 L356.0,93.8 L357.6,92.0 L359.2,90.2 L360.7,88.4 L362.3,86.7 L363.9,85.0 L365.5,83.3 L367.1,81.6 L368.7,80.0 L370.2,78.4 L371.8,76.8 L373.4,75.2 L375.0,73.7 L376.6,72.2 L378.2,70.7 L379.8,69.2 L381.3,67.8 L382.9,66.4 L384.5,65.1 L386.1,63.8 L387.7,62.5 L389.2,61.3 L390.8,60.0 L392.4,58.9 L394.0,57.8 L395.6,56.7 L397.2,55.6 L398.8,54.6 L400.3,53.6 L401.9,52.7 L403.5,51.8 L405.1,51.0 L406.7,50.2 L408.2,49.5 L409.8,48.8 L411.4,48.1 L413.0,47.5 L414.6,47.0 L416.2,46.5 L417.8,46.0 L419.3,45.6 L420.9,45.2 L422.5,44.9 L424.1,44.6 L425.7,44.4 L427.2,44.2 L428.8,44.1 L430.4,44.0 L432.0,44.0\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\"></path>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"423\" y=\"224\">x</text>\n</svg></span>",
     "spelDelar": [
@@ -12781,7 +12781,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En periodisk rörelse varierar mellan 1,5 m och 5,5 m. Tiden mellan två på varandra följande maximipunkter är 8,0 s. Vid \\(t=0\\) passerar rörelsen medellinjen uppåt.</p><p>Modellen skrivs \\(h(t)=A\\sin(kt)+B\\), där \\(A&gt;0\\) och \\(k&gt;0\\). Bestäm \\(A\\), \\(k\\) och \\(B\\).</p>",
-    "s": "<p><strong>Metod:</strong> Bestäm amplitud, medellinje och period först. Använd sedan en tydlig punkt i grafen för att bestämma fasen.</p><p>Amplituden är \\(A=(5,5-1,5)/2=2\\). Medellinjen är \\(B=(5,5+1,5)/2=3,5\\).</p><p>Perioden 8 ger \\(k=2\\pi/8=\\pi/4\\). Ingen fasförskjutning behövs.</p><p><strong>\\(h(t)=2\\sin(\\pi t/4)+3,5\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm amplitud, medellinje och period först. Kontrollera därefter att den valda funktionsformen stämmer med den givna punkten.</p><p>Amplituden är \\(A=(5,5-1,5)/2=2\\). Medellinjen är \\(B=(5,5+1,5)/2=3,5\\).</p><p>Perioden 8 ger \\(k=2\\pi/8=\\pi/4\\). </p><p><strong>\\(h(t)=2\\sin(\\pi t/4)+3,5\\)</strong>.</p>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -12797,7 +12797,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "svarFormat": [
       "numeriskt",
       "uttryck",
@@ -12822,7 +12822,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Temperaturen i en förenklad dygnsmodell varierar mellan \\(12^\\circ\\text{C}\\) och \\(24^\\circ\\text{C}\\) med perioden 24 h. Vid \\(t=0\\) är temperaturen maximal.</p><p>Modellen skrivs \\(T(t)=A\\cos(kt)+B\\), där \\(A&gt;0\\) och \\(k&gt;0\\). Bestäm \\(A\\), \\(k\\) och \\(B\\).</p>",
-    "s": "<p><strong>Metod:</strong> Amplituden är halva skillnaden mellan max och min, medellinjen är deras medelvärde och \\(k=2\\pi/T\\).</p><p>\\[A=\\frac{24-12}{2}=6,\\qquad B=\\frac{24+12}{2}=18.\\]</p><p>Perioden är 24 h, så</p><p>\\[k=\\frac{2\\pi}{24}=\\frac\\pi{12}.\\]</p><p>Eftersom temperaturen är maximal vid \\(t=0\\) passar cosinus utan fasförskjutning.</p>",
+    "s": "<p><strong>Metod:</strong> Amplituden är halva skillnaden mellan max och min, medellinjen är deras medelvärde och \\(k=2\\pi/T\\).</p><p>\\[A=\\frac{24-12}{2}=6,\\qquad B=\\frac{24+12}{2}=18.\\]</p><p>Perioden är 24 h, så</p><p>\\[k=\\frac{2\\pi}{24}=\\frac\\pi{12}.\\]</p><p>Eftersom temperaturen är maximal vid \\(t=0\\) passar den angivna cosinusformen direkt.</p>",
     "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "modellering",
@@ -12863,7 +12863,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Funktionen \\(f(x)=3\\sin(2x)-1\\). Bestäm amplitud och period.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Nyckelidé:</strong> I \\(A\\sin(Bx)+D\\) är amplituden \\(|A|\\) och perioden \\(2\\pi/|B|\\).</p><p>Här är \\(A=3\\) och \\(B=2\\), alltså amplitud 3 och period \\(\\pi\\).</p><p><strong>Svar:</strong> \\(\\boxed{3,\\ \\pi}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p><strong>Nyckelidé:</strong> I \\(A\\sin(Bx)+D\\) är amplituden \\(|A|\\) och perioden \\(2\\pi/|B|\\).</p><p>Här är \\(A=3\\) och \\(B=2\\), alltså amplitud 3 och period \\(\\pi\\).</p><p><strong>Svar:</strong> \\(\\boxed{3,\\ \\pi}\\).</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -12880,7 +12880,7 @@ window.BANKMATO2 = [
       null
     ],
     "självrättning": true,
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "svarFormat": [
       "numeriskt",
       "uttryck"
@@ -12903,7 +12903,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För \\(f(x)=\\tan(2x)\\), bestäm</p><p>a) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) två lodräta asymptoter närmast origo<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(\\pi/8)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) Tangens har period \\(\\pi\\), alltså blir perioden \\(\\pi/2\\).</p><p>b) \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: <strong>\\(x=\\pm\\pi/4\\)</strong>.</p><p>c) \\(f(\\pi/8)=\\tan(\\pi/4)=\\)<strong>1</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) Tangens har period \\(\\pi\\), alltså blir perioden \\(\\pi/2\\).</p><p>b) \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: <strong>\\(x=\\pm\\pi/4\\)</strong>.</p><p>c) \\(f(\\pi/8)=\\tan(\\pi/4)=\\)<strong>1</strong>.</p>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -12932,28 +12932,28 @@ window.BANKMATO2 = [
       true
     ],
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För \\(f(x)=\\tan(2x)\\), bestäm</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>perioden</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><div class=\"spel-en-del\"><p>Tangens har period \\(\\pi\\), alltså blir perioden \\(\\pi/2\\).</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><div class=\"spel-en-del\"><p>Tangens har period \\(\\pi\\), alltså blir perioden \\(\\pi/2\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>två lodräta asymptoter närmast origo</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><div class=\"spel-en-del\"><p>\\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: \\(x=\\pm\\pi/4\\).</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><div class=\"spel-en-del\"><p>\\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: \\(x=\\pm\\pi/4\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>\\(f(\\pi/8)\\).</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><div class=\"spel-en-del\"><p>\\(f(\\pi/8)=\\tan(\\pi/4)=\\)1.</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><div class=\"spel-en-del\"><p>\\(f(\\pi/8)=\\tan(\\pi/4)=\\)1.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -12976,7 +12976,7 @@ window.BANKMATO2 = [
   {
     "id": "1.523",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -13013,7 +13013,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen visar en sinusfunktion.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Periodisk graf\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#E8ECEF\"/><line x1=\"151.8\" y1=\"25\" x2=\"151.8\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"151.8\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"200.1\" y1=\"25\" x2=\"200.1\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"200.1\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"248.5\" y1=\"25\" x2=\"248.5\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"248.5\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"296.9\" y1=\"25\" x2=\"296.9\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"296.9\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"345.2\" y1=\"25\" x2=\"345.2\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"345.2\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"393.6\" y1=\"25\" x2=\"393.6\" y2=\"232\" stroke=\"#E8ECEF\"/><text x=\"393.6\" y=\"250\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">6</text><line x1=\"55\" y1=\"206.1\" x2=\"442\" y2=\"206.1\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"210.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#E8ECEF\"/><line x1=\"55\" y1=\"154.4\" x2=\"442\" y2=\"154.4\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"158.4\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"128.5\" x2=\"442\" y2=\"128.5\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"132.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"102.6\" x2=\"442\" y2=\"102.6\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"106.6\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"76.8\" x2=\"442\" y2=\"76.8\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"80.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"55\" y1=\"50.9\" x2=\"442\" y2=\"50.9\" stroke=\"#E8ECEF\"/><text x=\"47\" y=\"54.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#5C575E\">5</text><line x1=\"55\" y1=\"180.2\" x2=\"442\" y2=\"180.2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><line x1=\"103.4\" y1=\"25\" x2=\"103.4\" y2=\"232\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><polyline points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.2\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"411.0\" y=\"55.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11.5\" fill=\"#B43123\">f</text><text x=\"440\" y=\"172.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\">x</text><text x=\"111.4\" y=\"37\" font-family=\"sans-serif\" font-size=\"11\">y</text></svg></span><p>Bestäm funktionens a) amplitud, b) medellinje och c) period.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Maximivärdet är 5 och minimivärdet är −1.</p><p>a) Amplituden är \\((5-(-1))/2=\\boxed{3}\\).</p><p>b) Medellinjen är \\((5+(-1))/2=\\boxed{y=2}\\).</p><p>c) Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</p></div></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma rätt tecken när det behövs.</p><div class=\"facit-arbete\"><p>Maximivärdet är 5 och minimivärdet är −1.</p><p>a) Amplituden är \\((5-(-1))/2=\\boxed{3}\\).</p><p>b) Medellinjen är \\((5+(-1))/2=\\boxed{y=2}\\).</p><p>c) Avståndet mellan två motsvarande lägen är \\(\\boxed{4}\\).</p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -13071,7 +13071,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Grafen visar en sinusfunktion.</p><p>Bestäm funktionens</p><span class=\"fig\"><svg aria-label=\"Periodisk graf\" height=\"270\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 270\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"268\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#E8ECEF\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><line stroke=\"#E8ECEF\" x1=\"151.8\" x2=\"151.8\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"151.8\" y=\"250\">1</text><line stroke=\"#E8ECEF\" x1=\"200.1\" x2=\"200.1\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"200.1\" y=\"250\">2</text><line stroke=\"#E8ECEF\" x1=\"248.5\" x2=\"248.5\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"248.5\" y=\"250\">3</text><line stroke=\"#E8ECEF\" x1=\"296.9\" x2=\"296.9\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"296.9\" y=\"250\">4</text><line stroke=\"#E8ECEF\" x1=\"345.2\" x2=\"345.2\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"345.2\" y=\"250\">5</text><line stroke=\"#E8ECEF\" x1=\"393.6\" x2=\"393.6\" y1=\"25\" y2=\"232\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"middle\" x=\"393.6\" y=\"250\">6</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"206.1\" y2=\"206.1\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"210.1\">-1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"154.4\" y2=\"154.4\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"158.4\">1</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"128.5\" y2=\"128.5\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"132.5\">2</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"102.6\" y2=\"102.6\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"106.6\">3</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"76.8\" y2=\"76.8\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"80.8\">4</text><line stroke=\"#E8ECEF\" x1=\"55\" x2=\"442\" y1=\"50.9\" y2=\"50.9\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10.5\" text-anchor=\"end\" x=\"47\" y=\"54.9\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"55\" x2=\"442\" y1=\"180.2\" y2=\"180.2\"></line><line stroke=\"#2B2527\" stroke-width=\"1.6\" x1=\"103.4\" x2=\"103.4\" y1=\"25\" y2=\"232\"></line><polyline fill=\"none\" points=\"55.0,128.5 56.8,132.9 58.5,137.3 60.3,141.7 62.0,146.1 63.8,150.4 65.6,154.6 67.3,158.7 69.1,162.7 70.8,166.7 72.6,170.5 74.3,174.1 76.1,177.6 77.9,181.0 79.6,184.2 81.4,187.2 83.1,190.0 84.9,192.6 86.7,195.0 88.4,197.2 90.2,199.1 91.9,200.8 93.7,202.3 95.5,203.6 97.2,204.6 99.0,205.3 100.7,205.8 102.5,206.1 104.3,206.1 106.0,205.8 107.8,205.3 109.5,204.6 111.3,203.6 113.0,202.3 114.8,200.8 116.6,199.1 118.3,197.2 120.1,195.0 121.8,192.6 123.6,190.0 125.4,187.2 127.1,184.2 128.9,181.0 130.6,177.6 132.4,174.1 134.2,170.5 135.9,166.7 137.7,162.7 139.4,158.7 141.2,154.6 143.0,150.4 144.7,146.1 146.5,141.7 148.2,137.3 150.0,132.9 151.8,128.5 153.5,124.1 155.3,119.7 157.0,115.3 158.8,110.9 160.5,106.6 162.3,102.4 164.1,98.3 165.8,94.3 167.6,90.3 169.3,86.5 171.1,82.9 172.9,79.4 174.6,76.0 176.4,72.8 178.1,69.8 179.9,67.0 181.7,64.4 183.4,62.0 185.2,59.8 186.9,57.9 188.7,56.2 190.4,54.7 192.2,53.4 194.0,52.4 195.7,51.7 197.5,51.2 199.2,50.9 201.0,50.9 202.8,51.2 204.5,51.7 206.3,52.4 208.0,53.4 209.8,54.7 211.6,56.2 213.3,57.9 215.1,59.8 216.8,62.0 218.6,64.4 220.4,67.0 222.1,69.8 223.9,72.8 225.6,76.0 227.4,79.4 229.2,82.9 230.9,86.5 232.7,90.3 234.4,94.3 236.2,98.3 237.9,102.4 239.7,106.6 241.5,110.9 243.2,115.3 245.0,119.7 246.7,124.1 248.5,128.5 250.3,132.9 252.0,137.3 253.8,141.7 255.5,146.1 257.3,150.4 259.1,154.6 260.8,158.7 262.6,162.7 264.3,166.7 266.1,170.5 267.9,174.1 269.6,177.6 271.4,181.0 273.1,184.2 274.9,187.2 276.6,190.0 278.4,192.6 280.2,195.0 281.9,197.2 283.7,199.1 285.4,200.8 287.2,202.3 289.0,203.6 290.7,204.6 292.5,205.3 294.2,205.8 296.0,206.1 297.8,206.1 299.5,205.8 301.3,205.3 303.0,204.6 304.8,203.6 306.6,202.3 308.3,200.8 310.1,199.1 311.8,197.2 313.6,195.0 315.3,192.6 317.1,190.0 318.9,187.2 320.6,184.2 322.4,181.0 324.1,177.6 325.9,174.1 327.7,170.5 329.4,166.7 331.2,162.7 332.9,158.7 334.7,154.6 336.5,150.4 338.2,146.1 340.0,141.7 341.7,137.3 343.5,132.9 345.2,128.5 347.0,124.1 348.8,119.7 350.5,115.3 352.3,110.9 354.0,106.6 355.8,102.4 357.6,98.3 359.3,94.3 361.1,90.3 362.8,86.5 364.6,82.9 366.4,79.4 368.1,76.0 369.9,72.8 371.6,69.8 373.4,67.0 375.2,64.4 376.9,62.0 378.7,59.8 380.4,57.9 382.2,56.2 383.9,54.7 385.7,53.4 387.5,52.4 389.2,51.7 391.0,51.2 392.7,50.9 394.5,50.9 396.3,51.2 398.0,51.7 399.8,52.4 401.5,53.4 403.3,54.7 405.1,56.2 406.8,57.9 408.6,59.8 410.3,62.0 412.1,64.4 413.9,67.0 415.6,69.8 417.4,72.8 419.1,76.0 420.9,79.4 422.6,82.9 424.4,86.5 426.2,90.3 427.9,94.3 429.7,98.3 431.4,102.4 433.2,106.6 435.0,110.9 436.7,115.3 438.5,119.7 440.2,124.1 442.0,128.5\" stroke=\"#B43123\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2.2\"></polyline><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"11.5\" text-anchor=\"end\" x=\"411.0\" y=\"55.0\">f</text><text font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"end\" x=\"440\" y=\"172.2\">x</text><text font-family=\"sans-serif\" font-size=\"11\" x=\"111.4\" y=\"37\">y</text></svg></span>"
   },
   {
@@ -13086,7 +13086,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen ges av \\(f(x)=-3+2\\cos(\\pi x/4)\\).</p><p>a) Ange funktionens period.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Ange funktionens minsta värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(8\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-5\\)</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(8\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-5\\)</strong>.</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -13132,7 +13132,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=-3+2\\cos(\\pi x/4)\\).</p>"
   },
   {
@@ -13147,7 +13147,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För funktionen \\(f(x)=3\\sin(2x)-4\\), där \\(x\\) mäts i radianer, bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) medellinjen<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) största och minsta värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p><strong>Metod:</strong> Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><p>a) 3.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(T=2\\pi/2=\\pi\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=-4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Största värde \\(-1\\), minsta \\(-7\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p><strong>Metod:</strong> Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><p>a) 3.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(T=2\\pi/2=\\pi\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=-4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Största värde \\(-1\\), minsta \\(-7\\).</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -13166,35 +13166,35 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För funktionen \\(f(x)=3\\sin(2x)-4\\), där \\(x\\) mäts i radianer, bestäm</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>amplituden</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>3.</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>3.</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>perioden</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>\\(T=2\\pi/2=\\pi\\).</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>\\(T=2\\pi/2=\\pi\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>medellinjen</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>\\(y=-4\\).</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>\\(y=-4\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>största och minsta värde.</p>",
-        "s": "<p>Varför metoden fungerar: Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>Största värde \\(-1\\), minsta \\(-7\\).</p></div>",
+        "s": "<p>Varför metoden fungerar: Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig.</p><p>Metod: Läs av amplitud och medellinje direkt. Perioden fås från faktorn framför \\(x\\).</p><div class=\"spel-en-del\"><p>Största värde \\(-1\\), minsta \\(-7\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -13245,7 +13245,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För funktionen \\(f(x)=\\tan(2x)\\), bestäm</p>",
     "spelDelar": [
@@ -13278,7 +13278,7 @@ window.BANKMATO2 = [
   {
     "id": "1.74",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -13303,7 +13303,7 @@ window.BANKMATO2 = [
   {
     "id": "1.77",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -13346,7 +13346,7 @@ window.BANKMATO2 = [
   {
     "id": "1.81",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -13582,7 +13582,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>För varje funktion, ange amplitud, period och medellinje.</p>"
   },
   {
@@ -13597,7 +13597,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen ges av \\(f(x)=2+3\\cos(2x)\\).</p><p>a) Ange funktionens period.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Ange funktionens minsta värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(\\pi\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-1\\)</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(\\pi\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(-1\\)</strong>.</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -13643,7 +13643,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=2+3\\cos(2x)\\).</p>"
   },
   {
@@ -13658,7 +13658,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen ges av \\(f(x)=5-2\\cos(3x)\\).</p><p>a) Ange funktionens period.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Ange funktionens minsta värde.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(2\\pi/3\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(3\\)</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) Perioden fås från koefficienten framför \\(x\\): <strong>\\(2\\pi/3\\)</strong>.</p><p>b) Sinus eller cosinus varierar mellan −1 och 1. Därför blir minsta värdet <strong>\\(3\\)</strong>.</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -13704,7 +13704,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Funktionen ges av \\(f(x)=5-2\\cos(3x)\\).</p>"
   },
   {
@@ -13731,12 +13731,12 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.332",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -13782,7 +13782,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.91",
@@ -13796,7 +13796,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Skriv en möjlig funktion av formen \\(y=A\\sin(kx)+B\\).</p><p>a) amplitud 3, period \\(2\\pi\\), medellinje \\(y=4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) amplitud 5, period \\(\\pi\\), medellinje \\(y=-1\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) amplitud 2, period \\(4\\pi\\), medellinje \\(y=0\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p><p>a) Exempel: <strong>\\(y=3\\sin x+4\\)</strong>.</p><p>b) \\(k=2\\), exempel: <strong>\\(y=5\\sin2x-1\\)</strong>.</p><p>c) \\(k=1/2\\), exempel: <strong>\\(y=2\\sin(x/2)\\)</strong>.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. </p><p>a) Exempel: <strong>\\(y=3\\sin x+4\\)</strong>.</p><p>b) \\(k=2\\), exempel: <strong>\\(y=5\\sin2x-1\\)</strong>.</p><p>c) \\(k=1/2\\), exempel: <strong>\\(y=2\\sin(x/2)\\)</strong>.</p>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -13854,7 +13854,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Skriv en möjlig funktion av formen \\(y=A\\sin(kx)+B\\).</p>"
   },
   {
@@ -13887,7 +13887,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För funktionen</p><p>\\[<br>f(x)=4\\sin(3x)-2<br>\\]</p><p>bestäm</p>",
     "spelDelar": [
@@ -13931,7 +13931,7 @@ window.BANKMATO2 = [
   {
     "id": "1.96",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -13957,7 +13957,7 @@ window.BANKMATO2 = [
   {
     "id": "1.549",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -13985,7 +13985,7 @@ window.BANKMATO2 = [
   {
     "id": "1.98",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14094,7 +14094,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -14110,7 +14110,7 @@ window.BANKMATO2 = [
   {
     "id": "1.102",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14161,7 +14161,7 @@ window.BANKMATO2 = [
       0
     ],
     "självrättning": true,
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt"
@@ -14175,12 +14175,12 @@ window.BANKMATO2 = [
   {
     "id": "1.104",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
-    "niva": "E",
-    "poang": "4/0/0",
+    "niva": "C",
+    "poang": "0/4/0",
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Skriv om så att fasförskjutningen syns i formen \\(A\\sin(k(x-x_0))+B\\) eller \\(A\\cos(k(x-x_0))+B\\).</p><p>a) \\(y=2\\sin(3x-\\pi)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=4\\cos(2x+\\frac{\\pi}{2})-1\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=\\sin(5x-\\frac{\\pi}{2})\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(y=3\\cos(4x-\\pi)+2\\)</p>",
@@ -14228,39 +14228,39 @@ window.BANKMATO2 = [
         "etikett": "a",
         "fraga": "<p>\\(y=2\\sin(3x-\\pi)\\)</p>",
         "s": "<strong>a)</strong> \\(3x-\\pi=3(x-\\pi/3)\\): \\(2\\sin(3(x-\\pi/3))\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>\\(y=4\\cos(2x+\\frac{\\pi}{2})-1\\)</p>",
         "s": "<strong>b)</strong> \\(2x+\\pi/2=2(x+\\pi/4)\\): \\(4\\cos(2(x+\\pi/4))-1\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>\\(y=\\sin(5x-\\frac{\\pi}{2})\\)</p>",
         "s": "<strong>c)</strong> \\(5x-\\pi/2=5(x-\\pi/10)\\): \\(\\sin(5(x-\\pi/10))\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
+        "niva": "C",
+        "poang": "0/1/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>\\(y=3\\cos(4x-\\pi)+2\\)</p>",
         "s": "<strong>d)</strong> \\(4x-\\pi=4(x-\\pi/4)\\): \\(3\\cos(4(x-\\pi/4))+2\\) .",
-        "niva": "E",
-        "poang": "1/0/0"
+        "niva": "C",
+        "poang": "0/1/0"
       }
     ],
     "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Bryt först ut koefficienten framför x ur hela argumentet. Exempel: \\(3x-\\pi=3(x-\\pi/3)\\).</p>",
     "spelIntro": "<p>Skriv om så att fasförskjutningen syns i formen \\(A\\sin(k(x-x_0))+B\\) eller \\(A\\cos(k(x-x_0))+B\\).</p>"
   },
   {
     "id": "1.105",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14355,7 +14355,7 @@ window.BANKMATO2 = [
       "uttryck"
     ],
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Grafen visar \\(y=\\tan x\\).</p><span class=\"fig\"><svg aria-label=\"Graf till tangensfunktionen med lodräta asymptoter\" height=\"245\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 245\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"243\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"205.0\" y2=\"205.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"182.5\" y2=\"182.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"160.0\" y2=\"160.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"137.5\" y2=\"137.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"115.0\" y2=\"115.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"92.5\" y2=\"92.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"70.0\" y2=\"70.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"47.5\" y2=\"47.5\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60\" x2=\"440\" y1=\"25.0\" y2=\"25.0\"></line>\n<line stroke=\"#D9E6E9\" x1=\"60.0\" x2=\"60.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"60.0\" y=\"132.0\">-π</text>\n<line stroke=\"#D9E6E9\" x1=\"155.0\" x2=\"155.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"155.0\" y=\"132.0\">-π/2</text>\n<line stroke=\"#D9E6E9\" x1=\"250.0\" x2=\"250.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"240.0\" y=\"132.0\">0</text>\n<line stroke=\"#D9E6E9\" x1=\"345.0\" x2=\"345.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"345.0\" y=\"132.0\">π/2</text>\n<line stroke=\"#D9E6E9\" x1=\"440.0\" x2=\"440.0\" y1=\"25\" y2=\"205\"></line>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"440.0\" y=\"132.0\">π</text>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"60\" x2=\"440\" y1=\"115.0\" y2=\"115.0\"></line>\n<line stroke=\"#2B2527\" stroke-width=\"1.8\" x1=\"250.0\" x2=\"250.0\" y1=\"25\" y2=\"205\"></line>\n<line stroke=\"#268FA3\" stroke-dasharray=\"6 4\" stroke-width=\"1.4\" x1=\"155.0\" x2=\"155.0\" y1=\"25\" y2=\"205\"></line>\n<line stroke=\"#268FA3\" stroke-dasharray=\"6 4\" stroke-width=\"1.4\" x1=\"345.0\" x2=\"345.0\" y1=\"25\" y2=\"205\"></line>\n<polyline fill=\"none\" points=\"60.00,115.00 60.72,114.73 61.43,114.47 62.15,114.20 62.87,113.93 63.58,113.67 64.30,113.40 65.02,113.13 65.73,112.86 66.45,112.59 67.17,112.32 67.88,112.05 68.60,111.78 69.32,111.51 70.04,111.23 70.75,110.96 71.47,110.68 72.19,110.40 72.90,110.13 73.62,109.85 74.34,109.56 75.05,109.28 75.77,109.00 76.49,108.71 77.20,108.42 77.92,108.13 78.64,107.84 79.35,107.54 80.07,107.25 80.79,106.95 81.50,106.64 82.22,106.34 82.94,106.03 83.65,105.72 84.37,105.41 85.09,105.09 85.81,104.77 86.52,104.45 87.24,104.12 87.96,103.79 88.67,103.45 89.39,103.12 90.11,102.77 90.82,102.42 91.54,102.07 92.26,101.72 92.97,101.35 93.69,100.99 94.41,100.61 95.12,100.23 95.84,99.85 96.56,99.46 97.27,99.06 97.99,98.66 98.71,98.25 99.42,97.83 100.14,97.40 100.86,96.97 101.58,96.53 102.29,96.08 103.01,95.62 103.73,95.15 104.44,94.67 105.16,94.18 105.88,93.68 106.59,93.17 107.31,92.64 108.03,92.10 108.74,91.56 109.46,90.99 110.18,90.41 110.89,89.82 111.61,89.21 112.33,88.59 113.04,87.94 113.76,87.28 114.48,86.60 115.19,85.90 115.91,85.18 116.63,84.43 117.35,83.66 118.06,82.86 118.78,82.03 119.50,81.18 120.21,80.30 120.93,79.38 121.65,78.42 122.36,77.43 123.08,76.40 123.80,75.33 124.51,74.21 125.23,73.04 125.95,71.82 126.66,70.54 127.38,69.21 128.10,67.80 128.81,66.32 129.53,64.77 130.25,63.13 130.96,61.40 131.68,59.57 132.40,57.62 133.11,55.56 133.83,53.36 134.55,51.02 135.27,48.51 135.98,45.82 136.70,42.93 137.42,39.81 138.13,36.43 138.85,32.76 139.57,28.75 140.28,24.37\" stroke=\"#268FA3\" stroke-width=\"2.4\"></polyline>\n<polyline fill=\"none\" points=\"169.72,205.63 171.15,197.24 172.58,190.19 174.02,184.18 175.45,178.98 176.89,174.44 178.32,170.43 179.75,166.87 181.19,163.68 182.62,160.79 184.05,158.18 185.49,155.79 186.92,153.60 188.35,151.58 189.79,149.70 191.22,147.97 192.65,146.34 194.09,144.82 195.52,143.40 196.96,142.06 198.39,140.79 199.82,139.59 201.26,138.44 202.69,137.36 204.12,136.32 205.56,135.33 206.99,134.38 208.42,133.47 209.86,132.60 211.29,131.75 212.73,130.94 214.16,130.15 215.59,129.39 217.03,128.65 218.46,127.93 219.89,127.23 221.33,126.55 222.76,125.88 224.19,125.23 225.63,124.59 227.06,123.97 228.50,123.36 229.93,122.75 231.36,122.16 232.80,121.58 234.23,121.00 235.66,120.44 237.10,119.87 238.53,119.32 239.96,118.77 241.40,118.22 242.83,117.68 244.27,117.14 245.70,116.60 247.13,116.07 248.57,115.53 250.00,115.00 251.43,114.47 252.87,113.93 254.30,113.40 255.73,112.86 257.17,112.32 258.60,111.78 260.04,111.23 261.47,110.68 262.90,110.13 264.34,109.56 265.77,109.00 267.20,108.42 268.64,107.84 270.07,107.25 271.50,106.64 272.94,106.03 274.37,105.41 275.81,104.77 277.24,104.12 278.67,103.45 280.11,102.77 281.54,102.07 282.97,101.35 284.41,100.61 285.84,99.85 287.27,99.06 288.71,98.25 290.14,97.40 291.58,96.53 293.01,95.62 294.44,94.67 295.88,93.68 297.31,92.64 298.74,91.56 300.18,90.41 301.61,89.21 303.04,87.94 304.48,86.60 305.91,85.18 307.35,83.66 308.78,82.03 310.21,80.30 311.65,78.42 313.08,76.40 314.51,74.21 315.95,71.82 317.38,69.21 318.81,66.32 320.25,63.13 321.68,59.57 323.11,55.56 324.55,51.02 325.98,45.82 327.42,39.81 328.85,32.76 330.28,24.37\" stroke=\"#268FA3\" stroke-width=\"2.4\"></polyline>\n<polyline fill=\"none\" points=\"359.72,205.63 360.43,201.25 361.15,197.24 361.87,193.57 362.58,190.19 363.30,187.07 364.02,184.18 364.73,181.49 365.45,178.98 366.17,176.64 366.89,174.44 367.60,172.38 368.32,170.43 369.04,168.60 369.75,166.87 370.47,165.23 371.19,163.68 371.90,162.20 372.62,160.79 373.34,159.46 374.05,158.18 374.77,156.96 375.49,155.79 376.20,154.67 376.92,153.60 377.64,152.57 378.35,151.58 379.07,150.62 379.79,149.70 380.50,148.82 381.22,147.97 381.94,147.14 382.65,146.34 383.37,145.57 384.09,144.82 384.81,144.10 385.52,143.40 386.24,142.72 386.96,142.06 387.67,141.41 388.39,140.79 389.11,140.18 389.82,139.59 390.54,139.01 391.26,138.44 391.97,137.90 392.69,137.36 393.41,136.83 394.12,136.32 394.84,135.82 395.56,135.33 396.27,134.85 396.99,134.38 397.71,133.92 398.42,133.47 399.14,133.03 399.86,132.60 400.58,132.17 401.29,131.75 402.01,131.34 402.73,130.94 403.44,130.54 404.16,130.15 404.88,129.77 405.59,129.39 406.31,129.01 407.03,128.65 407.74,128.28 408.46,127.93 409.18,127.58 409.89,127.23 410.61,126.88 411.33,126.55 412.04,126.21 412.76,125.88 413.48,125.55 414.19,125.23 414.91,124.91 415.63,124.59 416.35,124.28 417.06,123.97 417.78,123.66 418.50,123.36 419.21,123.05 419.93,122.75 420.65,122.46 421.36,122.16 422.08,121.87 422.80,121.58 423.51,121.29 424.23,121.00 424.95,120.72 425.66,120.44 426.38,120.15 427.10,119.87 427.81,119.60 428.53,119.32 429.25,119.04 429.96,118.77 430.68,118.49 431.40,118.22 432.12,117.95 432.83,117.68 433.55,117.41 434.27,117.14 434.98,116.87 435.70,116.60 436.42,116.33 437.13,116.07 437.85,115.80 438.57,115.53 439.28,115.27 440.00,115.00\" stroke=\"#268FA3\" stroke-width=\"2.4\"></polyline>\n</svg></span>",
     "spelDelar": [
@@ -14412,7 +14412,7 @@ window.BANKMATO2 = [
   {
     "id": "1.111",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14437,7 +14437,7 @@ window.BANKMATO2 = [
   {
     "id": "1.525",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14476,7 +14476,7 @@ window.BANKMATO2 = [
   {
     "id": "1.113",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14561,7 +14561,7 @@ window.BANKMATO2 = [
   {
     "id": "1.116",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14588,7 +14588,7 @@ window.BANKMATO2 = [
   {
     "id": "1.119",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14625,7 +14625,7 @@ window.BANKMATO2 = [
   {
     "id": "1.128",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14666,7 +14666,7 @@ window.BANKMATO2 = [
   {
     "id": "1.333",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14702,7 +14702,7 @@ window.BANKMATO2 = [
   {
     "id": "1.131",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14761,7 +14761,7 @@ window.BANKMATO2 = [
   {
     "id": "1.550",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -14861,7 +14861,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>För varje funktion, ange amplitud, period och medellinje.</p>",
     "spelDelar": [
@@ -14927,7 +14927,7 @@ window.BANKMATO2 = [
   {
     "id": "1.136",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15023,7 +15023,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.137",
@@ -15037,7 +15037,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Grafen visar en cosinusfunktion på intervallet \\(0\\le x\\le2\\pi\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"500\" height=\"290\" viewBox=\"0 0 500 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"funktionsgraf\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"55.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"160.0\" y1=\"25\" x2=\"160.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"160.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"265.0\" y1=\"25\" x2=\"265.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"265.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"370.0\" y1=\"25\" x2=\"370.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"370.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"475.0\" y1=\"25\" x2=\"475.0\" y2=\"248\" stroke=\"#D9E6E9\"/><text x=\"475.0\" y=\"266\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2π</text><line x1=\"55\" y1=\"225.7\" x2=\"475\" y2=\"225.7\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"228.7\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">-1</text><line x1=\"55\" y1=\"181.1\" x2=\"475\" y2=\"181.1\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"184.1\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">0</text><line x1=\"55\" y1=\"136.5\" x2=\"475\" y2=\"136.5\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"139.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"55\" y1=\"91.9\" x2=\"475\" y2=\"91.9\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"94.9\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"55\" y1=\"47.3\" x2=\"475\" y2=\"47.3\" stroke=\"#D9E6E9\"/><text x=\"47\" y=\"50.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"55\" y1=\"181.1\" x2=\"480\" y2=\"181.1\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"55.0\" y1=\"20\" x2=\"55.0\" y2=\"248\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><polyline fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\" points=\"55.0,225.7 56.0,225.7 57.1,225.7 58.1,225.6 59.2,225.5 60.2,225.4 61.3,225.3 62.4,225.2 63.4,225.0 64.5,224.8 65.5,224.6 66.5,224.4 67.6,224.1 68.7,223.8 69.7,223.6 70.8,223.2 71.8,222.9 72.8,222.5 73.9,222.2 74.9,221.8 76.0,221.3 77.0,220.9 78.1,220.4 79.1,219.9 80.2,219.4 81.2,218.9 82.3,218.4 83.3,217.8 84.4,217.2 85.5,216.6 86.5,216.0 87.5,215.3 88.6,214.7 89.7,214.0 90.7,213.3 91.8,212.6 92.8,211.8 93.8,211.1 94.9,210.3 95.9,209.5 97.0,208.7 98.0,207.8 99.1,207.0 100.1,206.1 101.2,205.2 102.2,204.3 103.3,203.4 104.3,202.5 105.4,201.5 106.4,200.6 107.5,199.6 108.5,198.6 109.6,197.6 110.7,196.5 111.7,195.5 112.8,194.4 113.8,193.4 114.8,192.3 115.9,191.2 116.9,190.1 118.0,188.9 119.0,187.8 120.1,186.6 121.2,185.5 122.2,184.3 123.2,183.1 124.3,181.9 125.3,180.7 126.4,179.5 127.5,178.2 128.5,177.0 129.6,175.7 130.6,174.5 131.6,173.2 132.7,171.9 133.8,170.6 134.8,169.3 135.8,168.0 136.9,166.7 137.9,165.4 139.0,164.1 140.0,162.7 141.1,161.4 142.2,160.0 143.2,158.7 144.2,157.3 145.3,156.0 146.3,154.6 147.4,153.2 148.4,151.8 149.5,150.5 150.5,149.1 151.6,147.7 152.6,146.3 153.7,144.9 154.8,143.5 155.8,142.1 156.8,140.7 157.9,139.3 158.9,137.9 160.0,136.5 161.0,135.1 162.1,133.7 163.1,132.3 164.2,130.9 165.2,129.5 166.3,128.1 167.3,126.7 168.4,125.3 169.4,123.9 170.5,122.5 171.6,121.2 172.6,119.8 173.6,118.4 174.7,117.0 175.8,115.7 176.8,114.3 177.8,113.0 178.9,111.6 179.9,110.3 181.0,108.9 182.1,107.6 183.1,106.3 184.1,105.0 185.2,103.7 186.2,102.4 187.3,101.1 188.3,99.8 189.4,98.5 190.4,97.3 191.5,96.0 192.5,94.8 193.6,93.5 194.7,92.3 195.7,91.1 196.8,89.9 197.8,88.7 198.8,87.5 199.9,86.4 200.9,85.2 202.0,84.1 203.0,82.9 204.1,81.8 205.2,80.7 206.2,79.6 207.2,78.6 208.3,77.5 209.3,76.5 210.4,75.4 211.4,74.4 212.5,73.4 213.5,72.4 214.6,71.5 215.7,70.5 216.7,69.6 217.8,68.7 218.8,67.8 219.8,66.9 220.9,66.0 221.9,65.2 223.0,64.3 224.0,63.5 225.1,62.7 226.1,61.9 227.2,61.2 228.2,60.4 229.3,59.7 230.3,59.0 231.4,58.3 232.4,57.7 233.5,57.0 234.5,56.4 235.6,55.8 236.6,55.2 237.7,54.6 238.7,54.1 239.8,53.6 240.8,53.1 241.9,52.6 242.9,52.1 244.0,51.7 245.0,51.2 246.1,50.8 247.1,50.5 248.2,50.1 249.2,49.8 250.3,49.4 251.3,49.2 252.4,48.9 253.4,48.6 254.5,48.4 255.5,48.2 256.6,48.0 257.6,47.8 258.7,47.7 259.8,47.6 260.8,47.5 261.8,47.4 262.9,47.3 263.9,47.3 265.0,47.3 266.0,47.3 267.1,47.3 268.1,47.4 269.2,47.5 270.2,47.6 271.3,47.7 272.3,47.8 273.4,48.0 274.4,48.2 275.5,48.4 276.5,48.6 277.6,48.9 278.6,49.2 279.7,49.4 280.8,49.8 281.8,50.1 282.8,50.5 283.9,50.8 284.9,51.2 286.0,51.7 287.1,52.1 288.1,52.6 289.1,53.1 290.2,53.6 291.2,54.1 292.3,54.6 293.3,55.2 294.4,55.8 295.4,56.4 296.5,57.0 297.6,57.7 298.6,58.3 299.6,59.0 300.7,59.7 301.8,60.4 302.8,61.2 303.8,61.9 304.9,62.7 305.9,63.5 307.0,64.3 308.1,65.2 309.1,66.0 310.1,66.9 311.2,67.8 312.2,68.7 313.3,69.6 314.3,70.5 315.4,71.5 316.4,72.4 317.5,73.4 318.6,74.4 319.6,75.4 320.6,76.5 321.7,77.5 322.8,78.6 323.8,79.6 324.9,80.7 325.9,81.8 326.9,82.9 328.0,84.1 329.0,85.2 330.1,86.4 331.2,87.5 332.2,88.7 333.2,89.9 334.3,91.1 335.4,92.3 336.4,93.5 337.4,94.8 338.5,96.0 339.5,97.3 340.6,98.5 341.7,99.8 342.7,101.1 343.8,102.4 344.8,103.7 345.9,105.0 346.9,106.3 347.9,107.6 349.0,108.9 350.0,110.3 351.1,111.6 352.2,113.0 353.2,114.3 354.2,115.7 355.3,117.0 356.4,118.4 357.4,119.8 358.4,121.2 359.5,122.5 360.5,123.9 361.6,125.3 362.6,126.7 363.7,128.1 364.8,129.5 365.8,130.9 366.9,132.3 367.9,133.7 368.9,135.1 370.0,136.5 371.0,137.9 372.1,139.3 373.1,140.7 374.2,142.1 375.2,143.5 376.3,144.9 377.3,146.3 378.4,147.7 379.4,149.1 380.5,150.5 381.5,151.8 382.6,153.2 383.6,154.6 384.7,156.0 385.8,157.3 386.8,158.7 387.8,160.0 388.9,161.4 389.9,162.7 391.0,164.1 392.0,165.4 393.1,166.7 394.1,168.0 395.2,169.3 396.2,170.6 397.3,171.9 398.3,173.2 399.4,174.5 400.4,175.7 401.5,177.0 402.5,178.2 403.6,179.5 404.6,180.7 405.7,181.9 406.7,183.1 407.8,184.3 408.8,185.5 409.9,186.6 410.9,187.8 412.0,188.9 413.0,190.1 414.1,191.2 415.2,192.3 416.2,193.4 417.2,194.4 418.3,195.5 419.3,196.5 420.4,197.6 421.4,198.6 422.5,199.6 423.5,200.6 424.6,201.5 425.6,202.5 426.7,203.4 427.7,204.3 428.8,205.2 429.8,206.1 430.9,207.0 431.9,207.8 433.0,208.7 434.0,209.5 435.1,210.3 436.2,211.1 437.2,211.8 438.2,212.6 439.3,213.3 440.3,214.0 441.4,214.7 442.4,215.3 443.5,216.0 444.5,216.6 445.6,217.2 446.6,217.8 447.7,218.4 448.7,218.9 449.8,219.4 450.8,219.9 451.9,220.4 452.9,220.9 454.0,221.3 455.0,221.8 456.1,222.2 457.1,222.5 458.2,222.9 459.2,223.2 460.3,223.6 461.3,223.8 462.4,224.1 463.4,224.4 464.5,224.6 465.5,224.8 466.6,225.0 467.6,225.2 468.7,225.3 469.7,225.4 470.8,225.5 471.8,225.6 472.9,225.7 473.9,225.7 475.0,225.7\"/><text x=\"467\" y=\"43\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">y = f(x)</text></svg></span><p>Bestäm konstanterna \\(A\\), \\(k\\) och \\(B\\) i \\(f(x)=A\\cos(kx)+B\\), där \\(k&gt;0\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma fas eller tecken.</p><div class=\"facit-arbete\"><p>Grafens största värde är 3 och minsta värde −1. Därför är</p><p>\\[|A|=\\frac{3-(-1)}2=2,\\qquad B=\\frac{3+(-1)}2=1.\\]</p><p>Perioden är \\(2\\pi\\), alltså \\(k=1\\). Vid \\(x=0\\) antar funktionen sitt minimum, så \\(A=-2\\).</p><p><strong>\\(\\boxed{f(x)=-2\\cos x+1}\\)</strong>.</p></div></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först amplitud och medellinje från största och minsta värde. Läs sedan perioden från avståndet mellan motsvarande lägen och använd en tydlig punkt för att bestämma rätt tecken när det behövs.</p><div class=\"facit-arbete\"><p>Grafens största värde är 3 och minsta värde −1. Därför är</p><p>\\[|A|=\\frac{3-(-1)}2=2,\\qquad B=\\frac{3+(-1)}2=1.\\]</p><p>Perioden är \\(2\\pi\\), alltså \\(k=1\\). Vid \\(x=0\\) antar funktionen sitt minimum, så \\(A=-2\\).</p><p><strong>\\(\\boxed{f(x)=-2\\cos x+1}\\)</strong>.</p></div></div>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -15052,7 +15052,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "svarFormat": [
       "numeriskt",
       "numeriskt",
@@ -15068,7 +15068,7 @@ window.BANKMATO2 = [
   {
     "id": "1.148",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15094,7 +15094,7 @@ window.BANKMATO2 = [
   {
     "id": "1.149",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15120,7 +15120,7 @@ window.BANKMATO2 = [
   {
     "id": "1.150",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15202,7 +15202,7 @@ window.BANKMATO2 = [
   {
     "id": "1.151",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15275,7 +15275,7 @@ window.BANKMATO2 = [
   {
     "id": "1.544",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15303,7 +15303,7 @@ window.BANKMATO2 = [
   {
     "id": "1.152",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15329,7 +15329,7 @@ window.BANKMATO2 = [
   {
     "id": "1.520",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15355,7 +15355,7 @@ window.BANKMATO2 = [
   {
     "id": "1.153",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15456,7 +15456,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>För funktionen \\(f(x)=2\\tan(3x)\\):</p>"
   },
   {
@@ -15499,7 +15499,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm.</p><p>a) perioden för \\(y=\\tan(3x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden för \\(y=\\tan(x/2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) två lodräta asymptoter närmast origo för \\(y=\\tan x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) två lodräta asymptoter närmast origo för \\(y=\\tan(2x)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>a) \\(T=\\pi/3\\).</p><p>b) \\(T=2\\pi\\).</p><p>c) <strong>\\(x=-\\pi/2\\)</strong> och <strong>\\(x=\\pi/2\\)</strong>.</p><p>d) \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: <strong>\\(x=-\\pi/4,\\pi/4\\)</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>a) \\(T=\\pi/3\\).</p><p>b) \\(T=2\\pi\\).</p><p>c) <strong>\\(x=-\\pi/2\\)</strong> och <strong>\\(x=\\pi/2\\)</strong>.</p><p>d) \\(2x=\\pi/2+n\\pi\\Rightarrow x=\\pi/4+n\\pi/2\\). Närmast origo: <strong>\\(x=-\\pi/4,\\pi/4\\)</strong>.</p>",
     "familj": "Period och asymptoter för tangensfunktioner",
     "formaga": [
       "procedur",
@@ -15587,13 +15587,13 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>Bestäm.</p>"
   },
   {
     "id": "1.527",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15642,7 +15642,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.180",
@@ -15668,7 +15668,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.181",
@@ -15694,7 +15694,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.334",
@@ -15719,7 +15719,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.182",
@@ -15745,12 +15745,12 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.183",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15797,7 +15797,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.185",
@@ -15823,12 +15823,12 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.186",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -15875,7 +15875,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.188",
@@ -15901,7 +15901,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.221",
@@ -15927,7 +15927,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.222",
@@ -15953,7 +15953,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.223",
@@ -15979,7 +15979,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.224",
@@ -16005,7 +16005,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.225",
@@ -16031,7 +16031,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.226",
@@ -16057,12 +16057,12 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.521",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16088,7 +16088,7 @@ window.BANKMATO2 = [
   {
     "id": "1.545",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16116,7 +16116,7 @@ window.BANKMATO2 = [
   {
     "id": "1.227",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16142,7 +16142,7 @@ window.BANKMATO2 = [
   {
     "id": "1.228",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16189,12 +16189,12 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.335",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16219,7 +16219,7 @@ window.BANKMATO2 = [
   {
     "id": "1.551",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16247,7 +16247,7 @@ window.BANKMATO2 = [
   {
     "id": "1.230",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16294,7 +16294,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.232",
@@ -16320,7 +16320,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.269",
@@ -16334,7 +16334,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionen \\(f(x)=a\\sin(bx)+d\\) har största värdet 7, minsta värdet −1 och perioden \\(\\pi\\).</p><p>Bestäm positiva värden på \\(a\\) och \\(b\\) samt \\(d\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Medellinjen är \\(d=(7+(-1))/2=3\\). Amplituden är \\(a=(7-(-1))/2=4\\).</p><p>Perioden \\(2\\pi/b=\\pi\\) ger \\(b=2\\).</p><p>Alltså \\(\\boxed{a=4,b=2,d=3}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>Medellinjen är \\(d=(7+(-1))/2=3\\). Amplituden är \\(a=(7-(-1))/2=4\\).</p><p>Perioden \\(2\\pi/b=\\pi\\) ger \\(b=2\\).</p><p>Alltså \\(\\boxed{a=4,b=2,d=3}\\).</p>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -16345,7 +16345,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.270",
@@ -16359,7 +16359,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Funktionerna \\(f(x)=2\\sin x+1\\) och \\(g(x)=2\\cos x+1\\) skär varandra flera gånger.</p><p>Bestäm alla skärningspunkters x-koordinater i intervallet \\(0\\le x&lt;2\\pi\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Skärning kräver \\(2\\sin x+1=2\\cos x+1\\), alltså \\(\\sin x=\\cos x\\).</p><p>Där \\(\\cos x\\ne0\\) kan vi dividera och får \\(\\tan x=1\\). I intervallet blir \\(\\boxed{x=\\pi/4,\\ 5\\pi/4}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>Skärning kräver \\(2\\sin x+1=2\\cos x+1\\), alltså \\(\\sin x=\\cos x\\).</p><p>Där \\(\\cos x\\ne0\\) kan vi dividera och får \\(\\tan x=1\\). I intervallet blir \\(\\boxed{x=\\pi/4,\\ 5\\pi/4}\\).</p>",
     "familj": "Grundläggande trigonometriska ekvationer",
     "formaga": [
       "procedur",
@@ -16384,7 +16384,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Bestäm en funktion på formen \\(y=a\\sin bx\\) som har amplitud 3 och period \\(\\pi/2\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p><p>Amplituden ger \\(a=3\\). Perioden \\(2\\pi/b=\\pi/2\\) ger \\(b=4\\). En möjlig funktion är \\(\\boxed{y=3\\sin4x}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. </p><p>Amplituden ger \\(a=3\\). Perioden \\(2\\pi/b=\\pi/2\\) ger \\(b=4\\). En möjlig funktion är \\(\\boxed{y=3\\sin4x}\\).</p>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -16395,7 +16395,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.276",
@@ -16409,7 +16409,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Skissa \\(y=2\\cos(2x)-1\\) för \\(0\\le x\\le2\\pi\\). Markera max, min och period.</p><span class=\"fig\"><svg width=\"480\" height=\"230\" viewBox=\"0 0 480 230\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tomt koordinatsystem med graderade axlar för att skissa y = 2 cos 2x − 1\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"30.0\" x2=\"54.0\" y2=\"190.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"149.0\" y1=\"30.0\" x2=\"149.0\" y2=\"190.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"244.0\" y1=\"30.0\" x2=\"244.0\" y2=\"190.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"339.0\" y1=\"30.0\" x2=\"339.0\" y2=\"190.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"434.0\" y1=\"30.0\" x2=\"434.0\" y2=\"190.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"190.0\" x2=\"434.0\" y2=\"190.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"163.3\" x2=\"434.0\" y2=\"163.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"136.7\" x2=\"434.0\" y2=\"136.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"110.0\" x2=\"434.0\" y2=\"110.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"83.3\" x2=\"434.0\" y2=\"83.3\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"56.7\" x2=\"434.0\" y2=\"56.7\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"30.0\" x2=\"434.0\" y2=\"30.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"83.3\" x2=\"434.0\" y2=\"83.3\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"54.0\" y1=\"190.0\" x2=\"54.0\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M434.0 83.3 l-8 -4 v8 z\" fill=\"#2B2527\"/><path d=\"M54.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"438.0\" y=\"74.3\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"63.0\" y=\"41.0\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text><line x1=\"149.0\" y1=\"79.8\" x2=\"149.0\" y2=\"86.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"149.0\" y=\"98.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π/2</text><text x=\"149.0\" y=\"98.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π/2</text><line x1=\"244.0\" y1=\"79.8\" x2=\"244.0\" y2=\"86.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"244.0\" y=\"98.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">π</text><text x=\"244.0\" y=\"98.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">π</text><line x1=\"339.0\" y1=\"79.8\" x2=\"339.0\" y2=\"86.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"339.0\" y=\"98.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3π/2</text><text x=\"339.0\" y=\"98.3\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3π/2</text><line x1=\"434.0\" y1=\"79.8\" x2=\"434.0\" y2=\"86.8\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"50.5\" y1=\"190.0\" x2=\"57.5\" y2=\"190.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"193.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−4</text><text x=\"46.0\" y=\"193.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−4</text><line x1=\"50.5\" y1=\"163.3\" x2=\"57.5\" y2=\"163.3\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"166.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−3</text><text x=\"46.0\" y=\"166.8\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−3</text><line x1=\"50.5\" y1=\"136.7\" x2=\"57.5\" y2=\"136.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"140.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"140.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"110.0\" x2=\"57.5\" y2=\"110.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"113.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"113.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"56.7\" x2=\"57.5\" y2=\"56.7\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"60.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"60.2\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"30.0\" x2=\"57.5\" y2=\"30.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"33.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text></svg></span>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p><p>Amplitud 2, medellinje −1 och period \\(\\pi\\). Maxvärde 1 och minvärde −3. Två hela perioder ryms på \\([0,2\\pi]\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. </p><p>Amplitud 2, medellinje −1 och period \\(\\pi\\). Maxvärde 1 och minvärde −3. Två hela perioder ryms på \\([0,2\\pi]\\).</p>",
     "familj": "Skissa trigonometriska grafer",
     "formaga": [
       "procedur",
@@ -16421,12 +16421,12 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.291",
     "kap": 1,
-    "omr": "trig_funktioner",
+    "omr": "trig_fasforskjutning",
     "kurs": [
       "2c"
     ],
@@ -16546,7 +16546,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.295",
@@ -16572,7 +16572,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.296",
@@ -16598,7 +16598,7 @@ window.BANKMATO2 = [
     "självrättning": false,
     "spel": false,
     "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.297",
@@ -16612,7 +16612,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>För \\(f(x)=-2\\cos(3x)+4\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) medellinjen<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) största och minsta värde</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p><p>a) Amplituden är <strong>2</strong>.</p><p>b) Perioden är \\(2\\pi/3\\).</p><p>c) Medellinjen är <strong>\\(y=4\\)</strong>.</p><p>d) Värdemängden är \\([2,6]\\), alltså <strong>min 2 och max 6</strong>.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Identifiera medellinje, amplitud och period var för sig. </p><p>a) Amplituden är <strong>2</strong>.</p><p>b) Perioden är \\(2\\pi/3\\).</p><p>c) Medellinjen är <strong>\\(y=4\\)</strong>.</p><p>d) Värdemängden är \\([2,6]\\), alltså <strong>min 2 och max 6</strong>.</p>",
     "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur",
@@ -16696,7 +16696,7 @@ window.BANKMATO2 = [
       }
     ],
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>",
     "spelIntro": "<p>För \\(f(x)=-2\\cos(3x)+4\\), bestäm</p>"
   },
   {
@@ -16722,7 +16722,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.309",
@@ -16736,7 +16736,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>En funktion ges av \\(f(x)=a+b\\sin(\\pi x/6)\\). Det största värdet är 11 och det minsta värdet är 3.</p><p>Bestäm \\(a\\) och \\(|b|\\). Ange också funktionens period.</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje, period och fas beskriver olika egenskaper hos grafen. Att bestämma dem var för sig minskar risken att en fasförskjutning blandas ihop med perioden.</p><p>Medellinjen är \\(a=(11+3)/2=7\\). Amplituden är \\(|b|=(11-3)/2=4\\).</p><p>Perioden fås från \\(2\\pi/(\\pi/6)=12\\).</p><p>Alltså <strong>\\(a=7,\\;|b|=4\\)</strong> och <strong>perioden är 12</strong>.</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Amplitud, medellinje och period beskriver olika egenskaper hos grafen. Bestäm dem var för sig för att hålla isär vertikal förändring och period.</p><p>Medellinjen är \\(a=(11+3)/2=7\\). Amplituden är \\(|b|=(11-3)/2=4\\).</p><p>Perioden fås från \\(2\\pi/(\\pi/6)=12\\).</p><p>Alltså <strong>\\(a=7,\\;|b|=4\\)</strong> och <strong>perioden är 12</strong>.</p>",
     "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
     "formaga": [
       "procedur",
@@ -16747,7 +16747,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.322",
@@ -16772,7 +16772,7 @@ window.BANKMATO2 = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
-    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>"
+    "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig.</p>"
   },
   {
     "id": "1.27",
@@ -17119,7 +17119,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1.4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "radianer__baglangd_sektorarea_och_radianer",
@@ -20764,7 +20764,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 0.015,
-    "tolerans": 1e-06,
+    "tolerans": 0.000001,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
@@ -31174,7 +31174,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
     "ledtrad": "<p>Derivera läget. Största fart är största möjliga absolutbelopp av hastigheten.</p>",
@@ -34723,7 +34723,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 8.5,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "familjNyckel": "tillampningar_derivata__tangentproblem_i_tillampningar",
     "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
@@ -47242,7 +47242,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 7.8,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "familjNyckel": "integral_tillampningar__tillampa_integraler_i_modeller",
     "ledtrad": "<p>Densitet per längdenhet integrerad över längden ger total massa.</p>",
@@ -70311,6 +70311,703 @@ window.BANKMATO2 = [
     "svarEtiketter": [
       "minsta grad",
       "P(x)"
+    ]
+  },
+  {
+    "id": "1.560",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "förskjutning i höjdled från grundfunktion",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Jämför funktionerna \\(f(x)=\\sin x\\) och \\(g(x)=\\sin x+3\\).</p><p>Hur många enheter är grafen till \\(g\\) förskjuten i höjdled jämfört med grafen till \\(f\\)? Ange uppåt som positivt.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En konstant som läggs till efter sinusuttrycket flyttar hela grafen i höjdled.</p><p>Här är \\(g(x)=f(x)+3\\), så varje y-värde ökar med 3.</p><p><strong>Svar:</strong> \\(\\boxed{3}\\) enheter uppåt.</p>",
+    "familj": "Förskjutning i höjdled och medellinje",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__forskjutning_i_hojdled_och_medellinje",
+    "ledtrad": "<p>Konstanten står utanför sinusfunktionen och påverkar därför alla y-värden lika mycket.</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.561",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "medellinje från vertikal förskjutning",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=2\\cos x-4\\).</p><p>Vilket y-värde har funktionens medellinje?</p>",
+    "s": "<p>Cosinusdelen svänger lika mycket över som under 0. Konstanten \\(-4\\) flyttar därför medellinjen från \\(y=0\\) till</p><p>\\[\\boxed{y=-4}.\\]</p>",
+    "familj": "Förskjutning i höjdled och medellinje",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": 0,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__forskjutning_i_hojdled_och_medellinje",
+    "ledtrad": "<p>I formen \\(A\\cos(kx)+D\\) är medellinjen \\(y=D\\).</p>",
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "1.562",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "amplitud och medellinje utan fasförskjutning",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För funktionen \\(h(x)=3\\sin(2x)+1\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) medellinjens y-värde.</p>",
+    "s": "<p><strong>a)</strong> Amplituden är absolutbeloppet av koefficienten framför sinus: \\(\\boxed{3}\\).</p><p><strong>b)</strong> Konstanten +1 förskjuter grafen i höjdled, så medellinjen är \\(\\boxed{y=1}\\).</p>",
+    "familj": "Förskjutning i höjdled och medellinje",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      1
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "familjNyckel": "trig_funktioner__forskjutning_i_hojdled_och_medellinje",
+    "ledtrad": "<p>Amplituden läses framför sinus. Konstanten utanför sinus anger medellinjen.</p>",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För funktionen \\(h(x)=3\\sin(2x)+1\\), bestäm</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm amplituden.</p>",
+        "s": "<p>Amplituden är absolutbeloppet av koefficienten framför sinus: \\(\\boxed{3}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm medellinjens y-värde.</p>",
+        "s": "<p>Konstanten +1 flyttar grafen i höjdled, så medellinjen är \\(\\boxed{y=1}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
+  },
+  {
+    "id": "1.563",
+    "kap": 1,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "skriv funktion från medellinje utan fasförskjutning",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En sinusfunktion har samma amplitud och period som \\(y=\\sin x\\), men medellinjen är \\(y=-2\\).</p><p>Skriv en möjlig funktion.</p>",
+    "s": "<p>Samma amplitud och period innebär att sinusdelen kan vara \\(\\sin x\\). För att medellinjen ska bli \\(y=-2\\) flyttas hela grafen 2 enheter nedåt.</p><p><strong>Svar:</strong> \\(\\boxed{y=\\sin x-2}\\).</p>",
+    "familj": "Förskjutning i höjdled och medellinje",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "sin(x)-2",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__forskjutning_i_hojdled_och_medellinje",
+    "ledtrad": "<p>Utgå från \\(y=\\sin x\\). Vilken konstant ska läggas till för att medellinjen ska bli \\(y=-2\\)?</p>",
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.564",
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "första horisontella förskjutningen",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Jämför \\(f(x)=\\sin x+2\\) med \\(g(x)=\\sin(x-\\pi/4)+2\\).</p><p>Hur långt är grafen till \\(g\\) förskjuten horisontellt jämfört med grafen till \\(f\\)? Ange höger som positivt.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Konstanten +2 är samma i båda funktionerna. Skillnaden finns inne i sinusargumentet.</p><p>I \\(\\sin(x-c)\\) är grafen förskjuten \\(c\\) åt höger. Här är \\(c=\\pi/4\\).</p><p><strong>Svar:</strong> \\(\\boxed{\\pi/4}\\).</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/4",
+    "tolerans": null,
+    "självrättning": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Jämför först vad som står utanför sinus och därefter vad som har ändrats inne i argumentet.</p>",
+    "svarFormat": "uttryck"
+  },
+  {
+    "id": "1.565",
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "typ": "medellinje och fasförskjutning",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För funktionen \\(f(x)=2\\cos(x+\\pi/6)-3\\), bestäm</p><p>a) medellinjens y-värde<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) fasförskjutningen. Ange höger som positivt och vänster som negativt.</p>",
+    "s": "<p><strong>a)</strong> Konstanten \\(-3\\) ligger utanför cosinus och ger medellinjen \\(\\boxed{y=-3}\\).</p><p><strong>b)</strong> Skriv \\(x+\\pi/6=x-(-\\pi/6)\\). Därför är grafen förskjuten \\(\\pi/6\\) åt vänster, alltså \\(\\boxed{-\\pi/6}\\) med uppgiftens teckenkonvention.</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      "-pi/6"
+    ],
+    "tolerans": [
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Konstanten utanför cosinus ger medellinjen. Skriv sedan argumentet på formen \\(x-c\\).</p>",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För funktionen \\(f(x)=2\\cos(x+\\pi/6)-3\\), bestäm</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm medellinjens y-värde.</p>",
+        "s": "<p>Konstanten \\(-3\\) ligger utanför cosinus och ger medellinjen \\(\\boxed{y=-3}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm fasförskjutningen. Ange höger som positivt och vänster som negativt.</p>",
+        "s": "<p>Eftersom \\(x+\\pi/6=x-(-\\pi/6)\\) är fasförskjutningen \\(\\boxed{-\\pi/6}\\), alltså \\(\\pi/6\\) åt vänster.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.566",
+    "typ": "avläs fasförskjutning åt höger",
+    "poang": "1/0/0",
+    "t": "<p>Hur är grafen till \\(y=\\sin(x-\\pi/6)\\) förskjuten horisontellt jämfört med \\(y=\\sin x\\)? Ange höger som positivt och vänster som negativt.</p>",
+    "s": "<p>I formen \\(\\sin(x-c)\\) betyder ett positivt \\(c\\) att grafen flyttas åt höger.</p><p>Här är \\(c=\\pi/6\\).</p><p><strong>Svar:</strong> \\(\\boxed{\\pi/6}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/6",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Jämför med formen \\(y=\\sin(x-c)\\).</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.567",
+    "typ": "avläs fasförskjutning åt vänster",
+    "poang": "1/0/0",
+    "t": "<p>Hur är grafen till \\(y=\\cos(x+\\pi/4)\\) förskjuten horisontellt jämfört med \\(y=\\cos x\\)? Ange höger som positivt och vänster som negativt.</p>",
+    "s": "<p>Skriv \\(x+\\pi/4=x-(-\\pi/4)\\). Det motsvarar en förskjutning \\(\\pi/4\\) åt vänster.</p><p><strong>Svar:</strong> \\(\\boxed{-\\pi/4}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "-pi/4",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Skriv argumentet på formen \\(x-c\\). Vilket värde har c?</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.568",
+    "typ": "skilj höjd- och fasförskjutning",
+    "poang": "2/0/0",
+    "t": "<p>Jämför \\(g(x)=\\sin(x-\\pi/3)+2\\) med grundfunktionen \\(f(x)=\\sin x\\).</p><p>a) Hur stor är förskjutningen i höjdled?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Hur stor är fasförskjutningen? Ange höger som positivt.</p>",
+    "s": "<p><strong>a)</strong> Konstanten +2 ligger utanför sinus och flyttar grafen 2 enheter uppåt.</p><p><strong>b)</strong> Formen \\(x-\\pi/3\\) flyttar grafen \\(\\pi/3\\) åt höger.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      "pi/3"
+    ],
+    "tolerans": [
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "höjdled",
+      "fas"
+    ],
+    "ledtrad": "<p>Konstanten utanför sinus påverkar höjdläget. Konstanten inne i argumentet påverkar fasen.</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Jämför \\(g(x)=\\sin(x-\\pi/3)+2\\) med \\(f(x)=\\sin x\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Hur stor är förskjutningen i höjdled?</p>",
+        "s": "<p>Konstanten +2 ligger utanför sinus, alltså är förskjutningen \\(\\boxed{2}\\) enheter uppåt.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Hur stor är fasförskjutningen? Ange höger som positivt.</p>",
+        "s": "<p>Argumentet är \\(x-\\pi/3\\), alltså är fasförskjutningen \\(\\boxed{\\pi/3}\\) åt höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.569",
+    "typ": "amplitud höjd- och fasförskjutning",
+    "poang": "3/0/0",
+    "t": "<p>För funktionen \\(f(x)=2\\cos(x+\\pi/5)-1\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) medellinjens y-värde<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) fasförskjutningen. Ange höger som positivt och vänster som negativt.</p>",
+    "s": "<p><strong>a)</strong> Amplituden är \\(2\\).</p><p><strong>b)</strong> Konstanten −1 ger medellinjen \\(y=-1\\).</p><p><strong>c)</strong> \\(x+\\pi/5=x-(-\\pi/5)\\), så fasförskjutningen är \\(-\\pi/5\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -1,
+      "-pi/5"
+    ],
+    "tolerans": [
+      0,
+      0,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "amplitud",
+      "medellinje",
+      "fas"
+    ],
+    "ledtrad": "<p>Läs av koefficienten framför cosinus, konstanten utanför och sist tecknet inne i argumentet.</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För \\(f(x)=2\\cos(x+\\pi/5)-1\\), bestäm</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>amplituden</p>",
+        "s": "<p>Amplituden är \\(\\boxed{2}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>medellinjens y-värde</p>",
+        "s": "<p>Konstanten −1 ger \\(\\boxed{y=-1}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>fasförskjutningen, med höger positivt</p>",
+        "s": "<p>\\(x+\\pi/5=x-(-\\pi/5)\\), alltså \\(\\boxed{-\\pi/5}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
+    ]
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.570",
+    "typ": "skriv funktion efter högerförskjutning",
+    "poang": "1/0/0",
+    "t": "<p>Grafen till \\(y=\\sin x\\) förskjuts \\(\\pi/2\\) åt höger. Skriv den nya funktionen.</p>",
+    "s": "<p>En förskjutning \\(c\\) åt höger skrivs \\(\\sin(x-c)\\).</p><p><strong>Svar:</strong> \\(\\boxed{y=\\sin(x-\\pi/2)}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "sin(x-pi/2)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Åt höger med c motsvarar att ersätta x med \\(x-c\\).</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.571",
+    "typ": "skriv funktion efter två förskjutningar",
+    "poang": "1/0/0",
+    "t": "<p>Grafen till \\(y=\\cos x\\) förskjuts \\(\\pi/3\\) åt vänster och 2 enheter uppåt. Skriv den nya funktionen.</p>",
+    "s": "<p>Vänsterförskjutningen ger \\(x+\\pi/3\\) inne i cosinus. Två enheter uppåt ger +2 utanför.</p><p><strong>Svar:</strong> \\(\\boxed{y=\\cos(x+\\pi/3)+2}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "cos(x+pi/3)+2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Vänsterförskjutning ger plustecken inne i argumentet. Höjdförskjutning läggs utanför funktionen.</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.572",
+    "typ": "välj funktion från förskjutningar",
+    "poang": "1/0/0",
+    "t": "<p>Vilken funktion fås om grafen till \\(y=\\sin x\\) förskjuts \\(\\pi/4\\) åt höger och 3 enheter nedåt?</p><p>A. \\(y=\\sin(x+\\pi/4)-3\\)<br>B. \\(y=\\sin(x-\\pi/4)-3\\)<br>C. \\(y=\\sin(x-\\pi/4)+3\\)<br>D. \\(y=\\sin x-\\pi/4-3\\)</p>",
+    "s": "<p>Högerförskjutning ger \\(x-\\pi/4\\) inne i sinus och tre enheter nedåt ger −3 utanför.</p><p><strong>Svar:</strong> B.</p>",
+    "svarstyp": "kort_text",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "kort_text",
+    "ledtrad": "<p>Horisontell förskjutning ändrar argumentet. Vertikal förskjutning ligger utanför sinus.</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.573",
+    "typ": "bestäm fasparameter c",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen skrivs \\(f(x)=4\\sin(x-c)+1\\). Grafen är förskjuten \\(\\pi/6\\) åt höger jämfört med \\(y=4\\sin x+1\\).</p><p>Bestäm \\(c\\).</p>",
+    "s": "<p>I formen \\(f(x)=A\\sin(x-c)+D\\) är \\(c\\) direkt förskjutningen åt höger.</p><p><strong>Svar:</strong> \\(\\boxed{c=\\pi/6}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/6",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Jämför direkt med formen \\(A\\sin(x-c)+D\\).</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.574",
+    "typ": "medellinjepassage efter fasförskjutning",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(g(x)=\\sin(x-\\pi/2)\\).</p><p>Vid vilket minsta \\(x\\ge0\\) passerar grafen medellinjen \\(y=0\\) uppåt?</p>",
+    "s": "<p>Grundfunktionen \\(y=\\sin x\\) passerar medellinjen uppåt vid \\(x=0\\). När grafen flyttas \\(\\pi/2\\) åt höger flyttas samma passage till</p><p><strong>Svar:</strong> \\(\\boxed{x=\\pi/2}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Utgå från var \\(y=\\sin x\\) passerar y=0 uppåt och flytta den punkten lika långt som grafen.</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.575",
+    "typ": "bygg sinusfunktion från egenskaper",
+    "poang": "2/0/0",
+    "t": "<p>En sinusfunktion har amplitud 1, period \\(2\\pi\\), medellinje \\(y=3\\) och passerar medellinjen uppåt vid \\(x=\\pi/4\\).</p><p>Skriv en möjlig funktion.</p>",
+    "s": "<p>Amplitud 1 och period \\(2\\pi\\) ger samma form som \\(\\sin x\\). Medellinjen ger +3. En uppåtgående medellinjepassage vid \\(x=\\pi/4\\) motsvarar en förskjutning \\(\\pi/4\\) åt höger.</p><p><strong>Svar:</strong> \\(\\boxed{f(x)=\\sin(x-\\pi/4)+3}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "sin(x-pi/4)+3",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Börja med \\(y=\\sin x\\). Lägg sedan till höjdförskjutningen och flytta den uppåtgående medellinjepassagen till \\(x=\\pi/4\\).</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.576",
+    "typ": "bygg cosinusfunktion från maximum",
+    "poang": "2/0/0",
+    "t": "<p>En cosinusfunktion har amplitud 3, period \\(2\\pi\\), medellinje \\(y=-2\\) och en maximipunkt vid \\(x=\\pi/6\\).</p><p>Skriv en möjlig funktion.</p>",
+    "s": "<p>Grundfunktionen \\(\\cos x\\) har maximum vid \\(x=0\\). För att maximum ska ligga vid \\(x=\\pi/6\\) flyttas grafen \\(\\pi/6\\) åt höger. Amplituden är 3 och medellinjen −2.</p><p><strong>Svar:</strong> \\(\\boxed{f(x)=3\\cos(x-\\pi/6)-2}\\).</p>",
+    "svarstyp": "uttryck",
+    "rättSvar": "3*cos(x-pi/6)-2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Cosinus har sitt maximum när argumentet är 0. Var ska det inträffa här?</p>"
+  },
+  {
+    "kap": 1,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "id": "1.577",
+    "typ": "tolka fullt factored trigonometriskt uttryck",
+    "poang": "4/0/0",
+    "t": "<p>För funktionen \\(f(x)=2\\sin(3(x-\\pi/6))+4\\), bestäm</p><p>a) amplituden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) perioden<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) fasförskjutningen, med höger positivt<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) medellinjens y-värde.</p>",
+    "s": "<p>Uttrycket är redan skrivet på formen \\(A\\sin(k(x-c))+D\\).</p><p>a) \\(|A|=2\\).</p><p>b) \\(T=2\\pi/3\\).</p><p>c) \\(c=\\pi/6\\), alltså \\(\\pi/6\\) åt höger.</p><p>d) \\(D=4\\), alltså medellinjen \\(y=4\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      "2*pi/3",
+      "pi/6",
+      4
+    ],
+    "tolerans": [
+      0,
+      null,
+      null,
+      0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck",
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "amplitud",
+      "period",
+      "fas",
+      "medellinje"
+    ],
+    "ledtrad": "<p>Här behöver du inte skriva om argumentet: funktionen står redan på formen \\(A\\sin(k(x-c))+D\\).</p>",
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>För \\(f(x)=2\\sin(3(x-\\pi/6))+4\\), bestäm</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>amplituden</p>",
+        "s": "<p>\\(|2|=\\boxed{2}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>perioden</p>",
+        "s": "<p>\\(T=2\\pi/3=\\boxed{2\\pi/3}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>fasförskjutningen, med höger positivt</p>",
+        "s": "<p>Argumentet innehåller \\(x-\\pi/6\\), alltså \\(\\boxed{\\pi/6}\\) åt höger.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>medellinjens y-värde</p>",
+        "s": "<p>Konstanten +4 ger \\(\\boxed{y=4}\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
     ]
   }
 ];

@@ -1,6 +1,6 @@
 /* strukturmato2.js — intern understruktur och elevsynliga träningsområden för Matematik – fortsättning nivå 2.
    OMR bevaras för bank/progression. GRUPPMATO2 definierar elevens större områden; familj är delmoment.
-   Reviderad 2026-09-07. */
+   Reviderad 2026-09-19: trigonometriska funktioner delade i grunder och fasförskjutning. */
 
 window.KAPNAMNMATO2 = {
   "1": "Trigonometri",
@@ -14,7 +14,8 @@ window.OMRMATO2 = {
     "enhetscirkeln": "Enhetscirkeln",
     "trig_formler": "Trigonometriska formler",
     "trig_ekvationer": "Trigonometriska ekvationer",
-    "trig_funktioner": "Trigonometriska funktioner",
+    "trig_funktioner": "Trigonometriska funktioner – grunder",
+    "trig_fasforskjutning": "Fasförskjutning",
     "radianer": "Radianer",
     "trig_modeller": "Tillämpningar och modeller"
   },
@@ -65,6 +66,7 @@ window.GRUPPMATO2 = {
       "namn": "Trigonometriska funktioner och modeller",
       "omr": [
         "trig_funktioner",
+        "trig_fasforskjutning",
         "trig_modeller"
       ]
     }

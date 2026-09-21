@@ -14722,7 +14722,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -14770,7 +14770,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -14840,7 +14840,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.01,
-    "tolerans": 0.00001,
+    "tolerans": 1e-05,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -15134,7 +15134,7 @@ window.BANKMATF1 = [
     "familj": "Generaliserade integraler",
     "svarstyp": "numeriskt",
     "rättSvar": 0.16666666666666666,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -15406,7 +15406,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -0.75,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -15778,7 +15778,7 @@ window.BANKMATF1 = [
     "familj": "Linjär approximation med derivata",
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -16416,7 +16416,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade förändringshastigheter strålkastare och vägg",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålkastare som lyser mot en vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M87 197 A18 18 0 0 1 96 181\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"92\" y=\"186\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>En strålkastare står på marken 12 m från en lodrät vägg. Ljuskäglans träffpunkt på väggen rör sig uppåt med 3,0 m/s.</p><p>Hur snabbt ändras vinkeln \\(v\\) mellan marken och ljusstrålen när träffpunkten ligger 5,0 m över marken?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålkastare som lyser mot en vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M123 205 A18 18 0 0 0 121.566 197.959\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"128\" y=\"198\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>En strålkastare står på marken 12 m från en lodrät vägg. Ljuskäglans träffpunkt på väggen rör sig uppåt med 3,0 m/s.</p><p>Hur snabbt ändras vinkeln \\(v\\) mellan marken och ljusstrålen när träffpunkten ligger 5,0 m över marken?</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten. Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till strålkastare och vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M87 197 A18 18 0 0 1 96 181\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"92\" y=\"186\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>Låt \\(y\\) vara höjden på väggen och \\(v\\) vinkeln mellan marken och ljusstrålen. Av figuren gäller</p><p>\\[\\tan v=\\frac{y}{12}.\\]</p><p>Derivera med avseende på tiden:</p><p>\\[\\sec^2(v)\\,v'=\\frac{1}{12}y'.\\]</p><p>När \\(y=5,0\\) m gäller \\(\\tan v=5/12\\). Då får vi från en 5-12-13-triangel att</p><p>\\[\\sec^2(v)=\\left(\\frac{13}{12}\\right)^2=\\frac{169}{144}.\\]</p><p>Sätt in \\(y'=3,0\\) m/s:</p><p>\\[\\frac{169}{144}v'=\\frac{3,0}{12}=\\frac14.\\]</p><p>Alltså</p><p>\\[v'=\\frac14\\cdot\\frac{144}{169}=\\frac{36}{169}\\approx0,213.\\]</p><p><strong>Svar: vinkeln ändras med ungefär \\(0,213\\ \\text{rad/s}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten. Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></div>",
     "miniräknare": true,
     "geogebra": false,
@@ -17099,7 +17099,7 @@ window.BANKMATF1 = [
     "familj": "Fördjupad analys med derivata och integral",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -17529,7 +17529,7 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -18052,7 +18052,7 @@ window.BANKMATF1 = [
     "familj": "Grundläggande analys av differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-8,
+    "tolerans": 1e-08,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -25853,7 +25853,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": -6,
+    "rättSvar": -6.0,
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
@@ -25901,7 +25901,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": -12,
+    "rättSvar": -12.0,
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
@@ -25973,7 +25973,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 6,
+    "rättSvar": 6.0,
     "tolerans": 0.02,
     "självrättning": true,
     "formaga": [
@@ -28837,7 +28837,7 @@ window.BANKMATF1 = [
     "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05625,
-    "tolerans": 0.00001,
+    "tolerans": 1e-05,
     "självrättning": true,
     "formaga": [
       "begrepp",

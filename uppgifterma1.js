@@ -2235,9 +2235,9 @@ window.BANKMA1 = [
     "kap": 0,
     "omr": "negativa_tal",
     "kurs": [
-        "1a",
-        "1b",
-        "1c"
+      "1a",
+      "1b",
+      "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
@@ -2248,18 +2248,18 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-09,
+    "tolerans": 1e-9,
     "självrättning": true,
     "formaga": [
-        "problemlösning",
-        "resonemang"
+      "problemlösning",
+      "resonemang"
     ],
     "ledtrad": "<p>Börja med att skilja på −x² och (−x)². Kontrollera sedan var olikheterna blir likheter.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 4,
     "arbetsinsats": 1,
     "spel": true
-},
+  },
   {
     "id": "0.57",
     "kap": 0,
@@ -24547,9 +24547,9 @@ window.BANKMA1 = [
     "kap": 1,
     "omr": "formler",
     "kurs": [
-        "1a",
-        "1b",
-        "1c"
+      "1a",
+      "1b",
+      "1c"
     ],
     "geogebra": false,
     "miniräknare": false,
@@ -24561,7 +24561,7 @@ window.BANKMA1 = [
     "arbetsinsats": 1,
     "familj": "Formler",
     "formaga": [
-        "procedur"
+      "procedur"
     ],
     "svarstyp": "ekvation",
     "rättSvar": "x=y-3",
@@ -24571,10 +24571,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "spel": true,
     "rättSvarAlternativ": [
-        "x=y-3",
-        "y-3"
+      "x=y-3",
+      "y-3"
     ]
-},
+  },
   {
     "id": "1.928",
     "kap": 1,
@@ -45609,9 +45609,9 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "procent",
     "kurs": [
-        "1a",
-        "1b",
-        "1c"
+      "1a",
+      "1b",
+      "1c"
     ],
     "niva": "E",
     "poang": "3/0/0",
@@ -45622,48 +45622,48 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-        "840",
-        "432",
-        "53"
+      "840",
+      "432",
+      "53"
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-        "procedur"
+      "procedur"
     ],
     "svarsstruktur": "ordnad",
     "spelDelning": "deluppgifter",
     "spelDelar": [
-        {
-            "etikett": "a",
-            "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">35 % var papper. Hur många kilo var det?</div>",
-            "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}35\\cdot2\\,400=\\)<strong>840 kg</strong></div></p><p></p>",
-            "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
-            "niva": "E",
-            "poang": "1/0/0"
-        },
-        {
-            "etikett": "b",
-            "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">18 % var glas. Hur många kilo var det?</div>",
-            "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}18\\cdot2\\,400=\\)<strong>432 kg</strong></div></p><p></p>",
-            "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
-            "niva": "E",
-            "poang": "1/0/0"
-        },
-        {
-            "etikett": "c",
-            "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad. Av materialet var 35 % papper och 18 % glas.</p><div class=\"spel-en-del\">Hur många procent utgjorde papper och glas tillsammans?</div>",
-            "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\">\\(35+18=\\)<strong>53 %</strong>, vilket motsvarar \\(840+432=1\\,272\\) kg</div></p>",
-            "ledtrad": "<p>Papper och glas anges som andelar av samma total. Hur kan du då kombinera 35 % och 18 %?</p>",
-            "niva": "E",
-            "poang": "1/0/0"
-        }
+      {
+        "etikett": "a",
+        "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">35 % var papper. Hur många kilo var det?</div>",
+        "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}35\\cdot2\\,400=\\)<strong>840 kg</strong></div></p><p></p>",
+        "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad.</p><div class=\"spel-en-del\">18 % var glas. Hur många kilo var det?</div>",
+        "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\"><strong>Svar:</strong> \\(0{,}18\\cdot2\\,400=\\)<strong>432 kg</strong></div></p><p></p>",
+        "ledtrad": "<p>Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En återvinningsstation tog emot 2 400 kg material under en månad. Av materialet var 35 % papper och 18 % glas.</p><div class=\"spel-en-del\">Hur många procent utgjorde papper och glas tillsammans?</div>",
+        "s": "<p><strong>Metod:</strong> Bestäm först vad som är det hela, delen och procentsatsen. Skriv procenten som decimalform innan du multiplicerar eller dividerar.</p><p><div class=\"spel-en-del\">\\(35+18=\\)<strong>53 %</strong>, vilket motsvarar \\(840+432=1\\,272\\) kg</div></p>",
+        "ledtrad": "<p>Papper och glas anges som andelar av samma total. Hur kan du då kombinera 35 % och 18 %?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
     ],
     "ledtrad": "<p>För a) och b): skriv procenttalen som decimaltal och multiplicera med 2 400. I c) har båda andelarna samma total.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
-},
+  },
   {
     "id": "3.129",
     "kap": 3,
@@ -45921,8 +45921,8 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "genomsnittlig_forandring",
     "kurs": [
-        "1b",
-        "1c"
+      "1b",
+      "1c"
     ],
     "niva": "C",
     "poang": "0/3/0",
@@ -45933,40 +45933,40 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-        -25,
-        13.4,
-        null
+      -25,
+      13.4,
+      null
     ],
     "tolerans": [
-        0.01,
-        0.1,
-        null
+      0.01,
+      0.1,
+      null
     ],
     "självrättning": [
-        true,
-        true,
-        false
+      true,
+      true,
+      false
     ],
     "formaga": [
-        "procedur",
-        "resonemang"
+      "procedur",
+      "resonemang"
     ],
     "svarFormat": [
-        "procent",
-        "procent",
-        null
+      "procent",
+      "procent",
+      null
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
-        "a) total förändring",
-        "b) genomsnittlig årlig minskning",
-        "c) förklaring"
+      "a) total förändring",
+      "b) genomsnittlig årlig minskning",
+      "c) förklaring"
     ],
     "ledtrad": "<p>Börja med totalfaktorn \\(1,50\\cdot0,50\\). Den genomsnittliga årliga faktorn är sedan kvadratroten ur totalfaktorn.</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true
-},
+  },
   {
     "id": "3.138",
     "kap": 3,
@@ -47145,8 +47145,8 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "potensekvationer",
     "kurs": [
-        "1b",
-        "1c"
+      "1b",
+      "1c"
     ],
     "niva": "E",
     "poang": "3/0/0",
@@ -47157,53 +47157,53 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "flera_delar",
     "rättSvar": [
-        3,
-        "1/2",
-        -2
+      3,
+      "1/2",
+      -2
     ],
     "tolerans": null,
     "självrättning": true,
     "formaga": [
-        "procedur"
+      "procedur"
     ],
     "svarsstruktur": "ordnad",
     "svarFormat": [
-        "numeriskt",
-        "bråk",
-        "numeriskt"
+      "numeriskt",
+      "bråk",
+      "numeriskt"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
-        {
-            "etikett": "a",
-            "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=243\\)</div>",
-            "s": "<p>Eftersom \\(243=3^5\\) får vi <strong>\\(x=3\\)</strong>.</p>",
-            "ledtrad": "<p>Vilket heltal upphöjt till 5 blir 243?</p>",
-            "niva": "E",
-            "poang": "1/0/0"
-        },
-        {
-            "etikett": "b",
-            "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^3=\\frac18\\)</div>",
-            "s": "<p>Eftersom \\(\\frac18=(\\frac12)^3\\) får vi <strong>\\(x=\\frac12\\)</strong>.</p>",
-            "ledtrad": "<p>Skriv \\(\\frac18\\) som en tredjepotens.</p>",
-            "niva": "E",
-            "poang": "1/0/0"
-        },
-        {
-            "etikett": "c",
-            "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=-32\\)</div>",
-            "s": "<p>Eftersom \\(-32=(-2)^5\\) får vi <strong>\\(x=-2\\)</strong>.</p>",
-            "ledtrad": "<p>En udda potens kan vara negativ. Vilket heltal upphöjt till 5 blir −32?</p>",
-            "niva": "E",
-            "poang": "1/0/0"
-        }
+      {
+        "etikett": "a",
+        "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=243\\)</div>",
+        "s": "<p>Eftersom \\(243=3^5\\) får vi <strong>\\(x=3\\)</strong>.</p>",
+        "ledtrad": "<p>Vilket heltal upphöjt till 5 blir 243?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^3=\\frac18\\)</div>",
+        "s": "<p>Eftersom \\(\\frac18=(\\frac12)^3\\) får vi <strong>\\(x=\\frac12\\)</strong>.</p>",
+        "ledtrad": "<p>Skriv \\(\\frac18\\) som en tredjepotens.</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Lös ekvationen. Svara exakt.</p><div class=\"spel-en-del\">\\(x^5=-32\\)</div>",
+        "s": "<p>Eftersom \\(-32=(-2)^5\\) får vi <strong>\\(x=-2\\)</strong>.</p>",
+        "ledtrad": "<p>En udda potens kan vara negativ. Vilket heltal upphöjt till 5 blir −32?</p>",
+        "niva": "E",
+        "poang": "1/0/0"
+      }
     ],
     "ledtrad": "<p>Skriv högerleden som femte- eller tredjepotenser. Udda exponenter ger en reell lösning även när högerledet är negativt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
-},
+  },
   {
     "id": "3.171",
     "kap": 3,
@@ -47908,9 +47908,9 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "upprepade_forandringar",
     "kurs": [
-        "1a",
-        "1b",
-        "1c"
+      "1a",
+      "1b",
+      "1c"
     ],
     "niva": "C",
     "poang": "1/2/0",
@@ -47921,27 +47921,27 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-        1.0304,
-        3.04,
-        1.49
+      1.0304,
+      3.04,
+      1.49
     ],
     "tolerans": [
-        1e-05,
-        0.05,
-        0.005
+      0.00001,
+      0.05,
+      0.005
     ],
     "självrättning": true,
     "formaga": [
-        "procedur",
-        "begrepp",
-        "modellering"
+      "procedur",
+      "begrepp",
+      "modellering"
     ],
     "svarsstruktur": "ordnad",
     "ledtrad": "<p>Översätt 12 % upp och 8 % ned till två faktorer. Produkten beskriver hela vintern och våren tillsammans.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true
-},
+  },
   {
     "id": "3.190",
     "kap": 3,
@@ -48226,9 +48226,9 @@ window.BANKMA1 = [
     "kap": 3,
     "omr": "upprepade_forandringar",
     "kurs": [
-        "1a",
-        "1b",
-        "1c"
+      "1a",
+      "1b",
+      "1c"
     ],
     "niva": "C",
     "poang": "0/2/0",
@@ -48242,15 +48242,15 @@ window.BANKMA1 = [
     "tolerans": 0.1,
     "självrättning": true,
     "formaga": [
-        "begrepp",
-        "modellering"
+      "begrepp",
+      "modellering"
     ],
     "ledtrad": "<p>Efter höjningen är faktorn 1,20. Vilken andra faktor måste multipliceras med 1,20 för att produkten ska bli 1?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "procent"
-},
+  },
   {
     "id": "3.200",
     "kap": 3,
@@ -92412,7 +92412,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(f(x)=3\\) med hjälp av grafen. Den streckade linjen markerar \\(y=3\\). Ange båda lösningarna i stigande ordning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"330\" viewBox=\"0 0 480 330\" role=\"img\" aria-label=\"Koordinatsystem med graf och graderade axlar\"><rect width=\"480\" height=\"330\" rx=\"10\" fill=\"white\" stroke=\"#ddd\"/><defs><clipPath id=\"clip-ny-14\"><rect x=\"65\" y=\"42\" width=\"370\" height=\"226\"/></clipPath></defs><line x1=\"65.000\" y1=\"42\" x2=\"65.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"65.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−4</text><line x1=\"106.111\" y1=\"42\" x2=\"106.111\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"106.111\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"147.222\" y1=\"42\" x2=\"147.222\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"147.222\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"188.333\" y1=\"42\" x2=\"188.333\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"188.333\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"229.444\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"270.556\" y1=\"42\" x2=\"270.556\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"270.556\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"311.667\" y1=\"42\" x2=\"311.667\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"311.667\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"352.778\" y1=\"42\" x2=\"352.778\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"352.778\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"393.889\" y1=\"42\" x2=\"393.889\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"393.889\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"435.000\" y1=\"42\" x2=\"435.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"435.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"268.000\" x2=\"435\" y2=\"268.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"272.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"65\" y1=\"249.167\" x2=\"435\" y2=\"249.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"253.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"65\" y1=\"230.333\" x2=\"435\" y2=\"230.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"234.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"215.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"65\" y1=\"192.667\" x2=\"435\" y2=\"192.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"196.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"65\" y1=\"173.833\" x2=\"435\" y2=\"173.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"177.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"159.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"65\" y1=\"136.167\" x2=\"435\" y2=\"136.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"140.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"65\" y1=\"117.333\" x2=\"435\" y2=\"117.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"121.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"98.500\" x2=\"435\" y2=\"98.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"102.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">6</text><line x1=\"65\" y1=\"79.667\" x2=\"435\" y2=\"79.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"83.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">7</text><line x1=\"65\" y1=\"60.833\" x2=\"435\" y2=\"60.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"64.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">8</text><line x1=\"65\" y1=\"42.000\" x2=\"435\" y2=\"42.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"46.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">9</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#444\" stroke-width=\"1.5\"/><text x=\"435\" y=\"313\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">x</text><text x=\"18\" y=\"23\" font-family=\"sans-serif\" font-size=\"13\">y</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#666\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><polyline data-curve=\"f\" points=\"65.000,-240.500 67.313,-229.966 69.625,-219.551 71.938,-209.255 74.250,-199.078 76.563,-189.021 78.875,-179.083 81.188,-169.264 83.500,-159.564 85.813,-149.983 88.125,-140.521 90.438,-131.179 92.750,-121.956 95.063,-112.852 97.375,-103.867 99.688,-95.001 102.000,-86.255 104.313,-77.628 106.625,-69.120 108.938,-60.731 111.250,-52.461 113.563,-44.310 115.875,-36.279 118.188,-28.367 120.500,-20.574 122.813,-12.900 125.125,-5.345 127.438,2.090 129.750,9.407 132.063,16.604 134.375,23.682 136.688,30.640 139.000,37.480 141.313,44.200 143.625,50.802 145.938,57.284 148.250,63.647 150.563,69.890 152.875,76.015 155.188,82.020 157.500,87.906 159.813,93.673 162.125,99.321 164.438,104.850 166.750,110.259 169.063,115.549 171.375,120.720 173.688,125.772 176.000,130.705 178.313,135.519 180.625,140.213 182.938,144.788 185.250,149.244 187.563,153.581 189.875,157.799 192.188,161.897 194.500,165.876 196.812,169.736 199.125,173.477 201.438,177.099 203.750,180.602 206.063,183.985 208.375,187.249 210.688,190.394 213.000,193.420 215.313,196.327 217.625,199.114 219.937,201.782 222.250,204.332 224.563,206.762 226.875,209.072 229.188,211.264 231.500,213.336 233.813,215.289 236.125,217.124 238.438,218.838 240.750,220.434 243.062,221.911 245.375,223.268 247.688,224.506 250.000,225.625 252.313,226.625 254.625,227.505 256.938,228.267 259.250,228.909 261.563,229.432 263.875,229.836 266.188,230.121 268.500,230.286 270.813,230.333 273.125,230.260 275.438,230.068 277.750,229.757 280.063,229.326 282.375,228.777 284.688,228.108 287.000,227.320 289.313,226.413 291.625,225.387 293.938,224.241 296.250,222.977 298.563,221.593 300.875,220.090 303.188,218.468 305.500,216.726 307.813,214.866 310.125,212.886 312.438,210.787 314.750,208.569 317.063,206.232 319.375,203.775 321.688,201.200 324.000,198.505 326.313,195.691 328.625,192.758 330.938,189.706 333.250,186.534 335.563,183.243 337.875,179.834 340.187,176.304 342.500,172.656 344.813,168.889 347.125,165.002 349.438,160.997 351.750,156.872 354.063,152.627 356.375,148.264 358.688,143.782 361.000,139.180 363.312,134.459 365.625,129.619 367.938,124.660 370.250,119.582 372.563,114.384 374.875,109.067 377.188,103.631 379.500,98.076 381.813,92.402 384.125,86.609 386.437,80.696 388.750,74.664 391.063,68.513 393.375,62.243 395.688,55.854 398.000,49.345 400.313,42.717 402.625,35.970 404.938,29.104 407.250,22.119 409.562,15.015 411.875,7.791 414.188,0.448 416.500,-7.014 418.813,-14.595 421.125,-22.295 423.438,-30.115 425.750,-38.053 428.063,-46.111 430.375,-54.288 432.687,-62.585 435.000,-71.000\" fill=\"none\" stroke=\"#2166ac\" stroke-width=\"3\" stroke-linejoin=\"round\" clip-path=\"url(#clip-ny-14)\"/><text x=\"361.000\" y=\"129.180\" fill=\"#2166ac\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">f</text></svg></span>",
+    "t": "<p>Lös ekvationen \\(f(x)=3\\) med hjälp av grafen. Den streckade linjen markerar \\(y=3\\). Ange båda lösningarna i stigande ordning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"330\" viewBox=\"0 0 480 330\" role=\"img\" aria-label=\"Koordinatsystem med graf och graderade axlar\"><rect width=\"480\" height=\"330\" rx=\"10\" fill=\"white\" stroke=\"#ddd\"/><defs><clipPath id=\"clip-ny-14\"><rect x=\"65\" y=\"42\" width=\"370\" height=\"226\"/></clipPath></defs><line x1=\"65.000\" y1=\"42\" x2=\"65.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"65.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−4</text><line x1=\"106.111\" y1=\"42\" x2=\"106.111\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"106.111\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"147.222\" y1=\"42\" x2=\"147.222\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"147.222\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"188.333\" y1=\"42\" x2=\"188.333\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"188.333\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"229.444\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"270.556\" y1=\"42\" x2=\"270.556\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"270.556\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"311.667\" y1=\"42\" x2=\"311.667\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"311.667\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"352.778\" y1=\"42\" x2=\"352.778\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"352.778\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"393.889\" y1=\"42\" x2=\"393.889\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"393.889\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"435.000\" y1=\"42\" x2=\"435.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"435.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"268.000\" x2=\"435\" y2=\"268.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"272.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"65\" y1=\"249.167\" x2=\"435\" y2=\"249.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"253.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"65\" y1=\"230.333\" x2=\"435\" y2=\"230.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"234.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"215.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"65\" y1=\"192.667\" x2=\"435\" y2=\"192.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"196.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"65\" y1=\"173.833\" x2=\"435\" y2=\"173.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"177.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"159.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"65\" y1=\"136.167\" x2=\"435\" y2=\"136.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"140.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"65\" y1=\"117.333\" x2=\"435\" y2=\"117.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"121.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"98.500\" x2=\"435\" y2=\"98.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"102.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">6</text><line x1=\"65\" y1=\"79.667\" x2=\"435\" y2=\"79.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"83.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">7</text><line x1=\"65\" y1=\"60.833\" x2=\"435\" y2=\"60.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"64.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">8</text><line x1=\"65\" y1=\"42.000\" x2=\"435\" y2=\"42.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"46.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">9</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#444\" stroke-width=\"1.5\"/><text x=\"435\" y=\"313\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">x</text><text x=\"18\" y=\"23\" font-family=\"sans-serif\" font-size=\"13\">y</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#666\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><polyline data-curve=\"f\" points=\"140.556,42.000 141.313,44.200 143.625,50.802 145.938,57.284 148.250,63.647 150.563,69.890 152.875,76.015 155.188,82.020 157.500,87.906 159.813,93.673 162.125,99.321 164.438,104.850 166.750,110.259 169.063,115.549 171.375,120.720 173.688,125.772 176.000,130.705 178.313,135.519 180.625,140.213 182.938,144.788 185.250,149.244 187.563,153.581 189.875,157.799 192.188,161.897 194.500,165.876 196.812,169.736 199.125,173.477 201.438,177.099 203.750,180.602 206.063,183.985 208.375,187.249 210.688,190.394 213.000,193.420 215.313,196.327 217.625,199.114 219.937,201.782 222.250,204.332 224.563,206.762 226.875,209.072 229.188,211.264 231.500,213.336 233.813,215.289 236.125,217.124 238.438,218.838 240.750,220.434 243.062,221.911 245.375,223.268 247.688,224.506 250.000,225.625 252.313,226.625 254.625,227.505 256.938,228.267 259.250,228.909 261.563,229.432 263.875,229.836 266.188,230.121 268.500,230.286 270.813,230.333 273.125,230.260 275.438,230.068 277.750,229.757 280.063,229.326 282.375,228.777 284.688,228.108 287.000,227.320 289.313,226.413 291.625,225.387 293.938,224.241 296.250,222.977 298.563,221.593 300.875,220.090 303.188,218.468 305.500,216.726 307.813,214.866 310.125,212.886 312.438,210.787 314.750,208.569 317.063,206.232 319.375,203.775 321.688,201.200 324.000,198.505 326.313,195.691 328.625,192.758 330.938,189.706 333.250,186.534 335.563,183.243 337.875,179.834 340.187,176.304 342.500,172.656 344.813,168.889 347.125,165.002 349.438,160.997 351.750,156.872 354.063,152.627 356.375,148.264 358.688,143.782 361.000,139.180 363.312,134.459 365.625,129.619 367.938,124.660 370.250,119.582 372.563,114.384 374.875,109.067 377.188,103.631 379.500,98.076 381.813,92.402 384.125,86.609 386.437,80.696 388.750,74.664 391.063,68.513 393.375,62.243 395.688,55.854 398.000,49.345 400.313,42.717 400.559,42.000\" fill=\"none\" stroke=\"#2166ac\" stroke-width=\"3\" stroke-linejoin=\"round\" clip-path=\"url(#clip-ny-14)\"/><text x=\"361.000\" y=\"129.180\" fill=\"#2166ac\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">f</text></svg></span>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den streckade linjen skär grafen i två punkter. Deras x-koordinater är −1 och 3.</p><p><strong>Svar:</strong> <strong>\\(x_1=-1,\\ x_2=3\\)</strong></p></div></div>",
     "familj": "Grafisk ekvationslösning",
     "geogebra": false,

@@ -53,7 +53,7 @@ window.BANKMA1 = [
       1,
       2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -121,7 +121,7 @@ window.BANKMA1 = [
       2,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -183,7 +183,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -274,7 +274,7 @@ window.BANKMA1 = [
       -4,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -339,7 +339,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "7/4",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 1,
@@ -397,7 +397,7 @@ window.BANKMA1 = [
       4,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -463,7 +463,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 1,
@@ -521,7 +521,7 @@ window.BANKMA1 = [
       -7,
       2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -586,7 +586,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/8",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 1,
@@ -611,7 +611,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.36,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -644,7 +644,7 @@ window.BANKMA1 = [
       -11,
       -2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -709,7 +709,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/6",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -734,7 +734,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.47,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -767,7 +767,7 @@ window.BANKMA1 = [
       -5,
       1
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -832,7 +832,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "3/4",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -857,7 +857,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1.2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -890,7 +890,7 @@ window.BANKMA1 = [
       -11,
       27
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -955,7 +955,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "25/42",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -1013,7 +1013,7 @@ window.BANKMA1 = [
       -9,
       1
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1078,7 +1078,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 2,
@@ -1107,7 +1107,7 @@ window.BANKMA1 = [
       0.47,
       0.5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1150,7 +1150,7 @@ window.BANKMA1 = [
       -2,
       -4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1219,7 +1219,7 @@ window.BANKMA1 = [
       1,
       8
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -1285,7 +1285,7 @@ window.BANKMA1 = [
       -0.2,
       0.4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1350,7 +1350,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 2,
@@ -1408,7 +1408,7 @@ window.BANKMA1 = [
       -0.8,
       -2.4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1528,7 +1528,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1561,7 +1561,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "2/3",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -1586,7 +1586,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -0.245,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1619,7 +1619,7 @@ window.BANKMA1 = [
       -4,
       11
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1684,7 +1684,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/6",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -1743,7 +1743,7 @@ window.BANKMA1 = [
       -19,
       14
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -1808,7 +1808,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/3",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -1837,7 +1837,7 @@ window.BANKMA1 = [
       0.7,
       0.07
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1876,7 +1876,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -1911,7 +1911,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "5/4",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -1929,7 +1929,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 3,<strong>4</strong>8</div><div>b) 12,0<strong>6</strong>5</div><div>c) 0,00<strong>9</strong></div></div>",
+    "t": "<p>Bestäm värdet av den angivna siffran i varje tal.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) siffran <strong>4</strong> i talet 3,48</div><div>b) siffran <strong>6</strong> i talet 12,065</div><div>c) siffran <strong>9</strong> i talet 0,009</div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 0,4</div><div>b) 0,06</div><div>c) 0,009</div></div></div></div>",
     "familj": "Skriva och tolka decimaltal",
     "geogebra": false,
@@ -1940,7 +1940,7 @@ window.BANKMA1 = [
       0.06,
       0.009
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -1950,7 +1950,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"spel-en-del\">3,<strong>4</strong>8</div>",
+        "t": "<p>Vilket värde har siffran <strong>4</strong> i talet 3,48?</p>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,4</div>",
         "ledtrad": "<p>Vad är en tiondel av en hel? Vilken position har den markerade siffran?</p>",
         "niva": "E",
@@ -1958,7 +1958,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"spel-en-del\">12,0<strong>6</strong>5</div>",
+        "t": "<p>Vilket värde har siffran <strong>6</strong> i talet 12,065?</p>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,06</div>",
         "ledtrad": "<p>Räkna decimalplatserna från decimaltecknet.</p>",
         "niva": "E",
@@ -1966,7 +1966,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"spel-en-del\">0,00<strong>9</strong></div>",
+        "t": "<p>Vilket värde har siffran <strong>9</strong> i talet 0,009?</p>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,009</div>",
         "ledtrad": "<p>Vad är värdet av en enda tusendel?</p>",
         "niva": "E",
@@ -2001,7 +2001,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 14,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2063,7 +2063,7 @@ window.BANKMA1 = [
       0,
       4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2128,7 +2128,7 @@ window.BANKMA1 = [
       7,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2194,7 +2194,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 2,
@@ -2241,20 +2241,20 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Ett heltal \\(x\\) ligger mellan −5 och 5, inklusive ändpunkterna. Hur många värden på \\(x\\) uppfyller båda villkoren \\(-x^2<x\\) och \\((-x)^2>x\\)?</p><p><em>Observera:</em> \\(-x^2\\) betyder \\(-(x^2)\\), medan \\((-x)^2\\) betyder att hela talet \\(-x\\) kvadreras.</p>",
+    "t": "<p>Heltalet \\(x\\) kan vara något av talen −5, −4, −3, −2, −1, 0, 1, 2, 3, 4 och 5.</p><p>Hur många av dessa värden uppfyller <strong>båda</strong> villkoren?</p><p>1. \\(-x^2\\lt x\\)<br>2. \\((-x)^2\\lt x\\)</p><p><em>Observera:</em> \\(-x^2\\) betyder \\(-(x^2)\\), medan \\((-x)^2\\) betyder att hela talet \\(-x\\) kvadreras.</p>",
     "s": "<p>Den första olikheten gäller för heltalen −5, −4, −3, −2, 1, 2, 3, 4 och 5. Vid −1 och 0 blir det likhet i stället.</p><p>Den andra olikheten gäller för −5, −4, −3, −2, −1, 2, 3, 4 och 5. Vid 0 och 1 blir det likhet.</p><p>Båda gäller alltså för −5, −4, −3, −2, 2, 3, 4 och 5. <strong>Svar: 8 värden.</strong> En systematisk tabell eller analys av tecknen fungerar. Orden ”båda” och de strikta olikheterna är avgörande.</p>",
     "familj": "Räkna med negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "ledtrad": "<p>Börja med att skilja på −x² och (−x)². Kontrollera sedan var olikheterna blir likheter.</p>",
+    "ledtrad": "<p>Pröva heltalen systematiskt. Kom ihåg att \\(-x^2\\) och \\((-x)^2\\) inte betyder samma sak.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 4,
     "arbetsinsats": 1,
@@ -2282,7 +2282,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/2",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -2307,7 +2307,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.148,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2336,7 +2336,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -2399,7 +2399,7 @@ window.BANKMA1 = [
       0.5,
       0.005
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2523,7 +2523,7 @@ window.BANKMA1 = [
       2.07,
       0.09
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2584,7 +2584,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 14,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2646,7 +2646,7 @@ window.BANKMA1 = [
       8.003,
       0.45
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2711,7 +2711,7 @@ window.BANKMA1 = [
       -5,
       -15
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2777,7 +2777,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "2/5",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -2831,7 +2831,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2865,7 +2865,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 2,
@@ -2894,7 +2894,7 @@ window.BANKMA1 = [
       3.081,
       0.579
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -2955,7 +2955,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -2989,7 +2989,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "23/12",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -3078,7 +3078,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "17/8",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -3181,7 +3181,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "heltal",
     "traningsniva": 4,
@@ -3283,7 +3283,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 4,
@@ -3402,7 +3402,7 @@ window.BANKMA1 = [
       2.04,
       2.004
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -3445,7 +3445,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -3482,7 +3482,7 @@ window.BANKMA1 = [
       "11/18",
       "-2/5"
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "bråk",
@@ -3543,7 +3543,7 @@ window.BANKMA1 = [
       4.7,
       2.11
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -3638,7 +3638,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "11/2",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 4,
@@ -3733,7 +3733,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -3797,7 +3797,7 @@ window.BANKMA1 = [
       46,
       8
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -3852,7 +3852,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två tal uppfyller a &lt; b &lt; 0. Vilken ordning gäller alltid?</p><p>A. \\(0<\\frac{a}{b}<1<\\frac{b}{a}\\)<br>B. \\(0<\\frac{b}{a}<1<\\frac{a}{b}\\)<br>C. \\(\\frac{b}{a}<0<1<\\frac{a}{b}\\)<br>D. \\(\\frac{a}{b}<0<1<\\frac{b}{a}\\)</p>",
+    "t": "<p>Två tal uppfyller a &lt; b &lt; 0. Vilken ordning gäller alltid?</p><p>A. \\(0\\lt\\frac{a}{b}\\lt1\\lt\\frac{b}{a}\\)<br>B. \\(0\\lt\\frac{b}{a}\\lt1\\lt\\frac{a}{b}\\)<br>C. \\(\\frac{b}{a}\\lt0\\lt1\\lt\\frac{a}{b}\\)<br>D. \\(\\frac{a}{b}\\lt0\\lt1\\lt\\frac{b}{a}\\)</p>",
     "s": "<p><strong>Svar: B.</strong> </p><p>Båda kvoterna är positiva eftersom både täljare och nämnare är negativa. Talet a ligger längre från noll än b. Därför är a/b större än 1 och b/a mellan 0 och 1.</p><p>Exempelvis ger a = −6 och b = −2 kvoterna 3 respektive 1/3. Exemplet stämmer med den generella jämförelsen, men tecken- och storleksargumenten visar varför ordningen alltid gäller.</p>",
     "familj": "Addition och subtraktion med negativa tal",
     "geogebra": false,
@@ -3897,7 +3897,7 @@ window.BANKMA1 = [
       "165",
       "126"
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "numeriskt",
@@ -3958,7 +3958,7 @@ window.BANKMA1 = [
       0.072,
       0.305
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -4058,7 +4058,7 @@ window.BANKMA1 = [
       "96",
       "160"
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "numeriskt",
@@ -4218,7 +4218,7 @@ window.BANKMA1 = [
       "80",
       "16"
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "numeriskt",
@@ -4348,7 +4348,7 @@ window.BANKMA1 = [
       "13/30",
       "5/16"
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "bråk",
@@ -4483,7 +4483,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "liter",
@@ -4513,7 +4513,7 @@ window.BANKMA1 = [
       0,
       6
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -4649,7 +4649,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 3,
@@ -4799,7 +4799,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -4862,7 +4862,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/12",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -4976,7 +4976,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -5006,7 +5006,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -5042,7 +5042,7 @@ window.BANKMA1 = [
       21,
       36
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -5108,7 +5108,7 @@ window.BANKMA1 = [
       12,
       9
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5318,7 +5318,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -5442,7 +5442,7 @@ window.BANKMA1 = [
       7,
       -3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -5508,7 +5508,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": null,
@@ -5534,7 +5534,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -5593,7 +5593,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -5704,7 +5704,7 @@ window.BANKMA1 = [
       5,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -5776,7 +5776,7 @@ window.BANKMA1 = [
       2,
       5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -5875,7 +5875,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "7/6",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -5905,7 +5905,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "heltal",
     "traningsniva": 2,
@@ -5969,7 +5969,7 @@ window.BANKMA1 = [
       49,
       56
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -6028,7 +6028,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>En sträcka består av tre delar. Den första är \\(\\frac25\\) av hela sträckan. Den andra delen är \\(\\frac34\\) så lång som den första. Den tredje delen är 42 m.</p><p>Bestäm hela sträckans längd.</p>",
+    "t": "<p>En sträcka består av tre delar. Den första är \\(\\frac25\\) av hela sträckan. Den andra delen är \\(\\frac34\\) så lång som den första. Den tredje delen är 42 m.</p><p>Bestäm hela sträckans längd.</p><p>Svara i meter. Du behöver bara skriva talvärdet i svarsrutan.</p>",
     "s": "<p>Den första delen är \\(\\frac25\\) av hela sträckan. Den andra är \\(\\frac34\\) av den första, alltså</p><p>\\[\\frac34\\cdot\\frac25=\\frac3{10}\\]</p><p>av hela sträckan. De två första delarna utgör då \\(\\frac25+\\frac3{10}=\\frac7{10}\\). Den tredje delen är resten, \\(\\frac3{10}\\), och den är 42 m.</p><p>Hela sträckan är därför \\(42\\div\\frac3{10}=140\\) m.</p><p><strong>Svar:</strong> 140 m.</p>",
     "ledtrad": "<p>Vilken andel av hela sträckan är den andra delen?</p>",
     "niva": "E",
@@ -6046,7 +6046,14 @@ window.BANKMA1 = [
     "svarEnhet": "m",
     "traningsniva": 3,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "rättSvarAlternativ": [
+      140,
+      "140 m",
+      "140m",
+      "140 M",
+      "140M"
+    ]
   },
   {
     "id": "0.156",
@@ -6066,7 +6073,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6095,7 +6102,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6124,7 +6131,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6153,7 +6160,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6182,7 +6189,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6211,7 +6218,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6240,7 +6247,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6269,7 +6276,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6298,7 +6305,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 21,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6327,7 +6334,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6445,7 +6452,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6474,7 +6481,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6504,7 +6511,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6564,7 +6571,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6594,7 +6601,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -6624,7 +6631,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6653,7 +6660,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 47,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6682,7 +6689,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 83,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6711,7 +6718,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6.7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6740,7 +6747,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6769,7 +6776,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.49,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6798,7 +6805,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.075,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6827,7 +6834,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3700,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6856,7 +6863,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6885,7 +6892,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6914,7 +6921,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -6973,7 +6980,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 239.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -7002,7 +7009,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7449,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -7032,7 +7039,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.68,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7090,7 +7097,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.0001,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -7180,7 +7187,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7209,7 +7216,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7238,7 +7245,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7267,7 +7274,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -7298,7 +7305,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7327,7 +7334,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -7652,7 +7659,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -8476,7 +8483,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 60200,
-    "tolerans": 6.02e-8,
+    "tolerans": 6.02e-08,
     "självrättning": true,
     "svarFormat": "decimalform",
     "traningsniva": 1,
@@ -8534,7 +8541,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1200000,
-    "tolerans": 0.0000012,
+    "tolerans": 1.2e-06,
     "självrättning": true,
     "svarFormat": "decimalform",
     "traningsniva": 1,
@@ -8562,7 +8569,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.000084,
+    "rättSvar": 8.4e-05,
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
@@ -8592,7 +8599,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3200,
-    "tolerans": 3.2e-9,
+    "tolerans": 3.2e-09,
     "självrättning": true,
     "svarFormat": "decimalform",
     "svarEnhet": "W",
@@ -8711,7 +8718,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0000085,
+    "rättSvar": 8.5e-06,
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
@@ -8772,7 +8779,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 5200000,
-    "tolerans": 0.0000052,
+    "tolerans": 5.2e-06,
     "självrättning": true,
     "svarFormat": "decimalform",
     "svarEnhet": "Hz",
@@ -8861,7 +8868,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 2800,
-    "tolerans": 2.8e-9,
+    "tolerans": 2.8e-09,
     "självrättning": true,
     "svarFormat": "decimalform",
     "svarEnhet": "MHz",
@@ -8940,7 +8947,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8969,7 +8976,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -8998,7 +9005,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9027,7 +9034,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9115,7 +9122,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9173,7 +9180,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9202,7 +9209,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9231,7 +9238,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9260,7 +9267,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9318,7 +9325,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9347,7 +9354,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9493,7 +9500,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9523,7 +9530,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9553,7 +9560,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9642,7 +9649,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9817,7 +9824,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9846,7 +9853,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -9875,7 +9882,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -10053,7 +10060,7 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
@@ -10123,7 +10130,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10152,7 +10159,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/2",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10181,7 +10188,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "2/5",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10210,7 +10217,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10239,7 +10246,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "1/2",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10268,7 +10275,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "bråk",
     "rättSvar": "11/12",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10297,7 +10304,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10326,7 +10333,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "bråk",
     "traningsniva": 2,
@@ -10358,7 +10365,7 @@ window.BANKMA1 = [
       2,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -10425,7 +10432,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "traningsniva": 1,
@@ -10457,7 +10464,7 @@ window.BANKMA1 = [
       3,
       5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -10497,7 +10504,7 @@ window.BANKMA1 = [
       5,
       7
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "heltal",
@@ -10627,7 +10634,7 @@ window.BANKMA1 = [
       "2/3",
       "3/4"
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": [
       "bråk",
@@ -10841,7 +10848,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10872,7 +10879,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10902,7 +10909,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10933,7 +10940,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10964,7 +10971,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -10995,7 +11002,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -11024,7 +11031,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -11084,7 +11091,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -11113,7 +11120,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -11394,7 +11401,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0000725,
+    "rättSvar": 7.25e-05,
     "tolerans": 1e-13,
     "självrättning": true,
     "svarFormat": "decimalform",
@@ -11565,7 +11572,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -11595,7 +11602,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -350,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -11626,7 +11633,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -11655,7 +11662,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -3.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -11889,7 +11896,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 340000,
-    "tolerans": 3.4e-7,
+    "tolerans": 3.4e-07,
     "självrättning": true,
     "svarFormat": "decimalform",
     "traningsniva": 1,
@@ -11973,7 +11980,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 32,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -12003,7 +12010,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -12032,7 +12039,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -12061,7 +12068,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -0.805,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -12090,7 +12097,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.081,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -12260,7 +12267,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
     "traningsniva": 2,
@@ -15500,7 +15507,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 30.6,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "%",
     "traningsniva": 4,
@@ -15626,7 +15633,7 @@ window.BANKMA1 = [
     ],
     "självrättning": true,
     "tolerans": [
-      0.000001,
+      1e-06,
       1e-10
     ],
     "svarFormat": [
@@ -17849,9 +17856,9 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>För ett färgbad används D = 0,15m gram färgämne till m kg textil. Hur stor massa textil räcker 9 gram färgämne till enligt receptet?</p>",
-    "s": "<p>9 = 0,15m ger m = 9/0,15 = 60 kg. Kontroll: 0,15 · 60 = 9 gram.</p>",
-    "ledtrad": "<p>Vilken storhet är okänd i formeln?</p>",
+    "t": "<p>För ett färgbad används formeln \\(D=0,15T\\), där \\(D\\) är mängden färgämne i gram och \\(T\\) är textilmassan i kg. Hur många kg textil räcker 9 gram färgämne till?</p>",
+    "s": "<p>Sätt \\(D=9\\) i formeln:</p><p>\\(9=0,15T\\Rightarrow T=9/0,15=60\\).</p><p><strong>Svar: 60 kg textil.</strong></p>",
+    "ledtrad": "<p>Sätt \\(D=9\\) och lös sedan ekvationen efter \\(T\\).</p>",
     "niva": "E",
     "poang": "1/0/0",
     "arbetsinsats": 1,
@@ -22536,7 +22543,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 22.2,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "spel": true
@@ -22565,7 +22572,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 40.8,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "cm",
     "traningsniva": 1,
@@ -22625,7 +22632,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 6.8,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "liter per 100 km",
     "traningsniva": 1,
@@ -23497,7 +23504,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1.67,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "h",
     "traningsniva": 3,
@@ -31431,7 +31438,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -34761,7 +34768,7 @@ window.BANKMA1 = [
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
+    "svarstyp": "intervall",
     "rättSvar": "0<=t<=35",
     "tolerans": null,
     "självrättning": true,
@@ -36573,7 +36580,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -36647,7 +36654,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "punkt",
     "rättSvar": "(3,7)",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -37006,7 +37013,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       null,
-      1e-9
+      1e-09
     ],
     "självrättning": [
       false,
@@ -37530,7 +37537,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En behållare innehåller 96 liter och töms med 6 liter per minut. Modellen är \\(V(t)=96-6t\\) och gäller tills behållaren är tom.</p><p>Vilket påstående beskriver definitionsmängden bäst?</p><p>A. \\(0\\le t\\le16\\), eftersom modellen gäller från start till den tid då volymen blir 0.<br>B. \\(t\\ge0\\), eftersom tiden kan fortsätta även efter att behållaren har blivit tom.<br>C. \\(0\\le t<16\\), eftersom tidpunkten då behållaren blir tom inte kan ingå i modellen.<br>D. \\(0\\le t\\le96\\), eftersom 96 är den ursprungliga volymen i liter.</p>",
+    "t": "<p>En behållare innehåller 96 liter och töms med 6 liter per minut. Modellen är \\(V(t)=96-6t\\) och gäller tills behållaren är tom.</p><p>Vilket påstående beskriver definitionsmängden bäst?</p><p>A. \\(0\\le t\\le16\\), eftersom modellen gäller från start till den tid då volymen blir 0.<br>B. \\(t\\ge0\\), eftersom tiden kan fortsätta även efter att behållaren har blivit tom.<br>C. \\(0\\le t\\lt16\\), eftersom tidpunkten då behållaren blir tom inte kan ingå i modellen.<br>D. \\(0\\le t\\le96\\), eftersom 96 är den ursprungliga volymen i liter.</p>",
     "s": "<p>Behållaren blir tom när \\(96-6t=0\\), alltså vid \\(t=16\\). Både startögonblicket och tömningsögonblicket ingår.</p><p><strong>Svar:</strong> A, \\(0\\le t\\le16\\).</p>",
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
@@ -37654,7 +37661,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37684,7 +37691,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -37743,7 +37750,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37773,7 +37780,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -37802,7 +37809,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -38074,9 +38081,9 @@ window.BANKMA1 = [
       3
     ],
     "tolerans": [
-      1e-9,
-      1e-9,
-      1e-9
+      1e-09,
+      1e-09,
+      1e-09
     ],
     "självrättning": true,
     "formaga": [
@@ -38472,7 +38479,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38500,7 +38507,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38528,7 +38535,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38556,7 +38563,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38584,7 +38591,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38612,7 +38619,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38670,7 +38677,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38726,7 +38733,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -38754,7 +38761,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 108,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -38783,7 +38790,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -38812,7 +38819,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38841,7 +38848,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38870,7 +38877,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -38899,7 +38906,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -39130,7 +39137,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -39191,7 +39198,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "modellering",
@@ -40044,7 +40051,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -40283,7 +40290,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -40338,7 +40345,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -41156,7 +41163,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -46143,7 +46150,7 @@ window.BANKMA1 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.000002,
+      2e-06,
       0.01,
       1
     ],
@@ -47926,7 +47933,7 @@ window.BANKMA1 = [
       1.49
     ],
     "tolerans": [
-      0.00001,
+      1e-05,
       0.05,
       0.005
     ],
@@ -48557,7 +48564,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -49308,7 +49315,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49338,7 +49345,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49368,7 +49375,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49398,7 +49405,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49428,7 +49435,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49458,7 +49465,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49488,7 +49495,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49518,7 +49525,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49548,7 +49555,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -49578,7 +49585,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.975,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -50213,7 +50220,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 4.6e-7,
+    "rättSvar": 4.6e-07,
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "numeriskt",
@@ -50276,7 +50283,7 @@ window.BANKMA1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Vilken faktor använd två gånger ger totalfaktorn \\(810/1000=0,81\\)?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -57396,8 +57403,8 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "numeriskt",
-    "svarEnhet": "cm",
+    "svarFormat": "kort_text",
+    "svarEnhet": null,
     "ledtrad": "<p>Skriv först Pythagoras sats utan att lösa ut \\(x\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
@@ -63012,7 +63019,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": "0.443625",
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -63954,9 +63961,9 @@ window.BANKMA1 = [
       0.75
     ],
     "tolerans": [
-      1e-9,
-      1e-9,
-      1e-9
+      1e-09,
+      1e-09,
+      1e-09
     ],
     "självrättning": true,
     "formaga": [
@@ -64170,8 +64177,8 @@ window.BANKMA1 = [
       0.4003
     ],
     "tolerans": [
-      1e-9,
-      0.000001,
+      1e-09,
+      1e-06,
       0,
       0.0002
     ],
@@ -66393,7 +66400,7 @@ window.BANKMA1 = [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "bråk",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Skriv båda sannolikheterna som decimaler eller jämför bråken med gemensam nämnare.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -67155,7 +67162,7 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "bråk",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Frågan gäller att två händelser ska inträffa samtidigt, inte ”minst en” eller ”exakt en”.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -67215,7 +67222,7 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "bråk",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Fråga dig om de två händelserna är alternativa vägar eller två steg som båda måste ske.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -67313,7 +67320,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.34,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -67402,7 +67409,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -67460,7 +67467,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -69310,7 +69317,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       null,
-      1e-9
+      1e-09
     ],
     "självrättning": true,
     "formaga": [
@@ -70961,7 +70968,7 @@ window.BANKMA1 = [
     ],
     "tolerans": [
       null,
-      1e-9
+      1e-09
     ],
     "självrättning": true,
     "formaga": [
@@ -72740,7 +72747,7 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "numeriskt",
+    "svarFormat": "kort_text",
     "ledtrad": "<p>Operatorordningen gör att division utförs före addition om du inte använder parentes.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -74813,7 +74820,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 66.7,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "spel": true
@@ -74840,7 +74847,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 108.7,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "g",
     "traningsniva": 2,
@@ -75159,7 +75166,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 9.65,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "liter",
     "traningsniva": 2,
@@ -75215,7 +75222,7 @@ window.BANKMA1 = [
     "svarstyp": "numeriskt",
     "rättSvar": 1762,
     "självrättning": true,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "svarFormat": "numeriskt",
     "svarEnhet": "kr",
     "traningsniva": 2,
@@ -75659,7 +75666,7 @@ window.BANKMA1 = [
     "tolerans": [
       1e-10,
       1e-10,
-      0.000001
+      1e-06
     ],
     "svarFormat": [
       "numeriskt",
@@ -79513,7 +79520,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79540,7 +79547,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79783,7 +79790,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 126,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79810,7 +79817,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79837,7 +79844,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79864,7 +79871,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 132,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79891,7 +79898,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79919,7 +79926,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "kort_text",
     "rättSvar": "1:25000",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -79978,8 +79985,8 @@ window.BANKMA1 = [
       2.5
     ],
     "tolerans": [
-      1e-9,
-      0.000001
+      1e-09,
+      1e-06
     ],
     "självrättning": true,
     "formaga": [
@@ -80015,7 +80022,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -80043,7 +80050,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -80071,7 +80078,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -80099,7 +80106,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "kort_text",
     "rättSvar": "1:25",
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -80127,7 +80134,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -80155,7 +80162,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -80183,7 +80190,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -80211,7 +80218,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 0.000001,
+    "tolerans": 1e-06,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -82653,7 +82660,7 @@ window.BANKMA1 = [
       "procedur"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.000075,
+    "rättSvar": 7.5e-05,
     "tolerans": 1e-12,
     "självrättning": true,
     "svarFormat": "decimalform",
@@ -86683,7 +86690,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86713,7 +86720,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86744,7 +86751,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86775,7 +86782,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86805,7 +86812,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86836,7 +86843,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 19,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86866,7 +86873,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86897,7 +86904,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86927,7 +86934,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86957,7 +86964,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 375,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -86988,7 +86995,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 36,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87018,7 +87025,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87048,7 +87055,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 44,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87078,7 +87085,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87109,7 +87116,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 252,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87139,7 +87146,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87169,7 +87176,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87199,7 +87206,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 240,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87230,7 +87237,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 180,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87261,7 +87268,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87292,7 +87299,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87322,7 +87329,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87352,7 +87359,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87383,7 +87390,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 28,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87413,7 +87420,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 42,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87443,7 +87450,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5.25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87474,7 +87481,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87504,7 +87511,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87534,7 +87541,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87564,7 +87571,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 48,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87595,7 +87602,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 360,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87625,7 +87632,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87656,7 +87663,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 900,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87687,7 +87694,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87717,7 +87724,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 340,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87748,7 +87755,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87778,7 +87785,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 63,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87808,7 +87815,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87838,7 +87845,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87868,7 +87875,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 42,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87899,7 +87906,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 160,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87929,7 +87936,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87960,7 +87967,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -87991,7 +87998,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 100000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88022,7 +88029,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88052,7 +88059,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88082,7 +88089,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88112,7 +88119,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88143,7 +88150,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 220,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88174,7 +88181,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88204,7 +88211,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88234,7 +88241,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88264,7 +88271,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 34,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88294,7 +88301,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88324,7 +88331,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88384,7 +88391,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88415,7 +88422,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88446,7 +88453,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88506,7 +88513,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 31.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88540,7 +88547,7 @@ window.BANKMA1 = [
       2,
       6
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88577,7 +88584,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88607,7 +88614,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88637,7 +88644,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88695,7 +88702,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88724,7 +88731,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88754,7 +88761,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88784,7 +88791,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "problemlösning",
@@ -88815,7 +88822,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -88844,7 +88851,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -88873,7 +88880,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -88902,7 +88909,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.06,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -88931,7 +88938,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.39,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -88960,7 +88967,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp"
@@ -88989,7 +88996,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89018,7 +89025,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89047,7 +89054,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89076,7 +89083,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89105,7 +89112,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89134,7 +89141,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89192,7 +89199,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 36,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89279,7 +89286,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89308,7 +89315,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.35,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89337,7 +89344,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 19,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89366,7 +89373,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 35,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89395,7 +89402,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89424,7 +89431,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89453,7 +89460,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 36,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89482,7 +89489,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89511,7 +89518,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3.46,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89540,7 +89547,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12.8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89569,7 +89576,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89598,7 +89605,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.065,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89627,7 +89634,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89656,7 +89663,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12800,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89685,7 +89692,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89714,7 +89721,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 38470,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89743,7 +89750,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89772,7 +89779,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89859,7 +89866,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.0046,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89888,7 +89895,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 28000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89917,7 +89924,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.208,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89946,7 +89953,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -89975,7 +89982,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90004,7 +90011,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 40,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90033,7 +90040,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90062,7 +90069,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90091,7 +90098,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90120,7 +90127,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90149,7 +90156,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90358,7 +90365,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90388,7 +90395,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.84,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90418,7 +90425,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90448,7 +90455,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90478,7 +90485,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 320,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90508,7 +90515,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90538,7 +90545,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90567,7 +90574,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.00072,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90596,7 +90603,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90625,7 +90632,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90654,7 +90661,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90683,7 +90690,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90712,7 +90719,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90741,7 +90748,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -90770,7 +90777,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91300,7 +91307,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91329,7 +91336,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 77,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91358,7 +91365,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 23,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91387,7 +91394,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91416,7 +91423,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91445,7 +91452,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91474,7 +91481,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91503,7 +91510,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91532,7 +91539,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91561,7 +91568,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91590,7 +91597,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91619,7 +91626,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91648,7 +91655,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 14,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91677,7 +91684,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91705,7 +91712,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91733,7 +91740,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -91761,7 +91768,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92042,7 +92049,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92071,7 +92078,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92100,7 +92107,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92129,7 +92136,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92158,7 +92165,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92187,7 +92194,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92216,7 +92223,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92245,7 +92252,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92274,7 +92281,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92303,7 +92310,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92332,7 +92339,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92361,7 +92368,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92390,7 +92397,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92412,7 +92419,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\(f(x)=3\\) med hjälp av grafen. Den streckade linjen markerar \\(y=3\\). Ange båda lösningarna i stigande ordning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"330\" viewBox=\"0 0 480 330\" role=\"img\" aria-label=\"Koordinatsystem med graf och graderade axlar\"><rect width=\"480\" height=\"330\" rx=\"10\" fill=\"white\" stroke=\"#ddd\"/><defs><clipPath id=\"clip-ny-14\"><rect x=\"65\" y=\"42\" width=\"370\" height=\"226\"/></clipPath></defs><line x1=\"65.000\" y1=\"42\" x2=\"65.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"65.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−4</text><line x1=\"106.111\" y1=\"42\" x2=\"106.111\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"106.111\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"147.222\" y1=\"42\" x2=\"147.222\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"147.222\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"188.333\" y1=\"42\" x2=\"188.333\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"188.333\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"229.444\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"270.556\" y1=\"42\" x2=\"270.556\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"270.556\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"311.667\" y1=\"42\" x2=\"311.667\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"311.667\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"352.778\" y1=\"42\" x2=\"352.778\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"352.778\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"393.889\" y1=\"42\" x2=\"393.889\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"393.889\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"435.000\" y1=\"42\" x2=\"435.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"435.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"268.000\" x2=\"435\" y2=\"268.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"272.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"65\" y1=\"249.167\" x2=\"435\" y2=\"249.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"253.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"65\" y1=\"230.333\" x2=\"435\" y2=\"230.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"234.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"215.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"65\" y1=\"192.667\" x2=\"435\" y2=\"192.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"196.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"65\" y1=\"173.833\" x2=\"435\" y2=\"173.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"177.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"159.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"65\" y1=\"136.167\" x2=\"435\" y2=\"136.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"140.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"65\" y1=\"117.333\" x2=\"435\" y2=\"117.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"121.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"98.500\" x2=\"435\" y2=\"98.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"102.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">6</text><line x1=\"65\" y1=\"79.667\" x2=\"435\" y2=\"79.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"83.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">7</text><line x1=\"65\" y1=\"60.833\" x2=\"435\" y2=\"60.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"64.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">8</text><line x1=\"65\" y1=\"42.000\" x2=\"435\" y2=\"42.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"46.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">9</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#444\" stroke-width=\"1.5\"/><text x=\"435\" y=\"313\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">x</text><text x=\"18\" y=\"23\" font-family=\"sans-serif\" font-size=\"13\">y</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#666\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><polyline data-curve=\"f\" points=\"140.556,42.000 141.313,44.200 143.625,50.802 145.938,57.284 148.250,63.647 150.563,69.890 152.875,76.015 155.188,82.020 157.500,87.906 159.813,93.673 162.125,99.321 164.438,104.850 166.750,110.259 169.063,115.549 171.375,120.720 173.688,125.772 176.000,130.705 178.313,135.519 180.625,140.213 182.938,144.788 185.250,149.244 187.563,153.581 189.875,157.799 192.188,161.897 194.500,165.876 196.812,169.736 199.125,173.477 201.438,177.099 203.750,180.602 206.063,183.985 208.375,187.249 210.688,190.394 213.000,193.420 215.313,196.327 217.625,199.114 219.937,201.782 222.250,204.332 224.563,206.762 226.875,209.072 229.188,211.264 231.500,213.336 233.813,215.289 236.125,217.124 238.438,218.838 240.750,220.434 243.062,221.911 245.375,223.268 247.688,224.506 250.000,225.625 252.313,226.625 254.625,227.505 256.938,228.267 259.250,228.909 261.563,229.432 263.875,229.836 266.188,230.121 268.500,230.286 270.813,230.333 273.125,230.260 275.438,230.068 277.750,229.757 280.063,229.326 282.375,228.777 284.688,228.108 287.000,227.320 289.313,226.413 291.625,225.387 293.938,224.241 296.250,222.977 298.563,221.593 300.875,220.090 303.188,218.468 305.500,216.726 307.813,214.866 310.125,212.886 312.438,210.787 314.750,208.569 317.063,206.232 319.375,203.775 321.688,201.200 324.000,198.505 326.313,195.691 328.625,192.758 330.938,189.706 333.250,186.534 335.563,183.243 337.875,179.834 340.187,176.304 342.500,172.656 344.813,168.889 347.125,165.002 349.438,160.997 351.750,156.872 354.063,152.627 356.375,148.264 358.688,143.782 361.000,139.180 363.312,134.459 365.625,129.619 367.938,124.660 370.250,119.582 372.563,114.384 374.875,109.067 377.188,103.631 379.500,98.076 381.813,92.402 384.125,86.609 386.437,80.696 388.750,74.664 391.063,68.513 393.375,62.243 395.688,55.854 398.000,49.345 400.313,42.717 400.559,42.000\" fill=\"none\" stroke=\"#2166ac\" stroke-width=\"3\" stroke-linejoin=\"round\" clip-path=\"url(#clip-ny-14)\"/><text x=\"361.000\" y=\"129.180\" fill=\"#2166ac\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">f</text></svg></span>",
+    "t": "<p>Lös ekvationen \\(f(x)=3\\) med hjälp av grafen. Den streckade linjen markerar \\(y=3\\). Ange båda lösningarna i stigande ordning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"330\" viewBox=\"0 0 480 330\" role=\"img\" aria-label=\"Koordinatsystem med graf och graderade axlar\"><rect width=\"480\" height=\"330\" rx=\"10\" fill=\"white\" stroke=\"#ddd\"/><defs><clipPath id=\"clip-ny-14\"><rect x=\"65\" y=\"42\" width=\"370\" height=\"226\"/></clipPath></defs><line x1=\"65.000\" y1=\"42\" x2=\"65.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"65.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−4</text><line x1=\"106.111\" y1=\"42\" x2=\"106.111\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"106.111\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"147.222\" y1=\"42\" x2=\"147.222\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"147.222\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"188.333\" y1=\"42\" x2=\"188.333\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"188.333\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"229.444\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"270.556\" y1=\"42\" x2=\"270.556\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"270.556\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"311.667\" y1=\"42\" x2=\"311.667\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"311.667\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"352.778\" y1=\"42\" x2=\"352.778\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"352.778\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"393.889\" y1=\"42\" x2=\"393.889\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"393.889\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"435.000\" y1=\"42\" x2=\"435.000\" y2=\"268\" stroke=\"#e4e7ea\"/><text x=\"435.000\" y=\"288\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"268.000\" x2=\"435\" y2=\"268.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"272.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−3</text><line x1=\"65\" y1=\"249.167\" x2=\"435\" y2=\"249.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"253.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−2</text><line x1=\"65\" y1=\"230.333\" x2=\"435\" y2=\"230.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"234.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">−1</text><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"215.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">0</text><line x1=\"65\" y1=\"192.667\" x2=\"435\" y2=\"192.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"196.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">1</text><line x1=\"65\" y1=\"173.833\" x2=\"435\" y2=\"173.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"177.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">2</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"159.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">3</text><line x1=\"65\" y1=\"136.167\" x2=\"435\" y2=\"136.167\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"140.167\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">4</text><line x1=\"65\" y1=\"117.333\" x2=\"435\" y2=\"117.333\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"121.333\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">5</text><line x1=\"65\" y1=\"98.500\" x2=\"435\" y2=\"98.500\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"102.500\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">6</text><line x1=\"65\" y1=\"79.667\" x2=\"435\" y2=\"79.667\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"83.667\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">7</text><line x1=\"65\" y1=\"60.833\" x2=\"435\" y2=\"60.833\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"64.833\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">8</text><line x1=\"65\" y1=\"42.000\" x2=\"435\" y2=\"42.000\" stroke=\"#e4e7ea\"/><text x=\"55\" y=\"46.000\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\">9</text><line x1=\"229.444\" y1=\"42\" x2=\"229.444\" y2=\"268\" stroke=\"#444\" stroke-width=\"1.5\"/><line x1=\"65\" y1=\"211.500\" x2=\"435\" y2=\"211.500\" stroke=\"#444\" stroke-width=\"1.5\"/><text x=\"435\" y=\"313\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\">x</text><text x=\"18\" y=\"23\" font-family=\"sans-serif\" font-size=\"13\">y</text><line x1=\"65\" y1=\"155.000\" x2=\"435\" y2=\"155.000\" stroke=\"#666\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><polyline data-curve=\"f\" points=\"65.000,-240.500 67.313,-229.966 69.625,-219.551 71.938,-209.255 74.250,-199.078 76.563,-189.021 78.875,-179.083 81.188,-169.264 83.500,-159.564 85.813,-149.983 88.125,-140.521 90.438,-131.179 92.750,-121.956 95.063,-112.852 97.375,-103.867 99.688,-95.001 102.000,-86.255 104.313,-77.628 106.625,-69.120 108.938,-60.731 111.250,-52.461 113.563,-44.310 115.875,-36.279 118.188,-28.367 120.500,-20.574 122.813,-12.900 125.125,-5.345 127.438,2.090 129.750,9.407 132.063,16.604 134.375,23.682 136.688,30.640 139.000,37.480 141.313,44.200 143.625,50.802 145.938,57.284 148.250,63.647 150.563,69.890 152.875,76.015 155.188,82.020 157.500,87.906 159.813,93.673 162.125,99.321 164.438,104.850 166.750,110.259 169.063,115.549 171.375,120.720 173.688,125.772 176.000,130.705 178.313,135.519 180.625,140.213 182.938,144.788 185.250,149.244 187.563,153.581 189.875,157.799 192.188,161.897 194.500,165.876 196.812,169.736 199.125,173.477 201.438,177.099 203.750,180.602 206.063,183.985 208.375,187.249 210.688,190.394 213.000,193.420 215.313,196.327 217.625,199.114 219.937,201.782 222.250,204.332 224.563,206.762 226.875,209.072 229.188,211.264 231.500,213.336 233.813,215.289 236.125,217.124 238.438,218.838 240.750,220.434 243.062,221.911 245.375,223.268 247.688,224.506 250.000,225.625 252.313,226.625 254.625,227.505 256.938,228.267 259.250,228.909 261.563,229.432 263.875,229.836 266.188,230.121 268.500,230.286 270.813,230.333 273.125,230.260 275.438,230.068 277.750,229.757 280.063,229.326 282.375,228.777 284.688,228.108 287.000,227.320 289.313,226.413 291.625,225.387 293.938,224.241 296.250,222.977 298.563,221.593 300.875,220.090 303.188,218.468 305.500,216.726 307.813,214.866 310.125,212.886 312.438,210.787 314.750,208.569 317.063,206.232 319.375,203.775 321.688,201.200 324.000,198.505 326.313,195.691 328.625,192.758 330.938,189.706 333.250,186.534 335.563,183.243 337.875,179.834 340.187,176.304 342.500,172.656 344.813,168.889 347.125,165.002 349.438,160.997 351.750,156.872 354.063,152.627 356.375,148.264 358.688,143.782 361.000,139.180 363.312,134.459 365.625,129.619 367.938,124.660 370.250,119.582 372.563,114.384 374.875,109.067 377.188,103.631 379.500,98.076 381.813,92.402 384.125,86.609 386.437,80.696 388.750,74.664 391.063,68.513 393.375,62.243 395.688,55.854 398.000,49.345 400.313,42.717 402.625,35.970 404.938,29.104 407.250,22.119 409.562,15.015 411.875,7.791 414.188,0.448 416.500,-7.014 418.813,-14.595 421.125,-22.295 423.438,-30.115 425.750,-38.053 428.063,-46.111 430.375,-54.288 432.687,-62.585 435.000,-71.000\" fill=\"none\" stroke=\"#2166ac\" stroke-width=\"3\" stroke-linejoin=\"round\" clip-path=\"url(#clip-ny-14)\"/><text x=\"361.000\" y=\"129.180\" fill=\"#2166ac\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"bold\" text-anchor=\"middle\">f</text></svg></span>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den streckade linjen skär grafen i två punkter. Deras x-koordinater är −1 och 3.</p><p><strong>Svar:</strong> <strong>\\(x_1=-1,\\ x_2=3\\)</strong></p></div></div>",
     "familj": "Grafisk ekvationslösning",
     "geogebra": false,
@@ -92422,7 +92429,7 @@ window.BANKMA1 = [
       -1,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92462,7 +92469,7 @@ window.BANKMA1 = [
       -1,
       1
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92502,7 +92509,7 @@ window.BANKMA1 = [
       -2,
       2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92542,7 +92549,7 @@ window.BANKMA1 = [
       -3,
       5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92582,7 +92589,7 @@ window.BANKMA1 = [
       0.5,
       -2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92622,7 +92629,7 @@ window.BANKMA1 = [
       4,
       0
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92662,7 +92669,7 @@ window.BANKMA1 = [
       2,
       -1
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92702,7 +92709,7 @@ window.BANKMA1 = [
       -1,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92742,7 +92749,7 @@ window.BANKMA1 = [
       0.5,
       2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92778,7 +92785,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92806,7 +92813,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92834,7 +92841,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92862,7 +92869,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92890,7 +92897,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92918,7 +92925,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92949,7 +92956,7 @@ window.BANKMA1 = [
       3,
       2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -92988,7 +92995,7 @@ window.BANKMA1 = [
       -3,
       4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93027,7 +93034,7 @@ window.BANKMA1 = [
       0.5,
       1.5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93066,7 +93073,7 @@ window.BANKMA1 = [
       4,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93105,7 +93112,7 @@ window.BANKMA1 = [
       -2,
       10
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93144,7 +93151,7 @@ window.BANKMA1 = [
       1.5,
       0
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93181,7 +93188,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93210,7 +93217,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93239,7 +93246,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93268,7 +93275,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93297,7 +93304,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93326,7 +93333,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93442,7 +93449,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 54,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93471,7 +93478,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 35,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93500,7 +93507,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93528,7 +93535,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 11,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93556,7 +93563,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93584,7 +93591,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93612,7 +93619,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93640,7 +93647,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93668,7 +93675,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 480,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93809,7 +93816,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93838,7 +93845,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 144,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93867,7 +93874,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93896,7 +93903,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93925,7 +93932,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93954,7 +93961,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -93983,7 +93990,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94012,7 +94019,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94041,7 +94048,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94099,7 +94106,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 115200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94128,7 +94135,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.03,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94156,7 +94163,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 54,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94184,7 +94191,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 80,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94212,7 +94219,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94240,7 +94247,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94296,7 +94303,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94756,7 +94763,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94784,7 +94791,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94812,7 +94819,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94840,7 +94847,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94868,7 +94875,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -32,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94924,7 +94931,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94952,7 +94959,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -94980,7 +94987,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95008,7 +95015,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95036,7 +95043,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95064,7 +95071,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95092,7 +95099,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95120,7 +95127,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95148,7 +95155,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95176,7 +95183,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95263,7 +95270,7 @@ window.BANKMA1 = [
       -9,
       9
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95302,7 +95309,7 @@ window.BANKMA1 = [
       -4,
       4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95339,7 +95346,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 90,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95368,7 +95375,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95397,7 +95404,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95426,7 +95433,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 35,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95455,7 +95462,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95484,7 +95491,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 460,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95513,7 +95520,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 220,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95542,7 +95549,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95571,7 +95578,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95600,7 +95607,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95629,7 +95636,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95658,7 +95665,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95687,7 +95694,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95773,7 +95780,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95801,7 +95808,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 35,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95829,7 +95836,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -95857,7 +95864,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 52,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96222,7 +96229,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.09,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96251,7 +96258,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.88,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96280,7 +96287,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 35,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96309,7 +96316,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96338,7 +96345,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96367,7 +96374,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.006,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96396,7 +96403,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.995,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96425,7 +96432,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96454,7 +96461,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 255,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96483,7 +96490,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96512,7 +96519,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96541,7 +96548,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.21,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96570,7 +96577,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.44,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96599,7 +96606,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.64,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96628,7 +96635,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1025,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96657,7 +96664,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96686,7 +96693,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -96715,7 +96722,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97004,7 +97011,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97032,7 +97039,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97060,7 +97067,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97088,7 +97095,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97116,7 +97123,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97454,7 +97461,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97483,7 +97490,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 140,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97512,7 +97519,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1440,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97541,7 +97548,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.032,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97830,7 +97837,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97859,7 +97866,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97888,7 +97895,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97917,7 +97924,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8750,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97946,7 +97953,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -97975,7 +97982,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -98004,7 +98011,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12800,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -98033,7 +98040,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 21000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -98062,7 +98069,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -98091,7 +98098,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -98149,7 +98156,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -98207,7 +98214,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -98235,7 +98242,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99152,7 +99159,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99179,7 +99186,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99206,7 +99213,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99233,7 +99240,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99260,7 +99267,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99371,7 +99378,7 @@ window.BANKMA1 = [
       5,
       7
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99409,7 +99416,7 @@ window.BANKMA1 = [
       1,
       4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99447,7 +99454,7 @@ window.BANKMA1 = [
       -3,
       1
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99485,7 +99492,7 @@ window.BANKMA1 = [
       6,
       1
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99523,7 +99530,7 @@ window.BANKMA1 = [
       -4,
       0
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99561,7 +99568,7 @@ window.BANKMA1 = [
       -1,
       -2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99599,7 +99606,7 @@ window.BANKMA1 = [
       -8,
       -6
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99637,7 +99644,7 @@ window.BANKMA1 = [
       -5,
       7
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99675,7 +99682,7 @@ window.BANKMA1 = [
       3,
       5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99713,7 +99720,7 @@ window.BANKMA1 = [
       -3,
       6
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99751,7 +99758,7 @@ window.BANKMA1 = [
       4,
       0
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99789,7 +99796,7 @@ window.BANKMA1 = [
       -6,
       -6
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99827,7 +99834,7 @@ window.BANKMA1 = [
       5,
       -5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99865,7 +99872,7 @@ window.BANKMA1 = [
       7,
       -7
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99903,7 +99910,7 @@ window.BANKMA1 = [
       5,
       5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99941,7 +99948,7 @@ window.BANKMA1 = [
       3,
       -1
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -99979,7 +99986,7 @@ window.BANKMA1 = [
       -3,
       -5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100071,7 +100078,7 @@ window.BANKMA1 = [
       6,
       4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100109,7 +100116,7 @@ window.BANKMA1 = [
       4,
       4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100147,7 +100154,7 @@ window.BANKMA1 = [
       5,
       -5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100185,7 +100192,7 @@ window.BANKMA1 = [
       -7,
       5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100223,7 +100230,7 @@ window.BANKMA1 = [
       5,
       3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100261,7 +100268,7 @@ window.BANKMA1 = [
       2,
       -7
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100299,7 +100306,7 @@ window.BANKMA1 = [
       -9,
       12
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100337,7 +100344,7 @@ window.BANKMA1 = [
       6,
       14
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100375,7 +100382,7 @@ window.BANKMA1 = [
       5,
       -4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100413,7 +100420,7 @@ window.BANKMA1 = [
       3,
       -6
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100451,7 +100458,7 @@ window.BANKMA1 = [
       -5,
       0
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100486,7 +100493,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100513,7 +100520,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100540,7 +100547,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 13,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100567,7 +100574,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100594,7 +100601,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100621,7 +100628,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100756,7 +100763,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100783,7 +100790,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100810,7 +100817,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100837,7 +100844,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100864,7 +100871,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100921,7 +100928,7 @@ window.BANKMA1 = [
       6,
       -3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100959,7 +100966,7 @@ window.BANKMA1 = [
       -8,
       -6
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -100997,7 +101004,7 @@ window.BANKMA1 = [
       3,
       -4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101035,7 +101042,7 @@ window.BANKMA1 = [
       5,
       -2
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101073,7 +101080,7 @@ window.BANKMA1 = [
       -4,
       12
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101111,7 +101118,7 @@ window.BANKMA1 = [
       6,
       12
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101149,7 +101156,7 @@ window.BANKMA1 = [
       -7,
       7
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101187,7 +101194,7 @@ window.BANKMA1 = [
       -6,
       4
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101225,7 +101232,7 @@ window.BANKMA1 = [
       10,
       -5
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101263,7 +101270,7 @@ window.BANKMA1 = [
       -4,
       -3
     ],
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101298,7 +101305,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101325,7 +101332,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": -2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101352,7 +101359,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101665,7 +101672,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101927,7 +101934,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.18,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101956,7 +101963,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -101985,7 +101992,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.02,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102014,7 +102021,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.343,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102043,7 +102050,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.9604,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102072,7 +102079,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.36,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102101,7 +102108,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.32,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102130,7 +102137,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.6561,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102655,7 +102662,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.65,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102684,7 +102691,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.92,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102713,7 +102720,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.375,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -102771,7 +102778,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 70,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103092,7 +103099,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103121,7 +103128,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103150,7 +103157,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103179,7 +103186,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103208,7 +103215,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 260,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103266,7 +103273,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.085,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103295,7 +103302,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.16,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103324,7 +103331,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.55,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103469,7 +103476,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 24,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103498,7 +103505,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 676,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103527,7 +103534,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103556,7 +103563,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.005,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103585,7 +103592,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 30,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103614,7 +103621,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103643,7 +103650,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103702,7 +103709,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103731,7 +103738,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 360,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103760,7 +103767,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103789,7 +103796,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103818,7 +103825,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103847,7 +103854,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.0005,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -103876,7 +103883,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -105615,7 +105622,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 31.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -105645,7 +105652,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 36.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -105675,7 +105682,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -105705,7 +105712,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -105735,7 +105742,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -105765,7 +105772,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -105823,7 +105830,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 750,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -105851,7 +105858,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -105879,7 +105886,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1520,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -105907,7 +105914,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1125,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -105934,7 +105941,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -105962,7 +105969,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 24.7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -105990,7 +105997,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106018,7 +106025,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 17.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106046,7 +106053,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106074,7 +106081,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106102,7 +106109,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106130,7 +106137,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4.2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106158,7 +106165,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106185,7 +106192,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106213,7 +106220,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106240,7 +106247,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106268,7 +106275,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106296,7 +106303,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 250,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106324,7 +106331,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 165,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106352,7 +106359,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106380,7 +106387,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 14.7,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106408,7 +106415,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106436,7 +106443,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 45,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106464,7 +106471,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 930,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106492,7 +106499,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 7.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106520,7 +106527,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 15,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106548,7 +106555,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106576,7 +106583,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 150,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106604,7 +106611,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106632,7 +106639,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 20,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106660,7 +106667,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 10,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106688,7 +106695,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106716,7 +106723,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 100,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106744,7 +106751,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 500,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106940,7 +106947,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 120.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106968,7 +106975,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 119.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -106996,7 +107003,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 0.04,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107024,7 +107031,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107052,7 +107059,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4.55,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107080,7 +107087,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107107,7 +107114,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107135,7 +107142,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.1,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107275,7 +107282,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 22,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107303,7 +107310,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 34.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107331,7 +107338,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 84,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107359,7 +107366,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107415,7 +107422,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107442,7 +107449,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 21,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107469,7 +107476,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107497,7 +107504,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5280,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107525,7 +107532,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 188,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107552,7 +107559,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 50,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107580,7 +107587,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 73.6,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107720,7 +107727,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2220,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107748,7 +107755,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107776,7 +107783,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 300,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107804,7 +107811,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 400,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107832,7 +107839,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 6445,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107860,7 +107867,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3320,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107888,7 +107895,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 103,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107916,7 +107923,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 128,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107944,7 +107951,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 793.8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -107972,7 +107979,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 3450,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108000,7 +108007,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5440,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108028,7 +108035,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 15000,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108056,7 +108063,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 920,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108084,7 +108091,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108111,7 +108118,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 13.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108139,7 +108146,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 231,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108167,7 +108174,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1600,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108195,7 +108202,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 12,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108223,7 +108230,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108251,7 +108258,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 72,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108279,7 +108286,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108307,7 +108314,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108335,7 +108342,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108362,7 +108369,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 1200,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108390,7 +108397,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 5.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108418,7 +108425,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 60,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108445,7 +108452,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 792,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108473,7 +108480,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 43,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108500,7 +108507,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 58,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108528,7 +108535,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108612,7 +108619,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 230,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108640,7 +108647,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1840,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108668,7 +108675,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108696,7 +108703,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 0.0079,
-    "tolerans": 0.00006,
+    "tolerans": 6e-05,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108723,7 +108730,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108751,7 +108758,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 25,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108778,7 +108785,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 23.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108806,7 +108813,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 486,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108834,7 +108841,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 1345,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108862,7 +108869,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 8.4,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108889,7 +108896,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 350,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108917,7 +108924,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 23.5,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108945,7 +108952,7 @@ window.BANKMA1 = [
     "miniräknare": false,
     "svarstyp": "numeriskt",
     "rättSvar": 525,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -108972,7 +108979,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 4465,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -109000,7 +109007,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 6450,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"
@@ -109028,7 +109035,7 @@ window.BANKMA1 = [
     "miniräknare": true,
     "svarstyp": "numeriskt",
     "rättSvar": 9,
-    "tolerans": 1e-9,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur"

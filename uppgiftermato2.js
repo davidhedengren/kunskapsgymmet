@@ -1,5 +1,3 @@
-/* Kvalitetsreviderad Ma4 / Matematik – fortsättning nivå 2, omgång 5 (2026-09-14).
- * Fokus: deriveringsregler, kedjeregel och sammansatta funktioner; NP-kalibrering, variation och robust självrättning. */
 window.BANKMATO2 = [
   {
     "id": "1.04",
@@ -511,14 +509,14 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm punktens koordinater exakt.</p>",
-        "s": "<p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p><p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten. Där är cosinus negativ och sinus positiv.</p><p>\\[<br>\\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad<br>\\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}.<br>\\]</p><div class=\"spel-en-del\"><p>\\(P=\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)\\)</p></div>",
+        "s": "<p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p><p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten. Där är cosinus negativ och sinus positiv.</p><p>\\[ \\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad \\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}. \\]</p><div class=\"spel-en-del\"><p>\\(P=\\left(-\\frac12,\\frac{\\sqrt3}{2}\\right)\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(\\sin 120^\\circ\\) och \\(\\cos 120^\\circ\\).</p>",
-        "s": "<p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p><p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten. Där är cosinus negativ och sinus positiv.</p><p>\\[<br>\\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad<br>\\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}.<br>\\]</p><div class=\"spel-en-del\"><p>\\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\), \\(\\cos120^\\circ=-\\frac12\\)</p></div>",
+        "s": "<p>I enhetscirkeln är punktens koordinater \\((\\cos v,\\sin v)\\).</p><p>Vinkeln \\(120^\\circ=180^\\circ-60^\\circ\\) ligger i andra kvadranten. Där är cosinus negativ och sinus positiv.</p><p>\\[ \\cos120^\\circ=-\\cos60^\\circ=-\\frac12,\\qquad \\sin120^\\circ=\\sin60^\\circ=\\frac{\\sqrt3}{2}. \\]</p><div class=\"spel-en-del\"><p>\\(\\sin120^\\circ=\\frac{\\sqrt3}{2}\\), \\(\\cos120^\\circ=-\\frac12\\)</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -1092,7 +1090,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>\\(\\tan(360^\\circ-v)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(\\sin v=3/5\\) och \\(\\cos v=-4/5\\). Bestäm \\(\\tan(360^\\circ-v)\\) exakt.</p>",
         "s": "<p>Eftersom \\(v\\) ligger i andra kvadranten är cosinus negativ.</p><p><div class=\"spel-en-del\">\\(\\tan(360^\\circ-v)=-\\tan v\\). Här är \\(\\tan v=(3/5)/(-4/5)=-3/4\\), alltså \\(\\boxed{3/4}\\).</div></p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -1369,7 +1367,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(\\sin(-40^\\circ)\\).</p>",
-        "s": "<p><strong>Nyckelidé:</strong> Sinus är en udda funktion: \\(\\sin(-v)=-\\sin v\\). Eftersom \\(\\sin40^\\circ>0\\) gäller därför \\(\\sin(-40^\\circ)<0\\).</p><p><strong>Svar:</strong> <strong>negativt</strong>.</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Sinus är en udda funktion: \\(\\sin(-v)=-\\sin v\\). Eftersom \\(\\sin40^\\circ>0\\) gäller därför \\(\\sin(-40^\\circ)\\lt0\\).</p><p><strong>Svar:</strong> <strong>negativt</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -1727,7 +1725,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(\\tan v\\), där \\(v\\) är punktens vinkel.</p>",
+        "fraga": "<p>Punkten är \\(P=(-3/5,-4/5)\\). Bestäm \\(\\tan v\\), där \\(v\\) är punktens vinkel.</p>",
         "s": "<p>Nu är \\(x=-3/5\\) och \\(y=-4/5\\). Därför \\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{-3/5}=\\boxed{4/3}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -1809,7 +1807,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm exakt \\(\\sin(2v)\\).</p>",
-        "s": "<p>I andra kvadranten är \\(\\cos v<0\\). Trigonometriska ettan ger \\(\\cos v=-4/5\\). Då \\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25}.\\]</p>",
+        "s": "<p>I andra kvadranten är \\(\\cos v\\lt0\\). Trigonometriska ettan ger \\(\\cos v=-4/5\\). Då \\[\\sin2v=2\\sin v\\cos v=2\\cdot\\frac35\\cdot\\left(-\\frac45\\right)=\\boxed{-24/25}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
@@ -2049,7 +2047,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
+        "fraga": "<p>Punkten är \\(P=(-4/5,-3/5)\\). Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
         "s": "<p>Med \\(x=-4/5\\) och \\(y=-3/5\\) fås \\[\\tan v=\\frac{y}{x}=\\frac{-3/5}{-4/5}=\\boxed{3/4}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -2332,7 +2330,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
+        "fraga": "<p>Punkten är \\(P=(3/5,-4/5)\\). Bestäm \\(\\tan v\\), där \\(v\\) är vinkeln från positiva x-axeln till radien OP.</p>",
         "s": "<p>Med \\(x=3/5\\) och \\(y=-4/5\\) fås \\[\\tan v=\\frac{y}{x}=\\frac{-4/5}{3/5}=\\boxed{-4/3}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -3329,7 +3327,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>Bestäm \\(\\tan v\\) i båda fallen.</p>",
+        "fraga": "<p>För \\(\\sin v=3/5\\) gäller \\(\\cos v=4/5\\) i första kvadranten och \\(\\cos v=-4/5\\) i andra kvadranten. Bestäm \\(\\tan v\\) i båda fallen.</p>",
         "s": "<p>Trigonometriska ettan ger \\(\\cos^2v=1-9/25=16/25\\), alltså \\(|\\cos v|=4/5\\).</p><div class=\"spel-en-del\"><p>Första kvadranten: \\(\\tan v=3/4\\). Andra kvadranten: \\(\\tan v=-3/4\\).</p></div>",
         "niva": "E",
         "poang": "1/0/0"
@@ -3403,7 +3401,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spelIntro": "<p>För vinkeln \\(v\\) gäller</p><p>\\[<br>\\cos v=-\\frac35,\\qquad 90^\\circ&lt;v&lt;180^\\circ.<br>\\]</p><p>Bestäm exakt</p>"
+    "spelIntro": "<p>För vinkeln \\(v\\) gäller</p><p>\\[ \\cos v=-\\frac35,\\qquad 90^\\circ&lt;v&lt;180^\\circ. \\]</p><p>Bestäm exakt</p>"
   },
   {
     "id": "1.36",
@@ -4886,7 +4884,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(\\tan v\\).</p>",
+        "fraga": "<p>För denna del gäller \\(\\sin v=5/13\\) och \\(\\cos v=12/13\\). Bestäm \\(\\tan v\\).</p>",
         "s": "<p>\\(\\tan v=(5/13)/(12/13)=\\boxed{5/12}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -8209,13 +8207,13 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(4\\sin(2x-60^\\circ)=2\\)</p>",
-        "s": "<p>\\(\\sin(2x-60^\\circ)=\\frac12\\). Alltså</p><p>\\[<br>2x-60^\\circ=30^\\circ+360^\\circ n<br>\\]<br>eller<br>\\[<br>2x-60^\\circ=150^\\circ+360^\\circ n.<br>\\]</p><p>Därför</p><p>\\(x=45^\\circ+180^\\circ n\\) eller \\(x=105^\\circ+180^\\circ n\\).</p>",
+        "s": "<p>\\(\\sin(2x-60^\\circ)=\\frac12\\). Alltså</p><p>\\[ 2x-60^\\circ=30^\\circ+360^\\circ n \\]<br>eller<br>\\[ 2x-60^\\circ=150^\\circ+360^\\circ n. \\]</p><p>Därför</p><p>\\(x=45^\\circ+180^\\circ n\\) eller \\(x=105^\\circ+180^\\circ n\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "c",
         "fraga": "<p>\\(\\sin x\\cos x=0\\)</p>",
-        "s": "<p>En produkt är noll om någon faktor är noll:</p><p>\\[<br>\\sin x=0 \\quad\\text{eller}\\quad \\cos x=0.<br>\\]</p><p>Tillsammans ger detta \\(x=90^\\circ n\\).</p><p>I alla fall är \\(n\\in\\mathbb Z\\).</p>",
+        "s": "<p>En produkt är noll om någon faktor är noll:</p><p>\\[ \\sin x=0 \\quad\\text{eller}\\quad \\cos x=0. \\]</p><p>Tillsammans ger detta \\(x=90^\\circ n\\).</p><p>I alla fall är \\(n\\in\\mathbb Z\\).</p>",
         "niva": "C"
       }
     ]
@@ -12751,7 +12749,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm funktionens nollställen i intervallet \\(0\\le x\\le4\\pi\\). Svara med \\(\\arccos\\) eller med tre decimaler.</p>",
+        "fraga": "<p>För denna del gäller \\(f(x)=3\\cos(x/2)+2\\). Bestäm funktionens nollställen i intervallet \\(0\\le x\\le4\\pi\\). Svara med \\(\\arccos\\) eller med tre decimaler.</p>",
         "s": "<p>Nollställen fås ur</p><p>\\[3\\cos(x/2)+2=0\\Rightarrow \\cos(x/2)=-\\frac23.\\]</p><p>Sätt \\(\\alpha=\\arccos(-2/3)\\). Då ligger \\(x/2\\) i intervallet \\([0,2\\pi]\\), och lösningarna är</p><p>\\[\\frac x2=\\alpha\\quad\\text{eller}\\quad \\frac x2=2\\pi-\\alpha.\\]</p><p>Alltså</p><p>\\[\\boxed{x=2\\alpha\\ \\text{eller}\\ x=4\\pi-2\\alpha}.\\]</p><p>Numeriskt: \\(x\\approx4,601\\) och \\(x\\approx7,965\\).</p>",
         "niva": "C"
       }
@@ -13257,13 +13255,13 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>perioden</p>",
-        "s": "<p>Tangens har period \\(\\pi\\). Faktorn 2 framför \\(x\\) halverar perioden, så \\(T=\\boxed{\\pi/2}\\).</p><p>Asymptoter fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\). De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p>",
+        "s": "<p>Tangens har period \\(\\pi\\). Faktorn 2 framför \\(x\\) halverar perioden:</p><p>\\[T=\\frac{\\pi}{2}.\\]</p><p><strong>Svar: \\(\\pi/2\\)</strong></p>",
         "niva": "E"
       },
       {
         "etikett": "b",
         "fraga": "<p>två lodräta asymptoter närmast origo.</p>",
-        "s": "<p>Tangens har period \\(\\pi\\). Faktorn 2 framför \\(x\\) halverar perioden, så \\(T=\\boxed{\\pi/2}\\).</p><p>Asymptoter fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\). De två närmast origo är \\(\\boxed{x=-\\pi/4}\\) och \\(\\boxed{x=\\pi/4}\\).</p>",
+        "s": "<p>Asymptoter för \\(\\tan(2x)\\) fås när \\(2x=\\pi/2+n\\pi\\), alltså \\(x=\\pi/4+n\\pi/2\\).</p><p>De två närmast origo är <strong>\\(x=-\\pi/4\\)</strong> och <strong>\\(x=\\pi/4\\)</strong>.</p>",
         "niva": "E"
       }
     ],
@@ -13894,7 +13892,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>För funktionen</p><p>\\[<br>f(x)=4\\sin(3x)-2<br>\\]</p><p>bestäm</p>",
+    "spelIntro": "<p>För funktionen</p><p>\\[ f(x)=4\\sin(3x)-2 \\]</p><p>bestäm</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -13906,14 +13904,14 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>perioden</p>",
-        "s": "<p>\\[<br>T=\\frac{2\\pi}{3}.<br>\\]</p>",
+        "s": "<p>\\[ T=\\frac{2\\pi}{3}. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>största och minsta värde.</p>",
-        "s": "<p>Medellinjen är \\(y=-2\\). Därför</p><p>\\[<br>f_{\\max}=-2+4=2,\\qquad f_{\\min}=-2-4=-6.<br>\\]</p>",
+        "s": "<p>Medellinjen är \\(y=-2\\). Därför</p><p>\\[ f_{\\max}=-2+4=2,\\qquad f_{\\min}=-2-4=-6. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -15237,19 +15235,19 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Funktionen</p><p>\\[<br>f(x)=3\\cos\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)+2<br>\\]</p><p>är given.</p>",
+    "spelIntro": "<p>Funktionen</p><p>\\[ f(x)=3\\cos\\left(\\frac{x}{2}-\\frac{\\pi}{3}\\right)+2 \\]</p><p>är given.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm amplitud, medellinje och period.</p>",
-        "s": "<p>Amplituden är \\(3\\), medellinjen är \\(y=2\\) och</p><p>\\[<br>T=\\frac{2\\pi}{1/2}=4\\pi.<br>\\]</p>",
+        "s": "<p>Amplituden är \\(3\\), medellinjen är \\(y=2\\) och</p><p>\\[ T=\\frac{2\\pi}{1/2}=4\\pi. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm den minsta positiva \\(x\\)-koordinaten för en maximipunkt.</p>",
-        "s": "<p>En maximipunkt fås när vinkeln i cosinusuttrycket är \\(2\\pi n\\), där \\(n\\) är ett heltal. Minsta positiva lösningen:</p><p>\\[<br>\\frac{x}{2}-\\frac{\\pi}{3}=0<br>\\Rightarrow x=\\frac{2\\pi}{3}.<br>\\]</p>",
+        "s": "<p>En maximipunkt fås när vinkeln i cosinusuttrycket är \\(2\\pi n\\), där \\(n\\) är ett heltal. Minsta positiva lösningen:</p><p>\\[ \\frac{x}{2}-\\frac{\\pi}{3}=0 \\Rightarrow x=\\frac{2\\pi}{3}. \\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
@@ -16947,7 +16945,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Omvandla vinkeln till grader. Svara med en decimal.</p>",
+        "fraga": "<p>Medelpunktsvinkeln är \\(1,5\\) rad. Omvandla vinkeln till grader. Svara med en decimal.</p>",
         "s": "<p><strong>Steg 1:</strong> Bestäm först vinkeln i radianer från båglängden och radien:</p><p>\\[v=\\frac{7,5}{5,0}=1,5\\text{ rad}.\\]</p><p><strong>Steg 2:</strong> Omvandla radianer till grader genom att multiplicera med \\(180/\\pi\\):</p><p>\\[1,5\\cdot\\frac{180}{\\pi}\\approx85,9^\\circ.\\]</p><p><strong>Svar:</strong> \\(85,9^\\circ\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -17275,7 +17273,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm samma vinkel i grader.</p>",
+        "fraga": "<p>Bestäm sektorvinkeln i grader.</p>",
         "s": "<p>\\(\\pi/2\\) rad motsvarar \\(\\boxed{90^\\circ}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -17893,7 +17891,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm arean av motsvarande cirkelsektor.</p>",
+        "fraga": "<p>Bestäm arean av cirkelsektorn med radien 12 cm och sektorvinkeln \\(\\frac{5\\pi}{6}\\) rad.</p>",
         "s": "<p>Vinkeln är given i radianer. För en cirkel med radien \\(r\\) gäller \\(b=rv\\) för båglängden och \\(A=\\frac{r^2v}{2}\\) för sektorns area.</p><p><div class=\"spel-en-del\">\\(A=\\frac{12^2}{2}\\cdot\\frac{5\\pi}{6}=\\boxed{60\\pi\\text{ cm}^2}\\).</div></p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -18480,7 +18478,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm samma vinkel i grader.</p>",
+        "fraga": "<p>Bestäm sektorvinkeln i grader.</p>",
         "s": "<p>\\(2\\pi/3\\) rad motsvarar \\(\\boxed{120^\\circ}\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -19292,7 +19290,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm medelpunktsvinkeln.</p>",
+        "fraga": "<p>För denna del är sektorns radie 6 cm och båglängden 8,0 cm. Bestäm medelpunktsvinkeln i radianer.</p>",
         "s": "<p>\\(\\theta=s/r=8/6=\\boxed{4/3}\\) rad.</p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -19367,7 +19365,7 @@ window.BANKMATO2 = [
     "familjNyckel": "trig_modeller__tidpunkter_och_intervall_i_trigonometriska_modeller",
     "ledtrad": "<p>Översätt situationen till medellinje, amplitud, period och startläge innan du räknar på en viss tidpunkt.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett pariserhjuls gondolhöjd kan modelleras med</p><p>\\[<br>h(t)=22+18\\sin\\left(\\frac{\\pi}{20}t-\\frac{\\pi}{2}\\right),<br>\\]</p><p>där \\(h\\) mäts i meter och \\(t\\) i minuter efter att gondolen startar i sitt lägsta läge.</p><span class=\"fig\"><svg aria-label=\"Pariserhjul vars lägsta punkt ligger 4 m över marken och högsta punkt 40 m över marken\" height=\"320\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 430 320\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"318\" rx=\"10\" stroke=\"#E4E3E6\" width=\"428\" x=\"1\" y=\"1\"></rect><line stroke=\"#2B2527\" stroke-width=\"2.2\" x1=\"40.0\" x2=\"390.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"175.0\" y=\"293.0\">marknivå</text><circle cx=\"175.0\" cy=\"143.0\" fill=\"#F2F7F8\" r=\"108.0\" stroke=\"#2B2527\" stroke-width=\"2.2\"></circle><circle cx=\"175.0\" cy=\"143.0\" fill=\"#2B2527\" r=\"4\"></circle><line stroke=\"#268FA3\" stroke-width=\"1.8\" x1=\"175.0\" x2=\"251.7\" y1=\"143.0\" y2=\"66.3\"></line><rect fill=\"#fff\" height=\"12\" rx=\"4\" stroke=\"#268FA3\" stroke-width=\"1.6\" width=\"18\" x=\"242.7\" y=\"59.3\"></rect><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"340.0\" x2=\"340.0\" y1=\"275.0\" y2=\"35.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"335.0\" x2=\"345.0\" y1=\"35.0\" y2=\"35.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"335.0\" x2=\"345.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"349.0\" y=\"159.0\">40 m</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"349.0\" y=\"159.0\">40 m</text><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"300.0\" x2=\"300.0\" y1=\"275.0\" y2=\"251.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"295.0\" x2=\"305.0\" y1=\"251.0\" y2=\"251.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"295.0\" x2=\"305.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"309.0\" y=\"267.0\">4 m</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"309.0\" y=\"267.0\">4 m</text><line stroke=\"#9A9AA0\" stroke-dasharray=\"4 4\" stroke-width=\"1\" x1=\"283.0\" x2=\"340.0\" y1=\"35.0\" y2=\"35.0\"></line><line stroke=\"#9A9AA0\" stroke-dasharray=\"4 4\" stroke-width=\"1\" x1=\"175.0\" x2=\"300.0\" y1=\"251.0\" y2=\"251.0\"></line></svg></span>",
+    "spelIntro": "<p>Ett pariserhjuls gondolhöjd kan modelleras med</p><p>\\[ h(t)=22+18\\sin\\left(\\frac{\\pi}{20}t-\\frac{\\pi}{2}\\right), \\]</p><p>där \\(h\\) mäts i meter och \\(t\\) i minuter efter att gondolen startar i sitt lägsta läge.</p><span class=\"fig\"><svg aria-label=\"Pariserhjul vars lägsta punkt ligger 4 m över marken och högsta punkt 40 m över marken\" height=\"320\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 430 320\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"318\" rx=\"10\" stroke=\"#E4E3E6\" width=\"428\" x=\"1\" y=\"1\"></rect><line stroke=\"#2B2527\" stroke-width=\"2.2\" x1=\"40.0\" x2=\"390.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"11\" text-anchor=\"middle\" x=\"175.0\" y=\"293.0\">marknivå</text><circle cx=\"175.0\" cy=\"143.0\" fill=\"#F2F7F8\" r=\"108.0\" stroke=\"#2B2527\" stroke-width=\"2.2\"></circle><circle cx=\"175.0\" cy=\"143.0\" fill=\"#2B2527\" r=\"4\"></circle><line stroke=\"#268FA3\" stroke-width=\"1.8\" x1=\"175.0\" x2=\"251.7\" y1=\"143.0\" y2=\"66.3\"></line><rect fill=\"#fff\" height=\"12\" rx=\"4\" stroke=\"#268FA3\" stroke-width=\"1.6\" width=\"18\" x=\"242.7\" y=\"59.3\"></rect><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"340.0\" x2=\"340.0\" y1=\"275.0\" y2=\"35.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"335.0\" x2=\"345.0\" y1=\"35.0\" y2=\"35.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"335.0\" x2=\"345.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"349.0\" y=\"159.0\">40 m</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"349.0\" y=\"159.0\">40 m</text><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"300.0\" x2=\"300.0\" y1=\"275.0\" y2=\"251.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"295.0\" x2=\"305.0\" y1=\"251.0\" y2=\"251.0\"></line><line stroke=\"#268FA3\" stroke-width=\"1.6\" x1=\"295.0\" x2=\"305.0\" y1=\"275.0\" y2=\"275.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"309.0\" y=\"267.0\">4 m</text><text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"12\" x=\"309.0\" y=\"267.0\">4 m</text><line stroke=\"#9A9AA0\" stroke-dasharray=\"4 4\" stroke-width=\"1\" x1=\"283.0\" x2=\"340.0\" y1=\"35.0\" y2=\"35.0\"></line><line stroke=\"#9A9AA0\" stroke-dasharray=\"4 4\" stroke-width=\"1\" x1=\"175.0\" x2=\"300.0\" y1=\"251.0\" y2=\"251.0\"></line></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -19472,8 +19470,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Under hur lång tid av ett varv är höjden större än 11 m?</p>",
-        "s": "<p><strong>Nyckelidé:</strong> Av grafen ser vi medellinjen 8, amplituden 6 och perioden 12 s. En modell är därför \\(h(t)=8+6\\sin(\\pi t/6)\\).</p><p>Höjden ska vara större än 11:</p><p>\\[8+6\\sin\\left(\\frac{\\pi t}{6}\\right)>11\\Rightarrow \\sin\\left(\\frac{\\pi t}{6}\\right)>\\frac12.\\]</p><p>Under ett varv gäller detta för \\(1<t<5\\), alltså under \\(5-1=4\\) sekunder.</p><p><strong>Svar:</strong> 4 s.</p>",
+        "fraga": "<p>Använd modellen \\(h(t)=8+6\\sin(\\pi t/6)\\). Under hur lång tid av ett varv är höjden större än 11 m?</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Av grafen ser vi medellinjen 8, amplituden 6 och perioden 12 s. En modell är därför \\(h(t)=8+6\\sin(\\pi t/6)\\).</p><p>Höjden ska vara större än 11:</p><p>\\[8+6\\sin\\left(\\frac{\\pi t}{6}\\right)\\gt11\\Rightarrow \\sin\\left(\\frac{\\pi t}{6}\\right)\\gt\\frac12.\\]</p><p>Under ett varv gäller detta för \\(1\\lt t\\lt5\\), alltså under \\(5-1=4\\) sekunder.</p><p><strong>Svar:</strong> 4 s.</p>",
         "niva": "C"
       }
     ],
@@ -19736,14 +19734,14 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Hur lång tid under en period är sensorn minst 9 höjdenheter över golvet?</p>",
+        "fraga": "<p>Använd modellen \\(h(t)=4\\cos\\left(\\frac\\pi6(t-2)\\right)+7\\). Hur lång tid under en period är sensorn minst 9 höjdenheter över golvet?</p>",
         "s": "<p>Maxvärdet är 11 och minvärdet 3. Alltså</p><p>\\[A=\\frac{11-3}{2}=4,\\qquad B=\\frac{11+3}{2}=7.\\]</p><p>Två maxima ligger vid \\(t=2\\) och \\(t=14\\), så perioden är 12 och</p><p>\\[k=\\frac{2\\pi}{12}=\\frac\\pi6.\\]</p><div class=\"spel-en-del\"><p>Villkoret \\(h(t)\\ge9\\) ger</p><p>\\[4\\cos\\left(\\frac\\pi6(t-2)\\right)+7\\ge9\\]</p><p>\\[\\cos\\left(\\frac\\pi6(t-2)\\right)\\ge\\frac12.\\]</p><p>I en hel period motsvarar detta vinklar från \\(-\\pi/3\\) till \\(\\pi/3\\), alltså en skillnaden mellan vinklarna \\(2\\pi/3\\). Tiden blir</p><p>\\[\\frac{2\\pi/3}{\\pi/6}=4\\text{ h}.\\]</p></div>",
         "niva": "A",
         "poang": "0/0/1"
       },
       {
         "etikett": "c",
-        "fraga": "<p>Ange de två tidsintervall under \\(2\\le t\\le14\\) där villkoret \\(h(t)\\ge9\\) gäller.</p>",
+        "fraga": "<p>Använd modellen \\(h(t)=4\\cos\\left(\\frac\\pi6(t-2)\\right)+7\\). Ange de två tidsintervall under \\(2\\le t\\le14\\) där \\(h(t)\\ge9\\).</p>",
         "s": "<p>Maxvärdet är 11 och minvärdet 3. Alltså</p><p>\\[A=\\frac{11-3}{2}=4,\\qquad B=\\frac{11+3}{2}=7.\\]</p><p>Två maxima ligger vid \\(t=2\\) och \\(t=14\\), så perioden är 12 och</p><p>\\[k=\\frac{2\\pi}{12}=\\frac\\pi6.\\]</p><div class=\"spel-en-del\"><p>Kring maximum vid \\(t=2\\) gäller villkoret från \\(t=0\\) till \\(t=4\\). Kring nästa maximum vid \\(t=14\\) gäller det från \\(t=12\\) till \\(t=16\\). Begränsat till \\(2\\le t\\le14\\) blir därför \\([2,4]\\) och \\([12,14]\\).</p></div>",
         "niva": "A",
         "poang": "0/0/1"
@@ -19949,13 +19947,13 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm en sinusmodell \\(h(t)\\) för gondolens höjd.</p>",
-        "s": "<p>Radien är 16 m, alltså är amplituden 16. Medelhöjden är \\(3+16=19\\) m. Eftersom ett varv tar 40 s blir koefficienten framför \\(t\\) lika med \\(2\\pi/40=\\pi/20\\). Eftersom gondolen vid \\(t=0\\) är på medelhöjd och stiger kan vi välja</p><p>\\[\\boxed{h(t)=19+16\\sin(\\pi t/20)}.\\]</p><p>För 30 m:</p><p>\\[19+16\\sin(\\pi t/20)=30\\Rightarrow\\sin(\\pi t/20)=11/16.\\]</p><p>Första lösningen är</p><p>\\[t=\\frac{20}{\\pi}\\arcsin(11/16)\\approx\\boxed{4,83\\text{ s}}.\\]</p>",
+        "s": "<p>Radien är 16 m och medelhöjden är \\(3+16=19\\) m. Perioden 40 s ger \\(k=2\\pi/40=\\pi/20\\). Eftersom gondolen startar på medelhöjd och stiger kan modellen skrivas</p><p>\\[\\boxed{h(t)=19+16\\sin(\\pi t/20)}.\\]</p>",
         "niva": "A"
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm första tidpunkt då gondolen når 30 m över marken.</p>",
-        "s": "<p>Radien är 16 m, alltså är amplituden 16. Medelhöjden är \\(3+16=19\\) m. Eftersom ett varv tar 40 s blir koefficienten framför \\(t\\) lika med \\(2\\pi/40=\\pi/20\\). Eftersom gondolen vid \\(t=0\\) är på medelhöjd och stiger kan vi välja</p><p>\\[\\boxed{h(t)=19+16\\sin(\\pi t/20)}.\\]</p><p>För 30 m:</p><p>\\[19+16\\sin(\\pi t/20)=30\\Rightarrow\\sin(\\pi t/20)=11/16.\\]</p><p>Första lösningen är</p><p>\\[t=\\frac{20}{\\pi}\\arcsin(11/16)\\approx\\boxed{4,83\\text{ s}}.\\]</p>",
+        "fraga": "<p>Använd modellen \\(h(t)=19+16\\sin(\\pi t/20)\\). Bestäm första tidpunkt då gondolen når 30 m över marken.</p>",
+        "s": "<p>Sätt modellen lika med 30:</p><p>\\[19+16\\sin(\\pi t/20)=30\\Rightarrow \\sin(\\pi t/20)=11/16.\\]</p><p>Första lösningen är</p><p>\\[t=\\frac{20}{\\pi}\\arcsin(11/16)\\approx\\boxed{4,83\\text{ s}}.\\]</p>",
         "niva": "A"
       }
     ],
@@ -20276,13 +20274,13 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm en cosinusmodell \\(h(t)=A\\cos(k(t-t_0))+B\\).</p>",
-        "s": "<p>Max = 46, min = 10, alltså \\(A=18\\), \\(B=28\\). Från max vid \\(t=4\\) till min vid \\(t=10\\) går en halv period, alltså \\(T=12\\) och \\(k=2\\pi/T=\\pi/6\\).</p><p>En modell är</p><p>\\[\\boxed{h(t)=18\\cos\\left(\\frac\\pi6(t-4)\\right)+28}.\\]</p><p>Villkoret \\(h&gt;37\\) ger \\(\\cos u&gt;1/2\\). Under en hel period gäller detta under \\(2\\pi/3\\) av totalt \\(2\\pi\\), alltså en tredjedel av perioden.</p><p><strong>\\(\\boxed{4\\text{ h}}\\)</strong>.</p>",
+        "s": "<p>Max = 46 och min = 10, så \\(A=18\\) och \\(B=28\\). Från max vid \\(t=4\\) till min vid \\(t=10\\) går en halv period, alltså \\(T=12\\) och \\(k=\\pi/6\\).</p><p>En modell är</p><p>\\[\\boxed{h(t)=18\\cos\\left(\\frac\\pi6(t-4)\\right)+28}.\\]</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "fraga": "<p>Hur lång tid under ett varv är gondolen högre än 37 m?</p>",
-        "s": "<p>Max = 46, min = 10, alltså \\(A=18\\), \\(B=28\\). Från max vid \\(t=4\\) till min vid \\(t=10\\) går en halv period, alltså \\(T=12\\) och \\(k=2\\pi/T=\\pi/6\\).</p><p>En modell är</p><p>\\[\\boxed{h(t)=18\\cos\\left(\\frac\\pi6(t-4)\\right)+28}.\\]</p><p>Villkoret \\(h&gt;37\\) ger \\(\\cos u&gt;1/2\\). Under en hel period gäller detta under \\(2\\pi/3\\) av totalt \\(2\\pi\\), alltså en tredjedel av perioden.</p><p><strong>\\(\\boxed{4\\text{ h}}\\)</strong>.</p>",
+        "fraga": "<p>Använd modellen \\(h(t)=18\\cos\\left(\\frac\\pi6(t-4)\\right)+28\\). Hur lång tid under ett varv är gondolen högre än 37 m?</p>",
+        "s": "<p>Villkoret \\(h>37\\) ger</p><p>\\[18\\cos\\left(\\frac\\pi6(t-4)\\right)+28>37\\Rightarrow \\cos u>1/2.\\]</p><p>Det gäller under en tredjedel av en period. Perioden är 12 h, så tiden blir <strong>4 h</strong>.</p>",
         "niva": "C"
       }
     ],
@@ -21321,7 +21319,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm första tiden då gondolen är 35 m över marken.</p>",
+        "fraga": "<p>Använd modellen \\(h(t)=25+20\\sin(\\pi t/20)\\). Bestäm första tiden då gondolen är 35 m över marken.</p>",
         "s": "<p><strong>Nyckelidé:</strong> Från de givna måtten fås modellen \\(h(t)=25+20\\sin(\\pi t/20)\\). Sätt höjden lika med 35 m.</p><p>\\[25+20\\sin(\\pi t/20)=35\\Rightarrow \\sin(\\pi t/20)=\\frac12.\\]</p><p>Första gången efter start är vinkeln \\(\\pi/6\\):</p><p>\\[\\frac{\\pi t}{20}=\\frac{\\pi}{6}\\Rightarrow t=\\frac{10}{3}\\approx3,33.\\]</p><p><strong>Svar:</strong> cirka 3,33 s.</p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -22086,28 +22084,28 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Vilken regel behöver användas först för \\(f(x)=x^4-3x+1\\)? Svara A–D.</p>",
-        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
+        "s": "<p><strong>A</strong>: ett polynom deriveras term för term.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Vilken regel behöver användas först för \\(g(x)=(3x-1)^5\\)? Svara A–D.</p>",
-        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
+        "s": "<p><strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>Vilken regel behöver användas först för \\(h(x)=xe^x\\)? Svara A–D.</p>",
-        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
+        "s": "<p><strong>B</strong>: två funktioner av x multipliceras, så produktregeln behövs.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>Vilken regel behöver användas först för \\(p(x)=\\frac{e^x}{x+1}\\)? Svara A–D.</p>",
-        "s": "<p>a) <strong>A</strong>: ett polynom deriveras term för term.</p><p>b) <strong>D</strong>: en potens av ett inre uttryck kräver kedjeregeln.</p><p>c) <strong>B</strong>: två funktioner av \\(x\\) multipliceras.</p><p>d) <strong>C</strong>: en kvot av två funktioner av \\(x\\).</p>",
+        "s": "<p><strong>C</strong>: en kvot av två funktioner av x kräver kvotregeln.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -22304,14 +22302,14 @@ window.BANKMATO2 = [
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm \\(f'(x)\\).</p>",
-        "s": "<p>a) Produktregeln och kedjeregeln:</p><p>\\[f'(x)=2x\\sin(3x)+3x^2\\cos(3x).\\]</p><p>b) \\(\\sin\\pi=0\\) och \\(\\cos\\pi=-1\\), så</p><p>\\[f'(\\pi/3)=\\boxed{-\\pi^2/3}.\\]</p>",
+        "s": "<p>Produktregeln och kedjeregeln ger</p><p>\\[f'(x)=2x\\sin(3x)+3x^2\\cos(3x).\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "värde",
-        "fraga": "<p>Bestäm \\(f'(\\pi/3)\\) exakt.</p>",
-        "s": "<p>a) Produktregeln och kedjeregeln:</p><p>\\[f'(x)=2x\\sin(3x)+3x^2\\cos(3x).\\]</p><p>b) \\(\\sin\\pi=0\\) och \\(\\cos\\pi=-1\\), så</p><p>\\[f'(\\pi/3)=\\boxed{-\\pi^2/3}.\\]</p>",
+        "fraga": "<p>För denna del gäller \\(f'(x)=2x\\sin(3x)+3x^2\\cos(3x)\\). Bestäm \\(f'(\\pi/3)\\) exakt.</p>",
+        "s": "<p>Sätt \\(x=\\pi/3\\). Då är \\(\\sin\\pi=0\\) och \\(\\cos\\pi=-1\\):</p><p>\\[f'(\\pi/3)=3(\\pi/3)^2(-1)=\\boxed{-\\pi^2/3}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -23247,14 +23245,14 @@ window.BANKMATO2 = [
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm \\(f'(x)\\).</p>",
-        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x).\\]</p><p>b) \\(f'(1)=0\\), alltså är tangenten horisontell. Punkten är \\((1,e^{-1})\\), så</p><p>\\[\\boxed{y=1/e}.\\]</p>",
+        "s": "<p>Produktregeln ger</p><p>\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x).\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "tangent",
-        "fraga": "<p>Bestäm tangentens ekvation vid \\(x=1\\).</p>",
-        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x).\\]</p><p>b) \\(f'(1)=0\\), alltså är tangenten horisontell. Punkten är \\((1,e^{-1})\\), så</p><p>\\[\\boxed{y=1/e}.\\]</p>",
+        "fraga": "<p>För denna del gäller \\(f'(x)=e^{-x}(1-x)\\). Visa att tangenten vid \\(x=1\\) är horisontell och bestäm tangentens ekvation.</p>",
+        "s": "<p>\\(f'(1)=e^{-1}(1-1)=0\\), så tangenten är horisontell. Punkten på kurvan är \\((1,e^{-1})\\). Därför är tangentens ekvation</p><p>\\[\\boxed{y=1/e}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -23307,19 +23305,19 @@ window.BANKMATO2 = [
       true
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Granska elevlösningen.</p>",
+    "spelIntro": "<p>En elev deriverar \\(f(x)=x^2e^x\\) och skriver</p><p>\\[f'(x)=2xe^x.\\]</p>",
     "spelDelar": [
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm den korrekta derivatan av \\(f(x)=x^2e^x\\).</p>",
-        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=2xe^x+x^2e^x=e^x(x^2+2x).\\]</p><p>b) Eleven har bara deriverat den första faktorn. I produktregeln måste båda termerna \\(u'v\\) och \\(uv'\\) finnas med.</p>",
+        "s": "<p>Produktregeln ger</p><p>\\[f'(x)=2xe^x+x^2e^x=e^x(x^2+2x).\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "förklaring",
         "fraga": "<p>Förklara kort vad som saknas i elevens svar \\(f'(x)=2xe^x\\).</p>",
-        "s": "<p>a) Produktregeln ger</p><p>\\[f'(x)=2xe^x+x^2e^x=e^x(x^2+2x).\\]</p><p>b) Eleven har bara deriverat den första faktorn. I produktregeln måste båda termerna \\(u'v\\) och \\(uv'\\) finnas med.</p>",
+        "s": "<p>Eleven har bara tagit med termen \\(u'v\\). I produktregeln måste även \\(uv'\\) finnas med.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -23369,28 +23367,28 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=\\dfrac{x^2+1}{x}\\)</p>",
-        "s": "<p>Med kvotregeln:</p><p>\\[<br>f'(x)=\\frac{2x\\cdot x-(x^2+1)}{x^2}<br>=\\frac{x^2-1}{x^2}.<br>\\]</p>",
+        "s": "<p>Med kvotregeln:</p><p>\\[ f'(x)=\\frac{2x\\cdot x-(x^2+1)}{x^2} =\\frac{x^2-1}{x^2}. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>\\(g(x)=\\dfrac{\\sin x}{x}\\), \\(x\\ne0\\)</p>",
-        "s": "<p>\\[<br>g'(x)=\\frac{x\\cos x-\\sin x}{x^2}.<br>\\]</p>",
+        "s": "<p>\\[ g'(x)=\\frac{x\\cos x-\\sin x}{x^2}. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=\\dfrac{x}{x+2}\\)</p>",
-        "s": "<p>\\[<br>h'(x)=\\frac{(x+2)-x}{(x+2)^2}<br>=\\frac{2}{(x+2)^2}.<br>\\]</p>",
+        "s": "<p>\\[ h'(x)=\\frac{(x+2)-x}{(x+2)^2} =\\frac{2}{(x+2)^2}. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>\\(p(x)=\\dfrac{e^x}{1+e^x}\\)</p>",
-        "s": "<p>\\[<br>p'(x)=\\frac{e^x(1+e^x)-e^x\\cdot e^x}{(1+e^x)^2}<br>=\\frac{e^x}{(1+e^x)^2}.<br>\\]</p>",
+        "s": "<p>\\[ p'(x)=\\frac{e^x(1+e^x)-e^x\\cdot e^x}{(1+e^x)^2} =\\frac{e^x}{(1+e^x)^2}. \\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -24082,28 +24080,28 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=x^2e^x\\)</p>",
-        "s": "<p>Produktregeln:</p><p>\\[<br>f'(x)=2xe^x+x^2e^x=e^x(x^2+2x).<br>\\]</p>",
+        "s": "<p>Produktregeln:</p><p>\\[ f'(x)=2xe^x+x^2e^x=e^x(x^2+2x). \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>\\(g(x)=x\\sin x\\)</p>",
-        "s": "<p>\\[<br>g'(x)=\\sin x+x\\cos x.<br>\\]</p>",
+        "s": "<p>\\[ g'(x)=\\sin x+x\\cos x. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=\\dfrac{e^x}{x}\\), \\(x\\ne0\\)</p>",
-        "s": "<p>Kvotregeln:</p><p>\\[<br>h'(x)=\\frac{xe^x-e^x}{x^2}<br>=\\frac{e^x(x-1)}{x^2}.<br>\\]</p>",
+        "s": "<p>Kvotregeln:</p><p>\\[ h'(x)=\\frac{xe^x-e^x}{x^2} =\\frac{e^x(x-1)}{x^2}. \\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>\\(p(x)=\\dfrac{\\ln x}{x^2}\\)<br>för \\(x&gt;0\\)</p>",
-        "s": "<p>\\[<br>p'(x)=\\frac{(1/x)x^2-\\ln x\\cdot2x}{x^4}<br>=\\frac{1-2\\ln x}{x^3}.<br>\\]</p>",
+        "s": "<p>\\[ p'(x)=\\frac{(1/x)x^2-\\ln x\\cdot2x}{x^4} =\\frac{1-2\\ln x}{x^3}. \\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -24275,7 +24273,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(b\\).</p>",
-        "s": "<p>Av \\(f(0)=2\\) fås direkt \\(b=2\\).</p><p>Produktregeln ger \\(f'(x)=ae^x+(ax+b)e^x\\), så \\(f'(0)=a+b=5\\). Med \\(b=2\\) fås \\(\\boxed{a=3}\\).</p>",
+        "s": "<p>Villkoret \\(f(0)=2\\) ger direkt \\(b=2\\), eftersom \\(e^0=1\\):</p><p>\\[f(0)=(a\\cdot0+b)e^0=b.\\]</p><p><strong>\\(b=2\\)</strong></p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -24716,19 +24714,19 @@ window.BANKMATO2 = [
       true
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Granska en vanlig felmetod.</p>",
+    "spelIntro": "<p>Funktionen är \\(f(x)=\\frac{x^2+1}{x}\\). En elev försöker derivera täljare och nämnare var för sig.</p>",
     "spelDelar": [
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm korrekt derivata av \\(f(x)=\\frac{x^2+1}{x}\\).</p>",
-        "s": "<p>a) Antingen kvotregeln eller förenkling först:</p><p>\\[f(x)=x+\\frac1x\\Rightarrow f'(x)=\\boxed{1-\\frac1{x^2}}.\\]</p><p>b) Det finns ingen regel \\((u/v)'=u'/v'\\). Kvotregeln innehåller båda korsprodukterna \\(u'v-uv'\\) och nämnaren \\(v^2\\).</p>",
+        "s": "<p>Förenkla först:</p><p>\\[f(x)=x+\\frac1x.\\]</p><p>Därför</p><p>\\[\\boxed{f'(x)=1-\\frac1{x^2}}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "förklaring",
         "fraga": "<p>En elev skriver \\(f'(x)=\\frac{2x}{1}\\). Förklara kort varför det inte är kvotregeln.</p>",
-        "s": "<p>a) Antingen kvotregeln eller förenkling först:</p><p>\\[f(x)=x+\\frac1x\\Rightarrow f'(x)=\\boxed{1-\\frac1{x^2}}.\\]</p><p>b) Det finns ingen regel \\((u/v)'=u'/v'\\). Kvotregeln innehåller båda korsprodukterna \\(u'v-uv'\\) och nämnaren \\(v^2\\).</p>",
+        "s": "<p>Det finns ingen regel \\((u/v)'=u'/v'\\). Kvotregeln är</p><p>\\[\\left(\\frac uv\\right)'=\\frac{u'v-uv'}{v^2}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -25084,14 +25082,14 @@ window.BANKMATO2 = [
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm \\(f'(x)\\) för \\(x\\ne1\\).</p>",
-        "s": "<p>a) För \\(x\\ne1\\):</p><p>\\[f(x)=\\frac{(x-1)(x+1)}{x-1}=x+1,\\]</p><p>så \\(\\boxed{f'(x)=1}\\).</p><p>b) Förenklingen beskriver samma värden där ursprungsfunktionen är definierad. Den borttagna faktorn får inte lägga till punkten \\(x=1\\) i definitionsmängden.</p>",
+        "s": "<p>För \\(x\\ne1\\):</p><p>\\[f(x)=\\frac{(x-1)(x+1)}{x-1}=x+1.\\]</p><p>Alltså \\(\\boxed{f'(x)=1}\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "förklaring",
         "fraga": "<p>Förklara varför förenklingen inte gör \\(f\\) definierad vid \\(x=1\\).</p>",
-        "s": "<p>a) För \\(x\\ne1\\):</p><p>\\[f(x)=\\frac{(x-1)(x+1)}{x-1}=x+1,\\]</p><p>så \\(\\boxed{f'(x)=1}\\).</p><p>b) Förenklingen beskriver samma värden där ursprungsfunktionen är definierad. Den borttagna faktorn får inte lägga till punkten \\(x=1\\) i definitionsmängden.</p>",
+        "s": "<p>Förenklingen gäller bara där ursprungsuttrycket är definierat. I den ursprungliga funktionen blir nämnaren noll vid \\(x=1\\), så den punkten tillhör fortfarande inte definitionsmängden.</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -25337,14 +25335,14 @@ window.BANKMATO2 = [
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm \\(f'(x)\\) för \\(f(x)=\\frac{x^2}{x^2+1}\\).</p>",
-        "s": "<p>a) Kvotregeln:</p><p>\\[f'(x)=\\frac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}=\\boxed{\\frac{2x}{(x^2+1)^2}}.\\]</p><p>b) För \\(x&gt;0\\) är både täljaren och nämnaren positiva. Alltså är \\(f'(x)&gt;0\\), så funktionen är växande där.</p>",
+        "s": "<p>Kvotregeln ger</p><p>\\[f'(x)=\\frac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}=\\boxed{\\frac{2x}{(x^2+1)^2}}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "resonemang",
-        "fraga": "<p>Använd derivatan för att avgöra om \\(f\\) är växande för \\(x&gt;0\\). Motivera.</p>",
-        "s": "<p>a) Kvotregeln:</p><p>\\[f'(x)=\\frac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}=\\boxed{\\frac{2x}{(x^2+1)^2}}.\\]</p><p>b) För \\(x&gt;0\\) är både täljaren och nämnaren positiva. Alltså är \\(f'(x)&gt;0\\), så funktionen är växande där.</p>",
+        "fraga": "<p>För denna del gäller \\(f'(x)=\\frac{2x}{(x^2+1)^2}\\). Avgör om \\(f\\) är växande för \\(x>0\\). Motivera.</p>",
+        "s": "<p>För \\(x>0\\) är täljaren \\(2x\\) positiv och nämnaren \\((x^2+1)^2\\) positiv. Därför är \\(f'(x)>0\\), så \\(f\\) är växande för \\(x>0\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -25487,7 +25485,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>Bestäm derivatan av \\(f(g(x))\\) vid \\(x=2\\).</p>",
+        "fraga": "<p>För denna del gäller \\(f(g(x))=9x^2-12x+5\\). Bestäm derivatan av \\(f(g(x))\\) vid \\(x=2\\).</p>",
         "s": "<p><div class=\"spel-en-del\">Derivatan av \\(9x^2-12x+5\\) är \\(18x-12\\). Vid \\(x=2\\): <strong>24</strong>.</div></p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -25545,26 +25543,26 @@ window.BANKMATO2 = [
       "lösning"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Låt \\(f(x)=\\sqrt{x}\\) och \\(g(x)=x-3\\).</p><p>a) Bestäm \\(f(g(x))\\).<br>b) Bestäm dess definitionsmängd.<br>c) Lös \\(f(g(x))=2\\).</p>",
+    "spelIntro": "<p>Låt \\(f(x)=\\sqrt{x}\\) och \\(g(x)=x-3\\).</p>",
     "spelDelar": [
       {
         "etikett": "sammansättning",
         "fraga": "<p>Bestäm \\(f(g(x))\\).</p>",
-        "s": "<p>a) \\(f(g(x))=\\boxed{\\sqrt{x-3}}\\).</p><p>b) Kravet \\(x-3\\ge0\\) ger \\(\\boxed{x\\ge3}\\).</p><p>c) \\(\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow\\boxed{x=7}\\).</p>",
+        "s": "<p>\\[f(g(x))=f(x-3)=\\sqrt{x-3}.\\]</p><p><strong>\\(\\sqrt{x-3}\\)</strong></p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "definitionsmängd",
         "fraga": "<p>Bestäm definitionsmängden för \\(f(g(x))\\).</p>",
-        "s": "<p>a) \\(f(g(x))=\\boxed{\\sqrt{x-3}}\\).</p><p>b) Kravet \\(x-3\\ge0\\) ger \\(\\boxed{x\\ge3}\\).</p><p>c) \\(\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow\\boxed{x=7}\\).</p>",
+        "s": "<p>För \\(\\sqrt{x-3}\\) krävs \\(x-3\\ge0\\).</p><p><strong>Definitionsmängd: \\(x\\ge3\\).</strong></p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "lösning",
         "fraga": "<p>Lös \\(f(g(x))=2\\).</p>",
-        "s": "<p>a) \\(f(g(x))=\\boxed{\\sqrt{x-3}}\\).</p><p>b) Kravet \\(x-3\\ge0\\) ger \\(\\boxed{x\\ge3}\\).</p><p>c) \\(\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow\\boxed{x=7}\\).</p>",
+        "s": "<p>\\[\\sqrt{x-3}=2\\Rightarrow x-3=4\\Rightarrow x=7.\\]</p><p><strong>\\(x=7\\)</strong></p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -25918,7 +25916,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(h'(x)\\) i den minsta av lösningarna.</p>",
+        "fraga": "<p>Den minsta lösningen till \\(h(x)=0,6\\) på intervallet \\(0\\le x\\le4\\) är \\(x\\approx0,829\\). Bestäm \\(h'(x)\\) vid denna lösning.</p>",
         "s": "<p>Kedjeregeln ger</p><p>\\[h'(x)=\\cos(g(x))\\left(\\frac{2x}{3}+0,5\\right).\\]</p><p>Vid \\(x\\approx0,829\\) fås</p><p>\\[\\boxed{h'(x)\\approx0,842}.\\]</p>",
         "niva": "C"
       }
@@ -26128,18 +26126,18 @@ window.BANKMATO2 = [
     "familjNyckel": "kedjeregel_sammansatta__berakna_sammansatta_funktioner",
     "ledtrad": "<p>Identifiera den yttre och den inre funktionen. Derivera den yttre och multiplicera med den inre funktionens derivata.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Låt</p><p>\\[<br>f(x)=\\sqrt{x+1},\\qquad g(x)=x^2-4.<br>\\]</p>",
+    "spelIntro": "<p>Låt</p><p>\\[ f(x)=\\sqrt{x+1},\\qquad g(x)=x^2-4. \\]</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm \\(f(g(x))\\) och dess definitionsmängd.</p>",
-        "s": "<p>\\[<br>f(g(x))=f(x^2-4)=\\sqrt{x^2-3}.<br>\\]</p><p>För att roten ska vara definierad krävs</p><p>\\[<br>x^2-3\\ge0<br>\\Rightarrow |x|\\ge\\sqrt3.<br>\\]</p><p>Alltså \\(x\\le-\\sqrt3\\) eller \\(x\\ge\\sqrt3\\).</p>",
+        "s": "<p>\\[ f(g(x))=f(x^2-4)=\\sqrt{x^2-3}. \\]</p><p>För att roten ska vara definierad krävs</p><p>\\[ x^2-3\\ge0 \\Rightarrow |x|\\ge\\sqrt3. \\]</p><p>Alltså \\(x\\le-\\sqrt3\\) eller \\(x\\ge\\sqrt3\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm \\(g(f(x))\\) och dess definitionsmängd.</p>",
-        "s": "<p>\\[<br>g(f(x))=g(\\sqrt{x+1})=(\\sqrt{x+1})^2-4=x-3.<br>\\]</p><p>Men sammansättningen är bara definierad där \\(f\\) är definierad, alltså</p><p>\\(x\\ge-1\\).</p>",
+        "s": "<p>\\[ g(f(x))=g(\\sqrt{x+1})=(\\sqrt{x+1})^2-4=x-3. \\]</p><p>Men sammansättningen är bara definierad där \\(f\\) är definierad, alltså</p><p>\\(x\\ge-1\\).</p>",
         "niva": "C"
       }
     ],
@@ -26627,7 +26625,7 @@ window.BANKMATO2 = [
       true
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Granska en vanlig kedjeregelmiss.</p>",
+    "spelIntro": "<p>En elev deriverar \\(h(x)=\\sqrt{1+x^2}\\) och skriver</p><p>\\[h'(x)=\\frac{1}{2\\sqrt{1+x^2}}.\\]</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -26714,19 +26712,19 @@ window.BANKMATO2 = [
       "derivata"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Av grafen avläses \\(f(1)=2\\) och \\(f\\prime(1)=3\\). En ny funktion definieras av \\(g(x)=(f(x))^2\\).</p>",
+    "spelIntro": "<p>Grafen till \\(f\\) och tangenten i punkten där \\(x=1\\) visas nedan.</p>\n<span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"300\" viewBox=\"0 0 470 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Grafen y lika med x kvadrat plus x och dess tangent vid punkten 1 komma 2\">\n<rect x=\"1\" y=\"1\" width=\"468\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<g stroke=\"#E2E6EA\" stroke-width=\"1\"><line x1=\"55.0\" y1=\"35\" x2=\"55.0\" y2=\"260\"/><line x1=\"116.7\" y1=\"35\" x2=\"116.7\" y2=\"260\"/><line x1=\"178.3\" y1=\"35\" x2=\"178.3\" y2=\"260\"/><line x1=\"240.0\" y1=\"35\" x2=\"240.0\" y2=\"260\"/><line x1=\"301.7\" y1=\"35\" x2=\"301.7\" y2=\"260\"/><line x1=\"363.3\" y1=\"35\" x2=\"363.3\" y2=\"260\"/><line x1=\"425.0\" y1=\"35\" x2=\"425.0\" y2=\"260\"/><line x1=\"55\" y1=\"260.0\" x2=\"425\" y2=\"260.0\"/><line x1=\"55\" y1=\"215.0\" x2=\"425\" y2=\"215.0\"/><line x1=\"55\" y1=\"170.0\" x2=\"425\" y2=\"170.0\"/><line x1=\"55\" y1=\"125.0\" x2=\"425\" y2=\"125.0\"/><line x1=\"55\" y1=\"80.0\" x2=\"425\" y2=\"80.0\"/><line x1=\"55\" y1=\"35.0\" x2=\"425\" y2=\"35.0\"/></g>\n<line x1=\"55\" y1=\"215\" x2=\"437\" y2=\"215\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M437 215 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"240\" y1=\"265\" x2=\"240\" y2=\"28\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><path d=\"M240 28 l-5 9 h10 z\" fill=\"#2B2527\"/>\n<polyline points=\"73.5,111.7 75.2,114.5 77.0,117.2 78.7,119.9 80.4,122.6 82.2,125.2 83.9,127.8 85.6,130.3 87.3,132.8 89.1,135.3 90.8,137.7 92.5,140.1 94.3,142.5 96.0,144.8 97.7,147.1 99.5,149.4 101.2,151.6 102.9,153.8 104.6,156.0 106.4,158.1 108.1,160.2 109.8,162.2 111.6,164.3 113.3,166.2 115.0,168.2 116.8,170.1 118.5,172.0 120.2,173.8 121.9,175.6 123.7,177.4 125.4,179.1 127.1,180.8 128.9,182.5 130.6,184.1 132.3,185.7 134.1,187.2 135.8,188.8 137.5,190.2 139.2,191.7 141.0,193.1 142.7,194.5 144.4,195.8 146.2,197.1 147.9,198.4 149.6,199.6 151.4,200.8 153.1,202.0 154.8,203.1 156.5,204.2 158.3,205.3 160.0,206.3 161.7,207.3 163.5,208.3 165.2,209.2 166.9,210.1 168.7,210.9 170.4,211.7 172.1,212.5 173.8,213.2 175.6,213.9 177.3,214.6 179.0,215.3 180.8,215.9 182.5,216.4 184.2,216.9 186.0,217.4 187.7,217.9 189.4,218.3 191.1,218.7 192.9,219.1 194.6,219.4 196.3,219.7 198.1,219.9 199.8,220.1 201.5,220.3 203.3,220.4 205.0,220.5 206.7,220.6 208.4,220.6 210.2,220.6 211.9,220.6 213.6,220.5 215.4,220.4 217.1,220.3 218.8,220.1 220.6,219.9 222.3,219.6 224.0,219.3 225.7,219.0 227.5,218.6 229.2,218.2 230.9,217.8 232.7,217.4 234.4,216.9 236.1,216.3 237.9,215.8 239.6,215.1 241.3,214.5 243.0,213.8 244.8,213.1 246.5,212.4 248.2,211.6 250.0,210.8 251.7,209.9 253.4,209.0 255.2,208.1 256.9,207.1 258.6,206.2 260.4,205.1 262.1,204.1 263.8,203.0 265.5,201.8 267.3,200.6 269.0,199.4 270.7,198.2 272.5,196.9 274.2,195.6 275.9,194.3 277.7,192.9 279.4,191.5 281.1,190.0 282.8,188.5 284.6,187.0 286.3,185.4 288.0,183.8 289.8,182.2 291.5,180.5 293.2,178.8 295.0,177.1 296.7,175.3 298.4,173.5 300.1,171.7 301.9,169.8 303.6,167.9 305.3,165.9 307.1,163.9 308.8,161.9 310.5,159.8 312.3,157.7 314.0,155.6 315.7,153.5 317.4,151.3 319.2,149.0 320.9,146.8 322.6,144.4 324.4,142.1 326.1,139.7 327.8,137.3 329.6,134.9 331.3,132.4 333.0,129.9 334.7,127.3 336.5,124.7 338.2,122.1 339.9,119.4 341.7,116.8 343.4,114.0 345.1,111.3 346.9,108.5 348.6,105.6 350.3,102.7 352.0,99.8 353.8,96.9 355.5,93.9 357.2,90.9 359.0,87.9 360.7,84.8 362.4,81.7 364.2,78.5 365.9,75.3 367.6,72.1 369.3,68.8 371.1,65.5 372.8,62.2 374.5,58.8 376.3,55.4 378.0,52.0 379.7,48.5 381.5,45.0 383.2,41.4 384.9,37.9\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"3\" stroke-linejoin=\"round\"/>\n<line x1=\"221.5\" y1=\"257.75\" x2=\"394.16666666666663\" y2=\"68.75\" stroke=\"#6B7280\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/>\n<circle cx=\"301.66666666666663\" cy=\"170\" r=\"5\" fill=\"#B43123\"/><text x=\"311.66666666666663\" y=\"162\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">(1, 2)</text><text x=\"366.4166666666667\" y=\"100.25\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#6B7280\">tangent</text>\n<text x=\"301.66666666666663\" y=\"235\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">1</text><text x=\"230\" y=\"174\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#50494B\">2</text><text x=\"439\" y=\"210\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">x</text><text x=\"248\" y=\"31\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">y</text>\n</svg></span>\n<p>Av figuren kan man avläsa att \\(f(1)=2\\) och att tangenten har lutningen 3. En ny funktion definieras av \\(g(x)=(f(x))^2\\).</p>",
     "spelDelar": [
       {
         "etikett": "värde",
         "fraga": "<p>Bestäm \\(g(1)\\).</p>",
-        "s": "<p>Eftersom \\(f(1)=2\\) får vi \\(g(1)=2^2=\\boxed{4}\\).</p><p>Kedjeregeln ger \\(g'(x)=2f(x)f'(x)\\). Med \\(f(1)=2\\) och \\(f'(1)=3\\):</p><p>\\[g'(1)=2\\cdot2\\cdot3=\\boxed{12}.\\]</p>",
+        "s": "<p>Eftersom \\(f(1)=2\\) och \\(g(x)=(f(x))^2\\) får vi</p><p>\\[g(1)=2^2=\\boxed{4}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm \\(g'(1)\\).</p>",
-        "s": "<p>Eftersom \\(f(1)=2\\) får vi \\(g(1)=2^2=\\boxed{4}\\).</p><p>Kedjeregeln ger \\(g'(x)=2f(x)f'(x)\\). Med \\(f(1)=2\\) och \\(f'(1)=3\\):</p><p>\\[g'(1)=2\\cdot2\\cdot3=\\boxed{12}.\\]</p>",
+        "s": "<p>Kedjeregeln ger \\(g'(x)=2f(x)f'(x)\\). Med \\(f(1)=2\\) och \\(f'(1)=3\\):</p><p>\\[g'(1)=2\\cdot2\\cdot3=\\boxed{12}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -26916,14 +26914,14 @@ window.BANKMATO2 = [
       {
         "etikett": "g",
         "fraga": "<p>Bestäm en möjlig inre funktion \\(g(x)\\).</p>",
-        "s": "<p>a) Den inre funktionen kan väljas som \\(\\boxed{g(x)=x^2-3x+2}\\).</p><p>b) \\(f'(u)=\\cos u\\) och \\(g'(x)=2x-3\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=(2x-3)\\cos(x^2-3x+2)}.\\]</p>",
+        "s": "<p>Eftersom \\(f(u)=\\sin u\\) och \\(f(g(x))=\\sin(x^2-3x+2)\\) kan vi välja</p><p>\\[\\boxed{g(x)=x^2-3x+2}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "derivata",
-        "fraga": "<p>Bestäm derivatan av \\(f(g(x))\\).</p>",
-        "s": "<p>a) Den inre funktionen kan väljas som \\(\\boxed{g(x)=x^2-3x+2}\\).</p><p>b) \\(f'(u)=\\cos u\\) och \\(g'(x)=2x-3\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=(2x-3)\\cos(x^2-3x+2)}.\\]</p>",
+        "fraga": "<p>För denna del kan den inre funktionen tas som \\(g(x)=x^2-3x+2\\). Bestäm derivatan av \\(f(g(x))\\), där \\(f(u)=\\sin u\\).</p>",
+        "s": "<p>\\(f'(u)=\\cos u\\) och \\(g'(x)=2x-3\\). Kedjeregeln ger</p><p>\\[\\boxed{(f(g(x)))'=(2x-3)\\cos(x^2-3x+2)}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -27038,7 +27036,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Derivera den sammansatta funktionen på två sätt: direkt och med kedjeregeln skriven som \\(g'(f(x))f'(x)\\).</p>",
+        "fraga": "<p>Den sammansatta funktionen är \\(g(f(x))=\\ln(x^2+1)\\). Derivera den på två sätt: direkt och med kedjeregeln \\(g'(f(x))f'(x)\\).</p>",
         "s": "<p>Metod: Bestäm den yttre och den inre funktionen. Kedjeregeln innebär att den yttre derivatan multipliceras med den inre derivatan.</p><div class=\"spel-en-del\"><p>Direkt: \\(2x/(x^2+1)\\). Med kedjeregeln: \\(g'(f(x))f'(x)=1/(x^2+1)\\cdot2x\\), samma resultat.</p></div>",
         "niva": "C",
         "poang": "0/1/0"
@@ -27106,21 +27104,21 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Ange den inre funktionen i \\(\\ln(1+x^2)\\).</p>",
-        "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
+        "s": "<p>I \\(\\ln(1+x^2)\\) är den inre funktionen <strong>\\(u=1+x^2\\)</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Ange den inre funktionen i \\(\\sin(e^x)\\).</p>",
-        "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
+        "s": "<p>I \\(\\sin(e^x)\\) är den inre funktionen <strong>\\(u=e^x\\)</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>Ange den inre funktionen i \\((1+\\cos x)^4\\).</p>",
-        "s": "<p>a) \\(u=1+x^2\\).<br>b) \\(u=e^x\\).<br>c) \\(u=1+\\cos x\\).</p><p>Att identifiera \\(u\\) korrekt gör kedjeregelns extra faktor tydlig.</p>",
+        "s": "<p>I \\((1+\\cos x)^4\\) är den inre funktionen <strong>\\(u=1+\\cos x\\)</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -27404,28 +27402,28 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Derivera \\((1+x^2)^4\\).</p>",
-        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
+        "s": "<p>Kedjeregeln ger</p><p>\\[4(1+x^2)^3\\cdot2x=\\boxed{8x(1+x^2)^3}.\\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Derivera \\(e^{3x^2}\\).</p>",
-        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
+        "s": "<p>Kedjeregeln ger</p><p>\\[e^{3x^2}\\cdot6x=\\boxed{6xe^{3x^2}}.\\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>Derivera \\(\\ln(1+x^3)\\).</p>",
-        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
+        "s": "<p>För \\(\\ln u\\) gäller \\((\\ln u)'=u'/u\\). Därför</p><p>\\[\\boxed{\\frac{3x^2}{1+x^3}}.\\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>Derivera \\(\\cos(2x-1)\\).</p>",
-        "s": "<p>a) \\(\\boxed{8x(1+x^2)^3}\\).</p><p>b) \\(\\boxed{6xe^{3x^2}}\\).</p><p>c) \\(\\boxed{3x^2/(1+x^3)}\\).</p><p>d) \\(\\boxed{-2\\sin(2x-1)}\\).</p>",
+        "s": "<p>Kedjeregeln ger</p><p>\\[\\boxed{-2\\sin(2x-1)}.\\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -27516,21 +27514,21 @@ window.BANKMATO2 = [
       {
         "etikett": "negativ",
         "fraga": "<p>Ange den negativa lösningen med tre decimaler.</p>",
-        "s": "<p>En numerisk lösning ger \\(\\boxed{x\\approx-1,220}\\) och \\(\\boxed{x\\approx1,220}\\).</p><p>Uttrycket innehåller \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn, vilket ger lösningar parvis med motsatta tecken.</p>",
+        "s": "<p>Numerisk lösning av \\(\\ln(2+e^{-x^2})=0,8\\) ger den negativa lösningen</p><p>\\[\\boxed{x\\approx-1,220}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "positiv",
         "fraga": "<p>Ange den positiva lösningen med tre decimaler.</p>",
-        "s": "<p>En numerisk lösning ger \\(\\boxed{x\\approx-1,220}\\) och \\(\\boxed{x\\approx1,220}\\).</p><p>Uttrycket innehåller \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn, vilket ger lösningar parvis med motsatta tecken.</p>",
+        "s": "<p>Numerisk lösning av \\(\\ln(2+e^{-x^2})=0,8\\) ger den positiva lösningen</p><p>\\[\\boxed{x\\approx1,220}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "förklaring",
         "fraga": "<p>Förklara varför lösningarna är symmetriska kring 0.</p>",
-        "s": "<p>En numerisk lösning ger \\(\\boxed{x\\approx-1,220}\\) och \\(\\boxed{x\\approx1,220}\\).</p><p>Uttrycket innehåller \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn, vilket ger lösningar parvis med motsatta tecken.</p>",
+        "s": "<p>Uttrycket beror på \\(x\\) endast genom \\(x^2\\), så \\(h(-x)=h(x)\\). Funktionen är jämn och därför kommer lösningarna parvis som \\(x\\) och \\(-x\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -27588,21 +27586,21 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>För \\(f(x)=\\sin(x^2)\\), bestäm \\(f'(0)\\).</p>",
-        "s": "<p>a) \\(f'(x)=2x\\cos(x^2)\\Rightarrow\\boxed{f'(0)=0}\\).</p><p>b) \\(g'(x)=2e^{2x+1}\\Rightarrow\\boxed{g'(0)=2e}\\).</p><p>c) \\(h'(x)=2x/(1+x^2)\\Rightarrow\\boxed{h'(1)=1}\\).</p>",
+        "s": "<p>\\(f'(x)=2x\\cos(x^2)\\). Vid \\(x=0\\):</p><p>\\[\\boxed{f'(0)=0}.\\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>För \\(g(x)=e^{2x+1}\\), bestäm \\(g'(0)\\).</p>",
-        "s": "<p>a) \\(f'(x)=2x\\cos(x^2)\\Rightarrow\\boxed{f'(0)=0}\\).</p><p>b) \\(g'(x)=2e^{2x+1}\\Rightarrow\\boxed{g'(0)=2e}\\).</p><p>c) \\(h'(x)=2x/(1+x^2)\\Rightarrow\\boxed{h'(1)=1}\\).</p>",
+        "s": "<p>\\(g'(x)=2e^{2x+1}\\). Vid \\(x=0\\):</p><p>\\[\\boxed{g'(0)=2e}.\\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>För \\(h(x)=\\ln(1+x^2)\\), bestäm \\(h'(1)\\).</p>",
-        "s": "<p>a) \\(f'(x)=2x\\cos(x^2)\\Rightarrow\\boxed{f'(0)=0}\\).</p><p>b) \\(g'(x)=2e^{2x+1}\\Rightarrow\\boxed{g'(0)=2e}\\).</p><p>c) \\(h'(x)=2x/(1+x^2)\\Rightarrow\\boxed{h'(1)=1}\\).</p>",
+        "s": "<p>\\(h'(x)=\\frac{2x}{1+x^2}\\). Vid \\(x=1\\):</p><p>\\[\\boxed{h'(1)=1}.\\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -27935,14 +27933,14 @@ window.BANKMATO2 = [
       {
         "etikett": "g",
         "fraga": "<p>Bestäm en möjlig \\(g(x)\\).</p>",
-        "s": "<p>a) En naturlig inre funktion är \\(\\boxed{g(x)=x^2+1}\\).</p><p>b) \\(f'(u)=e^u\\) och \\(g'(x)=2x\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=2xe^{x^2+1}}.\\]</p>",
+        "s": "<p>Eftersom \\(f(u)=e^u\\) och \\(f(g(x))=e^{x^2+1}\\) kan vi välja</p><p>\\[\\boxed{g(x)=x^2+1}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "derivata",
-        "fraga": "<p>Bestäm \\((f(g(x)))'\\).</p>",
-        "s": "<p>a) En naturlig inre funktion är \\(\\boxed{g(x)=x^2+1}\\).</p><p>b) \\(f'(u)=e^u\\) och \\(g'(x)=2x\\), alltså</p><p>\\[\\boxed{(f(g(x)))'=2xe^{x^2+1}}.\\]</p>",
+        "fraga": "<p>För denna del gäller \\(g(x)=x^2+1\\) och \\(f(u)=e^u\\). Bestäm \\((f(g(x)))'\\) med kedjeregeln.</p>",
+        "s": "<p>\\(f'(u)=e^u\\) och \\(g'(x)=2x\\). Kedjeregeln ger</p><p>\\[\\boxed{(f(g(x)))'=2xe^{x^2+1}}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -28288,19 +28286,19 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Låt \\(f(u)=e^u\\) och \\(g(x)=x^2-3x\\).</p><p>a) Bestäm derivatan av \\(f(g(x))\\).<br>b) Förklara varför uttrycket \\(f'(g(x))\\) saknar en faktor.</p>",
+    "spelIntro": "<p>Låt \\(f(u)=e^u\\) och \\(g(x)=x^2-3x\\).</p>",
     "spelDelar": [
       {
         "etikett": "derivata",
         "fraga": "<p>Bestäm \\((f(g(x)))'\\).</p>",
-        "s": "<p>a) Kedjeregeln:</p><p>\\[(f(g(x)))'=f'(g(x))g'(x)=e^{x^2-3x}(2x-3).\\]</p><p>b) När \\(x\\) ändras förändras även den inre funktionen \\(g(x)\\). Faktorn \\(g'(x)=2x-3\\) beskriver den förändringen och måste därför multipliceras med.</p>",
+        "s": "<p>Kedjeregeln ger</p><p>\\[(f(g(x)))'=f'(g(x))g'(x)=e^{x^2-3x}(2x-3).\\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "resonemang",
         "fraga": "<p>Förklara varför \\(f'(g(x))\\) ensam inte är hela derivatan.</p>",
-        "s": "<p>a) Kedjeregeln:</p><p>\\[(f(g(x)))'=f'(g(x))g'(x)=e^{x^2-3x}(2x-3).\\]</p><p>b) När \\(x\\) ändras förändras även den inre funktionen \\(g(x)\\). Faktorn \\(g'(x)=2x-3\\) beskriver den förändringen och måste därför multipliceras med.</p>",
+        "s": "<p>När \\(x\\) ändras förändras också den inre funktionen \\(g(x)\\). Därför måste den yttre derivatan \\(f'(g(x))\\) multipliceras med \\(g'(x)=2x-3\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -29328,7 +29326,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "derivator_specialfunktioner__derivering_av_logaritmfunktioner",
     "ledtrad": "<p>Bestäm vilken deriveringsregel som behövs innan du börjar förenkla. Skriv mellanled så att varje faktor i derivatan kan följas.</p>",
-    "spelIntro": "<p>Funktionen</p><p>\\[<br>f(x)=\\ln(x-2)+1<br>\\]</p><p>är given.</p>"
+    "spelIntro": "<p>Funktionen</p><p>\\[ f(x)=\\ln(x-2)+1 \\]</p><p>är given.</p>"
   },
   {
     "id": "2.38",
@@ -29793,18 +29791,18 @@ window.BANKMATO2 = [
     "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
     "ledtrad": "<p>Identifiera medellinje, amplitud och period var för sig. Fasförskjutningen bestäms sist genom att jämföra ett tydligt läge i grafen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Temperaturen under en del av ett dygn modelleras med</p><p>\\[<br>T(x)=15+5\\sin(0,26x),<br>\\]</p><p>där \\(T\\) mäts i °C och \\(x\\) i timmar efter klockan 08.00.</p>",
+    "spelIntro": "<p>Temperaturen under en del av ett dygn modelleras med</p><p>\\[ T(x)=15+5\\sin(0,26x), \\]</p><p>där \\(T\\) mäts i °C och \\(x\\) i timmar efter klockan 08.00.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm ett uttryck för temperaturens förändringshastighet.</p>",
-        "s": "<p>Derivera med kedjeregeln:</p><p>\\[<br>T'(x)=5\\cdot0,26\\cos(0,26x)=1,3\\cos(0,26x).<br>\\]</p>",
+        "s": "<p>Derivera med kedjeregeln:</p><p>\\[ T'(x)=5\\cdot0,26\\cos(0,26x)=1,3\\cos(0,26x). \\]</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm förändringshastigheten klockan 12.00.</p>",
-        "s": "<p>Klockan 12.00 har \\(x=4\\):</p><p>\\[<br>T'(4)=1,3\\cos(1,04)\\approx 0,66.<br>\\]</p><p>Temperaturen ökar då med cirka \\(0,66\\,^\\circ\\text{C}/\\text{h}\\).</p>",
+        "s": "<p>Klockan 12.00 har \\(x=4\\):</p><p>\\[ T'(4)=1,3\\cos(1,04)\\approx 0,66. \\]</p><p>Temperaturen ökar då med cirka \\(0,66\\,^\\circ\\text{C}/\\text{h}\\).</p>",
         "niva": "C"
       }
     ],
@@ -32960,12 +32958,12 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Ställ upp areafunktionen.</p>",
-        "s": "<p>Den tredje stängslade sidan blir \\(180-2x\\). Alltså</p><p>\\[A(x)=x(180-2x)=180x-2x^2.\\]</p><p>\\[A'(x)=180-4x=0\\Rightarrow x=45.\\]</p><p>Den parallella sidan blir 90 m. Eftersom \\(A''=-4&lt;0\\) fås maximum.</p><p><strong>Mått \\(45\\times90\\) m och area \\(\\boxed{4050\\text{ m}^2}\\).</strong></p>",
+        "s": "<p>Den tredje stängslade sidan blir \\(180-2x\\). Arean är därför</p><p>\\[\\boxed{A(x)=x(180-2x)=180x-2x^2}.\\]</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm de mått som ger största möjliga area och bestäm denna area.</p>",
+        "fraga": "<p>För denna del är areafunktionen \\(A(x)=180x-2x^2\\). Bestäm de mått som ger största möjliga area och bestäm denna area.</p>",
         "s": "<p>Den tredje stängslade sidan blir \\(180-2x\\). Alltså</p><p>\\[A(x)=x(180-2x)=180x-2x^2.\\]</p><p>\\[A'(x)=180-4x=0\\Rightarrow x=45.\\]</p><p>Den parallella sidan blir 90 m. Eftersom \\(A''=-4&lt;0\\) fås maximum.</p><p><strong>Mått \\(45\\times90\\) m och area \\(\\boxed{4050\\text{ m}^2}\\).</strong></p>",
         "niva": "C"
       }
@@ -35876,21 +35874,21 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm x-koordinaterna för de punkter där \\(f\\prime(x)=0\\).</p>",
+        "fraga": "<p>För denna del gäller \\(f'(x)=3x^2-3\\). Bestäm x-koordinaterna för de punkter där \\(f'(x)=0\\).</p>",
         "s": "<p>\\(x=-1,1\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>Avgör var funktionen är växande respektive avtagande.</p>",
+        "fraga": "<p>För \\(f(x)=x^3-3x\\) gäller \\(f'(x)=3(x-1)(x+1)\\). Avgör var funktionen är växande respektive avtagande.</p>",
         "s": "<p>Växande för \\(x&lt;-1\\) och \\(x&gt;1\\), avtagande för \\(-1&lt;x&lt;1\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
-        "fraga": "<p>Bestäm koordinaterna för de punkter där \\(f\\prime(x)=0\\).</p>",
+        "fraga": "<p>För \\(f(x)=x^3-3x\\) är de stationära x-värdena \\(x=-1\\) och \\(x=1\\). Bestäm koordinaterna för dessa punkter.</p>",
         "s": "<p>\\(f(-1)=2\\), \\(f(1)=-2\\). Punkterna är \\((-1,2)\\) och \\((1,-2)\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -36134,21 +36132,21 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>I vilka intervall är \\(f\\) växande?</p>",
-        "s": "<p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p><p>Av grafens tecken fås:</p><p>\\[<br>f'(x)&lt;0 \\text{ för }x&lt;-2,<br>\\]<br>\\[<br>f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1,<br>\\]<br>\\[<br>f'(x)&lt;0 \\text{ för }1&lt;x&lt;4,<br>\\]<br>\\[<br>f'(x)&gt;0 \\text{ för }x&gt;4.<br>\\]</p><div class=\"spel-en-del\"><p>\\(f\\) växer på \\((-2,1)\\) och \\((4,\\infty)\\).</p></div>",
+        "s": "<p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p><p>Av grafens tecken fås:</p><p>\\[ f'(x)&lt;0 \\text{ för }x&lt;-2, \\]<br>\\[ f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1, \\]<br>\\[ f'(x)&lt;0 \\text{ för }1&lt;x&lt;4, \\]<br>\\[ f'(x)&gt;0 \\text{ för }x&gt;4. \\]</p><div class=\"spel-en-del\"><p>\\(f\\) växer på \\((-2,1)\\) och \\((4,\\infty)\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>I vilka intervall är \\(f\\) avtagande?</p>",
-        "s": "<p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p><p>Av grafens tecken fås:</p><p>\\[<br>f'(x)&lt;0 \\text{ för }x&lt;-2,<br>\\]<br>\\[<br>f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1,<br>\\]<br>\\[<br>f'(x)&lt;0 \\text{ för }1&lt;x&lt;4,<br>\\]<br>\\[<br>f'(x)&gt;0 \\text{ för }x&gt;4.<br>\\]</p><div class=\"spel-en-del\"><p>\\(f\\) avtar på \\((-\\infty,-2)\\) och \\((1,4)\\).</p></div>",
+        "s": "<p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p><p>Av grafens tecken fås:</p><p>\\[ f'(x)&lt;0 \\text{ för }x&lt;-2, \\]<br>\\[ f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1, \\]<br>\\[ f'(x)&lt;0 \\text{ för }1&lt;x&lt;4, \\]<br>\\[ f'(x)&gt;0 \\text{ för }x&gt;4. \\]</p><div class=\"spel-en-del\"><p>\\(f\\) avtar på \\((-\\infty,-2)\\) och \\((1,4)\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>Avgör om de punkterna där \\(f'(x)=0\\) är maximi- eller minimipunkter vid \\(x=-2\\), \\(x=1\\) och \\(x=4\\).</p>",
-        "s": "<p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p><p>Av grafens tecken fås:</p><p>\\[<br>f'(x)&lt;0 \\text{ för }x&lt;-2,<br>\\]<br>\\[<br>f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1,<br>\\]<br>\\[<br>f'(x)&lt;0 \\text{ för }1&lt;x&lt;4,<br>\\]<br>\\[<br>f'(x)&gt;0 \\text{ för }x&gt;4.<br>\\]</p><div class=\"spel-en-del\"><p>Teckenbytena ger minimipunkt vid \\(x=-2\\), maximipunkt vid \\(x=1\\) och minimipunkt vid \\(x=4\\).</p></div>",
+        "s": "<p>En funktion är växande där \\(f'(x)&gt;0\\) och avtagande där \\(f'(x)&lt;0\\).</p><p>Av grafens tecken fås:</p><p>\\[ f'(x)&lt;0 \\text{ för }x&lt;-2, \\]<br>\\[ f'(x)&gt;0 \\text{ för }-2&lt;x&lt;1, \\]<br>\\[ f'(x)&lt;0 \\text{ för }1&lt;x&lt;4, \\]<br>\\[ f'(x)&gt;0 \\text{ för }x&gt;4. \\]</p><div class=\"spel-en-del\"><p>Teckenbytena ger minimipunkt vid \\(x=-2\\), maximipunkt vid \\(x=1\\) och minimipunkt vid \\(x=4\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -37102,13 +37100,13 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm funktionens lodräta och sneda asymptot.</p>",
-        "s": "<p>Polynomdivision ger</p><p>\\[f(x)=x+2+\\frac5{x-2}.\\]</p><p>Alltså är asymptoterna \\(\\boxed{x=2}\\) och \\(\\boxed{y=x+2}\\).</p><p>Derivatan är</p><p>\\[f'(x)=1-\\frac5{(x-2)^2}.\\]</p><p>\\(f'(x)=0\\) ger \\(x=2\\pm\\sqrt5\\). Punkterna blir</p><p>\\[\\boxed{(-0,236;-0,472)}\\quad\\text{och}\\quad\\boxed{(4,236;8,472)}.\\]</p>",
+        "s": "<p>Polynomdivision ger</p><p>\\[f(x)=x+2+\\frac5{x-2}.\\]</p><p>Alltså är asymptoterna <strong>\\(x=2\\)</strong> och <strong>\\(y=x+2\\)</strong>.</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm funktionens två extrempunkter. Svara med tre decimaler.</p>",
-        "s": "<p>Polynomdivision ger</p><p>\\[f(x)=x+2+\\frac5{x-2}.\\]</p><p>Alltså är asymptoterna \\(\\boxed{x=2}\\) och \\(\\boxed{y=x+2}\\).</p><p>Derivatan är</p><p>\\[f'(x)=1-\\frac5{(x-2)^2}.\\]</p><p>\\(f'(x)=0\\) ger \\(x=2\\pm\\sqrt5\\). Punkterna blir</p><p>\\[\\boxed{(-0,236;-0,472)}\\quad\\text{och}\\quad\\boxed{(4,236;8,472)}.\\]</p>",
+        "s": "<p>Derivatan är</p><p>\\[f'(x)=1-\\frac5{(x-2)^2}.\\]</p><p>\\(f'(x)=0\\) ger \\(x=2\\pm\\sqrt5\\). Punkterna blir ungefär</p><p><strong>\\((-0,236;-0,472)\\)</strong> och <strong>\\((4,236;8,472)\\)</strong>.</p>",
         "niva": "C"
       }
     ],
@@ -37684,7 +37682,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>På vilka intervall är \\(f\\) växande?</p>",
-        "s": "<p><strong>Nyckelidé:</strong> Funktionen \\(f\\) är växande precis där derivatan är positiv. Av tecknet på \\(f'\\) får vi</p><p>\\[f'(x)>0\\quad\\text{för}\\quad x<-1\\text{ eller }x>2.\\]</p><p><strong>Svar:</strong> \\(x<-1\\) och \\(x>2\\).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Funktionen \\(f\\) är växande precis där derivatan är positiv. Av tecknet på \\(f'\\) får vi</p><p>\\[f'(x)\\gt0\\quad\\text{för}\\quad x\\lt-1\\text{ eller }x\\gt2.\\]</p><p><strong>Svar:</strong> \\(x\\lt-1\\) och \\(x\\gt2\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
@@ -39335,28 +39333,28 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=6x^2-4x+3\\)</p>",
-        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[<br>F(x)=2x^3-2x^2+3x+C.<br>\\]</p></div>",
+        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[ F(x)=2x^3-2x^2+3x+C. \\]</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>\\(f(x)=5e^{2x}\\)</p>",
-        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[<br>F(x)=\\frac52e^{2x}+C.<br>\\]</p></div>",
+        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[ F(x)=\\frac52e^{2x}+C. \\]</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>\\(f(x)=4\\cos3x\\)</p>",
-        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[<br>F(x)=\\frac43\\sin3x+C.<br>\\]</p></div>",
+        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[ F(x)=\\frac43\\sin3x+C. \\]</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "d",
         "fraga": "<p>\\(f(x)=\\dfrac3x\\)<br>för \\(x&gt;0\\)</p>",
-        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[<br>F(x)=3\\ln x+C.<br>\\]</p></div>",
+        "s": "<p>Nyckelidé: Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><div class=\"spel-en-del\"><p>\\[ F(x)=3\\ln x+C. \\]</p></div>",
         "niva": "E",
         "poang": "1/0/0"
       }
@@ -45224,13 +45222,13 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Hur mycket vatten har runnit in efter 10 minuter?</p>",
-        "s": "<p><strong>Idé:</strong> Den tillförda volymen är arean under flödesgrafen.</p><p>0–2 min: en trapets med höjderna 0 och 12:</p><p>\\[V_1=\\frac{0+12}{2}\\cdot2=12\\text{ L}.\\]</p><p>2–6 min: rektangel:</p><p>\\[V_2=12\\cdot4=48\\text{ L}.\\]</p><p>6–10 min: trapets med höjderna 12 och 4:</p><p>\\[V_3=\\frac{12+4}{2}\\cdot4=32\\text{ L}.\\]</p><p>Totalt</p><p>\\[V=12+48+32=\\boxed{92\\text{ L}}.\\]</p><p>Medelflödet blir total volym dividerad med tid:</p><p>\\[\\frac{92}{10}=\\boxed{9,2\\text{ L/min}}.\\]</p>",
+        "s": "<p>Arean under flödesgrafen ger den tillförda volymen:</p><p>\\(0\\)–\\(2\\) min: 12 L, \\(2\\)–\\(6\\) min: 48 L, \\(6\\)–\\(10\\) min: 32 L.</p><p>Totalt \\(12+48+32=\\boxed{92\\text{ L}}\\).</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm medelflödet under de 10 minuterna.</p>",
-        "s": "<p><strong>Idé:</strong> Den tillförda volymen är arean under flödesgrafen.</p><p>0–2 min: en trapets med höjderna 0 och 12:</p><p>\\[V_1=\\frac{0+12}{2}\\cdot2=12\\text{ L}.\\]</p><p>2–6 min: rektangel:</p><p>\\[V_2=12\\cdot4=48\\text{ L}.\\]</p><p>6–10 min: trapets med höjderna 12 och 4:</p><p>\\[V_3=\\frac{12+4}{2}\\cdot4=32\\text{ L}.\\]</p><p>Totalt</p><p>\\[V=12+48+32=\\boxed{92\\text{ L}}.\\]</p><p>Medelflödet blir total volym dividerad med tid:</p><p>\\[\\frac{92}{10}=\\boxed{9,2\\text{ L/min}}.\\]</p>",
+        "fraga": "<p>Under de 10 minuterna rinner totalt 92 liter in. Bestäm medelflödet under de 10 minuterna.</p>",
+        "s": "<p>Medelflödet är total volym dividerad med tiden:</p><p>\\[\\frac{92}{10}=\\boxed{9,2\\text{ L/min}}.\\]</p>",
         "niva": "C"
       }
     ],
@@ -45464,7 +45462,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Hur mycket vatten finns då?</p>",
+        "fraga": "<p>Vattenmängden är som minst vid \\(t=2\\) h. Hur mycket vatten finns i reservoaren då?</p>",
         "s": "<p>Vattenmängden är \\(V(t)=120+\\int_0^t(3u-6)du=120+1,5t^2-6t\\).</p><div class=\"spel-en-del\"><strong>b)</strong> \\(V(2)=120+6-12=\\boxed{114\\text{ m}^3}\\).</div>",
         "niva": "C",
         "poang": "0/1/0"
@@ -45608,19 +45606,19 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm partikelns förflyttning.</p>",
-        "s": "<p>En lägesförändring från \\(t=0\\) kan beskrivas av</p><p>\\[</p><p>s(t)=\\int v(t)\\,dt=t^3-6t^2+9t+C.</p><p>\\]</p><p>Vi kan sätta \\(C=0\\) eftersom endast skillnader behövs.</p><div class=\"spel-en-del\"><strong>a)</strong> \\[\ns(5)-s(0)=125-150+45=20.\n\\]\nFörflyttningen är 20 m.</div>",
+        "s": "<p>En lägesfunktion kan tas som</p><p>\\[s(t)=t^3-6t^2+9t+C.\\]</p><p>Förflyttningen blir</p><p>\\[s(5)-s(0)=125-150+45=20.\\]</p><p><strong>20 m</strong></p>",
         "niva": "A"
       },
       {
         "etikett": "b",
         "fraga": "<p>Bestäm den totala sträcka som partikeln färdas.</p>",
-        "s": "<p>En lägesförändring från \\(t=0\\) kan beskrivas av</p><p>\\[</p><p>s(t)=\\int v(t)\\,dt=t^3-6t^2+9t+C.</p><p>\\]</p><p>Vi kan sätta \\(C=0\\) eftersom endast skillnader behövs.</p><div class=\"spel-en-del\"><strong>b)</strong> Hastigheten byter tecken när\n\\[\n3(t-1)(t-3)=0,\n\\]\nalltså vid \\(t=1\\) och \\(t=3\\).\n\\[\ns(1)=4,\\qquad s(3)=0,\\qquad s(5)=20.\n\\]\nDen totala sträckan blir\n\\[\n|4-0|+|0-4|+|20-0|=4+4+20=28.\n\\]\nDen totala sträckan är 28 m.</div>",
+        "s": "<p>Hastigheten byter tecken när \\(3(t-1)(t-3)=0\\), alltså vid \\(t=1\\) och \\(t=3\\).</p><p>Med \\(C=0\\) i \\(s(t)=t^3-6t^2+9t+C\\) fås \\(s(1)=4\\), \\(s(3)=0\\) och \\(s(5)=20\\).</p><p>Den totala sträckan är</p><p>\\[|4-0|+|0-4|+|20-0|=28.\\]</p><p><strong>28 m</strong></p>",
         "niva": "A"
       }
     ],
     "familjNyckel": "integral_tillampningar__stracka_som_integral_av_hastighet",
     "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
-    "spelIntro": "<p>En partikel rör sig längs en rät linje med hastigheten</p><p>\\[<br>v(t)=3t^2-12t+9<br>\\]</p><p>meter per sekund under intervallet \\(0\\le t\\le5\\).</p>"
+    "spelIntro": "<p>En partikel rör sig längs en rät linje med hastigheten</p><p>\\[ v(t)=3t^2-12t+9 \\]</p><p>meter per sekund under intervallet \\(0\\le t\\le5\\).</p>"
   },
   {
     "id": "3.61",
@@ -46602,7 +46600,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>Om mängden från början är 20 enheter, bestäm mängden efter 5 timmar.</p>",
+        "fraga": "<p>Den totala förändringen under \\(0\\le t\\le5\\) är \\(20/3\\) enheter. Om mängden från början är 20 enheter, bestäm mängden efter 5 timmar.</p>",
         "s": "<p>Metod: Översätt först situationen till en integral. Kontrollera sedan vad integralens tecken och enhet betyder i sammanhanget.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(20+20/3=\\boxed{80/3}\\) enheter.</div>",
         "niva": "C",
         "poang": "0/1/0"
@@ -46758,7 +46756,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>Om \\(s(1)=5\\) m, bestäm \\(s(4)\\).</p>",
+        "fraga": "<p>Förflyttningen från \\(t=1\\) s till \\(t=4\\) s är 24 m. Om \\(s(1)=5\\) m, bestäm \\(s(4)\\).</p>",
         "s": "<p><div class=\"spel-en-del\">\\(s(4)=s(1)+24=\\boxed{29\\text{ m}}\\).</div></p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -47729,8 +47727,8 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X&lt;1)\\).</p>",
-        "s": "<p><strong>Nyckelidé:</strong> Sannolikheten \\(P(X<1)\\) är arean under täthetsfunktionen från 0 till 1. Normaliseringskonstanten är \\(k=3/4\\).</p><p>\\[P(X<1)=\\frac34\\int_0^1(2x-x^2)\\,dx=\\frac34\\left(1-\\frac13\\right)=\\frac12.\\]</p><p><strong>Svar:</strong> \\(1/2\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac34\\), alltså \\(f(x)=\\frac34x(2-x)\\) för \\(0\\le x\\le2\\). Bestäm \\(P(X\\lt1)\\).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> Sannolikheten \\(P(X\\lt1)\\) är arean under täthetsfunktionen från 0 till 1. Normaliseringskonstanten är \\(k=3/4\\).</p><p>\\[P(X\\lt1)=\\frac34\\int_0^1(2x-x^2)\\,dx=\\frac34\\left(1-\\frac13\\right)=\\frac12.\\]</p><p><strong>Svar:</strong> \\(1/2\\).</p>",
         "niva": "C"
       }
     ],
@@ -47786,7 +47784,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm medianen \\(m\\), dvs det tal som uppfyller \\(P(X\\le m)=0,5\\). Svara exakt.</p>",
+        "fraga": "<p>För denna del gäller \\(a=3\\), alltså \\(f(x)=3(1-x)^2\\) för \\(0\\le x\\le1\\). Bestäm medianen \\(m\\), dvs det tal som uppfyller \\(P(X\\le m)=0,5\\). Svara exakt.</p>",
         "s": "<strong>b)</strong> Medianen uppfyller\n\\[\\int_0^m3(1-x)^2dx=\\frac12.\\]\nEn primitiv funktion är \\(-(1-x)^3\\), så\n\\[1-(1-m)^3=\\frac12.\\]\n\\[(1-m)^3=\\frac12\\Rightarrow1-m=2^{-1/3}.\\]\n\\(m=1-2^{-1/3}\\).",
         "niva": "A"
       }
@@ -48035,7 +48033,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(1\\le X\\le3)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac{3}{32}\\), alltså \\(f(x)=\\frac{3}{32}x(4-x)\\) för \\(0\\le x\\le4\\). Bestäm \\(P(1\\le X\\le3)\\).</p>",
         "s": "<strong>b)</strong> \\[P(1\\le X\\le3)=\\int_1^3\\frac3{32}x(4-x)\\,dx=\\boxed{\\frac{11}{16}\\approx0,688}.\\]",
         "niva": "C"
       }
@@ -48095,7 +48093,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X&gt;2,5)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k\\approx0,5783\\). Bestäm \\(P(X>2,5)\\) för täthetsfunktionen \\(f(x)=ke^{-0,5x}\\), \\(0\\le x\\le4\\).</p>",
         "s": "<strong>b)</strong> \\[P(X&gt;2,5)=\\int_{2,5}^4f(x)dx\\approx\\boxed{0,175}.\\]",
         "niva": "E",
         "poang": "1/0/0"
@@ -48252,7 +48250,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm medianen \\(m\\), alltså det värde som uppfyller \\(P(X\\le m)=0,5\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac14\\), alltså \\(f(x)=\\frac14(1+x)\\) för \\(0\\le x\\le2\\). Bestäm medianen \\(m\\), alltså det värde som uppfyller \\(P(X\\le m)=0,5\\).</p>",
         "s": "<strong>b)</strong> Medianen uppfyller\n\\[\\int_0^m\\frac14(1+x)\\,dx=\\frac12.\\]\n\\[\\frac14\\left(m+\\frac{m^2}{2}\\right)=\\frac12.\\]\nMultiplicera med 8:\n\\[m^2+2m-4=0.\\]\n\\[m=-1\\pm\\sqrt5.\\]\nEndast den positiva lösningen ligger i intervallet:\n\\[\\boxed{m=\\sqrt5-1\\approx1,236}.\\]",
         "niva": "C"
       }
@@ -48296,18 +48294,18 @@ window.BANKMATO2 = [
     "familjNyckel": "sannolikhetsintegraler__normalisera_tathetsfunktion_och_bestam_parameter",
     "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En kontinuerlig slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[<br>f(x)=kx,\\qquad 0\\le x\\le2,<br>\\]</p><p>och \\(f(x)=0\\) utanför intervallet.</p>",
+    "spelIntro": "<p>En kontinuerlig slumpvariabel \\(X\\) har täthetsfunktionen</p><p>\\[ f(x)=kx,\\qquad 0\\le x\\le2, \\]</p><p>och \\(f(x)=0\\) utanför intervallet.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>Bestäm konstanten \\(k\\).</p>",
-        "s": "<p>En täthetsfunktion ska ha total area 1:</p><p>\\[<br>\\int_0^2kx\\,dx=1.<br>\\]</p><p>\\[<br>k\\left[\\frac{x^2}{2}\\right]_0^2<br>=2k=1<br>\\Rightarrow<br>k=\\frac12.<br>\\]</p>",
+        "s": "<p>En täthetsfunktion ska ha total area 1:</p><p>\\[ \\int_0^2kx\\,dx=1. \\]</p><p>\\[ k\\left[\\frac{x^2}{2}\\right]_0^2 =2k=1 \\Rightarrow k=\\frac12. \\]</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X&gt;1,5)\\).</p>",
-        "s": "<p>\\[<br>P(X&gt;1,5)=\\int_{1,5}^{2}\\frac12x\\,dx<br>=\\left[\\frac{x^2}{4}\\right]_{1,5}^{2}.<br>\\]</p><p>\\[<br>=1-\\frac{2,25}{4}<br>=\\frac7{16}<br>=0,4375.<br>\\]</p><p>\\(P(X&gt;1,5)=0,4375\\), alltså 43,75 %.</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac12\\), alltså \\(f(x)=\\frac12x\\) för \\(0\\le x\\le2\\). Bestäm \\(P(X>1,5)\\).</p>",
+        "s": "<p>\\[ P(X&gt;1,5)=\\int_{1,5}^{2}\\frac12x\\,dx =\\left[\\frac{x^2}{4}\\right]_{1,5}^{2}. \\]</p><p>\\[ =1-\\frac{2,25}{4} =\\frac7{16} =0,4375. \\]</p><p>\\(P(X&gt;1,5)=0,4375\\), alltså 43,75 %.</p>",
         "niva": "C"
       }
     ],
@@ -48500,7 +48498,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm medianen \\(m\\), alltså det tal som uppfyller \\(P(X\\le m)=0,5\\). Svara med tre decimaler.</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac3{14}\\), alltså \\(f(x)=\\frac3{14}(1+x^2)\\) för \\(0\\le x\\le2\\). Bestäm medianen \\(m\\), alltså det tal som uppfyller \\(P(X\\le m)=0,5\\). Svara med tre decimaler.</p>",
         "s": "<strong>b)</strong> Medianen uppfyller\n\\[\\int_0^m\\frac3{14}(1+x^2)dx=0,5.\\]\nNumerisk lösning ger\n\\[\\boxed{m\\approx1,406}.\\]",
         "niva": "C"
       }
@@ -48560,7 +48558,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(0,5\\le X\\le1,5)\\) exakt.</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac34\\), alltså \\(f(x)=\\frac34x(2-x)\\) för \\(0\\le x\\le2\\). Bestäm \\(P(0,5\\le X\\le1,5)\\) exakt.</p>",
         "s": "<strong>b)</strong> \\[P=\\int_{1/2}^{3/2}\\frac34x(2-x)\\,dx.\\]\nEn primitiv funktion är \\(\\frac34x^2-\\frac14x^3\\). Insättning ger\n\\(P=11/16\\).",
         "niva": "C"
       }
@@ -48625,14 +48623,14 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X\\le1)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac12\\), alltså \\(f(x)=\\frac12x\\) för \\(0\\le x\\le2\\). Bestäm \\(P(X\\le1)\\).</p>",
         "s": "<p><div class=\"spel-en-del\">\\(\\int_0^1x/2\\,dx=[x^2/4]_0^1=\\boxed{1/4}\\).</div></p><p></p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>Bestäm \\(P(1\\le X\\le2)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac12\\), alltså \\(f(x)=\\frac12x\\) för \\(0\\le x\\le2\\). Bestäm \\(P(1\\le X\\le2)\\).</p>",
         "s": "<p><div class=\"spel-en-del\">\\(1-1/4=\\boxed{3/4}\\).</div></p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -48731,7 +48729,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "c",
-        "fraga": "<p>Bestäm \\(P(|X-2|\\le1)\\) exakt.</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac{3}{32}\\), alltså \\(f(x)=\\frac{3}{32}\\left(4-(x-2)^2\\right)\\) för \\(0\\le x\\le4\\). Bestäm \\(P(|X-2|\\le1)\\) exakt.</p>",
         "s": "<strong>c)</strong> \\[P(1\\le X\\le3)=\\frac3{32}\\int_{-1}^1(4-u^2)du=\\frac3{32}\\cdot\\frac{22}{3}=\\boxed{\\frac{11}{16}}.\\]",
         "niva": "A",
         "poang": "0/0/1"
@@ -48791,7 +48789,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X&gt;1)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac12\\), alltså \\(f(x)=\\frac12x\\) för \\(0\\le x\\le2\\). Bestäm \\(P(X>1)\\).</p>",
         "s": "<p><strong>Metod:</strong> För en täthetsfunktion är den totala arean 1. Sannolikheten för ett intervall fås genom att integrera tätheten över intervallet.</p><p><div class=\"spel-en-del\">\\(P(X&gt;1)=\\int_1^2x/2\\,dx=[x^2/4]_1^2=3/4\\).</div></p><p><strong>\\(k=1/2\\), \\(P(X&gt;1)=0,75\\).</strong></p>",
         "niva": "C"
       }
@@ -48850,7 +48848,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X&gt;1,5)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac34\\), alltså \\(f(x)=\\frac34x(2-x)\\) för \\(0\\le x\\le2\\). Bestäm \\(P(X>1,5)\\).</p>",
         "s": "<p><div class=\"spel-en-del\"></div></p><p>\\[P(X&gt;1,5)=\\frac34\\int_{1,5}^2(2x-x^2)dx=\\boxed{5/32}\\approx0,156.\\]</p>",
         "niva": "C"
       }
@@ -48935,7 +48933,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(|X|&lt;0,5)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(a=1\\), alltså \\(f(x)=1-|x|\\) för \\(-1\\le x\\le1\\). Bestäm \\(P(|X|\\lt0,5)\\).</p>",
         "s": "<p><div class=\"spel-en-del\">På grund av symmetrin räcker det att integrera från 0 till 0,5 och dubbla:</div></p><p>\\[P(|X|&lt;0,5)=2\\int_0^{0,5}(1-x)dx=2[x-x^2/2]_0^{0,5}=\\boxed{3/4}.\\]</p>",
         "niva": "C"
       }
@@ -49108,14 +49106,14 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X&gt;1)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac38\\), alltså \\(f(x)=\\frac38x^2\\) för \\(0\\le x\\le2\\). Bestäm \\(P(X>1)\\).</p>",
         "s": "<p>Metod: För en täthetsfunktion är den totala arean 1. Sannolikheten för ett intervall fås genom att integrera tätheten över intervallet.</p><div class=\"spel-en-del\"><p>\\(P(X&gt;1)=1-\\int_0^1(3/8)x^2dx=1-1/8=\\boxed{7/8}\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>Bestäm det tal \\(a\\) som uppfyller \\(P(X\\le a)=1/8\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac38\\), alltså \\(f(x)=\\frac38x^2\\) för \\(0\\le x\\le2\\). Bestäm det tal \\(a\\) som uppfyller \\(P(X\\le a)=1/8\\).</p>",
         "s": "<p>Metod: För en täthetsfunktion är den totala arean 1. Sannolikheten för ett intervall fås genom att integrera tätheten över intervallet.</p><div class=\"spel-en-del\"><p>\\(\\int_0^a(3/8)x^2dx=a^3/8=1/8\\Rightarrow\\boxed{a=1}\\).</p></div>",
         "niva": "C",
         "poang": "0/1/0"
@@ -49528,7 +49526,7 @@ window.BANKMATO2 = [
     "familjNyckel": "sannolikhetsintegraler__sannolikhet_och_kvantiler_fran_tathetsfunktion",
     "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Väntetiden \\(T\\) i minuter till en kundtjänst modelleras med täthetsfunktionen</p><p>\\[<br>f(t)=0,25e^{-0,25t},\\qquad t\\ge0.<br>\\]</p>",
+    "spelIntro": "<p>Väntetiden \\(T\\) i minuter till en kundtjänst modelleras med täthetsfunktionen</p><p>\\[ f(t)=0,25e^{-0,25t},\\qquad t\\ge0. \\]</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -49611,14 +49609,14 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(X&gt;2)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac18\\), alltså \\(f(x)=\\frac18(4-x)\\) för \\(0\\le x\\le4\\). Bestäm \\(P(X>2)\\).</p>",
         "s": "<p><div class=\"spel-en-del\">\\(\\frac18\\int_2^4(4-x)dx=\\frac18\\cdot2=\\boxed{1/4}\\).</div></p><p></p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "c",
-        "fraga": "<p>Bestäm \\(P(1&lt;X&lt;3)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac18\\), alltså \\(f(x)=\\frac18(4-x)\\) för \\(0\\le x\\le4\\). Bestäm \\(P(1\\lt X\\lt3)\\).</p>",
         "s": "<p><div class=\"spel-en-del\">\\(\\frac18[4x-x^2/2]_1^3=\\frac18((12-4,5)-(4-0,5))=\\frac4{8}=\\boxed{1/2}\\).</div></p>",
         "niva": "C",
         "poang": "0/1/0"
@@ -49779,7 +49777,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm sannolikheten \\(P(1\\le X\\le2)\\).</p>",
+        "fraga": "<p>För denna del gäller \\(k=\\frac12\\), alltså \\(f(x)=\\frac12x\\) för \\(0\\le x\\le2\\). Bestäm sannolikheten \\(P(1\\le X\\le2)\\).</p>",
         "s": "<p>Idé: Arean under en täthetsfunktion ska vara 1.</p><div class=\"spel-en-del\"><strong>b)</strong> Nu är \\(f(x)=\\frac{x}{2}\\) på intervallet. Då\n\\[P(1\\le X\\le2)=\\int_1^2\\frac{x}{2}\\,dx=\\left[\\frac{x^2}{4}\\right]_1^2=1-\\frac14=\\boxed{\\frac34}.\\]</div>",
         "niva": "A"
       }
@@ -49893,7 +49891,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bestäm \\(P(|X|&lt;1)\\) med tre decimaler.</p>",
+        "fraga": "<p>För denna del gäller \\(k\\approx0,4180\\). Bestäm \\(P(|X|\\lt1)\\) för täthetsfunktionen \\(f(x)=ke^{-x^2/2}\\), \\(-2\\le x\\le2\\). Svara med tre decimaler.</p>",
         "s": "<strong>b)</strong> \\[P(|X|&lt;1)=\\int_{-1}^{1}ke^{-x^2/2}dx\\approx\\boxed{0,715}.\\]",
         "niva": "A"
       }
@@ -58761,7 +58759,7 @@ window.BANKMATO2 = [
     "familjNyckel": "komplexa_talplanet__geometri_och_ortslinjer_i_komplexa_talplanet",
     "ledtrad": "<p>Tolka komplexa tal som punkter eller vektorer. Absolutbelopp är avstånd och multiplikation med ett komplext tal kan tolkas som skalning och rotation.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>De komplexa tal som uppfyller</p><p>\\[<br>|z-(2-i)|=3<br>\\]</p><p>bildar en geometrisk figur i det komplexa talplanet.</p><span class=\"fig\"><svg aria-label=\"Cirkel i det komplexa talplanet med centrum i 2 − i och radie 3, numrerade axlar\" height=\"380\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 380\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"378\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"80.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"111.0\" x2=\"111.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"142.0\" x2=\"142.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"173.0\" x2=\"173.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"204.0\" x2=\"204.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"235.0\" x2=\"235.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"266.0\" x2=\"266.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"297.0\" x2=\"297.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"328.0\" x2=\"328.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"359.0\" x2=\"359.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"390.0\" x2=\"390.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"340.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"309.0\" y2=\"309.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"278.0\" y2=\"278.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"247.0\" y2=\"247.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"216.0\" y2=\"216.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"185.0\" y2=\"185.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"154.0\" y2=\"154.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"123.0\" y2=\"123.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"92.0\" y2=\"92.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"61.0\" y2=\"61.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"30.0\" y2=\"30.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"80.0\" x2=\"390.0\" y1=\"154.0\" y2=\"154.0\"></line><path d=\"M390.0 154.0 l-8 -4 v8 z\" fill=\"#2B2527\"></path><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"173.0\" x2=\"173.0\" y1=\"340.0\" y2=\"30.0\"></line><path d=\"M173.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"></path><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"392.0\" y=\"145.0\">Re</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"182.0\" y=\"41.0\">Im</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"80.0\" x2=\"80.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"80.0\" y=\"169.0\">−3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"80.0\" y=\"169.0\">−3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"111.0\" x2=\"111.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"111.0\" y=\"169.0\">−2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"111.0\" y=\"169.0\">−2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"142.0\" x2=\"142.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"142.0\" y=\"169.0\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"142.0\" y=\"169.0\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"204.0\" x2=\"204.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"204.0\" y=\"169.0\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"204.0\" y=\"169.0\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"235.0\" x2=\"235.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"235.0\" y=\"169.0\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"235.0\" y=\"169.0\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"266.0\" x2=\"266.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"266.0\" y=\"169.0\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"266.0\" y=\"169.0\">3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"297.0\" x2=\"297.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"297.0\" y=\"169.0\">4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"297.0\" y=\"169.0\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"328.0\" x2=\"328.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"328.0\" y=\"169.0\">5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"328.0\" y=\"169.0\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"359.0\" x2=\"359.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"359.0\" y=\"169.0\">6</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"359.0\" y=\"169.0\">6</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"340.0\" y2=\"340.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"343.5\">−6</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"343.5\">−6</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"309.0\" y2=\"309.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"312.5\">−5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"312.5\">−5</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"278.0\" y2=\"278.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"281.5\">−4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"281.5\">−4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"247.0\" y2=\"247.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"250.5\">−3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"250.5\">−3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"216.0\" y2=\"216.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"219.5\">−2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"219.5\">−2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"185.0\" y2=\"185.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"188.5\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"188.5\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"123.0\" y2=\"123.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"126.5\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"126.5\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"92.0\" y2=\"92.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"95.5\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"95.5\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"61.0\" y2=\"61.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"64.5\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"64.5\">3</text><circle cx=\"235.0\" cy=\"185.0\" fill=\"none\" r=\"93.0\" stroke=\"#C93A2B\" stroke-width=\"2.2\"></circle><circle cx=\"235.0\" cy=\"185.0\" fill=\"#2B2527\" r=\"4.5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"244.0\" y=\"200.0\">2 − i</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"244.0\" y=\"200.0\">2 − i</text></svg></span>",
+    "spelIntro": "<p>De komplexa tal som uppfyller</p><p>\\[ |z-(2-i)|=3 \\]</p><p>bildar en geometrisk figur i det komplexa talplanet.</p><span class=\"fig\"><svg aria-label=\"Cirkel i det komplexa talplanet med centrum i 2 − i och radie 3, numrerade axlar\" height=\"380\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 470 380\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"378\" rx=\"10\" stroke=\"#E4E3E6\" width=\"468\" x=\"1\" y=\"1\"></rect><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"80.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"111.0\" x2=\"111.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"142.0\" x2=\"142.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"173.0\" x2=\"173.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"204.0\" x2=\"204.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"235.0\" x2=\"235.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"266.0\" x2=\"266.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"297.0\" x2=\"297.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"328.0\" x2=\"328.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"359.0\" x2=\"359.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"390.0\" x2=\"390.0\" y1=\"30.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"340.0\" y2=\"340.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"309.0\" y2=\"309.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"278.0\" y2=\"278.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"247.0\" y2=\"247.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"216.0\" y2=\"216.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"185.0\" y2=\"185.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"154.0\" y2=\"154.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"123.0\" y2=\"123.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"92.0\" y2=\"92.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"61.0\" y2=\"61.0\"></line><line stroke=\"#EEF1F3\" stroke-width=\"1\" x1=\"80.0\" x2=\"390.0\" y1=\"30.0\" y2=\"30.0\"></line><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"80.0\" x2=\"390.0\" y1=\"154.0\" y2=\"154.0\"></line><path d=\"M390.0 154.0 l-8 -4 v8 z\" fill=\"#2B2527\"></path><line stroke=\"#2B2527\" stroke-width=\"1.7\" x1=\"173.0\" x2=\"173.0\" y1=\"340.0\" y2=\"30.0\"></line><path d=\"M173.0 30.0 l-4 8 h8 z\" fill=\"#2B2527\"></path><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"end\" x=\"392.0\" y=\"145.0\">Re</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"182.0\" y=\"41.0\">Im</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"80.0\" x2=\"80.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"80.0\" y=\"169.0\">−3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"80.0\" y=\"169.0\">−3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"111.0\" x2=\"111.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"111.0\" y=\"169.0\">−2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"111.0\" y=\"169.0\">−2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"142.0\" x2=\"142.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"142.0\" y=\"169.0\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"142.0\" y=\"169.0\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"204.0\" x2=\"204.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"204.0\" y=\"169.0\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"204.0\" y=\"169.0\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"235.0\" x2=\"235.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"235.0\" y=\"169.0\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"235.0\" y=\"169.0\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"266.0\" x2=\"266.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"266.0\" y=\"169.0\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"266.0\" y=\"169.0\">3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"297.0\" x2=\"297.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"297.0\" y=\"169.0\">4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"297.0\" y=\"169.0\">4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"328.0\" x2=\"328.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"328.0\" y=\"169.0\">5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"328.0\" y=\"169.0\">5</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"359.0\" x2=\"359.0\" y1=\"150.5\" y2=\"157.5\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"middle\" x=\"359.0\" y=\"169.0\">6</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"middle\" x=\"359.0\" y=\"169.0\">6</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"340.0\" y2=\"340.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"343.5\">−6</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"343.5\">−6</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"309.0\" y2=\"309.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"312.5\">−5</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"312.5\">−5</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"278.0\" y2=\"278.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"281.5\">−4</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"281.5\">−4</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"247.0\" y2=\"247.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"250.5\">−3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"250.5\">−3</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"216.0\" y2=\"216.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"219.5\">−2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"219.5\">−2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"185.0\" y2=\"185.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"188.5\">−1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"188.5\">−1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"123.0\" y2=\"123.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"126.5\">1</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"126.5\">1</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"92.0\" y2=\"92.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"95.5\">2</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"95.5\">2</text><line stroke=\"#2B2527\" stroke-width=\"1.2\" x1=\"169.5\" x2=\"176.5\" y1=\"61.0\" y2=\"61.0\"></line><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" text-anchor=\"end\" x=\"165.0\" y=\"64.5\">3</text><text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"10\" text-anchor=\"end\" x=\"165.0\" y=\"64.5\">3</text><circle cx=\"235.0\" cy=\"185.0\" fill=\"none\" r=\"93.0\" stroke=\"#C93A2B\" stroke-width=\"2.2\"></circle><circle cx=\"235.0\" cy=\"185.0\" fill=\"#2B2527\" r=\"4.5\"></circle><text fill=\"#fff\" font-family=\"sans-serif\" font-size=\"12\" stroke=\"#fff\" stroke-linejoin=\"round\" stroke-width=\"3.5\" x=\"244.0\" y=\"200.0\">2 − i</text><text fill=\"#2B2527\" font-family=\"sans-serif\" font-size=\"12\" x=\"244.0\" y=\"200.0\">2 − i</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -58780,7 +58778,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>Bestäm de två punkter på figuren som ligger på linjen \\(\\operatorname{Im}z=-1\\).</p>",
-        "s": "<p>Uttrycket \\(|z-(2-i)|\\) är avståndet från punkten \\(z\\) till talet \\(2-i\\).</p><div class=\"spel-en-del\"><p>På den horisontella linjen genom medelpunkten ligger cirkelns vänster- och högerpunkt tre enheter bort:</p><p>\\[<br>z=(2-3)-i=-1-i<br>\\]</p><p>och</p><p>\\[<br>z=(2+3)-i=5-i.<br>\\]</p></div>",
+        "s": "<p>Uttrycket \\(|z-(2-i)|\\) är avståndet från punkten \\(z\\) till talet \\(2-i\\).</p><div class=\"spel-en-del\"><p>På den horisontella linjen genom medelpunkten ligger cirkelns vänster- och högerpunkt tre enheter bort:</p><p>\\[ z=(2-3)-i=-1-i \\]</p><p>och</p><p>\\[ z=(2+3)-i=5-i. \\]</p></div>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -59814,7 +59812,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Jämför triangelns sidlängder före och efter. Vilken faktor har längderna multiplicerats med?</p>",
+        "fraga": "<p>Avbildningen är \\(w=(1+i)z+2\\). Med vilken faktor multipliceras alla sidlängder i triangeln?</p>",
         "s": "<strong>b)</strong> Multiplikation med \\(1+i\\) multiplicerar alla avstånd med \\(|1+i|=\\sqrt2\\). Addition av 2 flyttar bara alla punkter lika mycket och ändrar inte sidlängderna.\nLängderna har alltså multiplicerats med \\(\\sqrt2\\) .",
         "niva": "A"
       }
@@ -60164,7 +60162,7 @@ window.BANKMATO2 = [
     "familjNyckel": "polar_exponentiell__multiplikation_och_division_i_polar_form",
     "ledtrad": "<p>Skriv båda talen med belopp och argument. Räkna beloppen för sig och argumenten för sig innan du omvandlar tillbaka.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>De komplexa talen är</p><p>\\[<br>z_1=2(\\cos30^\\circ+i\\sin30^\\circ)<br>\\]</p><p>och</p><p>\\[<br>z_2=3(\\cos(-45^\\circ)+i\\sin(-45^\\circ)).<br>\\]</p><p>Bestäm i polär form</p>",
+    "spelIntro": "<p>De komplexa talen är</p><p>\\[ z_1=2(\\cos30^\\circ+i\\sin30^\\circ) \\]</p><p>och</p><p>\\[ z_2=3(\\cos(-45^\\circ)+i\\sin(-45^\\circ)). \\]</p><p>Bestäm i polär form</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -60942,21 +60940,21 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>Förenkla \\(e^{i\\pi}\\).</p>",
-        "s": "<p>\\[<br>e^{i\\pi}=\\cos\\pi+i\\sin\\pi=-1.<br>\\]</p>",
+        "s": "<p>\\[ e^{i\\pi}=\\cos\\pi+i\\sin\\pi=-1. \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Skriv \\(3e^{i\\pi/3}\\) på formen \\(a+bi\\).</p>",
-        "s": "<p>\\[<br>3e^{i\\pi/3}<br>=3\\left(\\frac12+i\\frac{\\sqrt3}{2}\\right)<br>=\\frac32+\\frac{3\\sqrt3}{2}i.<br>\\]</p>",
+        "s": "<p>\\[ 3e^{i\\pi/3} =3\\left(\\frac12+i\\frac{\\sqrt3}{2}\\right) =\\frac32+\\frac{3\\sqrt3}{2}i. \\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>Bestäm absolutbelopp och argument för \\(-2e^{-i\\pi/4}\\).</p>",
-        "s": "<p>Skriv minustecknet som en rotation med \\(\\pi\\):</p><p>\\[<br>-2e^{-i\\pi/4}=2e^{i(3\\pi/4)}.<br>\\]</p><p>Absolutbeloppet är \\(2\\) och ett argument är \\(\\frac{3\\pi}{4}\\).</p>",
+        "s": "<p>Skriv minustecknet som en rotation med \\(\\pi\\):</p><p>\\[ -2e^{-i\\pi/4}=2e^{i(3\\pi/4)}. \\]</p><p>Absolutbeloppet är \\(2\\) och ett argument är \\(\\frac{3\\pi}{4}\\).</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -67947,26 +67945,26 @@ window.BANKMATO2 = [
     "familjNyckel": "polynom_komplexa__faktorsatsen_faktorisering_och_polynomrotter",
     "ledtrad": "<p>Pröva möjliga enkla rötter genom att beräkna \\(P(a)\\). När du hittar noll kan du bryta ut faktorn \\(x-a\\).</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Polynomet är</p><p>\\[<br>p(x)=x^3-3x^2-4x+12.<br>\\]</p>",
+    "spelIntro": "<p>Polynomet är</p><p>\\[ p(x)=x^3-3x^2-4x+12. \\]</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "<p>Visa med faktorsatsen att \\(x-2\\) är en faktor.</p>",
-        "s": "<p>\\[<br>p(2)=8-12-8+12=0.<br>\\]</p><p>Alltså är \\(x-2\\) en faktor.</p>",
+        "s": "<p>\\[ p(2)=8-12-8+12=0. \\]</p><p>Alltså är \\(x-2\\) en faktor.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
         "fraga": "<p>Faktorisera polynomet fullständigt.</p>",
-        "s": "<p>Polynomet kan grupperas:</p><p>\\[<br>x^3-3x^2-4x+12<br>=x^2(x-3)-4(x-3)<br>\\]</p><p>\\[<br>=(x-3)(x^2-4)<br>=(x-3)(x-2)(x+2).<br>\\]</p>",
+        "s": "<p>Polynomet kan grupperas:</p><p>\\[ x^3-3x^2-4x+12 =x^2(x-3)-4(x-3) \\]</p><p>\\[ =(x-3)(x^2-4) =(x-3)(x-2)(x+2). \\]</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "c",
         "fraga": "<p>Lös ekvationen \\(p(x)=0\\).</p>",
-        "s": "<p>\\[<br>x=-2,\\quad x=2,\\quad x=3.<br>\\]</p>",
+        "s": "<p>\\[ x=-2,\\quad x=2,\\quad x=3. \\]</p>",
         "niva": "C",
         "poang": "0/1/0"
       }
@@ -68043,7 +68041,7 @@ window.BANKMATO2 = [
       },
       {
         "etikett": "b",
-        "fraga": "<p>Bilda ett andragradspolynom med koefficienten 1 framför \\(x^2\\) som har just dessa två rötter.</p>",
+        "fraga": "<p>Ett polynom med reella koefficienter har rötterna \\(2+3i\\) och \\(2-3i\\). Bilda ett andragradspolynom med koefficienten 1 framför \\(x^2\\) som har just dessa två rötter.</p>",
         "s": "<p>\\[(x-(2+3i))(x-(2-3i))=(x-2)^2+9=\\boxed{x^2-4x+13}.\\]</p>",
         "niva": "C",
         "poang": "0/1/0"

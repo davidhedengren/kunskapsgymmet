@@ -2146,7 +2146,12 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 
 .summary{width:min(620px,calc(100% - 32px));margin:0 auto;padding:40px 0 60px;text-align:center}
 .summary .ringwrap{width:132px;height:132px;margin:0 auto}
-.summary .ringwrap .num{font-size:32px}
+.summary .ringwrap>.ring{width:132px;height:132px}
+.summary .ringwrap .num{align-content:center;gap:4px;font-size:38px;line-height:1}
+.summary .ringwrap .num b{font-weight:750;letter-spacing:-.055em}
+.summary .ringwrap .num b i{font-style:normal;font-size:.5em;font-weight:650;margin-left:2px;color:var(--ink2);letter-spacing:0}
+.summary .ringwrap .num small{margin:0;font-size:12px}
+.tilebonus{display:block;margin-top:3px;font-style:normal;font-size:11.5px;color:var(--gold)}
 .summary h1{font-size:30px;margin-top:22px;letter-spacing:-.045em}
 .summary p{color:var(--ink2);margin:10px 0 0;font-family:var(--read);letter-spacing:0}
 .sumtiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:26px 0 24px}
@@ -2469,6 +2474,21 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .cheer-card h2{margin:9px 0 0;font-size:25px;letter-spacing:-.045em}
 .cheer-card p{margin:8px 0 0;color:var(--ink2);font-family:var(--read);font-size:14.5px;letter-spacing:0}
 .cheer-card .btn{margin-top:22px;width:100%}
+.cheer-card.dag{box-shadow:var(--e2),0 0 90px -34px var(--acc)}
+.cheer-card.dag .cheer-label{color:var(--accInk)}
+.cheer-dag{width:96px;height:96px;margin:0 auto 22px}
+.cheer-dag svg{display:block}
+.cheer-dag circle[stroke-dasharray]{opacity:0}
+.cheer.show .cheer-dag circle[stroke-dasharray]{animation:dagbit .35s var(--ease) forwards}
+.cheer-dag .bock{stroke-dasharray:1;stroke-dashoffset:1}
+.cheer.show .cheer-dag .bock{animation:dagbock .45s var(--ease) .85s forwards}
+@keyframes dagbit{from{opacity:0}to{opacity:1}}
+@keyframes dagbock{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){
+  .cheer-dag circle[stroke-dasharray]{opacity:1}
+  .cheer-dag .bock{stroke-dashoffset:0}
+  .cheer.show .cheer-dag circle[stroke-dasharray],.cheer.show .cheer-dag .bock{animation:none}
+}
 
 @media(max-width:960px){
   .dash{grid-template-columns:1fr}
@@ -3700,16 +3720,18 @@ function toast(msg){
   toast._t=setTimeout(()=>el.classList.remove("show"),1800);
 }
 const cheerQueue=[];
-function cheer(icon,label,title,desc){
-  cheerQueue.push({icon,label,title,desc:desc||""});
+function cheer(icon,label,title,desc,typ){
+  cheerQueue.push({icon,label,title,desc:desc||"",typ:typ||"medalj"});
   if(cheerQueue.length===1) pumpCheer();
 }
 function pumpCheer(){
   const el=document.getElementById("cheer");
   const c=cheerQueue[0];
   if(!c) return;
-  el.innerHTML=`<div class="cheer-card">
-      <div class="cheer-halo"><div class="cheer-medal">${c.icon}</div></div>
+  const topp = c.typ==="dag" ? dagsRing(c.icon)
+    : `<div class="cheer-halo"><div class="cheer-medal">${c.icon}</div></div>`;
+  el.innerHTML=`<div class="cheer-card${c.typ==="dag"?" dag":""}">
+      ${topp}
       <div class="cheer-label">${esc(c.label)}</div>
       <h2>${esc(c.title)}</h2>
       ${c.desc?`<p>${esc(c.desc)}</p>`:""}
@@ -3719,6 +3741,24 @@ function pumpCheer(){
   requestAnimationFrame(()=>el.classList.add("show"));
   clearTimeout(pumpCheer._t);
   pumpCheer._t=setTimeout(dismissCheer,6000);
+}
+/* Dagens mål visas som en sluten ring med en bit per uppgift, inte som
+   en medalj. icon är här antalet uppgifter i dagsmålet. */
+function dagsRing(n){
+  n=Math.max(1,Math.min(20,Number(n)||8));
+  const S=96, r=40, C=2*Math.PI*r, del=C/n, lucka=Math.min(5,del*.28), bit=del-lucka;
+  let bitar="";
+  for(let i=0;i<n;i++){
+    bitar+=`<circle cx="${S/2}" cy="${S/2}" r="${r}" fill="none" stroke="var(--acc)" stroke-width="7"
+      stroke-linecap="round" stroke-dasharray="${bit.toFixed(2)} ${(C-bit).toFixed(2)}"
+      stroke-dashoffset="${(-i*del-lucka/2).toFixed(2)}" transform="rotate(-90 ${S/2} ${S/2})"
+      style="animation-delay:${(0.15+i*0.07).toFixed(2)}s"/>`;
+  }
+  return `<div class="cheer-dag"><svg viewBox="0 0 ${S} ${S}" width="${S}" height="${S}" aria-hidden="true">
+      <circle cx="${S/2}" cy="${S/2}" r="${r}" fill="none" stroke="var(--hair)" stroke-width="7"/>${bitar}
+      <path class="bock" d="M35 49l9 9 18-19" fill="none" stroke="var(--acc)" stroke-width="5"
+        stroke-linecap="round" stroke-linejoin="round" pathLength="1"/>
+    </svg></div>`;
 }
 function dismissCheer(){
   const el=document.getElementById("cheer");
@@ -6558,6 +6598,7 @@ function beginSession(typ){
   state.felKo=null;state.sessionFel=[];
   rensaPagaendePass();
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
+  state.passAvslutat=false;state.passBonus=0;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
 }
@@ -9361,6 +9402,13 @@ function giveUp(){
 }
 
 const XP_TRANING={1:6,2:8,3:12,4:18,5:26};
+/* Bonus för ett helt genomfört pass med minst PASS_BONUS_MIN uppgifter.
+   Servern har ett eget tak: kg_profile släpper igenom högst 100 XP per pass
+   och räknar högst ett pass per 4 försök, bokfört i
+   kg_private.state.pass_bonus_paid. Ändras siffrorna här måste de ändras i
+   kg_profile också, annars stämplas eleven för score_delta. */
+const PASS_BONUS_XP=100;
+const PASS_BONUS_MIN=4;
 
 const SERIETRAPPA=[[12,1.6],[8,1.4],[5,1.25],[3,1.15]];
 function seriefaktor(run){
@@ -9519,7 +9567,7 @@ function finishAttempt(resultat){
       if(rankAfter.name!==rankBefore.name) cheer(rankAfter.sym,"Ny rank",rankAfter.name,"Du har klättrat ett steg på stegen.");
       else cheer(medaljIkon("nivaupp"),"Ny nivå","Nivå "+levelAfter,"Din träning ger resultat.");
     }
-    if(beforeToday<goal && todayCount()>=goal) cheer(medaljIkon("dagsmal"),"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`);
+    if(beforeToday<goal && todayCount()>=goal) cheer(goal,"Dagens mål","Klart för idag",`${goal} uppgifter avklarade.`,"dag");
   },HYLLNING);
   checkBadges(HYLLNING);
   saveProfile();
@@ -9695,9 +9743,26 @@ function vaxlaFelLosning(i,btn){
 
 function renderSessionDone(record){
 
-  if(record!==false){
+  let xpForeBonus=null;
+  if(record!==false && !state.passAvslutat){
+    state.passAvslutat=true;
     navRecord("summary",true);
     profile.pass=(profile.pass||0)+1;
+    state.passBonus=0;
+    if(state.sessionDone>=state.sessionTarget && state.sessionDone>=PASS_BONUS_MIN){
+      const bonus=PASS_BONUS_XP;
+      {
+        xpForeBonus=profile.xp;
+        const lvlFore=levelFromXP(profile.xp);
+        profile.xp+=bonus; state.sessionXp+=bonus; state.passBonus=bonus;
+        const lvlEfter=levelFromXP(profile.xp);
+        if(lvlEfter>lvlFore){
+          const rf=rankFor(lvlFore), re=rankFor(lvlEfter);
+          if(re.name!==rf.name) cheer(re.sym,"Ny rank",re.name,"Du har klättrat ett steg på stegen.");
+          else cheer(medaljIkon("nivaupp"),"Ny nivå","Nivå "+lvlEfter,"Din träning ger resultat.");
+        }
+      }
+    }
     if(state.sessionDone && state.sessionCorrect>=state.sessionDone)
       profile.felfria=(profile.felfria||0)+1;
     const tot=state.sessionDone||1;
@@ -9726,14 +9791,14 @@ function renderSessionDone(record){
   app.innerHTML=topbar()+`<main class="summary view">
     <div class="ringwrap">
       ${ring(state.sessionCorrect/total,132,9,"var(--acc)")}
-      <div class="num">${acc}<small>% rätt</small></div>
+      <div class="num"><b>${acc}<i>%</i></b><small>rätt</small></div>
     </div>
     <h1>Passet är klart</h1>
     <p>${passRapport(acc)}</p>
 
     <div class="sumtiles">
       <div class="card tile" style="background:var(--surface)"><span>Uppgifter</span><strong>${state.sessionCorrect} / ${total}</strong></div>
-      <div class="card tile" style="background:var(--surface)"><span>Intjänat</span><strong>+${state.sessionXp} XP</strong></div>
+      <div class="card tile" style="background:var(--surface)"><span>Intjänat</span><strong>+${state.sessionXp} XP</strong>${state.passBonus?`<em class="tilebonus">varav +${state.passBonus} för helt pass</em>`:""}</div>
       <div class="card tile" style="background:var(--surface)"><span>Idag</span><strong>${done} / ${goal}</strong></div>
     </div>
 
@@ -9784,6 +9849,11 @@ function renderSessionDone(record){
     </div>
   </main>`;
   afterRender();
+  if(xpForeBonus!==null){
+    const efter=profile.xp;
+    xpStall(xpForeBonus,false);
+    setTimeout(()=>animeraXp(xpForeBonus,efter),500);
+  }
 }
 
 function oppnaTopplista(sortering,record){

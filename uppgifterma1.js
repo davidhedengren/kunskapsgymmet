@@ -40745,7 +40745,30 @@ window.BANKMA1 = [
     "ledtrad": "<p>I \\(f(6)=14\\) är 6 indata och 14 utdata. Hur skrivs samma par som en punkt?</p>",
     "traningsniva": 1,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>För en funktion gäller \\(f(6)=14\\).</p><p>Förklara med ord vad detta betyder.</p>",
+        "s": "<p>När indata är 6 är funktionsvärdet 14.</p>",
+        "ledtrad": "<p>I \\(f(6)=14\\) är 6 värdet som sätts in i funktionen och 14 är funktionsvärdet.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>För en funktion gäller \\(f(6)=14\\).</p><p>Vilken punkt ligger därför på grafen till \\(y=f(x)\\)?</p>",
+        "s": "<p>Punkten har x-koordinaten 6 och y-koordinaten 14, alltså <strong>\\((6,14)\\)</strong>.</p>",
+        "ledtrad": "<p>På grafen till \\(y=f(x)\\) skrivs indata som x-koordinat och funktionsvärdet som y-koordinat.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1,
+        "arbetsinsats": 1
+      }
+    ]
   },
   {
     "id": "2.64",

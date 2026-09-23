@@ -1,7 +1,7 @@
 /* strukturma1.js — intern understruktur och elevsynliga träningsområden för Matematik nivå 1.
    OMR-nycklarna bevaras för bank och sparad progression.
    GRUPPMA1 definierar de större områden eleven ser i Kunskapsgymmet; familj är delmoment inom dessa.
-   Reviderad 2026-09-07. */
+   Reviderad 2026-09-23. Andelar, förhållanden och proportionalitet tillagda för Ma1a/Ma1b via uppgifternas kurstaggar. */
 
 window.KAPNAMNMA1 = {
   "0": "Grundläggande tal och beräkningar",
@@ -23,7 +23,10 @@ window.OMRMA1 = {
     "overslag_grunder": "Överslagsräkning och uppskattning",
     "enhetsbyten": "Enhetsbyten",
     "tiopotenser_prefix": "Tiopotenser och prefix",
-    "brakrakning": "Bråkräkning"
+    "brakrakning": "Bråkräkning",
+    "andelar": "Andelar",
+    "forhallanden": "Förhållanden",
+    "proportionalitet_grunder": "Proportionalitet"
   },
   "1": {
     "algebraiska_uttryck": "Algebraiska uttryck",

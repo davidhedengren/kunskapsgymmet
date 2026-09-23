@@ -2146,11 +2146,12 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 
 .summary{width:min(620px,calc(100% - 32px));margin:0 auto;padding:40px 0 60px;text-align:center}
 .summary .ringwrap{width:132px;height:132px;margin:0 auto}
-.summary .ringwrap>.ring{width:132px;height:132px}
-.summary .ringwrap .num{align-content:center;gap:4px;font-size:38px;line-height:1}
-.summary .ringwrap .num b{font-weight:750;letter-spacing:-.055em}
-.summary .ringwrap .num b i{font-style:normal;font-size:.5em;font-weight:650;margin-left:2px;color:var(--ink2);letter-spacing:0}
-.summary .ringwrap .num small{margin:0;font-size:12px}
+.summary .passring>.ring{width:132px;height:132px}
+.summary .passring .num{align-content:center;gap:4px;font-size:38px;line-height:1}
+.summary .passring .num b{font-weight:750;letter-spacing:-.055em}
+.summary .passring .num b i{font-style:normal;font-size:.5em;font-weight:650;margin-left:2px;color:var(--ink2);letter-spacing:0}
+.summary .passring .num small{margin:0;font-size:12px}
+.summary .rankrow .ringwrap>.ring{width:58px;height:58px}
 .tilebonus{display:block;margin-top:3px;font-style:normal;font-size:11.5px;color:var(--gold)}
 .summary h1{font-size:30px;margin-top:22px;letter-spacing:-.045em}
 .summary p{color:var(--ink2);margin:10px 0 0;font-family:var(--read);letter-spacing:0}
@@ -9789,7 +9790,7 @@ function renderSessionDone(record){
   const toNext=Math.max(0,totalXpForLevel(lp.level+1)-profile.xp);
 
   app.innerHTML=topbar()+`<main class="summary view">
-    <div class="ringwrap">
+    <div class="ringwrap passring">
       ${ring(state.sessionCorrect/total,132,9,"var(--acc)")}
       <div class="num"><b>${acc}<i>%</i></b><small>rätt</small></div>
     </div>

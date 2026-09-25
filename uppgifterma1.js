@@ -32532,9 +32532,9 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Uttrycken är 3(x + 2) och 3x + 2. Ange det tal d som gör att det första uttrycket alltid är d större än det andra.</p>",
-    "s": "<p>Differensen är 3x + 6 − (3x + 2) = 4. Alltså är d = 4 för alla x.</p>",
-    "ledtrad": "<p>Beräkna differensen utan att välja något särskilt x.</p>",
+    "t": "<p>Jämför uttrycken \\(3(x+2)\\) och \\(3x+2\\).</p><p>Det första uttrycket är alltid lika mycket större än det andra, oavsett vilket värde \\(x\\) har. <strong>Hur stor är skillnaden?</strong> Ange talet \\(d\\).</p>",
+    "s": "<p>Beräkna skillnaden mellan uttrycken:</p><p>\\[3(x+2)-(3x+2)=3x+6-3x-2=4.\\]</p><p>Skillnaden är alltså alltid 4, oavsett \\(x\\).</p><p><strong>Svar: \\(d=4\\).</strong></p>",
+    "ledtrad": "<p>Beräkna det första uttrycket minus det andra och förenkla.</p>",
     "niva": "C",
     "poang": "0/1/0",
     "familj": "Algebraiska uttryck",
@@ -40844,7 +40844,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/3/0",
-    "t": "<p>En triangel ska ha arean 30 m². Basen är \\(b\\) meter och höjden \\(h\\) meter.</p><p>a) Skriv \\(b\\) som funktion av \\(h\\).<br>b) Ange definitionsmängden om basen ska vara minst 2 m och höjden minst 1 m.</p>",
+    "t": "<p>En triangel ska ha arean 30 m². Basen är \\(b\\) meter och höjden \\(h\\) meter.</p><p>a) Skriv basen \\(b\\) som funktion av höjden \\(h\\).<br>b) Ange <strong>definitionsmängden för funktionen \\(b(h)\\)</strong>, alltså vilka värden på \\(h\\) som är tillåtna, om basen ska vara minst 2 m och höjden minst 1 m.</p>",
     "s": "<p>Triangelns area ger \\(\\frac{bh}{2}=30\\), alltså \\(b(h)=\\frac{60}{h}\\).</p><p>Villkoret \\(h\\ge1\\) ger den nedre gränsen. Kravet \\(b\\ge2\\) ger \\(60/h\\ge2\\), alltså \\(h\\le30\\).</p><p><strong>Svar:</strong> a) \\(b(h)=60/h\\). b) \\(1\\le h\\le30\\).</p>",
     "familj": "Definitionsmängd och värdemängd",
     "geogebra": false,
@@ -40871,16 +40871,20 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En triangel ska ha arean 30 m². Basen är \\(b\\) meter och höjden \\(h\\) meter.</p><div class=\"spel-en-del\">Ange definitionsmängden om basen ska vara minst 2 m och höjden minst 1 m.</div>",
-        "s": "<p><strong>Svar:</strong> 1&lt;=h&lt;=30</p>",
-        "ledtrad": "<p>Utgå från sambandet \\(bh/2=30\\). Vilka villkor begränsar sedan \\(h\\)?</p>",
+        "t": "<p>En triangel ska ha arean 30 m². Basen \\(b\\) beror på höjden \\(h\\) enligt</p><p>\\[b(h)=\\frac{60}{h}.\\]</p><div class=\"spel-en-del\">Ange <strong>definitionsmängden för \\(b(h)\\)</strong>, alltså vilka värden på \\(h\\) som är tillåtna, om basen ska vara minst 2 m och höjden minst 1 m.</div>",
+        "s": "<p>Eftersom \\(h\\ge1\\) får vi den nedre gränsen. Kravet \\(b\\ge2\\) ger \\(60/h\\ge2\\), och eftersom \\(h>0\\) följer \\(h\\le30\\).</p><p><strong>Svar:</strong> \\(1\\le h\\le30\\).</p>",
+        "ledtrad": "<p>Definitionsmängden gäller här variabeln \\(h\\). Använd både \\(h\\ge1\\) och kravet \\(b(h)=60/h\\ge2\\).</p>",
         "niva": "C"
       }
     ],
     "ledtrad": "<p>Utgå från triangelns areaformel och lös ut \\(b\\). Använd sedan kravet \\(b\\ge2\\) för att begränsa \\(h\\).</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarFormat": [
+      "uttryck",
+      "intervall"
+    ]
   },
   {
     "id": "2.55",

@@ -3879,7 +3879,7 @@ window.BANKMATO2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       "(1)/(2)*sin(x)+(sqrt(3))/(2)*cos(x)",
-      "(sqrt(3))/(2)*cos(x)+(1)/(2)*sin(x)",
+      "(sqrt(3)*cos(x)+sin(x))/2",
       "(sqrt(2))/(2)*(sin(x)-cos(x))",
       "(sqrt(2))/(2)*(cos(x)-sin(x))"
     ],
@@ -3920,7 +3920,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\cos(x-30^\\circ)\\)</p>",
-        "s": "<p><div class=\"spel-en-del\"><strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong>.</div></p><p></p>",
+        "s": "<p><div class=\"spel-en-del\"><strong>\\(\\frac{\\sqrt3}{2}\\cos x+\\frac12\\sin x\\)</strong>.</div></p><p>Ett lika korrekt sätt att skriva svaret är \\(\\frac{\\sqrt3\\cos x+\\sin x}{2}\\). I svarsrutan kan du skriva <strong>(sqrt(3)*cos(x)+sin(x))/2</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -3941,7 +3941,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
     "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spelIntro": "<p>Utveckla.</p>"
+    "spelIntro": "<p>Utveckla.</p><p><small>I svarsrutan kan du skriva \\(\\sqrt{3}\\) som <strong>sqrt(3)</strong>. Skriv trigonometriska funktioner som <strong>sin(x)</strong> och <strong>cos(x)</strong>.</small></p>"
   },
   {
     "id": "1.49",
@@ -22619,7 +22619,7 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "3\\sin(x)^2\\cos x",
+      "3*sin(x)^2*cos(x)",
       "e^{3x}(1+3x)",
       "\\frac{2x}{x^2+4}"
     ],
@@ -22649,7 +22649,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=\\sin^3x\\)</p>",
-        "s": "<strong>a)</strong> Se \\(\\sin^3x\\) som \\((\\sin x)^3\\):\n\\[f'(x)=\\boxed{3\\sin^2x\\cos x}.\\]",
+        "s": "<strong>a)</strong> Se \\(\\sin^3x\\) som \\((\\sin x)^3\\):\n\\[f'(x)=\\boxed{3\\sin^2x\\cos x}.\\]<p>I svarsrutan kan detta skrivas som <strong>3*sin(x)^2*cos(x)</strong>.</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
@@ -22670,7 +22670,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
     "ledtrad": "<p>Se uttrycket som en produkt av två funktioner och använd produktregeln: båda faktorerna måste deriveras, en i taget.</p>",
-    "spelIntro": "<p>Derivera.</p>"
+    "spelIntro": "<p>Derivera.</p><p><small>I svarsrutan kan du använda vanlig tangentbordsnotation, till exempel <strong>sin(x)</strong>, <strong>cos(x)</strong>, <strong>^</strong> för potens och <strong>*</strong> för multiplikation.</small></p>"
   },
   {
     "id": "2.50",
@@ -26489,7 +26489,7 @@ window.BANKMATO2 = [
     "rättSvar": [
       "4e^x(1+e^x)^3",
       "e^{\\sin x}\\cos x",
-      "3\\sin(x)^2\\cos x",
+      "3*sin(x)^2*cos(x)",
       "\\frac{5(\\ln x)^4}{x}"
     ],
     "tolerans": [

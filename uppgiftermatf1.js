@@ -464,7 +464,7 @@ window.BANKMATF1 = [
     "typ": "bevisa en mängdidentitet med elementmetoden",
     "poang": "0/2/0",
     "t": "<p>Visa med hjälp av medlemskap att</p><p>\\[A\\setminus(B\\cup C)=(A\\setminus B)\\cap(A\\setminus C).\\]</p>",
-    "s": "<p><strong>Idé:</strong> Välj ett godtyckligt element \\(x\\) och översätt mängdoperationerna till logiska villkor.</p><p>För vänsterledet får man ett villkor på om \\(x\\) tillhör de aktuella mängderna. Med skriv differens som snitt med komplement kan villkoret skrivas om till exakt medlemskapsvillkoret för högerledet. Eftersom detta gäller för varje \\(x\\) är mängderna lika.</p><p><strong>Slutsats:</strong> De två sidorna beskriver samma element/regioner, och därför gäller identiteten.</p>",
+    "s": "<p><strong>Idé:</strong> Två mängder är lika om de innehåller exakt samma element. Välj därför ett godtyckligt element \\(x\\) och översätt mängdoperationerna till villkor: \\(\\setminus\\) betyder ”och inte”, \\(\\cup\\) betyder ”eller” och \\(\\cap\\) betyder ”och”.</p><p><strong>Vänsterledet:</strong></p><p>\\[x\\in A\\setminus(B\\cup C)\\iff x\\in A\\ \\text{och}\\ x\\notin B\\cup C\\]</p><p>Att \\(x\\) inte ligger i \\(B\\cup C\\) betyder att \\(x\\) varken ligger i \\(B\\) eller i \\(C\\):</p><p>\\[x\\notin B\\cup C\\iff x\\notin B\\ \\text{och}\\ x\\notin C\\]</p><p>Vänsterledet ger alltså villkoret</p><p>\\[x\\in A\\ \\text{och}\\ x\\notin B\\ \\text{och}\\ x\\notin C.\\]</p><p><strong>Högerledet:</strong></p><p>\\[x\\in (A\\setminus B)\\cap(A\\setminus C)\\iff (x\\in A\\ \\text{och}\\ x\\notin B)\\ \\text{och}\\ (x\\in A\\ \\text{och}\\ x\\notin C)\\]</p><p>Villkoret \\(x\\in A\\) står två gånger och behöver bara skrivas en gång. Högerledet ger alltså villkoret</p><p>\\[x\\in A\\ \\text{och}\\ x\\notin B\\ \\text{och}\\ x\\notin C.\\]</p><p><strong>Slutsats:</strong> Båda leden ger exakt samma villkor på \\(x\\). Varje element i vänsterledet ligger alltså i högerledet och tvärtom, så \\(A\\setminus(B\\cup C)=(A\\setminus B)\\cap(A\\setminus C)\\).</p>",
     "id": "1.316",
     "miniräknare": false,
     "geogebra": false,
@@ -3612,7 +3612,7 @@ window.BANKMATF1 = [
       38567100
     ],
     "tolerans": [
-      0,
+      10000000000.0,
       0
     ],
     "självrättning": [
@@ -3637,7 +3637,7 @@ window.BANKMATF1 = [
       {
         "etikett": "a",
         "t": "<p>Av 33 elever ska 9 delta i en aktivitet.</p><div class=\"spel-en-del\"><strong>a)</strong> Hur många olika köordningar kan 9 av eleverna bilda?</div>",
-        "s": "<p><strong>Nyckelidé:</strong> I en kö spelar ordningen roll, så använd ett ordnat urval.</p><p>\\[P(33,9)=\\frac{33!}{24!}=13\\,995\\,229\\,248\\,000.\\]</p><p><strong>Svar:</strong> \\(13\\,995\\,229\\,248\\,000\\).</p>",
+        "s": "<p><strong>Nyckelidé:</strong> I en kö spelar ordningen roll, så använd ett ordnat urval.</p><p>\\[P(33,9)=\\frac{33!}{24!}=13\\,995\\,229\\,248\\,000.\\]</p><p><strong>Svar:</strong> \\(13\\,995\\,229\\,248\\,000\\approx 1{,}40\\cdot 10^{13}\\).</p><p>En miniräknare visar oftast \\(1{,}399522925\\cdot 10^{13}\\). Ett korrekt avrundat svar i grundpotensform godtas.</p>",
         "niva": "E"
       },
       {

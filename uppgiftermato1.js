@@ -2856,7 +2856,7 @@ window.BANKMATO1 = [
       "km/h",
       null
     ],
-    "ledtrad": "<p>a) \\(v=0\\) är inte tillåtet eftersom division med noll inte är definierad. I modellen skulle dessutom hastigheten 0 km/h innebära att resan aldrig blir färdig.</p>",
+    "ledtrad": "<p>Tänk på vad som händer med kvoten \\(\\frac{240}{v}\\) när nämnaren är 0, när \\(T(v)=4\\) och när nämnaren blir mycket stor.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3,
     "spel": true,
@@ -2864,6 +2864,30 @@ window.BANKMATO1 = [
       true,
       false,
       true
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En bilresa på 240 km kan beskrivas med modellen \\(T(v)=\\frac{240}{v}\\).</p><div class=\"spel-en-del\"><strong>a)</strong> Förklara varför \\(v=0\\) inte tillhör definitionsmängden i modellen.</div>",
+        "s": "<p>\\(v=0\\) ger division med noll, och division med noll är inte definierad. I modellen skulle hastigheten 0 km/h dessutom innebära att resan aldrig blir färdig.</p>",
+        "ledtrad": "<p>Vad händer med uttrycket \\(\\frac{240}{v}\\) om du sätter in \\(v=0\\)? Vad skulle \\(v=0\\) betyda för bilresan?</p>",
+        "niva": "C"
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En bilresa på 240 km kan beskrivas med modellen \\(T(v)=\\frac{240}{v}\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Bestäm \\(v\\) om \\(T=4\\).</div>",
+        "s": "<p>\\[\\frac{240}{v}=4\\]</p><p>Multiplicera med \\(v\\) och dela med 4:</p><p>\\[240=4v\\Rightarrow v=60.\\]</p><p><strong>Svar:</strong> \\(v=60\\) km/h.</p>",
+        "ledtrad": "<p>Sätt \\(T(v)=4\\) och lös ekvationen. Hur blir du av med \\(v\\) i nämnaren?</p>",
+        "niva": "C"
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En bilresa på 240 km kan beskrivas med modellen \\(T(v)=\\frac{240}{v}\\).</p><div class=\"spel-en-del\"><strong>c)</strong> Beskriv vad som händer med \\(T(v)\\) när \\(v\\) blir mycket stor.</div>",
+        "s": "<p>När \\(v\\) blir mycket stor delas 240 med ett allt större tal. Då blir \\(\\frac{240}{v}\\) allt mindre och närmar sig 0.</p><p><strong>Svar:</strong> \\(T(v)\\) minskar och närmar sig 0 utan att bli 0. Restiden blir alltså mycket kort vid mycket hög hastighet.</p>",
+        "ledtrad": "<p>Pröva att sätta in några stora värden, till exempel \\(v=1000\\) och \\(v=100\\,000\\). Vad händer med kvoten?</p>",
+        "niva": "C"
+      }
     ]
   },
   {
@@ -11691,7 +11715,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>För en funktion \\(s(t)\\) gäller att tangenten till grafen i punkten där \\(t=3\\) har ekvationen</p><p>\\[y=5t-4.\\]</p><p>a) Bestäm \\(s^{\\prime}(3)\\).<br>b) Vad betyder detta värde om \\(s\\) är en sträcka i meter och \\(t\\) mäts i sekunder?</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja. För system väljer du den metod som enklast tar bort en variabel.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Derivatan i en punkt är tangentens lutning i den punkten. Tangentens ekvation är \\(y=5t-4\\), så lutningen är \\(5\\).</p><p>Alltså är</p><p>\\[s^{\\prime}(3)=5.\\]</p><p><strong>b)</strong> Om \\(s\\) är sträcka i meter och \\(t\\) är tid i sekunder betyder derivatan hastigheten vid den aktuella tidpunkten.</p><p><strong>Svar:</strong> \\(\\boxed{s^{\\prime}(3)=5}\\). Det betyder att hastigheten vid \\(t=3\\) s är \\(\\boxed{5\\text{ m/s}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen. Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan i en punkt är lutningen hos tangenten i den punkten. Om \\(s\\) är en sträcka och \\(t\\) en tid är derivatan en förändringshastighet.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Derivatan i en punkt är tangentens lutning i den punkten. Tangentens ekvation är \\(y=5t-4\\), så lutningen är \\(5\\).</p><p>Alltså är</p><p>\\[s^{\\prime}(3)=5.\\]</p><p><strong>b)</strong> Om \\(s\\) är sträcka i meter och \\(t\\) är tid i sekunder betyder derivatan hastigheten vid den aktuella tidpunkten.</p><p><strong>Svar:</strong> \\(\\boxed{s^{\\prime}(3)=5}\\). Det betyder att hastigheten vid \\(t=3\\) s är \\(\\boxed{5\\text{ m/s}}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Enheten för \\(s^{\\prime}(t)\\) är enheten för \\(s\\) delad med enheten för \\(t\\), alltså m/s.</p></div>",
     "familj": "Derivata som förändringshastighet och tangentlutning",
     "geogebra": false,
     "miniräknare": false,
@@ -11716,10 +11740,14 @@ window.BANKMATO1 = [
       "a",
       "b"
     ],
-    "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+    "ledtrad": "<p>Hur hänger derivatan i en punkt ihop med tangentens lutning? Tänk sedan på vilken enhet en förändring av sträcka per tid får.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "svarEnhet": [
+      null,
+      "m/s"
+    ]
   },
   {
     "id": "2.10",
@@ -12433,19 +12461,19 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Skriv om \\(f(x)=3\\cdot 2^x\\) på formen \\(f(x)=3e^{kx}\\). Bestäm \\(k\\) med tre decimaler.</p>",
-    "s": "<p class=\"facit-metod\"><strong>Viktigt steg:</strong> Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p><p>Använd \\(a^x=e^{x\\ln a}\\):</p><p>\\[2^x=e^{x\\ln(2)}.\\]</p><p>Alltså är \\(k=\\ln(2)\\approx 0,693\\).</p><p><strong>Svar:</strong> \\(\\boxed{f(x)=3e^{0,693x}}\\) ungefär.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv basen 2 som en potens av \\(e\\). Eftersom \\(e^{\\ln 2}=2\\) gäller \\(2^x=\\left(e^{\\ln 2}\\right)^x=e^{x\\ln 2}\\).</p><div class=\"facit-arbete\"><p>\\[f(x)=3\\cdot 2^x=3e^{x\\ln 2}\\]</p><p>Jämför med \\(f(x)=3e^{kx}\\):</p><p>\\[k=\\ln 2\\approx 0{,}693\\]</p><p><strong>Svar:</strong> \\(k=\\ln 2\\approx 0{,}693\\), alltså \\(f(x)\\approx 3e^{0{,}693x}\\).</p></div></div>",
     "familj": "Skriva exponentialfunktioner med basen e",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "f(x)=3e^(0.693x)",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.693,
+    "tolerans": 0.001,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: Identifiera först vilken exponentialregel som passar. Om exponenten själv innehåller x används även derivatan av exponenten som faktor. Behåll exponentialdelen oförändrad och förenkla koefficienterna sist.</p>",
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilket tal \\(k\\) uppfyller \\(e^{k}=2\\)? Använd sedan potenslagen \\(\\left(e^{k}\\right)^x=e^{kx}\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -14177,19 +14205,19 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=3 \\cdot 2^{x}\\).</p>",
-    "s": "<p class=\"facit-metod\"><strong>Metod:</strong> För exponentialfunktioner måste man skilja på e^x och a^x. Derivatan av e^{kx} ger en extra faktor k, medan a^x ger faktorn ln(a). Den faktorn är det vanligaste steget att missa.</p><p>Använd regeln \\((a^x)^{\\prime}=a^x\\ln a\\):</p><p>\\[f^{\\prime}(x)=3\\cdot2^x\\ln2.\\]</p><p><strong>Svar:</strong> \\(\\boxed{3\\cdot2^x\\ln2}\\).</p>",
+    "s": "<p class=\"facit-metod\"><strong>Metod:</strong> För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p><p>Använd regeln \\((a^x)^{\\prime}=a^x\\ln a\\):</p><p>\\[f^{\\prime}(x)=3\\cdot2^x\\ln2.\\]</p><p><strong>Svar:</strong> \\(\\boxed{3\\cdot2^x\\ln2}\\).</p>",
     "familj": "Derivera exponentialfunktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "3*2^xln2",
+    "rättSvar": "3*2^x*ln(2)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>För exponentialfunktioner måste man skilja på e^x och a^x. Derivatan av e^{kx} ger en extra faktor k, medan a^x ger faktorn ln(a). Den faktorn är det vanligaste steget att missa.</p>",
+    "ledtrad": "<p>För exponentialfunktioner måste man skilja på \\(e^x\\) och \\(a^x\\). Derivatan av \\(e^{kx}\\) ger en extra faktor \\(k\\), medan \\(a^x\\) ger faktorn \\(\\ln a\\). Den faktorn är det vanligaste steget att missa.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true
@@ -14372,12 +14400,12 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Derivera \\(f(x)=2 \\cdot 3^{x}\\).</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skilj på startvärde och förändringsfaktor. När den okända finns i exponenten logaritmerar du först efter att exponentialuttrycket isolerats.</p><div class=\"facit-arbete\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p><p>Använd regeln \\((a^x)^{\\prime}=a^x\\ln a\\):</p><p>\\[f^{\\prime}(x)=2\\cdot3^x\\ln3.\\]</p><p><strong>Svar:</strong> \\(\\boxed{2\\cdot3^x\\ln3}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Exponentialdelen ändrar i princip inte form vid derivering; det som tillkommer är en faktor från exponenten eller från ln(a). Markera den faktorn tydligt innan du räknar vidare.</p><p>Använd regeln \\((a^x)^{\\prime}=a^x\\ln a\\):</p><p>\\[f^{\\prime}(x)=2\\cdot3^x\\ln3.\\]</p><p><strong>Svar:</strong> \\(\\boxed{2\\cdot3^x\\ln3}\\).</p></div></div>",
     "familj": "Derivera exponentialfunktioner",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "2*3^xln3",
+    "rättSvar": "2*3^x*ln(3)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -18139,7 +18167,7 @@ window.BANKMATO1 = [
       "hastighet"
     ],
     "tolerans": null,
-    "självrättning": true,
+    "självrättning": false,
     "formaga": [
       "procedur",
       "begrepp"
@@ -18150,29 +18178,29 @@ window.BANKMATO1 = [
       "b"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck"
+      "kort_text",
+      "kort_text"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Funktionen \\(s(t)\\) anger ett fordons position i meter efter \\(t\\) sekunder.</p><p>Vad betyder uttrycken</p><p><div class=\"spel-en-del\">\\(\\frac{s(8)-s(5)}{8-5}\\)</div></p>",
-        "s": "<p><strong>Svar:</strong> medelhastighet</p>",
-        "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+        "t": "<p>Funktionen \\(s(t)\\) anger ett fordons position i meter efter \\(t\\) sekunder.</p><p>Vad betyder uttrycket</p><div class=\"spel-en-del\">\\(\\frac{s(8)-s(5)}{8-5}\\)</div><p>i denna situation?</p>",
+        "s": "<p>Täljaren \\(s(8)-s(5)\\) är hur långt fordonet förflyttar sig mellan \\(t=5\\) och \\(t=8\\), i meter. Nämnaren \\(8-5\\) är tiden i sekunder.</p><p><strong>Svar:</strong> Kvoten är fordonets <strong>medelhastighet</strong> (i m/s) mellan 5 s och 8 s.</p>",
+        "ledtrad": "<p>Vad beskriver täljaren och vad beskriver nämnaren? Vilken storhet får du när du delar en sträcka med en tid?</p>",
         "niva": "E",
         "poang": "1/0/0"
       },
       {
         "etikett": "b",
-        "t": "<p>Funktionen \\(s(t)\\) anger ett fordons position i meter efter \\(t\\) sekunder.</p><p>Vad betyder uttrycken</p><p><div class=\"spel-en-del\">\\(s^{\\prime}(5)\\)</div></p>",
-        "s": "<p><strong>Svar:</strong> hastighet</p>",
-        "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+        "t": "<p>Funktionen \\(s(t)\\) anger ett fordons position i meter efter \\(t\\) sekunder.</p><p>Vad betyder uttrycket</p><div class=\"spel-en-del\">\\(s^{\\prime}(5)\\)</div><p>i denna situation?</p>",
+        "s": "<p>Derivatan \\(s^{\\prime}(5)\\) är positionens momentana förändringshastighet vid \\(t=5\\), med enheten meter per sekund.</p><p><strong>Svar:</strong> \\(s^{\\prime}(5)\\) är fordonets <strong>hastighet</strong> (i m/s) vid tiden 5 s.</p>",
+        "ledtrad": "<p>Derivatan beskriver en momentan förändringshastighet. Vad kallas förändringshastigheten för ett fordons position?</p>",
         "niva": "E",
         "poang": "1/0/0"
       }
     ],
-    "ledtrad": "<p>Derivera funktionen först och sätt sedan in det aktuella x-värdet. Tolka tecknet och enheten på derivatan i den givna situationen.</p>",
+    "ledtrad": "<p>Tolka täljare och nämnare med enheter. Derivatan beskriver en momentan förändringshastighet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true
@@ -22656,8 +22684,8 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.351",
-    "kap": 2,
-    "omr": "extremvarden",
+    "kap": 3,
+    "omr": "extremvardesproblem",
     "kurs": [
       "1b",
       "1c"
@@ -25400,7 +25428,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.521",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -25458,7 +25486,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.524",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -25544,7 +25572,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.527",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -25631,7 +25659,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.530",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -25665,7 +25693,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.531",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -25728,7 +25756,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.533",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -26125,7 +26153,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.03",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -26338,7 +26366,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.09",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -26552,7 +26580,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.15",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -26766,7 +26794,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.21",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -26945,7 +26973,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.27",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -27124,7 +27152,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.33",
-    "kap": 3,
+    "kap": 1,
     "omr": "polynom",
     "kurs": [
       "1b",
@@ -27301,7 +27329,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.39",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -27475,7 +27503,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.45",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -27647,7 +27675,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.51",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -27833,7 +27861,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.57",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -28007,7 +28035,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.63",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -28358,7 +28386,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.75",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -29094,7 +29122,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.99",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32087,7 +32115,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.201",
-    "kap": 3,
+    "kap": 2,
     "omr": "deriveringsregler",
     "kurs": [
       "1b",
@@ -32114,7 +32142,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.202",
-    "kap": 3,
+    "kap": 2,
     "omr": "deriveringsregler",
     "kurs": [
       "1b",
@@ -32169,7 +32197,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.204",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32197,7 +32225,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.205",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32281,7 +32309,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.208",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32309,7 +32337,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.209",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32337,7 +32365,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.210",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32366,7 +32394,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.211",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32506,7 +32534,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.216",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32534,7 +32562,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.217",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -32563,7 +32591,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.218",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -43067,7 +43095,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.555",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -45718,7 +45746,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.645",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -46747,7 +46775,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.726",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -57568,39 +57596,6 @@ window.BANKMATO1 = [
     "spel": true
   },
   {
-    "id": "4.418",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/0/3",
-    "t": "<span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Två möjliga cirklar som tangerar koordinataxlarna\"><line x1=\"35\" y1=\"270\" x2=\"365\" y2=\"270\" stroke=\"currentColor\"/><line x1=\"35\" y1=\"270\" x2=\"35\" y2=\"15\" stroke=\"currentColor\"/><circle cx=\"64\" cy=\"241\" r=\"29\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"198\" cy=\"107\" r=\"163\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" opacity=\".55\"/><circle cx=\"75\" cy=\"214\" r=\"4\" fill=\"currentColor\"/><text x=\"82\" y=\"207\" font-size=\"12\" fill=\"currentColor\">(5,7)</text><text x=\"350\" y=\"286\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"23\" y=\"23\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>En cirkel tangerar de positiva koordinataxlarna. Punkten \\((5,7)\\) ligger på cirkelns rand.</p><p>Bestäm cirkelns radie exakt.</p>",
-    "s": "<p>Om radien är r ligger medelpunkten i \\((r,r)\\). Avståndet från medelpunkten till \\((5,7)\\) ska vara r:</p><p>\\[(5-r)^2+(7-r)^2=r^2.\\]</p><p>Det ger \\(r^2-24r+74=0\\), alltså</p><p>\\[r=12\\pm\\sqrt{70}.\\]</p><p><strong>Båda positiva värdena ger möjliga cirklar.</strong></p>",
-    "familj": "Cirkelgeometri med koordinater",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "12+sqrt(70)",
-      "12-sqrt(70)"
-    ],
-    "tolerans": [
-      null,
-      null
-    ],
-    "självrättning": false,
-    "formaga": [
-      "resonemang"
-    ],
-    "ledtrad": "<p>Om radien är \\(r\\) ligger medelpunkten i \\((r,r)\\). Använd att avståndet från medelpunkten till \\((5,7)\\) också är \\(r\\). Ekvationen kan ge två geometriskt möjliga radier.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "kalla": "NP Ma3c vt 2014, uppgift 26"
-  },
-  {
     "id": "4.419",
     "kap": 4,
     "omr": "triangelsatser",
@@ -58188,7 +58183,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.545",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -58374,35 +58369,6 @@ window.BANKMATO1 = [
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2013, uppgift 2b",
-    "svarFormat": "uttryck"
-  },
-  {
-    "id": "4.425",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"250\" viewBox=\"0 0 320 250\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Cirkel som tangerar x-axeln\"><line x1=\"25\" y1=\"215\" x2=\"300\" y2=\"215\" stroke=\"currentColor\"/><line x1=\"90\" y1=\"230\" x2=\"90\" y2=\"20\" stroke=\"currentColor\" opacity=\".55\"/><circle cx=\"190\" cy=\"140\" r=\"75\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"215\" r=\"4\" fill=\"currentColor\"/><circle cx=\"190\" cy=\"65\" r=\"4\" fill=\"currentColor\"/><text x=\"198\" y=\"229\" font-size=\"11\" fill=\"currentColor\">(4,0)</text><text x=\"198\" y=\"59\" font-size=\"11\" fill=\"currentColor\">(4,6)</text></svg></span><p>En cirkel tangerar x-axeln i punkten \\((4,0)\\). Punkten \\((4,6)\\) ligger på cirkeln.</p><p>Ange cirkelns ekvation.</p>",
-    "s": "<p>Mittpunkten ligger mitt mellan de två punkterna på samma lodräta diameter: \\((4,3)\\). Radien är 3.</p><p>\\[(x-4)^2+(y-3)^2=9.\\]</p>",
-    "familj": "Bestäm cirkelns ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x-4)^2+(y-3)^2=9",
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "ledtrad": "<p>Radien till tangentpunkten är lodrät. Därför ligger medelpunkten på linjen \\(x=4\\). Använd också att \\((4,6)\\) ligger på cirkeln.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": false,
-    "kalla": "NP Ma3c vt 2013, uppgift 5",
     "svarFormat": "uttryck"
   },
   {
@@ -58610,7 +58576,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.552",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -58964,63 +58930,6 @@ window.BANKMATO1 = [
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c ht 2012, uppgift 17"
-  },
-  {
-    "id": "1.455",
-    "kap": 1,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En cirkel har ekvationen</p><p>\\[x^2-2x+y^2-y=0,5.\\]</p><p>Ligger punkten \\((1,2)\\) på cirkeln? Motivera ditt svar.</p>",
-    "s": "<p>Sätt in \\((1,2)\\):</p><p>\\[1-2+4-2=1.\\]</p><p>Vänsterledet blir 1, inte 0,5. Punkten ligger alltså inte på cirkeln.</p>",
-    "familj": "Punkt och cirkelekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Sätt in punktens koordinater i vänsterledet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": false,
-    "kalla": "NP Ma3c ht 2012, uppgift 20a"
-  },
-  {
-    "id": "1.456",
-    "kap": 1,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>Cirkeln</p><p>\\[x^2-2x+y^2-y=0,5\\]</p><p>har medelpunkten \\((1;0,5)\\). Bestäm cirkelns area exakt.</p>",
-    "s": "<p>Kvadratkomplettera:</p><p>\\[(x-1)^2+(y-0,5)^2=\\frac74.\\]</p><p>Alltså är \\(r^2=7/4\\) och arean</p><p>\\[A=\\pi r^2=\\frac{7\\pi}{4}.\\]</p>",
-    "familj": "Cirkelns area från ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "7pi/4",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Skriv ekvationen på formen \\((x-a)^2+(y-b)^2=r^2\\).</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "spel": true,
-    "kalla": "NP Ma3c ht 2012, uppgift 20b"
   },
   {
     "id": "2.570",
@@ -59785,7 +59694,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.576",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -59821,7 +59730,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.577",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -59879,7 +59788,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.768",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -59908,7 +59817,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.769",
-    "kap": 3,
+    "kap": 2,
     "omr": "exponential_ln_derivata",
     "kurs": [
       "1b",
@@ -59938,7 +59847,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.770",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -59974,7 +59883,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.771",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -60062,7 +59971,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.774",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -60121,7 +60030,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.776",
-    "kap": 3,
+    "kap": 2,
     "kurs": [
       "1b",
       "1c"
@@ -65556,8 +65465,8 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.688",
-    "kap": 2,
-    "omr": "extremvarden",
+    "kap": 3,
+    "omr": "extremvardesproblem",
     "kurs": [
       "1b",
       "1c"
@@ -65585,8 +65494,8 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.689",
-    "kap": 2,
-    "omr": "extremvarden",
+    "kap": 3,
+    "omr": "extremvardesproblem",
     "kurs": [
       "1b",
       "1c"
@@ -66181,7 +66090,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.710",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -66209,7 +66118,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.711",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -66407,7 +66316,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.718",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -66435,7 +66344,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.719",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -66550,7 +66459,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.723",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -66663,7 +66572,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.727",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -66691,7 +66600,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.728",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -67172,7 +67081,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.791",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67286,7 +67195,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.795",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67372,7 +67281,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.798",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67401,7 +67310,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.799",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67515,7 +67424,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.803",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67544,7 +67453,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.804",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67631,7 +67540,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.807",
-    "kap": 3,
+    "kap": 1,
     "omr": "polynom",
     "kurs": [
       "1b",
@@ -67660,7 +67569,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.808",
-    "kap": 3,
+    "kap": 1,
     "omr": "polynom",
     "kurs": [
       "1b",
@@ -67774,7 +67683,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.812",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67890,7 +67799,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.816",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -67918,7 +67827,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.817",
-    "kap": 3,
+    "kap": 1,
     "omr": "gransvarde_kontinuitet",
     "kurs": [
       "1b",
@@ -68818,7 +68727,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.849",
-    "kap": 3,
+    "kap": 2,
     "omr": "deriveringsregler",
     "kurs": [
       "1b",
@@ -68874,7 +68783,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.851",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -68986,7 +68895,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.855",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69014,7 +68923,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.856",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69042,7 +68951,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.857",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69070,7 +68979,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.858",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69098,7 +69007,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.859",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69126,7 +69035,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.860",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69378,7 +69287,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.869",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69406,7 +69315,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.870",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -69434,7 +69343,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.871",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -73578,7 +73487,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1019",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -73606,7 +73515,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1020",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -73942,7 +73851,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1032",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -73970,7 +73879,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1033",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -75536,60 +75445,6 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-    "id": "4.459",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Cirkeln har ekvationen \\((x-1)^2+(y+1)^2=9\\). Bestäm radien.</p>",
-    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=9\\), alltså är \\(r=3\\).</p><p><strong>Svar:</strong> 3</p>",
-    "familj": "Cirkelgeometri med koordinater",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
-    "id": "4.460",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Cirkeln har ekvationen \\((x-2)^2+(y-1)^2=4\\). Bestäm radien.</p>",
-    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=4\\), alltså är \\(r=2\\).</p><p><strong>Svar:</strong> 2</p>",
-    "familj": "Cirkelgeometri med koordinater",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
     "id": "4.461",
     "kap": 4,
     "omr": "triangelsatser",
@@ -76284,7 +76139,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.754",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -76312,7 +76167,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.755",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -76447,33 +76302,6 @@ window.BANKMATO1 = [
     "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
-    "id": "4.468",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Cirkeln har ekvationen \\((x-0)^2+(y-2)^2=9\\). Bestäm radien.</p>",
-    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=9\\), alltså är \\(r=3\\).</p><p><strong>Svar:</strong> 3</p>",
-    "familj": "Bestäm cirkelns ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -76703,7 +76531,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.763",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -77146,90 +76974,6 @@ window.BANKMATO1 = [
     "ledtrad": "<p>Använd potensregeln: ax^n blir an x^(n-1).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
-    "id": "1.548",
-    "kap": 1,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Cirkeln har ekvationen \\((x+1)^2+(y+2)^2=9\\). Bestäm radien.</p>",
-    "s": "<p><strong>Lösning:</strong> Högerledet är \\(r^2=9\\), alltså är \\(r=3\\).</p><p><strong>Svar:</strong> 3</p>",
-    "familj": "Punkt och cirkelekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Jämför med (x-a)^2+(y-b)^2=r^2.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
-    "id": "1.549",
-    "kap": 1,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Cirkeln har ekvationen \\((x-0)^2+(y+1)^2=9\\). Vad är cirkelns area dividerad med \\(\\pi\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Radien är 3. Arean är \\(\\pi r^2=9\\pi\\), så arean dividerad med \\(\\pi\\) är 9.</p><p><strong>Svar:</strong> 9</p>",
-    "familj": "Cirkelns area från ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Läs av r² i cirkelns standardform.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
-    "id": "1.550",
-    "kap": 1,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Cirkeln har ekvationen \\((x+1)^2+(y-0)^2=16\\). Vad är cirkelns area dividerad med \\(\\pi\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Radien är 4. Arean är \\(\\pi r^2=16\\pi\\), så arean dividerad med \\(\\pi\\) är 16.</p><p><strong>Svar:</strong> 16</p>",
-    "familj": "Cirkelns area från ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Läs av r² i cirkelns standardform.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
     "spel": true,
     "svarFormat": "numeriskt"
   },
@@ -78047,7 +77791,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.776",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -78075,7 +77819,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.777",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivata_tillampningar",
     "kurs": [
       "1b",
@@ -78103,7 +77847,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.778",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -78131,7 +77875,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "2.779",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafanalys_derivata",
     "kurs": [
       "1b",
@@ -78215,7 +77959,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1077",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78243,7 +77987,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1078",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78271,7 +78015,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1079",
-    "kap": 3,
+    "kap": 2,
     "omr": "exponential_ln_derivata",
     "kurs": [
       "1b",
@@ -78299,7 +78043,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1080",
-    "kap": 3,
+    "kap": 2,
     "omr": "exponential_ln_derivata",
     "kurs": [
       "1b",
@@ -78327,7 +78071,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1081",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78355,7 +78099,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1082",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78383,7 +78127,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1083",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78411,7 +78155,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1084",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78551,7 +78295,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1089",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78579,7 +78323,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1090",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78663,7 +78407,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1093",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -78691,7 +78435,7 @@ window.BANKMATO1 = [
   },
   {
     "id": "3.1094",
-    "kap": 3,
+    "kap": 2,
     "omr": "tangenter_derivata",
     "kurs": [
       "1b",
@@ -79390,156 +79134,6 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-    "id": "4.473",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En cirkel har medelpunkten \\((2,-1)\\) och radien 3. Ange cirkelns ekvation.</p>",
-    "s": "<p>En cirkel med medelpunkt \\((a,b)\\) och radie \\(r\\) har ekvationen</p><p>\\[(x-a)^2+(y-b)^2=r^2.\\]</p><p>Här blir det</p><p>\\[(x-2)^2+(y+1)^2=9.\\]</p>",
-    "familj": "Skriva cirkelns ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x-2)^2+(y+1)^2=9",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in medelpunktens koordinater och radien i cirkelns standardform.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "uttryck"
-  },
-  {
-    "id": "4.474",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Cirkeln har ekvationen \\[(x+2)^2+(y-4)^2=25.\\]</p><p>Bestäm radien.</p>",
-    "s": "<p>Högerledet är \\(r^2=25\\), alltså är \\(r=5\\).</p><p><strong>Svar:</strong> 5.</p>",
-    "familj": "Läsa cirkelns ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>I cirkelns standardform är högerledet \\(r^2\\).</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
-    "id": "4.475",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Cirkeln har ekvationen \\[(x+2)^2+(y-4)^2=25.\\]</p><p>Bestäm medelpunktens koordinater.</p>",
-    "s": "<p>Jämför med \\((x-a)^2+(y-b)^2=r^2\\). Eftersom \\(x+2=x-(-2)\\) är</p><p><strong>Svar:</strong> medelpunkten \\((-2,4)\\).</p>",
-    "familj": "Läsa cirkelns ekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      -2,
-      4
-    ],
-    "tolerans": [
-      0,
-      0
-    ],
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Var särskilt uppmärksam på tecknet i \\(x+2=x-(-2)\\).</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "x",
-      "y"
-    ]
-  },
-  {
-    "id": "4.476",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Cirkeln har ekvationen \\[(x-1)^2+(y-1)^2=16.\\]</p><p>Ligger punkten \\((5,1)\\) på cirkeln?</p><p>A. Ja<br>B. Nej</p>",
-    "s": "<p>Sätt in \\((5,1)\\):</p><p>\\[(5-1)^2+(1-1)^2=16.\\]</p><p>Likheten stämmer, så punkten ligger på cirkeln.</p><p><strong>Svar:</strong> A.</p>",
-    "familj": "Punkt och cirkelekvation",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in punktens koordinater i cirkelns vänsterled.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "val"
-  },
-  {
-    "id": "4.477",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En cirkel har medelpunkten \\((3,2)\\) och går genom punkten \\((6,6)\\). Bestäm cirkelns radie.</p>",
-    "s": "<p>Radien är avståndet mellan punkterna:</p><p>\\[r=\\sqrt{(6-3)^2+(6-2)^2}=\\sqrt{9+16}=5.\\]</p><p><strong>Svar:</strong> 5.</p>",
-    "familj": "Radie från två punkter",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Beräkna avståndet från medelpunkten till punkten på cirkeln.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
     "id": "3.1119",
     "kap": 3,
     "omr": "integral_egenskaper",
@@ -80135,61 +79729,6 @@ window.BANKMATO1 = [
     "ledtrad": "<p>Skriv arean som \\(\\int_0^a2\\,dx\\) och sätt den lika med 10.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
-  {
-    "id": "4.478",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Cirkeln har ekvationen \\((x-2)^2+(y+1)^2=9\\). Vilken av punkterna ligger på cirkeln?</p><p>A. \\((5,-1)\\)<br>B. \\((2,1)\\)<br>C. \\((-1,1)\\)<br>D. \\((2,3)\\)</p>",
-    "s": "<p>Medelpunkten är \\((2,-1)\\) och radien är 3. Punkten \\((5,-1)\\) ligger 3 enheter från medelpunkten och ligger därför på cirkeln.</p><p><strong>Svar:</strong> A.</p>",
-    "familj": "Punkt på en cirkel",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "ledtrad": "<p>Kontrollera avståndet från varje punkt till cirkelns medelpunkt.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "val"
-  },
-  {
-    "id": "4.479",
-    "kap": 4,
-    "omr": "analytisk_geometri",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>En cirkel har medelpunkten \\((-1,3)\\) och radien 4. Bestäm cirkelns minsta möjliga x-koordinat.</p>",
-    "s": "<p>Från medelpunkten kan man gå 4 enheter åt vänster. Den vänstra ytterpunkten har därför x-koordinaten</p><p>\\[-1-4=-5.\\]</p><p><strong>Svar:</strong> \\(-5\\).</p>",
-    "familj": "Tolka cirkelns medelpunkt och radie",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -5,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Utgå från medelpunktens x-koordinat och gå en radie åt vänster.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt"
   },

@@ -7161,9 +7161,10 @@ function olikhetsJamforelse(a,f,tol){
   });
 }
 
+/* Symbolraden har en ≈-knapp, så "k ≈ 0,693" och "≈ 0,693" ska läsas som 0,693. */
 function hogerled(x){
-  const s=stadaSvar(x);
-  const m=s.match(/^[A-Za-zåäöÅÄÖ][\w()',.\s]*=\s*(.+)$/);
+  const s=stadaSvar(x).replace(/^≈\s*/,"");
+  const m=s.match(/^[A-Za-zåäöÅÄÖ][\w()',.\s]*[=≈]\s*(.+)$/);
   return m?m[1].trim():s;
 }
 
@@ -7798,6 +7799,10 @@ function normalizeMathInput(s){
 
   x=x.replace(/(\d)\s+(?=\d{3}(?:\D|$))/g,"$1");
   x=x.replace(/\s+/g,"");
+
+  /* ln3 och lg100 utan parentes, även direkt efter en variabel som i
+     3^xln3. Annars tolkas ln3 som ett variabelnamn och ln(3) underkänns. */
+  x=x.replace(/(ln|lg)(\d+(?:\.\d+)?)(?![\d.a-z(^])/g,"$1($2)");
 
   x=x.replace(/[.;]$/,"");
 

@@ -36,6 +36,7 @@ window.OMRMA2 = {
     "mer_om_andragradsekvationer": "Andragradsekvationer – fördjupning",
     "samband_roter_koefficienter": "Samband mellan rötter och koefficienter",
     "andragradsekvationer_tillampningar": "Tillämpningar och problemlösning med andragradsekvationer",
+    "blandat_andragradsekvationer": "Blandade metoder för andragradsekvationer",
     "rotekvationer": "Rotekvationer",
     "funktionsskrivsatt_rep": "Funktioner och funktionsskrivsätt – repetition",
     "andragradsfunktioner": "Andragradsfunktioner",
@@ -186,6 +187,11 @@ window.SPARMA2 = {
       "2c"
     ],
     "andragradsekvationer_tillampningar": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "blandat_andragradsekvationer": [
       "2a",
       "2b",
       "2c"

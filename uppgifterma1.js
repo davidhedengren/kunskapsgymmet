@@ -1960,7 +1960,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 3,<strong>4</strong>8</div><div>b) 12,0<strong>6</strong>5</div><div>c) 0,00<strong>9</strong></div></div>",
+    "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 3,<u><strong>4</strong></u>8</div><div>b) 12,0<u><strong>6</strong></u>5</div><div>c) 0,00<u><strong>9</strong></u></div></div>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0;\"><div>a) 0,4</div><div>b) 0,06</div><div>c) 0,009</div></div></div></div>",
     "familj": "Skriva och tolka decimaltal",
     "geogebra": false,
@@ -1981,7 +1981,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"spel-en-del\">3,<strong>4</strong>8</div>",
+        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"spel-en-del\">3,<u><strong>4</strong></u>8</div>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,4</div>",
         "ledtrad": "<p>Vad är en tiondel av en hel? Vilken position har den markerade siffran?</p>",
         "niva": "E",
@@ -1989,7 +1989,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"spel-en-del\">12,0<strong>6</strong>5</div>",
+        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"spel-en-del\">12,0<u><strong>6</strong></u>5</div>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,06</div>",
         "ledtrad": "<p>Räkna decimalplatserna från decimaltecknet.</p>",
         "niva": "E",
@@ -1997,7 +1997,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Vilket värde har den markerade siffran?</p><div class=\"spel-en-del\">0,00<strong>9</strong></div>",
+        "t": "<p>Vilket värde har den understrukna siffran? Svara i decimalform.</p><div class=\"spel-en-del\">0,00<u><strong>9</strong></u></div>",
         "s": "<p><strong>Metod:</strong> Första decimalen är tiondelar, andra hundradelar och tredje tusendelar.</p><div class=\"spel-en-del\"><strong>Svar:</strong> 0,009</div>",
         "ledtrad": "<p>Vad är värdet av en enda tusendel?</p>",
         "niva": "E",

@@ -47,6 +47,8 @@ window.OMRMATO1 = {
     "deriverbarhet": "Deriverbarhet",
     "primitiva_funktioner": "Primitiva funktioner",
     "integraler": "Integraler och area",
+    "integral_egenskaper": "Integralens egenskaper",
+    "area_med_integral": "Area med integraler",
     "integraler_digitalt": "Integraler med digitala verktyg",
     "integraltillampningar": "Tillämpningar med integraler"
   },
@@ -129,6 +131,14 @@ window.SPARMATO1 = {
       "1c"
     ],
     "integraler": [
+      "1b",
+      "1c"
+    ],
+    "integral_egenskaper": [
+      "1b",
+      "1c"
+    ],
+    "area_med_integral": [
       "1b",
       "1c"
     ],
@@ -215,6 +225,8 @@ window.GRUPPMATO1 = {
       "omr": [
         "primitiva_funktioner",
         "integraler",
+        "integral_egenskaper",
+        "area_med_integral",
         "integraler_digitalt"
       ]
     }

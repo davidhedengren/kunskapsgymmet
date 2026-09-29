@@ -7431,6 +7431,9 @@ function formatRatt(anv,facit,meta){
     }
     case "uttryck": case "uttryck_med_villkor": {
       const rensa=x=>String(x).split(/,(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
+      /* Två ekvationer jämförs som ekvationer, så att y-4=4(x-2) godtas mot y=4x-4. */
+      if(rensa(a).includes("=") && rensa(f).includes("=")
+         && algebraisktLika(rensa(a),rensa(f))===true) return true;
       const r=algebraisktLika(hogerled(rensa(a)),hogerled(rensa(f)));
       if(r!==null) return r;
       return textNyckel(a)===textNyckel(f);

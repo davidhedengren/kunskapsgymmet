@@ -31587,7 +31587,7 @@ window.BANKMATO2 = [
       "14e^{2x}",
       "5/x",
       "3\\cos x+2\\sin x",
-      "2^x\\ln2"
+      "2^x*ln(2)"
     ],
     "tolerans": [
       null,

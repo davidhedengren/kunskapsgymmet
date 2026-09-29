@@ -17422,7 +17422,7 @@ window.BANKMATF1 = [
         "(0,0)",
         "(2,4)"
       ],
-      "\\frac{4}{3}"
+      "4/3"
     ],
     "tolerans": null,
     "självrättning": true,

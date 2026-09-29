@@ -7434,6 +7434,10 @@ function formatRatt(anv,facit,meta){
       /* Två ekvationer jämförs som ekvationer, så att y-4=4(x-2) godtas mot y=4x-4. */
       if(rensa(a).includes("=") && rensa(f).includes("=")
          && algebraisktLika(rensa(a),rensa(f))===true) return true;
+      /* Olika variabler i vänsterledet (y=2 mot x=2) är olika svar,
+         även om högerleden är lika. */
+      const vl=x=>(stadaSvar(rensa(x)).match(/^\s*([a-zåäö])\s*=/i)||[])[1]?.toLowerCase();
+      if(vl(a) && vl(f) && vl(a)!==vl(f)) return false;
       const r=algebraisktLika(hogerled(rensa(a)),hogerled(rensa(f)));
       if(r!==null) return r;
       return textNyckel(a)===textNyckel(f);

@@ -79571,9 +79571,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      139859.58056975753,
-      -25174.724502556353,
-      3.850817669777474
+      139900,
+      -25200,
+      3.85
     ],
     "tolerans": [
       50,
@@ -79661,9 +79661,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1480.4136719480919,
-      51.814478518183215,
-      11.58471737451898
+      1480,
+      51.8,
+      11.6
     ],
     "tolerans": [
       0.5,
@@ -79750,8 +79750,8 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      64.55240421004214,
-      10.692577010410114,
+      64.6,
+      10.7,
       20
     ],
     "tolerans": [
@@ -79841,9 +79841,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1457.6950403124072,
-      14.576950403124071,
-      8.746170241874442
+      1458,
+      14.58,
+      8.75
     ],
     "tolerans": [
       0.5,
@@ -79930,9 +79930,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1.1274968515793757,
-      12.749685157937574,
-      87.26801771841625
+      1.1275,
+      12.7,
+      87.3
     ],
     "tolerans": [
       0.00005,
@@ -80022,8 +80022,8 @@ window.BANKMATO1 = [
       null,
       null,
       [
-        5.756462732485114,
-        8.047189562170502
+        5.76,
+        8.05
       ]
     ],
     "tolerans": [
@@ -80118,9 +80118,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -0.10769572902311356,
-      -420.01334319014285,
-      10.209923998815162
+      -0.1077,
+      -420,
+      10.2
     ],
     "tolerans": [
       0.00005,
@@ -80207,9 +80207,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.026537810926544548,
-      4.2460497482471276,
-      26.119229746513195
+      0.0265,
+      4.25,
+      26.1
     ],
     "tolerans": [
       0.00005,
@@ -80298,9 +80298,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -0.13101419603653572,
-      5.290626523912328,
-      -8.165934465996862
+      -0.131,
+      5.29,
+      -8.17
     ],
     "tolerans": [
       0.00005,
@@ -80387,8 +80387,8 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.08109302162163287,
-      493.26069247528636,
+      0.0811,
+      493,
       null
     ],
     "tolerans": [
@@ -80478,8 +80478,8 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      -1792.0199291222766,
-      -1719.3431039999984
+      -1792,
+      -1719
     ],
     "tolerans": [
       null,
@@ -80569,7 +80569,7 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       null,
-      4.974546839369923,
+      4.97,
       null
     ],
     "tolerans": [
@@ -80658,8 +80658,8 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      -6.641233928008467,
-      4.475396846604926,
+      -6.64,
+      4.48,
       null
     ],
     "tolerans": [
@@ -80749,10 +80749,10 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      6.75775180180274,
+      6.76,
       [
-        44.090815370097204,
-        132.2724461102916
+        44.1,
+        132.3
       ],
       null
     ],
@@ -80849,8 +80849,8 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      98.04327427939742,
-      142.43461942351794,
+      98.0,
+      142.4,
       null
     ],
     "tolerans": [
@@ -80940,9 +80940,9 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      277.27019025740907,
+      277,
       null,
-      8.712845474945382
+      8.7
     ],
     "tolerans": [
       0.5,
@@ -81031,8 +81031,8 @@ window.BANKMATO1 = [
     "miniräknare": true,
     "svarstyp": "flera_delar",
     "rättSvar": [
-      13.732653608351372,
-      16.0116730682758,
+      13.73,
+      16.01,
       null
     ],
     "tolerans": [
@@ -81124,9 +81124,9 @@ window.BANKMATO1 = [
       [
         20,
         60,
-        0.17328679513998632
+        0.1733
       ],
-      13.512496890654484
+      13.51
     ],
     "tolerans": [
       [
@@ -81208,8 +81208,8 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       [
-        7.192051811294521,
-        19.962692405444283
+        7.19,
+        19.96
       ],
       null
     ],
@@ -81292,12 +81292,12 @@ window.BANKMATO1 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       [
-        115.07872315999664,
-        64.92127684000336,
-        0.46209812037329684
+        115.08,
+        64.92,
+        0.4621
       ],
       null,
-      3.4828921423310435
+      3.48
     ],
     "tolerans": [
       [

@@ -22327,7 +22327,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=x^2(x+3)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=3*x^2+6*x}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=3*x^2+6*x}\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur"
@@ -22561,7 +22561,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=(2x+1)(x-4)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=4*x-7}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=4*x-7}\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur"
@@ -22761,7 +22761,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\frac{x^2+1}{x}\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Kvotregeln håller reda på att både täljare och nämnare förändras. Skriv regeln innan du börjar förenkla.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=1-1/x^2}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Kvotregeln håller reda på att både täljare och nämnare förändras. Skriv regeln innan du börjar förenkla.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=1-1/x^2}\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur"
@@ -23182,7 +23182,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=x^3\\ln x\\), \\(x>0\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=3*x^2*\\ln(x)+x^2}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Produktregeln behövs eftersom båda faktorerna beror på x; derivera en faktor i taget och låt den andra stå kvar.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=3*x^2*\\ln(x)+x^2}\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur",
@@ -24132,7 +24132,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\frac{x-1}{x+1}\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Kvotregeln håller reda på att både täljare och nämnare förändras. Skriv regeln innan du börjar förenkla.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=2/(x+1)^2}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Kvotregeln håller reda på att både täljare och nämnare förändras. Skriv regeln innan du börjar förenkla.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=2/(x+1)^2}\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur",
@@ -24261,7 +24261,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Funktionen är \\(f(x)=(ax+b)e^x\\). Det gäller att \\(f(0)=2\\) och \\(f\\prime(0)=5\\).</p>",
+    "spelIntro": "<p>Funktionen är \\(f(x)=(ax+b)e^x\\). Det gäller att \\(f(0)=2\\) och \\(f'(0)=5\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -24458,8 +24458,8 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm \\(f\\prime(1)\\) om \\(f(x)=(x^2+2)(3x-1)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Båda faktorerna beror på x, så produktregeln behövs.</p><p>\\[f\\prime(x)=2x(3x-1)+3(x^2+2).\\]</p><p>Vid \\(x=1\\) blir</p><p>\\[f\\prime(1)=2\\cdot1\\cdot2+3\\cdot3=4+9=13.\\]</p><p><strong>Svar:</strong> \\(\\boxed{13}\\).</p>",
+    "t": "<p>Bestäm \\(f'(1)\\) om \\(f(x)=(x^2+2)(3x-1)\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Båda faktorerna beror på x, så produktregeln behövs.</p><p>\\[f'(x)=2x(3x-1)+3(x^2+2).\\]</p><p>Vid \\(x=1\\) blir</p><p>\\[f'(1)=2\\cdot1\\cdot2+3\\cdot3=4+9=13.\\]</p><p><strong>Svar:</strong> \\(\\boxed{13}\\).</p>",
     "familj": "Derivering med produkt- och kvotregeln",
     "formaga": [
       "procedur",
@@ -25188,7 +25188,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Funktionen ges av \\[f(x)=\\frac{ax+b}{x+1}.\\]</p><p>Det gäller att \\(f(1)=4\\) och \\(f\\prime(1)=3\\).</p>",
+    "spelIntro": "<p>Funktionen ges av \\[f(x)=\\frac{ax+b}{x+1}.\\]</p><p>Det gäller att \\(f(1)=4\\) och \\(f'(1)=3\\).</p>",
     "spelDelar": [
       {
         "etikett": "a",
@@ -25664,7 +25664,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=(3x+1)^4\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=12*(3*x+1)^3}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=12*(3*x+1)^3}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -25851,7 +25851,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\sqrt{2x+5}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=1/\\sqrt{2*x+5}}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=1/\\sqrt{2*x+5}}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -26078,7 +26078,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=e^{x^2}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=2*x*e^(x^2)}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=2*x*e^(x^2)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -26346,7 +26346,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\sin(4x)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=4*\\cos(4*x)}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=4*\\cos(4*x)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -26564,7 +26564,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\ln(5x-2)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=5/(5*x-2)}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=5/(5*x-2)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -26826,7 +26826,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=(x^2+1)^5\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=10*x*(x^2+1)^4}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=10*x*(x^2+1)^4}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -26978,7 +26978,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\cos(x^3)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=-3*x^2*\\sin(x^3)}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=-3*x^2*\\sin(x^3)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -27196,7 +27196,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=e^{\\sin x}\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=e^(\\sin(x))*\\cos(x)}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=e^(\\sin(x))*\\cos(x)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -27441,7 +27441,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\ln(1+x^4)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=4*x^3/(1+x^4)}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=4*x^3/(1+x^4)}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -27701,7 +27701,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm \\(f\\prime(1)\\) för \\(f(x)=(2x^2-1)^3\\).</p>",
+    "t": "<p>Bestäm \\(f'(1)\\) för \\(f(x)=(2x^2-1)^3\\).</p>",
     "s": "<p>Kedjeregeln ger</p><p>\\[f'(x)=3(2x^2-1)^2\\cdot4x=12x(2x^2-1)^2.\\]</p><p>Vid \\(x=1\\):</p><p>\\[f'(1)=12\\cdot1\\cdot1^2=\\boxed{12}.\\]</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
@@ -28058,7 +28058,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Bestäm a så att \\(f(x)=(ax+1)^5\\) uppfyller \\(f\\prime(0)=15\\).</p>",
+    "t": "<p>Bestäm a så att \\(f(x)=(ax+1)^5\\) uppfyller \\(f'(0)=15\\).</p>",
     "s": "<p>Kedjeregeln ger</p><p>\\[f'(x)=5a(ax+1)^4.\\]</p><p>Vid \\(x=0\\): \\(f'(0)=5a=15\\), alltså \\(\\boxed{a=3}\\).</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
@@ -28348,7 +28348,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>En elev deriverar \\(\\sqrt{1+x^2}\\) till \\(1/(2\\sqrt{1+x^2})\\). Förklara exakt vilket steg som saknas och bestäm korrekt derivata.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p>Yttre funktionen är \\(\\sqrt u\\), vars derivata är \\(1/(2\\sqrt u)\\). Inre funktionen är \\(u=1+x^2\\), vars derivata är \\(2x\\). Multiplikation ger \\(f\\prime(x)=x/\\sqrt{1+x^2}\\).</p><p><strong>Slutsats:</strong> Eleven har glömt faktorn \\(2x\\) från den inre derivatan.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Kedjeregeln består av två delar: derivatan av den yttre funktionen och derivatan av det inre uttrycket. Den senare faktorn är den vanligaste delen att missa.</p><p>Yttre funktionen är \\(\\sqrt u\\), vars derivata är \\(1/(2\\sqrt u)\\). Inre funktionen är \\(u=1+x^2\\), vars derivata är \\(2x\\). Multiplikation ger \\(f'(x)=x/\\sqrt{1+x^2}\\).</p><p><strong>Slutsats:</strong> Eleven har glömt faktorn \\(2x\\) från den inre derivatan.</p>",
     "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur",
@@ -29054,7 +29054,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=5e^{2x}\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> För exponentialfunktionen behövs även derivatan av exponenten 2x.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=10*e^(2x)}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> För exponentialfunktionen behövs även derivatan av exponenten 2x.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=10*e^(2x)}\\).</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur",
@@ -29585,7 +29585,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\ln(3x)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Använd \\((\\ln u)\\prime=u\\prime/u\\). Här är u=3x och u′=3, så trean förkortas.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=1/x}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Använd \\((\\ln u)'=u'/u\\). Här är u=3x och u′=3, så trean förkortas.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=1/x}\\).</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur",
@@ -30126,7 +30126,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=e^{x}\\sin x\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Uttrycket är en produkt; produktregeln behövs och båda specialfunktionerna måste deriveras.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=e^x*(\\sin(x)+\\cos(x))}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Uttrycket är en produkt; produktregeln behövs och båda specialfunktionerna måste deriveras.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=e^x*(\\sin(x)+\\cos(x))}\\).</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur",
@@ -30745,7 +30745,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Derivera \\(f(x)=\\ln(x^2+1)\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Logaritmen är den yttre funktionen och x²+1 den inre. Kedjeregeln ger u′/u.</p><p><strong>Svar:</strong> \\(\\boxed{f\\prime(x)=2*x/(x^2+1)}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> Deriveringsregeln väljs utifrån hur funktionen är uppbyggd. Ett korrekt mellanled visar vilken del som deriveras och förhindrar att en faktor från produkt-, kvot- eller kedjeregeln tappas bort.</p><p><strong>Nyckelidé:</strong> Logaritmen är den yttre funktionen och x²+1 den inre. Kedjeregeln ger u′/u.</p><p><strong>Svar:</strong> \\(\\boxed{f'(x)=2*x/(x^2+1)}\\).</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur",
@@ -31390,7 +31390,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm alla stationära punkter till \\(f(x)=x e^{-x}\\) och avgör deras typ.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Produktregeln ger en faktoriserbar derivata. Teckenstudera sedan derivatan runt nollstället.</p><p>\\(f\\prime(x)=e^{-x}-xe^{-x}=e^{-x}(1-x)\\). Eftersom \\(e^{-x}>0\\) är enda stationära x-värdet \\(x=1\\). Derivatan går från positiv till negativ när x passerar 1, alltså är punkten en maximipunkt. \\(f(1)=1/e\\).</p><p><strong>Svar:</strong> Maximipunkten är \\(\\boxed{(1,1/e)}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Produktregeln ger en faktoriserbar derivata. Teckenstudera sedan derivatan runt nollstället.</p><p>\\(f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x)\\). Eftersom \\(e^{-x}>0\\) är enda stationära x-värdet \\(x=1\\). Derivatan går från positiv till negativ när x passerar 1, alltså är punkten en maximipunkt. \\(f(1)=1/e\\).</p><p><strong>Svar:</strong> Maximipunkten är \\(\\boxed{(1,1/e)}\\).</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur",
@@ -31936,7 +31936,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Visa att derivatan av \\(\\tan x\\) kan skrivas \\(1/\\cos^2x\\) genom att utgå från \\(\\tan x=\\sin x/\\cos x\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd kvotregeln och trigonometriska ettan i täljaren.</p><p>\\[\\left(\\frac{\\sin x}{\\cos x}\\right)\\prime=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}=\\frac1{\\cos^2x}.\\]</p><p><strong>Slutsats:</strong> Derivatan är visad på alla intervall där tangens är definierad.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Använd kvotregeln och trigonometriska ettan i täljaren.</p><p>\\[\\left(\\frac{\\sin x}{\\cos x}\\right)'=\\frac{\\cos^2x+\\sin^2x}{\\cos^2x}=\\frac1{\\cos^2x}.\\]</p><p><strong>Slutsats:</strong> Derivatan är visad på alla intervall där tangens är definierad.</p>",
     "familj": "Derivering av specialfunktioner",
     "formaga": [
       "procedur",
@@ -32571,7 +32571,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En rektangel har omkretsen 52 cm. Bestäm de sidlängder som ger maximal area.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Skriv arean med en variabel. Om sidorna är x och 26−x blir \\(A(x)=x(26-x)\\).</p><p>\\(A\\prime(x)=26-2x=0\\Rightarrow x=13\\). Andraderivatan är −2&lt;0, så arean är maximal.</p><p><strong>Svar:</strong> \\(\\boxed{13\\text{ cm}\\times13\\text{ cm}}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Skriv arean med en variabel. Om sidorna är x och 26−x blir \\(A(x)=x(26-x)\\).</p><p>\\(A'(x)=26-2x=0\\Rightarrow x=13\\). Andraderivatan är −2&lt;0, så arean är maximal.</p><p><strong>Svar:</strong> \\(\\boxed{13\\text{ cm}\\times13\\text{ cm}}\\).</p>",
     "familj": "Tillämpad optimering med derivata",
     "formaga": [
       "modellering",
@@ -33539,7 +33539,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En öppen låda tillverkas genom att kvadrater med sidan x klipps bort ur hörnen på ett 30 cm × 20 cm stort ark. Bestäm x som ger maximal volym.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Efter vikning blir höjden x och bottenmåtten \\(30-2x\\) och \\(20-2x\\). Därför \\(V(x)=x(30-2x)(20-2x)\\), med \\(0&lt;x&lt;10\\).</p><p>Derivera och lös \\(V\\prime(x)=0\\). Den relevanta roten är \\(x=(25-5\\sqrt7)/3\\approx3,92\\) cm; den andra ligger utanför intervallet. Ändpunkterna ger volym 0, så den inre kritiska punkten ger maximum.</p><p><strong>Svar:</strong> \\(\\boxed{x\\approx3,92\\text{ cm}}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Efter vikning blir höjden x och bottenmåtten \\(30-2x\\) och \\(20-2x\\). Därför \\(V(x)=x(30-2x)(20-2x)\\), med \\(0&lt;x&lt;10\\).</p><p>Derivera och lös \\(V'(x)=0\\). Den relevanta roten är \\(x=(25-5\\sqrt7)/3\\approx3,92\\) cm; den andra ligger utanför intervallet. Ändpunkterna ger volym 0, så den inre kritiska punkten ger maximum.</p><p><strong>Svar:</strong> \\(\\boxed{x\\approx3,92\\text{ cm}}\\).</p>",
     "familj": "Tillämpad optimering med derivata",
     "formaga": [
       "modellering",
@@ -34323,7 +34323,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En rektangels area är 48 cm². Bestäm den minsta möjliga omkretsen och motivera att värdet verkligen är ett minimum.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Med area xy=48 kan y skrivas 48/x. Omkretsen blir \\(P(x)=2x+96/x\\), x&gt;0.</p><p>\\(P\\prime(x)=2-96/x^2=0\\Rightarrow x^2=48\\Rightarrow x=4\\sqrt3\\). Då är även y=4\\sqrt3. Andraderivatan \\(192/x^3&gt;0\\), alltså är det ett minimum.</p><p><strong>Svar:</strong> \\(P_{min}=16\\sqrt3\\approx27,7\\) cm.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Med area xy=48 kan y skrivas 48/x. Omkretsen blir \\(P(x)=2x+96/x\\), x&gt;0.</p><p>\\(P'(x)=2-96/x^2=0\\Rightarrow x^2=48\\Rightarrow x=4\\sqrt3\\). Då är även y=4\\sqrt3. Andraderivatan \\(192/x^3&gt;0\\), alltså är det ett minimum.</p><p><strong>Svar:</strong> \\(P_{min}=16\\sqrt3\\approx27,7\\) cm.</p>",
     "familj": "Tillämpad optimering med derivata",
     "formaga": [
       "modellering",
@@ -35833,7 +35833,7 @@ window.BANKMATO2 = [
     "poang": "4/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>För \\(f(x)=x^3-3x\\):</p><p>a) bestäm \\(f\\prime(x)\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) bestäm x-koordinaterna för de punkter där \\(f\\prime(x)=0\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) avgör var funktionen är växande respektive avtagande,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) bestäm koordinaterna för de punkter där \\(f\\prime(x)=0\\).</p>",
+    "t": "<p>För \\(f(x)=x^3-3x\\):</p><p>a) bestäm \\(f'(x)\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) bestäm x-koordinaterna för de punkter där \\(f'(x)=0\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) avgör var funktionen är växande respektive avtagande,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) bestäm koordinaterna för de punkter där \\(f'(x)=0\\).</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Förstaderivatan beskriver var funktionen växer och avtar; andraderivatan beskriver hur grafen böjer. Gör teckentabell kring kritiska punkter.</p><div class=\"facit-arbete\"><p>a) \\(f'(x)=3x^2-3=3(x-1)(x+1)\\).</p><p>b) \\(x=-1,1\\).</p><p>c) Växande för <strong>\\(x&lt;-1\\) och \\(x&gt;1\\)</strong>, avtagande för <strong>\\(-1&lt;x&lt;1\\)</strong>.</p><p>d) \\(f(-1)=2\\), \\(f(1)=-2\\). Punkterna är <strong>\\((-1,2)\\)</strong> och <strong>\\((1,-2)\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera varje kritisk punkt på båda sidor; ett nollställe för derivatan är inte automatiskt ett extremvärde.</p></div>",
     "familj": "Grafanalys med derivata",
     "formaga": [
@@ -35867,7 +35867,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>Bestäm \\(f\\prime(x)\\).</p>",
+        "fraga": "<p>Bestäm \\(f'(x)\\).</p>",
         "s": "<p>\\(f'(x)=3x^2-3=3(x-1)(x+1)\\).</p>",
         "niva": "E",
         "poang": "1/0/0"
@@ -39141,7 +39141,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till \\(f(x)=3\\cos x\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p><strong>Nyckelidé:</strong> Vi söker en funktion vars derivata är 3 \\cos x. Eftersom \\((\\sin x)\\prime=\\cos x\\) följer konstantfaktorn med.</p><p><strong>Svar:</strong> \\(\\boxed{F(x)=3\\sin x+C}\\).</p>",
+    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p><strong>Nyckelidé:</strong> Vi söker en funktion vars derivata är 3 \\cos x. Eftersom \\((\\sin x)'=\\cos x\\) följer konstantfaktorn med.</p><p><strong>Svar:</strong> \\(\\boxed{F(x)=3\\sin x+C}\\).</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur",
@@ -42111,7 +42111,7 @@ window.BANKMATO2 = [
     "poang": "0/1/2",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En funktion f är kontinuerlig och \\(F\\prime=f\\). Visa att \\(G(x)=F(x)+7\\) ger samma värde på varje bestämd integral av f som F gör.</p>",
+    "t": "<p>En funktion f är kontinuerlig och \\(F'=f\\). Visa att \\(G(x)=F(x)+7\\) ger samma värde på varje bestämd integral av f som F gör.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Två primitiva funktioner till samma f skiljer sig bara med en konstant.</p><p>Vid en bestämd integral subtraheras ändpunktsvärden: \\(G(b)-G(a)=[F(b)+7]-[F(a)+7]=F(b)-F(a)\\). Konstanten försvinner.</p><p><strong>Slutsats:</strong> Den bestämda integralen är oberoende av vilken primitiv funktion i familjen man väljer.</p>",
     "familj": "Beräkna bestämda integraler",
     "formaga": [

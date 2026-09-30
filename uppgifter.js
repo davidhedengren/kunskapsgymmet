@@ -53914,7 +53914,7 @@ window.BANK = [
     "typ": "tryckbalans mellan vätskepelare",
     "poang": "(2/0/0)",
     "t": "<p>I ett öppet U-rör står en 14 cm hög oljepelare ovanpå vatten i vänster skänkel. Oljans densitet är 850 kg/m³ och vattnets 1000 kg/m³. Båda öppningarna har samma lufttryck.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"340\" viewBox=\"0 0 520 340\" role=\"img\" aria-label=\"U-rör med en 14 cm hög oljepelare i vänster skänkel och vatten i röret\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"338\" rx=\"12\" fill=\"#fff\" stroke=\"#d4d8df\"/><path d=\"M100 214 L100 282 C100 326 420 326 420 282 L420 102 L332 102 L332 282 C332 292 188 292 188 282 L188 214 Z\" fill=\"#b9dcf3\"/><path d=\"M100 82 L188 82 L188 214 L100 214 Z\" fill=\"#f2cf72\"/><path d=\"M100 42 V282 C100 326 420 326 420 282 V42\" fill=\"none\" stroke=\"#2b2d31\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M188 42 V282 C188 292 332 292 332 282 V42\" fill=\"none\" stroke=\"#2b2d31\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"101.5\" y1=\"82\" x2=\"186.5\" y2=\"82\" stroke=\"#9d7a20\" stroke-width=\"2.5\"/><line x1=\"333.5\" y1=\"102\" x2=\"418.5\" y2=\"102\" stroke=\"#4b8db8\" stroke-width=\"2.5\"/><line x1=\"101.5\" y1=\"214\" x2=\"186.5\" y2=\"214\" stroke=\"#4f5963\" stroke-width=\"2\" stroke-dasharray=\"7 6\"/><line x1=\"80\" y1=\"82\" x2=\"80\" y2=\"214\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"73\" y1=\"82\" x2=\"87\" y2=\"82\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"73\" y1=\"214\" x2=\"87\" y2=\"214\" stroke=\"#555\" stroke-width=\"1.8\"/><text x=\"66\" y=\"153\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#333\">14 cm</text><line x1=\"440\" y1=\"102\" x2=\"440\" y2=\"214\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"433\" y1=\"102\" x2=\"447\" y2=\"102\" stroke=\"#555\" stroke-width=\"1.8\"/><line x1=\"433\" y1=\"214\" x2=\"447\" y2=\"214\" stroke=\"#555\" stroke-width=\"1.8\"/><text x=\"454\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-style=\"italic\" fill=\"#333\">h</text><text x=\"144\" y=\"148\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#5c4a13\">olja</text><text x=\"376\" y=\"188\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#245f86\">vatten</text></svg></span><p>Hur högt står vattenytan i höger skänkel över gränsytans nivå? Svara i cm. Avrunda vid behov till 1 decimal.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Trycket är lika stort på samma horisontella nivå i den sammanhängande vätskan. Jämför därför trycket vid olja-vatten-gränsens nivå.</p><div class=\"facit-matte\">\[p_{atm}+\rho_{olja}g\cdot0,14=p_{atm}+\rho_{vatten}g\cdot h\]</div><p>Lufttrycket och \(g\) förkortas bort:</p><div class=\"facit-matte\">\[h=\frac{850}{1000}\cdot0,14=0,119\ \mathrm m=11,9\ \mathrm{cm}\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 11,9 cm.</p></div>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Trycket är lika stort på samma horisontella nivå i den sammanhängande vätskan. Jämför därför trycket vid olja-vatten-gränsens nivå.</p><div class=\"facit-matte\">\\[p_{atm}+\\rho_{olja}g\\cdot0,14=p_{atm}+\\rho_{vatten}g\\cdot h\\]</div><p>Lufttrycket och \\(g\\) förkortas bort:</p><div class=\"facit-matte\">\\[h=\\frac{850}{1000}\\cdot0,14=0,119\\ \\mathrm m=11,9\\ \\mathrm{cm}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 11,9 cm.</p></div>",
     "familj": "Tryckbalans mellan vätskepelare",
     "formaga": [
       "procedur"
@@ -71717,14 +71717,14 @@ window.BANK = [
     "id": "8.98",
     "kap": 8,
     "omr": "ems",
-    "niva": "A",
-    "poang": "(0/2/2)",
+    "niva": "E",
+    "poang": "(3/1/0)",
     "t": "<p>Från ett kraftverk ska 100 MW överföras 200 km. Ledningens resistans är 0,050 Ω per km.</p>\n<ol><li>Vilken resistans har hela ledningen?</li>\n<li>Beräkna strömmen och effektförlusten vid överföringsspänningen 400 kV.</li>\n<li>Gör samma beräkning vid 20 kV och förklara resultatet.</li></ol>",
     "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med uppgiftens resistansangivelse för hela överföringsledningen blir</p><div class=\"facit-matte\">\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</div><p>Om 0,050 Ω/km i stället avser varje ledare måste returledningen också räknas och resistansen fördubblas.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid 400 kV kräver 100 MW strömmen</p><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{100\\cdot10^6}{400\\cdot10^3}=250\\ \\mathrm A\\]\\[P_f=I^2R=250^2\\cdot10\\approx625000\\ \\mathrm{W}=0{,}625\\ \\mathrm{MW}\\]</div><p>Det är \\(0{,}625\\,\\%\\) av 100 MW.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid 20 kV skulle samma enkla beräkning kräva</p><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{20\\cdot10^3}=5000\\ \\mathrm A\\]\\[P_f=5000^2\\cdot10\\approx250000000\\ \\mathrm{W}=250\\ \\mathrm{MW}\\]</div><p>Resultatet visar att antagandet att 100 MW samtidigt når lasten vid 20 kV är omöjligt med denna ledning: spänningsfall och förlust blir för stora. Hög överföringsspänning minskar strömmen och därmed \\(I^2R\\)-förlusten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ledningsresistansen är \\(10\\ \\Omega\\). Vid 400 kV blir strömmen \\(250\\ \\mathrm A\\) och förlusten \\(0{,}625\\ \\mathrm{MW}\\); vid 20 kV visar modellen den orimliga förlusten \\(250\\ \\mathrm{MW}\\).</p></div>",
     "familj": "Elektrisk energi, effekt och batterier",
     "formaga": [
-      "modellering",
-      "problemlösning"
+      "procedur",
+      "begrepp"
     ],
     "familjNyckel": "ems__elektrisk_energi_effekt_och_batterier",
     "svarstyp": "manuell",
@@ -71732,7 +71732,7 @@ window.BANK = [
     "tolerans": null,
     "självrättning": false,
     "familjNyckelTidigare": "ems__elektrisk_energi_i_vardagen",
-    "ledtrad": "<p>Med uppgiftens resistansangivelse för hela överföringsledningen blir</p>",
+    "ledtrad": "<p>Resistansen är proportionell mot ledningens längd. Strömmen får du ur sambandet mellan effekt, spänning och ström, och förlusten i ledningen beror på strömmen och resistansen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Från ett kraftverk ska 100 MW överföras 200 km. Ledningens resistans är 0,050 Ω per km.</p>",
     "spelDelar": [
@@ -71740,27 +71740,27 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken resistans har hela ledningen?",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Med uppgiftens resistansangivelse för hela överföringsledningen blir</p><div class=\"facit-matte\">\\[R=0{,}050\\cdot200=10\\ \\Omega\\]</div><p>Om 0,050 Ω/km i stället avser varje ledare måste returledningen också räknas och resistansen fördubblas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\Omega\\).</p></div>",
-        "ledtrad": "<p>Med uppgiftens resistansangivelse för hela överföringsledningen blir</p>",
-        "niva": "A"
+        "ledtrad": "<p>Hur lång är ledningen, och hur stor är resistansen per kilometer?</p>",
+        "niva": "E"
       },
       {
         "etikett": "b",
         "fraga": "Beräkna strömmen och effektförlusten vid överföringsspänningen 400 kV.",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid 400 kV kräver 100 MW strömmen</p><div class=\"facit-matte\">\\[I=\\frac PU=\\frac{100\\cdot10^6}{400\\cdot10^3}=250\\ \\mathrm A\\]\\[P_f=I^2R=250^2\\cdot10\\approx625000\\ \\mathrm{W}=0{,}625\\ \\mathrm{MW}\\]</div><p>Det är \\(0{,}625\\,\\%\\) av 100 MW.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}625\\ \\mathrm{MW}\\).</p></div>",
-        "ledtrad": "<p>Med uppgiftens resistansangivelse för hela överföringsledningen blir</p>",
-        "niva": "A"
+        "ledtrad": "<p>Vilken ström krävs för att överföra 100 MW vid 400 kV? Hur beror effektförlusten i ledningen på strömmen och resistansen?</p>",
+        "niva": "E"
       },
       {
         "etikett": "c",
         "fraga": "Gör samma beräkning vid 20 kV och förklara resultatet.",
         "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid 20 kV skulle samma enkla beräkning kräva</p><div class=\"facit-matte\">\\[I=\\frac{100\\cdot10^6}{20\\cdot10^3}=5000\\ \\mathrm A\\]\\[P_f=5000^2\\cdot10\\approx250000000\\ \\mathrm{W}=250\\ \\mathrm{MW}\\]</div><p>Resultatet visar att antagandet att 100 MW samtidigt når lasten vid 20 kV är omöjligt med denna ledning: spänningsfall och förlust blir för stora. Hög överföringsspänning minskar strömmen och därmed \\(I^2R\\)-förlusten.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\ \\mathrm{MW}\\).</p></div>",
-        "ledtrad": "<p>Med uppgiftens resistansangivelse för hela överföringsledningen blir</p>",
-        "niva": "A"
+        "ledtrad": "<p>Hur många gånger större blir strömmen när spänningen är 20 kV i stället för 400 kV? Hur påverkar det förlusten \\(RI^2\\)?</p>",
+        "niva": "C"
       }
     ],
     "geogebra": false,
     "miniräknare": true,
-    "traningsniva": 5,
+    "traningsniva": 2,
     "arbetsinsats": 3,
     "spel": false,
     "manuellKomplettering": true

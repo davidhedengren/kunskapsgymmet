@@ -70315,5 +70315,358 @@ window.BANKMATO2 = [
       "minsta grad",
       "P(x)"
     ]
+  },
+  {
+    "id": "4.453",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Dividera polynomet</p><p>\\[x^3-4x^2-x+4\\]</p><p>med \\(x-4\\). Förenkla kvoten.</p>",
+    "s": "<p>Gruppera eller använd polynomdivision:</p><p>\\[x^3-4x^2-x+4=x^2(x-4)-(x-4)=(x-4)(x^2-1).\\]</p><p>Alltså blir kvoten \\(x^2-1\\).</p>",
+    "familj": "Polynomdivision",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2-1",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Kontrollera först om \\(x-4\\) går att bryta ut genom gruppering.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "familjNyckel": "polynom_komplexa__polynomdivision",
+    "idTidigare": "mato1 1.408"
+  },
+  {
+    "id": "4.454",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Polynomet är \\(P(x)=2x^3-3x+5\\).</p><p>Bestäm resten när \\(P(x)\\) divideras med \\(x-2\\).</p>",
+    "s": "<p>Enligt restsatsen är resten \\(P(2)\\):</p><p>\\[P(2)=2\\cdot 2^3-3\\cdot2+5=16-6+5=15.\\]</p><p><strong>Svar: 15.</strong></p>",
+    "familj": "Restsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Restsatsen säger att resten vid division med \\(x-a\\) är \\(P(a)\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "familjNyckel": "polynom_komplexa__restsatsen",
+    "idTidigare": "mato1 1.409"
+  },
+  {
+    "id": "4.455",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Polynomet är</p><p>\\[P(x)=x^3-2x^2-5x+6.\\]</p><p>Visa att \\(x=1\\) är ett nollställe och faktorisera därefter \\(P(x)\\) fullständigt.</p>",
+    "s": "<p>\\[P(1)=1-2-5+6=0,\\]</p><p>så \\(x-1\\) är en faktor. Polynomdivision ger</p><p>\\[P(x)=(x-1)(x^2-x-6).\\]</p><p>Eftersom \\(x^2-x-6=(x-3)(x+2)\\) fås</p><p>\\[\\boxed{P(x)=(x-1)(x-3)(x+2)}.\\]</p>",
+    "familj": "Faktorsatsen, faktorisering och polynomrötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med att beräkna \\(P(1)\\). När du vet en faktor kan du dividera bort den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": false,
+    "familjNyckel": "polynom_komplexa__faktorsatsen_faktorisering_och_polynomrotter",
+    "idTidigare": "mato1 1.410"
+  },
+  {
+    "id": "4.456",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Förenkla</p><p>\\[\\frac{x^3-8}{x-2}\\qquad (x\\ne2).\\]</p>",
+    "s": "<p>Skillnaden av två kuber ger</p><p>\\[x^3-8=(x-2)(x^2+2x+4).\\]</p><p>Efter förkortning blir uttrycket \\(x^2+2x+4\\).</p>",
+    "familj": "Polynomdivision",
+    "geogebra": false,
+    "miniräknare": false,
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "x^2+2x+4",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "ledtrad": "<p>Faktorisera \\(x^3-2^3\\).</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "familjNyckel": "polynom_komplexa__polynomdivision",
+    "idTidigare": "mato1 1.417"
+  },
+  {
+    "id": "4.457",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm \\(a\\) så att \\(x-2\\) är en faktor i</p><p>\\[P(x)=x^3+ax^2-5x+6.\\]</p>",
+    "s": "<p>Faktorsatsen ger villkoret \\(P(2)=0\\):</p><p>\\[8+4a-10+6=0\\Rightarrow 4a+4=0.\\]</p><p>Alltså \\(\\boxed{a=-1}\\).</p>",
+    "familj": "Faktorsatsen, faktorisering och polynomrötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 0,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Om \\(x-2\\) är en faktor måste \\(P(2)=0\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "familjNyckel": "polynom_komplexa__faktorsatsen_faktorisering_och_polynomrotter",
+    "idTidigare": "mato1 1.418"
+  },
+  {
+    "id": "4.458",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Dividera \\(P(x)=x^2+5x+6\\) med \\(x+2\\). Vad blir kvoten?</p>",
+    "s": "Faktorisera \\(P(x)=(x+2)(x+3)\\). Vid division med \\(x+2\\) återstår därför \\(\\boxed{x+3}\\).",
+    "familj": "Polynomdivision",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "uttryck",
+    "rättSvar": "x+3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "Du kan antingen göra polynomdivision eller först faktorisera täljaren.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "uttryck",
+    "familjNyckel": "polynom_komplexa__polynomdivision",
+    "idTidigare": "mato1 1.494"
+  },
+  {
+    "id": "4.459",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vid division av ett polynom \\(P(x)\\) med \\(x-7\\) är resten 1. Vad är \\(P(7)\\)?</p>",
+    "s": "<p><strong>Lösning:</strong> Restsatsen säger att resten vid division med \\(x-7\\) är \\(P(7)\\). Alltså \\(P(7)=1\\).</p><p><strong>Svar:</strong> 1</p>",
+    "familj": "Restsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Använd restsatsen: resten vid division med x-a är P(a).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "polynom_komplexa__restsatsen",
+    "idTidigare": "mato1 1.495"
+  },
+  {
+    "id": "4.460",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p><p>A. \\(x+2\\)<br>B. \\(x-2\\)<br>C. \\(2x-1\\)<br>D. \\(x^2+2\\)</p>",
+    "s": "Faktorsatsen säger att \\(P(a)=0\\) om och endast om \\(x-a\\) är en faktor. Eftersom \\(P(2)=0\\) måste \\(x-2\\) vara en faktor. <b>Svar: B</b>.",
+    "familj": "Faktorsatsen, faktorisering och polynomrötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "Koppla ett nollställe \\(x=a\\) till faktorn \\(x-a\\).",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "val",
+    "familjNyckel": "polynom_komplexa__faktorsatsen_faktorisering_och_polynomrotter",
+    "idTidigare": "mato1 1.496"
+  },
+  {
+    "id": "4.461",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^3-4x^2+x+6\\) har nollstället \\(x=2\\). Bestäm det största av de två övriga nollställena.</p>",
+    "s": "Eftersom \\(x=2\\) är ett nollställe är \\(x-2\\) en faktor. Polynomdivision ger \\(P(x)=(x-2)(x^2-2x-3)=(x-2)(x-3)(x+1)\\). De övriga nollställena är 3 och -1, så det största är \\(\\boxed{3}\\).",
+    "familj": "Faktorsatsen, faktorisering och polynomrötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "Dividera polynomet med \\(x-2\\) och faktorisera sedan andragradspolynomet.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "polynom_komplexa__faktorsatsen_faktorisering_och_polynomrotter",
+    "idTidigare": "mato1 1.497"
+  },
+  {
+    "id": "4.462",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För ett polynom gäller \\(P(3)=-4\\). Vilken rest får man när \\(P(x)\\) divideras med \\(x-3\\)?</p>",
+    "s": "Restsatsen säger att resten vid division med \\(x-a\\) är \\(P(a)\\). Här är resten därför \\(\\boxed{-4}\\).",
+    "familj": "Restsatsen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "Restsatsen kopplar resten vid division med \\(x-a\\) direkt till \\(P(a)\\).",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "polynom_komplexa__restsatsen",
+    "idTidigare": "mato1 1.498"
+  },
+  {
+    "id": "4.463",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>Polynomet \\(P(x)=x^2+kx-12\\) har faktorn \\(x-3\\). Bestäm \\(k\\).</p>",
+    "s": "Faktorn \\(x-3\\) innebär enligt faktorsatsen att \\(P(3)=0\\). Därför \\(9+3k-12=0\\), alltså \\(3k=3\\) och \\(\\boxed{k=1}\\).",
+    "familj": "Faktorsatsen, faktorisering och polynomrötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "Om \\(x-3\\) är en faktor måste \\(x=3\\) vara ett nollställe.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "polynom_komplexa__faktorsatsen_faktorisering_och_polynomrotter",
+    "idTidigare": "mato1 1.499"
+  },
+  {
+    "id": "4.464",
+    "kap": 4,
+    "omr": "polynom_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "t": "<p>För \\(P(x)=x^2+kx+6\\) gäller \\(P(-2)=0\\). Bestäm \\(k\\).</p>",
+    "s": "Sätt in \\(x=-2\\): \\(4-2k+6=0\\). Då är \\(10-2k=0\\), så \\(\\boxed{k=5}\\).",
+    "familj": "Faktorsatsen, faktorisering och polynomrötter",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "Använd att ett nollställe gör polynomets värde lika med 0.",
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "spel": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "polynom_komplexa__faktorsatsen_faktorisering_och_polynomrotter",
+    "idTidigare": "mato1 1.500"
   }
 ];

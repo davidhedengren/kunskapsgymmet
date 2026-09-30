@@ -7737,7 +7737,11 @@ function latexToPlain(s){
   x=x.replace(/\\left|\\right/g,"");
   /* LaTeX-funktionsnamn förekommer i bankens rättSvar. Gör dem till
      samma plain-text-form som elever normalt skriver i svarsrutan. */
-  x=x.replace(/\\(arcsin|arccos|arctan|asin|acos|atan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp|abs)\b/g,"$1");
+  /* \frac\pi4 utan klamrar. */
+  x=x.replace(/\\(?:d?frac)\s*\\pi\s*([+-]?\d)/g,"((\\pi)/($1))");
+  /* (?![a-zA-Z]) i stället för \b: i "\cos5x" finns ingen ordgräns mellan s och 5.
+     Mellanslaget före namnet hindrar att "i\sin0" blir ordet "isin0". */
+  x=x.replace(/\\(arcsin|arccos|arctan|asin|acos|atan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp|abs)(?![a-zA-Z])/g," $1");
 
   for(let i=0;i<4;i++){
     x=x.replace(/\^\s*\{([^{}]*)\}/g,"^($1)");
@@ -7745,7 +7749,7 @@ function latexToPlain(s){
   }
   x=x.replace(/\\cdot|\\times/g,"*");
   x=x.replace(/\\pi/g,"pi");
-  x=x.replace(/\\(arcsin|arccos|arctan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp)\b/g," $1");
+  x=x.replace(/\\(arcsin|arccos|arctan|sinh|cosh|tanh|sin|cos|tan|ln|log|exp)(?![a-zA-Z])/g," $1");
   x=x.replace(/\\,/g,"");
   x=x.replace(/\\text\s*\{([^{}]*)\}/g," $1 ");
 
@@ -7828,16 +7832,18 @@ function explicitMultiplikation(x){
   const token=new RegExp("("+MATTEFUNKTIONER.join("|")+")|(\\d+(?:\\.\\d+)?)|([a-z])|([\\s\\S])","g");
   let ut="", forra=null, m;
   while((m=token.exec(x))){
-    const typ = m[1]?"fn" : m[2]?"tal" : m[3]?"bok" : "ovr";
+    /* pi är en konstant, inte en funktion: 2pisin(pix) ska bli 2*pi*sin(pi*x). */
+    const typ = m[1]==="pi"?"konst" : m[1]?"fn" : m[2]?"tal" : m[3]?"bok" : "ovr";
     const txt = m[0];
     if(forra){
       const p=forra.typ, pt=forra.txt;
       const stjarna =
-           (p==="tal" && (typ==="bok"||typ==="fn"||txt==="("))
-        || (p==="bok" && (typ==="bok"||typ==="fn"))
+           (p==="tal" && (typ==="bok"||typ==="fn"||typ==="konst"||txt==="("))
+        || (p==="bok" && (typ==="bok"||typ==="fn"||typ==="konst"))
 
         || (p==="bok" && txt==="(" && !"fgh".includes(pt))
-        || (pt===")"  && (typ==="bok"||typ==="tal"||typ==="fn"||txt==="("));
+        || (p==="konst" && (typ==="bok"||typ==="fn"||typ==="konst"||typ==="tal"||txt==="("))
+        || (pt===")"  && (typ==="bok"||typ==="tal"||typ==="fn"||typ==="konst"||txt==="("));
       if(stjarna) ut+="*";
     }
     ut+=txt; forra={typ,txt};

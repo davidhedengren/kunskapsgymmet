@@ -9517,7 +9517,7 @@ window.BANK = [
   {
     "id": "3.11",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "tolka hissens hastighet ur fyra tidsintervall",
     "poang": "(4/0/0)",
@@ -9528,7 +9528,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -9621,7 +9621,7 @@ window.BANK = [
   {
     "id": "3.12",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "poang": "(2/1/0)",
     "t": "<p>Daniel springer längs en rak bana. Först springer han framåt med hastigheten 4,0 m/s i 12 sekunder. Sedan står han stilla i 4,0 sekunder innan han springer tillbaka med hastigheten 6,0 m/s i 6,0 sekunder. Anta att accelerationerna sker momentant.</p>\n<ol><li>Rita ett v-t-diagram som visar Daniels rörelse.</li>\n<li>Hur långt från utgångsläget befinner sig Daniel efter 22 sekunder?</li>\n<li>Vilken medelhastighet hade han under hela rörelsen?</li></ol>",
@@ -9631,7 +9631,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -9648,7 +9648,7 @@ window.BANK = [
   {
     "id": "3.13",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "läsa hastigheter, startvärde och möte i lägesdiagram",
     "poang": "(5/0/0)",
@@ -9659,7 +9659,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       6,
@@ -9768,7 +9768,7 @@ window.BANK = [
   {
     "id": "3.240",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "avläsa lutning i läge–tid-diagram",
     "poang": "(1/0/0)",
@@ -9778,7 +9778,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 2.5,
     "tolerans": 0,
@@ -9795,7 +9795,7 @@ window.BANK = [
   {
     "id": "3.14",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "at_diagram",
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>En vagn står stilla vid t = 0. Sedan har den den konstanta accelerationen 3,0 m/s² i 4,0 sekunder.</p>\n<ol><li>Rita ett a-t-diagram.</li><li>Vilken fart har vagnen efter 4,0 s?</li>\n<li>Hur långt har den kommit?</li></ol>",
@@ -9804,7 +9804,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "at_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -9821,7 +9821,7 @@ window.BANK = [
   {
     "id": "3.15",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "at_diagram",
     "niva": "C",
     "typ": "bestämma fart och sträcka ur ett accelerations-tid-diagram med två faser, ur diagram, sökt fart och sträcka",
     "poang": "(1/2/0)",
@@ -9831,7 +9831,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "at_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
@@ -9908,7 +9908,7 @@ window.BANK = [
   {
     "id": "3.16",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "avläsa fart bestämma acceleration ur lutning och sträcka ur area i ett v-t-diagram, ur diagram, sökt fart acceleration och sträcka",
     "poang": "(3/0/0)",
@@ -9918,7 +9918,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       6,
@@ -9995,7 +9995,7 @@ window.BANK = [
   {
     "id": "3.241",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "bestämma förflyttning som area under v-t-graf",
     "poang": "(1/0/0)",
@@ -10005,7 +10005,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 20,
     "tolerans": 0,
@@ -10540,7 +10540,7 @@ window.BANK = [
   {
     "id": "3.23",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Diagrammet visar farten hos en hiss.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0,5</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1,5</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 162,26 378,26 486,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol><li>Hur många sekunder varar delen med konstant, positiv fart?</li><li>Bestäm hela vägsträckan i m.</li></ol>",
@@ -10549,7 +10549,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       6,
@@ -10610,7 +10610,7 @@ window.BANK = [
   {
     "id": "3.24",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Under en provkörning mäts en bils fart.</p>\n<table class=\"data\"><tr><th>t (s)</th><th>v (m/s)</th></tr>\n<tr><td>0</td><td>0</td></tr><tr><td>2</td><td>4</td></tr><tr><td>4</td><td>8</td></tr>\n<tr><td>6</td><td>12</td></tr><tr><td>8</td><td>16</td></tr></table>\n<ol><li>Rita ett v-t-diagram.</li><li>Bestäm accelerationen ur diagrammets lutning.</li>\n<li>Bestäm sträckan ur arean under kurvan.</li></ol><p>Modellera rörelsen med konstant acceleration mellan mätningarna.</p>",
@@ -10619,7 +10619,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -10636,7 +10636,7 @@ window.BANK = [
   {
     "id": "3.25",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "analysera påstående om acceleration vid bromsning",
     "poang": "(0/2/0)",
@@ -10647,7 +10647,7 @@ window.BANK = [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "diagram__25_diagramresonemang",
+    "familjNyckel": "vt_diagram__25_diagramresonemang",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -10664,7 +10664,7 @@ window.BANK = [
   {
     "id": "3.26",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Diagrammet visar farten hos en cykel.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.33333333333334\" x2=\"486\" y2=\"209.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"62.66666666666666\" x2=\"486\" y2=\"62.66666666666666\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.66666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><circle cx=\"54\" cy=\"246\" r=\"3.3\" fill=\"#B43123\"/><circle cx=\"486\" cy=\"26\" r=\"3.3\" fill=\"#B43123\"/></svg></span><ol><li>Bestäm farten vid t = 4 s i m/s.</li><li>Bestäm accelerationen vid t = 4 s i m/s².</li></ol>",
@@ -10673,7 +10673,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__26_diagramtolkning",
+    "familjNyckel": "vt_diagram__26_diagramtolkning",
     "svarstyp": "flera_delar",
     "rättSvar": [
       8,
@@ -10953,7 +10953,7 @@ window.BANK = [
   {
     "id": "3.31",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "poang": "(2/3/0)",
     "t": "<p>Två löpare startar samtidigt från samma plats. Den ena håller konstant 4,0 m/s. Den andra startar från vila och accelererar likformigt med 0,50 m/s².</p>\n<ol><li>Rita båda rörelserna i samma v-t-diagram.</li>\n<li>När har de samma fart?</li><li>När hinner den andra löparen ifatt den första, och hur långt har de då sprungit?</li>\n<li>Förklara varför svaren i b och c inte är samma tidpunkt.</li></ol><p>Anta att båda löparna fortsätter på samma raka bana på det sätt som beskrivs tills de möts igen.</p>",
@@ -10963,7 +10963,7 @@ window.BANK = [
       "resonemang",
       "modellering"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -10980,7 +10980,7 @@ window.BANK = [
   {
     "id": "3.242",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "avläsa lutning i läge–tid-diagram",
     "poang": "(2/0/0)",
@@ -10990,7 +10990,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 3.5,
     "tolerans": 0,
@@ -11007,7 +11007,7 @@ window.BANK = [
   {
     "id": "3.32",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "poang": "(2/1/0)",
     "t": "<p>En cyklist startar från vila, accelererar likformigt i 6 s upp till 8,0 m/s, håller sedan farten i 10 s och bromsar därefter likformigt till stillastående på 4 s.</p>\n<ol><li>Rita ett v-t-diagram över hela förloppet.</li>\n<li>Bestäm den totala sträckan ur diagrammet.</li><li>Bestäm medelfarten under hela färden.</li></ol>",
@@ -11016,7 +11016,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -11033,7 +11033,7 @@ window.BANK = [
   {
     "id": "3.33",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "bestämma acceleration och sträcka ur ett v-t-diagram med två faser, ur diagram, sökt acceleration och sträcka",
     "poang": "(3/0/0)",
@@ -11043,7 +11043,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.5,
@@ -11120,7 +11120,7 @@ window.BANK = [
   {
     "id": "3.34",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "bestämma retardation och sträcka ur ett v-t-diagram där kroppen stannar, ur diagram, sökt acceleration och sträcka",
     "poang": "(3/0/0)",
@@ -11130,7 +11130,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       10,
@@ -11207,7 +11207,7 @@ window.BANK = [
   {
     "id": "3.243",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "jämföra negativ förflyttning med positiv vägsträcka",
     "poang": "(2/0/0)",
@@ -11217,7 +11217,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__243_riktning_och_förflyttning",
+    "familjNyckel": "vt_diagram__243_riktning_och_förflyttning",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -21,
@@ -11277,7 +11277,7 @@ window.BANK = [
   {
     "id": "3.35",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "bestämma acceleration tid och sträcka ur ett v-t-diagram med tre faser, ur diagram, sökt acceleration tid och sträcka",
     "poang": "(3/0/0)",
@@ -11287,7 +11287,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       0.4,
@@ -11364,7 +11364,7 @@ window.BANK = [
   {
     "id": "3.36",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "tolka ett läge-tid-diagram med en viloperiod och bestämma hastigheter ur lutningen, ur diagram, sökt sträcka och hastighet",
     "poang": "(4/0/0)",
@@ -11375,7 +11375,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       18,
@@ -11468,7 +11468,7 @@ window.BANK = [
   {
     "id": "3.37",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>Diagrammet visar hastigheten hos en joggare. Negativa värden betyder rörelse tillbaka.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-4</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.71428571428571\" y1=\"26\" x2=\"115.71428571428571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.71428571428571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"177.42857142857142\" y1=\"26\" x2=\"177.42857142857142\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.42857142857142\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"239.14285714285714\" y1=\"26\" x2=\"239.14285714285714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.14285714285714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"300.85714285714283\" y1=\"26\" x2=\"300.85714285714283\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.85714285714283\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"362.57142857142856\" y1=\"26\" x2=\"362.57142857142856\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.57142857142856\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"424.2857142857143\" y1=\"26\" x2=\"424.2857142857143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857142857143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">14</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,26 300.85714285714283,191 486,191\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol><li>Vid vilken tidpunkt vänder joggaren? Svara i s med två decimaler.</li><li>Bestäm accelerationen under 0–8 s i m/s².</li><li>Bestäm förflyttningen under 0–14 s i m, med tecken.</li></ol>",
@@ -11478,7 +11478,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       5.33,
@@ -11555,7 +11555,7 @@ window.BANK = [
   {
     "id": "3.38",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "skilja diskreta mätvärden från antagen kontinuerlig rörelse",
     "poang": "(0/2/0)",
@@ -11566,7 +11566,7 @@ window.BANK = [
       "resonemang",
       "modellering"
     ],
-    "familjNyckel": "diagram__38_mätdata_och_modell",
+    "familjNyckel": "vt_diagram__38_mätdata_och_modell",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -11653,7 +11653,7 @@ window.BANK = [
   {
     "id": "3.40",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Diagrammet visar en persons läge längs en rak gång.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"126\" y1=\"26\" x2=\"126\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"126\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"198\" y1=\"26\" x2=\"198\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"198\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"342\" y1=\"26\" x2=\"342\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"342\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"414\" y1=\"26\" x2=\"414\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"414\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">s (m)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 198,26 306,26 486,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><p>Positiv riktning är från startpunkten mot läget 8 m.</p><ol><li>Bestäm avståndet från start vid t = 4 s i m.</li><li>Bestäm hastigheten under 4–7 s i m/s.</li><li>Bestäm hastigheten under 7–12 s i m/s, med tecken.</li></ol>",
@@ -11662,7 +11662,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       8,
@@ -11739,7 +11739,7 @@ window.BANK = [
   {
     "id": "3.244",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "typ": "flytta nollpunkt och jämföra hastigheter",
     "poang": "(2/1/0)",
@@ -11749,7 +11749,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__244_koordinatsystem",
+    "familjNyckel": "st_diagram__244_koordinatsystem",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2.5,
@@ -11825,7 +11825,7 @@ window.BANK = [
   {
     "id": "3.41",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "typ": "beräkna medelhastighet i två intervall ur en krökt läge-tid-graf och tolka lutningen, ur diagram, sökt sträcka och hastighet",
     "poang": "(3/1/0)",
@@ -11836,7 +11836,7 @@ window.BANK = [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -11853,7 +11853,7 @@ window.BANK = [
   {
     "id": "3.42",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "poang": "(0/4/0)",
     "t": "<p>En fallskärmshoppare med utrustning har massan 80 kg. Modellen för luftmotståndets belopp är F = kv². Vid fall med infälld skärm är gränsfarten 55 m/s. Välj nedåt som positiv riktning.</p><p>a) Bestäm k och dess enhet. b) Bestäm accelerationen när farten är 30 m/s. c) Skissa v som funktion av t för ett fall från vila och förklara kurvans form. Anta konstant k och oförändrad kroppsställning.</p>",
@@ -11863,7 +11863,7 @@ window.BANK = [
       "modellering",
       "resonemang"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -12254,7 +12254,7 @@ window.BANK = [
   {
     "id": "3.47",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Diagrammet visar hastigheten hos ett föremål som kastas rakt upp.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-20</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-10</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,26 493.56000000000006,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><p>Uppåt är positiv riktning. Diagrammet använder en förenklad modell; bestäm värdena ur grafen.</p><ol><li>Vid vilken tidpunkt når föremålet sin högsta punkt? Svara i s.</li><li>Bestäm accelerationen i m/s², med tecken.</li><li>Bestäm höjdökningen från utkastpunkten till högsta punkten i m.</li></ol>",
@@ -12264,7 +12264,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -12342,7 +12342,7 @@ window.BANK = [
   {
     "id": "3.245",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "tolka styckvis hastighet-tid-diagram och beräkna area",
     "poang": "(2/0/0)",
@@ -12352,7 +12352,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 42.5,
     "tolerans": 0,
@@ -13115,7 +13115,7 @@ window.BANK = [
   {
     "id": "3.56",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "diagram_samband",
     "niva": "C",
     "poang": "(1/2/0)",
     "t": "<p>En person rör sig längs en rak korridor. Lägena mäts varannan sekund.</p>\n<table class=\"data\"><tr><th>t (s)</th><th>s (m)</th></tr>\n<tr><td>0</td><td>0</td></tr><tr><td>2</td><td>3,0</td></tr><tr><td>4</td><td>6,0</td></tr>\n<tr><td>6</td><td>6,0</td></tr><tr><td>8</td><td>6,0</td></tr><tr><td>10</td><td>2,0</td></tr></table>\n<ol><li>Rita ett s-t-diagram.</li><li>Beskriv rörelsen i ord.</li><li>Rita motsvarande v-t-diagram.</li></ol><p>Anta konstant hastighet mellan intilliggande mättillfällen och momentana ändringar vid brytpunkterna. Låt s beteckna läge, med rörelsen från start mot 6 m som positiv riktning.</p>",
@@ -13125,7 +13125,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "diagram_samband__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13142,7 +13142,7 @@ window.BANK = [
   {
     "id": "3.57",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "diagram_samband",
     "niva": "C",
     "poang": "(0/3/0)",
     "t": "<p>Diagram kan ha olika enheter på axlarna.</p>\n<ol><li>Vilken enhet får lutningen i ett hastighet-tid-diagram där hastigheten mäts i km/h och tiden i sekunder?</li>\n<li>Vilken enhet får arean under kurvan i samma diagram?</li>\n<li>Vilken enhet får arean under kurvan i ett acceleration-tid-diagram med enheterna m/s² och s?</li></ol>",
@@ -13152,7 +13152,7 @@ window.BANK = [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "diagram_samband__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13197,7 +13197,7 @@ window.BANK = [
   {
     "id": "3.59",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "poang": "(2/1/0)",
     "t": "<p>Peter ska ta sig till affären som ligger 1,2 km bort. Den första halvan av vägen cyklar han med hastigheten 6,0 m/s och den andra halvan med hastigheten 4,0 m/s. Han är inne i affären i 2,0 minuter och cyklar sedan hem med konstant hastighet. Hemresan tar lika lång tid som det tog att ta sig till affären.</p>\n<ol><li>Hur lång tid tar resan till affären?</li>\n<li>Vilken fart håller Peter på hemvägen?</li>\n<li>Rita ett läge–tid-diagram som visar Peters rörelse.</li></ol>",
@@ -13206,7 +13206,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13223,7 +13223,7 @@ window.BANK = [
   {
     "id": "3.60",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "rita ett läge-tid-diagram ur en mätvärdestabell och bestämma hastigheten, ur tabell, sökt diagram och hastighet",
     "poang": "(3/0/0)",
@@ -13233,7 +13233,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13250,7 +13250,7 @@ window.BANK = [
   {
     "id": "3.246",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "avgöra vilken information ett hastighetsdiagram saknar",
     "poang": "(0/2/0)",
@@ -13260,7 +13260,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__246_diagramresonemang",
+    "familjNyckel": "vt_diagram__246_diagramresonemang",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13276,7 +13276,7 @@ window.BANK = [
   {
     "id": "3.61",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "jämföra två v-t-grafer med olika acceleration och beräkna sträckorna, ur diagram, sökt acceleration och sträcka",
     "poang": "(3/1/0)",
@@ -13287,7 +13287,7 @@ window.BANK = [
       "resonemang",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16077,7 +16077,7 @@ window.BANK = [
   {
     "id": "3.105",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "poang": "(0/3/0)",
     "t": "<p>I ett läge–tid-diagram är kurvan stigande och böjer uppåt, så att dess positiva lutning hela tiden ökar. a) Vad säger detta om farten? b) Vad kan du säga om accelerationens tecken och om huruvida den är konstant? c) Hur kan du bestämma momentanhastigheten vid en viss tidpunkt?</p>",
@@ -16087,7 +16087,7 @@ window.BANK = [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16104,7 +16104,7 @@ window.BANK = [
   {
     "id": "3.106",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "tolka negativ fart i ett v-t-diagram och beräkna stig- och sjunkhöjd ur areorna, ur diagram, sökt riktning och sträcka",
     "poang": "(3/1/0)",
@@ -16115,7 +16115,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       14,
@@ -16208,7 +16208,7 @@ window.BANK = [
   {
     "id": "3.247",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "bestämma startläge från slutläge och area",
     "poang": "(0/2/0)",
@@ -16218,7 +16218,7 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "diagram__247_diagramtolkning",
+    "familjNyckel": "vt_diagram__247_diagramtolkning",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
     "tolerans": 0,
@@ -16235,7 +16235,7 @@ window.BANK = [
   {
     "id": "3.107",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "skilja tillryggalagd sträcka från förskjutning i ett v-t-diagram med negativ del, ur diagram, sökt sträcka och förskjutning",
     "poang": "(0/2/0)",
@@ -16246,7 +16246,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       -12,
@@ -16307,7 +16307,7 @@ window.BANK = [
   {
     "id": "3.108",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Arne är ute och går. Han startar 120 m från sitt hus. Under den första minuten går han mot huset med hastigheten 1,0 m/s. Sedan vilar han i 30 sekunder. Slutligen joggar han den återstående sträckan till huset med hastigheten 2,0 m/s.</p>\n<ol><li>Rita ett avstånd–tid-diagram som visar hur Arnes avstånd från huset beror på tiden.</li>\n<li>Hur lång tid tar hela promenaden?</li></ol>",
@@ -16316,7 +16316,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16333,7 +16333,7 @@ window.BANK = [
   {
     "id": "3.109",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "tolka en krökt v-t-kurva och uppskatta arean, ur diagram, sökt sträcka",
     "poang": "(1/3/0)",
@@ -16344,7 +16344,7 @@ window.BANK = [
       "resonemang",
       "modellering"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16361,7 +16361,7 @@ window.BANK = [
   {
     "id": "3.110",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "avgöra när två kroppar har samma fart respektive samma läge ur två v-t-grafer, ur diagram, sökt tid och sträcka",
     "poang": "(1/2/0)",
@@ -16372,7 +16372,7 @@ window.BANK = [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16389,7 +16389,7 @@ window.BANK = [
   {
     "id": "3.111",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "poang": "(2/1/0)",
     "t": "<p>Diagrammet visar två cyklister som startar samtidigt från samma plats.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"209.33333333333334\" x2=\"486\" y2=\"209.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"213.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"62.66666666666666\" x2=\"486\" y2=\"62.66666666666666\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"66.66666666666666\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">100</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">120</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">16</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">s (m)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 486,62.66666666666666\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"74\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><polyline points=\"54,246 226.8,209.33333333333334 486,44.33333333333334\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"35.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">B</text></svg></span>\n<ol><li>Vilken cyklist leder efter 10 s?</li><li>När är de jämsides igen efter starten?</li>\n<li>Vilken cyklist har högst fart i slutet? Motivera med kurvornas lutning.</li></ol>",
@@ -16399,7 +16399,7 @@ window.BANK = [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16416,7 +16416,7 @@ window.BANK = [
   {
     "id": "3.248",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "skilja sträcka från förflyttning i v-t-diagram",
     "poang": "(0/2/0)",
@@ -16427,7 +16427,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 1.545,
     "tolerans": 0,
@@ -16444,7 +16444,7 @@ window.BANK = [
   {
     "id": "3.112",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "poang": "(0/3/0)",
     "t": "<p>Två bilar startar samtidigt från samma plats och kör i positiv riktning. I ett läge–tid-diagram är A:s graf en stigande rät linje. B:s graf har först mindre lutning än A:s men blir sedan allt brantare. Graferna skär varandra igen vid t = 20 s. a) Vad betyder den andra skärningspunkten? b) Måste B någon gång ha haft högre fart än A före 20 s? Motivera. c) Hur hittar du en tidpunkt då farterna är lika?</p>",
@@ -16453,7 +16453,7 @@ window.BANK = [
     "formaga": [
       "resonemang"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16470,7 +16470,7 @@ window.BANK = [
   {
     "id": "3.113",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Ett tåg kör med 6,0 m/s framåt i 5,0 sekunder. Sedan kör det 4,0 m/s bakåt i 3,0 sekunder.</p>\n<ol><li>Rita ett v-t-diagram där bakåt räknas som negativt.</li>\n<li>Hur långt har tåget färdats totalt?</li><li>Hur långt från startpunkten befinner det sig vid slutet?</li></ol><p>Anta att tåget byter riktning direkt. Ange slutläget efter de 8 s; tåget står inte stilla där enligt modellen.</p>",
@@ -16480,7 +16480,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16497,7 +16497,7 @@ window.BANK = [
   {
     "id": "3.114",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "diagram_samband",
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En vagn rör sig längs en rak linje. Dess hastighet ändras likformigt från −6,0 m/s vid t = 2,0 s till −2,0 m/s vid t = 4,0 s. En elev säger: ”Accelerationen är positiv, alltså ökar farten.” Bedöm påståendet. Beskriv också hur vagnens läge–tid-kurva ser ut under intervallet.</p>",
@@ -16507,7 +16507,7 @@ window.BANK = [
       "begrepp",
       "resonemang"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "diagram_samband__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -16524,7 +16524,7 @@ window.BANK = [
   {
     "id": "3.249",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "skilja sträcka från förflyttning i v-t-diagram",
     "poang": "(2/0/0)",
@@ -16534,7 +16534,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 37.5,
     "tolerans": 0,
@@ -17849,7 +17849,7 @@ window.BANK = [
   {
     "id": "3.135",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "läsa av begynnelsefart bestämma acceleration och sträcka i ett v-t-diagram som inte startar i noll, ur diagram, sökt fart acceleration och sträcka",
     "poang": "(4/0/0)",
@@ -17859,7 +17859,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -17952,7 +17952,7 @@ window.BANK = [
   {
     "id": "3.136",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "typ": "bestämma momentan hastighet ur tangentens lutning i en krökt läge-tid-graf, ur diagram, sökt hastighet",
     "poang": "(1/1/0)",
@@ -17963,7 +17963,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -17980,7 +17980,7 @@ window.BANK = [
   {
     "id": "3.137",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "bestämma hastighet och startläge ur ett läge-tid-diagram och extrapolera, ur diagram, sökt läge och hastighet",
     "poang": "(3/0/0)",
@@ -17991,7 +17991,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       20,
@@ -18068,7 +18068,7 @@ window.BANK = [
   {
     "id": "3.138",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "tolka ett läge-tid-diagram där kroppen vänder och rör sig tillbaka, ur diagram, sökt sträcka och hastighet",
     "poang": "(4/0/0)",
@@ -18078,7 +18078,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       2,
@@ -18171,7 +18171,7 @@ window.BANK = [
   {
     "id": "3.139",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "poang": "(3/0/0)",
     "t": "<p>Diagrammet visar farten hos ett tåg.</p><span class=\"fig bred\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"172.66666666666669\" x2=\"486\" y2=\"172.66666666666669\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"176.66666666666669\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">5</text><line x1=\"54\" y1=\"99.33333333333334\" x2=\"486\" y2=\"99.33333333333334\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"103.33333333333334\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">15</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"108\" y1=\"26\" x2=\"108\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"108\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"162\" y1=\"26\" x2=\"162\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"162\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"216\" y1=\"26\" x2=\"216\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"216\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"270\" y1=\"26\" x2=\"270\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"270\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"324\" y1=\"26\" x2=\"324\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"324\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">50</text><line x1=\"378\" y1=\"26\" x2=\"378\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"378\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">60</text><line x1=\"432\" y1=\"26\" x2=\"432\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"432\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">70</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">80</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,246 162,26 378,26 486,246\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span>\n<ol><li>Beskriv rörelsen i tre faser.</li><li>Bestäm accelerationen i första fasen.</li>\n<li>Bestäm den totala sträckan ur arean.</li></ol>",
@@ -18181,7 +18181,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -18198,7 +18198,7 @@ window.BANK = [
   {
     "id": "3.250",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "A",
     "typ": "skilja sträcka från förflyttning i v-t-diagram",
     "poang": "(0/1/3)",
@@ -18209,7 +18209,7 @@ window.BANK = [
       "resonemang",
       "modellering"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -18225,7 +18225,7 @@ window.BANK = [
   {
     "id": "3.140",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "at_diagram",
     "niva": "E",
     "typ": "tolka ett accelerations-tid-diagram och bestämma fartändringen ur arean, ur diagram, sökt acceleration och fart",
     "poang": "(3/0/0)",
@@ -18235,7 +18235,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "at_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
@@ -18312,7 +18312,7 @@ window.BANK = [
   {
     "id": "3.141",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "diagram_samband",
     "niva": "C",
     "typ": "översätta ett v-t-diagram till motsvarande läge-tid-diagram, ur diagram, sökt sträcka och graf",
     "poang": "(1/2/0)",
@@ -18323,7 +18323,7 @@ window.BANK = [
       "begrepp",
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "diagram_samband__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -18340,7 +18340,7 @@ window.BANK = [
   {
     "id": "3.142",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>En elev ritar en lodrät sträcka i ett läge–tid-diagram och säger att den visar mycket stor acceleration. a) Varför kan den lodräta sträckan inte beskriva ett föremåls verkliga rörelse? b) Hur syns stor acceleration i ett läge–tid-diagram?</p>",
@@ -18349,7 +18349,7 @@ window.BANK = [
     "formaga": [
       "resonemang"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -18366,7 +18366,7 @@ window.BANK = [
   {
     "id": "3.251",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "typ": "skilja sträcka från förflyttning i v-t-diagram",
     "poang": "(0/2/0)",
@@ -18376,7 +18376,7 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 8.67,
     "tolerans": 0,
@@ -18393,7 +18393,7 @@ window.BANK = [
   {
     "id": "3.143",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "at_diagram",
     "niva": "C",
     "poang": "(2/1/0)",
     "t": "<p>Diagrammet visar accelerationen hos en vagn som står stilla vid t = 0.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-3</text><line x1=\"54\" y1=\"214.57142857142858\" x2=\"486\" y2=\"214.57142857142858\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"218.57142857142858\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-2</text><line x1=\"54\" y1=\"183.14285714285714\" x2=\"486\" y2=\"183.14285714285714\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"187.14285714285714\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">-1</text><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"155.71428571428572\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"120.28571428571429\" x2=\"486\" y2=\"120.28571428571429\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"124.28571428571429\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">1</text><line x1=\"54\" y1=\"88.85714285714286\" x2=\"486\" y2=\"88.85714285714286\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"92.85714285714286\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"54\" y1=\"57.428571428571445\" x2=\"486\" y2=\"57.428571428571445\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"61.428571428571445\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">3</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"115.71428571428571\" y1=\"26\" x2=\"115.71428571428571\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"115.71428571428571\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"177.42857142857142\" y1=\"26\" x2=\"177.42857142857142\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"177.42857142857142\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"239.14285714285714\" y1=\"26\" x2=\"239.14285714285714\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"239.14285714285714\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"300.85714285714283\" y1=\"26\" x2=\"300.85714285714283\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"300.85714285714283\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"362.57142857142856\" y1=\"26\" x2=\"362.57142857142856\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"362.57142857142856\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"424.2857142857143\" y1=\"26\" x2=\"424.2857142857143\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"424.2857142857143\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">12</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">14</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"151.71428571428572\" x2=\"486\" y2=\"151.71428571428572\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">a (m/s²)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,57.428571428571445 177.42857142857142,57.428571428571445 177.42857142857142,151.71428571428572 270,151.71428571428572 270,214.57142857142858 455.14285714285717,214.57142857142858\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/></svg></span><ol><li>Bestäm hastigheten vid t = 4 s i m/s.</li><li>Bestäm hastigheten vid t = 7 s i m/s.</li><li>När är vagnen åter stilla? Svara i s från t = 0.</li></ol>",
@@ -18402,7 +18402,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "at_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "flera_delar",
     "rättSvar": [
       12,
@@ -18479,7 +18479,7 @@ window.BANK = [
   {
     "id": "3.144",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "C",
     "poang": "(0/2/0)",
     "t": "<p>Diagrammet visar två bilar på samma väg.</p><span class=\"fig\"><svg height=\"355\" width=\"620\" preserveAspectRatio=\"xMidYMid meet\" viewBox=\"0 0 500 286\"><rect x=\"54\" y=\"26\" width=\"432\" height=\"220\" fill=\"#fff\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"250\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"54\" y1=\"191\" x2=\"486\" y2=\"191\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"195\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"136\" x2=\"486\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"140\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">20</text><line x1=\"54\" y1=\"81\" x2=\"486\" y2=\"81\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"85\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">30</text><line x1=\"54\" y1=\"26\" x2=\"486\" y2=\"26\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"46\" y=\"30\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">40</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"54\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">0</text><line x1=\"140.4\" y1=\"26\" x2=\"140.4\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"140.4\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">2</text><line x1=\"226.8\" y1=\"26\" x2=\"226.8\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"226.8\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">4</text><line x1=\"313.2\" y1=\"26\" x2=\"313.2\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"313.2\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">6</text><line x1=\"399.6\" y1=\"26\" x2=\"399.6\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"399.6\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">8</text><line x1=\"486\" y1=\"26\" x2=\"486\" y2=\"246\" stroke=\"#E4E3E6\" stroke-width=\"1\" stroke-linecap=\"square\"/><text x=\"486\" y=\"262\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10.5\" font-weight=\"400\" fill=\"#5C575E\">10</text><line x1=\"54\" y1=\"26\" x2=\"54\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><line x1=\"54\" y1=\"246\" x2=\"486\" y2=\"246\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"square\"/><text x=\"16\" y=\"14\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">v (m/s)</text><text x=\"486\" y=\"282\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2B2527\">t (s)</text><polyline points=\"54,136 486,136\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"127\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">A</text><polyline points=\"54,246 486,26\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"481\" y=\"17\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2A5D9E\">B</text></svg></span><p>Två bilar följer hastighetsgraferna på parallella raka banor i samma riktning. Hur stort försprång måste B ha vid t = 0 för att de ska vara jämsides vid t = 8 s? Svara i m.</p>",
@@ -18488,7 +18488,7 @@ window.BANK = [
     "formaga": [
       "problemlösning"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 32,
     "tolerans": 0,
@@ -99169,7 +99169,7 @@ window.BANK = [
   {
     "id": "3.264",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "läsa av konstant hastighet i v-t-diagram",
     "poang": "(1/0/0)",
@@ -99179,7 +99179,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "vt_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": 0,
@@ -99196,7 +99196,7 @@ window.BANK = [
   {
     "id": "3.265",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "tolka horisontell linje i läge-tid-diagram",
     "poang": "(1/0/0)",
@@ -99206,7 +99206,7 @@ window.BANK = [
     "formaga": [
       "begrepp"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 0,
     "tolerans": 0,
@@ -99223,7 +99223,7 @@ window.BANK = [
   {
     "id": "3.266",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "at_diagram",
     "niva": "E",
     "typ": "läsa av acceleration i a-t-diagram",
     "poang": "(1/0/0)",
@@ -99233,7 +99233,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__tolka_och_rita_rorelsediagram",
+    "familjNyckel": "at_diagram__tolka_och_rita_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": 0,
@@ -99250,7 +99250,7 @@ window.BANK = [
   {
     "id": "3.267",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "bestämma förflyttning från enkel v-t-graf",
     "poang": "(1/0/0)",
@@ -99260,7 +99260,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": 0,
@@ -99277,7 +99277,7 @@ window.BANK = [
   {
     "id": "3.268",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "niva": "E",
     "typ": "bestämma hastighet från enkel x-t-graf",
     "poang": "(1/0/0)",
@@ -99287,7 +99287,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": 0,
@@ -99304,7 +99304,7 @@ window.BANK = [
   {
     "id": "3.269",
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "niva": "E",
     "typ": "bestämma acceleration från enkel v-t-graf",
     "poang": "(1/0/0)",
@@ -99314,7 +99314,7 @@ window.BANK = [
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "diagram__lutning_och_area_i_rorelsediagram",
+    "familjNyckel": "vt_diagram__lutning_och_area_i_rorelsediagram",
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": 0,

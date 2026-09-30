@@ -6,7 +6,10 @@ window.OMR = {
  },
  "3": {
   "hastighet": "Hastighet och medelhastighet",
-  "diagram": "Rörelsediagram",
+  "st_diagram": "Rörelsediagram: s-t (läge–tid)",
+  "vt_diagram": "Rörelsediagram: v-t (hastighet–tid)",
+  "at_diagram": "Rörelsediagram: a-t (acceleration–tid)",
+  "diagram_samband": "Rörelsediagram: samband mellan diagram",
   "konstacc": "Konstant acceleration",
   "vektorer": "Vektorer"
  },

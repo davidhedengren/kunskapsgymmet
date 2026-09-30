@@ -79553,5 +79553,1827 @@ window.BANKMATO1 = [
     "arbetsinsats": 1,
     "spel": true,
     "svarFormat": "numeriskt"
+  },
+  {
+    "id": "2.780",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "5/0/0",
+    "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0,18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Vad är bilen värd efter tre år? Avrunda till närmaste hundratal kronor.</p><p>b) Beräkna \\(V^{\\prime}(3)\\) och tolka svaret. Avrunda till närmaste hundratal kr/år.</p><p>c) Efter hur lång tid har bilen förlorat halva sitt inköpsvärde? Svara med två decimaler i år.</p>",
+    "s": "<p><strong>a)</strong> \\(V(3)=240\\,000e^{-0,54}\\approx139\\,859,58\\). Bilen är värd ungefär \\(139\\,900\\) kr.</p><p><strong>b)</strong> \\(V^{\\prime}(t)=-43\\,200e^{-0,18t}\\), så \\(V^{\\prime}(3)\\approx-25\\,174,72\\) kr/år. Vid tre års ålder minskar värdet med ungefär \\(25\\,200\\) kr per år. Det är den momentana hastigheten, inte den exakta förlusten under hela nästa år.</p><p><strong>c)</strong> Halva inköpsvärdet är \\(120\\,000\\) kr. \\(240\\,000e^{-0,18t}=120\\,000\\) ger \\(t=\\ln(0,5)/(-0,18)\\approx3,85\\) år.</p>",
+    "familj": "Exponentialmodeller med e och ln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      139859.58056975753,
+      -25174.724502556353,
+      3.850817669777474
+    ],
+    "tolerans": [
+      50,
+      50,
+      0.005
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0,18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vad är bilen värd efter tre år? Avrunda till närmaste hundratal kronor.</p>",
+        "s": "<p>\\(V(3)=240\\,000e^{-0,54}\\approx139\\,859,58\\). Bilen är värd ungefär \\(139\\,900\\) kr.</p>",
+        "ledtrad": "<p>Sätt in 3 i stället för t.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0,18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna \\(V^{\\prime}(3)\\). Ange förändringshastigheten med tecken, avrundad till närmaste hundratal kr/år.</p>",
+        "s": "<p>\\(V^{\\prime}(t)=-43\\,200e^{-0,18t}\\), så \\(V^{\\prime}(3)\\approx-25\\,174,72\\) kr/år. Vid tre års ålder minskar värdet med ungefär \\(25\\,200\\) kr per år. Det är den momentana hastigheten, inte den exakta förlusten under hela nästa år.</p>",
+        "ledtrad": "<p>Derivera först. Det negativa tecknet berättar åt vilket håll värdet förändras.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Värdet på en elbil kan under de första åtta åren beskrivas med modellen \\(V(t)=240\\,000e^{-0,18t}\\), där \\(V\\) mäts i kronor och \\(t\\) är antal år efter köpet. Modellen används för \\(0\\le t\\le8\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Efter hur lång tid har bilen förlorat halva sitt inköpsvärde? Svara med två decimaler i år.</p>",
+        "s": "<p>Halva inköpsvärdet är \\(120\\,000\\) kr. \\(240\\,000e^{-0,18t}=120\\,000\\) ger \\(t=\\ln(0,5)/(-0,18)\\approx3,85\\) år.</p>",
+        "ledtrad": "<p>Bestäm vilket värde bilen ska ha och lös sedan exponentialekvationen.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>a) Sätt in 3 i stället för t.</p><p>b) Derivera först. Det negativa tecknet berättar åt vilket håll värdet förändras.</p><p>c) Bestäm vilket värde bilen ska ha och lös sedan exponentialekvationen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "id": "2.781",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>En förening använder modellen \\(N(t)=1200e^{0,035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Hur många medlemmar förutsäger modellen efter sex månader? Avrunda till heltal.</p><p>b) Med vilken hastighet ökar medlemsantalet efter sex månader? Svara med en decimal i medlemmar/månad.</p><p>c) Vid vilken tidpunkt når modellen 1800 medlemmar? Svara med en decimal i månader.</p>",
+    "s": "<p><strong>a)</strong> \\(N(6)=1200e^{0,21}\\approx1480,41\\). Modellen förutsäger ungefär 1480 medlemmar.</p><p><strong>b)</strong> \\(N^{\\prime}(t)=42e^{0,035t}\\). Därför är \\(N^{\\prime}(6)\\approx51,8\\) medlemmar/månad.</p><p><strong>c)</strong> \\(1200e^{0,035t}=1800\\) ger \\(t=\\ln(1,5)/0,035\\approx11,6\\) månader. Tidpunkten ligger inom modellens användningsperiod.</p>",
+    "familj": "Exponentialmodeller med e och ln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1480.4136719480919,
+      51.814478518183215,
+      11.58471737451898
+    ],
+    "tolerans": [
+      0.5,
+      0.05,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En förening använder modellen \\(N(t)=1200e^{0,035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur många medlemmar förutsäger modellen efter sex månader? Avrunda till heltal.</p>",
+        "s": "<p>\\(N(6)=1200e^{0,21}\\approx1480,41\\). Modellen förutsäger ungefär 1480 medlemmar.</p>",
+        "ledtrad": "<p>Sätt in t = 6.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En förening använder modellen \\(N(t)=1200e^{0,035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med vilken hastighet ökar medlemsantalet efter sex månader? Svara med en decimal i medlemmar/månad.</p>",
+        "s": "<p>\\(N^{\\prime}(t)=42e^{0,035t}\\). Därför är \\(N^{\\prime}(6)\\approx51,8\\) medlemmar/månad.</p>",
+        "ledtrad": "<p>Derivatan beskriver hur snabbt medlemsantalet förändras.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En förening använder modellen \\(N(t)=1200e^{0,035t}\\) för antalet digitala medlemmar, där \\(t\\) är antal månader efter en kampanjstart. Modellen används under de första 18 månaderna.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vid vilken tidpunkt når modellen 1800 medlemmar? Svara med en decimal i månader.</p>",
+        "s": "<p>\\(1200e^{0,035t}=1800\\) ger \\(t=\\ln(1,5)/0,035\\approx11,6\\) månader. Tidpunkten ligger inom modellens användningsperiod.</p>",
+        "ledtrad": "<p>Dela först båda leden med 1200.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>a) Sätt in t = 6.</p><p>b) Derivatan beskriver hur snabbt medlemsantalet förändras.</p><p>c) Dela först båda leden med 1200.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "2.782",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0,24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm dryckens temperatur efter två minuter. Svara med en decimal.</p><p>b) Hur snabbt sjunker temperaturen efter två minuter? Ange minskningens storlek med en decimal i °C/min.</p><p>c) Vilken temperatur närmar sig drycken efter lång tid? Förklara med hjälp av modellen.</p>",
+    "s": "<p><strong>a)</strong> \\(T(2)=20+72e^{-0,48}\\approx64,6\\,^{\\circ}\\mathrm C\\).</p><p><strong>b)</strong> \\(T^{\\prime}(t)=-17,28e^{-0,24t}\\). \\(T^{\\prime}(2)\\approx-10,7\\) °C/min, så temperaturen sjunker med 10,7 °C/min.</p><p><strong>c)</strong> När \\(t\\) växer går \\(e^{-0,24t}\\) mot noll. Därför närmar sig \\(T(t)\\) rumstemperaturen \\(20\\,^{\\circ}\\mathrm C\\). Modellen når inte exakt 20 °C vid någon ändlig tid.</p>",
+    "familj": "Exponentialmodeller med gränsvärde",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      64.55240421004214,
+      10.692577010410114,
+      20
+    ],
+    "tolerans": [
+      0.05,
+      0.05,
+      0
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0,24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm dryckens temperatur efter två minuter. Svara med en decimal.</p>",
+        "s": "<p>\\(T(2)=20+72e^{-0,48}\\approx64,6\\,^{\\circ}\\mathrm C\\).</p>",
+        "ledtrad": "<p>Sätt in t = 2 i hela uttrycket, även konstanten 20 ska vara kvar.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0,24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur snabbt sjunker temperaturen efter två minuter? Ange minskningens storlek med en decimal i °C/min.</p>",
+        "s": "<p>\\(T^{\\prime}(t)=-17,28e^{-0,24t}\\). \\(T^{\\prime}(2)\\approx-10,7\\) °C/min, så temperaturen sjunker med 10,7 °C/min.</p>",
+        "ledtrad": "<p>Derivera. Frågan efterfrågar hur stor minskningen är, så svara med ett positivt tal.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Temperaturen i en dryck beskrivs av \\(T(t)=20+72e^{-0,24t}\\), där \\(T\\) mäts i °C och \\(t\\ge0\\) i minuter efter att drycken ställts i ett rum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vilken temperatur närmar sig drycken efter lång tid? Svara i °C.</p>",
+        "s": "<p>När \\(t\\) växer går \\(e^{-0,24t}\\) mot noll. Därför närmar sig \\(T(t)\\) rumstemperaturen \\(20\\,^{\\circ}\\mathrm C\\). Modellen når inte exakt 20 °C vid någon ändlig tid.</p>",
+        "ledtrad": "<p>Vad händer med exponentialtermen när exponenten blir allt mer negativ?</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>a) Sätt in t = 2 i hela uttrycket, även konstanten 20 ska vara kvar.</p><p>b) Derivera. Frågan efterfrågar hur stor minskningen är, så svara med ett positivt tal.</p><p>c) Vad händer med exponentialtermen när exponenten blir allt mer negativ?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "id": "2.783",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0,006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna totalkostnaden för 100 exemplar. Avrunda till hela kronor.</p><p>b) Beräkna genomsnittskostnaden per exemplar vid en beställning på 100 exemplar. Svara med två decimaler.</p><p>c) Beräkna marginalkostnaden vid 100 exemplar. Svara med två decimaler i kr/exemplar.</p>",
+    "s": "<p><strong>a)</strong> \\(K(100)=800e^{0,6}\\approx1458\\) kr.</p><p><strong>b)</strong> \\(K(100)/100=8e^{0,6}\\approx14,58\\) kr/exemplar.</p><p><strong>c)</strong> \\(K^{\\prime}(x)=4,8e^{0,006x}\\). \\(K^{\\prime}(100)\\approx8,75\\) kr/exemplar. Det är en lokal förändringshastighet, inte genomsnittskostnaden.</p>",
+    "familj": "Exponentialmodeller med e och ln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1457.6950403124072,
+      14.576950403124071,
+      8.746170241874442
+    ],
+    "tolerans": [
+      0.5,
+      0.005,
+      0.005
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0,006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna totalkostnaden för 100 exemplar. Avrunda till hela kronor.</p>",
+        "s": "<p>\\(K(100)=800e^{0,6}\\approx1458\\) kr.</p>",
+        "ledtrad": "<p>Sätt in x = 100.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0,006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna genomsnittskostnaden per exemplar vid en beställning på 100 exemplar. Svara med två decimaler.</p>",
+        "s": "<p>\\(K(100)/100=8e^{0,6}\\approx14,58\\) kr/exemplar.</p>",
+        "ledtrad": "<p>Fördela totalkostnaden på de 100 exemplaren.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Ett tryckeri beskriver kostnaden för en specialbeställning med \\(K(x)=800e^{0,006x}\\) kr, där \\(x\\) är antalet tryckta exemplar och \\(0\\le x\\le300\\). I modellen behandlas \\(x\\) som en kontinuerlig variabel. Marginalkostnaden \\(K^{\\prime}(x)\\) anger hur snabbt kostnaden förändras per ytterligare exemplar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna marginalkostnaden vid 100 exemplar. Svara med två decimaler i kr/exemplar.</p>",
+        "s": "<p>\\(K^{\\prime}(x)=4,8e^{0,006x}\\). \\(K^{\\prime}(100)\\approx8,75\\) kr/exemplar. Det är en lokal förändringshastighet, inte genomsnittskostnaden.</p>",
+        "ledtrad": "<p>Derivera K och sätt sedan in x = 100.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>a) Sätt in x = 100.</p><p>b) Fördela totalkostnaden på de 100 exemplaren.</p><p>c) Derivera K och sätt sedan in x = 100.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "2.784",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "3/0/0",
+    "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0,12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Skriv modellen på formen \\(F(t)=450a^t\\). Bestäm \\(a\\) med fyra decimaler.</p><p>b) Med hur många procent ökar antalet fynd per vecka enligt modellen? Svara med en decimal.</p><p>c) Med vilken hastighet ökar antalet fynd efter fyra veckor? Svara med en decimal i fynd/vecka.</p>",
+    "s": "<p><strong>a)</strong> \\(e^{0,12t}=(e^{0,12})^t\\), så \\(a=e^{0,12}\\approx1,1275\\).</p><p><strong>b)</strong> Veckofaktorn är \\(e^{0,12}\\). Ökningen är \\(100(e^{0,12}-1)\\approx12,7\\,\\%\\). Talet 0,12 i exponenten motsvarar alltså inte exakt 12 % per vecka.</p><p><strong>c)</strong> \\(F^{\\prime}(t)=54e^{0,12t}\\), så \\(F^{\\prime}(4)\\approx87,3\\) fynd/vecka.</p>",
+    "familj": "Exponentialmodeller med e och ln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.1274968515793757,
+      12.749685157937574,
+      87.26801771841625
+    ],
+    "tolerans": [
+      0.00005,
+      0.05,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0,12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Skriv modellen på formen \\(F(t)=450a^t\\). Bestäm \\(a\\) med fyra decimaler.</p>",
+        "s": "<p>\\(e^{0,12t}=(e^{0,12})^t\\), så \\(a=e^{0,12}\\approx1,1275\\).</p>",
+        "ledtrad": "<p>Använd potensregeln för en potens upphöjd till t.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0,12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med hur många procent ökar antalet fynd per vecka enligt modellen? Svara med en decimal.</p>",
+        "s": "<p>Veckofaktorn är \\(e^{0,12}\\). Ökningen är \\(100(e^{0,12}-1)\\approx12,7\\,\\%\\). Talet 0,12 i exponenten motsvarar alltså inte exakt 12 % per vecka.</p>",
+        "ledtrad": "<p>Översätt förändringsfaktorn till en procentuell ökning.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Antalet registrerade fynd i ett projekt beskrivs under de första tio veckorna av \\(F(t)=450e^{0,12t}\\), där \\(t\\) mäts i veckor.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med vilken hastighet ökar antalet fynd efter fyra veckor? Svara med en decimal i fynd/vecka.</p>",
+        "s": "<p>\\(F^{\\prime}(t)=54e^{0,12t}\\), så \\(F^{\\prime}(4)\\approx87,3\\) fynd/vecka.</p>",
+        "ledtrad": "<p>Derivera modellen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>a) Använd potensregeln för en potens upphöjd till t.</p><p>b) Översätt förändringsfaktorn till en procentuell ökning.</p><p>c) Derivera modellen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "2.785",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "4/0/0",
+    "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0,4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) En elev löser ekvationen \\(2e^{0,4t}=20\\). Vilken fråga om odlingen besvarar eleven?</p><p>b) En annan elev löser \\(0,8e^{0,4t}=20\\). Vilken fråga om odlingen besvarar den eleven?</p><p>c) Vilken av de två händelserna inträffar först? Beräkna båda tidpunkterna med två decimaler i timmar och motivera.</p>",
+    "s": "<p><strong>a)</strong> Eleven bestämmer hur lång tid det tar tills odlingen innehåller 20 miljoner jästceller. Vänsterledet är antalet celler i miljoner, inte tillväxthastigheten.</p><p><strong>b)</strong> \\(N^{\\prime}(t)=0,8e^{0,4t}\\). Eleven bestämmer när antalet jästceller ökar med hastigheten 20 miljoner celler per timme.</p><p><strong>c)</strong> Antalet når 20 miljoner vid \\(t=\\ln(10)/0,4\\approx5,76\\) h. Hastigheten når 20 miljoner/h vid \\(t=\\ln(25)/0,4\\approx8,05\\) h. Alltså inträffar den första händelsen först.</p>",
+    "familj": "Tolka derivata i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      null,
+      [
+        5.756462732485114,
+        8.047189562170502
+      ]
+    ],
+    "tolerans": [
+      null,
+      null,
+      [
+        0.005,
+        0.005
+      ]
+    ],
+    "självrättning": [
+      false,
+      false,
+      true
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      null,
+      [
+        "numeriskt",
+        "numeriskt"
+      ]
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0,4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En elev löser ekvationen \\(2e^{0,4t}=20\\). Vilken fråga om odlingen besvarar eleven?</p>",
+        "s": "<p>Eleven bestämmer hur lång tid det tar tills odlingen innehåller 20 miljoner jästceller. Vänsterledet är antalet celler i miljoner, inte tillväxthastigheten.</p>",
+        "ledtrad": "<p>Läs vad N(t) mäter och vilken enhet det har.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0,4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En annan elev löser \\(0,8e^{0,4t}=20\\). Vilken fråga om odlingen besvarar den eleven?</p>",
+        "s": "<p>\\(N^{\\prime}(t)=0,8e^{0,4t}\\). Eleven bestämmer när antalet jästceller ökar med hastigheten 20 miljoner celler per timme.</p>",
+        "ledtrad": "<p>Jämför vänsterledet med derivatan av N.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Antalet jästceller i en odling beskrivs av \\(N(t)=2e^{0,4t}\\) miljoner, där \\(t\\ge0\\) är tid i timmar. Under den period som undersöks finns tillräckligt med näring.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna först tidpunkten då antalet når 20 miljoner och sedan tidpunkten då ökningen är 20 miljoner celler/h. Ange tiderna i denna ordning med två decimaler i timmar.</p>",
+        "s": "<p>Antalet når 20 miljoner vid \\(t=\\ln(10)/0,4\\approx5,76\\) h. Hastigheten når 20 miljoner/h vid \\(t=\\ln(25)/0,4\\approx8,05\\) h. Alltså inträffar den första händelsen först.</p>",
+        "ledtrad": "<p>Lös båda ekvationerna och jämför tiderna.</p>",
+        "niva": "E",
+        "poang": "2/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      }
+    ],
+    "ledtrad": "<p>a) Läs vad N(t) mäter och vilken enhet det har.</p><p>b) Jämför vänsterledet med derivatan av N.</p><p>c) Lös båda ekvationerna och jämför tiderna.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "2.786",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/5/0",
+    "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm konstanten \\(k\\) med fyra decimaler.</p><p>b) Beräkna värdets förändringshastighet när utrustningen är fyra år gammal. Ange ett värde med tecken i hela kr/år.</p><p>c) Med hur många procent minskar värdet per år enligt modellen? Svara med en decimal.</p>",
+    "s": "<p><strong>a)</strong> \\(3900=6000e^{4k}\\), så \\(k=\\ln(0,65)/4\\approx-0,1077\\).</p><p><strong>b)</strong> \\(V^{\\prime}(t)=kV(t)\\), så \\(V^{\\prime}(4)=3900\\ln(0,65)/4\\approx-420\\) kr/år.</p><p><strong>c)</strong> Årsfaktorn är \\(e^k=0,65^{1/4}\\). Minskningen är \\(100(1-e^k)\\approx10,2\\,\\%\\).</p>",
+    "familj": "Exponentialmodeller med e och ln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.10769572902311356,
+      -420.01334319014285,
+      10.209923998815162
+    ],
+    "tolerans": [
+      0.00005,
+      0.5,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm konstanten \\(k\\) med fyra decimaler.</p>",
+        "s": "<p>\\(3900=6000e^{4k}\\), så \\(k=\\ln(0,65)/4\\approx-0,1077\\).</p>",
+        "ledtrad": "<p>Sätt in uppgifterna från mätningen efter fyra år.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna värdets förändringshastighet när utrustningen är fyra år gammal. Ange ett värde med tecken i hela kr/år.</p>",
+        "s": "<p>\\(V^{\\prime}(t)=kV(t)\\), så \\(V^{\\prime}(4)=3900\\ln(0,65)/4\\approx-420\\) kr/år.</p>",
+        "ledtrad": "<p>Använd att derivatan av denna modell är k gånger funktionsvärdet.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En mätutrustning köps för 6000 kr. Fyra år senare är den värd 3900 kr. Värdet antas följa \\(V(t)=6000e^{kt}\\), där \\(t\\ge0\\) är åldern i år.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Med hur många procent minskar värdet per år enligt modellen? Svara med en decimal.</p>",
+        "s": "<p>Årsfaktorn är \\(e^k=0,65^{1/4}\\). Minskningen är \\(100(1-e^k)\\approx10,2\\,\\%\\).</p>",
+        "ledtrad": "<p>Beräkna förändringsfaktorn för ett år.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Sätt in uppgifterna från mätningen efter fyra år.</p><p>b) Använd att derivatan av denna modell är k gånger funktionsvärdet.</p><p>c) Beräkna förändringsfaktorn för ett år.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "2.787",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/5/0",
+    "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(k\\) med fyra decimaler.</p><p>b) Hur snabbt sjunker temperaturen efter 12 minuter? Ange minskningens storlek med två decimaler i °C/min.</p><p>c) Efter hur lång tid har temperaturens skillnad mot rummet halverats? Svara med en decimal i minuter. Förklara varför detta inte är samma sak som att detaljens temperatur har halverats.</p>",
+    "s": "<p><strong>a)</strong> \\(180=20+220e^{-12k}\\) ger \\(e^{-12k}=160/220\\), alltså \\(k=-\\ln(160/220)/12\\approx0,0265\\).</p><p><strong>b)</strong> \\(T^{\\prime}(t)=-220ke^{-kt}\\). Vid \\(t=12\\) är exponentialtermens temperaturbidrag 160 °C, så \\(T^{\\prime}(12)=-160k\\approx-4,25\\) °C/min. Minskningens storlek är 4,25 °C/min.</p><p><strong>c)</strong> Temperaturskillnaden är från början 220 °C. \\(220e^{-kt}=110\\) ger \\(t=\\ln(2)/k\\approx26,1\\) min. Temperaturen är då \\(20+110=130\\) °C, medan halva starttemperaturen 240 °C är 120 °C.</p>",
+    "familj": "Exponentialmodeller med gränsvärde",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.026537810926544548,
+      4.2460497482471276,
+      26.119229746513195
+    ],
+    "tolerans": [
+      0.00005,
+      0.005,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm \\(k\\) med fyra decimaler.</p>",
+        "s": "<p>\\(180=20+220e^{-12k}\\) ger \\(e^{-12k}=160/220\\), alltså \\(k=-\\ln(160/220)/12\\approx0,0265\\).</p>",
+        "ledtrad": "<p>Subtrahera rumstemperaturen innan du löser ut k.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur snabbt sjunker temperaturen efter 12 minuter? Ange minskningens storlek med två decimaler i °C/min.</p>",
+        "s": "<p>\\(T^{\\prime}(t)=-220ke^{-kt}\\). Vid \\(t=12\\) är exponentialtermens temperaturbidrag 160 °C, så \\(T^{\\prime}(12)=-160k\\approx-4,25\\) °C/min. Minskningens storlek är 4,25 °C/min.</p>",
+        "ledtrad": "<p>Uttrycket 220e^(-12k) kan avläsas ur mätningen.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En metalldetalj läggs i ett rum som håller 20 °C. Dess temperatur beskrivs av \\(T(t)=20+220e^{-kt}\\), där \\(k\\gt 0\\) och \\(t\\ge0\\) är tid i minuter. Efter 12 minuter är temperaturen 180 °C.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Efter hur lång tid har temperaturens skillnad mot rummet halverats? Svara med en decimal i minuter.</p>",
+        "s": "<p>Temperaturskillnaden är från början 220 °C. \\(220e^{-kt}=110\\) ger \\(t=\\ln(2)/k\\approx26,1\\) min. Temperaturen är då \\(20+110=130\\) °C, medan halva starttemperaturen 240 °C är 120 °C.</p>",
+        "ledtrad": "<p>Halvera temperaturöverskottet över 20 °C.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Subtrahera rumstemperaturen innan du löser ut k.</p><p>b) Uttrycket 220e^(-12k) kan avläsas ur mätningen.</p><p>c) Halvera temperaturöverskottet över 20 °C.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "id": "2.788",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/4/0",
+    "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(k\\) med fyra decimaler.</p><p>b) Bestäm halveringstiden med två decimaler i timmar.</p><p>c) Beräkna mängdens förändringshastighet efter fem timmar. Ange ett värde med tecken och två decimaler i mg/h.</p>",
+    "s": "<p><strong>a)</strong> \\(81=120e^{3k}\\) ger \\(k=\\ln(81/120)/3\\approx-0,1310\\).</p><p><strong>b)</strong> \\(e^{kt}=0,5\\) ger \\(t=\\ln(0,5)/k\\approx5,29\\) h.</p><p><strong>c)</strong> \\(M^{\\prime}(t)=120ke^{kt}\\), så \\(M^{\\prime}(5)\\approx-8,17\\) mg/h.</p>",
+    "familj": "Exponentialmodeller med e och ln",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.13101419603653572,
+      5.290626523912328,
+      -8.165934465996862
+    ],
+    "tolerans": [
+      0.00005,
+      0.005,
+      0.005
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm \\(k\\) med fyra decimaler.</p>",
+        "s": "<p>\\(81=120e^{3k}\\) ger \\(k=\\ln(81/120)/3\\approx-0,1310\\).</p>",
+        "ledtrad": "<p>Använd de två mängderna för att bestämma förändringen under tre timmar.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm halveringstiden med två decimaler i timmar.</p>",
+        "s": "<p>\\(e^{kt}=0,5\\) ger \\(t=\\ln(0,5)/k\\approx5,29\\) h.</p>",
+        "ledtrad": "<p>Vid halveringstiden återstår hälften av startmängden.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>I ett försök minskar mängden färgämne exponentiellt. Vid försökets början finns 120 mg. Efter tre timmar återstår 81 mg. Modellen skrivs \\(M(t)=120e^{kt}\\), där \\(t\\ge0\\) mäts i timmar.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna mängdens förändringshastighet efter fem timmar. Ange ett värde med tecken och två decimaler i mg/h.</p>",
+        "s": "<p>\\(M^{\\prime}(t)=120ke^{kt}\\), så \\(M^{\\prime}(5)\\approx-8,17\\) mg/h.</p>",
+        "ledtrad": "<p>Behåll det exakta värdet på k i beräkningen.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Använd de två mängderna för att bestämma förändringen under tre timmar.</p><p>b) Vid halveringstiden återstår hälften av startmängden.</p><p>c) Behåll det exakta värdet på k i beräkningen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      false
+    ]
+  },
+  {
+    "id": "2.789",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/6/0",
+    "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(k\\) med fyra decimaler.</p><p>b) Hur stor yta är täckt när utbredningshastigheten är 40 m²/vecka? Svara i hela m².</p><p>c) Kan utbredningshastigheten bli 80 m²/vecka innan hela dammen är täckt, enligt modellen? Motivera med en beräkning.</p>",
+    "s": "<p><strong>a)</strong> \\(360=240e^{5k}\\) ger \\(k=\\ln(1,5)/5\\approx0,0811\\).</p><p><strong>b)</strong> \\(A^{\\prime}(t)=kA(t)\\). Då \\(A^{\\prime}(t)=40\\) är \\(A(t)=40/k\\approx493\\) m², vilket är mindre än dammens yta.</p><p><strong>c)</strong> För \\(A^{\\prime}=80\\) krävs \\(A=80/k\\approx986,5\\) m², vilket överstiger 900 m². När ytan når 900 m² är modellens hastighet endast \\(900k\\approx73,0\\) m²/vecka. Svaret är nej inom modellens tillåtna område.</p>",
+    "familj": "Villkor och jämförelser i exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.08109302162163287,
+      493.26069247528636,
+      null
+    ],
+    "tolerans": [
+      0.00005,
+      0.5,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm \\(k\\) med fyra decimaler.</p>",
+        "s": "<p>\\(360=240e^{5k}\\) ger \\(k=\\ln(1,5)/5\\approx0,0811\\).</p>",
+        "ledtrad": "<p>Använd mätningen efter fem veckor.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Hur stor yta är täckt när utbredningshastigheten är 40 m²/vecka? Svara i hela m².</p>",
+        "s": "<p>\\(A^{\\prime}(t)=kA(t)\\). Då \\(A^{\\prime}(t)=40\\) är \\(A(t)=40/k\\approx493\\) m², vilket är mindre än dammens yta.</p>",
+        "ledtrad": "<p>Kan du uttrycka derivatan direkt med hjälp av A(t)?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>En damm har vattenytan 900 m². Vid en första mätning täcker flytväxter 240 m² och fem veckor senare 360 m². Så länge det finns fri vattenyta används modellen \\(A(t)=240e^{kt}\\), där \\(t\\) är veckor efter första mätningen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Kan utbredningshastigheten bli 80 m²/vecka innan hela dammen är täckt, enligt modellen? Motivera med en beräkning.</p>",
+        "s": "<p>För \\(A^{\\prime}=80\\) krävs \\(A=80/k\\approx986,5\\) m², vilket överstiger 900 m². När ytan når 900 m² är modellens hastighet endast \\(900k\\approx73,0\\) m²/vecka. Svaret är nej inom modellens tillåtna område.</p>",
+        "ledtrad": "<p>Jämför ytan som krävs med dammens totala yta.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Använd mätningen efter fem veckor.</p><p>b) Kan du uttrycka derivatan direkt med hjälp av A(t)?</p><p>c) Jämför ytan som krävs med dammens totala yta.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "id": "2.790",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/6/0",
+    "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0,92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0,08\\cdot30\\,000\\cdot0,92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Förklara vad eleven har blandat ihop och skriv den korrekta derivatan.</p><p>b) Beräkna \\(E^{\\prime}(4)\\). Avrunda till heltal och ange enheten.</p><p>c) Beräkna den faktiska förändringen av den årliga energianvändningen från år 4 till år 5. Svara i hela kWh/år. Varför blir talet inte samma som i b?</p>",
+    "s": "<p><strong>a)</strong> Faktorn 0,92 innebär 8 % minskning över ett helt år. Den momentana relativa förändringshastigheten är \\(\\ln(0,92)\\), inte \\(-0,08\\). Korrekt derivata är \\(E^{\\prime}(t)=30\\,000\\ln(0,92)\\cdot0,92^t\\).</p><p><strong>b)</strong> \\(E^{\\prime}(4)=30\\,000\\ln(0,92)\\cdot0,92^4\\approx-1792\\) kWh/år². Den årliga energianvändningen minskar då med ungefär 1792 kWh/år per år.</p><p><strong>c)</strong> \\(E(5)-E(4)=30\\,000\\cdot0,92^4(0,92-1)\\approx-1719\\) kWh/år. Det är förändringen över ett helt år. Derivatan i b beskriver hastigheten vid intervallets början; hastighetens storlek minskar under året. Storheterna har dessutom olika enheter.</p>",
+    "familj": "Tolka derivata i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      -1792.0199291222766,
+      -1719.3431039999984
+    ],
+    "tolerans": [
+      null,
+      0.5,
+      0.5
+    ],
+    "självrättning": [
+      false,
+      true,
+      true
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0,92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0,08\\cdot30\\,000\\cdot0,92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Förklara vad eleven har blandat ihop och skriv den korrekta derivatan.</p>",
+        "s": "<p>Faktorn 0,92 innebär 8 % minskning över ett helt år. Den momentana relativa förändringshastigheten är \\(\\ln(0,92)\\), inte \\(-0,08\\). Korrekt derivata är \\(E^{\\prime}(t)=30\\,000\\ln(0,92)\\cdot0,92^t\\).</p>",
+        "ledtrad": "<p>Derivatan av a^t innehåller ln(a).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0,92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0,08\\cdot30\\,000\\cdot0,92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna \\(E^{\\prime}(4)\\) i kWh/år². Ange ett värde med tecken, avrundat till heltal.</p>",
+        "s": "<p>\\(E^{\\prime}(4)=30\\,000\\ln(0,92)\\cdot0,92^4\\approx-1792\\) kWh/år². Den årliga energianvändningen minskar då med ungefär 1792 kWh/år per år.</p>",
+        "ledtrad": "<p>E mäts redan i kWh/år och t mäts i år.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Energianvändningen i en anläggning modelleras med \\(E(t)=30\\,000\\cdot0,92^t\\) kWh/år, där \\(t\\) är antal år efter en ombyggnad. \\(E(t)\\) är den årliga energianvändning som modellen anger vid tidpunkten \\(t\\). En elev skriver \\(E^{\\prime}(t)=-0,08\\cdot30\\,000\\cdot0,92^t\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna förändringen av den årliga energianvändningen från år 4 till år 5. Ange ett värde med tecken i hela kWh/år.</p>",
+        "s": "<p>\\(E(5)-E(4)=30\\,000\\cdot0,92^4(0,92-1)\\approx-1719\\) kWh/år. Det är förändringen över ett helt år. Derivatan i b beskriver hastigheten vid intervallets början; hastighetens storlek minskar under året. Storheterna har dessutom olika enheter.</p>",
+        "ledtrad": "<p>Jämför två funktionsvärden för att få förändringen under intervallet.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Derivatan av a^t innehåller ln(a).</p><p>b) E mäts redan i kWh/år och t mäts i år.</p><p>c) Jämför två funktionsvärden för att få förändringen under intervallet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "2.791",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/5/0",
+    "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Skriv en modell \\(p(h)\\) för lufttrycket och bestäm dess derivata.</p><p>b) På vilken höjd är lufttrycket 45 kPa enligt modellen? Svara med två decimaler i kilometer.</p><p>c) Finns det en höjd inom modellens användningsområde där trycket minskar med 3 kPa/km? Motivera.</p>",
+    "s": "<p><strong>a)</strong> \\(p(h)=101\\cdot0,85^h\\) och \\(p^{\\prime}(h)=101\\ln(0,85)\\cdot0,85^h\\). Derivatans enhet är kPa/km.</p><p><strong>b)</strong> \\(101\\cdot0,85^h=45\\) ger \\(h=\\ln(45/101)/\\ln(0,85)\\approx4,97\\) km.</p><p><strong>c)</strong> Ekvationen \\(101\\ln(0,85)\\cdot0,85^h=-3\\) ger \\(h\\approx10,46\\) km. Detta ligger utanför \\([0,9]\\). På intervallet är minskningens storlek minst \\(-101\\ln(0,85)\\cdot0,85^9\\approx3,80\\) kPa/km, alltså aldrig 3.</p>",
+    "familj": "Villkor och jämförelser i exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      null,
+      4.974546839369923,
+      null
+    ],
+    "tolerans": [
+      null,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      false,
+      true,
+      false
+    ],
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      null,
+      "numeriskt",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Skriv en modell \\(p(h)\\) för lufttrycket och bestäm dess derivata.</p>",
+        "s": "<p>\\(p(h)=101\\cdot0,85^h\\) och \\(p^{\\prime}(h)=101\\ln(0,85)\\cdot0,85^h\\). Derivatans enhet är kPa/km.</p>",
+        "ledtrad": "<p>Vilken förändringsfaktor motsvarar 15 % minskning?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>På vilken höjd är lufttrycket 45 kPa enligt modellen? Svara med två decimaler i kilometer.</p>",
+        "s": "<p>\\(101\\cdot0,85^h=45\\) ger \\(h=\\ln(45/101)/\\ln(0,85)\\approx4,97\\) km.</p>",
+        "ledtrad": "<p>Sätt modellens tryck lika med 45.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>I en förenklad atmosfärsmodell är lufttrycket vid havsytan 101 kPa och minskar med 15 % per kilometer. Höjden \\(h\\) mäts i kilometer. Modellen används för \\(0\\le h\\le9\\).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Finns det en höjd inom modellens användningsområde där trycket minskar med 3 kPa/km? Motivera.</p>",
+        "s": "<p>Ekvationen \\(101\\ln(0,85)\\cdot0,85^h=-3\\) ger \\(h\\approx10,46\\) km. Detta ligger utanför \\([0,9]\\). På intervallet är minskningens storlek minst \\(-101\\ln(0,85)\\cdot0,85^9\\approx3,80\\) kPa/km, alltså aldrig 3.</p>",
+        "ledtrad": "<p>Minskning med 3 innebär derivatan −3. Kontrollera sedan den tillåtna höjden.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Vilken förändringsfaktor motsvarar 15 % minskning?</p><p>b) Sätt modellens tryck lika med 45.</p><p>c) Minskning med 3 innebär derivatan −3. Kontrollera sedan den tillåtna höjden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      false,
+      true
+    ]
+  },
+  {
+    "id": "2.792",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/5/0",
+    "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0,7t}+12e^{0,08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna förändringshastigheten efter två veckor. Ange ett värde med tecken och två decimaler i ärenden/vecka².</p><p>b) När är antalet ärenden per vecka som lägst enligt modellen? Svara med två decimaler i veckor och visa att du har hittat ett minimum.</p><p>c) Varför kan antalet ärenden per vecka börja öka trots att startproblemen fortsätter att minska?</p>",
+    "s": "<p><strong>a)</strong> \\(S^{\\prime}(t)=-31,5e^{-0,7t}+0,96e^{0,08t}\\), så \\(S^{\\prime}(2)\\approx-6,64\\) ärenden/vecka².</p><p><strong>b)</strong> \\(S^{\\prime}(t)=0\\) ger \\(31,5e^{-0,7t}=0,96e^{0,08t}\\), alltså \\(e^{0,78t}=31,5/0,96\\). Därför är \\(t=\\ln(31,5/0,96)/0,78\\approx4,48\\) veckor. Derivatan byter från negativ till positiv: efter multiplikation med det positiva talet \\(e^{0,7t}\\) får den tecknet hos \\(-31,5+0,96e^{0,78t}\\), som är strikt växande. Punkten ligger inom intervallet och ger dess minimum.</p><p><strong>c)</strong> Den första termen fortsätter att minska, men dess minskningshastighet närmar sig noll. Den andra termen växer och dess ökningshastighet blir allt större. Efter minimum är den positiva förändringen större än den negativa.</p>",
+    "familj": "Villkor och jämförelser i exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -6.641233928008467,
+      4.475396846604926,
+      null
+    ],
+    "tolerans": [
+      0.005,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0,7t}+12e^{0,08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna förändringshastigheten efter två veckor. Ange ett värde med tecken och två decimaler i ärenden/vecka².</p>",
+        "s": "<p>\\(S^{\\prime}(t)=-31,5e^{-0,7t}+0,96e^{0,08t}\\), så \\(S^{\\prime}(2)\\approx-6,64\\) ärenden/vecka².</p>",
+        "ledtrad": "<p>Derivera de båda termerna var för sig.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0,7t}+12e^{0,08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När är antalet supportärenden per vecka som lägst inom modellens intervall? Svara med två decimaler i veckor.</p>",
+        "s": "<p>\\(S^{\\prime}(t)=0\\) ger \\(31,5e^{-0,7t}=0,96e^{0,08t}\\), alltså \\(e^{0,78t}=31,5/0,96\\). Därför är \\(t=\\ln(31,5/0,96)/0,78\\approx4,48\\) veckor. Derivatan byter från negativ till positiv: efter multiplikation med det positiva talet \\(e^{0,7t}\\) får den tecknet hos \\(-31,5+0,96e^{0,78t}\\), som är strikt växande. Punkten ligger inom intervallet och ger dess minimum.</p>",
+        "ledtrad": "<p>Lös S′(t) = 0. Undersök sedan derivatans tecken på båda sidor.</p>",
+        "niva": "C",
+        "poang": "0/3/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Under de första åtta veckorna efter en lansering modelleras antalet supportärenden per vecka med \\(S(t)=45e^{-0,7t}+12e^{0,08t}\\), där \\(0\\le t\\le8\\). Den första termen beskriver startproblem som avtar, den andra frågor från en växande användargrupp.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Varför kan antalet ärenden per vecka börja öka trots att startproblemen fortsätter att minska?</p>",
+        "s": "<p>Den första termen fortsätter att minska, men dess minskningshastighet närmar sig noll. Den andra termen växer och dess ökningshastighet blir allt större. Efter minimum är den positiva förändringen större än den negativa.</p>",
+        "ledtrad": "<p>Jämför hur de två bidragen till derivatan utvecklas.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Derivera de båda termerna var för sig.</p><p>b) Lös S′(t) = 0. Undersök sedan derivatans tecken på båda sidor.</p><p>c) Jämför hur de två bidragen till derivatan utvecklas.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "2.793",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/5/0",
+    "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0,03t}\\) och \\(B(t)=800e^{0,09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) När har föreningarna lika många medlemmar? Svara med två decimaler i år.</p><p>b) Beräkna båda föreningarnas tillväxthastigheter vid den tidpunkten. Svara med en decimal i medlemmar/år, först A och sedan B.</p><p>c) Visa utan att avrunda att B:s tillväxthastighet är exakt tre gånger A:s när medlemsantalen är lika.</p>",
+    "s": "<p><strong>a)</strong> \\(1200e^{0,03t}=800e^{0,09t}\\) ger \\(e^{0,06t}=1,5\\), alltså \\(t=\\ln(1,5)/0,06\\approx6,76\\) år.</p><p><strong>b)</strong> Vid \\(t_*=\\ln(1,5)/0,06\\) är \\(A^{\\prime}=0,03A\\approx44,1\\) och \\(B^{\\prime}=0,09B\\approx132,3\\) medlemmar/år.</p><p><strong>c)</strong> \\(A^{\\prime}=0,03A\\) och \\(B^{\\prime}=0,09B\\). När \\(A=B\\gt 0\\) blir \\(B^{\\prime}/A^{\\prime}=0,09/0,03=3\\).</p>",
+    "familj": "Villkor och jämförelser i exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6.75775180180274,
+      [
+        44.090815370097204,
+        132.2724461102916
+      ],
+      null
+    ],
+    "tolerans": [
+      0.005,
+      [
+        0.05,
+        0.05
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0,03t}\\) och \\(B(t)=800e^{0,09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När har föreningarna lika många medlemmar? Svara med två decimaler i år.</p>",
+        "s": "<p>\\(1200e^{0,03t}=800e^{0,09t}\\) ger \\(e^{0,06t}=1,5\\), alltså \\(t=\\ln(1,5)/0,06\\approx6,76\\) år.</p>",
+        "ledtrad": "<p>Samla exponentialfaktorerna i ett led.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0,03t}\\) och \\(B(t)=800e^{0,09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna båda föreningarnas tillväxthastigheter vid tidpunkten då deras medlemsantal är lika. Svara med en decimal i medlemmar/år, först A och sedan B.</p>",
+        "s": "<p>Vid \\(t_*=\\ln(1,5)/0,06\\) är \\(A^{\\prime}=0,03A\\approx44,1\\) och \\(B^{\\prime}=0,09B\\approx132,3\\) medlemmar/år.</p>",
+        "ledtrad": "<p>Använd det oavrundade värdet på tiden från ekvationen A(t) = B(t).</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Medlemsantalen i två föreningar beskrivs under en tioårsperiod av \\(A(t)=1200e^{0,03t}\\) och \\(B(t)=800e^{0,09t}\\), där \\(t\\) mäts i år från samma startdatum.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Visa utan att avrunda att B:s tillväxthastighet är exakt tre gånger A:s när medlemsantalen är lika.</p>",
+        "s": "<p>\\(A^{\\prime}=0,03A\\) och \\(B^{\\prime}=0,09B\\). När \\(A=B\\gt 0\\) blir \\(B^{\\prime}/A^{\\prime}=0,09/0,03=3\\).</p>",
+        "ledtrad": "<p>Sätt samma symbol för de lika stora medlemsantalen.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Samla exponentialfaktorerna i ett led.</p><p>b) Använd det oavrundade värdet på tiden från ekvationen A(t) = B(t).</p><p>c) Sätt samma symbol för de lika stora medlemsantalen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      false,
+      true
+    ]
+  },
+  {
+    "id": "2.794",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/5/0",
+    "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0,16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna den genomsnittliga ökningshastigheten under de första fem dygnen. Svara med en decimal i g/dygn.</p><p>b) Beräkna ökningshastigheten vid slutet av det femte dygnet. Svara med en decimal i g/dygn. Förklara varför den är större än medelhastigheten i a.</p><p>c) En elev beräknar när ökningshastigheten blir 1000 g/dygn. Kan detta inträffa innan försöket avslutas? Motivera utan att först lösa ut tiden.</p>",
+    "s": "<p><strong>a)</strong> \\((B(5)-B(0))/5=400(e^{0,8}-1)/5\\approx98,0\\) g/dygn.</p><p><strong>b)</strong> \\(B^{\\prime}(t)=64e^{0,16t}\\), så \\(B^{\\prime}(5)\\approx142,4\\) g/dygn. Hastigheten ökar under hela intervallet; slutets hastighet är därför större än genomsnittet.</p><p><strong>c)</strong> \\(B^{\\prime}=0,16B\\). Hastigheten 1000 g/dygn kräver \\(B=1000/0,16=6250\\) g. Det överstiger gränsen 5000 g. Försöket avslutas redan vid hastigheten \\(0,16\\cdot5000=800\\) g/dygn.</p>",
+    "familj": "Tolka derivata i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      98.04327427939742,
+      142.43461942351794,
+      null
+    ],
+    "tolerans": [
+      0.05,
+      0.05,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0,16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna den genomsnittliga ökningshastigheten under de första fem dygnen. Svara med en decimal i g/dygn.</p>",
+        "s": "<p>\\((B(5)-B(0))/5=400(e^{0,8}-1)/5\\approx98,0\\) g/dygn.</p>",
+        "ledtrad": "<p>Använd förändringskvoten mellan t = 0 och t = 5.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0,16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna ökningshastigheten vid slutet av det femte dygnet. Svara med en decimal i g/dygn.</p>",
+        "s": "<p>\\(B^{\\prime}(t)=64e^{0,16t}\\), så \\(B^{\\prime}(5)\\approx142,4\\) g/dygn. Hastigheten ökar under hela intervallet; slutets hastighet är därför större än genomsnittet.</p>",
+        "ledtrad": "<p>Skilj på hastigheten vid en tidpunkt och genomsnittet över fem dygn.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Biomassan i ett odlingsförsök beskrivs till en början av \\(B(t)=400e^{0,16t}\\) gram, där \\(t\\ge0\\) mäts i dygn. Försöket avslutas när biomassan når 5000 gram.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En elev beräknar när ökningshastigheten blir 1000 g/dygn. Kan detta inträffa innan försöket avslutas? Motivera utan att först lösa ut tiden.</p>",
+        "s": "<p>\\(B^{\\prime}=0,16B\\). Hastigheten 1000 g/dygn kräver \\(B=1000/0,16=6250\\) g. Det överstiger gränsen 5000 g. Försöket avslutas redan vid hastigheten \\(0,16\\cdot5000=800\\) g/dygn.</p>",
+        "ledtrad": "<p>Uttryck ökningshastigheten som en multipel av biomassan.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Använd förändringskvoten mellan t = 0 och t = 5.</p><p>b) Skilj på hastigheten vid en tidpunkt och genomsnittet över fem dygn.</p><p>c) Uttryck ökningshastigheten som en multipel av biomassan.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "2.795",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/5/0",
+    "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0,45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Beräkna hur mycket vätska som faktiskt försvinner mellan t = 1 och t = 2 enligt modellen. Avrunda till hela gram.</p><p>b) Förklara varför elevens uppskattning är för stor.</p><p>c) Under hur många minuter från t = 1 uppskattar en tangentmodell att 50 gram försvinner? Svara med en decimal.</p>",
+    "s": "<p><strong>a)</strong> \\(M(1)-M(2)=1200(e^{-0,45}-e^{-0,9})\\approx277\\) g.</p><p><strong>b)</strong> \\(M^{\\prime}(t)=-540e^{-0,45t}\\). Minskningens storlek är störst i intervallets början och avtar sedan. Om starthastigheten antas gälla under hela timmen överskattas därför den mängd som försvinner.</p><p><strong>c)</strong> \\(\\Delta M\\approx M^{\\prime}(1)\\Delta t\\). Därför är \\(\\Delta t\\approx50/(540e^{-0,45})\\) timmar, vilket är \\(60\\cdot50/(540e^{-0,45})\\approx8,7\\) minuter. Detta är en linjär uppskattning, inte den exakta tiden i exponentialmodellen.</p>",
+    "familj": "Tolka derivata i exponentialmodell",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      277.27019025740907,
+      null,
+      8.712845474945382
+    ],
+    "tolerans": [
+      0.5,
+      null,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      false,
+      true
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null,
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0,45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Beräkna hur mycket vätska som faktiskt försvinner mellan t = 1 och t = 2 enligt modellen. Avrunda till hela gram.</p>",
+        "s": "<p>\\(M(1)-M(2)=1200(e^{-0,45}-e^{-0,9})\\approx277\\) g.</p>",
+        "ledtrad": "<p>Den andra timmen är intervallet från 1 till 2 timmar.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0,45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Förklara varför elevens uppskattning är för stor.</p>",
+        "s": "<p>\\(M^{\\prime}(t)=-540e^{-0,45t}\\). Minskningens storlek är störst i intervallets början och avtar sedan. Om starthastigheten antas gälla under hela timmen överskattas därför den mängd som försvinner.</p>",
+        "ledtrad": "<p>Hur ändras storleken på den negativa derivatan under timmen?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Massan vätska i en behållare beskrivs under de första fyra timmarna av \\(M(t)=1200e^{-0,45t}\\) gram. En elev påstår: ”Eftersom \\(M^{\\prime}(1)\\approx-344\\) g/h försvinner ungefär 344 gram under hela den andra timmen.”</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Under hur många minuter från t = 1 uppskattar en tangentmodell att 50 gram försvinner? Svara med en decimal.</p>",
+        "s": "<p>\\(\\Delta M\\approx M^{\\prime}(1)\\Delta t\\). Därför är \\(\\Delta t\\approx50/(540e^{-0,45})\\) timmar, vilket är \\(60\\cdot50/(540e^{-0,45})\\approx8,7\\) minuter. Detta är en linjär uppskattning, inte den exakta tiden i exponentialmodellen.</p>",
+        "ledtrad": "<p>Använd förändring ≈ förändringshastighet × tidsintervall och omvandla timmar till minuter.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Den andra timmen är intervallet från 1 till 2 timmar.</p><p>b) Hur ändras storleken på den negativa derivatan under timmen?</p><p>c) Använd förändring ≈ förändringshastighet × tidsintervall och omvandla timmar till minuter.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      false
+    ]
+  },
+  {
+    "id": "2.796",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/7/0",
+    "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0,08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) När blir halten för första gången högst 30 mg/l? Svara med två decimaler i minuter.</p><p>b) Vilken är den tidigaste tidpunkt då båda kraven är uppfyllda? Svara med två decimaler i minuter och förklara vilket krav som avgör.</p><p>c) En operatör vill dessutom kräva att minskningens storlek är minst 3 mg/(l·min). Kan detta krav vara uppfyllt samtidigt som halten är högst 30 mg/l? Motivera.</p>",
+    "s": "<p><strong>a)</strong> \\(90e^{-0,08t}\\le30\\) ger \\(t\\ge\\ln(3)/0,08\\approx13,73\\) min.</p><p><strong>b)</strong> Minskningens storlek är \\(-C^{\\prime}(t)=0,08C(t)\\). Kravet \\(0,08C\\le2\\) motsvarar \\(C\\le25\\) mg/l och är därför strängare än \\(C\\le30\\). Tidigast gäller båda när \\(90e^{-0,08t}=25\\), alltså \\(t=\\ln(90/25)/0,08\\approx16,01\\) min.</p><p><strong>c)</strong> Om \\(C\\le30\\) är \\(-C^{\\prime}=0,08C\\le2,4\\) mg/(l·min), alltså mindre än 3. Kraven kan inte uppfyllas samtidigt.</p>",
+    "familj": "Villkor och jämförelser i exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13.732653608351372,
+      16.0116730682758,
+      null
+    ],
+    "tolerans": [
+      0.005,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      false
+    ],
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0,08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När blir halten för första gången högst 30 mg/l? Svara med två decimaler i minuter.</p>",
+        "s": "<p>\\(90e^{-0,08t}\\le30\\) ger \\(t\\ge\\ln(3)/0,08\\approx13,73\\) min.</p>",
+        "ledtrad": "<p>Lös först ekvationen som ger gränsen och avgör åt vilket håll olikheten gäller.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "b",
+        "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0,08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Vilken är den tidigaste tidpunkt då båda kraven är uppfyllda? Svara med två decimaler i minuter.</p>",
+        "s": "<p>Minskningens storlek är \\(-C^{\\prime}(t)=0,08C(t)\\). Kravet \\(0,08C\\le2\\) motsvarar \\(C\\le25\\) mg/l och är därför strängare än \\(C\\le30\\). Tidigast gäller båda när \\(90e^{-0,08t}=25\\), alltså \\(t=\\ln(90/25)/0,08\\approx16,01\\) min.</p>",
+        "ledtrad": "<p>Skriv även kravet på minskningshastigheten som ett krav på halten.</p>",
+        "niva": "C",
+        "poang": "0/3/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "t": "<p>När ett filter startas beskrivs föroreningshalten av \\(C(t)=90e^{-0,08t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Vattnet får släppas vidare först när halten är högst 30 mg/l och minskningens storlek samtidigt är högst 2 mg/(l·min).</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En operatör vill dessutom kräva att minskningens storlek är minst 3 mg/(l·min). Kan detta krav vara uppfyllt samtidigt som halten är högst 30 mg/l? Motivera.</p>",
+        "s": "<p>Om \\(C\\le30\\) är \\(-C^{\\prime}=0,08C\\le2,4\\) mg/(l·min), alltså mindre än 3. Kraven kan inte uppfyllas samtidigt.</p>",
+        "ledtrad": "<p>Använd sambandet mellan halten och derivatans storlek.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      }
+    ],
+    "ledtrad": "<p>a) Lös först ekvationen som ger gränsen och avgör åt vilket håll olikheten gäller.</p><p>b) Skriv även kravet på minskningshastigheten som ett krav på halten.</p><p>c) Använd sambandet mellan halten och derivatans storlek.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      false,
+      true,
+      true
+    ]
+  },
+  {
+    "id": "2.797",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/2/3",
+    "t": "<p>En varm givare läggs i ett rum med konstant men okänd temperatur. Vid t = 0 visar givaren 80 °C, efter fyra minuter 50 °C och efter åtta minuter 35 °C. Anta att mätvärdena är exakta och att \\(T(t)=L+Ae^{-kt}\\), där \\(k\\gt 0\\), \\(t\\ge0\\) mäts i minuter och \\(L\\) är rumstemperaturen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(L\\), \\(A\\) och \\(k\\). Ange \\(L\\) och \\(A\\) exakt samt \\(k\\) med fyra decimaler. Visa hur mätvärdena används.</p><p>b) När sjunker givarens temperatur med precis 1 °C/min? Svara med två decimaler i minuter.</p>",
+    "s": "<p><strong>a)</strong> Sätt \\(r=e^{-4k}\\). Då gäller \\(L+A=80\\), \\(L+Ar=50\\), \\(L+Ar^2=35\\). Subtraktion ger \\(A(1-r)=30\\) och \\(Ar(1-r)=15\\). Kvoten ger \\(r=1/2\\), så \\(A=60\\), \\(L=20\\) och \\(k=\\ln(2)/4\\approx0,1733\\). Modellen är \\(T(t)=20+60e^{-(\\ln2)t/4}\\).</p><p><strong>b)</strong> \\(T^{\\prime}(t)=-60ke^{-kt}\\). \\(60ke^{-kt}=1\\) ger \\(t=\\ln(60k)/k\\approx13,51\\) min med \\(k=\\ln2/4\\).</p>",
+    "familj": "Exponentialmodeller med gränsvärde",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        20,
+        60,
+        0.17328679513998632
+      ],
+      13.512496890654484
+    ],
+    "tolerans": [
+      [
+        0,
+        0,
+        0.00005
+      ],
+      0.005
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>En varm givare läggs i ett rum med konstant men okänd temperatur. Vid t = 0 visar givaren 80 °C, efter fyra minuter 50 °C och efter åtta minuter 35 °C. Anta att mätvärdena är exakta och att \\(T(t)=L+Ae^{-kt}\\), där \\(k\\gt 0\\), \\(t\\ge0\\) mäts i minuter och \\(L\\) är rumstemperaturen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm konstanterna i modellen. Ange i ordning \\(L\\), \\(A\\) och \\(k\\), med \\(L\\) och \\(A\\) exakt samt \\(k\\) med fyra decimaler.</p>",
+        "s": "<p>Sätt \\(r=e^{-4k}\\). Då gäller \\(L+A=80\\), \\(L+Ar=50\\), \\(L+Ar^2=35\\). Subtraktion ger \\(A(1-r)=30\\) och \\(Ar(1-r)=15\\). Kvoten ger \\(r=1/2\\), så \\(A=60\\), \\(L=20\\) och \\(k=\\ln(2)/4\\approx0,1733\\). Modellen är \\(T(t)=20+60e^{-(\\ln2)t/4}\\).</p>",
+        "ledtrad": "<p>Jämför temperaturfallen under de två lika långa tidsintervallen. Sätt gärna r = e^(−4k).</p>",
+        "niva": "A",
+        "poang": "0/0/3",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      },
+      {
+        "etikett": "b",
+        "t": "<p>En varm givare läggs i ett rum med konstant men okänd temperatur. Vid t = 0 visar givaren 80 °C, efter fyra minuter 50 °C och efter åtta minuter 35 °C. Anta att mätvärdena är exakta och att \\(T(t)=L+Ae^{-kt}\\), där \\(k\\gt 0\\), \\(t\\ge0\\) mäts i minuter och \\(L\\) är rumstemperaturen.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>När sjunker givarens temperatur med precis 1 °C/min? Svara med två decimaler i minuter.</p>",
+        "s": "<p>\\(T^{\\prime}(t)=-60ke^{-kt}\\). \\(60ke^{-kt}=1\\) ger \\(t=\\ln(60k)/k\\approx13,51\\) min med \\(k=\\ln2/4\\).</p>",
+        "ledtrad": "<p>Bestäm först modellen från de tre mätningarna. Derivera sedan och använd att sjunkande temperatur ger negativ derivata.</p>",
+        "niva": "A",
+        "poang": "0/2/0",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      }
+    ],
+    "ledtrad": "<p>a) Jämför temperaturfallen under de två lika långa tidsintervallen. Sätt gärna r = e^(−4k).</p><p>b) Bestäm först modellen från de tre mätningarna. Derivera sedan och använd att sjunkande temperatur ger negativ derivata.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      false
+    ]
+  },
+  {
+    "id": "2.798",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/5",
+    "t": "<p>Två filter provas på olika vattenprover. Föroreningshalterna modelleras av \\(C_A(t)=120e^{-0,10t}\\) och \\(C_B(t)=90e^{-0,06t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Med att ett filter minskar halten snabbare menas att dess minskning i mg/(l·min) är större.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm alla tidpunkter då prov A har lägre föroreningshalt än prov B, samtidigt som filter A minskar halten snabbare än filter B. Ange intervallets gränser med två decimaler och motivera vilka ändpunkter som ingår.</p><p>b) Förklara varför jämförelsen av enbart de procentuella minskningarna inte räcker för att avgöra vilket filter som minskar halten snabbast i mg/(l·min).</p>",
+    "s": "<p><strong>a)</strong> Lägre halt kräver \\(120e^{-0,10t}\\lt 90e^{-0,06t}\\), vilket ger \\(t\\gt \\ln(4/3)/0,04\\approx7,19\\). Snabbare minskning kräver \\(12e^{-0,10t}\\gt 5,4e^{-0,06t}\\), vilket ger \\(t\\lt \\ln(12/5,4)/0,04\\approx19,96\\). Alltså \\(\\ln(4/3)/0,04\\lt t\\lt \\ln(12/5,4)/0,04\\), ungefär mellan 7,19 och 19,96 minuter. Båda ändpunkterna utesluts eftersom kraven är strikta.</p><p><strong>b)</strong> Den absoluta minskningshastigheten är \\(0,10C_A\\) respektive \\(0,06C_B\\). Den beror både på den relativa hastigheten och på den aktuella halten. A har hela tiden större relativ minskningshastighet, men efter den övre gränsen är halten i A så låg att dess absoluta minskning är mindre.</p>",
+    "familj": "Villkor och jämförelser i exponentialmodeller",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        7.192051811294521,
+        19.962692405444283
+      ],
+      null
+    ],
+    "tolerans": [
+      [
+        0.005,
+        0.005
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      false
+    ],
+    "formaga": [
+      "begrepp",
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Två filter provas på olika vattenprover. Föroreningshalterna modelleras av \\(C_A(t)=120e^{-0,10t}\\) och \\(C_B(t)=90e^{-0,06t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Med att ett filter minskar halten snabbare menas att dess minskning i mg/(l·min) är större.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm tidsintervallet då A både har lägre halt och minskar halten snabbare än B. Ange först den nedre och sedan den övre gränsen, med två decimaler i minuter. Gränstidpunkterna ska inte ingå.</p>",
+        "s": "<p>Lägre halt kräver \\(120e^{-0,10t}\\lt 90e^{-0,06t}\\), vilket ger \\(t\\gt \\ln(4/3)/0,04\\approx7,19\\). Snabbare minskning kräver \\(12e^{-0,10t}\\gt 5,4e^{-0,06t}\\), vilket ger \\(t\\lt \\ln(12/5,4)/0,04\\approx19,96\\). Alltså \\(\\ln(4/3)/0,04\\lt t\\lt \\ln(12/5,4)/0,04\\), ungefär mellan 7,19 och 19,96 minuter. Båda ändpunkterna utesluts eftersom kraven är strikta.</p>",
+        "ledtrad": "<p>Skriv ett villkor för halterna och ett annat för minskningshastigheternas storlek.</p>",
+        "niva": "A",
+        "poang": "0/0/4",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Två filter provas på olika vattenprover. Föroreningshalterna modelleras av \\(C_A(t)=120e^{-0,10t}\\) och \\(C_B(t)=90e^{-0,06t}\\) mg/l, där \\(t\\ge0\\) mäts i minuter. Med att ett filter minskar halten snabbare menas att dess minskning i mg/(l·min) är större.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Förklara varför jämförelsen av enbart de procentuella minskningarna inte räcker för att avgöra vilket filter som minskar halten snabbast i mg/(l·min).</p>",
+        "s": "<p>Den absoluta minskningshastigheten är \\(0,10C_A\\) respektive \\(0,06C_B\\). Den beror både på den relativa hastigheten och på den aktuella halten. A har hela tiden större relativ minskningshastighet, men efter den övre gränsen är halten i A så låg att dess absoluta minskning är mindre.</p>",
+        "ledtrad": "<p>Vad multipliceras den relativa förändringshastigheten med?</p>",
+        "niva": "A",
+        "poang": "0/0/1",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      }
+    ],
+    "ledtrad": "<p>a) Skriv ett villkor för halterna och ett annat för minskningshastigheternas storlek.</p><p>b) Vad multipliceras den relativa förändringshastigheten med?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      true
+    ]
+  },
+  {
+    "id": "2.799",
+    "kap": 2,
+    "omr": "exponential_ln_derivata",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/2/5",
+    "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>a) Bestäm \\(L\\), \\(A\\) och \\(k\\) och skriv modellen. Ange \\(L\\) och \\(A\\) med två decimaler samt \\(k\\) med fyra decimaler. Redovisa hur du använder de båda förändringshastigheterna.</p><p>b) En produktionsledare vill vänta tills massan är 100 g. Går det enligt modellen? Motivera.</p><p>c) Efter hur lång tid har materialet förlorat 80 % av den massa som enligt modellen kan försvinna? Svara med två decimaler i timmar.</p>",
+    "s": "<p><strong>a)</strong> \\(M^{\\prime}(t)=-kAe^{-kt}\\). Villkoren ger \\(kA=30\\) och \\(kAe^{-3k}=7,5\\). Kvoten ger \\(e^{-3k}=1/4\\), så \\(k=\\ln4/3\\approx0,4621\\), \\(A=30/k\\approx64,92\\) och \\(L=180-A\\approx115,08\\). Alltså \\(M(t)\\approx115,08+64,92e^{-0,4621t}\\); fortsatta beräkningar använder oavrundade konstanter.</p><p><strong>b)</strong> För alla ändliga \\(t\\ge0\\) är \\(Ae^{-kt}\\gt 0\\), så \\(M(t)\\gt L\\approx115,08\\) g. Massan närmar sig 115,08 g och kan aldrig bli 100 g.</p><p><strong>c)</strong> Den massa som kan försvinna är \\(A\\), inte hela startmassan 180 g. Efter 80 % förlust återstår \\(0,20A\\) av denna del. \\(Ae^{-kt}=0,20A\\) ger \\(t=\\ln5/k\\approx3,48\\) h.</p>",
+    "familj": "Exponentialmodeller med gränsvärde",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        115.07872315999664,
+        64.92127684000336,
+        0.46209812037329684
+      ],
+      null,
+      3.4828921423310435
+    ],
+    "tolerans": [
+      [
+        0.005,
+        0.005,
+        0.00005
+      ],
+      null,
+      0.005
+    ],
+    "självrättning": [
+      true,
+      false,
+      true
+    ],
+    "formaga": [
+      "modellering",
+      "procedur",
+      "resonemang"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      null,
+      "numeriskt"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Bestäm konstanterna i modellen. Ange i ordning \\(L\\), \\(A\\), \\(k\\), med två decimaler för massorna och fyra för \\(k\\).</p>",
+        "s": "<p>\\(M^{\\prime}(t)=-kAe^{-kt}\\). Villkoren ger \\(kA=30\\) och \\(kAe^{-3k}=7,5\\). Kvoten ger \\(e^{-3k}=1/4\\), så \\(k=\\ln4/3\\approx0,4621\\), \\(A=30/k\\approx64,92\\) och \\(L=180-A\\approx115,08\\). Alltså \\(M(t)\\approx115,08+64,92e^{-0,4621t}\\); fortsatta beräkningar använder oavrundade konstanter.</p>",
+        "ledtrad": "<p>Derivera modellen och bilda kvoten mellan förändringshastigheternas storlek vid t = 3 och t = 0.</p>",
+        "niva": "A",
+        "poang": "0/0/3",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      },
+      {
+        "etikett": "b",
+        "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>En produktionsledare vill vänta tills massan är 100 g. Går det enligt modellen? Motivera.</p>",
+        "s": "<p>För alla ändliga \\(t\\ge0\\) är \\(Ae^{-kt}\\gt 0\\), så \\(M(t)\\gt L\\approx115,08\\) g. Massan närmar sig 115,08 g och kan aldrig bli 100 g.</p>",
+        "ledtrad": "<p>Vilken massa närmar sig modellen på lång sikt?</p>",
+        "niva": "A",
+        "poang": "0/2/0",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      },
+      {
+        "etikett": "c",
+        "t": "<p>Massan hos ett material som torkar beskrivs av \\(M(t)=L+Ae^{-kt}\\), där \\(L\\gt 0\\), \\(A\\gt 0\\), \\(k\\gt 0\\), massan mäts i gram och \\(t\\ge0\\) i timmar. Från början är massan 180 g och minskar med 30 g/h. Efter tre timmar minskar massan med 7,5 g/h. Anta att uppgifterna är exakta.</p><p>Miniräknare får användas. Behåll oavrundade värden i mellanleden.</p><p>Efter hur lång tid har materialet förlorat 80 % av den massa som enligt modellen kan försvinna? Svara med två decimaler i timmar.</p>",
+        "s": "<p>Den massa som kan försvinna är \\(A\\), inte hela startmassan 180 g. Efter 80 % förlust återstår \\(0,20A\\) av denna del. \\(Ae^{-kt}=0,20A\\) ger \\(t=\\ln5/k\\approx3,48\\) h.</p>",
+        "ledtrad": "<p>Skilj mellan den totala startmassan och den del som kan försvinna.</p>",
+        "niva": "A",
+        "poang": "0/0/2",
+        "traningsniva": 5,
+        "arbetsinsats": 3
+      }
+    ],
+    "ledtrad": "<p>a) Derivera modellen och bilda kvoten mellan förändringshastigheternas storlek vid t = 3 och t = 0.</p><p>b) Vilken massa närmar sig modellen på lång sikt?</p><p>c) Skilj mellan den totala startmassan och den del som kan försvinna.</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true,
+    "manuellKomplettering": [
+      true,
+      true,
+      false
+    ]
   }
 ];

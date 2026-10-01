@@ -82157,5 +82157,1291 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "spel": true,
     "familjNyckel": "polynom_komplexa__polynomekvationer_med_komplexa_losningar"
+  },
+  {
+    "id": "1.608",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm perioden för \\(y=\\sin(2x)\\), där \\(x\\) är i grader.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> \\(\\sin x\\) upprepar sig när argumentet har ökat \\(360^\\circ\\). Här är argumentet \\(2x\\), som ökar dubbelt så snabbt som \\(x\\).</p><p>\\[2x \\text{ ökar } 360^\\circ \\;\\Leftrightarrow\\; x \\text{ ökar } \\frac{360^\\circ}{2}=180^\\circ\\]</p><p><strong>Svar:</strong> \\(180^\\circ\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 180,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Hur mycket behöver \\(x\\) öka för att \\(2x\\) ska öka med ett helt varv, \\(360^\\circ\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.609",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=4\\cos x-3\\) svänger kring en vågrät linje, medellinjen. Ange medellinjens ekvation.</p>",
+    "s": "<p>\\(4\\cos x\\) varierar mellan \\(-4\\) och \\(4\\), symmetriskt kring \\(0\\). När \\(3\\) dras ifrån flyttas hela grafen tre steg nedåt, så den svänger kring \\(y=-3\\).</p><p>Kontroll: största värdet är \\(4-3=1\\) och minsta \\(-4-3=-7\\). Mittemellan ligger \\(\\frac{1+(-7)}{2}=-3\\).</p><p><strong>Svar:</strong> \\(y=-3\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Cosinusdelen varierar lika mycket uppåt som nedåt kring noll. Vad gör konstanten \\(-3\\) med hela grafen?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.610",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm amplitud, period och medellinje för \\(y=5\\sin(3x)+2\\), där \\(x\\) är i grader.</p>",
+    "s": "<p><strong>Metod:</strong> För \\(y=a\\sin(bx)+d\\) är amplituden \\(|a|\\), perioden \\(\\frac{360^\\circ}{|b|}\\) och medellinjen \\(y=d\\).</p><p>Amplitud: \\(5\\).<br>Period: \\(\\frac{360^\\circ}{3}=120^\\circ\\).<br>Medellinje: \\(y=2\\).</p><p><strong>Svar:</strong> amplitud \\(5\\), period \\(120^\\circ\\), medellinje \\(y=2\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      120,
+      2
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "grader",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Amplitud",
+      "Period (grader)",
+      "Medellinje: y ="
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Ta en egenskap i taget: talet framför sinus, talet framför \\(x\\) och konstanten som läggs till.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.611",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm amplitud, period och medellinje för \\(y=-2\\cos(0{,}5x)+1\\), där \\(x\\) är i grader.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Minustecknet speglar grafen i medellinjen men ändrar inte hur långt grafen går från den. Amplituden är därför ett avstånd och alltid positiv.</p><p>Amplitud: \\(|-2|=2\\).<br>Period: \\(\\frac{360^\\circ}{0{,}5}=720^\\circ\\). En faktor mindre än 1 framför \\(x\\) gör perioden längre.<br>Medellinje: \\(y=1\\).</p><p><strong>Svar:</strong> amplitud \\(2\\), period \\(720^\\circ\\), medellinje \\(y=1\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      720,
+      1
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "grader",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Amplitud",
+      "Period (grader)",
+      "Medellinje: y ="
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Kan en amplitud vara negativ? Tänk på amplituden som ett avstånd från medellinjen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.612",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm största och minsta värde för \\(y=3-4\\sin(2x)\\).</p>",
+    "s": "<p>\\(\\sin(2x)\\) antar alla värden från \\(-1\\) till \\(1\\).</p><p>När \\(\\sin(2x)=-1\\) blir \\(y=3-4\\cdot(-1)=7\\), som är största värdet.<br>När \\(\\sin(2x)=1\\) blir \\(y=3-4\\cdot1=-1\\), som är minsta värdet.</p><p>Observera att det största värdet uppstår när sinus är som minst, eftersom sinus multipliceras med ett negativt tal.</p><p><strong>Svar:</strong> största värde \\(7\\), minsta värde \\(-1\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Största värde",
+      "Minsta värde"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Sätt in de två extremvärdena för \\(\\sin(2x)\\). Vilket av dem ger störst \\(y\\) när sinus multipliceras med \\(-4\\)?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.613",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(y=a\\sin(bx)\\), där \\(a\\gt 0\\) och \\(b\\gt 0\\), har perioden \\(40^\\circ\\) och största värdet \\(6\\). Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<p>Medellinjen är \\(y=0\\), så största värdet är lika med amplituden: \\(a=6\\).</p><p>Perioden ger \\(b\\):</p><p>\\[\\frac{360^\\circ}{b}=40^\\circ\\;\\Rightarrow\\; b=\\frac{360^\\circ}{40^\\circ}=9\\]</p><p><strong>Svar:</strong> \\(a=6\\) och \\(b=9\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      9
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Vilket samband gäller mellan \\(b\\) och perioden? Ställ upp en ekvation med perioden \\(40^\\circ\\).</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.614",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(y=A\\cos(kx)+d\\), där \\(A\\gt 0\\) och \\(k\\gt 0\\), har största värdet \\(11\\), minsta värdet \\(3\\) och perioden \\(90^\\circ\\). Bestäm \\(A\\), \\(k\\) och \\(d\\).</p>",
+    "s": "<p><strong>Medellinjen</strong> ligger mitt emellan extremvärdena: \\(d=\\frac{11+3}{2}=7\\).</p><p><strong>Amplituden</strong> är halva avståndet mellan dem: \\(A=\\frac{11-3}{2}=4\\).</p><p><strong>Perioden:</strong> \\(\\frac{360^\\circ}{k}=90^\\circ\\Rightarrow k=4\\).</p><p>Funktionen är \\(y=4\\cos(4x)+7\\).</p><p><strong>Svar:</strong> \\(A=4\\), \\(k=4\\) och \\(d=7\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      4,
+      7
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "A",
+      "k",
+      "d"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Börja med medellinjen: var ligger den i förhållande till största och minsta värdet?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.615",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur många nollställen har \\(y=\\sin(3x)\\) i intervallet \\(0^\\circ\\le x\\lt 360^\\circ\\)?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> \\(\\sin v=0\\) när \\(v=0^\\circ, 180^\\circ, 360^\\circ, \\dots\\), alltså två gånger per varv.</p><p>När \\(x\\) går från \\(0^\\circ\\) till \\(360^\\circ\\) går \\(3x\\) från \\(0^\\circ\\) till \\(1080^\\circ\\), alltså tre hela varv. Det ger \\(3\\cdot2=6\\) nollställen:</p><p>\\[3x=180^\\circ\\cdot n\\;\\Rightarrow\\; x=60^\\circ\\cdot n,\\quad n=0,1,\\dots,5\\]</p><p>Värdet \\(x=360^\\circ\\) ingår inte i intervallet.</p><p><strong>Svar:</strong> \\(6\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Hur många hela perioder får plats mellan \\(0^\\circ\\) och \\(360^\\circ\\), och hur många nollställen har sinus per period?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.616",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(f(x)=a\\sin(bx)+c\\), där \\(a\\gt 0\\) och \\(b\\gt 0\\), har en maximipunkt i \\((15^\\circ,\\,9)\\). Närmast följande minimipunkt är \\((45^\\circ,\\,-1)\\). Bestäm \\(a\\), \\(b\\) och \\(c\\).</p>",
+    "s": "<p><strong>Medellinje och amplitud:</strong> \\(c=\\frac{9+(-1)}{2}=4\\) och \\(a=\\frac{9-(-1)}{2}=5\\).</p><p><strong>Period:</strong> Från ett maximum till närmaste minimum är en halv period. Avståndet är \\(45^\\circ-15^\\circ=30^\\circ\\), så perioden är \\(60^\\circ\\).</p><p>\\[\\frac{360^\\circ}{b}=60^\\circ\\;\\Rightarrow\\; b=6\\]</p><p><strong>Kontroll:</strong> \\(f(15^\\circ)=5\\sin90^\\circ+4=9\\) och \\(f(45^\\circ)=5\\sin270^\\circ+4=-1\\).</p><p><strong>Svar:</strong> \\(a=5\\), \\(b=6\\) och \\(c=4\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      6,
+      4
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Hur stor del av en period är det från ett maximum till närmast följande minimum?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "1.617",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(f(x)=a\\cos(bx)+c\\), där \\(a\\) och \\(b\\) är positiva, upprepar sig efter \\(120^\\circ\\). Dessutom gäller \\(f(0)=7\\) och \\(f(30^\\circ)=1\\). Bestäm \\(a\\), \\(b\\) och \\(c\\).</p>",
+    "s": "<p><strong>Perioden:</strong> \\(\\frac{360^\\circ}{b}=120^\\circ\\Rightarrow b=3\\).</p><p><strong>Sätt in \\(x=30^\\circ\\):</strong> \\(f(30^\\circ)=a\\cos90^\\circ+c=c\\), så \\(c=1\\).</p><p><strong>Sätt in \\(x=0\\):</strong> \\(f(0)=a\\cos0+c=a+1=7\\), så \\(a=6\\).</p><p>Funktionen är \\(f(x)=6\\cos(3x)+1\\).</p><p><strong>Svar:</strong> \\(a=6\\), \\(b=3\\) och \\(c=1\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      3,
+      1
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Bestäm \\(b\\) först. Vad blir \\(\\cos(bx)\\) när \\(x=30^\\circ\\)?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "1.618",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>För vilket positivt heltal \\(k\\) har \\(y=\\sin(kx)\\) exakt \\(11\\) nollställen i intervallet \\(0^\\circ\\lt x\\lt 360^\\circ\\)?</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Räkna nollställena allmänt och ställ sedan upp en ekvation.</p><p>\\(\\sin(kx)=0\\) när \\(kx=180^\\circ\\cdot n\\), alltså \\(x=\\frac{180^\\circ\\cdot n}{k}\\).</p><p>Villkoret \\(0^\\circ\\lt x\\lt 360^\\circ\\) ger \\(0\\lt n\\lt 2k\\), det vill säga \\(n=1,2,\\dots,2k-1\\). Antalet nollställen är \\(2k-1\\).</p><p>\\[2k-1=11\\;\\Rightarrow\\; k=6\\]</p><p>Ändpunkterna \\(0^\\circ\\) och \\(360^\\circ\\) är också nollställen men ingår inte i det öppna intervallet.</p><p><strong>Svar:</strong> \\(k=6\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Skriv upp alla \\(x\\) där \\(\\sin(kx)=0\\). Hur många av dem ligger strikt mellan \\(0^\\circ\\) och \\(360^\\circ\\)?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "1.619",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm perioden för \\(y=\\tan(3x)\\), där \\(x\\) är i grader.</p>",
+    "s": "<p>\\(\\tan x\\) har perioden \\(180^\\circ\\). Argumentet \\(3x\\) ökar tre gånger så snabbt som \\(x\\), så perioden blir en tredjedel:</p><p>\\[T=\\frac{180^\\circ}{3}=60^\\circ\\]</p><p><strong>Svar:</strong> \\(60^\\circ\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Tangens upprepar sig efter ett halvt varv, inte ett helt.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.620",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm alla lodräta asymptoter till \\(y=\\tan x\\) i intervallet \\(0^\\circ\\le x\\le 360^\\circ\\).</p>",
+    "s": "<p>\\(\\tan x=\\frac{\\sin x}{\\cos x}\\) saknar värde där \\(\\cos x=0\\). Där växer grafen obegränsat och har lodräta asymptoter.</p><p>I intervallet är \\(\\cos x=0\\) för \\(x=90^\\circ\\) och \\(x=270^\\circ\\).</p><p><strong>Svar:</strong> \\(x=90^\\circ\\) och \\(x=270^\\circ\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90,
+      270
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Skriv tangens som en kvot. För vilka vinklar går det inte att dividera?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.621",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm de lodräta asymptoterna till \\(y=\\tan(2x)\\) i intervallet \\(0^\\circ\\le x\\lt 180^\\circ\\).</p>",
+    "s": "<p>Asymptoterna finns där \\(\\cos(2x)=0\\):</p><p>\\[2x=90^\\circ+n\\cdot180^\\circ\\;\\Rightarrow\\; x=45^\\circ+n\\cdot90^\\circ\\]</p><p>I intervallet ger \\(n=0\\) och \\(n=1\\) värdena \\(45^\\circ\\) och \\(135^\\circ\\).</p><p><strong>Svar:</strong> \\(x=45^\\circ\\) och \\(x=135^\\circ\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      45,
+      135
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "x",
+      "x"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Lös först \\(\\cos(2x)=0\\) för argumentet \\(2x\\), och dela sedan med 2.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.622",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm perioden för \\(y=2\\tan\\dfrac{x}{3}\\), där \\(x\\) är i grader.</p>",
+    "s": "<p>Faktorn \\(2\\) sträcker grafen på höjden men påverkar inte perioden.</p><p>Argumentet \\(\\frac{x}{3}\\) ökar \\(180^\\circ\\) först när \\(x\\) ökar \\(3\\cdot180^\\circ\\):</p><p>\\[T=\\frac{180^\\circ}{1/3}=540^\\circ\\]</p><p><strong>Svar:</strong> \\(540^\\circ\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 540,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Vilket av talen påverkar perioden: faktorn framför tangens eller faktorn framför \\(x\\)?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.623",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Figuren visar grafen till \\(y=a\\sin x+c\\).</p><span class=\"fig\"><svg width=\"500\" height=\"294\" viewBox=\"0 0 500 294\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Sinuskurva från 0 till 360 grader med största värde 4 vid 90 grader och minsta värde minus 2 vid 270 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"292\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"260.0\" x2=\"454\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"232.5\" x2=\"454\" y2=\"232.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"205.0\" x2=\"454\" y2=\"205.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"177.5\" x2=\"454\" y2=\"177.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"150.0\" x2=\"454\" y2=\"150.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"122.5\" x2=\"454\" y2=\"122.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"95.0\" x2=\"454\" y2=\"95.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"67.5\" x2=\"454\" y2=\"67.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"177.5\" x2=\"470\" y2=\"177.5\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 177.5 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"260.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"169.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"154.0\" y1=\"174.0\" x2=\"154.0\" y2=\"181.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"154.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">90°</text><text x=\"154.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">90°</text><line x1=\"254.0\" y1=\"174.0\" x2=\"254.0\" y2=\"181.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"254.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"354.0\" y1=\"174.0\" x2=\"354.0\" y2=\"181.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">270°</text><text x=\"354.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">270°</text><line x1=\"454.0\" y1=\"174.0\" x2=\"454.0\" y2=\"181.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"454.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"50.5\" y1=\"260.0\" x2=\"57.5\" y2=\"260.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−3</text><text x=\"46.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−3</text><line x1=\"50.5\" y1=\"232.5\" x2=\"57.5\" y2=\"232.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"236.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"236.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"205.0\" x2=\"57.5\" y2=\"205.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"208.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"208.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"150.0\" x2=\"57.5\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"153.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"153.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"122.5\" x2=\"57.5\" y2=\"122.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"126.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"126.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"50.5\" y1=\"95.0\" x2=\"57.5\" y2=\"95.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"98.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"46.0\" y=\"98.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"50.5\" y1=\"67.5\" x2=\"57.5\" y2=\"67.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"71.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"46.0\" y=\"71.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">5</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">5</text><path d=\"M 54.0,150.00 L 55.0,148.70 L 56.0,147.41 L 57.0,146.11 L 58.0,144.82 L 59.0,143.53 L 60.0,142.24 L 61.0,140.95 L 62.0,139.66 L 63.0,138.38 L 64.0,137.09 L 65.0,135.82 L 66.0,134.54 L 67.0,133.27 L 68.0,132.00 L 69.0,130.74 L 70.0,129.48 L 71.0,128.23 L 72.0,126.98 L 73.0,125.74 L 74.0,124.51 L 75.0,123.28 L 76.0,122.05 L 77.0,120.84 L 78.0,119.63 L 79.0,118.43 L 80.0,117.24 L 81.0,116.05 L 82.0,114.87 L 83.0,113.71 L 84.0,112.55 L 85.0,111.40 L 86.0,110.26 L 87.0,109.12 L 88.0,108.00 L 89.0,106.89 L 90.0,105.79 L 91.0,104.71 L 92.0,103.63 L 93.0,102.56 L 94.0,101.51 L 95.0,100.47 L 96.0,99.44 L 97.0,98.42 L 98.0,97.41 L 99.0,96.42 L 100.0,95.44 L 101.0,94.48 L 102.0,93.52 L 103.0,92.59 L 104.0,91.66 L 105.0,90.75 L 106.0,89.86 L 107.0,88.98 L 108.0,88.12 L 109.0,87.27 L 110.0,86.43 L 111.0,85.61 L 112.0,84.81 L 113.0,84.03 L 114.0,83.26 L 115.0,82.50 L 116.0,81.77 L 117.0,81.05 L 118.0,80.34 L 119.0,79.66 L 120.0,78.99 L 121.0,78.34 L 122.0,77.70 L 123.0,77.09 L 124.0,76.49 L 125.0,75.91 L 126.0,75.35 L 127.0,74.81 L 128.0,74.29 L 129.0,73.78 L 130.0,73.29 L 131.0,72.83 L 132.0,72.38 L 133.0,71.95 L 134.0,71.54 L 135.0,71.15 L 136.0,70.78 L 137.0,70.42 L 138.0,70.09 L 139.0,69.78 L 140.0,69.49 L 141.0,69.21 L 142.0,68.96 L 143.0,68.73 L 144.0,68.52 L 145.0,68.32 L 146.0,68.15 L 147.0,68.00 L 148.0,67.87 L 149.0,67.75 L 150.0,67.66 L 151.0,67.59 L 152.0,67.54 L 153.0,67.51 L 154.0,67.50 L 155.0,67.51 L 156.0,67.54 L 157.0,67.59 L 158.0,67.66 L 159.0,67.75 L 160.0,67.87 L 161.0,68.00 L 162.0,68.15 L 163.0,68.32 L 164.0,68.52 L 165.0,68.73 L 166.0,68.96 L 167.0,69.21 L 168.0,69.49 L 169.0,69.78 L 170.0,70.09 L 171.0,70.42 L 172.0,70.78 L 173.0,71.15 L 174.0,71.54 L 175.0,71.95 L 176.0,72.38 L 177.0,72.83 L 178.0,73.29 L 179.0,73.78 L 180.0,74.29 L 181.0,74.81 L 182.0,75.35 L 183.0,75.91 L 184.0,76.49 L 185.0,77.09 L 186.0,77.70 L 187.0,78.34 L 188.0,78.99 L 189.0,79.66 L 190.0,80.34 L 191.0,81.05 L 192.0,81.77 L 193.0,82.50 L 194.0,83.26 L 195.0,84.03 L 196.0,84.81 L 197.0,85.61 L 198.0,86.43 L 199.0,87.27 L 200.0,88.12 L 201.0,88.98 L 202.0,89.86 L 203.0,90.75 L 204.0,91.66 L 205.0,92.59 L 206.0,93.52 L 207.0,94.48 L 208.0,95.44 L 209.0,96.42 L 210.0,97.41 L 211.0,98.42 L 212.0,99.44 L 213.0,100.47 L 214.0,101.51 L 215.0,102.56 L 216.0,103.63 L 217.0,104.71 L 218.0,105.79 L 219.0,106.89 L 220.0,108.00 L 221.0,109.12 L 222.0,110.26 L 223.0,111.40 L 224.0,112.55 L 225.0,113.71 L 226.0,114.87 L 227.0,116.05 L 228.0,117.24 L 229.0,118.43 L 230.0,119.63 L 231.0,120.84 L 232.0,122.05 L 233.0,123.28 L 234.0,124.51 L 235.0,125.74 L 236.0,126.98 L 237.0,128.23 L 238.0,129.48 L 239.0,130.74 L 240.0,132.00 L 241.0,133.27 L 242.0,134.54 L 243.0,135.82 L 244.0,137.09 L 245.0,138.38 L 246.0,139.66 L 247.0,140.95 L 248.0,142.24 L 249.0,143.53 L 250.0,144.82 L 251.0,146.11 L 252.0,147.41 L 253.0,148.70 L 254.0,150.00 L 255.0,151.30 L 256.0,152.59 L 257.0,153.89 L 258.0,155.18 L 259.0,156.47 L 260.0,157.76 L 261.0,159.05 L 262.0,160.34 L 263.0,161.62 L 264.0,162.91 L 265.0,164.18 L 266.0,165.46 L 267.0,166.73 L 268.0,168.00 L 269.0,169.26 L 270.0,170.52 L 271.0,171.77 L 272.0,173.02 L 273.0,174.26 L 274.0,175.49 L 275.0,176.72 L 276.0,177.95 L 277.0,179.16 L 278.0,180.37 L 279.0,181.57 L 280.0,182.76 L 281.0,183.95 L 282.0,185.13 L 283.0,186.29 L 284.0,187.45 L 285.0,188.60 L 286.0,189.74 L 287.0,190.88 L 288.0,192.00 L 289.0,193.11 L 290.0,194.21 L 291.0,195.29 L 292.0,196.37 L 293.0,197.44 L 294.0,198.49 L 295.0,199.53 L 296.0,200.56 L 297.0,201.58 L 298.0,202.59 L 299.0,203.58 L 300.0,204.56 L 301.0,205.52 L 302.0,206.48 L 303.0,207.41 L 304.0,208.34 L 305.0,209.25 L 306.0,210.14 L 307.0,211.02 L 308.0,211.88 L 309.0,212.73 L 310.0,213.57 L 311.0,214.39 L 312.0,215.19 L 313.0,215.97 L 314.0,216.74 L 315.0,217.50 L 316.0,218.23 L 317.0,218.95 L 318.0,219.66 L 319.0,220.34 L 320.0,221.01 L 321.0,221.66 L 322.0,222.30 L 323.0,222.91 L 324.0,223.51 L 325.0,224.09 L 326.0,224.65 L 327.0,225.19 L 328.0,225.71 L 329.0,226.22 L 330.0,226.71 L 331.0,227.17 L 332.0,227.62 L 333.0,228.05 L 334.0,228.46 L 335.0,228.85 L 336.0,229.22 L 337.0,229.58 L 338.0,229.91 L 339.0,230.22 L 340.0,230.51 L 341.0,230.79 L 342.0,231.04 L 343.0,231.27 L 344.0,231.48 L 345.0,231.68 L 346.0,231.85 L 347.0,232.00 L 348.0,232.13 L 349.0,232.25 L 350.0,232.34 L 351.0,232.41 L 352.0,232.46 L 353.0,232.49 L 354.0,232.50 L 355.0,232.49 L 356.0,232.46 L 357.0,232.41 L 358.0,232.34 L 359.0,232.25 L 360.0,232.13 L 361.0,232.00 L 362.0,231.85 L 363.0,231.68 L 364.0,231.48 L 365.0,231.27 L 366.0,231.04 L 367.0,230.79 L 368.0,230.51 L 369.0,230.22 L 370.0,229.91 L 371.0,229.58 L 372.0,229.22 L 373.0,228.85 L 374.0,228.46 L 375.0,228.05 L 376.0,227.62 L 377.0,227.17 L 378.0,226.71 L 379.0,226.22 L 380.0,225.71 L 381.0,225.19 L 382.0,224.65 L 383.0,224.09 L 384.0,223.51 L 385.0,222.91 L 386.0,222.30 L 387.0,221.66 L 388.0,221.01 L 389.0,220.34 L 390.0,219.66 L 391.0,218.95 L 392.0,218.23 L 393.0,217.50 L 394.0,216.74 L 395.0,215.97 L 396.0,215.19 L 397.0,214.39 L 398.0,213.57 L 399.0,212.73 L 400.0,211.88 L 401.0,211.02 L 402.0,210.14 L 403.0,209.25 L 404.0,208.34 L 405.0,207.41 L 406.0,206.48 L 407.0,205.52 L 408.0,204.56 L 409.0,203.58 L 410.0,202.59 L 411.0,201.58 L 412.0,200.56 L 413.0,199.53 L 414.0,198.49 L 415.0,197.44 L 416.0,196.37 L 417.0,195.29 L 418.0,194.21 L 419.0,193.11 L 420.0,192.00 L 421.0,190.88 L 422.0,189.74 L 423.0,188.60 L 424.0,187.45 L 425.0,186.29 L 426.0,185.13 L 427.0,183.95 L 428.0,182.76 L 429.0,181.57 L 430.0,180.37 L 431.0,179.16 L 432.0,177.95 L 433.0,176.72 L 434.0,175.49 L 435.0,174.26 L 436.0,173.02 L 437.0,171.77 L 438.0,170.52 L 439.0,169.26 L 440.0,168.00 L 441.0,166.73 L 442.0,165.46 L 443.0,164.18 L 444.0,162.91 L 445.0,161.62 L 446.0,160.34 L 447.0,159.05 L 448.0,157.76 L 449.0,156.47 L 450.0,155.18 L 451.0,153.89 L 452.0,152.59 L 453.0,151.30 L 454.0,150.00\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg></span><p>Bestäm \\(a\\) och \\(c\\).</p>",
+    "s": "<p>Läs av största värdet \\(4\\) och minsta värdet \\(-2\\).</p><p>Medellinjen: \\(c=\\frac{4+(-2)}{2}=1\\).<br>Amplituden: \\(\\frac{4-(-2)}{2}=3\\).</p><p>Grafen går uppåt från medellinjen vid \\(x=0\\), som en vanlig sinuskurva, så \\(a=3\\) och inte \\(-3\\).</p><p><strong>Svar:</strong> \\(a=3\\) och \\(c=1\\)</p>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "c"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
+    "ledtrad": "<p>Läs av största och minsta värde. Medellinjen ligger mittemellan dem.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.624",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Figuren visar grafen till \\(y=a\\cos(bx)\\), där \\(a\\gt 0\\) och \\(b\\gt 0\\).</p><span class=\"fig\"><svg width=\"500\" height=\"278\" viewBox=\"0 0 500 278\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cosinuskurva från 0 till 360 grader med största värde 2 vid 0, 180 och 360 grader och minsta värde minus 2 vid 90 och 270 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"276\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"244.0\" x2=\"454\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"210.0\" x2=\"454\" y2=\"210.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"176.0\" x2=\"454\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"142.0\" x2=\"454\" y2=\"142.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"108.0\" x2=\"454\" y2=\"108.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"74.0\" x2=\"454\" y2=\"74.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"142.0\" x2=\"470\" y2=\"142.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 142.0 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"244.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"134.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"154.0\" y1=\"138.5\" x2=\"154.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"154.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">90°</text><text x=\"154.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">90°</text><line x1=\"254.0\" y1=\"138.5\" x2=\"254.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"254.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"354.0\" y1=\"138.5\" x2=\"354.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">270°</text><text x=\"354.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">270°</text><line x1=\"454.0\" y1=\"138.5\" x2=\"454.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"454.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"50.5\" y1=\"244.0\" x2=\"57.5\" y2=\"244.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"247.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−3</text><text x=\"46.0\" y=\"247.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−3</text><line x1=\"50.5\" y1=\"210.0\" x2=\"57.5\" y2=\"210.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"213.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"213.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"176.0\" x2=\"57.5\" y2=\"176.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"108.0\" x2=\"57.5\" y2=\"108.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"74.0\" x2=\"57.5\" y2=\"74.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><path d=\"M 54.0,74.00 L 55.0,74.03 L 56.0,74.13 L 57.0,74.30 L 58.0,74.54 L 59.0,74.84 L 60.0,75.20 L 61.0,75.64 L 62.0,76.14 L 63.0,76.70 L 64.0,77.33 L 65.0,78.02 L 66.0,78.78 L 67.0,79.59 L 68.0,80.47 L 69.0,81.41 L 70.0,82.41 L 71.0,83.47 L 72.0,84.59 L 73.0,85.76 L 74.0,86.99 L 75.0,88.27 L 76.0,89.61 L 77.0,90.99 L 78.0,92.43 L 79.0,93.92 L 80.0,95.45 L 81.0,97.03 L 82.0,98.66 L 83.0,100.32 L 84.0,102.03 L 85.0,103.78 L 86.0,105.56 L 87.0,107.39 L 88.0,109.24 L 89.0,111.13 L 90.0,113.05 L 91.0,114.99 L 92.0,116.97 L 93.0,118.97 L 94.0,120.99 L 95.0,123.03 L 96.0,125.09 L 97.0,127.17 L 98.0,129.26 L 99.0,131.36 L 100.0,133.48 L 101.0,135.60 L 102.0,137.73 L 103.0,139.86 L 104.0,142.00 L 105.0,144.14 L 106.0,146.27 L 107.0,148.40 L 108.0,150.52 L 109.0,152.64 L 110.0,154.74 L 111.0,156.83 L 112.0,158.91 L 113.0,160.97 L 114.0,163.01 L 115.0,165.03 L 116.0,167.03 L 117.0,169.01 L 118.0,170.95 L 119.0,172.87 L 120.0,174.76 L 121.0,176.61 L 122.0,178.44 L 123.0,180.22 L 124.0,181.97 L 125.0,183.68 L 126.0,185.34 L 127.0,186.97 L 128.0,188.55 L 129.0,190.08 L 130.0,191.57 L 131.0,193.01 L 132.0,194.39 L 133.0,195.73 L 134.0,197.01 L 135.0,198.24 L 136.0,199.41 L 137.0,200.53 L 138.0,201.59 L 139.0,202.59 L 140.0,203.53 L 141.0,204.41 L 142.0,205.22 L 143.0,205.98 L 144.0,206.67 L 145.0,207.30 L 146.0,207.86 L 147.0,208.36 L 148.0,208.80 L 149.0,209.16 L 150.0,209.46 L 151.0,209.70 L 152.0,209.87 L 153.0,209.97 L 154.0,210.00 L 155.0,209.97 L 156.0,209.87 L 157.0,209.70 L 158.0,209.46 L 159.0,209.16 L 160.0,208.80 L 161.0,208.36 L 162.0,207.86 L 163.0,207.30 L 164.0,206.67 L 165.0,205.98 L 166.0,205.22 L 167.0,204.41 L 168.0,203.53 L 169.0,202.59 L 170.0,201.59 L 171.0,200.53 L 172.0,199.41 L 173.0,198.24 L 174.0,197.01 L 175.0,195.73 L 176.0,194.39 L 177.0,193.01 L 178.0,191.57 L 179.0,190.08 L 180.0,188.55 L 181.0,186.97 L 182.0,185.34 L 183.0,183.68 L 184.0,181.97 L 185.0,180.22 L 186.0,178.44 L 187.0,176.61 L 188.0,174.76 L 189.0,172.87 L 190.0,170.95 L 191.0,169.01 L 192.0,167.03 L 193.0,165.03 L 194.0,163.01 L 195.0,160.97 L 196.0,158.91 L 197.0,156.83 L 198.0,154.74 L 199.0,152.64 L 200.0,150.52 L 201.0,148.40 L 202.0,146.27 L 203.0,144.14 L 204.0,142.00 L 205.0,139.86 L 206.0,137.73 L 207.0,135.60 L 208.0,133.48 L 209.0,131.36 L 210.0,129.26 L 211.0,127.17 L 212.0,125.09 L 213.0,123.03 L 214.0,120.99 L 215.0,118.97 L 216.0,116.97 L 217.0,114.99 L 218.0,113.05 L 219.0,111.13 L 220.0,109.24 L 221.0,107.39 L 222.0,105.56 L 223.0,103.78 L 224.0,102.03 L 225.0,100.32 L 226.0,98.66 L 227.0,97.03 L 228.0,95.45 L 229.0,93.92 L 230.0,92.43 L 231.0,90.99 L 232.0,89.61 L 233.0,88.27 L 234.0,86.99 L 235.0,85.76 L 236.0,84.59 L 237.0,83.47 L 238.0,82.41 L 239.0,81.41 L 240.0,80.47 L 241.0,79.59 L 242.0,78.78 L 243.0,78.02 L 244.0,77.33 L 245.0,76.70 L 246.0,76.14 L 247.0,75.64 L 248.0,75.20 L 249.0,74.84 L 250.0,74.54 L 251.0,74.30 L 252.0,74.13 L 253.0,74.03 L 254.0,74.00 L 255.0,74.03 L 256.0,74.13 L 257.0,74.30 L 258.0,74.54 L 259.0,74.84 L 260.0,75.20 L 261.0,75.64 L 262.0,76.14 L 263.0,76.70 L 264.0,77.33 L 265.0,78.02 L 266.0,78.78 L 267.0,79.59 L 268.0,80.47 L 269.0,81.41 L 270.0,82.41 L 271.0,83.47 L 272.0,84.59 L 273.0,85.76 L 274.0,86.99 L 275.0,88.27 L 276.0,89.61 L 277.0,90.99 L 278.0,92.43 L 279.0,93.92 L 280.0,95.45 L 281.0,97.03 L 282.0,98.66 L 283.0,100.32 L 284.0,102.03 L 285.0,103.78 L 286.0,105.56 L 287.0,107.39 L 288.0,109.24 L 289.0,111.13 L 290.0,113.05 L 291.0,114.99 L 292.0,116.97 L 293.0,118.97 L 294.0,120.99 L 295.0,123.03 L 296.0,125.09 L 297.0,127.17 L 298.0,129.26 L 299.0,131.36 L 300.0,133.48 L 301.0,135.60 L 302.0,137.73 L 303.0,139.86 L 304.0,142.00 L 305.0,144.14 L 306.0,146.27 L 307.0,148.40 L 308.0,150.52 L 309.0,152.64 L 310.0,154.74 L 311.0,156.83 L 312.0,158.91 L 313.0,160.97 L 314.0,163.01 L 315.0,165.03 L 316.0,167.03 L 317.0,169.01 L 318.0,170.95 L 319.0,172.87 L 320.0,174.76 L 321.0,176.61 L 322.0,178.44 L 323.0,180.22 L 324.0,181.97 L 325.0,183.68 L 326.0,185.34 L 327.0,186.97 L 328.0,188.55 L 329.0,190.08 L 330.0,191.57 L 331.0,193.01 L 332.0,194.39 L 333.0,195.73 L 334.0,197.01 L 335.0,198.24 L 336.0,199.41 L 337.0,200.53 L 338.0,201.59 L 339.0,202.59 L 340.0,203.53 L 341.0,204.41 L 342.0,205.22 L 343.0,205.98 L 344.0,206.67 L 345.0,207.30 L 346.0,207.86 L 347.0,208.36 L 348.0,208.80 L 349.0,209.16 L 350.0,209.46 L 351.0,209.70 L 352.0,209.87 L 353.0,209.97 L 354.0,210.00 L 355.0,209.97 L 356.0,209.87 L 357.0,209.70 L 358.0,209.46 L 359.0,209.16 L 360.0,208.80 L 361.0,208.36 L 362.0,207.86 L 363.0,207.30 L 364.0,206.67 L 365.0,205.98 L 366.0,205.22 L 367.0,204.41 L 368.0,203.53 L 369.0,202.59 L 370.0,201.59 L 371.0,200.53 L 372.0,199.41 L 373.0,198.24 L 374.0,197.01 L 375.0,195.73 L 376.0,194.39 L 377.0,193.01 L 378.0,191.57 L 379.0,190.08 L 380.0,188.55 L 381.0,186.97 L 382.0,185.34 L 383.0,183.68 L 384.0,181.97 L 385.0,180.22 L 386.0,178.44 L 387.0,176.61 L 388.0,174.76 L 389.0,172.87 L 390.0,170.95 L 391.0,169.01 L 392.0,167.03 L 393.0,165.03 L 394.0,163.01 L 395.0,160.97 L 396.0,158.91 L 397.0,156.83 L 398.0,154.74 L 399.0,152.64 L 400.0,150.52 L 401.0,148.40 L 402.0,146.27 L 403.0,144.14 L 404.0,142.00 L 405.0,139.86 L 406.0,137.73 L 407.0,135.60 L 408.0,133.48 L 409.0,131.36 L 410.0,129.26 L 411.0,127.17 L 412.0,125.09 L 413.0,123.03 L 414.0,120.99 L 415.0,118.97 L 416.0,116.97 L 417.0,114.99 L 418.0,113.05 L 419.0,111.13 L 420.0,109.24 L 421.0,107.39 L 422.0,105.56 L 423.0,103.78 L 424.0,102.03 L 425.0,100.32 L 426.0,98.66 L 427.0,97.03 L 428.0,95.45 L 429.0,93.92 L 430.0,92.43 L 431.0,90.99 L 432.0,89.61 L 433.0,88.27 L 434.0,86.99 L 435.0,85.76 L 436.0,84.59 L 437.0,83.47 L 438.0,82.41 L 439.0,81.41 L 440.0,80.47 L 441.0,79.59 L 442.0,78.78 L 443.0,78.02 L 444.0,77.33 L 445.0,76.70 L 446.0,76.14 L 447.0,75.64 L 448.0,75.20 L 449.0,74.84 L 450.0,74.54 L 451.0,74.30 L 452.0,74.13 L 453.0,74.03 L 454.0,74.00\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg></span><p>Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<p>Största värdet är \\(2\\) och medellinjen är \\(y=0\\), så \\(a=2\\).</p><p>Grafen har maximum vid \\(0^\\circ\\) och nästa maximum vid \\(180^\\circ\\). Perioden är alltså \\(180^\\circ\\).</p><p>\\[\\frac{360^\\circ}{b}=180^\\circ\\;\\Rightarrow\\; b=2\\]</p><p><strong>Svar:</strong> \\(a=2\\) och \\(b=2\\)</p>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
+    "ledtrad": "<p>Mät perioden mellan två maximipunkter som ligger bredvid varandra.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.625",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Figuren visar grafen till \\(y=a\\sin x+c\\). Talet \\(a\\) kan vara negativt.</p><span class=\"fig\"><svg width=\"500\" height=\"294\" viewBox=\"0 0 500 294\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Sinusliknande kurva från 0 till 360 grader som börjar i y lika med 2, går ned till minus 1 vid 90 grader och upp till 5 vid 270 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"292\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"260.0\" x2=\"454\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"232.5\" x2=\"454\" y2=\"232.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"205.0\" x2=\"454\" y2=\"205.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"177.5\" x2=\"454\" y2=\"177.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"150.0\" x2=\"454\" y2=\"150.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"122.5\" x2=\"454\" y2=\"122.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"95.0\" x2=\"454\" y2=\"95.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"67.5\" x2=\"454\" y2=\"67.5\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"205.0\" x2=\"470\" y2=\"205.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 205.0 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"260.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"197.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"154.0\" y1=\"201.5\" x2=\"154.0\" y2=\"208.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"154.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">90°</text><text x=\"154.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">90°</text><line x1=\"254.0\" y1=\"201.5\" x2=\"254.0\" y2=\"208.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"254.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"354.0\" y1=\"201.5\" x2=\"354.0\" y2=\"208.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">270°</text><text x=\"354.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">270°</text><line x1=\"454.0\" y1=\"201.5\" x2=\"454.0\" y2=\"208.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"454.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"50.5\" y1=\"260.0\" x2=\"57.5\" y2=\"260.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"232.5\" x2=\"57.5\" y2=\"232.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"236.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"236.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"177.5\" x2=\"57.5\" y2=\"177.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"181.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"181.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"150.0\" x2=\"57.5\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"153.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"153.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"50.5\" y1=\"122.5\" x2=\"57.5\" y2=\"122.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"126.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"46.0\" y=\"126.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"50.5\" y1=\"95.0\" x2=\"57.5\" y2=\"95.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"98.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"46.0\" y=\"98.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><line x1=\"50.5\" y1=\"67.5\" x2=\"57.5\" y2=\"67.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"71.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">5</text><text x=\"46.0\" y=\"71.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">5</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">6</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">6</text><path d=\"M 54.0,150.00 L 55.0,151.30 L 56.0,152.59 L 57.0,153.89 L 58.0,155.18 L 59.0,156.47 L 60.0,157.76 L 61.0,159.05 L 62.0,160.34 L 63.0,161.62 L 64.0,162.91 L 65.0,164.18 L 66.0,165.46 L 67.0,166.73 L 68.0,168.00 L 69.0,169.26 L 70.0,170.52 L 71.0,171.77 L 72.0,173.02 L 73.0,174.26 L 74.0,175.49 L 75.0,176.72 L 76.0,177.95 L 77.0,179.16 L 78.0,180.37 L 79.0,181.57 L 80.0,182.76 L 81.0,183.95 L 82.0,185.13 L 83.0,186.29 L 84.0,187.45 L 85.0,188.60 L 86.0,189.74 L 87.0,190.88 L 88.0,192.00 L 89.0,193.11 L 90.0,194.21 L 91.0,195.29 L 92.0,196.37 L 93.0,197.44 L 94.0,198.49 L 95.0,199.53 L 96.0,200.56 L 97.0,201.58 L 98.0,202.59 L 99.0,203.58 L 100.0,204.56 L 101.0,205.52 L 102.0,206.48 L 103.0,207.41 L 104.0,208.34 L 105.0,209.25 L 106.0,210.14 L 107.0,211.02 L 108.0,211.88 L 109.0,212.73 L 110.0,213.57 L 111.0,214.39 L 112.0,215.19 L 113.0,215.97 L 114.0,216.74 L 115.0,217.50 L 116.0,218.23 L 117.0,218.95 L 118.0,219.66 L 119.0,220.34 L 120.0,221.01 L 121.0,221.66 L 122.0,222.30 L 123.0,222.91 L 124.0,223.51 L 125.0,224.09 L 126.0,224.65 L 127.0,225.19 L 128.0,225.71 L 129.0,226.22 L 130.0,226.71 L 131.0,227.17 L 132.0,227.62 L 133.0,228.05 L 134.0,228.46 L 135.0,228.85 L 136.0,229.22 L 137.0,229.58 L 138.0,229.91 L 139.0,230.22 L 140.0,230.51 L 141.0,230.79 L 142.0,231.04 L 143.0,231.27 L 144.0,231.48 L 145.0,231.68 L 146.0,231.85 L 147.0,232.00 L 148.0,232.13 L 149.0,232.25 L 150.0,232.34 L 151.0,232.41 L 152.0,232.46 L 153.0,232.49 L 154.0,232.50 L 155.0,232.49 L 156.0,232.46 L 157.0,232.41 L 158.0,232.34 L 159.0,232.25 L 160.0,232.13 L 161.0,232.00 L 162.0,231.85 L 163.0,231.68 L 164.0,231.48 L 165.0,231.27 L 166.0,231.04 L 167.0,230.79 L 168.0,230.51 L 169.0,230.22 L 170.0,229.91 L 171.0,229.58 L 172.0,229.22 L 173.0,228.85 L 174.0,228.46 L 175.0,228.05 L 176.0,227.62 L 177.0,227.17 L 178.0,226.71 L 179.0,226.22 L 180.0,225.71 L 181.0,225.19 L 182.0,224.65 L 183.0,224.09 L 184.0,223.51 L 185.0,222.91 L 186.0,222.30 L 187.0,221.66 L 188.0,221.01 L 189.0,220.34 L 190.0,219.66 L 191.0,218.95 L 192.0,218.23 L 193.0,217.50 L 194.0,216.74 L 195.0,215.97 L 196.0,215.19 L 197.0,214.39 L 198.0,213.57 L 199.0,212.73 L 200.0,211.88 L 201.0,211.02 L 202.0,210.14 L 203.0,209.25 L 204.0,208.34 L 205.0,207.41 L 206.0,206.48 L 207.0,205.52 L 208.0,204.56 L 209.0,203.58 L 210.0,202.59 L 211.0,201.58 L 212.0,200.56 L 213.0,199.53 L 214.0,198.49 L 215.0,197.44 L 216.0,196.37 L 217.0,195.29 L 218.0,194.21 L 219.0,193.11 L 220.0,192.00 L 221.0,190.88 L 222.0,189.74 L 223.0,188.60 L 224.0,187.45 L 225.0,186.29 L 226.0,185.13 L 227.0,183.95 L 228.0,182.76 L 229.0,181.57 L 230.0,180.37 L 231.0,179.16 L 232.0,177.95 L 233.0,176.72 L 234.0,175.49 L 235.0,174.26 L 236.0,173.02 L 237.0,171.77 L 238.0,170.52 L 239.0,169.26 L 240.0,168.00 L 241.0,166.73 L 242.0,165.46 L 243.0,164.18 L 244.0,162.91 L 245.0,161.62 L 246.0,160.34 L 247.0,159.05 L 248.0,157.76 L 249.0,156.47 L 250.0,155.18 L 251.0,153.89 L 252.0,152.59 L 253.0,151.30 L 254.0,150.00 L 255.0,148.70 L 256.0,147.41 L 257.0,146.11 L 258.0,144.82 L 259.0,143.53 L 260.0,142.24 L 261.0,140.95 L 262.0,139.66 L 263.0,138.38 L 264.0,137.09 L 265.0,135.82 L 266.0,134.54 L 267.0,133.27 L 268.0,132.00 L 269.0,130.74 L 270.0,129.48 L 271.0,128.23 L 272.0,126.98 L 273.0,125.74 L 274.0,124.51 L 275.0,123.28 L 276.0,122.05 L 277.0,120.84 L 278.0,119.63 L 279.0,118.43 L 280.0,117.24 L 281.0,116.05 L 282.0,114.87 L 283.0,113.71 L 284.0,112.55 L 285.0,111.40 L 286.0,110.26 L 287.0,109.12 L 288.0,108.00 L 289.0,106.89 L 290.0,105.79 L 291.0,104.71 L 292.0,103.63 L 293.0,102.56 L 294.0,101.51 L 295.0,100.47 L 296.0,99.44 L 297.0,98.42 L 298.0,97.41 L 299.0,96.42 L 300.0,95.44 L 301.0,94.48 L 302.0,93.52 L 303.0,92.59 L 304.0,91.66 L 305.0,90.75 L 306.0,89.86 L 307.0,88.98 L 308.0,88.12 L 309.0,87.27 L 310.0,86.43 L 311.0,85.61 L 312.0,84.81 L 313.0,84.03 L 314.0,83.26 L 315.0,82.50 L 316.0,81.77 L 317.0,81.05 L 318.0,80.34 L 319.0,79.66 L 320.0,78.99 L 321.0,78.34 L 322.0,77.70 L 323.0,77.09 L 324.0,76.49 L 325.0,75.91 L 326.0,75.35 L 327.0,74.81 L 328.0,74.29 L 329.0,73.78 L 330.0,73.29 L 331.0,72.83 L 332.0,72.38 L 333.0,71.95 L 334.0,71.54 L 335.0,71.15 L 336.0,70.78 L 337.0,70.42 L 338.0,70.09 L 339.0,69.78 L 340.0,69.49 L 341.0,69.21 L 342.0,68.96 L 343.0,68.73 L 344.0,68.52 L 345.0,68.32 L 346.0,68.15 L 347.0,68.00 L 348.0,67.87 L 349.0,67.75 L 350.0,67.66 L 351.0,67.59 L 352.0,67.54 L 353.0,67.51 L 354.0,67.50 L 355.0,67.51 L 356.0,67.54 L 357.0,67.59 L 358.0,67.66 L 359.0,67.75 L 360.0,67.87 L 361.0,68.00 L 362.0,68.15 L 363.0,68.32 L 364.0,68.52 L 365.0,68.73 L 366.0,68.96 L 367.0,69.21 L 368.0,69.49 L 369.0,69.78 L 370.0,70.09 L 371.0,70.42 L 372.0,70.78 L 373.0,71.15 L 374.0,71.54 L 375.0,71.95 L 376.0,72.38 L 377.0,72.83 L 378.0,73.29 L 379.0,73.78 L 380.0,74.29 L 381.0,74.81 L 382.0,75.35 L 383.0,75.91 L 384.0,76.49 L 385.0,77.09 L 386.0,77.70 L 387.0,78.34 L 388.0,78.99 L 389.0,79.66 L 390.0,80.34 L 391.0,81.05 L 392.0,81.77 L 393.0,82.50 L 394.0,83.26 L 395.0,84.03 L 396.0,84.81 L 397.0,85.61 L 398.0,86.43 L 399.0,87.27 L 400.0,88.12 L 401.0,88.98 L 402.0,89.86 L 403.0,90.75 L 404.0,91.66 L 405.0,92.59 L 406.0,93.52 L 407.0,94.48 L 408.0,95.44 L 409.0,96.42 L 410.0,97.41 L 411.0,98.42 L 412.0,99.44 L 413.0,100.47 L 414.0,101.51 L 415.0,102.56 L 416.0,103.63 L 417.0,104.71 L 418.0,105.79 L 419.0,106.89 L 420.0,108.00 L 421.0,109.12 L 422.0,110.26 L 423.0,111.40 L 424.0,112.55 L 425.0,113.71 L 426.0,114.87 L 427.0,116.05 L 428.0,117.24 L 429.0,118.43 L 430.0,119.63 L 431.0,120.84 L 432.0,122.05 L 433.0,123.28 L 434.0,124.51 L 435.0,125.74 L 436.0,126.98 L 437.0,128.23 L 438.0,129.48 L 439.0,130.74 L 440.0,132.00 L 441.0,133.27 L 442.0,134.54 L 443.0,135.82 L 444.0,137.09 L 445.0,138.38 L 446.0,139.66 L 447.0,140.95 L 448.0,142.24 L 449.0,143.53 L 450.0,144.82 L 451.0,146.11 L 452.0,147.41 L 453.0,148.70 L 454.0,150.00\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg></span><p>Bestäm \\(a\\) och \\(c\\).</p>",
+    "s": "<p>Största värdet är \\(5\\) och minsta \\(-1\\). Medellinjen är \\(c=\\frac{5+(-1)}{2}=2\\) och amplituden \\(3\\).</p><p>Vid \\(x=0\\) ligger grafen på medellinjen och går <em>nedåt</em>. En vanlig sinuskurva går uppåt där, så grafen är speglad i medellinjen. Därför är \\(a=-3\\).</p><p>Kontroll: \\(y(90^\\circ)=-3\\cdot1+2=-1\\).</p><p><strong>Svar:</strong> \\(a=-3\\) och \\(c=2\\)</p>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -3,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "c"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
+    "ledtrad": "<p>Jämför med \\(y=\\sin x\\): går grafen uppåt eller nedåt när den lämnar medellinjen vid \\(x=0\\)?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.626",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Figuren visar grafen till \\(y=a\\sin(bx)+c\\), där \\(a\\gt 0\\) och \\(b\\gt 0\\).</p><span class=\"fig\"><svg width=\"500\" height=\"294\" viewBox=\"0 0 500 294\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Sinuskurva från 0 till 360 grader med tre perioder, största värde 3 vid 30, 150 och 270 grader och minsta värde minus 5 vid 90, 210 och 330 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"292\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"87.3\" y1=\"40.0\" x2=\"87.3\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"120.7\" y1=\"40.0\" x2=\"120.7\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"187.3\" y1=\"40.0\" x2=\"187.3\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"220.7\" y1=\"40.0\" x2=\"220.7\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"287.3\" y1=\"40.0\" x2=\"287.3\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"320.7\" y1=\"40.0\" x2=\"320.7\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"387.3\" y1=\"40.0\" x2=\"387.3\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"420.7\" y1=\"40.0\" x2=\"420.7\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"260.0\" x2=\"454\" y2=\"260.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"238.0\" x2=\"454\" y2=\"238.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"216.0\" x2=\"454\" y2=\"216.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"194.0\" x2=\"454\" y2=\"194.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"172.0\" x2=\"454\" y2=\"172.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"150.0\" x2=\"454\" y2=\"150.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"128.0\" x2=\"454\" y2=\"128.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"106.0\" x2=\"454\" y2=\"106.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"84.0\" x2=\"454\" y2=\"84.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"62.0\" x2=\"454\" y2=\"62.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"128.0\" x2=\"470\" y2=\"128.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 128.0 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"260.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"120.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"87.3\" y1=\"124.5\" x2=\"87.3\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"120.7\" y1=\"124.5\" x2=\"120.7\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"120.7\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">60°</text><text x=\"120.7\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">60°</text><line x1=\"154.0\" y1=\"124.5\" x2=\"154.0\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"187.3\" y1=\"124.5\" x2=\"187.3\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"187.3\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">120°</text><text x=\"187.3\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">120°</text><line x1=\"220.7\" y1=\"124.5\" x2=\"220.7\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"254.0\" y1=\"124.5\" x2=\"254.0\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"254.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"287.3\" y1=\"124.5\" x2=\"287.3\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"320.7\" y1=\"124.5\" x2=\"320.7\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"320.7\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">240°</text><text x=\"320.7\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">240°</text><line x1=\"354.0\" y1=\"124.5\" x2=\"354.0\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"387.3\" y1=\"124.5\" x2=\"387.3\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"387.3\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">300°</text><text x=\"387.3\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">300°</text><line x1=\"420.7\" y1=\"124.5\" x2=\"420.7\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"454.0\" y1=\"124.5\" x2=\"454.0\" y2=\"131.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"454.0\" y=\"275.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"50.5\" y1=\"260.0\" x2=\"57.5\" y2=\"260.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−6</text><text x=\"46.0\" y=\"263.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−6</text><line x1=\"50.5\" y1=\"238.0\" x2=\"57.5\" y2=\"238.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"241.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−5</text><text x=\"46.0\" y=\"241.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−5</text><line x1=\"50.5\" y1=\"216.0\" x2=\"57.5\" y2=\"216.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"219.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−4</text><text x=\"46.0\" y=\"219.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−4</text><line x1=\"50.5\" y1=\"194.0\" x2=\"57.5\" y2=\"194.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"197.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−3</text><text x=\"46.0\" y=\"197.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−3</text><line x1=\"50.5\" y1=\"172.0\" x2=\"57.5\" y2=\"172.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"175.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"175.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"150.0\" x2=\"57.5\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"153.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"153.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"106.0\" x2=\"57.5\" y2=\"106.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"109.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"109.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"84.0\" x2=\"57.5\" y2=\"84.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"87.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"87.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"50.5\" y1=\"62.0\" x2=\"57.5\" y2=\"62.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"65.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"46.0\" y=\"65.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 54.0,150.00 L 55.0,145.85 L 56.0,141.72 L 57.0,137.60 L 58.0,133.51 L 59.0,129.46 L 60.0,125.45 L 61.0,121.50 L 62.0,117.61 L 63.0,113.79 L 64.0,110.05 L 65.0,106.40 L 66.0,102.85 L 67.0,99.40 L 68.0,96.06 L 69.0,92.85 L 70.0,89.76 L 71.0,86.80 L 72.0,83.99 L 73.0,81.32 L 74.0,78.81 L 75.0,76.45 L 76.0,74.25 L 77.0,72.23 L 78.0,70.38 L 79.0,68.70 L 80.0,67.20 L 81.0,65.89 L 82.0,64.76 L 83.0,63.83 L 84.0,63.08 L 85.0,62.53 L 86.0,62.17 L 87.0,62.01 L 88.0,62.04 L 89.0,62.27 L 90.0,62.69 L 91.0,63.31 L 92.0,64.12 L 93.0,65.12 L 94.0,66.31 L 95.0,67.68 L 96.0,69.24 L 97.0,70.97 L 98.0,72.89 L 99.0,74.97 L 100.0,77.22 L 101.0,79.63 L 102.0,82.19 L 103.0,84.91 L 104.0,87.77 L 105.0,90.77 L 106.0,93.91 L 107.0,97.16 L 108.0,100.54 L 109.0,104.02 L 110.0,107.61 L 111.0,111.29 L 112.0,115.05 L 113.0,118.89 L 114.0,122.81 L 115.0,126.78 L 116.0,130.80 L 117.0,134.87 L 118.0,138.97 L 119.0,143.10 L 120.0,147.24 L 121.0,151.38 L 122.0,155.53 L 123.0,159.66 L 124.0,163.77 L 125.0,167.85 L 126.0,171.88 L 127.0,175.88 L 128.0,179.81 L 129.0,183.68 L 130.0,187.47 L 131.0,191.18 L 132.0,194.80 L 133.0,198.31 L 134.0,201.73 L 135.0,205.02 L 136.0,208.20 L 137.0,211.24 L 138.0,214.15 L 139.0,216.92 L 140.0,219.53 L 141.0,222.00 L 142.0,224.30 L 143.0,226.44 L 144.0,228.41 L 145.0,230.20 L 146.0,231.82 L 147.0,233.26 L 148.0,234.51 L 149.0,235.57 L 150.0,236.44 L 151.0,237.12 L 152.0,237.61 L 153.0,237.90 L 154.0,238.00 L 155.0,237.90 L 156.0,237.61 L 157.0,237.12 L 158.0,236.44 L 159.0,235.57 L 160.0,234.51 L 161.0,233.26 L 162.0,231.82 L 163.0,230.20 L 164.0,228.41 L 165.0,226.44 L 166.0,224.30 L 167.0,222.00 L 168.0,219.53 L 169.0,216.92 L 170.0,214.15 L 171.0,211.24 L 172.0,208.20 L 173.0,205.02 L 174.0,201.73 L 175.0,198.31 L 176.0,194.80 L 177.0,191.18 L 178.0,187.47 L 179.0,183.68 L 180.0,179.81 L 181.0,175.88 L 182.0,171.88 L 183.0,167.85 L 184.0,163.77 L 185.0,159.66 L 186.0,155.53 L 187.0,151.38 L 188.0,147.24 L 189.0,143.10 L 190.0,138.97 L 191.0,134.87 L 192.0,130.80 L 193.0,126.78 L 194.0,122.81 L 195.0,118.89 L 196.0,115.05 L 197.0,111.29 L 198.0,107.61 L 199.0,104.02 L 200.0,100.54 L 201.0,97.16 L 202.0,93.91 L 203.0,90.77 L 204.0,87.77 L 205.0,84.91 L 206.0,82.19 L 207.0,79.63 L 208.0,77.22 L 209.0,74.97 L 210.0,72.89 L 211.0,70.97 L 212.0,69.24 L 213.0,67.68 L 214.0,66.31 L 215.0,65.12 L 216.0,64.12 L 217.0,63.31 L 218.0,62.69 L 219.0,62.27 L 220.0,62.04 L 221.0,62.01 L 222.0,62.17 L 223.0,62.53 L 224.0,63.08 L 225.0,63.83 L 226.0,64.76 L 227.0,65.89 L 228.0,67.20 L 229.0,68.70 L 230.0,70.38 L 231.0,72.23 L 232.0,74.25 L 233.0,76.45 L 234.0,78.81 L 235.0,81.32 L 236.0,83.99 L 237.0,86.80 L 238.0,89.76 L 239.0,92.85 L 240.0,96.06 L 241.0,99.40 L 242.0,102.85 L 243.0,106.40 L 244.0,110.05 L 245.0,113.79 L 246.0,117.61 L 247.0,121.50 L 248.0,125.45 L 249.0,129.46 L 250.0,133.51 L 251.0,137.60 L 252.0,141.72 L 253.0,145.85 L 254.0,150.00 L 255.0,154.15 L 256.0,158.28 L 257.0,162.40 L 258.0,166.49 L 259.0,170.54 L 260.0,174.55 L 261.0,178.50 L 262.0,182.39 L 263.0,186.21 L 264.0,189.95 L 265.0,193.60 L 266.0,197.15 L 267.0,200.60 L 268.0,203.94 L 269.0,207.15 L 270.0,210.24 L 271.0,213.20 L 272.0,216.01 L 273.0,218.68 L 274.0,221.19 L 275.0,223.55 L 276.0,225.75 L 277.0,227.77 L 278.0,229.62 L 279.0,231.30 L 280.0,232.80 L 281.0,234.11 L 282.0,235.24 L 283.0,236.17 L 284.0,236.92 L 285.0,237.47 L 286.0,237.83 L 287.0,237.99 L 288.0,237.96 L 289.0,237.73 L 290.0,237.31 L 291.0,236.69 L 292.0,235.88 L 293.0,234.88 L 294.0,233.69 L 295.0,232.32 L 296.0,230.76 L 297.0,229.03 L 298.0,227.11 L 299.0,225.03 L 300.0,222.78 L 301.0,220.37 L 302.0,217.81 L 303.0,215.09 L 304.0,212.23 L 305.0,209.23 L 306.0,206.09 L 307.0,202.84 L 308.0,199.46 L 309.0,195.98 L 310.0,192.39 L 311.0,188.71 L 312.0,184.95 L 313.0,181.11 L 314.0,177.19 L 315.0,173.22 L 316.0,169.20 L 317.0,165.13 L 318.0,161.03 L 319.0,156.90 L 320.0,152.76 L 321.0,148.62 L 322.0,144.47 L 323.0,140.34 L 324.0,136.23 L 325.0,132.15 L 326.0,128.12 L 327.0,124.12 L 328.0,120.19 L 329.0,116.32 L 330.0,112.53 L 331.0,108.82 L 332.0,105.20 L 333.0,101.69 L 334.0,98.27 L 335.0,94.98 L 336.0,91.80 L 337.0,88.76 L 338.0,85.85 L 339.0,83.08 L 340.0,80.47 L 341.0,78.00 L 342.0,75.70 L 343.0,73.56 L 344.0,71.59 L 345.0,69.80 L 346.0,68.18 L 347.0,66.74 L 348.0,65.49 L 349.0,64.43 L 350.0,63.56 L 351.0,62.88 L 352.0,62.39 L 353.0,62.10 L 354.0,62.00 L 355.0,62.10 L 356.0,62.39 L 357.0,62.88 L 358.0,63.56 L 359.0,64.43 L 360.0,65.49 L 361.0,66.74 L 362.0,68.18 L 363.0,69.80 L 364.0,71.59 L 365.0,73.56 L 366.0,75.70 L 367.0,78.00 L 368.0,80.47 L 369.0,83.08 L 370.0,85.85 L 371.0,88.76 L 372.0,91.80 L 373.0,94.98 L 374.0,98.27 L 375.0,101.69 L 376.0,105.20 L 377.0,108.82 L 378.0,112.53 L 379.0,116.32 L 380.0,120.19 L 381.0,124.12 L 382.0,128.12 L 383.0,132.15 L 384.0,136.23 L 385.0,140.34 L 386.0,144.47 L 387.0,148.62 L 388.0,152.76 L 389.0,156.90 L 390.0,161.03 L 391.0,165.13 L 392.0,169.20 L 393.0,173.22 L 394.0,177.19 L 395.0,181.11 L 396.0,184.95 L 397.0,188.71 L 398.0,192.39 L 399.0,195.98 L 400.0,199.46 L 401.0,202.84 L 402.0,206.09 L 403.0,209.23 L 404.0,212.23 L 405.0,215.09 L 406.0,217.81 L 407.0,220.37 L 408.0,222.78 L 409.0,225.03 L 410.0,227.11 L 411.0,229.03 L 412.0,230.76 L 413.0,232.32 L 414.0,233.69 L 415.0,234.88 L 416.0,235.88 L 417.0,236.69 L 418.0,237.31 L 419.0,237.73 L 420.0,237.96 L 421.0,237.99 L 422.0,237.83 L 423.0,237.47 L 424.0,236.92 L 425.0,236.17 L 426.0,235.24 L 427.0,234.11 L 428.0,232.80 L 429.0,231.30 L 430.0,229.62 L 431.0,227.77 L 432.0,225.75 L 433.0,223.55 L 434.0,221.19 L 435.0,218.68 L 436.0,216.01 L 437.0,213.20 L 438.0,210.24 L 439.0,207.15 L 440.0,203.94 L 441.0,200.60 L 442.0,197.15 L 443.0,193.60 L 444.0,189.95 L 445.0,186.21 L 446.0,182.39 L 447.0,178.50 L 448.0,174.55 L 449.0,170.54 L 450.0,166.49 L 451.0,162.40 L 452.0,158.28 L 453.0,154.15 L 454.0,150.00\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg></span><p>Bestäm \\(a\\), \\(b\\) och \\(c\\).</p>",
+    "s": "<p>Största värdet är \\(3\\) och minsta \\(-5\\).</p><p>\\(c=\\frac{3+(-5)}{2}=-1\\) och \\(a=\\frac{3-(-5)}{2}=4\\).</p><p>Två maximipunkter som ligger bredvid varandra finns vid \\(30^\\circ\\) och \\(150^\\circ\\), så perioden är \\(120^\\circ\\). Det syns också att tre hela perioder ryms på \\(360^\\circ\\).</p><p>\\[\\frac{360^\\circ}{b}=120^\\circ\\;\\Rightarrow\\; b=3\\]</p><p><strong>Svar:</strong> \\(a=4\\), \\(b=3\\) och \\(c=-1\\)</p>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
+    "ledtrad": "<p>Hur många hela perioder ryms mellan \\(0^\\circ\\) och \\(360^\\circ\\)?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.627",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Figuren visar en cosinuskurva som är längre än ett varv. Kurvan har ekvationen \\(y=a\\cos(bx)+c\\), där \\(a\\gt 0\\) och \\(b\\gt 0\\).</p><span class=\"fig\"><svg width=\"500\" height=\"210\" viewBox=\"0 0 500 210\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cosinuskurva från 0 till 720 grader med största värde 3,5 vid 0 och 720 grader och minsta värde 0,5 vid 360 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"104.0\" y1=\"40.0\" x2=\"104.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"204.0\" y1=\"40.0\" x2=\"204.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"40.0\" x2=\"304.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"404.0\" y1=\"40.0\" x2=\"404.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"176.0\" x2=\"454\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"159.0\" x2=\"454\" y2=\"159.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"142.0\" x2=\"454\" y2=\"142.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"125.0\" x2=\"454\" y2=\"125.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"108.0\" x2=\"454\" y2=\"108.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"91.0\" x2=\"454\" y2=\"91.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"74.0\" x2=\"454\" y2=\"74.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"57.0\" x2=\"454\" y2=\"57.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"176.0\" x2=\"470\" y2=\"176.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 176.0 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"176.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"168.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"104.0\" y1=\"172.5\" x2=\"104.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"154.0\" y1=\"172.5\" x2=\"154.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"154.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"154.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"204.0\" y1=\"172.5\" x2=\"204.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"254.0\" y1=\"172.5\" x2=\"254.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"254.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"304.0\" y1=\"172.5\" x2=\"304.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"354.0\" y1=\"172.5\" x2=\"354.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">540°</text><text x=\"354.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">540°</text><line x1=\"404.0\" y1=\"172.5\" x2=\"404.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"454.0\" y1=\"172.5\" x2=\"454.0\" y2=\"179.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">720°</text><text x=\"454.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">720°</text><line x1=\"50.5\" y1=\"142.0\" x2=\"57.5\" y2=\"142.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"145.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"145.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"108.0\" x2=\"57.5\" y2=\"108.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"50.5\" y1=\"74.0\" x2=\"57.5\" y2=\"74.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">4</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">4</text><path d=\"M 54.0,57.00 L 55.0,57.01 L 56.0,57.03 L 57.0,57.06 L 58.0,57.10 L 59.0,57.16 L 60.0,57.23 L 61.0,57.31 L 62.0,57.40 L 63.0,57.51 L 64.0,57.63 L 65.0,57.76 L 66.0,57.90 L 67.0,58.06 L 68.0,58.23 L 69.0,58.41 L 70.0,58.60 L 71.0,58.81 L 72.0,59.03 L 73.0,59.25 L 74.0,59.50 L 75.0,59.75 L 76.0,60.02 L 77.0,60.29 L 78.0,60.58 L 79.0,60.88 L 80.0,61.19 L 81.0,61.52 L 82.0,61.85 L 83.0,62.20 L 84.0,62.56 L 85.0,62.93 L 86.0,63.31 L 87.0,63.70 L 88.0,64.10 L 89.0,64.52 L 90.0,64.94 L 91.0,65.37 L 92.0,65.82 L 93.0,66.27 L 94.0,66.74 L 95.0,67.22 L 96.0,67.70 L 97.0,68.20 L 98.0,68.70 L 99.0,69.22 L 100.0,69.74 L 101.0,70.28 L 102.0,70.82 L 103.0,71.38 L 104.0,71.94 L 105.0,72.51 L 106.0,73.09 L 107.0,73.68 L 108.0,74.27 L 109.0,74.88 L 110.0,75.49 L 111.0,76.11 L 112.0,76.74 L 113.0,77.38 L 114.0,78.02 L 115.0,78.67 L 116.0,79.33 L 117.0,80.00 L 118.0,80.67 L 119.0,81.35 L 120.0,82.04 L 121.0,82.73 L 122.0,83.43 L 123.0,84.14 L 124.0,84.85 L 125.0,85.56 L 126.0,86.29 L 127.0,87.01 L 128.0,87.75 L 129.0,88.48 L 130.0,89.23 L 131.0,89.97 L 132.0,90.72 L 133.0,91.48 L 134.0,92.24 L 135.0,93.00 L 136.0,93.77 L 137.0,94.54 L 138.0,95.32 L 139.0,96.09 L 140.0,96.87 L 141.0,97.66 L 142.0,98.44 L 143.0,99.23 L 144.0,100.02 L 145.0,100.81 L 146.0,101.61 L 147.0,102.40 L 148.0,103.20 L 149.0,104.00 L 150.0,104.80 L 151.0,105.60 L 152.0,106.40 L 153.0,107.20 L 154.0,108.00 L 155.0,108.80 L 156.0,109.60 L 157.0,110.40 L 158.0,111.20 L 159.0,112.00 L 160.0,112.80 L 161.0,113.60 L 162.0,114.39 L 163.0,115.19 L 164.0,115.98 L 165.0,116.77 L 166.0,117.56 L 167.0,118.34 L 168.0,119.13 L 169.0,119.91 L 170.0,120.68 L 171.0,121.46 L 172.0,122.23 L 173.0,123.00 L 174.0,123.76 L 175.0,124.52 L 176.0,125.28 L 177.0,126.03 L 178.0,126.77 L 179.0,127.52 L 180.0,128.25 L 181.0,128.99 L 182.0,129.71 L 183.0,130.44 L 184.0,131.15 L 185.0,131.86 L 186.0,132.57 L 187.0,133.27 L 188.0,133.96 L 189.0,134.65 L 190.0,135.33 L 191.0,136.00 L 192.0,136.67 L 193.0,137.33 L 194.0,137.98 L 195.0,138.62 L 196.0,139.26 L 197.0,139.89 L 198.0,140.51 L 199.0,141.12 L 200.0,141.73 L 201.0,142.32 L 202.0,142.91 L 203.0,143.49 L 204.0,144.06 L 205.0,144.62 L 206.0,145.18 L 207.0,145.72 L 208.0,146.26 L 209.0,146.78 L 210.0,147.30 L 211.0,147.80 L 212.0,148.30 L 213.0,148.78 L 214.0,149.26 L 215.0,149.73 L 216.0,150.18 L 217.0,150.63 L 218.0,151.06 L 219.0,151.48 L 220.0,151.90 L 221.0,152.30 L 222.0,152.69 L 223.0,153.07 L 224.0,153.44 L 225.0,153.80 L 226.0,154.15 L 227.0,154.48 L 228.0,154.81 L 229.0,155.12 L 230.0,155.42 L 231.0,155.71 L 232.0,155.98 L 233.0,156.25 L 234.0,156.50 L 235.0,156.75 L 236.0,156.97 L 237.0,157.19 L 238.0,157.40 L 239.0,157.59 L 240.0,157.77 L 241.0,157.94 L 242.0,158.10 L 243.0,158.24 L 244.0,158.37 L 245.0,158.49 L 246.0,158.60 L 247.0,158.69 L 248.0,158.77 L 249.0,158.84 L 250.0,158.90 L 251.0,158.94 L 252.0,158.97 L 253.0,158.99 L 254.0,159.00 L 255.0,158.99 L 256.0,158.97 L 257.0,158.94 L 258.0,158.90 L 259.0,158.84 L 260.0,158.77 L 261.0,158.69 L 262.0,158.60 L 263.0,158.49 L 264.0,158.37 L 265.0,158.24 L 266.0,158.10 L 267.0,157.94 L 268.0,157.77 L 269.0,157.59 L 270.0,157.40 L 271.0,157.19 L 272.0,156.97 L 273.0,156.75 L 274.0,156.50 L 275.0,156.25 L 276.0,155.98 L 277.0,155.71 L 278.0,155.42 L 279.0,155.12 L 280.0,154.81 L 281.0,154.48 L 282.0,154.15 L 283.0,153.80 L 284.0,153.44 L 285.0,153.07 L 286.0,152.69 L 287.0,152.30 L 288.0,151.90 L 289.0,151.48 L 290.0,151.06 L 291.0,150.63 L 292.0,150.18 L 293.0,149.73 L 294.0,149.26 L 295.0,148.78 L 296.0,148.30 L 297.0,147.80 L 298.0,147.30 L 299.0,146.78 L 300.0,146.26 L 301.0,145.72 L 302.0,145.18 L 303.0,144.62 L 304.0,144.06 L 305.0,143.49 L 306.0,142.91 L 307.0,142.32 L 308.0,141.73 L 309.0,141.12 L 310.0,140.51 L 311.0,139.89 L 312.0,139.26 L 313.0,138.62 L 314.0,137.98 L 315.0,137.33 L 316.0,136.67 L 317.0,136.00 L 318.0,135.33 L 319.0,134.65 L 320.0,133.96 L 321.0,133.27 L 322.0,132.57 L 323.0,131.86 L 324.0,131.15 L 325.0,130.44 L 326.0,129.71 L 327.0,128.99 L 328.0,128.25 L 329.0,127.52 L 330.0,126.77 L 331.0,126.03 L 332.0,125.28 L 333.0,124.52 L 334.0,123.76 L 335.0,123.00 L 336.0,122.23 L 337.0,121.46 L 338.0,120.68 L 339.0,119.91 L 340.0,119.13 L 341.0,118.34 L 342.0,117.56 L 343.0,116.77 L 344.0,115.98 L 345.0,115.19 L 346.0,114.39 L 347.0,113.60 L 348.0,112.80 L 349.0,112.00 L 350.0,111.20 L 351.0,110.40 L 352.0,109.60 L 353.0,108.80 L 354.0,108.00 L 355.0,107.20 L 356.0,106.40 L 357.0,105.60 L 358.0,104.80 L 359.0,104.00 L 360.0,103.20 L 361.0,102.40 L 362.0,101.61 L 363.0,100.81 L 364.0,100.02 L 365.0,99.23 L 366.0,98.44 L 367.0,97.66 L 368.0,96.87 L 369.0,96.09 L 370.0,95.32 L 371.0,94.54 L 372.0,93.77 L 373.0,93.00 L 374.0,92.24 L 375.0,91.48 L 376.0,90.72 L 377.0,89.97 L 378.0,89.23 L 379.0,88.48 L 380.0,87.75 L 381.0,87.01 L 382.0,86.29 L 383.0,85.56 L 384.0,84.85 L 385.0,84.14 L 386.0,83.43 L 387.0,82.73 L 388.0,82.04 L 389.0,81.35 L 390.0,80.67 L 391.0,80.00 L 392.0,79.33 L 393.0,78.67 L 394.0,78.02 L 395.0,77.38 L 396.0,76.74 L 397.0,76.11 L 398.0,75.49 L 399.0,74.88 L 400.0,74.27 L 401.0,73.68 L 402.0,73.09 L 403.0,72.51 L 404.0,71.94 L 405.0,71.38 L 406.0,70.82 L 407.0,70.28 L 408.0,69.74 L 409.0,69.22 L 410.0,68.70 L 411.0,68.20 L 412.0,67.70 L 413.0,67.22 L 414.0,66.74 L 415.0,66.27 L 416.0,65.82 L 417.0,65.37 L 418.0,64.94 L 419.0,64.52 L 420.0,64.10 L 421.0,63.70 L 422.0,63.31 L 423.0,62.93 L 424.0,62.56 L 425.0,62.20 L 426.0,61.85 L 427.0,61.52 L 428.0,61.19 L 429.0,60.88 L 430.0,60.58 L 431.0,60.29 L 432.0,60.02 L 433.0,59.75 L 434.0,59.50 L 435.0,59.25 L 436.0,59.03 L 437.0,58.81 L 438.0,58.60 L 439.0,58.41 L 440.0,58.23 L 441.0,58.06 L 442.0,57.90 L 443.0,57.76 L 444.0,57.63 L 445.0,57.51 L 446.0,57.40 L 447.0,57.31 L 448.0,57.23 L 449.0,57.16 L 450.0,57.10 L 451.0,57.06 L 452.0,57.03 L 453.0,57.01 L 454.0,57.00\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg></span><p>Bestäm \\(a\\), \\(b\\) och \\(c\\).</p>",
+    "s": "<p>Största värdet är \\(3{,}5\\) och minsta \\(0{,}5\\).</p><p>\\(c=\\frac{3{,}5+0{,}5}{2}=2\\) och \\(a=\\frac{3{,}5-0{,}5}{2}=1{,}5\\).</p><p>Grafen har maximum vid \\(0^\\circ\\) och nästa maximum vid \\(720^\\circ\\), så perioden är \\(720^\\circ\\).</p><p>\\[\\frac{360^\\circ}{b}=720^\\circ\\;\\Rightarrow\\; b=0{,}5\\]</p><p><strong>Svar:</strong> \\(a=1{,}5\\), \\(b=0{,}5\\) och \\(c=2\\)</p>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.5,
+      0.5,
+      2
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__bestam_trigonometrisk_funktion_fran_graf_och_egenskaper",
+    "ledtrad": "<p>Perioden är längre än \\(360^\\circ\\). Vad betyder det för storleken på \\(b\\)?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.628",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "2/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa grafen till \\(y=2\\sin x\\) för \\(0^\\circ\\le x\\le 360^\\circ\\) i koordinatsystemet. Markera grafens största och minsta värde.</p><span class=\"fig\"><svg width=\"500\" height=\"278\" viewBox=\"0 0 500 278\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tomt koordinatsystem med x från 0 till 360 grader och y från minus 3 till 3 för egen skiss.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"276\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"244.0\" x2=\"454\" y2=\"244.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"210.0\" x2=\"454\" y2=\"210.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"176.0\" x2=\"454\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"142.0\" x2=\"454\" y2=\"142.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"108.0\" x2=\"454\" y2=\"108.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"74.0\" x2=\"454\" y2=\"74.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"142.0\" x2=\"470\" y2=\"142.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 142.0 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"244.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"134.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"154.0\" y1=\"138.5\" x2=\"154.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"154.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">90°</text><text x=\"154.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">90°</text><line x1=\"254.0\" y1=\"138.5\" x2=\"254.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"254.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"354.0\" y1=\"138.5\" x2=\"354.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">270°</text><text x=\"354.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">270°</text><line x1=\"454.0\" y1=\"138.5\" x2=\"454.0\" y2=\"145.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"454.0\" y=\"259.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"50.5\" y1=\"244.0\" x2=\"57.5\" y2=\"244.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"247.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−3</text><text x=\"46.0\" y=\"247.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−3</text><line x1=\"50.5\" y1=\"210.0\" x2=\"57.5\" y2=\"210.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"213.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"213.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"176.0\" x2=\"57.5\" y2=\"176.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"108.0\" x2=\"57.5\" y2=\"108.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"74.0\" x2=\"57.5\" y2=\"74.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">3</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">3</text></svg></span>",
+    "s": "<p><strong>Metod:</strong> Utgå från fem nyckelpunkter för \\(y=\\sin x\\) och multiplicera y-värdena med 2.</p><p>\\((0^\\circ,0)\\), \\((90^\\circ,2)\\), \\((180^\\circ,0)\\), \\((270^\\circ,-2)\\) och \\((360^\\circ,0)\\).</p><p>Största värdet är \\(2\\) vid \\(x=90^\\circ\\) och minsta värdet \\(-2\\) vid \\(x=270^\\circ\\). Perioden är fortfarande \\(360^\\circ\\).</p>",
+    "familj": "Skissa trigonometriska grafer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "figur",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "spel": false,
+    "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
+    "ledtrad": "<p>Börja med punkterna där \\(\\sin x\\) är \\(0\\), \\(1\\) eller \\(-1\\). Vad händer med dem när y-värdet fördubblas?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.629",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Skissa grafen till \\(y=\\cos(2x)-1\\) för \\(0^\\circ\\le x\\le 360^\\circ\\) i koordinatsystemet.</p><span class=\"fig\"><svg width=\"500\" height=\"210\" viewBox=\"0 0 500 210\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tomt koordinatsystem med x från 0 till 360 grader och y från minus 3 till 1 för egen skiss.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"104.0\" y1=\"40.0\" x2=\"104.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"204.0\" y1=\"40.0\" x2=\"204.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"304.0\" y1=\"40.0\" x2=\"304.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"404.0\" y1=\"40.0\" x2=\"404.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"176.0\" x2=\"454\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"142.0\" x2=\"454\" y2=\"142.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"108.0\" x2=\"454\" y2=\"108.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"74.0\" x2=\"454\" y2=\"74.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"74.0\" x2=\"470\" y2=\"74.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 74.0 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"176.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"66.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"104.0\" y1=\"70.5\" x2=\"104.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"154.0\" y1=\"70.5\" x2=\"154.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"154.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">90°</text><text x=\"154.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">90°</text><line x1=\"204.0\" y1=\"70.5\" x2=\"204.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"254.0\" y1=\"70.5\" x2=\"254.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"254.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"304.0\" y1=\"70.5\" x2=\"304.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"354.0\" y1=\"70.5\" x2=\"354.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">270°</text><text x=\"354.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">270°</text><line x1=\"404.0\" y1=\"70.5\" x2=\"404.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"454.0\" y1=\"70.5\" x2=\"454.0\" y2=\"77.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"454.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"50.5\" y1=\"176.0\" x2=\"57.5\" y2=\"176.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−3</text><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−3</text><line x1=\"50.5\" y1=\"142.0\" x2=\"57.5\" y2=\"142.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"145.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"145.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"108.0\" x2=\"57.5\" y2=\"108.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"111.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text></svg></span>",
+    "s": "<p><strong>Period:</strong> \\(\\frac{360^\\circ}{2}=180^\\circ\\), så två hela perioder ryms i intervallet.</p><p><strong>Medellinje och amplitud:</strong> medellinjen är \\(y=-1\\) och amplituden \\(1\\). Grafen varierar mellan \\(0\\) och \\(-2\\).</p><p><strong>Nyckelpunkter:</strong> maximum \\(0\\) vid \\(0^\\circ\\), \\(180^\\circ\\) och \\(360^\\circ\\); minimum \\(-2\\) vid \\(90^\\circ\\) och \\(270^\\circ\\); på medellinjen vid \\(45^\\circ\\), \\(135^\\circ\\), \\(225^\\circ\\) och \\(315^\\circ\\).</p>",
+    "familj": "Skissa trigonometriska grafer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "figur",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "spel": false,
+    "familjNyckel": "trig_funktioner__skissa_trigonometriska_grafer",
+    "ledtrad": "<p>Bestäm perioden först och dela den i fyra lika delar. Var ligger maximum, medellinje och minimum?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.630",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur många lösningar har ekvationen \\(\\sin x=0{,}4\\) i intervallet \\(0^\\circ\\le x\\lt 360^\\circ\\)?</p>",
+    "s": "<p>Tänk på grafen till \\(y=\\sin x\\) och den vågräta linjen \\(y=0{,}4\\). Under ett varv går sinuskurvan upp till \\(1\\) och ned till \\(-1\\), så linjen skärs en gång på väg upp och en gång på väg ned.</p><p>Lösningarna är ungefär \\(23{,}6^\\circ\\) och \\(156{,}4^\\circ\\).</p><p><strong>Svar:</strong> \\(2\\) lösningar</p>",
+    "familj": "Grundläggande trigonometriska ekvationer",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__grundlaggande_trigonometriska_ekvationer",
+    "ledtrad": "<p>Rita linjen \\(y=0{,}4\\) i samma figur som \\(y=\\sin x\\). Hur många skärningspunkter blir det under ett varv?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.631",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur många lösningar har ekvationen \\(\\cos(2x)=0{,}3\\) i intervallet \\(0^\\circ\\le x\\lt 360^\\circ\\)?</p>",
+    "s": "<p>Perioden för \\(\\cos(2x)\\) är \\(180^\\circ\\), så grafen hinner med två hela perioder i intervallet.</p><p>Under varje period skär grafen linjen \\(y=0{,}3\\) två gånger, eftersom \\(0{,}3\\) ligger strikt mellan \\(-1\\) och \\(1\\). Totalt blir det \\(2\\cdot2=4\\) lösningar.</p><p><strong>Svar:</strong> \\(4\\) lösningar</p>",
+    "familj": "Grundläggande trigonometriska ekvationer",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__grundlaggande_trigonometriska_ekvationer",
+    "ledtrad": "<p>Hur många perioder av \\(\\cos(2x)\\) ryms i intervallet, och hur många skärningar ger varje period?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.632",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ekvationen \\(3\\sin x+1=k\\) har lösningar för vissa värden på konstanten \\(k\\). Bestäm det minsta och det största värde på \\(k\\) som ger lösningar.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Ekvationen har lösningar precis när linjen \\(y=k\\) skär grafen till \\(y=3\\sin x+1\\), alltså när \\(k\\) ligger i funktionens värdemängd.</p><p>Eftersom \\(-1\\le\\sin x\\le1\\) gäller \\(-3+1\\le 3\\sin x+1\\le 3+1\\), det vill säga \\(-2\\le y\\le4\\).</p><p><strong>Svar:</strong> minsta \\(k=-2\\), största \\(k=4\\)</p>",
+    "familj": "Grundläggande trigonometriska ekvationer",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Minsta k",
+      "Största k"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__grundlaggande_trigonometriska_ekvationer",
+    "ledtrad": "<p>Ekvationen har en lösning om linjen \\(y=k\\) träffar grafen. Mellan vilka värden varierar \\(3\\sin x+1\\)?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.633",
+    "kap": 2,
+    "omr": "trig_funktioner",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Ekvationen \\(\\sin(2x)=k\\) har exakt tre lösningar i intervallet \\(0^\\circ\\le x\\le 180^\\circ\\). Bestäm \\(k\\).</p>",
+    "s": "<p>Sätt \\(v=2x\\). När \\(x\\) går från \\(0^\\circ\\) till \\(180^\\circ\\) går \\(v\\) från \\(0^\\circ\\) till \\(360^\\circ\\), ett helt varv inklusive båda ändpunkterna.</p><p>Undersök antalet lösningar till \\(\\sin v=k\\) för \\(0^\\circ\\le v\\le360^\\circ\\):</p><p>\\(k=\\pm1\\): en lösning.<br>\\(0\\lt|k|\\lt1\\): två lösningar.<br>\\(k=0\\): tre lösningar, \\(v=0^\\circ\\), \\(180^\\circ\\) och \\(360^\\circ\\).</p><p>Bara \\(k=0\\) ger tre lösningar: \\(x=0^\\circ\\), \\(90^\\circ\\) och \\(180^\\circ\\).</p><p><strong>Svar:</strong> \\(k=0\\)</p>",
+    "familj": "Grundläggande trigonometriska ekvationer",
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__grundlaggande_trigonometriska_ekvationer",
+    "ledtrad": "<p>Rita grafen till \\(y=\\sin(2x)\\) i intervallet. Vilken vågrät linje skär den exakt tre gånger? Glöm inte ändpunkterna.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "1.634",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x-40^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(40^\\circ\\) åt vänster.<br>B. Den är förskjuten \\(40^\\circ\\) åt höger.<br>C. Den är förskjuten \\(40\\) enheter uppåt.<br>D. Den är förskjuten \\(40\\) enheter nedåt.</p>",
+    "s": "<p>För att \\(\\sin(x-40^\\circ)\\) ska få samma värde som \\(\\sin x\\) har vid \\(x=0^\\circ\\) måste \\(x=40^\\circ\\). Varje punkt på grafen hamnar alltså \\(40^\\circ\\) längre åt höger.</p><p>Förändringen sker inne i argumentet, så grafen flyttas i x-led och inte i y-led.</p><p><strong>Svar:</strong> B</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Vilket x-värde ger argumentet \\(0^\\circ\\)? Jämför med var \\(y=\\sin x\\) startar.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.635",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=\\sin x\\) har en maximipunkt i \\((90^\\circ,\\,1)\\). Grafen till \\(y=\\sin(x-30^\\circ)\\) har en motsvarande maximipunkt. Bestäm dess x-koordinat.</p>",
+    "s": "<p>Grafen till \\(y=\\sin(x-30^\\circ)\\) är grafen till \\(y=\\sin x\\) förskjuten \\(30^\\circ\\) åt höger. Maximipunkten flyttas från \\(90^\\circ\\) till \\(120^\\circ\\).</p><p>Kontroll: \\(\\sin(120^\\circ-30^\\circ)=\\sin90^\\circ=1\\).</p><p><strong>Svar:</strong> \\(x=120^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>För vilket \\(x\\) blir argumentet \\(x-30^\\circ\\) lika med \\(90^\\circ\\)?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.636",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm det minsta \\(x\\ge 0^\\circ\\) där \\(y=\\cos(x+60^\\circ)\\) har ett maximum.</p>",
+    "s": "<p>Cosinus har maximum när argumentet är en multipel av \\(360^\\circ\\):</p><p>\\[x+60^\\circ=n\\cdot360^\\circ\\;\\Rightarrow\\; x=-60^\\circ+n\\cdot360^\\circ\\]</p><p>\\(n=0\\) ger \\(x=-60^\\circ\\), som är negativt. \\(n=1\\) ger \\(x=300^\\circ\\).</p><p>Grafen är \\(y=\\cos x\\) förskjuten \\(60^\\circ\\) åt vänster, så maximipunkten vid \\(360^\\circ\\) har flyttats till \\(300^\\circ\\).</p><p><strong>Svar:</strong> \\(x=300^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Var har \\(y=\\cos x\\) sina maximipunkter? Vilket \\(x\\) gör argumentet \\(x+60^\\circ\\) till en sådan vinkel?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.637",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(y=2\\sin(x-45^\\circ)+1\\) är given. Bestäm funktionens största värde och det minsta \\(x\\ge0^\\circ\\) där värdet antas.</p>",
+    "s": "<p><strong>Största värde:</strong> \\(\\sin(x-45^\\circ)\\) är högst \\(1\\), så \\(y\\) är högst \\(2\\cdot1+1=3\\).</p><p><strong>Var:</strong> \\(x-45^\\circ=90^\\circ+n\\cdot360^\\circ\\Rightarrow x=135^\\circ+n\\cdot360^\\circ\\). Det minsta icke-negativa värdet är \\(135^\\circ\\).</p><p><strong>Svar:</strong> största värde \\(3\\) vid \\(x=135^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      135
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "grader"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Största värde",
+      "x"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Var har \\(y=\\sin x\\) sitt maximum? Flytta punkten enligt fasförskjutningen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.638",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=\\sin(2x-60^\\circ)\\) jämförs med grafen till \\(y=\\sin(2x)\\).</p><p>a) Hur många grader är grafen förskjuten åt höger?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm perioden.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Bryt ut faktorn framför \\(x\\) så att förskjutningen i x-led syns:</p><p>\\[\\sin(2x-60^\\circ)=\\sin\\bigl(2(x-30^\\circ)\\bigr)\\]</p><p>a) Grafen är förskjuten \\(30^\\circ\\) åt höger, inte \\(60^\\circ\\).</p><p>b) Perioden bestäms av faktorn \\(2\\): \\(\\frac{360^\\circ}{2}=180^\\circ\\).</p><p><strong>Svar:</strong> a) \\(30^\\circ\\) b) \\(180^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      30,
+      180
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a: förskjutning",
+      "b: period"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Skriv argumentet på formen \\(2(x-v)\\). Vilket värde har \\(v\\)?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "1.639",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Figuren visar grafen till \\(y=\\sin(x-v)\\), där \\(0^\\circ\\lt v\\lt 180^\\circ\\).</p><span class=\"fig\"><svg width=\"500\" height=\"210\" viewBox=\"0 0 500 210\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Sinuskurva från 0 till 360 grader som skär x-axeln på väg uppåt vid 60 grader och har maximum 1 vid 150 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"54.0\" y1=\"40.0\" x2=\"54.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"87.3\" y1=\"40.0\" x2=\"87.3\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"120.7\" y1=\"40.0\" x2=\"120.7\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"154.0\" y1=\"40.0\" x2=\"154.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"187.3\" y1=\"40.0\" x2=\"187.3\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"220.7\" y1=\"40.0\" x2=\"220.7\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"40.0\" x2=\"254.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"287.3\" y1=\"40.0\" x2=\"287.3\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"320.7\" y1=\"40.0\" x2=\"320.7\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"354.0\" y1=\"40.0\" x2=\"354.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"387.3\" y1=\"40.0\" x2=\"387.3\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"420.7\" y1=\"40.0\" x2=\"420.7\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"454.0\" y1=\"40.0\" x2=\"454.0\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"176.0\" x2=\"454\" y2=\"176.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"142.0\" x2=\"454\" y2=\"142.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"108.0\" x2=\"454\" y2=\"108.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"74.0\" x2=\"454\" y2=\"74.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"40.0\" x2=\"454\" y2=\"40.0\" stroke=\"#EEF1F3\" stroke-width=\"1\"/><line x1=\"54\" y1=\"108.0\" x2=\"470\" y2=\"108.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M470 108.0 l-8 -4 v8 z\" fill=\"#2B2527\"/><line x1=\"54\" y1=\"176.0\" x2=\"54\" y2=\"28.0\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><path d=\"M54 28.0 l-4 8 h8 z\" fill=\"#2B2527\"/><text x=\"472\" y=\"100.0\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">x</text><text x=\"64\" y=\"34.0\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">y</text><line x1=\"87.3\" y1=\"104.5\" x2=\"87.3\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"120.7\" y1=\"104.5\" x2=\"120.7\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"120.7\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">60°</text><text x=\"120.7\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">60°</text><line x1=\"154.0\" y1=\"104.5\" x2=\"154.0\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"187.3\" y1=\"104.5\" x2=\"187.3\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"187.3\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">120°</text><text x=\"187.3\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">120°</text><line x1=\"220.7\" y1=\"104.5\" x2=\"220.7\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"254.0\" y1=\"104.5\" x2=\"254.0\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"254.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">180°</text><text x=\"254.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">180°</text><line x1=\"287.3\" y1=\"104.5\" x2=\"287.3\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"320.7\" y1=\"104.5\" x2=\"320.7\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"320.7\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">240°</text><text x=\"320.7\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">240°</text><line x1=\"354.0\" y1=\"104.5\" x2=\"354.0\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"387.3\" y1=\"104.5\" x2=\"387.3\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"387.3\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">300°</text><text x=\"387.3\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">300°</text><line x1=\"420.7\" y1=\"104.5\" x2=\"420.7\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><line x1=\"454.0\" y1=\"104.5\" x2=\"454.0\" y2=\"111.5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"454.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">360°</text><text x=\"454.0\" y=\"191.0\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">360°</text><line x1=\"50.5\" y1=\"176.0\" x2=\"57.5\" y2=\"176.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−2</text><text x=\"46.0\" y=\"179.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−2</text><line x1=\"50.5\" y1=\"142.0\" x2=\"57.5\" y2=\"142.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"145.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">−1</text><text x=\"46.0\" y=\"145.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">−1</text><line x1=\"50.5\" y1=\"74.0\" x2=\"57.5\" y2=\"74.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">1</text><text x=\"46.0\" y=\"77.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">1</text><line x1=\"50.5\" y1=\"40.0\" x2=\"57.5\" y2=\"40.0\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linejoin=\"round\" fill=\"#fff\">2</text><text x=\"46.0\" y=\"43.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#5C575E\">2</text><path d=\"M 54.0,137.44 L 55.0,137.17 L 56.0,136.90 L 57.0,136.61 L 58.0,136.32 L 59.0,136.02 L 60.0,135.71 L 61.0,135.40 L 62.0,135.08 L 63.0,134.76 L 64.0,134.42 L 65.0,134.08 L 66.0,133.74 L 67.0,133.39 L 68.0,133.03 L 69.0,132.66 L 70.0,132.29 L 71.0,131.92 L 72.0,131.53 L 73.0,131.14 L 74.0,130.75 L 75.0,130.35 L 76.0,129.95 L 77.0,129.53 L 78.0,129.12 L 79.0,128.70 L 80.0,128.27 L 81.0,127.84 L 82.0,127.40 L 83.0,126.96 L 84.0,126.52 L 85.0,126.07 L 86.0,125.61 L 87.0,125.15 L 88.0,124.69 L 89.0,124.22 L 90.0,123.75 L 91.0,123.28 L 92.0,122.80 L 93.0,122.32 L 94.0,121.83 L 95.0,121.34 L 96.0,120.85 L 97.0,120.35 L 98.0,119.85 L 99.0,119.35 L 100.0,118.84 L 101.0,118.34 L 102.0,117.83 L 103.0,117.31 L 104.0,116.80 L 105.0,116.28 L 106.0,115.76 L 107.0,115.24 L 108.0,114.72 L 109.0,114.20 L 110.0,113.67 L 111.0,113.14 L 112.0,112.61 L 113.0,112.08 L 114.0,111.55 L 115.0,111.02 L 116.0,110.49 L 117.0,109.96 L 118.0,109.42 L 119.0,108.89 L 120.0,108.36 L 121.0,107.82 L 122.0,107.29 L 123.0,106.75 L 124.0,106.22 L 125.0,105.69 L 126.0,105.15 L 127.0,104.62 L 128.0,104.09 L 129.0,103.56 L 130.0,103.03 L 131.0,102.51 L 132.0,101.98 L 133.0,101.45 L 134.0,100.93 L 135.0,100.41 L 136.0,99.89 L 137.0,99.37 L 138.0,98.86 L 139.0,98.34 L 140.0,97.83 L 141.0,97.32 L 142.0,96.82 L 143.0,96.32 L 144.0,95.82 L 145.0,95.32 L 146.0,94.82 L 147.0,94.33 L 148.0,93.85 L 149.0,93.36 L 150.0,92.88 L 151.0,92.41 L 152.0,91.93 L 153.0,91.46 L 154.0,91.00 L 155.0,90.54 L 156.0,90.08 L 157.0,89.63 L 158.0,89.18 L 159.0,88.74 L 160.0,88.30 L 161.0,87.87 L 162.0,87.44 L 163.0,87.02 L 164.0,86.60 L 165.0,86.19 L 166.0,85.78 L 167.0,85.38 L 168.0,84.99 L 169.0,84.60 L 170.0,84.21 L 171.0,83.83 L 172.0,83.46 L 173.0,83.09 L 174.0,82.73 L 175.0,82.38 L 176.0,82.03 L 177.0,81.69 L 178.0,81.35 L 179.0,81.03 L 180.0,80.70 L 181.0,80.39 L 182.0,80.08 L 183.0,79.78 L 184.0,79.49 L 185.0,79.20 L 186.0,78.92 L 187.0,78.64 L 188.0,78.38 L 189.0,78.12 L 190.0,77.87 L 191.0,77.63 L 192.0,77.39 L 193.0,77.16 L 194.0,76.94 L 195.0,76.73 L 196.0,76.52 L 197.0,76.32 L 198.0,76.13 L 199.0,75.95 L 200.0,75.78 L 201.0,75.61 L 202.0,75.45 L 203.0,75.30 L 204.0,75.16 L 205.0,75.02 L 206.0,74.90 L 207.0,74.78 L 208.0,74.67 L 209.0,74.57 L 210.0,74.48 L 211.0,74.39 L 212.0,74.31 L 213.0,74.25 L 214.0,74.19 L 215.0,74.13 L 216.0,74.09 L 217.0,74.06 L 218.0,74.03 L 219.0,74.01 L 220.0,74.00 L 221.0,74.00 L 222.0,74.01 L 223.0,74.02 L 224.0,74.05 L 225.0,74.08 L 226.0,74.12 L 227.0,74.17 L 228.0,74.23 L 229.0,74.29 L 230.0,74.36 L 231.0,74.45 L 232.0,74.54 L 233.0,74.64 L 234.0,74.74 L 235.0,74.86 L 236.0,74.98 L 237.0,75.11 L 238.0,75.25 L 239.0,75.40 L 240.0,75.56 L 241.0,75.72 L 242.0,75.89 L 243.0,76.07 L 244.0,76.26 L 245.0,76.45 L 246.0,76.66 L 247.0,76.87 L 248.0,77.09 L 249.0,77.31 L 250.0,77.55 L 251.0,77.79 L 252.0,78.04 L 253.0,78.29 L 254.0,78.56 L 255.0,78.83 L 256.0,79.10 L 257.0,79.39 L 258.0,79.68 L 259.0,79.98 L 260.0,80.29 L 261.0,80.60 L 262.0,80.92 L 263.0,81.24 L 264.0,81.58 L 265.0,81.92 L 266.0,82.26 L 267.0,82.61 L 268.0,82.97 L 269.0,83.34 L 270.0,83.71 L 271.0,84.08 L 272.0,84.47 L 273.0,84.86 L 274.0,85.25 L 275.0,85.65 L 276.0,86.05 L 277.0,86.47 L 278.0,86.88 L 279.0,87.30 L 280.0,87.73 L 281.0,88.16 L 282.0,88.60 L 283.0,89.04 L 284.0,89.48 L 285.0,89.93 L 286.0,90.39 L 287.0,90.85 L 288.0,91.31 L 289.0,91.78 L 290.0,92.25 L 291.0,92.72 L 292.0,93.20 L 293.0,93.68 L 294.0,94.17 L 295.0,94.66 L 296.0,95.15 L 297.0,95.65 L 298.0,96.15 L 299.0,96.65 L 300.0,97.16 L 301.0,97.66 L 302.0,98.17 L 303.0,98.69 L 304.0,99.20 L 305.0,99.72 L 306.0,100.24 L 307.0,100.76 L 308.0,101.28 L 309.0,101.80 L 310.0,102.33 L 311.0,102.86 L 312.0,103.39 L 313.0,103.92 L 314.0,104.45 L 315.0,104.98 L 316.0,105.51 L 317.0,106.04 L 318.0,106.58 L 319.0,107.11 L 320.0,107.64 L 321.0,108.18 L 322.0,108.71 L 323.0,109.25 L 324.0,109.78 L 325.0,110.31 L 326.0,110.85 L 327.0,111.38 L 328.0,111.91 L 329.0,112.44 L 330.0,112.97 L 331.0,113.49 L 332.0,114.02 L 333.0,114.55 L 334.0,115.07 L 335.0,115.59 L 336.0,116.11 L 337.0,116.63 L 338.0,117.14 L 339.0,117.66 L 340.0,118.17 L 341.0,118.68 L 342.0,119.18 L 343.0,119.68 L 344.0,120.18 L 345.0,120.68 L 346.0,121.18 L 347.0,121.67 L 348.0,122.15 L 349.0,122.64 L 350.0,123.12 L 351.0,123.59 L 352.0,124.07 L 353.0,124.54 L 354.0,125.00 L 355.0,125.46 L 356.0,125.92 L 357.0,126.37 L 358.0,126.82 L 359.0,127.26 L 360.0,127.70 L 361.0,128.13 L 362.0,128.56 L 363.0,128.98 L 364.0,129.40 L 365.0,129.81 L 366.0,130.22 L 367.0,130.62 L 368.0,131.01 L 369.0,131.40 L 370.0,131.79 L 371.0,132.17 L 372.0,132.54 L 373.0,132.91 L 374.0,133.27 L 375.0,133.62 L 376.0,133.97 L 377.0,134.31 L 378.0,134.65 L 379.0,134.97 L 380.0,135.30 L 381.0,135.61 L 382.0,135.92 L 383.0,136.22 L 384.0,136.51 L 385.0,136.80 L 386.0,137.08 L 387.0,137.36 L 388.0,137.62 L 389.0,137.88 L 390.0,138.13 L 391.0,138.37 L 392.0,138.61 L 393.0,138.84 L 394.0,139.06 L 395.0,139.27 L 396.0,139.48 L 397.0,139.68 L 398.0,139.87 L 399.0,140.05 L 400.0,140.22 L 401.0,140.39 L 402.0,140.55 L 403.0,140.70 L 404.0,140.84 L 405.0,140.98 L 406.0,141.10 L 407.0,141.22 L 408.0,141.33 L 409.0,141.43 L 410.0,141.52 L 411.0,141.61 L 412.0,141.69 L 413.0,141.75 L 414.0,141.81 L 415.0,141.87 L 416.0,141.91 L 417.0,141.94 L 418.0,141.97 L 419.0,141.99 L 420.0,142.00 L 421.0,142.00 L 422.0,141.99 L 423.0,141.98 L 424.0,141.95 L 425.0,141.92 L 426.0,141.88 L 427.0,141.83 L 428.0,141.77 L 429.0,141.71 L 430.0,141.64 L 431.0,141.55 L 432.0,141.46 L 433.0,141.36 L 434.0,141.26 L 435.0,141.14 L 436.0,141.02 L 437.0,140.89 L 438.0,140.75 L 439.0,140.60 L 440.0,140.44 L 441.0,140.28 L 442.0,140.11 L 443.0,139.93 L 444.0,139.74 L 445.0,139.55 L 446.0,139.34 L 447.0,139.13 L 448.0,138.91 L 449.0,138.69 L 450.0,138.45 L 451.0,138.21 L 452.0,137.96 L 453.0,137.71 L 454.0,137.44\" fill=\"none\" stroke=\"#C93A2B\" stroke-width=\"2.4\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/></svg></span><p>Bestäm \\(v\\).</p>",
+    "s": "<p>Grafen till \\(y=\\sin x\\) skär x-axeln på väg uppåt vid \\(x=0^\\circ\\). Här sker det vid \\(x=60^\\circ\\), så grafen är förskjuten \\(60^\\circ\\) åt höger.</p><p>Kontroll: maximum ligger vid \\(150^\\circ=90^\\circ+60^\\circ\\).</p><p><strong>Svar:</strong> \\(v=60^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Leta upp punkten där grafen korsar x-axeln på väg uppåt. Var ligger den punkten för \\(y=\\sin x\\)?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.640",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=\\cos x\\) kan beskrivas som en förskjuten sinuskurva: \\(\\cos x=\\sin(x+v)\\). Bestäm \\(v\\) om \\(0^\\circ\\le v\\lt 360^\\circ\\).</p>",
+    "s": "<p>\\(y=\\cos x\\) har maximum vid \\(x=0^\\circ\\), medan \\(y=\\sin x\\) har maximum vid \\(x=90^\\circ\\). Cosinuskurvan är alltså sinuskurvan förskjuten \\(90^\\circ\\) åt vänster:</p><p>\\[\\cos x=\\sin(x+90^\\circ)\\]</p><p>Kontroll: \\(\\sin(0^\\circ+90^\\circ)=1=\\cos0^\\circ\\) och \\(\\sin(90^\\circ+90^\\circ)=0=\\cos90^\\circ\\).</p><p><strong>Svar:</strong> \\(v=90^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Jämför var \\(\\sin x\\) och \\(\\cos x\\) har sina maximipunkter.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.641",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen \\(f(x)=a\\sin(x-v)+c\\), där \\(a\\gt 0\\) och \\(0^\\circ\\le v\\lt 360^\\circ\\), har en maximipunkt i \\((100^\\circ,\\,7)\\). Funktionens minsta värde är \\(-1\\). Bestäm \\(a\\), \\(v\\) och \\(c\\).</p>",
+    "s": "<p><strong>Medellinje och amplitud:</strong> \\(c=\\frac{7+(-1)}{2}=3\\) och \\(a=\\frac{7-(-1)}{2}=4\\).</p><p><strong>Fasförskjutning:</strong> \\(\\sin x\\) har maximum vid \\(90^\\circ\\). Här ligger ett maximum vid \\(100^\\circ\\):</p><p>\\[100^\\circ-v=90^\\circ+n\\cdot360^\\circ\\;\\Rightarrow\\; v=10^\\circ-n\\cdot360^\\circ\\]</p><p>Villkoret \\(0^\\circ\\le v\\lt360^\\circ\\) ger \\(v=10^\\circ\\).</p><p>Kontroll: \\(f(100^\\circ)=4\\sin90^\\circ+3=7\\).</p><p><strong>Svar:</strong> \\(a=4\\), \\(v=10^\\circ\\) och \\(c=3\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      10,
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "grader",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "v (grader)",
+      "c"
+    ],
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Bestäm \\(a\\) och \\(c\\) från extremvärdena. Var ligger maximum för \\(y=\\sin x\\), och hur långt har det flyttats?</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3
+  },
+  {
+    "id": "1.642",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(f(x)=3\\sin(2x+v)\\), där \\(0^\\circ\\lt v\\lt 180^\\circ\\), går genom punkten \\((0,\\,1{,}5)\\) och är växande där. Bestäm \\(v\\).</p>",
+    "s": "<p><strong>Villkoret \\(f(0)=1{,}5\\):</strong> \\(3\\sin v=1{,}5\\Rightarrow\\sin v=0{,}5\\). I intervallet ger det \\(v=30^\\circ\\) eller \\(v=150^\\circ\\).</p><p><strong>Villkoret växande:</strong> När \\(x\\) ökar lite från \\(0\\) ökar argumentet \\(2x+v\\) lite från \\(v\\). Sinuskurvan är växande för argument mellan \\(-90^\\circ\\) och \\(90^\\circ\\) och avtagande mellan \\(90^\\circ\\) och \\(270^\\circ\\).</p><p>\\(v=30^\\circ\\) ligger där sinus växer, men \\(v=150^\\circ\\) ligger där sinus avtar. Alltså är \\(v=30^\\circ\\).</p><p><strong>Svar:</strong> \\(v=30^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "resonemang",
+      "problemlösning"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Villkoret \\(f(0)=1{,}5\\) ger två möjliga vinklar. Rita sinuskurvan och se vid vilken av dem kurvan är på väg uppåt.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 3
   }
 ];

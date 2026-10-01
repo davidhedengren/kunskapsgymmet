@@ -36,12 +36,11 @@ window.OMRMA2 = {
     "mer_om_andragradsekvationer": "Andragradsekvationer – fördjupning",
     "samband_roter_koefficienter": "Samband mellan rötter och koefficienter",
     "andragradsekvationer_tillampningar": "Tillämpningar och problemlösning med andragradsekvationer",
-    "blandat_andragradsekvationer": "Blandade metoder för andragradsekvationer",
     "rotekvationer": "Rotekvationer",
     "funktionsskrivsatt_rep": "Funktioner och funktionsskrivsätt – repetition",
     "andragradsfunktioner": "Andragradsfunktioner",
     "andragradsfunktion_graf": "Andragradsfunktionens graf",
-    "symmetrilinje_extrempunkt": "Symmetrilinje, extrempunkt och största/minsta värde",
+    "symmetrilinje_extrempunkt": "Största och minsta värde",
     "fran_graf_till_formel": "Från graf till formel",
     "andragradsfunktioner_tillampningar": "Problemlösning med andragradsfunktioner",
     "potensregler": "Potenser och potensregler",
@@ -49,23 +48,21 @@ window.OMRMA2 = {
     "exponentialfunktioner": "Exponentialfunktioner",
     "exponentialgraf": "Exponentialfunktioners grafer",
     "logaritmbegreppet": "Logaritmbegreppet",
-    "logaritmlagar": "Logaritmlagar",
+    "logaritmlagar": "Logaritmlagarna",
     "exponentialekvationer": "Exponentialekvationer",
     "potensekvationer": "Potensekvationer",
     "jamfora_exponential_potens": "Jämföra exponential- och potensekvationer",
-    "regressionsanalys_olika_modeller": "Regressionsanalys med olika modeller",
-    "modellval_regression": "Modellval och bestämning av regressionsmodell"
+    "regressionsanalys_olika_modeller": "Regressionsanalys"
   },
   "3": {
     "geometriska_begrepp_definitioner": "Geometriska begrepp och definitioner",
-    "sats_bevis": "Sats och bevis",
-    "implikation_ekvivalens": "Implikation och ekvivalens",
+    "sats_bevis": "Sats och bevis, implikation och ekvivalens",
     "yttervinkelsatsen": "Yttervinkelsatsen",
     "randvinkel_medelpunkt": "Randvinklar och medelpunktsvinklar",
     "pythagoras": "Pythagoras sats",
     "likformighet": "Likformighet",
     "topptriangel_transversal": "Topptriangelsatsen och transversalsatsen",
-    "bevis_likformighet": "Bevis och resonemang med likformighet",
+    "bevis_likformighet": "Bevis med likformighet",
     "kordasatsen_biskarningssatsen": "Kordasatsen",
     "avstandsformeln_mittpunktsformeln": "Avståndsformeln och mittpunktsformeln",
     "koordinatgeometri_problemlosning": "Koordinatgeometri – problemlösning"
@@ -74,17 +71,17 @@ window.OMRMA2 = {
     "lagesmatt": "Medelvärde, median och typvärde",
     "kvartiler_percentiler": "Kvartiler och percentiler",
     "ladagram": "Lådagram",
-    "linjar_regression": "Linjär regression",
-    "korrelation_koefficient": "Korrelation och korrelationskoefficient",
     "standardavvikelse": "Standardavvikelse",
-    "normalfordelat_material": "Normalfördelning och normalfördelat material",
+    "korrelation_koefficient": "Korrelation och korrelationskoefficient",
+    "linjar_regression": "Linjär regression",
+    "normalfordelat_material": "Normalfördelning",
     "normalfordelning_digitala_verktyg": "Normalfördelning med digitala verktyg"
   },
   "5": {
     "ekonomiprogrammet": "Ekonomiprogrammet",
+    "samhallsvetenskapsprogrammet": "Samhällsvetenskapsprogrammet",
     "vard_omsorgsprogrammet": "Vård- och omsorgsprogrammet",
-    "vvs_fastighetsprogrammet": "VVS- och fastighetsprogrammet",
-    "samhallsvetenskapsprogrammet": "Samhällsvetenskapsprogrammet"
+    "vvs_fastighetsprogrammet": "VVS- och fastighetsprogrammet"
   }
 };
 
@@ -179,6 +176,7 @@ window.SPARMA2 = {
       "2c"
     ],
     "mer_om_andragradsekvationer": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -187,11 +185,6 @@ window.SPARMA2 = {
       "2c"
     ],
     "andragradsekvationer_tillampningar": [
-      "2a",
-      "2b",
-      "2c"
-    ],
-    "blandat_andragradsekvationer": [
       "2a",
       "2b",
       "2c"
@@ -271,10 +264,6 @@ window.SPARMA2 = {
     "regressionsanalys_olika_modeller": [
       "2b",
       "2c"
-    ],
-    "modellval_regression": [
-      "2b",
-      "2c"
     ]
   },
   "3": {
@@ -286,11 +275,8 @@ window.SPARMA2 = {
       "2b",
       "2c"
     ],
-    "implikation_ekvivalens": [
-      "2b",
-      "2c"
-    ],
     "yttervinkelsatsen": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -346,7 +332,8 @@ window.SPARMA2 = {
       "2b",
       "2c"
     ],
-    "linjar_regression": [
+    "standardavvikelse": [
+      "2a",
       "2b",
       "2c"
     ],
@@ -354,8 +341,7 @@ window.SPARMA2 = {
       "2b",
       "2c"
     ],
-    "standardavvikelse": [
-      "2a",
+    "linjar_regression": [
       "2b",
       "2c"
     ],
@@ -374,14 +360,14 @@ window.SPARMA2 = {
     "ekonomiprogrammet": [
       "2b"
     ],
+    "samhallsvetenskapsprogrammet": [
+      "2b"
+    ],
     "vard_omsorgsprogrammet": [
       "2a"
     ],
     "vvs_fastighetsprogrammet": [
       "2a"
-    ],
-    "samhallsvetenskapsprogrammet": [
-      "2b"
     ]
   }
 };

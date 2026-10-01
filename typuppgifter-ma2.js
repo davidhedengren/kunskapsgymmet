@@ -399,7 +399,7 @@
     "Exemplen omfattar inte alla trianglar. Det behövs ett generellt logiskt resonemang.",
     "En figur hjälper dig att tänka, men figurens utseende är inte i sig ett bevis.", "Förstå och genomföra geometriska bevis");
 
-  add("ma2-grund-3-03", 3, "implikation_ekvivalens", BC,
+  add("ma2-grund-3-03", 3, "sats_bevis", BC,
     "Skilj på implikation och ekvivalens",
     "<p>Avgör vilket samband som gäller: ”x = 4” och ”x² = 16”, för reella x.</p>",
     "Implikation betyder att det första påståendet medför det andra. Ekvivalens kräver att sambandet gäller åt båda hållen.",

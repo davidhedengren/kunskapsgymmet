@@ -6631,7 +6631,10 @@ const STEG=[
   {id:"till",namn:"Tillämpning",niv:["3"],kort:"nivå 3"},
   {id:"utm",namn:"Utmaning",niv:["4","5"],kort:"nivå 4–5"}
 ];
-const STEG_MIN=5;
+const STEG_MIN=4;
+/* Kursringen: grunderna i hela kursen ger 90 %, resten kommer från de högre stegen. */
+const STEG_VIKT={grund:90,till:7,utm:3};
+const STEG_GRANS={fran:.35,till:.65};
 function omradesNivaer(){
   const m={};
   availableTasks().forEach(t=>{ (m[t.omr||"ovrigt"] ||= new Set()).add(levelOf(t)); });
@@ -6643,7 +6646,9 @@ function stegVarde(area,steg,finns){
   let n=0,sum=0;
   L.forEach(x=>{ const st=levelStatRead(area,x); const k=st.n||0; n+=k; sum+=(st.s||0)*k; });
   if(!n) return 0;
-  return Math.max(0,Math.min(1,(sum/n-.4)/.3))*Math.min(1,n/STEG_MIN);
+  const sakerhet=Math.max(0,Math.min(1,(sum/n-STEG_GRANS.fran)/(STEG_GRANS.till-STEG_GRANS.fran)));
+  // Roten gör att de första uppgifterna syns tydligt i mätaren.
+  return sakerhet*Math.sqrt(Math.min(1,n/STEG_MIN));
 }
 function stegLage(areor){
   const finns=omradesNivaer();
@@ -6654,6 +6659,9 @@ function stegLage(areor){
     const narmast=v.filter(x=>x.v>0 && x.v<.95).sort((x,y)=>y.v-x.v)[0]?.a||null;
     return {...steg,pct,klara,antal:v.length,narmast};
   });
+}
+function kursRing(lage){
+  return Math.round(lage.reduce((sum,x)=>sum+(STEG_VIKT[x.id]||0)*x.pct/100,0));
 }
 function stegStatus(lage,tranat){
   const [g,t,u]=lage;
@@ -10379,8 +10387,10 @@ function oppnaMatarhjalp(){
       <b>Tillämpning</b> (nivå 3) och <b>Utmaning</b> (nivå 4–5).
       Ett steg är klart i ett område när du gjort minst ${STEG_MIN}
       uppgifter på stegets nivåer och klarar dem stabilt.</p>
-      <p>Ringen visar hur långt du kommit med grunderna i hela kursen.
-      Raderna under visar hur många områden som är klara i varje steg.
+      <p>Ringen visar hur långt du kommit i kursen. Grunderna väger
+      tyngst: när de sitter i alla områden står ringen på 90 %. De sista
+      procenten kommer från Tillämpning och Utmaning. Raderna under visar
+      hur många områden som är klara i varje steg.
       Det är ett <b>träningsläge</b>, inte ett betyg.</p>
 
       <h3>Vad du gör med det</h3>
@@ -10470,13 +10480,13 @@ function showProgress(record){
       </div>
       <div class="card pad" style="margin-bottom:26px">
         <div class="rankrow">
-          <div class="ringwrap" title="Grunderna i hela kursen">
-            ${ring(g.pct/100,74,6,"var(--acc)")}
-            <div class="num">${g.pct}<small>%</small></div>
+          <div class="ringwrap" title="Kursläge: grunderna väger tyngst">
+            ${ring(kursRing(lage)/100,74,6,"var(--acc)")}
+            <div class="num">${kursRing(lage)}<small>%</small></div>
           </div>
           <div style="flex:1;min-width:200px">
             <div class="rankname">${esc(COURSES[state.course].name)}</div>
-            <div class="rankmeta">${tranatKurs?"Ringen visar hur långt du kommit med grunderna i hela kursen":"Inte påbörjat"}</div>
+            <div class="rankmeta">${tranatKurs?"Klara grunder i hela kursen ger 90 %. Resten kommer från de svårare stegen.":"Inte påbörjat"}</div>
             ${redo?`<div class="redo">${redo}</div>`:""}
           </div>
         </div>

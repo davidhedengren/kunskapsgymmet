@@ -1065,7 +1065,7 @@ window.BANKMATO2 = [
   {
     "id": "1.117",
     "kap": 1,
-    "omr": "enhetscirkeln",
+    "omr": "trig_formler",
     "kurs": [
       "2c"
     ],
@@ -1944,7 +1944,7 @@ window.BANKMATO2 = [
   {
     "id": "1.268",
     "kap": 1,
-    "omr": "enhetscirkeln",
+    "omr": "trig_formler",
     "kurs": [
       "2c"
     ],
@@ -3147,7 +3147,7 @@ window.BANKMATO2 = [
   {
     "id": "1.448",
     "kap": 1,
-    "omr": "enhetscirkeln",
+    "omr": "trig_formler",
     "kurs": [
       "2c"
     ],
@@ -5453,7 +5453,7 @@ window.BANKMATO2 = [
   {
     "id": "1.115",
     "kap": 1,
-    "omr": "trig_formler",
+    "omr": "trig_ekvationer",
     "kurs": [
       "2c"
     ],
@@ -5463,7 +5463,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Lös ekvationen</p><p>\\[2\\sin x\\cos x=\\frac{\\sqrt3}{2},\\qquad0\\le x&lt;360^\\circ.\\]</p>",
     "s": "<p><strong>Nyckelidé:</strong> Känn igen vänsterledet som en dubbelvinkel.</p><p>Eftersom \\(2\\sin x\\cos x=\\sin2x\\) blir ekvationen</p><p>\\[\\sin2x=\\frac{\\sqrt3}{2}.\\]</p><p>När \\(0\\le x&lt;360^\\circ\\) gäller \\(0\\le2x&lt;720^\\circ\\), alltså två hela varv för vinkeln \\(2x\\). Därför</p><p>\\[2x=60^\\circ,120^\\circ,420^\\circ,480^\\circ.\\]</p><p>Dividera med 2:</p><p>\\[\\boxed{x=30^\\circ,60^\\circ,210^\\circ,240^\\circ}.\\]</p>",
-    "familj": "Använda formler för dubbla vinkeln",
+    "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur"
     ],
@@ -6223,7 +6223,7 @@ window.BANKMATO2 = [
   {
     "id": "1.541",
     "kap": 1,
-    "omr": "trig_formler",
+    "omr": "trig_ekvationer",
     "kurs": [
       "2c"
     ],
@@ -6234,7 +6234,7 @@ window.BANKMATO2 = [
     "geogebra": false,
     "t": "<p>Lös ekvationen \\(\\sin^2x=\\cos^2x\\) för \\(0\\le x&lt;360^\\circ\\) genom att använda en dubbelvinkelformel.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Skriv skillnaden som en dubbelvinkel.</p><p>\\[\\sin^2x=\\cos^2x\\iff\\cos^2x-\\sin^2x=0\\iff\\cos2x=0.\\]</p><p>För \\(0\\le x&lt;360^\\circ\\) gäller \\(0\\le2x&lt;720^\\circ\\). Därför</p><p>\\[2x=90^\\circ,270^\\circ,450^\\circ,630^\\circ,\\]</p><p>och alltså</p><p>\\[\\boxed{x=45^\\circ,135^\\circ,225^\\circ,315^\\circ}.\\]</p>",
-    "familj": "Använda formler för dubbla vinkeln",
+    "familj": "Trigonometriska ekvationer med identiteter och faktorisering",
     "formaga": [
       "procedur",
       "begrepp",
@@ -6372,8 +6372,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.178",
-    "kap": 1,
-    "omr": "trig_formler",
+    "kap": 2,
+    "omr": "trig_funktioner",
     "kurs": [
       "2c"
     ],
@@ -6382,15 +6382,15 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Skriv \\(3\\sin x+4\\cos x\\) på formen \\(c\\sin(x+v)\\), där \\(c&gt;0\\) och \\(0&lt;v&lt;90^\\circ\\).</p><p>Bestäm \\(c\\) exakt och \\(v\\) med tre decimaler.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> För \\(a\\sin x+b\\cos x=c\\sin(x+v)\\) gäller \\(c=\\sqrt{a^2+b^2}\\), \\(c\\cos v=a\\) och \\(c\\sin v=b\\).</p><p>Här blir \\(c=\\sqrt{3^2+4^2}=\\boxed5\\).</p><p>Då \\(\\tan v=4/3\\), så \\(v=\\arctan(4/3)\\approx\\boxed{0,927}\\) rad.</p>",
-    "familj": "Använda trigonometriska formler och identiteter",
+    "s": "<p><strong>Nyckelidé:</strong> För \\(a\\sin x+b\\cos x=c\\sin(x+v)\\) gäller \\(c=\\sqrt{a^2+b^2}\\), \\(c\\cos v=a\\) och \\(c\\sin v=b\\).</p><p>Här blir \\(c=\\sqrt{3^2+4^2}=\\boxed5\\).</p><p>Då \\(\\cos v=3/5\\gt0\\) och \\(\\sin v=4/5\\gt0\\) ligger \\(v\\) i första kvadranten, och \\(\\tan v=4/3\\) ger \\(v=\\arctan(4/3)\\approx\\boxed{53,130^\\circ}\\).</p>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
       5,
-      0.927
+      53.13
     ],
     "tolerans": [
       null,
@@ -6404,7 +6404,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Bestäm först amplituden \\(c=\\sqrt{3^2+4^2}\\). Jämför sedan koefficienterna framför sinus och cosinus.</p>",
     "svarFormat": [
       "numeriskt",
-      "numeriskt"
+      "grader"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -8043,8 +8043,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.15",
-    "kap": 1,
-    "omr": "trig_ekvationer",
+    "kap": 2,
+    "omr": "trig_funktioner",
     "kurs": [
       "2c"
     ],
@@ -8054,7 +8054,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>För det reella talet \\(a\\) ges ekvationen</p><p>\\[a\\sin x-\\cos x=2,\\qquad 0\\le x&lt;360^\\circ.\\]</p><p>Undersök hur antalet lösningar beror på \\(a\\). Förklara varför antalet blir som du anger i varje fall.</p>",
     "s": "<p>Skriv vänsterledet som \\(R\\sin(x+v)\\). Amplituden är</p><p>\\[R=\\sqrt{a^2+1}.\\]</p><p>Under \\(0\\le x&lt;360^\\circ\\) genomlöps en hel period. Nivån 2 kan träffas bara om \\(R\\ge2\\), alltså \\(|a|\\ge\\sqrt3\\).</p><p>Därför blir antalet lösningar:</p><p>\\[\\boxed{0\\text{ om }|a|&lt;\\sqrt3;\\quad1\\text{ om }|a|=\\sqrt3;\\quad2\\text{ om }|a|&gt;\\sqrt3}.\\]</p>",
-    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "procedur",
       "begrepp",
@@ -8830,8 +8830,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.341",
-    "kap": 1,
-    "omr": "trig_ekvationer",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -9832,8 +9832,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.342",
-    "kap": 1,
-    "omr": "trig_ekvationer",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -10388,8 +10388,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.343",
-    "kap": 1,
-    "omr": "trig_ekvationer",
+    "kap": 2,
+    "omr": "trig_funktioner",
     "kurs": [
       "2c"
     ],
@@ -11015,8 +11015,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.344",
-    "kap": 1,
-    "omr": "trig_ekvationer",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -11547,8 +11547,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.345",
-    "kap": 1,
-    "omr": "trig_ekvationer",
+    "kap": 2,
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -11558,7 +11558,7 @@ window.BANKMATO2 = [
     "geogebra": true,
     "t": "<p>Linjen</p><p>\\[y=a(x-2)\\]</p><p>tangerar kurvan \\(y=\\sin x\\) i en punkt där \\(0&lt;x&lt;360^\\circ\\).</p><p>Bestäm \\(a\\) och tangentpunktens x-koordinat. Svara med tre decimaler.</p>",
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> I tangentpunkten måste linjen och sinuskurvan ha både samma funktionsvärde och samma lutning. Använd de två villkoren samtidigt och lös sedan den återstående ekvationen numeriskt.</p><div class=\"facit-arbete\"><p>I tangentpunkten måste linjen och kurvan ha både samma y-värde och samma lutning.</p><p>Alltså</p><p>\\[\\sin x=a(x-2)\\qquad\\text{och}\\qquad a=\\cos x.\\]</p><p>Eliminera \\(a\\):</p><p>\\[\\sin x=(x-2)\\cos x.\\]</p><p>Den relevanta lösningen är \\(x\\approx4,303\\). Då</p><p>\\[a=\\cos(4,303)\\approx-0,398.\\]</p><p>\\[\\boxed{x\\approx4,303,\\qquad a\\approx-0,398}.\\]</p></div></div>",
-    "familj": "Parameterproblem med antal trigonometriska lösningar",
+    "familj": "Tangentproblem med specialfunktioner",
     "formaga": [
       "procedur",
       "begrepp",
@@ -12940,8 +12940,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>En roterande ljusstråles riktning modelleras av \\(\\theta(t)=2t+30^\\circ\\) rad. En markör träffas när \\(\\sin\\theta=1/2\\). Bestäm de två första positiva tidpunkterna.</p>",
-    "s": "<p>Villkoret är \\(\\sin(2t+30^\\circ)=1/2\\). Lösningarna är \\(2t+30^\\circ=30^\\circ+360^\\circ k\\) eller \\(150^\\circ+360^\\circ k\\). Därför \\(t=180^\\circ k\\) eller \\(t=60^\\circ+180^\\circ k\\). De två första positiva är \\(60^\\circ\\) och \\(180^\\circ\\).</p>",
+    "t": "<p>En roterande ljusstråle har vid tiden \\(t\\) sekunder riktningsvinkeln \\(\\theta(t)=(2t+30)^\\circ\\). En markör träffas när \\(\\sin\\theta=1/2\\). Bestäm de två första tidpunkterna \\(t\\gt0\\) då markören träffas.</p>",
+    "s": "<p>Villkoret är \\(\\sin\\big((2t+30)^\\circ\\big)=1/2\\). Det ger \\(2t+30=30+360k\\) eller \\(2t+30=150+360k\\), där \\(k\\) är ett heltal.</p><p>Alltså är \\(t=180k\\) eller \\(t=60+180k\\). Eftersom \\(t\\gt0\\) är de två första tidpunkterna \\(\\boxed{t=60}\\) s och \\(\\boxed{t=180}\\) s.</p>",
     "familj": "Trigonometriska ekvationer med multipel vinkel och fas",
     "formaga": [
       "modellering",
@@ -13316,8 +13316,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.01",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13425,8 +13425,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.162",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13453,8 +13453,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.163",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13481,8 +13481,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.10",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13565,8 +13565,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.13",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13610,8 +13610,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.14",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13656,8 +13656,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.17",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13751,8 +13751,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.21",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13781,8 +13781,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.23",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13862,8 +13862,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.30",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13966,8 +13966,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.522",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -13995,7 +13995,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.35",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -14103,8 +14103,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.157",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14170,8 +14170,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.159",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14237,8 +14237,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.37",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14279,8 +14279,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.44",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14364,8 +14364,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.543",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14393,8 +14393,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.48",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14452,8 +14452,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.331",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14493,8 +14493,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.53",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14574,8 +14574,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.54",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14617,8 +14617,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.55",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14660,8 +14660,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.518",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14702,8 +14702,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.56",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14792,8 +14792,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.523",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14822,8 +14822,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.59",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14903,8 +14903,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.160",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -14970,8 +14970,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.72",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15061,8 +15061,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.73",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15126,8 +15126,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.74",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15153,8 +15153,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.77",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15198,8 +15198,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.81",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15293,8 +15293,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.84",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15460,8 +15460,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.156",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15527,8 +15527,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.158",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15594,8 +15594,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.161",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15622,8 +15622,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.332",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15649,8 +15649,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.164",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15677,8 +15677,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.91",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15758,8 +15758,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.93",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15837,8 +15837,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.96",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15865,8 +15865,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.549",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15895,8 +15895,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.98",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -15990,8 +15990,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.100",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16032,7 +16032,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.102",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -16059,8 +16059,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.519",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16101,8 +16101,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.104",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16196,8 +16196,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.105",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16241,8 +16241,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.110",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16331,8 +16331,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.524",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16360,8 +16360,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.111",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16387,8 +16387,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.525",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16428,8 +16428,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.113",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16523,8 +16523,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.116",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16552,7 +16552,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.119",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -16591,8 +16591,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.128",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16634,8 +16634,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.333",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16672,7 +16672,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.131",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -16737,8 +16737,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.550",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16802,8 +16802,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.133",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -16919,8 +16919,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.136",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17004,8 +17004,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.165",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17032,8 +17032,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.137",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17074,7 +17074,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.148",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -17102,7 +17102,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.149",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -17130,8 +17130,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.150",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17220,8 +17220,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.151",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17301,8 +17301,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.544",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17331,8 +17331,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.152",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17359,8 +17359,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.520",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17387,8 +17387,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.153",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17414,8 +17414,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.154",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17504,8 +17504,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.526",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17534,8 +17534,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.155",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17647,8 +17647,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.527",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17677,8 +17677,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.179",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17705,8 +17705,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.180",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17733,8 +17733,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.181",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17761,8 +17761,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.334",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17788,8 +17788,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.182",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17816,8 +17816,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.183",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17844,8 +17844,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.184",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17872,8 +17872,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.185",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17900,8 +17900,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.186",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17928,8 +17928,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.187",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17956,8 +17956,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.188",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -17984,8 +17984,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.221",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18012,8 +18012,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.222",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18040,8 +18040,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.223",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18068,8 +18068,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.224",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18096,8 +18096,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.225",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18124,8 +18124,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.226",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18152,8 +18152,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.521",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18180,8 +18180,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.545",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18210,8 +18210,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.227",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18238,8 +18238,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.228",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18266,8 +18266,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.229",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18294,8 +18294,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.335",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18321,8 +18321,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.551",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18351,8 +18351,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.230",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18379,8 +18379,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.231",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18407,8 +18407,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.232",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18435,8 +18435,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.269",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18462,8 +18462,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.270",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18489,8 +18489,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.275",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18516,8 +18516,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.276",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18544,8 +18544,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.291",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18653,8 +18653,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.292",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18681,8 +18681,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.295",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18709,8 +18709,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.296",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18737,8 +18737,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.297",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18846,8 +18846,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.298",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18873,8 +18873,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.309",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18900,8 +18900,8 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.322",
-    "kap": 1,
-    "omr": "trig_funktioner",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
     "kurs": [
       "2c"
     ],
@@ -18927,7 +18927,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.584",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -18955,7 +18955,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.585",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -18983,7 +18983,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.586",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -19011,7 +19011,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.587",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -19039,7 +19039,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.588",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -19067,7 +19067,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.589",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -19095,7 +19095,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.590",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -19123,7 +19123,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.591",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_funktioner",
     "kurs": [
       "2c"
@@ -19151,7 +19151,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.27",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19251,7 +19251,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.449",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19279,7 +19279,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.40",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19345,7 +19345,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.450",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19373,7 +19373,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.46",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19454,7 +19454,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.451",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19481,7 +19481,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.57",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19509,7 +19509,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.452",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19537,7 +19537,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.64",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19607,7 +19607,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.453",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19635,7 +19635,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.83",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19702,7 +19702,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.454",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19730,7 +19730,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.86",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19796,7 +19796,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.455",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19824,7 +19824,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.114",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19918,7 +19918,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.456",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19948,7 +19948,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.457",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -19976,7 +19976,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.118",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20063,7 +20063,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.458",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20090,7 +20090,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.124",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20170,7 +20170,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.459",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20197,7 +20197,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.166",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20291,7 +20291,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.460",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20319,7 +20319,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.167",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20385,7 +20385,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.461",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20413,7 +20413,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.171",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20507,7 +20507,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.462",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20536,7 +20536,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.172",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20602,7 +20602,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.463",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20630,7 +20630,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.173",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20700,7 +20700,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.464",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20728,7 +20728,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.259",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20755,7 +20755,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.465",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20783,7 +20783,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.260",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20810,7 +20810,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.466",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20839,7 +20839,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.261",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20866,7 +20866,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.467",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20894,7 +20894,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.262",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20921,7 +20921,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.468",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -20950,7 +20950,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.263",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21021,7 +21021,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.469",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21049,7 +21049,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.264",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21076,7 +21076,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.470",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21104,7 +21104,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.280",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21131,7 +21131,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.471",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21160,7 +21160,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.472",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21188,7 +21188,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.286",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21282,7 +21282,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.473",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21311,7 +21311,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.287",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21377,7 +21377,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.474",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21405,7 +21405,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.306",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21499,7 +21499,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.475",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21528,7 +21528,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.307",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21555,7 +21555,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.476",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21584,7 +21584,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.319",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21684,7 +21684,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.477",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21712,7 +21712,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.324",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21812,7 +21812,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.478",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21840,7 +21840,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.325",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21911,7 +21911,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.479",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21940,7 +21940,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.592",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21968,7 +21968,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.593",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -21997,7 +21997,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.594",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -22025,7 +22025,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.595",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -22054,7 +22054,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.596",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -22083,7 +22083,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.597",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -22113,7 +22113,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.598",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -22143,7 +22143,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.599",
-    "kap": 1,
+    "kap": 2,
     "omr": "radianer",
     "kurs": [
       "2c"
@@ -22173,7 +22173,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.02",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22253,7 +22253,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.480",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22281,7 +22281,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.11",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22348,7 +22348,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.481",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22375,7 +22375,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.47",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22406,7 +22406,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.482",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22433,7 +22433,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.60",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22463,7 +22463,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.336",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22531,7 +22531,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.483",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22559,7 +22559,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.76",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22642,7 +22642,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.484",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22708,7 +22708,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.88",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22738,7 +22738,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.485",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22804,7 +22804,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.90",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22870,7 +22870,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.486",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22899,7 +22899,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.97",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -22929,7 +22929,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.487",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23001,7 +23001,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.127",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23032,7 +23032,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.488",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23061,7 +23061,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.337",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23129,7 +23129,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.489",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23158,7 +23158,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.129",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23225,7 +23225,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.169",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23256,7 +23256,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.490",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23337,7 +23337,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.170",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23419,7 +23419,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.491",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23500,7 +23500,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.174",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23583,7 +23583,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.492",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23611,7 +23611,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.175",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23641,7 +23641,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.493",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23670,7 +23670,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.338",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23720,7 +23720,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.494",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23749,7 +23749,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.176",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23799,7 +23799,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.495",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23828,7 +23828,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.177",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23859,7 +23859,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.496",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23887,7 +23887,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.265",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -23991,7 +23991,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.497",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24019,7 +24019,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.266",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24049,7 +24049,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.339",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24096,7 +24096,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.498",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24124,7 +24124,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.279",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24176,7 +24176,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.499",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24204,7 +24204,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.283",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24251,7 +24251,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.500",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24280,7 +24280,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.294",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24348,7 +24348,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.501",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24377,7 +24377,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.310",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24459,7 +24459,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.502",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24488,7 +24488,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.340",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24535,7 +24535,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.503",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24564,7 +24564,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.311",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24637,7 +24637,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.504",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24666,7 +24666,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.314",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24771,7 +24771,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.315",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24800,7 +24800,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.505",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24829,7 +24829,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.328",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24917,7 +24917,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.506",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24947,7 +24947,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.329",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -24976,7 +24976,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.507",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25006,7 +25006,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.600",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25036,7 +25036,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.601",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25066,7 +25066,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.602",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25096,7 +25096,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.603",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25126,7 +25126,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.604",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25156,7 +25156,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.605",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25186,7 +25186,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.606",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25216,7 +25216,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "1.607",
-    "kap": 1,
+    "kap": 2,
     "omr": "trig_modeller",
     "kurs": [
       "2c"
@@ -25246,7 +25246,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.04",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25340,7 +25340,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.05",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25434,7 +25434,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.163",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25514,7 +25514,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.162",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25594,7 +25594,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.06",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25660,7 +25660,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.432",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25687,7 +25687,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.15",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25767,7 +25767,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.29",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25794,7 +25794,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.37",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25861,7 +25861,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.43",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25889,7 +25889,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.46",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25916,7 +25916,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.433",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25943,7 +25943,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.48",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -25971,7 +25971,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.164",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26051,7 +26051,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.50",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26078,7 +26078,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.53",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26106,7 +26106,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.54",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26134,7 +26134,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.434",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26161,7 +26161,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.57",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26241,7 +26241,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.59",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26335,7 +26335,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.65",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26429,7 +26429,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.165",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26509,7 +26509,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.67",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26603,7 +26603,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.435",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26631,7 +26631,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.69",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26699,7 +26699,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.73",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26770,7 +26770,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.80",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26864,7 +26864,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.81",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -26958,7 +26958,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.82",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27052,7 +27052,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.492",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27081,7 +27081,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.436",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27109,7 +27109,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.89",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27203,7 +27203,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.94",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27297,7 +27297,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.102",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27391,7 +27391,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.107",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27485,7 +27485,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.161",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27565,7 +27565,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.108",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27659,7 +27659,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.437",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27687,7 +27687,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.115",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27767,7 +27767,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.117",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27834,7 +27834,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.118",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27862,7 +27862,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.135",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -27926,7 +27926,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.136",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28020,7 +28020,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.438",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28048,7 +28048,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.140",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28128,7 +28128,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.141",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28155,7 +28155,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.152",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28182,7 +28182,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.153",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28262,7 +28262,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.154",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28333,7 +28333,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.439",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28361,7 +28361,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.176",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28388,7 +28388,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.177",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28415,7 +28415,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.189",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28509,7 +28509,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.190",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28603,7 +28603,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.214",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28630,7 +28630,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.493",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28660,7 +28660,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.440",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28732,7 +28732,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.216",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28759,7 +28759,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.217",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28786,7 +28786,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.229",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28853,7 +28853,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.239",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28880,7 +28880,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.246",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28908,7 +28908,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.441",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -28936,7 +28936,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.257",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29007,7 +29007,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.411",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29034,7 +29034,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.412",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29061,7 +29061,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.413",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29088,7 +29088,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.499",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29116,7 +29116,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.500",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29144,7 +29144,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.501",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29172,7 +29172,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.502",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29201,7 +29201,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.503",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29230,7 +29230,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.504",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29259,7 +29259,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.505",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29288,7 +29288,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.506",
-    "kap": 2,
+    "kap": 3,
     "omr": "deriveringsregler",
     "kurs": [
       "2c"
@@ -29316,7 +29316,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.07",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29396,7 +29396,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.09",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29477,7 +29477,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.24",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29571,7 +29571,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.442",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29599,7 +29599,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.30",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29693,7 +29693,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.31",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29721,7 +29721,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.32",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29749,7 +29749,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.35",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29776,7 +29776,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.443",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29805,7 +29805,7 @@ window.BANKMATO2 = [
   {
     "id": "2.279",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -29888,7 +29888,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.40",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -29982,7 +29982,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.47",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30023,7 +30023,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.444",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30051,7 +30051,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.61",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30116,7 +30116,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.63",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30144,7 +30144,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.85",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30238,7 +30238,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.91",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30320,7 +30320,7 @@ window.BANKMATO2 = [
   {
     "id": "2.445",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -30348,7 +30348,7 @@ window.BANKMATO2 = [
   {
     "id": "2.92",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -30442,7 +30442,7 @@ window.BANKMATO2 = [
   {
     "id": "2.280",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -30467,7 +30467,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.93",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30561,7 +30561,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.446",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30589,7 +30589,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.101",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30660,7 +30660,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.112",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30688,7 +30688,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.126",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30755,7 +30755,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.133",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30849,7 +30849,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.447",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30877,7 +30877,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.143",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -30906,7 +30906,7 @@ window.BANKMATO2 = [
   {
     "id": "2.144",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -30972,7 +30972,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.281",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31014,7 +31014,7 @@ window.BANKMATO2 = [
   {
     "id": "2.448",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -31041,7 +31041,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.145",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31107,7 +31107,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.171",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31187,7 +31187,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.172",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31254,7 +31254,7 @@ window.BANKMATO2 = [
   {
     "id": "2.449",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -31281,7 +31281,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.174",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31375,7 +31375,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.175",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31402,7 +31402,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.193",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31430,7 +31430,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.194",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31524,7 +31524,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.450",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31552,7 +31552,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.282",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31639,7 +31639,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.195",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31719,7 +31719,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.196",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31813,7 +31813,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.451",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31841,7 +31841,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.197",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -31936,7 +31936,7 @@ window.BANKMATO2 = [
   {
     "id": "2.198",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -31963,7 +31963,7 @@ window.BANKMATO2 = [
   {
     "id": "2.209",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -32028,7 +32028,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.210",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32096,7 +32096,7 @@ window.BANKMATO2 = [
   {
     "id": "2.452",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -32124,7 +32124,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.218",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32152,7 +32152,7 @@ window.BANKMATO2 = [
   {
     "id": "2.283",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -32177,7 +32177,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.225",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32204,7 +32204,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.453",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32234,7 +32234,7 @@ window.BANKMATO2 = [
   {
     "id": "2.228",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -32260,7 +32260,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.230",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32340,7 +32340,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.243",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32420,7 +32420,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.247",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32491,7 +32491,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.497",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32521,7 +32521,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.454",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32551,7 +32551,7 @@ window.BANKMATO2 = [
   {
     "id": "2.256",
     "kap": 2,
-    "omr": "kedjeregel_sammansatta",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -32578,7 +32578,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.263",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32605,7 +32605,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.507",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32633,7 +32633,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.508",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32661,7 +32661,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.509",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32689,7 +32689,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.510",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32718,7 +32718,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.511",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32747,7 +32747,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.512",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32776,7 +32776,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.513",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32804,7 +32804,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.514",
-    "kap": 2,
+    "kap": 3,
     "omr": "kedjeregel_sammansatta",
     "kurs": [
       "2c"
@@ -32832,7 +32832,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.03",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -32913,7 +32913,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.08",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -32939,7 +32939,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.10",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33033,7 +33033,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.13",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33127,7 +33127,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.17",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33221,7 +33221,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.18",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33316,7 +33316,7 @@ window.BANKMATO2 = [
   {
     "id": "2.473",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -33344,7 +33344,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.25",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33438,7 +33438,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.27",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33532,7 +33532,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.426",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33560,7 +33560,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.274",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33586,7 +33586,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.28",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33681,7 +33681,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.33",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33708,7 +33708,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.34",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33735,7 +33735,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.478",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33765,7 +33765,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.36",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33847,7 +33847,7 @@ window.BANKMATO2 = [
   {
     "id": "2.38",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -33941,7 +33941,7 @@ window.BANKMATO2 = [
   {
     "id": "2.474",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -33970,7 +33970,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.49",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -33997,7 +33997,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.56",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34091,7 +34091,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.275",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34117,7 +34117,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.427",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34145,7 +34145,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.70",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34239,7 +34239,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.71",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34322,7 +34322,7 @@ window.BANKMATO2 = [
   {
     "id": "2.72",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -34390,7 +34390,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.75",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34470,7 +34470,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.87",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34537,7 +34537,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.95",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34632,7 +34632,7 @@ window.BANKMATO2 = [
   {
     "id": "2.104",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -34657,7 +34657,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.475",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34687,7 +34687,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.276",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34714,7 +34714,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.428",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34742,7 +34742,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.110",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34770,7 +34770,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.113",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34864,7 +34864,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.479",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34894,7 +34894,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.120",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -34989,7 +34989,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.123",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35070,7 +35070,7 @@ window.BANKMATO2 = [
   {
     "id": "2.127",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -35164,7 +35164,7 @@ window.BANKMATO2 = [
   {
     "id": "2.134",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -35191,7 +35191,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.494",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35221,7 +35221,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.142",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35315,7 +35315,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.480",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35344,7 +35344,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.146",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35371,7 +35371,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.277",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35397,7 +35397,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.429",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35425,7 +35425,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.147",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35520,7 +35520,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.481",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35550,7 +35550,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.148",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35618,7 +35618,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.149",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35712,7 +35712,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.476",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35742,7 +35742,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.150",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35769,7 +35769,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.151",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35864,7 +35864,7 @@ window.BANKMATO2 = [
   {
     "id": "2.477",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -35894,7 +35894,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.191",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -35988,7 +35988,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.192",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36082,7 +36082,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.207",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36110,7 +36110,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.430",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36139,7 +36139,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.278",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36167,7 +36167,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.208",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36194,7 +36194,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.215",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36288,7 +36288,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.227",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36315,7 +36315,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.235",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36409,7 +36409,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.238",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36503,7 +36503,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.255",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36598,7 +36598,7 @@ window.BANKMATO2 = [
   {
     "id": "2.482",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -36627,7 +36627,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.262",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36655,7 +36655,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.495",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36685,7 +36685,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.401",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36712,7 +36712,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.431",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36742,7 +36742,7 @@ window.BANKMATO2 = [
   {
     "id": "2.402",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -36768,7 +36768,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.403",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36796,7 +36796,7 @@ window.BANKMATO2 = [
   {
     "id": "2.483",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -36825,7 +36825,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.409",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36854,7 +36854,7 @@ window.BANKMATO2 = [
   {
     "id": "2.410",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -36882,7 +36882,7 @@ window.BANKMATO2 = [
   {
     "id": "2.417",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -36908,7 +36908,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.484",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36938,7 +36938,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.418",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -36966,7 +36966,7 @@ window.BANKMATO2 = [
   {
     "id": "2.419",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -36993,7 +36993,7 @@ window.BANKMATO2 = [
   {
     "id": "2.485",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -37022,7 +37022,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.515",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -37051,7 +37051,7 @@ window.BANKMATO2 = [
   {
     "id": "2.516",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -37079,7 +37079,7 @@ window.BANKMATO2 = [
   {
     "id": "2.517",
     "kap": 2,
-    "omr": "derivator_specialfunktioner",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -37106,7 +37106,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.518",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -37135,7 +37135,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.519",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -37164,7 +37164,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.520",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -37193,7 +37193,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.521",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -37222,7 +37222,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.522",
-    "kap": 2,
+    "kap": 3,
     "omr": "derivator_specialfunktioner",
     "kurs": [
       "2c"
@@ -37250,7 +37250,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.11",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37315,7 +37315,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.12",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37343,7 +37343,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.19",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37371,7 +37371,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.20",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37399,7 +37399,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.22",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37427,7 +37427,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.23",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37454,7 +37454,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.26",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37482,7 +37482,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.44",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37510,7 +37510,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.45",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37540,7 +37540,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.58",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37568,7 +37568,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.269",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37596,7 +37596,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.66",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37625,7 +37625,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.455",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37668,7 +37668,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.74",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37695,7 +37695,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.76",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37777,7 +37777,7 @@ window.BANKMATO2 = [
   {
     "id": "2.79",
     "kap": 2,
-    "omr": "tillampningar_derivata",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -37805,7 +37805,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.83",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37871,7 +37871,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.489",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37901,7 +37901,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.84",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37930,7 +37930,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.88",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37957,7 +37957,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.97",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -37985,7 +37985,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.100",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38013,7 +38013,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.119",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38080,7 +38080,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.121",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38109,7 +38109,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.270",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38137,7 +38137,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.124",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38165,7 +38165,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.125",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38235,7 +38235,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.456",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38264,7 +38264,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.129",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38329,7 +38329,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.130",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38357,7 +38357,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.131",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38388,7 +38388,7 @@ window.BANKMATO2 = [
   {
     "id": "2.132",
     "kap": 2,
-    "omr": "tillampningar_derivata",
+    "omr": "trig_derivator",
     "kurs": [
       "2c"
     ],
@@ -38416,7 +38416,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.138",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38444,7 +38444,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.139",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38472,7 +38472,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.173",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38502,7 +38502,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.179",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38530,7 +38530,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.180",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38559,7 +38559,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.271",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38588,7 +38588,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.181",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38616,7 +38616,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.182",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38645,7 +38645,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.183",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38673,7 +38673,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.457",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38702,7 +38702,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.184",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38768,7 +38768,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.185",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38795,7 +38795,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.186",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38823,7 +38823,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.187",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38889,7 +38889,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.188",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38959,7 +38959,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.204",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -38989,7 +38989,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.205",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39019,7 +39019,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.272",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39047,7 +39047,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.206",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39075,7 +39075,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.211",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39102,7 +39102,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.212",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39130,7 +39130,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.221",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39157,7 +39157,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.458",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39186,7 +39186,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.222",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39214,7 +39214,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.223",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39241,7 +39241,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.224",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39269,7 +39269,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.231",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39298,7 +39298,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.233",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39325,7 +39325,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.234",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39353,7 +39353,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.273",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39381,7 +39381,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.237",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39409,7 +39409,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.242",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39436,7 +39436,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.244",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39465,7 +39465,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.248",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39493,7 +39493,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.249",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39522,7 +39522,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.459",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39551,7 +39551,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.250",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39578,7 +39578,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.251",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39607,7 +39607,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.252",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39636,7 +39636,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.258",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39663,7 +39663,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.259",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39691,7 +39691,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.260",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39720,7 +39720,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.498",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39750,7 +39750,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.404",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39777,7 +39777,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.405",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39804,7 +39804,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.490",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39834,7 +39834,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.406",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39861,7 +39861,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.423",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39889,7 +39889,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.424",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39917,7 +39917,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.425",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39945,7 +39945,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.491",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -39976,7 +39976,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.523",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40006,7 +40006,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.524",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40035,7 +40035,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.525",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40064,7 +40064,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.526",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40094,7 +40094,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.527",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40124,7 +40124,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.528",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40153,7 +40153,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.529",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40183,7 +40183,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.530",
-    "kap": 2,
+    "kap": 3,
     "omr": "tillampningar_derivata",
     "kurs": [
       "2c"
@@ -40213,7 +40213,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.01",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40241,7 +40241,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.02",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40322,7 +40322,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.14",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40351,7 +40351,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.16",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40380,7 +40380,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.21",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40408,7 +40408,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.39",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40437,7 +40437,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.41",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40465,7 +40465,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.42",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40533,7 +40533,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.51",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40561,7 +40561,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.52",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40591,7 +40591,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.264",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40694,7 +40694,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.55",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40761,7 +40761,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.167",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40789,7 +40789,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.464",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40818,7 +40818,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.60",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40847,7 +40847,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.62",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40874,7 +40874,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.460",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40903,7 +40903,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.64",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40933,7 +40933,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.68",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -40962,7 +40962,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.77",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41029,7 +41029,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.78",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41110,7 +41110,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.168",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41138,7 +41138,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.465",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41167,7 +41167,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.466",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41196,7 +41196,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.86",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41223,7 +41223,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.265",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41313,7 +41313,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.90",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41403,7 +41403,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.96",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41499,7 +41499,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.98",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41528,7 +41528,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.99",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41557,7 +41557,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.103",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41585,7 +41585,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.486",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41615,7 +41615,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.105",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41696,7 +41696,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.106",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41778,7 +41778,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.109",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41873,7 +41873,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.461",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41902,7 +41902,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.111",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41967,7 +41967,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.166",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -41995,7 +41995,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.467",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42023,7 +42023,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.266",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42099,7 +42099,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.114",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42194,7 +42194,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.116",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42275,7 +42275,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.170",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42303,7 +42303,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.468",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42332,7 +42332,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.469",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42362,7 +42362,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.122",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42429,7 +42429,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.169",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42457,7 +42457,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.470",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42487,7 +42487,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.128",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42515,7 +42515,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.137",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42596,7 +42596,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.155",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42625,7 +42625,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.156",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42654,7 +42654,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.157",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42681,7 +42681,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.158",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42762,7 +42762,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.267",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42827,7 +42827,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.462",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42856,7 +42856,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.159",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42883,7 +42883,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.160",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42912,7 +42912,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.178",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42941,7 +42941,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.199",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42968,7 +42968,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.200",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -42995,7 +42995,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.201",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43022,7 +43022,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.202",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43050,7 +43050,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.203",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43116,7 +43116,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.213",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43144,7 +43144,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.219",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43171,7 +43171,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.268",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43248,7 +43248,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.220",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43275,7 +43275,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.226",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43303,7 +43303,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.232",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43331,7 +43331,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.236",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43360,7 +43360,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.463",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43389,7 +43389,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.240",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43471,7 +43471,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.241",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43499,7 +43499,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.471",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43529,7 +43529,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.472",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43559,7 +43559,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.245",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43588,7 +43588,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.253",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43670,7 +43670,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.254",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43699,7 +43699,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.261",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43728,7 +43728,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.407",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43755,7 +43755,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.487",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43785,7 +43785,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.408",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43812,7 +43812,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.414",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43840,7 +43840,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.415",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43868,7 +43868,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.416",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43896,7 +43896,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.496",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43937,7 +43937,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.420",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43965,7 +43965,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.421",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -43993,7 +43993,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.422",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44021,7 +44021,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.488",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44051,7 +44051,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.531",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44080,7 +44080,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.532",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44109,7 +44109,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.533",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44138,7 +44138,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.534",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44167,7 +44167,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.535",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44196,7 +44196,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.536",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44225,7 +44225,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.537",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44253,7 +44253,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "2.538",
-    "kap": 2,
+    "kap": 3,
     "omr": "grafer_asymptoter",
     "kurs": [
       "2c"
@@ -44282,7 +44282,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.03",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44376,7 +44376,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.06",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44470,7 +44470,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.09",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44564,7 +44564,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.12",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44658,7 +44658,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.14",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44752,7 +44752,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.16",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44832,7 +44832,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.23",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44926,7 +44926,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.141",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -44953,7 +44953,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.24",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45047,7 +45047,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.29",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45141,7 +45141,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.34",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45235,7 +45235,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.234",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45262,7 +45262,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.409",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45290,7 +45290,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.148",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45317,7 +45317,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.142",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45344,7 +45344,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.36",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45438,7 +45438,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.38",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45532,7 +45532,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.40",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45626,7 +45626,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.145",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45653,7 +45653,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.44",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45720,7 +45720,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.150",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45747,7 +45747,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.144",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45774,7 +45774,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.146",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45801,7 +45801,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.235",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45828,7 +45828,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.410",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45856,7 +45856,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.45",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -45950,7 +45950,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.47",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46044,7 +46044,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.48",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46072,7 +46072,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.60",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46166,7 +46166,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.67",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46195,7 +46195,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.68",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46289,7 +46289,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.72",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46383,7 +46383,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.75",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46477,7 +46477,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.143",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46504,7 +46504,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.149",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46531,7 +46531,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.147",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46558,7 +46558,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.236",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46585,7 +46585,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.411",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46613,7 +46613,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.82",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46707,7 +46707,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.85",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46801,7 +46801,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.86",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46881,7 +46881,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.88",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -46975,7 +46975,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.90",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47041,7 +47041,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.104",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47135,7 +47135,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.109",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47162,7 +47162,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.112",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47256,7 +47256,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.115",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47350,7 +47350,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.165",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47444,7 +47444,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.166",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47538,7 +47538,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.237",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47565,7 +47565,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.412",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47594,7 +47594,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.167",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47688,7 +47688,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.168",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47782,7 +47782,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.169",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47876,7 +47876,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.170",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -47970,7 +47970,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.171",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48064,7 +48064,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.172",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48158,7 +48158,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.173",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48252,7 +48252,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.174",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48346,7 +48346,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.175",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48440,7 +48440,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.176",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48534,7 +48534,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.238",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48563,7 +48563,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.413",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48592,7 +48592,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.188",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48621,7 +48621,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.190",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48715,7 +48715,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.192",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48742,7 +48742,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.199",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48769,7 +48769,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.204",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48863,7 +48863,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.205",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -48957,7 +48957,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.213",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49051,7 +49051,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.217",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49145,7 +49145,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.222",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49174,7 +49174,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.226",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49268,7 +49268,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.233",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49297,7 +49297,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.479",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49325,7 +49325,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.480",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49353,7 +49353,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.481",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49381,7 +49381,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.482",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49409,7 +49409,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.483",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49438,7 +49438,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.484",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49467,7 +49467,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.485",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49496,7 +49496,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.486",
-    "kap": 3,
+    "kap": 4,
     "omr": "integralberakning",
     "kurs": [
       "2c"
@@ -49525,7 +49525,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.01",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49552,7 +49552,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.04",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49632,7 +49632,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.07",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49659,7 +49659,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.11",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49754,7 +49754,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.460",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49783,7 +49783,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.18",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49810,7 +49810,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.414",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49838,7 +49838,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.20",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49867,7 +49867,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.22",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49947,7 +49947,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.239",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -49974,7 +49974,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.25",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50001,7 +50001,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.461",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50031,7 +50031,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.31",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50058,7 +50058,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.415",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50086,7 +50086,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.33",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50115,7 +50115,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.473",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50145,7 +50145,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.43",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50225,7 +50225,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.50",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50252,7 +50252,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.56",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50332,7 +50332,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.57",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50359,7 +50359,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.62",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50388,7 +50388,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.416",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50416,7 +50416,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.240",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50443,7 +50443,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.63",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50529,7 +50529,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.462",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50560,7 +50560,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.64",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50586,7 +50586,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.65",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50666,7 +50666,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.66",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50692,7 +50692,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.417",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50720,7 +50720,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.71",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50800,7 +50800,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.73",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50829,7 +50829,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.465",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50859,7 +50859,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.80",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50885,7 +50885,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.241",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50912,7 +50912,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.91",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50938,7 +50938,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.474",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50968,7 +50968,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.418",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -50996,7 +50996,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.92",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51022,7 +51022,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.98",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51051,7 +51051,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.100",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51131,7 +51131,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.114",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51197,7 +51197,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.157",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51224,7 +51224,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.419",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51252,7 +51252,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.163",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51279,7 +51279,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.242",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51306,7 +51306,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.177",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51333,7 +51333,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.463",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51363,7 +51363,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.178",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51390,7 +51390,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.179",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51419,7 +51419,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.466",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51449,7 +51449,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.420",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51478,7 +51478,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.187",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51504,7 +51504,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.191",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51530,7 +51530,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.193",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51557,7 +51557,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.464",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51587,7 +51587,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.198",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51616,7 +51616,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.206",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51643,7 +51643,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.243",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51670,7 +51670,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.421",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51699,7 +51699,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.211",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51728,7 +51728,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.212",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51755,7 +51755,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.216",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51784,7 +51784,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.467",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51814,7 +51814,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.218",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51841,7 +51841,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.224",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51868,7 +51868,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.422",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51897,7 +51897,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.227",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51924,7 +51924,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.475",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51954,7 +51954,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.232",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -51981,7 +51981,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.404",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52009,7 +52009,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.405",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52037,7 +52037,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.468",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52074,7 +52074,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.487",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52102,7 +52102,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.488",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52130,7 +52130,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.489",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52158,7 +52158,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.490",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52186,7 +52186,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.491",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52215,7 +52215,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.492",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52244,7 +52244,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.493",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52273,7 +52273,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.494",
-    "kap": 3,
+    "kap": 4,
     "omr": "area_integraler",
     "kurs": [
       "2c"
@@ -52302,7 +52302,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.08",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52384,7 +52384,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.10",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52451,7 +52451,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.17",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52517,7 +52517,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.26",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52546,7 +52546,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.27",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52574,7 +52574,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.35",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52601,7 +52601,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.37",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52628,7 +52628,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.51",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52710,7 +52710,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.423",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52739,7 +52739,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.244",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52768,7 +52768,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.469",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52798,7 +52798,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.55",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52863,7 +52863,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.61",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52892,7 +52892,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.69",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52921,7 +52921,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.70",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -52949,7 +52949,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.76",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53021,7 +53021,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.476",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53051,7 +53051,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.79",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53078,7 +53078,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.81",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53106,7 +53106,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.83",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53174,7 +53174,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.424",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53203,7 +53203,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.245",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53232,7 +53232,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.84",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53261,7 +53261,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.87",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53291,7 +53291,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.89",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53318,7 +53318,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.94",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53399,7 +53399,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.95",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53429,7 +53429,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.105",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53458,7 +53458,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.106",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53487,7 +53487,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.425",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53516,7 +53516,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.117",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53545,7 +53545,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.470",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53576,7 +53576,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.246",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53606,7 +53606,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.120",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53694,7 +53694,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.121",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53724,7 +53724,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.123",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53789,7 +53789,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.125",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53819,7 +53819,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.135",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53847,7 +53847,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.136",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53937,7 +53937,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.426",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53966,7 +53966,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.137",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -53995,7 +53995,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.477",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54026,7 +54026,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.138",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54107,7 +54107,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.139",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54172,7 +54172,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.247",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54238,7 +54238,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.471",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54269,7 +54269,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.140",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54350,7 +54350,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.182",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54379,7 +54379,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.183",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54408,7 +54408,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.184",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54435,7 +54435,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.427",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54464,7 +54464,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.189",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54493,7 +54493,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.195",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54521,7 +54521,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.196",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54548,7 +54548,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.200",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54576,7 +54576,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.248",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54604,7 +54604,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.472",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54635,7 +54635,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.202",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54664,7 +54664,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.209",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54734,7 +54734,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.210",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54763,7 +54763,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.214",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54792,7 +54792,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.428",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54821,7 +54821,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.221",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54850,7 +54850,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.225",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54881,7 +54881,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.230",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54909,7 +54909,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.231",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -54979,7 +54979,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.401",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55006,7 +55006,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.402",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55033,7 +55033,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.403",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55060,7 +55060,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.478",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55091,7 +55091,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.495",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55121,7 +55121,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.496",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55151,7 +55151,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.497",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55181,7 +55181,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.498",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55211,7 +55211,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.499",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55241,7 +55241,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.500",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55271,7 +55271,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.501",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55300,7 +55300,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.502",
-    "kap": 3,
+    "kap": 4,
     "omr": "integral_tillampningar",
     "kurs": [
       "2c"
@@ -55330,7 +55330,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.02",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55396,7 +55396,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.05",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55461,7 +55461,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.13",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55490,7 +55490,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.444",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55518,7 +55518,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.15",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55613,7 +55613,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.19",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55641,7 +55641,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.445",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55669,7 +55669,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.30",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55734,7 +55734,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.254",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55801,7 +55801,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.32",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55880,7 +55880,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.446",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55908,7 +55908,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.39",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -55973,7 +55973,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.41",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56039,7 +56039,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.53",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56066,7 +56066,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.447",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56094,7 +56094,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.54",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56122,7 +56122,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.77",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56150,7 +56150,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.448",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56178,7 +56178,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.255",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56243,7 +56243,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.93",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56309,7 +56309,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.96",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56390,7 +56390,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.449",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56418,7 +56418,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.97",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56499,7 +56499,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.99",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56564,7 +56564,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.102",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56629,7 +56629,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.450",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56657,7 +56657,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.103",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56722,7 +56722,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.256",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56750,7 +56750,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.451",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56778,7 +56778,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.110",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56806,7 +56806,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.118",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56835,7 +56835,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.119",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56916,7 +56916,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.452",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -56944,7 +56944,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.128",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57025,7 +57025,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.129",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57091,7 +57091,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.453",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57119,7 +57119,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.130",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57147,7 +57147,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.257",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57214,7 +57214,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.131",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57295,7 +57295,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.454",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57323,7 +57323,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.132",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57391,7 +57391,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.133",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57472,7 +57472,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.134",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57554,7 +57554,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.455",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57582,7 +57582,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.158",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57648,7 +57648,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.159",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57678,7 +57678,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.456",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57707,7 +57707,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.258",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57772,7 +57772,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.160",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57802,7 +57802,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.161",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57832,7 +57832,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.457",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57861,7 +57861,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.162",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57890,7 +57890,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.185",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57918,7 +57918,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.201",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57946,7 +57946,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.458",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -57975,7 +57975,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.223",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58005,7 +58005,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.406",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58033,7 +58033,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.459",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58062,7 +58062,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.407",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58090,7 +58090,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.408",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58118,7 +58118,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.503",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58147,7 +58147,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.504",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58176,7 +58176,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.505",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58205,7 +58205,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.506",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58234,7 +58234,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.507",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58263,7 +58263,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.508",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58292,7 +58292,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.509",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58321,7 +58321,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.510",
-    "kap": 3,
+    "kap": 4,
     "omr": "sannolikhetsintegraler",
     "kurs": [
       "2c"
@@ -58350,7 +58350,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.21",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58378,7 +58378,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.28",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58406,7 +58406,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.42",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58433,7 +58433,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.429",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58461,7 +58461,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.46",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58489,7 +58489,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.49",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58517,7 +58517,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.52",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58545,7 +58545,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.430",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58573,7 +58573,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.155",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58602,7 +58602,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.249",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58630,7 +58630,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.58",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58658,7 +58658,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.431",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58686,7 +58686,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.59",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58715,7 +58715,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.74",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58796,7 +58796,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.78",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58823,7 +58823,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.432",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58851,7 +58851,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.101",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58879,7 +58879,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.107",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58906,7 +58906,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.433",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58934,7 +58934,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.250",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58962,7 +58962,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.108",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -58990,7 +58990,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.111",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59017,7 +59017,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.434",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59045,7 +59045,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.113",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59110,7 +59110,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.152",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59139,7 +59139,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.153",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59168,7 +59168,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.435",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59196,7 +59196,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.116",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59277,7 +59277,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.122",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59305,7 +59305,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.251",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59333,7 +59333,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.436",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59361,7 +59361,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.124",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59442,7 +59442,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.151",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59471,7 +59471,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.154",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59500,7 +59500,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.437",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59528,7 +59528,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.126",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59556,7 +59556,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.127",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59583,7 +59583,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.156",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59664,7 +59664,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.438",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59692,7 +59692,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.164",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59720,7 +59720,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.252",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59748,7 +59748,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.180",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59776,7 +59776,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.439",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59805,7 +59805,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.181",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59833,7 +59833,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.186",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59860,7 +59860,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.440",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59889,7 +59889,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.194",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59917,7 +59917,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.197",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59945,7 +59945,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.203",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -59973,7 +59973,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.441",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60002,7 +60002,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.253",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60030,7 +60030,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.207",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60058,7 +60058,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.208",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60086,7 +60086,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.442",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60115,7 +60115,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.215",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60143,7 +60143,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.219",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60171,7 +60171,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.220",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60199,7 +60199,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.443",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60228,7 +60228,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.228",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60256,7 +60256,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.229",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60284,7 +60284,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.511",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60312,7 +60312,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.512",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60340,7 +60340,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.513",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60369,7 +60369,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.514",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60398,7 +60398,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.515",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60427,7 +60427,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.516",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60456,7 +60456,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.517",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60485,7 +60485,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "3.518",
-    "kap": 3,
+    "kap": 4,
     "omr": "rotationsvolymer",
     "kurs": [
       "2c"
@@ -60513,7 +60513,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.01",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -60607,7 +60607,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.02",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -60701,7 +60701,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.07",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -60795,7 +60795,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.08",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -60889,7 +60889,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.14",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -60915,7 +60915,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.15",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61009,7 +61009,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.22",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61103,7 +61103,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.23",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61197,7 +61197,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.26",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61277,7 +61277,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.27",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61371,7 +61371,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.28",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61451,7 +61451,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.35",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61531,7 +61531,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.37",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61558,7 +61558,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.414",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61587,7 +61587,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.47",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61681,7 +61681,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.50",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61761,7 +61761,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.57",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61855,7 +61855,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.62",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61883,7 +61883,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.71",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -61977,7 +61977,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.73",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62071,7 +62071,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.77",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62165,7 +62165,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.83",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62259,7 +62259,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.86",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62285,7 +62285,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.94",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62365,7 +62365,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.450",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62406,7 +62406,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.96",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62500,7 +62500,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.99",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62594,7 +62594,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.415",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62623,7 +62623,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.119",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62717,7 +62717,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.122",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62811,7 +62811,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.123",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -62905,7 +62905,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.132",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63000,7 +63000,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.134",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63094,7 +63094,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.135",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63188,7 +63188,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.136",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63283,7 +63283,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.137",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63311,7 +63311,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.185",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63405,7 +63405,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.186",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63499,7 +63499,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.187",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63593,7 +63593,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.188",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63688,7 +63688,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.189",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63782,7 +63782,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.416",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63811,7 +63811,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.190",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63905,7 +63905,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.191",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -63999,7 +63999,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.192",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64093,7 +64093,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.193",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64187,7 +64187,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.194",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64281,7 +64281,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.195",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64375,7 +64375,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.196",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64470,7 +64470,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.223",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64564,7 +64564,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.224",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64658,7 +64658,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.225",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64752,7 +64752,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.226",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64846,7 +64846,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.227",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -64940,7 +64940,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.228",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65034,7 +65034,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.417",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65063,7 +65063,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.229",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65157,7 +65157,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.230",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65251,7 +65251,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.231",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65345,7 +65345,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.232",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65439,7 +65439,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.233",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65533,7 +65533,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.234",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65627,7 +65627,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.235",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65721,7 +65721,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.236",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65815,7 +65815,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.237",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -65909,7 +65909,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.238",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66003,7 +66003,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.239",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66030,7 +66030,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.240",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66057,7 +66057,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.448",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66097,7 +66097,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.418",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66126,7 +66126,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.241",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66153,7 +66153,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.242",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66180,7 +66180,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.243",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66207,7 +66207,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.244",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66234,7 +66234,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.245",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66261,7 +66261,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.246",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66288,7 +66288,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.449",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66329,7 +66329,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.273",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66423,7 +66423,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.274",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66503,7 +66503,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.287",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66597,7 +66597,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.295",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66691,7 +66691,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.451",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66721,7 +66721,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.300",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66815,7 +66815,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.307",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66909,7 +66909,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.465",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66937,7 +66937,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.466",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66965,7 +66965,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.467",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -66993,7 +66993,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.468",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -67022,7 +67022,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.469",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -67051,7 +67051,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.470",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -67079,7 +67079,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.471",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -67108,7 +67108,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.472",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplex_aritmetik",
     "kurs": [
       "2c"
@@ -67137,7 +67137,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.06",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67166,7 +67166,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.10",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67241,7 +67241,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.17",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67270,7 +67270,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.18",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67298,7 +67298,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.21",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67327,7 +67327,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.419",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67355,7 +67355,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.29",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67384,7 +67384,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.31",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67449,7 +67449,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.315",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67476,7 +67476,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.36",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67571,7 +67571,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.420",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67599,7 +67599,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.151",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67628,7 +67628,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.152",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67657,7 +67657,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.38",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67735,7 +67735,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.155",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67764,7 +67764,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.42",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67859,7 +67859,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.421",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67887,7 +67887,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.63",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67915,7 +67915,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.316",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -67943,7 +67943,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.66",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68008,7 +68008,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.442",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68049,7 +68049,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.153",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68078,7 +68078,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.67",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68105,7 +68105,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.422",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68133,7 +68133,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.78",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68161,7 +68161,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.92",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68190,7 +68190,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.97",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68272,7 +68272,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.100",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68301,7 +68301,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.423",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68329,7 +68329,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.104",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68410,7 +68410,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.317",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68475,7 +68475,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.113",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68542,7 +68542,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.124",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68570,7 +68570,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.154",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68599,7 +68599,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.424",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68627,7 +68627,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.133",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68722,7 +68722,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.161",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68803,7 +68803,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.164",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68831,7 +68831,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.219",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68858,7 +68858,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.443",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68899,7 +68899,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.425",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68927,7 +68927,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.318",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68955,7 +68955,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.220",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -68983,7 +68983,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.221",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69010,7 +69010,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.222",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69077,7 +69077,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.271",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69105,7 +69105,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.426",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69134,7 +69134,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.272",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69163,7 +69163,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.282",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69191,7 +69191,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.283",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69219,7 +69219,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.319",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69247,7 +69247,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.289",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69275,7 +69275,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.427",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69304,7 +69304,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.294",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69388,7 +69388,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.299",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69416,7 +69416,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.302",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69444,7 +69444,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.306",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69472,7 +69472,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.428",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69501,7 +69501,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.308",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69596,7 +69596,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.314",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69625,7 +69625,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.412",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69653,7 +69653,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.413",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69681,7 +69681,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.444",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69722,7 +69722,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.473",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69750,7 +69750,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.474",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69778,7 +69778,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.475",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69806,7 +69806,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.476",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69834,7 +69834,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.477",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69863,7 +69863,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.478",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69891,7 +69891,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.479",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69920,7 +69920,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.480",
-    "kap": 4,
+    "kap": 5,
     "omr": "komplexa_talplanet",
     "kurs": [
       "2c"
@@ -69949,7 +69949,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.04",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70013,7 +70013,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.09",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70107,7 +70107,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.12",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70187,7 +70187,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.20",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70213,7 +70213,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.24",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70293,7 +70293,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.34",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70321,7 +70321,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.39",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70415,7 +70415,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.48",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70509,7 +70509,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.51",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70587,7 +70587,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.53",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70682,7 +70682,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.55",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70776,7 +70776,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.320",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70802,7 +70802,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.56",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70883,7 +70883,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.60",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70912,7 +70912,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.438",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70946,7 +70946,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.148",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -70973,7 +70973,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.61",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71053,7 +71053,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.64",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71134,7 +71134,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.69",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71161,7 +71161,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.76",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71187,7 +71187,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.85",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71213,7 +71213,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.429",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71242,7 +71242,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.87",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71337,7 +71337,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.88",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71418,7 +71418,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.105",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71485,7 +71485,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.321",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71512,7 +71512,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.107",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71593,7 +71593,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.114",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71674,7 +71674,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.117",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71754,7 +71754,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.127",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71781,7 +71781,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.439",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71810,7 +71810,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.146",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71837,7 +71837,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.138",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71864,7 +71864,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.139",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71958,7 +71958,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.140",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -71985,7 +71985,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.150",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72012,7 +72012,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.147",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72039,7 +72039,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.149",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72066,7 +72066,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.322",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72092,7 +72092,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.162",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72118,7 +72118,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.197",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72212,7 +72212,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.198",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72306,7 +72306,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.199",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72400,7 +72400,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.430",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72429,7 +72429,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.200",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72509,7 +72509,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.201",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72589,7 +72589,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.202",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72684,7 +72684,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.203",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72778,7 +72778,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.204",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72872,7 +72872,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.205",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -72938,7 +72938,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.206",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73019,7 +73019,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.323",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73045,7 +73045,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.207",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73126,7 +73126,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.208",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73207,7 +73207,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.247",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73234,7 +73234,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.248",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73261,7 +73261,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.249",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73288,7 +73288,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.250",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73315,7 +73315,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.251",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73342,7 +73342,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.252",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73369,7 +73369,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.253",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73395,7 +73395,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.254",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73421,7 +73421,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.255",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73447,7 +73447,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.431",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73476,7 +73476,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.324",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73503,7 +73503,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.256",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73529,7 +73529,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.257",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73555,7 +73555,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.258",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73581,7 +73581,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.275",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73608,7 +73608,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.276",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73634,7 +73634,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.284",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73661,7 +73661,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.288",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73755,7 +73755,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.296",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73849,7 +73849,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.301",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -73943,7 +73943,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.309",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74037,7 +74037,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.310",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74063,7 +74063,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.405",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74092,7 +74092,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.406",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74119,7 +74119,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.407",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74147,7 +74147,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.440",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74187,7 +74187,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.408",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74215,7 +74215,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.409",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74243,7 +74243,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.452",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74284,7 +74284,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.410",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74312,7 +74312,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.411",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74340,7 +74340,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.441",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74377,7 +74377,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.481",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74406,7 +74406,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.482",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74436,7 +74436,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.483",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74466,7 +74466,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.484",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74496,7 +74496,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.485",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74525,7 +74525,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.486",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74555,7 +74555,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.487",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74584,7 +74584,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.488",
-    "kap": 4,
+    "kap": 5,
     "omr": "polar_exponentiell",
     "kurs": [
       "2c"
@@ -74613,7 +74613,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.03",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74712,7 +74712,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.156",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74738,7 +74738,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.13",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74765,7 +74765,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.19",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74792,7 +74792,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.32",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74819,7 +74819,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.33",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74845,7 +74845,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.43",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74871,7 +74871,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.52",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74898,7 +74898,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.68",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -74992,7 +74992,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.325",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75018,7 +75018,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.72",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75044,7 +75044,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.75",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75124,7 +75124,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.157",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75150,7 +75150,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.81",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75176,7 +75176,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.432",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75205,7 +75205,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.159",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75231,7 +75231,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.82",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75260,7 +75260,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.91",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75340,7 +75340,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.102",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75406,7 +75406,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.326",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75433,7 +75433,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.106",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75462,7 +75462,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.158",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75488,7 +75488,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.109",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75514,7 +75514,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.110",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75540,7 +75540,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.111",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75634,7 +75634,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.160",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75660,7 +75660,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.112",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75686,7 +75686,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.116",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75780,7 +75780,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.125",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75806,7 +75806,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.327",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75872,7 +75872,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.433",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75901,7 +75901,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.130",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75927,7 +75927,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.163",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -75953,7 +75953,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.209",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76033,7 +76033,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.210",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76113,7 +76113,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.211",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76139,7 +76139,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.212",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76165,7 +76165,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.213",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76191,7 +76191,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.214",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76217,7 +76217,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.215",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76243,7 +76243,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.328",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76269,7 +76269,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.216",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76295,7 +76295,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.217",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76321,7 +76321,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.218",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76347,7 +76347,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.259",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76373,7 +76373,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.260",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76399,7 +76399,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.434",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76428,7 +76428,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.261",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76454,7 +76454,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.262",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76480,7 +76480,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.263",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76506,7 +76506,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.329",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76533,7 +76533,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.264",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76559,7 +76559,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.277",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76585,7 +76585,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.278",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76611,7 +76611,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.285",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76639,7 +76639,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.290",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76733,7 +76733,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.291",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76759,7 +76759,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.297",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76785,7 +76785,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.303",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76811,7 +76811,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.311",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76837,7 +76837,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.489",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76865,7 +76865,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.490",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76893,7 +76893,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.491",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76922,7 +76922,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.492",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76951,7 +76951,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.493",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -76981,7 +76981,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.494",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -77009,7 +77009,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.495",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -77038,7 +77038,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.496",
-    "kap": 4,
+    "kap": 5,
     "omr": "potenser_rotter",
     "kurs": [
       "2c"
@@ -77066,7 +77066,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.05",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77095,7 +77095,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.11",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77123,7 +77123,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.16",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77149,7 +77149,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.25",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77177,7 +77177,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.30",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77203,7 +77203,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.40",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77229,7 +77229,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.41",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77257,7 +77257,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.44",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77402,7 +77402,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.45",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77469,7 +77469,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.46",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77497,7 +77497,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.49",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77524,7 +77524,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.54",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77551,7 +77551,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.58",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77632,7 +77632,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.330",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77658,7 +77658,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.59",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77684,7 +77684,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.65",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77711,7 +77711,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.70",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77806,7 +77806,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.74",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77832,7 +77832,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.79",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77858,7 +77858,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.80",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77886,7 +77886,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.84",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77950,7 +77950,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.89",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -77978,7 +77978,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.435",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78007,7 +78007,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.90",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78075,7 +78075,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.93",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78167,7 +78167,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.95",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78261,7 +78261,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.98",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78289,7 +78289,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.101",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78384,7 +78384,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.331",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78460,7 +78460,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.103",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78488,7 +78488,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.108",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78570,7 +78570,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.115",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78650,7 +78650,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.118",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78744,7 +78744,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.120",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78772,7 +78772,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.121",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78852,7 +78852,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.126",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78881,7 +78881,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.128",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78908,7 +78908,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.445",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -78949,7 +78949,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.129",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79030,7 +79030,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.131",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79112,7 +79112,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.141",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79138,7 +79138,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.142",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79232,7 +79232,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.143",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79258,7 +79258,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.332",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79284,7 +79284,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.144",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79391,7 +79391,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.145",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79521,7 +79521,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.436",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79550,7 +79550,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.165",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79644,7 +79644,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.166",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79670,7 +79670,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.167",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79764,7 +79764,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.168",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79844,7 +79844,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.169",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79871,7 +79871,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.170",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -79939,7 +79939,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.171",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80005,7 +80005,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.172",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80031,7 +80031,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.173",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80058,7 +80058,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.174",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80138,7 +80138,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.175",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80166,7 +80166,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.333",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80192,7 +80192,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.176",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80220,7 +80220,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.177",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80247,7 +80247,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.178",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80275,7 +80275,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.179",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80341,7 +80341,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.180",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80367,7 +80367,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.181",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80433,7 +80433,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.182",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80461,7 +80461,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.183",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80487,7 +80487,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.184",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80515,7 +80515,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.265",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80595,7 +80595,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.437",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80624,7 +80624,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.266",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80650,7 +80650,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.267",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80677,7 +80677,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.268",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80705,7 +80705,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.334",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80731,7 +80731,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.269",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80757,7 +80757,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.270",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80785,7 +80785,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.279",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80865,7 +80865,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.280",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80892,7 +80892,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.281",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80920,7 +80920,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.286",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -80947,7 +80947,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.292",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81097,7 +81097,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.293",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81123,7 +81123,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.298",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81150,7 +81150,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.446",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81189,7 +81189,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.304",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81281,7 +81281,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.305",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81309,7 +81309,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.312",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81401,7 +81401,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.313",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81429,7 +81429,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.401",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81456,7 +81456,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.402",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81483,7 +81483,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.403",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81511,7 +81511,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.404",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81538,7 +81538,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.447",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81579,7 +81579,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.453",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81608,7 +81608,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.454",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81637,7 +81637,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.455",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81667,7 +81667,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.456",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81696,7 +81696,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.457",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81725,7 +81725,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.458",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81754,7 +81754,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.459",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81784,7 +81784,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.460",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81813,7 +81813,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.461",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81843,7 +81843,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.462",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81872,7 +81872,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.463",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81902,7 +81902,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.464",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81932,7 +81932,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.497",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81960,7 +81960,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.498",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -81988,7 +81988,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.499",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -82016,7 +82016,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.500",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -82045,7 +82045,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.501",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -82074,7 +82074,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.502",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -82103,7 +82103,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.503",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"
@@ -82132,7 +82132,7 @@ window.BANKMATO2 = [
   },
   {
     "id": "4.504",
-    "kap": 4,
+    "kap": 5,
     "omr": "polynom_komplexa",
     "kurs": [
       "2c"

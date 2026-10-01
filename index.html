@@ -509,6 +509,20 @@ a{color:inherit}
 .toppnotis .btn{flex:none}
 
 .flikar{display:flex;gap:7px;flex-wrap:wrap}
+.nyhet-kort{width:min(520px,100%)}
+.nyhet-topp{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.nyhet-etikett{font-size:12px;font-weight:700;color:var(--gold2);background:var(--goldSoft);border-radius:99px;padding:4px 11px}
+.nyhet-kort h2{font-size:clamp(22px,4vw,27px);letter-spacing:-.035em;line-height:1.15;margin:0 0 10px}
+.nyhet-ingress{margin:0 0 18px;font-family:var(--read);font-size:15px;line-height:1.55;color:var(--ink2)}
+.nyhet-lista{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:14px}
+.nyhet-lista li{display:grid;grid-template-columns:34px minmax(0,1fr);gap:12px;align-items:start;font-family:var(--read);font-size:14px;line-height:1.5;color:var(--ink2)}
+.nyhet-lista b{color:var(--ink);font-family:var(--ui)}
+.nyhet-ikon{width:34px;height:34px;border-radius:11px;display:grid;place-items:center;background:var(--accSoft);color:var(--accInk)}
+.nyhet-ikon svg{width:19px;height:19px}
+.nyklass{margin-top:16px;padding-top:14px;border-top:1px solid var(--hair);display:grid;gap:8px}
+.nyklass label{font-size:13px;font-weight:600;color:var(--ink2)}
+.nyklass-rad{display:flex;gap:8px;flex-wrap:wrap}
+.nyklass-rad .admin-sok{min-width:0;flex:1 1 180px}
 .klassrad{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:-4px 0 16px;font-size:13.5px;color:var(--ink2)}
 .toppvy{display:inline-flex;padding:3px;border-radius:12px;background:var(--surface2);border:1px solid var(--hair);margin-bottom:12px}
 .toppvy button{padding:7px 16px;border-radius:9px;font-size:13px;font-weight:650;color:var(--ink3)}
@@ -1672,12 +1686,32 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .pt-uppn{font-size:12px;font-weight:600;color:var(--ink3);font-variant-numeric:tabular-nums;display:flex;gap:8px;align-items:baseline}
 .pt-uppxp{font-style:normal;font-weight:700;color:var(--gold2)}
 .pt-upp-annan{font-size:13px;color:var(--ink3)}
+@media (max-width:620px){
+  .pt-uppdrag li{grid-template-columns:18px minmax(0,1fr) auto;row-gap:4px}
+  .pt-uppdrag li .pt-upptext{grid-column:2 / -1}
+  .pt-uppdrag li .pt-uppn{grid-column:2}
+  .pt-uppdrag li .pt-uppgo{grid-column:3;justify-self:end}
+}
 .pt-uppdrag li.klar .pt-uppxp{opacity:.5}
 .pt-uppgo{font-size:12.5px;font-weight:650;color:var(--accInk);background:var(--accSoft);border-radius:9px;padding:4px 10px}
 .pt-uppgo:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+@media (max-width:520px){
+  .pt-uppdrag li{grid-template-columns:18px minmax(0,1fr) auto;grid-template-areas:"bock text text" ". n go";row-gap:4px}
+  .pt-uppdrag li .pt-bock{grid-area:bock}
+  .pt-uppdrag li .pt-upptext{grid-area:text}
+  .pt-uppdrag li .pt-uppn{grid-area:n}
+  .pt-uppdrag li .pt-uppgo{grid-area:go;justify-self:end}
+}
 .pt-upp-chip{font-size:12px;font-weight:600;color:var(--ink3);background:var(--surface2);border:1px solid var(--hair);border-radius:99px;padding:3px 9px;white-space:nowrap}
 .pt-upp-chip.klar{color:var(--good);border-color:color-mix(in srgb,var(--good) 35%,transparent)}
 .tmlista{display:grid}
+.tmdet summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:10px;margin:0}
+.tmdet summary::-webkit-details-marker{display:none}
+.tmdet summary h2{flex:1}
+.tmdet summary:focus-visible{outline:2px solid var(--acc);outline-offset:4px;border-radius:8px}
+.tmdet-antal{font-size:12px;font-weight:600;color:var(--ink3)}
+.tmdet[open] summary .mu-chev{transform:rotate(225deg) translate(-2px,-2px)}
+.tmdet[open] summary{margin-bottom:12px}
 .tmgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
 .tmgrid .tm.tm-kort{padding:16px 18px;align-content:start}
 .dash.muduo{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:26px}
@@ -1715,11 +1749,39 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
     inset 0 1px 0 var(--specular);
   padding:18px 19px;margin:0 0 23px;
 }
-.pt:before{
-  content:"";position:absolute;left:0;top:17px;bottom:17px;width:3px;border-radius:0 3px 3px 0;
-  background:var(--acc);
+.pt:before{display:none}
+/* Den personliga tränaren: tonad yta och accentkant, så att kortet inte
+   förväxlas med de vita områdeskorten. */
+.pt{
+  border-color:color-mix(in srgb,var(--acc) 34%,transparent);
+  background:
+    radial-gradient(120% 140% at 0% 0%,color-mix(in srgb,var(--acc) 13%,transparent) 0%,transparent 55%),
+    linear-gradient(180deg,color-mix(in srgb,var(--acc) 5%,var(--surface)),var(--surface));
+  border-radius:24px;padding:20px 22px;
 }
-.pt.klart:before{background:var(--good)}
+.pt.klart{border-color:color-mix(in srgb,var(--good) 34%,transparent)}
+.pt-avatar{
+  width:50px;height:50px;border-radius:50%;flex:none;display:grid;place-items:center;color:#fff;
+  background:linear-gradient(145deg,var(--acc),var(--acc2));
+  box-shadow:0 6px 16px -6px color-mix(in srgb,var(--acc) 70%,transparent),inset 0 1px 0 rgba(255,255,255,.35);
+}
+.pt-avatar svg{width:25px;height:25px}
+.pt-avatar.liten{width:38px;height:38px}
+.pt-avatar.liten svg{width:20px;height:20px}
+.pt.klart .pt-avatar{background:linear-gradient(145deg,var(--good),color-mix(in srgb,var(--good) 70%,#000))}
+.pt-rek{display:block;margin-top:6px;font-size:13px;color:var(--ink2);font-family:var(--read)}
+.pt-titel h2{display:flex;align-items:center;gap:8px;font-size:23px !important;margin-top:1px !important}
+.pt-passikon{display:inline-grid;place-items:center;color:var(--accInk)}
+.pt-passikon svg{width:20px;height:20px}
+.pt-bubbla{
+  position:relative;display:inline-block;margin:14px 0 0 64px !important;padding:10px 14px;
+  background:var(--surface);border:1px solid var(--hair);border-radius:4px 14px 14px 14px;
+  box-shadow:0 1px 2px rgba(11,33,51,.05);
+}
+.pt-bubbla:before{content:"";position:absolute;left:-7px;top:-1px;width:12px;height:12px;background:var(--surface);
+  border-left:1px solid var(--hair);border-top:1px solid var(--hair);transform:skewX(35deg);border-radius:2px 0 0 0}
+@media (max-width:620px){.pt-bubbla{margin-left:0 !important}.pt-bubbla:before{display:none}}
+.pt-liten{border-radius:20px !important}
 .pt:after{display:none}
 .pt-huvud{position:relative;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .pt-ikon{
@@ -2021,6 +2083,7 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .aklass summary{display:flex;align-items:center;gap:10px;padding:10px 0;cursor:pointer;list-style:none}
 .aklass summary::-webkit-details-marker{display:none}
 .aklass summary b{font-size:14px}
+.aklass-skapare{margin:0 0 6px;font-size:12px;color:var(--ink3)}
 .aklass-antal{margin-left:auto;font-size:12px;color:var(--ink3);font-weight:600}
 .aklass-verktyg{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:4px 0 10px;border-bottom:1px solid var(--hair);margin-bottom:4px}
 .admin-sok.aklass-ordning{flex:0 0 80px;min-width:0}
@@ -3483,6 +3546,14 @@ async function oppnaKlassval(){
           <span class="valnamn">${esc(k.namn)}</span>
           ${k.larare?`<span class="valstate">För lärare</span>`:""}
         </button>`).join("")}</div>`:`<div class="empty">Det finns inga klasser än.</div>`}
+      <div class="nyklass">
+        <label for="nyklass-namn">Finns inte din klass med? Skapa den.</label>
+        <div class="nyklass-rad">
+          <input class="admin-sok" id="nyklass-namn" maxlength="30" placeholder="Klassens namn, t.ex. TE23B"
+            onkeydown="if(event.key==='Enter')skapaKlass()">
+          <button class="btn sm" onclick="skapaKlass()">Skapa och gå med</button>
+        </div>
+      </div>
       <div class="modal-fot">${min?`<button class="btn quiet sm" onclick="valjKlass(null)">Lämna klassen</button>`:""}<span class="spacer"></span>
         <button class="btn" onclick="stangKlassval()">Stäng</button></div>
     </div>`;
@@ -3507,6 +3578,24 @@ async function valjKlass(id){
   toast(state.minKlass?`Du är med i ${state.minKlass.namn}.`:"Du är inte med i någon klass nu.");
   if(state.view==="topplista") oppnaTopplista(state.toppSort,false);
 }
+async function skapaKlass(){
+  const namn=(document.getElementById("nyklass-namn")?.value||"").trim();
+  if(!namn) return;
+  const svar=await klassRpc("kg_skapa_klass",{p_namn:namn});
+  if(!svar || svar.saknas){ toast(svar?.saknas?"Det går inte att skapa klasser än.":"Kunde inte skapa klassen just nu."); return; }
+  if(!svar.ok){
+    const fel={namn:"Namnet ska vara 2–30 tecken: bokstäver, siffror, mellanslag och - _ . ( ).",
+      namn_upptaget:"Den klassen finns redan. Välj den i listan.",
+      for_manga:"Du har redan skapat en klass den här veckan.",
+      for_tidigt:`Du kan byta klass igen ${svar.tidigast?new Date(svar.tidigast).toLocaleDateString("sv-SE",{day:"numeric",month:"long"}):"om en vecka"}.`,
+      ej_inloggad:"Logga in för att skapa en klass."}[svar.code];
+    toast(fel||"Kunde inte skapa klassen."); return;
+  }
+  await laddaMinKlass();
+  stangKlassval();
+  toast(`Klassen ${svar.klass?.namn||namn} är skapad och du är med i den.`);
+  if(state.view==="topplista") oppnaTopplista(state.toppSort,false);
+}
 async function hamtaKlasstopplista(period){
   const d=await klassRpc("topplista_klasser",{p_period:period},true);
   if(!d) return null;
@@ -3527,6 +3616,50 @@ async function vaxlaKlassElever(id){
     : `<ol class="klasselever">${rader.map((r,i)=>`<li class="${profile.namn&&r.namn===profile.namn?"jag":""}">
         <span class="plats">${i+1}</span><span class="knamn">${esc(r.namn)}</span>
         <span class="kuppg">${Number(r.uppgifter)||0} uppg.</span><span class="kxp">${Number(r.xp)||0} XP</span></li>`).join("")}</ol>`;
+}
+
+/* ===== Nyheter =====
+   Visas en gång per konto efter inloggning. "Sett" sparas i profilen så
+   att rutan inte dyker upp igen på en annan enhet. */
+async function visaNyhetKlasser(){
+  if(!MOLN_PA() || !session || profile.nyheter?.klasser2026) return;
+  await laddaMinKlass();
+  if(state.minKlass===false) return;            // klasserna är inte installerade
+  profile.nyheter={...(profile.nyheter||{}),klasser2026:Date.now()};
+  saveProfile();
+  const harKlass=!!state.minKlass;
+  const ikon=d=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+  document.getElementById("nyhet")?.remove();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="nyhet";
+  el.innerHTML=`<div class="modal-kort nyhet-kort" role="dialog" aria-modal="true" aria-labelledby="nyhet-rubrik">
+      <div class="nyhet-topp">
+        <span class="nyhet-etikett">Nyhet</span>
+        <button class="iconbtn" onclick="stangNyhet()" aria-label="Stäng">✕</button>
+      </div>
+      <h2 id="nyhet-rubrik">Nu kan du tävla med din klass</h2>
+      <p class="nyhet-ingress">Välj vilken klass du går i, så räknas din XP även för klassen. Finns inte din klass med kan du skapa den själv. På topplistan finns en ny flik där klasserna möts.</p>
+      <ul class="nyhet-lista">
+        <li><span class="nyhet-ikon">${ikon('<circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.6"/><path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><path d="M14.8 15.2c.7-.4 1.4-.6 2.2-.6 2.2 0 3.8 1.5 4.2 4.4"/>')}</span>
+          <span><b>Alla bidrar.</b> Klassens poäng är snittet per elev. Varje uppgift du gör lyfter laget, och ingen kan bära det själv.</span></li>
+        <li><span class="nyhet-ikon">${ikon('<path d="M5.6 21V3.6"/><path d="M5.6 4.2h11.6l-2.4 4 2.4 4H5.6"/>')}</span>
+          <span><b>Dagens uppdrag.</b> Din tränare ger dig tre uppdrag varje dag. Klarar du dem får du extra XP och kan låsa upp nya medaljer.</span></li>
+      </ul>
+      <div class="modal-fot">
+        <button class="btn quiet" onclick="stangNyhet()">Inte nu</button>
+        <span class="spacer"></span>
+        ${harKlass
+          ? `<button class="btn primary" onclick="stangNyhet();state.toppVy='klasser';oppnaTopplista('vecka')">Se hur klasserna ligger till</button>`
+          : `<button class="btn primary" onclick="stangNyhet();oppnaKlassval()">Välj min klass</button>`}
+      </div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangNyhet(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangNyhet(){
+  const el=document.getElementById("nyhet"); if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa"); setTimeout(()=>el.remove(),250);
 }
 
 async function vaxlaTopplista(pa){
@@ -3686,6 +3819,7 @@ function loadProfileFrom(p){
   /* Kvitterade felrapportsbelöningar: "kurs|uppgift" -> tidpunkt. */
   p.felBelonade ||= {}; p.felFynd||=0;
   p.fortsatt||=0; p.sistFel=!!p.sistFel;
+  p.nyheter ||= {};
   p.uppdrag ??= null; p.uppdragDagar||=0; p.uppdragKlara||=0; p.uppdragHuvud||=0; p.uppdragDag ??= null;
   p.bastaPass ??= null;
   p.lastDay ??= null;
@@ -4964,6 +5098,7 @@ async function kgAdminRitaKlasser(host,ladda=true){
       const elever=(k.elever||[]).filter(matchar);
       return `<details class="aklass"${sok&&elever.length?" open":""}>
         <summary><b>${esc(k.namn)}</b>${k.larare&&k.namn.trim().toLowerCase()!=="lärare"?`<span class="pt-upp-chip">Lärarklass</span>`:""}<span class="aklass-antal">${(k.elever||[]).length} ${(k.elever||[]).length===1?"elev":"elever"}</span></summary>
+        ${k.skapad_av?`<p class="aklass-skapare">Skapad av ${esc(k.skapad_av.namn||"")}${k.skapad_av.epost?` (${esc(k.skapad_av.epost)})`:""}</p>`:""}
         <div class="aklass-verktyg">
           <input class="admin-sok" id="aklass-namn-${Number(k.id)}" value="${esc(k.namn)}" maxlength="40" aria-label="Klassnamn">
           <input class="admin-sok aklass-ordning" id="aklass-ord-${Number(k.id)}" type="number" value="${Number(k.ordning)||0}" aria-label="Ordning i listan" title="Ordning i listan">
@@ -6636,6 +6771,12 @@ function uppdragHTML(liten){
   </div>`;
 }
 
+/* Tränarens avatar: en egen symbol (visselpipa) som skiljer kortet från områdeskorten. */
+function tranarAvatar(liten){
+  return `<span class="pt-avatar${liten?" liten":""}" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="14" r="5"/><path d="M13.3 11.5L21 8.6v4.2l-6.6.4"/>
+    <path d="M7.6 9.2L5.2 5.4"/><circle cx="9" cy="14" r="1.2" fill="currentColor" stroke="none"/></svg></span>`;
+}
 function ptLitet(sort){
   const typ=dagensPass();
   const done=todayCount(), goal=profile.goal||8, st=currentStreak();
@@ -6643,9 +6784,9 @@ function ptLitet(sort){
   const kvot=pagar ? state.sessionDone/state.sessionTarget : Math.min(1,done/goal);
   return `
   <section class="pt pt-liten${pagar?"":" klart"}">
-    <span class="pt-ikon liten">${passIkon(pagar?(state.passTyp||typ):typ)}</span>
+    ${tranarAvatar(true)}
     <span class="pt-liten-txt">
-      <b><span class="pt-namn">Rekommenderat:</span> ${pagar?esc(sessionLabel()):"Dagens mål klart"}</b>
+      <b><span class="pt-namn">Din tränare:</span> ${pagar?esc(sessionLabel()):"Dagens mål klart"}</b>
       <small>${pagar
         ? `${state.sessionDone} av ${state.sessionTarget} uppgifter klara`
         : `${done} av ${goal} uppgifter${st>1?` · ${st} dagar i rad`:""}`}</small>
@@ -6696,14 +6837,15 @@ function ptKort(){
   return `
   <section class="pt${klart?" klart":""}">
     <div class="pt-huvud">
-      <span class="pt-ikon">${passIkon(typ)}</span>
+      ${tranarAvatar(false)}
       <span class="pt-titel">
-        <span class="pt-lbl">Rekommenderat pass</span>
-        <h2>${p.namn}</h2>
+        <span class="pt-lbl">Din personliga tränare</span>
+        <span class="pt-rek">${klart?"Vill du köra mer idag rekommenderar jag:":"Idag rekommenderar jag:"}</span>
+        <h2><span class="pt-passikon" aria-hidden="true">${passIkon(typ)}</span>${p.namn}</h2>
       </span>
       <span class="pt-chips">${chips.map(c=>`<span class="pt-chip">${esc(c)}</span>`).join("")}</span>
     </div>
-    <p class="pt-msg">${passMeddelande(typ)}</p>
+    <p class="pt-msg pt-bubbla">${passMeddelande(typ)}</p>
     ${uppdragHTML(false)}
     <div class="pt-act">
       ${pagaendePass()
@@ -6847,10 +6989,14 @@ function renderDashboard(){
           <div id="medalinfo" class="medalinfo" hidden></div>
         </div>
 
-        <div class="card pad">
-          <div class="sec"><h2>Träna mer på</h2></div>
-          <div class="tmlista">${tranaMerHTML()}</div>
-        </div>
+        ${(()=>{
+          const antal=tranaMerKort(3).length;
+          let oppen=false; try{ oppen=localStorage.getItem("kg-tranamer-oppen")==="1"; }catch(_){}
+          return `<details class="card pad tmdet"${oppen?" open":""} ontoggle="try{localStorage.setItem('kg-tranamer-oppen',this.open?'1':'0')}catch(_){}">
+            <summary class="sec"><h2>Träna mer på</h2>${antal?`<span class="tmdet-antal">${antal} ${antal===1?"område":"områden"}</span>`:""}<span class="mu-chev" aria-hidden="true"></span></summary>
+            <div class="tmlista">${tranaMerHTML()}</div>
+          </details>`;
+        })()}
       </aside>
     </div>
   </main>`;
@@ -11157,6 +11303,11 @@ window.addEventListener("load",async()=>{
     await kontrolleraAdmin();
     render();
     if(nyInloggning) toast("Inloggad. Din träning synkas nu mellan enheterna.");
+    /* Lärarkonton kopplas till klassen Lärare utan att behöva göra något.
+       Saknas funktionen i databasen svarar den 404, och då händer inget. */
+    const lararklass=await klassRpc("kg_auto_lararklass");
+    if(lararklass?.flyttad) state.minKlass=undefined;
+    setTimeout(()=>visaNyhetKlasser(),nyInloggning?1200:600);
   }
 
   /* Lärarknappen visas direkt från cachen och verifieras sedan mot databasen. */

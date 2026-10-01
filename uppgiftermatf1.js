@@ -1,7 +1,7 @@
 window.BANKMATF1 = [
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma antal element i union av två mängder",
     "poang": "2/0/0",
@@ -10,7 +10,7 @@ window.BANKMATF1 = [
     "id": "1.308",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 29,
     "tolerans": 0,
@@ -21,11 +21,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "skriva mängd med mängdbyggarnotation",
     "poang": "1/0/0",
@@ -34,7 +40,7 @@ window.BANKMATF1 = [
     "id": "1.01",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -43,11 +49,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma komplementet till union i en ändlig population",
     "poang": "2/0/0",
@@ -56,7 +68,7 @@ window.BANKMATF1 = [
     "id": "1.309",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 8,
     "tolerans": 0,
@@ -67,11 +79,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först hur många som ligger i unionen. De som ligger i ingen av mängderna är resten av grundmängden.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "bestämma element ur mängdbyggarnotation",
     "poang": "1/0/0",
@@ -80,7 +98,7 @@ window.BANKMATF1 = [
     "id": "1.02",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "mängd",
     "rättSvar": "{-3,-2,-1,0,1,2,3}",
     "tolerans": null,
@@ -90,11 +108,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
     "traningsniva": 2,
-    "svarFormat": "mängd"
+    "svarFormat": "mängd",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "skriva mängder på listform",
     "poang": "3/0/0",
@@ -103,7 +127,7 @@ window.BANKMATF1 = [
     "id": "1.03",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -113,11 +137,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma differensen mellan två ändliga mängder",
     "poang": "2/0/0",
@@ -126,7 +156,7 @@ window.BANKMATF1 = [
     "id": "1.310",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": 0,
@@ -137,11 +167,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "snitt och union av ändliga mängder",
     "poang": "2/0/0",
@@ -150,7 +186,7 @@ window.BANKMATF1 = [
     "id": "1.04",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "{3,4,5,6,8}",
@@ -191,11 +227,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "tolka antal i Venn-diagram",
     "poang": "3/0/0",
@@ -204,7 +246,7 @@ window.BANKMATF1 = [
     "id": "1.05",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -213,11 +255,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion–exklusion för tre mängder",
     "poang": "0/2/0",
@@ -226,7 +274,7 @@ window.BANKMATF1 = [
     "id": "1.312",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 42,
     "tolerans": 0,
@@ -238,11 +286,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "räkna med union, snitt och tom mängd",
     "poang": "4/0/0",
@@ -251,7 +305,7 @@ window.BANKMATF1 = [
     "id": "1.06",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "{1,2,3,4,5,6,7}",
@@ -314,11 +368,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "markera mängder i Venn-diagram",
     "poang": "4/0/0",
@@ -327,7 +387,7 @@ window.BANKMATF1 = [
     "id": "1.07",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -337,11 +397,17 @@ window.BANKMATF1 = [
     ],
     "spel": false,
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "komplement och differens i ändliga mängder",
     "poang": "5/0/0",
@@ -350,7 +416,7 @@ window.BANKMATF1 = [
     "id": "1.08",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "{0}",
@@ -409,11 +475,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "beskriva skuggat Venn-område med symboler",
     "poang": "1/0/0",
@@ -422,7 +494,7 @@ window.BANKMATF1 = [
     "id": "1.09",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -431,11 +503,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "C",
     "typ": "symmetrisk differens med union och snitt",
     "poang": "2/1/0",
@@ -444,7 +522,7 @@ window.BANKMATF1 = [
     "id": "1.10",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{3,5,7,8,10}",
     "tolerans": null,
@@ -455,11 +533,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
     "traningsniva": 3,
-    "svarFormat": "mängd"
+    "svarFormat": "mängd",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "C",
     "typ": "bevisa en mängdidentitet med elementmetoden",
     "poang": "0/2/0",
@@ -468,7 +552,7 @@ window.BANKMATF1 = [
     "id": "1.316",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -478,11 +562,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Välj ett godtyckligt element \\(x\\). Översätt sedan medlemskap i union till ”eller”, medlemskap i snitt till ”och” och komplement till ”inte”. Visa att båda leden ger samma villkor.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "C",
     "typ": "beskriva samma mängd på flera sätt",
     "poang": "2/1/0",
@@ -491,7 +581,7 @@ window.BANKMATF1 = [
     "id": "1.11",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -501,11 +591,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Rita gärna upp de relevanta delarna som disjunkta områden och kontrollera att varje element räknas exakt en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "skriva mängd med mängdbyggare",
     "poang": "2/0/0",
@@ -514,7 +610,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Vi söker heltal som är jämna och ligger mellan 2 och 20. Ett tydligt sätt är att skriva</p><p><strong>\\(A=\\{x\\mid x\\in\\mathbb{Z},\\ 2\\le x\\le 20\\ \\text{och}\\ x\\ \\text{är jämnt}\\}\\)</strong>.</p><p>Man kan också skriva \\(A=\\{2n\\mid n\\in\\mathbb{Z},\\ 1\\le n\\le 10\\}\\).</p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -523,11 +619,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "bestämma element i given mängd",
     "poang": "2/0/0",
@@ -536,7 +638,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><p>Mängden består av alla heltal från \\(-3\\) upp till men inte med 4.</p><p>Därför är</p><p><strong>\\(B=\\{-3,-2,-1,0,1,2,3\\}\\)</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -545,11 +647,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma antal element i union av två mängder",
     "poang": "2/0/0",
@@ -558,7 +666,7 @@ window.BANKMATF1 = [
     "id": "1.318",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 54,
     "tolerans": 0,
@@ -569,11 +677,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdbyggare för intervall",
     "poang": "2/0/0",
@@ -582,7 +696,7 @@ window.BANKMATF1 = [
     "id": "1.145",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -591,11 +705,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma komplementet till union i en ändlig population",
     "poang": "2/0/0",
@@ -604,7 +724,7 @@ window.BANKMATF1 = [
     "id": "1.319",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 10,
     "tolerans": 0,
@@ -615,11 +735,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först hur många som ligger i unionen. De som ligger i ingen av mängderna är resten av grundmängden.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "översätta områdesbeskrivning till mängdsymboler",
     "poang": "1/1/0",
@@ -628,7 +754,7 @@ window.BANKMATF1 = [
     "id": "1.12",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -637,11 +763,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma differensen mellan två ändliga mängder",
     "poang": "2/0/0",
@@ -650,7 +782,7 @@ window.BANKMATF1 = [
     "id": "1.320",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": 0,
@@ -661,11 +793,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "C",
     "typ": "tre mängder med villkor",
     "poang": "1/1/0",
@@ -674,7 +812,7 @@ window.BANKMATF1 = [
     "id": "1.13",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -683,11 +821,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "tolka sektorer i Venn-diagram",
     "poang": "1/1/0",
@@ -696,7 +840,7 @@ window.BANKMATF1 = [
     "id": "1.14",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -705,11 +849,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "tolka markerat område i Venn-diagram",
     "poang": "0/2/0",
@@ -718,7 +868,7 @@ window.BANKMATF1 = [
     "id": "1.46",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
@@ -728,11 +878,17 @@ window.BANKMATF1 = [
     ],
     "spel": false,
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion–exklusion för tre mängder",
     "poang": "0/2/0",
@@ -741,7 +897,7 @@ window.BANKMATF1 = [
     "id": "1.322",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 39,
     "tolerans": 0,
@@ -753,11 +909,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "avläsa antal i Venn-diagram",
     "poang": "2/0/0",
@@ -766,7 +928,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs><clipPath id=\"c115a\"><circle cx=\"170\" cy=\"138\" r=\"86\"/></clipPath></defs><g clip-path=\"url(#c115a)\"><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/></g>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>a)</strong> I snittet står talet 9, alltså \\(|A\\cap B|=9\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"#E7B07A\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>b)</strong> Unionen innehåller \\(14+9+11=34\\) elever.</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför både A och B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"white\"/><circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"138\" r=\"86\" fill=\"none\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"70\" font-size=\"18\">A</text><text x=\"288\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"42\" font-size=\"16\">U</text>\n<text x=\"128\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">14</text><text x=\"210\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">9</text><text x=\"292\" y=\"145\" font-size=\"20\" text-anchor=\"middle\">11</text><text x=\"355\" y=\"228\" font-size=\"16\" text-anchor=\"middle\">6</text></svg></span><p><strong>c)</strong> Utanför båda mängderna ligger \\(40-34=6\\) elever.</p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "flera_delar",
     "rättSvar": [
       9,
@@ -812,11 +974,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "tre mängder med inklusion-exklusion",
     "poang": "0/2/0",
@@ -825,7 +993,7 @@ window.BANKMATF1 = [
     "id": "1.147",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 68,
     "tolerans": null,
@@ -837,11 +1005,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "avläsa element i Venn-diagram",
     "poang": "2/0/0",
@@ -850,7 +1024,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_161_s_1_A2clip)\"><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/></g>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p><strong>a)</strong> \\(A\\cap B=\\{5,7\\}\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A minus B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p><strong>b)</strong> \\(A\\setminus B=\\{1,3\\}\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför A union B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_3_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_3_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p><strong>c)</strong> \\((A\\cup B)^c=\\{11\\}\\).</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "{5,7}",
@@ -895,11 +1069,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "tolka markerat område i Venn-diagram",
     "poang": "2/0/0",
@@ -908,7 +1088,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><p>Det markerade området ligger i \\(B\\), men inte i \\(A\\). Därför skrivs området som <strong>\\(B\\setminus A\\)</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -917,11 +1097,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "tolka markerat område i Venn-diagram med tre mängder",
     "poang": "0/2/0",
@@ -930,7 +1116,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p><p>Området ligger i både \\(A\\) och \\(C\\), men inte i \\(B\\). Därför kan det skrivas som <strong>\\((A\\cap C)\\setminus B\\)</strong>.</p><p>En likvärdig skrivning är <strong>\\(A\\cap C\\cap B^c\\)</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -939,11 +1125,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "C",
     "typ": "rita och tolka område med tre mängder",
     "poang": "0/2/0",
@@ -952,7 +1144,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden. Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där delen av C utanför A och B är markerad\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_165_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_165_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_165_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Vi söker de element som ligger i \\(C\\), men inte i \\(A\\) och inte i \\(B\\). Området kan skrivas <strong>\\(C\\setminus(A\\cup B)\\)</strong> eller <strong>\\(C\\cap A^c\\cap B^c\\)</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -961,11 +1153,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "skillnad mellan delmängd och element",
     "poang": "2/0/0",
@@ -974,7 +1172,7 @@ window.BANKMATF1 = [
     "id": "1.15",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "Falskt",
@@ -1012,11 +1210,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "union och snitt av två mängder",
     "poang": "2/0/0",
@@ -1025,7 +1229,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>a)</strong> Unionen innehåller alla element som finns i minst en av mängderna:</p><p>\\[A\\cup B=\\{1,3,4,5,6,7,9\\}.\\]</p><p><strong>b)</strong> Snittet innehåller de element som finns i båda mängderna:</p><p>\\[A\\cap B=\\{3,5\\}.\\]</p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "{1,3,4,5,6,7,9}",
@@ -1063,11 +1267,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "differens och komplement",
     "poang": "2/0/0",
@@ -1076,7 +1286,7 @@ window.BANKMATF1 = [
     "s": "<p>Eftersom komplementet tas i förhållande till grundmängden \\(U\\), är \\(A^c\\) samma mängd som \\(U\\setminus A\\).</p><p>Vi tar alltså bort \\(2,4,6,8\\) ur \\(U\\):</p><p>\\[U\\setminus A=A^c=\\{1,3,5,7\\}.\\]</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "{1,3,5,7}",
@@ -1117,11 +1327,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma differensen mellan två ändliga mängder",
     "poang": "2/0/0",
@@ -1130,7 +1346,7 @@ window.BANKMATF1 = [
     "id": "1.330",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 25,
     "tolerans": 0,
@@ -1141,11 +1357,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "symmetrisk differens via operationer",
     "poang": "2/0/0",
@@ -1154,7 +1376,7 @@ window.BANKMATF1 = [
     "id": "1.146",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{1,2,5,6}",
     "tolerans": null,
@@ -1165,11 +1387,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
     "traningsniva": 3,
-    "svarFormat": "mängd"
+    "svarFormat": "mängd",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "A",
     "typ": "bevisa mängdidentitet med symmetrisk differens",
     "poang": "0/1/2",
@@ -1178,7 +1406,7 @@ window.BANKMATF1 = [
     "id": "1.331",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -1188,11 +1416,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt vänsterledet till ord: \\(A\\setminus B\\) betyder ”i A men inte i B”. Vad betyder då hela vänsterledet? Gör sedan samma sak med högerledet.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion-exklusion med obekant snitt",
     "poang": "0/3/0",
@@ -1201,7 +1435,7 @@ window.BANKMATF1 = [
     "id": "1.167",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "flera_delar",
     "rättSvar": [
       6,
@@ -1254,11 +1488,17 @@ window.BANKMATF1 = [
         "poang": "0/1/0",
         "s": "<p>Minst två mängder består av de tre parvisa överlappen och mittenområdet.</p><p>Eftersom \\(x=6\\) blir antalet</p><p>\\[12+8+6+6=32.\\]</p><p><strong>Svar:</strong> 32.</p>"
       }
+    ],
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
     ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "A",
     "typ": "antal delmängder och potensmängd",
     "poang": "0/2/2",
@@ -1267,7 +1507,7 @@ window.BANKMATF1 = [
     "id": "1.169",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -1279,11 +1519,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Rita gärna upp de relevanta delarna som disjunkta områden och kontrollera att varje element räknas exakt en gång.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma antal element i union av två mängder",
     "poang": "2/0/0",
@@ -1292,7 +1538,7 @@ window.BANKMATF1 = [
     "id": "1.333",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 47,
     "tolerans": 0,
@@ -1303,11 +1549,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs villkoret ord för ord. Kontrollera först vilket talområde elementen kommer från och därefter vilket villkor de ska uppfylla.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "symmetrisk differens",
     "poang": "1/2/0",
@@ -1316,7 +1568,7 @@ window.BANKMATF1 = [
     "id": "1.170",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Venndiagram och områden",
     "svarstyp": "figur",
     "rättSvar": null,
     "tolerans": null,
@@ -1327,11 +1579,17 @@ window.BANKMATF1 = [
     ],
     "spel": false,
     "ledtrad": "<p>Översätt först symbolerna: union = minst en, snitt = båda och differens = i den första men inte i den andra.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "bestämma komplementet till union i en ändlig population",
     "poang": "2/0/0",
@@ -1340,7 +1598,7 @@ window.BANKMATF1 = [
     "id": "1.334",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 9,
     "tolerans": 0,
@@ -1351,11 +1609,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först hur många som ligger i unionen. De som ligger i ingen av mängderna är resten av grundmängden.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "använda inklusion–exklusion för två mängder",
     "poang": "2/0/0",
@@ -1364,7 +1628,7 @@ window.BANKMATF1 = [
     "id": "1.335",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 50,
     "tolerans": 0,
@@ -1375,11 +1639,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma okänt snitt med inklusion–exklusion",
     "poang": "0/2/0",
@@ -1388,7 +1658,7 @@ window.BANKMATF1 = [
     "id": "1.336",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 13,
     "tolerans": 0,
@@ -1399,11 +1669,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "inklusion-exklusion för två mängder",
     "poang": "2/0/0",
@@ -1412,7 +1688,7 @@ window.BANKMATF1 = [
     "id": "1.17",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 118,
     "tolerans": null,
@@ -1423,11 +1699,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma antal i exakt en av två mängder",
     "poang": "0/2/0",
@@ -1436,7 +1718,7 @@ window.BANKMATF1 = [
     "id": "1.337",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 52,
     "tolerans": 0,
@@ -1447,11 +1729,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion–exklusion för tre mängder",
     "poang": "0/2/0",
@@ -1460,7 +1748,7 @@ window.BANKMATF1 = [
     "id": "1.338",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 110,
     "tolerans": 0,
@@ -1471,11 +1759,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "A",
     "typ": "inklusion-exklusion med tre mängder och parameter",
     "poang": "0/0/3",
@@ -1484,7 +1778,7 @@ window.BANKMATF1 = [
     "id": "1.18",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -1495,11 +1789,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma trippelsnitt ur inklusion–exklusion",
     "poang": "0/3/0",
@@ -1508,7 +1808,7 @@ window.BANKMATF1 = [
     "id": "1.339",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
     "tolerans": 0,
@@ -1519,11 +1819,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bevisa inklusion–exklusion för två mängder",
     "poang": "0/2/0",
@@ -1532,7 +1838,7 @@ window.BANKMATF1 = [
     "id": "1.340",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -1542,11 +1848,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Välj ett godtyckligt element \\(x\\). Översätt sedan medlemskap i union till ”eller”, medlemskap i snitt till ”och” och komplement till ”inte”. Visa att båda leden ger samma villkor.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion-exklusion för tre mängder",
     "poang": "0/3/0",
@@ -1555,7 +1867,7 @@ window.BANKMATF1 = [
     "id": "1.47",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 128,
     "tolerans": null,
@@ -1567,11 +1879,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "exakt en av två aktiviteter",
     "poang": "0/2/0",
@@ -1580,7 +1898,7 @@ window.BANKMATF1 = [
     "id": "1.56",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 64,
     "tolerans": null,
@@ -1592,11 +1910,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "exakt två av tre mängder",
     "poang": "0/3/0",
@@ -1605,7 +1929,7 @@ window.BANKMATF1 = [
     "id": "1.57",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 36,
     "tolerans": null,
@@ -1617,11 +1941,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bevisa kardinalitetsidentitet med mängdargument",
     "poang": "0/2/0",
@@ -1630,7 +1960,7 @@ window.BANKMATF1 = [
     "id": "1.346",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -1640,11 +1970,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Välj ett godtyckligt element \\(x\\). Översätt sedan medlemskap i union till ”eller”, medlemskap i snitt till ”och” och komplement till ”inte”. Visa att båda leden ger samma villkor.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "använda inklusion–exklusion för två mängder",
     "poang": "2/0/0",
@@ -1653,7 +1989,7 @@ window.BANKMATF1 = [
     "id": "1.347",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 59,
     "tolerans": 0,
@@ -1664,11 +2000,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "additionsprincipen med två mängder",
     "poang": "2/0/0",
@@ -1677,7 +2019,7 @@ window.BANKMATF1 = [
     "s": "<p>Om vi bara adderar 18 och 15 räknas de 7 elever som spelar båda sporterna två gånger. Därför använder vi additionsprincipen:</p><p>\\[|F\\cup B|=|F|+|B|-|F\\cap B|=18+15-7=26.\\]</p><p><strong>26 elever</strong> spelar minst en av sporterna.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 26,
     "tolerans": null,
@@ -1688,11 +2030,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Rita gärna upp de relevanta delarna som disjunkta områden och kontrollera att varje element räknas exakt en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma okänt snitt med inklusion–exklusion",
     "poang": "0/2/0",
@@ -1701,7 +2049,7 @@ window.BANKMATF1 = [
     "id": "1.348",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 0,
     "tolerans": 0,
@@ -1712,11 +2060,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma antal i exakt en av två mängder",
     "poang": "0/2/0",
@@ -1725,7 +2079,7 @@ window.BANKMATF1 = [
     "id": "1.349",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 50,
     "tolerans": 0,
@@ -1736,11 +2090,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "två mängder med angivna antal i diagram",
     "poang": "2/0/0",
@@ -1749,7 +2109,7 @@ window.BANKMATF1 = [
     "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där unionen av A och B är markerad\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_164_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_164_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p><strong>a)</strong> \\(|A\\cup B|=18+7+11=36\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där exakt en av mängderna är markerad\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_164_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_164_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><g clip-path=\"url(#matf1_1_164_s_2_A2clip)\"><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/></g>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p><strong>b)</strong> Exakt en mängd ger \\(18+11=29\\) personer.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "flera_delar",
     "rättSvar": [
       36,
@@ -1788,11 +2148,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Rita gärna upp de relevanta delarna som disjunkta områden och kontrollera att varje element räknas exakt en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion–exklusion för tre mängder",
     "poang": "0/2/0",
@@ -1801,7 +2167,7 @@ window.BANKMATF1 = [
     "id": "1.350",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 111,
     "tolerans": 0,
@@ -1812,11 +2178,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma trippelsnitt ur inklusion–exklusion",
     "poang": "0/3/0",
@@ -1825,7 +2197,7 @@ window.BANKMATF1 = [
     "id": "1.351",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
     "tolerans": 0,
@@ -1836,11 +2208,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "tre mängder med antal i diagram",
     "poang": "0/2/0",
@@ -1849,7 +2227,7 @@ window.BANKMATF1 = [
     "s": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där de områden som tillhör exakt två mängder är markerade\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_166_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_166_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_166_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_166_s_1_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_166_s_1_Aclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_166_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_166_s_1_Aclip)\"><g clip-path=\"url(#matf1_1_166_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"white\"/></g></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>a)</strong> Exakt två mängder motsvarar de tre parvisa överlappen utan mittenområdet. Antalet är \\(5+6+4=15\\).</p><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför alla tre mängder är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_166_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_166_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_166_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p><strong>b)</strong> Inne i minst en mängd finns \\(12+8+10+5+6+4+3=48\\) personer. Utanför alla tre finns därför \\(60-48=12\\) personer.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "flera_delar",
     "rättSvar": [
       15,
@@ -1889,11 +2267,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "inklusion-exklusion med delbarhet",
     "poang": "0/3/0",
@@ -1902,7 +2286,7 @@ window.BANKMATF1 = [
     "id": "1.171",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 140,
     "tolerans": null,
@@ -1914,11 +2298,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "inklusion-exklusion för tre mängder med delbarhet",
     "poang": "0/3/0",
@@ -1927,7 +2317,7 @@ window.BANKMATF1 = [
     "id": "1.172",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "flera_delar",
     "rättSvar": [
       734,
@@ -1970,11 +2360,17 @@ window.BANKMATF1 = [
         "poang": "0/1/0",
         "s": "<p>Antalen multiplar blir \\(|T_2|=500\\), \\(|T_3|=333\\), \\(|T_5|=200\\). Parvisa snitt motsvarar delbarhet med 6, 10 och 15: 166, 100 och 66. Trippelsnittet motsvarar delbarhet med 30: 33.</p><p>Först fås 734 tal som är delbara med minst ett av 2, 3 och 5. Komplementet är därför</p><p>\\[1000-734=266.\\]</p><p><strong>Svar:</strong> 266.</p>"
       }
+    ],
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
     ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "inklusion-exklusion två mängder",
     "poang": "2/0/0",
@@ -1983,7 +2379,7 @@ window.BANKMATF1 = [
     "id": "1.174",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 67,
     "tolerans": null,
@@ -1994,11 +2390,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma okänt snitt med inklusion–exklusion",
     "poang": "0/2/0",
@@ -2007,7 +2409,7 @@ window.BANKMATF1 = [
     "id": "1.360",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 17,
     "tolerans": 0,
@@ -2018,11 +2420,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "exakt en av två mängder",
     "poang": "2/0/0",
@@ -2031,7 +2439,7 @@ window.BANKMATF1 = [
     "id": "1.175",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 37,
     "tolerans": null,
@@ -2043,11 +2451,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "ingen av två mängder",
     "poang": "2/0/0",
@@ -2056,7 +2470,7 @@ window.BANKMATF1 = [
     "id": "1.176",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 21,
     "tolerans": null,
@@ -2068,11 +2482,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först hur många som ligger i unionen. De som ligger i ingen av mängderna är resten av grundmängden.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "använda inklusion–exklusion för två mängder",
     "poang": "2/0/0",
@@ -2081,7 +2501,7 @@ window.BANKMATF1 = [
     "id": "1.365",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 56,
     "tolerans": 0,
@@ -2092,11 +2512,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion-exklusion tre intressen",
     "poang": "0/3/0",
@@ -2105,7 +2531,7 @@ window.BANKMATF1 = [
     "id": "1.177",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 92,
     "tolerans": null,
@@ -2116,11 +2542,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma antal i exakt en av två mängder",
     "poang": "0/2/0",
@@ -2129,7 +2561,7 @@ window.BANKMATF1 = [
     "id": "1.367",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 60,
     "tolerans": 0,
@@ -2140,11 +2572,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "inklusion–exklusion för tre mängder",
     "poang": "0/2/0",
@@ -2153,7 +2591,7 @@ window.BANKMATF1 = [
     "id": "1.368",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 112,
     "tolerans": 0,
@@ -2164,11 +2602,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestäm okänt snitt",
     "poang": "0/2/0",
@@ -2177,7 +2621,7 @@ window.BANKMATF1 = [
     "id": "1.178",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 28,
     "tolerans": null,
@@ -2189,11 +2633,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestämma trippelsnitt ur inklusion–exklusion",
     "poang": "0/3/0",
@@ -2202,7 +2652,7 @@ window.BANKMATF1 = [
     "id": "1.369",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
     "tolerans": 0,
@@ -2213,11 +2663,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "inklusion-exklusion i kursval",
     "poang": "2/0/0",
@@ -2226,7 +2682,7 @@ window.BANKMATF1 = [
     "id": "1.205",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 78,
     "tolerans": null,
@@ -2237,11 +2693,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För tre mängder: addera de tre mängderna, subtrahera de tre parvisa snitten och lägg tillbaka trippelsnittet en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "bestäm snitt från total och utanför",
     "poang": "0/2/0",
@@ -2250,7 +2712,7 @@ window.BANKMATF1 = [
     "id": "1.206",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 35,
     "tolerans": null,
@@ -2261,11 +2723,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\) och lös sambandet för snittet. Om antalet utanför båda är känt, bestäm unionen först.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "typ": "exakt en och ingen från två mängder",
     "poang": "0/3/0",
@@ -2274,7 +2742,7 @@ window.BANKMATF1 = [
     "id": "1.207",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "flera_delar",
     "rättSvar": [
       69,
@@ -2314,11 +2782,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Dela upp mängderna i ”bara A”, ”båda” och ”bara B”. För ”exakt en” ska överlappet inte räknas med alls.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "A",
     "traningsniva": 5,
     "typ": "inklusion–exklusion med två parametrar och möjlighetsvillkor",
@@ -2328,7 +2802,7 @@ window.BANKMATF1 = [
     "id": "1.472",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -2338,11 +2812,17 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "spel": false,
-    "ledtrad": "<p>Börja med inklusion–exklusion för tre mängder och skriv \\(y\\) i termer av \\(x\\). Undersök sedan vilka värden på \\(x\\) som gör samtliga sju Venn-regioner och området utanför icke-negativa.</p>"
+    "ledtrad": "<p>Börja med inklusion–exklusion för tre mängder och skriv \\(y\\) i termer av \\(x\\). Undersök sedan vilka värden på \\(x\\) som gör samtliga sju Venn-regioner och området utanför icke-negativa.</p>",
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen i flerstegsval",
     "poang": "2/0/0",
@@ -2351,7 +2831,7 @@ window.BANKMATF1 = [
     "id": "1.377",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 24,
     "tolerans": 0,
@@ -2361,11 +2841,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen",
     "poang": "1/0/0",
@@ -2384,11 +2870,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "produktprincipen med kortlek",
     "poang": "1/0/0",
@@ -2397,7 +2886,7 @@ window.BANKMATF1 = [
     "id": "1.23",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 169,
     "tolerans": null,
@@ -2408,11 +2897,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "pinkod med återläggning",
     "poang": "2/0/0",
@@ -2421,7 +2916,7 @@ window.BANKMATF1 = [
     "id": "1.24",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 10000,
     "tolerans": null,
@@ -2432,11 +2927,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "produktprincipen i klädval",
     "poang": "2/0/0",
@@ -2445,7 +2946,7 @@ window.BANKMATF1 = [
     "id": "1.25",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 2100,
     "tolerans": null,
@@ -2456,11 +2957,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen i flerstegsval",
     "poang": "2/0/0",
@@ -2469,7 +2976,7 @@ window.BANKMATF1 = [
     "id": "1.379",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 160,
     "tolerans": 0,
@@ -2479,11 +2986,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "räkna nya registreringskombinationer",
     "poang": "1/2/0",
@@ -2492,7 +3005,7 @@ window.BANKMATF1 = [
     "id": "1.37",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 27984100,
     "tolerans": null,
@@ -2503,11 +3016,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen månader",
     "poang": "1/0/0",
@@ -2527,11 +3046,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "lådprincipen med parindelning",
     "poang": "0/2/0",
@@ -2550,11 +3072,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen i flerstegsval",
     "poang": "2/0/0",
@@ -2563,7 +3088,7 @@ window.BANKMATF1 = [
     "id": "1.381",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 63,
     "tolerans": 0,
@@ -2573,11 +3098,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "samma begynnelsebokstav",
     "poang": "1/0/0",
@@ -2596,11 +3127,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Tänk på de 29 bokstäverna som lådor och orden som föremål. Hur många ord kan det finnas om varje låda får högst ett ord?</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "strumpor och färger",
     "poang": "1/0/0",
@@ -2620,11 +3154,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "födelsemånader",
     "poang": "1/0/0",
@@ -2643,11 +3180,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "samma rest modulo",
     "poang": "0/2/0",
@@ -2666,11 +3206,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "avrundade mätvärden",
     "poang": "0/2/0",
@@ -2689,11 +3232,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "komplementära talpar",
     "poang": "0/2/0",
@@ -2712,11 +3258,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "två på varandra följande tal",
     "poang": "0/2/0",
@@ -2735,11 +3284,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "workshopfördelning",
     "poang": "0/2/0",
@@ -2758,11 +3310,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "A",
     "typ": "geometrisk lådprincip",
     "poang": "0/1/2",
@@ -2781,11 +3336,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "A",
     "typ": "generellt bevis med restklasser",
     "poang": "0/1/2",
@@ -2794,7 +3352,7 @@ window.BANKMATF1 = [
     "id": "1.67",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -2804,11 +3362,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "filer i mappar",
     "poang": "0/2/0",
@@ -2827,11 +3391,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen med lokala restriktioner",
     "poang": "2/0/0",
@@ -2840,7 +3407,7 @@ window.BANKMATF1 = [
     "id": "1.387",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 134456,
     "tolerans": 0,
@@ -2851,11 +3418,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen med månader",
     "poang": "2/0/0",
@@ -2874,11 +3447,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen med strumpor",
     "poang": "2/0/0",
@@ -2898,11 +3474,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen med veckodagar",
     "poang": "2/0/0",
@@ -2922,11 +3501,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen med rester",
     "poang": "2/0/0",
@@ -2945,11 +3527,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen med lokala restriktioner",
     "poang": "2/0/0",
@@ -2958,7 +3543,7 @@ window.BANKMATF1 = [
     "id": "1.389",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 32768,
     "tolerans": 0,
@@ -2969,11 +3554,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "lådprincipen med minsta garanterade antal",
     "poang": "0/2/0",
@@ -2993,11 +3584,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen färger",
     "poang": "2/0/0",
@@ -3017,11 +3611,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "lådprincipen heltal inom intervall",
     "poang": "0/2/0",
@@ -3040,11 +3637,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "koder med villkor",
     "poang": "2/0/0",
@@ -3053,7 +3653,7 @@ window.BANKMATF1 = [
     "id": "1.39",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 608400,
     "tolerans": null,
@@ -3065,11 +3665,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "kod med flera val",
     "poang": "2/0/0",
@@ -3078,7 +3684,7 @@ window.BANKMATF1 = [
     "id": "1.52",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 55200,
     "tolerans": null,
@@ -3089,11 +3695,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "produktprincip i spelkontext",
     "poang": "2/0/0",
@@ -3102,7 +3714,7 @@ window.BANKMATF1 = [
     "id": "1.53",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 360,
     "tolerans": null,
@@ -3113,11 +3725,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "produktprincip med förbjudna kombinationer",
     "poang": "0/2/0",
@@ -3126,7 +3744,7 @@ window.BANKMATF1 = [
     "id": "1.54",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 66,
     "tolerans": null,
@@ -3138,11 +3756,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "använda lådprincipen för garanterad upprepning",
     "poang": "0/2/0",
@@ -3162,11 +3786,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "färgning med närliggande villkor",
     "poang": "0/2/0",
@@ -3175,7 +3802,7 @@ window.BANKMATF1 = [
     "id": "1.55",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 320,
     "tolerans": null,
@@ -3187,11 +3814,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Beskriv först vad ett färdigt utfall består av och kontrollera att varje utfall räknas exakt en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "antal val med multiplikationsprincipen",
     "poang": "2/0/0",
@@ -3200,7 +3833,7 @@ window.BANKMATF1 = [
     "s": "<p>Först görs ett val av bägare, sedan ett oberoende val av smak och till sist ett oberoende val av topping. Då används multiplikationsprincipen:</p><p>\\[3\\cdot 6\\cdot 4=72.\\]</p><p><strong>Det finns 72 olika val.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 72,
     "tolerans": null,
@@ -3211,11 +3844,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "kod med villkor",
     "poang": "2/0/0",
@@ -3224,7 +3863,7 @@ window.BANKMATF1 = [
     "s": "<p>För första bokstaven finns 26 val och för andra bokstaven också 26 val. För varje sifferplats finns 10 val.</p><p>\\[26\\cdot 26\\cdot 10\\cdot 10\\cdot 10=676\\,000.\\]</p><p><strong>Antalet koder är 676 000.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 676000,
     "tolerans": null,
@@ -3236,11 +3875,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "val i flera steg",
     "poang": "2/0/0",
@@ -3249,7 +3894,7 @@ window.BANKMATF1 = [
     "id": "1.130",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": null,
@@ -3260,11 +3905,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "registreringskod med begränsad första position",
     "poang": "2/0/0",
@@ -3273,7 +3924,7 @@ window.BANKMATF1 = [
     "id": "1.131",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 180000,
     "tolerans": null,
@@ -3285,11 +3936,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "C",
     "typ": "lådprincipen med restklasser",
     "poang": "0/2/0",
@@ -3309,11 +3966,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Identifiera föremål och lådor. Anta att varje låda innehåller högst ett visst antal och kontrollera hur många föremål som då maximalt får plats.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "kombinera additions- och multiplikationsprincipen",
     "poang": "0/2/0",
@@ -3322,7 +3982,7 @@ window.BANKMATF1 = [
     "id": "1.132",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 48,
     "tolerans": null,
@@ -3334,11 +3994,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "flaggor med färgval",
     "poang": "2/0/0",
@@ -3347,7 +4013,7 @@ window.BANKMATF1 = [
     "id": "1.148",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 125,
     "tolerans": null,
@@ -3358,11 +4024,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "koder utan upprepning",
     "poang": "0/2/0",
@@ -3371,7 +4043,7 @@ window.BANKMATF1 = [
     "id": "1.149",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 30240,
     "tolerans": null,
@@ -3383,12 +4055,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp konstruktionen i steg och skriv antalet tillåtna val i varje steg. Multiplicera när varje val i ett steg kan kombineras med varje val i nästa.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "id": "1.229",
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "C",
     "typ": "fördela olika uppgifter så att alla får minst en",
     "poang": "0/3/0",
@@ -3396,7 +4074,7 @@ window.BANKMATF1 = [
     "s": "<p>Utan kravet kan varje av de 6 uppgifterna tilldelas någon av 3 elever:</p><p>\\[3^6=729.\\]</p><p>Vi tar bort fördelningar där minst en elev inte får någon uppgift. Om en bestämd elev saknas kan varje uppgift gå till någon av de två andra:</p><p>\\[2^6=64.\\]</p><p>Det finns 3 val av den elev som saknas, så vi drar bort \\(3\\cdot64\\).</p><p>Fördelningar där två bestämda elever saknas har då dragits bort två gånger. Det finns 3 sådana fall, ett för varje elev som får alla uppgifter, så de läggs tillbaka:</p><p>\\[729-3\\cdot64+3=540.\\]</p><p><strong>Svar: 540 fördelningar.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 540,
     "tolerans": null,
@@ -3408,11 +4086,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "välja och ordna utan återläggning",
     "poang": "1/0/0",
@@ -3430,11 +4114,14 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "välja grupp utan ordning",
     "poang": "1/0/0",
@@ -3453,11 +4140,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "ordna grupper i block",
     "poang": "0/2/0",
@@ -3477,11 +4167,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Behandla det som måste sitta ihop som ett block. Räkna både blockets placering bland övriga objekt och eventuell intern ordning i blocket.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "antal pokerhänder",
     "poang": "2/0/0",
@@ -3500,11 +4193,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "tolka och använda kombinationsformel",
     "poang": "2/0/0",
@@ -3523,11 +4219,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "beräkna kombinationstal",
     "poang": "3/0/0",
@@ -3592,11 +4291,14 @@ window.BANKMATF1 = [
         "poang": "1/0/0",
         "s": "<p>Använd symmetrin \\(\\binom nk=\\binom n{n-k}\\):</p><p>\\[\\binom{17}{13}=\\binom{17}{4}=2380.\\]</p><p><strong>Svar:</strong> 2380.</p>"
       }
+    ],
+    "omrTidigare": [
+      "permutationer_kombinationer"
     ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "jämföra ordnade och oordnade urval",
     "poang": "4/0/0",
@@ -3648,11 +4350,14 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "stora kombinationstal och symmetri",
     "poang": "6/0/0",
@@ -3717,11 +4422,14 @@ window.BANKMATF1 = [
         "poang": "1/0/0",
         "s": "<p>\\[\\binom{105}{102}=\\binom{105}{3}=187\\,460.\\]</p><p><strong>Svar:</strong> 187 460.</p>"
       }
+    ],
+    "omrTidigare": [
+      "permutationer_kombinationer"
     ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "permutationer med upprepade objekt",
     "poang": "0/2/0",
@@ -3741,11 +4449,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Börja med alla permutationer som om objekten vore olika. Dividera sedan med fakulteten för varje grupp av identiska objekt.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "prispall",
     "poang": "1/0/0",
@@ -3764,11 +4475,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "spellista",
     "poang": "1/0/0",
@@ -3787,11 +4501,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "ordningsvillkor före",
     "poang": "0/2/0",
@@ -3810,11 +4527,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "två objekt intill",
     "poang": "0/2/0",
@@ -3833,11 +4553,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kombinationer med minst-villkor",
     "poang": "0/2/0",
@@ -3858,11 +4581,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "upprepade bokstäver",
     "poang": "0/2/0",
@@ -3882,11 +4608,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Börja med alla permutationer som om objekten vore olika. Dividera sedan med fakulteten för varje grupp av identiska objekt.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "inte bredvid varandra",
     "poang": "0/2/0",
@@ -3906,11 +4635,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Prova komplement eller luckmetoden. Vid komplement räknar du alla ordningar och drar bort dem där de förbjudna objekten ligger tillsammans som ett block.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "personer på ändplatser",
     "poang": "0/2/0",
@@ -3929,11 +4661,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "A",
     "typ": "inga särskilda böcker intill",
     "poang": "0/1/1",
@@ -3952,11 +4687,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Prova komplement eller luckmetoden. Vid komplement räknar du alla ordningar och drar bort dem där de förbjudna objekten ligger tillsammans som ett block.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "två föredrag i bestämd följd",
     "poang": "0/2/0",
@@ -3975,11 +4713,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "kod utan upprepning och nollrestriktion",
     "poang": "0/2/0",
@@ -3999,11 +4740,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutation av olika bokstäver",
     "poang": "2/0/0",
@@ -4022,11 +4766,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "A",
     "typ": "lexikografisk ordning av permutationer",
     "poang": "0/1/2",
@@ -4077,11 +4824,14 @@ window.BANKMATF1 = [
         "poang": "0/1/2",
         "s": "<p>Räkna hur många ord som kommer före KNOTAF i bokstavsordning (A, F, K, N, O, T).</p><p>Före K som första bokstav finns A och F: (2cdot5!=240).</p><p>Med K först finns A och F före N som andra bokstav: (2cdot4!=48).</p><p>Med KN först finns A och F före O som tredje bokstav: (2cdot3!=12).</p><p>Med KNO först finns A och F före T som fjärde bokstav: (2cdot2!=4).</p><p>Totalt ligger (240+48+12+4=304) ord före KNOTAF. Alltså får KNOTAF rangnummer <strong>305</strong>.</p>"
       }
+    ],
+    "omrTidigare": [
+      "permutationer_kombinationer"
     ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "permutationer med grannvillkor",
     "poang": "0/2/0",
@@ -4101,11 +4851,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "ordna personer i rad",
     "poang": "2/0/0",
@@ -4124,11 +4877,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "permutation med upprepade bokstäver",
     "poang": "1/1/0",
@@ -4148,11 +4904,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Börja med alla permutationer som om objekten vore olika. Dividera sedan med fakulteten för varje grupp av identiska objekt.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "två personer ska stå tillsammans",
     "poang": "0/2/0",
@@ -4171,11 +4930,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Behandla det som måste sitta ihop som ett block. Räkna både blockets placering bland övriga objekt och eventuell intern ordning i blocket.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "cirkulär placering introduktion",
     "poang": "2/0/0",
@@ -4194,11 +4956,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "fördela identiska objekt med olika minimikrav",
     "poang": "0/3/0",
@@ -4219,11 +4984,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "ordna med två block",
     "poang": "0/2/0",
@@ -4243,11 +5011,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Behandla det som måste sitta ihop som ett block. Räkna både blockets placering bland övriga objekt och eventuell intern ordning i blocket.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "gruppval med minst-villkor",
     "poang": "0/2/0",
@@ -4266,11 +5037,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "fördela personer i olika grupper",
     "poang": "0/2/0",
@@ -4289,11 +5063,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "A",
     "typ": "kombinatoriskt bevis",
     "poang": "0/0/3",
@@ -4312,11 +5089,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Hitta en konkret situation som båda leden räknar. Dela ena räknesättet i disjunkta fall och visa att det andra räknar samma objekt direkt.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kombinationer med minst-villkor",
     "poang": "0/2/0",
@@ -4335,11 +5115,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "välja sensorer",
     "poang": "1/0/0",
@@ -4358,11 +5141,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "välja toppings",
     "poang": "1/0/0",
@@ -4382,11 +5168,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kommitté med minstvillkor",
     "poang": "0/3/0",
@@ -4405,11 +5194,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "lag med positionskategori",
     "poang": "0/2/0",
@@ -4428,11 +5220,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "minst en från varje kategori",
     "poang": "0/2/0",
@@ -4452,11 +5247,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "minst en av två specialister",
     "poang": "0/2/0",
@@ -4475,11 +5273,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt villkoret till möjliga sammansättningar. Addera disjunkta fall, eller använd komplement om det ger färre fall.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "oförenligt par",
     "poang": "0/2/0",
@@ -4498,11 +5299,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "flera kategorier med minstvillkor",
     "poang": "0/3/0",
@@ -4523,11 +5327,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "cirkulära permutationer med placeringsvillkor",
     "poang": "0/3/0",
@@ -4548,11 +5355,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fixera en person för att ta bort rotationerna. Hantera sedan placeringsvillkoret med komplement eller genom att se två personer som ett block.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "välja två representanter",
     "poang": "1/0/0",
@@ -4571,11 +5381,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "exakt antal erfarna",
     "poang": "0/2/0",
@@ -4594,11 +5407,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "högst en från kategori",
     "poang": "0/2/0",
@@ -4617,11 +5433,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "lika många från två kategorier",
     "poang": "0/2/0",
@@ -4640,11 +5459,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "laguttagning med tre positionstyper",
     "poang": "0/3/0",
@@ -4665,11 +5487,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "exakt en av två personer",
     "poang": "0/2/0",
@@ -4688,11 +5513,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kortaste vägar i rutnät",
     "poang": "0/2/0",
@@ -4712,11 +5540,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En kortaste väg bestäms av ordningen på höger- och uppstegen. Räkna alla sådana stegsekvenser och ta vid behov bort dem som går genom den förbjudna punkten.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "obligatoriska uppgifter",
     "poang": "0/2/0",
@@ -4735,11 +5566,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "välja grupp utan ordning",
     "poang": "2/0/0",
@@ -4758,11 +5592,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kombinationer med upprepning och villkor",
     "poang": "0/3/0",
@@ -4814,11 +5651,14 @@ window.BANKMATF1 = [
         "fraga": "<p><strong>b)</strong> På hur många sätt kan 12 burkar väljas om minst en av varje smak måste ingå?</p>",
         "s": "<p>Lägg först undan en burk av varje smak. Då återstår 8 burkar att fördela fritt mellan fyra smaker:</p><p>\\[\\binom{8+4-1}{4-1}=\\binom{11}{3}=165.\\]</p><p><strong>Svar:</strong> 165.</p>"
       }
+    ],
+    "omrTidigare": [
+      "permutationer_kombinationer"
     ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "grupp med minst-villkor",
     "poang": "0/2/0",
@@ -4837,11 +5677,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kortval",
     "poang": "2/0/0",
@@ -4860,11 +5703,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "val med förbjudet par",
     "poang": "0/2/0",
@@ -4883,11 +5729,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "ordna foton",
     "poang": "2/0/0",
@@ -4906,11 +5755,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör om rollerna eller platserna gör ordningen viktig. Om samma valda personer i annan ordning ger ett nytt resultat ska ett ordnat urval användas.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "ordnade roller",
     "poang": "2/0/0",
@@ -4929,11 +5781,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör om rollerna eller platserna gör ordningen viktig. Om samma valda personer i annan ordning ger ett nytt resultat ska ett ordnat urval användas.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "ordna del av en grupp",
     "poang": "2/0/0",
@@ -4952,11 +5807,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör om rollerna eller platserna gör ordningen viktig. Om samma valda personer i annan ordning ger ett nytt resultat ska ett ordnat urval användas.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "cirkulär permutation",
     "poang": "0/2/0",
@@ -4975,11 +5833,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Fixera en person för att ta bort rotationerna. Hantera sedan placeringsvillkoret med komplement eller genom att se två personer som ett block.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "alla särskilda böcker tillsammans",
     "poang": "0/2/0",
@@ -4998,11 +5859,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "två personer inte intill",
     "poang": "0/2/0",
@@ -5022,11 +5886,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "lärare separerade av elever",
     "poang": "0/3/0",
@@ -5045,11 +5912,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kombinationer med minst-villkor",
     "poang": "0/3/0",
@@ -5070,12 +5940,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.211",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "heltalslösningar med övre gräns",
     "poang": "0/2/0",
@@ -5095,12 +5968,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.214",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kombinationer med upprepning och två obligatoriska sorter",
     "poang": "0/2/0",
@@ -5120,12 +5996,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.215",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "poängfördelning med minimi- och maximivillkor",
     "poang": "0/2/0",
@@ -5145,12 +6024,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.216",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "välja grupp med minst två från varje kategori",
     "poang": "0/2/0",
@@ -5168,12 +6050,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.217",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "välja provuppgifter med flera kategorivillkor",
     "poang": "0/3/0",
@@ -5193,12 +6078,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.218",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "ordna bokstäver med upprepning och vokaler tillsammans",
     "poang": "0/2/0",
@@ -5216,12 +6104,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.219",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "ordna böcker med två blockvillkor",
     "poang": "0/2/0",
@@ -5240,12 +6131,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.220",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "välja platser utan grannar och placera personer",
     "poang": "0/3/0",
@@ -5265,12 +6159,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Pröva blockmetoden, luckmetoden eller komplementet. Välj den metod där varje tillåten ordning räknas exakt en gång.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.221",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "kod med exakt antal ettor utan angränsande ettor",
     "poang": "0/2/0",
@@ -5289,12 +6186,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.222",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "kod med exakta typer av tecken utan upprepning",
     "poang": "0/2/0",
@@ -5313,12 +6213,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.223",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "registreringskod med minst en vokal och utan upprepning",
     "poang": "0/3/0",
@@ -5337,12 +6240,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.224",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "kod med exakt två bestämda tecken utan att de står intill",
     "poang": "0/2/0",
@@ -5361,12 +6267,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.225",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "C",
     "typ": "prispall med förbjudet par",
     "poang": "0/2/0",
@@ -5385,12 +6294,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp villkoret i disjunkta fall eller använd komplement. Inom varje fall väljer du personer/objekt med kombinationstal och adderar fallen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.228",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "kortaste vägar i rutnät med förbjuden punkt",
     "poang": "0/3/0",
@@ -5409,12 +6321,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En kortaste väg bestäms av ordningen på höger- och uppstegen. Räkna alla sådana stegsekvenser och ta vid behov bort dem som går genom den förbjudna punkten.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.231",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "välja styrelse med minimi- och maximivillkor",
     "poang": "0/2/0",
@@ -5433,12 +6348,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Avgör först om ordningen spelar roll. Använd kombination när bara urvalet betyder något och permutation/ordnat urval när positionerna eller rollerna skiljer resultaten.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.301",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Åtta identiska kulor ska fördelas i tre märkta lådor. En låda får vara tom. På hur många sätt kan detta göras?</p>",
@@ -5458,12 +6376,15 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
     "traningsniva": 2,
-    "typ": "fördela identiska objekt mellan märkta lådor"
+    "typ": "fördela identiska objekt mellan märkta lådor",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "id": "1.302",
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>Tio identiska godisbitar ska fördelas mellan fyra barn så att varje barn får minst en bit. På hur många sätt kan det göras?</p>",
@@ -5483,7 +6404,10 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Översätt till en ekvation för antalen i de märkta grupperna. Bygg in minimi- eller maximivillkor först och använd sedan stjärnor och streck.</p>",
     "traningsniva": 2,
-    "typ": "fördela identiska objekt med minst ett i varje grupp"
+    "typ": "fördela identiska objekt med minst ett i varje grupp",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
@@ -6665,7 +7589,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "C",
     "typ": "vägar i rutnät",
     "poang": "0/2/0",
@@ -6715,7 +7639,10 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>En kortaste väg bestäms av vilka positioner som är uppsteg. För en väg genom en bestämd punkt multipliceras antalet vägar fram till punkten med antalet vägar därifrån.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
@@ -7069,7 +7996,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "bestämma möjliga moduler från differens",
     "poang": "1/1/0",
@@ -7078,7 +8005,7 @@ window.BANKMATF1 = [
     "id": "2.28",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "mängd",
     "rättSvar": "1,5,7,35",
     "tolerans": null,
@@ -7091,11 +8018,17 @@ window.BANKMATF1 = [
     "ledtrad": "<p>(aequiv bpmod n) betyder att (n) delar skillnaden (a-b). Bestäm därför de positiva delarna till skillnaden.</p>",
     "traningsniva": 3,
     "svarFormat": "mängd",
-    "svarsstruktur": "mängd"
+    "svarsstruktur": "mängd",
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "bevisa delbarhet med kongruens",
     "poang": "0/2/0",
@@ -7104,7 +8037,7 @@ window.BANKMATF1 = [
     "id": "2.33",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -7115,11 +8048,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt delbarhet till formen (n=dk) eller till en kongruens. Visa sedan att uttrycket får en faktor som ger den önskade delbarheten.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "största gemensamma delare i kontext",
     "poang": "0/2/0",
@@ -7128,7 +8067,7 @@ window.BANKMATF1 = [
     "id": "2.35",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 7,
     "tolerans": null,
@@ -7139,11 +8078,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Det största antalet lika grupper måste dela samtliga givna antal. Bestäm därför deras största gemensamma delare.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "använda rest för att uppnå delbarhet",
     "poang": "1/0/0",
@@ -7152,7 +8097,7 @@ window.BANKMATF1 = [
     "id": "2.325",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": 0,
@@ -7163,11 +8108,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm vilket tal som behöver adderas för att nå nästa multipel av divisorn.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "största gemensamma delare",
     "poang": "2/0/0",
@@ -7176,7 +8127,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Primtalsfaktorisera båda talen:</p><p>\\[84=2^2\\cdot 3\\cdot 7,\\qquad 126=2\\cdot 3^2\\cdot 7.\\]</p><p>Gemensamma faktorer med minsta exponent är \\(2\\), \\(3\\) och \\(7\\).</p><p>\\[\\mathrm{sgd}(84,126)=2\\cdot 3\\cdot 7=42.\\]</p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 42,
     "tolerans": null,
@@ -7187,11 +8138,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Det största antalet lika grupper måste dela samtliga givna antal. Bestäm därför deras största gemensamma delare.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "direkt bevis med definitionen av delbarhet",
     "poang": "0/2/0",
@@ -7200,7 +8157,7 @@ window.BANKMATF1 = [
     "id": "2.326",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -7210,11 +8167,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt delbarhet till formen (n=dk) eller till en kongruens. Visa sedan att uttrycket får en faktor som ger den önskade delbarheten.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "delbarhetskontroll",
     "poang": "3/0/0",
@@ -7223,7 +8186,7 @@ window.BANKMATF1 = [
     "s": "<p>Summan av siffrorna är \\(6+9+3=18\\).</p><p>Därför är 693 delbart med 3 och också med 9.</p><p>För 11 kan vi använda regeln med växlande summa:</p><p>\\[(6+3)-9=0.\\]</p><p>Eftersom resultatet är delbart med 11 är även 693 delbart med 11.</p><p><strong>Alltså är 693 delbart med 3, 9 och 11.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "ja",
@@ -7280,11 +8243,17 @@ window.BANKMATF1 = [
         "fraga": "<p>Är 693 delbart med 11?</p>",
         "s": "<p>Den växlande summan är ((6+3)-9=0), som är delbar med 11. <strong>Ja.</strong></p>"
       }
+    ],
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
     ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "bevisa egenskap hos SGD med heltalskombination",
     "poang": "0/3/0",
@@ -7293,7 +8262,7 @@ window.BANKMATF1 = [
     "id": "2.327",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -7304,11 +8273,17 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, substituera sedan bakåt från den sista icke-nollresten.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "primtalsfaktorisering",
     "poang": "2/0/0",
@@ -7317,7 +8292,7 @@ window.BANKMATF1 = [
     "id": "2.79",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "text",
     "rättSvar": "2^3*3^2*5",
     "tolerans": null,
@@ -7328,11 +8303,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Använd delbarhetsregler eller primtalsfaktorisering och kontrollera resultatet genom multiplikation.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "största gemensamma delare",
     "poang": "2/0/0",
@@ -7341,7 +8322,7 @@ window.BANKMATF1 = [
     "id": "2.80",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 84,
     "tolerans": null,
@@ -7352,11 +8333,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Det största antalet lika grupper måste dela samtliga givna antal. Bestäm därför deras största gemensamma delare.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "minsta gemensamma multipel",
     "poang": "2/0/0",
@@ -7365,7 +8352,7 @@ window.BANKMATF1 = [
     "id": "2.81",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 72,
     "tolerans": null,
@@ -7376,11 +8363,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Primtalsfaktorisera talen eller använd sambandet mellan SGD och MGM. MGM måste innehålla alla primfaktorer med högsta nödvändiga exponent.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "fördela lika stora paket med sgd",
     "poang": "0/2/0",
@@ -7389,7 +8382,7 @@ window.BANKMATF1 = [
     "id": "2.82",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "flera_delar",
     "rättSvar": [
       72,
@@ -7418,11 +8411,17 @@ window.BANKMATF1 = [
       "antal paket",
       "flaskor/paket",
       "bars/paket"
+    ],
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
     ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "Euklides algoritm",
     "poang": "2/0/0",
@@ -7431,7 +8430,7 @@ window.BANKMATF1 = [
     "id": "2.114",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 23,
     "tolerans": null,
@@ -7442,11 +8441,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, substituera sedan bakåt från den sista icke-nollresten.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "linjär kombination av sgd",
     "poang": "0/2/0",
@@ -7455,7 +8460,7 @@ window.BANKMATF1 = [
     "id": "2.115",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -7466,11 +8471,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, substituera sedan bakåt från den sista icke-nollresten.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "delbarhet med algebra",
     "poang": "0/2/0",
@@ -7479,7 +8490,7 @@ window.BANKMATF1 = [
     "id": "2.136",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -7490,11 +8501,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Välj mellan delbarhetsregel, primtalsfaktorisering, SGD och MGM beroende på vad frågan efterfrågar.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "A",
     "typ": "delbarhet med sammansatt modul",
     "poang": "0/1/2",
@@ -7503,7 +8520,7 @@ window.BANKMATF1 = [
     "id": "2.155",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -7514,11 +8531,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Välj mellan delbarhetsregel, primtalsfaktorisering, SGD och MGM beroende på vad frågan efterfrågar.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "primtalsfaktorisering",
     "poang": "2/0/0",
@@ -7527,7 +8550,7 @@ window.BANKMATF1 = [
     "id": "2.157",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "uttryck",
     "rättSvar": "2^2*3^3*7",
     "tolerans": null,
@@ -7538,11 +8561,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Dela stegvis med små primtal tills kvoten är 1. Samla sedan lika primfaktorer som potenser.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "största gemensamma delare med Euklides algoritm",
     "poang": "2/0/0",
@@ -7551,7 +8580,7 @@ window.BANKMATF1 = [
     "id": "2.158",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 84,
     "tolerans": null,
@@ -7562,11 +8591,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, gå sedan baklänges genom divisionerna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "använda rest för att uppnå delbarhet",
     "poang": "1/0/0",
@@ -7575,7 +8610,7 @@ window.BANKMATF1 = [
     "id": "2.335",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 0,
@@ -7586,11 +8621,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm nästa multipel av divisorn och jämför med det givna talet.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "minsta gemensamma multipel",
     "poang": "2/0/0",
@@ -7599,7 +8640,7 @@ window.BANKMATF1 = [
     "id": "2.159",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 252,
     "tolerans": null,
@@ -7610,11 +8651,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Du söker första gången eller minsta tal som är en multipel av samtliga givna tal. Bestäm deras minsta gemensamma multipel.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "direkt bevis med definitionen av delbarhet",
     "poang": "0/2/0",
@@ -7623,7 +8670,7 @@ window.BANKMATF1 = [
     "id": "2.336",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -7633,11 +8680,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Utgå från definitionen av delbarhet eller SGD. Skriv de delbara talen som multiplar och visa att samma delare fungerar i det nya uttrycket.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "delbarhetsregler",
     "poang": "3/0/0",
@@ -7646,7 +8699,7 @@ window.BANKMATF1 = [
     "id": "2.160",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "flera_delar",
     "rättSvar": [
       "ja",
@@ -7695,11 +8748,17 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Välj mellan delbarhetsregel, primtalsfaktorisering, SGD och MGM beroende på vad frågan efterfrågar.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "identiska paket med sgd",
     "poang": "2/0/0",
@@ -7708,7 +8767,7 @@ window.BANKMATF1 = [
     "id": "2.161",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "flera_delar",
     "rättSvar": [
       36,
@@ -7737,11 +8796,17 @@ window.BANKMATF1 = [
       "antal paket",
       "röda/paket",
       "blå/paket"
+    ],
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
     ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "minsta faktor för delbarhet",
     "poang": "0/2/0",
@@ -7750,7 +8815,7 @@ window.BANKMATF1 = [
     "id": "2.162",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 14,
     "tolerans": null,
@@ -7762,11 +8827,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Primtalsfaktorisera båda talen och jämför vilka primfaktorer som saknas i produkten.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "största kvadratiska platta med sgd",
     "poang": "0/2/0",
@@ -7775,7 +8846,7 @@ window.BANKMATF1 = [
     "id": "2.163",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 126,
     "tolerans": null,
@@ -7786,11 +8857,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "antal positiva delare",
     "poang": "0/2/0",
@@ -7799,7 +8876,7 @@ window.BANKMATF1 = [
     "id": "2.164",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
     "tolerans": null,
@@ -7810,11 +8887,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Primtalsfaktorisera talet. Om talet är p^a q^b ... finns (a+1)(b+1)... positiva delare.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "största gemensamma delare ny variant",
     "poang": "2/0/0",
@@ -7823,7 +8906,7 @@ window.BANKMATF1 = [
     "id": "2.207",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 315,
     "tolerans": null,
@@ -7834,11 +8917,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "minsta gemensamma multipel i tidsschema",
     "poang": "0/2/0",
@@ -7847,7 +8936,7 @@ window.BANKMATF1 = [
     "id": "2.208",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "text",
     "rättSvar": "12.00",
     "tolerans": null,
@@ -7858,12 +8947,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "kort_text",
     "ledtrad": "<p>Du söker första gången eller minsta tal som är en multipel av samtliga givna tal. Bestäm deras minsta gemensamma multipel.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.209",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "primtalsfaktorisering",
     "poang": "2/0/0",
@@ -7871,7 +8966,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Bryt ned talet i primfaktorer genom att dela med små primtal i tur och ordning. Fortsätt tills alla faktorer är primtal; produkten ger sedan en kontroll av faktoriseringen.</p><p>Vi delar steg för steg med primtal:</p><p>\\[840=84\\cdot10=(2\\cdot2\\cdot3\\cdot7)(2\\cdot5).\\]</p><p>Samla lika faktorer:</p><p>\\[840=2^3\\cdot3\\cdot5\\cdot7.\\]</p><p><strong>Svar: \\(840=2^3\\cdot3\\cdot5\\cdot7\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "uttryck",
     "rättSvar": "2^3*3*5*7",
     "tolerans": null,
@@ -7882,12 +8977,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Dela stegvis med små primtal tills kvoten är 1. Samla sedan lika primfaktorer som potenser.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.210",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "största gemensamma delare med primtalsfaktorisering",
     "poang": "2/0/0",
@@ -7895,7 +8996,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Primtalsfaktorisera båda talen:</p><p>\\[672=2^5\\cdot3\\cdot7,\\qquad 840=2^3\\cdot3\\cdot5\\cdot7.\\]</p><p>Den största gemensamma delaren fås av de gemensamma primtalen med minsta exponent:</p><p>\\[\\mathrm{{sgd}}(672,840)=2^3\\cdot3\\cdot7=168.\\]</p><p><strong>Svar: \\(\\mathrm{{sgd}}(672,840)=168\\).</strong></p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 168,
     "tolerans": null,
@@ -7906,12 +9007,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.211",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "minsta gemensamma multipel med primtalsfaktorisering",
     "poang": "2/0/0",
@@ -7919,7 +9026,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Primtalsfaktorisera:</p><p>\\[45=3^2\\cdot5,\\qquad 72=2^3\\cdot3^2.\\]</p><p>För minsta gemensamma multipel tar vi med alla primtal med största exponent:</p><p>\\[\\mathrm{{mgm}}(45,72)=2^3\\cdot3^2\\cdot5=360.\\]</p><p><strong>Svar: minsta gemensamma multipel är \\(360\\).</strong></p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 360,
     "tolerans": null,
@@ -7930,12 +9037,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Du söker första gången eller minsta tal som är en multipel av samtliga givna tal. Bestäm deras minsta gemensamma multipel.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.212",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "typ": "Euklides algoritm",
     "poang": "2/0/0",
@@ -7943,7 +9056,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Använd divisionsalgoritmen steg för steg:</p><p>\\[714=546\\cdot1+168\\]</p><p>\\[546=168\\cdot3+42\\]</p><p>\\[168=42\\cdot4+0\\]</p><p>När resten blir 0 är den sista positiva resten största gemensamma delaren.</p><p><strong>Svar: \\(\\mathrm{{sgd}}(714,546)=42\\).</strong></p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 42,
     "tolerans": null,
@@ -7954,12 +9067,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, gå sedan baklänges genom divisionerna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.213",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "minsta faktor för delbarhet",
     "poang": "0/2/0",
@@ -7967,7 +9086,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Primtalsfaktorisera:</p><p>\\[90=2\\cdot3^2\\cdot5,\\qquad 168=2^3\\cdot3\\cdot7.\\]</p><p>För att \\(90k\\) ska vara delbart med \\(168\\) måste produkten innehålla minst faktorerna \\(2^3\\), \\(3\\) och \\(7\\).</p><p>Talet 90 innehåller redan \\(2\\) och \\(3^2\\), men saknar två extra tvåor och en sjua.</p><p>Alltså räcker</p><p>\\[k=2^2\\cdot7=28.\\]</p><p><strong>Svar: \\(k=28\\).</strong></p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 28,
     "tolerans": null,
@@ -7979,11 +9098,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Primtalsfaktorisera båda talen och jämför vilka primfaktorer som saknas i produkten.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "använda delbarhetsregel för att bestämma okänd siffra",
     "poang": "2/0/0",
@@ -7992,7 +9117,7 @@ window.BANKMATF1 = [
     "id": "2.345",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": 0,
@@ -8003,12 +9128,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd delbarhetsregeln för den aktuella divisorn och bestäm vilken siffra som gör villkoret sant.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.214",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "identiska paket med största gemensamma delare",
     "poang": "0/2/0",
@@ -8016,7 +9147,7 @@ window.BANKMATF1 = [
     "s": "<p>Antalet kassar måste dela alla tre talen. Vi bestämmer därför</p><p>\\[\\mathrm{{sgd}}(210,294,378).\\]</p><p>Först</p><p>\\[\\mathrm{{sgd}}(210,294)=42.\\]</p><p>Sedan</p><p>\\[\\mathrm{{sgd}}(42,378)=42.\\]</p><p>Alltså kan man göra som mest \\(42\\) kassar.</p><p>Innehållet i varje kasse blir</p><p>\\[210/42=5\\text{ bananer},\\quad 294/42=7\\text{ äpplen},\\quad 378/42=9\\text{ juicepaket}.\\]</p><p><strong>Svar: \\(42\\) matkassar, med \\(5\\) bananer, \\(7\\) äpplen och \\(9\\) juicepaket i varje.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "flera_delar",
     "rättSvar": [
       42,
@@ -8049,11 +9180,17 @@ window.BANKMATF1 = [
       "bananer/kasse",
       "äpplen/kasse",
       "juice/kasse"
+    ],
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
     ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "A",
     "typ": "bevisa invarians av SGD under addition",
     "poang": "0/1/2",
@@ -8062,7 +9199,7 @@ window.BANKMATF1 = [
     "id": "2.346",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -8072,12 +9209,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Det största antal eller den största längd som fungerar måste dela alla givna heltal. Bestäm därför deras största gemensamma delare.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.215",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "minsta gemensamma multipel i tidsschema",
     "poang": "0/2/0",
@@ -8085,7 +9228,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Vi söker minsta gemensamma multipel till \\(14\\), \\(18\\) och \\(24\\).</p><p>Primtalsfaktorisera:</p><p>\\[14=2\\cdot7,\\qquad 18=2\\cdot3^2,\\qquad 24=2^3\\cdot3.\\]</p><p>Ta alla primtal med största exponent:</p><p>\\[\\mathrm{{mgm}}(14,18,24)=2^3\\cdot3^2\\cdot7=504.\\]</p><p><strong>Svar: de går igång samtidigt nästa gång efter \\(504\\) minuter, alltså efter \\(8\\) timmar och \\(24\\) minuter.</strong></p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "numeriskt",
     "rättSvar": 504,
     "tolerans": null,
@@ -8096,12 +9239,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Du söker första gången eller minsta tal som är en multipel av samtliga givna tal. Bestäm deras minsta gemensamma multipel.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.216",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "C",
     "typ": "antal positiva delare",
     "poang": "0/2/0",
@@ -8109,7 +9258,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Primtalsfaktorisera:</p><p>\\[900=9\\cdot100=3^2\\cdot2^2\\cdot5^2=2^2\\cdot3^2\\cdot5^2.\\]</p><p>En positiv delare kan då skrivas som \\(2^a3^b5^c\\), där</p><p>\\[a,b,c\\in\\{0,1,2\\}.\\]</p><p>Det finns alltså 3 val för \\(a\\), 3 val för \\(b\\) och 3 val för \\(c\\).</p><p>Med multiplikationsprincipen fås</p><p>\\[3\\cdot3\\cdot3=27.\\]</p><p><strong>Svar: talet \\(900\\) har \\(27\\) positiva delare.</strong></p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "numeriskt",
     "rättSvar": 27,
     "tolerans": null,
@@ -8120,12 +9269,18 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Primtalsfaktorisera talet. Om talet är p^a q^b ... finns (a+1)(b+1)... positiva delare.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.217",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "Euklides algoritm och heltalskombination",
     "poang": "0/3/0",
@@ -8133,7 +9288,7 @@ window.BANKMATF1 = [
     "s": "<p>Vi börjar med Euklides algoritm:</p><p>\\[612=342\\cdot1+270\\]</p><p>\\[342=270\\cdot1+72\\]</p><p>\\[270=72\\cdot3+54\\]</p><p>\\[72=54\\cdot1+18\\]</p><p>\\[54=18\\cdot3+0\\]</p><p>Alltså är \\(\\mathrm{{sgd}}(612,342)=18\\).</p><p>Nu går vi baklänges:</p><p>\\[18=72-54\\]</p><p>och \\(54=270-72\\cdot3\\), alltså</p><p>\\[18=72-(270-72\\cdot3)=4\\cdot72-270.\\]</p><p>Vidare är \\(72=342-270\\), så</p><p>\\[18=4(342-270)-270=4\\cdot342-5\\cdot270.\\]</p><p>Slutligen är \\(270=612-342\\), alltså</p><p>\\[18=4\\cdot342-5(612-342)=-5\\cdot612+9\\cdot342.\\]</p><p><strong>Svar: \\(\\mathrm{{sgd}}(612,342)=18\\) och \\(18=-5\\cdot612+9\\cdot342\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -8143,12 +9298,18 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Använd Euklides algoritm. Om en heltalskombination efterfrågas, gå sedan baklänges genom divisionerna.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "id": "2.218",
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "C",
     "typ": "största möjlig brickstorlek i kontext",
     "poang": "0/2/0",
@@ -8156,7 +9317,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Plattans sidlängd måste dela både 504 och 378. Den största möjliga sidlängden är därför</p><p>\\[\\mathrm{{sgd}}(504,378).\\]</p><p>Med Euklides algoritm:</p><p>\\[504=378+126,\\qquad 378=3\\cdot126.\\]</p><p>Alltså är \\(\\mathrm{{sgd}}(504,378)=126\\).</p><p>Varje platta blir alltså \\(126\\) cm \\(\\times\\) \\(126\\) cm.</p><p>Antalet plattor blir</p><p>\\[\\frac{504}{126}\\cdot\\frac{378}{126}=4\\cdot3=12.\\]</p><p><strong>Svar: sidlängden ska vara \\(126\\) cm och det behövs \\(12\\) plattor.</strong></p></div></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "svarstyp": "flera_delar",
     "rättSvar": [
       126,
@@ -8181,6 +9342,12 @@ window.BANKMATF1 = [
     "svarEtiketter": [
       "sidlängd (cm)",
       "antal plattor"
+    ],
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
     ]
   },
   {
@@ -10083,7 +11250,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "beräkna aritmetisk summa skriven med sigma",
     "poang": "2/0/0",
@@ -10102,11 +11269,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "skriva ut och beräkna sigma-summa",
     "poang": "2/0/0",
@@ -10125,11 +11295,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "teleskoperande summa",
     "poang": "0/2/0",
@@ -10148,11 +11321,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Försök skriva \\(1/[k(k+1)]\\) som \\(1/k-1/(k+1)\\). Skriv sedan ut några termer och se vad som försvinner.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "bestämma term i talföljd från mönster",
     "poang": "2/0/0",
@@ -10172,11 +11348,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "tolka geometrisk sigma-summa",
     "poang": "2/0/0",
@@ -10196,11 +11375,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "klassificera aritmetisk och geometrisk talföljd",
     "poang": "3/0/0",
@@ -10218,11 +11400,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Kontrollera kvoten mellan två efterföljande termer. Om den är konstant är följden geometrisk.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "hitta explicit formel ur differensmönster",
     "poang": "0/2/0",
@@ -10279,11 +11464,14 @@ window.BANKMATF1 = [
         "poang": "0/1/0",
         "traningsniva": 2
       }
+    ],
+    "omrTidigare": [
+      "talfoljder_sigma"
     ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "bestäm nästa termer",
     "poang": "2/0/0",
@@ -10351,11 +11539,14 @@ window.BANKMATF1 = [
         "poang": "1/0/0",
         "traningsniva": 1
       }
+    ],
+    "omrTidigare": [
+      "talfoljder_sigma"
     ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "identifiera aritmetisk eller geometrisk",
     "poang": "2/0/0",
@@ -10373,11 +11564,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Kontrollera kvoten mellan två efterföljande termer. Om den är konstant är följden geometrisk.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "bestäm följande termer från mönster",
     "poang": "2/0/0",
@@ -10397,11 +11591,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "beräkna aritmetisk summa skriven med sigma",
     "poang": "2/0/0",
@@ -10420,11 +11617,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "explicit formel från andradifferenser",
     "poang": "0/2/0",
@@ -10445,11 +11645,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "använda summaformel för kvadrater",
     "poang": "0/2/0",
@@ -10469,11 +11672,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "explicit formel enkel",
     "poang": "2/0/0",
@@ -10493,11 +11699,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "omskriva sigma-summa till sluten form",
     "poang": "0/2/0",
@@ -10518,11 +11727,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "skriva ut sigma-summa",
     "poang": "2/0/0",
@@ -10541,11 +11753,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "skriva summa med sigma-notation",
     "poang": "2/0/0",
@@ -10564,11 +11779,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "använda summaformel för kvadrater",
     "poang": "0/2/0",
@@ -10588,11 +11806,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "skriva ut sigma",
     "poang": "2/0/0",
@@ -10611,11 +11832,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "bestämma term i talföljd från mönster",
     "poang": "2/0/0",
@@ -10635,11 +11859,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "skriva med sigma",
     "poang": "2/0/0",
@@ -10658,11 +11885,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "dela upp och beräkna sigma",
     "poang": "2/0/0",
@@ -10682,11 +11912,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "ändra index",
     "poang": "2/0/0",
@@ -10707,11 +11940,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "geometrisk summa med sigma",
     "poang": "2/0/0",
@@ -10731,11 +11967,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Summan innehåller nio termer, från \\(k=0\\) till \\(k=8\\), med kvoten 0,8.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "teleskopsumma",
     "poang": "0/3/0",
@@ -10792,11 +12031,14 @@ window.BANKMATF1 = [
         "poang": "0/1/0",
         "traningsniva": 3
       }
+    ],
+    "omrTidigare": [
+      "talfoljder_sigma"
     ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "summa med förskjutet startindex",
     "poang": "0/2/0",
@@ -10816,11 +12058,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "beräkna aritmetisk summa skriven med sigma",
     "poang": "2/0/0",
@@ -10839,11 +12084,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "beräkna summa med sigma",
     "poang": "2/0/0",
@@ -10863,11 +12111,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "skriva aritmetisk summa med sigma",
     "poang": "2/0/0",
@@ -10886,11 +12137,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Hitta ett uttryck för term nummer \\(k\\) och bestäm vilket start- och slutindex som ger exakt de termer som ska ingå.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "bestäm termer från explicit formel",
     "poang": "2/0/0",
@@ -10937,11 +12191,14 @@ window.BANKMATF1 = [
       "a₂",
       "a₃",
       "a₄"
+    ],
+    "omrTidigare": [
+      "talfoljder_sigma"
     ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "bestäm parameter i sigma-summa",
     "poang": "0/2/0",
@@ -10962,11 +12219,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dela upp summan så att \\(a\\) kan brytas ut. Använd sedan en känd summaformel och lös den återstående ekvationen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "C",
     "typ": "summa av udda tal med summaformel",
     "poang": "0/2/0",
@@ -10984,11 +12244,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "summa av de första heltalen",
     "poang": "2/0/0",
@@ -11008,11 +12271,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Läs av startindex, slutindex och uttrycket för en term. Skriv gärna ut de första termerna innan du väljer mellan direkt summering och en summaformel.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "talfoljder_sigma",
+    "omr": "inledning_talfoljder",
     "niva": "E",
     "typ": "bestämma term i talföljd från mönster",
     "poang": "2/0/0",
@@ -11032,11 +12298,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Jämför först differenserna mellan termerna. Om de inte är konstanta, undersök andradifferenser eller ett annat tydligt mönster.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "talfoljder_sigma"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestämma term i aritmetisk talföljd",
     "poang": "2/0/0",
@@ -11055,11 +12324,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(a_n=a_1+(n-1)d\\). Hur många steg är det från \\(a_1\\) till \\(a_{15}\\)?</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "identifiera geometriska följder inklusive negativ kvot",
     "poang": "2/0/0",
@@ -11078,11 +12350,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "kort_text",
     "ledtrad": "<p>Dividera varje term med den föregående. Är kvoten densamma hela tiden?</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestämma term i geometrisk talföljd",
     "poang": "2/0/0",
@@ -11101,11 +12376,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(a_n=a_1q^{n-1}\\). Här är \\(a_1=3\\) och \\(q=3\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "explicit formel och geometrisk summa",
     "poang": "2/0/0",
@@ -11159,11 +12437,14 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Bestäm först kvoten. Samma kvot används både i formeln för \\(a_n\\) och i summan.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "E",
     "typ": "upprepade insättningar och geometrisk summa",
     "poang": "2/0/0",
@@ -11172,7 +12453,7 @@ window.BANKMATF1 = [
     "id": "2.06",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 33774,
     "tolerans": 1,
@@ -11183,11 +12464,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv värdet som 20 insättningar som hunnit växa olika många år: från 19 år ned till 0 år.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "E",
     "typ": "tillämpa aritmetisk summa i en modell",
     "poang": "2/0/0",
@@ -11196,7 +12483,7 @@ window.BANKMATF1 = [
     "id": "2.441",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 532,
     "tolerans": 0,
@@ -11207,11 +12494,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först antalet platser på sista raden. Använd sedan summan av en aritmetisk talföljd.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "sista termer och aritmetisk summa",
     "poang": "2/0/0",
@@ -11274,11 +12567,14 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Differensen är 7. Bestäm \\(a_9\\) och \\(a_{10}\\) innan du använder summaformeln.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "E",
     "typ": "tillämpa geometrisk talföljd i procentuell modell",
     "poang": "2/0/0",
@@ -11287,7 +12583,7 @@ window.BANKMATF1 = [
     "id": "2.442",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 2951,
     "tolerans": 0,
@@ -11298,11 +12594,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En ökning med 7 % ger förändringsfaktorn 1,07. År 11 ligger tio förändringssteg efter år 1.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "rekursiv och explicit formel samt lång summa",
     "poang": "3/0/0",
@@ -11321,11 +12623,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Differensen är konstant. Skriv först rekursionen, därefter \\(a_n=a_1+(n-1)d\\), och använd sedan summaformeln.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "C",
     "typ": "jämföra två aritmetiska summamodeller",
     "poang": "0/3/0",
@@ -11334,7 +12639,7 @@ window.BANKMATF1 = [
     "id": "2.443",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": 0,
@@ -11347,11 +12652,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv en summaformel för de första \\(n\\) årslönerna i varje modell och jämför summorna.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "geometrisk summa med bråkkvot",
     "poang": "2/0/0",
@@ -11371,11 +12682,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Använd summan av en geometrisk talföljd med \\(a_1=1\\), \\(q=\\frac13\\) och fem termer.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "C",
     "typ": "bestämma antal termer från sista term",
     "poang": "0/2/0",
@@ -11384,7 +12698,7 @@ window.BANKMATF1 = [
     "id": "2.13",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 2620,
     "tolerans": null,
@@ -11394,11 +12708,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd sista raden för att bestämma hur många rader det finns. Därefter kan du beräkna summan.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "beräkna n:te termen",
     "poang": "2/0/0",
@@ -11418,11 +12738,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(a_n=a_1+(n-1)d\\) med \\(n=20\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "summa av aritmetisk talföljd",
     "poang": "2/0/0",
@@ -11442,11 +12765,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm hur många termer som finns från 4 till 46 när differensen är 3.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "n:te term",
     "poang": "2/0/0",
@@ -11466,11 +12792,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Från första till den sökta termen görs \\(n-1\\) steg med samma differens.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "E",
     "typ": "summa n termer",
     "poang": "2/0/0",
@@ -11479,7 +12808,7 @@ window.BANKMATF1 = [
     "id": "2.100",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 348,
     "tolerans": null,
@@ -11489,11 +12818,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm antalet platser på sista raden och använd sedan summan av första och sista termen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "C",
     "typ": "bestäm antal termer från summa",
     "poang": "0/2/0",
@@ -11514,11 +12849,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt summaformeln lika med 462. Det ger en andragradsekvation i \\(n\\); bara ett positivt heltal kan vara antal termer.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestäm första term från senare term",
     "poang": "2/0/0",
@@ -11539,11 +12877,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Gå nio steg bakåt från \\(a_{10}\\), eftersom det är nio differenser mellan \\(a_1\\) och \\(a_{10}\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "C",
     "typ": "två okända från två termer",
     "poang": "0/2/0",
@@ -11597,11 +12938,14 @@ window.BANKMATF1 = [
         "poang": "0/1/0",
         "traningsniva": 3
       }
+    ],
+    "omrTidigare": [
+      "aritmetiska_geometriska"
     ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestäm senare term från två termer",
     "poang": "2/0/0",
@@ -11622,11 +12966,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först differensen från de två givna termerna och fortsätt sedan till den sökta termen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "C",
     "typ": "upprepad medicindos som geometrisk summa",
     "poang": "0/2/0",
@@ -11635,7 +12982,7 @@ window.BANKMATF1 = [
     "id": "2.17",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 26.5,
     "tolerans": 0.05,
@@ -11646,11 +12993,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Direkt efter den åttonde dosen finns den nya dosen plus resterna av de sju tidigare doserna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "C",
     "typ": "bestämma dos från målvärde",
     "poang": "0/3/0",
@@ -11659,7 +13012,7 @@ window.BANKMATF1 = [
     "id": "2.18",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 208.6,
     "tolerans": 0.05,
@@ -11670,11 +13023,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Låt dosen vara \\(d\\). Skriv mängden efter den tolfte dosen som en geometrisk summa och lös sedan ekvationen för \\(d\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestämma n:te term i geometrisk talföljd",
     "poang": "2/0/0",
@@ -11694,11 +13053,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(a_n=a_1q^{n-1}\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "summa av geometrisk talföljd",
     "poang": "2/0/0",
@@ -11718,11 +13080,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera \\(a_1\\), kvoten \\(q\\) och antalet termer innan du använder summaformeln.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "n:te term geometrisk",
     "poang": "2/0/0",
@@ -11742,11 +13107,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Varje term fås genom att multiplicera med samma kvot. Skriv \\(a_n=a_1q^{n-1}\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "geometrisk summa",
     "poang": "2/0/0",
@@ -11766,11 +13134,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Varje term är dubbelt så stor som den föregående. Du kan summera direkt eller använda geometrisk summa.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "C",
     "typ": "upprepad procentuell minskning",
     "poang": "0/2/0",
@@ -11779,7 +13150,7 @@ window.BANKMATF1 = [
     "id": "2.104",
     "miniräknare": true,
     "geogebra": true,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": null,
@@ -11791,11 +13162,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv först mängden efter \\(n\\) steg som en exponentialmodell. Isolera potensen och ta sedan logaritm.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestäm kvot",
     "poang": "2/0/0",
@@ -11815,11 +13192,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>För en geometrisk följd gäller \\(q=a_{n+1}/a_n\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "C",
     "typ": "summa till oändlighet",
     "poang": "0/2/0",
@@ -11839,11 +13219,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En oändlig geometrisk summa finns när \\(|q|<1\\). Använd \\(S=\\frac{a_1}{1-q}\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "bestäm tidigare term",
     "poang": "2/0/0",
@@ -11863,11 +13246,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Dividera med kvoten för att gå ett steg bakåt i den geometriska följden.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "aritmetisk följd bestäm term",
     "poang": "2/0/0",
@@ -11887,11 +13273,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(a_n=a_1+(n-1)d\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "summa aritmetisk följd",
     "poang": "2/0/0",
@@ -11911,11 +13300,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först sista termen och använd sedan \\(S_n=\\frac{n(a_1+a_n)}2\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "geometrisk följd bestäm term",
     "poang": "2/0/0",
@@ -11935,11 +13327,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(a_n=a_1q^{n-1}\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "ändlig geometrisk summa",
     "poang": "2/0/0",
@@ -11959,11 +13354,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Det är åtta termer med första term 1 och kvot \\(\\frac12\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "E",
     "typ": "identifiera följdtyp och kvot",
     "poang": "2/0/0",
@@ -12015,11 +13413,14 @@ window.BANKMATF1 = [
         "poang": "1/0/0",
         "traningsniva": 1
       }
+    ],
+    "omrTidigare": [
+      "aritmetiska_geometriska"
     ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "E",
     "typ": "sittplatser i växande rader",
     "poang": "2/0/0",
@@ -12028,7 +13429,7 @@ window.BANKMATF1 = [
     "id": "2.186",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 1050,
     "tolerans": null,
@@ -12038,11 +13439,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm platsantalet på rad 25 och använd sedan \\(S_n=\\frac{n(a_1+a_n)}2\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "talfoljder_tillampningar",
     "niva": "C",
     "typ": "oändlig geometrisk summa i studsmodell",
     "poang": "0/3/0",
@@ -12051,7 +13458,7 @@ window.BANKMATF1 = [
     "id": "2.187",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Aritmetiska och geometriska talföljder och summor",
+    "familj": "Talföljder i ekonomi, natur och samhälle",
     "svarstyp": "numeriskt",
     "rättSvar": 68,
     "tolerans": null,
@@ -12061,11 +13468,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Första fallet är 12 m. Varje studshöjd därefter passeras två gånger: en gång upp och en gång ner.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ],
+    "familjTidigare": [
+      "Aritmetiska och geometriska talföljder och summor"
+    ]
   },
   {
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "C",
     "typ": "bestäm antal termer från geometrisk tillväxt",
     "poang": "0/2/0",
@@ -12086,12 +13499,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv \\(a_n=5\\cdot1,5^{n-1}\\) och lös olikheten \\(a_n>100\\) med logaritmer.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "id": "2.509",
     "kap": 2,
-    "omr": "aritmetiska_geometriska",
+    "omr": "aritm_geom_talfoljder",
     "niva": "A",
     "typ": "koppla aritmetisk och geometrisk talföljd",
     "poang": "0/1/2",
@@ -12129,11 +13545,14 @@ window.BANKMATF1 = [
       "tredje"
     ],
     "traningsniva": 5,
-    "ledtrad": "<p>Sätt de tre talen till \\(x, x+4, x+8\\). Vad måste gälla för mittentalets kvadrat om tre tal ligger i geometrisk följd?</p>"
+    "ledtrad": "<p>Sätt de tre talen till \\(x, x+4, x+8\\). Vad måste gälla för mittentalets kvadrat om tre tal ligger i geometrisk följd?</p>",
+    "omrTidigare": [
+      "aritmetiska_geometriska"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "beräkna term från rekursiv definition",
     "poang": "2/0/0",
@@ -12152,11 +13571,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Starta med \\(a_0=3\\) och använd rekursionen fem gånger. Skriv gärna upp varje mellanliggande term.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "skriva rekursiv formel",
     "poang": "3/0/0",
@@ -12175,11 +13597,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>En rekursiv formel behöver både ett startvärde och en regel för nästa term. Här fördubblas varje term.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "rekursion med jämviktsvärde",
     "poang": "0/2/0",
@@ -12199,11 +13624,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Du kan räkna fem steg direkt, eller först hitta jämviktsvärdet och studera avvikelsen från det.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "bestämma explicit formel från linjär rekursion",
     "poang": "0/2/0",
@@ -12224,11 +13652,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Hitta först ett jämviktsvärde \\(L\\) ur \\(L=\\frac23L+\\frac{20}{3}\\). Studera sedan följden \\(a_n-L\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "skriva rekursion från växande differenser",
     "poang": "0/2/0",
@@ -12248,11 +13679,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Från \\(a_n\\) till \\(a_{n+1}\\) ökar tillägget med 1 för varje steg. Koppla tillägget till index \\(n\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "beräkna term i rekursion av Fibonacci-typ",
     "poang": "2/0/0",
@@ -12271,11 +13705,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Varje ny term är summan av de två föregående. Fortsätt tabellen fram till index 10.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "A",
     "typ": "sluten formel för linjär rekursion med konstant tillskott",
     "poang": "0/0/2",
@@ -12296,11 +13733,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Hitta ett värde \\(L\\) som uppfyller \\(L=0,78L+2400\\). Studera sedan skillnaden \\(a_n-L\\).</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "A",
     "typ": "analysera konvergens i linjär rekursion",
     "poang": "0/1/2",
@@ -12354,11 +13794,14 @@ window.BANKMATF1 = [
         "poang": "0/0/2",
         "traningsniva": 5
       }
+    ],
+    "omrTidigare": [
+      "rekursiva_talfoljder"
     ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "från rekursiv till explicit formel",
     "poang": "0/2/0",
@@ -12378,11 +13821,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Beräkna några termer och prova att addera 1 till varje term. Då framträder en enkel geometrisk följd.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "beräkna nästa termer ur rekursion",
     "poang": "2/0/0",
@@ -12416,11 +13862,14 @@ window.BANKMATF1 = [
       "a₄"
     ],
     "ledtrad": "<p>Använd den givna rekursionen en gång i taget och låt varje nytt värde bli start för nästa steg.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "beräkna rekursivt",
     "poang": "2/0/0",
@@ -12454,11 +13903,14 @@ window.BANKMATF1 = [
       "a₄"
     ],
     "ledtrad": "<p>Beräkna termerna i indexordning. Hoppa inte direkt till den sökta termen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "skriva rekursion för aritmetisk följd",
     "poang": "2/0/0",
@@ -12477,11 +13929,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Bestäm först differensen mellan två efterföljande termer. En rekursion behöver också ett startvärde.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "rekursiv modell med procent och tillskott",
     "poang": "0/2/0",
@@ -12536,11 +13991,14 @@ window.BANKMATF1 = [
         "poang": "1/0/0",
         "traningsniva": 2
       }
+    ],
+    "omrTidigare": [
+      "rekursiva_talfoljder"
     ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "Fibonacci-liknande rekursion",
     "poang": "2/0/0",
@@ -12559,11 +14017,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Varje ny term är summan av de två föregående. Skriv upp termerna i en rad.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "explicit formel från linjär rekursion",
     "poang": "0/2/0",
@@ -12617,11 +14078,14 @@ window.BANKMATF1 = [
         "poang": "1/0/0",
         "traningsniva": 2
       }
+    ],
+    "omrTidigare": [
+      "rekursiva_talfoljder"
     ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "A",
     "typ": "sluten formel för rekursion och induktionsbevis",
     "poang": "0/1/3",
@@ -12683,11 +14147,14 @@ window.BANKMATF1 = [
         "poang": "0/1/3",
         "traningsniva": 5
       }
+    ],
+    "omrTidigare": [
+      "rekursiva_talfoljder"
     ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "beräkna term ur rekursion",
     "poang": "2/0/0",
@@ -12707,11 +14174,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Subtrahera 4 för varje nytt index.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "geometrisk rekursion",
     "poang": "2/0/0",
@@ -12751,11 +14221,14 @@ window.BANKMATF1 = [
       "term 5"
     ],
     "ledtrad": "<p>Multiplicera föregående term med 4 fyra gånger efter starttermen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "skriva rekursion för aritmetisk följd",
     "poang": "2/0/0",
@@ -12774,11 +14247,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Skillnaden är \\(-3\\). Ange både första termen och regeln för nästa term.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "skriva rekursion för geometrisk följd",
     "poang": "2/0/0",
@@ -12797,11 +14273,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Kvoten är 3. Ange både första termen och regeln för nästa term.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "rekursion av andra ordningen",
     "poang": "2/0/0",
@@ -12822,11 +14301,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Den nya termen beror på de två föregående, så räkna fram \\(a_3,a_4,a_5\\) innan \\(a_6\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "rekursiv ekonomisk modell",
     "poang": "0/2/0",
@@ -12881,11 +14363,14 @@ window.BANKMATF1 = [
         "poang": "1/0/0",
         "traningsniva": 2
       }
+    ],
+    "omrTidigare": [
+      "rekursiva_talfoljder"
     ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "explicit formel från rekursion med jämviktsvärde",
     "poang": "0/2/0",
@@ -12907,11 +14392,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Hitta jämviktsvärdet \\(L\\). Då blir \\(T_n-L\\) en geometrisk följd med kvoten 0,75.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "explicit formel från linjär rekursion",
     "poang": "0/2/0",
@@ -12932,11 +14420,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Hitta ett jämviktsvärde \\(L\\) ur \\(L=3L-4\\). Studera därefter \\(a_n-L\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "procentuell minskning rekursivt",
     "poang": "2/0/0",
@@ -12957,11 +14448,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En minskning med samma procent varje steg ger en konstant förändringsfaktor.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "E",
     "typ": "rekursion med n beroende tillskott",
     "poang": "2/0/0",
@@ -12981,11 +14475,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Här beror tillägget på index \\(n\\). Sätt in ett index i taget i den givna rekursionen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "rekursion med jämviktsvärde i dosmodell",
     "poang": "0/2/0",
@@ -13008,11 +14505,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Hitta jämviktsvärdet genom \\(L=0,8L+10\\). Då får avvikelsen från \\(L\\) kvoten 0,8.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "rekursiva_talfoljder",
+    "omr": "rekursionsformler",
     "niva": "C",
     "typ": "rekursion med gränsvärde",
     "poang": "0/2/0",
@@ -13064,11 +14564,14 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Bestäm först jämviktsvärdet. För den explicita formeln: studera avvikelsen från detta värde.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "rekursiva_talfoljder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "beskriva induktionsbevisets struktur",
     "poang": "1/1/0",
@@ -13087,11 +14590,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "A",
     "typ": "induktionsbevis för geometrisk summa",
     "poang": "0/2/1",
@@ -13109,11 +14615,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "induktionsbevis av delbarhet",
     "poang": "0/2/0",
@@ -13131,11 +14640,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "induktionsbevis för summan 1 till n",
     "poang": "0/2/0",
@@ -13153,11 +14665,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "förklara induktionsbevis",
     "poang": "0/2/0",
@@ -13175,11 +14690,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "A",
     "typ": "induktionsbevis för explicit form av rekursiv följd",
     "poang": "0/1/2",
@@ -13197,11 +14715,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "A",
     "typ": "induktionsbevis för kubsumma",
     "poang": "0/2/1",
@@ -13219,11 +14740,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "A",
     "typ": "induktionsbevis för Fibonacci-summa",
     "poang": "0/1/2",
@@ -13241,11 +14765,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "induktionsbevis för linjär summa",
     "poang": "0/2/0",
@@ -13263,11 +14790,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "induktionsbevis av olikhet",
     "poang": "0/2/0",
@@ -13285,11 +14815,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "A",
     "typ": "hitta fel i induktionsbevis",
     "poang": "0/0/3",
@@ -13298,7 +14831,7 @@ window.BANKMATF1 = [
     "id": "2.50",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Matematiska induktionsbevis",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13307,11 +14840,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "induktionsbevis av delbarhet",
     "poang": "0/2/0",
@@ -13329,11 +14868,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "E",
     "typ": "enkel induktion med tydlig struktur",
     "poang": "2/0/0",
@@ -13352,11 +14894,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "A",
     "typ": "induktion med delbarhet",
     "poang": "0/1/2",
@@ -13374,11 +14919,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "E",
     "typ": "induktion för aritmetisk summa",
     "poang": "2/0/0",
@@ -13396,11 +14944,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "induktion för delbarhet",
     "poang": "0/2/0",
@@ -13418,11 +14969,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "C",
     "typ": "induktion geometrisk summa",
     "poang": "0/2/0",
@@ -13440,11 +14994,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv upp <strong>basfall</strong>, <strong>induktionsantagande</strong> och <strong>induktionssteg</strong>. I steget ska du utgå från att påståendet gäller för \\(n=k\\) och arbeta fram exakt formen för \\(n=k+1\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "C",
     "typ": "indirekt bevis – motsägelsebevis av irrationalitet",
     "poang": "0/2/0",
@@ -13463,11 +15020,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "A",
     "typ": "indirekt bevis – motsägelsebevis om oändligt många primtal",
     "poang": "0/1/2",
@@ -13486,11 +15046,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "A",
     "typ": "motsägelsebevis för irrationalitet",
     "poang": "0/1/3",
@@ -13509,11 +15072,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "C",
     "typ": "indirekt bevis – irrationalitetsbevis",
     "poang": "0/2/0",
@@ -13532,11 +15098,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv först kontrapositionen till påståendet. Bevisa sedan den i stället; den är logiskt ekvivalent med ursprungspåståendet.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "C",
     "typ": "indirekt bevis – motsägelsebevis om jämn/udda",
     "poang": "0/2/0",
@@ -13555,11 +15124,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "indirekt bevis – motsägelse om minsta rationella positiva tal",
     "poang": "2/0/0",
@@ -13578,12 +15150,15 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "id": "2.141",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "direkt bevis – jämna tal",
     "poang": "2/0/0",
@@ -13591,7 +15166,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Idé:</strong> I ett direkt bevis utgår vi från det vi vet och arbetar steg för steg fram till det som ska visas.</p><p>Låt de två jämna heltalen vara \\(a\\) och \\(b\\). Eftersom de är jämna finns heltal \\(m\\) och \\(n\\) sådana att</p><p>\\[a=2m,\\qquad b=2n.\\]</p><p>Då är</p><p>\\[a+b=2m+2n=2(m+n).\\]</p><p>Eftersom \\(m+n\\) är ett heltal är \\(a+b\\) två gånger ett heltal. Därför är <strong>\\(a+b\\) jämnt</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13600,12 +15175,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.142",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "direkt bevis – udda tal",
     "poang": "2/0/0",
@@ -13613,7 +15194,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv antagandena i en algebraisk form som går att använda och motivera varför varje steg leder mot slutsatsen.</p><div class=\"facit-arbete\"><p>Låt de udda talen vara</p><p>\\[a=2m+1,\\qquad b=2n+1\\]</p><p>där \\(m\\) och \\(n\\) är heltal.</p><p>Då blir</p><p>\\[a+b=(2m+1)+(2n+1)=2m+2n+2=2(m+n+1).\\]</p><p>Uttrycket är alltså två gånger ett heltal. Därför är <strong>summan jämn</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att slutsatsen gäller för alla objekt som omfattas av antagandet och att du inte har använt det som skulle bevisas som ett dolt antagande.</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13622,12 +15203,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.143",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "direkt bevis – rationella tal",
     "poang": "2/0/0",
@@ -13635,7 +15222,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv antagandena i en algebraisk form som går att använda och motivera varför varje steg leder mot slutsatsen.</p><div class=\"facit-arbete\"><p>Låt \\(x\\) och \\(y\\) vara rationella. Då kan de skrivas</p><p>\\[x=\\frac{a}{b},\\qquad y=\\frac{c}{d}\\]</p><p>där \\(a,b,c,d\\) är heltal och \\(b\\ne0\\), \\(d\\ne0\\).</p><p>Då är</p><p>\\[x+y=\\frac{a}{b}+\\frac{c}{d}=\\frac{ad+bc}{bd}.\\]</p><p>Täljaren \\(ad+bc\\) är ett heltal och nämnaren \\(bd\\ne0\\) är ett heltal. Alltså kan summan skrivas som en kvot av två heltal.</p><p>Därför är <strong>\\(x+y\\) rationellt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att slutsatsen gäller för alla objekt som omfattas av antagandet och att du inte har använt det som skulle bevisas som ett dolt antagande.</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13644,12 +15231,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.144",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "indirekt bevis – kontraposition",
     "poang": "2/0/0",
@@ -13657,7 +15250,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv antagandena i en algebraisk form som går att använda och motivera varför varje steg leder mot slutsatsen.</p><div class=\"facit-arbete\"><p><strong>Kontraposition:</strong> I stället för att visa</p><p>\\[n^2\\text{ jämnt}\\Rightarrow n\\text{ jämnt}\\]</p><p>visar vi det logiskt likvärdiga påståendet</p><p>\\[n\\text{ udda}\\Rightarrow n^2\\text{ udda}.\\]</p><p>Anta därför att \\(n\\) är udda. Då finns ett heltal \\(k\\) sådant att</p><p>\\[n=2k+1.\\]</p><p>Då</p><p>\\[n^2=(2k+1)^2=4k^2+4k+1=2(2k^2+2k)+1.\\]</p><p>Detta är udda. Kontrapositionen är alltså bevisad, och därmed gäller det ursprungliga påståendet: <strong>om \\(n^2\\) är jämnt så är \\(n\\) jämnt</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att slutsatsen gäller för alla objekt som omfattas av antagandet och att du inte har använt det som skulle bevisas som ett dolt antagande.</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13667,12 +15260,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv först kontrapositionen till påståendet. Bevisa sedan den i stället; den är logiskt ekvivalent med ursprungspåståendet.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.145",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "C",
     "typ": "välja bevismetod",
     "poang": "1/1/0",
@@ -13680,7 +15279,7 @@ window.BANKMATF1 = [
     "s": "<p>I ett <strong>direkt bevis</strong> utgår man från antagandena och härleder steg för steg det som ska visas.</p><p>I ett <strong>indirekt bevis</strong> visar man påståendet via ett logiskt likvärdigt eller motsatt resonemang i stället för att gå direkt från antagande till slutsats.</p><p>Två vanliga indirekta metoder är:</p><p>1. <strong>Kontraposition:</strong> för att visa \\(P\\Rightarrow Q\\) visar man i stället \\(\\neg Q\\Rightarrow\\neg P\\).</p><p>2. <strong>Motsägelsebevis:</strong> man antar att det man vill visa är falskt och visar att antagandet leder till en motsägelse.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13690,12 +15289,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Titta på påståendets logiska form. Direkt bevis utgår från antagandet, kontraposition visar ”inte slutsatsen ⇒ inte antagandet”, och motsägelsebevis antar motsatsen till det som ska visas.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.146",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "C",
     "typ": "direkt bevis – delbarhet",
     "poang": "0/2/0",
@@ -13703,7 +15308,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv antagandena i en algebraisk form som går att använda och motivera varför varje steg leder mot slutsatsen.</p><div class=\"facit-arbete\"><p>Antag att \\(a\\mid b\\). Då finns ett heltal \\(m\\) sådant att</p><p>\\[b=am.\\]</p><p>Antag också att \\(b\\mid c\\). Då finns ett heltal \\(n\\) sådant att</p><p>\\[c=bn.\\]</p><p>Sätt in \\(b=am\\):</p><p>\\[c=(am)n=a(mn).\\]</p><p>Produkten \\(mn\\) är ett heltal. Alltså kan \\(c\\) skrivas som \\(a\\) gånger ett heltal.</p><p>Därför gäller <strong>\\(a\\mid c\\)</strong>.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att slutsatsen gäller för alla objekt som omfattas av antagandet och att du inte har använt det som skulle bevisas som ett dolt antagande.</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13712,12 +15317,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.147",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "C",
     "typ": "direkt bevis – udda kvadrat modulo 8",
     "poang": "0/2/0",
@@ -13725,7 +15336,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv antagandena i en algebraisk form som går att använda och motivera varför varje steg leder mot slutsatsen.</p><div class=\"facit-arbete\"><p>Låt \\(n\\) vara udda. Då kan vi skriva</p><p>\\[n=2k+1\\]</p><p>för något heltal \\(k\\).</p><p>Kvadrera:</p><p>\\[n^2=(2k+1)^2=4k^2+4k+1=4k(k+1)+1.\\]</p><p>Två heltal i följd, \\(k\\) och \\(k+1\\), innehåller alltid ett jämnt tal. Därför är \\(k(k+1)\\) jämnt. Skriv \\(k(k+1)=2m\\).</p><p>Då</p><p>\\[n^2=4\\cdot2m+1=8m+1.\\]</p><p>Alltså ger \\(n^2\\) resten <strong>1</strong> vid division med 8.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att slutsatsen gäller för alla objekt som omfattas av antagandet och att du inte har använt det som skulle bevisas som ett dolt antagande.</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13734,12 +15345,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.148",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "C",
     "typ": "indirekt bevis – kontraposition och delbarhet",
     "poang": "0/2/0",
@@ -13747,7 +15364,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Skriv antagandena i en algebraisk form som går att använda och motivera varför varje steg leder mot slutsatsen.</p><div class=\"facit-arbete\"><p>Vi visar kontrapositionen:</p><p><strong>Om \\(n\\) inte är delbart med 3, så är \\(n^2\\) inte delbart med 3.</strong></p><p>Om \\(n\\) inte är delbart med 3 ger det resten 1 eller 2 vid division med 3.</p><p>Fall 1:</p><p>\\[n\\equiv1\\pmod3\\Rightarrow n^2\\equiv1^2=1\\pmod3.\\]</p><p>Fall 2:</p><p>\\[n\\equiv2\\pmod3\\Rightarrow n^2\\equiv2^2=4\\equiv1\\pmod3.\\]</p><p>I båda fallen ger \\(n^2\\) resten 1 och är alltså inte delbart med 3.</p><p>Kontrapositionen är bevisad. Därför gäller det ursprungliga påståendet.</p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att slutsatsen gäller för alla objekt som omfattas av antagandet och att du inte har använt det som skulle bevisas som ett dolt antagande.</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13757,12 +15374,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv först kontrapositionen till påståendet. Bevisa sedan den i stället; den är logiskt ekvivalent med ursprungspåståendet.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.149",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "C",
     "typ": "indirekt bevis – kontraposition av produkt",
     "poang": "0/2/0",
@@ -13770,7 +15393,7 @@ window.BANKMATF1 = [
     "s": "<p>Det är smidigare att visa kontrapositionen:</p><p><strong>Om minst ett av talen \\(a\\) och \\(b\\) är jämnt, så är produkten \\(ab\\) jämn.</strong></p><p>Anta till exempel att \\(a\\) är jämnt. Då finns ett heltal \\(k\\) sådant att</p><p>\\[a=2k.\\]</p><p>Då blir</p><p>\\[ab=(2k)b=2(kb).\\]</p><p>Eftersom \\(kb\\) är ett heltal är produkten jämn. Samma resonemang gäller om \\(b\\) är jämnt.</p><p>Alltså är kontrapositionen sann. Därför gäller det ursprungliga påståendet: om \\(ab\\) är udda måste <strong>både \\(a\\) och \\(b\\) vara udda</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13780,12 +15403,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Skriv först kontrapositionen till påståendet. Bevisa sedan den i stället; den är logiskt ekvivalent med ursprungspåståendet.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.150",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "C",
     "typ": "direkt bevis – tre konsekutiva heltal",
     "poang": "0/3/0",
@@ -13793,7 +15422,7 @@ window.BANKMATF1 = [
     "s": "<p>Låt de tre heltalen vara</p><p>\\[n,\\qquad n+1,\\qquad n+2.\\]</p><p>För att produkten ska vara delbar med 6 måste den innehålla både en faktor 2 och en faktor 3.</p><p><strong>Faktor 2:</strong> Bland tre på varandra följande heltal finns alltid minst ett jämnt tal. Produkten är därför delbar med 2.</p><p><strong>Faktor 3:</strong> Tre på varandra följande heltal ger vid division med 3 resterna 0, 1 och 2 i någon ordning. Därför är exakt ett av dem delbart med 3. Produkten är alltså delbar med 3.</p><p>Eftersom 2 och 3 saknar gemensamma primfaktorer är produkten delbar med</p><p>\\[2\\cdot3=6.\\]</p><p>Alltså är <strong>\\(n(n+1)(n+2)\\) alltid delbart med 6</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -13802,12 +15431,18 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.301",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du vill bevisa med motsägelse att \\(\\sqrt3\\) är irrationellt. Vilket är rätt första antagande?</p><p>A. Anta att \\(\\sqrt3\\) är rationellt och kan skrivas \\(p/q\\) i förkortad form.<br>B. Anta att \\(\\sqrt3=3\\).<br>C. Anta att alla rationella tal är heltal.<br>D. Anta att 3 är jämnt.</p>",
@@ -13826,12 +15461,15 @@ window.BANKMATF1 = [
     "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
-    "typ": "välja startantagande i motsägelsebevis"
+    "typ": "välja startantagande i motsägelsebevis",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "id": "2.302",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>För att bevisa att det finns oändligt många primtal med motsägelsebevis, vilket antagande startar man med?</p><p>A. Att det bara finns ändligt många primtal.<br>B. Att alla heltal är primtal.<br>C. Att 1 är ett primtal.<br>D. Att varje primtal är jämnt.</p>",
@@ -13850,12 +15488,15 @@ window.BANKMATF1 = [
     "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
-    "typ": "välja startantagande i motsägelsebevis"
+    "typ": "välja startantagande i motsägelsebevis",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "id": "2.303",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I ett motsägelsebevis antar du \\(P\\) och härleder både \\(Q\\) och \\(\\neg Q\\). Vad kan du då dra för slutsats?</p><p>A. Antagandet \\(P\\) kan inte vara sant.<br>B. Både Q och inte-Q är sanna samtidigt.<br>C. Beviset visar ingenting.<br>D. P måste vara en identitet.</p>",
@@ -13874,12 +15515,15 @@ window.BANKMATF1 = [
     "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
-    "typ": "tolka motsägelse i bevis"
+    "typ": "tolka motsägelse i bevis",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "id": "2.304",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du vill visa att inget heltal kan vara både jämnt och udda. Vilket antagande passar för ett motsägelsebevis?</p><p>A. Anta att det finns ett heltal n som är både jämnt och udda.<br>B. Anta att n=0.<br>C. Anta att alla heltal är positiva.<br>D. Anta att jämna tal inte finns.</p>",
@@ -13898,17 +15542,20 @@ window.BANKMATF1 = [
     "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
-    "typ": "välja antagande i motsägelsebevis"
+    "typ": "välja antagande i motsägelsebevis",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "id": "2.305",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Du vill bevisa påståendet: ”Om \\(n^2\\) är jämnt så är \\(n\\) jämnt.” Vilken metod är särskilt naturlig?</p><p>A. Kontraposition: visa att om n är udda så är \\(n^2\\) udda.<br>B. Induktion över reella tal.<br>C. Numerisk approximation.<br>D. Rita en graf.</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj bevismetod efter påståendets logiska form. För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p><p>Kontrapositionen är logiskt ekvivalent med ursprungspåståendet och blir direkt att visa.</p><p><strong>Svar:</strong> A.</p>",
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Matematiska induktionsbevis",
     "miniräknare": false,
     "geogebra": false,
     "svarstyp": "val",
@@ -13922,19 +15569,25 @@ window.BANKMATF1 = [
     "svarFormat": "val",
     "ledtrad": "<p>Titta på påståendets logiska form. Direkt bevis utgår från antagandet, kontraposition visar ”inte slutsatsen ⇒ inte antagandet”, och motsägelsebevis antar motsatsen till det som ska visas.</p>",
     "traningsniva": 1,
-    "typ": "välja bevismetod"
+    "typ": "välja bevismetod",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "2.322",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken metod är naturligast för att bevisa att summan av två jämna heltal alltid är jämn?</p><p>A. Direkt bevis<br>B. Motsägelsebevis<br>C. Lådprincipen<br>D. Induktionsbevis</p>",
     "s": "<p><strong>Nyckelidé:</strong> Välj bevismetod efter påståendets logiska form. För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p><p><strong>Idé:</strong> Skriv de jämna talen som \\(2a\\) och \\(2b\\). Summan blir \\(2a+2b=2(a+b)\\), alltså jämn.</p><p><strong>Svar:</strong> A, direkt bevis.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Matematiska induktionsbevis",
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
@@ -13946,11 +15599,17 @@ window.BANKMATF1 = [
     "svarFormat": "val",
     "ledtrad": "<p>Titta på påståendets logiska form. Direkt bevis utgår från antagandet, kontraposition visar ”inte slutsatsen ⇒ inte antagandet”, och motsägelsebevis antar motsatsen till det som ska visas.</p>",
     "traningsniva": 1,
-    "typ": "välja bevismetod"
+    "typ": "välja bevismetod",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Visa med motsägelsebevis att det inte finns något största jämnt heltal.</p>",
@@ -13968,11 +15627,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 2,
-    "typ": "enkelt motsägelsebevis"
+    "typ": "enkelt motsägelsebevis",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Visa med motsägelsebevis att två udda heltal inte kan ha en udda summa.</p>",
@@ -13990,11 +15652,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 2,
-    "typ": "enkelt motsägelsebevis med jämn/udda"
+    "typ": "enkelt motsägelsebevis med jämn/udda",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bevisa direkt att summan av två tal som är delbara med 5 också är delbar med 5.</p>",
@@ -14002,7 +15667,7 @@ window.BANKMATF1 = [
     "id": "2.315",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -14012,11 +15677,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
     "traningsniva": 2,
-    "typ": "direkt bevis – delbarhet"
+    "typ": "direkt bevis – delbarhet",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bevisa med kontraposition: Om \\(n^2\\) är udda så är \\(n\\) udda.</p>",
@@ -14024,7 +15695,7 @@ window.BANKMATF1 = [
     "id": "2.316",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -14034,11 +15705,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Skriv först kontrapositionen till påståendet. Bevisa sedan den i stället; den är logiskt ekvivalent med ursprungspåståendet.</p>",
     "traningsniva": 2,
-    "typ": "kontraposition – jämn/udda"
+    "typ": "kontraposition – jämn/udda",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Välj lämplig bevismetod och visa: om ett heltal är delbart med 6 så är det delbart med 3.</p>",
@@ -14046,7 +15723,7 @@ window.BANKMATF1 = [
     "id": "2.317",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -14056,11 +15733,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Titta på påståendets logiska form. Direkt bevis utgår från antagandet, kontraposition visar ”inte slutsatsen ⇒ inte antagandet”, och motsägelsebevis antar motsatsen till det som ska visas.</p>",
     "traningsniva": 2,
-    "typ": "välja och genomföra direkt bevis"
+    "typ": "välja och genomföra direkt bevis",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "C",
     "typ": "direkt bevis",
     "poang": "0/2/0",
@@ -14069,7 +15752,7 @@ window.BANKMATF1 = [
     "id": "2.508",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -14079,7 +15762,13 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 3,
@@ -15394,7 +17083,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "implicit derivering för tangentlutning",
     "poang": "0/2/0",
@@ -15414,11 +17103,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Derivera båda leden med avseende på \\(x\\). När du deriverar en term med \\(y\\) måste kedjeregeln ge en faktor \\(y'\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "C",
     "typ": "linjär approximation kring punkt",
     "poang": "1/1/0",
@@ -15449,11 +17141,14 @@ window.BANKMATF1 = [
       "uppskattning"
     ],
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "A",
     "typ": "felbedömning för linjär approximation",
     "poang": "0/1/2",
@@ -15488,11 +17183,14 @@ window.BANKMATF1 = [
       "för stor/för liten"
     ],
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation nära känt värde",
     "poang": "2/0/0",
@@ -15512,11 +17210,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet för cirkelarea",
     "poang": "2/0/0",
@@ -15536,11 +17237,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation med figur",
     "poang": "2/0/0",
@@ -15560,11 +17264,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation av invers",
     "poang": "2/0/0",
@@ -15584,11 +17291,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation med derivata",
     "poang": "2/0/0",
@@ -15607,11 +17317,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation av kubikrot",
     "poang": "2/0/0",
@@ -15631,11 +17344,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "C",
     "typ": "bedöma över- eller underskattning",
     "poang": "0/2/0",
@@ -15653,11 +17369,14 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "approximation sin nära noll",
     "poang": "2/0/0",
@@ -15677,11 +17396,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterad förändringshastighet i kon med likformighet",
     "poang": "0/2/0",
@@ -15703,11 +17425,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "approximation e^x",
     "poang": "2/0/0",
@@ -15727,11 +17452,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "C",
     "typ": "bestäm tangentapproximation symboliskt",
     "poang": "0/2/0",
@@ -15762,11 +17490,14 @@ window.BANKMATF1 = [
       "uppskattning"
     ],
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "approximation cos nära noll",
     "poang": "2/0/0",
@@ -15786,11 +17517,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter två fordon",
     "poang": "0/3/0",
@@ -15812,11 +17546,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter ballong",
     "poang": "0/3/0",
@@ -15838,11 +17575,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "A",
     "typ": "relaterade förändringshastigheter konisk tank",
     "poang": "0/2/1",
@@ -15864,11 +17604,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 5
+    "traningsniva": 5,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter stege",
     "poang": "0/3/0",
@@ -15890,11 +17633,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter växande cirkel",
     "poang": "2/0/0",
@@ -15915,11 +17661,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation med derivata",
     "poang": "2/0/0",
@@ -15938,11 +17687,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter för kvadrat",
     "poang": "2/0/0",
@@ -15963,11 +17715,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "cirkelns area via diameter",
     "poang": "2/0/0",
@@ -15987,11 +17742,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "sfärens volym",
     "poang": "2/0/0",
@@ -16011,11 +17769,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "kubens volym",
     "poang": "2/0/0",
@@ -16035,11 +17796,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "stege mot vägg",
     "poang": "0/2/0",
@@ -16061,11 +17825,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "kon med likformighet",
     "poang": "0/2/0",
@@ -16085,11 +17852,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "rektangel area",
     "poang": "2/0/0",
@@ -16109,11 +17879,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "cylinder volym",
     "poang": "2/0/0",
@@ -16133,11 +17906,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "skugga likformiga trianglar",
     "poang": "0/2/0",
@@ -16159,11 +17935,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "sfär area mot volym",
     "poang": "0/2/0",
@@ -16183,11 +17962,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "omkrets cirkel",
     "poang": "2/0/0",
@@ -16207,11 +17989,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet cirkel via omkrets",
     "poang": "2/0/0",
@@ -16232,11 +18017,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation av kvadratrot",
     "poang": "2/0/0",
@@ -16256,11 +18044,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterad förändringshastighet båt och rep",
     "poang": "0/3/0",
@@ -16282,11 +18073,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterad förändringshastighet sfär",
     "poang": "0/2/0",
@@ -16307,12 +18101,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.110",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet för kvadrat via diagonal",
     "poang": "2/0/0",
@@ -16332,12 +18129,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.111",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "cylinder med känt inflöde",
     "poang": "2/0/0",
@@ -16356,12 +18156,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.112",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter två fordon ny variant",
     "poang": "0/2/0",
@@ -16382,12 +18185,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.113",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "konisk behållare med sambandet r lika med 2h",
     "poang": "0/2/0",
@@ -16407,12 +18213,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.114",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter strålkastare och vägg",
     "poang": "0/2/0",
@@ -16433,12 +18242,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.115",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter helikopter",
     "poang": "0/3/0",
@@ -16459,12 +18271,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.116",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation av logaritm med figur",
     "poang": "2/0/0",
@@ -16483,12 +18298,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.117",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "cirkelns omkrets från areaändring",
     "poang": "0/2/0",
@@ -16507,11 +18325,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation kring \\(x_0=4\\) för att uppskatta \\(\\sqrt{4,1}\\).</p><p>Du får använda att \\(f(4)=2\\) och \\(f'(4)=0,25\\).</p>",
@@ -16531,11 +18352,14 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
     "typ": "linjär approximation med givna tangentdata",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation kring \\(x_0=1\\) för att uppskatta \\(\\ln(1,03)\\).</p><p>Du får använda att \\(f(1)=0\\) och \\(f'(1)=1\\).</p>",
@@ -16555,11 +18379,14 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
     "typ": "linjär approximation med givna tangentdata",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd linjär approximation kring \\(x_0=0\\) för att uppskatta \\(e^{0,05}\\).</p><p>Du får använda att \\(f(0)=1\\) och \\(f'(0)=1\\).</p>",
@@ -16579,11 +18406,14 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd tangentlinjen \\(L(x)=f(a)+f'(a)(x-a)\\). Välj \\(a\\) nära det värde du vill uppskatta.</p>",
     "typ": "linjär approximation med givna tangentdata",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterad förändringshastighet med likformiga trianglar",
     "poang": "0/2/0",
@@ -16605,12 +18435,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.242",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet för rektangelarea",
     "poang": "2/0/0",
@@ -16629,12 +18462,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "traningsniva": 1,
-    "ledtrad": "<p>Derivera \\(A=lb\\) med avseende på tiden. Kom ihåg produktregeln eftersom både \\(l\\) och \\(b\\) ändras.</p>"
+    "ledtrad": "<p>Derivera \\(A=lb\\) med avseende på tiden. Kom ihåg produktregeln eftersom både \\(l\\) och \\(b\\) ändras.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.243",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterad förändringshastighet med konstant area",
     "poang": "0/2/0",
@@ -16653,12 +18489,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "traningsniva": 3,
-    "ledtrad": "<p>Konstant area betyder \\(dA/dt=0\\). Bestäm först den aktuella höjden ur \\(bh=100\\), och derivera sedan produkten.</p>"
+    "ledtrad": "<p>Konstant area betyder \\(dA/dt=0\\). Bestäm först den aktuella höjden ur \\(bh=100\\), och derivera sedan produkten.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.244",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "A",
     "typ": "relaterad förändringshastighet för vinkel i stege",
     "poang": "0/1/2",
@@ -16678,12 +18517,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "traningsniva": 5,
-    "ledtrad": "<p>Välj en trigonometrisk relation där stegens konstanta längd och fotens avstånd ingår. Derivera relationen med avseende på tiden.</p>"
+    "ledtrad": "<p>Välj en trigonometrisk relation där stegens konstanta längd och fotens avstånd ingår. Derivera relationen med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "id": "3.245",
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "vinkelhastighet för kamera",
     "poang": "0/3/0",
@@ -16703,11 +18545,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "traningsniva": 4,
-    "ledtrad": "<p>Använd \\(\\tan v=x/5\\). När du deriverar \\(\\tan v\\) med avseende på tiden får du \\(\\sec^2(v)\\,dv/dt\\).</p>"
+    "ledtrad": "<p>Använd \\(\\tan v=x/5\\). När du deriverar \\(\\tan v\\) med avseende på tiden får du \\(\\sec^2(v)\\,dv/dt\\).</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "C",
     "typ": "optimering med integralvillkor",
     "poang": "0/2/0",
@@ -16716,7 +18561,7 @@ window.BANKMATF1 = [
     "id": "3.12",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
@@ -16729,11 +18574,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "area mellan kurva och x-axel med graf",
     "poang": "2/0/0",
@@ -16742,7 +18593,7 @@ window.BANKMATF1 = [
     "id": "3.22",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "bråk",
     "rättSvar": "4/3",
     "tolerans": null,
@@ -16754,11 +18605,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Bestäm först nollställena. Mellan dem ligger grafen under \\(x\\)-axeln, så arean är motsatsen till den bestämda integralen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "area mellan graf och x-axel",
     "poang": "2/0/0",
@@ -16767,7 +18624,7 @@ window.BANKMATF1 = [
     "s": "<p>Funktionen \\(4-x\\) är positiv på intervallet \\([1,3]\\), så arean är direkt den bestämda integralen.</p><p>\\[A=\\int_1^3(4-x)\\,dx=\\left[4x-\\frac{x^2}{2}\\right]_1^3=4.\\]</p><p><strong>Svar:</strong> 4 areaenheter.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": null,
@@ -16779,11 +18636,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Funktionen är positiv på hela intervallet. Arean är därför direkt \\(\\int_1^3(4-x)\\,dx\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "fördjupad integralkalkyl med exakt värde",
     "poang": "2/0/0",
@@ -16792,7 +18655,7 @@ window.BANKMATF1 = [
     "id": "3.206",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": "64/3",
     "tolerans": null,
@@ -16802,11 +18665,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Vilken primitiv funktion har \\(x^2\\)? Sätt därefter in den övre och den undre integrationsgränsen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "E",
     "typ": "bestämma stationära punkter symboliskt",
     "poang": "2/0/0",
@@ -16815,7 +18684,7 @@ window.BANKMATF1 = [
     "id": "3.207",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "flera_svar",
     "rättSvar": [
       "sqrt(3)",
@@ -16832,11 +18701,17 @@ window.BANKMATF1 = [
     "svarFormat": [
       "uttryck",
       "uttryck"
+    ],
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
     ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "beräkna funktionsmedelvärde med integral",
     "poang": "2/0/0",
@@ -16845,7 +18720,7 @@ window.BANKMATF1 = [
     "id": "3.208",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": "64/3",
     "tolerans": null,
@@ -16856,11 +18731,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Dela den bestämda integralen med intervallets längd.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "C",
     "typ": "lösa transcendental ekvation numeriskt",
     "poang": "0/2/0",
@@ -16869,7 +18750,7 @@ window.BANKMATF1 = [
     "id": "3.209",
     "miniräknare": true,
     "geogebra": true,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "numeriskt",
     "rättSvar": 1.6058119963201776,
     "tolerans": 0.002,
@@ -16880,11 +18761,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv om uppgiften som ett nollställeproblem, till exempel \\(xe^x-8=0\\), och använd ett numeriskt verktyg.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "C",
     "typ": "parameterproblem med integral och unikhetsresonemang",
     "poang": "0/2/0",
@@ -16893,7 +18780,7 @@ window.BANKMATF1 = [
     "id": "3.210",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": null,
     "tolerans": null,
@@ -16906,11 +18793,17 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Beräkna först \\(A(t)\\). För unikheten: vilket tecken har \\(A'(t)\\) när \\(t>0\\)?</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "area under parabel",
     "poang": "2/0/0",
@@ -16919,7 +18812,7 @@ window.BANKMATF1 = [
     "id": "3.49",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "bråk",
     "rättSvar": "32/3",
     "tolerans": null,
@@ -16931,11 +18824,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Bestäm parabelns nollställen och integrera mellan dem. Utnyttja gärna symmetrin.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "E",
     "typ": "bestämma stationära punkter symboliskt",
     "poang": "2/0/0",
@@ -16944,7 +18843,7 @@ window.BANKMATF1 = [
     "id": "3.212",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "flera_svar",
     "rättSvar": [
       -2,
@@ -16961,11 +18860,17 @@ window.BANKMATF1 = [
     "svarFormat": [
       "numeriskt",
       "numeriskt"
+    ],
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
     ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "medelvärde av funktion",
     "poang": "2/0/0",
@@ -16974,7 +18879,7 @@ window.BANKMATF1 = [
     "id": "3.50",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -16983,11 +18888,17 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "C",
     "typ": "area mellan två kurvor",
     "poang": "0/2/0",
@@ -16996,7 +18907,7 @@ window.BANKMATF1 = [
     "id": "3.51",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "bråk",
     "rättSvar": "9/2",
     "tolerans": null,
@@ -17008,11 +18919,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "bråk",
     "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "C",
     "typ": "optimering med integralanknytning",
     "poang": "0/2/0",
@@ -17021,7 +18938,7 @@ window.BANKMATF1 = [
     "id": "3.52",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "uttryck",
     "rättSvar": "12*sqrt(3)",
     "tolerans": null,
@@ -17034,11 +18951,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Låt det högra övre hörnet ha koordinaten \\(x\\). Skriv rektangelns bredd och höjd som funktioner av \\(x\\), och maximera sedan arean.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "bestäm area mellan linje och axel",
     "poang": "2/0/0",
@@ -17047,7 +18970,7 @@ window.BANKMATF1 = [
     "id": "3.70",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 9,
     "tolerans": null,
@@ -17058,11 +18981,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "bestämd integral symmetri",
     "poang": "2/0/0",
@@ -17071,7 +19000,7 @@ window.BANKMATF1 = [
     "id": "3.71",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": null,
@@ -17083,11 +19012,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "funktionsmedelvärde på intervall",
     "poang": "2/0/0",
@@ -17096,7 +19031,7 @@ window.BANKMATF1 = [
     "id": "3.219",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": 1e-06,
@@ -17107,11 +19042,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd formeln för en funktions medelvärde: integralens värde delat med intervallets längd.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "C",
     "typ": "bestäm parameter från integral",
     "poang": "0/2/0",
@@ -17120,7 +19061,7 @@ window.BANKMATF1 = [
     "id": "3.73",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": null,
@@ -17131,11 +19072,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv vilken deriveringsregel varje term kräver. Vid optimering: bestäm definitionsmängden och lös \\(f'(x)=0\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "C",
     "typ": "area med absolutvärde",
     "poang": "0/2/0",
@@ -17144,7 +19091,7 @@ window.BANKMATF1 = [
     "id": "3.80",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": 0,
@@ -17156,11 +19103,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm var \\(x^2-1\\) byter tecken. För geometrisk area måste delar under \\(x\\)-axeln räknas positivt.</p>",
     "traningsniva": 3,
-    "svarFormat": "numeriskt"
+    "svarFormat": "numeriskt",
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "generaliserade_integraler",
     "niva": "C",
     "typ": "värdera CAS-resultat för generaliserad integral",
     "poang": "0/2/0",
@@ -17181,11 +19134,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "parameterproblem med integral",
     "poang": "2/0/0",
@@ -17194,7 +19150,7 @@ window.BANKMATF1 = [
     "id": "3.224",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": "sqrt(10)/2",
     "tolerans": null,
@@ -17205,11 +19161,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Beräkna integralen först. Använd sedan villkoret \\(t>0\\) när du löser ekvationen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "generaliserade_integraler",
     "niva": "C",
     "typ": "granska felaktigt CAS-resultat för generaliserad integral",
     "poang": "0/2/0",
@@ -17230,11 +19192,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Rita området och markera integrationsgränserna. Är det översta minus nedersta, eller behöver intervallet delas vid ett nollställe?</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "E",
     "typ": "tolka derivata från CAS-utdata",
     "poang": "2/0/0",
@@ -17243,7 +19208,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal. Rita gärna en enkel tallinje innan du skriver svaret.</p><div class=\"facit-arbete\"><p><strong>a)</strong> Kritiska punkter fås när derivatan är 0:</p><p>\\[3x^2-6=0\\Rightarrow x^2=2\\Rightarrow x=\\pm \\sqrt2.\\]</p><p><strong>b)</strong> Funktionen är växande när \\(f'(x)\\gt 0\\):</p><p>\\[3x^2-6\\gt 0\\Rightarrow x^2\\gt 2\\Rightarrow x\\lt -\\sqrt2\\ \\text{eller}\\ x\\gt \\sqrt2.\\]</p><p><strong>Funktionen är alltså växande för \\(( -\\infty,-\\sqrt2)\\) och \\((\\sqrt2,\\infty)\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -17255,11 +19220,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "C",
     "typ": "numerisk lösning av logaritmisk ekvation",
     "poang": "0/2/0",
@@ -17268,7 +19239,7 @@ window.BANKMATF1 = [
     "id": "3.227",
     "miniräknare": true,
     "geogebra": true,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "numeriskt",
     "rättSvar": 4.496664173006161,
     "tolerans": 0.002,
@@ -17279,11 +19250,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Studera \\(g(x)=x+\\ln x-6\\) för \\(x>0\\) och bestäm dess nollställe numeriskt.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "tolka numeriskt integralvärde",
     "poang": "2/0/0",
@@ -17292,7 +19269,7 @@ window.BANKMATF1 = [
     "id": "3.53",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -17304,11 +19281,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Gör en skiss och skriv ut vad varje längd betecknar. Finns en rät vinkel, likformighet eller en känd area- eller volymformel?</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "C",
     "typ": "granska CAS-antagande",
     "poang": "0/2/0",
@@ -17317,7 +19300,7 @@ window.BANKMATF1 = [
     "id": "3.54",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -17328,11 +19311,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Vad är \\(\\sqrt{x^2}\\) för ett negativt \\(x\\)? Testa till exempel \\(x=-2\\).</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "E",
     "typ": "numerisk nollpunkt från verktyg",
     "poang": "2/0/0",
@@ -17341,7 +19330,7 @@ window.BANKMATF1 = [
     "id": "3.74",
     "miniräknare": true,
     "geogebra": true,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -17352,11 +19341,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Kontrollera både att funktionsvärdet nära \\(x=1,521\\) ligger nära noll och att ett teckenbyte sker i närheten.</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "numerisk derivata och tolkning",
     "poang": "1/0/0",
@@ -17365,7 +19360,7 @@ window.BANKMATF1 = [
     "id": "3.75",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -17376,11 +19371,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>En derivata beskriver momentan förändringshastighet. Ta med både tecknet och enheten i tolkningen.</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "repetition_derivator",
     "niva": "A",
     "typ": "optimering av inskriven rektangel",
     "poang": "0/1/3",
@@ -17389,7 +19390,7 @@ window.BANKMATF1 = [
     "id": "3.83",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -17402,11 +19403,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Skriv först rektangelns bredd och höjd med hjälp av \\(x\\). För att visa att extrempunkten verkligen ger största area behöver du också motivera maximum.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "C",
     "typ": "area mellan två kurvor med bestämda skärningspunkter",
     "poang": "0/3/0",
@@ -17415,7 +19422,7 @@ window.BANKMATF1 = [
     "id": "3.84",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "flera_delar",
     "rättSvar": [
       [
@@ -17443,11 +19450,17 @@ window.BANKMATF1 = [
       "area"
     ],
     "ledtrad": "<p>Bestäm skärningspunkterna genom att lösa \\(x^2=2x\\). Integrera därefter övre kurva minus undre kurva.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "medelvärde av linjär funktion",
     "poang": "2/0/0",
@@ -17456,7 +19469,7 @@ window.BANKMATF1 = [
     "id": "3.102",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -17465,11 +19478,17 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "E",
     "typ": "area mellan två enkla kurvor",
     "poang": "2/0/0",
@@ -17478,7 +19497,7 @@ window.BANKMATF1 = [
     "id": "3.103",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -17489,11 +19508,17 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 3,
-    "omr": "fordjupad_analys",
+    "omr": "integraler_area",
     "niva": "C",
     "typ": "parameter från area mellan linje och parabel",
     "poang": "0/3/0",
@@ -17502,7 +19527,7 @@ window.BANKMATF1 = [
     "id": "3.104",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Fördjupad analys med derivata och integral",
+    "familj": "Integraler, area och medelvärde",
     "svarstyp": "numeriskt",
     "rättSvar": 2,
     "tolerans": null,
@@ -17513,11 +19538,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först skärningspunkterna mellan \\(y=kx\\) och \\(y=x^2\\). Integrera sedan skillnaden mellan kurvorna.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "fordjupad_analys"
+    ],
+    "familjTidigare": [
+      "Fördjupad analys med derivata och integral"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "bestämma jämviktslösning",
     "poang": "2/0/0",
@@ -17537,11 +19568,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En konstant jämviktslösning har \\(y'=0\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "E",
     "typ": "verifiera given lösning",
     "poang": "2/0/0",
@@ -17560,11 +19594,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Derivera den givna funktionen och kontrollera differentialekvationens vänsterled.</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "E",
     "typ": "verifiera lösningsfamilj till differentialekvation",
     "poang": "2/0/0",
@@ -17584,11 +19621,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Derivera \\(Ce^{2x}\\) och jämför resultatet med \\(2y\\).</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "E",
     "typ": "verifiera lösning till inhomogen differentialekvation",
     "poang": "2/0/0",
@@ -17607,11 +19647,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Differentialekvationen innehåller \\(y''\\), så derivera funktionen två gånger före insättning.</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "tolka differentialekvation som lutningsregel",
     "poang": "2/0/0",
@@ -17631,11 +19674,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt in det givna \\(x\\)-värdet direkt i uttrycket för \\(y'\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "typ": "bestämma flera jämvikter i logistisk differentialekvation",
     "poang": "0/2/0",
@@ -17654,11 +19700,14 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "ledtrad": "<p>En jämviktsnivå ger \\(P'=0\\). Sätt därför varje faktor i högerledet lika med noll.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "typ": "analysera stabilitet från tecknet på derivatan",
     "poang": "0/2/0",
@@ -17678,11 +19727,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Undersök tecknet på \\(y'\\) först för \\(y>5\\) och sedan för \\(y<5\\).</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "E",
     "typ": "verifiera trigonometrisk lösning",
     "poang": "2/0/0",
@@ -17701,11 +19753,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Derivera \\(\\sin 3x\\) två gånger och sätt in i \\(y''+9y\\).</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "E",
     "typ": "verifiera konstant plus exponential",
     "poang": "2/0/0",
@@ -17724,11 +19779,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Derivera exponentialtermen och kontrollera sedan om \\(y'+3y\\) verkligen blir 12.</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "ordning och homogenitet",
     "poang": "2/0/0",
@@ -17748,11 +19806,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Ordningen bestäms av den högsta derivatan. Homogenitet avgörs av om det finns ett fristående högerled som inte innehåller \\(y\\) eller dess derivator.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "identifiera differentialekvation",
     "poang": "2/0/0",
@@ -17815,11 +19876,14 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>En differentialekvation innehåller en okänd funktion och minst en av dess derivator.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "identifiera beroende variabel",
     "poang": "2/0/0",
@@ -17838,11 +19902,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Vilken storhet betraktas som funktion av den oberoende variabeln?</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "typ": "tolka tecken i Newtons avsvalningslag",
     "poang": "0/2/0",
@@ -17863,11 +19930,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm tecknet på \\(T-180\\) och tecknet på \\(T'\\) i den beskrivna situationen.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "typ": "jämföra homogen och inhomogen ekvation",
     "poang": "0/2/0",
@@ -17887,11 +19957,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Jämför först högerleden. Hur ser den allmänna lösningen ut i en homogen respektive inhomogen linjär differentialekvation?</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "tolka lösningsfamilj",
     "poang": "2/0/0",
@@ -17900,7 +19973,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p><p>Vi använder begynnelsevillkoret i lösningsfamiljen:</p><p>\\[y(0)=Ce^{0}=C.\\]</p><p>Eftersom \\(y(0)=5\\) blir \\(C=5\\).</p><p><strong>Lösningen är \\(y=5e^{2x}\\).</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "5e^{2x}",
     "tolerans": null,
@@ -17910,11 +19983,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(x=0\\) i lösningsfamiljen och använd begynnelsevillkoret för att bestämma \\(C\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "typ": "tolka tecken på derivata",
     "poang": "0/2/0",
@@ -17936,11 +20015,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Gör en teckentabell för faktorerna \\(P\\) och \\(500-P\\).</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "tecken på tillväxt",
     "poang": "2/0/0",
@@ -17960,11 +20042,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Sätt in \\(y=4\\) respektive \\(y=12\\) i högerledet och bestäm bara tecknet.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "typ": "jämviktspunkter logistisk modell",
     "poang": "0/2/0",
@@ -17985,11 +20070,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Sätt först högerledet lika med noll. Avgör sedan tecknet på \\(y'\\) strax på vardera sidan om varje jämvikt.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "A",
     "typ": "jämvikter och stabilitet i logistisk modell",
     "poang": "0/1/3",
@@ -18012,11 +20100,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm först var \\(P'=0\\). Gör därefter en teckenanalys av högerledet på intervallen mellan jämvikterna och använd den för att avgöra stabiliteten.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "typ": "analysera jämvikter i logistisk differentialekvation",
     "poang": "0/2/0",
@@ -18036,11 +20127,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm först jämvikterna. Gör sedan en teckenanalys av \\(P'\\) mellan och utanför dem.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "bestämma jämviktslösning",
     "poang": "2/0/0",
@@ -18060,11 +20154,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt \\(y'=0\\) och lös den återstående ekvationen för \\(y\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "jämviktslösningar",
     "poang": "2/0/0",
@@ -18084,11 +20181,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Läs differentialekvationen som ett samband mellan funktionen och dess förändringshastighet. Bestäm vilken storhet som efterfrågas innan du räknar.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "tolka tecken på förändringshastighet",
     "poang": "2/0/0",
@@ -18109,11 +20209,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Sätt in respektive temperatur och läs av tecknet på \\(T'\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "C",
     "typ": "bestäm differentialekvation från lösningsfamilj",
     "poang": "0/2/0",
@@ -18133,11 +20236,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Derivera lösningsfamiljen och försök skriva resultatet med hjälp av \\(y-3\\) i stället för konstanten \\(C\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "C",
     "typ": "verifiera lösning till dubbelrotsekvation",
     "poang": "0/2/0",
@@ -18156,12 +20262,15 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Beräkna både \\(y'\\) och \\(y''\\) och sätt in i vänsterledet.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "id": "4.320",
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Funktionen \\(y=5e^{-0{,}2x}\\) är en lösning till differentialekvationen \\(y' = ky\\).</p><p>Bestäm \\(k\\).</p>",
@@ -18180,11 +20289,14 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Derivera \\(5e^{-0,2x}\\) och jämför med formen \\(y'=ky\\).</p>",
     "traningsniva": 2,
-    "typ": "bestäm proportionalitetskonstant från lösning"
+    "typ": "bestäm proportionalitetskonstant från lösning",
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "E",
     "typ": "tolka differentialekvation som lutningsregel",
     "poang": "2/0/0",
@@ -18204,12 +20316,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Lutningen i en punkt ges av \\(y'\\). Sätt in \\(x=4\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "id": "4.321",
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "verifiering",
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En funktion uppfyller \\(y'=3y\\) och \\(y(0)=4\\).</p><p>Bestäm \\(y'(0)\\).</p>",
@@ -18228,11 +20343,14 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Du behöver inte lösa differentialekvationen. Sätt bara in \\(y(0)=4\\) i \\(y'=3y\\).</p>",
     "traningsniva": 1,
-    "typ": "bestäm momentan förändringshastighet från differentialekvation"
+    "typ": "bestäm momentan förändringshastighet från differentialekvation",
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "diffekv_grunder",
+    "omr": "vad_ar_diffekv",
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Differentialekvationen är \\(y'=x^2-4\\).</p><p>Bestäm det positiva x-värde där lösningskurvorna har horisontell tangent.</p>",
@@ -18252,11 +20370,14 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>En horisontell tangent har lutningen noll. Sätt därför \\(y'=0\\).</p>",
     "traningsniva": 2,
-    "typ": "horisontell tangent från differentialekvation"
+    "typ": "horisontell tangent från differentialekvation",
+    "omrTidigare": [
+      "diffekv_grunder"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "allmän lösning separabel linjär differentialekvation",
     "poang": "1/0/0",
@@ -18265,7 +20386,7 @@ window.BANKMATF1 = [
     "id": "4.03",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "Ce^{3x}",
     "tolerans": null,
@@ -18275,11 +20396,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Jämför med standardformen \\(y'=ky\\). Vilket värde har \\(k\\)?</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "lösa separabel differentialekvation",
     "poang": "2/0/0",
@@ -18288,7 +20415,7 @@ window.BANKMATF1 = [
     "id": "4.358",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "C*e^(3*x^2/2)",
     "tolerans": null,
@@ -18298,11 +20425,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Separera variablerna så att \\(dy/y\\) hamnar på ena sidan och \\(x\\,dx\\) på den andra.</p>",
     "traningsniva": 3,
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "begynnelsevärde till homogen differentialekvation",
     "poang": "2/0/0",
@@ -18311,7 +20444,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen. Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p><p>Den allmänna lösningen är \\(y=Ce^{-0,5x}\\).</p><p>Begynnelsevillkoret ger</p><p>\\[12=y(0)=Ce^0=C.\\]</p><p>Alltså är <strong>\\(y=12e^{-0,5x}\\)</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=12*e^(-0.5*x)",
     "tolerans": null,
@@ -18321,11 +20454,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv först den allmänna lösningen \\(y=Ce^{-0,5x}\\) och använd därefter \\(y(0)=12\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "C",
     "typ": "analysera maximal tillväxthastighet i logistisk modell",
     "poang": "0/2/0",
@@ -18334,7 +20473,7 @@ window.BANKMATF1 = [
     "id": "4.359",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 80,
     "tolerans": 0,
@@ -18346,11 +20485,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Betrakta högerledet som en nedåtvänd andragradsfunktion av \\(P\\). Var ligger dess maximum mellan nollställena?</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "lösa y prim lika med ky",
     "poang": "2/0/0",
@@ -18359,7 +20504,7 @@ window.BANKMATF1 = [
     "id": "4.67",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "Ce^{-4x}",
     "tolerans": null,
@@ -18369,11 +20514,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Jämför med standardformen \\(y'=ky\\). Ett negativt \\(k\\) ger en avtagande exponentialfunktion.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "tillämpa Newtons avsvalningslag och lösa tid",
     "poang": "0/2/0",
@@ -18394,11 +20545,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv först lösningen som omgivningstemperaturen plus en exponentiellt avtagande temperaturskillnad.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "begynnelsevärde exponential",
     "poang": "2/0/0",
@@ -18407,7 +20561,7 @@ window.BANKMATF1 = [
     "id": "4.68",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=7*e^(0.3*x)",
     "tolerans": null,
@@ -18417,11 +20571,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv först \\(y=Ce^{0,3x}\\) och använd sedan begynnelsevillkoret.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "homogena_forsta",
     "niva": "C",
     "typ": "bestäm parameter från två värden",
     "poang": "0/2/0",
@@ -18430,7 +20590,7 @@ window.BANKMATF1 = [
     "id": "4.69",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
     "rättSvar": 0.0811,
     "tolerans": null,
@@ -18442,11 +20602,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Använd \\(y=12e^{kx}\\). Sätt in \\(x=5\\) och \\(y=18\\), och lös sedan ut \\(k\\) med logaritm.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "lösa linjär differentialekvation med konstant jämvikt",
     "poang": "2/0/0",
@@ -18455,7 +20621,7 @@ window.BANKMATF1 = [
     "id": "4.362",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "5/2+C*e^(-2*x)",
     "tolerans": null,
@@ -18466,11 +20632,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm först vilket konstant värde på \\(y\\) som gör \\(y'=0\\). Studera sedan avvikelsen från detta värde.</p>",
     "traningsniva": 2,
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "halveringstid från k",
     "poang": "2/0/0",
@@ -18490,11 +20662,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Andelen som återstår är \\(y(t)/y_0=e^{-0,2t}\\). Sätt in \\(t=5\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "bestäm halveringstid",
     "poang": "0/2/0",
@@ -18515,11 +20690,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Vid halvering gäller \\(N(t)=N_0/2\\). Sätt därför \\(e^{-0,035t}=1/2\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "bestäm konstant C",
     "poang": "2/0/0",
@@ -18528,7 +20706,7 @@ window.BANKMATF1 = [
     "id": "4.120",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "10/e^2",
     "tolerans": null,
@@ -18538,11 +20716,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt in \\(x=1\\) och \\(y=10\\) i \\(y=Ce^{2x}\\), och lös ut \\(C\\).</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "C",
     "typ": "linjär inhomogen första ordningens differentialekvation med polynom",
     "poang": "0/2/0",
@@ -18551,7 +20735,7 @@ window.BANKMATF1 = [
     "id": "4.09",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "Ce^{3x}+\\frac{x}{3}+\\frac19",
     "tolerans": null,
@@ -18561,11 +20745,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen. Eftersom högerledet är linjärt kan du söka en partikulärlösning \\(y_p=ax+b\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "C",
     "typ": "inhomogen första ordningens differentialekvation med exponentialterm",
     "poang": "1/2/0",
@@ -18574,7 +20764,7 @@ window.BANKMATF1 = [
     "id": "4.21",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "Ce^{2x}+e^{3x}",
     "tolerans": null,
@@ -18584,11 +20774,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen. Eftersom högerledet är \\(e^{3x}\\) kan du pröva \\(y_p=Ae^{3x}\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "första ordningens inhomogen differentialekvation",
     "poang": "3/0/0",
@@ -18597,7 +20793,7 @@ window.BANKMATF1 = [
     "s": "<p>Vi löser först den homogena ekvationen \\(y'+2y=0\\), som ger</p><p>\\[y_h=Ce^{-2x}.\\]</p><p>Därefter söker vi en konstant partikulärlösning \\(y_p=A\\). Insättning ger</p><p>\\[0+2A=6\\Rightarrow A=3.\\]</p><p>Den allmänna lösningen blir då</p><p><strong>\\(y=Ce^{-2x}+3\\)</strong>.</p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "Ce^{-2x}+3",
     "tolerans": null,
@@ -18607,11 +20803,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först \\(y'+2y=0\\). Sök sedan en konstant partikulärlösning.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "temperaturmodell med Newtons avsvalningslag",
     "poang": "1/2/0",
@@ -18664,11 +20866,14 @@ window.BANKMATF1 = [
         "traningsniva": 4,
         "poang": "0/1/0"
       }
+    ],
+    "omrTidigare": [
+      "forsta_ordningen"
     ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "begynnelsevillkor inhomogen",
     "poang": "2/0/0",
@@ -18677,7 +20882,7 @@ window.BANKMATF1 = [
     "id": "4.71",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "ekvation",
     "rättSvar": "y=5-4*e^(-2*x)",
     "tolerans": null,
@@ -18687,11 +20892,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Använd sedan \\(y(0)=1\\) för att bestämma konstanten.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "verifiering",
     "niva": "C",
     "typ": "bestäm ekvation från lösningsfamilj",
     "poang": "0/2/0",
@@ -18712,11 +20923,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Derivera lösningsfamiljen och skriv sedan \\(Ce^{-5x}\\) som \\(y-3\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "lös med jämviktsvärde",
     "poang": "2/0/0",
@@ -18725,7 +20939,7 @@ window.BANKMATF1 = [
     "id": "4.94",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "4+Ce^{-2x}",
     "tolerans": null,
@@ -18736,11 +20950,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm jämviktsvärdet genom att sätta \\(y'=0\\), och lägg sedan till den homogena exponentialdelen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "initialvärde mot jämvikt",
     "poang": "2/0/0",
@@ -18749,7 +20969,7 @@ window.BANKMATF1 = [
     "id": "4.95",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "ekvation",
     "rättSvar": "y=2+3*e^(-3*x)",
     "tolerans": null,
@@ -18760,11 +20980,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Den allmänna lösningen närmar sig jämviktsvärdet 2. Använd sedan \\(y(0)=5\\) för att bestämma konstanten.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "bestäm tid till nivå",
     "poang": "2/0/0",
@@ -18773,7 +20999,7 @@ window.BANKMATF1 = [
     "id": "4.96",
     "miniräknare": true,
     "geogebra": true,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Modellering med differentialekvationer",
     "svarstyp": "text",
     "rättSvar": 9.24,
     "tolerans": null,
@@ -18785,11 +21011,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Sätt \\(T=35\\) i den givna modellen och lös exponentialekvationen för \\(t\\).</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "linjär första ordningen konstant term",
     "poang": "2/0/0",
@@ -18798,7 +21030,7 @@ window.BANKMATF1 = [
     "id": "4.142",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "Ce^{2x}-4",
     "tolerans": null,
@@ -18808,11 +21040,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös den homogena ekvationen och pröva därefter en konstant partikulärlösning.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "första ordningen med jämviktsvärde",
     "poang": "2/0/0",
@@ -18821,7 +21059,7 @@ window.BANKMATF1 = [
     "id": "4.143",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "Ce^{0.5x}+6",
     "tolerans": null,
@@ -18832,11 +21070,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först jämviktsvärdet genom att sätta \\(y'=0\\). Lös sedan den homogena avvikelsen från jämvikten.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "verifiering",
     "niva": "E",
     "typ": "kontrollera allmän lösning",
     "poang": "2/0/0",
@@ -18856,11 +21100,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Derivera den föreslagna lösningsfamiljen och jämför \\(y'\\) med högerledet \\(-2y+10\\).</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "inhomogena_forsta",
     "niva": "C",
     "typ": "inhomogen första ordningen med linjärt högerled",
     "poang": "0/3/0",
@@ -18869,7 +21116,7 @@ window.BANKMATF1 = [
     "id": "4.145",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Differentialekvationer av första ordningen",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "text",
     "rättSvar": "Ce^{2x}-2x-\\frac12",
     "tolerans": null,
@@ -18879,11 +21126,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen. Sök sedan en partikulärlösning av formen \\(ax+b\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Differentialekvationer av första ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "Newtons avsvalningsform utan begynnelsevillkor",
     "poang": "0/2/0",
@@ -18905,12 +21158,15 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Sätt \\(u=T-20\\). Vad säger tecknet och exponentialfaktorn om värdet 20 på lång sikt?</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "id": "4.324",
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>En population beskrivs av \\(P'=0{,}08P\\) och \\(P(0)=250\\).</p><p>Bestäm \\(P(10)\\). Svara med närmaste heltal.</p>",
@@ -18929,12 +21185,15 @@ window.BANKMATF1 = [
     "svarFormat": "heltal",
     "ledtrad": "<p>Lösningen till \\(P'=0,08P\\) med \\(P(0)=250\\) är \\(P(t)=250e^{0,08t}\\). Sätt in \\(t=10\\).</p>",
     "traningsniva": 2,
-    "typ": "beräkna population från exponentiell differentialekvation"
+    "typ": "beräkna population från exponentiell differentialekvation",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "id": "4.325",
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Temperaturen \\(T\\) i °C hos ett föremål följer \\(T'=-0{,}25(T-20)\\) och \\(T(0)=80\\).</p><p>Bestäm temperaturen efter 4 minuter.</p>",
@@ -18953,12 +21212,15 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Temperaturskillnaden mot 20 °C avtar exponentiellt. Skriv först \\(T(t)=20+60e^{-0,25t}\\).</p>",
     "traningsniva": 2,
-    "typ": "beräkna temperatur från Newtonmodell"
+    "typ": "beräkna temperatur från Newtonmodell",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "id": "4.485",
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "poang": "1/2/0",
     "traningsniva": 3,
@@ -19020,12 +21282,15 @@ window.BANKMATF1 = [
         "traningsniva": 3,
         "poang": "1/0/0"
       }
+    ],
+    "omrTidigare": [
+      "forsta_ordningen"
     ]
   },
   {
     "id": "4.486",
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "poang": "0/2/0",
     "traningsniva": 3,
@@ -19044,12 +21309,15 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Sätt \\(N(t)=2N_0\\) i exponentiallösningen och lös för \\(t\\).</p>"
+    "ledtrad": "<p>Sätt \\(N(t)=2N_0\\) i exponentiallösningen och lös för \\(t\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "id": "4.487",
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "poang": "1/2/0",
     "traningsniva": 4,
@@ -19111,12 +21379,15 @@ window.BANKMATF1 = [
         "traningsniva": 4,
         "poang": "0/2/0"
       }
+    ],
+    "omrTidigare": [
+      "forsta_ordningen"
     ]
   },
   {
     "id": "4.488",
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "forandringsmodeller",
     "niva": "A",
     "poang": "0/1/2",
     "traningsniva": 5,
@@ -19136,11 +21407,14 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Översätt först halveringstiden till \\(k=\\ln2/5700\\). I b-delen ska du beräkna en ålder för vardera ändpunkten i mätintervallet.</p>"
+    "ledtrad": "<p>Översätt först halveringstiden till \\(k=\\ln2/5700\\). I b-delen ska du beräkna en ålder för vardera ändpunkten i mätintervallet.</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "inhomogen differentialekvation av andra ordningen med resonans",
     "poang": "0/3/0",
@@ -19161,11 +21435,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Den vanliga trigonometriska ansatsen ligger redan i den homogena lösningen. Multiplicera därför ansatsen med \\(x\\).</p>",
     "traningsniva": 4,
-    "svarFormat": "uttryck"
+    "svarFormat": "uttryck",
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningens homogen med begynnelsevillkor",
     "poang": "1/0/0",
@@ -19174,7 +21451,7 @@ window.BANKMATF1 = [
     "id": "4.01",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=e^x-e^(-5*x)",
     "tolerans": null,
@@ -19185,11 +21462,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "bestäm funktion från andra ordningens begynnelsevärde",
     "poang": "1/0/0",
@@ -19198,7 +21481,7 @@ window.BANKMATF1 = [
     "id": "4.02",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=e^(-2*x)-e^(-5*x)",
     "tolerans": null,
@@ -19208,11 +21491,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningens homogen med två reella rötter",
     "poang": "2/0/0",
@@ -19232,11 +21521,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "ange en partikulär lösning till homogen differentialekvation",
     "poang": "2/0/0",
@@ -19245,7 +21537,7 @@ window.BANKMATF1 = [
     "id": "4.05",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inhomogena differentialekvationer av andra ordningen",
+    "familj": "Homogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
     "rättSvar": null,
     "tolerans": null,
@@ -19255,11 +21547,17 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Inhomogena differentialekvationer av andra ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningens homogen med reella rötter",
     "poang": "2/0/0",
@@ -19279,11 +21577,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "karakteristisk ekvation med två rötter",
     "poang": "2/0/0",
@@ -19303,11 +21604,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningen reella negativa rötter",
     "poang": "2/0/0",
@@ -19326,11 +21630,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "reella rötter 1 och -4",
     "poang": "2/0/0",
@@ -19349,11 +21656,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "begynnelsevillkor reella rötter",
     "poang": "3/0/0",
@@ -19362,7 +21672,7 @@ window.BANKMATF1 = [
     "id": "4.98",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=3*e^x+e^(2*x)",
     "tolerans": null,
@@ -19372,11 +21682,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningens homogen med dubbelrot",
     "poang": "3/0/0",
@@ -19396,11 +21712,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "komplexa rötter i karakteristisk ekvation",
     "poang": "2/2/0",
@@ -19419,11 +21738,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "allmän lösning med komplexa rötter",
     "poang": "1/2/0",
@@ -19444,11 +21766,14 @@ window.BANKMATF1 = [
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös den karakteristiska ekvationen. När du kontrollerar lösningen räcker det att visa att insättning ger vänsterledet 0 för godtyckliga konstanter.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "begynnelsevillkor vid dubbelrot",
     "poang": "3/0/0",
@@ -19457,7 +21782,7 @@ window.BANKMATF1 = [
     "id": "4.22",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=(2-5*x)*e^(3*x)",
     "tolerans": null,
@@ -19468,11 +21793,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "tolka lösningsform vid dubbelrot",
     "poang": "0/2/0",
@@ -19493,11 +21824,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "dubbelrot",
     "poang": "2/0/0",
@@ -19517,11 +21851,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "homogen med dubbelrot",
     "poang": "2/0/0",
@@ -19541,11 +21878,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "verifiering",
     "niva": "C",
     "typ": "bestäm differentialekvation från lösning",
     "poang": "0/2/0",
@@ -19566,11 +21906,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "dubbelrot negativ",
     "poang": "2/0/0",
@@ -19590,11 +21933,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "begynnelsevillkor dubbelrot",
     "poang": "3/0/0",
@@ -19603,7 +21949,7 @@ window.BANKMATF1 = [
     "id": "4.100",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=(1-x)*e^x",
     "tolerans": null,
@@ -19614,11 +21960,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "begynnelsevillkor med komplexa rötter",
     "poang": "0/3/0",
@@ -19627,7 +21979,7 @@ window.BANKMATF1 = [
     "id": "4.23",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=e^(-x)*(3*cos(3*x)+sin(3*x))",
     "tolerans": null,
@@ -19638,11 +21990,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>De komplexa rötterna ger en dämpad sinus/cosinus-lösning. Använd sedan både \\(y(0)\\) och \\(y'(0)\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "komplexa rötter",
     "poang": "2/0/0",
@@ -19662,11 +22020,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "komplexa rötter med dämpning",
     "poang": "2/0/0",
@@ -19686,11 +22047,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "verifiering",
     "niva": "C",
     "typ": "bestäm ekvation från sinuslösning",
     "poang": "0/2/0",
@@ -19710,11 +22074,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "ren harmonisk svängning",
     "poang": "2/0/0",
@@ -19733,11 +22100,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "begynnelsevillkor dämpad svängning",
     "poang": "0/2/0",
@@ -19746,7 +22116,7 @@ window.BANKMATF1 = [
     "id": "4.102",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "e^{-2x}(C_1\\cos3x+C_2\\sin3x)",
     "tolerans": null,
@@ -19756,11 +22126,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen från den karakteristiska ekvationen. Använd sedan villkoren för att bestämma de två konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "andra ordningens inhomogen med konstant högerled",
     "poang": "2/0/0",
@@ -19780,11 +22156,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "andra ordningens inhomogen med linjärt polynom",
     "poang": "1/2/0",
@@ -19804,11 +22183,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen. Eftersom högerledet är linjärt söker du en partikulärlösning \\(ax+b\\).</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "andra ordningens inhomogen med exponentialterm",
     "poang": "1/2/0",
@@ -19828,11 +22210,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen. Pröva sedan \\(y_p=Ae^x\\) och kontrollera att exponenten 1 inte är en homogen rot.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "exponentialterm som ingår i den homogena lösningen",
     "poang": "0/3/0",
@@ -19841,7 +22226,7 @@ window.BANKMATF1 = [
     "id": "4.30",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Homogena differentialekvationer av andra ordningen",
+    "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
     "rättSvar": "C_1e^x+C_2e^{2x}-xe^x",
     "tolerans": null,
@@ -19852,11 +22237,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Kontrollera först om exponenten i högerledet är en rot till den karakteristiska ekvationen. Om den är det måste ansatsen multipliceras med \\(x\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Homogena differentialekvationer av andra ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "andra ordningens inhomogen med trigonometriskt högerled",
     "poang": "0/2/0",
@@ -19876,11 +22267,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Efter den homogena lösningen kan du pröva \\(y_p=A\\cos x+B\\sin x\\). Frekvensen 1 är inte en homogen frekvens här.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "välja ansats när högerledet ingår i den homogena lösningen",
     "poang": "0/2/0",
@@ -19900,11 +22294,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm multipliciteten för roten \\(r=2\\). Ansatsen måste multipliceras med \\(x\\) så många gånger att den inte längre ingår i den homogena lösningen.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "inhomogent begynnelsevärdesproblem med polynom",
     "poang": "0/3/0",
@@ -19913,7 +22310,7 @@ window.BANKMATF1 = [
     "id": "4.33",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=-(1)/(2)*e^(-x)+(3)/(2)*e^x-2*x-1",
     "tolerans": null,
@@ -19924,11 +22321,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös den homogena ekvationen och sök sedan en linjär partikulärlösning \\(ax+b\\). Först därefter använder du begynnelsevillkoren.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "A",
     "typ": "periodiskt högerled som ingår i den homogena lösningen och begynnelsevillkor",
     "poang": "0/1/3",
@@ -19937,7 +22340,7 @@ window.BANKMATF1 = [
     "id": "4.34",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -19948,11 +22351,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Högerledet \\(\\cos2x\\) har samma frekvens som den homogena lösningen. Därför krävs en extra faktor \\(x\\) i partikuläransatsen.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "bestämma högerled från partikulärlösning",
     "poang": "0/2/0",
@@ -19971,11 +22380,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Du behöver inte lösa differentialekvationen. Sätt bara in den givna partikulärlösningen och dess derivator i vänsterledet.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "konstant partikulärlösning",
     "poang": "2/0/0",
@@ -19994,11 +22406,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "polynom som högerled",
     "poang": "2/0/0",
@@ -20017,11 +22432,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "sinusterm som ingår i den homogena lösningen",
     "poang": "0/2/0",
@@ -20041,11 +22459,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "exponentialterm som inte ingår i den homogena lösningen",
     "poang": "2/0/0",
@@ -20054,7 +22475,7 @@ window.BANKMATF1 = [
     "id": "4.103",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Homogena differentialekvationer av andra ordningen",
+    "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
     "rättSvar": "C_1e^x+C_2e^{-x}+\\frac43e^{2x}",
     "tolerans": null,
@@ -20065,11 +22486,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Homogena differentialekvationer av andra ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "cosinusterm som inte ingår i den homogena lösningen",
     "poang": "2/0/0",
@@ -20078,7 +22505,7 @@ window.BANKMATF1 = [
     "id": "4.104",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Homogena differentialekvationer av andra ordningen",
+    "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
     "rättSvar": "\\frac85\\cos2x",
     "tolerans": null,
@@ -20089,11 +22516,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Homogena differentialekvationer av andra ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "linjärt polynom partikulär",
     "poang": "0/2/0",
@@ -20112,11 +22545,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först \\(y''+y=0\\). För högerledet \\(3x-2\\) räcker en linjär partikuläransats.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "exponentialterm som ingår i den homogena lösningen",
     "poang": "0/2/0",
@@ -20125,7 +22561,7 @@ window.BANKMATF1 = [
     "id": "4.106",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Homogena differentialekvationer av andra ordningen",
+    "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
     "rättSvar": "\\frac12x^2e^{2x}",
     "tolerans": null,
@@ -20136,11 +22572,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Här är \\(r=2\\) en dubbelrot. Därför krävs två extra faktorer av \\(x\\) jämfört med \\(Ae^{2x}\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Homogena differentialekvationer av andra ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "konstant högerled dubbelrot",
     "poang": "2/0/0",
@@ -20159,11 +22601,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "inhomogen andra ordningen konstant högerled",
     "poang": "2/0/0",
@@ -20183,11 +22628,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "inhomogen andra ordningen exponentialhögerled",
     "poang": "2/0/0",
@@ -20207,11 +22655,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "exponentialhögerled som ingår i den homogena lösningen",
     "poang": "0/3/0",
@@ -20230,11 +22681,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Högerledet \\(e^{2x}\\) motsvarar en enkel homogen rot. Multiplicera därför den vanliga ansatsen med \\(x\\).</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "inhomogen andra ordningen trigonometriskt högerled",
     "poang": "0/2/0",
@@ -20254,12 +22708,15 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Den homogena frekvensen är 2 medan högerledets frekvens är 1, så en vanlig trigonometrisk ansats fungerar.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "andra_ordningen"
+    ]
   },
   {
     "id": "4.490",
     "kap": 4,
-    "omr": "andra_ordningen",
+    "omr": "inhomogena_andra",
     "niva": "A",
     "poang": "0/1/2",
     "traningsniva": 5,
@@ -20267,7 +22724,7 @@ window.BANKMATF1 = [
     "miniräknare": false,
     "geogebra": false,
     "spel": false,
-    "familj": "Andra ordningens differentialekvationer – homogena och inhomogena",
+    "familj": "Inhomogena differentialekvationer av andra ordningen",
     "t": "<p>Betrakta differentialekvationen</p><p>\\[y''-6y'+9y=e^{ax}.\\]</p><ol type=\"a\"><li>För vilket värde på parametern \\(a\\) fungerar inte standardansatsen \\(y_p=Ae^{ax}\\)? Motivera.</li><li>Bestäm en partikulärlösning för detta värde på \\(a\\).</li></ol>",
     "s": "<p>Den homogena karakteristiska ekvationen är</p><p>\\[r^2-6r+9=(r-3)^2=0.\\]</p><p><strong>a)</strong> Standardansatsen misslyckas när \\(a=3\\), eftersom \\(e^{3x}\\) redan ingår i den homogena lösningen. Dessutom är \\(r=3\\) en dubbelrot, så även \\(xe^{3x}\\) ingår i den homogena lösningen.</p><p><strong>b)</strong> Vi måste därför pröva \\(y_p=Ax^2e^{3x}\\).</p><p>Derivatorna är</p><p>\\[y_p'=Ae^{3x}(2x+3x^2),\\]</p><p>\\[y_p''=Ae^{3x}(2+12x+9x^2).\\]</p><p>Insättning i vänsterledet ger</p><p>\\[Ae^{3x}\\bigl(2+12x+9x^2-6(2x+3x^2)+9x^2\\bigr)=2Ae^{3x}.\\]</p><p>För att få högerledet \\(e^{3x}\\) krävs \\(2A=1\\), alltså</p><p><strong>\\[y_p=\\frac12x^2e^{3x}.\\]</strong></p>",
     "svarstyp": "resonemang",
@@ -20279,11 +22736,17 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Studera först den karakteristiska ekvationens rot och dess multiplicitet. Hur många gånger måste standardansatsen multipliceras med \\(x\\)?</p>"
+    "ledtrad": "<p>Studera först den karakteristiska ekvationens rot och dess multiplicitet. Hur många gånger måste standardansatsen multipliceras med \\(x\\)?</p>",
+    "omrTidigare": [
+      "andra_ordningen"
+    ],
+    "familjTidigare": [
+      "Andra ordningens differentialekvationer – homogena och inhomogena"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "begynnelsevärdesproblem för exponentiell differentialekvation",
     "poang": "2/0/0",
@@ -20292,7 +22755,7 @@ window.BANKMATF1 = [
     "id": "4.396",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
     "rättSvar": 5.43656365691809,
     "tolerans": 0.01087312731383618,
@@ -20302,11 +22765,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningens begynnelsevärdesproblem",
     "poang": "2/0/0",
@@ -20315,7 +22784,7 @@ window.BANKMATF1 = [
     "id": "4.06",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=2*e^(-2*x)-e^(-4*x)",
     "tolerans": null,
@@ -20325,11 +22794,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_forsta",
     "niva": "C",
     "typ": "begynnelsevärdesproblem med jämviktsnivå",
     "poang": "0/2/0",
@@ -20338,7 +22813,7 @@ window.BANKMATF1 = [
     "id": "4.397",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "numeriskt",
     "rättSvar": 6.009915008706665,
     "tolerans": 0.002,
@@ -20349,11 +22824,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningens begynnelsevärde med positiva rötter",
     "poang": "2/0/0",
@@ -20362,7 +22843,7 @@ window.BANKMATF1 = [
     "id": "4.07",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=(3)/(2)*e^(2*x)-(1)/(2)*e^(6*x)",
     "tolerans": null,
@@ -20372,11 +22853,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_forsta",
     "niva": "C",
     "typ": "bestämma parametrar i exponentiell lösning från två villkor",
     "poang": "0/2/0",
@@ -20385,7 +22872,7 @@ window.BANKMATF1 = [
     "id": "4.399",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -20395,11 +22882,17 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_andra",
     "niva": "E",
     "typ": "integrera två gånger med begynnelsevillkor",
     "poang": "2/0/0",
@@ -20408,7 +22901,7 @@ window.BANKMATF1 = [
     "id": "4.400",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "numeriskt",
     "rättSvar": 20,
     "tolerans": 0,
@@ -20419,11 +22912,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "bestämma konstanter i lösning",
     "poang": "2/0/0",
@@ -20432,7 +22931,7 @@ window.BANKMATF1 = [
     "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Metod:</strong> Bestäm först den allmänna lösningen. Använd sedan begynnelsevillkoren för att bestämma de fria konstanterna.</p><div class=\"facit-arbete\"><p>Den allmänna lösningen till \\(y''-y=0\\) är</p><p>\\[y=C_1e^x+C_2e^{-x}.\\]</p><p>Då är</p><p>\\[y(0)=C_1+C_2=2\\]</p><p>och</p><p>\\[y'=C_1e^x-C_2e^{-x}\\Rightarrow y'(0)=C_1-C_2=0.\\]</p><p>Systemet ger \\(C_1=C_2=1\\).</p><p><strong>Alltså är \\(y=e^x+e^{-x}\\).</strong></p></div><p class=\"facit-not\"><strong>Kontroll:</strong> Derivera den färdiga funktionen och kontrollera både differentialekvationen och begynnelsevillkoren.</p></div>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "e^x+e^{-x}",
     "tolerans": null,
@@ -20442,11 +22941,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "bestäm konstanter andra ordningen",
     "poang": "2/0/0",
@@ -20455,7 +22960,7 @@ window.BANKMATF1 = [
     "id": "4.82",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "1.5e^{2x}+1.5e^{-2x}",
     "tolerans": null,
@@ -20465,11 +22970,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "begynnelsevillkor komplex lösning",
     "poang": "2/0/0",
@@ -20478,7 +22989,7 @@ window.BANKMATF1 = [
     "id": "4.83",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=2*cos(2*x)-2*sin(2*x)",
     "tolerans": null,
@@ -20489,11 +23000,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "initialvillkor inhomogen första ordningen",
     "poang": "2/0/0",
@@ -20502,7 +23019,7 @@ window.BANKMATF1 = [
     "id": "4.107",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "ekvation",
     "rättSvar": "y=4+6*e^(-x)",
     "tolerans": null,
@@ -20512,11 +23029,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "initialvillkor andra inhomogen",
     "poang": "0/2/0",
@@ -20525,7 +23048,7 @@ window.BANKMATF1 = [
     "id": "4.108",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "-2\\cos x+\\sin x+2",
     "tolerans": null,
@@ -20535,11 +23058,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "A",
     "typ": "harmonisk svängning med amplitud och fasförskjutning",
     "poang": "0/1/2",
@@ -20548,7 +23077,7 @@ window.BANKMATF1 = [
     "id": "4.121",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -20560,11 +23089,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "första ordningens begynnelsevärdesproblem",
     "poang": "2/0/0",
@@ -20573,7 +23108,7 @@ window.BANKMATF1 = [
     "id": "4.124",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=3*e^(2*x)",
     "tolerans": null,
@@ -20583,11 +23118,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_forsta",
     "niva": "E",
     "typ": "exponentiellt avtagande begynnelsevärdesproblem",
     "poang": "2/0/0",
@@ -20596,7 +23137,7 @@ window.BANKMATF1 = [
     "id": "4.125",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=8*e^(-0.5*x)",
     "tolerans": null,
@@ -20606,11 +23147,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "inhomogen första ordningen med begynnelsevillkor",
     "poang": "2/0/0",
@@ -20619,7 +23166,7 @@ window.BANKMATF1 = [
     "id": "4.126",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "ekvation",
     "rättSvar": "y=6*e^x-4",
     "tolerans": null,
@@ -20629,11 +23176,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "andra ordningens begynnelsevärdesproblem med två reella rötter",
     "poang": "3/0/0",
@@ -20642,7 +23195,7 @@ window.BANKMATF1 = [
     "id": "4.127",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=5*e^(2*x)-3*e^(3*x)",
     "tolerans": null,
@@ -20652,11 +23205,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "harmonisk svängning med begynnelsevillkor",
     "poang": "3/0/0",
@@ -20665,7 +23224,7 @@ window.BANKMATF1 = [
     "id": "4.128",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=3*sin(2*x)",
     "tolerans": null,
@@ -20676,11 +23235,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "dämpad svängning med begynnelsevillkor",
     "poang": "0/3/0",
@@ -20689,7 +23254,7 @@ window.BANKMATF1 = [
     "id": "4.129",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=e^(-x)*(cos(2*x)+(1)/(2)*sin(2*x))",
     "tolerans": null,
@@ -20700,11 +23265,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "dubbelrot med begynnelsevillkor",
     "poang": "0/3/0",
@@ -20713,7 +23284,7 @@ window.BANKMATF1 = [
     "id": "4.130",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=(2-3*x)*e^(2*x)",
     "tolerans": null,
@@ -20723,11 +23294,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "inhomogen andra ordningen med begynnelsevillkor",
     "poang": "0/3/0",
@@ -20736,7 +23313,7 @@ window.BANKMATF1 = [
     "id": "4.131",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=-2*e^x+e^(2*x)+2",
     "tolerans": null,
@@ -20746,11 +23323,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_forsta",
     "niva": "E",
     "typ": "första ordningen med jämviktsvärde och begynnelsevillkor",
     "poang": "2/0/0",
@@ -20759,7 +23342,7 @@ window.BANKMATF1 = [
     "id": "4.168",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
     "svarstyp": "ekvation",
     "rättSvar": "y=3+2*e^(-x)",
     "tolerans": null,
@@ -20770,11 +23353,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "E",
     "typ": "harmonisk begynnelsevärdesproblem",
     "poang": "3/0/0",
@@ -20783,7 +23372,7 @@ window.BANKMATF1 = [
     "id": "4.169",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=4*cos(3*x)-sin(3*x)",
     "tolerans": null,
@@ -20794,11 +23383,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "homogena_andra",
     "niva": "C",
     "typ": "dubbelrot med nya begynnelsevillkor",
     "poang": "0/3/0",
@@ -20807,7 +23402,7 @@ window.BANKMATF1 = [
     "id": "4.170",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "ekvation",
     "rättSvar": "y=(1+2*x)*e^(-2*x)",
     "tolerans": null,
@@ -20817,11 +23412,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Skriv om uttrycken med samma bas om det går. Annars kan en logaritm göra exponenten åtkomlig.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "begynnelsevillkor",
+    "omr": "inhomogena_andra",
     "niva": "C",
     "typ": "inhomogen harmonisk ekvation med begynnelsevillkor",
     "poang": "0/3/0",
@@ -20830,7 +23431,7 @@ window.BANKMATF1 = [
     "id": "4.171",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Begynnelsevärdesproblem för differentialekvationer",
+    "familj": "Begynnelsevärdesproblem",
     "svarstyp": "text",
     "rättSvar": "-2\\cos x+\\sin x+2",
     "tolerans": null,
@@ -20841,7 +23442,13 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Bestäm först den allmänna lösningen. Sätt sedan in begynnelsevillkoren i \\(y\\) och vid behov i \\(y'\\) för att bestämma konstanterna.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "begynnelsevillkor"
+    ],
+    "familjTidigare": [
+      "Begynnelsevärdesproblem för differentialekvationer"
+    ]
   },
   {
     "kap": 4,
@@ -21615,7 +24222,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "radioaktivt sönderfall som differentialekvation",
     "poang": "1/2/0",
@@ -21637,11 +24244,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "Newtons avsvalningslag från mätdata",
     "poang": "0/2/0",
@@ -21663,11 +24273,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "tillvaxt_begransning",
     "niva": "C",
     "typ": "beräkna prognos i logistisk modell",
     "poang": "0/2/0",
@@ -21676,7 +24289,7 @@ window.BANKMATF1 = [
     "id": "4.466",
     "miniräknare": true,
     "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 373.8668062851214,
     "tolerans": 0.5,
@@ -21687,11 +24300,17 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ],
+    "familjTidigare": [
+      "Modellering med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "blandningsproblem med differentialekvation",
     "poang": "1/2/0",
@@ -21713,11 +24332,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "terminalhastighet med linjär luftmotståndsmodell",
     "poang": "0/3/0",
@@ -21739,11 +24361,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "bestämma gränshastighet i modell med linjärt luftmotstånd",
     "poang": "0/2/0",
@@ -21764,11 +24389,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "blandningsproblem med figur",
     "poang": "0/3/0",
@@ -21789,11 +24417,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "inhomogena_andra",
     "niva": "A",
     "typ": "massa-fjäder med periodisk kraft",
     "poang": "0/1/2",
@@ -21802,7 +24433,7 @@ window.BANKMATF1 = [
     "id": "4.41",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
+    "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "flera_delar",
     "rättSvar": null,
     "tolerans": null,
@@ -21815,11 +24446,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ],
+    "familjTidigare": [
+      "Modellering med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "tillvaxt_begransning",
     "niva": "A",
     "typ": "utvärdera begränsning hos exponentiell modell och föreslå logistisk",
     "poang": "0/1/2",
@@ -21828,7 +24465,7 @@ window.BANKMATF1 = [
     "id": "4.468",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -21839,11 +24476,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ],
+    "familjTidigare": [
+      "Modellering med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "inhomogena_andra",
     "niva": "A",
     "typ": "dämpat system med konstant yttre kraft",
     "poang": "0/1/2",
@@ -21852,7 +24495,7 @@ window.BANKMATF1 = [
     "id": "4.42",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
+    "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -21866,11 +24509,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ],
+    "familjTidigare": [
+      "Modellering med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "A",
     "typ": "saltblandning och maxvärde",
     "poang": "0/1/3",
@@ -21892,11 +24541,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "C",
     "typ": "jämföra numeriska lösningar och fel för olika steglängd",
     "poang": "0/3/0",
@@ -21917,11 +24569,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtonsk avsvalning enkel modell",
     "poang": "2/0/0",
@@ -21942,11 +24597,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "formulera enkel tillväxtmodell",
     "poang": "2/0/0",
@@ -21967,11 +24625,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "medicin kontinuerlig elimination",
     "poang": "0/2/0",
@@ -21993,11 +24654,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "blandning med konstant volym",
     "poang": "0/2/0",
@@ -22018,11 +24682,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "temperatur från två mätningar",
     "poang": "0/2/0",
@@ -22043,11 +24710,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "C",
     "typ": "kontrollera digital lösning till differentialekvation",
     "poang": "0/2/0",
@@ -22069,11 +24739,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 3,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "A",
     "typ": "jämföra Eulerapproximation med exakt lösning",
     "poang": "0/1/2",
@@ -22094,11 +24767,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "C",
     "typ": "kontroll av digital lösning till inhomogen andra ordningens ekvation",
     "poang": "0/2/0",
@@ -22120,11 +24796,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "E",
     "typ": "tolka CAS-lösning till differentialekvation",
     "poang": "2/0/0",
@@ -22145,11 +24824,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "E",
     "typ": "kontrollera numerisk lösning",
     "poang": "2/0/0",
@@ -22171,11 +24853,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "E",
     "typ": "tolka numerisk lösning",
     "poang": "2/0/0",
@@ -22195,11 +24880,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "A",
     "typ": "utvärdera och förbättra matematisk differentialekvationsmodell",
     "poang": "0/1/2",
@@ -22219,11 +24907,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "C",
     "typ": "jämföra numerisk och analytisk lösning",
     "poang": "0/2/0",
@@ -22243,11 +24934,14 @@ window.BANKMATF1 = [
       "modellering"
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "formulera blandningsmodell",
     "poang": "2/0/0",
@@ -22268,11 +24962,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 2,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "E",
     "typ": "tolka CAS-konstant",
     "poang": "2/0/0",
@@ -22292,11 +24989,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 1,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "jämviktsvärde i medicinmodell",
     "poang": "2/0/0",
@@ -22318,11 +25018,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 1
+    "traningsniva": 1,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "bestäm tillväxtkonstant från fördubblingstid",
     "poang": "0/2/0",
@@ -22344,11 +25047,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "Newtons avsvalningslag från en mätning",
     "poang": "0/3/0",
@@ -22370,11 +25076,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "C",
     "typ": "tolka numeriskt fel",
     "poang": "0/2/0",
@@ -22423,11 +25132,14 @@ window.BANKMATF1 = [
       }
     ],
     "ledtrad": "<p>Omvandla procent till decimalform. Vid en förändring använder du faktorn \\(1\\pm p\\), inte bara procentsatsen.</p>",
-    "traningsniva": 3
+    "traningsniva": 3,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "exponentiell tillväxt från differentialekvation",
     "poang": "2/0/0",
@@ -22449,11 +25161,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 2
+    "traningsniva": 2,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "tillvaxt_begransning",
     "niva": "A",
     "typ": "utvärdera och förbättra matematisk differentialekvationsmodell",
     "poang": "0/1/2",
@@ -22462,7 +25177,7 @@ window.BANKMATF1 = [
     "id": "4.478",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -22473,11 +25188,17 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ],
+    "familjTidigare": [
+      "Modellering med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "typ": "medicinmodell med tid till nivå",
     "poang": "0/3/0",
@@ -22510,11 +25231,14 @@ window.BANKMATF1 = [
       "tid"
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
-    "traningsniva": 4
+    "traningsniva": 4,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "A",
     "typ": "utvärdera och förbättra matematisk differentialekvationsmodell",
     "poang": "0/1/2",
@@ -22534,12 +25258,15 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "id": "4.304",
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett föremål med temperaturen \\(T(t)\\) kyls i ett rum som håller 20 °C. Enligt Newtons avsvalningslag är förändringshastigheten proportionell mot temperaturskillnaden mot rummet. Vilken differentialekvation beskriver modellen bäst?</p><p>A. \\(T'=k(T-20)\\) med \\(k&gt;0\\)<br>B. \\(T'=-k(T-20)\\) med \\(k&gt;0\\)<br>C. \\(T'=20k\\)<br>D. \\(T'=T^2\\)</p>",
@@ -22558,11 +25285,14 @@ window.BANKMATF1 = [
     "svarFormat": "val",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 1,
-    "typ": "välja differentialekvation för Newtons avsvalningslag"
+    "typ": "välja differentialekvation för Newtons avsvalningslag",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En population modelleras av \\(P'=kP\\) och fördubblas på 6 år.</p><p>Bestäm konstanten \\(k\\).</p>",
@@ -22582,11 +25312,14 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 3,
-    "typ": "bestämma tillväxtkonstant från fördubblingstid"
+    "typ": "bestämma tillväxtkonstant från fördubblingstid",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>En population följer \\(P'=0,30P(1-P/1200)\\).</p><p>Bestäm den positiva jämviktsnivån.</p>",
@@ -22594,7 +25327,7 @@ window.BANKMATF1 = [
     "id": "4.309",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 1200,
     "tolerans": 0,
@@ -22606,11 +25339,17 @@ window.BANKMATF1 = [
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 2,
-    "typ": "bestämma positiv jämviktsnivå i logistisk modell"
+    "typ": "bestämma positiv jämviktsnivå i logistisk modell",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ],
+    "familjTidigare": [
+      "Modellering med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En kropp svalnar enligt \\(T'=-k(T-20)\\). Temperaturen är 80 °C vid start och 50 °C efter 10 min.</p><p>Bestäm \\(k\\) exakt.</p>",
@@ -22630,11 +25369,14 @@ window.BANKMATF1 = [
     "svarFormat": "uttryck",
     "ledtrad": "<p>Arbeta med temperaturskillnaden \\(T-20\\). Efter 10 minuter har den gått från 60 °C till 30 °C.</p>",
     "traningsniva": 3,
-    "typ": "bestämma avsvalningskonstant från halverad temperaturskillnad"
+    "typ": "bestämma avsvalningskonstant från halverad temperaturskillnad",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "A",
     "typ": "utvärdera och förbättra matematisk differentialekvationsmodell",
     "poang": "0/1/2",
@@ -22654,11 +25396,14 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 5,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "riktningsfalt_euler",
     "niva": "A",
     "typ": "utvärdera och förbättra matematisk differentialekvationsmodell",
     "poang": "0/1/2",
@@ -22667,7 +25412,7 @@ window.BANKMATF1 = [
     "id": "4.484",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Modellering med differentialekvationer",
+    "familj": "Tolka och kontrollera digitala differentialekvationslösningar",
     "svarstyp": "manuell",
     "rättSvar": null,
     "tolerans": null,
@@ -22678,12 +25423,18 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 4,
-    "spel": false
+    "spel": false,
+    "omrTidigare": [
+      "modellering_digitalt"
+    ],
+    "familjTidigare": [
+      "Modellering med differentialekvationer"
+    ]
   },
   {
     "id": "2.510",
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "poang": "2/0/0",
     "traningsniva": 2,
@@ -22692,7 +25443,7 @@ window.BANKMATF1 = [
     "s": "<p><strong>Idé:</strong> Skriv de två heltalen som \\(n\\) och \\(n+1\\).</p><p>Då är</p><p>\\[n^2+(n+1)^2=2n^2+2n+1=2n(n+1)+1.\\]</p><p>Uttrycket \\(2n(n+1)\\) är jämnt, så hela summan är ett jämnt tal plus 1.</p><p><strong>Alltså är summan udda.</strong></p>",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "resonemang",
     "rättSvar": null,
     "tolerans": null,
@@ -22700,12 +25451,18 @@ window.BANKMATF1 = [
     "formaga": [
       "resonemang"
     ],
-    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>"
+    "ledtrad": "<p>Översätt egenskapen till algebra. Använd till exempel \\(2k\\) för ett jämnt tal, \\(2k+1\\) för ett udda tal och \\(b=ak\\) när \\(a\\mid b\\). Utgå från antagandet och arbeta mot slutsatsen.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "id": "4.491",
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "C",
     "traningsniva": 4,
     "typ": "bestämma sönderfallskonstant och extrapolera bakåt",
@@ -22725,11 +25482,14 @@ window.BANKMATF1 = [
       "modellering",
       "resonemang"
     ],
-    "ledtrad": "<p>Använd kvoten mellan de två mätningarna för att bestämma \\(k\\). När du sedan går 20 timmar bakåt i tiden använder du \\(t=-20\\).</p>"
+    "ledtrad": "<p>Använd kvoten mellan de två mätningarna för att bestämma \\(k\\). När du sedan går 20 timmar bakåt i tiden använder du \\(t=-20\\).</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22738,7 +25498,7 @@ window.BANKMATF1 = [
     "id": "1.474",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "mängd",
     "rättSvar": "{1,3,5,7}",
     "tolerans": null,
@@ -22748,11 +25508,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22761,7 +25527,7 @@ window.BANKMATF1 = [
     "id": "1.475",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "mängd",
     "rättSvar": "{2,3,4,5,6}",
     "tolerans": null,
@@ -22771,11 +25537,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22784,7 +25556,7 @@ window.BANKMATF1 = [
     "id": "1.476",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "kort_text",
     "rättSvar": "ja",
     "tolerans": null,
@@ -22794,11 +25566,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22807,7 +25585,7 @@ window.BANKMATF1 = [
     "id": "1.477",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "kort_text",
     "rättSvar": "nej",
     "tolerans": null,
@@ -22817,11 +25595,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22830,7 +25614,7 @@ window.BANKMATF1 = [
     "id": "1.478",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{3,4}",
     "tolerans": null,
@@ -22840,11 +25624,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22853,7 +25643,7 @@ window.BANKMATF1 = [
     "id": "1.479",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{1,2,3,4,5}",
     "tolerans": null,
@@ -22863,11 +25653,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22876,7 +25672,7 @@ window.BANKMATF1 = [
     "id": "1.480",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{1,3,5}",
     "tolerans": null,
@@ -22887,11 +25683,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22900,7 +25702,7 @@ window.BANKMATF1 = [
     "id": "1.481",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "mängd",
     "rättSvar": "{0,1,2,3,4}",
     "tolerans": null,
@@ -22911,11 +25713,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22924,7 +25732,7 @@ window.BANKMATF1 = [
     "id": "1.482",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "mängd",
     "rättSvar": "{-1,0,1,2}",
     "tolerans": null,
@@ -22935,11 +25743,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22948,7 +25762,7 @@ window.BANKMATF1 = [
     "id": "1.483",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "kort_text",
     "rättSvar": "ja",
     "tolerans": null,
@@ -22959,11 +25773,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22972,7 +25792,7 @@ window.BANKMATF1 = [
     "id": "1.484",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": 0,
@@ -22982,11 +25802,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "grundläggande mängdnotation",
     "poang": "1/0/0",
@@ -22995,7 +25821,7 @@ window.BANKMATF1 = [
     "id": "1.485",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 4,
     "tolerans": 0,
@@ -23006,11 +25832,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>"
+    "ledtrad": "<p>Läs mängdsymbolerna bokstavligt: snitt = i båda, union = i minst en, differens = i den första men inte den andra.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "inklusion–exklusion med två mängder",
     "poang": "1/0/0",
@@ -23019,7 +25851,7 @@ window.BANKMATF1 = [
     "id": "1.486",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 24,
     "tolerans": 0,
@@ -23030,11 +25862,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
+    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>",
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "inklusion–exklusion med två mängder",
     "poang": "1/0/0",
@@ -23043,7 +25881,7 @@ window.BANKMATF1 = [
     "id": "1.487",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 32,
     "tolerans": 0,
@@ -23054,11 +25892,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
+    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>",
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "inklusion–exklusion med två mängder",
     "poang": "1/0/0",
@@ -23067,7 +25911,7 @@ window.BANKMATF1 = [
     "id": "1.488",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 38,
     "tolerans": 0,
@@ -23078,11 +25922,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>"
+    "ledtrad": "<p>Använd \\(|A\\cup B|=|A|+|B|-|A\\cap B|\\).</p>",
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "mult_add_principen",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många av heltalen 1–120 är delbara med 4 eller 6 (eller båda)?</p>",
@@ -23090,7 +25940,7 @@ window.BANKMATF1 = [
     "id": "1.489",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Multiplikations- och additionsprincipen",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23102,11 +25952,17 @@ window.BANKMATF1 = [
     "rättSvar": 40,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>I en klass med 40 elever spelar 22 fotboll och 15 innebandy. 6 elever spelar båda. Hur många spelar ingen av sporterna?</p>",
@@ -23114,7 +25970,7 @@ window.BANKMATF1 = [
     "id": "1.490",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23126,11 +25982,17 @@ window.BANKMATF1 = [
     "rättSvar": 9,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "C",
     "poang": "0/1/0",
     "t": "<p>På ett gym tränar 25 personer styrka, 20 kondition och 12 yoga. 8 tränar styrka och kondition, 4 styrka och yoga, 5 kondition och yoga, och 2 tränar alla tre. Hur många tränar minst en av aktiviteterna?</p>",
@@ -23138,7 +26000,7 @@ window.BANKMATF1 = [
     "id": "1.491",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23150,11 +26012,17 @@ window.BANKMATF1 = [
     "rättSvar": 42,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "venndiagram",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Av 50 elever har 30 läst boken och 28 sett filmen. Alla har gjort minst en av sakerna. Hur många har gjort båda?</p>",
@@ -23162,7 +26030,7 @@ window.BANKMATF1 = [
     "id": "1.492",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23174,11 +26042,17 @@ window.BANKMATF1 = [
     "rättSvar": 8,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "additionsprincipen_mangder",
+    "omr": "mult_add_principen",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många av heltalen 1–120 är delbara med 4 eller 6 (eller båda)?</p>",
@@ -23186,7 +26060,7 @@ window.BANKMATF1 = [
     "id": "1.493",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Inklusion–exklusion och mängdproblem",
+    "familj": "Multiplikations- och additionsprincipen",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23198,11 +26072,17 @@ window.BANKMATF1 = [
     "rättSvar": 40,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "additionsprincipen_mangder"
+    ],
+    "familjTidigare": [
+      "Inklusion–exklusion och mängdproblem"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23211,7 +26091,7 @@ window.BANKMATF1 = [
     "id": "1.494",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 30,
     "tolerans": 0,
@@ -23222,11 +26102,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23235,7 +26121,7 @@ window.BANKMATF1 = [
     "id": "1.495",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": 0,
@@ -23246,11 +26132,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23259,7 +26151,7 @@ window.BANKMATF1 = [
     "id": "1.496",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 36,
     "tolerans": 0,
@@ -23270,11 +26162,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23283,7 +26181,7 @@ window.BANKMATF1 = [
     "id": "1.497",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 216,
     "tolerans": 0,
@@ -23294,11 +26192,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23307,7 +26211,7 @@ window.BANKMATF1 = [
     "id": "1.498",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 480,
     "tolerans": 0,
@@ -23318,11 +26222,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23331,7 +26241,7 @@ window.BANKMATF1 = [
     "id": "1.499",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 120,
     "tolerans": 0,
@@ -23342,11 +26252,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23355,7 +26271,7 @@ window.BANKMATF1 = [
     "id": "1.500",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 32,
     "tolerans": 0,
@@ -23366,11 +26282,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23379,7 +26301,7 @@ window.BANKMATF1 = [
     "id": "1.501",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 1024,
     "tolerans": 0,
@@ -23390,11 +26312,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23403,7 +26331,7 @@ window.BANKMATF1 = [
     "id": "1.502",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 40,
     "tolerans": 0,
@@ -23414,11 +26342,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikationsprincipen",
     "poang": "1/0/0",
@@ -23427,7 +26361,7 @@ window.BANKMATF1 = [
     "id": "1.503",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 12,
     "tolerans": 0,
@@ -23438,11 +26372,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>"
+    "ledtrad": "<p>Fråga: hur många val finns i första steget, andra steget osv.? Multiplicera antalen.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – grundfall",
     "poang": "1/0/0",
@@ -23462,11 +26402,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>"
+    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – grundfall",
     "poang": "1/0/0",
@@ -23486,11 +26429,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>"
+    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – grundfall",
     "poang": "1/0/0",
@@ -23510,11 +26456,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>"
+    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – grundfall",
     "poang": "1/0/0",
@@ -23534,11 +26483,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>"
+    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – grundfall",
     "poang": "1/0/0",
@@ -23558,11 +26510,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>"
+    "ledtrad": "<p>Identifiera lådorna och föremålen. Tänk på hur många föremål som maximalt kan placeras utan att målet uppnås.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23582,11 +26537,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23606,11 +26564,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23630,11 +26591,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23654,11 +26618,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23678,11 +26645,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23702,11 +26672,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23726,11 +26699,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23750,11 +26726,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23774,11 +26753,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23798,11 +26780,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23822,11 +26807,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer och fakultet",
     "poang": "1/0/0",
@@ -23846,11 +26834,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>"
+    "ledtrad": "<p>När ordningen spelar roll använder du permutationer/fakultet. Skriv gärna ut de första faktorerna innan du räknar.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -23870,11 +26861,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -23894,11 +26888,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -23918,11 +26915,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -23942,11 +26942,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -23966,11 +26969,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -23990,11 +26996,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -24014,11 +27023,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -24038,11 +27050,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -24062,11 +27077,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -24086,11 +27104,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -24110,11 +27131,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – grundläggande urval",
     "poang": "1/0/0",
@@ -24134,7 +27158,10 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>"
+    "ledtrad": "<p>Ordningen spelar inte roll. Använd \\(\\binom nk\\).</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
@@ -24858,7 +27885,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "delbarhetsregler – snabb kontroll",
     "poang": "1/0/0",
@@ -24867,7 +27894,7 @@ window.BANKMATF1 = [
     "id": "2.511",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "kort_text",
     "rättSvar": "ja",
     "tolerans": null,
@@ -24878,11 +27905,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Använd en delbarhetsregel innan du börjar med lång division.</p>"
+    "ledtrad": "<p>Använd en delbarhetsregel innan du börjar med lång division.</p>",
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "delbarhetsregler – snabb kontroll",
     "poang": "1/0/0",
@@ -24891,7 +27924,7 @@ window.BANKMATF1 = [
     "id": "2.512",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "kort_text",
     "rättSvar": "ja",
     "tolerans": null,
@@ -24902,11 +27935,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Använd en delbarhetsregel innan du börjar med lång division.</p>"
+    "ledtrad": "<p>Använd en delbarhetsregel innan du börjar med lång division.</p>",
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "typ": "delbarhetsregler – snabb kontroll",
     "poang": "1/0/0",
@@ -24915,7 +27954,7 @@ window.BANKMATF1 = [
     "id": "2.513",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "svarstyp": "kort_text",
     "rättSvar": "ja",
     "tolerans": null,
@@ -24926,11 +27965,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Använd en delbarhetsregel innan du börjar med lång division.</p>"
+    "ledtrad": "<p>Använd en delbarhetsregel innan du börjar med lång division.</p>",
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Talet \\(5a38\\) är fyrsiffrigt, där \\(a\\) är en siffra. Bestäm \\(a\\) så att talet är delbart med 9.</p>",
@@ -24938,7 +27983,7 @@ window.BANKMATF1 = [
     "id": "2.514",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -24950,11 +27995,17 @@ window.BANKMATF1 = [
     "rättSvar": 2,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm största gemensamma delaren till 90 och 150.</p>",
@@ -24962,7 +28013,7 @@ window.BANKMATF1 = [
     "id": "2.515",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -24974,11 +28025,17 @@ window.BANKMATF1 = [
     "rättSvar": 30,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två bussar avgår från samma hållplats kl. 07.00. Den ena går var 8:e minut och den andra var 14:e minut. Efter hur många minuter avgår de samtidigt nästa gång?</p>",
@@ -24986,7 +28043,7 @@ window.BANKMATF1 = [
     "id": "2.516",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -24998,11 +28055,17 @@ window.BANKMATF1 = [
     "rättSvar": 56,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många positiva delare har talet 72?</p>",
@@ -25010,7 +28073,7 @@ window.BANKMATF1 = [
     "id": "2.517",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25022,11 +28085,17 @@ window.BANKMATF1 = [
     "rättSvar": 12,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd regeln för delbarhet med 11 (alternerande siffersumma) och avgör om 9284 är delbart med 11. Svara ja eller nej.</p>",
@@ -25034,7 +28103,7 @@ window.BANKMATF1 = [
     "id": "2.518",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25046,11 +28115,17 @@ window.BANKMATF1 = [
     "rättSvar": "ja",
     "tolerans": null,
     "svarFormat": "kort_text",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det minsta positiva heltalet \\(n\\) så att \\(50n\\) är en jämn kvadrat (kvadraten av ett heltal).</p>",
@@ -25058,7 +28133,7 @@ window.BANKMATF1 = [
     "id": "2.519",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -25070,11 +28145,17 @@ window.BANKMATF1 = [
     "rättSvar": 2,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många av heltalen 1–100 är delbara med både 6 och 8?</p>",
@@ -25082,7 +28163,7 @@ window.BANKMATF1 = [
     "id": "2.520",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25094,11 +28175,17 @@ window.BANKMATF1 = [
     "rättSvar": 4,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett tal är delbart med 4 om talet som bildas av de två sista siffrorna är delbart med 4. Är 8230 delbart med 4? Svara ja eller nej.</p>",
@@ -25106,7 +28193,7 @@ window.BANKMATF1 = [
     "id": "2.521",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25118,11 +28205,17 @@ window.BANKMATF1 = [
     "rättSvar": "nej",
     "tolerans": null,
     "svarFormat": "kort_text",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Talet \\(4a72\\) är fyrsiffrigt, där \\(a\\) är en siffra. Bestäm \\(a\\) så att talet är delbart med 9.</p>",
@@ -25130,7 +28223,7 @@ window.BANKMATF1 = [
     "id": "2.522",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25142,11 +28235,17 @@ window.BANKMATF1 = [
     "rättSvar": 5,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm största gemensamma delaren till 90 och 150.</p>",
@@ -25154,7 +28253,7 @@ window.BANKMATF1 = [
     "id": "2.523",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25166,11 +28265,17 @@ window.BANKMATF1 = [
     "rättSvar": 30,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två bussar avgår från samma hållplats kl. 07.00. Den ena går var 8:e minut och den andra var 14:e minut. Efter hur många minuter avgår de samtidigt nästa gång?</p>",
@@ -25178,7 +28283,7 @@ window.BANKMATF1 = [
     "id": "2.524",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -25190,7 +28295,13 @@ window.BANKMATF1 = [
     "rättSvar": 56,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
@@ -25530,7 +28641,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25539,7 +28650,7 @@ window.BANKMATF1 = [
     "id": "2.539",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
@@ -25550,11 +28661,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25563,7 +28680,7 @@ window.BANKMATF1 = [
     "id": "2.540",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "val",
     "rättSvar": "B",
     "tolerans": null,
@@ -25574,11 +28691,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25587,7 +28710,7 @@ window.BANKMATF1 = [
     "id": "2.541",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "val",
     "rättSvar": "A",
     "tolerans": null,
@@ -25598,11 +28721,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25611,7 +28740,7 @@ window.BANKMATF1 = [
     "id": "2.542",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "val",
     "rättSvar": "C",
     "tolerans": null,
@@ -25622,11 +28751,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25646,11 +28781,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25670,11 +28808,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25694,11 +28835,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25707,7 +28851,7 @@ window.BANKMATF1 = [
     "id": "2.546",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "val",
     "rättSvar": "D",
     "tolerans": null,
@@ -25718,11 +28862,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25731,7 +28881,7 @@ window.BANKMATF1 = [
     "id": "2.547",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "val",
     "rättSvar": "B",
     "tolerans": null,
@@ -25742,11 +28892,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "induktionsbevis",
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
@@ -25755,7 +28911,7 @@ window.BANKMATF1 = [
     "id": "2.548",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Matematiska induktionsbevis",
     "svarstyp": "val",
     "rättSvar": "C",
     "tolerans": null,
@@ -25766,11 +28922,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>"
+    "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25790,11 +28952,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25814,11 +28979,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25838,11 +29006,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25862,11 +29033,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25886,11 +29060,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25910,11 +29087,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25934,11 +29114,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25958,11 +29141,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -25982,11 +29168,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -26006,11 +29195,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -26030,11 +29222,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -26054,11 +29249,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -26078,11 +29276,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -26102,11 +29303,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
@@ -26126,11 +29330,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>"
+    "ledtrad": "<p>Skriv en formel för area/volym/omkrets och derivera båda leden med avseende på tiden.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26139,7 +29346,7 @@ window.BANKMATF1 = [
     "id": "1.563",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 0,
@@ -26150,11 +29357,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26163,7 +29376,7 @@ window.BANKMATF1 = [
     "id": "1.564",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
     "tolerans": 0,
@@ -26174,11 +29387,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26187,7 +29406,7 @@ window.BANKMATF1 = [
     "id": "1.565",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "numeriskt",
     "rättSvar": 8,
     "tolerans": 0,
@@ -26198,11 +29417,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26211,7 +29436,7 @@ window.BANKMATF1 = [
     "id": "1.566",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "numeriskt",
     "rättSvar": 16,
     "tolerans": 0,
@@ -26222,11 +29447,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26235,7 +29466,7 @@ window.BANKMATF1 = [
     "id": "1.567",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "numeriskt",
     "rättSvar": 32,
     "tolerans": 0,
@@ -26246,11 +29477,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26259,7 +29496,7 @@ window.BANKMATF1 = [
     "id": "1.568",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{2,4}",
     "tolerans": null,
@@ -26270,11 +29507,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26283,7 +29526,7 @@ window.BANKMATF1 = [
     "id": "1.569",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{1,2,3,4,5}",
     "tolerans": null,
@@ -26294,11 +29537,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26307,7 +29556,7 @@ window.BANKMATF1 = [
     "id": "1.570",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{1,3,4}",
     "tolerans": null,
@@ -26318,11 +29567,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdoperatorer",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26331,7 +29586,7 @@ window.BANKMATF1 = [
     "id": "1.571",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Union, snitt, differens och komplement",
     "svarstyp": "mängd",
     "rättSvar": "{1,3,5}",
     "tolerans": null,
@@ -26342,11 +29597,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "mängd",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26355,7 +29616,7 @@ window.BANKMATF1 = [
     "id": "1.572",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "numeriskt",
     "rättSvar": 0,
     "tolerans": 0,
@@ -26366,11 +29627,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "venndiagram",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26379,7 +29646,7 @@ window.BANKMATF1 = [
     "id": "1.573",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Inklusion–exklusion och antal i mängder",
     "svarstyp": "numeriskt",
     "rättSvar": 5,
     "tolerans": 0,
@@ -26390,11 +29657,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "mangder_venn",
+    "omr": "mangdlara_grund",
     "niva": "E",
     "typ": "mängdlära – grundträning",
     "poang": "1/0/0",
@@ -26403,7 +29676,7 @@ window.BANKMATF1 = [
     "id": "1.574",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Mängder och Venn-diagram",
+    "familj": "Mängder, element och mängdbyggare",
     "svarstyp": "kort_text",
     "rättSvar": "ja",
     "tolerans": null,
@@ -26414,11 +29687,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>"
+    "ledtrad": "<p>Börja med att översätta symbolen: \\(\\cap\\)=i båda, \\(\\cup\\)=i minst en, \\(A\\setminus B\\)=i A men inte i B, och \\(|A|\\)=antal element.</p>",
+    "omrTidigare": [
+      "mangder_venn"
+    ],
+    "familjTidigare": [
+      "Mängder och Venn-diagram"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26427,7 +29706,7 @@ window.BANKMATF1 = [
     "id": "1.575",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 120,
     "tolerans": 0,
@@ -26438,11 +29717,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26451,7 +29736,7 @@ window.BANKMATF1 = [
     "id": "1.576",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 3125,
     "tolerans": 0,
@@ -26462,11 +29747,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26475,7 +29766,7 @@ window.BANKMATF1 = [
     "id": "1.577",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
     "tolerans": 0,
@@ -26486,11 +29777,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26499,7 +29796,7 @@ window.BANKMATF1 = [
     "id": "1.578",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 24389,
     "tolerans": 0,
@@ -26510,11 +29807,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26523,7 +29826,7 @@ window.BANKMATF1 = [
     "id": "1.579",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 21924,
     "tolerans": 0,
@@ -26534,11 +29837,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26547,7 +29856,7 @@ window.BANKMATF1 = [
     "id": "1.580",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 26000,
     "tolerans": 0,
@@ -26558,11 +29867,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26571,7 +29886,7 @@ window.BANKMATF1 = [
     "id": "1.581",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "kort_text",
     "rättSvar": "nej",
     "tolerans": null,
@@ -26582,11 +29897,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26595,7 +29916,7 @@ window.BANKMATF1 = [
     "id": "1.582",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 1024,
     "tolerans": 0,
@@ -26606,11 +29927,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26619,7 +29946,7 @@ window.BANKMATF1 = [
     "id": "1.583",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 8000000,
     "tolerans": 0,
@@ -26630,11 +29957,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26643,7 +29976,7 @@ window.BANKMATF1 = [
     "id": "1.584",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 9000,
     "tolerans": 0,
@@ -26654,11 +29987,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26667,7 +30006,7 @@ window.BANKMATF1 = [
     "id": "1.585",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 360,
     "tolerans": 0,
@@ -26678,11 +30017,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "mult_add_principen",
     "niva": "E",
     "typ": "multiplikations- och additionsprincipen",
     "poang": "1/0/0",
@@ -26691,7 +30036,7 @@ window.BANKMATF1 = [
     "id": "1.586",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Multiplikationsprincipen",
+    "familj": "Multiplikations- och additionsprincipen",
     "svarstyp": "numeriskt",
     "rättSvar": 8,
     "tolerans": 0,
@@ -26702,11 +30047,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>"
+    "ledtrad": "<p>Dela upp situationen i val-steg. Multiplicera när valen görs i följd; addera när du väljer mellan disjunkta alternativ.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ],
+    "familjTidigare": [
+      "Multiplikationsprincipen"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26726,11 +30077,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26750,11 +30104,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26774,11 +30131,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26798,11 +30158,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26822,11 +30185,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26846,11 +30212,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26870,11 +30239,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26894,11 +30266,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
     "poang": "1/0/0",
@@ -26918,11 +30293,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>"
+    "ledtrad": "<p>Fråga först om ordningen spelar roll. Om ja: använd permutation eller produktprincip. Vid upprepade identiska bokstäver dividerar du med deras fakulteter.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – tillämpning",
     "poang": "1/0/0",
@@ -26942,11 +30320,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>"
+    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – tillämpning",
     "poang": "1/0/0",
@@ -26966,11 +30347,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>"
+    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – tillämpning",
     "poang": "1/0/0",
@@ -26990,11 +30374,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>"
+    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – tillämpning",
     "poang": "1/0/0",
@@ -27014,11 +30401,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>"
+    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – tillämpning",
     "poang": "1/0/0",
@@ -27038,11 +30428,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>"
+    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "permutationer_kombinationer",
+    "omr": "kombinationer",
     "niva": "E",
     "typ": "kombinationer – tillämpning",
     "poang": "1/0/0",
@@ -27062,7 +30455,10 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>"
+    "ledtrad": "<p>Identifiera varje oberoende urval. Använd \\(\\binom nk\\) när ordningen inom ett urval saknar betydelse och multiplicera oberoende urval.</p>",
+    "omrTidigare": [
+      "permutationer_kombinationer"
+    ]
   },
   {
     "kap": 1,
@@ -27258,7 +30654,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många positiva delare har talet 100?</p>",
@@ -27266,7 +30662,7 @@ window.BANKMATF1 = [
     "id": "2.549",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27278,11 +30674,17 @@ window.BANKMATF1 = [
     "rättSvar": 9,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Använd regeln för delbarhet med 11 (alternerande siffersumma) och avgör om 5293 är delbart med 11. Svara ja eller nej.</p>",
@@ -27290,7 +30692,7 @@ window.BANKMATF1 = [
     "id": "2.550",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27302,11 +30704,17 @@ window.BANKMATF1 = [
     "rättSvar": "nej",
     "tolerans": null,
     "svarFormat": "kort_text",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm det minsta positiva heltalet \\(n\\) så att \\(12n\\) är en jämn kvadrat (kvadraten av ett heltal).</p>",
@@ -27314,7 +30722,7 @@ window.BANKMATF1 = [
     "id": "2.551",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "begrepp",
@@ -27326,11 +30734,17 @@ window.BANKMATF1 = [
     "rättSvar": 3,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Hur många av heltalen 1–100 är delbara med både 6 och 8?</p>",
@@ -27338,7 +30752,7 @@ window.BANKMATF1 = [
     "id": "2.552",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27350,11 +30764,17 @@ window.BANKMATF1 = [
     "rättSvar": 4,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Ett tal är delbart med 4 om talet som bildas av de två sista siffrorna är delbart med 4. Är 4512 delbart med 4? Svara ja eller nej.</p>",
@@ -27362,7 +30782,7 @@ window.BANKMATF1 = [
     "id": "2.553",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27374,11 +30794,17 @@ window.BANKMATF1 = [
     "rättSvar": "ja",
     "tolerans": null,
     "svarFormat": "kort_text",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "delbarhet_primtal",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Talet \\(5a38\\) är fyrsiffrigt, där \\(a\\) är en siffra. Bestäm \\(a\\) så att talet är delbart med 9.</p>",
@@ -27386,7 +30812,7 @@ window.BANKMATF1 = [
     "id": "2.554",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Delbarhet, delbarhetsregler och primtalsfaktorisering",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27398,11 +30824,17 @@ window.BANKMATF1 = [
     "rättSvar": 2,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Bestäm största gemensamma delaren till 84 och 126.</p>",
@@ -27410,7 +30842,7 @@ window.BANKMATF1 = [
     "id": "2.555",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27422,11 +30854,17 @@ window.BANKMATF1 = [
     "rättSvar": 42,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
-    "omr": "delbarhet",
+    "omr": "gemensamma_faktorer",
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Två bussar avgår från samma hållplats kl. 07.00. Den ena går var 15:e minut och den andra var 20:e minut. Efter hur många minuter avgår de samtidigt nästa gång?</p>",
@@ -27434,7 +30872,7 @@ window.BANKMATF1 = [
     "id": "2.556",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Delbarhet, primtalsfaktorisering och SGD/MGM",
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -27446,7 +30884,13 @@ window.BANKMATF1 = [
     "rättSvar": 60,
     "tolerans": 0,
     "svarFormat": "numeriskt",
-    "spel": true
+    "spel": true,
+    "omrTidigare": [
+      "delbarhet"
+    ],
+    "familjTidigare": [
+      "Delbarhet, primtalsfaktorisering och SGD/MGM"
+    ]
   },
   {
     "kap": 2,
@@ -27738,7 +31182,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – garanterat antal",
     "poang": "1/0/0",
@@ -27758,11 +31202,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>"
+    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – garanterat antal",
     "poang": "1/0/0",
@@ -27782,11 +31229,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>"
+    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – garanterat antal",
     "poang": "1/0/0",
@@ -27806,11 +31256,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>"
+    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 1,
-    "omr": "kombinatoriska_principer",
+    "omr": "ladprincipen",
     "niva": "E",
     "typ": "lådprincipen – garanterat antal",
     "poang": "1/0/0",
@@ -27830,11 +31283,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>"
+    "ledtrad": "<p>Identifiera lådorna. Beräkna det största antalet föremål som kan fördelas utan att den efterfrågade situationen uppstår, och lägg sedan till 1.</p>",
+    "omrTidigare": [
+      "kombinatoriska_principer"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -27843,7 +31299,7 @@ window.BANKMATF1 = [
     "id": "2.569",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "kort_text",
     "rättSvar": "A",
     "tolerans": null,
@@ -27854,11 +31310,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -27867,7 +31329,7 @@ window.BANKMATF1 = [
     "id": "2.570",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "kort_text",
     "rättSvar": "B",
     "tolerans": null,
@@ -27878,11 +31340,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -27891,7 +31359,7 @@ window.BANKMATF1 = [
     "id": "2.571",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "kort_text",
     "rättSvar": "C",
     "tolerans": null,
@@ -27902,11 +31370,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -27915,7 +31389,7 @@ window.BANKMATF1 = [
     "id": "2.572",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "kort_text",
     "rättSvar": "D",
     "tolerans": null,
@@ -27926,11 +31400,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -27950,11 +31430,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -27963,7 +31446,7 @@ window.BANKMATF1 = [
     "id": "2.574",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "kort_text",
     "rättSvar": "C",
     "tolerans": null,
@@ -27974,11 +31457,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "direkta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -27987,7 +31476,7 @@ window.BANKMATF1 = [
     "id": "2.575",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Direkta bevis och metodval",
     "svarstyp": "kort_text",
     "rättSvar": "B",
     "tolerans": null,
@@ -27998,11 +31487,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -28011,7 +31506,7 @@ window.BANKMATF1 = [
     "id": "2.576",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "kort_text",
     "rättSvar": "B",
     "tolerans": null,
@@ -28022,11 +31517,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -28035,7 +31536,7 @@ window.BANKMATF1 = [
     "id": "2.577",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Direkta bevis, kontraposition och metodval",
+    "familj": "Kontraposition och motexempel",
     "svarstyp": "kort_text",
     "rättSvar": "C",
     "tolerans": null,
@@ -28046,11 +31547,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ],
+    "familjTidigare": [
+      "Direkta bevis, kontraposition och metodval"
+    ]
   },
   {
     "kap": 2,
-    "omr": "bevismetoder",
+    "omr": "indirekta_bevis",
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
@@ -28070,11 +31577,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>"
+    "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
+    "omrTidigare": [
+      "bevismetoder"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28094,11 +31604,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28118,11 +31631,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28142,11 +31658,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28166,11 +31685,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28190,11 +31712,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28214,11 +31739,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28238,11 +31766,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
@@ -28262,7 +31793,10 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>"
+    "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
@@ -28458,7 +31992,7 @@ window.BANKMATF1 = [
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28478,11 +32012,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28502,11 +32039,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28526,11 +32066,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28550,11 +32093,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28574,11 +32120,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28598,11 +32147,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28622,11 +32174,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "bråk",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 3,
-    "omr": "derivata_tillampningar",
+    "omr": "linjar_approximation",
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
@@ -28646,11 +32201,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>"
+    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "omrTidigare": [
+      "derivata_tillampningar"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28659,7 +32217,7 @@ window.BANKMATF1 = [
     "id": "4.492",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 160,
     "tolerans": 0,
@@ -28671,11 +32229,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28684,7 +32248,7 @@ window.BANKMATF1 = [
     "id": "4.493",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 80,
     "tolerans": 0,
@@ -28696,11 +32260,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28709,7 +32279,7 @@ window.BANKMATF1 = [
     "id": "4.494",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 60,
     "tolerans": 0,
@@ -28721,11 +32291,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28734,7 +32310,7 @@ window.BANKMATF1 = [
     "id": "4.495",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 120,
     "tolerans": 0,
@@ -28746,11 +32322,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28759,7 +32341,7 @@ window.BANKMATF1 = [
     "id": "4.496",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 500,
     "tolerans": 0,
@@ -28771,11 +32353,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28784,7 +32372,7 @@ window.BANKMATF1 = [
     "id": "4.497",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 250,
     "tolerans": 0,
@@ -28796,11 +32384,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28809,7 +32403,7 @@ window.BANKMATF1 = [
     "id": "4.498",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 15,
     "tolerans": 0,
@@ -28821,11 +32415,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "forsta_ordningen",
+    "omr": "tillvaxt_begransning",
     "niva": "E",
     "typ": "logistisk tillväxt – grundtolkning",
     "poang": "1/0/0",
@@ -28834,7 +32434,7 @@ window.BANKMATF1 = [
     "id": "4.499",
     "miniräknare": false,
     "geogebra": false,
-    "familj": "Tillväxt, sönderfall och avsvalning med differentialekvationer",
+    "familj": "Logistisk tillväxt",
     "svarstyp": "numeriskt",
     "rättSvar": 0.05625,
     "tolerans": 1e-05,
@@ -28846,11 +32446,17 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>"
+    "ledtrad": "<p>Jämför modellen med \\(P'=kP(1-P/K)\\). Då är \\(K\\) maxnivån och störst tillväxthastighet fås vid \\(P=K/2\\).</p>",
+    "omrTidigare": [
+      "forsta_ordningen"
+    ],
+    "familjTidigare": [
+      "Tillväxt, sönderfall och avsvalning med differentialekvationer"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -28871,11 +32477,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -28896,11 +32505,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -28921,11 +32533,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -28946,11 +32561,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -28971,11 +32589,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -28996,11 +32617,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -29021,11 +32645,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "Newtons avsvalningslag – grundmodell",
     "poang": "1/0/0",
@@ -29046,11 +32673,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>"
+    "ledtrad": "<p>Jämför temperaturen med omgivningen. I formen \\(T'=-k(T-T_{omg})\\) bestämmer temperaturskillnaden både riktning och storlek på förändringen.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "luftmotstånd – grundmodell",
     "poang": "1/0/0",
@@ -29071,11 +32701,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>"
+    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "luftmotstånd – grundmodell",
     "poang": "1/0/0",
@@ -29096,11 +32729,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>"
+    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "luftmotstånd – grundmodell",
     "poang": "1/0/0",
@@ -29121,11 +32757,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>"
+    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "luftmotstånd – grundmodell",
     "poang": "1/0/0",
@@ -29146,11 +32785,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 1,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>"
+    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "luftmotstånd – grundmodell",
     "poang": "1/0/0",
@@ -29171,11 +32813,14 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>"
+    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   },
   {
     "kap": 4,
-    "omr": "modellering_digitalt",
+    "omr": "forandringsmodeller",
     "niva": "E",
     "typ": "luftmotstånd – grundmodell",
     "poang": "1/0/0",
@@ -29196,6 +32841,9 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "kort_text",
-    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>"
+    "ledtrad": "<p>Skriv kraftbalansen i rörelseriktningen. Vid terminalhastighet sätter du \\(v'=0\\). Utan luftmotstånd är accelerationen konstant.</p>",
+    "omrTidigare": [
+      "modellering_digitalt"
+    ]
   }
 ];

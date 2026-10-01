@@ -1,6 +1,7 @@
-/* strukturmatf1.js — intern understruktur och elevsynliga träningsområden för Matematik – fördjupning nivå 1.
-   OMR bevaras för bank/progression. GRUPPMATF1 definierar elevens större områden; familj är delmoment.
-   Reviderad och avstämd mot MATF1000X 2026-09-10. */
+/* strukturmatf1.js — kapitel, moment och elevsynliga grupper för Matematik – fördjupning nivå 1 (Ma5).
+   Moment (OMR) = en lektion i Planering Ma5 VT22 (kapitel 1, 2 och 4) och Planering Ma5 NA16D 2018/19
+   (kapitel 3); familj är delmoment. Grafteori saknar uppgifter i banken och har därför inget moment.
+   Gamla namn sparas i uppgifternas omrTidigare/familjTidigare. Reviderad 2026-10-01. */
 
 window.KAPNAMNMATF1 = {
   "1": "Mängdlära och kombinatorik",
@@ -11,115 +12,145 @@ window.KAPNAMNMATF1 = {
 
 window.OMRMATF1 = {
   "1": {
-    "mangder_venn": "Mängder, mängdoperationer och Venn-diagram",
-    "additionsprincipen_mangder": "Additionsprincipen och inklusion–exklusion",
-    "kombinatoriska_principer": "Multiplikationsprincipen och lådprincipen",
-    "permutationer_kombinationer": "Permutationer och kombinationer",
+    "ladprincipen": "Lådprincipen",
+    "mult_add_principen": "Multiplikationsprincipen och additionsprincipen",
+    "permutationer": "Permutationer",
+    "kombinationer": "Kombinationer",
+    "kombinatorik_sannolikhet": "Sannolikhetslära och kombinatorik",
     "binomialsatsen": "Binomialsatsen",
-    "kombinatorik_sannolikhet": "Kombinatorik och sannolikhet"
+    "mangdlara_grund": "Mängdlära – grundbegrepp",
+    "mangdoperatorer": "Mängdoperatorer",
+    "venndiagram": "Venndiagram"
   },
   "2": {
-    "delbarhet": "Delbarhet, primtal och största gemensamma delare",
-    "talbaser": "Tal i olika talbaser",
-    "kongruens": "Kongruens och kongruensräkning",
-    "talfoljder_sigma": "Talföljder och sigma-notation",
-    "aritmetiska_geometriska": "Aritmetiska och geometriska talföljder",
-    "rekursiva_talfoljder": "Rekursiva talföljder",
-    "bevismetoder": "Bevismetoder – direkta, indirekta och induktionsbevis"
+    "delbarhet_primtal": "Delbarhet och primtal",
+    "gemensamma_faktorer": "Gemensamma och icke gemensamma faktorer",
+    "kongruens": "Kongruens och moduloräkning",
+    "talbaser": "Talsystem med olika baser",
+    "inledning_talfoljder": "Inledning talföljder",
+    "rekursionsformler": "Rekursionsformler",
+    "aritm_geom_talfoljder": "Aritmetiska och geometriska talföljder",
+    "talfoljder_tillampningar": "Tillämpningar av talföljder",
+    "induktionsbevis": "Induktionsbevis",
+    "direkta_bevis": "Direkta bevis",
+    "indirekta_bevis": "Indirekta bevis"
   },
   "3": {
+    "repetition_derivator": "Repetition derivator",
+    "linjar_approximation": "Tangenter och linjär approximation",
+    "forandringshastigheter": "Förändringshastigheter och derivator",
+    "integraler_area": "Primitiva funktioner, integraler och area",
     "partiell_integration": "Partiell integration",
-    "generaliserade_integraler": "Generaliserade integraler",
-    "derivata_tillampningar": "Tillämpningar av derivata",
-    "fordjupad_analys": "Fördjupad analys och digitala verktyg"
+    "generaliserade_integraler": "Generaliserade integraler"
   },
   "4": {
-    "diffekv_grunder": "Differentialekvationer – begrepp och tolkning",
-    "forsta_ordningen": "Första ordningens differentialekvationer",
-    "andra_ordningen": "Andra ordningens differentialekvationer – homogena och inhomogena",
-    "begynnelsevillkor": "Begynnelsevärdesproblem",
+    "vad_ar_diffekv": "Vad är en differentialekvation?",
+    "verifiering": "Verifiering av en lösning",
+    "homogena_forsta": "Differentialekvationen y' + ay = 0",
+    "homogena_andra": "Differentialekvationen y'' + ay' + by = 0",
+    "inhomogena_forsta": "Inhomogena differentialekvationer av första ordningen",
+    "inhomogena_andra": "Inhomogena differentialekvationer av andra ordningen",
+    "forandringsmodeller": "Förändringsmodeller – blandning, avsvalning och fritt fall",
     "riktningsfalt_euler": "Riktningsfält och Eulers stegmetod",
-    "modellering_digitalt": "Modellering och digitala metoder"
+    "tillvaxt_begransning": "Tillväxt med begränsningar"
   }
 };
 
 window.GRUPPMATF1 = {
   "1": [
     {
-      "id": "mangder_principer",
-      "namn": "Mängder och kombinatoriska principer",
+      "id": "kombinatorik_1_1",
+      "namn": "1.1 Kombinatorik",
       "omr": [
-        "mangder_venn",
-        "additionsprincipen_mangder",
-        "kombinatoriska_principer"
+        "ladprincipen",
+        "mult_add_principen",
+        "permutationer",
+        "kombinationer",
+        "kombinatorik_sannolikhet",
+        "binomialsatsen"
       ]
     },
     {
-      "id": "urval_binomial",
-      "namn": "Permutationer, kombinationer och sannolikhet",
+      "id": "mangdlara_1_2",
+      "namn": "1.2 Mängdlära",
       "omr": [
-        "permutationer_kombinationer",
-        "binomialsatsen",
-        "kombinatorik_sannolikhet"
+        "mangdlara_grund",
+        "mangdoperatorer",
+        "venndiagram"
       ]
     }
   ],
   "2": [
     {
-      "id": "talteori",
-      "namn": "Talteori, talbaser och kongruens",
+      "id": "talteori_2_1",
+      "namn": "2.1 Talteori",
       "omr": [
-        "delbarhet",
-        "talbaser",
-        "kongruens"
+        "delbarhet_primtal",
+        "gemensamma_faktorer",
+        "kongruens",
+        "talbaser"
       ]
     },
     {
-      "id": "talfoljder",
-      "namn": "Talföljder, rekursion och bevis",
+      "id": "talfoljder_2_2",
+      "namn": "2.2 Talföljder",
       "omr": [
-        "talfoljder_sigma",
-        "aritmetiska_geometriska",
-        "rekursiva_talfoljder",
-        "bevismetoder"
+        "inledning_talfoljder",
+        "rekursionsformler",
+        "aritm_geom_talfoljder",
+        "talfoljder_tillampningar"
+      ]
+    },
+    {
+      "id": "bevis_2_3",
+      "namn": "2.3 Bevis",
+      "omr": [
+        "induktionsbevis",
+        "direkta_bevis",
+        "indirekta_bevis"
       ]
     }
   ],
   "3": [
     {
-      "id": "integrationstekniker",
-      "namn": "Exempel på integralfördjupning",
+      "id": "derivator_3_1",
+      "namn": "3.1 Derivator",
       "omr": [
-        "partiell_integration",
-        "generaliserade_integraler"
+        "repetition_derivator",
+        "linjar_approximation",
+        "forandringshastigheter"
       ]
     },
     {
-      "id": "fordjupad_analys",
-      "namn": "Fördjupad derivata och analys",
+      "id": "integraler_3_2",
+      "namn": "3.2 Integraler",
       "omr": [
-        "derivata_tillampningar",
-        "fordjupad_analys"
+        "integraler_area",
+        "partiell_integration",
+        "generaliserade_integraler"
       ]
     }
   ],
   "4": [
     {
-      "id": "diffekv_forsta",
-      "namn": "Differentialekvationer – grunder och första ordningen",
+      "id": "diffekv_4_1",
+      "namn": "4.1 Differentialekvationer",
       "omr": [
-        "diffekv_grunder",
-        "forsta_ordningen",
-        "begynnelsevillkor"
+        "vad_ar_diffekv",
+        "verifiering",
+        "homogena_forsta",
+        "homogena_andra",
+        "inhomogena_forsta",
+        "inhomogena_andra"
       ]
     },
     {
-      "id": "diffekv_digitalt",
-      "namn": "Andra ordningen, riktningsfält och digitala metoder",
+      "id": "modeller_4_2",
+      "namn": "4.2 Modeller med differentialekvationer",
       "omr": [
-        "andra_ordningen",
+        "forandringsmodeller",
         "riktningsfalt_euler",
-        "modellering_digitalt"
+        "tillvaxt_begransning"
       ]
     }
   ]

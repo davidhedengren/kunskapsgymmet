@@ -425,3 +425,60 @@
   });
   window.TYPUPPGIFTER_MATF1 = bank;
 })();
+
+/* Moment och delmoment enligt Planering Ma5 VT22 och NA16D 2018/19 (2026-10-01).
+   Varje genomgång pekar på sitt nya moment (omr) och delmoment (traningsfamilj). */
+(() => {
+  const bank=window.TYPUPPGIFTER_MATF1;
+  const nya=[
+    ["matf1-grund-1-01",1,"mangdlara_grund","Mängder, element och mängdbyggare"],
+    ["matf1-grund-1-03",1,"venndiagram","Inklusion–exklusion och antal i mängder"],
+    ["matf1-grund-1-04",1,"mult_add_principen","Multiplikations- och additionsprincipen"],
+    ["matf1-grund-1-05",1,"ladprincipen","Använda lådprincipen"],
+    ["matf1-grund-1-06",1,"permutationer","Permutationer och ordnade urval"],
+    ["matf1-grund-1-07",1,"permutationer","Permutationer och ordnade urval"],
+    ["matf1-grund-1-08",1,"kombinationer","Kombinationer och urval"],
+    ["matf1-grund-1-09",1,"binomialsatsen","Använda binomialsatsen"],
+    ["matf1-grund-1-10",1,"binomialsatsen","Använda binomialsatsen"],
+    ["matf1-grund-1-11",1,"kombinatorik_sannolikhet","Kombinatorisk sannolikhet"],
+    ["matf1-grund-2-01",2,"gemensamma_faktorer","Största gemensamma delare och minsta gemensamma multipel"],
+    ["matf1-grund-2-02",2,"gemensamma_faktorer","Största gemensamma delare och minsta gemensamma multipel"],
+    ["matf1-grund-2-03",2,"talbaser","Talbaser och basomvandling"],
+    ["matf1-grund-2-04",2,"talbaser","Talbaser och basomvandling"],
+    ["matf1-grund-2-05",2,"kongruens","Räkna med modularitet och kongruenser"],
+    ["matf1-grund-2-06",2,"kongruens","Räkna med modularitet och kongruenser"],
+    ["matf1-grund-2-07",2,"inledning_talfoljder","Talföljder och sigmanotation"],
+    ["matf1-grund-2-08",2,"aritm_geom_talfoljder","Aritmetiska och geometriska talföljder och summor"],
+    ["matf1-grund-2-09",2,"aritm_geom_talfoljder","Aritmetiska och geometriska talföljder och summor"],
+    ["matf1-grund-2-10",2,"rekursionsformler","Rekursiva talföljder och modeller"],
+    ["matf1-grund-2-11",2,"rekursionsformler","Rekursiva talföljder och modeller"],
+    ["matf1-grund-2-12",2,"direkta_bevis","Direkta bevis och metodval"],
+    ["matf1-grund-2-13",2,"indirekta_bevis","Motsägelsebevis"],
+    ["matf1-grund-2-14",2,"induktionsbevis","Matematiska induktionsbevis"],
+    ["matf1-grund-3-01",3,"partiell_integration","Partiell integration"],
+    ["matf1-grund-3-02",3,"partiell_integration","Partiell integration"],
+    ["matf1-grund-3-03",3,"generaliserade_integraler","Generaliserade integraler"],
+    ["matf1-grund-3-04",3,"generaliserade_integraler","Generaliserade integraler"],
+    ["matf1-grund-3-05",3,"forandringshastigheter","Relaterade förändringshastigheter"],
+    ["matf1-grund-3-06",3,"linjar_approximation","Linjär approximation med derivata"],
+    ["matf1-grund-3-07",3,"repetition_derivator","Derivata och ekvationer med digitala verktyg"],
+    ["matf1-grund-3-08",3,"repetition_derivator","Derivata och ekvationer med digitala verktyg"],
+    ["matf1-grund-4-01",4,"verifiering","Verifiera och bestämma differentialekvation från lösning"],
+    ["matf1-grund-4-02",4,"vad_ar_diffekv","Grundläggande analys av differentialekvationer"],
+    ["matf1-grund-4-03",4,"homogena_forsta","Lösa y' = ky och begynnelsevärdesproblem"],
+    ["matf1-grund-4-04",4,"inhomogena_forsta","Lösa inhomogena ekvationer av första ordningen"],
+    ["matf1-grund-4-05",4,"homogena_andra","Homogena differentialekvationer av andra ordningen"],
+    ["matf1-grund-4-06",4,"inhomogena_andra","Inhomogena differentialekvationer av andra ordningen"],
+    ["matf1-grund-4-07",4,"homogena_forsta","Lösa y' = ky och begynnelsevärdesproblem"],
+    ["matf1-grund-4-08",4,"homogena_andra","Begynnelsevärdesproblem"],
+    ["matf1-grund-4-09",4,"riktningsfalt_euler","Tolka riktningsfält och lösningskurvor"],
+    ["matf1-grund-4-10",4,"riktningsfalt_euler","Eulers metod"],
+    ["matf1-grund-4-11",4,"forandringsmodeller","Tillväxt, sönderfall och avsvalning med differentialekvationer"],
+    ["matf1-grund-4-12",4,"riktningsfalt_euler","Tolka och kontrollera digitala differentialekvationslösningar"]
+  ];
+  nya.forEach(([nyckel,kap,omr,familj])=>{
+    const g=bank[nyckel];
+    if(!g) return;
+    g.kap=kap; g.omr=omr; g.traningsfamilj=familj;
+  });
+})();

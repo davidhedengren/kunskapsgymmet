@@ -1635,6 +1635,26 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
   background:var(--tone);box-shadow:0 0 0 2px var(--surface),0 0 9px -1px var(--tone)}
 .km.t-low{--tone:var(--km-lag)}.km.t-mid{--tone:var(--km-mitt)}.km.t-good{--tone:var(--km-hog)}
 @media (prefers-reduced-motion:reduce){.km i{transition:none}}
+.pt-uppdrag{margin:14px 0 4px;padding:12px 14px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair)}
+.pt-upp-topp{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.pt-upp-topp b{font-size:13px;font-weight:650}
+.pt-upp-topp span{font-size:12px;font-weight:600;color:var(--ink3)}
+.pt-uppdrag ul{list-style:none;margin:0;padding:0;display:grid}
+.pt-uppdrag li{display:grid;grid-template-columns:18px minmax(0,1fr) auto auto;align-items:center;gap:10px;padding:7px 0;font-size:13.5px}
+.pt-uppdrag li+li{border-top:1px solid var(--hair)}
+.pt-uppdrag li.huvud .pt-upptext{font-weight:600}
+.pt-bock{width:16px;height:16px;border-radius:50%;border:1.6px solid var(--hair2);position:relative}
+.pt-uppdrag li.klar .pt-bock{background:var(--good);border-color:var(--good)}
+.pt-uppdrag li.klar .pt-bock:after{content:"";position:absolute;left:4.6px;top:2px;width:4px;height:7px;border:solid var(--surface);border-width:0 1.8px 1.8px 0;transform:rotate(45deg)}
+.pt-uppdrag li.klar .pt-upptext{color:var(--ink3);text-decoration:line-through;text-decoration-color:var(--hair2)}
+.pt-uppn{font-size:12px;font-weight:600;color:var(--ink3);font-variant-numeric:tabular-nums;display:flex;gap:8px;align-items:baseline}
+.pt-uppxp{font-style:normal;font-weight:700;color:var(--gold2)}
+.pt-upp-annan{font-size:13px;color:var(--ink3)}
+.pt-uppdrag li.klar .pt-uppxp{opacity:.5}
+.pt-uppgo{font-size:12.5px;font-weight:650;color:var(--accInk);background:var(--accSoft);border-radius:9px;padding:4px 10px}
+.pt-uppgo:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.pt-upp-chip{font-size:12px;font-weight:600;color:var(--ink3);background:var(--surface2);border:1px solid var(--hair);border-radius:99px;padding:3px 9px;white-space:nowrap}
+.pt-upp-chip.klar{color:var(--good);border-color:color-mix(in srgb,var(--good) 35%,transparent)}
 .tmlista{display:grid}
 .tmgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
 .tmgrid .tm.tm-kort{padding:16px 18px;align-content:start}
@@ -3544,6 +3564,7 @@ function loadProfileFrom(p){
   /* Kvitterade felrapportsbelöningar: "kurs|uppgift" -> tidpunkt. */
   p.felBelonade ||= {}; p.felFynd||=0;
   p.fortsatt||=0; p.sistFel=!!p.sistFel;
+  p.uppdrag ??= null; p.uppdragDagar||=0; p.uppdragKlara||=0; p.uppdragHuvud||=0; p.uppdragDag ??= null;
   p.bastaPass ??= null;
   p.lastDay ??= null;
 
@@ -3662,6 +3683,12 @@ function bestAreaMastery(){
 function touchedAreas(){ return allAreaMasteries().length; }
 
 const MEDALJBANOR={
+  /* Tränarens medaljer: egna enkla symboler, inga figurer eller logotyper. */
+  ljusstrale:'<path d="M6.5 17.5l2-2"/><path d="M8.5 15.5L18 6" stroke-width="2.6"/><path d="M5 19l1.5-1.5"/>',
+  padawan:   '<path d="M6.5 17.5l2-2"/><path d="M8.5 15.5L18 6" stroke-width="2.6"/><path d="M17.5 14.5l.7 1.6 1.6.7-1.6.7-.7 1.6-.7-1.6-1.6-.7 1.6-.7z"/>',
+  riddare:   '<path d="M5.5 18.5l2-2"/><path d="M7.5 16.5L17 7" stroke-width="2.4"/><path d="M18.5 18.5l-2-2"/><path d="M16.5 16.5L7 7" stroke-width="2.4"/>',
+  mastare:   '<circle cx="12" cy="12" r="8.6"/><path d="M8.6 15.4l1.4-1.4"/><path d="M10 14l5-5" stroke-width="2.4"/><path d="M16.8 5.4l.4.9.9.4-.9.4-.4.9-.4-.9-.9-.4.9-.4z"/>',
+  kraften:   '<path d="M12 12m-2 0a2 2 0 1 0 4 0a2 2 0 1 0-4 0"/><path d="M7.8 7.8a6 6 0 0 0 0 8.4"/><path d="M16.2 7.8a6 6 0 0 1 0 8.4"/><path d="M5 5a10 10 0 0 0 0 14"/><path d="M19 5a10 10 0 0 1 0 14"/>',
 
   steg:      '<path d="M5 20.5h14"/><path d="M12 16.5V5"/><path d="M7.5 9.5L12 5l4.5 4.5"/>',
   uppvarmd:  '<path d="M14 14.6V5.5a2 2 0 1 0-4 0v9.1a4 4 0 1 0 4 0z"/><path d="M12 9.5v5.5"/>',
@@ -3753,6 +3780,12 @@ const BADGES=[
   {id:"niva3", icon:"toppform", name:"Toppform",        desc:"80 % på nivå 3 i ett område",  max:80,  cur:()=>profile.bestNiva3},
   {id:"kapitel",icon:"kapitel",name:"Kapitelmästare",  desc:"Ta ett helt kapitel över 80 %",max:80,  cur:()=>profile.bestKapitel},
   {id:"provklar",icon:"provklar",name:"Helkurslyft",     desc:"Få träningsläget för en hel kurs över 80 %", max:80, cur:()=>profile.bestKurs},
+
+  {id:"upp1",  icon:"ljusstrale", name:"Ung padawan",   desc:"Klara alla dagens uppdrag en gång",  max:1,  cur:()=>profile.uppdragDagar},
+  {id:"upp5",  icon:"padawan",  name:"Padawan",          desc:"Klara dagens uppdrag 5 dagar",       max:5,  cur:()=>profile.uppdragDagar},
+  {id:"upp20", icon:"riddare",  name:"Jediriddare",      desc:"Klara dagens uppdrag 20 dagar",      max:20, cur:()=>profile.uppdragDagar},
+  {id:"upp50", icon:"mastare",  name:"Jedimästare",      desc:"Klara dagens uppdrag 50 dagar",      max:50, cur:()=>profile.uppdragDagar},
+  {id:"kraften",icon:"kraften", name:"Kraften är stark", desc:"Klara 25 enskilda uppdrag",          max:25, cur:()=>profile.uppdragKlara},
 
   {id:"gg1",   icon:"uppslagen", name:"Uppslagen",     desc:"Läs din första genomgång",         max:1,   cur:()=>lastaGenomgangar()},
   {id:"gg10",  icon:"palast", name:"Påläst",           desc:"Läs 10 genomgångar",               max:10,  cur:()=>lastaGenomgangar()},
@@ -5856,7 +5889,7 @@ function diagnosKort(kort){
   const dagar=sist?Math.floor((Date.now()-sist)/864e5):0;
   if(m>=TM_SAKER && dagar>=TM_REP_DAGAR){
     ut.rad=`Det har gått ${dagar} dagar sedan du tränade här. En kort repetition gör att du minns det längre.`;
-    ut.knapp={text:"Repetera",on:`startCard('${esc(kort.key)}')`};
+    ut.knapp={text:"Repetera",on:`startCard('${esc(kort.key)}')`,mal:{typ:"omrade",kort:kort.key}};
     return ut;
   }
 
@@ -5866,15 +5899,15 @@ function diagnosKort(kort){
     const under=provade.filter(L=>L<svag && st[L].s>=TM_SAKER);
     if(under.length){
       ut.rad=`Nivå ${nivaSpann(under)} sitter. Det är ${NIVA_NAMN[svag]} på nivå ${svag} som drar ned.`;
-      ut.knapp={text:`Träna nivå ${svag}`,on:`startCardLevel('${esc(kort.key)}','${svag}')`};
+      ut.knapp={text:`Träna nivå ${svag}`,on:`startCardLevel('${esc(kort.key)}','${svag}')`,mal:{typ:"niva",kort:kort.key,niva:[svag]}};
     }else if(svag<="2"){
       ut.rad="Grunderna sitter inte riktigt än. Börja där, så blir resten lättare.";
-      ut.knapp={text:"Träna nivå 1–2",on:`startCardLevel('${esc(kort.key)}','1,2')`};
+      ut.knapp={text:"Träna nivå 1–2",on:`startCardLevel('${esc(kort.key)}','1,2')`,mal:{typ:"niva",kort:kort.key,niva:["1","2"]}};
       if(gg) ut.genomgang=`oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}')`;
     }else{
       const ned=String(Number(svag)-1);
       ut.rad=`Nivå ${svag} är svår just nu. Ta ett steg tillbaka till nivå ${ned} och bygg upp säkerheten där först.`;
-      ut.knapp={text:`Träna nivå ${ned}`,on:`startCardLevel('${esc(kort.key)}','${ned}')`};
+      ut.knapp={text:`Träna nivå ${ned}`,on:`startCardLevel('${esc(kort.key)}','${ned}')`,mal:{typ:"niva",kort:kort.key,niva:[ned]}};
     }
   }
 
@@ -5884,7 +5917,7 @@ function diagnosKort(kort){
     const namn=familyName(del.family);
     if(!ut.rad){
       ut.rad=`Det är delmomentet ${liten(namn)} som drar ned.`;
-      ut.knapp={text:"Träna delmomentet",on:`startCardFamily('${esc(kort.key)}','${esc(del.family)}')`};
+      ut.knapp={text:"Träna delmomentet",on:`startCardFamily('${esc(kort.key)}','${esc(del.family)}')`,mal:{typ:"familj",kort:kort.key,familj:del.family}};
       if(gg) ut.genomgang=`oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}','${esc(del.family)}')`;
     }else ut.extra=`Särskilt delmomentet ${liten(namn)}.`;
   }
@@ -5893,7 +5926,7 @@ function diagnosKort(kort){
   const senaste=hist.slice(-12), ratt=senaste.filter(h=>h.ok);
   if(ratt.length>=4 && ratt.filter(h=>h.hint).length/ratt.length>=.5){
     const t="Du klarar mycket med ledtråd. Prova nästa uppgifter utan och se om det håller.";
-    if(!ut.rad){ ut.rad=t; ut.knapp={text:"Träna utan ledtråd",on:`startCard('${esc(kort.key)}')`}; }
+    if(!ut.rad){ ut.rad=t; ut.knapp={text:"Träna utan ledtråd",on:`startCard('${esc(kort.key)}')`,mal:{typ:"utanledtrad",kort:kort.key}}; }
     else if(!ut.extra) ut.extra=t;
   }
 
@@ -5907,7 +5940,7 @@ function diagnosKort(kort){
       ? "Gör några uppgifter till, så blir återkopplingen mer träffsäker."
       : "Ingen enskild nivå sticker ut. Blandad träning i området är bästa nästa steg.";
   }
-  if(!ut.knapp) ut.knapp={text:"Träna området",on:`startCard('${esc(kort.key)}')`};
+  if(!ut.knapp) ut.knapp={text:"Träna området",on:`startCard('${esc(kort.key)}')`,mal:{typ:"omrade",kort:kort.key}};
   return ut;
 }
 
@@ -6295,6 +6328,115 @@ function fortsattPass(){
 }
 function oppnaPt(){ state.ptOppen=true; renderDashboard(); }
 
+/* ===== Tränarens uppdrag =====
+   Tre uppdrag per dag. De skapas i den kurs eleven tränar först och gäller
+   bara där. Huvuduppdraget kommer från elevens egen diagnos (samma som i
+   Ditt nästa steg), de andra två är korta vanor: laga gamla fel eller
+   hålla en serie, och nå dagsmålet. */
+const UPPDRAG_ANTAL=5;
+/* XP för uppdrag. Reglerna speglar sql/2026-10-01-uppdrag-och-medaljer.sql
+   exakt: 50 per uppdrag, +50 för huvuduppdraget, +100 när alla tre är klara,
+   högst tre uppdrag och en klar dag per dygn. Databasen godtar bara XP den
+   kan räkna fram själv, så brytaren slås på först när migreringen är körd.
+   Annars avvisas elevens sparning. */
+const UPPDRAG_XP_PA=true;
+const UPPDRAG_XP=50, UPPDRAG_HUVUD_XP=50, UPPDRAG_DAG_XP=100;
+const uppdragXp=x=>UPPDRAG_XP+(x.huvud?UPPDRAG_HUVUD_XP:0);
+function uppdragNyckel(){ return todayKey(); }
+function skapaUppdrag(){
+  const lista=[];
+  const kort=tranaMerKort(1)[0];
+  const d=kort?diagnosKort(kort):null, mal=d?.knapp?.mal;
+  if(kort && mal){
+    const namn=kort.name;
+    /* Målet får inte kräva fler uppgifter än som finns att träna på. */
+    const finnsAntal=availableTasks().filter(t=>kort.omr.includes(t.omr)
+      && (mal.typ!=="niva" || mal.niva.includes(levelOf(t)))
+      && (mal.typ!=="familj" || [].concat(t.familj||[]).includes(mal.familj))).length;
+    const antal=Math.max(2,Math.min(UPPDRAG_ANTAL,finnsAntal));
+    if(mal.typ==="niva") lista.push({...mal,mal:antal,text:`Klara ${antal} uppgifter på nivå ${nivaSpann(mal.niva)} i ${namn}`});
+    else if(mal.typ==="familj") lista.push({...mal,mal:antal,text:`Klara ${antal} uppgifter i delmomentet ${liten(familyName(mal.familj))}`});
+    else if(mal.typ==="utanledtrad") lista.push({...mal,mal:antal,text:`Klara ${antal} uppgifter i ${namn} utan ledtråd`});
+    else lista.push({typ:"omrade",kort:kort.key,mal:antal,text:`Klara ${antal} uppgifter i ${namn}`});
+    lista[0].huvud=true; lista[0].on=d.knapp.on;
+  }else{
+    lista.push({typ:"alla",mal:UPPDRAG_ANTAL,huvud:true,text:`Klara ${UPPDRAG_ANTAL} uppgifter`});
+  }
+  if(felUppgifter(10).length>=2) lista.push({typ:"laga",mal:2,text:"Laga 2 uppgifter du haft fel på",on:"startPass('fel')"});
+  else lista.push({typ:"serie",mal:5,text:"Klara 5 rätt i rad"});
+  lista.push({typ:"dagsmal",mal:profile.goal||8,text:`Nå dagsmålet, ${profile.goal||8} uppgifter`});
+  lista.forEach(u=>{u.n=0;u.klar=false;});
+  return {nyckel:uppdragNyckel(),kurs:state.course,lista,klar:false};
+}
+function dagensUppdrag(){
+  if(!state.course || !state.data) return null;
+  if(profile.uppdrag?.nyckel!==uppdragNyckel()){ profile.uppdrag=skapaUppdrag(); saveProfile(); }
+  const u=profile.uppdrag;
+  u.lista.forEach(x=>{ if(x.typ==="dagsmal" && !x.klar){ x.n=Math.min(x.mal,todayCount()); } });
+  return u;
+}
+function uppdragSvar(t,correct,lagat){
+  const u=profile.uppdrag;
+  if(!u || u.nyckel!==uppdragNyckel() || u.kurs!==state.course || u.klar || state.noXp) return;
+  const omrIKort=k=>{ const kk=getCards().find(c=>c.key===k); return kk?kk.omr.includes(t.omr):t.omr===k; };
+  const fs=[].concat(t.familj||[]);
+  const nyss=[];
+  u.lista.forEach(x=>{
+    if(x.klar) return;
+    let traff=false;
+    if(x.typ==="dagsmal") x.n=todayCount();
+    else if(x.typ==="serie") x.n=Math.max(x.n,profile.run||0);
+    else if(correct){
+      if(x.typ==="alla") traff=true;
+      else if(x.typ==="laga") traff=!!lagat;
+      else if(x.typ==="omrade") traff=omrIKort(x.kort);
+      else if(x.typ==="niva") traff=omrIKort(x.kort) && x.niva.includes(levelOf(t));
+      else if(x.typ==="familj") traff=fs.includes(x.familj);
+      else if(x.typ==="utanledtrad") traff=omrIKort(x.kort) && !state.hintUsed;
+    }
+    if(traff) x.n++;
+    if(x.n>=x.mal){
+      x.n=x.mal; x.klar=true; nyss.push(x);
+      profile.uppdragKlara=(profile.uppdragKlara||0)+1;
+      if(x.huvud) profile.uppdragHuvud=(profile.uppdragHuvud||0)+1;
+    }
+  });
+  let xp=UPPDRAG_XP_PA ? nyss.reduce((s,x)=>s+uppdragXp(x),0) : 0;
+  const allaKlara=u.lista.every(x=>x.klar);
+  if(allaKlara){
+    u.klar=true; profile.uppdragDagar=(profile.uppdragDagar||0)+1; profile.uppdragDag=todayKey();
+    if(UPPDRAG_XP_PA) xp+=UPPDRAG_DAG_XP;
+  }
+  if(xp){ profile.xp+=xp; state.sessionXp+=xp; }
+  if(allaKlara){
+    setTimeout(()=>cheer(medaljIkon("ljusstrale"),"Tränaren","Dagens uppdrag klara",
+      UPPDRAG_XP_PA?`Alla tre uppdrag avklarade. +${UPPDRAG_DAG_XP} XP i bonus.`:"Alla tre uppdrag avklarade."),1700);
+  }else if(nyss.length){
+    setTimeout(()=>toast("Uppdrag klart: "+nyss.map(x=>x.text).join(", ")+(UPPDRAG_XP_PA?` +${nyss.reduce((s,x)=>s+uppdragXp(x),0)} XP`:"")),900);
+  }
+}
+function uppdragHTML(liten){
+  const u=dagensUppdrag();
+  if(!u) return "";
+  const klara=u.lista.filter(x=>x.klar).length;
+  /* Uppdragen gäller i den kurs där de skapades. I andra kurser räcker en notis. */
+  if(u.kurs && u.kurs!==state.course){
+    const namn=COURSES[u.kurs]?.name||"en annan kurs";
+    if(liten) return "";
+    return `<div class="pt-uppdrag pt-upp-annan">${u.klar?"Dagens uppdrag är klara.":`Dagens uppdrag finns i ${esc(namn)}, ${klara} av ${u.lista.length} klara.`}</div>`;
+  }
+  if(liten) return `<span class="pt-upp-chip${u.klar?" klar":""}">${u.klar?"Uppdragen klara":`Uppdrag ${klara} av ${u.lista.length}`}</span>`;
+  return `<div class="pt-uppdrag">
+    <div class="pt-upp-topp"><b>Dagens uppdrag</b><span>${UPPDRAG_XP_PA&&!u.klar?`<em class="pt-uppxp">Alla klara +${UPPDRAG_DAG_XP} XP</em> · `:""}${klara} av ${u.lista.length}</span></div>
+    <ul>${u.lista.map(x=>`<li class="${x.klar?"klar":""}${x.huvud?" huvud":""}">
+      <span class="pt-bock" aria-hidden="true"></span>
+      <span class="pt-upptext">${esc(x.text)}</span>
+      <span class="pt-uppn">${UPPDRAG_XP_PA?`<em class="pt-uppxp">+${uppdragXp(x)} XP</em>`:""}${x.n}/${x.mal}</span>
+      ${x.on && !x.klar?`<button class="pt-uppgo" onclick="${x.on}" aria-label="Börja: ${esc(x.text)}">Börja</button>`:""}
+    </li>`).join("")}</ul>
+  </div>`;
+}
+
 function ptLitet(sort){
   const typ=dagensPass();
   const done=todayCount(), goal=profile.goal||8, st=currentStreak();
@@ -6309,6 +6451,7 @@ function ptLitet(sort){
         ? `${state.sessionDone} av ${state.sessionTarget} uppgifter klara`
         : `${done} av ${goal} uppgifter${st>1?` · ${st} dagar i rad`:""}`}</small>
     </span>
+    ${uppdragHTML(true)}
     <span class="pt-mini"><i style="width:${Math.round(kvot*100)}%"></i></span>
     <button class="btn primary sm" onclick="${pagar?"fortsattPass()":`startPass('${typ}')`}">
       ${pagar?"Fortsätt":"Ett pass till"} <span aria-hidden="true">→</span>
@@ -6362,6 +6505,7 @@ function ptKort(){
       <span class="pt-chips">${chips.map(c=>`<span class="pt-chip">${esc(c)}</span>`).join("")}</span>
     </div>
     <p class="pt-msg">${passMeddelande(typ)}</p>
+    ${uppdragHTML(false)}
     <div class="pt-act">
       ${pagaendePass()
         ? `<button class="btn primary" onclick="fortsattPass()">Fortsätt passet <span aria-hidden="true">→</span></button>`
@@ -9976,11 +10120,13 @@ function finishAttempt(resultat){
     if(state.course==="hist") kriterier.forEach(k=>updateMastery(cp.histSkills,k,v));
   });
 
+  let lagat=false;
   if(correct && !state.noXp){
     let forra=null;
     for(let i=cp.history.length-1;i>=0;i--) if(cp.history[i].id===t.id){ forra=cp.history[i]; break; }
-    if(forra && !forra.ok) profile.reparerade=(profile.reparerade||0)+1;
+    if(forra && !forra.ok){ profile.reparerade=(profile.reparerade||0)+1; lagat=true; }
   }
+  uppdragSvar(t,correct,lagat);
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj,
     hint:!!state.hintUsed,
     ...(kriterier.length?{criteria:kriterier.slice(0,6)}:{}),

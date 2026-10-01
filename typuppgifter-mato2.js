@@ -801,3 +801,77 @@
 
   window.TYPUPPGIFTER_MATO2 = bank;
 })();
+
+/* Moment och delmoment enligt Planering Ma4 24-25/25-26 (2026-10-01).
+   Varje genomgång pekar på sitt nya moment (omr) och delmoment (traningsfamilj). */
+(() => {
+  const bank=window.TYPUPPGIFTER_MATO2;
+  const nya=[
+    ["mato2-grund-1-01",1,"enhetscirkeln_trianglar","Exakta trigonometriska värden i enhetscirkeln"],
+    ["mato2-grund-1-02",1,"enhetscirkeln_formler","Symmetrier och periodicitet i enhetscirkeln"],
+    ["mato2-grund-1-03",1,"enhetscirkeln_formler","Bestäm trigonometriska värden från ett givet värde"],
+    ["mato2-grund-1-21",2,"sinus_cosinuskurvor","Sinus- och cosinuskurvor i grader"],
+    ["mato2-grund-1-22",2,"sinusformad_kurva","Bestäm trigonometrisk funktion från graf och egenskaper"],
+    ["mato2-grund-1-23",2,"tan_kurvan","Period och asymptoter för tangensfunktioner"],
+    ["mato2-grund-1-24",2,"sinus_cosinuskurvor","Sinus- och cosinuskurvor i grader"],
+    ["mato2-grund-1-25",2,"forskjutna_kurvor","Fasförskjutning i trigonometriska funktioner"],
+    ["mato2-grund-1-26",2,"forskjutna_kurvor","Fasförskjutning i trigonometriska funktioner"],
+    ["mato2-grund-1-04",2,"radianbegreppet","Omvandling mellan grader och radianer"],
+    ["mato2-grund-1-05",2,"cirkelsektorn","Båglängd, sektorarea och radianer"],
+    ["mato2-grund-1-06",1,"trig_identiteter","Trigonometriska ettan och identiteter"],
+    ["mato2-grund-1-07",1,"additionsformler","Använda additionsformler för sinus och cosinus"],
+    ["mato2-grund-1-08",1,"dubbla_vinkeln","Använda formler för dubbla vinkeln"],
+    ["mato2-grund-1-09",1,"trig_grundekvationer","Grundläggande trigonometriska ekvationer"],
+    ["mato2-grund-1-10",1,"trig_grundekvationer","Trigonometriska ekvationer med generell lösning"],
+    ["mato2-grund-1-11",1,"trig_ekv_formler","Trigonometriska ekvationer med identiteter och faktorisering"],
+    ["mato2-grund-1-12",1,"trig_ekv_formler","Trigonometriska ekvationer med andragradssubstitution"],
+    ["mato2-grund-1-13",2,"kurvor_radianer","Amplitud, period och medellinje för trigonometriska funktioner"],
+    ["mato2-grund-1-14",2,"kurvor_radianer","Fasförskjutning i trigonometriska funktioner"],
+    ["mato2-grund-1-14b",2,"kurvor_radianer","Bestäm trigonometrisk funktion från graf och egenskaper"],
+    ["mato2-grund-1-15",2,"kurvor_radianer","Period och asymptoter för tangensfunktioner"],
+    ["mato2-grund-2-06",2,"derivatan_sin_cos","Derivering av trigonometriska funktioner"],
+    ["mato2-grund-1-17",2,"trig_problemlosning_2","Tolka och bestämma trigonometriska modeller"],
+    ["mato2-grund-1-18",2,"trig_problemlosning_2","Tidpunkter och intervall i trigonometriska modeller"],
+    ["mato2-grund-2-01",3,"produktregeln","Derivering med produktregeln"],
+    ["mato2-grund-2-02",3,"kvotregeln","Derivering med kvotregeln"],
+    ["mato2-grund-2-03",2,"derivata_sammansatta","Beräkna sammansatta funktioner"],
+    ["mato2-grund-2-04",2,"derivata_sammansatta","Derivering med kedjeregeln"],
+    ["mato2-grund-2-05",3,"exp_log_derivata","Derivering av specialfunktioner"],
+    ["mato2-grund-2-07",3,"exp_log_derivata","Tangentproblem med specialfunktioner"],
+    ["mato2-grund-2-10",3,"derivata_problemlosning","Tangentproblem i tillämpningar"],
+    ["mato2-grund-2-11",3,"grafer_derivator","Grafanalys med derivata"],
+    ["mato2-grund-2-12",3,"kurvor_asymptoter","Asymptoter för rationella funktioner"],
+    ["mato2-grund-2-13",3,"sneda_asymptoter","Asymptoter med polynomdivision"],
+    ["mato2-grund-3-01",4,"integraler_primitiva","Bestäm primitiva funktioner"],
+    ["mato2-grund-3-02",4,"integraler_primitiva","Beräkna bestämda integraler"],
+    ["mato2-grund-3-03",4,"integraler_primitiva","Bestämda integraler med trigonometriska funktioner"],
+    ["mato2-grund-3-04",4,"integraler_areor","Area mot x-axeln med integral"],
+    ["mato2-grund-3-05",4,"areor_mellan_kurvor","Area mellan kurvor med integral"],
+    ["mato2-grund-3-07",4,"integraler_storheter","Volym som integral av flöde"],
+    ["mato2-grund-3-08",4,"integraler_storheter","Sträcka som integral av hastighet"],
+    ["mato2-grund-3-09",4,"integraler_storheter","Energi som integral av effekt"],
+    ["mato2-grund-3-10",4,"sannolikhetsfordelning","Normalisera täthetsfunktion och bestäm parameter"],
+    ["mato2-grund-3-11",4,"sannolikhetsfordelning","Sannolikhet och kvantiler från täthetsfunktion"],
+    ["mato2-grund-3-12",4,"skivmetoden","Rotationsvolymer"],
+    ["mato2-grund-4-01",5,"konjugat_raknesatt","Räkna med komplexa tal"],
+    ["mato2-grund-4-02",5,"konjugat_raknesatt","Konjugat och absolutbelopp av komplexa tal"],
+    ["mato2-grund-4-03",5,"konjugat_raknesatt","Division av komplexa tal"],
+    ["mato2-grund-4-04",5,"imaginara_tal","Imaginära tal och potenser av i"],
+    ["mato2-grund-4-05",5,"komplexa_vektorer","Komplexa tal som punkter och vektorer"],
+    ["mato2-grund-4-06",5,"avlasa_rita","Ortslinjer och områden i komplexa talplanet"],
+    ["mato2-grund-4-07",5,"mult_div_polar","Avbildningar, rotation och skalning med komplexa tal"],
+    ["mato2-grund-4-08",5,"polar_form","Växla mellan former för komplexa tal"],
+    ["mato2-grund-4-09",5,"eulers_formel","Eulers formel"],
+    ["mato2-grund-4-10",5,"mult_div_polar","Multiplikation och division i polär form"],
+    ["mato2-grund-4-11",5,"de_moivre","Potenser av komplexa tal med de Moivres formel"],
+    ["mato2-grund-4-12",5,"ekvationen_zn","Komplexa rötter med de Moivres formel"],
+    ["mato2-grund-4-13",5,"faktorsatsen","Faktorsatsen och faktorisering"],
+    ["mato2-grund-4-14",5,"polynomdivision","Polynomdivision"],
+    ["mato2-grund-4-15",5,"andragradsekv_komplexa","Andragradsekvationer med komplexa lösningar"]
+  ];
+  nya.forEach(([nyckel,kap,omr,familj])=>{
+    const g=bank[nyckel];
+    if(!g) return;
+    g.kap=kap; g.omr=omr; g.traningsfamilj=familj;
+  });
+})();

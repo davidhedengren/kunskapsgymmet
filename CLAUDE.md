@@ -14,3 +14,7 @@ Regelverket för detta repo finns i Uppgiftslabbet. Läs det **innan** du ändra
 - Övriga filer är Kunskapsgymmets egna: `index.html`, `typuppgifter-*.js`, `uppgifterhist.js`, `strukturhist.js` och `struktur*.js`. Strukturfilerna har egna `GRUPP*`-rader som ska bevaras vid synk.
 - Varje kort som skapas med `spelDelning:"deluppgifter"` ska vara självbärande. Det får inte ha någon facitläcka mellan delar och får inte hänvisa till osynliga delar. Se `agent/INNEHALLSREGLER.md` i Uppgiftslabbet.
 - Kör `git status` och `git fetch` före redigering. Använd aldrig force push. Gör ingen commit eller push utan användarens godkännande.
+
+## Felrapporter, kursmappning och pågående arbete
+
+Rutinen för att åtgärda felrapporter, formuleringar att undvika, kursmappning (mato1 = Ma3c osv.), planeringarnas plats och moment/delmoment-omstruktureringen står i `C:\Users\Hedav\code\Uppgiftslabbet\CLAUDE.md` (avsnitten "Felrapporter från Kunskapsgymmet", "Kurser och planeringar", "Pågående omstrukturering"). Läs dem först.

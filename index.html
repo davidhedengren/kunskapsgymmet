@@ -102,6 +102,9 @@
   --goodSoft:rgba(18,112,79,.10);
   --bad:#B03F42;
   --badSoft:rgba(176,63,66,.10);
+  /* Statusen Behöver träning: rödaktig så att den inte förväxlas med guld (Stark). */
+  --low:#C2553F;
+  --lowSoft:rgba(194,85,63,.13);
   --e1:0 1px 2px rgba(11,33,51,.05),0 10px 26px -14px rgba(11,33,51,.22);
   --e2:0 2px 6px rgba(11,33,51,.07),0 40px 80px -30px rgba(11,33,51,.34);
 
@@ -197,6 +200,8 @@ html[data-theme="dark"]{
   --goodSoft:rgba(92,195,157,.14);
   --bad:#E0898C;
   --badSoft:rgba(224,137,140,.13);
+  --low:#F08A72;
+  --lowSoft:rgba(240,138,114,.15);
   --e1:0 1px 1px rgba(0,0,0,.40),0 12px 28px -18px rgba(0,0,0,.9);
   --e2:0 2px 4px rgba(0,0,0,.42),0 40px 80px -32px rgba(0,0,0,1);
   --brand:#6EA8FF;
@@ -1173,7 +1178,7 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 }
 .area.t-good{--tone:var(--gold);--toneDisc:var(--goldSoft)}
 .area.t-mid{--tone:var(--accInk);--toneDisc:var(--accSoft)}
-.area.t-low{--tone:var(--amber);--toneDisc:var(--amberSoft)}
+.area.t-low{--tone:var(--low);--toneDisc:var(--lowSoft)}
 
 @media(hover:hover){
   .area:not(.stack):hover{
@@ -2369,7 +2374,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .valnamn{flex:1;min-width:0;font-size:13.5px;font-weight:600;letter-spacing:-.015em}
 .valstate{font-size:11px;font-weight:600;color:var(--tone)}
 .valruta.t-good{--tone:var(--good)}.valruta.t-mid{--tone:var(--accInk)}
-.valruta.t-low{--tone:var(--warn)}
+.valruta.t-low{--tone:var(--low)}
 .modal-fot{display:flex;align-items:center;gap:8px;margin-top:20px;flex-wrap:wrap}
 .modal-fot .spacer{flex:1}
 /* Varningsvariant: samma kort, men rött genomgående så den känns som en
@@ -3220,7 +3225,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-01-fy1-moment";
+const BANK_VERSION="2026-10-01-ma1-moment";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -3937,7 +3942,7 @@ function renderMath(root=app){
 
 const CHEV='<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>';
 
-const TONE_VAR={"t-good":"var(--good)","t-mid":"var(--acc)","t-low":"var(--warn)","t-new":"var(--hair2)"};
+const TONE_VAR={"t-good":"var(--good)","t-mid":"var(--acc)","t-low":"var(--low)","t-new":"var(--hair2)"};
 
 const PUNKT_IKON='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
   +'stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="7.5"/>'

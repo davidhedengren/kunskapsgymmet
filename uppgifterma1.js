@@ -117387,5 +117387,6806 @@ window.BANKMA1 = [
     "traningsniva": 5,
     "arbetsinsats": 4,
     "svarFormat": "heltal"
+  },
+  {
+    "id": "0.842",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En biobiljett kostar 110 kr för vuxna och 75 kr för barn. Hur mycket betalar en familj med två vuxna och tre barn?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[2\\cdot110+3\\cdot75=220+225=445\\]</p><p><strong>Svar:</strong> 445 kr</p></div></div>",
+    "familj": "Teckna och beräkna uttryck i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 445,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Räkna ut vad de vuxna betalar och vad barnen betalar var för sig. Lägg sedan ihop.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.843",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(48-16\\div4+2\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Divisionen görs först: \\(16\\div4=4\\). Sedan räknar man från vänster till höger:</p><p>\\[48-4+2=46\\]</p><p><strong>Svar:</strong> 46</p></div></div>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 46,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vilket räknesätt ska göras före addition och subtraktion?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.844",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(5\\cdot4-3\\cdot6\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Båda multiplikationerna görs först:</p><p>\\[5\\cdot4-3\\cdot6=20-18=2\\]</p><p><strong>Svar:</strong> 2</p></div></div>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Räkna ut de två produkterna innan du subtraherar.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.845",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken beräkning ska göras först i \\(12+18\\div3\\cdot2\\)?</p><p>A: \\(12+18\\)<br>B: \\(18\\div3\\)<br>C: \\(3\\cdot2\\)<br>D: \\(12+18\\div3\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Division och multiplikation görs före addition. Division och multiplikation har samma prioritet och görs från vänster till höger, så först beräknas \\(18\\div3=6\\).</p><p>\\[12+18\\div3\\cdot2=12+6\\cdot2=12+12=24\\]</p><p><strong>Svar:</strong> B: \\(18\\div3\\)</p></div></div>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilka räknesätt går före addition? Om två räknesätt har samma prioritet, i vilken ordning görs de?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.846",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ella köper fyra glassar för 18 kr styck och betalar med en hundralapp. Hur mycket får hon tillbaka?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[100-4\\cdot18=100-72=28\\]</p><p><strong>Svar:</strong> 28 kr</p></div></div>",
+    "familj": "Teckna och beräkna uttryck i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur mycket kostar glassarna tillsammans?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.847",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(3\\cdot2^3-4^2\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Potenserna beräknas först: \\(2^3=8\\) och \\(4^2=16\\).</p><p>\\[3\\cdot8-16=24-16=8\\]</p><p><strong>Svar:</strong> 8</p></div></div>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Börja med potenserna. Vad är \\(2^3\\) och \\(4^2\\)?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.848",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\dfrac{7\\cdot8-6}{5}\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett bråkstreck fungerar som en parentes runt täljaren. Täljaren beräknas först:</p><p>\\[\\frac{7\\cdot8-6}{5}=\\frac{56-6}{5}=\\frac{50}{5}=10\\]</p><p><strong>Svar:</strong> 10</p></div></div>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Räkna ut hela täljaren först. Dela sedan med nämnaren.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.849",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(100\\div(4\\cdot5)\\cdot3\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Parentesen först: \\(4\\cdot5=20\\). Sedan från vänster till höger:</p><p>\\[100\\div20\\cdot3=5\\cdot3=15\\]</p><p><strong>Svar:</strong> 15</p></div></div>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Beräkna parentesen först. Gör sedan division och multiplikation i tur och ordning från vänster.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.850",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck ger det totala antalet hjul på 7 cyklar och 3 trehjulingar?</p><p>A: \\(7\\cdot2+3\\cdot3\\)<br>B: \\((7+3)\\cdot(2+3)\\)<br>C: \\(7+3\\cdot2+3\\)<br>D: \\((7+3)\\cdot2\\cdot3\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Cyklarna har \\(7\\cdot2\\) hjul och trehjulingarna \\(3\\cdot3\\) hjul. Tillsammans:</p><p>\\[7\\cdot2+3\\cdot3=14+9=23\\]</p><p><strong>Svar:</strong> A: \\(7\\cdot2+3\\cdot3\\)</p></div></div>",
+    "familj": "Teckna och beräkna uttryck i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många hjul har cyklarna tillsammans? Hur många har trehjulingarna?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.851",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev räknar så här:</p><p>\\[36\\div4\\cdot3=36\\div12=3\\]</p><p>Vilket värde har uttrycket egentligen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Division och multiplikation har samma prioritet och görs från vänster till höger. Eleven har multiplicerat först, vilket är fel.</p><p>\\[36\\div4\\cdot3=9\\cdot3=27\\]</p><p><strong>Svar:</strong> 27</p></div></div>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Division och multiplikation har samma prioritet. I vilken ordning ska de då göras?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.852",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett gym kostar 299 kr i månaden. Ett årskort kostar 2 990 kr. Hur många kronor sparar man på ett år med årskort i stället för månadsbetalning?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[12\\cdot299-2\\,990=3\\,588-2\\,990=598\\]</p><p><strong>Svar:</strong> 598 kr</p></div></div>",
+    "familj": "Teckna och beräkna uttryck i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 598,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Vad kostar tolv månader med månadsbetalning?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.853",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En idrottshall kostar 350 kr per timme att hyra, plus en fast avgift på 200 kr. En klubb hyr hallen i 3 timmar och delar kostnaden lika mellan 25 medlemmar. Hur mycket betalar varje medlem?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den totala kostnaden delas med antalet medlemmar. Uttrycket blir</p><p>\\[\\frac{200+3\\cdot350}{25}=\\frac{200+1\\,050}{25}=\\frac{1\\,250}{25}=50\\]</p><p><strong>Svar:</strong> 50 kr</p></div></div>",
+    "familj": "Teckna och beräkna uttryck i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Teckna först hela kostnaden. Tänk på att hela kostnaden ska delas, inte bara en del av den.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.854",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(2\\cdot(3+4)^2-5\\cdot(8-2\\cdot3)\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Parenteserna först: \\(3+4=7\\) och \\(8-2\\cdot3=8-6=2\\).</p><p>\\[2\\cdot7^2-5\\cdot2=2\\cdot49-10=98-10=88\\]</p><p><strong>Svar:</strong> 88</p></div></div>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 88,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna ut båda parenteserna först. Glöm inte potensen innan du multiplicerar.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.855",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(25\\cdot37\\cdot4\\) utan miniräknare.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Faktorernas ordning kan ändras i en produkt. Välj den ordning som ger enklast räkning:</p><p>\\[25\\cdot4\\cdot37=100\\cdot37=3\\,700\\]</p><p><strong>Svar:</strong> 3700</p></div></div>",
+    "familj": "Räknelagar och huvudräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3700,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilka två faktorer ger ett jämnt tal när de multipliceras?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.856",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(17\\cdot99\\) i huvudet.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv 99 som \\(100-1\\) och använd distributiva lagen:</p><p>\\[17\\cdot99=17\\cdot(100-1)=1\\,700-17=1\\,683\\]</p><p><strong>Svar:</strong> 1683</p></div></div>",
+    "familj": "Räknelagar och huvudräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1683,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv 99 som \\(100-1\\).</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.857",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En taxiresa kostar 45 kr i startavgift och 12 kr per kilometer. Tre vänner åker 8 km och delar lika på kostnaden. Hur mycket betalar var och en?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{45+8\\cdot12}{3}=\\frac{45+96}{3}=\\frac{141}{3}=47\\]</p><p><strong>Svar:</strong> 47 kr</p></div></div>",
+    "familj": "Teckna och beräkna uttryck i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 47,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Teckna först vad hela resan kostar.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.858",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\dfrac{2^5-2^3}{2^2+2^3}\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{2^5-2^3}{2^2+2^3}=\\frac{32-8}{4+8}=\\frac{24}{12}=2\\]</p><p><strong>Svar:</strong> 2</p></div></div>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna ut täljaren och nämnaren var för sig. Börja med potenserna.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.859",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Du får sätta in ett par parenteser runt två eller fler tal i uttrycket</p><p>\\[3+5\\cdot4-2\\cdot2\\]</p><p>Vilket är det största värde uttrycket kan få?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Utan parenteser är värdet \\(3+20-4=19\\). Parenteserna ska göra att en addition eller subtraktion räknas före en multiplikation, på ett sätt som gör resultatet större.</p><p>Några möjligheter:</p><ul><li>\\((3+5)\\cdot4-2\\cdot2=32-4=28\\)</li><li>\\(3+5\\cdot(4-2)\\cdot2=3+20=23\\)</li><li>\\(3+(5\\cdot4-2)\\cdot2=3+36=39\\)</li><li>\\((3+5\\cdot4-2)\\cdot2=21\\cdot2=42\\)</li></ul><p>Det största värdet får man när så mycket som möjligt multipliceras med den sista faktorn 2.</p><p><strong>Svar:</strong> 42</p></div></div>",
+    "familj": "Sätta in parenteser och räknetecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Pröva olika placeringar. Vilken del av uttrycket vill du ska multipliceras med den sista tvåan?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.860",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I uttrycket nedan ska rutorna fyllas med två olika räknetecken, valda bland \\(+\\), \\(-\\), \\(\\cdot\\) och \\(\\div\\), så att likheten stämmer.</p><p>\\[6\\;\\square\\;4\\;\\square\\;2=14\\]</p><p>Vilket räknetecken ska stå i den första rutan?</p><p>A: \\(+\\)<br>B: \\(-\\)<br>C: \\(\\cdot\\)<br>D: \\(\\div\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Pröva systematiskt. Med \\(+\\) först och \\(\\cdot\\) sedan får man</p><p>\\[6+4\\cdot2=6+8=14\\]</p><p>Inga andra kombinationer av två olika tecken ger 14. Till exempel är \\(6\\cdot4-2=22\\) och \\(6\\cdot4\\div2=12\\).</p><p><strong>Svar:</strong> A: \\(+\\) (eftersom \\(6+4\\cdot2=14\\))</p></div></div>",
+    "familj": "Sätta in parenteser och räknetecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Kom ihåg att multiplikation och division görs före addition och subtraktion. Pröva de kombinationer som kan ge ett tal nära 14.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.861",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Använd talen 1, 3, 4 och 6 exakt en gång vardera. Du får använda räknesätten \\(+\\), \\(-\\), \\(\\cdot\\) och \\(\\div\\) och parenteser, men inte sätta ihop siffror till nya tal. Skriv ett uttryck som har värdet 24, och visa att det stämmer.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett uttryck som fungerar är</p><p>\\[\\frac{6}{1-\\frac34}=\\frac{6}{\\frac14}=6\\cdot4=24\\]</p><p>Idén är att \\(6\\) ska delas med något som är \\(\\frac14\\), eftersom \\(6\\div\\frac14=24\\). Och \\(\\frac14\\) kan skrivas som \\(1-\\frac34\\) med de återstående talen.</p><p><strong>Svar:</strong> till exempel \\(6\\div(1-3\\div4)=24\\)</p></div></div>",
+    "familj": "Sätta in parenteser och räknetecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "resonemang",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": false,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Pröva att dela 6 med ett tal mindre än 1. Vilket tal behöver du dela med för att få 24?</p>",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": false
+  },
+  {
+    "id": "0.862",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Du ska sätta in exakt ett par parenteser runt två eller fler av talen i uttrycket</p><p>\\[24\\div4\\cdot2+1\\cdot3\\]</p><p>Hur många olika värden kan uttrycket få?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Uttrycket har fem tal. Ett parentespar kan omsluta talen nummer 1–2, 1–3, 1–4, 2–3, 2–4, 2–5, 3–4, 3–5 och 4–5 (och hela uttrycket, som inte ändrar något). Beräkna varje fall:</p><ul><li>\\((24\\div4)\\cdot2+1\\cdot3=15\\)</li><li>\\((24\\div4\\cdot2)+1\\cdot3=15\\)</li><li>\\((24\\div4\\cdot2+1)\\cdot3=39\\)</li><li>\\(24\\div(4\\cdot2)+1\\cdot3=6\\)</li><li>\\(24\\div(4\\cdot2+1)\\cdot3=8\\)</li><li>\\(24\\div(4\\cdot2+1\\cdot3)=\\frac{24}{11}\\)</li><li>\\(24\\div4\\cdot(2+1)\\cdot3=54\\)</li><li>\\(24\\div4\\cdot(2+1\\cdot3)=30\\)</li><li>\\(24\\div4\\cdot2+(1\\cdot3)=15\\)</li></ul><p>De olika värdena är \\(\\frac{24}{11}\\), 6, 8, 15, 30, 39 och 54.</p><p><strong>Svar:</strong> 7</p></div></div>",
+    "familj": "Sätta in parenteser och räknetecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Numrera talen från 1 till 5 och gå igenom alla sätt att välja var parentesen börjar och slutar. Räkna ut varje fall.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.863",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal ligger mitt emellan −8 och 2 på tallinjen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Avståndet mellan talen är \\(2-(-8)=10\\). Halva avståndet är 5.</p><p>\\[-8+5=-3\\]</p><p><strong>Svar:</strong> −3</p></div></div>",
+    "familj": "Addition och subtraktion med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur långt är det från −8 till 2? Gå halva vägen från −8.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.864",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I golf anger man resultatet i förhållande till ”par”. Emma går första rundan på \\(-3\\), alltså tre slag under par, och andra rundan på \\(+5\\). Vilket är hennes sammanlagda resultat i förhållande till par?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[-3+5=2\\]</p><p>Emma ligger alltså två slag över par.</p><p><strong>Svar:</strong> 2</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Addera de två resultaten. Börja på −3 på tallinjen och gå 5 steg åt höger.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.865",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flygplan flyger på 10 000 meters höjd där det är \\(-52\\,^\\circ\\mathrm{C}\\). Vid marken är det \\(13\\,^\\circ\\mathrm{C}\\). Hur många grader skiljer det?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[13-(-52)=13+52=65\\]</p><p><strong>Svar:</strong> 65 °C</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 65,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skillnaden är det större talet minus det mindre.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "°C",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.866",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Döda havets yta ligger 430 m under havsytans nivå, alltså på höjden \\(-430\\) m. Toppen av berget Hermon, inte långt därifrån, ligger 2 814 m över havet. Hur stor är höjdskillnaden?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[2\\,814-(-430)=2\\,814+430=3\\,244\\]</p><p><strong>Svar:</strong> 3244 m</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3244,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Subtrahera den lägre höjden från den högre.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "m",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.867",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((-6)\\cdot(-7)-50\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Produkten av två negativa tal är positiv:</p><p>\\[(-6)\\cdot(-7)-50=42-50=-8\\]</p><p><strong>Svar:</strong> −8</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vilket tecken får produkten av två negativa tal?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.868",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\dfrac{-36}{-4}-\\dfrac{20}{-5}\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{-36}{-4}-\\frac{20}{-5}=9-(-4)=9+4=13\\]</p><p><strong>Svar:</strong> 13</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Beräkna varje kvot för sig. Tänk på tecknen.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.869",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Under en vecka i januari mättes temperaturen varje morgon klockan 7:</p><p>\\(-8\\), \\(-5\\), \\(-11\\), \\(-2\\), \\(0\\), \\(-6\\) och \\(-3\\) °C.</p><p>Beräkna veckans medeltemperatur.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Summan av temperaturerna är</p><p>\\[-8-5-11-2+0-6-3=-35\\]</p><p>Det är sju mätningar:</p><p>\\[\\frac{-35}{7}=-5\\]</p><p><strong>Svar:</strong> −5 °C</p></div></div>",
+    "familj": "Mönster och medelvärden med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Addera alla temperaturer och dela med antalet mätningar.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "°C",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.870",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett företags resultat under årets fyra kvartal var \\(-120\\,000\\) kr, \\(+85\\,000\\) kr, \\(-40\\,000\\) kr och \\(+210\\,000\\) kr. Vilket blev resultatet för hela året?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[-120\\,000+85\\,000-40\\,000+210\\,000=135\\,000\\]</p><p><strong>Svar:</strong> 135 000 kr</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 135000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Samla vinsterna för sig och förlusterna för sig.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.871",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många år gick det från år 63 f.Kr. till år 14 e.Kr.? Tänk på att det inte finns något år 0: år 1 f.Kr. följs direkt av år 1 e.Kr.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Från år 63 f.Kr. till år 1 f.Kr. är det 62 år. Från år 1 f.Kr. till år 1 e.Kr. är det 1 år. Från år 1 e.Kr. till år 14 e.Kr. är det 13 år.</p><p>\\[62+1+13=76\\]</p><p>Om man räknar som på tallinjen, \\(14-(-63)=77\\), blir det ett år för mycket, eftersom år 0 inte finns.</p><p><strong>Svar:</strong> 76 år</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 76,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Dela upp tiden i tre delar: fram till år 1 f.Kr., ett år över skiftet och sedan fram till år 14 e.Kr.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "år",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.872",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(-2\\cdot(-3)^2-(-2)^3\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Potenserna först: \\((-3)^2=9\\) och \\((-2)^3=-8\\).</p><p>\\[-2\\cdot9-(-8)=-18+8=-10\\]</p><p><strong>Svar:</strong> −10</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -10,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Beräkna potenserna först. Vilket tecken får \\((-2)^3\\)?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.873",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Talföljden \\(-17,\\ -13,\\ -9,\\ \\ldots\\) fortsätter med samma steg. Vilket är det tionde talet i följden?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Steget är \\(-13-(-17)=4\\). Från det första till det tionde talet tar man nio steg:</p><p>\\[-17+9\\cdot4=-17+36=19\\]</p><p><strong>Svar:</strong> 19</p></div></div>",
+    "familj": "Mönster och medelvärden med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur stort är steget? Hur många steg är det från det första till det tionde talet?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.874",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två heltal har produkten \\(-24\\) och summan \\(-2\\). Vilket är det minsta av talen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Produkten är negativ, så talen har olika tecken. Pröva talpar med produkten \\(-24\\):</p><p>\\(-6\\) och \\(4\\) ger summan \\(-2\\). (Till exempel ger \\(-4\\) och \\(6\\) summan 2, och \\(-8\\) och \\(3\\) summan \\(-5\\).)</p><p><strong>Svar:</strong> −6</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Produkten är negativ. Vad säger det om talens tecken? Pröva par av tal vars produkt är −24.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.875",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\((-1)^{15}+(-1)^{20}-(-1)^{7}\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(-1\\) upphöjt till ett udda tal blir \\(-1\\), och upphöjt till ett jämnt tal blir \\(1\\).</p><p>\\[-1+1-(-1)=-1+1+1=1\\]</p><p><strong>Svar:</strong> 1</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vad blir \\(-1\\) upphöjt till ett jämnt tal? Till ett udda tal?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.876",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Saldot på Olles konto är \\(-240\\) kr. Varje vecka sätter han in 150 kr, och samtidigt dras 90 kr i fasta avgifter. Efter hur många veckor är saldot för första gången större än 0 kr?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Varje vecka ökar saldot med \\(150-90=60\\) kr.</p><p>Efter 4 veckor: \\(-240+4\\cdot60=0\\) kr, vilket inte är större än 0.</p><p>Efter 5 veckor: \\(-240+5\\cdot60=60\\) kr.</p><p><strong>Svar:</strong> 5 veckor</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur mycket ändras saldot varje vecka? Observera att saldot ska vara större än 0, inte lika med 0.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "veckor",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.877",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Summan av fem heltal som följer direkt på varandra är \\(-35\\). Vilket är det största av talen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Det mittersta talet är medelvärdet av de fem talen:</p><p>\\[\\frac{-35}{5}=-7\\]</p><p>Talen är \\(-9,\\ -8,\\ -7,\\ -6,\\ -5\\). Det största är \\(-5\\).</p><p><strong>Svar:</strong> −5</p></div></div>",
+    "familj": "Mönster och medelvärden med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Medelvärdet av fem tal som följer på varandra är det mittersta talet.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.878",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En frys håller \\(-18\\,^\\circ\\mathrm{C}\\). Den stängs av, och temperaturen stiger jämnt med \\(2{,}5\\,^\\circ\\mathrm{C}\\) per timme. Hur många timmar tar det innan temperaturen har nått \\(+4\\,^\\circ\\mathrm{C}\\)?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Temperaturen ska öka med</p><p>\\[4-(-18)=22\\ ^\\circ\\mathrm{C}\\]</p><p>\\[\\frac{22}{2{,}5}=8{,}8\\]</p><p><strong>Svar:</strong> 8,8 h</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många grader ska temperaturen stiga totalt?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "h",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.879",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vilket av uttrycken har störst värde när \\(a=-3\\)?</p><p>A: \\(a^2\\)<br>B: \\(-a^2\\)<br>C: \\(a^3\\)<br>D: \\(-a^3\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(a^2=(-3)^2=9\\), \\(-a^2=-9\\), \\(a^3=(-3)^3=-27\\) och \\(-a^3=-(-27)=27\\).</p><p><strong>Svar:</strong> D: \\(-a^3=27\\)</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "D",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Sätt in \\(a=-3\\) med parentes runt. Tänk på att \\(-a^2\\) betyder \\(-(a^2)\\).</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.880",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två tal har summan \\(-5\\). Om man subtraherar det mindre talet från det större får man 11. Bestäm det större talet.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kalla talen \\(x\\) (det större) och \\(y\\). Då är \\(x+y=-5\\) och \\(x-y=11\\). Addera likheterna:</p><p>\\[2x=6\\quad\\Longrightarrow\\quad x=3\\]</p><p>Det mindre talet är \\(-5-3=-8\\). Kontroll: \\(3-(-8)=11\\).</p><p><strong>Svar:</strong> 3</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Pröva dig fram, eller lägg ihop summan och skillnaden. Vad blir då kvar?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.881",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Tre temperaturer har medelvärdet \\(-4\\,^\\circ\\mathrm{C}\\). Två av dem är \\(-9\\,^\\circ\\mathrm{C}\\) och \\(3\\,^\\circ\\mathrm{C}\\). En fjärde temperatur läggs till, och då blir medelvärdet \\(-2\\,^\\circ\\mathrm{C}\\). Vilken är den fjärde temperaturen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Summan av de tre första är \\(3\\cdot(-4)=-12\\). Summan av alla fyra ska vara \\(4\\cdot(-2)=-8\\).</p><p>\\[-8-(-12)=4\\]</p><p><strong>Svar:</strong> 4 °C</p></div></div>",
+    "familj": "Mönster och medelvärden med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna med summor i stället för medelvärden: medelvärde gånger antal ger summan.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "°C",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.882",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Beräkna summan \\(1-2+3-4+5-6+\\ldots+99-100\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Para ihop termerna två och två:</p><p>\\[(1-2)+(3-4)+\\ldots+(99-100)\\]</p><p>Varje par har värdet \\(-1\\), och det finns \\(100\\div2=50\\) par.</p><p>\\[50\\cdot(-1)=-50\\]</p><p><strong>Svar:</strong> −50</p></div></div>",
+    "familj": "Mönster och medelvärden med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -50,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Para ihop termerna två och två. Vad blir varje par, och hur många par finns det?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.883",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Beräkna summan av alla heltal från \\(-40\\) till \\(45\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Talen \\(-40\\) och \\(40\\) tar ut varandra, likaså \\(-39\\) och \\(39\\), och så vidare ner till \\(-1\\) och \\(1\\). Även 0 bidrar med noll.</p><p>Kvar blir</p><p>\\[41+42+43+44+45=215\\]</p><p><strong>Svar:</strong> 215</p></div></div>",
+    "familj": "Mönster och medelvärden med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 215,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Vilka tal tar ut varandra? Vilka tal blir kvar?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.884",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många hundradelar är 0,4?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En tiondel är tio hundradelar. Fyra tiondelar är alltså</p><p>\\[0{,}4=0{,}40=40\\ \\text{hundradelar}\\]</p><p><strong>Svar:</strong> 40</p></div></div>",
+    "familj": "Positionsvärde i decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv 0,4 med två decimaler.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.885",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Fyra löpare sprang 100 m på tiderna 10,19 s, 10,9 s, 10,09 s och 10,1 s. Vilken var den snabbaste tiden?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den snabbaste tiden är den kortaste. Skriv alla tider med två decimaler: 10,19, 10,90, 10,09 och 10,10.</p><p>Den minsta är 10,09.</p><p><strong>Svar:</strong> 10,09 s</p></div></div>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.09,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv tiderna med lika många decimaler. Vilken är minst?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "s",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.886",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv sju tusendelar som ett decimaltal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tusendelarna står på tredje platsen efter decimalkommat:</p><p>\\[\\frac{7}{1\\,000}=0{,}007\\]</p><p><strong>Svar:</strong> 0,007</p></div></div>",
+    "familj": "Skriva och tolka decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.007,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur många decimaler behövs för att skriva tusendelar?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.887",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(0{,}3\\cdot0{,}2\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(3\\cdot2=6\\). Faktorerna har tillsammans två decimaler, så produkten har också två decimaler:</p><p>\\[0{,}3\\cdot0{,}2=0{,}06\\]</p><p><strong>Svar:</strong> 0,06</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.06,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Räkna först \\(3\\cdot2\\). Hur många decimaler har faktorerna tillsammans?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.888",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(4{,}5\\div0{,}05\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Multiplicera både täljare och nämnare med 100, så att nämnaren blir ett heltal:</p><p>\\[\\frac{4{,}5}{0{,}05}=\\frac{450}{5}=90\\]</p><p><strong>Svar:</strong> 90</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många gånger får 0,05 plats i 4,5? Du kan multiplicera båda talen med samma tal.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.889",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En påse kaffe väger 0,75 kg. Hur många påsar behövs för att få 6 kg kaffe?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{6}{0{,}75}=\\frac{600}{75}=8\\]</p><p><strong>Svar:</strong> 8 påsar</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många gånger får 0,75 plats i 6? Fyra påsar väger 3 kg.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "påsar",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.890",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal är 0,01 mindre än 3,1?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv 3,1 som 3,10. En hundradel mindre är</p><p>\\[3{,}10-0{,}01=3{,}09\\]</p><p><strong>Svar:</strong> 3,09</p></div></div>",
+    "familj": "Skriva och tolka decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.09,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv 3,1 med två decimaler först.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.891",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal ligger mitt emellan 2,7 och 2,8?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv talen med två decimaler: 2,70 och 2,80. Mitt emellan ligger 2,75.</p><p>\\[\\frac{2{,}7+2{,}8}{2}=\\frac{5{,}5}{2}=2{,}75\\]</p><p><strong>Svar:</strong> 2,75</p></div></div>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.75,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv talen som hundradelar: 2,70 och 2,80.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.892",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en längdhoppstävling mättes hoppen till 5,8 m, 5,08 m, 5,79 m och 5,807 m. Hur många centimeter längre var det längsta hoppet än det kortaste?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv alla längder med tre decimaler: 5,800, 5,080, 5,790 och 5,807. Längst är 5,807 m och kortast 5,080 m.</p><p>\\[5{,}807-5{,}080=0{,}727\\ \\text{m}=72{,}7\\ \\text{cm}\\]</p><p><strong>Svar:</strong> 72,7 cm</p></div></div>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 72.7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Skriv alla längder med tre decimaler. Tänk på att 1 m = 100 cm.</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.893",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många gånger större är värdet av siffran 3 i talet 43,1 än i talet 1,43?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>I 43,1 står 3 på entalsplatsen och har värdet 3. I 1,43 står den på hundradelsplatsen och har värdet 0,03.</p><p>\\[\\frac{3}{0{,}03}=100\\]</p><p><strong>Svar:</strong> 100</p></div></div>",
+    "familj": "Positionsvärde i decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilket värde har siffran 3 i vart och ett av talen?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.894",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett tal multipliceras med 0,1, och resultatet blir 0,56. Vilket var talet?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Att multiplicera med 0,1 är samma sak som att dela med 10. Talet var alltså tio gånger så stort:</p><p>\\[0{,}56\\cdot10=5{,}6\\]</p><p><strong>Svar:</strong> 5,6</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Vad händer med ett tal när det multipliceras med 0,1?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.895",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett tyg kostar 2,40 kr per decimeter. Vad kostar 1,5 m tyg?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>1,5 m är 15 dm.</p><p>\\[15\\cdot2{,}40=36\\]</p><p><strong>Svar:</strong> 36 kr</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Gör om 1,5 m till decimeter först.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.896",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Siffrorna 0, 3, 5 och 7 ska placeras i rutorna så att talet \\(\\square,\\square\\square\\square\\) kommer så nära 5 som möjligt. Varje siffra används en gång. Vilket tal blir det?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Heltalsdelen bör vara 5, eftersom 3 och 7 ger tal som ligger minst 1,7 från 5. Decimalerna ska då vara så små som möjligt: 0, 3 och 7 i storleksordning.</p><p>\\[5{,}037\\]</p><p>Avståndet till 5 är bara 0,037.</p><p><strong>Svar:</strong> 5,037</p></div></div>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.037,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilken siffra ska stå före decimalkommat? Hur ska resten ordnas för att talet ska bli så litet som möjligt?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.897",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Hur många tal med exakt två decimaler ligger mellan 1,5 och 1,6? Talen 1,5 och 1,6 räknas inte med.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Talen är 1,51, 1,52, …, 1,59. Tal som 1,50 och 1,60 räknas inte, eftersom de är lika med 1,5 och 1,6.</p><p><strong>Svar:</strong> 9</p></div></div>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv 1,5 och 1,6 med två decimaler. Vilka tal ligger emellan?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.898",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Beräkna \\(\\dfrac{1}{0{,}2}+\\dfrac{1}{0{,}25}+\\dfrac{1}{0{,}5}\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Hur många gånger får varje tal plats i 1?</p><p>\\[\\frac{1}{0{,}2}=5,\\qquad\\frac{1}{0{,}25}=4,\\qquad\\frac{1}{0{,}5}=2\\]</p><p>\\[5+4+2=11\\]</p><p><strong>Svar:</strong> 11</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur många femtedelar, fjärdedelar och halvor går det på en hel?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.899",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Vilket är det minsta positiva talet med tre decimaler (till exempel 0,375) som blir ett heltal när man multiplicerar det med 8?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett tal med tre decimaler kan skrivas \\(\\frac{k}{1\\,000}\\). Produkten \\(\\frac{8k}{1\\,000}\\) ska vara ett heltal, alltså måste \\(8k\\) vara delbart med 1 000.</p><p>\\(1\\,000=8\\cdot125\\), så \\(k\\) måste vara delbart med 125. Det minsta \\(k\\) är 125:</p><p>\\[0{,}125\\cdot8=1\\]</p><p><strong>Svar:</strong> 0,125</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.125,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Tänk på vilka bråk med nämnaren 8 som har tre decimaler. Vad är \\(\\frac18\\) i decimalform?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.900",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En vara kostar 38,60 kr. Vid kontant betalning avrundas priset till hela kronor. Hur mycket betalar du?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Decimaldelen 0,60 är mer än en halv krona. Priset avrundas uppåt till 39 kr.</p><p><strong>Svar:</strong> 39 kr</p></div></div>",
+    "familj": "Avrundning i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 39,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Är 0,60 kr mer eller mindre än en halv krona?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.901",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Uppsala kommun hade 242 140 invånare ett visst år. Avrunda antalet till tusental.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Hundratalssiffran är 1, alltså mindre än 5. Då avrundas nedåt:</p><p>\\[242\\,140\\approx242\\,000\\]</p><p><strong>Svar:</strong> 242 000</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 242000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Titta på siffran närmast efter tusentalssiffran.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.902",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Talet \\(\\pi\\) börjar 3,14159… Avrunda \\(\\pi\\) till tre decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den fjärde decimalen är 5, så den tredje decimalen avrundas uppåt:</p><p>\\[3{,}14159\\ldots\\approx3{,}142\\]</p><p><strong>Svar:</strong> 3,142</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.142,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Titta på den fjärde decimalen.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.903",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(7\\div3\\) och avrunda till två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[7\\div3=2{,}333\\ldots\\approx2{,}33\\]</p><p><strong>Svar:</strong> 2,33</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.33,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Räkna ut tre decimaler och avrunda sedan.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.904",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många värdesiffror har talet 0,05020?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Nollorna före den första siffran som inte är noll räknas inte. Värdesiffrorna är 5, 0, 2 och den sista nollan, som visar att talet är angivet med den noggrannheten.</p><p><strong>Svar:</strong> 4</p></div></div>",
+    "familj": "Värdesiffror",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Nollor i början räknas inte. Räknas nollor mellan andra siffror och nollor i slutet efter decimalkommat?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.905",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda 0,003 81 till två värdesiffror.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den första värdesiffran är 3 och den andra 8. Nästa siffra är 1, så det avrundas nedåt:</p><p>\\[0{,}00381\\approx0{,}0038\\]</p><p><strong>Svar:</strong> 0,0038</p></div></div>",
+    "familj": "Värdesiffror",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0038,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vilka är de två första siffrorna som inte är nollor?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.906",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal blir 6,0 när det avrundas till en decimal?</p><p>A: 5,94<br>B: 6,05<br>C: 5,96<br>D: 6,1</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tal från 5,95 upp till (men inte med) 6,05 avrundas till 6,0.</p><p>5,94 blir 5,9 och 6,05 blir 6,1. 5,96 blir 6,0. 6,1 är redan avrundat och är inte 6,0.</p><p><strong>Svar:</strong> C: 5,96</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilka tal ligger så nära 6,0 att de avrundas dit?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.907",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En bräda är 2,4 m lång, avrundat till en decimal. Vilken är den minsta längd brädan kan ha?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Alla längder från 2,35 m upp till (men inte med) 2,45 m avrundas till 2,4 m. Den minsta är 2,35 m.</p><p><strong>Svar:</strong> 2,35 m</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.35,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilka längder avrundas till 2,4? Var ligger gränsen mot 2,3?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.908",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda 19,996 till två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den tredje decimalen är 6, så den andra decimalen ska öka med 1. Då blir 19,99 till 20,00:</p><p>\\[19{,}996\\approx20{,}00\\]</p><p>Nollorna ska skrivas ut för att visa att talet är avrundat till två decimaler.</p><p><strong>Svar:</strong> 20,00</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vad händer när hundradelssiffran 9 ska ökas med 1?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.909",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kim räknar ut \\(12{,}6\\cdot3{,}4\\) genom att först avrunda båda talen till heltal. Hur mycket skiljer Kims svar från det exakta svaret?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kim räknar \\(13\\cdot3=39\\). Det exakta värdet är</p><p>\\[12{,}6\\cdot3{,}4=42{,}84\\]</p><p>\\[42{,}84-39=3{,}84\\]</p><p><strong>Svar:</strong> 3,84</p></div></div>",
+    "familj": "Avrundning i vardagen",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.84,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Beräkna både Kims svar och det exakta svaret.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.910",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Böcker som är 3,8 cm tjocka, avrundat till millimeter, ska ställas på en hylla som är 80 cm lång. Hur många böcker får säkert plats, även om varje bok är så tjock som avrundningen tillåter?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>3,8 cm avrundat till millimeter betyder att tjockleken kan vara nästan 3,85 cm. Räkna med den tjockleken:</p><p>\\[\\frac{80}{3{,}85}\\approx20{,}8\\]</p><p>20 böcker får alltså säkert plats. Räknar man med 3,8 cm får man \\(80\\div3{,}8\\approx21{,}05\\), men då är det inte säkert att 21 böcker ryms.</p><p><strong>Svar:</strong> 20 böcker</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Vilken är den största tjocklek en bok kan ha om den avrundas till 3,8 cm?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "böcker",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.911",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett tal avrundas till heltal och blir 15. Samma tal avrundas till tiotal och blir 20. Talet har en decimal. Vilket är det minsta talet som uppfyller båda villkoren?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Avrundat till heltal 15: talet ligger från 14,5 upp till 15,5.</p><p>Avrundat till tiotal 20: talet ligger från 15 upp till 25.</p><p>Båda villkoren gäller från 15 upp till 15,5. Det minsta talet med en decimal är 15,0.</p><p><strong>Svar:</strong> 15,0</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv upp vilka tal som ger 15 respektive 20. Var överlappar områdena?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.912",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En rektangel har måtten 4,6 cm och 2,8 cm, avrundat till närmaste millimeter. Hur stor kan arean som mest vara? Svara i cm² med två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Måtten kan som mest vara nästan 4,65 cm och 2,85 cm.</p><p>\\[4{,}65\\cdot2{,}85=13{,}2525\\approx13{,}25\\]</p><p><strong>Svar:</strong> 13,25 cm²</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.25,
+    "tolerans": 0.005,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Vilka är de största möjliga måtten?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "cm²",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.913",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Fem vänner delar en restaurangnota på 1 243 kr. Var och en betalar sin del avrundad uppåt till hela kronor. Hur många kronor betalar de tillsammans för mycket?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{1\\,243}{5}=248{,}60\\]</p><p>Var och en betalar 249 kr, tillsammans \\(5\\cdot249=1\\,245\\) kr.</p><p>\\[1\\,245-1\\,243=2\\]</p><p><strong>Svar:</strong> 2 kr</p></div></div>",
+    "familj": "Avrundning i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur mycket blir varje persons del, och vad blir den avrundad uppåt?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.914",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Talet \\(x\\) blir 3,7 när det avrundas till en decimal. Sedan beräknas \\(2x\\) och avrundas till en decimal. Hur många olika värden kan det avrundade \\(2x\\) få?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(x\\) ligger från 3,65 upp till (men inte med) 3,75. Då ligger \\(2x\\) från 7,30 upp till (men inte med) 7,50.</p><ul><li>Från 7,30 till 7,35 avrundas \\(2x\\) till 7,3.</li><li>Från 7,35 till 7,45 avrundas \\(2x\\) till 7,4.</li><li>Från 7,45 till 7,50 avrundas \\(2x\\) till 7,5.</li></ul><p>Det avrundade värdet kan alltså bli 7,3, 7,4 eller 7,5.</p><p><strong>Svar:</strong> 3</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Bestäm först vilka värden \\(x\\) kan ha. Vilka värden kan då \\(2x\\) ha?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.915",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>28 elever betalar 195 kr var för en skolresa. Ungefär hur mycket betalar de tillsammans?</p><p>A: 600 kr<br>B: 6 000 kr<br>C: 60 000 kr<br>D: 2 000 kr</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Överslag: \\(30\\cdot200=6\\,000\\). (Exakt: \\(28\\cdot195=5\\,460\\) kr.)</p><p><strong>Svar:</strong> B: 6 000 kr</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Avrunda båda talen till tal som är lätta att multiplicera.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.916",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(4{,}9+7{,}1+2{,}98\\) genom att avrunda varje tal till heltal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[5+7+3=15\\]</p><p><strong>Svar:</strong> 15</p></div></div>",
+    "familj": "Överslag med angiven avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Avrunda varje term till närmaste heltal innan du adderar.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.917",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ost kostar 98,50 kr per kilogram. Gör ett överslag av priset för 3 kg ost genom att avrunda kilopriset till hundratal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[3\\cdot100=300\\]</p><p><strong>Svar:</strong> 300 kr</p></div></div>",
+    "familj": "Överslag med angiven avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vad blir 98,50 kr avrundat till hundratal?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.918",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lina handlar varor för 23,90 kr, 48,50 kr, 9,95 kr och 61,20 kr. Gör ett överslag genom att avrunda varje pris till närmaste tiotal. Vilken summa ger överslaget?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[20+50+10+60=140\\]</p><p>Den exakta summan är 143,55 kr.</p><p><strong>Svar:</strong> 140 kr</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 140,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Avrunda varje pris till närmaste tiotal kronor och addera.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.919",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev beräknar \\(0{,}48\\cdot5\\,200\\) och får svaret 24 960. Vilket påstående stämmer?</p><p>A: Svaret är rimligt.<br>B: Svaret är orimligt. Det ska vara ungefär 2 500.<br>C: Svaret är orimligt. Det ska vara ungefär 250.<br>D: Svaret är orimligt. Det ska vara ungefär 250 000.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Överslag: \\(0{,}5\\cdot5\\,000=2\\,500\\). Elevens svar är ungefär tio gånger för stort. Det exakta svaret är 2 496.</p><p><strong>Svar:</strong> B: Svaret ska vara ungefär 2 500.</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>0,48 är ungefär en halv. Vad är hälften av ungefär 5 000?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.920",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ungefär hur stort är \\(612\\div0{,}98\\)?</p><p>A: 6<br>B: 60<br>C: 600<br>D: 6 000</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>0,98 är nästan 1. Att dela med nästan 1 ändrar inte talet mycket, så kvoten är ungefär 600. (Exakt: cirka 624,5.)</p><p><strong>Svar:</strong> C: 600</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vad händer när man delar ett tal med 1? Med ett tal som är nästan 1?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.921",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tankbil rymmer 32 000 liter bensin. En bensinstation säljer ungefär 4 800 liter om dagen. Ungefär hur många dagar räcker en full tankbil?</p><p>A: 0,7 dagar<br>B: 7 dagar<br>C: 70 dagar<br>D: 700 dagar</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Överslag: \\(30\\,000\\div5\\,000=6\\), eller \\(35\\,000\\div5\\,000=7\\). Svaret är några dagar, cirka 7. (Exakt: \\(32\\,000\\div4\\,800\\approx6{,}7\\).)</p><p><strong>Svar:</strong> B: ungefär 7 dagar</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Avrunda till tal som går lätt att dela.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.922",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En bil kör 18,3 mil och drar 0,72 liter bensin per mil. Gör ett överslag av bensinförbrukningen genom att avrunda sträckan till hela mil och förbrukningen till en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[18\\cdot0{,}7=12{,}6\\]</p><p><strong>Svar:</strong> 12,6 liter</p></div></div>",
+    "familj": "Överslag med angiven avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12.6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Avrunda 18,3 till heltal och 0,72 till en decimal. Multiplicera sedan.</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "liter",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.923",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett hushåll använder ungefär 18 kWh el per dag. Elen kostar 1,95 kr per kWh. Ungefär hur mycket kostar elen under ett år?</p><p>A: 1 300 kr<br>B: 13 000 kr<br>C: 130 000 kr<br>D: 1 300 000 kr</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Överslag: \\(20\\cdot2=40\\) kr per dag och \\(40\\cdot400=16\\,000\\) kr per år, eller \\(18\\cdot2\\cdot365\\approx13\\,000\\) kr. Svaret är några tiotusentals kronor, alltså cirka 13 000 kr. (Exakt: 12 811,50 kr.)</p><p><strong>Svar:</strong> B: ungefär 13 000 kr</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Räkna först ut ungefär vad elen kostar per dag.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.924",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ungefär hur många sekunder är ett år?</p><p>A: 3 miljoner<br>B: 30 miljoner<br>C: 300 miljoner<br>D: 3 miljarder</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\(60\\cdot60=3\\,600\\) sekunder per timme, \\(3\\,600\\cdot24\\approx90\\,000\\) sekunder per dygn och \\(90\\,000\\cdot365\\approx30\\,000\\,000\\) sekunder per år. (Exakt: 31 536 000.)</p><p><strong>Svar:</strong> B: ungefär 30 miljoner</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många sekunder är en timme? Ett dygn?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.925",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev räknar \\(38{,}2\\cdot0{,}51\\) och får 194,82. Gör ett överslag genom att avrunda 38,2 till tiotal och 0,51 till en decimal. Vilket värde ger överslaget?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[40\\cdot0{,}5=20\\]</p><p>Elevens svar är ungefär tio gånger för stort. Det exakta svaret är 19,482.</p><p><strong>Svar:</strong> 20</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Vad är hälften av 40?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.926",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett överslag av \\(47\\cdot83\\) görs som \\(50\\cdot80=4\\,000\\). Är överslaget större eller mindre än det exakta värdet?</p><p>A: Överslaget är större.<br>B: Överslaget är mindre.<br>C: De är lika stora.<br>D: Det går inte att avgöra.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den ena faktorn har avrundats uppåt och den andra nedåt, så det går inte att se direkt. Räkna ut det exakta värdet:</p><p>\\[47\\cdot83=3\\,901\\]</p><p>Överslaget 4 000 är alltså större än det exakta värdet.</p><p><strong>Svar:</strong> A: Överslaget är större (exakt 3 901).</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Avrundades faktorerna åt samma håll? Beräkna gärna det exakta värdet.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.927",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket överslag passar bäst för \\(7{,}8\\div0{,}39\\)?</p><p>A: \\(8\\div0{,}4=20\\)<br>B: \\(8\\div0{,}4=2\\)<br>C: \\(8\\div4=2\\)<br>D: \\(7\\div0{,}3\\approx2\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Avrunda till \\(8\\div0{,}4\\). Eftersom 0,4 får plats 20 gånger i 8 är \\(8\\div0{,}4=20\\). (Exakt: \\(7{,}8\\div0{,}39=20\\).)</p><p><strong>Svar:</strong> A: \\(8\\div0{,}4=20\\)</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur många gånger får 0,4 plats i 8?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.928",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Maria har 1 000 kr och vill köpa så många konsertbiljetter som möjligt för 47 kr styck. Hon gör ett överslag med 50 kr per biljett och tror att hon kan köpa 20 biljetter. Hur många biljetter kan hon egentligen köpa?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{1\\,000}{47}\\approx21{,}3\\]</p><p>Hon kan köpa 21 biljetter. Överslaget avrundade priset uppåt och gav därför för få biljetter.</p><p><strong>Svar:</strong> 21 biljetter</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Dela 1 000 med det exakta priset. Kan man köpa en del av en biljett?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "biljetter",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.929",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett hjärta slår ungefär 70 gånger per minut. Ungefär hur många gånger slår det under ett år?</p><p>A: 4 miljoner<br>B: 40 miljoner<br>C: 400 miljoner<br>D: 4 miljarder</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Per timme: \\(70\\cdot60\\approx4\\,000\\). Per dygn: \\(4\\,000\\cdot24\\approx100\\,000\\). Per år: \\(100\\,000\\cdot365\\approx40\\,000\\,000\\).</p><p>Det blir ungefär 40 miljoner slag. (Exakt: \\(70\\cdot60\\cdot24\\cdot365=36\\,792\\,000\\).)</p><p><strong>Svar:</strong> B: ungefär 40 miljoner</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Räkna först ungefär hur många slag det blir på en timme och på ett dygn.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.930",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många minuter är \\(\\frac34\\) timme?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En timme är 60 minuter. En fjärdedel av en timme är \\(60\\div4=15\\) minuter.</p><p>\\[\\frac34\\cdot60=3\\cdot15=45\\]</p><p><strong>Svar:</strong> 45 min</p></div></div>",
+    "familj": "Bråk i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många minuter är en fjärdedels timme?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "min",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.931",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(2\\frac13\\) i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Två hela är \\(\\frac63\\). Lägg till en tredjedel:</p><p>\\[2\\frac13=\\frac63+\\frac13=\\frac73\\]</p><p><strong>Svar:</strong> 7/3</p></div></div>",
+    "familj": "Blandad form och bråkform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "7/3",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur många tredjedelar går det på två hela?</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.932",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv 0,6 som ett bråk i enklaste form.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}6=\\frac{6}{10}=\\frac35\\]</p><p><strong>Svar:</strong> 0,6</p></div></div>",
+    "familj": "Bråk och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "3/5",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur många tiondelar är 0,6? Kan bråket förkortas?</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.933",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(1-\\frac38\\). Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En hel är åtta åttondelar:</p><p>\\[1-\\frac38=\\frac88-\\frac38=\\frac58\\]</p><p><strong>Svar:</strong> 0,625</p></div></div>",
+    "familj": "Grundläggande bråkräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "5/8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv 1 som ett bråk med nämnaren 8.</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.934",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En pizza är delad i 8 lika stora bitar. Du äter 3 bitar och din kompis äter 2 bitar. Hur stor del av pizzan är kvar? Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ni äter tillsammans 5 av 8 bitar. Kvar är 3 bitar av 8:</p><p>\\[1-\\frac58=\\frac38\\]</p><p><strong>Svar:</strong> 0,375</p></div></div>",
+    "familj": "Bråk i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "3/8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många bitar är kvar av de åtta?</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.935",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En heltidstjänst är 40 timmar i veckan. Anna arbetar \\(\\frac34\\) av heltid. Hur många timmar i veckan arbetar hon?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac34\\cdot40=3\\cdot10=30\\]</p><p><strong>Svar:</strong> 30 h</p></div></div>",
+    "familj": "Bråk i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur mycket är en fjärdedel av 40?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "h",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.936",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I musik räknas notvärden som bråk av en helnot. En takt i 4/4-takt rymmer notvärden som tillsammans blir en helnot. En takt innehåller en halvnot, en fjärdedelsnot och resten åttondelsnoter. Hur många åttondelsnoter finns i takten?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Halvnoten och fjärdedelsnoten fyller</p><p>\\[\\frac12+\\frac14=\\frac34\\]</p><p>av takten. Kvar är \\(\\frac14=\\frac28\\), alltså två åttondelsnoter.</p><p><strong>Svar:</strong> 2 st</p></div></div>",
+    "familj": "Bråk i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur stor del av takten fyller halvnoten och fjärdedelsnoten? Hur många åttondelar är resten?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "st",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.937",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett recept för 4 personer innehåller \\(\\frac34\\) dl grädde. Hur mycket grädde behövs till 6 personer? Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>6 personer är \\(\\frac64=\\frac32\\) gånger så många som 4 personer.</p><p>\\[\\frac34\\cdot\\frac32=\\frac98\\]</p><p><strong>Svar:</strong> \\(\\frac98\\) dl, alltså \\(1\\frac18\\) dl</p></div></div>",
+    "familj": "Bråk i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "9/8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur mycket grädde går det åt per person? Eller: hur många gånger fler är 6 personer än 4?</p>",
+    "svarFormat": "bråk",
+    "svarEnhet": "dl",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.938",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En film är \\(2\\frac14\\) timme lång. Hur många minuter är det?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[2\\cdot60+\\frac14\\cdot60=120+15=135\\]</p><p><strong>Svar:</strong> 135 min</p></div></div>",
+    "familj": "Blandad form och bråkform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 135,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Räkna de hela timmarna och kvartstimmen var för sig.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "min",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.939",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\frac{3}{10}+\\frac25\\). Svara i enklaste form.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Förläng \\(\\frac25\\) till tiondelar:</p><p>\\[\\frac3{10}+\\frac4{10}=\\frac7{10}\\]</p><p><strong>Svar:</strong> 0,7</p></div></div>",
+    "familj": "Grundläggande bråkräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "7/10",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vilken gemensam nämnare kan bråken få?</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.940",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många sextondelar är \\(\\frac34\\)?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Förläng med 4:</p><p>\\[\\frac34=\\frac{3\\cdot4}{4\\cdot4}=\\frac{12}{16}\\]</p><p><strong>Svar:</strong> 12</p></div></div>",
+    "familj": "Grundläggande bråkräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Med vilket tal ska du förlänga för att nämnaren ska bli 16?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.941",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket av talen är störst?</p><p>A: \\(\\frac58\\)<br>B: 0,6<br>C: \\(\\frac23\\)<br>D: 0,65</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv alla i decimalform: \\(\\frac58=0{,}625\\), \\(0{,}6\\), \\(\\frac23=0{,}666\\ldots\\) och \\(0{,}65\\). Störst är \\(\\frac23\\).</p><p><strong>Svar:</strong> C: \\(\\frac23\\)</p></div></div>",
+    "familj": "Jämföra bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv alla tal i decimalform.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.942",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många glas som rymmer \\(\\frac13\\) liter kan fyllas med 2 liter saft?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Varje liter räcker till 3 glas:</p><p>\\[2\\div\\frac13=2\\cdot3=6\\]</p><p><strong>Svar:</strong> 6 glas</p></div></div>",
+    "familj": "Bråk i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många tredjedelar går det på en liter?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "glas",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.943",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv 0,375 som ett bråk i enklaste form.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}375=\\frac{375}{1\\,000}=\\frac{3}{8}\\]</p><p>Förkorta med 125.</p><p><strong>Svar:</strong> 0,375</p></div></div>",
+    "familj": "Bråk och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "3/8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv talet som tusendelar och förkorta. Tips: 0,125 är en åttondel.</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.944",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tank rymmer 60 liter och är fylld till \\(\\frac25\\). Hur många liter måste fyllas på för att tanken ska vara fylld till \\(\\frac34\\)?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tanken innehåller \\(\\frac25\\cdot60=24\\) liter och ska innehålla \\(\\frac34\\cdot60=45\\) liter.</p><p>\\[45-24=21\\]</p><p><strong>Svar:</strong> 21 liter</p></div></div>",
+    "familj": "Del, helhet och återstående andel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många liter är \\(\\frac25\\) av tanken? Hur många är \\(\\frac34\\)?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "liter",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.945",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en klass med 30 elever spelar \\(\\frac25\\) av eleverna fotboll och \\(\\frac13\\) spelar handboll. 4 elever spelar båda sporterna. Hur många elever spelar ingen av sporterna?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Fotboll: \\(\\frac25\\cdot30=12\\) elever. Handboll: \\(\\frac13\\cdot30=10\\) elever.</p><p>De 4 som spelar båda har räknats två gånger. Minst en sport spelar \\(12+10-4=18\\) elever.</p><p>\\[30-18=12\\]</p><p><strong>Svar:</strong> 12 elever</p></div></div>",
+    "familj": "Del, helhet och återstående andel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna ut antalet för varje sport. Tänk på att de som spelar båda räknas två gånger om du bara lägger ihop.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "elever",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.946",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\left(\\frac12+\\frac13\\right)\\div\\left(\\frac12-\\frac13\\right)\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac12+\\frac13=\\frac56,\\qquad\\frac12-\\frac13=\\frac16\\]</p><p>\\[\\frac56\\div\\frac16=5\\]</p><p><strong>Svar:</strong> 5</p></div></div>",
+    "familj": "Grundläggande bråkräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Beräkna varje parentes för sig. Hur många sjättedelar får plats i fem sjättedelar?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.947",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En löpare har sprungit \\(\\frac38\\) av ett lopp. Efter ytterligare 2,5 km har hon sprungit \\(\\frac58\\) av loppet. Hur långt är loppet?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>De 2,5 km motsvarar \\(\\frac58-\\frac38=\\frac28=\\frac14\\) av loppet.</p><p>\\[4\\cdot2{,}5=10\\]</p><p><strong>Svar:</strong> 10 km</p></div></div>",
+    "familj": "Del, helhet och återstående andel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur stor del av loppet är de 2,5 kilometrarna?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "km",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.948",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hälften av en tredjedel av ett tal är 7. Vilket är talet?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Hälften av en tredjedel är en sjättedel:</p><p>\\[\\frac12\\cdot\\frac13=\\frac16\\]</p><p>En sjättedel av talet är 7, så talet är \\(6\\cdot7=42\\).</p><p><strong>Svar:</strong> 42</p></div></div>",
+    "familj": "Problemlösning med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur stor del av talet är hälften av en tredjedel?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.949",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ali tar \\(\\frac13\\) av en kaka. Bea tar \\(\\frac14\\) av det som är kvar. Cem tar hälften av det som då är kvar. Hur stor del av hela kakan får Cem? Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Efter Ali är \\(\\frac23\\) kvar. Bea tar \\(\\frac14\\cdot\\frac23=\\frac16\\), så kvar är \\(\\frac23-\\frac16=\\frac12\\).</p><p>\\[\\text{Cem: }\\frac12\\cdot\\frac12=\\frac14\\]</p><p><strong>Svar:</strong> 0,25</p></div></div>",
+    "familj": "Del, helhet och återstående andel",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "1/4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna ut hur stor del av hela kakan som är kvar efter varje person.</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.950",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många bråk med nämnaren 20 och ett positivt heltal i täljaren ligger mellan \\(\\frac14\\) och \\(\\frac12\\)? Bråken \\(\\frac14\\) och \\(\\frac12\\) räknas inte med.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv gränserna med nämnaren 20: \\(\\frac14=\\frac5{20}\\) och \\(\\frac12=\\frac{10}{20}\\).</p><p>Emellan ligger \\(\\frac6{20}\\), \\(\\frac7{20}\\), \\(\\frac8{20}\\) och \\(\\frac9{20}\\).</p><p><strong>Svar:</strong> 4</p></div></div>",
+    "familj": "Jämföra bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv \\(\\frac14\\) och \\(\\frac12\\) som tjugondelar.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.951",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vilket tal ligger mitt emellan \\(\\frac13\\) och \\(\\frac12\\)? Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Mittpunkten är medelvärdet av talen:</p><p>\\[\\frac{\\frac13+\\frac12}{2}=\\frac{\\frac56}{2}=\\frac5{12}\\]</p><p>Kontroll med tolftedelar: \\(\\frac13=\\frac4{12}\\) och \\(\\frac12=\\frac6{12}\\). Mitt emellan ligger \\(\\frac5{12}\\).</p><p><strong>Svar:</strong> 5/12</p></div></div>",
+    "familj": "Jämföra bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "5/12",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv bråken med en gemensam nämnare, eller beräkna medelvärdet av dem.</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.952",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I det gamla Egypten skrev man bråk som summor av olika <em>stambråk</em>, alltså bråk med täljaren 1, till exempel \\(\\frac13\\) eller \\(\\frac17\\). Skriv \\(\\frac34\\) som en summa av två olika stambråk. Vilket är det minsta av de två stambråken?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Det största stambråket måste vara större än hälften av \\(\\frac34\\), alltså större än \\(\\frac38\\). Det enda stambråk som är större än \\(\\frac38\\) men mindre än \\(\\frac34\\) är \\(\\frac12\\).</p><p>\\[\\frac34-\\frac12=\\frac14\\]</p><p>Alltså är \\(\\frac34=\\frac12+\\frac14\\), och det minsta stambråket är \\(\\frac14\\).</p><p><strong>Svar:</strong> 0,25</p></div></div>",
+    "familj": "Problemlösning med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "1/4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Pröva att börja med det största stambråket som är mindre än \\(\\frac34\\). Hur mycket blir kvar?</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.953",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Till ett tal \\(x\\) lägger man till en tredjedel av \\(x\\). Sedan drar man bort en fjärdedel av resultatet. Då får man 12. Bestäm \\(x\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Efter första steget har man \\(\\frac43x\\). En fjärdedel dras bort, så tre fjärdedelar blir kvar:</p><p>\\[\\frac34\\cdot\\frac43x=x\\]</p><p>Man får alltså tillbaka talet självt, så \\(x=12\\).</p><p><strong>Svar:</strong> 12</p></div></div>",
+    "familj": "Problemlösning med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv resultatet efter varje steg som en del av \\(x\\).</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.954",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Beräkna summan \\(\\frac{1}{1\\cdot2}+\\frac{1}{2\\cdot3}+\\frac{1}{3\\cdot4}+\\ldots+\\frac{1}{9\\cdot10}\\). Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Varje term kan skrivas som en skillnad, till exempel \\(\\frac1{2\\cdot3}=\\frac12-\\frac13\\). Kontroll: \\(\\frac12-\\frac13=\\frac{3-2}{6}=\\frac16\\).</p><p>\\[\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\ldots+\\left(\\frac19-\\frac1{10}\\right)\\]</p><p>Nästan alla termer tar ut varandra. Kvar blir</p><p>\\[1-\\frac1{10}=\\frac9{10}\\]</p><p><strong>Svar:</strong> 0,9</p></div></div>",
+    "familj": "Problemlösning med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "9/10",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Undersök de första termerna: \\(\\frac12\\), \\(\\frac12+\\frac16\\), \\(\\frac12+\\frac16+\\frac1{12}\\). Ser du ett mönster? Eller: skriv \\(\\frac1{n(n+1)}\\) som \\(\\frac1n-\\frac1{n+1}\\).</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.955",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Hur mycket större är \\(\\frac{99}{100}\\) än \\(\\frac{98}{99}\\)? Svara i bråkform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv båda bråken med nämnaren \\(100\\cdot99=9\\,900\\):</p><p>\\[\\frac{99}{100}-\\frac{98}{99}=\\frac{99\\cdot99-98\\cdot100}{9\\,900}=\\frac{9\\,801-9\\,800}{9\\,900}=\\frac{1}{9\\,900}\\]</p><p>En genväg: \\(\\frac{99}{100}=1-\\frac1{100}\\) och \\(\\frac{98}{99}=1-\\frac1{99}\\). Skillnaden är \\(\\frac1{99}-\\frac1{100}=\\frac1{9\\,900}\\).</p><p><strong>Svar:</strong> 1/9900</p></div></div>",
+    "familj": "Jämföra bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "bråk",
+    "rättSvar": "1/9900",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Skriv varje bråk som 1 minus ett stambråk.</p>",
+    "svarFormat": "bråk",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.956",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse finns 25 godisbitar. 5 av dem är lakrits. Hur stor andel av godisbitarna är lakrits? Svara i procent.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{5}{25}=\\frac{20}{100}=20\\,\\%\\]</p><p><strong>Svar:</strong> 20 %</p></div></div>",
+    "familj": "Andel som del av helhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Förläng bråket så att nämnaren blir 100.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.957",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv 0,08 i procent.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}08=\\frac{8}{100}=8\\,\\%\\]</p><p><strong>Svar:</strong> 8 %</p></div></div>",
+    "familj": "Omvandla mellan bråk, decimalform och procent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur många hundradelar är 0,08?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.958",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en klass med 24 elever är \\(\\frac14\\) vänsterhänta. Hur många elever är vänsterhänta?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac14\\cdot24=6\\]</p><p><strong>Svar:</strong> 6 elever</p></div></div>",
+    "familj": "Beräkna delen när andelen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Dela klassen i fyra lika stora grupper.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "elever",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.959",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett fotbollslag gjorde 36 mål under en säsong. Lagets bästa spelare gjorde 9 av dem. Hur stor andel av målen gjorde spelaren? Svara i decimalform.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{9}{36}=\\frac14=0{,}25\\]</p><p><strong>Svar:</strong> 0,25</p></div></div>",
+    "familj": "Andel som del av helhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.25,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Förkorta bråket \\(\\frac{9}{36}\\) först.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.960",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett mobilbatteri rymmer 4 000 mAh. Batteriet laddas från 20 % till 85 %. Hur många mAh har laddats in?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Batteriet har laddats \\(85-20=65\\) procentenheter.</p><p>\\[0{,}65\\cdot4\\,000=2\\,600\\]</p><p><strong>Svar:</strong> 2600 mAh</p></div></div>",
+    "familj": "Beräkna delen när andelen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2600,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många procentenheter har batteriet laddats?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "mAh",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.961",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tröja väger 240 g. 15 % av materialet är elastan. Hur många gram elastan innehåller tröjan?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}15\\cdot240=36\\]</p><p><strong>Svar:</strong> 36 g</p></div></div>",
+    "familj": "Beräkna delen när andelen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv 15 % i decimalform och multiplicera.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.962",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I ett kommunval fanns 9 000 röstberättigade. 6 840 av dem röstade. Hur stort var valdeltagandet i procent?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{6\\,840}{9\\,000}=0{,}76=76\\,\\%\\]</p><p><strong>Svar:</strong> 76 %</p></div></div>",
+    "familj": "Andel som del av helhet",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 76,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Dela antalet som röstade med antalet röstberättigade.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.963",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en enkät med 400 svarande svarade 58 % ja och 30 % nej. Resten svarade ”vet ej”. Hur många svarade ”vet ej”?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Andelen som svarade ”vet ej” är \\(100-58-30=12\\,\\%\\).</p><p>\\[0{,}12\\cdot400=48\\]</p><p><strong>Svar:</strong> 48 personer</p></div></div>",
+    "familj": "Beräkna delen när andelen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur många procent återstår när ja och nej är borträknade?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "personer",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.964",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lag A vann 17 av 25 matcher. Lag B vann 20 av 30 matcher. Vilket lag vann störst andel av sina matcher?</p><p>A: Lag A<br>B: Lag B<br>C: Andelarna är lika stora</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\text{A: }\\frac{17}{25}=0{,}68\\qquad\\text{B: }\\frac{20}{30}=0{,}666\\ldots\\]</p><p>Lag A vann störst andel, trots att lag B vann fler matcher.</p><p><strong>Svar:</strong> A: Lag A</p></div></div>",
+    "familj": "Jämföra andelar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Jämför andelarna, inte antalen. Skriv båda i decimalform.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.965",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En skola har 540 elever, och 45 % av dem är pojkar. Bland pojkarna går \\(\\frac13\\) på teknikprogrammet och bland flickorna \\(\\frac19\\). Hur många procent av skolans elever går på teknikprogrammet? Avrunda till en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Pojkar: \\(0{,}45\\cdot540=243\\). Flickor: \\(540-243=297\\).</p><p>Teknik: \\(\\frac13\\cdot243=81\\) pojkar och \\(\\frac19\\cdot297=33\\) flickor, totalt 114 elever.</p><p>\\[\\frac{114}{540}\\approx0{,}2111=21{,}1\\,\\%\\]</p><p><strong>Svar:</strong> 21,1 %</p></div></div>",
+    "familj": "Andelar i flera steg",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 21.1,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna ut antalet pojkar och flickor först, och sedan hur många av varje som går teknik.</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "%",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.966",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en hink finns 8 liter saltvatten. 5 % av innehållet är salt. Hur många liter rent vatten ska tillsättas för att salthalten ska bli 2 %?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Mängden salt ändras inte: \\(0{,}05\\cdot8=0{,}4\\) liter.</p><p>Efter tillsatsen ska 0,4 liter vara 2 % av hela mängden:</p><p>\\[\\frac{0{,}4}{0{,}02}=20\\ \\text{liter}\\]</p><p>\\[20-8=12\\]</p><p><strong>Svar:</strong> 12 liter</p></div></div>",
+    "familj": "Andelar i blandningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Vilken mängd ändras inte när du tillsätter vatten?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "liter",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.967",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>På ett företag är 60 % av de anställda kvinnor. 25 % av kvinnorna och 40 % av männen arbetar deltid. Hur många procent av dem som arbetar deltid är kvinnor? Avrunda till heltal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tänk dig 100 anställda: 60 kvinnor och 40 män.</p><p>Deltid: \\(0{,}25\\cdot60=15\\) kvinnor och \\(0{,}40\\cdot40=16\\) män, totalt 31 personer.</p><p>\\[\\frac{15}{31}\\approx0{,}484=48\\,\\%\\]</p><p>Trots att kvinnorna är fler bland de anställda är de färre bland de deltidsarbetande.</p><p><strong>Svar:</strong> 48 %</p></div></div>",
+    "familj": "Andelar i flera steg",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Tänk dig att företaget har 100 anställda. Hur många kvinnor och män arbetar då deltid?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.968",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en klass går 12 flickor och 16 pojkar. Skriv förhållandet flickor : pojkar i enklaste form.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Dela båda talen med 4:</p><p>\\[12:16=3:4\\]</p><p><strong>Svar:</strong> 3:4</p></div></div>",
+    "familj": "Tolka och förenkla förhållanden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "kort_text",
+    "rättSvar": "3:4",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilket är det största tal som både 12 och 16 är delbara med?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "rättSvarAlternativ": [
+      "3:4",
+      "3 : 4"
+    ]
+  },
+  {
+    "id": "0.969",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Saft ska blandas med vatten i förhållandet 1 : 4. Hur många dl vatten ska blandas med 2 dl saft?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>För varje del saft ska det vara fyra delar vatten:</p><p>\\[2\\cdot4=8\\]</p><p><strong>Svar:</strong> 8 dl</p></div></div>",
+    "familj": "Skala upp och ned ett förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur mycket vatten per dl saft?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "dl",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.970",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Betong blandas av cement, sand och grus i förhållandet 1 : 2 : 3. Hur många kilogram sand finns i 90 kg torr betongblandning?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Blandningen består av \\(1+2+3=6\\) delar. En del är \\(90\\div6=15\\) kg.</p><p>\\[\\text{Sand: }2\\cdot15=30\\]</p><p><strong>Svar:</strong> 30 kg</p></div></div>",
+    "familj": "Dela en mängd i ett givet förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många delar är det totalt? Hur mycket väger en del?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kg",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.971",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två syskon delar 1 200 kr i förhållandet 5 : 3. Det äldre syskonet får den större delen. Hur mycket får det yngre?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Totalt \\(5+3=8\\) delar. En del är \\(1\\,200\\div8=150\\) kr.</p><p>\\[\\text{Yngre: }3\\cdot150=450\\]</p><p><strong>Svar:</strong> 450 kr</p></div></div>",
+    "familj": "Dela en mängd i ett givet förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 450,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många delar är det totalt?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.972",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Guld som är 18 karat består av 18 delar rent guld och 6 delar annan metall. En ring av 18 karat guld väger 6 g. Hur många gram rent guld innehåller ringen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Andelen rent guld är \\(\\frac{18}{24}=\\frac34\\).</p><p>\\[\\frac34\\cdot6=4{,}5\\]</p><p><strong>Svar:</strong> 4,5 g</p></div></div>",
+    "familj": "Skala upp och ned ett förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många delar består guldet av totalt? Hur stor andel är rent guld?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.973",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På en cykel har det främre drevet 48 kuggar och det bakre 16 kuggar. Hur många varv snurrar bakhjulet när pedalerna snurrar ett varv?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>När pedalerna snurrar ett varv drar kedjan fram 48 kuggar. Det bakre drevet har 16 kuggar och snurrar då</p><p>\\[\\frac{48}{16}=3\\]</p><p>varv. Bakhjulet sitter fast på det bakre drevet och snurrar lika många varv.</p><p><strong>Svar:</strong> 3 varv</p></div></div>",
+    "familj": "Skala upp och ned ett förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många kuggar drar kedjan fram under ett pedalvarv?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "varv",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.974",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En tv-bild har formatet 16 : 9, alltså bredd : höjd. Bilden är 1,2 m bred. Hur hög är den?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Höjden är \\(\\frac{9}{16}\\) av bredden:</p><p>\\[\\frac{9}{16}\\cdot1{,}2=0{,}675\\]</p><p><strong>Svar:</strong> 0,675 m</p></div></div>",
+    "familj": "Skala upp och ned ett förhållande",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.675,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur många gånger större än 16 är bredden i det här fallet?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.975",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två tal förhåller sig som 3 : 7. Deras summa är 250. Hur stor är skillnaden mellan talen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Summan består av \\(3+7=10\\) delar. En del är 25. Talen är \\(3\\cdot25=75\\) och \\(7\\cdot25=175\\).</p><p>\\[175-75=100\\]</p><p><strong>Svar:</strong> 100</p></div></div>",
+    "familj": "Dela en mängd i ett givet förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur många delar är summan? Hur många delar är skillnaden?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.976",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en kör är förhållandet sopraner : altar : tenorer : basar = 5 : 4 : 2 : 3. Det finns 6 fler sopraner än basar. Hur många sångare finns i kören?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Sopranerna är 2 delar fler än basarna. Två delar är alltså 6 personer, och en del är 3 personer.</p><p>\\[(5+4+2+3)\\cdot3=14\\cdot3=42\\]</p><p><strong>Svar:</strong> 42 sångare</p></div></div>",
+    "familj": "Förhållanden i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många delar fler är sopranerna än basarna?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "sångare",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.977",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Blandning A består av saft och vatten i förhållandet 1 : 3, och det finns 2 liter av den. Blandning B har förhållandet 1 : 4, och det finns 5 liter av den. Blandningarna hälls ihop. Skriv förhållandet saft : vatten i den nya blandningen i enklaste form.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>A: \\(\\frac14\\) av 2 liter är saft, alltså 0,5 liter saft och 1,5 liter vatten.</p><p>B: \\(\\frac15\\) av 5 liter är saft, alltså 1 liter saft och 4 liter vatten.</p><p>\\[(0{,}5+1):(1{,}5+4)=1{,}5:5{,}5=3:11\\]</p><p><strong>Svar:</strong> 3:11</p></div></div>",
+    "familj": "Förhållanden i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "kort_text",
+    "rättSvar": "3:11",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Räkna ut hur mycket saft och vatten varje blandning innehåller. Lägg sedan ihop.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "rättSvarAlternativ": [
+      "3:11",
+      "3 : 11"
+    ]
+  },
+  {
+    "id": "0.978",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Grön färg blandas av blå och gul färg i förhållandet 2 : 3. Du har 1,2 liter blå och 1,5 liter gul färg. Hur många liter grön färg kan du som mest blanda?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Om all blå färg används behövs \\(1{,}2\\cdot\\frac32=1{,}8\\) liter gul. Det räcker inte.</p><p>Använd därför all gul färg: då behövs \\(1{,}5\\cdot\\frac23=1{,}0\\) liter blå.</p><p>\\[1{,}0+1{,}5=2{,}5\\]</p><p><strong>Svar:</strong> 2,5 liter</p></div></div>",
+    "familj": "Förhållanden i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "ledtrad": "<p>Vilken av färgerna tar slut först?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "liter",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.979",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Förhållandet mellan Adams och Bellas åldrar är 3 : 5. Om 8 år blir förhållandet 5 : 7. Hur gammal är Adam nu?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv åldrarna som \\(3k\\) och \\(5k\\). Om 8 år är de \\(3k+8\\) och \\(5k+8\\):</p><p>\\[\\frac{3k+8}{5k+8}=\\frac57\\quad\\Longrightarrow\\quad7(3k+8)=5(5k+8)\\quad\\Longrightarrow\\quad21k+56=25k+40\\quad\\Longrightarrow\\quad k=4\\]</p><p>Adam är \\(3\\cdot4=12\\) år och Bella 20 år. Kontroll: om 8 år är de 20 och 28 år, och \\(20:28=5:7\\).</p><p><strong>Svar:</strong> 12 år</p></div></div>",
+    "familj": "Förhållanden i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv åldrarna som \\(3k\\) och \\(5k\\). Vad blir de om 8 år?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "år",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.980",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En bil kör 90 km på en timme med konstant fart. Hur långt kör den på 20 minuter?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>20 minuter är en tredjedel av en timme:</p><p>\\[\\frac{90}{3}=30\\]</p><p><strong>Svar:</strong> 30 km</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur stor del av en timme är 20 minuter?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "km",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.981",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>3 pennor kostar 27 kr. Vad kostar 7 pennor?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En penna kostar \\(27\\div3=9\\) kr.</p><p>\\[7\\cdot9=63\\]</p><p><strong>Svar:</strong> 63 kr</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 63,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vad kostar en penna?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.982",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En karta har skalan 1 : 50 000. Två platser ligger 4 cm från varandra på kartan. Hur långt är det mellan dem i verkligheten? Svara i km.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[4\\cdot50\\,000=200\\,000\\ \\text{cm}=2\\,000\\ \\text{m}=2\\ \\text{km}\\]</p><p><strong>Svar:</strong> 2 km</p></div></div>",
+    "familj": "Proportionalitet och skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>1 cm på kartan är 50 000 cm i verkligheten.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "km",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.983",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kran fyller en hink på 10 liter på 40 sekunder. Hur lång tid tar det att fylla ett badkar med 180 liter vatten, om vattnet rinner lika fort? Svara i minuter.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>180 liter är 18 hinkar:</p><p>\\[18\\cdot40=720\\ \\text{s}=12\\ \\text{min}\\]</p><p><strong>Svar:</strong> 12 min</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många hinkar är 180 liter?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "min",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.984",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En euro kostar 11,40 kr. Hur många kronor kostar 250 euro?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[250\\cdot11{,}40=2\\,850\\]</p><p><strong>Svar:</strong> 2850 kr</p></div></div>",
+    "familj": "Proportionalitetskonstant",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2850,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Priset i kronor är proportionellt mot antalet euro.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.985",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vid ett åskväder ser du blixten och räknar till 7 sekunder innan du hör åskan. Ljudet färdas 340 m på en sekund. Hur långt bort slog blixten ner? Svara i km.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[7\\cdot340=2\\,380\\ \\text{m}\\approx2{,}4\\ \\text{km}\\]</p><p>Ljuset från blixten når dig nästan direkt, så det är ljudets färd som tar tid.</p><p><strong>Svar:</strong> 2,38 km (ungefär 2,4 km)</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.38,
+    "tolerans": 0.03,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur långt färdas ljudet på 7 sekunder?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "km",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.986",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket av sambanden är direkt proportionellt?</p><p>A: priset och antalet liter bensin<br>B: priset och antalet kilometer för en taxiresa med startavgift<br>C: en persons längd och ålder<br>D: temperaturen i °F och temperaturen i °C</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Priset för bensin är antalet liter gånger literpriset. Noll liter kostar 0 kr, och dubbelt så många liter kostar dubbelt så mycket.</p><p>Taxiresan har en startavgift, så noll kilometer kostar inte 0 kr. En persons längd ökar inte i takt med åldern. Temperaturen i °F är inte proportionell mot temperaturen i °C, eftersom 0 °C är 32 °F.</p><p><strong>Svar:</strong> A: priset och antalet liter bensin</p></div></div>",
+    "familj": "Avgöra om ett samband är proportionellt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Ett direkt proportionellt samband har formen \\(y=kx\\). Då ger \\(x=0\\) alltid \\(y=0\\), och dubbelt så stort \\(x\\) ger dubbelt så stort \\(y\\).</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.987",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar ett proportionellt samband.</p><table class=\"data\"><tr><th>\\(x\\)</th><td>2</td><td>5</td><td>\\(a\\)</td></tr><tr><th>\\(y\\)</th><td>7</td><td>\\(b\\)</td><td>21</td></tr></table><p>Bestäm \\(a+b\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Proportionalitetskonstanten är \\(k=\\frac72=3{,}5\\).</p><p>\\[b=3{,}5\\cdot5=17{,}5\\qquad a=\\frac{21}{3{,}5}=6\\]</p><p>\\[a+b=6+17{,}5=23{,}5\\]</p><p><strong>Svar:</strong> 23,5</p></div></div>",
+    "familj": "Proportionalitetskonstant",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 23.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Bestäm först \\(k\\) i \\(y=kx\\) med hjälp av den första kolumnen.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.988",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En bagare använder 2,5 kg mjöl till 40 bullar. Hur många bullar kan bagaren baka av 6 kg mjöl?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Varje kilogram mjöl räcker till \\(40\\div2{,}5=16\\) bullar.</p><p>\\[6\\cdot16=96\\]</p><p><strong>Svar:</strong> 96 bullar</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 96,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många bullar räcker ett kilogram mjöl till?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "bullar",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.989",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett modelltåg är byggt i skala 1 : 87. Det riktiga loket är 26,1 m långt. Hur långt är modellen? Svara i cm.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{26{,}1}{87}=0{,}3\\ \\text{m}=30\\ \\text{cm}\\]</p><p><strong>Svar:</strong> 30 cm</p></div></div>",
+    "familj": "Proportionalitet och skala",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Alla mått i modellen är 87 gånger mindre än i verkligheten.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.990",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Priset på skinka är proportionellt mot vikten. 350 g kostar 42 kr. Hur många gram skinka får man för 100 kr? Avrunda till heltal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Priset per gram är \\(\\frac{42}{350}=0{,}12\\) kr.</p><p>\\[\\frac{100}{0{,}12}\\approx833\\]</p><p><strong>Svar:</strong> 833 g</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 833,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna ut vad ett gram kostar, eller hur många gram man får för en krona.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "g",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.991",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Bil A drar 0,55 liter bensin per mil. Bil B drar 6,8 liter per 100 km. Hur många liter mindre bensin drar den snålare bilen på en resa som är 250 km?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>1 mil är 10 km, så bil A drar 0,55 liter per 10 km, alltså 5,5 liter per 100 km. Bil A är snålast.</p><p>Skillnaden är \\(6{,}8-5{,}5=1{,}3\\) liter per 100 km.</p><p>\\[2{,}5\\cdot1{,}3=3{,}25\\]</p><p><strong>Svar:</strong> 3,25 liter</p></div></div>",
+    "familj": "Proportionalitet i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.25,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Uttryck båda förbrukningarna i samma enhet, till exempel liter per 100 km.</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "liter",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.992",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En pool med lodräta väggar fylls av en pump med konstant flöde. Efter 25 minuter är vattendjupet 18 cm. Poolen ska fyllas till djupet 1,35 m. Hur lång tid tar hela fyllningen? Svara i timmar.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Djupet ökar proportionellt mot tiden. 1,35 m = 135 cm.</p><p>\\[\\frac{135}{18}\\cdot25=187{,}5\\ \\text{min}\\]</p><p>\\[\\frac{187{,}5}{60}=3{,}125\\ \\text{h}\\]</p><p><strong>Svar:</strong> 3,125 h</p></div></div>",
+    "familj": "Proportionalitet i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.125,
+    "tolerans": 0.01,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många gånger större är 1,35 m än 18 cm?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "h",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.993",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>\\(y\\) är proportionell mot \\(x\\). När \\(x\\) ökar med 3 ökar \\(y\\) med 7,5. Vad är \\(y\\) när \\(x=10\\)?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>I ett proportionellt samband \\(y=kx\\) ökar \\(y\\) med \\(k\\) för varje steg i \\(x\\):</p><p>\\[k=\\frac{7{,}5}{3}=2{,}5\\]</p><p>\\[y=2{,}5\\cdot10=25\\]</p><p><strong>Svar:</strong> 25</p></div></div>",
+    "familj": "Proportionalitetskonstant",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur mycket ökar \\(y\\) när \\(x\\) ökar med 1?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.994",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Storheten \\(a\\) är proportionell mot \\(b\\), och \\(a=12\\) när \\(b=8\\). Storheten \\(c\\) är också proportionell mot \\(b\\), och \\(c=5\\) när \\(b=4\\). Bestäm \\(a\\) när \\(c=20\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Från \\(c\\) till \\(b\\): \\(c=\\frac54b\\), så \\(c=20\\) ger \\(b=16\\).</p><p>Från \\(b\\) till \\(a\\): \\(a=\\frac{12}{8}b=1{,}5b\\), så \\(a=1{,}5\\cdot16=24\\).</p><p>Man kan också se att \\(a\\) är proportionell mot \\(c\\): \\(a=\\frac65c\\).</p><p><strong>Svar:</strong> 24</p></div></div>",
+    "familj": "Proportionalitet i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Bestäm först \\(b\\) när \\(c=20\\).</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.995",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett maratonlopp är 42,195 km långt. Avrunda längden till hela kilometer.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tiondelssiffran är 1, alltså mindre än 5. Då avrundas nedåt till 42 km.</p><p><strong>Svar:</strong> 42 km</p></div></div>",
+    "familj": "Avrundning i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Titta på siffran närmast efter decimalkommat.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "km",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.996",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En cykel kostar 1 849 kr. Avrunda priset till hundratal kronor.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tiotalssiffran är 4, alltså mindre än 5. Då avrundas nedåt:</p><p>\\[1\\,849\\approx1\\,800\\]</p><p><strong>Svar:</strong> 1800 kr</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1800,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Titta på tiotalssiffran.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.997",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En läkemedelsdos är 0,125 mg per kilogram kroppsvikt. Hur stor dos ska en patient som väger 68 kg få? Svara i mg med en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}125\\cdot68=8{,}5\\]</p><p><strong>Svar:</strong> 8,5 mg</p></div></div>",
+    "familj": "Avrundning i vardagen",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Multiplicera dosen per kilogram med vikten.</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "mg",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.998",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Sveriges area är 528 447 km². Avrunda arean till två värdesiffror.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>De två första värdesiffrorna är 5 och 2. Nästa siffra är 8, så det avrundas uppåt:</p><p>\\[528\\,447\\approx530\\,000\\]</p><p><strong>Svar:</strong> 530 000 km²</p></div></div>",
+    "familj": "Värdesiffror",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 530000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>De två första siffrorna är värdesiffror. Resten ersätts med nollor.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "km²",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.999",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ljusets hastighet är 299 792 458 m/s. Avrunda till tre värdesiffror.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>De tre första siffrorna är 2, 9 och 9. Nästa siffra är 7, så 299 avrundas uppåt till 300:</p><p>\\[299\\,792\\,458\\approx300\\,000\\,000\\]</p><p><strong>Svar:</strong> 300 000 000 m/s</p></div></div>",
+    "familj": "Värdesiffror",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300000000,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vad händer när 299 ska avrundas uppåt?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "m/s",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1000",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Avrunda 4,4449 till en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Titta bara på siffran direkt efter den första decimalen. Den är 4, så det avrundas nedåt:</p><p>\\[4{,}4449\\approx4{,}4\\]</p><p>Man får inte avrunda i flera steg (4,4449 → 4,445 → 4,45 → 4,5). Det ger fel svar.</p><p><strong>Svar:</strong> 4,4</p></div></div>",
+    "familj": "Avrunda till angiven noggrannhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Vilken siffra avgör avrundningen till en decimal? Avrunda i ett enda steg.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1001",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En sträcka anges till 12,4 km, avrundat till närmaste 100 m. Hur många meter kan den angivna längden som mest skilja sig från den verkliga?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Avrundning till närmaste 100 m betyder att den verkliga längden ligger mellan 12,35 km och 12,45 km. Avvikelsen är högst hälften av 100 m.</p><p><strong>Svar:</strong> 50 m</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur långt kan en längd ligga från 12,4 km och ändå avrundas dit?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1002",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bensinen kostar 19,87 kr per liter. Du tankar 43,56 liter. Vad blir priset avrundat till hela kronor?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[19{,}87\\cdot43{,}56=865{,}5372\\approx866\\]</p><p><strong>Svar:</strong> 866 kr</p></div></div>",
+    "familj": "Avrundning i vardagen",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 866,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Multiplicera och avrunda först på slutet.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1003",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket är det största talet med två decimaler som blir 7 när det avrundas till heltal?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tal från 6,5 upp till (men inte med) 7,5 avrundas till 7. Det största talet med två decimaler under 7,5 är 7,49.</p><p><strong>Svar:</strong> 7,49</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.49,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Var går gränsen mellan att avrunda till 7 och till 8?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1004",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Emma köper fem varor som kostar 12,45 kr, 8,49 kr, 23,50 kr, 6,45 kr och 9,48 kr. Hon avrundar varje pris till hela kronor och adderar sedan. Hur många kronor skiljer hennes summa från den exakta summan avrundad till hela kronor?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Emmas avrundade priser: 12, 8, 24, 6 och 9 kr. Summa: 59 kr.</p><p>Exakt summa: 60,37 kr, alltså 60 kr avrundat.</p><p>\\[60-59=1\\]</p><p><strong>Svar:</strong> 1 kr</p></div></div>",
+    "familj": "Avrundning i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Räkna ut båda summorna. Varför blir de olika?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1005",
+    "kap": 0,
+    "omr": "avrundning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett heltal blir 3 400 när det avrundas till två värdesiffror. Hur många olika heltal kan det vara?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Talen från 3 350 till 3 449 avrundas till 3 400.</p><p>\\[3\\,449-3\\,350+1=100\\]</p><p><strong>Svar:</strong> 100</p></div></div>",
+    "familj": "Gränser vid avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilket är det minsta och det största heltalet som avrundas till 3 400?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1006",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ungefär hur mycket väger 12 mjölkpaket som väger 1,03 kg vart och ett?</p><p>A: 1,2 kg<br>B: 12 kg<br>C: 120 kg<br>D: 1 200 kg</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Varje paket väger ungefär 1 kg, så 12 paket väger ungefär 12 kg. (Exakt: 12,36 kg.)</p><p><strong>Svar:</strong> B: 12 kg</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Vad väger ett paket ungefär?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1007",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Gör ett överslag av \\(3\\,980\\div21\\) genom att avrunda 3 980 till tusental och 21 till tiotal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[4\\,000\\div20=200\\]</p><p><strong>Svar:</strong> 200</p></div></div>",
+    "familj": "Överslag med angiven avrundning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 200,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Avrunda båda talen först. Hur många tjugor går det på 4 000?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1008",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En elev räknar ut \\(0{,}25\\cdot824\\) och får 2 060. Vilket påstående stämmer?</p><p>A: Svaret är rimligt.<br>B: Svaret ska vara ungefär 200.<br>C: Svaret ska vara ungefär 20.<br>D: Svaret ska vara ungefär 20 000.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>0,25 är en fjärdedel. En fjärdedel av ungefär 800 är ungefär 200. Elevens svar är tio gånger för stort. (Exakt: 206.)</p><p><strong>Svar:</strong> B: Svaret ska vara ungefär 200.</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>0,25 är en fjärdedel. Vad är en fjärdedel av ungefär 800?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1009",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett flygplan flyger med farten 880 km/h i 5 h 50 min. Ungefär hur lång är flygningen?</p><p>A: 500 km<br>B: 5 000 km<br>C: 50 000 km<br>D: 500 000 km</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Överslag: \\(900\\cdot6=5\\,400\\) km. Svaret ligger alltså i storleksordningen 5 000 km. (Exakt: cirka 5 130 km.)</p><p><strong>Svar:</strong> B: ungefär 5 000 km</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Avrunda farten och tiden till tal som är lätta att multiplicera.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1010",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ungefär hur många gånger får 0,048 plats i 24?</p><p>A: 5<br>B: 50<br>C: 500<br>D: 5 000</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Avrunda 0,048 till 0,05. Talet 0,05 får plats 20 gånger i 1, alltså \\(20\\cdot24=480\\) gånger i 24. Svaret är ungefär 500. (Exakt: 500.)</p><p><strong>Svar:</strong> C: ungefär 500</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Avrunda 0,048 till 0,05. Hur många gånger får 0,05 plats i 1?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1011",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett golv är 4,85 m × 6,12 m. Parkett kostar 389 kr per m². Ungefär vad kostar parketten till golvet?</p><p>A: 1 200 kr<br>B: 12 000 kr<br>C: 120 000 kr<br>D: 1,2 miljoner kr</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Överslag: arean är ungefär \\(5\\cdot6=30\\) m², och \\(30\\cdot400=12\\,000\\) kr. (Exakt: cirka 11 550 kr.)</p><p><strong>Svar:</strong> B: ungefär 12 000 kr</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Gör först ett överslag av arean.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1012",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Kim gör överslaget \\(60\\cdot30=1\\,800\\) för att uppskatta \\(58{,}4\\cdot31{,}7\\). Är överslaget större eller mindre än det exakta värdet?</p><p>A: Överslaget är större.<br>B: Överslaget är mindre.<br>C: De är lika stora.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den ena faktorn avrundades uppåt (58,4 → 60) och den andra nedåt (31,7 → 30). Det går inte att se direkt, så räkna exakt:</p><p>\\[58{,}4\\cdot31{,}7=1\\,851{,}28\\]</p><p>Överslaget 1 800 är mindre än det exakta värdet.</p><p><strong>Svar:</strong> B: Överslaget är mindre.</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Har båda faktorerna avrundats åt samma håll? Om inte, räkna ut det exakta värdet.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1013",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En familj med fyra personer duschar en gång var per dag. En dusch tar 8 minuter och duschen ger 12 liter vatten per minut. Ungefär hur mycket vatten går åt till duschar under ett år?</p><p>A: 14 000 liter<br>B: 140 000 liter<br>C: 1,4 miljoner liter<br>D: 14 miljoner liter</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En dusch: \\(8\\cdot12\\approx100\\) liter. Per dag: \\(4\\cdot100=400\\) liter. Per år: \\(400\\cdot365\\approx150\\,000\\) liter.</p><p>Det blir i storleksordningen 140 000 liter. (Exakt: 140 160 liter.)</p><p><strong>Svar:</strong> B: ungefär 140 000 liter</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur mycket vatten går åt vid en dusch? På en dag?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1014",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Av 200 lotter är 50 vinstlotter. Hur stor andel av lotterna är vinstlotter? Svara i procent.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{50}{200}=\\frac14=25\\,\\%\\]</p><p><strong>Svar:</strong> 25 %</p></div></div>",
+    "familj": "Andel som del av helhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Förkorta bråket \\(\\frac{50}{200}\\).</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1015",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(\\frac35\\) i procent.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac35=\\frac{60}{100}=60\\,\\%\\]</p><p><strong>Svar:</strong> 60 %</p></div></div>",
+    "familj": "Omvandla mellan bråk, decimalform och procent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Förläng bråket så att nämnaren blir 100.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1016",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många procent av en timme är 45 minuter?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{45}{60}=\\frac34=75\\,\\%\\]</p><p><strong>Svar:</strong> 75 %</p></div></div>",
+    "familj": "Andel som del av helhet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många minuter är en timme?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1017",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ungefär 60 % av en vuxen människas kroppsvikt är vatten. Hur många kilogram vatten finns i kroppen hos en person som väger 70 kg?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}60\\cdot70=42\\]</p><p><strong>Svar:</strong> 42 kg</p></div></div>",
+    "familj": "Beräkna delen när andelen är känd",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv 60 % i decimalform.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kg",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1018",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Havsvatten har en salthalt på ungefär 35 ‰ (promille). Hur många gram salt finns i 2 kg havsvatten?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>35 ‰ betyder 35 tusendelar, alltså 0,035.</p><p>\\[0{,}035\\cdot2\\,000=70\\]</p><p><strong>Svar:</strong> 70 g</p></div></div>",
+    "familj": "Omvandla mellan bråk, decimalform och procent",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Promille betyder tusendelar. Hur många gram är 2 kg?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1019",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna 30 % av 40 % av 500.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}40\\cdot500=200\\qquad0{,}30\\cdot200=60\\]</p><p><strong>Svar:</strong> 60</p></div></div>",
+    "familj": "Andelar i flera steg",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Börja med 40 % av 500.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1020",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I elevrådet är 7 av 12 ledamöter flickor. I klassrådet är 10 av 18 ledamöter flickor. Var är andelen flickor störst?</p><p>A: i elevrådet<br>B: i klassrådet<br>C: Andelarna är lika stora.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\text{Elevrådet: }\\frac7{12}\\approx0{,}583\\qquad\\text{Klassrådet: }\\frac{10}{18}\\approx0{,}556\\]</p><p><strong>Svar:</strong> A: i elevrådet</p></div></div>",
+    "familj": "Jämföra andelar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv båda andelarna i decimalform.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1021",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En e-sportspelare har vunnit 45 av sina 60 matcher. Hur många matcher i rad måste hon vinna för att andelen vunna matcher ska bli 80 %?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Om hon vinner \\(x\\) matcher till har hon vunnit \\(45+x\\) av \\(60+x\\) matcher:</p><p>\\[\\frac{45+x}{60+x}=0{,}8\\quad\\Longrightarrow\\quad45+x=48+0{,}8x\\quad\\Longrightarrow\\quad0{,}2x=3\\quad\\Longrightarrow\\quad x=15\\]</p><p>Kontroll: \\(\\frac{60}{75}=0{,}8\\).</p><p><strong>Svar:</strong> 15 matcher</p></div></div>",
+    "familj": "Förändra en andel genom att ändra totalen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Varje vunnen match ökar både antalet vinster och antalet matcher med 1.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "matcher",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1022",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>300 g av en blandning med 20 % socker blandas med 200 g av en blandning med 45 % socker. Hur många procent socker innehåller den nya blandningen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Socker: \\(0{,}20\\cdot300=60\\) g och \\(0{,}45\\cdot200=90\\) g, alltså 150 g av totalt 500 g.</p><p>\\[\\frac{150}{500}=0{,}30=30\\,\\%\\]</p><p>Man kan inte ta medelvärdet av 20 % och 45 %, eftersom blandningarna har olika massa.</p><p><strong>Svar:</strong> 30 %</p></div></div>",
+    "familj": "Andelar i blandningar",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna ut hur många gram socker varje blandning innehåller.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1023",
+    "kap": 0,
+    "omr": "andelar",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Ett medicinskt test ger positivt resultat för 90 % av dem som har en viss sjukdom. Det ger också (felaktigt) positivt resultat för 5 % av dem som är friska. 2 % av befolkningen har sjukdomen. Hur stor andel av dem som får ett positivt test är sjuka? Svara i procent, avrundat till heltal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Tänk dig 10 000 personer: 200 sjuka och 9 800 friska.</p><p>Positiva test: \\(0{,}90\\cdot200=180\\) sjuka och \\(0{,}05\\cdot9\\,800=490\\) friska, totalt 670.</p><p>\\[\\frac{180}{670}\\approx0{,}27=27\\,\\%\\]</p><p>Bara ungefär var fjärde person med positivt test är sjuk, eftersom de friska är så många fler.</p><p><strong>Svar:</strong> 27 %</p></div></div>",
+    "familj": "Andelar i flera steg",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": 0.5,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Tänk dig en grupp på till exempel 10 000 personer. Hur många av dem är sjuka och testar positivt? Hur många är friska och testar positivt?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "%",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.1024",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla förhållandet 25 : 10 så långt som möjligt.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[25:10=5:2\\]</p><p><strong>Svar:</strong> 5:2</p></div></div>",
+    "familj": "Tolka och förenkla förhållanden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "kort_text",
+    "rättSvar": "5:2",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Vilket tal kan både 25 och 10 delas med?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "rättSvarAlternativ": [
+      "5:2",
+      "5 : 2"
+    ]
+  },
+  {
+    "id": "0.1025",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Till pizzadeg blandas mjöl och vatten i förhållandet 5 : 3 (räknat i gram). Hur många gram vatten behövs till 500 g mjöl?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>500 g mjöl är 5 delar, så en del är 100 g.</p><p>\\[3\\cdot100=300\\]</p><p><strong>Svar:</strong> 300 g</p></div></div>",
+    "familj": "Skala upp och ned ett förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många gram är en del?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1026",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett lag har spelat 40 matcher utan oavgjorda resultat. Förhållandet vinster : förluster är 7 : 3. Hur många matcher har laget vunnit?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Totalt \\(7+3=10\\) delar. En del är \\(40\\div10=4\\) matcher.</p><p>\\[7\\cdot4=28\\]</p><p><strong>Svar:</strong> 28 matcher</p></div></div>",
+    "familj": "Dela en mängd i ett givet förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många delar är det totalt?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "matcher",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1027",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En fotbollsplan har längd och bredd i förhållandet 3 : 2. Omkretsen är 350 m. Hur lång är planen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Längd \\(3k\\) och bredd \\(2k\\). Omkretsen är</p><p>\\[2(3k+2k)=10k=350\\quad\\Longrightarrow\\quad k=35\\]</p><p>\\[\\text{Längd: }3\\cdot35=105\\]</p><p><strong>Svar:</strong> 105 m</p></div></div>",
+    "familj": "Dela en mängd i ett givet förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 105,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Skriv längden som \\(3k\\) och bredden som \\(2k\\). Hur uttrycker du omkretsen?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1028",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Förenkla förhållandet 0,75 : 2 så att båda talen blir heltal och förhållandet är så enkelt som möjligt.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Multiplicera båda talen med 4:</p><p>\\[0{,}75:2=3:8\\]</p><p><strong>Svar:</strong> 3:8</p></div></div>",
+    "familj": "Tolka och förenkla förhållanden",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "kort_text",
+    "rättSvar": "3:8",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "ledtrad": "<p>Med vilket tal ska du multiplicera 0,75 för att få ett heltal?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "rättSvarAlternativ": [
+      "3:8",
+      "3 : 8"
+    ]
+  },
+  {
+    "id": "0.1029",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Mässing består av koppar och zink i förhållandet 3 : 2. Du ska tillverka 15 kg mässing och har redan 4 kg zink. Hur många kilogram zink behöver du köpa till?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Mässingen består av 5 delar, och zinken är 2 av dem:</p><p>\\[\\frac25\\cdot15=6\\ \\text{kg}\\]</p><p>\\[6-4=2\\]</p><p><strong>Svar:</strong> 2 kg</p></div></div>",
+    "familj": "Skala upp och ned ett förhållande",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur stor del av mässingen är zink?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kg",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1030",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>På en skola är förhållandet elever : lärare 15 : 1. Skolan har 420 elever. Hur många fler lärare behövs för att förhållandet ska bli 12 : 1?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Nu: \\(420\\div15=28\\) lärare. Med 12 : 1 behövs \\(420\\div12=35\\) lärare.</p><p>\\[35-28=7\\]</p><p><strong>Svar:</strong> 7 lärare</p></div></div>",
+    "familj": "Förhållanden i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur många lärare finns nu? Hur många behövs med det nya förhållandet?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "lärare",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1031",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Två kvadrater har sidorna i förhållandet 2 : 3. Vilket är förhållandet mellan kvadraternas areor? Svara i enklaste form.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Sätt sidorna till \\(2k\\) och \\(3k\\). Areorna är \\((2k)^2=4k^2\\) och \\((3k)^2=9k^2\\).</p><p>\\[4k^2:9k^2=4:9\\]</p><p><strong>Svar:</strong> 4:9</p></div></div>",
+    "familj": "Förhållanden i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "kort_text",
+    "rättSvar": "4:9",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Pröva med sidorna 2 cm och 3 cm. Vilka blir areorna?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true,
+    "rättSvarAlternativ": [
+      "4:9",
+      "4 : 9"
+    ]
+  },
+  {
+    "id": "0.1032",
+    "kap": 0,
+    "omr": "forhallanden",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Tre vänner, A, B och C, driver ett företag och har gjort en vinst på 18 000 kr. Först får A 2 000 kr för extra arbete. Resten delas i förhållandet 2 : 3 : 5. Hur mycket får A totalt?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kvar att dela: \\(18\\,000-2\\,000=16\\,000\\) kr. Totalt 10 delar, alltså 1 600 kr per del.</p><p>\\[\\text{A: }2\\,000+2\\cdot1\\,600=5\\,200\\]</p><p><strong>Svar:</strong> 5200 kr</p></div></div>",
+    "familj": "Förhållanden i problemlösning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5200,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Dra först bort det A får för arbetet. Dela sedan resten.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.1033",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett tåg kör med den konstanta farten 120 km/h. Hur långt kör det på 2,5 timmar?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[120\\cdot2{,}5=300\\]</p><p><strong>Svar:</strong> 300 km</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 300,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur långt kör tåget på två timmar? På en halvtimme?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "km",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1034",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En skrivare skriver ut 24 sidor per minut. Hur många minuter tar det att skriva ut 180 sidor?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{180}{24}=7{,}5\\]</p><p><strong>Svar:</strong> 7,5 min</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många gånger får 24 plats i 180?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "min",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1035",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett recept för 4 personer innehåller 300 g köttfärs. Hur mycket köttfärs behövs till 10 personer?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Per person: \\(300\\div4=75\\) g.</p><p>\\[10\\cdot75=750\\]</p><p><strong>Svar:</strong> 750 g</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 750,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur mycket köttfärs går det åt per person?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "g",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1036",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken tabell visar ett proportionellt samband mellan \\(x\\) och \\(y\\)?</p><p>A: (1, 3), (2, 6), (5, 15)<br>B: (1, 4), (2, 7), (3, 10)<br>C: (2, 5), (4, 9), (6, 13)<br>D: (1, 2), (3, 9), (4, 16)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>I A är \\(\\frac yx=3\\) i alla kolumner, alltså \\(y=3x\\).</p><p>I B är kvoterna 4, 3,5 och 3,33, i C 2,5, 2,25 och 2,17, och i D 2, 3 och 4. De är inte konstanta.</p><p><strong>Svar:</strong> A: (1, 3), (2, 6), (5, 15)</p></div></div>",
+    "familj": "Avgöra om ett samband är proportionellt",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Beräkna \\(\\frac{y}{x}\\) för varje talpar. I ett proportionellt samband är kvoten alltid densamma.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1037",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En karta har skalan 1 : 25 000. Hur lång blir en sträcka på 3,5 km på kartan? Svara i cm.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[3{,}5\\ \\text{km}=350\\,000\\ \\text{cm}\\]</p><p>\\[\\frac{350\\,000}{25\\,000}=14\\]</p><p><strong>Svar:</strong> 14 cm</p></div></div>",
+    "familj": "Proportionalitet och skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Gör om 3,5 km till centimeter först.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "cm",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1038",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En cyklist håller jämn fart och cyklar 15 km på 40 minuter. Hur många minuter tar det att cykla 42 km i samma fart?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{42}{15}\\cdot40=2{,}8\\cdot40=112\\]</p><p>Det tar 112 min, alltså 1 h 52 min.</p><p><strong>Svar:</strong> 112 min</p></div></div>",
+    "familj": "Direkt proportionalitet",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 112,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur många gånger längre är 42 km än 15 km?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "min",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1039",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En elbil förbrukar 18 kWh per 100 km, och elen kostar 2,40 kr per kWh. En bensinbil förbrukar 0,6 liter per mil, och bensinen kostar 18,50 kr per liter. Hur många kronor billigare är det att köra 100 km med elbilen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Elbil: \\(18\\cdot2{,}40=43{,}20\\) kr.</p><p>Bensinbil: 100 km är 10 mil, så den drar \\(10\\cdot0{,}6=6\\) liter, som kostar \\(6\\cdot18{,}50=111\\) kr.</p><p>\\[111-43{,}20=67{,}80\\]</p><p><strong>Svar:</strong> 67,8 kr</p></div></div>",
+    "familj": "Proportionalitet i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 67.8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Räkna ut kostnaden för 100 km för varje bil. Tänk på att 1 mil är 10 km.</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "kr",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1040",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En bild förstoras proportionellt så att bredden ökar från 12 cm till 18 cm. Bildens area var 96 cm². Vilken area har den förstorade bilden?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Längdskalan är \\(\\frac{18}{12}=1{,}5\\). Både bredd och höjd blir 1,5 gånger större, så arean blir \\(1{,}5^2=2{,}25\\) gånger större.</p><p>\\[2{,}25\\cdot96=216\\]</p><p><strong>Svar:</strong> 216 cm²</p></div></div>",
+    "familj": "Proportionalitet och skala",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 216,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Både bredden och höjden förstoras. Hur många gånger större blir arean?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "cm²",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1041",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En läckande kran droppar en droppe per sekund. 20 droppar är 1 ml. Hur många liter vatten läcker ut på ett år (365 dygn)? Avrunda till tiotal liter.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Sekunder på ett år: \\(365\\cdot24\\cdot3\\,600=31\\,536\\,000\\).</p><p>\\[\\frac{31\\,536\\,000}{20}=1\\,576\\,800\\ \\text{ml}\\approx1\\,577\\ \\text{liter}\\approx1\\,580\\ \\text{liter}\\]</p><p><strong>Svar:</strong> 1580 liter</p></div></div>",
+    "familj": "Proportionalitet i problemlösning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1580,
+    "tolerans": 5,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många sekunder är ett år? Hur många milliliter blir det?</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "liter",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1042",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett tal ökas med sin fjärdedel och blir då 45. Vilket var talet?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Talet plus en fjärdedel av talet är \\(\\frac54\\) av talet:</p><p>\\[\\frac54x=45\\quad\\Longrightarrow\\quad x=45\\cdot\\frac45=36\\]</p><p><strong>Svar:</strong> 36</p></div></div>",
+    "familj": "Problemlösning med bråk",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Hur stor del av talet får man om man lägger till en fjärdedel?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1043",
+    "kap": 0,
+    "omr": "brakrakning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Hur många av bråken \\(\\frac12,\\ \\frac13,\\ \\frac14,\\ \\ldots,\\ \\frac1{20}\\) blir ett decimaltal med ändligt många decimaler (som \\(\\frac14=0{,}25\\), men inte som \\(\\frac13=0{,}333\\ldots\\))?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett bråk \\(\\frac1n\\) har ändligt många decimaler om det kan förlängas till en nämnare som är 10, 100, 1 000 och så vidare. Det går bara om nämnaren inte har några andra primfaktorer än 2 och 5.</p><p>Bland 2–20 gäller det för 2, 4, 5, 8, 10, 16 och 20.</p><p><strong>Svar:</strong> 7</p></div></div>",
+    "familj": "Bråk och decimalform",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Vilka nämnare kan förlängas till 10, 100 eller 1 000? Vilka primfaktorer har de?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.1044",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Medeltemperaturen under fem dagar var \\(-2{,}4\\,^\\circ\\mathrm{C}\\). De fyra första dagarna var temperaturen \\(-5\\), \\(-1\\), \\(2\\) och \\(-3\\,^\\circ\\mathrm{C}\\). Vilken temperatur var det den femte dagen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Summan av alla fem temperaturer är \\(5\\cdot(-2{,}4)=-12\\). De fyra första har summan \\(-5-1+2-3=-7\\).</p><p>\\[-12-(-7)=-5\\]</p><p><strong>Svar:</strong> −5 °C</p></div></div>",
+    "familj": "Mönster och medelvärden med negativa tal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Medelvärde gånger antal ger summan.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "°C",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1045",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Rutorna i \\(2\\;\\square\\;3\\;\\square\\;4\\) ska fyllas med något av tecknen \\(+\\), \\(-\\) och \\(\\cdot\\). Samma tecken får användas i båda rutorna. Hur många olika värden kan uttrycket få?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Det finns \\(3\\cdot3=9\\) sätt att fylla rutorna. Med räkneordningen blir värdena:</p><ul><li>\\(2+3+4=9\\), \\(2+3-4=1\\), \\(2+3\\cdot4=14\\)</li><li>\\(2-3+4=3\\), \\(2-3-4=-5\\), \\(2-3\\cdot4=-10\\)</li><li>\\(2\\cdot3+4=10\\), \\(2\\cdot3-4=2\\), \\(2\\cdot3\\cdot4=24\\)</li></ul><p>Alla nio värden är olika.</p><p><strong>Svar:</strong> 9</p></div></div>",
+    "familj": "Sätta in parenteser och räknetecken",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Hur många kombinationer finns det? Räkna ut alla och se om några blir lika.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1046",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket tal ska multipliceras med 0,4 för att produkten ska bli 1,2?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{1{,}2}{0{,}4}=\\frac{12}{4}=3\\]</p><p>Kontroll: \\(3\\cdot0{,}4=1{,}2\\).</p><p><strong>Svar:</strong> 3</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Dividera 1,2 med 0,4.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1047",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Talen 0,7, 0,07, 0,707 och 0,77 ordnas från störst till minst. Vilket tal kommer på andra plats?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv talen med tre decimaler: 0,700, 0,070, 0,707 och 0,770.</p><p>Från störst till minst: 0,770, 0,707, 0,700, 0,070.</p><p><strong>Svar:</strong> 0,707</p></div></div>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.707,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Skriv alla tal med lika många decimaler.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1048",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Hur många gånger större är 3,6 än 0,036?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[\\frac{3{,}6}{0{,}036}=\\frac{3\\,600}{36}=100\\]</p><p><strong>Svar:</strong> 100</p></div></div>",
+    "familj": "Positionsvärde i decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "ledtrad": "<p>Hur många platser har siffrorna flyttat?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1049",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(0{,}2\\cdot0{,}3\\cdot0{,}5\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[0{,}2\\cdot0{,}3=0{,}06\\qquad0{,}06\\cdot0{,}5=0{,}03\\]</p><p><strong>Svar:</strong> 0,03</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.03,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Räkna först \\(2\\cdot3\\cdot5\\). Hur många decimaler har faktorerna tillsammans?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1050",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Hur många tal med exakt tre decimaler ligger mellan 1,2 och 1,23? Talen 1,2 och 1,23 räknas inte med.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Skriv gränserna med tre decimaler: 1,200 och 1,230. Emellan ligger 1,201, 1,202, …, 1,229.</p><p>\\[229-201+1=29\\]</p><p><strong>Svar:</strong> 29</p></div></div>",
+    "familj": "Jämföra och ordna decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 29,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Skriv båda talen med tre decimaler.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1051",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett tal fördubblas, och sedan dras 0,35 bort. Resultatet blir 1,05. Vilket var talet?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Räkna baklänges: lägg tillbaka 0,35 och halvera.</p><p>\\[\\frac{1{,}05+0{,}35}{2}=\\frac{1{,}4}{2}=0{,}7\\]</p><p><strong>Svar:</strong> 0,7</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.7,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Gör stegen i omvänd ordning.</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1052",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett tal mellan 0 och 1 har två decimaler. Hundradelssiffran är 3 större än tiondelssiffran, och summan av de två siffrorna är 11. Vilket är talet?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kalla tiondelssiffran \\(t\\). Då är hundradelssiffran \\(t+3\\):</p><p>\\[t+(t+3)=11\\quad\\Longrightarrow\\quad t=4\\]</p><p>Hundradelssiffran är 7, och talet är 0,47.</p><p><strong>Svar:</strong> 0,47</p></div></div>",
+    "familj": "Positionsvärde i decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.47,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Kalla tiondelssiffran \\(t\\). Hur skriver du hundradelssiffran?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1053",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>När man beräknar \\(1\\div7\\) får man 0,142857142857…, där siffrorna 142857 upprepas om och om igen. Vilken siffra står på den hundrade decimalplatsen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Mönstret har sex siffror. \\(100=16\\cdot6+4\\), så efter 16 hela varv kommer man till den fjärde siffran i mönstret.</p><p>Den fjärde siffran i 142857 är 8.</p><p><strong>Svar:</strong> 8</p></div></div>",
+    "familj": "Positionsvärde i decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Hur många siffror har mönstret? Vilken rest får du när du delar 100 med det?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.1054",
+    "kap": 0,
+    "omr": "decimaltal_positionssystem",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Två tal med en decimal vardera har summan 1,3 och produkten 0,36. Vilket är det största av talen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Pröva tal med en decimal vars summa är 1,3: 0,4 och 0,9 ger \\(0{,}4\\cdot0{,}9=0{,}36\\).</p><p>Andra par ger fel produkt, till exempel \\(0{,}5\\cdot0{,}8=0{,}40\\) och \\(0{,}3\\cdot1{,}0=0{,}30\\).</p><p><strong>Svar:</strong> 0,9</p></div></div>",
+    "familj": "Räkna med decimaltal",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.9,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Tänk i tiondelar: summan är 13 tiondelar och produkten 36 hundradelar. Vilka två heltal har summan 13 och produkten 36?</p>",
+    "svarFormat": "decimalform",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.1055",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett A4-papper är ungefär 0,1 mm tjockt. Ungefär hur många papper behövs för en trave som är 1 m hög?</p><p>A: 1 000<br>B: 10 000<br>C: 100 000<br>D: 1 000 000</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>1 m är 1 000 mm. Varje millimeter rymmer 10 papper:</p><p>\\[1\\,000\\cdot10=10\\,000\\]</p><p><strong>Svar:</strong> B: ungefär 10 000</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många millimeter är en meter? Hur många papper går det på en millimeter?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1056",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ungefär hur många tandborstar köps i Sverige varje år? Anta att Sverige har 10 miljoner invånare och att alla byter tandborste var tredje månad.</p><p>A: 4 miljoner<br>B: 40 miljoner<br>C: 400 miljoner<br>D: 4 miljarder</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Var tredje månad betyder 4 tandborstar per person och år.</p><p>\\[4\\cdot10\\,000\\,000=40\\,000\\,000\\]</p><p><strong>Svar:</strong> B: ungefär 40 miljoner</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många tandborstar använder en person på ett år?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1057",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett klassrum är 8 m långt, 7 m brett och 3 m högt. Ungefär hur många liter luft finns i rummet?</p><p>A: 1 700 liter<br>B: 17 000 liter<br>C: 170 000 liter<br>D: 1,7 miljoner liter</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Volymen är \\(8\\cdot7\\cdot3=168\\) m³. En kubikmeter är 1 000 liter, så det blir 168 000 liter, alltså ungefär 170 000 liter.</p><p><strong>Svar:</strong> C: ungefär 170 000 liter</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Beräkna volymen i m³. Hur många liter är 1 m³?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1058",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Det är ungefär 600 km från Malmö till Stockholm. Ungefär hur många steg tar det att gå hela vägen, om ett steg är 70 cm?</p><p>A: 86 000<br>B: 860 000<br>C: 8,6 miljoner<br>D: 86 miljoner</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>600 km är 600 000 m. Ett steg är 0,7 m:</p><p>\\[\\frac{600\\,000}{0{,}7}\\approx860\\,000\\]</p><p><strong>Svar:</strong> B: ungefär 860 000 steg</p></div></div>",
+    "familj": "Överslag i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Gör om båda längderna till meter.</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1059",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ungefär hur många sekunder har en person levt när hon fyller 16 år?</p><p>A: 5 miljoner<br>B: 50 miljoner<br>C: 500 miljoner<br>D: 5 miljarder</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett år är ungefär 30 miljoner sekunder (\\(365\\cdot24\\cdot3\\,600\\approx31{,}5\\) miljoner).</p><p>\\[16\\cdot30\\,000\\,000\\approx500\\,000\\,000\\]</p><p><strong>Svar:</strong> C: ungefär 500 miljoner</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "val",
+    "rättSvar": "C",
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Hur många sekunder är ett år ungefär?</p>",
+    "svarFormat": "kort_text",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1060",
+    "kap": 0,
+    "omr": "overslag_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Kim uppskattar \\(396\\cdot0{,}248\\) med överslaget \\(400\\cdot0{,}25=100\\). Hur många procent för stort är överslaget jämfört med det exakta värdet? Avrunda till en decimal.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[396\\cdot0{,}248=98{,}208\\]</p><p>\\[\\frac{100-98{,}208}{98{,}208}\\approx0{,}018=1{,}8\\,\\%\\]</p><p>Båda faktorerna avrundades uppåt, 396 med ungefär 1 % och 0,248 med ungefär 0,8 %. Därför blir överslaget ungefär 1,8 % för stort.</p><p><strong>Svar:</strong> 1,8 %</p></div></div>",
+    "familj": "Överslag och rimlighetsbedömning",
+    "geogebra": false,
+    "miniräknare": true,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.8,
+    "tolerans": 0.05,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Beräkna det exakta värdet. Hur stor är skillnaden i förhållande till det exakta värdet?</p>",
+    "svarFormat": "decimalform",
+    "svarEnhet": "%",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.1061",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(7\\cdot8-2\\cdot(15-3\\cdot4)^2\\div3\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Parentesen: \\(15-12=3\\). Potensen: \\(3^2=9\\).</p><p>\\[56-2\\cdot9\\div3=56-18\\div3=56-6=50\\]</p><p><strong>Svar:</strong> 50</p></div></div>",
+    "familj": "Beräkna uttryck med parenteser",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Parentes, sedan potens, sedan multiplikation och division från vänster, sist subtraktion.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1062",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Du köper tre t-shirts för 149 kr styck och två par strumpor för 39 kr paret. Du betalar delvis med ett presentkort på 250 kr. Hur mycket återstår att betala?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[3\\cdot149+2\\cdot39-250=447+78-250=275\\]</p><p><strong>Svar:</strong> 275 kr</p></div></div>",
+    "familj": "Teckna och beräkna uttryck i vardagen",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 275,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "ledtrad": "<p>Teckna ett uttryck för hela köpet och dra sedan bort presentkortet.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "kr",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1063",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(48\\cdot25\\) i huvudet.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>25 är en fjärdedel av 100:</p><p>\\[48\\cdot25=\\frac{48}{4}\\cdot100=12\\cdot100=1\\,200\\]</p><p><strong>Svar:</strong> 1200</p></div></div>",
+    "familj": "Räknelagar och huvudräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1200,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>25 är en fjärdedel av 100.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1064",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(37\\cdot13+37\\cdot87\\) utan miniräknare.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Bryt ut den gemensamma faktorn 37:</p><p>\\[37\\cdot13+37\\cdot87=37\\cdot(13+87)=37\\cdot100=3\\,700\\]</p><p><strong>Svar:</strong> 3700</p></div></div>",
+    "familj": "Räknelagar och huvudräkning",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3700,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Båda produkterna har en gemensam faktor.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1065",
+    "kap": 0,
+    "omr": "tal_rakneordning",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Beräkna \\(1+2-3+4+5-6+7+8-9+\\ldots+28+29-30\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Dela upp i grupper om tre tal: \\((1+2-3)+(4+5-6)+\\ldots+(28+29-30)\\).</p><p>Grupperna har värdena 0, 3, 6, …, 27, alltså tio tal som ökar med 3.</p><p>\\[0+3+6+\\ldots+27=3\\cdot(0+1+2+\\ldots+9)=3\\cdot45=135\\]</p><p><strong>Svar:</strong> 135</p></div></div>",
+    "familj": "Räkna med prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 135,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "ledtrad": "<p>Dela upp i grupper om tre. Vilket värde får varje grupp?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "id": "0.1066",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(a^2-2ab+b^2\\) när \\(a=-3\\) och \\(b=4\\).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[(-3)^2-2\\cdot(-3)\\cdot4+4^2=9+24+16=49\\]</p><p>Man kan också se att uttrycket är \\((a-b)^2=(-7)^2=49\\).</p><p><strong>Svar:</strong> 49</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 49,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "ledtrad": "<p>Sätt in talen med parenteser runt. Vilket tecken får \\(-2\\cdot(-3)\\cdot4\\)?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1067",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Toppen av Mount Everest ligger 8 849 m över havet. Den djupaste punkten i Marianergraven ligger 10 935 m under havsytan. Hur stor är höjdskillnaden?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>\\[8\\,849-(-10\\,935)=8\\,849+10\\,935=19\\,784\\]</p><p><strong>Svar:</strong> 19 784 m</p></div></div>",
+    "familj": "Negativa tal i praktiska situationer",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 19784,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "ledtrad": "<p>Skriv djupet som ett negativt tal.</p>",
+    "svarFormat": "heltal",
+    "svarEnhet": "m",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "id": "0.1068",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>För hur många av heltalen \\(-5,\\ -4,\\ \\ldots,\\ 4,\\ 5\\) gäller att \\(x^3\\lt x\\)?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Pröva: \\(x=-2\\) ger \\(-8\\lt-2\\), sant. \\(x=-1\\) ger \\(-1\\lt-1\\), falskt. \\(x=0\\) och \\(x=1\\) ger likhet. För \\(x\\ge2\\) är \\(x^3\\) större än \\(x\\).</p><p>Olikheten gäller för \\(-5,\\ -4,\\ -3\\) och \\(-2\\).</p><p><strong>Svar:</strong> 4</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "ledtrad": "<p>Pröva några tal. Vad händer med negativa tal när de upphöjs till 3?</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "id": "0.1069",
+    "kap": 0,
+    "omr": "negativa_tal",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "t": "<p>Två tal har produkten \\(-12\\) och summan 1. Vad är summan av talens kvadrater?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Talen är 4 och \\(-3\\), eftersom \\(4\\cdot(-3)=-12\\) och \\(4+(-3)=1\\).</p><p>\\[4^2+(-3)^2=16+9=25\\]</p><p>Utan att hitta talen: \\(a^2+b^2=(a+b)^2-2ab=1-2\\cdot(-12)=25\\).</p><p><strong>Svar:</strong> 25</p></div></div>",
+    "familj": "Räkna med negativa tal och prioriteringsregler",
+    "geogebra": false,
+    "miniräknare": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "ledtrad": "<p>Hitta två tal med produkten −12 och summan 1.</p>",
+    "svarFormat": "heltal",
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "spel": true
   }
 ];

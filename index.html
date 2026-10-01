@@ -2522,6 +2522,7 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 .tchat-bubbla.visa{opacity:1;transform:none;pointer-events:auto}
 .tchat-namn{display:block;font-family:var(--ui,inherit);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accInk);margin-bottom:3px}
 .tchat-txt{margin:0}
+.tchat-knappar{display:flex;gap:6px;flex-wrap:wrap;margin-top:10px}
 .tchat-txt b{color:var(--ink)}
 .tchat-x{position:absolute;top:7px;right:7px;width:24px;height:24px;border:0;border-radius:7px;background:none;color:var(--ink3);
   font-size:16px;line-height:1;cursor:pointer}
@@ -4875,7 +4876,7 @@ function toggleChapter(kap,btn){
 /* Allmän framskrivning som i en kommandotolk. Text skrivs tecken för
    tecken; formler (KaTeX), bilder och figurer visas hela när de nås, så
    att matematiken aldrig syns halvfärdig. Höjden låses under tiden. */
-const SKRIV_HEL=".katex,.katex-display,img,svg,canvas,table,figure,mjx-container";
+const SKRIV_HEL=".katex,.katex-display,img,svg,canvas,table,figure,mjx-container,button";
 function skrivFram(el,{tecken=3,ms=14,markor=true}={}){
   if(!el) return Promise.resolve();
   if(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return Promise.resolve();
@@ -4951,7 +4952,7 @@ function tchatKlick(){
   if(b?.classList.contains("visa")) return tchatStang();
   tranarenSager(tchatSenast && Date.now()-tchatSenast.at<60000 ? tchatSenast.html : tchatLageText(),{html:true});
 }
-function tranarenSager(text,{html=false,ms=null}={}){
+function tranarenSager(text,{html=false,ms=null,kvar=false}={}){
   const el=tchatEl();
   el.classList.add("synlig");
   const b=el.querySelector(".tchat-bubbla"), p=el.querySelector(".tchat-txt"), av=el.querySelector(".tchat-av");
@@ -4963,7 +4964,7 @@ function tranarenSager(text,{html=false,ms=null}={}){
   clearTimeout(tchatTimer);
   const tid=ms ?? Math.max(5200,p.textContent.length*60);
   const ava=av.querySelector(".pt-avatar"); ava?.classList.add("pratar");
-  skrivFram(p,{tecken:1,ms:22}).then(()=>{ ava?.classList.remove("pratar"); clearTimeout(tchatTimer); tchatTimer=setTimeout(tchatStang,tid); });
+  skrivFram(p,{tecken:1,ms:22}).then(()=>{ ava?.classList.remove("pratar"); clearTimeout(tchatTimer); if(!kvar) tchatTimer=setTimeout(tchatStang,tid); });
 }
 function afterRender(){
   tchatLage();
@@ -8237,6 +8238,7 @@ function startCardLevel(key,nivaer){
 }
 function continueSession(){ const niva=state.focusNiva; beginSession(); state.focusNiva=niva; navRecord("training",true); nextTask(); }
 function nextTask(){
+  tchatStang();
   const t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
   noteNewLevel(t);
@@ -10908,6 +10910,14 @@ function hittaGenomgangForslag(t,cp){
   return {kap:String(kort.kap),kortNyckel:kort.key,familj:mal.familj,
     omrade:kort.name,rubrik:mal.genomgang?.rubrik||"genomgången"};
 }
+/* Tränaren föreslår genomgången i chattbubblan under passet. Bubblan
+   ligger kvar tills eleven väljer eller stänger den. */
+function tranarForeslarGenomgang(f){
+  if(!f || state.ggForslag!==f) return;
+  tranarenSager(`Du har haft några missar i <b>${esc(f.omrade)}</b>. Vill du läsa den korta genomgången ”${esc(f.rubrik)}” innan vi fortsätter?`
+    +`<span class="tchat-knappar"><button class="btn sm primary" onclick="tchatStang();oppnaForeslagenGenomgang()">Läs genomgången</button>`
+    +`<button class="btn sm quiet" onclick="tchatStang();avvisaGenomgangForslag()">Inte nu</button></span>`,{html:true,kvar:true});
+}
 function oppnaForeslagenGenomgang(){
   const f=state.ggForslag;
   if(!f) return;
@@ -11073,17 +11083,9 @@ function finishAttempt(resultat){
         <button class="btn primary" id="nextbtn" onclick="${last?'renderSessionDone()':'nextTask()'}">
           ${last?"Se passrapport":"Nästa uppgift"} <span aria-hidden="true">→</span>
         </button>
-      </div>
-      ${genomgangForslag?`<aside class="gg-forslag" id="gg-forslag">
-        ${KUNSKAP_IKON}
-        <div class="gg-forslag-text"><strong>Vill du reda ut det här först?</strong>
-          <small>Du har haft flera missar inom ${esc(genomgangForslag.omrade)}. Läs den korta genomgången ”${esc(genomgangForslag.rubrik)}”.</small></div>
-        <div class="gg-forslag-knappar">
-          <button class="btn sm primary" onclick="oppnaForeslagenGenomgang()">Läs genomgången</button>
-          <button class="btn sm quiet" onclick="avvisaGenomgangForslag()">Inte nu</button>
-        </div>
-      </aside>`:""}`;
+      </div>`;
     setTimeout(()=>document.getElementById("nextbtn")?.focus(),80);
+    if(genomgangForslag) setTimeout(()=>tranarForeslarGenomgang(genomgangForslag),700);
   }
 }
 

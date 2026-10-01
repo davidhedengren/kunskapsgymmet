@@ -1507,7 +1507,7 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .redo{margin-top:6px;font-family:var(--read);font-size:14.5px;line-height:1.5;color:var(--ink2);letter-spacing:0}
 .redo b{color:var(--ink)}
 
-.rowlist{display:grid;gap:6px}
+.rowlist{display:grid;grid-template-columns:minmax(0,1fr);gap:6px}
 .row{
   display:flex;align-items:center;gap:10px;padding:10px 3px;border-radius:10px;
   border:1px solid transparent;background:transparent;text-align:left;width:100%;font-size:13px;
@@ -1530,6 +1530,32 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
   background:var(--tone);box-shadow:0 0 0 2px var(--surface),0 0 9px -1px var(--tone)}
 .km.t-low{--tone:var(--km-lag)}.km.t-mid{--tone:var(--km-mitt)}.km.t-good{--tone:var(--km-hog)}
 @media (prefers-reduced-motion:reduce){.km i{transition:none}}
+.tmlista{display:grid}
+.tmgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:14px}
+.tmgrid .tm.tm-kort{padding:16px 18px;align-content:start}
+.dash.muduo{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:26px}
+@media (max-width:760px){.dash.muduo{grid-template-columns:minmax(0,1fr)}}
+.rankdetalj summary{cursor:pointer;list-style:none;margin:0}
+.rankdetalj summary::-webkit-details-marker{display:none}
+.rankdetalj summary h2:after{content:"›";display:inline-block;margin-left:8px;transition:transform .2s var(--ease)}
+.rankdetalj[open] summary h2:after{transform:rotate(90deg)}
+.rankdetalj[open] summary{margin-bottom:12px}
+.tm{padding:12px 0;display:grid;gap:7px}
+.tm+.tm{border-top:1px solid var(--hair)}
+.tm:first-child{padding-top:4px}
+.tm-topp{display:flex;align-items:center;gap:12px}
+.tm-namn{flex:1;min-width:0;font-weight:600;font-size:13.5px;line-height:1.3}
+.tm-rad{margin:0;font-family:var(--read);font-size:13.5px;line-height:1.5;color:var(--ink2)}
+.tm-extra{color:var(--ink3)}
+.tm-act{display:flex;flex-wrap:wrap;align-items:center;gap:4px 14px;margin-top:1px}
+.tm-go{font-size:13px;font-weight:650;color:var(--accInk);background:var(--accSoft);border-radius:10px;
+  padding:6px 11px;transition:background .2s var(--ease),transform .2s var(--ease)}
+.tm-go:hover{background:color-mix(in srgb,var(--acc) 20%,transparent)}
+.tm-go:hover span{display:inline-block;transform:translateX(2px);transition:transform .2s var(--ease)}
+.tm-lank{font-size:12.5px;font-weight:600;color:var(--ink3);padding:6px 0;text-decoration:underline;
+  text-decoration-color:var(--hair2);text-underline-offset:3px}
+.tm-lank:hover{color:var(--ink)}
+.tm-go:focus-visible,.tm-lank:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
 .empty{padding:16px;border:1px dashed var(--hair2);border-radius:14px;color:var(--ink3);font-size:13px;font-family:var(--read)}
 
 .pt{
@@ -3110,7 +3136,7 @@ function sparaPagaendePass(){
       done:state.sessionDone, target:state.sessionTarget,
       xp:state.sessionXp, ratt:state.sessionCorrect,
       passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
-      area:state.focusArea, family:state.focusFamily,
+      area:state.focusArea, family:state.focusFamily, niva:state.focusNiva||null,
       felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-60)
     }));
   }catch(_){}
@@ -3139,6 +3165,7 @@ function aterupptaPass(d){
   state.passTyp=d.passTyp||null;
   state.focusOmr=d.omr||null; state.focusNamn=d.namn||null;
   state.focusArea=d.area||null; state.focusFamily=d.family||null;
+  state.focusNiva=d.niva||null;
   state.felKo=d.felKo||null;
   state.lastIds=d.lastIds||[];
   state.answered=false; state.solutionShown=false; state.noXp=false;
@@ -3155,7 +3182,7 @@ const state={
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
   aktivRuta:0,
-  focusOmr:null, focusNamn:null, senasteUrsprung:[],
+  focusOmr:null, focusNamn:null, focusNiva:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   toppSort:"dag",
@@ -3326,7 +3353,7 @@ const navStack=[];
 function navDesc(view){
   return {view,course:state.course,track:state.track,
           area:state.focusArea,omr:state.focusOmr,namn:state.focusNamn,
-          family:state.focusFamily,pass:state.passTyp};
+          family:state.focusFamily,niva:state.focusNiva,pass:state.passTyp};
 }
 function navRecord(view,replace){
   stangKunskap();
@@ -3375,6 +3402,7 @@ async function navRestore(st){
   state.focusOmr=st.omr||null;
   state.focusNamn=st.namn||null;
   state.focusFamily=st.family||null;
+  state.focusNiva=st.niva||null;
   state.passTyp=st.pass||null;
   applyAccent();
   switch(st.view){
@@ -5635,7 +5663,153 @@ function kunskapsMatare(m){
   return `<span class="km ${ton}" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${p}"
     aria-valuetext="${ord}" aria-label="Kunskapsnivå: ${ord}" title="${ord}"><i data-w="${p}%"></i></span>`;
 }
+/* ===== Återkoppling i Träna mer på =====
+   Varje rad svarar på tre frågor: var står jag (mätaren), var spricker det
+   (en mening) och vad gör jag härnäst (en knapp). Allt bygger på data som
+   redan sparas: nivåstatistik per område, delmomentens mätvärden och
+   svarshistoriken med ledtrådar och tidpunkter. */
+const NIVA_NAMN={"1":"grunderna","2":"rutinuppgifterna","3":"tillämpningarna","4":"utmaningarna","5":"fördjupningen"};
+const TM_SVAG=.5, TM_SAKER=.62, TM_MIN_N=3, TM_REP_DAGAR=10;
+
+function kortNivaStat(kort,L){
+  let n=0,sum=0;
+  kort.omr.forEach(o=>{ const st=levelStatRead(o,L); const k=st.n||0; n+=k; sum+=(st.s||0)*k; });
+  return {n,s:n?sum/n:0};
+}
+const liten=t=>t?t.charAt(0).toLowerCase()+t.slice(1):t;
+function nivaSpann(L){ return L.length>1 ? `${L[0]}–${L[L.length-1]}` : L[0]; }
+
+function kortHistorik(kort){
+  const omr=new Set(kort.omr);
+  return (ensureCourseProfile().history||[]).filter(h=>h && omr.has(h.area));
+}
+
+/* Antal uppgifter som eleven först missade och sedan klarade. */
+function lagadeFel(hist){
+  const fel=new Set(), lagade=new Set();
+  hist.forEach(h=>{ if(!h.ok) fel.add(h.id); else if(fel.has(h.id)) lagade.add(h.id); });
+  return lagade.size;
+}
+
+function svagasteDelmoment(kort,hist){
+  const cp=ensureCourseProfile();
+  const forsok={};
+  hist.forEach(h=>{ [].concat(h.family||[]).forEach(f=>forsok[f]=(forsok[f]||0)+1); });
+  return cardFamilies(kort)
+    .map(f=>({family:f.family,m:cp.families[f.family],n:forsok[f.family]||0}))
+    .filter(x=>typeof x.m==="number" && x.n>=TM_MIN_N && x.m<TM_SVAG)
+    .sort((a,b)=>a.m-b.m)[0]||null;
+}
+
+function genomgangFinns(kort){
+  try{ return kunskapSteg(kort.kap,kort.key).length>0; }catch(_){ return false; }
+}
+
+function diagnosKort(kort){
+  const hist=kortHistorik(kort);
+  const st=Object.fromEntries(NIVAER.map(L=>[L,kortNivaStat(kort,L)]));
+  const provade=NIVAER.filter(L=>st[L].n>=TM_MIN_N);
+  const ut={rad:"",extra:"",knapp:null,genomgang:null};
+  const gg=genomgangFinns(kort);
+
+  // Repetition: området satt, men det var länge sedan.
+  const m=cardStatus(kort).m, sist=Math.max(0,...kort.omr.map(o=>senastTranad(o)||0));
+  const dagar=sist?Math.floor((Date.now()-sist)/864e5):0;
+  if(m>=TM_SAKER && dagar>=TM_REP_DAGAR){
+    ut.rad=`Det har gått ${dagar} dagar sedan du tränade här. En kort repetition gör att du minns det längre.`;
+    ut.knapp={text:"Repetera",on:`startCard('${esc(kort.key)}')`};
+    return ut;
+  }
+
+  // 1. Nivågräns: den lägsta nivå där det spricker.
+  const svag=provade.find(L=>st[L].s<TM_SVAG);
+  if(svag){
+    const under=provade.filter(L=>L<svag && st[L].s>=TM_SAKER);
+    if(under.length){
+      ut.rad=`Nivå ${nivaSpann(under)} sitter. Det är ${NIVA_NAMN[svag]} på nivå ${svag} som drar ned.`;
+      ut.knapp={text:`Träna nivå ${svag}`,on:`startCardLevel('${esc(kort.key)}','${svag}')`};
+    }else if(svag<="2"){
+      ut.rad="Grunderna sitter inte riktigt än. Börja där, så blir resten lättare.";
+      ut.knapp={text:"Träna nivå 1–2",on:`startCardLevel('${esc(kort.key)}','1,2')`};
+      if(gg) ut.genomgang=`oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}')`;
+    }else{
+      const ned=String(Number(svag)-1);
+      ut.rad=`Nivå ${svag} är svår just nu. Ta ett steg tillbaka till nivå ${ned} och bygg upp säkerheten där först.`;
+      ut.knapp={text:`Träna nivå ${ned}`,on:`startCardLevel('${esc(kort.key)}','${ned}')`};
+    }
+  }
+
+  // 2. Delmoment som drar ned.
+  const del=svagasteDelmoment(kort,hist);
+  if(del){
+    const namn=familyName(del.family);
+    if(!ut.rad){
+      ut.rad=`Det är delmomentet ${liten(namn)} som drar ned.`;
+      ut.knapp={text:"Träna delmomentet",on:`startCardFamily('${esc(kort.key)}','${esc(del.family)}')`};
+      if(gg) ut.genomgang=`oppnaKunskap('${esc(String(kort.kap))}','${esc(kort.key)}','${esc(del.family)}')`;
+    }else ut.extra=`Särskilt delmomentet ${liten(namn)}.`;
+  }
+
+  // 3. Ledtrådsberoende bland de senaste svaren.
+  const senaste=hist.slice(-12), ratt=senaste.filter(h=>h.ok);
+  if(ratt.length>=4 && ratt.filter(h=>h.hint).length/ratt.length>=.5){
+    const t="Du klarar mycket med ledtråd. Prova nästa uppgifter utan och se om det håller.";
+    if(!ut.rad){ ut.rad=t; ut.knapp={text:"Träna utan ledtråd",on:`startCard('${esc(kort.key)}')`}; }
+    else if(!ut.extra) ut.extra=t;
+  }
+
+  // Beröm av arbetssättet: misstag som har lagats.
+  const lagade=lagadeFel(hist);
+  if(!ut.extra && lagade>=2) ut.extra=`Bra jobbat med att rätta: ${lagade} uppgifter som du först missade har du nu klarat.`;
+
+  if(!ut.rad){
+    const totalt=NIVAER.reduce((x,L)=>x+st[L].n,0);
+    ut.rad = totalt<8
+      ? "Gör några uppgifter till, så blir återkopplingen mer träffsäker."
+      : "Ingen enskild nivå sticker ut. Blandad träning i området är bästa nästa steg.";
+  }
+  if(!ut.knapp) ut.knapp={text:"Träna området",on:`startCard('${esc(kort.key)}')`};
+  return ut;
+}
+
+/* Vilka områden som visas: de svagaste som inte redan är starka, och
+   ett område som behöver repeteras om det finns ett sådant. */
+function tranaMerKort(antal=3){
+  const alla=getCards();
+  const svaga=rankedCards(alla.length,1).filter(x=>x.m<.78).slice(0,antal);
+  const nu=Date.now();
+  const rep=alla.filter(k=>{
+    const st=cardStatus(k); if(!st.seen || st.m<TM_SAKER) return false;
+    const sist=Math.max(0,...k.omr.map(o=>senastTranad(o)||0));
+    return sist && (nu-sist)/864e5>=TM_REP_DAGAR && !svaga.some(x=>x.key===k.key);
+  }).sort((a,b)=>cardStatus(b).m-cardStatus(a).m)[0];
+  const lista=svaga.map(x=>alla.find(k=>k.key===x.key)).filter(Boolean);
+  if(rep){ if(lista.length>=antal) lista[antal-1]=rep; else lista.push(rep); }
+  return lista;
+}
+
+function tranaMerHTML(antal=3,somKort=false){
+  const kort=tranaMerKort(antal);
+  if(!kort.length) return `<div class="empty">När du har tränat några uppgifter visas här vad du kan göra härnäst.</div>`;
+  return kort.map(k=>{
+    const d=diagnosKort(k), m=cardStatus(k).m;
+    return `<div class="tm${somKort?" card pad tm-kort":""}">
+      <div class="tm-topp"><span class="tm-namn">${esc(k.name)}</span>${kunskapsMatare(m)}</div>
+      <p class="tm-rad">${esc(d.rad)}${d.extra?` <span class="tm-extra">${esc(d.extra)}</span>`:""}</p>
+      <div class="tm-act">
+        <button class="tm-go" onclick="${d.knapp.on}">${esc(d.knapp.text)} <span aria-hidden="true">→</span></button>
+        ${d.genomgang?`<button class="tm-lank" onclick="${d.genomgang}" aria-label="Se genomgången för ${esc(k.name)}">Genomgång</button>`:""}
+      </div>
+    </div>`;
+  }).join("");
+}
 function weakCards(limit=4){ return rankedCards(limit,1); }
+function sakraKort(limit=5){ return rankedCards(getCards().length,-1).filter(x=>x.m>=TM_SAKER).slice(0,limit); }
+function delmomentAttTrana(limit=5){
+  const forsok={};
+  (ensureCourseProfile().history||[]).forEach(h=>[].concat(h.family||[]).forEach(f=>forsok[f]=(forsok[f]||0)+1));
+  return weakFamilies(40).filter(x=>(forsok[x.family]||0)>=TM_MIN_N && x.m<.55).slice(0,limit);
+}
 function strongCards(limit=4){ return rankedCards(limit,-1); }
 
 function weakFamilies(limit=8){
@@ -6193,11 +6367,7 @@ function renderDashboard(){
 
         <div class="card pad">
           <div class="sec"><h2>Träna mer på</h2></div>
-          <div class="rowlist">
-            ${weak.length?weak.map(x=>`<button class="row" onclick="startCard('${esc(x.key)}')">
-              <span class="dot warn"></span><span class="name">${esc(x.name)}</span>${kunskapsMatare(x.m)}
-            </button>`).join(""):`<div class="empty">Här visas områden som behöver mer träning.</div>`}
-          </div>
+          <div class="tmlista">${tranaMerHTML()}</div>
         </div>
       </aside>
     </div>
@@ -6569,6 +6739,11 @@ function chooseTask(){
     });
   }
   if(!pool.length) return null;
+  if(state.focusNiva){
+    const vill=[].concat(state.focusNiva).map(String);
+    const pa=pool.filter(t=>vill.includes(levelOf(t)));
+    if(pa.length) pool=pa;
+  }
 
   const cp=ensureCourseProfile();
   const sedda=lasSedda();
@@ -6622,6 +6797,7 @@ function beginSession(typ){
   rensaPagaendePass();
   state.sessionDone=0;state.lastIds=[];state.sessionXp=0;state.sessionCorrect=0;
   state.passAvslutat=false;state.passBonus=0;
+  state.focusNiva=null;
 
   state.sessionTarget=(PASS[state.passTyp]||{}).antal || profile.goal || 8;
 }
@@ -6819,7 +6995,21 @@ function startCardFamily(cardKey,family){
   navRecord("training");
   nextTask();
 }
-function continueSession(){ beginSession(); navRecord("training",true); nextTask(); }
+/* Startar ett kort pass i ett område på bestämda träningsnivåer.
+   Används av återkopplingen i Träna mer på. */
+function startCardLevel(key,nivaer){
+  const kort=getCards().find(k=>k.key===key);
+  if(!kort) return;
+  const L=String(nivaer).split(",").filter(x=>NIVAER.includes(x));
+  if(!L.length) return startCard(key);
+  state.focusArea=null; state.focusOmr=[...kort.omr];
+  state.focusNamn=`${kort.name} · nivå ${L.length>1?L[0]+"–"+L[L.length-1]:L[0]}`;
+  state.focusFamily=null;
+  beginSession();
+  state.focusNiva=L; state.sessionTarget=6;
+  navRecord("training"); nextTask();
+}
+function continueSession(){ const niva=state.focusNiva; beginSession(); state.focusNiva=niva; navRecord("training",true); nextTask(); }
 function nextTask(){
   const t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
@@ -10159,7 +10349,7 @@ function showProgress(record){
   if(!state.course) return renderHome();
   if(record!==false) navRecord("progress");
   state.view="progress";
-  const strong=strongCards(5), weak=weakCards(5), families=weakFamilies(8);
+  const strong=sakraKort(5), families=delmomentAttTrana(5);
   const lp=levelProgress(), rank=rankFor(lp.level), nxt=nextRank(lp.level);
   const acc=profile.attempts?Math.round(profile.correct/profile.attempts*100):0;
   const st=currentStreak();
@@ -10194,19 +10384,8 @@ function showProgress(record){
       </div>
     </div>
 
-    <div class="card pad" style="margin-bottom:20px">
-      <div class="sec"><h2>Rankerna</h2></div>
-      <ol class="rankstege">
-        ${RANKS.map(r=>{
-          const nadd=lp.level>=r.lvl, nu=rank.name===r.name;
-          return `<li class="${nadd?"nadd":""}${nu?" nu":""}">
-            <span class="rsym">${esc(r.sym)}</span>
-            <span class="rnamn">${esc(r.name)}</span>
-            <span class="rlvl">${nadd?"klarad":"nivå "+r.lvl}</span>
-          </li>`;
-        }).join("")}
-      </ol>
-    </div>
+    <div class="sec"><h2>Ditt nästa steg</h2></div>
+    <div class="tmgrid" style="margin-bottom:26px">${tranaMerHTML(3,true)}</div>
 
     ${(()=>{
       const kurs=courseProgress(), kap=chapterProgress();
@@ -10278,6 +10457,26 @@ function showProgress(record){
       </div>`;
     })()}
 
+    <div class="dash muduo">
+      <div class="card pad">
+        <div class="sec"><h2>Det här går bra</h2></div>
+        <div class="rowlist">
+          ${strong.length?strong.map(x=>`<button class="row" onclick="startCard('${esc(x.key)}')">
+            <span class="dot good"></span><span class="name">${esc(x.name)}</span>${kunskapsMatare(x.m)}
+          </button>`).join(""):`<div class="empty">Här visas områden där det går bra. Fortsätt träna, så fylls listan på.</div>`}
+        </div>
+      </div>
+      <div class="card pad">
+        <div class="sec"><h2>Delmoment att punktträna</h2></div>
+        <div class="rowlist">
+          ${families.length?families.map(x=>`<button class="row" onclick="startCardFamily('${esc(x.card.key)}','${esc(x.family)}')"
+              title="${esc(x.card.name)}">
+            <span class="dot warn"></span><span class="name">${esc(familyName(x.family))}</span>${kunskapsMatare(x.m)}
+          </button>`).join(""):`<div class="empty">Inget delmoment sticker ut just nu.</div>`}
+        </div>
+      </div>
+    </div>
+
     <div class="sec"><h2>Medaljer</h2>
       <span class="rankmeta">${BADGES.filter(b=>badgeState(b).on).length} av ${BADGES.length}</span></div>
     <div class="badgegrid stagger hopfalld" id="badgegrid" style="margin-bottom:12px">
@@ -10297,34 +10496,19 @@ function showProgress(record){
       <button class="btn sm" id="badgeknapp" onclick="vaxlaMedaljer()"></button>
     </div>
 
-    <div class="dash" style="grid-template-columns:1fr 1fr">
-      <div class="card pad">
-        <div class="sec"><h2>Starkt just nu</h2></div>
-        <div class="rowlist">
-          ${strong.length?strong.map(x=>`<button class="row" onclick="startCard('${esc(x.key)}')">
-            <span class="dot good"></span><span class="name">${esc(x.name)}</span>${kunskapsMatare(x.m)}
-          </button>`).join(""):`<div class="empty">Träna några uppgifter först.</div>`}
-        </div>
-      </div>
-      <div class="card pad">
-        <div class="sec"><h2>Prioriteras framåt</h2></div>
-        <div class="rowlist">
-          ${weak.length?weak.map(x=>`<button class="row" onclick="startCard('${esc(x.key)}')">
-            <span class="dot warn"></span><span class="name">${esc(x.name)}</span>${kunskapsMatare(x.m)}
-          </button>`).join(""):`<div class="empty">Ingen data ännu.</div>`}
-        </div>
-      </div>
-    </div>
-
-    <div class="sec" style="margin-top:22px"><h2>Delmoment att punktträna</h2></div>
-    <div class="card pad">
-      <div class="rowlist">
-        ${families.length?families.map(x=>`<button class="row" onclick="startCardFamily('${esc(x.card.key)}','${esc(x.family)}')">
-          <span class="dot warn"></span><span class="name">${esc(familyName(x.family))}</span>
-          <span class="val">${esc(x.card.name)}</span>${kunskapsMatare(x.m)}
-        </button>`).join(""):`<div class="empty">Den här banken saknar familjetaggar, eller så finns ingen data ännu.</div>`}
-      </div>
-    </div>
+    <details class="card pad rankdetalj" style="margin-top:22px">
+      <summary class="sec"><h2>Alla rankerna</h2><span class="rankmeta">Du är ${esc(rank.name)}</span></summary>
+      <ol class="rankstege">
+        ${RANKS.map(r=>{
+          const nadd=lp.level>=r.lvl, nu=rank.name===r.name;
+          return `<li class="${nadd?"nadd":""}${nu?" nu":""}">
+            <span class="rsym">${esc(r.sym)}</span>
+            <span class="rnamn">${esc(r.name)}</span>
+            <span class="rlvl">${nadd?"klarad":"nivå "+r.lvl}</span>
+          </li>`;
+        }).join("")}
+      </ol>
+    </details>
   </main>`;
   afterRender();
   passaMedaljrutor();

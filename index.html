@@ -509,6 +509,28 @@ a{color:inherit}
 .toppnotis .btn{flex:none}
 
 .flikar{display:flex;gap:7px;flex-wrap:wrap}
+.klassrad{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:-4px 0 16px;font-size:13.5px;color:var(--ink2)}
+.toppvy{display:inline-flex;padding:3px;border-radius:12px;background:var(--surface2);border:1px solid var(--hair);margin-bottom:12px}
+.toppvy button{padding:7px 16px;border-radius:9px;font-size:13px;font-weight:650;color:var(--ink3)}
+.toppvy button.pa{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(11,33,51,.12)}
+.toppvy button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.klasslista .kblock{list-style:none;border-bottom:1px solid var(--hair)}
+.klasslista .kblock:last-child{border-bottom:0}
+.klasslista .krad{width:100%;text-align:left;border-bottom:0;cursor:pointer}
+.klasslista .krad:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:10px}
+.klasslista .krad .mu-chev{margin-left:4px}
+.klasslista .krad[aria-expanded="true"] .mu-chev{transform:rotate(225deg) translate(-2px,-2px)}
+.klasselever{padding:0 6px 12px 48px}
+.klasselever ol,.klasselever{list-style:none}
+ol.klasselever{margin:0;padding:0}
+.klasselever li{display:grid;grid-template-columns:22px minmax(0,1fr) auto auto;gap:10px;align-items:baseline;padding:6px 0;font-size:13.5px}
+.klasselever li+li{border-top:1px solid var(--hair)}
+.klasselever li.jag{font-weight:650}
+.klasselever .plats{color:var(--ink3);font-weight:650;text-align:right}
+.klasselever .knamn{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.klasselever .kuppg{font-size:12px;color:var(--ink3)}
+.klasselever .kxp{font-weight:650;font-variant-numeric:tabular-nums}
+@media (max-width:560px){.klasselever{padding-left:10px}}
 .fliknapp{
   padding:8px 15px;border-radius:99px;font-size:13px;font-weight:600;
   border:1px solid var(--hair);background:var(--surface);color:var(--ink2);
@@ -1995,6 +2017,19 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .admin-flikar button{padding:7px 12px;border-radius:99px;border:1px solid var(--hair);background:var(--surface2);font-size:12.5px;font-weight:650;color:var(--ink2)}
 .admin-flikar button.pa{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
 .admin-verktyg{display:flex;gap:8px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
+.aklass{border:1px solid var(--hair);border-radius:14px;padding:4px 14px;margin-bottom:8px;background:var(--surface)}
+.aklass summary{display:flex;align-items:center;gap:10px;padding:10px 0;cursor:pointer;list-style:none}
+.aklass summary::-webkit-details-marker{display:none}
+.aklass summary b{font-size:14px}
+.aklass-antal{margin-left:auto;font-size:12px;color:var(--ink3);font-weight:600}
+.aklass-verktyg{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:4px 0 10px;border-bottom:1px solid var(--hair);margin-bottom:4px}
+.admin-sok.aklass-ordning{flex:0 0 80px;min-width:0}
+.aklass-elev{display:flex;align-items:center;gap:10px;justify-content:space-between;padding:8px 0;border-top:1px solid var(--hair)}
+.aklass-elev:first-of-type{border-top:0}
+.aklass-elev span{min-width:0;display:grid}
+.aklass-elev b{font-size:13.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.aklass-elev small{font-size:12px;color:var(--ink3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.aklass-elev select{flex:0 0 auto;min-width:130px}
 .admin-sok{flex:1;min-width:190px;padding:9px 12px;border:1px solid var(--hair);border-radius:12px;background:var(--surface2);color:var(--ink);font:inherit;font-size:13px}
 .admin-filter{flex:0 1 175px;min-width:145px}
 .admin-lista{display:flex;flex-direction:column;gap:8px}
@@ -2889,6 +2924,7 @@ function sbHeaders(auth){
 
 function sparaSession(s){
   session=s;
+  if(typeof state!=="undefined") state.minKlass=undefined;
   try{ s ? localStorage.setItem(SESSION_KEY,JSON.stringify(s))
          : localStorage.removeItem(SESSION_KEY); }catch(_){}
 }
@@ -3310,7 +3346,7 @@ const state={
   focusOmr:null, focusNamn:null, focusNiva:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
-  toppSort:"dag",
+  toppSort:"dag", toppVy:"elever", minKlass:undefined,
   lastIds:[], solutionShown:false, answered:false, ggForslag:null,
   altValda:null, altMiss:null, altOrdning:null, altOrdningId:null,
   kalla:null
@@ -3407,6 +3443,92 @@ async function claimaNamn(namn){
   if(fel) return {ok:false,fel};
   return saveLeaderboardSettings(String(namn).trim(),profile.visaTopplista);
 }
+/* ===== Klasser =====
+   Databasfunktionerna finns i sql/2026-10-01-klasser.sql. Eleven väljer
+   själv klass ur en lista (byte högst en gång per vecka), admin hanterar
+   klasserna och kan flytta elever. Klassen "Lärare" kräver lärarkonto. */
+async function klassRpc(namn,kropp={},inloggad=true){
+  if(!MOLN_PA()) return null;
+  const med = inloggad && !!session && await giltigSession();
+  try{
+    const r=await fetch(SUPABASE_URL+"/rest/v1/rpc/"+namn,{method:"POST",headers:sbHeaders(med),body:JSON.stringify(kropp)});
+    if(!r.ok) return r.status===404?{saknas:true}:null;
+    return await r.json();
+  }catch(_){ return null; }
+}
+async function laddaMinKlass(){
+  if(!session){ state.minKlass=null; return null; }
+  const k=await klassRpc("kg_min_klass");
+  /* false = klasserna är inte installerade i databasen; då visas ingen klassrad. */
+  state.minKlass=k?.saknas ? false : (k && k.id) ? k : null;
+  return state.minKlass;
+}
+async function oppnaKlassval(){
+  if(!session){ loggaIn(); return; }
+  const lista=await klassRpc("kg_klasser",{},false);
+  if(!Array.isArray(lista)){ toast(lista?.saknas?"Klasserna är inte aktiverade än.":"Kunde inte hämta klasserna just nu."); return; }
+  if(state.minKlass===undefined) await laddaMinKlass();
+  const min=state.minKlass?.id;
+  document.getElementById("klassval")?.remove();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="klassval";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Välj klass">
+      <div class="modal-topp">
+        <div><div class="lbl">Topplistan</div><h2>Välj din klass</h2></div>
+        <button class="iconbtn" onclick="stangKlassval()" aria-label="Stäng">✕</button>
+      </div>
+      <p class="modal-text">Din XP räknas för klassen. Du kan byta klass en gång i veckan.</p>
+      ${lista.length?`<div class="valgrid">${lista.map(k=>`<button class="valruta${k.id===min?" vald":""}" onclick="valjKlass(${Number(k.id)})">
+          <span class="kryss" aria-hidden="true"></span>
+          <span class="valnamn">${esc(k.namn)}</span>
+          ${k.larare?`<span class="valstate">För lärare</span>`:""}
+        </button>`).join("")}</div>`:`<div class="empty">Det finns inga klasser än.</div>`}
+      <div class="modal-fot">${min?`<button class="btn quiet sm" onclick="valjKlass(null)">Lämna klassen</button>`:""}<span class="spacer"></span>
+        <button class="btn" onclick="stangKlassval()">Stäng</button></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangKlassval(); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+function stangKlassval(){
+  const el=document.getElementById("klassval"); if(!el) return;
+  el.removeAttribute("id"); el.classList.remove("visa"); setTimeout(()=>el.remove(),250);
+}
+async function valjKlass(id){
+  const svar=await klassRpc("kg_valj_klass",{p_klass:id});
+  if(!svar || svar.saknas){ toast("Kunde inte spara klassen just nu."); return; }
+  if(!svar.ok){
+    const fel={for_tidigt:`Du kan byta klass igen ${svar.tidigast?new Date(svar.tidigast).toLocaleDateString("sv-SE",{day:"numeric",month:"long"}):"om en vecka"}.`,
+      larare_kravs:"Klassen Lärare är bara för lärarkonton.",okand_klass:"Klassen finns inte längre.",ej_inloggad:"Logga in för att välja klass."}[svar.code];
+    toast(fel||"Kunde inte byta klass."); return;
+  }
+  await laddaMinKlass();
+  stangKlassval();
+  toast(state.minKlass?`Du är med i ${state.minKlass.namn}.`:"Du är inte med i någon klass nu.");
+  if(state.view==="topplista") oppnaTopplista(state.toppSort,false);
+}
+async function hamtaKlasstopplista(period){
+  const d=await klassRpc("topplista_klasser",{p_period:period},true);
+  if(!d) return null;
+  if(d.saknas) return {saknas:true};
+  return {rader:Array.isArray(d.rader)?d.rader:[],tak:d.tak,minKlass:d.min_klass??null};
+}
+async function vaxlaKlassElever(id){
+  const box=document.getElementById("klasselever-"+id);
+  const rad=document.querySelector(`[data-klass="${id}"]`);
+  if(!box) return;
+  if(!box.hidden){ box.hidden=true; rad?.setAttribute("aria-expanded","false"); return; }
+  box.hidden=false; rad?.setAttribute("aria-expanded","true");
+  box.innerHTML=`<div class="toppladdar">Hämtar klassen…</div>`;
+  const d=await klassRpc("topplista_klass_elever",{p_klass:id,p_period:state.toppSort},true);
+  const rader=Array.isArray(d?.rader)?d.rader:null;
+  box.innerHTML = !rader ? `<div class="empty">Kunde inte hämta klassen just nu.</div>`
+    : !rader.length ? `<div class="empty">Ingen i klassen har valt att synas på topplistan.</div>`
+    : `<ol class="klasselever">${rader.map((r,i)=>`<li class="${profile.namn&&r.namn===profile.namn?"jag":""}">
+        <span class="plats">${i+1}</span><span class="knamn">${esc(r.namn)}</span>
+        <span class="kuppg">${Number(r.uppgifter)||0} uppg.</span><span class="kxp">${Number(r.xp)||0} XP</span></li>`).join("")}</ol>`;
+}
+
 async function vaxlaTopplista(pa){
   const reply=await saveLeaderboardSettings(profile.namn,pa);
   if(!reply.ok) toast(reply.fel);
@@ -4807,15 +4929,92 @@ function kgAdminRita(){
     <div class="admin-flikar">
       <button class="${kgAdminFlik==="anvandare"||kgAdminFlik==="detalj"?"pa":""}" onclick="kgAdminBytFlik('anvandare')">Användare</button>
       <button class="${kgAdminFlik==="rapporter"?"pa":""}" onclick="kgAdminBytFlik('rapporter')">Felrapporter</button>
+      <button class="${kgAdminFlik==="klasser"?"pa":""}" onclick="kgAdminBytFlik('klasser')">Klasser</button>
     </div>
     <div id="adminlista"></div>
     <div class="admin-notis">Online nu betyder heartbeat under de senaste två minuterna. Dagsstatistik använder svensk kalenderdag. Aktiv tid är en uppskattning från synliga heartbeat-signaler och räknas därför inte som exakt skärmtid.${har?"":" Kör SQL-filen för adminstatistik v8 för att börja samla dagsstatistik."}</div>`;
   kgAdminRitaLista();
 }
 
+/* ===== Admin: klasser ===== */
+let kgAdminKlassData=null;
+async function kgAdminRitaKlasser(host,ladda=true){
+  if(ladda || !kgAdminKlassData){
+    host.innerHTML='<p class="modal-text">Hämtar klasser…</p>';
+    try{ kgAdminKlassData=await kgAdminRpc("kg_admin_klasser"); }
+    catch(e){ host.innerHTML=`<p class="modal-text">${esc(/inte installerad/.test(e.message)?"Klasserna är inte aktiverade. Kör sql/2026-10-01-klasser.sql i Supabase.":e.message)}</p>`; return; }
+  }
+  const d=kgAdminKlassData, klasser=d.klasser||[];
+  const sok=(document.getElementById("admin-klass-sok")?.value||"").trim().toLowerCase();
+  const val=(uid,akt)=>`<select class="admin-sok admin-filter" aria-label="Klass" onchange="kgAdminSattKlass('${esc(uid)}',this.value)">
+      <option value="">Ingen klass</option>
+      ${klasser.map(k=>`<option value="${Number(k.id)}"${Number(k.id)===Number(akt)?" selected":""}>${esc(k.namn)}</option>`).join("")}
+    </select>`;
+  const elev=(e,akt)=>`<div class="aklass-elev"><span><b>${esc(e.namn||"")}</b><small>${esc(e.epost||"")} · ${Number(e.xp)||0} XP</small></span>${val(e.user_id,akt)}</div>`;
+  const matchar=e=>!sok || [e.namn,e.epost].some(v=>String(v||"").toLowerCase().includes(sok));
+  const utan=(d.utan_klass||[]).filter(matchar);
+  host.innerHTML=`
+    <div class="admin-verktyg">
+      <input class="admin-sok" id="admin-ny-klass" placeholder="Ny klass, t.ex. TE23B" maxlength="40"
+        onkeydown="if(event.key==='Enter')kgAdminNyKlass()">
+      <button class="btn sm primary" onclick="kgAdminNyKlass()">Lägg till klass</button>
+      <input class="admin-sok" id="admin-klass-sok" value="${esc(sok)}" placeholder="Sök elev" oninput="kgAdminRitaKlasser(document.getElementById('adminlista'),false)">
+    </div>
+    ${klasser.map(k=>{
+      const elever=(k.elever||[]).filter(matchar);
+      return `<details class="aklass"${sok&&elever.length?" open":""}>
+        <summary><b>${esc(k.namn)}</b>${k.larare&&k.namn.trim().toLowerCase()!=="lärare"?`<span class="pt-upp-chip">Lärarklass</span>`:""}<span class="aklass-antal">${(k.elever||[]).length} ${(k.elever||[]).length===1?"elev":"elever"}</span></summary>
+        <div class="aklass-verktyg">
+          <input class="admin-sok" id="aklass-namn-${Number(k.id)}" value="${esc(k.namn)}" maxlength="40" aria-label="Klassnamn">
+          <input class="admin-sok aklass-ordning" id="aklass-ord-${Number(k.id)}" type="number" value="${Number(k.ordning)||0}" aria-label="Ordning i listan" title="Ordning i listan">
+          <button class="btn sm" onclick="kgAdminSparaKlass(${Number(k.id)})">Spara</button>
+          ${k.larare?"":`<button class="btn sm quiet" onclick="kgAdminTaBortKlass(${Number(k.id)},'${esc(k.namn)}')">Ta bort</button>`}
+        </div>
+        ${elever.length?elever.map(e=>elev(e,k.id)).join(""):`<p class="modal-text">${sok?"Ingen träff i klassen.":"Inga elever i klassen än."}</p>`}
+      </details>`;
+    }).join("")}
+    <details class="aklass"${sok&&utan.length?" open":""}>
+      <summary><b>Utan klass</b><span class="aklass-antal">${(d.utan_klass||[]).length} ${(d.utan_klass||[]).length===1?"konto":"konton"}</span></summary>
+      ${utan.slice(0,200).map(e=>elev(e,null)).join("")||'<p class="modal-text">Inga konton.</p>'}
+      ${utan.length>200?`<p class="modal-text">Visar 200 av ${utan.length}. Sök för att hitta fler.</p>`:""}
+    </details>`;
+  const f=document.getElementById("admin-klass-sok");
+  if(f && sok){ f.focus(); f.setSelectionRange(f.value.length,f.value.length); }
+}
+async function kgAdminKlassAnrop(namn,kropp,klart){
+  try{
+    const r=await kgAdminRpc(namn,kropp);
+    if(r && r.ok===false){
+      toast({namn:"Skriv ett namn på 1–40 tecken.",namn_upptaget:"Det finns redan en klass med det namnet.",
+        lararklass:"Klassen Lärare kan inte tas bort.",okand_klass:"Klassen finns inte längre."}[r.code]||"Det gick inte att spara.");
+      return;
+    }
+    if(klart) toast(klart);
+    await kgAdminRitaKlasser(document.getElementById("adminlista"));
+  }catch(e){ toast(e.message); }
+}
+function kgAdminNyKlass(){
+  const namn=(document.getElementById("admin-ny-klass")?.value||"").trim();
+  if(!namn) return;
+  kgAdminKlassAnrop("kg_admin_klass_spara",{p_id:null,p_namn:namn,p_ordning:0},`Klassen ${namn} är tillagd.`);
+}
+function kgAdminSparaKlass(id){
+  const namn=(document.getElementById("aklass-namn-"+id)?.value||"").trim();
+  const ord=Number(document.getElementById("aklass-ord-"+id)?.value)||0;
+  kgAdminKlassAnrop("kg_admin_klass_spara",{p_id:id,p_namn:namn,p_ordning:ord},"Klassen är sparad.");
+}
+function kgAdminTaBortKlass(id,namn){
+  if(!confirm(`Ta bort klassen ${namn}? Eleverna blir utan klass men behåller sin träning och XP.`)) return;
+  kgAdminKlassAnrop("kg_admin_klass_ta_bort",{p_id:id},`Klassen ${namn} är borttagen.`);
+}
+function kgAdminSattKlass(uid,klass){
+  kgAdminKlassAnrop("kg_admin_satt_klass",{p_user:uid,p_klass:klass?Number(klass):null},klass?"Eleven är flyttad.":"Eleven är borttagen ur klassen.");
+}
+
 function kgAdminRitaLista(){
   const host=document.getElementById("adminlista"); if(!host) return;
   if(kgAdminFlik==="detalj"){ kgAdminRitaDetalj(host); return; }
+  if(kgAdminFlik==="klasser"){ kgAdminRitaKlasser(host); return; }
   if(kgAdminFlik==="anvandare"){
     const gammal=document.getElementById("admin-sok")?.value||"";
     const q=gammal.trim().toLowerCase();
@@ -10459,6 +10658,7 @@ function oppnaTopplista(sortering,record){
 
 function ritaTopplista(laddar,svar){
   const s=TOPP_FLIKAR[state.toppSort]?state.toppSort:"dag";
+  const klassvy=state.toppVy==="klasser";
   const rader=svar?.rader, placering=svar?.plats;
   const fuskare=Array.isArray(svar?.fuskare)?svar.fuskare:[];
   const jagFuskare=!!(profile.namn && fuskare.some(f=>f.namn===profile.namn));
@@ -10495,9 +10695,18 @@ function ritaTopplista(laddar,svar){
            <button class="btn sm" onclick="snabbVisa(false)">Dölj mig</button>
          </div>`;
 
+  const klassrad = !session ? "" : `<div class="klassrad">
+      ${state.minKlass ? `<span>Din klass: <b>${esc(state.minKlass.namn)}</b></span>
+          <button class="tm-lank" onclick="oppnaKlassval()">Byt klass</button>`
+        : state.minKlass===null ? `<span>Du är inte med i någon klass än.</span>
+          <button class="btn sm" onclick="oppnaKlassval()">Välj klass</button>` : ""}
+    </div>`;
+
   let lista;
   if(laddar){
     lista=`<div class="toppladdar">Hämtar listan…</div>`;
+  }else if(klassvy){
+    lista=klassListaHTML(svar,s);
   }else if(svar?.saknas){
     lista=`<div class="empty">Den här listan är inte aktiverad än. Prova fliken All time high så länge.</div>`;
   }else if(!rader){
@@ -10553,6 +10762,11 @@ function ritaTopplista(laddar,svar){
       </div>
     </div>
     ${egen}
+    ${klassrad}
+    <div class="toppvy" role="tablist" aria-label="Visa">
+      <button class="${klassvy?"":"pa"}" role="tab" aria-selected="${klassvy?"false":"true"}" onclick="bytToppVy('elever')">Elever</button>
+      <button class="${klassvy?"pa":""}" role="tab" aria-selected="${klassvy?"true":"false"}" onclick="bytToppVy('klasser')">Klasser</button>
+    </div>
     <div class="flikar" role="tablist">${Object.keys(TOPP_FLIKAR).map(flik).join("")}</div>
     <div class="card pad" style="margin-top:14px">${lista}</div>
   </main>`;
@@ -10598,10 +10812,38 @@ window.addEventListener("resize",()=>{
 
 let toppAnrop=0;
 async function laddaTopplista(){
-  const s=state.toppSort, nr=++toppAnrop;
-  const svar=await hamtaTopplista(s);
-  if(state.view!=="topplista" || nr!==toppAnrop || s!==state.toppSort) return;
+  const s=state.toppSort, vy=state.toppVy, nr=++toppAnrop;
+  if(session && state.minKlass===undefined) laddaMinKlass().then(()=>{
+    if(state.view==="topplista" && nr===toppAnrop && document.querySelector(".toppladdar")===null) ritaTopplista(false,state.toppSvar);
+  });
+  const svar=vy==="klasser" ? await hamtaKlasstopplista(s) : await hamtaTopplista(s);
+  if(state.view!=="topplista" || nr!==toppAnrop || s!==state.toppSort || vy!==state.toppVy) return;
+  state.toppSvar=svar;
   ritaTopplista(false,svar);
+}
+function bytToppVy(vy){
+  if(state.toppVy===vy) return;
+  state.toppVy=vy; state.toppSvar=null;
+  ritaTopplista(true); laddaTopplista();
+}
+function klassListaHTML(svar,s){
+  if(svar?.saknas) return `<div class="empty">Klasserna är inte aktiverade än.</div>`;
+  if(!svar) return `<div class="empty">Kunde inte hämta klasserna just nu. Försök igen om en stund.</div>`;
+  if(!svar.rader.length) return `<div class="empty">Ingen klass har några elever än.${session?" Välj din klass så kommer den med.":""}</div>`;
+  return `<ol class="topplista klasslista">${svar.rader.map((k,i)=>{
+      const min=svar.minKlass!=null && Number(svar.minKlass)===Number(k.id);
+      return `<li class="kblock">
+        <button class="topprad krad${min?" jag":""}${i<3?" pall":""}" data-klass="${Number(k.id)}" aria-expanded="false"
+            onclick="vaxlaKlassElever(${Number(k.id)})">
+          <span class="plats">${i+1}</span>
+          <span class="tnamn"><b>${esc(k.namn)}</b><small>${Number(k.aktiva)||0} av ${Number(k.elever)||0} har tränat${k.larare?" · lärarlaget":""}</small></span>
+          <span class="tvarde" title="Snitt-XP per elev">${Number(k.poang)||0}<small>XP/elev</small></span>
+          <span class="mu-chev" aria-hidden="true"></span>
+        </button>
+        <div class="klasselever" id="klasselever-${Number(k.id)}" hidden></div>
+      </li>`;
+    }).join("")}</ol>
+    <p class="toppfot">${TOPP_FLIKAR[s].fot}. Poängen är snitt-XP per elev i klassen, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Alla som tränar lyfter klassen. Tryck på en klass för att se eleverna som valt att synas.</p>`;
 }
 
 async function snabbVisa(pa){

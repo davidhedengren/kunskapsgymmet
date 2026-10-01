@@ -1707,7 +1707,8 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
    följer ljust och mörkt läge och sidans accentfärg. */
 .pt-topp{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,330px);gap:14px 22px;align-items:start}
 .pt-vanster{min-width:0;display:flex;flex-direction:column}
-.pt-vanster .pt-act{margin-top:16px}
+.pt-vanster .pt-act{margin-top:16px;align-items:center}
+.pt-intenu{margin-left:2px}
 .pt-vanster .pt-bubbla{align-self:flex-start}
 .pt-topp + .pt-fokus{margin-top:18px}
 .pt-markor{display:inline-block;width:.5em;height:1.05em;margin-left:2px;vertical-align:-.16em;border-radius:1px;
@@ -3941,10 +3942,11 @@ function mastery(map,key){
   if(!key) return .55;
   return typeof map[key]==="number" ? map[key] : .55;
 }
-function updateMastery(map,key,correct){
+/* vikt < 1 för rätt svar med ledtråd: de höjer behärskningen mindre. */
+function updateMastery(map,key,correct,vikt=1){
   if(!key) return;
   let s=mastery(map,key);
-  s = correct ? s + .10*(1-s) : s - .16*s;
+  s = correct ? s + .10*vikt*(1-s) : s - .16*s;
   map[key]=Math.max(.08,Math.min(.96,s));
 }
 
@@ -4249,11 +4251,11 @@ function themeIcon(){ return document.documentElement.dataset.theme==="dark" ? "
 function esc(s){
   return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
 }
-function toast(msg){
+function toast(msg,ms=1800){
   const el=document.getElementById("toast");
   el.textContent=msg;el.classList.add("show");
   clearTimeout(toast._t);
-  toast._t=setTimeout(()=>el.classList.remove("show"),1800);
+  toast._t=setTimeout(()=>el.classList.remove("show"),ms);
 }
 const cheerQueue=[];
 function cheer(icon,label,title,desc,typ){
@@ -7025,13 +7027,71 @@ function skrivFramTranaren(){
   })();
 }
 
+/* Tränaren märker när eleven kört fast i ett aktivt område: minst 4 fel
+   av de 8 senaste svaren där (minst 5 svar), eller 3 fel av de 4 senaste,
+   under de senaste två veckorna. Finns en genomgång som eleven inte läst
+   de senaste två dagarna föreslår tränaren den. */
+function fastnatOmrade(){
+  const cp=ensureCourseProfile(), nu=Date.now(), tvaVeckor=14*864e5;
+  const h=(cp.history||[]).filter(x=>x && nu-(x.at||0)<tvaVeckor);
+  const avvisad=profile.ptFastAvvisad||{};
+  let bast=null;
+  for(const area of fokusNycklar()){
+    if(avvisad[state.course+"|"+area]===todayKey()) continue;
+    const senaste=h.filter(x=>x.area===area).slice(-8);
+    const fel=senaste.filter(x=>!x.ok).length;
+    const fyra=senaste.slice(-4).filter(x=>!x.ok).length;
+    if(!((senaste.length>=5 && fel>=4) || fyra>=3)) continue;
+    const andel=fel/senaste.length;
+    if(!bast || andel>bast.andel) bast={area,andel,senaste};
+  }
+  if(!bast) return null;
+  const kort=getCards().find(k=>k.omr.includes(bast.area) && harKunskapKort(k));
+  if(!kort) return null;
+  const steg=kunskapSteg(kort.kap,kort.key);
+  if(!steg.length) return null;
+  const felFam={};
+  bast.senaste.filter(x=>!x.ok).forEach(x=>[].concat(x.family||[]).forEach(f=>felFam[f]=(felFam[f]||0)+1));
+  const famOrdning=Object.keys(felFam).sort((a,b)=>felFam[b]-felFam[a]);
+  const mal=steg.find(st=>st.traningsfamilj && famOrdning.includes(st.traningsfamilj)) || steg[0];
+  const last=(profile.genomgangar||{})[ggNyckel(mal.familj)];
+  if(typeof last==="number" && nu-last<2*864e5) return null;
+  return {area:bast.area,namn:areaName(bast.area)||kort.name,kap:String(kort.kap),kort:kort.key,familj:mal.familj};
+}
+function oppnaFastGenomgang(){
+  const f=fastnatOmrade();
+  if(f) oppnaKunskap(f.kap,f.kort,f.familj);
+}
+function avvisaFast(){
+  const f=fastnatOmrade();
+  if(!f) return;
+  profile.ptFastAvvisad={...(profile.ptFastAvvisad||{}),[state.course+"|"+f.area]:todayKey()};
+  saveProfile(); renderDashboard();
+}
+/* Hälsning när eleven kommer tillbaka till kursen en ny dag. */
+function tranarHalsning(){
+  const cp=ensureCourseProfile();
+  if(kursIdag()>0) return "";
+  const h=(cp.history||[]).filter(x=>x && x.at);
+  if(!h.length) return "";
+  const sista=h[h.length-1];
+  const idag=new Date(); idag.setHours(0,0,0,0);
+  const dagar=Math.ceil((idag.getTime()-sista.at)/864e5);
+  if(dagar<1) return "";
+  const nar=dagar===1?"igår":dagar<7?`för ${dagar} dagar sedan`:"för ett tag sedan";
+  const omr=areaName(sista.area);
+  return `Välkommen tillbaka! Senast tränade du${omr?` <b>${esc(omr)}</b>`:""} ${nar}. `;
+}
 /* Det tränaren säger i pratbubblan: rekommendationen följd av vad passet
    innehåller. Första gången i kursen räcker välkomsttexten. */
 function tranarensRepliker(typ,klart,namn){
   const medd=passMeddelande(typ);
   if(!(ensureCourseProfile().history||[]).length) return medd;
+  const fast=fastnatOmrade();
+  if(fast) return `Det har gått lite trögt med <b>${esc(fast.namn)}</b> de senaste gångerna. `
+    +`Jag tror att genomgången hjälper. Läs den först, sedan kör vi <b>${esc(namn)}</b>.`;
   if(klart) return `${medd} Vill du köra mer rekommenderar jag <b>${esc(namn)}</b>.`;
-  return `Idag rekommenderar jag <b>${esc(namn)}</b>. ${medd}`;
+  return `${tranarHalsning()}Idag rekommenderar jag <b>${esc(namn)}</b>. ${medd}`;
 }
 function ptKort(){
   const done=kursIdag(), goal=profile.goal||8;
@@ -7078,10 +7138,14 @@ function ptKort(){
     </div>
     <p class="pt-msg pt-bubbla">${tranarensRepliker(typ,klart,p.namn)}</p>
     <div class="pt-act">
-      ${pagaendePass()
+      ${fastnatOmrade() && !pagaendePass()
+        ? `<button class="btn primary" onclick="oppnaFastGenomgang()">Läs genomgången <span aria-hidden="true">→</span></button>
+           <button class="btn quiet" onclick="startPass('${typ}')">Starta passet direkt</button>
+           <button class="pt-andra pt-intenu" onclick="avvisaFast()">Inte nu</button>`
+        : `${pagaendePass()
         ? `<button class="btn primary" onclick="fortsattPass()">Fortsätt passet <span aria-hidden="true">→</span></button>`
         : `<button class="btn primary" onclick="startPass('${typ}')">${klart?"Kör ett pass till":"Starta passet"} <span aria-hidden="true">→</span></button>`}
-      <button class="btn quiet" onclick="vaxlaPassval()" aria-expanded="${state.visaPassval?"true":"false"}">${state.visaPassval?"Stäng val":"Byt pass"}</button>
+      <button class="btn quiet" onclick="vaxlaPassval()" aria-expanded="${state.visaPassval?"true":"false"}">${state.visaPassval?"Stäng val":"Byt pass"}</button>`}
     </div>
     </div>
     ${uppdragHTML(false)}
@@ -7378,10 +7442,10 @@ function levelStats(area,L){
   const p=nivaPrior(area,L);
   return (a[L]=p===null ? {s:.5,n:0} : {s:p,n:3});
 }
-function updateLevelStat(area,L,ok){
+function updateLevelStat(area,L,ok,vikt=1){
   if(!area) return;
   const st=levelStats(area,L);
-  st.s = ok ? st.s + .16*(1-st.s) : st.s - .22*st.s;
+  st.s = ok ? st.s + .16*vikt*(1-st.s) : st.s - .22*st.s;
   st.s = Math.max(.06,Math.min(.97,st.s));
   st.n = (st.n||0)+1;
 }
@@ -7554,10 +7618,12 @@ const behärskar = x => Math.max(0,Math.min(1,(x.s-.55)/.25)) * Math.max(0,Math.
 /* Stegvis upplåsning per område: en nivå öppnas först när eleven klarat
    minst NIVA_KRAV uppgifter på närmast lägre nivå som finns i området, och
    den nivån själv är öppen. Nivå 3 kräver alltså klarade uppgifter på både
-   nivå 1 och 2, och nivå 4 kräver klarade nivå 3-uppgifter. Räknas från
+   nivå 1 och 2, och nivå 4 kräver klarade nivå 3-uppgifter. Bara rätt
+   utan ledtråd räknas. Räknas från
    historiken; äldre träning utanför historiken (nivåstatistik med minst 8
    försök) räknas som klar. Nivåer som saknas i området hoppas över. */
 const NIVA_KRAV=3;
+const LEDTRAD_VIKT=.5;
 let _nivaKarta={lista:null,karta:null};
 function nivaForId(id){
   const lista=availableTasks();
@@ -7571,7 +7637,7 @@ function nivaKlarad(area,L){
   if((cp.levels?.[area]?.[L]?.n||0)>=8) return true;
   let n=0;
   for(const h of cp.history||[]){
-    if(h && h.ok && h.area===area && nivaForId(h.id)===L && ++n>=NIVA_KRAV) return true;
+    if(h && h.ok && !h.hint && h.area===area && nivaForId(h.id)===L && ++n>=NIVA_KRAV) return true;
   }
   return false;
 }
@@ -7589,7 +7655,8 @@ function oppnaNivaer(area,finns){
    uppgifterna på en nivå (i området), tonas den nivån ned kraftigt och allt
    ovanför stängs tills vidare. Då blir det mest uppgifter på nivån under,
    med en och annan på den svåra nivån. Efter TILLBAKA_RATT rätt i området
-   (på den nivån eller lägre) sedan det senaste felet är eleven tillbaka. */
+   utan ledtråd (på den nivån eller lägre) sedan det senaste felet är
+   eleven tillbaka. */
 const KAMPAR_VIKT=.12, TILLBAKA_RATT=2;
 function kamparPa(area,L){
   const h=ensureCourseProfile().history||[];
@@ -7599,9 +7666,34 @@ function kamparPa(area,L){
     if(!x || x.area!==area) continue;
     const niva=nivaForId(x.id);
     if(niva===L){ n++; if(!x.ok){ fel++; efterFel=false; } }
-    if(efterFel && x.ok && niva && niva<=L) rattEfter++;
+    if(efterFel && x.ok && !x.hint && niva && niva<=L) rattEfter++;
   }
   return fel>=2 && rattEfter<TILLBAKA_RATT;
+}
+/* Nivåläget i ett område, för tränarens kommentarer under passet:
+   vilka nivåer som är öppna och var eleven just nu backat. */
+function tranarNivaLage(area){
+  if(!area) return null;
+  const finns={};
+  availableTasks().forEach(t=>{ if(t.omr===area) finns[levelOf(t)]=true; });
+  const oppen=oppnaNivaer(area,finns);
+  let kampar=null;
+  for(const L of NIVAER.slice(1)){ if(finns[L] && oppen[L] && kamparPa(area,L)){ kampar=L; break; } }
+  return {oppen,kampar,finns};
+}
+function tranarenSager(text,ms=3600){ toast("Tränaren: "+text,ms); }
+function tranarKommentar(t,fore,efter,ggForslag){
+  if(!fore || !efter || state.noXp) return;
+  const namn=areaName(t.omr)||"området";
+  const ny=NIVAER.find(L=>efter.finns[L] && efter.oppen[L] && !fore.oppen[L]);
+  let text=null;
+  if(efter.kampar && efter.kampar!==fore.kampar && !ggForslag)
+    text=`Vi tar ett par lite enklare uppgifter i ${namn} och bygger upp igen.`;
+  else if(fore.kampar && !efter.kampar)
+    text=`Snyggt! Nu kör vi nivå ${fore.kampar} i ${namn} igen.`;
+  else if(ny)
+    text=`Bra jobbat! Nu öppnas nivå ${ny} i ${namn}.`;
+  if(text) setTimeout(()=>tranarenSager(text),1300);
 }
 function levelWeights(area,finns={}){
   const m=Object.fromEntries(NIVAER.map(L=>[L,behärskar(scopeLevel(L,area))]));
@@ -7710,6 +7802,7 @@ function farskaUppgifter(pool,h){
   return aldst.slice(0,Math.max(1,Math.ceil(aldst.length/3)));
 }
 
+const UPPVARMNING=2;
 function chooseTask(){
 
   while(state.felKo && state.felKo.length){
@@ -7756,6 +7849,14 @@ function chooseTask(){
 
   if(!level || !buckets[level].length)
     level=NIVAER.find(L=>buckets[L].length)||"1";
+
+  /* Uppvärmning: passets två första uppgifter tas en nivå under den
+     dragna, så att passet börjar lugnt. Gäller inte när eleven själv
+     valt nivå eller tränar sina fel. */
+  if(state.sessionDone<UPPVARMNING && !state.focusNiva && level>"1"){
+    const lagre=NIVAER.filter(L=>L<level && buckets[L].length);
+    if(lagre.length) level=lagre[lagre.length-1];
+  }
 
   const cands=buckets[level];
   // Aldrig sedda uppgifter (och sådana som legat länge) får ett litet försprång.
@@ -10751,11 +10852,14 @@ function finishAttempt(resultat){
   const niva=levelOf(t);
   const kriterier=(Array.isArray(t.kriterier)?t.kriterier:[t.kriterier]).filter(Boolean);
   if(state.course==="hist") cp.histSkills ||= {};
+  /* Rätt med ledtråd räknas som halvt bevis på behärskning. */
+  const ledVikt=state.hintUsed ? LEDTRAD_VIKT : 1;
+  const nivaFore=tranarNivaLage(t.omr);
   delar.forEach(d=>{
     const v=state.noXp?false:d;
-    updateMastery(cp.areas,t.omr,v);
-    updateLevelStat(t.omr,niva,v);
-    fs.forEach(f=>updateMastery(cp.families,f,v));
+    updateMastery(cp.areas,t.omr,v,ledVikt);
+    updateLevelStat(t.omr,niva,v,ledVikt);
+    fs.forEach(f=>updateMastery(cp.families,f,v,ledVikt));
     if(state.course==="hist") kriterier.forEach(k=>updateMastery(cp.histSkills,k,v));
   });
 
@@ -10774,6 +10878,7 @@ function finishAttempt(resultat){
   uppdragSvar(t,correct,lagat);
   const genomgangForslag=correct ? null : hittaGenomgangForslag(t,cp);
   state.ggForslag=genomgangForslag;
+  tranarKommentar(t,nivaFore,tranarNivaLage(t.omr),genomgangForslag);
 
   if(correct && !state.noXp && !state.solutionShown) profile.utanFacit=(profile.utanFacit||0)+1;
   if(new Date().getHours()<7) profile.morgon=1;

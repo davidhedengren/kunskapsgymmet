@@ -44292,17 +44292,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2-4x+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=5x^4+2/x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=3\\sqrt{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=4x^{-3}\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=x^5-2/x+C\\)</strong>.</p><p>c) \\(3x^{1/2}\\Rightarrow\\) <strong>\\(H(x)=2x^{3/2}+C\\)</strong>.</p><p>d) <strong>\\(P(x)=-2x^{-2}+C=-2/x^2+C\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=x^5-2/x+C\\)</strong>.</p><p>c) \\(3x^{1/2}\\Rightarrow\\) <strong>\\(H(x)=2x^{3/2}+C\\)</strong>.</p><p>d) <strong>\\(P(x)=-2x^{-2}+C=-2/x^2+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^3-2x^2+3x+C",
-      "x^5-2/x+C",
-      "2x^{3/2}+C",
-      "-2/x^2+C"
+      "2x^3-2x^2+3x",
+      "x^5-2/x",
+      "2x^{3/2}",
+      "-2/x^2"
     ],
     "tolerans": [
       null,
@@ -44324,10 +44324,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -44487,10 +44487,10 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "e^x+C",
-      "\\frac32e^{2x}+C",
-      "4\\sin x+2\\cos x+C",
-      "\\ln x+C"
+      "e^x",
+      "\\frac32e^{2x}",
+      "4\\sin x+2\\cos x",
+      "\\ln x"
     ],
     "tolerans": [
       null,
@@ -44512,10 +44512,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -44574,17 +44574,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(f(x)=4x^3-2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(f(x)=3e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(f(x)=\\frac{5}{x}\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><p>a) <strong>\\(F(x)=2x^3+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(F(x)=x^4-x^2+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(F(x)=3e^x+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(F(x)=5\\ln x+C\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) <strong>\\(F(x)=2x^3+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(F(x)=x^4-x^2+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(F(x)=3e^x+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(F(x)=5\\ln x+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^3+C",
-      "x^4-x^2+C",
-      "3e^x+C",
-      "5\\ln x+C"
+      "2x^3",
+      "x^4-x^2",
+      "3e^x",
+      "5\\ln x"
     ],
     "tolerans": [
       null,
@@ -44641,10 +44641,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -44675,10 +44675,10 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^4+C",
-      "5e^x-2x+C",
-      "3\\ln x+C",
-      "-4\\cos x+3\\sin x+C"
+      "2x^4",
+      "5e^x-2x",
+      "3\\ln x",
+      "-4\\cos x+3\\sin x"
     ],
     "tolerans": [
       null,
@@ -44700,10 +44700,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -44762,7 +44762,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm den primitiva funktion \\(F\\) som uppfyller villkoret.</p><p>a) \\(F'(x)=4x^3\\), \\(F(1)=5\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(F'(x)=2e^x\\), \\(F(0)=3\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(F'(x)=\\cos x\\), \\(F(\\pi/2)=4\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) \\(F=x^4+C\\). \\(1+C=5\\Rightarrow C=4\\). <strong>\\(F=x^4+4\\)</strong>.</p><p>b) \\(F=2e^x+C\\). \\(2+C=3\\Rightarrow C=1\\). <strong>\\(F=2e^x+1\\)</strong>.</p><p>c) \\(F=\\sin x+C\\). \\(1+C=4\\Rightarrow C=3\\). <strong>\\(F=\\sin x+3\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(F=x^4+C\\). \\(1+C=5\\Rightarrow C=4\\). <strong>\\(F=x^4+4\\)</strong>.</p><p>b) \\(F=2e^x+C\\). \\(2+C=3\\Rightarrow C=1\\). <strong>\\(F=2e^x+1\\)</strong>.</p><p>c) \\(F=\\sin x+C\\). \\(1+C=4\\Rightarrow C=3\\). <strong>\\(F=\\sin x+3\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -44963,17 +44963,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion och kontrollera genom derivering.</p><p>a) \\(3x^2+4\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2x^{-3}-5x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\cos(3x)\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) <strong>\\(x^3+4x+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-x^{-2}-\\frac52x^2+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac12e^{2x}+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac13\\sin3x+C\\)</strong>. Derivering av respektive svar ger tillbaka uttrycket som integreras.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) <strong>\\(x^3+4x+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) <strong>\\(-x^{-2}-\\frac52x^2+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) <strong>\\(\\frac12e^{2x}+C\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) <strong>\\(\\frac13\\sin3x+C\\)</strong>. Derivering av respektive svar ger tillbaka uttrycket som integreras.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "x^3+4x+C",
-      "-x^{-2}-\\frac52x^2+C",
-      "\\frac12e^{2x}+C",
-      "\\frac13\\sin3x+C"
+      "x^3+4x",
+      "-x^{-2}-\\frac52x^2",
+      "\\frac12e^{2x}",
+      "\\frac13\\sin3x"
     ],
     "tolerans": [
       null,
@@ -45030,10 +45030,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -45272,7 +45272,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till \\(f(x)=3\\cos x\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p><strong>Nyckelidé:</strong> Vi söker en funktion vars derivata är 3 \\cos x. Eftersom \\((\\sin x)'=\\cos x\\) följer konstantfaktorn med.</p><p><strong>Svar:</strong> \\(\\boxed{F(x)=3\\sin x+C}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p><strong>Nyckelidé:</strong> Vi söker en funktion vars derivata är 3 \\cos x. Eftersom \\((\\sin x)'=\\cos x\\) följer konstantfaktorn med.</p><p><strong>Svar:</strong> \\(\\boxed{F(x)=3\\sin x+C}\\).</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur",
@@ -45448,17 +45448,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion \\(F\\) till \\(f\\).</p>\n<p>a) \\(f(x)=6x^2-4x+3\\)<br>\nb) \\(f(x)=5e^{2x}\\)<br>\nc) \\(f(x)=4\\cos3x\\)<br>\nd) \\(f(x)=\\dfrac3x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><p>a)</p>\n<p>\\[\nF(x)=2x^3-2x^2+3x+C.\n\\]</p>\n<p>b)</p>\n<p>\\[\nF(x)=\\frac52e^{2x}+C.\n\\]</p>\n<p>c)</p>\n<p>\\[\nF(x)=\\frac43\\sin3x+C.\n\\]</p>\n<p>d)</p>\n<p>\\[\nF(x)=3\\ln x+C.\n\\]</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a)</p>\n<p>\\[\nF(x)=2x^3-2x^2+3x+C.\n\\]</p>\n<p>b)</p>\n<p>\\[\nF(x)=\\frac52e^{2x}+C.\n\\]</p>\n<p>c)</p>\n<p>\\[\nF(x)=\\frac43\\sin3x+C.\n\\]</p>\n<p>d)</p>\n<p>\\[\nF(x)=3\\ln x+C.\n\\]</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^3-2x^2+3x+C",
-      "\\frac52e^{2x}+C",
-      "\\frac43\\sin3x+C",
-      "3\\ln x+C"
+      "2x^3-2x^2+3x",
+      "\\frac52e^{2x}",
+      "\\frac43\\sin3x",
+      "3\\ln x"
     ],
     "tolerans": [
       null,
@@ -45515,10 +45515,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -45838,7 +45838,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till \\(f(x)=2e^{2x}\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p><strong>Nyckelidé:</strong> Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). Därför är integranden redan derivatan av \\(e^{2x}\\).</p><p><strong>Svar:</strong> \\(\\boxed{F(x)=e^{2x}+C}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p><strong>Nyckelidé:</strong> Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). Därför är integranden redan derivatan av \\(e^{2x}\\).</p><p><strong>Svar:</strong> \\(\\boxed{F(x)=e^{2x}+C}\\).</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur",
@@ -45866,7 +45866,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm \\(F(x)\\) om \\(F'\\) och ett funktionsvärde är givna.</p><p>a) \\(F'(x)=2x\\), \\(F(0)=3\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(F'(x)=3x^2\\), \\(F(1)=5\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(F'(x)=e^x\\), \\(F(0)=0\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(F'(x)=\\cos x\\), \\(F(\\pi/2)=4\\).</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) \\(F=x^2+C\\), \\(C=3\\): <strong>\\(F=x^2+3\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(F=x^3+C\\), \\(1+C=5\\): <strong>\\(F=x^3+4\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(F=e^x+C\\), \\(1+C=0\\): <strong>\\(F=e^x-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(F=\\sin x+C\\), \\(1+C=4\\): <strong>\\(F=\\sin x+3\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(F=x^2+C\\), \\(C=3\\): <strong>\\(F=x^2+3\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(F=x^3+C\\), \\(1+C=5\\): <strong>\\(F=x^3+4\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(F=e^x+C\\), \\(1+C=0\\): <strong>\\(F=e^x-1\\)</strong>.<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(F=\\sin x+C\\), \\(1+C=4\\): <strong>\\(F=\\sin x+3\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -46212,10 +46212,10 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "-x^{-1}+C",
-      "\\frac23x^{3/2}+C",
-      "2\\sin x+C",
-      "-5\\cos x+C"
+      "-x^{-1}",
+      "\\frac23x^{3/2}",
+      "2\\sin x",
+      "-5\\cos x"
     ],
     "tolerans": [
       null,
@@ -46237,10 +46237,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -46299,17 +46299,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=4\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=3\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=2e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=5/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><p>a) \\(\\boxed{4\\sin x+C}\\)</p><p>b) \\(\\boxed{-3\\cos x+C}\\)</p><p>c) \\(\\boxed{e^{2x}+C}\\)</p><p>d) \\(\\boxed{5\\ln x+C}\\)</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(\\boxed{4\\sin x+C}\\)</p><p>b) \\(\\boxed{-3\\cos x+C}\\)</p><p>c) \\(\\boxed{e^{2x}+C}\\)</p><p>d) \\(\\boxed{5\\ln x+C}\\)</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "4\\sin x+C",
-      "-3\\cos x+C",
-      "e^{2x}+C",
-      "5\\ln x+C"
+      "4\\sin x",
+      "-3\\cos x",
+      "e^{2x}",
+      "5\\ln x"
     ],
     "tolerans": [
       null,
@@ -46331,10 +46331,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -46623,17 +46623,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2-4x+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=5e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=4\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=3/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><p>a) \\(F(x)=2x^3-2x^2+3x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(G(x)=5e^x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(H(x)=4\\sin x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(P(x)=3\\ln x+C\\)</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(F(x)=2x^3-2x^2+3x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(G(x)=5e^x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(H(x)=4\\sin x+C\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(P(x)=3\\ln x+C\\)</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^3-2x^2+3x+C",
-      "5e^x+C",
-      "4\\sin x+C",
-      "3\\ln x+C"
+      "2x^3-2x^2+3x",
+      "5e^x",
+      "4\\sin x",
+      "3\\ln x"
     ],
     "tolerans": [
       null,
@@ -46690,10 +46690,10 @@ window.BANKMATO2 = [
       }
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -46898,10 +46898,10 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "x^3+C",
-      "\\frac12e^{2x}+C",
-      "\\frac13\\sin3x+C",
-      "\\ln x+C"
+      "x^3",
+      "\\frac12e^{2x}",
+      "\\frac13\\sin3x",
+      "\\ln x"
     ],
     "tolerans": [
       null,
@@ -46923,10 +46923,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -47145,7 +47145,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En funktion \\(F\\) uppfyller \\(F'(x)=3x^2-4x+2\\) och \\(F(1)=5\\). Bestäm \\(F(x)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><p>En primitiv funktion är \\(x^3-2x^2+2x+C\\).</p><p>Villkoret \\(F(1)=1-2+2+C=1+C=5\\) ger \\(C=4\\).</p><p><strong>\\(\\boxed{F(x)=x^3-2x^2+2x+4}\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>En primitiv funktion är \\(x^3-2x^2+2x+C\\).</p><p>Villkoret \\(F(1)=1-2+2+C=1+C=5\\) ger \\(C=4\\).</p><p><strong>\\(\\boxed{F(x)=x^3-2x^2+2x+4}\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -47266,17 +47266,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^2-4x+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=5e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=1/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=\\sin x+C\\)</strong>.</p><p>c) <strong>\\(H(x)=5e^x+C\\)</strong>.</p><p>d) <strong>\\(P(x)=\\ln x+C\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) <strong>\\(F(x)=2x^3-2x^2+3x+C\\)</strong>.</p><p>b) <strong>\\(G(x)=\\sin x+C\\)</strong>.</p><p>c) <strong>\\(H(x)=5e^x+C\\)</strong>.</p><p>d) <strong>\\(P(x)=\\ln x+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "2x^3-2x^2+3x+C",
-      "\\sin x+C",
-      "5e^x+C",
-      "\\ln x+C"
+      "2x^3-2x^2+3x",
+      "\\sin x",
+      "5e^x",
+      "\\ln x"
     ],
     "tolerans": [
       null,
@@ -47298,10 +47298,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -47980,7 +47980,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\(5x^3-6x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(2x^2+3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(7e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\sin x+\\cos x\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) \\(\\boxed{\\frac54x^4-3x^2}\\).</p><p>b) \\(\\boxed{\\frac23x^3+3x}\\).</p><p>c) \\(\\boxed{7e^x}\\).</p><p>d) \\(\\boxed{-\\cos x+\\sin x}\\).</p><p>En godtycklig konstant kan läggas till i varje svar.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(\\boxed{\\frac54x^4-3x^2}\\).</p><p>b) \\(\\boxed{\\frac23x^3+3x}\\).</p><p>c) \\(\\boxed{7e^x}\\).</p><p>d) \\(\\boxed{-\\cos x+\\sin x}\\).</p><p>En godtycklig konstant kan läggas till i varje svar.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -48262,7 +48262,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\(\\sin(2x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\cos(3x)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(e^{-x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac1{x+2}\\), \\(x&gt;-2\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) \\(\\boxed{-\\frac12\\cos(2x)}\\).</p><p>b) \\(\\boxed{\\frac13\\sin(3x)}\\).</p><p>c) \\(\\boxed{-e^{-x}}\\).</p><p>d) \\(\\boxed{\\ln(x+2)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(\\boxed{-\\frac12\\cos(2x)}\\).</p><p>b) \\(\\boxed{\\frac13\\sin(3x)}\\).</p><p>c) \\(\\boxed{-e^{-x}}\\).</p><p>d) \\(\\boxed{\\ln(x+2)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -48356,7 +48356,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\(4x^3+x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(6x^5-2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2e^x+3\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac4x\\), \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) \\(\\boxed{x^4+\\frac12x^2}\\).</p><p>b) \\(\\boxed{x^6-2x}\\).</p><p>c) \\(\\boxed{2e^x+3\\sin x}\\).</p><p>d) \\(\\boxed{4\\ln x}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(\\boxed{x^4+\\frac12x^2}\\).</p><p>b) \\(\\boxed{x^6-2x}\\).</p><p>c) \\(\\boxed{2e^x+3\\sin x}\\).</p><p>d) \\(\\boxed{4\\ln x}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -48450,7 +48450,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion till varje funktion.</p><p>a) \\((4x+1)^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^{5x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos(x/2)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(\\frac1{3x-1}\\), \\(x&gt;1/3\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p>a) \\(\\boxed{\\frac{(4x+1)^4}{16}}\\).</p><p>b) \\(\\boxed{\\frac15e^{5x}}\\).</p><p>c) \\(\\boxed{2\\sin(x/2)}\\).</p><p>d) \\(\\boxed{\\frac13\\ln(3x-1)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(\\boxed{\\frac{(4x+1)^4}{16}}\\).</p><p>b) \\(\\boxed{\\frac15e^{5x}}\\).</p><p>c) \\(\\boxed{2\\sin(x/2)}\\).</p><p>d) \\(\\boxed{\\frac13\\ln(3x-1)}\\).</p><p>En godtycklig konstant kan läggas till.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -48779,17 +48779,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=6x^5-4x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=3/x\\), \\(x&gt;0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=5e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=4\\cos x-2\\sin x\\)</p>",
-    "s": "<p><strong>Varför metoden fungerar:</strong> En bestämd integral summerar tecknade bidrag. När storheten ska vara area eller sträcka måste teckenbyten därför hanteras särskilt så att negativa bidrag inte råkar minska den geometriska storheten.</p><p><strong>Formelbladet:</strong> använd tabellen över primitiva funktioner.</p><p>a) <strong>\\(F(x)=x^6-2x^2+C\\)</strong>.</p><p>b) <strong>\\(G(x)=3\\ln x+C\\)</strong>.</p><p>c) <strong>\\(H(x)=\\frac52e^{2x}+C\\)</strong>.</p><p>d) <strong>\\(P(x)=4\\sin x+2\\cos x+C\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p><strong>Formelbladet:</strong> använd tabellen över primitiva funktioner.</p><p>a) <strong>\\(F(x)=x^6-2x^2+C\\)</strong>.</p><p>b) <strong>\\(G(x)=3\\ln x+C\\)</strong>.</p><p>c) <strong>\\(H(x)=\\frac52e^{2x}+C\\)</strong>.</p><p>d) <strong>\\(P(x)=4\\sin x+2\\cos x+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "x^6-2x^2+C",
-      "3\\ln x+C",
-      "\\frac52e^{2x}+C",
-      "4\\sin x+2\\cos x+C"
+      "x^6-2x^2",
+      "3\\ln x",
+      "\\frac52e^{2x}",
+      "4\\sin x+2\\cos x"
     ],
     "tolerans": [
       null,
@@ -48811,10 +48811,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -49061,17 +49061,17 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(5x^4+2x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(4e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2/x\\), \\(x&gt;0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(3\\sin x+5\\cos x\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p><p>a) <strong>\\(x^5+x^2+C\\)</strong>.</p><p>b) <strong>\\(4e^x+C\\)</strong>.</p><p>c) <strong>\\(2\\ln x+C\\)</strong>.</p><p>d) <strong>\\(-3\\cos x+5\\sin x+C\\)</strong>.</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) <strong>\\(x^5+x^2+C\\)</strong>.</p><p>b) <strong>\\(4e^x+C\\)</strong>.</p><p>c) <strong>\\(2\\ln x+C\\)</strong>.</p><p>d) <strong>\\(-3\\cos x+5\\sin x+C\\)</strong>.</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "x^5+x^2+C",
-      "4e^x+C",
-      "2\\ln x+C",
-      "-3\\cos x+5\\sin x+C"
+      "x^5+x^2",
+      "4e^x",
+      "2\\ln x",
+      "-3\\cos x+5\\sin x"
     ],
     "tolerans": [
       null,
@@ -49093,10 +49093,10 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
+      "primitiv",
+      "primitiv",
+      "primitiv",
+      "primitiv"
     ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
@@ -49310,13 +49310,13 @@ window.BANKMATO2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "x^4+C",
+    "rättSvar": "x^4",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiv",
     "ledtrad": "<p>Vilken funktion har derivatan \\(4x^3\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -49338,13 +49338,13 @@ window.BANKMATO2 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "3x^2+C",
+    "rättSvar": "3x^2",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiv",
     "ledtrad": "<p>Höj exponenten ett steg och dela med den nya exponenten.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,

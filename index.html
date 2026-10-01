@@ -8875,6 +8875,14 @@ function formatRatt(anv,facit,meta){
       if(ifa) return ia!==null && sammaIntervall(ia,ifa,tol);
       return textNyckel(a)===textNyckel(f);
     }
+    /* "Bestäm en primitiv funktion": ett specifikt uttryck, med eller utan en bestämd talkonstant.
+       En symbolisk konstant (+C) beskriver alla primitiva funktioner och godtas därför inte. */
+    case "primitiv": {
+      const slutTal=/(?<![\^*\/(])[+-]\s*\d+(?:[.,]\d+)?\s*$/;
+      const utanTal=x=>hogerled(x).replace(slutTal,"");
+      const r=algebraisktLika(utanTal(a),utanTal(f));
+      return r===null ? textNyckel(utanTal(a))===textNyckel(utanTal(f)) : r;
+    }
     case "uttryck": case "uttryck_med_villkor": {
       /* Ett villkor efter kommatecken (", x≠0") tas bort, men inte ett decimalkomma: y=-1,5x+6 ska vara kvar. */
       const rensa=x=>String(x).split(/(?:(?<!\d),|,(?!\d))(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
@@ -10759,7 +10767,12 @@ function checkAnswer(){
 
 function facitText(d,kvar){
   return (kvar.length?kvar:d.svar.map((v,j)=>({v,j})))
-    .map(k=>String(k.v)+(d.enhet[k.j]?" "+d.enhet[k.j]:""))
+    .map(k=>{
+      /* LaTeX-facit (\frac, \sin ...) visas som formel i stället för som rå kod. */
+      const v=String(k.v);
+      const text=(/\\[a-zA-Z]/.test(v) && !v.includes("\\(")) ? "\\("+v+"\\)" : v;
+      return text+(d.enhet[k.j]?" "+d.enhet[k.j]:"");
+    })
     .join(" eller ");
 }
 function gaVidare(nasta,total){

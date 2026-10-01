@@ -14164,7 +14164,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": "-(x*cos(2*x))/2+sin(2*x)/4+C",
+    "rättSvar": "-(x*cos(2*x))/2+sin(2*x)/4",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -14172,7 +14172,7 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
     "traningsniva": 2,
-    "svarFormat": "uttryck"
+    "svarFormat": "primitiv"
   },
   {
     "kap": 3,
@@ -14279,7 +14279,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": "e^(2*x)*(2*x^2-2*x+1)/4+C",
+    "rättSvar": "e^(2*x)*(2*x^2-2*x+1)/4",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -14288,7 +14288,7 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
     "traningsniva": 4,
-    "svarFormat": "uttryck"
+    "svarFormat": "primitiv"
   },
   {
     "kap": 3,
@@ -14303,7 +14303,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": "-x^2*cos(2*x)/2+x*sin(2*x)/2+cos(2*x)/4+C",
+    "rättSvar": "-x^2*cos(2*x)/2+x*sin(2*x)/2+cos(2*x)/4",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -14312,7 +14312,7 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
     "traningsniva": 4,
-    "svarFormat": "uttryck"
+    "svarFormat": "primitiv"
   },
   {
     "kap": 3,
@@ -14373,7 +14373,7 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Partiell integration",
     "svarstyp": "text",
-    "rättSvar": "x^2*ln(x)/2-x^2/4+C",
+    "rättSvar": "x^2*ln(x)/2-x^2/4",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -14382,7 +14382,7 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
     "traningsniva": 3,
-    "svarFormat": "uttryck"
+    "svarFormat": "primitiv"
   },
   {
     "kap": 3,

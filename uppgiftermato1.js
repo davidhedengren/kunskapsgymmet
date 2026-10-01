@@ -33052,14 +33052,14 @@ window.BANKMATO1 = [
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "uttryck",
-    "rättSvar": "F(x)=-(4)/(x)+2x^(3/2)+C",
+    "rättSvar": "F(x)=-(4)/(x)+2x^(3/2)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiv",
     "ledtrad": "<p>En primitiv funktion ska ge tillbaka den ursprungliga funktionen när den deriveras. Öka därför exponenten med ett och dividera med den nya exponenten. Glöm inte +C när alla primitiva funktioner efterfrågas; ett extra villkor används sedan för att bestämma C.</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,

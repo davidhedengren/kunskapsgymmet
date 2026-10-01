@@ -6709,7 +6709,7 @@ function namnLista(namn,max=2){
   return n.length ? txt+(rest>0?` (med flera)`:"") : "";
 }
 function passMeddelande(typ){
-  const st=currentStreak(), done=todayCount(), goal=profile.goal||8;
+  const st=currentStreak(), done=kursIdag(), goal=profile.goal||8;
   const t=traningsOmraden();
   const antal=(PASS[typ]||PASS.grund).antal||8;
   const lista=namnLista(passOmradesNamn(typ));
@@ -6720,7 +6720,7 @@ function passMeddelande(typ){
     return `Välkommen! Välj området ni jobbar med just nu i listan nedan, så anpassar jag passen efter var du är. `
       +`Vill du hellre börja direkt kan du starta passet, så börjar vi med ${nytt||"första området"}.`;
   if(done>=goal)
-    return `<b>${done} av ${goal}</b> uppgifter klara idag${st>1?` · ${st} dagar i rad`:""}.`;
+    return `<b>${done} av ${goal}</b> uppgifter klara idag i den här kursen${st>1?` · ${st} dagar i rad`:""}.`;
 
   switch(typ){
     case "teknik":
@@ -6939,9 +6939,11 @@ function tranarAvatar(liten){
     stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="14" r="5"/><path d="M13.3 11.5L21 8.6v4.2l-6.6.4"/>
     <path d="M7.6 9.2L5.2 5.4"/><circle cx="9" cy="14" r="1.2" fill="currentColor" stroke="none"/></svg></span>`;
 }
+/* Tränaren räknar dagens uppgifter per kurs: att dagsmålet är nått i en
+   kurs betyder inte att man är klar för dagen i nästa. */
 function ptLitet(sort){
   const typ=dagensPass();
-  const done=todayCount(), goal=profile.goal||8, st=currentStreak();
+  const done=kursIdag(), goal=profile.goal||8, st=currentStreak();
   const pagar=sort==="pagar";
   const kvot=pagar ? state.sessionDone/state.sessionTarget : Math.min(1,done/goal);
   return `
@@ -7032,7 +7034,7 @@ function tranarensRepliker(typ,klart,namn){
   return `Idag rekommenderar jag <b>${esc(namn)}</b>. ${medd}`;
 }
 function ptKort(){
-  const done=todayCount(), goal=profile.goal||8;
+  const done=kursIdag(), goal=profile.goal||8;
   const klart=done>=goal && profile.attempts;
   if(!state.ptOppen){
     if(pagaendePass()) return ptLitet("pagar");

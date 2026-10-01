@@ -23852,8 +23852,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>För positiva tal \\(x\\) och \\(y\\) gäller \\(x+y=12\\) och \\(xy=20\\).</p><p>Bestäm exakt värdet av \\((x-y)^2\\) och därefter \\(|x-y|\\).</p>",
-    "s": "<p>\\((x-y)^2=(x+y)^2-4xy\\), eftersom högerledet utvecklas till \\(x^2+2xy+y^2-4xy=x^2-2xy+y^2\\). Insättning ger \\(12^2-4\\cdot20=64\\). Alltså \\(|x-y|=\\sqrt{64}=8\\). Absolutbeloppet är icke-negativt; själva differensen kan vara 8 eller −8.</p>",
+    "t": "<p>För positiva tal \\(x\\) och \\(y\\) gäller \\(x+y=12\\) och \\(xy=20\\).</p><p>Bestäm exakt värdet av \\((x-y)^2\\) och därefter skillnaden mellan det större och det mindre av talen.</p>",
+    "s": "<p>\\((x-y)^2=(x+y)^2-4xy\\), eftersom högerledet utvecklas till \\(x^2+2xy+y^2-4xy=x^2-2xy+y^2\\). Insättning ger \\(12^2-4\\cdot20=64\\). Skillnaden mellan det större och det mindre talet är positiv, alltså \\(\\sqrt{64}=8\\). (Differensen \\(x-y\\) kan vara 8 eller −8, beroende på vilket tal som är störst. Talen är 10 och 2.)</p>",
     "ledtrad": "<p>Kan du uttrycka differensens kvadrat med hjälp av summans kvadrat och produkten?</p>",
     "niva": "A",
     "poang": "0/0/2",
@@ -23876,7 +23876,7 @@ window.BANKMA1 = [
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "(x − y)²",
-      "|x − y|"
+      "Större − mindre"
     ],
     "traningsniva": 5,
     "arbetsinsats": 3,
@@ -33103,8 +33103,8 @@ window.BANKMA1 = [
     "t": "<p>En bonuspott på 4 500 kr delas mellan tre medarbetare. Bea får dubbelt så mycket som Ali, och Cem får 300 kr mer än Bea.</p><p>Hur mycket får Ali?</p>",
     "s": "<p>Om Ali får x kr får Bea 2x och Cem 2x + 300. Summan är 5x + 300 = 4 500. Då är x = 840 kr. Kontroll: 840 + 1 680 + 1 980 = 4 500.</p>",
     "ledtrad": "<p>Vilken persons belopp beskrivs de andra beloppen utifrån?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "arbetsinsats": 2,
     "familj": "Linjära ekvationer",
     "formaga": [

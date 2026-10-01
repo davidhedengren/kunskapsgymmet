@@ -1706,7 +1706,10 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
    Färgerna kommer från temat (guldton blandad med kortets yta), så rullen
    följer ljust och mörkt läge och sidans accentfärg. */
 .pt-topp{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,330px);gap:14px 22px;align-items:start}
-.pt-vanster{min-width:0}
+.pt-vanster{min-width:0;display:flex;flex-direction:column}
+.pt-vanster .pt-act{margin-top:16px}
+.pt-vanster .pt-bubbla{align-self:flex-start}
+.pt-topp + .pt-fokus{margin-top:18px}
 .pt-markor{display:inline-block;width:.5em;height:1.05em;margin-left:2px;vertical-align:-.16em;border-radius:1px;
   background:var(--accInk);animation:ptBlink .9s steps(1) infinite}
 @keyframes ptBlink{50%{opacity:0}}
@@ -6961,18 +6964,22 @@ function ptLitet(sort){
 
 /* Tränarens rekommendation skrivs fram tecken för tecken med en blinkande
    markör, som i en kommandotolk. Bara när texten är ny: samma text som
-   redan skrivits fram visas direkt vid nästa omritning. Den som valt minskad
+   redan skrivits fram visas direkt vid nästa omritning. Ritas kortet om
+   medan texten skrivs (t.ex. när profilen hämtas efter att sidan laddats),
+   fortsätter framskrivningen där den var i det nya kortet. Den som valt minskad
    rörelse får texten direkt. Höjd och bredd låses under tiden så att
    kortet inte hoppar. */
-let ptSkrivTok=0;
+let ptSkrivTok=0, ptSkrivPos=0, ptSkrivKlar=false;
 function skrivFramTranaren(){
   const kort=document.querySelector("section.pt:not(.pt-liten)");
   if(!kort) return;
   const delar=[kort.querySelector(".pt-rek"),kort.querySelector(".pt-titel h2"),kort.querySelector(".pt-bubbla")].filter(Boolean);
   const nyckel=state.course+"|"+delar.map(e=>e.textContent).join("|");
-  if(state.ptSkrivet===nyckel) return;
+  if(state.ptSkrivet===nyckel && ptSkrivKlar) return;
+  if(state.ptSkrivet!==nyckel){ ptSkrivPos=0; ptSkrivKlar=false; }
   state.ptSkrivet=nyckel;
-  if(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches){ ptSkrivKlar=true; return; }
+  const start=ptSkrivPos; let pos=0;
   const tok=++ptSkrivTok;
   const jobb=delar.map(el=>{
     const noder=[]; const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
@@ -6988,7 +6995,8 @@ function skrivFramTranaren(){
   const markor=document.createElement("span");
   markor.className="pt-markor"; markor.setAttribute("aria-hidden","true");
   const vanta=ms=>new Promise(res=>setTimeout(res,ms));
-  const klar=()=>{
+  const klar=(fardig)=>{
+    if(fardig) ptSkrivKlar=true;
     markor.remove();
     jobb.forEach(j=>{ j.noder.forEach(x=>x.n.data=x.txt); j.el.style.minHeight=""; j.el.style.width=""; j.el.removeAttribute("aria-busy"); });
   };
@@ -6997,20 +7005,32 @@ function skrivFramTranaren(){
       const steg=j.el.classList.contains("pt-bubbla")?2:1;
       for(const x of j.noder){
         x.n.after(markor);
-        for(let i=0;i<=x.txt.length;i+=steg){
-          if(tok!==ptSkrivTok || !x.n.isConnected) return klar();
+        /* Hoppa fram till där en avbruten framskrivning slutade. */
+        const forbi=Math.min(x.txt.length,Math.max(0,start-pos));
+        for(let i=forbi;i<=x.txt.length;i+=steg){
+          if(tok!==ptSkrivTok || !x.n.isConnected) return klar(false);
           x.n.data=x.txt.slice(0,i);
+          ptSkrivPos=Math.max(ptSkrivPos,pos+i);
           await vanta(steg===2?18:24);
         }
-        x.n.data=x.txt;
+        x.n.data=x.txt; pos+=x.txt.length;
       }
-      await vanta(180);
+      if(pos>start) await vanta(180);
     }
+    ptSkrivKlar=true;
     await vanta(900);
-    klar();
+    if(tok===ptSkrivTok) klar(true);
   })();
 }
 
+/* Det tränaren säger i pratbubblan: rekommendationen följd av vad passet
+   innehåller. Första gången i kursen räcker välkomsttexten. */
+function tranarensRepliker(typ,klart,namn){
+  const medd=passMeddelande(typ);
+  if(!(ensureCourseProfile().history||[]).length) return medd;
+  if(klart) return `${medd} Vill du köra mer rekommenderar jag <b>${esc(namn)}</b>.`;
+  return `Idag rekommenderar jag <b>${esc(namn)}</b>. ${medd}`;
+}
 function ptKort(){
   const done=todayCount(), goal=profile.goal||8;
   const klart=done>=goal && profile.attempts;
@@ -7051,19 +7071,18 @@ function ptKort(){
       ${tranarAvatar(false)}
       <span class="pt-titel">
         <span class="pt-lbl">Din personliga tränare</span>
-        <span class="pt-rek">${klart?"Vill du köra mer idag rekommenderar jag:":"Idag rekommenderar jag:"}</span>
         <h2><span class="pt-passikon" aria-hidden="true">${passIkon(typ)}</span>${p.namn}</h2>
       </span>
     </div>
-    <p class="pt-msg pt-bubbla">${passMeddelande(typ)}</p>
-    </div>
-    ${uppdragHTML(false)}
-    </div>
+    <p class="pt-msg pt-bubbla">${tranarensRepliker(typ,klart,p.namn)}</p>
     <div class="pt-act">
       ${pagaendePass()
         ? `<button class="btn primary" onclick="fortsattPass()">Fortsätt passet <span aria-hidden="true">→</span></button>`
         : `<button class="btn primary" onclick="startPass('${typ}')">${klart?"Kör ett pass till":"Starta passet"} <span aria-hidden="true">→</span></button>`}
       <button class="btn quiet" onclick="vaxlaPassval()" aria-expanded="${state.visaPassval?"true":"false"}">${state.visaPassval?"Stäng val":"Byt pass"}</button>
+    </div>
+    </div>
+    ${uppdragHTML(false)}
     </div>
     <div class="pt-fokus">
       <span class="pt-fokus-lbl">Jobbar med</span>

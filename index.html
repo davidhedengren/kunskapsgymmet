@@ -7585,10 +7585,34 @@ function oppnaNivaer(area,finns){
   }
   return oppen;
 }
+/* Backa ett steg: har eleven fel på minst två av de tre senaste
+   uppgifterna på en nivå (i området), tonas den nivån ned kraftigt och allt
+   ovanför stängs tills vidare. Då blir det mest uppgifter på nivån under,
+   med en och annan på den svåra nivån. Efter TILLBAKA_RATT rätt i området
+   (på den nivån eller lägre) sedan det senaste felet är eleven tillbaka. */
+const KAMPAR_VIKT=.12, TILLBAKA_RATT=2;
+function kamparPa(area,L){
+  const h=ensureCourseProfile().history||[];
+  let n=0, fel=0, rattEfter=0, efterFel=true;
+  for(let i=h.length-1;i>=0 && n<3;i--){
+    const x=h[i];
+    if(!x || x.area!==area) continue;
+    const niva=nivaForId(x.id);
+    if(niva===L){ n++; if(!x.ok){ fel++; efterFel=false; } }
+    if(efterFel && x.ok && niva && niva<=L) rattEfter++;
+  }
+  return fel>=2 && rattEfter<TILLBAKA_RATT;
+}
 function levelWeights(area,finns={}){
   const m=Object.fromEntries(NIVAER.map(L=>[L,behärskar(scopeLevel(L,area))]));
   const w={};
   const oppen=oppnaNivaer(area,finns);
+  let kamparUnder=false;
+  NIVAER.forEach((L,i)=>{
+    if(i===0 || !finns[L]) return;
+    if(kamparUnder) oppen[L]=false;
+    else if(kamparPa(area,L)) kamparUnder=L;
+  });
   NIVAER.forEach((L,i)=>{
     const lagre=NIVAER.slice(0,i).filter(K=>finns[K]);
     const redo=lagre.length ? Math.min(...lagre.map(K=>m[K])) : 1;
@@ -7597,6 +7621,7 @@ function levelWeights(area,finns={}){
     const gate=i===0 ? 1 : !oppen[L] ? 0 : Math.max(.04,redo);
     w[L]=gate*(1-.65*m[L]);
   });
+  if(kamparUnder) w[kamparUnder]*=KAMPAR_VIKT;
 
   const v=(PASS[state.passTyp]||{}).vikt;
   if(v) NIVAER.forEach(L=>w[L]*=(v[L]??1));

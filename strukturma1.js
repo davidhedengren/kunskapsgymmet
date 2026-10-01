@@ -1,7 +1,9 @@
 /* strukturma1.js — intern understruktur och elevsynliga träningsområden för Matematik nivå 1.
    OMR-nycklarna bevaras för bank och sparad progression.
    GRUPPMA1 definierar de större områden eleven ser i Kunskapsgymmet; familj är delmoment inom dessa.
-   Reviderad 2026-09-23. Andelar, förhållanden och proportionalitet tillagda för Ma1a/Ma1b via uppgifternas kurstaggar. */
+   Reviderad 2026-09-23. Andelar, förhållanden och proportionalitet tillagda för Ma1a/Ma1b via uppgifternas kurstaggar.
+   Reviderad 2026-10-01: OMR är moment (en lektion i Planering Ma1a 2026/27, samma struktur för 1b/1c) och familj är delmoment.
+   Tidigare namn finns i uppgifternas omrTidigare/familjTidigare. Den första GRUPPMA1 nedan är historisk och skrivs över av den tomma. */
 
 window.KAPNAMNMA1 = {
   "0": "Grundläggande tal och beräkningar",
@@ -16,89 +18,87 @@ window.KAPNAMNMA1 = {
 
 window.OMRMA1 = {
   "0": {
-    "tal_rakneordning": "Tal och räkneordning",
+    "tal_rakneordning": "I vilken ordning ska vi räkna",
     "negativa_tal": "Negativa tal",
-    "decimaltal_positionssystem": "Decimaltal och positionssystem",
+    "decimaltal_positionssystem": "Tal i decimalform",
     "avrundning": "Avrundning",
-    "overslag_grunder": "Överslagsräkning och uppskattning",
+    "overslag_grunder": "Överslagsräkning",
     "enhetsbyten": "Enhetsbyten",
-    "tiopotenser_prefix": "Tiopotenser och prefix",
-    "brakrakning": "Bråkräkning",
-    "andelar": "Andelar",
+    "tiopotenser_prefix": "Tiopotenser och grundpotensform",
+    "prefix": "Prefix",
+    "brakform": "Tal i bråkform",
+    "brakrakning": "Beräkningar med tal i bråkform",
+    "andelar": "Andelar i procent",
     "forhallanden": "Förhållanden",
     "proportionalitet_grunder": "Proportionalitet"
   },
   "1": {
     "algebraiska_uttryck": "Algebraiska uttryck",
-    "multiplicera_uttryck": "Multiplicera uttryck",
-    "faktorisering": "Faktorisering",
-    "formler": "Formler och formelhantering",
+    "forenkla_uttryck": "Skriva och förenkla uttryck",
     "linjara_ekvationer": "Linjära ekvationer",
+    "ekv_flera_variabeltermer": "Ekvationer med flera variabeltermer",
+    "ekv_parenteser": "Ekvationer med parenteser",
+    "ekv_brak": "Bråk i uttryck och ekvationer",
+    "ekv_problemlosning": "Problemlösning med ekvationer",
+    "multiplicera_uttryck": "Multiplikation av uttryck",
+    "faktorisering": "Faktorisera",
+    "formler": "Formler",
+    "monster_samband": "Mönster och generella samband",
     "intervall": "Intervall",
     "linjara_olikheter": "Linjära olikheter"
   },
   "2": {
-    "funktionsbegreppet": "Funktionsbegreppet",
-    "representationer": "Funktioner: ord, uttryck, tabell och graf",
+    "representationer": "Koordinatsystem, formel, värdetabell och graf",
+    "funktionsbegreppet": "Skrivsättet f(x) och funktionsvärden",
     "definitionsmangd_vardemangd": "Definitionsmängd och värdemängd",
-    "funktionsvarden": "Funktionsvärden",
-    "grafisk_ekvationslosning": "Grafisk ekvationslösning",
     "linjara_funktioner": "Linjära funktioner",
     "rata_linjens_ekvation": "Räta linjens ekvation",
     "bestamma_linjar_funktion": "Bestämma en linjär funktion",
+    "grafisk_ekvationslosning": "Grafisk och digital ekvationslösning",
     "exponentialfunktioner": "Exponentialfunktioner",
     "potensfunktioner": "Potensfunktioner",
-    "jamfora_modeller": "Jämföra linjära, exponentiella och potensmodeller"
+    "jamfora_modeller": "Matematiska modeller"
   },
   "3": {
-    "potensregler": "Potenser och potensregler",
-    "potensekvationer": "Potensekvationer",
-    "procent": "Procent och andelar",
-    "index": "Index",
+    "procent": "Procentuella förändringar och jämförelser",
     "forandringsfaktor": "Förändringsfaktor",
     "upprepade_forandringar": "Förändringar i flera steg",
     "genomsnittlig_forandring": "Genomsnittlig procentuell förändring",
+    "index": "Index",
     "ranta": "Ränta",
-    "amortering": "Amortering och lån"
+    "amortering": "Amortering och lån",
+    "potensregler": "Potenser och potensregler",
+    "potensekvationer": "Potensekvationer"
   },
   "4": {
+    "omkrets_area": "Omkrets och area",
+    "volym": "Volym och begränsningsarea",
+    "kvadratrotter": "Kvadratrötter och ekvationen x² = a",
     "pythagoras": "Pythagoras sats",
     "sinus_cosinus_tangens": "Sinus, cosinus och tangens",
-    "arcusfunktioner": "Bestämma vinklar med arcusfunktioner",
-    "strackor_vinklar": "Sträckor och vinklar i rätvinkliga trianglar",
-    "koordinatgeometri": "Sträckor och vinklar i koordinatsystem",
+    "arcusfunktioner": "Bestämma vinklar",
+    "strackor_vinklar": "Trigonometri i tillämpningar",
+    "koordinatgeometri": "Avstånd och mittpunkt i koordinatsystem",
     "vektorer": "Vektorer och koordinatform",
     "vektor_addition_subtraktion": "Addition och subtraktion av vektorer",
     "vektor_absolutbelopp": "Vektorers absolutbelopp",
     "vektor_skalar": "Multiplikation av vektor med skalär"
   },
   "5": {
-    "grundlaggande_sannolikhet": "Grundläggande sannolikhet",
-    "oberoende_handelser": "Oberoende händelser",
+    "grundlaggande_sannolikhet": "Sannolikheten för en händelse",
+    "oberoende_handelser": "Försök med två föremål",
+    "sannolikhet_flera_steg": "Träddiagram och sannolikhet i flera steg",
     "beroende_handelser": "Beroende händelser",
-    "komplementhandelse": "Komplementhändelse",
-    "sannolikhet_flera_steg": "Sannolikhet i flera steg",
+    "komplementhandelse": "Komplementhändelser",
     "risk_sakerhet": "Risk- och säkerhetsbedömningar",
-    "korrelation": "Korrelation",
-    "kausalitet": "Kausalitet",
-    "signifikans": "Signifikans",
-    "urvalsmetoder": "Urvalsmetoder",
-    "felkallor": "Felkällor och kritisk granskning av statistik"
+    "urvalsmetoder": "Stickprov och urvalsmetoder",
+    "signifikans": "Signifikans och felkällor",
+    "korrelation": "Korrelation och kausalitet"
   },
   "6": {
-    "kalkylprogram": "Kalkylprogram – bland annat ränta och amortering",
-    "digital_grafritning": "Digital grafritning",
-    "digital_ekvationslosning": "Digital ekvationslösning",
-    "programmering": "Programmering som matematiskt verktyg",
-    "generella_samband": "Upptäcka och uttrycka generella samband",
-    "problemlosning": "Problemlösning",
-    "privatekonomi": "Privatekonomi",
-    "samhallsliv": "Matematik i samhällslivet",
-    "hallbar_utveckling": "Hållbar utveckling",
-    "kritisk_granskning": "Kritisk granskning av fakta och påståenden",
-    "modellering": "Matematisk modellering",
-    "modellers_begransningar": "Modellers egenskaper och begränsningar",
-    "matematikens_historia": "Matematikens historia"
+    "kalkylprogram": "Kalkylprogram och privatekonomi",
+    "samhallsliv": "Matematik i samhälle och historia",
+    "programmering": "Programmering"
   },
   "7": {
     "proportionalitet_yrke": "Proportionalitet i arbetslivet",

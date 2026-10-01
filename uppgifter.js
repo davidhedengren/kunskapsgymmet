@@ -121786,5 +121786,769 @@ window.BANK = [
     "miniräknare": false,
     "geogebra": false,
     "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.356",
+    "kap": 3,
+    "omr": "vt_diagram",
+    "niva": "E",
+    "typ": "avläsa hastighet i v-t-diagram",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar hastigheten hos en elsparkcykel som startar vid ett rödljus.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"v-t-diagram: ökar från 0 till 8 m/s på 4 s, sedan konstant\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"88.80\" y1=\"36\" x2=\"88.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"162.40\" y1=\"36\" x2=\"162.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"309.60\" y1=\"36\" x2=\"309.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"383.20\" y1=\"36\" x2=\"383.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"183.20\" x2=\"420\" y2=\"183.20\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"146.40\" x2=\"420\" y2=\"146.40\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"109.60\" x2=\"420\" y2=\"109.60\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"72.80\" x2=\"420\" y2=\"72.80\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,220.0 199.2,72.8 420.0,72.8\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">v (m/s)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"88.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"162.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"309.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">7</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">8</text><text x=\"383.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">9</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"187.20\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"44\" y=\"150.40\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"44\" y=\"113.60\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"44\" y=\"76.80\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">8</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text></svg></span><p>Hur stor är hastigheten vid t = 6 s?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Läs av grafen vid 6 s. Efter 4 s är grafen vågrät på 8 m/s.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Tolka och rita v-t-diagram",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Gå upp från t = 6 s till grafen och läs av på v-axeln.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s"
+  },
+  {
+    "id": "3.357",
+    "kap": 3,
+    "omr": "vt_diagram",
+    "niva": "E",
+    "typ": "vändpunkt i v-t-diagram",
+    "poang": "(1/0/0)",
+    "t": "<p>En boll rullar uppför en ramp, stannar och rullar sedan tillbaka. Uppför rampen är positiv riktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"v-t-diagram: rät linje från 6 m/s vid 0 s till −3 m/s vid 6 s\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"113.33\" y1=\"36\" x2=\"113.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"358.67\" y1=\"36\" x2=\"358.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"189.33\" x2=\"420\" y2=\"189.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"158.67\" x2=\"420\" y2=\"158.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"128.00\" x2=\"420\" y2=\"128.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"97.33\" x2=\"420\" y2=\"97.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"66.67\" x2=\"420\" y2=\"66.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"158.7\" x2=\"420\" y2=\"158.7\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,66.7 420.0,204.7\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">v (m/s)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"113.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"358.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">−4</text><text x=\"44\" y=\"193.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">−2</text><text x=\"44\" y=\"162.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"132.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"44\" y=\"101.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"44\" y=\"70.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">8</text></svg></span><p>Vid vilken tidpunkt vänder bollen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bollen vänder när hastigheten byter tecken, alltså där grafen skär t-axeln. Linjen går från 6 m/s till −3 m/s på 6 s, och skär axeln vid 4 s.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(t=4\\ \\mathrm s\\).</p></div>",
+    "familj": "Tolka och rita v-t-diagram",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken hastighet har bollen i vändläget?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
+  },
+  {
+    "id": "3.358",
+    "kap": 3,
+    "omr": "vt_diagram",
+    "niva": "E",
+    "typ": "stillastående i v-t-diagram",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar en spårvagns hastighet mellan två hållplatser.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"v-t-diagram: ökar till 10 m/s på 2 s, konstant till 5 s, minskar till 0 vid 7 s, sedan 0\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"92.89\" y1=\"36\" x2=\"92.89\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"133.78\" y1=\"36\" x2=\"133.78\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"215.56\" y1=\"36\" x2=\"215.56\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"256.44\" y1=\"36\" x2=\"256.44\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"338.22\" y1=\"36\" x2=\"338.22\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"379.11\" y1=\"36\" x2=\"379.11\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"189.33\" x2=\"420\" y2=\"189.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"158.67\" x2=\"420\" y2=\"158.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"128.00\" x2=\"420\" y2=\"128.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"97.33\" x2=\"420\" y2=\"97.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"66.67\" x2=\"420\" y2=\"66.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,220.0 133.8,66.7 256.4,66.7 338.2,220.0 420.0,220.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">v (m/s)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"92.89\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"133.78\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"215.56\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"256.44\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"338.22\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">7</text><text x=\"379.11\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">8</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">9</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"193.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"44\" y=\"162.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"44\" y=\"132.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"44\" y=\"101.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">8</text><text x=\"44\" y=\"70.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">12</text></svg></span><p>Under vilket tidsintervall står spårvagnen still?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Spårvagnen står still när hastigheten är noll, alltså när grafen ligger på t-axeln. Det gäller mellan 7 och 9 s.</p><p class=\"facit-svar\"><strong>Svar:</strong> 7–9 s.</p></div>",
+    "familj": "Tolka och rita v-t-diagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "2–5 s",
+        "ratt": false,
+        "kommentar": "Där är hastigheten 10 m/s och konstant."
+      },
+      {
+        "txt": "5–7 s",
+        "ratt": false,
+        "kommentar": "Där bromsar spårvagnen."
+      },
+      {
+        "txt": "7–9 s",
+        "ratt": true,
+        "kommentar": "Hastigheten är noll."
+      },
+      {
+        "txt": "0–2 s",
+        "ratt": false,
+        "kommentar": "Där ökar hastigheten."
+      }
+    ],
+    "ledtrad": "<p>Vilken hastighet har ett föremål som står still?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false
+  },
+  {
+    "id": "3.359",
+    "kap": 3,
+    "omr": "vt_diagram",
+    "niva": "C",
+    "typ": "riktning ur v-t-diagram",
+    "poang": "(0/1/0)",
+    "t": "<p>Diagrammet visar hastigheten hos en hiss. Uppåt är positiv riktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"v-t-diagram för en hiss: positiv hastighet 0–5 s, noll 5–6 s, negativ 6–10 s\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"88.80\" y1=\"36\" x2=\"88.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"162.40\" y1=\"36\" x2=\"162.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"309.60\" y1=\"36\" x2=\"309.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"383.20\" y1=\"36\" x2=\"383.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"189.33\" x2=\"420\" y2=\"189.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"158.67\" x2=\"420\" y2=\"158.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"128.00\" x2=\"420\" y2=\"128.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"97.33\" x2=\"420\" y2=\"97.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"66.67\" x2=\"420\" y2=\"66.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"128.0\" x2=\"420\" y2=\"128.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,128.0 88.8,66.7 199.2,66.7 236.0,128.0 272.8,128.0 309.6,189.3 420.0,189.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">t (s)</text><text x=\"12\" y=\"26\" font-size=\"13\">v (m/s)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"88.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"162.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"309.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">7</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">8</text><text x=\"383.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">9</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">−3</text><text x=\"44\" y=\"193.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">−2</text><text x=\"44\" y=\"162.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">−1</text><text x=\"44\" y=\"132.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"101.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"44\" y=\"70.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">3</text></svg></span><p>Under vilket tidsintervall åker hissen nedåt?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Tecknet på hastigheten anger riktningen. Grafen ligger under t-axeln mellan 6 och 10 s, så då åker hissen nedåt.</p><p class=\"facit-svar\"><strong>Svar:</strong> 6–10 s.</p></div>",
+    "familj": "Tolka och rita v-t-diagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "0–5 s",
+        "ratt": false,
+        "kommentar": "Hastigheten är positiv, alltså uppåt."
+      },
+      {
+        "txt": "5–6 s",
+        "ratt": false,
+        "kommentar": "Hissen står still."
+      },
+      {
+        "txt": "6–10 s",
+        "ratt": true,
+        "kommentar": "Hastigheten är negativ, alltså nedåt."
+      },
+      {
+        "txt": "Hissen åker aldrig nedåt.",
+        "ratt": false,
+        "kommentar": "Grafen ligger under t-axeln efter 6 s."
+      }
+    ],
+    "ledtrad": "<p>Vad betyder det att grafen ligger under t-axeln?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false
+  },
+  {
+    "id": "4.493",
+    "kap": 4,
+    "omr": "newton3",
+    "niva": "C",
+    "typ": "kast från skateboard",
+    "poang": "(0/1/0)",
+    "t": "<p>En skateboardåkare med massan 60 kg står stilla och kastar iväg en medicinboll med massan 4,0 kg. Under kastet påverkar hon bollen med kraften 80 N framåt. Friktionen försummas.</p><p>Bestäm storleken på skateboardåkarens acceleration under kastet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Bollen påverkar skateboardåkaren med 80 N bakåt enligt Newtons tredje lag.</p><div class=\"facit-matte\">\\[a=\\frac{80}{60}\\approx1{,}3\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}3\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Tredje lagen och rörelse",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.333,
+    "tolerans": 0.04,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken kraft verkar på skateboardåkaren, och vilken massa ska användas?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s²"
+  },
+  {
+    "id": "4.494",
+    "kap": 4,
+    "omr": "newton3",
+    "niva": "C",
+    "typ": "rekyl i gevär",
+    "poang": "(0/1/0)",
+    "t": "<p>En kula med massan 10 g accelereras i ett gevärslopp av krutgaserna med medelkraften 2,0 kN. Geväret har massan 4,0 kg och antas hänga fritt i en testrigg.</p><p>Bestäm storleken på gevärets acceleration medan kulan är i loppet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Kulan och gaserna trycker tillbaka på geväret med lika stor kraft.</p><div class=\"facit-matte\">\\[a=\\frac{F}{m}=\\frac{2{,}0\\cdot10^3}{4{,}0}=500\\ \\mathrm{m/s^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(500\\ \\mathrm{m/s^2}\\).</p></div>",
+    "familj": "Tredje lagen och rörelse",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 500,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Kraften på kulan har en motkraft. Vilken kropp verkar den på?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s²"
+  },
+  {
+    "id": "4.495",
+    "kap": 4,
+    "omr": "newton3",
+    "niva": "C",
+    "typ": "jorden och det fallande äpplet",
+    "poang": "(0/1/0)",
+    "t": "<p>Ett äpple faller mot marken. Jorden drar i äpplet och äpplet drar lika mycket i jorden.</p><p>Varför märks det inte att jorden rör sig mot äpplet?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Kraften på jorden är lika stor som på äpplet, men Newtons andra lag ger a = F/m. Jordens massa är ungefär 10²⁵ gånger större, så dess acceleration blir omätbart liten.</p><p class=\"facit-svar\"><strong>Svar:</strong> Jordens massa är så stor att accelerationen blir försvinnande liten.</p></div>",
+    "familj": "Tredje lagen och rörelse",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Jorden har så enorm massa att samma kraft ger en försvinnande liten acceleration.",
+        "ratt": true,
+        "kommentar": "a = F/m blir i storleksordningen 10⁻²⁵ m/s²."
+      },
+      {
+        "txt": "Äpplets kraft på jorden är mycket mindre än jordens kraft på äpplet.",
+        "ratt": false,
+        "kommentar": "Krafterna är lika stora enligt tredje lagen."
+      },
+      {
+        "txt": "Kraften på jorden tas ut av normalkraften från äpplet.",
+        "ratt": false,
+        "kommentar": "Någon sådan normalkraft finns inte medan äpplet faller."
+      },
+      {
+        "txt": "Tredje lagen gäller bara för kroppar som rör vid varandra.",
+        "ratt": false,
+        "kommentar": "Den gäller även för gravitation."
+      }
+    ],
+    "ledtrad": "<p>Använd Newtons andra lag på jorden.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false
+  },
+  {
+    "id": "5.358",
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "arbete som rektangelarea",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar dragkraften i rörelseriktningen när en släde dras över snön.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: konstant 40 N från 0 till 5 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"183.20\" x2=\"420\" y2=\"183.20\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"146.40\" x2=\"420\" y2=\"146.40\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"109.60\" x2=\"420\" y2=\"109.60\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"72.80\" x2=\"420\" y2=\"72.80\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,72.8 420.0,72.8\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"26\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"187.20\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"150.40\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"113.60\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"76.80\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text></svg></span><p>Bestäm arbetet som dragkraften uträttar på 5 m.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Arbetet är arean under kraft–sträcka-grafen.</p><div class=\"facit-matte\">\\[W=40\\cdot5=200\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(200\\ \\mathrm J\\).</p></div>",
+    "familj": "Arbete ur kraftdiagram",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 200,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken storhet motsvarar arean under en F–s-graf?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
+  },
+  {
+    "id": "5.359",
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "E",
+    "typ": "arbete som triangelarea",
+    "poang": "(1/0/0)",
+    "t": "<p>Diagrammet visar kraften som krävs för att dra ut ett träningsgummiband.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: rät linje från 0 till 60 N på 0,30 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"113.33\" y1=\"36\" x2=\"113.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"358.67\" y1=\"36\" x2=\"358.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"193.71\" x2=\"420\" y2=\"193.71\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"167.43\" x2=\"420\" y2=\"167.43\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"141.14\" x2=\"420\" y2=\"141.14\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"114.86\" x2=\"420\" y2=\"114.86\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"88.57\" x2=\"420\" y2=\"88.57\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.29\" x2=\"420\" y2=\"62.29\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,220.0 420.0,62.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"26\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"113.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,05</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,1</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,15</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,2</text><text x=\"358.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,25</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0,3</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"197.71\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"171.43\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"145.14\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"118.86\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"92.57\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"66.29\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">70</text></svg></span><p>Bestäm arbetet när bandet dras ut 0,30 m.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Arean under grafen är en triangel.</p><div class=\"facit-matte\">\\[W=\\tfrac12\\cdot0{,}30\\cdot60=9{,}0\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm J\\).</p></div>",
+    "familj": "Arbete ur kraftdiagram",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken form har området under grafen?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
+  },
+  {
+    "id": "5.360",
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "arbete ur sammansatt area",
+    "poang": "(0/1/0)",
+    "t": "<p>En stock dras med ett rep. När stocken når en asfaltväg släpper man gradvis på repet. Diagrammet visar dragkraften i rörelseriktningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: 50 N från 0 till 4 m, sedan linjärt ned till 0 vid 6 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"113.33\" y1=\"36\" x2=\"113.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"174.67\" y1=\"36\" x2=\"174.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"236.00\" y1=\"36\" x2=\"236.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"297.33\" y1=\"36\" x2=\"297.33\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"358.67\" y1=\"36\" x2=\"358.67\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"189.33\" x2=\"420\" y2=\"189.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"158.67\" x2=\"420\" y2=\"158.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"128.00\" x2=\"420\" y2=\"128.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"97.33\" x2=\"420\" y2=\"97.33\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"66.67\" x2=\"420\" y2=\"66.67\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,66.7 297.3,66.7 420.0,220.0\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"26\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"113.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"174.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"236.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"297.33\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"358.67\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">6</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"193.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"162.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"132.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"101.33\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"70.67\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text></svg></span><p>Bestäm det totala arbetet som dragkraften uträttar.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Dela upp arean i en rektangel och en triangel.</p><div class=\"facit-matte\">\\[W=50\\cdot4+\\tfrac12\\cdot2\\cdot50=200+50=250\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\ \\mathrm J\\).</p></div>",
+    "familj": "Arbete ur kraftdiagram",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 250,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Dela upp området under grafen i enklare figurer.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
+  },
+  {
+    "id": "5.361",
+    "kap": 5,
+    "omr": "arbete",
+    "niva": "C",
+    "typ": "arbete för del av sträckan",
+    "poang": "(0/1/0)",
+    "t": "<p>En låda knuffas först över ett kakelgolv och sedan in på en heltäckningsmatta, där det krävs större kraft. Diagrammet visar knuffkraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"Kraft–sträcka-diagram: 30 N från 0 till 2 m, 60 N från 2 till 5 m\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><line x1=\"52.00\" y1=\"36\" x2=\"52.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"125.60\" y1=\"36\" x2=\"125.60\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"199.20\" y1=\"36\" x2=\"199.20\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"272.80\" y1=\"36\" x2=\"272.80\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"346.40\" y1=\"36\" x2=\"346.40\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"420.00\" y1=\"36\" x2=\"420.00\" y2=\"220\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.00\" x2=\"420\" y2=\"220.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"193.71\" x2=\"420\" y2=\"193.71\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"167.43\" x2=\"420\" y2=\"167.43\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"141.14\" x2=\"420\" y2=\"141.14\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"114.86\" x2=\"420\" y2=\"114.86\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"88.57\" x2=\"420\" y2=\"88.57\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"62.29\" x2=\"420\" y2=\"62.29\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"36.00\" x2=\"420\" y2=\"36.00\" stroke=\"#CFCDD2\" stroke-width=\"1\"/><line x1=\"52\" y1=\"220.0\" x2=\"420\" y2=\"220.0\" stroke=\"#334155\" stroke-width=\"1.7\"/><line x1=\"52\" y1=\"36\" x2=\"52\" y2=\"220\" stroke=\"#334155\" stroke-width=\"1.7\"/><polyline points=\"52.0,141.1 199.2,141.1\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><polyline points=\"199.2,62.3 420.0,62.3\" fill=\"none\" stroke=\"#176b87\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"420\" y=\"258\" text-anchor=\"end\" font-size=\"13\">s (m)</text><text x=\"12\" y=\"26\" font-size=\"13\">F (N)</text><text x=\"52.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"125.60\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">1</text><text x=\"199.20\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">2</text><text x=\"272.80\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">3</text><text x=\"346.40\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">4</text><text x=\"420.00\" y=\"238\" text-anchor=\"middle\" font-size=\"12\"  fill=\"#5C575E\">5</text><text x=\"44\" y=\"224.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">0</text><text x=\"44\" y=\"197.71\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">10</text><text x=\"44\" y=\"171.43\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">20</text><text x=\"44\" y=\"145.14\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">30</text><text x=\"44\" y=\"118.86\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">40</text><text x=\"44\" y=\"92.57\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">50</text><text x=\"44\" y=\"66.29\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">60</text><text x=\"44\" y=\"40.00\" text-anchor=\"end\" font-size=\"12\"  fill=\"#5C575E\">70</text></svg></span><p>Bestäm arbetet under de första 3,0 m.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Räkna bara arean fram till s = 3,0 m.</p><div class=\"facit-matte\">\\[W=30\\cdot2+60\\cdot1=120\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(120\\ \\mathrm J\\).</p></div>",
+    "familj": "Arbete ur kraftdiagram",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Var slutar området du ska räkna? Dela upp det vid kraftbytet.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
+  },
+  {
+    "id": "5.362",
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "Newtons vagga",
+    "poang": "(0/1/0)",
+    "t": "<p>I en Newtons vagga hänger fem likadana stålkulor i rad. Den yttersta kulan släpps och träffar raden med farten 0,80 m/s. Stötarna är elastiska och kulan stannar vid träffen.</p><p>Med vilken fart lämnar kulan i andra änden raden?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">När kulorna har samma massa och stöten är elastisk lämnas hela rörelsemängden och rörelseenergin över.</p><div class=\"facit-matte\">\\[mv=mv'\\Rightarrow v'=0{,}80\\ \\mathrm{m/s}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}80\\ \\mathrm{m/s}\\).</p></div>",
+    "familj": "Elastisk stöt och energikontroll",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.8,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Rörelsemängden ska bevaras och kulorna har samma massa.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s"
+  },
+  {
+    "id": "5.363",
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "rörelseenergi efter magnetstöt",
+    "poang": "(0/1/0)",
+    "t": "<p>Två vagnar har magneter som stöter bort varandra så att de aldrig nuddar. Vagn A (2,0 kg) rullar med 3,0 m/s mot vagn B (1,0 kg) som står still. Efter stöten har A farten 1,0 m/s och B farten 4,0 m/s, båda i A:s ursprungliga riktning.</p><p>Bestäm den totala rörelseenergin efter stöten.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Summera rörelseenergin för båda vagnarna.</p><div class=\"facit-matte\">\\[E_k=\\tfrac12\\cdot2{,}0\\cdot1{,}0^2+\\tfrac12\\cdot1{,}0\\cdot4{,}0^2=1{,}0+8{,}0=9{,}0\\ \\mathrm J\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}0\\ \\mathrm J\\). Före stöten var den också 9,0 J, så stöten är elastisk.</p></div>",
+    "familj": "Elastisk stöt och energikontroll",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Räkna rörelseenergin för varje vagn och lägg ihop.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "J"
+  },
+  {
+    "id": "5.364",
+    "kap": 5,
+    "omr": "kollisioner",
+    "niva": "C",
+    "typ": "villkor för elastisk stöt",
+    "poang": "(0/1/0)",
+    "t": "<p>Två biljardbollar kolliderar. Rörelsemängden är bevarad i alla stötar mellan dem.</p><p>Vad krävs för att stöten ska kallas elastisk?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Rörelsemängden bevaras i alla stötar där yttre krafter kan försummas. En elastisk stöt kännetecknas av att även rörelseenergin bevaras.</p><p class=\"facit-svar\"><strong>Svar:</strong> Rörelseenergin bevaras.</p></div>",
+    "familj": "Elastisk stöt och energikontroll",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Den totala rörelseenergin är densamma före och efter stöten.",
+        "ratt": true,
+        "kommentar": "Ingen rörelseenergi omvandlas till värme, ljud eller deformation."
+      },
+      {
+        "txt": "Bollarna fastnar i varandra.",
+        "ratt": false,
+        "kommentar": "Det är en fullständigt oelastisk stöt."
+      },
+      {
+        "txt": "Bollarna har samma fart efter stöten.",
+        "ratt": false,
+        "kommentar": "Det gäller inte i allmänhet."
+      },
+      {
+        "txt": "Rörelsemängden bevaras.",
+        "ratt": false,
+        "kommentar": "Det gäller alla stötar utan yttre krafter."
+      }
+    ],
+    "ledtrad": "<p>Vad skiljer en elastisk stöt från andra stötar?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false
+  },
+  {
+    "id": "8.387",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "laddningsdelning i två steg",
+    "poang": "(0/1/0)",
+    "t": "<p>Tre identiska metallkulor A, B och C sitter på isolerande stativ. A har laddningen +12 nC och B och C är oladdade. A förs i kontakt med B och skiljs, sedan förs B i kontakt med C och skiljs.</p><p>Bestäm laddningen på C. Svara i nC.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Identiska ledare delar laddningen lika vid kontakt.</p><div class=\"facit-matte\">\\[A,B:\\ \\tfrac{12+0}{2}=6\\ \\mathrm{nC}\\qquad B,C:\\ \\tfrac{6+0}{2}=3\\ \\mathrm{nC}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(+3\\ \\mathrm{nC}\\).</p></div>",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Följ kontakterna i tur och ordning. Vad händer med laddningen när två identiska kulor nuddar?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "nC"
+  },
+  {
+    "id": "8.388",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "influens på pappersbit",
+    "poang": "(1/0/0)",
+    "t": "<p>En kam som laddats negativt drar till sig små oladdade pappersbitar.</p><p>Hur kan en oladdad pappersbit dras mot kammen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Den negativa kammen påverkar laddningarna i papperet så att den närmaste sidan blir positiv och den bortre negativ. Den positiva sidan är närmare och attraheras starkare än den negativa stöts bort.</p><p class=\"facit-svar\"><strong>Svar:</strong> Influens: den närmaste sidan blir positiv.</p></div>",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Laddningarna i papperet förskjuts så att sidan närmast kammen blir svagt positiv.",
+        "ratt": true,
+        "kommentar": "Attraktionen till den närmare sidan blir större än repulsionen från den bortre."
+      },
+      {
+        "txt": "Kammen ger papperet negativ laddning innan de rör vid varandra.",
+        "ratt": false,
+        "kommentar": "Papperet dras till kammen innan någon kontakt sker."
+      },
+      {
+        "txt": "Papperet är egentligen positivt laddat.",
+        "ratt": false,
+        "kommentar": "Det är oladdat enligt uppgiften."
+      },
+      {
+        "txt": "Gravitationen mellan kam och papper är stark.",
+        "ratt": false,
+        "kommentar": "Gravitationen är försumbar här."
+      }
+    ],
+    "ledtrad": "<p>Vad händer med laddningarna i ett föremål som kommer nära en laddning?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false
+  },
+  {
+    "id": "8.389",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "C",
+    "typ": "laddning på ledares yta",
+    "poang": "(0/1/0)",
+    "t": "<p>En ihålig metallkula laddas med ett överskott av elektroner.</p><p>Var hamnar överskottsladdningen?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I en ledare kan elektronerna röra sig fritt. De stöter bort varandra och fördelar sig så långt ifrån varandra som möjligt, alltså på den yttre ytan.</p><p class=\"facit-svar\"><strong>Svar:</strong> På den yttre ytan.</p></div>",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "På kulans yttre yta",
+        "ratt": true,
+        "kommentar": "Laddningarna stöter bort varandra och kan röra sig fritt i metallen."
+      },
+      {
+        "txt": "Jämnt fördelad genom metallen",
+        "ratt": false,
+        "kommentar": "I en ledare flyttar sig laddningarna så långt ifrån varandra som möjligt."
+      },
+      {
+        "txt": "I kulans mitt",
+        "ratt": false,
+        "kommentar": "Kulan är ihålig och laddningarna stöter bort varandra."
+      },
+      {
+        "txt": "Där elektronerna tillfördes",
+        "ratt": false,
+        "kommentar": "I en ledare är laddningarna fria att röra sig."
+      }
+    ],
+    "ledtrad": "<p>Laddningarna kan röra sig fritt och stöter bort varandra. Hur långt ifrån varandra kan de komma?</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false
+  },
+  {
+    "id": "8.390",
+    "kap": 8,
+    "omr": "coulomb",
+    "niva": "E",
+    "typ": "ledare och isolator",
+    "poang": "(1/0/0)",
+    "t": "<p>Vilket av materialen är en god elektrisk ledare?</p><p>Markera det korrekta alternativet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Metaller som koppar har elektroner som kan röra sig fritt. Därför används koppar i elektriska ledningar.</p><p class=\"facit-svar\"><strong>Svar:</strong> Koppar.</p></div>",
+    "familj": "Ledare, influens och laddningsutjämning",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "självrättning": true,
+    "alternativ": [
+      {
+        "txt": "Koppar",
+        "ratt": true,
+        "kommentar": "Metaller har fria elektroner."
+      },
+      {
+        "txt": "Glas",
+        "ratt": false,
+        "kommentar": "Glas är en isolator."
+      },
+      {
+        "txt": "Torrt trä",
+        "ratt": false,
+        "kommentar": "Torrt trä isolerar."
+      },
+      {
+        "txt": "Plast",
+        "ratt": false,
+        "kommentar": "Plast används som isolering runt sladdar."
+      }
+    ],
+    "ledtrad": "<p>Vilket material används i elsladdar?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false
+  },
+  {
+    "id": "9.320",
+    "kap": 9,
+    "omr": "karnreaktioner",
+    "niva": "E",
+    "typ": "masstal i neutroninfångning",
+    "poang": "(1/0/0)",
+    "t": "<p>Bor används i kärnkraftverkens styrstavar eftersom borkärnor fångar neutroner: ¹⁰₅B + ¹₀n → ⁷₃Li + X.</p><p>Vilket masstal har partikeln X?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Masstalet bevaras.</p><div class=\"facit-matte\">\\[10+1=7+A\\Rightarrow A=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4. X är en alfapartikel, ⁴₂He.</p></div>",
+    "familj": "Reaktionsformler och bevarandelagar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Summan av masstalen ska vara densamma före och efter.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "9.321",
+    "kap": 9,
+    "omr": "karnreaktioner",
+    "niva": "E",
+    "typ": "atomnummer i Rutherfords reaktion",
+    "poang": "(1/0/0)",
+    "t": "<p>Den första konstgjorda kärnreaktionen genomfördes av Rutherford 1919: ¹⁴₇N + ⁴₂He → ¹⁷₈O + X.</p><p>Vilket atomnummer har partikeln X?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Laddningen, alltså summan av atomnumren, bevaras.</p><div class=\"facit-matte\">\\[7+2=8+Z\\Rightarrow Z=1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 1. X är en proton, ¹₁H.</p></div>",
+    "familj": "Reaktionsformler och bevarandelagar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Summan av atomnumren ska vara densamma före och efter.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "9.322",
+    "kap": 9,
+    "omr": "karnreaktioner",
+    "niva": "C",
+    "typ": "sönderfallskedja för neptunium",
+    "poang": "(0/1/0)",
+    "t": "<p>Neptunium-237 (atomnummer 93) sönderfaller i flera steg genom alfa- och beta-minus-sönderfall till vismut-209 (atomnummer 83).</p><p>Hur många beta-minus-sönderfall sker i kedjan?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Masstalet ändras bara vid alfasönderfall. Bestäm först antalet alfasönderfall och sedan hur många beta-minus som behövs för atomnumret.</p><div class=\"facit-matte\">\\[\\text{alfa: }\\frac{237-209}{4}=7\\]</div><div class=\"facit-matte\">\\[93-2\\cdot7+n_\\beta=83\\Rightarrow n_\\beta=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4 beta-minus-sönderfall.</p></div>",
+    "familj": "Reaktionsformler och bevarandelagar",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken sönderfallstyp ändrar masstalet? Börja med den.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "miniräknare": false,
+    "geogebra": false,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "9.323",
+    "kap": 9,
+    "omr": "em_stralning",
+    "niva": "C",
+    "typ": "fotonenergi för röd laser",
+    "poang": "(0/1/0)",
+    "t": "<p>En röd laserpekare sänder ut ljus med våglängden 650 nm. Plancks konstant är 6,63·10⁻³⁴ Js, ljusets hastighet är 3,00·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>Bestäm fotonenergin i elektronvolt.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd E = hc/λ och omvandla till elektronvolt.</p><div class=\"facit-matte\">\\[E=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{650\\cdot10^{-9}}\\approx3{,}06\\cdot10^{-19}\\ \\mathrm J\\approx1{,}91\\ \\mathrm{eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\ \\mathrm{eV}\\).</p></div>",
+    "familj": "Fotonenergi",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.91,
+    "tolerans": 0.03,
+    "självrättning": true,
+    "ledtrad": "<p>Kombinera E = hf med c = fλ.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "eV"
+  },
+  {
+    "id": "9.324",
+    "kap": 9,
+    "omr": "em_stralning",
+    "niva": "C",
+    "typ": "våglängd ur fotonenergi",
+    "poang": "(0/1/0)",
+    "t": "<p>En blå lysdiod sänder ut fotoner med energin 2,7 eV. Plancks konstant är 6,63·10⁻³⁴ Js, ljusets hastighet är 3,00·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>Bestäm ljusets våglängd i nanometer.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Omvandla energin till joule och lös ut våglängden ur E = hc/λ.</p><div class=\"facit-matte\">\\[E=2{,}7\\cdot1{,}602\\cdot10^{-19}\\approx4{,}33\\cdot10^{-19}\\ \\mathrm J\\]</div><div class=\"facit-matte\">\\[\\lambda=\\frac{hc}{E}=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^8}{4{,}33\\cdot10^{-19}}\\approx4{,}6\\cdot10^{-7}\\ \\mathrm m=460\\ \\mathrm{nm}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(460\\ \\mathrm{nm}\\).</p></div>",
+    "familj": "Fotonenergi",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 460,
+    "tolerans": 4,
+    "självrättning": true,
+    "ledtrad": "<p>Lös ut λ ur E = hc/λ. Glöm inte att omvandla eV till joule.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "nm"
+  },
+  {
+    "id": "9.325",
+    "kap": 9,
+    "omr": "em_stralning",
+    "niva": "C",
+    "typ": "fotonenergi för mikrovågor",
+    "poang": "(0/1/0)",
+    "t": "<p>En mikrovågsugn använder frekvensen 2,45 GHz. Plancks konstant är 6,63·10⁻³⁴ Js, ljusets hastighet är 3,00·10⁸ m/s och 1 eV = 1,602·10⁻¹⁹ J.</p><p>Bestäm energin hos en mikrovågsfoton i mikroelektronvolt (µeV).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Använd E = hf och omvandla till elektronvolt.</p><div class=\"facit-matte\">\\[E=6{,}63\\cdot10^{-34}\\cdot2{,}45\\cdot10^9\\approx1{,}62\\cdot10^{-24}\\ \\mathrm J\\]</div><div class=\"facit-matte\">\\[E=\\frac{1{,}62\\cdot10^{-24}}{1{,}602\\cdot10^{-19}}\\approx1{,}0\\cdot10^{-5}\\ \\mathrm{eV}=10\\ \\mathrm{\\mu eV}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\ \\mathrm{\\mu eV}\\). Det är långt under de några eV som behövs för att jonisera.</p></div>",
+    "familj": "Fotonenergi",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.14,
+    "tolerans": 0.2,
+    "självrättning": true,
+    "ledtrad": "<p>Använd E = hf. En mikroelektronvolt är 10⁻⁶ eV.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "spel": true,
+    "miniräknare": true,
+    "geogebra": false,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "µeV"
   }
 ];

@@ -33,7 +33,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Siffran 7 har värdet \\(0{,}07\\).",
     "komihag": "Skilj mellan siffran och det värde den har på sin plats.",
-    "traningsfamilj": "Positionsvärde i decimaltal"
+    "traningsfamilj": "Positionsvärde och decimalform"
   },
   "ma1-grund-0-02": {
     "kap": 0,
@@ -60,7 +60,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(0{,}8\\) är störst.",
     "komihag": "Fler decimaler betyder inte att ett tal är större.",
-    "traningsfamilj": "Jämföra och ordna decimaltal"
+    "traningsfamilj": "Jämföra decimaltal och tallinjen"
   },
   "ma1-grund-0-03": {
     "kap": 0,
@@ -87,7 +87,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Punkt A visar \\(0{,}7\\).",
     "komihag": "Räkna mellanrummen mellan skalstrecken, inte antalet streck.",
-    "traningsfamilj": "Avläsa och placera decimaltal på tallinjen"
+    "traningsfamilj": "Jämföra decimaltal och tallinjen"
   },
   "ma1-grund-0-04": {
     "kap": 0,
@@ -142,7 +142,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(-12\\) och \\(12\\).",
-    "komihag": "Samma teckenregler gäller vid division, till exempel (−12)/(−3) = 4. Vid addition gäller de inte: −4 + (−3) = −7."
+    "komihag": "Samma teckenregler gäller vid division, till exempel (−12)/(−3) = 4. Vid addition gäller de inte: −4 + (−3) = −7.",
+    "traningsfamilj": "Negativa tal och prioriteringsregler"
   },
   "ma1-grund-0-06": {
     "kap": 0,
@@ -170,7 +171,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Svaret är \\(9\\).",
     "komihag": "Räknesätt med samma prioritet utförs från vänster till höger.",
-    "traningsfamilj": "Räkna med prioriteringsregler"
+    "traningsfamilj": "Parenteser och räknetecken"
   },
   "ma1-grund-0-07": {
     "kap": 0,
@@ -224,11 +225,11 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Produkten är ungefär \\(10\\,000\\).",
     "komihag": "Ett överslag ska visa storleksordningen; det behöver inte vara ett exakt svar.",
-    "traningsfamilj": "Göra överslagsberäkningar"
+    "traningsfamilj": "Överslag med angiven avrundning"
   },
   "ma1-grund-0-09": {
     "kap": 0,
-    "omr": "brakrakning",
+    "omr": "brakform",
     "kurs": [
       "1a",
       "1b",
@@ -251,7 +252,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(\\frac34\\).",
     "komihag": "Du måste göra samma förändring i både täljaren och nämnaren.",
-    "traningsfamilj": "Förkorta bråk"
+    "traningsfamilj": "Bråkform, blandad form och decimalform"
   },
   "ma1-grund-0-10": {
     "kap": 0,
@@ -279,7 +280,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(\\frac7{12}\\).",
     "komihag": "Vid subtraktion gör du på samma sätt men subtraherar täljarna.",
-    "traningsfamilj": "Addition och subtraktion med olika nämnare"
+    "traningsfamilj": "Räkna med bråk"
   },
   "ma1-grund-0-11": {
     "kap": 0,
@@ -306,7 +307,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(\\frac25\\).",
-    "komihag": "Gemensam nämnare behövs vid addition och subtraktion, men inte vid multiplikation."
+    "komihag": "Gemensam nämnare behövs vid addition och subtraktion, men inte vid multiplikation.",
+    "traningsfamilj": "Räkna med bråk"
   },
   "ma1-grund-0-12": {
     "kap": 0,
@@ -334,7 +336,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(\\frac32=1{,}5\\).",
     "komihag": "Division med ett positivt tal mindre än 1 ger ett större tal.",
-    "traningsfamilj": "Division av bråk"
+    "traningsfamilj": "Räkna med bråk"
   },
   "ma1-grund-0-13": {
     "kap": 0,
@@ -362,7 +364,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(240\\ \\mathrm{cm}\\) och \\(0{,}75\\ \\mathrm{kg}\\).",
     "komihag": "En mindre enhet ger ett större mätetal för samma storhet.",
-    "traningsfamilj": "Omvandla mellan längd-, massa- och volymenheter"
+    "traningsfamilj": "Längd, massa och tid"
   },
   "ma1-grund-0-14": {
     "kap": 0,
@@ -390,7 +392,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(2\\,000\\ \\mathrm{cm^2}\\) och \\(3{,}0\\ \\mathrm{dm^3}\\).",
     "komihag": "1 m² = 10 000 cm². 1 m³ = 1 000 dm³ = 1 000 liter.",
-    "traningsfamilj": "Omvandla area- och tidsenheter"
+    "traningsfamilj": "Area- och volymenheter"
   },
   "ma1-grund-0-15": {
     "kap": 0,
@@ -446,11 +448,11 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Uttryckets värde är \\(19\\).",
     "komihag": "Om variabeln är negativ är det tydligt att sätta dess värde inom parentes.",
-    "traningsfamilj": "Beräkna värdet av ett uttryck"
+    "traningsfamilj": "Värdet av ett uttryck"
   },
   "ma1-grund-1-02": {
     "kap": 1,
-    "omr": "algebraiska_uttryck",
+    "omr": "forenkla_uttryck",
     "kurs": [
       "1a",
       "1b",
@@ -474,7 +476,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(6x-2\\).",
     "komihag": "x och x² är olika slags termer och kan inte läggas ihop till en enda term.",
-    "traningsfamilj": "Sammanfoga liknande termer"
+    "traningsfamilj": "Förenkla uttryck"
   },
   "ma1-grund-1-03": {
     "kap": 1,
@@ -501,7 +503,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Priset är \\(12x+5\\) kr.",
     "komihag": "Kontrollera uttrycket genom att sätta in ett enkelt värde, till exempel x = 1.",
-    "traningsfamilj": "Översätta en situation till ett algebraiskt uttryck"
+    "traningsfamilj": "Teckna och tolka uttryck"
   },
   "ma1-grund-1-04": {
     "kap": 1,
@@ -529,7 +531,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(6x+12\\).",
     "komihag": "Det blir inte 6x + 4; även fyran ska multipliceras med tre.",
-    "traningsfamilj": "Multiplicera in i parentes"
+    "traningsfamilj": "Multiplicera in i en parentes"
   },
   "ma1-grund-1-05": {
     "kap": 1,
@@ -557,7 +559,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(11-2x\\).",
     "komihag": "Minustecknet påverkar alla termer i parentesen.",
-    "traningsfamilj": "Multiplicera in en negativ faktor i parentes"
+    "traningsfamilj": "Multiplicera in i en parentes"
   },
   "ma1-grund-1-06": {
     "kap": 1,
@@ -612,7 +614,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(3(2x+3)\\).",
     "komihag": "Kontrollera genom att multiplicera in faktorn igen.",
-    "traningsfamilj": "Bryta ut största gemensamma faktor"
+    "traningsfamilj": "Bryt ut största gemensamma faktor"
   },
   "ma1-grund-1-08": {
     "kap": 1,
@@ -640,7 +642,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Arean är \\(15\\ \\mathrm{cm^2}\\).",
     "komihag": "Se till att enheterna passar ihop innan du räknar.",
-    "traningsfamilj": "Sätta in värden i formler"
+    "traningsfamilj": "Beräkningar med formler"
   },
   "ma1-grund-1-09": {
     "kap": 1,
@@ -668,7 +670,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(h=A/b\\).",
     "komihag": "Du behöver inga tal för att skriva om en formel.",
-    "traningsfamilj": "Lösa ut en variabel ur en formel"
+    "traningsfamilj": "Lösa ut ur formler"
   },
   "ma1-grund-1-10": {
     "kap": 1,
@@ -700,11 +702,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x=5\\).",
-    "komihag": "Kontrollera gärna genom insättning, särskilt om du är osäker på ett tecken."
+    "komihag": "Kontrollera gärna genom insättning, särskilt om du är osäker på ett tecken.",
+    "traningsfamilj": "Lösa enkla ekvationer"
   },
   "ma1-grund-1-11": {
     "kap": 1,
-    "omr": "linjara_ekvationer",
+    "omr": "ekv_flera_variabeltermer",
     "kurs": [
       "1a",
       "1b",
@@ -727,11 +730,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x=4\\).",
-    "komihag": "Att ”flytta över” en term är en förkortning av att göra samma operation i båda leden."
+    "komihag": "Att ”flytta över” en term är en förkortning av att göra samma operation i båda leden.",
+    "traningsfamilj": "Variabeltermer i båda leden"
   },
   "ma1-grund-1-12": {
     "kap": 1,
-    "omr": "linjara_ekvationer",
+    "omr": "ekv_parenteser",
     "kurs": [
       "1a",
       "1b",
@@ -781,7 +785,7 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Alla tal från och med 2 till, men inte med, 5. Talet 2 ingår; 5 ingår inte.",
     "komihag": "≤ och ≥ tillåter likhet. &lt; och &gt; gör det inte.",
-    "traningsfamilj": "Tolka och skriva intervall"
+    "traningsfamilj": "Skriva intervall med olikhetstecken"
   },
   "ma1-grund-1-14": {
     "kap": 1,
@@ -808,7 +812,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Alla tal som är mindre än 4, alltså \\(x<4\\).",
-    "komihag": "Om du multiplicerar eller dividerar båda leden med ett negativt tal måste olikhetstecknet vändas."
+    "komihag": "Om du multiplicerar eller dividerar båda leden med ett negativt tal måste olikhetstecknet vändas.",
+    "traningsfamilj": "Lösa linjära olikheter"
   },
   "ma1-grund-1-15": {
     "kap": 1,
@@ -835,14 +840,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x>-3\\).",
-    "komihag": "Gränstalet −3 ingår inte, eftersom den ursprungliga olikheten är strikt."
+    "komihag": "Gränstalet −3 ingår inte, eftersom den ursprungliga olikheten är strikt.",
+    "traningsfamilj": "Lösa linjära olikheter"
   },
   "ma1-grund-2-01": {
     "kap": 2,
-    "omr": [
-      "funktionsvarden",
-      "funktionsbegreppet"
-    ],
+    "omr": "funktionsbegreppet",
     "kurs": [
       "1a",
       "1b",
@@ -865,14 +868,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(f(4)=10\\) och \\(f(-1)=-5\\).",
-    "komihag": "f(4) betyder inte f gånger 4. Talet i parentesen är det x-värde du sätter in."
+    "komihag": "f(4) betyder inte f gånger 4. Talet i parentesen är det x-värde du sätter in.",
+    "traningsfamilj": "Funktionsvärden från formel"
   },
   "ma1-grund-2-02": {
     "kap": 2,
-    "omr": [
-      "representationer",
-      "funktionsbegreppet"
-    ],
+    "omr": "representationer",
     "kurs": [
       "1a",
       "1b",
@@ -895,14 +896,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(f(3)=3\\). Ekvationen \\(f(x)=0\\) har lösningarna \\(x=0\\) och \\(x=2\\).",
-    "komihag": "Söker du f(3) börjar du på x-axeln. Löser du f(x) = 0 börjar du på y-axeln. En sådan ekvation kan ha flera lösningar."
+    "komihag": "Söker du f(3) börjar du på x-axeln. Löser du f(x) = 0 börjar du på y-axeln. En sådan ekvation kan ha flera lösningar.",
+    "traningsfamilj": "Växla mellan text, graf och tabell"
   },
   "ma1-grund-2-03": {
     "kap": 2,
-    "omr": [
-      "funktionsbegreppet",
-      "representationer"
-    ],
+    "omr": "representationer",
     "kurs": [
       "1a",
       "1b",
@@ -925,13 +924,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Punkterna är (−1, −1), (0, 1), (1, 3) och (2, 5).",
-    "komihag": "Välj gärna x-värden som både är negativa, noll och positiva. Då ser du hur grafen går."
+    "komihag": "Välj gärna x-värden som både är negativa, noll och positiva. Då ser du hur grafen går.",
+    "traningsfamilj": "Från tabell till formel"
   },
   "ma1-grund-2-04": {
     "kap": 2,
-    "omr": [
-      "linjara_funktioner"
-    ],
+    "omr": "linjara_funktioner",
     "kurs": [
       "1a",
       "1b",
@@ -957,13 +955,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "15 kr är priset per kilometer och 45 kr är startavgiften. En resa på 12 km kostar \\(225\\) kr.",
-    "komihag": "I y = kx + m är m värdet när x = 0, och k är hur mycket y ändras när x ökar med 1."
+    "komihag": "I y = kx + m är m värdet när x = 0, och k är hur mycket y ändras när x ökar med 1.",
+    "traningsfamilj": "Linjära funktioner i vardagliga sammanhang"
   },
   "ma1-grund-2-05": {
     "kap": 2,
-    "omr": [
-      "bestamma_linjar_funktion"
-    ],
+    "omr": "bestamma_linjar_funktion",
     "kurs": [
       "1a",
       "1b",
@@ -986,14 +983,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(k=2\\).",
-    "komihag": "\\(k=\\dfrac{y_2-y_1}{x_2-x_1}\\). Börjar du med den andra punkten i täljaren måste du göra likadant i nämnaren."
+    "komihag": "\\(k=\\dfrac{y_2-y_1}{x_2-x_1}\\). Börjar du med den andra punkten i täljaren måste du göra likadant i nämnaren.",
+    "traningsfamilj": "Linjär funktion från två punkter"
   },
   "ma1-grund-2-06": {
     "kap": 2,
-    "omr": [
-      "rata_linjens_ekvation",
-      "bestamma_linjar_funktion"
-    ],
+    "omr": "rata_linjens_ekvation",
     "kurs": [
       "1a",
       "1b",
@@ -1021,14 +1016,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(y=2x+1\\).",
-    "komihag": "Kontrollera alltid med den punkt du inte använde när du beräknade m."
+    "komihag": "Kontrollera alltid med den punkt du inte använde när du beräknade m.",
+    "traningsfamilj": "Bestämma räta linjens ekvation"
   },
   "ma1-grund-2-07": {
     "kap": 2,
-    "omr": [
-      "linjara_funktioner",
-      "rata_linjens_ekvation"
-    ],
+    "omr": "linjara_funktioner",
     "kurs": [
       "1a",
       "1b",
@@ -1057,13 +1050,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(y=-0{,}5x+3\\).",
-    "komihag": "En linje som lutar nedåt åt höger har negativt k."
+    "komihag": "En linje som lutar nedåt åt höger har negativt k.",
+    "traningsfamilj": "Linjära funktioner i graf och formel"
   },
   "ma1-grund-2-08": {
     "kap": 2,
-    "omr": [
-      "exponentialfunktioner"
-    ],
+    "omr": "exponentialfunktioner",
     "kurs": [
       "1a",
       "1b",
@@ -1091,13 +1083,12 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "240 000 kr är nypriset och 0,85 betyder att värdet minskar med 15 % per år. Efter 3 år är bilen värd ungefär \\(147\\,000\\) kr.",
     "komihag": "a &gt; 1 ger en ökning och 0 &lt; a &lt; 1 ger en minskning.",
-    "fallgrop": "Dra inte av 15 % av nypriset varje år. Det vore en linjär minskning. Här räknas 15 % av det värde bilen har just då."
+    "fallgrop": "Dra inte av 15 % av nypriset varje år. Det vore en linjär minskning. Här räknas 15 % av det värde bilen har just då.",
+    "traningsfamilj": "Förändringsfaktorn i exponentialfunktioner"
   },
   "ma1-grund-2-09": {
     "kap": 2,
-    "omr": [
-      "potensfunktioner"
-    ],
+    "omr": "potensfunktioner",
     "kurs": [
       "1a",
       "1b",
@@ -1125,14 +1116,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(f(3)=54\\) och \\(x=2\\).",
-    "komihag": "I en potensfunktion står x i basen, till exempel x³. I en exponentialfunktion står x i exponenten, till exempel 2<sup>x</sup>."
+    "komihag": "I en potensfunktion står x i basen, till exempel x³. I en exponentialfunktion står x i exponenten, till exempel 2<sup>x</sup>.",
+    "traningsfamilj": "Använda potensfunktioner"
   },
   "ma1-grund-2-10": {
     "kap": 2,
-    "omr": [
-      "grafisk_ekvationslosning",
-      "exponentialfunktioner"
-    ],
+    "omr": "grafisk_ekvationslosning",
     "kurs": [
       "1a",
       "1b",
@@ -1159,7 +1148,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Efter ungefär \\(5{,}4\\) år, alltså under det sjätte året.",
-    "komihag": "Det är x-koordinaten i skärningspunkten som är lösningen. y-koordinaten är bara det värde du redan visste."
+    "komihag": "Det är x-koordinaten i skärningspunkten som är lösningen. y-koordinaten är bara det värde du redan visste.",
+    "traningsfamilj": "Lösa f(x) = a grafiskt"
   },
   "ma1-grund-3-01": {
     "kap": 3,
@@ -1187,7 +1177,8 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "\\(2^7=128\\) och \\(x^7\\).",
     "komihag": "\\(a^m\\cdot a^n=a^{m+n}\\). Regeln gäller bara när baserna är lika.",
-    "fallgrop": "Multiplicera inte exponenterna. 2³ · 2⁴ är 2⁷, inte 2¹²."
+    "fallgrop": "Multiplicera inte exponenterna. 2³ · 2⁴ är 2⁷, inte 2¹².",
+    "traningsfamilj": "Använda potensregler"
   },
   "ma1-grund-3-02": {
     "kap": 3,
@@ -1214,7 +1205,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(25\\) och \\(x^6\\).",
-    "komihag": "\\(\\dfrac{a^m}{a^n}=a^{m-n}\\) och \\((a^m)^n=a^{m\\cdot n}\\)."
+    "komihag": "\\(\\dfrac{a^m}{a^n}=a^{m-n}\\) och \\((a^m)^n=a^{m\\cdot n}\\).",
+    "traningsfamilj": "Förenkla uttryck med potensregler"
   },
   "ma1-grund-3-03": {
     "kap": 3,
@@ -1241,7 +1233,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(7^0=1\\) och \\(2^{-3}=0{,}125\\).",
-    "komihag": "\\(a^0=1\\) och \\(a^{-n}=\\dfrac1{a^n}\\). En negativ exponent gör inte talet negativt."
+    "komihag": "\\(a^0=1\\) och \\(a^{-n}=\\dfrac1{a^n}\\). En negativ exponent gör inte talet negativt.",
+    "traningsfamilj": "Negativa exponenter, noll och rötter"
   },
   "ma1-grund-3-04": {
     "kap": 3,
@@ -1268,7 +1261,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x=5\\) respektive \\(x=\\pm7\\).",
-    "komihag": "Jämn exponent ger två lösningar om högerledet är positivt. Udda exponent ger en lösning."
+    "komihag": "Jämn exponent ger två lösningar om högerledet är positivt. Udda exponent ger en lösning.",
+    "traningsfamilj": "Lösa potensekvationer"
   },
   "ma1-grund-3-05": {
     "kap": 3,
@@ -1300,7 +1294,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x\\approx3{,}13\\).",
-    "komihag": "Utan parentes räknar räknaren 300¹ / 5 = 60, vilket är fel."
+    "komihag": "Utan parentes räknar räknaren 300¹ / 5 = 60, vilket är fel.",
+    "traningsfamilj": "Lösa potensekvationer"
   },
   "ma1-grund-3-06": {
     "kap": 3,
@@ -1327,7 +1322,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(40\\ \\%\\) av eleverna cyklar.",
-    "komihag": "Andel = delen / det hela. Kontrollera att du delar med rätt tal."
+    "komihag": "Andel = delen / det hela. Kontrollera att du delar med rätt tal.",
+    "traningsfamilj": "Procent av ett tal"
   },
   "ma1-grund-3-07": {
     "kap": 3,
@@ -1354,7 +1350,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "35 % av 480 kr är \\(168\\) kr.",
-    "komihag": "Överslag: 35 % är lite mer än en tredjedel, och en tredjedel av 480 är 160."
+    "komihag": "Överslag: 35 % är lite mer än en tredjedel, och en tredjedel av 480 är 160.",
+    "traningsfamilj": "Procent av ett tal"
   },
   "ma1-grund-3-08": {
     "kap": 3,
@@ -1381,7 +1378,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Skolan har \\(720\\) elever.",
-    "komihag": "Det hela = delen / andelen. Svaret ska vara större än delen."
+    "komihag": "Det hela = delen / andelen. Svaret ska vara större än delen.",
+    "traningsfamilj": "Procentuell ökning och minskning"
   },
   "ma1-grund-3-09": {
     "kap": 3,
@@ -1408,7 +1406,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Räntan har ökat med 1 procentenhet, vilket är en ökning med \\(50\\ \\%\\).",
-    "komihag": "Använd procentenheter när du jämför två procentsatser med varandra."
+    "komihag": "Använd procentenheter när du jämför två procentsatser med varandra.",
+    "traningsfamilj": "Procentenheter och jämförelser"
   },
   "ma1-grund-3-10": {
     "kap": 3,
@@ -1435,7 +1434,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Jackan kostar \\(920\\) kr och skorna \\(420\\) kr.",
-    "komihag": "Nytt värde = förändringsfaktor · gammalt värde. Faktor större än 1 betyder ökning, mindre än 1 minskning."
+    "komihag": "Nytt värde = förändringsfaktor · gammalt värde. Faktor större än 1 betyder ökning, mindre än 1 minskning.",
+    "traningsfamilj": "Från procent till förändringsfaktor"
   },
   "ma1-grund-3-11": {
     "kap": 3,
@@ -1462,7 +1462,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Priset har ökat med \\(10\\ \\%\\).",
-    "komihag": "Jämför alltid med det ursprungliga värdet. Ökningen 55 kr delat med 550 kr ger också 10 %."
+    "komihag": "Jämför alltid med det ursprungliga värdet. Ökningen 55 kr delat med 550 kr ger också 10 %.",
+    "traningsfamilj": "Från förändringsfaktor till procent"
   },
   "ma1-grund-3-12": {
     "kap": 3,
@@ -1490,7 +1491,8 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Cykeln kostade \\(4\\,500\\) kr.",
     "komihag": "Gammalt värde = nytt värde / förändringsfaktorn.",
-    "fallgrop": "Lägg inte till 20 % av 3 600 kr. Rabatten räknades på det gamla priset, inte på det nya."
+    "fallgrop": "Lägg inte till 20 % av 3 600 kr. Rabatten räknades på det gamla priset, inte på det nya.",
+    "traningsfamilj": "Räkna med förändringsfaktor"
   },
   "ma1-grund-3-13": {
     "kap": 3,
@@ -1522,7 +1524,8 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Huset är värt ungefär \\(2{,}92\\) miljoner kr.",
     "komihag": "Nytt värde = gammalt värde · \\(a^n\\), där a är förändringsfaktorn och n antalet perioder.",
-    "fallgrop": "Räkna inte 5 · 4 % = 20 %. Varje ökning räknas på ett nytt, större värde, så den totala ökningen blir mer än 20 %."
+    "fallgrop": "Räkna inte 5 · 4 % = 20 %. Varje ökning räknas på ett nytt, större värde, så den totala ökningen blir mer än 20 %.",
+    "traningsfamilj": "Upprepad procentuell förändring"
   },
   "ma1-grund-3-14": {
     "kap": 3,
@@ -1553,7 +1556,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Nej. Priset har totalt sjunkit med \\(4\\ \\%\\).",
-    "komihag": "Sänkningen räknas på det höjda priset, som är större. Därför tar den bort mer än höjningen lade till."
+    "komihag": "Sänkningen räknas på det höjda priset, som är större. Därför tar den bort mer än höjningen lade till.",
+    "traningsfamilj": "Total förändring i flera steg"
   },
   "ma1-grund-3-15": {
     "kap": 3,
@@ -1580,14 +1584,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Varan borde kosta \\(500\\) kr.",
-    "komihag": "Pris och index är proportionella: nytt pris / gammalt pris = nytt index / gammalt index."
+    "komihag": "Pris och index är proportionella: nytt pris / gammalt pris = nytt index / gammalt index.",
+    "traningsfamilj": "Tolka och beräkna index"
   },
   "ma1-grund-3-16": {
     "kap": 3,
-    "omr": [
-      "ranta",
-      "ranta_lan"
-    ],
+    "omr": "ranta",
     "kurs": [
       "1a",
       "1b",
@@ -1610,14 +1612,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Efter 1 år finns \\(15\\,375\\) kr och efter 6 år ungefär \\(17\\,395\\) kr.",
-    "komihag": "Ränta på ränta gör att ökningen blir lite större för varje år."
+    "komihag": "Ränta på ränta gör att ökningen blir lite större för varje år.",
+    "traningsfamilj": "Ränta på ränta"
   },
   "ma1-grund-3-17": {
     "kap": 3,
-    "omr": [
-      "amortering",
-      "ranta_lan"
-    ],
+    "omr": "amortering",
     "kurs": [
       "1a",
       "1b",
@@ -1645,14 +1645,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Första året betalar du \\(15\\,600\\) kr och andra året \\(14\\,880\\) kr.",
-    "komihag": "Årets betalning = amortering + ränta på den skuld som finns kvar."
+    "komihag": "Årets betalning = amortering + ränta på den skuld som finns kvar.",
+    "traningsfamilj": "Amortering och skuld"
   },
   "ma1-grund-4-01": {
     "kap": 4,
-    "omr": [
-      "pythagoras",
-      "pythagoras_sats"
-    ],
+    "omr": "pythagoras",
     "kurs": [
       "1a",
       "1b",
@@ -1675,14 +1673,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x=10\\) cm.",
-    "komihag": "Hypotenusan står alltid ensam i sitt led: a² + b² = c²."
+    "komihag": "Hypotenusan står alltid ensam i sitt led: a² + b² = c².",
+    "traningsfamilj": "Bestämma hypotenusan"
   },
   "ma1-grund-4-02": {
     "kap": 4,
-    "omr": [
-      "pythagoras",
-      "pythagoras_sats"
-    ],
+    "omr": "pythagoras",
     "kurs": [
       "1a",
       "1b",
@@ -1705,14 +1701,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x=12\\) cm.",
-    "komihag": "En katet är alltid kortare än hypotenusan. Får du ett längre svar har du troligen adderat i stället för att subtrahera."
+    "komihag": "En katet är alltid kortare än hypotenusan. Får du ett längre svar har du troligen adderat i stället för att subtrahera.",
+    "traningsfamilj": "Bestämma en katet"
   },
   "ma1-grund-4-03": {
     "kap": 4,
-    "omr": [
-      "pythagoras",
-      "pythagoras_sats"
-    ],
+    "omr": "pythagoras",
     "kurs": [
       "1a",
       "1b",
@@ -1735,14 +1729,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Ja, vinkeln är rät eftersom \\(60^2+80^2=100^2\\).",
-    "komihag": "3, 4, 5 och alla multiplar av dem, till exempel 60, 80, 100, ger alltid en rät vinkel."
+    "komihag": "3, 4, 5 och alla multiplar av dem, till exempel 60, 80, 100, ger alltid en rät vinkel.",
+    "traningsfamilj": "Pythagoras sats i problemlösning"
   },
   "ma1-grund-4-04": {
     "kap": 4,
-    "omr": [
-      "sinus_cosinus_tangens",
-      "trigonometri"
-    ],
+    "omr": "sinus_cosinus_tangens",
     "kurs": [
       "1a",
       "1b",
@@ -1769,15 +1761,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x\\approx8{,}4\\) cm.",
-    "komihag": "\\(\\sin v=\\dfrac{\\text{mot}}{\\text{hyp}}\\), \\(\\cos v=\\dfrac{\\text{när}}{\\text{hyp}}\\), \\(\\tan v=\\dfrac{\\text{mot}}{\\text{när}}\\)."
+    "komihag": "\\(\\sin v=\\dfrac{\\text{mot}}{\\text{hyp}}\\), \\(\\cos v=\\dfrac{\\text{när}}{\\text{hyp}}\\), \\(\\tan v=\\dfrac{\\text{mot}}{\\text{när}}\\).",
+    "traningsfamilj": "Beräkna sidor med sinus, cosinus och tangens"
   },
   "ma1-grund-4-05": {
     "kap": 4,
-    "omr": [
-      "strackor_vinklar",
-      "sinus_cosinus_tangens",
-      "trigonometri"
-    ],
+    "omr": "sinus_cosinus_tangens",
     "kurs": [
       "1a",
       "1b",
@@ -1800,14 +1789,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(x\\approx10{,}9\\) cm.",
-    "komihag": "Hypotenusan ska vara längre än kateterna. 10,9 cm är längre än 7 cm, så svaret är rimligt."
+    "komihag": "Hypotenusan ska vara längre än kateterna. 10,9 cm är längre än 7 cm, så svaret är rimligt.",
+    "traningsfamilj": "Beräkna sidor med sinus, cosinus och tangens"
   },
   "ma1-grund-4-06": {
     "kap": 4,
-    "omr": [
-      "arcusfunktioner",
-      "trigonometri"
-    ],
+    "omr": "arcusfunktioner",
     "kurs": [
       "1a",
       "1b",
@@ -1830,14 +1817,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(v\\approx41{,}4^\\circ\\).",
-    "komihag": "cos⁻¹ betyder inte 1/cos. Det är den funktion som går från kvot tillbaka till vinkel."
+    "komihag": "cos⁻¹ betyder inte 1/cos. Det är den funktion som går från kvot tillbaka till vinkel.",
+    "traningsfamilj": "Vinkel ur sidor och figurer"
   },
   "ma1-grund-4-07": {
     "kap": 4,
-    "omr": [
-      "vektorer",
-      "vektor_skalar"
-    ],
+    "omr": "vektorer",
     "kurs": [
       "1a",
       "1b",
@@ -1858,14 +1843,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "20 m/s norrut och 30 N rakt uppåt är vektorer. 5 kg och 21 °C är skalärer.",
-    "komihag": "Fråga dig om det är meningsfullt att säga åt vilket håll storheten pekar."
+    "komihag": "Fråga dig om det är meningsfullt att säga åt vilket håll storheten pekar.",
+    "traningsfamilj": "Tolka och beskriva vektorer"
   },
   "ma1-grund-4-08": {
     "kap": 4,
-    "omr": [
-      "vektor_addition_subtraktion",
-      "vektorer"
-    ],
+    "omr": "vektor_addition_subtraktion",
     "kurs": [
       "1a",
       "1b",
@@ -1887,14 +1870,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(u+v=(4,\\,3)\\).",
-    "komihag": "Grafiskt: huvud mot svans. Med koordinater: addera x med x och y med y."
+    "komihag": "Grafiskt: huvud mot svans. Med koordinater: addera x med x och y med y.",
+    "traningsfamilj": "Addera och subtrahera vektorer"
   },
   "ma1-grund-4-09": {
     "kap": 4,
-    "omr": [
-      "vektor_absolutbelopp",
-      "vektorer"
-    ],
+    "omr": "vektor_absolutbelopp",
     "kurs": [
       "1a",
       "1b",
@@ -1917,14 +1898,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(|w|=5\\).",
-    "komihag": "Längden av \\((a,\\,b)\\) är \\(\\sqrt{a^2+b^2}\\)."
+    "komihag": "Längden av \\((a,\\,b)\\) är \\(\\sqrt{a^2+b^2}\\).",
+    "traningsfamilj": "Längd ur koordinater"
   },
   "ma1-grund-4-10": {
     "kap": 4,
-    "omr": [
-      "vektor_skalar",
-      "vektorer"
-    ],
+    "omr": "vektor_skalar",
     "kurs": [
       "1a",
       "1b",
@@ -1947,14 +1926,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(2u-v=(5,\\,0)\\).",
-    "komihag": "Att subtrahera v är samma sak som att addera −v, alltså v med motsatt riktning."
+    "komihag": "Att subtrahera v är samma sak som att addera −v, alltså v med motsatt riktning.",
+    "traningsfamilj": "Multiplicera vektor med skalär"
   },
   "ma1-grund-5-01": {
     "kap": 5,
-    "omr": [
-      "grundlaggande_sannolikhet",
-      "sannolikhet"
-    ],
+    "omr": "grundlaggande_sannolikhet",
     "kurs": [
       "1a",
       "1b",
@@ -1976,14 +1953,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(P=\\frac13\\approx0{,}33\\).",
-    "komihag": "En sannolikhet ligger alltid mellan 0 och 1. Den kan skrivas som bråk, decimaltal eller i procent."
+    "komihag": "En sannolikhet ligger alltid mellan 0 och 1. Den kan skrivas som bråk, decimaltal eller i procent.",
+    "traningsfamilj": "Klassisk sannolikhet"
   },
   "ma1-grund-5-02": {
     "kap": 5,
-    "omr": [
-      "komplementhandelse",
-      "sannolikhet"
-    ],
+    "omr": "komplementhandelse",
     "kurs": [
       "1a",
       "1b",
@@ -2005,14 +1980,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(P=0{,}96\\), alltså \\(96\\ \\%\\).",
-    "komihag": "\\(P(\\text{inte }A)=1-P(A)\\). Tänk på komplementet när en fråga säger minst en."
+    "komihag": "\\(P(\\text{inte }A)=1-P(A)\\). Tänk på komplementet när en fråga säger minst en.",
+    "traningsfamilj": "Komplementhändelse"
   },
   "ma1-grund-5-03": {
     "kap": 5,
-    "omr": [
-      "oberoende_handelser",
-      "flerstegsforsok"
-    ],
+    "omr": "oberoende_handelser",
     "kurs": [
       "1a",
       "1b",
@@ -2035,14 +2008,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(P=\\frac1{12}\\approx0{,}083\\).",
-    "komihag": "Och betyder multiplikation när händelserna är oberoende."
+    "komihag": "Och betyder multiplikation när händelserna är oberoende.",
+    "traningsfamilj": "Multiplikationsprincipen"
   },
   "ma1-grund-5-04": {
     "kap": 5,
-    "omr": [
-      "beroende_handelser",
-      "flerstegsforsok"
-    ],
+    "omr": "beroende_handelser",
     "kurs": [
       "1a",
       "1b",
@@ -2070,14 +2041,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(P=\\frac2{15}\\approx0{,}13\\).",
-    "komihag": "Ändra både antalet gynnsamma och antalet möjliga utfall efter varje dragning utan återläggning."
+    "komihag": "Ändra både antalet gynnsamma och antalet möjliga utfall efter varje dragning utan återläggning.",
+    "traningsfamilj": "Dragning utan återläggning"
   },
   "ma1-grund-5-05": {
     "kap": 5,
-    "omr": [
-      "sannolikhet_flera_steg",
-      "flerstegsforsok"
-    ],
+    "omr": "sannolikhet_flera_steg",
     "kurs": [
       "1a",
       "1b",
@@ -2105,14 +2074,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(P=0{,}32\\).",
-    "komihag": "Kontrollera trädet: sannolikheterna för alla fyra vägar ska tillsammans bli 1."
+    "komihag": "Kontrollera trädet: sannolikheterna för alla fyra vägar ska tillsammans bli 1.",
+    "traningsfamilj": "Sannolikhet med träddiagram"
   },
   "ma1-grund-5-06": {
     "kap": 5,
-    "omr": [
-      "urvalsmetoder",
-      "statistik_urval"
-    ],
+    "omr": "urvalsmetoder",
     "kurs": [
       "1a",
       "1b",
@@ -2133,14 +2100,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Urvalet är inte slumpmässigt och säger mest om dem som äter i matsalen och kommer tidigt. Ett slumpmässigt urval ur hela elevlistan ger ett säkrare resultat.",
-    "komihag": "Ett stort urval hjälper inte om det är skevt. Hur urvalet görs är viktigare än hur stort det är."
+    "komihag": "Ett stort urval hjälper inte om det är skevt. Hur urvalet görs är viktigare än hur stort det är.",
+    "traningsfamilj": "Bedöma urval och representativitet"
   },
   "ma1-grund-5-07": {
     "kap": 5,
-    "omr": [
-      "felkallor",
-      "statistik_urval"
-    ],
+    "omr": "signifikans",
     "kurs": [
       "1a",
       "1b",
@@ -2161,13 +2126,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Frågan är ledande, och bortfallet är stort (140 av 200 svarar inte).",
-    "komihag": "Vanliga felkällor är ledande frågor, bortfall och ett urval som inte liknar populationen."
+    "komihag": "Vanliga felkällor är ledande frågor, bortfall och ett urval som inte liknar populationen.",
+    "traningsfamilj": "Felkällor i undersökningar"
   },
   "ma1-grund-5-08": {
     "kap": 5,
-    "omr": [
-      "korrelation"
-    ],
+    "omr": "korrelation",
     "kurs": [
       "1a",
       "1b",
@@ -2192,14 +2156,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Nej. Det finns en positiv korrelation, men båda variablerna beror på vädret.",
-    "komihag": "Innan du påstår ett orsakssamband ska du fråga dig om någon annan variabel kan påverka båda."
+    "komihag": "Innan du påstår ett orsakssamband ska du fråga dig om någon annan variabel kan påverka båda.",
+    "traningsfamilj": "Tolka korrelation"
   },
   "ma1-grund-7-01": {
     "kap": 7,
-    "omr": [
-      "proportionalitet_yrke",
-      "proportionalitet"
-    ],
+    "omr": "proportionalitet_yrke",
     "kurs": [
       "1a"
     ],
@@ -2220,14 +2182,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(y=135x\\). För 7,5 timmar blir lönen \\(1\\,012{,}50\\) kr.",
-    "komihag": "Grafen till ett proportionellt samband är en rät linje genom origo."
+    "komihag": "Grafen till ett proportionellt samband är en rät linje genom origo.",
+    "traningsfamilj": "Proportionalitet i praktiska problem"
   },
   "ma1-grund-7-02": {
     "kap": 7,
-    "omr": [
-      "skala_likformighet",
-      "skala"
-    ],
+    "omr": "skala_likformighet",
     "kurs": [
       "1a"
     ],
@@ -2248,14 +2208,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Rummet är \\(4{,}2\\) m långt.",
-    "komihag": "Skala = längd på bilden : längd i verkligheten. Mät båda i samma enhet."
+    "komihag": "Skala = längd på bilden : längd i verkligheten. Mät båda i samma enhet.",
+    "traningsfamilj": "Skala på kartor och ritningar"
   },
   "ma1-grund-7-03": {
     "kap": 7,
-    "omr": [
-      "skala_likformighet",
-      "skala"
-    ],
+    "omr": "skala_likformighet",
     "kurs": [
       "1a"
     ],
@@ -2275,14 +2233,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Skalan är \\(6:1\\).",
-    "komihag": "1:50 är en förminskning och 6:1 en förstoring."
+    "komihag": "1:50 är en förminskning och 6:1 en förstoring.",
+    "traningsfamilj": "Skala på kartor och ritningar"
   },
   "ma1-grund-7-04": {
     "kap": 7,
-    "omr": [
-      "yrkesformler",
-      "volym_flode"
-    ],
+    "omr": "yrkesformler",
     "kurs": [
       "1a"
     ],
@@ -2303,14 +2259,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Det tar \\(15\\) minuter.",
-    "komihag": "Tid = volym / flöde. Kontrollera att enheterna tar ut varandra."
+    "komihag": "Tid = volym / flöde. Kontrollera att enheterna tar ut varandra.",
+    "traningsfamilj": "Dosering och flöden"
   },
   "ma1-grund-7-05": {
     "kap": 7,
-    "omr": [
-      "matning_enheter",
-      "matning_area"
-    ],
+    "omr": "matning_enheter",
     "kurs": [
       "1a"
     ],
@@ -2330,13 +2284,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Golvytan är \\(14{,}7\\ \\mathrm{m^2}\\).",
-    "komihag": "m · m = m². Mät gärna två gånger, eftersom ett mätfel följer med i alla senare beräkningar."
+    "komihag": "m · m = m². Mät gärna två gånger, eftersom ett mätfel följer med i alla senare beräkningar.",
+    "traningsfamilj": "Mätning och enhetsomvandling"
   },
   "ma1-grund-7-06": {
     "kap": 7,
-    "omr": [
-      "spill_svinnostnad"
-    ],
+    "omr": "spill_svinnostnad",
     "kurs": [
       "1a"
     ],
@@ -2361,14 +2314,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Det behövs \\(8\\) paket.",
-    "komihag": "När du köper material avrundar du alltid uppåt, även om decimalen är liten."
+    "komihag": "När du köper material avrundar du alltid uppåt, även om decimalen är liten.",
+    "traningsfamilj": "Materialbehov med spill"
   },
   "ma1-grund-7-07": {
     "kap": 7,
-    "omr": [
-      "kostnadsberakningar",
-      "kostnader"
-    ],
+    "omr": "kostnadsberakningar",
     "kurs": [
       "1a"
     ],
@@ -2394,13 +2345,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Totalkostnaden är \\(4\\,799{,}50\\) kr.",
-    "komihag": "Pris inklusive moms = pris exklusive moms · 1,25 när momsen är 25 %."
+    "komihag": "Pris inklusive moms = pris exklusive moms · 1,25 när momsen är 25 %.",
+    "traningsfamilj": "Kostnad för material och arbete"
   },
   "ma1-grund-7-08": {
     "kap": 7,
-    "omr": [
-      "sakerhetsmarginaler"
-    ],
+    "omr": "sakerhetsmarginaler",
     "kurs": [
       "1a"
     ],
@@ -2420,13 +2370,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Repet får belastas med högst \\(750\\) N.",
-    "komihag": "Tillåten last = brottlast / säkerhetsfaktor. En större säkerhetsfaktor ger en lägre tillåten last."
+    "komihag": "Tillåten last = brottlast / säkerhetsfaktor. En större säkerhetsfaktor ger en lägre tillåten last.",
+    "traningsfamilj": "Säkerhetsfaktor"
   },
   "ma1-grund-7-09": {
     "kap": 7,
-    "omr": [
-      "yrkesformler"
-    ],
+    "omr": "yrkesformler",
     "kurs": [
       "1a"
     ],
@@ -2447,14 +2396,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Strömmen är ungefär \\(8{,}7\\) A.",
-    "komihag": "Lös först ut den storhet du söker. Sätt sedan in värdena med rätt enheter."
+    "komihag": "Lös först ut den storhet du söker. Sätt sedan in värdena med rätt enheter.",
+    "traningsfamilj": "Formler i yrkesarbete"
   },
   "ma1-grund-7-10": {
     "kap": 7,
-    "omr": [
-      "yrkesformler",
-      "ror_fall_vinklar"
-    ],
+    "omr": "yrkesformler",
     "kurs": [
       "1a"
     ],
@@ -2474,13 +2421,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Slutet ska ligga \\(65\\) mm, alltså 6,5 cm, lägre.",
-    "komihag": "Fall 1:100 fungerar som en skala. Dela längden med 100 så får du höjdskillnaden."
+    "komihag": "Fall 1:100 fungerar som en skala. Dela längden med 100 så får du höjdskillnaden.",
+    "traningsfamilj": "Formler i yrkesarbete"
   },
   "ma1-grund-2-11": {
     "kap": 2,
-    "omr": [
-      "definitionsmangd_vardemangd"
-    ],
+    "omr": "definitionsmangd_vardemangd",
     "kurs": [
       "1a",
       "1b",
@@ -2503,13 +2449,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "\\(D_f=[-2,4]\\) och \\(V_f=[1,5]\\).",
-    "komihag": "Definitionsmängd hör till x-axeln. Värdemängd hör till y-axeln."
+    "komihag": "Definitionsmängd hör till x-axeln. Värdemängd hör till y-axeln.",
+    "traningsfamilj": "Bestämma definitions- och värdemängd"
   },
   "ma1-grund-2-12": {
     "kap": 2,
-    "omr": [
-      "jamfora_modeller"
-    ],
+    "omr": "jamfora_modeller",
     "kurs": [
       "1a",
       "1b",
@@ -2531,13 +2476,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "En exponentiell modell är mest rimlig, med förändringsfaktorn \\(1{,}2\\).",
-    "komihag": "Samma differens tyder på linjär förändring. Samma kvot eller förändringsfaktor tyder på exponentiell förändring."
+    "komihag": "Samma differens tyder på linjär förändring. Samma kvot eller förändringsfaktor tyder på exponentiell förändring.",
+    "traningsfamilj": "Jämföra linjär och exponentiell tillväxt"
   },
   "ma1-grund-3-18": {
     "kap": 3,
-    "omr": [
-      "genomsnittlig_forandring"
-    ],
+    "omr": "genomsnittlig_forandring",
     "kurs": [
       "1a",
       "1b",
@@ -2561,13 +2505,12 @@ window.TYPUPPGIFTER_MA1 = {
     ],
     "svar": "Den genomsnittliga ökningen är \\(10\\,\\%\\) per period.",
     "fallgrop": "Att räkna 21 % / 2 ger 10,5 %, men procentuella förändringar läggs inte ihop på det sättet när de sker efter varandra.",
-    "komihag": "Sök först den genomsnittliga förändringsfaktorn. Om det är n perioder använder du n:te roten."
+    "komihag": "Sök först den genomsnittliga förändringsfaktorn. Om det är n perioder använder du n:te roten.",
+    "traningsfamilj": "Beräkna genomsnittlig procentuell förändring"
   },
   "ma1-grund-4-11": {
     "kap": 4,
-    "omr": [
-      "koordinatgeometri"
-    ],
+    "omr": "koordinatgeometri",
     "kurs": [
       "1a",
       "1b",
@@ -2589,13 +2532,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Avståndet är \\(5\\) längdenheter.",
-    "komihag": "Tecknet på koordinatskillnaden spelar ingen roll efter kvadreringen, men använd samma ordning i båda differenserna."
+    "komihag": "Tecknet på koordinatskillnaden spelar ingen roll efter kvadreringen, men använd samma ordning i båda differenserna.",
+    "traningsfamilj": "Avstånd mellan punkter"
   },
   "ma1-grund-5-09": {
     "kap": 5,
-    "omr": [
-      "kausalitet"
-    ],
+    "omr": "korrelation",
     "kurs": [
       "1a",
       "1b",
@@ -2616,13 +2558,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Nej. Undersökningen visar korrelation, men den räcker inte för att fastställa ett orsakssamband.",
-    "komihag": "För att tala om orsak behövs starkare underlag än att två variabler samvarierar."
+    "komihag": "För att tala om orsak behövs starkare underlag än att två variabler samvarierar.",
+    "traningsfamilj": "Kausalitet och bakomliggande variabler"
   },
   "ma1-grund-5-10": {
     "kap": 5,
-    "omr": [
-      "signifikans"
-    ],
+    "omr": "signifikans",
     "kurs": [
       "1a",
       "1b",
@@ -2643,13 +2584,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Nej. Mer information om stickprovens storlek och statistisk osäkerhet behövs.",
-    "komihag": "Ett observerat avstånd mellan två stickprovsvärden är inte samma sak som en säker skillnad i populationen."
+    "komihag": "Ett observerat avstånd mellan två stickprovsvärden är inte samma sak som en säker skillnad i populationen.",
+    "traningsfamilj": "Signifikans och statistisk osäkerhet"
   },
   "ma1-grund-5-11": {
     "kap": 5,
-    "omr": [
-      "risk_sakerhet"
-    ],
+    "omr": "risk_sakerhet",
     "kurs": [
       "1a",
       "1b",
@@ -2671,13 +2611,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Det motsvarar ungefär \\(30\\) fel per 1 000 arbetsmoment.",
-    "komihag": "Det är ett förväntat antal över många liknande situationer, inte ett löfte om exakt 30 fel i varje serie."
+    "komihag": "Det är ett förväntat antal över många liknande situationer, inte ett löfte om exakt 30 fel i varje serie.",
+    "traningsfamilj": "Beräkna risker"
   },
   "ma1-grund-7-11": {
     "kap": 7,
-    "omr": [
-      "uppskattning_overslag"
-    ],
+    "omr": "uppskattning_overslag",
     "kurs": [
       "1a"
     ],
@@ -2697,13 +2636,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Totalkostnaden är ungefär \\(10\\,000\\) kr.",
-    "komihag": "Ett överslag används för rimlighetskontroll och planering. Det behöver inte ge exakt samma svar som den noggranna beräkningen."
+    "komihag": "Ett överslag används för rimlighetskontroll och planering. Det behöver inte ge exakt samma svar som den noggranna beräkningen.",
+    "traningsfamilj": "Överslag i yrkeslivet"
   },
   "ma1-grund-7-12": {
     "kap": 7,
-    "omr": [
-      "matfel_felmarginal"
-    ],
+    "omr": "matfel_felmarginal",
     "kurs": [
       "1a"
     ],
@@ -2724,13 +2662,12 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Längden ligger enligt mätningen mellan \\(2{,}38\\) m och \\(2{,}42\\) m.",
-    "komihag": "Felmarginalen beskriver ett intervall runt mätvärdet; den ska inte läggas till åt båda hållen."
+    "komihag": "Felmarginalen beskriver ett intervall runt mätvärdet; den ska inte läggas till åt båda hållen.",
+    "traningsfamilj": "Mätvärde och osäkerhetsintervall"
   },
   "ma1-grund-7-13": {
     "kap": 7,
-    "omr": [
-      "yrkesverktyg"
-    ],
+    "omr": "yrkesverktyg",
     "kurs": [
       "1a"
     ],
@@ -2749,7 +2686,8 @@ window.TYPUPPGIFTER_MA1 = {
       }
     ],
     "svar": "Ett kalkylprogram är mest lämpligt.",
-    "komihag": "Ett digitalt verktyg ersätter inte själva modellen. Du behöver fortfarande veta vilken formel eller beräkning som ska användas."
+    "komihag": "Ett digitalt verktyg ersätter inte själva modellen. Du behöver fortfarande veta vilken formel eller beräkning som ska användas.",
+    "traningsfamilj": "Mätinstrument och avläsning"
   }
 };
 

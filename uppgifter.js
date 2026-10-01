@@ -1737,18 +1737,18 @@ window.BANK = [
   },
   {
     "id": "2.20",
-    "kap": 2,
-    "omr": "enheter",
+    "kap": 6,
+    "omr": "gaslagen",
     "niva": "E",
     "typ": "omvandla mellan celsius och kelvin, ur text, sökt temperatur",
     "poang": "(6/0/0)",
     "t": "<p>Omvandla mellan celsius och kelvin. Ange två decimaler.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 25 °C till K</div><div>b) -40 °C till K</div><div>c) 350 K till °C</div><div>d) 0 K till °C</div><div>e) 100 °C till K</div><div>f) 77 K till °C</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) 25 + 273,15 = 298,15. Temperaturen är 298,15 K.</p><p>b) −40 + 273,15 = 233,15. Temperaturen är 233,15 K.</p><p>c) 350 − 273,15 = 76,85. Temperaturen är 76,85 °C.</p><p>d) 0 − 273,15 = −273,15. Temperaturen är −273,15 °C.</p><p>e) 100 + 273,15 = 373,15. Temperaturen är 373,15 K.</p><p>f) 77 − 273,15 = −196,15. Temperaturen är −196,15 °C.</p></div>",
-    "familj": "Enhetsomvandling",
+    "familj": "Kelvin, tryck- och volymenheter",
     "formaga": [
       "procedur"
     ],
-    "familjNyckel": "enheter__enhetsomvandling",
+    "familjNyckel": "gaslagen__omvandla_mellan_celsius_och_kelvin",
     "svarstyp": "flera_delar",
     "rättSvar": [
       298.15,
@@ -1852,7 +1852,13 @@ window.BANK = [
       }
     ],
     "miniräknare": true,
-    "geogebra": false
+    "geogebra": false,
+    "omrTidigare": [
+      "enheter"
+    ],
+    "familjTidigare": [
+      "Enhetsomvandling"
+    ]
   },
   {
     "id": "2.21",
@@ -5825,7 +5831,7 @@ window.BANK = [
     "niva": "E",
     "typ": "omvandla elektriska storheter till grundenheter, ur text, sökt ström spänning och resistans",
     "poang": "(6/0/0)",
-    "t": "<p>Skriv värdet utan prefix, i A, Ω respektive V. Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 mA</div><div>b) 45 µA</div><div>c) 4,7 kΩ</div><div>d) 2,2 MΩ</div><div>e) 12 mV</div><div>f) 400 kV</div></div>",
+    "t": "<p>Skriv värdena utan prefix, alltså i grundenheten ampere (A), ohm (Ω) eller volt (V). Avrunda inte.</p><div class=\"deluppgifter\" style=\"display:grid;gap:0.85rem;margin:0.8rem 0\"><div>a) 250 mA</div><div>b) 45 µA</div><div>c) 4,7 kΩ</div><div>d) 2,2 MΩ</div><div>e) 12 mV</div><div>f) 400 kV</div></div>",
     "s": "<div class=\"facit-v2\"><p>a) Milli betyder tusendel: 250 mA = 0,250 A.</p><p>b) Mikro betyder miljondel: 45 µA = 0,000045 A.</p><p>c) Kilo betyder tusen: 4,7 kΩ = 4700 Ω.</p><p>d) Mega betyder en miljon: 2,2 MΩ = 2 200 000 Ω.</p><p>e) Milli betyder tusendel: 12 mV = 0,012 V.</p><p>f) Kilo betyder tusen: 400 kV = 400 000 V.</p></div>",
     "familj": "Prefix och tiopotenser",
     "formaga": [
@@ -5876,7 +5882,7 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Skriv värdet utan prefix, i A, Ω respektive V. Avrunda inte.</p><p>250 mA</p>",
+        "t": "<p>Skriv värdet i ampere (A), utan prefix. Avrunda inte.</p><p>250 mA</p>",
         "s": "<p>Milli betyder tusendel: 250 mA = 0,250 A.</p>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
@@ -5886,7 +5892,7 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "t": "<p>Skriv värdet utan prefix, i A, Ω respektive V. Avrunda inte.</p><p>45 µA</p>",
+        "t": "<p>Skriv värdet i ampere (A), utan prefix. Avrunda inte.</p><p>45 µA</p>",
         "s": "<p>Mikro betyder miljondel: 45 µA = 0,000045 A.</p>",
         "ledtrad": "<p>Vad betyder mikro?</p>",
         "niva": "E",
@@ -5896,7 +5902,7 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "t": "<p>Skriv värdet utan prefix, i A, Ω respektive V. Avrunda inte.</p><p>4,7 kΩ</p>",
+        "t": "<p>Skriv värdet i ohm (Ω), utan prefix. Avrunda inte.</p><p>4,7 kΩ</p>",
         "s": "<p>Kilo betyder tusen: 4,7 kΩ = 4700 Ω.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",
@@ -5906,7 +5912,7 @@ window.BANK = [
       },
       {
         "etikett": "d",
-        "t": "<p>Skriv värdet utan prefix, i A, Ω respektive V. Avrunda inte.</p><p>2,2 MΩ</p>",
+        "t": "<p>Skriv värdet i ohm (Ω), utan prefix. Avrunda inte.</p><p>2,2 MΩ</p>",
         "s": "<p>Mega betyder en miljon: 2,2 MΩ = 2 200 000 Ω.</p>",
         "ledtrad": "<p>Vad betyder mega?</p>",
         "niva": "E",
@@ -5916,7 +5922,7 @@ window.BANK = [
       },
       {
         "etikett": "e",
-        "t": "<p>Skriv värdet utan prefix, i A, Ω respektive V. Avrunda inte.</p><p>12 mV</p>",
+        "t": "<p>Skriv värdet i volt (V), utan prefix. Avrunda inte.</p><p>12 mV</p>",
         "s": "<p>Milli betyder tusendel: 12 mV = 0,012 V.</p>",
         "ledtrad": "<p>Vad betyder milli?</p>",
         "niva": "E",
@@ -5926,7 +5932,7 @@ window.BANK = [
       },
       {
         "etikett": "f",
-        "t": "<p>Skriv värdet utan prefix, i A, Ω respektive V. Avrunda inte.</p><p>400 kV</p>",
+        "t": "<p>Skriv värdet i volt (V), utan prefix. Avrunda inte.</p><p>400 kV</p>",
         "s": "<p>Kilo betyder tusen: 400 kV = 400 000 V.</p>",
         "ledtrad": "<p>Vad betyder kilo?</p>",
         "niva": "E",

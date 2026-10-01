@@ -23602,15 +23602,15 @@ window.BANK2 = [
     "omr": "straloptik",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En stråle går från glas mot luft med en infallsvinkel som är större än gränsvinkeln.</p><p>Vad händer?</p><p>A. Strålen bryts mot normalen.<br>B. Strålen går rakt fram.<br>C. Totalreflektion sker.<br>D. Ljuset stannar i gränsytan.</p>",
-    "s": "<p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen. Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p><p>När ljus går från större till mindre brytningsindex och infallsvinkeln överstiger gränsvinkeln sker <strong>totalreflektion</strong>.</p><p><strong>Svar:</strong> C.</p>",
+    "t": "<p>En stråle går från glas mot luft med en infallsvinkel som är större än gränsvinkeln.</p><p>Vad händer?</p><p>A. Totalreflektion sker.<br>B. Strålen går rakt fram.<br>C. Strålen bryts mot normalen.<br>D. Ljuset stannar i gränsytan.</p>",
+    "s": "<p><strong>Rimlighetskontroll:</strong> Vinklarna i Snells lag mäts från normalen. Till större brytningsindex ska vinkeln minska; till mindre brytningsindex ska den öka.</p><p>När ljus går från större till mindre brytningsindex och infallsvinkeln överstiger gränsvinkeln sker <strong>totalreflektion</strong>.</p><p><strong>Svar:</strong> A.</p>",
     "familj": "Totalreflektion och optisk fiber",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "straloptik__snells_lag_och_brytning",
     "svarstyp": "val",
-    "rättSvar": "C",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -23745,15 +23745,15 @@ window.BANK2 = [
     "omr": "atomstruktur",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vilken övergång i väte ger en foton med störst energi?</p><p>A. \\(n=3\\to2\\)<br>B. \\(n=2\\to1\\)<br>C. \\(n=4\\to3\\)<br>D. \\(n=5\\to4\\)</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Fysikalisk idé:</strong> Atomen absorberar eller avger en foton vars energi är lika med energiskillnaden mellan två tillåtna nivåer. Använd därför \\(E_\\gamma=|E_{slut}-E_{start}|\\).</p><p>Fotonenergin är skillnaden mellan energinivåerna. Skillnaden är klart störst för övergången \\(n=2\\to1\\).</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>Vilken övergång i väte ger en foton med störst energi?</p><p>A. \\(n=3\\to2\\)<br>B. \\(n=4\\to3\\)<br>C. \\(n=2\\to1\\)<br>D. \\(n=5\\to4\\)</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Fysikalisk idé:</strong> Atomen absorberar eller avger en foton vars energi är lika med energiskillnaden mellan två tillåtna nivåer. Använd därför \\(E_\\gamma=|E_{slut}-E_{start}|\\).</p><p>Fotonenergin är skillnaden mellan energinivåerna. Skillnaden är klart störst för övergången \\(n=2\\to1\\).</p><p><strong>Svar:</strong> C.</p></div></div>",
     "familj": "Spektrallinjer och fotoner",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "atomstruktur__bohrs_atommodell",
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -23818,15 +23818,15 @@ window.BANK2 = [
     "omr": "em_vagor",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vilken ordning går från lägst till högst frekvens?</p><p>A. radio – mikrovåg – infrarött – synligt – ultraviolett<br>B. ultraviolett – synligt – infrarött – mikrovåg – radio<br>C. radio – infrarött – mikrovåg – synligt – ultraviolett<br>D. mikrovåg – radio – synligt – infrarött – ultraviolett</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Begrepp:</strong> Alla elektromagnetiska vågor har samma fart \\(c\\) i vakuum. Högre frekvens betyder därför kortare våglängd; spektrumordningen kan jämföras med \\(c=f\\lambda\\).</p><p>Frekvensen ökar från radio via mikrovågor och infrarött till synligt och ultraviolett.</p><p><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>Vilken ordning går från lägst till högst frekvens?</p><p>A. mikrovåg – radio – synligt – infrarött – ultraviolett<br>B. ultraviolett – synligt – infrarött – mikrovåg – radio<br>C. radio – infrarött – mikrovåg – synligt – ultraviolett<br>D. radio – mikrovåg – infrarött – synligt – ultraviolett</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Begrepp:</strong> Alla elektromagnetiska vågor har samma fart \\(c\\) i vakuum. Högre frekvens betyder därför kortare våglängd; spektrumordningen kan jämföras med \\(c=f\\lambda\\).</p><p>Frekvensen ökar från radio via mikrovågor och infrarött till synligt och ultraviolett.</p><p><strong>Svar:</strong> D.</p></div></div>",
     "familj": "Spektrum och tillämpningar",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "em_vagor__elektromagnetiska_vagor_och_spektrum",
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -23841,15 +23841,15 @@ window.BANK2 = [
     "omr": "em_vagor",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vilket påstående om elektromagnetiska vågor i vakuum är korrekt?</p><p>A. Radiovågor går långsammare än synligt ljus.<br>B. Alla elektromagnetiska vågor har samma hastighet i vakuum.<br>C. Gammastrålning går snabbare än ljus.<br>D. Endast synligt ljus kan färdas i vakuum.</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Begrepp:</strong> Alla elektromagnetiska vågor har samma fart \\(c\\) i vakuum. Högre frekvens betyder därför kortare våglängd; spektrumordningen kan jämföras med \\(c=f\\lambda\\).</p><p>Alla elektromagnetiska vågor färdas med ljushastigheten \\(c\\) i vakuum.</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>Vilket påstående om elektromagnetiska vågor i vakuum är korrekt?</p><p>A. Radiovågor går långsammare än synligt ljus.<br>B. Endast synligt ljus kan färdas i vakuum.<br>C. Gammastrålning går snabbare än ljus.<br>D. Alla elektromagnetiska vågor har samma hastighet i vakuum.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p><strong>Begrepp:</strong> Alla elektromagnetiska vågor har samma fart \\(c\\) i vakuum. Högre frekvens betyder därför kortare våglängd; spektrumordningen kan jämföras med \\(c=f\\lambda\\).</p><p>Alla elektromagnetiska vågor färdas med ljushastigheten \\(c\\) i vakuum.</p><p><strong>Svar:</strong> D.</p></div></div>",
     "familj": "Spektrum och tillämpningar",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "em_vagor__elektromagnetiska_vagor_och_spektrum",
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24042,15 +24042,15 @@ window.BANK2 = [
     "omr": "spolar",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En solenoid behåller samma längd men får dubbelt så många varv och strömmen halveras.</p><p>Hur ändras magnetfältet inuti spolen?</p><p>A. Halveras<br>B. Oförändrat<br>C. Fördubblas<br>D. Fyrdubblas</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en lång solenoid är \\(B\\propto NI/L\\). Längden är oförändrad. När antalet varv fördubblas samtidigt som strömmen halveras blir produkten \\(NI\\) oförändrad.</p><p class=\"facit-svar\"><strong>Svar:</strong> B. Magnetfältet är oförändrat.</p></div>",
+    "t": "<p>En solenoid behåller samma längd men får dubbelt så många varv och strömmen halveras.</p><p>Hur ändras magnetfältet inuti spolen?</p><p>A. Halveras<br>B. Fördubblas<br>C. Oförändrat<br>D. Fyrdubblas</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">För en lång solenoid är \\(B\\propto NI/L\\). Längden är oförändrad. När antalet varv fördubblas samtidigt som strömmen halveras blir produkten \\(NI\\) oförändrad.</p><p class=\"facit-svar\"><strong>Svar:</strong> C. Magnetfältet är oförändrat.</p></div>",
     "familj": "Magnetfält i en spole",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "magnetism__magnetfalt_i_spole",
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24172,8 +24172,60 @@ window.BANK2 = [
     "omr": "kosmologi",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vad händer med den genomsnittliga materietätheten när universum expanderar?</p><p>A. Den ökar<br>B. Den är exakt konstant<br>C. Den minskar<br>D. Den blir alltid noll direkt</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Samma mängd materia fördelas över en större volym, så den genomsnittliga materietätheten minskar.</p><p><strong>Svar:</strong> C.</p></div></div>",
+    "t": "<p>Vad händer med den genomsnittliga materietätheten när universum expanderar?</p><p>A. Den minskar<br>B. Den är exakt konstant<br>C. Den ökar<br>D. Den blir alltid noll direkt</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Samma mängd materia fördelas över en större volym, så den genomsnittliga materietätheten minskar.</p><p><strong>Svar:</strong> A.</p></div></div>",
+    "familj": "Universums framtid",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "framtiden__universums_framtida_utveckling",
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>",
+    "omrTidigare": [
+      "framtiden"
+    ],
+    "familjTidigare": [
+      "Universums framtida utveckling"
+    ]
+  },
+  {
+    "id": "5.303",
+    "kap": 5,
+    "omr": "kosmologi",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Vilken term används ofta för ett framtidsscenario där universum fortsätter expandera och blir kallare och glesare?</p><p>A. Big Crunch<br>B. Big Freeze<br>C. Big Bang<br>D. Solvind</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett fortsatt expanderande, kallare och glesare universum brukar kallas Big Freeze.</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "familj": "Universums framtid",
+    "formaga": [
+      "begrepp"
+    ],
+    "familjNyckel": "framtiden__universums_framtida_utveckling",
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>",
+    "omrTidigare": [
+      "framtiden"
+    ],
+    "familjTidigare": [
+      "Universums framtida utveckling"
+    ]
+  },
+  {
+    "id": "5.304",
+    "kap": 5,
+    "omr": "kosmologi",
+    "niva": "E",
+    "poang": "(2/0/0)",
+    "t": "<p>Vad krävs för ett Big Crunch-scenario?</p><p>A. Att alla stjärnor blir blå<br>B. Att ljushastigheten minskar<br>C. Att expansionen någon gång vänder till kontraktion<br>D. Att Hubbles konstant blir exakt 70 för alltid</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Big Crunch innebär att expansionen upphör och ersätts av en kontraktion.</p><p><strong>Svar:</strong> C.</p></div></div>",
     "familj": "Universums framtid",
     "formaga": [
       "begrepp"
@@ -24193,72 +24245,20 @@ window.BANK2 = [
     ]
   },
   {
-    "id": "5.303",
-    "kap": 5,
-    "omr": "kosmologi",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Vilken term används ofta för ett framtidsscenario där universum fortsätter expandera och blir kallare och glesare?</p><p>A. Big Freeze<br>B. Big Crunch<br>C. Big Bang<br>D. Solvind</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Ett fortsatt expanderande, kallare och glesare universum brukar kallas Big Freeze.</p><p><strong>Svar:</strong> A.</p></div></div>",
-    "familj": "Universums framtid",
-    "formaga": [
-      "begrepp"
-    ],
-    "familjNyckel": "framtiden__universums_framtida_utveckling",
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "val",
-    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>",
-    "omrTidigare": [
-      "framtiden"
-    ],
-    "familjTidigare": [
-      "Universums framtida utveckling"
-    ]
-  },
-  {
-    "id": "5.304",
-    "kap": 5,
-    "omr": "kosmologi",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Vad krävs för ett Big Crunch-scenario?</p><p>A. Att expansionen någon gång vänder till kontraktion<br>B. Att ljushastigheten minskar<br>C. Att alla stjärnor blir blå<br>D. Att Hubbles konstant blir exakt 70 för alltid</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Big Crunch innebär att expansionen upphör och ersätts av en kontraktion.</p><p><strong>Svar:</strong> A.</p></div></div>",
-    "familj": "Universums framtid",
-    "formaga": [
-      "begrepp"
-    ],
-    "familjNyckel": "framtiden__universums_framtida_utveckling",
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "val",
-    "ledtrad": "<p>Koppla frågan till hur materie-/energitäthet och expansion påverkar varandra. Var noga med att skilja observationer om dagens acceleration från modeller för universums långsiktiga utveckling.</p>",
-    "omrTidigare": [
-      "framtiden"
-    ],
-    "familjTidigare": [
-      "Universums framtida utveckling"
-    ]
-  },
-  {
     "id": "5.305",
     "kap": 5,
     "omr": "kosmologi",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vilket påstående om mörk energi är mest relevant för universums framtida utveckling?</p><p>A. Dess egenskaper påverkar hur expansionen förändras med tiden<br>B. Den påverkar bara planetsystem<br>C. Den finns endast inne i stjärnor<br>D. Den bestämmer ljusets färg</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Mörk energis egenskaper är centrala för hur den kosmiska expansionen utvecklas.</p><p><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>Vilket påstående om mörk energi är mest relevant för universums framtida utveckling?</p><p>A. Den bestämmer ljusets färg<br>B. Den påverkar bara planetsystem<br>C. Den finns endast inne i stjärnor<br>D. Dess egenskaper påverkar hur expansionen förändras med tiden</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Mörk energis egenskaper är centrala för hur den kosmiska expansionen utvecklas.</p><p><strong>Svar:</strong> D.</p></div></div>",
     "familj": "Universums framtid",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "framtiden__universums_framtida_utveckling",
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24276,15 +24276,15 @@ window.BANK2 = [
     "omr": "kosmologi",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>I ett universum som fortsätter expandera mycket länge, vad händer i grova drag med avståndet mellan gravitationellt obundna galaxgrupper?</p><p>A. Det minskar alltid<br>B. Det ökar<br>C. Det blir exakt noll<br>D. Det påverkas inte av expansionen</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kosmisk expansion ökar avståndet mellan system som inte är gravitationellt bundna till varandra.</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>I ett universum som fortsätter expandera mycket länge, vad händer i grova drag med avståndet mellan gravitationellt obundna galaxgrupper?</p><p>A. Det ökar<br>B. Det minskar alltid<br>C. Det blir exakt noll<br>D. Det påverkas inte av expansionen</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Kosmisk expansion ökar avståndet mellan system som inte är gravitationellt bundna till varandra.</p><p><strong>Svar:</strong> A.</p></div></div>",
     "familj": "Universums framtid",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "framtiden__universums_framtida_utveckling",
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24328,15 +24328,15 @@ window.BANK2 = [
     "omr": "kosmologi",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vilket påstående är mest korrekt i modern kosmologi?</p><p>A. Universums framtid avgörs enbart av geometrisk krökning<br>B. Både materieinnehåll och mörk energis egenskaper spelar roll<br>C. Endast antalet stjärnor spelar roll<br>D. Framtiden kan bestämmas från en enda galax</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Med mörk energi i modellen räcker det inte att bara känna till geometrisk krökning; energiinnehållets egenskaper spelar också roll.</p><p><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>Vilket påstående är mest korrekt i modern kosmologi?</p><p>A. Universums framtid avgörs enbart av geometrisk krökning<br>B. Endast antalet stjärnor spelar roll<br>C. Både materieinnehåll och mörk energis egenskaper spelar roll<br>D. Framtiden kan bestämmas från en enda galax</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Med mörk energi i modellen räcker det inte att bara känna till geometrisk krökning; energiinnehållets egenskaper spelar också roll.</p><p><strong>Svar:</strong> C.</p></div></div>",
     "familj": "Universums framtid",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "framtiden__universums_framtida_utveckling",
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24354,15 +24354,15 @@ window.BANK2 = [
     "omr": "stjarnornas_utveckling",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vilken slutprodukt får en stjärna med ungefär solens massa efter röd-jättefasen?</p><p>A. Vit dvärg<br>B. Neutronstjärna<br>C. Svart hål<br>D. Pulsar direkt</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En solmassestjärna lämnar en vit dvärg efter att de yttre lagren stötts bort.</p><p><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>Vilken slutprodukt får en stjärna med ungefär solens massa efter röd-jättefasen?</p><p>A. Pulsar direkt<br>B. Neutronstjärna<br>C. Svart hål<br>D. Vit dvärg</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>En solmassestjärna lämnar en vit dvärg efter att de yttre lagren stötts bort.</p><p><strong>Svar:</strong> D.</p></div></div>",
     "familj": "Stjärnors livslängd och slutstadier",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24377,15 +24377,15 @@ window.BANK2 = [
     "omr": "stjarnornas_utveckling",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Vilken händelse är typisk i slutet av livet för en mycket massiv stjärna?</p><p>A. Supernova<br>B. Den blir alltid en planet<br>C. Den övergår direkt till en vit dvärg utan kraftig explosion<br>D. Den slutar fusionera efter en dag</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Massiva stjärnor kan avsluta sina liv i en supernova.</p><p><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>Vilken händelse är typisk i slutet av livet för en mycket massiv stjärna?</p><p>A. Den övergår direkt till en vit dvärg utan kraftig explosion<br>B. Den blir alltid en planet<br>C. Supernova<br>D. Den slutar fusionera efter en dag</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Massiva stjärnor kan avsluta sina liv i en supernova.</p><p><strong>Svar:</strong> C.</p></div></div>",
     "familj": "Stjärnors livslängd och slutstadier",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24400,15 +24400,15 @@ window.BANK2 = [
     "omr": "farg_ljusstyrka",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>På ett vanligt HR-diagram ökar stjärnornas yttemperatur åt vilket håll?</p><p>A. Åt vänster<br>B. Åt höger<br>C. Nedåt<br>D. Den visas inte</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>På HR-diagram brukar temperaturen vara högst till vänster.</p><p><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>På ett vanligt HR-diagram ökar stjärnornas yttemperatur åt vilket håll?</p><p>A. Den visas inte<br>B. Åt höger<br>C. Nedåt<br>D. Åt vänster</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>På HR-diagram brukar temperaturen vara högst till vänster.</p><p><strong>Svar:</strong> D.</p></div></div>",
     "familj": "Läsa HR-diagrammet",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24452,15 +24452,15 @@ window.BANK2 = [
     "omr": "farg_ljusstyrka",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>En vit dvärg kan vara het men ändå ha låg luminositet. Vad är den viktigaste förklaringen?</p><div class=\"fig smal\"><svg width=\"460\" height=\"330\" viewBox=\"0 0 460 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Schematiskt HR-diagram\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"25\" width=\"360\" height=\"260\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" rx=\"4\"/><line x1=\"107.4\" y1=\"285\" x2=\"107.4\" y2=\"290\" stroke=\"#24262b\"/><text x=\"107\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">30 000</text><line x1=\"250.0\" y1=\"285\" x2=\"250.0\" y2=\"290\" stroke=\"#24262b\"/><text x=\"250\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">10 000</text><line x1=\"316.3\" y1=\"285\" x2=\"316.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"316\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">6 000</text><line x1=\"406.3\" y1=\"285\" x2=\"406.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"406\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3 000</text><text x=\"250\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">yttemperatur (K)</text><line x1=\"65\" y1=\"261.4\" x2=\"70\" y2=\"261.4\" stroke=\"#24262b\"/><text x=\"62\" y=\"265.4\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-4</tspan></text><line x1=\"65\" y1=\"214.1\" x2=\"70\" y2=\"214.1\" stroke=\"#24262b\"/><text x=\"62\" y=\"218.1\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-2</tspan></text><line x1=\"65\" y1=\"166.8\" x2=\"70\" y2=\"166.8\" stroke=\"#24262b\"/><text x=\"62\" y=\"170.8\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">0</tspan></text><line x1=\"65\" y1=\"119.5\" x2=\"70\" y2=\"119.5\" stroke=\"#24262b\"/><text x=\"62\" y=\"123.5\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">2</tspan></text><line x1=\"65\" y1=\"72.3\" x2=\"70\" y2=\"72.3\" stroke=\"#24262b\"/><text x=\"62\" y=\"76.3\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">4</tspan></text><line x1=\"65\" y1=\"25.0\" x2=\"70\" y2=\"25.0\" stroke=\"#24262b\"/><text x=\"62\" y=\"29.0\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">6</tspan></text><text x=\"22\" y=\"155.0\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 22 155.0)\">luminositet (L☉)</text><polyline points=\"87.3,41.5 160.0,72.3 250.0,129.0 296.3,150.3 320.7,166.8 353.7,183.3 386.3,207.0 415.3,230.6\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"16\" stroke-linecap=\"round\" opacity=\"0.45\"/><text x=\"373\" y=\"216\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">huvudserien</text><ellipse cx=\"359.6\" cy=\"115.4\" rx=\"45\" ry=\"20\" fill=\"#f97316\" opacity=\"0.55\"/><text x=\"360\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">röda jättar</text><ellipse cx=\"273.2\" cy=\"41.5\" rx=\"125\" ry=\"13\" fill=\"#fde68a\" opacity=\"0.45\"/><text x=\"273\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">superjättar</text><ellipse cx=\"206.3\" cy=\"226.4\" rx=\"42\" ry=\"14\" fill=\"#9ca3af\" opacity=\"0.45\"/><text x=\"206\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">vita dvärgar</text></svg></div><p>A. Den har mycket liten radie<br>B. Den saknar all massa<br>C. Den ligger alltid bakom stoft<br>D. Den avger bara radiovågor</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den lilla radien ger liten strålande yta och därmed låg total luminositet.</p><p><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>En vit dvärg kan vara het men ändå ha låg luminositet. Vad är den viktigaste förklaringen?</p><div class=\"fig smal\"><svg width=\"460\" height=\"330\" viewBox=\"0 0 460 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Schematiskt HR-diagram\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"25\" width=\"360\" height=\"260\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" rx=\"4\"/><line x1=\"107.4\" y1=\"285\" x2=\"107.4\" y2=\"290\" stroke=\"#24262b\"/><text x=\"107\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">30 000</text><line x1=\"250.0\" y1=\"285\" x2=\"250.0\" y2=\"290\" stroke=\"#24262b\"/><text x=\"250\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">10 000</text><line x1=\"316.3\" y1=\"285\" x2=\"316.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"316\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">6 000</text><line x1=\"406.3\" y1=\"285\" x2=\"406.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"406\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3 000</text><text x=\"250\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">yttemperatur (K)</text><line x1=\"65\" y1=\"261.4\" x2=\"70\" y2=\"261.4\" stroke=\"#24262b\"/><text x=\"62\" y=\"265.4\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-4</tspan></text><line x1=\"65\" y1=\"214.1\" x2=\"70\" y2=\"214.1\" stroke=\"#24262b\"/><text x=\"62\" y=\"218.1\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-2</tspan></text><line x1=\"65\" y1=\"166.8\" x2=\"70\" y2=\"166.8\" stroke=\"#24262b\"/><text x=\"62\" y=\"170.8\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">0</tspan></text><line x1=\"65\" y1=\"119.5\" x2=\"70\" y2=\"119.5\" stroke=\"#24262b\"/><text x=\"62\" y=\"123.5\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">2</tspan></text><line x1=\"65\" y1=\"72.3\" x2=\"70\" y2=\"72.3\" stroke=\"#24262b\"/><text x=\"62\" y=\"76.3\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">4</tspan></text><line x1=\"65\" y1=\"25.0\" x2=\"70\" y2=\"25.0\" stroke=\"#24262b\"/><text x=\"62\" y=\"29.0\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">6</tspan></text><text x=\"22\" y=\"155.0\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 22 155.0)\">luminositet (L☉)</text><polyline points=\"87.3,41.5 160.0,72.3 250.0,129.0 296.3,150.3 320.7,166.8 353.7,183.3 386.3,207.0 415.3,230.6\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"16\" stroke-linecap=\"round\" opacity=\"0.45\"/><text x=\"373\" y=\"216\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">huvudserien</text><ellipse cx=\"359.6\" cy=\"115.4\" rx=\"45\" ry=\"20\" fill=\"#f97316\" opacity=\"0.55\"/><text x=\"360\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">röda jättar</text><ellipse cx=\"273.2\" cy=\"41.5\" rx=\"125\" ry=\"13\" fill=\"#fde68a\" opacity=\"0.45\"/><text x=\"273\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">superjättar</text><ellipse cx=\"206.3\" cy=\"226.4\" rx=\"42\" ry=\"14\" fill=\"#9ca3af\" opacity=\"0.45\"/><text x=\"206\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">vita dvärgar</text></svg></div><p>A. Den saknar all massa<br>B. Den har mycket liten radie<br>C. Den ligger alltid bakom stoft<br>D. Den avger bara radiovågor</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p>Den lilla radien ger liten strålande yta och därmed låg total luminositet.</p><p><strong>Svar:</strong> B.</p></div></div>",
     "familj": "Läsa HR-diagrammet",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24504,15 +24504,15 @@ window.BANK2 = [
     "omr": "stjarnornas_utveckling",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Varför har mycket massiva huvudseriestjärnor kortare livslängd än solen trots att de har mer bränsle?</p><p>A. De förbrukar bränslet mycket snabbare eftersom luminositeten är mycket större<br>B. De har ingen fusion<br>C. De innehåller inget väte<br>D. De är kallare än alla andra stjärnor</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv reaktionen så att laddningstal och masstal balanserar. Vid sönderfall minskar antalet kärnor exponentiellt, medan frigjord energi kommer från masskillnaden.</p><div class=\"facit-arbete\"><p>Massiva stjärnor har mycket hög energiproduktion och förbrukar därför sitt bränsle snabbare.</p><p><strong>Svar:</strong> A.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Antalet kärnor och aktiviteten ska minska med samma halveringsfaktor. Kontrollera att masskillnaden ger positiv frigjord energi.</p></div>",
+    "t": "<p>Varför har mycket massiva huvudseriestjärnor kortare livslängd än solen trots att de har mer bränsle?</p><p>A. De har ingen fusion<br>B. De förbrukar bränslet mycket snabbare eftersom luminositeten är mycket större<br>C. De innehåller inget väte<br>D. De är kallare än alla andra stjärnor</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv reaktionen så att laddningstal och masstal balanserar. Vid sönderfall minskar antalet kärnor exponentiellt, medan frigjord energi kommer från masskillnaden.</p><div class=\"facit-arbete\"><p>Massiva stjärnor har mycket hög energiproduktion och förbrukar därför sitt bränsle snabbare.</p><p><strong>Svar:</strong> B.</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Antalet kärnor och aktiviteten ska minska med samma halveringsfaktor. Kontrollera att masskillnaden ger positiv frigjord energi.</p></div>",
     "familj": "Stjärnors livslängd och slutstadier",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24840,15 +24840,15 @@ window.BANK2 = [
     "omr": "farg_ljusstyrka",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Vilken stjärna ligger typiskt längst upp till vänster i ett HR-diagram?</p><p>A. Kall och ljussvag<br>B. Varm och ljusstark<br>C. Kall och ljusstark<br>D. Varm och ljussvag</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I ett HR-diagram ökar luminositeten uppåt, medan temperaturen är högre åt vänster.</p><p class=\"facit-svar\"><strong>Svar:</strong> B, varm och ljusstark.</p></div>",
+    "t": "<p>Vilken stjärna ligger typiskt längst upp till vänster i ett HR-diagram?</p><p>A. Kall och ljussvag<br>B. Varm och ljussvag<br>C. Kall och ljusstark<br>D. Varm och ljusstark</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">I ett HR-diagram ökar luminositeten uppåt, medan temperaturen är högre åt vänster.</p><p class=\"facit-svar\"><strong>Svar:</strong> D, varm och ljusstark.</p></div>",
     "familj": "Läsa HR-diagrammet",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -24868,8 +24868,8 @@ window.BANK2 = [
     "omr": "kosmologi",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Observationer visar att universums expansion accelererar. Vilken framtidsbild ligger närmast den enklaste modellen där denna acceleration fortsätter?</p><p>A. Expansionen bromsar och universum kollapsar snart.<br>B. Expansionen fortsätter och avlägsna galaxer blir allt mer separerade.<br>C. Alla galaxer stannar på fasta avstånd.<br>D. Universums skala börjar oscillera regelbundet.</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Om den accelererande expansionen fortsätter växer avstånden mellan gravitationellt obundna strukturer allt snabbare.</p><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Observationer visar att universums expansion accelererar. Vilken framtidsbild ligger närmast den enklaste modellen där denna acceleration fortsätter?</p><p>A. Expansionen bromsar och universum kollapsar snart.<br>B. Alla galaxer stannar på fasta avstånd.<br>C. Expansionen fortsätter och avlägsna galaxer blir allt mer separerade.<br>D. Universums skala börjar oscillera regelbundet.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\">Om den accelererande expansionen fortsätter växer avstånden mellan gravitationellt obundna strukturer allt snabbare.</p><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
     "familj": "Universums framtid",
     "formaga": [
       "begrepp",
@@ -24877,7 +24877,7 @@ window.BANK2 = [
     ],
     "familjNyckel": "framtiden__universums_framtida_utveckling",
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",

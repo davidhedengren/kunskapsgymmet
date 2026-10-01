@@ -13704,15 +13704,15 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken är den generella lösningen till \\(\\tan x=1\\)?</p><p>A. \\(x=45^\\circ+180^\\circ n\\)<br>B. \\(x=45^\\circ+360^\\circ n\\)<br>C. \\(x=135^\\circ+180^\\circ n\\)<br>D. \\(x=180^\\circ n\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>Tangens har perioden \\(180^\\circ\\), och grundvinkeln är \\(45^\\circ\\).</p><p><strong>Svar:</strong> A.</p>",
+    "t": "<p>Vilken är den generella lösningen till \\(\\tan x=1\\)?</p><p>A. \\(x=135^\\circ+180^\\circ n\\)<br>B. \\(x=45^\\circ+360^\\circ n\\)<br>C. \\(x=45^\\circ+180^\\circ n\\)<br>D. \\(x=180^\\circ n\\)</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>Tangens har perioden \\(180^\\circ\\), och grundvinkeln är \\(45^\\circ\\).</p><p><strong>Svar:</strong> C.</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -13735,15 +13735,15 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken är den generella lösningen till \\(\\cos x=0\\)?</p><p>A. \\(x=90^\\circ+180^\\circ n\\)<br>B. \\(x=180^\\circ n\\)<br>C. \\(x=90^\\circ+360^\\circ n\\)<br>D. \\(x=45^\\circ+180^\\circ n\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>Cosinus är noll vid udda multiplar av \\(90^\\circ\\), vilket skrivs \\(90^\\circ+180^\\circ n\\).</p><p><strong>Svar:</strong> A.</p>",
+    "t": "<p>Vilken är den generella lösningen till \\(\\cos x=0\\)?</p><p>A. \\(x=45^\\circ+180^\\circ n\\)<br>B. \\(x=180^\\circ n\\)<br>C. \\(x=90^\\circ+360^\\circ n\\)<br>D. \\(x=90^\\circ+180^\\circ n\\)</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>Cosinus är noll vid udda multiplar av \\(90^\\circ\\), vilket skrivs \\(90^\\circ+180^\\circ n\\).</p><p><strong>Svar:</strong> D.</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -13830,15 +13830,15 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken är den generella lösningen till \\(\\sin(2x)=0\\)?</p><p>A. \\(x=90^\\circ n\\)<br>B. \\(x=180^\\circ n\\)<br>C. \\(x=90^\\circ+180^\\circ n\\)<br>D. \\(x=360^\\circ n\\)</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>\\(2x=180^\\circ n\\Rightarrow x=90^\\circ n\\).</p><p><strong>Svar:</strong> A.</p>",
+    "t": "<p>Vilken är den generella lösningen till \\(\\sin(2x)=0\\)?</p><p>A. \\(x=360^\\circ n\\)<br>B. \\(x=180^\\circ n\\)<br>C. \\(x=90^\\circ+180^\\circ n\\)<br>D. \\(x=90^\\circ n\\)</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p><p>\\(2x=180^\\circ n\\Rightarrow x=90^\\circ n\\).</p><p><strong>Svar:</strong> D.</p>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -18404,15 +18404,15 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Vilken omskrivning är korrekt?</p><p>\\[3\\sin x-4\\cos x\\]</p><p>A. \\(5\\sin(x-\\arctan(4/3))\\)<br>B. \\(5\\sin(x+\\arctan(4/3))\\)<br>C. \\(7\\sin(x-\\arctan(4/3))\\)<br>D. \\(5\\cos(x-\\arctan(4/3))\\)</p>",
-    "s": "<p><strong>Metod:</strong> Jämför med \\(R\\sin(x-v)=R\\cos v\\sin x-R\\sin v\\cos x\\).</p><p>Här behövs \\(R\\cos v=3\\) och \\(R\\sin v=4\\). Då \\(R=5\\) och \\(\\tan v=4/3\\).</p><p><strong>Svar: A.</strong></p>",
+    "t": "<p>Vilken omskrivning är korrekt?</p><p>\\[3\\sin x-4\\cos x\\]</p><p>A. \\(5\\sin(x+\\arctan(4/3))\\)<br>B. \\(5\\sin(x-\\arctan(4/3))\\)<br>C. \\(7\\sin(x-\\arctan(4/3))\\)<br>D. \\(5\\cos(x-\\arctan(4/3))\\)</p>",
+    "s": "<p><strong>Metod:</strong> Jämför med \\(R\\sin(x-v)=R\\cos v\\sin x-R\\sin v\\cos x\\).</p><p>Här behövs \\(R\\cos v=3\\) och \\(R\\sin v=4\\). Då \\(R=5\\) och \\(\\tan v=4/3\\).</p><p><strong>Svar: B.</strong></p>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "begrepp",
       "procedur"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
@@ -46950,14 +46950,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken lodrät asymptot har funktionen \\(f(x)=\\ln x\\)?</p><p>A. \\(x=0\\)<br>B. \\(y=0\\)<br>C. \\(x=1\\)<br>D. Ingen</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p><p>När \\(x\\to0^+\\) går \\(\\ln x\\to-\\infty\\). Därför är \\(x=0\\) en lodrät asymptot.</p><p><strong>Svar:</strong> A.</p>",
+    "t": "<p>Vilken lodrät asymptot har funktionen \\(f(x)=\\ln x\\)?</p><p>A. \\(x=1\\)<br>B. \\(y=0\\)<br>C. \\(x=0\\)<br>D. Ingen</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p><p>När \\(x\\to0^+\\) går \\(\\ln x\\to-\\infty\\). Därför är \\(x=0\\) en lodrät asymptot.</p><p><strong>Svar:</strong> C.</p>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -47013,14 +47013,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken vågrät asymptot har \\(f(x)=e^{-x}\\) när \\(x\\to\\infty\\)?</p><p>A. \\(y=0\\)<br>B. \\(y=1\\)<br>C. \\(x=0\\)<br>D. Ingen</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p><p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\).</p><p><strong>Svar:</strong> A.</p>",
+    "t": "<p>Vilken vågrät asymptot har \\(f(x)=e^{-x}\\) när \\(x\\to\\infty\\)?</p><p>A. \\(x=0\\)<br>B. \\(y=1\\)<br>C. \\(y=0\\)<br>D. Ingen</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p><p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\).</p><p><strong>Svar:</strong> C.</p>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -47756,7 +47756,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=e^x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=3e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=4\\cos x-2\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=1/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Metod:</strong> Bestäm en funktion vars derivata blir den givna funktionen och lägg till \\(C\\).</p><p>a) \\(\\boxed{e^x+C}\\).</p><p>b) Eftersom \\((e^{2x})'=2e^{2x}\\) blir svaret \\(\\boxed{\\frac32e^{2x}+C}\\).</p><p>c) \\(\\boxed{4\\sin x+2\\cos x+C}\\), eftersom derivatan av \\(2\\cos x\\) är \\(-2\\sin x\\).</p><p>d) För \\(x&gt;0\\): \\(\\boxed{\\ln x+C}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Bestäm en funktion vars derivata blir den givna funktionen. En primitiv funktion räcker som svar; lägger man till en konstant \\(C\\) får man alla primitiva funktioner.</p><p>a) \\(\\boxed{e^x}\\).</p><p>b) Eftersom \\((e^{2x})'=2e^{2x}\\) blir svaret \\(\\boxed{\\frac32e^{2x}}\\).</p><p>c) \\(\\boxed{4\\sin x+2\\cos x}\\), eftersom derivatan av \\(2\\cos x\\) är \\(-2\\sin x\\).</p><p>d) För \\(x&gt;0\\): \\(\\boxed{\\ln x}\\).</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -47798,7 +47798,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=e^x\\)</p>",
-        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen och lägg till \\(C\\).</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\boxed{e^x+C}\\).</div>",
+        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen. En primitiv funktion räcker som svar; lägger man till en konstant \\(C\\) får man alla primitiva funktioner.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\boxed{e^x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -47807,7 +47807,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(g(x)=3e^{2x}\\)</p>",
-        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen och lägg till \\(C\\).</p><div class=\"spel-en-del\"><strong>b)</strong> Eftersom \\((e^{2x})'=2e^{2x}\\) blir svaret \\(\\boxed{\\frac32e^{2x}+C}\\).</div>",
+        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen. En primitiv funktion räcker som svar; lägger man till en konstant \\(C\\) får man alla primitiva funktioner.</p><div class=\"spel-en-del\"><strong>b)</strong> Eftersom \\((e^{2x})'=2e^{2x}\\) blir svaret \\(\\boxed{\\frac32e^{2x}}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -47816,7 +47816,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=4\\cos x-2\\sin x\\)</p>",
-        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen och lägg till \\(C\\).</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\boxed{4\\sin x+2\\cos x+C}\\), eftersom derivatan av \\(2\\cos x\\) är \\(-2\\sin x\\).</div>",
+        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen. En primitiv funktion räcker som svar; lägger man till en konstant \\(C\\) får man alla primitiva funktioner.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\boxed{4\\sin x+2\\cos x}\\), eftersom derivatan av \\(2\\cos x\\) är \\(-2\\sin x\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -47825,7 +47825,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(p(x)=1/x\\)<br>för \\(x&gt;0\\)</p>",
-        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen och lägg till \\(C\\).</p><div class=\"spel-en-del\"><strong>d)</strong> För \\(x&gt;0\\): \\(\\boxed{\\ln x+C}\\).</div>",
+        "s": "<p>Metod: Bestäm en funktion vars derivata blir den givna funktionen. En primitiv funktion räcker som svar; lägger man till en konstant \\(C\\) får man alla primitiva funktioner.</p><div class=\"spel-en-del\"><strong>d)</strong> För \\(x&gt;0\\): \\(\\boxed{\\ln x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -47950,7 +47950,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(8x^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(5e^x-2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(3/x\\)<br>för \\(x&gt;0\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(4\\sin x+3\\cos x\\)</p>",
-    "s": "<p><strong>Metod:</strong> En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). Lägg alltid till konstanten \\(C\\).</p><p>a) \\(\\int8x^3dx=\\boxed{2x^4+C}\\).</p><p>b) \\(\\int(5e^x-2)dx=\\boxed{5e^x-2x+C}\\).</p><p>c) För \\(x&gt;0\\): \\(\\int\\frac3x dx=\\boxed{3\\ln x+C}\\).</p><p>d) \\(\\int(4\\sin x+3\\cos x)dx=\\boxed{-4\\cos x+3\\sin x+C}\\).</p>",
+    "s": "<p><strong>Metod:</strong> En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). En primitiv funktion räcker som svar; alla primitiva funktioner får man genom att lägga till en konstant \\(C\\).</p><p>a) \\(\\int8x^3dx=\\boxed{2x^4}\\).</p><p>b) \\(\\int(5e^x-2)dx=\\boxed{5e^x-2x}\\).</p><p>c) För \\(x&gt;0\\): \\(\\int\\frac3x dx=\\boxed{3\\ln x}\\).</p><p>d) \\(\\int(4\\sin x+3\\cos x)dx=\\boxed{-4\\cos x+3\\sin x}\\).</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -47992,7 +47992,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(8x^3\\)</p>",
-        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). Lägg alltid till konstanten \\(C\\).</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\int8x^3dx=\\boxed{2x^4+C}\\).</div>",
+        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). En primitiv funktion räcker som svar; alla primitiva funktioner får man genom att lägga till en konstant \\(C\\).</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\int8x^3dx=\\boxed{2x^4}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -48001,7 +48001,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(5e^x-2\\)</p>",
-        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). Lägg alltid till konstanten \\(C\\).</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\int(5e^x-2)dx=\\boxed{5e^x-2x+C}\\).</div>",
+        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). En primitiv funktion räcker som svar; alla primitiva funktioner får man genom att lägga till en konstant \\(C\\).</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\int(5e^x-2)dx=\\boxed{5e^x-2x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -48010,7 +48010,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(3/x\\)<br>för \\(x&gt;0\\)</p>",
-        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). Lägg alltid till konstanten \\(C\\).</p><div class=\"spel-en-del\"><strong>c)</strong> För \\(x&gt;0\\): \\(\\int\\frac3x dx=\\boxed{3\\ln x+C}\\).</div>",
+        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). En primitiv funktion räcker som svar; alla primitiva funktioner får man genom att lägga till en konstant \\(C\\).</p><div class=\"spel-en-del\"><strong>c)</strong> För \\(x&gt;0\\): \\(\\int\\frac3x dx=\\boxed{3\\ln x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -48019,7 +48019,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(4\\sin x+3\\cos x\\)</p>",
-        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). Lägg alltid till konstanten \\(C\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\int(4\\sin x+3\\cos x)dx=\\boxed{-4\\cos x+3\\sin x+C}\\).</div>",
+        "s": "<p>Metod: En primitiv funktion \\(F\\) ska uppfylla \\(F'=f\\). En primitiv funktion räcker som svar; alla primitiva funktioner får man genom att lägga till en konstant \\(C\\).</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\int(4\\sin x+3\\cos x)dx=\\boxed{-4\\cos x+3\\sin x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -49565,7 +49565,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(x^{-2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(\\sqrt{x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(2\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(5\\sin x\\)</p>",
-    "s": "<p><strong>Metod:</strong> Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><p>a) \\(\\int x^{-2}dx=\\frac{x^{-1}}{-1}=\\boxed{-x^{-1}+C}\\).</p><p>b) \\(\\sqrt{x}=x^{1/2}\\), så \\(\\int x^{1/2}dx=\\boxed{\\frac23x^{3/2}+C}\\).</p><p>c) \\(\\int2\\cos x\\,dx=\\boxed{2\\sin x+C}\\).</p><p>d) \\(\\int5\\sin x\\,dx=\\boxed{-5\\cos x+C}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><p>a) \\(\\int x^{-2}dx=\\frac{x^{-1}}{-1}=\\boxed{-x^{-1}}\\).</p><p>b) \\(\\sqrt{x}=x^{1/2}\\), så \\(\\int x^{1/2}dx=\\boxed{\\frac23x^{3/2}}\\).</p><p>c) \\(\\int2\\cos x\\,dx=\\boxed{2\\sin x}\\).</p><p>d) \\(\\int5\\sin x\\,dx=\\boxed{-5\\cos x}\\).</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -49607,7 +49607,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(x^{-2}\\)</p>",
-        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\int x^{-2}dx=\\frac{x^{-1}}{-1}=\\boxed{-x^{-1}+C}\\).</div>",
+        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\int x^{-2}dx=\\frac{x^{-1}}{-1}=\\boxed{-x^{-1}}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -49616,7 +49616,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(\\sqrt{x}\\)</p>",
-        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\sqrt{x}=x^{1/2}\\), så \\(\\int x^{1/2}dx=\\boxed{\\frac23x^{3/2}+C}\\).</div>",
+        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>b)</strong> \\(\\sqrt{x}=x^{1/2}\\), så \\(\\int x^{1/2}dx=\\boxed{\\frac23x^{3/2}}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -49625,7 +49625,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(2\\cos x\\)</p>",
-        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\int2\\cos x\\,dx=\\boxed{2\\sin x+C}\\).</div>",
+        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>c)</strong> \\(\\int2\\cos x\\,dx=\\boxed{2\\sin x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -49634,7 +49634,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(5\\sin x\\)</p>",
-        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\int5\\sin x\\,dx=\\boxed{-5\\cos x+C}\\).</div>",
+        "s": "<p>Metod: Använd potensregeln baklänges för potenser och standardprimitiverna för sinus och cosinus.</p><div class=\"spel-en-del\"><strong>d)</strong> \\(\\int5\\sin x\\,dx=\\boxed{-5\\cos x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -49662,7 +49662,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(f(x)=4\\cos x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=3\\sin x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=2e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(p(x)=5/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(\\boxed{4\\sin x+C}\\)</p><p>b) \\(\\boxed{-3\\cos x+C}\\)</p><p>c) \\(\\boxed{e^{2x}+C}\\)</p><p>d) \\(\\boxed{5\\ln x+C}\\)</p>",
+    "s": "<p><strong>Metod:</strong> Hitta en funktion vars derivata är den givna funktionen. Kontrollera gärna genom att derivera. Ett svar som skiljer sig med en konstant är också en primitiv funktion.</p><p>a) \\(\\boxed{4\\sin x}\\)</p><p>b) \\(\\boxed{-3\\cos x}\\)</p><p>c) \\(\\boxed{e^{2x}}\\)</p><p>d) \\(\\boxed{5\\ln x}\\)</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -49704,7 +49704,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(f(x)=4\\cos x\\)</p>",
-        "s": "<strong>a)</strong> \\(\\boxed{4\\sin x+C}\\)",
+        "s": "<strong>a)</strong> \\(\\boxed{4\\sin x}\\)",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -49713,7 +49713,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(g(x)=3\\sin x\\)</p>",
-        "s": "<strong>b)</strong> \\(\\boxed{-3\\cos x+C}\\)",
+        "s": "<strong>b)</strong> \\(\\boxed{-3\\cos x}\\)",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -49722,7 +49722,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(h(x)=2e^{2x}\\)</p>",
-        "s": "<strong>c)</strong> \\(\\boxed{e^{2x}+C}\\)",
+        "s": "<strong>c)</strong> \\(\\boxed{e^{2x}}\\)",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -49731,7 +49731,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(p(x)=5/x\\)<br>för \\(x&gt;0\\)</p>",
-        "s": "<strong>d)</strong> \\(\\boxed{5\\ln x+C}\\)",
+        "s": "<strong>d)</strong> \\(\\boxed{5\\ln x}\\)",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -50284,7 +50284,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Bestäm en primitiv funktion.</p><p>a) \\(3x^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(e^{2x}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(\\cos3x\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(1/x\\)<br>för \\(x&gt;0\\)</p>",
-    "s": "<p><strong>Metod:</strong> Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><p>a) \\(\\int3x^2dx=\\boxed{x^3+C}\\).</p><p>b) Eftersom \\((e^{2x})'=2e^{2x}\\) blir en primitiv funktion \\(\\boxed{\\frac12e^{2x}+C}\\).</p><p>c) Eftersom \\((\\sin3x)'=3\\cos3x\\) blir svaret \\(\\boxed{\\frac13\\sin3x+C}\\).</p><p>d) För \\(x&gt;0\\): \\(\\boxed{\\ln x+C}\\).</p>",
+    "s": "<p><strong>Metod:</strong> Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><p>a) \\(\\int3x^2dx=\\boxed{x^3}\\).</p><p>b) Eftersom \\((e^{2x})'=2e^{2x}\\) blir en primitiv funktion \\(\\boxed{\\frac12e^{2x}}\\).</p><p>c) Eftersom \\((\\sin3x)'=3\\cos3x\\) blir svaret \\(\\boxed{\\frac13\\sin3x}\\).</p><p>d) För \\(x&gt;0\\): \\(\\boxed{\\ln x}\\).</p>",
     "familj": "Bestäm primitiva funktioner",
     "formaga": [
       "procedur"
@@ -50326,7 +50326,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(3x^2\\)</p>",
-        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\int3x^2dx=\\boxed{x^3+C}\\).</div>",
+        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>a)</strong> \\(\\int3x^2dx=\\boxed{x^3}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -50335,7 +50335,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(e^{2x}\\)</p>",
-        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>b)</strong> Eftersom \\((e^{2x})'=2e^{2x}\\) blir en primitiv funktion \\(\\boxed{\\frac12e^{2x}+C}\\).</div>",
+        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>b)</strong> Eftersom \\((e^{2x})'=2e^{2x}\\) blir en primitiv funktion \\(\\boxed{\\frac12e^{2x}}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -50344,7 +50344,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(\\cos3x\\)</p>",
-        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>c)</strong> Eftersom \\((\\sin3x)'=3\\cos3x\\) blir svaret \\(\\boxed{\\frac13\\sin3x+C}\\).</div>",
+        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>c)</strong> Eftersom \\((\\sin3x)'=3\\cos3x\\) blir svaret \\(\\boxed{\\frac13\\sin3x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 2,
@@ -50353,7 +50353,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(1/x\\)<br>för \\(x&gt;0\\)</p>",
-        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>d)</strong> För \\(x&gt;0\\): \\(\\boxed{\\ln x+C}\\).</div>",
+        "s": "<p>Metod: Kontrollera gärna svaret genom att derivera den primitiva funktionen.</p><div class=\"spel-en-del\"><strong>d)</strong> För \\(x&gt;0\\): \\(\\boxed{\\ln x}\\).</div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -79432,14 +79432,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Det komplexa talet \\(z=-1-\\sqrt3i\\) har absolutbelopp 2. Vilket argument i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\) är korrekt?</p><p>A. 60°<br>B. 120°<br>C. 240°<br>D. 300°</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p><p>Talet ligger i tredje kvadranten och referensvinkeln är 60°. Alltså är argumentet 240°.</p><p><strong>Svar:</strong> C.</p>",
+    "t": "<p>Det komplexa talet \\(z=-1-\\sqrt3i\\) har absolutbelopp 2. Vilket argument i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\) är korrekt?</p><p>A. 60°<br>B. 120°<br>C. 300°<br>D. 240°</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p><p>Talet ligger i tredje kvadranten och referensvinkeln är 60°. Alltså är argumentet 240°.</p><p><strong>Svar:</strong> D.</p>",
     "familj": "Absolutbelopp och argument för komplexa tal",
     "formaga": [
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "C",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -87438,14 +87438,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Ekvationen \\(x^2+4=0\\) har två komplexa rötter. Vilken är roten med positiv imaginärdel?</p><p>A. \\(2i\\)<br>B. \\(-2i\\)<br>C. 2<br>D. −2</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p><p>\\(x^2=-4\\Rightarrow x=\\pm2i\\). Positiv imaginärdel ger \\(2i\\).</p><p><strong>Svar:</strong> A.</p>",
+    "t": "<p>Ekvationen \\(x^2+4=0\\) har två komplexa rötter. Vilken är roten med positiv imaginärdel?</p><p>A. \\(-2i\\)<br>B. \\(2i\\)<br>C. 2<br>D. −2</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p><p>\\(x^2=-4\\Rightarrow x=\\pm2i\\). Positiv imaginärdel ger \\(2i\\).</p><p><strong>Svar:</strong> B.</p>",
     "familj": "Andragradsekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "B",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -87848,13 +87848,13 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p><p>A. \\(x+2\\)<br>B. \\(x-2\\)<br>C. \\(2x-1\\)<br>D. \\(x^2+2\\)</p>",
-    "s": "Faktorsatsen säger att \\(P(a)=0\\) om och endast om \\(x-a\\) är en faktor. Eftersom \\(P(2)=0\\) måste \\(x-2\\) vara en faktor. <b>Svar: B</b>.",
+    "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p><p>A. \\(x-2\\)<br>B. \\(x+2\\)<br>C. \\(2x-1\\)<br>D. \\(x^2+2\\)</p>",
+    "s": "Faktorsatsen säger att \\(P(a)=0\\) om och endast om \\(x-a\\) är en faktor. Eftersom \\(P(2)=0\\) måste \\(x-2\\) vara en faktor. <b>Svar: A</b>.",
     "familj": "Faktorsatsen och faktorisering",
     "geogebra": false,
     "miniräknare": false,
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -89818,14 +89818,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x-40^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(40^\\circ\\) åt vänster.<br>B. Den är förskjuten \\(40^\\circ\\) åt höger.<br>C. Den är förskjuten \\(40\\) enheter uppåt.<br>D. Den är förskjuten \\(40\\) enheter nedåt.</p>",
-    "s": "<p>För att \\(\\sin(x-40^\\circ)\\) ska få samma värde som \\(\\sin x\\) har vid \\(x=0^\\circ\\) måste \\(x=40^\\circ\\). Varje punkt på grafen hamnar alltså \\(40^\\circ\\) längre åt höger.</p><p>Förändringen sker inne i argumentet, så grafen flyttas i x-led och inte i y-led.</p><p><strong>Svar:</strong> B</p>",
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x-40^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(40^\\circ\\) åt vänster.<br>B. Den är förskjuten \\(40\\) enheter nedåt.<br>C. Den är förskjuten \\(40\\) enheter uppåt.<br>D. Den är förskjuten \\(40^\\circ\\) åt höger.</p>",
+    "s": "<p>För att \\(\\sin(x-40^\\circ)\\) ska få samma värde som \\(\\sin x\\) har vid \\(x=0^\\circ\\) måste \\(x=40^\\circ\\). Varje punkt på grafen hamnar alltså \\(40^\\circ\\) längre åt höger.</p><p>Förändringen sker inne i argumentet, så grafen flyttas i x-led och inte i y-led.</p><p><strong>Svar:</strong> D</p>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -90461,14 +90461,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin\\left(x-\\dfrac\\pi3\\right)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(\\pi/3\\) åt vänster.<br>B. Den är förskjuten \\(\\pi/3\\) åt höger.<br>C. Den är förskjuten \\(\\pi/3\\) uppåt.<br>D. Den är förskjuten \\(\\pi/3\\) nedåt.</p>",
-    "s": "<p>Argumentet blir \\(0\\) först när \\(x=\\pi/3\\). Allt som \\(y=\\sin x\\) gör vid \\(x=0\\) sker alltså \\(\\pi/3\\) längre åt höger.</p><p><strong>Svar:</strong> B</p>",
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin\\left(x-\\dfrac\\pi3\\right)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(\\pi/3\\) åt vänster.<br>B. Den är förskjuten \\(\\pi/3\\) uppåt.<br>C. Den är förskjuten \\(\\pi/3\\) åt höger.<br>D. Den är förskjuten \\(\\pi/3\\) nedåt.</p>",
+    "s": "<p>Argumentet blir \\(0\\) först när \\(x=\\pi/3\\). Allt som \\(y=\\sin x\\) gör vid \\(x=0\\) sker alltså \\(\\pi/3\\) längre åt höger.</p><p><strong>Svar:</strong> C</p>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "C",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -90590,14 +90590,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x+20^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(20^\\circ\\) åt vänster.<br>B. Den är förskjuten \\(20^\\circ\\) åt höger.<br>C. Den är förskjuten \\(20\\) enheter uppåt.<br>D. Den är förskjuten \\(20\\) enheter nedåt.</p>",
-    "s": "<p>Argumentet är \\(0^\\circ\\) redan när \\(x=-20^\\circ\\). Grafen har alltså flyttats \\(20^\\circ\\) åt vänster. Plus inne i parentesen ger förskjutning åt vänster.</p><p><strong>Svar:</strong> A</p>",
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x+20^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(20\\) enheter nedåt.<br>B. Den är förskjuten \\(20^\\circ\\) åt höger.<br>C. Den är förskjuten \\(20\\) enheter uppåt.<br>D. Den är förskjuten \\(20^\\circ\\) åt vänster.</p>",
+    "s": "<p>Argumentet är \\(0^\\circ\\) redan när \\(x=-20^\\circ\\). Grafen har alltså flyttats \\(20^\\circ\\) åt vänster. Plus inne i parentesen ger förskjutning åt vänster.</p><p><strong>Svar:</strong> D</p>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "A",
+    "rättSvar": "D",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",
@@ -90621,14 +90621,14 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Grafen till \\(y=\\sin x\\) förskjuts \\(45^\\circ\\) åt höger. Vilken funktion beskriver den nya grafen?</p><p>A. \\(y=\\sin(x+45^\\circ)\\)<br>B. \\(y=\\sin(x-45^\\circ)\\)<br>C. \\(y=\\sin x+45\\)<br>D. \\(y=\\sin x-45\\)</p>",
-    "s": "<p>Startpunkten \\((0^\\circ,0)\\) ska hamna vid \\(x=45^\\circ\\). Då måste argumentet vara \\(0^\\circ\\) när \\(x=45^\\circ\\), vilket gäller för \\(x-45^\\circ\\).</p><p><strong>Svar:</strong> B</p>",
+    "t": "<p>Grafen till \\(y=\\sin x\\) förskjuts \\(45^\\circ\\) åt höger. Vilken funktion beskriver den nya grafen?</p><p>A. \\(y=\\sin(x-45^\\circ)\\)<br>B. \\(y=\\sin(x+45^\\circ)\\)<br>C. \\(y=\\sin x+45\\)<br>D. \\(y=\\sin x-45\\)</p>",
+    "s": "<p>Startpunkten \\((0^\\circ,0)\\) ska hamna vid \\(x=45^\\circ\\). Då måste argumentet vara \\(0^\\circ\\) när \\(x=45^\\circ\\), vilket gäller för \\(x-45^\\circ\\).</p><p><strong>Svar:</strong> A</p>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
     "svarstyp": "val",
-    "rättSvar": "B",
+    "rättSvar": "A",
     "tolerans": null,
     "självrättning": true,
     "svarFormat": "val",

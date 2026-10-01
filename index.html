@@ -1702,6 +1702,48 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
   .pt-uppdrag li .pt-uppn{grid-area:n}
   .pt-uppdrag li .pt-uppgo{grid-area:go;justify-self:end}
 }
+/* Dagens uppdrag som en pergamentrulle till höger i tränarkortet.
+   Färgerna kommer från temat (guldton blandad med kortets yta), så rullen
+   följer ljust och mörkt läge och sidans accentfärg. */
+.pt-topp{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,330px);gap:14px 22px;align-items:start}
+.pt-vanster{min-width:0}
+.pt-uppdrag.pergament{
+  --perg:color-mix(in srgb,var(--gold2) 10%,var(--surface));
+  --perg2:color-mix(in srgb,var(--gold2) 18%,var(--surface));
+  --pergKant:color-mix(in srgb,var(--gold2) 38%,transparent);
+  position:relative;margin:4px 6px 0;padding:14px 15px 12px;border-radius:3px;
+  border:1px solid color-mix(in srgb,var(--gold2) 22%,transparent);border-top:0;border-bottom:0;
+  color:var(--ink);
+  background:linear-gradient(175deg,var(--perg),var(--perg2));
+  box-shadow:0 10px 22px -16px rgba(0,0,0,.45);
+}
+/* Rullarna upptill och nedtill */
+.pt-uppdrag.pergament:before,.pt-uppdrag.pergament:after{
+  content:"";position:absolute;left:-7px;right:-7px;height:10px;border-radius:6px;
+  background:linear-gradient(180deg,
+    color-mix(in srgb,var(--gold2) 30%,var(--surface)) 0%,
+    color-mix(in srgb,var(--gold2) 55%,var(--surface)) 55%,
+    color-mix(in srgb,var(--gold2) 75%,var(--surface)) 100%);
+  box-shadow:0 2px 4px -2px rgba(0,0,0,.35);
+}
+.pt-uppdrag.pergament:before{top:-6px}
+.pt-uppdrag.pergament:after{bottom:-6px}
+.pergament .pt-upp-topp{flex-wrap:wrap;gap:2px 10px;margin-bottom:4px;padding-bottom:6px;border-bottom:1px dashed var(--pergKant)}
+.pergament .pt-upp-topp b{font-family:Georgia,"Times New Roman",serif;font-size:15px;font-weight:700;letter-spacing:.01em}
+.pergament .pt-upp-topp span{font-size:11.5px}
+.pt-uppdrag.pergament li{grid-template-columns:16px minmax(0,1fr) auto;grid-template-areas:"bock text n" ". go go";
+  gap:2px 9px;padding:6px 0;font-size:12.5px;line-height:1.35}
+.pt-uppdrag.pergament li+li{border-top:1px dashed var(--pergKant)}
+.pergament li .pt-bock{grid-area:bock;width:14px;height:14px;align-self:start;margin-top:1px}
+.pergament li .pt-upptext{grid-area:text}
+.pergament li .pt-uppn{grid-area:n;flex-direction:column;align-items:flex-end;gap:0;font-size:11px}
+.pergament li .pt-uppgo{grid-area:go;justify-self:start;margin-top:3px;padding:2px 9px;font-size:11.5px}
+.pergament li.klar .pt-bock:after{left:3.6px;top:1.2px}
+.pergament.pt-upp-annan{font-size:12.5px;color:var(--ink2)}
+@media(max-width:760px){
+  .pt-topp{grid-template-columns:minmax(0,1fr)}
+  .pt-uppdrag.pergament{margin:10px 6px 4px}
+}
 .pt-upp-chip{font-size:12px;font-weight:600;color:var(--ink3);background:var(--surface2);border:1px solid var(--hair);border-radius:99px;padding:3px 9px;white-space:nowrap}
 .pt-upp-chip.klar{color:var(--good);border-color:color-mix(in srgb,var(--good) 35%,transparent)}
 .tmlista{display:grid}
@@ -3519,6 +3561,35 @@ async function klassRpc(namn,kropp={},inloggad=true){
     return await r.json();
   }catch(_){ return null; }
 }
+/* Topplistans medaljer delas ut av servern när en period är slut
+   (sql/2026-10-01-topplistemedaljer.sql). Anropet görs i synkkön när
+   profilen är sparad, så servern ändrar bara toppMedaljer och badges på en
+   profil som är identisk med den lokala. Då kan samma fält sättas in lokalt
+   och träningen fortsätta på den nya revisionen. */
+function hamtaToppMedaljer(){
+  if(!MOLN_PA() || !session) return Promise.resolve(null);
+  return serialSync(async()=>{
+    if(pushKo || syncRevision===null || !syncOwner) return null;
+    const uid=syncOwner, rev=syncRevision;
+    const r=await klassRpc("kg_topp_medaljer");
+    if(!r?.ok || uid!==syncOwner || uid!==session?.user?.id) return null;
+    if(r.revision==null) return r;
+    if(r.fran!==rev){ return r; }   /* annan enhet hann före: nästa sparning hämtar läget */
+    profile.toppMedaljer=r.toppMedaljer||{};
+    profile.badges ||= {};
+    const nya=(r.nya||[]).filter(k=>!profile.badges[k]);
+    nya.forEach(k=>{ profile.badges[k]=Date.now(); });
+    if(acceptedProfile){
+      acceptedProfile.toppMedaljer=JSON.parse(JSON.stringify(profile.toppMedaljer));
+      acceptedProfile.badges={...(acceptedProfile.badges||{}),...Object.fromEntries(nya.map(k=>[k,profile.badges[k]]))};
+    }
+    syncRevision=r.revision;
+    cacheCloudProfile();
+    nya.map(k=>BADGES.find(b=>b.id===k)).filter(Boolean).forEach((b,i)=>
+      setTimeout(()=>cheer(medaljIkon(b.icon),"Ny medalj",b.name,b.desc),1800+i*2600));
+    return r;
+  });
+}
 async function laddaMinKlass(){
   if(!session){ state.minKlass=null; return null; }
   const k=await klassRpc("kg_min_klass");
@@ -3673,9 +3744,9 @@ async function vaxlaTopplista(pa){
    medalj-XP. Dag/vecka/månad visar tillväxt under perioden. */
 const MEDALJ_XP=100;
 const TOPP_FLIKAR={
-  dag:  {txt:"Bäst idag",      fot:"XP och uppgifter sedan midnatt idag"},
-  vecka:{txt:"Veckans bästa",  fot:"XP och uppgifter sedan måndag denna vecka"},
-  manad:{txt:"Månadens bästa", fot:"XP och uppgifter sedan den 1:a denna månad"},
+  dag:  {txt:"Bäst idag",      fot:"XP och uppgifter sedan midnatt idag", etta:"Dagens etta", lag:"Dagens lag"},
+  vecka:{txt:"Veckans bästa",  fot:"XP och uppgifter sedan måndag denna vecka", etta:"Veckans etta", lag:"Veckans lag"},
+  manad:{txt:"Månadens bästa", fot:"XP och uppgifter sedan den 1:a denna månad", etta:"Månadens etta", lag:"Månadens lag"},
   alla: {txt:"All time high",  fot:"Totalt XP och uppgifter sedan starten"}
 };
 const TOPP_SORT=TOPP_FLIKAR;
@@ -3993,6 +4064,20 @@ const MEDALJBANOR={
             +'<path d="M8.6 12.4l2.2 2.2 4.6-4.6"/>',
   okuvlig:   '<path d="M3 20h18"/><path d="M6 20l4-11 3 5 2-3 3 9"/><path d="M10 9l1.5-4"/>',
 
+  /* Topplistans medaljer: pallplats, pokal och krona för individ, laget för klassen. */
+  pallplats: '<path d="M2.5 20.5h19"/><path d="M8.5 20.5V10.5h7v10"/><path d="M3.5 20.5v-6h5M15.5 15.5h5v5"/><path d="M11 13.6l1.2-1v5"/>',
+  pokal:     '<path d="M8 4h8v5.2a4 4 0 0 1-8 0z"/><path d="M8 6H5.6a2.6 2.6 0 0 0 2.8 3.9"/><path d="M16 6h2.4a2.6 2.6 0 0 1-2.8 3.9"/>'
+            +'<path d="M12 13.2v3.6"/><path d="M9.2 16.8h5.6"/><path d="M8.2 20h7.6"/>',
+  krona:     '<path d="M4.2 17.2L3 8l5 3.8L12 4.6l4 7.2L21 8l-1.2 9.2z"/><path d="M4.4 20.2h15.2"/>',
+  laget:     '<circle cx="12" cy="8.4" r="2.5"/><circle cx="5.8" cy="10.6" r="1.9"/><circle cx="18.2" cy="10.6" r="1.9"/>'
+            +'<path d="M7.6 19.4a4.4 4.4 0 0 1 8.8 0"/><path d="M2.8 18.6a3.1 3.1 0 0 1 4.7-2.6"/><path d="M21.2 18.6a3.1 3.1 0 0 0-4.7-2.6"/>',
+  lagkrans:  '<path d="M7 19.4c-2.6-1.6-4.1-4.4-4.1-7.6"/><path d="M17 19.4c2.6-1.6 4.1-4.4 4.1-7.6"/>'
+            +'<path d="M3.5 9.4c1.5.3 2.5 1.4 2.6 2.9M3.4 14c1.5-.2 2.8.5 3.5 1.8M20.5 9.4c-1.5.3-2.5 1.4-2.6 2.9M20.6 14c-1.5-.2-2.8.5-3.5 1.8"/>'
+            +'<circle cx="12" cy="9" r="2.2"/><path d="M8.6 17a3.4 3.4 0 0 1 6.8 0"/>',
+  lagkrona:  '<path d="M9.2 6.6l-.6-3.4 1.9 1.3L12 2.2l1.5 2.3 1.9-1.3-.6 3.4z"/><circle cx="12" cy="10.6" r="2.2"/>'
+            +'<circle cx="6" cy="12.2" r="1.8"/><circle cx="18" cy="12.2" r="1.8"/><path d="M8 20.2a4 4 0 0 1 8 0"/>'
+            +'<path d="M3 19.6a3 3 0 0 1 4.6-2.5"/><path d="M21 19.6a3 3 0 0 0-4.6-2.5"/>',
+
   betaflagga:'<path d="M5.4 21.4V3.4"/><path d="M5.4 4.6h10.2l-.7 2.3h5.7v7.5h-6.4l-.7-2.3H5.4"/>',
   felsokare: '<circle cx="10.6" cy="10.6" r="6.4"/><path d="M15.2 15.2l5 5"/><path d="M8.2 10.6h4.8"/>',
   kvalitetsvakt:'<path d="M12 3.2l7.2 2.8v5.6c0 4.2-3 7.5-7.2 8.8-4.2-1.3-7.2-4.6-7.2-8.8V6z"/><path d="M8.9 11.6l2.2 2.2 4-4.4"/>'
@@ -4043,6 +4128,15 @@ const BADGES=[
   {id:"upp50", icon:"mastare",  name:"Jedimästare",      desc:"Klara dagens uppdrag 50 dagar",      max:50, cur:()=>profile.uppdragDagar},
   {id:"kraften",icon:"kraften", name:"Kraften är stark", desc:"Klara 25 enskilda uppdrag",          max:25, cur:()=>profile.uppdragKlara},
 
+  /* Topplistans medaljer delas bara ut av servern (kg_topp_medaljer) när en
+     dag, vecka eller månad är slut. Appen läser bara profile.toppMedaljer. */
+  {id:"toppdag",  icon:"pallplats",name:"Dagens etta",   desc:"Vinn dagens topplista",                 max:1, cur:()=>toppVinster("toppdag")},
+  {id:"toppvecka",icon:"pokal",    name:"Veckans etta",  desc:"Vinn veckans topplista",                max:1, cur:()=>toppVinster("toppvecka")},
+  {id:"toppmanad",icon:"krona",    name:"Månadens etta", desc:"Vinn månadens topplista",               max:1, cur:()=>toppVinster("toppmanad")},
+  {id:"lagdag",   icon:"laget",    name:"Dagens lag",    desc:"Träna när din klass vinner dagens klasstopplista",  max:1, cur:()=>toppVinster("lagdag")},
+  {id:"lagvecka", icon:"lagkrans", name:"Veckans lag",   desc:"Träna när din klass vinner veckans klasstopplista", max:1, cur:()=>toppVinster("lagvecka")},
+  {id:"lagmanad", icon:"lagkrona", name:"Månadens lag",  desc:"Träna när din klass vinner månadens klasstopplista",max:1, cur:()=>toppVinster("lagmanad")},
+
   {id:"gg1",   icon:"uppslagen", name:"Uppslagen",     desc:"Läs din första genomgång",         max:1,   cur:()=>lastaGenomgangar()},
   {id:"gg10",  icon:"palast", name:"Påläst",           desc:"Läs 10 genomgångar",               max:10,  cur:()=>lastaGenomgangar()},
   {id:"ggkap", icon:"genomlast", name:"Genomläst",     desc:"Läs alla genomgångar i ett kapitel",max:1,  cur:()=>Object.keys(profile.ggKapKlara||{}).length},
@@ -4065,6 +4159,7 @@ const BADGES=[
 /* Antalet lästa genomgångar räknas över alla kurser — den som läst i
    både fysik och matematik har läst lika mycket för det. */
 function lastaGenomgangar(){ return Object.keys(profile.genomgangar||{}).length; }
+function toppVinster(k){ return Number(profile.toppMedaljer?.[k]?.n)||0; }
 function badgeState(b){
   const cur=Math.max(0,Math.min(b.max,b.cur()||0));
   return {cur,pct:cur/b.max,on:!!profile.badges[b.id]||cur>=b.max};
@@ -6663,20 +6758,24 @@ function fortsattPass(){
 function oppnaPt(){ state.ptOppen=true; renderDashboard(); }
 
 /* ===== Tränarens uppdrag =====
-   Tre uppdrag per dag. De skapas i den kurs eleven tränar först och gäller
-   bara där. Huvuduppdraget kommer från elevens egen diagnos (samma som i
+   Tre uppdrag per dag och kurs. Huvuduppdraget kommer från elevens egen diagnos (samma som i
    Ditt nästa steg), de andra två är korta vanor: laga gamla fel eller
    hålla en serie, och nå dagsmålet. */
 const UPPDRAG_ANTAL=5;
 /* XP för uppdrag. Reglerna speglar sql/2026-10-01-uppdrag-och-medaljer.sql
    exakt: 50 per uppdrag, +50 för huvuduppdraget, +100 när alla tre är klara,
-   högst tre uppdrag och en klar dag per dygn. Databasen godtar bara XP den
+   per kurs och dygn i högst tre kurser. Databasen godtar bara XP den
    kan räkna fram själv, så brytaren slås på först när migreringen är körd.
    Annars avvisas elevens sparning. */
 const UPPDRAG_XP_PA=true;
 const UPPDRAG_XP=50, UPPDRAG_HUVUD_XP=50, UPPDRAG_DAG_XP=100;
 const uppdragXp=x=>UPPDRAG_XP+(x.huvud?UPPDRAG_HUVUD_XP:0);
 function uppdragNyckel(){ return todayKey(); }
+/* Uppdragen är kursspecifika: varje kurs får egna uppdrag samma dag, i
+   högst UPPDRAG_MAX_KURSER kurser per dygn. Taket speglar
+   sql/2026-10-01-uppdrag-per-kurs.sql (9 uppdrag, 3 huvuduppdrag och 3 klara
+   dagar per dygn), så appen skickar aldrig något som databasen avvisar. */
+const UPPDRAG_MAX_KURSER=3;
 function skapaUppdrag(){
   const lista=[];
   const kort=tranaMerKort(1)[0];
@@ -6698,27 +6797,51 @@ function skapaUppdrag(){
   }
   if(felUppgifter(10).length>=2) lista.push({typ:"laga",mal:2,text:"Laga 2 uppgifter du haft fel på",on:"startPass('fel')"});
   else lista.push({typ:"serie",mal:5,text:"Klara 5 rätt i rad"});
-  lista.push({typ:"dagsmal",mal:profile.goal||8,text:`Nå dagsmålet, ${profile.goal||8} uppgifter`});
+  const mal8=profile.goal||8;
+  lista.push({typ:"dagsmal",mal:mal8,text:`Gör ${mal8} uppgifter i kursen idag`});
   lista.forEach(u=>{u.n=0;u.klar=false;});
-  return {nyckel:uppdragNyckel(),kurs:state.course,lista,klar:false};
+  return {lista,klar:false};
+}
+/* Antal svar i den öppna kursen idag. Dagsmålsuppdraget räknas per kurs,
+   annars blir det klart direkt i nästa kurs. */
+function kursIdag(){
+  const t=new Date(); t.setHours(0,0,0,0);
+  return (ensureCourseProfile().history||[]).filter(h=>h && h.at>=t.getTime()).length;
+}
+function uppdragDag(){
+  let u=profile.uppdrag;
+  if(!u || u.nyckel!==uppdragNyckel()) u=profile.uppdrag={nyckel:uppdragNyckel(),kurser:{}};
+  if(!u.kurser){
+    /* Äldre form: en uppsättning för hela dagen i en kurs. */
+    const gammal=u.lista?{[u.kurs||state.course]:{lista:u.lista,klar:!!u.klar}}:{};
+    u=profile.uppdrag={nyckel:u.nyckel,kurser:gammal};
+  }
+  return u;
 }
 function dagensUppdrag(){
   if(!state.course || !state.data) return null;
-  if(profile.uppdrag?.nyckel!==uppdragNyckel()){ profile.uppdrag=skapaUppdrag(); saveProfile(); }
-  const u=profile.uppdrag;
-  u.lista.forEach(x=>{ if(x.typ==="dagsmal" && !x.klar){ x.n=Math.min(x.mal,todayCount()); } });
+  const dag=uppdragDag();
+  let u=dag.kurser[state.course];
+  if(!u){
+    if(Object.keys(dag.kurser).length>=UPPDRAG_MAX_KURSER) return {tak:true};
+    u=dag.kurser[state.course]=skapaUppdrag(); saveProfile();
+  }
+  u.lista.forEach(x=>{ if(x.typ==="dagsmal" && !x.klar){ x.n=Math.min(x.mal,kursIdag()); } });
   return u;
 }
 function uppdragSvar(t,correct,lagat){
-  const u=profile.uppdrag;
-  if(!u || u.nyckel!==uppdragNyckel() || u.kurs!==state.course || u.klar || state.noXp) return;
+  if(state.noXp) return;
+  const dag=profile.uppdrag;
+  if(!dag || dag.nyckel!==uppdragNyckel() || !dag.kurser) return;
+  const u=dag.kurser[state.course];
+  if(!u || u.klar) return;
   const omrIKort=k=>{ const kk=getCards().find(c=>c.key===k); return kk?kk.omr.includes(t.omr):t.omr===k; };
   const fs=[].concat(t.familj||[]);
   const nyss=[];
   u.lista.forEach(x=>{
     if(x.klar) return;
     let traff=false;
-    if(x.typ==="dagsmal") x.n=todayCount();
+    if(x.typ==="dagsmal") x.n=kursIdag();
     else if(x.typ==="serie") x.n=Math.max(x.n,profile.run||0);
     else if(correct){
       if(x.typ==="alla") traff=true;
@@ -6744,7 +6867,7 @@ function uppdragSvar(t,correct,lagat){
   if(xp){ profile.xp+=xp; state.sessionXp+=xp; }
   if(allaKlara){
     setTimeout(()=>cheer(medaljIkon("ljusstrale"),"Tränaren","Dagens uppdrag klara",
-      UPPDRAG_XP_PA?`Alla tre uppdrag avklarade. +${UPPDRAG_DAG_XP} XP i bonus.`:"Alla tre uppdrag avklarade."),1700);
+      UPPDRAG_XP_PA?`Alla tre uppdrag i ${COURSES[state.course]?.name||"kursen"} avklarade. +${UPPDRAG_DAG_XP} XP i bonus.`:"Alla tre uppdrag avklarade."),1700);
   }else if(nyss.length){
     setTimeout(()=>toast("Uppdrag klart: "+nyss.map(x=>x.text).join(", ")+(UPPDRAG_XP_PA?` +${nyss.reduce((s,x)=>s+uppdragXp(x),0)} XP`:"")),900);
   }
@@ -6752,15 +6875,13 @@ function uppdragSvar(t,correct,lagat){
 function uppdragHTML(liten){
   const u=dagensUppdrag();
   if(!u) return "";
-  const klara=u.lista.filter(x=>x.klar).length;
-  /* Uppdragen gäller i den kurs där de skapades. I andra kurser räcker en notis. */
-  if(u.kurs && u.kurs!==state.course){
-    const namn=COURSES[u.kurs]?.name||"en annan kurs";
+  if(u.tak){
     if(liten) return "";
-    return `<div class="pt-uppdrag pt-upp-annan">${u.klar?"Dagens uppdrag är klara.":`Dagens uppdrag finns i ${esc(namn)}, ${klara} av ${u.lista.length} klara.`}</div>`;
+    return `<div class="pt-uppdrag pergament pt-upp-annan">Du har redan uppdrag i ${UPPDRAG_MAX_KURSER} kurser idag. Nya uppdrag kommer i morgon.</div>`;
   }
+  const klara=u.lista.filter(x=>x.klar).length;
   if(liten) return `<span class="pt-upp-chip${u.klar?" klar":""}">${u.klar?"Uppdragen klara":`Uppdrag ${klara} av ${u.lista.length}`}</span>`;
-  return `<div class="pt-uppdrag">
+  return `<div class="pt-uppdrag pergament">
     <div class="pt-upp-topp"><b>Dagens uppdrag</b><span>${UPPDRAG_XP_PA&&!u.klar?`<em class="pt-uppxp">Alla klara +${UPPDRAG_DAG_XP} XP</em> · `:""}${klara} av ${u.lista.length}</span></div>
     <ul>${u.lista.map(x=>`<li class="${x.klar?"klar":""}${x.huvud?" huvud":""}">
       <span class="pt-bock" aria-hidden="true"></span>
@@ -6808,8 +6929,6 @@ function ptKort(){
     if(klart) return ptLitet("klart");
   }
   const typ=dagensPass(), p=PASS[typ]||PASS.grund;
-  const chips=passChips(typ);
-  if(klart) chips.unshift("Dagens mål klart");
   const aktiva=aktivaKapitel();
   const val=state.visaPassval?`
     <div class="pt-val">
@@ -6836,6 +6955,8 @@ function ptKort(){
 
   return `
   <section class="pt${klart?" klart":""}">
+    <div class="pt-topp">
+    <div class="pt-vanster">
     <div class="pt-huvud">
       ${tranarAvatar(false)}
       <span class="pt-titel">
@@ -6843,10 +6964,11 @@ function ptKort(){
         <span class="pt-rek">${klart?"Vill du köra mer idag rekommenderar jag:":"Idag rekommenderar jag:"}</span>
         <h2><span class="pt-passikon" aria-hidden="true">${passIkon(typ)}</span>${p.namn}</h2>
       </span>
-      <span class="pt-chips">${chips.map(c=>`<span class="pt-chip">${esc(c)}</span>`).join("")}</span>
     </div>
     <p class="pt-msg pt-bubbla">${passMeddelande(typ)}</p>
+    </div>
     ${uppdragHTML(false)}
+    </div>
     <div class="pt-act">
       ${pagaendePass()
         ? `<button class="btn primary" onclick="fortsattPass()">Fortsätt passet <span aria-hidden="true">→</span></button>`
@@ -10471,13 +10593,13 @@ function finishAttempt(resultat){
     for(let i=cp.history.length-1;i>=0;i--) if(cp.history[i].id===t.id){ forra=cp.history[i]; break; }
     if(forra && !forra.ok){ profile.reparerade=(profile.reparerade||0)+1; lagat=true; }
   }
-  uppdragSvar(t,correct,lagat);
   cp.history.push({id:t.id,ok:correct,at:Date.now(),area:t.omr,family:t.familj,
     hint:!!state.hintUsed,
     ...(kriterier.length?{criteria:kriterier.slice(0,6)}:{}),
     ...(state.altMiss&&state.altMiss.length?{miss:state.altMiss.slice(0,4)}:{}),
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
+  uppdragSvar(t,correct,lagat);
   const genomgangForslag=correct ? null : hittaGenomgangForslag(t,cp);
   state.ggForslag=genomgangForslag;
 
@@ -10896,7 +11018,7 @@ function ritaTopplista(laddar,svar){
         </span>
       </li>`;
     }).join("")}</ol>
-    <p class="toppfot">${TOPP_FLIKAR[s].fot}, sorterat på XP. Varje medalj ger ${MEDALJ_XP} XP. Bara de som själva valt att synas står med.</p>`;
+    <p class="toppfot">${TOPP_FLIKAR[s].fot}, sorterat på XP. Varje medalj ger ${MEDALJ_XP} XP. Bara de som själva valt att synas står med.${TOPP_FLIKAR[s].etta?` Den som leder när perioden är slut får medaljen ${TOPP_FLIKAR[s].etta}.`:""}</p>`;
   }
 
   app.innerHTML=topbar()+`<main class="shell view" style="padding-bottom:60px">
@@ -10989,7 +11111,7 @@ function klassListaHTML(svar,s){
         <div class="klasselever" id="klasselever-${Number(k.id)}" hidden></div>
       </li>`;
     }).join("")}</ol>
-    <p class="toppfot">${TOPP_FLIKAR[s].fot}. Poängen är snitt-XP per elev i klassen, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Alla som tränar lyfter klassen. Tryck på en klass för att se eleverna som valt att synas.</p>`;
+    <p class="toppfot">${TOPP_FLIKAR[s].fot}. Poängen är snitt-XP per elev i klassen, där varje elev räknas med högst ${Number(svar.tak)||0} XP. Alla som tränar lyfter klassen. Tryck på en klass för att se eleverna som valt att synas.${TOPP_FLIKAR[s].lag?` Klassen som leder när perioden är slut, med minst tre som tränat, ger medaljen ${TOPP_FLIKAR[s].lag} till alla i klassen som tränat under perioden.`:""}</p>`;
 }
 
 async function snabbVisa(pa){
@@ -11307,6 +11429,7 @@ window.addEventListener("load",async()=>{
        Saknas funktionen i databasen svarar den 404, och då händer inget. */
     const lararklass=await klassRpc("kg_auto_lararklass");
     if(lararklass?.flyttad) state.minKlass=undefined;
+    hamtaToppMedaljer();
     setTimeout(()=>visaNyhetKlasser(),nyInloggning?1200:600);
   }
 

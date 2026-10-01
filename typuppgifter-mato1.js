@@ -747,3 +747,76 @@
   });
   window.TYPUPPGIFTER_MATO1=Object.fromEntries(poster);
 })();
+
+/* Moment och delmoment enligt Planering Ma2c-3c 2026/27 (2026-10-01).
+   Varje genomgång pekar på sitt nya moment (omr) och delmoment (traningsfamilj). */
+(() => {
+  const bank=window.TYPUPPGIFTER_MATO1;
+  const nya=[
+    ["mato1-grund-1-01",1,"polynom","Polynombegrepp, grad och värden"],
+    ["mato1-grund-1-02",1,"polynomekvationer","Lösa polynomekvationer"],
+    ["mato1-grund-1-03",1,"funktioner","Funktionsvärden"],
+    ["mato1-grund-1-04",1,"funktioner","Tolka och jämföra funktioner"],
+    ["mato1-grund-1-05",1,"polynomfunktioner","Andragradsfunktioner och extremvärden"],
+    ["mato1-grund-1-05b",1,"polynomfunktioner","Bestämma polynomfunktion från villkor"],
+    ["mato1-grund-1-06",1,"rationella_uttryck","Definitionsmängd för rationella uttryck"],
+    ["mato1-grund-1-07",1,"forkorta_rationella","Förenkla och ange definitionsvillkor"],
+    ["mato1-grund-1-08",1,"rationella_ekvationer","Lösa rationella ekvationer"],
+    ["mato1-grund-1-09",1,"gransvarde","Beräkna gränsvärden"],
+    ["mato1-grund-1-10",1,"kontinuitet","Kontinuitet och hål i grafer"],
+    ["mato1-grund-1-11",1,"kontinuitet","Bestämma parametrar för kontinuitet"],
+    ["mato1-grund-1-12",1,"absolutbelopp","Absolutbelopp och funktioner med absolutbelopp"],
+    ["mato1-grund-1-13",1,"absolutbelopp","Ekvationer med absolutbelopp"],
+    ["mato1-grund-1-14",1,"absolutbelopp","Olikheter med absolutbelopp"],
+    ["mato1-grund-2-01",2,"andringskvoter","Förändringskvot och sekantens lutning"],
+    ["mato1-grund-2-02",2,"derivatans_definition","Derivatans definition"],
+    ["mato1-grund-2-03",2,"begreppet_derivata","Derivata som tangentens lutning"],
+    ["mato1-grund-2-04",2,"deriveringsregler","Derivera polynom"],
+    ["mato1-grund-2-05",2,"derivata_potens","Rötter och bråkexponenter"],
+    ["mato1-grund-2-06",2,"deriveringsregler","Beräkna derivatans värde"],
+    ["mato1-grund-2-07",2,"tangenter","Tangentens ekvation"],
+    ["mato1-grund-2-08",2,"tangenter","Tangenter i grafer"],
+    ["mato1-grund-2-09",3,"derivatan_och_grafen","Funktionens graf och derivatans graf"],
+    ["mato1-grund-2-10",3,"andraderivatan","Andraderivatan och funktionens graf"],
+    ["mato1-grund-2-11",2,"talet_e","Derivera e^kx"],
+    ["mato1-grund-2-12",2,"naturliga_logaritmer","Naturliga logaritmer och ekvationer"],
+    ["mato1-grund-2-13",2,"derivata_a_x","Skriva a^x med basen e"],
+    ["mato1-grund-2-14",2,"numerisk_derivering","Numerisk derivering och tangenter med digitalt verktyg"],
+    ["mato1-grund-2-15",2,"numerisk_derivering","Analysera funktioner med digitalt verktyg"],
+    ["mato1-grund-3-01",3,"extrempunkter","Teckenstudium"],
+    ["mato1-grund-3-02",3,"extrempunkter","Bestämma extrempunkter"],
+    ["mato1-grund-3-03",3,"extremvarde_modellering","Rektanglar och trianglar i figurer"],
+    ["mato1-grund-3-04",3,"fler_extremvarde","Optimering i givna modeller"],
+    ["mato1-grund-3-05",3,"problemlosning_derivata","Rörelse och hastighet"],
+    ["mato1-grund-3-06",3,"problemlosning_derivata","Tolka derivata i modeller"],
+    ["mato1-grund-3-07",3,"deriverbarhet","Deriverbarhet"],
+    ["mato1-grund-3-08",3,"deriverbarhet","Deriverbarhet"],
+    ["mato1-grund-3-09",3,"primitiva","Bestämma primitiva funktioner"],
+    ["mato1-grund-3-10",3,"primitiva_villkor","Primitiv funktion genom en given punkt"],
+    ["mato1-grund-3-11",3,"integralberakning","Beräkna bestämda integraler"],
+    ["mato1-grund-3-12",3,"integral_area","Integral som area under en graf"],
+    ["mato1-grund-3-13",3,"integralberakning","Integraler med digitalt verktyg"],
+    ["mato1-grund-3-14",3,"integralberakning","Integraler med digitalt verktyg"],
+    ["mato1-grund-3-15",3,"integral_tillampningar","Sträcka och förflyttning från hastighet"],
+    ["mato1-grund-3-16",3,"integral_tillampningar","Ackumulerad mängd från förändringshastighet"],
+    ["mato1-grund-4-01",4,"enhetscirkeln","Koordinater och vinklar i enhetscirkeln"],
+    ["mato1-grund-4-02",4,"enhetscirkeln","Symmetri och exakta värden i enhetscirkeln"],
+    ["mato1-grund-4-03",4,"trig_ekvationer","Lösa trigonometriska ekvationer"],
+    ["mato1-grund-4-04",4,"sinussatsen","Använda sinussatsen"],
+    ["mato1-grund-4-04b",4,"sinussatsen_tva_fall","Sinussatsen med två fall"],
+    ["mato1-grund-4-05",4,"cosinussatsen","Använda cosinussatsen"],
+    ["mato1-grund-4-06",4,"areasatsen","Areasatsen"],
+    ["mato1-grund-4-07",4,"trig_tillampningar","Välja metod"],
+    ["mato1-grund-4-08",4,"trig_ratvinkliga","Trigonometri i rätvinkliga trianglar"],
+    ["mato1-grund-4-09",4,"linjar_optimering","Ställa upp optimeringsproblem"],
+    ["mato1-grund-4-10",4,"linjar_optimering","Grafisk optimering"],
+    ["mato1-grund-4-11",4,"geometriska_summor","Geometriska talföljder"],
+    ["mato1-grund-4-12",4,"geometriska_summor","Beräkna geometriska summor"],
+    ["mato1-grund-4-13",4,"geometriska_summor","Geometriska summor i tillämpningar"]
+  ];
+  nya.forEach(([nyckel,kap,omr,familj])=>{
+    const g=bank[nyckel];
+    if(!g) return;
+    g.kap=kap; g.omr=omr; g.traningsfamilj=familj;
+  });
+})();

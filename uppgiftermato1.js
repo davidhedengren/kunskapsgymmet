@@ -948,7 +948,7 @@ window.BANKMATO1 = [
       {
         "etikett": "a",
         "t": "<p>Grafen visar funktionen \\(f\\) i närheten av \\(x=2\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"315\" viewBox=\"0 0 460 315\" role=\"img\" aria-label=\"Graf till en funktion med ett hål vid x lika med två och ett separat funktionsvärde\"><defs><marker id=\"g114arr\" markerWidth=\"7\" markerHeight=\"7\" refX=\"6\" refY=\"3.5\" orient=\"auto\"><path d=\"M0,0 L7,3.5 L0,7 z\" fill=\"#2B2527\" /></marker><clipPath id=\"g114clip\"><rect x=\"48\" y=\"20\" width=\"392\" height=\"253\" /></clipPath></defs><rect x=\"48\" y=\"20\" width=\"392\" height=\"253\" fill=\"#FFFFFF\" stroke=\"#E4E3E6\" /><line x1=\"48.00\" y1=\"20\" x2=\"48.00\" y2=\"273\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"113.33\" y1=\"20\" x2=\"113.33\" y2=\"273\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"178.67\" y1=\"20\" x2=\"178.67\" y2=\"273\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"244.00\" y1=\"20\" x2=\"244.00\" y2=\"273\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"309.33\" y1=\"20\" x2=\"309.33\" y2=\"273\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"374.67\" y1=\"20\" x2=\"374.67\" y2=\"273\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"440.00\" y1=\"20\" x2=\"440.00\" y2=\"273\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"273.00\" x2=\"440\" y2=\"273.00\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"230.83\" x2=\"440\" y2=\"230.83\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"188.67\" x2=\"440\" y2=\"188.67\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"146.50\" x2=\"440\" y2=\"146.50\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"104.33\" x2=\"440\" y2=\"104.33\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"62.17\" x2=\"440\" y2=\"62.17\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"20.00\" x2=\"440\" y2=\"20.00\" stroke=\"#E9E8EB\" stroke-width=\"1\" /><line x1=\"48\" y1=\"230.83\" x2=\"449\" y2=\"230.83\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#g114arr)\" /><line x1=\"113.33\" y1=\"273\" x2=\"113.33\" y2=\"12\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#g114arr)\" /><line x1=\"48.00\" y1=\"226.83\" x2=\"48.00\" y2=\"234.83\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"48.00\" y=\"247.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"178.67\" y1=\"226.83\" x2=\"178.67\" y2=\"234.83\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"178.67\" y=\"247.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"244.00\" y1=\"226.83\" x2=\"244.00\" y2=\"234.83\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"244.00\" y=\"247.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"309.33\" y1=\"226.83\" x2=\"309.33\" y2=\"234.83\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"309.33\" y=\"247.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"374.67\" y1=\"226.83\" x2=\"374.67\" y2=\"234.83\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"374.67\" y=\"247.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"440.00\" y1=\"226.83\" x2=\"440.00\" y2=\"234.83\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"440.00\" y=\"247.83\" text-anchor=\"middle\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><text x=\"450.00\" y=\"222.83\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">x</text><line x1=\"109.33\" y1=\"273.00\" x2=\"117.33\" y2=\"273.00\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"104.33\" y=\"276.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">-1</text><line x1=\"109.33\" y1=\"188.67\" x2=\"117.33\" y2=\"188.67\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"104.33\" y=\"192.17\" text-anchor=\"end\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">1</text><line x1=\"109.33\" y1=\"146.50\" x2=\"117.33\" y2=\"146.50\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"104.33\" y=\"150.00\" text-anchor=\"end\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">2</text><line x1=\"109.33\" y1=\"104.33\" x2=\"117.33\" y2=\"104.33\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"104.33\" y=\"107.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">3</text><line x1=\"109.33\" y1=\"62.17\" x2=\"117.33\" y2=\"62.17\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"104.33\" y=\"65.67\" text-anchor=\"end\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">4</text><line x1=\"109.33\" y1=\"20.00\" x2=\"117.33\" y2=\"20.00\" stroke=\"#2B2527\" stroke-width=\"1\" /><text x=\"104.33\" y=\"23.50\" text-anchor=\"end\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">5</text><text x=\"121.33\" y=\"13.00\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">y</text><text x=\"105.33\" y=\"246.83\" text-anchor=\"end\" font-family=\"IBM Plex Mono, monospace\" font-size=\"10.5\" fill=\"#5C575E\">0</text><path d=\"M48.00,230.83 L244.00,104.33\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" clip-path=\"url(#g114clip)\" /><path d=\"M244.00,104.33 L440.00,230.83\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" clip-path=\"url(#g114clip)\" /><circle cx=\"244.00\" cy=\"188.67\" r=\"4.4\" fill=\"#2A5D9E\" stroke=\"#FFFFFF\" stroke-width=\"1.4\" /><text x=\"251.00\" y=\"181.67\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">f(2)</text><circle cx=\"244.00\" cy=\"104.33\" r=\"5\" fill=\"#FFFFFF\" stroke=\"#B43123\" stroke-width=\"2.2\" /><text x=\"358.33\" y=\"165.48\" text-anchor=\"middle\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11.5\" font-weight=\"600\" fill=\"#B43123\">y = f(x)</text></svg></span><p><div class=\"spel-en-del\">Bestäm \\(\\lim_{x\\to2}f(x)\\).</div></p>",
-        "s": "<p><strong>Svar:</strong> \\lim_{x\\to2}f(x)=3</p>",
+        "s": "<p><strong>Svar:</strong> \\(\\lim_{x\\to2}f(x)=3\\)</p>",
         "ledtrad": "<p>Jämför vänstergränsvärde, högergränsvärde och funktionsvärde i den aktuella punkten. För kontinuitet måste alla tre finnas och vara lika.</p>",
         "niva": "E"
       },
@@ -3947,33 +3947,33 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\[|x+3|=1.\\]</p>",
-    "s": "<p class=\"facit-metod\"><strong>Metod:</strong> Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p><p>Absolutbeloppet beskriver avståndet från \\(x\\) till \\(-3\\). Avståndet ska vara \\(1\\), alltså</p><p>\\[x=-4\\quad\\text{eller}\\quad x=-2.\\]</p>",
+    "t": "<p>Lös ekvationen \\(|2x-6|=10\\).</p>",
+    "s": "<p>\\(2x-6=10\\) eller \\(2x-6=-10\\).</p><p>\\(x=8\\) eller \\(x=-2\\).</p><p><strong>Svar:</strong> \\(x=-2\\) eller \\(x=8\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -4,
-      -2
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Uttrycket inuti beloppet kan vara 10 eller −10.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -2.0,
+      8.0
+    ],
+    "tolerans": null,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.91",
@@ -4222,33 +4222,33 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\[|x+2|=2.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbeloppet som ett avstånd på tallinjen. För en ekvation prövas de två möjliga riktningarna; för en olikhet avgör avståndsvillkoret ett intervall eller två yttre intervall.</p><div class=\"facit-arbete\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p><p>Absolutbeloppet beskriver avståndet från \\(x\\) till \\(-2\\). Avståndet ska vara \\(2\\), alltså</p><p>\\[x=-4\\quad\\text{eller}\\quad x=0.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera gränspunkterna och pröva ett tal från varje markerat intervall.</p></div>",
+    "t": "<p>Lös ekvationen \\(|x|+3=8\\).</p>",
+    "s": "<p>\\(|x|=5\\), så \\(x=5\\) eller \\(x=-5\\).</p><p><strong>Svar:</strong> \\(x=\\pm5\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -4,
-      0
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Tänk så här: Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p>",
+    "ledtrad": "<p>Lös först ut \\(|x|\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -5,
+      5
+    ],
+    "tolerans": null,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.96",
@@ -4440,33 +4440,26 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen \\[|x+1|=3.\\]</p>",
-    "s": "<p class=\"facit-metod\"><strong>Metod:</strong> Absolutbelopp beskriver avstånd från noll. För en ekvation |u|=a med a≥0 måste därför både u=a och u=-a undersökas. För olikheter är det ofta tydligast att tolka villkoret som ett intervall eller som avstånd.</p><p>Absolutbeloppet beskriver avståndet från \\(x\\) till \\(-1\\). Avståndet ska vara \\(3\\), alltså</p><p>\\[x=-4\\quad\\text{eller}\\quad x=2.\\]</p>",
+    "t": "<p>Hur många lösningar har ekvationen \\(|x-3|=-2\\)?</p>",
+    "s": "<p>Ett absolutbelopp är ett avstånd och kan aldrig vara negativt.</p><p><strong>Svar:</strong> 0</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -4,
-      2
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Absolutbelopp beskriver avstånd från noll. För en ekvation |u|=a med a≥0 måste därför både u=a och u=-a undersökas. För olikheter är det ofta tydligast att tolka villkoret som ett intervall eller som avstånd.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Kan ett avstånd vara negativt?</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.101",
@@ -6697,33 +6690,34 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[|x-2|=6.\\]</p>",
-    "s": "<p class=\"facit-metod\"><strong>Metod:</strong> Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p><p>Ekvationen betyder att avståndet från \\(x\\) till \\(2\\) är \\(6\\). Därför</p><p>\\[x=2-6=-4\\quad\\text{eller}\\quad x=2+6=8.\\]</p>",
+    "t": "<p>Vilka tal ligger på avståndet 5 från talet 2 på tallinjen? Skriv sambandet med absolutbelopp och lös det.</p>",
+    "s": "<p>Sambandet är \\(|x-(2)|=5\\).</p><p>\\(x=-3\\) eller \\(x=7\\).</p><p><strong>Svar:</strong> \\(x=-3\\) eller \\(x=7\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -4,
-      8
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Gå 5 steg åt båda hållen från 2.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -3,
+      7
+    ],
+    "tolerans": null,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.163",
@@ -6765,33 +6759,33 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[|x+3|=4.\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p class=\"facit-metod\"><strong>Viktigt steg:</strong> Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p><p>Ekvationen betyder att avståndet från \\(x\\) till \\(-3\\) är \\(4\\). Därför</p><p>\\[x=-3-4=-7\\quad\\text{eller}\\quad x=-3+4=1.\\]</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera gränspunkterna och pröva ett tal från varje markerat intervall.</p></div>",
+    "t": "<p>Lös ekvationen \\(4|x+2|=8\\).</p>",
+    "s": "<p>Dela med 4: \\(|x+2|=2\\).</p><p>\\(x=0\\) eller \\(x=-4\\).</p><p><strong>Svar:</strong> \\(x=-4\\) eller \\(x=0\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -7,
-      1
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Viktigt steg: Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Dela båda leden med 4 först.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -4.0,
+      0.0
+    ],
+    "tolerans": null,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.165",
@@ -6985,33 +6979,26 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[|x-4|=2.\\]</p>",
-    "s": "<p class=\"facit-metod\"><strong>Viktigt steg:</strong> Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p><p>Ekvationen betyder att avståndet från \\(x\\) till \\(4\\) är \\(2\\). Därför</p><p>\\[x=4-2=2\\quad\\text{eller}\\quad x=4+2=6.\\]</p>",
+    "t": "<p>Lös ekvationen \\(|x-2|=0\\).</p>",
+    "s": "<p>Avståndet till 2 är noll bara om \\(x=2\\).</p><p><strong>Svar:</strong> \\(x=2\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      2,
-      6
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Viktigt steg: Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p>",
+    "ledtrad": "<p>När är ett avstånd noll?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.169",
@@ -9308,33 +9295,33 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen \\[|x-1|=3.\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p class=\"facit-metod\"><strong>Viktigt steg:</strong> Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p><p>Avståndet från \\(x\\) till \\(1\\) ska vara \\(3\\). Därför gäller</p><p>\\[x=1-3=-2\\quad\\text{eller}\\quad x=1+3=4.\\]</p><p><strong>Svar:</strong> \\(\\boxed{x=-2\\text{ eller }x=4}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera gränspunkterna och pröva ett tal från varje markerat intervall.</p></div>",
+    "t": "<p>Lös ekvationen \\(|2x-2|=8\\).</p>",
+    "s": "<p>\\(2x-2=8\\) eller \\(2x-2=-8\\).</p><p>\\(x=5\\) eller \\(x=-3\\).</p><p><strong>Svar:</strong> \\(x=-3\\) eller \\(x=5\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -2,
-      4
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Viktigt steg: Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p>",
+    "ledtrad": "<p>Uttrycket inuti beloppet kan vara 8 eller −8.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -3.0,
+      5.0
+    ],
+    "tolerans": null,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.237",
@@ -9345,33 +9332,33 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen \\[|x+2|=4.\\]</p>",
-    "s": "<p class=\"facit-metod\"><strong>Varför denna metod:</strong> Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p><p>Avståndet från \\(x\\) till \\(-2\\) ska vara \\(4\\). Därför gäller</p><p>\\[x=-2-4=-6\\quad\\text{eller}\\quad x=-2+4=2.\\]</p><p><strong>Svar:</strong> \\(\\boxed{x=-6\\text{ eller }x=2}\\).</p>",
+    "t": "<p>Lös ekvationen \\(|x|+1=5\\).</p>",
+    "s": "<p>\\(|x|=4\\), så \\(x=4\\) eller \\(x=-4\\).</p><p><strong>Svar:</strong> \\(x=\\pm4\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -6,
-      2
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Lös först ut \\(|x|\\).</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -4,
+      4
+    ],
+    "tolerans": null,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.238",
@@ -9382,33 +9369,26 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[|x-2|=5.\\]</p>",
-    "s": "<div class=\"facit-v2\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbeloppet som ett avstånd på tallinjen. För en ekvation prövas de två möjliga riktningarna; för en olikhet avgör avståndsvillkoret ett intervall eller två yttre intervall.</p><div class=\"facit-arbete\"><p>Absolutbeloppet beskriver avståndet från \\(x\\) till 2. Avståndet ska vara 5, så \\(x\\) kan ligga fem enheter på vardera sidan om 2:</p><p>\\[x=2-5=-3\\quad\\text{eller}\\quad x=2+5=7.\\]</p><p><strong>Svar:</strong> \\(x=-3\\) eller \\(x=7\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera gränspunkterna och pröva ett tal från varje markerat intervall.</p></div>",
+    "t": "<p>Hur många lösningar har ekvationen \\(|x-5|=-1\\)?</p>",
+    "s": "<p>Ett absolutbelopp är ett avstånd och kan aldrig vara negativt.</p><p><strong>Svar:</strong> 0</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      -3,
-      7
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Tolka absolutbelopp som avstånd. En ekvation \\(|A|=b\\) med \\(b>0\\) ger två fall: \\(A=b\\) eller \\(A=-b\\).</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Kan ett avstånd vara negativt?</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.239",
@@ -9419,33 +9399,34 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen \\[|x-3|=2.\\]</p>",
-    "s": "<div class=\"facit-v2\"><div class=\"facit-arbete\"><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p><p>Avståndet från \\(x\\) till \\(3\\) ska vara \\(2\\). Därför gäller</p><p>\\[x=3-2=1\\quad\\text{eller}\\quad x=3+2=5.\\]</p><p><strong>Svar:</strong> \\(\\boxed{x=1\\text{ eller }x=5}\\).</p></div><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera gränspunkterna och pröva ett tal från varje markerat intervall.</p></div>",
+    "t": "<p>Vilka tal ligger på avståndet 6 från talet 3 på tallinjen? Skriv sambandet med absolutbelopp och lös det.</p>",
+    "s": "<p>Sambandet är \\(|x-(3)|=6\\).</p><p>\\(x=-3\\) eller \\(x=9\\).</p><p><strong>Svar:</strong> \\(x=-3\\) eller \\(x=9\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": [
-      1,
-      5
-    ],
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "mängd",
-    "ledtrad": "<p>Tänk så här: Tänk på absolutbeloppet som ett avstånd. En ekvation ger normalt två möjliga riktningar från noll, medan en olikhet beskriver vilka värden som ligger innanför eller utanför ett visst avstånd.</p>",
+    "ledtrad": "<p>Gå 6 steg åt båda hållen från 3.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa ekvationer med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -3,
+      9
+    ],
+    "tolerans": null,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.240",
@@ -9853,7 +9834,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "1/1/0",
     "t": "<p>Undersök funktionerna \\(f(x)=x^2\\) och \\(g(x)=(x-a)^2+2\\) när parametern \\(a\\) varierar.</p><p>Beskriv vad som händer med grafen till \\(g\\). Vilka koordinater har minimipunkten?</p>",
-    "s": "<p class=\"facit-metod\"><strong>Varför denna metod:</strong> Funktionen är redan skriven på en form där parabelns förskjutning kan läsas direkt. I uttryck av typen \\((x-a)^2+k\\) ligger minimipunkten i \\((a,k)\\).</p><p>När parametern \\(a\\) ändras flyttas därför parabeln bara horisontellt. Formen och minimivärdet ändras inte.</p><div class=\"facit-matte\">\\[\text{minimipunkt}=(a,2).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> minimipunkten är alltid \\((a,2)\\).</p>",
+    "s": "<p class=\"facit-metod\"><strong>Varför denna metod:</strong> Funktionen är redan skriven på en form där parabelns förskjutning kan läsas direkt. I uttryck av typen \\((x-a)^2+k\\) ligger minimipunkten i \\((a,k)\\).</p><p>När parametern \\(a\\) ändras flyttas därför parabeln bara horisontellt. Formen och minimivärdet ändras inte.</p><div class=\"facit-matte\">\\[\\text{minimipunkt}=(a,2).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> minimipunkten är alltid \\((a,2)\\).</p>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -21834,7 +21815,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Funktionen \\(g\\) har ett nollställe vid \\(x=4\\). För \\(4\\le x\\le7\\) gäller</p><p>\\[-3\\le g^{\\prime}(x)\\le2.\\]</p><p>Bestäm ett så litet intervall som möjligt som säkert innehåller \\(g(7)\\).</p>",
-    "s": "<p>Eftersom \\(g(4)=0\\) och intervallets längd är 3 kan förändringen från \\(x=4\\) till \\(x=7\\) som minst vara \\(-3\\cdot3=-9\\) och som mest \\(2\\cdot3=6\\).</p><p>Alltså</p><p>\\[\\boxed{-9\\le g(7)\\le6}.\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> -9\\le g(7)\\le6.</p>",
+    "s": "<p>Eftersom \\(g(4)=0\\) och intervallets längd är 3 kan förändringen från \\(x=4\\) till \\(x=7\\) som minst vara \\(-3\\cdot3=-9\\) och som mest \\(2\\cdot3=6\\).</p><p>Alltså</p><p>\\[\\boxed{-9\\le g(7)\\le6}.\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\le g(7)\\le6\\).</p>",
     "familj": "Derivata som tangentens lutning",
     "geogebra": false,
     "miniräknare": false,
@@ -39358,8 +39339,8 @@ window.BANKMATO1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>För \\(a\neq0\\) ges funktionen</p><p>\\[f_a(x)=ax+\\frac{a^2}{x},\\qquad x\neq0.\\]</p><p>Undersök hur funktionens extrempunkter beror på konstanten \\(a\\).</p>",
-    "s": "<p>Derivatan är</p><p>\\[f_a^{\\prime}(x)=a-\\frac{a^2}{x^2}=a\\left(1-\\frac{a}{x^2}\\right).\\]</p><p>Om \\(a&gt;0\\) fås \\(x^2=a\\), alltså \\(x=\\pm\\sqrt a\\). Teckenstudium ger en maximipunkt vid \\(x=-\\sqrt a\\) och en minimipunkt vid \\(x=\\sqrt a\\).</p><p>Funktionsvärdena är</p><p>\\[f_a(-\\sqrt a)=-2a\\sqrt a,\\qquad f_a(\\sqrt a)=2a\\sqrt a.\\]</p><p>Alltså är extrempunkterna</p><p>\\[\\boxed{(-\\sqrt a,-2a\\sqrt a)}\\quad\\text{och}\\quad\\boxed{(\\sqrt a,2a\\sqrt a)}.\\]</p><p>Om \\(a&lt;0\\) saknar ekvationen \\(x^2=a\\) reella lösningar och derivatan är negativ för alla \\(x\neq0\\). Då finns inga extrempunkter.</p>",
+    "t": "<p>För \\(a\\neq0\\) ges funktionen</p><p>\\[f_a(x)=ax+\\frac{a^2}{x},\\qquad x\\neq0.\\]</p><p>Undersök hur funktionens extrempunkter beror på konstanten \\(a\\).</p>",
+    "s": "<p>Derivatan är</p><p>\\[f_a^{\\prime}(x)=a-\\frac{a^2}{x^2}=a\\left(1-\\frac{a}{x^2}\\right).\\]</p><p>Om \\(a&gt;0\\) fås \\(x^2=a\\), alltså \\(x=\\pm\\sqrt a\\). Teckenstudium ger en maximipunkt vid \\(x=-\\sqrt a\\) och en minimipunkt vid \\(x=\\sqrt a\\).</p><p>Funktionsvärdena är</p><p>\\[f_a(-\\sqrt a)=-2a\\sqrt a,\\qquad f_a(\\sqrt a)=2a\\sqrt a.\\]</p><p>Alltså är extrempunkterna</p><p>\\[\\boxed{(-\\sqrt a,-2a\\sqrt a)}\\quad\\text{och}\\quad\\boxed{(\\sqrt a,2a\\sqrt a)}.\\]</p><p>Om \\(a&lt;0\\) saknar ekvationen \\(x^2=a\\) reella lösningar och derivatan är negativ för alla \\(x\\neq0\\). Då finns inga extrempunkter.</p>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": false,
@@ -51368,7 +51349,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En rektangel har diagonalen 20 cm.</p><p>Bestäm rektangelns största möjliga area.</p>",
-    "s": "<p>Låt sidlängderna vara \\(x\\) och \\(y\\). Pythagoras sats ger</p><p>\\[x^2+y^2=400.\\]</p><p>Eftersom arean är positiv kan vi maximera \\(A^2=x^2y^2\\). Sätt \\(y^2=400-x^2\\):</p><p>\\[A^2(x)=x^2(400-x^2).\\]</p><p>\\[(A^2)'=800x-4x^3=4x(200-x^2).\\]</p><p>Maximum fås när \\(x^2=200\\), alltså \\(x=y=10\\sqrt2\\).</p><p>\\[A_{max}=xy=200\\text{ cm}^2.\\]</p><p><strong>Svar:</strong> \\(200\text{ cm}^2\\).</p>",
+    "s": "<p>Låt sidlängderna vara \\(x\\) och \\(y\\). Pythagoras sats ger</p><p>\\[x^2+y^2=400.\\]</p><p>Eftersom arean är positiv kan vi maximera \\(A^2=x^2y^2\\). Sätt \\(y^2=400-x^2\\):</p><p>\\[A^2(x)=x^2(400-x^2).\\]</p><p>\\[(A^2)'=800x-4x^3=4x(200-x^2).\\]</p><p>Maximum fås när \\(x^2=200\\), alltså \\(x=y=10\\sqrt2\\).</p><p>\\[A_{max}=xy=200\\text{ cm}^2.\\]</p><p><strong>Svar:</strong> \\(200\\text{ cm}^2\\).</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
@@ -69299,38 +69280,34 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös ekvationen</p><p>\\[|x+2|=5.\\]</p>",
-    "s": "<p>Absolutbeloppet ger två fall:</p><p>\\[x+2=5\\quad\\text{eller}\\quad x+2=-5.\\]</p><p>Alltså</p><p>\\[x=3\\quad\\text{eller}\\quad x=-7.\\]</p>",
+    "t": "<p>Lös ekvationen \\(4|x+2|=8\\).</p>",
+    "s": "<p>Dela med 4: \\(|x+2|=2\\).</p><p>\\(x=0\\) eller \\(x=-4\\).</p><p><strong>Svar:</strong> \\(x=-4\\) eller \\(x=0\\)</p>",
     "familj": "Ekvationer med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      3,
-      -7
-    ],
-    "tolerans": [
-      0,
-      0
-    ],
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Om \\(|u|=5\\) kan \\(u\\) vara både 5 och -5.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Dela båda leden med 4 först.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "NP Ma3c vt 2014, uppgift 6",
-    "svarsstruktur": "mängd",
+    "familjTidigare": [
+      "Lösa absolutbeloppsekvation"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": [
+      -4.0,
+      0.0
+    ],
+    "tolerans": null,
     "svarFormat": [
       "numeriskt",
       "numeriskt"
     ],
-    "svarEtiketter": null,
-    "familjTidigare": [
-      "Lösa absolutbeloppsekvation"
-    ]
+    "svarsstruktur": "mängd"
   },
   {
     "id": "1.459",
@@ -71741,7 +71718,7 @@ window.BANKMATO1 = [
       "begrepp",
       "procedur"
     ],
-    "ledtrad": "Förenkla först uttrycket för \\(x\ne1\\) och bestäm sedan gränsvärdet.",
+    "ledtrad": "Förenkla först uttrycket för \\(x\\ne1\\) och bestäm sedan gränsvärdet.",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -80207,29 +80184,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^9 7\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 7: \\(7\\cdot9=63\\).</p><p><strong>Svar:</strong> 63</p>",
+    "t": "<p>Beräkna \\(\\int_0^4(2x+3)\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(F(x)=1x^2+3x\\).</p><p>\\(F(4)-F(0)=28\\).</p><p><strong>Svar:</strong> 28</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 63,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestämd integral över intervall med negativ gräns"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.840",
@@ -80241,29 +80218,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-10)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 5 och 10; det minsta är 5.</p><p><strong>Svar:</strong> 5</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-7)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-6\\) och \\(x=7\\). Den är positiv till vänster om −6, negativ mellan −6 och 7 och positiv till höger om 7.</p><p>Funktionen växer och avtar sedan vid \\(x=-6\\), så där finns en maximipunkt.</p><p><strong>Svar:</strong> \\(x=-6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Gör en teckentabell för derivatan. Var byter den tecken från plus till minus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Derivatans nollställen och horisontella tangenter"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.841",
@@ -80343,29 +80320,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och -2; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-5)(x-7)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=5\\) och \\(x=7\\). Mellan dem är derivatan negativ och till höger om 7 positiv.</p><p>Funktionen avtar och växer sedan vid \\(x=7\\), så där finns en minimipunkt.</p><p><strong>Svar:</strong> \\(x=7\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var byter derivatan tecken från minus till plus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Bestäm och klassificera extrempunkter"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.844",
@@ -80445,29 +80422,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^4 5\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 5: \\(5\\cdot4=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>Beräkna \\(\\int_0^3 x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(\\frac{x^3}{3}\\).</p><p>\\(\\frac{3^3}{3}-0=9\\).</p><p><strong>Svar:</strong> 9</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm parameter med integralvillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.847",
@@ -80643,29 +80620,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-12)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 12; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+6)(x+4)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-6\\) och \\(x=-4\\). Minustecknet gör att derivatan är negativ till vänster om −6 och positiv mellan −6 och −4.</p><p>Alltså finns minimipunkten vid \\(x=-6\\).</p><p><strong>Svar:</strong> \\(x=-6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Tänk på minustecknet framför produkten när du gör teckentabellen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Tolka derivatans nollställen"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.853",
@@ -80677,28 +80654,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-4)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och 4; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+5)^2\\). Vilken sorts punkt har grafen där \\(x=-5\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=-5\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p><p><strong>Svar:</strong> En terrasspunkt.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Byter derivatan tecken när x passerar punkten?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Teckenstudium av derivatan"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "En terrasspunkt",
+        "ratt": true
+      },
+      {
+        "txt": "En maximipunkt",
+        "ratt": false
+      },
+      {
+        "txt": "En minimipunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -81017,29 +81007,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=1\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=4x^3\\) och \\(F(1)=1\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p>\\(F(x)=x^4+C\\). \\(F(1)=1+C=1\\) ger \\(C=0\\).</p><p>\\(F(2)=16+0=16\\).</p><p><strong>Svar:</strong> 16</p>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm C med villkoret innan du sätter in x = 2.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Funktioner med samma derivata"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.864",
@@ -81085,29 +81075,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-17)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 8 och 17; det minsta är 8.</p><p><strong>Svar:</strong> 8</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-2)^2(x-4)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=2\\) och \\(x=4\\).</p><p>Vid \\(x=2\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt. Vid \\(x=4\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p><p><strong>Svar:</strong> 1</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Undersök om derivatan byter tecken vid varje nollställe.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Klassificera nollställen till derivatan"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.866",
@@ -81289,28 +81279,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=7x^2+6\\). Tangenten dras vid \\(x=3\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=42\\) och punkten är \\((3,69)\\). Då \\(69=42\\cdot3+m\\), vilket ger \\(m=-57\\).</p><p><strong>Svar:</strong> -57</p>",
+    "t": "<p>Bestäm tangentens ekvation till \\(f(x)=x^2+1\\) i punkten där \\(x=2\\). Ange \\(k\\) och \\(m\\) i \\(y=kx+m\\).</p>",
+    "s": "<p>\\(f'(2)=4\\) och \\(f(2)=5\\).</p><p>\\(5=4\\cdot2+m\\Rightarrow m=-3\\).</p><p><strong>Svar:</strong> \\(y=4x-3\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -57,
-    "tolerans": null,
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "ledtrad": "<p>Lutningen får du med derivatan och punkten med funktionsvärdet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Generaliserad tangentgeometri"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "k",
+      "m"
     ]
   },
   {
@@ -81323,28 +81330,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-0)(x-9)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 0 och 9; det minsta är 0.</p><p><strong>Svar:</strong> 0</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-2)(x-7)\\). För vilka x är \\(f\\) avtagande?</p>",
+    "s": "<p>Derivatan är negativ mellan nollställena 2 och 7.</p><p><strong>Svar:</strong> \\(2\\lt x\\lt 7\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>En funktion är avtagande där derivatan är negativ.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Generalisera extremvärden med parameter"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(2\\lt x\\lt 7\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x\\lt 2\\) eller \\(x\\gt 7\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\gt 7\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\lt 2\\)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -81391,29 +81415,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=3\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(2)=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=6x^2-2x\\) och \\(F(1)=7\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p>\\(F(x)=2x^3-x^2+C\\).</p><p>\\(F(1)=1+C=7\\Rightarrow C=6\\).</p><p>\\(F(2)=16-4+6=18\\).</p><p><strong>Svar:</strong> 18</p>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Återskapa funktion från derivata och analysera extrema"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.875",
@@ -81459,29 +81483,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+1)(x-1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -1 och 1; det minsta är -1.</p><p><strong>Svar:</strong> -1</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-9x+14\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Faktorisera derivatan: \\(f'(x)=(x-2)(x-7)\\). Nollställena är 2 och 7.</p><p>Derivatan går från plus till minus vid \\(x=2\\), så där är maximipunkten.</p><p><strong>Svar:</strong> \\(x=2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -1,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lös \\(f'(x)=0\\) först, till exempel genom att faktorisera.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Extrempunkter och tangent i samma funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.877",
@@ -81493,29 +81517,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x-3)\\), där -6 och 3 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-3)(t-4)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
+    "s": "<p>\\(h'(t)=0\\) för \\(t=3\\) och \\(t=4\\). Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=4\\) är \\(h'(t)\\gt0\\).</p><p>Nivån sjunker och börjar sedan stiga vid \\(t=4\\).</p><p><strong>Svar:</strong> \\(t=4\\) h</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Var går förändringshastigheten från negativ till positiv?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Extrempunkter och tangent i samma funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "id": "3.878",
@@ -81527,29 +81553,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-14)^2+14\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=14\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 14</p>",
+    "t": "<p>Funktionen är \\(f(x)=-(x-4)^2+5\\). Vilket är funktionens största värde?</p>",
+    "s": "<p>Kvadraten är minst 0, så \\(f(x)\\le 5\\). Värdet 5 antas när \\(x=4\\).</p><p><strong>Svar:</strong> 5</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 14,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "ledtrad": "<p>Hur stor kan \\(-(x-4)^2\\) som mest bli?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Parameterfamilj och extrempunkter"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.879",
@@ -81595,28 +81621,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-0)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -2 och 0; det minsta är -2.</p><p><strong>Svar:</strong> -2</p>",
+    "t": "<p>För en funktion gäller \\(f'(x)=3(x+4)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-4\\)?</p>",
+    "s": "<p>Derivatan är negativ för \\(x\\lt -4\\) och positiv för \\(x\\gt -4\\).</p><p>Funktionen avtar och växer sedan, alltså ett minimum.</p><p><strong>Svar:</strong> Ett lokalt minimum.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "ledtrad": "<p>Vilket tecken har derivatan strax till vänster och strax till höger om punkten?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Horisontell tangent utan extrempunkt"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ett lokalt minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Ett lokalt maximum",
+        "ratt": false
+      },
+      {
+        "txt": "En terrasspunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -81663,29 +81702,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+15\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+4x+1\\) har sitt största värde.</p>",
+    "s": "<p>\\(f'(x)=-2x+4=0\\Rightarrow x=2\\). Andragradstermen är negativ, så det är ett maximum.</p><p><strong>Svar:</strong> \\(x=2\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Derivera och sätt derivatan lika med noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Maximera rektangelarea under linje"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.883",
@@ -81729,31 +81768,31 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-4)^2+9\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=4\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 4</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen \\(f(x)=-(x-3)^2+10\\) används bara för \\(-1\\le x\\le2\\). Bestäm funktionens största värde i intervallet.</p>",
+    "s": "<p>Maximipunkten \\(x=3\\) ligger utanför intervallet. Funktionen är växande i hela intervallet,</p><p>så det största värdet antas i den högra ändpunkten: \\(f(2)=9\\).</p><p><strong>Svar:</strong> 9</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ligger parabelns maximipunkt inom intervallet? Undersök annars ändpunkterna.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parametrar från extrempunkter"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.885",
@@ -81765,29 +81804,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(52\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(26-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(26-x)=-x^2+26x\\). Parabelns symmetrilinje är \\(x=26/2=13\\).</p><p><strong>Svar:</strong> 13</p>",
+    "t": "<p>En rektangulär hage ska byggas mot en vägg. Väggen ersätter en långsida, och 80 m stängsel räcker till de tre andra sidorna. Hur långa ska sidorna vinkelräta mot väggen vara för att arean ska bli så stor som möjligt?</p>",
+    "s": "<p>Kalla de vinkelräta sidorna x. Då blir långsidan \\(80-2x\\) och arean \\(A(x)=x(80-2x)\\).</p><p>\\(A'(x)=80-4x=0\\Rightarrow x=20\\) m.</p><p><strong>Svar:</strong> 20 m</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 13,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Uttryck den sida som är parallell med väggen med hjälp av x.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parametrar från extrempunkter"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.886",
@@ -81799,29 +81840,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^5 2\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 5 och höjd 2: \\(2\\cdot5=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Beräkna \\(\\int_1^2 3x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^3\\).</p><p>\\(2^3-1^3=7\\).</p><p><strong>Svar:</strong> 7</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(3x^2\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Tolka integral av en derivata från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.887",
@@ -81867,29 +81908,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och -1; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-6)(t-9)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
+    "s": "<p>\\(h'(t)=0\\) för \\(t=6\\) och \\(t=9\\). Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=9\\) är \\(h'(t)\\gt0\\).</p><p>Nivån sjunker och börjar sedan stiga vid \\(t=9\\).</p><p><strong>Svar:</strong> \\(t=9\\) h</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var går förändringshastigheten från negativ till positiv?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Avgör om en terrasspunkt finns"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "id": "3.889",
@@ -81901,29 +81944,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+6)\\), där -10 och -6 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-3)^2(x-4)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=3\\) och \\(x=4\\).</p><p>Vid \\(x=3\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt. Vid \\(x=4\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p><p><strong>Svar:</strong> 1</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Undersök om derivatan byter tecken vid varje nollställe.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Avgör om en terrasspunkt finns"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.890",
@@ -81935,29 +81978,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^10 12\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 12: \\(12\\cdot10=120\\).</p><p><strong>Svar:</strong> 120</p>",
+    "t": "<p>Beräkna \\(\\int_0^4 (-2)\\,dx\\) och förklara varför svaret blir negativt.</p>",
+    "s": "<p>Integranden är konstant: \\(-2\\cdot(4-0)=-8\\).</p><p>Grafen ligger under x-axeln, så integralen blir negativ trots att arean är positiv.</p><p><strong>Svar:</strong> −8</p>",
     "familj": "Area med integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 120,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var ligger grafen till \\(y=-2\\) i förhållande till x-axeln?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm parameter med hjälp av area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -8,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.891",
@@ -81969,29 +82013,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^12 10x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 12^2/2=720\\).</p><p><strong>Svar:</strong> 720</p>",
+    "t": "<p>Integralen \\(\\int_0^5 2x\\,dx\\) kan tolkas som arean av en triangel. Bestäm integralens värde genom att beräkna triangelns area.</p>",
+    "s": "<p>Triangeln har basen 5 och höjden \\(2\\cdot5=10\\).</p><p>Area: \\(\\frac{5\\cdot10}{2}=25\\).</p><p><strong>Svar:</strong> 25</p>",
     "familj": "Area med integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 720,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen till \\(y=2x\\). Vilken figur bildas under grafen?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm parameter med hjälp av area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.892",
@@ -82003,29 +82048,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-1)^2+30\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=1\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 1</p>",
+    "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+30t+2\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
+    "s": "<p>\\(h'(t)=-10t+30=0\\Rightarrow t=3\\).</p><p>\\(h(3)=47\\).</p><p><strong>Svar:</strong> 47 m</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm först när bollen är som högst, alltså när derivatan är noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Maximera area med ett enkelt villkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 47.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.893",
@@ -82071,28 +82118,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-7)^2+5\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=7\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>Ange värdemängden till \\(f(x)=-(x-6)^2+7\\).</p>",
+    "s": "<p>Funktionen har största värdet 7 och kan bli hur liten som helst.</p><p><strong>Svar:</strong> \\(y\\le 7\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilket är det största värdet? Finns något minsta värde?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Optimering med skiljestängsel"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(y\\le 7\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(y\\ge 7\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(y\\le 6\\)",
+        "ratt": false
+      },
+      {
+        "txt": "Alla reella tal",
+        "ratt": false
+      }
     ]
   },
   {
@@ -82105,29 +82169,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(56\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(28-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(28-x)=-x^2+28x\\). Parabelns symmetrilinje är \\(x=28/2=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "t": "<p>Två positiva tal har summan 40. Hur stor kan deras produkt högst bli?</p>",
+    "s": "<p>Talen är \\(x\\) och \\(40-x\\). Produkten \\(P(x)=x(40-x)\\).</p><p>\\(P'(x)=40-2x=0\\Rightarrow x=20\\), och \\(P=400\\).</p><p><strong>Svar:</strong> 400</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 14,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "ledtrad": "<p>Skriv det andra talet med hjälp av det första.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Optimering med skiljestängsel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.896",
@@ -82139,29 +82203,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-2)^2+14\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=2\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+40x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
+    "s": "<p>\\(V'(x)=-4x+40=0\\Rightarrow x=10\\).</p><p>\\(V(10)=-2\\cdot10^2+40\\cdot10-50=150\\) kr.</p><p><strong>Svar:</strong> 150 kr</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Geometrisk optimering med sammansatt figur"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "3.897",
@@ -82173,29 +82239,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(36\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(18-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(18-x)=-x^2+18x\\). Parabelns symmetrilinje är \\(x=18/2=9\\).</p><p><strong>Svar:</strong> 9</p>",
+    "t": "<p>En rektangel har omkretsen 24 cm. Hur stor kan arean högst bli?</p>",
+    "s": "<p>Sidorna är \\(x\\) och \\(12-x\\), så \\(A(x)=x(12-x)\\).</p><p>\\(A'(x)=12-2x=0\\Rightarrow x=6\\), och \\(A=36\\) cm².</p><p><strong>Svar:</strong> 36 cm²</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "ledtrad": "<p>Bestäm först det x som ger störst area, och beräkna sedan arean.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Geometrisk optimering med sammansatt figur"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 36.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
   },
   {
     "id": "3.898",
@@ -82207,29 +82274,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(1)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "t": "<p>En leksaksbil har hastigheten \\(v(t)=6t\\) m/s. Vid \\(t=0\\) befinner den sig 2 m från startlinjen. Hur långt från startlinjen är den när \\(t=3\\)?</p>",
+    "s": "<p>\\(s(t)=3t^2+C\\) och \\(s(0)=2\\) ger \\(C=2\\).</p><p>\\(s(3)=29\\) m.</p><p><strong>Svar:</strong> 29 m</p>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Läget är en primitiv funktion till hastigheten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Bestäm primitiv funktion från extremvillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 29.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.899",
@@ -82241,29 +82310,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=-2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=-2\\) fås \\(C=-2\\). Då är \\(F(2)=22\\).</p><p><strong>Svar:</strong> 22</p>",
+    "t": "<p>Vatten rinner in i en tank med hastigheten \\(q(t)=4t\\) liter per minut. Från början finns 10 liter i tanken. Hur mycket vatten finns efter 3 minuter?</p>",
+    "s": "<p>\\(V(t)=2t^2+C\\) och \\(V(0)=10\\).</p><p>\\(V(3)=28\\) liter.</p><p><strong>Svar:</strong> 28 liter</p>",
     "familj": "Återskapa funktion från derivata",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 22,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "ledtrad": "<p>Volymen är en primitiv funktion till inflödet. Startvolymen bestämmer konstanten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Bestäm primitiv funktion från extremvillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.900",
@@ -82275,29 +82346,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^10 11\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 11: \\(11\\cdot10=110\\).</p><p><strong>Svar:</strong> 110</p>",
+    "t": "<p>Bestäm den övre gränsen \\(b\\) så att \\(\\int_0^b 3\\,dx=24\\).</p>",
+    "s": "<p>\\(\\int_0^b 3\\,dx=3b\\).</p><p>\\(3b=24\\Rightarrow b=8\\).</p><p><strong>Svar:</strong> \\(b=8\\)</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 110,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Beräkna integralen uttryckt i b och lös ekvationen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm funktionsvärde från derivatans graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.901",
@@ -82309,29 +82380,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^2 10x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 2^2/2=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>Tolka \\(\\int_2^4 4x\\,dx\\) som en area och bestäm integralens värde.</p>",
+    "s": "<p>Området är ett parallelltrapets med de parallella sidorna \\(8\\) och \\(16\\) och höjden \\(2\\).</p><p>Area: \\(\\frac{(8+16)\\cdot2}{2}=24\\).</p><p><strong>Svar:</strong> 24</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Området under en rät linje mellan två x-värden är ett parallelltrapets.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm funktionsvärde från derivatans graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.902",
@@ -82445,29 +82517,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+23\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+12\\). Vilket är funktionens största värde?</p>",
+    "s": "<p>Kvadraten är minst 0, så \\(f(x)\\le 12\\). Värdet 12 antas när \\(x=3\\).</p><p><strong>Svar:</strong> 12</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "ledtrad": "<p>Hur stor kan \\(-(x-3)^2\\) som mest bli?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Återskapa funktion och bestäm extrempunkt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.906",
@@ -82479,29 +82551,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(32\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(16-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(16-x)=-x^2+16x\\). Parabelns symmetrilinje är \\(x=16/2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "t": "<p>En rektangel har ett hörn i origo och det motsatta hörnet på linjen \\(y=12-2x\\), där \\(x\\gt0\\) och \\(y\\gt0\\). Bestäm det x som ger störst area.</p>",
+    "s": "<p>Arean är \\(A(x)=x(12-2x)=12x-2x^2\\).</p><p>\\(A'(x)=12-4x=0\\Rightarrow x=3\\).</p><p><strong>Svar:</strong> \\(x=3\\)</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Rektangelns höjd är y-värdet på linjen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Återskapa funktion och bestäm extrempunkt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.907",
@@ -82513,29 +82586,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-13)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 6 och 13; det minsta är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+2)(x+1)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-2\\) och \\(x=-1\\). Den är positiv till vänster om −2, negativ mellan −2 och −1 och positiv till höger om −1.</p><p>Funktionen växer och avtar sedan vid \\(x=-2\\), så där finns en maximipunkt.</p><p><strong>Svar:</strong> \\(x=-2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Gör en teckentabell för derivatan. Var byter den tecken från plus till minus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Tolka derivatans graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.908",
@@ -82547,29 +82620,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-9)^2+15\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=9\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 9</p>",
+    "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+4x-1\\) har sitt största värde.</p>",
+    "s": "<p>\\(f'(x)=-2x+4=0\\Rightarrow x=2\\). Andragradstermen är negativ, så det är ett maximum.</p><p><strong>Svar:</strong> \\(x=2\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Derivera och sätt derivatan lika med noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Extremvärden på slutet intervall"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.909",
@@ -82581,29 +82654,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(16\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(8-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(8-x)=-x^2+8x\\). Parabelns symmetrilinje är \\(x=8/2=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>Två lika stora rektangulära hagar ska ligga bredvid varandra och dela en sida. Totalt finns 60 m stängsel, som ska räcka till tre parallella sidor och två långsidor. Hur långa ska de tre parallella sidorna vara för störst total area?</p>",
+    "s": "<p>Kalla de parallella sidorna x. Långsidorna blir \\(\\frac{60-3x}{2}\\) och arean \\(A(x)=x\\cdot\\frac{60-3x}{2}\\).</p><p>\\(A'(x)=\\frac{60-6x}{2}=0\\Rightarrow x=10\\) m.</p><p><strong>Svar:</strong> 10 m</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Räkna hur mycket stängsel de tre parallella sidorna tar och vad som blir över.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Extremvärden på slutet intervall"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.910",
@@ -82613,31 +82688,31 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-11)^2+15\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=11\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 11</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen \\(f(x)=-(x-6)^2+8\\) används bara för \\(1\\le x\\le4\\). Bestäm funktionens största värde i intervallet.</p>",
+    "s": "<p>Maximipunkten \\(x=6\\) ligger utanför intervallet. Funktionen är växande i hela intervallet,</p><p>så det största värdet antas i den högra ändpunkten: \\(f(4)=4\\).</p><p><strong>Svar:</strong> 4</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 11,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ligger parabelns maximipunkt inom intervallet? Undersök annars ändpunkterna.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parameter från extrempunkt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.911",
@@ -82649,29 +82724,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(28\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(14-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(14-x)=-x^2+14x\\). Parabelns symmetrilinje är \\(x=14/2=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>En rektangulär hage ska byggas mot en vägg. Väggen ersätter en långsida, och 60 m stängsel räcker till de tre andra sidorna. Hur långa ska sidorna vinkelräta mot väggen vara för att arean ska bli så stor som möjligt?</p>",
+    "s": "<p>Kalla de vinkelräta sidorna x. Då blir långsidan \\(60-2x\\) och arean \\(A(x)=x(60-2x)\\).</p><p>\\(A'(x)=60-4x=0\\Rightarrow x=15\\) m.</p><p><strong>Svar:</strong> 15 m</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Uttryck den sida som är parallell med väggen med hjälp av x.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parameter från extrempunkt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.912",
@@ -82683,29 +82760,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+22\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+30t+2\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
+    "s": "<p>\\(h'(t)=-10t+30=0\\Rightarrow t=3\\).</p><p>\\(h(3)=47\\).</p><p><strong>Svar:</strong> 47 m</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm först när bollen är som högst, alltså när derivatan är noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parameter från extremvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 47.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.913",
@@ -82717,29 +82796,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(24\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(12-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(12-x)=-x^2+12x\\). Parabelns symmetrilinje är \\(x=12/2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Två positiva tal har summan 40. Hur stor kan deras produkt högst bli?</p>",
+    "s": "<p>Talen är \\(x\\) och \\(40-x\\). Produkten \\(P(x)=x(40-x)\\).</p><p>\\(P'(x)=40-2x=0\\Rightarrow x=20\\), och \\(P=400\\).</p><p><strong>Svar:</strong> 400</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "ledtrad": "<p>Skriv det andra talet med hjälp av det första.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parameter från extremvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.914",
@@ -82751,29 +82830,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x+1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -7 och -1; det minsta är -7.</p><p><strong>Svar:</strong> -7</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x+3)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-6\\) och \\(x=-3\\). Mellan dem är derivatan negativ och till höger om −3 positiv.</p><p>Funktionen avtar och växer sedan vid \\(x=-3\\), så där finns en minimipunkt.</p><p><strong>Svar:</strong> \\(x=-3\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var byter derivatan tecken från minus till plus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Bestäm extremvärde från derivata och startvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.915",
@@ -82819,28 +82898,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-2)^2+11\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=2\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Ange värdemängden till \\(f(x)=-(x-5)^2+5\\).</p>",
+    "s": "<p>Funktionen har största värdet 5 och kan bli hur liten som helst.</p><p><strong>Svar:</strong> \\(y\\le 5\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilket är det största värdet? Finns något minsta värde?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Maximera triangelarea"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(y\\le 5\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(y\\ge 5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(y\\le 5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "Alla reella tal",
+        "ratt": false
+      }
     ]
   },
   {
@@ -82853,29 +82949,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-14)^2+27\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=14\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 14</p>",
+    "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+60x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
+    "s": "<p>\\(V'(x)=-4x+60=0\\Rightarrow x=15\\).</p><p>\\(V(15)=-2\\cdot15^2+60\\cdot15-50=400\\) kr.</p><p><strong>Svar:</strong> 400 kr</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 14,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Två hagar mot vägg"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "3.918",
@@ -82887,29 +82985,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(44\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(22-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(22-x)=-x^2+22x\\). Parabelns symmetrilinje är \\(x=22/2=11\\).</p><p><strong>Svar:</strong> 11</p>",
+    "t": "<p>En rektangel har omkretsen 48 cm. Hur stor kan arean högst bli?</p>",
+    "s": "<p>Sidorna är \\(x\\) och \\(24-x\\), så \\(A(x)=x(24-x)\\).</p><p>\\(A'(x)=24-2x=0\\Rightarrow x=12\\), och \\(A=144\\) cm².</p><p><strong>Svar:</strong> 144 cm²</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 11,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "ledtrad": "<p>Bestäm först det x som ger störst area, och beräkna sedan arean.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Två hagar mot vägg"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 144.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
   },
   {
     "id": "3.919",
@@ -82989,29 +83088,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=e^x\\) och \\(F(0)=4\\). Bestäm \\(F(1)\\) med två decimaler.</p>",
+    "s": "<p>\\(F(x)=e^x+C\\). \\(F(0)=1+C=4\\) ger \\(C=3\\).</p><p>\\(F(1)=e+3\\approx5{,}72\\).</p><p><strong>Svar:</strong> 5,72</p>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>\\(e^x\\) är sin egen primitiva funktion.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Primitiva funktioner skiljer med konstant"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.72,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.922",
@@ -83057,29 +83156,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Grafen till en primitiv funktion \\(F\\) till \\(f(x)=2x+1\\) går genom punkten \\((1,\\,7)\\). Bestäm konstanten \\(C\\) i \\(F(x)=x^2+x+C\\).</p>",
+    "s": "<p>\\(F(1)=1+1+C=7\\Rightarrow C=5\\).</p><p><strong>Svar:</strong> \\(C=5\\)</p>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "ledtrad": "<p>Sätt in punktens koordinater i \\(F(x)\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Tolka derivata från graf till primitiv funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.924",
@@ -83091,29 +83190,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x+1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och -1; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+5)(x-3)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-5\\) och \\(x=3\\). Minustecknet gör att derivatan är negativ till vänster om −5 och positiv mellan −5 och 3.</p><p>Alltså finns minimipunkten vid \\(x=-5\\).</p><p><strong>Svar:</strong> \\(x=-5\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Tänk på minustecknet framför produkten när du gör teckentabellen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Göra teckentabell för derivatan"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.925",
@@ -83125,29 +83224,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x-1)\\), där -8 och 1 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+2)(x-8)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-2\\) och \\(x=8\\). Den är positiv till vänster om −2, negativ mellan −2 och 8 och positiv till höger om 8.</p><p>Funktionen växer och avtar sedan vid \\(x=-2\\), så där finns en maximipunkt.</p><p><strong>Svar:</strong> \\(x=-2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Gör en teckentabell för derivatan. Var byter den tecken från plus till minus?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Göra teckentabell för derivatan"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.926",
@@ -83159,28 +83258,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x-1)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och 1; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-6)^2\\). Vilken sorts punkt har grafen där \\(x=6\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=6\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p><p><strong>Svar:</strong> En terrasspunkt.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Byter derivatan tecken när x passerar punkten?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Grafanalys från faktoriserad derivata"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "En terrasspunkt",
+        "ratt": true
+      },
+      {
+        "txt": "En maximipunkt",
+        "ratt": false
+      },
+      {
+        "txt": "En minimipunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -83193,28 +83305,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+4)\\), där -11 och -4 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+4)(x-2)\\). För vilka x är \\(f\\) avtagande?</p>",
+    "s": "<p>Derivatan är negativ mellan nollställena −4 och 2.</p><p><strong>Svar:</strong> \\(-4\\lt x\\lt 2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>En funktion är avtagande där derivatan är negativ.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Grafanalys från faktoriserad derivata"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(-4\\lt x\\lt 2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x\\lt -4\\) eller \\(x\\gt 2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\gt 2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\lt -4\\)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -83227,29 +83356,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-7)(x-13)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 7 och 13; det minsta är 7.</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+1)^2(x-1)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=-1\\) och \\(x=1\\).</p><p>Vid \\(x=-1\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt. Vid \\(x=1\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p><p><strong>Svar:</strong> 1</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Undersök om derivatan byter tecken vid varje nollställe.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Dubbelrot i derivatan"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.929",
@@ -83261,29 +83390,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\), där 2 och 8 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-3)(x-6)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=3\\) och \\(x=6\\). Den är positiv till vänster om 3, negativ mellan 3 och 6 och positiv till höger om 6.</p><p>Funktionen växer och avtar sedan vid \\(x=3\\), så där finns en maximipunkt.</p><p><strong>Svar:</strong> \\(x=3\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Gör en teckentabell för derivatan. Var byter den tecken från plus till minus?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Dubbelrot i derivatan"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.930",
@@ -83295,28 +83424,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+5)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -10 och -5; det minsta är -10.</p><p><strong>Svar:</strong> -10</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+4)(x+2)\\). För vilka x är \\(f\\) avtagande?</p>",
+    "s": "<p>Derivatan är negativ mellan nollställena −4 och −2.</p><p><strong>Svar:</strong> \\(-4\\lt x\\lt -2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>En funktion är avtagande där derivatan är negativ.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Grafanalys från derivata"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(-4\\lt x\\lt -2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x\\lt -4\\) eller \\(x\\gt -2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\gt -2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\lt -4\\)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -83329,29 +83475,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-3)(x-12)\\), där 3 och 12 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-5)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=5\\) och \\(x=6\\). Mellan dem är derivatan negativ och till höger om 6 positiv.</p><p>Funktionen avtar och växer sedan vid \\(x=6\\), så där finns en minimipunkt.</p><p><strong>Svar:</strong> \\(x=6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Var byter derivatan tecken från minus till plus?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Grafanalys från derivata"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.932",
@@ -83363,29 +83509,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-16)^2+27\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=16\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 16</p>",
+    "t": "<p>Funktionen är \\(f(x)=-(x-6)^2+12\\). Vilket är funktionens största värde?</p>",
+    "s": "<p>Kvadraten är minst 0, så \\(f(x)\\le 12\\). Värdet 12 antas när \\(x=6\\).</p><p><strong>Svar:</strong> 12</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "ledtrad": "<p>Hur stor kan \\(-(x-6)^2\\) som mest bli?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Flera hagar mot vägg"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.933",
@@ -83431,29 +83577,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-7)^2+22\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=7\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+10x-13\\) har sitt största värde.</p>",
+    "s": "<p>\\(f'(x)=-2x+10=0\\Rightarrow x=5\\). Andragradstermen är negativ, så det är ett maximum.</p><p><strong>Svar:</strong> \\(x=5\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Derivera och sätt derivatan lika med noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Geometrisk optimering med linjevillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.935",
@@ -83499,29 +83645,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=(x-6)^2+12\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när \\(x=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Funktionen är \\(f(x)=-(x-4)^2+3\\). Vilket är funktionens största värde?</p>",
+    "s": "<p>Kvadraten är minst 0, så \\(f(x)\\le 3\\). Värdet 3 antas när \\(x=4\\).</p><p><strong>Svar:</strong> 3</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen (x-h)^2+k syns extrempunktens x-värde direkt.</p>",
+    "ledtrad": "<p>Hur stor kan \\(-(x-4)^2\\) som mest bli?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Minimera stängsel med skiljeväggar"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.937",
@@ -83533,29 +83679,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=(x-5)^2+27\\). Vid vilket x-värde får funktionen sitt minsta värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten är minst när den är 0, alltså när \\(x=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+10x-20\\) har sitt största värde.</p>",
+    "s": "<p>\\(f'(x)=-2x+10=0\\Rightarrow x=5\\). Andragradstermen är negativ, så det är ett maximum.</p><p><strong>Svar:</strong> \\(x=5\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen (x-h)^2+k syns extrempunktens x-värde direkt.</p>",
+    "ledtrad": "<p>Derivera och sätt derivatan lika med noll.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Minimera stängsel med skiljeväggar"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.938",
@@ -83565,31 +83711,31 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-3)^2+8\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=3\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 3</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen \\(f(x)=-(x-5)^2+3\\) används bara för \\(0\\le x\\le3\\). Bestäm funktionens största värde i intervallet.</p>",
+    "s": "<p>Maximipunkten \\(x=5\\) ligger utanför intervallet. Funktionen är växande i hela intervallet,</p><p>så det största värdet antas i den högra ändpunkten: \\(f(3)=-1\\).</p><p><strong>Svar:</strong> −1</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ligger parabelns maximipunkt inom intervallet? Undersök annars ändpunkterna.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Maximera rektangelarea vid given omkrets"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.939",
@@ -83703,29 +83849,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^10 8\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 8: \\(8\\cdot10=80\\).</p><p><strong>Svar:</strong> 80</p>",
+    "t": "<p>Beräkna \\(\\int_0^2 4x^3\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^4\\).</p><p>\\(2^4-0=16\\).</p><p><strong>Svar:</strong> 16</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 80,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(4x^3\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Analysens huvudsats från värden på primitiv funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.943",
@@ -83737,29 +83883,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^10 2x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{2}2x^2\\). Värdet blir \\(2\\cdot 10^2/2=100\\).</p><p><strong>Svar:</strong> 100</p>",
+    "t": "<p>Bestäm \\(\\int_{-4}^{4} 3x\\,dx\\) utan att beräkna någon primitiv funktion.</p>",
+    "s": "<p>Grafen är en rät linje genom origo. Området till vänster om origo ligger under x-axeln och är lika stort som området till höger, som ligger ovanför.</p><p>Bidragen tar ut varandra.</p><p><strong>Svar:</strong> 0</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 100,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen och jämför områdena på var sin sida om origo.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Analysens huvudsats från värden på primitiv funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.944",
@@ -83771,29 +83918,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=3\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(2)=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>Vatten rinner in i en tank med hastigheten \\(q(t)=2t\\) liter per minut. Från början finns 20 liter i tanken. Hur mycket vatten finns efter 3 minuter?</p>",
+    "s": "<p>\\(V(t)=1t^2+C\\) och \\(V(0)=20\\).</p><p>\\(V(3)=29\\) liter.</p><p><strong>Svar:</strong> 29 liter</p>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Volymen är en primitiv funktion till inflödet. Startvolymen bestämmer konstanten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Bestäm integrationskonstant från punkt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 29.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.945",
@@ -83839,29 +83988,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 2\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 2: \\(2\\cdot6=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>Beräkna \\(\\int_0^3(2x+3)\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(F(x)=1x^2+3x\\).</p><p>\\(F(3)-F(0)=18\\).</p><p><strong>Svar:</strong> 18</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Tolka ackumulationsfunktion från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.947",
@@ -83873,29 +84022,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^12 5x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{5}2x^2\\). Värdet blir \\(5\\cdot 12^2/2=360\\).</p><p><strong>Svar:</strong> 360</p>",
+    "t": "<p>Bestäm \\(\\int_{-3}^{0} 2x\\,dx\\).</p>",
+    "s": "<p>Området mellan grafen och x-axeln är en triangel med arean \\(\\frac{3\\cdot6}{2}=9\\).</p><p>Det ligger under x-axeln, så integralen är negativ.</p><p><strong>Svar:</strong> −9</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 360,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Ligger grafen ovanför eller under x-axeln när x är negativt?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Tolka ackumulationsfunktion från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -9.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.948",
@@ -83907,29 +84057,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^2 11\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 11: \\(11\\cdot2=22\\).</p><p><strong>Svar:</strong> 22</p>",
+    "t": "<p>Beräkna \\(\\int_0^6 x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(\\frac{x^3}{3}\\).</p><p>\\(\\frac{6^3}{3}-0=72\\).</p><p><strong>Svar:</strong> 72</p>",
     "familj": "Area med integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 22,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm parameter från area under parabel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 72.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.949",
@@ -83941,29 +84091,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 8x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{8}2x^2\\). Värdet blir \\(8\\cdot 8^2/2=256\\).</p><p><strong>Svar:</strong> 256</p>",
+    "t": "<p>Beräkna arean av området som begränsas av linjen \\(y=5x\\), x-axeln och linjen \\(x=2\\).</p>",
+    "s": "<p>\\(\\int_0^25x\\,dx=\\left[\\frac{5x^2}{2}\\right]_0^2=10\\).</p><p><strong>Svar:</strong> 10 areaenheter</p>",
     "familj": "Area med integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 256,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Skriv arean som en integral från 0 till 2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm parameter från area under parabel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.950",
@@ -83975,29 +84125,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^2 5\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 5: \\(5\\cdot2=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Beräkna \\(\\int_1^3 3x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^3\\).</p><p>\\(3^3-1^3=26\\).</p><p><strong>Svar:</strong> 26</p>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(3x^2\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Addera bestämda integraler"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.951",
@@ -84009,29 +84159,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 7x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\). Värdet blir \\(7\\cdot 6^2/2=126\\).</p><p><strong>Svar:</strong> 126</p>",
+    "t": "<p>Integralen \\(\\int_0^4 6x\\,dx\\) kan tolkas som arean av en triangel. Bestäm integralens värde genom att beräkna triangelns area.</p>",
+    "s": "<p>Triangeln har basen 4 och höjden \\(6\\cdot4=24\\).</p><p>Area: \\(\\frac{4\\cdot24}{2}=48\\).</p><p><strong>Svar:</strong> 48</p>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 126,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen till \\(y=6x\\). Vilken figur bildas under grafen?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Addera bestämda integraler"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 48.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.952",
@@ -84043,29 +84194,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+2\\). Därför \\(v(1)=6\\) m/s.</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Temperaturen i en ugn är \\(T(t)=20+4t-0,5t^2\\) °C efter \\(t\\) minuter. Hur snabbt ökar temperaturen när \\(t=2\\)?</p>",
+    "s": "<p>\\(T'(t)=4-t\\), så \\(T'(2)=2\\).</p><p><strong>Svar:</strong> 2 °C per minut</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Derivera temperaturfunktionen term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Maximera tvärsnittsarea för vikt plåt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.953",
@@ -84077,29 +84228,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+1\\). Därför \\(v(1)=5\\) m/s.</p><p><strong>Svar:</strong> 5</p>",
+    "t": "<p>En tank töms. Vattenvolymen är \\(V(t)=500-3t^2\\) liter efter \\(t\\) minuter. Med vilken hastighet minskar volymen när \\(t=4\\)?</p>",
+    "s": "<p>\\(V'(t)=-6t\\) och \\(V'(4)=-24\\).</p><p>Volymen minskar alltså med 24 liter per minut.</p><p><strong>Svar:</strong> 24 liter/minut</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "ledtrad": "<p>Förändringshastigheten är derivatan. Ett negativt värde betyder att volymen minskar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Maximera tvärsnittsarea för vikt plåt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter/minut"
   },
   {
     "id": "3.954",
@@ -84145,29 +84297,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+5\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(3)=20\\) m/s.</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>En vagn rör sig så att läget är \\(s(t)=t^2-6t+3\\) meter. Vid vilken tidpunkt står vagnen stilla?</p>",
+    "s": "<p>Hastigheten är \\(v(t)=s'(t)=2t-6\\).</p><p>\\(v(t)=0\\Rightarrow t=3\\) s.</p><p><strong>Svar:</strong> \\(t=3\\) s</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "ledtrad": "<p>Att stå stilla betyder att hastigheten är noll.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Maximera rektangel i halvcirkel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
   },
   {
     "id": "3.956",
@@ -84179,29 +84332,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(1)=10\\) m/s.</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Antalet invånare i en ort beskrivs av \\(N(t)=4000+20t+t^2\\), där \\(t\\) är år efter 2020. Med hur många invånare per år ökar befolkningen år 2025?</p>",
+    "s": "<p>\\(N'(t)=20+2t\\) och \\(N'(5)=30\\).</p><p><strong>Svar:</strong> 30 invånare per år</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilket t-värde motsvarar år 2025?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Maximera intäkt med kontinuerlig efterfrågemodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.957",
@@ -84213,29 +84367,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+5\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(2)=14\\) m/s.</p><p><strong>Svar:</strong> 14</p>",
+    "t": "<p>Kostnaden för att tillverka \\(x\\) stolar är \\(K(x)=0,5x^2+10x+2000\\) kr. Bestäm marginalkostnaden \\(K'(20)\\) och tolka den.</p>",
+    "s": "<p>\\(K'(x)=x+10\\), så \\(K'(20)=30\\).</p><p>När 20 stolar tillverkas kostar ungefär en stol till 30 kr.</p><p><strong>Svar:</strong> 30 kr per stol</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 14,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "ledtrad": "<p>Marginalkostnaden är derivatan av kostnadsfunktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Maximera intäkt med kontinuerlig efterfrågemodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "3.958",
@@ -84315,29 +84471,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 6\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 6: \\(6\\cdot8=48\\).</p><p><strong>Svar:</strong> 48</p>",
+    "t": "<p>Beräkna \\(\\int_0^5 (-3)\\,dx\\) och förklara varför svaret blir negativt.</p>",
+    "s": "<p>Integranden är konstant: \\(-3\\cdot(5-0)=-15\\).</p><p>Grafen ligger under x-axeln, så integralen blir negativ trots att arean är positiv.</p><p><strong>Svar:</strong> −15</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 48,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var ligger grafen till \\(y=-3\\) i förhållande till x-axeln?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Tolka integral geometriskt som cirkelarea"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -15,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.961",
@@ -84349,29 +84506,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^2 7x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\). Värdet blir \\(7\\cdot 2^2/2=14\\).</p><p><strong>Svar:</strong> 14</p>",
+    "t": "<p>Tolka \\(\\int_1^4 4x\\,dx\\) som en area och bestäm integralens värde.</p>",
+    "s": "<p>Området är ett parallelltrapets med de parallella sidorna \\(4\\) och \\(16\\) och höjden \\(3\\).</p><p>Area: \\(\\frac{(4+16)\\cdot3}{2}=30\\).</p><p><strong>Svar:</strong> 30</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 14,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Området under en rät linje mellan två x-värden är ett parallelltrapets.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Tolka integral geometriskt som cirkelarea"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.962",
@@ -84383,29 +84541,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 3\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 3: \\(3\\cdot8=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "t": "<p>Bestäm den övre gränsen \\(b\\) så att \\(\\int_0^b 5\\,dx=20\\).</p>",
+    "s": "<p>\\(\\int_0^b 5\\,dx=5b\\).</p><p>\\(5b=20\\Rightarrow b=4\\).</p><p><strong>Svar:</strong> \\(b=4\\)</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 24,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Beräkna integralen uttryckt i b och lös ekvationen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Integral med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.963",
@@ -84417,29 +84575,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 5x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{5}2x^2\\). Värdet blir \\(5\\cdot 8^2/2=160\\).</p><p><strong>Svar:</strong> 160</p>",
+    "t": "<p>Bestäm \\(\\int_{-3}^{3} 3x\\,dx\\) utan att beräkna någon primitiv funktion.</p>",
+    "s": "<p>Grafen är en rät linje genom origo. Området till vänster om origo ligger under x-axeln och är lika stort som området till höger, som ligger ovanför.</p><p>Bidragen tar ut varandra.</p><p><strong>Svar:</strong> 0</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 160,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen och jämför områdena på var sin sida om origo.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Integral med absolutbelopp"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.964",
@@ -84451,29 +84610,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^2 12\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 12: \\(12\\cdot2=24\\).</p><p><strong>Svar:</strong> 24</p>",
+    "t": "<p>Beräkna \\(\\int_0^3 4x^3\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^4\\).</p><p>\\(3^4-0=81\\).</p><p><strong>Svar:</strong> 81</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 24,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(4x^3\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Derivera ackumulationsfunktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 81,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.965",
@@ -84485,29 +84644,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 9x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 8^2/2=288\\).</p><p><strong>Svar:</strong> 288</p>",
+    "t": "<p>Bestäm \\(\\int_{-3}^{0} 2x\\,dx\\).</p>",
+    "s": "<p>Området mellan grafen och x-axeln är en triangel med arean \\(\\frac{3\\cdot6}{2}=9\\).</p><p>Det ligger under x-axeln, så integralen är negativ.</p><p><strong>Svar:</strong> −9</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 288,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Ligger grafen ovanför eller under x-axeln när x är negativt?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Derivera ackumulationsfunktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -9.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.966",
@@ -84519,29 +84679,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^7 12\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 7 och höjd 12: \\(12\\cdot7=84\\).</p><p><strong>Svar:</strong> 84</p>",
+    "t": "<p>Beräkna \\(\\int_0^4(4x+5)\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(F(x)=2x^2+5x\\).</p><p>\\(F(4)-F(0)=52\\).</p><p><strong>Svar:</strong> 52</p>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 84,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Byta integrationsgränser"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 52.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.967",
@@ -84553,29 +84713,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 12\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 12: \\(12\\cdot8=96\\).</p><p><strong>Svar:</strong> 96</p>",
+    "t": "<p>Beräkna \\(\\int_0^6 x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(\\frac{x^3}{3}\\).</p><p>\\(\\frac{6^3}{3}-0=72\\).</p><p><strong>Svar:</strong> 72</p>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 96,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Integralens linearitet"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 72.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.968",
@@ -84621,29 +84781,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -10 och -3; det minsta är -10.</p><p><strong>Svar:</strong> -10</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2+3x-4\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Faktorisera derivatan: \\(f'(x)=(x+4)(x-1)\\). Nollställena är −4 och 1.</p><p>Derivatan går från plus till minus vid \\(x=-4\\), så där är maximipunkten.</p><p><strong>Svar:</strong> \\(x=-4\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lös \\(f'(x)=0\\) först, till exempel genom att faktorisera.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Läsa växande och avtagande från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.970",
@@ -84655,28 +84815,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-4)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 2 och 4; det minsta är 2.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>För en funktion gäller \\(f'(x)=5(x+2)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-2\\)?</p>",
+    "s": "<p>Derivatan är negativ för \\(x\\lt -2\\) och positiv för \\(x\\gt -2\\).</p><p>Funktionen avtar och växer sedan, alltså ett minimum.</p><p><strong>Svar:</strong> Ett lokalt minimum.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "ledtrad": "<p>Vilket tecken har derivatan strax till vänster och strax till höger om punkten?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Läsa av extrempunkter från graf"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ett lokalt minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Ett lokalt maximum",
+        "ratt": false
+      },
+      {
+        "txt": "En terrasspunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -84689,29 +84862,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -9 och -7; det minsta är -9.</p><p><strong>Svar:</strong> -9</p>",
+    "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-3)(t-9)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
+    "s": "<p>\\(h'(t)=0\\) för \\(t=3\\) och \\(t=9\\). Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=9\\) är \\(h'(t)\\gt0\\).</p><p>Nivån sjunker och börjar sedan stiga vid \\(t=9\\).</p><p><strong>Svar:</strong> \\(t=9\\) h</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -9,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var går förändringshastigheten från negativ till positiv?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Bygga teckenschema från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "id": "3.972",
@@ -84723,29 +84898,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+5)\\), där -8 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-36\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Faktorisera derivatan: \\(f'(x)=(x+6)(x-6)\\). Nollställena är −6 och 6.</p><p>Derivatan går från plus till minus vid \\(x=-6\\), så där är maximipunkten.</p><p><strong>Svar:</strong> \\(x=-6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Lös \\(f'(x)=0\\) först, till exempel genom att faktorisera.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Bygga teckenschema från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.973",
@@ -84757,29 +84932,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-0)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 0; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+3)(x+2)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-3\\) och \\(x=-2\\). Den är positiv till vänster om −3, negativ mellan −3 och −2 och positiv till höger om −2.</p><p>Funktionen växer och avtar sedan vid \\(x=-3\\), så där finns en maximipunkt.</p><p><strong>Svar:</strong> \\(x=-3\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Gör en teckentabell för derivatan. Var byter den tecken från plus till minus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Resonera om extrempunkter från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.974",
@@ -84791,28 +84966,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+12)(x+5)\\), där -12 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>För en funktion gäller \\(f'(x)=4(x+3)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-3\\)?</p>",
+    "s": "<p>Derivatan är negativ för \\(x\\lt -3\\) och positiv för \\(x\\gt -3\\).</p><p>Funktionen avtar och växer sedan, alltså ett minimum.</p><p><strong>Svar:</strong> Ett lokalt minimum.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Vilket tecken har derivatan strax till vänster och strax till höger om punkten?</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Resonera om extrempunkter från graf"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ett lokalt minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Ett lokalt maximum",
+        "ratt": false
+      },
+      {
+        "txt": "En terrasspunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -84825,29 +85013,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+12)(x+6)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -12 och -6; det minsta är -12.</p><p><strong>Svar:</strong> -12</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-1)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=1\\) och \\(x=6\\). Mellan dem är derivatan negativ och till höger om 6 positiv.</p><p>Funktionen avtar och växer sedan vid \\(x=6\\), så där finns en minimipunkt.</p><p><strong>Svar:</strong> \\(x=6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var byter derivatan tecken från minus till plus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Uppskatta extrempunkter från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.976",
@@ -84859,29 +85047,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-8)(x-14)\\), där 8 och 14 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+6)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-6\\) och \\(x=6\\). Minustecknet gör att derivatan är negativ till vänster om −6 och positiv mellan −6 och 6.</p><p>Alltså finns minimipunkten vid \\(x=-6\\).</p><p><strong>Svar:</strong> \\(x=-6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Tänk på minustecknet framför produkten när du gör teckentabellen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Uppskatta extrempunkter från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.977",
@@ -84893,29 +85081,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x-2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -7 och 2; det minsta är -7.</p><p><strong>Svar:</strong> -7</p>",
+    "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x-2)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=2\\) och \\(x=6\\). Minustecknet gör att derivatan är negativ till vänster om 2 och positiv mellan 2 och 6.</p><p>Alltså finns minimipunkten vid \\(x=2\\).</p><p><strong>Svar:</strong> \\(x=2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Tänk på minustecknet framför produkten när du gör teckentabellen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Koppla horisontell tangent till derivatans nollställen"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.978",
@@ -84927,28 +85115,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-14)\\), där 5 och 14 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-2)^2\\). Vilken sorts punkt har grafen där \\(x=2\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=2\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p><p><strong>Svar:</strong> En terrasspunkt.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Byter derivatan tecken när x passerar punkten?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Koppla horisontell tangent till derivatans nollställen"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "En terrasspunkt",
+        "ratt": true
+      },
+      {
+        "txt": "En maximipunkt",
+        "ratt": false
+      },
+      {
+        "txt": "En minimipunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -84961,28 +85162,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-7)(x-15)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 7 och 15; det minsta är 7.</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+4)^2\\). Vilken sorts punkt har grafen där \\(x=-4\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=-4\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p><p><strong>Svar:</strong> En terrasspunkt.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Byter derivatan tecken när x passerar punkten?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Avgöra om derivatan kan vara noll från graf"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "En terrasspunkt",
+        "ratt": true
+      },
+      {
+        "txt": "En maximipunkt",
+        "ratt": false
+      },
+      {
+        "txt": "En minimipunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -84995,29 +85209,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+11)(x+8)\\), där -11 och -8 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-8)(t-9)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
+    "s": "<p>\\(h'(t)=0\\) för \\(t=8\\) och \\(t=9\\). Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=9\\) är \\(h'(t)\\gt0\\).</p><p>Nivån sjunker och börjar sedan stiga vid \\(t=9\\).</p><p><strong>Svar:</strong> \\(t=9\\) h</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Var går förändringshastigheten från negativ till positiv?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Avgöra om derivatan kan vara noll från graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "id": "3.981",
@@ -85029,29 +85245,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 4 och 7; det minsta är 4.</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-4)^2(x-8)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=4\\) och \\(x=8\\).</p><p>Vid \\(x=4\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt. Vid \\(x=8\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p><p><strong>Svar:</strong> 1</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Undersök om derivatan byter tecken vid varje nollställe.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Klassificera horisontell tangent"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.982",
@@ -85063,29 +85279,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-4)(x-9)\\), där 4 och 9 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+2)^2(x-5)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=-2\\) och \\(x=5\\).</p><p>Vid \\(x=-2\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt. Vid \\(x=5\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p><p><strong>Svar:</strong> 1</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Undersök om derivatan byter tecken vid varje nollställe.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Klassificera horisontell tangent"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.983",
@@ -85131,29 +85347,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+0\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(3)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "t": "<p>En boll kastas uppåt. Höjden är \\(h(t)=25t-5t^2\\) meter. Bestäm bollens hastighet efter 1 sekund. Är bollen på väg upp eller ner?</p>",
+    "s": "<p>\\(h'(t)=25-10t\\), så \\(h'(1)=15\\) m/s.</p><p>Hastigheten är positiv, så bollen är på väg upp.</p><p><strong>Svar:</strong> 15 m/s, uppåt</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "ledtrad": "<p>Hastigheten är derivatan av höjden. Vad betyder tecknet?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Två odlingsrutor mot mur"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s"
   },
   {
     "id": "3.985",
@@ -85165,29 +85382,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=3\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(3)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "t": "<p>En cyklists läge är \\(s(t)=t^2+4t\\) meter efter \\(t\\) sekunder. När är hastigheten 10 m/s?</p>",
+    "s": "<p>\\(v(t)=s'(t)=2t+4\\).</p><p>\\(2t+4=10\\Rightarrow t=3\\) s.</p><p><strong>Svar:</strong> \\(t=3\\) s</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm hastighetsfunktionen och lös en ekvation.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Minimera material för cylinder utan lock"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
   },
   {
     "id": "3.986",
@@ -85233,29 +85451,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(2)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "t": "<p>En tank töms. Vattenvolymen är \\(V(t)=500-2t^2\\) liter efter \\(t\\) minuter. Med vilken hastighet minskar volymen när \\(t=4\\)?</p>",
+    "s": "<p>\\(V'(t)=-4t\\) och \\(V'(4)=-16\\).</p><p>Volymen minskar alltså med 16 liter per minut.</p><p><strong>Svar:</strong> 16 liter/minut</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Förändringshastigheten är derivatan. Ett negativt värde betyder att volymen minskar.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Minimera avstånd till parabel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter/minut"
   },
   {
     "id": "3.988",
@@ -85301,29 +85520,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+5\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(1)=8\\) m/s.</p><p><strong>Svar:</strong> 8</p>",
+    "t": "<p>Temperaturen i en ugn är \\(T(t)=20+4t-0,5t^2\\) °C efter \\(t\\) minuter. Hur snabbt ökar temperaturen när \\(t=1\\)?</p>",
+    "s": "<p>\\(T'(t)=4-t\\), så \\(T'(1)=3\\).</p><p><strong>Svar:</strong> 3 °C per minut</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Derivera temperaturfunktionen term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Maximera rektangel i ellips"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.990",
@@ -85335,29 +85554,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+2\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(1)=10\\) m/s.</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>En vagn rör sig så att läget är \\(s(t)=t^2-10t+3\\) meter. Vid vilken tidpunkt står vagnen stilla?</p>",
+    "s": "<p>Hastigheten är \\(v(t)=s'(t)=2t-10\\).</p><p>\\(v(t)=0\\Rightarrow t=5\\) s.</p><p><strong>Svar:</strong> \\(t=5\\) s</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "ledtrad": "<p>Att stå stilla betyder att hastigheten är noll.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Maximera rektangel i ellips"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
   },
   {
     "id": "3.991",
@@ -85505,29 +85725,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^4 5\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 5: \\(5\\cdot4=20\\).</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_0^2 2^x\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_0^2 2^x\\,dx\\approx 4{,}328\\).</p><p><strong>Svar:</strong> 4,33</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Bestämma integrationsgräns digitalt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.33,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.996",
@@ -85539,29 +85759,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^2 6x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{6}2x^2\\). Värdet blir \\(6\\cdot 2^2/2=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_1^4 \\frac{x+1}{\\sqrt x}\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_1^4 \\frac{x+1}{\\sqrt x}\\,dx\\approx 6{,}667\\).</p><p><strong>Svar:</strong> 6,67</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Bestämma integrationsgräns digitalt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.67,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.997",
@@ -85607,29 +85827,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^5 6\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 5 och höjd 6: \\(6\\cdot5=30\\).</p><p><strong>Svar:</strong> 30</p>",
+    "t": "<p>Beräkna \\(\\int_2^3 3x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^3\\).</p><p>\\(3^3-2^3=19\\).</p><p><strong>Svar:</strong> 19</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 30,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(3x^2\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Integral som geometrisk area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.999",
@@ -85641,28 +85861,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+5)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -5 och -3; det minsta är -5.</p><p><strong>Svar:</strong> -5</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+3)(x-2)\\). För vilka x är \\(f\\) avtagande?</p>",
+    "s": "<p>Derivatan är negativ mellan nollställena −3 och 2.</p><p><strong>Svar:</strong> \\(-3\\lt x\\lt 2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -5,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>En funktion är avtagande där derivatan är negativ.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Klassificera extrempunkter från derivatans graf"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(-3\\lt x\\lt 2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x\\lt -3\\) eller \\(x\\gt 2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\gt 2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\lt -3\\)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -85675,28 +85912,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-13)\\), där 5 och 13 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-3)(x-5)\\). För vilka x är \\(f\\) avtagande?</p>",
+    "s": "<p>Derivatan är negativ mellan nollställena 3 och 5.</p><p><strong>Svar:</strong> \\(3\\lt x\\lt 5\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>En funktion är avtagande där derivatan är negativ.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Klassificera extrempunkter från derivatans graf"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(3\\lt x\\lt 5\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x\\lt 3\\) eller \\(x\\gt 5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\gt 5\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\lt 3\\)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -85709,29 +85963,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-9)^2+9\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=9\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 9</p>",
+    "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+10t+1\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
+    "s": "<p>\\(h'(t)=-10t+10=0\\Rightarrow t=1\\).</p><p>\\(h(1)=6\\).</p><p><strong>Svar:</strong> 6 m</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm först när bollen är som högst, alltså när derivatan är noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Optimera rektangel under en parabel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.1002",
@@ -85743,29 +85999,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har omkretsen \\(68\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(34-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(34-x)=-x^2+34x\\). Parabelns symmetrilinje är \\(x=34/2=17\\).</p><p><strong>Svar:</strong> 17</p>",
+    "t": "<p>En rektangel har ett hörn i origo och det motsatta hörnet på linjen \\(y=10-2x\\), där \\(x\\gt0\\) och \\(y\\gt0\\). Bestäm det x som ger störst area.</p>",
+    "s": "<p>Arean är \\(A(x)=x(10-2x)=10x-2x^2\\).</p><p>\\(A'(x)=10-4x=0\\Rightarrow x=2{,}5\\).</p><p><strong>Svar:</strong> \\(x=2{,}5\\)</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 17,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Rektangelns höjd är y-värdet på linjen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Optimera rektangel under en parabel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1003",
@@ -85777,29 +86034,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^7 6\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 7 och höjd 6: \\(6\\cdot7=42\\).</p><p><strong>Svar:</strong> 42</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_1^3 \\frac1x\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_1^3 \\frac1x\\,dx\\approx 1{,}099\\).</p><p><strong>Svar:</strong> 1,1</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 42,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Beräkna integral digitalt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.1,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1004",
@@ -85811,29 +86068,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^2 6\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 6: \\(6\\cdot2=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_0^1 e^{-x^2}\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_0^1 e^{-x^2}\\,dx\\approx 0{,}747\\).</p><p><strong>Svar:</strong> 0,75</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Sträcka från en hastighetsmodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.75,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1005",
@@ -85845,29 +86102,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^10 8x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{8}2x^2\\). Värdet blir \\(8\\cdot 10^2/2=400\\).</p><p><strong>Svar:</strong> 400</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_0^5 \\frac{10}{1+x^2}\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_0^5 \\frac{10}{1+x^2}\\,dx\\approx 13{,}734\\).</p><p><strong>Svar:</strong> 13,73</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 400,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Sträcka från en hastighetsmodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.73,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1006",
@@ -85879,29 +86136,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^10 7\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 10 och höjd 7: \\(7\\cdot10=70\\).</p><p><strong>Svar:</strong> 70</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_0^2 xe^{x}\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_0^2 xe^{x}\\,dx\\approx 8{,}389\\).</p><p><strong>Svar:</strong> 8,39</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 70,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Area mellan två grafer digitalt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.39,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1007",
@@ -85913,29 +86170,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^2 9x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 2^2/2=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_{-1}^{2} e^{0,5x}\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_{-1}^{2} e^{0,5x}\\,dx\\approx 4{,}224\\).</p><p><strong>Svar:</strong> 4,22</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 18,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Area mellan två grafer digitalt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.22,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1008",
@@ -85947,29 +86204,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Använd ett digitalt verktyg för att beräkna  \\(\\int_0^6 6\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 6: \\(6\\cdot6=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "t": "<p>Använd ett digitalt verktyg för att beräkna \\(\\int_0^3 \\sqrt{x+1}\\,dx\\). Svara med två decimaler.</p>",
+    "s": "<p>Med ett digitalt verktyg, till exempel kommandot Integral i GeoGebra, får man \\(\\int_0^3 \\sqrt{x+1}\\,dx\\approx 4{,}667\\).</p><p><strong>Svar:</strong> 4,67</p>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": true,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 36,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Skriv in funktionen och gränserna i integralkommandot.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler_digitalt"
     ],
     "familjTidigare": [
       "Area mellan logaritmkurva och linje"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.67,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1009",
@@ -86015,29 +86272,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=2\\) ger \\(C=2\\). Alltså \\(F(2)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=4x^3\\) och \\(F(1)=5\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p>\\(F(x)=x^4+C\\). \\(F(1)=1+C=5\\) ger \\(C=4\\).</p><p>\\(F(2)=16+4=20\\).</p><p><strong>Svar:</strong> 20</p>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm C med villkoret innan du sätter in x = 2.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Bestäm primitiv funktion med villkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1011",
@@ -86049,29 +86306,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=9x^2\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=3x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(2)=26\\).</p><p><strong>Svar:</strong> 26</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=e^x\\) och \\(F(0)=4\\). Bestäm \\(F(1)\\) med två decimaler.</p>",
+    "s": "<p>\\(F(x)=e^x+C\\). \\(F(0)=1+C=4\\) ger \\(C=3\\).</p><p>\\(F(1)=e+3\\approx5{,}72\\).</p><p><strong>Svar:</strong> 5,72</p>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 26,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "ledtrad": "<p>\\(e^x\\) är sin egen primitiva funktion.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Bestäm primitiv funktion med villkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.72,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1012",
@@ -86083,29 +86340,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=4x\\) och \\(F(0)=3\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=2x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(2)=11\\).</p><p><strong>Svar:</strong> 11</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=6x^2-2x\\) och \\(F(1)=2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p>\\(F(x)=2x^3-x^2+C\\).</p><p>\\(F(1)=1+C=2\\Rightarrow C=1\\).</p><p>\\(F(2)=16-4+1=13\\).</p><p><strong>Svar:</strong> 13</p>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 11,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Primitiv funktion med startvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1013",
@@ -86117,29 +86374,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=-1\\) fås \\(C=-1\\). Då är \\(F(1)=0\\).</p><p><strong>Svar:</strong> 0</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=4x^3\\) och \\(F(1)=3\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p>\\(F(x)=x^4+C\\). \\(F(1)=1+C=3\\) ger \\(C=2\\).</p><p>\\(F(2)=16+2=18\\).</p><p><strong>Svar:</strong> 18</p>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "ledtrad": "<p>Bestäm C med villkoret innan du sätter in x = 2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Primitiv funktion med startvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1014",
@@ -86151,29 +86408,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=3\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=3\\) ger \\(C=3\\). Alltså \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>En leksaksbil har hastigheten \\(v(t)=4t\\) m/s. Vid \\(t=0\\) befinner den sig 2 m från startlinjen. Hur långt från startlinjen är den när \\(t=2\\)?</p>",
+    "s": "<p>\\(s(t)=2t^2+C\\) och \\(s(0)=2\\) ger \\(C=2\\).</p><p>\\(s(2)=10\\) m.</p><p><strong>Svar:</strong> 10 m</p>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Läget är en primitiv funktion till hastigheten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Primitiv funktion till exponentialfunktion med bas a"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.1015",
@@ -86185,29 +86444,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(2)=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Grafen till en primitiv funktion \\(F\\) till \\(f(x)=2x+1\\) går genom punkten \\((1,\\,9)\\). Bestäm konstanten \\(C\\) i \\(F(x)=x^2+x+C\\).</p>",
+    "s": "<p>\\(F(1)=1+1+C=9\\Rightarrow C=7\\).</p><p><strong>Svar:</strong> \\(C=7\\)</p>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Sätt in punktens koordinater i \\(F(x)\\).</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Primitiv funktion till exponentialfunktion med bas a"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1016",
@@ -86219,29 +86478,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x^2\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=2x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(1)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>Vatten rinner in i en tank med hastigheten \\(q(t)=4t\\) liter per minut. Från början finns 10 liter i tanken. Hur mycket vatten finns efter 3 minuter?</p>",
+    "s": "<p>\\(V(t)=2t^2+C\\) och \\(V(0)=10\\).</p><p>\\(V(3)=28\\) liter.</p><p><strong>Svar:</strong> 28 liter</p>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "ledtrad": "<p>Volymen är en primitiv funktion till inflödet. Startvolymen bestämmer konstanten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Enkel primitiv funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1017",
@@ -86253,29 +86514,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^5 8\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 5 och höjd 8: \\(8\\cdot5=40\\).</p><p><strong>Svar:</strong> 40</p>",
+    "t": "<p>Beräkna \\(\\int_0^4 (-4)\\,dx\\) och förklara varför svaret blir negativt.</p>",
+    "s": "<p>Integranden är konstant: \\(-4\\cdot(4-0)=-16\\).</p><p>Grafen ligger under x-axeln, så integralen blir negativ trots att arean är positiv.</p><p><strong>Svar:</strong> −16</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 40,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var ligger grafen till \\(y=-4\\) i förhållande till x-axeln?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Integral från enkel graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -16,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1018",
@@ -86287,29 +86549,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+3)(x-6)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -3 och 6; det minsta är -3.</p><p><strong>Svar:</strong> -3</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-x-30\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Faktorisera derivatan: \\(f'(x)=(x+5)(x-6)\\). Nollställena är −5 och 6.</p><p>Derivatan går från plus till minus vid \\(x=-5\\), så där är maximipunkten.</p><p><strong>Svar:</strong> \\(x=-5\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lös \\(f'(x)=0\\) först, till exempel genom att faktorisera.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Läsa extrempunkt från derivatans graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1019",
@@ -86321,29 +86583,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=8x^2+4\\). Tangenten dras vid \\(x=3\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=48\\) och punkten är \\((3,76)\\). Då \\(76=48\\cdot3+m\\), vilket ger \\(m=-68\\).</p><p><strong>Svar:</strong> -68</p>",
+    "t": "<p>Tangenten till \\(f(x)=x^2\\) i punkten där \\(x=3\\) skär x-axeln. Bestäm skärningspunktens x-koordinat.</p>",
+    "s": "<p>Tangenten är \\(y=6x-9\\).</p><p>\\(y=0\\Rightarrow x=1{,}5\\).</p><p><strong>Svar:</strong> \\(x=1{,}5\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -68,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm tangentens ekvation först och sätt sedan y = 0.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Bestäm tangent till kubisk funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1020",
@@ -86355,29 +86617,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2x^2+5\\). Tangenten dras vid \\(x=4\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=16\\) och punkten är \\((4,37)\\). Då \\(37=16\\cdot4+m\\), vilket ger \\(m=-27\\).</p><p><strong>Svar:</strong> -27</p>",
+    "t": "<p>Bestäm det x-värde där tangenten till \\(f(x)=x^2-6x\\) har lutningen 4.</p>",
+    "s": "<p>\\(f'(x)=2x-6=4\\Rightarrow x=5\\).</p><p><strong>Svar:</strong> \\(x=5\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -27,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "ledtrad": "<p>Tangentens lutning är derivatans värde.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Bestäm tangent till kubisk funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1021",
@@ -86389,29 +86651,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 3\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 3: \\(3\\cdot6=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "t": "<p>Bestäm den övre gränsen \\(b\\) så att \\(\\int_0^b 4\\,dx=16\\).</p>",
+    "s": "<p>\\(\\int_0^b 4\\,dx=4b\\).</p><p>\\(4b=16\\Rightarrow b=4\\).</p><p><strong>Svar:</strong> \\(b=4\\)</p>",
     "familj": "Area mellan två grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 18,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Beräkna integralen uttryckt i b och lös ekvationen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Area mellan två kurvor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1022",
@@ -86423,29 +86685,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 6x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{6}2x^2\\). Värdet blir \\(6\\cdot 6^2/2=108\\).</p><p><strong>Svar:</strong> 108</p>",
+    "t": "<p>Beräkna arean av området som begränsas av linjen \\(y=3x\\), x-axeln och linjen \\(x=4\\).</p>",
+    "s": "<p>\\(\\int_0^43x\\,dx=\\left[\\frac{3x^2}{2}\\right]_0^4=24\\).</p><p><strong>Svar:</strong> 24 areaenheter</p>",
     "familj": "Area mellan två grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 108,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Skriv arean som en integral från 0 till 4.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Area mellan två kurvor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1023",
@@ -86525,28 +86787,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-20)^2+16\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=20\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>Ange värdemängden till \\(f(x)=-(x-2)^2+8\\).</p>",
+    "s": "<p>Funktionen har största värdet 8 och kan bli hur liten som helst.</p><p><strong>Svar:</strong> \\(y\\le 8\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilket är det största värdet? Finns något minsta värde?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Enkel optimering med derivata"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(y\\le 8\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(y\\ge 8\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(y\\le 2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "Alla reella tal",
+        "ratt": false
+      }
     ]
   },
   {
@@ -86559,29 +86838,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^3 9\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 9: \\(9\\cdot3=27\\).</p><p><strong>Svar:</strong> 27</p>",
+    "t": "<p>Beräkna \\(\\int_0^3 4x^3\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^4\\).</p><p>\\(3^4-0=81\\).</p><p><strong>Svar:</strong> 81</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 27,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(4x^3\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Begrepp om bestämd integral"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 81,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1027",
@@ -86593,29 +86872,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 4x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 6^2/2=72\\).</p><p><strong>Svar:</strong> 72</p>",
+    "t": "<p>Integralen \\(\\int_0^5 2x\\,dx\\) kan tolkas som arean av en triangel. Bestäm integralens värde genom att beräkna triangelns area.</p>",
+    "s": "<p>Triangeln har basen 5 och höjden \\(2\\cdot5=10\\).</p><p>Area: \\(\\frac{5\\cdot10}{2}=25\\).</p><p><strong>Svar:</strong> 25</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 72,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen till \\(y=2x\\). Vilken figur bildas under grafen?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Begrepp om bestämd integral"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1028",
@@ -86627,29 +86907,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^9 4\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 4: \\(4\\cdot9=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "t": "<p>Beräkna \\(\\int_0^4(6x+3)\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(F(x)=3x^2+3x\\).</p><p>\\(F(4)-F(0)=60\\).</p><p><strong>Svar:</strong> 60</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 36,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Derivata av ackumulationsfunktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 60.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1029",
@@ -86661,29 +86941,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^12 9x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 12^2/2=648\\).</p><p><strong>Svar:</strong> 648</p>",
+    "t": "<p>Tolka \\(\\int_1^5 4x\\,dx\\) som en area och bestäm integralens värde.</p>",
+    "s": "<p>Området är ett parallelltrapets med de parallella sidorna \\(4\\) och \\(20\\) och höjden \\(4\\).</p><p>Area: \\(\\frac{(4+20)\\cdot4}{2}=48\\).</p><p><strong>Svar:</strong> 48</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 648,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Området under en rät linje mellan två x-värden är ett parallelltrapets.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Derivata av ackumulationsfunktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 48.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1030",
@@ -86695,29 +86976,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 11\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 8 och höjd 11: \\(11\\cdot8=88\\).</p><p><strong>Svar:</strong> 88</p>",
+    "t": "<p>Beräkna \\(\\int_0^6 x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(\\frac{x^3}{3}\\).</p><p>\\(\\frac{6^3}{3}-0=72\\).</p><p><strong>Svar:</strong> 72</p>",
     "familj": "Area mellan två grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 88,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Area mellan parabel och linje"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 72.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1031",
@@ -86729,29 +87010,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 2x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{2}2x^2\\). Värdet blir \\(2\\cdot 6^2/2=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "t": "<p>Bestäm \\(\\int_{-2}^{2} 3x\\,dx\\) utan att beräkna någon primitiv funktion.</p>",
+    "s": "<p>Grafen är en rät linje genom origo. Området till vänster om origo ligger under x-axeln och är lika stort som området till höger, som ligger ovanför.</p><p>Bidragen tar ut varandra.</p><p><strong>Svar:</strong> 0</p>",
     "familj": "Area mellan två grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 36,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen och jämför områdena på var sin sida om origo.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Area mellan parabel och linje"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1032",
@@ -86899,29 +87181,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 6 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(6\\cdot5=30\\) liter.</p><p><strong>Svar:</strong> 30</p>",
+    "t": "<p>Ett flöde ökar med tiden och är \\(q(t)=2t+1\\) liter/minut. Hur många liter passerar under de första 4 minuterna?</p>",
+    "s": "<p>\\(\\int_0^4(2t+1)\\,dt=\\left[1t^2+1t\\right]_0^4=20\\).</p><p><strong>Svar:</strong> 20 liter</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 30,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Mängden är arean under flödesgrafen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Integral som ackumulerad förbrukning"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1037",
@@ -86967,28 +87250,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-6)(x-12)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 6 och 12; det minsta är 6.</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>För en funktion gäller \\(f'(x)=3(x+4)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-4\\)?</p>",
+    "s": "<p>Derivatan är negativ för \\(x\\lt -4\\) och positiv för \\(x\\gt -4\\).</p><p>Funktionen avtar och växer sedan, alltså ett minimum.</p><p><strong>Svar:</strong> Ett lokalt minimum.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
+    "ledtrad": "<p>Vilket tecken har derivatan strax till vänster och strax till höger om punkten?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Globalt min/max på slutet intervall"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ett lokalt minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Ett lokalt maximum",
+        "ratt": false
+      },
+      {
+        "txt": "En terrasspunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -87001,29 +87297,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-1)(x-9)\\), där 1 och 9 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=x^2-36\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Faktorisera derivatan: \\(f'(x)=(x+6)(x-6)\\). Nollställena är −6 och 6.</p><p>Derivatan går från plus till minus vid \\(x=-6\\), så där är maximipunkten.</p><p><strong>Svar:</strong> \\(x=-6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Lös \\(f'(x)=0\\) först, till exempel genom att faktorisera.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Globalt min/max på slutet intervall"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1040",
@@ -87035,29 +87331,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 4 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(4\\cdot4=16\\) liter.</p><p><strong>Svar:</strong> 16</p>",
+    "t": "<p>En slang ger först 3 liter/minut i 5 minuter och sedan 1 liter/minut i 4 minuter. Hur många liter har runnit ut totalt?</p>",
+    "s": "<p>\\(3\\cdot5+1\\cdot4=19\\).</p><p><strong>Svar:</strong> 19 liter</p>",
     "familj": "Tolka integraler i tillämpningar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "ledtrad": "<p>Beräkna varje tidsperiod för sig och addera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Tolka integral av hastighet"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 19,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1041",
@@ -87103,29 +87400,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^3 11\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 11: \\(11\\cdot3=33\\).</p><p><strong>Svar:</strong> 33</p>",
+    "t": "<p>Beräkna \\(\\int_1^3 3x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^3\\).</p><p>\\(3^3-1^3=26\\).</p><p><strong>Svar:</strong> 26</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 33,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(3x^2\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Integrera exponentialfunktion exakt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1043",
@@ -87137,29 +87434,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 4x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 8^2/2=128\\).</p><p><strong>Svar:</strong> 128</p>",
+    "t": "<p>Bestäm \\(\\int_{-2}^{0} 6x\\,dx\\).</p>",
+    "s": "<p>Området mellan grafen och x-axeln är en triangel med arean \\(\\frac{2\\cdot12}{2}=12\\).</p><p>Det ligger under x-axeln, så integralen är negativ.</p><p><strong>Svar:</strong> −12</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 128,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Ligger grafen ovanför eller under x-axeln när x är negativt?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Integrera exponentialfunktion exakt"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -12.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1044",
@@ -87171,29 +87469,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+2\\). Därför \\(v(2)=14\\) m/s.</p><p><strong>Svar:</strong> 14</p>",
+    "t": "<p>Antalet invånare i en ort beskrivs av \\(N(t)=4000+10t+t^2\\), där \\(t\\) är år efter 2020. Med hur många invånare per år ökar befolkningen år 2023?</p>",
+    "s": "<p>\\(N'(t)=10+2t\\) och \\(N'(3)=16\\).</p><p><strong>Svar:</strong> 16 invånare per år</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 14,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilket t-värde motsvarar år 2023?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Bestäm värdemängd för derivata"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1045",
@@ -87205,29 +87504,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+5\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(2)=12\\) m/s.</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>Kostnaden för att tillverka \\(x\\) stolar är \\(K(x)=0,5x^2+10x+2000\\) kr. Bestäm marginalkostnaden \\(K'(40)\\) och tolka den.</p>",
+    "s": "<p>\\(K'(x)=x+10\\), så \\(K'(40)=50\\).</p><p>När 40 stolar tillverkas kostar ungefär en stol till 50 kr.</p><p><strong>Svar:</strong> 50 kr per stol</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "ledtrad": "<p>Marginalkostnaden är derivatan av kostnadsfunktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Bestäm värdemängd för derivata"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "3.1046",
@@ -87239,29 +87540,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 5 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(5\\cdot4=20\\) liter.</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>En pump fyller en bassäng med 4 liter per minut. Hur lång tid tar det att fylla 60 liter?</p>",
+    "s": "<p>\\(4\\cdot t=60\\Rightarrow t=15\\) minuter.</p><p><strong>Svar:</strong> 15 minuter</p>",
     "familj": "Sträcka och förflyttning från hastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "ledtrad": "<p>Mängden är flöde gånger tid.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Ackumulera förändringshastighet med integral"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "minuter"
   },
   {
     "id": "3.1047",
@@ -87307,29 +87609,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-11)^2+9\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=11\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 11</p>",
+    "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+60x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
+    "s": "<p>\\(V'(x)=-4x+60=0\\Rightarrow x=15\\).</p><p>\\(V(15)=-2\\cdot15^2+60\\cdot15-50=400\\) kr.</p><p><strong>Svar:</strong> 400 kr</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 11,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Klassiskt extremvärdesproblem med två tal"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
   },
   {
     "id": "3.1049",
@@ -87375,29 +87679,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 5 liter/minut under 3 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(5\\cdot3=15\\) liter.</p><p><strong>Svar:</strong> 15</p>",
+    "t": "<p>En elvärmare har effekten 3 kW och är på i 2 timmar. Hur mycket energi förbrukas i kWh?</p>",
+    "s": "<p>Energin är arean under effektgrafen: \\(3\\cdot2=6\\) kWh.</p><p><strong>Svar:</strong> 6 kWh</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "ledtrad": "<p>Energi = effekt · tid när effekten är konstant.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Jämför integral med diskret summa"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kWh"
   },
   {
     "id": "3.1051",
@@ -87443,29 +87748,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x\\) och \\(F(0)=1\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=3x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(2)=13\\).</p><p><strong>Svar:</strong> 13</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=e^x\\) och \\(F(0)=4\\). Bestäm \\(F(1)\\) med två decimaler.</p>",
+    "s": "<p>\\(F(x)=e^x+C\\). \\(F(0)=1+C=4\\) ger \\(C=3\\).</p><p>\\(F(1)=e+3\\approx5{,}72\\).</p><p><strong>Svar:</strong> 5,72</p>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 13,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>\\(e^x\\) är sin egen primitiva funktion.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Primitiva funktioner"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.72,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1053",
@@ -87477,29 +87782,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-19)^2+12\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=19\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 19</p>",
+    "t": "<p>Funktionen är \\(f(x)=-(x-5)^2+10\\). Vilket är funktionens största värde?</p>",
+    "s": "<p>Kvadraten är minst 0, så \\(f(x)\\le 10\\). Värdet 10 antas när \\(x=5\\).</p><p><strong>Svar:</strong> 10</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 19,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
+    "ledtrad": "<p>Hur stor kan \\(-(x-5)^2\\) som mest bli?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Maximera area med derivata"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1054",
@@ -87511,29 +87816,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 12\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 12: \\(12\\cdot6=72\\).</p><p><strong>Svar:</strong> 72</p>",
+    "t": "<p>Beräkna \\(\\int_0^4 (-3)\\,dx\\) och förklara varför svaret blir negativt.</p>",
+    "s": "<p>Integranden är konstant: \\(-3\\cdot(4-0)=-12\\).</p><p>Grafen ligger under x-axeln, så integralen blir negativ trots att arean är positiv.</p><p><strong>Svar:</strong> −12</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 72,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var ligger grafen till \\(y=-3\\) i förhållande till x-axeln?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestämd integral"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1055",
@@ -87545,29 +87851,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -8 och -3; det minsta är -8.</p><p><strong>Svar:</strong> -8</p>",
+    "t": "<p>Vattennivån i en damm under ett dygn beskrivs av \\(h(t)\\), där \\(t\\) är tiden i timmar. Nivåns förändringshastighet är \\(h'(t)=(t-5)(t-8)\\) cm/h.</p><p>Vid vilken tidpunkt har vattennivån ett lokalt minimum?</p>",
+    "s": "<p>\\(h'(t)=0\\) för \\(t=5\\) och \\(t=8\\). Mellan dem är \\(h'(t)\\lt0\\) och efter \\(t=8\\) är \\(h'(t)\\gt0\\).</p><p>Nivån sjunker och börjar sedan stiga vid \\(t=8\\).</p><p><strong>Svar:</strong> \\(t=8\\) h</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var går förändringshastigheten från negativ till positiv?</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Extrempunkter med derivata"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "h"
   },
   {
     "id": "3.1056",
@@ -87579,29 +87887,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+9)(x+1)\\), där -9 och -1 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-5)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-6\\) och \\(x=5\\). Den är positiv till vänster om −6, negativ mellan −6 och 5 och positiv till höger om 5.</p><p>Funktionen växer och avtar sedan vid \\(x=-6\\), så där finns en maximipunkt.</p><p><strong>Svar:</strong> \\(x=-6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Gör en teckentabell för derivatan. Var byter den tecken från plus till minus?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Extrempunkter med derivata"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1057",
@@ -87613,29 +87921,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=2x\\) och \\(F(0)=1\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(F(x)=x^2+C\\). Villkoret \\(F(0)=1\\) ger \\(C=1\\). Alltså \\(F(2)=5\\).</p><p><strong>Svar:</strong> 5</p>",
+    "t": "<p>Grafen till en primitiv funktion \\(F\\) till \\(f(x)=2x+1\\) går genom punkten \\((1,\\,9)\\). Bestäm konstanten \\(C\\) i \\(F(x)=x^2+x+C\\).</p>",
+    "s": "<p>\\(F(1)=1+1+C=9\\Rightarrow C=7\\).</p><p><strong>Svar:</strong> \\(C=7\\)</p>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten. Använd sedan villkoret för C.</p>",
+    "ledtrad": "<p>Sätt in punktens koordinater i \\(F(x)\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Kontrollera primitiv funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1058",
@@ -87647,29 +87955,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-7)(x-14)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är 7 och 14; det minsta är 7.</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-7)\\). Bestäm x-koordinaten för funktionens lokala maximipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-6\\) och \\(x=7\\). Den är positiv till vänster om −6, negativ mellan −6 och 7 och positiv till höger om 7.</p><p>Funktionen växer och avtar sedan vid \\(x=-6\\), så där finns en maximipunkt.</p><p><strong>Svar:</strong> \\(x=-6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Gör en teckentabell för derivatan. Var byter den tecken från plus till minus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Extrempunkter och karaktär"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1059",
@@ -87681,29 +87989,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-4)\\), där -2 och 4 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x+6)(x-4)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-6\\) och \\(x=4\\). Mellan dem är derivatan negativ och till höger om 4 positiv.</p><p>Funktionen avtar och växer sedan vid \\(x=4\\), så där finns en minimipunkt.</p><p><strong>Svar:</strong> \\(x=4\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Var byter derivatan tecken från minus till plus?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Extrempunkter och karaktär"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "4.429",
@@ -89094,29 +89402,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=9e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=36e^{4x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "t": "<p>Funktionen är \\(f(x)=3e^x\\). Bestäm \\(f'(1)\\) med två decimaler.</p>",
+    "s": "<p>\\(f'(x)=3e^x\\), så \\(f'(1)=3e\\approx8{,}15\\).</p><p><strong>Svar:</strong> 8,15</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 36,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "ledtrad": "<p>Derivatan av \\(e^x\\) är \\(e^x\\).</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Förenkla uttryck med exponentialfunktioner"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.15,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.749",
@@ -89128,29 +89436,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=8e^{6x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=48e^{6x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=48\\).</p><p><strong>Svar:</strong> 48</p>",
+    "t": "<p>Funktionen är \\(f(x)=e^{2x}+3x\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p>\\(f'(x)=2e^{2x}+3\\), så \\(f'(0)=2+3=5\\).</p><p><strong>Svar:</strong> 5</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 48,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "ledtrad": "<p>Derivera varje term för sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Förenkla uttryck med exponentialfunktioner"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.540",
@@ -89230,29 +89538,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^9 10\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 10: \\(10\\cdot9=90\\).</p><p><strong>Svar:</strong> 90</p>",
+    "t": "<p>Bestäm den övre gränsen \\(b\\) så att \\(\\int_0^b 3\\,dx=12\\).</p>",
+    "s": "<p>\\(\\int_0^b 3\\,dx=3b\\).</p><p>\\(3b=12\\Rightarrow b=4\\).</p><p><strong>Svar:</strong> \\(b=4\\)</p>",
     "familj": "Beräkna bestämda integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 90,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Beräkna integralen uttryckt i b och lös ekvationen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Beräkna bestämd integral"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1061",
@@ -89264,29 +89572,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 2 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(2\\cdot5=10\\) liter.</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Flödet ut ur ett kärl avtar och är \\(q(t)=12-2t\\) liter/minut för \\(0\\le t\\le6\\). Hur många liter rinner ut under den tiden?</p>",
+    "s": "<p>\\(\\int_0^6(12-2t)\\,dt=\\left[12t-t^2\\right]_0^6=36\\).</p><p><strong>Svar:</strong> 36 liter</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ställ upp en integral av flödet över tidsintervallet.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Bestäm parameter ur integralarea"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1062",
@@ -89298,29 +89607,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+1\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
-    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(t+1)\\,dt=[1/2\\,t^2+t]_0^4=12\\) liter.</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>En elvärmare har effekten 2 kW och är på i 3 timmar. Hur mycket energi förbrukas i kWh?</p>",
+    "s": "<p>Energin är arean under effektgrafen: \\(2\\cdot3=6\\) kWh.</p><p><strong>Svar:</strong> 6 kWh</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Energi = effekt · tid när effekten är konstant.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Bestäm parameter ur integralarea"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kWh"
   },
   {
     "id": "2.750",
@@ -89433,29 +89743,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=4e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=4\\).</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>Funktionen är \\(f(x)=6e^{0,5x}\\). I en punkt på grafen är \\(f(x)=18\\). Bestäm tangentens lutning i punkten.</p>",
+    "s": "<p>\\(f'(x)=0,5\\cdot6e^{0,5x}=0,5f(x)\\).</p><p>Lutningen är \\(0,5\\cdot18=9\\).</p><p><strong>Svar:</strong> 9</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Jämför \\(f'(x)\\) med \\(f(x)\\). Du behöver inte bestämma x.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Tolka derivata i exponentialmodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.753",
@@ -89467,29 +89777,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=10e^{5x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=50e^{5x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=50\\).</p><p><strong>Svar:</strong> 50</p>",
+    "t": "<p>Massan av ett ämne är \\(m(t)=10e^{-0,2t}\\) gram efter \\(t\\) timmar. Bestäm \\(m'(0)\\) och tolka svaret.</p>",
+    "s": "<p>\\(m'(t)=-0,2\\cdot10e^{-0,2t}\\), så \\(m'(0)=-2\\).</p><p>Massan minskar med 2 gram per timme vid start.</p><p><strong>Svar:</strong> −2 g/h</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 50,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "ledtrad": "<p>Glöm inte minustecknet i exponenten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Tolka derivata i exponentialmodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -2.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.754",
@@ -89501,29 +89812,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+2t+2\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+2\\). Därför \\(v(2)=10\\) m/s.</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>En boll kastas uppåt. Höjden är \\(h(t)=15t-5t^2\\) meter. Bestäm bollens hastighet efter 1 sekund. Är bollen på väg upp eller ner?</p>",
+    "s": "<p>\\(h'(t)=15-10t\\), så \\(h'(1)=5\\) m/s.</p><p>Hastigheten är positiv, så bollen är på väg upp.</p><p><strong>Svar:</strong> 5 m/s, uppåt</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Hastigheten är derivatan av höjden. Vad betyder tecknet?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Utvärdera giltighetsområde för modell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m/s"
   },
   {
     "id": "2.755",
@@ -89535,29 +89847,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=3t^2+4t+0\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=6t+4\\). Därför \\(v(2)=16\\) m/s.</p><p><strong>Svar:</strong> 16</p>",
+    "t": "<p>En cyklists läge är \\(s(t)=t^2+2t\\) meter efter \\(t\\) sekunder. När är hastigheten 10 m/s?</p>",
+    "s": "<p>\\(v(t)=s'(t)=2t+2\\).</p><p>\\(2t+2=10\\Rightarrow t=4\\) s.</p><p><strong>Svar:</strong> \\(t=4\\) s</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 16,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
+    "ledtrad": "<p>Bestäm hastighetsfunktionen och lös en ekvation.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Utvärdera giltighetsområde för modell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
   },
   {
     "id": "2.756",
@@ -89603,29 +89916,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=5e^{2x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10e^{2x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=10\\).</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Antalet bakterier är \\(N(t)=300e^{0,1t}\\) efter \\(t\\) timmar. Hur snabbt växer antalet vid start?</p>",
+    "s": "<p>\\(N'(t)=30e^{0,1t}\\), så \\(N'(0)=30\\).</p><p><strong>Svar:</strong> 30 bakterier per timme</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vid start är t = 0.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Tangent parallell med sekant för exponentialfunktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.758",
@@ -89637,29 +89951,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=10e^{6x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=60e^{6x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=60\\).</p><p><strong>Svar:</strong> 60</p>",
+    "t": "<p>Funktionen är \\(f(x)=2e^x\\). Bestäm \\(f'(1)\\) med två decimaler.</p>",
+    "s": "<p>\\(f'(x)=2e^x\\), så \\(f'(1)=2e\\approx5{,}44\\).</p><p><strong>Svar:</strong> 5,44</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 60,
-    "tolerans": null,
+    "miniräknare": true,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Derivatan av \\(e^x\\) är \\(e^x\\).</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Tangent parallell med sekant för exponentialfunktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.44,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1063",
@@ -89671,29 +89985,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=-2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=-2\\) fås \\(C=-2\\). Då är \\(F(2)=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=6x^2-2x\\) och \\(F(1)=2\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p>\\(F(x)=2x^3-x^2+C\\).</p><p>\\(F(1)=1+C=2\\Rightarrow C=1\\).</p><p>\\(F(2)=16-4+1=13\\).</p><p><strong>Svar:</strong> 13</p>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Bestäm alla primitiva funktioner"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.759",
@@ -89804,29 +90118,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-9)^2+28\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=9\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 9</p>",
+    "t": "<p>Bestäm det x-värde där \\(f(x)=-x^2+2x+11\\) har sitt största värde.</p>",
+    "s": "<p>\\(f'(x)=-2x+2=0\\Rightarrow x=1\\). Andragradstermen är negativ, så det är ett maximum.</p><p><strong>Svar:</strong> \\(x=1\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Derivera och sätt derivatan lika med noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm värdemängd i extremvärdesproblem"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1065",
@@ -89838,29 +90152,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(24\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(12-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(12-x)=-x^2+12x\\). Parabelns symmetrilinje är \\(x=12/2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>En rektangulär hage ska byggas mot en vägg. Väggen ersätter en långsida, och 40 m stängsel räcker till de tre andra sidorna. Hur långa ska sidorna vinkelräta mot väggen vara för att arean ska bli så stor som möjligt?</p>",
+    "s": "<p>Kalla de vinkelräta sidorna x. Då blir långsidan \\(40-2x\\) och arean \\(A(x)=x(40-2x)\\).</p><p>\\(A'(x)=40-4x=0\\Rightarrow x=10\\) m.</p><p><strong>Svar:</strong> 10 m</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Uttryck den sida som är parallell med väggen med hjälp av x.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm värdemängd i extremvärdesproblem"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 10.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.1066",
@@ -89974,29 +90290,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+2t+0\\) meter. Bestäm hastigheten vid \\(t=2\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=2t+2\\). Därför \\(v(2)=6\\) m/s.</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Temperaturen i en ugn är \\(T(t)=20+6t-0,5t^2\\) °C efter \\(t\\) minuter. Hur snabbt ökar temperaturen när \\(t=3\\)?</p>",
+    "s": "<p>\\(T'(t)=6-t\\), så \\(T'(3)=3\\).</p><p><strong>Svar:</strong> 3 °C per minut</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Derivera temperaturfunktionen term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Utvärdera giltighetsområde för polynommodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.764",
@@ -90008,29 +90324,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=6x^2+5\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-12\\) och punkten är \\((-1,11)\\). Då \\(11=-12\\cdot-1+m\\), vilket ger \\(m=-1\\).</p><p><strong>Svar:</strong> -1</p>",
+    "t": "<p>Tangenten till \\(f(x)=x^2\\) i punkten där \\(x=3\\) skär x-axeln. Bestäm skärningspunktens x-koordinat.</p>",
+    "s": "<p>Tangenten är \\(y=6x-9\\).</p><p>\\(y=0\\Rightarrow x=1{,}5\\).</p><p><strong>Svar:</strong> \\(x=1{,}5\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -1,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm tangentens ekvation först och sätt sedan y = 0.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Koppla derivata till linjär funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.542",
@@ -90076,29 +90392,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Uttrycket \\(\\frac{x^2-9}{x-3}\\) kan förkortas när \\(x\\neq 3\\). Vilket värde får det för \\(x=2\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-3)(x+3)\\). Efter förkortning återstår \\(x+3\\). För \\(x=2\\) blir värdet 5.</p><p><strong>Svar:</strong> 5</p>",
+    "t": "<p>Förkorta \\(\\frac{x^2+5x}{x}\\) och bestäm uttryckets värde för \\(x=3\\).</p>",
+    "s": "<p>Efter faktorisering och förkortning återstår \\(x+5\\).</p><p>För \\(x=3\\) blir värdet 8.</p><p><strong>Svar:</strong> 8</p>",
     "familj": "Förkorta rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bryt ut x i täljaren.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Förenkla komplext bråk"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.544",
@@ -90110,29 +90426,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Uttrycket \\(\\frac{x^2-4}{x-2}\\) kan förkortas när \\(x\\neq 2\\). Vilket värde får det för \\(x=1\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-2)(x+2)\\). Efter förkortning återstår \\(x+2\\). För \\(x=1\\) blir värdet 3.</p><p><strong>Svar:</strong> 3</p>",
+    "t": "<p>Förkorta \\(\\frac{x^2-5x+6}{x-2}\\) och bestäm uttryckets värde för \\(x=5\\).</p>",
+    "s": "<p>Efter faktorisering och förkortning återstår \\(x-3\\).</p><p>För \\(x=5\\) blir värdet 2.</p><p><strong>Svar:</strong> 2</p>",
     "familj": "Förkorta rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "ledtrad": "<p>Faktorisera täljaren: vilka två tal har summan −5 och produkten 6?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Förenkla komplext bråk"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.765",
@@ -90178,29 +90494,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2x^2+7\\). Tangenten dras vid \\(x=0\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=0\\) och punkten är \\((0,7)\\). Då \\(7=0\\cdot0+m\\), vilket ger \\(m=7\\).</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>Kurvan \\(y=x^3\\) har en tangent som är parallell med linjen \\(y=27x+1\\) i en punkt med positiv x-koordinat. Bestäm x-koordinaten.</p>",
+    "s": "<p>Parallella linjer har samma lutning: \\(3x^2=27\\Rightarrow x^2=9\\).</p><p>Den positiva lösningen är \\(x=3\\).</p><p><strong>Svar:</strong> \\(x=3\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Sätt derivatan lika med linjens lutning.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Bestäm derivata från tangentens ekvation"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.767",
@@ -90509,29 +90825,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=3e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=21e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=21\\).</p><p><strong>Svar:</strong> 21</p>",
+    "t": "<p>Funktionen är \\(f(x)=e^{2x}+3x\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p>\\(f'(x)=2e^{2x}+3\\), så \\(f'(0)=2+3=5\\).</p><p><strong>Svar:</strong> 5</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 21,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "ledtrad": "<p>Derivera varje term för sig.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Exponentialmodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.771",
@@ -90543,29 +90859,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=4e^{3x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=12e^{3x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>Funktionen är \\(f(x)=4e^{0,5x}\\). I en punkt på grafen är \\(f(x)=18\\). Bestäm tangentens lutning i punkten.</p>",
+    "s": "<p>\\(f'(x)=0,5\\cdot4e^{0,5x}=0,5f(x)\\).</p><p>Lutningen är \\(0,5\\cdot18=9\\).</p><p><strong>Svar:</strong> 9</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Jämför \\(f'(x)\\) med \\(f(x)\\). Du behöver inte bestämma x.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Förändringsfaktor från exponentialmodell"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.772",
@@ -90741,29 +91057,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^4 8\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 4 och höjd 8: \\(8\\cdot4=32\\).</p><p><strong>Svar:</strong> 32</p>",
+    "t": "<p>Beräkna \\(\\int_0^3 4x^3\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^4\\).</p><p>\\(3^4-0=81\\).</p><p><strong>Svar:</strong> 81</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 32,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(4x^3\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "area_med_integral"
     ],
     "familjTidigare": [
       "Area som differens mellan rektangel och integral"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 81,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1071",
@@ -91047,29 +91363,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^3 4\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 4: \\(4\\cdot3=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>Beräkna \\(\\int_0^3(2x+3)\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(F(x)=1x^2+3x\\).</p><p>\\(F(3)-F(0)=18\\).</p><p><strong>Svar:</strong> 18</p>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integral_egenskaper"
     ],
     "familjTidigare": [
       "Integral för linjär funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1073",
@@ -91081,29 +91397,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^4 7x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\). Värdet blir \\(7\\cdot 4^2/2=56\\).</p><p><strong>Svar:</strong> 56</p>",
+    "t": "<p>Beräkna arean av området som begränsas av linjen \\(y=5x\\), x-axeln och linjen \\(x=4\\).</p>",
+    "s": "<p>\\(\\int_0^45x\\,dx=\\left[\\frac{5x^2}{2}\\right]_0^4=40\\).</p><p><strong>Svar:</strong> 40 areaenheter</p>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 56,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Skriv arean som en integral från 0 till 4.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integral_egenskaper"
     ],
     "familjTidigare": [
       "Integral för linjär funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 40.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.773",
@@ -91149,29 +91465,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=4x^2+2\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-8\\) och punkten är \\((-1,6)\\). Då \\(6=-8\\cdot-1+m\\), vilket ger \\(m=-2\\).</p><p><strong>Svar:</strong> -2</p>",
+    "t": "<p>Bestäm det x-värde där tangenten till \\(f(x)=x^2-6x\\) har lutningen 2.</p>",
+    "s": "<p>\\(f'(x)=2x-6=2\\Rightarrow x=4\\).</p><p><strong>Svar:</strong> \\(x=4\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "ledtrad": "<p>Tangentens lutning är derivatans värde.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Konstruera andragradsfunktion från derivatavillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.559",
@@ -91245,29 +91561,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Uttrycket \\(\\frac{x^2-9}{x-3}\\) kan förkortas när \\(x\\neq 3\\). Vilket värde får det för \\(x=1\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-3)(x+3)\\). Efter förkortning återstår \\(x+3\\). För \\(x=1\\) blir värdet 4.</p><p><strong>Svar:</strong> 4</p>",
+    "t": "<p>Förkorta \\(\\frac{2x^2-8}{x+2}\\) och bestäm uttryckets värde för \\(x=4\\).</p>",
+    "s": "<p>Efter faktorisering och förkortning återstår \\(2(x-2)\\).</p><p>För \\(x=4\\) blir värdet 4.</p><p><strong>Svar:</strong> 4</p>",
     "familj": "Förkorta rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bryt ut 2 och använd konjugatregeln.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Förenkla rationella uttryck"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.562",
@@ -91279,29 +91595,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Uttrycket \\(\\frac{x^2-16}{x-4}\\) kan förkortas när \\(x\\neq 4\\). Vilket värde får det för \\(x=3\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-4)(x+4)\\). Efter förkortning återstår \\(x+4\\). För \\(x=3\\) blir värdet 7.</p><p><strong>Svar:</strong> 7</p>",
+    "t": "<p>Förkorta \\(\\frac{x^2+6x+9}{x+3}\\) och bestäm uttryckets värde för \\(x=2\\).</p>",
+    "s": "<p>Efter faktorisering och förkortning återstår \\(x+3\\).</p><p>För \\(x=2\\) blir värdet 5.</p><p><strong>Svar:</strong> 5</p>",
     "familj": "Förkorta rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Täljaren är en kvadrat.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Faktorisera och förenkla rationella uttryck"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.563",
@@ -91313,29 +91629,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Uttrycket \\(\\frac{x^2-9}{x-3}\\) kan förkortas när \\(x\\neq 3\\). Vilket värde får det för \\(x=3\\)?</p>",
-    "s": "<p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-3)(x+3)\\). Efter förkortning återstår \\(x+3\\). För \\(x=3\\) blir värdet 6.</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Förkorta \\(\\frac{x^3-x}{x^2-x}\\) och bestäm uttryckets värde för \\(x=4\\).</p>",
+    "s": "<p>Efter faktorisering och förkortning återstår \\(x+1\\).</p><p>För \\(x=4\\) blir värdet 5.</p><p><strong>Svar:</strong> 5</p>",
     "familj": "Förkorta rationella uttryck",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
+    "ledtrad": "<p>Bryt ut x i både täljare och nämnare.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Faktorisera och förenkla rationella uttryck"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1074",
@@ -91381,29 +91697,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+10)(x+7)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -10 och -7; det minsta är -10.</p><p><strong>Svar:</strong> -10</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-7)(x-8)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=7\\) och \\(x=8\\). Mellan dem är derivatan negativ och till höger om 8 positiv.</p><p>Funktionen avtar och växer sedan vid \\(x=8\\), så där finns en minimipunkt.</p><p><strong>Svar:</strong> \\(x=8\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var byter derivatan tecken från minus till plus?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Skissa graf från derivatans tecken"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "1.564",
@@ -91551,29 +91867,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+1)(x-8)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -1 och 8; det minsta är -1.</p><p><strong>Svar:</strong> -1</p>",
+    "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+3)(x-5)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-3\\) och \\(x=5\\). Minustecknet gör att derivatan är negativ till vänster om −3 och positiv mellan −3 och 5.</p><p>Alltså finns minimipunkten vid \\(x=-3\\).</p><p><strong>Svar:</strong> \\(x=-3\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -1,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Tänk på minustecknet framför produkten när du gör teckentabellen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Variant: monotoni och antal nollställen"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -3,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "2.779",
@@ -91585,29 +91901,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x-0)\\), där -8 och 0 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(g\\) har derivatan \\(g'(x)=-(x+2)(x-6)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=-2\\) och \\(x=6\\). Minustecknet gör att derivatan är negativ till vänster om −2 och positiv mellan −2 och 6.</p><p>Alltså finns minimipunkten vid \\(x=-2\\).</p><p><strong>Svar:</strong> \\(x=-2\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Tänk på minustecknet framför produkten när du gör teckentabellen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Variant: monotoni och antal nollställen"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1075",
@@ -91617,31 +91933,31 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-2)^2+7\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=2\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 2</p>",
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen \\(f(x)=-(x-4)^2+10\\) används bara för \\(0\\le x\\le3\\). Bestäm funktionens största värde i intervallet.</p>",
+    "s": "<p>Maximipunkten \\(x=4\\) ligger utanför intervallet. Funktionen är växande i hela intervallet,</p><p>så det största värdet antas i den högra ändpunkten: \\(f(3)=9\\).</p><p><strong>Svar:</strong> 9</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Ligger parabelns maximipunkt inom intervallet? Undersök annars ändpunkterna.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Variant: extremvärde och värdemängd"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1076",
@@ -91653,29 +91969,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(48\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(24-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(24-x)=-x^2+24x\\). Parabelns symmetrilinje är \\(x=24/2=12\\).</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>Två positiva tal har summan 40. Hur stor kan deras produkt högst bli?</p>",
+    "s": "<p>Talen är \\(x\\) och \\(40-x\\). Produkten \\(P(x)=x(40-x)\\).</p><p>\\(P'(x)=40-2x=0\\Rightarrow x=20\\), och \\(P=400\\).</p><p><strong>Svar:</strong> 400</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "ledtrad": "<p>Skriv det andra talet med hjälp av det första.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Variant: extremvärde och värdemängd"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 400,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1077",
@@ -91687,28 +92003,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=8x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=5\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=16x\\), så \\(f'(5)=80\\). Tangentens riktningskoefficient är 80.</p><p><strong>Svar:</strong> 80</p>",
+    "t": "<p>Bestäm tangentens ekvation till \\(f(x)=x^2+1\\) i punkten där \\(x=2\\). Ange \\(k\\) och \\(m\\) i \\(y=kx+m\\).</p>",
+    "s": "<p>\\(f'(2)=4\\) och \\(f(2)=5\\).</p><p>\\(5=4\\cdot2+m\\Rightarrow m=-3\\).</p><p><strong>Svar:</strong> \\(y=4x-3\\)</p>",
     "familj": "Tangentens lutning och punkt med given lutning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 80,
-    "tolerans": null,
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lutningen får du med derivatan och punkten med funktionsvärdet.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Variant: parallella tangenter i symmetriska nollställen"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "k",
+      "m"
     ]
   },
   {
@@ -91755,29 +92088,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=8e^{4x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=32e^{4x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=32\\).</p><p><strong>Svar:</strong> 32</p>",
+    "t": "<p>Massan av ett ämne är \\(m(t)=10e^{-0,2t}\\) gram efter \\(t\\) timmar. Bestäm \\(m'(0)\\) och tolka svaret.</p>",
+    "s": "<p>\\(m'(t)=-0,2\\cdot10e^{-0,2t}\\), så \\(m'(0)=-2\\).</p><p>Massan minskar med 2 gram per timme vid start.</p><p><strong>Svar:</strong> −2 g/h</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 32,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Glöm inte minustecknet i exponenten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Variant: bestäm lutning från funktionsvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -2.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1080",
@@ -91789,29 +92123,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=9e^{7x}\\). Bestäm \\(f'(0)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=63e^{7x}\\). Eftersom \\(e^0=1\\) blir \\(f'(0)=63\\).</p><p><strong>Svar:</strong> 63</p>",
+    "t": "<p>Antalet bakterier är \\(N(t)=300e^{0,1t}\\) efter \\(t\\) timmar. Hur snabbt växer antalet vid start?</p>",
+    "s": "<p>\\(N'(t)=30e^{0,1t}\\), så \\(N'(0)=30\\).</p><p><strong>Svar:</strong> 30 bakterier per timme</p>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 63,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Derivera e^(kx) till k e^(kx) och använd att e^0=1.</p>",
+    "ledtrad": "<p>Vid start är t = 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Variant: bestäm lutning från funktionsvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1081",
@@ -91823,29 +92158,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=5x^2-2\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-10\\) och punkten är \\((-1,3)\\). Då \\(3=-10\\cdot-1+m\\), vilket ger \\(m=-7\\).</p><p><strong>Svar:</strong> -7</p>",
+    "t": "<p>Kurvan \\(y=x^3\\) har en tangent som är parallell med linjen \\(y=12x+1\\) i en punkt med positiv x-koordinat. Bestäm x-koordinaten.</p>",
+    "s": "<p>Parallella linjer har samma lutning: \\(3x^2=12\\Rightarrow x^2=4\\).</p><p>Den positiva lösningen är \\(x=2\\).</p><p><strong>Svar:</strong> \\(x=2\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -7,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Sätt derivatan lika med linjens lutning.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Tolka tangentens ekvation"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1082",
@@ -91857,29 +92192,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=3x^2-4\\). Tangenten dras vid \\(x=4\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=24\\) och punkten är \\((4,44)\\). Då \\(44=24\\cdot4+m\\), vilket ger \\(m=-52\\).</p><p><strong>Svar:</strong> -52</p>",
+    "t": "<p>Tangenten till \\(f(x)=x^2+3x\\) dras i punkten där \\(x=-1\\). Var skär tangenten y-axeln?</p>",
+    "s": "<p>\\(f'(-1)=1\\) och \\(f(-1)=-2\\).</p><p>\\(-2=1\\cdot(-1)+m\\Rightarrow m=-1\\).</p><p><strong>Svar:</strong> I punkten \\((0,\\,-1)\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -52,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "ledtrad": "<p>Tangenten skär y-axeln i punkten (0, m).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Tolka tangentens ekvation"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1083",
@@ -91891,29 +92226,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=7x^2+5\\). Bestäm tangentens riktningskoefficient vid \\(x=4\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=14x\\), så \\(f'(4)=56\\). Tangentens riktningskoefficient är 56.</p><p><strong>Svar:</strong> 56</p>",
+    "t": "<p>Tangenten till \\(f(x)=x^2\\) i punkten där \\(x=3\\) skär x-axeln. Bestäm skärningspunktens x-koordinat.</p>",
+    "s": "<p>Tangenten är \\(y=6x-9\\).</p><p>\\(y=0\\Rightarrow x=1{,}5\\).</p><p><strong>Svar:</strong> \\(x=1{,}5\\)</p>",
     "familj": "Tangentens lutning och punkt med given lutning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 56,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm tangentens ekvation först och sätt sedan y = 0.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Bestäm tangent från given lutning"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1084",
@@ -91925,29 +92260,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=5x^2+7\\). Bestäm tangentens riktningskoefficient vid \\(x=2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> \\(f'(x)=10x\\), så \\(f'(2)=20\\). Tangentens riktningskoefficient är 20.</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>Bestäm det x-värde där tangenten till \\(f(x)=x^2-6x\\) har lutningen 2.</p>",
+    "s": "<p>\\(f'(x)=2x-6=2\\Rightarrow x=4\\).</p><p><strong>Svar:</strong> \\(x=4\\)</p>",
     "familj": "Tangentens lutning och punkt med given lutning",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Tangentens riktningskoefficient är derivatans värde i punkten.</p>",
+    "ledtrad": "<p>Tangentens lutning är derivatans värde.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Bestäm tangent från given lutning"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1085",
@@ -91959,28 +92294,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x+3)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -6 och -3; det minsta är -6.</p><p><strong>Svar:</strong> -6</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+4)^2\\). Vilken sorts punkt har grafen där \\(x=-4\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=-4\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p><p><strong>Svar:</strong> En terrasspunkt.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Byter derivatan tecken när x passerar punkten?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Derivatans tecken och extrempunkt"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "En terrasspunkt",
+        "ratt": true
+      },
+      {
+        "txt": "En maximipunkt",
+        "ratt": false
+      },
+      {
+        "txt": "En minimipunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -91993,28 +92341,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-5)\\), där 2 och 5 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>För en funktion gäller \\(f'(x)=4(x+6)\\). Har \\(f\\) ett lokalt maximum eller ett lokalt minimum där \\(x=-6\\)?</p>",
+    "s": "<p>Derivatan är negativ för \\(x\\lt -6\\) och positiv för \\(x\\gt -6\\).</p><p>Funktionen avtar och växer sedan, alltså ett minimum.</p><p><strong>Svar:</strong> Ett lokalt minimum.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Vilket tecken har derivatan strax till vänster och strax till höger om punkten?</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Derivatans tecken och extrempunkt"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ett lokalt minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Ett lokalt maximum",
+        "ratt": false
+      },
+      {
+        "txt": "En terrasspunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -92061,29 +92422,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(0)=2\\). Bestäm \\(F(1)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=x^3+C\\). Av \\(F(0)=2\\) fås \\(C=2\\). Då är \\(F(1)=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=4x^3\\) och \\(F(1)=3\\). Bestäm \\(F(2)\\).</p>",
+    "s": "<p>\\(F(x)=x^4+C\\). \\(F(1)=1+C=3\\) ger \\(C=2\\).</p><p>\\(F(2)=16+2=18\\).</p><p><strong>Svar:</strong> 18</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "ledtrad": "<p>Bestäm C med villkoret innan du sätter in x = 2.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Integral som ändring i primitiv funktion"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1089",
@@ -92095,28 +92456,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2x^2+3\\). Tangenten dras vid \\(x=2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=8\\) och punkten är \\((2,11)\\). Då \\(11=8\\cdot2+m\\), vilket ger \\(m=-5\\).</p><p><strong>Svar:</strong> -5</p>",
+    "t": "<p>Bestäm tangentens ekvation till \\(f(x)=x^2+3\\) i punkten där \\(x=1\\). Ange \\(k\\) och \\(m\\) i \\(y=kx+m\\).</p>",
+    "s": "<p>\\(f'(1)=2\\) och \\(f(1)=4\\).</p><p>\\(4=2\\cdot1+m\\Rightarrow m=2\\).</p><p><strong>Svar:</strong> \\(y=2x+2\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -5,
-    "tolerans": null,
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lutningen får du med derivatan och punkten med funktionsvärdet.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Generalisera tangenttriangel"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "k",
+      "m"
     ]
   },
   {
@@ -92129,29 +92507,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2x^2-4\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-8\\) och punkten är \\((-2,4)\\). Då \\(4=-8\\cdot-2+m\\), vilket ger \\(m=-12\\).</p><p><strong>Svar:</strong> -12</p>",
+    "t": "<p>Tangenten till \\(f(x)=x^2+3x\\) dras i punkten där \\(x=-2\\). Var skär tangenten y-axeln?</p>",
+    "s": "<p>\\(f'(-2)=-1\\) och \\(f(-2)=-2\\).</p><p>\\(-2=-1\\cdot(-2)+m\\Rightarrow m=-4\\).</p><p><strong>Svar:</strong> I punkten \\((0,\\,-4)\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
+    "ledtrad": "<p>Tangenten skär y-axeln i punkten (0, m).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Generalisera tangenttriangel"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1091",
@@ -92163,29 +92541,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-18)^2+18\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=18\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 18</p>",
+    "t": "<p>En boll kastas rakt upp. Höjden över marken är \\(h(t)=-5t^2+30t+2\\) meter efter \\(t\\) sekunder. Hur högt når bollen?</p>",
+    "s": "<p>\\(h'(t)=-10t+30=0\\Rightarrow t=3\\).</p><p>\\(h(3)=47\\).</p><p><strong>Svar:</strong> 47 m</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 18,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Bestäm först när bollen är som högst, alltså när derivatan är noll.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parameter och beräkna area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 47.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.1092",
@@ -92197,29 +92577,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(32\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(16-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(16-x)=-x^2+16x\\). Parabelns symmetrilinje är \\(x=16/2=8\\).</p><p><strong>Svar:</strong> 8</p>",
+    "t": "<p>En rektangel har omkretsen 48 cm. Hur stor kan arean högst bli?</p>",
+    "s": "<p>Sidorna är \\(x\\) och \\(24-x\\), så \\(A(x)=x(24-x)\\).</p><p>\\(A'(x)=24-2x=0\\Rightarrow x=12\\), och \\(A=144\\) cm².</p><p><strong>Svar:</strong> 144 cm²</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
+    "ledtrad": "<p>Bestäm först det x som ger störst area, och beräkna sedan arean.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Bestäm parameter och beräkna area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 144.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
   },
   {
     "id": "3.1093",
@@ -92231,28 +92612,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=4x^2+7\\). Tangenten dras vid \\(x=-1\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-8\\) och punkten är \\((-1,11)\\). Då \\(11=-8\\cdot-1+m\\), vilket ger \\(m=3\\).</p><p><strong>Svar:</strong> 3</p>",
+    "t": "<p>Bestäm tangentens ekvation till \\(f(x)=x^2+3\\) i punkten där \\(x=3\\). Ange \\(k\\) och \\(m\\) i \\(y=kx+m\\).</p>",
+    "s": "<p>\\(f'(3)=6\\) och \\(f(3)=12\\).</p><p>\\(12=6\\cdot3+m\\Rightarrow m=-6\\).</p><p><strong>Svar:</strong> \\(y=6x-6\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lutningen får du med derivatan och punkten med funktionsvärdet.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Tangent och geometrisk area"
+    ],
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      -6
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "k",
+      "m"
     ]
   },
   {
@@ -92265,29 +92663,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen är \\(f(x)=5x^2+1\\). Tangenten dras vid \\(x=-2\\). Vilket värde har tangentens konstantterm \\(m\\) i formen \\(y=kx+m\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Kurva med tangent\"><line x1=\"40\" y1=\"155\" x2=\"285\" y2=\"155\" stroke=\"currentColor\"/><line x1=\"60\" y1=\"170\" x2=\"60\" y2=\"25\" stroke=\"currentColor\"/><path d=\"M70 140 Q160 25 255 125\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"95\" y1=\"150\" x2=\"245\" y2=\"55\" stroke=\"currentColor\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"102\" r=\"4\" fill=\"currentColor\"/></svg></span>",
-    "s": "<p><strong>Lösning:</strong> Tangentens lutning är \\(k=-20\\) och punkten är \\((-2,21)\\). Då \\(21=-20\\cdot-2+m\\), vilket ger \\(m=-19\\).</p><p><strong>Svar:</strong> -19</p>",
+    "t": "<p>Tangenten till \\(f(x)=x^2\\) i punkten där \\(x=2\\) skär x-axeln. Bestäm skärningspunktens x-koordinat.</p>",
+    "s": "<p>Tangenten är \\(y=4x-4\\).</p><p>\\(y=0\\Rightarrow x=1\\).</p><p><strong>Svar:</strong> \\(x=1\\)</p>",
     "familj": "Tangentens ekvation",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -19,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Bestäm först tangentens lutning med derivatan och använd sedan tangeringspunkten i y=kx+m.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Bestäm tangentens ekvation först och sätt sedan y = 0.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "tangenter_derivata"
     ],
     "familjTidigare": [
       "Tangent och geometrisk area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1095",
@@ -92299,29 +92697,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 3 liter/minut under 3 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(3\\cdot3=9\\) liter.</p><p><strong>Svar:</strong> 9</p>",
+    "t": "<p>Ett flöde ökar med tiden och är \\(q(t)=2t+1\\) liter/minut. Hur många liter passerar under de första 6 minuterna?</p>",
+    "s": "<p>\\(\\int_0^6(2t+1)\\,dt=\\left[1t^2+1t\\right]_0^6=42\\).</p><p><strong>Svar:</strong> 42 liter</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Mängden är arean under flödesgrafen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Ackumulerad förändring med startvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 42.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1096",
@@ -92333,29 +92732,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett flöde beskrivs av \\(q(t)=2t+1\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
-    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(2t+1)\\,dt=[2/2\\,t^2+t]_0^4=20\\) liter.</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>En slang ger först 4 liter/minut i 3 minuter och sedan 2 liter/minut i 6 minuter. Hur många liter har runnit ut totalt?</p>",
+    "s": "<p>\\(4\\cdot3+2\\cdot6=24\\).</p><p><strong>Svar:</strong> 24 liter</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Beräkna varje tidsperiod för sig och addera.</p>",
+    "traningsniva": 1,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Ackumulerad förändring med startvärde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1097",
@@ -92367,29 +92767,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^9 2\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 9 och höjd 2: \\(2\\cdot9=18\\).</p><p><strong>Svar:</strong> 18</p>",
+    "t": "<p>Beräkna \\(\\int_0^6 x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(\\frac{x^3}{3}\\).</p><p>\\(\\frac{6^3}{3}-0=72\\).</p><p><strong>Svar:</strong> 72</p>",
     "familj": "Area mellan två grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 18,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Höj exponenten med 1 och dividera med den nya exponenten.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Area mellan linje och kurva"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 72.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1098",
@@ -92401,29 +92801,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^12 4x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{4}2x^2\\). Värdet blir \\(4\\cdot 12^2/2=288\\).</p><p><strong>Svar:</strong> 288</p>",
+    "t": "<p>Integralen \\(\\int_0^5 4x\\,dx\\) kan tolkas som arean av en triangel. Bestäm integralens värde genom att beräkna triangelns area.</p>",
+    "s": "<p>Triangeln har basen 5 och höjden \\(4\\cdot5=20\\).</p><p>Area: \\(\\frac{5\\cdot20}{2}=50\\).</p><p><strong>Svar:</strong> 50</p>",
     "familj": "Area mellan två grafer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 288,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen till \\(y=4x\\). Vilken figur bildas under grafen?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Area mellan linje och kurva"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 50.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1099",
@@ -92469,29 +92870,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=6x^2\\) och \\(F(0)=-1\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<p><strong>Lösning:</strong> \\(F(x)=2x^3+C\\). Av \\(F(0)=-1\\) fås \\(C=-1\\). Då är \\(F(2)=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "t": "<p>En leksaksbil har hastigheten \\(v(t)=6t\\) m/s. Vid \\(t=0\\) befinner den sig 2 m från startlinjen. Hur långt från startlinjen är den när \\(t=2\\)?</p>",
+    "s": "<p>\\(s(t)=3t^2+C\\) och \\(s(0)=2\\) ger \\(C=2\\).</p><p>\\(s(2)=14\\) m.</p><p><strong>Svar:</strong> 14 m</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "modellering"
     ],
-    "ledtrad": "<p>Integrera potensfunktionen och bestäm sedan integrationskonstanten från startvärdet.</p>",
+    "ledtrad": "<p>Läget är en primitiv funktion till hastigheten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Analysens huvudsats från funktionsvärden"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
   },
   {
     "id": "3.1101",
@@ -92503,29 +92906,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+6)(x-2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -6 och 2; det minsta är -6.</p><p><strong>Svar:</strong> -6</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x-3)^2(x-4)\\). Hur många lokala extrempunkter har \\(f\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=3\\) och \\(x=4\\).</p><p>Vid \\(x=3\\) byter derivatan inte tecken (kvadrat), så där finns en terrasspunkt. Vid \\(x=4\\) byter den tecken från minus till plus, så där finns en minimipunkt.</p><p><strong>Svar:</strong> 1</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Undersök om derivatan byter tecken vid varje nollställe.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Tolka graf till derivatan"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1102",
@@ -92537,29 +92940,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x+5)\\), där -7 och -5 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-1)(x-7)\\). Bestäm x-koordinaten för funktionens lokala minimipunkt.</p>",
+    "s": "<p>Derivatan är noll för \\(x=1\\) och \\(x=7\\). Mellan dem är derivatan negativ och till höger om 7 positiv.</p><p>Funktionen avtar och växer sedan vid \\(x=7\\), så där finns en minimipunkt.</p><p><strong>Svar:</strong> \\(x=7\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Var byter derivatan tecken från minus till plus?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Tolka graf till derivatan"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1103",
@@ -92571,29 +92974,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^2 3\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 2 och höjd 3: \\(3\\cdot2=6\\).</p><p><strong>Svar:</strong> 6</p>",
+    "t": "<p>Beräkna \\(\\int_0^2 3x^2\\,dx\\).</p>",
+    "s": "<p>En primitiv funktion är \\(x^3\\).</p><p>\\(2^3-0^3=8\\).</p><p><strong>Svar:</strong> 8</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilken funktion har derivatan \\(3x^2\\)?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestämd integral från styckvis linjär graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1104",
@@ -92605,29 +93008,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 10x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{10}2x^2\\). Värdet blir \\(10\\cdot 6^2/2=180\\).</p><p><strong>Svar:</strong> 180</p>",
+    "t": "<p>Tolka \\(\\int_1^5 2x\\,dx\\) som en area och bestäm integralens värde.</p>",
+    "s": "<p>Området är ett parallelltrapets med de parallella sidorna \\(2\\) och \\(10\\) och höjden \\(4\\).</p><p>Area: \\(\\frac{(2+10)\\cdot4}{2}=24\\).</p><p><strong>Svar:</strong> 24</p>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 180,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Området under en rät linje mellan två x-värden är ett parallelltrapets.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestämd integral från styckvis linjär graf"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 24.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1105",
@@ -92639,29 +93043,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=2t^2+4t+0\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<p><strong>Lösning:</strong> Hastigheten är \\(v(t)=s'(t)=4t+4\\). Därför \\(v(1)=8\\) m/s.</p><p><strong>Svar:</strong> 8</p>",
+    "t": "<p>En tank töms. Vattenvolymen är \\(V(t)=500-3t^2\\) liter efter \\(t\\) minuter. Med vilken hastighet minskar volymen när \\(t=5\\)?</p>",
+    "s": "<p>\\(V'(t)=-6t\\) och \\(V'(5)=-30\\).</p><p>Volymen minskar alltså med 30 liter per minut.</p><p><strong>Svar:</strong> 30 liter/minut</p>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Derivera lägesfunktionen. Derivatan är hastigheten.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Förändringshastigheten är derivatan. Ett negativt värde betyder att volymen minskar.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "derivata_tillampningar"
     ],
     "familjTidigare": [
       "Tre fack mot vägg"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter/minut"
   },
   {
     "id": "3.1106",
@@ -92707,29 +93112,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 5 liter/minut under 5 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(5\\cdot5=25\\) liter.</p><p><strong>Svar:</strong> 25</p>",
+    "t": "<p>En slang ger först 5 liter/minut i 2 minuter och sedan 2 liter/minut i 5 minuter. Hur många liter har runnit ut totalt?</p>",
+    "s": "<p>\\(5\\cdot2+2\\cdot5=20\\).</p><p><strong>Svar:</strong> 20 liter</p>",
     "familj": "Sträcka och förflyttning från hastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 25,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "ledtrad": "<p>Beräkna varje tidsperiod för sig och addera.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Från acceleration till sträcka med startvillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1108",
@@ -92741,29 +93147,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+3\\) liter/minut för \\(0\\le t\\le 2\\). Hur många liter passerar under tiden?</p>",
-    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^2(t+3)\\,dt=[1/2\\,t^2+3t]_0^2=8\\) liter.</p><p><strong>Svar:</strong> 8</p>",
+    "t": "<p>Flödet ut ur ett kärl avtar och är \\(q(t)=12-2t\\) liter/minut för \\(0\\le t\\le6\\). Hur många liter rinner ut under den tiden?</p>",
+    "s": "<p>\\(\\int_0^6(12-2t)\\,dt=\\left[12t-t^2\\right]_0^6=36\\).</p><p><strong>Svar:</strong> 36 liter</p>",
     "familj": "Sträcka och förflyttning från hastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "ledtrad": "<p>Ställ upp en integral av flödet över tidsintervallet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Från acceleration till sträcka med startvillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1109",
@@ -92775,29 +93182,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^3 5\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 3 och höjd 5: \\(5\\cdot3=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "t": "<p>Beräkna \\(\\int_1^5 (-3)\\,dx\\) och förklara varför svaret blir negativt.</p>",
+    "s": "<p>Integranden är konstant: \\(-3\\cdot(5-1)=-12\\).</p><p>Grafen ligger under x-axeln, så integralen blir negativ trots att arean är positiv.</p><p><strong>Svar:</strong> −12</p>",
     "familj": "Area med integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Var ligger grafen till \\(y=-3\\) i förhållande till x-axeln?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm horisontell nivå från area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -12,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1110",
@@ -92809,29 +93217,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 9x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{9}2x^2\\). Värdet blir \\(9\\cdot 6^2/2=162\\).</p><p><strong>Svar:</strong> 162</p>",
+    "t": "<p>Bestäm \\(\\int_{-2}^{2} 3x\\,dx\\) utan att beräkna någon primitiv funktion.</p>",
+    "s": "<p>Grafen är en rät linje genom origo. Området till vänster om origo ligger under x-axeln och är lika stort som området till höger, som ligger ovanför.</p><p>Bidragen tar ut varandra.</p><p><strong>Svar:</strong> 0</p>",
     "familj": "Area med integraler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 162,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "begrepp",
+      "resonemang"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Rita grafen och jämför områdena på var sin sida om origo.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Bestäm horisontell nivå från area"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1111",
@@ -92843,28 +93252,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+4)(x-2)\\). Bestäm det minsta x-värdet där derivatan är 0.</p>",
-    "s": "<p><strong>Lösning:</strong> En produkt är noll när någon faktor är noll. Nollställena är -4 och 2; det minsta är -4.</p><p><strong>Svar:</strong> -4</p>",
+    "t": "<p>Funktionen \\(f\\) har derivatan \\(f'(x)=(x-5)(x-6)\\). För vilka x är \\(f\\) avtagande?</p>",
+    "s": "<p>Derivatan är negativ mellan nollställena 5 och 6.</p><p><strong>Svar:</strong> \\(5\\lt x\\lt 6\\)</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -4,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt varje faktor i derivatan lika med noll.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>En funktion är avtagande där derivatan är negativ.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Fullständig teckenanalys från derivatagraf"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(5\\lt x\\lt 6\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x\\lt 5\\) eller \\(x\\gt 6\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\gt 6\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x\\lt 5\\)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -92877,28 +93303,41 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+7)(x-1)\\), där -7 och 1 är olika tal. Hur många nollställen har derivatan?</p>",
-    "s": "<p><strong>Lösning:</strong> Varje linjär faktor ger ett nollställe, alltså finns två.</p><p><strong>Svar:</strong> 2</p>",
+    "t": "<p>För en funktion \\(f\\) gäller \\(f'(x)=(x+2)^2\\). Vilken sorts punkt har grafen där \\(x=-2\\)?</p>",
+    "s": "<p>Derivatan är noll för \\(x=-2\\) men positiv på båda sidor eftersom kvadraten aldrig är negativ.</p><p>Funktionen växer både före och efter punkten, så det är en terrasspunkt.</p><p><strong>Svar:</strong> En terrasspunkt.</p>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Varje faktor ger ett x-värde där derivatan är noll.</p>",
+    "ledtrad": "<p>Byter derivatan tecken när x passerar punkten?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Fullständig teckenanalys från derivatagraf"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "En terrasspunkt",
+        "ratt": true
+      },
+      {
+        "txt": "En maximipunkt",
+        "ratt": false
+      },
+      {
+        "txt": "En minimipunkt",
+        "ratt": false
+      }
     ]
   },
   {
@@ -92911,28 +93350,45 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=-(x-10)^2+13\\). Vid vilket x-värde får funktionen sitt största värde?</p>",
-    "s": "<p><strong>Lösning:</strong> Kvadraten blir 0 när \\(x=10\\), och eftersom minustecknet står framför blir detta maximum.</p><p><strong>Svar:</strong> 10</p>",
+    "t": "<p>Ange värdemängden till \\(f(x)=-(x-6)^2+8\\).</p>",
+    "s": "<p>Funktionen har största värdet 8 och kan bli hur liten som helst.</p><p><strong>Svar:</strong> \\(y\\le 8\\)</p>",
     "familj": "Extremvärden och värdemängd",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>I vertexformen syns extrempunktens x-värde direkt.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilket är det största värdet? Finns något minsta värde?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Optimera rektangel med omkretsvillkor"
+    ],
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(y\\le 8\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(y\\ge 8\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(y\\le 6\\)",
+        "ratt": false
+      },
+      {
+        "txt": "Alla reella tal",
+        "ratt": false
+      }
     ]
   },
   {
@@ -92945,29 +93401,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Kort rutinövning: En rektangel har omkretsen \\(60\\) cm. Om ena sidan är \\(x\\) cm blir den andra \\(30-x\\) cm. Vilket x-värde ger störst area?</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är \\(A(x)=x(30-x)=-x^2+30x\\). Parabelns symmetrilinje är \\(x=30/2=15\\).</p><p><strong>Svar:</strong> 15</p>",
+    "t": "<p>En rektangel har ett hörn i origo och det motsatta hörnet på linjen \\(y=10-2x\\), där \\(x\\gt0\\) och \\(y\\gt0\\). Bestäm det x som ger störst area.</p>",
+    "s": "<p>Arean är \\(A(x)=x(10-2x)=10x-2x^2\\).</p><p>\\(A'(x)=10-4x=0\\Rightarrow x=2{,}5\\).</p><p><strong>Svar:</strong> \\(x=2{,}5\\)</p>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "problemlösning"
     ],
-    "ledtrad": "<p>Skriv arean som en andragradsfunktion och hitta parabelns symmetrilinje.</p>",
-    "traningsniva": 2,
+    "ledtrad": "<p>Rektangelns höjd är y-värdet på linjen.</p>",
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "extremvardesproblem"
     ],
     "familjTidigare": [
       "Optimera rektangel med omkretsvillkor"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1115",
@@ -92979,29 +93436,29 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^6 6\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> Arean är en rektangel med bredd 6 och höjd 6: \\(6\\cdot6=36\\).</p><p><strong>Svar:</strong> 36</p>",
+    "t": "<p>Bestäm den övre gränsen \\(b\\) så att \\(\\int_0^b 3\\,dx=24\\).</p>",
+    "s": "<p>\\(\\int_0^b 3\\,dx=3b\\).</p><p>\\(3b=24\\Rightarrow b=8\\).</p><p><strong>Svar:</strong> \\(b=8\\)</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 36,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>En konstant funktion ger en rektangelarea.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Beräkna integralen uttryckt i b och lös ekvationen.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Använd analysens huvudsats baklänges"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 8.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1116",
@@ -93013,29 +93470,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^4 5x\\,dx\\).</p>",
-    "s": "<p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{5}2x^2\\). Värdet blir \\(5\\cdot 4^2/2=40\\).</p><p><strong>Svar:</strong> 40</p>",
+    "t": "<p>Bestäm \\(\\int_{-2}^{0} 4x\\,dx\\).</p>",
+    "s": "<p>Området mellan grafen och x-axeln är en triangel med arean \\(\\frac{2\\cdot8}{2}=8\\).</p><p>Det ligger under x-axeln, så integralen är negativ.</p><p><strong>Svar:</strong> −8</p>",
     "familj": "Integralkalkylens huvudsats",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 40,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
-      "procedur"
+      "procedur",
+      "begrepp"
     ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+    "ledtrad": "<p>Ligger grafen ovanför eller under x-axeln när x är negativt?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Använd analysens huvudsats baklänges"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -8.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt"
   },
   {
     "id": "3.1117",
@@ -93047,29 +93505,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett flöde är konstant 3 liter/minut under 4 minuter. Hur många liter har passerat totalt?</p>",
-    "s": "<p><strong>Lösning:</strong> Den ackumulerade mängden är hastighet gånger tid: \\(3\\cdot4=12\\) liter.</p><p><strong>Svar:</strong> 12</p>",
+    "t": "<p>En pump fyller en bassäng med 4 liter per minut. Hur lång tid tar det att fylla 60 liter?</p>",
+    "s": "<p>\\(4\\cdot t=60\\Rightarrow t=15\\) minuter.</p><p><strong>Svar:</strong> 15 minuter</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Vid konstant flöde är arean under grafen en rektangel: flöde gånger tid.</p>",
+    "ledtrad": "<p>Mängden är flöde gånger tid.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Maximera ackumulerad mängd från flöde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "minuter"
   },
   {
     "id": "3.1118",
@@ -93081,29 +93540,30 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett flöde beskrivs av \\(q(t)=t+3\\) liter/minut för \\(0\\le t\\le 4\\). Hur många liter passerar under tiden?</p>",
-    "s": "<p><strong>Lösning:</strong> Mängden är \\(\\int_0^4(t+3)\\,dt=[1/2\\,t^2+3t]_0^4=20\\) liter.</p><p><strong>Svar:</strong> 20</p>",
+    "t": "<p>Ett flöde ökar med tiden och är \\(q(t)=3t+1\\) liter/minut. Hur många liter passerar under de första 4 minuterna?</p>",
+    "s": "<p>\\(\\int_0^4(3t+1)\\,dt=\\left[1{,}5t^2+1t\\right]_0^4=28\\).</p><p><strong>Svar:</strong> 28 liter</p>",
     "familj": "Ackumulerad mängd från förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 20,
-    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Den ackumulerade mängden är integralen av flödet över tiden.</p>",
+    "ledtrad": "<p>Mängden är arean under flödesgrafen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
     "omrTidigare": [
       "integraltillampningar"
     ],
     "familjTidigare": [
       "Maximera ackumulerad mängd från flöde"
-    ]
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 28.0,
+    "tolerans": null,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "liter"
   },
   {
     "id": "3.1119",

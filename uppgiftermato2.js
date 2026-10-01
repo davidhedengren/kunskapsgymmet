@@ -39532,7 +39532,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>En rektangels area är 48 cm². Bestäm den minsta möjliga omkretsen och motivera att värdet verkligen är ett minimum.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> Med area xy=48 kan y skrivas 48/x. Omkretsen blir \\(P(x)=2x+96/x\\), x&gt;0.</p><p>\\(P'(x)=2-96/x^2=0\\Rightarrow x^2=48\\Rightarrow x=4\\sqrt3\\). Då är även y=4\\sqrt3. Andraderivatan \\(192/x^3&gt;0\\), alltså är det ett minimum.</p><p><strong>Svar:</strong> \\(P_{min}=16\\sqrt3\\approx27,7\\) cm.</p>",
+    "s": "<p><strong>Nyckelidé:</strong> Med area xy=48 kan y skrivas 48/x. Omkretsen blir \\(P(x)=2x+96/x\\), x&gt;0.</p><p>\\(P'(x)=2-96/x^2=0\\Rightarrow x^2=48\\Rightarrow x=4\\sqrt3\\). Då är även \\(y=4\\sqrt3\\). Andraderivatan \\(192/x^3&gt;0\\), alltså är det ett minimum.</p><p><strong>Svar:</strong> \\(P_{min}=16\\sqrt3\\approx27,7\\) cm.</p>",
     "familj": "Tillämpad optimering med derivata",
     "formaga": [
       "modellering",
@@ -55500,7 +55500,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Täthetsfunktionen är \\(f(x)=k\\) för 0≤x≤4 och 0 annars. Bestäm k.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\int_0^4kdx=4k=1</p><p><strong>Svar:</strong> \\(\\boxed{0,25}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\[\\int_0^4k\\,dx=4k=1\\quad\\Rightarrow\\quad k=0{,}25\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,25}\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
       "procedur",
@@ -55651,7 +55651,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Täthetsfunktionen är \\(f(x)=2x\\) för 0≤x≤1. Bestäm \\(P(X&lt;0,5)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>P=\\int_0^{0,5}2x\\,dx=0,25</p><p><strong>Svar:</strong> \\(\\boxed{0,25}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\[P=\\int_0^{0{,}5}2x\\,dx=0{,}25\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,25}\\).</p>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
       "procedur",
@@ -56639,7 +56639,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>\\(f(x)=kx\\) för 0≤x≤2. Bestäm k.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\int_0^2kx\\,dx=2k=1</p><p><strong>Svar:</strong> \\(\\boxed{0,5}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\[\\int_0^2kx\\,dx=2k=1\\quad\\Rightarrow\\quad k=0{,}5\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,5}\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
       "procedur",
@@ -56760,7 +56760,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>\\(f(x)=kx^2\\) för 0≤x≤3. Bestäm k.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\int_0^3kx^2dx=9k=1</p><p><strong>Svar:</strong> \\(\\boxed{0,111111}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\[\\int_0^3kx^2\\,dx=9k=1\\quad\\Rightarrow\\quad k=\\frac19\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,111111}\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
       "procedur",
@@ -56926,7 +56926,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>\\(f(x)=x/2\\) för 0≤x≤2. Bestäm \\(P(X>1)\\).</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>P=\\int_1^2x/2\\,dx=3/4</p><p><strong>Svar:</strong> \\(\\boxed{0,75}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\[P=\\int_1^2\\frac x2\\,dx=\\frac34\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,75}\\).</p>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
       "procedur",
@@ -57101,7 +57101,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>X har tätheten \\(f(x)=2(1-x)\\) på [0,1]. Bestäm medianen m numeriskt.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\int_0^m2(1-x)dx=1/2, alltså 2m-m^2=1/2</p><p><strong>Svar:</strong> \\(\\boxed{0,292893}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\[\\int_0^m2(1-x)\\,dx=\\frac12\\quad\\Rightarrow\\quad 2m-m^2=\\frac12\\quad\\Rightarrow\\quad m=1-\\frac{\\sqrt2}{2}\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,292893}\\).</p>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
       "procedur",
@@ -57688,7 +57688,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>\\(f(x)=c(1-x^2)\\) för −1≤x≤1. Bestäm c.</p>",
-    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>c\\int_{-1}^1(1-x^2)dx=c\\cdot4/3=1</p><p><strong>Svar:</strong> \\(\\boxed{0,75}\\).</p>",
+    "s": "<p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet. Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p><p>\\[c\\int_{-1}^1(1-x^2)\\,dx=c\\cdot\\frac43=1\\quad\\Rightarrow\\quad c=\\frac34\\]</p><p><strong>Svar:</strong> \\(\\boxed{0,75}\\).</p>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
       "procedur",

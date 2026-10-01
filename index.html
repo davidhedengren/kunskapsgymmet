@@ -3220,7 +3220,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-09-10-kunskap-2";
+const BANK_VERSION="2026-10-01-fy1-moment";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -5414,23 +5414,57 @@ async function loadScript(src){
   });
 }
 
+/* När en bank byter struktur anger uppgiften sina gamla namn i familjTidigare
+   (delmoment) och omrTidigare (område). Elevens värde följer med till de nya
+   namnen, men sänker aldrig ett värde som redan finns där. Gamla namn som
+   ingen uppgift längre använder tas bort efteråt, annars skulle de lyfta
+   tillbaka det nya värdet vid varje inläsning. */
 function migreraFamiljer(){
   const cp=ensureCourseProfile();
   const bank=state.data?.bank||[];
   const lista=x=>(Array.isArray(x)?x:[x]).filter(Boolean).map(String);
   let andrat=false;
+  const flytta=(karta,fran,till)=>{
+    const v=karta[fran];
+    if(typeof v!=="number" || fran===till) return;
+    const nu=typeof karta[till]==="number" ? karta[till] : 0;
+    if(v>nu){ karta[till]=v; andrat=true; }
+  };
+  const perId=new Map(), aktuellaFam=new Set(), aktuellaOmr=new Set();
+  const gamlaFam=new Set(), gamlaOmr=new Set(), omrPar=new Map(), omrAntal=new Map();
   bank.forEach(t=>{
-    if(!t||!t.familjTidigare||!t.familj) return;
-    const gamla=lista(t.familjTidigare), nya=lista(t.familj);
-    gamla.forEach(g=>{
-      const v=cp.families[g];
-      if(typeof v!=="number") return;
-      nya.forEach(n=>{
-        if(n===g) return;
-        const nu=typeof cp.families[n]==="number" ? cp.families[n] : 0;
-        if(v>nu){ cp.families[n]=v; andrat=true; }
-      });
+    if(!t) return;
+    perId.set(String(t.id),t);
+    lista(t.familj).forEach(f=>aktuellaFam.add(f));
+    if(t.omr){
+      aktuellaOmr.add(String(t.omr));
+      omrAntal.set(String(t.omr),(omrAntal.get(String(t.omr))||0)+1);
+    }
+    if(t.familjTidigare&&t.familj) lista(t.familjTidigare).forEach(g=>{
+      gamlaFam.add(g);
+      lista(t.familj).forEach(n=>flytta(cp.families,g,n));
     });
+    if(t.omrTidigare&&t.omr) lista(t.omrTidigare).forEach(g=>{
+      gamlaOmr.add(g);
+      const par=g+"\u0000"+t.omr;
+      omrPar.set(par,(omrPar.get(par)||0)+1);
+    });
+  });
+  /* Ett gammalt område lämnar bara sitt värde till ett nytt område som det
+     utgör en tydlig del av, så att enstaka omflyttade uppgifter inte lyfter
+     ett helt annat moment. */
+  omrPar.forEach((n,par)=>{
+    const [g,till]=par.split("\u0000");
+    if(n>=Math.max(3,.2*(omrAntal.get(till)||0))) flytta(cp.areas,g,till);
+  });
+  gamlaFam.forEach(g=>{ if(!aktuellaFam.has(g) && g in cp.families){ delete cp.families[g]; andrat=true; } });
+  gamlaOmr.forEach(g=>{ if(!aktuellaOmr.has(g) && g in cp.areas){ delete cp.areas[g]; andrat=true; } });
+  /* Historiken sparar uppgiftens id, så område och delmoment räknas om från banken. */
+  (cp.history||[]).forEach(h=>{
+    const t=h && (perId.get(String(h.ursprungsId||""))||perId.get(String(h.id)));
+    if(!t) return;
+    if(t.omr && h.area!==t.omr){ h.area=t.omr; andrat=true; }
+    if(t.familj && JSON.stringify(h.family)!==JSON.stringify(t.familj)){ h.family=t.familj; andrat=true; }
   });
   if(andrat) saveProfile();
 }

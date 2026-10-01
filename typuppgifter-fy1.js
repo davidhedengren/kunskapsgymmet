@@ -51,7 +51,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "\\(3\\,500\\ \\mathrm m\\) och \\(0{,}250\\ \\mathrm A\\).",
     "komihag": "Byt ut prefixet mot dess tiopotens. Vanliga prefix är kilo (10³), centi (10⁻²), milli (10⁻³) och mikro (10⁻⁶).",
-    "traningsfamilj": "Prefix, tiopotenser och storleksordning"
+    "traningsfamilj": "Prefix och tiopotenser"
   },
   "fy1-grund-2-03": {
     "kap": 2,
@@ -144,7 +144,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "\\(2\\,700\\ \\mathrm{kg/m^3}\\).",
     "komihag": "Från g/cm³ till kg/m³ multiplicerar du med 1 000.",
-    "traningsfamilj": "Omvandla densitetsenheter"
+    "traningsfamilj": "Massa, volym och densitet"
   },
   "fy1-grund-2-07": {
     "kap": 2,
@@ -167,7 +167,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Densiteten är \\(2{,}7\\ \\mathrm{g/cm^3}\\).",
     "komihag": "Skriv upp alla mått i samma längdenhet innan du multiplicerar dem.",
-    "traningsfamilj": "Densitet med geometri och volymberäkning"
+    "traningsfamilj": "Densitet med geometri"
   },
   "fy1-grund-2-08": {
     "kap": 2,
@@ -201,7 +201,7 @@ window.TYPUPPGIFTER_FY1 = {
     "svar": "Vätskans densitet är ungefär \\(0{,}80\\ \\mathrm{g/cm^3}\\), alltså \\(800\\ \\mathrm{kg/m^3}\\).",
     "fallgrop": "Dela inte varje massa med sin volym. Massan innehåller mätglaset, så kvoterna blir för stora och olika för varje mätning: 69/20 ≈ 3,5 g/cm³ men 133/100 ≈ 1,3 g/cm³. Lutningen påverkas inte av mätglaset.",
     "komihag": "I ett diagram med massa på y-axeln och volym på x-axeln är densiteten linjens lutning, \\(\\rho=\\Delta m/\\Delta V\\). Läs av två punkter på linjen långt ifrån varandra. Var linjen skär m-axeln påverkar inte densiteten.",
-    "traningsfamilj": "Densitet från diagram och mätdata"
+    "traningsfamilj": "Densitet ur diagram och mätdata"
   },
   "fy1-grund-2-09": {
     "kap": 2,
@@ -246,7 +246,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Intervallet är \\(12{,}2\\text{–}12{,}6\\ \\mathrm{cm}\\).",
     "komihag": "Osäkerheten anges i samma enhet som mätvärdet. Instrumentets upplösning är dess minsta visningssteg; andra felkällor kan ge större osäkerhet.",
-    "traningsfamilj": "Mätintervall och absolut osäkerhet"
+    "traningsfamilj": "Mätosäkerhet och felgränser"
   },
   "fy1-grund-2-11": {
     "kap": 2,
@@ -269,7 +269,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Osäkerheten är \\(1{,}0\\,\\%\\).",
     "komihag": "Relativ osäkerhet = absolut osäkerhet / mätvärdets belopp.",
-    "traningsfamilj": "Relativ och procentuell osäkerhet"
+    "traningsfamilj": "Mätosäkerhet och felgränser"
   },
   "fy1-grund-2-12": {
     "kap": 2,
@@ -292,7 +292,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Medelvärdet är \\(2{,}2\\ \\mathrm s\\).",
     "komihag": "Fler mätningar kan minska påverkan av slumpmässiga fel. De tar inte bort ett systematiskt fel, till exempel en felinställd våg.",
-    "traningsfamilj": "Upprepade mätningar och spridning"
+    "traningsfamilj": "Mätmetod, spridning och fel"
   },
   "fy1-grund-2-13": {
     "kap": 2,
@@ -314,7 +314,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Metoden minskar reaktionstidens relativa betydelse. Perioden är \\(1{,}50\\ \\mathrm s\\).",
     "komihag": "Beskriv vad du mäter, hur du mäter och vilka felkällor som kan påverka resultatet.",
-    "traningsfamilj": "Mätmetod och experimentdesign"
+    "traningsfamilj": "Mätmetod, spridning och fel"
   },
   "fy1-grund-2-14": {
     "kap": 2,
@@ -336,11 +336,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Ett systematiskt fel. Väskans massa är \\(4{,}50\\ \\mathrm{kg}\\).",
     "komihag": "Kontrollera nollställningen innan du mäter. Att väga samma väska flera gånger tar inte bort vågens nollpunktsfel.",
-    "traningsfamilj": "Systematiska och slumpmässiga fel"
+    "traningsfamilj": "Mätmetod, spridning och fel"
   },
   "fy1-grund-3-01": {
-    "kap": 3,
-    "omr": "hastighet",
+    "kap": 2,
+    "omr": "medelhastighet",
     "rubrik": "Rörelse med konstant hastighet",
     "niva": "E",
     "t": "<p>En cyklist kör rakt fram med farten 5,0 m/s i 12 s. Hur långt kommer cyklisten?</p>",
@@ -359,11 +359,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Cyklisten kommer \\(60\\ \\mathrm m\\).",
     "komihag": "Vid konstant fart gäller \\(s=vt\\), \\(v=s/t\\) och \\(t=s/v\\).",
-    "traningsfamilj": "Likformig rörelse"
+    "traningsfamilj": "Sträcka, tid och fart"
   },
   "fy1-grund-3-02": {
-    "kap": 3,
-    "omr": "hastighet",
+    "kap": 2,
+    "omr": "medelhastighet",
     "rubrik": "Medelfart",
     "niva": "E",
     "t": "<p>Du cyklar 6,0 km på 20 minuter, inklusive ett kort stopp. Vilken medelfart har du i km/h?</p>",
@@ -382,11 +382,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Medelfarten är \\(18\\ \\mathrm{km/h}\\).",
     "komihag": "Medelfart använder tillryggalagd sträcka. Medelhastighet använder förflyttning och har riktning. Vid rörelse åt ett håll längs en rak linje har de samma belopp.",
-    "traningsfamilj": "Medelhastighet"
+    "traningsfamilj": "Medelhastighet och medelfart"
   },
   "fy1-grund-3-03": {
     "kap": 3,
-    "omr": "konstacc",
+    "omr": "acceleration",
     "rubrik": "Beräkna acceleration",
     "niva": "E",
     "t": "<p>En vagn ökar sin hastighet från 2,0 m/s till 8,0 m/s på 3,0 s. Accelerationen är konstant. Hur stor är den?</p>",
@@ -405,11 +405,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Accelerationen är \\(2{,}0\\ \\mathrm{m/s^2}\\).",
     "komihag": "\\(a=\\Delta v/\\Delta t\\). Vid inbromsning är accelerationen riktad mot rörelsen.",
-    "traningsfamilj": "Konstant acceleration"
+    "traningsfamilj": "Medelacceleration"
   },
   "fy1-grund-3-04": {
     "kap": 3,
-    "omr": "konstacc",
+    "omr": "acceleration",
     "rubrik": "Hastighet efter en viss tid",
     "niva": "E",
     "t": "<p>En vagn startar från vila och accelererar med 1,5 m/s² i 4,0 s. Vilken fart får den?</p>",
@@ -428,7 +428,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Farten blir \\(6{,}0\\ \\mathrm{m/s}\\).",
     "komihag": "\\(v=v_0+at\\) gäller vid konstant acceleration.",
-    "traningsfamilj": "Konstant acceleration"
+    "traningsfamilj": "Hastighet och tid vid konstant acceleration"
   },
   "fy1-grund-3-05": {
     "kap": 3,
@@ -452,7 +452,7 @@ window.TYPUPPGIFTER_FY1 = {
     "svar": "Vagnen rullar \\(9{,}0\\ \\mathrm m\\).",
     "komihag": "Från vila och med konstant acceleration: \\(s=at^2/2\\).",
     "fallgrop": "Slutfarten är större än medelfarten under accelerationen.",
-    "traningsfamilj": "Konstant acceleration"
+    "traningsfamilj": "Sträcka vid konstant acceleration"
   },
   "fy1-grund-3-06": {
     "kap": 3,
@@ -475,11 +475,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Stenens fart är ungefär \\(9{,}8\\ \\mathrm{m/s}\\), och den rör sig nedåt.",
     "komihag": "Utan luftmotstånd faller olika massor med samma acceleration från samma startvillkor.",
-    "traningsfamilj": "Lodrät kast och fritt fall"
+    "traningsfamilj": "Fritt fall och lodrät kast"
   },
   "fy1-grund-3-07": {
     "kap": 3,
-    "omr": "diagram",
+    "omr": "st_diagram",
     "rubrik": "Läs ett läge–tid-diagram",
     "niva": "E",
     "t": "<p>Diagrammet visar en vagns läge. Vilken hastighet har vagnen?</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 215\" width=\"400\" height=\"215\" role=\"img\" aria-label=\"Läge mot tid. Rät linje från 0 s, 0 m till 4 s, 8 m.\" style=\"display:block;width:min(100%,400px);height:auto;margin:16px auto;color:inherit\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><g opacity=\"0.18\" stroke-width=\"1\"><path d=\"M115 55 V175\"/><path d=\"M175 55 V175\"/><path d=\"M235 55 V175\"/><path d=\"M295 55 V175\"/><path d=\"M55 145 H295\"/><path d=\"M55 115 H295\"/><path d=\"M55 85 H295\"/><path d=\"M55 55 H295\"/></g><path d=\"M115 171 V179\"/><path d=\"M175 171 V179\"/><path d=\"M235 171 V179\"/><path d=\"M295 171 V179\"/><path d=\"M51 145 H59\"/><path d=\"M51 115 H59\"/><path d=\"M51 85 H59\"/><path d=\"M51 55 H59\"/><path stroke=\"currentColor\" d=\"M55 175 L355 175 M346.90 171.09 L355 175 L346.90 178.91\"/><path stroke=\"currentColor\" d=\"M55 175 L55 20 M51.09 28.10 L55 20 L58.91 28.10\"/><text x=\"51\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">0</text><text x=\"111\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">1</text><text x=\"171\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">2</text><text x=\"231\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">3</text><text x=\"291\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">4</text><text x=\"26\" y=\"179\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">0</text><text x=\"26\" y=\"149\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">2</text><text x=\"26\" y=\"119\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">4</text><text x=\"26\" y=\"89\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">6</text><text x=\"26\" y=\"59\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">8</text><path d=\"M55 175 L295 55\" stroke=\"#36bfb0\" stroke-width=\"3\"/><text x=\"323\" y=\"163\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">t (s)</text><text x=\"65\" y=\"27\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">s (m)</text></g></svg>",
@@ -497,11 +497,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Hastigheten är \\(2\\ \\mathrm{m/s}\\) i positiv riktning.",
     "komihag": "En horisontell linje i ett läge–tid-diagram betyder att föremålet står stilla.",
-    "traningsfamilj": "Tolka och rita rörelsediagram"
+    "traningsfamilj": "Hastighet ur s-t-diagram"
   },
   "fy1-grund-3-08": {
     "kap": 3,
-    "omr": "diagram",
+    "omr": "vt_diagram",
     "rubrik": "Läs ett hastighet–tid-diagram",
     "niva": "E",
     "t": "<p>Hur långt rör sig vagnen under de fem sekunderna i diagrammet?</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 215\" width=\"400\" height=\"215\" role=\"img\" aria-label=\"Hastighet mot tid. Konstant hastighet 4 m/s från 0 till 5 s.\" style=\"display:block;width:min(100%,400px);height:auto;margin:16px auto;color:inherit\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><g opacity=\"0.18\" stroke-width=\"1\"><path d=\"M105 55 V175\"/><path d=\"M155 55 V175\"/><path d=\"M205 55 V175\"/><path d=\"M255 55 V175\"/><path d=\"M305 55 V175\"/><path d=\"M55 145 H305\"/><path d=\"M55 115 H305\"/><path d=\"M55 85 H305\"/><path d=\"M55 55 H305\"/></g><path d=\"M105 171 V179\"/><path d=\"M155 171 V179\"/><path d=\"M205 171 V179\"/><path d=\"M255 171 V179\"/><path d=\"M305 171 V179\"/><path d=\"M51 145 H59\"/><path d=\"M51 115 H59\"/><path d=\"M51 85 H59\"/><path d=\"M51 55 H59\"/><path stroke=\"currentColor\" d=\"M55 175 L355 175 M346.90 171.09 L355 175 L346.90 178.91\"/><path stroke=\"currentColor\" d=\"M55 175 L55 20 M51.09 28.10 L55 20 L58.91 28.10\"/><text x=\"51\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">0</text><text x=\"101\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">1</text><text x=\"151\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">2</text><text x=\"201\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">3</text><text x=\"251\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">4</text><text x=\"301\" y=\"197\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">5</text><text x=\"30\" y=\"179\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">0</text><text x=\"30\" y=\"149\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">1</text><text x=\"30\" y=\"119\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">2</text><text x=\"30\" y=\"89\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">3</text><text x=\"30\" y=\"59\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">4</text><path d=\"M55 55 L305 55\" stroke=\"#36bfb0\" stroke-width=\"3\"/><text x=\"323\" y=\"163\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">t (s)</text><text x=\"65\" y=\"27\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">v (m/s)</text></g></svg>",
@@ -519,7 +519,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Vagnen rör sig \\(20\\ \\mathrm m\\).",
     "komihag": "Lutningen i ett v–t-diagram ger accelerationen. Arean ger förflyttningen; när hastigheten är positiv hela tiden är den också sträckan.",
-    "traningsfamilj": "Lutning och area i rörelsediagram"
+    "traningsfamilj": "Sträcka och förflyttning ur v-t-diagram"
   },
   "fy1-grund-3-09": {
     "kap": 3,
@@ -545,7 +545,7 @@ window.TYPUPPGIFTER_FY1 = {
   },
   "fy1-grund-4-01": {
     "kap": 4,
-    "omr": "ritakrafter",
+    "omr": "newton1",
     "rubrik": "Rita krafterna på ett föremål",
     "niva": "E",
     "t": "<p>En bok ligger stilla på ett vågrätt bord. Vilka krafter verkar på boken, och åt vilka håll?</p>",
@@ -566,11 +566,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Tyngdkraft nedåt och lika stor normalkraft uppåt.",
     "komihag": "Rita bara krafter på det valda föremålet. En hastighetspil är inte en kraft.",
-    "traningsfamilj": "Friläggning och kraftdiagram"
+    "traningsfamilj": "Rita krafter vid jämvikt"
   },
   "fy1-grund-4-02": {
     "kap": 4,
-    "omr": "newton",
+    "omr": "newton1",
     "rubrik": "Newtons första lag",
     "niva": "E",
     "t": "<p>En vagn rullar rakt fram med konstant fart. Dragkraften är 12 N framåt. Hur stor är den sammanlagda motståndskraften?</p>",
@@ -587,11 +587,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Motståndskraften är \\(12\\ \\mathrm N\\) bakåt.",
     "komihag": "Det behövs en resulterande kraft för att ändra hastigheten, inte för att behålla en konstant hastighet.",
-    "traningsfamilj": "Kraftjämvikt"
+    "traningsfamilj": "Kraftresultant och kraftjämvikt"
   },
   "fy1-grund-4-03": {
     "kap": 4,
-    "omr": "newton",
+    "omr": "newton1",
     "rubrik": "Resulterande kraft",
     "niva": "E",
     "t": "<p>Två vågräta krafter verkar på en låda: 30 N åt höger och 10 N åt vänster. Vilken är den resulterande kraften?</p>",
@@ -609,11 +609,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Resultanten är \\(20\\ \\mathrm N\\) åt höger.",
     "komihag": "Krafter åt samma håll adderas. Krafter åt motsatta håll subtraheras. Ange också resultantens riktning.",
-    "traningsfamilj": "Newtons andra lag med motståndskrafter"
+    "traningsfamilj": "Kraftresultant och kraftjämvikt"
   },
   "fy1-grund-4-04": {
     "kap": 4,
-    "omr": "newton",
+    "omr": "newton2",
     "rubrik": "Newtons andra lag",
     "niva": "E",
     "t": "<p>En vagn har massan 4,0 kg. Den resulterande kraften på vagnen är 12 N åt höger. Bestäm accelerationen.</p>",
@@ -632,11 +632,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Accelerationen är \\(3{,}0\\ \\mathrm{m/s^2}\\) åt höger.",
     "komihag": "\\(F_{\\mathrm{res}}=ma\\). Accelerationen har samma riktning som resultanten.",
-    "traningsfamilj": "Newtons andra lag"
+    "traningsfamilj": "F = ma"
   },
   "fy1-grund-4-05": {
     "kap": 4,
-    "omr": "newton",
+    "omr": "newton3",
     "rubrik": "Newtons tredje lag",
     "niva": "E",
     "t": "<p>Du trycker på en vägg med kraften 50 N. Med vilken kraft trycker väggen på dig?</p>",
@@ -652,11 +652,12 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Väggen trycker på dig med \\(50\\ \\mathrm N\\), i motsatt riktning.",
-    "komihag": "Kraft och motkraft verkar på olika föremål. Bokens tyngdkraft och normalkraft är därför inte ett sådant kraftpar."
+    "komihag": "Kraft och motkraft verkar på olika föremål. Bokens tyngdkraft och normalkraft är därför inte ett sådant kraftpar.",
+    "traningsfamilj": "Kraft och motkraft"
   },
   "fy1-grund-4-06": {
     "kap": 4,
-    "omr": "gravitation",
+    "omr": "tyngdkraft",
     "rubrik": "Massa och tyngdkraft",
     "niva": "E",
     "t": "<p>En ryggsäck har massan 5,0 kg. Hur stor är tyngdkraften på den nära jordytan? Använd g = 9,82 N/kg.</p>",
@@ -675,11 +676,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Tyngdkraften är ungefär \\(49\\ \\mathrm N\\) nedåt.",
     "komihag": "Samma ryggsäck har samma massa på månen, men mindre tyngdkraft eftersom g är mindre där.",
-    "traningsfamilj": "Gravitation, tyngd och cirkulära banor"
+    "traningsfamilj": "Massa och tyngd"
   },
   "fy1-grund-4-07": {
     "kap": 4,
-    "omr": "ritakrafter",
+    "omr": "newton1",
     "rubrik": "Dela upp en kraft i komposanter",
     "niva": "E",
     "t": "<p>En kraft är 100 N och bildar vinkeln 30° mot den vågräta riktningen. Bestäm den vågräta och den lodräta komposanten.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 215\" width=\"400\" height=\"215\" role=\"img\" aria-label=\"Kraft på 100 N riktad 30 grader över den positiva x-axeln.\" style=\"display:block;width:min(100%,400px);height:auto;margin:16px auto;color:inherit\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path stroke=\"currentColor\" d=\"M70 170 L330 170 M321.90 166.09 L330 170 L321.90 173.91\"/><path stroke=\"currentColor\" d=\"M70 170 L70 25 M66.09 33.10 L70 25 L73.91 33.10\"/><path stroke=\"#36bfb0\" d=\"M70 170 L260 60 M251.03 60.67 L260 60 L254.95 67.45\"/><path d=\"M260 60 V170 M70 60 H260\" stroke-dasharray=\"5 5\"/><path d=\"M112 170 A42 42 0 0 0 106.3 149\"/><text x=\"121\" y=\"157\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">30°</text><text x=\"168\" y=\"88\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">100 N</text><text x=\"322\" y=\"195\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">x</text><text x=\"45\" y=\"30\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">y</text></g></svg>",
@@ -697,7 +698,8 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Ungefär \\(87\\ \\mathrm N\\) åt höger och \\(50\\ \\mathrm N\\) uppåt.",
-    "komihag": "Välj sinus eller cosinus utifrån vilken vinkel som är markerad. Komposanterna är ett annat sätt att beskriva samma kraft, inte två extra krafter."
+    "komihag": "Välj sinus eller cosinus utifrån vilken vinkel som är markerad. Komposanterna är ett annat sätt att beskriva samma kraft, inte två extra krafter.",
+    "traningsfamilj": "Kraftresultant och kraftjämvikt"
   },
   "fy1-grund-4-08": {
     "kap": 4,
@@ -720,7 +722,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Friktionskraften är \\(60\\ \\mathrm N\\), riktad mot glidningen.",
     "komihag": "På ett vågrätt golv är normalkraften lika stor som tyngdkraften om inga andra lodräta krafter verkar och den lodräta accelerationen är noll.",
-    "traningsfamilj": "Friktionskraft, friktionstal och rörelse"
+    "traningsfamilj": "Vilo- och glidfriktion"
   },
   "fy1-grund-4-09": {
     "kap": 4,
@@ -741,7 +743,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Friktionskraften är \\(20\\ \\mathrm N\\), mot din tryckkraft.",
     "komihag": "Vilofriktionen är inte alltid lika med sitt maxvärde. Glidfriktion används när ytorna glider mot varandra.",
-    "traningsfamilj": "Statisk och glidfriktion"
+    "traningsfamilj": "Vilo- och glidfriktion"
   },
   "fy1-grund-4-10": {
     "kap": 4,
@@ -764,7 +766,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Fjäderkraften är \\(5{,}0\\ \\mathrm N\\).",
     "komihag": "\\(F=k\\Delta l\\). Fjäderkraften är riktad så att fjädern vill återgå till sin obelastade längd.",
-    "traningsfamilj": "Fjädrar: kraft, energi och svängning"
+    "traningsfamilj": "Hookes lag och fjäderkonstant"
   },
   "fy1-grund-4-11": {
     "kap": 4,
@@ -786,7 +788,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Kraftmomentet är \\(8{,}0\\ \\mathrm{Nm}\\).",
     "komihag": "Med längre hävarm behövs mindre kraft för att åstadkomma samma moment.",
-    "traningsfamilj": "Kraftmoment"
+    "traningsfamilj": "Kraftmoment och momentarm"
   },
   "fy1-grund-4-12": {
     "kap": 4,
@@ -809,7 +811,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Det behövs \\(20\\ \\mathrm N\\).",
     "komihag": "Tre gånger längre hävarm kräver en tredjedel så stor kraft för samma moment.",
-    "traningsfamilj": "Momentjämvikt"
+    "traningsfamilj": "Momentjämvikt och hävstänger"
   },
   "fy1-grund-4-13": {
     "kap": 4,
@@ -830,7 +832,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Lådan på den breda sidan behöver lutas mest innan den välter.",
     "komihag": "Bred stödyta och låg tyngdpunkt ger vanligtvis bättre stabilitet.",
-    "traningsfamilj": "Tyngdpunkt och stabilitet"
+    "traningsfamilj": "Tyngdpunkt och tippning"
   },
   "fy1-grund-5-01": {
     "kap": 5,
@@ -852,7 +854,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Du utför arbetet \\(100\\ \\mathrm J\\).",
     "komihag": "\\(W=Fs\\) för en konstant kraft i rörelsens riktning. Utan förflyttning utför kraften inget mekaniskt arbete på föremålet.",
-    "traningsfamilj": "Mekaniskt arbete"
+    "traningsfamilj": "Arbete W = F·s"
   },
   "fy1-grund-5-02": {
     "kap": 5,
@@ -875,11 +877,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Bokens lägesenergi är ungefär \\(29\\ \\mathrm J\\).",
     "komihag": "Det är skillnaden i höjd som avgör ändringen i lägesenergi.",
-    "traningsfamilj": "Arbete och mekanisk energi"
+    "traningsfamilj": "Lägesenergi och lyftarbete"
   },
   "fy1-grund-5-03": {
     "kap": 5,
-    "omr": "arbete",
+    "omr": "rorelseenergi",
     "rubrik": "Rörelseenergi",
     "niva": "E",
     "t": "<p>En vagn med massan 2,0 kg har farten 3,0 m/s. Hur stor är rörelseenergin?</p>",
@@ -898,11 +900,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Rörelseenergin är \\(9{,}0\\ \\mathrm J\\).",
     "komihag": "Dubbel fart ger fyra gånger så stor rörelseenergi vid oförändrad massa.",
-    "traningsfamilj": "Arbete och mekanisk energi"
+    "traningsfamilj": "Rörelseenergi Ek = mv²/2"
   },
   "fy1-grund-5-04": {
     "kap": 5,
-    "omr": "arbete",
+    "omr": "rorelseenergi",
     "rubrik": "Energiprincipen",
     "niva": "E",
     "t": "<p>En boll släpps från vila. Från början har den lägesenergin 20 J relativt marken. Under fallet är lägesenergin vid ett tillfälle 8 J. Hur stor är rörelseenergin då? Bortse från luftmotståndet.</p>",
@@ -920,7 +922,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Rörelseenergin är \\(12\\ \\mathrm J\\).",
     "komihag": "Mekanisk energi är lägesenergi plus rörelseenergi. Vid friktion kan mekanisk energi omvandlas till inre energi, men den totala energin bevaras.",
-    "traningsfamilj": "Arbete och mekanisk energi"
+    "traningsfamilj": "Energiprincipen"
   },
   "fy1-grund-5-05": {
     "kap": 5,
@@ -942,7 +944,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Dragkraften utför arbetet \\(60\\ \\mathrm J\\).",
     "komihag": "Lådans rörelseenergi ökar inte när farten är konstant. Den tillförda energin blir främst inre energi genom friktionen.",
-    "traningsfamilj": "Arbete mot friktion"
+    "traningsfamilj": "Arbete W = F·s"
   },
   "fy1-grund-5-06": {
     "kap": 5,
@@ -965,7 +967,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Den nyttiga effekten är \\(200\\ \\mathrm W\\).",
     "komihag": "Samma arbete utfört på kortare tid innebär större effekt.",
-    "traningsfamilj": "Mekanisk effekt"
+    "traningsfamilj": "Effekt P = W/t"
   },
   "fy1-grund-5-07": {
     "kap": 5,
@@ -988,7 +990,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Lampan använder \\(0{,}040\\ \\mathrm{kWh}\\).",
     "komihag": "W · s ger J. kW · h ger kWh. Kilowatt är effekt; kilowattimme är energi.",
-    "traningsfamilj": "Energi, effekt och tid"
+    "traningsfamilj": "Energi i kWh och vardagen"
   },
   "fy1-grund-5-08": {
     "kap": 5,
@@ -1010,7 +1012,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Verkningsgraden är \\(70\\,\\%\\).",
     "komihag": "Den energi som inte blir nyttigt arbete försvinner inte. Den överförs ofta som värme till omgivningen.",
-    "traningsfamilj": "Effekt och verkningsgrad"
+    "traningsfamilj": "Verkningsgrad"
   },
   "fy1-grund-5-09": {
     "kap": 5,
@@ -1033,7 +1035,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Rörelsemängden är \\(6{,}0\\ \\mathrm{kg\\,m/s}\\) åt höger.",
     "komihag": "Vid jämförelser längs en rak linje kan du välja höger som positivt och vänster som negativt.",
-    "traningsfamilj": "Impuls och rörelsemängd"
+    "traningsfamilj": "Rörelsemängd p = mv"
   },
   "fy1-grund-5-10": {
     "kap": 5,
@@ -1056,11 +1058,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Impulsen är \\(2{,}0\\ \\mathrm{Ns}\\) åt höger. Rörelsemängden ökar med \\(2{,}0\\ \\mathrm{kg\\,m/s}\\) åt höger.",
     "komihag": "\\(I=\\Delta p\\). För samma ändring i rörelsemängd ger längre påverkanstid mindre medelkraft.",
-    "traningsfamilj": "Impuls och rörelsemängd"
+    "traningsfamilj": "Impuls och medelkraft"
   },
   "fy1-grund-5-11": {
     "kap": 5,
-    "omr": "rorelsemangd",
+    "omr": "kollisioner",
     "rubrik": "Rörelsemängd vid en kollision",
     "niva": "E",
     "t": "<p>En vagn på 1,0 kg rullar med 4,0 m/s in i en stillastående vagn på 1,0 kg. De fastnar i varandra. Vilken gemensam fart får de? Försumma den yttre impulsen under stöten.</p>",
@@ -1079,7 +1081,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Vagnarna får farten \\(2{,}0\\ \\mathrm{m/s}\\) i den första vagnens ursprungliga riktning.",
     "komihag": "När vagnar fastnar i varandra bevaras inte rörelseenergin. En del omvandlas till inre energi och deformation.",
-    "traningsfamilj": "Kollisioner och rörelsemängd"
+    "traningsfamilj": "Stötar där kropparna fastnar"
   },
   "fy1-grund-5-12": {
     "kap": 5,
@@ -1099,7 +1101,8 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Elektrisk energi blir bland annat rörelseenergi och inre energi. Den totala energin bevaras, men bara en del blir nyttig luftrörelse.",
-    "komihag": "När energi sprids som värme till omgivningen minskar ofta möjligheten att använda den till arbete. Det är en viktig del av begreppet energikvalitet."
+    "komihag": "När energi sprids som värme till omgivningen minskar ofta möjligheten att använda den till arbete. Det är en viktig del av begreppet energikvalitet.",
+    "traningsfamilj": "Blandat – energi och rörelsemängd"
   },
   "fy1-grund-5-13": {
     "kap": 5,
@@ -1119,7 +1122,8 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "En förnybar energiresurs utan bränsleförbränning i driften, men med väderberoende elproduktion.",
-    "komihag": "Skilj mellan energi och effekt: energin summeras över tid, medan elsystemet även behöver tillräcklig effekt när elen efterfrågas."
+    "komihag": "Skilj mellan energi och effekt: energin summeras över tid, medan elsystemet även behöver tillräcklig effekt när elen efterfrågas.",
+    "traningsfamilj": "Blandat – energi och rörelsemängd"
   },
   "fy1-grund-6-01": {
     "kap": 6,
@@ -1142,7 +1146,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Trycket är \\(20\\ \\mathrm{kPa}\\).",
     "komihag": "\\(p=F/A\\). Kontrollera att du använder newton och m² när svaret ska bli i pascal.",
-    "traningsfamilj": "Tryck, kraft, area och hydraulik"
+    "traningsfamilj": "Tryck p = F/A"
   },
   "fy1-grund-6-02": {
     "kap": 6,
@@ -1165,7 +1169,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Vätsketrycket är ungefär \\(20\\ \\mathrm{kPa}\\).",
     "komihag": "I samma stillastående vätska är trycket lika stort på samma djup, oavsett kärlets form.",
-    "traningsfamilj": "Hydrostatiskt tryck"
+    "traningsfamilj": "Vätsketryck p = ρgh"
   },
   "fy1-grund-6-03": {
     "kap": 6,
@@ -1187,7 +1191,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Det totala trycket är \\(131\\ \\mathrm{kPa}\\).",
     "komihag": "Under en öppen vätskeyta gäller \\(p_{\\text{tot}}=p_{\\text{yta}}+\\rho gh\\).",
-    "traningsfamilj": "Lufttryck och tryckskillnader"
+    "traningsfamilj": "Absoluttryck, övertryck och lufttryck"
   },
   "fy1-grund-6-04": {
     "kap": 6,
@@ -1209,7 +1213,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "\\(20\\,{}^\\circ\\mathrm C\\approx293\\ \\mathrm K\\).",
     "komihag": "Använd kelvin i gaslagarna. Skriv K utan gradtecken.",
-    "traningsfamilj": "Kelvinskalan"
+    "traningsfamilj": "Kelvin, tryck- och volymenheter"
   },
   "fy1-grund-6-05": {
     "kap": 6,
@@ -1253,7 +1257,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Trycket blir \\(110\\ \\mathrm{kPa}\\).",
     "komihag": "För en bestämd mängd ideal gas är \\(pV/T\\) konstant. Börja med att se vilka storheter som inte ändras.",
-    "traningsfamilj": "Allmänna gaslagen"
+    "traningsfamilj": "Tryck, volym och temperatur"
   },
   "fy1-grund-6-07": {
     "kap": 6,
@@ -1275,7 +1279,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Lyftkraften är ungefär \\(4{,}9\\ \\mathrm N\\) uppåt.",
     "komihag": "\\(F_{\\text{lyft}}=\\rho_{\\text{vätska}}gV_{\\text{undanträngd}}\\). Använd vätskans densitet och den undanträngda volymen.",
-    "traningsfamilj": "Arkimedes princip och flytkraft"
+    "traningsfamilj": "Lyftkraft och undanträngd volym"
   },
   "fy1-grund-6-08": {
     "kap": 6,
@@ -1296,7 +1300,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Träklossen flyter och metallbiten sjunker.",
     "komihag": "Ett föremål som flyter i vila har lika stor lyftkraft som tyngdkraft. För ihåliga föremål behöver du jämföra hela föremålets medeldensitet med vätskans.",
-    "traningsfamilj": "Flytkraft, flytvillkor och densitet"
+    "traningsfamilj": "Flytande kroppar"
   },
   "fy1-grund-7-01": {
     "kap": 7,
@@ -1316,7 +1320,8 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Energi överförs från skeden till vattnet. Skeden svalnar och vattnet värms.",
-    "komihag": "Temperatur säger inte ensam hur stor den inre energin är. Även bland annat mängden ämne och ämnets egenskaper spelar roll."
+    "komihag": "Temperatur säger inte ensam hur stor den inre energin är. Även bland annat mängden ämne och ämnets egenskaper spelar roll.",
+    "traningsfamilj": "Specifik värmekapacitet"
   },
   "fy1-grund-7-02": {
     "kap": 7,
@@ -1339,7 +1344,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Det behövs ungefär \\(21\\ \\mathrm{kJ}\\).",
     "komihag": "\\(Q=mc\\Delta T\\) gäller när ämnet värms eller kyls utan fasövergång.",
-    "traningsfamilj": "Värmeenergi och specifik värmekapacitet"
+    "traningsfamilj": "Specifik värmekapacitet"
   },
   "fy1-grund-7-03": {
     "kap": 7,
@@ -1362,7 +1367,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Det behövs ungefär \\(67\\ \\mathrm{kJ}\\).",
     "komihag": "Smältning och förångning kräver energi. Stelning och kondensation avger energi. Under smältning eller kokning av ett rent ämne vid konstant tryck är temperaturen konstant.",
-    "traningsfamilj": "Fasövergångar och latent värme"
+    "traningsfamilj": "Latent värme"
   },
   "fy1-grund-7-04": {
     "kap": 7,
@@ -1384,7 +1389,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Det behövs ungefär \\(230\\ \\mathrm{kJ}\\).",
     "komihag": "Använd värmekapacitet vid temperaturändring och smält- eller ångbildningsentalpi vid fasövergång.",
-    "traningsfamilj": "Fasövergångar och latent värme"
+    "traningsfamilj": "Latent värme"
   },
   "fy1-grund-7-05": {
     "kap": 7,
@@ -1404,7 +1409,8 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Skeden: ledning. Vattnet: strömning. Solen: strålning.",
-    "komihag": "Flera sätt att överföra värme kan förekomma samtidigt. Välj det som det aktuella exemplet visar tydligast."
+    "komihag": "Flera sätt att överföra värme kan förekomma samtidigt. Välj det som det aktuella exemplet visar tydligast.",
+    "traningsfamilj": "Värmeledning och strålning"
   },
   "fy1-grund-7-06": {
     "kap": 7,
@@ -1426,7 +1432,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Sluttemperaturen blir \\(40\\,{}^\\circ\\mathrm C\\).",
     "komihag": "Ett vanligt medelvärde fungerar här eftersom det är samma ämne och lika stora massor. I andra fall behöver energin som avges och tas upp jämföras.",
-    "traningsfamilj": "Värmebalans och blandning"
+    "traningsfamilj": "Värmebalans och termisk jämvikt"
   },
   "fy1-grund-8-01": {
     "kap": 8,
@@ -1447,7 +1453,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Staven blir negativt laddad. Två negativt laddade stavar stöter bort varandra.",
     "komihag": "Lika laddningar repellerar, olika laddningar attraherar. Vid vanlig laddning genom gnidning flyttas elektroner mellan materialen.",
-    "traningsfamilj": "Laddning och antal elektroner"
+    "traningsfamilj": "Laddning och elementarladdning"
   },
   "fy1-grund-8-02": {
     "kap": 8,
@@ -1469,11 +1475,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Laddningen är \\(-1{,}6\\ \\mathrm{nC}\\).",
     "komihag": "Laddningens belopp är \\(|Q|=Ne\\). Sök antalet med \\(N=|Q|/e\\).",
-    "traningsfamilj": "Laddning och antal elektroner"
+    "traningsfamilj": "Laddning och elementarladdning"
   },
   "fy1-grund-8-03": {
     "kap": 8,
-    "omr": "laddning",
+    "omr": "coulomb",
     "rubrik": "Elektrisk kraft mellan laddningar",
     "niva": "E",
     "t": "<p>Två små kulor har laddningarna +1,0 µC vardera och avståndet 0,30 m mellan sina centrum. Beräkna kraftens storlek och ange om de dras mot eller stöts bort från varandra. Behandla kulorna som punktladdningar och använd k = 8,99 · 10⁹ Nm²/C².</p>",
@@ -1491,11 +1497,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Kraften på varje kula är ungefär \\(0{,}10\\ \\mathrm N\\). Kulorna stöter bort varandra.",
     "komihag": "Båda kulorna påverkas av lika stora, motriktade krafter.",
-    "traningsfamilj": "Coulombs lag och elektrisk kraft"
+    "traningsfamilj": "Coulombs lag"
   },
   "fy1-grund-8-04": {
     "kap": 8,
-    "omr": "kretsar",
+    "omr": "strom",
     "rubrik": "Vad är elektrisk ström?",
     "niva": "E",
     "t": "<p>Under 3,0 s passerar laddningen 6,0 C genom en ledare. Hur stor är medelströmmen?</p>",
@@ -1513,7 +1519,8 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Strömmen är \\(2{,}0\\ \\mathrm A\\).",
-    "komihag": "Strömriktningen definieras som den riktning positiv laddning skulle röra sig. I en metall rör sig elektronerna åt motsatt håll."
+    "komihag": "Strömriktningen definieras som den riktning positiv laddning skulle röra sig. I en metall rör sig elektronerna åt motsatt håll.",
+    "traningsfamilj": "Ström och laddning i kretsar"
   },
   "fy1-grund-8-05": {
     "kap": 8,
@@ -1536,7 +1543,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Spänningen är \\(6{,}0\\ \\mathrm V\\).",
     "komihag": "\\(E=QU\\) beskriver energiöverföringens storlek när laddningen Q passerar spänningen U.",
-    "traningsfamilj": "Elektrisk potential och spänning"
+    "traningsfamilj": "Potentialskillnad och energi (W = qU)"
   },
   "fy1-grund-8-06": {
     "kap": 8,
@@ -1563,7 +1570,7 @@ window.TYPUPPGIFTER_FY1 = {
   },
   "fy1-grund-8-07": {
     "kap": 8,
-    "omr": "kopplingar",
+    "omr": "seriekoppling",
     "rubrik": "Resistorer i serie",
     "niva": "E",
     "t": "<p>Resistorerna 10 Ω och 20 Ω är seriekopplade till ett batteri på 6,0 V. Bestäm ersättningsresistansen och strömmen. Bortse från batteriets och ledningarnas resistans.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\" width=\"400\" height=\"200\" role=\"img\" aria-label=\"Batteri på 6 volt i serie med resistorer på 10 ohm och 20 ohm.\" style=\"display:block;width:min(100%,400px);height:auto;margin:16px auto;color:inherit\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M75 50 H125 M185 50 H225 M285 50 H345 V160 H75 V114 M75 50 V95\"/><rect x=\"125\" y=\"40\" width=\"60\" height=\"20\"/><rect x=\"225\" y=\"40\" width=\"60\" height=\"20\"/><path d=\"M55 95 H95 M63 114 H87\"/><text x=\"127\" y=\"30\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">10 Ω</text><text x=\"227\" y=\"30\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">20 Ω</text><text x=\"16\" y=\"147\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">6,0 V</text><text x=\"100\" y=\"96\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">+</text></g></svg>",
@@ -1582,11 +1589,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Ersättningsresistansen är \\(30\\ \\Omega\\). Strömmen är \\(0{,}20\\ \\mathrm A\\) genom båda resistorerna.",
     "komihag": "I serie är strömmen lika stor genom komponenterna och spänningarna över dem adderas till batteriets spänning.",
-    "traningsfamilj": "Seriekoppling"
+    "traningsfamilj": "Ersättningsresistans och ström i serie"
   },
   "fy1-grund-8-08": {
     "kap": 8,
-    "omr": "kopplingar",
+    "omr": "parallellkoppling",
     "rubrik": "Resistorer parallellt",
     "niva": "E",
     "t": "<p>Resistorerna 30 Ω och 60 Ω är parallellkopplade till ett batteri på 6,0 V. Bestäm strömmen i varje gren och den totala strömmen. Bortse från batteriets och ledningarnas resistans.</p><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 215\" width=\"420\" height=\"215\" role=\"img\" aria-label=\"Batteri på 6 volt anslutet till två parallella grenar med 30 respektive 60 ohm.\" style=\"display:block;width:min(100%,420px);height:auto;margin:16px auto;color:inherit\"><g fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M70 45 H320 V80 M70 45 V93 M70 111 V185 H320 V125 M190 45 V80 M190 125 V185\"/><rect x=\"181\" y=\"80\" width=\"18\" height=\"45\"/><rect x=\"311\" y=\"80\" width=\"18\" height=\"45\"/><path d=\"M50 93 H90 M58 111 H82\"/><text x=\"18\" y=\"149\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">6,0 V</text><text x=\"95\" y=\"92\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">+</text><text x=\"211\" y=\"108\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">30 Ω</text><text x=\"336\" y=\"108\" fill=\"currentColor\" stroke=\"none\" font-size=\"15\" font-family=\"sans-serif\">60 Ω</text></g></svg>",
@@ -1605,11 +1612,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Strömmarna är \\(0{,}20\\ \\mathrm A\\) och \\(0{,}10\\ \\mathrm A\\). Totalströmmen är \\(0{,}30\\ \\mathrm A\\).",
     "komihag": "I parallellkoppling är spänningen densamma över grenarna. Strömmarna i grenarna adderas.",
-    "traningsfamilj": "Parallellkoppling"
+    "traningsfamilj": "Strömfördelning i parallellkoppling"
   },
   "fy1-grund-8-09": {
     "kap": 8,
-    "omr": "kopplingar",
+    "omr": "parallellkoppling",
     "rubrik": "Ersättningsresistans parallellt",
     "niva": "E",
     "t": "<p>Två resistorer på 60 Ω vardera är parallellkopplade. Bestäm ersättningsresistansen.</p>",
@@ -1627,11 +1634,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Ersättningsresistansen är \\(30\\ \\Omega\\).",
     "komihag": "Vid parallellkoppling är ersättningsresistansen mindre än resistansen i den minsta enskilda grenen.",
-    "traningsfamilj": "Parallellkoppling"
+    "traningsfamilj": "Ersättningsresistans vid parallellkoppling"
   },
   "fy1-grund-8-10": {
     "kap": 8,
-    "omr": "kretsar",
+    "omr": "kopplingar",
     "rubrik": "Elektrisk effekt",
     "niva": "E",
     "t": "<p>En lampa är ansluten till 12 V och strömmen genom den är 0,50 A. Vilken effekt har lampan?</p>",
@@ -1673,7 +1680,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Fältstyrkan är \\(5\\,000\\ \\mathrm{V/m}\\).",
     "komihag": "Fältet är riktat från den positiva plattan mot den negativa.",
-    "traningsfamilj": "Elektriskt fält och kraft på laddningar"
+    "traningsfamilj": "Homogent fält mellan plattor (E = U/d)"
   },
   "fy1-grund-8-12": {
     "kap": 8,
@@ -1695,7 +1702,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Kraften är \\(1{,}0\\ \\mathrm{mN}\\) åt höger.",
     "komihag": "En positiv laddning påverkas med en kraft i fältets riktning. För en negativ laddning är riktningen motsatt.",
-    "traningsfamilj": "Elektriskt fält och kraft på laddningar"
+    "traningsfamilj": "Fältstyrka och kraft (E = F/q)"
   },
   "fy1-grund-9-01": {
     "kap": 9,
@@ -1721,11 +1728,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Kol-14 har 6 protoner och 8 neutroner. Kol-12 och kol-14 har samma protonantal men olika neutronantal.",
     "komihag": "Isotoper är varianter av samma grundämne med olika antal neutroner.",
-    "traningsfamilj": "Nuklider och isotoper"
+    "traningsfamilj": "Nuklidbeteckning och isotoper"
   },
   "fy1-grund-9-02": {
     "kap": 9,
-    "omr": "stralning",
+    "omr": "stralning_materia",
     "rubrik": "Alfa-, beta- och gammastrålning",
     "niva": "E",
     "t": "<p>Vad består alfa-, beta-minus- och gammastrålning av?</p>",
@@ -1741,7 +1748,8 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Alfa: heliumkärnor. Beta-minus: elektroner. Gamma: fotoner.",
-    "komihag": "Betaelektronen bildas vid sönderfallet i kärnan. Den kommer inte från atomens elektronskal."
+    "komihag": "Betaelektronen bildas vid sönderfallet i kärnan. Den kommer inte från atomens elektronskal.",
+    "traningsfamilj": "Joniserande strålning och genomträngning"
   },
   "fy1-grund-9-03": {
     "kap": 9,
@@ -1767,7 +1775,7 @@ window.TYPUPPGIFTER_FY1 = {
   },
   "fy1-grund-9-04": {
     "kap": 9,
-    "omr": "karnreaktioner",
+    "omr": "sonderfall",
     "rubrik": "Skriv ett beta-minus-sönderfall",
     "niva": "E",
     "t": "<p>Kol-14, med atomnummer 6, sönderfaller med beta-minus-sönderfall. Vilken kärna bildas? Grundämnet med atomnummer 7 är kväve, N.</p>",
@@ -1789,7 +1797,7 @@ window.TYPUPPGIFTER_FY1 = {
   },
   "fy1-grund-9-04b": {
     "kap": 9,
-    "omr": "karnreaktioner",
+    "omr": "sonderfall",
     "rubrik": "Skriv ett beta-plus-sönderfall",
     "niva": "E",
     "t": "<p>Natrium-22, med atomnumret 11, sönderfaller med beta-plus-sönderfall. Vilken kärna bildas? Grundämnet med atomnummer 10 är neon, Ne.</p>",
@@ -1812,7 +1820,7 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Neon-22, \\({}^{22}_{10}\\mathrm{Ne}\\), bildas.",
     "komihag": "Vid beta-plus-sönderfall är A oförändrat och Z minskar med 1. Positronen skrivs \\({}^{0}_{+1}e\\).",
-    "traningsfamilj": "Beta-plus-sönderfall"
+    "traningsfamilj": "Beta-plus-sönderfall, elektroninfångning och gamma"
   },
   "fy1-grund-9-04c": {
     "kap": 9,
@@ -1869,11 +1877,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Aktiviteten är \\(100\\ \\mathrm{Bq}\\) efter 6,0 timmar.",
     "komihag": "1 Bq betyder i genomsnitt ett sönderfall per sekund. Aktivitet är inte samma sak som stråldos.",
-    "traningsfamilj": "Radioaktivt sönderfall, aktivitet och halveringstid"
+    "traningsfamilj": "Halveringstid i hela steg"
   },
   "fy1-grund-9-06": {
     "kap": 9,
-    "omr": "stralning",
+    "omr": "straldoser",
     "rubrik": "Absorberad dos",
     "niva": "E",
     "t": "<p>Ett prov med massan 2,0 kg absorberar 0,0040 J strålningsenergi. Bestäm den absorberade dosen.</p>",
@@ -1892,11 +1900,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Den absorberade dosen är \\(2{,}0\\ \\mathrm{mGy}\\).",
     "komihag": "Absorberad dos mäts i Gy. Den beskriver energi per massa, inte antalet sönderfall per sekund.",
-    "traningsfamilj": "Absorberad och ekvivalent dos"
+    "traningsfamilj": "Absorberad dos (Gy)"
   },
   "fy1-grund-9-07": {
     "kap": 9,
-    "omr": "stralning",
+    "omr": "straldoser",
     "rubrik": "Ekvivalent dos",
     "niva": "E",
     "t": "<p>En vävnad får den absorberade dosen 0,10 mGy från ett strålslag med viktfaktorn 20. Bestäm den ekvivalenta dosen.</p>",
@@ -1915,11 +1923,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Den ekvivalenta dosen är \\(2{,}0\\ \\mathrm{mSv}\\).",
     "komihag": "Gy och Sv betecknar olika dosmått. Använd strålslagets viktfaktor när ekvivalent dos ska beräknas.",
-    "traningsfamilj": "Absorberad och ekvivalent dos"
+    "traningsfamilj": "Ekvivalent dos (Sv)"
   },
   "fy1-grund-9-08": {
     "kap": 9,
-    "omr": "karnreaktioner",
+    "omr": "fission",
     "rubrik": "Fission och fusion",
     "niva": "E",
     "t": "<p>Vad är skillnaden mellan fission och fusion? Ge ett exempel på var vardera processen förekommer.</p>",
@@ -1959,11 +1967,11 @@ window.TYPUPPGIFTER_FY1 = {
     ],
     "svar": "Det frigörs \\(1{,}8\\cdot10^{-12}\\ \\mathrm J\\).",
     "komihag": "Bindningsenergi är den energi som krävs för att dela en kärna i fria protoner och neutroner. En bunden kärnas massa är mindre än de fria kärnpartiklarnas sammanlagda massa.",
-    "traningsfamilj": "Nuklider, isotoper och bindningsenergi"
+    "traningsfamilj": "Massdefekt och bindningsenergi"
   },
   "fy1-grund-9-10": {
     "kap": 9,
-    "omr": "stralning",
+    "omr": "stralning_materia",
     "rubrik": "Joniserande strålning",
     "niva": "E",
     "t": "<p>Vad menas med att strålning är joniserande? Varför kan den vara användbar inom medicin men ändå kräva skydd?</p>",
@@ -1979,52 +1987,77 @@ window.TYPUPPGIFTER_FY1 = {
       }
     ],
     "svar": "Joniserande strålning kan slå loss elektroner. Den kan användas för att behandla tumörer men kan också skada frisk vävnad.",
-    "komihag": "Strålslag, absorberad energi, bestrålad vävnad och exponering spelar roll. Enbart källans aktivitet räcker inte för att avgöra påverkan."
+    "komihag": "Strålslag, absorberad energi, bestrålad vävnad och exponering spelar roll. Enbart källans aktivitet räcker inte för att avgöra påverkan.",
+    "traningsfamilj": "Joniserande strålning och genomträngning"
   },
   "fy1-grund-9-11": {
     "kap": 9,
-    "omr": "nuklider",
+    "omr": "standardmodellen",
     "rubrik": "Elementarpartiklar och protonens laddning",
     "niva": "E",
     "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att laddningen blir +1e.</p>",
     "ram": "Kvarkar och leptoner betraktas som elementarpartiklar. Protoner och neutroner är däremot uppbyggda av kvarkar.",
     "steg": [
-      {"rubrik":"Skriv kvarkarnas laddningar","text":"En uppkvark har laddningen +2e/3 och en nedkvark −e/3.","matte":"\\[u+u+d=\\frac23e+\\frac23e-\\frac13e\\]"},
-      {"rubrik":"Addera","text":"Skriv alla termer med samma nämnare.","matte":"\\[\\frac23e+\\frac23e-\\frac13e=\\frac33e=+e\\]"}
+      {
+        "rubrik": "Skriv kvarkarnas laddningar",
+        "text": "En uppkvark har laddningen +2e/3 och en nedkvark −e/3.",
+        "matte": "\\[u+u+d=\\frac23e+\\frac23e-\\frac13e\\]"
+      },
+      {
+        "rubrik": "Addera",
+        "text": "Skriv alla termer med samma nämnare.",
+        "matte": "\\[\\frac23e+\\frac23e-\\frac13e=\\frac33e=+e\\]"
+      }
     ],
     "svar": "Protonens tre kvarkar ger tillsammans laddningen \\(+e\\).",
     "komihag": "Elektronen är elementär, men protonen är sammansatt av tre kvarkar.",
-    "traningsfamilj": "Standardmodellen och elementarpartiklar"
+    "traningsfamilj": "Elementarpartiklar och kvarkar"
   },
   "fy1-grund-9-12": {
     "kap": 9,
-    "omr": "stralning",
+    "omr": "em_stralning",
     "rubrik": "Elektromagnetiska spektrumet",
     "niva": "E",
     "t": "<p>En radiovåg har frekvensen 100 MHz. Bestäm våglängden.</p>",
     "ram": "Alla elektromagnetiska vågor rör sig med ljushastigheten i vakuum. Högre frekvens betyder kortare våglängd.",
     "steg": [
-      {"rubrik":"Omvandla frekvensen","text":"Mega betyder en miljon.","matte":"\\[100\\ \\mathrm{MHz}=1{,}00\\cdot10^8\\ \\mathrm{Hz}\\]"},
-      {"rubrik":"Använd vågekvationen","text":"Lös ut våglängden ur c = fλ.","matte":"\\[\\lambda=\\frac cf=\\frac{3{,}0\\cdot10^8}{1{,}00\\cdot10^8}=3{,}0\\ \\mathrm m\\]"}
+      {
+        "rubrik": "Omvandla frekvensen",
+        "text": "Mega betyder en miljon.",
+        "matte": "\\[100\\ \\mathrm{MHz}=1{,}00\\cdot10^8\\ \\mathrm{Hz}\\]"
+      },
+      {
+        "rubrik": "Använd vågekvationen",
+        "text": "Lös ut våglängden ur c = fλ.",
+        "matte": "\\[\\lambda=\\frac cf=\\frac{3{,}0\\cdot10^8}{1{,}00\\cdot10^8}=3{,}0\\ \\mathrm m\\]"
+      }
     ],
     "svar": "Våglängden är \\(3{,}0\\ \\mathrm m\\).",
     "komihag": "Från låg till hög frekvens: radio, mikrovågor, infrarött, synligt ljus, ultraviolett, röntgen och gamma.",
-    "traningsfamilj": "Elektromagnetiska spektrumet"
+    "traningsfamilj": "Det elektromagnetiska spektrumet"
   },
   "fy1-grund-5-energi": {
     "kap": 5,
-    "omr": "arbete",
+    "omr": "effekt",
     "rubrik": "Verkningsgrad och energiresurser",
     "niva": "E",
     "t": "<p>Ett kraftverk tar emot 250 MJ energi och levererar 225 MJ elektrisk energi. Bestäm verkningsgraden.</p>",
     "ram": "Verkningsgraden är den andel av den tillförda energin som blir den önskade energiformen.",
     "steg": [
-      {"rubrik":"Välj rätt energier","text":"Elektrisk energi är den nyttiga energin i uppgiften.","matte":"\\[\\eta=\\frac{E_{nyttig}}{E_{tillförd}}\\]"},
-      {"rubrik":"Beräkna andelen","text":"Gör om decimaltalet till procent.","matte":"\\[\\eta=\\frac{225}{250}=0{,}90=90\\,\\%\\]"}
+      {
+        "rubrik": "Välj rätt energier",
+        "text": "Elektrisk energi är den nyttiga energin i uppgiften.",
+        "matte": "\\[\\eta=\\frac{E_{nyttig}}{E_{tillförd}}\\]"
+      },
+      {
+        "rubrik": "Beräkna andelen",
+        "text": "Gör om decimaltalet till procent.",
+        "matte": "\\[\\eta=\\frac{225}{250}=0{,}90=90\\,\\%\\]"
+      }
     ],
     "svar": "Verkningsgraden är \\(90\\,\\%\\).",
     "komihag": "När energisystem jämförs behövs mer än märkeffekt: även energimängd, reglerbarhet, miljöpåverkan och hela livscykeln spelar roll.",
-    "traningsfamilj": "Energiresurser och hållbarhet"
+    "traningsfamilj": "Verkningsgrad"
   }
 };
 

@@ -1,57 +1,73 @@
 window.OMR = {
  "2": {
   "enheter": "Måttenheter och prefix",
+  "medelhastighet": "Medelhastighet",
   "densitet": "Densitet",
-  "matnogg": "Mätnoggrannhet"
+  "matnogg": "Mätningar och experiment"
  },
  "3": {
-  "hastighet": "Hastighet och medelhastighet",
-  "st_diagram": "Rörelsediagram: s-t (läge–tid)",
-  "vt_diagram": "Rörelsediagram: v-t (hastighet–tid)",
-  "at_diagram": "Rörelsediagram: a-t (acceleration–tid)",
-  "diagram_samband": "Rörelsediagram: samband mellan diagram",
-  "konstacc": "Konstant acceleration",
-  "vektorer": "Vektorer"
+  "vektorer": "Hastighet som vektor",
+  "st_diagram": "s-t-diagram",
+  "acceleration": "Acceleration",
+  "vt_diagram": "v-t-diagram",
+  "at_diagram": "a-t-diagram",
+  "konstacc": "Rörelse med konstant acceleration"
  },
  "4": {
-  "newton": "Kraftresultant och Newtons lagar",
-  "gravitation": "Tyngdkraft och normalkraft",
-  "fjadrar": "Fjädrar och Hookes lag",
-  "friktion": "Friktion och lutande plan",
-  "moment": "Kraftmoment och tyngdpunkt",
-"ritakrafter": "Rita krafter",
-"blandat":"Blandat - rörelse och kraft"
+  "newton1": "Newtons första lag",
+  "newton2": "Newtons andra lag",
+  "newton3": "Newtons tredje lag",
+  "tyngdkraft": "Tyngdkraft",
+  "normalkraft": "Normalkraft",
+  "gravitation": "Gravitationskraft",
+  "fjadrar": "Hookes lag",
+  "friktion": "Friktion",
+  "lutande_plan": "Lutande plan",
+  "moment": "Kraftmoment",
+  "blandat_kraft": "Blandat – rörelse och kraft"
  },
  "5": {
-  "arbete": "Arbete och energi",
+  "arbete": "Arbete och lägesenergi",
+  "rorelseenergi": "Rörelseenergi",
   "effekt": "Effekt och verkningsgrad",
-  "rorelsemangd": "Rörelsemängd och kollisioner",
-"blandat": "Blandat - energi, rörelsemängd och kraft"
+  "rorelsemangd": "Rörelsemängd och impuls",
+  "kollisioner": "Kollisioner",
+  "blandat_energi": "Blandat – energi och rörelsemängd"
  },
  "6": {
-  "tryck": "Tryck och kraft",
+  "tryck": "Tryck",
   "vatsketryck": "Vätsketryck och lufttryck",
   "arkimedes": "Arkimedes princip",
   "gaslagen": "Allmänna gaslagen"
-
  },
  "7": {
-  "varme": "Värmeöverföring och temperatur",
+  "varme": "Värmeöverföring",
   "fasandring": "Fasändringar"
  },
  "8": {
-  "laddning": "Laddning och Coulombs lag",
-  "kretsar": "Ström, spänning och Ohms lag",
-  "kopplingar": "Elektriska kopplingar",
-  "ems": "Ems, polspänning och effekt",
-  "falt": "Elektriska fält",
-  "potential": "Potential och potentialvandring"
+  "laddning": "Laddning",
+  "coulomb": "Coulombs lag och ledare",
+  "strom": "Kretsar och ström",
+  "kretsar": "Spänning och resistans",
+  "seriekoppling": "Seriekoppling",
+  "parallellkoppling": "Parallellkoppling",
+  "kopplingar": "Komplexa kopplingar och effektutveckling",
+  "falt": "Elektriska fält och fältstyrka",
+  "potential": "Potential"
  },
  "9": {
+  "standardmodellen": "Standardmodellen",
+  "fyra_krafterna": "De fyra krafterna",
   "nuklider": "Isotoper och nuklider",
-  "karnreaktioner": "Kärnreaktioner",
+  "karnreaktioner": "Kärnreaktioner och alfasönderfall",
+  "sonderfall": "Sönderfall",
   "aktivitet": "Aktivitet och halveringstid",
-  "stralning": "Strålning och stråldoser"
+  "stralning_materia": "Strålning möter materia",
+  "fusion": "Fusion",
+  "medicinska_metoder": "Medicinska metoder",
+  "straldoser": "Stråldoser",
+  "fission": "Fission",
+  "em_stralning": "Elektromagnetisk strålning"
  }
 };
 window.KAPNAMN = {

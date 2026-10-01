@@ -1421,6 +1421,15 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 
 .kapkort{display:grid;gap:15px}
 .kaprad{padding:14px 16px;border-radius:16px;border:1px solid var(--hair);background:var(--surface2)}
+.stegrader{display:grid;gap:9px;margin:16px 0 4px}
+.stegrad{display:grid;grid-template-columns:150px minmax(0,1fr) 56px;align-items:center;gap:12px}
+@media (max-width:520px){.stegrad{grid-template-columns:118px minmax(0,1fr) 50px;gap:9px}.stegnamn small{display:block;margin:0}}
+.stegnamn{font-size:13px;font-weight:600}
+.stegnamn small{font-weight:500;color:var(--ink3);font-size:11.5px;margin-left:3px}
+.stegbar{height:7px;border-radius:99px;background:var(--hair);overflow:hidden}
+.stegbar i{display:block;height:100%;width:0;border-radius:inherit;background:var(--acc);transition:width 1.1s var(--ease)}
+.stegtal{font-size:12px;font-weight:600;color:var(--ink3);text-align:right}
+@media (prefers-reduced-motion:reduce){.stegbar i{transition:none}}
 .kaptop{display:flex;align-items:baseline;gap:10px}
 .kaptop b{flex:1;min-width:0;font-size:14px;font-weight:600;letter-spacing:-.015em}
 .kaptop .lbl{font-size:11.5px;font-weight:600}
@@ -6611,6 +6620,58 @@ function courseProgress(){
   const q=meanLevels(getAreas().map(a=>areaLevels(a.key)));
   return {q,score:scoreOf(q)};
 }
+/* ===== Tre steg i stället för en sammanvägd procent =====
+   Den gamla procenten vägde nivå 4–5 tungt och räknade otränade områden
+   som noll, så den blev nedslående låg. Stegen går att klara ett i taget:
+   ett steg är klart i ett område när eleven gjort minst STEG_MIN uppgifter
+   på stegets nivåer och uppskattningen ligger stabilt på minst 0,7.
+   scoreOf finns kvar för medaljerna Kapitelmästare och Helkurslyft. */
+const STEG=[
+  {id:"grund",namn:"Grunderna",niv:["1","2"],kort:"nivå 1–2"},
+  {id:"till",namn:"Tillämpning",niv:["3"],kort:"nivå 3"},
+  {id:"utm",namn:"Utmaning",niv:["4","5"],kort:"nivå 4–5"}
+];
+const STEG_MIN=5;
+function omradesNivaer(){
+  const m={};
+  availableTasks().forEach(t=>{ (m[t.omr||"ovrigt"] ||= new Set()).add(levelOf(t)); });
+  return m;
+}
+function stegVarde(area,steg,finns){
+  const L=steg.niv.filter(x=>finns && finns.has(x));
+  if(!L.length) return null;
+  let n=0,sum=0;
+  L.forEach(x=>{ const st=levelStatRead(area,x); const k=st.n||0; n+=k; sum+=(st.s||0)*k; });
+  if(!n) return 0;
+  return Math.max(0,Math.min(1,(sum/n-.4)/.3))*Math.min(1,n/STEG_MIN);
+}
+function stegLage(areor){
+  const finns=omradesNivaer();
+  return STEG.map(steg=>{
+    const v=areor.map(a=>({a,v:stegVarde(a.key,steg,finns[a.key])})).filter(x=>x.v!==null);
+    const klara=v.filter(x=>x.v>=.95).length;
+    const pct=v.length?Math.round(100*v.reduce((x,y)=>x+y.v,0)/v.length):0;
+    const narmast=v.filter(x=>x.v>0 && x.v<.95).sort((x,y)=>y.v-x.v)[0]?.a||null;
+    return {...steg,pct,klara,antal:v.length,narmast};
+  });
+}
+function stegStatus(lage,tranat){
+  const [g,t,u]=lage;
+  if(!tranat) return {txt:"Inte påbörjat",cls:"s-new"};
+  if(g.klara<g.antal) return {txt:`Grunderna ${g.klara} av ${g.antal}`,cls:g.klara?"s-mid":"s-low"};
+  if(t.antal && t.klara<t.antal) return {txt:`Grunderna klara · Tillämpning ${t.klara} av ${t.antal}`,cls:"s-mid"};
+  if(u.antal && u.klara<u.antal) return {txt:`Tillämpning klar · Utmaning ${u.klara} av ${u.antal}`,cls:"s-good"};
+  return {txt:"Alla steg klara",cls:"s-good"};
+}
+function stegRader(lage){
+  return `<div class="stegrader">${lage.map(x=>`<div class="stegrad">
+      <span class="stegnamn">${x.namn} <small>${x.kort}</small></span>
+      <span class="stegbar" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${x.pct}"
+        aria-label="${x.namn}: klara i ${x.klara} av ${x.antal} områden"><i data-w="${x.pct}%"></i></span>
+      <span class="stegtal">${x.klara} av ${x.antal}</span>
+    </div>`).join("")}</div>`;
+}
+
 function scoreLabel(v){
   if(v<3)  return {txt:"Inte påbörjat",cls:"s-new"};
   if(v<30) return {txt:"Påbörjat",cls:"s-low"};
@@ -10301,8 +10362,8 @@ function oppnaMatarhjalp(){
         ${NIVAER.map(L=>`<li><span class="nivakula z${L}"></span>
           <b>Nivå ${L}</b> ${esc(NIVA_TEXT[L])}</li>`).join("")}
       </ul>
-      <p>Fälten är olika breda för att nivåerna väger olika tungt.
-      Nivå 1 är smalast. Att klara grunderna räcker inte så långt.</p>
+      <p>Fälten är olika breda. De svårare nivåerna är bredare eftersom
+      de kräver mest träning.</p>
 
       <h3>Hur ett fält fylls</h3>
       <p>Två saker styr: <b>hur stor andel du klarar</b> på nivån och
@@ -10313,17 +10374,20 @@ function oppnaMatarhjalp(){
       haft svårt för nivån, eller att du inte tränat den än. Tryck på
       fältet så står det vilket.</p>
 
-      <h3>Procenten</h3>
-      <p>Talet till höger är de fem fälten sammanvägda. Det är ett
-      <b>träningsläge</b>. Det är inte ett betyg och inte hur stor del av
-      kursen du gjort klart. Det stiger långsamt i början, eftersom de
-      tyngsta nivåerna kräver mest träning.</p>
+      <h3>De tre stegen</h3>
+      <p>Kursen klaras i tre steg: <b>Grunderna</b> (nivå 1–2),
+      <b>Tillämpning</b> (nivå 3) och <b>Utmaning</b> (nivå 4–5).
+      Ett steg är klart i ett område när du gjort minst ${STEG_MIN}
+      uppgifter på stegets nivåer och klarar dem stabilt.</p>
+      <p>Ringen visar hur långt du kommit med grunderna i hela kursen.
+      Raderna under visar hur många områden som är klara i varje steg.
+      Det är ett <b>träningsläge</b>, inte ett betyg.</p>
 
       <h3>Vad du gör med det</h3>
-      <p>Är de vänstra fälten fyllda men de högra tomma sitter grunderna,
-      och nästa steg är svårare uppgifter. Är även de vänstra fälten
-      tomma börjar du där. Knappen under varje mätare tar dig till det
-      område som ligger svagast just nu.</p>
+      <p>Bli klar med grunderna i ett område innan du lägger mycket tid på
+      de svåra nivåerna. Under <b>Ditt nästa steg</b> står vad som drar ned
+      just nu och vilken nivå du bör träna. Knappen under varje kapitel tar
+      dig till det område som ligger svagast.</p>
     </div>
     <div class="modal-fot">
       <span class="spacer"></span>
@@ -10388,17 +10452,16 @@ function showProgress(record){
     <div class="tmgrid" style="margin-bottom:26px">${tranaMerHTML(3,true)}</div>
 
     ${(()=>{
-      const kurs=courseProgress(), kap=chapterProgress();
-      const k=scoreLabel(kurs.score), pct=Math.round(kurs.score);
-      const svaga=kap.filter(c=>c.score<60);
-      const nasta=svaga.sort((a,b)=>b.score-a.score)[0];
-      const redo = pct>=80
-        ? `<b>Starkt träningsläge.</b> Du har goda resultat över flera träningsnivåer i de flesta kapitel. Det är en träningsindikator, inte i sig en bedömning av provberedskap.`
-        : pct>=55
-          ? `Träningen är stabil.${nasta?` Tyngdpunkten framåt ligger i <b>${esc(nasta.name)}</b>.`:""} Fortsätt bygga bredd även på de högre träningsnivåerna.`
-          : pct>=25
-            ? `Grunderna börjar sitta.${nasta?` Nästa steg är <b>${esc(nasta.name)}</b>.`:""}`
-            : "";
+      const kap=chapterProgress();
+      const lage=stegLage(getAreas()), [g,t,u]=lage;
+      const tranatKurs=kap.some(c=>NIVAER.some(L=>c.stat[L].n));
+      const status=stegStatus(lage,tranatKurs);
+      const redo = !tranatKurs ? ""
+        : g.klara<g.antal
+          ? `Grunderna är klara i <b>${g.klara} av ${g.antal}</b> områden.${g.narmast?` Närmast att bli klart: <b>${esc(g.narmast.name)}</b>.`:""}`
+          : t.klara<t.antal
+            ? `Grunderna sitter i hela kursen. Nu är det tillämpningsuppgifterna på nivå 3 som tar dig vidare.${t.narmast?` Närmast: <b>${esc(t.narmast.name)}</b>.`:""}`
+            : `Grunderna och tillämpningen sitter. Utmaningsuppgifterna på nivå 4–5 är nästa steg.`;
       return `
       <div class="sec"><h2>Kunskapsläge</h2>
         <button class="btn sm quiet hjalpknapp" onclick="oppnaMatarhjalp()">
@@ -10407,29 +10470,29 @@ function showProgress(record){
       </div>
       <div class="card pad" style="margin-bottom:26px">
         <div class="rankrow">
-          <div class="ringwrap">
-            ${ring(kurs.score/100,74,6,"var(--acc)")}
-            <div class="num">${pct}<small>%</small></div>
+          <div class="ringwrap" title="Grunderna i hela kursen">
+            ${ring(g.pct/100,74,6,"var(--acc)")}
+            <div class="num">${g.pct}<small>%</small></div>
           </div>
           <div style="flex:1;min-width:200px">
             <div class="rankname">${esc(COURSES[state.course].name)}</div>
-            <div class="rankmeta">${k.txt}</div>
+            <div class="rankmeta">${tranatKurs?"Ringen visar hur långt du kommit med grunderna i hela kursen":"Inte påbörjat"}</div>
             ${redo?`<div class="redo">${redo}</div>`:""}
           </div>
         </div>
+        ${stegRader(lage)}
         <p class="matarnyckel">De fem fälten är kursens fem träningsnivåer.
           Grunderna till vänster, det svåraste till höger. Tryck på ett fält
           för att se vad du gjort på den nivån.</p>
         <div class="kapkort" style="margin-top:14px">
           ${kap.map(c=>{
-            const l=scoreLabel(c.score);
             const svag=svagastIKapitel(c.areor);
             const totalt=NIVAER.reduce((n,L)=>n+c.stat[L].n,0);
+            const l=stegStatus(stegLage(c.areor),totalt>0);
             return `<div class="kaprad">
               <div class="kaptop">
                 <b>${esc(c.name)}</b>
-                <span class="lbl ${l.cls}">${l.txt}</span>
-                <span class="num" title="Sammanvägt läge för ${esc(c.name)} över alla fem träningsnivåer. De svårare nivåerna väger tyngre.">${Math.round(c.score)}<small>%</small></span>
+                <span class="lbl ${l.cls}" title="Antal områden i ${esc(c.name)} där steget är klart">${l.txt}</span>
               </div>
               <div class="kapbar">
                 ${NIVAER.map(L=>{

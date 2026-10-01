@@ -3714,7 +3714,7 @@ async function visaNyhetKlasser(){
         <li><span class="nyhet-ikon">${ikon('<circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9.5" r="2.6"/><path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><path d="M14.8 15.2c.7-.4 1.4-.6 2.2-.6 2.2 0 3.8 1.5 4.2 4.4"/>')}</span>
           <span><b>Alla bidrar.</b> Klassens poäng är snittet per elev. Varje uppgift du gör lyfter laget, och ingen kan bära det själv.</span></li>
         <li><span class="nyhet-ikon">${ikon('<path d="M5.6 21V3.6"/><path d="M5.6 4.2h11.6l-2.4 4 2.4 4H5.6"/>')}</span>
-          <span><b>Dagens uppdrag.</b> Din tränare ger dig tre uppdrag varje dag. Klarar du dem får du extra XP och kan låsa upp nya medaljer.</span></li>
+          <span><b>Dagens uppdrag.</b> Din tränare ger dig fyra uppdrag varje dag i varje kurs. Klarar du dem får du extra XP och kan låsa upp nya medaljer.</span></li>
       </ul>
       <div class="modal-fot">
         <button class="btn quiet" onclick="stangNyhet()">Inte nu</button>
@@ -6758,12 +6758,13 @@ function fortsattPass(){
 function oppnaPt(){ state.ptOppen=true; renderDashboard(); }
 
 /* ===== Tränarens uppdrag =====
-   Tre uppdrag per dag och kurs. Huvuduppdraget kommer från elevens egen diagnos (samma som i
-   Ditt nästa steg), de andra två är korta vanor: laga gamla fel eller
-   hålla en serie, och nå dagsmålet. */
+   Fyra uppdrag per dag och kurs. Huvuduppdraget kommer från elevens egen
+   diagnos (samma som i Ditt nästa steg), de andra tre är korta vanor:
+   klara gamla fel (eller träna utan ledtråd), hålla en serie och nå
+   dagsmålet. */
 const UPPDRAG_ANTAL=5;
 /* XP för uppdrag. Reglerna speglar sql/2026-10-01-uppdrag-och-medaljer.sql
-   exakt: 50 per uppdrag, +50 för huvuduppdraget, +100 när alla tre är klara,
+   exakt: 50 per uppdrag, +50 för huvuduppdraget, +100 när alla är klara,
    per kurs och dygn i högst tre kurser. Databasen godtar bara XP den
    kan räkna fram själv, så brytaren slås på först när migreringen är körd.
    Annars avvisas elevens sparning. */
@@ -6773,7 +6774,7 @@ const uppdragXp=x=>UPPDRAG_XP+(x.huvud?UPPDRAG_HUVUD_XP:0);
 function uppdragNyckel(){ return todayKey(); }
 /* Uppdragen är kursspecifika: varje kurs får egna uppdrag samma dag, i
    högst UPPDRAG_MAX_KURSER kurser per dygn. Taket speglar
-   sql/2026-10-01-uppdrag-per-kurs.sql (9 uppdrag, 3 huvuduppdrag och 3 klara
+   sql/2026-10-01-fyra-uppdrag.sql (12 uppdrag, 3 huvuduppdrag och 3 klara
    dagar per dygn), så appen skickar aldrig något som databasen avvisar. */
 const UPPDRAG_MAX_KURSER=3;
 function skapaUppdrag(){
@@ -6795,8 +6796,9 @@ function skapaUppdrag(){
   }else{
     lista.push({typ:"alla",mal:UPPDRAG_ANTAL,huvud:true,text:`Klara ${UPPDRAG_ANTAL} uppgifter`});
   }
-  if(felUppgifter(10).length>=2) lista.push({typ:"laga",mal:2,text:"Laga 2 uppgifter du haft fel på",on:"startPass('fel')"});
-  else lista.push({typ:"serie",mal:5,text:"Klara 5 rätt i rad"});
+  if(felUppgifter(10).length>=2) lista.push({typ:"laga",mal:2,text:"Klara 2 uppgifter du haft fel på",on:"startPass('fel')"});
+  else lista.push({typ:"utanhjalp",mal:5,text:"Klara 5 uppgifter utan ledtråd"});
+  lista.push({typ:"serie",mal:5,text:"Klara 5 rätt i rad"});
   const mal8=profile.goal||8;
   lista.push({typ:"dagsmal",mal:mal8,text:`Gör ${mal8} uppgifter i kursen idag`});
   lista.forEach(u=>{u.n=0;u.klar=false;});
@@ -6826,7 +6828,10 @@ function dagensUppdrag(){
     if(Object.keys(dag.kurser).length>=UPPDRAG_MAX_KURSER) return {tak:true};
     u=dag.kurser[state.course]=skapaUppdrag(); saveProfile();
   }
-  u.lista.forEach(x=>{ if(x.typ==="dagsmal" && !x.klar){ x.n=Math.min(x.mal,kursIdag()); } });
+  u.lista.forEach(x=>{
+    if(x.typ==="dagsmal" && !x.klar){ x.n=Math.min(x.mal,kursIdag()); }
+    if(x.typ==="laga") x.text=`Klara ${x.mal} uppgifter du haft fel på`;
+  });
   return u;
 }
 function uppdragSvar(t,correct,lagat){
@@ -6850,6 +6855,7 @@ function uppdragSvar(t,correct,lagat){
       else if(x.typ==="niva") traff=omrIKort(x.kort) && x.niva.includes(levelOf(t));
       else if(x.typ==="familj") traff=fs.includes(x.familj);
       else if(x.typ==="utanledtrad") traff=omrIKort(x.kort) && !state.hintUsed;
+      else if(x.typ==="utanhjalp") traff=!state.hintUsed;
     }
     if(traff) x.n++;
     if(x.n>=x.mal){
@@ -6867,7 +6873,7 @@ function uppdragSvar(t,correct,lagat){
   if(xp){ profile.xp+=xp; state.sessionXp+=xp; }
   if(allaKlara){
     setTimeout(()=>cheer(medaljIkon("ljusstrale"),"Tränaren","Dagens uppdrag klara",
-      UPPDRAG_XP_PA?`Alla tre uppdrag i ${COURSES[state.course]?.name||"kursen"} avklarade. +${UPPDRAG_DAG_XP} XP i bonus.`:"Alla tre uppdrag avklarade."),1700);
+      UPPDRAG_XP_PA?`Alla uppdrag i ${COURSES[state.course]?.name||"kursen"} avklarade. +${UPPDRAG_DAG_XP} XP i bonus.`:"Alla uppdrag avklarade."),1700);
   }else if(nyss.length){
     setTimeout(()=>toast("Uppdrag klart: "+nyss.map(x=>x.text).join(", ")+(UPPDRAG_XP_PA?` +${nyss.reduce((s,x)=>s+uppdragXp(x),0)} XP`:"")),900);
   }

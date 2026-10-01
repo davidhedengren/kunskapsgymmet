@@ -1707,6 +1707,9 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
    följer ljust och mörkt läge och sidans accentfärg. */
 .pt-topp{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,330px);gap:14px 22px;align-items:start}
 .pt-vanster{min-width:0}
+.pt-markor{display:inline-block;width:.5em;height:1.05em;margin-left:2px;vertical-align:-.16em;border-radius:1px;
+  background:var(--accInk);animation:ptBlink .9s steps(1) infinite}
+@keyframes ptBlink{50%{opacity:0}}
 .pt-uppdrag.pergament{
   --perg:color-mix(in srgb,var(--gold2) 10%,var(--surface));
   --perg2:color-mix(in srgb,var(--gold2) 18%,var(--surface));
@@ -6956,6 +6959,58 @@ function ptLitet(sort){
   </section>`;
 }
 
+/* Tränarens rekommendation skrivs fram tecken för tecken med en blinkande
+   markör, som i en kommandotolk. Bara när texten är ny: samma text som
+   redan skrivits fram visas direkt vid nästa omritning. Den som valt minskad
+   rörelse får texten direkt. Höjd och bredd låses under tiden så att
+   kortet inte hoppar. */
+let ptSkrivTok=0;
+function skrivFramTranaren(){
+  const kort=document.querySelector("section.pt:not(.pt-liten)");
+  if(!kort) return;
+  const delar=[kort.querySelector(".pt-rek"),kort.querySelector(".pt-titel h2"),kort.querySelector(".pt-bubbla")].filter(Boolean);
+  const nyckel=state.course+"|"+delar.map(e=>e.textContent).join("|");
+  if(state.ptSkrivet===nyckel) return;
+  state.ptSkrivet=nyckel;
+  if(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const tok=++ptSkrivTok;
+  const jobb=delar.map(el=>{
+    const noder=[]; const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);
+    while(w.nextNode()) if(w.currentNode.data.trim()) noder.push({n:w.currentNode,txt:w.currentNode.data});
+    return {el,noder,h:el.offsetHeight,b:el.offsetWidth};
+  });
+  jobb.forEach(j=>{
+    j.el.style.minHeight=j.h+"px";
+    if(j.el.classList.contains("pt-bubbla")) j.el.style.width=j.b+"px";
+    j.el.setAttribute("aria-busy","true");
+    j.noder.forEach(x=>x.n.data="");
+  });
+  const markor=document.createElement("span");
+  markor.className="pt-markor"; markor.setAttribute("aria-hidden","true");
+  const vanta=ms=>new Promise(res=>setTimeout(res,ms));
+  const klar=()=>{
+    markor.remove();
+    jobb.forEach(j=>{ j.noder.forEach(x=>x.n.data=x.txt); j.el.style.minHeight=""; j.el.style.width=""; j.el.removeAttribute("aria-busy"); });
+  };
+  (async()=>{
+    for(const j of jobb){
+      const steg=j.el.classList.contains("pt-bubbla")?2:1;
+      for(const x of j.noder){
+        x.n.after(markor);
+        for(let i=0;i<=x.txt.length;i+=steg){
+          if(tok!==ptSkrivTok || !x.n.isConnected) return klar();
+          x.n.data=x.txt.slice(0,i);
+          await vanta(steg===2?18:24);
+        }
+        x.n.data=x.txt;
+      }
+      await vanta(180);
+    }
+    await vanta(900);
+    klar();
+  })();
+}
+
 function ptKort(){
   const done=todayCount(), goal=profile.goal||8;
   const klart=done>=goal && profile.attempts;
@@ -7159,6 +7214,7 @@ function renderDashboard(){
   </main>`;
   afterRender();
   kopplaKursljus();
+  skrivFramTranaren();
 }
 
 function showAreaPicker(record){

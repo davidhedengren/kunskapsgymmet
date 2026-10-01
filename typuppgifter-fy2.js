@@ -605,3 +605,65 @@
   });
   window.TYPUPPGIFTER_FY2=Object.fromEntries(poster);
 })();
+
+/* Moment och delmoment enligt Planering Fysik 2 2024/25 och, för relativitetsteorin,
+   de äldre Fysik 1-planeringarna (2026-10-01).
+   Varje genomgång pekar på sitt nya moment (omr) och delmoment (traningsfamilj). */
+(() => {
+  const bank=window.TYPUPPGIFTER_FY2;
+  const nya=new Map([
+    ["Riktningarna i en cirkelrörelse",1,"cirkel","Fart, varvtal och centripetalacceleration"],
+    ["Beräkna centripetalacceleration",1,"cirkel","Fart, varvtal och centripetalacceleration"],
+    ["Kraften som håller kvar föremålet",1,"cirkel","Centripetalkraft och konisk pendel"],
+    ["Period för en konisk pendel",1,"cirkel","Centripetalkraft och konisk pendel"],
+    ["Dela upp begynnelsehastigheten",1,"kast","Snett kast: komposanter, stigtid och höjd"],
+    ["Dela upp en kaströrelse",1,"kast","Vågrätt kast och kast från hög höjd"],
+    ["Hookes lag och fjäderenergi",2,"fjadrar","Hookes lag och fjäderkonstant"],
+    ["Amplitud, period och frekvens",2,"svangningar","Amplitud, period, fart och acceleration"],
+    ["Perioden för en matematisk pendel",2,"pendlar","Pendelns period"],
+    ["Vågens fart",2,"vagrorelser","Våghastighet och vågens form"],
+    ["Stående våg på en sträng",2,"staende_vagor","Noder, bukar och övertoner på en sträng"],
+    ["Grundton och övertoner i en öppen pipa",2,"ljudvagor","Grundton och övertoner i öppna och halvöppna rör"],
+    ["Grundton och övertoner i en halvöppen pipa",2,"ljudvagor","Grundton och övertoner i öppna och halvöppna rör"],
+    ["Grundton och övertoner i en stängd pipa",2,"ljudvagor","Grundton och övertoner i öppna och halvöppna rör"],
+    ["Avgör konstruktiv interferens",2,"interferens","Maximum eller minimum ur vägskillnaden"],
+    ["Ljudnivå från intensitet",2,"ljud_horsel","Ljudintensitet och ljudnivå"],
+    ["Elektriskt fält och kraft",3,"elektriska_falt","Elektrisk kraft och fältstyrka"],
+    ["Kapacitans och lagrad energi",3,"elektriska_falt","Kondensatorer"],
+    ["Magnetfält kring en rak ledare",3,"orsted","Magnetfält kring raka ledare"],
+    ["Riktning kring en rak ledare",3,"orsted","Riktningen på fältet kring en rak ledare"],
+    ["Kraft på en strömförande ledare",3,"magnetism","Kraft på en strömförande ledare"],
+    ["Riktning på kraften på en ledare",3,"magnetism","Riktningen på kraften på en ledare"],
+    ["Magnetfält i en lång spole",3,"spolar","Magnetfält i en spole"],
+    ["Bestäm en spoles nordpol",3,"spolar","Spolens nordpol och sydpol"],
+    ["Laddad partikel i magnetfält",3,"laddade_partiklar","Magnetisk kraft och banradie"],
+    ["Riktning för en laddad partikel",3,"laddade_partiklar","Riktningen på kraften på en laddad partikel"],
+    ["Radie i ett magnetfält",3,"laddade_partiklar","Magnetisk kraft och banradie"],
+    ["Kompass och jordens magnetfält",3,"jordens_magnetfalt","Jordens magnetfält som vektor"],
+    ["Beräkna inducerad spänning",3,"induktion","Magnetiskt flöde och Faradays lag"],
+    ["Lenz lag: bestäm strömriktningen",3,"induktion","Riktningen på inducerad ström"],
+    ["Effektivvärde för växelspänning",3,"vaxelstrom","Sinusformad växelspänning och effektivvärde"],
+    ["Transformatorns spänning",3,"vaxelstrom","Transformatorn och kraftöverföring"],
+    ["Frekvens och våglängd för ljus",4,"em_vagor","Våglängd och frekvens"],
+    ["Gitter och interferensmaximum",4,"vagrorelselara","Gitterekvationen"],
+    ["Temperatur från strålningsmaximum",4,"temperaturstralning","Wiens förskjutningslag"],
+    ["Brytning med Snells lag",4,"straloptik","Snells brytningslag"],
+    ["Beräkna en fotons energi",4,"ljus_partikelstrom","Fotonens energi"],
+    ["Fotoelektrisk effekt",4,"ljus_partikelstrom","Fotoelektrisk effekt"],
+    ["Emissionslinje från en atom",4,"atomstruktur","Spektrallinjer och fotoner"],
+    ["Avstånd med parallax",5,"avstandsmatning","Synvinkel, parallax och avståndsenheter"],
+    ["Ljusstyrka och avstånd",5,"farg_ljusstyrka","Luminositet, radie och temperatur"],
+    ["Läs ett HR-diagram",5,"farg_ljusstyrka","Läsa HR-diagrammet"],
+    ["Hubbles lag",5,"kosmologi","Hubbles lag"],
+    ["Universums framtid",5,"kosmologi","Universums framtid"],
+    ["Beräkna tidsdilatation",6,"tidsdilatation","Tidsdilatation och egentid"],
+    ["Beräkna längdkontraktion",6,"langdkontraktion","Längdkontraktion och egenlängd"],
+    ["Massa som energi",6,"relativistisk_energi","Viloenergi och E = mc²"],
+    ["Relativistisk rörelseenergi",6,"relativistisk_energi","Total energi och rörelseenergi"]
+  ].map(([rubrik,kap,omr,familj])=>[rubrik,{kap,omr,familj}]));
+  Object.values(bank).forEach(g=>{
+    const ny=nya.get(g.rubrik);
+    if(!ny) return;
+    g.kap=ny.kap; g.omr=ny.omr; g.traningsfamilj=ny.familj;
+  });
+})();

@@ -2495,6 +2495,39 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
 }
 .toast.show{opacity:1;transform:translate(-50%,0)}
 
+/* Tränaren som chattassistent i hörnet under passet: visselpipan som
+   knapp och en pratbubbla där texten skrivs fram. */
+.tchat{position:fixed;right:18px;bottom:18px;z-index:58;display:flex;flex-direction:column;align-items:flex-end;gap:10px;
+  pointer-events:none}
+.tchat>*{pointer-events:auto}
+.tchat-av{border:0;padding:0;background:none;cursor:pointer;border-radius:50%;transition:transform .2s var(--ease),opacity .25s;
+  opacity:0;transform:scale(.6)}
+.tchat.synlig .tchat-av{opacity:1;transform:none}
+.tchat-av .pt-avatar{width:52px;height:52px;box-shadow:0 10px 26px -8px color-mix(in srgb,var(--acc) 75%,transparent),inset 0 1px 0 rgba(255,255,255,.35)}
+.tchat-av:hover{transform:translateY(-2px)}
+.tchat-av:focus-visible{outline:2px solid var(--acc);outline-offset:3px}
+.tchat-av.ny .pt-avatar{animation:tchatPuls 1.2s var(--ease) 2}
+@keyframes tchatPuls{50%{transform:scale(1.08)}}
+.tchat-bubbla{position:relative;width:min(300px,calc(100vw - 36px));padding:12px 34px 13px 14px;border-radius:16px 16px 4px 16px;
+  background:var(--surface);border:1px solid color-mix(in srgb,var(--acc) 30%,var(--hair));color:var(--ink2);
+  box-shadow:0 18px 40px -18px rgba(0,0,0,.55),0 2px 6px rgba(0,0,0,.08);
+  font-family:var(--read);font-size:14px;line-height:1.45;
+  opacity:0;transform:translateY(10px) scale(.97);transform-origin:100% 100%;transition:opacity .22s var(--ease),transform .22s var(--ease);
+  pointer-events:none}
+.tchat-bubbla.visa{opacity:1;transform:none;pointer-events:auto}
+.tchat-namn{display:block;font-family:var(--ui,inherit);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accInk);margin-bottom:3px}
+.tchat-txt{margin:0}
+.tchat-txt b{color:var(--ink)}
+.tchat-x{position:absolute;top:7px;right:7px;width:24px;height:24px;border:0;border-radius:7px;background:none;color:var(--ink3);
+  font-size:16px;line-height:1;cursor:pointer}
+.tchat-x:hover{background:var(--surface2);color:var(--ink)}
+@media(max-width:620px){
+  .tchat{right:12px;bottom:12px}
+  .tchat-av .pt-avatar{width:44px;height:44px}
+  .tchat-bubbla{width:min(250px,calc(100vw - 24px));font-size:13.5px}
+}
+@media(prefers-reduced-motion:reduce){.tchat-av.ny .pt-avatar{animation:none}}
+
 .modal{
   position:fixed;inset:0;z-index:70;display:grid;place-items:center;padding:20px;
   background:rgba(6,14,26,.5);backdrop-filter:blur(7px);-webkit-backdrop-filter:blur(7px);
@@ -4834,7 +4867,100 @@ function toggleChapter(kap,btn){
   }
 }
 
+/* Allmän framskrivning som i en kommandotolk. Text skrivs tecken för
+   tecken; formler (KaTeX), bilder och figurer visas hela när de nås, så
+   att matematiken aldrig syns halvfärdig. Höjden låses under tiden. */
+const SKRIV_HEL=".katex,.katex-display,img,svg,canvas,table,figure,mjx-container";
+function skrivFram(el,{tecken=3,ms=14,markor=true}={}){
+  if(!el) return Promise.resolve();
+  if(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return Promise.resolve();
+  const delar=[];
+  const samla=nod=>{
+    for(const c of [...nod.childNodes]){
+      if(c.nodeType===3){ if(c.data.trim()) delar.push({typ:"text",n:c,txt:c.data}); }
+      else if(c.nodeType===1){
+        if(c.matches(SKRIV_HEL)) delar.push({typ:"hel",n:c});
+        else samla(c);
+      }
+    }
+  };
+  samla(el);
+  if(!delar.length) return Promise.resolve();
+  el.style.minHeight=el.offsetHeight+"px";
+  delar.forEach(d=>{ if(d.typ==="text") d.n.data=""; else d.n.style.visibility="hidden"; });
+  const mark=document.createElement("span");
+  mark.className="pt-markor"; mark.setAttribute("aria-hidden","true");
+  const vanta=t=>new Promise(res=>setTimeout(res,t));
+  const klar=()=>{ mark.remove(); delar.forEach(d=>{ if(d.typ==="text") d.n.data=d.txt; else d.n.style.visibility=""; }); el.style.minHeight=""; };
+  return (async()=>{
+    for(const d of delar){
+      if(!el.isConnected) return klar();
+      if(markor) d.n.after(mark);
+      if(d.typ==="hel"){ d.n.style.visibility=""; await vanta(ms*4); continue; }
+      for(let i=0;i<=d.txt.length;i+=tecken){
+        if(!el.isConnected) return klar();
+        d.n.data=d.txt.slice(0,i);
+        await vanta(ms);
+      }
+      d.n.data=d.txt;
+    }
+    await vanta(500);
+    klar();
+  })();
+}
+
+/* Tränaren som chattassistent under passet. Visselpipan syns i hörnet
+   under träningen; när tränaren har något att säga glider en pratbubbla
+   fram och texten skrivs som i en kommandotolk. Klick på visselpipan visar
+   senaste repliken igen (eller en lägesrapport om passet). */
+let tchatTimer=null, tchatSenast=null;
+function tchatEl(){
+  let el=document.getElementById("tranar-chat");
+  if(el) return el;
+  el=document.createElement("div");
+  el.id="tranar-chat"; el.className="tchat";
+  el.innerHTML=`<div class="tchat-bubbla" role="status" aria-live="polite">
+      <button class="tchat-x" onclick="tchatStang()" aria-label="Stäng">×</button>
+      <span class="tchat-namn">Din tränare</span><p class="tchat-txt"></p></div>
+    <button class="tchat-av" onclick="tchatKlick()" aria-label="Din tränare">${tranarAvatar(false)}</button>`;
+  document.body.appendChild(el);
+  return el;
+}
+function tchatLage(){
+  const el=document.getElementById("tranar-chat");
+  const pa=state.view==="training";
+  if(!pa){ if(el){ el.classList.remove("synlig"); tchatStang(); } return; }
+  tchatEl().classList.add("synlig");
+}
+function tchatStang(){
+  clearTimeout(tchatTimer);
+  document.querySelector("#tranar-chat .tchat-bubbla")?.classList.remove("visa");
+}
+function tchatLageText(){
+  const kvar=Math.max(0,(state.sessionTarget||0)-(state.sessionDone||0));
+  if(!state.sessionDone) return `Kör hårt! Du har <b>${state.sessionTarget||8} uppgifter</b> i passet. Fastnar du finns ledtråden.`;
+  return `<b>${state.sessionCorrect||0} av ${state.sessionDone}</b> rätt hittills.${kvar?` ${kvar} uppgifter kvar i passet.`:" Sista uppgiften!"}`;
+}
+function tchatKlick(){
+  const b=document.querySelector("#tranar-chat .tchat-bubbla");
+  if(b?.classList.contains("visa")) return tchatStang();
+  tranarenSager(tchatSenast && Date.now()-tchatSenast.at<60000 ? tchatSenast.html : tchatLageText(),{html:true});
+}
+function tranarenSager(text,{html=false,ms=null}={}){
+  const el=tchatEl();
+  el.classList.add("synlig");
+  const b=el.querySelector(".tchat-bubbla"), p=el.querySelector(".tchat-txt"), av=el.querySelector(".tchat-av");
+  const inner=html?text:esc(text);
+  tchatSenast={html:inner,at:Date.now()};
+  p.innerHTML=inner;
+  b.classList.add("visa");
+  av.classList.remove("ny"); void av.offsetWidth; av.classList.add("ny");
+  clearTimeout(tchatTimer);
+  const tid=ms ?? Math.max(5200,p.textContent.length*60);
+  skrivFram(p,{tecken:1,ms:22}).then(()=>{ clearTimeout(tchatTimer); tchatTimer=setTimeout(tchatStang,tid); });
+}
 function afterRender(){
+  tchatLage();
   matRullningslist();
   renderMath(app);
   requestAnimationFrame(()=>{
@@ -7681,10 +7807,9 @@ function tranarNivaLage(area){
   for(const L of NIVAER.slice(1)){ if(finns[L] && oppen[L] && kamparPa(area,L)){ kampar=L; break; } }
   return {oppen,kampar,finns};
 }
-function tranarenSager(text,ms=3600){ toast("Tränaren: "+text,ms); }
 function tranarKommentar(t,fore,efter,ggForslag){
   if(!fore || !efter || state.noXp) return;
-  const namn=areaName(t.omr)||"området";
+  const namn=`<b>${esc(areaName(t.omr)||"området")}</b>`;
   const ny=NIVAER.find(L=>efter.finns[L] && efter.oppen[L] && !fore.oppen[L]);
   let text=null;
   if(efter.kampar && efter.kampar!==fore.kampar && !ggForslag)
@@ -7693,7 +7818,7 @@ function tranarKommentar(t,fore,efter,ggForslag){
     text=`Snyggt! Nu kör vi nivå ${fore.kampar} i ${namn} igen.`;
   else if(ny)
     text=`Bra jobbat! Nu öppnas nivå ${ny} i ${namn}.`;
-  if(text) setTimeout(()=>tranarenSager(text),1300);
+  if(text) setTimeout(()=>tranarenSager(text,{html:true}),1300);
 }
 function levelWeights(area,finns={}){
   const m=Object.fromEntries(NIVAER.map(L=>[L,behärskar(scopeLevel(L,area))]));
@@ -10973,7 +11098,7 @@ function visaLedtrad(){
   if(!t || !t.ledtrad || state.hintVisible) return;
   state.hintUsed=true; state.hintVisible=true;
   const h=document.getElementById("ledtrad-holder");
-  if(h){ h.innerHTML=ledtradRuta(t); renderMath(h); }
+  if(h){ h.innerHTML=ledtradRuta(t); renderMath(h); skrivFram(h.querySelector(".ltxt")); }
   document.getElementById("ledtradknapp")?.remove();
 }
 

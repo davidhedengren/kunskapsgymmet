@@ -7551,15 +7551,50 @@ function scoreLabel(v){
 
 const behärskar = x => Math.max(0,Math.min(1,(x.s-.55)/.25)) * Math.max(0,Math.min(1,x.n/6));
 
+/* Stegvis upplåsning per område: en nivå öppnas först när eleven klarat
+   minst NIVA_KRAV uppgifter på närmast lägre nivå som finns i området, och
+   den nivån själv är öppen. Nivå 3 kräver alltså klarade uppgifter på både
+   nivå 1 och 2, och nivå 4 kräver klarade nivå 3-uppgifter. Räknas från
+   historiken; äldre träning utanför historiken (nivåstatistik med minst 8
+   försök) räknas som klar. Nivåer som saknas i området hoppas över. */
+const NIVA_KRAV=3;
+let _nivaKarta={lista:null,karta:null};
+function nivaForId(id){
+  const lista=availableTasks();
+  if(_nivaKarta.lista!==lista){
+    _nivaKarta={lista,karta:new Map(lista.map(t=>[t.id,levelOf(t)]))};
+  }
+  return _nivaKarta.karta.get(id);
+}
+function nivaKlarad(area,L){
+  const cp=ensureCourseProfile();
+  if((cp.levels?.[area]?.[L]?.n||0)>=8) return true;
+  let n=0;
+  for(const h of cp.history||[]){
+    if(h && h.ok && h.area===area && nivaForId(h.id)===L && ++n>=NIVA_KRAV) return true;
+  }
+  return false;
+}
+function oppnaNivaer(area,finns){
+  const oppen={}; let forra=null, las=false;
+  for(const L of NIVAER){
+    if(!finns[L]){ oppen[L]=!las; continue; }
+    if(forra!==null && !nivaKlarad(area,forra)) las=true;
+    oppen[L]=!las;
+    forra=L;
+  }
+  return oppen;
+}
 function levelWeights(area,finns={}){
   const m=Object.fromEntries(NIVAER.map(L=>[L,behärskar(scopeLevel(L,area))]));
   const w={};
+  const oppen=oppnaNivaer(area,finns);
   NIVAER.forEach((L,i)=>{
     const lagre=NIVAER.slice(0,i).filter(K=>finns[K]);
     const redo=lagre.length ? Math.min(...lagre.map(K=>m[K])) : 1;
     // En liten läcka uppåt ger variation, men högre nivåer växer först när
     // de lägre nivåer som faktiskt finns i området börjar sitta.
-    const gate=i===0 ? 1 : Math.max(.04,redo);
+    const gate=i===0 ? 1 : !oppen[L] ? 0 : Math.max(.04,redo);
     w[L]=gate*(1-.65*m[L]);
   });
 

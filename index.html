@@ -1440,8 +1440,10 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .mu-prick{width:12px;height:12px;border-radius:50%;background:var(--sc)}
 .mu-steg{font-size:16px;font-weight:600;letter-spacing:-.02em}
 .mu-steg small{display:block;font-size:12.5px;font-weight:500;color:var(--ink3);letter-spacing:0;margin-top:1px}
-.mu-antal{font-size:13.5px;color:var(--ink3);white-space:nowrap}
-.mu-antal b{font-size:20px;font-weight:700;color:var(--ink);letter-spacing:-.03em;margin-right:2px}
+.mu-antal{display:grid;justify-items:end;white-space:nowrap;line-height:1.15}
+.mu-antal b{font-size:20px;font-weight:700;color:var(--ink);letter-spacing:-.03em}
+.mu-antal b small{font-size:13px;font-weight:600;color:var(--ink3);margin-left:1px}
+.mu-antal>span{font-size:12px;color:var(--ink3);margin-top:2px}
 .mu-stats{grid-area:stats;margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 20px;
   padding-left:44px;border-left:1px solid var(--hair);align-self:stretch;align-content:center}
 .mu-stats div{min-width:0}
@@ -1472,6 +1474,22 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .mu-omrrad{padding:9px 0}
 .mu-omrrad .sbar{height:6px}
 .mu-omrnamn{font-size:13.5px;color:var(--ink2);padding-left:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.mu-nivadet{margin:6px 0 0 14px}
+.mu-nivadet summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:7px;
+  font-size:12.5px;font-weight:600;color:var(--ink3);padding:6px 0}
+.mu-nivadet summary::-webkit-details-marker{display:none}
+.mu-nivadet summary:before{content:"";width:6px;height:6px;border-right:1.6px solid currentColor;border-bottom:1.6px solid currentColor;
+  transform:rotate(-45deg);transition:transform .2s var(--ease)}
+.mu-nivadet[open] summary:before{transform:rotate(45deg)}
+.mu-nivadet summary:hover{color:var(--ink)}
+.mu-nivadet summary:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:4px}
+.kaprad.mu-nivor{padding:4px 0 6px;border:0;background:none;border-radius:0}
+.mu-nivor .kapbar{margin-top:6px}
+.mu-nivor .kapbar .z1 i,.mu-nivor .kapbar .z2 i{background:var(--acc)}
+.mu-nivor .kapbar .z3 i{background:var(--steg-till)}
+.mu-nivor .kapbar .z4 i,.mu-nivor .kapbar .z5 i{background:var(--steg-utm)}
+.mu-nivor .kapinfo{margin-top:10px}
+@media (max-width:760px){.mu-nivadet{margin-left:0}}
 .mu-trana{justify-self:end;font-size:12.5px;font-weight:650;color:var(--accInk);padding:4px 0}
 .mu-trana:hover{text-decoration:underline;text-underline-offset:3px}
 .mu-trana:focus-visible{outline:2px solid var(--acc);outline-offset:2px;border-radius:4px}
@@ -6684,10 +6702,10 @@ function nivaInfo(namn,L,varde,st){
   const pct=Math.round(varde*100);
   const grund = st.n
     ? `Du har gjort ${st.n} uppgift${st.n===1?"":"er"} på nivå ${L} i ${namn} `
-      +`och klarat ${Math.round(st.andel*100)} %.`
+      +`och klarat ${Math.round(st.andel*100)}\u00a0%.`
     : `Du har inte tränat nivå ${L} i ${namn} än.`;
   const mognad = st.n ? " Fältet fylls av både antal rätt och antal uppgifter." : "";
-  return {kort:`Nivå ${L}, ${pct} %`, lang:`${NIVA_TEXT[L]} ${grund}${mognad}`};
+  return {kort:`Nivå ${L}, ${pct}\u00a0%`, lang:`${NIVA_TEXT[L]} ${grund}${mognad}`};
 }
 function courseProgress(){
   const q=meanLevels(getAreas().map(a=>areaLevels(a.key)));
@@ -10457,7 +10475,8 @@ function oppnaMatarhjalp(){
 
       <h3>Kapitlen</h3>
       <p>Staplarna har samma färger som ringarna. Tryck på ett kapitel för
-      att se områdena i det.</p>
+      att se områdena i det. Längst ned kan du fälla ut nivå 1–5 och
+      trycka på ett fält för att se vad du gjort på nivån.</p>
 
       <h3>Vad du gör med det</h3>
       <p>Bli klar med grunderna innan du lägger mycket tid på de svåra
@@ -10517,12 +10536,12 @@ function showProgress(record){
         ${lage.map(x=>`<li class="s-${x.id}">
           <span class="mu-prick" aria-hidden="true"></span>
           <span class="mu-steg">${x.namn}<small>${x.kort}</small></span>
-          <span class="mu-antal"><b>${x.klara}</b> av ${x.antal}</span>
+          <span class="mu-antal"><b>${x.pct}<small>%</small></b><span>${x.klara} av ${x.antal} klara</span></span>
         </li>`).join("")}
       </ul>
       <dl class="mu-stats">
-        <div><dt>Uppgifter</dt><dd>${profile.attempts}</dd></div>
-        <div><dt>Rätt</dt><dd>${acc}<small>%</small></dd></div>
+        <div><dt>Uppgifter totalt</dt><dd>${profile.attempts}</dd></div>
+        <div><dt>Rätt totalt</dt><dd>${acc}<small>%</small></dd></div>
         <div><dt>Dagar i rad</dt><dd>${st}</dd></div>
         <div class="mu-niva" title="${profile.xp} XP${nxt?` · ${esc(nxt.name)} vid nivå ${nxt.lvl}`:""}">
           <dt>${esc(rank.name)}</dt><dd>Nivå ${lp.level}</dd>
@@ -10557,6 +10576,22 @@ function showProgress(record){
                 <button class="mu-trana" onclick="startCard('${esc(a.key)}')" aria-label="Träna ${esc(a.name)}">Träna</button>
               </div>`;
             }).join("")}
+            <details class="mu-nivadet">
+              <summary>Nivå 1–5 i ${esc(c.name)}</summary>
+              <div class="kaprad mu-nivor">
+                <div class="kapbar">
+                  ${NIVAER.map(L=>{
+                    const i=nivaInfo(c.name,L,c.q[L],c.stat[L]);
+                    return `<span class="z${L}" role="button" tabindex="0"
+                      title="${esc(i.kort+". "+i.lang)}" data-kort="${esc(i.kort)}" data-lang="${esc(i.lang)}"
+                      onclick="visaNivainfo(this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();visaNivainfo(this)}"
+                      ><i data-w="${Math.round(c.q[L]*100)}%"></i></span>`;
+                  }).join("")}
+                </div>
+                <div class="kapniv">${NIVAER.map(L=>`<span class="z${L}">${L}</span>`).join("")}</div>
+                <p class="kapinfo" hidden></p>
+              </div>
+            </details>
           </div>
         </details>`;
       }).join("")}

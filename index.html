@@ -6446,8 +6446,6 @@ function passIkon(id){
     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
 }
 
-const START_KRAV=3;
-const OPPNA_NYTT=.6;
 
 function omradesForsok(key){
   const cp=ensureCourseProfile();
@@ -6462,22 +6460,46 @@ function kursensKapitel(){
   return getAreas().map(a=>String(a.kap)).filter(k=>!sedda.has(k)&&sedda.add(k));
 }
 
-function autoKapitel(){
+/* Kapitlet eleven jobbar med just nu: det kapitel som dominerar den
+   senaste träningsdagen (eller de senaste tio svaren, om den dagen var
+   kort). Äldre träning i andra kapitel räknas inte, så tränaren följer med
+   när klassen går vidare. Ett kapitel till tas med om det stod för minst en
+   tredjedel av svaren samma dag. */
+function senasteKapitelSvar(){
   const cp=ensureCourseProfile();
   const karta={}; getAreas().forEach(a=>karta[a.key]=String(a.kap));
+  const h=(cp.history||[]).filter(x=>x && karta[x.area]);
+  if(!h.length) return {karta,svar:[]};
+  const dag=d=>{ const t=new Date(d||0); return t.getFullYear()*400+t.getMonth()*31+t.getDate(); };
+  const sista=dag(h[h.length-1].at);
+  let svar=h.filter(x=>dag(x.at)===sista);
+  if(svar.length<6) svar=h.slice(-10);
+  return {karta,svar};
+}
+function autoKapitel(){
+  const {karta,svar}=senasteKapitelSvar();
+  if(!svar.length) return [];
   const raknare={};
-  (cp.history||[]).slice(-50).forEach(h=>{
-    const k=karta[h.area]; if(k) raknare[k]=(raknare[k]||0)+1;
-  });
-  return Object.entries(raknare).filter(([,n])=>n>=3)
-    .sort((a,b)=>b[1]-a[1]).slice(0,3).map(([k])=>k)
+  svar.forEach(x=>{ const k=karta[x.area]; raknare[k]=(raknare[k]||0)+1; });
+  const ordning=Object.entries(raknare).sort((a,b)=>b[1]-a[1]);
+  const gräns=Math.max(2,svar.length/3);
+  return ordning.filter(([,n],i)=>i===0 || n>=gräns).slice(0,2).map(([k])=>k)
     .sort((a,b)=>kapNr(a)-kapNr(b));
+}
+/* Ett eget val av kapitel gäller tills eleven börjar träna någon
+   annanstans: om nästan alla av de sex senaste svaren efter valet ligger
+   utanför de valda kapitlen tar det automatiska urvalet över igen. */
+function fokusInaktuellt(valda){
+  const cp=ensureCourseProfile();
+  const karta={}; getAreas().forEach(a=>karta[a.key]=String(a.kap));
+  const efter=(cp.history||[]).filter(h=>h && karta[h.area] && (h.at||0)>(cp.fokusAt||0)).slice(-6);
+  return efter.length>=5 && efter.filter(h=>valda.includes(karta[h.area])).length<=1;
 }
 function aktivaKapitel(){
   const cp=ensureCourseProfile();
   const alla=kursensKapitel();
   const valda=(cp.fokus||[]).map(String).filter(k=>alla.includes(k));
-  if(valda.length) return valda;
+  if(valda.length && !fokusInaktuellt(valda)) return valda;
   const auto=autoKapitel();
   return auto.length?auto:alla.slice(0,1);
 }
@@ -6493,6 +6515,7 @@ function vaxlaKapitel(kap){
   if(!valda.size) aktivaKapitel().forEach(x=>valda.add(x));
   valda.has(k) ? valda.delete(k) : valda.add(k);
   cp.fokus=[...valda].sort((a,b)=>kapNr(a)-kapNr(b));
+  cp.fokusAt=Date.now();
 
   profile.pt=null;
   saveProfile();
@@ -6503,23 +6526,25 @@ function allaKapitel(){
   cp.fokus=[]; profile.pt=null; saveProfile(); renderDashboard();
 }
 
+/* Områdena i passen: kapitlets områden fram till och med det sista som
+   eleven har börjat på, plus området efter (troligen dagens lektion).
+   Områden som eleven hoppat över tas med, eftersom eleven kan ha missat
+   just den lektionen. */
 function traningsOmraden(){
   const kap=new Set(aktivaKapitel());
   const iFokus=getAreas().filter(a=>kap.has(String(a.kap)));
   if(!iFokus.length) return {omr:getAreas().map(a=>a.key),nytt:null,kvar:0};
-  const igang=iFokus.filter(a=>omradesForsok(a.key)>=START_KRAV);
-  const nasta=iFokus.find(a=>omradesForsok(a.key)<START_KRAV);
-  const kvar=iFokus.filter(a=>omradesForsok(a.key)<START_KRAV).length;
-  if(!igang.length)
-    return {omr:iFokus.slice(0,1).map(a=>a.key),nytt:iFokus[0].key,kvar:Math.max(0,kvar-1)};
-  const cp=ensureCourseProfile();
-  const snitt=igang.reduce((s,a)=>s+mastery(cp.areas,a.key),0)/igang.length;
-  const slappIn = nasta && snitt>=OPPNA_NYTT;
-  return {
-    omr:[...igang.map(a=>a.key),...(slappIn?[nasta.key]:[])],
-    nytt:slappIn?nasta.key:null,
-    kvar:Math.max(0,kvar-(slappIn?1:0))
-  };
+  const omr=[]; let nytt=null;
+  for(const k of kap){
+    const iKap=iFokus.filter(a=>String(a.kap)===k);
+    const igang=iKap.filter(a=>omradesForsok(a.key)>0);
+    const sista=igang.length?iKap.indexOf(igang[igang.length-1]):-1;
+    const nasta=iKap[sista+1]||null;
+    omr.push(...iKap.slice(0,sista+1).map(a=>a.key));
+    if(nasta){ omr.push(nasta.key); nytt ||= nasta.key; }
+  }
+  const valda=new Set(omr);
+  return {omr, nytt, kvar:iFokus.filter(a=>!valda.has(a.key)).length};
 }
 function fokusNycklar(){ return traningsOmraden().omr; }
 
@@ -6684,8 +6709,10 @@ function passMeddelande(typ){
   const lista=namnLista(passOmradesNamn(typ));
   const nytt=t.nytt?`<b>${esc(areaName(t.nytt))}</b>`:"";
 
-  if(!profile.attempts)
-    return `${nytt||"Första området"} · ${antal} uppgifter på grundläggande nivå.`;
+  /* Första gången i kursen: berätta hur man kommer igång. */
+  if(!(ensureCourseProfile().history||[]).length)
+    return `Välkommen! Välj området ni jobbar med just nu i listan nedan, så anpassar jag passen efter var du är. `
+      +`Vill du hellre börja direkt kan du starta passet, så börjar vi med ${nytt||"första området"}.`;
   if(done>=goal)
     return `<b>${done} av ${goal}</b> uppgifter klara idag${st>1?` · ${st} dagar i rad`:""}.`;
 
@@ -6711,6 +6738,8 @@ function passMeddelande(typ){
         : `${antal} blandade uppgifter inom dina aktiva områden.`;
     }
     default:
+      if(nytt && typ==="grund")
+        return `${antal} blandade uppgifter i kapitlets områden hittills, plus nästa område: ${nytt}.`;
       return lista
         ? `${antal} blandade uppgifter i ${lista}.`
         : `${antal} blandade uppgifter inom dina aktiva områden.`;

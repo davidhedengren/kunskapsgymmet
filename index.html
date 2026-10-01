@@ -7089,6 +7089,12 @@ function talLika(a,b,tol){
   if(a===Infinity||b===Infinity||a===-Infinity||b===-Infinity) return a===b;
   return naraNog(a,b,tol);
 }
+/* Talvärde bara när hela strängen är ett tal. talAv läser ett inledande tal ("3-sqrt(3)" ger 3,
+   "2/3" ger 2), så i listjämförelser skulle olika uttryck annars kunna bedömas som lika. */
+function helTalvarde(x){
+  const s=stadaSvar(x).replace(/\s/g,"").replace(/[−–]/g,"-");
+  return /^[+-]?(?:\d+(?:[.,]\d*)?|[.,]\d+)$/.test(s) ? talAv(s) : NaN;
+}
 function naraNog(a,b,tol){
   if(!Number.isFinite(a)||!Number.isFinite(b)) return false;
   const t=(typeof tol==="number")?tol:Math.max(1e-9,Math.abs(b)*1e-4);
@@ -7412,14 +7418,14 @@ function formatRatt(anv,facit,meta){
     case "punkt": case "talpar": case "vektor": case "koordinat": {
       const la=listaAv(a,true), lf=listaAv(f,true);
       if(la.length!==lf.length) return false;
-      return la.every((v,i)=>naraNog(talAv(v),talAv(lf[i]),tol) || algebraisktLika(v,lf[i])===true);
+      return la.every((v,i)=>naraNog(helTalvarde(v),helTalvarde(lf[i]),tol) || algebraisktLika(v,lf[i])===true);
     }
     case "lösningsmängd": case "losningsmangd": case "mängd": case "mangd": {
       const la=listaAv(a).map(hogerled), lf=listaAv(f).map(hogerled);
       if(la.length!==lf.length) return false;
       const kvar=[...lf];
       return la.every(v=>{
-        const i=kvar.findIndex(k=>naraNog(talAv(v),talAv(k),tol)||algebraisktLika(v,k)===true);
+        const i=kvar.findIndex(k=>naraNog(helTalvarde(v),helTalvarde(k),tol)||algebraisktLika(v,k)===true);
         if(i<0) return false;
         kvar.splice(i,1); return true;
       });
@@ -7430,7 +7436,8 @@ function formatRatt(anv,facit,meta){
       return textNyckel(a)===textNyckel(f);
     }
     case "uttryck": case "uttryck_med_villkor": {
-      const rensa=x=>String(x).split(/,(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
+      /* Ett villkor efter kommatecken (", x≠0") tas bort, men inte ett decimalkomma: y=-1,5x+6 ska vara kvar. */
+      const rensa=x=>String(x).split(/(?:(?<!\d),|,(?!\d))(?![^()]*\))|\s+där\s+|\s+om\s+/i)[0];
       /* Två ekvationer jämförs som ekvationer, så att y-4=4(x-2) godtas mot y=4x-4. */
       if(rensa(a).includes("=") && rensa(f).includes("=")
          && algebraisktLika(rensa(a),rensa(f))===true) return true;

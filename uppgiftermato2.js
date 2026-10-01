@@ -83443,5 +83443,1022 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Villkoret \\(f(0)=1{,}5\\) ger två möjliga vinklar. Rita sinuskurvan och se vid vilken av dem kurvan är på väg uppåt.</p>",
     "traningsniva": 4,
     "arbetsinsats": 3
+  },
+  {
+    "id": "1.643",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vinkeln \\(v\\) ligger i första kvadranten och \\(\\cos v=0{,}8\\). Bestäm \\(\\sin v\\).</p>",
+    "s": "<p>Trigonometriska ettan ger</p><p>\\[\\sin^2v=1-\\cos^2v=1-0{,}64=0{,}36.\\]</p><p>I första kvadranten är sinus positiv, så \\(\\sin v=\\sqrt{0{,}36}=0{,}6\\).</p><p><strong>Svar:</strong> \\(\\sin v=0{,}6\\)</p>",
+    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "bråk",
+    "spel": true,
+    "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
+    "ledtrad": "<p>Vilket samband gäller alltid mellan \\(\\sin^2v\\) och \\(\\cos^2v\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.644",
+    "kap": 1,
+    "omr": "enhetscirkeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>I en rätvinklig triangel är \\(\\tan v=\\dfrac34\\) för den spetsiga vinkeln \\(v\\). Bestäm \\(\\sin v\\).</p>",
+    "s": "<p>Låt motstående katet vara \\(3\\) och närliggande katet \\(4\\). Pythagoras sats ger hypotenusan</p><p>\\[\\sqrt{3^2+4^2}=5.\\]</p><p>Då är \\(\\sin v=\\dfrac{\\text{motstående}}{\\text{hypotenusa}}=\\dfrac35\\).</p><p><strong>Svar:</strong> \\(\\sin v=\\dfrac35=0{,}6\\)</p>",
+    "familj": "Bestäm trigonometriska värden från ett givet värde",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "bråk",
+    "spel": true,
+    "familjNyckel": "enhetscirkeln__bestam_trigonometriska_varden_fran_ett_givet_varde",
+    "ledtrad": "<p>Rita en rätvinklig triangel där kateterna har längderna 3 och 4. Hur lång är hypotenusan?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.645",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Additionsformeln för sinus är \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\).</p><p>Det gäller att \\(\\sin u=0{,}6\\), \\(\\cos u=0{,}8\\), \\(\\sin v=0{,}8\\) och \\(\\cos v=0{,}6\\). Beräkna \\(\\sin(u+v)\\).</p>",
+    "s": "<p>Sätt in värdena i formeln:</p><p>\\[\\sin(u+v)=0{,}6\\cdot0{,}6+0{,}8\\cdot0{,}8=0{,}36+0{,}64=1.\\]</p><p>Eftersom sinus är \\(1\\) är \\(u+v=90^\\circ\\) om båda vinklarna är spetsiga.</p><p><strong>Svar:</strong> \\(1\\)</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
+    "ledtrad": "<p>Byt ut varje sinus- och cosinusvärde i formeln mot det givna talet.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.646",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Additionsformeln för cosinus är \\(\\cos(u+v)=\\cos u\\cos v-\\sin u\\sin v\\). Använd den för att beräkna \\(\\cos(60^\\circ+30^\\circ)\\) exakt.</p>",
+    "s": "<p>Med exakta värden:</p><p>\\[\\cos60^\\circ\\cos30^\\circ-\\sin60^\\circ\\sin30^\\circ=\\frac12\\cdot\\frac{\\sqrt3}{2}-\\frac{\\sqrt3}{2}\\cdot\\frac12=0.\\]</p><p>Det stämmer med att \\(\\cos90^\\circ=0\\).</p><p><strong>Svar:</strong> \\(0\\)</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
+    "ledtrad": "<p>Skriv upp de exakta värdena för \\(\\sin\\) och \\(\\cos\\) av \\(30^\\circ\\) och \\(60^\\circ\\) innan du sätter in dem.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.647",
+    "kap": 1,
+    "omr": "trig_formler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Använd additionsformeln \\(\\sin(u+v)=\\sin u\\cos v+\\cos u\\sin v\\) för att förenkla \\(\\sin(x+90^\\circ)\\).</p>",
+    "s": "<p>Sätt \\(u=x\\) och \\(v=90^\\circ\\). Eftersom \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\) blir</p><p>\\[\\sin(x+90^\\circ)=\\sin x\\cdot0+\\cos x\\cdot1=\\cos x.\\]</p><p><strong>Svar:</strong> \\(\\cos x\\)</p>",
+    "familj": "Använda additionsformler för sinus och cosinus",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "cos(x)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "trig_formler__anvanda_additionsformler_for_sinus_och_cosinus",
+    "ledtrad": "<p>Vad är \\(\\sin90^\\circ\\) och \\(\\cos90^\\circ\\)?</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.648",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm perioden för \\(y=\\sin x\\) när \\(x\\) mäts i radianer.</p>",
+    "s": "<p>Sinuskurvan upprepar sig efter ett helt varv. Ett helt varv är \\(360^\\circ=2\\pi\\) radianer.</p><p><strong>Svar:</strong> \\(2\\pi\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2*pi",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Hur många radianer är ett helt varv?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.649",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm perioden för \\(y=3\\cos(2x)\\) när \\(x\\) mäts i radianer.</p>",
+    "s": "<p>Talet \\(3\\) påverkar bara amplituden. Perioden bestäms av talet framför \\(x\\):</p><p>\\[T=\\frac{2\\pi}{2}=\\pi.\\]</p><p><strong>Svar:</strong> \\(\\pi\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Hur mycket behöver \\(x\\) öka för att \\(2x\\) ska öka med \\(2\\pi\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.650",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm det \\(x\\) i intervallet \\(0\\le x\\lt 2\\pi\\) där \\(y=\\cos x\\) har sitt minsta värde.</p>",
+    "s": "<p>\\(\\cos x\\) är x-koordinaten i enhetscirkeln. Den är minst, \\(-1\\), efter ett halvt varv, det vill säga vid \\(180^\\circ=\\pi\\) radianer.</p><p><strong>Svar:</strong> \\(x=\\pi\\)</p>",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__amplitud_period_och_medellinje_for_trigonometriska_funktioner",
+    "ledtrad": "<p>Var i enhetscirkeln är x-koordinaten \\(-1\\)? Skriv vinkeln i radianer.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.651",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Tangensfunktionen \\(y=\\tan x\\) upprepar sig. Hur lång är en period när vinkeln anges i radianer?</p>",
+    "s": "<p>Tangens upprepar sig efter ett halvt varv, \\(180^\\circ\\). I radianer är det \\(\\pi\\).</p><p><strong>Svar:</strong> \\(\\pi\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Tangens har perioden \\(180^\\circ\\). Hur många radianer är det?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.652",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=\\tan x\\) har en lodrät asymptot i intervallet \\(0\\lt x\\lt\\pi\\). Ange dess ekvation.</p>",
+    "s": "<p>\\(\\tan x=\\dfrac{\\sin x}{\\cos x}\\) saknar värde där \\(\\cos x=0\\). I intervallet händer det vid \\(90^\\circ\\), alltså \\(x=\\dfrac\\pi2\\).</p><p><strong>Svar:</strong> \\(x=\\dfrac\\pi2\\)</p>",
+    "familj": "Period och asymptoter för tangensfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "x=pi/2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__period_och_asymptoter_for_tangensfunktioner",
+    "ledtrad": "<p>Var är \\(\\cos x=0\\)? Skriv svaret i radianer.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.653",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin\\left(x-\\dfrac\\pi3\\right)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(\\pi/3\\) åt vänster.<br>B. Den är förskjuten \\(\\pi/3\\) åt höger.<br>C. Den är förskjuten \\(\\pi/3\\) uppåt.<br>D. Den är förskjuten \\(\\pi/3\\) nedåt.</p>",
+    "s": "<p>Argumentet blir \\(0\\) först när \\(x=\\pi/3\\). Allt som \\(y=\\sin x\\) gör vid \\(x=0\\) sker alltså \\(\\pi/3\\) längre åt höger.</p><p><strong>Svar:</strong> B</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>För vilket \\(x\\) blir argumentet \\(x-\\pi/3\\) lika med \\(0\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.654",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=\\cos x\\) förskjuts \\(\\pi/4\\) åt höger. Vilken funktion beskriver den nya grafen?</p><p>A. \\(y=\\cos\\left(x+\\dfrac\\pi4\\right)\\)<br>B. \\(y=\\cos\\left(x-\\dfrac\\pi4\\right)\\)<br>C. \\(y=\\cos x+\\dfrac\\pi4\\)<br>D. \\(y=\\cos x-\\dfrac\\pi4\\)</p>",
+    "s": "<p>Förskjutning åt höger ger minus inne i parentesen: maximipunkten vid \\(x=0\\) hamnar där \\(x-\\pi/4=0\\), alltså vid \\(x=\\pi/4\\). Alternativ C och D flyttar grafen uppåt respektive nedåt.</p><p><strong>Svar:</strong> B</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Var hamnar maximipunkten \\((0,\\,1)\\) i respektive alternativ?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.655",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vattendjupet i en hamn modelleras av \\(d(t)=4+1{,}5\\sin\\left(\\dfrac{\\pi t}{6}\\right)\\) meter, där \\(t\\) är tiden i timmar. Vilket är det största vattendjupet?</p>",
+    "s": "<p>Sinusdelen är som störst \\(1\\). Då är</p><p>\\[d=4+1{,}5\\cdot1=5{,}5\\text{ m}.\\]</p><p>Medelnivån är \\(4\\) m och amplituden \\(1{,}5\\) m.</p><p><strong>Svar:</strong> \\(5{,}5\\) m</p>",
+    "familj": "Tolka och bestämma trigonometriska modeller",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5.5,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__tolka_och_bestamma_trigonometriska_modeller",
+    "ledtrad": "<p>Vilket är det största värde sinus kan anta?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.656",
+    "kap": 2,
+    "omr": "trig_kurvor_radianer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Lös \\(\\sin x=1\\) för \\(0\\le x\\lt 2\\pi\\).</p>",
+    "s": "<p>\\(\\sin x\\) är y-koordinaten i enhetscirkeln. Den är \\(1\\) bara högst upp, vid \\(90^\\circ=\\dfrac\\pi2\\).</p><p><strong>Svar:</strong> \\(x=\\dfrac\\pi2\\)</p>",
+    "familj": "Grundläggande trigonometriska ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "pi/2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__grundlaggande_trigonometriska_ekvationer",
+    "ledtrad": "<p>Var i enhetscirkeln är y-koordinaten \\(1\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.657",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x+20^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(20^\\circ\\) åt vänster.<br>B. Den är förskjuten \\(20^\\circ\\) åt höger.<br>C. Den är förskjuten \\(20\\) enheter uppåt.<br>D. Den är förskjuten \\(20\\) enheter nedåt.</p>",
+    "s": "<p>Argumentet är \\(0^\\circ\\) redan när \\(x=-20^\\circ\\). Grafen har alltså flyttats \\(20^\\circ\\) åt vänster. Plus inne i parentesen ger förskjutning åt vänster.</p><p><strong>Svar:</strong> A</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>För vilket \\(x\\) blir argumentet \\(x+20^\\circ\\) lika med \\(0^\\circ\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.658",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=\\sin x\\) förskjuts \\(45^\\circ\\) åt höger. Vilken funktion beskriver den nya grafen?</p><p>A. \\(y=\\sin(x+45^\\circ)\\)<br>B. \\(y=\\sin(x-45^\\circ)\\)<br>C. \\(y=\\sin x+45\\)<br>D. \\(y=\\sin x-45\\)</p>",
+    "s": "<p>Startpunkten \\((0^\\circ,0)\\) ska hamna vid \\(x=45^\\circ\\). Då måste argumentet vara \\(0^\\circ\\) när \\(x=45^\\circ\\), vilket gäller för \\(x-45^\\circ\\).</p><p><strong>Svar:</strong> B</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>Vilket alternativ ger argumentet \\(0^\\circ\\) när \\(x=45^\\circ\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "1.659",
+    "kap": 2,
+    "omr": "trig_fasforskjutning",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Grafen till \\(y=\\cos x\\) har en maximipunkt i \\((0^\\circ,\\,1)\\). Vid vilket \\(x\\) ligger motsvarande maximipunkt för \\(y=\\cos(x-70^\\circ)\\)?</p>",
+    "s": "<p>Grafen är förskjuten \\(70^\\circ\\) åt höger, så maximipunkten flyttas från \\(0^\\circ\\) till \\(70^\\circ\\).</p><p>Kontroll: \\(\\cos(70^\\circ-70^\\circ)=\\cos0^\\circ=1\\).</p><p><strong>Svar:</strong> \\(x=70^\\circ\\)</p>",
+    "familj": "Fasförskjutning i trigonometriska funktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "grader",
+    "spel": true,
+    "familjNyckel": "trig_funktioner__fasforskjutning_i_trigonometriska_funktioner",
+    "ledtrad": "<p>För vilket \\(x\\) blir argumentet \\(x-70^\\circ\\) lika med \\(0^\\circ\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.539",
+    "kap": 2,
+    "omr": "trig_derivator",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=\\sin x\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p>\\(f'(x)=\\cos x\\), så \\(f'(0)=\\cos0=1\\).</p><p>Grafen till \\(y=\\sin x\\) lutar alltså med lutningen \\(1\\) i origo.</p><p><strong>Svar:</strong> \\(f'(0)=1\\)</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Vad är derivatan av \\(\\sin x\\)? Sätt sedan in \\(x=0\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.540",
+    "kap": 2,
+    "omr": "trig_derivator",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=x+\\cos x\\).</p>",
+    "s": "<p>Derivera term för term: derivatan av \\(x\\) är \\(1\\) och derivatan av \\(\\cos x\\) är \\(-\\sin x\\).</p><p>\\[f'(x)=1-\\sin x\\]</p><p><strong>Svar:</strong> \\(f'(x)=1-\\sin x\\)</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "1-sin(x)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Derivera varje term för sig. Tänk på tecknet när du deriverar cosinus.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.541",
+    "kap": 2,
+    "omr": "trig_derivator",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Bestäm lutningen för tangenten till \\(y=\\cos x\\) i punkten där \\(x=\\dfrac\\pi2\\).</p>",
+    "s": "<p>Tangentens lutning är derivatans värde. \\(y'=-\\sin x\\), så</p><p>\\[y'\\left(\\frac\\pi2\\right)=-\\sin\\frac\\pi2=-1.\\]</p><p><strong>Svar:</strong> \\(-1\\)</p>",
+    "familj": "Derivering av trigonometriska funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "derivator_specialfunktioner__derivering_av_trigonometriska_funktioner",
+    "ledtrad": "<p>Tangentens lutning är derivatans värde i punkten. Vad är derivatan av \\(\\cos x\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.542",
+    "kap": 2,
+    "omr": "trig_derivator",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=\\cos(2x)\\).</p>",
+    "s": "<p>Yttre funktionen är \\(\\cos u\\) med derivatan \\(-\\sin u\\). Inre funktionen är \\(u=2x\\) med derivatan \\(2\\). Kedjeregeln ger</p><p>\\[f'(x)=-\\sin(2x)\\cdot2=-2\\sin(2x).\\]</p><p><strong>Svar:</strong> \\(f'(x)=-2\\sin(2x)\\)</p>",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-2*sin(2x)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "derivator_specialfunktioner__kedjeregeln_for_trigonometriska_och_exponentiella_funktioner",
+    "ledtrad": "<p>Derivera cosinus som vanligt och multiplicera sedan med derivatan av det som står inne i parentesen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.543",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=x(x^2+1)\\) med produktregeln. Kontrollera sedan genom att först multiplicera ihop parentesen.</p>",
+    "s": "<p><strong>Produktregeln:</strong> \\((uv)'=u'v+uv'\\).</p><p>Här är \\(u=x\\), \\(u'=1\\), \\(v=x^2+1\\) och \\(v'=2x\\).</p><p>\\[f'(x)=1\\cdot(x^2+1)+x\\cdot2x=3x^2+1\\]</p><p><strong>Svar:</strong> \\(f'(x)=3x^2+1\\)</p><p><strong>Kontroll:</strong> \\(f(x)=x^3+x\\) ger \\(f'(x)=3x^2+1\\).</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "3x^2+1",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
+    "ledtrad": "<p>Bestäm de två faktorerna och deras derivator var för sig innan du sätter in i \\(u'v+uv'\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.544",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=(x+1)(x-3)\\) med produktregeln.</p>",
+    "s": "<p><strong>Produktregeln:</strong> \\((uv)'=u'v+uv'\\).</p><p>Här är \\(u=x+1\\), \\(u'=1\\), \\(v=x-3\\) och \\(v'=1\\).</p><p>\\[f'(x)=1\\cdot(x-3)+(x+1)\\cdot1=2x-2\\]</p><p><strong>Svar:</strong> \\(f'(x)=2x-2\\)</p><p><strong>Kontroll:</strong> \\(f(x)=x^2-2x-3\\) ger \\(f'(x)=2x-2\\).</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "2x-2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
+    "ledtrad": "<p>Båda faktorerna har derivatan \\(1\\). Sätt in i \\(u'v+uv'\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.545",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=x\\,e^x\\).</p>",
+    "s": "<p><strong>Produktregeln:</strong> \\((uv)'=u'v+uv'\\).</p><p>Här är \\(u=x\\), \\(u'=1\\), \\(v=e^x\\) och \\(v'=e^x\\).</p><p>\\[f'(x)=1\\cdot e^x+x\\cdot e^x=(x+1)e^x\\]</p><p><strong>Svar:</strong> \\(f'(x)=e^x+xe^x=(x+1)e^x\\)</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "e^x+x*e^x",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
+    "ledtrad": "<p>Faktorerna är \\(x\\) och \\(e^x\\). Vad är deras derivator?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.546",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=x\\sin x\\).</p>",
+    "s": "<p><strong>Produktregeln:</strong> \\((uv)'=u'v+uv'\\).</p><p>Här är \\(u=x\\), \\(u'=1\\), \\(v=\\sin x\\) och \\(v'=\\cos x\\).</p><p>\\[f'(x)=1\\cdot\\sin x+x\\cos x\\]</p><p><strong>Svar:</strong> \\(f'(x)=\\sin x+x\\cos x\\)</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "sin(x)+x*cos(x)",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
+    "ledtrad": "<p>Faktorerna är \\(x\\) och \\(\\sin x\\). Derivera båda och använd \\(u'v+uv'\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.547",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=x\\,e^x\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p>Produktregeln ger \\(f'(x)=1\\cdot e^x+x\\cdot e^x=(x+1)e^x\\).</p><p>\\[f'(0)=(0+1)e^0=1\\]</p><p><strong>Svar:</strong> \\(f'(0)=1\\)</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
+    "ledtrad": "<p>Derivera först med produktregeln och sätt sedan in \\(x=0\\). Kom ihåg att \\(e^0=1\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.548",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken är derivatan av \\(f(x)=x^2e^x\\)?</p><p>A. \\(2xe^x\\)<br>B. \\(2xe^x+x^2e^x\\)<br>C. \\(x^2e^x\\)<br>D. \\(2x\\cdot x^2e^x\\)</p>",
+    "s": "<p>En produkt deriveras inte faktor för faktor. Produktregeln ger</p><p>\\[f'(x)=2x\\cdot e^x+x^2\\cdot e^x.\\]</p><p>Alternativ A är det vanliga felet att bara multiplicera derivatorna av faktorerna.</p><p><strong>Svar:</strong> B</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "B",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_produktregeln",
+    "ledtrad": "<p>Produktregeln har två termer: \\(u'v+uv'\\). Vilket alternativ har två sådana termer?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.549",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vilken formel är kvotregeln för \\(f(x)=\\dfrac{u(x)}{v(x)}\\)?</p><p>A. \\(f'=\\dfrac{u'v-uv'}{v^2}\\)<br>B. \\(f'=\\dfrac{u'v+uv'}{v^2}\\)<br>C. \\(f'=\\dfrac{u'}{v'}\\)<br>D. \\(f'=\\dfrac{uv'-u'v}{v^2}\\)</p>",
+    "s": "<p>Kvotregeln är \\(f'=\\dfrac{u'v-uv'}{v^2}\\). Täljaren liknar produktregeln men har minustecken, och ordningen spelar roll: termen med \\(u'\\) kommer först.</p><p>Alternativ D har fel tecken på hela täljaren. Alternativ C, att dividera derivatorna, är ett vanligt fel.</p><p><strong>Svar:</strong> A</p>",
+    "familj": "Derivering med kvotregeln",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "val",
+    "rättSvar": "A",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "val",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
+    "ledtrad": "<p>Testa med \\(f(x)=\\dfrac{x}{1}=x\\), vars derivata är \\(1\\). Vilket alternativ ger rätt svar?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.550",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=\\dfrac{1}{x+1}\\) med kvotregeln.</p>",
+    "s": "<p>Här är \\(u=1\\), \\(u'=0\\), \\(v=x+1\\) och \\(v'=1\\).</p><p>\\[f'(x)=\\frac{0\\cdot(x+1)-1\\cdot1}{(x+1)^2}=-\\frac{1}{(x+1)^2}\\]</p><p><strong>Svar:</strong> \\(f'(x)=-\\dfrac{1}{(x+1)^2}\\)</p>",
+    "familj": "Derivering med kvotregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-1/(x+1)^2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
+    "ledtrad": "<p>Täljaren är en konstant. Vad blir då \\(u'\\)?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.551",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=\\dfrac{x}{x+1}\\). Bestäm \\(f'(0)\\).</p>",
+    "s": "<p>Kvotregeln med \\(u=x\\), \\(u'=1\\), \\(v=x+1\\) och \\(v'=1\\):</p><p>\\[f'(x)=\\frac{1\\cdot(x+1)-x\\cdot1}{(x+1)^2}=\\frac{1}{(x+1)^2}\\]</p><p>\\[f'(0)=\\frac{1}{1^2}=1\\]</p><p><strong>Svar:</strong> \\(f'(0)=1\\)</p>",
+    "familj": "Derivering med kvotregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
+    "ledtrad": "<p>Bestäm \\(u\\), \\(u'\\), \\(v\\) och \\(v'\\) och sätt in i kvotregeln. Förenkla täljaren innan du sätter in \\(x=0\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.552",
+    "kap": 3,
+    "omr": "deriveringsregler",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Derivera \\(f(x)=\\dfrac{x+1}{x}\\) med kvotregeln. Kontrollera sedan genom att skriva \\(f(x)=1+\\dfrac1x\\).</p>",
+    "s": "<p>Med \\(u=x+1\\), \\(u'=1\\), \\(v=x\\) och \\(v'=1\\):</p><p>\\[f'(x)=\\frac{1\\cdot x-(x+1)\\cdot1}{x^2}=\\frac{-1}{x^2}\\]</p><p><strong>Kontroll:</strong> \\(f(x)=1+x^{-1}\\) ger \\(f'(x)=-x^{-2}=-\\dfrac1{x^2}\\).</p><p><strong>Svar:</strong> \\(f'(x)=-\\dfrac{1}{x^2}\\)</p>",
+    "familj": "Derivering med kvotregeln",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "-1/x^2",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "deriveringsregler__derivering_med_kvotregeln",
+    "ledtrad": "<p>Var noga med parentesen runt \\(x+1\\) när du multiplicerar med \\(v'\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.553",
+    "kap": 3,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=2x-3+\\dfrac{5}{x-1}\\). Bestäm den sneda asymptoten.</p>",
+    "s": "<p>När \\(x\\) blir mycket stort närmar sig \\(\\dfrac{5}{x-1}\\) noll. Då närmar sig grafen linjen \\(y=2x-3\\).</p><p>Polynomdivision ger alltid funktionen på den här formen. Därför går den sneda asymptoten att läsa av direkt här.</p><p><strong>Svar:</strong> \\(y=2x-3\\)</p>",
+    "familj": "Asymptoter med polynomdivision",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "y=2x-3",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "grafer_asymptoter__asymptoter_med_polynomdivision",
+    "ledtrad": "<p>Vad händer med bråket \\(\\dfrac{5}{x-1}\\) när \\(x\\) blir mycket stort?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.554",
+    "kap": 3,
+    "omr": "grafer_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Funktionen är \\(f(x)=\\dfrac{x^2+1}{x}\\). Dela varje term i täljaren med \\(x\\) och bestäm sedan den sneda asymptoten.</p>",
+    "s": "<p>\\[f(x)=\\frac{x^2}{x}+\\frac{1}{x}=x+\\frac1x\\]</p><p>Termen \\(\\dfrac1x\\) går mot noll när \\(x\\) blir stort, så grafen närmar sig \\(y=x\\).</p><p><strong>Svar:</strong> \\(y=x\\)</p>",
+    "familj": "Asymptoter med polynomdivision",
+    "formaga": [
+      "begrepp"
+    ],
+    "svarstyp": "uttryck",
+    "rättSvar": "y=x",
+    "tolerans": null,
+    "självrättning": true,
+    "svarFormat": "uttryck",
+    "spel": true,
+    "familjNyckel": "grafer_asymptoter__asymptoter_med_polynomdivision",
+    "ledtrad": "<p>Skriv \\(\\dfrac{x^2+1}{x}\\) som en summa av två bråk. Vilken term försvinner när \\(x\\) blir stort?</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.555",
+    "kap": 3,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>En rektangel med omkretsen \\(20\\) cm har arean \\(A(x)=x(10-x)\\) cm², där \\(x\\) är den ena sidans längd i cm. Bestäm det \\(x\\) där \\(A'(x)=0\\).</p>",
+    "s": "<p>Multiplicera ut: \\(A(x)=10x-x^2\\). Derivatan är \\(A'(x)=10-2x\\).</p><p>\\[10-2x=0\\;\\Rightarrow\\;x=5\\]</p><p>Det ger en kvadrat med sidan \\(5\\) cm, som har den största arean.</p><p><strong>Svar:</strong> \\(x=5\\) cm</p>",
+    "familj": "Geometrisk optimering med derivata",
+    "formaga": [
+      "procedur"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm",
+    "spel": true,
+    "familjNyckel": "tillampningar_derivata__geometrisk_optimering_med_derivata",
+    "ledtrad": "<p>Multiplicera in \\(x\\) i parentesen och derivera. Sätt derivatan lika med noll.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.556",
+    "kap": 3,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Vattenvolymen i en tank är \\(V(t)=3t^2+2t\\) liter efter \\(t\\) minuter. Hur snabbt ökar volymen när \\(t=2\\)?</p>",
+    "s": "<p>Volymens ändringshastighet är derivatan: \\(V'(t)=6t+2\\).</p><p>\\[V'(2)=6\\cdot2+2=14\\]</p><p>Volymen ökar med \\(14\\) liter per minut vid den tidpunkten.</p><p><strong>Svar:</strong> \\(14\\) liter per minut</p>",
+    "familj": "Samband mellan förändringshastigheter",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "l/min",
+    "spel": true,
+    "familjNyckel": "tillampningar_derivata__samband_mellan_forandringshastigheter",
+    "ledtrad": "<p>Hur snabbt något ändras beskrivs av derivatan. Derivera och sätt in \\(t=2\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
+  },
+  {
+    "id": "2.557",
+    "kap": 3,
+    "omr": "tillampningar_derivata",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "miniräknare": false,
+    "geogebra": false,
+    "t": "<p>Temperaturen i ett rum är \\(T(t)=20+4t-0{,}5t^2\\) °C, där \\(t\\) är tiden i timmar. Bestäm \\(T'(2)\\) och tolka svaret.</p>",
+    "s": "<p>\\(T'(t)=4-t\\), så \\(T'(2)=4-2=2\\).</p><p><strong>Tolkning:</strong> Efter två timmar stiger temperaturen med \\(2\\) °C per timme.</p><p><strong>Svar:</strong> \\(T'(2)=2\\) °C per timme</p>",
+    "familj": "Samband mellan förändringshastigheter",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 1e-9,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C/h",
+    "spel": true,
+    "familjNyckel": "tillampningar_derivata__samband_mellan_forandringshastigheter",
+    "ledtrad": "<p>Derivera term för term. Konstanten \\(20\\) har derivatan \\(0\\).</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1
   }
 ];

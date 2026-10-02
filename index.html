@@ -3015,6 +3015,92 @@ button.lank{background:none;border:0;padding:0;color:var(--accInk);font:inherit;
 .provkontroll-niva{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 4px}
 .provniva{font-size:12.5px;font-weight:700;padding:4px 10px;border-radius:99px;background:var(--surface);border:1px solid var(--hair)}
 .provniva.ok{color:var(--good)}.provniva.varn{color:var(--low)}.provniva.av{color:var(--ink3)}
+/* ── Min sida för lärare ─────────────────────────────────────────── */
+.lararplats{display:contents}
+.lararpill.pa{background:var(--accSoft);border-color:var(--acc);color:var(--accInk)}
+.btn.farlig{background:var(--bad);border-color:transparent;color:#fff}
+.btn.farlig:hover{filter:brightness(1.06);background:var(--bad)}
+.btn.farligtext{color:var(--bad)}
+.btn.farligtext:hover{background:var(--badSoft);color:var(--bad)}
+.larvy{padding-top:26px}
+.larhuvud{margin-bottom:14px}
+.larhuvud .lbl{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accInk)}
+.larhuvud h1{font-size:clamp(28px,5vw,38px);letter-spacing:-.045em;line-height:1.05;margin-top:4px}
+.larflikar{margin-bottom:20px}
+.larkropp{display:grid;gap:16px}
+.larkropp>.toppvy{justify-self:start;margin-bottom:0}
+.lartext{margin:0;font-family:var(--read);font-size:14.5px;line-height:1.55;color:var(--ink2);max-width:72ch}
+.lartext.liten{font-size:12.5px;color:var(--ink3)}
+.larny{display:flex;gap:8px;flex-wrap:wrap}
+.larny .admin-sok{flex:1 1 240px;min-width:0}
+.largrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.larkort{display:grid;gap:5px;text-align:left;padding:16px 18px;border-radius:18px;border:1px solid var(--hair);
+  background:var(--surface);box-shadow:var(--e1);cursor:pointer;transition:.2s var(--ease)}
+.larkort:hover{border-color:var(--acc);transform:translateY(-1px)}
+.larkort:focus-visible{outline:2.5px solid var(--acc);outline-offset:2px}
+.larkort-namn{font-size:18px;font-weight:700;letter-spacing:-.03em;color:var(--ink)}
+.larkort-tal{font-size:13.5px;color:var(--ink2)}
+.larkort-tal b{color:var(--ink)}
+.larkort-kod{font-size:12px;font-weight:700;letter-spacing:.06em;color:var(--accInk)}
+.larkort-meta{font-size:12px;color:var(--ink3)}
+.larbak{justify-self:start;text-decoration:none}
+.largrupp-topp{display:grid;gap:10px}
+.largrupp-topp h2{font-size:clamp(22px,4vw,28px);letter-spacing:-.04em}
+.largrupp-topp .provkodbox{margin:0}
+.larverktyg{display:flex;gap:6px;flex-wrap:wrap}
+.larstat{margin-top:0}
+.lartabell{display:grid;border:1px solid var(--hair);border-radius:16px;overflow:hidden;background:var(--surface)}
+.larrad{display:grid;grid-template-columns:minmax(0,2.2fr) repeat(4,minmax(0,1fr));gap:10px;align-items:center;
+  padding:10px 14px;text-align:left;font-size:13.5px;color:var(--ink);border-top:1px solid var(--hair);
+  background:none;width:100%;font-variant-numeric:tabular-nums}
+.larrad:first-child{border-top:0}
+button.larrad{cursor:pointer}
+button.larrad:hover{background:var(--surface2)}
+button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
+.larrad small{color:var(--ink3);font-size:11.5px}
+.larrad.vilar{color:var(--ink3)}
+.larrubrik{background:var(--surface2);padding-top:8px;padding-bottom:8px}
+.larth{font-size:11.5px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;color:var(--ink3);text-align:left;
+  background:none;border:0;padding:0;cursor:pointer}
+.larth.pa{color:var(--accInk)}
+.larth.pa::after{content:" ↓"}
+.larnamn{display:grid;min-width:0}
+.larnamn b,.larnamn small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:640px){
+  .larrad{grid-template-columns:1fr 1fr;row-gap:4px}
+  .larrad .larnamn{grid-column:1/-1}
+  .larrubrik{display:none}
+  .larrad span[data-lbl]::before{content:attr(data-lbl) ": ";color:var(--ink3);font-size:11.5px}
+}
+.larelev-topp{display:grid;gap:2px;margin-bottom:12px}
+.larelev-topp h2{font-size:clamp(22px,4vw,28px);letter-spacing:-.04em}
+.larelev-topp small{color:var(--ink3);font-size:13px}
+.laraktivitet{display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:5px;align-items:end;height:96px;
+  margin:16px 0 6px;padding:10px 12px 0;border:1px solid var(--hair);border-radius:16px;background:var(--surface)}
+.lardag{display:grid;grid-template-rows:1fr auto;height:100%;align-items:end;justify-items:center;gap:3px}
+.lardag i{display:block;width:100%;max-width:22px;min-height:2px;border-radius:5px 5px 2px 2px;background:var(--acc)}
+.lardag small{font-size:10px;color:var(--ink3);padding-bottom:4px}
+.larkurs{margin-top:16px;padding:16px 18px;border:1px solid var(--hair);border-radius:18px;background:var(--surface);display:grid;gap:10px}
+.larkurs h3{font-size:18px;letter-spacing:-.03em}
+.larkurs h4,.provres-rubrik{margin:0 0 8px;font-size:12.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--ink3)}
+.larkolumner{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.laralla{margin-top:6px}
+.laralla summary{cursor:pointer;font-size:13px;font-weight:600;color:var(--accInk);margin-bottom:8px}
+.larkursval{max-width:320px}
+.provform-rubrik{font-size:22px;letter-spacing:-.04em}
+.minagrupper{display:grid;gap:8px}
+.minagrupp{display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid var(--hair);border-radius:14px;background:var(--surface2)}
+.minagrupp span{flex:1;display:grid;min-width:0}
+.minagrupp small{color:var(--ink3);font-size:12px}
+.provkort-hoger{display:flex;flex-direction:column;align-items:flex-end;gap:6px;flex:none}
+.provkort-dolj{width:24px;height:24px;border-radius:8px;display:grid;place-items:center;font-size:11px;line-height:1;
+  color:var(--ink3);background:transparent;border:1px solid transparent;cursor:pointer;opacity:.7}
+.provkort-dolj:hover{opacity:1;color:var(--ink);background:var(--surface3);border-color:var(--hair)}
+.provkort-dolj:focus-visible{outline:2px solid var(--acc);outline-offset:1px;opacity:1}
+@media (max-width:560px){
+  .provkort-hoger{width:100%;flex-direction:row-reverse;justify-content:space-between;align-items:center}
+  .provkort-hoger .btn{flex:1}
+}
 </style>
 </head>
 
@@ -3167,6 +3253,7 @@ function returAdress(){ return location.origin+location.pathname; }
 async function loggaUt(){
   stangKunskap();
   arLarare=false; arAdmin=false; felOppnaAntal=null; provLista=null;
+  larData={grupper:null,elever:{}}; state.larGrupp=null; state.larElev=null;
   clearInterval(kgHeartbeatTimer); kgHeartbeatTimer=null;
   try{ localStorage.removeItem(LARARE_KEY); }catch(_){}
   if(session){
@@ -3958,6 +4045,7 @@ async function navRestore(st){
     if(st.course && st.course!==state.course) await selectCourse(st.course,{record:false,render:false});
     oppnaTopplista(state.toppSort,false); return;
   }
+  if(st && st.view==="larare"){ oppnaLarare(null,false); return; }
   if(!st || !st.course){
     state.course=null;state.data=null;state.track=null;state.currentTask=null;
     state.openChapters=null;applyAccent();renderHome();return;
@@ -5079,6 +5167,7 @@ function topbar(){
     </button>
     <div class="spacer"></div>
     ${badge}
+    <span id="lararplats" class="lararplats">${lararKnapp()}</span>
     ${toppKnapp()}
     ${kontoKnapp()}
     <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge" aria-label="Byt färgläge">${themeIcon()}</button>
@@ -5151,6 +5240,7 @@ async function kontrolleraLarare(){
     }catch(_){ arLarare=false; }
   }
   try{ arLarare?localStorage.setItem(LARARE_KEY,"1"):localStorage.removeItem(LARARE_KEY); }catch(_){}
+  uppdateraLararKnapp();
   if(arLarare) uppdateraFelAntal();
   return arLarare;
 }
@@ -5211,17 +5301,22 @@ function kontoMeny(ev){
     ${arLarare?`
     <div class="menyfalt">
       <div class="menyrubrik">Lärare</div>
-      <button class="btn sm wide" onclick="oppnaFelrapportLogg()">Felrapporter${
+      <button class="btn sm wide" onclick="franMenyn(()=>oppnaLarare())">Min sida</button>
+      <button class="btn sm wide" onclick="oppnaFelrapportLogg()" style="margin-top:6px">Felrapporter${
         felOppnaAntal?" ("+felOppnaAntal+")":""}</button>
-      <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button>
-      <button class="btn sm wide" onclick="franMenyn(oppnaProvLarare)" style="margin-top:6px">Plugga inför prov</button>
     </div>`:""}
 
     ${arAdmin?`
     <div class="menyfalt">
       <div class="menyrubrik">Administration</div>
       <button class="btn sm wide" onclick="oppnaAdmin()">Användare &amp; rapporter</button>
+      <button class="btn sm wide" onclick="oppnaStatistik()" style="margin-top:6px">Statistik</button>
     </div>`:""}
+
+    <div class="menyfalt">
+      <button class="btn sm wide" onclick="oppnaMinaGrupper()">Mina lärares klasser</button>
+      <button class="btn sm wide" onclick="oppnaProvkod()" style="margin-top:6px">Gå med med kod</button>
+    </div>
 
     <button class="btn sm wide" onclick="loggaUt()">Logga ut</button>`;
   document.body.appendChild(el);
@@ -5413,6 +5508,7 @@ async function kgAdminRitaKlasser(host,ladda=true){
           <input class="admin-sok" id="aklass-namn-${Number(k.id)}" value="${esc(k.namn)}" maxlength="40" aria-label="Klassnamn">
           <input class="admin-sok aklass-ordning" id="aklass-ord-${Number(k.id)}" type="number" value="${Number(k.ordning)||0}" aria-label="Ordning i listan" title="Ordning i listan">
           <button class="btn sm" onclick="kgAdminSparaKlass(${Number(k.id)})">Spara</button>
+          ${k.larare?"":`<button class="btn sm quiet" onclick="kgAdminKlassTillGrupp(${Number(k.id)},'${esc(k.namn)}')" title="Skapa en lärarklass med klassens elever">Koppla lärare</button>`}
           ${k.larare?"":`<button class="btn sm quiet" onclick="kgAdminTaBortKlass(${Number(k.id)},'${esc(k.namn)}')">Ta bort</button>`}
         </div>
         ${elever.length?elever.map(e=>elev(e,k.id)).join(""):`<p class="modal-text">${sok?"Ingen träff i klassen.":"Inga elever i klassen än."}</p>`}
@@ -11893,6 +11989,7 @@ function render(){
   else if(state.view==="picker"&&state.course) showAreaPicker();
   else if(state.view==="summary"&&state.course) renderSessionDone();
   else if(state.view==="topplista") oppnaTopplista(state.toppSort,false);
+  else if(state.view==="larare") ritaLarare();
   else renderHome();
 }
 
@@ -11948,6 +12045,7 @@ window.addEventListener("load",async()=>{
   /* Lärarknappen visas direkt från cachen och verifieras sedan mot databasen. */
   if(MOLN_PA() && session){
     try{ arLarare=localStorage.getItem(LARARE_KEY)==="1"; }catch(_){}
+    uppdateraLararKnapp();
     kontrolleraLarare();
   }
 
@@ -12040,18 +12138,22 @@ window.KG_TEST_MA4_SVAR=function(){
   return cases.every(x=>x.ok);
 };
 
-/* ═══════════════ Plugga inför prov ═══════════════
-   Läraren anger vad provet omfattar (kurs, spår, områden, nivåer, omfattning).
-   Kunskapsgymmets vanliga träningsmotor väljer sedan uppgifterna, så två
-   elever i samma provträning får olika uppgifter beroende på hur det går.
-   Databasdelen finns i sql/2026-10-02-provtraning.sql. */
+/* ═══════════════ Träningspass ═══════════════
+   Läraren anger vad passet omfattar (kurs, spår, områden, nivåer, omfattning)
+   och vilka av sina klasser som ska få det. Kunskapsgymmets vanliga
+   träningsmotor väljer sedan uppgifterna, så två elever i samma pass får
+   olika uppgifter beroende på hur det går. Databasdelen finns i
+   sql/2026-10-02-provtraning.sql och sql/2026-10-03-larargrupper.sql.
+   (Funktionerna heter prov… av historiska skäl: funktionen hette först
+   "Plugga inför prov".) */
 const PROV_VANT_KEY="kunskapsgymmet-prov-kod";
 const PROV_LOKAL_KEY="kunskapsgymmet-prov-v1:";
 const PROV_PASS=10;
 const PROV_OMFATTNING=[{n:15,namn:"Kort"},{n:30,namn:"Normal"},{n:50,namn:"Grundlig"}];
-let provLista=null;           /* elevens provträningar; false = inte installerat i databasen */
+let provLista=null;           /* elevens träningspass; false = inte installerat i databasen */
 let provRapportTimer=null;
 let provSkapa=null;           /* lärarens formulär under arbete */
+let provLararLista=[];        /* lärarens pass, för bekräftelsetexter */
 
 function provRpc(namn,kropp={}){ return klassRpc(namn,kropp,true); }
 function provDatum(d){
@@ -12088,12 +12190,16 @@ function provKortHtml(p){
   return `<article class="provkort${klart?" klart":""}">
     <div class="provkort-ikon" aria-hidden="true">📚</div>
     <div class="provkort-text">
-      <div class="provkort-lbl">Plugga inför prov${kurs?` · ${esc(kurs.code)}${p.spar?" "+esc(p.spar):""}`:""}</div>
+      <div class="provkort-lbl">Träningspass${kurs?` · ${esc(kurs.code)}${p.spar?" "+esc(p.spar):""}`:""}</div>
       <h3>${esc(p.titel)}</h3>
-      <div class="provkort-meta">${p.datum?`Prov ${esc(provDatum(p.datum))} · `:""}${klara} / ${antal} uppgifter klara${klart?" · klart!":""}</div>
+      <div class="provkort-meta">${p.datum?`Till ${esc(provDatum(p.datum))} · `:""}${klara} / ${antal} uppgifter klara${klart?" · klart!":""}</div>
       <div class="provkort-spar" role="progressbar" aria-valuemin="0" aria-valuemax="${antal}" aria-valuenow="${Math.min(klara,antal)}"><i style="width:${pct}%"></i></div>
     </div>
-    <button class="btn primary" onclick="provStarta(${Number(p.id)})">${klara?(klart?"Repetera":"Fortsätt"):"Börja"} <span aria-hidden="true">→</span></button>
+    <div class="provkort-hoger">
+      <button class="provkort-dolj" onclick="provDolj(${Number(p.id)})" title="Ta bort passet från startsidan"
+        aria-label="Ta bort ${esc(p.titel)} från startsidan">✕</button>
+      <button class="btn primary" onclick="provStarta(${Number(p.id)})">${klara?(klart?"Repetera":"Fortsätt"):"Börja"} <span aria-hidden="true">→</span></button>
+    </div>
   </article>`;
 }
 async function provRitaBanner(){
@@ -12107,49 +12213,80 @@ async function provRitaBanner(){
   const kursvy=state.view==="dashboard" && state.course;
   const lista=(provLista||[]).filter(p=>!kursvy || p.kurs===state.course);
   if(!lista.length){
-    el.innerHTML = kursvy ? "" : `<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Har du fått en kod till en provträning?</button></div>`;
+    el.innerHTML = kursvy ? "" : `<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Har du fått en kod av din lärare?</button></div>`;
     return;
   }
-  el.innerHTML=`<section class="provbanner" aria-label="Plugga inför prov">
+  el.innerHTML=`<section class="provbanner" aria-label="Träningspass">
       ${lista.map(provKortHtml).join("")}
-      ${kursvy?"":`<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Gå med i en annan provträning med kod</button></div>`}
+      ${kursvy?"":`<div class="provkod-rad"><button class="lank" onclick="oppnaProvkod()">Har du fått en kod av din lärare?</button></div>`}
     </section>`;
 }
+async function provDolj(id){
+  const p=(provLista||[]).find(x=>Number(x.id)===Number(id)); if(!p) return;
+  const ok=await larBekrafta("Ta bort träningspasset?",
+    `<b>${esc(p.titel)}</b> försvinner från din startsida för gott och går inte att få tillbaka. Det du redan har tränat finns kvar.`,
+    "Ta bort", true);
+  if(!ok) return;
+  const r=await provRpc("kg_prov_dolj",{p_prov:Number(id)});
+  if(r?.saknas){ toast("Det går inte att ta bort pass än."); return; }
+  if(!r?.ok){ toast("Kunde inte ta bort passet."); return; }
+  provLista=(provLista||[]).filter(x=>Number(x.id)!==Number(id));
+  provRitaBanner();
+  toast("Passet är borttaget från din startsida.");
+}
 
-/* ── Gå med via kod eller länk (?prov=KOD) ── */
+/* ── Gå med via kod eller länk (?kod=KOD eller ?prov=KOD) ──
+   Koden kan gå till en lärares klass eller till ett träningspass. */
 function provLasAdress(){
   try{
     const q=new URLSearchParams(location.search);
-    const kod=q.get("prov");
+    const kod=q.get("kod")||q.get("prov");
     if(!kod) return;
     localStorage.setItem(PROV_VANT_KEY,kod.trim().slice(0,40));
-    q.delete("prov");
+    q.delete("kod"); q.delete("prov");
     const s=q.toString();
     history.replaceState(history.state,"",location.pathname+(s?"?"+s:"")+location.hash);
   }catch(_){}
+}
+async function provAnslutKod(kod){
+  let r=await provRpc("kg_anslut_kod",{p_kod:kod});
+  if(r?.saknas){
+    const p=await provRpc("kg_prov_anslut",{p_kod:kod});
+    r = p?.saknas ? p : (p?.ok ? {...p,typ:"prov"} : p);
+  }
+  return r;
+}
+function provAnslutBesked(r,kod){
+  if(r?.typ==="grupp"){
+    const larare=(r.grupp?.larare||[]).join(", ");
+    return `Du är med i klassen ${r.grupp?.namn||kod}${larare?` (${larare})`:""}. Läraren kan nu följa din träning.`;
+  }
+  return `Du är med i träningspasset ${r?.prov?.titel||kod}.`;
 }
 async function provAnslutVantande(){
   let kod=null;
   try{ kod=localStorage.getItem(PROV_VANT_KEY); }catch(_){}
   if(!kod || !session) return;
-  const r=await provRpc("kg_prov_anslut",{p_kod:kod});
+  const r=await provAnslutKod(kod);
   if(r && !r.saknas){ try{ localStorage.removeItem(PROV_VANT_KEY); }catch(_){} }
   if(r?.ok){
     provLista=null; await provHamtaMina(); provRitaBanner();
-    toast(`Du är med i provträningen ${r.prov?.titel||kod}.`);
+    toast(provAnslutBesked(r,kod));
   }else if(r && !r.saknas){
-    toast("Provkoden hittades inte. Kontrollera koden med din lärare.");
+    toast("Koden hittades inte. Kontrollera koden med din lärare.");
   }
 }
 function oppnaProvkod(){
+  document.getElementById("kontomeny")?.remove();
   if(!session){ loggaIn(); return; }
   document.getElementById("provkodruta")?.remove();
   const el=document.createElement("div");
   el.className="modal"; el.id="provkodruta";
-  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Gå med i provträning" style="width:min(420px,100%)">
-      <div class="modal-topp"><div><div class="lbl">Plugga inför prov</div><h2>Gå med med kod</h2></div>
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Gå med med kod" style="width:min(440px,100%)">
+      <div class="modal-topp"><div><div class="lbl">Från din lärare</div><h2>Gå med med kod</h2></div>
         <button class="iconbtn" onclick="stangModal('provkodruta')" aria-label="Stäng">✕</button></div>
-      <p class="modal-text">Skriv koden du har fått av din lärare, till exempel MA2C-ALGEBRA-16OKT.</p>
+      <p class="modal-text">Skriv koden du har fått av din lärare. Koden kan gå till en klass eller till ett träningspass.
+        När du går med i en klass kan läraren se din träning: hur mycket du tränar och vilka områden du behärskar.</p>
       <input id="provkodfalt" class="kodfalt" autocomplete="off" spellcheck="false" placeholder="Kod"
         onkeydown="if(event.key==='Enter')provGaMed()">
       <div class="kodhjalp" id="provkodhjalp"></div>
@@ -12166,12 +12303,12 @@ async function provGaMed(){
   const kod=(document.getElementById("provkodfalt")?.value||"").trim();
   const h=document.getElementById("provkodhjalp");
   if(!kod) return;
-  const r=await provRpc("kg_prov_anslut",{p_kod:kod});
-  if(r?.saknas){ if(h){ h.textContent="Provträning är inte aktiverad än."; h.className="kodhjalp fel"; } return; }
+  const r=await provAnslutKod(kod);
+  if(r?.saknas){ if(h){ h.textContent="Koder är inte aktiverade än."; h.className="kodhjalp fel"; } return; }
   if(!r?.ok){ if(h){ h.textContent="Koden hittades inte."; h.className="kodhjalp fel"; } return; }
   stangModal("provkodruta");
   provLista=null; await provHamtaMina(); provRitaBanner();
-  toast(`Du är med i ${r.prov?.titel||"provträningen"}.`);
+  toast(provAnslutBesked(r,kod));
 }
 function stangModal(id){
   const el=document.getElementById(id); if(!el) return;
@@ -12198,7 +12335,7 @@ async function provStarta(id){
   const c=COURSES[p.kurs];
   if(p.spar && (c.tracks||[]).includes(p.spar)) state.track=p.spar;
   applyAccent();
-  if(!provPool(p).length){ toast("Provträningen innehåller inga uppgifter för det här spåret."); return; }
+  if(!provPool(p).length){ toast("Träningspasset innehåller inga uppgifter för det här spåret."); return; }
   state.prov={...p};
   state.focusArea=null;state.focusFamily=null;state.focusNamn=null;
   state.focusOmr=p.omraden.slice();
@@ -12206,7 +12343,7 @@ async function provStarta(id){
   beginSession("prov");
   navRecord("training");nextTask();
 }
-/* Områdesval i provträning: teckna en väg genom provets områden i lärarens
+/* Områdesval i träningspasset: teckna en väg genom passets områden i lärarens
    ordning, men låt svaga områden komma tillbaka oftare och de eleven redan
    behärskar komma mer sällan. */
 function provValjOmrade(pool){
@@ -12231,7 +12368,7 @@ function provValjOmrade(pool){
       return {o,k};
     }).sort((a,b)=>a.k-b.k)[0].o;
 }
-/* Var fjärde uppgift kan vara en uppgift som eleven tidigare missat i provträningen. */
+/* Var fjärde uppgift kan vara en uppgift som eleven tidigare missat i passet. */
 function provRepetera(){
   const p=state.prov; if(!p) return;
   if(state.felKo && state.felKo.length) return;
@@ -12240,9 +12377,9 @@ function provRepetera(){
   const id=d.fel.find(x=>!state.lastIds.includes(x));
   if(id) state.felKo=[id];
 }
-/* I provträningen ska eleven möta alla nivåer läraren valt. När eleven
-   klarar ett område bra i provträningen lyfts uppgiften ibland till C- eller
-   A-nivå, även om den vanliga nivåstegen ännu inte hunnit dit. */
+/* I passet ska eleven möta alla nivåer läraren valt. När eleven klarar ett
+   område bra i passet lyfts uppgiften ibland till C- eller A-nivå, även om
+   den vanliga nivåstegen ännu inte hunnit dit. */
 function provNivaKandidater(pool,area){
   const p=state.prov; if(!p) return null;
   const x=provLokal(p.id).omr[area]||{f:0,r:0};
@@ -12269,7 +12406,7 @@ function provRegistrera(t,correct){
   provSparaLokal(p.id,d);
   const antal=Number(p.antal)||30;
   if(fore<antal && d.klara>=antal)
-    setTimeout(()=>cheer("📚","Provträning klar",p.titel,`Du har gjort alla ${antal} uppgifter. Fortsätt gärna och repetera.`),1900);
+    setTimeout(()=>cheer("📚","Träningspasset klart",p.titel,`Du har gjort alla ${antal} uppgifter. Fortsätt gärna och repetera.`),1900);
   clearTimeout(provRapportTimer);
   provRapportTimer=setTimeout(()=>provRapportera(p.id),3000);
 }
@@ -12279,56 +12416,47 @@ async function provRapportera(id){
 }
 function provEtikett(){
   const p=state.prov;
-  return `Provträning: ${p.titel} · ${provKlara(p)}/${p.antal}`;
+  return `Träningspass: ${p.titel} · ${provKlara(p)}/${p.antal}`;
 }
 
-/* ── Lärarens vy ── */
-async function oppnaProvLarare(){
-  document.getElementById("provlarare")?.remove();
-  const el=document.createElement("div");
-  el.className="modal"; el.id="provlarare";
-  el.innerHTML=`<div class="modal-kort provmodal" role="dialog" aria-modal="true" aria-label="Provträning">
-      <div class="modal-topp"><div><div class="lbl">Lärare</div><h2>Plugga inför prov</h2></div>
-        <button class="iconbtn" onclick="stangModal('provlarare')" aria-label="Stäng">✕</button></div>
-      <div id="provlarare-kropp"><div class="empty">Hämtar provträningar …</div></div>
-    </div>`;
-  document.body.appendChild(el);
-  el.addEventListener("click",e=>{ if(e.target===el) stangModal("provlarare"); });
-  requestAnimationFrame(()=>el.classList.add("visa"));
-  await provRitaLararlista();
-}
+/* ── Lärarens lista (fliken Träningspass på Min sida) ── */
+function oppnaProvLarare(){ oppnaLarare("pass"); }
 async function provRitaLararlista(){
   const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
   const r=await provRpc("kg_prov_mina");
+  if(!document.getElementById("provlarare-kropp")) return;
   if(r?.saknas){
-    kropp.innerHTML=`<p class="modal-text">Provträning är inte aktiverad i databasen än. Kör
-      <code>sql/2026-10-02-provtraning.sql</code> i Supabase → SQL Editor och öppna sedan den här rutan igen.</p>`;
+    kropp.innerHTML=`<div class="empty">Träningspass är inte aktiverade i databasen än. Kör
+      <code>sql/2026-10-02-provtraning.sql</code> och <code>sql/2026-10-03-larargrupper.sql</code> i Supabase → SQL Editor.</div>`;
     return;
   }
-  if(!r?.ok){ kropp.innerHTML=`<div class="empty">Kunde inte hämta provträningarna. Är kontot upplagt som lärare?</div>`; return; }
-  const lista=r.prov||[];
-  kropp.innerHTML=`<p class="modal-text">Du anger vad provet omfattar. Kunskapsgymmet väljer och anpassar
-      uppgifterna för varje elev, och du ser hur klassen ligger till per område.</p>
-    <div class="modal-fot" style="margin-top:0;margin-bottom:14px">
-      <button class="btn primary" onclick="provSkapaStart()">Skapa provträning</button></div>
+  if(!r?.ok){ kropp.innerHTML=`<div class="empty">Kunde inte hämta träningspassen. Är kontot godkänt som lärare?</div>`; return; }
+  const lista=provLararLista=r.prov||[];
+  kropp.innerHTML=`<p class="lartext">Välj vad passet ska omfatta och vilka klasser som ska få det. Kunskapsgymmet väljer och
+      anpassar uppgifterna för varje elev, och du ser hur det går per område och per elev. Ge passet vilket namn du vill,
+      till exempel ”Prov 2 – Algebra” eller ”Repetition kapitel 3”.</p>
+    <div class="larny"><button class="btn primary" onclick="provSkapaStart()">Skapa träningspass</button></div>
     ${lista.length?`<div class="provlista">${lista.map(p=>{
       const kurs=COURSES[p.kurs];
+      const grupper=(p.grupper||[]).map(g=>g.namn).join(", ");
       return `<details class="provrad${p.aktiv?"":" avslutad"}" ontoggle="if(this.open)provVisaResultat(${Number(p.id)})">
         <summary><span class="provrad-titel"><b>${esc(p.titel)}</b>
-          <small>${esc(kurs?.code||p.kurs)}${p.spar?" "+esc(p.spar):""}${p.datum?" · prov "+esc(provDatum(p.datum)):""}${p.klass?" · "+esc(p.klass):""}${p.aktiv?"":" · avslutad"}</small></span>
+          <small>${esc(kurs?.code||p.kurs)}${p.spar?" "+esc(p.spar):""}${p.datum?" · till "+esc(provDatum(p.datum)):""}${grupper?" · "+esc(grupper):""}${p.klass?" · "+esc(p.klass):""}${p.aktiv?"":" · avslutat"}</small></span>
           <span class="pt-upp-chip">${Number(p.tranat)||0} har tränat</span></summary>
         <div class="provrad-kropp">
           <div class="provkodbox"><span>Kod</span><b>${esc(p.kod)}</b>
             <button class="btn sm" onclick="provKopiera('${esc(p.kod)}',false)">Kopiera kod</button>
             <button class="btn sm" onclick="provKopiera('${esc(p.kod)}',true)">Kopiera länk</button></div>
           <div id="provres-${Number(p.id)}"><div class="empty">Hämtar resultat …</div></div>
-          <div class="modal-fot"><span class="spacer"></span>
-            <button class="btn sm quiet" onclick="provAvsluta(${Number(p.id)},${p.aktiv?"false":"true"})">${p.aktiv?"Avsluta provträningen":"Aktivera igen"}</button></div>
+          <div class="modal-fot">
+            <button class="btn sm quiet farligtext" onclick="provTaBort(${Number(p.id)})">Ta bort</button>
+            <span class="spacer"></span>
+            <button class="btn sm quiet" onclick="provAvsluta(${Number(p.id)},${p.aktiv?"false":"true"})">${p.aktiv?"Avsluta passet":"Aktivera igen"}</button></div>
         </div>
       </details>`;}).join("")}</div>`
-      :`<div class="empty">Du har inte skapat någon provträning än.</div>`}`;
+      :`<div class="empty">Du har inte skapat något träningspass än.</div>`}`;
 }
-function provLank(kod){ return location.origin+location.pathname+"?prov="+encodeURIComponent(kod); }
+function provLank(kod){ return location.origin+location.pathname+"?kod="+encodeURIComponent(kod); }
 async function provKopiera(kod,lank){
   const text=lank?provLank(kod):kod;
   try{ await navigator.clipboard.writeText(text); toast(lank?"Länken är kopierad.":"Koden är kopierad."); }
@@ -12336,8 +12464,20 @@ async function provKopiera(kod,lank){
 }
 async function provAvsluta(id,aktiv){
   const r=await provRpc("kg_prov_avsluta",{p_prov:id,p_aktiv:aktiv});
-  if(!r?.ok){ toast("Kunde inte ändra provträningen."); return; }
-  toast(aktiv?"Provträningen är aktiv igen.":"Provträningen är avslutad och syns inte längre för eleverna.");
+  if(!r?.ok){ toast("Kunde inte ändra passet."); return; }
+  toast(aktiv?"Passet är aktivt igen.":"Passet är avslutat och syns inte längre för eleverna.");
+  provRitaLararlista();
+}
+async function provTaBort(id){
+  const p=provLararLista.find(x=>Number(x.id)===Number(id));
+  const ok=await larBekrafta("Ta bort träningspasset permanent?",
+    `<b>${esc(p?.titel||"Passet")}</b> tas bort för alla elever, och resultaten i passet raderas. Elevernas vanliga träning påverkas inte. Det går inte att ångra.`,
+    "Ta bort permanent", true);
+  if(!ok) return;
+  const r=await provRpc("kg_prov_ta_bort",{p_prov:Number(id)});
+  if(r?.saknas){ toast("Borttagning är inte aktiverad i databasen än."); return; }
+  if(!r?.ok){ toast("Kunde inte ta bort passet."); return; }
+  toast("Träningspasset är borttaget.");
   provRitaLararlista();
 }
 async function provVisaResultat(id){
@@ -12358,10 +12498,20 @@ async function provVisaResultat(id){
       <span class="provres-pct">${pct===null?"–":pct+" %"}</span>
       <small>${Number(x.forsok)||0} svar · ${Number(x.elever)||0} elever</small></div>`;
   }).join("");
+  const antal=Number(p.antal)||30;
+  const elever=(r.elevlista||[]).slice().sort((a,b)=>(Number(b.klara)||0)-(Number(a.klara)||0));
   box.innerHTML=`<div class="provres-topp"><b>${Number(r.tranat)||0}/${Number(r.elever)||0}</b> elever har tränat ·
       ${Number(r.uppgifter)||0} uppgifter lösta</div>
+    <h4 class="provres-rubrik">Per område</h4>
     <div class="provres">${rader}</div>
-    <p class="menytext">Andel rätt per område bland elevernas svar. Låga staplar visar vad klassen kan behöva repetera före provet.</p>`;
+    <p class="menytext">Andel rätt per område bland elevernas svar. Låga staplar visar vad klassen kan behöva repetera.</p>
+    ${elever.length?`<details class="laralla"><summary>Per elev (${elever.length})</summary><div class="provres">${elever.map(e=>{
+      const k=Number(e.klara)||0, pct=Math.min(100,Math.round(k/antal*100));
+      return `<div class="provres-rad${k>=antal?" bra":k>0?" mellan":" svag"}">
+        <span class="provres-namn">${esc(e.namn||"Okänd")}</span>
+        <span class="provres-stapel"><i style="width:${pct}%"></i></span>
+        <span class="provres-pct">${k}/${antal}</span>
+        <small>${k?larPct(e.ratt,k)+" rätt":"inte börjat"}${e.dold?" · har tagit bort passet":""}</small></div>`;}).join("")}</div></details>`:""}`;
 }
 
 /* Kursens struktur och bank för formuläret, utan att byta kurs för läraren. */
@@ -12401,18 +12551,23 @@ function provForslagKod(){
   const s=provSkapa; const c=COURSES[s.kurs];
   const bas=(s.spar?(c.code.replace(/\s.*$/,"")+s.spar.replace(/^\d/,"")):c.code).replace(/[^A-Za-z0-9]/g,"").toUpperCase();
   const ord=((s.titel||"").normalize("NFD").replace(/[̀-ͯ]/g,"").toUpperCase()
-    .split(/[^A-Z0-9]+/).filter(w=>w.length>2 && w!=="PROV" && !/^\d+$/.test(w))[0])||"PROV";
+    .split(/[^A-Z0-9]+/).filter(w=>w.length>2 && w!=="PROV" && !/^\d+$/.test(w))[0])||"PASS";
   const d=s.datum?new Date(s.datum+"T12:00:00"):null;
   const dat=d&&!Number.isNaN(d.getTime())?d.getDate()+["JAN","FEB","MAR","APR","MAJ","JUN","JUL","AUG","SEP","OKT","NOV","DEC"][d.getMonth()]:"";
   return [bas,ord,dat].filter(Boolean).join("-");
 }
-async function provSkapaStart(){
-  const kurs=state.course && COURSES[state.course] && state.course!=="hist" ? state.course : "ma2";
-  provSkapa={kurs,spar:COURSES[kurs].defaultTrack||null,titel:"",datum:"",klass:null,
-             nivaer:["E","C","A"],antal:30,omraden:[],klasser:null,kd:null};
-  const kl=await klassRpc("kg_klasser",{},false);
-  provSkapa.klasser=Array.isArray(kl)?kl.filter(k=>!k.larare):[];
+async function provSkapaStart(forval={}){
+  const kurs = forval.kurs && COURSES[forval.kurs] ? forval.kurs
+    : (state.course && COURSES[state.course] && state.course!=="hist" ? state.course : "ma2");
+  provSkapa={kurs,spar:COURSES[kurs].defaultTrack||null,titel:"",datum:"",
+             grupper:(forval.grupper||[]).map(Number),grupplista:[],
+             nivaer:["E","C","A"],antal:30,omraden:(forval.omraden||[]).slice(),kd:null};
+  const kropp=document.getElementById("provlarare-kropp");
+  if(kropp) kropp.innerHTML=`<div class="empty">Läser in kursen …</div>`;
+  const g=await klassRpc("kg_lar_grupper");
+  provSkapa.grupplista=g?.ok?(g.grupper||[]):[];
   await provSkapaLaddaKurs();
+  provSorteraOmraden();
   provRitaSkapa();
 }
 async function provSkapaLaddaKurs(){
@@ -12426,21 +12581,22 @@ function provRitaSkapa(){
   const kurser=COURSE_ORDER.filter(id=>COURSES[id] && id!=="hist");
   const per=kd?provRakna(kd,s.spar,s.nivaer):{};
   kropp.innerHTML=`<div class="provform">
-    <label class="provfalt"><span>Provets namn</span>
-      <input class="admin-sok" id="prov-titel" maxlength="60" placeholder="Prov 2 – Algebra" value="${esc(s.titel)}" oninput="provSkapa.titel=this.value"></label>
+    <h2 class="provform-rubrik">Nytt träningspass</h2>
+    <label class="provfalt"><span>Passets namn</span>
+      <input class="admin-sok" id="prov-titel" maxlength="60" placeholder="t.ex. Prov 2 – Algebra eller Repetition kapitel 3" value="${esc(s.titel)}" oninput="provSkapa.titel=this.value"></label>
     <div class="provform-rad">
       <label class="provfalt"><span>Kurs</span>
         <select class="admin-sok" onchange="provBytKurs(this.value)">${kurser.map(id=>`<option value="${id}"${id===s.kurs?" selected":""}>${esc(COURSES[id].name)}</option>`).join("")}</select></label>
       ${(c.tracks||[]).length>1?`<label class="provfalt"><span>Spår</span>
         <select class="admin-sok" onchange="provSkapa.spar=this.value;provRitaSkapa()">${c.tracks.map(t=>`<option value="${t}"${t===s.spar?" selected":""}>${esc(t)}</option>`).join("")}</select></label>`:""}
-      <label class="provfalt"><span>Provdatum</span>
+      <label class="provfalt"><span>Slutdatum (valfritt)</span>
         <input class="admin-sok" type="date" value="${esc(s.datum)}" onchange="provSkapa.datum=this.value"></label>
     </div>
-    <label class="provfalt"><span>Klass</span>
-      <select class="admin-sok" onchange="provSkapa.klass=this.value?Number(this.value):null">
-        <option value="">Ingen klass – eleverna går med med kod eller länk</option>
-        ${(s.klasser||[]).map(k=>`<option value="${Number(k.id)}"${Number(k.id)===s.klass?" selected":""}>${esc(k.namn)}</option>`).join("")}
-      </select></label>
+
+    <div class="provfalt"><span>Vilka klasser ska få passet?</span>
+      ${s.grupplista.length?`<div class="provchips">${s.grupplista.map(g=>`<button type="button" class="valruta${s.grupper.includes(Number(g.id))?" vald":""}" onclick="provVaxlaGrupp(${Number(g.id)})"><span class="kryss" aria-hidden="true"></span><span class="valnamn">${esc(g.namn)}</span><span class="valstate">${Number(g.elever)||0}</span></button>`).join("")}</div>`
+        :`<p class="menytext">Du har inga klasser än. Skapa en under Mina klasser, eller dela passets kod direkt med eleverna.</p>`}
+      <p class="menytext">Eleverna i valda klasser ser passet direkt på sin startsida. Passet får också en egen kod som alla kan gå med med.${s.datum?" Det visas till och med dagen efter slutdatumet.":""}</p></div>
 
     <div class="provfalt"><span>Nivåer som ska tränas</span>
       <div class="provchips">${["E","C","A"].map(L=>`<button type="button" class="valruta${s.nivaer.includes(L)?" vald":""}" onclick="provVaxlaNiva('${L}')"><span class="kryss" aria-hidden="true"></span><span class="valnamn">${L}</span></button>`).join("")}</div></div>
@@ -12468,7 +12624,7 @@ function provRitaSkapa(){
 
     <div class="modal-fot">
       <button class="btn quiet" onclick="provRitaLararlista()">Tillbaka</button><span class="spacer"></span>
-      <button class="btn primary" onclick="provSkapaSkicka()">Skapa provträning</button></div>
+      <button class="btn primary" onclick="provSkapaSkicka()">Skapa träningspass</button></div>
   </div>`;
 }
 function provKontrollHtml(per){
@@ -12484,10 +12640,15 @@ function provKontrollHtml(per){
   }).join("");
   const niv=["E","C","A"].map(L=>!s.nivaer.includes(L)?`<span class="provniva av">${L}: –</span>`
     : `<span class="provniva ${sum[L]>=5?"ok":"varn"}">${L}: ${sum[L]>=5?"✓":"⚠"} ${sum[L]}</span>`).join("");
-  return `<b>Provträningen innehåller</b>
+  return `<b>Passet innehåller</b>
     <ul class="provkontroll-lista">${rader}</ul>
     <div class="provkontroll-niva">${niv}</div>
     <p class="menytext">${tot} möjliga uppgifter. ${tot<s.antal?"Det är färre än omfattningen, så uppgifter kommer att upprepas.":"Varje elev får sitt eget urval."}</p>`;
+}
+function provVaxlaGrupp(id){
+  const s=provSkapa; id=Number(id);
+  s.grupper=s.grupper.includes(id)?s.grupper.filter(x=>x!==id):[...s.grupper,id];
+  provRitaSkapa();
 }
 function provVaxlaOmrade(o){
   const s=provSkapa;
@@ -12506,6 +12667,7 @@ function provVaxlaKapitel(kap){
 function provSorteraOmraden(){
   const s=provSkapa; if(!s.kd) return;
   const ord=s.kd.kapitel.flatMap(k=>k.omraden);
+  s.omraden=s.omraden.filter(o=>ord.includes(o));
   s.omraden.sort((a,b)=>ord.indexOf(a)-ord.indexOf(b));
 }
 function provVaxlaNiva(L){
@@ -12520,21 +12682,22 @@ async function provBytKurs(id){
 async function provSkapaSkicka(){
   const s=provSkapa;
   s.titel=(document.getElementById("prov-titel")?.value||s.titel||"").trim();
-  if(s.titel.length<2){ toast("Ge provet ett namn."); return; }
+  if(s.titel.length<2){ toast("Ge passet ett namn."); return; }
   if(!s.omraden.length){ toast("Välj minst ett område."); return; }
   if(!s.nivaer.length){ toast("Välj minst en nivå."); return; }
   const r=await provRpc("kg_prov_skapa",{p_titel:s.titel,p_kurs:s.kurs,p_spar:s.spar,p_omraden:s.omraden,
-    p_nivaer:s.nivaer,p_antal:s.antal,p_datum:s.datum||null,p_klass:s.klass,p_kod:provForslagKod()});
-  if(r?.saknas){ toast("Provträning är inte aktiverad i databasen än."); return; }
+    p_nivaer:s.nivaer,p_antal:s.antal,p_datum:s.datum||null,p_grupper:s.grupper,p_kod:provForslagKod()});
+  if(r?.saknas){ toast("Träningspass med klasser är inte aktiverade i databasen än."); return; }
   if(!r?.ok){
     const fel={titel:"Namnet ska vara 2–60 tecken.",omraden:"Välj minst ett område.",nivaer:"Välj minst en nivå.",
-      larare_kravs:"Bara lärarkonton kan skapa provträningar.",okand_klass:"Klassen finns inte längre."}[r?.code];
-    toast(fel||"Kunde inte skapa provträningen."); return;
+      larare_kravs:"Bara lärarkonton kan skapa träningspass.",okand_grupp:"En av klasserna finns inte längre."}[r?.code];
+    toast(fel||"Kunde inte skapa träningspasset."); return;
   }
   const kropp=document.getElementById("provlarare-kropp"); if(!kropp) return;
+  const valda=s.grupplista.filter(g=>s.grupper.includes(Number(g.id))).map(g=>g.namn);
   kropp.innerHTML=`<div class="provklar">
-      <p class="modal-text">Provträningen <b>${esc(s.titel)}</b> är skapad.${s.klass?" Eleverna i klassen ser den direkt på sin startsida.":""}
-        Dela koden eller länken, till exempel i Classroom eller Teams.</p>
+      <p class="modal-text">Träningspasset <b>${esc(s.titel)}</b> är skapat.${valda.length?` Eleverna i ${esc(valda.join(", "))} ser det direkt på sin startsida.`:""}
+        Du kan också dela koden eller länken, till exempel i Classroom eller Teams.</p>
       <div class="provkodbox stor"><span>Kod</span><b>${esc(r.kod)}</b></div>
       <div class="provlank">${esc(provLank(r.kod))}</div>
       <div class="modal-fot">
@@ -12543,6 +12706,459 @@ async function provSkapaSkicka(){
         <span class="spacer"></span>
         <button class="btn primary" onclick="provRitaLararlista()">Klar</button></div>
     </div>`;
+}
+
+/* ═══════════════ Min sida för lärare ═══════════════
+   Lärarens klasser (egna grupper med kod), elevstatistik och träningspass.
+   Klasserna här är skilda från topplistans klasser: en elev kan vara med i
+   flera lärares klasser. Läraren ser bara elever som själva gått med med
+   kod eller länk, och bara sammanställda siffror. Databasdelen finns i
+   sql/2026-10-03-larargrupper.sql. */
+const LARARE_IKON='<svg class="pallmarke" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" '
+  +'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/>'
+  +'<path d="M3.5 19.5c.6-3.2 2.8-5 5.5-5s4.9 1.8 5.5 5"/><path d="M15.5 5.2a3.2 3.2 0 0 1 0 5.6"/>'
+  +'<path d="M17.6 14.8c1.6.7 2.6 2.4 2.9 4.7"/></svg>';
+let larData={grupper:null,elever:{}};
+
+function lararKnapp(){
+  if(!MOLN_PA() || !session || !arLarare) return "";
+  return `<button class="pill topppill lararpill${state.view==="larare"?" pa":""}" onclick="oppnaLarare()"
+      title="Min sida: klasser, elevstatistik och träningspass" aria-label="Min sida">
+    ${LARARE_IKON}<span class="topptext">Min sida</span></button>`;
+}
+function uppdateraLararKnapp(){
+  const plats=document.getElementById("lararplats");
+  if(plats) plats.innerHTML=lararKnapp();
+}
+function larSaknasHtml(){
+  return `<div class="empty">Lärarfunktionerna är inte aktiverade i databasen än. Kör
+    <code>sql/2026-10-03-larargrupper.sql</code> i Supabase → SQL Editor och ladda om sidan.</div>`;
+}
+function larNar(t){
+  if(!t) return "–";
+  const d=new Date(t); if(Number.isNaN(d.getTime())) return "–";
+  const idag=new Date(); idag.setHours(0,0,0,0);
+  const dag=new Date(d); dag.setHours(0,0,0,0);
+  const n=Math.round((idag-dag)/864e5);
+  if(n<=0) return "idag";
+  if(n===1) return "igår";
+  if(n<7) return n+" dagar sedan";
+  return d.toLocaleDateString("sv-SE",{day:"numeric",month:"short"});
+}
+function larPct(r,f){ return f ? Math.round(r/f*100)+" %" : "–"; }
+function larKursNamn(id){ return COURSES[id]?.name || id; }
+
+/* Bekräftelseruta som ersätter confirm(). Svarar true eller false. */
+function larBekrafta(rubrik,text,knapp,farlig){
+  return new Promise(res=>{
+    document.getElementById("larbekrafta")?.remove();
+    const el=document.createElement("div");
+    el.className="modal"; el.id="larbekrafta";
+    el.innerHTML=`<div class="modal-kort" role="alertdialog" aria-modal="true" aria-label="${esc(rubrik)}" style="width:min(440px,100%)">
+        <div class="modal-topp"><div><h2>${esc(rubrik)}</h2></div></div>
+        <p class="modal-text">${text}</p>
+        <div class="modal-fot"><span class="spacer"></span>
+          <button class="btn" data-svar="nej">Avbryt</button>
+          <button class="btn ${farlig?"farlig":"primary"}" data-svar="ja">${esc(knapp)}</button></div>
+      </div>`;
+    const klar=svar=>{ stangModal("larbekrafta"); res(svar); };
+    el.addEventListener("click",e=>{
+      if(e.target===el) return klar(false);
+      const b=e.target.closest("[data-svar]"); if(b) klar(b.dataset.svar==="ja");
+    });
+    document.body.appendChild(el);
+    requestAnimationFrame(()=>el.classList.add("visa"));
+    setTimeout(()=>el.querySelector('[data-svar="nej"]')?.focus(),60);
+  });
+}
+
+/* ── Själva vyn ── */
+function oppnaLarare(flik,record){
+  document.getElementById("kontomeny")?.remove();
+  if(!session){ loggaIn(); return; }
+  if(flik) state.larFlik=flik;
+  if(!state.larFlik) state.larFlik="klasser";
+  if(record!==false) navRecord("larare");
+  ritaLarare();
+}
+function ritaLarare(){
+  state.view="larare";
+  const f=state.larFlik||"klasser";
+  const flik=(id,txt)=>`<button class="fliknapp${f===id?" pa":""}" role="tab" aria-selected="${f===id?"true":"false"}"
+      onclick="larByt('${id}')">${txt}</button>`;
+  app.innerHTML=topbar()+`<main class="shell view larvy" style="padding-bottom:60px">
+    <div class="larhuvud"><div class="lbl">Lärare</div><h1>Min sida</h1></div>
+    <div class="flikar larflikar" role="tablist">
+      ${flik("klasser","Mina klasser")}${flik("pass","Träningspass")}
+      <button class="fliknapp" onclick="oppnaFelrapportLogg()">Felrapporter${felOppnaAntal?" ("+felOppnaAntal+")":""}</button>
+    </div>
+    <div id="larkropp" class="larkropp"><div class="empty">Hämtar …</div></div>
+  </main>`;
+  afterRender();
+  if(f==="pass") larRitaPass(); else larRitaKlasser();
+}
+function larByt(f){
+  if(f==="klasser" && state.larFlik==="klasser"){ state.larGrupp=null; state.larElev=null; }
+  state.larFlik=f;
+  ritaLarare();
+  window.scrollTo(0,0);
+}
+function larTillbaka(tillGrupp){
+  if(tillGrupp) state.larElev=null;
+  else { state.larGrupp=null; state.larElev=null; }
+  larRitaKlasser();
+  window.scrollTo(0,0);
+}
+
+/* ── Mina klasser ── */
+async function larHamtaGrupper(){
+  const r=await klassRpc("kg_lar_grupper");
+  if(r?.saknas) return "saknas";
+  if(!r?.ok) return null;
+  larData.grupper=r.grupper||[];
+  return larData.grupper;
+}
+async function larRitaKlasser(){
+  const kropp=document.getElementById("larkropp"); if(!kropp) return;
+  if(state.larGrupp && state.larElev) return larRitaElev();
+  if(state.larGrupp) return larRitaGrupp();
+  const g=await larHamtaGrupper();
+  if(!document.getElementById("larkropp")) return;
+  if(g==="saknas"){ kropp.innerHTML=larSaknasHtml(); return; }
+  if(!g){ kropp.innerHTML=`<div class="empty">Kunde inte hämta dina klasser. Är kontot godkänt som lärare?</div>`; return; }
+  kropp.innerHTML=`<p class="lartext">Skapa en klass och dela koden eller länken med eleverna. När en elev har gått med
+      ser du elevens träning här. Eleven får veta att du kan följa träningen.</p>
+    <div class="larny">
+      <input class="admin-sok" id="lar-nyklass" maxlength="40" placeholder="Klassens namn, t.ex. NA24b Ma2c"
+        onkeydown="if(event.key==='Enter')larSkapaGrupp()">
+      <button class="btn primary" onclick="larSkapaGrupp()">Skapa klass</button>
+    </div>
+    ${g.length?`<div class="largrid">${g.map(x=>`<button class="larkort" onclick="larValjGrupp(${Number(x.id)})">
+        <span class="larkort-namn">${esc(x.namn)}</span>
+        <span class="larkort-tal"><b>${Number(x.elever)||0}</b> elever · <b>${Number(x.aktiva)||0}</b> aktiva senaste veckan</span>
+        <span class="larkort-kod">Kod ${esc(x.kod)}</span>
+        ${(x.larare||[]).length>1?`<span class="larkort-meta">Lärare: ${esc(x.larare.join(", "))}</span>`:""}
+      </button>`).join("")}</div>`
+      :`<div class="empty">Du har inga klasser än. Skapa den första ovan.</div>`}`;
+}
+async function larSkapaGrupp(){
+  const f=document.getElementById("lar-nyklass");
+  const namn=(f?.value||"").trim();
+  if(namn.length<2){ toast("Ge klassen ett namn."); f?.focus(); return; }
+  const r=await klassRpc("kg_lar_grupp_skapa",{p_namn:namn});
+  if(r?.saknas){ toast("Lärarfunktionerna är inte aktiverade i databasen än."); return; }
+  if(!r?.ok){ toast(r?.code==="namn"?"Namnet ska vara 2–40 tecken.":"Kunde inte skapa klassen."); return; }
+  toast(`Klassen ${r.namn} är skapad. Dela koden ${r.kod} med eleverna.`);
+  await larHamtaGrupper();
+  larValjGrupp(Number(r.id));
+}
+function larValjGrupp(id){
+  state.larGrupp=Number(id); state.larElev=null; state.larGruppFlik="elever";
+  larRitaKlasser(); window.scrollTo(0,0);
+}
+function larGrupp(){ return (larData.grupper||[]).find(x=>Number(x.id)===Number(state.larGrupp)); }
+function larGruppLank(kod){ return location.origin+location.pathname+"?kod="+encodeURIComponent(kod); }
+async function larKopiera(text,besked){
+  try{ await navigator.clipboard.writeText(text); toast(besked); }
+  catch(_){ prompt("Kopiera:",text); }
+}
+
+async function larRitaGrupp(){
+  const kropp=document.getElementById("larkropp"); if(!kropp) return;
+  if(!larData.grupper) await larHamtaGrupper();
+  const g=larGrupp();
+  if(!g){ state.larGrupp=null; return larRitaKlasser(); }
+  const sub=state.larGruppFlik||"elever";
+  kropp.innerHTML=`<button class="lank larbak" onclick="larTillbaka()">← Alla klasser</button>
+    <div class="largrupp-topp">
+      <h2>${esc(g.namn)}</h2>
+      <div class="provkodbox"><span>Kod</span><b>${esc(g.kod)}</b>
+        <button class="btn sm" onclick="larKopiera('${esc(g.kod)}','Koden är kopierad.')">Kopiera kod</button>
+        <button class="btn sm" onclick="larKopiera(larGruppLank('${esc(g.kod)}'),'Länken är kopierad.')">Kopiera länk</button></div>
+      <div class="larverktyg">
+        <button class="btn sm primary" onclick="larNyttPass(${Number(g.id)})">Skapa träningspass</button>
+        <button class="btn sm quiet" onclick="larBytNamn()">Byt namn</button>
+        <button class="btn sm quiet" onclick="larKollega()">Lägg till kollega</button>
+        <button class="btn sm quiet farligtext" onclick="larTaBortGrupp()">Ta bort klassen</button>
+      </div>
+      <p class="lartext liten">Lärare: ${esc((g.larare||[]).join(", ")||"–")}</p>
+    </div>
+    <div class="toppvy" role="tablist">
+      <button class="${sub==="elever"?"pa":""}" onclick="state.larGruppFlik='elever';larRitaGrupp()">Elever</button>
+      <button class="${sub==="omraden"?"pa":""}" onclick="state.larGruppFlik='omraden';larRitaGrupp()">Klassen per område</button>
+    </div>
+    <div id="largruppkropp"><div class="empty">Hämtar …</div></div>`;
+  if(sub==="omraden") larRitaOmraden(); else larRitaElever();
+}
+
+const LAR_SORT={
+  namn:  {txt:"Elev",              f:(a,b)=>String(a.namn||"").localeCompare(String(b.namn||""),"sv")},
+  vecka: {txt:"Senaste 7 dagarna", f:(a,b)=>(b.vecka||0)-(a.vecka||0)},
+  ratt:  {txt:"Andel rätt",        f:(a,b)=>((b.senaste_ratt||0)/Math.max(1,b.senaste||0))-((a.senaste_ratt||0)/Math.max(1,a.senaste||0))},
+  totalt:{txt:"Totalt",            f:(a,b)=>(b.uppgifter||0)-(a.uppgifter||0)},
+  senast:{txt:"Senast aktiv",      f:(a,b)=>new Date(b.senast||0)-new Date(a.senast||0)}
+};
+async function larRitaElever(ladda=true){
+  const box=document.getElementById("largruppkropp"); if(!box) return;
+  const id=state.larGrupp, g=larGrupp();
+  if(ladda || !larData.elever[id]){
+    const r=await klassRpc("kg_lar_elever",{p_grupp:id});
+    if(!document.getElementById("largruppkropp")) return;
+    if(!r?.ok){ box.innerHTML=`<div class="empty">Kunde inte hämta eleverna.</div>`; return; }
+    larData.elever[id]=r.elever||[];
+  }
+  const lista=[...larData.elever[id]];
+  if(!lista.length){
+    box.innerHTML=`<div class="empty">Inga elever har gått med än. Dela koden <b>${esc(g?.kod||"")}</b> eller länken med klassen.</div>`;
+    return;
+  }
+  const s=LAR_SORT[state.larSort]?state.larSort:"namn";
+  lista.sort(LAR_SORT[s].f);
+  const rubrik=k=>`<button class="larth${s===k?" pa":""}" onclick="state.larSort='${k}';larRitaElever(false)">${LAR_SORT[k].txt}</button>`;
+  const veckaTot=lista.reduce((a,e)=>a+(Number(e.vecka)||0),0);
+  const aktiva=lista.filter(e=>(Number(e.vecka)||0)>0).length;
+  box.innerHTML=`<div class="statgrid larstat">
+      ${statRuta(String(lista.length),"Elever")}
+      ${statRuta(String(aktiva),"Aktiva senaste veckan")}
+      ${statRuta(String(veckaTot),"Uppgifter senaste veckan")}
+    </div>
+    <div class="lartabell" role="table" aria-label="Elever">
+      <div class="larrad larrubrik" role="row">${rubrik("namn")}${rubrik("vecka")}${rubrik("ratt")}${rubrik("totalt")}${rubrik("senast")}</div>
+      ${lista.map(e=>{
+        const vilar=!e.senast || (Date.now()-new Date(e.senast))>14*864e5;
+        return `<button class="larrad${vilar?" vilar":""}" role="row" onclick="larValjElev('${esc(e.id)}')">
+          <span class="larnamn"><b>${esc(e.namn||"Okänd")}</b><small>${esc(e.epost||"")}</small></span>
+          <span data-lbl="Senaste 7 dagarna">${Number(e.vecka)||0}${e.vecka?` <small>(${larPct(e.vecka_ratt,e.vecka)} rätt)</small>`:""}</span>
+          <span data-lbl="Andel rätt">${larPct(e.senaste_ratt,e.senaste)}</span>
+          <span data-lbl="Totalt">${Number(e.uppgifter)||0}</span>
+          <span data-lbl="Senast aktiv">${larNar(e.senast)}</span>
+        </button>`;}).join("")}
+    </div>
+    <p class="lartext liten">Andel rätt gäller elevens senaste försök (upp till 300 per kurs). Gråa rader har inte tränat på två veckor.</p>`;
+}
+function larValjElev(uid){ state.larElev=uid; larRitaKlasser(); window.scrollTo(0,0); }
+
+/* ── En elev ── */
+async function larRitaElev(){
+  const kropp=document.getElementById("larkropp"); if(!kropp) return;
+  if(!larData.grupper) await larHamtaGrupper();
+  const g=larGrupp();
+  kropp.innerHTML=`<button class="lank larbak" onclick="larTillbaka(true)">← ${esc(g?.namn||"Klassen")}</button>
+    <div id="larelev"><div class="empty">Hämtar elevens träning …</div></div>`;
+  const r=await klassRpc("kg_lar_elev",{p_grupp:state.larGrupp,p_user:state.larElev});
+  const box=document.getElementById("larelev"); if(!box) return;
+  if(!r?.ok){ box.innerHTML=`<div class="empty">Kunde inte hämta eleven.</div>`; return; }
+  const kurser=(r.kurser||[]).filter(k=>Number(k.forsok)>0 || (k.omraden||[]).length);
+  const vecka=kurser.reduce((a,k)=>a+(Number(k.vecka)||0),0);
+  const forsok=kurser.reduce((a,k)=>a+(Number(k.forsok)||0),0);
+  const ratt=kurser.reduce((a,k)=>a+(Number(k.ratt)||0),0);
+  // Aktivitet de senaste 14 dagarna
+  const dagar=[];
+  for(let i=13;i>=0;i--){
+    const d=new Date(Date.now()-i*864e5);
+    const nyckel=d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+    dagar.push({d,n:Number(r.dagar?.[nyckel])||0});
+  }
+  const max=Math.max(1,...dagar.map(x=>x.n));
+  box.innerHTML=`<div class="larelev-topp"><h2>${esc(r.namn||"Elev")}</h2><small>${esc(r.epost||"")}</small></div>
+    <div class="statgrid larstat">
+      ${statRuta(String(Number(r.uppgifter)||0),"Uppgifter totalt")}
+      ${statRuta(String(vecka),"Senaste 7 dagarna")}
+      ${statRuta(larPct(ratt,forsok),"Andel rätt","senaste försöken")}
+      ${statRuta(String(Number(r.streak)||0),"Dagar i rad")}
+    </div>
+    <div class="laraktivitet" aria-label="Uppgifter per dag de senaste 14 dagarna">
+      ${dagar.map(x=>`<span class="lardag" title="${x.d.toLocaleDateString("sv-SE",{weekday:"short",day:"numeric",month:"short"})}: ${x.n} uppgifter">
+        <i style="height:${Math.round(x.n/max*100)}%"></i><small>${x.d.getDate()}</small></span>`).join("")}
+    </div>
+    <div id="larkurser">${kurser.length?kurser.map((k,i)=>`<section class="larkurs" id="larkurs-${i}">
+        <h3>${esc(larKursNamn(k.kurs))}</h3>
+        <p class="lartext liten">${Number(k.forsok)||0} försök · ${larPct(k.ratt,k.forsok)} rätt · ${Number(k.vecka)||0} senaste veckan · senast ${larNar(k.senast)}</p>
+        <div class="empty">Läser in kursens områden …</div></section>`).join("")
+      :`<div class="empty">Eleven har inte tränat något än.</div>`}</div>
+    ${(r.pass||[]).length?`<section class="larkurs"><h3>Träningspass</h3>
+      ${r.pass.map(p=>{
+        const pct=Math.min(100,Math.round((Number(p.klara)||0)/Math.max(1,Number(p.antal)||1)*100));
+        return `<div class="provres-rad${pct>=100?" bra":pct>0?" mellan":" svag"}">
+          <span class="provres-namn">${esc(p.titel)}</span>
+          <span class="provres-stapel"><i style="width:${pct}%"></i></span>
+          <span class="provres-pct">${Number(p.klara)||0}/${Number(p.antal)||0}</span>
+          <small>${larPct(p.ratt,p.klara)} rätt${p.aktiv?"":" · avslutat"}</small></div>`;}).join("")}</section>`:""}
+    <div class="modal-fot"><span class="spacer"></span>
+      <button class="btn sm quiet farligtext" onclick="larTaBortElev()">Ta bort eleven ur klassen</button></div>`;
+  // Områdesnamn kräver att kursen läses in; görs kurs för kurs.
+  for(let i=0;i<kurser.length;i++){
+    const k=kurser[i];
+    const kd=await provKursData(k.kurs).catch(()=>null);
+    const sek=document.getElementById("larkurs-"+i); if(!sek) return;
+    sek.querySelector(".empty")?.replaceWith(larKursOmradenEl(k,kd));
+  }
+}
+function larKursOmradenEl(k,kd){
+  const namn=o=>kd?.namn?.[o]||o;
+  const omr=(k.omraden||[]).map(o=>({...o,m:Number(o.m)||0,f:Number(o.f)||0,r:Number(o.r)||0}));
+  const svaga=omr.filter(o=>o.f>=2 && o.m<.6).sort((a,b)=>a.m-b.m).slice(0,5);
+  const starka=omr.filter(o=>o.m>=.75).sort((a,b)=>b.m-a.m).slice(0,4);
+  const rad=o=>{
+    const pct=Math.round(o.m*100);
+    const ton=o.m>=.75?" bra":o.m>=.55?" mellan":" svag";
+    return `<div class="provres-rad${ton}"><span class="provres-namn">${esc(namn(o.omr))}</span>
+      <span class="provres-stapel"><i style="width:${pct}%"></i></span><span class="provres-pct">${pct} %</span>
+      <small>${o.f} försök · ${larPct(o.r,o.f)} rätt i senaste försöken</small></div>`;
+  };
+  const el=document.createElement("div");
+  el.innerHTML=`<div class="larkolumner">
+      <div><h4>Behöver träna mer på</h4>${svaga.length?`<div class="provres">${svaga.map(rad).join("")}</div>`
+        :`<p class="lartext liten">Inga tydligt svaga områden bland dem eleven har tränat.</p>`}</div>
+      <div><h4>Starkast i</h4>${starka.length?`<div class="provres">${starka.map(rad).join("")}</div>`
+        :`<p class="lartext liten">Inga områden är ännu riktigt säkra.</p>`}</div>
+    </div>
+    ${omr.length?`<details class="laralla"><summary>Alla ${omr.length} områden eleven har tränat</summary>
+      <div class="provres">${[...omr].sort((a,b)=>a.m-b.m).map(rad).join("")}</div></details>`:""}
+    <p class="lartext liten">Procenten är Kunskapsgymmets uppskattning av hur säkert eleven behärskar området, utifrån alla svar.</p>`;
+  return el;
+}
+async function larTaBortElev(){
+  const lista=larData.elever[state.larGrupp]||[];
+  const e=lista.find(x=>x.id===state.larElev);
+  const ok=await larBekrafta("Ta bort eleven ur klassen?",
+    `${esc(e?.namn||"Eleven")} tas bort ur klassen och du kan inte längre se elevens träning. Eleven behåller all sin träning och kan gå med igen med koden.`,
+    "Ta bort", true);
+  if(!ok) return;
+  const r=await klassRpc("kg_lar_ta_bort_elev",{p_grupp:state.larGrupp,p_user:state.larElev});
+  if(!r?.ok){ toast("Kunde inte ta bort eleven."); return; }
+  toast("Eleven är borttagen ur klassen.");
+  state.larElev=null; larData.elever[state.larGrupp]=null;
+  await larHamtaGrupper(); larRitaKlasser();
+}
+
+/* ── Klassen per område ── */
+async function larRitaOmraden(){
+  const box=document.getElementById("largruppkropp"); if(!box) return;
+  const kurser=COURSE_ORDER.filter(id=>COURSES[id] && id!=="hist");
+  if(!kurser.includes(state.larKurs)) state.larKurs=kurser.includes(state.course)?state.course:kurser[0];
+  const kurs=state.larKurs;
+  box.innerHTML=`<label class="provfalt larkursval"><span>Kurs</span>
+      <select class="admin-sok" onchange="state.larKurs=this.value;larRitaOmraden()">
+        ${kurser.map(id=>`<option value="${id}"${id===kurs?" selected":""}>${esc(COURSES[id].name)}</option>`).join("")}</select></label>
+    <div id="laromr"><div class="empty">Hämtar …</div></div>`;
+  const [r,kd]=await Promise.all([klassRpc("kg_lar_grupp_omraden",{p_grupp:state.larGrupp,p_kurs:kurs}),
+                                  provKursData(kurs).catch(()=>null)]);
+  const host=document.getElementById("laromr"); if(!host || state.larKurs!==kurs) return;
+  if(!r?.ok){ host.innerHTML=`<div class="empty">Kunde inte hämta klassens resultat.</div>`; return; }
+  const ordning=kd?kd.kapitel.flatMap(k=>k.omraden):[];
+  const omr=Object.entries(r.omraden||{}).map(([o,x])=>({omr:o,m:Number(x.m)||0,elever:Number(x.elever)||0,
+      f:Number(x.forsok)||0,r:Number(x.ratt)||0}))
+    .filter(o=>!kd || ordning.includes(o.omr));
+  if(!omr.length){ host.innerHTML=`<div class="empty">Ingen i klassen har tränat ${esc(larKursNamn(kurs))} än.</div>`; return; }
+  omr.sort((a,b)=>a.m-b.m);
+  const svagast=omr.filter(o=>o.f>=3).slice(0,5).map(o=>o.omr);
+  larData.svagast={kurs,omr:svagast};
+  host.innerHTML=`<p class="lartext">Klassens genomsnittliga behärskning per område, svagast först.</p>
+    <div class="provres">${omr.map(o=>{
+      const pct=Math.round(o.m*100);
+      const ton=o.m>=.75?" bra":o.m>=.55?" mellan":" svag";
+      return `<div class="provres-rad${ton}"><span class="provres-namn">${esc(kd?.namn?.[o.omr]||o.omr)}</span>
+        <span class="provres-stapel"><i style="width:${pct}%"></i></span><span class="provres-pct">${pct} %</span>
+        <small>${o.elever} elever · ${o.f} försök · ${larPct(o.r,o.f)} rätt</small></div>`;}).join("")}</div>
+    ${svagast.length?`<div class="modal-fot"><span class="spacer"></span>
+      <button class="btn primary" onclick="larNyttPass(${Number(state.larGrupp)},larData.svagast.kurs,larData.svagast.omr)">Skapa träningspass med de ${svagast.length} svagaste</button></div>`:""}`;
+}
+
+/* ── Hantera klassen ── */
+async function larBytNamn(){
+  const g=larGrupp(); if(!g) return;
+  const namn=prompt("Nytt namn på klassen:",g.namn);
+  if(namn===null || !namn.trim() || namn.trim()===g.namn) return;
+  const r=await klassRpc("kg_lar_grupp_andra",{p_grupp:g.id,p_namn:namn.trim()});
+  if(!r?.ok){ toast(r?.code==="namn"?"Namnet ska vara 2–40 tecken.":"Kunde inte byta namn."); return; }
+  await larHamtaGrupper(); larRitaGrupp();
+}
+async function larKollega(){
+  const g=larGrupp(); if(!g) return;
+  const epost=prompt("Kollegans e-postadress (kontot måste vara ett godkänt lärarkonto):","");
+  if(!epost || !epost.trim()) return;
+  const r=await klassRpc("kg_lar_kollega",{p_grupp:g.id,p_epost:epost.trim()});
+  if(!r?.ok){
+    toast({okant_konto:"Det finns inget konto med den adressen.",ej_larare:"Kontot är inte godkänt som lärare."}[r?.code]||"Kunde inte lägga till kollegan.");
+    return;
+  }
+  toast(`${r.namn} är nu lärare i klassen.`);
+  await larHamtaGrupper(); larRitaGrupp();
+}
+async function larTaBortGrupp(){
+  const g=larGrupp(); if(!g) return;
+  const ok=await larBekrafta("Ta bort klassen?",
+    `Klassen <b>${esc(g.namn)}</b> tas bort permanent för alla lärare i den. Eleverna behåller all sin träning, men du kan inte längre se den. Det går inte att ångra.`,
+    "Ta bort klassen", true);
+  if(!ok) return;
+  const r=await klassRpc("kg_lar_grupp_ta_bort",{p_grupp:g.id});
+  if(!r?.ok){ toast("Kunde inte ta bort klassen."); return; }
+  toast(`Klassen ${g.namn} är borttagen.`);
+  state.larGrupp=null; await larHamtaGrupper(); larRitaKlasser();
+}
+
+/* ── Träningspass ── */
+function larRitaPass(){
+  const kropp=document.getElementById("larkropp"); if(!kropp) return;
+  kropp.innerHTML=`<div id="provlarare-kropp"><div class="empty">Hämtar träningspass …</div></div>`;
+  if(state.larPassForval){ const f=state.larPassForval; state.larPassForval=null; provSkapaStart(f); }
+  else provRitaLararlista();
+}
+function larNyttPass(grupp,kurs,omraden){
+  state.larPassForval={grupper:grupp?[Number(grupp)]:[],kurs:kurs||null,omraden:omraden||[]};
+  state.larFlik="pass";
+  ritaLarare(); window.scrollTo(0,0);
+}
+
+/* ── Eleven: mina lärarklasser ── */
+async function oppnaMinaGrupper(){
+  document.getElementById("kontomeny")?.remove();
+  document.getElementById("minagrupper")?.remove();
+  const el=document.createElement("div");
+  el.className="modal"; el.id="minagrupper";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-label="Mina klasser hos lärare" style="width:min(480px,100%)">
+      <div class="modal-topp"><div><div class="lbl">Konto</div><h2>Mina lärares klasser</h2></div>
+        <button class="iconbtn" onclick="stangModal('minagrupper')" aria-label="Stäng">✕</button></div>
+      <div id="minagrupper-kropp"><div class="empty">Hämtar …</div></div>
+      <div class="modal-fot"><button class="btn" onclick="stangModal('minagrupper');oppnaProvkod()">Gå med med kod</button>
+        <span class="spacer"></span><button class="btn primary" onclick="stangModal('minagrupper')">Stäng</button></div>
+    </div>`;
+  document.body.appendChild(el);
+  el.addEventListener("click",e=>{ if(e.target===el) stangModal("minagrupper"); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+  const r=await klassRpc("kg_mina_grupper");
+  const box=document.getElementById("minagrupper-kropp"); if(!box) return;
+  if(r?.saknas){ box.innerHTML=`<div class="empty">Lärarklasser är inte aktiverade än.</div>`; return; }
+  const lista=Array.isArray(r)?r:[];
+  box.innerHTML=lista.length?`<p class="modal-text">Lärarna i de här klasserna kan se din träning: hur mycket du tränar och vilka områden du behärskar.</p>
+    <div class="minagrupper">${lista.map(g=>`<div class="minagrupp"><span><b>${esc(g.namn)}</b><small>${esc((g.larare||[]).join(", "))}</small></span>
+      <button class="btn sm quiet" onclick="lamnaGrupp(${Number(g.id)},this)">Lämna</button></div>`).join("")}</div>`
+    :`<p class="modal-text">Du är inte med i någon lärares klass. Har du fått en kod av din lärare kan du gå med här.</p>`;
+}
+async function lamnaGrupp(id,knapp){
+  const rad=knapp?.closest(".minagrupp");
+  const namn=rad?.querySelector("b")?.textContent||"klassen";
+  const ok=await larBekrafta("Lämna klassen?",`Du lämnar <b>${esc(namn)}</b>. Läraren kan då inte längre se din träning. Du kan gå med igen med koden.`,"Lämna");
+  if(!ok) return;
+  const r=await klassRpc("kg_grupp_lamna",{p_grupp:id});
+  if(!r?.ok){ toast("Kunde inte lämna klassen."); return; }
+  rad?.remove(); toast(`Du har lämnat ${namn}.`);
+  provLista=null; provRitaBanner();
+}
+
+/* ── Admin: koppla en befintlig topplisteklass till en lärare ── */
+async function kgAdminKlassTillGrupp(id,namn){
+  const epost=prompt(`Lärarens e-postadress för ${namn}:\n\nDet skapas en lärarklass med samma namn och alla nuvarande elever i ${namn}. Elever som går med i topplisteklassen senare kommer inte med automatiskt.`,"");
+  if(!epost || !epost.trim()) return;
+  const r=await klassRpc("kg_admin_grupp_fran_klass",{p_klass:id,p_epost:epost.trim()});
+  if(r?.saknas){ toast("Lärarfunktionerna är inte aktiverade i databasen än."); return; }
+  if(!r?.ok){
+    toast({okant_konto:"Det finns inget konto med den adressen.",ej_larare:"Kontot är inte godkänt som lärare.",
+           okand_klass:"Klassen finns inte."}[r?.code]||"Kunde inte koppla klassen.");
+    return;
+  }
+  toast(`${r.larare} har nu klassen ${namn} med ${r.elever} elever. Kod: ${r.kod}`);
 }
 </script>
 </body>

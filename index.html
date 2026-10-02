@@ -3151,6 +3151,21 @@ button.larrad:focus-visible{outline:2px solid var(--acc);outline-offset:-2px}
 }
 @keyframes hmfIn{from{opacity:0;transform:translateY(8px) scale(.98)}}
 .hmfonster[hidden]{display:none}
+.hmfonster.anim{transition:left .3s var(--ease),top .3s var(--ease),width .3s var(--ease),height .3s var(--ease)}
+.hmfonster.dockad{animation:none}
+.hmfonster.dockad .hmf-storlek{display:none}
+@media(min-width:1000px){
+  body.hm-dockad #app{padding-right:var(--hm-dock,0px)}
+}
+body.hm-dockad-smal #app{padding-bottom:var(--hm-dock-h,0px)}
+body.hm-anim #app{transition:padding .3s var(--ease)}
+body.hm-drar{user-select:none}
+.hm-dockkant{position:fixed;top:0;bottom:0;width:10px;z-index:59;cursor:ew-resize;touch-action:none}
+.hm-dockkant[hidden]{display:none}
+.hm-dockkant:hover,.hm-dockkant.drar{background:linear-gradient(90deg,transparent 4px,var(--acc) 4px,var(--acc) 6px,transparent 6px)}
+.hm-dockzon{position:fixed;z-index:59;border-radius:24px;border:2px dashed var(--acc);background:var(--accSoft);
+  pointer-events:none;opacity:0;transition:opacity .15s ease}
+.hm-dockzon.syns{opacity:1}
 .hmfonster.drar{user-select:none;box-shadow:0 1px 0 rgba(255,255,255,.25) inset,0 4px 10px rgba(10,20,35,.14),0 34px 80px -20px rgba(10,20,35,.55)}
 .hm-raknare{width:390px}
 .hmf-topp{display:flex;align-items:center;gap:8px;padding:10px 12px 9px 8px;cursor:grab;touch-action:none;flex:none}
@@ -13736,7 +13751,8 @@ async function kgAdminSlaIhop(fran,till){
   if(host) kgAdminRitaSkolor(host);
 }
 /* ===== Hjälpmedel under träningen: formelblad och miniräknare =====
-   Två fristående fönster som går att dra omkring (i rubrikraden). Formelbladet
+   Två fönster som dockas till höger (uppgiften krymper) eller dras loss och
+   flyttas fritt i rubrikraden. Formelbladet
    går också att ändra storlek på (hörnet nere till höger) och zooma i (knappar,
    Ctrl/⌘ + scroll, nyp med två fingrar, dubbelklick). Fönstren ligger utanför
    #app så att de inte ritas om vid varje uppgift. Formelbladen är Skolverkets
@@ -13751,15 +13767,16 @@ const FORMELBLAD={
 };
 const PDFJS_URL="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js";
 const PDFJS_WORKER="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
-const HJALP_KEY="kunskapsgymmet-hjalpmedel2";
+const HJALP_KEY="kunskapsgymmet-hjalpmedel3";
 const ZOOM_MIN=0.5, ZOOM_MAX=4;
-const hjalp={formel:false,raknare:false,zoom:1,grader:true,pos:{}};
+const hjalp={formel:false,raknare:false,zoom:1,grader:true,pos:{},dock:{raknare:true,formel:true},dockBredd:0};
 try{ const s=JSON.parse(localStorage.getItem(HJALP_KEY)||"{}");
-  ["zoom","grader","pos"].forEach(k=>{ if(k in s) hjalp[k]=s[k]; }); }catch(_){}
+  ["zoom","grader","pos","dock","dockBredd"].forEach(k=>{ if(k in s) hjalp[k]=s[k]; }); }catch(_){}
 if(!(hjalp.zoom>=ZOOM_MIN && hjalp.zoom<=ZOOM_MAX)) hjalp.zoom=1;
 if(!hjalp.pos || typeof hjalp.pos!=="object") hjalp.pos={};
+if(!hjalp.dock || typeof hjalp.dock!=="object") hjalp.dock={raknare:true,formel:true};
 function hjalpSpara(){
-  try{ localStorage.setItem(HJALP_KEY,JSON.stringify({zoom:hjalp.zoom,grader:hjalp.grader,pos:hjalp.pos})); }catch(_){}
+  try{ localStorage.setItem(HJALP_KEY,JSON.stringify({zoom:hjalp.zoom,grader:hjalp.grader,pos:hjalp.pos,dock:hjalp.dock,dockBredd:hjalp.dockBredd})); }catch(_){}
 }
 
 const HJALP_IKON={
@@ -13803,7 +13820,6 @@ function hjalpSynk(){
     r.hidden=false;
     r.classList.toggle("sparrad",!tillaten);
     r.querySelectorAll(".rk-tangenter button,#rk-in").forEach(el=>{ el.disabled=!tillaten; });
-    hjalpPlacera(r);
   }else if(r) r.hidden=true;
 
   let f=document.getElementById("hm-formel");
@@ -13812,14 +13828,116 @@ function hjalpSynk(){
     f.hidden=false;
     f.querySelector("#hp-formelnamn").textContent=fb.namn;
     f.querySelector("#hp-pdf").href=fb.fil;
-    hjalpPlacera(f);
-    formelRita();
   }else if(f) f.hidden=true;
+
+  hjalpLayout();
+  if(visaF) formelRita();
 }
 
-/* ── Fönstren: position, storlek, dra och släpp ── */
+/* ── Fönstren: dockade eller flytande ──
+   Dockade fönster står i en kolumn till höger, och uppgiften krymper så att
+   inget täcks över. På smala skärmar ligger de i stället längst ned. Drar man
+   ett dockat fönster i rubriken blir det flytande; släpps det mot högerkanten
+   (nederkanten på smala skärmar) dockas det igen. */
+const HJALP_SMAL=999;
 let hjalpZ=60;
-function hjalpFram(f){ f.style.zIndex=String(++hjalpZ); if(hjalpZ>68){ hjalpZ=61; document.querySelectorAll(".hmfonster").forEach(x=>x.style.zIndex="60"); f.style.zIndex="61"; } }
+function hjalpNyckel(f){ return f.id==="hm-formel"?"formel":"raknare"; }
+function hjalpArDockad(f){ return hjalp.dock[hjalpNyckel(f)]!==false; }
+function hjalpFram(f){
+  f.style.zIndex=String(++hjalpZ);
+  if(hjalpZ>68){ hjalpZ=61; document.querySelectorAll(".hmfonster").forEach(x=>x.style.zIndex="60"); f.style.zIndex="61"; }
+}
+function hjalpDockBredd(){
+  const W=window.innerWidth;
+  return Math.round(Math.max(340,Math.min(hjalp.dockBredd||Math.min(520,W*0.36),W*0.55)));
+}
+function hjalpLayout(){
+  const W=window.innerWidth, H=window.innerHeight, smal=W<=HJALP_SMAL;
+  const r=document.getElementById("hm-raknare"), f=document.getElementById("hm-formel");
+  const syns=x=>!!x && !x.hidden;
+  const dr=syns(r)&&hjalpArDockad(r), df=syns(f)&&hjalpArDockad(f);
+  [r,f].forEach(x=>{
+    if(!syns(x)) return;
+    x.classList.toggle("dockad",hjalpArDockad(x));
+    if(!hjalpArDockad(x)) hjalpPlacera(x);
+  });
+  const rot=document.documentElement, kant=hjalpDockKant();
+  document.body.classList.toggle("hm-dockad",(dr||df)&&!smal);
+  document.body.classList.toggle("hm-dockad-smal",(dr||df)&&smal);
+  if(!dr && !df){ kant.hidden=true; return; }
+  if(!smal){
+    const dw=hjalpDockBredd(), x0=W-dw;
+    rot.style.setProperty("--hm-dock",dw+"px");
+    kant.hidden=false; kant.style.left=(x0-5)+"px";
+    let y=12;
+    if(dr){
+      const cw=Math.min(dw-24,440);
+      Object.assign(r.style,{left:Math.round(x0+(dw-cw)/2)+"px",top:y+"px",width:cw+"px",height:""});
+      y+=r.offsetHeight+12;
+    }
+    if(df) Object.assign(f.style,{left:(x0+12)+"px",top:y+"px",width:(dw-24)+"px",height:Math.max(200,H-y-12)+"px"});
+  }else{
+    kant.hidden=true;
+    const w=W-16; let botten=H-8;
+    if(dr){
+      Object.assign(r.style,{left:"8px",width:w+"px",height:""});
+      r.style.top=(botten-r.offsetHeight)+"px"; botten-=r.offsetHeight+8;
+    }
+    if(df){
+      const h=Math.round(Math.min(H*0.45,Math.max(200,botten-80)));
+      Object.assign(f.style,{left:"8px",width:w+"px",height:h+"px",top:(botten-h)+"px"}); botten-=h+8;
+    }
+    rot.style.setProperty("--hm-dock-h",(H-botten)+"px");
+  }
+}
+/* Mjuk övergång när ett fönster dockas eller släpps loss. */
+function hjalpAnimera(){
+  document.querySelectorAll(".hmfonster").forEach(x=>x.classList.add("anim"));
+  document.body.classList.add("hm-anim");
+  setTimeout(()=>{
+    document.querySelectorAll(".hmfonster").forEach(x=>x.classList.remove("anim"));
+    document.body.classList.remove("hm-anim");
+    formelRita();
+  },320);
+}
+/* Kanten mellan uppgiften och dockkolumnen: dra för att ändra bredden. */
+function hjalpDockKant(){
+  let k=document.getElementById("hm-dockkant");
+  if(k) return k;
+  k=document.createElement("div");
+  k.id="hm-dockkant"; k.className="hm-dockkant"; k.hidden=true;
+  k.title="Dra för att ändra bredden";
+  k.addEventListener("pointerdown",e=>{
+    e.preventDefault(); k.setPointerCapture(e.pointerId); k.classList.add("drar");
+    document.body.classList.add("hm-drar");
+    const flytta=ev=>{ hjalp.dockBredd=window.innerWidth-ev.clientX; hjalp.dockBredd=hjalpDockBredd(); hjalpLayout(); };
+    const slapp=()=>{
+      k.removeEventListener("pointermove",flytta); k.classList.remove("drar");
+      document.body.classList.remove("hm-drar"); hjalpSpara(); formelRita();
+    };
+    k.addEventListener("pointermove",flytta);
+    k.addEventListener("pointerup",slapp,{once:true});
+    k.addEventListener("pointercancel",slapp,{once:true});
+  });
+  document.body.appendChild(k);
+  return k;
+}
+/* Ytan som visar var fönstret dockas om man släpper det. */
+function hjalpDockZon(visa){
+  let z=document.getElementById("hm-dockzon");
+  if(!z){ z=document.createElement("div"); z.id="hm-dockzon"; z.className="hm-dockzon"; document.body.appendChild(z); }
+  if(visa){
+    const W=window.innerWidth, H=window.innerHeight;
+    if(W>HJALP_SMAL){ const dw=hjalpDockBredd(); Object.assign(z.style,{left:(W-dw+8)+"px",top:"8px",width:(dw-16)+"px",height:(H-16)+"px"}); }
+    else Object.assign(z.style,{left:"8px",top:(H*0.55)+"px",width:(W-16)+"px",height:(H*0.45-8)+"px"});
+  }
+  z.classList.toggle("syns",!!visa);
+}
+function hjalpIDockZon(ev){
+  const W=window.innerWidth, H=window.innerHeight;
+  return W>HJALP_SMAL ? ev.clientX>W-70 : ev.clientY>H-70;
+}
+
 function hjalpStandard(f){
   const W=window.innerWidth, H=window.innerHeight, smal=W<640;
   if(f.id==="hm-formel"){
@@ -13828,49 +13946,65 @@ function hjalpStandard(f){
     return {x:W-w-(smal?8:16),y:smal?64:84,w,h};
   }
   const w=smal?W-16:390, h=f.offsetHeight||560;
-  const formel=document.getElementById("hm-formel");
-  let x=W-w-16;
-  if(!smal && formel && !formel.hidden){
-    const fr=formel.getBoundingClientRect();
-    x=fr.left-w-14; if(x<16) x=16;
-  }
-  return {x:smal?8:x,y:Math.max(70,H-h-16),w};
+  return {x:smal?8:W-w-16,y:Math.max(70,H-h-16),w};
 }
 function hjalpPlacera(f){
-  const nyckel=f.id==="hm-formel"?"formel":"raknare";
-  const p={...hjalpStandard(f),...(hjalp.pos[nyckel]||{})};
+  const p={...hjalpStandard(f),...(hjalp.pos[hjalpNyckel(f)]||{})};
   const W=window.innerWidth, H=window.innerHeight;
   if(p.w){ p.w=Math.max(f.id==="hm-formel"?280:300,Math.min(p.w,W-16)); f.style.width=p.w+"px"; }
-  if(p.h && f.id==="hm-formel"){ p.h=Math.max(220,Math.min(p.h,H-16)); f.style.height=p.h+"px"; }
+  if(f.id==="hm-formel"){ p.h=Math.max(220,Math.min(p.h||H-100,H-16)); f.style.height=p.h+"px"; }
+  else f.style.height="";
   const bredd=f.offsetWidth||p.w||300;
   p.x=Math.max(8-bredd+120,Math.min(p.x,W-120));
   p.y=Math.max(8,Math.min(p.y,H-56));
   f.style.left=Math.round(p.x)+"px"; f.style.top=Math.round(p.y)+"px";
 }
 function hjalpSparaPos(f){
-  const nyckel=f.id==="hm-formel"?"formel":"raknare";
-  const r=f.getBoundingClientRect();
+  const r=f.getBoundingClientRect(), nyckel=hjalpNyckel(f);
   hjalp.pos[nyckel]={x:Math.round(r.left),y:Math.round(r.top),w:Math.round(r.width),
     ...(nyckel==="formel"?{h:Math.round(r.height)}:{})};
   hjalpSpara();
 }
-/* Gör fönstret flyttbart i rubriken och, för formelbladet, storleksändringsbart i hörnet. */
+/* Flytta i rubriken; storleksändra flytande formelblad i hörnet. */
 function hjalpDragbar(f){
   f.addEventListener("pointerdown",()=>hjalpFram(f),true);
   const topp=f.querySelector(".hmf-topp");
   topp.addEventListener("pointerdown",e=>{
     if(e.button!==0 || e.target.closest("button,a,input")) return;
     e.preventDefault();
-    const r=f.getBoundingClientRect(), dx=e.clientX-r.left, dy=e.clientY-r.top;
-    topp.setPointerCapture(e.pointerId); f.classList.add("drar");
+    let r=f.getBoundingClientRect(), dx=e.clientX-r.left, dy=e.clientY-r.top;
+    const x0=e.clientX, y0=e.clientY;
+    let igang=false, iZon=false;
+    topp.setPointerCapture(e.pointerId);
     const flytta=ev=>{
+      if(!igang){
+        if(Math.hypot(ev.clientX-x0,ev.clientY-y0)<5) return;
+        igang=true; f.classList.add("drar"); document.body.classList.add("hm-drar");
+        if(hjalpArDockad(f)){
+          // Släpp loss: fönstret behåller sin storlek och följer pekaren.
+          hjalp.dock[hjalpNyckel(f)]=false;
+          const w=Math.min(r.width,f.id==="hm-formel"?560:420), h=Math.min(r.height,window.innerHeight-100);
+          dx=Math.min(dx,w-40);
+          f.style.width=w+"px"; if(f.id==="hm-formel") f.style.height=h+"px";
+          f.classList.remove("dockad");
+          hjalp.pos[hjalpNyckel(f)]={x:ev.clientX-dx,y:ev.clientY-dy,w,...(f.id==="hm-formel"?{h}:{})};
+          hjalpAnimera(); hjalpLayout();
+          f.classList.remove("anim");
+          r=f.getBoundingClientRect();
+        }
+      }
       const W=window.innerWidth, H=window.innerHeight;
       const x=Math.max(8-r.width+120,Math.min(ev.clientX-dx,W-120));
       const y=Math.max(8,Math.min(ev.clientY-dy,H-56));
       f.style.left=x+"px"; f.style.top=y+"px";
+      iZon=hjalpIDockZon(ev); hjalpDockZon(iZon);
     };
     const slapp=()=>{
-      topp.removeEventListener("pointermove",flytta); f.classList.remove("drar"); hjalpSparaPos(f);
+      topp.removeEventListener("pointermove",flytta);
+      if(!igang) return;
+      f.classList.remove("drar"); document.body.classList.remove("hm-drar"); hjalpDockZon(false);
+      if(iZon){ hjalp.dock[hjalpNyckel(f)]=true; hjalpSpara(); hjalpAnimera(); hjalpLayout(); }
+      else{ hjalpSparaPos(f); formelRita(); }
     };
     topp.addEventListener("pointermove",flytta);
     topp.addEventListener("pointerup",slapp,{once:true});
@@ -13878,6 +14012,7 @@ function hjalpDragbar(f){
   });
   const horn=f.querySelector(".hmf-storlek"); if(!horn) return;
   horn.addEventListener("pointerdown",e=>{
+    if(hjalpArDockad(f)) return;
     e.preventDefault(); e.stopPropagation();
     const r=f.getBoundingClientRect(), x0=e.clientX, y0=e.clientY;
     horn.setPointerCapture(e.pointerId); f.classList.add("drar");
@@ -13896,10 +14031,7 @@ function hjalpDragbar(f){
 let hjalpResizeTimer=null;
 window.addEventListener("resize",()=>{
   clearTimeout(hjalpResizeTimer);
-  hjalpResizeTimer=setTimeout(()=>{
-    document.querySelectorAll(".hmfonster:not([hidden])").forEach(hjalpPlacera);
-    formelRita();
-  },200);
+  hjalpResizeTimer=setTimeout(()=>{ hjalpLayout(); formelRita(); },150);
 });
 new MutationObserver(hjalpSynk).observe(app,{childList:true});
 

@@ -19531,6 +19531,44 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "3.287",
+    "kap": 3,
+    "omr": "repetition_derivator",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm alla \\(x\\) där tangenten till kurvan \\(y=x^3-2x\\) har en lutning som är lika med funktionsvärdet. Använd gärna ett digitalt verktyg och bekräfta exakt.</p><p>Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>Villkoret är \\(y'=y\\): \\(3x^2-2=x^3-2x\\), alltså \\(x^3-3x^2-2x+2=0\\).</p><p>Ett digitalt verktyg ger tre nollställen, ungefär \\(-1\\), \\(0{,}586\\) och \\(3{,}414\\).</p><p>Exakt: \\(x=-1\\) är en rot, eftersom \\(-1-3+2+2=0\\). Polynomdivision ger \\((x+1)(x^2-4x+2)\\), och \\(x^2-4x+2=0\\) ger \\(x=2\\pm\\sqrt2\\).</p><p><strong>Svar:</strong> \\(x=-1\\), \\(x=2-\\sqrt2\\approx0{,}586\\) eller \\(x=2+\\sqrt2\\approx3{,}414\\)</p>",
+    "familj": "Derivata och ekvationer med digitala verktyg",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp \\(y'=y\\) och lös tredjegradsekvationen. Pröva små heltal för att hitta en rot.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -1,
+      0.5857864376269049,
+      3.414213562373095
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "typ": "derivata lika med funktionsvärde"
+  },
+  {
     "kap": 3,
     "omr": "integraler_area",
     "niva": "C",
@@ -19664,6 +19702,30 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Fördjupad analys med derivata och integral"
     ]
+  },
+  {
+    "id": "3.285",
+    "kap": 3,
+    "omr": "integraler_area",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Medelvärdet av funktionen \\(f(x)=x^2\\) på intervallet \\(0\\le x\\le a\\) är 12.</p><p>Bestäm \\(a&gt;0\\).</p>",
+    "s": "<p>Medelvärdet av \\(f\\) på \\([0,a]\\) är</p><p>\\[\\frac1a\\int_0^ax^2\\,dx=\\frac1a\\cdot\\frac{a^3}{3}=\\frac{a^2}{3}.\\]</p><p>\\(\\frac{a^2}{3}=12\\) ger \\(a^2=36\\), alltså \\(a=6\\).</p><p>Rimlighet: funktionsvärdena går från 0 till 36, och medelvärdet 12 är en tredjedel av det största, som för \\(x^2\\) ska vara.</p><p><strong>Svar:</strong> \\(a=6\\)</p>",
+    "familj": "Integraler, area och medelvärde",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Medelvärdet av en funktion är integralen delad med intervallets längd.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": null,
+    "typ": "medelvärde med okänd gräns"
   },
   {
     "kap": 4,
@@ -20493,6 +20555,44 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "diffekv_grunder"
     ]
+  },
+  {
+    "id": "4.518",
+    "kap": 4,
+    "omr": "vad_ar_diffekv",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En population \\(y(t)\\) beskrivs av differentialekvationen \\(y'=y(4-y)\\).</p><p>Bestäm de två jämviktslösningarna (konstanta lösningar) och det värde på \\(y\\) där populationen växer snabbast. Lös inte ekvationen.</p>",
+    "s": "<p>Jämviktslösningar har \\(y'=0\\): \\(y(4-y)=0\\), alltså \\(y=0\\) och \\(y=4\\).</p><p>Tillväxthastigheten är \\(g(y)=4y-y^2\\). Det är en parabel i \\(y\\) med maximum mitt mellan nollställena, alltså vid \\(y=2\\). Där är \\(y'=4\\).</p><p>För \\(0&lt;y&lt;4\\) är \\(y'&gt;0\\), så populationen växer mot 4, som är bärförmågan.</p><p><strong>Svar:</strong> jämviktslösningarna \\(y=0\\) och \\(y=4\\), snabbast tillväxt vid \\(y=2\\)</p>",
+    "familj": "Grundläggande analys av differentialekvationer",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Analysera högerledet \\(y(4-y)\\) som en funktion av \\(y\\). När är det 0, och när är det störst?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      4,
+      2
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "Mindre jämvikt",
+      "Större jämvikt",
+      "Snabbast tillväxt vid y ="
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "jämviktslösningar och största tillväxt"
   },
   {
     "kap": 4,
@@ -22199,6 +22299,30 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "4.514",
+    "kap": 4,
+    "omr": "verifiering",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionerna \\(y=e^{2x}+Ce^{-x}\\), där \\(C\\) är en godtycklig konstant, löser alla differentialekvationen</p><p>\\[y'+y=ae^{2x}.\\]</p><p>Bestäm konstanten \\(a\\).</p>",
+    "s": "<p>\\(y'=2e^{2x}-Ce^{-x}\\). Då är</p><p>\\[y'+y=2e^{2x}-Ce^{-x}+e^{2x}+Ce^{-x}=3e^{2x}.\\]</p><p>Termerna med \\(C\\) tar ut varandra. Det måste de göra, eftersom \\(Ce^{-x}\\) är lösningen till den homogena ekvationen \\(y'+y=0\\).</p><p><strong>Svar:</strong> \\(a=3\\)</p>",
+    "familj": "Verifiera och bestämma differentialekvation från lösning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera \\(y\\) och sätt in i vänster led.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": null,
+    "typ": "bestäm konstant i differentialekvation"
+  },
+  {
     "kap": 4,
     "omr": "homogena_andra",
     "niva": "E",
@@ -23275,6 +23399,54 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "4.515",
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Mängden kol-14 i ett dött organiskt material minskar enligt \\(y'=-ky\\). Halveringstiden är 5 730 år.</p><p>I ett fynd finns 30 % av den ursprungliga mängden kol-14 kvar. Hur gammalt är fyndet? Avrunda till tiotal år.</p>",
+    "s": "<p>Lösningen är \\(y=y_0e^{-kt}\\). Halveringstiden ger \\(e^{-5730k}=\\frac12\\), alltså \\(k=\\frac{\\ln2}{5730}\\approx1{,}210\\cdot10^{-4}\\) per år.</p><p>\\(e^{-kt}=0{,}30\\) ger</p><p>\\[t=\\frac{\\ln(1/0{,}30)}{k}=5730\\cdot\\frac{\\ln(1/0{,}30)}{\\ln2}\\approx9\\,950\\text{ år}.\\]</p><p>Rimlighet: 30 % ligger mellan 50 % (en halveringstid) och 25 % (två halveringstider). Åldern ska alltså ligga mellan 5 730 och 11 460 år.</p><p><strong>Svar:</strong> cirka 9 950 år</p>",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm \\(k\\) ur halveringstiden. Lös sedan \\(e^{-kt}=0{,}30\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "numeriskt",
+    "rättSvar": 9952.812854572363,
+    "tolerans": 10,
+    "svarEnhet": "år",
+    "typ": "kol-14-datering"
+  },
+  {
+    "id": "4.516",
+    "kap": 4,
+    "omr": "homogena_forsta",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös begynnelsevärdesproblemet \\(y'=-0{,}3y\\), \\(y(0)=50\\), och beräkna \\(y(4)\\). Svara med två decimaler.</p>",
+    "s": "<p>Lösningen är \\(y=50e^{-0{,}3x}\\). \\(y(4)=50e^{-1{,}2}\\approx15{,}06\\).</p><p><strong>Svar:</strong> cirka 15,06</p>",
+    "familj": "Lösa y' = ky och begynnelsevärdesproblem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lösningen till \\(y'=ky\\) är \\(y=Ce^{kx}\\). Bestäm \\(C\\) med begynnelsevärdet.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 15.059710595610106,
+    "tolerans": 0.01,
+    "typ": "begynnelsevärdesproblem y'=ky"
+  },
+  {
     "kap": 4,
     "omr": "inhomogena_forsta",
     "niva": "E",
@@ -23481,6 +23653,31 @@ window.BANKMATF1 = [
     ]
   },
   {
+    "id": "4.517",
+    "kap": 4,
+    "omr": "inhomogena_forsta",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>En kopp kaffe som är 90 °C ställs i ett rum som håller 20 °C. Temperaturen \\(T\\) uppfyller \\(T'=-k(T-20)\\). Efter 5 minuter är kaffet 70 °C.</p><p>Efter hur lång tid har kaffet svalnat till 40 °C? Svara i minuter med en decimal.</p>",
+    "s": "<p>Lösningen är \\(T=20+70e^{-kt}\\), eftersom skillnaden mot rummet från början är 70 °C.</p><p>\\(T(5)=70\\) ger \\(70e^{-5k}=50\\), alltså \\(k=\\frac{\\ln1{,}4}{5}\\approx0{,}0673\\) per minut.</p><p>\\(T=40\\) ger \\(70e^{-kt}=20\\), alltså \\(t=\\frac{\\ln3{,}5}{k}\\approx18{,}6\\) min.</p><p>Det tar längre tid att svalna de sista graderna, eftersom avsvalningen går långsammare ju mindre skillnaden mot rummet är.</p><p><strong>Svar:</strong> cirka 18,6 minuter</p>",
+    "familj": "Lösa inhomogena ekvationer av första ordningen",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Det är skillnaden \\(T-20\\) som minskar exponentiellt. Bestäm \\(k\\) ur mätningen efter 5 minuter.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 18.616141722053563,
+    "tolerans": 0.1,
+    "svarEnhet": "min",
+    "typ": "Newtons avsvalningslag"
+  },
+  {
     "kap": 4,
     "omr": "homogena_andra",
     "niva": "E",
@@ -23538,6 +23735,30 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Begynnelsevärdesproblem för differentialekvationer"
     ]
+  },
+  {
+    "id": "4.519",
+    "kap": 4,
+    "omr": "homogena_andra",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös begynnelsevärdesproblemet</p><p>\\[y''+4y=0,\\quad y(0)=1,\\quad y'(0)=2,\\]</p><p>och bestäm lösningens största värde. Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>Karaktäristisk ekvation: \\(r^2+4=0\\), alltså \\(r=\\pm2i\\). Den allmänna lösningen är \\(y=A\\cos2x+B\\sin2x\\).</p><p>\\(y(0)=A=1\\). \\(y'=-2A\\sin2x+2B\\cos2x\\), så \\(y'(0)=2B=2\\) och \\(B=1\\).</p><p>\\(y=\\cos2x+\\sin2x=\\sqrt2\\sin\\left(2x+\\frac\\pi4\\right)\\). Det största värdet är amplituden \\(\\sqrt2\\approx1{,}414\\).</p><p><strong>Svar:</strong> \\(y=\\cos2x+\\sin2x\\), största värdet \\(\\sqrt2\\)</p>",
+    "familj": "Begynnelsevärdesproblem",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Lös den karaktäristiska ekvationen och bestäm konstanterna. Skriv sedan lösningen som en enda sinusfunktion.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.4142135623730951,
+    "tolerans": 0.001,
+    "typ": "begynnelsevärdesproblem och amplitud"
   },
   {
     "kap": 4,
@@ -32563,6 +32784,45 @@ window.BANKMATF1 = [
     "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
+    ]
+  },
+  {
+    "id": "3.286",
+    "kap": 3,
+    "omr": "linjar_approximation",
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p><strong>a)</strong> Använd linjär approximation av \\(f(x)=\\sqrt x\\) kring \\(x=4\\) för att uppskatta \\(\\sqrt{4{,}1}\\). Svara med tre decimaler.</p><p><strong>b)</strong> Felet i approximationen är ungefär proportionellt mot \\(h^2\\), där \\(h\\) är avståndet från 4. Ungefär hur många gånger mindre blir felet om man i stället uppskattar \\(\\sqrt{4{,}01}\\)?</p>",
+    "s": "<p><strong>a)</strong> \\(f(4)=2\\) och \\(f'(x)=\\frac1{2\\sqrt x}\\), så \\(f'(4)=\\frac14\\).</p><p>\\[\\sqrt{4{,}1}\\approx2+\\frac14\\cdot0{,}1=2{,}025.\\]</p><p>Det verkliga värdet är \\(2{,}02485\\ldots\\), så felet är cirka \\(1{,}5\\cdot10^{-4}\\).</p><p><strong>b)</strong> \\(h\\) blir tio gånger mindre, så felet blir ungefär \\(10^2=100\\) gånger mindre. Kontroll: approximationen \\(2{,}0025\\) har felet cirka \\(1{,}6\\cdot10^{-6}\\).</p><p><strong>Svar:</strong> a) 2,025 &nbsp; b) ungefär 100 gånger mindre</p>",
+    "familj": "Linjär approximation med derivata",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Linjär approximation: \\(f(a+h)\\approx f(a)+f'(a)h\\). Vad händer med \\(h^2\\) när \\(h\\) blir tio gånger mindre?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.025,
+      100
+    ],
+    "tolerans": [
+      0.0005,
+      5
+    ],
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "typ": "linjär approximation och felets storlek",
+    "svarEnhet": [
+      null,
+      null
     ]
   },
   {

@@ -91705,6 +91705,190 @@ window.BANKMATO1 = [
     "svarEnhet": "°"
   },
   {
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "niva": "E",
+    "typ": "ramp med given lutning",
+    "poang": "2/0/0",
+    "t": "<p>En skateboardramp har lutningen 19,0° och den högsta höjden 80 cm. Hur bred måste rampen vara vågrätt? Svara i meter med tre värdesiffror.</p>",
+    "s": "<p>\\(\\tan19{,}0^\\circ=\\dfrac{0{,}80}{x}\\iff x=\\dfrac{0{,}80}{\\tan19{,}0^\\circ}\\approx2{,}32\\) m.</p><p><strong>Svar:</strong> cirka 2,32 m</p>",
+    "id": "4.487",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.32,
+    "tolerans": 0.006,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken trigonometrisk funktion kopplar ihop motstående och närliggande katet?</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "niva": "E",
+    "typ": "höjdförlust längs sned bana",
+    "poang": "2/0/0",
+    "t": "<p>Ett flygplan flyger med farten 390 km/h i en vinkel på 6,0° snett nedåt. Hur mycket minskar höjden på 4,0 minuter? Svara i km med två värdesiffror.</p>",
+    "s": "<p>Sträckan längs banan: \\(390\\cdot\\dfrac{4{,}0}{60}=26\\) km. Höjdminskning: \\(26\\sin6{,}0^\\circ\\approx2{,}7\\) km.</p><p><strong>Svar:</strong> cirka 2,7 km</p>",
+    "id": "4.488",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.72,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna först ut sträckan längs flygbanan.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "km",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "arbetsinsats": 1,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "niva": "C",
+    "typ": "tid för sned uppstigning",
+    "poang": "1/1/0",
+    "t": "<p>En ubåt på 24 m djup kör med farten 14 km/h snett uppåt i vinkeln 5,0° mot horisontalplanet. Hur lång tid tar det innan den når ytan? Svara i sekunder med två värdesiffror.</p>",
+    "s": "<p>Sträckan längs banan: \\(\\dfrac{24}{\\sin5{,}0^\\circ}\\approx275\\) m. Farten: \\(14\\) km/h \\(\\approx3{,}89\\) m/s.</p><p>Tid: \\(\\dfrac{275}{3{,}89}\\approx71\\) s.</p><p><strong>Svar:</strong> cirka 71 s</p>",
+    "id": "4.489",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 70.8,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur lång är sträckan längs ubåtens bana? Räkna om farten till m/s.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "s",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "niva": "C",
+    "typ": "närmaste läge",
+    "poang": "0/2/0",
+    "t": "<p>Klockan 15.00 är en båt 20,0 km väster om en radarstation. Båten färdas med farten 14 km/h i en riktning 57,3° söder om öst–västlinjen, alltså snett åt sydost. Hur många minuter efter 15.00 är båten som närmast radarstationen? Avrunda till hela minuter.</p>",
+    "s": "<p>Båten är närmast när linjen från stationen till båten är vinkelrät mot båtens kurs. Sträckan längs kursen dit är \\(20{,}0\\cos57{,}3^\\circ\\approx10{,}8\\) km.</p><p>Tid: \\(\\dfrac{10{,}8}{14}\\) h \\(\\approx0{,}772\\) h \\(\\approx46\\) min, alltså klockan 15.46.</p><p><strong>Svar:</strong> cirka 46 minuter</p>",
+    "id": "4.490",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 46,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita en figur. Det kortaste avståndet från en punkt till en linje är vinkelrätt mot linjen.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "min",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "niva": "A",
+    "typ": "höjd ur två elevationsvinklar",
+    "poang": "0/1/2",
+    "t": "<p>Från en punkt A är elevationsvinkeln till toppen av ett torn 32,1°. Från en punkt B, 150 m närmare tornet, är den 36,5°. Bestäm tornets höjd. Avrunda till hela meter.</p>",
+    "s": "<p>Med höjden \\(h\\) och avståndet \\(x\\) från B: \\(h=x\\tan36{,}5^\\circ=(x+150)\\tan32{,}1^\\circ\\).</p><p>\\(x=\\dfrac{150\\tan32{,}1^\\circ}{\\tan36{,}5^\\circ-\\tan32{,}1^\\circ}\\approx834\\) m och \\(h\\approx834\\tan36{,}5^\\circ\\approx618\\) m.</p><p><strong>Svar:</strong> cirka 618 m</p>",
+    "id": "4.491",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 618,
+    "tolerans": 1,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ställ upp två uttryck för höjden med tangens och sätt dem lika.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "m",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "arbetsinsats": 3,
+    "spel": true
+  },
+  {
+    "kap": 4,
+    "omr": "trig_ratvinkliga",
+    "niva": "C",
+    "typ": "radie i regelbunden månghörning",
+    "poang": "0/2/0",
+    "t": "<p>En cirkel omskrivs en regelbunden femhörning med sidan 5,0 cm. Bestäm cirkelns radie. Svara med två värdesiffror.</p>",
+    "s": "<p>Dela femhörningen i fem likbenta trianglar från medelpunkten. Toppvinkeln är \\(72^\\circ\\), så halva vinkeln är \\(36^\\circ\\) och halva sidan 2,5 cm.</p><p>\\(\\sin36^\\circ=\\dfrac{2{,}5}{R}\\iff R=\\dfrac{2{,}5}{\\sin36^\\circ}\\approx4{,}3\\) cm.</p><p><strong>Svar:</strong> cirka 4,3 cm</p>",
+    "id": "4.492",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Trigonometri i rätvinkliga trianglar",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.25,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Dra linjer från medelpunkten till hörnen. Vilken vinkel bildas i medelpunkten?</p>",
+    "traningsniva": 4,
+    "svarEnhet": "cm",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "arbetsinsats": 2,
+    "spel": true
+  },
+  {
     "id": "1.545",
     "kap": 1,
     "omr": "funktioner",

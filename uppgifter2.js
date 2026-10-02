@@ -17116,6 +17116,582 @@ window.BANK2 = [
     ]
   },
   {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "C",
+    "typ": "avlänkning mellan plattor",
+    "poang": "(3/1/0)",
+    "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s kommer in vinkelrätt mot ett homogent elektriskt fält mellan två plattor. Fältstyrkan är 114 N/C och plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><ol type=\"a\"><li>Hur lång tid är elektronen i fältet?</li><li>Vilken acceleration får elektronen vinkelrätt mot plattorna?</li><li>Hur långt har elektronen avlänkats när den lämnar fältet?</li><li>Hur stor vinkel bildar hastigheten med ursprungsriktningen efter fältet? Svara i grader.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Vågrätt är farten konstant: \\(t=\\dfrac{0{,}050}{3{,}00\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{-8}\\) s</p></li><li><p>\\(a=\\dfrac{eE}{m_e}=\\dfrac{1{,}602\\cdot10^{-19}\\cdot114}{9{,}109\\cdot10^{-31}}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{13}\\) m/s²</p></li><li><p>\\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0028\\) m</p></li><li><p>\\(v_y=at\\). \\(\\tan\\alpha=\\dfrac{v_y}{v_x}\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) °</p></li></ol>",
+    "id": "3.336",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.6666666666666667e-08,
+      20049182127566.145,
+      0.0027846086288286316,
+      6.355655522663501
+    ],
+    "tolerans": [
+      5.1e-10,
+      510000000000.0,
+      5.1e-05,
+      0.0953
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarEnhet": [
+      "s",
+      "m/s²",
+      "m",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s kommer in vinkelrätt mot ett homogent elektriskt fält mellan två plattor. Fältstyrkan är 114 N/C och plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur lång tid är elektronen i fältet?",
+        "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s kommer in vinkelrätt mot ett homogent elektriskt fält mellan två plattor. Fältstyrkan är 114 N/C och plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur lång tid är elektronen i fältet?</p>",
+        "s": "<p>Vågrätt är farten konstant: \\(t=\\dfrac{0{,}050}{3{,}00\\cdot10^6}\\).</p><p><strong>Svar:</strong> \\(1{,}7\\cdot10^{-8}\\) s</p>",
+        "ledtrad": "<p>Fältet påverkar inte den vågräta farten.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken acceleration får elektronen vinkelrätt mot plattorna?",
+        "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s kommer in vinkelrätt mot ett homogent elektriskt fält mellan två plattor. Fältstyrkan är 114 N/C och plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Vilken acceleration får elektronen vinkelrätt mot plattorna?</p>",
+        "s": "<p>\\(a=\\dfrac{eE}{m_e}=\\dfrac{1{,}602\\cdot10^{-19}\\cdot114}{9{,}109\\cdot10^{-31}}\\).</p><p><strong>Svar:</strong> \\(2{,}0\\cdot10^{13}\\) m/s²</p>",
+        "ledtrad": "<p>\\(F=qE\\) och \\(F=ma\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt har elektronen avlänkats när den lämnar fältet?",
+        "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s kommer in vinkelrätt mot ett homogent elektriskt fält mellan två plattor. Fältstyrkan är 114 N/C och plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur långt har elektronen avlänkats när den lämnar fältet?</p>",
+        "s": "<p>\\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0028\\) m</p>",
+        "ledtrad": "<p>Vinkelrätt mot plattorna är rörelsen likformigt accelererad från vila.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur stor vinkel bildar hastigheten med ursprungsriktningen efter fältet? Svara i grader.",
+        "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s kommer in vinkelrätt mot ett homogent elektriskt fält mellan två plattor. Fältstyrkan är 114 N/C och plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur stor vinkel bildar hastigheten med ursprungsriktningen efter fältet? Svara i grader.</p>",
+        "s": "<p>\\(v_y=at\\). \\(\\tan\\alpha=\\dfrac{v_y}{v_x}\\).</p><p><strong>Svar:</strong> \\(6{,}4\\) °</p>",
+        "ledtrad": "<p>Bestäm hastighetskomposanten vinkelrätt mot plattorna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Behandla rörelsen som ett kast: konstant fart längs plattorna och konstant acceleration vinkelrätt mot dem.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "C",
+    "typ": "fältstyrka ur avlänkning",
+    "poang": "(0/3/0)",
+    "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><ol type=\"a\"><li>Bestäm fältstyrkan.</li><li>Bestäm farten när elektronen lämnar fältet.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(t=\\dfrac{0{,}0225}{5{,}4\\cdot10^6}\\), \\(a=\\dfrac{2y}{t^2}\\), \\(E=\\dfrac{m_ea}{e}\\).</p><p><strong>Svar:</strong> \\(4\\,048\\) N/C</p></li><li><p>\\(v_y=at\\approx2{,}97\\cdot10^6\\) m/s. \\(v=\\sqrt{v_x^2+v_y^2}\\).</p><p><strong>Svar:</strong> \\(6{,}16\\cdot10^{6}\\) m/s</p></li></ol>",
+    "id": "3.337",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4048.080539325842,
+      6161130.493667538
+    ],
+    "tolerans": [
+      60.7,
+      92400.0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "N/C",
+      "m/s"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm fältstyrkan.",
+        "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Bestäm fältstyrkan.</p>",
+        "s": "<p>\\(t=\\dfrac{0{,}0225}{5{,}4\\cdot10^6}\\), \\(a=\\dfrac{2y}{t^2}\\), \\(E=\\dfrac{m_ea}{e}\\).</p><p><strong>Svar:</strong> \\(4\\,048\\) N/C</p>",
+        "ledtrad": "<p>Bestäm först tiden i fältet och sedan accelerationen.</p>",
+        "niva": "C",
+        "poang": "(0/2/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm farten när elektronen lämnar fältet.",
+        "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Bestäm farten när elektronen lämnar fältet.</p>",
+        "s": "<p>\\(v_y=at\\approx2{,}97\\cdot10^6\\) m/s. \\(v=\\sqrt{v_x^2+v_y^2}\\).</p><p><strong>Svar:</strong> \\(6{,}16\\cdot10^{6}\\) m/s</p>",
+        "ledtrad": "<p>Lägg ihop komposanterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Kaströrelse med elektrisk kraft.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "C",
+    "typ": "fältstyrka ur spänning",
+    "poang": "(1/2/0)",
+    "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><ol type=\"a\"><li>Hur mycket har elektronen avlänkats när den lämnar fältet?</li><li>Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. Svara i grader.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(E=\\dfrac Ud=4\\,500\\) N/C, \\(a=\\dfrac{eE}{m_e}\\), \\(t=\\dfrac{0{,}050}{1{,}0\\cdot10^7}\\). \\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0099\\) m</p></li><li><p>\\(\\tan\\alpha=\\dfrac{at}{v_x}\\).</p><p><strong>Svar:</strong> \\(22\\) °</p></li></ol>",
+    "id": "3.338",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.009892688549785927,
+      21.589079167944597
+    ],
+    "tolerans": [
+      0.000148,
+      0.51
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket har elektronen avlänkats när den lämnar fältet?",
+        "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur mycket har elektronen avlänkats när den lämnar fältet?</p>",
+        "s": "<p>\\(E=\\dfrac Ud=4\\,500\\) N/C, \\(a=\\dfrac{eE}{m_e}\\), \\(t=\\dfrac{0{,}050}{1{,}0\\cdot10^7}\\). \\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0099\\) m</p>",
+        "ledtrad": "<p>Bestäm fältstyrkan med \\(E=U/d\\).</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. Svara i grader.",
+        "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. Svara i grader.</p>",
+        "s": "<p>\\(\\tan\\alpha=\\dfrac{at}{v_x}\\).</p><p><strong>Svar:</strong> \\(22\\) °</p>",
+        "ledtrad": "<p>Jämför hastighetskomposanterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>\\(E=\\dfrac Ud\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "C",
+    "typ": "proton mellan plattor",
+    "poang": "(1/2/0)",
+    "t": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><ol type=\"a\"><li>Hur mycket har protonen avlänkats när den lämnar fältet?</li><li>Hur stor blir avlänkningsvinkeln? Svara i grader.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{eE}{m_p}\\), \\(t=\\dfrac{0{,}120}{1{,}5\\cdot10^7}\\), \\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0012\\) m</p></li><li><p>\\(\\tan\\alpha=\\dfrac{at}{v_x}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) °</p></li></ol>",
+    "id": "3.339",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.0012256784219964135,
+      1.170273909198109
+    ],
+    "tolerans": [
+      5.1e-05,
+      0.051
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket har protonen avlänkats när den lämnar fältet?",
+        "t": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur mycket har protonen avlänkats när den lämnar fältet?</p>",
+        "s": "<p>\\(a=\\dfrac{eE}{m_p}\\), \\(t=\\dfrac{0{,}120}{1{,}5\\cdot10^7}\\), \\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}0012\\) m</p>",
+        "ledtrad": "<p>Använd protonens massa.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor blir avlänkningsvinkeln? Svara i grader.",
+        "t": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur stor blir avlänkningsvinkeln? Svara i grader.</p>",
+        "s": "<p>\\(\\tan\\alpha=\\dfrac{at}{v_x}\\).</p><p><strong>Svar:</strong> \\(1{,}2\\) °</p>",
+        "ledtrad": "<p>Jämför komposanterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Kaströrelse med elektrisk kraft.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "C",
+    "typ": "fältstyrka ur avlänkningsvinkel",
+    "poang": "(0/2/0)",
+    "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s skjuts in vinkelrätt mot fältet mellan två 2,00 m långa plattor. Den avlänkas 10,0°. Bestäm fältstyrkan.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "s": "<p>\\(v_y=v_x\\tan10{,}0^\\circ\\), \\(t=\\dfrac{2{,}00}{3{,}00\\cdot10^6}\\), \\(a=\\dfrac{v_y}{t}\\), \\(E=\\dfrac{m_ea}{e}\\).</p><p><strong>Svar:</strong> \\(4{,}51\\) N/C</p>",
+    "id": "3.340",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4.5116923238017055,
+    "tolerans": 0.0677,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm vinkelräta hastigheten ur vinkeln.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "N/C",
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "E",
+    "typ": "avlänkning i tv-rör",
+    "poang": "(2/0/0)",
+    "t": "<p>I ett tv-rör passerar elektroner med farten \\(2{,}7\\cdot10^6\\) m/s mellan två 3,0 cm långa plattor där fältstyrkan är 1,0 kV/m. Hur mycket avlänkas elektronerna?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "s": "<p>\\(a=\\dfrac{eE}{m_e}\\), \\(t=\\dfrac{0{,}030}{2{,}7\\cdot10^6}\\), \\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}011\\) m</p>",
+    "id": "3.341",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.010856173991534624,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tiden bestäms av den vågräta rörelsen.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "m",
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "A",
+    "typ": "största spänning för passage",
+    "poang": "(0/1/2)",
+    "t": "<p>En proton skjuts in mitt mellan två 12,0 cm långa plattor med farten \\(1{,}37\\cdot10^4\\) m/s. Avståndet mellan plattorna är 13,86 mm. Vilken är den största spänning som kan ligga över plattorna utan att protonen träffar en platta?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "s": "<p>Största avlänkning: 6,93 mm. \\(t=\\dfrac{0{,}120}{1{,}37\\cdot10^4}\\), \\(a=\\dfrac{2y}{t^2}\\), \\(E=\\dfrac{m_pa}{e}\\), \\(U=Ed\\).</p><p><strong>Svar:</strong> \\(0{,}026\\) V</p>",
+    "id": "3.342",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.026148003352949444,
+    "tolerans": 0.00051,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Protonen får avlänkas högst halva plattavståndet.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "V",
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "A",
+    "typ": "minsta spänning som stoppar passage",
+    "poang": "(0/1/2)",
+    "t": "<p>En elektron accelereras med 600 V och skjuts in mitt mellan två 16 mm långa plattor som är 4,0 mm från varandra. Vilken är den minsta spänningen över plattorna som gör att elektronen inte kommer ut?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "s": "<p>\\(eU_a=\\dfrac{m_ev^2}{2}\\) och avlänkningen \\(y=\\dfrac{eU}{dm_e}\\cdot\\dfrac{L^2}{2v^2}=\\dfrac{UL^2}{4dU_a}\\).</p><p>\\(y=\\dfrac d2\\iff U=\\dfrac{2d^2U_a}{L^2}=\\dfrac{2\\cdot0{,}0040^2\\cdot600}{0{,}016^2}\\).</p><p><strong>Svar:</strong> \\(75\\) V</p>",
+    "id": "3.343",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "numeriskt",
+    "rättSvar": 75.0,
+    "tolerans": 1.12,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Uttryck avlänkningen med accelerationsspänningen och sätt den lika med halva plattavståndet.</p>",
+    "traningsniva": 5,
+    "svarEnhet": "V",
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "C",
+    "typ": "elektron träffar platta",
+    "poang": "(1/2/0)",
+    "t": "<p>En elektron skjuts in med 2,0 Mm/s mitt mellan två plattor som är 3,00 cm från varandra. Fältstyrkan är 5,5 kV/m och elektronen träffar den övre plattan.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><ol type=\"a\"><li>Hur stor är elektronens acceleration?</li><li>Hur lång tid tar det innan den träffar plattan?</li><li>Hur långt har den hunnit längs plattorna då?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{eE}{m_e}\\).</p><p><strong>Svar:</strong> \\(9{,}67\\cdot10^{14}\\) m/s²</p></li><li><p>Den ska avlänkas 1,50 cm: \\(t=\\sqrt{\\dfrac{2\\cdot0{,}0150}{a}}\\).</p><p><strong>Svar:</strong> \\(5{,}57\\cdot10^{-9}\\) s</p></li><li><p>\\(d=vt\\).</p><p><strong>Svar:</strong> \\(0{,}0111\\) m</p></li></ol>",
+    "id": "3.344",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      967285102645735.0,
+      5.56907898937712e-09,
+      0.01113815797875424
+    ],
+    "tolerans": [
+      14500000000000.0,
+      8.35e-11,
+      0.000167
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "m/s²",
+      "s",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En elektron skjuts in med 2,0 Mm/s mitt mellan två plattor som är 3,00 cm från varandra. Fältstyrkan är 5,5 kV/m och elektronen träffar den övre plattan.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är elektronens acceleration?",
+        "t": "<p>En elektron skjuts in med 2,0 Mm/s mitt mellan två plattor som är 3,00 cm från varandra. Fältstyrkan är 5,5 kV/m och elektronen träffar den övre plattan.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur stor är elektronens acceleration?</p>",
+        "s": "<p>\\(a=\\dfrac{eE}{m_e}\\).</p><p><strong>Svar:</strong> \\(9{,}67\\cdot10^{14}\\) m/s²</p>",
+        "ledtrad": "<p>\\(F=eE=m_ea\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång tid tar det innan den träffar plattan?",
+        "t": "<p>En elektron skjuts in med 2,0 Mm/s mitt mellan två plattor som är 3,00 cm från varandra. Fältstyrkan är 5,5 kV/m och elektronen träffar den övre plattan.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur lång tid tar det innan den träffar plattan?</p>",
+        "s": "<p>Den ska avlänkas 1,50 cm: \\(t=\\sqrt{\\dfrac{2\\cdot0{,}0150}{a}}\\).</p><p><strong>Svar:</strong> \\(5{,}57\\cdot10^{-9}\\) s</p>",
+        "ledtrad": "<p>Hur långt är det till den övre plattan?</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur långt har den hunnit längs plattorna då?",
+        "t": "<p>En elektron skjuts in med 2,0 Mm/s mitt mellan två plattor som är 3,00 cm från varandra. Fältstyrkan är 5,5 kV/m och elektronen träffar den övre plattan.</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur långt har den hunnit längs plattorna då?</p>",
+        "s": "<p>\\(d=vt\\).</p><p><strong>Svar:</strong> \\(0{,}0111\\) m</p>",
+        "ledtrad": "<p>Längs plattorna är farten konstant.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Kaströrelse med elektrisk kraft.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "A",
+    "typ": "minsta fart för passage",
+    "poang": "(0/1/2)",
+    "t": "<p>En elektron kommer in mitt mellan två 5,00 cm långa plattor som är 2,00 cm från varandra. Fältstyrkan är \\(8{,}00\\cdot10^4\\) N/C. Vilken är den minsta fart elektronen måste ha för att komma igenom?</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "s": "<p>Största avlänkning: 1,00 cm. \\(a=\\dfrac{eE}{m_e}\\). \\(y=\\dfrac a2\\left(\\dfrac Lv\\right)^2\\le0{,}0100\\iff v\\ge L\\sqrt{\\dfrac{a}{2\\cdot0{,}0100}}\\).</p><p><strong>Svar:</strong> \\(4{,}19\\cdot10^{7}\\) m/s</p>",
+    "id": "3.345",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "numeriskt",
+    "rättSvar": 41936859.52272308,
+    "tolerans": 629000.0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Elektronen får avlänkas högst halva plattavståndet.</p>",
+    "traningsniva": 4,
+    "svarEnhet": "m/s",
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
+    "kap": 3,
+    "omr": "kast_elfalt",
+    "niva": "C",
+    "typ": "bläckstråleskrivare",
+    "poang": "(1/2/0)",
+    "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p><ol type=\"a\"><li>Hur mycket avlänkas droppen?</li><li>Hur stor blir avlänkningsvinkeln? Svara i grader.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a=\\dfrac{qE}{m}\\), \\(t=\\dfrac{0{,}016}{18}\\), \\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}00064\\) m</p></li><li><p>\\(\\tan\\alpha=\\dfrac{at}{v}\\).</p><p><strong>Svar:</strong> \\(4{,}6\\) °</p></li></ol>",
+    "id": "3.346",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Laddningar som accelereras och böjs av i elektriska fält",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.0006381766381766383,
+      4.5609452031613085
+    ],
+    "tolerans": [
+      9.57e-06,
+      0.0684
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "°"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket avlänkas droppen?",
+        "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p><p>Hur mycket avlänkas droppen?</p>",
+        "s": "<p>\\(a=\\dfrac{qE}{m}\\), \\(t=\\dfrac{0{,}016}{18}\\), \\(y=\\dfrac{at^2}{2}\\).</p><p><strong>Svar:</strong> \\(0{,}00064\\) m</p>",
+        "ledtrad": "<p>Tyngdkraften är försumbar jämfört med den elektriska kraften.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor blir avlänkningsvinkeln? Svara i grader.",
+        "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p><p>Hur stor blir avlänkningsvinkeln? Svara i grader.</p>",
+        "s": "<p>\\(\\tan\\alpha=\\dfrac{at}{v}\\).</p><p><strong>Svar:</strong> \\(4{,}6\\) °</p>",
+        "ledtrad": "<p>Jämför komposanterna.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Samma kaströrelse som för elektroner, men med droppens massa och laddning.</p>",
+    "traningsniva": 3,
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+  },
+  {
     "id": "4.50",
     "kap": 3,
     "omr": "laddade_partiklar",
@@ -23477,6 +24053,363 @@ window.BANK2 = [
         "poang": "0/1/0"
       }
     ]
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "E",
+    "typ": "fältstyrka mellan plattor",
+    "poang": "(1/0/0)",
+    "t": "<p>Spänningen 25 kV ligger över två parallella plattor 5,0 cm från varandra. Beräkna fältstyrkan.</p>",
+    "s": "<p>\\(E=\\dfrac Ud=\\dfrac{25\\cdot10^3}{0{,}050}\\).</p><p><strong>Svar:</strong> \\(5{,}0\\cdot10^{5}\\) V/m</p>",
+    "id": "3.347",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 500000.0,
+    "tolerans": 7500.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(E=\\dfrac Ud\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "V/m",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "E",
+    "typ": "avstånd ur fältstyrka",
+    "poang": "(1/0/0)",
+    "t": "<p>Spänningen 720 V över två parallella plattor ger fältstyrkan 80 kV/m. Bestäm avståndet mellan plattorna.</p>",
+    "s": "<p>\\(d=\\dfrac UE=\\dfrac{720}{80\\cdot10^3}\\).</p><p><strong>Svar:</strong> \\(0{,}0090\\) m</p>",
+    "id": "3.348",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.009,
+    "tolerans": 0.000135,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Lös ut \\(d\\) ur \\(E=U/d\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "m",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "E",
+    "typ": "spänning vid blixt",
+    "poang": "(1/0/0)",
+    "t": "<p>Ett åskmoln och marken kan ses som två plattor 1,5 km från varandra. En blixt uppstår när fältstyrkan överstiger 3,0 MV/m. Hur stor är spänningen då?</p>",
+    "s": "<p>\\(U=Ed=3{,}0\\cdot10^6\\cdot1\\,500\\).</p><p><strong>Svar:</strong> \\(4{,}5\\cdot10^{9}\\) V</p>",
+    "id": "3.349",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4500000000.0,
+    "tolerans": 67500000.0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>\\(U=Ed\\).</p>",
+    "traningsniva": 1,
+    "svarEnhet": "V",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "C",
+    "typ": "gnista mellan plattor",
+    "poang": "(0/2/0)",
+    "t": "<p>Spänningen 4,5 kV ligger över två plattor 2,0 mm från varandra. Urladdning sker om fältstyrkan överstiger 3,0 MV/m. Hur mycket måste avståndet minskas för att det ska bli en gnista?</p>",
+    "s": "<p>Största avstånd för gnista: \\(d=\\dfrac UE=\\dfrac{4\\,500}{3{,}0\\cdot10^6}=1{,}5\\) mm. Minskning: \\(2{,}0-1{,}5\\) mm.</p><p><strong>Svar:</strong> \\(0{,}00050\\) m</p>",
+    "id": "3.350",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0005,
+    "tolerans": 7.5e-06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilket avstånd ger precis fältstyrkan 3,0 MV/m?</p>",
+    "traningsniva": 3,
+    "svarEnhet": "m",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "E",
+    "typ": "laddning ur kraft och spänning",
+    "poang": "(2/0/0)",
+    "t": "<p>Två plattor 15 mm från varandra har spänningen 750 V. En laddad kula mellan plattorna påverkas av kraften \\(1{,}2\\cdot10^{-7}\\) N. Hur stor laddning har kulan?</p>",
+    "s": "<p>\\(E=\\dfrac{750}{0{,}015}=5{,}0\\cdot10^4\\) V/m. \\(q=\\dfrac FE\\).</p><p><strong>Svar:</strong> \\(2{,}4\\cdot10^{-12}\\) C</p>",
+    "id": "3.351",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.4e-12,
+    "tolerans": 5.1e-14,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm först fältstyrkan.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "C",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "C",
+    "typ": "sammanslagna oljedroppar",
+    "poang": "(0/2/0)",
+    "t": "<p>Två oljedroppar befinner sig i ett fält med styrkan 4,5 kV/m mellan två plattor. Den ena påverkas av kraften 1,6 µN mot den positiva plattan och den andra av 2,4 µN mot den negativa. Dropparna slås ihop. Hur stor kraft verkar på den nya droppen?</p>",
+    "s": "<p>Kraften är proportionell mot laddningen. Laddningarna har olika tecken, så krafterna tar delvis ut varandra: \\(2{,}4-1{,}6=0{,}8\\) µN, riktad mot den negativa plattan.</p><p><strong>Svar:</strong> \\(8{,}0\\cdot10^{-7}\\) N</p>",
+    "id": "3.352",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8e-07,
+    "tolerans": 1.2e-08,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad har dropparnas laddningar för tecken? Laddning bevaras när de slås ihop.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "N",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "E",
+    "typ": "svävande oljedroppe",
+    "poang": "(2/1/0)",
+    "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><ol type=\"a\"><li>Hur stor laddning har droppen?</li><li>Hur många elementarladdningar motsvarar det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(qE=mg\\iff q=\\dfrac{mgd}{U}=\\dfrac{4{,}7\\cdot10^{-15}\\cdot9{,}82\\cdot0{,}0050}{120}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{-18}\\) C</p></li><li><p>\\(\\dfrac{q}{e}=\\dfrac{1{,}92\\cdot10^{-18}}{1{,}602\\cdot10^{-19}}\\approx12\\).</p><p><strong>Svar:</strong> \\(12\\)</p></li></ol>",
+    "id": "3.353",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.923083333333333e-18,
+      12
+    ],
+    "tolerans": [
+      5.1e-20,
+      0.5
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "C",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor laddning har droppen?",
+        "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Hur stor laddning har droppen?</p>",
+        "s": "<p>\\(qE=mg\\iff q=\\dfrac{mgd}{U}=\\dfrac{4{,}7\\cdot10^{-15}\\cdot9{,}82\\cdot0{,}0050}{120}\\).</p><p><strong>Svar:</strong> \\(1{,}9\\cdot10^{-18}\\) C</p>",
+        "ledtrad": "<p>Den elektriska kraften balanserar tyngdkraften.</p>",
+        "niva": "E",
+        "poang": "(1/1/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många elementarladdningar motsvarar det?",
+        "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Droppens laddning är \\(1{,}92\\cdot10^{-18}\\) C.</p><p>Hur många elementarladdningar motsvarar det?</p>",
+        "s": "<p>\\(\\dfrac{q}{e}=\\dfrac{1{,}92\\cdot10^{-18}}{1{,}602\\cdot10^{-19}}\\approx12\\).</p><p><strong>Svar:</strong> \\(12\\)</p>",
+        "ledtrad": "<p>Dela med elementarladdningen.</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Millikans försök: \\(qE=mg\\).</p>",
+    "traningsniva": 2,
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "C",
+    "typ": "oljedroppe med känd storlek",
+    "poang": "(2/2/0)",
+    "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><ol type=\"a\"><li>Vilken fältstyrka krävs för att en droppe med 5 överskottselektroner ska sväva?</li><li>Vilken spänning krävs då?</li><li>En likadan droppe svävar vid spänningen 73,8 V. Hur många överskottselektroner har den?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(m=\\rho\\cdot\\tfrac43\\pi r^3\\approx4{,}29\\cdot10^{-16}\\) kg. \\(E=\\dfrac{mg}{5e}\\).</p><p><strong>Svar:</strong> \\(5\\,264\\) V/m</p></li><li><p>\\(U=Ed=E\\cdot0{,}0225\\).</p><p><strong>Svar:</strong> \\(118\\) V</p></li><li><p>\\(n=\\dfrac{mgd}{eU}\\approx8\\).</p><p><strong>Svar:</strong> \\(8{,}0\\)</p></li></ol>",
+    "id": "3.354",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5263.703845977206,
+      118.43333653448713,
+      8
+    ],
+    "tolerans": [
+      79.0,
+      5.1,
+      0.5
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "V/m",
+      "V",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken fältstyrka krävs för att en droppe med 5 överskottselektroner ska sväva?",
+        "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Vilken fältstyrka krävs för att en droppe med 5 överskottselektroner ska sväva?</p>",
+        "s": "<p>\\(m=\\rho\\cdot\\tfrac43\\pi r^3\\approx4{,}29\\cdot10^{-16}\\) kg. \\(E=\\dfrac{mg}{5e}\\).</p><p><strong>Svar:</strong> \\(5\\,264\\) V/m</p>",
+        "ledtrad": "<p>Beräkna droppens massa ur volym och densitet.</p>",
+        "niva": "C",
+        "poang": "(1/1/0)",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken spänning krävs då?",
+        "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>Fältstyrkan som krävs är \\(5{,}3\\cdot10^3\\) V/m.</p><p>Vilken spänning krävs då?</p>",
+        "s": "<p>\\(U=Ed=E\\cdot0{,}0225\\).</p><p><strong>Svar:</strong> \\(118\\) V</p>",
+        "ledtrad": "<p>\\(U=Ed\\).</p>",
+        "niva": "E",
+        "poang": "(1/0/0)",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "En likadan droppe svävar vid spänningen 73,8 V. Hur många överskottselektroner har den?",
+        "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra. Använd \\(g=9{,}82\\) m/s².</p><p>Använd \\(e=1{,}602\\cdot10^{-19}\\) C, \\(m_e=9{,}109\\cdot10^{-31}\\) kg och \\(m_p=1{,}673\\cdot10^{-27}\\) kg. Tyngdkraften på elektroner och protoner kan försummas.</p><p>En likadan droppe svävar vid spänningen 73,8 V. Hur många överskottselektroner har den?</p>",
+        "s": "<p>\\(n=\\dfrac{mgd}{eU}\\approx8\\).</p><p><strong>Svar:</strong> \\(8{,}0\\)</p>",
+        "ledtrad": "<p>Lös ut laddningen och dela med \\(e\\).</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Millikans försök: \\(qE=mg\\).</p>",
+    "traningsniva": 3,
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "C",
+    "typ": "laddning ur vinkel",
+    "poang": "(0/2/0)",
+    "t": "<p>En kula med massan 5,0 g hänger i ett snöre i ett vågrätt elektriskt fält med styrkan \\(1{,}0\\cdot10^5\\) N/C. Snöret bildar vinkeln 20° med lodlinjen. Bestäm kulans laddning. Använd \\(g=9{,}82\\) m/s².</p>",
+    "s": "<p>\\(\\tan20^\\circ=\\dfrac{qE}{mg}\\iff q=\\dfrac{mg\\tan20^\\circ}{E}\\).</p><p><strong>Svar:</strong> \\(1{,}8\\cdot10^{-7}\\) C</p>",
+    "id": "3.355",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.7870938502470537e-07,
+    "tolerans": 5.1e-09,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Rita krafterna. Spännkraften balanserar summan av tyngdkraft och elektrisk kraft.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "C",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+  },
+  {
+    "kap": 3,
+    "omr": "elektriska_falt",
+    "niva": "C",
+    "typ": "vinkel ur laddning",
+    "poang": "(0/2/0)",
+    "t": "<p>En kula med massan 2,0 g och laddningen 25 nC hänger i ett snöre i ett vågrätt fält med styrkan \\(2{,}0\\cdot10^5\\) N/C. Vilken vinkel bildar snöret med lodlinjen? Använd \\(g=9{,}82\\) m/s². Svara i grader.</p>",
+    "s": "<p>\\(\\tan\\theta=\\dfrac{qE}{mg}=\\dfrac{25\\cdot10^{-9}\\cdot2{,}0\\cdot10^5}{0{,}0020\\cdot9{,}82}\\).</p><p><strong>Svar:</strong> \\(14\\) °</p>",
+    "id": "3.356",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Elektrisk kraft och fältstyrka",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14.283088286118273,
+    "tolerans": 0.51,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Jämför den elektriska kraften med tyngdkraften.</p>",
+    "traningsniva": 3,
+    "svarEnhet": "°",
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
   },
   {
     "id": "3.112",

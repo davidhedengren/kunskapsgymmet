@@ -42234,6 +42234,604 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "E",
+    "typ": "SGD genom primtalsfaktorisering",
+    "poang": "4/0/0",
+    "t": "<p>Bestäm den största gemensamma delaren genom att primtalsfaktorisera talen.</p><ol type=\"a\"><li>SGD(18, 150)</li><li>SGD(56, 42)</li><li>SGD(238, 510)</li><li>SGD(1 144, 3 146)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(18=2\\cdot3^2\\), \\(150=2\\cdot3\\cdot5^2\\). Gemensamt: \\(2\\cdot3=6\\).</p><p><strong>Svar:</strong> 6</p></li><li><p>\\(56=2^3\\cdot7\\), \\(42=2\\cdot3\\cdot7\\). Gemensamt: \\(2\\cdot7=14\\).</p><p><strong>Svar:</strong> 14</p></li><li><p>\\(238=2\\cdot7\\cdot17\\), \\(510=2\\cdot3\\cdot5\\cdot17\\). Gemensamt: \\(2\\cdot17=34\\).</p><p><strong>Svar:</strong> 34</p></li><li><p>\\(1\\,144=2^3\\cdot11\\cdot13\\), \\(3\\,146=2\\cdot11^2\\cdot13\\). Gemensamt: \\(2\\cdot11\\cdot13=286\\).</p><p><strong>Svar:</strong> 286</p></li></ol>",
+    "id": "2.649",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      14,
+      34,
+      286
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm den största gemensamma delaren genom att primtalsfaktorisera talen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "SGD(18, 150)",
+        "t": "<p>Bestäm den största gemensamma delaren genom att primtalsfaktorisera talen.</p><p>SGD(18, 150)</p>",
+        "s": "<p>\\(18=2\\cdot3^2\\), \\(150=2\\cdot3\\cdot5^2\\). Gemensamt: \\(2\\cdot3=6\\).</p><p><strong>Svar:</strong> 6</p>",
+        "ledtrad": "<p>Ta med de primtal som finns i båda, med den lägsta exponenten.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "SGD(56, 42)",
+        "t": "<p>Bestäm den största gemensamma delaren genom att primtalsfaktorisera talen.</p><p>SGD(56, 42)</p>",
+        "s": "<p>\\(56=2^3\\cdot7\\), \\(42=2\\cdot3\\cdot7\\). Gemensamt: \\(2\\cdot7=14\\).</p><p><strong>Svar:</strong> 14</p>",
+        "ledtrad": "<p>Primtalsfaktorisera båda talen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "SGD(238, 510)",
+        "t": "<p>Bestäm den största gemensamma delaren genom att primtalsfaktorisera talen.</p><p>SGD(238, 510)</p>",
+        "s": "<p>\\(238=2\\cdot7\\cdot17\\), \\(510=2\\cdot3\\cdot5\\cdot17\\). Gemensamt: \\(2\\cdot17=34\\).</p><p><strong>Svar:</strong> 34</p>",
+        "ledtrad": "<p>Pröva att dela med 17.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "SGD(1 144, 3 146)",
+        "t": "<p>Bestäm den största gemensamma delaren genom att primtalsfaktorisera talen.</p><p>SGD(1 144, 3 146)</p>",
+        "s": "<p>\\(1\\,144=2^3\\cdot11\\cdot13\\), \\(3\\,146=2\\cdot11^2\\cdot13\\). Gemensamt: \\(2\\cdot11\\cdot13=286\\).</p><p><strong>Svar:</strong> 286</p>",
+        "ledtrad": "<p>Pröva att dela med 11 och 13.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>SGD är produkten av de gemensamma primfaktorerna.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "E",
+    "typ": "MGM genom primtalsfaktorisering",
+    "poang": "3/0/0",
+    "t": "<p>Bestäm den minsta gemensamma multipeln genom att primtalsfaktorisera talen.</p><ol type=\"a\"><li>MGM(18, 150)</li><li>MGM(36, 27)</li><li>MGM(81, 245)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(18=2\\cdot3^2\\), \\(150=2\\cdot3\\cdot5^2\\). MGM: \\(2\\cdot3^2\\cdot5^2=450\\).</p><p><strong>Svar:</strong> 450</p></li><li><p>\\(36=2^2\\cdot3^2\\), \\(27=3^3\\). MGM: \\(2^2\\cdot3^3=108\\).</p><p><strong>Svar:</strong> 108</p></li><li><p>\\(81=3^4\\), \\(245=5\\cdot7^2\\). Inga gemensamma faktorer: \\(81\\cdot245=19\\,845\\).</p><p><strong>Svar:</strong> 19 845</p></li></ol>",
+    "id": "2.650",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      450,
+      108,
+      19845
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm den minsta gemensamma multipeln genom att primtalsfaktorisera talen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "MGM(18, 150)",
+        "t": "<p>Bestäm den minsta gemensamma multipeln genom att primtalsfaktorisera talen.</p><p>MGM(18, 150)</p>",
+        "s": "<p>\\(18=2\\cdot3^2\\), \\(150=2\\cdot3\\cdot5^2\\). MGM: \\(2\\cdot3^2\\cdot5^2=450\\).</p><p><strong>Svar:</strong> 450</p>",
+        "ledtrad": "<p>Ta med varje primtal med den högsta exponenten.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "MGM(36, 27)",
+        "t": "<p>Bestäm den minsta gemensamma multipeln genom att primtalsfaktorisera talen.</p><p>MGM(36, 27)</p>",
+        "s": "<p>\\(36=2^2\\cdot3^2\\), \\(27=3^3\\). MGM: \\(2^2\\cdot3^3=108\\).</p><p><strong>Svar:</strong> 108</p>",
+        "ledtrad": "<p>Primtalsfaktorisera båda talen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "MGM(81, 245)",
+        "t": "<p>Bestäm den minsta gemensamma multipeln genom att primtalsfaktorisera talen.</p><p>MGM(81, 245)</p>",
+        "s": "<p>\\(81=3^4\\), \\(245=5\\cdot7^2\\). Inga gemensamma faktorer: \\(81\\cdot245=19\\,845\\).</p><p><strong>Svar:</strong> 19 845</p>",
+        "ledtrad": "<p>Har talen några gemensamma primfaktorer?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>MGM innehåller varje primtal med högsta exponenten.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "SGD och MGM för uttryck",
+    "poang": "1/2/0",
+    "t": "<p>Bestäm SGD och MGM för uttrycken. Variablerna är positiva heltal.</p><ol type=\"a\"><li>MGM\\((12x, 18x)\\)</li><li>MGM\\((4a^2, 6ab)\\)</li><li>SGD\\((4a^2, 6ab)\\)</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(12x=2^2\\cdot3\\cdot x\\), \\(18x=2\\cdot3^2\\cdot x\\). MGM: \\(2^2\\cdot3^2\\cdot x=36x\\).</p><p><strong>Svar:</strong> \\(36x\\)</p></li><li><p>\\(4a^2=2^2a^2\\), \\(6ab=2\\cdot3\\cdot a\\cdot b\\). MGM: \\(2^2\\cdot3\\cdot a^2b=12a^2b\\).</p><p><strong>Svar:</strong> \\(12a^2b\\)</p></li><li><p>Gemensamt: \\(2\\cdot a=2a\\).</p><p><strong>Svar:</strong> \\(2a\\)</p></li></ol>",
+    "id": "2.651",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "36*x",
+      "12*a^2*b",
+      "2*a"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Bestäm SGD och MGM för uttrycken. Variablerna är positiva heltal.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "MGM\\((12x, 18x)\\)",
+        "t": "<p>Bestäm SGD och MGM för uttrycken. Variablerna är positiva heltal.</p><p>MGM\\((12x, 18x)\\)</p>",
+        "s": "<p>\\(12x=2^2\\cdot3\\cdot x\\), \\(18x=2\\cdot3^2\\cdot x\\). MGM: \\(2^2\\cdot3^2\\cdot x=36x\\).</p><p><strong>Svar:</strong> \\(36x\\)</p>",
+        "ledtrad": "<p>Behandla \\(x\\) som en faktor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "MGM\\((4a^2, 6ab)\\)",
+        "t": "<p>Bestäm SGD och MGM för uttrycken. Variablerna är positiva heltal.</p><p>MGM\\((4a^2, 6ab)\\)</p>",
+        "s": "<p>\\(4a^2=2^2a^2\\), \\(6ab=2\\cdot3\\cdot a\\cdot b\\). MGM: \\(2^2\\cdot3\\cdot a^2b=12a^2b\\).</p><p><strong>Svar:</strong> \\(12a^2b\\)</p>",
+        "ledtrad": "<p>Ta med varje faktor med högsta exponenten.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "SGD\\((4a^2, 6ab)\\)",
+        "t": "<p>Bestäm SGD och MGM för uttrycken. Variablerna är positiva heltal.</p><p>SGD\\((4a^2, 6ab)\\)</p>",
+        "s": "<p>Gemensamt: \\(2\\cdot a=2a\\).</p><p><strong>Svar:</strong> \\(2a\\)</p>",
+        "ledtrad": "<p>Ta med de faktorer som finns i båda, med lägsta exponenten.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Variabler behandlas som faktorer.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "sambandet SGD·MGM",
+    "poang": "0/1/0",
+    "t": "<p>Produkten av två positiva heltal är 240 och deras största gemensamma delare är 4.</p><p>Bestäm deras minsta gemensamma multipel.</p>",
+    "s": "<p>För två positiva heltal gäller \\(\\text{SGD}(a,b)\\cdot\\text{MGM}(a,b)=ab\\).</p><p>\\(\\text{MGM}=\\dfrac{240}{4}=60\\).</p><p><strong>Svar:</strong> 60</p>",
+    "id": "2.652",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilket samband finns mellan SGD, MGM och produkten av talen?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "E",
+    "typ": "MGM i vardagen",
+    "poang": "1/0/0",
+    "t": "<p>Pelle handlar i en butik var fjärde dag och Stina var sjätte dag. I dag handlar båda där. Om hur många dagar handlar de där samma dag igen?</p>",
+    "s": "<p>\\(\\text{MGM}(4,6)=12\\).</p><p><strong>Svar:</strong> om 12 dagar</p>",
+    "id": "2.653",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Leta efter den första dag som är en multipel av både 4 och 6.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "E",
+    "typ": "MGM med klockslag",
+    "poang": "1/0/0",
+    "t": "<p>Buss 1 stannar vid en hållplats var 10:e minut och buss 17 var 18:e minut. Båda stannar där klockan 12.00. Hur många minuter senare stannar de där samtidigt nästa gång?</p>",
+    "s": "<p>\\(10=2\\cdot5\\), \\(18=2\\cdot3^2\\). \\(\\text{MGM}=2\\cdot3^2\\cdot5=90\\). Alltså klockan 13.30.</p><p><strong>Svar:</strong> 90 minuter</p>",
+    "id": "2.654",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm MGM för 10 och 18.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "E",
+    "typ": "SGD för lika långa bitar",
+    "poang": "1/0/0",
+    "t": "<p>Plankor som är 1,20 m och 2,10 m ska sågas i lika långa bitar, så få som möjligt och utan spill. Hur långa ska bitarna vara? Svara i centimeter.</p>",
+    "s": "<p>\\(\\text{SGD}(120,210)=30\\). Bitarna blir 30 cm.</p><p><strong>Svar:</strong> 30 cm</p>",
+    "id": "2.655",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bitlängden ska gå jämnt upp i båda plankorna och vara så stor som möjligt.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "E",
+    "typ": "MGM med lika summor",
+    "poang": "1/0/0",
+    "t": "<p>Johan äter 14 jordgubbar åt gången och Gunilla 12 åt gången. I slutet av sommaren har de ätit exakt lika många. Vilket är det minsta antal de kan ha ätit var?</p>",
+    "s": "<p>Antalet är en multipel av både 14 och 12: \\(\\text{MGM}(14,12)=84\\).</p><p><strong>Svar:</strong> 84 jordgubbar</p>",
+    "id": "2.656",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 84,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Antalet ska vara delbart med både 14 och 12.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "SGD med tre tal",
+    "poang": "0/2/0",
+    "t": "<p>En vinhandlare har 403 liter rödvin, 434 liter vitt vin och 465 liter rosévin. Vinet ska fyllas i lika stora dunkar så att alla dunkar blir fulla och ingen dunk innehåller blandat vin. Hur många dunkar behövs som minst?</p>",
+    "s": "<p>Dunkens volym ska vara så stor som möjligt: \\(\\text{SGD}(403,434,465)=31\\) liter.</p><p>Antal dunkar: \\(13+14+15=42\\).</p><p><strong>Svar:</strong> 42 dunkar</p>",
+    "id": "2.657",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Färre dunkar betyder större dunkar. Vilken är den största volym som går jämnt upp i alla tre?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "MGM för flera perioder",
+    "poang": "1/1/0",
+    "t": "<p>Sex klockor ringer samtidigt klockan 12.00. De ringer med 2, 4, 6, 8, 10 respektive 12 sekunders mellanrum. Hur många gånger ringer alla samtidigt efter 12.00 till och med 12.30?</p>",
+    "s": "<p>\\(\\text{MGM}(2,4,6,8,10,12)=120\\) s. På 30 minuter, 1 800 s, ringer de samtidigt \\(\\dfrac{1\\,800}{120}=15\\) gånger.</p><p><strong>Svar:</strong> 15 gånger</p>",
+    "id": "2.658",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm MGM för alla sex tal.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "MGM för trafikljus",
+    "poang": "1/1/0",
+    "t": "<p>Tre trafikljus slår om till rött var 48:e, var 72:a respektive var 108:e sekund. Alla slår om till rött samtidigt klockan 08.20.00. Hur många sekunder dröjer det tills det händer igen?</p>",
+    "s": "<p>\\(48=2^4\\cdot3\\), \\(72=2^3\\cdot3^2\\), \\(108=2^2\\cdot3^3\\). \\(\\text{MGM}=2^4\\cdot3^3=432\\) s, alltså 7 min 12 s (klockan 08.27.12).</p><p><strong>Svar:</strong> 432 sekunder</p>",
+    "id": "2.659",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 432,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Primtalsfaktorisera alla tre talen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "MGM med förskjutning",
+    "poang": "0/2/0",
+    "t": "<p>Vilket är det minsta positiva heltal som man ska addera 19 till för att summan ska vara delbar med 28, 36 och 45?</p>",
+    "s": "<p>Summan ska vara en multipel av \\(\\text{MGM}(28,36,45)=2^2\\cdot3^2\\cdot5\\cdot7=1\\,260\\). Minsta talet: \\(1\\,260-19=1\\,241\\).</p><p><strong>Svar:</strong> 1 241</p>",
+    "id": "2.660",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1241,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken är den minsta summa som är delbar med alla tre talen?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "rest vid division",
+    "poang": "0/2/0",
+    "t": "<p>Vilket är det minsta tal större än 5 som ger resten 5 vid division med både 167 och 95?</p>",
+    "s": "<p>Talet minus 5 ska vara delbart med både 167 och 95. Eftersom 167 är ett primtal och \\(95=5\\cdot19\\) är \\(\\text{MGM}=167\\cdot95=15\\,865\\).</p><p>Talet: \\(15\\,865+5=15\\,870\\).</p><p><strong>Svar:</strong> 15 870</p>",
+    "id": "2.661",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15870,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vad måste gälla för talet minus 5?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "SGD för lika snören",
+    "poang": "1/1/0",
+    "t": "<p>Snören som är 45 cm, 75 cm och 81 cm ska klippas i lika långa bitar, ett helt antal centimeter långa, utan spill. Vilket är det minsta antal bitar man kan få?</p>",
+    "s": "<p>Bitlängd: \\(\\text{SGD}(45,75,81)=3\\) cm. Antal bitar: \\(15+25+27=67\\).</p><p><strong>Svar:</strong> 67 bitar</p>",
+    "id": "2.662",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 67,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Få bitar betyder långa bitar.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "största multipel med villkor",
+    "poang": "1/1/0",
+    "t": "<p>Vilket är det största fyrsiffriga talet som är delbart med 40, 48 och 60?</p>",
+    "s": "<p>\\(\\text{MGM}(40,48,60)=240\\). Den största multipeln under 10 000: \\(240\\cdot41=9\\,840\\).</p><p><strong>Svar:</strong> 9 840</p>",
+    "id": "2.663",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9840,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Talet ska vara en multipel av MGM.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "C",
+    "typ": "SGD för lika förpackningar",
+    "poang": "1/1/0",
+    "t": "<p>210 apelsiner, 252 äpplen och 294 päron ska fördelas i kartonger med exakt samma innehåll. Inget får bli över. Hur många kartonger kan det som mest bli?</p>",
+    "s": "<p>\\(\\text{SGD}(210,252,294)=42\\). Varje kartong får 5 apelsiner, 6 äpplen och 7 päron.</p><p><strong>Svar:</strong> 42 kartonger</p>",
+    "id": "2.664",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Antalet kartonger ska gå jämnt upp i alla tre antalen.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "A",
+    "typ": "MGM med tre ekvivalenta uttryck",
+    "poang": "0/1/1",
+    "t": "<p>De positiva heltalen \\(a\\), \\(b\\) och \\(c\\) uppfyller \\(4a=6b=11c\\). Vilket är det minsta möjliga värdet på \\(a+b+c\\)?</p>",
+    "s": "<p>Det gemensamma värdet är en multipel av 4, 6 och 11. Minst: \\(\\text{MGM}(4,6,11)=132\\).</p><p>\\(a=33\\), \\(b=22\\), \\(c=12\\), alltså \\(a+b+c=67\\).</p><p><strong>Svar:</strong> 67</p>",
+    "id": "2.665",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 67,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Kalla det gemensamma värdet \\(N\\). Vad måste \\(N\\) vara delbart med?</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "gemensamma_faktorer",
+    "niva": "A",
+    "typ": "summa av SGD över delare",
+    "poang": "0/0/3",
+    "t": "<p>Beräkna \\[\\sum_{n=1}^{2015}\\text{SGD}(n,2015).\\]</p>",
+    "s": "<p>\\(2\\,015=5\\cdot13\\cdot31\\). För varje delare \\(d\\) av 2 015 är \\(\\text{SGD}(n,2015)=d\\) för exakt \\(\\varphi(2015/d)\\) värden på \\(n\\), där \\(\\varphi(m)\\) är antalet tal \\(1,\\dots,m\\) som är relativt prima med \\(m\\).</p><p>Det ger summan \\(\\prod_p\\left(2p-1\\right)\\) över primfaktorerna: \\((2\\cdot5-1)(2\\cdot13-1)(2\\cdot31-1)=9\\cdot25\\cdot61=13\\,725\\).</p><p>Kontroll av en del: talen relativt prima med 2 015 är \\(4\\cdot12\\cdot30=1\\,440\\) stycken och bidrar med 1 vardera.</p><p><strong>Svar:</strong> 13 725</p>",
+    "id": "2.666",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Största gemensamma delare och minsta gemensamma multipel",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13725,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Primtalsfaktorisera 2 015. Hur många \\(n\\) ger SGD lika med 1, 5, 13, 31 och så vidare?</p>",
+    "traningsniva": 5
+  },
+  {
+    "kap": 2,
     "omr": "kongruens",
     "niva": "E",
     "typ": "kongruensräkning – grundträning",
@@ -42770,6 +43368,230 @@ window.BANKMATF1 = [
     "rättSvar": 1297,
     "tolerans": null,
     "typ": "lådprincipen med antal koder"
+  },
+  {
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "C",
+    "typ": "värsta fallet med färger",
+    "poang": "3/2/0",
+    "t": "<p>En kartong innehåller 5 röda, 10 svarta och 7 vita t-tröjor. Du tar tröjor utan att se färgen.</p><ol type=\"a\"><li>Hur många tröjor måste du minst ta för att säkert få två av samma färg?</li><li>Hur många tröjor måste du minst ta för att säkert få två vita?</li><li>Hur många tröjor måste du minst ta för att säkert få sju vita?</li><li>Hur många tröjor måste du minst ta för att säkert få sex av samma färg?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Med tre färger kan du få en av varje. Den fjärde tröjan ger ett par.</p><p><strong>Svar:</strong> 4 tröjor</p></li><li><p>I värsta fall tar du först alla 15 röda och svarta. Sedan behövs två till: \\(15+2=17\\).</p><p><strong>Svar:</strong> 17 tröjor</p></li><li><p>Alla 15 röda och svarta först, sedan alla 7 vita: \\(15+7=22\\).</p><p><strong>Svar:</strong> 22 tröjor</p></li><li><p>Röda finns bara 5, så i värsta fall tar du alla röda plus 5 svarta och 5 vita utan att ha sex av någon färg: \\(5+5+5=15\\).</p><p>Nästa tröja är svart eller vit och ger sex av samma färg.</p><p><strong>Svar:</strong> 16 tröjor</p></li></ol>",
+    "id": "1.776",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda lådprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      17,
+      22,
+      16
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kartong innehåller 5 röda, 10 svarta och 7 vita t-tröjor. Du tar tröjor utan att se färgen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många tröjor måste du minst ta för att säkert få två av samma färg?",
+        "t": "<p>En kartong innehåller 5 röda, 10 svarta och 7 vita t-tröjor. Du tar tröjor utan att se färgen.</p><p>Hur många tröjor måste du minst ta för att säkert få två av samma färg?</p>",
+        "s": "<p>Med tre färger kan du få en av varje. Den fjärde tröjan ger ett par.</p><p><strong>Svar:</strong> 4 tröjor</p>",
+        "ledtrad": "<p>Hur många tröjor kan du ta utan att få två av samma färg?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många tröjor måste du minst ta för att säkert få två vita?",
+        "t": "<p>En kartong innehåller 5 röda, 10 svarta och 7 vita t-tröjor. Du tar tröjor utan att se färgen.</p><p>Hur många tröjor måste du minst ta för att säkert få två vita?</p>",
+        "s": "<p>I värsta fall tar du först alla 15 röda och svarta. Sedan behövs två till: \\(15+2=17\\).</p><p><strong>Svar:</strong> 17 tröjor</p>",
+        "ledtrad": "<p>Tänk på det värsta som kan hända innan du får någon vit tröja.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många tröjor måste du minst ta för att säkert få sju vita?",
+        "t": "<p>En kartong innehåller 5 röda, 10 svarta och 7 vita t-tröjor. Du tar tröjor utan att se färgen.</p><p>Hur många tröjor måste du minst ta för att säkert få sju vita?</p>",
+        "s": "<p>Alla 15 röda och svarta först, sedan alla 7 vita: \\(15+7=22\\).</p><p><strong>Svar:</strong> 22 tröjor</p>",
+        "ledtrad": "<p>Vilka tröjor kan du råka ta innan de vita?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur många tröjor måste du minst ta för att säkert få sex av samma färg?",
+        "t": "<p>En kartong innehåller 5 röda, 10 svarta och 7 vita t-tröjor. Du tar tröjor utan att se färgen.</p><p>Hur många tröjor måste du minst ta för att säkert få sex av samma färg?</p>",
+        "s": "<p>Röda finns bara 5, så i värsta fall tar du alla röda plus 5 svarta och 5 vita utan att ha sex av någon färg: \\(5+5+5=15\\).</p><p>Nästa tröja är svart eller vit och ger sex av samma färg.</p><p><strong>Svar:</strong> 16 tröjor</p>",
+        "ledtrad": "<p>Hur många av varje färg kan du ha utan att ha sex av någon? Tänk på att det bara finns fem röda.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Leta efter det värsta fallet.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "E",
+    "typ": "generaliserade lådprincipen med födelsedagar",
+    "poang": "1/0/0",
+    "t": "<p>Hur många människor måste minst finnas i en sal för att man säkert ska veta att minst tre av dem fyller år samma dag? Räkna med 366 möjliga födelsedagar.</p>",
+    "s": "<p>Lådor: 366 dagar. Med två personer per dag ryms \\(2\\cdot366=732\\) utan att någon dag har tre.</p><p>Person nummer 733 ger tre på någon dag.</p><p><strong>Svar:</strong> 733 personer</p>",
+    "id": "1.777",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda lådprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 733,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många personer kan det finnas utan att någon dag har tre födelsedagar?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "E",
+    "typ": "lådprincipen med kortlek",
+    "poang": "2/0/0",
+    "t": "<p>Du drar kort ur en vanlig kortlek med 52 kort: fyra färger med 13 valörer i varje.</p><ol type=\"a\"><li>Hur många kort måste du minst dra för att säkert få tre kort i samma färg?</li><li>Hur många kort måste du minst dra för att säkert få tre kort i samma valör?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Lådor: 4 färger. Med två kort i varje färg har du 8 kort utan tre i samma färg. Det nionde ger tre.</p><p><strong>Svar:</strong> 9 kort</p></li><li><p>Lådor: 13 valörer. \\(2\\cdot13=26\\) kort kan dras utan tre i samma valör. Det 27:e ger tre.</p><p><strong>Svar:</strong> 27 kort</p></li></ol>",
+    "id": "1.778",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda lådprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      27
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Du drar kort ur en vanlig kortlek med 52 kort: fyra färger med 13 valörer i varje.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många kort måste du minst dra för att säkert få tre kort i samma färg?",
+        "t": "<p>Du drar kort ur en vanlig kortlek med 52 kort: fyra färger med 13 valörer i varje.</p><p>Hur många kort måste du minst dra för att säkert få tre kort i samma färg?</p>",
+        "s": "<p>Lådor: 4 färger. Med två kort i varje färg har du 8 kort utan tre i samma färg. Det nionde ger tre.</p><p><strong>Svar:</strong> 9 kort</p>",
+        "ledtrad": "<p>Vilka är lådorna? Hur många kort kan du ha utan tre i samma låda?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många kort måste du minst dra för att säkert få tre kort i samma valör?",
+        "t": "<p>Du drar kort ur en vanlig kortlek med 52 kort: fyra färger med 13 valörer i varje.</p><p>Hur många kort måste du minst dra för att säkert få tre kort i samma valör?</p>",
+        "s": "<p>Lådor: 13 valörer. \\(2\\cdot13=26\\) kort kan dras utan tre i samma valör. Det 27:e ger tre.</p><p><strong>Svar:</strong> 27 kort</p>",
+        "ledtrad": "<p>Nu är valörerna lådorna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Bestäm vad som är lådor och vad som är föremål.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "C",
+    "typ": "lådor som antal svarsmönster",
+    "poang": "0/2/0",
+    "t": "<p>En enkät har 5 flervalsfrågor med 3 svarsalternativ vardera. Alla svarar på alla frågor med exakt ett alternativ.</p><p>Hur många personer måste minst svara för att man säkert ska veta att två har svarat exakt likadant?</p>",
+    "s": "<p>Antalet möjliga svarsmönster är \\(3^5=243\\). Det är lådorna. 243 personer kan svara olika, så det krävs 244.</p><p><strong>Svar:</strong> 244 personer</p>",
+    "id": "1.779",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda lådprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 244,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många olika sätt finns det att fylla i enkäten?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "ladprincipen",
+    "niva": "C",
+    "typ": "lådor som heltalsvikter",
+    "poang": "0/2/0",
+    "t": "<p>En låda innehåller 250 tomater. Varje tomat väger ett helt antal gram mellan 75 g och 110 g (båda inräknade).</p><p>Hur många tomater kan man säkert säga har exakt samma vikt? Ange det största antal som alltid är garanterat.</p>",
+    "s": "<p>Möjliga vikter: \\(110-75+1=36\\) lådor. \\(250=36\\cdot6+34\\), så minst en vikt har \\(6+1=7\\) tomater.</p><p>Fler än 7 kan inte garanteras: 34 vikter med 7 tomater och 2 vikter med 6 tomater ger \\(34\\cdot7+2\\cdot6=250\\) tomater.</p><p><strong>Svar:</strong> 7 tomater</p>",
+    "id": "1.780",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Använda lådprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många olika vikter är möjliga? Dela 250 med det antalet.</p>",
+    "traningsniva": 4
   },
   {
     "kap": 2,

@@ -3811,7 +3811,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-02-ake1";
+const BANK_VERSION="2026-10-02-ake2";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10009,7 +10009,29 @@ function algebraicallyEquivalent(user,expected){
     if(symbolicZero(`(${diff})`)) return true;
   }catch(_){}
 
-  return false;
+  return numeriskLika(u,e);
+}
+
+/* När den symboliska förenklingen inte räcker (t.ex. 3^n/3 mot 3^(n-1)) jämförs uttrycken i
+   flera fasta punkter. Båda måste ha samma variabler; punkterna är positiva för att undvika
+   definitionsproblem med ln och rötter. */
+function numeriskLika(u,e){
+  try{
+    const vu=expressionVariables(u).sort(), ve=expressionVariables(e).sort();
+    if(!vu.length || vu.length>3 || vu.join()!==ve.join()) return false;
+    const punkter=[0.37,1.29,2.13,0.71,1.83,2.47,0.53,1.61];
+    let ok=0;
+    for(let k=0;k<punkter.length;k++){
+      const sub={};
+      vu.forEach((v,j)=>{ sub[v]=String(punkter[(k+3*j)%punkter.length]); });
+      const a=Number(window.nerdamer(u,sub).evaluate().text("decimals"));
+      const b=Number(window.nerdamer(e,sub).evaluate().text("decimals"));
+      if(!Number.isFinite(a)||!Number.isFinite(b)) continue;
+      if(Math.abs(a-b)>1e-8*Math.max(1,Math.abs(a),Math.abs(b))) return false;
+      ok++;
+    }
+    return ok>=5;
+  }catch(_){ return false; }
 }
 
 function oneAnswerCorrect(user,expected,t,delIndex){

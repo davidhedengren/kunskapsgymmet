@@ -15553,6 +15553,778 @@ window.BANKMATF1 = [
   },
   {
     "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "antal lager med upprepad procentuell minskning",
+    "poang": "0/2/0",
+    "t": "<p>En tunn plastfilm på en glasruta absorberar 7,0 % av det ljus som träffar den. Man vill lägga flera lager film så att minst 95 % av ljuset blockeras.</p><p>Hur många lager behövs?</p>",
+    "s": "<p>Varje lager släpper igenom 93 % av ljuset som når det. Efter \\(n\\) lager släpps andelen \\(0{,}93^n\\) igenom.</p><p>\\(0{,}93^n\\le0{,}05\\iff n\\ge\\dfrac{\\lg0{,}05}{\\lg0{,}93}\\approx41{,}3\\).</p><p><strong>Svar:</strong> 42 lager</p>",
+    "id": "2.628",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 42,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur stor andel av ljuset släpps igenom av ett lager? Högst 5 % får passera alla lager.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "växande träd som geometrisk summa",
+    "poang": "1/5/0",
+    "t": "<span class=\"fig\"><svg width=\"410\" height=\"200\" viewBox=\"0 0 410 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett träd under tre år. År 1: en gren med en blomma. År 2: tre nya grenar med varsin blomma växer ut där blomman satt. År 3: varje blomma har ersatts av tre nya grenar med blommor.\"><line x1=\"60.0\" y1=\"168.0\" x2=\"60.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"60.0\" cy=\"106.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 1</text><line x1=\"190.0\" y1=\"168.0\" x2=\"190.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"222.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"222.3\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"190.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"190.0\" cy=\"62.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"157.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"157.7\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"190\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 2</text><line x1=\"330.0\" y1=\"168.0\" x2=\"330.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"362.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"392.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"392.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"384.8\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"384.8\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"362.3\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"362.3\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"330.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"352.6\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"352.6\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"330.0\" y2=\"32.2\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"330.0\" cy=\"32.2\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"307.4\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"307.4\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"297.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"297.7\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"297.7\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"275.2\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"275.2\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"267.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"267.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"330\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 3</text></svg></span><p>Ett träd växer enligt ett mönster. År 1 har det en enda gren med en blomma i änden. År 2 ersätts blomman av tre nya grenar med varsin blomma, så trädet har fyra grenar. År 3 ersätts varje blomma av tre nya grenar med varsin blomma, och så vidare.</p><ol type=\"a\"><li>Bestäm ett uttryck för antalet blommor \\(a_n\\) år \\(n\\).</li><li>Bestäm ett uttryck för antalet grenar \\(g_n\\) år \\(n\\).</li><li>Ett träd har 1 093 grenar. Hur många blommor har det?</li><li>Ett annat träd har fler än 750 blommor. Vilket är det minsta antal grenar det kan ha?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Antalet blommor tredubblas varje år: 1, 3, 9, … Alltså \\(a_n=3^{n-1}\\).</p><p><strong>Svar:</strong> \\(a_n=3^{n-1}\\)</p></li><li><p>Varje år tillkommer lika många grenar som det finns blommor det året: \\(1+3+9+\\dots+3^{n-1}\\).</p><p>\\[g_n=\\frac{3^n-1}{3-1}=\\frac{3^n-1}{2}.\\]</p><p><strong>Svar:</strong> \\(g_n=\\dfrac{3^n-1}{2}\\)</p></li><li><p>Grenarna år \\(n\\) är \\(\\dfrac{3^n-1}{2}\\). \\(\\dfrac{3^n-1}{2}=1\\,093\\iff3^n=2\\,187=3^7\\), så \\(n=7\\).</p><p>Blommorna år 7 är \\(3^6=729\\).</p><p><strong>Svar:</strong> 729 blommor</p></li><li><p>\\(3^{n-1}\\gt750\\): \\(3^6=729\\) räcker inte men \\(3^7=2\\,187\\) gör det, så \\(n=8\\).</p><p>Grenar: \\(\\dfrac{3^8-1}{2}=3\\,280\\).</p><p><strong>Svar:</strong> 3 280 grenar</p></li></ol>",
+    "id": "2.629",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "3^(n-1)",
+      "(3^n-1)/2",
+      729,
+      3280
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<span class=\"fig\"><svg width=\"410\" height=\"200\" viewBox=\"0 0 410 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett träd under tre år. År 1: en gren med en blomma. År 2: tre nya grenar med varsin blomma växer ut där blomman satt. År 3: varje blomma har ersatts av tre nya grenar med blommor.\"><line x1=\"60.0\" y1=\"168.0\" x2=\"60.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"60.0\" cy=\"106.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 1</text><line x1=\"190.0\" y1=\"168.0\" x2=\"190.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"222.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"222.3\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"190.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"190.0\" cy=\"62.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"157.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"157.7\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"190\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 2</text><line x1=\"330.0\" y1=\"168.0\" x2=\"330.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"362.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"392.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"392.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"384.8\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"384.8\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"362.3\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"362.3\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"330.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"352.6\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"352.6\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"330.0\" y2=\"32.2\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"330.0\" cy=\"32.2\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"307.4\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"307.4\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"297.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"297.7\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"297.7\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"275.2\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"275.2\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"267.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"267.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"330\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 3</text></svg></span><p>Ett träd växer enligt ett mönster. År 1 har det en enda gren med en blomma i änden. År 2 ersätts blomman av tre nya grenar med varsin blomma, så trädet har fyra grenar. År 3 ersätts varje blomma av tre nya grenar med varsin blomma, och så vidare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Bestäm ett uttryck för antalet blommor \\(a_n\\) år \\(n\\).",
+        "t": "<span class=\"fig\"><svg width=\"410\" height=\"200\" viewBox=\"0 0 410 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett träd under tre år. År 1: en gren med en blomma. År 2: tre nya grenar med varsin blomma växer ut där blomman satt. År 3: varje blomma har ersatts av tre nya grenar med blommor.\"><line x1=\"60.0\" y1=\"168.0\" x2=\"60.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"60.0\" cy=\"106.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 1</text><line x1=\"190.0\" y1=\"168.0\" x2=\"190.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"222.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"222.3\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"190.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"190.0\" cy=\"62.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"157.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"157.7\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"190\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 2</text><line x1=\"330.0\" y1=\"168.0\" x2=\"330.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"362.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"392.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"392.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"384.8\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"384.8\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"362.3\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"362.3\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"330.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"352.6\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"352.6\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"330.0\" y2=\"32.2\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"330.0\" cy=\"32.2\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"307.4\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"307.4\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"297.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"297.7\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"297.7\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"275.2\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"275.2\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"267.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"267.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"330\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 3</text></svg></span><p>Ett träd växer enligt ett mönster. År 1 har det en enda gren med en blomma i änden. År 2 ersätts blomman av tre nya grenar med varsin blomma, så trädet har fyra grenar. År 3 ersätts varje blomma av tre nya grenar med varsin blomma, och så vidare.</p><p>Bestäm ett uttryck för antalet blommor \\(a_n\\) år \\(n\\).</p>",
+        "s": "<p>Antalet blommor tredubblas varje år: 1, 3, 9, … Alltså \\(a_n=3^{n-1}\\).</p><p><strong>Svar:</strong> \\(a_n=3^{n-1}\\)</p>",
+        "ledtrad": "<p>Skriv upp antalet blommor de första åren. Hur förändras det från år till år?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm ett uttryck för antalet grenar \\(g_n\\) år \\(n\\).",
+        "t": "<span class=\"fig\"><svg width=\"410\" height=\"200\" viewBox=\"0 0 410 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett träd under tre år. År 1: en gren med en blomma. År 2: tre nya grenar med varsin blomma växer ut där blomman satt. År 3: varje blomma har ersatts av tre nya grenar med blommor.\"><line x1=\"60.0\" y1=\"168.0\" x2=\"60.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"60.0\" cy=\"106.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 1</text><line x1=\"190.0\" y1=\"168.0\" x2=\"190.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"222.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"222.3\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"190.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"190.0\" cy=\"62.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"157.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"157.7\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"190\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 2</text><line x1=\"330.0\" y1=\"168.0\" x2=\"330.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"362.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"392.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"392.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"384.8\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"384.8\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"362.3\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"362.3\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"330.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"352.6\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"352.6\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"330.0\" y2=\"32.2\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"330.0\" cy=\"32.2\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"307.4\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"307.4\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"297.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"297.7\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"297.7\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"275.2\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"275.2\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"267.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"267.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"330\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 3</text></svg></span><p>Ett träd växer enligt ett mönster. År 1 har det en enda gren med en blomma i änden. År 2 ersätts blomman av tre nya grenar med varsin blomma, så trädet har fyra grenar. År 3 ersätts varje blomma av tre nya grenar med varsin blomma, och så vidare.</p><p>Bestäm ett uttryck för antalet grenar \\(g_n\\) år \\(n\\).</p>",
+        "s": "<p>Varje år tillkommer lika många grenar som det finns blommor det året: \\(1+3+9+\\dots+3^{n-1}\\).</p><p>\\[g_n=\\frac{3^n-1}{3-1}=\\frac{3^n-1}{2}.\\]</p><p><strong>Svar:</strong> \\(g_n=\\dfrac{3^n-1}{2}\\)</p>",
+        "ledtrad": "<p>Hur många nya grenar tillkommer varje år? Summera.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Ett träd har 1 093 grenar. Hur många blommor har det?",
+        "t": "<span class=\"fig\"><svg width=\"410\" height=\"200\" viewBox=\"0 0 410 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett träd under tre år. År 1: en gren med en blomma. År 2: tre nya grenar med varsin blomma växer ut där blomman satt. År 3: varje blomma har ersatts av tre nya grenar med blommor.\"><line x1=\"60.0\" y1=\"168.0\" x2=\"60.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"60.0\" cy=\"106.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 1</text><line x1=\"190.0\" y1=\"168.0\" x2=\"190.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"222.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"222.3\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"190.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"190.0\" cy=\"62.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"157.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"157.7\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"190\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 2</text><line x1=\"330.0\" y1=\"168.0\" x2=\"330.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"362.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"392.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"392.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"384.8\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"384.8\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"362.3\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"362.3\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"330.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"352.6\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"352.6\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"330.0\" y2=\"32.2\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"330.0\" cy=\"32.2\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"307.4\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"307.4\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"297.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"297.7\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"297.7\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"275.2\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"275.2\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"267.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"267.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"330\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 3</text></svg></span><p>Ett träd växer enligt ett mönster. År 1 har det en enda gren med en blomma i änden. År 2 ersätts blomman av tre nya grenar med varsin blomma, så trädet har fyra grenar. År 3 ersätts varje blomma av tre nya grenar med varsin blomma, och så vidare.</p><p>Ett träd har 1 093 grenar. Hur många blommor har det?</p>",
+        "s": "<p>Grenarna år \\(n\\) är \\(\\dfrac{3^n-1}{2}\\). \\(\\dfrac{3^n-1}{2}=1\\,093\\iff3^n=2\\,187=3^7\\), så \\(n=7\\).</p><p>Blommorna år 7 är \\(3^6=729\\).</p><p><strong>Svar:</strong> 729 blommor</p>",
+        "ledtrad": "<p>Bestäm först vilket år trädet har 1 093 grenar.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "d",
+        "fraga": "Ett annat träd har fler än 750 blommor. Vilket är det minsta antal grenar det kan ha?",
+        "t": "<span class=\"fig\"><svg width=\"410\" height=\"200\" viewBox=\"0 0 410 200\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett träd under tre år. År 1: en gren med en blomma. År 2: tre nya grenar med varsin blomma växer ut där blomman satt. År 3: varje blomma har ersatts av tre nya grenar med blommor.\"><line x1=\"60.0\" y1=\"168.0\" x2=\"60.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><circle cx=\"60.0\" cy=\"106.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"60\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 1</text><line x1=\"190.0\" y1=\"168.0\" x2=\"190.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"222.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"222.3\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"190.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"190.0\" cy=\"62.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"106.0\" x2=\"157.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"157.7\" cy=\"77.0\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"190\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 2</text><line x1=\"330.0\" y1=\"168.0\" x2=\"330.0\" y2=\"106.0\" stroke=\"#7a5230\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"362.3\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"392.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"392.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"384.8\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"384.8\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"362.3\" y1=\"77.0\" x2=\"362.3\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"362.3\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"330.0\" y2=\"62.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"352.6\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"352.6\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"330.0\" y2=\"32.2\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"330.0\" cy=\"32.2\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"62.6\" x2=\"307.4\" y2=\"42.3\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"307.4\" cy=\"42.3\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"330.0\" y1=\"106.0\" x2=\"297.7\" y2=\"77.0\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"297.7\" y2=\"46.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"297.7\" cy=\"46.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"275.2\" y2=\"56.6\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"275.2\" cy=\"56.6\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><line x1=\"297.7\" y1=\"77.0\" x2=\"267.5\" y2=\"80.1\" stroke=\"#7a5230\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"267.5\" cy=\"80.1\" r=\"4\" fill=\"#e0609a\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"330\" y=\"190\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">År 3</text></svg></span><p>Ett träd växer enligt ett mönster. År 1 har det en enda gren med en blomma i änden. År 2 ersätts blomman av tre nya grenar med varsin blomma, så trädet har fyra grenar. År 3 ersätts varje blomma av tre nya grenar med varsin blomma, och så vidare.</p><p>Ett annat träd har fler än 750 blommor. Vilket är det minsta antal grenar det kan ha?</p>",
+        "s": "<p>\\(3^{n-1}\\gt750\\): \\(3^6=729\\) räcker inte men \\(3^7=2\\,187\\) gör det, så \\(n=8\\).</p><p>Grenar: \\(\\dfrac{3^8-1}{2}=3\\,280\\).</p><p><strong>Svar:</strong> 3 280 grenar</p>",
+        "ledtrad": "<p>Vilket är det första året med fler än 750 blommor?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Antalet blommor bildar en geometrisk talföljd. Antalet grenar är en geometrisk summa.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "månadssparande med ränta",
+    "poang": "1/3/0",
+    "t": "<p>Fredrik sätter in 200 kr på ett sparkonto i början av varje månad under 5 år. Månadsräntan är 0,50 % och läggs till i slutet av varje månad.</p><ol type=\"a\"><li>Hur mycket finns på kontot i slutet av den tredje månaden? Svara i kronor med två decimaler.</li><li>Hur mycket finns på kontot efter 5 år, alltså i slutet av den sextionde månaden? Avrunda till hela kronor.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Den första insättningen har vuxit tre månader, den andra två och den tredje en:</p><p>\\[200\\cdot1{,}005^3+200\\cdot1{,}005^2+200\\cdot1{,}005\\approx606{,}02.\\]</p><p><strong>Svar:</strong> 606,02 kr</p></li><li><p>Summan är \\(200\\cdot1{,}005+200\\cdot1{,}005^2+\\dots+200\\cdot1{,}005^{60}\\), en geometrisk summa med \\(a_1=200\\cdot1{,}005\\), \\(k=1{,}005\\) och 60 termer.</p><p>\\[S=\\frac{201(1{,}005^{60}-1)}{1{,}005-1}\\approx14\\,024.\\]</p><p><strong>Svar:</strong> 14 024 kr</p></li></ol>",
+    "id": "2.630",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      606.02,
+      14024
+    ],
+    "tolerans": [
+      0.006,
+      1
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fredrik sätter in 200 kr på ett sparkonto i början av varje månad under 5 år. Månadsräntan är 0,50 % och läggs till i slutet av varje månad.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket finns på kontot i slutet av den tredje månaden? Svara i kronor med två decimaler.",
+        "t": "<p>Fredrik sätter in 200 kr på ett sparkonto i början av varje månad under 5 år. Månadsräntan är 0,50 % och läggs till i slutet av varje månad.</p><p>Hur mycket finns på kontot i slutet av den tredje månaden? Svara i kronor med två decimaler.</p>",
+        "s": "<p>Den första insättningen har vuxit tre månader, den andra två och den tredje en:</p><p>\\[200\\cdot1{,}005^3+200\\cdot1{,}005^2+200\\cdot1{,}005\\approx606{,}02.\\]</p><p><strong>Svar:</strong> 606,02 kr</p>",
+        "ledtrad": "<p>Hur många månader har varje insättning hunnit växa?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket finns på kontot efter 5 år, alltså i slutet av den sextionde månaden? Avrunda till hela kronor.",
+        "t": "<p>Fredrik sätter in 200 kr på ett sparkonto i början av varje månad under 5 år. Månadsräntan är 0,50 % och läggs till i slutet av varje månad.</p><p>Hur mycket finns på kontot efter 5 år, alltså i slutet av den sextionde månaden? Avrunda till hela kronor.</p>",
+        "s": "<p>Summan är \\(200\\cdot1{,}005+200\\cdot1{,}005^2+\\dots+200\\cdot1{,}005^{60}\\), en geometrisk summa med \\(a_1=200\\cdot1{,}005\\), \\(k=1{,}005\\) och 60 termer.</p><p>\\[S=\\frac{201(1{,}005^{60}-1)}{1{,}005-1}\\approx14\\,024.\\]</p><p><strong>Svar:</strong> 14 024 kr</p>",
+        "ledtrad": "<p>Skriv saldot som en summa där varje insättning har vuxit olika många månader.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Saldot är en geometrisk summa av insättningar som vuxit olika länge.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "årligt sparande i fond",
+    "poang": "1/3/0",
+    "t": "<p>Pia sätter in 12 500 kr i en pensionsfond i början av varje år. Fonden ger 6,0 % avkastning per år, som läggs till i slutet av varje år.</p><ol type=\"a\"><li>Hur mycket finns i fonden direkt efter insättningen i början av det tredje året?</li><li>Hur mycket finns i fonden direkt efter insättningen i början av det 40:e året? Avrunda till hela kronor.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(12\\,500+12\\,500\\cdot1{,}06+12\\,500\\cdot1{,}06^2=39\\,795\\).</p><p><strong>Svar:</strong> 39 795 kr</p></li><li><p>\\(12\\,500+12\\,500\\cdot1{,}06+\\dots+12\\,500\\cdot1{,}06^{39}\\) har 40 termer:</p><p>\\[S_{40}=\\frac{12\\,500(1{,}06^{40}-1)}{1{,}06-1}\\approx1\\,934\\,525.\\]</p><p><strong>Svar:</strong> 1 934 525 kr</p></li></ol>",
+    "id": "2.631",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      39795,
+      1934525
+    ],
+    "tolerans": [
+      0.5,
+      2
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Pia sätter in 12 500 kr i en pensionsfond i början av varje år. Fonden ger 6,0 % avkastning per år, som läggs till i slutet av varje år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket finns i fonden direkt efter insättningen i början av det tredje året?",
+        "t": "<p>Pia sätter in 12 500 kr i en pensionsfond i början av varje år. Fonden ger 6,0 % avkastning per år, som läggs till i slutet av varje år.</p><p>Hur mycket finns i fonden direkt efter insättningen i början av det tredje året?</p>",
+        "s": "<p>\\(12\\,500+12\\,500\\cdot1{,}06+12\\,500\\cdot1{,}06^2=39\\,795\\).</p><p><strong>Svar:</strong> 39 795 kr</p>",
+        "ledtrad": "<p>Den senaste insättningen har inte vuxit alls. Hur länge har de andra vuxit?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket finns i fonden direkt efter insättningen i början av det 40:e året? Avrunda till hela kronor.",
+        "t": "<p>Pia sätter in 12 500 kr i en pensionsfond i början av varje år. Fonden ger 6,0 % avkastning per år, som läggs till i slutet av varje år.</p><p>Hur mycket finns i fonden direkt efter insättningen i början av det 40:e året? Avrunda till hela kronor.</p>",
+        "s": "<p>\\(12\\,500+12\\,500\\cdot1{,}06+\\dots+12\\,500\\cdot1{,}06^{39}\\) har 40 termer:</p><p>\\[S_{40}=\\frac{12\\,500(1{,}06^{40}-1)}{1{,}06-1}\\approx1\\,934\\,525.\\]</p><p><strong>Svar:</strong> 1 934 525 kr</p>",
+        "ledtrad": "<p>Hur många insättningar har gjorts, och hur länge har den första vuxit?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Fondvärdet är en geometrisk summa.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "upprepade odlingar som geometrisk summa",
+    "poang": "0/2/0",
+    "t": "<p>I ett laboratorium testas ett nytt antibiotikum. I början av varje timme placeras en ny odling med 2 000 bakterier och antibiotikum ut. I varje odling minskar antalet bakterier med 4,0 % per timme. Den sista odlingen placeras ut i början av timme 30, så då finns 30 odlingar.</p><p>Hur många bakterier finns det sammanlagt i odlingarna i slutet av timme 30? Avrunda till hela hundratal.</p>",
+    "s": "<p>Den senaste odlingen har minskat en timme: \\(2\\,000\\cdot0{,}96\\). Den äldsta har minskat 30 timmar: \\(2\\,000\\cdot0{,}96^{30}\\).</p><p>\\[S=\\frac{2\\,000\\cdot0{,}96(1-0{,}96^{30})}{1-0{,}96}\\approx33\\,895.\\]</p><p><strong>Svar:</strong> cirka 33 900 bakterier</p>",
+    "id": "2.632",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 33900,
+    "tolerans": 60,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många timmar har den senaste respektive den äldsta odlingen minskat?</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "medelvärde av geometrisk följd",
+    "poang": "1/1/0",
+    "t": "<p>Oskar läser av temperaturen kl. 08.00 varje morgon under en vecka. På måndagen är den 2,4 °C, och varje följande dag är den 5,5 % högre än dagen före.</p><ol type=\"a\"><li>Vilken temperatur läser Oskar av på söndagen? Svara med en decimal.</li><li>Bestäm medeltemperaturen för de sju avläsningarna. Svara med en decimal.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Söndag är dag 7: \\(2{,}4\\cdot1{,}055^6\\approx3{,}3\\).</p><p><strong>Svar:</strong> 3,3 °C</p></li><li><p>Summan av de sju temperaturerna: \\(S_7=\\dfrac{2{,}4(1{,}055^7-1)}{1{,}055-1}\\approx19{,}84\\).</p><p>Medelvärde: \\(19{,}84/7\\approx2{,}8\\).</p><p><strong>Svar:</strong> 2,8 °C</p></li></ol>",
+    "id": "2.633",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.3,
+      2.8
+    ],
+    "tolerans": [
+      0.06,
+      0.06
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "°C",
+      "°C"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Oskar läser av temperaturen kl. 08.00 varje morgon under en vecka. På måndagen är den 2,4 °C, och varje följande dag är den 5,5 % högre än dagen före.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Vilken temperatur läser Oskar av på söndagen? Svara med en decimal.",
+        "t": "<p>Oskar läser av temperaturen kl. 08.00 varje morgon under en vecka. På måndagen är den 2,4 °C, och varje följande dag är den 5,5 % högre än dagen före.</p><p>Vilken temperatur läser Oskar av på söndagen? Svara med en decimal.</p>",
+        "s": "<p>Söndag är dag 7: \\(2{,}4\\cdot1{,}055^6\\approx3{,}3\\).</p><p><strong>Svar:</strong> 3,3 °C</p>",
+        "ledtrad": "<p>Hur många ökningar sker från måndag till söndag?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Bestäm medeltemperaturen för de sju avläsningarna. Svara med en decimal.",
+        "t": "<p>Oskar läser av temperaturen kl. 08.00 varje morgon under en vecka. På måndagen är den 2,4 °C, och varje följande dag är den 5,5 % högre än dagen före.</p><p>Bestäm medeltemperaturen för de sju avläsningarna. Svara med en decimal.</p>",
+        "s": "<p>Summan av de sju temperaturerna: \\(S_7=\\dfrac{2{,}4(1{,}055^7-1)}{1{,}055-1}\\approx19{,}84\\).</p><p>Medelvärde: \\(19{,}84/7\\approx2{,}8\\).</p><p><strong>Svar:</strong> 2,8 °C</p>",
+        "ledtrad": "<p>Medelvärdet är summan delad med antalet dagar.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Temperaturerna bildar en geometrisk talföljd.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "E",
+    "typ": "löneökning och total lön",
+    "poang": "2/0/0",
+    "t": "<p>En lärare har årslönen 375 000 kr det första året. Därefter höjs lönen med 2,3 % varje år.</p><ol type=\"a\"><li>Hur stor är årslönen det femte året? Avrunda till hela kronor.</li><li>Hur mycket tjänar läraren sammanlagt under de fem första åren? Avrunda till hela kronor.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_5=375\\,000\\cdot1{,}023^4\\approx410\\,709\\).</p><p><strong>Svar:</strong> 410 709 kr</p></li><li><p>\\(S_5=\\dfrac{375\\,000(1{,}023^5-1)}{1{,}023-1}\\approx1\\,963\\,257\\).</p><p><strong>Svar:</strong> 1 963 257 kr</p></li></ol>",
+    "id": "2.634",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      410709,
+      1963257
+    ],
+    "tolerans": [
+      2,
+      3
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En lärare har årslönen 375 000 kr det första året. Därefter höjs lönen med 2,3 % varje år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur stor är årslönen det femte året? Avrunda till hela kronor.",
+        "t": "<p>En lärare har årslönen 375 000 kr det första året. Därefter höjs lönen med 2,3 % varje år.</p><p>Hur stor är årslönen det femte året? Avrunda till hela kronor.</p>",
+        "s": "<p>\\(a_5=375\\,000\\cdot1{,}023^4\\approx410\\,709\\).</p><p><strong>Svar:</strong> 410 709 kr</p>",
+        "ledtrad": "<p>Hur många löneökningar har skett till år 5?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket tjänar läraren sammanlagt under de fem första åren? Avrunda till hela kronor.",
+        "t": "<p>En lärare har årslönen 375 000 kr det första året. Därefter höjs lönen med 2,3 % varje år.</p><p>Hur mycket tjänar läraren sammanlagt under de fem första åren? Avrunda till hela kronor.</p>",
+        "s": "<p>\\(S_5=\\dfrac{375\\,000(1{,}023^5-1)}{1{,}023-1}\\approx1\\,963\\,257\\).</p><p><strong>Svar:</strong> 1 963 257 kr</p>",
+        "ledtrad": "<p>Använd summaformeln för en geometrisk talföljd.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Årslönerna bildar en geometrisk talföljd.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "jämföra löneutvecklingar",
+    "poang": "2/2/0",
+    "t": "<p>Ett sjuårigt kontrakt ger 2 000 000 kr första året. Man väljer en av tre löneutvecklingar:</p><p>A: en bonus på 100 000 kr varje år, utöver 2 000 000 kr.<br>B: lönen höjs med 4,5 % varje år.<br>C: lönen höjs med 95 000 kr varje år.</p><ol type=\"a\"><li>Hur mycket tjänar man totalt under de sju åren med alternativ B? Avrunda till hela tusental kronor.</li><li>Hur mycket tjänar man totalt under de sju åren med alternativ C?</li><li>Hur mycket mer tjänar man totalt med det bästa alternativet än med det sämsta? Avrunda till hela tusental kronor.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(S_7=\\dfrac{2\\,000\\,000(1{,}045^7-1)}{1{,}045-1}\\approx16\\,038\\,000\\).</p><p><strong>Svar:</strong> cirka 16 038 000 kr</p></li><li><p>Lönerna bildar en aritmetisk talföljd från 2 000 000 till \\(2\\,000\\,000+6\\cdot95\\,000=2\\,570\\,000\\).</p><p>\\(S_7=\\dfrac{7(2\\,000\\,000+2\\,570\\,000)}{2}=15\\,995\\,000\\).</p><p><strong>Svar:</strong> 15 995 000 kr</p></li><li><p>A: \\(7\\cdot2\\,100\\,000=14\\,700\\,000\\) kr. B: \\(\\dfrac{2\\,000\\,000(1{,}045^7-1)}{0{,}045}\\approx16\\,038\\,000\\) kr. C: \\(\\dfrac{7(2\\,000\\,000+2\\,570\\,000)}{2}=15\\,995\\,000\\) kr.</p><p>Bäst är B och sämst A: \\(16\\,038\\,000-14\\,700\\,000\\approx1\\,338\\,000\\).</p><p><strong>Svar:</strong> cirka 1 338 000 kr</p></li></ol>",
+    "id": "2.635",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      16038000,
+      15995000,
+      1338000
+    ],
+    "tolerans": [
+      600,
+      null,
+      600
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett sjuårigt kontrakt ger 2 000 000 kr första året. Man väljer en av tre löneutvecklingar:</p><p>A: en bonus på 100 000 kr varje år, utöver 2 000 000 kr.<br>B: lönen höjs med 4,5 % varje år.<br>C: lönen höjs med 95 000 kr varje år.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket tjänar man totalt under de sju åren med alternativ B? Avrunda till hela tusental kronor.",
+        "t": "<p>Ett sjuårigt kontrakt ger 2 000 000 kr första året. Man väljer en av tre löneutvecklingar:</p><p>A: en bonus på 100 000 kr varje år, utöver 2 000 000 kr.<br>B: lönen höjs med 4,5 % varje år.<br>C: lönen höjs med 95 000 kr varje år.</p><p>Hur mycket tjänar man totalt under de sju åren med alternativ B? Avrunda till hela tusental kronor.</p>",
+        "s": "<p>\\(S_7=\\dfrac{2\\,000\\,000(1{,}045^7-1)}{1{,}045-1}\\approx16\\,038\\,000\\).</p><p><strong>Svar:</strong> cirka 16 038 000 kr</p>",
+        "ledtrad": "<p>Lönerna i B bildar en geometrisk talföljd.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket tjänar man totalt under de sju åren med alternativ C?",
+        "t": "<p>Ett sjuårigt kontrakt ger 2 000 000 kr första året. Man väljer en av tre löneutvecklingar:</p><p>A: en bonus på 100 000 kr varje år, utöver 2 000 000 kr.<br>B: lönen höjs med 4,5 % varje år.<br>C: lönen höjs med 95 000 kr varje år.</p><p>Hur mycket tjänar man totalt under de sju åren med alternativ C?</p>",
+        "s": "<p>Lönerna bildar en aritmetisk talföljd från 2 000 000 till \\(2\\,000\\,000+6\\cdot95\\,000=2\\,570\\,000\\).</p><p>\\(S_7=\\dfrac{7(2\\,000\\,000+2\\,570\\,000)}{2}=15\\,995\\,000\\).</p><p><strong>Svar:</strong> 15 995 000 kr</p>",
+        "ledtrad": "<p>Lönerna i C bildar en aritmetisk talföljd.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur mycket mer tjänar man totalt med det bästa alternativet än med det sämsta? Avrunda till hela tusental kronor.",
+        "t": "<p>Ett sjuårigt kontrakt ger 2 000 000 kr första året. Man väljer en av tre löneutvecklingar:</p><p>A: en bonus på 100 000 kr varje år, utöver 2 000 000 kr.<br>B: lönen höjs med 4,5 % varje år.<br>C: lönen höjs med 95 000 kr varje år.</p><p>Hur mycket mer tjänar man totalt med det bästa alternativet än med det sämsta? Avrunda till hela tusental kronor.</p>",
+        "s": "<p>A: \\(7\\cdot2\\,100\\,000=14\\,700\\,000\\) kr. B: \\(\\dfrac{2\\,000\\,000(1{,}045^7-1)}{0{,}045}\\approx16\\,038\\,000\\) kr. C: \\(\\dfrac{7(2\\,000\\,000+2\\,570\\,000)}{2}=15\\,995\\,000\\) kr.</p><p>Bäst är B och sämst A: \\(16\\,038\\,000-14\\,700\\,000\\approx1\\,338\\,000\\).</p><p><strong>Svar:</strong> cirka 1 338 000 kr</p>",
+        "ledtrad": "<p>Räkna ut totalen för alla tre alternativen och jämför.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Ett alternativ ger en aritmetisk talföljd och ett annat en geometrisk.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "studsande boll",
+    "poang": "1/2/0",
+    "t": "<p>En boll släpps från höjden 90 cm. Efter varje studs når den \\(\\tfrac23\\) av höjden den föll från.</p><ol type=\"a\"><li>Hur högt når bollen efter den sjätte studsen? Svara med en decimal.</li><li>Hur lång sträcka har bollen rört sig, upp och ned, från släppet tills den slår i marken för sjätte gången? Avrunda till hela centimeter.</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(90\\cdot\\left(\\tfrac23\\right)^6\\approx7{,}9\\).</p><p><strong>Svar:</strong> 7,9 cm</p></li><li><p>Först faller den 90 cm. Mellan studsarna går den upp och ned höjderna \\(60, 40, \\dots, 90\\left(\\tfrac23\\right)^5\\), fem höjder.</p><p>\\[90+2\\cdot\\frac{60\\left(1-\\left(\\tfrac23\\right)^5\\right)}{1-\\tfrac23}\\approx90+312{,}6\\approx403.\\]</p><p><strong>Svar:</strong> 403 cm</p></li></ol>",
+    "id": "2.636",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7.9,
+      403
+    ],
+    "tolerans": [
+      0.06,
+      0.6
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En boll släpps från höjden 90 cm. Efter varje studs når den \\(\\tfrac23\\) av höjden den föll från.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt når bollen efter den sjätte studsen? Svara med en decimal.",
+        "t": "<p>En boll släpps från höjden 90 cm. Efter varje studs når den \\(\\tfrac23\\) av höjden den föll från.</p><p>Hur högt når bollen efter den sjätte studsen? Svara med en decimal.</p>",
+        "s": "<p>\\(90\\cdot\\left(\\tfrac23\\right)^6\\approx7{,}9\\).</p><p><strong>Svar:</strong> 7,9 cm</p>",
+        "ledtrad": "<p>Varje studs multiplicerar höjden med \\(\\tfrac23\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång sträcka har bollen rört sig, upp och ned, från släppet tills den slår i marken för sjätte gången? Avrunda till hela centimeter.",
+        "t": "<p>En boll släpps från höjden 90 cm. Efter varje studs når den \\(\\tfrac23\\) av höjden den föll från.</p><p>Hur lång sträcka har bollen rört sig, upp och ned, från släppet tills den slår i marken för sjätte gången? Avrunda till hela centimeter.</p>",
+        "s": "<p>Först faller den 90 cm. Mellan studsarna går den upp och ned höjderna \\(60, 40, \\dots, 90\\left(\\tfrac23\\right)^5\\), fem höjder.</p><p>\\[90+2\\cdot\\frac{60\\left(1-\\left(\\tfrac23\\right)^5\\right)}{1-\\tfrac23}\\approx90+312{,}6\\approx403.\\]</p><p><strong>Svar:</strong> 403 cm</p>",
+        "ledtrad": "<p>Rita upp rörelsen. Vilka höjder passeras två gånger och vilken bara en gång?</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Studshöjderna bildar en geometrisk talföljd.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "E",
+    "typ": "kvot ur två mätvärden",
+    "poang": "2/0/0",
+    "t": "<p>En basketboll släpps från 4,0 m höjd och studsar upp till 3,0 m. Anta att höjden minskar med samma procentsats vid varje studs.</p><p>Hur högt når bollen efter den tionde studsen? Svara i centimeter.</p>",
+    "s": "<p>Kvoten är \\(\\dfrac{3{,}0}{4{,}0}=0{,}75\\). Efter tio studsar: \\(4{,}0\\cdot0{,}75^{10}\\approx0{,}225\\) m.</p><p><strong>Svar:</strong> cirka 23 cm</p>",
+    "id": "2.637",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "numeriskt",
+    "rättSvar": 22.5,
+    "tolerans": 0.6,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Bestäm förändringsfaktorn för en studs.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "cm"
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "total sträcka för studsande boll",
+    "poang": "1/2/0",
+    "t": "<p>En studsboll släpps från 20 m höjd. Vid varje studs når den hälften av höjden den föll från.</p><ol type=\"a\"><li>Hur högt når bollen efter den femte studsen?</li><li>Hur lång sträcka har bollen rört sig totalt när den till slut ligger stilla?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(20\\cdot\\left(\\tfrac12\\right)^5=0{,}625\\).</p><p><strong>Svar:</strong> 0,625 m</p></li><li><p>Fallet 20 m, sedan upp och ned höjderna \\(10, 5, 2{,}5,\\dots\\):</p><p>\\[20+2\\cdot\\frac{10}{1-\\tfrac12}=20+40=60.\\]</p><p><strong>Svar:</strong> 60 m</p></li></ol>",
+    "id": "2.638",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.625,
+      60
+    ],
+    "tolerans": [
+      0.001,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "m",
+      "m"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En studsboll släpps från 20 m höjd. Vid varje studs når den hälften av höjden den föll från.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur högt når bollen efter den femte studsen?",
+        "t": "<p>En studsboll släpps från 20 m höjd. Vid varje studs når den hälften av höjden den föll från.</p><p>Hur högt når bollen efter den femte studsen?</p>",
+        "s": "<p>\\(20\\cdot\\left(\\tfrac12\\right)^5=0{,}625\\).</p><p><strong>Svar:</strong> 0,625 m</p>",
+        "ledtrad": "<p>Hur många gånger halveras höjden?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur lång sträcka har bollen rört sig totalt när den till slut ligger stilla?",
+        "t": "<p>En studsboll släpps från 20 m höjd. Vid varje studs når den hälften av höjden den föll från.</p><p>Hur lång sträcka har bollen rört sig totalt när den till slut ligger stilla?</p>",
+        "s": "<p>Fallet 20 m, sedan upp och ned höjderna \\(10, 5, 2{,}5,\\dots\\):</p><p>\\[20+2\\cdot\\frac{10}{1-\\tfrac12}=20+40=60.\\]</p><p><strong>Svar:</strong> 60 m</p>",
+        "ledtrad": "<p>Höjderna efter studsarna bildar en oändlig geometrisk summa. Varje sådan höjd passeras två gånger.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Höjderna bildar en geometrisk talföljd med kvoten \\(\\tfrac12\\).</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "A",
+    "typ": "dumpning med bortförsel",
+    "poang": "0/2/1",
+    "t": "<p>En fabrik får släppa ut 600 kg fibrer i en å varje morgon. Under dagen för ån bort 60 % av de fibrer som finns vid utsläppsplatsen.</p><ol type=\"a\"><li>Teckna ett förenklat uttryck för mängden fibrer i kg vid utsläppsplatsen på kvällen dag \\(n\\).</li><li>Hur mycket fibrer finns det vid utsläppsplatsen på kvällarna efter lång tid?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Kväll 1: \\(600\\cdot0{,}4\\). Kväll 2: \\((600\\cdot0{,}4+600)\\cdot0{,}4=600\\cdot0{,}4+600\\cdot0{,}4^2\\).</p><p>Kväll \\(n\\): \\(600\\cdot0{,}4+600\\cdot0{,}4^2+\\dots+600\\cdot0{,}4^n\\).</p><p>\\[s_n=\\frac{240(1-0{,}4^n)}{1-0{,}4}=400(1-0{,}4^n).\\]</p><p><strong>Svar:</strong> \\(400(1-0{,}4^n)\\) kg</p></li><li><p>Kväll \\(n\\) finns \\(400(1-0{,}4^n)\\) kg. Eftersom \\(0{,}4^n\\to0\\) närmar sig mängden 400 kg.</p><p>Man kan också se det som en jämvikt: om kvällsmängden är \\(N\\) så är \\(N=0{,}4(N+600)\\iff N=400\\).</p><p><strong>Svar:</strong> 400 kg</p></li></ol>",
+    "id": "2.639",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "400*(1-0.4^n)",
+      400
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      null,
+      "kg"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En fabrik får släppa ut 600 kg fibrer i en å varje morgon. Under dagen för ån bort 60 % av de fibrer som finns vid utsläppsplatsen.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Teckna ett förenklat uttryck för mängden fibrer i kg vid utsläppsplatsen på kvällen dag \\(n\\).",
+        "t": "<p>En fabrik får släppa ut 600 kg fibrer i en å varje morgon. Under dagen för ån bort 60 % av de fibrer som finns vid utsläppsplatsen.</p><p>Teckna ett förenklat uttryck för mängden fibrer i kg vid utsläppsplatsen på kvällen dag \\(n\\).</p>",
+        "s": "<p>Kväll 1: \\(600\\cdot0{,}4\\). Kväll 2: \\((600\\cdot0{,}4+600)\\cdot0{,}4=600\\cdot0{,}4+600\\cdot0{,}4^2\\).</p><p>Kväll \\(n\\): \\(600\\cdot0{,}4+600\\cdot0{,}4^2+\\dots+600\\cdot0{,}4^n\\).</p><p>\\[s_n=\\frac{240(1-0{,}4^n)}{1-0{,}4}=400(1-0{,}4^n).\\]</p><p><strong>Svar:</strong> \\(400(1-0{,}4^n)\\) kg</p>",
+        "ledtrad": "<p>Räkna ut mängden de två första kvällarna och se vilket mönster som uppstår. 40 % finns kvar varje kväll.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket fibrer finns det vid utsläppsplatsen på kvällarna efter lång tid?",
+        "t": "<p>En fabrik får släppa ut 600 kg fibrer i en å varje morgon. Under dagen för ån bort 60 % av de fibrer som finns vid utsläppsplatsen.</p><p>Hur mycket fibrer finns det vid utsläppsplatsen på kvällarna efter lång tid?</p>",
+        "s": "<p>Kväll \\(n\\) finns \\(400(1-0{,}4^n)\\) kg. Eftersom \\(0{,}4^n\\to0\\) närmar sig mängden 400 kg.</p><p>Man kan också se det som en jämvikt: om kvällsmängden är \\(N\\) så är \\(N=0{,}4(N+600)\\iff N=400\\).</p><p><strong>Svar:</strong> 400 kg</p>",
+        "ledtrad": "<p>Vad händer med \\(0{,}4^n\\) när \\(n\\) blir stort? Du kan också leta efter en kvällsmängd som inte ändras från dag till dag.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Efter varje dag finns 40 % kvar av det som fanns på morgonen.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 2,
+    "omr": "talfoljder_tillampningar",
+    "niva": "C",
+    "typ": "upprepad utspädning",
+    "poang": "1/2/0",
+    "t": "<p>En kanna innehåller 5,0 liter vatten. Man häller ut 1,0 liter och fyller på med 1,0 liter glykol. Sedan häller man ut 1,0 liter av blandningen och fyller på 1,0 liter glykol igen, och så vidare.</p><ol type=\"a\"><li>Hur mycket vatten finns kvar efter den tredje påfyllningen?</li><li>Hur mycket vatten finns kvar efter den \\(n\\):te påfyllningen? Svara med ett uttryck i \\(n\\).</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Varje gång försvinner en femtedel av blandningen, så 80 % av vattnet blir kvar.</p><p>\\(5{,}0\\cdot0{,}8^3=2{,}56\\).</p><p><strong>Svar:</strong> 2,56 liter</p></li><li><p>\\(5\\cdot0{,}8^n\\) liter.</p><p><strong>Svar:</strong> \\(5\\cdot0{,}8^n\\) liter</p></li></ol>",
+    "id": "2.640",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Talföljder i ekonomi, natur och samhälle",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2.56,
+      "5*0.8^n"
+    ],
+    "tolerans": [
+      0.006,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "liter",
+      null
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kanna innehåller 5,0 liter vatten. Man häller ut 1,0 liter och fyller på med 1,0 liter glykol. Sedan häller man ut 1,0 liter av blandningen och fyller på 1,0 liter glykol igen, och så vidare.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket vatten finns kvar efter den tredje påfyllningen?",
+        "t": "<p>En kanna innehåller 5,0 liter vatten. Man häller ut 1,0 liter och fyller på med 1,0 liter glykol. Sedan häller man ut 1,0 liter av blandningen och fyller på 1,0 liter glykol igen, och så vidare.</p><p>Hur mycket vatten finns kvar efter den tredje påfyllningen?</p>",
+        "s": "<p>Varje gång försvinner en femtedel av blandningen, så 80 % av vattnet blir kvar.</p><p>\\(5{,}0\\cdot0{,}8^3=2{,}56\\).</p><p><strong>Svar:</strong> 2,56 liter</p>",
+        "ledtrad": "<p>Hur stor andel av vattnet försvinner varje gång en liter hälls ut?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur mycket vatten finns kvar efter den \\(n\\):te påfyllningen? Svara med ett uttryck i \\(n\\).",
+        "t": "<p>En kanna innehåller 5,0 liter vatten. Man häller ut 1,0 liter och fyller på med 1,0 liter glykol. Sedan häller man ut 1,0 liter av blandningen och fyller på 1,0 liter glykol igen, och så vidare.</p><p>Hur mycket vatten finns kvar efter den \\(n\\):te påfyllningen? Svara med ett uttryck i \\(n\\).</p>",
+        "s": "<p>\\(5\\cdot0{,}8^n\\) liter.</p><p><strong>Svar:</strong> \\(5\\cdot0{,}8^n\\) liter</p>",
+        "ledtrad": "<p>Vilken faktor multipliceras vattenmängden med vid varje omgång?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Vattenmängden minskar med samma faktor varje gång.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
     "omr": "aritm_geom_talfoljder",
     "niva": "C",
     "typ": "bestäm antal termer från geometrisk tillväxt",
@@ -16948,6 +17720,337 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "rekursiva_talfoljder"
     ]
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "E",
+    "typ": "term långt fram via sluten formel",
+    "poang": "1/0/0",
+    "t": "<p>En talföljd ges av \\(a_{n+1}=a_n+6\\) och \\(a_1=4\\).</p><p>Bestäm \\(a_{1000}\\).</p>",
+    "s": "<p>Följden är aritmetisk med \\(d=6\\): \\(a_n=4+6(n-1)\\).</p><p>\\(a_{1000}=4+6\\cdot999=5\\,998\\).</p><p><strong>Svar:</strong> 5 998</p>",
+    "id": "2.641",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5998,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv om till en sluten formel först.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "E",
+    "typ": "term långt fram via sluten formel",
+    "poang": "1/0/0",
+    "t": "<p>En talföljd ges av \\(a_n=1{,}01\\cdot a_{n-1}\\) och \\(a_1=0{,}01\\).</p><p>Bestäm \\(a_{873}\\). Svara med en decimal.</p>",
+    "s": "<p>Följden är geometrisk med kvoten 1,01: \\(a_n=0{,}01\\cdot1{,}01^{n-1}\\).</p><p>\\(a_{873}=0{,}01\\cdot1{,}01^{872}\\approx58{,}6\\).</p><p><strong>Svar:</strong> 58,6</p>",
+    "id": "2.642",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "numeriskt",
+    "rättSvar": 58.6,
+    "tolerans": 0.06,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Vilken sorts talföljd är det? Skriv en sluten formel.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "C",
+    "typ": "rekursiv medlemsmodell med jämvikt",
+    "poang": "1/3/0",
+    "t": "<p>En musiktjänst har 50 000 medlemmar efter första året. Varje år därefter slutar 20 % av medlemmarna samtidigt som 5 000 nya tillkommer. Låt \\(a_n\\) vara antalet medlemmar efter \\(n\\) år, så att \\(a_1=50\\,000\\).</p><ol type=\"a\"><li>Hur många medlemmar har tjänsten efter 5 år?</li><li>Vilket antal medlemmar närmar sig tjänsten efter lång tid?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{n+1}=0{,}80a_n+5\\,000\\).</p><p>\\(a_2=45\\,000\\), \\(a_3=41\\,000\\), \\(a_4=37\\,800\\), \\(a_5=35\\,240\\).</p><p><strong>Svar:</strong> 35 240 medlemmar</p></li><li><p>\\(a_{n+1}=0{,}80a_n+5\\,000\\). Ett gränsvärde \\(N\\) uppfyller \\(N=0{,}80N+5\\,000\\iff0{,}20N=5\\,000\\iff N=25\\,000\\).</p><p><strong>Svar:</strong> 25 000 medlemmar</p></li></ol>",
+    "id": "2.643",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      35240,
+      25000
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En musiktjänst har 50 000 medlemmar efter första året. Varje år därefter slutar 20 % av medlemmarna samtidigt som 5 000 nya tillkommer. Låt \\(a_n\\) vara antalet medlemmar efter \\(n\\) år, så att \\(a_1=50\\,000\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många medlemmar har tjänsten efter 5 år?",
+        "t": "<p>En musiktjänst har 50 000 medlemmar efter första året. Varje år därefter slutar 20 % av medlemmarna samtidigt som 5 000 nya tillkommer. Låt \\(a_n\\) vara antalet medlemmar efter \\(n\\) år, så att \\(a_1=50\\,000\\).</p><p>Hur många medlemmar har tjänsten efter 5 år?</p>",
+        "s": "<p>\\(a_{n+1}=0{,}80a_n+5\\,000\\).</p><p>\\(a_2=45\\,000\\), \\(a_3=41\\,000\\), \\(a_4=37\\,800\\), \\(a_5=35\\,240\\).</p><p><strong>Svar:</strong> 35 240 medlemmar</p>",
+        "ledtrad": "<p>Skriv en rekursiv formel: vad händer med medlemmarna från ett år till nästa?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilket antal medlemmar närmar sig tjänsten efter lång tid?",
+        "t": "<p>En musiktjänst har 50 000 medlemmar efter första året. Varje år därefter slutar 20 % av medlemmarna samtidigt som 5 000 nya tillkommer. Låt \\(a_n\\) vara antalet medlemmar efter \\(n\\) år, så att \\(a_1=50\\,000\\).</p><p>Vilket antal medlemmar närmar sig tjänsten efter lång tid?</p>",
+        "s": "<p>\\(a_{n+1}=0{,}80a_n+5\\,000\\). Ett gränsvärde \\(N\\) uppfyller \\(N=0{,}80N+5\\,000\\iff0{,}20N=5\\,000\\iff N=25\\,000\\).</p><p><strong>Svar:</strong> 25 000 medlemmar</p>",
+        "ledtrad": "<p>Om antalet stabiliseras är \\(a_{n+1}\\approx a_n\\). Sätt in det i den rekursiva formeln.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Från ett år till nästa finns 80 % kvar och 5 000 tillkommer.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "C",
+    "typ": "rekursiv doseringsmodell",
+    "poang": "1/3/0",
+    "t": "<p>Stina sköter en pool. Efter första veckan finns 900 g klor i vattnet. Varje vecka försvinner 40 % av kloret, och samtidigt tillsätter hon 300 g. Låt \\(a_n\\) vara mängden klor i gram efter \\(n\\) veckor, så att \\(a_1=900\\).</p><ol type=\"a\"><li>Hur mycket klor finns i poolen efter 3 veckor?</li><li>Vilken mängd klor närmar sig poolen efter lång tid?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(a_{n+1}=0{,}60a_n+300\\).</p><p>\\(a_2=0{,}60\\cdot900+300=840\\), \\(a_3=0{,}60\\cdot840+300=804\\).</p><p><strong>Svar:</strong> 804 g</p></li><li><p>\\(N=0{,}60N+300\\iff0{,}40N=300\\iff N=750\\).</p><p><strong>Svar:</strong> 750 g</p></li></ol>",
+    "id": "2.644",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      804,
+      750
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarEnhet": [
+      "g",
+      "g"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stina sköter en pool. Efter första veckan finns 900 g klor i vattnet. Varje vecka försvinner 40 % av kloret, och samtidigt tillsätter hon 300 g. Låt \\(a_n\\) vara mängden klor i gram efter \\(n\\) veckor, så att \\(a_1=900\\).</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket klor finns i poolen efter 3 veckor?",
+        "t": "<p>Stina sköter en pool. Efter första veckan finns 900 g klor i vattnet. Varje vecka försvinner 40 % av kloret, och samtidigt tillsätter hon 300 g. Låt \\(a_n\\) vara mängden klor i gram efter \\(n\\) veckor, så att \\(a_1=900\\).</p><p>Hur mycket klor finns i poolen efter 3 veckor?</p>",
+        "s": "<p>\\(a_{n+1}=0{,}60a_n+300\\).</p><p>\\(a_2=0{,}60\\cdot900+300=840\\), \\(a_3=0{,}60\\cdot840+300=804\\).</p><p><strong>Svar:</strong> 804 g</p>",
+        "ledtrad": "<p>Hur stor andel av kloret finns kvar efter en vecka, och vad läggs till?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Vilken mängd klor närmar sig poolen efter lång tid?",
+        "t": "<p>Stina sköter en pool. Efter första veckan finns 900 g klor i vattnet. Varje vecka försvinner 40 % av kloret, och samtidigt tillsätter hon 300 g. Låt \\(a_n\\) vara mängden klor i gram efter \\(n\\) veckor, så att \\(a_1=900\\).</p><p>Vilken mängd klor närmar sig poolen efter lång tid?</p>",
+        "s": "<p>\\(N=0{,}60N+300\\iff0{,}40N=300\\iff N=750\\).</p><p><strong>Svar:</strong> 750 g</p>",
+        "ledtrad": "<p>Leta efter en mängd som inte ändras från vecka till vecka.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Mängden följer en rekursiv formel av typen \\(a_{n+1}=ka_n+c\\).</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "C",
+    "typ": "jämviktsvärde i rekursiv modell",
+    "poang": "0/2/0",
+    "t": "<p>I ett skogsprojekt i öknen finns 9 000 träd efter första året. Varje år dör 10 % av träden, samtidigt som 800 nya planteras.</p><p>Vilket antal träd närmar sig planteringen efter lång tid?</p>",
+    "s": "<p>\\(a_{n+1}=0{,}90a_n+800\\). Jämvikt: \\(N=0{,}90N+800\\iff N=8\\,000\\).</p><p>Antalet minskar alltså mot 8 000 träd.</p><p><strong>Svar:</strong> 8 000 träd</p>",
+    "id": "2.645",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8000,
+    "tolerans": null,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv den rekursiva formeln och sök ett värde som inte ändras från år till år.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "E",
+    "typ": "annuitetslån rekursivt",
+    "poang": "1/1/0",
+    "t": "<p>Harald lånar 150 000 kr till 4,0 % årsränta. I slutet av varje år läggs räntan till och han betalar sedan 8 675 kr. Låt \\(a_n\\) vara skulden efter \\(n\\) år, med \\(a_0=150\\,000\\).</p><p>Hur stor är skulden efter 3 år? Avrunda till hela kronor.</p>",
+    "s": "<p>\\(a_{n+1}=1{,}04a_n-8\\,675\\).</p><p>\\(a_1=147\\,325\\), \\(a_2=144\\,543\\), \\(a_3\\approx141\\,650\\).</p><p><strong>Svar:</strong> 141 650 kr</p>",
+    "id": "2.646",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "numeriskt",
+    "rättSvar": 141650,
+    "tolerans": 1,
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Skriv en rekursiv formel: först växer skulden med räntan, sedan dras betalningen av.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kr"
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "E",
+    "typ": "lån med månadsränta rekursivt",
+    "poang": "2/0/0",
+    "t": "<p>Ett lån på 2 000 kr har månadsräntan 0,75 %. I slutet av varje månad läggs räntan till och sedan betalas 91,37 kr.</p><p>Hur mycket återstår av lånet efter den andra betalningen? Svara i kronor med två decimaler.</p>",
+    "s": "<p>\\(a_{n+1}=1{,}0075a_n-91{,}37\\) med \\(a_0=2\\,000\\).</p><p>\\(a_1=2\\,015-91{,}37=1\\,923{,}63\\).</p><p>\\(a_2=1{,}0075\\cdot1\\,923{,}63-91{,}37\\approx1\\,846{,}69\\).</p><p><strong>Svar:</strong> 1 846,69 kr</p>",
+    "id": "2.647",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1846.69,
+    "tolerans": 0.02,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Varje månad: först ränta, sedan betalning.</p>",
+    "traningsniva": 2,
+    "svarEnhet": "kr"
+  },
+  {
+    "kap": 2,
+    "omr": "rekursionsformler",
+    "niva": "C",
+    "typ": "rak amortering med ränta",
+    "poang": "2/3/0",
+    "t": "<p>Stina lånar 80 000 kr till 3,0 % årsränta. Lånet betalas av på 10 år med lika stora amorteringar på 8 000 kr i slutet av varje år, plus ränta på den skuld som fanns under året.</p><ol type=\"a\"><li>Hur mycket betalar Stina i slutet av år 3?</li><li>Hur stor är den sista betalningen?</li><li>Betalningarna bildar en aritmetisk talföljd. Hur mycket betalar Stina totalt under de 10 åren?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Under år 3 är skulden \\(80\\,000-2\\cdot8\\,000=64\\,000\\) kr.</p><p>\\(8\\,000+0{,}03\\cdot64\\,000=9\\,920\\).</p><p><strong>Svar:</strong> 9 920 kr</p></li><li><p>Under år 10 återstår 8 000 kr: \\(8\\,000+0{,}03\\cdot8\\,000=8\\,240\\).</p><p><strong>Svar:</strong> 8 240 kr</p></li><li><p>Första betalningen: \\(8\\,000+0{,}03\\cdot80\\,000=10\\,400\\) kr. Sista: 8 240 kr. Betalningen minskar med \\(0{,}03\\cdot8\\,000=240\\) kr per år.</p><p>\\(S_{10}=\\dfrac{10(10\\,400+8\\,240)}{2}=93\\,200\\).</p><p><strong>Svar:</strong> 93 200 kr</p></li></ol>",
+    "id": "2.648",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Rekursiva talföljder och modeller",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9920,
+      8240,
+      93200
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": true,
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarEnhet": [
+      "kr",
+      "kr",
+      "kr"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Stina lånar 80 000 kr till 3,0 % årsränta. Lånet betalas av på 10 år med lika stora amorteringar på 8 000 kr i slutet av varje år, plus ränta på den skuld som fanns under året.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur mycket betalar Stina i slutet av år 3?",
+        "t": "<p>Stina lånar 80 000 kr till 3,0 % årsränta. Lånet betalas av på 10 år med lika stora amorteringar på 8 000 kr i slutet av varje år, plus ränta på den skuld som fanns under året.</p><p>Hur mycket betalar Stina i slutet av år 3?</p>",
+        "s": "<p>Under år 3 är skulden \\(80\\,000-2\\cdot8\\,000=64\\,000\\) kr.</p><p>\\(8\\,000+0{,}03\\cdot64\\,000=9\\,920\\).</p><p><strong>Svar:</strong> 9 920 kr</p>",
+        "ledtrad": "<p>Hur stor är skulden under år 3?</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur stor är den sista betalningen?",
+        "t": "<p>Stina lånar 80 000 kr till 3,0 % årsränta. Lånet betalas av på 10 år med lika stora amorteringar på 8 000 kr i slutet av varje år, plus ränta på den skuld som fanns under året.</p><p>Hur stor är den sista betalningen?</p>",
+        "s": "<p>Under år 10 återstår 8 000 kr: \\(8\\,000+0{,}03\\cdot8\\,000=8\\,240\\).</p><p><strong>Svar:</strong> 8 240 kr</p>",
+        "ledtrad": "<p>Hur mycket återstår av lånet under det sista året?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Betalningarna bildar en aritmetisk talföljd. Hur mycket betalar Stina totalt under de 10 åren?",
+        "t": "<p>Stina lånar 80 000 kr till 3,0 % årsränta. Lånet betalas av på 10 år med lika stora amorteringar på 8 000 kr i slutet av varje år, plus ränta på den skuld som fanns under året.</p><p>Betalningarna bildar en aritmetisk talföljd. Hur mycket betalar Stina totalt under de 10 åren?</p>",
+        "s": "<p>Första betalningen: \\(8\\,000+0{,}03\\cdot80\\,000=10\\,400\\) kr. Sista: 8 240 kr. Betalningen minskar med \\(0{,}03\\cdot8\\,000=240\\) kr per år.</p><p>\\(S_{10}=\\dfrac{10(10\\,400+8\\,240)}{2}=93\\,200\\).</p><p><strong>Svar:</strong> 93 200 kr</p>",
+        "ledtrad": "<p>Bestäm första och sista betalningen och använd summaformeln.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Räntan beräknas på den skuld som återstår.</p>",
+    "traningsniva": 3
   },
   {
     "kap": 2,

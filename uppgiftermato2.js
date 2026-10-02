@@ -31725,6 +31725,33 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.568",
+    "kap": 3,
+    "omr": "kort_om_derivator",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För funktionen \\(f(x)=x^n\\), där \\(n\\) är ett positivt heltal, gäller att \\(f'(2)=80\\).</p><p>Bestäm \\(n\\).</p>",
+    "s": "<p>\\(f'(x)=nx^{n-1}\\), så villkoret är \\(n\\cdot2^{n-1}=80\\).</p><p>Pröva: \\(n=4\\) ger \\(4\\cdot8=32\\). \\(n=5\\) ger \\(5\\cdot16=80\\). \\(n=6\\) ger \\(6\\cdot32=192\\).</p><p>Uttrycket växer med \\(n\\), så \\(n=5\\) är den enda lösningen.</p><p><strong>Svar:</strong> \\(n=5\\)</p>",
+    "familj": "Grundläggande deriveringsregler",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ställ upp \\(f'(2)\\) uttryckt i \\(n\\) och pröva några heltal.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": null
+  },
+  {
     "id": "2.07",
     "kap": 2,
     "omr": "derivata_sammansatta",
@@ -47528,6 +47555,44 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.571",
+    "kap": 3,
+    "omr": "olika_grafer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=x\\ln x\\) är definierad för \\(x&gt;0\\).</p><p>Bestäm funktionens minsta värde och var det antas. Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>\\(f'(x)=\\ln x+x\\cdot\\frac1x=\\ln x+1\\). \\(f'(x)=0\\) ger \\(\\ln x=-1\\), alltså \\(x=e^{-1}\\).</p><p>Derivatan är negativ för \\(x&lt;e^{-1}\\) och positiv därefter, så det är ett minimum: \\(f(e^{-1})=e^{-1}\\cdot(-1)=-\\frac1e\\approx-0{,}368\\).</p><p><strong>Svar:</strong> minsta värdet \\(-\\frac1e\\) när \\(x=\\frac1e\\)</p>",
+    "familj": "Grafanalys av specialfunktioner",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera med produktregeln och lös \\(f'(x)=0\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.36787944117144233,
+      -0.36787944117144233
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x",
+      "Minsta värde"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.531",
     "kap": 3,
     "omr": "kurvor_asymptoter",
@@ -53272,6 +53337,33 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "3.520",
+    "kap": 4,
+    "omr": "integraler_primitiva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm \\(a\\), där \\(0&lt;a&lt;\\pi\\), så att</p><p>\\[\\int_0^a\\sin x\\,dx=1{,}5.\\]</p><p>Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>\\[\\int_0^a\\sin x\\,dx=\\big[-\\cos x\\big]_0^a=1-\\cos a.\\]</p><p>\\(1-\\cos a=1{,}5\\) ger \\(\\cos a=-\\frac12\\). I intervallet är \\(a=\\frac{2\\pi}{3}\\approx2{,}094\\).</p><p>Rimlighet: hela bågen från 0 till \\(\\pi\\) ger arean 2, och 1,5 är tre fjärdedelar av den. Därför ska \\(a\\) ligga efter \\(\\frac\\pi2\\).</p><p><strong>Svar:</strong> \\(a=\\frac{2\\pi}3\\approx2{,}094\\)</p>",
+    "familj": "Bestämda integraler med trigonometriska funktioner",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Beräkna integralen uttryckt i \\(a\\) och lös ekvationen.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.0943951023931953,
+    "tolerans": 0.001
+  },
+  {
     "id": "3.01",
     "kap": 4,
     "omr": "areor_mellan_kurvor",
@@ -56130,6 +56222,33 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "3.519",
+    "kap": 4,
+    "omr": "grafiska_metoder",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Beräkna \\(\\displaystyle\\int_{-2}^{2}\\sqrt{4-x^2}\\,dx\\) genom att tolka integralen som en area. Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>\\(y=\\sqrt{4-x^2}\\) ger \\(x^2+y^2=4\\) med \\(y\\ge0\\). Grafen är alltså den övre halvan av en cirkel med radien 2 och medelpunkten i origo.</p><p>Integralen är halvcirkelns area: \\(\\frac12\\pi\\cdot2^2=2\\pi\\approx6{,}283\\).</p><p>Funktionen saknar en enkel primitiv funktion med de metoder som ingår i kursen. Den geometriska tolkningen löser problemet direkt.</p><p><strong>Svar:</strong> \\(2\\pi\\approx6{,}283\\)</p>",
+    "familj": "Geometrisk area och area från graf med integral",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kvadrera \\(y=\\sqrt{4-x^2}\\). Vilken kurva är det?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.283185307179586,
+    "tolerans": 0.001
+  },
+  {
     "id": "3.490",
     "kap": 4,
     "omr": "integraler_areor",
@@ -56255,6 +56374,33 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "area_integraler"
     ]
+  },
+  {
+    "id": "3.521",
+    "kap": 4,
+    "omr": "areor_mellan_kurvor",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Kurvorna \\(y=\\sin x\\) och \\(y=\\cos x\\) skär varandra i \\(x=\\frac\\pi4\\) och \\(x=\\frac{5\\pi}4\\).</p><p>Beräkna arean av området mellan kurvorna från \\(\\frac\\pi4\\) till \\(\\frac{5\\pi}4\\). Svara exakt eller med tre decimaler.</p>",
+    "s": "<p>I intervallet ligger \\(\\sin x\\) över \\(\\cos x\\). Kontroll i \\(x=\\frac\\pi2\\): \\(1&gt;0\\).</p><p>\\[A=\\int_{\\pi/4}^{5\\pi/4}(\\sin x-\\cos x)\\,dx=\\big[-\\cos x-\\sin x\\big]_{\\pi/4}^{5\\pi/4}.\\]</p><p>Övre gränsen: \\(-\\left(-\\frac{\\sqrt2}2\\right)-\\left(-\\frac{\\sqrt2}2\\right)=\\sqrt2\\). Undre gränsen: \\(-\\frac{\\sqrt2}2-\\frac{\\sqrt2}2=-\\sqrt2\\).</p><p>\\(A=\\sqrt2-(-\\sqrt2)=2\\sqrt2\\approx2{,}828\\).</p><p><strong>Svar:</strong> \\(2\\sqrt2\\approx2{,}828\\)</p>",
+    "familj": "Area mellan kurvor med integral",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken kurva ligger överst i intervallet? Integrera skillnaden.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.8284271247461903,
+    "tolerans": 0.001
   },
   {
     "id": "3.494",
@@ -72029,6 +72175,34 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "4.505",
+    "kap": 5,
+    "omr": "imaginara_tal",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Beräkna summan</p><p>\\[i+i^2+i^3+\\dots+i^{2026}.\\]</p><p>Skriv svaret på formen \\(a+bi\\).</p>",
+    "s": "<p>Potenserna av \\(i\\) upprepas med perioden 4: \\(i,\\ -1,\\ -i,\\ 1\\). Fyra på varandra följande termer har summan \\(i-1-i+1=0\\).</p><p>\\(2026=4\\cdot506+2\\). De första \\(4\\cdot506=2024\\) termerna har summan 0. Kvar blir \\(i^{2025}+i^{2026}=i^1+i^2=i-1\\).</p><p><strong>Svar:</strong> \\(-1+i\\)</p>",
+    "familj": "Imaginära tal och potenser av i",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv upp de första potenserna av \\(i\\). Vad blir summan av fyra i rad?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "uttryck",
+    "rättSvar": "-1+i",
+    "tolerans": null,
+    "svarFormat": "uttryck"
+  },
+  {
     "id": "4.471",
     "kap": 5,
     "omr": "konjugat_raknesatt",
@@ -72091,6 +72265,34 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "komplex_aritmetik"
     ]
+  },
+  {
+    "id": "4.506",
+    "kap": 5,
+    "omr": "konjugat_raknesatt",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det komplexa talet \\(z\\) som uppfyller</p><p>\\[z+2\\bar z=6-3i.\\]</p>",
+    "s": "<p>Skriv \\(z=a+bi\\). Då är \\(\\bar z=a-bi\\) och</p><p>\\[z+2\\bar z=a+bi+2a-2bi=3a-bi.\\]</p><p>Jämför realdel och imaginärdel med \\(6-3i\\): \\(3a=6\\) och \\(-b=-3\\). Alltså \\(a=2\\) och \\(b=3\\).</p><p>Kontroll: \\((2+3i)+2(2-3i)=6-3i\\).</p><p><strong>Svar:</strong> \\(z=2+3i\\)</p>",
+    "familj": "Konjugat och absolutbelopp av komplexa tal",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv \\(z=a+bi\\) och jämför realdelar och imaginärdelar var för sig.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "uttryck",
+    "rättSvar": "2+3*i",
+    "tolerans": null,
+    "svarFormat": "uttryck"
   },
   {
     "id": "4.06",
@@ -75277,6 +75479,45 @@ window.BANKMATO2 = [
     ],
     "familjTidigare": [
       "Geometri och ortslinjer i komplexa talplanet"
+    ]
+  },
+  {
+    "id": "4.507",
+    "kap": 5,
+    "omr": "komplexa_vektorer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Punkterna \\(z_1=1+i\\) och \\(z_2=4+5i\\) är två intilliggande hörn i en kvadrat \\(z_1z_2z_3z_4\\), där hörnen kommer moturs.</p><p>Bestäm \\(z_3\\) och \\(z_4\\). Använd att multiplikation med \\(i\\) vrider en vektor \\(90^\\circ\\) moturs.</p>",
+    "s": "<p>Sidan från \\(z_1\\) till \\(z_2\\) motsvarar \\(z_2-z_1=3+4i\\).</p><p>Nästa sida, från \\(z_2\\) till \\(z_3\\), är samma vektor vriden \\(90^\\circ\\) moturs: \\(i(3+4i)=-4+3i\\).</p><p>\\(z_3=z_2+(-4+3i)=8i\\) och \\(z_4=z_1+(-4+3i)=-3+4i\\).</p><p>Kontroll: \\(z_4-z_3=-3-4i=-(z_2-z_1)\\), och alla sidor har längden 5.</p><p><strong>Svar:</strong> \\(z_3=8i\\) och \\(z_4=-3+4i\\)</p>",
+    "familj": "Komplexa tal som punkter och vektorer",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm vektorn \\(z_2-z_1\\) och vrid den med hjälp av multiplikation med \\(i\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "8*i",
+      "-3+4*i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "z₃",
+      "z₄"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
     ]
   },
   {
@@ -80162,6 +80403,44 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "4.508",
+    "kap": 5,
+    "omr": "mult_div_polar",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>När ett komplext tal \\(z\\) multipliceras med talet \\(w\\) vrids \\(z\\) \\(60^\\circ\\) moturs och avståndet till origo fördubblas.</p><p>Bestäm \\(w\\) på formen \\(a+bi\\). Ange \\(a\\) och \\(b\\) exakt.</p>",
+    "s": "<p>Vid multiplikation multipliceras absolutbeloppen och argumenten adderas. Alltså är \\(|w|=2\\) och \\(\\arg w=60^\\circ\\).</p><p>\\[w=2(\\cos60^\\circ+i\\sin60^\\circ)=2\\left(\\frac12+\\frac{\\sqrt3}2i\\right)=1+\\sqrt3\\,i.\\]</p><p>Kontroll: \\(w\\cdot1=1+\\sqrt3\\,i\\) har beloppet \\(\\sqrt{1+3}=2\\) och argumentet \\(60^\\circ\\).</p><p><strong>Svar:</strong> \\(w=1+\\sqrt3\\,i\\)</p>",
+    "familj": "Avbildningar, rotation och skalning med komplexa tal",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vad händer med belopp och argument när två komplexa tal multipliceras?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      1.7320508075688772
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "4.487",
     "kap": 5,
     "omr": "polar_form",
@@ -80223,6 +80502,45 @@ window.BANKMATO2 = [
     "familjNyckel": "eulers_formel__eulers_formel",
     "omrTidigare": [
       "polar_exponentiell"
+    ]
+  },
+  {
+    "id": "4.514",
+    "kap": 5,
+    "omr": "eulers_formel",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Beräkna exakt med hjälp av Eulers formel \\(e^{i\\theta}=\\cos\\theta+i\\sin\\theta\\):</p><p><strong>a)</strong> \\(e^{i\\pi/3}+e^{-i\\pi/3}\\) &nbsp; <strong>b)</strong> \\(e^{i\\pi/3}\\cdot e^{i\\pi/6}\\)</p>",
+    "s": "<p><strong>a)</strong> \\(e^{i\\pi/3}+e^{-i\\pi/3}=\\left(\\cos\\frac\\pi3+i\\sin\\frac\\pi3\\right)+\\left(\\cos\\frac\\pi3-i\\sin\\frac\\pi3\\right)=2\\cos\\frac\\pi3=1\\).</p><p><strong>b)</strong> Exponenterna adderas: \\(e^{i(\\pi/3+\\pi/6)}=e^{i\\pi/2}=\\cos\\frac\\pi2+i\\sin\\frac\\pi2=i\\).</p><p><strong>Svar:</strong> a) 1 &nbsp; b) \\(i\\)</p>",
+    "familj": "Eulers formel",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv talen med cosinus och sinus. Vad händer med imaginärdelarna i a?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      "i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
     ]
   },
   {
@@ -82787,6 +83105,41 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "potenser_rotter"
     ]
+  },
+  {
+    "id": "4.509",
+    "kap": 5,
+    "omr": "de_moivre",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Beräkna \\((1+i)^{10}\\) och skriv svaret på formen \\(a+bi\\).</p>",
+    "s": "<p>\\(1+i\\) har beloppet \\(\\sqrt2\\) och argumentet \\(\\frac\\pi4\\).</p><p>de Moivres formel: \\((1+i)^{10}=(\\sqrt2)^{10}\\left(\\cos\\frac{10\\pi}4+i\\sin\\frac{10\\pi}4\\right)=32\\left(\\cos\\frac{5\\pi}2+i\\sin\\frac{5\\pi}2\\right)\\).</p><p>\\(\\frac{5\\pi}{2}=2\\pi+\\frac\\pi2\\), så \\(\\cos=0\\) och \\(\\sin=1\\). Resultatet är \\(32i\\).</p><p>Kontroll: \\((1+i)^2=2i\\), så \\((1+i)^{10}=(2i)^5=32i^5=32i\\).</p><p><strong>Svar:</strong> \\(0+32i\\)</p>",
+    "familj": "Potenser av komplexa tal med de Moivres formel",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv \\(1+i\\) i polär form. Eller: beräkna först \\((1+i)^2\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0,
+      32
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.494",
@@ -88315,6 +88668,48 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "4.513",
+    "kap": 5,
+    "omr": "faktorsatsen",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Polynomet \\(p(x)=x^3-6x^2+13x-10\\) har nollstället \\(x=2\\).</p><p>Bestäm polynomets alla nollställen, även de komplexa.</p>",
+    "s": "<p>Faktorsatsen: \\((x-2)\\) är en faktor. Polynomdivision ger</p><p>\\[p(x)=(x-2)(x^2-4x+5).\\]</p><p>\\(x^2-4x+5=0\\) ger \\(x=2\\pm\\sqrt{4-5}=2\\pm i\\).</p><p>De komplexa rötterna är varandras konjugat, som de måste vara när koefficienterna är reella.</p><p><strong>Svar:</strong> \\(x=2\\), \\(x=2+i\\) och \\(x=2-i\\)</p>",
+    "familj": "Faktorsatsen och faktorisering",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Dividera \\(p(x)\\) med \\(x-2\\) och lös andragradsekvationen som blir kvar.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "2",
+      "2+i",
+      "2-i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "x",
+      "x",
+      "x"
+    ],
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ]
+  },
+  {
     "id": "4.499",
     "kap": 5,
     "omr": "andragradsekv_komplexa",
@@ -88381,6 +88776,83 @@ window.BANKMATO2 = [
     ],
     "familjTidigare": [
       "Polynomekvationer med komplexa lösningar"
+    ]
+  },
+  {
+    "id": "4.511",
+    "kap": 5,
+    "omr": "andragradsekv_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>Lös ekvationen \\(z^2+4z+13=0\\).</p>",
+    "s": "<p>pq-formeln: \\(z=-2\\pm\\sqrt{4-13}=-2\\pm\\sqrt{-9}=-2\\pm3i\\).</p><p>Kontroll: summan av rötterna är \\(-4\\) och produkten \\((-2)^2+3^2=13\\).</p><p><strong>Svar:</strong> \\(z=-2+3i\\) eller \\(z=-2-3i\\)</p>",
+    "familj": "Andragradsekvationer med komplexa lösningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd pq-formeln. \\(\\sqrt{-9}=3i\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "-2+3*i",
+      "-2-3*i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "z",
+      "z"
+    ],
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ]
+  },
+  {
+    "id": "4.512",
+    "kap": 5,
+    "omr": "andragradsekv_komplexa",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Lös ekvationen \\(z^2=-8+6i\\) genom att ansätta \\(z=a+bi\\).</p>",
+    "s": "<p>\\((a+bi)^2=a^2-b^2+2abi\\). Jämför med \\(-8+6i\\):</p><p>\\[a^2-b^2=-8,\\qquad 2ab=6.\\]</p><p>Absolutbeloppen ger dessutom \\(a^2+b^2=|-8+6i|=10\\).</p><p>Addera: \\(2a^2=2\\), så \\(a=\\pm1\\). Då är \\(b=\\frac3a=\\pm3\\) med samma tecken.</p><p>Lösningarna är \\(z=1+3i\\) och \\(z=-1-3i\\). Kontroll: \\((1+3i)^2=1-9+6i=-8+6i\\).</p><p><strong>Svar:</strong> \\(z=1+3i\\) eller \\(z=-1-3i\\)</p>",
+    "familj": "Andragradsekvationer med komplexa lösningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Jämför realdel och imaginärdel. Det hjälper att också använda att \\(|z|^2=|z^2|\\).</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "1+3*i",
+      "-1-3*i"
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "z",
+      "z"
+    ],
+    "svarsstruktur": "mängd",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
     ]
   },
   {
@@ -88478,6 +88950,41 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "polynom_komplexa"
     ]
+  },
+  {
+    "id": "4.510",
+    "kap": 5,
+    "omr": "polynomdivision",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>När polynomet \\(p(x)=x^3+ax+b\\) divideras med \\(x-1\\) blir resten 3. När det divideras med \\(x+1\\) blir resten \\(-1\\).</p><p>Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<p>Restsatsen: resten vid division med \\(x-c\\) är \\(p(c)\\).</p><p>\\(p(1)=1+a+b=3\\), alltså \\(a+b=2\\).</p><p>\\(p(-1)=-1-a+b=-1\\), alltså \\(b-a=0\\).</p><p>Det ger \\(a=b=1\\). Kontroll: \\(p(x)=x^3+x+1\\) ger \\(p(1)=3\\) och \\(p(-1)=-1\\).</p><p><strong>Svar:</strong> \\(a=1\\), \\(b=1\\)</p>",
+    "familj": "Restsatsen",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd restsatsen i stället för att utföra divisionerna.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      1
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "4.504",
@@ -91601,6 +92108,47 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.570",
+    "kap": 3,
+    "omr": "produktregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>För \\(f(x)=xe^{-x}\\): bestäm maximipunktens koordinater och \\(x\\)-koordinaten för inflexionspunkten.</p>",
+    "s": "<p>Produktregeln: \\(f'(x)=e^{-x}-xe^{-x}=(1-x)e^{-x}\\). \\(f'(x)=0\\) ger \\(x=1\\). Derivatan byter tecken från + till −, så det är ett maximum: \\(f(1)=e^{-1}\\approx0{,}368\\).</p><p>\\(f''(x)=-e^{-x}-(1-x)e^{-x}=(x-2)e^{-x}\\). Den byter tecken i \\(x=2\\), så där finns en inflexionspunkt.</p><p><strong>Svar:</strong> maximum i \\(\\left(1,\\,\\frac1e\\right)\\) och inflexionspunkt där \\(x=2\\)</p>",
+    "familj": "Derivering med produktregeln",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Använd produktregeln två gånger. Bryt ut \\(e^{-x}\\) för att se tecknet.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      0.36787944117144233,
+      2
+    ],
+    "tolerans": [
+      0.001,
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x för max",
+      "y för max",
+      "x för inflexion"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.549",
     "kap": 3,
     "omr": "kvotregeln",
@@ -91725,6 +92273,44 @@ window.BANKMATO2 = [
     ]
   },
   {
+    "id": "2.569",
+    "kap": 3,
+    "omr": "kvotregeln",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Bestäm det största värdet av \\(f(x)=\\dfrac{x}{x^2+4}\\) och det \\(x\\) där det antas.</p>",
+    "s": "<p>Kvotregeln:</p><p>\\[f'(x)=\\frac{1\\cdot(x^2+4)-x\\cdot2x}{(x^2+4)^2}=\\frac{4-x^2}{(x^2+4)^2}.\\]</p><p>\\(f'(x)=0\\) ger \\(x=\\pm2\\). Derivatan är positiv för \\(-2&lt;x&lt;2\\) och negativ utanför. Därför är \\(x=2\\) ett maximum.</p><p>\\(f(2)=\\frac{2}{8}=\\frac14\\). När \\(x\\to\\pm\\infty\\) går \\(f(x)\\to0\\), så \\(\\frac14\\) är det största värdet.</p><p><strong>Svar:</strong> största värdet \\(\\frac14\\) när \\(x=2\\)</p>",
+    "familj": "Derivering med kvotregeln",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera med kvotregeln och gör ett teckenschema. Vad händer med \\(f(x)\\) för stora \\(|x|\\)?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      0.25
+    ],
+    "tolerans": [
+      0.001,
+      0.001
+    ],
+    "svarEtiketter": [
+      "x",
+      "Största värde"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
     "id": "2.553",
     "kap": 3,
     "omr": "sneda_asymptoter",
@@ -91785,6 +92371,43 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "grafer_asymptoter"
     ]
+  },
+  {
+    "id": "2.572",
+    "kap": 3,
+    "omr": "sneda_asymptoter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=\\dfrac{x^2+3x+1}{x+1}\\) har en lodrät och en sned asymptot.</p><p>Bestäm den sneda asymptoten \\(y=kx+m\\) och den lodräta asymptoten. Undersök också om grafen någon gång skär den sneda asymptoten.</p>",
+    "s": "<p>Polynomdivision: \\(x^2+3x+1=(x+1)(x+2)-1\\), så</p><p>\\[f(x)=x+2-\\frac{1}{x+1}.\\]</p><p>När \\(x\\to\\pm\\infty\\) går \\(\\frac1{x+1}\\to0\\), så den sneda asymptoten är \\(y=x+2\\). Nämnaren är 0 när \\(x=-1\\), och där finns en lodrät asymptot.</p><p>Grafen skär den sneda asymptoten om \\(\\frac1{x+1}=0\\). Det händer aldrig. För \\(x&gt;-1\\) ligger grafen under asymptoten och för \\(x&lt;-1\\) ovanför.</p><p><strong>Svar:</strong> sned asymptot \\(y=x+2\\), lodrät asymptot \\(x=-1\\). Grafen skär aldrig den sneda asymptoten.</p>",
+    "familj": "Asymptoter med polynomdivision",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Gör polynomdivision så att du får en linjär del plus en rest delad med \\(x+1\\).</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      2,
+      -1
+    ],
+    "tolerans": null,
+    "svarEtiketter": [
+      "k",
+      "m",
+      "Lodrät asymptot x ="
+    ],
+    "svarsstruktur": "ordnad"
   },
   {
     "id": "2.555",

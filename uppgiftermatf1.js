@@ -37528,6 +37528,774 @@ window.BANKMATF1 = [
   },
   {
     "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "multiplikationsprincipen i två steg",
+    "poang": "1/0/0",
+    "t": "<p>Daniel köper ett paket med en dator och en skärm. Det finns 6 datormodeller och 5 skärmar.</p><p>Hur många olika paket kan han sätta ihop?</p>",
+    "s": "<p>Varje dator kan kombineras med varje skärm: \\(6\\cdot5=30\\).</p><p><strong>Svar:</strong> 30 paket</p>",
+    "id": "1.729",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många skärmar kan kombineras med en viss dator?</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "multiplikationsprincipen i tre steg",
+    "poang": "1/0/0",
+    "t": "<p>Till mellanmål väljer Pelle en frukt, en dryck och en smörgås. Det finns 5 frukter, 8 drycker och 12 smörgåsar.</p><p>På hur många sätt kan han välja sitt mellanmål?</p>",
+    "s": "<p>\\(5\\cdot8\\cdot12=480\\).</p><p><strong>Svar:</strong> 480 sätt</p>",
+    "id": "1.730",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 480,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "vägval genom flera städer",
+    "poang": "1/0/0",
+    "t": "<p>Mellan städerna A och B finns 4 vägar, mellan B och C 5 vägar och mellan C och D 6 vägar.</p><p>På hur många sätt kan man köra från A till D via B och C?</p>",
+    "s": "<p>\\(4\\cdot5\\cdot6=120\\).</p><p><strong>Svar:</strong> 120 vägval</p>",
+    "id": "1.731",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Välj väg för varje delsträcka.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "två val per position",
+    "poang": "2/0/0",
+    "t": "<p>Ett försök har två möjliga utfall vid varje steg.</p><ol type=\"a\"><li>En familj har fyra barn. Hur många olika ordningar av pojkar och flickor finns det? (FFFP och FFPF räknas som olika.)</li><li>Ett formulär har 10 frågor som ska besvaras med JA eller NEJ. På hur många sätt kan formuläret fyllas i?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(2^4=16\\).</p><p><strong>Svar:</strong> 16</p></li><li><p>\\(2^{10}=1\\,024\\).</p><p><strong>Svar:</strong> 1 024 sätt</p></li></ol>",
+    "id": "1.732",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      16,
+      1024
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Ett försök har två möjliga utfall vid varje steg.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "En familj har fyra barn. Hur många olika ordningar av pojkar och flickor finns det? (FFFP och FFPF räknas som olika.)",
+        "t": "<p>Ett försök har två möjliga utfall vid varje steg.</p><p>En familj har fyra barn. Hur många olika ordningar av pojkar och flickor finns det? (FFFP och FFPF räknas som olika.)</p>",
+        "s": "<p>\\(2^4=16\\).</p><p><strong>Svar:</strong> 16</p>",
+        "ledtrad": "<p>Hur många möjligheter finns för varje barn?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Ett formulär har 10 frågor som ska besvaras med JA eller NEJ. På hur många sätt kan formuläret fyllas i?",
+        "t": "<p>Ett försök har två möjliga utfall vid varje steg.</p><p>Ett formulär har 10 frågor som ska besvaras med JA eller NEJ. På hur många sätt kan formuläret fyllas i?</p>",
+        "s": "<p>\\(2^{10}=1\\,024\\).</p><p><strong>Svar:</strong> 1 024 sätt</p>",
+        "ledtrad": "<p>Hur många svar finns för varje fråga?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Multiplicera antalet val i varje steg.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "tal med och utan upprepning",
+    "poang": "2/0/0",
+    "t": "<p>Man bildar femsiffriga tal med siffrorna 2, 4, 6, 8 och 9.</p><ol type=\"a\"><li>Hur många tal kan bildas om varje siffra bara får användas en gång?</li><li>Hur många tal kan bildas om samma siffra får användas flera gånger?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(5!=120\\).</p><p><strong>Svar:</strong> 120 tal</p></li><li><p>\\(5^5=3\\,125\\).</p><p><strong>Svar:</strong> 3 125 tal</p></li></ol>",
+    "id": "1.733",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      120,
+      3125
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Man bildar femsiffriga tal med siffrorna 2, 4, 6, 8 och 9.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många tal kan bildas om varje siffra bara får användas en gång?",
+        "t": "<p>Man bildar femsiffriga tal med siffrorna 2, 4, 6, 8 och 9.</p><p>Hur många tal kan bildas om varje siffra bara får användas en gång?</p>",
+        "s": "<p>\\(5!=120\\).</p><p><strong>Svar:</strong> 120 tal</p>",
+        "ledtrad": "<p>Hur många siffror finns kvar till varje ny position?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många tal kan bildas om samma siffra får användas flera gånger?",
+        "t": "<p>Man bildar femsiffriga tal med siffrorna 2, 4, 6, 8 och 9.</p><p>Hur många tal kan bildas om samma siffra får användas flera gånger?</p>",
+        "s": "<p>\\(5^5=3\\,125\\).</p><p><strong>Svar:</strong> 3 125 tal</p>",
+        "ledtrad": "<p>Hur många val finns för varje position?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "traningsniva": 1
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "villkor på sista siffran",
+    "poang": "1/0/0",
+    "t": "<p>Hur många udda tresiffriga tal kan bildas av siffrorna 1, 2, 4 och 6 om varje siffra bara får användas en gång?</p>",
+    "s": "<p>Talet är udda bara om sista siffran är 1: 1 val. Därefter 3 val för första och 2 för andra siffran: \\(3\\cdot2\\cdot1=6\\).</p><p><strong>Svar:</strong> 6 tal</p>",
+    "id": "1.734",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Börja med den position som har ett villkor.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "räcker koderna?",
+    "poang": "1/0/0",
+    "t": "<p>Ett företag ska märka 2 844 skåp. Varje skåp ska få en bokstav (A–Z, alltså 26 bokstäver) följd av två siffror.</p><p>Hur många olika märkningar finns det?</p>",
+    "s": "<p>\\(26\\cdot10\\cdot10=2\\,600\\). Det räcker alltså inte till 2 844 skåp.</p><p><strong>Svar:</strong> 2 600 märkningar</p>",
+    "id": "1.735",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2600,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många val finns för bokstaven respektive varje siffra?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "telefonnummer med villkor",
+    "poang": "1/0/0",
+    "t": "<p>I ett land har telefonnummer 7 siffror, och den första siffran får inte vara 0 eller 1.</p><p>Hur många telefonnummer finns det?</p>",
+    "s": "<p>\\(8\\cdot10^6=8\\,000\\,000\\).</p><p><strong>Svar:</strong> 8 000 000 nummer</p>",
+    "id": "1.736",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8000000,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många siffror är tillåtna på första platsen?</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "koder med siffror och bokstäver",
+    "poang": "2/0/0",
+    "t": "<p>En kod består av tre tecken. Varje tecken är en siffra 0–9 eller en av alfabetets 29 bokstäver.</p><ol type=\"a\"><li>Hur många koder finns det om det första tecknet måste vara en bokstav?</li><li>Hur många koder finns det om det första tecknet inte får vara 0?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(29\\cdot39\\cdot39=44\\,109\\).</p><p><strong>Svar:</strong> 44 109 koder</p></li><li><p>\\(38\\cdot39\\cdot39=57\\,798\\).</p><p><strong>Svar:</strong> 57 798 koder</p></li></ol>",
+    "id": "1.737",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      44109,
+      57798
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En kod består av tre tecken. Varje tecken är en siffra 0–9 eller en av alfabetets 29 bokstäver.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många koder finns det om det första tecknet måste vara en bokstav?",
+        "t": "<p>En kod består av tre tecken. Varje tecken är en siffra 0–9 eller en av alfabetets 29 bokstäver.</p><p>Hur många koder finns det om det första tecknet måste vara en bokstav?</p>",
+        "s": "<p>\\(29\\cdot39\\cdot39=44\\,109\\).</p><p><strong>Svar:</strong> 44 109 koder</p>",
+        "ledtrad": "<p>Hur många tecken finns det totalt att välja bland?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många koder finns det om det första tecknet inte får vara 0?",
+        "t": "<p>En kod består av tre tecken. Varje tecken är en siffra 0–9 eller en av alfabetets 29 bokstäver.</p><p>Hur många koder finns det om det första tecknet inte får vara 0?</p>",
+        "s": "<p>\\(38\\cdot39\\cdot39=57\\,798\\).</p><p><strong>Svar:</strong> 57 798 koder</p>",
+        "ledtrad": "<p>Hur många tecken är tillåtna först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Det finns \\(10+29=39\\) tecken.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "registreringsskyltar",
+    "poang": "2/0/0",
+    "t": "<p>En registreringsskylt har tre bokstäver följda av tre siffror. Bortse från att vissa kombinationer inte används.</p><ol type=\"a\"><li>Hur många skyltar finns det om man använder 21 bokstäver?</li><li>Med 21 bokstäver vill man öka antalet skyltar genom att lägga till ett fjärde tecken som är en bokstav. Hur många skyltar blir det?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(21^3\\cdot10^3=9\\,261\\,000\\).</p><p><strong>Svar:</strong> 9 261 000 skyltar</p></li><li><p>\\(21^4\\cdot10^3=194\\,481\\,000\\).</p><p><strong>Svar:</strong> 194 481 000 skyltar</p></li></ol>",
+    "id": "1.738",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9261000,
+      194481000
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En registreringsskylt har tre bokstäver följda av tre siffror. Bortse från att vissa kombinationer inte används.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många skyltar finns det om man använder 21 bokstäver?",
+        "t": "<p>En registreringsskylt har tre bokstäver följda av tre siffror. Bortse från att vissa kombinationer inte används.</p><p>Hur många skyltar finns det om man använder 21 bokstäver?</p>",
+        "s": "<p>\\(21^3\\cdot10^3=9\\,261\\,000\\).</p><p><strong>Svar:</strong> 9 261 000 skyltar</p>",
+        "ledtrad": "<p>Multiplicera antalet val för varje tecken.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Med 21 bokstäver vill man öka antalet skyltar genom att lägga till ett fjärde tecken som är en bokstav. Hur många skyltar blir det?",
+        "t": "<p>En registreringsskylt har tre bokstäver följda av tre siffror. Bortse från att vissa kombinationer inte används.</p><p>Med 21 bokstäver vill man öka antalet skyltar genom att lägga till ett fjärde tecken som är en bokstav. Hur många skyltar blir det?</p>",
+        "s": "<p>\\(21^4\\cdot10^3=194\\,481\\,000\\).</p><p><strong>Svar:</strong> 194 481 000 skyltar</p>",
+        "ledtrad": "<p>Nu finns fyra bokstäver och tre siffror.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "C",
+    "typ": "palindromer",
+    "poang": "0/2/0",
+    "t": "<p>En palindrom läses likadant framifrån och bakifrån, till exempel RATAR eller FFAFF.</p><p>Hur många palindromer med 5 bokstäver kan bildas med det svenska alfabetets 29 bokstäver?</p>",
+    "s": "<p>De tre första bokstäverna bestämmer hela ordet, eftersom bokstav 4 och 5 måste vara samma som bokstav 2 och 1.</p><p>\\(29^3=24\\,389\\).</p><p><strong>Svar:</strong> 24 389 palindromer</p>",
+    "id": "1.741",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24389,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många av bokstäverna kan du välja fritt?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "E",
+    "typ": "mynt i rad med två sidor",
+    "poang": "2/1/0",
+    "t": "<p>En enkrona, en tvåkrona, en femkrona och en tiokrona läggs i rad.</p><ol type=\"a\"><li>På hur många sätt kan mynten ordnas?</li><li>På hur många sätt kan mynten läggas om man även tar hänsyn till om de visar krona eller klave?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4!=24\\).</p><p><strong>Svar:</strong> 24 sätt</p></li><li><p>Ordningen: \\(4!=24\\). Varje mynt kan ligga på 2 sätt: \\(2^4=16\\).</p><p>\\(24\\cdot16=384\\).</p><p><strong>Svar:</strong> 384 sätt</p></li></ol>",
+    "id": "1.743",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24,
+      384
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En enkrona, en tvåkrona, en femkrona och en tiokrona läggs i rad.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan mynten ordnas?",
+        "t": "<p>En enkrona, en tvåkrona, en femkrona och en tiokrona läggs i rad.</p><p>På hur många sätt kan mynten ordnas?</p>",
+        "s": "<p>\\(4!=24\\).</p><p><strong>Svar:</strong> 24 sätt</p>",
+        "ledtrad": "<p>Mynten är olika.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan mynten läggas om man även tar hänsyn till om de visar krona eller klave?",
+        "t": "<p>En enkrona, en tvåkrona, en femkrona och en tiokrona läggs i rad.</p><p>På hur många sätt kan mynten läggas om man även tar hänsyn till om de visar krona eller klave?</p>",
+        "s": "<p>Ordningen: \\(4!=24\\). Varje mynt kan ligga på 2 sätt: \\(2^4=16\\).</p><p>\\(24\\cdot16=384\\).</p><p><strong>Svar:</strong> 384 sätt</p>",
+        "ledtrad": "<p>Varje mynt har två sidor.</p>",
+        "niva": "E",
+        "poang": "1/1/0",
+        "traningsniva": 2
+      }
+    ],
+    "ledtrad": "<p>Använd multiplikationsprincipen.</p>",
+    "traningsniva": 2
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "C",
+    "typ": "resvägar fram och tillbaka",
+    "poang": "2/1/0",
+    "t": "<p>Mellan städerna A och B går fyra busslinjer och mellan B och C tre busslinjer.</p><ol type=\"a\"><li>På hur många sätt kan man resa från A till C via B?</li><li>På hur många sätt kan man resa från A till C via B och sedan tillbaka till A via B?</li><li>På hur många sätt kan man göra samma tur och retur om man inte får åka med samma busslinje två gånger?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(4\\cdot3=12\\).</p><p><strong>Svar:</strong> 12 sätt</p></li><li><p>\\(4\\cdot3\\cdot3\\cdot4=144\\).</p><p><strong>Svar:</strong> 144 sätt</p></li><li><p>A–B: 4, B–C: 3, C–B: 2 kvar, B–A: 3 kvar. \\(4\\cdot3\\cdot2\\cdot3=72\\).</p><p><strong>Svar:</strong> 72 sätt</p></li></ol>",
+    "id": "1.744",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      144,
+      72
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Mellan städerna A och B går fyra busslinjer och mellan B och C tre busslinjer.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan man resa från A till C via B?",
+        "t": "<p>Mellan städerna A och B går fyra busslinjer och mellan B och C tre busslinjer.</p><p>På hur många sätt kan man resa från A till C via B?</p>",
+        "s": "<p>\\(4\\cdot3=12\\).</p><p><strong>Svar:</strong> 12 sätt</p>",
+        "ledtrad": "<p>Välj linje för varje delsträcka.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan man resa från A till C via B och sedan tillbaka till A via B?",
+        "t": "<p>Mellan städerna A och B går fyra busslinjer och mellan B och C tre busslinjer.</p><p>På hur många sätt kan man resa från A till C via B och sedan tillbaka till A via B?</p>",
+        "s": "<p>\\(4\\cdot3\\cdot3\\cdot4=144\\).</p><p><strong>Svar:</strong> 144 sätt</p>",
+        "ledtrad": "<p>Resan har fyra delsträckor.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan man göra samma tur och retur om man inte får åka med samma busslinje två gånger?",
+        "t": "<p>Mellan städerna A och B går fyra busslinjer och mellan B och C tre busslinjer.</p><p>På hur många sätt kan man göra samma tur och retur om man inte får åka med samma busslinje två gånger?</p>",
+        "s": "<p>A–B: 4, B–C: 3, C–B: 2 kvar, B–A: 3 kvar. \\(4\\cdot3\\cdot2\\cdot3=72\\).</p><p><strong>Svar:</strong> 72 sätt</p>",
+        "ledtrad": "<p>Hur många linjer återstår på varje sträcka på hemvägen?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Använd multiplikationsprincipen för varje delsträcka.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "C",
+    "typ": "subtrahera förbjudna fall",
+    "poang": "0/2/0",
+    "t": "<p>Telefonnummer har sju siffror. De får inte börja på 0, och inte heller på 11, 90 eller 95.</p><p>Hur många telefonnummer finns det?</p>",
+    "s": "<p>Utan 0 först: \\(9\\cdot10^6\\). Nummer som börjar på 11, 90 eller 95: \\(3\\cdot10^5\\).</p><p>\\(9\\,000\\,000-300\\,000=8\\,700\\,000\\).</p><p><strong>Svar:</strong> 8 700 000 nummer</p>",
+    "id": "1.745",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8700000,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Räkna alla nummer som inte börjar på 0 och dra bort de förbjudna början.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "C",
+    "typ": "additionsprincipen med två fall",
+    "poang": "2/1/0",
+    "t": "<p>En klass har 12 tjejer och 20 killar. En ordförande och en sekreterare ska väljas, och ingen får ha båda posterna.</p><ol type=\"a\"><li>På hur många sätt kan posterna tillsättas med en kille och en tjej?</li><li>På hur många sätt kan posterna tillsättas med två killar?</li><li>På hur många sätt kan posterna tillsättas utan villkor?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Kille ordförande och tjej sekreterare: \\(20\\cdot12=240\\). Tvärtom: \\(12\\cdot20=240\\).</p><p>\\(240+240=480\\).</p><p><strong>Svar:</strong> 480 sätt</p></li><li><p>\\(20\\cdot19=380\\).</p><p><strong>Svar:</strong> 380 sätt</p></li><li><p>\\(32\\cdot31=992\\). Kontroll: \\(480+380+132=992\\).</p><p><strong>Svar:</strong> 992 sätt</p></li></ol>",
+    "id": "1.746",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      480,
+      380,
+      992
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En klass har 12 tjejer och 20 killar. En ordförande och en sekreterare ska väljas, och ingen får ha båda posterna.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan posterna tillsättas med en kille och en tjej?",
+        "t": "<p>En klass har 12 tjejer och 20 killar. En ordförande och en sekreterare ska väljas, och ingen får ha båda posterna.</p><p>På hur många sätt kan posterna tillsättas med en kille och en tjej?</p>",
+        "s": "<p>Kille ordförande och tjej sekreterare: \\(20\\cdot12=240\\). Tvärtom: \\(12\\cdot20=240\\).</p><p>\\(240+240=480\\).</p><p><strong>Svar:</strong> 480 sätt</p>",
+        "ledtrad": "<p>Vem är ordförande? Det finns två fall.</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan posterna tillsättas med två killar?",
+        "t": "<p>En klass har 12 tjejer och 20 killar. En ordförande och en sekreterare ska väljas, och ingen får ha båda posterna.</p><p>På hur många sätt kan posterna tillsättas med två killar?</p>",
+        "s": "<p>\\(20\\cdot19=380\\).</p><p><strong>Svar:</strong> 380 sätt</p>",
+        "ledtrad": "<p>Posterna är olika, så ordningen spelar roll.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "På hur många sätt kan posterna tillsättas utan villkor?",
+        "t": "<p>En klass har 12 tjejer och 20 killar. En ordförande och en sekreterare ska väljas, och ingen får ha båda posterna.</p><p>På hur många sätt kan posterna tillsättas utan villkor?</p>",
+        "s": "<p>\\(32\\cdot31=992\\). Kontroll: \\(480+380+132=992\\).</p><p><strong>Svar:</strong> 992 sätt</p>",
+        "ledtrad": "<p>Hur många elever finns det?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      }
+    ],
+    "ledtrad": "<p>Posterna är olika, så ordningen spelar roll.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "C",
+    "typ": "kombinationslås med villkor",
+    "poang": "0/1/0",
+    "t": "<p>Ett kombinationslås har en skiva med 60 positioner. Koden består av tre tal. Två tal i följd får inte vara lika, men det första och det tredje får vara lika.</p><p>Hur många koder finns det?</p>",
+    "s": "<p>\\(60\\cdot59\\cdot59=208\\,860\\).</p><p><strong>Svar:</strong> 208 860 koder</p>",
+    "id": "1.747",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 208860,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Hur många val finns för det andra och det tredje talet?</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "C",
+    "typ": "poster med villkor",
+    "poang": "1/1/0",
+    "t": "<p>En klubb har 30 män och 20 kvinnor. Klubben ska välja ordförande, sekreterare och kassör. Sekreteraren ska vara en man och kassören en kvinna.</p><p>På hur många sätt kan posterna tillsättas?</p>",
+    "s": "<p>Sekreterare: 30. Kassör: 20. Ordförande: någon av de 48 andra.</p><p>\\(30\\cdot20\\cdot48=28\\,800\\).</p><p><strong>Svar:</strong> 28 800 sätt</p>",
+    "id": "1.748",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28800,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tillsätt posterna med villkor först.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "mult_add_principen",
+    "niva": "A",
+    "typ": "tresiffriga tal med villkor",
+    "poang": "2/1/1",
+    "t": "<p>Man bildar tresiffriga tal av siffrorna 2, 4, 5 och 7. Samma siffra får användas flera gånger.</p><ol type=\"a\"><li>Hur många av talen är mindre än 700?</li><li>Hur många av talen är jämna?</li><li>Hur många av talen är primtal?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Första siffran 2, 4 eller 5: \\(3\\cdot4\\cdot4=48\\).</p><p><strong>Svar:</strong> 48 tal</p></li><li><p>Sista siffran 2 eller 4: \\(4\\cdot4\\cdot2=32\\).</p><p><strong>Svar:</strong> 32 tal</p></li><li><p>Ett primtal kan inte sluta på 2, 4 eller 5, så sista siffran är 7. Det ger 16 kandidater. Prövning visar att 227, 257, 277, 457, 547, 557, 577, 727 och 757 är primtal (247 = 13·19, 427 = 7·61, 447 = 3·149, 477 = 9·53, 527 = 17·31, 747 = 9·83 och 777 = 7·111 är det inte).</p><p><strong>Svar:</strong> 9 tal</p></li></ol>",
+    "id": "1.751",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Multiplikations- och additionsprincipen",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      48,
+      32,
+      9
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Man bildar tresiffriga tal av siffrorna 2, 4, 5 och 7. Samma siffra får användas flera gånger.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många av talen är mindre än 700?",
+        "t": "<p>Man bildar tresiffriga tal av siffrorna 2, 4, 5 och 7. Samma siffra får användas flera gånger.</p><p>Hur många av talen är mindre än 700?</p>",
+        "s": "<p>Första siffran 2, 4 eller 5: \\(3\\cdot4\\cdot4=48\\).</p><p><strong>Svar:</strong> 48 tal</p>",
+        "ledtrad": "<p>Vilka siffror kan stå först?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många av talen är jämna?",
+        "t": "<p>Man bildar tresiffriga tal av siffrorna 2, 4, 5 och 7. Samma siffra får användas flera gånger.</p><p>Hur många av talen är jämna?</p>",
+        "s": "<p>Sista siffran 2 eller 4: \\(4\\cdot4\\cdot2=32\\).</p><p><strong>Svar:</strong> 32 tal</p>",
+        "ledtrad": "<p>Vilken siffra avgör om ett tal är jämnt?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många av talen är primtal?",
+        "t": "<p>Man bildar tresiffriga tal av siffrorna 2, 4, 5 och 7. Samma siffra får användas flera gånger.</p><p>Hur många av talen är primtal?</p>",
+        "s": "<p>Ett primtal kan inte sluta på 2, 4 eller 5, så sista siffran är 7. Det ger 16 kandidater. Prövning visar att 227, 257, 277, 457, 547, 557, 577, 727 och 757 är primtal (247 = 13·19, 427 = 7·61, 447 = 3·149, 477 = 9·53, 527 = 17·31, 747 = 9·83 och 777 = 7·111 är det inte).</p><p><strong>Svar:</strong> 9 tal</p>",
+        "ledtrad": "<p>Vilken sista siffra är möjlig? Pröva sedan de kandidater som återstår.</p>",
+        "niva": "A",
+        "poang": "0/1/1",
+        "traningsniva": 4
+      }
+    ],
+    "ledtrad": "<p>Börja med den position som har ett villkor.</p>",
+    "traningsniva": 4
+  },
+  {
+    "kap": 1,
     "omr": "permutationer",
     "niva": "E",
     "typ": "permutationer – rutin",
@@ -38548,6 +39316,280 @@ window.BANKMATF1 = [
     ],
     "ledtrad": "<p>Skriv \\(P(n,k)\\) som en produkt av \\(k\\) faktorer.</p>",
     "traningsniva": 4
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "ord ur givna bokstäver med villkor",
+    "poang": "3/1/0",
+    "t": "<p>Man bildar ”ord” med fem bokstäver ur bokstäverna A, B, C, D, E, F och G.</p><ol type=\"a\"><li>Hur många ord kan bildas om varje bokstav får användas flera gånger?</li><li>Hur många ord kan bildas om ingen bokstav får användas mer än en gång?</li><li>Hur många ord kan bildas om C ska stå i mitten och ingen bokstav får användas mer än en gång?</li><li>Hur många ord kan bildas om det ska stå en vokal i mitten och ingen bokstav får användas mer än en gång?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(7^5=16\\,807\\).</p><p><strong>Svar:</strong> 16 807 ord</p></li><li><p>\\(7\\cdot6\\cdot5\\cdot4\\cdot3=2\\,520\\).</p><p><strong>Svar:</strong> 2 520 ord</p></li><li><p>Mitten är bestämd. De övriga fyra platserna fylls med 6 bokstäver: \\(6\\cdot5\\cdot4\\cdot3=360\\).</p><p><strong>Svar:</strong> 360 ord</p></li><li><p>Vokalerna är A och E: 2 val för mitten. Övriga platser: \\(6\\cdot5\\cdot4\\cdot3=360\\).</p><p>\\(2\\cdot360=720\\).</p><p><strong>Svar:</strong> 720 ord</p></li></ol>",
+    "id": "1.739",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      16807,
+      2520,
+      360,
+      720
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Man bildar ”ord” med fem bokstäver ur bokstäverna A, B, C, D, E, F och G.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många ord kan bildas om varje bokstav får användas flera gånger?",
+        "t": "<p>Man bildar ”ord” med fem bokstäver ur bokstäverna A, B, C, D, E, F och G.</p><p>Hur många ord kan bildas om varje bokstav får användas flera gånger?</p>",
+        "s": "<p>\\(7^5=16\\,807\\).</p><p><strong>Svar:</strong> 16 807 ord</p>",
+        "ledtrad": "<p>Hur många val finns för varje position?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många ord kan bildas om ingen bokstav får användas mer än en gång?",
+        "t": "<p>Man bildar ”ord” med fem bokstäver ur bokstäverna A, B, C, D, E, F och G.</p><p>Hur många ord kan bildas om ingen bokstav får användas mer än en gång?</p>",
+        "s": "<p>\\(7\\cdot6\\cdot5\\cdot4\\cdot3=2\\,520\\).</p><p><strong>Svar:</strong> 2 520 ord</p>",
+        "ledtrad": "<p>Hur många bokstäver finns kvar till varje position?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många ord kan bildas om C ska stå i mitten och ingen bokstav får användas mer än en gång?",
+        "t": "<p>Man bildar ”ord” med fem bokstäver ur bokstäverna A, B, C, D, E, F och G.</p><p>Hur många ord kan bildas om C ska stå i mitten och ingen bokstav får användas mer än en gång?</p>",
+        "s": "<p>Mitten är bestämd. De övriga fyra platserna fylls med 6 bokstäver: \\(6\\cdot5\\cdot4\\cdot3=360\\).</p><p><strong>Svar:</strong> 360 ord</p>",
+        "ledtrad": "<p>Placera C först.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "d",
+        "fraga": "Hur många ord kan bildas om det ska stå en vokal i mitten och ingen bokstav får användas mer än en gång?",
+        "t": "<p>Man bildar ”ord” med fem bokstäver ur bokstäverna A, B, C, D, E, F och G.</p><p>Hur många ord kan bildas om det ska stå en vokal i mitten och ingen bokstav får användas mer än en gång?</p>",
+        "s": "<p>Vokalerna är A och E: 2 val för mitten. Övriga platser: \\(6\\cdot5\\cdot4\\cdot3=360\\).</p><p>\\(2\\cdot360=720\\).</p><p><strong>Svar:</strong> 720 ord</p>",
+        "ledtrad": "<p>Vilka av bokstäverna är vokaler?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Börja med positioner som har villkor.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "ord med upprepade bokstäver",
+    "poang": "3/2/0",
+    "t": "<p>Man bildar ”ord” genom att använda alla bokstäverna i ett ord i ny ordning. Ordet behöver inte betyda något.</p><ol type=\"a\"><li>Hur många ord med 4 bokstäver kan bildas av bokstäverna i VÄGG?</li><li>Hur många ord med 6 bokstäver kan bildas av bokstäverna i PAPPAN?</li><li>Hur många ord med 9 bokstäver kan bildas av bokstäverna i MATEMATIK?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>\\(\\dfrac{4!}{2!}=12\\), eftersom de två G kan byta plats utan att ordet ändras.</p><p><strong>Svar:</strong> 12 ord</p></li><li><p>P finns 3 gånger och A 2 gånger: \\(\\dfrac{6!}{3!\\,2!}=60\\).</p><p><strong>Svar:</strong> 60 ord</p></li><li><p>M, A och T finns två gånger var: \\(\\dfrac{9!}{2!\\,2!\\,2!}=45\\,360\\).</p><p><strong>Svar:</strong> 45 360 ord</p></li></ol>",
+    "id": "1.740",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      60,
+      45360
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Man bildar ”ord” genom att använda alla bokstäverna i ett ord i ny ordning. Ordet behöver inte betyda något.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "Hur många ord med 4 bokstäver kan bildas av bokstäverna i VÄGG?",
+        "t": "<p>Man bildar ”ord” genom att använda alla bokstäverna i ett ord i ny ordning. Ordet behöver inte betyda något.</p><p>Hur många ord med 4 bokstäver kan bildas av bokstäverna i VÄGG?</p>",
+        "s": "<p>\\(\\dfrac{4!}{2!}=12\\), eftersom de två G kan byta plats utan att ordet ändras.</p><p><strong>Svar:</strong> 12 ord</p>",
+        "ledtrad": "<p>Hur många gånger räknas varje ord om man först behandlar de två G som olika?</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2
+      },
+      {
+        "etikett": "b",
+        "fraga": "Hur många ord med 6 bokstäver kan bildas av bokstäverna i PAPPAN?",
+        "t": "<p>Man bildar ”ord” genom att använda alla bokstäverna i ett ord i ny ordning. Ordet behöver inte betyda något.</p><p>Hur många ord med 6 bokstäver kan bildas av bokstäverna i PAPPAN?</p>",
+        "s": "<p>P finns 3 gånger och A 2 gånger: \\(\\dfrac{6!}{3!\\,2!}=60\\).</p><p><strong>Svar:</strong> 60 ord</p>",
+        "ledtrad": "<p>Dela \\(6!\\) med antalet sätt att ordna varje upprepad bokstav.</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "c",
+        "fraga": "Hur många ord med 9 bokstäver kan bildas av bokstäverna i MATEMATIK?",
+        "t": "<p>Man bildar ”ord” genom att använda alla bokstäverna i ett ord i ny ordning. Ordet behöver inte betyda något.</p><p>Hur många ord med 9 bokstäver kan bildas av bokstäverna i MATEMATIK?</p>",
+        "s": "<p>M, A och T finns två gånger var: \\(\\dfrac{9!}{2!\\,2!\\,2!}=45\\,360\\).</p><p><strong>Svar:</strong> 45 360 ord</p>",
+        "ledtrad": "<p>Vilka bokstäver förekommer mer än en gång?</p>",
+        "niva": "C",
+        "poang": "1/1/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Dela med antalet sätt att byta plats på likadana bokstäver.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "ordningar av faktorer",
+    "poang": "1/1/0",
+    "t": "<p>Produkten \\(a^2b^3c^4\\) skrivs utan exponenter som en produkt av nio faktorer, till exempel \\(aabbbcccc\\) eller \\(abcabcbcc\\).</p><p>På hur många olika sätt kan faktorerna ordnas?</p>",
+    "s": "<p>Det är antalet ord med två a, tre b och fyra c: \\(\\dfrac{9!}{2!\\,3!\\,4!}=1\\,260\\).</p><p><strong>Svar:</strong> 1 260 sätt</p>",
+    "id": "1.742",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordnade urval",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1260,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Tänk på produkten som ett ord med nio bokstäver.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "grupper och varannan",
+    "poang": "0/4/0",
+    "t": "<p>Fyra kvinnor och fyra män ska sätta sig på en rad med 8 stolar.</p><ol type=\"a\"><li>På hur många sätt kan de sätta sig om kvinnorna ska sitta tillsammans och männen tillsammans?</li><li>På hur många sätt kan de sätta sig om det ska vara varannan kvinna och varannan man?</li></ol>",
+    "s": "<ol type=\"a\"><li><p>Kvinnorna till vänster eller till höger: 2. Inom grupperna: \\(4!\\cdot4!\\).</p><p>\\(2\\cdot24\\cdot24=1\\,152\\).</p><p><strong>Svar:</strong> 1 152 sätt</p></li><li><p>Raden börjar med en kvinna eller en man: 2. Ordna kvinnorna och männen: \\(4!\\cdot4!\\).</p><p>\\(2\\cdot24\\cdot24=1\\,152\\).</p><p><strong>Svar:</strong> 1 152 sätt</p></li></ol>",
+    "id": "1.749",
+    "miniräknare": false,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1152,
+      1152
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Fyra kvinnor och fyra män ska sätta sig på en rad med 8 stolar.</p>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "På hur många sätt kan de sätta sig om kvinnorna ska sitta tillsammans och männen tillsammans?",
+        "t": "<p>Fyra kvinnor och fyra män ska sätta sig på en rad med 8 stolar.</p><p>På hur många sätt kan de sätta sig om kvinnorna ska sitta tillsammans och männen tillsammans?</p>",
+        "s": "<p>Kvinnorna till vänster eller till höger: 2. Inom grupperna: \\(4!\\cdot4!\\).</p><p>\\(2\\cdot24\\cdot24=1\\,152\\).</p><p><strong>Svar:</strong> 1 152 sätt</p>",
+        "ledtrad": "<p>Vilken grupp sitter till vänster? Ordna sedan inom grupperna.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      },
+      {
+        "etikett": "b",
+        "fraga": "På hur många sätt kan de sätta sig om det ska vara varannan kvinna och varannan man?",
+        "t": "<p>Fyra kvinnor och fyra män ska sätta sig på en rad med 8 stolar.</p><p>På hur många sätt kan de sätta sig om det ska vara varannan kvinna och varannan man?</p>",
+        "s": "<p>Raden börjar med en kvinna eller en man: 2. Ordna kvinnorna och männen: \\(4!\\cdot4!\\).</p><p>\\(2\\cdot24\\cdot24=1\\,152\\).</p><p><strong>Svar:</strong> 1 152 sätt</p>",
+        "ledtrad": "<p>Vem sitter först? Därefter är det bestämt vilka platser som är kvinnornas.</p>",
+        "niva": "C",
+        "poang": "0/2/0",
+        "traningsniva": 3
+      }
+    ],
+    "ledtrad": "<p>Bestäm först mönstret och ordna sedan personerna.</p>",
+    "traningsniva": 3
+  },
+  {
+    "kap": 1,
+    "omr": "permutationer",
+    "niva": "C",
+    "typ": "böcker i två grupper",
+    "poang": "1/1/0",
+    "t": "<p>Elisabeth har 8 olika kemiböcker och 5 olika matematikböcker. Hon ställer dem i en rad så att kemiböckerna står för sig och matematikböckerna för sig.</p><p>På hur många sätt kan hon ställa böckerna?</p>",
+    "s": "<p>Vilken grupp står först: 2. Kemiböckerna: \\(8!\\). Matematikböckerna: \\(5!\\).</p><p>\\(2\\cdot8!\\cdot5!=9\\,676\\,800\\).</p><p><strong>Svar:</strong> 9 676 800 sätt</p>",
+    "id": "1.750",
+    "miniräknare": true,
+    "geogebra": false,
+    "familj": "Permutationer och ordningar med placeringsvillkor",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9676800,
+    "tolerans": 0,
+    "självrättning": true,
+    "formaga": [
+      "procedur"
+    ],
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Ordna inom varje grupp och glöm inte gruppernas ordning.</p>",
+    "traningsniva": 3
   },
   {
     "kap": 1,

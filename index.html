@@ -2141,6 +2141,8 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .aklass-antal{margin-left:auto;font-size:12px;color:var(--ink3);font-weight:600}
 .aklass-verktyg{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:4px 0 10px;border-bottom:1px solid var(--hair);margin-bottom:4px}
 .admin-sok.aklass-ordning{flex:0 0 80px;min-width:0}
+.larklassrad{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px;font-size:13.5px;color:var(--ink2)}
+.klassdolda{margin:8px 4px 2px;font-size:12.5px;color:var(--ink3)}
 .aklass-elev{display:flex;align-items:center;gap:10px;justify-content:space-between;padding:8px 0;border-top:1px solid var(--hair)}
 .aklass-elev:first-of-type{border-top:0}
 .aklass-elev span{min-width:0;display:grid}
@@ -4067,10 +4069,12 @@ async function vaxlaKlassElever(id){
   const d=await klassRpc("topplista_klass_elever",{p_klass:id,p_period:state.toppSort},true);
   const rader=Array.isArray(d?.rader)?d.rader:null;
   box.innerHTML = !rader ? `<div class="empty">Kunde inte hämta klassen just nu.</div>`
-    : !rader.length ? `<div class="empty">Ingen i klassen har valt att synas på topplistan.</div>`
-    : `<ol class="klasselever">${rader.map((r,i)=>`<li class="${profile.namn&&r.namn===profile.namn?"jag":""}">
+    : (rader.length ? `<ol class="klasselever">${rader.map((r,i)=>`<li class="${profile.namn&&r.namn===profile.namn?"jag":""}">
         <span class="plats">${i+1}</span><span class="knamn">${esc(r.namn)}</span>
-        <span class="kuppg">${Number(r.uppgifter)||0} uppg.</span><span class="kxp">${Number(r.xp)||0} XP</span></li>`).join("")}</ol>`;
+        <span class="kuppg">${Number(r.uppgifter)||0} uppg.</span><span class="kxp">${Number(r.xp)||0} XP</span></li>`).join("")}</ol>`
+        : `<div class="empty">Ingen i klassen har valt att synas på topplistan.</div>`)
+      + (Number(d.dolda)>0 ? `<p class="klassdolda">${Number(d.dolda)===1?"En elev":Number(d.dolda)+" elever"} till syns inte med namn${
+          Number(d.dolda_aktiva)>0?`, varav ${Number(d.dolda_aktiva)} har tränat`:""}. De räknas ändå in i klassens poäng.</p>` : "");
 }
 
 /* ===== Nyheter =====
@@ -13164,6 +13168,8 @@ async function larRitaGrupp(){
       <button class="vaxel larsynlig${g.synlig!==false?" pa":""}" role="switch" aria-checked="${g.synlig!==false?"true":"false"}" onclick="larVaxlaSynlig(this)">
         <span class="vtext">Synlig i skolans lista, så att eleverna kan gå med utan kod</span>
         <span class="vspar" aria-hidden="true"><i></i></span></button>
+      <div class="larklassrad"><span>Klass på topplistan: <b>${g.klass?esc(g.klass.namn):"ingen"}</b></span>
+        <button class="btn sm quiet" onclick="larGruppKlass()">${g.klass?"Byt klass":"Koppla till klass"}</button></div>
     </div>
     <div class="toppvy" role="tablist">
       <button class="${sub==="elever"?"pa":""}" onclick="state.larGruppFlik='elever';larRitaGrupp()">Elever</button>
@@ -14488,6 +14494,74 @@ function raknTolka(txt){
   const v=uttryck();
   if(p<tok.length) throw tok[p].t===")"?"För många parenteser":"Syntaxfel";
   return v;
+}
+/* ── Lärarens grupp: klass på topplistan ──
+   Läraren kopplar gruppen till en klass. Alla i gruppen läggs i klassen, och
+   nya elever som går med i gruppen hamnar där automatiskt. Databasdelen finns
+   i sql/2026-10-06-grupp-klass.sql. */
+async function larGruppKlass(){
+  const g=larGrupp(); if(!g) return;
+  document.getElementById("larklassruta")?.remove();
+  const r=await klassRpc("kg_klasser");
+  const klasser=(Array.isArray(r)?r:[]).filter(k=>!k.larare);
+  const vald=g.klass?.id;
+  // "Te25B - Fysik 1" föreslår klassen "Te25B".
+  const forslag=String(g.namn).split(/\s+[-–—]\s+|\s*:\s+/)[0].trim().slice(0,30);
+  const samma=klasser.find(k=>k.namn.toLowerCase()===forslag.toLowerCase());
+  const el=document.createElement("div");
+  el.className="modal"; el.id="larklassruta";
+  el.innerHTML=`<div class="modal-kort" role="dialog" aria-modal="true" aria-labelledby="larklass-rubrik" style="width:min(480px,100%)">
+      <div class="modal-topp"><div><div class="lbl">${esc(g.namn)}</div><h2 id="larklass-rubrik">Klass på topplistan</h2></div>
+        <button class="iconbtn" onclick="stangModal('larklassruta')" aria-label="Stäng">✕</button></div>
+      <p class="modal-text">Alla elever i gruppen läggs i klassen. Även de som inte syns med namn på topplistan räknas in i klassens poäng.
+        Nya elever som går med i gruppen hamnar i klassen automatiskt. Eleverna kan själva byta klass efteråt.</p>
+      <div class="provform">
+        <label class="provfalt"><span>Klass</span>
+          <select class="admin-sok" id="larklass-val" onchange="document.getElementById('larklass-nyfalt').hidden=this.value!=='ny'">
+            ${klasser.map(k=>`<option value="${Number(k.id)}"${Number(k.id)===Number(vald)?" selected":""}>${esc(k.namn)}</option>`).join("")}
+            <option value="ny">Ny klass …</option>
+          </select></label>
+        <label class="provfalt" id="larklass-nyfalt"><span>Namn på den nya klassen</span>
+          <input class="admin-sok" id="larklass-namn" maxlength="30" value="${esc(forslag)}" placeholder="t.ex. Te25B"></label>
+      </div>
+      <div class="kodhjalp" id="larklass-hjalp"></div>
+      <div class="modal-fot">
+        ${vald?`<button class="btn quiet" onclick="larSparaGruppKlass(true)">Ta bort kopplingen</button>`:""}
+        <span class="spacer"></span>
+        <button class="btn" onclick="stangModal('larklassruta')">Avbryt</button>
+        <button class="btn primary" onclick="larSparaGruppKlass()">Koppla</button></div>
+    </div>`;
+  document.body.appendChild(el);
+  // Utan koppling: klassen med det föreslagna namnet om den finns, annars "Ny klass".
+  const sel=el.querySelector("#larklass-val");
+  if(!vald) sel.value=samma?String(samma.id):"ny";
+  el.querySelector("#larklass-nyfalt").hidden=sel.value!=="ny";
+  el.addEventListener("click",e=>{ if(e.target===el) stangModal("larklassruta"); });
+  requestAnimationFrame(()=>el.classList.add("visa"));
+}
+async function larSparaGruppKlass(taBort){
+  const g=larGrupp(); if(!g) return;
+  const h=document.getElementById("larklass-hjalp");
+  const fel=t=>{ if(h){ h.textContent=t; h.className="kodhjalp fel"; } };
+  let kropp={p_grupp:g.id,p_klass:null,p_namn:null};
+  if(!taBort){
+    const v=document.getElementById("larklass-val")?.value;
+    if(v==="ny"){
+      const namn=(document.getElementById("larklass-namn")?.value||"").trim();
+      if(namn.length<2) return fel("Skriv ett namn på klassen.");
+      kropp.p_namn=namn;
+    }else kropp.p_klass=Number(v);
+  }
+  const r=await klassRpc("kg_lar_grupp_klass",kropp);
+  if(r?.saknas) return fel("Funktionen är inte aktiverad i databasen än.");
+  if(!r?.ok) return fel({namn:"Namnet får vara 2–30 tecken: bokstäver, siffror, mellanslag och . _ ( ) -",
+    lararklass:"Lärarklassen kan inte väljas.",okand_klass:"Klassen finns inte längre."}[r?.code]||"Kunde inte koppla gruppen.");
+  g.klass=r.klass||null;
+  stangModal("larklassruta");
+  state.minKlass=undefined;
+  if(!g.klass) toast("Kopplingen är borttagen. Eleverna ligger kvar i klassen.");
+  else toast(`${Number(r.elever)||0} elever ligger nu i ${g.klass.namn}${r.flyttade?` (${r.flyttade} flyttades)`:""}. Nya elever hamnar där automatiskt.`);
+  larRitaGrupp();
 }
 </script>
 </body>

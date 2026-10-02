@@ -2141,6 +2141,28 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .aklass-antal{margin-left:auto;font-size:12px;color:var(--ink3);font-weight:600}
 .aklass-verktyg{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:4px 0 10px;border-bottom:1px solid var(--hair);margin-bottom:4px}
 .admin-sok.aklass-ordning{flex:0 0 80px;min-width:0}
+.kvtopp{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.kvtopp select{width:auto;min-width:220px}
+.kvvisaok{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink2)}
+.kvchips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px}
+.kvchips button{border:1px solid var(--hair);background:var(--surface);color:var(--ink2);border-radius:999px;padding:5px 11px;font:600 12.5px var(--ui);cursor:pointer}
+.kvchips button.pa{background:var(--accSoft);color:var(--accInk);border-color:transparent}
+.kvkurs{margin:16px 0 6px;font-size:15px}
+.kvfynd{border-top:1px solid var(--hair);padding:8px 0}
+.kvfynd.kvok{opacity:.55}
+.kvrad{display:flex;gap:10px;justify-content:space-between;align-items:flex-start}
+.kvrad>span:first-child{display:grid;gap:3px;min-width:0}
+.kvrad small{font-size:12.5px;color:var(--ink3);line-height:1.45;word-break:break-word}
+.kvknappar{display:flex;gap:6px;flex:none}
+.kvtyp{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;font-size:11.5px;font-weight:700;background:var(--surface2);color:var(--ink2)}
+.kvtyp-facit{background:var(--badSoft);color:var(--bad)}
+.kvtyp-figur{background:var(--warnSoft);color:var(--warn)}
+.kvtyp-plural{background:var(--accSoft);color:var(--accInk)}
+.kvtyp-raknare{background:var(--goodSoft);color:var(--good)}
+.kvvisa{margin:10px 0 4px;padding:12px 14px;border-radius:14px;background:var(--surface2);border:1px solid var(--hair)}
+.kvuppgift{font-size:14px}
+.kvuppgift svg{max-width:100%;height:auto}
+.kvfacit{margin:8px 0 0;font-size:12.5px;color:var(--ink2);word-break:break-word}
 .larklassrad{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px;font-size:13.5px;color:var(--ink2)}
 .klassdolda{margin:8px 4px 2px;font-size:12.5px;color:var(--ink3)}
 .aklass-elev{display:flex;align-items:center;gap:10px;justify-content:space-between;padding:8px 0;border-top:1px solid var(--hair)}
@@ -3783,7 +3805,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-01-matf1-moment";
+const BANK_VERSION="2026-10-02-kvalitet";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -5681,6 +5703,7 @@ function kgAdminRita(){
       <button class="${kgAdminFlik==="klasser"?"pa":""}" onclick="kgAdminBytFlik('klasser')">Klasser</button>
       <button class="${kgAdminFlik==="larare"?"pa":""}" onclick="kgAdminBytFlik('larare')">Lärare</button>
       <button class="${kgAdminFlik==="skolor"?"pa":""}" onclick="kgAdminBytFlik('skolor')">Skolor</button>
+      <button class="${kgAdminFlik==="kvalitet"?"pa":""}" onclick="kgAdminBytFlik('kvalitet')">Kvalitet</button>
     </div>
     <div id="adminlista"></div>
     <div class="admin-notis">Online nu betyder heartbeat under de senaste två minuterna. Dagsstatistik använder svensk kalenderdag. Aktiv tid är en uppskattning från synliga heartbeat-signaler och räknas därför inte som exakt skärmtid.${har?"":" Kör SQL-filen för adminstatistik v8 för att börja samla dagsstatistik."}</div>`;
@@ -5770,6 +5793,7 @@ function kgAdminRitaLista(){
   if(kgAdminFlik==="klasser"){ kgAdminRitaKlasser(host); return; }
   if(kgAdminFlik==="larare"){ kgAdminRitaLarare(host); return; }
   if(kgAdminFlik==="skolor"){ kgAdminRitaSkolor(host); return; }
+  if(kgAdminFlik==="kvalitet"){ kvRita(); return; }
   if(kgAdminFlik==="anvandare"){
     const gammal=document.getElementById("admin-sok")?.value||"";
     const q=gammal.trim().toLowerCase();
@@ -9026,7 +9050,10 @@ function intervallAv(x){
     const n="[+-]?(?:\\d+(?:\\.\\d+)?|\\.\\d+)";
     if(new RegExp("^"+n+"$").test(t))return Number(t);
     const f=t.match(new RegExp("^("+n+")/("+n+")$"));
-    return f&&Number(f[2])!==0?Number(f[1])/Number(f[2]):NaN;
+    if(f) return Number(f[2])!==0?Number(f[1])/Number(f[2]):NaN;
+    /* Exakta värden som √2, π/2 och -5/2 i parentes. */
+    if(isPureNumberExpression(t)){ const v=numericValue(tillNerdamer(normalizeMathInput(t))); if(Number.isFinite(v)) return v; }
+    return NaN;
   };
   const giltigt=r=>!Number.isNaN(r.min)&&!Number.isNaN(r.max)
     &&r.min!==Infinity&&r.max!==-Infinity&&r.min<=r.max
@@ -9350,7 +9377,25 @@ function rotListaRatt(anv,facit,tol){
   return lu.some(u=>lf.some(f=>lika(u,f))) ? true : null;
 }
 
+/* Svaret utan en avslutande enhet som är exakt facits enhet ("4π cm" → "4π"). */
+function utanEnhet(anv,enhet){
+  const e=String(enhet||"").trim(); if(!e) return null;
+  const p=e.split(/[·⋅*]/).map(d=>d.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")
+             .replace(/²/g,"(?:²|\\^2)").replace(/³/g,"(?:³|\\^3)").replace(/\s+/g,"\\s*")).join("[·⋅* ]?");
+  const m=String(anv).match(new RegExp("^(.*?\\S)\\s*"+p+"\\s*$"));
+  return m && m[1].trim() ? m[1] : null;
+}
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  /* Facit skrivet i LaTeX jämförs i samma form som eleven skriver. */
+  if(typeof facit==="string" && /\\[a-zA-Z]/.test(facit)){
+    const p=latexToPlain(facit);
+    if(p && !/\\[a-zA-Z]/.test(p)) facit=p;
+  }
+  /* Med facits enhet utskriven efter svaret, även när svaret är ett uttryck. */
+  if(typeof enhet==="string" && enhet.trim()){
+    const utan=utanEnhet(anv,enhet);
+    if(utan!==null && delSvarRatt(utan,facit,null,tol,t,idx,format)) return true;
+  }
   const meta={format,tolerans:tol,enhet};
   /* Alla primitiva funktioner (facit slutar på +C): konstanten får heta något annat, t.ex. +K eller +D. */
   if(/\+\s*C\s*(?:\\\))?\s*$/.test(String(facit)) && /\+\s*[A-DF-WYZa-df-wyz]\s*$/.test(String(anv)))
@@ -9631,8 +9676,13 @@ function latexToPlain(s){
   x=x.replace(/<[^>]+>/g," ");
 
   x=x.replace(/\\\(|\\\)|\\\[|\\\]|\$\$/g,"");
+  /* Jämförelsetecken först, innan \sqrt2 och liknande skrivs om ("\le\sqrt2"). */
+  x=x.replace(/\\(?:leq?|leqslant)(?![a-zA-Z])/g,"≤").replace(/\\(?:geq?|geqslant)(?![a-zA-Z])/g,"≥");
+  x=x.replace(/\\lt(?![a-zA-Z])/g,"<").replace(/\\gt(?![a-zA-Z])/g,">").replace(/\\neq?(?![a-zA-Z])/g,"≠");
+  x=x.replace(/\\pm(?![a-zA-Z])/g,"±").replace(/\\infty(?![a-zA-Z])/g,"∞");
 
   for(let i=0;i<4;i++){
+    x=x.replace(/\^\s*\{([^{}]*)\}/g,"^($1)");   // exponenter först, så att \frac{e^{x}}{2} kan läsas
     x=x.replace(/\\frac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"(($1)/($2))");
     x=x.replace(/\\dfrac\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"(($1)/($2))");
     x=x.replace(/\\sqrt\s*\{([^{}]+)\}/g,"sqrt($1)");
@@ -14584,6 +14634,343 @@ async function larSparaGruppKlass(taBort){
   if(!g.klass) toast("Kopplingen är borttagen. Eleverna ligger kvar i klassen.");
   else toast(`${Number(r.elever)||0} elever ligger nu i ${g.klass.namn}${r.flyttade?` (${r.flyttade} flyttades)`:""}. Nya elever hamnar där automatiskt.`);
   larRitaGrupp();
+}
+/* ===== Kvalitetsgranskning av uppgiftsbankerna (admin) =====
+   Kör fyra kontroller mot det eleverna faktiskt möter (korten efter
+   expandGameTask) och med appens egen rättning och ritning:
+     facit    facit godkänns inte mot sig självt, utan LaTeX, med enhet
+              eller i omkastad ordning
+     figur    etiketter som krockar med linjer, cirklar eller varandra,
+              eller hamnar utanför bilden
+     plural   kortinledning i plural fast kortet bara visar en deluppgift
+     raknare  miniräknare saknas där den behövs (fysik alltid; matte vid
+              jobbig huvudräkning eller digitalt verktyg). Bör ses över, inte
+              automatiskt fel.
+   Fynd som admin markerar som OK sparas i kg_private.kvalitet_ok
+   (sql/2026-10-07-kvalitet.sql) och visas igen bara om fyndet ändras. */
+const KV_KONTROLL={
+  facit:  {txt:"Facit godkänns inte",       kort:"facit"},
+  figur:  {txt:"Figur med krockande etiketter", kort:"figur"},
+  plural: {txt:"Kortinledning i plural",    kort:"plural"},
+  raknare:{txt:"Miniräknare bör ses över",  kort:"miniräknare"}
+};
+/* Matteuppgifter som redan är granskade och ska vara utan miniräknare (2026-10-02). */
+const KV_RAKNARE_GRANSKADE=new Set(["ma1:0.40","ma1:0.49","ma1:0.58","ma1:0.61","ma1:0.67","ma1:0.73","ma1:0.88","ma1:0.94","ma1:0.100","ma1:0.103","ma1:0.176","ma1:0.177","ma1:0.178","ma1:0.179","ma1:0.180","ma1:0.181","ma1:0.182","ma1:0.183","ma1:0.184","ma1:0.185","ma1:0.186","ma1:0.189","ma1:0.190","ma1:0.191","ma1:0.192","ma1:0.197","ma1:0.212","ma1:0.213","ma1:0.214","ma1:0.215","ma1:0.216","ma1:0.217","ma1:0.218","ma1:0.219","ma1:0.220","ma1:0.221","ma1:0.222","ma1:0.223","ma1:0.224","ma1:0.225","ma1:0.226","ma1:0.227","ma1:0.229","ma1:0.230","ma1:0.231","ma1:0.236","ma1:0.237","ma1:0.238","ma1:0.239","ma1:0.240","ma1:0.241","ma1:0.242","ma1:0.243","ma1:0.244","ma1:0.245","ma1:0.246","ma1:0.247","ma1:0.249","ma1:0.250","ma1:0.251","ma1:0.309","ma1:0.311","ma1:0.312","ma1:0.331","ma1:0.333","ma1:0.410","ma1:0.415","ma1:0.416","ma1:0.421","ma1:0.422","ma1:0.502","ma1:0.503","ma1:0.506","ma1:0.507","ma1:0.508","ma1:0.509","ma1:0.510","ma1:0.514","ma1:0.515","ma1:0.517","ma1:0.520","ma1:0.521","ma1:0.522","ma1:0.523","ma1:0.524","ma1:0.525","ma1:0.528","ma1:0.529","ma1:0.532","ma1:0.533","ma1:0.534","ma1:0.535","ma1:0.537","ma1:0.538","ma1:0.539","ma1:0.542","ma1:0.545","ma1:0.546","ma1:0.547","ma1:0.548","ma1:0.549","ma1:0.550","ma1:0.552","ma1:0.560","ma1:0.561","ma1:0.562","ma1:0.565","ma1:0.569","ma1:0.570","ma1:0.572","ma1:0.580","ma1:0.581","ma1:0.603","ma1:0.604","ma1:0.605","ma1:0.606","ma1:0.607","ma1:0.608","ma1:0.609","ma1:0.610","ma1:0.611","ma1:0.612","ma1:0.613","ma1:0.614","ma1:0.615","ma1:0.616","ma1:0.617","ma1:0.618","ma1:0.619","ma1:0.620","ma1:0.621","ma1:0.622","ma1:0.710","ma1:0.717","ma1:0.718","ma1:0.719","ma1:0.720","ma1:0.721","ma1:0.722","ma1:0.723","ma1:0.724","ma1:0.725","ma1:0.726","ma1:0.727","ma1:0.728","ma1:0.729","ma1:0.730","ma1:0.731","ma1:0.740","ma1:0.744","ma1:0.752","ma1:0.753","ma1:0.778","ma1:2.138","ma1:3.77","ma1:3.142","ma1:3.244","ma1:3.406","ma1:3.476","ma1:3.477","ma1:3.512","ma1:3.517","ma1:5.22","ma1:5.181","ma1:5.284","ma1:5.470","ma1:5.480","ma1:5.490","ma1:5.534","ma1:5.556","ma1:6.01","ma1:6.31","ma1:6.138","ma1:6.410","ma1:6.415","ma1:1.1113","ma1:7.28","ma1:7.68","ma1:7.110","ma1:7.112","ma1:7.115","ma1:7.117","ma1:7.182","ma1:7.451","ma1:7.500","ma1:7.508","ma1:7.509","ma1:0.811","ma1:0.885","ma1:0.886","ma1:0.896","ma1:0.899","ma1:0.900","ma1:0.901","ma1:0.902","ma1:0.904","ma1:0.905","ma1:0.906","ma1:0.907","ma1:0.908","ma1:0.911","ma1:0.913","ma1:0.914","ma1:0.959","ma1:0.995","ma1:0.996","ma1:0.998","ma1:0.999","ma1:0.1000","ma1:0.1001","ma1:0.1003","ma1:0.1005","ma1:0.1043","ma1:0.1047","ma1:0.1052","ma1:0.1053","ma1:0.1054","ma2:2.483","ma2:4.254","mato1:2.60","mato1:2.95","mato1:2.100","mato1:3.591","mato1:3.819","mato1:3.820","mato2:1.494","mato2:2.574","mato2:2.567","mato2:2.570","matf1:1.62","matf1:2.169","matf1:2.380","matf1:3.18","matf1:3.26","matf1:3.118","matf1:4.133","matf1:3.278","matf1:3.279","matf1:4.510"]);
+const kv={kurs:"alla",fynd:null,ok:new Map(),kor:false,filter:null,visaOk:false,visaSma:false,status:""};
+
+function kvSignatur(s){
+  let h=5381; s=String(s);
+  for(let i=0;i<s.length;i++) h=((h<<5)+h+s.charCodeAt(i))|0;
+  return (h>>>0).toString(36);
+}
+function kvText(html){
+  return String(html||"").replace(/<svg[\s\S]*?<\/svg>/g," ").replace(/<[^>]+>/g," ").replace(/\s+/g," ").trim();
+}
+function kvMatte(kurs){ return COURSES[kurs]?.subject==="Matematik"; }
+
+/* ── Kontroll 1: facit ── */
+function kvFacit(q){
+  const fel=[];
+  let info, layout;
+  try{ info=expectedAnswersForTask(q); layout=answerLayout(q); }catch(e){ return [`kan inte läsa facit (${e.message})`]; }
+  if(!info.auto) return fel;
+  const prova=(anv,f,enh,tol,i,fmt,vad)=>{
+    let ok=false;
+    try{ ok=delSvarRatt(anv,f,enh,tol,q,i,fmt); }catch(e){ fel.push(`${vad}: fel i rättningen (${e.message})`); return; }
+    if(!ok) fel.push(`${vad}: "${String(anv).slice(0,60)}" godkänns inte`);
+  };
+  const delar=[];
+  if(layout.plan){
+    layout.plan.delar.forEach((d,di)=>{ if(d.auto) d.svar.forEach((v,j)=>delar.push({v,enh:d.enhet[j],tol:d.tol[j],fmt:d.format[j],i:j,namn:"del "+String.fromCharCode(97+di)})); });
+  }else{
+    info.answers.forEach((v,i)=>{
+      if(layout.delAuto && !layout.delAuto[i]) return;
+      delar.push({v,i,namn:info.answers.length>1?"svar "+(i+1):"svar",
+        enh:Array.isArray(q.svarEnhet)?q.svarEnhet[i]:q.svarEnhet,
+        tol:Array.isArray(q.tolerans)?q.tolerans[i]:q.tolerans,
+        fmt:Array.isArray(q.svarFormat)?q.svarFormat[i]:q.svarFormat});
+    });
+  }
+  delar.forEach(d=>{
+    if(d.v===null || d.v===undefined || d.v==="") return;
+    const v=String(d.v);
+    // Eleven skriver inte LaTeX: ett LaTeX-facit provas i den vanliga text eleven skriver.
+    if(/\\[a-zA-Z(]/.test(v)){
+      const plain=latexToPlain(v);
+      prova(plain||v,d.v,d.enh,d.tol,d.i,d.fmt,d.namn+" (utan LaTeX)");
+    }else prova(v,d.v,d.enh,d.tol,d.i,d.fmt,d.namn);
+    // Med enheten utskriven. Är svaret en bokstav eller en skala är det enheten som ser felaktig ut.
+    if(d.enh && typeof d.enh==="string"){
+      if(/^[A-Za-zÅÄÖåäö]$/.test(v.trim()) || /^\d+\s*:\s*\d+$/.test(v.trim()) || ["kort_text","val","text"].includes(d.fmt))
+        fel.push(`${d.namn}: enheten "${d.enh}" är angiven men svaret är "${v.slice(0,30)}"`);
+      else prova(v+" "+d.enh,d.v,d.enh,d.tol,d.i,d.fmt,d.namn+" med enhet");
+    }
+    // Lösningsmängder i omkastad ordning.
+    try{
+      const l=rotListor(d.v);
+      if(l.length && l.every(x=>x.length>1)){
+        const omv="x = "+[...l[0]].reverse().map(x=>String(+x.toFixed(6)).replace(".",",")).join(", ");
+        prova(omv,d.v,d.enh,d.tol,d.i,d.fmt,d.namn+" omkastad");
+      }
+    }catch(_){}
+  });
+  return fel;
+}
+
+/* ── Kontroll 2: figurer ── */
+function kvLjus(farg){
+  const m=String(farg||"").trim().match(/^#([0-9a-f]{3}|[0-9a-f]{6})$/i);
+  if(!m) return /^(none|transparent)$/i.test(String(farg||"").trim());
+  let h=m[1]; if(h.length===3) h=h.split("").map(c=>c+c).join("");
+  const [r,g,b]=[0,2,4].map(i=>parseInt(h.slice(i,i+2),16)/255);
+  return 0.2126*r+0.7152*g+0.0722*b>0.78;
+}
+function kvSegmentIRuta(a,b,r){
+  // Liang–Barsky: skär sträckan a–b rektangeln r?
+  let t0=0,t1=1; const dx=b.x-a.x, dy=b.y-a.y;
+  const p=[-dx,dx,-dy,dy], qv=[a.x-r.x0,r.x1-a.x,a.y-r.y0,r.y1-a.y];
+  for(let i=0;i<4;i++){
+    if(p[i]===0){ if(qv[i]<0) return false; }
+    else{ const t=qv[i]/p[i]; if(p[i]<0){ if(t>t1) return false; if(t>t0) t0=t; } else { if(t<t0) return false; if(t<t1) t1=t; } }
+  }
+  return true;
+}
+let kvRitbord=null;
+function kvFigur(q){
+  const html=[q.t,q.spelIntro].filter(Boolean).join(" ");
+  if(!/<svg/i.test(html)) return [];
+  if(!kvRitbord){
+    kvRitbord=document.createElement("div");
+    kvRitbord.setAttribute("aria-hidden","true");
+    kvRitbord.style.cssText="position:fixed;left:-20000px;top:0;width:1200px;opacity:0;pointer-events:none";
+    document.body.appendChild(kvRitbord);
+  }
+  const fel=[];
+  const svgs=(String(q.t||"").match(/<svg[\s\S]*?<\/svg>/gi)||[]);
+  svgs.forEach((kod,si)=>{
+    kvRitbord.innerHTML=kod;
+    const svg=kvRitbord.querySelector("svg"); if(!svg) return;
+    const vb=svg.viewBox?.baseVal;
+    if(vb && vb.width){ svg.style.width=vb.width+"px"; svg.style.height=vb.height+"px"; }
+    const sr=svg.getBoundingClientRect();
+    const pt=(el,x,y)=>{ const m=el.getScreenCTM(); const p=svg.createSVGPoint(); p.x=x; p.y=y; const r=p.matrixTransform(m); return {x:r.x,y:r.y}; };
+    const syns=el=>{ const cs=getComputedStyle(el); return cs.display!=="none" && cs.visibility!=="hidden" && cs.opacity!=="0"; };
+    const linjer=[];
+    const ordning=new Map([...svg.querySelectorAll("*")].map((el,i)=>[el,i]));
+    const streck=el=>{ const cs=getComputedStyle(el); return {farg:cs.stroke, bredd:parseFloat(cs.strokeWidth)||0}; };
+    const tung=el=>{ const s=streck(el); return s.bredd>=1.4 && !kvLjus(el.getAttribute("stroke")||"") && s.farg!=="none"; };
+    const nyLinje=(el,a,b)=>linjer.push(Object.assign([a,b],{ord:ordning.get(el)}));
+    svg.querySelectorAll("line").forEach(el=>{ if(!syns(el)||!tung(el)) return;
+      const g=n=>el[n].baseVal.value; nyLinje(el,pt(el,g("x1"),g("y1")),pt(el,g("x2"),g("y2"))); });
+    svg.querySelectorAll("polyline,polygon").forEach(el=>{ if(!syns(el)||!tung(el)) return;
+      const p=[...el.points].map(x=>pt(el,x.x,x.y)); for(let i=1;i<p.length;i++) nyLinje(el,p[i-1],p[i]);
+      if(el.tagName.toLowerCase()==="polygon" && p.length>2) nyLinje(el,p[p.length-1],p[0]); });
+    svg.querySelectorAll("path").forEach(el=>{ if(!syns(el)||!tung(el)) return;
+      const d=el.getAttribute("d")||"";
+      if(!/^\s*M[\d\s.,-]+(L[\d\s.,-]+)+Z?\s*$/i.test(d) || /[a-km-yA-KN-Y]/.test(d.replace(/[MLZ]/gi,""))) return;
+      const tal=d.replace(/[MLZ]/gi," ").trim().split(/[\s,]+/).map(Number);
+      const p=[]; for(let i=0;i+1<tal.length;i+=2) p.push(pt(el,tal[i],tal[i+1]));
+      for(let i=1;i<p.length;i++) nyLinje(el,p[i-1],p[i]); });
+    /* Fyllda former som ritas ovanpå en linje döljer den (t.ex. en ledning bakom amperemeterns cirkel). */
+    const fyllda=[...svg.querySelectorAll("rect,circle,ellipse,polygon")].filter(el=>{
+      if(!syns(el)) return false;
+      const cs=getComputedStyle(el);
+      return cs.fill && cs.fill!=="none" && !/rgba\([^)]*,\s*0\)/.test(cs.fill) && (parseFloat(cs.fillOpacity)||1)>0.5;
+    }).map(el=>({ord:ordning.get(el),r:el.getBoundingClientRect(),cirkel:/circle|ellipse/i.test(el.tagName)}));
+    const skymd=(linje,t)=>{
+      const cx=(t.r.x0+t.r.x1)/2, cy=(t.r.y0+t.r.y1)/2;
+      return fyllda.some(f=>f.ord>linje.ord && (f.cirkel
+        ? Math.hypot(cx-(f.r.left+f.r.right)/2,cy-(f.r.top+f.r.bottom)/2)<=Math.min(f.r.width,f.r.height)/2
+        : cx>=f.r.left && cx<=f.r.right && cy>=f.r.top && cy<=f.r.bottom));
+    };
+    const cirklar=[];
+    svg.querySelectorAll("circle,ellipse").forEach(el=>{ if(!syns(el)||!tung(el)) return;
+      const m=el.getScreenCTM(); const r=(el.r?el.r.baseVal.value:el.rx.baseVal.value)*Math.abs(m.a);
+      if(r<12) return; cirklar.push({c:pt(el,el.cx.baseVal.value,el.cy.baseVal.value),r}); });
+    // Roterad text (t.ex. längs en linje) får en missvisande rak ruta och hoppas över.
+    const rak=el=>{ const m=el.getScreenCTM(); return !m || (Math.abs(m.b)<1e-6 && Math.abs(m.c)<1e-6); };
+    const texter=[...svg.querySelectorAll("text")].filter(el=>syns(el) && el.textContent.trim() && rak(el)).map(el=>{
+      const b=el.getBoundingClientRect();
+      // Bara linjer genom textens mitt räknas; etiketter som ligger an mot en linje är avsiktliga.
+      const kx=b.width*0.30, ky=b.height*0.36;
+      return {txt:el.textContent.trim(), r:{x0:b.left+kx,x1:b.right-kx,y0:b.top+ky,y1:b.bottom-ky}, hel:b};
+    }).filter(t=>t.r.x1>t.r.x0 && t.r.y1>t.r.y0);
+    const krock=new Map();
+    const lagg=(t,vad)=>{ if(!krock.has(t.txt)) krock.set(t.txt,new Set()); krock.get(t.txt).add(vad); };
+    texter.forEach(t=>{
+      if(t.hel.left<sr.left-2 || t.hel.right>sr.right+2 || t.hel.top<sr.top-2 || t.hel.bottom>sr.bottom+2) lagg(t,"utanför bilden");
+      if(linjer.some(l=>kvSegmentIRuta(l[0],l[1],t.r) && !skymd(l,t))) lagg(t,"linje");
+      cirklar.forEach(c=>{
+        const nx=Math.max(t.r.x0,Math.min(c.c.x,t.r.x1)), ny=Math.max(t.r.y0,Math.min(c.c.y,t.r.y1));
+        const nara=Math.hypot(nx-c.c.x,ny-c.c.y);
+        const fjarr=Math.max(...[[t.r.x0,t.r.y0],[t.r.x1,t.r.y0],[t.r.x0,t.r.y1],[t.r.x1,t.r.y1]].map(([x,y])=>Math.hypot(x-c.c.x,y-c.c.y)));
+        if(nara<c.r-1 && fjarr>c.r+1) lagg(t,"cirkel");
+      });
+    });
+    for(let i=0;i<texter.length;i++) for(let j=i+1;j<texter.length;j++){
+      const a=texter[i].r, b=texter[j].r;
+      if(a.x0<b.x1 && b.x0<a.x1 && a.y0<b.y1 && b.y0<a.y1){ lagg(texter[i],"annan etikett"); lagg(texter[j],"annan etikett"); }
+    }
+    /* Små fynd: siffror vid axlar, eller en enda kort etikett (högst två tecken) som en linje
+       går igenom. Tydliga fynd: flera krockar i samma figur, längre etiketter, text över text
+       och text utanför bilden. */
+    krock.forEach((vad,txt)=>{
+      const baraLinje=[...vad].every(v=>v==="linje");
+      const axeltal=/^[−-]?\d+(?:[.,]\d+)?$/.test(txt) && baraLinje;
+      const kort=baraLinje && krock.size===1 && txt.replace(/\s/g,"").length<=2;
+      fel.push({text:`${svgs.length>1?"figur "+(si+1)+": ":""}"${txt.slice(0,24)}" – ${[...vad].join(", ")}`,liten:axeltal||kort});
+    });
+  });
+  kvRitbord.innerHTML="";
+  return fel;
+}
+
+/* ── Kontroll 3: kortinledningar i plural ── */
+const KV_PLURAL=/\b(?:varje (?:funktion|föremål|kropp|fall|ekvation|uttryck|integral|tal|ekvationssystem|polynom|graf|kurva|talföljd|situation|del)|ekvationerna|uttrycken|integralerna|funktionerna|derivatorna|gränsvärdena|olikheterna|ekvationssystemen|polynomen|talföljderna|följande (?:uttryck|ekvationer|funktioner|integraler|tal)|i alla (?:två|tre|fyra|fem) fallen|deluppgifterna)\b/i;
+function kvPlural(t){
+  if(t.spelDelning!=="deluppgifter" || !Array.isArray(t.spelDelar) || t.spelDelar.length<2) return [];
+  const m=kvText(t.spelIntro).match(KV_PLURAL);
+  return m ? [`"${m[0]}" i inledningen: ${kvText(t.spelIntro).slice(0,90)}`] : [];
+}
+
+/* ── Kontroll 4: miniräknare ── */
+const KV_JAMNA_VINKLAR=new Set([0,30,45,60,90,120,135,150,180,210,225,240,270,300,315,330,360]);
+function kvFulTal(x){
+  if(typeof x!=="number" || !Number.isFinite(x) || Number.isInteger(x)) return false;
+  for(let n=2;n<=12;n++) if(Math.abs(x*n-Math.round(x*n))<1e-9) return false;
+  const s=String(Math.abs(x));
+  return !(s.split(".")[1]?.length<=2 && s.replace(".","").replace(/^0+/,"").length<=3);
+}
+function kvRaknare(t,kurs){
+  if(t["miniräknare"]!==false) return [];
+  if(COURSES[kurs]?.subject==="Fysik") return ["fysik ska alltid ha miniräknare"];
+  if(!kvMatte(kurs) || KV_RAKNARE_GRANSKADE.has(kurs+":"+t.id)) return [];
+  const txt=kvText(t.t);
+  if(/exakt|utan (?:mini)?räknare|utan digitalt|huvudräkning|överslag/i.test(txt)) return [];
+  const skal=[];
+  if(/digitalt verktyg|geogebra/i.test(txt)) skal.push("digitalt verktyg efterfrågas");
+  if(/avrunda|decimal|värdesiffr|närmevärde|≈/i.test(txt)) skal.push("avrundning eller decimaler efterfrågas");
+  const tal=(function plocka(v){ return Array.isArray(v)?v.flatMap(plocka):[v]; })(t["rättSvar"]).filter(v=>typeof v==="number");
+  if(tal.some(kvFulTal)) skal.push("svaret har många decimaler");
+  const vinklar=[...txt.matchAll(/(?:sin|cos|tan)\s*\(?\s*(\d+(?:[.,]\d+)?)\s*°/g)].map(m=>parseFloat(m[1].replace(",",".")));
+  if(vinklar.some(v=>!KV_JAMNA_VINKLAR.has(v))) skal.push("trigonometri med ojämn vinkel");
+  return skal.length ? [skal.join("; ")] : [];
+}
+
+/* ── Körning ── */
+async function kvLaddaKurs(kurs){
+  const k=COURSES[kurs];
+  for(const f of k.files) await loadScript(f);
+  return window[k.globals.bank]||[];
+}
+async function kvKor(){
+  if(kv.kor) return;
+  kv.kor=true; kv.fynd=[]; kv.status="Hämtar bedömda fynd …"; kvRita();
+  const okr=await klassRpc("kg_admin_kvalitet_ok_lista");
+  kv.ok=new Map(); kv.okSaknas=!!okr?.saknas;
+  (okr?.lista||[]).forEach(o=>kv.ok.set(o.kurs+"|"+o.uppgift+"|"+o.kontroll,o.signatur||""));
+  const kurser=kv.kurs==="alla" ? Object.keys(COURSES) : [kv.kurs];
+  for(const kurs of kurser){
+    kv.status=`Granskar ${COURSES[kurs].name} …`; kvRita();
+    let bank;
+    try{ bank=await kvLaddaKurs(kurs); }catch(e){ kv.fynd.push({kurs,id:"–",kontroll:"facit",detalj:["kunde inte ladda banken"]}); continue; }
+    for(let i=0;i<bank.length;i++){
+      const t=bank[i]; if(!t || t.spel===false) continue;
+      const lagg=(kontroll,detalj,id)=>{ if(detalj.length) kv.fynd.push({kurs,id:id||t.id,kontroll,detalj,uppgift:t}); };
+      lagg("plural",kvPlural(t));
+      lagg("raknare",kvRaknare(t,kurs));
+      let kort; try{ kort=expandGameTask(t); }catch(_){ kort=[t]; }
+      kort.forEach(q=>{
+        lagg("facit",kvFacit(q),q.id);
+        const fig=kvFigur(q);
+        if(fig.length){
+          const stora=fig.filter(x=>!x.liten);
+          kv.fynd.push({kurs,id:q.id,kontroll:"figur",detalj:(stora.length?stora:fig).map(x=>x.text),liten:!stora.length,uppgift:t});
+        }
+      });
+      if(i%40===39){ kv.status=`Granskar ${COURSES[kurs].name} … ${i+1}/${bank.length}`; kvRita(true); await new Promise(r=>setTimeout(r,0)); }
+    }
+  }
+  kv.fynd.forEach(f=>{ f.sig=kvSignatur(f.kontroll+"|"+f.detalj.join("|")); });
+  kv.kor=false; kv.status=""; kvRita();
+}
+function kvArOk(f){ const s=kv.ok.get(f.kurs+"|"+f.id+"|"+f.kontroll); return s!==undefined && s===f.sig; }
+async function kvMarkera(nr,ok){
+  const f=kv.fynd?.[nr]; if(!f) return;
+  const r=await klassRpc("kg_admin_kvalitet_ok",{p_kurs:f.kurs,p_uppgift:String(f.id),p_kontroll:f.kontroll,p_signatur:f.sig,p_ok:ok});
+  if(r?.saknas){ toast("Kör sql/2026-10-07-kvalitet.sql i Supabase först."); return; }
+  if(!r?.ok){ toast("Kunde inte spara."); return; }
+  const k=f.kurs+"|"+f.id+"|"+f.kontroll;
+  ok ? kv.ok.set(k,f.sig) : kv.ok.delete(k);
+  kvRita();
+}
+
+/* ── Visning ── */
+function kvSynliga(){
+  return (kv.fynd||[]).map((f,nr)=>({...f,nr})).filter(f=>(kv.visaOk || !kvArOk(f)) && (kv.visaSma || !f.liten) && (!kv.filter || f.kontroll===kv.filter));
+}
+function kvRapportText(){
+  const rader=["Kvalitetsrapport · Kunskapsgymmet · "+new Date().toLocaleDateString("sv-SE"),""];
+  let kurs=null;
+  kvSynliga().forEach(f=>{
+    if(f.kurs!==kurs){ kurs=f.kurs; rader.push("",(COURSES[kurs]?.name||kurs)+"  ["+kurs+"]"); }
+    rader.push(`  #${f.id}  ${KV_KONTROLL[f.kontroll].kort}`+f.detalj.map(d=>"\n      "+d).join(""));
+  });
+  return rader.join("\n");
+}
+function kvKopiera(){
+  navigator.clipboard?.writeText(kvRapportText()).then(()=>toast("Rapporten är kopierad.")).catch(()=>toast("Kunde inte kopiera."));
+}
+function kvVisaUppgift(nr,knapp){
+  const f=kv.fynd?.[nr]; const box=document.getElementById("kvvisa-"+nr); if(!f||!box) return;
+  if(!box.hidden){ box.hidden=true; knapp.textContent="Visa"; return; }
+  let q=f.uppgift;
+  try{ q=expandGameTask(f.uppgift).find(x=>String(x.id)===String(f.id))||f.uppgift; }catch(_){}
+  box.innerHTML=`<div class="kvuppgift tbody">${q.t||""}</div>
+    <p class="kvfacit"><b>Facit:</b> ${esc(JSON.stringify(q["rättSvar"]))}${q.svarFormat?` · format ${esc(JSON.stringify(q.svarFormat))}`:""}${q.svarEnhet?` · enhet ${esc(JSON.stringify(q.svarEnhet))}`:""} · miniräknare ${q["miniräknare"]===true?"ja":q["miniräknare"]===false?"nej":"–"}</p>`;
+  box.hidden=false; knapp.textContent="Dölj";
+  renderMath(box);
+}
+let kvRitaTimer=null;
+function kvRita(snabb){
+  const host=document.getElementById("adminlista"); if(!host || kgAdminFlik!=="kvalitet") return;
+  if(snabb){ const s=document.getElementById("kvstatus"); if(s){ s.textContent=kv.status; return; } }
+  const fynd=kv.fynd;
+  const antal=k=>(fynd||[]).filter(f=>f.kontroll===k && (kv.visaOk || !kvArOk(f)) && (kv.visaSma || !f.liten)).length;
+  const sma=(fynd||[]).filter(f=>f.liten && (kv.visaOk || !kvArOk(f))).length;
+  const syn=kvSynliga();
+  let kurs=null;
+  host.innerHTML=`<div class="kvtopp">
+      <select class="admin-sok" id="kvkurs" onchange="kv.kurs=this.value" ${kv.kor?"disabled":""}>
+        <option value="alla"${kv.kurs==="alla"?" selected":""}>Alla kurser</option>
+        ${Object.entries(COURSES).map(([id,c])=>`<option value="${id}"${kv.kurs===id?" selected":""}>${esc(c.name)}</option>`).join("")}
+      </select>
+      <button class="btn sm primary" onclick="kvKor()" ${kv.kor?"disabled":""}>${fynd?"Granska igen":"Granska"}</button>
+      ${fynd&&!kv.kor?`<button class="btn sm" onclick="kvKopiera()">Kopiera rapport</button>
+        <label class="kvvisaok"><input type="checkbox" ${kv.visaOk?"checked":""} onchange="kv.visaOk=this.checked;kvRita()"> Visa fynd markerade som OK</label>
+        <label class="kvvisaok"><input type="checkbox" ${kv.visaSma?"checked":""} onchange="kv.visaSma=this.checked;kvRita()"> Visa små fynd (siffror vid axlar${sma?", "+sma+" st":""})</label>`:""}
+    </div>
+    ${kv.kor?`<p class="modal-text" id="kvstatus">${esc(kv.status)}</p>`:""}
+    ${!fynd&&!kv.kor?`<p class="modal-text">Granskningen kontrollerar facit, figurer, kortinledningar och miniräknare i bankerna, med appens egen rättning och ritning.
+      Markera fynd som är rätt som <b>OK</b>, så visas de inte igen så länge uppgiften är oförändrad.
+      Kopiera rapporten och klistra in den i chatten med Claude för åtgärd i Uppgiftslabbet.</p>`:""}
+    ${kv.okSaknas?`<p class="modal-text">OK-markeringar kräver att sql/2026-10-07-kvalitet.sql är körd i Supabase.</p>`:""}
+    ${fynd&&!kv.kor?`<div class="kvchips">
+        <button class="${!kv.filter?"pa":""}" onclick="kv.filter=null;kvRita()">Alla <b>${Object.keys(KV_KONTROLL).reduce((s,k)=>s+antal(k),0)}</b></button>
+        ${Object.entries(KV_KONTROLL).map(([k,v])=>`<button class="${kv.filter===k?"pa":""}" onclick="kv.filter='${k}';kvRita()">${esc(v.txt)} <b>${antal(k)}</b></button>`).join("")}
+      </div>
+      ${syn.length?syn.slice(0,400).map(f=>{
+        const rubrik=f.kurs!==kurs ? `<h3 class="kvkurs">${esc(COURSES[f.kurs]?.name||f.kurs)}</h3>` : "";
+        kurs=f.kurs;
+        const ok=kvArOk(f);
+        return `${rubrik}<div class="kvfynd${ok?" kvok":""}">
+            <div class="kvrad"><span><b>#${esc(f.id)}</b> <span class="kvtyp kvtyp-${f.kontroll}">${esc(KV_KONTROLL[f.kontroll].kort)}</span>
+              <small>${f.detalj.map(esc).join("<br>")}</small></span>
+              <span class="kvknappar"><button class="btn sm quiet" onclick="kvVisaUppgift(${f.nr},this)">Visa</button>
+              <button class="btn sm ${ok?"":"quiet"}" onclick="kvMarkera(${f.nr},${ok?"false":"true"})">${ok?"Ångra OK":"OK"}</button></span></div>
+            <div class="kvvisa" id="kvvisa-${f.nr}" hidden></div></div>`;
+      }).join("")+(syn.length>400?`<p class="modal-text">Visar de första 400 av ${syn.length}. Filtrera på en kontroll eller kurs.</p>`:"")
+      :`<p class="modal-text">Inga fynd${kv.filter?" för den här kontrollen":""}. 🎉</p>`}`:""}`;
 }
 </script>
 </body>
